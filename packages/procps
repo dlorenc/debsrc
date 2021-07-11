@@ -1,0 +1,27 @@
+Package: procps
+Binary: procps, libprocps8, libprocps-dev
+Version: 2:3.3.17-5
+Maintainer: Craig Small <csmall@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec (>= 0.3), libncurses5-dev, libncursesw5-dev, dejagnu, libnuma-dev [amd64 i386 ia64 mips mipsel mips64 mips64el powerpc ppc64el], pkg-config, libsystemd-dev (>= 209) [linux-any]
+Architecture: any
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 345171f6fd68e4c7841467d7c514c5aa 2136 procps_3.3.17-5.dsc
+ d60613e88c2f442ebd462b5a75313d56 1008428 procps_3.3.17.orig.tar.xz
+ 46ea1b4b1fe71652a402adbcb15150c0 28608 procps_3.3.17-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/procps
+Vcs-Git: https://salsa.debian.org/debian/procps.git
+Checksums-Sha256:
+ 3b1d9a3d3bc9ec24360ed20721d4235fcd4b4dbb9a86c1eba6c42899a50ecff8 2136 procps_3.3.17-5.dsc
+ 4518b3e7aafd34ec07d0063d250fd474999b20b200218c3ae56f5d2113f141b4 1008428 procps_3.3.17.orig.tar.xz
+ e6b5f9ef22eca9f03f79dc79b4c389249368216df8702a8cc380e10f29eda8c9 28608 procps_3.3.17-5.debian.tar.xz
+Homepage: https://gitlab.com/procps-ng/procps
+Package-List: 
+ libprocps-dev deb libdevel optional arch=any
+ libprocps8 deb libs optional arch=any
+ procps deb admin important arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/procps
+Priority: source
+Section: admin

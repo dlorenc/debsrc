@@ -1,0 +1,26 @@
+Package: sudo
+Binary: sudo, sudo-ldap
+Version: 1.9.5p2-3
+Maintainer: Sudo Maintainers <sudo@packages.debian.org>
+Uploaders: Marc Haber <mh+debian-packages@zugschlus.de>, Hanno Wagner <wagner@debian.org>, Hilko Bengen <bengen@debian.org>, Bastian Blank <waldi@debian.org>
+Build-Depends: debhelper (>= 10), libpam0g-dev, libldap2-dev, libsasl2-dev, libselinux1-dev [linux-any], autoconf, bison, flex, libaudit-dev [linux-any], mandoc, zlib1g-dev
+Architecture: any
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 745be13508a77e1da3e050bc4266e68f 2142 sudo_1.9.5p2-3.dsc
+ e6bc4c18c06346e6b3431637a2b5f3d5 4012277 sudo_1.9.5p2.orig.tar.gz
+ 84d09cb10b2ad1c2ad43cc50d3707d44 26276 sudo_1.9.5p2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/sudo-team/sudo
+Vcs-Git: https://salsa.debian.org/sudo-team/sudo.git
+Checksums-Sha256:
+ c83ac95dc2ba1226470042e3477422935f6b90f30d33cd42094af922a1af572e 2142 sudo_1.9.5p2-3.dsc
+ 539e2ef43c8a55026697fb0474ab6a925a11206b5aa58710cb42a0e1c81f0978 4012277 sudo_1.9.5p2.orig.tar.gz
+ cd12a37fc0f21d83205ae827ad4e1cd329ffcc159644efd6335e7e6f80235612 26276 sudo_1.9.5p2-3.debian.tar.xz
+Homepage: https://www.sudo.ws/
+Package-List: 
+ sudo deb admin optional arch=any
+ sudo-ldap deb admin optional arch=any
+Directory: pool/main/s/sudo
+Priority: source
+Section: admin

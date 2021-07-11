@@ -1,0 +1,30 @@
+Package: cl-portable-aserve
+Binary: cl-aserve, cl-acl-compat, cl-htmlgen, cl-webactions
+Version: 20190720.gitcac1d69+dfsg-1
+Maintainer: Debian Common Lisp Team <debian-common-lisp@lists.debian.org>
+Uploaders: Peter Van Eynde <pvaneynd@debian.org>
+Build-Depends: debhelper-compat (= 13), debhelper (>= 12.8~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 96fea8fa7c89acec2d63641bc926536c 2389 cl-portable-aserve_20190720.gitcac1d69+dfsg-1.dsc
+ 7661f1b9c9b7f7bfd1aae97a68a865dc 456492 cl-portable-aserve_20190720.gitcac1d69+dfsg.orig.tar.xz
+ 72c6e2e45cb632ede1d5a894c9044a06 9596 cl-portable-aserve_20190720.gitcac1d69+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/common-lisp-team/cl-portable-aserve
+Vcs-Git: https://salsa.debian.org/common-lisp-team/cl-portable-aserve.git
+Checksums-Sha256:
+ b06afe59db8143bee3c4b7afa9b8f17b7a9d061f2b277ff123c282b5479afc91 2389 cl-portable-aserve_20190720.gitcac1d69+dfsg-1.dsc
+ ff5df16d8f1202813b3b84531689eb89bfbbbc9ed814b0f1ddf34bd75de9be68 456492 cl-portable-aserve_20190720.gitcac1d69+dfsg.orig.tar.xz
+ 8deaf6683d627d924b6518234e127cc61d03abda9548b4d0920c81067f69217f 9596 cl-portable-aserve_20190720.gitcac1d69+dfsg-1.debian.tar.xz
+Homepage: http://portableaserve.sourceforge.net/
+Package-List: 
+ cl-acl-compat deb lisp optional arch=all
+ cl-aserve deb lisp optional arch=all
+ cl-htmlgen deb lisp optional arch=all
+ cl-webactions deb lisp optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clisp, sbcl
+Directory: pool/main/c/cl-portable-aserve
+Priority: source
+Section: lisp

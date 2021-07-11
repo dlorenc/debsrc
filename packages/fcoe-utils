@@ -1,0 +1,26 @@
+Package: fcoe-utils
+Binary: fcoe-utils
+Version: 1.0.33+git20200925.848bcc6-1
+Maintainer: Debian FCoE Team <team+fcoe@tracker.debian.org>
+Uploaders: Jacob Luna Lundberg <jacob@gnifty.net>, Valentin Vidic <vvidic@debian.org>, tony mancill <tmancill@debian.org>
+Build-Depends: autoconf, automake, debhelper-compat (= 13), dpkg-dev (>= 1.16.1~), libpciaccess-dev, lldpad-dev (>= 0.9.43), pkg-config, systemd
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a5400c3330608bc50213d7feda08f8bd 2291 fcoe-utils_1.0.33+git20200925.848bcc6-1.dsc
+ de8fd46335162f470473bad67ededebe 149630 fcoe-utils_1.0.33+git20200925.848bcc6.orig.tar.gz
+ c344c8eaf6015cb46edd351ea7ee7185 8092 fcoe-utils_1.0.33+git20200925.848bcc6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fcoe-team/fcoe-utils
+Vcs-Git: https://salsa.debian.org/fcoe-team/fcoe-utils.git
+Checksums-Sha256:
+ 5d35d9100c1d677fe1b58958666ed2ea06869e5e7c2037e74467843906f730c4 2291 fcoe-utils_1.0.33+git20200925.848bcc6-1.dsc
+ ac828a70ed55e58f90152bb6a593f5da1750c28299b1cada70d991362d503811 149630 fcoe-utils_1.0.33+git20200925.848bcc6.orig.tar.gz
+ 99a104afbe34c5b593a8974aea7152a4da85fbaf5ce7c057905965c7cee24c5b 8092 fcoe-utils_1.0.33+git20200925.848bcc6-1.debian.tar.xz
+Homepage: https://github.com/openSUSE/fcoe-utils
+Package-List: 
+ fcoe-utils deb misc optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/f/fcoe-utils
+Priority: optional
+Section: misc

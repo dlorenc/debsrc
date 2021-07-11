@@ -1,0 +1,28 @@
+Package: haskell-hackage-security
+Binary: libghc-hackage-security-dev, libghc-hackage-security-prof, libghc-hackage-security-doc
+Version: 0.6.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-base16-bytestring-dev (>= 0.1.1), libghc-base16-bytestring-dev (<< 0.2), libghc-base16-bytestring-prof, libghc-base64-bytestring-dev (<< 1.1), libghc-base64-bytestring-dev (>= 1.0), libghc-base64-bytestring-prof, libghc-cryptohash-sha256-dev (>= 0.11), libghc-cryptohash-sha256-dev (<< 0.12), libghc-cryptohash-sha256-prof, libghc-ed25519-dev (<< 0.1), libghc-ed25519-dev (>= 0.0), libghc-ed25519-prof, libghc-network-dev, libghc-network-prof, libghc-network-uri-dev, libghc-network-uri-prof, libghc-tar-dev, libghc-tar-prof, libghc-zlib-dev, libghc-zlib-prof, libghc-quickcheck2-dev (>= 2.11) <!nocheck>, libghc-quickcheck2-dev (<< 2.14) <!nocheck>, libghc-aeson-dev (>= 1.4) <!nocheck>, libghc-aeson-dev (<< 1.5) <!nocheck>, libghc-tasty-dev (>= 1.2) <!nocheck>, libghc-tasty-dev (<< 1.3) <!nocheck>, libghc-tasty-hunit-dev (>= 0.10) <!nocheck>, libghc-tasty-quickcheck-dev (>= 0.9) <!nocheck>, libghc-temporary-dev (>= 1.2) <!nocheck>, libghc-temporary-dev (<< 1.4) <!nocheck>, libghc-unordered-containers-dev (>= 0.2.8.0) <!nocheck>, libghc-unordered-containers-dev (<< 0.3) <!nocheck>, libghc-vector-dev (>= 0.12) <!nocheck>, libghc-vector-dev (<< 0.13) <!nocheck>
+Build-Depends-Indep: ghc-doc, libghc-base16-bytestring-doc, libghc-base64-bytestring-doc, libghc-cryptohash-sha256-doc, libghc-ed25519-doc, libghc-network-doc, libghc-network-uri-doc, libghc-tar-doc, libghc-zlib-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f085b6b5a3bbb17896533d9a71decb53 3816 haskell-hackage-security_0.6.0.1-2.dsc
+ d501d49ee6a06009e0e01222b1998d45 86006 haskell-hackage-security_0.6.0.1.orig.tar.gz
+ 95395444580b8dd7a308dac63f206805 3448 haskell-hackage-security_0.6.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hackage-security
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hackage-security]
+Checksums-Sha256:
+ 92fa88a4affd47a9bccfda333a206556bcb6e83b99bacb8d4f25ffb4a6b1c92d 3816 haskell-hackage-security_0.6.0.1-2.dsc
+ 9162b473af5a21c1ff32a50b972b9acf51f4c901604a22cf08a2dccac2f82f17 86006 haskell-hackage-security_0.6.0.1.orig.tar.gz
+ 78110fda7f55485a047dd2c556f8567197eb8a4fe80f70ac0ab561df621619da 3448 haskell-hackage-security_0.6.0.1-2.debian.tar.xz
+Homepage: https://github.com/haskell/hackage-security
+Package-List: 
+ libghc-hackage-security-dev deb haskell optional arch=any
+ libghc-hackage-security-doc deb doc optional arch=all
+ libghc-hackage-security-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hackage-security
+Priority: optional
+Section: misc

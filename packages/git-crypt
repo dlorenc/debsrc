@@ -1,0 +1,23 @@
+Package: git-crypt
+Binary: git-crypt
+Version: 0.6.0-1
+Maintainer: Andrew Ayer <agwa@andrewayer.name>
+Build-Depends: debhelper (>= 9), libssl-dev | libssl1.0-dev, xsltproc, docbook-xml, docbook-xsl
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ a5ff60bdf285debb0fe8e80b76ff7b07 1809 git-crypt_0.6.0-1.dsc
+ 9c62e3d9b7495e1e5c7682de14fca45c 57275 git-crypt_0.6.0.orig.tar.gz
+ a0194ba77853ff0b735bfbc0ec728841 9836 git-crypt_0.6.0-1.debian.tar.xz
+Vcs-Git: https://www.agwa.name/git/git-crypt.git -b debian
+Checksums-Sha256:
+ 886bceb2e390d0da9612075615dd8093c438e90b36ee8f22a3f92bc6d22418f0 1809 git-crypt_0.6.0-1.dsc
+ 6d30fcd99442d50f4b3c8d554067ff1d980cdf9f3120ee774131172dba98fd6f 57275 git-crypt_0.6.0.orig.tar.gz
+ 2db4063e1a02a2e12c9af63e55658df268ecbc8771cd80aee01da97e0f075fa4 9836 git-crypt_0.6.0-1.debian.tar.xz
+Homepage: https://www.agwa.name/projects/git-crypt
+Package-List: 
+ git-crypt deb vcs optional arch=any
+Directory: pool/main/g/git-crypt
+Priority: optional
+Section: misc

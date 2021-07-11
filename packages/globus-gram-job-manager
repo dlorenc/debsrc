@@ -1,0 +1,25 @@
+Package: globus-gram-job-manager
+Binary: globus-gram-job-manager, globus-seg-job-manager
+Version: 15.5-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-gsi-credential-dev (>= 5), libglobus-gass-cache-dev (>= 8), libglobus-gass-transfer-dev (>= 7), libglobus-gram-protocol-dev (>= 11), libglobus-gssapi-gsi-dev (>= 10), libglobus-gss-assist-dev (>= 8), libglobus-gsi-sysconfig-dev (>= 5), libglobus-callout-dev (>= 3), libglobus-xio-dev (>= 3), libglobus-xio-popen-driver-dev (>= 2), libglobus-rsl-dev (>= 9), libglobus-gram-job-manager-callout-error-dev (>= 2), libglobus-scheduler-event-generator-dev (>= 4), libssl-dev, libxml2-dev, libglobus-io-dev (>= 9), libglobus-gram-client-dev (>= 13.10), libglobus-gass-server-ez-dev (>= 2), globus-common-progs (>= 15), globus-gatekeeper (>= 9), globus-gram-client-tools (>= 10), globus-gass-copy-progs (>= 8), globus-gass-cache-program (>= 5), globus-gram-job-manager-scripts (>= 6), globus-proxy-utils (>= 5), globus-gsi-cert-utils-progs, globus-gram-job-manager-fork, openssl
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d9c180b9b36efde6cd0e60dedbe146b1 2979 globus-gram-job-manager_15.5-1.dsc
+ 42a515237e5949402a1b580a4742c735 744448 globus-gram-job-manager_15.5.orig.tar.gz
+ 224424de5205deb98f445c4618acbfc1 4852 globus-gram-job-manager_15.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gram-job-manager
+Vcs-Git: https://salsa.debian.org/ellert/globus-gram-job-manager.git
+Checksums-Sha256:
+ 5871316868481725bdc3e0238afe3fb8810aefa7ddab9af0655c1f32e0032fdc 2979 globus-gram-job-manager_15.5-1.dsc
+ d374beaa95f2d770bfd53a88ef3d1c29e5b0814f81f1255ed8994d5d0fa3fe95 744448 globus-gram-job-manager_15.5.orig.tar.gz
+ 057ef0a07a09c91b0fb0b1fa6ad08cd73718e0922cc44386bca7909f9607de82 4852 globus-gram-job-manager_15.5-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ globus-gram-job-manager deb net optional arch=any
+ globus-seg-job-manager deb libs optional arch=any
+Directory: pool/main/g/globus-gram-job-manager
+Priority: source
+Section: net

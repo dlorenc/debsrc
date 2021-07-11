@@ -1,0 +1,32 @@
+Package: qbs
+Binary: qbs, qbs-common, libqbscore1.18, qbs-dev, qbs-examples, qbs-doc, qbs-doc-html
+Version: 1.18.0-5
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Dmitry Shachnev <mitya57@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Adam Majer <adamm@zombino.com>, Simon Quigley <tsimonq2@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-kde-tools, qtbase5-dev (>= 5.14.0), qtdeclarative5-private-dev, qtscript5-dev, qttools5-dev-tools
+Build-Depends-Indep: libqt5sql5-sqlite
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 886e2a200f5d3752a0ddd0eca520c20d 2475 qbs_1.18.0-5.dsc
+ 1d638bde605205a1c138b28a634cdec4 4921432 qbs_1.18.0.orig.tar.gz
+ 6f5557f6987297b63c0351cdae174621 32176 qbs_1.18.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qbs/
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qbs.git
+Checksums-Sha256:
+ a702391b6026d884f6bb2c56c7e68212665ae459e93603d6319fa5c37c6c65e2 2475 qbs_1.18.0-5.dsc
+ 3d0211e021bea3e56c4d5a65c789d11543cc0b6e88f1bfe23c2f8ebf0f89f8d4 4921432 qbs_1.18.0.orig.tar.gz
+ f2dad1cfae274bdc2c661ae0782cef8d265bc2d1679e256519e484e42eb104a0 32176 qbs_1.18.0-5.debian.tar.xz
+Homepage: https://wiki.qt.io/Qbs
+Package-List: 
+ libqbscore1.18 deb libs optional arch=any
+ qbs deb devel optional arch=any
+ qbs-common deb devel optional arch=all
+ qbs-dev deb libdevel optional arch=any
+ qbs-doc deb doc optional arch=all
+ qbs-doc-html deb doc optional arch=all
+ qbs-examples deb doc optional arch=all
+Directory: pool/main/q/qbs
+Priority: optional
+Section: misc

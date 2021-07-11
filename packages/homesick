@@ -1,0 +1,27 @@
+Package: homesick
+Binary: homesick
+Version: 1.1.6-3
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Alexander GQ Gerasiov <gq@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, git, rake, ruby-capture-output, ruby-coveralls, ruby-rspec, ruby-test-construct
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 08da10c80bea406b70d28a69eae1a026 1737 homesick_1.1.6-3.dsc
+ b22156442b8613e9a9f0ac37cc3b225e 18059 homesick_1.1.6.orig.tar.gz
+ b53499d7b6bd19d6f631b98d26241f0a 5448 homesick_1.1.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/homesick
+Vcs-Git: https://salsa.debian.org/ruby-team/homesick.git
+Checksums-Sha256:
+ e9cb4ca3eef2b0afc72c027d726596e21a3207e738789f8c59d50e4b8491fcca 1737 homesick_1.1.6-3.dsc
+ 81a0034110d7d51e61eb61f809b2e8c31eef094834ba2b2eaf7d94ceda28d219 18059 homesick_1.1.6.orig.tar.gz
+ 278a5cd81a1c646c21f482fb81cb3737e7d103e092e22539a125828c27dcc9f2 5448 homesick_1.1.6-3.debian.tar.xz
+Homepage: https://github.com/technicalpickles/homesick
+Package-List: 
+ homesick deb utils optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/h/homesick
+Priority: optional
+Section: utils

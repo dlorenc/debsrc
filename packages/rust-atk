@@ -1,0 +1,30 @@
+Package: rust-atk
+Binary: librust-atk-dev, librust-atk+dox-dev, librust-atk+embed-lgpl-docs-dev, librust-atk+v2-30-dev
+Version: 0.7.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atk-sys-0.9+default-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-glib-0.8+default-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ e5411e4c0b597ac3315913c8cc511254 2637 rust-atk_0.7.0-1.dsc
+ 5d73860c603b3481b8bd80ece0743fee 43814 rust-atk_0.7.0.orig.tar.gz
+ 5c1b9f6d084efb3ef6a9a193a576e6be 2912 rust-atk_0.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/atk
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/atk]
+Checksums-Sha256:
+ cd09a4963c8ce8e01f6808b17656caf93a158a7040a0709a378823a343b6ee63 2637 rust-atk_0.7.0-1.dsc
+ 86b7499272acf036bb5820c6e346bbfb5acc5dceb104bc2c4fd7e6e33dfcde6a 43814 rust-atk_0.7.0.orig.tar.gz
+ 34d6e3b38df0b9e77e88fd0d71174cbc7228f899ac2e29949dfb176aa96f74dd 2912 rust-atk_0.7.0-1.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-atk+dox-dev deb rust optional arch=any
+ librust-atk+embed-lgpl-docs-dev deb rust optional arch=any
+ librust-atk+v2-30-dev deb rust optional arch=any
+ librust-atk-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-gir-format-check-0.1+default-dev
+Directory: pool/main/r/rust-atk
+Priority: extra
+Section: misc

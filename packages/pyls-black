@@ -1,0 +1,25 @@
+Package: pyls-black
+Binary: python3-pyls-black
+Version: 0.4.6-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Otto Kekäläinen <otto@debian.org>, Julian Gilbey <jdg@debian.org>
+Build-Depends: black, debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pkg-resources <!nocheck>, python3-pyls, python3-pytest <!nocheck>, python3-setuptools, python3-toml
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5dc6a4528eb39695d33f0ed1b73b8e4a 2153 pyls-black_0.4.6-3.dsc
+ 208d2a51a393da09ba8299534f02bcdd 5121 pyls-black_0.4.6.orig.tar.gz
+ 72e44641d61680a141ba0fdee4393967 2360 pyls-black_0.4.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyls-black
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyls-black.git
+Checksums-Sha256:
+ c466cd762af5ffdbe3fcc31d0009779b0bbea29cb51cbb9e6e08973df4cf15f5 2153 pyls-black_0.4.6-3.dsc
+ c591f57b28852e095dafb87cdd3d16fc3dfe188ec199b728f34569d472d63150 5121 pyls-black_0.4.6.orig.tar.gz
+ 5ef701d1c995efa3eac76572aa6227af910a4a240206e3a66cc6181dd3344e3a 2360 pyls-black_0.4.6-3.debian.tar.xz
+Homepage: https://github.com/rupert/pyls-black
+Package-List: 
+ python3-pyls-black deb python optional arch=all
+Directory: pool/main/p/pyls-black
+Priority: extra
+Section: misc

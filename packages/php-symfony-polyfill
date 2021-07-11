@@ -1,0 +1,45 @@
+Package: php-symfony-polyfill
+Binary: php-symfony-polyfill, php-symfony-polyfill-apcu, php-symfony-polyfill-ctype, php-symfony-polyfill-iconv, php-symfony-polyfill-intl-grapheme, php-symfony-polyfill-intl-icu, php-symfony-polyfill-intl-idn, php-symfony-polyfill-intl-messageformatter, php-symfony-polyfill-intl-normalizer, php-symfony-polyfill-mbstring, php-symfony-polyfill-php72, php-symfony-polyfill-php73, php-symfony-polyfill-php74, php-symfony-polyfill-php80, php-symfony-polyfill-php81, php-symfony-polyfill-util, php-symfony-polyfill-uuid, php-symfony-polyfill-xml
+Version: 1.22.1-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Daniel Beyer <dabe@deb.ymc.ch>, David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), jq, php-intl, php-ldap, php-mbstring, php-symfony-intl, php-symfony-var-dumper, php-uuid, phpab, phpunit, pkg-php-tools
+Build-Conflicts: php-apcu-bc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b259cb721d038604c002b14f27cde3cf 3524 php-symfony-polyfill_1.22.1-1.dsc
+ 8131156e58b9395cb106dadc4313e4c1 1164483 php-symfony-polyfill_1.22.1.orig.tar.gz
+ 48c9971f8c0a705d41c3689532a2407f 8184 php-symfony-polyfill_1.22.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-symfony-polyfill
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-symfony-polyfill.git -b debian/latest
+Checksums-Sha256:
+ bb5bdc09eebfabf3dd2c96e0fc556730ce52444e2f2b8a211d6db386ba31834f 3524 php-symfony-polyfill_1.22.1-1.dsc
+ 8c1d307447e8492425a5dcb6066316b1b6ee7a101a9df094f526e1a44781843e 1164483 php-symfony-polyfill_1.22.1.orig.tar.gz
+ 94d862613479046c91ced0ffeaeb966df1b915b1194bd73b6b1a18ad82eab6a6 8184 php-symfony-polyfill_1.22.1-1.debian.tar.xz
+Homepage: https://symfony.com
+Package-List: 
+ php-symfony-polyfill deb php optional arch=all
+ php-symfony-polyfill-apcu deb php optional arch=all
+ php-symfony-polyfill-ctype deb php optional arch=all
+ php-symfony-polyfill-iconv deb php optional arch=all
+ php-symfony-polyfill-intl-grapheme deb php optional arch=all
+ php-symfony-polyfill-intl-icu deb php optional arch=all
+ php-symfony-polyfill-intl-idn deb php optional arch=all
+ php-symfony-polyfill-intl-messageformatter deb php optional arch=all
+ php-symfony-polyfill-intl-normalizer deb php optional arch=all
+ php-symfony-polyfill-mbstring deb php optional arch=all
+ php-symfony-polyfill-php72 deb php optional arch=all
+ php-symfony-polyfill-php73 deb php optional arch=all
+ php-symfony-polyfill-php74 deb php optional arch=all
+ php-symfony-polyfill-php80 deb php optional arch=all
+ php-symfony-polyfill-php81 deb php optional arch=all
+ php-symfony-polyfill-util deb php optional arch=all
+ php-symfony-polyfill-uuid deb php optional arch=all
+ php-symfony-polyfill-xml deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-intl, php-ldap, php-mbstring, php-symfony-intl, php-symfony-var-dumper, php-uuid, phpunit
+Directory: pool/main/p/php-symfony-polyfill
+Priority: optional
+Section: misc

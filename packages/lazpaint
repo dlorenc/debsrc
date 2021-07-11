@@ -1,0 +1,26 @@
+Package: lazpaint
+Binary: lazpaint-gtk2, lazpaint-qt5
+Version: 7.1.6-1
+Maintainer: Johann ELSASS <circular@operamail.com>
+Uploaders: Gürkan Myczko <gurkan@phys.ethz.ch>
+Build-Depends: fpc, lcl, lazarus, libqt5pas-dev, debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a000abbf2a6623cf8f9156d72004bd05 2000 lazpaint_7.1.6-1.dsc
+ 153e5042c2d8a2a96858bae4f77a791d 6149389 lazpaint_7.1.6.orig.tar.gz
+ 6e54a85e71b2dadb21bf67b601ea3adc 3380 lazpaint_7.1.6-1.debian.tar.xz
+Vcs-Browser: https://github.com/bgrabitmap/lazpaint-upstream
+Vcs-Git: https://github.com/bgrabitmap/lazpaint-upstream.git
+Checksums-Sha256:
+ 5253a8f6cc2b71bf1ffb7503a318faf57468237e4511d5323b06513c8e177c32 2000 lazpaint_7.1.6-1.dsc
+ 7883aa7cda910df054c49f26f8fb8383d6068efb70f34183826890e03b8da87c 6149389 lazpaint_7.1.6.orig.tar.gz
+ b40cc27d8c947028c715dc805ae92598603f9367b35299c54cad38b2c6cb3400 3380 lazpaint_7.1.6-1.debian.tar.xz
+Homepage: https://wiki.freepascal.org/LazPaint
+Package-List: 
+ lazpaint-gtk2 deb graphics optional arch=any
+ lazpaint-qt5 deb graphics optional arch=any
+Directory: pool/main/l/lazpaint
+Priority: extra
+Section: misc

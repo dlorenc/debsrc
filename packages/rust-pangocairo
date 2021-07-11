@@ -1,0 +1,29 @@
+Package: rust-pangocairo
+Binary: librust-pangocairo-dev, librust-pangocairo+dox-dev, librust-pangocairo+embed-lgpl-docs-dev, librust-pangocairo+gtk-rs-lgpl-docs-dev, librust-pangocairo+purge-lgpl-docs-dev
+Version: 0.8.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-cairo-rs-0.7+default-dev <!nocheck>, librust-cairo-sys-rs-0.9+default-dev <!nocheck>, librust-glib-0.8+default-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pango-0.7+default-dev <!nocheck>, librust-pango-sys-0.9+default-dev <!nocheck>, librust-pangocairo-sys-0.10+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f573846b9bf1192c5cbc911eaae0c889 2625 rust-pangocairo_0.8.0-1.dsc
+ 3bfff88bb954b34939b73e153c60a7f9 6016 rust-pangocairo_0.8.0.orig.tar.gz
+ abb0923930b090720e3b298b3c62f2bd 2712 rust-pangocairo_0.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pangocairo
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pangocairo]
+Checksums-Sha256:
+ 42c0b5644706c52797d04970cad272eaf7842310f44da839c96dd7dd7811c1c4 2625 rust-pangocairo_0.8.0-1.dsc
+ 225d69c6bec87666f18f8bf37034ce1aabd547366b8efa798b814bad49cb0dcf 6016 rust-pangocairo_0.8.0.orig.tar.gz
+ bcdf1ee23940d073e0ced9eb64fcf04ac48efcf6dbe1552f72f7bff66492e41d 2712 rust-pangocairo_0.8.0-1.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-pangocairo+dox-dev deb rust optional arch=any
+ librust-pangocairo+embed-lgpl-docs-dev deb rust optional arch=any
+ librust-pangocairo+gtk-rs-lgpl-docs-dev deb rust optional arch=any
+ librust-pangocairo+purge-lgpl-docs-dev deb rust optional arch=any
+ librust-pangocairo-dev deb rust optional arch=any
+Directory: pool/main/r/rust-pangocairo
+Priority: extra
+Section: misc

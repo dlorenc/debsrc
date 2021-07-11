@@ -1,0 +1,26 @@
+Package: xmlrpc-light
+Binary: libxmlrpc-light-ocaml-dev
+Version: 0.6.1-5
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Pietro Abate <pietro.abate@pps.jussieu.fr>, Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: cdbs, debhelper (>= 7), ocaml-nox, libocamlnet-ocaml-dev (>= 4.0.4), libxml-light-ocaml-dev, libnethttpd-ocaml-dev, ocaml-findlib, dh-ocaml (>= 0.9)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 655774dd20d7a1b3ae9f2263b27a2ea5 1942 xmlrpc-light_0.6.1-5.dsc
+ 9b3b9a36442236fdddb15faeaed86339 223780 xmlrpc-light_0.6.1.orig.tar.gz
+ 77b67a0c7bdb7d03208338ae8145d22b 5780 xmlrpc-light_0.6.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/xmlrpc-light
+Vcs-Git: https://salsa.debian.org/ocaml-team/xmlrpc-light.git
+Checksums-Sha256:
+ 893ae746a829fb429ee8463fb0205a56e2ee0471e47d58d5dedc22d212812533 1942 xmlrpc-light_0.6.1-5.dsc
+ 87539b62e1f8375506b0e81111bfa67ee54ee260fa02176b85e1df19cfabbc20 223780 xmlrpc-light_0.6.1.orig.tar.gz
+ 708ac51dce0b8aec42e7f423580a230adebde9baffde9ef55787a409b90255a0 5780 xmlrpc-light_0.6.1-5.debian.tar.xz
+Homepage: http://code.google.com/p/xmlrpc-light/
+Dgit: 30c87a1fee9541ff4dfc05b25e3fd536c519479d debian archive/debian/0.6.1-5 https://git.dgit.debian.org/xmlrpc-light
+Package-List: 
+ libxmlrpc-light-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/x/xmlrpc-light
+Priority: source
+Section: libdevel

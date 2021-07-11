@@ -1,0 +1,30 @@
+Package: cacti
+Binary: cacti
+Version: 1.2.16+ds1-2
+Maintainer: Cacti Maintainer <pkg-cacti-maint@lists.alioth.debian.org>
+Uploaders: Paul Gevers <elbrus@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-linktree (>= 0.5~), libjs-jquery-colorpicker, libjs-jquery-jstree, libjs-jquery-ui-theme-south-street, libjs-jquery-ui-theme-ui-darkness, libjs-jquery-ui-theme-smoothness, gettext, pandoc (>= 2), po-debconf
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 17457cbcc9f09003cd89ab571c30b704 2237 cacti_1.2.16+ds1-2.dsc
+ 203a2ac99af6ea4a209e505647b398d8 13562956 cacti_1.2.16+ds1.orig-docs-source.tar.gz
+ 29b74097553ab9693820a1e71fc67083 7423308 cacti_1.2.16+ds1.orig.tar.gz
+ 829232c329cdadd3606f9efcad2cbd4c 56760 cacti_1.2.16+ds1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cacti-team/cacti
+Vcs-Git: https://salsa.debian.org/cacti-team/cacti.git
+Checksums-Sha256:
+ f04c0e6982ed1194c865404d92bfa965a4d9370ed2bda977b7d082ac9036171f 2237 cacti_1.2.16+ds1-2.dsc
+ ce2d29621353ef096a8844ddedb96cc4cd5d2e11a6a26f1022cecbb2a4583fcd 13562956 cacti_1.2.16+ds1.orig-docs-source.tar.gz
+ 2084865fda2f2f6ae0286cce87d9d9886e49a0b3c105228d99226cc027384511 7423308 cacti_1.2.16+ds1.orig.tar.gz
+ 4a63d4c0fd6e48571fc4b93659f61210c73959ad6fd1767fec39dc611d738782 56760 cacti_1.2.16+ds1-2.debian.tar.xz
+Homepage: https://www.cacti.net/
+Dgit: c88d840621a0ec96058f5c03fff13b47c922a399 debian archive/debian/1.2.16+ds1-2 https://git.dgit.debian.org/cacti
+Package-List: 
+ cacti deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, mysql-server, wget
+Directory: pool/main/c/cacti
+Priority: source
+Section: web

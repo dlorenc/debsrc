@@ -1,0 +1,26 @@
+Package: rust-schannel
+Binary: librust-schannel-dev
+Version: 0.1.19-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+lmcons-dev <!nocheck>, librust-winapi-0.3+minschannel-dev <!nocheck>, librust-winapi-0.3+schannel-dev <!nocheck>, librust-winapi-0.3+securitybaseapi-dev <!nocheck>, librust-winapi-0.3+sspi-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>, librust-winapi-0.3+timezoneapi-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+wincrypt-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 391756b54be20aea9ad1f7c648e13bd9 2643 rust-schannel_0.1.19-1.dsc
+ f505a218806e44b2369671089d65e839 42755 rust-schannel_0.1.19.orig.tar.gz
+ eebd6e68b1027280bf75213d113fd3d4 2724 rust-schannel_0.1.19-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/schannel
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/schannel]
+Checksums-Sha256:
+ 7e19bc74d4a38040dc55162e5728377f0f851032d26fe4d827762d5794de0302 2643 rust-schannel_0.1.19-1.dsc
+ 8f05ba609c234e60bee0d547fe94a4c7e9da733d1c962cf6e59efa4cd9c8bc75 42755 rust-schannel_0.1.19.orig.tar.gz
+ 9793b3580517af385e079afe5594734ab65b9750c9c4d199263a9b877959d785 2724 rust-schannel_0.1.19-1.debian.tar.xz
+Package-List: 
+ librust-schannel-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-schannel
+Priority: extra
+Section: misc

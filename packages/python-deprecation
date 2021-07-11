@@ -1,0 +1,27 @@
+Package: python-deprecation
+Binary: python3-deprecation
+Version: 2.1.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@alioth-lists.debian.net>
+Uploaders: Ondřej Kobližek <kobla@debian.org>, Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: python3-packaging, python3-unittest2
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 85dd66256f1a37cea3132245fd73ab6e 2263 python-deprecation_2.1.0-1.dsc
+ 64e99ea0bf8370a47ad4b280fd19721b 16673 python-deprecation_2.1.0.orig.tar.gz
+ 186c84ba1ba5424ed3edb9e0e460d88b 7904 python-deprecation_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-deprecation
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-deprecation.git
+Checksums-Sha256:
+ 9ef8eea1436bddad1ece91ed33e34357d28567984f52d337dc54302fbfc03013 2263 python-deprecation_2.1.0-1.dsc
+ 604d0feea21b26c934fdf45e53f8de34c70bd9cc88e1345fab5db54c5fab8188 16673 python-deprecation_2.1.0.orig.tar.gz
+ b9d5162132185590fd6e750a3ed5e301458436c1e540871f6282bfa427ed596f 7904 python-deprecation_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/briancurtin/deprecation
+Package-List: 
+ python3-deprecation deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/p/python-deprecation
+Priority: extra
+Section: misc

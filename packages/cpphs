@@ -1,0 +1,29 @@
+Package: cpphs
+Binary: cpphs, libghc-cpphs-dev, libghc-cpphs-prof, libghc-cpphs-doc
+Version: 1.20.9.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-polyparse-dev (>= 1.13), libghc-polyparse-dev (<< 1.14), libghc-polyparse-prof
+Build-Depends-Indep: ghc-doc, libghc-polyparse-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d5009e5597c3de7f142e4bff5721ff14 2372 cpphs_1.20.9.1-1.dsc
+ a3a9902c2de8820e9aa022fd632645fb 45496 cpphs_1.20.9.1.orig.tar.gz
+ 953452ee9d7e16fc37cbe00fa175e031 4484 cpphs_1.20.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/cpphs
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/cpphs]
+Checksums-Sha256:
+ dc091802b4cbd6bc129509d8d8754e8ec7da5e19f29a89be71cb3643a7922675 2372 cpphs_1.20.9.1-1.dsc
+ 7f59b10bc3374004cee3c04fa4ee4a1b90d0dca84a3d0e436d5861a1aa3b919f 45496 cpphs_1.20.9.1.orig.tar.gz
+ 00ab8ce184fa4d09b6fcfcbf3ee0f0fada26ac2d04cee8421ef0433b5c011eda 4484 cpphs_1.20.9.1-1.debian.tar.xz
+Homepage: http://projects.haskell.org/cpphs/
+Package-List: 
+ cpphs deb haskell optional arch=any
+ libghc-cpphs-dev deb haskell optional arch=any
+ libghc-cpphs-doc deb doc optional arch=all
+ libghc-cpphs-prof deb haskell optional arch=any
+Directory: pool/main/c/cpphs
+Priority: source
+Section: haskell

@@ -1,0 +1,28 @@
+Package: haskell-hsemail
+Binary: libghc-hsemail-dev, libghc-hsemail-prof, libghc-hsemail-doc
+Version: 2.2.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>, Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-time-compat-dev (>= 1.9), libghc-time-compat-dev (<< 1.10), libghc-time-compat-prof
+Build-Depends-Indep: ghc-doc, libghc-time-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7898dd9f40e8506a4acc0d128df5b4db 2451 haskell-hsemail_2.2.0-1.dsc
+ bc27ae8cd506f774dc78e1b0e8c701c8 19270 haskell-hsemail_2.2.0.orig.tar.gz
+ 1db86e98921ee598f2c0b6be207f27a4 3280 haskell-hsemail_2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hsemail
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hsemail]
+Checksums-Sha256:
+ b4899db379e865ce5a5221f287c3062e3d0d88b151c77b415b2c57c42c48fb0e 2451 haskell-hsemail_2.2.0-1.dsc
+ 04fdf2c678c6cee3ed7109e41f26d1543bffea95869daf0cb5fa656bb5b0e800 19270 haskell-hsemail_2.2.0.orig.tar.gz
+ 8705ccf3c036243248d4fcfc70cc8b98db10e4634fcc3c832d2dbafb9f7e2c09 3280 haskell-hsemail_2.2.0-1.debian.tar.xz
+Homepage: https://github.com/peti/hsemail#readme
+Package-List: 
+ libghc-hsemail-dev deb haskell optional arch=any
+ libghc-hsemail-doc deb doc optional arch=all
+ libghc-hsemail-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hsemail
+Priority: source
+Section: haskell

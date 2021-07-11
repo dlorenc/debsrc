@@ -1,0 +1,28 @@
+Package: rust-subtle
+Binary: librust-subtle-dev, librust-subtle+default-dev
+Version: 2.1.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 28bbc05f407b540aa27b195e4a14e88d 1583 rust-subtle_2.1.1-2.dsc
+ 9564d444a8534f663bc078386cc2aaa3 10251 rust-subtle_2.1.1.orig.tar.gz
+ e610107801a8279e8c09ae63680917d7 3028 rust-subtle_2.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/subtle
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/subtle]
+Checksums-Sha256:
+ dd4fd60fe7853b676c0f901c477cd97b48e19fb25c4c0d73ff9b123061e4667e 1583 rust-subtle_2.1.1-2.dsc
+ 7d9a37467a0b32c942ec9262293808d8b3842a647790716d87356ccc52e0c4ee 10251 rust-subtle_2.1.1.orig.tar.gz
+ 70bfde6b0090b6bd118f9805749b01fcb26d57ddd67b00be1e62f58cd1a23a34 3028 rust-subtle_2.1.1-2.debian.tar.xz
+Homepage: https://dalek.rs/
+Package-List: 
+ librust-subtle+default-dev deb rust optional arch=any
+ librust-subtle-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-subtle
+Priority: extra
+Section: misc

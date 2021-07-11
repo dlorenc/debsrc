@@ -1,0 +1,27 @@
+Package: node-eslint-scope
+Binary: node-eslint-scope
+Version: 5.1.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-chai <!nocheck>, node-espree (>= 6) <!nocheck>, node-esrecurse <!nocheck>, node-estraverse <!nocheck>, pandoc <!nodoc>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 39782b25297511dfe7a7ecb219896df3 2265 node-eslint-scope_5.1.1-1.dsc
+ 45e8896244722a081bb5051c343d326a 32983 node-eslint-scope_5.1.1.orig.tar.gz
+ e4cd7deb13209d1f5e58878ca15a66e8 4924 node-eslint-scope_5.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-eslint-scope
+Vcs-Git: https://salsa.debian.org/js-team/node-eslint-scope.git
+Checksums-Sha256:
+ 8d7184c2ea025f68cbc3bca7c6e4450d3f222b62c58cbdfa5e2741bd7644dc9e 2265 node-eslint-scope_5.1.1-1.dsc
+ eb46113a3d25c59285db05f7ea3d6d50a3aaaed187f5d408aed18839d75dbdb8 32983 node-eslint-scope_5.1.1.orig.tar.gz
+ bbf1b57ea96c199f4c10497c481b00f33c74abe047f33aa83630261925171e71 4924 node-eslint-scope_5.1.1-1.debian.tar.xz
+Homepage: https://github.com/eslint/eslint-scope
+Package-List: 
+ node-eslint-scope deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha, node-chai, node-espree, node-esrecurse, node-estraverse
+Directory: pool/main/n/node-eslint-scope
+Priority: extra
+Section: misc

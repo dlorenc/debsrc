@@ -1,0 +1,29 @@
+Package: flite
+Binary: flite, libflite1, flite1-dev
+Version: 2.2-2
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Lukas Loehrer <loehrerl@gmx.net>, Paul Gevers <elbrus@debian.org>, Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.16.1~), ed, libasound2-dev [linux-any], texinfo (>= 5.2~), texlive
+Build-Conflicts: autoconf2.13
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a93dc62c8e349422141c4887fae2fcfd 2178 flite_2.2-2.dsc
+ 31f84ece0078906780f07942c0cd978c 20233792 flite_2.2.orig.tar.gz
+ 42b0f9c9af5d66f8b388f8f62d91efd8 48156 flite_2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/flite
+Vcs-Git: https://salsa.debian.org/a11y-team/flite.git
+Checksums-Sha256:
+ 5b041a8046efe1076f199394661d3d5475b0caf3493b549d070908fe94b92e1e 2178 flite_2.2-2.dsc
+ ab1555fe5adc3f99f1d4a1a0eb1596d329fd6d74f1464a0097c81f53c0cf9e5c 20233792 flite_2.2.orig.tar.gz
+ 818eefa2ef4e638984003f47ec25405285287f157b4ea4ab4f5740201c3ccc6a 48156 flite_2.2-2.debian.tar.xz
+Homepage: http://www.speech.cs.cmu.edu/flite
+Package-List: 
+ flite deb sound optional arch=any
+ flite1-dev deb devel optional arch=any
+ libflite1 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/f/flite
+Priority: source
+Section: sound

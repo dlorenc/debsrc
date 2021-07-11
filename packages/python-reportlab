@@ -1,0 +1,28 @@
+Package: python-reportlab
+Binary: python3-reportlab, python3-reportlab-accel, python3-reportlab-accel-dbg, python3-renderpm, python3-renderpm-dbg, python-reportlab-doc
+Version: 3.5.59-1
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper (>= 10), dh-python, python3-all-dev, python3-all-dbg, python3-setuptools, libfreetype6-dev, sharutils
+Build-Depends-Indep: python3-pil, python3-sphinx
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 88e74e40aca7ef29d195b3d26bce8754 2342 python-reportlab_3.5.59-1.dsc
+ 838741f007ba5f7bfd9dc7d4d4569438 2904089 python-reportlab_3.5.59.orig.tar.gz
+ 6d9347d045da2eb62b622e42682e7378 13036 python-reportlab_3.5.59-1.debian.tar.xz
+Checksums-Sha256:
+ 7beeb845bc83e957834d3f59c54025927b7b368f3b7f6cc990b0480775af05ae 2342 python-reportlab_3.5.59-1.dsc
+ a755cca2dcf023130b03bb671670301a992157d5c3151d838c0b68ef89894536 2904089 python-reportlab_3.5.59.orig.tar.gz
+ 7523228de79e7fabfc0b464a1f8716355b6cae309d99773b1a7846b16281d343 13036 python-reportlab_3.5.59-1.debian.tar.xz
+Homepage: https://www.reportlab.com/opensource/
+Package-List: 
+ python-reportlab-doc deb doc optional arch=all
+ python3-renderpm deb python optional arch=any
+ python3-renderpm-dbg deb debug optional arch=any
+ python3-reportlab deb python optional arch=all
+ python3-reportlab-accel deb python optional arch=any
+ python3-reportlab-accel-dbg deb debug optional arch=any
+Directory: pool/main/p/python-reportlab
+Priority: source
+Section: python

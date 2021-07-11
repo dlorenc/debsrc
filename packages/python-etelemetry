@@ -1,0 +1,27 @@
+Package: python-etelemetry
+Binary: python3-etelemetry
+Version: 0.2.0-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Yaroslav Halchenko <debian@onerussian.com>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 21a1147f08f0930caebf14b6a4586a6f 2232 python-etelemetry_0.2.0-4.dsc
+ 4d7916e4892c330faf48c64a695e8420 24718 python-etelemetry_0.2.0.orig.tar.gz
+ 09118f13a41f927487d3867e5e02e3e5 3488 python-etelemetry_0.2.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-etelemetry
+Vcs-Git: https://salsa.debian.org/med-team/python-etelemetry.git
+Checksums-Sha256:
+ fc13b0962c8cfa407560fb469d5d858fae94dc4e16ffbd659bea5375f77cfaa0 2232 python-etelemetry_0.2.0-4.dsc
+ 9cd047f8281330eca98a73acbeeaff0588ddaae56b073b1f30c903f4a33e3062 24718 python-etelemetry_0.2.0.orig.tar.gz
+ 957bbd5ba5fdec2963b8997316698a16e30f213918efb1afce9494260c847574 3488 python-etelemetry_0.2.0-4.debian.tar.xz
+Homepage: https://github.com/sensein/etelemetry-client/
+Package-List: 
+ python3-etelemetry deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-etelemetry
+Priority: extra
+Section: misc

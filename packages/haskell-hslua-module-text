@@ -1,0 +1,28 @@
+Package: haskell-hslua-module-text
+Binary: libghc-hslua-module-text-dev, libghc-hslua-module-text-prof, libghc-hslua-module-text-doc
+Version: 0.2.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-hslua-dev (>= 1.0.3), libghc-hslua-dev (<< 1.2), libghc-hslua-prof, libghc-tasty-dev, libghc-tasty-hunit-dev
+Build-Depends-Indep: ghc-doc, libghc-hslua-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3006d2709c8fdf38cc6ffc048173f213 2554 haskell-hslua-module-text_0.2.1-2.dsc
+ d1adac4b2fb77447a48baf1b011d053f 3498 haskell-hslua-module-text_0.2.1.orig.tar.gz
+ 60236bc75239e20850f078f2363f07a9 2244 haskell-hslua-module-text_0.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hslua-module-text
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git
+Checksums-Sha256:
+ d64cba8d314c49f10582a2f4538dd26fcb40ac32395980f04f01b3a788b529b2 2554 haskell-hslua-module-text_0.2.1-2.dsc
+ 1302d9022e9beea0cf4f09f977d7ca0956c598d0bf15945de5a52dd8f7e66dc6 3498 haskell-hslua-module-text_0.2.1.orig.tar.gz
+ 590f03f0889b12463a74393f6e4a50f0c3e4b4df8d9889865fbf101ff4a207d6 2244 haskell-hslua-module-text_0.2.1-2.debian.tar.xz
+Homepage: https://github.com/hslua/hslua-module-text
+Package-List: 
+ libghc-hslua-module-text-dev deb haskell optional arch=any
+ libghc-hslua-module-text-doc deb doc optional arch=all
+ libghc-hslua-module-text-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hslua-module-text
+Priority: extra
+Section: misc

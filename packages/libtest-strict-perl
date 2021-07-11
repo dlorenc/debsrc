@@ -1,0 +1,27 @@
+Package: libtest-strict-perl
+Binary: libtest-strict-perl
+Version: 0.52-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: perl, libdevel-cover-perl <!nocheck>, libio-stringy-perl <!nocheck>, libmoose-autobox-perl <!nocheck>, libtest-simple-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ cbdaad96aa3047ff6106608b4e3cb1e5 2413 libtest-strict-perl_0.52-1.dsc
+ d0bacf3430620aa6a673309d49752dd1 20932 libtest-strict-perl_0.52.orig.tar.gz
+ 20100d5e8292ca8795005e60ac4fea63 3676 libtest-strict-perl_0.52-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-strict-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-strict-perl.git
+Checksums-Sha256:
+ fd93971072bdf6930e1720e89af5dad0fb84d4c9843a64a7d398b4596eab58d3 2413 libtest-strict-perl_0.52-1.dsc
+ 27dbd2f219cfa6f5ea68a468723dad7851fd936ed0aba19676fb6a92df6ca6d8 20932 libtest-strict-perl_0.52.orig.tar.gz
+ 13e4dbaab597a638e1d15019e0a447db8708dbf660971c0848be0e83f4057f4a 3676 libtest-strict-perl_0.52-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Strict
+Package-List: 
+ libtest-strict-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-strict-perl
+Priority: source
+Section: perl

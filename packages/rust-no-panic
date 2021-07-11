@@ -1,0 +1,26 @@
+Package: rust-no-panic
+Binary: librust-no-panic-dev
+Version: 0.1.13-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+full-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 430acbb278d8e1cb16a567f6a5e8a1ca 2294 rust-no-panic_0.1.13-1.dsc
+ 4035a2a0bd7dc1080ec0d0597947a51c 9622 rust-no-panic_0.1.13.orig.tar.gz
+ 4fad6be39b01452fb550778cefdfd01c 2720 rust-no-panic_0.1.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/no-panic
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/no-panic]
+Checksums-Sha256:
+ 3c9295324ee66cfe3394b38e509d0e390e4a9690165fbbb67e6ec4fe4ec9bf16 2294 rust-no-panic_0.1.13-1.dsc
+ b4da21758193a9f8a8f1dc698f121e70e8df07c71e4968e49762a5604bbdf72b 9622 rust-no-panic_0.1.13.orig.tar.gz
+ 05859abe9454b76fd9044276d164ef9f96e63425c48877213c74a0ae459ac138 2720 rust-no-panic_0.1.13-1.debian.tar.xz
+Package-List: 
+ librust-no-panic-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-no-panic
+Priority: extra
+Section: misc

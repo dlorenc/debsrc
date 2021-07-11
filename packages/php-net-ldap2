@@ -1,0 +1,27 @@
+Package: php-net-ldap2
+Binary: php-net-ldap2
+Version: 2.2.0-6
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Benoit Mortier <benoit.mortier@opensides.be>, Prach Pongpanich <prach@debian.org>, Guilhem Moulin <guilhem@debian.org>
+Build-Depends: debhelper-compat (= 13), php-pear (>= 1.10.1), phpunit (>= 9~) <!nocheck>, pkg-php-tools (>= 1.32)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ebed030053c7899c148c44682ec92063 2180 php-net-ldap2_2.2.0-6.dsc
+ 47cf5e486c1c9b7b400f0e8855452458 96134 php-net-ldap2_2.2.0.orig.tar.gz
+ 716d4f124ac6aaf4a655ac7e0a0347ef 5096 php-net-ldap2_2.2.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-net-ldap2
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-net-ldap2.git
+Checksums-Sha256:
+ 9c78e929733c0f7c1022fef47be2ca222951080ebfb4a8620606c8370a3279df 2180 php-net-ldap2_2.2.0-6.dsc
+ e57ec63f6691f5a73abc5ea96208b098ab6ad5fc141765015ad0af1ed3b50c5f 96134 php-net-ldap2_2.2.0.orig.tar.gz
+ 7cd4c1e1ade47bbfa2adc7b63f4ab1de22c180b3550ced4604c7db0f5b3a7d31 5096 php-net-ldap2_2.2.0-6.debian.tar.xz
+Homepage: https://pear.php.net/package/Net_LDAP2/
+Package-List: 
+ php-net-ldap2 deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/p/php-net-ldap2
+Priority: source
+Section: php

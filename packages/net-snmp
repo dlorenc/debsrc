@@ -1,0 +1,35 @@
+Package: net-snmp
+Binary: snmpd, snmptrapd, snmp, libsnmp-base, libsnmp40, libnetsnmptrapd40, libsnmp-dev, libsnmp-perl, tkmib
+Version: 5.9+dfsg-3
+Maintainer: Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>
+Uploaders: Craig Small <csmall@debian.org>, Thomas Anders <tanders@users.sourceforge.net>, Noah Meyerhans <noahm@debian.org>
+Build-Depends: debhelper-compat (= 12), libtool, libwrap0-dev, libssl-dev, perl:any (>= 5.8), perl-xs-dev, autoconf, automake, debianutils (>= 1.13.1), bash (>= 2.05), findutils (>= 4.1.20), procps, pkg-config, libbsd-dev [kfreebsd-i386 kfreebsd-amd64], libkvm-dev [kfreebsd-i386 kfreebsd-amd64], libsensors-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], default-libmysqlclient-dev, libpci-dev
+Build-Conflicts: libsnmp-dev
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4afc4c6302ad4d1e6ebea1daf43dffa8 2819 net-snmp_5.9+dfsg-3.dsc
+ 6c2d346ce3320e8999500497e9bacc99 3513780 net-snmp_5.9+dfsg.orig.tar.xz
+ 8757281c6b6ff9c0a36fc552dd276a3c 68432 net-snmp_5.9+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/net-snmp
+Vcs-Git: https://salsa.debian.org/debian/net-snmp.git
+Checksums-Sha256:
+ 762b779a6df8c5037ad6a0cf7be55eb5a1c98df41f71baaba1216ad0758d5045 2819 net-snmp_5.9+dfsg-3.dsc
+ a153d0e867ded287285335e5055e67e0177959315f02ae6995401ddf9b10c8e8 3513780 net-snmp_5.9+dfsg.orig.tar.xz
+ 2a6832b1951377395d48e89dae76cc4dcff2adcb5d2a667b8aeb98d4ac5aff5c 68432 net-snmp_5.9+dfsg-3.debian.tar.xz
+Homepage: http://net-snmp.sourceforge.net/
+Package-List: 
+ libnetsnmptrapd40 deb libs optional arch=any
+ libsnmp-base deb libs optional arch=all
+ libsnmp-dev deb libdevel optional arch=any
+ libsnmp-perl deb perl optional arch=any
+ libsnmp40 deb libs optional arch=any
+ snmp deb net optional arch=any
+ snmpd deb net optional arch=any
+ snmptrapd deb net optional arch=any
+ tkmib deb net optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/net-snmp
+Priority: source
+Section: net

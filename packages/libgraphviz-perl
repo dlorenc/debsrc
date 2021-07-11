@@ -1,0 +1,28 @@
+Package: libgraphviz-perl
+Binary: libgraphviz-perl
+Version: 2.24-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominic Hargreaves <dom@earth.li>
+Build-Depends: debhelper-compat (= 13), perl
+Build-Depends-Indep: graphviz, libfile-which-perl <!nocheck>, libipc-run-perl <!nocheck>, libparse-recdescent-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-simple-perl <!nocheck>, libxml-twig-perl (>= 1:3.52) <!nocheck>, libxml-xpath-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c33b95199a43859c051d4a60acacf99e 2565 libgraphviz-perl_2.24-1.dsc
+ b57b32444e73d24cf9c374bf38bad699 95475 libgraphviz-perl_2.24.orig.tar.gz
+ 80d5a314801a56e8cb9807e448d87e7c 3244 libgraphviz-perl_2.24-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libgraphviz-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libgraphviz-perl.git
+Checksums-Sha256:
+ df9e8c4b65f2a680eb84da8d0a72777f6b3cb5fd86c7044a164fcedb39f15ded 2565 libgraphviz-perl_2.24-1.dsc
+ d95efac4cdeedb18283100efe3e00c59c1add524d9ce88c1c8a358359122f5ad 95475 libgraphviz-perl_2.24.orig.tar.gz
+ ac1319af025bf3c4bbbac3905e4ed0359ddf308e2ee3e1a51e3f484fc13f94d6 3244 libgraphviz-perl_2.24-1.debian.tar.xz
+Homepage: https://metacpan.org/release/GraphViz
+Dgit: a6e3051e3927ab66a4022d50b647b3a67223b57e debian archive/debian/2.24-1 https://git.dgit.debian.org/libgraphviz-perl
+Package-List: 
+ libgraphviz-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libg/libgraphviz-perl
+Priority: source
+Section: perl

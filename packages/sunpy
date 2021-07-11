@@ -1,0 +1,27 @@
+Package: sunpy
+Binary: python3-sunpy
+Version: 2.0.7-1
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev (>= 3.6~), python3-asdf, python3-astropy (>= 3.2~), python3-bs4, python3-distutils, python3-extension-helpers, python3-drms, python3-hypothesis, python3-matplotlib (>= 2.2.2~), python3-mock, python3-numpy, python3-pandas (>= 0.23.0~), python3-parfive, python3-pytest, python3-pytest-doctestplus, python3-pytest-mock, python3-requests, python3-scipy (>= 1.0.0~), python3-setuptools, python3-setuptools-scm, python3-skimage, python3-sqlalchemy, python3-suds, python3-tqdm, python3-zeep
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6126f8e6b55c90a0ca145d84c9aa80e2 2692 sunpy_2.0.7-1.dsc
+ 0b5b407ec2f792ce25fb20608c2368cf 8060871 sunpy_2.0.7.orig.tar.gz
+ 8fa928791ad3dfddddc6a0686f5f12c4 7212 sunpy_2.0.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/sunpy
+Vcs-Git: https://salsa.debian.org/debian-astro-team/sunpy.git
+Checksums-Sha256:
+ 8d73c2d3651f299f7b60c73ed002307e9dd622f65b7987598bfaa5c2786ca959 2692 sunpy_2.0.7-1.dsc
+ d13ac67c14ea825652dc3e12c4c627e782e8e843e96a1d54440d39dd2ceb6a5c 8060871 sunpy_2.0.7.orig.tar.gz
+ 039bea34ffb7025683828fe9024022fd54c6b300646fcbef49672d892e88a720 7212 sunpy_2.0.7-1.debian.tar.xz
+Homepage: https://sunpy.org/
+Package-List: 
+ python3-sunpy deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-bs4, python3-drms, python3-hypothesis, python3-mock, python3-parfive, python3-pytest, python3-pytest-doctestplus, python3-pytest-mock, python3-requests, python3-skimage, python3-sqlalchemy, python3-suds, python3-tk, python3-zeep
+Directory: pool/main/s/sunpy
+Priority: optional
+Section: misc

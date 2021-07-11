@@ -1,0 +1,26 @@
+Package: fish
+Binary: fish, fish-common
+Version: 3.1.2-3
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: bc, bsdmainutils, cmake, debhelper-compat (= 13), doxygen, expect, gettext, groff-base, libncurses5-dev, libpcre2-dev, locales-all, ninja-build, procps, python3, quilt
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bdccd487d3f8931d98d79b0a8809fb10 1833 fish_3.1.2-3.dsc
+ 2e9f12a250dccb9ab0529ae6f77710a0 6816214 fish_3.1.2.orig.tar.gz
+ a650fc24801073eb2bda42ab7deb6a9b 16872 fish_3.1.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/fish
+Vcs-Git: https://salsa.debian.org/debian/fish.git
+Checksums-Sha256:
+ 6f94ac058e1f321987845f07351559b28b2e40cb8b487a625e02c656b62369ba 1833 fish_3.1.2-3.dsc
+ d5b927203b5ca95da16f514969e2a91a537b2f75bec9b21a584c4cd1c7aa74ed 6816214 fish_3.1.2.orig.tar.gz
+ 313c9c5b9c5f102a92631438b16d8b59335142308278617a2a4a32b4d7e7da31 16872 fish_3.1.2-3.debian.tar.xz
+Homepage: http://fishshell.com/
+Package-List: 
+ fish deb shells optional arch=any
+ fish-common deb shells optional arch=all
+Directory: pool/main/f/fish
+Priority: source
+Section: shells

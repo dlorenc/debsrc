@@ -1,0 +1,28 @@
+Package: haskell-annotated-wl-pprint
+Binary: libghc-annotated-wl-pprint-dev, libghc-annotated-wl-pprint-prof, libghc-annotated-wl-pprint-doc
+Version: 0.7.0-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Ilias Tsitsimpis <iliastsi@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 660754d941ccd490d7aa0c8661f4f149 2523 haskell-annotated-wl-pprint_0.7.0-4.dsc
+ 8e0a78eb2f89858e237f260ca4aeaf41 10338 haskell-annotated-wl-pprint_0.7.0.orig.tar.gz
+ f884dc34ddd3274b28992019c75cedf3 2312 haskell-annotated-wl-pprint_0.7.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-annotated-wl-pprint
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-annotated-wl-pprint]
+Checksums-Sha256:
+ 9b391907632a668ec0377f2ecc05ea45c57faaa422eb57e6c6db5c9d8f141da2 2523 haskell-annotated-wl-pprint_0.7.0-4.dsc
+ 0c262d7fe13a9a50216438ec882c13e25f31236b886a5692e3c35b85cd773d18 10338 haskell-annotated-wl-pprint_0.7.0.orig.tar.gz
+ f01c8a8b3bccd9118300bf5ed5efffb6f8be39a37c5db726af609bd5d27a832d 2312 haskell-annotated-wl-pprint_0.7.0-4.debian.tar.xz
+Homepage: https://github.com/david-christiansen/annotated-wl-pprint
+Package-List: 
+ libghc-annotated-wl-pprint-dev deb haskell optional arch=any
+ libghc-annotated-wl-pprint-doc deb doc optional arch=all
+ libghc-annotated-wl-pprint-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-annotated-wl-pprint
+Priority: extra
+Section: misc

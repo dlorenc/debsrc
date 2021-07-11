@@ -1,0 +1,29 @@
+Package: haskell-regex-tdfa
+Binary: libghc-regex-tdfa-dev, libghc-regex-tdfa-prof, libghc-regex-tdfa-doc
+Version: 1.3.1.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Erik de Castro Lopo <erikd@mega-nerd.com>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-regex-base-dev (>= 0.94), libghc-regex-base-dev (<< 0.95), libghc-regex-base-prof
+Build-Depends-Indep: ghc-doc, libghc-regex-base-doc
+Build-Conflicts: libghc-parsec2-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 66f194078b99bca70abf5db54bd3fd74 2522 haskell-regex-tdfa_1.3.1.0-2.dsc
+ a2b351903c33e31a4f68a77963235b66 77767 haskell-regex-tdfa_1.3.1.0.orig.tar.gz
+ 5d72b60bc37fc3db13a1852e9a2f36ed 4404 haskell-regex-tdfa_1.3.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-regex-tdfa
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-regex-tdfa]
+Checksums-Sha256:
+ a49fb22fb4c6d9e68246c6dce271fe219040dfdb42a159be8c78d147b68aebd3 2522 haskell-regex-tdfa_1.3.1.0-2.dsc
+ 15c376783d397b3b9933cf35980808feddde273bd6f2445babbccb2f76a42ec0 77767 haskell-regex-tdfa_1.3.1.0.orig.tar.gz
+ 1b89f503c8c5ea0648d7f643943533b6c9962df59fe628e256b8beaa71eca5f3 4404 haskell-regex-tdfa_1.3.1.0-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/regex-tdfa
+Package-List: 
+ libghc-regex-tdfa-dev deb haskell optional arch=any
+ libghc-regex-tdfa-doc deb doc optional arch=all
+ libghc-regex-tdfa-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-regex-tdfa
+Priority: source
+Section: haskell

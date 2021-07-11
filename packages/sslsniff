@@ -1,0 +1,25 @@
+Package: sslsniff
+Binary: sslsniff
+Version: 0.8-9
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Pierre Chifflier <pollux@debian.org>, Raphaël Hertzog <hertzog@debian.org>
+Build-Depends: debhelper-compat (= 11), libssl-dev, liblog4cpp5-dev, libboost-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-thread-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ d08e973291f41158d8f80c4ae2cb7e9c 2055 sslsniff_0.8-9.dsc
+ 030fe31af33c22a932393c7a5f33bb2e 207858 sslsniff_0.8.orig.tar.gz
+ 82c6fa20401f82af3ee274e3b1d657c2 9316 sslsniff_0.8-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/sslsniff
+Vcs-Git: https://salsa.debian.org/pkg-security-team/sslsniff.git
+Checksums-Sha256:
+ e21f639a636d87e6376aed8704938f114012be154d0fce9e629e4c418b0b9057 2055 sslsniff_0.8-9.dsc
+ 50b4283a3e80fa4b4f3f684c4e76348aba8e257cbaa85e4f4cb7a4062cf091d5 207858 sslsniff_0.8.orig.tar.gz
+ 680ce6cbda0b8ad3daad4753a1588f338d06897b7426bf32c3f0ebfb28ae4c9e 9316 sslsniff_0.8-9.debian.tar.xz
+Homepage: https://moxie.org/software/sslsniff/
+Package-List: 
+ sslsniff deb admin optional arch=any
+Directory: pool/main/s/sslsniff
+Priority: source
+Section: admin

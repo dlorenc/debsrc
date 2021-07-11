@@ -1,0 +1,27 @@
+Package: golang-github-kjk-lzma
+Binary: golang-github-kjk-lzma-dev
+Version: 1.0.0-7
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Aloïs Micard <alois@micard.lu>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4d65ca8dd2ffde0f22c8b949e8e046c3 2180 golang-github-kjk-lzma_1.0.0-7.dsc
+ 23f2d834f9ff5474767ff326a457232f 66727 golang-github-kjk-lzma_1.0.0.orig.tar.gz
+ c607f6944c73d7da9853048d82503753 3168 golang-github-kjk-lzma_1.0.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-kjk-lzma
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-kjk-lzma.git
+Checksums-Sha256:
+ 2bacc25991217d2db0a7a92c541d666838d6435260dd9fb6fabd9d89d662094b 2180 golang-github-kjk-lzma_1.0.0-7.dsc
+ 60f91b8b9611a79a2eba86b2d8a7a25ee91aafb0b83aebeea57f2007900a5e1c 66727 golang-github-kjk-lzma_1.0.0.orig.tar.gz
+ 5ff77f41a1d9230cac58be546dc2bd8fc0b3652fae1ebd937a3e4e41e61676d5 3168 golang-github-kjk-lzma_1.0.0-7.debian.tar.xz
+Homepage: https://github.com/kjk/lzma
+Go-Import-Path: github.com/kjk/lzma
+Package-List: 
+ golang-github-kjk-lzma-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-kjk-lzma
+Priority: extra
+Section: golang

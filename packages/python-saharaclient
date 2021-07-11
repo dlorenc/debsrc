@@ -1,0 +1,27 @@
+Package: python-saharaclient
+Binary: python-saharaclient-doc, python3-saharaclient
+Version: 3.2.1-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx <!nodoc>
+Build-Depends-Indep: python3-coverage, python3-hacking, python3-keystoneauth1, python3-openstackclient, python3-openstackdocstheme <!nodoc>, python3-osc-lib, python3-oslo.i18n, python3-oslo.log, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-pep8, python3-requests, python3-requests-mock, python3-six, python3-stestr, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 50b346296096562512e6f4632f64dfdb 2644 python-saharaclient_3.2.1-2.dsc
+ 8601643db87e7b6aed4a9795121fa557 66148 python-saharaclient_3.2.1.orig.tar.xz
+ ed9f7c11179e68796dacb624c7f5059a 3968 python-saharaclient_3.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/clients/python-saharaclient
+Vcs-Git: https://salsa.debian.org/openstack-team/clients/python-saharaclient.git
+Checksums-Sha256:
+ 9c7bdb992fdcf778fbbedce7d30b41226119e7f076ebbaa18e4182936f44971d 2644 python-saharaclient_3.2.1-2.dsc
+ f32a95a73f0fc1e5064632ff353268c2198dadee6927a9c3f0d67af5c1f8af4a 66148 python-saharaclient_3.2.1.orig.tar.xz
+ 8250ae42d823c5ae83ccfda0ea5b2ff814cd4a881d860672a41c3e1d25d145ea 3968 python-saharaclient_3.2.1-2.debian.tar.xz
+Homepage: https://github.com/openstack/python-saharaclient
+Package-List: 
+ python-saharaclient-doc deb doc optional arch=all profile=!nodoc
+ python3-saharaclient deb python optional arch=all
+Directory: pool/main/p/python-saharaclient
+Priority: optional
+Section: misc

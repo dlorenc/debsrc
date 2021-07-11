@@ -1,0 +1,27 @@
+Package: gpm
+Binary: gpm, libgpm2, libgpm-dev
+Version: 1.20.7-8
+Maintainer: Axel Beckert <abe@debian.org>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: bison, debhelper-compat (= 13), dh-exec, mawk | awk, texinfo
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ad549d114b429b451b6f81ac07186231 1991 gpm_1.20.7-8.dsc
+ e9a4ba2711753c89b37950aada7aed4a 855027 gpm_1.20.7.orig.tar.gz
+ 107b0b80f574dee35936782d9f477e67 84016 gpm_1.20.7-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/gpm
+Vcs-Git: https://salsa.debian.org/debian/gpm.git
+Checksums-Sha256:
+ ad44b73b1f30d071361d3dd0b45f4c910f21582922980066b88f2b32b6b2c054 1991 gpm_1.20.7-8.dsc
+ c7e4661c24e05ae13547176b649bac8e3a0db2575f7dd57559f9e0b509f90f49 855027 gpm_1.20.7.orig.tar.gz
+ 69d4913f543233ad97dd3c6c9def5b0f9ee046075df64cca9bbb8e33574f2062 84016 gpm_1.20.7-8.debian.tar.xz
+Homepage: https://nico.schottelius.org/software/gpm/
+Package-List: 
+ gpm deb misc optional arch=linux-any
+ libgpm-dev deb libdevel optional arch=linux-any
+ libgpm2 deb libs optional arch=linux-any
+Directory: pool/main/g/gpm
+Priority: source
+Section: misc

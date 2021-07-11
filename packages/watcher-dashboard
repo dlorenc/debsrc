@@ -1,0 +1,26 @@
+Package: watcher-dashboard
+Binary: python3-watcher-dashboard
+Version: 4.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: openstack-dashboard (>= 3:18.2.0), python3-coverage, python3-django-nose, python3-httplib2, python3-keystoneclient, python3-nose-exclude, python3-openstackdocstheme, python3-selenium, python3-watcherclient, python3-xvfbwrapper, python3-yaml
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 5e5c68b630a2eeabff6c90d413bff18e 2456 watcher-dashboard_4.0.0-1.dsc
+ 29e1e5179c96b1acaa7048f1162e0345 51312 watcher-dashboard_4.0.0.orig.tar.xz
+ 4b2a0cae482b53350e18df5755994d3f 8804 watcher-dashboard_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/horizon-plugins/watcher-dashboard
+Vcs-Git: https://salsa.debian.org/openstack-team/horizon-plugins/watcher-dashboard.git
+Checksums-Sha256:
+ 6ad9cbef8d09c3cce0fd5fb1a02f5e0fabf8c0f7f4c2eeb5b7e50f5c86848ffe 2456 watcher-dashboard_4.0.0-1.dsc
+ ed899af1fac2928b075c368de53152d16633886eaa2304394ec58e110fd8c9ef 51312 watcher-dashboard_4.0.0.orig.tar.xz
+ eb4cc4f0c699292e6421dc00a613a442ebcd3200da52c5f131d161b627d69f4a 8804 watcher-dashboard_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/watcher-dashboard
+Package-List: 
+ python3-watcher-dashboard deb python optional arch=all
+Directory: pool/main/w/watcher-dashboard
+Priority: extra
+Section: misc

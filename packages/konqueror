@@ -1,0 +1,30 @@
+Package: konqueror
+Binary: konq-plugins, konqueror, libkf5konq-dev, libkf5konq6
+Version: 4:20.12.0-4
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>, Sune Vuorela <sune@debian.org>, Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 3.0~), debhelper-compat (= 13), dh-exec, extra-cmake-modules (>= 5.71.0~), gettext, kinit-dev (>= 5.71.0~), libkf5activities-dev (>= 5.71.0~), libkf5archive-dev (>= 5.71.0~), libkf5bookmarks-dev, libkf5crash-dev (>= 5.71.0~), libkf5dbusaddons-dev (>= 5.71.0~), libkf5doctools-dev (>= 5.71.0~), libkf5guiaddons-dev (>= 5.71.0~), libkf5iconthemes-dev (>= 5.71.0~), libkf5jobwidgets-dev, libkf5kcmutils-dev (>= 5.71.0~), libkf5kio-dev (>= 5.37.0~), libkf5notifications-dev (>= 5.71.0~), libkf5parts-dev (>= 5.71.0~), libkf5su-dev, libkf5wallet-dev (>= 5.71.0~), libkf5windowsystem-dev (>= 5.71.0~), libqt5texttospeech5-dev (>= 5.12.0~), libqt5x11extras5-dev, libx11-dev, pkg-config, pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.12.0~), qtscript5-dev, qtwebengine5-dev (>= 5.12.0~) [amd64 arm64 armhf i386 mipsel], zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b84dbb30b821a4bc6d638819c4bd2047 3289 konqueror_20.12.0-4.dsc
+ 244a6bce8ded6d4770f56a51590ef71d 7233524 konqueror_20.12.0.orig.tar.xz
+ 7b8df3330689bf0c307cef767e585114 488 konqueror_20.12.0.orig.tar.xz.asc
+ 1f0c620c3fdd5ff0ff6af29e7e65d57c 15828 konqueror_20.12.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/konqueror
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/konqueror.git
+Checksums-Sha256:
+ 1efe0e89ef95b3ce90b9af0915014080f040a18d2a1a29cf11c18202532cd85f 3289 konqueror_20.12.0-4.dsc
+ 485d139eabfa5bde9be01cdd349867c9b7a68775a72d5396fd4f4d1e7d4865d8 7233524 konqueror_20.12.0.orig.tar.xz
+ 6220455d3a9b0c3400a5a24c3589151398d85a0b6c77e9c9820c040f9f36d835 488 konqueror_20.12.0.orig.tar.xz.asc
+ 8437d40b15e1c38838536e5267e2aa1cfbbbf318686bb7836cd7218133854426 15828 konqueror_20.12.0-4.debian.tar.xz
+Homepage: https://apps.kde.org/en/konqueror
+Package-List: 
+ konq-plugins deb kde optional arch=any
+ konqueror deb web optional arch=any
+ libkf5konq-dev deb libdevel optional arch=any
+ libkf5konq6 deb libs optional arch=any
+Directory: pool/main/k/konqueror
+Priority: extra
+Section: misc

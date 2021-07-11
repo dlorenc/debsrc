@@ -1,0 +1,30 @@
+Package: node-tar-stream
+Binary: node-tar-stream
+Version: 2.1.4+~cs3.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13), node-bl (>= 1.0.0) <!nocheck>, node-concat-stream <!nocheck>, node-end-of-stream <!nocheck>, node-tape <!nocheck>, node-inherits <!nocheck>, node-readable-stream <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f5654d5b3167d6f30ffb27a533e284e9 2953 node-tar-stream_2.1.4+~cs3.1.0-1.dsc
+ 17ba0da65e78626c93f5d89489565fe9 1556 node-tar-stream_2.1.4+~cs3.1.0.orig-fs-constants.tar.gz
+ d45f83a43096e3cce22994cc173f307f 2113 node-tar-stream_2.1.4+~cs3.1.0.orig-types-tar-stream.tar.gz
+ bea2cf06e42973657c083782862bbef2 94682 node-tar-stream_2.1.4+~cs3.1.0.orig.tar.gz
+ 4be3b30fa2b48547801af5fd4ac225ce 2956 node-tar-stream_2.1.4+~cs3.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-tar-stream
+Vcs-Git: https://salsa.debian.org/js-team/node-tar-stream.git
+Checksums-Sha256:
+ fc3fd828a6892f59afad6e41addc7213c28fb6a947a2396d065b96f385619bfe 2953 node-tar-stream_2.1.4+~cs3.1.0-1.dsc
+ 167ea678e4db51b0a3c921a48c7e98b28093839c83b3b3b56003ad762a03c1e9 1556 node-tar-stream_2.1.4+~cs3.1.0.orig-fs-constants.tar.gz
+ 10c1d74ba31454471ccc6e0ae4a28c89d522785d6c6d010b5b0e927d16ce49b2 2113 node-tar-stream_2.1.4+~cs3.1.0.orig-types-tar-stream.tar.gz
+ f4b07f5fe4f8aa9fdcbb0cb15ab718e61083992a56e609684a75fee3a449e3f5 94682 node-tar-stream_2.1.4+~cs3.1.0.orig.tar.gz
+ 84c24e43fd08f11d89945d5a57e182893a80b2623d522e848eea12ad7b4dce8f 2956 node-tar-stream_2.1.4+~cs3.1.0-1.debian.tar.xz
+Homepage: https://github.com/mafintosh/tar-stream
+Package-List: 
+ node-tar-stream deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-tar-stream
+Priority: optional
+Section: javascript

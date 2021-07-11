@@ -1,0 +1,29 @@
+Package: coccinelle
+Binary: coccinelle, coccinelle-doc
+Version: 1.1.0.deb-1.1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Emmanuel Arias <eamanu@yaerobi.com>, Ralf Treinen <treinen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-ocaml (>= 1.0.3~), dh-python, libmenhir-ocaml-dev (>= 20090204.dfsg), libparmap-ocaml-dev (>= 1.0~rc4-5~), libpcre-ocaml-dev, libstdcompat-ocaml-dev, libpyml-ocaml-dev, menhir (>= 20090204.dfsg), ocaml-findlib, ocaml-nox (>= 3.11.1-3~), pkg-config (>= 0.9.0), python3
+Build-Depends-Indep: texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 30aaa619f04a20afa5f29933521132f4 2515 coccinelle_1.1.0.deb-1.1.dsc
+ 21c11f2fe2c8f9566fedd137cfae4881 4330711 coccinelle_1.1.0.deb.orig.tar.gz
+ c4ebcda3e0fbfb43a3267af155185d70 12104 coccinelle_1.1.0.deb-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/coccinelle
+Vcs-Git: https://salsa.debian.org/ocaml-team/coccinelle.git
+Checksums-Sha256:
+ 56d9e8d65fb12d4120983e6bc7cce9235379e1747b1ba75355e613d15f60a35c 2515 coccinelle_1.1.0.deb-1.1.dsc
+ 079c32c04b16a742cd3463d9047110eddf0978ba8b2b8b44c73c6f1595726cdb 4330711 coccinelle_1.1.0.deb.orig.tar.gz
+ bf8e3f2eed62cf876027c03d43ed46a401c40d75dde7b01644e428dc56e32e71 12104 coccinelle_1.1.0.deb-1.1.debian.tar.xz
+Homepage: http://coccinelle.lip6.fr
+Package-List: 
+ coccinelle deb devel optional arch=any
+ coccinelle-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: patch
+Directory: pool/main/c/coccinelle
+Priority: source
+Section: devel

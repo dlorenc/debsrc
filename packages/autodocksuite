@@ -1,0 +1,31 @@
+Package: autodocksuite
+Binary: autodock, autogrid, autodock-test, autogrid-test, autodock-getdata
+Version: 4.2.6-8
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Andreas Tille <tille@debian.org>, Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13), python3 <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e89f015505e3c862bb01a3e0ac3bbf6d 2373 autodocksuite_4.2.6-8.dsc
+ f4942c8e8c47aca7f3a2ae8794259067 35438010 autodocksuite_4.2.6.orig.tar.gz
+ 565351681cef0b839aafc8c6fbbfed5b 18912 autodocksuite_4.2.6-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/autodocksuite
+Vcs-Git: https://salsa.debian.org/med-team/autodocksuite.git
+Checksums-Sha256:
+ a816443a5348118a951bff76c57ded1cdc6a236fd421baaae6cfba21b74cd99a 2373 autodocksuite_4.2.6-8.dsc
+ 4b24ce4baf216a5e1a6a79bb664eeed684aed17cede64ff0061aa1bcc17874c4 35438010 autodocksuite_4.2.6.orig.tar.gz
+ 26547897a30974fb5e1c49ff77eaf88e644f0da9b6ba267f91558690d3af5dee 18912 autodocksuite_4.2.6-8.debian.tar.xz
+Homepage: http://autodock.scripps.edu/
+Package-List: 
+ autodock deb science optional arch=any
+ autodock-getdata deb science optional arch=all
+ autodock-test deb science optional arch=all
+ autogrid deb science optional arch=any
+ autogrid-test deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3
+Directory: pool/main/a/autodocksuite
+Priority: source
+Section: science

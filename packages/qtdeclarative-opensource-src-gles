@@ -1,0 +1,26 @@
+Package: qtdeclarative-opensource-src-gles
+Binary: libqt5quick5-gles, libqt5quickparticles5-gles
+Version: 5.15.2+dfsg-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.20.0), libgl1-mesa-dri, libqt5qml5 (>= 5.15.2+dfsg~), libqt5qmlmodels5 (>= 5.15.2+dfsg~), pkg-kde-tools (>= 0.15.17~), python3:any, qtbase5-private-gles-dev (>= 5.15.2+dfsg~), xauth <!nocheck>, xvfb <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5c7a2f25b363d49f7e649a353ba0c4d4 2723 qtdeclarative-opensource-src-gles_5.15.2+dfsg-2.dsc
+ f097bcdd35f7bf64e468bf31e6a01854 21538020 qtdeclarative-opensource-src-gles_5.15.2+dfsg.orig.tar.xz
+ 4e8e6df32893f5b835dbe0d0eeedd26a 70000 qtdeclarative-opensource-src-gles_5.15.2+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtdeclarative
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtdeclarative.git -b gles/master
+Checksums-Sha256:
+ 450e93814b66039e8e4b23bd37c3b7fd6a65952148b5f770efdbae8f94bcfdb2 2723 qtdeclarative-opensource-src-gles_5.15.2+dfsg-2.dsc
+ 746c551cbf9c87f0c489a260b21d7cfaa7e55a71dc516b91782a6c760a98807d 21538020 qtdeclarative-opensource-src-gles_5.15.2+dfsg.orig.tar.xz
+ 853fd66945e411252e32fca460798d8308330a3855dd30cedb7cceaf7e70a1ab 70000 qtdeclarative-opensource-src-gles_5.15.2+dfsg-2.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qmlapplications.html
+Package-List: 
+ libqt5quick5-gles deb libs optional arch=any
+ libqt5quickparticles5-gles deb libs optional arch=any
+Directory: pool/main/q/qtdeclarative-opensource-src-gles
+Priority: extra
+Section: misc

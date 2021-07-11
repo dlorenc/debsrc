@@ -1,0 +1,26 @@
+Package: json-simple
+Binary: libjson-simple-java, libjson-simple-doc
+Version: 2.3.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Gilles Filippini <pini@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, default-jdk-doc, junit4, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 1b9e7376f60e6883aaf4cb4caa3c32b1 1832 json-simple_2.3.0-1.dsc
+ 752dbafaf1adb98663d6bf4df43b2944 56063 json-simple_2.3.0.orig.tar.gz
+ 7ce8385b6d4d84a0453b30f3b6c20cb6 5020 json-simple_2.3.0-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/json-simple.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/json-simple.git
+Checksums-Sha256:
+ 973f29689a6361651f620a2623ce842ad35395986c064c82de7f8c51e4037c18 1832 json-simple_2.3.0-1.dsc
+ 791795a201ce34230b5434cd6e332601a3c0cd897bb5c35c7ac31405a97e9488 56063 json-simple_2.3.0.orig.tar.gz
+ 7007217e96fff449f043fd3ac9f32e717532f4957bde7ce14e7d04d86d91c959 5020 json-simple_2.3.0-1.debian.tar.xz
+Homepage: https://github.com/cliftonlabs/json-simple
+Package-List: 
+ libjson-simple-doc deb doc optional arch=all
+ libjson-simple-java deb java optional arch=all
+Directory: pool/main/j/json-simple
+Priority: source
+Section: java

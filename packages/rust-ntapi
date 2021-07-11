@@ -1,0 +1,27 @@
+Package: rust-ntapi
+Binary: librust-ntapi-dev, librust-ntapi+impl-default-dev
+Version: 0.3.3-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-winapi-0.3+cfg-dev (>= 0.3.6-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.6-~~) <!nocheck>, librust-winapi-0.3+evntrace-dev (>= 0.3.6-~~) <!nocheck>, librust-winapi-0.3+in6addr-dev (>= 0.3.6-~~) <!nocheck>, librust-winapi-0.3+inaddr-dev (>= 0.3.6-~~) <!nocheck>, librust-winapi-0.3+minwinbase-dev (>= 0.3.6-~~) <!nocheck>, librust-winapi-0.3+ntsecapi-dev (>= 0.3.6-~~) <!nocheck>, librust-winapi-0.3+windef-dev (>= 0.3.6-~~) <!nocheck>, librust-winapi-0.3+winioctl-dev (>= 0.3.6-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b5866e2f8aa1378895cfe06f509a0e9b 2698 rust-ntapi_0.3.3-2.dsc
+ a7c44acd54424d8fb40e1ef6da467b15 126913 rust-ntapi_0.3.3.orig.tar.gz
+ d62debc5d140c72974ea277d1d545e8b 2784 rust-ntapi_0.3.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ntapi
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ntapi]
+Checksums-Sha256:
+ 21bc48531c072004c9c37939c0d11c9a4a2d2732867edf48627de24d62196f29 2698 rust-ntapi_0.3.3-2.dsc
+ f26e041cd983acbc087e30fcba770380cfa352d0e392e175b2344ebaf7ea0602 126913 rust-ntapi_0.3.3.orig.tar.gz
+ f1fcee1edc4ea9a08a0dd4fc62ce0f6cdf13ff659d1fcbc622de44fee31bc438 2784 rust-ntapi_0.3.3-2.debian.tar.xz
+Package-List: 
+ librust-ntapi+impl-default-dev deb rust optional arch=any
+ librust-ntapi-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-ntapi
+Priority: extra
+Section: misc

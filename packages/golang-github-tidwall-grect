@@ -1,0 +1,27 @@
+Package: golang-github-tidwall-grect
+Binary: golang-github-tidwall-grect-dev
+Version: 0.1.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-tidwall-gjson-dev
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 82bbb5fc6ed05ee290bfa6df97e3b862 2276 golang-github-tidwall-grect_0.1.0-1.dsc
+ 7ef6880d92c9d09267d0c16aa7a9e167 4264 golang-github-tidwall-grect_0.1.0.orig.tar.gz
+ fa75c03d51e6f0f51fa723fbfdade928 2144 golang-github-tidwall-grect_0.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-tidwall-grect
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-tidwall-grect.git
+Checksums-Sha256:
+ 70f87d041b083807f73e6bfa0b24854bdd975329c1797b51f3e464749bb71ee4 2276 golang-github-tidwall-grect_0.1.0-1.dsc
+ 4d2a4e0a10ce61a11f9aa236209fbc10fbaac1804af30dfbcc9f75c3ed15731d 4264 golang-github-tidwall-grect_0.1.0.orig.tar.gz
+ 3ae943fe655b3d8723ad920b3cf164752bc92d78d8bfd24a9558a7c987b3bd6f 2144 golang-github-tidwall-grect_0.1.0-1.debian.tar.xz
+Homepage: https://github.com/tidwall/grect
+Go-Import-Path: github.com/tidwall/grect
+Package-List: 
+ golang-github-tidwall-grect-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-tidwall-grect
+Priority: extra
+Section: golang

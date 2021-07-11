@@ -1,0 +1,27 @@
+Package: clsync
+Binary: clsync, libclsync0, libclsync-dev
+Version: 0.4.5-1
+Maintainer: Artyom A Anikeev <anikeev@ut.mephi.ru>
+Uploaders: Barak A. Pearlmutter <bap@debian.org>, Dmitry Yu Okunev <dyokunev@ut.mephi.ru>
+Build-Depends: debhelper-compat (= 13), libglib2.0-dev (>= 2.0.0), libcgroup-dev, libcap-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1f9fb15347cb317d26d1efc231448b1d 2070 clsync_0.4.5-1.dsc
+ 479162d328c18e2fa3f843f0f7800ca3 229544 clsync_0.4.5.orig.tar.xz
+ 3fd69b8736ee0467006da041e1dfca25 5124 clsync_0.4.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/clsync
+Vcs-Git: https://salsa.debian.org/debian/clsync.git
+Checksums-Sha256:
+ 641d4a9e3f2f97310e991638d3b3114c928a7847f703783615860bec5ed10326 2070 clsync_0.4.5-1.dsc
+ 0a5c377d53d16defeb20e2ad5c0eb87afa9a0ff32b3cac5d83db0cb8f73f16d4 229544 clsync_0.4.5.orig.tar.xz
+ d79f5ed54803b5077f8da1acc5ff258068fbca61b7ec18b8453cb3925ca9b403 5124 clsync_0.4.5-1.debian.tar.xz
+Homepage: http://ut.mephi.ru/oss
+Package-List: 
+ clsync deb admin optional arch=any
+ libclsync-dev deb libdevel optional arch=any
+ libclsync0 deb libs optional arch=any
+Directory: pool/main/c/clsync
+Priority: optional
+Section: misc

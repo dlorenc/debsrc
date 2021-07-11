@@ -1,0 +1,27 @@
+Package: libpar-packer-perl
+Binary: libpar-packer-perl
+Version: 1.052-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, gregor herrmann <gregoa@debian.org>, Niko Tyni <ntyni@debian.org>
+Build-Depends: debhelper-compat (= 13), libarchive-zip-perl <!nocheck>, libdigest-sha-perl <!nocheck>, libgetopt-argvfile-perl <!nocheck>, libinline-perl <!nocheck>, libipc-run3-perl <!nocheck>, libmodule-scandeps-perl (>= 1.21) <!nocheck>, libpar-perl (>= 1.016), libperl-dev, perl-xs-dev, perl:native, rename
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d3423d9b3d0fe01a32004c4631f62ab0 2677 libpar-packer-perl_1.052-1.dsc
+ a12cd1f3a33401359d453b60dd593520 204526 libpar-packer-perl_1.052.orig.tar.gz
+ 69239f77a2f90bb8f3b0aebd71eed780 10916 libpar-packer-perl_1.052-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpar-packer-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpar-packer-perl.git
+Checksums-Sha256:
+ 6111c9bfd9b4b7b35bde331af1dd8af08790960748550d479889c022e8bf293c 2677 libpar-packer-perl_1.052-1.dsc
+ fffad536f4671a607e7149e10c21b06e8131f7533df3fc0ee0e949cb9e4e349a 204526 libpar-packer-perl_1.052.orig.tar.gz
+ 8b9bfa4c60d272f09be68ce6f075f91e9fdf5646dd809769f5c88c3d4444fc9f 10916 libpar-packer-perl_1.052-1.debian.tar.xz
+Homepage: https://metacpan.org/release/PAR-Packer
+Dgit: 674d4b37c8decaa06c03bedbfd73a6f23ab553d3 debian archive/debian/1.052-1 https://git.dgit.debian.org/libpar-packer-perl
+Package-List: 
+ libpar-packer-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libpar-packer-perl
+Priority: source
+Section: perl

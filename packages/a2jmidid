@@ -1,0 +1,25 @@
+Package: a2jmidid
+Binary: a2jmidid
+Version: 9-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Adrian Knoth <adi@drcomp.erfurt.thur.de>,
+Build-Depends: debhelper-compat (= 12), dh-python, libasound2-dev, libdbus-1-dev, libjack-dev (>= 0.107.0) | libjack-jackd2-dev, python3, meson
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 23b5b8681acee6c77f65493eab9ed6c5 2006 a2jmidid_9-2.dsc
+ cfac8647a84513a698c2b310cdb2e2bb 47925 a2jmidid_9.orig.tar.gz
+ 6532c7de04252b0f9d38cf804e55e827 4316 a2jmidid_9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/a2jmidid
+Vcs-Git: https://salsa.debian.org/multimedia-team/a2jmidid.git
+Checksums-Sha256:
+ fcb84e16832ae5193589a6e229455fef3069fc43ab9463f93530c4e4b85a7eb1 2006 a2jmidid_9-2.dsc
+ 2828d283e0c9a65f0683881f09676c8c35c45c97a8a56cf77b43b4ef0231df06 47925 a2jmidid_9.orig.tar.gz
+ 3215be4a77d3efe59d27ecb4da39dcf46abb323a14ee936b6290f69db5aea6de 4316 a2jmidid_9-2.debian.tar.xz
+Homepage: https://github.com/linuxaudio/a2jmidid/
+Package-List: 
+ a2jmidid deb sound optional arch=any
+Directory: pool/main/a/a2jmidid
+Priority: source
+Section: sound

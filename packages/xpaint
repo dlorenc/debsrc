@@ -1,0 +1,26 @@
+Package: xpaint
+Binary: xpaint, xpaint-dev, libxaw3dxft6
+Version: 2.9.1.4-4
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 9), libxpm-dev, libxaw7-dev, libtiff-dev, libpng-dev, xutils-dev, libxft-dev, bison, flex (>= 2.5.31-16), libxmu-dev, libxt-dev, libsm-dev, libice-dev, libxext-dev, libx11-dev, x11proto-core-dev, x11proto-xext-dev
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ a41ec8ac7920008fd61b5a8173978f09 2184 xpaint_2.9.1.4-4.dsc
+ 49f4effceb3f45b5af9423f1a702d91e 1025885 xpaint_2.9.1.4.orig.tar.bz2
+ 7b720a2c380c6056bc36b6652ab45e72 13512 xpaint_2.9.1.4-4.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/collab-maint/xpaint.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/xpaint.git
+Checksums-Sha256:
+ bd11d85313fe8f7763e6443b8379e9f97b9cb88d721f35f11798b4eeb2fec3f7 2184 xpaint_2.9.1.4-4.dsc
+ a733736bd635bbf5b5a04b8061da132b317793ef9292ce6f07a85f9dcfdc114a 1025885 xpaint_2.9.1.4.orig.tar.bz2
+ d6fc541d719a7bbe8e439c0c6442f6ea728af435fec53f02ee896f30809477c3 13512 xpaint_2.9.1.4-4.debian.tar.xz
+Homepage: https://sourceforge.net/projects/sf-xpaint/
+Package-List: 
+ libxaw3dxft6 deb libs optional arch=any
+ xpaint deb graphics optional arch=any
+ xpaint-dev deb libdevel optional arch=any
+Directory: pool/main/x/xpaint
+Priority: source
+Section: graphics

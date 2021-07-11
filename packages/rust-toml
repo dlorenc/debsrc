@@ -1,0 +1,28 @@
+Package: rust-toml
+Binary: librust-toml-dev, librust-toml+indexmap-dev
+Version: 0.5.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.97-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ e29d74b3999f7366e1baf33ecf637699 1706 rust-toml_0.5.5-1.dsc
+ 27dfde2c63999ff00857593113d2dd3e 54805 rust-toml_0.5.5.orig.tar.gz
+ 17bb9c3a3d45547a4d89de517877e5e4 3048 rust-toml_0.5.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/toml
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/toml]
+Checksums-Sha256:
+ 126117060214fdeabfe403166d8f742c36dabf20351baa5e37d33542070a4c64 1706 rust-toml_0.5.5-1.dsc
+ 01d1404644c8b12b16bfcffa4322403a91a451584daaaa7c28d3152e6cbc98cf 54805 rust-toml_0.5.5.orig.tar.gz
+ 1aead1a7180e1526872159e56fd6bc571f381dc80a21f9c77259567290406ea4 3048 rust-toml_0.5.5-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/toml-rs
+Package-List: 
+ librust-toml+indexmap-dev deb rust optional arch=any
+ librust-toml-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev
+Directory: pool/main/r/rust-toml
+Priority: extra
+Section: misc

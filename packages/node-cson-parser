@@ -1,0 +1,26 @@
+Package: node-cson-parser
+Binary: node-cson-parser
+Version: 4.0.7-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), coffeescript (>= 1.10.0~dfsg), mocha (>= 4) <!nocheck>, node-assertive <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ec1682e95052260088bd397fb4e046d5 2142 node-cson-parser_4.0.7-1.dsc
+ 8677a6e5a988df0dab60f02ebc03c715 53152 node-cson-parser_4.0.7.orig.tar.gz
+ e28eef8b6108f180184e38123c59b70b 3484 node-cson-parser_4.0.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cson-parser
+Vcs-Git: https://salsa.debian.org/js-team/node-cson-parser.git
+Checksums-Sha256:
+ 223ebf1e025bb98196e51f06afac83d8e02cc9b08c4aba81c2e3c35cb379c087 2142 node-cson-parser_4.0.7-1.dsc
+ 1a38bd9240bcbb8eff91a572b29eeb208fa7dd7a8f8ebdb9d8a4878294223303 53152 node-cson-parser_4.0.7.orig.tar.gz
+ f0c697c07a7a4fb4132cd226cc5eb906c5b0df9b6db4e8263e8d0c219850ebe2 3484 node-cson-parser_4.0.7-1.debian.tar.xz
+Homepage: https://github.com/groupon/cson-parser
+Package-List: 
+ node-cson-parser deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cson-parser
+Priority: extra
+Section: misc

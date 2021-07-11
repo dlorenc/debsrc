@@ -1,0 +1,25 @@
+Package: haskell-sdl2
+Binary: libghc-sdl2-dev, libghc-sdl2-prof, libghc-sdl2-doc
+Version: 2.5.2.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-statevar-dev (>= 1.1.0.0), libghc-statevar-dev (<< 1.3), libghc-statevar-prof, libghc-exceptions-dev (>= 0.4), libghc-exceptions-dev (<< 0.11), libghc-exceptions-prof (>= 0.4), libghc-exceptions-prof (<< 0.11), libghc-linear-dev (>= 1.10.1.2), libghc-linear-dev (<< 1.22), libghc-linear-prof, libghc-vector-dev (>= 0.10.9.0), libghc-vector-dev (<< 0.13), libghc-vector-prof (>= 0.10.9.0), libghc-vector-prof (<< 0.13), libsdl2-dev
+Build-Depends-Indep: ghc-doc, libghc-statevar-doc, libghc-exceptions-doc, libghc-linear-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e030da54c6632e32a5c2dfbc3e23a420 2566 haskell-sdl2_2.5.2.0-1.dsc
+ e52e73082cfbc95cc02cece5fe88366c 421625 haskell-sdl2_2.5.2.0.orig.tar.gz
+ 4cdca631744d9e3c8e89f4efcdaef219 2628 haskell-sdl2_2.5.2.0-1.debian.tar.xz
+Checksums-Sha256:
+ 1dcc9e54ceca487437764d36a71d2e59020415ce40854594f9a08442d5038d55 2566 haskell-sdl2_2.5.2.0-1.dsc
+ 9c4110b1e772739bf62c641d375665f9d0af3ad64ed73b24ef407a82e7648fa1 421625 haskell-sdl2_2.5.2.0.orig.tar.gz
+ a589a36d8783dba16159f066605cbe238632cd0d7f14bd9223b24307ccb3fc89 2628 haskell-sdl2_2.5.2.0-1.debian.tar.xz
+Package-List: 
+ libghc-sdl2-dev deb haskell optional arch=any
+ libghc-sdl2-doc deb doc optional arch=all
+ libghc-sdl2-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-sdl2
+Priority: extra
+Section: misc

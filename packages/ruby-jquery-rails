@@ -1,0 +1,28 @@
+Package: ruby-jquery-rails
+Binary: ruby-jquery-rails
+Version: 4.3.5-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, libjs-jquery (>= 3), ruby-rails-dom-testing, ruby-railties, ruby-thor (<< 2.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 440c750d3ee7709350619aa72246b24c 2275 ruby-jquery-rails_4.3.5-2.dsc
+ 319e2d12e1d955e0021bcbb37d1e57bf 521201 ruby-jquery-rails_4.3.5.orig.tar.gz
+ a8f8b41f6d112142f946960e1c1d3a23 5220 ruby-jquery-rails_4.3.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-jquery-rails
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-jquery-rails.git
+Checksums-Sha256:
+ e4c85b7c94098070878777d0741342cafc346b5ad2ac1658268794124fb18679 2275 ruby-jquery-rails_4.3.5-2.dsc
+ 1f56af4eb81d1df30aab0016b52af4deb291132865c5b26867f22fa7f1b23aaa 521201 ruby-jquery-rails_4.3.5.orig.tar.gz
+ bd9fe1388eaf45772b7af5e166b29d7a204af0e2dc0b030658f37c5068492d08 5220 ruby-jquery-rails_4.3.5-2.debian.tar.xz
+Homepage: https://rubygems.org/gems/jquery-rails
+Package-List: 
+ ruby-jquery-rails deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: ruby-bundler, ruby-railties, ruby-sass-rails
+Directory: pool/main/r/ruby-jquery-rails
+Priority: source
+Section: ruby

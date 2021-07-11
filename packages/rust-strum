@@ -1,0 +1,27 @@
+Package: rust-strum
+Binary: librust-strum-dev
+Version: 0.19.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-strum-macros-0.19+default-dev (>= 0.19.2-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3c863c3f1238ee650743f8c786dbd926 2238 rust-strum_0.19.2-1.dsc
+ fb7d79233a80252ff9acb37fe3d72b2e 4231 rust-strum_0.19.2.orig.tar.gz
+ eb864a7ecc31643a1d401e5677236e9e 2700 rust-strum_0.19.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/strum
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/strum]
+Checksums-Sha256:
+ 45daca526a7b07142f7eee1cc1305dbd1704d006c10ef27a18eebd2f7c6502eb 2238 rust-strum_0.19.2-1.dsc
+ 3924a58d165da3b7b2922c667ab0673c7b5fd52b5c19ea3442747bcb3cd15abe 4231 rust-strum_0.19.2.orig.tar.gz
+ 86aaf88cf60d833daaccea0b46dfb2dce75030e43aa985251b6d28450de23c56 2700 rust-strum_0.19.2-1.debian.tar.xz
+Homepage: https://github.com/Peternator7/strum
+Package-List: 
+ librust-strum-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-strum-macros-0.19+default-dev
+Directory: pool/main/r/rust-strum
+Priority: extra
+Section: misc

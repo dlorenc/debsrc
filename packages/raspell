@@ -1,0 +1,27 @@
+Package: raspell
+Binary: raspell
+Version: 1.3-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Alex Pennace <alex@pennace.org>, Cédric Boutillier <boutil@debian.org>
+Build-Depends: aspell-en, debhelper-compat (= 12), gem2deb, libaspell-dev (>= 0.6~)
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 9b0c42d95a569254882a4bac80c12d81 1682 raspell_1.3-2.dsc
+ a759592b25c59c0e7e20687302bb6422 18473 raspell_1.3.orig.tar.gz
+ b1f076abfc98ea57c004e99a02fb19a1 3524 raspell_1.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/raspell
+Vcs-Git: https://salsa.debian.org/ruby-team/raspell.git
+Checksums-Sha256:
+ 7432865fa3eb73f857ef2396d0c0125a4851c124bc2e7049eb3d1a372d96cb3e 1682 raspell_1.3-2.dsc
+ cbfa380f748a19a55825ed92c75190bca7b029a8f9dd09392b8ad1342238b36a 18473 raspell_1.3.orig.tar.gz
+ da087bc97b7abc855bac5b813ccb92ca704c3426ef3006b08f7c5daff87b1648 3524 raspell_1.3-2.debian.tar.xz
+Homepage: https://github.com/evan/raspell/
+Package-List: 
+ raspell deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/raspell
+Priority: source
+Section: ruby

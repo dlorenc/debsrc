@@ -1,0 +1,32 @@
+Package: gnuplot
+Binary: gnuplot, gnuplot-doc, gnuplot-nox, gnuplot-qt, gnuplot-x11, gnuplot-data
+Version: 5.4.1+dfsg1-1
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Anton Gladky <gladk@debian.org>
+Build-Depends: autoconf, automake, debhelper-compat (= 12), dh-lua, libcairo2-dev, libedit-dev, libgd-dev, liblua5.1-0-dev, libpango1.0-dev, libpng-dev, qtbase5-dev, qtbase5-dev-tools, qttools5-dev-tools, libqt5webkit5-dev, libqt5opengl5-dev, libqt5svg5-dev, libx11-dev, libxt-dev, pkg-config, libwxgtk3.0-gtk3-dev, zlib1g-dev
+Build-Depends-Indep: latex2html, texinfo, texlive-fonts-recommended, texlive-font-utils, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-science, emacs
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2586daafb73134064707b295130a6097 2707 gnuplot_5.4.1+dfsg1-1.dsc
+ 21308cf2e18087040ca67f22272522f2 2040344 gnuplot_5.4.1+dfsg1.orig.tar.xz
+ 4261e3116c6222d5acff5ba4bf480d7b 30084 gnuplot_5.4.1+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/gnuplot
+Vcs-Git: https://salsa.debian.org/science-team/gnuplot.git
+Checksums-Sha256:
+ 652087acc92952c789eb844f791e3d4f694452b953d6511a548ec36df2a04323 2707 gnuplot_5.4.1+dfsg1-1.dsc
+ d6cea952eb2779d92f651e16e3bc568f80af50419a7af3a868ec99b9a3a777cb 2040344 gnuplot_5.4.1+dfsg1.orig.tar.xz
+ c6b409735e0154fc5d41a75ecabf4fd46aa3beaf386ad0ad735fd4018a7579b9 30084 gnuplot_5.4.1+dfsg1-1.debian.tar.xz
+Homepage: http://gnuplot.sourceforge.net/
+Package-List: 
+ gnuplot deb math optional arch=all
+ gnuplot-data deb doc optional arch=all
+ gnuplot-doc deb doc optional arch=all
+ gnuplot-nox deb math optional arch=any
+ gnuplot-qt deb math optional arch=any
+ gnuplot-x11 deb math optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/g/gnuplot
+Priority: source
+Section: math

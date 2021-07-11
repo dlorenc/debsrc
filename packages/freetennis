@@ -1,0 +1,27 @@
+Package: freetennis
+Binary: freetennis-common, freetennis
+Version: 0.4.8-13
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml, dh-ocaml, libsdl-ocaml-dev, libsdl-gfx1.2-dev, libsdl-mixer1.2-dev, libsdl-image1.2-dev, libsdl-ttf2.0-dev, liblablgl-ocaml-dev, liblablgtk2-ocaml-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ad1ca63af8c6a09cf193759ae1ef6f35 1956 freetennis_0.4.8-13.dsc
+ c402d7644142f6142522c10c6953a33e 6565571 freetennis_0.4.8.orig.tar.gz
+ 3a6523a3d2b1867e6d03c90ab3d59f5b 7948 freetennis_0.4.8-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/freetennis
+Vcs-Git: https://salsa.debian.org/ocaml-team/freetennis.git
+Checksums-Sha256:
+ 695c411dfceef3705cedd7fc2233498c8ed0855fbda6bfdf199aebf86c8f08e8 1956 freetennis_0.4.8-13.dsc
+ f7aa33c75fbcc2eb6555cded7f2ca32ddea7c987c9a0ac9980134d8bc773b915 6565571 freetennis_0.4.8.orig.tar.gz
+ a7ab62892155188519547c528b467fb7dfbc1ce70d16cbfe930ca71f1f3a41c9 7948 freetennis_0.4.8-13.debian.tar.xz
+Homepage: http://freetennis.sourceforge.net/
+Dgit: a09501cef1ca92b7cca0b39f3cd6caf6f6315462 debian archive/debian/0.4.8-13 https://git.dgit.debian.org/freetennis
+Package-List: 
+ freetennis deb games optional arch=any
+ freetennis-common deb games optional arch=all
+Directory: pool/main/f/freetennis
+Priority: source
+Section: games

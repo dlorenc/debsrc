@@ -1,0 +1,31 @@
+Package: rust-object
+Binary: librust-object-dev, librust-object+compression-dev, librust-object+default-dev, librust-object+parity-wasm-dev, librust-object+std-dev, librust-object+wasm-dev
+Version: 0.12.0-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-flate2-1+default-dev (>= 1.0.13-~~) <!nocheck>, librust-goblin-0.2+archive-dev <!nocheck> | librust-goblin-0.1+archive-dev <!nocheck> | librust-goblin-0.0+archive-dev (>= 0.0.22-~~) <!nocheck>, librust-goblin-0.2+elf32-dev <!nocheck> | librust-goblin-0.1+elf32-dev <!nocheck> | librust-goblin-0.0+elf32-dev (>= 0.0.22-~~) <!nocheck>, librust-goblin-0.2+elf64-dev <!nocheck> | librust-goblin-0.1+elf64-dev <!nocheck> | librust-goblin-0.0+elf64-dev (>= 0.0.22-~~) <!nocheck>, librust-goblin-0.2+endian-fd-dev <!nocheck> | librust-goblin-0.1+endian-fd-dev <!nocheck> | librust-goblin-0.0+endian-fd-dev (>= 0.0.22-~~) <!nocheck>, librust-goblin-0.2+mach32-dev <!nocheck> | librust-goblin-0.1+mach32-dev <!nocheck> | librust-goblin-0.0+mach32-dev (>= 0.0.22-~~) <!nocheck>, librust-goblin-0.2+mach64-dev <!nocheck> | librust-goblin-0.1+mach64-dev <!nocheck> | librust-goblin-0.0+mach64-dev (>= 0.0.22-~~) <!nocheck>, librust-goblin-0.2+pe32-dev <!nocheck> | librust-goblin-0.1+pe32-dev <!nocheck> | librust-goblin-0.0+pe32-dev (>= 0.0.22-~~) <!nocheck>, librust-goblin-0.2+pe64-dev <!nocheck> | librust-goblin-0.1+pe64-dev <!nocheck> | librust-goblin-0.0+pe64-dev (>= 0.0.22-~~) <!nocheck>, librust-goblin-0.2+std-dev <!nocheck> | librust-goblin-0.1+std-dev <!nocheck> | librust-goblin-0.0+std-dev (>= 0.0.22-~~) <!nocheck>, librust-parity-wasm-0.41+default-dev <!nocheck> | librust-parity-wasm-0.40+default-dev <!nocheck> | librust-parity-wasm-0.39+default-dev <!nocheck> | librust-parity-wasm-0.38+default-dev <!nocheck>, librust-scroll-0.10-dev <!nocheck>, librust-uuid-0.8-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b73d9e2ad9ae5db1425a293bccf10aec 4217 rust-object_0.12.0-4.dsc
+ 0e359f710f65d0d75923f69e3f6dc05b 22269 rust-object_0.12.0.orig.tar.gz
+ de16615c5bd2202165bb2a68a93979ff 3812 rust-object_0.12.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/object
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/object]
+Checksums-Sha256:
+ e4b26da2202c961afd2d885c46b387fc5e2055eb2aade16b39e1fbe20921cdd9 4217 rust-object_0.12.0-4.dsc
+ df4af347f5ac3d0e83e78c26be33cd10e8e874dcb68517a909ad802ba50a90b5 22269 rust-object_0.12.0.orig.tar.gz
+ 7ec50e712dbeea3e1cec9ab9f852bdb10fd654f1367222d1ae7d020438089e27 3812 rust-object_0.12.0-4.debian.tar.xz
+Package-List: 
+ librust-object+compression-dev deb rust optional arch=any
+ librust-object+default-dev deb rust optional arch=any
+ librust-object+parity-wasm-dev deb rust optional arch=any
+ librust-object+std-dev deb rust optional arch=any
+ librust-object+wasm-dev deb rust optional arch=any
+ librust-object-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-memmap-0.7+default-dev
+Directory: pool/main/r/rust-object
+Priority: extra
+Section: misc

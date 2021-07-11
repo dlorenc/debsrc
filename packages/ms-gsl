@@ -1,0 +1,27 @@
+Package: ms-gsl
+Binary: libmsgsl-dev
+Version: 3.1.0-4
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: cmake (>= 3.14), libgtest-dev <!nocheck>, pkg-config <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 048bdf52334820951e3052c5b6d3b170 2015 ms-gsl_3.1.0-4.dsc
+ b6910c54113f921b03dc06642cf7f11c 78196 ms-gsl_3.1.0.orig.tar.gz
+ ce0ba0c0ebfca42b093a9a4f99db4077 6480 ms-gsl_3.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ms-gsl
+Vcs-Git: https://salsa.debian.org/debian/ms-gsl.git
+Checksums-Sha256:
+ a4349ab6b8d36642defa1567dcb384a202a31c7c41983736766e28fc04e18d04 2015 ms-gsl_3.1.0-4.dsc
+ d3234d7f94cea4389e3ca70619b82e8fb4c2f33bb3a070799f1e18eef500a083 78196 ms-gsl_3.1.0.orig.tar.gz
+ 4eddccb6ae03a907435da926f9e1af9c09ee323caa06e41b126b8ca1d971c30f 6480 ms-gsl_3.1.0-4.debian.tar.xz
+Homepage: https://github.com/Microsoft/GSL
+Package-List: 
+ libmsgsl-dev deb libdevel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clang, cmake, g++, libc++-dev, libc++abi-dev, libgtest-dev, make, pkg-config
+Directory: pool/main/m/ms-gsl
+Priority: optional
+Section: misc

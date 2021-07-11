@@ -1,0 +1,26 @@
+Package: node-pkg-dir
+Binary: node-pkg-dir
+Version: 5.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), node-find-up (>= 4.0~) <!nocheck>, node-tape <!nocheck>, node-unique-string <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4bd24af69d567028b6a51f7db0360531 2104 node-pkg-dir_5.0.0-1.dsc
+ 6009a6d48d5525d75cdb6abefd3035d2 3331 node-pkg-dir_5.0.0.orig.tar.gz
+ f7977e01459e0a3b44b768b922800a23 5092 node-pkg-dir_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-pkg-dir
+Vcs-Git: https://salsa.debian.org/js-team/node-pkg-dir.git
+Checksums-Sha256:
+ ba3580d0e8e29c61a186c2a6caec64416a455495240a6a34beca14077a06e879 2104 node-pkg-dir_5.0.0-1.dsc
+ 0bff8dc193513a9460b42cecf05d5095ae05c4581bdb771a630e18e3338772ce 3331 node-pkg-dir_5.0.0.orig.tar.gz
+ c7780e0fc32fc4b65770b4855bd7b0ac7b51289a79dc98e35f32dd96b5762b8e 5092 node-pkg-dir_5.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/pkg-dir
+Package-List: 
+ node-pkg-dir deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-pkg-dir
+Priority: optional
+Section: javascript

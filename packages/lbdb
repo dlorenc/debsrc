@@ -1,0 +1,25 @@
+Package: lbdb
+Binary: lbdb, elpa-lbdb
+Version: 0.49
+Maintainer: Roland Rosenfeld <roland@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-elpa (>= 1.16), libauthen-sasl-perl <!nocheck>, libnet-ldap-perl <!nocheck>, libpalm-perl <!nocheck>, libvformat-dev <!nocheck>, perl
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ c3787c8e95c1dd63739571c5711fc5c9 1775 lbdb_0.49.dsc
+ 35ae870eac63800586838526f975fe03 139044 lbdb_0.49.tar.xz
+Vcs-Browser: https://github.com/RolandRosenfeld/lbdb
+Vcs-Git: https://github.com/RolandRosenfeld/lbdb.git
+Checksums-Sha256:
+ 0e41654f244f62d4e615ef1a642dbff0cff644d3199eef8f51fdd156097bbdc7 1775 lbdb_0.49.dsc
+ d30da712c2b6444d965ec9aa72c2041e0e2d785567c25dda96c028d71544dff2 139044 lbdb_0.49.tar.xz
+Homepage: https://www.spinnaker.de/lbdb/
+Package-List: 
+ elpa-lbdb deb lisp optional arch=all
+ lbdb deb mail optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: abook, debhelper
+Directory: pool/main/l/lbdb
+Priority: source
+Section: mail

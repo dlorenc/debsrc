@@ -1,0 +1,26 @@
+Package: gevent-websocket
+Binary: python3-gevent-websocket
+Version: 0.10.1-4
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: William Grzybowski <william@grzy.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 43af07c3ae43a4fa9c244d32aa91907c 1495 gevent-websocket_0.10.1-4.dsc
+ 1c76e522bf14175fc6d8dbe64d61887d 17072 gevent-websocket_0.10.1.orig.tar.gz
+ 5a3328b4b302e08ffcf807b01f0f4cf0 3344 gevent-websocket_0.10.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/gevent-websocket
+Vcs-Git: https://salsa.debian.org/python-team/packages/gevent-websocket.git
+Checksums-Sha256:
+ 67c4cb160c0550e4dcf7831b49e4b4a1cd00c9c41e38b6a175cacc21fd4f7af2 1495 gevent-websocket_0.10.1-4.dsc
+ f09b4f02bc61c4e1a147fa94bfcf54e65256968f3e48d9c179e1c054594c2e77 17072 gevent-websocket_0.10.1.orig.tar.gz
+ 7a351113c92690fd51476f2a8a103d0b7f163167b8562a9a0804a4c1fce08883 3344 gevent-websocket_0.10.1-4.debian.tar.xz
+Homepage: https://gitlab.com/noppo/gevent-websocket
+Package-List: 
+ python3-gevent-websocket deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/g/gevent-websocket
+Priority: optional
+Section: misc

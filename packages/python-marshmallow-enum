@@ -1,0 +1,27 @@
+Package: python-marshmallow-enum
+Binary: python3-marshmallow-enum
+Version: 1.5.1-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Louis-Philippe Véronneau <pollo@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-marshmallow <!nocheck>, python3-pytest <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0.0
+Format: 3.0 (quilt)
+Files:
+ 2e7c3bb19e4a65a32ac40dc768aa1be9 2271 python-marshmallow-enum_1.5.1-2.dsc
+ 79e298335987ba82cfc606e8234bf498 6196 python-marshmallow-enum_1.5.1.orig.tar.xz
+ 120cc5b64ded41fcdc0b03bacdfa0ebd 2664 python-marshmallow-enum_1.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-marshmallow-enum
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-marshmallow-enum.git
+Checksums-Sha256:
+ ab7a58218235e6342ead20dd2a5cbe0bfe83b04d4a6fcdef2e7b2298b812714a 2271 python-marshmallow-enum_1.5.1-2.dsc
+ bfd2668674049b6258c97cb1517578f30c38932ef12fb83920f272a8ed8cee6c 6196 python-marshmallow-enum_1.5.1.orig.tar.xz
+ 20e0467b02b34d0088272099d8851a14c8c672e3eecf67c88f0923f0c747a250 2664 python-marshmallow-enum_1.5.1-2.debian.tar.xz
+Homepage: https://github.com/justanr/marshmallow_enum
+Package-List: 
+ python3-marshmallow-enum deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-marshmallow-enum
+Priority: extra
+Section: misc

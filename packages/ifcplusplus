@@ -1,0 +1,27 @@
+Package: ifcplusplus
+Binary: ifcplusplus, libifcplusplus, libifcplusplus-dev
+Version: 0~git20190402.13744d5+dfsg-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Kurt Kremitzki <kurt@kwk.systems>, Matteo F. Vescovi <mfv@debian.org>
+Build-Depends: cmake, debhelper-compat (= 12), libboost-dev, libopenscenegraph-dev, libqt5opengl5-dev, libqt5widgets5, qt5-qmake, qtbase5-dev, qttools5-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 60b98b4a1796a3241d65f5efae623ead 2536 ifcplusplus_0~git20190402.13744d5+dfsg-2.dsc
+ ba16a5180de088bc61aa5423c0efa4a0 717472 ifcplusplus_0~git20190402.13744d5+dfsg.orig.tar.xz
+ 21fe50ce94467189032d026e2f89d840 2876 ifcplusplus_0~git20190402.13744d5+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ifcplusplus
+Vcs-Git: https://salsa.debian.org/science-team/ifcplusplus.git
+Checksums-Sha256:
+ 797239a384ad0241f90ff948c1e96eefdf78498b108cfb0e478867ae94303c7c 2536 ifcplusplus_0~git20190402.13744d5+dfsg-2.dsc
+ 7553b79f613b13855eca5e9a25b5e57136b90307c38928f89c060a9f9ea5ed40 717472 ifcplusplus_0~git20190402.13744d5+dfsg.orig.tar.xz
+ 3d8651025e37ef942364d5c8617465fac5235f3205f4e44502bb9d30f50e27eb 2876 ifcplusplus_0~git20190402.13744d5+dfsg-2.debian.tar.xz
+Homepage: http://www.ifcquery.com
+Package-List: 
+ ifcplusplus deb graphics optional arch=any
+ libifcplusplus deb libs optional arch=any
+ libifcplusplus-dev deb libdevel optional arch=any
+Directory: pool/main/i/ifcplusplus
+Priority: extra
+Section: misc

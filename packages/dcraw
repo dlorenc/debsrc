@@ -1,0 +1,27 @@
+Package: dcraw
+Binary: dcraw
+Version: 9.28-2
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Filip Hroch <hroch@physics.muni.cz>
+Build-Depends: debhelper (>= 11), libjpeg-dev, liblcms2-dev
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 0c9f1e5dc889a0ea05a648e3ffa23ea4 1982 dcraw_9.28-2.dsc
+ 7cc879c2a152d0727ff4d440e35a5f96 119126 dcraw_9.28.orig.tar.gz
+ 74db16240902c785b4675c9e2f169257 6847908 dcraw_9.28-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/dcraw.git
+Vcs-Git: https://salsa.debian.org/debian-astro-team/dcraw.git
+Checksums-Sha256:
+ feb6a31a436b518981bf4a063646f2db16addcbe7af25f7b22f99e7cb4d7c068 1982 dcraw_9.28-2.dsc
+ 3929fe8734db7129431531322d76401517b700cc5bab06f4ba2cd2aa0e303a93 119126 dcraw_9.28.orig.tar.gz
+ 07f648b314931c64212b4addc5ac66eff7c47627279bc588c5bd308a6e9fb330 6847908 dcraw_9.28-2.debian.tar.xz
+Homepage: http://www.cybercom.net/~dcoffin/dcraw/
+Package-List: 
+ dcraw deb graphics optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: netpbm
+Directory: pool/main/d/dcraw
+Priority: source
+Section: graphics

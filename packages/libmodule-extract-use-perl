@@ -1,0 +1,28 @@
+Package: libmodule-extract-use-perl
+Binary: libmodule-extract-use-perl
+Version: 1.047-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libppi-perl <!nocheck>, libtest-manifest-perl <!nocheck>, libtest-output-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1aa24e9ecb5356556020e34dbe5d9e37 2624 libmodule-extract-use-perl_1.047-1.dsc
+ 9aff96ab9759f4974ef0802e981f99ab 14580 libmodule-extract-use-perl_1.047.orig.tar.gz
+ b048edee3e4ce54500775788bfb24119 6080 libmodule-extract-use-perl_1.047-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmodule-extract-use-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmodule-extract-use-perl.git
+Checksums-Sha256:
+ f60e68c12970402989e390cd62520eba5c1b3cf804a73b494b5edaa23cd596aa 2624 libmodule-extract-use-perl_1.047-1.dsc
+ fa7487b02012866cc090e06afc850740914ff84b652f44f6da58a8cdad0f0052 14580 libmodule-extract-use-perl_1.047.orig.tar.gz
+ e9010758acacbe1831c4e6744a3f5bd1a66d3f1a26900efe4c1acb2433e01ac1 6080 libmodule-extract-use-perl_1.047-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Module-Extract-Use
+Dgit: abf6014779178281ec797200b77212da79694d72 debian archive/debian/1.047-1 https://git.dgit.debian.org/libmodule-extract-use-perl
+Package-List: 
+ libmodule-extract-use-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmodule-extract-use-perl
+Priority: source
+Section: perl

@@ -1,0 +1,28 @@
+Package: golang-github-tdewolff-minify
+Binary: golang-github-tdewolff-minify-dev, minify
+Version: 2.7.2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-dustin-go-humanize-dev, golang-github-fsnotify-fsnotify-dev, golang-github-matryer-try-dev, golang-github-spf13-pflag-dev, golang-github-tdewolff-parse-dev (>= 2.4.2~), golang-github-tdewolff-test-dev (>= 1.0.6~)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 526b266a5fd05e250936924e80287c70 2521 golang-github-tdewolff-minify_2.7.2-1.dsc
+ c6378dad82a0a77163c508b48d901477 2301870 golang-github-tdewolff-minify_2.7.2.orig.tar.gz
+ 521fdb01f074414f81bd446bd9ca2cb4 4164 golang-github-tdewolff-minify_2.7.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-tdewolff-minify
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-tdewolff-minify.git
+Checksums-Sha256:
+ a7e858e616555c7d3d3f4f85c65a92c3dfce542682a7c200b7232138995a5b81 2521 golang-github-tdewolff-minify_2.7.2-1.dsc
+ 84c508dc0e7d3047f5aa5b7048c2bef61e3588958b3276d603a65fc84b592b00 2301870 golang-github-tdewolff-minify_2.7.2.orig.tar.gz
+ 89c3d73f8ab8e1809897a18803f1d32242c5e5cee1901eb0e198d002cb752e2b 4164 golang-github-tdewolff-minify_2.7.2-1.debian.tar.xz
+Homepage: https://github.com/tdewolff/minify
+Go-Import-Path: github.com/tdewolff/minify
+Package-List: 
+ golang-github-tdewolff-minify-dev deb devel optional arch=all
+ minify deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-tdewolff-minify
+Priority: extra
+Section: golang

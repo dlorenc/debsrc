@@ -1,0 +1,29 @@
+Package: puppet
+Binary: puppet, puppet-master, puppet-master-passenger
+Version: 5.5.22-2
+Maintainer: Puppet Package Maintainers <pkg-puppet-devel@alioth-lists.debian.net>
+Uploaders: Micah Anderson <micah@debian.org>, Andrew Pollock <apollock@debian.org>, Stig Sandbeck Mathisen <ssm@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 12), facter, rake, hiera, ronn, yard
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2aac3d8b556423e6e5aabf3a47f515b9 1803 puppet_5.5.22-2.dsc
+ 47e2e48f094e0a916308e82d7190bd30 2998132 puppet_5.5.22.orig.tar.gz
+ 42650e045e4cbab104b0d31a3f2afa0e 43384 puppet_5.5.22-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/puppet-team/puppet
+Vcs-Git: https://salsa.debian.org/puppet-team/puppet.git
+Checksums-Sha256:
+ a04db8d58d677042177f5b4ada6dca5008589f03b861c716833593a34a3301c5 1803 puppet_5.5.22-2.dsc
+ 2f7c68887f823a4b1f25c810702faf730779d5347d16bb604666f3c445ccc0ed 2998132 puppet_5.5.22.orig.tar.gz
+ 0a8dd4333db310e86436d5afb0a15b4f219236c0ebb5cddb3d39d0558647ef7e 43384 puppet_5.5.22-2.debian.tar.xz
+Homepage: https://github.com/puppetlabs/puppet
+Package-List: 
+ puppet deb admin optional arch=all
+ puppet-master deb admin optional arch=all
+ puppet-master-passenger deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: curl, ruby-serverspec, systemd-sysv
+Directory: pool/main/p/puppet
+Priority: source
+Section: admin

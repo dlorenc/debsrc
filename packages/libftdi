@@ -1,0 +1,24 @@
+Package: libftdi
+Binary: libftdi1, libftdi-dev, libftdi1-dbg
+Version: 0.20-4
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Build-Depends: debhelper (>= 9), libusb-dev (>= 2:0.1.11), pkg-config (>= 0.18), doxygen, dh-autoreconf
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 925b0aac9f85e5433c400cc4240797a4 1872 libftdi_0.20-4.dsc
+ 355d4474e3faa81b485d6a604b06951f 423570 libftdi_0.20.orig.tar.gz
+ f284bd89207af54da398215e68715656 5056 libftdi_0.20-4.debian.tar.xz
+Checksums-Sha256:
+ a0e3fa6cbd9c5fa356d9ad76301eda71cecbdc92b4993852d9402f7abe20784c 1872 libftdi_0.20-4.dsc
+ 3176d5b5986438f33f5208e690a8bfe90941be501cc0a72118ce3d338d4b838e 423570 libftdi_0.20.orig.tar.gz
+ 37174e03bb87401da8e9cb895792fec6b5269dc1bd83dfd49ea9d1efdb5b352f 5056 libftdi_0.20-4.debian.tar.xz
+Homepage: http://www.intra2net.com/en/developer/libftdi/
+Package-List: 
+ libftdi-dev deb libdevel optional arch=any
+ libftdi1 deb libs optional arch=any
+ libftdi1-dbg deb debug extra arch=any
+Directory: pool/main/libf/libftdi
+Priority: source
+Section: libs

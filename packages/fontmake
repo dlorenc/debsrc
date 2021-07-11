@@ -1,0 +1,27 @@
+Package: fontmake
+Binary: fontmake, python3-fontmake
+Version: 2.3.0-2
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Yao Wei (魏銘廷) <mwei@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-fonttools (>= 4.19.1), python3-glyphslib (>= 5.3.0~b1), python3-ufo2ft (>= 2.19.1-2), python3-mutatormath (>= 2.1.2), python3-fontmath (>= 0.6.0), python3-defcon (>= 0.7.2), python3-booleanoperations (>= 0.9.0), python3-ufolib2 (>= 0.8.0), python3-attr (>= 20.2.0), python3-cffsubr (>= 0.2.7), python3-pytest <!nocheck>, help2man
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ebb9d4babab665eb06fcc8cdeeec1b6f 2411 fontmake_2.3.0-2.dsc
+ 8f861e92459e7117bf3962f6383eed97 115806 fontmake_2.3.0.orig.tar.gz
+ 07f49fb6a197e8be8c6fb1c76a788752 4168 fontmake_2.3.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/fontmake
+Vcs-Git: https://salsa.debian.org/fonts-team/fontmake.git
+Checksums-Sha256:
+ 73be0cc3d376ac8573208796d888734ef8bb3a94d925e3ba288bc296c99fb158 2411 fontmake_2.3.0-2.dsc
+ 23e4f9067aecdce840c2c99053b2a428d378aa5f1f72b7f8330dce8f490345b7 115806 fontmake_2.3.0.orig.tar.gz
+ cc1b540ad7e096b4e5a920ef418162e0e24f71ca7c337ea68f2e1d0f57ef05c5 4168 fontmake_2.3.0-2.debian.tar.xz
+Homepage: https://github.com/googlei18n/fontmake
+Package-List: 
+ fontmake deb devel optional arch=all
+ python3-fontmake deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/f/fontmake
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: feersum
+Binary: feersum
+Version: 1.410-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), libanyevent-perl <!nocheck>, libev-perl, libguard-perl <!nocheck>, libhtml-parser-perl <!nocheck>, libjson-xs-perl <!nocheck>, libplack-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-leaktrace-perl <!nocheck>, libtest-tcp-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 78db7cb71b97c001a6ebff73413df15f 2233 feersum_1.410-1.dsc
+ f217082bdb6608261c9757bfca75a9a9 108227 feersum_1.410.orig.tar.gz
+ ef730348e61282d240c2a5374daab5bd 3960 feersum_1.410-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/feersum
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/feersum.git
+Checksums-Sha256:
+ 03f3662d7147eb6d24c9cae56c2194e4466031e9de2421f189c429377998f88d 2233 feersum_1.410-1.dsc
+ 938314e5e9940eb29e32ffaeb16298879e52957c62b0472dabacb2456f8cee0a 108227 feersum_1.410.orig.tar.gz
+ 48e92c47bd45a56fb2b7d9531ebf002740f07ceefbf8cea1c7ce02c2dca7eafd 3960 feersum_1.410-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Feersum
+Package-List: 
+ feersum deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/f/feersum
+Priority: extra
+Section: misc

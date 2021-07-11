@@ -1,0 +1,28 @@
+Package: retro-gtk
+Binary: libretro-gtk-1-0, libretro-gtk-1-dev, gir1.2-retro-1, retro-runner
+Version: 1.0.1-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools (>= 1.24-2), libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libgtk-3-dev (>= 3.20), libtool-bin, libpulse-dev, libsamplerate0-dev, meson (>= 0.50.0), valac, xauth <!nocheck>, xvfb <!nocheck>
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 21a19f73d22ef4fae2ee4bb656bf9808 2123 retro-gtk_1.0.1-1.dsc
+ c191e441fdc02e63e47e31f95923206a 124440 retro-gtk_1.0.1.orig.tar.xz
+ 72a6d25c53671e4222cc7e0f8923c8d1 5140 retro-gtk_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/retro-gtk
+Vcs-Git: https://salsa.debian.org/gnome-team/retro-gtk.git
+Checksums-Sha256:
+ 9b5a15945a6c4c355c5d802a3966a32787542af0d5aa090a886482fcb5a998a9 2123 retro-gtk_1.0.1-1.dsc
+ ee41c4d39777d31183c613e573613aae6d1c0a97991788e7c79afe15c9058576 124440 retro-gtk_1.0.1.orig.tar.xz
+ 1ddd6f58a443ea542105ca726ec47691a59e10db22c5c7869c801aac7a48434c 5140 retro-gtk_1.0.1-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Games
+Package-List: 
+ gir1.2-retro-1 deb introspection optional arch=linux-any
+ libretro-gtk-1-0 deb libs optional arch=linux-any
+ libretro-gtk-1-dev deb libdevel optional arch=linux-any
+ retro-runner deb libs optional arch=linux-any
+Directory: pool/main/r/retro-gtk
+Priority: optional
+Section: misc

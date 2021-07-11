@@ -1,0 +1,29 @@
+Package: cl-xmls
+Binary: cl-xmls
+Version: 3.0.2-1
+Maintainer: Debian Common Lisp Team <debian-common-lisp@lists.debian.org>
+Uploaders: Peter Van Eynde <pvaneynd@debian.org>, Christoph Egger <christoph@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 886d1c44e0955c76079c9df85e35a5ba 2274 cl-xmls_3.0.2-1.dsc
+ 2462bab4a5d74e87ef7bdef41cd06dc8 113037 cl-xmls_3.0.2.orig.tar.gz
+ 5ddcea33d2227af2ac43c8a36f56c928 113292 cl-xmls_3.0.2.orig.tar.gz.asc
+ 334c1d6c52c1aac90b8be54dcb38e046 3580 cl-xmls_3.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/common-lisp-team/cl-xmls
+Vcs-Git: https://salsa.debian.org/common-lisp-team/cl-xmls.git
+Checksums-Sha256:
+ 51145bb9c2eb062ea76a4c492bc73db7b12bb31c4b134b8b093228b6d4c0aee9 2274 cl-xmls_3.0.2-1.dsc
+ f1cd735f6d035058193616be5b0259a2291de3a212553864218fc92f0cdff5e4 113037 cl-xmls_3.0.2.orig.tar.gz
+ b49cc37a3541c51f76bfe8248d273ed61634953155b76c380b611859c6115c15 113292 cl-xmls_3.0.2.orig.tar.gz.asc
+ ac668936ce9298ed86399c797b5387b862c4d9dd127ff6a21104e73b353b7e80 3580 cl-xmls_3.0.2-1.debian.tar.xz
+Homepage: https://common-lisp.net/project/xmls/
+Package-List: 
+ cl-xmls deb lisp optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: cl-fiveam, clisp, ecl, sbcl
+Directory: pool/main/c/cl-xmls
+Priority: source
+Section: lisp

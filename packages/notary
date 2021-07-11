@@ -1,0 +1,28 @@
+Package: notary
+Binary: notary, golang-github-docker-notary-dev
+Version: 0.6.1~ds2-6
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Arnaud Rebillout <arnaud.rebillout@collabora.com>, Michael Hudson-Doyle <mwhudson@debian.org>, Tianon Gravi <tianon@debian.org>
+Build-Depends: debhelper (>= 11~), dh-golang, golang-any, golang-github-bugsnag-bugsnag-go-dev, golang-github-cloudflare-cfssl-dev, golang-github-docker-distribution-dev (>= 2.7.1~), golang-github-docker-go-connections-dev (>= 0.3.0~), golang-github-docker-go-dev, golang-github-dvsekhvalnov-jose2go-dev, golang-github-go-sql-driver-mysql-dev, golang-github-gorilla-mux-dev, golang-github-jinzhu-gorm-dev, golang-github-lib-pq-dev, golang-github-mattn-go-sqlite3-dev, golang-github-miekg-pkcs11-dev (>= 0.0~git20160602~), golang-github-shopify-logrus-bugsnag-dev (>= 0.0~git20171204~), golang-github-sirupsen-logrus-dev (>= 1.0.2~), golang-github-spf13-cobra-dev, golang-github-spf13-viper-dev, golang-github-stretchr-testify-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev (>= 0.0+git20160110~), golang-golang-x-sys-dev, golang-google-grpc-dev (>= 0.0~git20151002~), golang-gopkg-gorethink-gorethink.v3-dev, golang-goprotobuf-dev, openssl
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ b4d450fbf8864684b45e173730e4e7cc 3130 notary_0.6.1~ds2-6.dsc
+ a5e5c7ccb7e35838dabc813ce4184a7a 1291548 notary_0.6.1~ds2.orig.tar.xz
+ da4f48ab0a7cec9fdc8ae58a8597c42d 11116 notary_0.6.1~ds2-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/notary
+Vcs-Git: https://salsa.debian.org/go-team/packages/notary.git
+Checksums-Sha256:
+ 3c4e3ea87db677a2abb85d5bc7b404a9e6d916c86b77034a3cc116a045401c5c 3130 notary_0.6.1~ds2-6.dsc
+ d7fdf6df752aeb476cb82bff76a7915082429125b424c23f11ce0e2f54f7290f 1291548 notary_0.6.1~ds2.orig.tar.xz
+ 4be3774cef35b8cb0a65ea39fb45936e7494e5db780b6387a144f5b9483df401 11116 notary_0.6.1~ds2-6.debian.tar.xz
+Homepage: https://github.com/theupdateframework/notary
+Go-Import-Path: github.com/theupdateframework/notary
+Package-List: 
+ golang-github-docker-notary-dev deb devel optional arch=all
+ notary deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/n/notary
+Priority: optional
+Section: misc

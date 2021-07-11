@@ -1,0 +1,24 @@
+Package: command-not-found
+Binary: command-not-found
+Version: 20.10.1-1
+Maintainer: Julian Andres Klode <jak@debian.org>
+Build-Depends: debhelper (>= 10~), devscripts, dh-python, intltool, pyflakes3, python3-all, python3-apt, python3-distutils-extra
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 651f2e0b4cc7124342156d815ff69a41 2021 command-not-found_20.10.1-1.dsc
+ be089057b5dc3f3096dd987d9b901fee 29562 command-not-found_20.10.1.orig.tar.gz
+ 4b619fe8c76fbc58fd39feab7386afa8 14192 command-not-found_20.10.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/jak/command-not-found
+Vcs-Git: https://salsa.debian.org/jak/command-not-found.git
+Checksums-Sha256:
+ ad2a153f7dced5cc84bcc2e85ad537545b792c7716580f585268829a38e56042 2021 command-not-found_20.10.1-1.dsc
+ 7c4ca45c3853543d7d7fc96e128e3f622c4535b8bf0b98e2b70c225b39c33789 29562 command-not-found_20.10.1.orig.tar.gz
+ 6f0e4578299a0be25596d5b0bed0ca09faa60be1e8df1542f35ebede4ada9987 14192 command-not-found_20.10.1-1.debian.tar.xz
+Package-List: 
+ command-not-found deb admin optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/c/command-not-found
+Priority: source
+Section: admin

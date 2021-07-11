@@ -1,0 +1,27 @@
+Package: pgq
+Binary: postgresql-13-pgq3
+Version: 3.4.1-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper-compat (= 13), naturaldocs, python3, postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0624ec5fd8b613a0d6cc527b60114a01 1979 pgq_3.4.1-1.dsc
+ f112d838ced26db100bc87b4cab159c0 73639 pgq_3.4.1.orig.tar.gz
+ f632cfddb9441a0c0593697181c5b7b2 2480 pgq_3.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pgq
+Vcs-Git: https://salsa.debian.org/postgresql/pgq.git
+Checksums-Sha256:
+ 0e556a810d919d0e97a360a0b251651f26a3a0ab8ad7d3579fae0019ebb71530 1979 pgq_3.4.1-1.dsc
+ 81701cf85a56a6e2334708f65d8c27fba4202efe89a31c664d065629c6b81bae 73639 pgq_3.4.1.orig.tar.gz
+ 070f8a81d2c80b972907fb176d1fd63744d286c440276370a51dd9c77d99db15 2480 pgq_3.4.1-1.debian.tar.xz
+Homepage: https://github.com/pgq/pgq
+Package-List: 
+ postgresql-13-pgq3 deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make, python3
+Directory: pool/main/p/pgq
+Priority: extra
+Section: misc

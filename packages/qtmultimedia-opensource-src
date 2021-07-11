@@ -1,0 +1,36 @@
+Package: qtmultimedia-opensource-src
+Binary: libqt5multimedia5, libqt5multimedia5-plugins, libqt5multimediaquick5, libqt5multimediawidgets5, qml-module-qtmultimedia, qml-module-qtaudioengine, libqt5multimediagsttools5, qtmultimedia5-examples, qtmultimedia5-dev, qtmultimedia5-doc, qtmultimedia5-doc-html
+Version: 5.15.2-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>
+Build-Depends: debhelper-compat (= 13), libasound2-dev [linux-any], libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libopenal-dev, libpulse-dev, libqt5opengl5-dev (>= 5.15.2+dfsg~), pkg-kde-tools, qml-module-qtquick2, qml-module-qttest, qtbase5-dev (>= 5.15.2+dfsg~), qtbase5-private-dev (>= 5.15.2+dfsg~), qtdeclarative5-dev (>= 5.15.2+dfsg~), xauth <!nocheck>, xvfb <!nocheck>, zlib1g-dev
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>, qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ aa010e2b97d815fe3a12e5a9aabeb03c 3654 qtmultimedia-opensource-src_5.15.2-3.dsc
+ 591e3c3322742eaf76bc6f91dce59e42 3828172 qtmultimedia-opensource-src_5.15.2.orig.tar.xz
+ f6eb4ec75cdba22c1546adb83979b902 29296 qtmultimedia-opensource-src_5.15.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtmultimedia
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtmultimedia.git
+Checksums-Sha256:
+ 0c4f121c03c866d8bb9c2d00739fe3d86bcbd9cb08c1f3f5074039f689ddf242 3654 qtmultimedia-opensource-src_5.15.2-3.dsc
+ 0c3758810e5131aabcf76e4965e4c18b8911af54d9edd9305d2a8278d8346df5 3828172 qtmultimedia-opensource-src_5.15.2.orig.tar.xz
+ 5374a14b4fa6ac8c78ec1623ee9ff33da14f01c0649bb3e2e1e10a67fc03f15d 29296 qtmultimedia-opensource-src_5.15.2-3.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtmultimedia-index.html
+Package-List: 
+ libqt5multimedia5 deb libs optional arch=any
+ libqt5multimedia5-plugins deb libs optional arch=any
+ libqt5multimediagsttools5 deb libs optional arch=any
+ libqt5multimediaquick5 deb libs optional arch=any
+ libqt5multimediawidgets5 deb libs optional arch=any
+ qml-module-qtaudioengine deb libs optional arch=any
+ qml-module-qtmultimedia deb libs optional arch=any
+ qtmultimedia5-dev deb libdevel optional arch=any
+ qtmultimedia5-doc deb doc optional arch=all profile=!nodoc
+ qtmultimedia5-doc-html deb doc optional arch=all profile=!nodoc
+ qtmultimedia5-examples deb x11 optional arch=any
+Directory: pool/main/q/qtmultimedia-opensource-src
+Priority: source
+Section: misc

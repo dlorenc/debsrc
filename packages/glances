@@ -1,0 +1,28 @@
+Package: glances
+Binary: glances, glances-doc
+Version: 3.1.5-1
+Maintainer: Daniel Echeverri <epsilon@debian.org>
+Uploaders: Sebastien Badia <sbadia@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-psutil, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ decf4be6bce7453c5812ab02b4aeff27 2102 glances_3.1.5-1.dsc
+ a0e904bff88bbb8c544070563c547412 6804549 glances_3.1.5.orig.tar.gz
+ e26b34c6c44ba6b1179c0c986f5b460d 11800 glances_3.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/glances
+Vcs-Git: https://salsa.debian.org/debian/glances.git
+Checksums-Sha256:
+ 0f0c91cc9708de3ba574ed30f809bb2a43b7a49b68c316ef9ac8d512f0f091ef 2102 glances_3.1.5-1.dsc
+ e60ea1274e882f9d64d16c12690bd71dcc70ebe7e93690d773275f92fa126b24 6804549 glances_3.1.5.orig.tar.gz
+ 9235e9e477ba7b551963818a7a76f35c478fbc3209c8e1cc1bd7cec58391aef6 11800 glances_3.1.5-1.debian.tar.xz
+Homepage: https://nicolargo.github.com/glances/
+Package-List: 
+ glances deb utils optional arch=all
+ glances-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: curl
+Directory: pool/main/g/glances
+Priority: source
+Section: misc

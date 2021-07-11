@@ -1,0 +1,28 @@
+Package: geeqie
+Binary: geeqie, geeqie-common
+Version: 1:1.6-9
+Maintainer: Andreas Rönnquist <gusnan@debian.org>
+Build-Depends: debhelper-compat (= 13), libtool, autoconf, automake, libgtk-3-dev, libexiv2-dev, liblcms2-dev, liblircclient-dev, intltool, imagemagick, libtiff-dev, libjpeg-dev, liblua5.1-0-dev, libffmpegthumbnailer-dev, libheif-dev, libwebp-dev, libdjvulibre-dev, libopenjp2-7-dev, libchamplain-gtk-0.12-dev, libpoppler-glib-dev, yelp-tools
+Build-Conflicts: libexiv2-dev (= 0.19-2)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ eadb4942ed35cd102874070ee55976fd 2456 geeqie_1.6-9.dsc
+ e7401c0e117c423456d5fab468c3149c 1693488 geeqie_1.6.orig.tar.xz
+ bf6bd605863a3507e73d3eb7052abb36 688 geeqie_1.6.orig.tar.xz.asc
+ 41d170df958f43c038e11d8eb0b7aedc 41024 geeqie_1.6-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/geeqie
+Vcs-Git: https://salsa.debian.org/debian/geeqie.git
+Checksums-Sha256:
+ 81bf2ed4950c9ec8d96992499bf19a7712a94d52f14652e6befb55478b9cac6b 2456 geeqie_1.6-9.dsc
+ 48f8a4474454d182353100e43878754b76227f3b8f30cfc258afc9d90a4e1920 1693488 geeqie_1.6.orig.tar.xz
+ 2d39a4bc43685bde64d02deb194a5b9f94e0b37b5468df3b46b0fae5ca35e61b 688 geeqie_1.6.orig.tar.xz.asc
+ fa833c3b87628c0257a168979a2f3ed436bc529de93baaf8081988e625f2e382 41024 geeqie_1.6-9.debian.tar.xz
+Homepage: http://geeqie.org/
+Package-List: 
+ geeqie deb graphics optional arch=any
+ geeqie-common deb graphics optional arch=all
+Directory: pool/main/g/geeqie
+Priority: source
+Section: graphics

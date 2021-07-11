@@ -1,0 +1,26 @@
+Package: ykclient
+Binary: libykclient3, libykclient-dev
+Version: 2.15-2
+Maintainer: Debian Authentication Maintainers <pkg-auth-maintainers@lists.alioth.debian.org>
+Uploaders: Tollef Fog Heen <tfheen@debian.org>, Simon Josefsson <simon@josefsson.org>, Klas Lindfors <klas@yubico.com>, Dain Nilsson <dain@yubico.com>
+Build-Depends: debhelper (>= 11), libcurl4-gnutls-dev | libcurl4-openssl-dev, chrpath, help2man, pkg-config
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 13d774bd3f3410da48bcc4ebc7f4b715 1858 ykclient_2.15-2.dsc
+ d7da4d4acc1461af06346e194aa4960b 388738 ykclient_2.15.orig.tar.gz
+ b472314e403aab948499af0a669c721c 22800 ykclient_2.15-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/auth-team/ykclient
+Vcs-Git: https://salsa.debian.org/auth-team/ykclient.git
+Checksums-Sha256:
+ d33a25e5f6ee84c3c0b44e8e836c830174836d507a6caccb00cc250c588b44a6 1858 ykclient_2.15-2.dsc
+ f461cdefe7955d58bbd09d0eb7a15b36cb3576b88adbd68008f40ea978ea5016 388738 ykclient_2.15.orig.tar.gz
+ afe3aedb2ceee086dc2355486df2113810102c7cd70fdfef0a2efbe73f86c7c3 22800 ykclient_2.15-2.debian.tar.xz
+Homepage: https://developers.yubico.com/yubico-c-client/
+Package-List: 
+ libykclient-dev deb libdevel optional arch=any
+ libykclient3 deb libs optional arch=any
+Directory: pool/main/y/ykclient
+Priority: source
+Section: libs

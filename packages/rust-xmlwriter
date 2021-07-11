@@ -1,0 +1,26 @@
+Package: rust-xmlwriter
+Binary: librust-xmlwriter-dev
+Version: 0.1.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ ec39f16da1428743f6b3b8a85584a61b 1779 rust-xmlwriter_0.1.0-2.dsc
+ 73d6473724e8b1a897d9c88e03e04ef8 6261 rust-xmlwriter_0.1.0.orig.tar.gz
+ df9e6e442a70b3470dd21e07116335d9 2468 rust-xmlwriter_0.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/xmlwriter
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/xmlwriter]
+Checksums-Sha256:
+ 55dd28a5d97c3731ac51e84cd122c6c4c640bc85f5d31dc7f5c87912bd9a4f70 1779 rust-xmlwriter_0.1.0-2.dsc
+ ec7a2a501ed189703dba8b08142f057e887dfc4b2cc4db2d343ac6376ba3e0b9 6261 rust-xmlwriter_0.1.0.orig.tar.gz
+ c286322e2ca749ba5bb0fea0942dc9f4ac9bb37a67e09f6fdd2e769fffac6ad6 2468 rust-xmlwriter_0.1.0-2.debian.tar.xz
+Package-List: 
+ librust-xmlwriter-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-xmlwriter
+Priority: extra
+Section: misc

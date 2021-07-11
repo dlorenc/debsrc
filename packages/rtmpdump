@@ -1,0 +1,27 @@
+Package: rtmpdump
+Binary: rtmpdump, librtmp1, librtmp-dev
+Version: 2.4+20151223.gitfa8646d.1-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Reinhard Tartler <siretart@tauware.de>, Sebastian Dröge <slomo@debian.org>, Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper (>= 11), libgmp-dev, libgnutls28-dev (>= 2.4.1), nettle-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 17cdeaec72897387f5df218973ae006e 2299 rtmpdump_2.4+20151223.gitfa8646d.1-2.dsc
+ b2f4381632c0dccca48e8ad2827aa7a3 142213 rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz
+ a6049ba024d8128812dcbe4896d10dec 8096 rtmpdump_2.4+20151223.gitfa8646d.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/rtmpdump
+Vcs-Git: https://salsa.debian.org/multimedia-team/rtmpdump.git
+Checksums-Sha256:
+ a296819cd2ab5880b67ad963ef0867cb10e462f4403e52565aa863eb05bb1370 2299 rtmpdump_2.4+20151223.gitfa8646d.1-2.dsc
+ 5c032f5c8cc2937eb55a81a94effdfed3b0a0304b6376147b86f951e225e3ab5 142213 rtmpdump_2.4+20151223.gitfa8646d.1.orig.tar.gz
+ 26d47de07d16285e4ca55b0828cbbf1ba35e671f9b3500a87e301fe755d26882 8096 rtmpdump_2.4+20151223.gitfa8646d.1-2.debian.tar.xz
+Homepage: http://rtmpdump.mplayerhq.hu/
+Package-List: 
+ librtmp-dev deb libdevel optional arch=any
+ librtmp1 deb libs optional arch=any
+ rtmpdump deb web optional arch=any
+Directory: pool/main/r/rtmpdump
+Priority: source
+Section: web

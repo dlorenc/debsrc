@@ -1,0 +1,26 @@
+Package: okio
+Binary: libokio-java, libokio-java-doc
+Version: 1.16.0-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlikok@gmail.com>, Markus Koschany <apo@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk-doc, javahelper, junit4, libanimal-sniffer-java, libmaven-javadoc-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bfedfb3779e41b71f463bd52538857dd 2246 okio_1.16.0-2.dsc
+ ebdaa4576a2036542d1e1cc8fa39f1d5 118039 okio_1.16.0.orig.tar.gz
+ c63ca2512cd47fc2821172cc4bbc7fe5 2912 okio_1.16.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/okio
+Vcs-Git: https://salsa.debian.org/java-team/okio.git
+Checksums-Sha256:
+ 62871b5324ac437c249622cc2c26858a523d044cb6582eaede1d641f54a2747c 2246 okio_1.16.0-2.dsc
+ f77b80e7a5f84ed22d4d556fca1917a040781a1231935cae65dbd129b6cebd17 118039 okio_1.16.0.orig.tar.gz
+ 27d1bf5c7ad42336925e44a2636bf59e915a506641785749deb4315d378eac1b 2912 okio_1.16.0-2.debian.tar.xz
+Homepage: https://github.com/square/okio
+Package-List: 
+ libokio-java deb java optional arch=all
+ libokio-java-doc deb doc optional arch=all
+Directory: pool/main/o/okio
+Priority: optional
+Section: misc

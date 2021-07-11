@@ -1,0 +1,25 @@
+Package: egl-wayland
+Binary: libnvidia-egl-wayland-dev, libnvidia-egl-wayland1
+Version: 1:1.1.5-1
+Maintainer: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: debhelper-compat (= 12), eglexternalplatform-dev, libegl1-mesa-dev, libwayland-dev, libwayland-egl-backend-dev, meson, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0412d26f408694fd9ceb5790af9d4fa3 2075 egl-wayland_1.1.5-1.dsc
+ 92c92f13a48ee8a96a5a5392654500c4 48697 egl-wayland_1.1.5.orig.tar.gz
+ 8315bffc4382b541b06e11709aed0718 2680 egl-wayland_1.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/egl-wayland.git
+Vcs-Git: https://salsa.debian.org/debian/egl-wayland.git
+Checksums-Sha256:
+ c7d30d73fd5efa8fe572abf9490f11678d1842c431b3b78e5e0a1a09a48dd55a 2075 egl-wayland_1.1.5-1.dsc
+ 61405575b09c6cfc7fa53658691742aa0872233305664441b1917caac92f4683 48697 egl-wayland_1.1.5.orig.tar.gz
+ 86f43117d2ea442d59759333e5f648b42096764b6475c18034316ac39779c344 2680 egl-wayland_1.1.5-1.debian.tar.xz
+Homepage: https://github.com/NVIDIA/egl-wayland
+Package-List: 
+ libnvidia-egl-wayland-dev deb libdevel optional arch=any
+ libnvidia-egl-wayland1 deb libs optional arch=any
+Directory: pool/main/e/egl-wayland
+Priority: extra
+Section: misc

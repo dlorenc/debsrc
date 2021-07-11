@@ -1,0 +1,27 @@
+Package: emd
+Binary: emd
+Version: 1.0.1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tong Sun <suntong001@users.sourceforge.net>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-yaml.v2-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a63d0e62d8a85d8b2856648a4c703676 1971 emd_1.0.1-2.dsc
+ 2904642f6afa094c4ea90e4019bf47db 31821 emd_1.0.1.orig.tar.gz
+ 25a10923f93e6acd95c9c24fe8684f5b 2812 emd_1.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/emd
+Vcs-Git: https://salsa.debian.org/go-team/packages/emd.git
+Checksums-Sha256:
+ ae4f461da5371fe59c57544e5b0149e652ef6f0d7515f3de9a904f00398c8bb6 1971 emd_1.0.1-2.dsc
+ 71a80bb223dce631fbcffae7188e62fba020da9ed61e96ed89967ff5edef88a4 31821 emd_1.0.1.orig.tar.gz
+ fbef5c741586d3028da0b4d98ac426e88c21d9285c0b3d90d58a19a5ad0b6048 2812 emd_1.0.1-2.debian.tar.xz
+Homepage: https://github.com/mh-cbon/emd
+Go-Import-Path: github.com/mh-cbon/emd
+Package-List: 
+ emd deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/e/emd
+Priority: extra
+Section: misc

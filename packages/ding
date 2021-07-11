@@ -1,0 +1,29 @@
+Package: ding
+Binary: ding, trans-de-en, dict-de-en
+Version: 1.9-2
+Maintainer: Roland Rosenfeld <roland@debian.org>
+Build-Depends: debhelper-compat (= 13), imagemagick
+Build-Depends-Indep: bsdextrautils (>= 2.35.2-3) | bsdmainutils (<< 12.1.1), dictfmt (>= 1.10.1), dictzip, man-db
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1e4c5ef6ed1faad2aa2a4ebbaf6eb761 2096 ding_1.9-2.dsc
+ 1c5f96720914306b6fa8b940fb8129fe 7864078 ding_1.9.orig.tar.gz
+ d1105272ff3661880f661593dfd820bd 46740 ding_1.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ding
+Vcs-Git: https://salsa.debian.org/debian/ding.git
+Checksums-Sha256:
+ 4aa1b2f0ff03ad969c85d1393051ac4a31968f816466342056aa0c341568e589 2096 ding_1.9-2.dsc
+ 69a6c81fcf785a286c053a352f3201cc8671c72851615c4b707a434309b098e5 7864078 ding_1.9.orig.tar.gz
+ 22f53e52b932bc8061a53220ede6cdc3eeffcc6b4426e59ee6175417685b6afe 46740 ding_1.9-2.debian.tar.xz
+Homepage: https://www-user.tu-chemnitz.de/~fri/ding/
+Package-List: 
+ dict-de-en deb text optional arch=all
+ ding deb text optional arch=all
+ trans-de-en deb text optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: desktop-file-utils, dict, dictd, dpkg-dev
+Directory: pool/main/d/ding
+Priority: source
+Section: text

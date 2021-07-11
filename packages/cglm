@@ -1,0 +1,27 @@
+Package: cglm
+Binary: libcglm-doc, libcglm-dev, libcglm0
+Version: 0.7.9-1
+Maintainer: Leon Marz <lmarz@cs.uni-frankfurt.de>
+Uploaders: Jordan Justen <jljusten@debian.org>
+Build-Depends: debhelper-compat (= 13), python3-sphinx, python3-sphinx-rtd-theme
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 74b7f10bb96438a091b68bd36968d97d 1985 cglm_0.7.9-1.dsc
+ 0fd78508322e20a9804cd819fcc6c3a3 227949 cglm_0.7.9.orig.tar.gz
+ 27a31ed533b5f37bd5b4d3f370eeece6 4488 cglm_0.7.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/cglm
+Vcs-Git: https://salsa.debian.org/debian/cglm.git
+Checksums-Sha256:
+ 4d9c63bce258a0b7e1b44abcc2eb9cbe0ca2b8331b5ea69b268428c71a6956b0 1985 cglm_0.7.9-1.dsc
+ c96dd8a6f1d9aedb7ac02fe6bafd2a3a625a19e62bc18d455faf9c6825e9bd7b 227949 cglm_0.7.9.orig.tar.gz
+ 5ef61d22a26d16e2a4664e5995027f87ff1ae34304390574e8b3de3812246d3f 4488 cglm_0.7.9-1.debian.tar.xz
+Homepage: https://github.com/recp/cglm
+Package-List: 
+ libcglm-dev deb libdevel optional arch=any
+ libcglm-doc deb doc optional arch=all
+ libcglm0 deb libs optional arch=any
+Directory: pool/main/c/cglm
+Priority: extra
+Section: misc

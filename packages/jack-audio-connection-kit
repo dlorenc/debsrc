@@ -1,0 +1,28 @@
+Package: jack-audio-connection-kit
+Binary: jackd1, libjack0, jackd1-firewire, libjack-dev
+Version: 1:0.125.0-3
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Adrian Knoth <adi@drcomp.erfurt.thur.de>, Free Ekanayaka <freee@debian.org>, Jonas Smedegaard <dr@jones.dk>, Junichi Uekawa <dancer@debian.org>, Reinhard Tartler <siretart@tauware.de>,
+Build-Depends: bash-completion, debhelper (>= 10), dh-exec, doxygen, libasound2-dev [linux-any], libdb-dev, libffado-dev (>= 2.0.0) [linux-any], libraw1394-dev [linux-any], libreadline-dev, libsamplerate-dev, libsndfile1-dev, libtool, libzita-alsa-pcmi-dev [linux-any], libzita-resampler-dev [linux-any], patchutils, po-debconf, uuid-dev
+Architecture: any
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 68effc08812500da0aeb71f19f95e60b 2735 jack-audio-connection-kit_0.125.0-3.dsc
+ 41b324c6b4abd74ac1aa19eb2bb2ca78 364296 jack-audio-connection-kit_0.125.0.orig.tar.xz
+ 37a06792eaff6b5b5e2c1a1bf0018638 31316 jack-audio-connection-kit_0.125.0-3.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-multimedia/jack-audio-connection-kit.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/jack-audio-connection-kit.git
+Checksums-Sha256:
+ dcb81da11b80f4052c80788e82f031fc67ae4609c0d815689e83efd7d1fdb255 2735 jack-audio-connection-kit_0.125.0-3.dsc
+ e708bffb3bedc5c1dc112c5dd4781aa19fe04a2e70097763ff7e198cb9389c27 364296 jack-audio-connection-kit_0.125.0.orig.tar.xz
+ 86a181c8f5b9a969f88658ece0712960fb7714063504bbab57041c92cc4a2490 31316 jack-audio-connection-kit_0.125.0-3.debian.tar.xz
+Homepage: http://jackaudio.org/
+Package-List: 
+ jackd1 deb sound optional arch=any
+ jackd1-firewire deb sound optional arch=amd64,i386,powerpc
+ libjack-dev deb libdevel optional arch=any
+ libjack0 deb libs optional arch=any
+Directory: pool/main/j/jack-audio-connection-kit
+Priority: source
+Section: sound

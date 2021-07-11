@@ -1,0 +1,27 @@
+Package: ruby-secure-headers
+Binary: ruby-secure-headers
+Version: 6.3.1-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Abhijith PA <abhijith@openmailbox.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-coveralls, ruby-rack, ruby-rspec, ruby-useragent
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 994ad91985b7393b4c2f7e235dddc64e 1821 ruby-secure-headers_6.3.1-1.dsc
+ 71d6c1a829edaebf42c38326dcf7447e 54586 ruby-secure-headers_6.3.1.orig.tar.gz
+ acaf79428d67641edf929bef6b83d39f 2860 ruby-secure-headers_6.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-secure-headers
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-secure-headers.git
+Checksums-Sha256:
+ fe9c7bbcae63a429a8a18e4690e529f26cd2c484e316133a31f11f0f8b87df58 1821 ruby-secure-headers_6.3.1-1.dsc
+ cb8144ebb54657b135ebda0a84d5814ca92a7fa123c377c893ab69910d5a6fcd 54586 ruby-secure-headers_6.3.1.orig.tar.gz
+ f47b5a08f0bfe4b07d10ca756139cb716ec914b79520434b7286ee426218a5c9 2860 ruby-secure-headers_6.3.1-1.debian.tar.xz
+Homepage: https://github.com/twitter/secureheaders
+Package-List: 
+ ruby-secure-headers deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-secure-headers
+Priority: extra
+Section: misc

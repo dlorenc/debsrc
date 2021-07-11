@@ -1,0 +1,26 @@
+Package: node-cookie
+Binary: node-cookie
+Version: 0.4.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), nodejs (>= 6) <!nocheck>, mocha (>= 1.21.5) <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 23149473a3fb2b06e25008f8197e07d7 2068 node-cookie_0.4.1-1.dsc
+ 6d2d7b4a507229ab8754413a61381780 10505 node-cookie_0.4.1.orig.tar.gz
+ 53b2b20f1d43f75803cdac849602d9ff 2588 node-cookie_0.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cookie
+Vcs-Git: https://salsa.debian.org/js-team/node-cookie.git
+Checksums-Sha256:
+ 8ef191ecefce9e4bd3b85b9dc85ddcaee0025a7a2c0509b5cce93a6e64514a83 2068 node-cookie_0.4.1-1.dsc
+ 9df639d772011ac860d0193cb6f16a364ac9864fafc27eb6b2102b01a2810a70 10505 node-cookie_0.4.1.orig.tar.gz
+ 876f88e74f69cf52dbb2f01bc87f1e89312ba73593bb95495fc04842c9d9df07 2588 node-cookie_0.4.1-1.debian.tar.xz
+Homepage: https://github.com/shtylman/node-cookie
+Package-List: 
+ node-cookie deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cookie
+Priority: optional
+Section: javascript

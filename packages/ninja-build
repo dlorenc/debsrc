@@ -1,0 +1,26 @@
+Package: ninja-build
+Binary: ninja-build
+Version: 1.10.1-1
+Maintainer: Felix Geyer <fgeyer@debian.org>
+Build-Depends: asciidoc <!nodoc>, debhelper-compat (= 12), docbook-xml <!nodoc>, docbook-xsl <!nodoc>, help2man <!nodoc>, python3, re2c, xsltproc <!nodoc>
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 64569d4a5ee51ee40b0e4f4dd760a496 2025 ninja-build_1.10.1-1.dsc
+ 05c1bb5ef41c85057fa6abdffa243dcd 211216 ninja-build_1.10.1.orig.tar.gz
+ be1d769a80be6cb0d84975530fff25d9 4848 ninja-build_1.10.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ninja-build
+Vcs-Git: https://salsa.debian.org/debian/ninja-build.git
+Checksums-Sha256:
+ 751755ebace1341b0d558955611b12e403b29a7837aa56649e7aa42fe87b14bf 2025 ninja-build_1.10.1-1.dsc
+ a6b6f7ac360d4aabd54e299cc1d8fa7b234cd81b9401693da21221c62569a23e 211216 ninja-build_1.10.1.orig.tar.gz
+ be40283cd279fb00cc690590438cdf4bff3225fe65341855fd082fc881f58baa 4848 ninja-build_1.10.1-1.debian.tar.xz
+Homepage: https://ninja-build.org/
+Package-List: 
+ ninja-build deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/n/ninja-build
+Priority: source
+Section: misc

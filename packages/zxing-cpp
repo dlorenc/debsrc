@@ -1,0 +1,25 @@
+Package: zxing-cpp
+Binary: libzxingcore-dev, libzxingcore1
+Version: 1.1.1-2
+Maintainer: Boyuan Yang <byang@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.10)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 265a172b3200807c749e97d01072c0ae 1932 zxing-cpp_1.1.1-2.dsc
+ 4b1cc29387c0318405f9042d7c657159 128925736 zxing-cpp_1.1.1.orig.tar.gz
+ 475c138ed1d97f44ac5ca4f20d3d0eae 3152 zxing-cpp_1.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/zxing-cpp
+Vcs-Git: https://salsa.debian.org/debian/zxing-cpp.git
+Checksums-Sha256:
+ 6aefd1f1d1624401d940c3118b06e361606d488d60fea34c32dc3c4ba2b7ca8d 1932 zxing-cpp_1.1.1-2.dsc
+ e595b3fa2ec320beb0b28f6af56b1141853257c2611686685639cebb3b248c86 128925736 zxing-cpp_1.1.1.orig.tar.gz
+ cff68fa5172d97294a176c5be6745ff3b0f646b80db38242155bf329cf8f7c0a 3152 zxing-cpp_1.1.1-2.debian.tar.xz
+Homepage: https://github.com/nu-book/zxing-cpp
+Package-List: 
+ libzxingcore-dev deb libdevel optional arch=any
+ libzxingcore1 deb libs optional arch=any
+Directory: pool/main/z/zxing-cpp
+Priority: extra
+Section: misc

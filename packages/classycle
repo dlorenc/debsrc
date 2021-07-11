@@ -1,0 +1,27 @@
+Package: classycle
+Binary: libclassycle-java, libclassycle-java-doc
+Version: 1.4.2-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: ant, debhelper (>= 10), default-jdk
+Build-Depends-Indep: ant-optional, maven-repo-helper (>= 1.5~)
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ dfb922baa1cd1504962b1fdcc262d38c 2109 classycle_1.4.2-1.1.dsc
+ 36c1ff897d051005df1a4fd474967926 72576 classycle_1.4.2.orig.tar.xz
+ 08acc762661306b80ef45689fbb916bd 4984 classycle_1.4.2-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/classycle.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/classycle.git
+Checksums-Sha256:
+ e3c7f137811a3ca6d6d68cad19e7bad9e1cbc843c5e248469289b900c14ab9d3 2109 classycle_1.4.2-1.1.dsc
+ 223873a67a27be8a9e3fa3b4856379aefeaafd77adc1b37b935cad48a481d4a4 72576 classycle_1.4.2.orig.tar.xz
+ d2f02b19f82bafafe063c42dd3e341ba8567a9732b056ba872a9508a91481e0e 4984 classycle_1.4.2-1.1.debian.tar.xz
+Homepage: http://classycle.sourceforge.net/
+Package-List: 
+ libclassycle-java deb java optional arch=all
+ libclassycle-java-doc deb doc optional arch=all
+Directory: pool/main/c/classycle
+Priority: source
+Section: misc

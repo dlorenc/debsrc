@@ -1,0 +1,40 @@
+Package: rails
+Binary: ruby-activesupport, ruby-activerecord, ruby-activemodel, ruby-activejob, ruby-actionview, ruby-actionpack, ruby-actionmailbox, ruby-actionmailer, ruby-actioncable, ruby-activestorage, ruby-actiontext, ruby-railties, ruby-rails, rails
+Version: 2:6.0.3.5+dfsg-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@debian.org>, Utkarsh Gupta <utkarsh@debian.org>,
+Build-Depends: debhelper-compat (= 13), gem2deb, rollup, node-rollup-plugin-node-resolve (>= 11~), node-rollup-plugin-commonjs (>= 15~), node-rollup-plugin-babel (>= 5.2~), node-babel7, webpack, ruby-byebug, puma (>= 4.1~), racc, rake (>= 11.1), ruby-bcrypt (<< 3.2), ruby-bcrypt (>= 3.1.11), ruby-benchmark-ips, ruby-blade, ruby-blade-sauce-labs-plugin, ruby-capybara (>= 2.15), ruby-chromedriver-helper, ruby-connection-pool, ruby-dalli, ruby-delayed-job, ruby-delayed-job-active-record, ruby-hiredis, ruby-image-processing (<< 2.0), ruby-json (>= 2.0.0), ruby-libxml, ruby-listen (>= 3.2~), ruby-minitest-reporters, ruby-mysql2 (>= 0.4.10), ruby-pg (>= 0.18.0), ruby-rack-cache (<< 2.0), ruby-redis (<< 5.0), ruby-redis (>= 4.0), ruby-redis-namespace, ruby-sass-rails (>= 6.0~), ruby-sdoc, ruby-selenium-webdriver, ruby-sequel, ruby-sidekiq, ruby-sprockets-export, ruby-sqlite3, ruby-turbolinks (>= 5.0), ruby-uglifier, ruby-webmock, ruby-builder (<< 4.0) <!nocheck>, ruby-bundler <!nocheck>, ruby-concurrent (<< 2.0) <!nocheck>, ruby-concurrent (>= 1.0.2) <!nocheck>, ruby-erubi (<< 2.0) <!nocheck>, ruby-globalid <!nocheck>, ruby-i18n (<< 2.0) <!nocheck>, ruby-i18n (>= 0.7) <!nocheck>, ruby-mail (<< 3.0) <!nocheck>, ruby-mail (>= 2.7.1) <!nocheck>, ruby-marcel (<< 0.4) <!nocheck>, ruby-method-source <!nocheck>, ruby-minitest (<< 6.0) <!nocheck>, ruby-nio4r (<< 3.0) <!nocheck>, ruby-nio4r (>= 2.0) <!nocheck>, ruby-nokogiri (>= 1.8.5) <!nocheck>, ruby-rack (<< 3.0) <!nocheck>, ruby-rack (>= 2.0.8) <!nocheck>, ruby-rack-test (>= 0.6.3) <!nocheck>, ruby-rails-dom-testing (<< 3.0) <!nocheck>, ruby-rails-dom-testing (>= 2.0) <!nocheck>, ruby-rails-html-sanitizer (<< 2.0) <!nocheck>, ruby-rails-html-sanitizer (>= 1.2~) <!nocheck>, ruby-sprockets-rails (>= 2.3.2~) <!nocheck>, ruby-thor (<< 2.0) <!nocheck>, ruby-thor (>= 0.20.3) <!nocheck>, ruby-tzinfo (<< 2.0) <!nocheck>, ruby-websocket-driver <!nocheck>, sqlite3 <!nocheck>, ruby-zeitwerk (<< 3.0) <!nocheck>, redis-server <!nocheck>, procps <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7592ea27d5f0ebdac4f0771a8f7a4128 4840 rails_6.0.3.5+dfsg-1.dsc
+ f7df646e72732046ac23f1b844e2a123 13967472 rails_6.0.3.5+dfsg.orig.tar.xz
+ 8cb08bfb01ac9184f632048a8b109022 97636 rails_6.0.3.5+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/rails
+Vcs-Git: https://salsa.debian.org/ruby-team/rails.git
+Checksums-Sha256:
+ 410c1478f8018be189e845af6f66dc6c6a3a68aee6e5771aa95ca410530705e5 4840 rails_6.0.3.5+dfsg-1.dsc
+ b10dcb4cfaba91a22cd3779446e05d851c8a2649a21fd0f54626d16b79bca6eb 13967472 rails_6.0.3.5+dfsg.orig.tar.xz
+ dd112909ece8b5f357c6a3c62c8931d1ada04de4c47ea16035aaab8f997ee0b8 97636 rails_6.0.3.5+dfsg-1.debian.tar.xz
+Homepage: https://rubyonrails.org/
+Package-List: 
+ rails deb ruby optional arch=all
+ ruby-actioncable deb ruby optional arch=all
+ ruby-actionmailbox deb ruby optional arch=all
+ ruby-actionmailer deb ruby optional arch=all
+ ruby-actionpack deb ruby optional arch=all
+ ruby-actiontext deb ruby optional arch=all
+ ruby-actionview deb ruby optional arch=all
+ ruby-activejob deb ruby optional arch=all
+ ruby-activemodel deb ruby optional arch=all
+ ruby-activerecord deb ruby optional arch=all
+ ruby-activestorage deb ruby optional arch=all
+ ruby-activesupport deb ruby optional arch=all
+ ruby-rails deb ruby optional arch=all
+ ruby-railties deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Directory: pool/main/r/rails
+Priority: source
+Section: ruby

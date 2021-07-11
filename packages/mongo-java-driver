@@ -1,0 +1,25 @@
+Package: mongo-java-driver
+Binary: libmongodb-java
+Version: 3.6.3-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>, Christopher Hoskin <mans0954@debian.org>
+Build-Depends: debhelper (>= 11), default-jdk, gradle-debian-helper (>= 1.4), iproute2, libnetty-java, libsnappy-java, libcodenarc-groovy-java, libspock-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ a3f39203d745523b1e9b59baebcd46d9 2205 mongo-java-driver_3.6.3-2.dsc
+ 35d5839b7a020aa0e040371739fc3fc9 1018344 mongo-java-driver_3.6.3.orig.tar.xz
+ 7fb04b58273f2c1c8398be3055a0d1a7 16432 mongo-java-driver_3.6.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/mongo-java-driver
+Vcs-Git: https://salsa.debian.org/java-team/mongo-java-driver.git
+Checksums-Sha256:
+ 64a051845cb417cdf3f18f4d5e867915b4436156c52d4e3156e923be30b9809a 2205 mongo-java-driver_3.6.3-2.dsc
+ 54f6e3811b3eccd5c34cea31532871a24dbb4c35e99badbc0461323f80e463c0 1018344 mongo-java-driver_3.6.3.orig.tar.xz
+ 2bc7c890f49c343a59211964c672b223dbf706497913e0027bfee291bc49e10b 16432 mongo-java-driver_3.6.3-2.debian.tar.xz
+Homepage: http://www.mongodb.org
+Package-List: 
+ libmongodb-java deb java optional arch=all
+Directory: pool/main/m/mongo-java-driver
+Priority: optional
+Section: misc

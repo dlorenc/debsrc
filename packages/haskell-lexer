@@ -1,0 +1,28 @@
+Package: haskell-lexer
+Binary: libghc-haskell-lexer-dev, libghc-haskell-lexer-prof, libghc-haskell-lexer-doc
+Version: 1.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Erik de Castro Lopo <erikd@mega-nerd.com>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.15)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 5022b5f1898942b2fa7ac53890f9f68a 2304 haskell-lexer_1.1-1.dsc
+ 460334be2c67197f5daac0f9b40daf78 14368 haskell-lexer_1.1.orig.tar.gz
+ 4fdd2bdfaecfc6937e7d853ce6a1f907 3008 haskell-lexer_1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-lexer
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-lexer]
+Checksums-Sha256:
+ 2de9750b2180ca2df8394ac38dc85581ccf7592677939d57d4b1f022ce86c1fe 2304 haskell-lexer_1.1-1.dsc
+ 313a15cc643322c8badd148867ce25ca1ffc191df9e7eeec5b10bc08c4b563d5 14368 haskell-lexer_1.1.orig.tar.gz
+ 1c56b6d440a911d8124c68dc5d14fc1015b588dcac3f6b483cb9679f9d0c7d57 3008 haskell-lexer_1.1-1.debian.tar.xz
+Homepage: https://github.com/yav/haskell-lexer
+Package-List: 
+ libghc-haskell-lexer-dev deb haskell optional arch=any
+ libghc-haskell-lexer-doc deb doc optional arch=all
+ libghc-haskell-lexer-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-lexer
+Priority: source
+Section: haskell

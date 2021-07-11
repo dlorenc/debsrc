@@ -1,0 +1,29 @@
+Package: sasmodels
+Binary: python3-sasmodels, sasmodels-private-libs, python-sasmodels-doc
+Version: 1.0.4-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Stuart Prescott <stuart@debian.org>, Drew Parsons <dparsons@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, libjs-jquery, libjs-mathjax, python3-all, python3-matplotlib, python3-setuptools, python3-numpy, python3-pyopencl, python3-pytest, python3-scipy, python3-sphinx (>= 1.6~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 26a06296ed0f90469988ebc5f58e5dd2 2428 sasmodels_1.0.4-3.dsc
+ c144a7a57118070176f19c5501accc6c 10449239 sasmodels_1.0.4.orig.tar.gz
+ 64c28850e739652687b6d1eba8e3fd13 8560 sasmodels_1.0.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/sasmodels
+Vcs-Git: https://salsa.debian.org/science-team/sasmodels.git
+Checksums-Sha256:
+ 87e846440ddae077a4f1281f8dbe0537e7c9224c70d344814f2789349b5ae9d2 2428 sasmodels_1.0.4-3.dsc
+ 98c567888ff94b93311493f9173dbacfb4867483a16ddea3041ec0427d17e5eb 10449239 sasmodels_1.0.4.orig.tar.gz
+ ad1e0b450ea4b035d94eeef089e18191ab7751fc7d195f89333a25860bd331dd 8560 sasmodels_1.0.4-3.debian.tar.xz
+Homepage: http://www.sasview.org/
+Package-List: 
+ python-sasmodels-doc deb doc optional arch=all
+ python3-sasmodels deb python optional arch=all
+ sasmodels-private-libs deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-docutils, python3-matplotlib, python3-pytest
+Directory: pool/main/s/sasmodels
+Priority: extra
+Section: misc

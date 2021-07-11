@@ -1,0 +1,25 @@
+Package: htrace
+Binary: libhtrace-core-java
+Version: 3.1.0-2.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 9), default-jdk, junit4, libcommons-logging-java, libguava-java, libjackson2-databind-java, maven-debian-helper (>= 1.5), thrift-compiler
+Architecture: all
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ 9e88416c4e256829f8d3d90a3b11e4d4 2048 htrace_3.1.0-2.1.dsc
+ cf974eb881b8e8131fbdebd4de5dbc05 277706 htrace_3.1.0.orig.tar.gz
+ dd7682d176aa1f8644ee5b3508cb9b48 3016 htrace_3.1.0-2.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/htrace.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/htrace.git
+Checksums-Sha256:
+ c35af89c3b9f8590771d0b74b7dcfe79f711814f90b785b5cc189908e08c4f34 2048 htrace_3.1.0-2.1.dsc
+ c89389885344bb0846a7d7be128a19731d80f62d193df31b0b666c09c3303373 277706 htrace_3.1.0.orig.tar.gz
+ 30017cee27e36252a8f6de8273eafd1c54a3d6d03e2385b95f62de228ed03863 3016 htrace_3.1.0-2.1.debian.tar.xz
+Homepage: http://htrace.org
+Package-List: 
+ libhtrace-core-java deb java optional arch=all
+Directory: pool/main/h/htrace
+Priority: optional
+Section: misc

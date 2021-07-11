@@ -1,0 +1,26 @@
+Package: osmo-bts
+Binary: osmo-bts
+Version: 1.2.2+dfsg1-2
+Maintainer: Debian Mobcom Maintainers <Debian-mobcom-maintainers@lists.alioth.debian.org>
+Uploaders: Ruben Undheim <ruben.undheim@gmail.com>, Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), pkg-config, libosmocore-dev (>= 1.4.0), openbsc-dev (>= 1.1.0), libosmo-abis-dev (>= 1.0.1), libgps-dev, libortp-dev, libosmocoding0, txt2man
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e2df6fd89f27025d2562fdae9b5094bd 2356 osmo-bts_1.2.2+dfsg1-2.dsc
+ 7ad271e17f6c04f1af2086885514b619 332500 osmo-bts_1.2.2+dfsg1.orig.tar.xz
+ 21ca2ea32c25d71265ecaffeb2fa0c17 5312 osmo-bts_1.2.2+dfsg1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-mobcom-team/osmo-bts
+Vcs-Git: https://salsa.debian.org/debian-mobcom-team/osmo-bts.git
+Checksums-Sha256:
+ a95bfc7b7b476b2dc36fedce536290861994638f4ce9e3a9a19c2d05da7388b6 2356 osmo-bts_1.2.2+dfsg1-2.dsc
+ 4dd50d5d7fcb846b4aff47d9d4ad142e45969463bac12174422c16bd420a4b45 332500 osmo-bts_1.2.2+dfsg1.orig.tar.xz
+ 871bda8a81117c54593ee1f9c015fa871970754288b3ba71151dc0ef5bacad1e 5312 osmo-bts_1.2.2+dfsg1-2.debian.tar.xz
+Homepage: http://openbsc.osmocom.org/trac/wiki/OsmoBTS
+Package-List: 
+ osmo-bts deb net optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/o/osmo-bts
+Priority: optional
+Section: misc

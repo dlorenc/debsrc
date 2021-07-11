@@ -1,0 +1,27 @@
+Package: rust-tokio-reactor
+Binary: librust-tokio-reactor-dev
+Version: 0.1.8-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-utils-0.7+default-dev <!nocheck>, librust-futures-0.1+default-dev (>= 0.1.19-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.1-~~) <!nocheck>, librust-mio-0.6+default-dev (>= 0.6.14-~~) <!nocheck>, librust-num-cpus-1+default-dev (>= 1.8.0-~~) <!nocheck>, librust-parking-lot-0.7+default-dev <!nocheck>, librust-slab-0.4+default-dev <!nocheck>, librust-tokio-executor-0.1+default-dev <!nocheck>, librust-tokio-io-0.1+default-dev (>= 0.1.6-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 588c8d44a68eeb4dd235ecdfa4adb506 2819 rust-tokio-reactor_0.1.8-2.dsc
+ ebdd6e43076404ef31dab14ee2580cee 23805 rust-tokio-reactor_0.1.8.orig.tar.gz
+ 0c0e22381a006c5f126041281998401c 2928 rust-tokio-reactor_0.1.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-reactor
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-reactor]
+Checksums-Sha256:
+ 5de3b31586a4a50caeb4f8c9cd63dde94de4f9578f17df2d13ab212767ac3b27 2819 rust-tokio-reactor_0.1.8-2.dsc
+ afbcdb0f0d2a1e4c440af82d7bbf0bf91a8a8c0575bcd20c05d15be7e9d3a02f 23805 rust-tokio-reactor_0.1.8.orig.tar.gz
+ e85a664599f6aa5e56d3b8f74e0cb248063f0a189293d506ff6fdde128cf82fb 2928 rust-tokio-reactor_0.1.8-2.debian.tar.xz
+Homepage: https://tokio.rs
+Package-List: 
+ librust-tokio-reactor-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-num-cpus-1+default-dev, librust-tokio-0.1+default-dev, librust-tokio-io-pool-0.1+default-dev
+Directory: pool/main/r/rust-tokio-reactor
+Priority: extra
+Section: misc

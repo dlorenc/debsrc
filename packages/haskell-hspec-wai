@@ -1,0 +1,28 @@
+Package: haskell-hspec-wai
+Binary: libghc-hspec-wai-dev, libghc-hspec-wai-prof, libghc-hspec-wai-doc
+Version: 0.10.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-base-compat-dev, libghc-base-compat-prof, libghc-case-insensitive-dev, libghc-case-insensitive-prof, libghc-hspec-core-dev (<< 3), libghc-hspec-core-dev (>= 2), libghc-hspec-core-prof, libghc-hspec-expectations-dev (>= 0.8.0), libghc-hspec-expectations-prof, libghc-http-types-dev, libghc-http-types-prof, libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-wai-dev (>= 3), libghc-wai-prof, libghc-wai-extra-dev (>= 3), libghc-wai-extra-prof, libghc-hspec-dev
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc, libghc-base-compat-doc, libghc-case-insensitive-doc, libghc-hspec-core-doc, libghc-hspec-expectations-doc, libghc-http-types-doc, libghc-wai-doc, libghc-wai-extra-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ae75ac336477bc55a1e726a184ec3928 2998 haskell-hspec-wai_0.10.1-1.dsc
+ 1b872c239ba7f83cbd42b8967a3ceabb 7979 haskell-hspec-wai_0.10.1.orig.tar.gz
+ 7305b058c1efd8ff85997b187c94e4b8 2560 haskell-hspec-wai_0.10.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hspec-wai
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hspec-wai]
+Checksums-Sha256:
+ c47417a3ea4877696723ae465c9050515db4cf7f1b45bec3a8bac52396bc4df7 2998 haskell-hspec-wai_0.10.1-1.dsc
+ 7fb252802da2309c929e3559a2a97d7c27399f58d2afa2ea306ea18c3e035b16 7979 haskell-hspec-wai_0.10.1.orig.tar.gz
+ c45cb5f5515a16082c8d882ca74e0df511a25bebbcfb68a4aab8bc0894bebf1c 2560 haskell-hspec-wai_0.10.1-1.debian.tar.xz
+Homepage: https://github.com/hspec/hspec-wai#readme
+Package-List: 
+ libghc-hspec-wai-dev deb haskell optional arch=any
+ libghc-hspec-wai-doc deb doc optional arch=all
+ libghc-hspec-wai-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hspec-wai
+Priority: optional
+Section: misc

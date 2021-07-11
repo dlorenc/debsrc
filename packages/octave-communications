@@ -1,0 +1,27 @@
+Package: octave-communications
+Binary: octave-communications, octave-communications-common
+Version: 1.2.2-4
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Uploaders: Rafael Laboissière <rafael@debian.org>, Mike Miller <mtmiller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-octave (>= 0.7.1), ghostscript, gnuplot-nox, octave-signal, octave-statistics, pkg-config, texlive, texlive-plain-generic, epstool
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d3ee13d9135a339dea8fa36134d09115 2367 octave-communications_1.2.2-4.dsc
+ d23c24fadbbe7b72c5af44353207011b 329282 octave-communications_1.2.2.orig.tar.gz
+ 864664e62596e614f70fc8323542fcce 7284 octave-communications_1.2.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-octave-team/octave-communications
+Vcs-Git: https://salsa.debian.org/pkg-octave-team/octave-communications.git
+Checksums-Sha256:
+ 2346ad5ac0600432c149b890ba9b0bfb5b0e8f18958bddad72468d21e9ccddae 2367 octave-communications_1.2.2-4.dsc
+ 93f9ad5e807d502f58c07688dfe2ce40231da1a81fe3da90926337e5e5165ef5 329282 octave-communications_1.2.2.orig.tar.gz
+ 5a034f1ae913a63c434a9620bfc16ad010577bb1392cc6d29bde4bf24ee1467f 7284 octave-communications_1.2.2-4.debian.tar.xz
+Homepage: https://octave.sourceforge.io/communications/
+Package-List: 
+ octave-communications deb math optional arch=any
+ octave-communications-common deb math optional arch=all
+Testsuite: autopkgtest-pkg-octave
+Directory: pool/main/o/octave-communications
+Priority: source
+Section: math

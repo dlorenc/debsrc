@@ -1,0 +1,26 @@
+Package: netcat
+Binary: netcat, netcat-traditional
+Version: 1.10-46
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Uploaders: Chris Hofstaedtler <zeha@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6d9082d91b2e9d01d0da0b977bf2d263 1922 netcat_1.10-46.dsc
+ 7dc5c7450e708796395ffd746c197234 64363 netcat_1.10.orig.tar.bz2
+ 5f4b97e50f39c0a58fa543b1ffed328f 20724 netcat_1.10-46.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/netcat
+Vcs-Git: https://salsa.debian.org/debian/netcat.git
+Checksums-Sha256:
+ 9a477c927dc6f1003dc6ce14480b91a99e3d724a39edfbebb41b4ef0c9b39a25 1922 netcat_1.10-46.dsc
+ 64913dc3f0b4a96c3ab04d062d84f28ba6854152c94344e3985458b2aebca3d5 64363 netcat_1.10.orig.tar.bz2
+ 5f2bf914edc9bbf1a45ad77c849f30cbb6f4732293b955c35721738ce5680628 20724 netcat_1.10-46.debian.tar.xz
+Homepage: http://www.stearns.org/nc/
+Package-List: 
+ netcat deb oldlibs optional arch=all
+ netcat-traditional deb net optional arch=any
+Directory: pool/main/n/netcat
+Priority: source
+Section: net

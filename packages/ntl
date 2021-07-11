@@ -1,0 +1,26 @@
+Package: ntl
+Binary: libntl43, libntl-dev
+Version: 11.4.3-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Bernhard R. Link <brlink@debian.org>, Felix Salfelder <felix@salfelder.org>, Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 12), libgf2x-dev, libgmp-dev, libtool-bin
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ aa9236bf0f1d8069011c763ef58f0893 2083 ntl_11.4.3-1.dsc
+ 536b72b7ba5b0075fb137137c00e5773 2274421 ntl_11.4.3.orig.tar.gz
+ 2e3ede83b53206bfb9748c4dbdb4e4e7 10848 ntl_11.4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libntl
+Vcs-Git: https://salsa.debian.org/science-team/libntl.git
+Checksums-Sha256:
+ 5b03f34a6dfbda844edbe1fe8df398275bd253f6352217d3d58c2f3b52cdde5b 2083 ntl_11.4.3-1.dsc
+ b7c1ccdc64840e6a24351eb4a1e68887d29974f03073a1941c906562c0b83ad2 2274421 ntl_11.4.3.orig.tar.gz
+ ab5d9d0ccf36eb3c227462c331f4423e6ff6850776f80d646ee34df34ce935ba 10848 ntl_11.4.3-1.debian.tar.xz
+Homepage: http://www.shoup.net/ntl/
+Package-List: 
+ libntl-dev deb libdevel optional arch=any
+ libntl43 deb libs optional arch=any
+Directory: pool/main/n/ntl
+Priority: source
+Section: math

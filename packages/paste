@@ -1,0 +1,28 @@
+Package: paste
+Binary: python-paste-doc, python3-paste
+Version: 3.5.0+dfsg1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python
+Build-Depends-Indep: python3-all, python3-pytest, python3-pytest-runner, python3-setuptools, python3-six, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 755410887cb0cf66877c52feaef8560c 2169 paste_3.5.0+dfsg1-1.dsc
+ af7954ad7c58846e56d7dec777dd3254 513888 paste_3.5.0+dfsg1.orig.tar.xz
+ dc5bd7a2be0edfc90e344a538f88ea4e 8312 paste_3.5.0+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/paste
+Vcs-Git: https://salsa.debian.org/python-team/packages/paste.git
+Checksums-Sha256:
+ 8f74f2976225611337fff68dc54ceaffde2b7f8fd4a5b95880efbd5caeeb4c75 2169 paste_3.5.0+dfsg1-1.dsc
+ f5cebdf620ed20a0d36a67eb42f06bfa93c360159bfe6e009843d26a1a1c0c87 513888 paste_3.5.0+dfsg1.orig.tar.xz
+ 6f3bc63d1ed86b2ad7a7474d1cdcd7d4d0382d4faf67866a95236514e279c9fa 8312 paste_3.5.0+dfsg1-1.debian.tar.xz
+Homepage: https://pythonpaste.readthedocs.io/
+Package-List: 
+ python-paste-doc deb doc optional arch=all
+ python3-paste deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/paste
+Priority: source
+Section: python

@@ -1,0 +1,27 @@
+Package: hunspell-dict-ko
+Binary: hunspell-ko
+Version: 0.7.92-1
+Maintainer: Debian Korean L10N <debian-l10n-korean@lists.debian.org>
+Uploaders: Changwoo Ryu <cwryu@debian.org>
+Build-Depends: debhelper-compat (= 12), dictionaries-common-dev (>= 1.10.5), python3 (>= 3.5), python3-yaml
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 11360e5c89887bd2cfa6461e9969ce7a 2134 hunspell-dict-ko_0.7.92-1.dsc
+ 4ae127ec4ec53bdfc578e796e43c2c6c 15731379 hunspell-dict-ko_0.7.92.orig.tar.gz
+ 3a0fd55915d993ad54ba0604ea6832a6 17684 hunspell-dict-ko_0.7.92-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/l10n-korean-team/hunspell-dict-ko
+Vcs-Git: https://salsa.debian.org/l10n-korean-team/hunspell-dict-ko.git
+Checksums-Sha256:
+ 078ad23406aac94465fca27ec2f46652acbf9db341275e958a4c4c05dabbdaa1 2134 hunspell-dict-ko_0.7.92-1.dsc
+ fb5bd5d5532f737370177fb782e5959d6e5f4c07d5473b9bc05930191d62b4d2 15731379 hunspell-dict-ko_0.7.92.orig.tar.gz
+ 0e664be1e5b860dff3c87ac8c1f1c4ca099299a97c1f29e2814956f86a4f14e2 17684 hunspell-dict-ko_0.7.92-1.debian.tar.xz
+Homepage: https://spellcheck-ko.github.io/
+Package-List: 
+ hunspell-ko deb localization optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: hunspell, make
+Directory: pool/main/h/hunspell-dict-ko
+Priority: source
+Section: text

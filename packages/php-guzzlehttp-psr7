@@ -1,0 +1,27 @@
+Package: php-guzzlehttp-psr7
+Binary: php-guzzlehttp-psr7
+Version: 1.7.0-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), php-getallheaders, php-psr-http-message, phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 96546b2ee99803e8c08a5d15b0870899 1856 php-guzzlehttp-psr7_1.7.0-1.dsc
+ 61f4b4fdb8fb402a88a2188fbaadd864 77875 php-guzzlehttp-psr7_1.7.0.orig.tar.gz
+ c21f7b7f8037c36afdd756f5f8d7ac48 4952 php-guzzlehttp-psr7_1.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-guzzlehttp-psr7
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-guzzlehttp-psr7.git
+Checksums-Sha256:
+ ce0aa44697a76ff1b215e871cbe738e9b905f481370d431f7f93a61dc67201b4 1856 php-guzzlehttp-psr7_1.7.0-1.dsc
+ 0fb26a13b1036ad1bb34a1a6a0eda3549bcfff4138eecd67a67215c9bcc36dfa 77875 php-guzzlehttp-psr7_1.7.0.orig.tar.gz
+ 827ad9db0cbddfc1e88567f6bbb187a498129c2488c859bad3190381a4bbb9d6 4952 php-guzzlehttp-psr7_1.7.0-1.debian.tar.xz
+Homepage: https://github.com/guzzle/psr7
+Package-List: 
+ php-guzzlehttp-psr7 deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-symfony-console, phpab, phpunit
+Directory: pool/main/p/php-guzzlehttp-psr7
+Priority: optional
+Section: misc

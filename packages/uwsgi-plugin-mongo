@@ -1,0 +1,23 @@
+Package: uwsgi-plugin-mongo
+Binary: uwsgi-plugin-mongo
+Version: 0.0.7
+Maintainer: uWSGI packaging team <pkg-uwsgi-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: debhelper-compat (= 13), libboost-filesystem-dev, libboost-system-dev, libboost-thread-dev, libmongoclient-dev | mongodb-dev, uwsgi-dev, uwsgi-src
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 445b81085c2f6f8f34f905dcd4f0cfa0 1842 uwsgi-plugin-mongo_0.0.7.dsc
+ 38695697752e2394995154a039584347 2732 uwsgi-plugin-mongo_0.0.7.tar.xz
+Vcs-Browser: https://salsa.debian.org/uwsgi-team/uwsgi-plugin-mongo
+Vcs-Git: https://salsa.debian.org/uwsgi-team/uwsgi-plugin-mongo.git
+Checksums-Sha256:
+ ac621bdd78124cd2072d3b9b552344e58d41b7de4e7981f1855124f389084d70 1842 uwsgi-plugin-mongo_0.0.7.dsc
+ 82db36c7b2e2bd368101c4b3ea1bca81ba9017141fbc0fa95673ee7d1fd65534 2732 uwsgi-plugin-mongo_0.0.7.tar.xz
+Homepage: https://uwsgi-docs.readthedocs.io/en/latest/
+Package-List: 
+ uwsgi-plugin-mongo deb httpd optional arch=any
+Directory: pool/main/u/uwsgi-plugin-mongo
+Priority: extra
+Section: misc

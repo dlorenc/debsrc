@@ -1,0 +1,28 @@
+Package: libburn
+Binary: libburn4, cdrskin, libburn-dev, libburn-doc
+Version: 1.5.2-1
+Maintainer: Debian Libburnia packagers <pkg-libburnia-devel@lists.alioth.debian.org>
+Uploaders: George Danchev <danchev@spnet.net>, Mario Danic <mario.danic@gmail.com>, Thomas Schmitt <scdbackup@gmx.net>
+Build-Depends: pkg-config, debhelper-compat (= 12), libcam-dev [kfreebsd-any]
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 142913ead191236aff8424da09da1f65 2193 libburn_1.5.2-1.dsc
+ 096f4acfba00f1210a84fb7650f7693d 988375 libburn_1.5.2.orig.tar.gz
+ 758dbbbe54fd4f43332988217144c248 10472 libburn_1.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/optical-media-team/libburn
+Vcs-Git: https://salsa.debian.org/optical-media-team/libburn.git
+Checksums-Sha256:
+ fbc92ebee9776d52b4d753b35e87bd6f8d5f0fbfdcd53a9a2b3ba6e94a106c11 2193 libburn_1.5.2-1.dsc
+ 7b32db1719d7f6516cce82a9d00dfddfb3581725db732ea87d41ea8ef0ce5227 988375 libburn_1.5.2.orig.tar.gz
+ 8ea14ab9aa7db898d20ab0d06980a11e78891717b1ef992761ae192387901a2f 10472 libburn_1.5.2-1.debian.tar.xz
+Homepage: http://libburnia-project.org
+Package-List: 
+ cdrskin deb otherosfs optional arch=any
+ libburn-dev deb libdevel optional arch=any
+ libburn-doc deb doc optional arch=all
+ libburn4 deb libs optional arch=any
+Directory: pool/main/libb/libburn
+Priority: source
+Section: libs

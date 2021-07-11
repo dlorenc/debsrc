@@ -1,0 +1,26 @@
+Package: rust-markup5ever-rcdom
+Binary: librust-markup5ever-rcdom-dev
+Version: 0.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Henry-Nicolas Tourneur <debian@nilux.be>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-html5ever-0.25+default-dev <!nocheck>, librust-markup5ever-0.10+default-dev <!nocheck>, librust-tendril-0.4+default-dev <!nocheck>, librust-xml5ever-0.16+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 12df192efe334a0382a88b3ed0ebb076 2475 rust-markup5ever-rcdom_0.1.0-1.dsc
+ 1f27c83b74169711efaddda35c6a46fa 25165 rust-markup5ever-rcdom_0.1.0.orig.tar.gz
+ 64709fe231963e58031d9b3b5521f0dd 2784 rust-markup5ever-rcdom_0.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/markup5ever-rcdom
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/markup5ever-rcdom]
+Checksums-Sha256:
+ 0066350910eb1e3aade3b2a7af2359d55d1de9be82a44b22b10046fb98c29eb8 2475 rust-markup5ever-rcdom_0.1.0-1.dsc
+ f015da43bcd8d4f144559a3423f4591d69b8ce0652c905374da7205df336ae2b 25165 rust-markup5ever-rcdom_0.1.0.orig.tar.gz
+ 7c9a5808364411e96d268ddce929bac0c2b8bc057c8413fb5fd9c2380fe2fba8 2784 rust-markup5ever-rcdom_0.1.0-1.debian.tar.xz
+Package-List: 
+ librust-markup5ever-rcdom-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-rustc-test-0.3+default-dev, librust-serde-json-1+default-dev
+Directory: pool/main/r/rust-markup5ever-rcdom
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: osm2pgrouting
+Binary: osm2pgrouting
+Version: 2.3.7-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Daniel Kastl <daniel@georepublic.de>, Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), cmake, libboost-graph-dev, libboost-program-options-dev, libexpat1-dev, libosmium2-dev, libpq-dev, libpqxx-dev, docbook2x, docbook-xsl, docbook-xml, xsltproc
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f5e7076b06222f3b23394bf0ec781070 2235 osm2pgrouting_2.3.7-1.dsc
+ 3e4747bbfcec76785fc171b4c8dc73d1 185875 osm2pgrouting_2.3.7.orig.tar.gz
+ eceb387d8b737b2245a08c8927f1ce7b 16060 osm2pgrouting_2.3.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/osm2pgrouting
+Vcs-Git: https://salsa.debian.org/debian-gis-team/osm2pgrouting.git
+Checksums-Sha256:
+ 2c61ff7fa4541f77469e333a6a1f5a5c244471c93698639de947c0d183fd6006 2235 osm2pgrouting_2.3.7-1.dsc
+ afbe3ff74c9b9b7b1350362fc839e1466335d57f84941af19b5a663fd58aba0c 185875 osm2pgrouting_2.3.7.orig.tar.gz
+ c239e82236691bd5cac01a57687df1f97f121b9e30d323b35708e5230a24a808 16060 osm2pgrouting_2.3.7-1.debian.tar.xz
+Homepage: https://github.com/pgRouting/osm2pgrouting
+Package-List: 
+ osm2pgrouting deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: postgresql-postgis
+Directory: pool/main/o/osm2pgrouting
+Priority: optional
+Section: misc

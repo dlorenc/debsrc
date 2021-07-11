@@ -1,0 +1,25 @@
+Package: gitbrute
+Binary: gitbrute
+Version: 0~12-4
+Maintainer: Adam Borowski <kilobyte@angband.pl>
+Build-Depends: debhelper-compat (= 13), gccgo-go
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8b74c7096dca3f8a095aaf5b7597f960 1854 gitbrute_0~12-4.dsc
+ 97a0550812519d9d0a4d110172a2f05b 2716 gitbrute_0~12.orig.tar.xz
+ 12fe6718ff147d4a10f291f52bd3aa31 2256 gitbrute_0~12-4.debian.tar.xz
+Vcs-Browser: https://github.com/kilobyte/gitbrute/tree/debian
+Vcs-Git: https://github.com/kilobyte/gitbrute -b debian
+Checksums-Sha256:
+ d9bea66641b7a045ef987c3014177f823406fd73c7bfe49ce969e1a196c66155 1854 gitbrute_0~12-4.dsc
+ 82dcad49d98a89f7c4edfe6a7dde8da26a63cb875101032a32dce6fc168ae623 2716 gitbrute_0~12.orig.tar.xz
+ 919d702acacc4d99ce8ec772583102b59ad6d597ebcf3ed6c4ab7aea1c4f9b0d 2256 gitbrute_0~12-4.debian.tar.xz
+Homepage: https://github.com/bradfitz/gitbrute
+Package-List: 
+ gitbrute deb vcs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/g/gitbrute
+Priority: extra
+Section: misc

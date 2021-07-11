@@ -1,0 +1,29 @@
+Package: developers-reference
+Binary: developers-reference, developers-reference-de, developers-reference-fr, developers-reference-ja, developers-reference-ru, developers-reference-it
+Version: 11.0.20
+Maintainer: Developers Reference Maintainers <debian-policy@lists.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>, Holger Levsen <holger@debian.org>,
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: latexmk, python3-sphinx, python3-stemmer, texinfo, texlive-fonts-recommended, texlive-lang-cyrillic, texlive-lang-french, texlive-lang-german, texlive-lang-italian, texlive-lang-japanese, texlive-latex-extra, texlive-latex-recommended
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 6cdb0eaacd24887bdc52e5d3936395d6 2421 developers-reference_11.0.20.dsc
+ 176f2f67becd9a9fdb9d703cc38a4ad0 553216 developers-reference_11.0.20.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/developers-reference
+Vcs-Git: https://salsa.debian.org/debian/developers-reference.git
+Checksums-Sha256:
+ 5aacd1d07368115e820a621fadbb72809fb248bfc5843bbeeb1c4e8c3e19fea2 2421 developers-reference_11.0.20.dsc
+ 00413add4c3256f81997a92fe9e595c9a35fb65f5993fbea46cb493e2969b12d 553216 developers-reference_11.0.20.tar.xz
+Homepage: https://www.debian.org/doc/devel-manuals#devref
+Package-List: 
+ developers-reference deb doc optional arch=all
+ developers-reference-de deb doc optional arch=all
+ developers-reference-fr deb doc optional arch=all
+ developers-reference-it deb doc optional arch=all
+ developers-reference-ja deb doc optional arch=all
+ developers-reference-ru deb doc optional arch=all
+Directory: pool/main/d/developers-reference
+Priority: source
+Section: doc

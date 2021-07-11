@@ -1,0 +1,27 @@
+Package: ruby-pundit
+Binary: ruby-pundit
+Version: 2.1.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Andrew Lee (李健秋) <andrew.lee@collabora.co.uk>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), pry, rake, ruby-actionpack, ruby-activemodel, ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c406f1438afdbec2c6718a6d92ad09fd 1735 ruby-pundit_2.1.0-1.dsc
+ 0d8a3cff62e46a38e70812ffe47339bc 21899 ruby-pundit_2.1.0.orig.tar.gz
+ 1a1556d318f9b32615100b5acf77e551 2708 ruby-pundit_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-pundit
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-pundit.git
+Checksums-Sha256:
+ 5e2365d917ae7b0c092c27e943a21ccbb255d5f98e7433eadf356f42da41de48 1735 ruby-pundit_2.1.0-1.dsc
+ 43b87534f4f82d2abb79ca567a0a8e2bd6f8d13e506d92b8a80d7abe1d8dc1e7 21899 ruby-pundit_2.1.0.orig.tar.gz
+ f0d19213424da05f52ddddd32e439d9320acaac690ad61dc6a80c35b35a4f2a1 2708 ruby-pundit_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/varvet/pundit
+Package-List: 
+ ruby-pundit deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-pundit
+Priority: optional
+Section: misc

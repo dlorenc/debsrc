@@ -1,0 +1,25 @@
+Package: rust-plain
+Binary: librust-plain-dev
+Version: 0.2.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 249aae3baec8425ea98795a5fce15523 1468 rust-plain_0.2.3-1.dsc
+ 2676282e9e6fdfac65fe4352c5c7ec70 10664 rust-plain_0.2.3.orig.tar.gz
+ 4ec86912429d3a684b3d4dbcaa8fa254 2340 rust-plain_0.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/plain
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/plain]
+Checksums-Sha256:
+ 8a5e5ca56172a070d375a06827b5b00ab574d9451b3d6dca2deb353027e46118 1468 rust-plain_0.2.3-1.dsc
+ b4596b6d070b27117e987119b4dac604f3c58cfb0b191112e24771b2faeac1a6 10664 rust-plain_0.2.3.orig.tar.gz
+ 08a10632fc48bb440df836f7b16581d616ba1bc578843e4c9adac7b4e8b563ba 2340 rust-plain_0.2.3-1.debian.tar.xz
+Homepage: https://github.com/randomites/plain
+Package-List: 
+ librust-plain-dev deb rust optional arch=any
+Directory: pool/main/r/rust-plain
+Priority: extra
+Section: misc

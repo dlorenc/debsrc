@@ -1,0 +1,27 @@
+Package: mojoshader
+Binary: libmojoshader-dev, libmojoshader0
+Version: 0.0~hg1314+dfsg-1.1
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, libgl-dev, libvulkan-dev, re2c, spirv-tools, libcryptx-perl
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6908022c0d6f661069718f0ef1ff1c62 2124 mojoshader_0.0~hg1314+dfsg-1.1.dsc
+ 4876ac7578404c217bb90816bfa8fcb4 326440 mojoshader_0.0~hg1314+dfsg.orig.tar.xz
+ 95f36f1bd782758963ff76f789c81106 5472 mojoshader_0.0~hg1314+dfsg-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/yangfl-guest/mojoshader
+Vcs-Git: https://salsa.debian.org/yangfl-guest/mojoshader.git
+Checksums-Sha256:
+ 942b3fdeb6f38c34e762a41278d7aa91ab042edecda66dc95cd42268f415508f 2124 mojoshader_0.0~hg1314+dfsg-1.1.dsc
+ 56880aa627754b9fe09e650df5d06b8b09cbb4697569b5a626388441e1a4ccbc 326440 mojoshader_0.0~hg1314+dfsg.orig.tar.xz
+ 5b011216b01761cd4cc8d8453b30f5fc6da65b93a6e06b2a514b03fe8011a895 5472 mojoshader_0.0~hg1314+dfsg-1.1.debian.tar.xz
+Homepage: https://icculus.org/mojoshader/
+Package-List: 
+ libmojoshader-dev deb libdevel optional arch=any
+ libmojoshader0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/m/mojoshader
+Priority: extra
+Section: misc

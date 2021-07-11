@@ -1,0 +1,27 @@
+Package: ruby-fakeredis
+Binary: ruby-fakeredis
+Version: 0.8.0-4
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Abhijith PA <abhijith@openmailbox.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-redis (>= 4~), ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4235e3156e7f01e396d57a07ea4e5fa9 1732 ruby-fakeredis_0.8.0-4.dsc
+ 25061c18af63fc884bd26b903b35e8f2 38496 ruby-fakeredis_0.8.0.orig.tar.gz
+ 4b1d5c17ffbfe4622eeee66d3abeae3a 5076 ruby-fakeredis_0.8.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-fakeredis
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-fakeredis.git
+Checksums-Sha256:
+ 361c9822bdb5c7abb5afc68efd8b60fb6d35fc51d49dc4bd2dc88d350bcf9bae 1732 ruby-fakeredis_0.8.0-4.dsc
+ eee45d6cc072200de7d151e2552d6c6d3917ed4562f7d04522834c7c99dd0a59 38496 ruby-fakeredis_0.8.0.orig.tar.gz
+ 15b5982eabcbf252728e01cb6188db9c8e4bf4ceb46034aa0bd9cae11f8fd9b0 5076 ruby-fakeredis_0.8.0-4.debian.tar.xz
+Homepage: https://github.com/guilleiguaran/fakeredis
+Package-List: 
+ ruby-fakeredis deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-fakeredis
+Priority: optional
+Section: misc

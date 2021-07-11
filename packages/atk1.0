@@ -1,0 +1,33 @@
+Package: atk1.0
+Binary: libatk1.0-0, libatk1.0-udeb, libatk1.0-data, libatk1.0-dev, libatk1.0-doc, gir1.2-atk-1.0
+Version: 2.36.0-2
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Samuel Thibault <sthibault@debian.org>, Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools (>= 1.13), libglib2.0-dev (>= 2.38.0), libgirepository1.0-dev (>= 1.32.0), meson (>= 0.46.0), pkg-config
+Build-Depends-Indep: docbook-xml <!nodoc>, libglib2.0-doc <!nodoc>
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3ef7b9c4a7dbe340ce21a0a30f280f42 2660 atk1.0_2.36.0-2.dsc
+ 01aa5ec5138f5f8c9b3a4e3196ed2900 299100 atk1.0_2.36.0.orig.tar.xz
+ 13c5c391db22b07d796285f145aa6b19 11860 atk1.0_2.36.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/atk
+Vcs-Git: https://salsa.debian.org/gnome-team/atk.git
+Checksums-Sha256:
+ 03327eada194e9091a0785904632d3999ee308669e8de8362c67324ae23c544c 2660 atk1.0_2.36.0-2.dsc
+ fb76247e369402be23f1f5c65d38a9639c1164d934e40f6a9cf3c9e96b652788 299100 atk1.0_2.36.0.orig.tar.xz
+ 70d0e60ebe591c9e208d1e377fa25530a6e66c7dbeb88bf1b0b9776539c20d49 11860 atk1.0_2.36.0-2.debian.tar.xz
+Homepage: https://wiki.gnome.org/Accessibility
+Package-List: 
+ gir1.2-atk-1.0 deb introspection optional arch=any
+ libatk1.0-0 deb libs optional arch=any
+ libatk1.0-data deb misc optional arch=all
+ libatk1.0-dev deb libdevel optional arch=any
+ libatk1.0-doc deb doc optional arch=all profile=!nodoc
+ libatk1.0-udeb udeb debian-installer optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/a/atk1.0
+Priority: source
+Section: libs

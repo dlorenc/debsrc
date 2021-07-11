@@ -1,0 +1,27 @@
+Package: ruby-jira
+Binary: ruby-jira
+Version: 2.0.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-activesupport, ruby-atlassian-jwt, ruby-multipart-post, ruby-oauth (>= 0.5.0), ruby-railties, ruby-rspec, ruby-webmock, pry
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d602d4395ab35080c1783e2b23a1e8ca 2120 ruby-jira_2.0.0-2.dsc
+ f59ebdb2c46bbc5f09297a13a95d287a 62511 ruby-jira_2.0.0.orig.tar.gz
+ 4d4042b00620cb43bd507ba984bf3964 3136 ruby-jira_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-jira
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-jira.git
+Checksums-Sha256:
+ ced6a496cd160df21cce4a23974d3982d5ff1c2619e7f55f9f2f79a548cd31f7 2120 ruby-jira_2.0.0-2.dsc
+ b21aeb6c4e9c8d861d1eb412c571b20dadbd9534b4c2caa52d4b02dd1c39c0c0 62511 ruby-jira_2.0.0.orig.tar.gz
+ 90650541c0160d03e414795e5d69b68eaeeabd08c831d59d25edb8249348f489 3136 ruby-jira_2.0.0-2.debian.tar.xz
+Homepage: https://www.sumoheavy.com
+Package-List: 
+ ruby-jira deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-jira
+Priority: extra
+Section: misc

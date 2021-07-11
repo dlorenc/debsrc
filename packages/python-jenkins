@@ -1,0 +1,27 @@
+Package: python-jenkins
+Binary: python-jenkins-doc, python3-jenkins
+Version: 0.4.16-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: James Page <james.page@ubuntu.com>, Paul Belanger <paul.belanger@polybeacon.com>, Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 75~), python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-kerberos, python3-mock, python3-multi-key-dict, python3-subunit, python3-testscenarios, python3-unittest2, subunit, testrepository
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ bf0dfe7763f34aa028414846df3d4e32 2413 python-jenkins_0.4.16-2.dsc
+ dcbaff3dc54c07ec8aef560ebad34bb5 37968 python-jenkins_0.4.16.orig.tar.xz
+ 7fffe9ab0ebe683e5f97902a0642d74a 4144 python-jenkins_0.4.16-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/third-party/python-jenkins
+Vcs-Git: https://salsa.debian.org/openstack-team/third-party/python-jenkins.git
+Checksums-Sha256:
+ ea2cf68b0ff3df62fe8877d9914d4137394c1b2730313c4e4feeac938ffb3879 2413 python-jenkins_0.4.16-2.dsc
+ 32cb47c0410cfbbe8b21ff3792b4a2cd158cd20120916e719c6394dca22efcc2 37968 python-jenkins_0.4.16.orig.tar.xz
+ ca5983cf2936bdd123ba4cc133d8101c28b6467cb063ab86e2a797078a6eabd9 4144 python-jenkins_0.4.16-2.debian.tar.xz
+Homepage: https://launchpad.net/python-jenkins
+Package-List: 
+ python-jenkins-doc deb doc optional arch=all
+ python3-jenkins deb python optional arch=all
+Directory: pool/main/p/python-jenkins
+Priority: source
+Section: misc

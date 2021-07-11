@@ -1,0 +1,33 @@
+Package: qt-gstreamer
+Binary: qtgstreamer-doc, libqt5glib-2.0-0, libqt5gstreamer-1.0-0, libqt5gstreamerui-1.0-0, libqt5gstreamerutils-1.0-0, libqt5gstreamerquick-1.0-0, qtgstreamer-plugins-qt5, libqt5gstreamer-dev, qml-module-qtgstreamer
+Version: 1.2.0-5.1
+Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: George Kiagiadakis <kiagiadakis.george@gmail.com>, Diane Trout <diane@ghic.org>
+Build-Depends: cmake (>= 2.8.6), debhelper (>= 9), doxygen, dpkg-dev (>= 1.16.1~), graphviz, libboost-dev (>= 1.39), libgstreamer-plugins-base1.0-dev (>= 1.1.90), libgstreamer1.0-dev (>= 1.1.90), libqt5opengl5-dev, pkg-config, pkg-kde-tools (>= 0.12), qtbase5-dev, qtdeclarative5-dev
+Architecture: any all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ ac699fc71dd64b1220a4040710013de0 2919 qt-gstreamer_1.2.0-5.1.dsc
+ fd794045a828c184acc1794b08a463fd 313632 qt-gstreamer_1.2.0.orig.tar.xz
+ 0b49b01de65b6da9b86fe6ca5fd2e0c6 17820 qt-gstreamer_1.2.0-5.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/qt-gstreamer
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/qt-gstreamer.git
+Checksums-Sha256:
+ cdef909bffa64a4c8094bf15c9e7d54ff55fe6d34f82354f1b59664ea06149d0 2919 qt-gstreamer_1.2.0-5.1.dsc
+ 9f3b492b74cad9be918e4c4db96df48dab9c012f2ae5667f438b64a4d92e8fd4 313632 qt-gstreamer_1.2.0.orig.tar.xz
+ 2d6186ceebb22937ec74c653babfc203751bc1defef3f699311cb2338b424ddb 17820 qt-gstreamer_1.2.0-5.1.debian.tar.xz
+Homepage: https://gstreamer.freedesktop.org
+Package-List: 
+ libqt5glib-2.0-0 deb libs optional arch=any
+ libqt5gstreamer-1.0-0 deb libs optional arch=any
+ libqt5gstreamer-dev deb libdevel optional arch=any
+ libqt5gstreamerquick-1.0-0 deb libs optional arch=any
+ libqt5gstreamerui-1.0-0 deb libs optional arch=any
+ libqt5gstreamerutils-1.0-0 deb libs optional arch=any
+ qml-module-qtgstreamer deb libs optional arch=any
+ qtgstreamer-doc deb doc optional arch=all
+ qtgstreamer-plugins-qt5 deb libs optional arch=any
+Directory: pool/main/q/qt-gstreamer
+Priority: source
+Section: libs

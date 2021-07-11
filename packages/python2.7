@@ -1,0 +1,38 @@
+Package: python2.7
+Binary: python2.7, libpython2.7-stdlib, python2.7-minimal, libpython2.7-minimal, libpython2.7, python2.7-examples, python2.7-dev, libpython2.7-dev, libpython2.7-testsuite, idle-python2.7, python2.7-doc, python2.7-dbg, libpython2.7-dbg
+Version: 2.7.18-7
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.17.11), quilt, autoconf, autotools-dev, lsb-release, sharutils, libreadline-dev, libtinfo-dev, libncursesw5-dev (>= 5.3), tk-dev, blt-dev (>= 2.4z), libssl-dev (>= 1.1.1), zlib1g-dev, libbz2-dev, libexpat1-dev, libbluetooth-dev [linux-any] <!profile.nobluetooth>, locales [!armel !avr32 !hppa !ia64 !mipsel], libsqlite3-dev, libffi-dev (>= 3.0.5) [!or1k !avr32], libgpm2 [linux-any], mime-support, netbase, net-tools, bzip2, time, libdb-dev (<< 1:6.0), libgdbm-dev, help2man, xvfb <!nocheck>, xauth <!nocheck>, python2.7:any <cross>
+Build-Depends-Indep: python3-sphinx
+Build-Conflicts: autoconf2.13, hardening-wrapper, python-cxx-dev, python-xml, python2.7-xml, tcl8.4-dev, tk8.4-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 1.0
+Files:
+ b3f34d7cc1cafa5ce8ed9913874d392e 3313 python2.7_2.7.18-7.dsc
+ 38c84292658ed4456157195f1c9bcbe1 17539408 python2.7_2.7.18.orig.tar.gz
+ 1078768d6d8ee5a94c990dd5b67b198f 290057 python2.7_2.7.18-7.diff.gz
+Vcs-Browser: https://salsa.debian.org/cpython-team/python2
+Vcs-Git: https://salsa.debian.org/cpython-team/python2.git
+Checksums-Sha256:
+ 3f524e86eb95b63250a06096175b2c5f8a7d04cfd1f34b9b25087c06f839e246 3313 python2.7_2.7.18-7.dsc
+ da3080e3b488f648a3d7a4560ddee895284c3380b11d6de75edb986526b9a814 17539408 python2.7_2.7.18.orig.tar.gz
+ 218c7e01613a0ede9adb3b44b3ec6f317f2f964920b50088997825b350a87971 290057 python2.7_2.7.18-7.diff.gz
+Package-List: 
+ idle-python2.7 deb python optional arch=all
+ libpython2.7 deb libs optional arch=any
+ libpython2.7-dbg deb debug optional arch=any
+ libpython2.7-dev deb libdevel optional arch=any
+ libpython2.7-minimal deb python optional arch=any
+ libpython2.7-stdlib deb python optional arch=any
+ libpython2.7-testsuite deb libdevel optional arch=all
+ python2.7 deb python optional arch=any
+ python2.7-dbg deb debug optional arch=any
+ python2.7-dev deb python optional arch=any
+ python2.7-doc deb doc optional arch=all
+ python2.7-examples deb python optional arch=all
+ python2.7-minimal deb python optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/python2.7
+Priority: source
+Section: python

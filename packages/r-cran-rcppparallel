@@ -1,0 +1,27 @@
+Package: r-cran-rcppparallel
+Binary: r-cran-rcppparallel
+Version: 5.0.2+dfsg-4
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Joost van Baal-Ilić <joostvb@debian.org>, Andreas Tille <tille@debian.org>, Shayan Doust <hello@shayandoust.me>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, libtbb-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0b26403500484c07ce120d95ed951011 2315 r-cran-rcppparallel_5.0.2+dfsg-4.dsc
+ 17bc5ba5e911cd8b2ba5fa5711cc1d3c 104432 r-cran-rcppparallel_5.0.2+dfsg.orig.tar.xz
+ cdcb4d7c598b70b5ddd1932376b51cc8 3764 r-cran-rcppparallel_5.0.2+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-rcppparallel
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-rcppparallel.git
+Checksums-Sha256:
+ ab8b7e8e29b36e239072443879111a7db216604a5a908b1b948d7c905bc8d420 2315 r-cran-rcppparallel_5.0.2+dfsg-4.dsc
+ 56674634210f4222955760736e41933c8915d21967d0e4f893d38091f8276fcc 104432 r-cran-rcppparallel_5.0.2+dfsg.orig.tar.xz
+ 296e59f8bcf1284cac39ea4007d0b82946249d380e8b586a58bc61fb55ebcd62 3764 r-cran-rcppparallel_5.0.2+dfsg-4.debian.tar.xz
+Homepage: https://cran.r-project.org/package=RcppParallel
+Package-List: 
+ r-cran-rcppparallel deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-base-dev, r-cran-rcpp, r-cran-runit
+Directory: pool/main/r/r-cran-rcppparallel
+Priority: extra
+Section: misc

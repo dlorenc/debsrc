@@ -1,0 +1,27 @@
+Package: ruby-activerecord-import
+Binary: ruby-activerecord-import
+Version: 1.0.6-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 12), gem2deb, bundler, rubocop, ruby-factory-bot, ruby-activerecord, ruby-chronic, ruby-factory-girl, ruby-mocha, ruby-mysql2, ruby-pg, ruby-rspec-rails, ruby-seamless-database-pool, ruby-sqlite3, ruby-timecop, pry
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 27d17eb91fb7d211e5a59e86ccb1e734 2416 ruby-activerecord-import_1.0.6-1.dsc
+ 1de59ede20d604d7f3e2efb6fb9f27aa 62122 ruby-activerecord-import_1.0.6.orig.tar.gz
+ a95b19c47da2b47487207c05f3f1c012 5784 ruby-activerecord-import_1.0.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-activerecord-import
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-activerecord-import.git
+Checksums-Sha256:
+ 979a75fb6c14c3e659e2c7a6fc57a91cf63df262a02dc6937e3f0c62a2ae0a74 2416 ruby-activerecord-import_1.0.6-1.dsc
+ e21acc5e43ec36396ef5c7bb1bb228b7b37dead295e555da7de390e02b4aa577 62122 ruby-activerecord-import_1.0.6.orig.tar.gz
+ ba1a0697f4dd7ebebcbab292482c09f1133c1f4c81f3ea04a78b8da9603dc535 5784 ruby-activerecord-import_1.0.6-1.debian.tar.xz
+Homepage: https://github.com/zdennis/activerecord-import
+Package-List: 
+ ruby-activerecord-import deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-activerecord-import
+Priority: optional
+Section: misc

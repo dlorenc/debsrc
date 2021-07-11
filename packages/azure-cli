@@ -1,0 +1,31 @@
+Package: azure-cli
+Binary: azure-cli, python3-azure-cli, python3-azure-cli-core, python3-azure-cli-telemetry, python3-azure-cli-testsdk
+Version: 2.18.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, pylint3 <!nocheck>, python3-all, python3-argcomplete, python3-antlr4 <!nocheck>, python3-azure (>= 20201208+git-2~), python3-azure-cosmos, python3-azure-datalake-store (>= 0.0.49-1~) <!nocheck>, python3-azure-devtools (>= 1.2.0-1~) <!nocheck>, python3-azure-functions-devops-build <!nocheck>, python3-azure-multiapi-storage (>= 0.4.1-1~) <!nocheck>, python3-colorama <!nocheck>, python3-decorator <!nocheck>, python3-distutils, python3-fabric, python3-flake8 <!nocheck>, python3-humanfriendly <!nocheck>, python3-javaproperties <!nocheck>, python3-jmespath <!nocheck>, python3-jsmin <!nocheck>, python3-knack (>= 0.8.0~) <!nocheck>, python3-mock <!nocheck>, python3-msrest (>= 0.6.18-1~) <!nocheck>, python3-openssl <!nocheck>, python3-pkginfo, python3-psutil <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, python3-scp <!nocheck>, python3-sshtunnel <!nocheck>, python3-tabulate <!nocheck>, python3-tz <!nocheck>, python3-vcr <!nocheck>, python3-vsts-cd-manager <!nocheck>, python3-websocket <!nocheck>, python3-xmltodict <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a4ee2298ae3d66dac59ce3913cb93256 3412 azure-cli_2.18.0-2.dsc
+ a8c574d2d5a58cc2546acf527374bfb1 50234401 azure-cli_2.18.0.orig.tar.gz
+ 66712109f916c3a05e57ad393ad756b2 6680 azure-cli_2.18.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/azure-cli
+Vcs-Git: https://salsa.debian.org/python-team/packages/azure-cli.git
+Checksums-Sha256:
+ f8180b9f795119c43fbfc152621a09aee2a50945e4a88e96f37172281e6215f9 3412 azure-cli_2.18.0-2.dsc
+ 444230665e86e7b229ca2622599c429605dc1f9c0f6b6b791dda2ba59034973b 50234401 azure-cli_2.18.0.orig.tar.gz
+ 6c37ea1ac8fb66f92164707549de945800c0678c7f3cc71a1b06859f3a2536ca 6680 azure-cli_2.18.0-2.debian.tar.xz
+Homepage: https://github.com/Azure/azure-cli
+Package-List: 
+ azure-cli deb python optional arch=all
+ python3-azure-cli deb python optional arch=all
+ python3-azure-cli-core deb python optional arch=all
+ python3-azure-cli-telemetry deb python optional arch=all
+ python3-azure-cli-testsdk deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/a/azure-cli
+Priority: extra
+Section: misc

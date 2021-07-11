@@ -1,0 +1,29 @@
+Package: node-rollup-plugin-json
+Binary: node-rollup-plugin-json
+Version: 4.1.0+repack+~4.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-rollup-plugin-babel (>= 4.4~) <!pkg.node-rollup-plugin-json.transpilebuble>, node-rollup-plugin-buble (>= 0.19.8~) <pkg.node-rollup-plugin-json.transpilebuble>, node-rollup-plugin-node-resolve (>= 9), node-rollup-pluginutils, node-rollup-pluginutils (>= 3.0.8) <!nocheck>, node-source-map-support <!nocheck>, node-tape <!nocheck>, nodejs (>= 10), dh-sequence-nodejs, rollup (>= 0.68.2+ds)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9f46fecea643be395d964abc2bea4a01 3019 node-rollup-plugin-json_4.1.0+repack+~4.0.0-2.dsc
+ 0f8230e94bbcaff0325a214125494366 36172 node-rollup-plugin-json_4.1.0+repack+~4.0.0.orig-legacy.tar.xz
+ d7d35cf2dc3ffda4d04bf125cb537e95 289556 node-rollup-plugin-json_4.1.0+repack+~4.0.0.orig.tar.xz
+ 4d8004550feb0870732f25d6b61eaec0 5992 node-rollup-plugin-json_4.1.0+repack+~4.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rollup-plugin-json
+Vcs-Git: https://salsa.debian.org/js-team/node-rollup-plugin-json.git
+Checksums-Sha256:
+ b3bf0d6f6ae57e00ce6c1c2ef5fcee4cbe6ee9f31c02a189adfaad60fe6c2b00 3019 node-rollup-plugin-json_4.1.0+repack+~4.0.0-2.dsc
+ 4cdea8f61d64fad4f2ef09b546879d315d68c8d27c95656b1ec0e4129792f710 36172 node-rollup-plugin-json_4.1.0+repack+~4.0.0.orig-legacy.tar.xz
+ 66e0880c3a4fccfcf856e7e9add05a0be0f1f697b432473e57d782af25c346d8 289556 node-rollup-plugin-json_4.1.0+repack+~4.0.0.orig.tar.xz
+ 103722ef6403952d7f94711b475a108e68468a738acce431999e6a780e29bb14 5992 node-rollup-plugin-json_4.1.0+repack+~4.0.0-2.debian.tar.xz
+Homepage: https://github.com/rollup/plugins
+Package-List: 
+ node-rollup-plugin-json deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/n/node-rollup-plugin-json
+Priority: extra
+Section: javascript

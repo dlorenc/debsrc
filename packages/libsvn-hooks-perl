@@ -1,0 +1,27 @@
+Package: libsvn-hooks-perl
+Binary: libsvn-hooks-perl
+Version: 1.34-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Angel Abad <angel@debian.org>, gregor herrmann <gregoa@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libdata-util-perl, libjira-rest-perl, libsvn-look-perl, libsvn-notify-perl, liburi-perl, libxmlrpc-lite-perl | libsoap-lite-perl (<< 1.08), perl, subversion
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ d4d63dff57777547b6a988e32a4601fe 2437 libsvn-hooks-perl_1.34-2.dsc
+ 899deee90cadc27abef33cc3b6194440 51696 libsvn-hooks-perl_1.34.orig.tar.gz
+ 0bfb85b28436d7b132c3450c851a251c 5460 libsvn-hooks-perl_1.34-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libsvn-hooks-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libsvn-hooks-perl.git
+Checksums-Sha256:
+ 889afaee5c1a2d10db180531dba33d716944b42cbe0cae7ee2ce11999b41edbb 2437 libsvn-hooks-perl_1.34-2.dsc
+ 0eb292acbf532ae5026012497d4f7b79bd0bfd524a0bcddc3fef09a959771c97 51696 libsvn-hooks-perl_1.34.orig.tar.gz
+ d573d0e89fe7da1378f15ef51b5077829a086c917793f64e68eb869b2b67ffc3 5460 libsvn-hooks-perl_1.34-2.debian.tar.xz
+Homepage: https://metacpan.org/release/SVN-Hooks
+Package-List: 
+ libsvn-hooks-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libs/libsvn-hooks-perl
+Priority: source
+Section: perl

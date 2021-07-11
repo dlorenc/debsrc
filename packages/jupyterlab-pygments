@@ -1,0 +1,27 @@
+Package: jupyterlab-pygments
+Binary: python3-jupyterlab-pygments
+Version: 0.1.2-5
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-pygments, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d85ba4e8465b093df8e95a953442a976 2223 jupyterlab-pygments_0.1.2-5.dsc
+ 1217dad77f63b45ae99bc9cd1d02f29d 561989 jupyterlab-pygments_0.1.2.orig.tar.gz
+ 14d3698e552dc3fcd00e2054bc913970 2276 jupyterlab-pygments_0.1.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-jupyterlab-pygments
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-jupyterlab-pygments.git
+Checksums-Sha256:
+ 9c929561a31d3cb992be3846422129e0ded9cd910c2466228f8d535830a21246 2223 jupyterlab-pygments_0.1.2-5.dsc
+ 93da323c47ef1357098a974fc76681d3e12a3f513908056c2aec8f441fed9e3a 561989 jupyterlab-pygments_0.1.2.orig.tar.gz
+ 6ec272827e933ecadbee9589522b2bf482f87090405edcccd8cab9ef0dee44e4 2276 jupyterlab-pygments_0.1.2-5.debian.tar.xz
+Homepage: https://github.com/jupyterlab/jupyterlab_pygments
+Package-List: 
+ python3-jupyterlab-pygments deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3.9-minimal
+Directory: pool/main/j/jupyterlab-pygments
+Priority: extra
+Section: misc

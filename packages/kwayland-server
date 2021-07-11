@@ -1,0 +1,28 @@
+Package: kwayland-server
+Binary: libkwaylandserver5, libkwaylandserver-dev
+Version: 5.20.5-1
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>, Scarlett Moore <sgmoore@kde.org>, Patrick Franz <patfra71@gmail.com>, Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), extra-cmake-modules (>= 5.74.0~), libegl-dev, libkf5wayland-dev (>= 5.74.0~), libqt5waylandclient5-dev (>= 5.15.0~), libwayland-dev (>= 1.15~), pkg-config, pkg-kde-tools (>= 0.15.18~), plasma-wayland-protocols, qtbase5-dev (>= 5.15.0~), qtwayland5-dev-tools (>= 5.15.0~), wayland-protocols
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ df9f389ade1bc9cde0573ea3da565db1 2431 kwayland-server_5.20.5-1.dsc
+ 397013b444a76a7abccc99dc703b66e4 220976 kwayland-server_5.20.5.orig.tar.xz
+ 9fb676347f93efd0d642804b9425ba31 488 kwayland-server_5.20.5.orig.tar.xz.asc
+ 86da1159e5e3780ffcaa865136a6475d 9912 kwayland-server_5.20.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kwayland-server
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kwayland-server.git
+Checksums-Sha256:
+ 02e264f4d758b02817270eb007afe3d2607ec5d2b0d431236a26bc73263672d5 2431 kwayland-server_5.20.5-1.dsc
+ e0f36407ba32721936b0b14894480279f60effc088e4e1f3cde6e5c584945d2a 220976 kwayland-server_5.20.5.orig.tar.xz
+ 25b80aec92f0136f350d41898d1f773cb13f43f2e9a1cab90d5974069d9488f0 488 kwayland-server_5.20.5.orig.tar.xz.asc
+ b496fd91286a528a269c3f60ed25373b32aae160846b92d23ff0af2c0f7429ed 9912 kwayland-server_5.20.5-1.debian.tar.xz
+Homepage: https://invent.kde.org/plasma/kwayland-server
+Package-List: 
+ libkwaylandserver-dev deb libdevel optional arch=any
+ libkwaylandserver5 deb libs optional arch=any
+Directory: pool/main/k/kwayland-server
+Priority: extra
+Section: misc

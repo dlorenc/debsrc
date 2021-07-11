@@ -1,0 +1,27 @@
+Package: http-parser
+Binary: libhttp-parser2.9, libhttp-parser-dev
+Version: 2.9.4-4
+Maintainer: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7e7e5d31a9ae132e8b5d1e175d0c8170 2005 http-parser_2.9.4-4.dsc
+ 1b0f2371aabacbadaa03cc532cedcf92 52056 http-parser_2.9.4.orig.tar.gz
+ a4d80a9fb8469cc6c65950927ea25fc7 9928 http-parser_2.9.4-4.debian.tar.xz
+Vcs-Browser: https://git.in-ulm.de/cbiedl/http-parser
+Vcs-Git: https://git.in-ulm.de/cbiedl/http-parser.git
+Checksums-Sha256:
+ e945a09b72504a877f2e50c3e9248aa85cdeaff5a2c3689dd6308698d7353ec1 2005 http-parser_2.9.4-4.dsc
+ 467b9e30fd0979ee301065e70f637d525c28193449e1b13fbcb1b1fab3ad224f 52056 http-parser_2.9.4.orig.tar.gz
+ 9e5274fd7b2f897a5d49eae744d9e760da7ee8b2332cd065eb9536d9c6734e13 9928 http-parser_2.9.4-4.debian.tar.xz
+Homepage: https://github.com/joyent/http-parser
+Package-List: 
+ libhttp-parser-dev deb libdevel optional arch=any
+ libhttp-parser2.9 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/h/http-parser
+Priority: optional
+Section: misc

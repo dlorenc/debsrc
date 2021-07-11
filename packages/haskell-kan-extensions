@@ -1,0 +1,28 @@
+Package: haskell-kan-extensions
+Binary: libghc-kan-extensions-dev, libghc-kan-extensions-prof, libghc-kan-extensions-doc
+Version: 5.2-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-adjunctions-dev (>= 4.2), libghc-adjunctions-dev (<< 5), libghc-adjunctions-prof, libghc-comonad-dev (>= 4), libghc-comonad-dev (<< 6), libghc-comonad-prof, libghc-contravariant-dev (>= 1), libghc-contravariant-dev (<< 2), libghc-contravariant-prof, libghc-distributive-dev (>= 0.2.2), libghc-distributive-dev (<< 1), libghc-distributive-prof, libghc-free-dev (>= 4), libghc-free-dev (<< 6), libghc-free-prof, libghc-invariant-dev (>= 0.1), libghc-invariant-dev (<< 1), libghc-invariant-prof, libghc-profunctors-dev (>= 5), libghc-profunctors-dev (<< 6), libghc-profunctors-prof, libghc-semigroupoids-dev (>= 4), libghc-semigroupoids-dev (<< 6), libghc-semigroupoids-prof, libghc-tagged-dev (>= 0.7.2), libghc-tagged-dev (<< 1), libghc-tagged-prof, libghc-transformers-compat-dev (>= 0.3), libghc-transformers-compat-dev (<< 0.7), libghc-transformers-compat-prof
+Build-Depends-Indep: ghc-doc, libghc-adjunctions-doc, libghc-comonad-doc, libghc-contravariant-doc, libghc-distributive-doc, libghc-free-doc, libghc-invariant-doc, libghc-profunctors-doc, libghc-semigroupoids-doc, libghc-tagged-doc, libghc-transformers-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e99fd9ce995b3362a1b5e6db5351b6c4 3495 haskell-kan-extensions_5.2-3.dsc
+ 9d5993533540ef5b36062dccc9391cb1 24151 haskell-kan-extensions_5.2.orig.tar.gz
+ 382036c9f154246b20ba0fa8d6c40e6b 3404 haskell-kan-extensions_5.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-kan-extensions
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-kan-extensions]
+Checksums-Sha256:
+ 834f2275282fb7933f2e4332a8a3194ca0aa81f47ef89c64b2b4f9dcbd7a0d44 3495 haskell-kan-extensions_5.2-3.dsc
+ 6b727e586f744b96529415eeabc745dfe05feea61f6b6bad90c224c879f4dbd3 24151 haskell-kan-extensions_5.2.orig.tar.gz
+ 8f31219374eda00fd4d964f7e9900aa8193d2746769420cacf785b50ba5650cb 3404 haskell-kan-extensions_5.2-3.debian.tar.xz
+Homepage: https://github.com/ekmett/kan-extensions/
+Package-List: 
+ libghc-kan-extensions-dev deb haskell optional arch=any
+ libghc-kan-extensions-doc deb doc optional arch=all
+ libghc-kan-extensions-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-kan-extensions
+Priority: optional
+Section: misc

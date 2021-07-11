@@ -1,0 +1,24 @@
+Package: pommed
+Binary: pommed, gpomme, wmpomme
+Version: 1.39~dfsg-5.1
+Maintainer: Debian Mactel <team+pkg-mactel-devel@tracker.debian.org>
+Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>, Thibaut Paumard <thibaut@debian.org>
+Build-Depends: debhelper (>= 11), libpci-dev [i386 amd64], libofapi-dev (>= 0git20070620) [powerpc], libconfuse-dev, libasound2-dev, libaudiofile-dev, libgtk2.0-dev, libdbus-1-dev, libdbus-glib-1-dev, libx11-dev, libxext-dev, libxpm-dev
+Architecture: i386 amd64 powerpc
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ cc949026f7a51f2e1d4c844ca900537e 2150 pommed_1.39~dfsg-5.1.dsc
+ 057ac067dd900be87865f69201b3631b 445434 pommed_1.39~dfsg.orig.tar.gz
+ aa9a63e3752a726d42f5a2e8e7d8c021 10720 pommed_1.39~dfsg-5.1.debian.tar.xz
+Checksums-Sha256:
+ 7685bc38b36de972f0036e00256a19a0fb31bf95ec25e80015f2624696b98a7d 2150 pommed_1.39~dfsg-5.1.dsc
+ 2d052c8eccc08f1dc070cc8d96316734afb7623ae849277857754b0233ded131 445434 pommed_1.39~dfsg.orig.tar.gz
+ 0a388016d468b802100395253a0a2c8087d020b50ed40718de6e2e88c3557b88 10720 pommed_1.39~dfsg-5.1.debian.tar.xz
+Package-List: 
+ gpomme deb utils optional arch=i386,amd64,powerpc
+ pommed deb utils optional arch=i386,amd64,powerpc
+ wmpomme deb utils optional arch=i386,amd64,powerpc
+Directory: pool/main/p/pommed
+Priority: source
+Section: utils

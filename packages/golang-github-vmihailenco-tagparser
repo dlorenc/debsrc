@@ -1,0 +1,28 @@
+Package: golang-github-vmihailenco-tagparser
+Binary: golang-github-vmihailenco-tagparser-dev
+Version: 0.1.1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b1ff21b31106ead23cffc70d0e70b570 2342 golang-github-vmihailenco-tagparser_0.1.1-2.dsc
+ 2159b45155c7c3a67a0bfdb329f8262f 3384 golang-github-vmihailenco-tagparser_0.1.1.orig.tar.xz
+ fe336487a51e70fcff53decccc2cbba1 1936 golang-github-vmihailenco-tagparser_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-vmihailenco-tagparser
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-vmihailenco-tagparser.git
+Checksums-Sha256:
+ 87f2e69b086e132021eb2f2c4d94c739dd557ee1f58d167386d512cd02cc601a 2342 golang-github-vmihailenco-tagparser_0.1.1-2.dsc
+ b9c0cbad2122c8ec3f881acfb9b2ef39f49321f335bfb2b833302ecf8b1a5ab5 3384 golang-github-vmihailenco-tagparser_0.1.1.orig.tar.xz
+ 2293de6e8039e6ac6a53c49ef9349bdfed723f0560cd09bb0b71d83c3923b752 1936 golang-github-vmihailenco-tagparser_0.1.1-2.debian.tar.xz
+Homepage: https://github.com/vmihailenco/tagparser
+Go-Import-Path: github.com/vmihailenco/tagparser
+Package-List: 
+ golang-github-vmihailenco-tagparser-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-vmihailenco-tagparser
+Priority: extra
+Section: golang

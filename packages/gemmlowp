@@ -1,0 +1,25 @@
+Package: gemmlowp
+Binary: libgemmlowp-dev
+Version: 0.0~git20200506.fda83bd-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e81c73ea33988349b7baa8327ee10c49 2093 gemmlowp_0.0~git20200506.fda83bd-1.dsc
+ 6665651d874793960d3f0fbbe95a7366 543024 gemmlowp_0.0~git20200506.fda83bd.orig.tar.xz
+ fe9e7db6a73152169231609566f44b39 3348 gemmlowp_0.0~git20200506.fda83bd-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/gemmlowp
+Vcs-Git: https://salsa.debian.org/science-team/gemmlowp.git
+Checksums-Sha256:
+ a5f604b5accbcbffe99d2f6787c83593c06919f9d88b458a628823dc03750a1c 2093 gemmlowp_0.0~git20200506.fda83bd-1.dsc
+ 6513e4b183cbc6a92057d568e4f5191d30f36fcdce181a7b96269d860a0bb5dc 543024 gemmlowp_0.0~git20200506.fda83bd.orig.tar.xz
+ 1d454aa87e2c22a6fe7487f3040143cc06a4d6693802e5a984566c916099594f 3348 gemmlowp_0.0~git20200506.fda83bd-1.debian.tar.xz
+Homepage: https://github.com/google/gemmlowp
+Package-List: 
+ libgemmlowp-dev deb libdevel optional arch=any
+Directory: pool/main/g/gemmlowp
+Priority: extra
+Section: misc

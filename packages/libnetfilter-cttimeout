@@ -1,0 +1,27 @@
+Package: libnetfilter-cttimeout
+Binary: libnetfilter-cttimeout1, libnetfilter-cttimeout-dev, libnetfilter-cttimeout-doc
+Version: 1.0.0-4
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Uploaders: Alexander Wirt <formorer@debian.org>, Jeremy Sowden <jeremy@azazel.net>
+Build-Depends: debhelper-compat (= 13), doxygen, libmnl-dev (>= 1.0.0), libtool, pkg-config
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0768de9047f0923d362b46553ab8342a 2384 libnetfilter-cttimeout_1.0.0-4.dsc
+ 736d9c3ed973f7557d4e99bc51f6399d 333609 libnetfilter-cttimeout_1.0.0.orig.tar.gz
+ 2cc6701f80b673b6658632b07132368d 3268 libnetfilter-cttimeout_1.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-netfilter-team/pkg-libnetfilter-cttimeout
+Vcs-Git: https://salsa.debian.org/pkg-netfilter-team/pkg-libnetfilter-cttimeout.git
+Checksums-Sha256:
+ 018ce566bc97770a958cc67a7d994a63d029dc1d9264e977f8543be0bb9eb85c 2384 libnetfilter-cttimeout_1.0.0-4.dsc
+ 753cc8c7f1960c5ba60579163243e562b1c4ffa98c98f8b2488e2b3b063dafaa 333609 libnetfilter-cttimeout_1.0.0.orig.tar.gz
+ 2ff4b583707b10af6f18c5bf766ba84028aebc16d6907a851a04039a629409d7 3268 libnetfilter-cttimeout_1.0.0-4.debian.tar.xz
+Homepage: https://www.netfilter.org/projects/libnetfilter_cttimeout
+Package-List: 
+ libnetfilter-cttimeout-dev deb libdevel optional arch=any
+ libnetfilter-cttimeout-doc deb doc optional arch=all
+ libnetfilter-cttimeout1 deb libs optional arch=any
+Directory: pool/main/libn/libnetfilter-cttimeout
+Priority: source
+Section: libs

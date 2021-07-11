@@ -1,0 +1,29 @@
+Package: mplayer
+Binary: mplayer-gui, mencoder, mplayer, mplayer-doc
+Version: 2:1.4+ds1-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: A Mennucc1 <mennucc1@debian.org>, Miguel A. Colón Vélez <debian.micove@gmail.com>, Reinhard Tartler <siretart@tauware.de>
+Build-Depends: debhelper-compat (= 13), ladspa-sdk, liba52-dev, libaa1-dev, libasound2-dev [linux-any], libass-dev, libaudio-dev, libavcodec-dev (>= 7:3.0~), libavformat-dev (>= 7:3.0~), libavutil-dev (>= 7:3.0~), libbluray-dev, libbs2b-dev, libcaca-dev, libcdio-cdda-dev, libcdio-paranoia-dev, libdca-dev, libdv-dev, libdvdnav-dev, libdvdread-dev, libenca-dev, libfaad-dev, libfontconfig1-dev, libfreetype6-dev, libfribidi-dev, libgif-dev, libgl1-mesa-dev, libgsm1-dev, libgtk2.0-dev, libjack-dev, libjpeg-dev, liblirc-dev, liblzo2-dev, libmad0-dev, libmng-dev, libmp3lame-dev, libmpeg2-4-dev, libmpg123-dev, libopenal-dev, libpostproc-dev (>= 7:3.0~), libpulse-dev, librtmp-dev, libsdl1.2-dev, libsmbclient-dev [!hurd-any], libspeex-dev, libswscale-dev (>= 7:3.0~), libtheora-dev, libtwolame-dev, libvdpau-dev, libvorbisidec-dev, libx11-dev, libx264-dev, libxext-dev, libxinerama-dev, libxss-dev, libxt-dev, libxv-dev, libxvidcore-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, pkg-config, vstream-client-dev, x11proto-core-dev, yasm, zlib1g-dev
+Build-Depends-Indep: docbook-xml, docbook-xsl, xsltproc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c9507c79cc8d216bfe5e8897540d1764 3237 mplayer_1.4+ds1-1.dsc
+ 35e0606064e9734ab24ff8fcc4452b8d 6228068 mplayer_1.4+ds1.orig.tar.xz
+ bdc9838bf17700f11ba4762bfe8a6465 32452 mplayer_1.4+ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/mplayer
+Vcs-Git: https://salsa.debian.org/multimedia-team/mplayer.git
+Checksums-Sha256:
+ 5b8c2123b317b55868f96e68c5f86c3413c9642cb22e23dbdaea6d69787687c5 3237 mplayer_1.4+ds1-1.dsc
+ 2695d0d548e379e9d47f560109545116dd354019759e9f9d1acc767b5c505235 6228068 mplayer_1.4+ds1.orig.tar.xz
+ 4cf10654a8bd56f8c8d3093a6eed965a5f5b95d76ff94d1c3e853d64896b17f8 32452 mplayer_1.4+ds1-1.debian.tar.xz
+Homepage: https://www.mplayerhq.hu
+Package-List: 
+ mencoder deb video optional arch=any
+ mplayer deb video optional arch=any
+ mplayer-doc deb doc optional arch=all
+ mplayer-gui deb video optional arch=any
+Directory: pool/main/m/mplayer
+Priority: optional
+Section: misc

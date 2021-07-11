@@ -1,0 +1,26 @@
+Package: json-tricks
+Binary: python3-json-tricks
+Version: 3.11.0-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 653d5c7a7310e25de44633c1cc00dfbd 2079 json-tricks_3.11.0-2.dsc
+ a6e3cdff859c38ca6eecdd8b62498dcf 20284 json-tricks_3.11.0.orig.tar.gz
+ a7dbb599bdd3bd250f0e210db4960e7f 2424 json-tricks_3.11.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/json-tricks
+Vcs-Git: https://salsa.debian.org/python-team/modules/json-tricks.git
+Checksums-Sha256:
+ 0a783abe814ce61ad5ae0767d670e365d34dd80cc90482d65a0006d88b813691 2079 json-tricks_3.11.0-2.dsc
+ 3ed9a9284b5452b5b8a63e02d3625ccd1f8f5cd5983ba58f65942f83d6259460 20284 json-tricks_3.11.0.orig.tar.gz
+ 6fb66c8e2e8808517e1d22c8ef16fdf0e6a617c989a7672e0d5ddbc9c821fec6 2424 json-tricks_3.11.0-2.debian.tar.xz
+Homepage: https://github.com/mverleg/pyjson_tricks
+Package-List: 
+ python3-json-tricks deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/j/json-tricks
+Priority: extra
+Section: misc

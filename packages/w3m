@@ -1,0 +1,26 @@
+Package: w3m
+Binary: w3m, w3m-img
+Version: 0.5.3+git20210102-6
+Maintainer: Tatsuya Kinoshita <tats@debian.org>
+Uploaders: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Build-Depends: debhelper-compat (= 13), gawk | awk, libgc-dev, libgpm-dev [linux-any], libimlib2-dev, libncurses5-dev, libssl-dev, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e1b843491b6d356ebd0009d404d7151d 2070 w3m_0.5.3+git20210102-6.dsc
+ 99b1aa177ea4ea18005e7033a0643571 1161620 w3m_0.5.3+git20210102.orig.tar.xz
+ ced790039f5c7f1be06b2b98ed073e04 28760 w3m_0.5.3+git20210102-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/w3m
+Vcs-Git: https://salsa.debian.org/debian/w3m.git
+Checksums-Sha256:
+ f74cf5ba744027c159a12b76dd1a921f23d396157dac217e7a2d007391b233fb 2070 w3m_0.5.3+git20210102-6.dsc
+ 32fcf47999a4fab59021382d382add86fe87159d9e3a95bddafda246ae12f5f9 1161620 w3m_0.5.3+git20210102.orig.tar.xz
+ ef6f835be35815580bc0f4683e7dd2e6f4ce411072d12dbccbd52051b5fa8770 28760 w3m_0.5.3+git20210102-6.debian.tar.xz
+Homepage: https://tracker.debian.org/pkg/w3m
+Package-List: 
+ w3m deb web optional arch=any
+ w3m-img deb web optional arch=any
+Directory: pool/main/w/w3m
+Priority: source
+Section: web

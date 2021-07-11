@@ -1,0 +1,28 @@
+Package: ora2pg
+Binary: ora2pg
+Version: 21.0-2
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ c02ee2ae10417dda8428321cceda2d4e 2006 ora2pg_21.0-2.dsc
+ 7dce59e68e36d9ea73c5d53906c08a10 457716 ora2pg_21.0.orig.tar.gz
+ b3b0c650cc4f3d5be96ce38c26f666b7 6624 ora2pg_21.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/ora2pg
+Vcs-Git: https://salsa.debian.org/postgresql/ora2pg.git
+Checksums-Sha256:
+ 02e34b61accf5c1d761c1ffa0185acc04a363c468bb71ca54df46ca00a87edc5 2006 ora2pg_21.0-2.dsc
+ 121d51d9e8e175b8c0168389f8b1139714e88db5c0fa7a5102c540d43bd66048 457716 ora2pg_21.0.orig.tar.gz
+ fb1431c1e4431deefedc49ccc8bb61eafc45f4163342401d1b725c7e17d99e54 6624 ora2pg_21.0-2.debian.tar.xz
+Homepage: https://ora2pg.darold.net/
+Package-List: 
+ ora2pg deb database optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: default-mysql-server, libdbd-mysql-perl, mariadb-server, mysql-server
+Directory: pool/main/o/ora2pg
+Priority: optional
+Section: misc

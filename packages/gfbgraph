@@ -1,0 +1,28 @@
+Package: gfbgraph
+Binary: libgfbgraph-0.2-0, libgfbgraph-0.2-dev, libgfbgraph-doc, gir1.2-gfbgraph-0.2
+Version: 0.2.4-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools (>= 1.14), libgirepository1.0-dev (>= 1.30.0), libglib2.0-dev, libgoa-1.0-dev, libjson-glib-dev, librest-dev, libsoup2.4-dev
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 6639e5ee6cdbb8448dc0c0cbfe65cff7 2397 gfbgraph_0.2.4-1.dsc
+ c38af63e49f8fe8baad99537956b69ba 39520 gfbgraph_0.2.4.orig.tar.xz
+ 588c9caa538e288460d243a155243005 3636 gfbgraph_0.2.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gfbgraph
+Vcs-Git: https://salsa.debian.org/gnome-team/gfbgraph.git
+Checksums-Sha256:
+ 47c625ce2f29c4c921a2e2bd13ce11b218c1d8aa10cb5d5746b89acb06821dcf 2397 gfbgraph_0.2.4-1.dsc
+ 6065391f35e7335588cc6b0cc4c1abbce7341488573a654551264cb9793b9379 39520 gfbgraph_0.2.4.orig.tar.xz
+ 6218dd9aeed55a21a894c11154bdb47fd7ebb01f5d9de8431f38aaf76e97b0bc 3636 gfbgraph_0.2.4-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Projects/GFBGraph
+Package-List: 
+ gir1.2-gfbgraph-0.2 deb introspection optional arch=any
+ libgfbgraph-0.2-0 deb libs optional arch=any
+ libgfbgraph-0.2-dev deb libdevel optional arch=any
+ libgfbgraph-doc deb doc optional arch=all
+Directory: pool/main/g/gfbgraph
+Priority: optional
+Section: misc

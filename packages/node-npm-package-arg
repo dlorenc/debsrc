@@ -1,0 +1,26 @@
+Package: node-npm-package-arg
+Binary: node-npm-package-arg
+Version: 8.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), node-tap <!nocheck>, node-hosted-git-info (>= 2.5~) <!nocheck>, node-osenv (>= 0.1.4~) <!nocheck>, node-semver (>= 5.4.1~) <!nocheck>, node-validate-npm-package-name <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c9152168976f4a95f0f962b2da474144 2284 node-npm-package-arg_8.1.0-1.dsc
+ 467388f6f1657668680850db4502060d 90465 node-npm-package-arg_8.1.0.orig.tar.gz
+ 668d143d2d14f0cfd9d4e9effccf173e 2468 node-npm-package-arg_8.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-npm-package-arg
+Vcs-Git: https://salsa.debian.org/js-team/node-npm-package-arg.git
+Checksums-Sha256:
+ cf16153cd802d25aa65fe0aa115e55b543b5bc4a127c05e3b8cbf585c7d5eb6c 2284 node-npm-package-arg_8.1.0-1.dsc
+ 98ce14c50ed3381c1a7f648fabf4c3aec575b84a87f4ef0c7f24c19ca7432852 90465 node-npm-package-arg_8.1.0.orig.tar.gz
+ 0b0ed571e072572b29323d1b698097df459802522cbffecaa375f23ac571610e 2468 node-npm-package-arg_8.1.0-1.debian.tar.xz
+Homepage: https://github.com/npm/npm-package-arg
+Package-List: 
+ node-npm-package-arg deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-npm-package-arg
+Priority: extra
+Section: misc

@@ -1,0 +1,24 @@
+Package: rust-crc32fast
+Binary: librust-crc32fast-dev
+Version: 1.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 7c0b88ca9cc0effd87f00e96be88013c 1807 rust-crc32fast_1.2.0-1.dsc
+ 3c153e21729b743f5127dec47670de17 39161 rust-crc32fast_1.2.0.orig.tar.gz
+ a7038e8b33df841ebd7d621be6d91e79 2552 rust-crc32fast_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crc32fast
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crc32fast]
+Checksums-Sha256:
+ d5a2d6ae3e7bd00dfc18117ba037ec10d2c8a81e9f0aab90c8862f54282d5661 1807 rust-crc32fast_1.2.0-1.dsc
+ ba125de2af0df55319f41944744ad91c71113bf74a4646efff39afe1f6842db1 39161 rust-crc32fast_1.2.0.orig.tar.gz
+ 0f74e1bad7c1e45090ecfb10cc591d74e39054f01338b2f5f99b20bd9cec7122 2552 rust-crc32fast_1.2.0-1.debian.tar.xz
+Package-List: 
+ librust-crc32fast-dev deb rust optional arch=any
+Directory: pool/main/r/rust-crc32fast
+Priority: extra
+Section: misc

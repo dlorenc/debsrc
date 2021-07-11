@@ -1,0 +1,26 @@
+Package: node-catty
+Binary: node-catty
+Version: 0.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-nomnom <!nocheck>, node-underscore <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0c90cfbcb1ddc38f92377788ea73e590 2056 node-catty_0.1.0-1.dsc
+ 54d146a9f609c99ba975fb3fd9bdcffd 5883 node-catty_0.1.0.orig.tar.gz
+ cd9c0afabac92e9ab0933d848bfc7ef0 4072 node-catty_0.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-catty
+Vcs-Git: https://salsa.debian.org/js-team/node-catty.git
+Checksums-Sha256:
+ 76e98b9fb6144ea068cf17679a8ba1298ead50245856e6c14ddb2d6789b26ab6 2056 node-catty_0.1.0-1.dsc
+ 7db6711d181aa4814e0f5684dfcc4bd89572d220872c30e23bd981c9eb6a89ca 5883 node-catty_0.1.0.orig.tar.gz
+ 4bded8f2d63b306c86f8b5f61abcd31a6f32a48813afb834b65f53bdba120c62 4072 node-catty_0.1.0-1.debian.tar.xz
+Homepage: https://github.com/mbloch/catty
+Package-List: 
+ node-catty deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-catty
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: r-cran-igraph
+Binary: r-cran-igraph
+Version: 1.2.6-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-magrittr, r-cran-matrix, r-cran-pkgconfig, libxml2-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b483c8c9f443332f498a603a04b1c264 2168 r-cran-igraph_1.2.6-1.dsc
+ 40bc1b184dbe0ee3d282d507f5760538 2715500 r-cran-igraph_1.2.6.orig.tar.gz
+ f42a8afb9c013fbfc539d917524b4e6e 6844 r-cran-igraph_1.2.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-igraph
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-igraph.git
+Checksums-Sha256:
+ 29ffcdf92c0ff15c4b712a593a79cfe2d5339cf8b8b6bb463ccc06443adc7b61 2168 r-cran-igraph_1.2.6-1.dsc
+ 640da72166fda84bea2c0e5eee374f1ed80cd9439c1171d056b1b1737ae6c76d 2715500 r-cran-igraph_1.2.6.orig.tar.gz
+ 4171b8374833490631f9ba228e2704946aceb55e9be0b6c361aff8088acbc1b9 6844 r-cran-igraph_1.2.6-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=igraph
+Package-List: 
+ r-cran-igraph deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-igraph
+Priority: optional
+Section: misc

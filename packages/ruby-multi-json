@@ -1,0 +1,27 @@
+Package: ruby-multi-json
+Binary: ruby-multi-json
+Version: 1.14.1-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-oj, ruby-rspec (>= 2.14)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7dae02dbe3e1a40fab742d399964b3bc 1765 ruby-multi-json_1.14.1-1.dsc
+ 46853da3cf746dcb0d55356ce61e59c2 24713 ruby-multi-json_1.14.1.orig.tar.gz
+ 601b34e52a00935b7e76ad689abc9d7e 5016 ruby-multi-json_1.14.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-multi-json
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-multi-json.git
+Checksums-Sha256:
+ 0206c798523ded20e5fa8ae4b1998bc2f6989b0b93c22f7323054946a78da09a 1765 ruby-multi-json_1.14.1-1.dsc
+ 1b0331292cdc27c5fe8e54b21a89b5c78d6d55258912f196858061778272770d 24713 ruby-multi-json_1.14.1.orig.tar.gz
+ 038616a688ca2d6835b9d4a8bf5b10effc6bd1e06158a6a51d050cdd24711d10 5016 ruby-multi-json_1.14.1-1.debian.tar.xz
+Homepage: https://github.com/intridea/multi_json
+Package-List: 
+ ruby-multi-json deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-multi-json
+Priority: source
+Section: ruby

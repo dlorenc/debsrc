@@ -1,0 +1,33 @@
+Package: bluez-qt
+Binary: libkf5bluezqt-data, libkf5bluezqt-dev, libkf5bluezqt-doc, libkf5bluezqt6, qml-module-org-kde-bluezqt
+Version: 5.78.0-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), dbus-x11, debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), graphviz, libqt5sql5-sqlite, pkg-kde-tools (>> 0.15.15), qml-module-qttest, qtbase5-dev (>= 5.14.0~), qtdeclarative5-dev (>= 5.14.0~), qttools5-dev, qttools5-dev-tools, xauth, xvfb
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e52939327815fb48d419eb1fdda3526c 2863 bluez-qt_5.78.0-3.dsc
+ 107c58c920daee57a341d6bc7c65103b 102224 bluez-qt_5.78.0.orig.tar.xz
+ a4df4170c6f81d659b0217e657fcc117 488 bluez-qt_5.78.0.orig.tar.xz.asc
+ cc44f08583f1d5908ca9d4dabb5ed05c 14980 bluez-qt_5.78.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/bluez-qt
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/bluez-qt.git
+Checksums-Sha256:
+ 5ee7950d526b3cca4ec543a2088f7af19c13bfe3c2ffdcc57876ab57a738d171 2863 bluez-qt_5.78.0-3.dsc
+ e97b36b02afb97193036ffa615430d4047d76e5a4be4596862be7e44b7d303bd 102224 bluez-qt_5.78.0.orig.tar.xz
+ 7c21095474587f1512162e4d6885a11ac53afcc3996f6204fe7faf2a083a7522 488 bluez-qt_5.78.0.orig.tar.xz.asc
+ 83b004887cfcf2c78b1884849ae535739c71717c5c0fc2ce55e43dd70472032b 14980 bluez-qt_5.78.0-3.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/bluez-qt
+Package-List: 
+ libkf5bluezqt-data deb libs optional arch=all
+ libkf5bluezqt-dev deb libdevel optional arch=linux-any
+ libkf5bluezqt-doc deb doc optional arch=all
+ libkf5bluezqt6 deb libs optional arch=linux-any
+ qml-module-org-kde-bluezqt deb libs optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/b/bluez-qt
+Priority: optional
+Section: misc

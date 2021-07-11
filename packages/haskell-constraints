@@ -1,0 +1,28 @@
+Package: haskell-constraints
+Binary: libghc-constraints-dev, libghc-constraints-prof, libghc-constraints-doc
+Version: 0.12-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-hashable-dev (>= 1.2), libghc-hashable-dev (<< 1.4), libghc-hashable-prof, libghc-semigroups-dev (>= 0.17), libghc-semigroups-dev (<< 0.20), libghc-semigroups-prof, libghc-transformers-compat-dev (>= 0.5), libghc-transformers-compat-dev (<< 1), libghc-transformers-compat-prof, libghc-type-equality-dev (>= 1), libghc-type-equality-dev (<< 2), libghc-type-equality-prof
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc, libghc-semigroups-doc, libghc-transformers-compat-doc, libghc-type-equality-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5e806ce7ee99b59a652f5f5809577600 2840 haskell-constraints_0.12-1.dsc
+ b98014b41f713480a12eaa58da53acdd 20950 haskell-constraints_0.12.orig.tar.gz
+ b61c2fd861c99303fcc251f8d657090c 2848 haskell-constraints_0.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-constraints
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-constraints]
+Checksums-Sha256:
+ f5d5f1e08fdcfebd7bc64bae77b63afa4b71831bcb1779addb289114396c3ed3 2840 haskell-constraints_0.12-1.dsc
+ f26b531a15f013f15b4b5df46c4f89b13927253a4195494c50320adf05760223 20950 haskell-constraints_0.12.orig.tar.gz
+ b9d31064fef0936bb42711f23a1dac927a01f1bd7a364555de698f3ea9d80273 2848 haskell-constraints_0.12-1.debian.tar.xz
+Homepage: http://github.com/ekmett/constraints/
+Package-List: 
+ libghc-constraints-dev deb haskell optional arch=any
+ libghc-constraints-doc deb doc optional arch=all
+ libghc-constraints-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-constraints
+Priority: optional
+Section: misc

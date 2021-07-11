@@ -1,0 +1,27 @@
+Package: xtables-addons
+Binary: xtables-addons-common, xtables-addons-dkms, xtables-addons-source
+Version: 3.13-1
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Uploaders: Jeremy Sowden <jeremy@azazel.net>
+Build-Depends: bzip2, debhelper-compat (= 13), dkms, libxtables-dev, pkg-config
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6c9a4ae155199688594ad349e3e0c15f 2209 xtables-addons_3.13-1.dsc
+ 011f339ee2b3f13297c45b02f3aec2ef 327104 xtables-addons_3.13.orig.tar.xz
+ 1c1f23c40991a1d9e993aaff72f0c37f 14244 xtables-addons_3.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-netfilter-team/pkg-xtables-addons
+Vcs-Git: https://salsa.debian.org/pkg-netfilter-team/pkg-xtables-addons.git
+Checksums-Sha256:
+ 0be0d7c90af40b0d070adcc52b30a07afe652d9e2476d2de9e0983bb3d35dc69 2209 xtables-addons_3.13-1.dsc
+ 893c0c4ea09759cda1ab7e68f1281d125e59270f7b59e446204ce686c6a76d65 327104 xtables-addons_3.13.orig.tar.xz
+ 4c577bc8adfecf79e7ef72d7f1045ed753eecec5277e698164f530539672b466 14244 xtables-addons_3.13-1.debian.tar.xz
+Homepage: http://inai.de/projects/xtables-addons/
+Package-List: 
+ xtables-addons-common deb net optional arch=any
+ xtables-addons-dkms deb kernel optional arch=all
+ xtables-addons-source deb net optional arch=all
+Directory: pool/main/x/xtables-addons
+Priority: source
+Section: admin

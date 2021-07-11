@@ -1,0 +1,28 @@
+Package: hdbc
+Binary: libghc-hdbc-dev, libghc-hdbc-prof, libghc-hdbc-doc
+Version: 2.4.0.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: John Goerzen <jgoerzen@complete.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-convertible-dev (>= 1.1.0.0), libghc-convertible-prof, libghc-utf8-string-dev, libghc-utf8-string-prof
+Build-Depends-Indep: ghc-doc, libghc-convertible-doc, libghc-utf8-string-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ f2dd8744fadb2d83fa03d47bc372cf42 2349 hdbc_2.4.0.3-1.dsc
+ 4c12d969a6d89ef0a515bf7bb0176dbf 23489 hdbc_2.4.0.3.orig.tar.gz
+ 0ab4a129ea9197c2c358994faee9d07b 5520 hdbc_2.4.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/hdbc
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/hdbc]
+Checksums-Sha256:
+ 90975d0bbf5d1d305ce8f8671dd4ceda70128a8103a704ff4b71ef3b40033dfe 2349 hdbc_2.4.0.3-1.dsc
+ 1e63bc1f3d1818e39a231eb5467546e0705554de38aeca43fd4ad4cb53a2626f 23489 hdbc_2.4.0.3.orig.tar.gz
+ 5e849cf2a159aee147d88df30fda8a831f6ced4ff15be9eaaf196390f53f1235 5520 hdbc_2.4.0.3-1.debian.tar.xz
+Homepage: https://github.com/hdbc/hdbc
+Package-List: 
+ libghc-hdbc-dev deb haskell optional arch=any
+ libghc-hdbc-doc deb doc optional arch=all
+ libghc-hdbc-prof deb haskell optional arch=any
+Directory: pool/main/h/hdbc
+Priority: source
+Section: libs

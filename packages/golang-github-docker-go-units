@@ -1,0 +1,27 @@
+Package: golang-github-docker-go-units
+Binary: golang-github-docker-go-units-dev
+Version: 0.4.0-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 258e82d632f563f971474c75e6b21af8 1692 golang-github-docker-go-units_0.4.0-3.dsc
+ f9ae2d84f9926527cd2364bf021089db 10728 golang-github-docker-go-units_0.4.0.orig.tar.xz
+ 27a46b9f48d66bb65ef64c6a277f95e0 2572 golang-github-docker-go-units_0.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-docker-go-units
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-docker-go-units.git
+Checksums-Sha256:
+ eddf033eec7c7a31a2b7713f7217072ffcc923795fa8627539765d458c3573a1 1692 golang-github-docker-go-units_0.4.0-3.dsc
+ d68d393456c62567564227a9c9b2e12881455f8c38be1d999c3ea8dc4e6dc594 10728 golang-github-docker-go-units_0.4.0.orig.tar.xz
+ 2a3c211a87a4ea1bea5d5f391cdea7b514505785bd05f6d897d2f3ad5351396a 2572 golang-github-docker-go-units_0.4.0-3.debian.tar.xz
+Homepage: https://github.com/docker/go-units
+Go-Import-Path: github.com/docker/go-units
+Package-List: 
+ golang-github-docker-go-units-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-docker-go-units
+Priority: extra
+Section: golang

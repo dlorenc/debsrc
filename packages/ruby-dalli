@@ -1,0 +1,27 @@
+Package: ruby-dalli
+Binary: ruby-dalli
+Version: 2.7.11-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, memcached, ruby-rails, ruby-appraisal, ruby-connection-pool, ruby-kgio, ruby-mocha, ruby-simplecov
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d94ee1623a50441365dab1f5c6bfaf52 1760 ruby-dalli_2.7.11-1.dsc
+ 67dd06f2ecd25ba41bd531935de9277f 52341 ruby-dalli_2.7.11.orig.tar.gz
+ 3da03fc5ab4487f81e7358e67dc9a530 4476 ruby-dalli_2.7.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-dalli
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-dalli.git
+Checksums-Sha256:
+ 114fe5a04cd537393718bf1a06cdfda911e0e860ec8e82583230ebe5d8ca8392 1760 ruby-dalli_2.7.11-1.dsc
+ fd1c577eaf7437eff173720e05e93967fc5625842c41e326347a2c05cb69d29c 52341 ruby-dalli_2.7.11.orig.tar.gz
+ 879cf670c76e15a255b05312cd331d06661a96ccc6906fd19ebae823b0dfa72d 4476 ruby-dalli_2.7.11-1.debian.tar.xz
+Homepage: https://github.com/petergoldstein/dalli
+Package-List: 
+ ruby-dalli deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-dalli
+Priority: optional
+Section: misc

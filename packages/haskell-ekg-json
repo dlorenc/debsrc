@@ -1,0 +1,28 @@
+Package: haskell-ekg-json
+Binary: libghc-ekg-json-dev, libghc-ekg-json-prof, libghc-ekg-json-doc
+Version: 0.1.0.6-7
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 0.4), libghc-aeson-dev (<< 1.6), libghc-aeson-prof, libghc-ekg-core-dev (<< 0.2), libghc-ekg-core-dev (>= 0.1), libghc-ekg-core-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-ekg-core-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c54c3b88242071232a20cfcdcf02ae26 2632 haskell-ekg-json_0.1.0.6-7.dsc
+ 41811199cade80945fdd8e9f77eed9f0 3094 haskell-ekg-json_0.1.0.6.orig.tar.gz
+ 72f25ce225622f6e4c5c38a52d632063 3232 haskell-ekg-json_0.1.0.6-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ekg-json
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ekg-json]
+Checksums-Sha256:
+ 7110336b841b07672d991cb160aba44911c1308c0da726d255cd1c0a165557f0 2632 haskell-ekg-json_0.1.0.6-7.dsc
+ 1e6a80aa0a28bbf41c9c6364cbb5731160d14fa54145f27a82d0b3467a04dd47 3094 haskell-ekg-json_0.1.0.6.orig.tar.gz
+ 34caee20654a370a7fe001bb98c15541fd816d353f18b96bc5cfdcd14b384879 3232 haskell-ekg-json_0.1.0.6-7.debian.tar.xz
+Homepage: https://github.com/tibbe/ekg-json
+Package-List: 
+ libghc-ekg-json-dev deb haskell optional arch=any
+ libghc-ekg-json-doc deb doc optional arch=all
+ libghc-ekg-json-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ekg-json
+Priority: optional
+Section: misc

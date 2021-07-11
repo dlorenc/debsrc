@@ -1,0 +1,28 @@
+Package: haskell-extra
+Binary: libghc-extra-dev, libghc-extra-prof, libghc-extra-doc
+Version: 1.7.4-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Ilias Tsitsimpis <iliastsi@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-clock-dev (>= 0.7), libghc-clock-prof
+Build-Depends-Indep: ghc-doc, libghc-clock-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 4de8ee6409c22f428438f847dc640614 2341 haskell-extra_1.7.4-1.dsc
+ 31f1f2414d3e66064882975b53278081 42476 haskell-extra_1.7.4.orig.tar.gz
+ 0a827b8f40b8d3b9192b1661dc81936d 3020 haskell-extra_1.7.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-extra
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-extra]
+Checksums-Sha256:
+ 3a013aec138874cf763b9773d55293308e6949fb632a652a19291ed998f41176 2341 haskell-extra_1.7.4-1.dsc
+ 3ee1d5ab0bf09a4e55f59c42a77f9ff3f4c9e96f000efb850847dfd1e246966d 42476 haskell-extra_1.7.4.orig.tar.gz
+ d642e04e6d34e2eaaba3f20fdba4ea01657491b16f75e33ac4c513da2138c707 3020 haskell-extra_1.7.4-1.debian.tar.xz
+Homepage: https://github.com/ndmitchell/extra#readme
+Package-List: 
+ libghc-extra-dev deb haskell optional arch=any
+ libghc-extra-doc deb doc optional arch=all
+ libghc-extra-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-extra
+Priority: optional
+Section: misc

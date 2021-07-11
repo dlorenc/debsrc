@@ -1,0 +1,26 @@
+Package: libjoda-time-java
+Binary: libjoda-time-java, libjoda-time-java-doc
+Version: 2.10.10-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Varun Hiremath <varun@debian.org>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, default-jdk-doc, junit, libbuild-helper-maven-plugin-java, libjoda-convert-java, libmaven-antrun-plugin-java, libmaven-exec-plugin-java, libmaven-javadoc-plugin-java, maven-debian-helper (>= 2.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fcb7a3bfda3cf043763e9130a564f14c 2398 libjoda-time-java_2.10.10-1.dsc
+ 0ea63b77405221b93845765ee34eaa17 680848 libjoda-time-java_2.10.10.orig.tar.xz
+ ad9fba92b0bc87e08c1a3926a9b36a4e 4648 libjoda-time-java_2.10.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libjoda-time-java
+Vcs-Git: https://salsa.debian.org/java-team/libjoda-time-java.git
+Checksums-Sha256:
+ 6ae6b86428fc60bbdc77d907546c3544360d1ad6af64a092a29bdf9b631b6510 2398 libjoda-time-java_2.10.10-1.dsc
+ 700202a7cb9abf58ea1ae84ecb39b8731d7f3e7d1ab2426b064b5098c7ed63ed 680848 libjoda-time-java_2.10.10.orig.tar.xz
+ 8bba1c45a0d56c10475f621a79b215c1628d0e166e34b8a0b65f9b9cdb26426f 4648 libjoda-time-java_2.10.10-1.debian.tar.xz
+Homepage: http://www.joda.org/joda-time
+Package-List: 
+ libjoda-time-java deb java optional arch=all
+ libjoda-time-java-doc deb doc optional arch=all
+Directory: pool/main/libj/libjoda-time-java
+Priority: source
+Section: java

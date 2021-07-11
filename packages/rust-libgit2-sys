@@ -1,0 +1,28 @@
+Package: rust-libgit2-sys
+Binary: librust-libgit2-sys-dev, librust-libgit2-sys+https-dev, librust-libgit2-sys+libssh2-sys-dev
+Version: 0.12.13-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.43-~~) <!nocheck>, librust-cc-1+parallel-dev (>= 1.0.43-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-libz-sys-1+libc-dev (>= 1.1.0-~~) <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, libgit2-dev (>= 1) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4a4d0e5df7276cd6988383b02c9d8eb2 2670 rust-libgit2-sys_0.12.13-1.dsc
+ 1941c8deda9ef99c3b24a3d035579dba 26660 rust-libgit2-sys_0.12.13.orig.tar.gz
+ 6517508415b13c523f48ccefc4e4757e 4084 rust-libgit2-sys_0.12.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libgit2-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/libgit2-sys]
+Checksums-Sha256:
+ 76e0ddfd426fecb6e425274b899410d710933cf47c8f954f377f02d3af1ac55a 2670 rust-libgit2-sys_0.12.13-1.dsc
+ cf3f682e8431a8e2f6a203ec7f3a58c4385c81c73dc22157a7bf888867ff2379 26660 rust-libgit2-sys_0.12.13.orig.tar.gz
+ 24f331cbf0cbf26900d31a298608e39100637386fd59fce4055a036c8431c7e5 4084 rust-libgit2-sys_0.12.13-1.debian.tar.xz
+Package-List: 
+ librust-libgit2-sys+https-dev deb rust optional arch=any
+ librust-libgit2-sys+libssh2-sys-dev deb rust optional arch=any
+ librust-libgit2-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-libgit2-sys
+Priority: extra
+Section: misc

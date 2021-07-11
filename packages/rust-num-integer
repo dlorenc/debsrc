@@ -1,0 +1,29 @@
+Package: rust-num-integer
+Binary: librust-num-integer-dev, librust-num-integer+i128-dev, librust-num-integer+std-dev
+Version: 0.1.42-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-autocfg-1+default-dev <!nocheck>, librust-num-traits-0.2+std-dev (>= 0.2.11-~~) <!nocheck>, librust-num-traits-0.2-dev (>= 0.2.11-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 16b80c0f306b1e02fdc6586d063a559c 2195 rust-num-integer_0.1.42-1.dsc
+ 9c52a747ee0325081e566c9f700a8d7e 19463 rust-num-integer_0.1.42.orig.tar.gz
+ 59baec25d4561f14f3318b78abb529e6 2880 rust-num-integer_0.1.42-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-integer
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-integer]
+Checksums-Sha256:
+ cbcc6a1ffb8bae7b4c7cceb2616a351deccc3743e35afc181513886ea3f7cca7 2195 rust-num-integer_0.1.42-1.dsc
+ 3f6ea62e9d81a77cd3ee9a2a5b9b609447857f3d358704331e4ef39eb247fcba 19463 rust-num-integer_0.1.42.orig.tar.gz
+ ae395821c64274efd50113dd93de5d6a3dc724d1523e02339fd5c05e65611f12 2880 rust-num-integer_0.1.42-1.debian.tar.xz
+Homepage: https://github.com/rust-num/num-integer
+Package-List: 
+ librust-num-integer+i128-dev deb rust optional arch=any
+ librust-num-integer+std-dev deb rust optional arch=any
+ librust-num-integer-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-num-integer
+Priority: extra
+Section: misc

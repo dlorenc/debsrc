@@ -1,0 +1,26 @@
+Package: tetex-brev
+Binary: tetex-brev
+Version: 4.22.github.20140417-3
+Maintainer: Petter Reinholdtsen <pere@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), tex-common
+Build-Depends-Indep: texlive-latex-base, texlive-lang-european | texlive-latex-base (<< 2013.20130918-1), texlive-latex-recommended, texlive-fonts-recommended
+Architecture: all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 56180b7af63ea37daf1a84b9c2357246 2151 tetex-brev_4.22.github.20140417-3.dsc
+ 7ced0de8b3fd2b805901eccbf978a23e 18126 tetex-brev_4.22.github.20140417.orig.tar.gz
+ 97110cf1a7eaf29e7b3a7e9b0d4ec61e 3844 tetex-brev_4.22.github.20140417-3.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/tetex-brev.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/tetex-brev
+Checksums-Sha256:
+ 86a63b048c1a6ab09b15ccd0eb8b0ae4c62bd5a0c1a34f330b5ab349e21cd03a 2151 tetex-brev_4.22.github.20140417-3.dsc
+ 2acedfcf658333b8383b9f317adf322eaf84b07200fd033276d9582bbb32422b 18126 tetex-brev_4.22.github.20140417.orig.tar.gz
+ 2f695e9dd793876797743bedddd433bd1cf58d1310ef58c216233e796e96633f 3844 tetex-brev_4.22.github.20140417-3.debian.tar.xz
+Homepage: https://github.com/asgeirn/brev-cls
+Package-List: 
+ tetex-brev deb tex optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/t/tetex-brev
+Priority: source
+Section: tex

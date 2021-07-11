@@ -1,0 +1,28 @@
+Package: ruby-activeldap
+Binary: ruby-activeldap
+Version: 6.0.3-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Marc Dequènes (Duck) <Duck@DuckCorp.org>, Deepak Tripathi <apenguinlinux@gmail.com>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-activemodel (>= 2:5.2), ruby-builder, ruby-gettext, ruby-locale
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 352608516abb18191b27e71574d4600b 2219 ruby-activeldap_6.0.3-2.dsc
+ 44b20b17da1d5f5ef2bad8b3c51acabd 228406 ruby-activeldap_6.0.3.orig.tar.gz
+ 41d7a7101007fbeca3b14fc8ce7fb5de 7504 ruby-activeldap_6.0.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-activeldap
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-activeldap.git
+Checksums-Sha256:
+ 3a8141de24f7a9add617a46dd24f0a32d0ac992adab00aba793d1a84cf632939 2219 ruby-activeldap_6.0.3-2.dsc
+ 4fb54171ec35152d4cf5250cee64ed0a949d19a34fe2872671593449f460ab5e 228406 ruby-activeldap_6.0.3.orig.tar.gz
+ b4b02453c95feb9a1d820b0a1449f14e5feafe631e77c0e7d5f8e82cad5f0e76 7504 ruby-activeldap_6.0.3-2.debian.tar.xz
+Homepage: https://activeldap.github.io/
+Package-List: 
+ ruby-activeldap deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, gem2deb-test-runner
+Directory: pool/main/r/ruby-activeldap
+Priority: source
+Section: ruby

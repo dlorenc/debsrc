@@ -1,0 +1,25 @@
+Package: qtscrob
+Binary: qtscrob, scrobbler
+Version: 0.11+git-5
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 11), qtbase5-dev, qttools5-dev-tools, libmtp-dev, pkg-config
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ ca8c935ee1dadf5ab219ac9243c24988 1937 qtscrob_0.11+git-5.dsc
+ e82bd199b7a0cd707b45d6e40da31aa7 216628 qtscrob_0.11+git.orig.tar.xz
+ f8983ff83251b62a2bc36d4ed0c3b5c3 6544 qtscrob_0.11+git-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/qtscrob
+Vcs-Git: https://salsa.debian.org/debian/qtscrob.git
+Checksums-Sha256:
+ 084d63bb59fd710dbaa70740c434cf7f4eb13f282373f21ed4dab5c713db4dfe 1937 qtscrob_0.11+git-5.dsc
+ 91d79e7df40a828a82eb4279426542e00a80a55a20275a28d585522dbe4533d0 216628 qtscrob_0.11+git.orig.tar.xz
+ 7808c919f916bb316680527e60c41e26643e24ab4dbc612b7c958a5b99b05000 6544 qtscrob_0.11+git-5.debian.tar.xz
+Homepage: http://qtscrob.sourceforge.net/
+Package-List: 
+ qtscrob deb sound optional arch=any
+ scrobbler deb sound optional arch=any
+Directory: pool/main/q/qtscrob
+Priority: source
+Section: sound

@@ -1,0 +1,27 @@
+Package: libformvalidator-simple-perl
+Binary: libformvalidator-simple-perl
+Version: 0.29-2.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Krzysztof Krzyzaniak (eloy) <eloy@debian.org>, gregor herrmann <gregoa@debian.org>, Nathan Handler <nhandler@debian.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libcgi-pm-perl | perl (<< 5.19), perl, libclass-accessor-perl, libclass-data-accessor-perl, libclass-data-inheritable-perl, libclass-inspector-perl, libdate-calc-perl, libdatetime-format-strptime-perl, libemail-valid-loose-perl, liblist-moreutils-perl, libmailtools-perl, libtest-pod-perl, libtie-ixhash-perl, libuniversal-exports-perl, libyaml-perl
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 993de702894b502ec32b49e358e7c15a 2646 libformvalidator-simple-perl_0.29-2.1.dsc
+ 94815ae2237e289fa714e481dd62cddf 46467 libformvalidator-simple-perl_0.29.orig.tar.gz
+ dcaaae62c5ac801131be5a322e566d4b 3400 libformvalidator-simple-perl_0.29-2.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libformvalidator-simple-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libformvalidator-simple-perl.git
+Checksums-Sha256:
+ 9acff1614609922c46a7aacd766943c58e032656db64481b62fa46249c3cfcbf 2646 libformvalidator-simple-perl_0.29-2.1.dsc
+ fc3a63dc54b962d74586070176adaf5be869f09b561bb30f5fd32ef531792666 46467 libformvalidator-simple-perl_0.29.orig.tar.gz
+ 48e3084c16b21404b6e144ed056e3aecb52a4e1e0bd02be245238bc21621bb14 3400 libformvalidator-simple-perl_0.29-2.1.debian.tar.xz
+Homepage: https://metacpan.org/release/FormValidator-Simple
+Package-List: 
+ libformvalidator-simple-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libf/libformvalidator-simple-perl
+Priority: source
+Section: perl

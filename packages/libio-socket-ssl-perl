@@ -1,0 +1,27 @@
+Package: libio-socket-ssl-perl
+Binary: libio-socket-ssl-perl
+Version: 2.069-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Salvatore Bonaccorso <carnil@debian.org>, Angel Abad <angel@debian.org>, Damyan Ivanov <dmn@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: ca-certificates, libnet-idn-encode-perl, libnet-libidn-perl, libnet-ssleay-perl (>= 1.85-2~), libssl1.1 (>= 1.1.1), liburi-perl, netbase, perl, perl (>= 5.15.6) | libsocket-perl | libsocket6-perl, perl (>= 5.19.8) | libio-socket-ip-perl (>= 0.20) | libio-socket-inet6-perl, procps
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1615b3eb13e88ad13e91d9c12d80ebd9 2725 libio-socket-ssl-perl_2.069-1.dsc
+ 237cc3ecf6ea470225ee5e652b0c046c 247983 libio-socket-ssl-perl_2.069.orig.tar.gz
+ 7a2c99f7be71234f0762862c90487a3a 10340 libio-socket-ssl-perl_2.069-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libio-socket-ssl-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libio-socket-ssl-perl.git
+Checksums-Sha256:
+ 5f022f6932b03487cf1f002da3e61966a72ba25a9595d257579ab1ed5919bf16 2725 libio-socket-ssl-perl_2.069-1.dsc
+ d83c2cae5e8a22ab49c9f2d964726625e9efe56490d756a48a7b149a3d6e278d 247983 libio-socket-ssl-perl_2.069.orig.tar.gz
+ eea2a03ad5342461e8ffe38f805a98a3acd447fb2afa27d9139d84bc817e829e 10340 libio-socket-ssl-perl_2.069-1.debian.tar.xz
+Homepage: https://metacpan.org/release/IO-Socket-SSL
+Package-List: 
+ libio-socket-ssl-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libi/libio-socket-ssl-perl
+Priority: source
+Section: perl

@@ -1,0 +1,28 @@
+Package: golang-github-jacobsa-crypto
+Binary: golang-github-jacobsa-crypto-dev
+Version: 0.0~git20190317.9f44e2d+dfsg1-3
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Felix Lechner <felix.lechner@lease-up.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-jacobsa-oglematchers-dev, golang-github-jacobsa-ogletest-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 667906ddd82715d68496d132f8e11a08 2693 golang-github-jacobsa-crypto_0.0~git20190317.9f44e2d+dfsg1-3.dsc
+ 31e3b590bb11741ed4dc51de4f0e148b 2207060 golang-github-jacobsa-crypto_0.0~git20190317.9f44e2d+dfsg1.orig.tar.xz
+ 256fce99cd7df315e0b3a335d953d157 4652 golang-github-jacobsa-crypto_0.0~git20190317.9f44e2d+dfsg1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-jacobsa-crypto
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-jacobsa-crypto.git
+Checksums-Sha256:
+ 4f5ed02cb26a0208f428d099aea5c423a826eae0f27f6e184ddaf0b42f3c14f2 2693 golang-github-jacobsa-crypto_0.0~git20190317.9f44e2d+dfsg1-3.dsc
+ db70adb6b87cbd8a71f8a93c44f3cc4a41d85bc5c726054ab6fefa464313ccdc 2207060 golang-github-jacobsa-crypto_0.0~git20190317.9f44e2d+dfsg1.orig.tar.xz
+ 454ab132486d42f55105fbbf1201714b7a81e07ff9580f81fd6db01b052d9095 4652 golang-github-jacobsa-crypto_0.0~git20190317.9f44e2d+dfsg1-3.debian.tar.xz
+Homepage: https://github.com/jacobsa/crypto
+Go-Import-Path: github.com/jacobsa/crypto
+Package-List: 
+ golang-github-jacobsa-crypto-dev deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: golang-any
+Directory: pool/main/g/golang-github-jacobsa-crypto
+Priority: extra
+Section: golang

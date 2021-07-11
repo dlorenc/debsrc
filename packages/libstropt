@@ -1,0 +1,26 @@
+Package: libstropt
+Binary: libstropt-dev, libstropt0
+Version: 0.1.2-1
+Maintainer: Debian VirtualSquare Team <virtualsquare@cs.unibo.it>
+Uploaders: Mattia Biondi <mattiabiondi1@gmail.com>, Renzo Davoli <renzo@cs.unibo.it>, Andrea Capriotti <capriott@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.12)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b7b76e77caff801195cb4c0f83b39685 2073 libstropt_0.1.2-1.dsc
+ 90666d416669855da57e123e9e2b455c 18653 libstropt_0.1.2.orig.tar.gz
+ 050d4576de92b134a022c141292eef6b 2360 libstropt_0.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/virtualsquare-team/libstropt
+Vcs-Git: https://salsa.debian.org/virtualsquare-team/libstropt.git
+Checksums-Sha256:
+ 63cdeb7100b7c558d8acb8c0046683c4d1eac84839ae96e34558a03db2a8cb7e 2073 libstropt_0.1.2-1.dsc
+ 49a3f89fd80bd2a4dc3dd60adce84e99d0fb857146d733d6de525ae44c4b2e72 18653 libstropt_0.1.2.orig.tar.gz
+ 711e7202fa462f47771d3d2a7615bf794cce68cf1f56f057b324693eeb24f3b1 2360 libstropt_0.1.2-1.debian.tar.xz
+Homepage: http://www.virtualsquare.org/
+Package-List: 
+ libstropt-dev deb libdevel optional arch=any
+ libstropt0 deb libs optional arch=any
+Directory: pool/main/libs/libstropt
+Priority: extra
+Section: misc

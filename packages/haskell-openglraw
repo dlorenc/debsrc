@@ -1,0 +1,28 @@
+Package: haskell-openglraw
+Binary: libghc-openglraw-dev, libghc-openglraw-prof, libghc-openglraw-doc
+Version: 3.3.4.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.15), libghc-fixed-dev (>= 0.2), libghc-fixed-dev (<< 0.4), libghc-fixed-prof, libghc-half-dev (>= 0.2.2.1), libghc-half-dev (<< 0.4), libghc-half-prof, libgl1-mesa-dev | libgl-dev
+Build-Depends-Indep: ghc-doc, libghc-fixed-doc, libghc-half-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aa824891a71a625bae8f32290d0368a8 2568 haskell-openglraw_3.3.4.0-1.dsc
+ a19fcad6fa751a1b5dce8c5e8de90616 882560 haskell-openglraw_3.3.4.0.orig.tar.gz
+ 46971e78e0530f3b42b4ab77ed2bee9d 3700 haskell-openglraw_3.3.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-openglraw
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-openglraw]
+Checksums-Sha256:
+ 4c770bd3f1706c2d067d640b875b7d64b8b5bf1dba49037bf877996fe4f5ea05 2568 haskell-openglraw_3.3.4.0-1.dsc
+ 756169eaadfe16627a893c35e7952d82ff466ac77b13ec2d1ea1de8fb5afba3e 882560 haskell-openglraw_3.3.4.0.orig.tar.gz
+ 73952aace552cb229e28c5288497f412ff190f0a2fe00a1d25cf22872ec2f7b8 3700 haskell-openglraw_3.3.4.0-1.debian.tar.xz
+Homepage: https://www.haskell.org/haskellwiki/Opengl
+Package-List: 
+ libghc-openglraw-dev deb haskell optional arch=any
+ libghc-openglraw-doc deb doc optional arch=all
+ libghc-openglraw-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-openglraw
+Priority: source
+Section: misc

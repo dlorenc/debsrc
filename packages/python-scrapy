@@ -1,0 +1,28 @@
+Package: python-scrapy
+Binary: python-scrapy-doc, python3-scrapy
+Version: 2.4.1-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ignace Mouzannar <mouzannar@gmail.com>, Andrey Rahmatullin <wrar@debian.org>
+Build-Depends: bash-completion, debhelper-compat (= 13), dh-python, python3-all
+Build-Depends-Indep: libjs-jquery, mitmproxy, python3-botocore, python3-itemadapter, python3-itemloaders, python3-jmespath, python3-lxml, python3-mock, python3-parsel (>= 1.1.0-1~), python3-pil, python3-protego, python3-pydispatch, python3-pyftpdlib, python3-pytest, python3-pytest-twisted, python3-queuelib, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-testfixtures (>= 6.10.1), python3-twisted (>= 17.1.0), python3-uvloop, python3-w3lib (>= 1.16.0-1~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 23e6f6c4c104102699c19bd83c0ced7c 2621 python-scrapy_2.4.1-2.dsc
+ 781782d0606843be47d644ed876c1070 1248020 python-scrapy_2.4.1.orig.tar.gz
+ f43cb322448eda15a10d7b096d70c2f2 8448 python-scrapy_2.4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-scrapy
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-scrapy.git
+Checksums-Sha256:
+ 1dd1389630a4ba9ac583ab8aba72ecfcf6906745d0ab7524fead5d478fe64093 2621 python-scrapy_2.4.1-2.dsc
+ 872c8e60dc8437bde88feb1aef8e3c305c20a216c931764d2f054aa3b7caef7c 1248020 python-scrapy_2.4.1.orig.tar.gz
+ d0c8b65aefb0fd453612d55c282db7ba8d7bffe1484a6b3e9de30dc984036963 8448 python-scrapy_2.4.1-2.debian.tar.xz
+Homepage: https://scrapy.org/
+Package-List: 
+ python-scrapy-doc deb doc optional arch=all
+ python3-scrapy deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-scrapy
+Priority: source
+Section: python

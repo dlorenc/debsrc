@@ -1,0 +1,27 @@
+Package: libzmq-ffi-perl
+Binary: libzmq-ffi-perl
+Version: 1.17-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libanyevent-perl <!nocheck>, libclass-xsaccessor-perl <!nocheck>, libffi-checklib-perl, libffi-platypus-perl (>= 0.86), libimport-into-perl (>= 1.002005) <!nocheck>, libmoo-perl <!nocheck>, libnamespace-clean-perl <!nocheck>, libsub-exporter-perl <!nocheck>, libsub-override-perl <!nocheck>, libsys-sigaction-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>, libtest-warnings-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libzmq3-dev, perl
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 2de1c16f0c9fe56e322486ccb2050925 2799 libzmq-ffi-perl_1.17-2.dsc
+ f960e73a2207beadaf061cda25c0fae2 56103 libzmq-ffi-perl_1.17.orig.tar.gz
+ 15eed07999d83e2114338415faf396b4 2572 libzmq-ffi-perl_1.17-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libzmq-ffi-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libzmq-ffi-perl.git
+Checksums-Sha256:
+ 6a5ea04ee40d80b3d4d17dfaa9121e89a7a47e182d40f2809de440cee4998c42 2799 libzmq-ffi-perl_1.17-2.dsc
+ 0af4bedc509a646c160839381ba69d34676a52167d94bbf4bc47efd09c045ebd 56103 libzmq-ffi-perl_1.17.orig.tar.gz
+ 91958a1d85276e9488e2e3584b18b0ad5f19a0b15b3ee1c473dc5b3d483d22aa 2572 libzmq-ffi-perl_1.17-2.debian.tar.xz
+Homepage: https://metacpan.org/release/ZMQ-FFI
+Dgit: b03930017fa38a4ce2aee15851effbcbb4d25d1b debian archive/debian/1.17-2 https://git.dgit.debian.org/libzmq-ffi-perl
+Package-List: 
+ libzmq-ffi-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libz/libzmq-ffi-perl
+Priority: optional
+Section: misc

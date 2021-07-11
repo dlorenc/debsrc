@@ -1,0 +1,26 @@
+Package: python-igraph
+Binary: python3-igraph
+Version: 0.9.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>, Hugo Lefeuvre <hle@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, libigraph-dev, pkg-config, python3-all-dev, python3-numpy, python3-setuptools, python3-texttable, bison, flex, libxml2-dev, cmake
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0f0a5ca8a177ea0488f9e4b059935897 2201 python-igraph_0.9.0-2.dsc
+ 2eaf0bede06d6b4ecb1f283f7f80fc08 3366754 python-igraph_0.9.0.orig.tar.gz
+ 5f84d398814e84812f8fffb0a0c762a1 4608 python-igraph_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-igraph
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-igraph.git
+Checksums-Sha256:
+ 3f565452414e64faefacede4adb0f9e6b29cc6b0a3a5f682a2b0399cdafa5af8 2201 python-igraph_0.9.0-2.dsc
+ 7aa1d77fa02e27475eb4f14503f3cb342c3ed8990d9224640fd29c70797f2dd6 3366754 python-igraph_0.9.0.orig.tar.gz
+ 2df4508eb7441585cc7b0ee99cdcf4f61f59f1e04d996aa3994812346775c3e2 4608 python-igraph_0.9.0-2.debian.tar.xz
+Homepage: http://igraph.org/python/
+Package-List: 
+ python3-igraph deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-igraph
+Priority: source
+Section: python

@@ -1,0 +1,31 @@
+Package: apt
+Binary: apt, libapt-pkg6.0, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https
+Version: 2.2.4
+Maintainer: APT Development Team <deity@lists.debian.org>
+Uploaders: Michael Vogt <mvo@debian.org>, Julian Andres Klode <jak@debian.org>, David Kalnischkies <donkult@debian.org>
+Build-Depends: cmake (>= 3.4), debhelper-compat (= 12), docbook-xml, docbook-xsl, dpkg-dev (>= 1.17.14), gettext (>= 0.12), googletest <!nocheck> | libgtest-dev <!nocheck>, libbz2-dev, libdb-dev, libgnutls28-dev (>= 3.4.6), libgcrypt20-dev, liblz4-dev (>= 0.0~r126), liblzma-dev, libseccomp-dev (>= 2.4.2) [amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x hppa powerpc powerpcspe ppc64 x32], libsystemd-dev [linux-any], libudev-dev [linux-any], libxxhash-dev (>= 0.8), libzstd-dev (>= 1.0), ninja-build, pkg-config, po4a (>= 0.34-2), triehash, xsltproc, zlib1g-dev
+Build-Depends-Indep: doxygen, graphviz, w3m
+Architecture: any all
+Standards-Version: 4.1.1
+Format: 3.0 (native)
+Files:
+ c706dc2a1b55370b84b43e639533f452 2780 apt_2.2.4.dsc
+ 8a1f8bb7a5f85f81dadadb989e3b8ed0 2197424 apt_2.2.4.tar.xz
+Vcs-Browser: https://salsa.debian.org/apt-team/apt
+Vcs-Git: https://salsa.debian.org/apt-team/apt.git
+Checksums-Sha256:
+ 750079533300bc3a4f3e10a9c8dbffaa0781b92e3616a12d7e18ab1378ca4466 2780 apt_2.2.4.dsc
+ 6eecd04a4979bd2040b22a14571c15d342c4e1802b2023acb5aa19649b1f64ea 2197424 apt_2.2.4.tar.xz
+Package-List: 
+ apt deb admin important arch=any
+ apt-doc deb doc optional arch=all
+ apt-transport-https deb oldlibs optional arch=all
+ apt-utils deb admin important arch=any
+ libapt-pkg-dev deb libdevel optional arch=any
+ libapt-pkg-doc deb doc optional arch=all
+ libapt-pkg6.0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, aptitude, db-util, dpkg, fakeroot, gnupg, gnupg1, gnupg2, gpgv, gpgv1, gpgv2, libfile-fcntllock-perl, lsof, pkg-config, python3-apt, stunnel4, valgrind, wget
+Directory: pool/main/a/apt
+Priority: source
+Section: admin

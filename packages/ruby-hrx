@@ -1,0 +1,27 @@
+Package: ruby-hrx
+Binary: ruby-hrx
+Version: 1.0.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-linked-list (>= 0.0.13), ruby-rspec, ruby-rspec-temp-dir
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ce9cfdc364f82686ac46880ef3d55860 2052 ruby-hrx_1.0.0-2.dsc
+ 906161f7f847a6185a044ebe8f2facf1 21029 ruby-hrx_1.0.0.orig.tar.gz
+ a6c13b3b9a48cbb02261e580be0e2fb8 1948 ruby-hrx_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-hrx
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-hrx.git
+Checksums-Sha256:
+ b806012ebf9bed06f777694bc0212c1854fe8a68ce027d87608e4cb2124d3985 2052 ruby-hrx_1.0.0-2.dsc
+ 4c8eb55da224ab38762d2842b6eb4f6e1e93cd1c13e51bbd33c2074bb093646e 21029 ruby-hrx_1.0.0.orig.tar.gz
+ 89da68da1777fce342d4591cd41bd9b9001c9eec768998ca5cf8b4835505aa56 1948 ruby-hrx_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/google/hrx-ruby
+Package-List: 
+ ruby-hrx deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-hrx
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-hmac
+Binary: librust-hmac-dev
+Version: 0.10.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crypto-mac-0.10+default-dev <!nocheck>, librust-digest-0.9+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5762aaa678962fd44526e2f6e1699e26 1935 rust-hmac_0.10.1-2.dsc
+ b57599fc2bb8cfd76567e656070d0d72 11120 rust-hmac_0.10.1.orig.tar.gz
+ f2b33e0d8baec1171807f7d1f9cf478d 2756 rust-hmac_0.10.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/hmac
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/hmac]
+Checksums-Sha256:
+ 80f54fe959639e6045df1111c65b0c4014757c1bc59d45217b4ab9f78efba9b6 1935 rust-hmac_0.10.1-2.dsc
+ c1441c6b1e930e2817404b5046f1f989899143a12bf92de603b69f4e0aee1e15 11120 rust-hmac_0.10.1.orig.tar.gz
+ ba990dfd76bdcfd350ba310b23c3683af5829da29d5ac9ac549cdad0f9efd322 2756 rust-hmac_0.10.1-2.debian.tar.xz
+Package-List: 
+ librust-hmac-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-crypto-mac-0.10+default-dev, librust-crypto-mac-0.10+dev-dev, librust-md-5-0.9-dev, librust-sha2-0.9-dev
+Directory: pool/main/r/rust-hmac
+Priority: extra
+Section: misc

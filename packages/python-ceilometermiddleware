@@ -1,0 +1,27 @@
+Package: python-ceilometermiddleware
+Binary: python-ceilometermiddleware-doc, python3-ceilometermiddleware
+Version: 2.1.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-babel, python3-betamax, python3-coverage, python3-hacking, python3-keystoneauth1 (>= 2.18.0), python3-keystoneclient (>= 3.8.0), python3-openstackdocstheme (>= 1.17.0), python3-oslo.config, python3-oslo.context (>= 0.2.0), python3-oslo.messaging (>= 5.2.0), python3-oslo.utils (>= 3.33.0), python3-oslotest (>= 1:1.10.0), python3-pycadf, python3-six, python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), subunit, testrepository
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fdecc1be4737fc8250f2e2f44373d34e 2773 python-ceilometermiddleware_2.1.0-2.dsc
+ f0842377ff391d624aa2fedf1712c34c 19476 python-ceilometermiddleware_2.1.0.orig.tar.xz
+ 422b0b135ced10e98fae253607d23e30 3228 python-ceilometermiddleware_2.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/libs/python-ceilometermiddleware
+Vcs-Git: https://salsa.debian.org/openstack-team/libs/python-ceilometermiddleware.git
+Checksums-Sha256:
+ f797841082d9206e6e39ec2327d623dd4b87729b62c450dd59d83ab5515d788f 2773 python-ceilometermiddleware_2.1.0-2.dsc
+ 9f59b4b4fe760829587950232e534b436d634431ecb97e4b1e07fae92830a851 19476 python-ceilometermiddleware_2.1.0.orig.tar.xz
+ a1a1c6a37a9b723cc0a983d7d12ddb6ec37d11bdb9a1ff4f268df4ea0a1b90a2 3228 python-ceilometermiddleware_2.1.0-2.debian.tar.xz
+Homepage: http://www.openstack.org/
+Package-List: 
+ python-ceilometermiddleware-doc deb doc optional arch=all
+ python3-ceilometermiddleware deb python optional arch=all
+Directory: pool/main/p/python-ceilometermiddleware
+Priority: optional
+Section: misc

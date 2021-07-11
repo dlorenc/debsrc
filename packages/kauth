@@ -1,0 +1,34 @@
+Package: kauth
+Binary: libkf5auth-data, libkf5auth-dev, libkf5auth-dev-bin, libkf5auth-doc, libkf5auth5, libkf5authcore5
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), graphviz, libkf5coreaddons-dev (>= 5.78.0~), libpolkit-qt5-1-dev, libqt5sql5-sqlite, pkg-config, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qttools5-dev (>= 5.4), qttools5-dev-tools (>= 5.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e5439f38599add9dd4e2a4983d843cdd 2496 kauth_5.78.0-2.dsc
+ e4e045b73f3832bc2c9788a13fac5973 88016 kauth_5.78.0.orig.tar.xz
+ d30efb917b8f5970e3210219dac34b42 488 kauth_5.78.0.orig.tar.xz.asc
+ d8688a0036b19b3021161f936c0d4344 14400 kauth_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kauth
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kauth.git
+Checksums-Sha256:
+ 0b385dbd98dfb023abbfb14cab7c180f52ddd75143895b90b1fe1e5fce5afe3d 2496 kauth_5.78.0-2.dsc
+ efb3b050492f466c4c531217c39aed67524976884a00f395eaeca147caf61db0 88016 kauth_5.78.0.orig.tar.xz
+ 68906908eb10253ac765fb9505c4f11b9834c3db2970cf3091642e35c8bd27bb 488 kauth_5.78.0.orig.tar.xz.asc
+ a3710f3e5a1b647108e5823f07cb53cdd7ca63fa3861e47a43f01519efe3d58e 14400 kauth_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kauth
+Package-List: 
+ libkf5auth-data deb libs optional arch=all
+ libkf5auth-dev deb libdevel optional arch=any
+ libkf5auth-dev-bin deb libdevel optional arch=any
+ libkf5auth-doc deb doc optional arch=all
+ libkf5auth5 deb libs optional arch=any
+ libkf5authcore5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/k/kauth
+Priority: optional
+Section: misc

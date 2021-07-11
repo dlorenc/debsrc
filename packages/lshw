@@ -1,0 +1,25 @@
+Package: lshw
+Binary: lshw, lshw-gtk
+Version: 02.18.85-0.6
+Maintainer: Ghe Rivero <ghe@debian.org>
+Build-Depends: debhelper-compat (= 10), libgtk2.0-dev, libsqlite3-dev
+Architecture: any
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Files:
+ 25c7cf9e89f00d996e0e3f5e63d4e6bb 1922 lshw_02.18.85-0.6.dsc
+ a60802b3ac898fe1ffa136b5d5338e81 1638120 lshw_02.18.85.orig.tar.xz
+ fc55be15ffca8cd17983ce821973867f 17260 lshw_02.18.85-0.6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/third-party/lshw
+Vcs-Git: https://salsa.debian.org/openstack-team/third-party/lshw.git
+Checksums-Sha256:
+ cc1f3c59b20f25b22d2e94dc48b28f620dca4128de5b9fcdcea834322042c29d 1922 lshw_02.18.85-0.6.dsc
+ 8e80ab1b20bb26fc9b522223a8d67131e5d43a70bdb2663a4f31d4e75f3b5e5b 1638120 lshw_02.18.85.orig.tar.xz
+ b18102654a35ef33867d5d32f65281cae66ee3d6e491faf034a2275d553f4e62 17260 lshw_02.18.85-0.6.debian.tar.xz
+Homepage: https://github.com/lyonel/lshw
+Package-List: 
+ lshw deb utils optional arch=any
+ lshw-gtk deb utils optional arch=any
+Directory: pool/main/l/lshw
+Priority: source
+Section: utils

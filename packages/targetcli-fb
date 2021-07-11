@@ -1,0 +1,26 @@
+Package: targetcli-fb
+Binary: targetcli-fb
+Version: 1:2.1.53-1
+Maintainer: Debian LIO Target Packagers <team+linux-blocks@tracker.debian.org>
+Uploaders: Christophe Vu-Brugier <cvubrugier@fastmail.fm>, Ritesh Raj Sarraf <rrs@debian.org>, Christian Seiler <christian@iwakd.de>
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-configshell-fb, python3-gi, python3-rtslib-fb (>= 2.1.62), python3-setuptools, python3-six
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ a42a9cca5f29defb5157a4bfe3c0f45d 2209 targetcli-fb_2.1.53-1.dsc
+ 61cdf4c71a0b206b021232fb9e845bd8 39586 targetcli-fb_2.1.53.orig.tar.gz
+ 9c78ec6f0b12066df7ac789da951380f 4608 targetcli-fb_2.1.53-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/linux-blocks-team/targetcli-fb
+Vcs-Git: https://salsa.debian.org/linux-blocks-team/targetcli-fb.git
+Checksums-Sha256:
+ 0bb13f9a72fb90680931abc177ed86525ac96d31c83ee8e6b2e78e0bcd02606d 2209 targetcli-fb_2.1.53-1.dsc
+ 7e6779a1cad7526ac058d72b87607da3840289a9e4b066d13e53108366999938 39586 targetcli-fb_2.1.53.orig.tar.gz
+ d590af0be2eddddb6302ee4d0ad930db43371e4a8e6604aa8623a3db7c3ae6df 4608 targetcli-fb_2.1.53-1.debian.tar.xz
+Homepage: https://github.com/open-iscsi/targetcli-fb
+Package-List: 
+ targetcli-fb deb admin optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/t/targetcli-fb
+Priority: optional
+Section: misc

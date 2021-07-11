@@ -1,0 +1,27 @@
+Package: flask-peewee
+Binary: python3-flask-peewee, python-flask-peewee-doc
+Version: 0.6.7-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Adrian Vondendriesch <adrian.vondendriesch@credativ.de>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-flask, python3-jinja2, python3-setuptools, python3-sphinx, python3-werkzeug, python3-wtf-peewee
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 7267aeae45079eefa2e87c2c14d256f5 2264 flask-peewee_0.6.7-2.dsc
+ 2d94387bdd1a7596c4667fb5588190fe 701725 flask-peewee_0.6.7.orig.tar.gz
+ 0282984f0795c27385ec202ed1e62cbe 86504 flask-peewee_0.6.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/flask-peewee
+Vcs-Git: https://salsa.debian.org/python-team/modules/flask-peewee.git
+Checksums-Sha256:
+ b08924bcde39626e9bbc5d25a07ba66906e4fd4e04c2fb988cfa7f0d7a363d81 2264 flask-peewee_0.6.7-2.dsc
+ 06da4feeda28dcd8a800c37da7363bfab0e86fda548dbb789e4b85ef3dca3dc8 701725 flask-peewee_0.6.7.orig.tar.gz
+ 2acd670bc03c364c25249fe4b68f5f65e6dbd47c3714f425cb82ee26580ecc6a 86504 flask-peewee_0.6.7-2.debian.tar.xz
+Homepage: https://github.com/coleifer/flask-peewee/
+Package-List: 
+ python-flask-peewee-doc deb doc optional arch=all
+ python3-flask-peewee deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/f/flask-peewee
+Priority: extra
+Section: misc

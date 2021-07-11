@@ -1,0 +1,26 @@
+Package: camp
+Binary: libcamp0.8, libcamp-dev
+Version: 0.8.4-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Flavien Bridault <fbridault@ircad.fr>
+Build-Depends: cmake, debhelper-compat (= 12), d-shlibs, libboost-dev, libboost-test-dev, qtbase5-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 0c77216d2d37d6f6f2f400d8bbd92024 2021 camp_0.8.4-1.dsc
+ c021c5650d2f7ac2b479536a834f00ce 547965 camp_0.8.4.orig.tar.gz
+ f8914b10f7711bad1e4b53b4e45421b9 3912 camp_0.8.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/camp
+Vcs-Git: https://salsa.debian.org/med-team/camp.git
+Checksums-Sha256:
+ 117853516da966789455f5ccbb62dfbdf7c3fc1d7dffefe0e3c07674b43d6b8c 2021 camp_0.8.4-1.dsc
+ 4063f29c63ed0505f4045b0c8855c48c31233f392a441441c17a08579fc69c73 547965 camp_0.8.4.orig.tar.gz
+ 69470b10ca89cbcb34fd705a6fb18b415371b3666fb8219bd1256d68aaf5d6cb 3912 camp_0.8.4-1.debian.tar.xz
+Homepage: https://github.com/IRCAD-IHU/camp
+Package-List: 
+ libcamp-dev deb libdevel optional arch=any
+ libcamp0.8 deb libs optional arch=any
+Directory: pool/main/c/camp
+Priority: optional
+Section: misc

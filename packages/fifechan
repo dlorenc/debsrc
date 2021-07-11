@@ -1,0 +1,26 @@
+Package: fifechan
+Binary: libfifechan0.1.5, libfifechan-dev
+Version: 0.1.5-2
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), libgl1-mesa-dev, libglu1-mesa-dev, libsdl2-dev, libsdl2-image-dev, libsdl2-ttf-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 00d10d1438f30cf1a68dd375947f23e5 2210 fifechan_0.1.5-2.dsc
+ 990206d6f41dcd1b10de7dd30fbb4482 272472 fifechan_0.1.5.orig.tar.gz
+ 7c0dc436cb5600b5c1a5bdf715ff7042 3628 fifechan_0.1.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/fifechan
+Vcs-Git: https://salsa.debian.org/games-team/fifechan.git
+Checksums-Sha256:
+ c233f91a1d32d471fba2d99ee218e408251a5ffea1548c30cf43ab6c3e0c1b2a 2210 fifechan_0.1.5-2.dsc
+ 29be5ff4b379e2fc4f88ef7d8bc172342130dd3e77a3061f64c8a75efe4eba73 272472 fifechan_0.1.5.orig.tar.gz
+ 03dcbf9feba0d53fc8dfc4529ab5f454b4e614150c131fce7fe1bb01b72e29ba 3628 fifechan_0.1.5-2.debian.tar.xz
+Homepage: http://fifengine.net/
+Package-List: 
+ libfifechan-dev deb libdevel optional arch=any
+ libfifechan0.1.5 deb libs optional arch=any
+Directory: pool/main/f/fifechan
+Priority: optional
+Section: misc

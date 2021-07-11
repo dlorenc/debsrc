@@ -1,0 +1,27 @@
+Package: xorgxrdp
+Binary: xorgxrdp
+Version: 1:0.2.12-1
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Uploaders: Dominik George <natureshadow@debian.org>, Andreas Tille <tille@debian.org>, Mike Gabriel <sunweaver@debian.org>, Thorsten Glaser <tg@mirbsd.de>,
+Build-Depends: autoconf (>= 2.59), automake (>= 1.6), debhelper-compat (= 12), libepoxy-dev, libgbm-dev, nasm [amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386], pkg-config, x11-utils, xrdp (>= 0.9.12), xserver-xorg-core, xserver-xorg-dev (>= 2:1.19)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a695e155762c2146ff196b5ddb78f5ee 2353 xorgxrdp_0.2.12-1.dsc
+ 805efac180e1349c32df612752d72944 485262 xorgxrdp_0.2.12.orig.tar.gz
+ fea98422735c83907529ee2c3b8196f1 7768 xorgxrdp_0.2.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-remote-team/xorgxrdp
+Vcs-Git: https://salsa.debian.org/debian-remote-team/xorgxrdp.git
+Checksums-Sha256:
+ e3891e317a06a7795face121db28222329d9bfe3b37e6e5e2aeae1bbd14d74da 2353 xorgxrdp_0.2.12-1.dsc
+ 145e8c8c4cbeb8cc520bceeb5a38be25b2f99ac3c931c8babeb869161d0c0949 485262 xorgxrdp_0.2.12.orig.tar.gz
+ 98afdaf4edb34077e2fc256521c24b60314711fa8df9175841cbbf070a3cfa6f 7768 xorgxrdp_0.2.12-1.debian.tar.xz
+Homepage: http://xrdp.sourceforge.net
+Package-List: 
+ xorgxrdp deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: x11-utils, xserver-xorg-core
+Directory: pool/main/x/xorgxrdp
+Priority: extra
+Section: misc

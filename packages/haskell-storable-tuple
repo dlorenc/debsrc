@@ -1,0 +1,26 @@
+Package: haskell-storable-tuple
+Binary: libghc-storable-tuple-dev, libghc-storable-tuple-prof, libghc-storable-tuple-doc
+Version: 0.0.3.3-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-base-orphans-dev (>= 0.5), libghc-base-orphans-dev (<< 1), libghc-base-orphans-prof (>= 0.5), libghc-base-orphans-prof (<< 1), libghc-storable-record-dev (>= 0.0.1), libghc-storable-record-dev (<< 0.1), libghc-storable-record-prof (>= 0.0.1), libghc-storable-record-prof (<< 0.1), libghc-utility-ht-dev (>= 0.0.1), libghc-utility-ht-dev (<< 0.1), libghc-utility-ht-prof (>= 0.0.1), libghc-utility-ht-prof (<< 0.1)
+Build-Depends-Indep: ghc-doc, libghc-base-orphans-doc, libghc-storable-record-doc, libghc-utility-ht-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aa79dd164b49e4044b03dc3e23c1584f 2749 haskell-storable-tuple_0.0.3.3-4.dsc
+ e990447369921f7e01ef07d1795a78b8 2383 haskell-storable-tuple_0.0.3.3.orig.tar.gz
+ fca01b4dab7629f9bfda75cc817a2b3f 2368 haskell-storable-tuple_0.0.3.3-4.debian.tar.xz
+Checksums-Sha256:
+ 10d7211e52616908a3b84bb52974f37970643dfc479f49c72cc76a77996ad47b 2749 haskell-storable-tuple_0.0.3.3-4.dsc
+ dcfac049527a45c386c80a7c40ec211455b83d74311af88fa686063b5f87df35 2383 haskell-storable-tuple_0.0.3.3.orig.tar.gz
+ fe1b01718085775955fad26e584bf4fdf2d4ef4b23a46b448a944e92c30b8ea8 2368 haskell-storable-tuple_0.0.3.3-4.debian.tar.xz
+Homepage: http://code.haskell.org/~thielema/storable-tuple/
+Package-List: 
+ libghc-storable-tuple-dev deb haskell optional arch=any
+ libghc-storable-tuple-doc deb doc optional arch=all
+ libghc-storable-tuple-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-storable-tuple
+Priority: extra
+Section: misc

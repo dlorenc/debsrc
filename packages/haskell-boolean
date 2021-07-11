@@ -1,0 +1,28 @@
+Package: haskell-boolean
+Binary: libghc-boolean-dev, libghc-boolean-prof, libghc-boolean-doc
+Version: 0.2.4-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Ilias Tsitsimpis <iliastsi@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1a4ba7438d0bea3ca14f066731f0ae97 2332 haskell-boolean_0.2.4-4.dsc
+ 320e134aad6597015e55c3725a286eb7 6634 haskell-boolean_0.2.4.orig.tar.gz
+ 48138749a5bc6c29e65c644ad9958ce9 2992 haskell-boolean_0.2.4-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-boolean
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-boolean]
+Checksums-Sha256:
+ c9113d2c326d30e62703c21ff1e417b974b36eff8593e2d2dbbe3f11a6b52dd1 2332 haskell-boolean_0.2.4-4.dsc
+ 67216013b02b8ac5b534a1ef25f409f930eea1a85eae801933a01ad43145eef8 6634 haskell-boolean_0.2.4.orig.tar.gz
+ 1b67d8dd2ceaf9ce924ad49b49cf6eda002fa27675352c2b6eccb7604062cb7a 2992 haskell-boolean_0.2.4-4.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/Boolean
+Package-List: 
+ libghc-boolean-dev deb haskell optional arch=any
+ libghc-boolean-doc deb doc optional arch=all
+ libghc-boolean-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-boolean
+Priority: source
+Section: haskell

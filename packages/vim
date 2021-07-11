@@ -1,0 +1,39 @@
+Package: vim
+Binary: vim-common, vim-gui-common, vim-runtime, vim-doc, vim-tiny, vim, vim-gtk, vim-gtk3, vim-nox, vim-athena, xxd
+Version: 2:8.2.2434-3
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Uploaders: James McCoy <jamessan@debian.org>,
+Build-Depends: autoconf, cscope <!nocheck>, debhelper-compat (= 12), libacl1-dev, libcanberra-dev, libgpmg1-dev [linux-any], libgtk-3-dev, liblua5.2-dev, libperl-dev, libselinux1-dev [linux-any], libncurses-dev, libtool-bin <!nocheck>, libxaw7-dev, libxpm-dev, libxt-dev, lua5.2, procps <!nocheck>, python3-dev, ruby [!alpha !ia64] <!pkg.vim.noruby>, ruby-dev [!alpha !ia64] <!pkg.vim.noruby>, tcl-dev
+Build-Depends-Indep: docbook-utils, docbook-xml, ghostscript, pdf2svg
+Build-Conflicts: autoconf2.13
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 02337d5fde047609ad39a98658df9c3c 3023 vim_8.2.2434-3.dsc
+ 502e2de3d0b5049a1c2a5a519dd2c842 15412030 vim_8.2.2434.orig.tar.gz
+ 29dbd0a369a1f0996793c40d77e6dae0 197368 vim_8.2.2434-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/vim-team/vim
+Vcs-Git: https://salsa.debian.org/vim-team/vim.git
+Checksums-Sha256:
+ f9d2b42a24dda4da947a3d0db9400baf45a1004a8766e7f2f8285334c42e59ce 3023 vim_8.2.2434-3.dsc
+ dec2f91bb4f877b2bfdf283ccc3d94f99f436a225bd8a9b5e3d422f95c56d702 15412030 vim_8.2.2434.orig.tar.gz
+ 7ef821f110cbb94d9b28a6899a9a34b83a8b5217d5357e76e4af577d5ffcdad6 197368 vim_8.2.2434-3.debian.tar.xz
+Homepage: https://www.vim.org/
+Package-List: 
+ vim deb editors optional arch=any
+ vim-athena deb editors optional arch=any
+ vim-common deb editors important arch=all
+ vim-doc deb doc optional arch=all
+ vim-gtk deb oldlibs optional arch=all
+ vim-gtk3 deb editors optional arch=any
+ vim-gui-common deb editors optional arch=all
+ vim-nox deb editors optional arch=any
+ vim-runtime deb editors optional arch=all
+ vim-tiny deb editors important arch=any
+ xxd deb editors optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: cscope, procps
+Directory: pool/main/v/vim
+Priority: source
+Section: editors

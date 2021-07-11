@@ -1,0 +1,25 @@
+Package: libapache2-mod-auth-gssapi
+Binary: libapache2-mod-auth-gssapi
+Version: 1.6.3-1
+Maintainer: Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>
+Uploaders: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: apache2-bin, apache2-dev (>= 2.4), bison, debhelper-compat (= 12), dh-apache2, flex, gss-ntlmssp-dev, libapr1-dev, libkrb5-dev, libssl-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c1cee0eef3bb14da0a7c878b6b35f4f5 2226 libapache2-mod-auth-gssapi_1.6.3-1.dsc
+ 685cde219039e2873ec82373de5be066 121840 libapache2-mod-auth-gssapi_1.6.3.orig.tar.gz
+ 1d604e1b1fe5d68706ccbf318f45702c 2460 libapache2-mod-auth-gssapi_1.6.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freeipa-team/mod-auth-gssapi
+Vcs-Git: https://salsa.debian.org/freeipa-team/mod-auth-gssapi.git
+Checksums-Sha256:
+ d72b4ef6b89b2aafd0be36bae2023546a5a74a99c3f840532cb55889c28bddeb 2226 libapache2-mod-auth-gssapi_1.6.3-1.dsc
+ 6172cf77a8531c7cdef93a2c66a95f70c06115a2a0d55c359e9bfc783c87af60 121840 libapache2-mod-auth-gssapi_1.6.3.orig.tar.gz
+ 987f587c58a6bf03ffe83ac28801811ed497ef729f3d7d6426b73007dba73a7f 2460 libapache2-mod-auth-gssapi_1.6.3-1.debian.tar.xz
+Homepage: https://github.com/modauthgssapi/mod_auth_gssapi
+Package-List: 
+ libapache2-mod-auth-gssapi deb web optional arch=any
+Directory: pool/main/liba/libapache2-mod-auth-gssapi
+Priority: optional
+Section: misc

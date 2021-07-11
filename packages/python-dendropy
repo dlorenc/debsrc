@@ -1,0 +1,27 @@
+Package: python-dendropy
+Binary: python3-dendropy, sumtrees
+Version: 4.5.1-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 03ac0db2b74e43049f9a636e8a65ad7d 2148 python-dendropy_4.5.1-1.dsc
+ 4c888e3ae662119dceb221afc23d4a03 7713452 python-dendropy_4.5.1.orig.tar.xz
+ 56de6995c9113420a53a354782636730 9016 python-dendropy_4.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-dendropy
+Vcs-Git: https://salsa.debian.org/med-team/python-dendropy.git
+Checksums-Sha256:
+ 736d483aa58138abbc3400e6be8992914182130adbb44906b2e45dd820155fe5 2148 python-dendropy_4.5.1-1.dsc
+ 0f3da3d8e299129c2e1658d3f7037ac4bf2479c3e1e729d14f08366f430a711d 7713452 python-dendropy_4.5.1.orig.tar.xz
+ 570b1c2e0d8c6725823455e3cbcd099996ec34935fba005c98c2f2024a4339d9 9016 python-dendropy_4.5.1-1.debian.tar.xz
+Homepage: https://dendropy.org/
+Package-List: 
+ python3-dendropy deb python optional arch=all
+ sumtrees deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/p/python-dendropy
+Priority: optional
+Section: misc

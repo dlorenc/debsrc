@@ -1,0 +1,29 @@
+Package: python-pbr
+Binary: python-pbr-doc, python3-pbr
+Version: 5.5.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Prach Pongpanich <prachpub@gmail.com>,
+Build-Depends: debhelper-compat (= 10), dh-python, git, gnupg, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx <!nodoc>
+Build-Depends-Indep: python3-all-dev <!nocheck>, python3-coverage <!nocheck>, python3-fixtures <!nocheck>, python3-markupsafe <!nocheck>, python3-mock <!nocheck>, python3-openstackdocstheme <!nocheck>, python3-pip <!nocheck>, python3-six <!nocheck>, python3-sphinxcontrib.apidoc <!nodoc>, python3-stestr <!nocheck>, python3-testresources <!nocheck>, python3-testscenarios <!nocheck>, python3-testtools <!nocheck>, python3-virtualenv (>= 20.0) <!nocheck>, python3-wheel <!nocheck>, subunit <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7b1c11622134270f4ab8b93d7af72b5f 2720 python-pbr_5.5.0-2.dsc
+ dd896552663a28206c79f2ba7fcbdb80 82092 python-pbr_5.5.0.orig.tar.xz
+ d3cde4048640706af8fa800e531fd6e8 8140 python-pbr_5.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/libs/python-pbr
+Vcs-Git: https://salsa.debian.org/openstack-team/libs/python-pbr.git
+Checksums-Sha256:
+ a71833521c4a5b67175b71727e615308dce2dcdd0c2bdebc8bc2b4815d2c17ab 2720 python-pbr_5.5.0-2.dsc
+ 635991f6cef00bf4317c49fb3b14f76e597493629fe2f953bbdfb1aafbebbfa4 82092 python-pbr_5.5.0.orig.tar.xz
+ 3ba12669d3d60b625227fae380f03b8fc523e39a21a848de5e41ea5791a74dd6 8140 python-pbr_5.5.0-2.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/pbr
+Package-List: 
+ python-pbr-doc deb doc optional arch=all
+ python3-pbr deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, python3-pip, python3-virtualenv
+Directory: pool/main/p/python-pbr
+Priority: optional
+Section: misc

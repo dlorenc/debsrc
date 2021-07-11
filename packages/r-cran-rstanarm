@@ -1,0 +1,27 @@
+Package: r-cran-rstanarm
+Binary: r-cran-rstanarm
+Version: 2.21.1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp (>= 0.12.0), r-cran-bayesplot (>= 1.7.0), r-cran-ggplot2 (>= 2.2.1), r-cran-lme4, r-cran-loo (>= 2.1.0), r-cran-matrix (>= 1.2-13), r-cran-nlme, r-cran-rstan (>= 2.21.2-3), r-cran-rstantools (>= 2.1.0), r-cran-shinystan, r-cran-survival (>= 2.40.1), r-cran-rcppparallel (>= 5.0.2+dfsg-3), r-cran-stanheaders (>= 2.21.0), r-cran-bh, r-cran-rcppeigen (>= 0.3.3.3.0)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9ec4164ab571f3c497fd587921eb7aa8 2577 r-cran-rstanarm_2.21.1-1.dsc
+ f0d3dc2d66e80dbdc235d72d36a1c1b2 3548723 r-cran-rstanarm_2.21.1.orig.tar.gz
+ 88586c6147ff32b6b1b0ff2c69348bbf 4236 r-cran-rstanarm_2.21.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-rstanarm
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-rstanarm.git
+Checksums-Sha256:
+ c3fe549e04d20e41f5abb9773f24f77718b28415102b953e30661052adf835f6 2577 r-cran-rstanarm_2.21.1-1.dsc
+ 68ca733f246f800cd7f442f8abfd631891556eafd9f736d4ef4a1e37a6faef11 3548723 r-cran-rstanarm_2.21.1.orig.tar.gz
+ 0e54df83e7bdbfbf9c7c161bddb826385f9361c7f1ae16f3459e6a36ecdefddf 4236 r-cran-rstanarm_2.21.1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=rstanarm
+Package-List: 
+ r-cran-rstanarm deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-base-dev, r-cran-bh, r-cran-codetools, r-cran-hsaur3, r-cran-stanheaders, r-cran-testthat
+Directory: pool/main/r/r-cran-rstanarm
+Priority: extra
+Section: misc

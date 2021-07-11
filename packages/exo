@@ -1,0 +1,28 @@
+Package: exo
+Binary: libexo-2-dev, libexo-2-0, exo-utils, libexo-common
+Version: 4.16.0-1
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Build-Depends: debhelper-compat (= 12), gtk-doc-tools, intltool, libglib2.0-dev, libgtk-3-dev (>= 3.22.0), libtool, libxfce4ui-2-dev (>= 4.15.1), libxfce4util-dev, xfce4-dev-tools
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ac136cb07c12235298fff9eb7469c683 1852 exo_4.16.0-1.dsc
+ 0e2cb9c8bbe1993249358e2b0b9d9c54 966143 exo_4.16.0.orig.tar.bz2
+ c63a94e0a757d3ccab22f78b41831787 13068 exo_4.16.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xfce-team/desktop/exo
+Vcs-Git: https://salsa.debian.org/xfce-team/desktop/exo.git
+Checksums-Sha256:
+ 4612067985bd287d4f346a9010c35f21d61059078fa3c5d13b8e0c4cb10ed2d2 1852 exo_4.16.0-1.dsc
+ 1975b00eed9a8aa1f899eab2efaea593731c19138b83fdff2f13bdca5275bacc 966143 exo_4.16.0.orig.tar.bz2
+ 439f99937b7564cff101664005653c35d46207c3725f9fd7a0abf32f5da04d38 13068 exo_4.16.0-1.debian.tar.xz
+Homepage: https://docs.xfce.org/xfce/exo/start
+Package-List: 
+ exo-utils deb xfce optional arch=any
+ libexo-2-0 deb libs optional arch=any
+ libexo-2-dev deb libdevel optional arch=any
+ libexo-common deb libs optional arch=all
+Directory: pool/main/e/exo
+Priority: source
+Section: libs

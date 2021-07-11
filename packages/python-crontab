@@ -1,0 +1,27 @@
+Package: python-crontab
+Binary: python3-crontab
+Version: 2.5.1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all (>= 3.3), python3-croniter, python3-dateutil, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7b0077e332b10c076090beb2999e4b75 1824 python-crontab_2.5.1-1.dsc
+ 7731a2253e853abfb6eceb8045368f22 52573 python-crontab_2.5.1.orig.tar.gz
+ 6f7a581c5e25d71ea1b3355d4da04467 3988 python-crontab_2.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-crontab
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-crontab.git
+Checksums-Sha256:
+ 25fa09891cb94ab2af44af438ea5884f05b32c1dcb4b736294f446002b9568bb 1824 python-crontab_2.5.1-1.dsc
+ 4bbe7e720753a132ca4ca9d4094915f40e9d9dc8a807a4564007651018ce8c31 52573 python-crontab_2.5.1.orig.tar.gz
+ abdcd5b81bcef040ef6a2af0abc9b461414315ceaf26be7c587ae0bf29bb2cb2 3988 python-crontab_2.5.1-1.debian.tar.xz
+Homepage: https://gitlab.com/doctormo/python-crontab
+Package-List: 
+ python3-crontab deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-crontab
+Priority: optional
+Section: misc

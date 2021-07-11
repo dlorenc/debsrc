@@ -1,0 +1,28 @@
+Package: haskell-attoparsec
+Binary: libghc-attoparsec-dev, libghc-attoparsec-prof, libghc-attoparsec-doc
+Version: 0.13.2.4-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>, Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-scientific-dev (>= 0.3.1), libghc-scientific-dev (<< 0.4), libghc-scientific-prof, libghc-quickcheck2-dev (>= 2.13.2), libghc-quickcheck2-dev (<< 2.14), libghc-quickcheck2-prof, libghc-quickcheck-unicode-dev, libghc-tasty-dev (>= 0.11), libghc-tasty-quickcheck-dev (>= 0.8), libghc-vector-dev
+Build-Depends-Indep: ghc-doc, libghc-scientific-doc, libghc-semigroups-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e6bcaa73a5d09fa4a90bb21ad3abf97f 2744 haskell-attoparsec_0.13.2.4-2.dsc
+ bbef0323147aaa59caccd5cb1289e719 163431 haskell-attoparsec_0.13.2.4.orig.tar.gz
+ 92b07f6cf89f7ad598c879749053227b 3960 haskell-attoparsec_0.13.2.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-attoparsec
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-attoparsec]
+Checksums-Sha256:
+ be7d34f51d4427f837f42bd1cab2ea1a1490a649461ba68779fa3ea91329e69c 2744 haskell-attoparsec_0.13.2.4-2.dsc
+ ba66cd6de1749ec92568db1b9c905b43a849f0ad918d45d7b594407a02ebefb2 163431 haskell-attoparsec_0.13.2.4.orig.tar.gz
+ dcf610efba5154dd7cc8ebdcf5e4385fdc40756d2a2d72a255b7ca3e3f6f5dcb 3960 haskell-attoparsec_0.13.2.4-2.debian.tar.xz
+Homepage: https://github.com/bos/attoparsec
+Package-List: 
+ libghc-attoparsec-dev deb haskell optional arch=any
+ libghc-attoparsec-doc deb doc optional arch=all
+ libghc-attoparsec-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-attoparsec
+Priority: source
+Section: haskell

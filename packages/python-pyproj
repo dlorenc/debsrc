@@ -1,0 +1,25 @@
+Package: python-pyproj
+Binary: python3-pyproj
+Version: 3.0.0-2
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>, Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), dh-python, cython3, libproj-dev (>= 7.1.0), proj-bin (>= 7.1.0), python3-all-dev, python3-certifi, python3-setuptools, python3-mock, python3-numpy, python3-pandas, python3-pytest, python3-pytest-cov, python3-shapely, python3-xarray
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fe48a7c2feebe9a1e7ed0ecddd96c267 2234 python-pyproj_3.0.0-2.dsc
+ cbd03b6f2187a0d4bc57fbaab1a07b1f 183087 python-pyproj_3.0.0.orig.tar.gz
+ 478145c031d83f119de50c934fafcab1 6992 python-pyproj_3.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/python-pyproj
+Vcs-Git: https://salsa.debian.org/debian-gis-team/python-pyproj.git
+Checksums-Sha256:
+ f9f4ee29692b94b4a4e93f9f12dd3bf92097e287c745668c3e39b58afa272547 2234 python-pyproj_3.0.0-2.dsc
+ 0c0d5eb70decd14df7137ac8c0aec546bd4e5286486dcbc3c4ae223c293e215e 183087 python-pyproj_3.0.0.orig.tar.gz
+ ad71dd425ff758c6f0dbd9c2ce1b8f4e48f7818be5e21b651b73af2c14c99d6d 6992 python-pyproj_3.0.0-2.debian.tar.xz
+Homepage: https://github.com/pyproj4/pyproj
+Package-List: 
+ python3-pyproj deb python optional arch=any
+Directory: pool/main/p/python-pyproj
+Priority: source
+Section: python

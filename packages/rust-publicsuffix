@@ -1,0 +1,26 @@
+Package: rust-publicsuffix
+Binary: librust-publicsuffix-dev, librust-publicsuffix+native-tls-dev, librust-publicsuffix+remote-list-dev
+Version: 1.5.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-error-chain-0.12+default-dev <!nocheck>, librust-idna-0.2+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-native-tls-0.2+default-dev <!nocheck>, librust-regex-1+default-dev <!nocheck>, librust-url-2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ a5c41946811a5d9082abb139dc00132f 2211 rust-publicsuffix_1.5.2-1.dsc
+ 1bb61ce18a58596fae07f8f22b09ffdd 16514 rust-publicsuffix_1.5.2.orig.tar.gz
+ 29889bbd3019051dff21c104ba4af9c4 3992 rust-publicsuffix_1.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/publicsuffix
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/publicsuffix]
+Checksums-Sha256:
+ 660fecbee7486e401c26223c882f1cf3744fb7dc707c86c9c2527f6ba55c805b 2211 rust-publicsuffix_1.5.2-1.dsc
+ 5afecba86dcf1e4fd610246f89899d1924fe12e1e89f555eb7c7f710f3c5ad1d 16514 rust-publicsuffix_1.5.2.orig.tar.gz
+ 9b334be660771141915f34092d52eb688157107846cb981202e456f276daedb9 3992 rust-publicsuffix_1.5.2-1.debian.tar.xz
+Package-List: 
+ librust-publicsuffix+native-tls-dev deb rust optional arch=any
+ librust-publicsuffix+remote-list-dev deb rust optional arch=any
+ librust-publicsuffix-dev deb rust optional arch=any
+Directory: pool/main/r/rust-publicsuffix
+Priority: extra
+Section: misc

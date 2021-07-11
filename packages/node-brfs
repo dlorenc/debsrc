@@ -1,0 +1,27 @@
+Package: node-brfs
+Binary: node-brfs
+Version: 2.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), node-quote-stream <!nocheck>, node-resolve (>= 1.1.5) <!nocheck>, node-static-module <!nocheck>, node-tap (>= 8) <!nocheck>, node-through2 (>= 2.0.0) <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5b88acabd90347d509fc9dd8d93577cb 2187 node-brfs_2.0.2-1.dsc
+ 2efe08eeead3ce4bbd37ae79591a0087 8484 node-brfs_2.0.2.orig.tar.gz
+ 43e67b07fcf3efd3e9b7e57bda5db37c 3400 node-brfs_2.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-brfs
+Vcs-Git: https://salsa.debian.org/js-team/node-brfs.git
+Checksums-Sha256:
+ f17e43049530d2835daad16792b9c387ed9fcc08aef1a3eaca283bb6735da171 2187 node-brfs_2.0.2-1.dsc
+ 90f8c19d4853e9005dd1ec0a61798e89b0fdef0eacaca45f7a71e883376a2037 8484 node-brfs_2.0.2.orig.tar.gz
+ a414bf5763e1606e6641ddf5acbde844db292b8d760927908ff7bc2321c433df 3400 node-brfs_2.0.2-1.debian.tar.xz
+Homepage: https://github.com/substack/brfs
+Package-List: 
+ node-brfs deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: nodejs
+Directory: pool/main/n/node-brfs
+Priority: optional
+Section: javascript

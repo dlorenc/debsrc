@@ -1,0 +1,27 @@
+Package: golang-github-bruth-assert
+Binary: golang-github-bruth-assert-dev
+Version: 0.0+git20130823.de420fa-3
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-kr-pretty-dev
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ e6f3e5f0f93283d2d877b522395b1f13 2526 golang-github-bruth-assert_0.0+git20130823.de420fa-3.dsc
+ 9df6a117ab8dc29e25cbba29e25b3218 2184 golang-github-bruth-assert_0.0+git20130823.de420fa.orig.tar.xz
+ fff4eb4dd41d6dc252dc91622d5e519e 2616 golang-github-bruth-assert_0.0+git20130823.de420fa-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-bruth-assert
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-bruth-assert.git
+Checksums-Sha256:
+ 2afaacb799bb4ee7585d6f83ebe8296ffffb11bb3d395a605eef3556aa9ab889 2526 golang-github-bruth-assert_0.0+git20130823.de420fa-3.dsc
+ b4ed30e7ef281e706ca19467773761c703ca828317e27434e4dc830739cec874 2184 golang-github-bruth-assert_0.0+git20130823.de420fa.orig.tar.xz
+ 89e0225849af17f8f517775a3a8af10707f611ef83347646008e19bef83d4686 2616 golang-github-bruth-assert_0.0+git20130823.de420fa-3.debian.tar.xz
+Homepage: https://github.com/bruth/assert
+Go-Import-Path: github.com/bruth/assert
+Package-List: 
+ golang-github-bruth-assert-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-bruth-assert
+Priority: extra
+Section: golang

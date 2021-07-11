@@ -1,0 +1,27 @@
+Package: libcgi-fast-perl
+Binary: libcgi-fast-perl
+Version: 1:2.15-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libcgi-pm-perl <!nocheck>, libfcgi-perl <!nocheck>, libtest-deep-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c4fc2589c196c1aa7e5aaed3b98c1708 2289 libcgi-fast-perl_2.15-1.dsc
+ f9dac0982ccce4a9b89433b378b1573d 9277 libcgi-fast-perl_2.15.orig.tar.gz
+ 59873570eb494c1c99271766bc08319e 2844 libcgi-fast-perl_2.15-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcgi-fast-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcgi-fast-perl.git
+Checksums-Sha256:
+ cee59b805e859b7ca92a6ae94ae6902724a7efa8989deb22ce16710b5729166b 2289 libcgi-fast-perl_2.15-1.dsc
+ e5342df3dc593edfb724c7afe850b1a0ee753f4d733f5193e037b04633dfeece 9277 libcgi-fast-perl_2.15.orig.tar.gz
+ 7af6ee3486d5f6bec4afed86cf70920bdd06c74111befa04e295a9ce34d65f20 2844 libcgi-fast-perl_2.15-1.debian.tar.xz
+Homepage: https://metacpan.org/release/CGI-Fast
+Package-List: 
+ libcgi-fast-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcgi-fast-perl
+Priority: optional
+Section: misc

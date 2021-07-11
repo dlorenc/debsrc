@@ -1,0 +1,26 @@
+Package: haskell-genvalidity-property
+Binary: libghc-genvalidity-property-dev, libghc-genvalidity-property-prof, libghc-genvalidity-property-doc
+Version: 0.5.0.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-genvalidity-dev (>= 0.7), libghc-genvalidity-prof, libghc-hspec-dev (>= 2.1), libghc-hspec-prof, libghc-pretty-show-dev, libghc-pretty-show-prof, libghc-validity-dev (>= 0.9), libghc-validity-prof, libghc-doctest-dev, libghc-doctest-prof
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc, libghc-genvalidity-doc, libghc-hspec-doc, libghc-pretty-show-doc, libghc-validity-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ e567bde669902b66b26b83bfe98b1b4b 2702 haskell-genvalidity-property_0.5.0.1-1.dsc
+ 7ed1c41f08efc004452224901216a626 10723 haskell-genvalidity-property_0.5.0.1.orig.tar.gz
+ bc8a94acdf8a5d6004b94068a00d4f23 2104 haskell-genvalidity-property_0.5.0.1-1.debian.tar.xz
+Checksums-Sha256:
+ 0fe27c605a75ac22b1cbcc8e9a0ed56034b89a9cb93634199a8e363e0087b8bc 2702 haskell-genvalidity-property_0.5.0.1-1.dsc
+ ffa8322bcb9608a1a1cb5cc04099a19f3ecfb507923dc799bf3b9c433e617f33 10723 haskell-genvalidity-property_0.5.0.1.orig.tar.gz
+ 361d1efef81d14bfa8d99d9ccd86d6a259206d0d82f3e0a01cea064f4e862bde 2104 haskell-genvalidity-property_0.5.0.1-1.debian.tar.xz
+Homepage: https://github.com/NorfairKing/validity#readme
+Package-List: 
+ libghc-genvalidity-property-dev deb haskell optional arch=any
+ libghc-genvalidity-property-doc deb doc optional arch=all
+ libghc-genvalidity-property-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-genvalidity-property
+Priority: extra
+Section: misc

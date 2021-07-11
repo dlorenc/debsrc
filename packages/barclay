@@ -1,0 +1,25 @@
+Package: barclay
+Binary: libbarclay-java
+Version: 2.1.0-3.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Olivier Sallou <osallou@debian.org>
+Build-Depends: default-jdk (>= 2:1.9~), debhelper (>= 11~), javahelper, gradle-debian-helper, maven-repo-helper, libfreemarker-java, libjoptsimple-java, liblog4j2-java, libgoogle-gson-java, libmockito-java, testng, libjacoco-java, default-jdk-doc
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 9e45d759735cc28a1c5b8ecc1eb6fc85 2139 barclay_2.1.0-3.1.dsc
+ 2b5376f4011e0a3fe090e18dfdba32aa 140976 barclay_2.1.0.orig.tar.xz
+ 1e30a21099877067ef0dce9ea4712227 6744 barclay_2.1.0-3.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/barclay
+Vcs-Git: https://salsa.debian.org/java-team/barclay.git
+Checksums-Sha256:
+ 6b19b98777929f1e871f699a9ca3ada8f89e5108d8e248139165b812276ff061 2139 barclay_2.1.0-3.1.dsc
+ b592287da8352885f699cf5dfe30f0c4ef876e18eb8f547a101c07dae6941145 140976 barclay_2.1.0.orig.tar.xz
+ 1a75d1417119f6705ab73ab329bc65143ca1bda3a5e5a5c39cc8c84b79af8757 6744 barclay_2.1.0-3.1.debian.tar.xz
+Homepage: https://github.com/broadinstitute/barclay
+Package-List: 
+ libbarclay-java deb java optional arch=all
+Directory: pool/main/b/barclay
+Priority: extra
+Section: misc

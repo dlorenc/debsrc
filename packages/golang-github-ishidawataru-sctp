@@ -1,0 +1,27 @@
+Package: golang-github-ishidawataru-sctp
+Binary: golang-github-ishidawataru-sctp-dev
+Version: 0.0+git20190723.7c296d4-3
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Arnaud Rebillout <arnaud.rebillout@collabora.com>, Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper (>= 12~), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 5d166c965733d47baba73406c1276c90 2455 golang-github-ishidawataru-sctp_0.0+git20190723.7c296d4-3.dsc
+ bcc0d7fac76f6407c818f24125002129 15020 golang-github-ishidawataru-sctp_0.0+git20190723.7c296d4.orig.tar.xz
+ c3a8af93eecb1fbf03144795deea2cc1 3556 golang-github-ishidawataru-sctp_0.0+git20190723.7c296d4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-ishidawataru-sctp
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-ishidawataru-sctp.git
+Checksums-Sha256:
+ c53a77da73da248c6026ddc6bb4339149cbb85fd663e274eba3b1e8fd1663d8a 2455 golang-github-ishidawataru-sctp_0.0+git20190723.7c296d4-3.dsc
+ 8bd9129418493e630efdab26d788357504f42e78907efc990feb3a457ba6d62d 15020 golang-github-ishidawataru-sctp_0.0+git20190723.7c296d4.orig.tar.xz
+ 6d4dbcda27002c8617c3a04656e876724396c00cbf22e9de0232694fd513c559 3556 golang-github-ishidawataru-sctp_0.0+git20190723.7c296d4-3.debian.tar.xz
+Homepage: https://github.com/ishidawataru/sctp
+Go-Import-Path: github.com/ishidawataru/sctp
+Package-List: 
+ golang-github-ishidawataru-sctp-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-ishidawataru-sctp
+Priority: extra
+Section: golang

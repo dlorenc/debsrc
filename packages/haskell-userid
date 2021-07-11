@@ -1,0 +1,28 @@
+Package: haskell-userid
+Binary: libghc-userid-dev, libghc-userid-prof, libghc-userid-doc
+Version: 0.1.3.5-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 0.9), libghc-aeson-dev (<< 1.5), libghc-aeson-prof, libghc-boomerang-dev (<< 1.5), libghc-boomerang-dev (>= 1.4), libghc-boomerang-prof, libghc-cereal-dev (>= 0.5), libghc-cereal-dev (<< 0.6), libghc-cereal-prof, libghc-safecopy-dev (>= 0.8), libghc-safecopy-dev (<< 0.11), libghc-safecopy-prof, libghc-web-routes-dev (>= 0.27), libghc-web-routes-dev (<< 0.28), libghc-web-routes-prof (<< 0.28), libghc-web-routes-prof (>= 0.27), libghc-web-routes-th-dev (<< 0.23), libghc-web-routes-th-dev (>= 0.22), libghc-web-routes-th-prof (<< 0.23), libghc-web-routes-th-prof (>= 0.22)
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-boomerang-doc, libghc-cereal-doc, libghc-safecopy-doc, libghc-web-routes-doc, libghc-web-routes-th-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6dc6e3dcecc6e7f77e33435d80bb833b 3016 haskell-userid_0.1.3.5-1.dsc
+ 32403e1af84164266f78609e84ee883a 2082 haskell-userid_0.1.3.5.orig.tar.gz
+ f38b6cb8fdac82ab1f99a146894a5750 2756 haskell-userid_0.1.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-userid
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-userid]
+Checksums-Sha256:
+ 787b1b61cf41668f6260cbd5227a2115884ad5ec904085de0e4cebef6307d899 3016 haskell-userid_0.1.3.5-1.dsc
+ 9c1133cb883b99bc92348b38db08069fe3c1231947b4b20684251ea80f506352 2082 haskell-userid_0.1.3.5.orig.tar.gz
+ 8d31fb0c9367397d73adcbcbe6f02c435529b99f60236c4f65a58a257c8a5a2a 2756 haskell-userid_0.1.3.5-1.debian.tar.xz
+Homepage: https://www.github.com/Happstack/userid
+Package-List: 
+ libghc-userid-dev deb haskell optional arch=any
+ libghc-userid-doc deb doc optional arch=all
+ libghc-userid-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-userid
+Priority: optional
+Section: misc

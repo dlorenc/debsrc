@@ -1,0 +1,26 @@
+Package: python-executing
+Binary: python3-executing
+Version: 0.5.3-1
+Maintainer: Iñaki Malerba <inaki@malerba.space>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-toml, python3-wheel
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b4a64da286ddb9beb9d2051b41652fdb 2118 python-executing_0.5.3-1.dsc
+ 4a8f67219c62a5ca70cfdd8f94fb502e 303234 python-executing_0.5.3.orig.tar.gz
+ c3919c43da0f212aa1bd64bf309a8992 2720 python-executing_0.5.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-executing
+Vcs-Git: https://salsa.debian.org/debian/python-executing.git
+Checksums-Sha256:
+ 9f0f85e2c7ad95d5230ec9ef750b1f60c8312b827fa18b6bb9620fa68cc846b7 2118 python-executing_0.5.3-1.dsc
+ 5ee1a7342f09720494e425fbafb1b2755db360aa0d0bd25917fdaa4ac9ceadba 303234 python-executing_0.5.3.orig.tar.gz
+ 6cafe63e50ba6f84d5198ff3d69efe35bc655e45155a23f7b0dca4b9001e04c1 2720 python-executing_0.5.3-1.debian.tar.xz
+Homepage: https://github.com/alexmojaki/executing
+Package-List: 
+ python3-executing deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-executing
+Priority: extra
+Section: misc

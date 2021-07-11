@@ -1,0 +1,25 @@
+Package: haskell-ghc-exactprint
+Binary: libghc-ghc-exactprint-dev, libghc-ghc-exactprint-prof, libghc-ghc-exactprint-doc
+Version: 0.6.2-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-free-dev (>= 4.12), libghc-free-prof (>= 4.12), libghc-ghc-paths-dev (>= 0.1), libghc-ghc-paths-prof (>= 0.1), libghc-syb-dev (>= 0.5), libghc-syb-prof (>= 0.5), libghc-diff-dev, libghc-diff-prof, libghc-hunit-dev (>= 1.2), libghc-hunit-prof (>= 1.2), libghc-filemanip-dev (>= 0.3), libghc-filemanip-prof (>= 0.3), libghc-silently-dev (>= 1.2), libghc-silently-prof (>= 1.2)
+Build-Depends-Indep: ghc-doc, libghc-free-doc, libghc-ghc-paths-doc, libghc-syb-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 18e77ab9b6806c80db0bc45edd1fb13c 2622 haskell-ghc-exactprint_0.6.2-2.dsc
+ 1446ef0d8762583a96815faadaf3e5f9 499153 haskell-ghc-exactprint_0.6.2.orig.tar.gz
+ 10af7f8b1717f3aa6295fc05c8080365 2852 haskell-ghc-exactprint_0.6.2-2.debian.tar.xz
+Checksums-Sha256:
+ a8a7d78c89188da03626a371453c4fc4f00861035ab98bd62129819e3a7448a7 2622 haskell-ghc-exactprint_0.6.2-2.dsc
+ 32f13e5788576d971ad0a14cdea7e8d0c3f4980dfcb060cebdea8d29f77166b0 499153 haskell-ghc-exactprint_0.6.2.orig.tar.gz
+ 670e9d8098340f5a0b3b8d6a13e6daf071f61debee635e1919de4516c5a6254f 2852 haskell-ghc-exactprint_0.6.2-2.debian.tar.xz
+Package-List: 
+ libghc-ghc-exactprint-dev deb haskell optional arch=any
+ libghc-ghc-exactprint-doc deb doc optional arch=all
+ libghc-ghc-exactprint-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ghc-exactprint
+Priority: extra
+Section: misc

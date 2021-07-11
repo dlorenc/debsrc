@@ -1,0 +1,26 @@
+Package: ts-node
+Binary: ts-node
+Version: 9.1.1-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: chai, debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-arg <!nocheck>, node-axios <!nocheck>, node-create-require <!nocheck>, node-es-abstract <!nocheck>, node-json-stable-stringify, node-make-error <!nocheck>, node-proxyquire <!nocheck>, node-react <!nocheck>, node-rimraf <!nocheck>, node-semver, node-source-map-support <!nocheck>, node-typescript, node-typescript-types, node-yn <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6e25433334a469e4f405a96f935e89f1 2334 ts-node_9.1.1-4.dsc
+ dd7cc06056fe0714b6354ee248d1374d 198768 ts-node_9.1.1.orig.tar.gz
+ a778e8d622e16300d8d8f51e79757a83 50712 ts-node_9.1.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/ts-node
+Vcs-Git: https://salsa.debian.org/js-team/ts-node.git
+Checksums-Sha256:
+ 481582db3c3a7ae9d05844ccac6d36ca2f122b8dcb9013bae9722bb4e7614309 2334 ts-node_9.1.1-4.dsc
+ 93ac9c688a66c14f3dc696861e33eddf33d7b824a34d8af16540b219ebcc8850 198768 ts-node_9.1.1.orig.tar.gz
+ 678397a1bbb567115e092767d5acd1aa122b390ec83b02973658e4f4736f0356 50712 ts-node_9.1.1-4.debian.tar.xz
+Homepage: https://github.com/TypeStrong/ts-node
+Package-List: 
+ ts-node deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/t/ts-node
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: rust-rustdoc-stripper
+Binary: librust-rustdoc-stripper-dev, rustdoc-stripper
+Version: 0.1.12-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native, rustc:native, libstd-rust-dev, help2man, librust-tempfile-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f6d8c2901a3339d137709da8e942f87b 2409 rust-rustdoc-stripper_0.1.12-1.dsc
+ ff250d16adb9dbf2b6007617ef38917f 24725 rust-rustdoc-stripper_0.1.12.orig.tar.gz
+ edddb8a76b15651eb7752d8e829b25ba 2684 rust-rustdoc-stripper_0.1.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustdoc-stripper
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustdoc-stripper]
+Checksums-Sha256:
+ 79f9298f610b33cff66a56dc30c90db3299a1083b8e7c858836038114e912678 2409 rust-rustdoc-stripper_0.1.12-1.dsc
+ 0811c9f9aab37ff260cf12291b0aad21b7b57cb2615cab2ea849aeac7da91793 24725 rust-rustdoc-stripper_0.1.12.orig.tar.gz
+ 26389f3257ad830dc7a1285796cac36e122956b8e952d37760246a51f8c8bcf3 2684 rust-rustdoc-stripper_0.1.12-1.debian.tar.xz
+Homepage: https://github.com/GuillaumeGomez/rustdoc-stripper
+Package-List: 
+ librust-rustdoc-stripper-dev deb utils optional arch=any
+ rustdoc-stripper deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-rustdoc-stripper
+Priority: extra
+Section: misc

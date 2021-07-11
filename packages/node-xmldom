@@ -1,0 +1,26 @@
+Package: node-xmldom
+Binary: node-xmldom
+Version: 0.5.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, jest <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ de73cd2dc6a4657f209866f5ace9b533 2022 node-xmldom_0.5.0-1.dsc
+ 6d45c0f208f53239244912026ef59d55 268924 node-xmldom_0.5.0.orig.tar.gz
+ 8606d963875a5abf02e177b3d9f6bddc 3056 node-xmldom_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-xmldom
+Vcs-Git: https://salsa.debian.org/js-team/node-xmldom.git
+Checksums-Sha256:
+ 77e2e722792c21f20ca65591378194badf9d813575ed6d09da23e8cd59edde41 2022 node-xmldom_0.5.0-1.dsc
+ 66ad55ab8cd7b85cde37e89b1780bcbad2cface16ec29023e3360fdd1af6aaf5 268924 node-xmldom_0.5.0.orig.tar.gz
+ f4eb419a9618ce79642b90931ecf13062973822006eb5b3915d19edd05573143 3056 node-xmldom_0.5.0-1.debian.tar.xz
+Homepage: https://github.com/jindw/xmldom
+Package-List: 
+ node-xmldom deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-xmldom
+Priority: extra
+Section: misc

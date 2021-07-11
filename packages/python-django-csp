@@ -1,0 +1,27 @@
+Package: python-django-csp
+Binary: python-django-csp-doc, python3-django-csp
+Version: 3.7-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-django, python3-pytest, python3-pytest-django, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5fc5afb9a54f8d11548cffccf8ab1115 1884 python-django-csp_3.7-1.dsc
+ ae116249b5248abae0523bb03bbbef26 24959 python-django-csp_3.7.orig.tar.gz
+ b86ade32872e10c73c7c32468a7493f2 3336 python-django-csp_3.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-django-csp
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-django-csp.git
+Checksums-Sha256:
+ 8f6ac01b1c8a8039120175d91e1f95d9dfd20f493617b0970e4a5005b676b53a 1884 python-django-csp_3.7-1.dsc
+ 9884ad18e0ea4774b0a44d443d438f085ee30dda2d40d72e5965e4df5513b296 24959 python-django-csp_3.7.orig.tar.gz
+ fad696cafe07a45842c17c3581c1864cd109d24921b72433166a3d855811a974 3336 python-django-csp_3.7-1.debian.tar.xz
+Homepage: https://github.com/mozilla/django-csp/
+Package-List: 
+ python-django-csp-doc deb doc optional arch=all
+ python3-django-csp deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-django-csp
+Priority: extra
+Section: misc

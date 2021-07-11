@@ -1,0 +1,26 @@
+Package: auctex
+Binary: auctex, preview-latex-style
+Version: 12.2-1
+Maintainer: Davide G. M. Salvetti <salve@debian.org>
+Uploaders: OHURA Makoto <ohura@debian.org>
+Build-Depends-Indep: autoconf, debhelper (>= 9), emacs, eperl, ghostscript, po-debconf, tex-common (>= 4.01), texlive-latex-base, texlive-extra-utils, texinfo (>= 5)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 66caf76e1bba9af3f5175b0bb89dab51 2043 auctex_12.2-1.dsc
+ e2976b29331812af638c895d8df5dc23 1146225 auctex_12.2.orig.tar.gz
+ 9bf2f45bd7da55e1fa34e9524f5eab52 53260 auctex_12.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/salve/auctex
+Vcs-Git: https://salsa.debian.org//salve/auctex.git
+Checksums-Sha256:
+ 39c835406ee69f87bec5b91e25824ed5cb30b23b87da8ec9f5819627869bc9a1 2043 auctex_12.2-1.dsc
+ 4c0c4a3fb9b586d2310dccd3969c72310ac98575ffa6941faefb134650fab795 1146225 auctex_12.2.orig.tar.gz
+ cc4631b65421fe97656dbabc98977c6b13afaad5fd6c897f4c5fd4885d475706 53260 auctex_12.2-1.debian.tar.xz
+Homepage: https://www.gnu.org/software/auctex/
+Package-List: 
+ auctex deb tex optional arch=all
+ preview-latex-style deb tex optional arch=all
+Directory: pool/main/a/auctex
+Priority: source
+Section: tex

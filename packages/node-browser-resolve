@@ -1,0 +1,27 @@
+Package: node-browser-resolve
+Binary: node-browser-resolve
+Version: 1.11.3-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha (>= 4) <!nocheck>, node-resolve (>= 1.1.7) <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1de36195621a640b0a93241410b2c603 2233 node-browser-resolve_1.11.3-3.dsc
+ 86a7ba7bcccde31a80bb6d22a3f05ac9 11470 node-browser-resolve_1.11.3.orig.tar.gz
+ 8879e340d33343517d85d760ef04fd8b 5684 node-browser-resolve_1.11.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-browser-resolve
+Vcs-Git: https://salsa.debian.org/js-team/node-browser-resolve.git
+Checksums-Sha256:
+ fc1107d45f09470c2815c8f2cae77014e81b735d7df811522ee311c942547fd1 2233 node-browser-resolve_1.11.3-3.dsc
+ 28c6e3ffefc75bebd6609ff8b12ddcb449ed76e87b0893970d93a38b116bd4d4 11470 node-browser-resolve_1.11.3.orig.tar.gz
+ 07266e03c788c893ca61efba6a81063c4b124b6b2bf239ed4ff44b6afa4ad51f 5684 node-browser-resolve_1.11.3-3.debian.tar.xz
+Homepage: https://github.com/shtylman/node-browser-resolve#readme
+Package-List: 
+ node-browser-resolve deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: nodejs
+Directory: pool/main/n/node-browser-resolve
+Priority: optional
+Section: javascript

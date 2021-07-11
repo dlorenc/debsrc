@@ -1,0 +1,27 @@
+Package: node-astw
+Binary: node-astw
+Version: 2.2.0-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), mocha (>= 4), node-acorn (>= 5.1.1+ds1-3~), node-escodegen, node-tape, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6dd7869d5fa54bbf2ebadd56850df50e 2112 node-astw_2.2.0-4.dsc
+ 83cefbf2a159a06714960bb24b93643b 2915 node-astw_2.2.0.orig.tar.gz
+ b00f1ca8715ebf15a82b59d1e8fd04c0 2904 node-astw_2.2.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-astw
+Vcs-Git: https://salsa.debian.org/js-team/node-astw.git
+Checksums-Sha256:
+ c7d1025747fb899c09c47e4d95475efd3bda6edec13af68122b08e843afb5606 2112 node-astw_2.2.0-4.dsc
+ fdef60874fb72b938c051d2c3d5b4984118d96d32ad6e8bf7777256a9171049d 2915 node-astw_2.2.0.orig.tar.gz
+ b387397ad762d010893d7633e043d10e10543a73db4bb15dac49c90f5b555827 2904 node-astw_2.2.0-4.debian.tar.xz
+Homepage: https://github.com/substack/astw
+Package-List: 
+ node-astw deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: node-escodegen, nodejs
+Directory: pool/main/n/node-astw
+Priority: extra
+Section: misc

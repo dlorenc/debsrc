@@ -1,0 +1,32 @@
+Package: rust-hyphenation
+Binary: librust-hyphenation-dev, librust-hyphenation+embed-all-dev, librust-hyphenation+nfc-dev, librust-hyphenation+nfd-dev, librust-hyphenation+nfkc-dev, librust-hyphenation+nfkd-dev, librust-hyphenation+pocket-resources-dev, librust-hyphenation+unicode-normalization-dev
+Version: 0.7.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atlatl-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-atlatl-0.1+serde-dev (>= 0.1.2-~~) <!nocheck>, librust-bincode-1+default-dev <!nocheck>, librust-hyphenation-commons-0.7+default-dev (>= 0.7.1-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 84394cc08f7422f845a988ec9bd9ef8f 2487 rust-hyphenation_0.7.1-1.dsc
+ 5a9bbc554e168aba944d9feea37689ad 3713410 rust-hyphenation_0.7.1.orig.tar.gz
+ 7d3c7ce28a7decd683bf6af2630ea536 15136 rust-hyphenation_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/hyphenation
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/hyphenation]
+Checksums-Sha256:
+ b3f89ca67af227cf2a4e0e0002ae19677693998efd5b26be0269d9b24da23391 2487 rust-hyphenation_0.7.1-1.dsc
+ 0493c6fb308d367d0aed7acd341adbc1c2f216c135073e4b73b652c5d0d6b54c 3713410 rust-hyphenation_0.7.1.orig.tar.gz
+ b169fae20199d20b2451f49e31bdf8657ef50df6bf45ec91787ccfab5f1d27cf 15136 rust-hyphenation_0.7.1-1.debian.tar.xz
+Homepage: https://github.com/tapeinosyne/hyphenation
+Package-List: 
+ librust-hyphenation+embed-all-dev deb rust optional arch=any
+ librust-hyphenation+nfc-dev deb rust optional arch=any
+ librust-hyphenation+nfd-dev deb rust optional arch=any
+ librust-hyphenation+nfkc-dev deb rust optional arch=any
+ librust-hyphenation+nfkd-dev deb rust optional arch=any
+ librust-hyphenation+pocket-resources-dev deb rust optional arch=any
+ librust-hyphenation+unicode-normalization-dev deb rust optional arch=any
+ librust-hyphenation-dev deb rust optional arch=any
+Directory: pool/main/r/rust-hyphenation
+Priority: extra
+Section: misc

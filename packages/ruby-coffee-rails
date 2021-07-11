@@ -1,0 +1,27 @@
+Package: ruby-coffee-rails
+Binary: ruby-coffee-rails
+Version: 5.0.0-3
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-coffee-script, ruby-nokogiri, ruby-railties, ruby-sprockets-rails
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 86d8e54d6a3c155415a38da023cc086e 2138 ruby-coffee-rails_5.0.0-3.dsc
+ b926d0ac1edbbfef3d6d3a5a4007582c 5892 ruby-coffee-rails_5.0.0.orig.tar.gz
+ 2d602714960654a18659e63d66099bfe 3140 ruby-coffee-rails_5.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-coffee-rails
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-coffee-rails.git
+Checksums-Sha256:
+ 6815ba9e05ef6a3efc880f4ebaf637cb23a6e389e8251da997461aba8c446c9f 2138 ruby-coffee-rails_5.0.0-3.dsc
+ 616092350ae207b38ad73641cad4d518bea66c318005afc403afde803f2a4a20 5892 ruby-coffee-rails_5.0.0.orig.tar.gz
+ 5ce6767c622f447cd35b939820d3ecdcf5f95923e218a04d01baa266a9e320ba 3140 ruby-coffee-rails_5.0.0-3.debian.tar.xz
+Homepage: https://github.com/rails/coffee-rails
+Package-List: 
+ ruby-coffee-rails deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-coffee-rails
+Priority: source
+Section: ruby

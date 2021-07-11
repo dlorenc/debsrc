@@ -1,0 +1,28 @@
+Package: binwalk
+Binary: python3-binwalk, binwalk
+Version: 2.3.1+dfsg1-1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Gianfranco Costamagna <locutusofborg@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-coverage, python3-nose, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 072b624f87142b7a7329f7cee42b75ba 2166 binwalk_2.3.1+dfsg1-1.dsc
+ e43509302635484f3a4009d7f5ba2609 253892 binwalk_2.3.1+dfsg1.orig.tar.xz
+ 31013ecb80f20ba672093a617e23762d 7272 binwalk_2.3.1+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/binwalk
+Vcs-Git: https://salsa.debian.org/pkg-security-team/binwalk.git
+Checksums-Sha256:
+ d191b15a5f812a8958af7caf4bee60b9f2aa4abe4f0daaafef99518bcdfcfac7 2166 binwalk_2.3.1+dfsg1-1.dsc
+ 131f13da96ab07598afcf5aaaa493f4b1bb7d98a094f3586c5a97f0dd1e8ddd8 253892 binwalk_2.3.1+dfsg1.orig.tar.xz
+ a6dcfe94c25fe52e8966123a7f6e2ec9906a9f14770589a51b6a7936ca6b9da5 7272 binwalk_2.3.1+dfsg1-1.debian.tar.xz
+Homepage: https://github.com/ReFirmLabs/binwalk
+Package-List: 
+ binwalk deb devel optional arch=all
+ python3-binwalk deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-nose, wget
+Directory: pool/main/b/binwalk
+Priority: source
+Section: devel

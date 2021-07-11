@@ -1,0 +1,27 @@
+Package: ocaml-ssl
+Binary: libssl-ocaml, libssl-ocaml-dev
+Version: 0.5.9-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>, Kyle Robbertze <paddatrapper@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-ocaml, ocaml-dune, libdune-ocaml-dev, libssl-dev (>= 0.9.6), ocaml-findlib (>= 1.4), ocaml-nox (>= 4)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1e422cae790342ca6641c98f7c02fe4a 1905 ocaml-ssl_0.5.9-2.dsc
+ 09265ae2dee5ac48507ccb8a81244a15 32721 ocaml-ssl_0.5.9.orig.tar.gz
+ f47016fa0274a8c59b8765dd5f2991a1 4936 ocaml-ssl_0.5.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-ssl
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-ssl.git
+Checksums-Sha256:
+ 70c59be369ae80b971e595696bda634a6a51c171f85892cb95d3b4b78005affb 1905 ocaml-ssl_0.5.9-2.dsc
+ 1f3d66aaf9af5cc9c1fceb8e4bc00ad022035fb44416f6d7cebbad2c963161ea 32721 ocaml-ssl_0.5.9.orig.tar.gz
+ 49ed4b9b65b65e0d9cbdb1e0246ac6bd946505fa1c503ad87ff1943a06362dcd 4936 ocaml-ssl_0.5.9-2.debian.tar.xz
+Homepage: https://github.com/savonet/ocaml-ssl
+Dgit: b407942883a8888826b8745dfc9a23a20ab8057b debian archive/debian/0.5.9-2 https://git.dgit.debian.org/ocaml-ssl
+Package-List: 
+ libssl-ocaml deb ocaml optional arch=any
+ libssl-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-ssl
+Priority: source
+Section: ocaml

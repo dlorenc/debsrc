@@ -1,0 +1,29 @@
+Package: libnb-platform18-java
+Binary: libnb-platform18-java, libnb-platform-devel-java, libnb-org-openide-util-java, libnb-org-openide-util-lookup-java, libnb-org-openide-modules-java
+Version: 12.1-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: ant (>= 1.7.0), ant-optional (>= 1.7.0), antlr3 (>= 3.4), debhelper-compat (= 13), default-jdk, javacc, javahelp2, javahelper, junit, junit4 (>= 4.6), libasm-java (>= 7.0), libbindex-java, libcommons-codec-java, libcommons-io-java, libcommons-logging-java, libequinox-osgi-java (>= 3.9.1-4), libfelix-framework-java (>= 4.6.1), libfelix-main-java, libhamcrest-java, libjemmy2-java, libjna-platform-java (>= 4.4.0), libjson-simple-java, libjsr305-java, libosgi-compendium-java (>= 5.0.0), libosgi-core-java (>= 6.0.0), libswing-layout-java (>= 1.0.3), maven-repo-helper, rdfind, symlinks, testng (>= 6.8)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bd82ad118b4212b5c305a432e681ad40 3124 libnb-platform18-java_12.1-2.dsc
+ 7ad6aa1a447373c6f6d2dd14e8f94d9e 79701591 libnb-platform18-java_12.1.orig.tar.gz
+ 68b7ee49afbe5ce09983804541bee322 40732 libnb-platform18-java_12.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libnb-platform-java
+Vcs-Git: https://salsa.debian.org/java-team/libnb-platform-java.git
+Checksums-Sha256:
+ 8ed0c3143fdfbc6e7ed25925539542a9934f8dc8f8f64940258b87c977f27156 3124 libnb-platform18-java_12.1-2.dsc
+ 2027b2864bbda54f77ff592f7923d8ff31521fc479adc4d6e17bbe0d4b8ea2ca 79701591 libnb-platform18-java_12.1.orig.tar.gz
+ 60d949489d17a5fcd606748e33d700c90cc64046f443776ff100ea5b9485662c 40732 libnb-platform18-java_12.1-2.debian.tar.xz
+Homepage: https://netbeans.org/
+Package-List: 
+ libnb-org-openide-modules-java deb java optional arch=all
+ libnb-org-openide-util-java deb java optional arch=all
+ libnb-org-openide-util-lookup-java deb java optional arch=all
+ libnb-platform-devel-java deb java optional arch=all
+ libnb-platform18-java deb java optional arch=all
+Directory: pool/main/libn/libnb-platform18-java
+Priority: optional
+Section: misc

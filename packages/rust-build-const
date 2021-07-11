@@ -1,0 +1,24 @@
+Package: rust-build-const
+Binary: librust-build-const-dev
+Version: 0.2.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 2a3d11d7b4e155d885bdac8449b02741 2075 rust-build-const_0.2.1-1.dsc
+ 39ef2c15a85f895d18ca6088a7a6d0bd 4499 rust-build-const_0.2.1.orig.tar.gz
+ c0ab0a30695df53388d282883a311e84 2316 rust-build-const_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/build-const
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/build-const]
+Checksums-Sha256:
+ df9904ca83370db0ae2d2b1e13505af01405460306d5054e127e342657eada17 2075 rust-build-const_0.2.1-1.dsc
+ 39092a32794787acd8525ee150305ff051b0aa6cc2abaf193924f5ab05425f39 4499 rust-build-const_0.2.1.orig.tar.gz
+ c56a5a1db2d3d0cbb9613c3423762186e246ebadd7514b4939b50cf5575f12c8 2316 rust-build-const_0.2.1-1.debian.tar.xz
+Package-List: 
+ librust-build-const-dev deb rust optional arch=any
+Directory: pool/main/r/rust-build-const
+Priority: extra
+Section: misc

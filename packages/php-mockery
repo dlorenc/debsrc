@@ -1,0 +1,28 @@
+Package: php-mockery
+Binary: php-mockery, php-mockery-doc
+Version: 1.4.2-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), php-hamcrest, php-redis, phpab, phpunit, pkg-php-tools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 77e80f54ad2fc5e8bf410a6f85262f4a 1840 php-mockery_1.4.2-1.dsc
+ 5c7d49765bbab3a7d489dc980252f15c 124898 php-mockery_1.4.2.orig.tar.gz
+ e11397ddd7fc7dfb9913789c1a8d24f8 5308 php-mockery_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-mockery
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-mockery.git
+Checksums-Sha256:
+ 36646af6ba6a79b98c8006b1d7de39ed23dfaec2bfbd7411eec0867496774792 1840 php-mockery_1.4.2-1.dsc
+ 5e270b2f92be75a50a35bfdd7efc3ebe87d0c04ff48b8c1837e937db64260397 124898 php-mockery_1.4.2.orig.tar.gz
+ 5dfd6b92fa9262940c20b1f61ffa7fe933440a3112c15f16a683108f2a16d908 5308 php-mockery_1.4.2-1.debian.tar.xz
+Homepage: https://docs.mockery.io
+Package-List: 
+ php-mockery deb php optional arch=all
+ php-mockery-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-redis, phpab, phpunit
+Directory: pool/main/p/php-mockery
+Priority: extra
+Section: misc

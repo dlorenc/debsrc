@@ -1,0 +1,26 @@
+Package: node-run-async
+Binary: node-run-async
+Version: 2.4.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-is-promise <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 835f2e0c4e827a897cd5bab1d01769d7 2088 node-run-async_2.4.1-1.dsc
+ e1fa117b7007bb29e28aabea97072baf 14013 node-run-async_2.4.1.orig.tar.gz
+ fa1d57ed1a4f245f99f30147484156bb 2900 node-run-async_2.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-run-async
+Vcs-Git: https://salsa.debian.org/js-team/node-run-async.git
+Checksums-Sha256:
+ 7a79004e334f86b10e8b5075ea8cdb94c3c24f192f4fdbbb9cd27e67c2a15f5d 2088 node-run-async_2.4.1-1.dsc
+ eea4a5cf0e1e30b82a5f102af60254a24845ee636f0ee48256c79218125b1094 14013 node-run-async_2.4.1.orig.tar.gz
+ fa7f1461fa4663a27d24572c631de3a35996a02a7481c41dd6f3462b05353749 2900 node-run-async_2.4.1-1.debian.tar.xz
+Homepage: https://github.com/sboudrias/run-async
+Package-List: 
+ node-run-async deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-run-async
+Priority: optional
+Section: javascript

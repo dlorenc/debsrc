@@ -1,0 +1,25 @@
+Package: lua-curses
+Binary: lua-curses, lua-curses-dev
+Version: 1:9.0.0-2
+Maintainer: Sophie Brun <sophie@freexian.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf, dh-lua, libncursesw5-dev, pkg-config
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ a08bb2b16e8dd442f7057009993af372 1663 lua-curses_9.0.0-2.dsc
+ 1832abdd6e4280a3efa99b8f6ae34e30 470566 lua-curses_9.0.0.orig.tar.gz
+ a167c70c76495c43695afab2f8325712 3656 lua-curses_9.0.0-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/lua-curses.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-lua/lua-curses.git
+Checksums-Sha256:
+ f058b83e62dacd1d830429d3deb8c02e4751328b057ea522e39640e4148f048b 1663 lua-curses_9.0.0-2.dsc
+ 069248b75c83d87b086ca5559128a74bf474b2e455036c2b395fc7b54b1e40e1 470566 lua-curses_9.0.0.orig.tar.gz
+ 35707b3ed729ad0f864dd5fe751d14b08c76890d3af24054ee95c33112b69077 3656 lua-curses_9.0.0-2.debian.tar.xz
+Homepage: https://github.com/lcurses/lcurses
+Package-List: 
+ lua-curses deb interpreters optional arch=any
+ lua-curses-dev deb libdevel optional arch=any
+Directory: pool/main/l/lua-curses
+Priority: optional
+Section: misc

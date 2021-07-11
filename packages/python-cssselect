@@ -1,0 +1,27 @@
+Package: python-cssselect
+Binary: python3-cssselect
+Version: 1.1.0+ds-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>, W. Martin Borgert <debacle@debian.org>, Andrey Rahmatullin <wrar@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-lxml, python3-pytest <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 17d51d5fc425e1a3778cbf541dd25f20 2299 python-cssselect_1.1.0+ds-1.dsc
+ 0a95fa7d1ce2ed27a4fdab2d462cd4f1 35536 python-cssselect_1.1.0+ds.orig.tar.gz
+ 469a618d229a65353a586c227704065e 3452 python-cssselect_1.1.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-cssselect
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-cssselect.git
+Checksums-Sha256:
+ 5d08bc186fb81ad38cfcb4f9e61d8b11b75fbd2188ed5b8987a5c49016212879 2299 python-cssselect_1.1.0+ds-1.dsc
+ 255929dd1d116258ea096c120936a7fdc4a521775dc65f7642fbe9b4c0de2a9f 35536 python-cssselect_1.1.0+ds.orig.tar.gz
+ 37b517b1fe6ff222994892ac9405725bd57a80b6e7642b7b0c1226d592387d96 3452 python-cssselect_1.1.0+ds-1.debian.tar.xz
+Homepage: https://github.com/scrapy/cssselect/
+Package-List: 
+ python3-cssselect deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-lxml, python3-pytest
+Directory: pool/main/p/python-cssselect
+Priority: source
+Section: python

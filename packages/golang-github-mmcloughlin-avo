@@ -1,0 +1,28 @@
+Package: golang-github-mmcloughlin-avo
+Binary: golang-github-mmcloughlin-avo-dev, avo
+Version: 0.0~git20200523.4439b6b-6
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Roger Shimizu <rosh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-golang-x-arch-dev, golang-golang-x-tools-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 07c8ef65c85326ecc00ac7c01442b3de 2490 golang-github-mmcloughlin-avo_0.0~git20200523.4439b6b-6.dsc
+ 116a00becde132478af19887cc017b1b 315408 golang-github-mmcloughlin-avo_0.0~git20200523.4439b6b.orig.tar.xz
+ 97070c333e6fb7c01f0a5b40c7bbe012 5120 golang-github-mmcloughlin-avo_0.0~git20200523.4439b6b-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mmcloughlin-avo
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mmcloughlin-avo.git
+Checksums-Sha256:
+ efeb3e0c9dab91345f68ad169b96297cd1617a758fd7f5e161476a3a4f830167 2490 golang-github-mmcloughlin-avo_0.0~git20200523.4439b6b-6.dsc
+ e73317ffba5846b7ef4fe83d4357f89437c5dde2140fc319598c4aed0fcfa192 315408 golang-github-mmcloughlin-avo_0.0~git20200523.4439b6b.orig.tar.xz
+ 5428cb3f2339d2dc6e6d818db176fb637687bcb818bf15464df38f4effe4d9d6 5120 golang-github-mmcloughlin-avo_0.0~git20200523.4439b6b-6.debian.tar.xz
+Homepage: https://github.com/mmcloughlin/avo
+Go-Import-Path: github.com/mmcloughlin/avo
+Package-List: 
+ avo deb devel optional arch=any
+ golang-github-mmcloughlin-avo-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mmcloughlin-avo
+Priority: extra
+Section: golang

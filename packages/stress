@@ -1,0 +1,25 @@
+Package: stress
+Binary: stress
+Version: 1.0.4-7
+Maintainer: Joao Eriberto Mota Filho <eriberto@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cfa3797379a6e8b1af5b09ca20634de6 1827 stress_1.0.4-7.dsc
+ 890a4236dd1656792f3ef9a190cf99ef 191800 stress_1.0.4.orig.tar.gz
+ 925d36598cf7384cf430523e458561ba 3588 stress_1.0.4-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/stress
+Vcs-Git: https://salsa.debian.org/debian/stress.git
+Checksums-Sha256:
+ cde03a0f19d9589c94e71611c996afdd7f50c722f1332373d6e2530a5d3755a4 1827 stress_1.0.4-7.dsc
+ 057e4fc2a7706411e1014bf172e4f94b63a12f18412378fca8684ca92408825b 191800 stress_1.0.4.orig.tar.gz
+ 677dbe8b1050ea98c0ec5afbd8b7fd471d90631ece8f8727359c3110e0379578 3588 stress_1.0.4-7.debian.tar.xz
+Package-List: 
+ stress deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: debhelper, gawk
+Directory: pool/main/s/stress
+Priority: source
+Section: devel

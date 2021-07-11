@@ -1,0 +1,24 @@
+Package: autodep8
+Binary: autodep8
+Version: 0.24
+Maintainer: Debian CI team <team+ci@tracker.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>, Martin Pitt <mpitt@debian.org>, Paul Gevers <elbrus@debian.org>, Rafael Laboissiere <rafael@debian.org>
+Build-Depends: dctrl-tools, debhelper-compat (= 13), python3, shunit2
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 0783c4c4a53a06f60c9e33e2f5f5dbe1 1777 autodep8_0.24.dsc
+ f80f543595d07d81dc586254b07bf2cc 15032 autodep8_0.24.tar.xz
+Vcs-Browser: https://salsa.debian.org/ci-team/autodep8
+Vcs-Git: https://salsa.debian.org/ci-team/autodep8.git
+Checksums-Sha256:
+ c64f3668ff23b6cfbc942153987bcf213612978cf06bdf47fec10bb5af00305c 1777 autodep8_0.24.dsc
+ 53b670e508c7eb7f46f829c64978d281f7b0f475a715d91b7813000101dedfcb 15032 autodep8_0.24.tar.xz
+Package-List: 
+ autodep8 deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: autopkgtest, moreutils, shunit2
+Directory: pool/main/a/autodep8
+Priority: optional
+Section: misc

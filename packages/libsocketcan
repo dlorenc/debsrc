@@ -1,0 +1,26 @@
+Package: libsocketcan
+Binary: libsocketcan-dev, libsocketcan2, libsocketcan-doc
+Version: 0.0.12-1
+Maintainer: Alexander GQ Gerasiov <gq@debian.org>
+Build-Depends: debhelper-compat (= 12), doxygen, graphviz
+Architecture: linux-any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4eaef4c32f30cb18139038758a1e4f20 1740 libsocketcan_0.0.12-1.dsc
+ 55234473a84cba6aad5f17093e010e84 37920 libsocketcan_0.0.12.orig.tar.bz2
+ eb5779d96b2b7bb4b6c4d1e9a237585e 3408 libsocketcan_0.0.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libsocketcan
+Vcs-Git: https://salsa.debian.org/debian/libsocketcan.git
+Checksums-Sha256:
+ 331292f1e4d801ae62a987316c5067c35f79b3eff8fde7d47d8eb80433ec80c0 1740 libsocketcan_0.0.12-1.dsc
+ 06b88ea64c4940a12481797ef1c4e7f16591e920aa3d587312b7a1198fbc783b 37920 libsocketcan_0.0.12.orig.tar.bz2
+ de234eb429c47d893b732e33919b379ca49918273192ebd076a3bab17a588265 3408 libsocketcan_0.0.12-1.debian.tar.xz
+Homepage: http://git.pengutronix.de/?p=tools/libsocketcan.git
+Package-List: 
+ libsocketcan-dev deb libdevel optional arch=linux-any
+ libsocketcan-doc deb doc optional arch=all
+ libsocketcan2 deb libs optional arch=linux-any
+Directory: pool/main/libs/libsocketcan
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-primitive
+Binary: libghc-primitive-dev, libghc-primitive-prof, libghc-primitive-doc
+Version: 0.7.0.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7c0e33b7cefb027cc52198cb3ecccac6 2340 haskell-primitive_0.7.0.1-1.dsc
+ 5d8cdb607957daf765240201002ff003 66023 haskell-primitive_0.7.0.1.orig.tar.gz
+ 669d88d4beacea90043c1194dfae65c4 3352 haskell-primitive_0.7.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-primitive
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-primitive]
+Checksums-Sha256:
+ 0f9c41eda103a8e3dfe1821f403b5360e2363b98c5a8246b25ddb683b0473a3b 2340 haskell-primitive_0.7.0.1-1.dsc
+ dd8bb7d829f492d6200fca4a839a7563b80571c5f76b4d0fa76700ebe897f7dd 66023 haskell-primitive_0.7.0.1.orig.tar.gz
+ 65be2e8a06dc0414332b6537c62ac8e876585ab813a7f23bbf05617d089e7ac5 3352 haskell-primitive_0.7.0.1-1.debian.tar.xz
+Homepage: https://github.com/haskell/primitive
+Package-List: 
+ libghc-primitive-dev deb haskell optional arch=any
+ libghc-primitive-doc deb doc optional arch=all
+ libghc-primitive-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-primitive
+Priority: source
+Section: haskell

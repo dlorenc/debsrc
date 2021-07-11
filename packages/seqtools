@@ -1,0 +1,31 @@
+Package: seqtools
+Binary: libgbtools0, libgbtools-dev, belvu, blixem, dotter
+Version: 4.44.1+dfsg-6
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), libgtk2.0-dev, libsqlite3-dev, libcurl4-openssl-dev | libcurl4-dev, libjsoncpp-dev, d-shlibs
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a97e94a92865b0425069e82620dc1a8e 2348 seqtools_4.44.1+dfsg-6.dsc
+ 1eb35f776557c0d934723ef518eba76a 3848216 seqtools_4.44.1+dfsg.orig.tar.xz
+ 3c35ebe4e33c77e3866d43621ffe9248 15420 seqtools_4.44.1+dfsg-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/seqtools
+Vcs-Git: https://salsa.debian.org/med-team/seqtools.git
+Checksums-Sha256:
+ d0da1def96157f8cd62be79b69805ab3b43dd6b24512acadf4e20c3b97269cd5 2348 seqtools_4.44.1+dfsg-6.dsc
+ 7e29efb82712663868db18ba9234f07a774ef5f23082c82aa4a1780e8f4237a5 3848216 seqtools_4.44.1+dfsg.orig.tar.xz
+ 9b5cb7451c4fbf4204f4fc2d7fd9b299f23e20714439df13cf75c48950d114e9 15420 seqtools_4.44.1+dfsg-6.debian.tar.xz
+Homepage: https://www.sanger.ac.uk/science/tools/seqtools
+Package-List: 
+ belvu deb science optional arch=any
+ blixem deb science optional arch=any
+ dotter deb science optional arch=any
+ libgbtools-dev deb libdevel optional arch=any
+ libgbtools0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/s/seqtools
+Priority: extra
+Section: misc

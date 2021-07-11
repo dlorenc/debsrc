@@ -1,0 +1,27 @@
+Package: q2-metadata
+Binary: q2-metadata
+Version: 2020.11.1+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Liubov Chuprikova <chuprikovalv@gmail.com>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-pytest-cov, python3-pandas, python3-skbio, libjs-jquery-datatables, qiime (>= 2020.11.1), q2templates (>= 2020.11.1), q2-types (>= 2020.11.1)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2ba52538c55accba14143964be140514 2302 q2-metadata_2020.11.1+dfsg-1.dsc
+ 90e01960ce38e4890e5efb01ebbe8fc2 226020 q2-metadata_2020.11.1+dfsg.orig.tar.xz
+ 223799f2f95e4f27cc48c29117f7fd57 5888 q2-metadata_2020.11.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/q2-metadata
+Vcs-Git: https://salsa.debian.org/med-team/q2-metadata.git
+Checksums-Sha256:
+ 56d03d0c9b68d45b416a01c84da63bc2055892a778c7f6e498900fe8d7a3e14e 2302 q2-metadata_2020.11.1+dfsg-1.dsc
+ 3546a43cdc43f531c97d7cdcf6e0af185a9bc615e06f50c90925009483c3901b 226020 q2-metadata_2020.11.1+dfsg.orig.tar.xz
+ 83b784322fda48e08f3a5a9feb7ea2639e1891353e6450574ef69f56d9934576 5888 q2-metadata_2020.11.1+dfsg-1.debian.tar.xz
+Homepage: https://qiime2.org/
+Package-List: 
+ q2-metadata deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest-cov
+Directory: pool/main/q/q2-metadata
+Priority: extra
+Section: misc

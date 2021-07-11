@@ -1,0 +1,25 @@
+Package: biboumi
+Binary: biboumi
+Version: 9.0-2
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Vasudev Kamath <vasudev@copyninja.info>, Michel Le Bihan <michel@lebihan.pl>
+Build-Depends: debhelper-compat (= 13), gcc (>= 4:5), libexpat1-dev, libidn11-dev, libsystemd-dev, libudns-dev, libbotan-2-dev, libsqlite3-dev, libpq-dev, cmake, catch, uuid-dev, python3-sphinx
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ e337829efef10ab96d6cbe1305e09cf9 2119 biboumi_9.0-2.dsc
+ 65e6cb7c601b276ce6128432ee200311 155313 biboumi_9.0.orig.tar.bz2
+ 5769af8249857073a30fa6987a27e0be 9016 biboumi_9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-voip-team/biboumi
+Vcs-Git: https://salsa.debian.org/pkg-voip-team/biboumi.git
+Checksums-Sha256:
+ 687b9418c84422c48d46786d1eddc3a536fe6ca38535cfc808412c7102e0f7f0 2119 biboumi_9.0-2.dsc
+ 7fe0290d3d0ddfc03161133f2b516564943f5800a6c0f8ad0743c13b7c466b18 155313 biboumi_9.0.orig.tar.bz2
+ 1a7c97a6e634447942ae6ba595a5717c96c55b1489f60ad0f59a9920b3cda708 9016 biboumi_9.0-2.debian.tar.xz
+Homepage: https://lab.louiz.org/louiz/biboumi/
+Package-List: 
+ biboumi deb net optional arch=any
+Directory: pool/main/b/biboumi
+Priority: optional
+Section: misc

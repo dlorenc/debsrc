@@ -1,0 +1,27 @@
+Package: dkimpy-milter
+Binary: dkimpy-milter
+Version: 1.2.2-1
+Maintainer: Scott Kitterman <scott@kitterman.com>
+Uploaders: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3 (>= 3.3), python3-authres (>= 1.1), python3-dkim (>= 1.0), python3-dnspython (>= 1.16.0) | python3-dns, python3-milter, python3-nacl, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7b3129263e3590fcc93fe6011831e55b 2441 dkimpy-milter_1.2.2-1.dsc
+ dc0f054bc7dc6178eb31f20d93b73cca 52654 dkimpy-milter_1.2.2.orig.tar.gz
+ be30d1a2d353dda75354f1bbca6855dd 833 dkimpy-milter_1.2.2.orig.tar.gz.asc
+ eb5812a74fc58b76927607a35eeaaf86 10448 dkimpy-milter_1.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/dkimpy-milter
+Vcs-Git: https://salsa.debian.org/python-team/applications/dkimpy-milter.git
+Checksums-Sha256:
+ e75bbac5b11aa9a95e5a45a8c30bab5bffd341afe6a31e7de212f5ec6dd95789 2441 dkimpy-milter_1.2.2-1.dsc
+ d7e0d4006cad1add90b5b71243e488680b63cf63c5350cef619c061e808f2c3b 52654 dkimpy-milter_1.2.2.orig.tar.gz
+ 3022be82cdbb3efb08bcfb9f7332999d4aa7691804c885fc6bb57a4fbdd37ece 833 dkimpy-milter_1.2.2.orig.tar.gz.asc
+ 5f02010962ff3d4b7888f0cad12e26b8aaa78f1e4c14ce63b4b4939209fe3c55 10448 dkimpy-milter_1.2.2-1.debian.tar.xz
+Homepage: https://launchpad.net/dkimpy-milter
+Package-List: 
+ dkimpy-milter deb mail optional arch=all
+Directory: pool/main/d/dkimpy-milter
+Priority: extra
+Section: misc

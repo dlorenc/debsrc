@@ -1,0 +1,27 @@
+Package: ruby-stamp
+Binary: ruby-stamp
+Version: 0.6.0-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Daniel Martí <mvdan@mvdan.cc>, Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.4.0~), rake, cucumber
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ f888f820807b2a3b056caf642c1ae274 2109 ruby-stamp_0.6.0-1.1.dsc
+ d8e7ebc90d358dbddc87cb383513e4de 10166 ruby-stamp_0.6.0.orig.tar.gz
+ cfe3284cb9234160fa45f3fe023cb3f8 3144 ruby-stamp_0.6.0-1.1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-stamp.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-stamp.git
+Checksums-Sha256:
+ 7d130c235f7f7dd36e8be493cd0b3072aba7d5f9fb154d9e95416d55fa636ee5 2109 ruby-stamp_0.6.0-1.1.dsc
+ 062d5f7c53ce164cf21ffccee11732c11e59f3071f0528ea7107de8299ebc05d 10166 ruby-stamp_0.6.0.orig.tar.gz
+ 11a40d84ed120b0f28461ece9459a8518ed0355aa0f79cf4c7b058c2e0c074d8 3144 ruby-stamp_0.6.0-1.1.debian.tar.xz
+Homepage: https://github.com/jeremyw/stamp
+Package-List: 
+ ruby-stamp deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-stamp
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-findup-sync
+Binary: node-findup-sync
+Version: 4.0.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Matthew Pideil <matthewp_debian@teledetection.fr>, Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-define-properties <!nocheck>, node-detect-file (>= 1.0.0) <!nocheck>, node-findup-sync <!nocheck>, node-function-bind <!nocheck>, node-isarray <!nocheck>, node-is-glob (>= 4.0.0) <!nocheck>, node-micromatch (>= 4.0.2) <!nocheck>, node-normalize-path <!nocheck>, node-object-inspect <!nocheck>, node-path-is-absolute <!nocheck>, node-resolve <!nocheck>, node-resolve-dir (>= 1.0.1) <!nocheck>, node-tmatch <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 34a7eaa06a76c379aa34d9972fe3c565 2567 node-findup-sync_4.0.0-3.dsc
+ 3ad1338cd8df315fb72606968e67388e 8677 node-findup-sync_4.0.0.orig.tar.gz
+ f11e531dc3989b8546f8cd4d94117855 28688 node-findup-sync_4.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-findup-sync
+Vcs-Git: https://salsa.debian.org/js-team/node-findup-sync.git
+Checksums-Sha256:
+ a3bebf0a6d13f240537954ae9a40d1e223593abe0e3346423e5d9c3e673bbae0 2567 node-findup-sync_4.0.0-3.dsc
+ 1cdae100d1725a00ce5b988823cfadbca2ec28fb164a3e514ecb947316655c0a 8677 node-findup-sync_4.0.0.orig.tar.gz
+ 6deecbb759f5e547458438afcd109e93ad1c9b9ddca4c8386a6ee4dc453a9197 28688 node-findup-sync_4.0.0-3.debian.tar.xz
+Homepage: https://github.com/cowboy/node-findup-sync
+Package-List: 
+ node-findup-sync deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-findup-sync
+Priority: optional
+Section: javascript

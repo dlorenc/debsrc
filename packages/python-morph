@@ -1,0 +1,26 @@
+Package: python-morph
+Binary: python3-morph
+Version: 0.1.3-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 80~), python3-all, python3-setuptools
+Build-Depends-Indep: python3-coverage, python3-nose
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ cb5fe2b336098c59889736cdc5b40296 2088 python-morph_0.1.3-2.dsc
+ 9f6a2d490d39a21e1e6172fe8c300056 19132 python-morph_0.1.3.orig.tar.xz
+ fb93f474287857959f3f7b6ba8923145 2812 python-morph_0.1.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-morph
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-morph.git
+Checksums-Sha256:
+ ec3a2ee910e2c6a08814151608b0021bf29a69fe8c86ab3bb63f18edcce3dbda 2088 python-morph_0.1.3-2.dsc
+ 83157aa0de829b36bac2d4bf7b47327b59547fd794c3284e1e48405942effa86 19132 python-morph_0.1.3.orig.tar.xz
+ 6c3ee429c43967079635e518e2a52604851870a90ca7911d8c2c7000a3473bf8 2812 python-morph_0.1.3-2.debian.tar.xz
+Homepage: http://github.com/metagriffin/morph
+Package-List: 
+ python3-morph deb python optional arch=all
+Directory: pool/main/p/python-morph
+Priority: extra
+Section: misc

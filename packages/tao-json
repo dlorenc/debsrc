@@ -1,0 +1,26 @@
+Package: tao-json
+Binary: tao-json-dev, tao-json-examples
+Version: 0.0+git20200604.f357d72-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Shayan Doust <hello@shayandoust.me>
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cfd8c87c032ddcc371f75e8fc35bf19e 2142 tao-json_0.0+git20200604.f357d72-2.dsc
+ c615abd95d45212069df6179fed82b1b 1046404 tao-json_0.0+git20200604.f357d72.orig.tar.xz
+ c804ff5f71ef71530cac08a04e44a7d8 3244 tao-json_0.0+git20200604.f357d72-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/tao-json
+Vcs-Git: https://salsa.debian.org/med-team/tao-json.git
+Checksums-Sha256:
+ 22dff5910c5ad3f1b27c8886c8c7ad1e3a4bf6beb5e82e254e68311b24e3b6d1 2142 tao-json_0.0+git20200604.f357d72-2.dsc
+ e4308852b55eeed4d1e57942a8d6eb2cb0ad6f1294fe2eb2bda2713cad31835e 1046404 tao-json_0.0+git20200604.f357d72.orig.tar.xz
+ d40afdfb57bed42ef300a8eb8265a11c30d1ed43866a9edcd84a0bdfdf9a22d5 3244 tao-json_0.0+git20200604.f357d72-2.debian.tar.xz
+Homepage: https://github.com/taocpp/json
+Package-List: 
+ tao-json-dev deb libdevel optional arch=all
+ tao-json-examples deb libdevel optional arch=all
+Directory: pool/main/t/tao-json
+Priority: extra
+Section: misc

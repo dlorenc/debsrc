@@ -1,0 +1,26 @@
+Package: freezer-web-ui
+Binary: python3-freezer-web-ui
+Version: 9.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Michal Arbet <michal.arbet@ultimum.io>, Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: openstack-dashboard, python3-freezerclient (>= 2.0.0), python3-oslo.config, python3-oslo.log, python3-testtools, subunit, testrepository
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e1b1774a0cf386f5ebe645fa571d5fff 2316 freezer-web-ui_9.0.0-1.dsc
+ 9c80b1894b8a84e5ee2ded43560b0648 92524 freezer-web-ui_9.0.0.orig.tar.xz
+ f8a034d3b3ece444847bbad4e84da690 2916 freezer-web-ui_9.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/horizon-plugins/freezer-web-ui
+Vcs-Git: https://salsa.debian.org/openstack-team/horizon-plugins/freezer-web-ui.git
+Checksums-Sha256:
+ f8737a563129df4de739d0695850bf6dd7364ac37582ef8ce5bb726686c0796f 2316 freezer-web-ui_9.0.0-1.dsc
+ 47c41fff2907837d9eda7525a0cd9dc2d5c7d53f199738b4c49bb47d6660dd8c 92524 freezer-web-ui_9.0.0.orig.tar.xz
+ 78f1052612d62a70240cbd32a5dec0bd3b99b77e39018458db92d8d713e46250 2916 freezer-web-ui_9.0.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/freezer-web-ui
+Package-List: 
+ python3-freezer-web-ui deb python optional arch=all
+Directory: pool/main/f/freezer-web-ui
+Priority: extra
+Section: misc

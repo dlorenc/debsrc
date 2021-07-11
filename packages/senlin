@@ -1,0 +1,32 @@
+Package: senlin
+Binary: python3-senlin, senlin-api, senlin-common, senlin-doc, senlin-engine, senlin-conductor, senlin-health-manager
+Version: 10.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-coverage, python3-docker, python3-eventlet, python3-hacking, python3-jsonpath-rw, python3-jsonschema (>= 3.2.0), python3-keystoneauth1, python3-keystonemiddleware, python3-microversion-parse, python3-migrate, python3-openstackdocstheme, python3-openstacksdk (>= 0.42.0), python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy, python3-oslo.reports, python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils, python3-oslo.versionedobjects, python3-oslotest, python3-osprofiler, python3-paramiko, python3-pastedeploy, python3-pep8, python3-pymysql, python3-reno, python3-requests, python3-routes, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-tempest, python3-tenacity, python3-testscenarios, python3-testtools, python3-tz, python3-webob, python3-yaml, subunit, tempest, testrepository
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6a5ffa797b18e4ed7f54ed52440302b4 3404 senlin_10.0.0-1.dsc
+ 81bfba6c2a18c318cbbf794cdf1818d7 521944 senlin_10.0.0.orig.tar.xz
+ 18cb37c759b5ff974351a2184c21d75d 6928 senlin_10.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/senlin
+Vcs-Git: https://salsa.debian.org/openstack-team/services/senlin.git
+Checksums-Sha256:
+ 8423213cb2a5529d46039a490e0407c344d6a6636537192631d5b09636acc008 3404 senlin_10.0.0-1.dsc
+ 1493ced642cbbce960fbdc755a916d5627ee8734dc17c681c95d41c0f7ed2e2c 521944 senlin_10.0.0.orig.tar.xz
+ 582637c9ff62b98f5ad88a7a2706040ce304b32c7db980abd4f9188432bbbc7c 6928 senlin_10.0.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/senlin
+Package-List: 
+ python3-senlin deb python optional arch=all
+ senlin-api deb net optional arch=all
+ senlin-common deb net optional arch=all
+ senlin-conductor deb net optional arch=all
+ senlin-doc deb doc optional arch=all
+ senlin-engine deb net optional arch=all
+ senlin-health-manager deb net optional arch=all
+Directory: pool/main/s/senlin
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: freedom-maker
+Binary: freedom-maker
+Version: 0.28
+Maintainer: FreedomBox Packaging Team <team+freedombox@tracker.debian.org>
+Uploaders: Joseph Nuthalapati <njoseph@riseup.net>, Federico Ceratto <federico@debian.org>, Sunil Mohan Adapa <sunil@medhas.org>, James Valleroy <jvalleroy@mailbox.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-cliapp, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 06216fc6d91138542485711d597c3f5a 1982 freedom-maker_0.28.dsc
+ eb3010131e2427d1d79c68cfca6fefbc 42416 freedom-maker_0.28.tar.xz
+Vcs-Browser: https://salsa.debian.org/freedombox-team/freedom-maker
+Vcs-Git: https://salsa.debian.org/freedombox-team/freedom-maker.git
+Checksums-Sha256:
+ 3f3330c73ce1e016d117294abb54cbccd64198ea0b0c5724e9a314a725a74ebd 1982 freedom-maker_0.28.dsc
+ 1d3cac78eea322ccb30ad96be7a763ba7048e5fd4067b3fb7db809fd461be7b8 42416 freedom-maker_0.28.tar.xz
+Homepage: https://freedombox.org
+Package-List: 
+ freedom-maker deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pkg-resources, python3-pytest
+Directory: pool/main/f/freedom-maker
+Priority: extra
+Section: misc

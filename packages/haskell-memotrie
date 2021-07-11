@@ -1,0 +1,28 @@
+Package: haskell-memotrie
+Binary: libghc-memotrie-dev, libghc-memotrie-prof, libghc-memotrie-doc
+Version: 0.6.10-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-newtype-generics-dev (>= 0.5.3), libghc-newtype-generics-prof
+Build-Depends-Indep: ghc-doc, libghc-newtype-generics-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6999b9905491be89eab7cfb97f1b75a9 2410 haskell-memotrie_0.6.10-1.dsc
+ f569649213b9ac23323fa2c1ec5cd212 8403 haskell-memotrie_0.6.10.orig.tar.gz
+ 7270a83284413c739341b56d0c220dac 2988 haskell-memotrie_0.6.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-memotrie
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-memotrie]
+Checksums-Sha256:
+ 7c8334c31a6487af0d2a1733253ae1744d3a71e18ae49aa9d8401b0f814026be 2410 haskell-memotrie_0.6.10-1.dsc
+ 584df0e138093b2f2edc893a69883eb8cbca3402ebdc75392a7742e86156ba53 8403 haskell-memotrie_0.6.10.orig.tar.gz
+ 96b7f662c20ef6fb26b63c9d8e055a3cd18a67c10d962c68eeeea54aa3115b5c 2988 haskell-memotrie_0.6.10-1.debian.tar.xz
+Homepage: http://haskell.org/haskellwiki/MemoTrie
+Package-List: 
+ libghc-memotrie-dev deb haskell optional arch=any
+ libghc-memotrie-doc deb doc optional arch=all
+ libghc-memotrie-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-memotrie
+Priority: source
+Section: haskell

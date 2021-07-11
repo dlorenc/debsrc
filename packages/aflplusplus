@@ -1,0 +1,32 @@
+Package: aflplusplus
+Binary: afl++, afl++-clang, afl++-doc, afl, afl-clang, afl-doc
+Version: 2.68c-1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Sophie Brun <sophie@offensive-security.com>, Raphaël Hertzog <raphael@offensive-security.com>
+Build-Depends: clang-11, debhelper-compat (= 13), dh-buildinfo, llvm-11-dev, python3-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c1486836f6fc351c75559dae17507926 2067 aflplusplus_2.68c-1.dsc
+ d193b5f93e53d0acb749fcf01faf27f7 1675912 aflplusplus_2.68c.orig.tar.gz
+ 5b73e2174f7e14a36d00eba619e5cd17 5608 aflplusplus_2.68c-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/aflplusplus
+Vcs-Git: https://salsa.debian.org/pkg-security-team/aflplusplus.git
+Checksums-Sha256:
+ 38a6c5ac7f8511d53da08fdba241fe506ccfd022cab88a3d6c1f147dccf1754e 2067 aflplusplus_2.68c-1.dsc
+ 862e155c97737770baa26ffedf324a7fa255b757c85b0c9a6f312264f2ca29c5 1675912 aflplusplus_2.68c.orig.tar.gz
+ 9f25f0b432632378b21e058c5349f2d2c21aa740a94d219f0e570118d6010595 5608 aflplusplus_2.68c-1.debian.tar.xz
+Homepage: https://github.com/vanhauser-thc/AFLplusplus
+Package-List: 
+ afl deb oldlibs optional arch=all
+ afl++ deb devel optional arch=any
+ afl++-clang deb devel optional arch=any
+ afl++-doc deb doc optional arch=all
+ afl-clang deb oldlibs optional arch=all
+ afl-doc deb oldlibs optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: adequate, build-essential
+Directory: pool/main/a/aflplusplus
+Priority: extra
+Section: misc

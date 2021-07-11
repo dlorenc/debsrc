@@ -1,0 +1,26 @@
+Package: clap
+Binary: python3-clap
+Version: 0.14.0-2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 544619ab6b872685deb119714ec053d4 1930 clap_0.14.0-2.dsc
+ 0384b1d36a28d071d6aa07e64bccf7b8 50722 clap_0.14.0.orig.tar.gz
+ a5d491d98659232f9f18140a0799f89e 8972 clap_0.14.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python3-clap
+Vcs-Git: https://salsa.debian.org/debian/python3-clap.git
+Checksums-Sha256:
+ d0bc80444e37eb30030cf8694c8812d38fe512eb5abf1abf1f5fc07b47201386 1930 clap_0.14.0-2.dsc
+ d51e8a8bcd60978efd3a49d10bf7def0484716f1e4b2af017dddb0d5a89e06a2 50722 clap_0.14.0.orig.tar.gz
+ 43effddcfef68d2fd6ff556851aaac38fe5c1016941206827e0b9b43d369e2c8 8972 clap_0.14.0-2.debian.tar.xz
+Homepage: https://github.com/marekjm/clap
+Package-List: 
+ python3-clap deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/c/clap
+Priority: extra
+Section: misc

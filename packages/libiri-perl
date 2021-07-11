@@ -1,0 +1,27 @@
+Package: libiri-perl
+Binary: libiri-perl
+Version: 0.011-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Axel Beckert <abe@debian.org>, Jonas Smedegaard <dr@jones.dk>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libmoo-perl, libmoox-handlesvia-perl, libtest-simple-perl, libtry-tiny-perl, libtype-tiny-perl, liburi-perl, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1fbd5503bb05305546da6e3da1b1f546 2160 libiri-perl_0.011-1.dsc
+ 1c0cd904a47f85c311887f3d18d6621d 30356 libiri-perl_0.011.orig.tar.gz
+ 95a56c14f64dbb711e367c60cf872c98 2756 libiri-perl_0.011-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libiri-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libiri-perl.git
+Checksums-Sha256:
+ 59311f1891a024a2e38a3dd360f22aac6036d8cdd01cc17ca4975af241699396 2160 libiri-perl_0.011-1.dsc
+ 85dc7003e00e2cb236d30f05c918dbc5dec833e631e499ee4d8ea64b12abe89b 30356 libiri-perl_0.011.orig.tar.gz
+ 1b1b7a70fae83e760067aae1afbbfc6622a5fc1b10df6b13973e373cb51042d7 2756 libiri-perl_0.011-1.debian.tar.xz
+Homepage: https://metacpan.org/release/IRI
+Package-List: 
+ libiri-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libi/libiri-perl
+Priority: optional
+Section: misc

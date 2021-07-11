@@ -1,0 +1,26 @@
+Package: node-tmatch
+Binary: node-tmatch
+Version: 5.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), node-tap (>= 11) <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 97f08053fea253ecebb724d92b44e748 2034 node-tmatch_5.0.0-1.dsc
+ a6fcc79862bad61daeaeab8868e9dbf5 22789 node-tmatch_5.0.0.orig.tar.gz
+ 28a37f969d1865999a75f8438fbf3efe 2372 node-tmatch_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-tmatch
+Vcs-Git: https://salsa.debian.org/js-team/node-tmatch.git
+Checksums-Sha256:
+ 39c7ee8f21c8a6bfb5522c2109db07d0c3433ada294a9faf778cac55d34860b9 2034 node-tmatch_5.0.0-1.dsc
+ 1eae13157a11331291f94efd15ec9024ca547efb2b5a147a402e4d60b4188973 22789 node-tmatch_5.0.0.orig.tar.gz
+ b1f5ead2b4868e99ca8be7a18fd872942ea0aab4904f3577acfebf4d97534fae 2372 node-tmatch_5.0.0-1.debian.tar.xz
+Homepage: https://github.com/isaacs/tmatch
+Package-List: 
+ node-tmatch deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-tmatch
+Priority: optional
+Section: javascript

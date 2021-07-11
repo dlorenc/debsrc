@@ -1,0 +1,27 @@
+Package: vdr
+Binary: vdr, vdr-dev, vdr-plugin-examples
+Version: 2.4.1-4.1
+Maintainer: Debian VDR Team <pkg-vdr-dvb-devel@lists.alioth.debian.org>
+Uploaders: Thomas Schmidt <tschmidt@debian.org>, Tobias Grimm <etobi@debian.org>, Thomas Günther <tom@toms-cafe.de>
+Build-Depends: debhelper (>= 12), dh-exec (>= 0.3), bash-completion, libjpeg-dev, libcap-dev, libncursesw5-dev, libfreetype6-dev, libfontconfig-dev, gettext, linux-libc-dev (>= 3.0), libfribidi-dev, libsystemd-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ae5830cc8e682611a1a0a97f9da691e4 2204 vdr_2.4.1-4.1.dsc
+ b2897fe6b6e6711d512a69642b1b8ec1 940623 vdr_2.4.1.orig.tar.bz2
+ 80ccbc329de101a8ce2ea32411efbe1c 51808 vdr_2.4.1-4.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/vdr-team/vdr
+Vcs-Git: https://salsa.debian.org/vdr-team/vdr.git
+Checksums-Sha256:
+ ce9c731e49af07382b3d9fb300d529f6ae1c81909667b54e777a6db0a680932d 2204 vdr_2.4.1-4.1.dsc
+ 25c3f835c4f3ff92cd2db10c004439ef22c2e895193c77fbe8cc7eac4858a1dc 940623 vdr_2.4.1.orig.tar.bz2
+ 38e79e32ccd7b48070f3c1a355a415e7c92afd3b13e555590fca83bdc8ad21b7 51808 vdr_2.4.1-4.1.debian.tar.xz
+Homepage: http://www.tvdr.de/
+Package-List: 
+ vdr deb video optional arch=any
+ vdr-dev deb video optional arch=any
+ vdr-plugin-examples deb video optional arch=any
+Directory: pool/main/v/vdr
+Priority: source
+Section: video

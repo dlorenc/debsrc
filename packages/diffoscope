@@ -1,0 +1,27 @@
+Package: diffoscope
+Binary: diffoscope-minimal, diffoscope
+Version: 177
+Maintainer: Reproducible builds folks <reproducible-builds@lists.alioth.debian.org>
+Uploaders: Chris Lamb <lamby@debian.org>, Holger Levsen <holger@debian.org>, Mattia Rizzolo <mattia@debian.org>,
+Build-Depends: abootimg <!nocheck>, apksigner <!nocheck>, apktool [!ppc64el !s390x] <!nocheck>, bash-completion, binutils-multiarch <!nocheck>, black <!nocheck>, caca-utils <!nocheck>, colord <!nocheck>, db-util <!nocheck>, debhelper-compat (= 13), default-jdk-headless <!nocheck> | default-jdk <!nocheck>, device-tree-compiler (>= 1.4.2) <!nocheck>, dh-python (>= 2.20160818~), docx2txt <!nocheck>, dpkg-dev (>= 1.17.14), e2fsprogs <!nocheck>, enjarify <!nocheck>, ffmpeg <!nocheck>, flake8 <!nocheck>, fontforge-extras <!nocheck>, fp-utils [!ppc64el !s390x] <!nocheck>, ghc <!nocheck>, ghostscript <!nocheck>, giflib-tools <!nocheck>, gnumeric <!nocheck>, gnupg-utils <!nocheck>, hdf5-tools <!nocheck>, help2man, imagemagick <!nocheck>, jsbeautifier <!nocheck>, libarchive-tools <!nocheck>, libjs-jquery <!nocheck>, libjs-jquery-hotkeys <!nocheck>, libjs-jquery-isonscreen <!nocheck>, libjs-jquery-tablesorter <!nocheck>, libjs-jquery-throttle-debounce <!nocheck>, linux-image-amd64 [amd64] <!nocheck> | linux-image-generic [amd64] <!nocheck>, llvm <!nocheck>, lz4 <!nocheck> | liblz4-tool <!nocheck>, mono-utils <!nocheck>, mplayer <!nocheck>, ocaml-nox <!nocheck>, odt2txt <!nocheck>, oggvideotools [!s390x] <!nocheck>, openssh-client <!nocheck>, openssl <!nocheck>, pgpdump <!nocheck>, poppler-utils <!nocheck>, procyon-decompiler <!nocheck>, python3-all, python3-argcomplete, python3-binwalk <!nocheck>, python3-debian <!nocheck>, python3-distro <!nocheck>, python3-docutils, python3-guestfs <!nocheck>, python3-h5py <!nocheck>, python3-jsondiff <!nocheck>, python3-libarchive-c, python3-magic, python3-pdfminer <!nocheck>, python3-progressbar <!nocheck>, python3-pypdf2 <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-pyxattr <!nocheck>, python3-rpm <!nocheck>, python3-setuptools, python3-tlsh (>= 3.4.1) <!nocheck>, r-base-core <!nocheck>, rpm2cpio <!nocheck>, sng <!nocheck>, sqlite3 <!nocheck>, squashfs-tools <!nocheck>, tcpdump <!nocheck>, u-boot-tools <!nocheck>, unzip <!nocheck>, wabt <!nocheck>, xmlbeans <!nocheck>, xxd <!nocheck> | vim-common <!nocheck>, zstd <!nocheck>
+Build-Conflicts: graphicsmagick-imagemagick-compat
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 01424d41157d2b95e569d18c2e4ee544 4938 diffoscope_177.dsc
+ 08e0efb910022f4297bc7904e58916cc 1014932 diffoscope_177.tar.xz
+Vcs-Browser: https://salsa.debian.org/reproducible-builds/diffoscope
+Vcs-Git: https://salsa.debian.org/reproducible-builds/diffoscope.git
+Checksums-Sha256:
+ 2650b8bc751b285f69b28f7e7385604073b5da3f83da2f5ef8a4aed092eadeab 4938 diffoscope_177.dsc
+ 62debe31fd35e24de9fda0148d9579e7494091de054ddf7359fc667376ee4a62 1014932 diffoscope_177.tar.xz
+Homepage: https://diffoscope.org
+Package-List: 
+ diffoscope deb devel optional arch=all
+ diffoscope-minimal deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: abootimg, acl, apksigner, apktool, binutils-multiarch, black, bzip2, caca-utils, colord, db-util, default-jdk, default-jdk-headless, device-tree-compiler, docx2txt, e2fsprogs, enjarify, ffmpeg, file, fontforge-extras, fp-utils, genisoimage, gettext, ghc, ghostscript, giflib-tools, gnumeric, gnupg, gnupg-utils, hdf5-tools, imagemagick, java-sdk, jsbeautifier, libarchive-tools, liblz4-tool, linux-image-amd64, linux-image-generic, llvm, lz4, mono-utils, ocaml-nox, odt2txt, oggvideotools, openssh-client, openssl, pgpdump, poppler-utils, procyon-decompiler, python3-all, python3-argcomplete, python3-binwalk, python3-debian, python3-defusedxml, python3-distro, python3-guestfs, python3-h5py, python3-jsondiff, python3-pdfminer, python3-progressbar, python3-pypdf2, python3-pytest, python3-pyxattr, python3-rpm, python3-tlsh, r-base-core, rpm2cpio, sng, sqlite3, squashfs-tools, tcpdump, u-boot-tools, unzip, vim-common, wabt, xmlbeans, xxd, xz-utils, zip, zstd
+Directory: pool/main/d/diffoscope
+Priority: optional
+Section: misc

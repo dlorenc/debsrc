@@ -1,0 +1,26 @@
+Package: rust-typed-arena
+Binary: librust-typed-arena-dev
+Version: 2.0.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4c00c439db3af36b4bd7a1409276e8b5 2184 rust-typed-arena_2.0.0-2.dsc
+ 0a81d1d3bbbd133afef3b8162f300806 11491 rust-typed-arena_2.0.0.orig.tar.gz
+ 3f4c3d86bcfa3a039dc1970aa13bcb99 2616 rust-typed-arena_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/typed-arena
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/typed-arena]
+Checksums-Sha256:
+ 2acf8f4a23aff1e7e9e98de16750c4a84b3ff4b9da7c441deb0a8f910d7c5d57 2184 rust-typed-arena_2.0.0-2.dsc
+ e2ae5156db3e83ec5e0bd6b197457722bbc3fe3295078aa9509892483578b1d2 11491 rust-typed-arena_2.0.0.orig.tar.gz
+ 0effa433c4f6f3c08fa22d1b40ed601e1cf5e3e6917d1e7223891111167aa432 2616 rust-typed-arena_2.0.0-2.debian.tar.xz
+Package-List: 
+ librust-typed-arena-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.3+default-dev
+Directory: pool/main/r/rust-typed-arena
+Priority: extra
+Section: misc

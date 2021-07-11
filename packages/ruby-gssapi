@@ -1,0 +1,27 @@
+Package: ruby-gssapi
+Binary: ruby-gssapi
+Version: 1.2.0-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hleb Valoshka <375gnu@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, rake, ruby-rspec, ruby-rspec-expectations, ruby-ffi (>= 1.0.1), libgssapi-krb5-2
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 88453f0e11e05cb57b9ac58f7157b742 2123 ruby-gssapi_1.2.0-1.1.dsc
+ 5f13eb7930bda5f37cb292a8ed150fc2 13752 ruby-gssapi_1.2.0.orig.tar.gz
+ 1a95caf0ccd775dc54190baa487d6311 3004 ruby-gssapi_1.2.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-gssapi.git
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-gssapi.git
+Checksums-Sha256:
+ 1be9f048618142136e8900f4adbcd429c23e65467f34701d3e798e72bb864a67 2123 ruby-gssapi_1.2.0-1.1.dsc
+ 219a76f00d66cc277018e3e0f82e7a68f4878ee347ba01fb0a83a7404311fa73 13752 ruby-gssapi_1.2.0.orig.tar.gz
+ c8c7c36f6b2d727317482d6554d175f0c70aa2948a36992e6c4d7d11992ad3a0 3004 ruby-gssapi_1.2.0-1.1.debian.tar.xz
+Homepage: http://github.com/zenchild/gssapi
+Package-List: 
+ ruby-gssapi deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-gssapi
+Priority: optional
+Section: misc

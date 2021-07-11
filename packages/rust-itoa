@@ -1,0 +1,24 @@
+Package: rust-itoa
+Binary: librust-itoa-dev
+Version: 0.4.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 2aeaf4e0188ca5b51e132b780b9768eb 2016 rust-itoa_0.4.3-1.dsc
+ 7bebca3c6217218fb42f89544d1499db 11061 rust-itoa_0.4.3.orig.tar.gz
+ a00b453089750be26aa6ad11cef368b4 2884 rust-itoa_0.4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/itoa
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/itoa]
+Checksums-Sha256:
+ 0609c5ca6a560f41ff959b6dbb9f741f566454e94a69145a471aa8ad937d0bcd 2016 rust-itoa_0.4.3-1.dsc
+ 1306f3464951f30e30d12373d31c79fbd52d236e5e896fd92f96ec7babbbe60b 11061 rust-itoa_0.4.3.orig.tar.gz
+ c5342913a34a0eea3556a2223358133bd56a01247d57fcdfcc19d04f08971b0d 2884 rust-itoa_0.4.3-1.debian.tar.xz
+Package-List: 
+ librust-itoa-dev deb rust optional arch=any
+Directory: pool/main/r/rust-itoa
+Priority: extra
+Section: misc

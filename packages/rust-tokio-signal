@@ -1,0 +1,25 @@
+Package: rust-tokio-signal
+Binary: librust-tokio-signal-dev
+Version: 0.2.7-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-futures-0.1+default-dev (>= 0.1.11-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-mio-0.6+default-dev (>= 0.6.14-~~) <!nocheck>, librust-mio-uds-0.6+default-dev <!nocheck>, librust-signal-hook-0.1+default-dev <!nocheck>, librust-tokio-executor-0.1+default-dev <!nocheck>, librust-tokio-io-0.1+default-dev <!nocheck>, librust-tokio-reactor-0.1+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+wincon-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 1d654d58a83a4891cd80a41d4e4c664a 2658 rust-tokio-signal_0.2.7-2.dsc
+ 56de2dc3fe2c8aeee7c2c5e89d75e399 15122 rust-tokio-signal_0.2.7.orig.tar.gz
+ 08c1eed6c4faec381cf5714ae0af1ee5 2548 rust-tokio-signal_0.2.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-signal
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-signal]
+Checksums-Sha256:
+ edc1233725e7aaf5e9728780f19d2bb41132ae78bc2cdb12351d387ff8b6e631 2658 rust-tokio-signal_0.2.7-2.dsc
+ dd6dc5276ea05ce379a16de90083ec80836440d5ef8a6a39545a3207373b8296 15122 rust-tokio-signal_0.2.7.orig.tar.gz
+ 00259fb9f9b68aef9eac1394cb56fb5ce8ca050cc118aad65ece461a727f71d8 2548 rust-tokio-signal_0.2.7-2.debian.tar.xz
+Homepage: https://github.com/tokio-rs/tokio
+Package-List: 
+ librust-tokio-signal-dev deb rust optional arch=any
+Directory: pool/main/r/rust-tokio-signal
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: r-cran-rvest
+Binary: r-cran-rvest
+Version: 0.3.6-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Dylan Aïssi <daissi@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-xml2, r-cran-httr, r-cran-magrittr, r-cran-selectr
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ae3376a59339ced494152ef4f6f90569 2127 r-cran-rvest_0.3.6-1.dsc
+ 7d5f15752009497ce59dbd7057763667 2806156 r-cran-rvest_0.3.6.orig.tar.gz
+ 6220fef0f94f451be728de6c4725da17 2204 r-cran-rvest_0.3.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-rvest
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-rvest.git
+Checksums-Sha256:
+ 13dfd16c49ced33bc4c2ccd8af016b8ad68f3fa02e22474a1aeeb2e84e0fb87e 2127 r-cran-rvest_0.3.6-1.dsc
+ 6a2ee3a25d2d738031edbc1b5e2410f2a4538dfbb9705af145f9039504b902fa 2806156 r-cran-rvest_0.3.6.orig.tar.gz
+ 735a4872ff6fec8835ed92db05ee69c6429ade31ef4258ae3ee3f053204763b0 2204 r-cran-rvest_0.3.6-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=rvest
+Package-List: 
+ r-cran-rvest deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-cli, r-cran-testthat
+Directory: pool/main/r/r-cran-rvest
+Priority: extra
+Section: misc

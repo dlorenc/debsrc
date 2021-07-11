@@ -1,0 +1,31 @@
+Package: debian-faq
+Binary: debian-faq, debian-faq-de, debian-faq-fr, debian-faq-it, debian-faq-ja, debian-faq-nl, debian-faq-ru, debian-faq-zh-cn
+Version: 10.1
+Maintainer: Javier Fernandez-Sanguino Peña <jfs@debian.org>
+Uploaders: Josip Rodin <joy-packages@debian.org>, Joost van Baal <joostvb@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: dblatex <!pkg.debian-faq.nopdf>, docbook-xml, docbook-xsl, fonts-freefont-ttf, fonts-sil-charis, libxml2-utils, po4a, texlive-lang-all <!pkg.debian-faq.nopdf>, texlive-xetex <!pkg.debian-faq.nopdf>, w3m, xmlroff, xsltproc
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (native)
+Files:
+ 516d58750ac92fc6a63e87ef6aaed622 2321 debian-faq_10.1.dsc
+ 7e282cfad4e3011bfc43ab2ddbc6e537 616152 debian-faq_10.1.tar.xz
+Vcs-Browser: https://salsa.debian.org/ddp-team/debian-faq
+Vcs-Git: https://salsa.debian.org/ddp-team/debian-faq.git
+Checksums-Sha256:
+ 280aa7979b74b3cf229036fd39f20173eede4061b1a7902b6bfc5e16baeea396 2321 debian-faq_10.1.dsc
+ 78f8aee66a3cb5e0fc91139e6407c72ac613bc7a56827434ad6b9acad6430936 616152 debian-faq_10.1.tar.xz
+Homepage: https://www.debian.org/doc/user-manuals#faq
+Package-List: 
+ debian-faq deb doc standard arch=all
+ debian-faq-de deb doc optional arch=all
+ debian-faq-fr deb doc optional arch=all
+ debian-faq-it deb doc optional arch=all
+ debian-faq-ja deb doc optional arch=all
+ debian-faq-nl deb doc optional arch=all
+ debian-faq-ru deb doc optional arch=all
+ debian-faq-zh-cn deb doc optional arch=all
+Directory: pool/main/d/debian-faq
+Priority: source
+Section: doc

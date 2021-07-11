@@ -1,0 +1,27 @@
+Package: bibutils
+Binary: bibutils, libbibutils-dev, libbibutils7
+Version: 6.10-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: David Bremner <bremner@debian.org>, Pierre Gruet <pgtdebian@free.fr>
+Build-Depends: debhelper-compat (= 10), dh-exec (>= 0.3), xsltproc, docbook-xsl, docbook-xml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bed38c44375448ef0f252554dd321535 2159 bibutils_6.10-2.dsc
+ 13ed94cbc3984119349b8663a8d2d6d7 590002 bibutils_6.10.orig.tar.gz
+ dc0ed2d6eb10ca613083aee1b7503ecb 9520 bibutils_6.10-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/bibutils
+Vcs-Git: https://salsa.debian.org/science-team/bibutils.git
+Checksums-Sha256:
+ 398ab7e3bb17f0f7045260cec0bc79a285886eeb66a50ee60f48a09182577587 2159 bibutils_6.10-2.dsc
+ 8656c042fa1371443aa4e1a58bcab5fcea0b236eb39182e4004fc348ce56e496 590002 bibutils_6.10.orig.tar.gz
+ 546c9919e95210680d5e155af39988f5dbc56863dbaaa24eaa3ba7298f4fc5ba 9520 bibutils_6.10-2.debian.tar.xz
+Homepage: https://sourceforge.net/projects/bibutils/
+Package-List: 
+ bibutils deb text optional arch=any
+ libbibutils-dev deb libdevel optional arch=any
+ libbibutils7 deb libs optional arch=any
+Directory: pool/main/b/bibutils
+Priority: source
+Section: text

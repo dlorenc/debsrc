@@ -1,0 +1,28 @@
+Package: haskell-random
+Binary: libghc-random-dev, libghc-random-prof, libghc-random-doc
+Version: 1.1-12
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breiter <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3ff85d3c147b8c75d8cc253cc9461ee8 2276 haskell-random_1.1-12.dsc
+ 474f10b9389b316e4472b71d20298993 10870 haskell-random_1.1.orig.tar.gz
+ 5c7a7101ab4ebf35a13f898d641bb567 3040 haskell-random_1.1-12.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-random
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-random]
+Checksums-Sha256:
+ 30ba799f310d74722098e6e7a86fa6a9e64db1ce90faedb81b4d62848d4537dd 2276 haskell-random_1.1-12.dsc
+ b718a41057e25a3a71df693ab0fe2263d492e759679b3c2fea6ea33b171d3a5a 10870 haskell-random_1.1.orig.tar.gz
+ 929c8844d3aaad00f3c8544df93c8c3d6aacade902571b92cdf2e22494c87c61 3040 haskell-random_1.1-12.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/random
+Package-List: 
+ libghc-random-dev deb haskell optional arch=any
+ libghc-random-doc deb doc optional arch=all
+ libghc-random-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-random
+Priority: source
+Section: haskell

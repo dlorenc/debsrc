@@ -1,0 +1,26 @@
+Package: keystone-tempest-plugin
+Binary: keystone-tempest-plugin
+Version: 0.5.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 109~), python3-all, python3-pbr, python3-setuptools
+Build-Depends-Indep: python3-lxml (>= 3.4.1), python3-oslo.config, python3-testtools, python3-requests, tempest
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b008618e009ec8fbf898c457f52031c9 2298 keystone-tempest-plugin_0.5.0-2.dsc
+ 863b8a4c41af9e5ef2ee9aa6abb1130b 22380 keystone-tempest-plugin_0.5.0.orig.tar.xz
+ 3b59d20fb3aa64893160d7bcf66c0cc0 2208 keystone-tempest-plugin_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/tempest/keystone-tempest-plugin
+Vcs-Git: https://salsa.debian.org/openstack-team/tempest/keystone-tempest-plugin.git
+Checksums-Sha256:
+ ab671edbca89aab49fee0e9338a45916b8fc3c3bb24e8544dbb6ae2c59c4635d 2298 keystone-tempest-plugin_0.5.0-2.dsc
+ 0ac014c33ef9cbf39c80ed68e04415b071e0ab137cee608bd40e57a86d8b373e 22380 keystone-tempest-plugin_0.5.0.orig.tar.xz
+ 82974c56d329ffa5d9a352ea1f17b21a6368adcc6e37548e48f8179bd7c39f0b 2208 keystone-tempest-plugin_0.5.0-2.debian.tar.xz
+Homepage: https://opendev.org/openstack/keystone-tempest-plugin
+Package-List: 
+ keystone-tempest-plugin deb net optional arch=all
+Directory: pool/main/k/keystone-tempest-plugin
+Priority: extra
+Section: misc

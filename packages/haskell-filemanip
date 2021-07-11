@@ -1,0 +1,28 @@
+Package: haskell-filemanip
+Binary: libghc-filemanip-dev, libghc-filemanip-prof, libghc-filemanip-doc
+Version: 0.3.6.3-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@ubuntu.com>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-unix-compat-dev, libghc-unix-compat-prof
+Build-Depends-Indep: ghc-doc, libghc-unix-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 19e0ed3704cc91e890bb0d863b66d974 2412 haskell-filemanip_0.3.6.3-10.dsc
+ 04d23467ce2e7ac0bc9c01c4e0ebd06c 10369 haskell-filemanip_0.3.6.3.orig.tar.gz
+ b4bf7a5d58ca02e30f0fcd55b4705b97 3428 haskell-filemanip_0.3.6.3-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-filemanip
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-filemanip]
+Checksums-Sha256:
+ 5fe28d721ffa1067b52c790be199d015469f0afa13adc0da5973f096d093c6bb 2412 haskell-filemanip_0.3.6.3-10.dsc
+ 8836da17baaaf02ca080c9990ece4e0b0c8d6a128f458f8b64fd07b225ca9846 10369 haskell-filemanip_0.3.6.3.orig.tar.gz
+ c47a21a66d0fbbeee1e66d5e86a0b30097b52a40aa6e6058e7f5f35a31db007c 3428 haskell-filemanip_0.3.6.3-10.debian.tar.xz
+Homepage: https://github.com/bos/filemanip
+Package-List: 
+ libghc-filemanip-dev deb haskell optional arch=any
+ libghc-filemanip-doc deb doc optional arch=all
+ libghc-filemanip-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-filemanip
+Priority: source
+Section: haskell

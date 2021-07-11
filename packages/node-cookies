@@ -1,0 +1,26 @@
+Package: node-cookies
+Binary: node-cookies
+Version: 0.8.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12), node-depd <!nocheck>, node-keygrip <!nocheck>, node-supertest (>= 4.0.2) <!nocheck>, mocha <!nocheck>, pkg-js-tools (>= 0.8.6)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6530c8cce98dc63557477419de632ad9 2121 node-cookies_0.8.0-2.dsc
+ 32fba8b99149a3a383fc408f6a8f4eb6 15636 node-cookies_0.8.0.orig.tar.gz
+ c16f08ed8e3b0790de661a51d5c01d5d 2808 node-cookies_0.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cookies
+Vcs-Git: https://salsa.debian.org/js-team/node-cookies.git
+Checksums-Sha256:
+ 359ac129df4e1f92b3b273ff63d6d8984ca3ae03cd78e3da5531a332d410e158 2121 node-cookies_0.8.0-2.dsc
+ 9c97e6612411c9ff4e518f048e1ad2b4d37ff0954b028ce77f577cd9581402db 15636 node-cookies_0.8.0.orig.tar.gz
+ c080f21113055f2e9d3abe7cf03ab5dadbcbbccfe119d06aea46deca27a6f9f3 2808 node-cookies_0.8.0-2.debian.tar.xz
+Homepage: https://github.com/expressjs/cookies
+Package-List: 
+ node-cookies deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cookies
+Priority: optional
+Section: javascript

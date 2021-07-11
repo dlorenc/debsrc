@@ -1,0 +1,26 @@
+Package: node-lowercase-keys
+Binary: node-lowercase-keys
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Shirish Togarla <shirishtogarla533@gmail.com>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 64c6a58cb1196ad1f684eb625f34d818 2139 node-lowercase-keys_2.0.0-1.dsc
+ b4884b5a176a10162fa313fbf447709b 2233 node-lowercase-keys_2.0.0.orig.tar.gz
+ b529f54ddd16796f5c7465ba04ecc262 2844 node-lowercase-keys_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-lowercase-keys
+Vcs-Git: https://salsa.debian.org/js-team/node-lowercase-keys.git
+Checksums-Sha256:
+ e2e96a11bf2f2728fb94df40f017cddb464657b751f4c706f6d67428d23b0f52 2139 node-lowercase-keys_2.0.0-1.dsc
+ db617960f018a1289b4042aca8ec5de48679ba04832483b6d5f0aa021d077f01 2233 node-lowercase-keys_2.0.0.orig.tar.gz
+ 06912e52d0d150c0f68e0372df36f24da135fa82a093fbc0bd6ce4f8346772aa 2844 node-lowercase-keys_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/lowercase-keys
+Package-List: 
+ node-lowercase-keys deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-lowercase-keys
+Priority: optional
+Section: javascript

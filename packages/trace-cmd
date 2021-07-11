@@ -1,0 +1,25 @@
+Package: trace-cmd
+Binary: trace-cmd, kernelshark
+Version: 2.9.1-1
+Maintainer: Sudip Mukherjee <sudipm.mukherjee@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, libjson-c-dev, freeglut3-dev, libxmu-dev, libegl-dev [mipsel], libxi-dev, qtbase5-dev, asciidoc, docbook-xsl, xsltproc, policykit-1, libcunit1-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8af59a28f9ec05701b5b07a58893f333 2057 trace-cmd_2.9.1-1.dsc
+ c699c6df78faa18af3f2742dcf3e5e3c 4298008 trace-cmd_2.9.1.orig.tar.gz
+ 9927bc70014621971526917e99f630ca 5196 trace-cmd_2.9.1-1.debian.tar.xz
+Vcs-Browser: https://github.com/sudipm-mukherjee/trace-cmd.git
+Vcs-Git: https://github.com/sudipm-mukherjee/trace-cmd.git
+Checksums-Sha256:
+ 183a1a1c8d6da6f8dd36d0671399a1d9f6ea50592a55c0e47e7373cb1b330688 2057 trace-cmd_2.9.1-1.dsc
+ 9404fc3cf540ea795304608068c9db6cdb38b90584c7f3c43249785913d54b38 4298008 trace-cmd_2.9.1.orig.tar.gz
+ 319562eabe41c1f6f9dd33572ce6e2e2d309dab3282e5ae5ed715ecaa9896d84 5196 trace-cmd_2.9.1-1.debian.tar.xz
+Homepage: http://kernelshark.org/
+Package-List: 
+ kernelshark deb devel optional arch=any
+ trace-cmd deb devel optional arch=any
+Directory: pool/main/t/trace-cmd
+Priority: optional
+Section: misc

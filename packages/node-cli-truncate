@@ -1,0 +1,26 @@
+Package: node-cli-truncate
+Binary: node-cli-truncate
+Version: 2.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-slice-ansi <!nocheck>, node-string-width (>= 4.2.0~) <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f7ff12ad05bb8efadf4ab04352553c2f 2175 node-cli-truncate_2.1.0-1.dsc
+ 7a8bcb933630b423e95ac4e91a74adfd 4701 node-cli-truncate_2.1.0.orig.tar.gz
+ 11f184fa9e07f7dcd5fbfdb28f88fee8 3064 node-cli-truncate_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cli-truncate
+Vcs-Git: https://salsa.debian.org/js-team/node-cli-truncate.git
+Checksums-Sha256:
+ b19c693b902c990442b4c175a8c3e6d49e3cf1e23765b55b7fc7134c03356d5e 2175 node-cli-truncate_2.1.0-1.dsc
+ 7372d9586259dab136e039d71513572e59326209cc7c3a719c7883553a8e4cfb 4701 node-cli-truncate_2.1.0.orig.tar.gz
+ aa635b1fcbcbfb8b3c0c10d8e09b4708ba253f729723a61f138a99248c5a2a5c 3064 node-cli-truncate_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/cli-truncate
+Package-List: 
+ node-cli-truncate deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cli-truncate
+Priority: extra
+Section: misc

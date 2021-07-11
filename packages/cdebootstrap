@@ -1,0 +1,21 @@
+Package: cdebootstrap
+Binary: cdebootstrap, cdebootstrap-static
+Version: 0.7.8
+Maintainer: Bastian Blank <waldi@debian.org>
+Build-Depends: debhelper (>> 9), dh-autoreconf, autotools-dev, libbz2-dev, libcurl4-gnutls-dev, libdebconfclient0-dev (>= 0.40), libdebian-installer4-dev (>= 0.109~), liblzma-dev, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (native)
+Files:
+ c64b8dcb1dfad8590a3590940d49d130 1335 cdebootstrap_0.7.8.dsc
+ d67814fbf6644d33e2ad3a302c575ced 32340 cdebootstrap_0.7.8.tar.xz
+Checksums-Sha256:
+ 9b28d49a33bcda2a590c667cf0b6f32e09e6e96050c902dac6880064bd59e7e6 1335 cdebootstrap_0.7.8.dsc
+ 2fc6faefa2da91c6fda3ff8d53a1f0041f4786268ea15ec6962ada94ab83c045 32340 cdebootstrap_0.7.8.tar.xz
+Package-List: 
+ cdebootstrap deb admin optional arch=any
+ cdebootstrap-static deb admin optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/cdebootstrap
+Priority: source
+Section: admin

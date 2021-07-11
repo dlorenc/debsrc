@@ -1,0 +1,26 @@
+Package: node-estree-walker
+Binary: node-estree-walker
+Version: 2.0.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-babel7 <!nocheck>, node-diff <!nocheck>, node-kleur <!nocheck>, rollup, node-typescript, node-types-estree
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 86bb1519e5007a5b0b04ff5a243d0616 2230 node-estree-walker_2.0.2-2.dsc
+ a61486d01daae653ea9090bbd2a501d4 1962847 node-estree-walker_2.0.2.orig.tar.gz
+ 955748b44b8ca76164df7bdc6ff409db 114516 node-estree-walker_2.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-estree-walker
+Vcs-Git: https://salsa.debian.org/js-team/node-estree-walker.git
+Checksums-Sha256:
+ 23b5965a755a8ba0b05784baf4d2730bdbeec7c5866826c33f9559120d8f00c9 2230 node-estree-walker_2.0.2-2.dsc
+ 6f7d950099457d9550cd4eefb5d38cf7d1a26ed870bce76d1907e9c68b5ee33d 1962847 node-estree-walker_2.0.2.orig.tar.gz
+ aab4611f306ba8b3c01d609c657fc63d01f42dee206c367ba3d4fd00224e8952 114516 node-estree-walker_2.0.2-2.debian.tar.xz
+Homepage: https://github.com/Rich-Harris/estree-walker
+Package-List: 
+ node-estree-walker deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-estree-walker
+Priority: extra
+Section: javascript

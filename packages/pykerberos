@@ -1,0 +1,25 @@
+Package: pykerberos
+Binary: python3-kerberos
+Version: 1.1.14-3.1
+Maintainer: Guido Günther <agx@sigxcpu.org>
+Uploaders: Dr. Torge Szczepanek <debian@cygnusnetworks.de>,
+Build-Depends: debhelper (>= 9), dh-python, libkrb5-dev, python3-all-dev, python3-setuptools
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ bb9b9fb21702d1fb73b44a59cefbb9c3 1981 pykerberos_1.1.14-3.1.dsc
+ 81dcebd0135a1cf7c9d1b3def616535f 20454 pykerberos_1.1.14.orig.tar.gz
+ 7d49bb68f1fdd767ff9844a840ee1d0a 5812 pykerberos_1.1.14-3.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/agx/pykerberos
+Vcs-Git: https://salsa.debian.org/agx/pykerberos.git
+Checksums-Sha256:
+ 547c7bd2f9282ef22e7c81ddbe7c267b50ccf2c893718939464cbcef9099407e 1981 pykerberos_1.1.14-3.1.dsc
+ 60f84e1b606d58cc457b186914c195072ebebf5d5a05e75c0136541808e06523 20454 pykerberos_1.1.14.orig.tar.gz
+ c24dc1a98a8bf53efe75f93f2f21cd53259143f43d6d599ad47592b650882c49 5812 pykerberos_1.1.14-3.1.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/pykerberos
+Package-List: 
+ python3-kerberos deb python optional arch=any
+Directory: pool/main/p/pykerberos
+Priority: source
+Section: python

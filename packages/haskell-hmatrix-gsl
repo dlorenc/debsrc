@@ -1,0 +1,28 @@
+Package: haskell-hmatrix-gsl
+Binary: libghc-hmatrix-gsl-dev, libghc-hmatrix-gsl-prof, libghc-hmatrix-gsl-doc
+Version: 0.19.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Picca Frédéric-Emmanuel <picca@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hmatrix-dev (>= 0.18), libghc-hmatrix-prof, libghc-random-dev, libghc-random-prof, libghc-vector-dev, libghc-vector-prof, libgsl-dev, pkg-config
+Build-Depends-Indep: ghc-doc, libghc-hmatrix-doc, libghc-random-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 766ac27aaf94d40af65d423129649569 2603 haskell-hmatrix-gsl_0.19.0.1-2.dsc
+ 004c57d35b913ede0ea0a92cbe9b1878 42162 haskell-hmatrix-gsl_0.19.0.1.orig.tar.gz
+ 8481d55fd31d4e10a5d31db6b0fe9f3c 2376 haskell-hmatrix-gsl_0.19.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hmatrix-gsl
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hmatrix-gsl]
+Checksums-Sha256:
+ c631134aeeb06fde37a2133c23e9484870410f093fe78bde14b5f11ebd39cd9d 2603 haskell-hmatrix-gsl_0.19.0.1-2.dsc
+ 157637d336c72cded119127cc3631a569018284ea8ca54b0e29e742388a2cd6c 42162 haskell-hmatrix-gsl_0.19.0.1.orig.tar.gz
+ c97a65b49c80abc80dd3c906e9534e2abd419c98203b79f29a5b17c6160266b1 2376 haskell-hmatrix-gsl_0.19.0.1-2.debian.tar.xz
+Homepage: https://github.com/albertoruiz/hmatrix
+Package-List: 
+ libghc-hmatrix-gsl-dev deb haskell optional arch=any
+ libghc-hmatrix-gsl-doc deb doc optional arch=all
+ libghc-hmatrix-gsl-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hmatrix-gsl
+Priority: optional
+Section: misc

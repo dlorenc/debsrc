@@ -1,0 +1,27 @@
+Package: fontmath
+Binary: python3-fontmath
+Version: 0.6.0-1
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Yao Wei (魏銘廷) <mwei@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-fonttools (>= 4.9.0), python3-pytest
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fc2cb311557388ea4eeae01a2a122902 2088 fontmath_0.6.0-1.dsc
+ 8ccabb834c1ffb1e130c18ba9ace9923 29430 fontmath_0.6.0.orig.tar.gz
+ 2bc89dc13d570c9b3b05d60892995150 2228 fontmath_0.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/fontmath
+Vcs-Git: https://salsa.debian.org/fonts-team/fontmath.git
+Checksums-Sha256:
+ db998ab76ca49582664ef6e3e78805d195cf65d372c776d2fd1d9dd7333bfe59 2088 fontmath_0.6.0-1.dsc
+ b4e2e344133e576c5abd09a0a9f293c9010cb15c79c6b96ebd5ab17e20d83459 29430 fontmath_0.6.0.orig.tar.gz
+ 402b24a217a6dce35664881a12cecf5f53111a6aba654223132ef8d7c538d218 2228 fontmath_0.6.0-1.debian.tar.xz
+Homepage: https://github.com/robotools/fontMath
+Package-List: 
+ python3-fontmath deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/f/fontmath
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: jimfs
+Binary: libjimfs-java, libjimfs-java-doc
+Version: 1.1-6
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, libguava-java, libicu4j-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, libtruth-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8e1c9b5b3eeb0c1dcc53a05443c68f26 2106 jimfs_1.1-6.dsc
+ fa88ac283d2ae2ea114e529ce81b3f82 150434 jimfs_1.1.orig.tar.gz
+ 7e112cea8f32ab0012d1fbfaff3d51eb 4388 jimfs_1.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jimfs
+Vcs-Git: https://salsa.debian.org/java-team/jimfs.git
+Checksums-Sha256:
+ 22b2b6710e2d0869742f6e2193eeab9fc306753faba13d4ebc49a8b99abc81f3 2106 jimfs_1.1-6.dsc
+ 756e33ad910e4f2a15c3704b8e0d97d23b41b001f258a9a53c484d8752cdfdbc 150434 jimfs_1.1.orig.tar.gz
+ 3578384539cbc54166c1268a64df9e4149bc5e053d72422fa02e113a900dcbed 4388 jimfs_1.1-6.debian.tar.xz
+Homepage: https://github.com/google/jimfs
+Package-List: 
+ libjimfs-java deb java optional arch=all
+ libjimfs-java-doc deb doc optional arch=all
+Directory: pool/main/j/jimfs
+Priority: optional
+Section: misc

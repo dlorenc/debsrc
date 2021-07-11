@@ -1,0 +1,26 @@
+Package: node-raw-body
+Binary: node-raw-body
+Version: 2.4.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), mocha (>= 4) <!nocheck>, node-bytes (>= 3.0.0) <!nocheck>, node-http-errors <!nocheck>, node-iconv <!nocheck>, node-unpipe <!nocheck>, node-readable-stream <!nocheck>, node-safe-buffer <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c462518b61f2b00b558173ade9119685 2232 node-raw-body_2.4.1-2.dsc
+ 119d420d45bf41be0da629fe442910b5 12580 node-raw-body_2.4.1.orig.tar.gz
+ b583a2035718e90d42e884e6eebef503 3624 node-raw-body_2.4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-raw-body
+Vcs-Git: https://salsa.debian.org/js-team/node-raw-body.git
+Checksums-Sha256:
+ c8aa7a78df67b3317916bac591dfacf5e60e26958cfb078579a7583683121604 2232 node-raw-body_2.4.1-2.dsc
+ 9135e047eac2b78e367e808562b818dfa519ec85de40e228a61a2e0c373ac1bf 12580 node-raw-body_2.4.1.orig.tar.gz
+ f2f2d9f178c94dd761c78e11771cb9cc22eff726c2b217631a8645a78e2dfd4f 3624 node-raw-body_2.4.1-2.debian.tar.xz
+Homepage: https://github.com/stream-utils/raw-body
+Package-List: 
+ node-raw-body deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-raw-body
+Priority: optional
+Section: javascript

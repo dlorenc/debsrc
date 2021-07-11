@@ -1,0 +1,26 @@
+Package: node-vasync
+Binary: node-vasync
+Version: 2.2.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: suman rajan <suman@protonmail.com>
+Build-Depends: debhelper-compat (= 12), nodejs (>= 6), node-verror, node-tap, nodeunit, pkg-js-tools (>= 0.9.3)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ceb36b4aa0b3c3604d20adcb14686f4d 2063 node-vasync_2.2.0-2.dsc
+ 90265b71add915fb6fc20916d3029abb 28933 node-vasync_2.2.0.orig.tar.gz
+ 6e6794416406349ae610da10654229c6 2680 node-vasync_2.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-vasync
+Vcs-Git: https://salsa.debian.org/js-team/node-vasync.git
+Checksums-Sha256:
+ 7a5b98f9da36316f626a6724d8a86a87927b9e64876a9f9c7eb336a0a9e83231 2063 node-vasync_2.2.0-2.dsc
+ d804add8de3197f48642bfc322bd7ef7dd5ff3b579493a813ec58442de3d003e 28933 node-vasync_2.2.0.orig.tar.gz
+ 0b4f60848de56834005af01212209272fb209cd2ad1d15fe6b11b8605c94230c 2680 node-vasync_2.2.0-2.debian.tar.xz
+Homepage: https://github.com/davepacheco/node-vasync
+Package-List: 
+ node-vasync deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-vasync
+Priority: extra
+Section: misc

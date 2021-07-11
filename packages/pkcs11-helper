@@ -1,0 +1,26 @@
+Package: pkcs11-helper
+Binary: libpkcs11-helper1-dev, libpkcs11-helper1
+Version: 1.27-1
+Maintainer: Debian OpenSC Maintainers <pkg-opensc-maint@lists.alioth.debian.org>
+Uploaders: Eric Dorland <eric@debian.org>
+Build-Depends: debhelper-compat (= 12), doxygen, libssl-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0.0
+Format: 3.0 (quilt)
+Files:
+ 695c3d30201e79799004d97167965ccb 2084 pkcs11-helper_1.27-1.dsc
+ f3eb32bcc29af4dbdcb7f77b2889442d 422425 pkcs11-helper_1.27.orig.tar.bz2
+ baa21a9554729575c33ba05d8884e302 5324 pkcs11-helper_1.27-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/opensc-team/pkcs11-helper
+Vcs-Git: https://salsa.debian.org/opensc-team/pkcs11-helper.git
+Checksums-Sha256:
+ 1b89882f421304016c4309adb8d9e550c19e072d6b14ec31004141cbc761ebb1 2084 pkcs11-helper_1.27-1.dsc
+ 653730f0c561bbf5941754c0783976113589b2dc64a0661c908dc878bfa4e58b 422425 pkcs11-helper_1.27.orig.tar.bz2
+ 899fe08f38ec133b05ac6ccd9bb2457f77421ab39e547662c9620ae580f01346 5324 pkcs11-helper_1.27-1.debian.tar.xz
+Homepage: https://github.com/OpenSC/pkcs11-helper
+Package-List: 
+ libpkcs11-helper1 deb libs optional arch=any
+ libpkcs11-helper1-dev deb libdevel optional arch=any
+Directory: pool/main/p/pkcs11-helper
+Priority: source
+Section: libs

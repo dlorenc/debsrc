@@ -1,0 +1,25 @@
+Package: verilator
+Binary: verilator
+Version: 4.038-1
+Maintainer: Debian Electronics Team <pkg-electronics-devel@lists.alioth.debian.org>
+Uploaders: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+Build-Depends: debhelper-compat (= 13), flex, bison, libfl-dev, libsystemc-dev [amd64 arm64 i386 kfreebsd-any], python3
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fe17c5397acabdee5a1b5f09d0bc7c64 1778 verilator_4.038-1.dsc
+ fd742da3b03635956dd62d746b3a0d5a 2703465 verilator_4.038.orig.tar.gz
+ 8512e30a7e6ab48eb8259bcc3f8375b7 9580 verilator_4.038-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/electronics-team/verilator
+Vcs-Git: https://salsa.debian.org/electronics-team/verilator.git
+Checksums-Sha256:
+ 226fa7fd0c77ce442c3013c462837436b53977ec33c6dcaa148706dd9fe31d1b 1778 verilator_4.038-1.dsc
+ fa004493216034ac3e26b21b814441bd5801592f4f269c5a4672e3351d73b515 2703465 verilator_4.038.orig.tar.gz
+ 9ab0fcd0923b316fcfd27cfa188a47b55dec8c1b7a8ac600006166a0829820dd 9580 verilator_4.038-1.debian.tar.xz
+Homepage: http://www.veripool.org/wiki/verilator
+Package-List: 
+ verilator deb electronics optional arch=any
+Directory: pool/main/v/verilator
+Priority: source
+Section: electronics

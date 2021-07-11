@@ -1,0 +1,27 @@
+Package: ruby-vips
+Binary: ruby-vips
+Version: 2.0.17-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Jongmin Kim <jmkim@pukyong.ac.kr>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, libglib2.0-dev, libvips-dev, ruby-ffi, ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 55bac8f71a0bff53efe587e6ec5245b7 2122 ruby-vips_2.0.17-1.dsc
+ 83d2a9643fdaef52151d44adb3e5c159 4405565 ruby-vips_2.0.17.orig.tar.gz
+ 50c177dcf24900a0015881f6bc341402 2276 ruby-vips_2.0.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-vips
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-vips.git
+Checksums-Sha256:
+ 072462d4bd71af179a6394d818e887b484248ae3a161f96a79ded1ce2633b112 2122 ruby-vips_2.0.17-1.dsc
+ 8a5a296b583e922740e5510f0bac6802bc902a039a780fd22ec929341a54cc36 4405565 ruby-vips_2.0.17.orig.tar.gz
+ 2cdc02e3185c1d5aedc9e6389ac02ab55e9ee2406edffb3c2ae352b38ea7887c 2276 ruby-vips_2.0.17-1.debian.tar.xz
+Homepage: https://github.com/jcupitt/ruby-vips
+Package-List: 
+ ruby-vips deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-vips
+Priority: extra
+Section: misc

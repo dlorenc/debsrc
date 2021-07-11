@@ -1,0 +1,30 @@
+Package: libkf5libkdepim
+Binary: libkf5libkdepim-data, libkf5libkdepim-dev, libkf5libkdepim-plugins, libkf5libkdepim5
+Version: 4:20.08.3-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Sandro Knauß <hefee@debian.org>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), extra-cmake-modules (>= 5.71.0~), gettext, libkf5codecs-dev (>= 5.71.0~), libkf5completion-dev (>= 5.71.0~), libkf5config-dev (>= 5.71.0~), libkf5configwidgets-dev (>= 5.71.0~), libkf5contacts-dev (>= 5:5.68.0~), libkf5coreaddons-dev (>= 5.71.0~), libkf5i18n-dev (>= 5.71.0~), libkf5itemviews-dev (>= 5.71.0~), libkf5jobwidgets-dev (>= 5.71.0~), libkf5kcmutils-dev (>= 5.71.0~), libkf5kio-dev (>= 5.71.0~), libkf5wallet-dev (>= 5.68.0~), libkf5widgetsaddons-dev (>= 5.71.0~), pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.13.0~), qttools5-dev, xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4480f64e83032f896a12611664eca90e 3136 libkf5libkdepim_20.08.3-1.dsc
+ 0c702ba5e1578b00f0cd57de158901b3 249656 libkf5libkdepim_20.08.3.orig.tar.xz
+ 208149e805ac09f9960d669d2a6735bf 488 libkf5libkdepim_20.08.3.orig.tar.xz.asc
+ 306ccecfeafd5a5546d6ecfac2afea00 10028 libkf5libkdepim_20.08.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/libkdepim
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/libkdepim.git
+Checksums-Sha256:
+ 475c3565994daa430a0f0ca9d3010bcfb753bb31b50530aa239c0ce056b925dd 3136 libkf5libkdepim_20.08.3-1.dsc
+ c60dd7e0605b96baa34f453160680c6923f7e4eda5eb8b60beb8e9b20578e7ec 249656 libkf5libkdepim_20.08.3.orig.tar.xz
+ 7f795b15b604baeaab69df45db76e1286cc968c8fd0142e3de07e6d8992f2f57 488 libkf5libkdepim_20.08.3.orig.tar.xz.asc
+ 2e305d95508783542bb88046c820219dc2615778412c3da507fab7f0613722cf 10028 libkf5libkdepim_20.08.3-1.debian.tar.xz
+Homepage: https://invent.kde.org/pim/libkdepim
+Package-List: 
+ libkf5libkdepim-data deb libs optional arch=all
+ libkf5libkdepim-dev deb libdevel optional arch=any
+ libkf5libkdepim-plugins deb libs optional arch=any
+ libkf5libkdepim5 deb libs optional arch=any
+Directory: pool/main/libk/libkf5libkdepim
+Priority: optional
+Section: misc

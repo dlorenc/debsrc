@@ -1,0 +1,27 @@
+Package: qutip
+Binary: python3-qutip
+Version: 4.5.3-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-setuptools, cython3 (>= 0.21), python3-matplotlib, python3-numpy (>= 1.12), python3-scipy (>= 1.0), python3-nose2, python3-pytest
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cc4f22de6ac1b92a629c64d3bf227e17 2207 qutip_4.5.3-1.dsc
+ d88105378fec0dfb6e877375dd8db262 569401 qutip_4.5.3.orig.tar.gz
+ 5dfff43902a6b17ffcca0879b45c64d7 5312 qutip_4.5.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/qutip
+Vcs-Git: https://salsa.debian.org/science-team/qutip.git
+Checksums-Sha256:
+ 5c85e1f9302fa6f86be83e21d4a9424c8ec6318e6f6f25cc306b02f230ecb4d5 2207 qutip_4.5.3-1.dsc
+ 89658edecf730f720f2febc60bf7994bcf8659323c0a901d5ac12a8e7b2894cc 569401 qutip_4.5.3.orig.tar.gz
+ 2644684e7304565a08f3834889e7c3c115ce48242d2cd91e5547759dd1d50b4b 5312 qutip_4.5.3-1.debian.tar.xz
+Homepage: http://qutip.org/
+Package-List: 
+ python3-qutip deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: cython3, python3-all-dev, python3-matplotlib, python3-numpy, python3-pytest, python3-scipy
+Directory: pool/main/q/qutip
+Priority: extra
+Section: misc

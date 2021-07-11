@@ -1,0 +1,26 @@
+Package: j2cli
+Binary: j2cli
+Version: 0.3.12b-2
+Maintainer: gustavo panizzo <gfa@zumbi.com.ar>
+Uploaders: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-jinja2, python3-markupsafe, python3-nose, python3-setuptools, python3-yaml
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 007455163d2d237dbf32fc10d5ad9dfc 1466 j2cli_0.3.12b-2.dsc
+ e5f3c80b38a2a21cd60b437d1ec1fbd2 16727 j2cli_0.3.12b.orig.tar.gz
+ 06c700f2a99f0138cd4b9570419e6ca8 3280 j2cli_0.3.12b-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/j2cli
+Vcs-Git: https://salsa.debian.org/python-team/packages/j2cli.git
+Checksums-Sha256:
+ 3ecf68098ec651ecdc0fdaaa7e4acc9a1d7183bdbd5558afe4a90a76ccadc067 1466 j2cli_0.3.12b-2.dsc
+ 8aca44171ce4bee9a9bd6b8aaec006524154809127e8474871fa8fd4aeaf1648 16727 j2cli_0.3.12b.orig.tar.gz
+ d0402ea57d09387a797039d82b7b2b9f3c0d9c60c5786e9784d883ccb8c17bd2 3280 j2cli_0.3.12b-2.debian.tar.xz
+Homepage: https://github.com/kolypto/j2cli
+Package-List: 
+ j2cli deb utils optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/j/j2cli
+Priority: extra
+Section: misc

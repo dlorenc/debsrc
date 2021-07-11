@@ -1,0 +1,25 @@
+Package: osmcoastline
+Binary: osmcoastline
+Version: 2.3.0-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), cmake, libbz2-dev, libexpat1-dev, libgdal-dev, libgeos++-dev, libosmium2-dev (>= 2.16.0), libgdalcpp-dev, libspatialite-dev, pandoc, spatialite-bin, sqlite3, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e889f2b99ceaf4e6cd642d6f098cb0c0 2123 osmcoastline_2.3.0-1.dsc
+ 8791b2097e5417e325180ed5c5c88c92 109078 osmcoastline_2.3.0.orig.tar.gz
+ 830012952e0fb9ad255f7c7696fef72b 4032 osmcoastline_2.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/osmcoastline
+Vcs-Git: https://salsa.debian.org/debian-gis-team/osmcoastline.git
+Checksums-Sha256:
+ 532d6b9e78a79402daa8cb95f8badc3b7b59b1c0d351b03f8c30c08de33ef613 2123 osmcoastline_2.3.0-1.dsc
+ b08ddcc8cb494a19cbf4d9f1501c47443fe374a4fe171e6f55c730ca1e710689 109078 osmcoastline_2.3.0.orig.tar.gz
+ 523d3089f443fe6a6e6ab0105da78c356181e0a1123d73de8d4c739e8d11a2db 4032 osmcoastline_2.3.0-1.debian.tar.xz
+Homepage: https://osmcode.org/osmcoastline/
+Package-List: 
+ osmcoastline deb utils optional arch=any
+Directory: pool/main/o/osmcoastline
+Priority: optional
+Section: misc

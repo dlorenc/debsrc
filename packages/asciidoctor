@@ -1,0 +1,30 @@
+Package: asciidoctor
+Binary: ruby-asciidoctor, asciidoctor, asciidoctor-doc
+Version: 2.0.12-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Per Andersson <avtobiff@gmail.com>, Guillaume Grossetie <ggrossetie@gmail.com>
+Build-Depends: coderay, debhelper-compat (= 13), erubis, gem2deb, locales, rake, ruby, ruby-erubi, ruby-haml, ruby-htmlentities, ruby-mocha, ruby-nokogiri (>= 1.5.10), ruby-rouge, ruby-slim, ruby-concurrent, ruby-tilt
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 395f2af77903b9232f2d24ce93cb29dd 2028 asciidoctor_2.0.12-2.dsc
+ 43127bd079ed674bb94170fe335031da 625448 asciidoctor_2.0.12.orig.tar.gz
+ b158363e376b088f8044bbef6a971f4b 8520 asciidoctor_2.0.12-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/asciidoctor
+Vcs-Git: https://salsa.debian.org/ruby-team/asciidoctor.git
+Checksums-Sha256:
+ 7fc38dd7fc066ba06df5ac4a7645b7b1a14a76ce732ab51270e4503867c4f1fb 2028 asciidoctor_2.0.12-2.dsc
+ cd98047c68bf1074a7058b174c93a64f2bd39c2f33941398f6889c562ed5bce8 625448 asciidoctor_2.0.12.orig.tar.gz
+ 14b4903f07fbcf3643c3f3b12f68ceed2b6ac1c1c6610713f9a7b49d6e6c3bea 8520 asciidoctor_2.0.12-2.debian.tar.xz
+Homepage: https://asciidoctor.org
+Package-List: 
+ asciidoctor deb text optional arch=all
+ asciidoctor-doc deb doc optional arch=all
+ ruby-asciidoctor deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/a/asciidoctor
+Priority: optional
+Section: misc

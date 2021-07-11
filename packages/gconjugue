@@ -1,0 +1,28 @@
+Package: gconjugue
+Binary: gconjugue, gconjugue-common, conjugar
+Version: 0.8.3-7
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), intltool, libgraphite2-dev, libgtk-3-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ df130ccb35c66c5f00b592f8600995d4 2061 gconjugue_0.8.3-7.dsc
+ 6b6399bd3a57f7a8f7ea6977db4ae80d 440692 gconjugue_0.8.3.orig.tar.gz
+ e6fe51f31237d051334a2be118866c47 5240 gconjugue_0.8.3-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/gconjugue
+Vcs-Git: https://salsa.debian.org/debian/gconjugue.git
+Checksums-Sha256:
+ 447bf91a6bc0c66f327a495203b69c291463f6f223fc33098870c26761158fab 2061 gconjugue_0.8.3-7.dsc
+ 55a358de3248d00e00eb39dfffaa743f7e15ab261617665284ec137aa1e1e090 440692 gconjugue_0.8.3.orig.tar.gz
+ fc5075ad704605f57c9066762e2966361e2a07b9e1136e618b89de0077d0d099 5240 gconjugue_0.8.3-7.debian.tar.xz
+Homepage: https://github.com/jalvesaq/gconjugue
+Package-List: 
+ conjugar deb misc optional arch=any
+ gconjugue deb misc optional arch=any
+ gconjugue-common deb misc optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/g/gconjugue
+Priority: source
+Section: misc

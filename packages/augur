@@ -1,0 +1,27 @@
+Package: augur
+Binary: augur
+Version: 11.0.0-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, mafft, python3-all, python3-setuptools, python3-pytest <!nocheck>, python3-pytest-mock <!nocheck>, python3-biopython <!nocheck>, python3-jsonschema <!nocheck>, python3-packaging <!nocheck>, python3-pandas <!nocheck>, python3-treetime <!nocheck>, python3-freezegun <!nocheck>, vcftools <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 74a51090edfc010fee3821ad43f5d5fa 2379 augur_11.0.0-1.dsc
+ 129ecfff33418ee86bd41d14ede4e8dd 11187287 augur_11.0.0.orig.tar.gz
+ 9d6ecaf7291415124508a776c06025f2 14024 augur_11.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/augur
+Vcs-Git: https://salsa.debian.org/med-team/augur.git
+Checksums-Sha256:
+ 51377d50f7420637ab613f60b43d6fe8b44c5050b99167b6e5b99d1b6a5795a5 2379 augur_11.0.0-1.dsc
+ bc1a2026adb0f1e9de9d04c44a1b23885bea2caf49594971f4765d1549b91ad7 11187287 augur_11.0.0.orig.tar.gz
+ 7ba7cb0bb348ac962f5b7b460c8c63249188c3907bedda54cc7a3daccb1685d5 14024 augur_11.0.0-1.debian.tar.xz
+Homepage: https://github.com/nextstrain/augur
+Package-List: 
+ augur deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-freezegun, python3-pytest, python3-pytest-mock
+Directory: pool/main/a/augur
+Priority: extra
+Section: misc

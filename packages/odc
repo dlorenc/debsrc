@@ -1,0 +1,26 @@
+Package: odc
+Binary: libodc-0d, odc, libodc-dev
+Version: 1.2.0-1
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-fortran-mod, ecbuild (>= 3.3.0-3), gfortran | fortran-compiler, libeckit-dev, patchelf
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1705c60dd352394b6ce6d13cb40efcce 2008 odc_1.2.0-1.dsc
+ 405f32a4f4655db221d1c7d0b1805ca3 196460 odc_1.2.0.orig.tar.xz
+ f7918c661c65f791a8c411b18ebaae0e 3580 odc_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org:/science-team/odc.git
+Vcs-Git: https://salsa.debian.org:/science-team/odc.git -b debian/latest
+Checksums-Sha256:
+ 9812a7cb41c6aede14388a98cef8b5766854fd15fe09b27940ec35677990daa1 2008 odc_1.2.0-1.dsc
+ e7f8cf51672cd22abf9058b00c1feb2942cc4afcdac2e743713e77611240f142 196460 odc_1.2.0.orig.tar.xz
+ 2ac7ba327bb2dee7709b4083b1ea1a540c6efb0166287a175e93fcdbaac3058b 3580 odc_1.2.0-1.debian.tar.xz
+Homepage: https://github.com/ecmwf/odc
+Package-List: 
+ libodc-0d deb libs optional arch=any
+ libodc-dev deb libdevel optional arch=any
+ odc deb utils optional arch=any
+Directory: pool/main/o/odc
+Priority: extra
+Section: misc

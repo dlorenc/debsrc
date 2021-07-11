@@ -1,0 +1,27 @@
+Package: golang-github-go-openapi-loads
+Binary: golang-github-go-openapi-loads-dev
+Version: 0.15.0-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang (>= 1.31), golang-any, golang-github-go-openapi-analysis-dev, golang-github-go-openapi-spec-dev (>= 1:0.15.0~), golang-github-go-openapi-swag-dev (>= 1:0.15.0~), golang-github-stretchr-testify-dev, golang-gopkg-yaml.v2-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 761fb6e183c0365b07c778e21b47c369 2479 golang-github-go-openapi-loads_0.15.0-1.dsc
+ 98dbc492213f76eb5d4e3d4c55f59125 37844 golang-github-go-openapi-loads_0.15.0.orig.tar.gz
+ 7eea15b755e41459bbf0530fff5f8e02 2624 golang-github-go-openapi-loads_0.15.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-go-openapi-loads
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-go-openapi-loads.git
+Checksums-Sha256:
+ 11e8d83f94b1bf9935f4f18ba73d184299144d9bc21089b57e5974066140956a 2479 golang-github-go-openapi-loads_0.15.0-1.dsc
+ 3d623044a018972c1d129a20bb54fc8b1751dbfd96fa33f0d430e40df7e0aa76 37844 golang-github-go-openapi-loads_0.15.0.orig.tar.gz
+ 9e063644f2a55059b7e58b78544aca340330d04f942c47924f64a2e4ccb0516d 2624 golang-github-go-openapi-loads_0.15.0-1.debian.tar.xz
+Homepage: https://github.com/go-openapi/loads
+Go-Import-Path: github.com/go-openapi/loads
+Package-List: 
+ golang-github-go-openapi-loads-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-go-openapi-loads
+Priority: extra
+Section: golang

@@ -1,0 +1,24 @@
+Package: bsdmainutils
+Binary: bsdmainutils, ncal, calendar
+Version: 12.1.7+nmu3
+Maintainer: Debian Bsdmainutils Team <pkg-bsdmainutils@teams.debian.net>
+Uploaders: Michael Meskes <meskes@debian.org>
+Build-Depends: debhelper-compat (= 13), quilt (>= 0.40), libbsd-dev, libncurses-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ c008b22ba65928c50e30ce097395bd0a 1804 bsdmainutils_12.1.7+nmu3.dsc
+ 0af810add4e1d8b895fee0cdafc648cc 173140 bsdmainutils_12.1.7+nmu3.tar.xz
+Vcs-Browser: https://salsa.debian.org/meskes/bsdmainutils
+Vcs-Git: https://salsa.debian.org/meskes/bsdmainutils.git
+Checksums-Sha256:
+ 41358bd2f6de9f61a94eda02f7a7f2736292aef30693dee2703da803d060beca 1804 bsdmainutils_12.1.7+nmu3.dsc
+ 7d3788fb1e5f432285c66d6e01dcb2311eadbe4514ee025e1cf554b3ca957dc3 173140 bsdmainutils_12.1.7+nmu3.tar.xz
+Package-List: 
+ bsdmainutils deb oldlibs optional arch=all
+ calendar deb utils optional arch=any
+ ncal deb utils optional arch=any
+Directory: pool/main/b/bsdmainutils
+Priority: source
+Section: oldlibs

@@ -1,0 +1,30 @@
+Package: breezy
+Binary: brz, python3-breezy, python3-breezy.tests, brz-doc
+Version: 3.1.0-8
+Maintainer: Debian Breezy Maintainers <pkg-bazaar-maint@lists.alioth.debian.org>
+Uploaders: Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: bash-completion, ca-certificates, dh-python, debhelper (>= 12), fdupes, cython3-dbg (>= 0.17), python3 (>= 2.6.6-3), python3-all-dbg (>= 2.6.6-3), python3-all-dev (>= 2.6.6-3), python3-configobj (>= 4.7.2+ds-2), python3-coverage <!nocheck>, python3-dulwich (>= 0.19.11), python3-docutils, python3-fastimport (>= 0.9.8), python3-launchpadlib, python3-paramiko, python3-patiencediff, python3-six, python3-sphinx (>= 1.0.7+dfsg), python3-subunit <!nocheck>, python3-testtools (>= 0.9.5~) <!nocheck>, debhelper-compat (= 12)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dd5a0d2d49385443a406b878ae179494 2716 breezy_3.1.0-8.dsc
+ 23eeb242daf6e4ce4d750cedbd97c89e 9389366 breezy_3.1.0.orig.tar.gz
+ fabfee9c847855b8a91bb5ab141c96c9 58144 breezy_3.1.0-8.debian.tar.xz
+Vcs-Browser: https://code.breezy-vcs.org/breezy/unstable
+Vcs-Bzr: https://code.breezy-vcs.org/breezy/unstable
+Checksums-Sha256:
+ 9accf2190c16edf010ea7c44b4783e8a840783f2c304cd7fe8be56d7492b7690 2716 breezy_3.1.0-8.dsc
+ 1eff207403f48898fa3b3ffa7a4275197c6c58fec105ef267caf1f5fd5a6c7be 9389366 breezy_3.1.0.orig.tar.gz
+ e73a5ada809d9b594ec1fbbfc3bbc12a067908f6968833d57f1990bda6562ab6 58144 breezy_3.1.0-8.debian.tar.xz
+Homepage: https://www.breezy-vcs.org/
+Package-List: 
+ brz deb vcs optional arch=all
+ brz-doc deb doc optional arch=all
+ python3-breezy deb python optional arch=any
+ python3-breezy.tests deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ca-certificates, python3-coverage, python3-dulwich, python3-launchpadlib, python3-subunit
+Directory: pool/main/b/breezy
+Priority: extra
+Section: misc

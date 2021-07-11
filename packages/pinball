@@ -1,0 +1,28 @@
+Package: pinball
+Binary: pinball, pinball-dev, pinball-data
+Version: 0.3.20201218-4
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Philippe Coval <rzr@users.sf.net>
+Build-Depends: debhelper-compat (= 13), libgl1-mesa-dev, libjpeg62-turbo-dev | libjpeg-dev, libpng-dev, libsdl1.2-dev, freeglut3-dev, libsdl-image1.2-dev, libsdl-mixer1.2-dev, libogg-dev, libvorbis-dev, opensp, sgmlspl, docbook, docbook-utils, libasound2-dev [linux-any], autoconf, automake, libtool-bin, libltdl-dev, pkg-config
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ee36adae26088fcc34fc68fc37e99086 2401 pinball_0.3.20201218-4.dsc
+ ec2857c7e174e40cb4564e6e99556d61 6054158 pinball_0.3.20201218.orig.tar.gz
+ 2b4b3ca522581b8f6958b2a76eb7cbf5 10836 pinball_0.3.20201218-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/pinball/-/tree/debian/master
+Vcs-Git: https://salsa.debian.org/games-team/pinball.git
+Checksums-Sha256:
+ 0aaf8d00c3827402e3156e51c945a5fb036672df611f645f885f4d6b5fe33581 2401 pinball_0.3.20201218-4.dsc
+ 61981c192630f3c99865dc3b3d095df94e97ede9d7df0e8d8601eb39eef54c6d 6054158 pinball_0.3.20201218.orig.tar.gz
+ 6433942fd9d7398839144bba720978966296883f879d9f77b1e4c9cdef66f9de 10836 pinball_0.3.20201218-4.debian.tar.xz
+Homepage: https://sourceforge.net/projects/pinball/
+Package-List: 
+ pinball deb games optional arch=any
+ pinball-data deb games optional arch=all
+ pinball-dev deb games optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/pinball
+Priority: source
+Section: games

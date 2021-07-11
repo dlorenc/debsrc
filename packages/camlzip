@@ -1,0 +1,29 @@
+Package: camlzip
+Binary: libzip-ocaml, libzip-ocaml-dev
+Version: 1.10-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>, Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), zlib1g-dev (>> 1.1.4), ocaml-nox (>= 4.02), ocaml-findlib, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 75cef1f32c56920d444b330ded68f902 1889 camlzip_1.10-1.dsc
+ 97efd563735b4b6e7ae463b91aa72405 27335 camlzip_1.10.orig.tar.gz
+ 739e603d4c51fa123960c798624f0a41 6532 camlzip_1.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/camlzip
+Vcs-Git: https://salsa.debian.org/ocaml-team/camlzip.git
+Checksums-Sha256:
+ 69ab1dc8b57cf1ba7165e1a411803d544ae243817e71497eb72ef1422f30eb85 1889 camlzip_1.10-1.dsc
+ 5f461c733690de515e2448932208d2499d738b7d8a14cb6666c3f4145a727db2 27335 camlzip_1.10.orig.tar.gz
+ e8e27392542b314dc2ead442866de52a52c430bfbc36f92aa1a2c7f49928b31d 6532 camlzip_1.10-1.debian.tar.xz
+Homepage: https://github.com/xavierleroy/camlzip/
+Dgit: feee0bf3b5d1afe41e442dd9c5f96e3d94cd695b debian archive/debian/1.10-1 https://git.dgit.debian.org/camlzip
+Package-List: 
+ libzip-ocaml deb ocaml optional arch=any
+ libzip-ocaml-dev deb ocaml optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ocaml-nox
+Directory: pool/main/c/camlzip
+Priority: source
+Section: devel

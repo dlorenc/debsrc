@@ -1,0 +1,28 @@
+Package: golang-github-google-wire
+Binary: golang-github-google-wire-dev, google-wire
+Version: 0.4.0-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec, dh-golang, golang-any, golang-github-google-go-cmp-dev (>= 0.2.0~), golang-github-google-subcommands-dev (>= 1.0.1~), golang-github-pmezard-go-difflib-dev (>= 1.0.0~), golang-golang-x-tools-dev (>= 1:0.0~git20190422.fe54fb3~)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9835ee985ec9001ccd98f0c774612680 2458 golang-github-google-wire_0.4.0-3.dsc
+ 20259cfb03e5cb106ceabec44f1c5d0a 87136 golang-github-google-wire_0.4.0.orig.tar.gz
+ dfcfa5c0e86dcf8c5a009facc0f57c19 2896 golang-github-google-wire_0.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-google-wire
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-google-wire.git
+Checksums-Sha256:
+ a61a14756c005c28f2db8645770687b019d4069d7661ac790c59f9dae7534571 2458 golang-github-google-wire_0.4.0-3.dsc
+ dacea2edfd662d5206269bf7c99f9c3a1b0ab9f74d01255ea22faf68ad9c16c1 87136 golang-github-google-wire_0.4.0.orig.tar.gz
+ 14b7b49eeaf09791d9e6daf08bfcabafdcd9bbef4b2684e478671d082915b549 2896 golang-github-google-wire_0.4.0-3.debian.tar.xz
+Homepage: https://github.com/google/wire
+Go-Import-Path: github.com/google/wire
+Package-List: 
+ golang-github-google-wire-dev deb devel optional arch=all
+ google-wire deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-google-wire
+Priority: extra
+Section: golang

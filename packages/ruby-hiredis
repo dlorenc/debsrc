@@ -1,0 +1,27 @@
+Package: ruby-hiredis
+Binary: ruby-hiredis
+Version: 0.6.3-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 11), gem2deb, libhiredis-dev (>= 0.14.0), netcat-openbsd
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4431eccc76335669bcc3d1df2162f83f 2114 ruby-hiredis_0.6.3-2.dsc
+ 270b44344c9f3a0f44151f8cd823a6e4 19106 ruby-hiredis_0.6.3.orig.tar.gz
+ c1aab4ca54e5c5e0da2191f51aa6afb2 5960 ruby-hiredis_0.6.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-hiredis
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-hiredis.git
+Checksums-Sha256:
+ e09eddd6fefd879672148c9dbd25b35e6f522557f5f7a9822d029a64aebd9aa0 2114 ruby-hiredis_0.6.3-2.dsc
+ 181812a1aec31e8b438269f20ed57d27e0116def01a05505c492b59e16ed1632 19106 ruby-hiredis_0.6.3.orig.tar.gz
+ 5a5b5c629bce8bc28d442465b40d87e9221eb655cf5761106eb4fd5c1326ce79 5960 ruby-hiredis_0.6.3-2.debian.tar.xz
+Homepage: https://github.com/redis/hiredis-rb
+Package-List: 
+ ruby-hiredis deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-hiredis
+Priority: source
+Section: misc

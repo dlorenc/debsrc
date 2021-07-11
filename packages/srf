@@ -1,0 +1,26 @@
+Package: srf
+Binary: srf-doc, libsrf-dev
+Version: 0.1+dfsg-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), libcurl4-gnutls-dev, libstaden-read-dev, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2ffa22d4f1fefc512414fc42bb525b78 2050 srf_0.1+dfsg-7.dsc
+ 2ed900b5b8eaa55ad32fc42f0bf6dbfe 1141961 srf_0.1+dfsg.orig.tar.gz
+ 39ba5651e0e3fc9aa846be8d2731accb 5268 srf_0.1+dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/srf
+Vcs-Git: https://salsa.debian.org/med-team/srf.git
+Checksums-Sha256:
+ 913a12629bc541abf0be12ec9f9db56b1183a53685c238f43527cc6df2ebfd49 2050 srf_0.1+dfsg-7.dsc
+ 1a2a221e3560c4eb1a140fc0ee6b9fb23d8aa622819625c66fca1089094ae863 1141961 srf_0.1+dfsg.orig.tar.gz
+ e3a1d5225760f0048945d6c569f4546a09d81a5dac3c09aca1dc8bf8b1f581e9 5268 srf_0.1+dfsg-7.debian.tar.xz
+Homepage: http://srf.sourceforge.net/
+Package-List: 
+ libsrf-dev deb libdevel optional arch=any
+ srf-doc deb doc optional arch=all
+Directory: pool/main/s/srf
+Priority: source
+Section: science

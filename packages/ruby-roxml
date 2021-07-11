@@ -1,0 +1,27 @@
+Package: ruby-roxml
+Binary: ruby-roxml
+Version: 4.0.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper (>= 12~), gem2deb, rake, ruby-activerecord (>= 2:4.0), ruby-activesupport (>= 2:4.0), ruby-nokogiri (>= 1.3.3), ruby-rspec, ruby-sqlite3, ruby-test-unit
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 359bb9c88bc8e6b8c1ecea173f784643 2175 ruby-roxml_4.0.0-2.dsc
+ 1a52cbc19dabaf2b574916b43516a417 61759 ruby-roxml_4.0.0.orig.tar.gz
+ 718d48294aaaa5053784565e38d78a6b 6432 ruby-roxml_4.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-roxml
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-roxml.git
+Checksums-Sha256:
+ 643e0d22c8201257baa4ea096da3736d0c2536c0833bbcdfa0923c0435389523 2175 ruby-roxml_4.0.0-2.dsc
+ 7586b22ad0be6144dd4e2e9fe4113bf6130dc665338b99d495d8d4dab3abd042 61759 ruby-roxml_4.0.0.orig.tar.gz
+ a2e2324ab6b07eb43de250404e9883896238f664e940599f9cc596730c2486cb 6432 ruby-roxml_4.0.0-2.debian.tar.xz
+Homepage: https://github.com/Empact/roxml
+Package-List: 
+ ruby-roxml deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-roxml
+Priority: source
+Section: misc

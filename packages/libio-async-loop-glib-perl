@@ -1,0 +1,28 @@
+Package: libio-async-loop-glib-perl
+Binary: libio-async-loop-glib-perl
+Version: 0.22-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: libglib-perl <!nocheck>, libio-async-perl (>= 0.77-2~) <!nocheck>, libtest-exception-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-refcount-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a34fe3f9e2aeaadf8883d93cd8e76fcc 2716 libio-async-loop-glib-perl_0.22-1.dsc
+ 0ae6104ec037e89f371dedc24ce1e160 14852 libio-async-loop-glib-perl_0.22.orig.tar.gz
+ 19fd47d8da840b382ea6dd5f090b0911 3060 libio-async-loop-glib-perl_0.22-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libio-async-loop-glib-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libio-async-loop-glib-perl.git
+Checksums-Sha256:
+ cba42c6eaba9aaf02d221ad5770931316eb69f55373fbfa320d08d43d8ea78bf 2716 libio-async-loop-glib-perl_0.22-1.dsc
+ 49aff93d69e605ad4b4a7cd89ef80abc32c4e7c9d600fcf9e087ee77f907b8d1 14852 libio-async-loop-glib-perl_0.22.orig.tar.gz
+ aa5ca0535bf00ef2dfefe6eb321192ab8902e4e29aefd7c6ab4f8802de47decb 3060 libio-async-loop-glib-perl_0.22-1.debian.tar.xz
+Homepage: https://metacpan.org/release/IO-Async-Loop-Glib
+Dgit: 72721ca14b3c1e767e970074872d36adbf0ac1eb debian archive/debian/0.22-1 https://git.dgit.debian.org/libio-async-loop-glib-perl
+Package-List: 
+ libio-async-loop-glib-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libi/libio-async-loop-glib-perl
+Priority: source
+Section: perl

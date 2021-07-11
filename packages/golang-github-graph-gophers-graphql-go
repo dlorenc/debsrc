@@ -1,0 +1,27 @@
+Package: golang-github-graph-gophers-graphql-go
+Binary: golang-github-graph-gophers-graphql-go-dev
+Version: 0.0~git20180609.bb97385-2.1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-opentracing-opentracing-go-dev
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ d74ebec2c418fe51be0ba0e7ae94676b 2551 golang-github-graph-gophers-graphql-go_0.0~git20180609.bb97385-2.1.dsc
+ f276ba62da5cad3a63a7d68e2a32af0b 123036 golang-github-graph-gophers-graphql-go_0.0~git20180609.bb97385.orig.tar.xz
+ 570e678ede67369f9fe55ca18683695c 2580 golang-github-graph-gophers-graphql-go_0.0~git20180609.bb97385-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-graph-gophers-graphql-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-graph-gophers-graphql-go.git
+Checksums-Sha256:
+ bef4f20921aadbba022dc52546c700031ef2e6c4d52ee69ea18594e0891e4456 2551 golang-github-graph-gophers-graphql-go_0.0~git20180609.bb97385-2.1.dsc
+ 5a0bb24b6457e76ff9f5230f443bb5fe5343307fe657870faedaa7a8beca56da 123036 golang-github-graph-gophers-graphql-go_0.0~git20180609.bb97385.orig.tar.xz
+ 0b4f43159544a5288f688039ed0e39860138bdbbff5839c8553182a4222375c9 2580 golang-github-graph-gophers-graphql-go_0.0~git20180609.bb97385-2.1.debian.tar.xz
+Homepage: https://github.com/graph-gophers/graphql-go
+Go-Import-Path: github.com/graph-gophers/graphql-go
+Package-List: 
+ golang-github-graph-gophers-graphql-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-graph-gophers-graphql-go
+Priority: extra
+Section: golang

@@ -1,0 +1,23 @@
+Package: iirish
+Binary: iirish, wirish, myspell-ga
+Version: 2.0-27.1
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper (>> 10), ispell (>> 3.4.00-1), perl, dictionaries-common-dev (>= 0.20)
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ca850b91add29cb3a6aa892ee215062a 1817 iirish_2.0-27.1.dsc
+ 813f41c51d7b3ddca8944217b1785a45 760372 iirish_2.0.orig.tar.gz
+ b2011033005f5cd242408eb96bb2f426 182412 iirish_2.0-27.1.debian.tar.xz
+Checksums-Sha256:
+ 8447ba2c93b7b1700e028e3e35734112078aace570424b0189ca283335d1d64a 1817 iirish_2.0-27.1.dsc
+ f9408201252839f514b544b6e39e0719f80f59d301be13c78bbeb44b5e565c5b 760372 iirish_2.0.orig.tar.gz
+ 45e23867e6ffd943735277028a9cf4d4b53b0455693e4fd7331dc43baeef86e8 182412 iirish_2.0-27.1.debian.tar.xz
+Package-List: 
+ iirish deb text optional arch=any
+ myspell-ga deb text optional arch=all
+ wirish deb text optional arch=all
+Directory: pool/main/i/iirish
+Priority: source
+Section: text

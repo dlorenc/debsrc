@@ -1,0 +1,28 @@
+Package: haskell-parallel
+Binary: libghc-parallel-dev, libghc-parallel-prof, libghc-parallel-doc
+Version: 3.2.2.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5e209781564fafe5ec13e59e5ecb2fe2 2326 haskell-parallel_3.2.2.0-3.dsc
+ 015e0adb3a9aebd73a1f69e22ddbb4d0 14681 haskell-parallel_3.2.2.0.orig.tar.gz
+ bfc053815d86a95998af3eaa3842f005 3948 haskell-parallel_3.2.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-parallel
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-parallel]
+Checksums-Sha256:
+ 2f91bbd26bfb07c153da07ecfd3c937e059439001f5867dc51942106366d0a8b 2326 haskell-parallel_3.2.2.0-3.dsc
+ 170453a71a2a8b31cca63125533f7771d7debeb639700bdabdd779c34d8a6ef6 14681 haskell-parallel_3.2.2.0.orig.tar.gz
+ 0e2d93b0cd656f6e74d455636a62b9fb34fc778c5b7504bfef21f5884cbf01b3 3948 haskell-parallel_3.2.2.0-3.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/parallel
+Package-List: 
+ libghc-parallel-dev deb haskell optional arch=any
+ libghc-parallel-doc deb doc optional arch=all
+ libghc-parallel-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-parallel
+Priority: source
+Section: haskell

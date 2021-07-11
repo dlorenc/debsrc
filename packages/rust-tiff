@@ -1,0 +1,26 @@
+Package: rust-tiff
+Binary: librust-tiff-dev
+Version: 0.5.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev (>= 1.2-~~) <!nocheck>, librust-lzw-0.10+default-dev <!nocheck>, librust-miniz-oxide-0.3+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 907f92156c7c1f3e9977c075229b3cb4 2200 rust-tiff_0.5.0-1.dsc
+ 21d270c1596d564b56428aa20abc7090 25569 rust-tiff_0.5.0.orig.tar.gz
+ fb9c6e1e116f300e8c1c9bedb6296393 3048 rust-tiff_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tiff
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tiff]
+Checksums-Sha256:
+ 0e2cd9f0b6ed521b044e4ce763327e2d11ed24d853ef8de5a916fe64b29883fc 2200 rust-tiff_0.5.0-1.dsc
+ 3f3b8a87c4da944c3f27e5943289171ac71a6150a79ff6bacfff06d159dfff2f 25569 rust-tiff_0.5.0.orig.tar.gz
+ a8a57022314fefb6c81e3fc42abf1d13dffab88252723358f34a9de8725a1676 3048 rust-tiff_0.5.0-1.debian.tar.xz
+Package-List: 
+ librust-tiff-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-tiff
+Priority: extra
+Section: misc

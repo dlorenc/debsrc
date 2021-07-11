@@ -1,0 +1,27 @@
+Package: zmk
+Binary: zmk, zmk-doc
+Version: 0.5-2
+Maintainer: Zygmunt Krynicki <me@zygoon.pl>
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ db60fe9ca68967bda1cc888997677b63 2053 zmk_0.5-2.dsc
+ 5ed6b855f70e85972094bab078944fdd 62128 zmk_0.5.orig.tar.gz
+ cf1fb3c02301956265b576d8ba8897f1 833 zmk_0.5.orig.tar.gz.asc
+ 49583eb374a91900d7082376f33e126c 209688 zmk_0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/zyga-guest/zmk
+Vcs-Git: https://salsa.debian.org/zyga-guest/zmk.git
+Checksums-Sha256:
+ bb30429b6f3c705db47b967777a4debde1e446954cccd016103d3dca0a6adef8 2053 zmk_0.5-2.dsc
+ b006f312aba2c6d7bc6d11e08709da7ce4b7dac71612a4a66491797158f1c30b 62128 zmk_0.5.orig.tar.gz
+ 37405707d02e2e65951176dccdab04bd0122022d9c553f5ded17a81f233e1863 833 zmk_0.5.orig.tar.gz.asc
+ 312cf56c75f0d964ff467df71831e2bd7e35a045f258f98ccf9a44accbc145c1 209688 zmk_0.5-2.debian.tar.xz
+Homepage: https://github.com/zyga/zmk
+Package-List: 
+ zmk deb libs optional arch=all
+ zmk-doc deb doc optional arch=all
+Directory: pool/main/z/zmk
+Priority: extra
+Section: misc

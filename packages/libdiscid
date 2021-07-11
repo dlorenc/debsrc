@@ -1,0 +1,28 @@
+Package: libdiscid
+Binary: libdiscid0, libdiscid-dev, libdiscid-doc
+Version: 0.6.2-3
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: doxygen, graphviz
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ f0cd6177bb460f147fe9adba1be850d6 2095 libdiscid_0.6.2-3.dsc
+ 2812bb678f5142efdfd0d0f7d6ea87d6 401455 libdiscid_0.6.2.orig.tar.gz
+ 4a96e89cbe700e06f30d1cd7151072c8 4940 libdiscid_0.6.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libdiscid
+Vcs-Git: https://salsa.debian.org/multimedia-team/libdiscid.git
+Checksums-Sha256:
+ 67b3975fcdd8e0770da9f1578356b8438f06fc15a068507d2654c2c40391bc45 2095 libdiscid_0.6.2-3.dsc
+ f9e443ac4c0dd4819c2841fcc82169a46fb9a626352cdb9c7f65dd3624cd31b9 401455 libdiscid_0.6.2.orig.tar.gz
+ 3d7ae81d620360738a2e47c3fc56045b88fe58652ad39c3f5120d9be75acefe7 4940 libdiscid_0.6.2-3.debian.tar.xz
+Homepage: https://musicbrainz.org/doc/libdiscid
+Package-List: 
+ libdiscid-dev deb libdevel optional arch=any
+ libdiscid-doc deb doc optional arch=all
+ libdiscid0 deb libs optional arch=any
+Directory: pool/main/libd/libdiscid
+Priority: source
+Section: libs

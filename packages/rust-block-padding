@@ -1,0 +1,26 @@
+Package: rust-block-padding
+Binary: librust-block-padding-dev
+Version: 0.2.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 0d8517db3fcdc9b2fd4dadb31ca34af5 2214 rust-block-padding_0.2.1-1.dsc
+ 3518756a1af12a80e9c872091cdec5d5 7672 rust-block-padding_0.2.1.orig.tar.gz
+ 30e622e5555e614153f4604a01923870 2672 rust-block-padding_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/block-padding
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/block-padding]
+Checksums-Sha256:
+ 2f2169bbeefe5d9a58dc6202d6b220dc010ed1ce4f5918a1634412a81b8a21d5 2214 rust-block-padding_0.2.1-1.dsc
+ 8d696c370c750c948ada61c69a0ee2cbbb9c50b1019ddb86d9317157a99c2cae 7672 rust-block-padding_0.2.1.orig.tar.gz
+ e6b8afbdd3cf59d843242f509c156aeb377840a3cee70d99a30244398549480b 2672 rust-block-padding_0.2.1-1.debian.tar.xz
+Package-List: 
+ librust-block-padding-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-block-padding
+Priority: extra
+Section: misc

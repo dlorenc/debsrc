@@ -1,0 +1,27 @@
+Package: python-ncclient
+Binary: python3-ncclient, python-ncclient-doc
+Version: 0.6.3-1
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-lxml, python3-mock, python3-nose, python3-paramiko, python3-six
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 99ecc1d5f04b359711219bffea6fa8ed 2161 python-ncclient_0.6.3-1.dsc
+ e8599764bbcf62bfcaee1933fce5b1cd 102145 python-ncclient_0.6.3.orig.tar.gz
+ 40e2b0eefee52bbd16b2beb8e33e03f2 4248 python-ncclient_0.6.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-ncclient
+Vcs-Git: https://salsa.debian.org/debian/python-ncclient.git
+Checksums-Sha256:
+ 3dd496cb4fc4c26dd8a335614b143251d144493f3d552be1d6b133a93cce95e0 2161 python-ncclient_0.6.3-1.dsc
+ 0373740223acfd1d3770ca588e1ac759b542bb04dea802cac66a37933ea3d1d7 102145 python-ncclient_0.6.3.orig.tar.gz
+ f69505389e05c4aadbd47b8cd4d3f41c8a550390c377d67395b17578c94db52c 4248 python-ncclient_0.6.3-1.debian.tar.xz
+Homepage: https://github.com/ncclient/ncclient
+Package-List: 
+ python-ncclient-doc deb doc optional arch=all
+ python3-ncclient deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-ncclient
+Priority: optional
+Section: misc

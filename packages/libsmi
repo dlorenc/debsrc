@@ -1,0 +1,26 @@
+Package: libsmi
+Binary: smitools, smistrip, libsmi2ldbl, libsmi2-dev, libsmi2-common
+Version: 0.4.8+dfsg2-16
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends: flex, bison, debhelper (>= 9), dh-autoreconf
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 2fd67c840e5b3dc10601844b97dd1d6c 2030 libsmi_0.4.8+dfsg2-16.dsc
+ bc3c2e63930dfd97e44bd81480f503b6 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz
+ 0397dcc3e551e6e29723254ba2c5a99a 13800 libsmi_0.4.8+dfsg2-16.debian.tar.xz
+Checksums-Sha256:
+ 98812e0d5a991c53857efc1455972b035e3562f80edb112718db013a291ec8f7 2030 libsmi_0.4.8+dfsg2-16.dsc
+ 1d6894aa4aa73f8949ccb420a57e4e1275f8099c187771a41838e30a703269e8 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz
+ 8d3f596123d95526ed7802ab14880a16f87718a08fc8ac3e8182d5175256abdd 13800 libsmi_0.4.8+dfsg2-16.debian.tar.xz
+Homepage: http://www.ibr.cs.tu-bs.de/projects/libsmi/
+Package-List: 
+ libsmi2-common deb oldlibs optional arch=all
+ libsmi2-dev deb libdevel optional arch=any
+ libsmi2ldbl deb libs optional arch=any
+ smistrip deb libs optional arch=all
+ smitools deb libs optional arch=any
+Directory: pool/main/libs/libsmi
+Priority: source
+Section: libs

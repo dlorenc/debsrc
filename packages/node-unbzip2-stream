@@ -1,0 +1,26 @@
+Package: node-unbzip2-stream
+Binary: node-unbzip2-stream
+Version: 1.4.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 13), node-concat-stream <!nocheck>, node-tape <!nocheck>, nodejs (>= 6), pkg-js-tools (>= 0.9.35)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5901bf15b11829427708bcc2ca85d066 2205 node-unbzip2-stream_1.4.2-3.dsc
+ 0356ccde175a167cd4fa13d1808925a4 47033 node-unbzip2-stream_1.4.2.orig.tar.gz
+ 09f41cf518d3a119ebf63e8ad917961c 2180 node-unbzip2-stream_1.4.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-unbzip2-stream
+Vcs-Git: https://salsa.debian.org/js-team/node-unbzip2-stream.git
+Checksums-Sha256:
+ 9425264041cbbe4a139c8af4762d9b2cf25c65dfc96bbe462dd8e0ef600ebd3e 2205 node-unbzip2-stream_1.4.2-3.dsc
+ a064977d4f4176491643c1455f595c1cedc1d15e313175c8f4147eef3672a2f6 47033 node-unbzip2-stream_1.4.2.orig.tar.gz
+ 4fe646b9da367c3a5376c1837e4a32df203e645cf7a2caa89a57c5dfac5a4929 2180 node-unbzip2-stream_1.4.2-3.debian.tar.xz
+Homepage: https://github.com/regular/unbzip2-stream#readme
+Package-List: 
+ node-unbzip2-stream deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-unbzip2-stream
+Priority: extra
+Section: misc

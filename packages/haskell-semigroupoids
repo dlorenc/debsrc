@@ -1,0 +1,28 @@
+Package: haskell-semigroupoids
+Binary: libghc-semigroupoids-dev, libghc-semigroupoids-prof, libghc-semigroupoids-doc
+Version: 5.3.4-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iulian Udrea <iulian@linux.com>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-base-orphans-dev (>= 0.8), libghc-base-orphans-dev (<< 1), libghc-base-orphans-prof, libghc-bifunctors-dev (>= 5), libghc-bifunctors-dev (<< 6), libghc-bifunctors-prof, libghc-comonad-dev (>= 4.2.6), libghc-comonad-dev (<< 6), libghc-comonad-prof, libghc-contravariant-dev (>= 0.2.0.1), libghc-contravariant-dev (<< 2), libghc-contravariant-prof, libghc-distributive-dev (>= 0.2.2), libghc-distributive-dev (<< 1), libghc-distributive-prof, libghc-hashable-dev (>= 1.1), libghc-hashable-dev (<< 1.4), libghc-hashable-prof, libghc-tagged-dev (>= 0.8.5), libghc-tagged-dev (<< 1), libghc-tagged-prof, libghc-transformers-compat-dev (>= 0.5), libghc-transformers-compat-dev (<< 0.7), libghc-transformers-compat-prof, libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof, libghc-cabal-doctest-dev (>= 1), libghc-cabal-doctest-dev (<< 1.1), libghc-doctest-dev (>= 0.11.1), libghc-doctest-dev (<< 0.17), libghc-doctest-prof
+Build-Depends-Indep: ghc-doc, libghc-base-orphans-doc, libghc-bifunctors-doc, libghc-comonad-doc, libghc-contravariant-doc, libghc-distributive-doc, libghc-hashable-doc, libghc-tagged-doc, libghc-transformers-compat-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 710bec149ea3027f73fb54f707c6678b 3596 haskell-semigroupoids_5.3.4-1.dsc
+ e74a61a17023508e0972cb0e7112c139 26307 haskell-semigroupoids_5.3.4.orig.tar.gz
+ 590c47c0a894a514663a957bfbe2c3d8 3744 haskell-semigroupoids_5.3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-semigroupoids
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-semigroupoids]
+Checksums-Sha256:
+ 51d402c7f61278d2aa30d819955acea19908f605afa00005e0c74ce24b161ac1 3596 haskell-semigroupoids_5.3.4-1.dsc
+ 00d2e48973c3ab0a5d52616728ed63d0509454c8328148f698720014d7c58964 26307 haskell-semigroupoids_5.3.4.orig.tar.gz
+ 655baa2b7c6e4a7d0c01164eac8e70a0b22f9ff77a952c3047561d0369f872b7 3744 haskell-semigroupoids_5.3.4-1.debian.tar.xz
+Homepage: http://github.com/ekmett/semigroupoids
+Package-List: 
+ libghc-semigroupoids-dev deb haskell optional arch=any
+ libghc-semigroupoids-doc deb doc optional arch=all
+ libghc-semigroupoids-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-semigroupoids
+Priority: source
+Section: haskell

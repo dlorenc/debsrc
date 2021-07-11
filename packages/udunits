@@ -1,0 +1,28 @@
+Package: udunits
+Binary: libudunits2-0, libudunits2-data, libudunits2-dev, udunits-bin
+Version: 2.2.28-3
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 13), libexpat-dev, libcunit1-dev, texinfo, libtool, texlive
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 73597834489a1000dbfbdc33c17ce32e 2151 udunits_2.2.28-3.dsc
+ 8ce1395d748468d656891fdc4c843d0a 466924 udunits_2.2.28.orig.tar.xz
+ 5d988ba53755d608170bb838ba8674da 7652 udunits_2.2.28-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org:/science-team/udunits.git
+Vcs-Git: https://salsa.debian.org:/science-team/udunits.git -b  debian/latest
+Checksums-Sha256:
+ c711c64ee1757abc68f6477c259a54f9ab42615079a1e77b63c93995db785451 2151 udunits_2.2.28-3.dsc
+ 2d1f0bee400fafa0c146528f9d09140277d47d47daed5c3ea98815191d1363c5 466924 udunits_2.2.28.orig.tar.xz
+ f9a6e2c026a810d9a3768d783cdead544e8db5cb767a69128f0608fa3d10bc64 7652 udunits_2.2.28-3.debian.tar.xz
+Homepage: https://www.unidata.ucar.edu/software/udunits/
+Package-List: 
+ libudunits2-0 deb libs optional arch=any
+ libudunits2-data deb utils optional arch=all
+ libudunits2-dev deb libdevel optional arch=any
+ udunits-bin deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/u/udunits
+Priority: source
+Section: utils

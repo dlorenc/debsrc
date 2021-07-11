@@ -1,0 +1,29 @@
+Package: tryton-modules-stock-product-location
+Binary: tryton-modules-stock-product-location
+Version: 5.0.2-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 9), dh-python, python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 9768bad4cf9df1668d34786ad2137240 2746 tryton-modules-stock-product-location_5.0.2-1.dsc
+ d7b08a3d9a19e5466ff083da0a347480 25980 tryton-modules-stock-product-location_5.0.2.orig.tar.gz
+ df9d32ee01d1f5e222f6ffdf15f2057d 636 tryton-modules-stock-product-location_5.0.2.orig.tar.gz.asc
+ 83762191e4da55a09110602fa2672f53 13776 tryton-modules-stock-product-location_5.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/tryton-modules-stock-product-location
+Vcs-Git: https://salsa.debian.org/tryton-team/tryton-modules-stock-product-location.git
+Checksums-Sha256:
+ ea9db22664afb9309ac992a0460015a32e79e96342b334e8b8e90a24235f33e9 2746 tryton-modules-stock-product-location_5.0.2-1.dsc
+ 8a8be644881cdc63bd521a7552b437faed73213f62822942e51567150856d4f6 25980 tryton-modules-stock-product-location_5.0.2.orig.tar.gz
+ 50bff225319541b735224af6c6a6c434f0d3e98b959b1e7b1f5d772d9acac32b 636 tryton-modules-stock-product-location_5.0.2.orig.tar.gz.asc
+ 6a906d2406835d27f4da1d51fa81975be9b4a0a193976f734b512df496061da6 13776 tryton-modules-stock-product-location_5.0.2-1.debian.tar.xz
+Homepage: http://www.tryton.org/
+Package-List: 
+ tryton-modules-stock-product-location deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-setuptools, tryton-modules-production, tryton-proteus
+Directory: pool/main/t/tryton-modules-stock-product-location
+Priority: source
+Section: python

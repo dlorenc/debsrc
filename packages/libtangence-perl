@@ -1,0 +1,28 @@
+Package: libtangence-perl
+Binary: libtangence-perl
+Version: 0.25-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl, perl
+Build-Depends-Indep: libfuture-perl <!nocheck>, libparser-mgc-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libstruct-dumb-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-hexstring-perl <!nocheck>, libtest-identity-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-refcount-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ab8cc1847a53961c614c57166d444da0 2652 libtangence-perl_0.25-2.dsc
+ 77233ca6117d567e17ce23367a9f9636 89350 libtangence-perl_0.25.orig.tar.gz
+ bdf444380af836b41f24be31773ad437 2564 libtangence-perl_0.25-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtangence-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtangence-perl.git
+Checksums-Sha256:
+ 08920f0c4a50664e94fd135f7944db152dc68b4962fe8a7c92bc3f278e4e9d96 2652 libtangence-perl_0.25-2.dsc
+ 102a5cf6f773449e491a116a1c057594f165c8dcfc0d713ac60ed3b76b93322e 89350 libtangence-perl_0.25.orig.tar.gz
+ 2e5c9d9d90f7cd8316380e618af393d9eda8a7cf70b35ff8f56a8eb5e6f43be6 2564 libtangence-perl_0.25-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Tangence
+Dgit: 4972080bc25e528dc49baa3028d58483c624b77e debian archive/debian/0.25-2 https://git.dgit.debian.org/libtangence-perl
+Package-List: 
+ libtangence-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtangence-perl
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: globus-gfork
+Binary: libglobus-gfork0, globus-gfork-progs, libglobus-gfork-dev
+Version: 5.0-3
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-xio-dev (>= 3)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7bc2ad60044f33ece9cdcfeb2588b625 2068 globus-gfork_5.0-3.dsc
+ ec78476bb115ec60dd92901b9b8cae5a 321716 globus-gfork_5.0.orig.tar.gz
+ 56064b3fad2ed4054d9d872f77b74ede 3152 globus-gfork_5.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gfork
+Vcs-Git: https://salsa.debian.org/ellert/globus-gfork.git
+Checksums-Sha256:
+ 58993f3f3dfced070c70a4992543a27ba54884e4a296513d0df64d1a9f58ef9a 2068 globus-gfork_5.0-3.dsc
+ db473317e2a74beaedbbf1a3ff581b3ef3ab0b18d3af2590c793b8caddcf89d3 321716 globus-gfork_5.0.orig.tar.gz
+ 0f2b3e72d5c669fd36104c2e1d63c6067ee67ad621508bb67f0fe7045e6223b3 3152 globus-gfork_5.0-3.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ globus-gfork-progs deb net optional arch=any
+ libglobus-gfork-dev deb libdevel optional arch=any
+ libglobus-gfork0 deb libs optional arch=any
+Directory: pool/main/g/globus-gfork
+Priority: source
+Section: net

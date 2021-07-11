@@ -1,0 +1,25 @@
+Package: pekwm
+Binary: pekwm
+Version: 0.1.18-1
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), libjpeg-dev, libpng-dev, libx11-dev, libxft-dev, libxinerama-dev, libxpm-dev, libxrandr-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a270423dbad1018f973366582785a64d 1915 pekwm_0.1.18-1.dsc
+ 8404e93e5ba8cd2e26b2a70a247dc8eb 441810 pekwm_0.1.18.orig.tar.gz
+ 3eb10ee290cbb236b8a8aca4718267fa 9336 pekwm_0.1.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/pekwm
+Vcs-Git: https://salsa.debian.org/debian/pekwm.git
+Checksums-Sha256:
+ 016dee5b2f1855c2264b212204bff72330b28c981f708b3299a163d5b1bb47f9 1915 pekwm_0.1.18-1.dsc
+ e04e14ab7b212ec7c3a36e4c24b6228383df4ca3768f9fea7ba22dcd107d5d5a 441810 pekwm_0.1.18.orig.tar.gz
+ d5759781e7145096c42a41bfd0204a78e9e0a32ece586e148d282e8dcf93691c 9336 pekwm_0.1.18-1.debian.tar.xz
+Homepage: https://github.com/pekdon/pekwm/
+Package-List: 
+ pekwm deb x11 optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/pekwm
+Priority: source
+Section: x11

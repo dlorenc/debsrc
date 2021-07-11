@@ -1,0 +1,25 @@
+Package: haskell-network-byte-order
+Binary: libghc-network-byte-order-dev, libghc-network-byte-order-prof, libghc-network-byte-order-doc
+Version: 0.1.5-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-doctest-dev, libghc-doctest-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5929d98dccc6e85fc2280d4ace6dc70c 2266 haskell-network-byte-order_0.1.5-1.dsc
+ 4f4ec07bd4df375013b3b605ab1f76ec 6519 haskell-network-byte-order_0.1.5.orig.tar.gz
+ dfd6c0872c9fa1f04c7b4c87658e8ae0 2064 haskell-network-byte-order_0.1.5-1.debian.tar.xz
+Checksums-Sha256:
+ eafe41def049b1b21b2a7d1943ffa64984af772a64e4923e078858d3e7e6be8a 2266 haskell-network-byte-order_0.1.5-1.dsc
+ ccf8b8475e7563de72a20e673fe55c32b6d3550ee6004b585bc13175bc560011 6519 haskell-network-byte-order_0.1.5.orig.tar.gz
+ 8e25f045f23563c4522c40099fcd26edbc56980035e1d4d4b6b242afec3a7a07 2064 haskell-network-byte-order_0.1.5-1.debian.tar.xz
+Package-List: 
+ libghc-network-byte-order-dev deb haskell optional arch=any
+ libghc-network-byte-order-doc deb doc optional arch=all
+ libghc-network-byte-order-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-network-byte-order
+Priority: extra
+Section: misc

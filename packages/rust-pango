@@ -1,0 +1,31 @@
+Package: rust-pango
+Binary: librust-pango-dev, librust-pango+dox-dev, librust-pango+embed-lgpl-docs-dev, librust-pango+v1-38-dev, librust-pango+v1-42-dev
+Version: 0.7.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-glib-0.8+default-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pango-sys-0.9+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ afdb48a0f0e265123c2bf70621d803a1 2796 rust-pango_0.7.0-1.dsc
+ a4c37b3a439c334c573240156d695b0d 41066 rust-pango_0.7.0.orig.tar.gz
+ ffa9af1d0f036a73d71224fd6cfe248f 3076 rust-pango_0.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pango
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pango]
+Checksums-Sha256:
+ e4996cff6c79b877827807e8c5bc1814944751017a9c9442cf5261c719954b3e 2796 rust-pango_0.7.0-1.dsc
+ 393fa071b144f8ffb83ede273758983cf414ca3c0b1d2a5a9ce325b3ba3dd786 41066 rust-pango_0.7.0.orig.tar.gz
+ f2e913ee22efed187b6f55964c7451e08b596dd44c17a71b83d94d0aa6e07221 3076 rust-pango_0.7.0-1.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-pango+dox-dev deb rust optional arch=any
+ librust-pango+embed-lgpl-docs-dev deb rust optional arch=any
+ librust-pango+v1-38-dev deb rust optional arch=any
+ librust-pango+v1-42-dev deb rust optional arch=any
+ librust-pango-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-gir-format-check-0.1+default-dev
+Directory: pool/main/r/rust-pango
+Priority: extra
+Section: misc

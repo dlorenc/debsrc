@@ -1,0 +1,27 @@
+Package: rust-cloudabi
+Binary: librust-cloudabi-dev, librust-cloudabi+bitflags-dev, librust-cloudabi+default-dev
+Version: 0.0.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 061808492ccd1aca7bd2f8d5704e6e73 1720 rust-cloudabi_0.0.3-1.dsc
+ 1c8b50f8528dd37df7d984e0e4b61bd5 22156 rust-cloudabi_0.0.3.orig.tar.gz
+ 0315415c02ef011bf42d704046727782 2456 rust-cloudabi_0.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cloudabi
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cloudabi]
+Checksums-Sha256:
+ 4bb7b8159ba737c21d9f0420e26cd1cadc6376e5593f4a5e8c75cc6867264ce8 1720 rust-cloudabi_0.0.3-1.dsc
+ ddfc5b9aa5d4507acaf872de71051dfd0e309860e88966e1051e462a077aac4f 22156 rust-cloudabi_0.0.3.orig.tar.gz
+ 69dbbda265a2f4e42bf08dae0a127782a4fda232208ffe0643cfc3b56c972bd5 2456 rust-cloudabi_0.0.3-1.debian.tar.xz
+Homepage: https://nuxi.nl/cloudabi/
+Package-List: 
+ librust-cloudabi+bitflags-dev deb rust optional arch=any
+ librust-cloudabi+default-dev deb rust optional arch=any
+ librust-cloudabi-dev deb rust optional arch=any
+Directory: pool/main/r/rust-cloudabi
+Priority: extra
+Section: misc

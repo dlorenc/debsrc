@@ -1,0 +1,26 @@
+Package: python-exchangelib
+Binary: python3-exchangelib
+Version: 3.2.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-cached-property, python3-requests-mock, python3-pygments, python3-dateutil, python3-defusedxml, python3-dnspython, python3-flake8, python3-future, python3-isodate, python3-lxml, python3-psutil, python3-requests-ntlm, python3-requests-oauthlib, python3-setuptools, python3-tzlocal, python3-yaml
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e51d3f95b02e351ca4f82835e6b3194b 2077 python-exchangelib_3.2.0-1.dsc
+ 35f5a07ab2b6058461c7eb3572be497a 254947 python-exchangelib_3.2.0.orig.tar.gz
+ 78e02b570d345364bc6dd50066db0a3a 2392 python-exchangelib_3.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-exchangelib
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-exchangelib.git
+Checksums-Sha256:
+ b4e84e44523e28a4bfde24178f41488b818dc1482276e6cbfd8237bc62e40b62 2077 python-exchangelib_3.2.0-1.dsc
+ 0508f702dc547c60834bf44bb2fc343692a1c566e847f83884704b7e2df7ad6b 254947 python-exchangelib_3.2.0.orig.tar.gz
+ 0fafb0a6e0110b40b81760f670ab29625e0dc956862e4b177171a40f9a325850 2392 python-exchangelib_3.2.0-1.debian.tar.xz
+Homepage: https://github.com/ecederstrand/exchangelib/
+Package-List: 
+ python3-exchangelib deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-exchangelib
+Priority: extra
+Section: misc

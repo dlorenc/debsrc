@@ -1,0 +1,27 @@
+Package: golang-github-pkg-xattr
+Binary: golang-github-pkg-xattr-dev
+Version: 0.4.2-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Félix Sipma <felix+debian@gueux.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-sys-dev (>= 0.0~git20181026.95b1ffb)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 58dea7474620be9945e59c1c0e9c13c8 2399 golang-github-pkg-xattr_0.4.2-1.dsc
+ 4fb36c152df14fcc7bd012a9b62304d9 8876 golang-github-pkg-xattr_0.4.2.orig.tar.gz
+ b346b86d095f16afc8b177ee6e27d660 3036 golang-github-pkg-xattr_0.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-pkg-xattr
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-pkg-xattr.git
+Checksums-Sha256:
+ 1348eb23ab9a7e220115f3b745303196ca4647f8a6afcfe5071803240ec55536 2399 golang-github-pkg-xattr_0.4.2-1.dsc
+ 89710f9202bf07792b5d86237c86959881146379c0d5d16e8a1b2950b41b06cd 8876 golang-github-pkg-xattr_0.4.2.orig.tar.gz
+ ca3df0d29b47431640f8cff368db3d94a87f7db7b3d837d98c06989906ab4c42 3036 golang-github-pkg-xattr_0.4.2-1.debian.tar.xz
+Homepage: https://github.com/pkg/xattr
+Go-Import-Path: github.com/pkg/xattr
+Package-List: 
+ golang-github-pkg-xattr-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-pkg-xattr
+Priority: extra
+Section: golang

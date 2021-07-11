@@ -1,0 +1,30 @@
+Package: haskell-pandoc-citeproc
+Binary: libghc-pandoc-citeproc-dev, libghc-pandoc-citeproc-prof, libghc-pandoc-citeproc-doc, libghc-pandoc-citeproc-data, pandoc-citeproc
+Version: 0.17.0.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-hsyaml-dev (>= 0.2), libghc-hsyaml-dev (<< 0.3), libghc-hsyaml-prof, libghc-hsyaml-aeson-dev (>= 0.2), libghc-hsyaml-aeson-dev (<< 0.3), libghc-hsyaml-aeson-prof, libghc-aeson-dev (>= 0.7), libghc-aeson-dev (<< 1.6), libghc-aeson-prof, libghc-base-compat-dev (>= 0.9), libghc-base-compat-prof, libghc-data-default-dev, libghc-data-default-prof, libghc-hs-bibutils-dev (>= 6.4), libghc-hs-bibutils-prof, libghc-network-dev (<< 3.2), libghc-network-prof, libghc-old-locale-dev, libghc-old-locale-prof, libghc-pandoc-dev (>= 2.8), libghc-pandoc-dev (<< 2.11), libghc-pandoc-prof, libghc-pandoc-types-dev (>= 1.20), libghc-pandoc-types-dev (<< 1.22), libghc-pandoc-types-prof, libghc-setenv-dev (<< 0.2), libghc-setenv-dev (>= 0.1), libghc-setenv-prof, libghc-split-dev, libghc-split-prof, libghc-syb-dev, libghc-syb-prof, libghc-tagsoup-dev, libghc-tagsoup-prof, libghc-temporary-dev (>= 1.1), libghc-text-icu-dev, libghc-text-icu-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-prof, libghc-vector-dev (>= 0.10), libghc-vector-prof, libghc-xml-conduit-dev (>= 1.2), libghc-xml-conduit-dev (<< 1.10), libghc-xml-conduit-prof, libghc-yaml-dev (>= 0.11), libghc-yaml-prof, libghc-aeson-pretty-dev (>= 0.8), libghc-aeson-pretty-prof, libghc-attoparsec-dev, libghc-attoparsec-prof, libghc-libyaml-dev, libghc-libyaml-prof, libghc-safe-dev, libghc-safe-prof
+Build-Depends-Indep: ghc-doc, libghc-hsyaml-doc, libghc-hsyaml-aeson-doc, libghc-aeson-doc, libghc-base-compat-doc, libghc-data-default-doc, libghc-hs-bibutils-doc, libghc-network-doc, libghc-old-locale-doc, libghc-pandoc-doc, libghc-pandoc-types-doc, libghc-setenv-doc, libghc-split-doc, libghc-syb-doc, libghc-tagsoup-doc, libghc-text-icu-doc, libghc-unordered-containers-doc, libghc-vector-doc, libghc-xml-conduit-doc, libghc-yaml-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6c8431060ba6531a6e0017b9b05a1c72 4437 haskell-pandoc-citeproc_0.17.0.1-1.dsc
+ a85ee2eb481dc649452772dc333e8e52 344529 haskell-pandoc-citeproc_0.17.0.1.orig.tar.gz
+ 91df965107a65fedda1deebd5d1736f2 10964 haskell-pandoc-citeproc_0.17.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-pandoc-citeproc
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-pandoc-citeproc]
+Checksums-Sha256:
+ ce79f3e07ead5ef57b9e514ca3915717baf30a491f36c0df316d08a8dae6311c 4437 haskell-pandoc-citeproc_0.17.0.1-1.dsc
+ f3e5ce3d1d21c27178f2fc69580750e3ce97fc5f962f2d01f7b6aa2e090c2342 344529 haskell-pandoc-citeproc_0.17.0.1.orig.tar.gz
+ 0b50d496b7f8c345c30573a73af9f830dcc2d15f0b1d87e0cc19deb4c50e132a 10964 haskell-pandoc-citeproc_0.17.0.1-1.debian.tar.xz
+Homepage: https://github.com/jgm/pandoc-citeproc
+Package-List: 
+ libghc-pandoc-citeproc-data deb haskell optional arch=all
+ libghc-pandoc-citeproc-dev deb haskell optional arch=any
+ libghc-pandoc-citeproc-doc deb doc optional arch=all
+ libghc-pandoc-citeproc-prof deb haskell optional arch=any
+ pandoc-citeproc deb haskell optional arch=any
+Directory: pool/main/h/haskell-pandoc-citeproc
+Priority: optional
+Section: misc

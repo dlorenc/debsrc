@@ -1,0 +1,28 @@
+Package: haskell-lambdabot-novelty-plugins
+Binary: libghc-lambdabot-novelty-plugins-dev, libghc-lambdabot-novelty-plugins-prof, libghc-lambdabot-novelty-plugins-doc
+Version: 5.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Delanoë <anoe@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-brainfuck-dev (>= 0.1), libghc-brainfuck-prof, libghc-dice-dev (>= 0.1), libghc-dice-prof, libghc-lambdabot-core-dev (>= 5.3), libghc-lambdabot-core-dev (<< 5.4), libghc-lambdabot-core-prof, libghc-misfortune-dev (>= 0.1), libghc-misfortune-prof, libghc-random-fu-dev (>= 0.2.6.2), libghc-random-fu-prof, libghc-regex-tdfa-dev (>= 1.1), libghc-regex-tdfa-prof, libghc-unlambda-dev (>= 0.1), libghc-unlambda-prof
+Build-Depends-Indep: ghc-doc, libghc-brainfuck-doc, libghc-dice-doc, libghc-lambdabot-core-doc, libghc-misfortune-doc, libghc-random-fu-doc, libghc-regex-tdfa-doc, libghc-unlambda-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 3612f7aeed0d0d042757ce396b910815 3123 haskell-lambdabot-novelty-plugins_5.3-1.dsc
+ ef045a1adb05daa15bffd929fc220b21 9948 haskell-lambdabot-novelty-plugins_5.3.orig.tar.gz
+ cfae08ca53e566ef8eab00fa9802dabc 2972 haskell-lambdabot-novelty-plugins_5.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-lambdabot-novelty-plugins
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-lambdabot-novelty-plugins]
+Checksums-Sha256:
+ f7ed421669954dce7f98bf9ff6e8d6984d5d27ab04a438781316b92657081501 3123 haskell-lambdabot-novelty-plugins_5.3-1.dsc
+ b63ca5c324335fdaf1430ec751cc732033b4353cbf8bf8f787f3f240a4ccee38 9948 haskell-lambdabot-novelty-plugins_5.3.orig.tar.gz
+ 9258a5d39888d56ce228be107abf1ec380f73ee8bc557a6fad99fd58eaee4e56 2972 haskell-lambdabot-novelty-plugins_5.3-1.debian.tar.xz
+Homepage: https://wiki.haskell.org/Lambdabot
+Package-List: 
+ libghc-lambdabot-novelty-plugins-dev deb haskell optional arch=any
+ libghc-lambdabot-novelty-plugins-doc deb doc optional arch=all
+ libghc-lambdabot-novelty-plugins-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-lambdabot-novelty-plugins
+Priority: optional
+Section: misc

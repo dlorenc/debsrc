@@ -1,0 +1,28 @@
+Package: cubature
+Binary: libcubature0, libcubature-dev
+Version: 1.0.3+ds-4
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-exec, libfftw3-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a9b763a285e9b35515439a83ddc8f5ea 2158 cubature_1.0.3+ds-4.dsc
+ 30dd35452abc5060993f4b976bd6fe62 42912 cubature_1.0.3+ds.orig.tar.xz
+ d15d87b0de28833eacf832ee7213328e 4040 cubature_1.0.3+ds-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/cubature
+Vcs-Git: https://salsa.debian.org/science-team/cubature.git
+Checksums-Sha256:
+ 1ff0dc5e82442224a50df5ce0cb4ee3fff4c28977b0886001a348b69a88b2d04 2158 cubature_1.0.3+ds-4.dsc
+ a5c2884d6be2afc12cc2835230a1be8c9f81c5bb00c58c449e2b943d57d9d22d 42912 cubature_1.0.3+ds.orig.tar.xz
+ 8a0bd5a80960e553a5b997c0957d7a7fe4cd701e0e318aaad62ed1437f4caf50 4040 cubature_1.0.3+ds-4.debian.tar.xz
+Homepage: https://github.com/stevengj/cubature
+Package-List: 
+ libcubature-dev deb libdevel optional arch=any
+ libcubature0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/c/cubature
+Priority: extra
+Section: misc

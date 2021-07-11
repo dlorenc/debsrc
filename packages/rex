@@ -1,0 +1,28 @@
+Package: rex
+Binary: rex
+Version: 1.13.3-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Mestiashvili <mestia@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: dh-sequence-bash-completion, libcpan-meta-requirements-perl, libdata-validate-ip-perl <!nocheck>, libdbi-perl <!nocheck>, libdevel-caller-perl <!nocheck>, libdigest-hmac-perl <!nocheck>, libexpect-perl <!nocheck>, libfile-sharedir-install-perl, libhash-merge-perl <!nocheck>, libhttp-message-perl <!nocheck>, libio-pty-perl <!nocheck>, libio-string-perl <!nocheck>, libipc-shareable-perl <!nocheck>, libjson-maybexs-perl <!nocheck>, liblwp-protocol-https-perl <!nocheck>, libmodule-metadata-perl, libnet-openssh-perl <!nocheck>, libnet-sftp-foreign-perl <!nocheck>, libnet-ssh2-perl <!nocheck>, libparallel-forkmanager-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libsort-naturally-perl <!nocheck>, libstring-escape-perl <!nocheck>, libterm-readkey-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-output-perl <!nocheck>, libtest-useallmodules-perl <!nocheck>, libtext-glob-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>, libxml-libxml-perl <!nocheck>, libxml-simple-perl <!nocheck>, libyaml-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ea8f9fc607d81d9c31c72b6a88bd28c8 3228 rex_1.13.3-1.dsc
+ 296359328f2465579ceeb13a4e237270 349550 rex_1.13.3.orig.tar.gz
+ 28e51ee05fe456787949d009f3c8c49c 4756 rex_1.13.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/rex
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/rex.git
+Checksums-Sha256:
+ bc426b98950c900f5635fd49a88ad8ec33edb7aa1450b6b7ddee2eeb0dd1b996 3228 rex_1.13.3-1.dsc
+ 16480c86aa0a26413af8c3073a3a31bd857d9496eb31da139102aab9cd31dfae 349550 rex_1.13.3.orig.tar.gz
+ 6b421f550733c957e9c8fcfb8dee12564ba8ee7edde91e725defc14c8f6eaeae 4756 rex_1.13.3-1.debian.tar.xz
+Homepage: https://www.rexify.org/
+Dgit: 5cbd03dd8e5e3b61e7764a06bcccc71b2f1923d4 debian archive/debian/1.13.3-1 https://git.dgit.debian.org/rex
+Package-List: 
+ rex deb admin optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/r/rex
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-mesos-mesos-go
+Binary: golang-github-mesos-mesos-go-dev
+Version: 0.0.6+dfsg-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-gogo-protobuf-dev, golang-glog-dev | golang-github-golang-glog-dev, golang-github-pborman-uuid-dev, golang-github-pquerna-ffjson-dev, golang-github-samuel-go-zookeeper-dev, golang-github-stretchr-objx-dev, golang-github-stretchr-testify-dev, golang-golang-x-net-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b55c511cf773ea47f559b812be0fe5fe 1997 golang-github-mesos-mesos-go_0.0.6+dfsg-2.dsc
+ b68ec1e571d89a29d10547f96010af3b 606624 golang-github-mesos-mesos-go_0.0.6+dfsg.orig.tar.xz
+ 3d0664d4854acd936a9b2d93b5557a25 3832 golang-github-mesos-mesos-go_0.0.6+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mesos-mesos-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mesos-mesos-go.git
+Checksums-Sha256:
+ a304736df78b23a3585bf2f61d3abf8f9b20b1fdce8fe25064816642dc6a8658 1997 golang-github-mesos-mesos-go_0.0.6+dfsg-2.dsc
+ bc376813a2af16f2f72d0cde54c06057c72056d3aa02432c7e3a021370234ead 606624 golang-github-mesos-mesos-go_0.0.6+dfsg.orig.tar.xz
+ f593c79a8e9e4de0f75f31c5e89b52f64a52d16f04635efecad57626a0248fe5 3832 golang-github-mesos-mesos-go_0.0.6+dfsg-2.debian.tar.xz
+Homepage: https://github.com/mesos/mesos-go
+Go-Import-Path: github.com/mesos/mesos-go
+Package-List: 
+ golang-github-mesos-mesos-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mesos-mesos-go
+Priority: extra
+Section: golang

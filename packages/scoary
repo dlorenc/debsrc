@@ -1,0 +1,26 @@
+Package: scoary
+Binary: scoary
+Version: 1.6.16-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-scipy (>= 0.16), python3-nose <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e79cfc7ca1cc2b4ec7a5d9b810e0ccee 2045 scoary_1.6.16-2.dsc
+ a3861f4e58d70d0da5b576d696b5f4fd 1179018 scoary_1.6.16.orig.tar.gz
+ 13f896a7c6ed63742644bb5d5786ca6d 5692 scoary_1.6.16-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/scoary
+Vcs-Git: https://salsa.debian.org/med-team/scoary.git
+Checksums-Sha256:
+ 89cf5a3c609d3f5e134d8b46347f705356a18c5214a8427550541a12bf48220c 2045 scoary_1.6.16-2.dsc
+ 3ca5e7102fe462ff9498acd676ae541c3c93856aaefd90659bd5eac17af4a7a9 1179018 scoary_1.6.16.orig.tar.gz
+ 4b5c5b4caaed5516e8fad94e8a26911543b052d685c4a2929eb8d033a365a297 5692 scoary_1.6.16-2.debian.tar.xz
+Homepage: https://github.com/AdmiralenOla/Scoary
+Package-List: 
+ scoary deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/s/scoary
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-yuin-gluare
+Binary: golang-github-yuin-gluare-dev
+Version: 0.0~git20170607.d7c94f1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-yuin-gopher-lua-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 984fd8cab6490b8044e074392126631a 2379 golang-github-yuin-gluare_0.0~git20170607.d7c94f1-2.dsc
+ 264827456d3a02ba4b74d2cbb0daa5cc 4148 golang-github-yuin-gluare_0.0~git20170607.d7c94f1.orig.tar.xz
+ ce4694f6d69aa42bea636a2957b0e905 2788 golang-github-yuin-gluare_0.0~git20170607.d7c94f1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-yuin-gluare
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-yuin-gluare.git
+Checksums-Sha256:
+ fb5c800bca878abf54525ac6ecc4136589c030a91a97cab6124448f7a0f550d0 2379 golang-github-yuin-gluare_0.0~git20170607.d7c94f1-2.dsc
+ 4c4d1a2834ab8585593d3461715a838446f4e65213679a7da2944639ff572c5c 4148 golang-github-yuin-gluare_0.0~git20170607.d7c94f1.orig.tar.xz
+ ff00e356492fbb64c1e74afc546fa2655c58e3ba8d78e2d2a016514c3123b7b5 2788 golang-github-yuin-gluare_0.0~git20170607.d7c94f1-2.debian.tar.xz
+Homepage: https://github.com/yuin/gluare
+Go-Import-Path: github.com/yuin/gluare
+Package-List: 
+ golang-github-yuin-gluare-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-yuin-gluare
+Priority: extra
+Section: golang

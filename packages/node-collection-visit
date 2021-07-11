@@ -1,0 +1,26 @@
+Package: node-collection-visit
+Binary: node-collection-visit
+Version: 1.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), mocha, node-map-visit (>= 1.0.0), node-object-visit (>= 1.0.0), node-clone-deep, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3ec56c923b45c68494cca6acfe420894 2212 node-collection-visit_1.0.0-2.dsc
+ c3e208b8fc9aa5df7a705473c3ddfcd0 5593 node-collection-visit_1.0.0.orig.tar.gz
+ 183d6e760caf313a866b1e88fff6e4b8 2416 node-collection-visit_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-collection-visit
+Vcs-Git: https://salsa.debian.org/js-team/node-collection-visit.git
+Checksums-Sha256:
+ 3e268a252873867c73b333e73061c329fec5a236b019cf4453253fb65d355ce5 2212 node-collection-visit_1.0.0-2.dsc
+ 194f47616dd2feda8a40e8063ba5e22c0f3f28ec1a37dc08ad04d67e1f289af4 5593 node-collection-visit_1.0.0.orig.tar.gz
+ cf457053786221949708505317dc2aef98de869e55731268dfbeb172b30b437d 2416 node-collection-visit_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/collection-visit
+Package-List: 
+ node-collection-visit deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-collection-visit
+Priority: optional
+Section: javascript

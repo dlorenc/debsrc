@@ -1,0 +1,24 @@
+Package: rust-xi-unicode
+Binary: librust-xi-unicode-dev
+Version: 0.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 2d5714cb1cafe632b15d5ea5fca47b30 1462 rust-xi-unicode_0.1.0-1.dsc
+ 3dd21676dcbd7689a01e269ff5af9e40 13564 rust-xi-unicode_0.1.0.orig.tar.gz
+ ecc6072b011664decfdcfebeb59c0009 1808 rust-xi-unicode_0.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/xi-unicode
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/xi-unicode]
+Checksums-Sha256:
+ 51ed5e8ce35eb93f6738f5c07008a24001368b3b04a41d38037467c4a3bf154b 1462 rust-xi-unicode_0.1.0-1.dsc
+ f5e41c6cf2948f30b89d340eee6ef841d013ba3d291efc3b34b2449f05142210 13564 rust-xi-unicode_0.1.0.orig.tar.gz
+ 9986b11c9cc4d693ca66323610cff4b127223c0e3df6f72101ded090f7919333 1808 rust-xi-unicode_0.1.0-1.debian.tar.xz
+Package-List: 
+ librust-xi-unicode-dev deb rust optional arch=any
+Directory: pool/main/r/rust-xi-unicode
+Priority: extra
+Section: misc

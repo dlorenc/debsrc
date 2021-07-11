@@ -1,0 +1,26 @@
+Package: meta-phosh
+Binary: phosh-core, phosh-phone, phosh-tablet, phosh-full, phosh-games
+Version: 5
+Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
+Uploaders: Arnaud Ferraris <arnaud.ferraris@gmail.com>, Guido Günther <agx@sigxcpu.org>,
+Build-Depends: debhelper-compat (= 13)
+Architecture: linux-any all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 15b529700b9053514c379d1afa494495 1955 meta-phosh_5.dsc
+ 2076d290cfea7310bb2f55b6dff99fd3 3604 meta-phosh_5.tar.xz
+Vcs-Browser: https://salsa.debian.org/DebianOnMobile-team/meta-phosh
+Vcs-Git: https://salsa.debian.org/DebianOnMobile-team/meta-phosh.git
+Checksums-Sha256:
+ de50fd634319a448f9121aa93bc3d7cea1f56c246addff06073621b55cf96475 1955 meta-phosh_5.dsc
+ fc0df10a8abdd46818aa35196eaf7605a09fd4dd50a0f82e914d10a05988cce0 3604 meta-phosh_5.tar.xz
+Package-List: 
+ phosh-core deb metapackages optional arch=linux-any
+ phosh-full deb metapackages optional arch=linux-any
+ phosh-games deb metapackages optional arch=all
+ phosh-phone deb metapackages optional arch=linux-any
+ phosh-tablet deb metapackages optional arch=linux-any
+Directory: pool/main/m/meta-phosh
+Priority: extra
+Section: misc

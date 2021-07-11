@@ -1,0 +1,28 @@
+Package: haskell-monadlib
+Binary: libghc-monadlib-dev, libghc-monadlib-prof, libghc-monadlib-doc
+Version: 3.10-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ f6a0d31598a8bb40f1f337862af5b14b 2296 haskell-monadlib_3.10-1.dsc
+ 1f0a1b0b2a0189c678cc1e06faa34e2f 11475 haskell-monadlib_3.10.orig.tar.gz
+ 29b14f6b2bca3adcac29082f015f0d91 2344 haskell-monadlib_3.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-monadlib
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-monadlib]
+Checksums-Sha256:
+ d84ed9d7369ea83b262487346d92b817648caa066250cb96f4778dc9957c2bcb 2296 haskell-monadlib_3.10-1.dsc
+ 615c4e0f43491950da36608f968fc28d07a9128e7662d5481891a9a40d667ba3 11475 haskell-monadlib_3.10.orig.tar.gz
+ 7b530eb84e5db4f9d971bf000d0b9e1a0f43baff362ae361ff861dfd366bf099 2344 haskell-monadlib_3.10-1.debian.tar.xz
+Homepage: http://wiki.github.com/yav/monadlib
+Package-List: 
+ libghc-monadlib-dev deb haskell optional arch=any
+ libghc-monadlib-doc deb doc optional arch=all
+ libghc-monadlib-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-monadlib
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: volpack
+Binary: libvolpack1, libvolpack1-dev
+Version: 1.0b3-9
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael Hanke <michael.hanke@gmail.com>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), m4, d-shlibs
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f079b1cb3642c5eabf89be945e68e9fd 2128 volpack_1.0b3-9.dsc
+ b7e7a02f67396b406e58c8776c9594f3 1161707 volpack_1.0b3.orig.tar.gz
+ ed6b5f44e71192fa8625d59a6a85b9ab 20256 volpack_1.0b3-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/volpack
+Vcs-Git: https://salsa.debian.org/med-team/volpack.git
+Checksums-Sha256:
+ cba00ea965c28fd1f62f7913b135296cd4c41df8d106d2487b782a7b913722df 2128 volpack_1.0b3-9.dsc
+ dce3d892ad34b2810fc80b0592c7224a4606f8ebfb8206421e24288753f230d7 1161707 volpack_1.0b3.orig.tar.gz
+ 0d531434c559c579599d034a82ecf6f6a48909841e89a9092953b41c2312639c 20256 volpack_1.0b3-9.debian.tar.xz
+Homepage: https://graphics.stanford.edu/software/volpack/
+Package-List: 
+ libvolpack1 deb libs optional arch=any
+ libvolpack1-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/v/volpack
+Priority: source
+Section: libs

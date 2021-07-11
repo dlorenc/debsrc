@@ -1,0 +1,33 @@
+Package: kholidays
+Binary: libkf5holidays-data, libkf5holidays-dev, libkf5holidays-doc, libkf5holidays5, qml-module-org-kde-kholidays
+Version: 1:5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen (>= 1.8.13~), extra-cmake-modules (>= 5.78.0~), graphviz, libqt5sql5-sqlite, pkg-kde-tools (>> 0.15.15), qtbase5-dev (>= 5.14.0~), qtdeclarative5-dev (>= 5.14.0~), qttools5-dev (>= 5.2.0)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1fd0e98c5cf516c911eaa46ab8f37562 2507 kholidays_5.78.0-2.dsc
+ 61ef222c062965f5668e9c01064382fa 225184 kholidays_5.78.0.orig.tar.xz
+ c7b61fff940f1c39083fea3fdd8e657c 488 kholidays_5.78.0.orig.tar.xz.asc
+ 96d04823a5ac687238d2abc337a9b402 15036 kholidays_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kholidays
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kholidays.git
+Checksums-Sha256:
+ f4536181f8ed24919de30a87b3e949a348cbd9b977d8d91cecb7b99186d2d183 2507 kholidays_5.78.0-2.dsc
+ 2768b85bad18603eacb93d211ebba51db800e532a2c0ec9f70cdaf5c0d50f590 225184 kholidays_5.78.0.orig.tar.xz
+ 665bf99c2adbce4246f89228c88f2a195813d4a4ed85d1455864c06f151b8c68 488 kholidays_5.78.0.orig.tar.xz.asc
+ fc51b2b6cc8355a3e34a058214b2ccc4e77809727d987be0ab56fb0d62bf78e3 15036 kholidays_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kholidays
+Package-List: 
+ libkf5holidays-data deb libs optional arch=all
+ libkf5holidays-dev deb libdevel optional arch=any
+ libkf5holidays-doc deb doc optional arch=all
+ libkf5holidays5 deb libs optional arch=any
+ qml-module-org-kde-kholidays deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, build-essential, dbus, xauth, xvfb
+Directory: pool/main/k/kholidays
+Priority: optional
+Section: misc

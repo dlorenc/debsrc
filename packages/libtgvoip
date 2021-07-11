@@ -1,0 +1,25 @@
+Package: libtgvoip
+Binary: libtgvoip-dev
+Version: 2.4.4+git20210101.13a5fcb+ds-2
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 063dbb1b3fec4dac216f4ca77f2d927c 2130 libtgvoip_2.4.4+git20210101.13a5fcb+ds-2.dsc
+ 84240459b619f530840510f4cc9ccf1c 171548 libtgvoip_2.4.4+git20210101.13a5fcb+ds.orig.tar.xz
+ 7acfd2d7601c3082441fa0902bf4f39e 14076 libtgvoip_2.4.4+git20210101.13a5fcb+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libtgvoip
+Vcs-Git: https://salsa.debian.org/debian/libtgvoip.git
+Checksums-Sha256:
+ d4ba634f3068c58b79674838203a4a6961b4b77478edd41fbb9b1bf11317920a 2130 libtgvoip_2.4.4+git20210101.13a5fcb+ds-2.dsc
+ 5c0900c0309adbf8ae1f30ce77682636eac2ca5ed270176025e06fd1af684105 171548 libtgvoip_2.4.4+git20210101.13a5fcb+ds.orig.tar.xz
+ 575c3e2f7874c5e2e8f3898b666a3956eaa3785135753c9f53e4bf21c8301d57 14076 libtgvoip_2.4.4+git20210101.13a5fcb+ds-2.debian.tar.xz
+Homepage: https://github.com/grishka/libtgvoip
+Build-Depends-Arch: cmake, libasound2-dev, libopus-dev, libpulse-dev, libssl-dev, libtgowt-dev
+Package-List: 
+ libtgvoip-dev deb libdevel optional arch=any
+Directory: pool/main/libt/libtgvoip
+Priority: optional
+Section: misc

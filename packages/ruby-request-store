@@ -1,0 +1,27 @@
+Package: ruby-request-store
+Binary: ruby-request-store
+Version: 1.5.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Caitlin Matos <caitlin.matos@zoho.com>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-minitest, ruby-rack
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2d9e0f859972b5552639a89952a3895a 2135 ruby-request-store_1.5.0-2.dsc
+ 1b046c7f77f451b3d6cfb590d37d9229 5178 ruby-request-store_1.5.0.orig.tar.gz
+ 8f48cfe3baae56d871f197790009ec40 2976 ruby-request-store_1.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-request-store
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-request-store.git
+Checksums-Sha256:
+ b17b5bb1cbbbb043ae4de63948a016fd88bde2944af2a4bf2846750c6965c23f 2135 ruby-request-store_1.5.0-2.dsc
+ dc344a1182d39dfb4e814905fd6df96ec391fa81e5d6b06093571c61b923dc2b 5178 ruby-request-store_1.5.0.orig.tar.gz
+ 552814a9da62bfa12e90505957f8274a4fd0c0600437c8e8805e73b6083384ec 2976 ruby-request-store_1.5.0-2.debian.tar.xz
+Homepage: https://github.com/steveklabnik/request_store
+Package-List: 
+ ruby-request-store deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-request-store
+Priority: optional
+Section: misc

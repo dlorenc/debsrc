@@ -1,0 +1,25 @@
+Package: rich
+Binary: python3-rich
+Version: 9.11.0-1
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-commonmark (>= 0.9.0), python3-colorama (>= 0.4.0), python3-mypy (>= 0.782), python3-pygments (>= 2.6.0), python3-pytest, python3-setuptools, python3-typing-extensions (>= 3.7.4)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 56b385a80be2fb33bffa953cc6105cd5 2110 rich_9.11.0-1.dsc
+ b9a0139b87d74f33a0f6337041c65a59 13625948 rich_9.11.0.orig.tar.xz
+ c7a3ec8bc9a795c1cab41226fb9b69a3 3904 rich_9.11.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/rich
+Vcs-Git: https://salsa.debian.org/python-team/packages/rich.git
+Checksums-Sha256:
+ f4e54cf821fdec60ae6670b596e60ae2aa96abcfcd25e08d48439d94c6200e23 2110 rich_9.11.0-1.dsc
+ dfc6227135793bfa7c49939f33837ec06e588295d87641d898b94fd2259e25d3 13625948 rich_9.11.0.orig.tar.xz
+ 9b9187ed4ffe4ffc7130c25b58ee033860a66cb5dd7e52da178f32f2583f7e95 3904 rich_9.11.0-1.debian.tar.xz
+Homepage: https://github.com/willmcgugan/rich
+Package-List: 
+ python3-rich deb python optional arch=all
+Directory: pool/main/r/rich
+Priority: extra
+Section: misc

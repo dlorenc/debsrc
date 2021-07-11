@@ -1,0 +1,25 @@
+Package: gnunet-gtk
+Binary: gnunet-gtk, gnunet-gtk-dev
+Version: 0.13.1-2
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Build-Depends: autopoint, debhelper-compat (= 13), gnunet-dev (>= 0.13.1~), libgladeui-dev (>= 3.10.0), libgtk-3-dev (>= 3.22.0), libqrencode-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cf0f9838b6420f87625a5d6fd61e44b0 2092 gnunet-gtk_0.13.1-2.dsc
+ 847dda7afa9b2d5e047f62ea481d8e62 1571519 gnunet-gtk_0.13.1.orig.tar.gz
+ eb75d4ba6be4b232220bd386a9a643f1 38264 gnunet-gtk_0.13.1-2.debian.tar.xz
+Vcs-Browser: https://git.progress-linux.org/users/daniel.baumann/debian/packages/gnunet-gtk
+Vcs-Git: https://git.progress-linux.org/users/daniel.baumann/debian/packages/gnunet-gtk
+Checksums-Sha256:
+ 0aa0ad4bdba3c7c0a53d9d889c3efdce20e7bd0dc198385eb7056ce917cb63bf 2092 gnunet-gtk_0.13.1-2.dsc
+ 1268cd49c3f41d20d7dc98d98da3b9b69894a596988ec79737fc1c68027ebffd 1571519 gnunet-gtk_0.13.1.orig.tar.gz
+ da2998c57d2dfc3278c486161157d572eaeb9380f9cfa0fbfa6258d33eb03c73 38264 gnunet-gtk_0.13.1-2.debian.tar.xz
+Homepage: https://gnunet.org/
+Package-List: 
+ gnunet-gtk deb net optional arch=any
+ gnunet-gtk-dev deb devel optional arch=any
+Directory: pool/main/g/gnunet-gtk
+Priority: source
+Section: net

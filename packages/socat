@@ -1,0 +1,22 @@
+Package: socat
+Binary: socat
+Version: 1.7.4.1-3
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper-compat (= 12), libssl-dev, libwrap0-dev, openssl <!nocheck>, net-tools <!nocheck>, iproute2 [linux-any] <!nocheck>, netbase <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ df3ed0dd965589fd09bf6a2920bc273e 1831 socat_1.7.4.1-3.dsc
+ 780d14908dc1a6aa2790de376ab56b7a 648888 socat_1.7.4.1.orig.tar.gz
+ e8d1e99b4b9e93f5dde860f6d55f42e3 10556 socat_1.7.4.1-3.debian.tar.xz
+Checksums-Sha256:
+ 9265da1ee1d4739a122c73c058cbd074617d5bc0eb2171955c5a109ee0d0aa62 1831 socat_1.7.4.1-3.dsc
+ 0c7e635070af1b9037fd96869fc45eacf9845cb54547681de9d885044538736d 648888 socat_1.7.4.1.orig.tar.gz
+ b4bf61a89de5c0741a785b2540d35b816908a6a9b40b3d329f663f9ca75c8321 10556 socat_1.7.4.1-3.debian.tar.xz
+Homepage: http://www.dest-unreach.org/socat/
+Package-List: 
+ socat deb net optional arch=any
+Directory: pool/main/s/socat
+Priority: source
+Section: net

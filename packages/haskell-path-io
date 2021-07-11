@@ -1,0 +1,28 @@
+Package: haskell-path-io
+Binary: libghc-path-io-dev, libghc-path-io-prof, libghc-path-io-doc
+Version: 1.6.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-dlist-dev (>= 0.8), libghc-dlist-dev (<< 0.9), libghc-dlist-prof, libghc-exceptions-dev (>= 0.8), libghc-exceptions-dev (<< 0.11), libghc-exceptions-prof, libghc-path-dev (>= 0.6), libghc-path-dev (<< 0.8), libghc-path-prof, libghc-temporary-dev (>= 1.1), libghc-temporary-dev (<< 1.4), libghc-temporary-prof, libghc-unix-compat-dev, libghc-unix-compat-prof
+Build-Depends-Indep: ghc-doc, libghc-dlist-doc, libghc-exceptions-doc, libghc-path-doc, libghc-temporary-doc, libghc-unix-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1d77a34b48f606df24e676e956bd15ca 2765 haskell-path-io_1.6.0-2.dsc
+ 7b164538dbfddcfb81e101ac12bb195f 20848 haskell-path-io_1.6.0.orig.tar.gz
+ d2e5a3297b82a63852ab3dfdbd4acd9d 2968 haskell-path-io_1.6.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-path-io
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-path-io]
+Checksums-Sha256:
+ 83329bf306c2c05bf4ebdee7ebab6607080c2e379acd084a386ad4ad39671eec 2765 haskell-path-io_1.6.0-2.dsc
+ 73e420ad029626182ad56c200640500e67fdb40b939c6e6e2a15363879ef8d41 20848 haskell-path-io_1.6.0.orig.tar.gz
+ 720537b524bf0c6d0e447a24737fc289e235f0aa5faaee53020be4eee6e446f1 2968 haskell-path-io_1.6.0-2.debian.tar.xz
+Homepage: https://github.com/mrkkrp/path-io
+Package-List: 
+ libghc-path-io-dev deb haskell optional arch=any
+ libghc-path-io-doc deb doc optional arch=all
+ libghc-path-io-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-path-io
+Priority: optional
+Section: misc

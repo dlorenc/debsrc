@@ -1,0 +1,27 @@
+Package: libtrue-perl
+Binary: libtrue-perl
+Version: 1.0.2-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ivan Kohler <ivan@debian.org>
+Build-Depends: debhelper-compat (= 13), libb-hooks-op-annotation-perl, libb-hooks-op-check-perl (>= 0.22), libdevel-stacktrace-perl <!nocheck>, libextutils-depends-perl (>= 0.405), libfunction-parameters-perl <!nocheck>, libmoo-perl (>= 2.003004) <!nocheck>, libtest-pod-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f726aa659fcc6f4773a8e2ffb709d6b6 2530 libtrue-perl_1.0.2-1.dsc
+ 15fda94d9fe1cfe907b81361f21e1552 129037 libtrue-perl_1.0.2.orig.tar.gz
+ 6c0490f2177a6864fee44983983aa6e7 5820 libtrue-perl_1.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtrue-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtrue-perl.git
+Checksums-Sha256:
+ 62a32eaafc53cfe615e999906f1fc5f59ccb38155ded17cd3659e254bcb2ecaf 2530 libtrue-perl_1.0.2-1.dsc
+ 6a1ccd4008d4cc66ded4e2a1694b5b2a21d7655e276e1354160012ba2be2a284 129037 libtrue-perl_1.0.2.orig.tar.gz
+ 0768b86e1292b4485a52d1dbe090b19c732be870e14da42d7d88d969d15916dc 5820 libtrue-perl_1.0.2-1.debian.tar.xz
+Homepage: https://metacpan.org/release/true
+Dgit: cbce9225b4dbbba77216f78e86d0b6b6d41d0de0 debian archive/debian/1.0.2-1 https://git.dgit.debian.org/libtrue-perl
+Package-List: 
+ libtrue-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtrue-perl
+Priority: source
+Section: perl

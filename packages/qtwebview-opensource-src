@@ -1,0 +1,31 @@
+Package: qtwebview-opensource-src
+Binary: qtwebview5-doc, qtwebview5-doc-html, libqt5webview5-dev, qtwebview5-examples, libqt5webview5, qml-module-qtwebview
+Version: 5.15.2-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Moore <sgmoore@kde.org>, Sandro Knauß <hefee@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>, Patrick Franz <patfra71@gmail.com>
+Build-Depends: debhelper-compat (= 13), pkg-kde-tools, qtbase5-dev (>= 5.15.2+dfsg~), qtbase5-private-dev (>= 5.15.2+dfsg~), qtdeclarative5-private-dev (>= 5.15.2~), qtwebengine5-dev (>= 5.15.2+dfsg~), qtwebengine5-private-dev (>= 5.15.2+dfsg~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7680b141c604fc6056fd6b1a5468e582 2942 qtwebview-opensource-src_5.15.2-2.dsc
+ 5ed6778d83cf7a49128af201eb0ebf64 133428 qtwebview-opensource-src_5.15.2.orig.tar.xz
+ 86a348cdfaa18562d1597590384863e4 6632 qtwebview-opensource-src_5.15.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtwebview
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtwebview.git
+Checksums-Sha256:
+ e3b79154a16f919940e5478c58370ddb69d1119d1847640df0d21983574b9808 2942 qtwebview-opensource-src_5.15.2-2.dsc
+ be9f46167e4977ead5ef5ecf883fdb812a4120f2436383583792f65557e481e7 133428 qtwebview-opensource-src_5.15.2.orig.tar.xz
+ a7336ececb0372f84f666eb0896a398451e0459f89e1f8320616adf520733e24 6632 qtwebview-opensource-src_5.15.2-2.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtwebview-index.html
+Package-List: 
+ libqt5webview5 deb libs optional arch=any
+ libqt5webview5-dev deb libdevel optional arch=any
+ qml-module-qtwebview deb libs optional arch=any
+ qtwebview5-doc deb doc optional arch=all profile=!nodoc
+ qtwebview5-doc-html deb doc optional arch=all profile=!nodoc
+ qtwebview5-examples deb libs optional arch=any
+Directory: pool/main/q/qtwebview-opensource-src
+Priority: extra
+Section: misc

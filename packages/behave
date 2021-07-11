@@ -1,0 +1,27 @@
+Package: behave
+Binary: python3-behave, python-behave-doc
+Version: 1.2.6-3
+Maintainer: Vincent Bernat <bernat@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-hamcrest, python3-mock, python3-nose, python3-parse, python3-parse-type, python3-path, python3-pytest, python3-setuptools, python3-six, python3-sphinx, python3-sphinx-bootstrap-theme
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 97d6b1c81e0831021018e0512912f4f8 2240 behave_1.2.6-3.dsc
+ 3f05c859a1c45f5ed33e925817ad887d 701696 behave_1.2.6.orig.tar.gz
+ 685c3a4eee6fe7a7fc983ecb3f061d16 9472 behave_1.2.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/behave
+Vcs-Git: https://salsa.debian.org/python-team/modules/behave.git
+Checksums-Sha256:
+ dcefd3d7e6e6f13aeee034fdd66c1e1e0579f539e0334de5c29dde77ee08f58a 2240 behave_1.2.6-3.dsc
+ b9662327aa53294c1351b0a9c369093ccec1d21026f050c3bd9b3e5cccf81a86 701696 behave_1.2.6.orig.tar.gz
+ 5f36158d0462fc66eaeb6db0e8a7f6fe675937eda4d51b0c02707cbe95a8fbab 9472 behave_1.2.6-3.debian.tar.xz
+Homepage: https://github.com/behave/behave
+Package-List: 
+ python-behave-doc deb doc optional arch=all
+ python3-behave deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/b/behave
+Priority: extra
+Section: misc

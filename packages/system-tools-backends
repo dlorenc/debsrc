@@ -1,0 +1,23 @@
+Package: system-tools-backends
+Binary: system-tools-backends, system-tools-backends-dev
+Version: 2.10.2-3.1
+Maintainer: Andriy Grytsenko <andrej@rep.kiev.ua>
+Build-Depends: debhelper (>= 8.1.0~), cdbs, autotools-dev, gnome-pkg-tools (>= 0.10), intltool (>= 0.40), libnet-dbus-perl, libdbus-1-dev (>= 1.1.2), libdbus-glib-1-dev (>= 0.74), libpolkit-gobject-1-dev (>= 0.94), libglib2.0-dev (>= 2.15.2)
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ bd94aa7aee29498f0771e28a3fca7368 2156 system-tools-backends_2.10.2-3.1.dsc
+ edae148b31342aecae035051adc70c74 448939 system-tools-backends_2.10.2.orig.tar.bz2
+ 7bc86d02814dbf171e1f291acfed40b2 10312 system-tools-backends_2.10.2-3.1.debian.tar.xz
+Checksums-Sha256:
+ 918fa65e88650d97b20ad3a859175b135388e6ec506f15ce2ca6844a7546a0ea 2156 system-tools-backends_2.10.2-3.1.dsc
+ 1dbe5177df46a9c7250735e05e77129fe7ec04840771accfa87690111ca2c670 448939 system-tools-backends_2.10.2.orig.tar.bz2
+ e6e1b1e2d037458bfedf2418edbc4fee8357396a9b444caf97e62beb78e78d6c 10312 system-tools-backends_2.10.2-3.1.debian.tar.xz
+Homepage: http://system-tools-backends.freedesktop.org/
+Package-List: 
+ system-tools-backends deb admin optional arch=any
+ system-tools-backends-dev deb devel optional arch=all
+Directory: pool/main/s/system-tools-backends
+Priority: source
+Section: admin

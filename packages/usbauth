@@ -1,0 +1,27 @@
+Package: usbauth
+Binary: usbauth
+Version: 1.0.3-1
+Maintainer: Kun-Hung Tsai (蔡昆宏) <moonape1226@gmail.com>
+Uploaders: SZ Lin (林上智) <szlin@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, automake, flex, bison, libudev-dev, libusbauth-configparser-dev, libdbus-1-dev, m4
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3a4d87020dead991173112910b752dcc 2084 usbauth_1.0.3-1.dsc
+ 4da26ef105a13dd0e19a2bc0b84955dc 39148 usbauth_1.0.3.orig.tar.gz
+ f884f8207f83f9da76a97c16108384af 3108 usbauth_1.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/usbauth
+Vcs-Git: https://salsa.debian.org/debian/usbauth.git
+Checksums-Sha256:
+ 88c252d3aedff3d417ea54d967b17ef68eae1a5e2085db26a70008ae557afa3c 2084 usbauth_1.0.3-1.dsc
+ e58d66d7b6176b84ae8fe15248bc98fce2f98397d2730b99aef3768fd7830877 39148 usbauth_1.0.3.orig.tar.gz
+ b3e89b476b5d1f2204394e5b1ef07b21359c9630fe10cf1187470bd07f1b86e1 3108 usbauth_1.0.3-1.debian.tar.xz
+Homepage: https://github.com/kochstefan/usbauth-all/tree/master/usbauth
+Package-List: 
+ usbauth deb utils optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: dbus, libc-bin, usbauth-notifier
+Directory: pool/main/u/usbauth
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: rust-encoding
+Binary: librust-encoding-dev
+Version: 0.2.33-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-encoding-index-japanese-1.20141219+default-dev (>= 1.20141219.5~~) <!nocheck>, librust-encoding-index-korean-1.20141219+default-dev (>= 1.20141219.5~~) <!nocheck>, librust-encoding-index-simpchinese-1.20141219+default-dev (>= 1.20141219.5~~) <!nocheck>, librust-encoding-index-singlebyte-1.20141219+default-dev (>= 1.20141219.5~~) <!nocheck>, librust-encoding-index-tradchinese-1.20141219+default-dev (>= 1.20141219.5~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 04a376ffd16aea94c815fc79bdf05d6c 2575 rust-encoding_0.2.33-1.dsc
+ ab55bbbb1768a82c9b342f0b03df1e74 89103 rust-encoding_0.2.33.orig.tar.gz
+ d74ed83504d0f999495febbc2398b1c6 2572 rust-encoding_0.2.33-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/encoding
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/encoding]
+Checksums-Sha256:
+ f55a38caf50ff584c700cab6f55407953e3f57c3d75f308fc6023448f72f5346 2575 rust-encoding_0.2.33-1.dsc
+ f69c56255d473e037851a33f5474fef9a46f25e84894a2a2e2d716428f7191d3 89103 rust-encoding_0.2.33.orig.tar.gz
+ 82589377032a9a8c0b54bfbe2509f530894aa2d1c31ceb7866e98416994236b9 2572 rust-encoding_0.2.33-1.debian.tar.xz
+Homepage: https://github.com/lifthrasiir/rust-encoding
+Package-List: 
+ librust-encoding-dev deb rust optional arch=any
+Directory: pool/main/r/rust-encoding
+Priority: extra
+Section: misc

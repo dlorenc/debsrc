@@ -1,0 +1,26 @@
+Package: node-component-consoler
+Binary: node-component-consoler
+Version: 2.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), node-debug <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 339bd6bbfae58417f869ae005654e09e 2170 node-component-consoler_2.0.0-2.dsc
+ 8e86364ed5b01785b050125ec2b36ad3 2676 node-component-consoler_2.0.0.orig.tar.gz
+ 4ae20ef19ba3fb35d52695389ed2543b 2372 node-component-consoler_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-component-consoler
+Vcs-Git: https://salsa.debian.org/js-team/node-component-consoler.git
+Checksums-Sha256:
+ 021f18c14d63334370916a1d842c0586ca39f538ef129983832e688d7f926284 2170 node-component-consoler_2.0.0-2.dsc
+ c1b3b451be7a9b94abc75d40b2f420c876b1035b367ad7792aa622c4c5a6fbd1 2676 node-component-consoler_2.0.0.orig.tar.gz
+ c35b6f01a97a6c11e8b5c53812444b4cf3c02166ebb8e6a4128324e32573ac01 2372 node-component-consoler_2.0.0-2.debian.tar.xz
+Homepage: https://github.com/component/console.js
+Package-List: 
+ node-component-consoler deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-component-consoler
+Priority: optional
+Section: javascript

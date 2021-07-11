@@ -1,0 +1,35 @@
+Package: budgie-desktop
+Binary: budgie-core, budgie-core-dev, budgie-desktop, budgie-desktop-doc, gir1.2-budgie-1.0, libbudgie-plugin0, libbudgie-private0, libbudgietheme0, libraven0
+Version: 10.5.2-3
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Build-Depends: debhelper (>= 13), debhelper-compat (= 13), gir1.2-gee-0.8, gnome-common, gnome-settings-daemon-dev (>= 3.36.0), gobject-introspection, gtk-doc-tools, libaccountsservice-dev (>= 0.6.55), libasound2-dev, libgdk-pixbuf2.0-dev, libgee-0.8-dev, libglib2.0-dev (>= 2.64.0), libgnome-bluetooth-dev (>= 3.16), libgnome-desktop-3-dev (>= 3.36.0), libgnome-menu-3-dev, libgtk-3-dev (>= 3.24.0), libibus-1.0-dev (>= 1.5.10), libmutter-7-dev, libnotify-dev (>= 0.7), libpeas-dev, libpolkit-agent-1-dev, libpolkit-gobject-1-dev, libpulse-dev, libpulse-mainloop-glib0, libupower-glib-dev, libwnck-3-dev (>= 3.36.0), meson (>= 0.48.0), sassc, uuid-dev, valac (>= 0.48.0)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 62f5b26612cf994139fbb987024e523c 3360 budgie-desktop_10.5.2-3.dsc
+ a662ee9322b4ab44f20374fbeebd6833 594636 budgie-desktop_10.5.2.orig.tar.xz
+ adea5568ad7ca4638d44ecaa8ccdb23f 833 budgie-desktop_10.5.2.orig.tar.xz.asc
+ f76b5fd0417760386f740e97395ddc17 35712 budgie-desktop_10.5.2-3.debian.tar.xz
+Vcs-Browser: https://github.com/UbuntuBudgie/budgie-desktop/tree/debian
+Vcs-Git: https://github.com/UbuntuBudgie/budgie-desktop -b debian
+Checksums-Sha256:
+ ff1df389c9ff7ea3da2ce2e14c21f9dabaa09159a13ad038c1923b576ad18f6a 3360 budgie-desktop_10.5.2-3.dsc
+ d7219c1dc6d0e3fe54ac33062bfd420ab94158bcfe9409d09c85d7e7a21c67fa 594636 budgie-desktop_10.5.2.orig.tar.xz
+ 93b1af40e6371790fb9a36b8522ccea70dc365a5c666870bd0c14ec13352746f 833 budgie-desktop_10.5.2.orig.tar.xz.asc
+ d6c5eb9bd47c96e42b30fb38e45439f5bd797a6e64fc6eab1369e550998a5c85 35712 budgie-desktop_10.5.2-3.debian.tar.xz
+Homepage: https://github.com/solus-project/budgie-desktop
+Package-List: 
+ budgie-core deb x11 optional arch=any
+ budgie-core-dev deb libdevel optional arch=any
+ budgie-desktop deb x11 optional arch=all
+ budgie-desktop-doc deb doc optional arch=all
+ gir1.2-budgie-1.0 deb introspection optional arch=any
+ libbudgie-plugin0 deb libs optional arch=any
+ libbudgie-private0 deb libs optional arch=any
+ libbudgietheme0 deb libs optional arch=any
+ libraven0 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/b/budgie-desktop
+Priority: optional
+Section: misc

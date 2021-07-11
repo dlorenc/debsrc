@@ -1,0 +1,26 @@
+Package: maxflow
+Binary: libmaxflow0, libmaxflow-dev
+Version: 3.0.5-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.debian.org>
+Uploaders: Gert Wollny <gewo@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 630c24b6b03a977a8d00a1f8caf8cc5c 1962 maxflow_3.0.5-3.dsc
+ ffa6a80636787f78c48bc36e306331ec 28463 maxflow_3.0.5.orig.tar.gz
+ e305c19e5005555c93f39007feef8402 2916 maxflow_3.0.5-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/maxflow
+Vcs-Git: https://salsa.debian.org/med-team/maxflow.git
+Checksums-Sha256:
+ 29e3e03cf1937a5c2b36099f7c8b389841627cfc65d1230a757ff9b097b98ccc 1962 maxflow_3.0.5-3.dsc
+ e07d6a2faa21d09bee5627aad3595ebb4b878c90782c13dcebda6260434faf13 28463 maxflow_3.0.5.orig.tar.gz
+ 9a3d36f6a3389f38c553598605751502ece29f2ab81bf3fe1ec5c5b672d30c54 2916 maxflow_3.0.5-3.debian.tar.xz
+Homepage: https://github.com/gerddie/maxflow
+Package-List: 
+ libmaxflow-dev deb libdevel optional arch=any
+ libmaxflow0 deb libs optional arch=any
+Directory: pool/main/m/maxflow
+Priority: optional
+Section: misc

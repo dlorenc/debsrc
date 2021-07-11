@@ -1,0 +1,27 @@
+Package: rust-serde-derive
+Binary: librust-serde-derive-dev
+Version: 1.0.106-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Nicolas Braud-Santoni <nicoo@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+visit-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aefb6b923be76e1a1912276bf3456bcf 2473 rust-serde-derive_1.0.106-1.dsc
+ 37b637cdf95bd10407f23d46d486b15a 49719 rust-serde-derive_1.0.106.orig.tar.gz
+ 172030212483b3bef577a322a3b3e4cc 3016 rust-serde-derive_1.0.106-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-derive]
+Checksums-Sha256:
+ b7742f6e3e4abcb232be15af7984b0570afc714ce45a0e691d52cc1b27358fc1 2473 rust-serde-derive_1.0.106-1.dsc
+ 9e549e3abf4fb8621bd1609f11dfc9f5e50320802273b12f3811a67e6716ea6c 49719 rust-serde-derive_1.0.106.orig.tar.gz
+ 306cda644ebe375dc57e0b173761bf819f9b0cbcccf922a283eec0d02a13b506 3016 rust-serde-derive_1.0.106-1.debian.tar.xz
+Homepage: https://serde.rs
+Package-List: 
+ librust-serde-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-1+default-dev
+Directory: pool/main/r/rust-serde-derive
+Priority: extra
+Section: misc

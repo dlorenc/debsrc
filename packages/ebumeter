@@ -1,0 +1,26 @@
+Package: ebumeter
+Binary: ebumeter, ebumeter-doc
+Version: 0.4.2-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Dennis Braun <d_braun@kabelmail.de>, Jaromír Mikeš <mira.mikes@seznam.cz>
+Build-Depends: debhelper-compat (= 13), libclthreads-dev (>= 2.4.0), libclxclient-dev (>= 3.9.0), libjack-dev, libfreetype6-dev, libpng-dev, libsndfile1-dev, libzita-resampler-dev, pkg-config
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8c2fbaa9b85e8d3250d6e73f699a4e4b 2218 ebumeter_0.4.2-2.dsc
+ 3f933357760172bf2febb32dc2f88362 593514 ebumeter_0.4.2.orig.tar.bz2
+ a721ed69c23fd77fade261865f2fe08a 16012 ebumeter_0.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/ebumeter
+Vcs-Git: https://salsa.debian.org/multimedia-team/ebumeter.git
+Checksums-Sha256:
+ ca50d50d66e4cf6e6a510bf65eba7c2ad8d0e7e1fb289325484c6811e79f5760 2218 ebumeter_0.4.2-2.dsc
+ ba342f2515382fa0efc289fa60a848adc157075b6deb26cfcd2cde0a6f90a9f2 593514 ebumeter_0.4.2.orig.tar.bz2
+ 434892853db621896b9a09cd804cf01a669b9266fa659c343da01d6b2a51e065 16012 ebumeter_0.4.2-2.debian.tar.xz
+Homepage: https://kokkinizita.linuxaudio.org/linuxaudio/ebumeter-doc/quickguide.html
+Package-List: 
+ ebumeter deb sound optional arch=any
+ ebumeter-doc deb doc optional arch=all
+Directory: pool/main/e/ebumeter
+Priority: source
+Section: sound

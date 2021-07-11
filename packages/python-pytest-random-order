@@ -1,0 +1,27 @@
+Package: python-pytest-random-order
+Binary: python3-pytest-random-order
+Version: 1.0.4-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Nick Morrott <nickm@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all (>= 3.5), python3-pytest (>= 3.0), python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1101cc2ae8d501e3b4f731266b0afb31 2255 python-pytest-random-order_1.0.4-3.dsc
+ ba46c09ac529820ac9d4f7bc7f5568a4 96220 python-pytest-random-order_1.0.4.orig.tar.xz
+ 222eccccda85f423b5b4e3f3a99b74c2 3012 python-pytest-random-order_1.0.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-pytest-random-order
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-pytest-random-order.git
+Checksums-Sha256:
+ 2d98287b9f66fce46dfd4ed1db53d64cf828643f90dd954a2e195283dc4789c1 2255 python-pytest-random-order_1.0.4-3.dsc
+ e612fc09065d155dc9ea841e1c00bcd1a384ee19725283a66b608be5f5505d35 96220 python-pytest-random-order_1.0.4.orig.tar.xz
+ 2d945d4614f230e2f0d7091d7c4a775fea7e79848b92fa9b69f293351ca949e5 3012 python-pytest-random-order_1.0.4-3.debian.tar.xz
+Homepage: https://github.com/jbasko/pytest-random-order
+Package-List: 
+ python3-pytest-random-order deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-pytest-random-order
+Priority: extra
+Section: misc

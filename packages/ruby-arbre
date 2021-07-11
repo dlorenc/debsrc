@@ -1,0 +1,27 @@
+Package: ruby-arbre
+Binary: ruby-arbre
+Version: 1.2.1-4
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Samyak Jain <samyak.jn11@gmail.com>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: bundler (>= 2.1.4), debhelper-compat (= 13), gem2deb, pry (>= 0.13), rails, rake, rubocop, ruby-activesupport (>= 3.0.0), ruby-capybara, ruby-combustion, ruby-rspec, ruby-rspec-rails
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0b4464d5bfc4b6f6117454d14da07dd3 2221 ruby-arbre_1.2.1-4.dsc
+ 4db0dbdbc689c510c5a0a2f9fba71d7c 26420 ruby-arbre_1.2.1.orig.tar.gz
+ f55106313102b8e48dab773bc3b225cf 3472 ruby-arbre_1.2.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-arbre
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-arbre.git
+Checksums-Sha256:
+ bcff206b94d37db6d3c350438a243377d8515e2253f5b264b2f379b13b5c75fb 2221 ruby-arbre_1.2.1-4.dsc
+ 4c686069d7e2ce76660775aa95d376648e082da4a21a9624f4db935927793f3a 26420 ruby-arbre_1.2.1.orig.tar.gz
+ f9deaa9b138b4291f1ce7b8074df0b3a4da93261d149e9830e77fa55a346b43f 3472 ruby-arbre_1.2.1-4.debian.tar.xz
+Homepage: https://github.com/activeadmin/arbre
+Package-List: 
+ ruby-arbre deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-arbre
+Priority: extra
+Section: misc

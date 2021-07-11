@@ -1,0 +1,29 @@
+Package: python-azure
+Binary: python3-azure, python-azure-doc, python3-azure-storage
+Version: 20201208+git-6
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Nicolas Dandrimont <olasd@debian.org>, Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-adal, python3-all, python3-avro (>= 1.10.0~), python3-azure-devtools (>= 1.1.0), python3-azure-cosmos, python3-azure-cosmosdb-table, python3-azure-datalake-store, python3-doc <!nodoc>, python3-flask, python3-isodate, python3-keyring, python3-msal, python3-msal-extensions, python3-msrest (>= 0.5~), python3-msrestazure (>= 0.5~), python3-recommonmark, python3-requests, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-typing-extensions, python3-uamqp
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ccd6922ce9602551233fab02900aa51d 2978 python-azure_20201208+git-6.dsc
+ 9e121b72bff625e57f0446d0ff7f9eaf 58107284 python-azure_20201208+git.orig.tar.xz
+ 22157a102a4688d60b700c813a3aa6dd 519356 python-azure_20201208+git-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-azure
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-azure.git
+Checksums-Sha256:
+ 4915622c1a5eb75c006683b12afec63ca2294a3e2c7aa327c5659e7c39a41421 2978 python-azure_20201208+git-6.dsc
+ 5819dedffb7687fe2ca794a67cb9616a41a220a95a95dd36f41f3f52b26f533f 58107284 python-azure_20201208+git.orig.tar.xz
+ 3578285659ffe7a04f91ad05ec4ea48f910c83419a8208440f2aff8bd818494f 519356 python-azure_20201208+git-6.debian.tar.xz
+Homepage: https://github.com/Azure/azure-sdk-for-python
+Package-List: 
+ python-azure-doc deb doc optional arch=all profile=!nodoc
+ python3-azure deb python optional arch=all
+ python3-azure-storage deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@, python3-dotenv, python3-httpretty, python3-mock, python3-openssl, python3-pytest, python3-pytest-asyncio, python3-pytest-cov, python3-trio
+Directory: pool/main/p/python-azure
+Priority: optional
+Section: misc

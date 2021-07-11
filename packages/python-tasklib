@@ -1,0 +1,27 @@
+Package: python-tasklib
+Binary: python3-tasklib
+Version: 2.3.0-3
+Maintainer: Debian Tasktools Team <team+tasktools@tracker.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools
+Build-Depends-Indep: python3-tzlocal, taskwarrior
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9d65bbcde4dc08e218bc0fd5005b9a72 2121 python-tasklib_2.3.0-3.dsc
+ 2ccc7aa97473be296c465e5af6c7aa63 32906 python-tasklib_2.3.0.orig.tar.gz
+ 7caa41bdc46d643d0611153a52f06730 3144 python-tasklib_2.3.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tasktools-team/python-tasklib
+Vcs-Git: https://salsa.debian.org/tasktools-team/python-tasklib.git
+Checksums-Sha256:
+ 7e74988bc264af5972747ef1c838da0618d6cf68c4a397d6b705cb8c5e3c5d5c 2121 python-tasklib_2.3.0-3.dsc
+ c71fbd2b4c56515228df66ecb3f3c85aeb873c73f796fcbb194ac629696ca12b 32906 python-tasklib_2.3.0.orig.tar.gz
+ 36f0ac9ce8098021365dcbeae80abd321ee7186a95e8de7fa61506a762dac35d 3144 python-tasklib_2.3.0-3.debian.tar.xz
+Homepage: https://github.com/robgolding/tasklib
+Package-List: 
+ python3-tasklib deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-tasklib
+Priority: extra
+Section: misc

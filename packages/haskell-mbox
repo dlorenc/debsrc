@@ -1,0 +1,28 @@
+Package: haskell-mbox
+Binary: libghc-mbox-dev, libghc-mbox-prof, libghc-mbox-doc
+Version: 0.3.4-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-safe-dev, libghc-safe-prof, libghc-time-locale-compat-dev, libghc-time-locale-compat-prof
+Build-Depends-Indep: ghc-doc, libghc-safe-doc, libghc-time-locale-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 40f4fe9d2be5d868fddde2f2164fe5d1 2399 haskell-mbox_0.3.4-5.dsc
+ 78efe6a1cf7e3e18e80c4af57f1601b4 3680 haskell-mbox_0.3.4.orig.tar.gz
+ 32414e75038d52dd21c75f04507d5cf7 3308 haskell-mbox_0.3.4-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-mbox
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-mbox]
+Checksums-Sha256:
+ 6fa1ff75ef95436522e690db8ffea75720e10ca9ad5587aa4a6c45d50b0b7376 2399 haskell-mbox_0.3.4-5.dsc
+ dce4b538bbe03928a1d1438bf80b4d341ffb1a9d23ead1c2b16a04b0fa5371de 3680 haskell-mbox_0.3.4.orig.tar.gz
+ a0c6ddd61fc4ab1b5cbe52226d6c610c10f8c016982615cd7afd624545c6d4db 3308 haskell-mbox_0.3.4-5.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/mbox
+Package-List: 
+ libghc-mbox-dev deb haskell optional arch=any
+ libghc-mbox-doc deb doc optional arch=all
+ libghc-mbox-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-mbox
+Priority: source
+Section: haskell

@@ -1,0 +1,28 @@
+Package: haskell-prim-uniq
+Binary: libghc-prim-uniq-dev, libghc-prim-uniq-prof, libghc-prim-uniq-doc
+Version: 0.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-dependent-sum-dev (>= 0.7), libghc-dependent-sum-dev (<< 0.8), libghc-dependent-sum-prof, libghc-primitive-dev, libghc-primitive-prof
+Build-Depends-Indep: ghc-doc, libghc-dependent-sum-doc, libghc-primitive-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 781a91f78929ed34f2699c71e0d2ee41 2500 haskell-prim-uniq_0.2-1.dsc
+ c7cfcd325a85b77019128adb6b24c518 4366 haskell-prim-uniq_0.2.orig.tar.gz
+ f38472e4ed7bb39afed2258f30c63e5a 2344 haskell-prim-uniq_0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-prim-uniq
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-prim-uniq]
+Checksums-Sha256:
+ e30dbb9c96ee1d4773c61f5bc9ca22047d811bbcd60dd9aed1d72e085b2e84fc 2500 haskell-prim-uniq_0.2-1.dsc
+ bbadfebdc4def5cc8a9db3458df710c45f2b4e72ee5d2e6c42562b77c7a6f2d0 4366 haskell-prim-uniq_0.2.orig.tar.gz
+ a5c684844b62d6f80410a3e06a984ec65e683deb9167a3137bf707635d28b02b 2344 haskell-prim-uniq_0.2-1.debian.tar.xz
+Homepage: https://github.com/obsidiansystems/prim-uniq
+Package-List: 
+ libghc-prim-uniq-dev deb haskell optional arch=any
+ libghc-prim-uniq-doc deb doc optional arch=all
+ libghc-prim-uniq-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-prim-uniq
+Priority: optional
+Section: misc

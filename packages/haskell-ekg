@@ -1,0 +1,29 @@
+Package: haskell-ekg
+Binary: libghc-ekg-dev, libghc-ekg-prof, libghc-ekg-doc, libghc-ekg-data
+Version: 0.4.0.15-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iustin Pop <iustin@debian.org>, Louis Bettens <louis@bettens.info>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 0.4), libghc-aeson-dev (<< 1.6), libghc-aeson-prof, libghc-ekg-core-dev (<< 0.2), libghc-ekg-core-dev (>= 0.1), libghc-ekg-core-prof, libghc-ekg-json-dev (<< 0.2), libghc-ekg-json-dev (>= 0.1), libghc-ekg-json-prof, libghc-network-dev (<< 3.2), libghc-network-prof, libghc-snap-core-dev (<< 1.1), libghc-snap-core-prof, libghc-snap-server-dev (<< 1.2), libghc-snap-server-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-ekg-core-doc, libghc-ekg-json-doc, libghc-network-doc, libghc-snap-core-doc, libghc-snap-server-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f5cf5deed0fd476890226f43b26896a1 2992 haskell-ekg_0.4.0.15-6.dsc
+ b492292257db1fabed23a6e6d85b2610 171305 haskell-ekg_0.4.0.15.orig.tar.gz
+ 581e787a335a6ab7af340ae608be9b6c 51392 haskell-ekg_0.4.0.15-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ekg
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ekg]
+Checksums-Sha256:
+ 83ab6e3ec331c542bb538a1fd339345ea5ed4a83f848bfead15d0f3ede259b63 2992 haskell-ekg_0.4.0.15-6.dsc
+ 482ae3be495cfe4f03332ad1c79ce8b5ad4f9c8eec824980c664808ae32c6dcc 171305 haskell-ekg_0.4.0.15.orig.tar.gz
+ 1fa6e3fa0191c83338c18975b9cd4dc87dfcb5ec66269c01e6fb835b2fb06522 51392 haskell-ekg_0.4.0.15-6.debian.tar.xz
+Homepage: https://github.com/tibbe/ekg
+Package-List: 
+ libghc-ekg-data deb haskell optional arch=all
+ libghc-ekg-dev deb haskell optional arch=any
+ libghc-ekg-doc deb doc optional arch=all
+ libghc-ekg-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ekg
+Priority: source
+Section: haskell

@@ -1,0 +1,28 @@
+Package: libredis-perl
+Binary: libredis-perl
+Version: 2:1.9980-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jorge Salamero Sanz <bencer@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libio-socket-timeout-perl (>= 0.29) <!nocheck>, libio-string-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-sharedfork-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtest-tcp-perl (>= 2.22-2~) <!nocheck>, libtry-tiny-perl <!nocheck>, redis-server <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 848601ed8611503e776249e084d0efb2 2681 libredis-perl_1.9980-2.dsc
+ 187d464968fdca58eec675856a8cd0fe 59660 libredis-perl_1.9980.orig.tar.gz
+ 7d7e8bee58059e723b267a8364248a62 7268 libredis-perl_1.9980-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libredis-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libredis-perl.git
+Checksums-Sha256:
+ 7610c2da669c0bba8bc898a58b6d5785ba3d2780117694cddcc7c2058594fd8d 2681 libredis-perl_1.9980-2.dsc
+ 59f3bb176c3a7a54cb3779497b89a7bae1fb217565c68711d585fc1f09d79c87 59660 libredis-perl_1.9980.orig.tar.gz
+ 911c4440141a78423f0ab64de29060bb35f54efb4ae8eea4a79f77b00ecd519f 7268 libredis-perl_1.9980-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Redis
+Dgit: f8f65af1577a403bae294542a4e1bd57c7c8651c debian archive/debian/2%1.9980-2 https://git.dgit.debian.org/libredis-perl
+Package-List: 
+ libredis-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libr/libredis-perl
+Priority: source
+Section: perl

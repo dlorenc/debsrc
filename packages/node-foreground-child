@@ -1,0 +1,26 @@
+Package: node-foreground-child
+Binary: node-foreground-child
+Version: 2.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), node-signal-exit <!nocheck>, node-tap (>= 8.0.0) <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 47cab22437b6de61804a02351902bd00 2190 node-foreground-child_2.0.0-2.dsc
+ 1d6edbb936ccf7fe8843fbbc9854245e 34975 node-foreground-child_2.0.0.orig.tar.gz
+ ca394784ad6060def620a58fd88d3d92 3460 node-foreground-child_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-foreground-child
+Vcs-Git: https://salsa.debian.org/js-team/node-foreground-child.git
+Checksums-Sha256:
+ 2eb5454081ff11feb828745c697b23338b180d6a99364276f888d8bf87e809c2 2190 node-foreground-child_2.0.0-2.dsc
+ 79d313a55e6a5a607c42d1d2e87fb68bd354aa087ba7053914dd470d91ebf997 34975 node-foreground-child_2.0.0.orig.tar.gz
+ 753437426d56db35817952ab5c2eb3307fe6cdf9262e6e00ce134c3770c75948 3460 node-foreground-child_2.0.0-2.debian.tar.xz
+Homepage: https://github.com/tapjs/foreground-child
+Package-List: 
+ node-foreground-child deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-foreground-child
+Priority: extra
+Section: javascript

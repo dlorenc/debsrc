@@ -1,0 +1,28 @@
+Package: haskell-zxcvbn-c
+Binary: libghc-zxcvbn-c-dev, libghc-zxcvbn-c-prof, libghc-zxcvbn-c-doc
+Version: 1.0.1-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libzxcvbn-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d7f819d9ba49a812f3ec235247bb2839 2345 haskell-zxcvbn-c_1.0.1-6.dsc
+ a8689e3d30ab2c6c3b37ef688aeb188b 364752 haskell-zxcvbn-c_1.0.1.orig.tar.gz
+ 32d70f6a255a3a1d8aea7c7eba13a3a0 9196 haskell-zxcvbn-c_1.0.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-zxcvbn-c
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-zxcvbn-c]
+Checksums-Sha256:
+ 8d4ba30aa8e1450423e8c130d2ae8f53bf3305507318352fb697604d98e3cc9e 2345 haskell-zxcvbn-c_1.0.1-6.dsc
+ 3352ee167fb8a161a72d2e2cc09ff6a0ca4fa2b8bc7575a06471a315dd81028d 364752 haskell-zxcvbn-c_1.0.1.orig.tar.gz
+ d9d849ec1350a34de552086a24426e16c2688d77bc43b5cf035221799639a5ef 9196 haskell-zxcvbn-c_1.0.1-6.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/zxcvbn-c
+Package-List: 
+ libghc-zxcvbn-c-dev deb haskell optional arch=any
+ libghc-zxcvbn-c-doc deb doc optional arch=all
+ libghc-zxcvbn-c-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-zxcvbn-c
+Priority: optional
+Section: misc

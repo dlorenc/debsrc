@@ -1,0 +1,27 @@
+Package: fence-virt
+Binary: fence-virt, fence-virtd
+Version: 1.0.0-1
+Maintainer: Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>
+Uploaders: Valentin Vidic <vvidic@debian.org>
+Build-Depends: bison, debhelper-compat (= 12), flex, libcpg-dev, libnss3-dev, libvirt-dev, libxml2-dev, pkg-config, uuid-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c795091fe9671e6f54fd02ce0b3f9eac 2124 fence-virt_1.0.0-1.dsc
+ 4f2ac68093838c2e91367cce6f0bbd29 111143 fence-virt_1.0.0.orig.tar.gz
+ 3290b0b34f9fc8b59a511c7d0e0fa8f6 3300 fence-virt_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ha-team/fence-virt
+Vcs-Git: https://salsa.debian.org/ha-team/fence-virt.git
+Checksums-Sha256:
+ fd9d4ed91698230ab14c628e4f149f7f969bcb366fc41ed216a2ef46450560bb 2124 fence-virt_1.0.0-1.dsc
+ e40e4af12429b8d4b734c6930964429e466fe9b42459ea29eafc2c77c04fbdee 111143 fence-virt_1.0.0.orig.tar.gz
+ 7af9ea4df69cc481139c7fbeb67077cb7e8ec7fccb879991f0862900fbf8adc2 3300 fence-virt_1.0.0-1.debian.tar.xz
+Homepage: https://github.com/ClusterLabs/fence-virt/
+Package-List: 
+ fence-virt deb admin optional arch=any
+ fence-virtd deb admin optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/f/fence-virt
+Priority: extra
+Section: misc

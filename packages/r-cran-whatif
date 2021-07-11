@@ -1,0 +1,27 @@
+Package: r-cran-whatif
+Binary: r-cran-whatif
+Version: 1.5-10-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-lpsolve, r-cran-pbmcapply
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0dc38afb2d2970cc3ccb0350ba05810b 2128 r-cran-whatif_1.5-10-1.dsc
+ 20ac8dcaa8788ebd020dcd578f5de4da 75099 r-cran-whatif_1.5-10.orig.tar.gz
+ e09a340b8d163740abd0d9f9ac621bf0 3100 r-cran-whatif_1.5-10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-whatif
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-whatif.git
+Checksums-Sha256:
+ a3bd23b6149d4d3e366d9e662faed5d7de76c186fbe2ee5d2b26900b39b593e7 2128 r-cran-whatif_1.5-10-1.dsc
+ 6f0aef2e91b5011e517174c25626137dec1351cf349d6152cf50c52102c785a7 75099 r-cran-whatif_1.5-10.orig.tar.gz
+ 9b7ed444ec2db9c6fc0efb6b9e1dd0581f5aa2f56e1b823b7b8c2afdb6b451be 3100 r-cran-whatif_1.5-10-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=WhatIf
+Package-List: 
+ r-cran-whatif deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-whatif
+Priority: extra
+Section: misc

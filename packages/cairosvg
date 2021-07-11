@@ -1,0 +1,27 @@
+Package: cairosvg
+Binary: cairosvg, python3-cairosvg
+Version: 2.5.0-1.1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, docbook-to-man, python3-all, python3-cairocffi, python3-cssselect2, python3-defusedxml, python3-pil, python3-pytest, python3-pytest-cov, python3-pytest-runner, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 520c0fb8e2b9db2d3b52859cb56f2916 2365 cairosvg_2.5.0-1.1.dsc
+ 08fafc33e0f747b9240558e4865af3e9 8340610 cairosvg_2.5.0.orig.tar.gz
+ c23ba0452e7bfd3bf0b3009fca87d686 6960 cairosvg_2.5.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/cairosvg
+Vcs-Git: https://salsa.debian.org/python-team/packages/cairosvg.git
+Checksums-Sha256:
+ c9e4412fe23e111f5df92325bbd1d45314dcc6f78c7d3d68aece0715d7d7dae7 2365 cairosvg_2.5.0-1.1.dsc
+ 1560c66c119a1f74348293f484be4aef837b9691502c228e5e0f4824a0b6dfa5 8340610 cairosvg_2.5.0.orig.tar.gz
+ 454600f0ae60c18dc4bd718aa00d9293f0a7fb0386d3ae029912eb148609e1af 6960 cairosvg_2.5.0-1.1.debian.tar.xz
+Homepage: https://cairosvg.org/
+Package-List: 
+ cairosvg deb graphics optional arch=all
+ python3-cairosvg deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/c/cairosvg
+Priority: source
+Section: python

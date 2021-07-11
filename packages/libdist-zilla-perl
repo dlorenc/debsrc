@@ -1,0 +1,28 @@
+Package: libdist-zilla-perl
+Binary: libdist-zilla-perl
+Version: 6.017-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Dominique Dumont <dod@debian.org>, Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-bash-completion
+Build-Depends-Indep: libapp-cmd-perl (>= 0.330) <!nocheck>, libautobox-perl <!nocheck>, libconfig-ini-perl <!nocheck>, libconfig-mvp-perl (>= 2.200011) <!nocheck>, libconfig-mvp-reader-ini-perl <!nocheck>, libcpan-meta-check-perl (>= 0.011) <!nocheck>, libcpan-uploader-perl <!nocheck>, libdata-section-perl <!nocheck>, libdatetime-perl <!nocheck>, libfile-copy-recursive-perl (>= 0.41) <!nocheck>, libfile-find-rule-perl <!nocheck>, libfile-pushd-perl <!nocheck>, libfile-sharedir-install-perl, libfile-sharedir-perl, libhash-merge-simple-perl <!nocheck>, libio-tiecombine-perl <!nocheck>, libjson-perl <!nocheck>, liblog-dispatchouli-perl <!nocheck>, libmixin-linewise-perl <!nocheck>, libmodule-runtime-perl <!nocheck>, libmoose-autobox-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-lazyrequire-perl <!nocheck>, libmoosex-role-parameterized-perl <!nocheck>, libmoosex-setonce-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libmoosex-types-perl-perl <!nocheck>, libnamespace-autoclean-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libperl-prereqscanner-perl <!nocheck>, libperl-version-perl <!nocheck>, libpod-simple-perl <!nocheck>, libscalar-list-utils-perl (>= 1:1.45) <!nocheck>, libsoftware-license-perl (>= 0.103014) <!nocheck>, libstring-formatter-perl <!nocheck>, libstring-rewriteprefix-perl <!nocheck>, libsub-exporter-formethods-perl <!nocheck>, libterm-encoding-perl <!nocheck>, libterm-readkey-perl <!nocheck>, libterm-readline-gnu-perl <!nocheck>, libterm-ui-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-failwarnings-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-file-sharedir-perl <!nocheck>, libtext-glob-perl <!nocheck>, libtext-template-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libyaml-tiny-perl <!nocheck>, perl (>= 5.21.4)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d78ca8dc8335d0688360a59efc2ff69c 4254 libdist-zilla-perl_6.017-1.dsc
+ 073ec915c534243d09ceb719482cfe33 203472 libdist-zilla-perl_6.017.orig.tar.gz
+ 8e04c5db7109c74dd1a5741ff936fc5a 9496 libdist-zilla-perl_6.017-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdist-zilla-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdist-zilla-perl.git
+Checksums-Sha256:
+ 44f80c2e9376b660e8335cf2b7dd6c2a006077626101442aa1a22b945cc8c2df 4254 libdist-zilla-perl_6.017-1.dsc
+ 5c8d30ce33ac8b5e937e6f83fcfa779e7225ca149951ee5c9bc2c3af3c2b6fee 203472 libdist-zilla-perl_6.017.orig.tar.gz
+ bc667c45011a26aac9c5de34301511d4d76fc81d200e63d84767bc3f616795c8 9496 libdist-zilla-perl_6.017-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Dist-Zilla
+Dgit: d996f2aba87738cd256b168dd7bc7567b7d19b24 debian archive/debian/6.017-1 https://git.dgit.debian.org/libdist-zilla-perl
+Package-List: 
+ libdist-zilla-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdist-zilla-perl
+Priority: source
+Section: perl

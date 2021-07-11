@@ -1,0 +1,28 @@
+Package: txt2html
+Binary: txt2html
+Version: 1:2.53-2
+Maintainer: Varun Hiremath <varun@debian.org>
+Uploaders: Joao Eriberto Mota Filho <eriberto@debian.org>, Ola Lundqvist <opal@debian.org>, Torsten Werner <twerner@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl
+Build-Depends-Indep: libgetopt-argvfile-perl, libtest-distribution-perl, libyaml-syck-perl, perl (>= 5.6.0-16)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cd72c861dfc60a1f4082922a23198128 2179 txt2html_2.53-2.dsc
+ 74fcfe32e250d26ba369e5d19c47b80d 134419 txt2html_2.53.orig.tar.gz
+ c0876965d927c43056fb8e3679320e63 4300 txt2html_2.53-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/txt2html
+Vcs-Git: https://salsa.debian.org/debian/txt2html.git
+Checksums-Sha256:
+ 94dd170e6c9742c8246a1b9c72bedb221c126b6688536700e90f53e26246c108 2179 txt2html_2.53-2.dsc
+ f7adeb65f50e6687fbd1740dbe25bf92affec36021fe06d8bd2cf7f9984f072f 134419 txt2html_2.53.orig.tar.gz
+ 5f9420a296f5aec8fd8ae28b3c52bbcf648fc95669617664e1ab6722b4d01fee 4300 txt2html_2.53-2.debian.tar.xz
+Homepage: https://github.com/resurrecting-open-source-projects/txt2html
+Package-List: 
+ txt2html deb text optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: debhelper, libmodule-build-perl
+Directory: pool/main/t/txt2html
+Priority: source
+Section: text

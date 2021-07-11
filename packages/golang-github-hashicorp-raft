@@ -1,0 +1,27 @@
+Package: golang-github-hashicorp-raft
+Binary: golang-github-hashicorp-raft-dev
+Version: 1.1.2-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper (>= 12~), dh-golang, golang-any, golang-github-armon-go-metrics-dev, golang-github-hashicorp-go-hclog-dev (>= 0.9.2~), golang-github-hashicorp-go-msgpack-dev (>= 0.5.5~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 501972580ae7c9478ed4c3d4b7d76c81 2408 golang-github-hashicorp-raft_1.1.2-1.dsc
+ 65844d5b08afa2d62ea4dedaf43e6047 103160 golang-github-hashicorp-raft_1.1.2.orig.tar.xz
+ 036528358012213daa0588e86be2a3d4 8980 golang-github-hashicorp-raft_1.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-raft
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-raft.git
+Checksums-Sha256:
+ a79f04f00eadc656a81002475cdd39c9e59885808a897a7d67879c667524d669 2408 golang-github-hashicorp-raft_1.1.2-1.dsc
+ 6c3383ee430aa6b421cc4cb4cbc485b0e612bda2e94e88d416d13d65d375dc89 103160 golang-github-hashicorp-raft_1.1.2.orig.tar.xz
+ 3877bf052d5719266221189613502262d1be1af152c736d3dc8ed49734ad6dd8 8980 golang-github-hashicorp-raft_1.1.2-1.debian.tar.xz
+Homepage: https://github.com/hashicorp/raft
+Go-Import-Path: github.com/hashicorp/raft
+Package-List: 
+ golang-github-hashicorp-raft-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hashicorp-raft
+Priority: extra
+Section: golang

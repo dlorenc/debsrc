@@ -1,0 +1,26 @@
+Package: unburden-home-dir
+Binary: unburden-home-dir, unburden-home-dir-doc
+Version: 0.4.1.2
+Maintainer: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13), devscripts, dpkg-dev (>= 1.17.14), libconfig-file-perl, libfile-basedir-perl, libfile-rsync-perl, libfile-touch-perl, libfile-which-perl, libipc-run-perl, libstring-expand-perl, libtry-tiny-perl, libfile-slurper-perl <!nocheck>, libmoo-perl <!nocheck>, libstring-random-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-file-perl (>= 1.30) <!nocheck>, libtest-perl-critic-perl <!nocheck>, lsof <!nocheck>, mkdocs <!nodoc>, moreutils <!nodoc>, pcregrep <!nodoc>, ronn | ruby-ronn (<< 0.7.3-5.1~) <!nodoc>
+Build-Conflicts: libperl-critic-freenode-perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 534dfa75a5da04677471e4f1850e8be1 2316 unburden-home-dir_0.4.1.2.dsc
+ f536486452698552955237c5892a9a18 47400 unburden-home-dir_0.4.1.2.tar.xz
+Vcs-Browser: https://github.com/xtaran/unburden-home-dir
+Vcs-Git: https://github.com/xtaran/unburden-home-dir.git
+Checksums-Sha256:
+ 6f29f01891e12b728741296dc7b9e633ae23a61a69b321b4ce355fb7f6f0d866 2316 unburden-home-dir_0.4.1.2.dsc
+ 43df9f6bfdeaf0a55d82f6fddd725831d1f94ab0e713ee5a6cb1bbf1f4aae7c9 47400 unburden-home-dir_0.4.1.2.tar.xz
+Homepage: https://github.com/xtaran/unburden-home-dir
+Package-List: 
+ unburden-home-dir deb utils optional arch=all
+ unburden-home-dir-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/u/unburden-home-dir
+Priority: source
+Section: x11

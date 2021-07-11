@@ -1,0 +1,27 @@
+Package: ocaml-graphics
+Binary: libgraphics-ocaml-dev, libgraphics-ocaml
+Version: 5.1.0-3
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox (>= 4.09.0), ocaml-dune (>= 2.0), libdune-ocaml-dev, libx11-dev, pkg-config, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7e3bb3f249afa345b21452f17715c056 1948 ocaml-graphics_5.1.0-3.dsc
+ 12751bc2093ba56c4b57ce09eb97e919 40548 ocaml-graphics_5.1.0.orig.tar.bz2
+ e0e6d8be7bfcf5d0a46717afb1e118af 2096 ocaml-graphics_5.1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-graphics
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-graphics.git
+Checksums-Sha256:
+ 8d7195dd3a0bc1ca72a0941e91d92e14149577602947c5ef49e91846638a527e 1948 ocaml-graphics_5.1.0-3.dsc
+ c596ed036574c64bdaa313a7198953f081becfe5e3d78db1a2913170eb49e99b 40548 ocaml-graphics_5.1.0.orig.tar.bz2
+ 1f890f76773d53764c4ec267f677d27021460f3f2f562b99586e37d91f32c687 2096 ocaml-graphics_5.1.0-3.debian.tar.xz
+Homepage: https://github.com/ocaml/graphics
+Dgit: c5309ab9980858598bce2a4e638addb7e42fb02f debian archive/debian/5.1.0-3 https://git.dgit.debian.org/ocaml-graphics
+Package-List: 
+ libgraphics-ocaml deb ocaml optional arch=any
+ libgraphics-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-graphics
+Priority: extra
+Section: misc

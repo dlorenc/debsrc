@@ -1,0 +1,25 @@
+Package: aiozmq
+Binary: python3-aiozmq
+Version: 0.9.0-1
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 9), dh-python, python3-all, python3-setuptools, python3-zmq (>= 13.1), python3-msgpack (>= 0.4.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ eeae4b912e3abfbab4a2de9327393f08 2016 aiozmq_0.9.0-1.dsc
+ 8034180a15a92926bc26dfe1ae07e887 29852 aiozmq_0.9.0.orig.tar.gz
+ d1d45599d7ca53a9f7617463f59cf307 2260 aiozmq_0.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/aiozmq
+Vcs-Git: https://salsa.debian.org/python-team/modules/aiozmq.git
+Checksums-Sha256:
+ 2d8e2b50ecf9a8759480c2d3eae0fa5ec61e82f651be98eacb91da40bc1049e0 2016 aiozmq_0.9.0-1.dsc
+ 9d7315bb77e2655fc3a5051ea22e79527d62c42e51b2420c4f6f3dcebae65230 29852 aiozmq_0.9.0.orig.tar.gz
+ b94c1c7a33f1d725fb722c304f1a3167b94999df501a19ec899a55f860bc90e1 2260 aiozmq_0.9.0-1.debian.tar.xz
+Homepage: http://aiozmq.readthedocs.org/
+Package-List: 
+ python3-aiozmq deb python optional arch=all
+Directory: pool/main/a/aiozmq
+Priority: optional
+Section: misc

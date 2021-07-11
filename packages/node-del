@@ -1,0 +1,26 @@
+Package: node-del
+Binary: node-del
+Version: 5.1.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-globby <!nocheck>, node-graceful-fs, node-is-glob <!nocheck>, node-is-path-cwd <!nocheck>, node-is-path-inside, node-p-map <!nocheck>, node-rimraf <!nocheck>, node-slash, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b1addb61fe2b1d7dc1e6efff43c15839 2171 node-del_5.1.0-2.dsc
+ 80c2113ddcf60ab9deb2509c63837da5 6569 node-del_5.1.0.orig.tar.gz
+ f3db78a620625ef6938e09c594c81267 2492 node-del_5.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-del
+Vcs-Git: https://salsa.debian.org/js-team/node-del.git
+Checksums-Sha256:
+ 3fa9d5a62a3495fb879d9f191fc436b5d5ebe4e452d9cbc2a82f29ec034bec4c 2171 node-del_5.1.0-2.dsc
+ 759d26617703fa7dfdfd9914979465d6e83297203ac16d77942a1660a33d2329 6569 node-del_5.1.0.orig.tar.gz
+ 17ca6f75bb34772d3f27f6e4cf122db7624b49611101e9921e7b09cdd2dc7d44 2492 node-del_5.1.0-2.debian.tar.xz
+Homepage: https://github.com/sindresorhus/del#readme
+Package-List: 
+ node-del deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-del
+Priority: extra
+Section: misc

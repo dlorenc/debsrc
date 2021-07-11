@@ -1,0 +1,27 @@
+Package: node-json2module
+Binary: node-json2module
+Version: 0.0.3-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-rw, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 80009538eb7ffe080410e3934f4c4dca 2117 node-json2module_0.0.3-2.dsc
+ c09a814d61bc90cb4f866c29ce4b9208 6335 node-json2module_0.0.3.orig.tar.gz
+ 039f34b480e048bd1a8f3fce03bfef72 2816 node-json2module_0.0.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-json2module
+Vcs-Git: https://salsa.debian.org/js-team/node-json2module.git
+Checksums-Sha256:
+ 8b4e43dd2469d56c5534b1ebf697339673d298986d65217e3065aa0ab0114eeb 2117 node-json2module_0.0.3-2.dsc
+ c523d436ad60c02413fcf333b71a41de5420c8cafdd4eda35ae41e3090166f6f 6335 node-json2module_0.0.3.orig.tar.gz
+ f05db3da7d00fc49ada7a7fc4b7c163bc40f13a5d41db9c603c08c4eca9dff2b 2816 node-json2module_0.0.3-2.debian.tar.xz
+Homepage: https://github.com/mbostock/json2module
+Package-List: 
+ node-json2module deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, pkg-js-autopkgtest
+Directory: pool/main/n/node-json2module
+Priority: extra
+Section: misc

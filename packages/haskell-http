@@ -1,0 +1,28 @@
+Package: haskell-http
+Binary: libghc-http-dev, libghc-http-prof, libghc-http-doc
+Version: 1:4000.3.14-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Arjan Oosting <arjan@debian.org>, Clint Adams <clint@debian.org>, Ilias Tsitsimpis <iliastsi@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-network-dev (>= 2.6), libghc-network-dev (<< 3.2), libghc-network-prof, libghc-network-uri-dev (<< 2.7), libghc-network-uri-dev (>= 2.6), libghc-network-uri-prof
+Build-Depends-Indep: ghc-doc, libghc-network-doc, libghc-network-uri-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7c467b86cec6895a060eaf4198bb3630 2563 haskell-http_4000.3.14-2.dsc
+ a2e340760c318658313f1548c91e2692 72938 haskell-http_4000.3.14.orig.tar.gz
+ 1ce517f3a33b3ca6093d009373bfd14e 7200 haskell-http_4000.3.14-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-http
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-http]
+Checksums-Sha256:
+ 2a5cfe852e5f344b82a4fd5c8de17d167de3070cf5961e9ae4c0b3ce5608d3ba 2563 haskell-http_4000.3.14-2.dsc
+ a602d7f30e917164c6a634f8cb1f5df4849048858db01380a0875e16e5aa687b 72938 haskell-http_4000.3.14.orig.tar.gz
+ f76ea368be01e81a3c34891242acebad14f940d15159e68d691d1f71d41fd1ae 7200 haskell-http_4000.3.14-2.debian.tar.xz
+Homepage: https://github.com/haskell/HTTP
+Package-List: 
+ libghc-http-dev deb haskell optional arch=any
+ libghc-http-doc deb doc optional arch=all
+ libghc-http-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-http
+Priority: source
+Section: haskell

@@ -1,0 +1,27 @@
+Package: google-recaptcha
+Binary: php-google-recaptcha
+Version: 1.2.4-3
+Maintainer: phpMyAdmin Team <team+phpmyadmin@tracker.debian.org>
+Uploaders: Felipe Sateler <fsateler@debian.org>, Matthias Blümel <debian@blaimi.de>, William Desportes <williamdes@wdes.fr>
+Build-Depends: debhelper-compat (= 13), php-curl, phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 675db758133121fec92a1bf49e9c108e 1840 google-recaptcha_1.2.4-3.dsc
+ 07b13666ac01ebcb852c0974188b62cd 21762 google-recaptcha_1.2.4.orig.tar.gz
+ 4a80c4521c328ec9d749158cf3295db4 5276 google-recaptcha_1.2.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/phpmyadmin-team/google-recaptcha
+Vcs-Git: https://salsa.debian.org/phpmyadmin-team/google-recaptcha.git -b debian/latest
+Checksums-Sha256:
+ 9b3783e4a81900edbc74eb5e3a7262b2a6a27d5b8233be084e4371f3a7aad360 1840 google-recaptcha_1.2.4-3.dsc
+ bee29b17145b1f93c5ebc172ea7668222b778c26758d254ddaf234bbc8cf3e24 21762 google-recaptcha_1.2.4.orig.tar.gz
+ 45c13c7bd9bc6d89ed136a344da268967cf7f4d3cb1469ce54b0e26118555b94 5276 google-recaptcha_1.2.4-3.debian.tar.xz
+Homepage: https://github.com/google/recaptcha
+Package-List: 
+ php-google-recaptcha deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/g/google-recaptcha
+Priority: extra
+Section: misc

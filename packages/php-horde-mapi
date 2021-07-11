@@ -1,0 +1,27 @@
+Package: php-horde-mapi
+Binary: php-horde-mapi
+Version: 1.0.10-4
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools (>= 1~), pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1038f3761ac31d021a6f4a71fb377c66 2135 php-horde-mapi_1.0.10-4.dsc
+ 4505e3413c5b518884017afe14f560e4 18378 php-horde-mapi_1.0.10.orig.tar.gz
+ 233ab5fcc095906e20b0429b30556e7b 3696 php-horde-mapi_1.0.10-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-mapi
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-mapi.git
+Checksums-Sha256:
+ 5c363bb141e96a63175f6a8e7142736d54705cd6b2337863fb8c609033ca62bc 2135 php-horde-mapi_1.0.10-4.dsc
+ 43fda690e40408026ed380a9d47e2d0d524a85724974c87266f24cc01f25c65c 18378 php-horde-mapi_1.0.10.orig.tar.gz
+ dcb51e2f88a7e4b99a7680751b59b1e38e6225100b14f9db490b394428e80b6b 3696 php-horde-mapi_1.0.10-4.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-mapi deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-mapi
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: enigmail
+Binary: enigmail
+Version: 2:2.2.4-0.3
+Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
+Uploaders: Alexander Sack <asac@debian.org>, Willi Mann <willi@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>,
+Build-Depends: debhelper-compat (= 12), perl, python3, unzip, zip, eslint <!nocheck>, node-text-table <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cdcdbc45fb72e897fec79b965c1dd801 2093 enigmail_2.2.4-0.3.dsc
+ f0246ac708197a13a08cf904ae07c0a0 371735 enigmail_2.2.4.orig.tar.bz2
+ cd46cad18d499d546c84547945798c0b 27380 enigmail_2.2.4-0.3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/enigmail
+Vcs-Git: https://salsa.debian.org/debian/enigmail.git -b debian/master
+Checksums-Sha256:
+ c84b91a69525c857c1aeb7f74afbe4a6aaad225e01df9b54af8725417c6df570 2093 enigmail_2.2.4-0.3.dsc
+ 9eef6dd94e1ecd649c964d2d5b1264b5fabf12db8a692f0883ca097d0390dd53 371735 enigmail_2.2.4.orig.tar.bz2
+ f3f06c6405430ea2dc59f31fc4f87924910c06b95cc716c8ebddc64dcaec30cd 27380 enigmail_2.2.4-0.3.debian.tar.xz
+Homepage: https://www.enigmail.net/
+Package-List: 
+ enigmail deb mail optional arch=all
+Directory: pool/main/e/enigmail
+Priority: source
+Section: mail

@@ -1,0 +1,27 @@
+Package: rust-pq-sys
+Binary: librust-pq-sys-dev, librust-pq-sys+pkg-config-dev
+Version: 0.4.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-vcpkg-0.2+default-dev <!nocheck>, libpq-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 09674fe6a021d8d06f8f166a1bb88819 2230 rust-pq-sys_0.4.6-1.dsc
+ 6f3480adf738e311ce49e3888b14151d 13642 rust-pq-sys_0.4.6.orig.tar.gz
+ c0f171373f26104f8d0294b48df0df20 2628 rust-pq-sys_0.4.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pq-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pq-sys]
+Checksums-Sha256:
+ f3efba543fbc79fec3f62c6840c4afdc67a17c9e5b9321bb06c5d7e037dc0b87 2230 rust-pq-sys_0.4.6-1.dsc
+ 6ac25eee5a0582f45a67e837e350d784e7003bd29a5f460796772061ca49ffda 13642 rust-pq-sys_0.4.6.orig.tar.gz
+ d1c2ff92a5b32d6718f5dc0f8af82451cc0879045772d3877e48ced861d3ce11 2628 rust-pq-sys_0.4.6-1.debian.tar.xz
+Package-List: 
+ librust-pq-sys+pkg-config-dev deb rust optional arch=any
+ librust-pq-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-pq-sys
+Priority: extra
+Section: misc

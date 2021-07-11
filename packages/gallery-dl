@@ -1,0 +1,28 @@
+Package: gallery-dl
+Binary: gallery-dl
+Version: 1.17.3-1
+Maintainer: Unit 193 <unit193@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9157660826927b35636a8014eb6646c0 2240 gallery-dl_1.17.3-1.dsc
+ 919f74aa9c7d4b8be5fac41edbe5de46 345425 gallery-dl_1.17.3.orig.tar.gz
+ b3a11da11b77086651dd6a4b35131c76 833 gallery-dl_1.17.3.orig.tar.gz.asc
+ 45dfcbf39d17fb42a3a2b230e974bd9e 6676 gallery-dl_1.17.3-1.debian.tar.xz
+Vcs-Browser: https://git.unit193.net/cgit/users/unit193/gallery-dl.git
+Vcs-Git: https://git.unit193.net/cgit/users/unit193/gallery-dl.git
+Checksums-Sha256:
+ 4f91fbd4d51bf09fa902b0cbf607250b63587a8a79afadaab5fb6772f8d29738 2240 gallery-dl_1.17.3-1.dsc
+ 5da10d931c371841575d988b4e91e9d4ce55c8c3c99aa6d4efa5abca34c75ec8 345425 gallery-dl_1.17.3.orig.tar.gz
+ 69748169a87d5de9e4436bf79b8dbc89911a36379c954eccbe8daf5e6aadb630 833 gallery-dl_1.17.3.orig.tar.gz.asc
+ 8d3f80a604d02addb9dda602b5549bc510be9f8bc3968415e9d2a56756265fd0 6676 gallery-dl_1.17.3-1.debian.tar.xz
+Homepage: https://github.com/mikf/gallery-dl
+Package-List: 
+ gallery-dl deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, python3-nose
+Directory: pool/main/g/gallery-dl
+Priority: extra
+Section: misc

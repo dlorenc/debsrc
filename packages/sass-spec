@@ -1,0 +1,27 @@
+Package: sass-spec
+Binary: sass-spec, sass-spec-data
+Version: 3.6.3-1.1
+Maintainer: Debian Sass team <pkg-sass-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Anthony Fok <foka@debian.org>,
+Build-Depends: debhelper-compat (= 12), gem2deb, help2man, ruby | ruby-interpreter, ruby-hrx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6823ef98ad073b7aad434343c6316741 2078 sass-spec_3.6.3-1.1.dsc
+ ab6ef83b73ca8c16baac9a09b69ec7ef 494602 sass-spec_3.6.3.orig.tar.gz
+ c8cb93afbfc4875ff7026e9b990a41cb 4192 sass-spec_3.6.3-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/sass-team/sass-spec
+Vcs-Git: https://salsa.debian.org/sass-team/sass-spec.git
+Checksums-Sha256:
+ d52256f4c75a52fabef35c703daf9085a489be294e4b6e74e5ec471f38f3ea98 2078 sass-spec_3.6.3-1.1.dsc
+ 1c84cad4624980259f00e2f9f8cc42c9b716986511ab6251fbb1547f612818f8 494602 sass-spec_3.6.3.orig.tar.gz
+ 7b30e60e2c9816b6ea3cf0ec0a9346ba34d9cf05631b32777cef946103517939 4192 sass-spec_3.6.3-1.1.debian.tar.xz
+Homepage: https://github.com/sass/sass-spec
+Package-List: 
+ sass-spec deb devel optional arch=all
+ sass-spec-data deb devel optional arch=all
+Ruby-Versions: all
+Directory: pool/main/s/sass-spec
+Priority: optional
+Section: misc

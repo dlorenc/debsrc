@@ -1,0 +1,26 @@
+Package: python-multidict
+Binary: python3-multidict, python3-multidict-dbg
+Version: 5.1.0-1
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all-dev, python3-all-dbg, python3-setuptools, python3-pytest, python3-psutil, cython3
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8578b5acacc2be455308a4cc43198e88 2208 python-multidict_5.1.0-1.dsc
+ df8b37f069809779214d6b80b250e45b 53685 python-multidict_5.1.0.orig.tar.gz
+ 731d1b3a4b5931c1dcab73a02d18fec7 2976 python-multidict_5.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-multidict
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-multidict.git
+Checksums-Sha256:
+ 4250660745d415807e90a66519dd44ac05da73c715bdf5a8a783b114e2917b76 2208 python-multidict_5.1.0-1.dsc
+ 25b4e5f22d3a37ddf3effc0710ba692cfc792c2b9edfb9c05aefe823256e84d5 53685 python-multidict_5.1.0.orig.tar.gz
+ 74e08a2f87b1aade624ef8a8d2df0ff4c2a0887f76437f55d85038a863dcd2db 2976 python-multidict_5.1.0-1.debian.tar.xz
+Homepage: https://github.com/aio-libs/multidict/
+Package-List: 
+ python3-multidict deb python optional arch=any
+ python3-multidict-dbg deb debug optional arch=any
+Directory: pool/main/p/python-multidict
+Priority: optional
+Section: misc

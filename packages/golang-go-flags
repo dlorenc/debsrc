@@ -1,0 +1,27 @@
+Package: golang-go-flags
+Binary: golang-go-flags-dev
+Version: 1.4.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Sergio Schvezov <sergio.schvezov@canonical.com>, Steve Langasek <vorlon@debian.org>, Michael Hudson-Doyle <michael.hudson@ubuntu.com>, Anthony Fok <foka@debian.org>, Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-go
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 003e65aa2822a2ab4640a25ace4ce55a 2260 golang-go-flags_1.4.0-2.dsc
+ 84a97e3b5c6d18da2d2eb414ea62d558 55452 golang-go-flags_1.4.0.orig.tar.gz
+ a14114b0ac2075e16c0236e28dc2087b 4488 golang-go-flags_1.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-go-flags
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-go-flags.git
+Checksums-Sha256:
+ 61d0f0cb0844a661e39de1698c9c93ca736821e2f97649ea93c929b8dbc048db 2260 golang-go-flags_1.4.0-2.dsc
+ 3be7e8fb4b63887e8aeb55878244c04b7dcbe5ac77211c73ee35e38ca681e611 55452 golang-go-flags_1.4.0.orig.tar.gz
+ edc5782eac7d518b2d76450d53206e73c1088da73ed06fb8ef4f8dbeeb2496a1 4488 golang-go-flags_1.4.0-2.debian.tar.xz
+Homepage: https://github.com/jessevdk/go-flags
+Go-Import-Path: github.com/jessevdk/go-flags
+Package-List: 
+ golang-go-flags-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-go-flags
+Priority: extra
+Section: golang

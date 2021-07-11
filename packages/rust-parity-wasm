@@ -1,0 +1,27 @@
+Package: rust-parity-wasm
+Binary: librust-parity-wasm-dev
+Version: 0.41.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 363194b5a023985c36c61f7e683434ed 2313 rust-parity-wasm_0.41.0-1.dsc
+ afd625b72cdc9ce13f44619608af1a19 68813 rust-parity-wasm_0.41.0.orig.tar.gz
+ 3706a310fb11b80b890d503f172f6325 2876 rust-parity-wasm_0.41.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/parity-wasm
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/parity-wasm]
+Checksums-Sha256:
+ ef3fa8cc5857a49e348491f14b6d5fa93926def035a90f1e112764818e52f017 2313 rust-parity-wasm_0.41.0-1.dsc
+ ddfc878dac00da22f8f61e7af3157988424567ab01d9920b962ef7dcbd7cd865 68813 rust-parity-wasm_0.41.0.orig.tar.gz
+ 986982465b110fbf13af328b17872779de25d8ee998cf8145d69198e05dc1c72 2876 rust-parity-wasm_0.41.0-1.debian.tar.xz
+Homepage: https://github.com/paritytech/parity-wasm
+Package-List: 
+ librust-parity-wasm-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-time-0.1+default-dev
+Directory: pool/main/r/rust-parity-wasm
+Priority: extra
+Section: misc

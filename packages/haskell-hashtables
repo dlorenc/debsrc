@@ -1,0 +1,28 @@
+Package: haskell-hashtables
+Binary: libghc-hashtables-dev, libghc-hashtables-prof, libghc-hashtables-doc
+Version: 1.2.3.4-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hashable-dev, libghc-hashable-prof, libghc-primitive-dev, libghc-primitive-prof, libghc-vector-dev (>= 0.7), libghc-vector-dev (<< 0.13), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc, libghc-primitive-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 98bf4ba2e1b323697ce406c3695fa705 2582 haskell-hashtables_1.2.3.4-1.dsc
+ 79dbafd84698ca64d38df9f863c7965c 58458 haskell-hashtables_1.2.3.4.orig.tar.gz
+ de5d7f131abf3f0b0e8e337bdecc89e3 3424 haskell-hashtables_1.2.3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hashtables
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hashtables]
+Checksums-Sha256:
+ 7c9e87e7195b6bdebfd06ca218485252a43e82e4502ca6099ab1860e9dd98fbc 2582 haskell-hashtables_1.2.3.4-1.dsc
+ 125ce62701fba3f666609f5c75f452005aa5d32dff4eeee3f3903c30b2ed55e6 58458 haskell-hashtables_1.2.3.4.orig.tar.gz
+ d5b2307ac2e8adaa01c4b3e66cea44e4825542ee35ed96fbcc8d86b92e1df5a2 3424 haskell-hashtables_1.2.3.4-1.debian.tar.xz
+Homepage: http://github.com/gregorycollins/hashtables
+Package-List: 
+ libghc-hashtables-dev deb haskell optional arch=any
+ libghc-hashtables-doc deb doc optional arch=all
+ libghc-hashtables-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hashtables
+Priority: source
+Section: haskell

@@ -1,0 +1,27 @@
+Package: fonts-font-awesome
+Binary: fonts-font-awesome
+Version: 5.0.10+really4.7.0~dfsg-4.1
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Mike Gabriel <sunweaver@debian.org>, Pirate Praveen <praveen@debian.org>, Vasudev Kamath <vasudev@copyninja.info>,
+Build-Depends: debhelper-compat (= 12), jq
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 218a94e5a567e22b43580d593f1be020 2322 fonts-font-awesome_5.0.10+really4.7.0~dfsg-4.1.dsc
+ a1bdfd8d821939a2ca7ac3da268a6df0 675665 fonts-font-awesome_5.0.10+really4.7.0~dfsg.orig.tar.gz
+ e258cf2a31004a44d9e2e965139bbcfb 11068 fonts-font-awesome_5.0.10+really4.7.0~dfsg-4.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/fonts-font-awesome
+Vcs-Git: https://salsa.debian.org/fonts-team/fonts-font-awesome.git
+Checksums-Sha256:
+ 50bcabfd5cb4ae4ff602ceabc358ae0253336bb50eec3a4414c668810457f489 2322 fonts-font-awesome_5.0.10+really4.7.0~dfsg-4.1.dsc
+ 9d25735ecb8984dae7b1bf04c6c343f8684ce88e0c81104e4b5f5495df3ded5d 675665 fonts-font-awesome_5.0.10+really4.7.0~dfsg.orig.tar.gz
+ 671cb14ca943a2a7cc07df2dedb639edc95a83dd674bfc84a3df5568bc4b708b 11068 fonts-font-awesome_5.0.10+really4.7.0~dfsg-4.1.debian.tar.xz
+Homepage: http://fontawesome.io/
+Package-List: 
+ fonts-font-awesome deb fonts optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: fontconfig, node-less, sassc
+Directory: pool/main/f/fonts-font-awesome
+Priority: source
+Section: misc

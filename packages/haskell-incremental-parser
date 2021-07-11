@@ -1,0 +1,28 @@
+Package: haskell-incremental-parser
+Binary: libghc-incremental-parser-dev, libghc-incremental-parser-prof, libghc-incremental-parser-doc
+Version: 0.4.0.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-monoid-subclasses-dev (<< 1.1), libghc-monoid-subclasses-prof, libghc-parsers-dev (<< 0.13), libghc-parsers-prof, libghc-rank2classes-dev (>= 1.0), libghc-rank2classes-dev (<< 1.5), libghc-rank2classes-prof
+Build-Depends-Indep: ghc-doc, libghc-monoid-subclasses-doc, libghc-parsers-doc, libghc-rank2classes-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ee5450fa8a32d8b85d393f0a9fd69568 2783 haskell-incremental-parser_0.4.0.2-1.dsc
+ ba7a81f965da314b3d370d797306910b 323304 haskell-incremental-parser_0.4.0.2.orig.tar.gz
+ 218d0159d5da6c21c716d7faed146e3b 2416 haskell-incremental-parser_0.4.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-incremental-parser
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-incremental-parser]
+Checksums-Sha256:
+ a1eab32586f97f9c50805b7ad6e289ed7cd7d45e0856b858c890c9b900249185 2783 haskell-incremental-parser_0.4.0.2-1.dsc
+ caa9d8071bf9857b820c78bdbeb4f474f049a08a04b346d4f7c503deb1b97187 323304 haskell-incremental-parser_0.4.0.2.orig.tar.gz
+ 93f9f8d42153e30511abbfbde60c5c798350c7959566c107fcc7370ec5321311 2416 haskell-incremental-parser_0.4.0.2-1.debian.tar.xz
+Homepage: http://patch-tag.com/r/blamario/incremental-parser/wiki/
+Package-List: 
+ libghc-incremental-parser-dev deb haskell optional arch=any
+ libghc-incremental-parser-doc deb doc optional arch=all
+ libghc-incremental-parser-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-incremental-parser
+Priority: optional
+Section: misc

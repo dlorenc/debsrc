@@ -1,0 +1,23 @@
+Package: procenv
+Binary: procenv
+Version: 0.51-0.2
+Maintainer: James Hunt <jamesodhunt@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), dh-autoreconf, pkg-config, libkvm-dev [kfreebsd-any], automake (>= 1.12), perl, expat, check, libnuma-dev [linux-i386 linux-amd64 linux-ia64 linux-mips linux-mipsel linux-mips64 linux-mips64el linux-powerpc linux-ppc64 linux-ppc64el linux-x32], libcap-dev [linux-any], libselinux1-dev [linux-any], libapparmor-dev [linux-any]
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ b81187fd0cad4f5bb7f8bb9a8d6682a5 2061 procenv_0.51-0.2.dsc
+ a1541f086f0b98e2ee0f7810b0140b7f 245663 procenv_0.51.orig.tar.gz
+ 66ff3b2bb9dafafe2329b1241edc88d2 71232 procenv_0.51-0.2.debian.tar.xz
+Checksums-Sha256:
+ c5dd74a90ef19800ff51813fd458eb538d1b338da8474710c3dcbd59b226e6ee 2061 procenv_0.51-0.2.dsc
+ b831c14729e06a285cc13eba095817ce3b6d0ddf484b1264951b03ee4fe25bc9 245663 procenv_0.51.orig.tar.gz
+ edc9fd09256b7c51561f7572fad391a191b99c741e5b1be72eccdc0c8b0f160d 71232 procenv_0.51-0.2.debian.tar.xz
+Homepage: https://github.com/jamesodhunt/procenv
+Package-List: 
+ procenv deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/procenv
+Priority: source
+Section: misc

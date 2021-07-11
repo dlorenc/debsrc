@@ -1,0 +1,26 @@
+Package: node-cookie-parser
+Binary: node-cookie-parser
+Version: 1.4.5-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), mocha (>= 4) <!nocheck>, node-cookie-signature <!nocheck>, node-cookie (>= 0.4) <!nocheck>, node-supertest <!nocheck>, node-deep-equal <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3bff2401c51bfc7437b3c70d9df08bc5 2235 node-cookie-parser_1.4.5-1.dsc
+ f6e61ccc0a1839aa21d82afa84e1c1e9 6808 node-cookie-parser_1.4.5.orig.tar.gz
+ 910542077159bb6477bbaaa6b6eed659 2792 node-cookie-parser_1.4.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cookie-parser
+Vcs-Git: https://salsa.debian.org/js-team/node-cookie-parser.git
+Checksums-Sha256:
+ b94a973b705e58df9560a0a920eaedf46555698604d58b895df5aa9fadb5d333 2235 node-cookie-parser_1.4.5-1.dsc
+ e1b8eefe95279846df4cb01724267dcab9948daf152f5da1c532fc968a4902a4 6808 node-cookie-parser_1.4.5.orig.tar.gz
+ 9d46f2bbb5626ea9fc83c82145bc30e9a255934d2ed9f7244f6380ae963a2e0a 2792 node-cookie-parser_1.4.5-1.debian.tar.xz
+Homepage: https://github.com/expressjs/cookie-parser
+Package-List: 
+ node-cookie-parser deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cookie-parser
+Priority: optional
+Section: javascript

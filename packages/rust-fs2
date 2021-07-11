@@ -1,0 +1,24 @@
+Package: rust-fs2
+Binary: librust-fs2-dev
+Version: 0.4.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.30~~) <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+fileapi-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+processthreadsapi-dev <!nocheck>, librust-winapi-0.3+std-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ f02f0288ec3bc065906b3c8ce55ccee4 1763 rust-fs2_0.4.3-1.dsc
+ 29d2e692b75cceb9a2b2766408a307b7 13138 rust-fs2_0.4.3.orig.tar.gz
+ 9fb90be6ad745273eae50913214f9613 2396 rust-fs2_0.4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fs2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fs2]
+Checksums-Sha256:
+ 2c0f68da3b7cd902ec5cb133cc61ee31438521f8ae03c6fcf24263aa6d7df18c 1763 rust-fs2_0.4.3-1.dsc
+ 9564fc758e15025b46aa6643b1b77d047d1a56a1aea6e01002ac0c7026876213 13138 rust-fs2_0.4.3.orig.tar.gz
+ fa3f3db00aeedef1425566925828bf44235dba9f2198efa78ccc9a91892f88a0 2396 rust-fs2_0.4.3-1.debian.tar.xz
+Package-List: 
+ librust-fs2-dev deb rust optional arch=any
+Directory: pool/main/r/rust-fs2
+Priority: extra
+Section: misc

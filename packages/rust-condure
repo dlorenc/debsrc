@@ -1,0 +1,26 @@
+Package: rust-condure
+Binary: condure
+Version: 1.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Jan Niehusmann <jan@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native, rustc:native, libstd-rust-dev, librust-arrayvec-0.5+default-dev, librust-base64-0.12+default-dev, librust-clap-2+default-dev (>= 2.33-~~), librust-clap-2+wrap-help-dev (>= 2.33-~~), librust-httparse-1+default-dev (>= 1.3-~~), librust-iovec-0.1+default-dev, librust-log-0.4+default-dev, librust-mio-0.6+default-dev, librust-openssl-0.10+default-dev, librust-sha1-0.6+default-dev, librust-signal-hook-0.1+default-dev, librust-signal-hook-0.1+mio-support-dev, librust-slab-0.4+default-dev, librust-time-0.1+default-dev, librust-zmq-0.9+default-dev, help2man
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b4659cf717bba9f16b1111692e099b84 2455 rust-condure_1.1.0-1.dsc
+ 0e9a74860bcfc5a8f1993ea14ed5a303 101567 rust-condure_1.1.0.orig.tar.gz
+ 6707f25e01adf0d82ef3454c47b4b51c 3384 rust-condure_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/condure
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/condure]
+Checksums-Sha256:
+ 8e9ceb5abda59dcc3b55af5f575a3df8d1bb6634cd021ae9a54aa67179356105 2455 rust-condure_1.1.0-1.dsc
+ 3cfb2fc17722857701d689bdfd850b1d1392e7ac06e42a61672ed911be5bbcc9 101567 rust-condure_1.1.0.orig.tar.gz
+ 7328596fd45ec8cc79b0b44e9c6330e33b22ebb57af31d42eb37ab4639d10392 3384 rust-condure_1.1.0-1.debian.tar.xz
+Package-List: 
+ condure deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.3+default-dev
+Directory: pool/main/r/rust-condure
+Priority: extra
+Section: misc

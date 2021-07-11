@@ -1,0 +1,28 @@
+Package: libusbauth-configparser
+Binary: libusbauth-configparser-dev, libusbauth-configparser1
+Version: 1.0.3-1
+Maintainer: Kun-Hung Tsai (蔡昆宏) <moonape1226@gmail.com>
+Uploaders: SZ Lin (林上智) <szlin@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, automake, flex, bison, libudev-dev, m4
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2f91be3846649ac1cfedc699658cba07 2304 libusbauth-configparser_1.0.3-1.dsc
+ 4aeb21269395ebb3851d35df3c6cb391 17038 libusbauth-configparser_1.0.3.orig.tar.gz
+ 7458aa4f4c47eb3c15c31e2fa3c69dd0 3528 libusbauth-configparser_1.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libusbauth-configparser
+Vcs-Git: https://salsa.debian.org/debian/libusbauth-configparser.git
+Checksums-Sha256:
+ 1900526a7fa2e4b050e8f25f0583b013229d6d1db26ffa0832f519a2d547046b 2304 libusbauth-configparser_1.0.3-1.dsc
+ 33ba2bc464c796e9914ad41d95ad65dc75b5a94e3fbdbc721746f4d2b4b15636 17038 libusbauth-configparser_1.0.3.orig.tar.gz
+ b4bae3774a7a9d62d4f9f7711a649970aa1c89e27b68dff76c0411d30699e170 3528 libusbauth-configparser_1.0.3-1.debian.tar.xz
+Homepage: https://github.com/kochstefan/usbauth-all/tree/master/libusbauth-configparser
+Package-List: 
+ libusbauth-configparser-dev deb libdevel optional arch=linux-any
+ libusbauth-configparser1 deb libs optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: libc-bin
+Directory: pool/main/libu/libusbauth-configparser
+Priority: extra
+Section: misc

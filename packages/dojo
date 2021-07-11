@@ -1,0 +1,32 @@
+Package: dojo
+Binary: libjs-dojo-core, libjs-dojo-dijit, libjs-dojo-dojox, shrinksafe
+Version: 1.15.4+dfsg1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jason Morawski <rpgdude1@gmail.com>, Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs (>= 6), javahelper (>= 0.40)
+Build-Depends-Indep: default-jdk, rhino (>= 1.7.7.1), rsync <!nodoc>
+Build-Conflicts-Indep: shrinksafe (<< 1.7.3~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f52b18afd3c7c3de10fd549fb8623f9b 2385 dojo_1.15.4+dfsg1-1.dsc
+ cb8cbdbcdeb53619a99f39852266b5de 30372340 dojo_1.15.4+dfsg1.orig.tar.xz
+ 7c0509af94ad1aecbfc1f14753b79b33 15676 dojo_1.15.4+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/dojo
+Vcs-Git: https://salsa.debian.org/js-team/dojo.git
+Checksums-Sha256:
+ 1bfbaedb2dbf06f120ce4006c129c2a0645893b2a9ab6ed41189d89931a14b76 2385 dojo_1.15.4+dfsg1-1.dsc
+ 44145723649e0bda2d495d85906217a6ff5b023875dacdca20bd836ab2115d37 30372340 dojo_1.15.4+dfsg1.orig.tar.xz
+ aa9ed638d56bb6256109944373b7171454d53210734191277f00909b1bdad434 15676 dojo_1.15.4+dfsg1-1.debian.tar.xz
+Homepage: https://dojotoolkit.org
+Package-List: 
+ libjs-dojo-core deb javascript optional arch=all
+ libjs-dojo-dijit deb javascript optional arch=all
+ libjs-dojo-dojox deb javascript optional arch=all
+ shrinksafe deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: default-jdk
+Directory: pool/main/d/dojo
+Priority: source
+Section: web

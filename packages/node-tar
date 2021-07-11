@@ -1,0 +1,34 @@
+Package: node-tar
+Binary: node-tar
+Version: 6.0.5+ds1+~cs11.3.9-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), node-chownr <!nocheck>, node-end-of-stream <!nocheck>, node-mkdirp (>= 1), node-mutate-fs <!nocheck>, node-rimraf <!nocheck>, node-tap <!nocheck>, node-tar-stream <!nocheck>, node-yallist (>= 3.0.3-2) <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6c32da82150171fac315c6af040a899a 3530 node-tar_6.0.5+ds1+~cs11.3.9-1.dsc
+ 4885211b9cf2f530a54e6a725cc9556f 35270 node-tar_6.0.5+ds1+~cs11.3.9.orig-fs-minipass.tar.gz
+ b49657e3714f92ab73a7deb5aca36f53 50240 node-tar_6.0.5+ds1+~cs11.3.9.orig-minipass.tar.gz
+ 389dc4b3f49e5c28a485f2243aa021c6 186712 node-tar_6.0.5+ds1+~cs11.3.9.orig-minizlib.tar.gz
+ 50edb82b89a507117b023acd19c4ba44 6436 node-tar_6.0.5+ds1+~cs11.3.9.orig-types-tar.tar.gz
+ 9bab2016cc7ba17b4cf688ce8910bde2 190376 node-tar_6.0.5+ds1+~cs11.3.9.orig.tar.gz
+ 3a86a89d5b4016195f1c2f5de68a0819 9372 node-tar_6.0.5+ds1+~cs11.3.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-tar
+Vcs-Git: https://salsa.debian.org/js-team/node-tar.git
+Checksums-Sha256:
+ 34520d30dc0ac223a8f232afc061f7922de8a352fac0e2342068b54cd3905703 3530 node-tar_6.0.5+ds1+~cs11.3.9-1.dsc
+ 83cf7dc113dacdbe3a2d05753edde01c37256cc97167ea5a8086ab85a78f2efd 35270 node-tar_6.0.5+ds1+~cs11.3.9.orig-fs-minipass.tar.gz
+ 496598d78b824ddb3116c4a4fe0123516b318eab820d0ee80cb892ef3ba0c4c9 50240 node-tar_6.0.5+ds1+~cs11.3.9.orig-minipass.tar.gz
+ 296f5e559312e7a4dd871e1cdad27d50d9d0518a548ae870dffb678ff2ecae7e 186712 node-tar_6.0.5+ds1+~cs11.3.9.orig-minizlib.tar.gz
+ e59a412960136fd1b0a303a7284d849eec4de7658627083058c9caf1ebb28d03 6436 node-tar_6.0.5+ds1+~cs11.3.9.orig-types-tar.tar.gz
+ 042ca18da6d5dfc2c41aa0169abac8ae70497fb5b340c8fe5b71aa47705606d9 190376 node-tar_6.0.5+ds1+~cs11.3.9.orig.tar.gz
+ fb0635a61d092b010c9471b0ec74d5747bda86f83aee7c70139115ba79848b22 9372 node-tar_6.0.5+ds1+~cs11.3.9-1.debian.tar.xz
+Homepage: https://github.com/npm/node-tar
+Package-List: 
+ node-tar deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-tar
+Priority: source
+Section: javascript

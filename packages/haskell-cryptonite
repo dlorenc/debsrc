@@ -1,0 +1,28 @@
+Package: haskell-cryptonite
+Binary: libghc-cryptonite-dev, libghc-cryptonite-prof, libghc-cryptonite-doc
+Version: 0.26-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-basement-dev (>= 0.0.6), libghc-basement-prof, libghc-memory-dev (>= 0.14.18), libghc-memory-prof, libghc-tasty-dev, libghc-tasty-hunit-dev, libghc-tasty-kat-dev, libghc-tasty-quickcheck-dev
+Build-Depends-Indep: ghc-doc, libghc-basement-doc, libghc-memory-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 8f3bb2c3615f4186ab6978ec4de21bfa 2574 haskell-cryptonite_0.26-1.dsc
+ 759be6bffbfc9bb4c525d9dac55f9f7c 581153 haskell-cryptonite_0.26.orig.tar.gz
+ 2a54743ffec26f8f1ab065ca5bad9321 7476 haskell-cryptonite_0.26-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-cryptonite
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-cryptonite]
+Checksums-Sha256:
+ 106d1ae2db91e3710d4dbe0abec1b377bbf78861336924e1a9e4c2eeae275936 2574 haskell-cryptonite_0.26-1.dsc
+ c47390df555295fdb1fb8161c190e208f43b8d334b2da3e96f0c64b7fe07aedd 581153 haskell-cryptonite_0.26.orig.tar.gz
+ 6718c19208696b8effc6b01619b6d30fb1316a71aa6fea8f00a7a50a8ddd8f3e 7476 haskell-cryptonite_0.26-1.debian.tar.xz
+Homepage: https://github.com/vincenthz/cryptonite
+Package-List: 
+ libghc-cryptonite-dev deb haskell optional arch=any
+ libghc-cryptonite-doc deb doc optional arch=all
+ libghc-cryptonite-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cryptonite
+Priority: optional
+Section: misc

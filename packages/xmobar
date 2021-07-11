@@ -1,0 +1,27 @@
+Package: xmobar
+Binary: xmobar
+Version: 0.36-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>, Aggelos Avgerinos <evaggelos.avgerinos@gmail.com>,
+Build-Depends: debhelper-compat (= 12), ghc, libghc-alsa-core-dev (>= 0.5), libghc-alsa-mixer-dev (>= 0.3), libghc-dbus-dev [linux-any], libghc-extensible-exceptions-dev, libghc-hinotify-dev [linux-any], libghc-http-conduit-dev, libghc-http-dev (>= 1:4000), libghc-iwlib-dev (>= 0.1.0) [linux-any], libghc-mtl-dev, libghc-parsec-numbers-dev, libghc-parsec3-dev, libghc-regex-compat-dev, libghc-stm-dev (>= 2.3), libghc-x11-dev (>= 1.6.0), libghc-x11-xft-dev (>= 0.2), libiw-dev [linux-any], libxpm-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 80224d10244287d42269805634f7809c 2531 xmobar_0.36-2.dsc
+ a5b3cbe542831f5ef4f3895b72e97fa3 616071 xmobar_0.36.orig.tar.gz
+ b199288877c45d5bfb6ed4e8fe5ca7fd 9764 xmobar_0.36-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/xmobar
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/xmobar]
+Checksums-Sha256:
+ e801685638bdf35b1019ae0a91162fa954ac260973d6e7e004ab72b042dacefd 2531 xmobar_0.36-2.dsc
+ 61b4db8de2445c4530ea2ad47734f64c448f4e1efc2b9c1ad99013436a2dcb8b 616071 xmobar_0.36.orig.tar.gz
+ d8672bdf9ee12b5bcacb98ff7523bf1b7e0f4e45928e022d180e065e134295db 9764 xmobar_0.36-2.debian.tar.xz
+Homepage: http://projects.haskell.org/xmobar/
+Package-List: 
+ xmobar deb x11 optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: x11-apps, x11-utils, xauth, xvfb
+Directory: pool/main/x/xmobar
+Priority: source
+Section: x11

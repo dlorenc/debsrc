@@ -1,0 +1,28 @@
+Package: neurodebian
+Binary: neurodebian, neurodebian-dev, neurodebian-desktop, neurodebian-archive-keyring, neurodebian-freeze, neurodebian-popularity-contest
+Version: 0.41.0
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Uploaders: Michael Hanke <mih@debian.org>, Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper (>= 9~), help2man, inkscape, imagemagick, python3-html5lib, po-debconf
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ be793dfd82e6e9fa2f1b6bba2614210b 2136 neurodebian_0.41.0.dsc
+ acef1cdbb5f93086c5f37eb0242e0707 8318388 neurodebian_0.41.0.tar.xz
+Vcs-Browser: https://salsa.debian.org/neurodebian-team/neurodebian
+Vcs-Git: https://salsa.debian.org/neurodebian-team/neurodebian.git
+Checksums-Sha256:
+ 16e9b1b9b1b172b636a11dd70de5de544e618b59d2d077f926032d67cdf5c770 2136 neurodebian_0.41.0.dsc
+ 95f3c3109e4a65094b7478529e58dd316aed9fb9d7c7daa3bd15e6b47c68bee1 8318388 neurodebian_0.41.0.tar.xz
+Homepage: http://neuro.debian.net
+Package-List: 
+ neurodebian deb science optional arch=all
+ neurodebian-archive-keyring deb science optional arch=all
+ neurodebian-desktop deb science optional arch=all
+ neurodebian-dev deb science optional arch=all
+ neurodebian-freeze deb science optional arch=all
+ neurodebian-popularity-contest deb science optional arch=all
+Directory: pool/main/n/neurodebian
+Priority: optional
+Section: misc

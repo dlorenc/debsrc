@@ -1,0 +1,26 @@
+Package: rust-vte
+Binary: librust-vte-dev
+Version: 0.3.3-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-utf8parse-0.2+default-dev <!nocheck> | librust-utf8parse-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a51645827dd37cde1710eebe1fd27a5b 2179 rust-vte_0.3.3-2.dsc
+ 99a18952b194c448b1694a180e1cf775 33437 rust-vte_0.3.3.orig.tar.gz
+ 88d95eb99c5f0481ef368bc531e5bb55 3064 rust-vte_0.3.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vte
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/vte]
+Checksums-Sha256:
+ 837daeb9c110beaa4123286b6555c8b622859fc0c49130357610b37bb50dd49a 2179 rust-vte_0.3.3-2.dsc
+ 4fa34c373f248d9ad4dd90352b5d2a4776fdfaca77652fb278487cde903de0ed 33437 rust-vte_0.3.3.orig.tar.gz
+ 28b92e5f99dc645af65f154eb439f2f5cb05a19407492b8cb46165a628c4b2c7 3064 rust-vte_0.3.3-2.debian.tar.xz
+Package-List: 
+ librust-vte-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-vte
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: maven-invoker-plugin
+Binary: libmaven-invoker-plugin-java
+Version: 3.0.1-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper
+Build-Depends-Indep: ant, bsh, groovy, junit4, libdoxia-java, libdoxia-sitetools-java, libjline-java, libmaven-artifact-transfer-java, libmaven-invoker-java (>= 3.0.0), libmaven-plugin-testing-java, libmaven-plugin-tools-java (>= 2.8), libmaven-reporting-api-java, libmaven-reporting-impl-java, libmaven-script-interpreter-java, libmaven3-core-java, libmodello-maven-plugin-java (>= 1.0.1), libplexus-i18n-java, libplexus-interpolation-java, libplexus-utils2-java
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ ad44b6e16638ecdae7ecac821c07f23e 2615 maven-invoker-plugin_3.0.1-2.dsc
+ 51aae2b92ed4d4d47834217ec4f2c1c9 77500 maven-invoker-plugin_3.0.1.orig.tar.xz
+ a296992c3e797fc0fe7188dca51f58fc 4160 maven-invoker-plugin_3.0.1-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/maven-invoker-plugin.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/maven-invoker-plugin.git
+Checksums-Sha256:
+ ccf2573d34b76e91270742470c3432e4c07a778c8109fb1f848a41232527a848 2615 maven-invoker-plugin_3.0.1-2.dsc
+ 9ab7865c0cd582118aab576311e82a7abc63e749b2c166026481d539f570d3a1 77500 maven-invoker-plugin_3.0.1.orig.tar.xz
+ eaeb9c38f476d08b7233b7c2f8b63ce49d5fe20a4b44273bd8a3a45b65056d54 4160 maven-invoker-plugin_3.0.1-2.debian.tar.xz
+Homepage: http://maven.apache.org/plugins/maven-invoker-plugin/
+Package-List: 
+ libmaven-invoker-plugin-java deb java optional arch=all
+Directory: pool/main/m/maven-invoker-plugin
+Priority: source
+Section: java

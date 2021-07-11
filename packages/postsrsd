@@ -1,0 +1,26 @@
+Package: postsrsd
+Binary: postsrsd
+Version: 1.10-1
+Maintainer: Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>
+Build-Depends: bats, cmake, debhelper-compat (= 13), dh-apparmor, faketime, po-debconf
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 182a26e0f0afd12dbc892102eeac8e87 1954 postsrsd_1.10-1.dsc
+ 34ba7d074c9c3b365d520bfda4e9d88e 34844 postsrsd_1.10.orig.tar.gz
+ c410c6834dfefc27eccd7aa9c07c4ee3 10528 postsrsd_1.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/postsrsd
+Vcs-Git: https://salsa.debian.org/debian/postsrsd.git
+Checksums-Sha256:
+ acb5a8671b8b7b5254f59fe17ec92e2ae1955dbdc638f8fa60424e5ddf59996c 1954 postsrsd_1.10-1.dsc
+ 4880bf12f1a75791f10a995e46a7fce26ee760d1d6942b4602244d2026d4e64a 34844 postsrsd_1.10.orig.tar.gz
+ 8011d75e356bca21753bff12d0f0349af997a4075c29555a848c9d2e25527b69 10528 postsrsd_1.10-1.debian.tar.xz
+Homepage: https://github.com/roehling/postsrsd
+Package-List: 
+ postsrsd deb mail optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: bash, postfix
+Directory: pool/main/p/postsrsd
+Priority: optional
+Section: misc

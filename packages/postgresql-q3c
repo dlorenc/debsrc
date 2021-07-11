@@ -1,0 +1,27 @@
+Package: postgresql-q3c
+Binary: postgresql-13-q3c
+Version: 2.0.0-5
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>, Markus Nullmeier <mnullmei@ari.uni-heidelberg.de>, Christoph Berg <myon@debian.org>,
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 219~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1b0e8f76e815af988dc892d7bd96ec3e 2193 postgresql-q3c_2.0.0-5.dsc
+ 38fa43e67ec212044cee785f496fec9b 1049408 postgresql-q3c_2.0.0.orig.tar.gz
+ 79b38e64cb4aec02c9cde98b5ce91bcf 4556 postgresql-q3c_2.0.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/postgresql-q3c
+Vcs-Git: https://salsa.debian.org/postgresql/postgresql-q3c.git
+Checksums-Sha256:
+ 2644ffbd9170f49d8e2a2c7708d7538078e4d06d821b773c3001a84aa6bcbc7b 2193 postgresql-q3c_2.0.0-5.dsc
+ cd2e57f10246a947f4cd0b648f662926df30b07749e43ee7599dc9e84bb177b8 1049408 postgresql-q3c_2.0.0.orig.tar.gz
+ c26c28b477c212e410f8fab77191997c9fa470464e6eaa8bbc65d514917982ce 4556 postgresql-q3c_2.0.0-5.debian.tar.xz
+Homepage: http://www.sai.msu.su/~megera/wiki/SkyPixelization
+Package-List: 
+ postgresql-13-q3c deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, postgresql-common
+Directory: pool/main/p/postgresql-q3c
+Priority: extra
+Section: misc

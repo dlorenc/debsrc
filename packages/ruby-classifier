@@ -1,0 +1,27 @@
+Package: ruby-classifier
+Binary: ruby-classifier
+Version: 1.3.4-4
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-fast-stemmer
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 5e67ded962f0ad754181dab4a1380434 1747 ruby-classifier_1.3.4-4.dsc
+ 4cc24b472a2734751acf1c35d174adb9 23002 ruby-classifier_1.3.4.orig.tar.gz
+ 47bcc06514e0bab7d6ce8f3207432ed0 3916 ruby-classifier_1.3.4-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-classifier
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-classifier.git
+Checksums-Sha256:
+ 1fb19c92ade59f1353fe0efe267a2af2a47cba274f3b6e889700c9e20328e7d0 1747 ruby-classifier_1.3.4-4.dsc
+ 78b3931f09c39f45b3c93cc206b067aab3f5c0f494cf7d3ff34ccc26cc5fe694 23002 ruby-classifier_1.3.4.orig.tar.gz
+ 3789d12aed3c4f96df7824b7e2cbe81d3274d4e4613d09c42289a33eb57bcdf2 3916 ruby-classifier_1.3.4-4.debian.tar.xz
+Homepage: https://github.com/cardmagic/classifier
+Package-List: 
+ ruby-classifier deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-classifier
+Priority: source
+Section: ruby

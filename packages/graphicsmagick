@@ -1,0 +1,30 @@
+Package: graphicsmagick
+Binary: graphicsmagick, libgraphicsmagick-q16-3, libgraphicsmagick1-dev, libgraphicsmagick++-q16-12, libgraphicsmagick++1-dev, libgraphics-magick-perl, graphicsmagick-imagemagick-compat, graphicsmagick-libmagick-dev-compat, graphicsmagick-dbg
+Version: 1.4+really1.3.36+hg16481-1
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, libjpeg-dev, liblcms2-dev, libwmf-dev (>= 0.2.8.4), libx11-dev, libsm-dev, libice-dev, libxext-dev, x11proto-core-dev, libxml2-dev, libfreetype6-dev, libbz2-dev, libtiff-dev, libjbig-dev, zlib1g-dev | libz-dev, libpng-dev, libwebp-dev, libzstd-dev, perl, ghostscript, gsfonts <!nocheck>, sharutils <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 597ff0bb95889d15143e98b86cf5e1b1 2916 graphicsmagick_1.4+really1.3.36+hg16481-1.dsc
+ 771cecf554d4af9e5dc34cdbbdc579a9 5597244 graphicsmagick_1.4+really1.3.36+hg16481.orig.tar.xz
+ 609e5656ac6f3fba5e42213eea26cb58 148148 graphicsmagick_1.4+really1.3.36+hg16481-1.debian.tar.xz
+Checksums-Sha256:
+ ccc5a5a0b4dccbd8205a3373b5d27e3f6e751a64546ae62c9ea7487c02dd2889 2916 graphicsmagick_1.4+really1.3.36+hg16481-1.dsc
+ 249ec51169a1688007456fde5ea694c8da0924560412dc5f39421215e19f2c02 5597244 graphicsmagick_1.4+really1.3.36+hg16481.orig.tar.xz
+ 66fd1d4e9ab08355fb80d1ecf0f89c4b35952a7e1c65845921fb3b33db2753cb 148148 graphicsmagick_1.4+really1.3.36+hg16481-1.debian.tar.xz
+Homepage: http://www.graphicsmagick.org/
+Package-List: 
+ graphicsmagick deb graphics optional arch=any
+ graphicsmagick-dbg deb debug optional arch=any
+ graphicsmagick-imagemagick-compat deb graphics optional arch=all
+ graphicsmagick-libmagick-dev-compat deb graphics optional arch=all
+ libgraphics-magick-perl deb perl optional arch=any
+ libgraphicsmagick++-q16-12 deb libs optional arch=any
+ libgraphicsmagick++1-dev deb libdevel optional arch=any
+ libgraphicsmagick-q16-3 deb libs optional arch=any
+ libgraphicsmagick1-dev deb libdevel optional arch=any
+Directory: pool/main/g/graphicsmagick
+Priority: source
+Section: graphics

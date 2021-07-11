@@ -1,0 +1,25 @@
+Package: rust-sequoia-sqv
+Binary: sqv
+Version: 1.0.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native, rustc:native, libstd-rust-dev, librust-anyhow-1+default-dev (>= 1.0.18-~~), librust-chrono-0.4+default-dev (>= 0.4.10-~~), librust-clap-2+default-dev (>= 2.33-~~), librust-sequoia-openpgp-1+crypto-nettle-dev, librust-sequoia-openpgp-1-dev, bash-completion
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 84ddaa29ada3fdc7f0032358994c4541 1688 rust-sequoia-sqv_1.0.0-2.dsc
+ a2180d975ae2a3dd0a2f76143abc24dd 41657 rust-sequoia-sqv_1.0.0.orig.tar.gz
+ 18d7e224e89edaa4da371145614ab165 3124 rust-sequoia-sqv_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sequoia-sqv
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/sequoia-sqv]
+Checksums-Sha256:
+ 47e9490a2b54f3bfeae7ec386177067640dc5c2a22f9c935d70e1352a5d6e529 1688 rust-sequoia-sqv_1.0.0-2.dsc
+ 2d651896fac89ca4f43faad8520339ff88d8e571376add4a470354478c952e5b 41657 rust-sequoia-sqv_1.0.0.orig.tar.gz
+ 78bf4201511fab818922e88203e25137e27cc74d8f78509ff7fb245c684d22a2 3124 rust-sequoia-sqv_1.0.0-2.debian.tar.xz
+Homepage: https://sequoia-pgp.org/
+Package-List: 
+ sqv deb utils optional arch=any
+Directory: pool/main/r/rust-sequoia-sqv
+Priority: extra
+Section: misc

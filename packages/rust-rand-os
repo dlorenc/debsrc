@@ -1,0 +1,30 @@
+Package: rust-rand-os
+Binary: librust-rand-os-dev, librust-rand-os+log-dev, librust-rand-os+stdweb-dev, librust-rand-os+wasm-bindgen-dev
+Version: 0.2.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-getrandom-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-rand-core-0.5+default-dev <!nocheck>, librust-rand-core-0.5+getrandom-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d8298f452eea49adaf62fbcc74a29d95 2595 rust-rand-os_0.2.2-2.dsc
+ 710daf814a96a2d4a34b836428e24643 7975 rust-rand-os_0.2.2.orig.tar.gz
+ b9554f155d822df72fb93bf8277915c3 2980 rust-rand-os_0.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand-os
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand-os]
+Checksums-Sha256:
+ 3401d48750fd24041527a6e9f97464b49720cd3ed3e879f917c69d74b71cf685 2595 rust-rand-os_0.2.2-2.dsc
+ a788ae3edb696cfcba1c19bfd388cc4b8c21f8a408432b199c072825084da58a 7975 rust-rand-os_0.2.2.orig.tar.gz
+ 5ee7a0ff769dd9ae67d03149eb23258db06126dd208833f7781991351f927986 2980 rust-rand-os_0.2.2-2.debian.tar.xz
+Homepage: https://crates.io/crates/rand_os
+Package-List: 
+ librust-rand-os+log-dev deb rust optional arch=any
+ librust-rand-os+stdweb-dev deb rust optional arch=any
+ librust-rand-os+wasm-bindgen-dev deb rust optional arch=any
+ librust-rand-os-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rand-os
+Priority: extra
+Section: misc

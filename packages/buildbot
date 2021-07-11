@@ -1,0 +1,34 @@
+Package: buildbot
+Binary: buildbot, buildbot-doc, buildbot-worker, buildbot-slave, python3-buildbot, python3-buildbot-worker, python3-buildbot-doc
+Version: 2.10.1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Robin Jarry <robin@jarry.cc>
+Build-Depends: debhelper-compat (= 13), dh-python (>= 3.20180313~), bash-completion, po-debconf, git, python3 (>= 3.5), python3-setuptools (>= 8.0), python3-autobahn (>= 0.16.0), python3-dateutil (>= 1.5), python3-future, python3-idna, python3-jinja2 (>= 2.1), python3-jwt, python3-migrate (>= 0.9), python3-openssl, python3-parameterized, python3-pkg-resources (>= 8.0), python3-service-identity, python3-sqlalchemy (>= 1.2.0), python3-twisted (>= 17.9.0), python3-txaio (>= 2.2.2), python3-zope.interface (>= 4.1.1), python3-mock, python3-treq, python3-yaml, python3-sphinx, python3-sphinx-rtd-theme, python3-docutils, sphinx-doc, sphinx-common, scdoc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7906bf1a0ae8b10dfda4b4b3f8cc9ca3 2588 buildbot_2.10.1-1.dsc
+ 1dffc4038bebee56f4f722173357fe72 4517880 buildbot_2.10.1.orig.tar.gz
+ e42ea2711d5d26bf8aa140d78cdaa1b9 488 buildbot_2.10.1.orig.tar.gz.asc
+ 8542d562c5ebc065799a24d6a4ec61fb 33764 buildbot_2.10.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/buildbot
+Vcs-Git: https://salsa.debian.org/python-team/packages/buildbot.git
+Checksums-Sha256:
+ d7a0109439665bd813989c46d3d4866136b57f90545e35b7a5c4a561c5ab349d 2588 buildbot_2.10.1-1.dsc
+ 33beb2428dea4bee638d8b2b6088c3b59fe0495a53bb332acea6bdb96f0a8a7e 4517880 buildbot_2.10.1.orig.tar.gz
+ caef19e73dfbc503cfa77cc53f5b221a37def947b658f01805cf1513b7199859 488 buildbot_2.10.1.orig.tar.gz.asc
+ efd49cb82f888e6c13259af16ebed258528506291d06f56092fc2a4ede8a2583 33764 buildbot_2.10.1-1.debian.tar.xz
+Homepage: https://buildbot.net
+Package-List: 
+ buildbot deb devel optional arch=all
+ buildbot-doc deb doc optional arch=all
+ buildbot-slave deb oldlibs optional arch=all
+ buildbot-worker deb devel optional arch=all
+ python3-buildbot deb oldlibs optional arch=all
+ python3-buildbot-doc deb oldlibs optional arch=all
+ python3-buildbot-worker deb oldlibs optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/b/buildbot
+Priority: source
+Section: devel

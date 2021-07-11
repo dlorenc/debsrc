@@ -1,0 +1,27 @@
+Package: python-matrix-nio
+Binary: python3-matrix-nio, python3-matrix-nio-doc
+Version: 0.16.0-1
+Maintainer: Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, python3, python3 (>= 3.7) | python3-dataclasses <!nocheck>, python3-aiofiles <!nocheck>, python3-aiohttp <!nocheck>, python3-aioresponses <!nocheck>, python3-atomicwrites <!nocheck>, python3-cachetools <!nocheck>, python3-fake-factory (>= 0.9.3) <!nocheck>, python3-future <!nocheck>, python3-h11 <!nocheck>, python3-h2 <!nocheck>, python3-hpack <!nocheck>, python3-hyperframe <!nocheck>, python3-hypothesis <!nocheck>, python3-jsonschema <!nocheck>, python3-logbook <!nocheck>, python3-m2r <!nodoc>, python3-olm (>= 3.1.0) <!nocheck>, python3-peewee <!nocheck>, python3-pycryptodome <!nocheck>, python3-pytest <!nocheck>, python3-pytest-benchmark <!nocheck>, python3-pytest-cov <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-unpaddedbase64 <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1d4d5da8eaf7c154ec7687c727f8f85c 2991 python-matrix-nio_0.16.0-1.dsc
+ c8455214f9edcaa5467cc6d6b39b79d6 228958 python-matrix-nio_0.16.0.orig.tar.gz
+ 264d17b745a5f104f3950921cff55bbf 7856 python-matrix-nio_0.16.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/matrix-team/python-matrix-nio
+Vcs-Git: https://salsa.debian.org/matrix-team/python-matrix-nio.git
+Checksums-Sha256:
+ d83ff5fcd0e884d94a80f400836c259d566b6b4ab4cac9ffb4c5f681e0431daf 2991 python-matrix-nio_0.16.0-1.dsc
+ 4a2306f82cc7a8385d468db55076d29b59260b8d6120cd651bf2b524211737af 228958 python-matrix-nio_0.16.0.orig.tar.gz
+ 0109225ea4904bb4c2d08dbc919b8c39519da9564e56716c1f2fb9cc366057e7 7856 python-matrix-nio_0.16.0-1.debian.tar.xz
+Homepage: https://github.com/poljar/matrix-nio
+Package-List: 
+ python3-matrix-nio deb python optional arch=all
+ python3-matrix-nio-doc deb doc optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-matrix-nio
+Priority: extra
+Section: misc

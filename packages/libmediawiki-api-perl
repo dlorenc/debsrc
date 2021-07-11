@@ -1,0 +1,28 @@
+Package: libmediawiki-api-perl
+Binary: libmediawiki-api-perl
+Version: 0.52-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libjson-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-simple-perl <!nocheck>, libwww-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 027329e37e815c5ea8095d0a120ed176 2580 libmediawiki-api-perl_0.52-1.dsc
+ 93141c545b586369dba0f70e1b634f58 32649 libmediawiki-api-perl_0.52.orig.tar.gz
+ 581e9e30310bfac9568f07290707e38d 3432 libmediawiki-api-perl_0.52-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmediawiki-api-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmediawiki-api-perl.git
+Checksums-Sha256:
+ adee172653b346b1121fc90faa739b09bca0c9da9e85d6c0d0db19ddbb958538 2580 libmediawiki-api-perl_0.52-1.dsc
+ 2f50a9d85ebf6f12bac9e09f52bcfead2cf419802c15191b172724ee2f49d0c2 32649 libmediawiki-api-perl_0.52.orig.tar.gz
+ a5ccf439ee797ae9b72e4f2ac0863f8a76ffcee4398531601d4dfebe71d30944 3432 libmediawiki-api-perl_0.52-1.debian.tar.xz
+Homepage: https://metacpan.org/release/MediaWiki-API
+Dgit: ff157646ef3a949b8ab5d60347d621e06b20e43d debian archive/debian/0.52-1 https://git.dgit.debian.org/libmediawiki-api-perl
+Package-List: 
+ libmediawiki-api-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmediawiki-api-perl
+Priority: source
+Section: perl

@@ -1,0 +1,25 @@
+Package: re2j
+Binary: libre2j-java
+Version: 1.5+dfsg-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Vincent Prat <vivi@debian.org>
+Build-Depends: debhelper (>= 13), debhelper-compat (= 13), gradle-debian-helper, libicu4j-java, libjavapoet-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2d5387272afce6ea8be025c536ac5b00 2013 re2j_1.5+dfsg-2.dsc
+ b3178bbc928a48599156b28ac575d646 916540 re2j_1.5+dfsg.orig.tar.xz
+ b4d1b9f65f955d6a88c86527fef6eafc 5044 re2j_1.5+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/re2j
+Vcs-Git: https://salsa.debian.org/java-team/re2j.git
+Checksums-Sha256:
+ 178491e46ae9329835492486f7a60e3c42ab18f523a73ead7f02446e2e19f25c 2013 re2j_1.5+dfsg-2.dsc
+ fdcc2d2512665f1ee9687661fd4a380f76c684cead3a97100c43ce7afaef4400 916540 re2j_1.5+dfsg.orig.tar.xz
+ 941635f0762f6044c52ff0c567f08ec7a844f01fcbe6d92343936341afb5f181 5044 re2j_1.5+dfsg-2.debian.tar.xz
+Homepage: https://github.com/google/re2j
+Package-List: 
+ libre2j-java deb java optional arch=all
+Directory: pool/main/r/re2j
+Priority: extra
+Section: misc

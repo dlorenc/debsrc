@@ -1,0 +1,26 @@
+Package: c2hs
+Binary: c2hs, c2hs-doc
+Version: 0.28.6-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Arjan Oosting <arjan@debian.org>, Erik de Castro Lopo <erikd@mega-nerd.com>,
+Build-Depends: alex, cdbs, debhelper (>= 10), docbook, docbook-xsl, dpkg-dev (>= 1.14), ghc (>= 8), happy, haskell-devscripts (>= 0.13), libghc-dlist-dev, libghc-language-c-dev (>= 0.7.1), libghc-language-c-dev (<< 0.9), libghc-language-c-prof, libxml2-utils, xsltproc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ b5bf4f9edc2b3f2875a9c4356206609c 2282 c2hs_0.28.6-1.dsc
+ fdb24350973ecdc2376576241707ff74 204988 c2hs_0.28.6.orig.tar.gz
+ de4cf65dd49a5472a478fc80649417df 10112 c2hs_0.28.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/c2hs
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/c2hs]
+Checksums-Sha256:
+ a56db07d650d63c43793323c9038e3b11c22db47eddc569d66a4c70ee760cbb2 2282 c2hs_0.28.6-1.dsc
+ 91dd121ac565009f2fc215c50f3365ed66705071a698a545e869041b5d7ff4da 204988 c2hs_0.28.6.orig.tar.gz
+ df7e63364d85be09e9cc49e6decf27ff7c209a473776389a21398217c737a2f7 10112 c2hs_0.28.6-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/c2hs
+Package-List: 
+ c2hs deb haskell optional arch=any
+ c2hs-doc deb doc optional arch=all
+Directory: pool/main/c/c2hs
+Priority: source
+Section: haskell

@@ -1,0 +1,28 @@
+Package: umis
+Binary: umis, umis-examples
+Version: 1.0.7-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, cython3, python3-dev, python3-setuptools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6b33e2b668840102879fc929f8401cbb 2064 umis_1.0.7-1.dsc
+ 9f95084e9e1e772031fd5b9539999686 247572 umis_1.0.7.orig.tar.gz
+ dcb9d40324fd4f8d97fd965ececadcc1 4960 umis_1.0.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/umis
+Vcs-Git: https://salsa.debian.org/med-team/umis.git
+Checksums-Sha256:
+ e8069c1bef29f7b367b42efdf44c61230d01bac057581d8d5a35bfced51d37d7 2064 umis_1.0.7-1.dsc
+ cc27ad45f8a8d39d9bda6612765ad62213c07341146d56e2a8e19ee408bbdf2e 247572 umis_1.0.7.orig.tar.gz
+ 780b07658762e35bd8cdbf562d06d6d31dd188c44736936d4d84429894937fc9 4960 umis_1.0.7-1.debian.tar.xz
+Homepage: https://github.com/vals/umis
+Build-Depends-Arch: python3-pysam
+Package-List: 
+ umis deb science optional arch=any
+ umis-examples deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/u/umis
+Priority: extra
+Section: misc

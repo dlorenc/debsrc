@@ -1,0 +1,28 @@
+Package: haskell-mime
+Binary: libghc-mime-dev, libghc-mime-prof, libghc-mime-doc
+Version: 0.4.0.2-8
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a76f0f6babfc23582417b0889292d5de 2260 haskell-mime_0.4.0.2-8.dsc
+ b0c5345df0efca0d3a40931e981f081f 9438 haskell-mime_0.4.0.2.orig.tar.gz
+ c7d5845b86e628088fa41126753286b4 3068 haskell-mime_0.4.0.2-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-mime
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-mime]
+Checksums-Sha256:
+ b25be753b4931bbf909e2625ce324a07a9d8b2b6c675c45bb036188beead59da 2260 haskell-mime_0.4.0.2-8.dsc
+ e7fa283e5caa6371d5b3978e152412a2dd2489eec43aee722caca9dc14ea3875 9438 haskell-mime_0.4.0.2.orig.tar.gz
+ f97442c54e6ccf639d5215ddbb24b20632fe8c15eddb861e354797861e9ed9cd 3068 haskell-mime_0.4.0.2-8.debian.tar.xz
+Homepage: https://github.com/GaloisInc/mime
+Package-List: 
+ libghc-mime-dev deb haskell optional arch=any
+ libghc-mime-doc deb doc optional arch=all
+ libghc-mime-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-mime
+Priority: optional
+Section: misc

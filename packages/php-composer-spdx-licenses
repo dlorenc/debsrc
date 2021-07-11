@@ -1,0 +1,27 @@
+Package: php-composer-spdx-licenses
+Binary: php-composer-spdx-licenses
+Version: 1.5.5-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dcdb3928f9d5ebe746e593fa18dbb5fd 1899 php-composer-spdx-licenses_1.5.5-2.dsc
+ 0101a7fb3455bd38ae741e2f181952d7 16315 php-composer-spdx-licenses_1.5.5.orig.tar.gz
+ caca0b4e08796eadceddb09977e1eaf5 4724 php-composer-spdx-licenses_1.5.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-composer-spdx-licenses
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-composer-spdx-licenses.git -b debian/latest
+Checksums-Sha256:
+ eb4ce5ff94299a1d66072bc93302b85939b4e1844a7223911ff5f3411e497ab6 1899 php-composer-spdx-licenses_1.5.5-2.dsc
+ 06b11fa5ba88a79907d116f4f62616212c03cebb1502c17a7252a235ff30d457 16315 php-composer-spdx-licenses_1.5.5.orig.tar.gz
+ 65d0b898a77f22d34c6210acb882e7d969cba0d46384113bfff331e717304cd0 4724 php-composer-spdx-licenses_1.5.5-2.debian.tar.xz
+Homepage: https://github.com/composer/spdx-licenses
+Package-List: 
+ php-composer-spdx-licenses deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: patch, phpunit
+Directory: pool/main/p/php-composer-spdx-licenses
+Priority: optional
+Section: misc

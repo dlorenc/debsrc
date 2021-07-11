@@ -1,0 +1,26 @@
+Package: globus-gass-transfer
+Binary: libglobus-gass-transfer2, libglobus-gass-transfer-dev, libglobus-gass-transfer-doc
+Version: 9.2-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-gssapi-gsi-dev (>= 10), libglobus-gss-assist-dev (>= 8), libglobus-io-dev (>= 8), doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7dc4486155ad7e6a319721244b334e9a 2269 globus-gass-transfer_9.2-1.dsc
+ 4ab7a9969b199825bae23ff1d27f857d 377480 globus-gass-transfer_9.2.orig.tar.gz
+ edeb7ce5e0979da87ab373be4400743e 3684 globus-gass-transfer_9.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gass-transfer
+Vcs-Git: https://salsa.debian.org/ellert/globus-gass-transfer.git
+Checksums-Sha256:
+ b6972376398c878c23e54b8334affee291bae38e04cee52ea29a651b43d3cb01 2269 globus-gass-transfer_9.2-1.dsc
+ 051259d2cb598f0fd78830c74cddde6ae28e078f6a145aeecc260505d8fbec24 377480 globus-gass-transfer_9.2.orig.tar.gz
+ 284e3dd3c66dde4fb53e6a8b9c0cbb70eed7f37a010063246104cce3c13c6cc2 3684 globus-gass-transfer_9.2-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-gass-transfer-dev deb libdevel optional arch=any
+ libglobus-gass-transfer-doc deb doc optional arch=all
+ libglobus-gass-transfer2 deb libs optional arch=any
+Directory: pool/main/g/globus-gass-transfer
+Priority: source
+Section: net

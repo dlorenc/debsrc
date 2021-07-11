@@ -1,0 +1,25 @@
+Package: rust-natord
+Binary: librust-natord-dev
+Version: 1.0.9-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 7dd7ff7a2c15b9c251fb0fc4c977cfa3 2092 rust-natord_1.0.9-1.dsc
+ 8f181e806763e91fa09a27294cd04d24 4195 rust-natord_1.0.9.orig.tar.gz
+ 92c5b220d1a48ce0c1141c01d0c9e1ce 2232 rust-natord_1.0.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/natord
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/natord]
+Checksums-Sha256:
+ fdd243089bd86926de5218189bace9b99669a1216e80d64b3dbe661d3f1b8b88 2092 rust-natord_1.0.9-1.dsc
+ fa026a5c808f539ce6e6b5d1bd5b8ccf8c1fda088287ec1648805f76c443f1d5 4195 rust-natord_1.0.9.orig.tar.gz
+ 037f2afea6d688fc73f1aa5ab4aaf07e0382d1c673751141226c42ab38b8da8c 2232 rust-natord_1.0.9-1.debian.tar.xz
+Homepage: https://github.com/lifthrasiir/rust-natord
+Package-List: 
+ librust-natord-dev deb rust optional arch=any
+Directory: pool/main/r/rust-natord
+Priority: extra
+Section: misc

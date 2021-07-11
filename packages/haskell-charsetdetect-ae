@@ -1,0 +1,28 @@
+Package: haskell-charsetdetect-ae
+Binary: libghc-charsetdetect-ae-dev, libghc-charsetdetect-ae-prof, libghc-charsetdetect-ae-doc
+Version: 1.1.0.4-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Marcel Fourne <debian@marcelfourne.de>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libstdc++-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7ffc095c2568b81dc67d5ec1f47e79b8 2472 haskell-charsetdetect-ae_1.1.0.4-3.dsc
+ d08ab50f4b1b23bde677895b0c9fcfae 186022 haskell-charsetdetect-ae_1.1.0.4.orig.tar.gz
+ 2bee4e1c034aecb1cdb4c4f1a24dbb77 3836 haskell-charsetdetect-ae_1.1.0.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-charsetdetect-ae
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-charsetdetect-ae]
+Checksums-Sha256:
+ d5ea073fa20cc5490f7410ec8473e4c85d10f6240e7248151d281a684f0ec007 2472 haskell-charsetdetect-ae_1.1.0.4-3.dsc
+ 9bbaa48d3026abdd403ed59ee5f41978b2f5be6d0dc545e142c86d5aa790410c 186022 haskell-charsetdetect-ae_1.1.0.4.orig.tar.gz
+ b9e1600398e430711174138b56b5e90ab7356b0cadf7598fe05891655838b2aa 3836 haskell-charsetdetect-ae_1.1.0.4-3.debian.tar.xz
+Homepage: http://github.com/Aelve/charsetdetect-ae
+Package-List: 
+ libghc-charsetdetect-ae-dev deb haskell optional arch=any
+ libghc-charsetdetect-ae-doc deb doc optional arch=all
+ libghc-charsetdetect-ae-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-charsetdetect-ae
+Priority: optional
+Section: misc

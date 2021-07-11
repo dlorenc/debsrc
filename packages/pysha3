@@ -1,0 +1,27 @@
+Package: pysha3
+Binary: python3-sha3
+Version: 1.0.2-4.1
+Maintainer: Ben Finney <bignose@debian.org>
+Build-Depends: tox, python3-flake8, python3-setuptools, dh-python, debhelper-compat (= 12)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f415b37cb578913c5a67e4e99f12a7f9 2003 pysha3_1.0.2-4.1.dsc
+ 59cd2db7a9988c1f3f6aee40145e0c96 829192 pysha3_1.0.2.orig.tar.gz
+ 72e67e11c8c375e000a26f032ba03e3c 9096 pysha3_1.0.2-4.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/bignose/pkg-pysha3/
+Vcs-Git: https://salsa.debian.org/bignose/pkg-pysha3.git
+Checksums-Sha256:
+ 4852ab139e58e0b4a0d5a5c31bbf517ba6faa6ae21381031d6ff8bd356e839ed 2003 pysha3_1.0.2-4.1.dsc
+ fe988e73f2ce6d947220624f04d467faf05f1bbdbc64b0a201296bb3af92739e 829192 pysha3_1.0.2.orig.tar.gz
+ dc8ac39fe2f7a9cf249429995a266829678e5b855f23009bbf990da8fdbcd2b3 9096 pysha3_1.0.2-4.1.debian.tar.xz
+Homepage: https://pypi.org/project/pysha3/
+Build-Depends-Arch: python3-all-dev, python3
+Package-List: 
+ python3-sha3 deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pkg-resources
+Directory: pool/main/p/pysha3
+Priority: extra
+Section: misc

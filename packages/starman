@@ -1,0 +1,27 @@
+Package: starman
+Binary: starman
+Version: 0.4015-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: CSILLAG Tamas <cstamas@cstamas.hu>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-tiny-perl
+Build-Depends-Indep: perl, libdata-dump-perl, libhttp-date-perl, libhttp-parser-xs-perl, libnet-server-perl (>= 2.007), libplack-perl, libtest-requires-perl, libtest-tcp-perl (>= 2.00), libwww-perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2f6bb94f9c1d548b54e6bee57d91eef0 2224 starman_0.4015-1.dsc
+ 6318bf834964fe99a12a83fb6923b8d7 30692 starman_0.4015.orig.tar.gz
+ 259a03802a1c5d5f429d0526f4ad94e5 3804 starman_0.4015-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/starman
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/starman.git
+Checksums-Sha256:
+ 381d3a53585c6de28c6e3b9ec9dd8656a92ea2917753b2fb493186f6f1ac47c3 2224 starman_0.4015-1.dsc
+ 10f5097bca39a4327ff6e69e73f07609d3a659a7896be3964b49cc2412b133f8 30692 starman_0.4015.orig.tar.gz
+ 29f91f2f26a3aae5ee0c84f9e93e4012e99ad232bdac751958662437a5b62a27 3804 starman_0.4015-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Starman
+Package-List: 
+ starman deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/s/starman
+Priority: source
+Section: perl

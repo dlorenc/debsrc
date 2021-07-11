@@ -1,0 +1,25 @@
+Package: orthanc-wsi
+Binary: orthanc-wsi
+Version: 1.0-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Sebastien Jodogne <s.jodogne@gmail.com>, Andreas Tille <tille@debian.org>
+Build-Depends: cmake, debhelper (>= 10), libcurl4-openssl-dev | libcurl4-dev, libdcmtk-dev, libopenjp2-7-dev, liborthancframework-dev, libtiff5-dev, orthanc-dev (>= 1.1.0), uuid-dev, yui-compressor, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c25a59b1264d4b84808b55057e8ba2ba 2192 orthanc-wsi_1.0-3.dsc
+ a861a76bb4d078df5e8cf2351e47e214 142904 orthanc-wsi_1.0.orig.tar.xz
+ ec7ceeb531e4c0ef82e6728f453e0013 318136 orthanc-wsi_1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/orthanc-wsi
+Vcs-Git: https://salsa.debian.org/med-team/orthanc-wsi.git
+Checksums-Sha256:
+ 00dd90cdfc35a1f560a31ae509f6c6614ed5c1b6f046b4c4ae25ece025c33d91 2192 orthanc-wsi_1.0-3.dsc
+ 66654ba7c9182f45885d104a7e3a96c1945026f249b53151b339048ed28d9489 142904 orthanc-wsi_1.0.orig.tar.xz
+ 7e1d3cdf272e834785260bfe7fe3518d7ffc7e2e1d3e2275ff5001ca9399c699 318136 orthanc-wsi_1.0-3.debian.tar.xz
+Homepage: http://www.orthanc-server.com/static.php?page=wsi
+Package-List: 
+ orthanc-wsi deb science optional arch=any
+Directory: pool/main/o/orthanc-wsi
+Priority: optional
+Section: misc

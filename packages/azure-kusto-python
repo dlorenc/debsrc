@@ -1,0 +1,27 @@
+Package: azure-kusto-python
+Binary: python3-azure-kusto-data
+Version: 1.0.3-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-adal (>= 1.0.0~) <!nocheck>, python3-all, python3-azure (>= 20200519+git-1~) <!nocheck>, python3-dateutil (>= 2.7.0~) <!nocheck>, python3-mock (>= 2.0.0~) <!nocheck>, python3-pandas (>= 0.23.0~) <!nocheck>, python3-pytest (>= 3.2.0~) <!nocheck>, python3-requests (>= 2.13.0~) <!nocheck>, python3-responses (>= 0.9.0~) <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5702fd666eca4593eb4d853cf926379b 2169 azure-kusto-python_1.0.3-1.dsc
+ 71fd735eb16fbb8ce2d8c47f30e8099c 63955 azure-kusto-python_1.0.3.orig.tar.gz
+ 64bf728a374d8de14df37ee8f1abbe7a 3380 azure-kusto-python_1.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/azure-kusto-python
+Vcs-Git: https://salsa.debian.org/python-team/packages/azure-kusto-python.git
+Checksums-Sha256:
+ e684e8679f9385609f5a83339ec2873da787e0a106a9050541b49e8a8ffd0507 2169 azure-kusto-python_1.0.3-1.dsc
+ 700a21d3edfd96c097bae4250c2c50bc29c8a9b68224f3cd749a8045d8dafd2f 63955 azure-kusto-python_1.0.3.orig.tar.gz
+ 1bc59fa3fd6a51b16ab413b915c1904ebfa46e46e658f46839413b1c8669eccb 3380 azure-kusto-python_1.0.3-1.debian.tar.xz
+Homepage: https://github.com/Azure/azure-kusto-python
+Package-List: 
+ python3-azure-kusto-data deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/a/azure-kusto-python
+Priority: extra
+Section: misc

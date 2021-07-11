@@ -1,0 +1,27 @@
+Package: backuppc
+Binary: backuppc
+Version: 4.4.0-3
+Maintainer: Debian BackupPC Team <team+pkg-backuppc@tracker.debian.org>
+Uploaders: Tobias Frost <tobi@debian.org>, Axel Beckert <abe@debian.org>, Jonathan Wiltshire <jmw@debian.org>
+Build-Depends: debhelper-compat (= 13), iputils-ping | inetutils-ping, libbackuppc-xs-perl (>= 0.62), libcgi-pm-perl, libfile-listing-perl, par2, patch, perl, rrdtool
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0d9fdf77d5ea3c56f8e30a43f666c78d 2157 backuppc_4.4.0-3.dsc
+ 96cd69da26b71a609e18cb5e98a813bb 657309 backuppc_4.4.0.orig.tar.gz
+ 4b24fa43fbaaa79a51e927034e5762a2 59036 backuppc_4.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/backuppc
+Vcs-Git: https://salsa.debian.org/debian/backuppc.git
+Checksums-Sha256:
+ 6e892ac95e907bb278c2c4f07c1e2c5357d848b6f554fd73f42e4bf7ff2ff8d3 2157 backuppc_4.4.0-3.dsc
+ 8bc04cd513d47629508bd2fd6f455ced38316974913638e971f44e37786c6365 657309 backuppc_4.4.0.orig.tar.gz
+ 1f531379f4ccd0b4b3a55544666a6603a731c459a72245400c4a809976485ad1 59036 backuppc_4.4.0-3.debian.tar.xz
+Homepage: https://backuppc.github.io/backuppc/
+Package-List: 
+ backuppc deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: samba, smbclient, sudo
+Directory: pool/main/b/backuppc
+Priority: source
+Section: utils

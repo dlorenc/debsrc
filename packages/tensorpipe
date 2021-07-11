@@ -1,0 +1,26 @@
+Package: tensorpipe
+Binary: libtensorpipe-dev, libtensorpipe0
+Version: 0.0~git20200928.95ff931-2
+Maintainer: Debian Deep Learning Team <debian-ai@lists.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), libgtest-dev, libprotobuf-dev, libuv1-dev, pkg-config, protobuf-compiler, libnop-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 25f13a0a8246cf571ac23446aab6dd07 2248 tensorpipe_0.0~git20200928.95ff931-2.dsc
+ d931cfd4ddd244d280ae52fe06fae038 115484 tensorpipe_0.0~git20200928.95ff931.orig.tar.xz
+ d82c2961a65c3c76d7a9ab4eceb47cb6 4432 tensorpipe_0.0~git20200928.95ff931-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/deeplearning-team/tensorpipe
+Vcs-Git: https://salsa.debian.org/deeplearning-team/tensorpipe.git
+Checksums-Sha256:
+ 17572f5186ea42ad5b1fccef5570922a24000b5bd579437613554a3ad484d757 2248 tensorpipe_0.0~git20200928.95ff931-2.dsc
+ 4db5b11bde959cffbff1a6ab9dc3bc78d3a0f1c68874c54825417bc36a877077 115484 tensorpipe_0.0~git20200928.95ff931.orig.tar.xz
+ c4b71bc9b34581bbe590aba336deb2e72c63fddf715de828783ffb9689bd0517 4432 tensorpipe_0.0~git20200928.95ff931-2.debian.tar.xz
+Homepage: https://github.com/pytorch/tensorpipe
+Package-List: 
+ libtensorpipe-dev deb libdevel optional arch=any
+ libtensorpipe0 deb libs optional arch=any
+Directory: pool/main/t/tensorpipe
+Priority: optional
+Section: misc

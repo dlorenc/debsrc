@@ -1,0 +1,28 @@
+Package: povray
+Binary: povray, povray-includes, fonts-povray, povray-doc, povray-examples
+Version: 1:3.7.0.8-5
+Maintainer: Andreas Beckmann <anbe@debian.org>
+Build-Depends: debhelper-compat (= 13), autoconf-archive, libpng-dev, zlib1g-dev, libx11-dev, libxt-dev, libice-dev, libjpeg-dev, libtiff-dev, pkg-config, libboost-thread-dev, libopenexr-dev, libsdl-dev, libxpm-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bc60965b4c01333e94529b4c6d3a941e 2257 povray_3.7.0.8-5.dsc
+ ec56b6a59e383e85369850841f910cff 52884333 povray_3.7.0.8.orig.tar.gz
+ 708432842309f2e1a3171154505becf7 43264 povray_3.7.0.8-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/povray
+Vcs-Git: https://salsa.debian.org/debian/povray.git
+Checksums-Sha256:
+ f3b8fa2b32239c317f7f6b23281c27c7ea026589939e6454d1dfab6d852e6a0d 2257 povray_3.7.0.8-5.dsc
+ 53d11ebd2972fc452af168a00eb83aefb61387662c10784e81b63e44aa575de4 52884333 povray_3.7.0.8.orig.tar.gz
+ 4dc1f143cdff6545b2f2582f701a7672efd03220c71fa9a2bc9d20c83ed00567 43264 povray_3.7.0.8-5.debian.tar.xz
+Homepage: http://www.povray.org
+Package-List: 
+ fonts-povray deb fonts optional arch=all
+ povray deb graphics optional arch=any
+ povray-doc deb doc optional arch=all
+ povray-examples deb graphics optional arch=all
+ povray-includes deb graphics optional arch=all
+Directory: pool/main/p/povray
+Priority: optional
+Section: misc

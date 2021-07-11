@@ -1,0 +1,28 @@
+Package: haskell-bytes
+Binary: libghc-bytes-dev, libghc-bytes-prof, libghc-bytes-doc
+Version: 0.17-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-binary-orphans-dev (>= 1.0.1), libghc-binary-orphans-dev (<< 1.1), libghc-binary-orphans-prof, libghc-cereal-dev (>= 0.5.2), libghc-cereal-dev (<< 0.6), libghc-cereal-prof, libghc-doctest-dev (>= 0.9.1), libghc-hashable-dev (<< 1.4), libghc-hashable-dev (>= 1.0.1.1), libghc-hashable-prof, libghc-scientific-dev (<< 1), libghc-scientific-dev (>= 0.0), libghc-scientific-prof, libghc-transformers-compat-dev (>= 0.6.5), libghc-transformers-compat-dev (<< 1), libghc-transformers-compat-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-prof, libghc-void-dev (<< 1), libghc-void-dev (>= 0.6), libghc-void-prof
+Build-Depends-Indep: ghc-doc, libghc-binary-orphans-doc, libghc-cereal-doc, libghc-hashable-doc, libghc-scientific-doc, libghc-transformers-compat-doc, libghc-unordered-containers-doc, libghc-void-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 12a4a0e449dc7f1d795c2242e02ccaeb 3084 haskell-bytes_0.17-1.dsc
+ 58d39103b87772e2f86bda1f052993c4 19794 haskell-bytes_0.17.orig.tar.gz
+ 2a7169d00897b8d40223f5bda2deed64 3388 haskell-bytes_0.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-bytes
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-bytes]
+Checksums-Sha256:
+ 8964fe3f24632bd37211e7277aa8b77ef95bf633be45df3907db27aa185236ac 3084 haskell-bytes_0.17-1.dsc
+ 23f2ecf0179b44f3c629d56ba74381de66ceeb898fc21b54d9c325cbba63ea85 19794 haskell-bytes_0.17.orig.tar.gz
+ 59f4fcad5c2f12c2f2ea8eb4491ba3cf9f86e0c5c03bcba84891b093ad9f998f 3388 haskell-bytes_0.17-1.debian.tar.xz
+Homepage: https://github.com/ekmett/bytes
+Package-List: 
+ libghc-bytes-dev deb haskell optional arch=any
+ libghc-bytes-doc deb doc optional arch=all
+ libghc-bytes-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-bytes
+Priority: optional
+Section: misc

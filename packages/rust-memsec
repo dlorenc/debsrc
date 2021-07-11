@@ -1,0 +1,31 @@
+Package: rust-memsec
+Binary: librust-memsec-dev, librust-memsec+alloc-dev, librust-memsec+default-dev, librust-memsec+libc-dev, librust-memsec+use-os-dev, librust-memsec+winapi-dev
+Version: 0.5.7-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-getrandom-0.1+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+memoryapi-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 5ed355a24d8e1c4644c06273101f4abc 2115 rust-memsec_0.5.7-2.dsc
+ 1d25e2b5e026d8fa6090bbd04f69aa0e 5917 rust-memsec_0.5.7.orig.tar.gz
+ 6e0fedeb34e11f161323dec5f7c2700b 3420 rust-memsec_0.5.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/memsec
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/memsec]
+Checksums-Sha256:
+ 0eba533de0cf20975603e8e507d23dbee0bad403136f90655c9a18cabc3b2309 2115 rust-memsec_0.5.7-2.dsc
+ 0cb9280f8c37546661083aa45eb0318d8469253d31e87649faed25522428398e 5917 rust-memsec_0.5.7.orig.tar.gz
+ 57f0f2516e0a12980b1db101ae0400cde8b3a79c8bc35ac6d673671bb7d5db21 3420 rust-memsec_0.5.7-2.debian.tar.xz
+Package-List: 
+ librust-memsec+alloc-dev deb rust optional arch=any
+ librust-memsec+default-dev deb rust optional arch=any
+ librust-memsec+libc-dev deb rust optional arch=any
+ librust-memsec+use-os-dev deb rust optional arch=any
+ librust-memsec+winapi-dev deb rust optional arch=any
+ librust-memsec-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-memsec
+Priority: extra
+Section: misc

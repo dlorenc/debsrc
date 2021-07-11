@@ -1,0 +1,27 @@
+Package: tryton-server
+Binary: tryton-server, tryton-server-doc
+Version: 5.0.33-2
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 11~), dh-python, init-system-helpers (>= 1.51), python3, python3-bcrypt, python3-dateutil, python3-genshi, python3-lxml, python3-mock, python3-passlib, python3-polib, python3-relatorio (>= 0.7), python3-setuptools, python3-sphinx, python3-sql, python3-werkzeug, python3-wrapt
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 79b2fbbb2d4396f6918793b1993360ff 2373 tryton-server_5.0.33-2.dsc
+ 24d24af6aebae9080fee3e21c9c3d13f 659717 tryton-server_5.0.33.orig.tar.gz
+ 8bc12d706c716a1f88ebc40b7dd526b4 31008 tryton-server_5.0.33-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/tryton-server
+Vcs-Git: https://salsa.debian.org/tryton-team/tryton-server.git
+Checksums-Sha256:
+ f60f050c25f43ccfd3db7fd48f0b4eceb02a2643b68916e61c96636274e1b04c 2373 tryton-server_5.0.33-2.dsc
+ c19a18ead60c49b7a3e3ed8fa2dacca4ead73fbd1665781377ee38a24f5a02fb 659717 tryton-server_5.0.33.orig.tar.gz
+ 7b6e60395c5b28b040a80b131560b0359739a9f9c0c4ea23ca12b907a4d66e4b 31008 tryton-server_5.0.33-2.debian.tar.xz
+Homepage: http://www.tryton.org/
+Package-List: 
+ tryton-server deb python optional arch=all
+ tryton-server-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/t/tryton-server
+Priority: source
+Section: python

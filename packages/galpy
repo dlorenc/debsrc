@@ -1,0 +1,26 @@
+Package: galpy
+Binary: python3-galpy
+Version: 1.6.0.post0-2
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-numpy (>= 1.7.0), python3-six (>= 1.10.0), python3-matplotlib (>= 1.5.2~rc2), python3-scipy (>= 0.17.1), python3-nose, python3-tk, python3-future, libgsl-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 17f60e2f2cb0b1e36937f09b995aac28 2218 galpy_1.6.0.post0-2.dsc
+ 7a8f977098dbb1c7450c39d4b4d23ebb 459741 galpy_1.6.0.post0.orig.tar.gz
+ c353b22854c98d69ac59eb7cc2d569a3 3504 galpy_1.6.0.post0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/galpy
+Vcs-Git: https://salsa.debian.org/debian-astro-team/galpy.git
+Checksums-Sha256:
+ 95f81c6b874e57bc439d942b1307fdf03bf2efcb7a4cc4ad98f2bc8c2378e83f 2218 galpy_1.6.0.post0-2.dsc
+ 721d3fa5b156a02a4d9e9ae58a29f946c716ff40a2bd6e4a6f8c06bdfe8f7c57 459741 galpy_1.6.0.post0.orig.tar.gz
+ d4804cd45414e0b84e7874439a660e85bbf411630e5e946a7d2dbc5d45d398a9 3504 galpy_1.6.0.post0-2.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/galpy
+Package-List: 
+ python3-galpy deb python optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/g/galpy
+Priority: optional
+Section: misc

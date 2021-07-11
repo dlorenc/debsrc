@@ -1,0 +1,26 @@
+Package: node-get
+Binary: node-get
+Version: 1.4.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 8ef190ad5e989b42a50cac87ba1372c5 1989 node-get_1.4.0-1.dsc
+ f6ed90187948fe29b83393ba47696a72 9623 node-get_1.4.0.orig.tar.gz
+ 86794836fc58a65a905f2e57e31942fc 3208 node-get_1.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-get
+Vcs-Git: https://salsa.debian.org/js-team/node-get.git
+Checksums-Sha256:
+ 108691d619791ae6ee9989e515120842f374ff309585d6be309982f65d682af1 1989 node-get_1.4.0-1.dsc
+ 892de15c98ece09f53e4833640d5536675eb582a2957dc78bfaf63d07640004c 9623 node-get_1.4.0.orig.tar.gz
+ f99395f0c4cb6284d9211ba58889ffbc039c6e188d3449573e39fb09621af110 3208 node-get_1.4.0-1.debian.tar.xz
+Homepage: https://github.com/mapbox/node-get
+Package-List: 
+ node-get deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-get
+Priority: source
+Section: javascript

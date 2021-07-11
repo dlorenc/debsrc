@@ -1,0 +1,28 @@
+Package: rust-num-derive
+Binary: librust-num-derive-dev, librust-num-derive+full-syntax-dev
+Version: 0.3.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 4db180dcb1b6c0c30375d458880094d1 2113 rust-num-derive_0.3.0-1.dsc
+ fde25b4b3d49ec466335f2a6fab7a8d5 12870 rust-num-derive_0.3.0.orig.tar.gz
+ a20bd5af8aec19cd4f7268e6e918a7e3 2812 rust-num-derive_0.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-derive]
+Checksums-Sha256:
+ f5cb08e69f385b181a0498524c42160eea4b32cd326c8f50ab38c26034b0ae08 2113 rust-num-derive_0.3.0-1.dsc
+ 0c8b15b261814f992e33760b1fca9fe8b693d8a65299f20c9901688636cfb746 12870 rust-num-derive_0.3.0.orig.tar.gz
+ 37ef0226c5446bd7a0387d13101faabc0dd67e7cf20d32393f1f84b2b57678b4 2812 rust-num-derive_0.3.0-1.debian.tar.xz
+Homepage: https://github.com/rust-num/num-derive
+Package-List: 
+ librust-num-derive+full-syntax-dev deb rust optional arch=any
+ librust-num-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-num-0.2+default-dev, librust-num-traits-0.2+default-dev
+Directory: pool/main/r/rust-num-derive
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: globus-gass-cache
+Binary: libglobus-gass-cache5, libglobus-gass-cache-dev, libglobus-gass-cache-doc
+Version: 10.2-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libssl-dev, doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0c1a128137c0dd56e8b95d278c1e5c7e 2151 globus-gass-cache_10.2-1.dsc
+ 97dbff32609c8828e08c7324fd70b795 344597 globus-gass-cache_10.2.orig.tar.gz
+ 534c272ff7c05f7f784100e9e1126349 3140 globus-gass-cache_10.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gass-cache
+Vcs-Git: https://salsa.debian.org/ellert/globus-gass-cache.git
+Checksums-Sha256:
+ bd6d55abb11478307aa9c17eab2cf8fc299ade0dcffe65bc2021f7b7a7d085a9 2151 globus-gass-cache_10.2-1.dsc
+ 9b096978ee3b858c7f12f573054d577f1db68df87fe38dbe39788171271d96f0 344597 globus-gass-cache_10.2.orig.tar.gz
+ 3cf87f3afd285cf2019f6007576080b7d6388d85559fd5287b8448795f1ba2ea 3140 globus-gass-cache_10.2-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-gass-cache-dev deb libdevel optional arch=any
+ libglobus-gass-cache-doc deb doc optional arch=all
+ libglobus-gass-cache5 deb libs optional arch=any
+Directory: pool/main/g/globus-gass-cache
+Priority: source
+Section: net

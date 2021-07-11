@@ -1,0 +1,27 @@
+Package: jsquery
+Binary: postgresql-13-jsquery
+Version: 1.1.1-3
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: bison, debhelper-compat (= 13), flex, postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a4a1a161ddb35d4f8a710061ee8260dd 2021 jsquery_1.1.1-3.dsc
+ c1448cedc8d585163a7d6a53827d0bb5 105634 jsquery_1.1.1.orig.tar.gz
+ 86d9495a5cd5f49ba19823a0ffd49ba6 11500 jsquery_1.1.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/jsquery
+Vcs-Git: https://salsa.debian.org/postgresql/jsquery.git
+Checksums-Sha256:
+ 991099c28ffff599d3f414735188ae182978cee6911dfff9e643e63e3635c64d 2021 jsquery_1.1.1-3.dsc
+ 7f7a8ff261746ff9ab54177044505cfb0a1a127e2590cfb357aa8084682f3ca0 105634 jsquery_1.1.1.orig.tar.gz
+ 0d716cf5172df08bba18575f6182b9bf0b18cdacf0683250d429631ef5daddd6 11500 jsquery_1.1.1-3.debian.tar.xz
+Homepage: https://github.com/postgrespro/jsquery
+Package-List: 
+ postgresql-13-jsquery deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/j/jsquery
+Priority: extra
+Section: misc

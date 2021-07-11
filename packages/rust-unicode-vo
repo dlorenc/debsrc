@@ -1,0 +1,26 @@
+Package: rust-unicode-vo
+Binary: librust-unicode-vo-dev
+Version: 0.1.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e71e5c9141d918c9910f27c15aa6fdbd 2135 rust-unicode-vo_0.1.0-2.dsc
+ 7ef15a685142457011b677e98f2ad8f9 8084 rust-unicode-vo_0.1.0.orig.tar.gz
+ 8e8dd54d8da98a1ceac828fa1e43ff9a 2588 rust-unicode-vo_0.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unicode-vo
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-vo]
+Checksums-Sha256:
+ 1c50a6fe9b5a69a2dc1b2331a31bf75ed53a40da1293cfbacd088b5f283ccec4 2135 rust-unicode-vo_0.1.0-2.dsc
+ b1d386ff53b415b7fe27b50bb44679e2cc4660272694b7b6f3326d8480823a94 8084 rust-unicode-vo_0.1.0.orig.tar.gz
+ 15cfcec5ccb90249e712a18408a1b4ea392d9993214c98481a1cd875dac4cc21 2588 rust-unicode-vo_0.1.0-2.debian.tar.xz
+Package-List: 
+ librust-unicode-vo-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-unicode-vo
+Priority: extra
+Section: misc

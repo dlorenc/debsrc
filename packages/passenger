@@ -1,0 +1,32 @@
+Package: passenger
+Binary: passenger, libapache2-mod-passenger, passenger-doc, ruby-passenger, ruby-passenger-doc
+Version: 5.0.30-1.2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Micah Anderson <micah@debian.org>, Felix Geyer <fgeyer@debian.org>
+Build-Depends: apache2 (>= 2.4), apache2-dev (>= 2.4), asciidoc (>= 8.2), debhelper (>= 9~), dh-autoreconf, doxygen, gem2deb, graphviz, libapr1-dev, libcurl4-openssl-dev, libuv1-dev, rake, ruby-mizuho, source-highlight, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ c003c860bdd0825e13be4e33c94409d3 2598 passenger_5.0.30-1.2.dsc
+ 7ed9ebc8996368176789d92c1805fd1e 5588130 passenger_5.0.30.orig.tar.gz
+ e39d03a40663ae9353a95b3072caf2ec 18692 passenger_5.0.30-1.2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/passenger.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/passenger.git
+Checksums-Sha256:
+ 70ef70234efdefdc927bdc2a37ef8843c07da2e1107522af8650c8dc721a5969 2598 passenger_5.0.30-1.2.dsc
+ f367e0c1d808d7356c3749222194a72ea03efe61a3bf1b682bd05d47f087b4e3 5588130 passenger_5.0.30.orig.tar.gz
+ 9f2a9b47f84f43f53d9a54633b395b750dd800f03a208c642f66a130f13fe402 18692 passenger_5.0.30-1.2.debian.tar.xz
+Homepage: https://www.phusionpassenger.com/
+Package-List: 
+ libapache2-mod-passenger deb httpd optional arch=any
+ passenger deb ruby optional arch=any
+ passenger-doc deb doc optional arch=all
+ ruby-passenger deb oldlibs optional arch=all
+ ruby-passenger-doc deb oldlibs optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, nodejs, python3, wget
+Directory: pool/main/p/passenger
+Priority: optional
+Section: misc

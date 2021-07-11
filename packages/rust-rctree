@@ -1,0 +1,26 @@
+Package: rust-rctree
+Binary: librust-rctree-dev
+Version: 0.3.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f42cc6bb84e62949f4e75c681b875ff2 1746 rust-rctree_0.3.3-1.dsc
+ a1242a0d1da4a88f14bf916ca3867738 8527 rust-rctree_0.3.3.orig.tar.gz
+ c963af4178256712b9bae7dd304916aa 2600 rust-rctree_0.3.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rctree
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rctree]
+Checksums-Sha256:
+ de76e0cf1500bfb1efc9a255320572dcb51f119f7886c384323deb5558ef96e5 1746 rust-rctree_0.3.3-1.dsc
+ be9e29cb19c8fe84169fcb07f8f11e66bc9e6e0280efd4715c54818296f8a4a8 8527 rust-rctree_0.3.3.orig.tar.gz
+ 47d440150c7230fa22d6bad788470fd4be8017840726e90fd1e51acb5e10a9c6 2600 rust-rctree_0.3.3-1.debian.tar.xz
+Package-List: 
+ librust-rctree-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rctree
+Priority: extra
+Section: misc

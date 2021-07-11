@@ -1,0 +1,32 @@
+Package: fusioninventory-agent
+Binary: fusioninventory-agent, fusioninventory-agent-task-esx, fusioninventory-agent-task-deploy, fusioninventory-agent-task-collect, fusioninventory-agent-task-network
+Version: 1:2.6-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Guillaume Bougard <gbougard@teclib.com>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libclone-perl <!nocheck>, libdigest-sha-perl <!nocheck>, libfile-copy-recursive-perl <!nocheck>, libfile-which-perl <!nocheck>, libhttp-cookies-perl <!nocheck>, libhttp-daemon-perl <!nocheck>, libhttp-proxy-perl <!nocheck>, libhttp-server-simple-perl <!nocheck>, libhttp-server-simple-authen-perl <!nocheck>, libio-capture-perl <!nocheck>, libipc-run-perl <!nocheck>, libjson-pp-perl <!nocheck>, libmodule-install-perl, libnet-ip-perl <!nocheck>, libnet-snmp-perl <!nocheck>, libio-socket-ssl-perl <!nocheck>, libparse-edid-perl <!nocheck>, libproc-daemon-perl <!nocheck>, libparallel-forkmanager-perl <!nocheck>, libtest-compile-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-mockmodule-perl <!nocheck>, libtest-mockobject-perl <!nocheck>, libtext-template-perl <!nocheck>, libsocket-getaddrinfo-perl <!nocheck>, libuniversal-require-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>, libxml-treepp-perl <!nocheck>, libxml-xpath-perl <!nocheck>, libyaml-perl <!nocheck>, perl, ucf
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a40c710a55ad160b92cc74aa3044e546 3839 fusioninventory-agent_2.6-2.dsc
+ 6c56ffd7a959c1b5482e6967f519d625 2820813 fusioninventory-agent_2.6.orig.tar.gz
+ 3f5f50ae4ba68a97668db9e505ece937 12156 fusioninventory-agent_2.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/fusioninventory-agent.git
+Checksums-Sha256:
+ c0e78d40ddc1c0e55f9fc69a2aa79bd6f980ef2da5177967a1c59c58e9e2089a 3839 fusioninventory-agent_2.6-2.dsc
+ 83e0e350cc82781f1142e4bc8deea901324a23f9d64e8ead80102dfd680a83df 2820813 fusioninventory-agent_2.6.orig.tar.gz
+ a4cc8ff0fa0cab58451bb85cc6ed900aa4ac6d4ac88859baa37194379b3721f1 12156 fusioninventory-agent_2.6-2.debian.tar.xz
+Homepage: http://fusioninventory.org/
+Dgit: fc0a34afc7d9f4b7db7d9b1dbaf09896822668d0 debian archive/debian/1%2.6-2 https://git.dgit.debian.org/fusioninventory-agent
+Package-List: 
+ fusioninventory-agent deb net optional arch=all
+ fusioninventory-agent-task-collect deb net optional arch=all
+ fusioninventory-agent-task-deploy deb net optional arch=all
+ fusioninventory-agent-task-esx deb net optional arch=all
+ fusioninventory-agent-task-network deb net optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/f/fusioninventory-agent
+Priority: source
+Section: net

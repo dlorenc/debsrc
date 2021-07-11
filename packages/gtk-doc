@@ -1,0 +1,27 @@
+Package: gtk-doc
+Binary: gtk-doc-tools
+Version: 1.33.2-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Michael Biebl <biebl@debian.org>, Tim Lunn <tim@feathertop.org>
+Build-Depends: debhelper-compat (= 13), dh-python, gnome-pkg-tools (>= 0.10), meson
+Build-Depends-Indep: xsltproc (>= 1.1.15), libxml2-utils, docbook-xml (>= 4.3), docbook-xsl, libglib2.0-dev (>= 2.6.0), pkg-config (>= 0.19.0), python3 (>= 3.2), python3-lxml, python3-parameterized, python3-pygments, yelp-tools, bc, dblatex
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c021cce9de6a36baa127b524b365c554 2467 gtk-doc_1.33.2-1.dsc
+ ea6563421abe964d02135ca0d5b8dd8e 507852 gtk-doc_1.33.2.orig.tar.xz
+ c6619ee6269c5126280c1da57f7688ca 13568 gtk-doc_1.33.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gtk-doc
+Vcs-Git: https://salsa.debian.org/gnome-team/gtk-doc.git
+Checksums-Sha256:
+ 786c92b50c931502866494c4f79f9784a24c51f9e9b695b49b993a5a792151c9 2467 gtk-doc_1.33.2-1.dsc
+ cc1b709a20eb030a278a1f9842a362e00402b7f834ae1df4c1998a723152bf43 507852 gtk-doc_1.33.2.orig.tar.xz
+ 711d00b759be8ccb91a80468959344f7dff0b1d416e5cf0b40c19bcf9cd4dbfb 13568 gtk-doc_1.33.2-1.debian.tar.xz
+Homepage: https://gitlab.gnome.org/GNOME/gtk-doc/
+Dgit: 1d50f3cfc2a89900ab37a5289ffdfa59324b39e0 debian archive/debian/1.33.2-1 https://git.dgit.debian.org/gtk-doc
+Package-List: 
+ gtk-doc-tools deb gnome optional arch=all
+Directory: pool/main/g/gtk-doc
+Priority: source
+Section: doc

@@ -1,0 +1,28 @@
+Package: xmonad-wallpaper
+Binary: libghc-xmonad-wallpaper-dev, libghc-xmonad-wallpaper-prof, libghc-xmonad-wallpaper-doc
+Version: 0.0.1.4-7
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Lev Lamberov <dogsleg@debian.org>,
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-magic-dev (>= 1.1), libghc-magic-dev (<< 1.2), libghc-magic-prof, libghc-random-dev (>= 1.1), libghc-random-prof, libghc-xmonad-dev (>= 0.13), libghc-xmonad-dev (<< 0.16), libghc-xmonad-prof
+Build-Depends-Indep: ghc-doc, libghc-magic-doc, libghc-random-doc, libghc-xmonad-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6375a068f59b068900c3f883bf94ae5d 2675 xmonad-wallpaper_0.0.1.4-7.dsc
+ 307c5e2152112e56e4b696923962f1e5 5784 xmonad-wallpaper_0.0.1.4.orig.tar.gz
+ 2273db738634132665ab9799d925dc0d 2452 xmonad-wallpaper_0.0.1.4-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/xmonad-wallpaper
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/xmonad-wallpaper]
+Checksums-Sha256:
+ 773d07e8c6ed59611eb038a2414841e0461b7af79d914be19f10c3fae10fab37 2675 xmonad-wallpaper_0.0.1.4-7.dsc
+ 8f81d67845e9e1edc7d6850fb8d97742526cf38dd2c6f7c3b4dda08b2709c238 5784 xmonad-wallpaper_0.0.1.4.orig.tar.gz
+ e9cd4906dce4ee1b2eca16f1e55e7188a5f2f076ae37d8697daed27416e56f97 2452 xmonad-wallpaper_0.0.1.4-7.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/xmonad-wallpaper
+Package-List: 
+ libghc-xmonad-wallpaper-dev deb haskell optional arch=any
+ libghc-xmonad-wallpaper-doc deb doc optional arch=all
+ libghc-xmonad-wallpaper-prof deb haskell optional arch=any
+Directory: pool/main/x/xmonad-wallpaper
+Priority: optional
+Section: misc

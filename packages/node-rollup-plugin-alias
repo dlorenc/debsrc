@@ -1,0 +1,26 @@
+Package: node-rollup-plugin-alias
+Binary: node-rollup-plugin-alias
+Version: 3.1.1.repack-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), node-rollup-plugin-node-resolve (>= 9.0.0) <!nocheck>, node-rollup-plugin-typescript, node-slash <!nocheck>, node-tape <!nocheck>, nodejs (>= 10), dh-sequence-nodejs, rollup (>> 0.68.2+ds~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f2e05c6b2209c95d5f16480f0995768d 2365 node-rollup-plugin-alias_3.1.1.repack-2.dsc
+ 0d57399381c0f37c10db5f3271d32e41 29428 node-rollup-plugin-alias_3.1.1.repack.orig.tar.xz
+ c4842c042b7930ae8461656c8252de6c 5344 node-rollup-plugin-alias_3.1.1.repack-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rollup-plugin-alias
+Vcs-Git: https://salsa.debian.org/js-team/node-rollup-plugin-alias.git
+Checksums-Sha256:
+ 481d004e1743b24a4fd9a360e78a495dd00979b310dabf9b1e598978955d34cf 2365 node-rollup-plugin-alias_3.1.1.repack-2.dsc
+ 36287e22e8c68ab76859b149b3b545b0a1147317ee137abe11f1c9abc881e749 29428 node-rollup-plugin-alias_3.1.1.repack.orig.tar.xz
+ 8385c37d4dd1af4c221637651657f666a52eb668954b31fb0e1eda0ddaa928e8 5344 node-rollup-plugin-alias_3.1.1.repack-2.debian.tar.xz
+Homepage: https://github.com/rollup/plugins
+Package-List: 
+ node-rollup-plugin-alias deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-rollup-plugin-alias
+Priority: extra
+Section: misc

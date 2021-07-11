@@ -1,0 +1,27 @@
+Package: node-npmrc
+Binary: node-npmrc
+Version: 1.1.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Marcelo Jorge Vieira <metal@debian.org>
+Build-Depends: debhelper-compat (= 12), help2man, node-tape <!nocheck>, node-rimraf <!nocheck>, node-mkdirp <!nocheck>, node-xtend <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 025c20fa3a71ff1943370d199f57f21e 2141 node-npmrc_1.1.1-2.dsc
+ 095723b8eadfb71c866d42b11392e3f2 6549 node-npmrc_1.1.1.orig.tar.gz
+ 775d2cb5b4cb279dfed286a18011feb7 3284 node-npmrc_1.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-npmrc
+Vcs-Git: https://salsa.debian.org/js-team/node-npmrc.git
+Checksums-Sha256:
+ c8ade60f7508b972df00b5114ed662714b06b33f36bcb0960e3687856eeb572c 2141 node-npmrc_1.1.1-2.dsc
+ 776536136a1b7cd3696bb9c8449529652c8a94b9aa37764d95225e840956c7cf 6549 node-npmrc_1.1.1.orig.tar.gz
+ 200508b5c7947e5c94decece70566a9256046323d88f4f0fc2f7c49322e87d29 3284 node-npmrc_1.1.1-2.debian.tar.xz
+Homepage: https://github.com/deoxxa/npmrc
+Package-List: 
+ node-npmrc deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, pkg-js-autopkgtest
+Directory: pool/main/n/node-npmrc
+Priority: extra
+Section: misc

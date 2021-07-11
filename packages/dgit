@@ -1,0 +1,27 @@
+Package: dgit
+Binary: dgit, git-debrebase, git-debpush, dgit-infrastructure
+Version: 9.13
+Maintainer: Ian Jackson <ijackson@chiark.greenend.org.uk>
+Build-Depends: debhelper (>= 9), gettext, po4a, tcl
+Architecture: all
+Standards-Version: 4.4.0.0
+Format: 1.0
+Files:
+ a5d39a6eb3bea47aa02e8276764d9750 1846 dgit_9.13.dsc
+ 83d8fa54857b3853ddc43e21cae43e7b 695631 dgit_9.13.tar.gz
+Vcs-Browser: https://salsa.debian.org/dgit-team/dgit
+Vcs-Git: https://salsa.debian.org/dgit-team/dgit.git
+Checksums-Sha256:
+ 64159e4bb1aaf74fb05b391cfe44e5108131d6c2cb3c028e51359b4933bbe87c 1846 dgit_9.13.dsc
+ 323b12180e31e37d06125fbced99073f922356c7efc3a0052ad81b082a66f8d7 695631 dgit_9.13.tar.gz
+Dgit: c3cea8116aebb9dc7d83504bc810520e6f231fdf debian archive/debian/9.13 https://git.dgit.debian.org/dgit
+Package-List: 
+ dgit deb devel optional arch=all
+ dgit-infrastructure deb devel optional arch=all
+ git-debpush deb devel optional arch=all
+ git-debrebase deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: bc, bsdgames, build-essential, chiark-utils-bin, debhelper, devscripts, diffutils, dput-ng, fakeroot, faketime, git, git-buildpackage, git-man, gnupg, groff, libdpkg-perl, libgit-wrapper-perl, libhttp-server-simple-static-perl, liblist-compare-perl, libstring-shellquote-perl, libtry-tiny-perl, liburi-perl, make, man-db, patch, quilt, reprepro, rsync, sbuild
+Directory: pool/main/d/dgit
+Priority: optional
+Section: misc

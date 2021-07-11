@@ -1,0 +1,27 @@
+Package: golang-github-pzhin-go-sophia
+Binary: golang-github-pzhin-go-sophia-dev
+Version: 0.0~git20191015.0.afcd224-5
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-stretchr-testify-dev
+Architecture: amd64 arm64 mips64el mipsel
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 31550e6858dcbbf55c204f84b35d8afc 2484 golang-github-pzhin-go-sophia_0.0~git20191015.0.afcd224-5.dsc
+ f85667c42039e1e05fcdd66187658630 144784 golang-github-pzhin-go-sophia_0.0~git20191015.0.afcd224.orig.tar.xz
+ 7361f33011ec5927211f7a8a3083dde9 3160 golang-github-pzhin-go-sophia_0.0~git20191015.0.afcd224-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-pzhin-go-sophia
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-pzhin-go-sophia.git
+Checksums-Sha256:
+ d1203dd1722ec72f6b1d6b1d6c7a94c35379495f0ed8ea9d51dd8b00a122ad51 2484 golang-github-pzhin-go-sophia_0.0~git20191015.0.afcd224-5.dsc
+ 8e0e31bc96125f3921e6bbce524c7c5f2322da588ecd88400de3d99354980851 144784 golang-github-pzhin-go-sophia_0.0~git20191015.0.afcd224.orig.tar.xz
+ 00edb2f99311a7d7460883365c0fabeea130e524086171f1fc76d0575cc2f28d 3160 golang-github-pzhin-go-sophia_0.0~git20191015.0.afcd224-5.debian.tar.xz
+Homepage: https://github.com/pzhin/go-sophia
+Go-Import-Path: github.com/pzhin/go-sophia
+Package-List: 
+ golang-github-pzhin-go-sophia-dev deb devel optional arch=amd64,arm64,mips64el,mipsel
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-pzhin-go-sophia
+Priority: extra
+Section: golang

@@ -1,0 +1,25 @@
+Package: swaylock
+Binary: swaylock
+Version: 1.5-2
+Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
+Uploaders: Birger Schacht <birger@rantanplan.org>, Nicolas Braud-Santoni <nicolas@braud-santoni.eu>
+Build-Depends: debhelper-compat (= 12), libwayland-dev, wayland-protocols (>= 1.14), libcairo2-dev, libgdk-pixbuf2.0-dev, libpam0g-dev, libxkbcommon-dev, meson (>= 0.48), pkgconf, scdoc
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1a6ac937e248f855daa18ad3c6f4774b 2123 swaylock_1.5-2.dsc
+ 97f1b7ee5ea4cf4f7e8934585af9f29e 35350 swaylock_1.5.orig.tar.gz
+ fec3513a340ef7e6c51693ddf97d3ea2 4984 swaylock_1.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/swaywm-team/swaylock
+Vcs-Git: https://salsa.debian.org/swaywm-team/swaylock.git
+Checksums-Sha256:
+ 963a49b4cbabdc91edad7237895e739474b2610013efa4dab272d02ece800b4f 2123 swaylock_1.5-2.dsc
+ 37b9c70e5698e8872b0b964a7454ecdb0f1a9e06b686eecf2b6c54f7f64a3f42 35350 swaylock_1.5.orig.tar.gz
+ 2932dc96a921bf987b21bb22f58223f0b9006b189d6e1af3b6e7472e99a86624 4984 swaylock_1.5-2.debian.tar.xz
+Homepage: https://github.com/swaywm/swaylock
+Package-List: 
+ swaylock deb x11 optional arch=any
+Directory: pool/main/s/swaylock
+Priority: extra
+Section: misc

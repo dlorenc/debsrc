@@ -1,0 +1,25 @@
+Package: rust-enum-primitive
+Binary: librust-enum-primitive-dev
+Version: 0.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-num-traits-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 2d9dc5a56c3f5a96a849b1ec7da0a953 2210 rust-enum-primitive_0.1.1-1.dsc
+ 6d5fd12c75677f240530e9afd5ab477e 4517 rust-enum-primitive_0.1.1.orig.tar.gz
+ 1952ea4dabb0066e01f9b5954115924e 2496 rust-enum-primitive_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/enum-primitive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/enum-primitive]
+Checksums-Sha256:
+ 3608922770487c77298d64e85069ea2f74b1c0931570223fbda2c44244b83456 2210 rust-enum-primitive_0.1.1-1.dsc
+ 55c2fcfe4a946f2a1ebac93cff15938e82dac454211df6052e7ea4278d0a3d36 4517 rust-enum-primitive_0.1.1.orig.tar.gz
+ 85c6e076d396ab05ed228de14abd204700659d71a1e3359315076b4175e7fcc6 2496 rust-enum-primitive_0.1.1-1.debian.tar.xz
+Homepage: https://github.com/andersk/enum_primitive-rs
+Package-List: 
+ librust-enum-primitive-dev deb rust optional arch=any
+Directory: pool/main/r/rust-enum-primitive
+Priority: extra
+Section: misc

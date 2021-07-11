@@ -1,0 +1,24 @@
+Package: xosview
+Binary: xosview
+Version: 1.23-1
+Maintainer: Kartik Mistry <kartik@debian.org>
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.16.1), gawk, libkvm-dev [kfreebsd-any], libx11-dev, libxpm-dev, libxt-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a62092be87a141d7fa9887a259a74f61 1895 xosview_1.23-1.dsc
+ 44e9b6285ec0105fc53afd86d28a92a4 147356 xosview_1.23.orig.tar.gz
+ 54b2063f186e958347ae71858aa3f1d1 14292 xosview_1.23-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/xosview
+Vcs-Git: https://salsa.debian.org/debian/xosview.git
+Checksums-Sha256:
+ 49e26c28f9ee8bf04ae0e2641fff76dfa48e764be48db7ffc2d3a8d3fb152c90 1895 xosview_1.23-1.dsc
+ 2de555dc07e8d0a44417979116ce1661a3e1cde9f1a849881b999fbd4ec5bdb6 147356 xosview_1.23.orig.tar.gz
+ 4186b51be00116205f3415d8a567aa9922d50cc7ae500f24506560af7e550c13 14292 xosview_1.23-1.debian.tar.xz
+Homepage: https://github.com/hills/xosview
+Package-List: 
+ xosview deb utils optional arch=any
+Directory: pool/main/x/xosview
+Priority: source
+Section: utils

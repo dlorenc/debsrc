@@ -1,0 +1,27 @@
+Package: cl-ironclad
+Binary: cl-ironclad
+Version: 0.54-1
+Maintainer: Debian Common Lisp Team <debian-common-lisp@lists.debian.org>
+Uploaders: Sébastien Villemot <sebastien@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6524f2bf9388661f592f9de5aa3db9f7 2025 cl-ironclad_0.54-1.dsc
+ 79d70d23c076c84f23008d356a086ef7 1485631 cl-ironclad_0.54.orig.tar.gz
+ 343a70c011925d33fbd3036ed0dca829 4488 cl-ironclad_0.54-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/common-lisp-team/cl-ironclad
+Vcs-Git: https://salsa.debian.org/common-lisp-team/cl-ironclad.git
+Checksums-Sha256:
+ ddf204cd5727a7c40b3f70f352541449e20eb971b325485b6703c3c0bc2bd5be 2025 cl-ironclad_0.54-1.dsc
+ 67ccbcd8aed86c833f6b4e29715d1b0aafbcaa1c3654d48a44461c1fccdbe377 1485631 cl-ironclad_0.54.orig.tar.gz
+ d0e3b80dd73927cdcff8cb6205942319084c9baf5d6c0867b455565472f41b13 4488 cl-ironclad_0.54-1.debian.tar.xz
+Homepage: https://github.com/sharplispers/ironclad
+Package-List: 
+ cl-ironclad deb lisp optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: cl-rt, clisp, ecl, sbcl
+Directory: pool/main/c/cl-ironclad
+Priority: optional
+Section: misc

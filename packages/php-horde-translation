@@ -1,0 +1,27 @@
+Package: php-horde-translation
+Binary: php-horde-translation
+Version: 2.2.2-7
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3f29cff93eda62826490024926b937e2 2210 php-horde-translation_2.2.2-7.dsc
+ 71e15823c4044b88ee9d8f74e559c1e3 15959 php-horde-translation_2.2.2.orig.tar.gz
+ c5429db619f2b80ac38d4df19625052a 3912 php-horde-translation_2.2.2-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-translation
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-translation.git
+Checksums-Sha256:
+ 92cd378be6c4a303e338e2a1a47501ef188d8755cae588d5f9164fd7e0673d5a 2210 php-horde-translation_2.2.2-7.dsc
+ 50d75561c2e05bb5c19c7b11f6a1e8e0fc8fcebdf49719ad0471034db0b85d21 15959 php-horde-translation_2.2.2.orig.tar.gz
+ 98ebc37208802618d008ff3a2856b6d0512310f420802ee62577e8451fad8042 3912 php-horde-translation_2.2.2-7.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-translation deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: locales-all, php-cli, php-horde-test
+Directory: pool/main/p/php-horde-translation
+Priority: extra
+Section: misc

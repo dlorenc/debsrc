@@ -1,0 +1,26 @@
+Package: rust-approx
+Binary: librust-approx-dev, librust-approx+num-complex-dev
+Version: 0.3.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-num-traits-0.2-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 13381fd7be384ddc65b3e1e53b0e53eb 2221 rust-approx_0.3.2-1.dsc
+ 3a19934c43d82aded87ed833e964deed 14383 rust-approx_0.3.2.orig.tar.gz
+ 3c22e6b9b9174ea9f98a40cc10787cde 2008 rust-approx_0.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/approx
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/approx]
+Checksums-Sha256:
+ 87a18a11bb351bf0834ef153004bbf274c18d5120aacbd881df606f1e3205b78 2221 rust-approx_0.3.2-1.dsc
+ 5d74bb17a12c34fbd70d2267ed66179d132321d85b555906017151ef9f856a8d 14383 rust-approx_0.3.2.orig.tar.gz
+ e409f61b714b7dc836d0bf8ffef7449d2c6b7dc805cd2eb09dac364eed0de505 2008 rust-approx_0.3.2-1.debian.tar.xz
+Homepage: https://github.com/brendanzab/approx
+Package-List: 
+ librust-approx+num-complex-dev deb rust optional arch=any
+ librust-approx-dev deb rust optional arch=any
+Directory: pool/main/r/rust-approx
+Priority: extra
+Section: misc

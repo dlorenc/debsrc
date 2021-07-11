@@ -1,0 +1,28 @@
+Package: magic-haskell
+Binary: libghc-magic-dev, libghc-magic-prof, libghc-magic-doc
+Version: 1.1-9
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: John Goerzen <jgoerzen@complete.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libmagic-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 939d2aaaf667567974c46099c5ddfaf7 2270 magic-haskell_1.1-9.dsc
+ a7d21b4466a4a3a776eb684559a2579e 4318 magic-haskell_1.1.orig.tar.gz
+ 157936302ff7d7619ced332f47825eae 3996 magic-haskell_1.1-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/magic-haskell
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/magic-haskell]
+Checksums-Sha256:
+ 55ef52f2ff452f5219f8ecf125dcd626a161988e029683f3c551d1176503d458 2270 magic-haskell_1.1-9.dsc
+ b21c3b69f57b64199c1d7be0ac8ea1d02d698be59943058f6a2d642ea57ce082 4318 magic-haskell_1.1.orig.tar.gz
+ b69cf542560c91a1b1ce185bb499e094d5c81e041a91e36353f59a5d9a2331e2 3996 magic-haskell_1.1-9.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/magic
+Package-List: 
+ libghc-magic-dev deb haskell optional arch=any
+ libghc-magic-doc deb doc optional arch=all
+ libghc-magic-prof deb haskell optional arch=any
+Directory: pool/main/m/magic-haskell
+Priority: source
+Section: devel

@@ -1,0 +1,26 @@
+Package: node-copy-concurrently
+Binary: node-copy-concurrently
+Version: 1.0.5-7
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), node-aproba, node-fs-write-stream-atomic, node-iferr, node-mkdirp (>= 1), node-rimraf (>= 2.5.4), node-run-queue, node-tacks, node-tap (>= 8), dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 477943aac5dc6332784f98ab66b341e0 2277 node-copy-concurrently_1.0.5-7.dsc
+ a63c937d2599291122ed598f286f4d53 7636 node-copy-concurrently_1.0.5.orig.tar.gz
+ 7bfd05dbf89030976bbb6eda59ab03c9 3008 node-copy-concurrently_1.0.5-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-copy-concurrently
+Vcs-Git: https://salsa.debian.org/js-team/node-copy-concurrently.git
+Checksums-Sha256:
+ 7a4f92cdd82f9e224a06fe209eddfae7d8d6d1e41a5d1149992b313af55bfd82 2277 node-copy-concurrently_1.0.5-7.dsc
+ 03eae27bed0b6e09a904e5867323f2bb2ec7242f6a84af9e98fc5a4179495558 7636 node-copy-concurrently_1.0.5.orig.tar.gz
+ fa603fcb89fe95a328ded02d09307d64fc20fb96446f145b99adc638a8f7a915 3008 node-copy-concurrently_1.0.5-7.debian.tar.xz
+Homepage: https://www.npmjs.com/package/copy-concurrently
+Package-List: 
+ node-copy-concurrently deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-copy-concurrently
+Priority: extra
+Section: misc

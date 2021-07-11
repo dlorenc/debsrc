@@ -1,0 +1,28 @@
+Package: haskell-memory
+Binary: libghc-memory-dev, libghc-memory-prof, libghc-memory-doc
+Version: 0.15.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-basement-dev (>= 0.0.7), libghc-basement-prof, libghc-foundation-dev, libghc-foundation-prof
+Build-Depends-Indep: ghc-doc, libghc-basement-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ f501254b5d7c9bc3b0f93029bf5424ca 2405 haskell-memory_0.15.0-1.dsc
+ f763e1781a843e53b75f9944dd546cb5 42299 haskell-memory_0.15.0.orig.tar.gz
+ 2db83985e08b2ffe79d07d7d04ef2c9b 3376 haskell-memory_0.15.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-memory
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-memory]
+Checksums-Sha256:
+ 3ef6da6b2248b2c184b4fe7d49fecf5b6740bf31dcd2b6ca9f45f980c1864a60 2405 haskell-memory_0.15.0-1.dsc
+ e3ff892c1a94708954d0bb2c4f4ab81bc0f505352d95095319c462db1aeb3529 42299 haskell-memory_0.15.0.orig.tar.gz
+ a1842c486cdb5e14e7a3025597268e89b73d26369e24a8597cf6cb5e7d10177b 3376 haskell-memory_0.15.0-1.debian.tar.xz
+Homepage: https://github.com/vincenthz/hs-memory
+Package-List: 
+ libghc-memory-dev deb haskell optional arch=any
+ libghc-memory-doc deb doc optional arch=all
+ libghc-memory-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-memory
+Priority: optional
+Section: misc

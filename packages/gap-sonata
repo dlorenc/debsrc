@@ -1,0 +1,26 @@
+Package: gap-sonata
+Binary: gap-sonata
+Version: 2.9.1+ds-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jerome Benoit <calculus@rezozer.net>
+Build-Depends: debhelper-compat (= 12), gap (>= 4r9p3), gap-smallgrp, gap-autpgrp, texlive-plain-generic, texlive-fonts-recommended, tth
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d6575411d1f9c6d11681875b5c63cfcc 2827 gap-sonata_2.9.1+ds-3.dsc
+ 47fc431a26c7725791a4854a7f0d7239 651216 gap-sonata_2.9.1+ds.orig.tar.xz
+ 4426176d1e92a700cc2527e8018a82a1 4992 gap-sonata_2.9.1+ds-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/gap-sonata
+Vcs-Git: https://salsa.debian.org/science-team/gap-sonata.git
+Checksums-Sha256:
+ 65014faefeae478a71accc6b4963c338fd1b47c67136ffe8f2103dfc95063031 2827 gap-sonata_2.9.1+ds-3.dsc
+ d37dccf1dd2d89a3933027ebcb6197112229b61a7e5a1321361f07fa82697c11 651216 gap-sonata_2.9.1+ds.orig.tar.xz
+ cb3f9a3c33b7f6a620b8a3e5ee8f914f790bb2cce81330ccd68a181de0891456 4992 gap-sonata_2.9.1+ds-3.debian.tar.xz
+Homepage: https://www.gap-system.org/Packages/sonata.html
+Package-List: 
+ gap-sonata deb math optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/g/gap-sonata
+Priority: optional
+Section: misc

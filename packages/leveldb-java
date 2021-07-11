@@ -1,0 +1,26 @@
+Package: leveldb-java
+Binary: libleveldb-api-java, libleveldb-java
+Version: 0.7-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11), default-jdk, libguava-java, libsnappy-java, maven-debian-helper (>= 2.0)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 1bb202ec937831a5354aee191770dd30 2104 leveldb-java_0.7-2.dsc
+ de0bd2ef180a4c172a87476db375993b 121740 leveldb-java_0.7.orig.tar.gz
+ 8334974cbfe4bcf6f592c84f28fdfd07 3024 leveldb-java_0.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/leveldb-java
+Vcs-Git: https://salsa.debian.org/java-team/leveldb-java.git
+Checksums-Sha256:
+ 2f78a42285557d04c277d13d2cff42f88b84a1d4670337dee020e9aa195bfcee 2104 leveldb-java_0.7-2.dsc
+ ee0b1354b1d2282969b042ec6ff6da5b19748df5280a70004311672a4555efcf 121740 leveldb-java_0.7.orig.tar.gz
+ cc14812102573c53840415a961c439f513cfd5e8564a4607d1d0388a3cf827fa 3024 leveldb-java_0.7-2.debian.tar.xz
+Homepage: http://github.com/dain/leveldb
+Package-List: 
+ libleveldb-api-java deb java optional arch=all
+ libleveldb-java deb java optional arch=all
+Directory: pool/main/l/leveldb-java
+Priority: optional
+Section: misc

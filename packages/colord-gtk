@@ -1,0 +1,27 @@
+Package: colord-gtk
+Binary: libcolord-gtk1, libcolord-gtk-dev, gir1.2-colordgtk-1.0, colord-gtk-utils
+Version: 0.1.26-2
+Maintainer: Christopher James Halse Rogers <raof@ubuntu.com>
+Build-Depends: debhelper (>= 10), gtk-doc-tools, libglib2.0-dev (>= 2.28.0), libgtk-3-dev, libcolord-dev (>= 0.1.27), gir1.2-colord-1.0, liblcms2-dev (>= 2.2), valac (>= 0.16), gobject-introspection, libgirepository1.0-dev, docbook-utils, intltool
+Architecture: any
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 190c8ca979354e87c73238ecb38bc5b9 2307 colord-gtk_0.1.26-2.dsc
+ bb9d6f3c037152ad791003375aa6c16c 280380 colord-gtk_0.1.26.orig.tar.xz
+ 6e279ba9de020da553efbf008ee4e961 15356 colord-gtk_0.1.26-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/collab-maint/colord-gtk.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/colord-gtk.git
+Checksums-Sha256:
+ 39237bbf2e3c7d5747bb6be0122f450fb13ce53a5e49fb7845cc8c4fb66683af 2307 colord-gtk_0.1.26-2.dsc
+ 28d00b7f157ea3e2ea5315387b2660fde82faba16674861c50465e55d61a3e45 280380 colord-gtk_0.1.26.orig.tar.xz
+ 0c0b4eacb61f13d36321863497ca824925838fc41284ed8f03b8c227a55ec38e 15356 colord-gtk_0.1.26-2.debian.tar.xz
+Homepage: https://www.freedesktop.org/software/colord/
+Package-List: 
+ colord-gtk-utils deb graphics optional arch=any
+ gir1.2-colordgtk-1.0 deb introspection optional arch=any
+ libcolord-gtk-dev deb libdevel optional arch=any
+ libcolord-gtk1 deb libs optional arch=any
+Directory: pool/main/c/colord-gtk
+Priority: source
+Section: misc

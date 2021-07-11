@@ -1,0 +1,28 @@
+Package: wildmidi
+Binary: wildmidi, libwildmidi2, libwildmidi-dev, libwildmidi-config
+Version: 0.4.3-1
+Maintainer: Bret Curtis <psi29a@gmail.com>
+Uploaders: Emmet Hikory <emmet.hikory@gmail.com>, Sebastian Dröge <slomo@debian.org>
+Build-Depends: debhelper (>= 11), cmake, libasound2-dev [linux-any]
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 4c4a629adc2c76a72a1670a32f04a9f5 2296 wildmidi_0.4.3-1.dsc
+ 590813a62550fe8fd713d044b87b69f3 196750 wildmidi_0.4.3.orig.tar.gz
+ 62d2b621562464e7f6739d2b460a7def 11768 wildmidi_0.4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/WildMIDI
+Vcs-Git: https://salsa.debian.org/games-team/WildMIDI.git
+Checksums-Sha256:
+ e34e8583b5b54be1400b9235df0cfaf71a9154d60e8ee5b8db1c6ca9eb8e930a 2296 wildmidi_0.4.3-1.dsc
+ 498e5a96455bb4b91b37188ad6dcb070824e92c44f5ed452b90adbaec8eef3c5 196750 wildmidi_0.4.3.orig.tar.gz
+ 824b79943b46ffef799748d2231760eae07dd81ad1e6fb0a39959b1eb51f7063 11768 wildmidi_0.4.3-1.debian.tar.xz
+Homepage: http://www.mindwerks.net/projects/wildmidi/
+Package-List: 
+ libwildmidi-config deb misc optional arch=all
+ libwildmidi-dev deb libdevel optional arch=any
+ libwildmidi2 deb libs optional arch=any
+ wildmidi deb sound optional arch=any
+Directory: pool/main/w/wildmidi
+Priority: source
+Section: sound

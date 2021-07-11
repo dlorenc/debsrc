@@ -1,0 +1,28 @@
+Package: haskell-interpolate
+Binary: libghc-interpolate-dev, libghc-interpolate-prof, libghc-interpolate-doc
+Version: 0.2.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-src-meta-dev (>= 0.8), libghc-src-meta-prof, libghc-quickcheck2-dev, libghc-base-compat-dev, libghc-hspec-dev (>= 1.5), libghc-quickcheck-instances-dev
+Build-Depends-Indep: ghc-doc, libghc-src-meta-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4e428352a999923396103af7276a50e6 2542 haskell-interpolate_0.2.1-1.dsc
+ 20d19f1716edbe4857156d8500bc0847 7191 haskell-interpolate_0.2.1.orig.tar.gz
+ 5485408685d91add48043f142922cdfd 2560 haskell-interpolate_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-interpolate
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-interpolate]
+Checksums-Sha256:
+ 89819ad6c8e23e0449909cac9cce1215eab6eba31f16b9c28689e7c5c9f94406 2542 haskell-interpolate_0.2.1-1.dsc
+ 2776dd5083aead756a761c3350a87312b4fbf4851555cf9560800bc3929c590e 7191 haskell-interpolate_0.2.1.orig.tar.gz
+ 4f142d6f39836a430b83574f85233d5af1b1467bd0e08ce7901229f054bb55f5 2560 haskell-interpolate_0.2.1-1.debian.tar.xz
+Homepage: https://github.com/sol/interpolate#readme
+Package-List: 
+ libghc-interpolate-dev deb haskell optional arch=any
+ libghc-interpolate-doc deb doc optional arch=all
+ libghc-interpolate-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-interpolate
+Priority: optional
+Section: misc

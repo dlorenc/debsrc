@@ -1,0 +1,25 @@
+Package: rust-wild
+Binary: librust-wild-dev
+Version: 2.0.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Helen Koike <helen@koikeco.de>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-glob-0.3+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 432b4c778134d8e29868f970855cdb75 1747 rust-wild_2.0.2-1.dsc
+ 730d241edd9247293eead84074653363 7732 rust-wild_2.0.2.orig.tar.gz
+ 9b722546926fd2b058be486a113e9d3c 2368 rust-wild_2.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wild
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/wild]
+Checksums-Sha256:
+ 76d783d0bd7d4cee2667b79a13a33a34114f9f301acfb1d1c809ccc6d027e6a0 1747 rust-wild_2.0.2-1.dsc
+ 6cfb4ad9422228809885b9dae1874e58f734f935cdf8eaeb609a1d387eaf5659 7732 rust-wild_2.0.2.orig.tar.gz
+ f7eb275add4090dbcea9b569125f0f5713d85c80b1bc334ebd5bbf009ddd9e00 2368 rust-wild_2.0.2-1.debian.tar.xz
+Homepage: https://crates.rs/crates/wild
+Package-List: 
+ librust-wild-dev deb rust optional arch=any
+Directory: pool/main/r/rust-wild
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-geniplate-mirror
+Binary: libghc-geniplate-mirror-dev, libghc-geniplate-mirror-prof, libghc-geniplate-mirror-doc
+Version: 0.7.7-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5adb90733c6105a32a8c8518992b8f6b 2433 haskell-geniplate-mirror_0.7.7-1.dsc
+ 3baa98c062d5e285a05f30ad64a41cf9 9448 haskell-geniplate-mirror_0.7.7.orig.tar.gz
+ 74ff56356ca866847e9ef5879c1a1f33 3020 haskell-geniplate-mirror_0.7.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-geniplate-mirror
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-geniplate-mirror]
+Checksums-Sha256:
+ 94a279f3e915ca21d72902be83db756c0421d499e980e03b3cf1a9b10a55f627 2433 haskell-geniplate-mirror_0.7.7-1.dsc
+ 6b64885458d7a0a89ff452ea5d4a663f6fb3e4573e54f57141dfecdfa9ce8423 9448 haskell-geniplate-mirror_0.7.7.orig.tar.gz
+ b68c590d9d7eb54ed744f3f4bc503a633a1e7431f44b1f04935aa38a634bf868 3020 haskell-geniplate-mirror_0.7.7-1.debian.tar.xz
+Homepage: https://github.com/danr/geniplate
+Package-List: 
+ libghc-geniplate-mirror-dev deb haskell optional arch=any
+ libghc-geniplate-mirror-doc deb doc optional arch=all
+ libghc-geniplate-mirror-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-geniplate-mirror
+Priority: optional
+Section: misc

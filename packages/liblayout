@@ -1,0 +1,24 @@
+Package: liblayout
+Binary: liblayout-java, liblayout-java-doc
+Version: 0.2.10-3.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>
+Build-Depends: debhelper (>= 11), default-jdk, ant, libjcommon-java (>= 1.0.10), libitext-java, libjakarta-poi-java, libflute-java, junit, libfonts-java (>= 0.3.2), libloader-java, libxml-java, libsac-java, librepository-java, libbase-java, libcommons-logging-java, javahelper
+Build-Conflicts: liboscache-java
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 9ee7a0b25e5ecb5077c10d109837079f 2120 liblayout_0.2.10-3.1.dsc
+ 6e8c8137cf548e46c930175223d85e3f 456248 liblayout_0.2.10.orig.tar.gz
+ 888e8db028b44f9737afe598a6bd39ad 3032 liblayout_0.2.10-3.1.debian.tar.xz
+Checksums-Sha256:
+ 10f49f7e48bfe215e87618f34f9e74d13f0bce318481d226d32ce55d41112dfd 2120 liblayout_0.2.10-3.1.dsc
+ 6828e9117e8fb50d839bd87ed85624df5452e9b3b2f3890984b8570965efc090 456248 liblayout_0.2.10.orig.tar.gz
+ 555832c6aeadc6581a43464e42092d2316837d85f2d8ca1357281c11662dd991 3032 liblayout_0.2.10-3.1.debian.tar.xz
+Package-List: 
+ liblayout-java deb java optional arch=all
+ liblayout-java-doc deb doc optional arch=all
+Directory: pool/main/libl/liblayout
+Priority: source
+Section: libs

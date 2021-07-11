@@ -1,0 +1,26 @@
+Package: node-pako
+Binary: node-pako
+Version: 2.0.2+ds-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha (>= 4) <!nocheck>, node-assert <!nocheck>, node-async <!nocheck>, node-babel7, node-lodash (>= 4.16.6+dfsg) <!nocheck>, node-rollup-plugin-babel, node-rollup-plugin-commonjs, node-rollup-plugin-node-resolve, node-rollup-plugin-terser, nodejs (>= 10), rollup
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cc7f4d1c5f1fd810638c911223f3db60 2268 node-pako_2.0.2+ds-1.dsc
+ c7b20e4ccf49ae1360e3c34f016ef827 251816 node-pako_2.0.2+ds.orig.tar.xz
+ 5f1075f35251bd28853d288475bb9cac 4332 node-pako_2.0.2+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-pako
+Vcs-Git: https://salsa.debian.org/js-team/node-pako.git
+Checksums-Sha256:
+ ac3c4cc9a95dbcebf382b163260446e7e3e483db08ce7581a0ef00fc23e7c7d8 2268 node-pako_2.0.2+ds-1.dsc
+ a1d7f250b6c8a01e80dd7de11abd62d0bdef7a73cef1de4af9945cfd09302e22 251816 node-pako_2.0.2+ds.orig.tar.xz
+ 556eac9cd8a9bdd3d42b0bd2a569838b51521d1ce6823e5b7e2893b63b5591ee 4332 node-pako_2.0.2+ds-1.debian.tar.xz
+Homepage: https://github.com/nodeca/pako
+Package-List: 
+ node-pako deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-pako
+Priority: optional
+Section: javascript

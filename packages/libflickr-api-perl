@@ -1,0 +1,27 @@
+Package: libflickr-api-perl
+Binary: libflickr-api-perl
+Version: 1.28-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Xavier Guimard <x.guimard@free.fr>, Alex Muntada <alexm@debian.org>
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: libhttp-message-perl | libwww-perl (<< 6), libnet-oauth-perl, libtest-script-perl, liburi-perl, libwww-perl, libxml-libxml-simple-perl, libxml-parser-lite-tree-perl, perl
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ b85357bb80cd182e3e4110fb953ed535 2331 libflickr-api-perl_1.28-2.dsc
+ 09f44555942d7c94410e20af60b9462d 46615 libflickr-api-perl_1.28.orig.tar.gz
+ f932e5315520ad306ed5817d814e35df 9400 libflickr-api-perl_1.28-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libflickr-api-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libflickr-api-perl.git
+Checksums-Sha256:
+ 7d0cd565668a468aa8d3c1700297777796a79f0b44bc55f127470d985e41902a 2331 libflickr-api-perl_1.28-2.dsc
+ 464b447b714ceb890ef52f0799c82c4f2906e0047fffb2e5c7d1338e08e199a5 46615 libflickr-api-perl_1.28.orig.tar.gz
+ 661aecc8cb1a8e517529cff6b0baf6f0e5303e54c03d429d5ed79f954b583752 9400 libflickr-api-perl_1.28-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Flickr-API
+Package-List: 
+ libflickr-api-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libf/libflickr-api-perl
+Priority: source
+Section: perl

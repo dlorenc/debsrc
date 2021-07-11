@@ -1,0 +1,27 @@
+Package: node-validate-npm-package-name
+Binary: node-validate-npm-package-name
+Version: 3.0.0-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper (>= 9), dh-buildinfo, nodejs, node-builtins (>= 1.0.3), node-tap
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ e3b382cd3502728f16361e52e834d345 2310 node-validate-npm-package-name_3.0.0-1.1.dsc
+ e0f16e6bff016bb7729b8a36d2afb134 3795 node-validate-npm-package-name_3.0.0.orig.tar.gz
+ 2f71592fdf22d579613c0f49087c75b6 2052 node-validate-npm-package-name_3.0.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-validate-npm-package-name.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-validate-npm-package-name.git
+Checksums-Sha256:
+ a39fa7eb9299110f7da58eaf9b6fea7d8fb3de748a0fee19ed9ccf7b97b8d6f9 2310 node-validate-npm-package-name_3.0.0-1.1.dsc
+ 4d73602412fb7281160fa5d4a6999aaaeb05f8b68884264c88e686b2991ae54d 3795 node-validate-npm-package-name_3.0.0.orig.tar.gz
+ e40de8aa7fb436e909fb4df30923111fb4e51ef1d091598d2f50f81c0b54e057 2052 node-validate-npm-package-name_3.0.0-1.1.debian.tar.xz
+Homepage: https://github.com/npm/validate-npm-package-name
+Package-List: 
+ node-validate-npm-package-name deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tap
+Directory: pool/main/n/node-validate-npm-package-name
+Priority: extra
+Section: misc

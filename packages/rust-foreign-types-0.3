@@ -1,0 +1,26 @@
+Package: rust-foreign-types-0.3
+Binary: librust-foreign-types-0.3-dev
+Version: 0.3.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-foreign-types-shared-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 61c6bf31525b4609117b0b11b84ecabf 2265 rust-foreign-types-0.3_0.3.2-1.dsc
+ 78c898fdaa3968e23904bf8538c4a271 7504 rust-foreign-types-0.3_0.3.2.orig.tar.gz
+ 246963d1b00b5e1f7f884eb1a2d2f26e 2704 rust-foreign-types-0.3_0.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/foreign-types-0.3
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/foreign-types-0.3]
+Checksums-Sha256:
+ 0891c0b516d2da4e755cacb6f036b42c04001e044aa3e866067b103edb24bb99 2265 rust-foreign-types-0.3_0.3.2-1.dsc
+ f6f339eb8adc052cd2ca78910fda869aefa38d22d5cb648e6485e4d3fc06f3b1 7504 rust-foreign-types-0.3_0.3.2.orig.tar.gz
+ 21d48d4781a75d92e04566d04ef860cbb068d38b6da498b7e6b367301ad569a4 2704 rust-foreign-types-0.3_0.3.2-1.debian.tar.xz
+Package-List: 
+ librust-foreign-types-0.3-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-foreign-types-0.3
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: inotify-hookable
+Binary: inotify-hookable
+Version: 0.09-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libclass-inspector-perl <!nocheck>, libdata-bitmask-perl <!nocheck>, liblinux-inotify2-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-getopt-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libtry-tiny-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 061f502823981cc7f19ec5d8e88ef2c7 2594 inotify-hookable_0.09-2.dsc
+ be87997b1d654e8ebc45be623f8a86e5 17470 inotify-hookable_0.09.orig.tar.gz
+ e2faaa40e47f3bbc2179341cc56f9750 3308 inotify-hookable_0.09-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/inotify-hookable
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/inotify-hookable.git
+Checksums-Sha256:
+ 7e4ca6a434db7825f3491aab3baf4a88d13454ca7350433b90d3f1af40fb5b1f 2594 inotify-hookable_0.09-2.dsc
+ 1b7e31ccff995409dedcdd54f7d628364b1af2934bbbf2acc39f2da19822eaa6 17470 inotify-hookable_0.09.orig.tar.gz
+ 17be7b6745f018ef89350a333c9024c5d59ef71464e61aef55bde41ddff524a4 3308 inotify-hookable_0.09-2.debian.tar.xz
+Homepage: https://metacpan.org/release/App-Inotify-Hookable
+Dgit: 9b5c250222a60caf48e95e24733e58c724dccb01 debian archive/debian/0.09-2 https://git.dgit.debian.org/inotify-hookable
+Package-List: 
+ inotify-hookable deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/i/inotify-hookable
+Priority: optional
+Section: misc

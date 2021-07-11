@@ -1,0 +1,26 @@
+Package: python-gitdb
+Binary: python3-gitdb
+Version: 4.0.5-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, git, python3-nose, python3-smmap (>> 2)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 206f613f78cd06a06b41dcd6b5c25c39 2137 python-gitdb_4.0.5-1.dsc
+ 0e2d3f34efece5deda7c55fede6507cc 392815 python-gitdb_4.0.5.orig.tar.gz
+ 41588ce8b63fca277a67bfd495676797 3788 python-gitdb_4.0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-gitdb
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-gitdb.git
+Checksums-Sha256:
+ 0c99884a220565ffc6eed1786d951f8cebad97c2765f189b269e25dafa342790 2137 python-gitdb_4.0.5-1.dsc
+ c9e1f2d0db7ddb9a704c2a0217be31214e91a4fe1dea1efad19ae42ba0c285c9 392815 python-gitdb_4.0.5.orig.tar.gz
+ b9b9d9813ad6d0ecf22bff2d1fadc0e127a27b0309dbb0e87faf032aefaeb603 3788 python-gitdb_4.0.5-1.debian.tar.xz
+Homepage: https://github.com/gitpython-developers/gitdb
+Package-List: 
+ python3-gitdb deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-gitdb
+Priority: source
+Section: python

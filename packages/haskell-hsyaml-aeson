@@ -1,0 +1,28 @@
+Package: haskell-hsyaml-aeson
+Binary: libghc-hsyaml-aeson-dev, libghc-hsyaml-aeson-prof, libghc-hsyaml-aeson-doc
+Version: 0.2.0.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Ilias Tsitsimpis <iliastsi@debian.org>, Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-hsyaml-dev (>= 0.2.0), libghc-hsyaml-dev (<< 0.3), libghc-hsyaml-prof, libghc-aeson-dev (>= 1.4.0.0), libghc-aeson-dev (<< 1.5), libghc-aeson-prof, libghc-scientific-dev (>= 0.3.6.2), libghc-scientific-dev (<< 0.4), libghc-scientific-prof, libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof, libghc-vector-dev (>= 0.12.0.2), libghc-vector-dev (<< 0.13), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-hsyaml-doc, libghc-aeson-doc, libghc-scientific-doc, libghc-unordered-containers-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ faf3bab9e53c4a2ad31b9893fbd3347a 2982 haskell-hsyaml-aeson_0.2.0.0-2.dsc
+ d273d6e7df6b3ff2f503eb0e65857477 11095 haskell-hsyaml-aeson_0.2.0.0.orig.tar.gz
+ cad810b79ecfb795a3ffc1a4071022f8 2152 haskell-hsyaml-aeson_0.2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hsyaml-aeson
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hsyaml-aeson]
+Checksums-Sha256:
+ 45d5d9b3d76aecd43e4288feee4c2292cf202a7060619b27b563f2bfdc462152 2982 haskell-hsyaml-aeson_0.2.0.0-2.dsc
+ cfb9634b43fcaddb5a520838119ba4b02b18423a35471fef5a805d6004e75d8b 11095 haskell-hsyaml-aeson_0.2.0.0.orig.tar.gz
+ 251adf81dde9875a1d797ea89a49f3f27b70ee11e045168bf68de62d2657ab55 2152 haskell-hsyaml-aeson_0.2.0.0-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/HsYAML-aeson
+Package-List: 
+ libghc-hsyaml-aeson-dev deb haskell optional arch=any
+ libghc-hsyaml-aeson-doc deb doc optional arch=all
+ libghc-hsyaml-aeson-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hsyaml-aeson
+Priority: extra
+Section: misc

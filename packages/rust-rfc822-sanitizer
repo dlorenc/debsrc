@@ -1,0 +1,27 @@
+Package: rust-rfc822-sanitizer
+Binary: librust-rfc822-sanitizer-dev
+Version: 0.3.3-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-chrono-0.4+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-regex-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4a6d3055272f0789e30b3fbc8e34d061 2429 rust-rfc822-sanitizer_0.3.3-2.dsc
+ 15ca6bd1f56327a84d89832e4e6b81b9 30262 rust-rfc822-sanitizer_0.3.3.orig.tar.gz
+ 8678f63dcce2013b85f14216144d4bf0 2240 rust-rfc822-sanitizer_0.3.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rfc822-sanitizer
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rfc822-sanitizer]
+Checksums-Sha256:
+ 9a92aaca74e350cf37c39cf3a66c6feba503be4dc15595e578d93c6ba9a4bc95 2429 rust-rfc822-sanitizer_0.3.3-2.dsc
+ 680e8305c1e0cdf836dc4bec5424e045f278c975a3cac36d1ca01c4695f9d815 30262 rust-rfc822-sanitizer_0.3.3.orig.tar.gz
+ 80f040afde81d2e8259caa5176ae82d06281b640c9e2e9b452acee5617daf08b 2240 rust-rfc822-sanitizer_0.3.3-2.debian.tar.xz
+Homepage: https://gitlab.com/alatiera/rfc822_sanitizer
+Package-List: 
+ librust-rfc822-sanitizer-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rfc822-sanitizer
+Priority: extra
+Section: misc

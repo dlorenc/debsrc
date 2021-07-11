@@ -1,0 +1,27 @@
+Package: orafce
+Binary: postgresql-13-orafce
+Version: 3.14.0-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Peter Eisentraut <petere@debian.org>, Christoph Berg <myon@debian.org>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>,
+Build-Depends: bison, debhelper-compat (= 13), flex, libicu-dev, libssl-dev, locales-all, postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c4c4b686d8a1b2e6bc0fd13c6c07b07a 2155 orafce_3.14.0-1.dsc
+ f611aad0d463b230caac559fdba7daa9 670967 orafce_3.14.0.orig.tar.gz
+ 6fe1bfb69f018f0caba77634ab6074bb 3908 orafce_3.14.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/orafce
+Vcs-Git: https://salsa.debian.org/postgresql/orafce.git
+Checksums-Sha256:
+ 4f3976afa2ea64bfdd281bb82f5927a5206b69caae6f5c8eed82ba3239f60077 2155 orafce_3.14.0-1.dsc
+ 9638d21b789cab72849a51abe7f09033c4c957eb8ca738f76e6113b75534466d 670967 orafce_3.14.0.orig.tar.gz
+ 83223eca209c7f7a718821c7872d94a8881dc1d111cf1c0ddeba13bfd801ee2d 3908 orafce_3.14.0-1.debian.tar.xz
+Homepage: https://github.com/orafce/orafce
+Package-List: 
+ postgresql-13-orafce deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: locales-all, make
+Directory: pool/main/o/orafce
+Priority: source
+Section: misc

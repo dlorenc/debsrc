@@ -1,0 +1,28 @@
+Package: gnome-terminal
+Binary: gnome-terminal, gnome-terminal-data, nautilus-extension-gnome-terminal
+Version: 3.38.3-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper-compat (= 12), desktop-file-utils, dh-sequence-gnome, docbook-to-man, docbook-xsl, gnome-common, gnome-pkg-tools (>= 0.10), gnome-shell-common (>= 3.36.1-6~) | gnome-shell, gsettings-desktop-schemas-dev (>= 0.1.0), libdconf-dev (>= 0.14.0), libglib2.0-dev (>= 2.52.0), libgtk-3-dev (>= 3.22.27), libnautilus-extension-dev (>= 3.28.0), libpcre2-dev (>= 10.00), libsm-dev, libvte-2.91-dev (>= 0.62.1), libx11-dev, uuid-dev, yelp-tools
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 21aa850235a940a3f84d4f3d1a4bb730 2775 gnome-terminal_3.38.3-1.dsc
+ cef7deb6780f493a4c510cef3984c34f 2574916 gnome-terminal_3.38.3.orig.tar.xz
+ e591236a98e1db87f136f7bc4b005ff6 30200 gnome-terminal_3.38.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-terminal
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-terminal.git
+Checksums-Sha256:
+ e6a27ac5da361782d8a19fe38fe5788539b29b2be1be2788b95eb7887d8d524f 2775 gnome-terminal_3.38.3-1.dsc
+ 11a5b0d635f15fdce7508351a510fbf4e92aa533152a50ff0c7845e3102e4764 2574916 gnome-terminal_3.38.3.orig.tar.xz
+ a1c27d431c47c09544ccc9df2dcc8641f22af3265648191a4ce97713b7a735a5 30200 gnome-terminal_3.38.3-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Terminal
+Dgit: 432b249f78093b6e8d80ea40c8c0b7d22c502099 debian archive/debian/3.38.3-1 https://git.dgit.debian.org/gnome-terminal
+Package-List: 
+ gnome-terminal deb gnome optional arch=any
+ gnome-terminal-data deb gnome optional arch=all
+ nautilus-extension-gnome-terminal deb gnome optional arch=any
+Directory: pool/main/g/gnome-terminal
+Priority: source
+Section: gnome

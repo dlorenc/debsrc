@@ -1,0 +1,27 @@
+Package: leaflet-image
+Binary: node-leaflet-image, libjs-leaflet-image
+Version: 0.4.0~dfsg-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: brotli, debhelper-compat (= 12), node-d3-queue, pandoc <!nodoc>, pigz, rename, webpack
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 061bdd57a4988d3753c40f26c6ee9fc6 2182 leaflet-image_0.4.0~dfsg-3.dsc
+ 55eba49aef237d25d8091a7d606221e8 402872 leaflet-image_0.4.0~dfsg.orig.tar.xz
+ 35e4021a43197d4ebe947ff9f4cdfcb8 5052 leaflet-image_0.4.0~dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/leaflet-image
+Vcs-Git: https://salsa.debian.org/js-team/leaflet-image.git
+Checksums-Sha256:
+ 20999f6da5680d259573113a25bb0383949a282a5021f18b8794548bf0b8f807 2182 leaflet-image_0.4.0~dfsg-3.dsc
+ 710f2f199f889a6cef41de04386b1b56589489505362bf0747866adaf54bff67 402872 leaflet-image_0.4.0~dfsg.orig.tar.xz
+ 6faecc02700dde3b43cfeef6f3d57f7dcb0e6e5337fc1dd4b7fc79c0863aa08e 5052 leaflet-image_0.4.0~dfsg-3.debian.tar.xz
+Homepage: https://github.com/mapbox/leaflet-image
+Package-List: 
+ libjs-leaflet-image deb javascript optional arch=all
+ node-leaflet-image deb javascript optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/l/leaflet-image
+Priority: extra
+Section: misc

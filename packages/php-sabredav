@@ -1,0 +1,27 @@
+Package: php-sabredav
+Binary: php-sabre-dav
+Version: 1.8.12-9
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Mathieu Parent <sathieu@debian.org>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: debhelper-compat (= 13), help2man, php-curl, php-sabre-vobject (>= 2.1.7), php-sqlite3, php-xml, phpab, phpunit, pkg-php-tools (>= 1.7~), python3
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b65b9196fbeb214aa286f462f554c5d2 2251 php-sabredav_1.8.12-9.dsc
+ 5182cf325850c391d5a484d4bf6cc419 308971 php-sabredav_1.8.12.orig.tar.gz
+ a63b0e8fbf94c2bc09e531cc8fe84760 27280 php-sabredav_1.8.12-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-sabredav
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-sabredav.git
+Checksums-Sha256:
+ 57558f4f97c200148b8a976a0baf9c686d5218f62ea8560d440195f2fd68a3ab 2251 php-sabredav_1.8.12-9.dsc
+ c86d6699414593f5307595ed87670ce88cb3ff1eae49328de0e70b5605aac3e2 308971 php-sabredav_1.8.12.orig.tar.gz
+ c92fe14d815117cfb466170a3db43c69aeb6c5f49cb18305cf2dd77fa61b01b4 27280 php-sabredav_1.8.12-9.debian.tar.xz
+Homepage: http://sabre.io/dav/
+Package-List: 
+ php-sabre-dav deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mysql-server, patch, php-curl, php-mysql, php-sqlite3, phpunit
+Directory: pool/main/p/php-sabredav
+Priority: source
+Section: php

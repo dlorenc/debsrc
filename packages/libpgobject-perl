@@ -1,0 +1,28 @@
+Package: libpgobject-perl
+Binary: libpgobject-perl
+Version: 2.2.0-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Robert James Clay <jame@rocasa.us>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdbd-pg-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtry-tiny-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2c60eb48a49fc633a9238d43d1386555 2568 libpgobject-perl_2.2.0-1.dsc
+ 3095506136d16f6040ff94fad1e597fb 20121 libpgobject-perl_2.2.0.orig.tar.gz
+ 9cffd22476f42d64100458a265ab8320 3276 libpgobject-perl_2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpgobject-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpgobject-perl.git
+Checksums-Sha256:
+ ab2a626d8b44f74674545b1db64b15792d733133ea4a44a653b385e577600a71 2568 libpgobject-perl_2.2.0-1.dsc
+ 0a59903fe6459666a59d8fc6e77beb199982529c5f8556391a62db4a512fee38 20121 libpgobject-perl_2.2.0.orig.tar.gz
+ b3b8c6eb81f1e21d8cdf37a5c3d72f3a45ab4be9fcb6d5e7f9a7335462170a90 3276 libpgobject-perl_2.2.0-1.debian.tar.xz
+Homepage: https://metacpan.org/release/PGObject/
+Dgit: 6e5d788e003302abfa3549a08c68c846a3119aed debian archive/debian/2.2.0-1 https://git.dgit.debian.org/libpgobject-perl
+Package-List: 
+ libpgobject-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libpgobject-perl
+Priority: optional
+Section: misc

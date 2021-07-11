@@ -1,0 +1,28 @@
+Package: ruby-notiffany
+Binary: ruby-notiffany
+Version: 0.1.3-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-nenv (>= 0.1), ruby-shellany, ruby-rspec
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ fcc30f3562e86423c30482ff904b45c1 2155 ruby-notiffany_0.1.3-1.dsc
+ dd26c5290882c6fc838ad3d56a4f1a20 193821 ruby-notiffany_0.1.3.orig.tar.gz
+ a3b5a7e8c334ec46e690d202e19a204e 3336 ruby-notiffany_0.1.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-notiffany
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-notiffany.git
+Checksums-Sha256:
+ 75161c4c089f392ec0841a3aea98e71f533e801ce2da090f305aacb7f1c4842c 2155 ruby-notiffany_0.1.3-1.dsc
+ 1f4dda29b909e639a45bff517eaa3298d2038f610d2c56bd6ef53fa7827da3b4 193821 ruby-notiffany_0.1.3.orig.tar.gz
+ 35d13c7f91f73f6130c083e9b08f6459a0db48c0ee9131741c6f99ed8b79e19b 3336 ruby-notiffany_0.1.3-1.debian.tar.xz
+Homepage: https://github.com/guard/notiffany
+Package-List: 
+ ruby-notiffany deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner, quilt, ruby-rspec
+Directory: pool/main/r/ruby-notiffany
+Priority: extra
+Section: misc

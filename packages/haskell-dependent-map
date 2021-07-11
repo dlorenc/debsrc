@@ -1,0 +1,28 @@
+Package: haskell-dependent-map
+Binary: libghc-dependent-map-dev, libghc-dependent-map-prof, libghc-dependent-map-doc
+Version: 0.4.0.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-constraints-extras-dev (>= 0.2.3.0), libghc-constraints-extras-dev (<< 0.4), libghc-constraints-extras-prof, libghc-dependent-sum-dev (>= 0.6.1), libghc-dependent-sum-dev (<< 0.8), libghc-dependent-sum-prof
+Build-Depends-Indep: ghc-doc, libghc-constraints-extras-doc, libghc-dependent-sum-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 063c5649ad6295f83a456d9e4f3a04df 2684 haskell-dependent-map_0.4.0.0-1.dsc
+ f38019dfa25e7c6552c28e81312b23a8 19375 haskell-dependent-map_0.4.0.0.orig.tar.gz
+ eb593673a8307905da5df5d069c28ef3 3280 haskell-dependent-map_0.4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-dependent-map
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-dependent-map]
+Checksums-Sha256:
+ de2600f448de182fe0e488ec6af8f2d2a8eeb0cc02294defc3eb1709a9d50a1e 2684 haskell-dependent-map_0.4.0.0-1.dsc
+ 53ce0b52d8be1b85fc6489fb27656f16d837bee4fbe0ddf39c844e3ea8871f2c 19375 haskell-dependent-map_0.4.0.0.orig.tar.gz
+ 1913f539ddc59f066ad0a1deb9d30cd118783ca4263006431163ddda104483e3 3280 haskell-dependent-map_0.4.0.0-1.debian.tar.xz
+Homepage: https://github.com/obsidiansystems/dependent-map
+Package-List: 
+ libghc-dependent-map-dev deb haskell optional arch=any
+ libghc-dependent-map-doc deb doc optional arch=all
+ libghc-dependent-map-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-dependent-map
+Priority: optional
+Section: misc

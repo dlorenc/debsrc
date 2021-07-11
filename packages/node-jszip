@@ -1,0 +1,26 @@
+Package: node-jszip
+Binary: node-jszip
+Version: 3.5.0+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-lie <!nocheck>, node-pako <!nocheck>, node-readable-stream <!nocheck>, node-set-immediate-shim <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e958dd6c69c6badfbfed797f04deaaa2 2163 node-jszip_3.5.0+dfsg-1.dsc
+ 2130eec56a558cb5a6670203216d821e 22424796 node-jszip_3.5.0+dfsg.orig.tar.xz
+ 7246bdd4aaf687f9ed934ad3491176b9 3144 node-jszip_3.5.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-jszip
+Vcs-Git: https://salsa.debian.org/js-team/node-jszip.git
+Checksums-Sha256:
+ d32eeb24e3ae4a5d20b77f3ed4a613bb4ec47d78989e53c948b606571bf49182 2163 node-jszip_3.5.0+dfsg-1.dsc
+ 6960612fa1e3088d7d5ee0e1ae950d3e3e787fbbb45772cf5203c33ab2866332 22424796 node-jszip_3.5.0+dfsg.orig.tar.xz
+ 90304a71533e61756e55fb37182b306b9d6c84cb08544dcde1ad8c1e8d670766 3144 node-jszip_3.5.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/Stuk/jszip#readme
+Package-List: 
+ node-jszip deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-jszip
+Priority: extra
+Section: javascript

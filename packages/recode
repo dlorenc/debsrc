@@ -1,0 +1,24 @@
+Package: recode
+Binary: recode, recode-doc, librecode0, librecode-dev
+Version: 3.6-24
+Maintainer: Santiago Vila <sanvila@debian.org>
+Build-Depends: debhelper (>= 9), gettext, texinfo
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 4523cabf8d53e28897ad90cb0f542783 1482 recode_3.6-24.dsc
+ be3f40ad2e93dae5cd5f628264bf1877 1751886 recode_3.6.orig.tar.gz
+ 0d300948d0f66eae4cc7996a2d9e67b7 192908 recode_3.6-24.debian.tar.xz
+Checksums-Sha256:
+ 5f57f6939ec43a7a9cb5f60beea0bdafa5ffd74ba67e90a5f3012bbc1d466a52 1482 recode_3.6-24.dsc
+ e3e6a4f3f8e5c6052ab70155990c074d87aa0b614fc1be31d194750d1d962fcf 1751886 recode_3.6.orig.tar.gz
+ ce0df1d37fdfbf2cfe7920da8d0dc41f02171bcd93e6a70fe00c0f6d457a03fd 192908 recode_3.6-24.debian.tar.xz
+Package-List: 
+ librecode-dev deb libdevel optional arch=any
+ librecode0 deb libs optional arch=any
+ recode deb text optional arch=any
+ recode-doc deb doc optional arch=all
+Directory: pool/main/r/recode
+Priority: source
+Section: text

@@ -1,0 +1,32 @@
+Package: ki18n
+Binary: libkf5i18n-data, libkf5i18n-dev, libkf5i18n-doc, libkf5i18n5
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen (>= 1.8.13~), extra-cmake-modules (>= 5.78.0~), gettext, graphviz, libqt5sql5-sqlite:native, pkg-kde-tools (>= 0.15.15ubuntu1~), python3:any, qtbase5-dev (>= 5.14.0~), qtdeclarative5-dev (>= 5.14.0~), qtscript5-dev (>= 5.8.0~), qttools5-dev, qttools5-dev-tools (>= 5.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5a531eff0b0a392e24f3fa8071811e4b 2392 ki18n_5.78.0-2.dsc
+ 51d4139138450a858c0e06b3864f37ff 590176 ki18n_5.78.0.orig.tar.xz
+ 885cc4458e5470bc0e49b74085a09add 488 ki18n_5.78.0.orig.tar.xz.asc
+ a9534ca878ac340a64c427f87341fa53 13428 ki18n_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/ki18n
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/ki18n.git
+Checksums-Sha256:
+ 3b409f36afad339376c95dfd2cf6369633f06d731a8a73afff78b72eb631e1ee 2392 ki18n_5.78.0-2.dsc
+ 13352d2ce158c09edde129712adc12ca50c81bbcafe2df924192b5faf2dc4e55 590176 ki18n_5.78.0.orig.tar.xz
+ dfc2bc3641cde8aa6ed0374879cb9fed360634852009d2468bb806a5ed8858a6 488 ki18n_5.78.0.orig.tar.xz.asc
+ c93c22452612f6e6cb4c663d6ed3c2492a2306ad09297d30c1007127d3040074 13428 ki18n_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/ki18n
+Package-List: 
+ libkf5i18n-data deb libs optional arch=all
+ libkf5i18n-dev deb libdevel optional arch=any
+ libkf5i18n-doc deb doc optional arch=all
+ libkf5i18n5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/k/ki18n
+Priority: optional
+Section: misc

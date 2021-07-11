@@ -1,0 +1,28 @@
+Package: python-ltfatpy
+Binary: python3-ltfatpy, python3-ltfatpy-dbg
+Version: 1.0.16-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Build-Depends: cmake, cython3, cython3-dbg, debhelper-compat (= 12), dh-python, libfftw3-dev, liblapack-dev | liblapack.so, python3-all-dbg, python3-all-dev, python3-matplotlib <!nocheck>, python3-matplotlib-dbg <!nocheck>, python3-numpy <!nocheck>, python3-numpy-dbg <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-scipy (>= 0.18) <!nocheck>, python3-scipy-dbg <!nocheck>, python3-setuptools, python3-six (>= 1.10) <!nocheck>, python3-tk <!nocheck>, python3-tk-dbg <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 82a61527a4b06e481af0218f5b9a5524 2740 python-ltfatpy_1.0.16-3.dsc
+ 718791a962cc60eddc4977c8700179ea 29030436 python-ltfatpy_1.0.16.orig.tar.gz
+ 5665dd9fa7baaf354187316ba7ee8704 4736 python-ltfatpy_1.0.16-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/python-ltfatpy
+Vcs-Git: https://salsa.debian.org/science-team/python-ltfatpy.git
+Checksums-Sha256:
+ 1e151bf418ab4dc75b74cbb249585fe53e7009d324fe7e8141778a23ea0183ec 2740 python-ltfatpy_1.0.16-3.dsc
+ 187e2fab9fa513be5af96b2d38f2d3cd4bad05981a762a155b583b4cefeec53b 29030436 python-ltfatpy_1.0.16.orig.tar.gz
+ 3dbf2709de8e60564f4e3d19fe643e7e0c2dfcdf3a5c2fe771470dec7f51364e 4736 python-ltfatpy_1.0.16-3.debian.tar.xz
+Homepage: https://gitlab.lis-lab.fr/dev/ltfatpy
+Package-List: 
+ python3-ltfatpy deb python optional arch=any
+ python3-ltfatpy-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-all-dbg, python3-pytest, python3-pytest-cov, xauth, xvfb
+Directory: pool/main/p/python-ltfatpy
+Priority: optional
+Section: misc

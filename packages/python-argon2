@@ -1,0 +1,30 @@
+Package: python-argon2
+Binary: python3-argon2, python-argon2-doc
+Version: 18.3.0-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Nicolas Dandrimont <olasd@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python (>= 3.20180927~), libargon2-0-dev, python3-all-dev, python3-cffi, python3-hypothesis, python3-pytest, python3-setuptools, python3-six, python3-sphinx
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 366e59ed163098899ba00d1d436bf02f 2570 python-argon2_18.3.0-2.dsc
+ 9a82d80fc986e115961ba056e29fec9a 1806363 python-argon2_18.3.0.orig.tar.gz
+ 3ba7697931207c3c5e176341ac28c33d 833 python-argon2_18.3.0.orig.tar.gz.asc
+ ec0cb952649df6b42954a1b5b20c51fe 23136 python-argon2_18.3.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-argon2
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-argon2.git
+Checksums-Sha256:
+ d15d24a1cc85b58684c73716a0b8387549783474677576f4701ce89a713da0e0 2570 python-argon2_18.3.0-2.dsc
+ 003f588de43a817af6ecc1c06103fa0801de63849db3cb0f37576bb2da29043d 1806363 python-argon2_18.3.0.orig.tar.gz
+ a0a3dfa58f5c311a1dc0ba400bd526df5ce27699f8901a000674616c67db70d2 833 python-argon2_18.3.0.orig.tar.gz.asc
+ 3e298dc372ea64c5069a8786797455863acef5c951391738bf133ca7768da401 23136 python-argon2_18.3.0-2.debian.tar.xz
+Homepage: https://argon2-cffi.readthedocs.io/
+Package-List: 
+ python-argon2-doc deb doc optional arch=all
+ python3-argon2 deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, python3-all
+Directory: pool/main/p/python-argon2
+Priority: extra
+Section: misc

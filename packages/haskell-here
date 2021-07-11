@@ -1,0 +1,28 @@
+Package: haskell-here
+Binary: libghc-here-dev, libghc-here-prof, libghc-here-doc
+Version: 1.2.13-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Ilias Tsitsimpis <iliastsi@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-src-meta-dev (>= 0.6), libghc-src-meta-dev (<< 0.9), libghc-src-meta-prof
+Build-Depends-Indep: ghc-doc, libghc-src-meta-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8cc328a787fc37b00cf6ebcd58d3d93f 2392 haskell-here_1.2.13-5.dsc
+ fc17fb45d699df26c66afefc2a0f3094 3858 haskell-here_1.2.13.orig.tar.gz
+ 6e28b54add55fe46fdc5cb141414bc08 2656 haskell-here_1.2.13-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-here
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-here]
+Checksums-Sha256:
+ 03a62b3c0f2de83e7b0b700af5f5504ae46888faba8f42fbff0e255ac49a62dc 2392 haskell-here_1.2.13-5.dsc
+ 406f9c27ba1e59cd662d078d81dcf2908840a77df15aed31d75dd017b7773c00 3858 haskell-here_1.2.13.orig.tar.gz
+ 3656125f1df0c531b10d5934714d9a5d2fcfc6befb1d0ce24769d5dd7e3668b5 2656 haskell-here_1.2.13-5.debian.tar.xz
+Homepage: https://github.com/tmhedberg/here
+Package-List: 
+ libghc-here-dev deb haskell optional arch=any
+ libghc-here-doc deb doc optional arch=all
+ libghc-here-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-here
+Priority: extra
+Section: misc

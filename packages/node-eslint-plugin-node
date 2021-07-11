@@ -1,0 +1,27 @@
+Package: node-eslint-plugin-node
+Binary: node-eslint-plugin-node
+Version: 11.1.0~ds-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), eslint <!nocheck>, mocha <!nocheck>, node-eslint-plugin-es (>= 3) <!nocheck>, node-eslint-utils <!nocheck>, node-fast-glob, node-ignore <!nocheck>, node-minimatch <!nocheck>, node-mysticatea-eslint-plugin <!nocheck>, node-resolve <!nocheck>, node-semver <!nocheck>, nodejs, pandoc <!nodoc>, perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8b40556db7cc60a575b72a927efb41f8 2555 node-eslint-plugin-node_11.1.0~ds-4.dsc
+ be366a0fc21cb88c38e184888e0d987f 90780 node-eslint-plugin-node_11.1.0~ds.orig.tar.xz
+ 80fcd9d12012d5c28bb4c842058aca24 11220 node-eslint-plugin-node_11.1.0~ds-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-eslint-plugin-node
+Vcs-Git: https://salsa.debian.org/js-team/eslint-plugin-node.git
+Checksums-Sha256:
+ 164a53f8c8d731190cd5210809d46be563bad0ea1ec0a962dfaae4e84da0b284 2555 node-eslint-plugin-node_11.1.0~ds-4.dsc
+ f739b36b5c59816a6d15dd03cb554fc5826e4f075816820179c48ad11556a1b9 90780 node-eslint-plugin-node_11.1.0~ds.orig.tar.xz
+ e1ab5a7f6fdd646ef5da5a8a4bfb691d27ece2e2bfd5ceb8b5b55b7451977675 11220 node-eslint-plugin-node_11.1.0~ds-4.debian.tar.xz
+Homepage: https://github.com/mysticatea/node-eslint-plugin-node
+Package-List: 
+ node-eslint-plugin-node deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha, node-eslint, node-eslint-plugin-es, node-mysticatea-eslint-plugin, nodejs
+Directory: pool/main/n/node-eslint-plugin-node
+Priority: extra
+Section: misc

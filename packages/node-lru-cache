@@ -1,0 +1,26 @@
+Package: node-lru-cache
+Binary: node-lru-cache
+Version: 5.1.1-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), nodejs, node-yallist <!nocheck>, node-tap <!nocheck>, pkg-js-tools (>= 0.8.8)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 787ecb1fbd16df9db11f559339c6995a 2098 node-lru-cache_5.1.1-5.dsc
+ e094817fd7eb0a4a1cce4f61a9390d78 26915 node-lru-cache_5.1.1.orig.tar.gz
+ 97798fd37bcc94ce1356d1491f4838d3 3588 node-lru-cache_5.1.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-lru-cache
+Vcs-Git: https://salsa.debian.org/js-team/node-lru-cache.git
+Checksums-Sha256:
+ 7e33281be61886bf87f2218b536a8c526e6d181bc3743f8a6113e098abfc5908 2098 node-lru-cache_5.1.1-5.dsc
+ 4c531d97fb6e76bc9a3e7de9ff06ac5183811d7f2e86e2c9a77d94223e07bef0 26915 node-lru-cache_5.1.1.orig.tar.gz
+ 1477450014b4c9ac36b852bcfb259b3876019306d773c48d5ca5b8407c66a30f 3588 node-lru-cache_5.1.1-5.debian.tar.xz
+Homepage: https://github.com/isaacs/node-lru-cache
+Package-List: 
+ node-lru-cache deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-lru-cache
+Priority: source
+Section: javascript

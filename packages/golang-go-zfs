@@ -1,0 +1,27 @@
+Package: golang-go-zfs
+Binary: golang-go-zfs-dev
+Version: 2.1.1.49.gf784269-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-google-uuid-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 41609a8b3dd7399d0c4b25e66fdb7417 1631 golang-go-zfs_2.1.1.49.gf784269-1.dsc
+ 19d17b08cf3f22553cc85dc50df6ad46 14584 golang-go-zfs_2.1.1.49.gf784269.orig.tar.xz
+ de2f25cbd1dfc8830370797e6b9a8703 2896 golang-go-zfs_2.1.1.49.gf784269-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-go-zfs
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-go-zfs.git
+Checksums-Sha256:
+ 8b512651b2599562d4de207ab4eec603ce11ef951759575183f75780287c0948 1631 golang-go-zfs_2.1.1.49.gf784269-1.dsc
+ 208fb2e47b669e0b1374ae65b4e7f782b4ec2d80c9d4c4301895e9546aa67691 14584 golang-go-zfs_2.1.1.49.gf784269.orig.tar.xz
+ 84dea50eefd93b647af4c01e58fed3b06df495b12d7762a54b9066f4edf8381b 2896 golang-go-zfs_2.1.1.49.gf784269-1.debian.tar.xz
+Homepage: https://github.com/mistifyio/go-zfs
+Go-Import-Path: github.com/mistifyio/go-zfs
+Package-List: 
+ golang-go-zfs-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-go-zfs
+Priority: extra
+Section: golang

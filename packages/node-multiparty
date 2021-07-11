@@ -1,0 +1,26 @@
+Package: node-multiparty
+Binary: node-multiparty
+Version: 4.2.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-fd-slicer (>= 1.0.0) <!nocheck>, node-findit2 <!nocheck>, node-http-errors <!nocheck>, node-mkdirp (>= 1) <!nocheck>, node-pend <!nocheck>, node-safe-buffer <!nocheck>, node-superagent <!nocheck>, node-require-all (>= 3.0.0) <!nocheck>, node-rimraf <!nocheck>, node-uid-safe (>= 2.1.5) <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ce5d0a2f8a29e4273464cb10c5e4616a 2377 node-multiparty_4.2.2-2.dsc
+ f3e7c51d8120c2ccd1dd4e36b4d62227 798232 node-multiparty_4.2.2.orig.tar.gz
+ 9cf8a364b8a7574bb48354d5e4e64287 3876 node-multiparty_4.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-multiparty
+Vcs-Git: https://salsa.debian.org/js-team/node-multiparty.git
+Checksums-Sha256:
+ cf0226d9445c05db2d9af48672c51fa62f660f7786ec9c08bdc728121204d796 2377 node-multiparty_4.2.2-2.dsc
+ 514320a4ccf284e47876cb5a2f69b12935b91194a7d4767a0431003e95ad9ea5 798232 node-multiparty_4.2.2.orig.tar.gz
+ 40eb9b9a96a45b056716b0b3eea6b6fcb430b35f91ce9a0012ab2842358db3b6 3876 node-multiparty_4.2.2-2.debian.tar.xz
+Homepage: https://github.com/andrewrk/node-multiparty
+Package-List: 
+ node-multiparty deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-multiparty
+Priority: optional
+Section: javascript

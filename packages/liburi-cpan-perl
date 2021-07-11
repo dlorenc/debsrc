@@ -1,0 +1,28 @@
+Package: liburi-cpan-perl
+Binary: liburi-cpan-perl
+Version: 1.007-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcpan-distnameinfo-perl <!nocheck>, libtest-simple-perl <!nocheck>, liburi-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 21c6ee0e795819b17752b74d8235c043 2431 liburi-cpan-perl_1.007-2.dsc
+ 60aa35b085d2baa5bcd7d6062029fcee 16116 liburi-cpan-perl_1.007.orig.tar.gz
+ 06b1285ea3c8eef9dd1fc59d4423d8ae 1640 liburi-cpan-perl_1.007-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/liburi-cpan-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/liburi-cpan-perl.git
+Checksums-Sha256:
+ c1911527ae5dfad897d3e91ff97953829d3b97fc659391da21d37c5519445951 2431 liburi-cpan-perl_1.007-2.dsc
+ 125a1394662e0a45e2696977496c1d027b14387ff6e39b60c07e0f96eae152d3 16116 liburi-cpan-perl_1.007.orig.tar.gz
+ efaa10893e356b8ab6494788873d29abf0ed2ef2210e504767a6a14a2470920c 1640 liburi-cpan-perl_1.007-2.debian.tar.xz
+Homepage: https://metacpan.org/release/URI-cpan
+Dgit: dac67580e0a97999b306c23d8df409b1a8bdedd5 debian archive/debian/1.007-2 https://git.dgit.debian.org/liburi-cpan-perl
+Package-List: 
+ liburi-cpan-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libu/liburi-cpan-perl
+Priority: extra
+Section: misc

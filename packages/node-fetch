@@ -1,0 +1,26 @@
+Package: node-fetch
+Binary: node-fetch
+Version: 2.6.1-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-babel-preset-env (>= 7), node-is-builtin-module, node-rollup-plugin-babel (>= 5.2~), rollup
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 13657cd370634d2fce730376b202c488 2092 node-fetch_2.6.1-5.dsc
+ 14dff609e849a5249a7323fb2d63e991 41558 node-fetch_2.6.1.orig.tar.gz
+ f6ce6acbf6f72a69f234e4ad2b9a8b29 3744 node-fetch_2.6.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-fetch
+Vcs-Git: https://salsa.debian.org/js-team/node-fetch.git
+Checksums-Sha256:
+ 0bd751e48f4b1e974fb49cf5fa019525642a5baacf8fa34af7c7ea7f04a2ea3d 2092 node-fetch_2.6.1-5.dsc
+ 8ec544ea2b5591ba2e12039424e69fbeded65cdf2db9b89b47fd89ce6308e75c 41558 node-fetch_2.6.1.orig.tar.gz
+ 3ca92e54b20a8dd4a3fcda1a9aff55558fcfbfaa625cb78ef48d371e7b1fec17 3744 node-fetch_2.6.1-5.debian.tar.xz
+Homepage: https://github.com/bitinn/node-fetch
+Package-List: 
+ node-fetch deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-fetch
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: core-async-clojure
+Binary: libcore-async-clojure
+Version: 1.3.610-4
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 13), javahelper, maven-repo-helper, default-jdk, libclojure-java, libtools-analyzer-jvm-clojure (>= 1.1.0-2), libnrepl-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 41c44056cd0d1c8765819c7326e0952b 2289 core-async-clojure_1.3.610-4.dsc
+ b62b64597668ea7e93131f8416882695 80224 core-async-clojure_1.3.610.orig.tar.gz
+ 0b9f32e921cb9be039c4324faaa5c916 8132 core-async-clojure_1.3.610-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/core-async-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/core-async-clojure.git
+Checksums-Sha256:
+ 6ce1bcc71a7708b08932cdea5ccdb22c2845dd8313341c902ef6869b7a385bd0 2289 core-async-clojure_1.3.610-4.dsc
+ 0a44f00c5c83d0e949b0157ebf936543721ce0f80e4acc830dd9e3cfa8bdfdf5 80224 core-async-clojure_1.3.610.orig.tar.gz
+ 2aee55c8ed270c9a48839aed95fbc952f531d7359fa5b4b93a35eedfd8f62a9d 8132 core-async-clojure_1.3.610-4.debian.tar.xz
+Homepage: https://github.com/clojure/core.async
+Package-List: 
+ libcore-async-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/c/core-async-clojure
+Priority: extra
+Section: misc

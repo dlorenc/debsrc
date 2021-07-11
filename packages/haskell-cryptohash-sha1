@@ -1,0 +1,26 @@
+Package: haskell-cryptohash-sha1
+Binary: libghc-cryptohash-sha1-dev, libghc-cryptohash-sha1-prof, libghc-cryptohash-sha1-doc
+Version: 0.11.100.1-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-sha-dev (>= 1.6.4), libghc-sha-dev (<< 1.7), libghc-sha-prof (>= 1.6.4), libghc-sha-prof (<< 1.7), libghc-base16-bytestring-dev (>= 0.1.1), libghc-base16-bytestring-dev (<< 0.2), libghc-base16-bytestring-prof (>= 0.1.1), libghc-base16-bytestring-prof (<< 0.2), libghc-tasty-dev (>= 0.11), libghc-tasty-prof (>= 0.11), libghc-tasty-hunit-dev (>= 0.9), libghc-tasty-hunit-prof (>= 0.9), libghc-tasty-quickcheck-dev (>= 0.8), libghc-tasty-quickcheck-prof (>= 0.8)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 00a525c236f381073681d87dc9ee68a9 2747 haskell-cryptohash-sha1_0.11.100.1-6.dsc
+ d817816667e50dda5cbe41dd113eff4d 10198 haskell-cryptohash-sha1_0.11.100.1.orig.tar.gz
+ 4a270d373926a7a88ec86289fbb37079 2928 haskell-cryptohash-sha1_0.11.100.1-6.debian.tar.xz
+Checksums-Sha256:
+ 66f655c8f8c4f9ddc45ac228c5a268eb42d3455a3b2df97c6ebe6b485d4362d3 2747 haskell-cryptohash-sha1_0.11.100.1-6.dsc
+ 3c79af33542512442f8f87f6abb1faef7cd43bbfb2859260a33251d861eb0dab 10198 haskell-cryptohash-sha1_0.11.100.1.orig.tar.gz
+ a298e9f8202b0d50f92880d652d3c4d6dba5c87bf13a5e2e4a91e6e4a08fb34f 2928 haskell-cryptohash-sha1_0.11.100.1-6.debian.tar.xz
+Homepage: https://github.com/hvr/cryptohash-sha1
+Package-List: 
+ libghc-cryptohash-sha1-dev deb haskell optional arch=any
+ libghc-cryptohash-sha1-doc deb doc optional arch=all
+ libghc-cryptohash-sha1-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cryptohash-sha1
+Priority: extra
+Section: misc

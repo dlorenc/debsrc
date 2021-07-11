@@ -1,0 +1,26 @@
+Package: py-stringmatching
+Binary: python3-py-stringmatching, python-py-stringmatching-doc
+Version: 0.4.2+git20201204.6a7fb57-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Otto Kekäläinen <otto@debian.org>, Julian Gilbey <jdg@debian.org>, Drew Parsons <dparsons@debian.org>
+Build-Depends: cython3, debhelper-compat (= 13), dh-python, latexmk <!nodoc>, python3-all-dev, python3-ipython <!nodoc>, python3-nose <!nocheck>, python3-numpy, python3-setuptools, python3-six, python3-sphinx-rtd-theme <!nodoc>, sphinx <!nodoc>, texlive-fonts-recommended <!nodoc>, texlive-latex-extra <!nodoc>, texlive-plain-generic <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f993872004fdc6b38891e72542b3906e 2676 py-stringmatching_0.4.2+git20201204.6a7fb57-2.dsc
+ 59c11365ee1e58d3ff6bf6737e336106 405521 py-stringmatching_0.4.2+git20201204.6a7fb57.orig.tar.gz
+ 9dd6a06485501937ca4cc41d1cb2e970 4592 py-stringmatching_0.4.2+git20201204.6a7fb57-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/py-stringmatching
+Vcs-Git: https://salsa.debian.org/python-team/packages/py-stringmatching.git
+Checksums-Sha256:
+ 829e20c8ae05eb4c63cab88606c7a445bf0e0681821e6855e14c5fb9048a03bc 2676 py-stringmatching_0.4.2+git20201204.6a7fb57-2.dsc
+ d2c885d679f58db5fdf291c445d170fa49631b5264bf2330232de932600c2c5d 405521 py-stringmatching_0.4.2+git20201204.6a7fb57.orig.tar.gz
+ 38c3e5723fc0fdcc1d313969dd2a02530c296b50cf4d8109cc9bd5f788449683 4592 py-stringmatching_0.4.2+git20201204.6a7fb57-2.debian.tar.xz
+Homepage: https://github.com/spyder-ide/pyls-spyder
+Package-List: 
+ python-py-stringmatching-doc deb doc optional arch=all profile=!nodoc
+ python3-py-stringmatching deb python optional arch=any
+Directory: pool/main/p/py-stringmatching
+Priority: extra
+Section: misc

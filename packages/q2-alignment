@@ -1,0 +1,27 @@
+Package: q2-alignment
+Binary: q2-alignment
+Version: 2020.11.1-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Liubov Chuprikova <chuprikovalv@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-skbio, python3-pytest-cov, qiime, q2-types, mafft
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 68dcaab6046e7bd3ddd433cf4a4b7c56 2168 q2-alignment_2020.11.1-2.dsc
+ 8a443e8cd8d689f9ac7df98cb6ad5494 330286 q2-alignment_2020.11.1.orig.tar.gz
+ aa021170f9f4c190f54573c0a01486fc 5380 q2-alignment_2020.11.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/q2-alignment
+Vcs-Git: https://salsa.debian.org/med-team/q2-alignment.git
+Checksums-Sha256:
+ 6e22ad59b403a0b4251359a72c6349c403c87dbd6e3267824ce0cd5c336d4846 2168 q2-alignment_2020.11.1-2.dsc
+ e6b81441d4acb37ae1bccad8127f527d686f04f418eee0e5d8e36fcfb8e6f7d0 330286 q2-alignment_2020.11.1.orig.tar.gz
+ c6aa70f7412911f44cecb219e8326900b97572b2759664e20d11ae9de55b6315 5380 q2-alignment_2020.11.1-2.debian.tar.xz
+Homepage: https://qiime2.org/
+Package-List: 
+ q2-alignment deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest-cov
+Directory: pool/main/q/q2-alignment
+Priority: extra
+Section: misc

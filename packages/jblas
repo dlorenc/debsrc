@@ -1,0 +1,26 @@
+Package: jblas
+Binary: jblas, jblas-doc
+Version: 1.2.4-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, tony mancill <tmancill@debian.org>
+Build-Depends: ant-optional, debhelper-compat (= 13), default-jdk, gfortran, junit4, libblas-dev, liblapack-dev, locales, ruby
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5c2ef73aa003edf2d146862cc00818b3 2081 jblas_1.2.4-3.dsc
+ e8bb4036ac185297653d17b7b35baaac 125048 jblas_1.2.4.orig.tar.xz
+ 8ab77fc2d89fa86d65666cf328d64b8b 6296 jblas_1.2.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jblas
+Vcs-Git: https://salsa.debian.org/java-team/jblas.git
+Checksums-Sha256:
+ 7991e0e83a01f66ca9e63f5dfb87641dfca71ec3a0a8516afb0eac39e7cf85c2 2081 jblas_1.2.4-3.dsc
+ 668f033707d315a58e38cb696ab33c4e38fc816e1408e40c9af30ba4bb7347d2 125048 jblas_1.2.4.orig.tar.xz
+ 352db2770665f432e63dd69dc55663e4aad81e7ed63876599e7d4b6d4da06fee 6296 jblas_1.2.4-3.debian.tar.xz
+Homepage: http://jblas.org
+Package-List: 
+ jblas deb science optional arch=linux-any
+ jblas-doc deb doc optional arch=all
+Directory: pool/main/j/jblas
+Priority: source
+Section: science

@@ -1,0 +1,27 @@
+Package: fookb
+Binary: fookb, fookb-plainx, fookb-wmaker
+Version: 4.1-1
+Maintainer: Debian Window Maker Team <pkg-wmaker-devel@lists.alioth.debian.org>
+Uploaders: Doug Torrance <dtorrance@piedmont.edu>, Jeremy Sowden <jeremy@azazel.net>
+Build-Depends: debhelper-compat (= 12), libdockapp-dev, libwings-dev, libx11-dev, libxpm-dev, pkg-config
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ de61eeacc66154e76ee53e23ddfd5169 2083 fookb_4.1-1.dsc
+ 70bd4f52a9471eb7aa7ab813981b1e04 117679 fookb_4.1.orig.tar.gz
+ b868edd381a8005ee1ef0d393036ea06 4312 fookb_4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/wmaker-team/fookb
+Vcs-Git: https://salsa.debian.org/wmaker-team/fookb.git
+Checksums-Sha256:
+ 9f5cc577ecb502b6a7bc0763f274f6771244c547f750fd3340cb4aded865bcde 2083 fookb_4.1-1.dsc
+ 9e90e5d0ce46ae188f7c19af8767417f7b05d92a132cb895bf0e1af440c84f56 117679 fookb_4.1.orig.tar.gz
+ ff6fc7984265ff458bf957ecac08660355002a75cb5ffe59ac42b4e35beea23d 4312 fookb_4.1-1.debian.tar.xz
+Homepage: http://www.dockapps.net/fookb
+Package-List: 
+ fookb deb x11 optional arch=any
+ fookb-plainx deb oldlibs optional arch=all
+ fookb-wmaker deb oldlibs optional arch=all
+Directory: pool/main/f/fookb
+Priority: source
+Section: x11

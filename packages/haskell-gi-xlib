@@ -1,0 +1,26 @@
+Package: haskell-gi-xlib
+Binary: libghc-gi-xlib-dev, libghc-gi-xlib-prof, libghc-gi-xlib-doc
+Version: 2.0.9-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, pkg-config, libx11-dev, libghc-haskell-gi-dev (>= 0.24.0), libghc-haskell-gi-dev (<< 0.25), libghc-haskell-gi-prof, libghc-haskell-gi-base-dev (>= 0.24), libghc-haskell-gi-base-dev (<< 0.25), libghc-haskell-gi-base-prof
+Build-Depends-Indep: ghc-doc, libghc-haskell-gi-doc, libghc-haskell-gi-base-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5d50cd4767880ee777950fe5e5614558 2412 haskell-gi-xlib_2.0.9-1.dsc
+ ce7e1030ef5cdd27094830e716348b0f 10716 haskell-gi-xlib_2.0.9.orig.tar.gz
+ c35229361092b4467d02a0afea669ed3 1672 haskell-gi-xlib_2.0.9-1.debian.tar.xz
+Checksums-Sha256:
+ 5d853d91adad81bef12f40e4ace18433410af0eed5333ff1b7bf794dedfb339e 2412 haskell-gi-xlib_2.0.9-1.dsc
+ 00d53dae1ce858856a044ee6ef945eced0dc3fe8f7d9c1f4c56ece06c68fc20a 10716 haskell-gi-xlib_2.0.9.orig.tar.gz
+ 9c360f848024c0d61e039ab5a5720f00ad153b9dc2f68e3f17db12ed48a52072 1672 haskell-gi-xlib_2.0.9-1.debian.tar.xz
+Homepage: https://github.com/haskell-gi/haskell-gi
+Package-List: 
+ libghc-gi-xlib-dev deb haskell optional arch=any
+ libghc-gi-xlib-doc deb doc optional arch=all
+ libghc-gi-xlib-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-gi-xlib
+Priority: extra
+Section: misc

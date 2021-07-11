@@ -1,0 +1,27 @@
+Package: python-ly
+Binary: python3-ly, python-ly-doc
+Version: 0.9.6-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-docutils, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fda22d5c8154dfdce3090687413ebaa0 2111 python-ly_0.9.6-1.dsc
+ 94f608cf6a5b6bbb1fd668ec7d30843c 179345 python-ly_0.9.6.orig.tar.gz
+ a87f0af19d953298013da0ac260cbef0 3100 python-ly_0.9.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-ly
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-ly.git
+Checksums-Sha256:
+ 91a4763767ec8be156881b9fc8a2c41454ab04c312419fdb8c1e2a31a4c2aa56 2111 python-ly_0.9.6-1.dsc
+ 4d9c63aeeb97422c76c0749614e4b43f6dc7937897b8fc750f9cb8139cdeb068 179345 python-ly_0.9.6.orig.tar.gz
+ b411983e87649751c3f3d1eb01378077723fd3588f2efb4c532e70e08c30fc4b 3100 python-ly_0.9.6-1.debian.tar.xz
+Homepage: https://github.com/wbsoft/python-ly
+Package-List: 
+ python-ly-doc deb doc optional arch=all
+ python3-ly deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-ly
+Priority: optional
+Section: misc

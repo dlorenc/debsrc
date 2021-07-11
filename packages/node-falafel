@@ -1,0 +1,27 @@
+Package: node-falafel
+Binary: node-falafel
+Version: 2.2.4-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-acorn (>= 6~) <!nocheck>, node-isarray <!nocheck>, node-lodash-packages <!nocheck>, node-safe-buffer <!nocheck>, node-semver <!nocheck>, node-tap (>= 8) <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e7e3cb97f275e24fd25e51187a60991e 2254 node-falafel_2.2.4-1.dsc
+ b698b1d90c3825ea6c90825e3f350ba4 57281 node-falafel_2.2.4.orig.tar.gz
+ dfdced8927efb0f303ad7a9e423bbfb7 4672 node-falafel_2.2.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-falafel
+Vcs-Git: https://salsa.debian.org/js-team/node-falafel.git
+Checksums-Sha256:
+ 176417d0d890a9af8ef4bca630685c4e91d8f0aff31e9bb2ddb07a2bc11d64f6 2254 node-falafel_2.2.4-1.dsc
+ a37a2952796a6592bfdd0a8dc30a5c36f57f1a99e1be2d5d1142a147f16aee1d 57281 node-falafel_2.2.4.orig.tar.gz
+ 0d3c7032dcf397afe24eed98d9e52978bbcc6fb544491ccbbf01e7e648c39907 4672 node-falafel_2.2.4-1.debian.tar.xz
+Homepage: https://github.com/substack/node-falafel
+Package-List: 
+ node-falafel deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: nodejs
+Directory: pool/main/n/node-falafel
+Priority: optional
+Section: javascript

@@ -1,0 +1,28 @@
+Package: mlpy
+Binary: python3-mlpy, python-mlpy-doc, python3-mlpy-lib
+Version: 3.5.0+ds-1.2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <mih@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, libgsl-dev, cython3, python3-all-dev, python3-numpy, python3-sphinx, python3-scipy <!nocheck>, texlive, texlive-latex-extra, latexmk, help2man
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cb1ee0fd95ba79aff42a3b6e22e89c5f 2275 mlpy_3.5.0+ds-1.2.dsc
+ 2b88d0a3f1452f3bdfc8acd23740eb62 1472016 mlpy_3.5.0+ds.orig.tar.xz
+ 8caa81d3db1ac856f9d5e6567533586b 4548 mlpy_3.5.0+ds-1.2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/mlpy
+Vcs-Git: https://salsa.debian.org/science-team/mlpy.git
+Checksums-Sha256:
+ 477eefc68b280426db5156f2ce71539e4a2a5eba17feb6f0b043d279b4d1a7e9 2275 mlpy_3.5.0+ds-1.2.dsc
+ bf7b960fdb80eb6baf49831c831d6cff8afd96c1e91000c04028d0c5eeef5272 1472016 mlpy_3.5.0+ds.orig.tar.xz
+ 927dfe05996f74282e3aec2c77341d9ef8e80980f72cab98776b37479143b681 4548 mlpy_3.5.0+ds-1.2.debian.tar.xz
+Homepage: https://mlpy.fbk.eu/
+Package-List: 
+ python-mlpy-doc deb doc optional arch=all
+ python3-mlpy deb python optional arch=all
+ python3-mlpy-lib deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/m/mlpy
+Priority: source
+Section: python

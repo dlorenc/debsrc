@@ -1,0 +1,30 @@
+Package: myhdl
+Binary: python3-myhdl, myhdl-cosimulation, myhdl-doc
+Version: 0.11-1
+Maintainer: Steffen Moeller <moeller@debian.org>
+Uploaders: Ruben Undheim <ruben.undheim@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: python3-sphinx
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 50a20502e388c36ce4e857c1224056b6 2236 myhdl_0.11-1.dsc
+ 47be668d2cbfd7894a707a6e1ffce742 1208654 myhdl_0.11.orig.tar.gz
+ 125e0c018037a0702ca93a4ca93fafd7 4028 myhdl_0.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/myhdl
+Vcs-Git: https://salsa.debian.org/python-team/modules/myhdl.git
+Checksums-Sha256:
+ 3eb1228e48ee07464f09c40e6a7bee417ada136694fb491776ee60a5c2a81b77 2236 myhdl_0.11-1.dsc
+ 34218a2d73b119b9dcd07369cfe738062cb5ac14d2a084ee79ab4d2eaa17a9fe 1208654 myhdl_0.11.orig.tar.gz
+ 714226a8201293d524a76637209df182b8f00f6cea1865f58234b43ea75f8ed2 4028 myhdl_0.11-1.debian.tar.xz
+Homepage: http://www.myhdl.org
+Dgit: e3e9670dd4b0788f496c0b21687f8fdd6a51d302 debian archive/debian/0.11-1 https://git.dgit.debian.org/myhdl
+Package-List: 
+ myhdl-cosimulation deb electronics optional arch=all
+ myhdl-doc deb doc optional arch=all
+ python3-myhdl deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/myhdl
+Priority: extra
+Section: misc

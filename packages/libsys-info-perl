@@ -1,0 +1,28 @@
+Package: libsys-info-perl
+Binary: libsys-info-perl
+Version: 0.7811-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libsys-info-base-perl <!nocheck>, libsys-info-driver-linux-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtest-sys-info-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 66d4ae2752b3edeb4a63005bf806d982 2487 libsys-info-perl_0.7811-2.dsc
+ e95a24fc3c37550ce4489280869d6dd2 16251 libsys-info-perl_0.7811.orig.tar.gz
+ 60beac8994ce9632e82ca27d44bac27c 1776 libsys-info-perl_0.7811-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsys-info-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsys-info-perl.git
+Checksums-Sha256:
+ ab43a9e38c38f47006ac4dd37e751027d5ab7c50bfac9c616d07887deb79c419 2487 libsys-info-perl_0.7811-2.dsc
+ 566482bff3427c198d7955468ed945a8e736c4a2925151fdef96801ef8a401e1 16251 libsys-info-perl_0.7811.orig.tar.gz
+ a2807e896bed8a3f365ab6c09cb42370be14068dd3c7cbdde98d1bb390a24b98 1776 libsys-info-perl_0.7811-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Sys-Info
+Dgit: edadd2da0adb58173e20255cc0a709b1e0ef7886 debian archive/debian/0.7811-2 https://git.dgit.debian.org/libsys-info-perl
+Package-List: 
+ libsys-info-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libs/libsys-info-perl
+Priority: extra
+Section: misc

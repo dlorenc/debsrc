@@ -1,0 +1,28 @@
+Package: haskell-torrent
+Binary: libghc-torrent-dev, libghc-torrent-prof, libghc-torrent-doc
+Version: 10000.1.1-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Christopher Reichert <creichert07@gmail.com>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-bencode-dev (>= 0.2), libghc-bencode-prof, libghc-syb-dev, libghc-syb-prof
+Build-Depends-Indep: ghc-doc, libghc-bencode-doc, libghc-syb-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 47abba4327fcd5f290d61c34d42f6cb0 2460 haskell-torrent_10000.1.1-4.dsc
+ aeaa8a83fccfe2266ed4ac1ffb849f39 3977 haskell-torrent_10000.1.1.orig.tar.gz
+ 3ded19ba9c47bfde2fd79e05c8f1ed3c 2844 haskell-torrent_10000.1.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-torrent
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-torrent]
+Checksums-Sha256:
+ 610b4a9519be7b8e0208566e4370e2086420f3a92732b70ec13c1070f2f1515f 2460 haskell-torrent_10000.1.1-4.dsc
+ 2009964210e229ee67254a73fead3413f60299415238887fa7ef30e40e06fa54 3977 haskell-torrent_10000.1.1.orig.tar.gz
+ 7e8a08329e3e4fb9037adc11cf924384a218fcc5bea43ef9e22caa4cc1901335 2844 haskell-torrent_10000.1.1-4.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/torrent
+Package-List: 
+ libghc-torrent-dev deb haskell optional arch=any
+ libghc-torrent-doc deb doc optional arch=all
+ libghc-torrent-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-torrent
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: q2-quality-filter
+Binary: q2-quality-filter
+Version: 2020.11.1-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Liubov Chuprikova <chuprikovalv@gmail.com>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-nose, qiime (>= 2019.10.0), q2templates, q2-types
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 82dae7ed03bdacb118bdc39043431da8 2237 q2-quality-filter_2020.11.1-2.dsc
+ cef6e8d026da450128a4abc81cf27261 256942 q2-quality-filter_2020.11.1.orig.tar.gz
+ b38c0468949bd8cb16ef947aed36ba04 5344 q2-quality-filter_2020.11.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/q2-quality-filter
+Vcs-Git: https://salsa.debian.org/med-team/q2-quality-filter.git
+Checksums-Sha256:
+ 7bcfcbf5e8f0ec0ac8230dc86f749b9e25a0d41a24a75002b5c1afa615f5dfae 2237 q2-quality-filter_2020.11.1-2.dsc
+ b101b6b886239d66732e0d6b41870f25d3959313744afa342a93a48d6226718c 256942 q2-quality-filter_2020.11.1.orig.tar.gz
+ 700d1ebca1e973508541ec1cbc70cfb7b8027a5bebe22aea9db4c8f498ac4ee6 5344 q2-quality-filter_2020.11.1-2.debian.tar.xz
+Homepage: https://qiime2.org/
+Package-List: 
+ q2-quality-filter deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/q/q2-quality-filter
+Priority: extra
+Section: misc

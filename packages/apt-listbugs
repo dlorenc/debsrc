@@ -1,0 +1,26 @@
+Package: apt-listbugs
+Binary: apt-listbugs
+Version: 0.1.35
+Maintainer: Francesco Poli (wintermute) <invernomuto@paranoici.org>
+Build-Depends: debhelper-compat (= 13), debhelper (>= 12.8~), gem2deb (>= 0.12)
+Build-Depends-Indep: ruby, rdtool, gettext, ruby-debian (>= 0.3.3), ruby-gettext (>= 3.0.2), ruby-test-unit, ruby-soap4r, ruby-unicode
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 1c6e1c8b13193bf2826019f4d9779322 1928 apt-listbugs_0.1.35.dsc
+ d91368f1784b03fd22d25fcb760f56b9 126640 apt-listbugs_0.1.35.tar.xz
+Vcs-Browser: https://salsa.debian.org/frx-guest/apt-listbugs
+Vcs-Git: https://salsa.debian.org/frx-guest/apt-listbugs.git
+Checksums-Sha256:
+ 031baac76c79b93f3a76cdb0b77cc90cdc72182c34df8a533a56fd1cf1e48672 1928 apt-listbugs_0.1.35.dsc
+ 9d6b18a5e60436e4f355a8e819869b85fc81b25b22e1792179b3214c9a0df3b6 126640 apt-listbugs_0.1.35.tar.xz
+Homepage: https://salsa.debian.org/frx-guest/apt-listbugs
+Package-List: 
+ apt-listbugs deb admin optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner
+Directory: pool/main/a/apt-listbugs
+Priority: source
+Section: admin

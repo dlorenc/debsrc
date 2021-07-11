@@ -1,0 +1,26 @@
+Package: node-babel-eslint
+Binary: node-babel-eslint
+Version: 10.1.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), eslint <!nocheck>, mocha <!nocheck>, node-babel-code-frame (>= 7) <!nocheck>, node-babel-parser (>= 7) <!nocheck>, node-babel-traverse (>= 7) <!nocheck>, node-babel-types (>= 7) <!nocheck>, node-debbundle-es-to-primitive <!nocheck>, node-eslint-scope <!nocheck>, node-eslint-visitor-keys <!nocheck>, node-espree <!nocheck>, node-object-inspect <!nocheck>, node-read-pkg-up <!nocheck>, node-resolve <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f4256a8d149a141fd21498598f36c7ca 2502 node-babel-eslint_10.1.0-2.dsc
+ eb2b68f9a15fa6484d8106bb255c6a65 46704 node-babel-eslint_10.1.0.orig.tar.gz
+ 3eae225e168801b944b5f463b42bbdcc 556252 node-babel-eslint_10.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-babel-eslint
+Vcs-Git: https://salsa.debian.org/js-team/node-babel-eslint.git
+Checksums-Sha256:
+ 9e1a138fde75a66d8bd276a0dc55cdacab6cca93f406fd0d81edd87a71609862 2502 node-babel-eslint_10.1.0-2.dsc
+ 6503320aaf9f83990538410b53ce8adb5b2c0b6439161ea2135552da6c95a890 46704 node-babel-eslint_10.1.0.orig.tar.gz
+ f6a735b85924509ef6e9ebe87671bb6acd1ba8fed2dbe295a0bef2e985006b40 556252 node-babel-eslint_10.1.0-2.debian.tar.xz
+Homepage: https://github.com/babel/babel-eslint
+Package-List: 
+ node-babel-eslint deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-babel-eslint
+Priority: extra
+Section: misc

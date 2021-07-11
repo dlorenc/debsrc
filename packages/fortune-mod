@@ -1,0 +1,26 @@
+Package: fortune-mod
+Binary: fortune-mod, fortunes-min, fortunes, fortunes-off
+Version: 1:1.99.1-7.1
+Maintainer: Andrea Colangelo <warp10@ubuntu.com>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1), librecode-dev, recode
+Architecture: any all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Files:
+ b6bb0279695bfffa5a122accabc7a9c0 2071 fortune-mod_1.99.1-7.1.dsc
+ f208805b3b712e32997d7667e0ec52d8 1812089 fortune-mod_1.99.1.orig.tar.gz
+ f6b2b68f6a7ab1d28a228d2ff7262b66 309362 fortune-mod_1.99.1-7.1.debian.tar.bz2
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/fortune-mod.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/fortune-mod.git
+Checksums-Sha256:
+ 480e6a880d5cf28c9166d40caeed757d1e1b55c543192aed93f36a76debf2c91 2071 fortune-mod_1.99.1-7.1.dsc
+ fc51aee1f73c936c885f4e0f8b6b48f4f68103e3896eaddc6a45d2b71e14eace 1812089 fortune-mod_1.99.1.orig.tar.gz
+ e518ca74e7ddd7a91f311e2234d3940e78a3d741d50a06aaacde9cc99abbc429 309362 fortune-mod_1.99.1-7.1.debian.tar.bz2
+Package-List: 
+ fortune-mod deb games optional arch=any
+ fortunes deb games optional arch=all
+ fortunes-min deb games optional arch=all
+ fortunes-off deb games optional arch=all
+Directory: pool/main/f/fortune-mod
+Priority: source
+Section: games

@@ -1,0 +1,27 @@
+Package: python-kubernetes
+Binary: python3-kubernetes
+Version: 12.0.1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-sphinx, python3-all, python3-setuptools
+Build-Depends-Indep: python3-certifi, python3-dateutil, python3-google-auth, python3-mock, python3-nose, python3-pluggy, python3-py, python3-pytest, python3-randomize, python3-recommonmark, python3-requests, python3-requests-oauthlib, python3-six, python3-urllib3, python3-websocket, python3-yaml
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c284734bb5a4cc70765bd809350f43c6 2433 python-kubernetes_12.0.1-1.dsc
+ 6735a55e56980b9fb720b778332873bc 645212 python-kubernetes_12.0.1.orig.tar.xz
+ 2aedc2707cb0ce8ec9cea2e979846b90 3124 python-kubernetes_12.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-kubernetes
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-kubernetes.git
+Checksums-Sha256:
+ 143f93994ca0b087ebc52d500e7783c9d1f083c761d1ff9daad63316fc14e386 2433 python-kubernetes_12.0.1-1.dsc
+ bad4bcdf6377dd43d3be39912354adb49d900fa62a46348d27d8141c593fe172 645212 python-kubernetes_12.0.1.orig.tar.xz
+ 07476c32a2d3439dc561e621812e38b27baeb345ce865cc92671f6fd2cde388a 3124 python-kubernetes_12.0.1-1.debian.tar.xz
+Homepage: https://github.com/kubernetes-incubator/client-python
+Package-List: 
+ python3-kubernetes deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-kubernetes
+Priority: extra
+Section: misc

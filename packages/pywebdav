@@ -1,0 +1,27 @@
+Package: pywebdav
+Binary: python3-webdav
+Version: 0.9.14-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 11), dh-python, python3, python3-six, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 47d08b178991bea7409c4694f4ed8ac0 2146 pywebdav_0.9.14-1.dsc
+ 293d74f02c0394dc257a612786dd12a7 525433 pywebdav_0.9.14.orig.tar.gz
+ c13900541715fd7ad741b789e5806671 8256 pywebdav_0.9.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/pywebdav
+Vcs-Git: https://salsa.debian.org/tryton-team/pywebdav.git
+Checksums-Sha256:
+ df6789869d31a2407326f62649cd142b04ec4d002df73d24dfc0805933c026f0 2146 pywebdav_0.9.14-1.dsc
+ efab3b820bb19963bc5eaca40086ef632843f0abd5bdb2b4aed150f292979c87 525433 pywebdav_0.9.14.orig.tar.gz
+ 6d850e573d5157989ee4c21ec2678d389d2560dc8f7767db2d77c424d6de7e99 8256 pywebdav_0.9.14-1.debian.tar.xz
+Homepage: https://github.com/andrewleech/PyWebDAV3.git
+Package-List: 
+ python3-webdav deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, python3-pluggy, python3-py, python3-pytest
+Directory: pool/main/p/pywebdav
+Priority: source
+Section: python

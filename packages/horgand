@@ -1,0 +1,26 @@
+Package: horgand
+Binary: horgand, horgand-data
+Version: 1.14-7.1
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Free Ekanayaka <freee@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), dh-autoreconf, automake, libfltk1.1-dev, libjack-dev, libasound2-dev (>= 0.9.8) [!kfreebsd-amd64 !kfreebsd-i386 !hurd-i386], fluid, alsa-utils, libxpm-dev, libsndfile1-dev (>= 1.0.4)
+Architecture: any all
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Files:
+ 5ab2d073973408e0a5dbcc7969bf8e32 2160 horgand_1.14-7.1.dsc
+ e2bd4720a262cb739a2132904c241828 2531734 horgand_1.14.orig.tar.gz
+ 4aad8a8172bbd4d66825884d67c1527f 4608 horgand_1.14-7.1.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/horgand.git
+Vcs-Git: git://git.debian.org/pkg-multimedia/horgand.git
+Checksums-Sha256:
+ 48a69d4af789de48297badd8e59b8b8dcb15ce4d7ac51a66690793d812c7ef53 2160 horgand_1.14-7.1.dsc
+ 836b3a8608953bb3bb37151947eb6236c557a9efde10e4bae1ecad46fc325e8e 2531734 horgand_1.14.orig.tar.gz
+ 8b392a01672ccedabbc74a54f0e969d3c0719850ff9e158b92b88d6fa955e839 4608 horgand_1.14-7.1.debian.tar.xz
+Homepage: http://horgand.berlios.de/
+Package-List: 
+ horgand deb sound optional arch=any
+ horgand-data deb sound optional arch=all
+Directory: pool/main/h/horgand
+Priority: source
+Section: sound

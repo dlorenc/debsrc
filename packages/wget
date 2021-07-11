@@ -1,0 +1,25 @@
+Package: wget
+Binary: wget, wget-udeb
+Version: 1.21-1
+Maintainer: Noël Köthe <noel@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, gettext, texinfo, libidn2-dev, uuid-dev, libpsl-dev, libpcre2-dev, libgnutls28-dev (>= 3.3.15-5), automake, libssl-dev (>= 0.9.8k), zlib1g-dev, dh-strip-nondeterminism
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b0b66523e8eee41681e98300e4494fbe 2147 wget_1.21-1.dsc
+ 3852118b7a771a7c9c0388883c8f5dbf 4866788 wget_1.21.orig.tar.gz
+ b1946da90b98cd8e0172d87cbf1e2b15 854 wget_1.21.orig.tar.gz.asc
+ c97d9cff46365ce75013b087903f24b1 60528 wget_1.21-1.debian.tar.xz
+Checksums-Sha256:
+ 0f643c806036d3ed7367b4ac5333c3c6b30071786ae60d548db630c498e2789e 2147 wget_1.21-1.dsc
+ b3bc1a9bd0c19836c9709c318d41c19c11215a07514f49f89b40b9d50ab49325 4866788 wget_1.21.orig.tar.gz
+ da3a99b8a7bbaf70cc339593a9e0c2942dd673152bc7bfcf8f965ae1c06d50df 854 wget_1.21.orig.tar.gz.asc
+ efacd406cd2bca442e377d130195a36e72d9723932c2bdc69748d80acc21dbcd 60528 wget_1.21-1.debian.tar.xz
+Homepage: https://www.gnu.org/software/wget/
+Package-List: 
+ wget deb web standard arch=any
+ wget-udeb udeb debian-installer optional arch=any
+Directory: pool/main/w/wget
+Priority: source
+Section: web

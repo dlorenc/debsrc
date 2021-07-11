@@ -1,0 +1,32 @@
+Package: bouncycastle
+Binary: libbcprov-java, libbcprov-java-doc, libbcmail-java, libbcmail-java-doc, libbcpkix-java, libbcpkix-java-doc, libbcpg-java, libbcpg-java-doc
+Version: 1.68-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, ant-optional, debhelper-compat (= 13), default-jdk (>= 1:1.6), javahelper, junit4, libmail-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dde36d1101e1a26ba21fe2d8a9eecd3d 2505 bouncycastle_1.68-1.dsc
+ 1711a0cb9520c51ad35cf992db3651a7 4216304 bouncycastle_1.68.orig.tar.xz
+ 48154cbfb75062f9fecabcd656d28595 11028 bouncycastle_1.68-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/bouncycastle
+Vcs-Git: https://salsa.debian.org/java-team/bouncycastle.git
+Checksums-Sha256:
+ 8ee587ce23ae4b5f0254f4f9413a5a6817a10698d712b8b32c492b6855cf19f0 2505 bouncycastle_1.68-1.dsc
+ 5ff6396585022b7c458774f3d6c8a9a7eeb6f714730a6a4a34f0dd65c495c241 4216304 bouncycastle_1.68.orig.tar.xz
+ 1f90d262513ca95864bb86c50adda0258c3c62763078286f8d5cb6bfa664a934 11028 bouncycastle_1.68-1.debian.tar.xz
+Homepage: https://www.bouncycastle.org
+Package-List: 
+ libbcmail-java deb java optional arch=all
+ libbcmail-java-doc deb doc optional arch=all
+ libbcpg-java deb java optional arch=all
+ libbcpg-java-doc deb doc optional arch=all
+ libbcpkix-java deb java optional arch=all
+ libbcpkix-java-doc deb doc optional arch=all
+ libbcprov-java deb java optional arch=all
+ libbcprov-java-doc deb doc optional arch=all
+Directory: pool/main/b/bouncycastle
+Priority: source
+Section: libs

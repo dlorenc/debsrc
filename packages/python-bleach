@@ -1,0 +1,28 @@
+Package: python-bleach
+Binary: python3-bleach, python-bleach-doc
+Version: 3.2.1-2.1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Scott Kitterman <scott@kitterman.com>, Per Andersson <avtobiff@debian.org>, Christopher Baines <mail@cbaines.net>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-pytest (>= 3.0.0~), python3-pytest-runner (>= 2.0~), python3-pytest-runner (<< 3.0~), python3-docutils, python3-all, python3-packaging, python3-setuptools, python3-sphinx (>= 1.0.7+dfsg-1~), python3-html5lib (>= 1.0.1~), python3-six (>= 1.9~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9c84fb4bc40fb3e3f7f3b9cae0310260 2688 python-bleach_3.2.1-2.1.dsc
+ 604d8711dff3107c14cc1352e7c05690 133956 python-bleach_3.2.1.orig.tar.xz
+ 77b86e06bc12fd71ecefb03bfcf08e80 10820 python-bleach_3.2.1-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-bleach
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-bleach.git
+Checksums-Sha256:
+ 7f7b0fdc7aedd141809b90429ee7285ba443e3864f7dc7b058ce62730bce5f44 2688 python-bleach_3.2.1-2.1.dsc
+ f07538cb478861b17a7e74eadb9fc7c32e3a27f8a464534ff279d38481d03954 133956 python-bleach_3.2.1.orig.tar.xz
+ e1f821925ca62012c9d54d58029ce57ea2d2f2bb14a8b518db6b3dab5919aff3 10820 python-bleach_3.2.1-2.1.debian.tar.xz
+Homepage: https://github.com/jsocol/bleach/
+Package-List: 
+ python-bleach-doc deb doc optional arch=all
+ python3-bleach deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-html5lib, python3-pytest, python3-pytest-runner, python3-setuptools, python3-six
+Directory: pool/main/p/python-bleach
+Priority: optional
+Section: misc

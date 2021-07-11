@@ -1,0 +1,26 @@
+Package: rust-doc-comment
+Binary: librust-doc-comment-dev
+Version: 0.3.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 71871be7894db3e10d4b4cf32656c420 2187 rust-doc-comment_0.3.1-2.dsc
+ 44db377d1f147141fc80b0a07e82c2f3 3813 rust-doc-comment_0.3.1.orig.tar.gz
+ 743bb4fb298b40d9af742a9ecaa2e2f2 2588 rust-doc-comment_0.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/doc-comment
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/doc-comment]
+Checksums-Sha256:
+ aa78226c4c6fa395cdeb5ca5cd557440e5311df08dc06711ac88fe5da5e0ccd6 2187 rust-doc-comment_0.3.1-2.dsc
+ 923dea538cea0aa3025e8685b20d6ee21ef99c4f77e954a30febbaac5ec73a97 3813 rust-doc-comment_0.3.1.orig.tar.gz
+ 23c52874339bed9bc8cf43519f35bd94496294a4006ea916d60460a695992ce4 2588 rust-doc-comment_0.3.1-2.debian.tar.xz
+Package-List: 
+ librust-doc-comment-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-doc-comment
+Priority: extra
+Section: misc

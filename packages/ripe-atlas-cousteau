@@ -1,0 +1,26 @@
+Package: ripe-atlas-cousteau
+Binary: python3-ripe-atlas-cousteau
+Version: 1.4.2-3
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, python3-all, python3-dateutil, python3-socketio-client (>= 0.6.5), python3-requests (>= 2.7.0), python3-setuptools, python3-nose, python3-coverage, python3-mock, python3-jsonschema
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 15f6aec847745b82785b06617be42f1a 2317 ripe-atlas-cousteau_1.4.2-3.dsc
+ 58e175ca93b2139a0ad378226d71ccbc 56895 ripe-atlas-cousteau_1.4.2.orig.tar.gz
+ 941831c845924ccf22169b270e968d6b 2340 ripe-atlas-cousteau_1.4.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/ripe-atlas-cousteau
+Vcs-Git: https://salsa.debian.org/python-team/modules/ripe-atlas-cousteau.git
+Checksums-Sha256:
+ ccfb4e7fdee88ad436926af2d16818d2460c5840ab7a6dfbd9e23deef4e6bdbf 2317 ripe-atlas-cousteau_1.4.2-3.dsc
+ 91bfaaafe7561ccc7b91f555a5004c467d615b9f404739496a4ed6a22fcb07b7 56895 ripe-atlas-cousteau_1.4.2.orig.tar.gz
+ 522ead4d6bb2ac51b8269f07b1133b8b99df19a7ee0a26cd2d8363ccb7008292 2340 ripe-atlas-cousteau_1.4.2-3.debian.tar.xz
+Homepage: https://github.com/RIPE-NCC/ripe-atlas-cousteau
+Package-List: 
+ python3-ripe-atlas-cousteau deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/r/ripe-atlas-cousteau
+Priority: optional
+Section: misc

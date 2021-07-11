@@ -1,0 +1,26 @@
+Package: globus-openssl-module
+Binary: libglobus-openssl-module0, libglobus-openssl-module-dev, libglobus-openssl-module-doc
+Version: 5.2-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-gsi-proxy-ssl-dev (>= 4), libglobus-gsi-openssl-error-dev (>= 2), libssl-dev, doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4dac8f6850a774ebf27bce94a8beb70a 2280 globus-openssl-module_5.2-1.dsc
+ 5461c6846a919f37207bc7ea41282593 315711 globus-openssl-module_5.2.orig.tar.gz
+ d90d2d69f9f760139152b38db105a9e0 3760 globus-openssl-module_5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-openssl-module
+Vcs-Git: https://salsa.debian.org/ellert/globus-openssl-module.git
+Checksums-Sha256:
+ 753958f16165c2acbad8efc3252768c5f479914587d58b79d98c6b8e8bae6452 2280 globus-openssl-module_5.2-1.dsc
+ 6dfcbe4af7a23d16745946131da938181cee3adfe08504df4bb4ab3160c23467 315711 globus-openssl-module_5.2.orig.tar.gz
+ 09ef0e0eee61c0ad492b086775eb1f2f3456a67edd0f899d90049c1122874a39 3760 globus-openssl-module_5.2-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-openssl-module-dev deb libdevel optional arch=any
+ libglobus-openssl-module-doc deb doc optional arch=all
+ libglobus-openssl-module0 deb libs optional arch=any
+Directory: pool/main/g/globus-openssl-module
+Priority: source
+Section: net

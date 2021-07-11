@@ -1,0 +1,27 @@
+Package: ruby-aws-sdk-core
+Binary: ruby-aws-sdk-core
+Version: 3.104.3-3
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-aws-eventstream (>= 1.0.2~), ruby-aws-partitions (>= 1.239~), ruby-aws-sigv4 (>= 1.1~), ruby-jmespath (>= 1.0~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f2130d8c8a9283bc60d735e4ca4b9a21 2224 ruby-aws-sdk-core_3.104.3-3.dsc
+ d1b5451fc20aa1bab6a606f2dd20338c 273078 ruby-aws-sdk-core_3.104.3.orig.tar.gz
+ 9a9fb2246fc4b9c7e2a6d6dc3be6323c 2504 ruby-aws-sdk-core_3.104.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-aws-sdk-core
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-aws-sdk-core.git
+Checksums-Sha256:
+ 1f697996469e3ecdd4d939c0848d884890218bebc2bc3187ded14ec73e0a043b 2224 ruby-aws-sdk-core_3.104.3-3.dsc
+ f1849442e036ebba5b0925db983935f5c8c8c98a7b157a8dd2dbe271c4005fda 273078 ruby-aws-sdk-core_3.104.3.orig.tar.gz
+ 86eb850f1af867d899b55ebc968b882515ad2c8d4f2b550cfc9036a4ef5e9909 2504 ruby-aws-sdk-core_3.104.3-3.debian.tar.xz
+Homepage: https://github.com/aws/aws-sdk-ruby
+Package-List: 
+ ruby-aws-sdk-core deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-aws-sdk-core
+Priority: extra
+Section: misc

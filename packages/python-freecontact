@@ -1,0 +1,26 @@
+Package: python-freecontact
+Binary: python3-freecontact
+Version: 1.1-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Laszlo Kajan <lkajan@debian.org>, Andreas Tille <tille@debian.org>, Alexandre Mestiashvili <mestia@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, libboost-python-dev, libfreecontact-dev, python3-all-dev
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e93e8bd7e64f269ddc24fc4e0534b099 2224 python-freecontact_1.1-5.dsc
+ 17a99d6514c125b4005f0cd494ae81a4 65968 python-freecontact_1.1.orig.tar.gz
+ 02c1ea9846bc30ea59fb3c5172ffec94 3976 python-freecontact_1.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-freecontact
+Vcs-Git: https://salsa.debian.org/med-team/python-freecontact.git
+Checksums-Sha256:
+ f9b20383d5098f65c2917af83a43c4d241babadcf72d1277bccbf19cbc4e4938 2224 python-freecontact_1.1-5.dsc
+ 895e06aa9f7878f7fff34b8f851ee361967a3cc1f3b441de32dbcbf1f31aaa85 65968 python-freecontact_1.1.orig.tar.gz
+ 222bdf44f55da6d3a8a2b6d38500b5cf7af98963c446273f34cbceeb6fe41a8d 3976 python-freecontact_1.1-5.debian.tar.xz
+Homepage: https://rostlab.org/owiki/index.php/FreeContact
+Package-List: 
+ python3-freecontact deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-freecontact
+Priority: optional
+Section: misc

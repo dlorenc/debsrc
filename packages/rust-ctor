@@ -1,0 +1,26 @@
+Package: rust-ctor
+Binary: librust-ctor-dev
+Version: 0.1.12-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+full-dev <!nocheck>, librust-syn-1+parsing-dev <!nocheck>, librust-syn-1+printing-dev <!nocheck>, librust-syn-1+proc-macro-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ bf7e33e6279bf18fc74db6d0fb4c1d69 2304 rust-ctor_0.1.12-1.dsc
+ 5482b17936ebc6b1e5882204409515fc 4740 rust-ctor_0.1.12.orig.tar.gz
+ 85370818a19512798e8d22016c65c9bd 2596 rust-ctor_0.1.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ctor
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ctor]
+Checksums-Sha256:
+ a681d5adfef1d7f05f3962c585444f37e24bd7542cd96321ad91dc63f34cd841 2304 rust-ctor_0.1.12-1.dsc
+ cd8ce37ad4184ab2ce004c33bf6379185d3b1c95801cab51026bd271bf68eedc 4740 rust-ctor_0.1.12.orig.tar.gz
+ 69cdcb9b36c2a72b6cad9c2a831f7da3130b14a2179df466e9b876ed3739cdd0 2596 rust-ctor_0.1.12-1.debian.tar.xz
+Package-List: 
+ librust-ctor-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-libc-print-0.1+default-dev
+Directory: pool/main/r/rust-ctor
+Priority: extra
+Section: misc

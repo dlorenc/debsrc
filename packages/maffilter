@@ -1,0 +1,27 @@
+Package: maffilter
+Binary: maffilter, maffilter-examples
+Version: 1.3.1+dfsg-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Julien Dutheil <julien.dutheil@univ-montp2.fr>, Pranav Ballaney <ballaneypranav@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, texinfo, libbpp-phyl-omics-dev (>= 2.4.1), libboost-iostreams-dev, zlib1g-dev, libbz2-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2eb2157c7c5fd895c7c25c8689f18ca2 2274 maffilter_1.3.1+dfsg-2.dsc
+ 3548c76d884bacc4ce267d70f304435e 78668340 maffilter_1.3.1+dfsg.orig.tar.xz
+ 79c02f29160fb66978b108b358fc5ee6 4588 maffilter_1.3.1+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/maffilter
+Vcs-Git: https://salsa.debian.org/med-team/maffilter.git
+Checksums-Sha256:
+ d9e224bcaaecd192da840bdce1261ea0693209b706928742bec109ea1fe53cb8 2274 maffilter_1.3.1+dfsg-2.dsc
+ 1767aae6061ca7d12682f7ded1e1b9f6ecad3d03fcfa02ff24b5351d51d8dc70 78668340 maffilter_1.3.1+dfsg.orig.tar.xz
+ 942949aaa7040723f02350ae32022698624d1b5531474357dab86cfb3739d13a 4588 maffilter_1.3.1+dfsg-2.debian.tar.xz
+Homepage: https://jydu.github.io/maffilter/
+Package-List: 
+ maffilter deb science optional arch=any
+ maffilter-examples deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/maffilter
+Priority: optional
+Section: misc

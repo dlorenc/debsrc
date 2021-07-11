@@ -1,0 +1,29 @@
+Package: gnome-todo
+Binary: gnome-todo, gnome-todo-common, libgnome-todo, libgnome-todo-dev, gir1.2-gtd-1.0
+Version: 3.28.1-6
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>, Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper-compat (= 12), meson (>= 0.41.0), gnome-pkg-tools, libglib2.0-dev (>= 2.43.4), libgtk-3-dev (>= 3.19.5), libgoa-1.0-dev (>= 3.2.0), libecal2.0-dev (>= 3.33.4), libedataserver1.2-dev (>= 3.33.4), libedataserverui1.2-dev (>= 3.33.4), libical-dev (>= 0.43), librest-dev, libpeas-dev (>= 1.17), gtk-doc-tools, libjson-glib-dev
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 806a72d39b88cf3df8ad6d652a773590 2607 gnome-todo_3.28.1-6.dsc
+ 795ba5027fbc0d790a40742468392cc6 751448 gnome-todo_3.28.1.orig.tar.xz
+ 8f7db397bcd0a814a671df8f8ab19c95 11736 gnome-todo_3.28.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-todo
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-todo.git
+Checksums-Sha256:
+ 85aa56da3aabe78ed6a83281a8ed081544825e2a7dec73a9173b2cf71540f482 2607 gnome-todo_3.28.1-6.dsc
+ c7571fc040d8901dd0e528282ef0655687f23f29d304057c72548ab3e2c2cf23 751448 gnome-todo_3.28.1.orig.tar.xz
+ 6df73eb1802d197031c96e512b96e79d1aef335540c2d4e2861f15f568a2bfdc 11736 gnome-todo_3.28.1-6.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Todo
+Package-List: 
+ gir1.2-gtd-1.0 deb introspection optional arch=any
+ gnome-todo deb gnome optional arch=any
+ gnome-todo-common deb gnome optional arch=all
+ libgnome-todo deb libs optional arch=any
+ libgnome-todo-dev deb libdevel optional arch=any
+Directory: pool/main/g/gnome-todo
+Priority: optional
+Section: misc

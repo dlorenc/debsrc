@@ -1,0 +1,58 @@
+Package: evolution-data-server
+Binary: evolution-data-server, evolution-data-server-common, evolution-data-server-tests, evolution-data-server-dev, evolution-data-server-doc, libedataserver-1.2-25, libedataserver1.2-dev, gir1.2-edataserver-1.2, libedataserverui-1.2-2, libedataserverui1.2-dev, gir1.2-edataserverui-1.2, libcamel-1.2-62, libcamel1.2-dev, gir1.2-camel-1.2, libebook-1.2-20, libebook1.2-dev, gir1.2-ebook-1.2, libedata-book-1.2-26, libedata-book1.2-dev, gir1.2-edatabook-1.2, gir1.2-ebookcontacts-1.2, libebook-contacts-1.2-3, libebook-contacts1.2-dev, libecal-2.0-1, libecal2.0-dev, gir1.2-ecal-2.0, libedata-cal-2.0-1, libedata-cal2.0-dev, gir1.2-edatacal-2.0, libebackend-1.2-10, libebackend1.2-dev, gir1.2-ebackend-1.2
+Version: 3.38.3-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, libtool, intltool (>= 0.35.5), libcanberra-gtk3-dev (>= 0.25), libdb-dev, libglib2.0-dev (>= 2.40), libglib2.0-doc (>= 2.40), libgdata-dev (>= 0.10), libgirepository1.0-dev (>= 1.59.1), libsecret-1-dev (>= 0.5), libgcr-3-dev (>= 3.4), libgoa-1.0-dev (>= 3.8), libgtk-3-dev (>= 3.10), libgweather-3-dev (>= 3.10), libical-dev (>= 3.0.7), libicu-dev, libjson-glib-dev (>= 1.0.4), libkrb5-dev, libldap2-dev, liboauth-dev (>= 0.9.4), librest-dev (>= 0.7), libnss3-dev, libnspr4-dev, libsoup2.4-dev (>= 2.42), libsqlite3-dev (>= 3.7.17), libwebkit2gtk-4.0-dev, libxml2-dev (>= 2.0.0), gtk-doc-tools (>= 1.14), gperf, pkg-config (>= 0.16), valac (>= 0.22), libphonenumber-dev [!hppa !hurd-any !kfreebsd-amd64 !kfreebsd-i386], db-util <!nocheck>, dbus <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 54e7b4346b1657fce291c8929d473922 5334 evolution-data-server_3.38.3-1.dsc
+ 89995b4a83ffcd3abd47abd05492eb8c 4662120 evolution-data-server_3.38.3.orig.tar.xz
+ 7307878af1344fe944cb78ea708b6e26 65068 evolution-data-server_3.38.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/evolution-data-server
+Vcs-Git: https://salsa.debian.org/gnome-team/evolution-data-server.git
+Checksums-Sha256:
+ 5e3349adfc0826af3e6bbe61bbc9d24bed1cf9c08d3674259135e9c25703eec4 5334 evolution-data-server_3.38.3-1.dsc
+ 9732f690b252aa7c0932c761740b5098a19705d1b6e4a5de2fad3a16e57e3ca7 4662120 evolution-data-server_3.38.3.orig.tar.xz
+ ddb0c5715a8418ef30e0d369b00797cd30bc24ceaf248895f587086e17d793b7 65068 evolution-data-server_3.38.3-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Evolution
+Package-List: 
+ evolution-data-server deb gnome optional arch=any
+ evolution-data-server-common deb gnome optional arch=all
+ evolution-data-server-dev deb devel optional arch=any
+ evolution-data-server-doc deb doc optional arch=all
+ evolution-data-server-tests deb gnome optional arch=any
+ gir1.2-camel-1.2 deb introspection optional arch=any
+ gir1.2-ebackend-1.2 deb introspection optional arch=any
+ gir1.2-ebook-1.2 deb introspection optional arch=any
+ gir1.2-ebookcontacts-1.2 deb introspection optional arch=any
+ gir1.2-ecal-2.0 deb introspection optional arch=any
+ gir1.2-edatabook-1.2 deb introspection optional arch=any
+ gir1.2-edatacal-2.0 deb introspection optional arch=any
+ gir1.2-edataserver-1.2 deb introspection optional arch=any
+ gir1.2-edataserverui-1.2 deb introspection optional arch=any
+ libcamel-1.2-62 deb libs optional arch=any
+ libcamel1.2-dev deb libdevel optional arch=any
+ libebackend-1.2-10 deb libs optional arch=any
+ libebackend1.2-dev deb libdevel optional arch=any
+ libebook-1.2-20 deb libs optional arch=any
+ libebook-contacts-1.2-3 deb libs optional arch=any
+ libebook-contacts1.2-dev deb libdevel optional arch=any
+ libebook1.2-dev deb libdevel optional arch=any
+ libecal-2.0-1 deb libs optional arch=any
+ libecal2.0-dev deb libdevel optional arch=any
+ libedata-book-1.2-26 deb libs optional arch=any
+ libedata-book1.2-dev deb libdevel optional arch=any
+ libedata-cal-2.0-1 deb libs optional arch=any
+ libedata-cal2.0-dev deb libdevel optional arch=any
+ libedataserver-1.2-25 deb libs optional arch=any
+ libedataserver1.2-dev deb libdevel optional arch=any
+ libedataserverui-1.2-2 deb libs optional arch=any
+ libedataserverui1.2-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dbus-test-runner, python3, python3-gi
+Directory: pool/main/e/evolution-data-server
+Priority: source
+Section: gnome

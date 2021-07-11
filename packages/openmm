@@ -1,0 +1,26 @@
+Package: openmm
+Binary: libopenmm-dev, libopenmm7.5
+Version: 7.5.0+dfsg-1
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Uploaders: Robert McGibbon <rmcgibbo@gmail.com>, Andreas Tille <tille@debian.org>, Andrius Merkys <merkys@debian.org>,
+Build-Depends: cmake, cython3, debhelper-compat (= 13), dh-python, doxygen, ocl-icd-libopencl1, python3-dev:any, python3-numpy <!nocheck>, python3-pytest <!nocheck>, python3-scipy <!nocheck>, swig
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ebde91c060fced9560fd2fd1aacf9cad 2249 openmm_7.5.0+dfsg-1.dsc
+ 3ac3b23722dc684cc7c399cc21b1d12e 10454924 openmm_7.5.0+dfsg.orig.tar.xz
+ 6aff2f1721a9c4ed711a1f80237e8211 13724 openmm_7.5.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debichem-team/openmm
+Vcs-Git: https://salsa.debian.org/debichem-team/openmm.git
+Checksums-Sha256:
+ 3642ac57faf692dad745f0b45ed791884ff0efb2b931768a76993444cd519d2f 2249 openmm_7.5.0+dfsg-1.dsc
+ 0ce4132cbb09ef91e751bb932021e70e96e8625a01deb07f06a3547f434fd817 10454924 openmm_7.5.0+dfsg.orig.tar.xz
+ 06e1c58e42841132cdd0026b636bd2e79b714395004c11b0f0094bb19dc91127 13724 openmm_7.5.0+dfsg-1.debian.tar.xz
+Homepage: https://simtk.org/home/openmm
+Package-List: 
+ libopenmm-dev deb libdevel optional arch=any
+ libopenmm7.5 deb libs optional arch=any
+Directory: pool/main/o/openmm
+Priority: extra
+Section: misc

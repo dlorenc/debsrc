@@ -1,0 +1,28 @@
+Package: cloudsql-proxy
+Binary: cloudsql-proxy, golang-github-googlecloudplatform-cloudsql-proxy-dev
+Version: 1.17.0-5
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Manoj Srivastava <srivasta@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-bazil-fuse-dev, golang-github-go-sql-driver-mysql-dev (>= 1.4), golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-oauth2-google-dev, golang-golang-x-sys-dev, golang-google-api-dev, golang-google-cloud-dev, golang-pq-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7b7471c58bb0e6e27dc27ab044897a4e 2565 cloudsql-proxy_1.17.0-5.dsc
+ d7f77c0cc89214cfb6796102a9aac804 67091 cloudsql-proxy_1.17.0.orig.tar.gz
+ 9c10680056f251b3ae80a5a308cf7459 7676 cloudsql-proxy_1.17.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/cloudsql-proxy
+Vcs-Git: https://salsa.debian.org/go-team/packages/cloudsql-proxy.git
+Checksums-Sha256:
+ cbefa95e5282b7c237e12c1e259f5b032a8b572f89cc001f3bda4b75d60987db 2565 cloudsql-proxy_1.17.0-5.dsc
+ 65c5a53003c5b9cc6d7dbf6856fd2f91fc016dadc3f921f9afd33a20fab7d087 67091 cloudsql-proxy_1.17.0.orig.tar.gz
+ a22171f7aedefd55c29d1322dbd54bb54557a48ab689be16e3f9e2d6666d3b6c 7676 cloudsql-proxy_1.17.0-5.debian.tar.xz
+Homepage: https://github.com/GoogleCloudPlatform/cloudsql-proxy
+Go-Import-Path: github.com/GoogleCloudPlatform/cloudsql-proxy
+Package-List: 
+ cloudsql-proxy deb golang optional arch=any
+ golang-github-googlecloudplatform-cloudsql-proxy-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/c/cloudsql-proxy
+Priority: extra
+Section: misc

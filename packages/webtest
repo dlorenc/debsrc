@@ -1,0 +1,27 @@
+Package: webtest
+Binary: python3-webtest, python-webtest-doc
+Version: 2.0.35-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Piotr Ożarowski <piotr@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: dh-python, python3-all, python3-setuptools, python3-webob, python3-sphinx, python3-six, python3-bs4, python3-waitress
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d0cd515190087d9a717ff2f25aa5274a 2143 webtest_2.0.35-1.dsc
+ a5d027ffa0991fdf20e305c62bd37791 76227 webtest_2.0.35.orig.tar.gz
+ 6a16ec6f206be12531a82ec9819d91ab 4904 webtest_2.0.35-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/webtest
+Vcs-Git: https://salsa.debian.org/python-team/packages/webtest.git
+Checksums-Sha256:
+ a80050f643bd8a22081b435a024117e4ec60baae91df36d112875cfd7aaf627a 2143 webtest_2.0.35-1.dsc
+ aac168b5b2b4f200af4e35867cf316712210e3d5db81c1cbdff38722647bb087 76227 webtest_2.0.35.orig.tar.gz
+ a8bacc9d65ae0db084d66498c6e6d09d66bcfaf6279289af09bb975d46c7c9bf 4904 webtest_2.0.35-1.debian.tar.xz
+Homepage: https://docs.pylonsproject.org/projects/webtest
+Package-List: 
+ python-webtest-doc deb doc optional arch=all
+ python3-webtest deb python optional arch=all
+Directory: pool/main/w/webtest
+Priority: source
+Section: python

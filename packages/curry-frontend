@@ -1,0 +1,29 @@
+Package: curry-frontend
+Binary: libghc-curry-frontend-dev, libghc-curry-frontend-prof, libghc-curry-frontend-doc, curry-frontend
+Version: 2.0.0-2
+Maintainer: Debian Curry Maintainers <pkg-curry-maintainers@lists.alioth.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Michael Hanus <mh@informatik.uni-kiel.de>,
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.8.3), ghc-prof, libghc-binary-dev, libghc-binary-prof, libghc-containers-dev, libghc-containers-prof, libghc-directory-dev, libghc-directory-prof, libghc-extra-prof, libghc-extra-dev, libghc-filepath-dev, libghc-filepath-prof, libghc-file-embed-dev, libghc-file-embed-prof, libghc-mtl-dev, libghc-mtl-prof, libghc-network-uri-dev (>= 2.6), libghc-network-uri-prof (>= 2.6), libghc-process-dev, libghc-process-prof, libghc-set-extra-dev, libghc-set-extra-prof, libghc-syb-dev, libghc-syb-prof, libghc-transformers-dev, libghc-transformers-prof
+Build-Depends-Indep: ghc-doc, libghc-base-doc, libghc-binary-doc, libghc-containers-doc, libghc-directory-doc, libghc-extra-doc, libghc-filepath-doc, libghc-file-embed-doc, libghc-mtl-doc, libghc-network-uri-doc, libghc-process-doc, libghc-set-extra-doc, libghc-syb-doc, libghc-time-doc, libghc-transformers-doc
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 68b6d05ac5e95ad61e2f552a57c4643a 3203 curry-frontend_2.0.0-2.dsc
+ a271d1c121cc0a13cf4c2fec0527ae4b 417121 curry-frontend_2.0.0.orig.tar.gz
+ dd056d7cb0eca389e0be5dfb2eaebd41 8724 curry-frontend_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-curry-team/curry-frontend
+Vcs-Git: https://salsa.debian.org/pkg-curry-team/curry-frontend.git
+Checksums-Sha256:
+ c91b4f0c66d9d1a6b3cff15e6efd2bee6a63c92d38c589be820bc7b044963448 3203 curry-frontend_2.0.0-2.dsc
+ ab033c337593e34a6b7268c380e108f665d44e1dc2f53bb3b95e249ba80a44c5 417121 curry-frontend_2.0.0.orig.tar.gz
+ 4db382c9e23280462bd2945a10b7c1246e3da014a74886bca7c5f60e54737e33 8724 curry-frontend_2.0.0-2.debian.tar.xz
+Homepage: http://curry-language.org
+Package-List: 
+ curry-frontend deb misc optional arch=any
+ libghc-curry-frontend-dev deb haskell optional arch=any
+ libghc-curry-frontend-doc deb doc optional arch=all
+ libghc-curry-frontend-prof deb haskell optional arch=any
+Directory: pool/main/c/curry-frontend
+Priority: optional
+Section: misc

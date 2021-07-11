@@ -1,0 +1,28 @@
+Package: haskell-th-reify-compat
+Binary: libghc-th-reify-compat-dev, libghc-th-reify-compat-prof, libghc-th-reify-compat-doc
+Version: 0.0.1.5-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Kei Hibino <ex8k.hibino@gmail.com>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7ee8d0611ee238cf783e4074a89e8189 2443 haskell-th-reify-compat_0.0.1.5-2.dsc
+ 2e15a87640754b32eb6b8ba15e838a7c 2407 haskell-th-reify-compat_0.0.1.5.orig.tar.gz
+ 5c5e6a48336119d6772b955380d159f7 2564 haskell-th-reify-compat_0.0.1.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-th-reify-compat
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-th-reify-compat]
+Checksums-Sha256:
+ 2e00cf015f51189b0a042494819c48df4e5f5974c5bfbdbbf68bac598ad7e874 2443 haskell-th-reify-compat_0.0.1.5-2.dsc
+ af1b2e7e39e029d8c9a20efdd7b49d4d15616ac360adddc7a09560b9a223359c 2407 haskell-th-reify-compat_0.0.1.5.orig.tar.gz
+ 774af794e64194f4fbf64165961c928c4a2fb99895f42d4bd402393812ab3045 2564 haskell-th-reify-compat_0.0.1.5-2.debian.tar.xz
+Homepage: https://github.com/khibino/haskell-th-reify-compat/
+Package-List: 
+ libghc-th-reify-compat-dev deb haskell optional arch=any
+ libghc-th-reify-compat-doc deb doc optional arch=all
+ libghc-th-reify-compat-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-th-reify-compat
+Priority: optional
+Section: misc

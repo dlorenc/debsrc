@@ -1,0 +1,27 @@
+Package: pg-partman
+Binary: postgresql-13-partman
+Version: 4.5.1-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>,
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 219~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e2f632e2dccd9d16bffcf15baa498e2c 2169 pg-partman_4.5.1-1.dsc
+ 55a1a2f9f9de977803cbff9c910dbbea 1161985 pg-partman_4.5.1.orig.tar.gz
+ b2455ca7bb2a75bcea95063130222be6 3904 pg-partman_4.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pg-partman
+Vcs-Git: https://salsa.debian.org/postgresql/pg-partman.git
+Checksums-Sha256:
+ 9e6ac86d46822ba704fa307d203e34c7a75315e4c2a80176e42bc8ebd83d28c6 2169 pg-partman_4.5.1-1.dsc
+ c37ca049d37eb5a6fceea805007acfadaadd2c2fa70938ffb6f7a918b5772c37 1161985 pg-partman_4.5.1.orig.tar.gz
+ f3b82b6933d8abd1ddfe445a9640eb23bb72740d4911abd46fb0394cb6cd8369 3904 pg-partman_4.5.1-1.debian.tar.xz
+Homepage: https://github.com/pgpartman/pg_partman
+Package-List: 
+ postgresql-13-partman deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libtap-parser-sourcehandler-pgtap-perl, postgresql-13-pgtap, postgresql-common
+Directory: pool/main/p/pg-partman
+Priority: optional
+Section: misc

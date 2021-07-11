@@ -1,0 +1,31 @@
+Package: rust-linked-hash-map
+Binary: librust-linked-hash-map-dev, librust-linked-hash-map+heapsize-dev, librust-linked-hash-map+serde-dev, librust-linked-hash-map+serde-impl-dev, librust-linked-hash-map+serde-test-dev
+Version: 0.5.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c8d8b6710a622bfbfc5306804124a7ce 2813 rust-linked-hash-map_0.5.4-1.dsc
+ 0d60bc25ce9a0383bf64efc300f4cb16 16166 rust-linked-hash-map_0.5.4.orig.tar.gz
+ 271ab76de4f5e91bb8e05fa86ad31361 3360 rust-linked-hash-map_0.5.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/linked-hash-map
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/linked-hash-map]
+Checksums-Sha256:
+ 514a96061d2e25aeb3f7d9a843fa3c36963ec26a5b6ddf2fc664e458ab14ae64 2813 rust-linked-hash-map_0.5.4-1.dsc
+ 7fb9b38af92608140b86b693604b9ffcc5824240a484d1ecd4795bacb2fe88f3 16166 rust-linked-hash-map_0.5.4.orig.tar.gz
+ 038db90f7bd52f306b70fed39cfee5f5eac211f35ed3ab7fb261a2aa33e5ccab 3360 rust-linked-hash-map_0.5.4-1.debian.tar.xz
+Homepage: https://github.com/contain-rs/linked-hash-map
+Package-List: 
+ librust-linked-hash-map+heapsize-dev deb rust optional arch=any
+ librust-linked-hash-map+serde-dev deb rust optional arch=any
+ librust-linked-hash-map+serde-impl-dev deb rust optional arch=any
+ librust-linked-hash-map+serde-test-dev deb rust optional arch=any
+ librust-linked-hash-map-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-linked-hash-map
+Priority: extra
+Section: misc

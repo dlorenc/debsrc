@@ -1,0 +1,27 @@
+Package: rust-smallvec
+Binary: librust-smallvec-dev, librust-smallvec+serde-dev
+Version: 1.4.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 42e5313231c2f0ba8df73631fd75c8a2 2288 rust-smallvec_1.4.2-2.dsc
+ 51cdbc77f4b359baa519c19e32abe0a0 26109 rust-smallvec_1.4.2.orig.tar.gz
+ 5c3672232527790cdac15307c6920cfa 4676 rust-smallvec_1.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/smallvec
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/smallvec]
+Checksums-Sha256:
+ e216bc72df7cee0b8b32b147161320360a2bd6ae0203c8cb2d45ad621af5ec66 2288 rust-smallvec_1.4.2-2.dsc
+ fbee7696b84bbf3d89a1c2eccff0850e3047ed46bfcd2e92c29a2d074d57e252 26109 rust-smallvec_1.4.2.orig.tar.gz
+ 8a47b4aefed9d17dfe1f2894bfa671ec5f746ab2dce911b7af7470e226bc9757 4676 rust-smallvec_1.4.2-2.debian.tar.xz
+Package-List: 
+ librust-smallvec+serde-dev deb rust optional arch=any
+ librust-smallvec-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-bincode-1+default-dev
+Directory: pool/main/r/rust-smallvec
+Priority: extra
+Section: misc

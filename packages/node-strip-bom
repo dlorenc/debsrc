@@ -1,0 +1,26 @@
+Package: node-strip-bom
+Binary: node-strip-bom
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Shanavas M <shanavas.m2@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 05a30c837af13d8a28922d0cc836dda6 2061 node-strip-bom_4.0.0-1.dsc
+ 66e43970c4cf7887fba349f2d4213f3b 2910 node-strip-bom_4.0.0.orig.tar.gz
+ 5e0042918ea67a1f04eb614d92432449 2916 node-strip-bom_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-strip-bom
+Vcs-Git: https://salsa.debian.org/js-team/node-strip-bom.git
+Checksums-Sha256:
+ ef8352a624e73a1e72bd9ba8ecd7a7be49b2dbaa88f25599da812321a0b7ba19 2061 node-strip-bom_4.0.0-1.dsc
+ 8ea8641bcaffefa9997b252ef1ba2d6a3d56fd399e0322a4fe7971661616051c 2910 node-strip-bom_4.0.0.orig.tar.gz
+ 05b967e2c53378085e6208250492bc5d8da931002a38f17e50a7ec36fb2cd486 2916 node-strip-bom_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/strip-bom
+Package-List: 
+ node-strip-bom deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-strip-bom
+Priority: optional
+Section: javascript

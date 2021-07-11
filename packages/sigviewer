@@ -1,0 +1,25 @@
+Package: sigviewer
+Binary: sigviewer
+Version: 0.6.4-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com> Alois Schlögl <alois.schloegl@gmail.com>
+Build-Depends: debhelper-compat (= 13), qtbase5-dev, qttools5-dev, libfftw3-dev, libboost-dev, libbiosig-dev (>= 1.9.3), libxdf-dev, libsuitesparse-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 655aaa2aadf8e6b117219fbae1c14ab5 2153 sigviewer_0.6.4-1.dsc
+ efa0c7ce14575f25db9d5358f88301b1 354030 sigviewer_0.6.4.orig.tar.gz
+ ad5945bab162a5de1b8454fac5f5d098 3848 sigviewer_0.6.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/sigviewer
+Vcs-Git: https://salsa.debian.org/med-team/sigviewer.git
+Checksums-Sha256:
+ 3c60e23b83b2aabc54fc4436d4172ec1ca783f4094eaf49828af045aa2c6d711 2153 sigviewer_0.6.4-1.dsc
+ e64516b0d5a2ac65b1ef496a6666cdac8919b67eecd8d5eb6b7cbf2493314367 354030 sigviewer_0.6.4.orig.tar.gz
+ 55b09459cce9e97d1db7317ce0fa201bdc1ad2253bb14c7a5f9b8d946b963cc3 3848 sigviewer_0.6.4-1.debian.tar.xz
+Homepage: https://github.com/cbrnr/sigviewer
+Package-List: 
+ sigviewer deb science optional arch=any
+Directory: pool/main/s/sigviewer
+Priority: source
+Section: science

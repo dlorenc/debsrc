@@ -1,0 +1,26 @@
+Package: rust-include-dir-impl
+Binary: librust-include-dir-impl-dev
+Version: 0.5.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Igor Petruk <ipetruk@google.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-failure-0.1+default-dev <!nocheck>, librust-proc-macro-hack-0.5+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 605f0226863add7f8421f78ec19473c6 2417 rust-include-dir-impl_0.5.0-1.dsc
+ 2efc094465331883cffb5311111568f2 2124 rust-include-dir-impl_0.5.0.orig.tar.gz
+ 8f8b148362d6b53e63d62a28827b7d1a 2536 rust-include-dir-impl_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/include-dir-impl
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/include-dir-impl]
+Checksums-Sha256:
+ 6c83791f8c1946bd7503554afdfbf7d5c88324b057437985da340bb4cff62bd1 2417 rust-include-dir-impl_0.5.0-1.dsc
+ f03b4f7b64011df46794cc221854be5c3084345e260576518b91693866d0afd1 2124 rust-include-dir-impl_0.5.0.orig.tar.gz
+ c77a7f119166cc9560935e9b0325f02f9b803b901316e009f21bf0ccd9e974d8 2536 rust-include-dir-impl_0.5.0-1.debian.tar.xz
+Package-List: 
+ librust-include-dir-impl-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-include-dir-impl
+Priority: extra
+Section: misc

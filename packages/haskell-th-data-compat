@@ -1,0 +1,28 @@
+Package: haskell-th-data-compat
+Binary: libghc-th-data-compat-dev, libghc-th-data-compat-prof, libghc-th-data-compat-doc
+Version: 0.1.0.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Kei Hibino <ex8k.hibino@gmail.com>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2324b3cfe40674a36708b704b24cecc5 2427 haskell-th-data-compat_0.1.0.0-1.dsc
+ 49fec5ad80b8c90cf907cd4db5f991f0 3227 haskell-th-data-compat_0.1.0.0.orig.tar.gz
+ 79ef21910541fbdabfdacc31dc1d1551 2560 haskell-th-data-compat_0.1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-th-data-compat
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-th-data-compat]
+Checksums-Sha256:
+ f6233329f27bb998731e678683d10c8eee2ff4abd0abb6f9f49d665fd55d8013 2427 haskell-th-data-compat_0.1.0.0-1.dsc
+ 5d5213f9950e035b49541f6e4d37449ad2f6dfc127d8deb507c6badf576ba50d 3227 haskell-th-data-compat_0.1.0.0.orig.tar.gz
+ aaf03f01158fd4dbcc5fab1f2022e09effe6d00038362aaf3bb3c982fe5868c9 2560 haskell-th-data-compat_0.1.0.0-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/th-data-compat
+Package-List: 
+ libghc-th-data-compat-dev deb haskell optional arch=any
+ libghc-th-data-compat-doc deb doc optional arch=all
+ libghc-th-data-compat-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-th-data-compat
+Priority: optional
+Section: misc

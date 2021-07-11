@@ -1,0 +1,26 @@
+Package: haskell-focuslist
+Binary: libghc-focuslist-dev, libghc-focuslist-prof, libghc-focuslist-doc
+Version: 0.1.0.2-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-quickcheck2-dev (>= 2.11.3), libghc-quickcheck2-prof, libghc-lens-dev (>= 4.16), libghc-lens-prof, libghc-mono-traversable-dev, libghc-mono-traversable-prof
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc, libghc-lens-doc, libghc-mono-traversable-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0be32b80aaadd4d253ed7f8ae5ec803b 2416 haskell-focuslist_0.1.0.2-2.dsc
+ e16211779951a23331d238af062af8f9 13909 haskell-focuslist_0.1.0.2.orig.tar.gz
+ 88f010b25281c7a2c934a1ff4d1c2520 2248 haskell-focuslist_0.1.0.2-2.debian.tar.xz
+Checksums-Sha256:
+ c5a5d2df8b6e38ba3e02b21191a377f85ba70707a1607478bcb0b5e8770b5f88 2416 haskell-focuslist_0.1.0.2-2.dsc
+ 78527aad6212617d4c8c3183c02750693d5bd30be1a26f1caff7db434b31481b 13909 haskell-focuslist_0.1.0.2.orig.tar.gz
+ 78a6eb9796f8cf39cdba324afa415ad10dbe833a74c60250d2a63f89296c0fc3 2248 haskell-focuslist_0.1.0.2-2.debian.tar.xz
+Homepage: https://github.com/cdepillabout/focuslist
+Package-List: 
+ libghc-focuslist-dev deb haskell optional arch=any
+ libghc-focuslist-doc deb doc optional arch=all
+ libghc-focuslist-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-focuslist
+Priority: extra
+Section: misc

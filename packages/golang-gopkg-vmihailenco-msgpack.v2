@@ -1,0 +1,27 @@
+Package: golang-gopkg-vmihailenco-msgpack.v2
+Binary: golang-gopkg-vmihailenco-msgpack.v2-dev
+Version: 4.3.1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-check.v1-dev, golang-github-vmihailenco-tagparser-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d905407e057a16802a4c9a0e5fdee22f 1829 golang-gopkg-vmihailenco-msgpack.v2_4.3.1-2.dsc
+ f793467e643136fbd59633b51521ce2f 25192 golang-gopkg-vmihailenco-msgpack.v2_4.3.1.orig.tar.xz
+ 308d5a55f2af1867b1a310b2ae3fdb97 3576 golang-gopkg-vmihailenco-msgpack.v2_4.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-gopkg-vmihailenco-msgpack.v2
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-gopkg-vmihailenco-msgpack.v2.git
+Checksums-Sha256:
+ 32e5c81996cb99493deb3df93ddb810b336bb97878172532a9bba8c725487031 1829 golang-gopkg-vmihailenco-msgpack.v2_4.3.1-2.dsc
+ 89dae3ce845815265cecfbb215026e341a99df7096399b737cf91e13f29dfbf3 25192 golang-gopkg-vmihailenco-msgpack.v2_4.3.1.orig.tar.xz
+ 6cef9a5047f2ec4ed7d1b3c5fede29fafca25f16892e6661f5fa85593ba502da 3576 golang-gopkg-vmihailenco-msgpack.v2_4.3.1-2.debian.tar.xz
+Homepage: https://github.com/vmihailenco/msgpack
+Go-Import-Path: github.com/vmihailenco/msgpack
+Package-List: 
+ golang-gopkg-vmihailenco-msgpack.v2-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-gopkg-vmihailenco-msgpack.v2
+Priority: extra
+Section: golang

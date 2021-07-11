@@ -1,0 +1,27 @@
+Package: ruby-kgio
+Binary: ruby-kgio
+Version: 2.11.2-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hleb Valoshka <375gnu@gmail.com>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1.0~), rake
+Architecture: kfreebsd-any linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ afeb721bc1f7000c16e751a91536eee2 2043 ruby-kgio_2.11.2-2.dsc
+ 3409bdc0a950a6ad12a1ef9b1ded9d82 56772 ruby-kgio_2.11.2.orig.tar.gz
+ 7e27417481876b1f26ee1aaadf855aea 4544 ruby-kgio_2.11.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-kgio
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-kgio.git
+Checksums-Sha256:
+ fbb3a845111507c92225f5316f1ce6b6bdf1abe2c9eb4d191e37ce4368ac0d37 2043 ruby-kgio_2.11.2-2.dsc
+ 234462a0c15565d752150894abd127a5b4dd06fd35478abbbed9e9d0551efdee 56772 ruby-kgio_2.11.2.orig.tar.gz
+ 5ba2ae1bbc14238f73502b8fe6459b42991d3c91d257a21335d7a88d93922d70 4544 ruby-kgio_2.11.2-2.debian.tar.xz
+Homepage: https://bogomips.org/kgio/
+Package-List: 
+ ruby-kgio deb ruby optional arch=kfreebsd-any,linux-any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-kgio
+Priority: source
+Section: ruby

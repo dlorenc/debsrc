@@ -1,0 +1,26 @@
+Package: montage-wrapper
+Binary: python3-montage-wrapper
+Version: 0.9.9-4
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper (>= 12), dh-python, montage, python3-all, python3-astropy, python3-astropy-helpers, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 076c431ebebe0e522ae0d9401e381422 2157 montage-wrapper_0.9.9-4.dsc
+ 46a93020ec11675d5bdb82d00f65f0b2 187490 montage-wrapper_0.9.9.orig.tar.gz
+ 91e28fbfc8deb3a455c54171bc3c773a 4040 montage-wrapper_0.9.9-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/montage-wrapper
+Vcs-Git: https://salsa.debian.org/debian-astro-team/montage-wrapper.git
+Checksums-Sha256:
+ e5ed046bdaedbffcbf176fcff294525ae24f64d513f1f765c225a0bd5904b12d 2157 montage-wrapper_0.9.9-4.dsc
+ cdf7722297c95ef0c3065de96636d467cb9db4049298f4df10957d209e64a724 187490 montage-wrapper_0.9.9.orig.tar.gz
+ a56e3ad8a99cddff9fc860a72cc09ef991943328f0cac20ff7e3a51fb0d79576 4040 montage-wrapper_0.9.9-4.debian.tar.xz
+Homepage: https://www.astropy.org/montage-wrapper/
+Package-List: 
+ python3-montage-wrapper deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/montage-wrapper
+Priority: optional
+Section: misc

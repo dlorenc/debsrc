@@ -1,0 +1,27 @@
+Package: numactl
+Binary: numactl, libnuma1, libnuma-dev
+Version: 2.0.12-1
+Maintainer: Ian Wienand <ianw@debian.org>
+Uploaders: Al Stone <ahs3@debian.org>
+Build-Depends: cdbs, autotools-dev, dh-autoreconf, debhelper (>= 9.20160114~), dh-buildinfo
+Architecture: linux-any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ b4cc65fb81fae9802cc7db535a9d273f 2033 numactl_2.0.12-1.dsc
+ 98e16bfa8b19145c252a4ecee3ea0636 421425 numactl_2.0.12.orig.tar.gz
+ 1042960ac7f6d0a0355665a261366ce5 6756 numactl_2.0.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/numactl
+Vcs-Git: https://salsa.debian.org/debian/numactl.git
+Checksums-Sha256:
+ 3b308b110de0728c5524b3135d871e55ebb6e4b93cdc583e93c4222219fe4d08 2033 numactl_2.0.12-1.dsc
+ 2e67513a62168de4777da20d89cdab66d75bcd3badc4256f6b190a8111cd93f8 421425 numactl_2.0.12.orig.tar.gz
+ 966724cac8f309b33959ae9922b3e5ab58ea821e2e802d96425e1eaada639a33 6756 numactl_2.0.12-1.debian.tar.xz
+Homepage: https://github.com/numactl/numactl
+Package-List: 
+ libnuma-dev deb libdevel optional arch=linux-any
+ libnuma1 deb libs optional arch=linux-any
+ numactl deb admin optional arch=linux-any
+Directory: pool/main/n/numactl
+Priority: source
+Section: admin

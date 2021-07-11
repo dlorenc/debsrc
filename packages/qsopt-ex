@@ -1,0 +1,27 @@
+Package: qsopt-ex
+Binary: qsopt-ex, libqsopt-ex-dev, libqsopt-ex2
+Version: 2.5.10.3-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Afif Elghraoui <afif@ghraoui.name>
+Build-Depends: debhelper (>= 11~), d-shlibs, libgmp-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ b73342d3aa7eb090bd61b68b60dac67f 2115 qsopt-ex_2.5.10.3-2.dsc
+ 88f6190995c8f0a072244c2287570b6e 322815 qsopt-ex_2.5.10.3.orig.tar.gz
+ 792f2b07607617f456b5a90a485d54c7 3080 qsopt-ex_2.5.10.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/qsopt-ex
+Vcs-Git: https://salsa.debian.org/med-team/qsopt-ex.git
+Checksums-Sha256:
+ 1215ac94ec7f7cfc331abded3cfd5ad9f874f8b011d986fbe83615cb390dd515 2115 qsopt-ex_2.5.10.3-2.dsc
+ ca221aac6532766f968eb35185f8aa44eca83ca8224a557d07e80f9ecfc664bf 322815 qsopt-ex_2.5.10.3.orig.tar.gz
+ b0e00a5d160c1b3ffc8ecddd3e12b3dc3d8846b4a4726a33611066f51f7eb0e3 3080 qsopt-ex_2.5.10.3-2.debian.tar.xz
+Homepage: http://www.dii.uchile.cl/~daespino/ESolver_doc/main.html
+Package-List: 
+ libqsopt-ex-dev deb libdevel optional arch=any
+ libqsopt-ex2 deb libs optional arch=any
+ qsopt-ex deb math optional arch=any
+Directory: pool/main/q/qsopt-ex
+Priority: optional
+Section: misc

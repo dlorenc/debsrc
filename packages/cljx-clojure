@@ -1,0 +1,26 @@
+Package: cljx-clojure
+Binary: libcljx-clojure
+Version: 0.6.0-3
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Louis-Philippe Véronneau <pollo@debian.org>
+Build-Depends: debhelper-compat (= 13), javahelper, maven-repo-helper, default-jdk, libclojure-java, libcore-match-clojure (>= 1.0.0), libsjacket-clojure, libwatchtower-clojure, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b1980b56f8c2d4e13c9ebb5f0802ef4f 2148 cljx-clojure_0.6.0-3.dsc
+ 1e1c582a5fcdb708729955953da33a98 13722 cljx-clojure_0.6.0.orig.tar.gz
+ 1f31ad7f93da621a023c9c5f3d1a0fcc 6792 cljx-clojure_0.6.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/cljx-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/cljx-clojure.git
+Checksums-Sha256:
+ 3c26af06b7ad88dde9e3d40369522598d602354937553a2401d847e5c45ffba5 2148 cljx-clojure_0.6.0-3.dsc
+ 897d12fb005400ddec530e036ce315e4e500f664bd26c8b245040302b5fa047d 13722 cljx-clojure_0.6.0.orig.tar.gz
+ eff45c3f470e42ebdd00a0bb0def77d585ae7ee5abea1df3fcda3972d84e5f26 6792 cljx-clojure_0.6.0-3.debian.tar.xz
+Homepage: https://github.com/lynaghk/cljx
+Package-List: 
+ libcljx-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/c/cljx-clojure
+Priority: extra
+Section: misc

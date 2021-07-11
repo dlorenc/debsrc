@@ -1,0 +1,26 @@
+Package: konclude
+Binary: konclude
+Version: 0.7.0+1137~dfsg-1
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: debhelper-compat (= 13), help2man <!nodoc>, libjemalloc-dev, libraptor2-dev, librdf0-dev, libtest-command-simple-perl, pandoc <!nodoc>, perl <!nocheck>, qt5-qmake, qtbase5-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6f3de093967498e00260484a9d62ca24 2116 konclude_0.7.0+1137~dfsg-1.dsc
+ 6e66b4aaca86e078ffded7ecee9ebc7c 2205528 konclude_0.7.0+1137~dfsg.orig.tar.xz
+ f28f2fb698b4bd03ef1c203524820929 32612 konclude_0.7.0+1137~dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/konclude
+Vcs-Git: https://salsa.debian.org/debian/konclude.git
+Checksums-Sha256:
+ 8f663da82fb711cf1c515885b11184516230150bc8c497581de04178ffb7b606 2116 konclude_0.7.0+1137~dfsg-1.dsc
+ 96f5872d2127040057876f4271d3eb573044cb1637afe8025f59400a76d99c33 2205528 konclude_0.7.0+1137~dfsg.orig.tar.xz
+ 178e77728fec16995a2513bf60ccbe87b0c5f3fd293a9f6adf100427879be794 32612 konclude_0.7.0+1137~dfsg-1.debian.tar.xz
+Homepage: http://www.konclude.com/
+Package-List: 
+ konclude deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libtest-command-simple-perl, perl
+Directory: pool/main/k/konclude
+Priority: optional
+Section: misc

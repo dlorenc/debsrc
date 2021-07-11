@@ -1,0 +1,30 @@
+Package: eom
+Binary: eom, eom-common, eom-dev, gir1.2-eom-1.0, gir1.2-eom
+Version: 1.24.1-1
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>, Stefano Karapetsas <stefano@karapetsas.com>, Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: autoconf-archive, debhelper-compat (= 13), dpkg-dev (>= 1.16.1.1), gobject-introspection, gtk-doc-tools, intltool, libdconf-dev, libexempi-dev, libexif-dev, libgirepository1.0-dev, libglib2.0-dev, libgtk-3-dev, libjpeg-dev, liblcms2-dev, libmate-desktop-dev (>= 1.18), libpeas-dev, librsvg2-dev (>= 2.36.2), libstartup-notification0-dev, libxml2-dev, mate-common (>= 1.18), shared-mime-info, x11proto-core-dev, yelp-tools, zlib1g-dev
+Build-Depends-Indep: libglib2.0-doc, libgtk-3-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cd5345e5d2ef7d2e2b3766b316e8efea 2735 eom_1.24.1-1.dsc
+ 5b919128f18e679d4b09f8a1bbc1d88b 1854680 eom_1.24.1.orig.tar.xz
+ 5e210b416f03957be02f1f56907fa620 8580 eom_1.24.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-mate-team/eom
+Vcs-Git: https://salsa.debian.org/debian-mate-team/eom.git
+Checksums-Sha256:
+ 20d7ac2fbcf557753d6396a3dc3a5cf2db8dd16c83e323b0989f0cbb3a31cf52 2735 eom_1.24.1-1.dsc
+ 74c61bff3914575f958d80732e790b43761a49941fed302da29369263e1ec002 1854680 eom_1.24.1.orig.tar.xz
+ 2d8bd0b619772bda02864cd2c84d5ed4336077d71380a7ceaa6d230514819dca 8580 eom_1.24.1-1.debian.tar.xz
+Homepage: http://www.mate-desktop.org/
+Package-List: 
+ eom deb graphics optional arch=any
+ eom-common deb graphics optional arch=all
+ eom-dev deb libdevel optional arch=any
+ gir1.2-eom deb oldlibs optional arch=any
+ gir1.2-eom-1.0 deb introspection optional arch=any
+Directory: pool/main/e/eom
+Priority: optional
+Section: misc

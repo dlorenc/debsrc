@@ -1,0 +1,27 @@
+Package: golang-github-aleksi-pointer
+Binary: golang-github-aleksi-pointer-dev
+Version: 1.1.0-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2db8cd230142aa33a01a92602bd33928 2240 golang-github-aleksi-pointer_1.1.0-2.dsc
+ f20dbb456da52bf103c0e1e973ae475c 4664 golang-github-aleksi-pointer_1.1.0.orig.tar.gz
+ 9dde15ee5e031ab9c280fe9abb4e7d00 2768 golang-github-aleksi-pointer_1.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-aleksi-pointer
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-aleksi-pointer.git
+Checksums-Sha256:
+ 5ded7366fc2178847e2e9c630c265cce16864e42301e980fd7a1d9a674d2fbd6 2240 golang-github-aleksi-pointer_1.1.0-2.dsc
+ 47f59b547999f8dc6f2fdd347cdd0351e31e1a9260190b0cfb61d5dd7db87a8d 4664 golang-github-aleksi-pointer_1.1.0.orig.tar.gz
+ 47f8e07ce1ae16d8c6c38c34bd335952c3ba22f938bfa0b8efe4e56f66797856 2768 golang-github-aleksi-pointer_1.1.0-2.debian.tar.xz
+Homepage: https://github.com/AlekSi/pointer
+Go-Import-Path: github.com/AlekSi/pointer
+Package-List: 
+ golang-github-aleksi-pointer-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-aleksi-pointer
+Priority: extra
+Section: golang

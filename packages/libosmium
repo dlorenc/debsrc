@@ -1,0 +1,26 @@
+Package: libosmium
+Binary: libosmium2-dev, libosmium2-doc
+Version: 2.16.0-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), doxygen, cmake, graphviz, libboost-dev, libbz2-dev, libexpat1-dev, libgdal-dev, libgeos++-dev, liblz4-dev, libprotozero-dev (>= 1.6.3), libsparsehash-dev, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0a47a10cb73b2055db0318a0291339cd 2167 libosmium_2.16.0-1.dsc
+ fdfee05fe99ce79576ac8a7e98d5ac2d 508536 libosmium_2.16.0.orig.tar.gz
+ 81e28e5c9fbbcfbf58916d167df2f973 6408 libosmium_2.16.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/libosmium/
+Vcs-Git: https://salsa.debian.org/debian-gis-team/libosmium.git
+Checksums-Sha256:
+ 9d655a2047db6f87485489ae598898bc75526cc3b68268bffaaea8de5ed9ba5d 2167 libosmium_2.16.0-1.dsc
+ 42bbef97226d7db7ce3eeb474603e5b1f2f0f86cec85498868e9416e7cdf5bd5 508536 libosmium_2.16.0.orig.tar.gz
+ c1acf70db8ca3994e90022d769c75be859c47fbb15dbe7f42b23932a7b869257 6408 libosmium_2.16.0-1.debian.tar.xz
+Homepage: https://osmcode.org/libosmium/
+Package-List: 
+ libosmium2-dev deb libdevel optional arch=any
+ libosmium2-doc deb doc optional arch=all
+Directory: pool/main/libo/libosmium
+Priority: optional
+Section: misc

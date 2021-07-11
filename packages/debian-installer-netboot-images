@@ -1,0 +1,29 @@
+Package: debian-installer-netboot-images
+Binary: debian-installer-11-netboot-amd64, debian-installer-11-netboot-arm64, debian-installer-11-netboot-armel, debian-installer-11-netboot-armhf, debian-installer-11-netboot-i386, debian-installer-11-netboot-mips64el, debian-installer-11-netboot-mipsel, debian-installer-11-netboot-ppc64el
+Version: 20210606+fixed1
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Didier Raboud <odyx@debian.org>, Cyril Brulebois <kibi@debian.org>
+Build-Depends: debhelper-compat (= 13), wget, debian-archive-keyring, gpgv, dctrl-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ fba97f0a144845af98da59ad0fd2f97f 2613 debian-installer-netboot-images_20210606+fixed1.dsc
+ 2790f3ae7a7d901ad7b71a4fd4a25039 7804 debian-installer-netboot-images_20210606+fixed1.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/debian-installer-netboot-images
+Vcs-Git: https://salsa.debian.org/installer-team/debian-installer-netboot-images.git
+Checksums-Sha256:
+ cc599457c63ae81f13cb2466e3cf6ac0731a7997cbfe5f506712d44c0c715756 2613 debian-installer-netboot-images_20210606+fixed1.dsc
+ 937124375bf8ecc58814bf447b45ab7e2ccd5fbda3c31e15df4a8683bd494e2d 7804 debian-installer-netboot-images_20210606+fixed1.tar.xz
+Package-List: 
+ debian-installer-11-netboot-amd64 deb misc optional arch=all
+ debian-installer-11-netboot-arm64 deb misc optional arch=all
+ debian-installer-11-netboot-armel deb misc optional arch=all
+ debian-installer-11-netboot-armhf deb misc optional arch=all
+ debian-installer-11-netboot-i386 deb misc optional arch=all
+ debian-installer-11-netboot-mips64el deb misc optional arch=all
+ debian-installer-11-netboot-mipsel deb misc optional arch=all
+ debian-installer-11-netboot-ppc64el deb misc optional arch=all
+Directory: pool/main/d/debian-installer-netboot-images
+Priority: source
+Section: misc

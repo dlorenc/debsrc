@@ -1,0 +1,26 @@
+Package: gmap
+Binary: gmap
+Version: 2021-02-22+ds-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Shaun Jackman <sjackman@debian.org>, Andreas Tille <tille@debian.org>, Alexandre Mestiashvili <mestia@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), help2man, libbz2-dev, zlib1g-dev
+Architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el riscv64
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9380ba44046b6c9e80bbe1021cd96518 2216 gmap_2021-02-22+ds-1.dsc
+ 5cc7f56d6024ad70dd49c6f3f63f71d6 2489952 gmap_2021-02-22+ds.orig.tar.xz
+ 3e3b95ae187462e07504e08a03ca726f 11536 gmap_2021-02-22+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/gmap
+Vcs-Git: https://salsa.debian.org/med-team/gmap.git
+Checksums-Sha256:
+ e91bf2c498a087354f9123afaf1e3cb36c9f9a5f3d7e7bda99507e9abd2426fd 2216 gmap_2021-02-22+ds-1.dsc
+ 5b8073c91f59b2189cd0c12ba41dcaefcc2af7ee6b2ce1c4abcd0ff6e5628e7e 2489952 gmap_2021-02-22+ds.orig.tar.xz
+ 04e01cccd3358f70743599bd468d9c00ca7d045c7471436b42da1d3b0d4a0316 11536 gmap_2021-02-22+ds-1.debian.tar.xz
+Homepage: http://research-pub.gene.com/gmap
+Package-List: 
+ gmap deb science optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,riscv64
+Testsuite: autopkgtest
+Directory: pool/main/g/gmap
+Priority: extra
+Section: misc

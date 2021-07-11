@@ -1,0 +1,26 @@
+Package: rust-crates-io
+Binary: librust-crates-io-dev
+Version: 0.31.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev <!nocheck>, librust-curl-0.4+default-dev <!nocheck>, librust-percent-encoding-2+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-derive-1+default-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-url-2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6e99363bd4022963c25f433d217cc209 1864 rust-crates-io_0.31.1-1.dsc
+ 7b278124649ff66bceb5c23f92ecadc7 8943 rust-crates-io_0.31.1.orig.tar.gz
+ e4c85696b8234bdcc868df28cefbe5cf 2740 rust-crates-io_0.31.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crates-io
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crates-io]
+Checksums-Sha256:
+ 71d23ba54d61e2dbeead517c94b79ce793e39827e1fed94454264a412dcc0eae 1864 rust-crates-io_0.31.1-1.dsc
+ 09f977948a46e9edf93eb3dc2d7a8dd4ce3105d36de63300befed37cdf051d4a 8943 rust-crates-io_0.31.1.orig.tar.gz
+ 0e2d409f082005c74e8761b7b589c17264837962c5a29486afeb477a2f3aec40 2740 rust-crates-io_0.31.1-1.debian.tar.xz
+Package-List: 
+ librust-crates-io-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-crates-io
+Priority: extra
+Section: misc

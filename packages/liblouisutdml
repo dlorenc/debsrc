@@ -1,0 +1,32 @@
+Package: liblouisutdml
+Binary: liblouisutdml-dev, liblouisutdml9, liblouisutdml-java, liblouisutdml-java-doc, liblouisutdml-data, liblouisutdml-bin
+Version: 2.9.0-1
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Paul Gevers <elbrus@debian.org>, Samuel Thibault <sthibault@debian.org>,
+Build-Depends: ant [!hppa !hurd-i386], automake, autoconf-archive, chrpath, debhelper-compat (= 12), default-jdk [!hppa !hurd-i386 !powerpcspe], dpkg-dev (>= 1.16), help2man, java-common (>= 0.54), liblouis-dev (>= 3.13), libtool, libxml2-dev, pkg-config, texinfo
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 938874fc64108a31319064e97f15e542 2617 liblouisutdml_2.9.0-1.dsc
+ 2c44486d96066676e833bbb44f4d182c 1744066 liblouisutdml_2.9.0.orig.tar.gz
+ 53fe110c2d0dadc05dc15384e8c2cfe2 6768 liblouisutdml_2.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/liblouisutdml
+Vcs-Git: https://salsa.debian.org/a11y-team/liblouisutdml.git
+Checksums-Sha256:
+ 099fbfb40281e71866d9d65db15e72910f17704d2be8a69f7c4e81fb070c4941 2617 liblouisutdml_2.9.0-1.dsc
+ bd7a3af7003a6ee8cde4a81c44545931449bcff67e1be7f6f0ec1427c4d73944 1744066 liblouisutdml_2.9.0.orig.tar.gz
+ 35c042b19c5f7aa897d6ee7387ec3edb36f0566effb38f1ba6f665e5961432c1 6768 liblouisutdml_2.9.0-1.debian.tar.xz
+Homepage: http://liblouis.org/
+Package-List: 
+ liblouisutdml-bin deb text optional arch=any
+ liblouisutdml-data deb text optional arch=all
+ liblouisutdml-dev deb libdevel optional arch=any
+ liblouisutdml-java deb java optional arch=all
+ liblouisutdml-java-doc deb doc optional arch=all
+ liblouisutdml9 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/libl/liblouisutdml
+Priority: source
+Section: libs

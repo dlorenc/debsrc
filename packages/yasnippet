@@ -1,0 +1,29 @@
+Package: yasnippet
+Binary: elpa-yasnippet, yasnippet
+Version: 0.14.0+git20200603.5cbdbf0d-1
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Barak A. Pearlmutter <bap@debian.org>, Alberto Luaces Fernández <aluaces@udc.es>, Sean Whitton <spwhitton@spwhitton.name>,
+Build-Depends: debhelper-compat (= 13), dh-elpa, elpa-htmlize, elpa-yasnippet-snippets
+Build-Conflicts: elpa-org
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 2cbc4cc288dbdfb6a548c7146baa4cab 2460 yasnippet_0.14.0+git20200603.5cbdbf0d-1.dsc
+ baa7cd4d92ddf3c3dd8ebb23a1ac7d39 541104 yasnippet_0.14.0+git20200603.5cbdbf0d.orig.tar.xz
+ 9cb7ba9808fd2f1fd3a9063eb98f37f9 5236 yasnippet_0.14.0+git20200603.5cbdbf0d-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/yasnippet
+Vcs-Git: https://salsa.debian.org/emacsen-team/yasnippet.git
+Checksums-Sha256:
+ 956dd098afcf5b0d1f9823b539fad219a6b9e7e538ed46b989834ae19be5be90 2460 yasnippet_0.14.0+git20200603.5cbdbf0d-1.dsc
+ abb5a63cb9475855cd0ae0589083eb8f87ca503ac2957f0fd86f6a9c4f441100 541104 yasnippet_0.14.0+git20200603.5cbdbf0d.orig.tar.xz
+ 4e9ffbabbab47228911c048213b59cf17048b623fd0a0a80d393f928cc6d955a 5236 yasnippet_0.14.0+git20200603.5cbdbf0d-1.debian.tar.xz
+Homepage: https://github.com/joaotavora/yasnippet
+Dgit: 0405c00be049967432e54537578845712477d364 debian archive/debian/0.14.0+git20200603.5cbdbf0d-1 https://git.dgit.debian.org/yasnippet
+Package-List: 
+ elpa-yasnippet deb lisp optional arch=all
+ yasnippet deb lisp optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/y/yasnippet
+Priority: source
+Section: lisp

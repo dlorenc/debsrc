@@ -1,0 +1,25 @@
+Package: comidi-clojure
+Binary: libcomidi-clojure
+Version: 0.3.2-2
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 13), javahelper, maven-repo-helper, clojure, libclj-time-clojure, libbidi-clojure, libcompojure-clojure, libprismatic-schema-clojure (>= 1.1.12), libkitchensink-clojure, libtext-markdown-perl | markdown, default-jdk-headless
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 12d0251f65e67d2429f667fb94d48118 2252 comidi-clojure_0.3.2-2.dsc
+ b7b613a747b85789b06c23d3c4400121 11724 comidi-clojure_0.3.2.orig.tar.xz
+ 04a4fb27d186b29b1459c25cb2e1f526 4528 comidi-clojure_0.3.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/comidi-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/comidi-clojure.git
+Checksums-Sha256:
+ 85d9d97fbf9599e1b89700f6d2ea3cdf91da912adeba3da92dca87beb1b72a65 2252 comidi-clojure_0.3.2-2.dsc
+ de616f7542b80267b1cb351b914eddfa9523550e8e75893f31b29fcb79eca9a0 11724 comidi-clojure_0.3.2.orig.tar.xz
+ 2d63be18c71b81da73067bbfd7dba9df871f766a46876a61f225da0f2bf22851 4528 comidi-clojure_0.3.2-2.debian.tar.xz
+Homepage: https://github.com/puppetlabs/comidi
+Package-List: 
+ libcomidi-clojure deb java optional arch=all
+Directory: pool/main/c/comidi-clojure
+Priority: extra
+Section: misc

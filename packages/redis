@@ -1,0 +1,28 @@
+Package: redis
+Binary: redis, redis-sentinel, redis-server, redis-tools
+Version: 5:6.0.14-1
+Maintainer: Chris Lamb <lamby@debian.org>
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.17.14), libhiredis-dev (>= 0.14.0), libjemalloc-dev [linux-any], liblua5.1-dev, liblzf-dev, libssl-dev, libsystemd-dev, lua-bitop-dev, lua-cjson-dev, openssl <!nocheck>, pkg-config, procps <!nocheck>, tcl <!nocheck>, tcl-tls <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 839b9a7bb27c365648c7374cd1c44b34 2264 redis_6.0.14-1.dsc
+ 10dc3e331619e44744637bf6b3ee1ce6 2297367 redis_6.0.14.orig.tar.gz
+ b85010ad1a61aeac9dbf71c96ce7f26c 29088 redis_6.0.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lamby/pkg-redis
+Vcs-Git: https://salsa.debian.org/lamby/pkg-redis.git -b debian/sid
+Checksums-Sha256:
+ 6c15b9f195e487434c03d6d8ead536074e79cdb16fd03a491c3b3572c944c374 2264 redis_6.0.14-1.dsc
+ c88dcfd2a7f21136ff96d363f5acf53753513ed00ac8a58e289700f57f46854e 2297367 redis_6.0.14.orig.tar.gz
+ d9a11dca7770469f8277d8eb33496401fe422ad73233b72f967a109a4b125c51 29088 redis_6.0.14-1.debian.tar.xz
+Homepage: https://redis.io/
+Package-List: 
+ redis deb database optional arch=all
+ redis-sentinel deb database optional arch=any
+ redis-server deb database optional arch=any
+ redis-tools deb database optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/r/redis
+Priority: source
+Section: database

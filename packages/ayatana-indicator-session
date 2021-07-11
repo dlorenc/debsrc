@@ -1,0 +1,29 @@
+Package: ayatana-indicator-session
+Binary: ayatana-indicator-session
+Version: 0.8.2-1
+Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Debian UBports Team <team+ubports@tracker.debian.org>,
+Build-Depends: cmake, dbus, debhelper-compat (= 13), dpkg-dev (>= 1.16.1.1), intltool, libglib2.0-dev (>= 2.36), libgtest-dev, liblomiri-url-dispatcher-dev (>= 0.1), systemd [linux-any]
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3e715582b36e90035d7e12608807b62b 2747 ayatana-indicator-session_0.8.2-1.dsc
+ 7c4294aa74bd99c7e7d8f4151643e2a2 327929 ayatana-indicator-session_0.8.2.orig.tar.gz
+ f8a8759fd3423bd9187edf311a46db37 833 ayatana-indicator-session_0.8.2.orig.tar.gz.asc
+ 464efde92163c36632b974bc61f4f604 15036 ayatana-indicator-session_0.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-edu-ayatana-team/ayatana-indicator-session
+Vcs-Git: https://salsa.debian.org/debian-ayatana-team/ayatana-indicator-session.git
+Checksums-Sha256:
+ 7f19ac59b2b76343562ab1ebefbe80d2e962e7aa9091e469a2e2177fc569b67a 2747 ayatana-indicator-session_0.8.2-1.dsc
+ 6f85952d8eb502a9827b675f00b39a1e48a48af4f697d194bda2be789f99956c 327929 ayatana-indicator-session_0.8.2.orig.tar.gz
+ 4849a627201a4e778eea4907a412f5f6db69b312e712be352a051ad6423b00a2 833 ayatana-indicator-session_0.8.2.orig.tar.gz.asc
+ 2930a98ffcfb2d12012d5a2db0b5a2c70e10df87f3ab4dc51e09c841ecad8198 15036 ayatana-indicator-session_0.8.2-1.debian.tar.xz
+Homepage: https://github.com/AyatanaIndicators/ayatana-indicator-session
+Package-List: 
+ ayatana-indicator-session deb gnome optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: accountsservice, policykit-1
+Directory: pool/main/a/ayatana-indicator-session
+Priority: extra
+Section: misc

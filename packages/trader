@@ -1,0 +1,24 @@
+Package: trader
+Binary: trader
+Version: 7.16-3.1
+Maintainer: John Zaitseff <J.Zaitseff@zap.org.au>
+Build-Depends: debhelper-compat (= 13), automake (>= 1.15), autopoint, pkgconf, libncurses-dev, gettext (>= 0.20), gperf
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4076a1a38e25fe68e812bc1028513ef3 1916 trader_7.16-3.1.dsc
+ 929c0fe776d87966e7111831011aff14 639636 trader_7.16.orig.tar.xz
+ 5e7136f2099a3e131836b4e9d24ede70 14912 trader_7.16-3.1.debian.tar.xz
+Vcs-Browser: https://www.zap.org.au/git-browser/trader.git/
+Vcs-Git: git://git.zap.org.au/data/git/trader.git -b with-debian
+Checksums-Sha256:
+ 8513352eef06d50444b50022fe77cc5d53919216e98fa0e6d467f94d2f2d42be 1916 trader_7.16-3.1.dsc
+ 7fced3adfe61099679cec67dd7d7187314b0f6d4378a4aece1a1b5eab9f81ef2 639636 trader_7.16.orig.tar.xz
+ 673048a99ed59b781d716e6fa9d5ddb130412d7ebae7c06e5a52ec4d69c4aa74 14912 trader_7.16-3.1.debian.tar.xz
+Homepage: https://www.zap.org.au/projects/trader/
+Package-List: 
+ trader deb games optional arch=any
+Directory: pool/main/t/trader
+Priority: extra
+Section: misc

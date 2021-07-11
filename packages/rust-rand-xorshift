@@ -1,0 +1,28 @@
+Package: rust-rand-xorshift
+Binary: librust-rand-xorshift-dev, librust-rand-xorshift+serde-dev
+Version: 0.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-rand-core-0.5+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 1852115cdb7700dd9e5857bc16aeece8 1790 rust-rand-xorshift_0.2.0-1.dsc
+ f81b88d1f8f9d0bc18849ad58b2f1b66 9098 rust-rand-xorshift_0.2.0.orig.tar.gz
+ 3821bff5d76c1b7dffa2a6376720f53b 2804 rust-rand-xorshift_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand-xorshift
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand-xorshift]
+Checksums-Sha256:
+ b61cff28b772be830bc8fd547d374dcb27ad63d7aa87b204908186f7e0e17fbf 1790 rust-rand-xorshift_0.2.0-1.dsc
+ 77d416b86801d23dde1aa643023b775c3a462efc0ed96443add11546cdf1dca8 9098 rust-rand-xorshift_0.2.0.orig.tar.gz
+ 44edbe4c50fba3e97d1e0a6a9ba2532a322e31a7b974b92458927bd932d6a0b1 2804 rust-rand-xorshift_0.2.0-1.debian.tar.xz
+Homepage: https://crates.io/crates/rand_xorshift
+Package-List: 
+ librust-rand-xorshift+serde-dev deb rust optional arch=any
+ librust-rand-xorshift-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-bincode-1+default-dev
+Directory: pool/main/r/rust-rand-xorshift
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: licensecheck
+Binary: licensecheck
+Version: 3.1.1-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: bash-completion, debhelper-compat (= 12), libarray-intspan-perl <!nocheck>, libencode-locale-perl <!nocheck>, libgetopt-long-descriptive-perl, liblist-someutils-perl <!nocheck>, liblog-any-perl, liblog-any-adapter-screen-perl, libmoo-perl, libmoox-struct-perl <!nocheck>, libnamespace-clean-perl, libpath-iterator-rule-perl, libpath-tiny-perl (>= 0.062), libpod-constants-perl, libre-engine-re2-perl, libregexp-pattern-license-perl (>= 3.4), libregexp-pattern-perl (>= 0.2.12), libsoftware-license-perl <!nocheck>, libsort-key-perl, libstrictures-perl, libstring-copyright-perl, libstring-escape-perl, libtest-command-simple-perl <!nocheck>, libtest2-suite-perl <!nocheck>, libtry-tiny-perl, libunicode-linebreak-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 460f2c7cbe6cadadbcd4a65203272ca3 2735 licensecheck_3.1.1-2.dsc
+ cd4b4333d1c503a64141a6e395f86aa9 436386 licensecheck_3.1.1.orig.tar.gz
+ 947caa08782740353ae399791db44cbe 43660 licensecheck_3.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/licensecheck
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/licensecheck.git
+Checksums-Sha256:
+ 0bbc5aa93285baabf995d0d7078606c4e4c0c0cd6016da9c68403e6bd4fef966 2735 licensecheck_3.1.1-2.dsc
+ e65fac8b1b7f2f0e6871e0b13ddb7586a32ccd5366d64a20389dab3f5341a8de 436386 licensecheck_3.1.1.orig.tar.gz
+ 477e4da986fe1881eb7f772bc306824b00c5aabbe286c958c6830c756d8e3b88 43660 licensecheck_3.1.1-2.debian.tar.xz
+Homepage: https://metacpan.org/pod/App::Licensecheck
+Package-List: 
+ licensecheck deb admin optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/l/licensecheck
+Priority: optional
+Section: misc

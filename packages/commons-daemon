@@ -1,0 +1,27 @@
+Package: commons-daemon
+Binary: libcommons-daemon-java, jsvc
+Version: 1.0.15-8
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Marcus Better <marcus@better.se>, Damien Raude-Morvan <drazzib@debian.org>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, autoconf, autotools-dev, debhelper (>= 9), default-jdk (>= 2:1.8), docbook-xsl, libcap-dev [linux-any], maven-repo-helper, xsltproc
+Build-Conflicts: autoconf2.13
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 64cd31c1f5d2eb53c857dc7515ee924b 2276 commons-daemon_1.0.15-8.dsc
+ e467bc1f332d47ad85d18ea8b8a897c3 291128 commons-daemon_1.0.15.orig.tar.gz
+ 383c7aa1a4de5158a5a25302e65ea944 7628 commons-daemon_1.0.15-8.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/commons-daemon.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/commons-daemon.git
+Checksums-Sha256:
+ 846ead3d28939ce224289b6a1b7c1e8997a91cb43772329e4d118b80dbb2c4c4 2276 commons-daemon_1.0.15-8.dsc
+ 11ee57d2c6b281589c1497b2f88180553f06d5ac1560ce1841e05f89f0342432 291128 commons-daemon_1.0.15.orig.tar.gz
+ 73b6e7676413a506fe680bd5c24cc2ac44cb05a2f50a35a5a078a497bfca6a26 7628 commons-daemon_1.0.15-8.debian.tar.xz
+Homepage: http://commons.apache.org/daemon/
+Package-List: 
+ jsvc deb utils optional arch=any
+ libcommons-daemon-java deb java optional arch=all
+Directory: pool/main/c/commons-daemon
+Priority: source
+Section: libs

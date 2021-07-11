@@ -1,0 +1,27 @@
+Package: ruby-yajl
+Binary: ruby-yajl
+Version: 1.4.1-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Per Andersson <avtobiff@gmail.com>, Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1.0~), ruby-rspec
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b7468c926c9d403d3fc696c0ac76a819 2087 ruby-yajl_1.4.1-1.dsc
+ 6ecb157e0ebfc2c7018fa299c796f5a1 572019 ruby-yajl_1.4.1.orig.tar.gz
+ 42331faf6b6a7981c853fbf3c6bb7671 4336 ruby-yajl_1.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-yajl
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-yajl.git
+Checksums-Sha256:
+ aae205a0d0c7be306261db227f6d49b9e6363278eb49f944a9eb72a14c4b9ed8 2087 ruby-yajl_1.4.1-1.dsc
+ c9da4c2e401c29634f7ea0fe6187e9fd5bc3c93e265c21b866c2fe8a9fb8cdaa 572019 ruby-yajl_1.4.1.orig.tar.gz
+ 46ee1be7d662aa1b5db30afebf9ff29f45c5f43b18d1dadcc4855dc7538ebc7c 4336 ruby-yajl_1.4.1-1.debian.tar.xz
+Homepage: https://github.com/brianmario/yajl-ruby
+Package-List: 
+ ruby-yajl deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-yajl
+Priority: source
+Section: ruby

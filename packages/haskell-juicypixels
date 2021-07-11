@@ -1,0 +1,28 @@
+Package: haskell-juicypixels
+Binary: libghc-juicypixels-dev, libghc-juicypixels-prof, libghc-juicypixels-doc
+Version: 3.3.5-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.15), libghc-primitive-dev (>= 0.4), libghc-primitive-prof, libghc-vector-dev (>= 0.10), libghc-vector-dev (<< 0.13), libghc-vector-prof, libghc-zlib-dev (<< 0.7), libghc-zlib-dev (>= 0.5.3.1), libghc-zlib-prof
+Build-Depends-Indep: ghc-doc, libghc-primitive-doc, libghc-vector-doc, libghc-zlib-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 22b292cb90f7a1e6c163dcb3004238e5 2633 haskell-juicypixels_3.3.5-1.dsc
+ 70474cc0f75c7541683a7bba14960ee0 131914 haskell-juicypixels_3.3.5.orig.tar.gz
+ b107e1ba6100b99f772bb62aba614d70 3304 haskell-juicypixels_3.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-juicypixels
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-juicypixels]
+Checksums-Sha256:
+ e891abab034364a67a25c1bf56f68b9aac948d27a4690fc7f3b4306b4a1c86bd 2633 haskell-juicypixels_3.3.5-1.dsc
+ eca5144499ec7148943e687be1d14354024a51447dd2b0470e6c64539c97447a 131914 haskell-juicypixels_3.3.5.orig.tar.gz
+ 40022ec6badaaebc61b77060a620fe8986009f046d56369880916561be201fd4 3304 haskell-juicypixels_3.3.5-1.debian.tar.xz
+Homepage: https://github.com/Twinside/Juicy.Pixels
+Package-List: 
+ libghc-juicypixels-dev deb haskell optional arch=any
+ libghc-juicypixels-doc deb doc optional arch=all
+ libghc-juicypixels-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-juicypixels
+Priority: optional
+Section: misc

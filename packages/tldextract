@@ -1,0 +1,27 @@
+Package: tldextract
+Binary: python3-tldextract, tldextract
+Version: 2.2.1-1
+Maintainer: Ana Custura <ana@netstat.org.uk>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, python3-all, python3-setuptools, python3-idna, python3-requests, python3-requests-file, python3-nose, python3-responses, python3-pytest
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 864ae12eeb5cb2e8d52ceaa148c46a8d 2255 tldextract_2.2.1-1.dsc
+ aacd25a8f173f27e0839414be16dca29 62773 tldextract_2.2.1.orig.tar.gz
+ 637186c976b1f6a15ba5fa3ff19b6cd5 3448 tldextract_2.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-tldextract
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-tldextract.git
+Checksums-Sha256:
+ e7b32321860067f1c5cf0c5ca3e6b2c576ab5838934af0c23cc446b805d52546 2255 tldextract_2.2.1-1.dsc
+ a2c50e8afb587217113919c18f402e4a09a0a2c88b16941a7b74d9818fe5f08c 62773 tldextract_2.2.1.orig.tar.gz
+ c1e52ab360b0f2a5a581d6dcab4948fc16c373e7779859ac41d78ba85dad4b12 3448 tldextract_2.2.1-1.debian.tar.xz
+Homepage: https://github.com/john-kurkowski/tldextract
+Package-List: 
+ python3-tldextract deb python optional arch=all
+ tldextract deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/t/tldextract
+Priority: extra
+Section: misc

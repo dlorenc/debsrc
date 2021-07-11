@@ -1,0 +1,25 @@
+Package: rust-iovec
+Binary: librust-iovec-dev
+Version: 0.1.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+ws2def-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ f09308b5e1f1950bd8553c4e8ee49536 1634 rust-iovec_0.1.2-1.dsc
+ e3c41d159635384c1fcacb375d490ec1 8565 rust-iovec_0.1.2.orig.tar.gz
+ f9c2948ab4a748edb5c2474dd9689f4d 2892 rust-iovec_0.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/iovec
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/iovec]
+Checksums-Sha256:
+ a3a59f55bdb4ccffdb378ab07d89d195f8ca17ac3e7067c00b6d9126fc2adcff 1634 rust-iovec_0.1.2-1.dsc
+ dbe6e417e7d0975db6512b90796e8ce223145ac4e33c377e4a42882a0e88bb08 8565 rust-iovec_0.1.2.orig.tar.gz
+ 5e098b854d0b6c736f43ad7050505702f6853d836bd960849bbf2d1149241114 2892 rust-iovec_0.1.2-1.debian.tar.xz
+Homepage: https://github.com/carllerche/iovec
+Package-List: 
+ librust-iovec-dev deb rust optional arch=any
+Directory: pool/main/r/rust-iovec
+Priority: extra
+Section: misc

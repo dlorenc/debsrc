@@ -1,0 +1,26 @@
+Package: node-deep-eql
+Binary: node-deep-eql
+Version: 4.0.0-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Syam G Krishnan <sgk@riseup.net>, Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, nodejs, node-assertion-error <!nocheck>, node-browserify-lite, uglifyjs, node-type-detect, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f5ccadad79d1837999ce14dd8971c69e 2174 node-deep-eql_4.0.0-4.dsc
+ 1c0dd9695bcc5ba7e5c2140a41f56633 16004 node-deep-eql_4.0.0.orig.tar.gz
+ 6b71281d6f278fba3826bfe88b1174e1 4552 node-deep-eql_4.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-deep-eql
+Vcs-Git: https://salsa.debian.org/js-team/node-deep-eql.git
+Checksums-Sha256:
+ c2e61067ceb0be6e965e9103fc50a65fb2a5c47e7e5adf7eb0a7b29762748e4e 2174 node-deep-eql_4.0.0-4.dsc
+ f64683609b1e0735040f3ceabd477f69b512a6095ca1c1eded77bbddaae98168 16004 node-deep-eql_4.0.0.orig.tar.gz
+ 161e2d13aea12faefe3db9ad81fd1d235a8279e848425427d35955bcac9c2ecf 4552 node-deep-eql_4.0.0-4.debian.tar.xz
+Homepage: https://github.com/chaijs/deep-eql#readme
+Package-List: 
+ node-deep-eql deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-deep-eql
+Priority: optional
+Section: javascript

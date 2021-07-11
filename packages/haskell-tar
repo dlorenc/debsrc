@@ -1,0 +1,28 @@
+Package: haskell-tar
+Binary: libghc-tar-dev, libghc-tar-prof, libghc-tar-doc
+Version: 0.5.1.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>, Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-bytestring-handle-dev, libghc-quickcheck2-dev, libghc-tasty-dev (>= 0.10), libghc-tasty-quickcheck-dev (>= 0.8)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ eeea8a4b9fe5d37579ad88eb0b2ebab7 2405 haskell-tar_0.5.1.1-2.dsc
+ 03938648a3d6d62cfd27d1f9d5d86f8b 39155 haskell-tar_0.5.1.1.orig.tar.gz
+ 7d67a013dbe52f8cd1c9bdf834cd07e1 4052 haskell-tar_0.5.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-tar
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-tar]
+Checksums-Sha256:
+ 1dd85aa4e77c2961e90f8cdd188fce2ab312075f9bd5e0d1cf6b90e88c2ded1a 2405 haskell-tar_0.5.1.1-2.dsc
+ b384449f62b2b0aa3e6d2cb1004b8060b01f21ec93e7b63e7af6d8fad8a9f1de 39155 haskell-tar_0.5.1.1.orig.tar.gz
+ 77bc478009d97ccb2e7e8f78d3c3442d1fd0f15a1ef64ac89669daebbe04a9b5 4052 haskell-tar_0.5.1.1-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/tar
+Package-List: 
+ libghc-tar-dev deb haskell optional arch=any
+ libghc-tar-doc deb doc optional arch=all
+ libghc-tar-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-tar
+Priority: source
+Section: haskell

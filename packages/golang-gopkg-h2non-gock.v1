@@ -1,0 +1,27 @@
+Package: golang-gopkg-h2non-gock.v1
+Binary: golang-gopkg-h2non-gock.v1-dev
+Version: 1.0.16-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Félix Sipma <felix+debian@gueux.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-h2non-parth-dev, golang-github-nbio-st-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e48dea3d0a8b3920ce36de4dddcf6ce6 1690 golang-gopkg-h2non-gock.v1_1.0.16-1.dsc
+ 847a3e8a56e898f525af53216f4588ea 25472 golang-gopkg-h2non-gock.v1_1.0.16.orig.tar.gz
+ 8f81663d735466a04501137c741396d1 3148 golang-gopkg-h2non-gock.v1_1.0.16-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-gopkg-h2non-gock.v1
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-gopkg-h2non-gock.v1.git
+Checksums-Sha256:
+ da18369e2df6c609ebacbaced5fa04ae4d43b2e5594a1f34fb3404c49743145d 1690 golang-gopkg-h2non-gock.v1_1.0.16-1.dsc
+ cbe5aa65d3ce4bf6cee4ea2779a3a8698226264185dffba1f71c35ee4c8590e2 25472 golang-gopkg-h2non-gock.v1_1.0.16.orig.tar.gz
+ d1fcb1eae8b6455dd7a8cf0eff005020a705ea4cbf9293a025c2e378a700972b 3148 golang-gopkg-h2non-gock.v1_1.0.16-1.debian.tar.xz
+Homepage: https://github.com/h2non/gock
+Go-Import-Path: gopkg.in/h2non/gock.v1
+Package-List: 
+ golang-gopkg-h2non-gock.v1-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-gopkg-h2non-gock.v1
+Priority: extra
+Section: misc

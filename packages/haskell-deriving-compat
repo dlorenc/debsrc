@@ -1,0 +1,28 @@
+Package: haskell-deriving-compat
+Binary: libghc-deriving-compat-dev, libghc-deriving-compat-prof, libghc-deriving-compat-doc
+Version: 0.5.9-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-th-abstraction-dev (>= 0.3), libghc-th-abstraction-dev (<< 0.4), libghc-th-abstraction-prof, libghc-transformers-compat-dev (>= 0.5), libghc-transformers-compat-prof, libghc-quickcheck2-dev (>= 2), libghc-quickcheck2-dev (<< 3), libghc-base-compat-dev (>= 0.8.1), libghc-base-compat-dev (<< 1), libghc-base-orphans-dev (<< 1), libghc-base-orphans-dev (>= 0.5), libghc-hspec-dev (>= 1.8), libghc-tagged-dev (>= 0.7), libghc-tagged-dev (<< 1), libghc-tagged-prof, libghc-void-dev (>= 0.5.10), libghc-void-dev (<< 1), libghc-void-prof
+Build-Depends-Indep: ghc-doc, libghc-th-abstraction-doc, libghc-transformers-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ea09cdeb0fc2cde44c4d664526435cb4 3027 haskell-deriving-compat_0.5.9-1.dsc
+ b84d6c1c06b69cc1635c1078b2c5d099 72293 haskell-deriving-compat_0.5.9.orig.tar.gz
+ 866a71315323a57d8325c2c3f31be406 2660 haskell-deriving-compat_0.5.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-deriving-compat
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-deriving-compat]
+Checksums-Sha256:
+ eb8d5877e24379869194785761431b1a4af7550fe7537ffdcd626ce70fda6f0f 3027 haskell-deriving-compat_0.5.9-1.dsc
+ c44bc1737695320bc0f1f1d6e283f58adbc6e3415b88c33a58022401cf611ac4 72293 haskell-deriving-compat_0.5.9.orig.tar.gz
+ 3944e53e794aa2da25f52d91fdaa59c1a403261fdbcf0b960e937d47ca623b80 2660 haskell-deriving-compat_0.5.9-1.debian.tar.xz
+Homepage: https://github.com/haskell-compat/deriving-compat
+Package-List: 
+ libghc-deriving-compat-dev deb haskell optional arch=any
+ libghc-deriving-compat-doc deb doc optional arch=all
+ libghc-deriving-compat-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-deriving-compat
+Priority: optional
+Section: misc

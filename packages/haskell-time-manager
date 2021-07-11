@@ -1,0 +1,26 @@
+Package: haskell-time-manager
+Binary: libghc-time-manager-dev, libghc-time-manager-prof, libghc-time-manager-doc
+Version: 0.0.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.15), cdbs, ghc, ghc-prof, libghc-auto-update-dev, libghc-auto-update-prof
+Build-Depends-Indep: ghc-doc, libghc-auto-update-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 97595bfc7d06afdc70a16c52c8ed427d 2263 haskell-time-manager_0.0.0-3.dsc
+ 4f829cfdfdce04f6cb7b9e47e50a307e 2726 haskell-time-manager_0.0.0.orig.tar.gz
+ 95ae776d92af4ca29abc2a8b64981846 1960 haskell-time-manager_0.0.0-3.debian.tar.xz
+Checksums-Sha256:
+ 706c7402e0626c8c7557993e2c15cd30c6684874ebb7216799c6d2cc3b060061 2263 haskell-time-manager_0.0.0-3.dsc
+ 90a616ed20b2119bb64f78f84230b6798cde22a35e87bc8d9ee08cdf1d90fcdb 2726 haskell-time-manager_0.0.0.orig.tar.gz
+ 91a9bcffdf636f564d0e551851c950ab733cad2fdbed4a4560db18cfbda53a6a 1960 haskell-time-manager_0.0.0-3.debian.tar.xz
+Homepage: https://github.com/yesodweb/wai
+Package-List: 
+ libghc-time-manager-dev deb haskell optional arch=any
+ libghc-time-manager-doc deb doc optional arch=all
+ libghc-time-manager-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-time-manager
+Priority: extra
+Section: misc

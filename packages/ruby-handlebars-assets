@@ -1,0 +1,28 @@
+Package: ruby-handlebars-assets
+Binary: ruby-handlebars-assets
+Version: 2:0.23.8+dfsg-3
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, ruby-execjs, ruby-haml, ruby-multi-json, ruby-slim, ruby-sprockets, ruby-tilt, libjs-handlebars (>= 3:4.7.6-2~), libjs-handlebars.runtime (>= 3:4.7.6-2~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 22f6d0a838fc45a7ff9075a2a9ee40ad 2377 ruby-handlebars-assets_0.23.8+dfsg-3.dsc
+ 2ae80c917dab5cc9f449314eaab6288f 12692 ruby-handlebars-assets_0.23.8+dfsg.orig.tar.xz
+ 8dee55db3bd4a1b83df4a1300478e72e 6092 ruby-handlebars-assets_0.23.8+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-handlebars-assets
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-handlebars-assets.git
+Checksums-Sha256:
+ bd8c33fbc1aef101dcb4154d4f5c69f768b04c97fa73af4be2fecb947d413d15 2377 ruby-handlebars-assets_0.23.8+dfsg-3.dsc
+ 151ec0c1319f63372a2b16f09454e7ced8140fcb57c830541a56fbebc31513f4 12692 ruby-handlebars-assets_0.23.8+dfsg.orig.tar.xz
+ c58276dee45eab2fa07c885c758a0b7d46bccaf85b941f2fcff7c89310e9fa13 6092 ruby-handlebars-assets_0.23.8+dfsg-3.debian.tar.xz
+Homepage: https://github.com/leshill/handlebars_assets
+Package-List: 
+ ruby-handlebars-assets deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: rails
+Directory: pool/main/r/ruby-handlebars-assets
+Priority: extra
+Section: misc

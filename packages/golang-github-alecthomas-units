@@ -1,0 +1,27 @@
+Package: golang-github-alecthomas-units
+Binary: golang-github-alecthomas-units-dev
+Version: 0.0~git20201120.1786d5e-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Peter Colberg <peter@colberg.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.10~), golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 10fbc9afef681728eb374bd1cd7ec12c 1847 golang-github-alecthomas-units_0.0~git20201120.1786d5e-1.dsc
+ 096c742ff4460be25879b6b7f1753c8b 4692 golang-github-alecthomas-units_0.0~git20201120.1786d5e.orig.tar.xz
+ 0ae0859762a0fe59084ddb7a1c75711b 3040 golang-github-alecthomas-units_0.0~git20201120.1786d5e-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-alecthomas-units
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-alecthomas-units.git
+Checksums-Sha256:
+ db64388cd9939a485b62356668cff7138e58096e5756abd0b011751d7b6d5aa2 1847 golang-github-alecthomas-units_0.0~git20201120.1786d5e-1.dsc
+ 528b0d738e9c52749517392034283d289c39711649805f43aeaca794a88bd412 4692 golang-github-alecthomas-units_0.0~git20201120.1786d5e.orig.tar.xz
+ a317c1d25f36e343ba5171c914a8a2391ee237cef657725de4a9f474e6113743 3040 golang-github-alecthomas-units_0.0~git20201120.1786d5e-1.debian.tar.xz
+Homepage: https://github.com/alecthomas/units
+Go-Import-Path: github.com/alecthomas/units
+Package-List: 
+ golang-github-alecthomas-units-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-alecthomas-units
+Priority: extra
+Section: golang

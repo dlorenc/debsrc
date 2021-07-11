@@ -1,0 +1,27 @@
+Package: python-oslo.cache
+Binary: python-oslo.cache-doc, python3-oslo.cache
+Version: 2.6.1-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, David Della Vecchia <ddv@canonical.com>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr (>= 2.0.0), python3-setuptools, python3-sphinx <!nodoc>
+Build-Depends-Indep: python3-binary-memcached, python3-dogpile.cache (>= 1.0.2), python3-etcd3gw, python3-hacking, python3-memcache, python3-openstackdocstheme <!nodoc>, python3-oslo.config (>= 8.1.0), python3-oslo.i18n (>= 5.0.0), python3-oslo.log (>= 4.2.0), python3-oslo.utils (>= 4.2.0), python3-oslosphinx (>= 2.5.0), python3-oslotest, python3-pymongo, python3-sphinxcontrib.apidoc, subunit, testrepository
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ ea70746874bf6b80638a745cfd47feeb 2658 python-oslo.cache_2.6.1-2.dsc
+ 8359a2853461f3b11b1968cac61a956e 44368 python-oslo.cache_2.6.1.orig.tar.xz
+ 2cb1286e30444e1ce7092cec4b168ef0 4064 python-oslo.cache_2.6.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/oslo/python-oslo.cache
+Vcs-Git: https://salsa.debian.org/openstack-team/oslo/python-oslo.cache.git
+Checksums-Sha256:
+ fdeab11c01df8160a2774d71eaa4dd444d8b43a51da240207178540f5034f110 2658 python-oslo.cache_2.6.1-2.dsc
+ 424c2cbf700f07a25f12c559426ca5e875106b390fa41e27add2176de8eecddc 44368 python-oslo.cache_2.6.1.orig.tar.xz
+ 09323ecafca29514dc9322844d3fbc7055c791e7be4d76b336ea26bb6b9e1d95 4064 python-oslo.cache_2.6.1-2.debian.tar.xz
+Homepage: https://launchpad.net/oslo
+Package-List: 
+ python-oslo.cache-doc deb doc optional arch=all profile=!nodoc
+ python3-oslo.cache deb python optional arch=all
+Directory: pool/main/p/python-oslo.cache
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: libwebservice-ils-perl
+Binary: libwebservice-ils-perl
+Version: 0.18-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Chris Cormack <chrisc@catalyst.net.nz>, Mirko Tietgen <mirko@abunchofthings.net>
+Build-Depends: debhelper-compat (= 12), perl, libmodule-build-tiny-perl, libhttp-daemon-perl
+Build-Depends-Indep: libclass-tiny-perl, libhash-merge-perl, libhttp-message-perl, libjson-perl, libmodern-perl-perl, liburi-perl, libwww-perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fb9bc3f4dc6603adb58f1265ce382043 2395 libwebservice-ils-perl_0.18-1.dsc
+ 8a3ccf731ec146b3af343c0ac4058a01 37262 libwebservice-ils-perl_0.18.orig.tar.gz
+ 712bc524516dc11c0c66878df69b1e89 2500 libwebservice-ils-perl_0.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libwebservice-ils-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libwebservice-ils-perl.git
+Checksums-Sha256:
+ 1c51469e31d9faac7709897a1584c66782bf1bbe92258e02db1d4ba6f0623b0e 2395 libwebservice-ils-perl_0.18-1.dsc
+ b0ccb0968f1952a653859f0828a93a96b65b338fa4a0720dce2a3daad3fde6d6 37262 libwebservice-ils-perl_0.18.orig.tar.gz
+ de672cb56b61ea1f2746b126a0453340ff222e0aa4e0d42b5cac4da5fb744cc6 2500 libwebservice-ils-perl_0.18-1.debian.tar.xz
+Homepage: https://metacpan.org/release/WebService-ILS
+Package-List: 
+ libwebservice-ils-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libw/libwebservice-ils-perl
+Priority: extra
+Section: misc

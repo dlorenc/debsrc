@@ -1,0 +1,26 @@
+Package: node-basic-auth
+Binary: node-basic-auth
+Version: 2.0.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Harley Swick <fancycade@protonmail.com>,
+Build-Depends: debhelper-compat (= 13), mocha, node-safe-buffer <!nocheck>, nodejs (>= 6), pkg-js-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c99224cab93839cd9aa9c0283ec05fa7 2129 node-basic-auth_2.0.1-2.dsc
+ 9ccc219efb0b3a064f72967e643952b2 5294 node-basic-auth_2.0.1.orig.tar.gz
+ f148ea13974a1596e8df129664bd204a 2572 node-basic-auth_2.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-basic-auth
+Vcs-Git: https://salsa.debian.org/js-team/node-basic-auth.git
+Checksums-Sha256:
+ 0a1894d2c1cce0af167e3952b852ec1b8a01267978b5aade06056a3f621ebc59 2129 node-basic-auth_2.0.1-2.dsc
+ 0e9e178b266ad6a31d607ed1b70f14d7fda5c04d147554cdf7bb2f462c242629 5294 node-basic-auth_2.0.1.orig.tar.gz
+ 98e98100ecb65323e746bcc0674d89e1ad203031ae37540a7f42559f9bc3db55 2572 node-basic-auth_2.0.1-2.debian.tar.xz
+Homepage: https://github.com/jshttp/basic-auth#readme
+Package-List: 
+ node-basic-auth deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-basic-auth
+Priority: extra
+Section: misc

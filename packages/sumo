@@ -1,0 +1,29 @@
+Package: sumo
+Binary: sumo, sumo-doc, sumo-tools
+Version: 1.8.0+dfsg2-5
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Anton Gladky <gladk@debian.org>
+Build-Depends: cmake, debhelper-compat (= 12), default-jdk, dh-python, freeglut3-dev, graphviz, help2man, libavformat-dev, libbz2-dev, libcups2-dev, libeigen3-dev, libfox-1.6-dev, libgdal-dev, libgl2ps-dev, libgtest-dev, libopenscenegraph-dev, libproj-dev, libswscale-dev, libxerces-c-dev, libxrandr-dev, python3-dev, python3-setuptools, swig
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7f68a4b98af745be9a91c8d8e0a07fe3 2378 sumo_1.8.0+dfsg2-5.dsc
+ 6aeceb253634994731fc16b8baa39c06 40052444 sumo_1.8.0+dfsg2.orig.tar.xz
+ a2a37db957703cae8a3ae625910731ce 21236 sumo_1.8.0+dfsg2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/sumo
+Vcs-Git: https://salsa.debian.org/science-team/sumo.git
+Checksums-Sha256:
+ d611950d5e8f7349c1e75739dd23c83c09d51a622094f7c4d54368606b640f2a 2378 sumo_1.8.0+dfsg2-5.dsc
+ b0f49af3b7d7ad5ab390ea82ee0c7a7825cad6cb4e0701308d7e4c58b2d6a312 40052444 sumo_1.8.0+dfsg2.orig.tar.xz
+ 59d5097a7adff87a2270ac5d5b4dffad587e1f156e9f7e4f78a7c62848c2f3a1 21236 sumo_1.8.0+dfsg2-5.debian.tar.xz
+Homepage: https://sumo.dlr.de/
+Package-List: 
+ sumo deb science optional arch=any
+ sumo-doc deb doc optional arch=all
+ sumo-tools deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/s/sumo
+Priority: source
+Section: science

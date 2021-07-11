@@ -1,0 +1,23 @@
+Package: shim-signed
+Binary: shim-signed, shim-signed-common
+Version: 1.37
+Maintainer: Debian EFI Team <debian-efi@lists.debian.org>
+Uploaders: Steve McIntyre <93sam@debian.org>, Steve Langasek <vorlon@debian.org>
+Build-Depends: debhelper (>= 13), shim-unsigned (= 15.4-6), sbsigntool (>= 0.9.2-2), po-debconf
+Architecture: amd64 i386 arm64 all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 05ee52f876c54cdd230f3244b21fa2da 1808 shim-signed_1.37.dsc
+ c7f8cb4242371d828fb104f1aca703a6 559432 shim-signed_1.37.tar.xz
+Vcs-Browser: https://salsa.debian.org/efi-team/shim-signed
+Vcs-Git: https://salsa.debian.org/efi-team/shim-signed.git
+Checksums-Sha256:
+ 3cce37b0aaa5fe1e70d57606a3a8172b2ca6767fb617eeb2abdd8bf13e7682ff 1808 shim-signed_1.37.dsc
+ cfa52ab86c41d40dccc47768540662b2ebcde8d9abcb46e92940c9a8dbc44e98 559432 shim-signed_1.37.tar.xz
+Package-List: 
+ shim-signed deb utils optional arch=amd64,i386,arm64
+ shim-signed-common deb utils optional arch=all
+Directory: pool/main/s/shim-signed
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-prometheus-exporter-toolkit
+Binary: golang-github-prometheus-exporter-toolkit-dev
+Version: 0.5.1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-go-kit-kit-dev, golang-github-pkg-errors-dev, golang-github-prometheus-common-dev, golang-golang-x-crypto-dev, golang-gopkg-alecthomas-kingpin.v2-dev, golang-gopkg-yaml.v2-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a6236a4bcaaa084e44973aed1beec347 2608 golang-github-prometheus-exporter-toolkit_0.5.1-2.dsc
+ 5081bb56bc6a0ea147cf3a10e10d02af 50475 golang-github-prometheus-exporter-toolkit_0.5.1.orig.tar.gz
+ 7afef073fb4341dbe5e496b59cabe169 1928 golang-github-prometheus-exporter-toolkit_0.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-prometheus-exporter-toolkit
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-prometheus-exporter-toolkit.git
+Checksums-Sha256:
+ 5c9b0053a7ce3189a847676a56a12e58edad769d0267f4920e51778eb112a4a5 2608 golang-github-prometheus-exporter-toolkit_0.5.1-2.dsc
+ 721740ad90ac0d32e51c94d05b67a276cbed2c138e9af16587f98e8664750220 50475 golang-github-prometheus-exporter-toolkit_0.5.1.orig.tar.gz
+ 9c5b5a8c4800d4dbc681105daf47b0c69cdfbaace1b087e98a40469eb293a27f 1928 golang-github-prometheus-exporter-toolkit_0.5.1-2.debian.tar.xz
+Homepage: https://github.com/prometheus/exporter-toolkit
+Go-Import-Path: github.com/prometheus/exporter-toolkit
+Package-List: 
+ golang-github-prometheus-exporter-toolkit-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-prometheus-exporter-toolkit
+Priority: extra
+Section: misc

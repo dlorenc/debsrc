@@ -1,0 +1,27 @@
+Package: goxkcdpwgen
+Binary: goxkcdpwgen
+Version: 0.0~git20181107.de898c7-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shree Dhanya <dhanyathailappan@gmail.com>, Karthika Shanthini <karthikashanthini@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-stretchr-testify-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ce245c74a534ca52892897d15b8ea597 2282 goxkcdpwgen_0.0~git20181107.de898c7-2.dsc
+ fba4af12b85312db7f2fd1cf6d17fb4f 171832 goxkcdpwgen_0.0~git20181107.de898c7.orig.tar.xz
+ 8aa478654a3581a3eb4a9953e133156e 2116 goxkcdpwgen_0.0~git20181107.de898c7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/goxkcdpwgen
+Vcs-Git: https://salsa.debian.org/go-team/packages/goxkcdpwgen.git
+Checksums-Sha256:
+ fb7dbf6fc64c9ade9d5410c83070736e2af7a9fade81a92e435f04c9342268e4 2282 goxkcdpwgen_0.0~git20181107.de898c7-2.dsc
+ eb6ebeff2ee1eb848291244be43f406db61380ab460b9303688b3d4a0467b390 171832 goxkcdpwgen_0.0~git20181107.de898c7.orig.tar.xz
+ 0db4c64aabd85a1feda2364527f4fe86c6fe709c5beb208aa51704327d0a9713 2116 goxkcdpwgen_0.0~git20181107.de898c7-2.debian.tar.xz
+Homepage: https://github.com/martinhoefling/goxkcdpwgen
+Go-Import-Path: github.com/martinhoefling/goxkcdpwgen
+Package-List: 
+ goxkcdpwgen deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/goxkcdpwgen
+Priority: extra
+Section: misc

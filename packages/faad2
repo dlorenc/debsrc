@@ -1,0 +1,27 @@
+Package: faad2
+Binary: faad, libfaad-dev, libfaad2
+Version: 2.10.0-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Matthew W. S. Bell <matthew@bells23.org.uk>, Reinhard Tartler <siretart@tauware.de>, Fabian Greffrath <fabian@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 48d9fd9137ea5c44107c785974054e5b 2104 faad2_2.10.0-1.dsc
+ f948925a6763e30c53078f5af339d6cc 803225 faad2_2.10.0.orig.tar.gz
+ 37221654af08c4251974185b2693f859 8056 faad2_2.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/faad2
+Vcs-Git: https://salsa.debian.org/multimedia-team/faad2.git
+Checksums-Sha256:
+ 1d8f782228f4b368b410903c2a94af57973d1404527574e339372656855a0247 2104 faad2_2.10.0-1.dsc
+ 0c6d9636c96f95c7d736f097d418829ced8ec6dbd899cc6cc82b728480a84bfb 803225 faad2_2.10.0.orig.tar.gz
+ f18b49a83a0797baff360b55ab4c70572c383383def880a07c26ba63c39b7c3c 8056 faad2_2.10.0-1.debian.tar.xz
+Homepage: https://github.com/knik0/faad2
+Package-List: 
+ faad deb sound optional arch=any
+ libfaad-dev deb libdevel optional arch=any
+ libfaad2 deb libs optional arch=any
+Directory: pool/main/f/faad2
+Priority: source
+Section: libs

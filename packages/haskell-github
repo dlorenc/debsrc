@@ -1,0 +1,27 @@
+Package: haskell-github
+Binary: libghc-github-dev, libghc-github-prof, libghc-github-doc
+Version: 0.23-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Build-Depends: cdbs, debhelper (>= 10), haskell-devscripts (>= 0.15), ghc (>= 8.4.3), ghc-prof, libghc-aeson-dev (>= 1.4.0.0), libghc-aeson-dev (<< 1.5), libghc-aeson-prof, libghc-base-compat-dev (>= 0.10.4), libghc-base-compat-dev (<< 0.12), libghc-base-compat-prof, libghc-base16-bytestring-dev (<< 0.2), libghc-base16-bytestring-dev (>= 0.1.1.6), libghc-base16-bytestring-prof, libghc-binary-instances-dev (>= 1), libghc-binary-instances-dev (<< 1.1), libghc-binary-instances-prof, libghc-cryptohash-sha1-dev (>= 0.11.100.1), libghc-cryptohash-sha1-dev (<< 0.12), libghc-cryptohash-sha1-prof, libghc-deepseq-generics-dev (>= 0.2.0.0), libghc-deepseq-generics-dev (<< 0.3), libghc-deepseq-generics-prof, libghc-exceptions-dev (>= 0.10.2), libghc-exceptions-dev (<< 0.11), libghc-exceptions-prof, libghc-hashable-dev (>= 1.2.7.0), libghc-hashable-dev (<< 1.4), libghc-hashable-prof, libghc-http-client-dev (>= 0.5.12), libghc-http-client-dev (<< 0.7), libghc-http-client-prof, libghc-http-client-tls-dev (>= 0.3.5.3), libghc-http-client-tls-dev (<< 0.4), libghc-http-client-tls-prof, libghc-http-link-header-dev (>= 1.0.3.1), libghc-http-link-header-dev (<< 1.1), libghc-http-link-header-prof, libghc-http-types-dev (>= 0.12.3), libghc-http-types-dev (<< 0.13), libghc-http-types-prof, libghc-iso8601-time-dev (>= 0.1.5), libghc-iso8601-time-dev (<< 0.2), libghc-iso8601-time-prof, libghc-network-uri-dev (>= 2.6.1.0), libghc-network-uri-dev (<< 2.7), libghc-network-uri-prof, libghc-tagged-dev (>= 0.8.5), libghc-tagged-dev (<< 0.9), libghc-tagged-prof, libghc-tls-dev (>= 1.4.1), libghc-tls-prof, libghc-transformers-compat-dev (>= 0.6.5), libghc-transformers-compat-dev (<< 0.7), libghc-transformers-compat-prof, libghc-unordered-containers-dev (>= 0.2.10.0), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof, libghc-vector-dev (>= 0.12.0.1), libghc-vector-dev (<< 0.13), libghc-vector-prof, libghc-vector-instances-dev (>= 3.4), libghc-vector-instances-dev (<< 3.5), libghc-vector-instances-prof, libghc-file-embed-dev, libghc-file-embed-prof, libghc-hspec-dev (>= 2.6.1), libghc-hspec-dev (<< 2.8), libghc-hspec-prof
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-base-compat-doc, libghc-base16-bytestring-doc, libghc-binary-instances-doc, libghc-cryptohash-sha1-doc, libghc-deepseq-generics-doc, libghc-exceptions-doc, libghc-hashable-doc, libghc-http-client-doc, libghc-http-client-tls-doc, libghc-http-link-header-doc, libghc-http-types-doc, libghc-iso8601-time-doc, libghc-network-uri-doc, libghc-tagged-doc, libghc-tls-doc, libghc-transformers-compat-doc, libghc-unordered-containers-doc, libghc-vector-doc, libghc-vector-instances-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 47060ba1299646622a4af17e14eb185f 4786 haskell-github_0.23-1.dsc
+ 045e2e5f7093ea30075d5ecd2ebf8adc 71927 haskell-github_0.23.orig.tar.gz
+ 54ecd4a4a61afc3e4db94becc5805dcd 4244 haskell-github_0.23-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-github
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-github]
+Checksums-Sha256:
+ b44c4af6ac8b7a03951f7b4e7d5fb65fc9869c114cdf82c02338814be89189ae 4786 haskell-github_0.23-1.dsc
+ aba66a0a2d21d97268f6522b5357fe45891d2ba92b874f5556df50a926a808b4 71927 haskell-github_0.23.orig.tar.gz
+ 3f1f889ed6b56cb942a94bf8863ea0a9d7d91c7bbd537894c45e817e7a774a8e 4244 haskell-github_0.23-1.debian.tar.xz
+Homepage: https://github.com/phadej/github
+Package-List: 
+ libghc-github-dev deb haskell optional arch=any
+ libghc-github-doc deb doc optional arch=all
+ libghc-github-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-github
+Priority: source
+Section: haskell

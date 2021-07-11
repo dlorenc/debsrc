@@ -1,0 +1,25 @@
+Package: dh-octave
+Binary: dh-octave, dh-octave-autopkgtest
+Version: 1.0.3
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Uploaders: Sébastien Villemot <sebastien@debian.org>, Rafael Laboissière <rafael@debian.org>, Mike Miller <mtmiller@debian.org>
+Build-Depends: debhelper-compat (= 13), libparse-debcontrol-perl, dh-exec, octave, shunit2
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 56507ef7b82c4d322c0498295d258876 1869 dh-octave_1.0.3.dsc
+ 222af51df2fd4e1d9799e23a1fc90221 14072 dh-octave_1.0.3.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-octave-team/dh-octave
+Vcs-Git: https://salsa.debian.org/pkg-octave-team/dh-octave.git
+Checksums-Sha256:
+ a21d430e08f53c65faaaf1bbcc8af13fea67a4dc100a9c484a6fe77cd673cc57 1869 dh-octave_1.0.3.dsc
+ d8d75fba7dffb54814e6fce4303881616c9677a09c418a0198ce269b34806d92 14072 dh-octave_1.0.3.tar.xz
+Package-List: 
+ dh-octave deb devel optional arch=all
+ dh-octave-autopkgtest deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: shunit2
+Directory: pool/main/d/dh-octave
+Priority: extra
+Section: misc

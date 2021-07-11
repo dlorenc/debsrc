@@ -1,0 +1,26 @@
+Package: node-prepend-http
+Binary: node-prepend-http
+Version: 3.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Shirish Togarla <shirishtogarla533@gmail.com>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2b9a616c2c6b532f3efc84a67fb9f52e 2115 node-prepend-http_3.0.1-1.dsc
+ a54efc314a705b4c95ffcdf3220d6651 2606 node-prepend-http_3.0.1.orig.tar.gz
+ 7166ec3c6a84f162b26312e4729ca2ad 2920 node-prepend-http_3.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-prepend-http
+Vcs-Git: https://salsa.debian.org/js-team/node-prepend-http.git
+Checksums-Sha256:
+ b8e219b0c7f9dbb283cc0a6ceca8e8e8e601c3cceb57badffaed2765a58dbade 2115 node-prepend-http_3.0.1-1.dsc
+ f24ec7d5177c46f2caaf7fee7ef2a5eda841b63352f896a8832f00e41a8829e8 2606 node-prepend-http_3.0.1.orig.tar.gz
+ 30736377de2b1d936eae4840099c8e51a04ab7dabf33f875346ffbcb13b7ad9e 2920 node-prepend-http_3.0.1-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/prepend-http
+Package-List: 
+ node-prepend-http deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-prepend-http
+Priority: optional
+Section: javascript

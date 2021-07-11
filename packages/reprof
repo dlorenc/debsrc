@@ -1,0 +1,28 @@
+Package: reprof
+Binary: reprof, librg-reprof-bundle-perl
+Version: 1.0.1-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Peter Hoenigschmid <hoenigschmid@rostlab.org>, Laszlo Kajan <lkajan@rostlab.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c78d6fec3df624143a71984d3ffa544d 2195 reprof_1.0.1-7.dsc
+ 77e6f917af1667e93f5bae7c23f78d54 9041799 reprof_1.0.1.orig.tar.gz
+ 60824de51b5066399cbda9b990445390 5072 reprof_1.0.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/reprof
+Vcs-Git: https://salsa.debian.org/med-team/reprof.git
+Checksums-Sha256:
+ 6d38c758ab450def792d3a5dec024dad3edfad27c3d7816ad2abce6375059067 2195 reprof_1.0.1-7.dsc
+ a6ad4a0595e6a152612c9bcd6ab86f9f4c7a649c5aaed7e06bde611e2e9346c2 9041799 reprof_1.0.1.orig.tar.gz
+ 63ce632acfe791105aefd107afee18aeb229b1e4f64fe81785600d737c2eafde 5072 reprof_1.0.1-7.debian.tar.xz
+Homepage: https://rostlab.org/
+Package-List: 
+ librg-reprof-bundle-perl deb perl optional arch=all
+ reprof deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libai-fann-perl, pkg-perl-autopkgtest, pkg-perl-autopkgtest-heavy
+Directory: pool/main/r/reprof
+Priority: source
+Section: science

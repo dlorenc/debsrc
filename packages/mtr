@@ -1,0 +1,26 @@
+Package: mtr
+Binary: mtr, mtr-tiny
+Version: 0.94-1
+Maintainer: Robert Woodcock <rcw@debian.org>
+Uploaders: Rhonda D'Vine <rhonda@debian.org>, Samuel Henrique <samueloph@debian.org>
+Build-Depends: automake, debhelper-compat (= 13), libgtk2.0-dev, libncurses-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6c034b1cf0f021db2afd47d3dc4d1943 1924 mtr_0.94-1.dsc
+ 258967ecd6658de02d327f8002d3da8f 143616 mtr_0.94.orig.tar.gz
+ 148b53a0bd0af151b0372ff04f913829 7896 mtr_0.94-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/mtr
+Vcs-Git: https://salsa.debian.org/debian/mtr.git
+Checksums-Sha256:
+ 2f1958804378eebf0bdf56d3c1c7aecdb4b7c96401753c4fc556141ba7ef4b01 1924 mtr_0.94-1.dsc
+ ea036fdd45da488c241603f6ea59a06bbcfe6c26177ebd34fff54336a44494b8 143616 mtr_0.94.orig.tar.gz
+ 7a276cb584f23ca25cf748f5b0a0939b7347176f17c2cc2c0c6da31450796b8d 7896 mtr_0.94-1.debian.tar.xz
+Homepage: https://www.bitwizard.nl/mtr/
+Package-List: 
+ mtr deb net optional arch=any
+ mtr-tiny deb net optional arch=any
+Directory: pool/main/m/mtr
+Priority: source
+Section: net

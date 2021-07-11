@@ -1,0 +1,27 @@
+Package: coyote
+Binary: gdl-coyote
+Version: 2019.08.19-1
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper (>= 12), gnudatalanguage (>= 0.9.5), openbox, plplot-driver-xwin, python3, xauth, xvfb
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ a66a0370f496b34cd6e97ad8c225639c 2104 coyote_2019.08.19-1.dsc
+ 86f2eb12194afb8e2f0f45172c96d66a 637520 coyote_2019.08.19.orig.tar.xz
+ b68e0dae174c543defc55a55fd0f950c 12504 coyote_2019.08.19-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/coyote
+Vcs-Git: https://salsa.debian.org/debian-astro-team/coyote.git
+Checksums-Sha256:
+ 2bbb8b9c696b2b1630856a82885c5e213382cb9305177c7827eb388cdb486a7c 2104 coyote_2019.08.19-1.dsc
+ 083eda365a076ea29ae8ccc5b92676ef91668362a5f160470ff7dd9b573d2520 637520 coyote_2019.08.19.orig.tar.xz
+ 6f7314756791b041ce640de3981eaae958d2c5c126c8348d1f8049b5497c9650 12504 coyote_2019.08.19-1.debian.tar.xz
+Homepage: https://www.idlcoyote.com/
+Package-List: 
+ gdl-coyote deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: openbox, plplot-driver-xwin, xauth, xvfb
+Directory: pool/main/c/coyote
+Priority: optional
+Section: misc

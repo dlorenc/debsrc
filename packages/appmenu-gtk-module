@@ -1,0 +1,32 @@
+Package: appmenu-gtk-module
+Binary: libappmenu-gtk-parser-dev-common, libappmenu-gtk2-parser0, libappmenu-gtk3-parser0, libappmenu-gtk2-parser-dev, libappmenu-gtk3-parser-dev, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module
+Version: 0.7.6-2
+Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Jeremy Bicha <jbicha@debian.org>, Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Build-Depends: meson (>= 0.49.0), debhelper-compat (= 13), dpkg-dev (>= 1.16.1.1~), libx11-dev, libglib2.0-dev (>= 2.50.0), libgtk2.0-dev (>= 2.24.0), libgtk-3-dev (>= 3.22.0), gtk-doc-tools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 91fd7855438798d90d1fe48f1044bc4c 2957 appmenu-gtk-module_0.7.6-2.dsc
+ c1c9e6170a6b03b7d7b4ecf59864f458 41212 appmenu-gtk-module_0.7.6.orig.tar.xz
+ 7c4be90b6994d90dc93e085ef4dadba1 4672 appmenu-gtk-module_0.7.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-edu-ayatana-team/appmenu-gtk-module
+Vcs-Git: https://salsa.debian.org/debian-ayatana-team/appmenu-gtk-module.git
+Checksums-Sha256:
+ a9a4dc59473ac898387bc17e4c5bb2cdacc4092f095db2a26939ff57eaac8696 2957 appmenu-gtk-module_0.7.6-2.dsc
+ 4cf900ee1da4966e911f871c5a5090f9f92bc1f0d333a7bebf7854decae274a5 41212 appmenu-gtk-module_0.7.6.orig.tar.xz
+ e3088a6fd2139ccb737674af033165829052a48e5afa09b0fbe789ee971449cc 4672 appmenu-gtk-module_0.7.6-2.debian.tar.xz
+Homepage: https://github.com/rilian-la-te/vala-panel-appmenu/tree/master/subprojects/appmenu-gtk-module
+Package-List: 
+ appmenu-gtk-module-common deb libs optional arch=all
+ appmenu-gtk2-module deb libs optional arch=any
+ appmenu-gtk3-module deb libs optional arch=any
+ libappmenu-gtk-parser-dev-common deb libdevel optional arch=all
+ libappmenu-gtk2-parser-dev deb libdevel optional arch=any
+ libappmenu-gtk2-parser0 deb libs optional arch=any
+ libappmenu-gtk3-parser-dev deb libdevel optional arch=any
+ libappmenu-gtk3-parser0 deb libs optional arch=any
+Directory: pool/main/a/appmenu-gtk-module
+Priority: extra
+Section: misc

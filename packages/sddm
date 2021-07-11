@@ -1,0 +1,31 @@
+Package: sddm
+Binary: sddm, sddm-theme-debian-elarun, sddm-theme-debian-maui, sddm-theme-elarun, sddm-theme-maldives, sddm-theme-maui, sddm-theme-maya
+Version: 0.19.0-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Michał Zając <quintasan@kubuntu.org>, Maximiliano Curia <maxy@debian.org>, Aurélien COUDERC <coucouf@debian.org>, Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 2.8.8), debhelper-compat (= 13), extra-cmake-modules (>= 1.4.0~), libpam0g-dev, libsystemd-dev [linux-any], libupower-glib-dev, libxcb-xkb-dev, libxcb1-dev, libxkbcommon-dev, pkg-config, python3-docutils, qtbase5-dev (>= 5.8.0~), qtdeclarative5-dev (>= 5.8.0~), qttools5-dev, qttools5-dev-tools (>= 5.8.0~), systemd [linux-any]
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a7090539e9e3742a1c97ce67b7a81917 2757 sddm_0.19.0-3.dsc
+ 2e3268a30531d6ae98f02cbf3772fea1 3532945 sddm_0.19.0.orig.tar.gz
+ 1ce45a1fe44992f459f5d4399f9e4e1e 58604 sddm_0.19.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/3rdparty/sddm
+Vcs-Git: https://salsa.debian.org/qt-kde-team/3rdparty/sddm.git
+Checksums-Sha256:
+ d8014edba482df306f8155c7e2f1ff2a9faa485274a520bdcd7fbd11c69074c9 2757 sddm_0.19.0-3.dsc
+ e76da1f13d5ad5e0179e3fec57543126044339405ef19c397e105e0807bd4e41 3532945 sddm_0.19.0.orig.tar.gz
+ 0807be18a9396e218d418026c44326fdb488b05b27e31bd3f093f1a47deb1b0f 58604 sddm_0.19.0-3.debian.tar.xz
+Homepage: https://github.com/sddm/sddm
+Package-List: 
+ sddm deb kde optional arch=any
+ sddm-theme-debian-elarun deb kde optional arch=all
+ sddm-theme-debian-maui deb kde optional arch=all
+ sddm-theme-elarun deb kde optional arch=all
+ sddm-theme-maldives deb kde optional arch=all
+ sddm-theme-maui deb kde optional arch=all
+ sddm-theme-maya deb kde optional arch=all
+Directory: pool/main/s/sddm
+Priority: optional
+Section: misc

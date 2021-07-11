@@ -1,0 +1,27 @@
+Package: libtest-unit-perl
+Binary: libtest-unit-perl
+Version: 0.25-5
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>, Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libclass-inner-perl <!nocheck>, libdevel-symdump-perl <!nocheck>, liberror-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 739ce805535c1f2dc507010b3c0f042e 2213 libtest-unit-perl_0.25-5.dsc
+ bbd92a461996ae978ac378eae477bd79 322322 libtest-unit-perl_0.25.orig.tar.gz
+ fb0c7ce4354d3def5566a8ffe77a5069 6724 libtest-unit-perl_0.25-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-unit-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-unit-perl.git
+Checksums-Sha256:
+ 172fdaa752678eb86541294637e942eb56db64a66f2944a6db70b1a08194177b 2213 libtest-unit-perl_0.25-5.dsc
+ 5bd36b7262b849aef07510df53081f3858893a583021f8e831d9a497be31dfaf 322322 libtest-unit-perl_0.25.orig.tar.gz
+ 1756b9b852f59e59a632e2c93b0b7da111f748039daf7b4857916f046173906f 6724 libtest-unit-perl_0.25-5.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Unit
+Package-List: 
+ libtest-unit-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-unit-perl
+Priority: source
+Section: perl

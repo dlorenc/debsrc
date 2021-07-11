@@ -1,0 +1,26 @@
+Package: golang-barcode
+Binary: golang-barcode-dev
+Version: 0.0~git20140830-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tonnerre Lombard <tonnerre@ancient-solutions.com>, Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper (>= 9), golang-go (>= 1.0), dh-golang
+Architecture: all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 02d9813c9a64108a25adfb2ff800b741 2211 golang-barcode_0.0~git20140830-2.dsc
+ 65180c5b4b4f98aa5720fd6dca3bb081 23420 golang-barcode_0.0~git20140830.orig.tar.xz
+ a8ff4a2f539be1a13f52fd8b5583f127 2020 golang-barcode_0.0~git20140830-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-barcode.git/
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-barcode.git
+Checksums-Sha256:
+ 82827303cb654a57cd213afa807abcb527a1f7df69dbea4b4b07f3e76332cc72 2211 golang-barcode_0.0~git20140830-2.dsc
+ b8c786587f859e7856df25acb7d8237c740eb1a111db72fe3ffdc485387b13ee 23420 golang-barcode_0.0~git20140830.orig.tar.xz
+ 332c8b8e174489fd67bffa9053bf45ef6a40e823b87cd22acbdb9962e099ff3b 2020 golang-barcode_0.0~git20140830-2.debian.tar.xz
+Homepage: https://github.com/boombuler/barcode
+Go-Import-Path: github.com/boombuler/barcode
+Package-List: 
+ golang-barcode-dev deb graphics extra arch=all
+Directory: pool/main/g/golang-barcode
+Priority: extra
+Section: golang

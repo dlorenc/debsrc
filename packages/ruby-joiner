@@ -1,0 +1,27 @@
+Package: ruby-joiner
+Binary: ruby-joiner
+Version: 0.5.0-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Andrew Lee (李健秋) <andrew.lee@collabora.co.uk>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-combustion (>= 1.1~), ruby-rails (>= 2:6.0~), ruby-rspec-rails, ruby-sqlite3 (>= 1.4~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2df459a8703627b30892ee93561def13 2102 ruby-joiner_0.5.0-2.dsc
+ 66f2008caaee8e1fcc79aa9de60291dc 5080 ruby-joiner_0.5.0.orig.tar.gz
+ e50c4aa9875f49cbe519923b79d2cb03 3336 ruby-joiner_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-joiner
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-joiner.git
+Checksums-Sha256:
+ 604a00155b7104e7dff53d3480f69860a37d0e80da258b8a6539be02ff408712 2102 ruby-joiner_0.5.0-2.dsc
+ e2bfe3df20c2e1b60e8316261cb6dcc7fe7135279ad0cd4516ec864c2c4d9c37 5080 ruby-joiner_0.5.0.orig.tar.gz
+ 22bc7bd332cdbd00ae47cc4a2ac2dbc00d935bc71c84d951a96611f11972bc31 3336 ruby-joiner_0.5.0-2.debian.tar.xz
+Homepage: https://github.com/pat/joiner
+Package-List: 
+ ruby-joiner deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-joiner
+Priority: optional
+Section: misc

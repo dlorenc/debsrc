@@ -1,0 +1,27 @@
+Package: pantalaimon
+Binary: pantalaimon, python3-pantalaimon
+Version: 0.9.1-1
+Maintainer: Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: debhelper-compat (= 13), dh-python, dh-sequence-python3, python3, python3-aiohttp (<< 4.0) <!nocheck>, python3-aioresponses <!nocheck>, python3-cachetools <!nocheck>, python3-fake-factory <!nocheck>, python3-janus <!nocheck>, python3-keyring <!nocheck>, python3-matrix-nio (>= 0.14) <!nocheck>, python3-matrix-nio (<< 0.17) <!nocheck>, python3-peewee, python3-prompt-toolkit (>= 2), python3-pytest <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3da8e96b6216c5c09c1c5841b3cf6bf7 2463 pantalaimon_0.9.1-1.dsc
+ c82c170e7cecc14ec259aa11faa69268 2493595 pantalaimon_0.9.1.orig.tar.gz
+ b9b1217e8d6716ef1215a78c0678c614 4064 pantalaimon_0.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/matrix-team/pantalaimon
+Vcs-Git: https://salsa.debian.org/matrix-team/pantalaimon.git
+Checksums-Sha256:
+ 9ed75ecfcb628b6b63a6dfd41590f2da5b6e108b7a2d34c86ec59a91aeae1821 2463 pantalaimon_0.9.1-1.dsc
+ 6698ca453113f6c5081c6893cdf8fa541961c1c455e1983e9e53ae3989322da0 2493595 pantalaimon_0.9.1.orig.tar.gz
+ a082452d6c9debfe1d3d4ecb98a20a0b0a81cefc31cf8a5716df52d3873dcb71 4064 pantalaimon_0.9.1-1.debian.tar.xz
+Homepage: https://github.com/matrix-org/pantalaimon
+Package-List: 
+ pantalaimon deb net optional arch=all
+ python3-pantalaimon deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pantalaimon
+Priority: extra
+Section: misc

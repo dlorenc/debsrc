@@ -1,0 +1,25 @@
+Package: plexus-io
+Binary: libplexus-io-java
+Version: 3.2.0-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Ludovic Claude <ludovic.claude@laposte.net>, tony mancill <tmancill@debian.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, junit4, libcommons-io-java, libjsr305-java, libplexus-cli-java, libplexus-container-default1.5-java, libplexus-utils2-java, maven-debian-helper (>= 2.2)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 566683593fd1218217ec588c92e16706 2235 plexus-io_3.2.0-1.1.dsc
+ 3e153bb88f6457346c15b56e5b587d8a 33900 plexus-io_3.2.0.orig.tar.xz
+ c4f2f38e183dbf7c4f26bad43af11eef 4444 plexus-io_3.2.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/plexus-io
+Vcs-Git: https://salsa.debian.org/java-team/plexus-io.git
+Checksums-Sha256:
+ 4feb70c3ad12049e31cefb4b04e48a8c85bf640d19ccab893f7c3a83567fdd9c 2235 plexus-io_3.2.0-1.1.dsc
+ 479c215ae0b5c5b0cde78d53ddb1359f9be9f50e99d8ce9ed16601d71ec5b8d7 33900 plexus-io_3.2.0.orig.tar.xz
+ 3004e098b7b2645b44801a2840432a629dbbf71bc39445e7c2741e7c7cca734a 4444 plexus-io_3.2.0-1.1.debian.tar.xz
+Homepage: https://github.com/codehaus-plexus/plexus-io
+Package-List: 
+ libplexus-io-java deb java optional arch=all
+Directory: pool/main/p/plexus-io
+Priority: source
+Section: libs

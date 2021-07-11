@@ -1,0 +1,25 @@
+Package: maven-enforcer
+Binary: libmaven-enforcer-plugin-java
+Version: 3.0.0~M2-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: tony mancill <tmancill@debian.org>
+Build-Depends: bsh, debhelper (>= 11), default-jdk, libcommons-lang-java, libhamcrest-java, libjsr305-java, libmaven-common-artifact-filters-java, libmaven-compiler-plugin-java (>= 2.0.2), libmaven-dependency-tree-java, libmaven-jar-plugin-java (>= 2.2), libmaven-plugin-tools-java (>= 2.5), libmaven3-core-java, libplexus-container-default1.5-java, libplexus-utils-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 9f77827f90cb3c4d5b8b8d4433c87053 2428 maven-enforcer_3.0.0~M2-1.dsc
+ d42e65f3de32307f804202d2f5c3c06e 160120 maven-enforcer_3.0.0~M2.orig.tar.xz
+ 308a33bda897e806ff71a0332937bc63 4996 maven-enforcer_3.0.0~M2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/maven-enforcer/
+Vcs-Git: https://salsa.debian.org/java-team/maven-enforcer.git
+Checksums-Sha256:
+ 7a81d8b479fb2c462728e9c82becd472b94ecd4cd4658ceebe96684d7d552f52 2428 maven-enforcer_3.0.0~M2-1.dsc
+ 85a366625dbda2b8d6932a10967aea427fe3ac3d9d27769a494ae42cf8c00633 160120 maven-enforcer_3.0.0~M2.orig.tar.xz
+ 8812897cd6c76eeaf90a9181eba11721953aa8267a646da448a35ef2a41df373 4996 maven-enforcer_3.0.0~M2-1.debian.tar.xz
+Homepage: https://maven.apache.org/enforcer/maven-enforcer-plugin/
+Package-List: 
+ libmaven-enforcer-plugin-java deb java optional arch=all
+Directory: pool/main/m/maven-enforcer
+Priority: source
+Section: java

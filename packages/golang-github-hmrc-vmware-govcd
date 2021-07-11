@@ -1,0 +1,27 @@
+Package: golang-github-hmrc-vmware-govcd
+Binary: golang-github-hmrc-vmware-govcd-dev
+Version: 0.0.2+git20190404.eea2584-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 64232e91b195da2bd721fdb4f8377878 2594 golang-github-hmrc-vmware-govcd_0.0.2+git20190404.eea2584-2.dsc
+ c1ca19b41b054524eb7f7b96edbf1937 52436 golang-github-hmrc-vmware-govcd_0.0.2+git20190404.eea2584.orig.tar.xz
+ e89a982ce47e5629dd7c5210e3b65c07 1832 golang-github-hmrc-vmware-govcd_0.0.2+git20190404.eea2584-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hmrc-vmware-govcd
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hmrc-vmware-govcd.git
+Checksums-Sha256:
+ 29cff135b69d8733e47f17517e600df5f001d7512629ab363e234fd59cf98520 2594 golang-github-hmrc-vmware-govcd_0.0.2+git20190404.eea2584-2.dsc
+ 40f4480892097c5052c46bb2c2335a7edb8ce8b9ad1b4671cd8fe57b259b8816 52436 golang-github-hmrc-vmware-govcd_0.0.2+git20190404.eea2584.orig.tar.xz
+ 0d927bd61d23f7360a347dd89cd06ff2fabac14d1dbcf259d240e274e107e403 1832 golang-github-hmrc-vmware-govcd_0.0.2+git20190404.eea2584-2.debian.tar.xz
+Homepage: https://github.com/hmrc/vmware-govcd
+Go-Import-Path: github.com/hmrc/vmware-govcd
+Package-List: 
+ golang-github-hmrc-vmware-govcd-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hmrc-vmware-govcd
+Priority: extra
+Section: golang

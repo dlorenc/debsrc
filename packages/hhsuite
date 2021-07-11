@@ -1,0 +1,27 @@
+Package: hhsuite
+Binary: hhsuite, hhsuite-data
+Version: 3.3.0+ds-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Laszlo Kajan <lkajan@debian.org>, Andreas Tille <tille@debian.org>, Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper-compat (= 13), libsimde-dev (>= 0.6.0-2), cmake, imagemagick, help2man
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2bd82b83df05ab619aa2567d5533a0c9 2139 hhsuite_3.3.0+ds-4.dsc
+ d01293f2b8337f9b914b30976c2a87e9 4775072 hhsuite_3.3.0+ds.orig.tar.xz
+ 79055d5ada47f93e9035f0d90568c3bf 16412 hhsuite_3.3.0+ds-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/hhsuite
+Vcs-Git: https://salsa.debian.org/med-team/hhsuite.git
+Checksums-Sha256:
+ 585a6dbb18f47fe324bd0c6bb10fa3eac69ede25deaec9440c3215551f93ac5b 2139 hhsuite_3.3.0+ds-4.dsc
+ a81037f2e2a4801f1a42f5aa5939334fe038053d05ceabdc0899fefb8cc00a44 4775072 hhsuite_3.3.0+ds.orig.tar.xz
+ 3995bdb04e472b0f7cdf00ae0bfe122a9b59e142d7ec719c55bbea2f5e6a9961 16412 hhsuite_3.3.0+ds-4.debian.tar.xz
+Homepage: https://toolkit.tuebingen.mpg.de/
+Package-List: 
+ hhsuite deb science optional arch=any
+ hhsuite-data deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/h/hhsuite
+Priority: source
+Section: science

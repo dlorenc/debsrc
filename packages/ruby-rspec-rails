@@ -1,0 +1,27 @@
+Package: ruby-rspec-rails
+Binary: ruby-rspec-rails
+Version: 4.0.1-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Caitlin Matos <caitlin.matos@zoho.com>,
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-rails (>= 2:4.2), ruby-actionpack (>= 2:4.2), ruby-activesupport (>= 2:4.2), ruby-railties (>= 2:4.2), ruby-rspec, ruby-rspec-core (>= 3.9), ruby-rspec-expectations (>= 3.9), ruby-rspec-mocks (>= 3.9), ruby-rspec-support (>= 3.9), ruby-selenium-webdriver, ruby-sqlite3, ruby-capybara (>= 2.15~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 12e1eff3cba589542ff765834cbff83a 2430 ruby-rspec-rails_4.0.1-2.dsc
+ 22d5a08c83745fda813de07c3636c7b6 153383 ruby-rspec-rails_4.0.1.orig.tar.gz
+ 45c9f0c04a780552de345e3d235123f3 5904 ruby-rspec-rails_4.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rspec-rails
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rspec-rails.git
+Checksums-Sha256:
+ 35605fba701c76f81ab9e2606b88d74a9525ffe0a628c9c64699d5114884e406 2430 ruby-rspec-rails_4.0.1-2.dsc
+ 188e2c74f7fa17dd8230fc1c99b7d418715bb4b4a7a66a8d8adc8542d873d342 153383 ruby-rspec-rails_4.0.1.orig.tar.gz
+ 8438541b0f9570ccd420e830dfe3e101f1b701dce9ed283a65302388094ed186 5904 ruby-rspec-rails_4.0.1-2.debian.tar.xz
+Homepage: https://github.com/rspec/rspec-rails
+Package-List: 
+ ruby-rspec-rails deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-rspec-rails
+Priority: source
+Section: misc

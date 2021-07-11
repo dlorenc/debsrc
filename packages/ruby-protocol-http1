@@ -1,0 +1,27 @@
+Package: ruby-protocol-http1
+Binary: ruby-protocol-http1
+Version: 0.13.1-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), ruby-rspec (>= 3.0), ruby-rspec (<< 4.0), ruby-rspec-memory (>= 1.0), ruby-rspec-memory (<< 2.0), ruby-rspec-files (>= 1.0), ruby-rspec-files (<< 2.0), ruby-async-io, ruby-protocol-http (>= 0.18), ruby-protocol-http (<< 1.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 781ef9d0c5a1f68c2bd234ce1130be73 2336 ruby-protocol-http1_0.13.1-1.dsc
+ 13748c289d5034d04063b12c43906fd7 12707 ruby-protocol-http1_0.13.1.orig.tar.gz
+ 6a16594f55376174f72be6644c8b3e51 3184 ruby-protocol-http1_0.13.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-protocol-http1
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-protocol-http1.git
+Checksums-Sha256:
+ 476f4b5b473a7424003aae02e4200d6d4001644de47c9b06d057e9172d409481 2336 ruby-protocol-http1_0.13.1-1.dsc
+ 54a68ab5afd7a9d120a08887016db4cf4d3ccf247fc85a1556f75e83cd553a14 12707 ruby-protocol-http1_0.13.1.orig.tar.gz
+ 0a2d2f1999c8715e496e5a0dccf7071c9a700bb8bfcde1a21280ad003c7ab89b 3184 ruby-protocol-http1_0.13.1-1.debian.tar.xz
+Homepage: https://github.com/socketry/protocol-http1
+Package-List: 
+ ruby-protocol-http1 deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-protocol-http1
+Priority: extra
+Section: misc

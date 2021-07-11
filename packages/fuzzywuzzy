@@ -1,0 +1,27 @@
+Package: fuzzywuzzy
+Binary: python3-fuzzywuzzy
+Version: 0.18.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Edward Betts <edward@4angle.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-levenshtein (>= 0.12), python3-nose, python3-pycodestyle, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c1b778518bc65d8eb2242e0488c918f4 2142 fuzzywuzzy_0.18.0-2.dsc
+ 29708593c35b1ca67c329f853d9abcd0 28888 fuzzywuzzy_0.18.0.orig.tar.gz
+ 55e3fd6a8befa979bfcecdf9d5495bd2 3796 fuzzywuzzy_0.18.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/fuzzywuzzy
+Vcs-Git: https://salsa.debian.org/python-team/packages/fuzzywuzzy.git
+Checksums-Sha256:
+ 2aab63fc7c872a41052ead3ae4308b9ad710601c6c95714a668cc9605e68f545 2142 fuzzywuzzy_0.18.0-2.dsc
+ 45016e92264780e58972dca1b3d939ac864b78437422beecebb3095f8efd00e8 28888 fuzzywuzzy_0.18.0.orig.tar.gz
+ d64e74b010074388e60eddc6904a5a6e1edd5b550e5453ecdf96f782a5284478 3796 fuzzywuzzy_0.18.0-2.debian.tar.xz
+Homepage: https://github.com/seatgeek/fuzzywuzzy
+Package-List: 
+ python3-fuzzywuzzy deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pycodestyle
+Directory: pool/main/f/fuzzywuzzy
+Priority: optional
+Section: misc

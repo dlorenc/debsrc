@@ -1,0 +1,27 @@
+Package: supysonic
+Binary: supysonic
+Version: 0.6.2+ds-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Louis-Philippe Véronneau <pollo@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-docutils, libjs-bootstrap, python3-flask <!nocheck>, python3-pony <!nocheck>, python3-pil <!nocheck>, python3-requests <!nocheck>, python3-mediafile <!nocheck>, python3-watchdog <!nocheck>, python3-zipstream <!nocheck>, python3-lxml <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f02ce62240a7a7a40fa5020b0c8f1e66 1721 supysonic_0.6.2+ds-3.dsc
+ 9624eeeffbbfb0fc9dd681449431e012 132600 supysonic_0.6.2+ds.orig.tar.xz
+ 11bf65e02308e758b67f1a37bdb7b390 18468 supysonic_0.6.2+ds-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/supysonic
+Vcs-Git: https://salsa.debian.org/python-team/packages/supysonic.git
+Checksums-Sha256:
+ e1a224002d05d7ae28e6c1a97bb3c89d9f9935f063218cdf0c990a8e72b5594f 1721 supysonic_0.6.2+ds-3.dsc
+ 735a934d5c7a5417d54a6abceb2f2ece51dd8287bfabe017dc7c363f11bcc0c5 132600 supysonic_0.6.2+ds.orig.tar.xz
+ 9032a0e3107a80fdf3dfeec8b3daabcc1155def2890e13d83e8d3c392bdd1211 18468 supysonic_0.6.2+ds-3.debian.tar.xz
+Homepage: https://github.com/spl0k/supysonic
+Package-List: 
+ supysonic deb sound optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: flac, python3-all, sqlite3
+Directory: pool/main/s/supysonic
+Priority: extra
+Section: misc

@@ -1,0 +1,24 @@
+Package: rust-term-size
+Binary: librust-term-size-dev
+Version: 0.3.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <pl@ninthfloor.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.20~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ b803a42b9979383167aefe61b9d151dc 2150 rust-term-size_0.3.1-2.dsc
+ adf9d2250c2a622c6274514e38d1f559 10754 rust-term-size_0.3.1.orig.tar.gz
+ 24c211ee5b310f12df87dcf4d9b81b21 2948 rust-term-size_0.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/term-size
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/term-size]
+Checksums-Sha256:
+ b34f5018dbb87d999a0813a1674fb1388344b33609e8a8dc57844aa6fc83fd8d 2150 rust-term-size_0.3.1-2.dsc
+ 9e5b9a66db815dcfd2da92db471106457082577c3c278d4138ab3e3b4e189327 10754 rust-term-size_0.3.1.orig.tar.gz
+ aeedcbbcf09ccf32f2f3be22ffb36df6e422b34bf5c44ff56866089b1633d7c8 2948 rust-term-size_0.3.1-2.debian.tar.xz
+Package-List: 
+ librust-term-size-dev deb rust optional arch=any
+Directory: pool/main/r/rust-term-size
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: jackson-databind
+Binary: libjackson2-databind-java, libjackson2-databind-java-doc
+Version: 2.12.1-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, default-jdk-doc, groovy, javahelper (>= 0.32), junit4, libbuild-helper-maven-plugin-java, libjackson2-annotations-java (>= 2.12.1), libjackson2-annotations-java-doc, libjackson2-core-java (>= 2.9.8-3~), libjackson2-core-java-doc, libmaven-bundle-plugin-java, libmaven-enforcer-plugin-java, libmaven-javadoc-plugin-java, libmaven-shade-plugin-java, libreplacer-java, maven-debian-helper (>= 1.6.5), xmlstarlet
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 79a719f38acb13450524a3730cbbc27b 2561 jackson-databind_2.12.1-1.dsc
+ b3c731f366e3abf6ff909768b4981441 982580 jackson-databind_2.12.1.orig.tar.xz
+ 8795e7d01c0fc03e210e6a35887bffc1 5532 jackson-databind_2.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jackson-databind
+Vcs-Git: https://salsa.debian.org/java-team/jackson-databind.git
+Checksums-Sha256:
+ 4f189d70f969d068c82e5a7618d1fd6d914cc21cacacd0fc4fbd51e80ba065ef 2561 jackson-databind_2.12.1-1.dsc
+ ff150815861e70874eb185f0c8ab9c88e6dc1e92bc93ddde6ecb58468231481c 982580 jackson-databind_2.12.1.orig.tar.xz
+ ae84e31b8625171d2d78f5dc8b8a4e4ef56f0a38e86ed71a8fb2a8e4edf22e5d 5532 jackson-databind_2.12.1-1.debian.tar.xz
+Homepage: http://wiki.fasterxml.com/JacksonHome
+Package-List: 
+ libjackson2-databind-java deb java optional arch=all
+ libjackson2-databind-java-doc deb doc optional arch=all
+Directory: pool/main/j/jackson-databind
+Priority: optional
+Section: misc

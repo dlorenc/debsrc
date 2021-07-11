@@ -1,0 +1,28 @@
+Package: debian-design
+Binary: design-data, design-desktop, design-desktop-graphics, design-desktop-animation, design-desktop-web, design-desktop-strict
+Version: 3.0.21
+Maintainer: Debian Design Team <design-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: cdbs, debhelper, boxer (>= 1.1.0), shellcheck, boxer-data (>= 10.8), boxer-data (<< 10.9)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ d1bc4d2cfe53b72f592eba8ef7d96d9f 2068 debian-design_3.0.21.dsc
+ 7463cb782a7a67dc18f718b7daca299e 7716 debian-design_3.0.21.tar.xz
+Vcs-Browser: https://salsa.debian.org/design-team/blends
+Vcs-Git: https://salsa.debian.org/design-team/blends.git
+Checksums-Sha256:
+ bef562b877a71489fb354a68586e9ed8dc1bb23b46a5677c285f53e043f1512b 2068 debian-design_3.0.21.dsc
+ 352f5e8f825d2b66b4afcc145abd3a18e64744a79c85f2f3567fb2ea35b3cd5a 7716 debian-design_3.0.21.tar.xz
+Homepage: https://wiki.debian.org/Design
+Package-List: 
+ design-data deb misc optional arch=all
+ design-desktop deb misc optional arch=all
+ design-desktop-animation deb misc optional arch=all
+ design-desktop-graphics deb misc optional arch=all
+ design-desktop-strict deb misc optional arch=all
+ design-desktop-web deb misc optional arch=all
+Directory: pool/main/d/debian-design
+Priority: optional
+Section: misc

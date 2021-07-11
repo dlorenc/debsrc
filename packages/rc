@@ -1,0 +1,26 @@
+Package: rc
+Binary: rc
+Version: 1.7.4+97.gceb59bb-4
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), byacc, libncurses5-dev, libreadline-dev, procps
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1c6e01e35d88af39e30ce492bd968f49 1978 rc_1.7.4+97.gceb59bb-4.dsc
+ dfdfda675d21f1d68543a7e3dfc4e19d 98652 rc_1.7.4+97.gceb59bb.orig.tar.xz
+ d3660aa491d8812c62879ab5e36e0ece 11296 rc_1.7.4+97.gceb59bb-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/rc
+Vcs-Git: https://salsa.debian.org/debian/rc.git
+Checksums-Sha256:
+ b260988d62c2116611f063d7426036da1ef7409f055a446e72f870232f534773 1978 rc_1.7.4+97.gceb59bb-4.dsc
+ b7607bcdf428264433b9442091a00cc0afd465ad2d860d5084c4591b577adeee 98652 rc_1.7.4+97.gceb59bb.orig.tar.xz
+ 6530bafb9046aee6b48a6dab6f8c47a3922c504c04a50173ba94b5a31e6d46c5 11296 rc_1.7.4+97.gceb59bb-4.debian.tar.xz
+Homepage: https://github.com/rakitzis/rc
+Package-List: 
+ rc deb shells optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: adequate, procps
+Directory: pool/main/r/rc
+Priority: source
+Section: shells

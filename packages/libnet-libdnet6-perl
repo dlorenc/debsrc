@@ -1,0 +1,28 @@
+Package: libnet-libdnet6-perl
+Binary: libnet-libdnet6-perl
+Version: 0.28-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl
+Build-Depends-Indep: libnet-ipv6addr-perl <!nocheck>, libnet-libdnet-perl <!nocheck>, net-tools <!nocheck> | freebsd-net-tools <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e32f1381643eb06de378a13a56dd2a8b 2518 libnet-libdnet6-perl_0.28-1.dsc
+ 3e93a8eba2338455ae86229676355e81 8131 libnet-libdnet6-perl_0.28.orig.tar.gz
+ 5b37385f18debfaecc469225a4510602 2072 libnet-libdnet6-perl_0.28-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-libdnet6-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-libdnet6-perl.git
+Checksums-Sha256:
+ 13100dda4cfb2e94e2c3e6cde79b99c08dc066cf470de10c8d7b0f98a596fb36 2518 libnet-libdnet6-perl_0.28-1.dsc
+ 0439a93cfa1af9597a2e621aa6d7bfed06728880a862f60507cfdaca6bb10d6b 8131 libnet-libdnet6-perl_0.28.orig.tar.gz
+ f2c46e43a525406593971c4a3edd47760e53cc0626356a3c85e41bc9aed9f2d9 2072 libnet-libdnet6-perl_0.28-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Net-Libdnet6
+Dgit: e7395fd2ff17ab191ffda0e28a924c98049931ec debian archive/debian/0.28-1 https://git.dgit.debian.org/libnet-libdnet6-perl
+Package-List: 
+ libnet-libdnet6-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-libdnet6-perl
+Priority: optional
+Section: misc

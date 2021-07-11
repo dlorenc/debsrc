@@ -1,0 +1,31 @@
+Package: libkf5kmahjongg
+Binary: kdegames-mahjongg-data-kf5, libkf5kmahjongglib-dev, libkf5kmahjongglib5
+Version: 4:20.12.1-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>, Sune Vuorela <sune@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>, Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Maximiliano Curia <maxy@debian.org>,
+Build-Depends: cmake (>= 3.5.0~), debhelper-compat (= 13), extra-cmake-modules (>= 5.46.0~), gettext, libkf5completion-dev (>= 5.46.0~), libkf5config-dev (>= 5.46.0~), libkf5configwidgets-dev (>= 5.46.0~), libkf5coreaddons-dev (>= 5.46.0~), libkf5i18n-dev (>= 5.46.0~), libkf5widgetsaddons-dev (>= 5.46.0~), libqt5svg5-dev (>= 5.9.0~), pkg-kde-tools (>= 0.14), qtbase5-dev (>= 5.9.0~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 21eee525b55a57514490a9c36e2a3d02 3102 libkf5kmahjongg_20.12.1-1.dsc
+ b7c57b2f6311c8ef6b67f239592e267d 1691392 libkf5kmahjongg_20.12.1.orig.tar.xz
+ b21cbafa999067a10e2c14d50df4601a 488 libkf5kmahjongg_20.12.1.orig.tar.xz.asc
+ d661cd2783f3b5c967cd9636d735d66a 11260 libkf5kmahjongg_20.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/libkmahjongg
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/libkmahjongg.git
+Checksums-Sha256:
+ d19f419af0c0185f1ee9d183a2998da286feb998832b8449fc5b06de730c4da5 3102 libkf5kmahjongg_20.12.1-1.dsc
+ 7dc815fb9b2e893f151be53951a21c2309dde8ceebe3f8ce0ef24d78285b0033 1691392 libkf5kmahjongg_20.12.1.orig.tar.xz
+ 6b72bb6f3ebe7c6518b24600b3bd4b6d87f299c135b70280bfb856805ac6dfb0 488 libkf5kmahjongg_20.12.1.orig.tar.xz.asc
+ 4690aa387f6b24596db6c2eb6bcfb77494773e0ddb86287859c95c9417a900a8 11260 libkf5kmahjongg_20.12.1-1.debian.tar.xz
+Homepage: http://games.kde.org/
+Package-List: 
+ kdegames-mahjongg-data-kf5 deb games optional arch=all
+ libkf5kmahjongglib-dev deb libdevel optional arch=any
+ libkf5kmahjongglib5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/libk/libkf5kmahjongg
+Priority: optional
+Section: misc

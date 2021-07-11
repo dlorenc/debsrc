@@ -1,0 +1,26 @@
+Package: crossguid
+Binary: libcrossguid-dev, libcrossguid0
+Version: 0.0+git200150803-4
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Uploaders: Balint Reczey <balint@balintreczey.hu>,
+Build-Depends: debhelper (>= 9), uuid-dev
+Architecture: any
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ 94d2f30003fa80f2ff0b238ff2621c49 2095 crossguid_0.0+git200150803-4.dsc
+ 1e1d9166c7e95b911cb657fe33c26c59 43552 crossguid_0.0+git200150803.orig.tar.xz
+ c65617cf7ab5b280206feb65ad041247 2844 crossguid_0.0+git200150803-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/crossguid
+Vcs-Git: https://salsa.debian.org/debian/crossguid.git -b master
+Checksums-Sha256:
+ af0c22b3b97c4000a91759700a4d8534457dfc2174b81c3139b2b56565fe8aaf 2095 crossguid_0.0+git200150803-4.dsc
+ 25da4916307b8d36a32d05001653eee90c1aa2537e03be0167f02b1d820c31b7 43552 crossguid_0.0+git200150803.orig.tar.xz
+ 7698f1dc817a20e82d0b10201e3c6b240a10201f44ae60bc63618e03e99dc8a7 2844 crossguid_0.0+git200150803-4.debian.tar.xz
+Homepage: https://github.com/graeme-hill/crossguid
+Package-List: 
+ libcrossguid-dev deb libdevel optional arch=any
+ libcrossguid0 deb libs optional arch=any
+Directory: pool/main/c/crossguid
+Priority: optional
+Section: misc

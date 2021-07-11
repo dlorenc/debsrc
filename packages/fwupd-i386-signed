@@ -1,0 +1,23 @@
+Package: fwupd-i386-signed
+Binary: fwupd-i386-signed
+Version: 1.5.7+4
+Maintainer: Debian EFI <debian-efi@lists.debian.org>
+Uploaders: Steve McIntyre <93sam@debian.org>, Matthias Klumpp <mak@debian.org>, Mario Limonciello <mario.limonciello@dell.com>
+Build-Depends: debhelper (>= 9.0.0), sbsigntool [amd64 arm64 armhf i386], fwupd (= 1.5.7-4) [i386]
+Architecture: i386
+Standards-Version: 4.1.3
+Format: 3.0 (native)
+Files:
+ 9079315755ff92b34360fe866f82ef4c 1802 fwupd-i386-signed_1.5.7+4.dsc
+ 8d2c1eaacc27926df24f3accdc8e3890 4364 fwupd-i386-signed_1.5.7+4.tar.xz
+Vcs-Browser: https://salsa.debian.org/efi-team/fwupd
+Vcs-Git: https://salsa.debian.org/efi-team/fwupd.git
+Checksums-Sha256:
+ e8f934fb8177251dde17f75c132550dfd6b37eb30f99c03f844e9d3721945006 1802 fwupd-i386-signed_1.5.7+4.dsc
+ 32609c0c78cb8b2487a68fe7a9ea95c0c371bd2c01ecd654313e642b2cf77ed2 4364 fwupd-i386-signed_1.5.7+4.tar.xz
+Homepage: https://github.com/fwupd/fwupd
+Package-List: 
+ fwupd-i386-signed deb admin optional arch=i386
+Directory: pool/main/f/fwupd-i386-signed
+Priority: extra
+Section: misc

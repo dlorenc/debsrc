@@ -1,0 +1,25 @@
+Package: plexus-compiler
+Binary: libplexus-compiler-java
+Version: 2.8.8-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends: debhelper-compat (= 13), default-jdk, junit4, libcommons-lang-java (>= 2.0), libeclipse-jdt-core-java (>= 3.13.2), libmaven3-core-java, libplexus-component-metadata-java, libplexus-container-default-java, libplexus-utils2-java, maven-debian-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 70198c6b82be939684a2a038993df629 2321 plexus-compiler_2.8.8-2.dsc
+ 606a3cd936b7dbf22cb6d95827adf549 62436 plexus-compiler_2.8.8.orig.tar.xz
+ 8aa993fab8935f906e6d99ee394f1929 7220 plexus-compiler_2.8.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/plexus-compiler
+Vcs-Git: https://salsa.debian.org/java-team/plexus-compiler.git
+Checksums-Sha256:
+ 8ac24a2ce313c73215abd705337e74c1e23101852e4e3ea1ba85d56bb0e78ebb 2321 plexus-compiler_2.8.8-2.dsc
+ 7e3eae7d8ed2d849f74b31391b9f55188ab76612c225121a46e01e6c795ccc54 62436 plexus-compiler_2.8.8.orig.tar.xz
+ 1d62b93b9f3bae5325395ab9ff0a86f6296f6e060f326129f4921c58d18a3650 7220 plexus-compiler_2.8.8-2.debian.tar.xz
+Homepage: https://codehaus-plexus.github.io/plexus-compiler/
+Package-List: 
+ libplexus-compiler-java deb java optional arch=all
+Directory: pool/main/p/plexus-compiler
+Priority: source
+Section: java

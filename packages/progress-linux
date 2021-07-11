@@ -1,0 +1,26 @@
+Package: progress-linux
+Binary: progress-linux, progress-linux-pgp-keys, progress-linux-ssh-keys
+Version: 20210101-1
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Build-Depends: debhelper-compat (= 13), gnupg
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e8a895330786b423b1a780e547e7ee84 2146 progress-linux_20210101-1.dsc
+ 8ae880390df18273bc71abf0b34bcf9a 27868 progress-linux_20210101.orig.tar.xz
+ 25e0f7e0b874f1df7bf836c9e6287023 7972 progress-linux_20210101-1.debian.tar.xz
+Vcs-Browser: https://git.progress-linux.org/users/daniel.baumann/debian/packages/progress-linux
+Vcs-Git: https://git.progress-linux.org/users/daniel.baumann/debian/packages/progress-linux
+Checksums-Sha256:
+ 66a10bb8416bea7d2ebc5fbd4342b1403c8d05704ca01a1746109e67f307f6b6 2146 progress-linux_20210101-1.dsc
+ 063ef1ac4ec96df10e0a5f2ccd1d536e84ad7a42d02df9568d39e3e778ade1f4 27868 progress-linux_20210101.orig.tar.xz
+ 53bc61905e7644ed03846a5134f781f984260da5d4bedf552daf3cfdb58d37ee 7972 progress-linux_20210101-1.debian.tar.xz
+Homepage: https://progress-linux.org
+Package-List: 
+ progress-linux deb admin optional arch=all
+ progress-linux-pgp-keys deb admin optional arch=all
+ progress-linux-ssh-keys deb admin optional arch=all
+Directory: pool/main/p/progress-linux
+Priority: extra
+Section: misc

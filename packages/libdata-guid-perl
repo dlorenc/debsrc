@@ -1,0 +1,26 @@
+Package: libdata-guid-perl
+Binary: libdata-guid-perl
+Version: 0.049-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: cdbs, devscripts, perl, debhelper (>= 9), dh-buildinfo, libossp-uuid-perl | libdata-uuid-perl, libsub-exporter-perl, libsub-install-perl
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 5efad482b6056538609a488d69f0bda5 2173 libdata-guid-perl_0.049-1.dsc
+ a033e23e133122f8742cbf27ccc627e3 19513 libdata-guid-perl_0.049.orig.tar.gz
+ b151170a0494d5fe3901526ffc170e11 3940 libdata-guid-perl_0.049-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libdata-guid-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libdata-guid-perl.git
+Checksums-Sha256:
+ e35f2058aec4719e6605a197ab1ab3409aee01694e4be55c6b4cc407c634299e 2173 libdata-guid-perl_0.049-1.dsc
+ b8af437d49fd0425a23ebff3e5989dae64deeaf0e046aa5f413665cd3169a77b 19513 libdata-guid-perl_0.049.orig.tar.gz
+ 71cf2c544bd80bee05ee7d7d86f72ad05fe5fd6724e21050c4f96e54751e3acf 3940 libdata-guid-perl_0.049-1.debian.tar.xz
+Homepage: https://github.com/rjbs/Data-GUID
+Package-List: 
+ libdata-guid-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdata-guid-perl
+Priority: source
+Section: perl

@@ -1,0 +1,28 @@
+Package: debconf
+Binary: debconf, debconf-i18n, debconf-doc, debconf-utils, python3-debconf
+Version: 1.5.75
+Maintainer: Debconf Developers <debconf-devel@lists.alioth.debian.org>
+Uploaders: Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec, dh-python, po-debconf, po4a (>= 0.23)
+Build-Depends-Indep: perl (>= 5.10.0-16), python3 (>= 3.1.2-8), gettext (>= 0.13), libintl-perl
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (native)
+Files:
+ a91e9f7eb3a6120f9a8480b060cc1cc3 2082 debconf_1.5.75.dsc
+ 934a029bc7fe550795e955982dedb201 571160 debconf_1.5.75.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-debconf/debconf
+Vcs-Git: https://salsa.debian.org/pkg-debconf/debconf.git
+Checksums-Sha256:
+ 8ff77c467efc63a295f387cf24a5f131828227cb7d1770c13ca1ffad3032e71f 2082 debconf_1.5.75.dsc
+ 82356178d1ff99b3bb2b6d40a40c2d9f968541bcd5b0433464bcc6f4ad607ee8 571160 debconf_1.5.75.tar.xz
+Dgit: d755b608809c50d20cc3fff423fd4ec078741d28 debian archive/debian/1.5.75 https://git.dgit.debian.org/debconf
+Package-List: 
+ debconf deb admin important arch=all
+ debconf-doc deb doc optional arch=all
+ debconf-i18n deb localization important arch=all
+ debconf-utils deb devel optional arch=all
+ python3-debconf deb python optional arch=all
+Directory: pool/main/d/debconf
+Priority: source
+Section: admin

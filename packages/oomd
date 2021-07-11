@@ -1,0 +1,26 @@
+Package: oomd
+Binary: oomd
+Version: 0.4.0-1
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Build-Depends: debhelper-compat (= 13), meson, pkg-config, libjsoncpp-dev, libsystemd-dev, libgtest-dev, libgmock-dev, dh-exec
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 52b9f9265d6f6725ead2fc382c6bee16 1946 oomd_0.4.0-1.dsc
+ 2aeca6292c150b9a6e840acc2c85c8ca 114892 oomd_0.4.0.orig.tar.gz
+ 1ca113a501c64f08779ea414757802de 3756 oomd_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/yangfl-guest/oomd
+Vcs-Git: https://salsa.debian.org/yangfl-guest/oomd.git
+Checksums-Sha256:
+ 72235f52e33946f0ee4ad35f8347f6fd3164894fd6009d6b1141c23ea825e19f 1946 oomd_0.4.0-1.dsc
+ 69ea44270b20c157d24c400a45112c391a9c89299de5f22edec8648675aedf7f 114892 oomd_0.4.0.orig.tar.gz
+ b904c788f17c56e98dc8cabe0360a67d5b719d34ee2c85e989b94c2ad059ec96 3756 oomd_0.4.0-1.debian.tar.xz
+Homepage: https://github.com/facebookincubator/oomd
+Package-List: 
+ oomd deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/o/oomd
+Priority: extra
+Section: misc

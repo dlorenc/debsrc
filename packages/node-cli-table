@@ -1,0 +1,26 @@
+Package: node-cli-table
+Binary: node-cli-table
+Version: 0.3.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@mail.dk>
+Build-Depends: debhelper-compat (= 12), node-colors (>= 1.0.3) <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4b4071eba5710dd9e396c219021e3e5f 2077 node-cli-table_0.3.1-2.dsc
+ ead33c69d51e3f9b7e3f509716b211dd 8562 node-cli-table_0.3.1.orig.tar.gz
+ 25c89c80f36418daf65fcd1acb4d5ec8 2972 node-cli-table_0.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cli-table
+Vcs-Git: https://salsa.debian.org/js-team/node-cli-table.git
+Checksums-Sha256:
+ 4a2fb265214c3bd2d24bd7589ba342f9e752a3a65da893ca28b308d6e24b44e7 2077 node-cli-table_0.3.1-2.dsc
+ 03a3c04c3932253c0210a4b6e0d7d3e43971088b886d07ab4bacd4de52961c12 8562 node-cli-table_0.3.1.orig.tar.gz
+ 2142b2d7d6d1c5fa8de3e257e8924734ef9297961e3d1063922a2b33a5fb6bc4 2972 node-cli-table_0.3.1-2.debian.tar.xz
+Homepage: https://github.com/Automattic/cli-table
+Package-List: 
+ node-cli-table deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cli-table
+Priority: optional
+Section: javascript

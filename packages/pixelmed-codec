@@ -1,0 +1,27 @@
+Package: pixelmed-codec
+Binary: libpixelmed-codec-java, libpixelmed-imageio-java
+Version: 20200328-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper (>= 11~)
+Build-Depends-Indep: default-jdk, javahelper, junit4, libhsqldb-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d78347ac23346bceeaf14a53387a7a57 2179 pixelmed-codec_20200328-3.dsc
+ 958f59132afc35d5969bfbc1dfa4382d 44485 pixelmed-codec_20200328.orig.tar.bz2
+ 2ede4aa86fe3b7db6cb69152515a62b8 5412 pixelmed-codec_20200328-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pixelmed-codec
+Vcs-Git: https://salsa.debian.org/med-team/pixelmed-codec.git
+Checksums-Sha256:
+ 3435fdd20ab21021ba61238c3cd7421fe7206fff548ae0672b8fb7e787a6e592 2179 pixelmed-codec_20200328-3.dsc
+ eb3a3ac859cb3c3abb764af7c01b1c9ea3663fa1b6f2b8436f467272a6c4116b 44485 pixelmed-codec_20200328.orig.tar.bz2
+ 5399c6d4e3c752e30609f0430bcb71407f1f782743c45096445e9658cfde4a29 5412 pixelmed-codec_20200328-3.debian.tar.xz
+Homepage: https://www.pixelmed.com/jpeg.html
+Package-List: 
+ libpixelmed-codec-java deb java optional arch=all
+ libpixelmed-imageio-java deb java optional arch=all
+Directory: pool/main/p/pixelmed-codec
+Priority: optional
+Section: misc

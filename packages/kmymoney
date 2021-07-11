@@ -1,0 +1,28 @@
+Package: kmymoney
+Binary: kmymoney, kmymoney-common
+Version: 5.1.1-1
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Mark Purcell <msp@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, pkg-kde-tools (>= 0.15.16), gettext, extra-cmake-modules (>= 5.42.0~), qtbase5-dev (>= 5.2.0~), qtbase5-private-dev (>= 5.2.0~), qtdeclarative5-dev (>= 5.2.0~), libqt5svg5-dev (>= 5.2.0~), libkf5activities-dev (>= 5.2.0~), libkf5akonadi-dev, libkf5archive-dev (>= 5.2.0~), libkf5completion-dev (>= 5.2.0~), libkf5config-dev (>= 5.2.0~), libkf5configwidgets-dev (>= 5.2.0~), libkf5contacts-dev, libkf5coreaddons-dev (>= 5.2.0~), libkf5doctools-dev (>= 5.2.0~), libkf5holidays-dev, libkf5i18n-dev (>= 5.2.0~), libkf5iconthemes-dev (>= 5.2.0~), libkf5identitymanagement-dev, libkf5itemmodels-dev (>= 5.2.0~), libkf5itemviews-dev (>= 5.2.0~), libkchart-dev, libkf5kcmutils-dev (>= 5.2.0~), libkf5kio-dev (>= 5.2.0~), libkf5notifications-dev (>= 5.2.0~), libkf5service-dev (>= 5.2.0~), libkf5textwidgets-dev (>= 5.2.0~), libkf5wallet-dev (>= 5.2.0~), libkf5webkit-dev (>= 5.2.0~), libkf5xmlgui-dev (>= 5.2.0~), libaqbanking-dev (>= 6.0.1~), libgwenhywfar-core-dev (>= 5.1.2~), libgwengui-qt5-dev (>= 5.1.2~), libgpgmepp-dev, libgpg-error-dev, libgpgme-dev, libalkimia5-dev (>= 7.0), libical-dev, libofx-dev, libgmp-dev, libsqlcipher-dev, libsqlite3-dev, pkg-config
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6ea594eaa80f61bde76ad40ff20cf193 3390 kmymoney_5.1.1-1.dsc
+ 844840c27e0eed7d21efdca9419e223a 12059768 kmymoney_5.1.1.orig.tar.xz
+ 438b70f4b25ac6689c871d8073ec425c 868 kmymoney_5.1.1.orig.tar.xz.asc
+ ba93e43f49b0340aee94ff6ca3a67d33 18828 kmymoney_5.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/kmymoney
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/kmymoney.git
+Checksums-Sha256:
+ fc52d5e2e0183c8aae72bbe34dba8a86d0cd2e2fb5f9aee72c1366aed86458fb 3390 kmymoney_5.1.1-1.dsc
+ df7b9f78e8596f99d28295ca738708f0655ee057789dfd921c7b1bab96578298 12059768 kmymoney_5.1.1.orig.tar.xz
+ fa58010c6786fa34cd6c38f127b2b2e0dbefed839841338ca56d3bd0c74be73a 868 kmymoney_5.1.1.orig.tar.xz.asc
+ cabc2cc284217816a69ea2af759505625fecbb15b37c14bc4155a9af50a0e39c 18828 kmymoney_5.1.1-1.debian.tar.xz
+Homepage: https://kmymoney.org/
+Package-List: 
+ kmymoney deb kde optional arch=any
+ kmymoney-common deb kde optional arch=all
+Directory: pool/main/k/kmymoney
+Priority: source
+Section: kde

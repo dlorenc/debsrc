@@ -1,0 +1,26 @@
+Package: haskell-butcher
+Binary: libghc-butcher-dev, libghc-butcher-prof, libghc-butcher-doc
+Version: 1.3.3.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-bifunctors-dev (<< 5.6), libghc-bifunctors-prof (<< 5.6), libghc-deque-dev (>= 0.3), libghc-deque-dev (<< 0.5), libghc-deque-prof (>= 0.3), libghc-deque-prof (<< 0.5), libghc-extra-dev (<< 1.8), libghc-extra-prof (<< 1.8), libghc-free-dev (<< 5.2), libghc-free-prof (<< 5.2), libghc-microlens-dev (<< 0.5), libghc-microlens-prof (<< 0.5), libghc-microlens-th-dev (<< 0.5), libghc-microlens-th-prof (<< 0.5), libghc-multistate-dev (>= 0.7), libghc-multistate-dev (<< 0.9), libghc-multistate-prof (>= 0.7), libghc-multistate-prof (<< 0.9), libghc-unsafe-dev (<< 0.1), libghc-unsafe-prof (<< 0.1), libghc-void-dev (<< 0.8), libghc-void-prof (<< 0.8), libghc-hspec-dev, libghc-hspec-prof
+Build-Depends-Indep: ghc-doc, libghc-bifunctors-doc, libghc-deque-doc, libghc-extra-doc, libghc-free-doc, libghc-microlens-doc, libghc-microlens-th-doc, libghc-multistate-doc, libghc-unsafe-doc, libghc-void-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d25db9d34e90de2e39cf7f36ba099b3c 3026 haskell-butcher_1.3.3.2-1.dsc
+ 2217fbe67f6580543de2d03543b1dd04 38069 haskell-butcher_1.3.3.2.orig.tar.gz
+ f16215dc5c3eb1f9134a2fad3fb84429 2520 haskell-butcher_1.3.3.2-1.debian.tar.xz
+Checksums-Sha256:
+ 3478178fb7fa0d3c8f8910970cb81ad793f7bb574a09d39febb228ba2e65a946 3026 haskell-butcher_1.3.3.2-1.dsc
+ 1d0f8e8e498b012c4a859671eebf34a6e965e8ed99b3c90d3aad1d8898c40f1b 38069 haskell-butcher_1.3.3.2.orig.tar.gz
+ d43f26ffe89e7578b283ac7aa57ecf304adf3aea096ee7314cb41d000480883a 2520 haskell-butcher_1.3.3.2-1.debian.tar.xz
+Homepage: https://github.com/lspitzner/butcher/
+Package-List: 
+ libghc-butcher-dev deb haskell optional arch=any
+ libghc-butcher-doc deb doc optional arch=all
+ libghc-butcher-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-butcher
+Priority: extra
+Section: misc

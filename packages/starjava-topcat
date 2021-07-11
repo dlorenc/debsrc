@@ -1,0 +1,31 @@
+Package: starjava-topcat
+Binary: topcat, topcat-doc, starlink-topcat-java, starlink-topcat-java-doc
+Version: 4.8-2
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: ant, debhelper-compat (= 13), dh-exec, javahelper
+Build-Depends-Indep: ant-optional, default-jdk, default-jdk-doc, javahelp2, jel-java, junit, libcds-moc-java, libfits-java, libjsamp-java, libopenjfx-java, libsaxonhe-java, starlink-datanode-java, starlink-fits-java, starlink-table-java (>= 4~), starlink-task-java, starlink-ttools-java (>= 3.3~), starlink-util-java (>= 1.0+2021.01.10~), starlink-vo-java, starlink-votable-java, stilts-doc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f2c14ea9ea0b68412de6197c3474d667 2674 starjava-topcat_4.8-2.dsc
+ ea34488b8318736a2fb98fdf4fa72901 5908672 starjava-topcat_4.8.orig.tar.xz
+ 7a6c551f7dd4fc718f526fa1276b959f 30636 starjava-topcat_4.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/starjava-topcat
+Vcs-Git: https://salsa.debian.org/debian-astro-team/starjava-topcat.git
+Checksums-Sha256:
+ 0cb1286048339e075024dac3bc5562ecb826f4039581d9885ae27e49f7f39fab 2674 starjava-topcat_4.8-2.dsc
+ faf8aac8c5814436e2da85b1bf27858ac26a91184f5cd7e655d2118dd74c7bca 5908672 starjava-topcat_4.8.orig.tar.xz
+ fceb41024fb63daff35e0d184d04960c474dd524f4b67a8823917c3c0e93cde4 30636 starjava-topcat_4.8-2.debian.tar.xz
+Homepage: http://www.starlink.ac.uk/topcat/
+Package-List: 
+ starlink-topcat-java deb java optional arch=all
+ starlink-topcat-java-doc deb doc optional arch=all
+ topcat deb science optional arch=all
+ topcat-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ant, ant-optional, default-jdk, junit
+Directory: pool/main/s/starjava-topcat
+Priority: optional
+Section: misc

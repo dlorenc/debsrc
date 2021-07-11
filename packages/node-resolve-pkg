@@ -1,0 +1,26 @@
+Package: node-resolve-pkg
+Binary: node-resolve-pkg
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-resolve-from <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fe4fcdc8bd5371a85d7613f49ff2ccb1 2115 node-resolve-pkg_2.0.0-1.dsc
+ 848321439a11c60c233092df5c0d09d0 3274 node-resolve-pkg_2.0.0.orig.tar.gz
+ 2644038ff4c2e48efcd8904adcd1e93b 4528 node-resolve-pkg_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-resolve-pkg
+Vcs-Git: https://salsa.debian.org/js-team/node-resolve-pkg.git
+Checksums-Sha256:
+ 45f0c051116d533ba72eb2cc64fcab1b4d8d1a440c996cd206608de23b132dbd 2115 node-resolve-pkg_2.0.0-1.dsc
+ 476116377c3bc9bc9cd3108eb45f0080e9dcbf8e75bd444550d00203afe80f66 3274 node-resolve-pkg_2.0.0.orig.tar.gz
+ 06940136c2f6c6a6cea5eec8dfc2b03df5e16a3bad9041d09a23b3e52527be54 4528 node-resolve-pkg_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/resolve-pkg
+Package-List: 
+ node-resolve-pkg deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-resolve-pkg
+Priority: optional
+Section: javascript

@@ -1,0 +1,29 @@
+Package: scim-tables
+Binary: scim-modules-table, scim-tables-zh, scim-tables-ja, scim-tables-ko, scim-tables-additional
+Version: 0.5.14-2.1
+Maintainer: Tz-Huan Huang <tzhuan@gmail.com>
+Uploaders: Toni Mueller <toni@debian.org>, Rolf Leggewie <foss@rolf.leggewie.biz>
+Build-Depends: dpkg-dev (>= 1.13.19), debhelper (>= 9), pkg-config, autotools-dev, gettext, intltool, libtool, libscim-dev (>= 1.4.14), sharutils
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ f24e9a357f71259bc9258f897cabfb49 2337 scim-tables_0.5.14-2.1.dsc
+ 729f4b75337436a77894a7bca1ab068b 6680699 scim-tables_0.5.14.orig.tar.gz
+ 9dc38363e831780cbe7fdde2a784db26 8304 scim-tables_0.5.14-2.1.debian.tar.xz
+Vcs-Browser: https://github.com/leggewie-DM/scim-tables
+Vcs-Git: https://github.com/leggewie-DM/scim-tables.git
+Checksums-Sha256:
+ 5e56dd3cd1f2c2f6bee5d295f75d9105cbe16808c2c74bca5d3a0bd28193c768 2337 scim-tables_0.5.14-2.1.dsc
+ a38d9c586644674f88ecd8f16655c9c7120d0101ad28f0ab5c4e08acb96021d1 6680699 scim-tables_0.5.14.orig.tar.gz
+ aed6ddb07f0124c03bd38a60da889566609f3ba0e7ca639944e09a9fb62a6fc0 8304 scim-tables_0.5.14-2.1.debian.tar.xz
+Homepage: https://sourceforge.net/projects/scim/
+Package-List: 
+ scim-modules-table deb utils optional arch=any
+ scim-tables-additional deb utils optional arch=all
+ scim-tables-ja deb utils optional arch=all
+ scim-tables-ko deb utils optional arch=all
+ scim-tables-zh deb utils optional arch=all
+Directory: pool/main/s/scim-tables
+Priority: source
+Section: utils

@@ -1,0 +1,27 @@
+Package: golang-gocapability-dev
+Binary: golang-gocapability-dev
+Version: 0.0+git20200815.42c35b4-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Johan Euphrosine <proppy@google.com>, Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b0051448ff8b81b9f5004bc746b28977 1790 golang-gocapability-dev_0.0+git20200815.42c35b4-1.dsc
+ 8b7e6e82ea42247e90461194ca480f72 10048 golang-gocapability-dev_0.0+git20200815.42c35b4.orig.tar.xz
+ b59cde8fafb4cc27400e7e0a80cc8d70 3376 golang-gocapability-dev_0.0+git20200815.42c35b4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-gocapability-dev
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-gocapability-dev.git
+Checksums-Sha256:
+ a34df7f7af71aea38cc813afa60b1e099e171af344be9c31571b8c087dbb1cf0 1790 golang-gocapability-dev_0.0+git20200815.42c35b4-1.dsc
+ c15c3e82034d2196ac96287486c147dfa7f0fefcb667bb7d7db521868ab9ef80 10048 golang-gocapability-dev_0.0+git20200815.42c35b4.orig.tar.xz
+ 7aaa0f1011af9d2fd0611f38c9aaf283a1b1bb3d63ba782fe46ee62cb985a12b 3376 golang-gocapability-dev_0.0+git20200815.42c35b4-1.debian.tar.xz
+Homepage: https://github.com/syndtr/gocapability
+Go-Import-Path: github.com/syndtr/gocapability
+Package-List: 
+ golang-gocapability-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-gocapability-dev
+Priority: extra
+Section: golang

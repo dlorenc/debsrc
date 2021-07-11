@@ -1,0 +1,26 @@
+Package: node-less-loader
+Binary: node-less-loader
+Version: 5.0.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs (>= 6), pkg-js-tools (>= 0.9.35), node-babel7, node-less, node-clone (>= 2.1.1), node-loader-utils (>= 1.1.0), node-pify (>= 3.0.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9b7880d2d7eb9dbda8fa305c7037bab9 2193 node-less-loader_5.0.1-2.dsc
+ 19035571f2668387b4a5857ef6792f8a 126508 node-less-loader_5.0.1.orig.tar.gz
+ a57da0225a128c1291bc5fb3fe7482d6 2740 node-less-loader_5.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-less-loader
+Vcs-Git: https://salsa.debian.org/js-team/node-less-loader.git
+Checksums-Sha256:
+ fd11cc99c90d77709b61dc947ca299e6142a5956320f51030e1655e63be3b7c0 2193 node-less-loader_5.0.1-2.dsc
+ b04eb18163a246498ee2986c787f70363e27b192aeabab09ec30a14a8777405f 126508 node-less-loader_5.0.1.orig.tar.gz
+ f99422bc963cb082e23d0134dc8e8af65687d2cf3ba54a1d476443ec2e7462a4 2740 node-less-loader_5.0.1-2.debian.tar.xz
+Homepage: https://github.com/webpack-contrib/less-loader
+Package-List: 
+ node-less-loader deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-less-loader
+Priority: extra
+Section: misc

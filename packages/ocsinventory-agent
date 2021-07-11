@@ -1,0 +1,26 @@
+Package: ocsinventory-agent
+Binary: ocsinventory-agent
+Version: 2:2.8-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), libcrypt-ssleay-perl, libnet-ip-perl, libwww-perl, libxml-simple-perl, perl-xs-dev, po-debconf, perl:native (>= 5.15.2)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7c1682e3e9201800077b708d1135f5bb 2190 ocsinventory-agent_2.8-1.dsc
+ 007cb64f369642b7ee42944d94ca8a53 1443708 ocsinventory-agent_2.8.orig.tar.gz
+ 05f59553c069f92cec22cd0440ad1ec3 19504 ocsinventory-agent_2.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/ocsinventory-agent
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/ocsinventory-agent.git
+Checksums-Sha256:
+ 867ef18f284cb287a49e42b81b884a1818454f3c104b169904f3a45cef8859ca 2190 ocsinventory-agent_2.8-1.dsc
+ 779a427d094286c6f6b9f1dff9aad18d037d388e069a1fcbc8c36e62eb4d44ad 1443708 ocsinventory-agent_2.8.orig.tar.gz
+ 5036eb6f93eabdcbdcf18842d62e3c0880b3e563fe2c249fe41b5c7922a07434 19504 ocsinventory-agent_2.8-1.debian.tar.xz
+Homepage: https://www.ocsinventory-ng.org/
+Package-List: 
+ ocsinventory-agent deb net optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/o/ocsinventory-agent
+Priority: source
+Section: net

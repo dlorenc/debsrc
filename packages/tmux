@@ -1,0 +1,24 @@
+Package: tmux
+Binary: tmux
+Version: 3.1c-1
+Maintainer: Romain Francoise <rfrancoise@debian.org>
+Build-Depends: bison, debhelper-compat (= 12), dpkg-dev (>= 1.16.1~), libevent-dev (>> 2.0.10), libncurses5-dev, libutempter-dev, libutil-freebsd-dev [kfreebsd-any], pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c4b3e3fc5a177c373872820225b72ae1 1916 tmux_3.1c-1.dsc
+ 7301d3fa12f35051edb185496766c745 561323 tmux_3.1c.orig.tar.gz
+ cd4753c69533a18572bc58bc914adfb9 13052 tmux_3.1c-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rfrancoise/tmux
+Vcs-Git: https://salsa.debian.org/rfrancoise/tmux.git
+Checksums-Sha256:
+ 04ac30225a9ad8330162220d6cf88af36c3da43c55e4ee7599fcbf825cd943da 1916 tmux_3.1c-1.dsc
+ 918f7220447bef33a1902d4faff05317afd9db4ae1c9971bef5c787ac6c88386 561323 tmux_3.1c.orig.tar.gz
+ 62bd4ebb95089fbc5e1be7f9061462eac041504f69891e826399e2c17a63c140 13052 tmux_3.1c-1.debian.tar.xz
+Homepage: https://tmux.github.io/
+Package-List: 
+ tmux deb admin optional arch=any
+Directory: pool/main/t/tmux
+Priority: source
+Section: admin

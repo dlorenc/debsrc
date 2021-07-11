@@ -1,0 +1,26 @@
+Package: libtritonus-java
+Binary: libtritonus-java, libtritonus-jni
+Version: 20070428-14.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Varun Hiremath <varun@debian.org>, Torsten Werner <twerner@debian.org>
+Build-Depends: ant, autoconf, autotools-dev, debhelper (>= 11), default-jdk, libasound2-dev | libasound-dev, libcdparanoia-dev, libfluidsynth-dev (>= 2), libjlayer-java, libjorbis-java, libogg-dev, libtritonus-java, libvorbis-dev
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ b2c84377caff75e2564cce1a2617ed24 2309 libtritonus-java_20070428-14.1.dsc
+ 6b4dc3cf5b43c23d444095d57df0ede8 900999 libtritonus-java_20070428.orig.tar.gz
+ 6e64f7fa816e52aeb238eeb0e7060c2d 9904 libtritonus-java_20070428-14.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libtritonus-java
+Vcs-Git: https://salsa.debian.org/java-team/libtritonus-java.git
+Checksums-Sha256:
+ f18dce8a0aaf30e494f8bd630d4016609d936037c04bcc6e86ae6f2ae8b753f7 2309 libtritonus-java_20070428-14.1.dsc
+ 629a2039198559b4435f594f27519b980eb9558f550854ba7c7acdb9d62522b3 900999 libtritonus-java_20070428.orig.tar.gz
+ c7f43065fd0acf2e6685706ed9a61b27d7b899299e59b42743b397a40c540382 9904 libtritonus-java_20070428-14.1.debian.tar.xz
+Homepage: http://tritonus.org
+Package-List: 
+ libtritonus-java deb java optional arch=all
+ libtritonus-jni deb libs optional arch=any
+Directory: pool/main/libt/libtritonus-java
+Priority: source
+Section: java

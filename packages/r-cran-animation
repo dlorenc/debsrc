@@ -1,0 +1,27 @@
+Package: r-cran-animation
+Binary: r-cran-animation
+Version: 2.6+dfsg-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-magick
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7e37bc90c8b7b190c13017f81c1ec24c 2163 r-cran-animation_2.6+dfsg-2.dsc
+ 7660b6c66b7dfe87bfa3096d9a055324 214616 r-cran-animation_2.6+dfsg.orig.tar.xz
+ dd0fd30f7f488ec4f12133ff8b3815df 13408 r-cran-animation_2.6+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-animation
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-animation.git
+Checksums-Sha256:
+ 5f8cb29fa709fa66dd7d2a5a6ba3c68a46f09adb9d1e4f031706e6ac2ab4b75e 2163 r-cran-animation_2.6+dfsg-2.dsc
+ ee94a54e15a26674a28c72bfa2f55da7c41b1c79ed48f793e76b58262b0b345f 214616 r-cran-animation_2.6+dfsg.orig.tar.xz
+ 40f255c4160d444ae783b3dd76b9ef4a00eb9ddc63e27ed4443444e08e03f535 13408 r-cran-animation_2.6+dfsg-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=animation
+Package-List: 
+ r-cran-animation deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testit
+Directory: pool/main/r/r-cran-animation
+Priority: extra
+Section: misc

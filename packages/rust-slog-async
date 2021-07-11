@@ -1,0 +1,27 @@
+Package: rust-slog-async
+Binary: librust-slog-async-dev
+Version: 2.5.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-channel-0.4+default-dev <!nocheck>, librust-slog-2+default-dev (>= 2.1-~~) <!nocheck>, librust-take-mut-0.2+default-dev <!nocheck>, librust-thread-local-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ad57801e72db375add06867f55e485f3 2038 rust-slog-async_2.5.0-1.dsc
+ 3ed8ab45cf407d98a97d6b1c175c67c5 18033 rust-slog-async_2.5.0.orig.tar.gz
+ b4386c2ff84ccd8aae9ac5fca6ea6cc4 2704 rust-slog-async_2.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/slog-async
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/slog-async]
+Checksums-Sha256:
+ 305c19c1af57916997860b2d9967a5f0e17519e8e6f7465bb671ed3db6e1ae1f 2038 rust-slog-async_2.5.0-1.dsc
+ 51b3336ce47ce2f96673499fc07eb85e3472727b9a7a2959964b002c2ce8fbbb 18033 rust-slog-async_2.5.0.orig.tar.gz
+ 66dac16ad8cc7d7c953f139e5dd74a6c48ae079e52650541820b232b4d108961 2704 rust-slog-async_2.5.0-1.debian.tar.xz
+Homepage: https://github.com/slog-rs/slog
+Package-List: 
+ librust-slog-async-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-slog-async
+Priority: extra
+Section: misc

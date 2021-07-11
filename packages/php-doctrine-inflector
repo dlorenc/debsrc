@@ -1,0 +1,27 @@
+Package: php-doctrine-inflector
+Binary: php-doctrine-inflector
+Version: 2.0.3-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4f0964fdb7bdbc0da36b99bd310f5122 1870 php-doctrine-inflector_2.0.3-2.dsc
+ d5edbab211dfb46fd70977f74fec49fe 24748 php-doctrine-inflector_2.0.3.orig.tar.gz
+ 332345bfd6682baf8b30602f34a54999 6232 php-doctrine-inflector_2.0.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-doctrine-inflector
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-doctrine-inflector.git -b debian/latest
+Checksums-Sha256:
+ 5f2faaf9f24609d2d703e266ec643ef84b6bf73d3228fc5a39e5a516ee072c6d 1870 php-doctrine-inflector_2.0.3-2.dsc
+ 5325a41706a0d4275ec4ef1bfd3dfa9e71aec43513bc51f3e4e980704609b59c 24748 php-doctrine-inflector_2.0.3.orig.tar.gz
+ dc318e0ae202502a449247c88b7503863b27d26b8a867ee879c456a92bafc9c9 6232 php-doctrine-inflector_2.0.3-2.debian.tar.xz
+Homepage: https://www.doctrine-project.org/projects/inflector.html
+Package-List: 
+ php-doctrine-inflector deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpab, phpunit
+Directory: pool/main/p/php-doctrine-inflector
+Priority: optional
+Section: misc

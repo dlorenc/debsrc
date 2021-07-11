@@ -1,0 +1,35 @@
+Package: clamav
+Binary: clamav-base, clamav-docs, clamav, libclamav-dev, libclamav9, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter
+Version: 0.103.2+dfsg-2
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>
+Build-Depends: automake, check, debhelper-compat (= 12), dh-apparmor, dh-strip-nondeterminism, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev | libjson0-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre2-dev, libssl-dev, libsystemd-dev [linux-any], libtfm-dev, libxml2-dev, perl:native, pkg-config, po-debconf, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 89c60545537dd62602dde5709244770f 2777 clamav_0.103.2+dfsg-2.dsc
+ 246d43d86d170e5aad57d512f4b0f6f8 5123788 clamav_0.103.2+dfsg.orig.tar.xz
+ d2368ca7f37aec60d4d6348f50455afe 220168 clamav_0.103.2+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clamav-team/clamav
+Vcs-Git: https://salsa.debian.org/clamav-team/clamav.git
+Checksums-Sha256:
+ 0ec002a8759ca929b6d78b79c43b4fbb03997ab1fb719b8b0f4b39210b76776a 2777 clamav_0.103.2+dfsg-2.dsc
+ 1f5d08342552f4b011521f44dd25e732dc79531ed2b54db385f8520496026371 5123788 clamav_0.103.2+dfsg.orig.tar.xz
+ 0a4e2ec8ea847f6a280b3e2de3caf1daf1f99134f3eb76b3bf8afe6df4e4106a 220168 clamav_0.103.2+dfsg-2.debian.tar.xz
+Homepage: https://www.clamav.net/
+Package-List: 
+ clamav deb utils optional arch=any
+ clamav-base deb utils optional arch=all
+ clamav-daemon deb utils optional arch=any
+ clamav-docs deb doc optional arch=all
+ clamav-freshclam deb utils optional arch=any
+ clamav-milter deb utils optional arch=any
+ clamav-testfiles deb utils optional arch=all
+ clamdscan deb utils optional arch=any
+ libclamav-dev deb libdevel optional arch=any
+ libclamav9 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/clamav
+Priority: source
+Section: utils

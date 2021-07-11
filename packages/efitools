@@ -1,0 +1,25 @@
+Package: efitools
+Binary: efitools
+Version: 1.9.2-1
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Uploaders: Arnaud Rebillout <arnaud.rebillout@collabora.com>, Steve McIntyre <93sam@debian.org>
+Build-Depends: debhelper-compat (= 12), libfile-slurp-perl, help2man, libssl-dev, openssl, gnu-efi, sbsigntool
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9a975b95d9ccc7ac62918315f5aca47e 2056 efitools_1.9.2-1.dsc
+ a3a3f04ed6aa5486c97dd206edeebe0a 116037 efitools_1.9.2.orig.tar.gz
+ 12424c4f1181e07107ae8ed920260f04 4388 efitools_1.9.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/efi-team/efitools
+Vcs-Git: https://salsa.debian.org/efi-team/efitools.git
+Checksums-Sha256:
+ 5e55c9c3569de508bf1f56cd2b8eb4f72f0fc27e2e129ee818b15bea4db6e4bf 2056 efitools_1.9.2-1.dsc
+ 0f315b36e7d1ba74bfc97ab9f304f0a3072c47578bbe5e42594acae381f9acfe 116037 efitools_1.9.2.orig.tar.gz
+ 2344a965a34446253c4f380544b476b056fc224ada30735a051e83f4e340d61a 4388 efitools_1.9.2-1.debian.tar.xz
+Homepage: http://blog.hansenpartnership.com/uefi-secure-boot/
+Package-List: 
+ efitools deb admin optional arch=any
+Directory: pool/main/e/efitools
+Priority: optional
+Section: misc

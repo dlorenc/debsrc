@@ -1,0 +1,27 @@
+Package: ruby-net-ssh-krb
+Binary: ruby-net-ssh-krb
+Version: 0.4.0-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Moll <kvedulv@kvedulv.de>
+Build-Depends: debhelper (>= 10~), gem2deb, rake, ruby-gssapi (>= 1.2.0), ruby-net-ssh (>= 2.0), ruby-rspec
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 3548db26f9a81327654041fd4ba1761e 2171 ruby-net-ssh-krb_0.4.0-1.1.dsc
+ 4703b2bd007de93ef02ba3d780a6f117 11885 ruby-net-ssh-krb_0.4.0.orig.tar.gz
+ 279cea68f0ffd087997f68577522682a 2128 ruby-net-ssh-krb_0.4.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-net-ssh-krb.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-net-ssh-krb.git
+Checksums-Sha256:
+ b51cd724631bbe52dc51ea8dac43b1a6d71f608910882dc760541dd5c5a5348d 2171 ruby-net-ssh-krb_0.4.0-1.1.dsc
+ 0756289225a5f0badc653d0cba7290f4473f6bf0e6c835807ba4b45fe585b9e4 11885 ruby-net-ssh-krb_0.4.0.orig.tar.gz
+ 9ad0e7385a317af0eda111579896a9a29b9255ae48cd30b4147bbc0bdbda6fc3 2128 ruby-net-ssh-krb_0.4.0-1.1.debian.tar.xz
+Homepage: http://github.com/cbeer/net-ssh-kerberos
+Package-List: 
+ ruby-net-ssh-krb deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-net-ssh-krb
+Priority: extra
+Section: misc

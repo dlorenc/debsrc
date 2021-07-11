@@ -1,0 +1,28 @@
+Package: gpxpy
+Binary: python3-gpxpy, gpxinfo
+Version: 1.4.2-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Dominik George <natureshadow@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6bb2923644f38c3bdd4a76e727483884 2090 gpxpy_1.4.2-1.dsc
+ 9c1672d0d18aee259b0c3ac76f3eb9c3 105718 gpxpy_1.4.2.orig.tar.gz
+ 7875553644dede4bf760e01ca883e3da 3040 gpxpy_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/gpxpy
+Vcs-Git: https://salsa.debian.org/python-team/modules/gpxpy.git
+Checksums-Sha256:
+ da6f797c1fd47054002855950df60edb50d7d89b3773a384c4a739d6637e8253 2090 gpxpy_1.4.2-1.dsc
+ 0832041899cdfdc5a607291bbef3d73042e16ffcecc3f2cb9631b699db0bb53f 105718 gpxpy_1.4.2.orig.tar.gz
+ 2807a81af22e1e2bdff1fb8b7a602a12ae7b7efcb0f621decef92b9853a87318 3040 gpxpy_1.4.2-1.debian.tar.xz
+Homepage: https://github.com/tkrajina/gpxpy
+Package-List: 
+ gpxinfo deb utils optional arch=all
+ python3-gpxpy deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/g/gpxpy
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: nim-lapper
+Binary: nim-lapper-dev
+Version: 0.1.7-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), nim
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3cdceb5a4ca7d2456618473016373ed2 2078 nim-lapper_0.1.7-3.dsc
+ 17d5be2d024b82acb828b0301de18a26 16636 nim-lapper_0.1.7.orig.tar.gz
+ f5781543d922a2160f4674ba35aaad56 3048 nim-lapper_0.1.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/nim-lapper
+Vcs-Git: https://salsa.debian.org/med-team/nim-lapper.git
+Checksums-Sha256:
+ 9a373a06a9ecce5dceca9c9b2d03370c34b5b9c2febdbb56f1572841aaf5d582 2078 nim-lapper_0.1.7-3.dsc
+ b620841d6946157a5ed8d93f5f0fc7f484e9fd8a4d985aedbf2a858238a0e828 16636 nim-lapper_0.1.7.orig.tar.gz
+ 293d36fb163d65854098026a368099c32025bc80943cd93a7ebf8efcb6059afd 3048 nim-lapper_0.1.7-3.debian.tar.xz
+Homepage: https://github.com/brentp/nim-lapper
+Package-List: 
+ nim-lapper-dev deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, nim
+Directory: pool/main/n/nim-lapper
+Priority: extra
+Section: misc

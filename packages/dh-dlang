@@ -1,0 +1,23 @@
+Package: dh-dlang
+Binary: dh-dlang, default-d-compiler
+Version: 0.6.5
+Maintainer: Debian D Language Group <team+d-team@tracker.debian.org>
+Uploaders: Matthias Klumpp <mak@debian.org>
+Build-Depends: debhelper-compat (= 12), flake8
+Architecture: all amd64 arm64 i386 armhf armel s390x riscv64 ppc64el x32
+Standards-Version: 4.4.0
+Format: 3.0 (native)
+Files:
+ bca68c5d47730735eb713d8ec3d9bae8 1775 dh-dlang_0.6.5.dsc
+ 5277b42f71a7d87aa261778d1ed49ebd 4388 dh-dlang_0.6.5.tar.xz
+Vcs-Browser: https://salsa.debian.org/d-team/dh-dlang
+Vcs-Git: https://salsa.debian.org/d-team/dh-dlang.git
+Checksums-Sha256:
+ c345dea8efb25213bb954c105644ec65e350146228961aaeff45bce815914136 1775 dh-dlang_0.6.5.dsc
+ cab7bebf9deb864c284fa8325136814ad289dabc88b5c8a9b9bde65c4d9d2980 4388 dh-dlang_0.6.5.tar.xz
+Package-List: 
+ default-d-compiler deb devel optional arch=amd64,arm64,i386,armhf,armel,s390x,riscv64,ppc64el,x32
+ dh-dlang deb devel optional arch=all
+Directory: pool/main/d/dh-dlang
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: haskell-lambdahack
+Binary: libghc-lambdahack-dev, libghc-lambdahack-prof, libghc-lambdahack-doc, lambdahack
+Version: 0.9.5.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Mikolaj Konarski <mikolaj.konarski@funktory.com>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-assert-failure-dev (>= 0.1.2), libghc-assert-failure-dev (<< 0.2), libghc-assert-failure-prof, libghc-async-dev (>= 2), libghc-async-prof, libghc-base-compat-dev (>= 0.8.0), libghc-base-compat-prof, libghc-enummapset-dev (>= 0.5.2.2), libghc-enummapset-prof, libghc-hashable-dev (>= 1.1.2.5), libghc-hashable-prof, libghc-hsini-dev (>= 0.2), libghc-hsini-prof, libghc-keys-dev (>= 3), libghc-keys-prof, libghc-miniutter-dev (>= 0.5.0.0), libghc-miniutter-prof, libghc-optparse-applicative-dev (>= 0.13), libghc-optparse-applicative-prof, libghc-pretty-show-dev (>= 1.6), libghc-pretty-show-prof, libghc-primitive-dev (>= 0.6.1.0), libghc-primitive-prof, libghc-random-dev (>= 1.1), libghc-random-prof, libghc-sdl2-dev (>= 2), libghc-sdl2-prof, libghc-sdl2-ttf-dev (>= 2), libghc-sdl2-ttf-prof, libghc-unordered-containers-dev (>= 0.2.3), libghc-unordered-containers-prof, libghc-vector-dev (>= 0.11), libghc-vector-prof, libghc-vector-binary-instances-dev (>= 0.2.3.1), libghc-vector-binary-instances-prof, libghc-zlib-dev (>= 0.5.3.1), libghc-zlib-prof
+Build-Depends-Indep: ghc-doc, libghc-assert-failure-doc, libghc-async-doc, libghc-base-compat-doc, libghc-enummapset-doc, libghc-hashable-doc, libghc-hsini-doc, libghc-keys-doc, libghc-miniutter-doc, libghc-optparse-applicative-doc, libghc-pretty-show-doc, libghc-primitive-doc, libghc-random-doc, libghc-sdl2-doc, libghc-sdl2-ttf-doc, libghc-unordered-containers-doc, libghc-vector-doc, libghc-vector-binary-instances-doc, libghc-zlib-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 34cec686d04e9978791cac6f9c7ebd09 3908 haskell-lambdahack_0.9.5.0-3.dsc
+ ce6057f74898068bb5ece221edb38165 712081 haskell-lambdahack_0.9.5.0.orig.tar.gz
+ 42752707f79afa66a74a00903f81e375 6280 haskell-lambdahack_0.9.5.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-lambdahack
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-lambdahack]
+Checksums-Sha256:
+ f3d302f1e2d399dc398da651cb5f70d6b32b67748c8c37450ccea15dcaf97912 3908 haskell-lambdahack_0.9.5.0-3.dsc
+ d0000272d5d97ed80bda3b9a9e6a0e5b22e53ac53e7e1d33b880505e5921a3f8 712081 haskell-lambdahack_0.9.5.0.orig.tar.gz
+ 4e272d1acf88c75c2d5c9f6bd553b18f989457bdb00393b2253fe633184770cc 6280 haskell-lambdahack_0.9.5.0-3.debian.tar.xz
+Homepage: https://github.com/LambdaHack/LambdaHack
+Package-List: 
+ lambdahack deb games optional arch=any
+ libghc-lambdahack-dev deb haskell optional arch=any
+ libghc-lambdahack-doc deb doc optional arch=all
+ libghc-lambdahack-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-lambdahack
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-gettext-parser
+Binary: node-gettext-parser
+Version: 4.0.4-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Mathias Behrle <mbehrle@debian.org>
+Build-Depends: chai <!nocheck>, debhelper-compat (= 13), mocha <!nocheck>, node-content-type <!nocheck>, node-encoding <!nocheck>, node-readable-stream <!nocheck>, node-safe-buffer <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0b3693ea05b4b1a62263217c5bfbf5e4 2248 node-gettext-parser_4.0.4-1.dsc
+ 2f20977d54915539817f1c592ce26cfe 44307 node-gettext-parser_4.0.4.orig.tar.gz
+ 5d21b77cd7b4857ef199b3dc5e8c504c 2792 node-gettext-parser_4.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-gettext-parser
+Vcs-Git: https://salsa.debian.org/js-team/node-gettext-parser.git
+Checksums-Sha256:
+ 822ab2f3d1a56aadc2c31d4e4883edb7513af1163f7b4b52f574e08f73fad846 2248 node-gettext-parser_4.0.4-1.dsc
+ af2976669569576bef3c64d3882dc2008b1ed6557c38de58eaea942b346fa161 44307 node-gettext-parser_4.0.4.orig.tar.gz
+ ebb1170477c76e77e57f532daad9b433fbd6994ad0975e1933fe7b42c31ef094 2792 node-gettext-parser_4.0.4-1.debian.tar.xz
+Homepage: https://github.com/smhg/gettext-parser
+Package-List: 
+ node-gettext-parser deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-gettext-parser
+Priority: optional
+Section: javascript

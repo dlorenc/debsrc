@@ -1,0 +1,33 @@
+Package: ocaml
+Binary: ocaml-base-nox, ocaml-base, ocaml-nox, ocaml, ocaml-source, ocaml-interp, ocaml-compiler-libs, ocaml-man
+Version: 4.11.1-4
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>, Stéphane Glondu <glondu@debian.org>, Mehdi Dogguy <mehdi@debian.org>, Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, binutils-dev, libiberty-dev, libncurses5-dev, libx11-dev, zlib1g-dev, dh-ocaml
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cb7f7a711fc330fd87efe6c46237a906 2254 ocaml_4.11.1-4.dsc
+ 6cc5593468d6fe66dd49a76c6a975b66 3514576 ocaml_4.11.1.orig.tar.xz
+ 75f584db2725bce1fa359ece1c680e91 39704 ocaml_4.11.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml.git
+Checksums-Sha256:
+ c211087810cd4e9e2cfbfddb90fbcfcb9a691d8944db82ad09b3463c0e75a335 2254 ocaml_4.11.1-4.dsc
+ ea4a9187035019f219a50458b7c09ab74239272e5b6ea3ab2a0c840b5810854c 3514576 ocaml_4.11.1.orig.tar.xz
+ f24962c01b7b7bc3e40d2022aca68018134e8743f284bb2d3500541fe057b717 39704 ocaml_4.11.1-4.debian.tar.xz
+Homepage: https://ocaml.org/
+Dgit: cb3001094f6eed0c8d59c491a012fe845b92921e debian archive/debian/4.11.1-4 https://git.dgit.debian.org/ocaml
+Package-List: 
+ ocaml deb ocaml optional arch=any
+ ocaml-base deb ocaml optional arch=any
+ ocaml-base-nox deb ocaml optional arch=any
+ ocaml-compiler-libs deb ocaml optional arch=any
+ ocaml-interp deb ocaml optional arch=any
+ ocaml-man deb ocaml optional arch=all
+ ocaml-nox deb ocaml optional arch=any
+ ocaml-source deb ocaml optional arch=all
+Directory: pool/main/o/ocaml
+Priority: source
+Section: ocaml

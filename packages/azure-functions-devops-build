@@ -1,0 +1,27 @@
+Package: azure-functions-devops-build
+Binary: python3-azure-functions-devops-build
+Version: 0.0.22-5
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-azure <!nocheck>, python3-azure-cli <!nocheck>, python3-azure-cli-testsdk <!nocheck>, python3-azure-devtools <!nocheck>, python3-jinja2 <!nocheck>, python3-msrest <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, python3-vsts-cd-manager <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f747716d2d07eca718d562b58c19d60d 2197 azure-functions-devops-build_0.0.22-5.dsc
+ bd19afe948fa69a5847a1b6b1c9d5119 31764 azure-functions-devops-build_0.0.22.orig.tar.gz
+ d6aca615e8626781ed8db53bf9911ac6 2856 azure-functions-devops-build_0.0.22-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/azure-functions-devops-build
+Vcs-Git: https://salsa.debian.org/python-team/packages/azure-functions-devops-build.git
+Checksums-Sha256:
+ db1125486bed622ed061a2b7b58da6bb57f7d2c90c688c681f2c4325a5c4fb9b 2197 azure-functions-devops-build_0.0.22-5.dsc
+ 4a128761c1ef67dc29e4aa04ab3892665473b2cd04b4167206e87bda7d3470e4 31764 azure-functions-devops-build_0.0.22.orig.tar.gz
+ 9a21abbbfab39ae46a4f5b7a7f42b11646e493163a8e6a420a851b80e7c6f052 2856 azure-functions-devops-build_0.0.22-5.debian.tar.xz
+Homepage: https://github.com/Azure/azure-functions-devops-build
+Package-List: 
+ python3-azure-functions-devops-build deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/a/azure-functions-devops-build
+Priority: extra
+Section: misc

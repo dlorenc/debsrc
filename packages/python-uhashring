@@ -1,0 +1,26 @@
+Package: python-uhashring
+Binary: python3-uhashring
+Version: 1.2-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 99~), python3-all, python3-setuptools
+Build-Depends-Indep: python3-memcache, python3-pytest
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 151bd06c5dd41986c3030c9a096a2567 2122 python-uhashring_1.2-2.dsc
+ cf1209424b072777bbd3898b136382c2 11712 python-uhashring_1.2.orig.tar.xz
+ cfe0d87c7b9f6183cbcedb55de5b22b4 2724 python-uhashring_1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-uhashring
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-uhashring.git
+Checksums-Sha256:
+ b3685fa489cefb257674e275d2ff74348c46b8422fcb985f78e28731e7c20ef3 2122 python-uhashring_1.2-2.dsc
+ 33690b5886f87a21b5e99f6b324daba0e93aabaad444d0a4e270a48138f67c70 11712 python-uhashring_1.2.orig.tar.xz
+ 9bab38aa9e4ffa860769a29f60c94dcffc0bfa77fb10f3bf7b72156ad69cfb08 2724 python-uhashring_1.2-2.debian.tar.xz
+Homepage: https://github.com/ultrabug/uhashring
+Package-List: 
+ python3-uhashring deb python optional arch=all
+Directory: pool/main/p/python-uhashring
+Priority: extra
+Section: misc

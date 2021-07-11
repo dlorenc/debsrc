@@ -1,0 +1,25 @@
+Package: direwolf
+Binary: direwolf
+Version: 1.6+dfsg-1
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), libasound2-dev, libgps-dev, libhamlib-dev, libudev-dev [linux-any], adduser
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 01dafe7e3549ea184d536b0fdca7baf7 2027 direwolf_1.6+dfsg-1.dsc
+ bc5aab1ac8a6af30ca9169c43fc9feab 715812 direwolf_1.6+dfsg.orig.tar.xz
+ 03e714d02c6d0d0286e86384507fe57e 8184 direwolf_1.6+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/direwolf
+Vcs-Git: https://salsa.debian.org/debian-hamradio-team/direwolf.git
+Checksums-Sha256:
+ fd8b29edf95a66619125163cde8b94f4b28ee5d0e1e003df182d8ea5991783a7 2027 direwolf_1.6+dfsg-1.dsc
+ 1aec2d5ec01e2b0265fa7b7f5f6f5294b3c9cb1756362c9dc6d3396c8dda01c3 715812 direwolf_1.6+dfsg.orig.tar.xz
+ e9a80e67260b96410b29bc2d757e31ef441b8a222c4fcbafe85994bd5673c871 8184 direwolf_1.6+dfsg-1.debian.tar.xz
+Homepage: https://github.com/wb2osz/direwolf
+Package-List: 
+ direwolf deb hamradio optional arch=any
+Directory: pool/main/d/direwolf
+Priority: optional
+Section: misc

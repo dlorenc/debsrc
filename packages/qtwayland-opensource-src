@@ -1,0 +1,37 @@
+Package: qtwayland-opensource-src
+Binary: qtwayland5-examples, libqt5waylandclient5, libqt5waylandcompositor5, qml-module-qtwayland-compositor, qml-module-qtwayland-client-texturesharing, libqt5waylandcompositor5-dev, libqt5waylandclient5-dev, qtwayland5-private-dev, qtwayland5-dev-tools, qtwayland5, qtwayland5-doc, qtwayland5-doc-html
+Version: 5.15.2-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Dmitry Shachnev <mitya57@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Timo Jyrinki <timo@debian.org>, Simon Quigley <tsimonq2@debian.org>, Patrick Franz <patfra71@gmail.com>
+Build-Depends: dbus <!nocheck>, debhelper-compat (= 13), dpkg-dev (>= 1.17.14), libegl1-mesa-dev, libfontconfig1-dev, libglib2.0-dev, libinput-dev, libmtdev-dev [linux-any], libudev-dev [linux-any], libwayland-dev (>= 1.8.0), libwayland-egl1-mesa | libwayland-egl1, libxcomposite-dev, libxkbcommon-dev (>= 0.2.0), libxrender-dev, pkg-config, pkg-kde-tools, qtbase5-dev (>= 5.15.2+dfsg~), qtbase5-dev:native (>= 5.15.2+dfsg~), qtbase5-private-dev (>= 5.15.2+dfsg~), qtdeclarative5-private-dev (>= 5.15.2+dfsg~), xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>, qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 01569eb8a78fc906be4f26a9d6ad43d3 3893 qtwayland-opensource-src_5.15.2-2.dsc
+ 26577fbbe0d011b7034bca3c64bc38ae 564884 qtwayland-opensource-src_5.15.2.orig.tar.xz
+ 9f02b52f77a10e83a5f7548589461833 47636 qtwayland-opensource-src_5.15.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtwayland
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtwayland.git
+Checksums-Sha256:
+ 740646fa03e2530c2cdc271b27e28de4a718a01db9027171edb076030d438c4b 3893 qtwayland-opensource-src_5.15.2-2.dsc
+ 193732229ff816f3aaab9a5e2f6bed71ddddbf1988ce003fe8dd84a92ce9aeb5 564884 qtwayland-opensource-src_5.15.2.orig.tar.xz
+ c8e31c455048e3a0e828d1cbb692fb96f11164e906fa96b99ce417015cb236d7 47636 qtwayland-opensource-src_5.15.2-2.debian.tar.xz
+Homepage: http://qt-project.org/
+Package-List: 
+ libqt5waylandclient5 deb libs optional arch=any
+ libqt5waylandclient5-dev deb libdevel optional arch=any
+ libqt5waylandcompositor5 deb libs optional arch=any
+ libqt5waylandcompositor5-dev deb libdevel optional arch=any
+ qml-module-qtwayland-client-texturesharing deb libs optional arch=any
+ qml-module-qtwayland-compositor deb libs optional arch=any
+ qtwayland5 deb libs optional arch=any
+ qtwayland5-dev-tools deb devel optional arch=any
+ qtwayland5-doc deb doc optional arch=all profile=!nodoc
+ qtwayland5-doc-html deb doc optional arch=all profile=!nodoc
+ qtwayland5-examples deb x11 optional arch=any
+ qtwayland5-private-dev deb libdevel optional arch=any
+Directory: pool/main/q/qtwayland-opensource-src
+Priority: optional
+Section: misc

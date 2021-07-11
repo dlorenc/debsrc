@@ -1,0 +1,26 @@
+Package: sbjson
+Binary: libsbjson2.3, libsbjson-dev
+Version: 2.3.2-4
+Maintainer: Debian SOGo Maintainers <pkg-sogo-maintainers@lists.alioth.debian.org>
+Uploaders: Jeroen Dekkers <jeroen@dekkers.ch>, Jordi Mallach <jordi@debian.org>
+Build-Depends: debhelper (>= 10), dpkg-dev (>= 1.16.1~), cdbs, gobjc, gnustep-make, libgnustep-base-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 05c779ee0b4412c24bfd63c36821fb5c 1909 sbjson_2.3.2-4.dsc
+ 67c299ea3635b40f6c5b0ebad76c10b3 42995 sbjson_2.3.2.orig.tar.gz
+ a941cfea834ff8299ada1cc656693c88 5504 sbjson_2.3.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sbjson
+Vcs-Git: https://salsa.debian.org/debian/sbjson.git
+Checksums-Sha256:
+ 383058075428c1d65102b8adc330c45dd6b17ff220f94c2706d643410874b62a 1909 sbjson_2.3.2-4.dsc
+ a0741d7d3736ae20879aa779cacc8c05752b064387494e5eeb595f2dad98700e 42995 sbjson_2.3.2.orig.tar.gz
+ 9795ff07d07ef9f32bde0c8a216e803ee68bc7b841744ea44f37fc7a1d13b6f9 5504 sbjson_2.3.2-4.debian.tar.xz
+Homepage: https://stig.github.com/json-framework
+Package-List: 
+ libsbjson-dev deb libdevel optional arch=any
+ libsbjson2.3 deb libs optional arch=any
+Directory: pool/main/s/sbjson
+Priority: source
+Section: libs

@@ -1,0 +1,29 @@
+Package: id3
+Binary: id3
+Version: 1.1.2-2
+Maintainer: Peter Pentchev <roam@debian.org>
+Build-Depends: debhelper-compat (= 13), libjs-scriptaculous <!nocheck>, libmp3-info-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libtest-command-perl <!nocheck>, perl <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f64d2b1188f95b16325dc71a1220d8f5 2401 id3_1.1.2-2.dsc
+ c8b0019bb20343712fb6cfd49c4864b4 16176 id3_1.1.2.orig.tar.xz
+ 0e6556b5e7ee2b264f6c96c620371898 833 id3_1.1.2.orig.tar.xz.asc
+ 91820e9eec375d6e8e9bb1e07ad5fed9 7280 id3_1.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/id3/
+Vcs-Git: https://salsa.debian.org/debian/id3.git
+Checksums-Sha256:
+ 53692db52f57c71aff802b9d6be183c34ba2df22a7980c28bce0fd80a61856de 2401 id3_1.1.2-2.dsc
+ ee07fa0f96cee3780bb0451deb408588c94196165ca33c169ecc167aa34c1a81 16176 id3_1.1.2.orig.tar.xz
+ 9bf808bd7ace0306cd1b02f4775a2e71cb17baf80ad22213a213618fb24428dc 833 id3_1.1.2.orig.tar.xz.asc
+ 863431544e1f971e49b1f3a3f860651c1f4ae739db69576154a5841bf84a37a4 7280 id3_1.1.2-2.debian.tar.xz
+Homepage: https://devel.ringlet.net/audio/id3/
+Dgit: f5fda8099d953b358fa91e872365e66538bada2c debian archive/debian/1.1.2-2 https://git.dgit.debian.org/id3
+Package-List: 
+ id3 deb sound optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libjs-scriptaculous, libmp3-info-perl, libpath-tiny-perl, libtest-command-perl, perl
+Directory: pool/main/i/id3
+Priority: source
+Section: sound

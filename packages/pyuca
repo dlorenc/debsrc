@@ -1,0 +1,27 @@
+Package: pyuca
+Binary: python3-pyuca
+Version: 1.2-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: W. Martin Borgert <debacle@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ c22e9e9577a5380ded91ba07a15aad40 2011 pyuca_1.2-2.dsc
+ cd3de4ee86552ad7ae8be8022752cb15 20114014 pyuca_1.2.orig.tar.gz
+ 4d6676c8130ba066c89fbe1076ff87af 3460 pyuca_1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pyuca
+Vcs-Git: https://salsa.debian.org/python-team/modules/pyuca.git
+Checksums-Sha256:
+ f96a5ad4f70a6ae53f916390f2eac34026c1190a9ba314ba9e4c08b746eda8ad 2011 pyuca_1.2-2.dsc
+ 41a47aa598c152a52b1dc4aa210c6db62cc7f72d13cee2caee80841c3cc49e19 20114014 pyuca_1.2.orig.tar.gz
+ 0b4c3028795897c6def3e3360cd7d03b9f1fb2bc6f2c4dd1279ebbe76f3eab5a 3460 pyuca_1.2-2.debian.tar.xz
+Homepage: https://github.com/jtauber/pyuca
+Package-List: 
+ python3-pyuca deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/pyuca
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-io-storage
+Binary: libghc-io-storage-dev, libghc-io-storage-prof, libghc-io-storage-doc
+Version: 0.3-14
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0de06352567f1d65cae467f8a37baeb4 2331 haskell-io-storage_0.3-14.dsc
+ f0d3a8331ee996f46533ee764ace88ae 2988 haskell-io-storage_0.3.orig.tar.gz
+ 7fd1ca4d3b0689e2e976bcb068d8a45b 2984 haskell-io-storage_0.3-14.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-io-storage
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-io-storage]
+Checksums-Sha256:
+ 7168cb55ce56cab1a067f8dd3ea1af408a4893f751ba1f144adcf9dc94dedde4 2331 haskell-io-storage_0.3-14.dsc
+ 9a0df5cc7ff2eeef11e29e1362fea284f535bc2fe67469bba6dbc41c4f5b49bd 2988 haskell-io-storage_0.3.orig.tar.gz
+ d239f3e39e4737835de09816c154b8960686e79c9623ce30a10ec570c0494eda 2984 haskell-io-storage_0.3-14.debian.tar.xz
+Homepage: https://github.com/willdonnelly/io-storage
+Package-List: 
+ libghc-io-storage-dev deb haskell optional arch=any
+ libghc-io-storage-doc deb doc optional arch=all
+ libghc-io-storage-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-io-storage
+Priority: source
+Section: haskell

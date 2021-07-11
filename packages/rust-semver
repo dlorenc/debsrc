@@ -1,0 +1,27 @@
+Package: rust-semver
+Binary: librust-semver-dev, librust-semver+ci-dev, librust-semver+serde-dev
+Version: 0.9.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-semver-parser-0.7+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5fb2bc66ad4c37f48c9b9a8d7924d07f 1675 rust-semver_0.9.0-1.dsc
+ 3b62ee9de48237a22fde9e5d4a549416 17373 rust-semver_0.9.0.orig.tar.gz
+ 0d31ac0a69510ec815cfdaacdefc1848 2544 rust-semver_0.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/semver
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/semver]
+Checksums-Sha256:
+ 873648a69460bf5c570c984cdcd26ea20560887b66aa9da1b25eb550c0533582 1675 rust-semver_0.9.0-1.dsc
+ 9dc64be97cd9bca778a1658fbe779c789c330afcf582edef633f8b5749136b8f 17373 rust-semver_0.9.0.orig.tar.gz
+ 777e76b1f2f6aab31bc24f1ff8916df02873f832d3a0092eed1d775c9d636b32 2544 rust-semver_0.9.0-1.debian.tar.xz
+Homepage: https://docs.rs/crate/semver/
+Package-List: 
+ librust-semver+ci-dev deb rust optional arch=any
+ librust-semver+serde-dev deb rust optional arch=any
+ librust-semver-dev deb rust optional arch=any
+Directory: pool/main/r/rust-semver
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: python-meshplex
+Binary: python3-meshplex, python-meshplex-doc
+Version: 0.15.13-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools (>= 42~), python3-sphinx, python3-wheel, python3-all, python3-matplotlib, python3-meshio (>= 4~), python3-meshio (<< 5), python3-numpy (>= 1.9~), python3-pytest, python3-scipy, libjs-mathjax
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 06bb9bb733e7fb9d9b023ed996a8de5b 2445 python-meshplex_0.15.13-1.dsc
+ 309abe96f3bc5318874648f066e65567 66406 python-meshplex_0.15.13.orig.tar.gz
+ 54bbef348ba0ec0d9afc75c101192e2c 121816 python-meshplex_0.15.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/python-meshplex
+Vcs-Git: https://salsa.debian.org/science-team/python-meshplex.git
+Checksums-Sha256:
+ cc4b1777fc96de04ef0d01e12942691bae1e77499ffcd36b6cf272bf0c764064 2445 python-meshplex_0.15.13-1.dsc
+ b75d7759702c0cd532422dc80be3207b155597a9d1a65174e13f2472a6defe91 66406 python-meshplex_0.15.13.orig.tar.gz
+ 11ffecf5d97c1cd82b3b1a6e942feeb57b80e658d665e15bf1987ada50be6c19 121816 python-meshplex_0.15.13-1.debian.tar.xz
+Homepage: https://github.com/nschloe/meshplex
+Package-List: 
+ python-meshplex-doc deb doc optional arch=all
+ python3-meshplex deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-dmsh, python3-matplotlib, python3-numpy, python3-pytest
+Directory: pool/main/p/python-meshplex
+Priority: extra
+Section: misc

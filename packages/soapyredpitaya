@@ -1,0 +1,26 @@
+Package: soapyredpitaya
+Binary: soapysdr0.7-module-redpitaya, soapysdr-module-redpitaya
+Version: 0.1.1-2
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Andreas Bombe <aeb@debian.org>
+Build-Depends: debhelper (>= 12), cmake, libsoapysdr0.7-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e5175b07d5b09fa915a153c726bc9c9c 2150 soapyredpitaya_0.1.1-2.dsc
+ 6cda6d3d2c24925acacf6e10e800c07c 17893 soapyredpitaya_0.1.1.orig.tar.gz
+ eb04f287995360b677ef30e238b89cc6 2104 soapyredpitaya_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/soapysdr/soapyredpitaya
+Vcs-Git: https://salsa.debian.org/debian-hamradio-team/soapysdr/soapyredpitaya.git
+Checksums-Sha256:
+ 09ae38f5cce77d7a3df00611fb44dc949b3aeff0c34db8e6d75ba596a33a6498 2150 soapyredpitaya_0.1.1-2.dsc
+ 71306b1bdc4bd53b059e374797e4ad86672221d5f8534bda60f2dc726005be50 17893 soapyredpitaya_0.1.1.orig.tar.gz
+ fb20f7985f6765e8e52b5240480737c111f4509fd0b1a612bf9df12e7ee6d6e4 2104 soapyredpitaya_0.1.1-2.debian.tar.xz
+Homepage: https://github.com/pothosware/SoapyRedPitaya/wiki
+Package-List: 
+ soapysdr-module-redpitaya deb hamradio optional arch=any
+ soapysdr0.7-module-redpitaya deb hamradio optional arch=any
+Directory: pool/main/s/soapyredpitaya
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: python-nbxmpp
+Binary: python3-nbxmpp, python-nbxmpp-doc
+Version: 2.0.2-1
+Maintainer: Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>
+Uploaders: Tanguy Ortolo <tanguy+debian@ortolo.eu>, Martin <debacle@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, libglib2.0-0 (>= 2.60), gir1.2-soup-2.4, python3-all, python3-gi, python3-gssapi, python3-idna, python3-openssl, python3-precis-i18n, python3-setuptools
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 5b7b6837f447c021825ec17e80ab88df 2233 python-nbxmpp_2.0.2-1.dsc
+ e7479f07333903e076eddb56e2028248 155292 python-nbxmpp_2.0.2.orig.tar.gz
+ 82e906d5dfbdbf09ffa281f7d4a6bc90 5964 python-nbxmpp_2.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xmpp-team/python-nbxmpp
+Vcs-Git: https://salsa.debian.org/xmpp-team/python-nbxmpp.git
+Checksums-Sha256:
+ a55c4e3bce64f26c1272e9de6bad5271bd9a0193c71c078f490bcdc6bd6bd6ba 2233 python-nbxmpp_2.0.2-1.dsc
+ e9343f4065ee47989279ac0c177310208e671e0102fcab905f71db40a2cd2089 155292 python-nbxmpp_2.0.2.orig.tar.gz
+ f02cd030b381986b149ef7f3977d93ba35d0e87bbf1234c808019895ea7e7271 5964 python-nbxmpp_2.0.2-1.debian.tar.xz
+Homepage: https://dev.gajim.org/gajim/python-nbxmpp
+Package-List: 
+ python-nbxmpp-doc deb doc optional arch=all
+ python3-nbxmpp deb python optional arch=all
+Directory: pool/main/p/python-nbxmpp
+Priority: optional
+Section: misc

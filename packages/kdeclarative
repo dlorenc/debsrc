@@ -1,0 +1,43 @@
+Package: kdeclarative
+Binary: kpackagelauncherqml, libkf5calendarevents5, libkf5declarative-data, libkf5declarative-dev, libkf5declarative-doc, libkf5declarative5, libkf5quickaddons5, qml-module-org-kde-draganddrop, qml-module-org-kde-kcm, qml-module-org-kde-kconfig, qml-module-org-kde-kcoreaddons, qml-module-org-kde-kio, qml-module-org-kde-kquickcontrols, qml-module-org-kde-kquickcontrolsaddons, qml-module-org-kde-kwindowsystem
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), graphviz, libepoxy-dev, libkf5config-dev (>= 5.78.0~), libkf5globalaccel-dev (>= 5.78.0~), libkf5guiaddons-dev (>= 5.78.0~), libkf5i18n-dev (>= 5.78.0~), libkf5iconthemes-dev (>= 5.78.0~), libkf5kio-dev (>= 5.78.0~), libkf5notifications-dev (>= 5.78.0~), libkf5package-dev (>= 5.78.0~), libkf5widgetsaddons-dev (>= 5.78.0~), libkf5windowsystem-dev (>= 5.78.0~), libqt5sql5-sqlite, pkg-config, pkg-kde-tools (>= 0.15.15ubuntu1~), qml-module-qtquick2, qtbase5-dev (>= 5.14.0~), qtdeclarative5-dev (>= 5.14.0~), qttools5-dev, qttools5-dev-tools, xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d7d8a9eb2c3cb4fdb66bf54774cc75c6 3784 kdeclarative_5.78.0-2.dsc
+ afa39360b6e330f49c90e31b9f0a7316 185136 kdeclarative_5.78.0.orig.tar.xz
+ a79c9460dec886586c87165bfb2180d2 488 kdeclarative_5.78.0.orig.tar.xz.asc
+ dbebbb89e54653f25e7f71164b5a207a 16192 kdeclarative_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kdeclarative
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kdeclarative.git
+Checksums-Sha256:
+ b58da0551cefb6b06ca8e5c976cfb32b77f11eea5ec30565a25ea8de16463f12 3784 kdeclarative_5.78.0-2.dsc
+ 4759319fd1569d64f53d299f67c8564e75f687376f2774dadc7c53e45d2f4797 185136 kdeclarative_5.78.0.orig.tar.xz
+ bdd47b80caa72bccc4ca1e3b784d24e40b9c957048a8c97c09a26e6112fbd21a 488 kdeclarative_5.78.0.orig.tar.xz.asc
+ 8b20adbccc57eebf907ff62d760e2ba0def443cd04b1809de89f275597ff7f88 16192 kdeclarative_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kdeclarative
+Package-List: 
+ kpackagelauncherqml deb libs optional arch=any
+ libkf5calendarevents5 deb libs optional arch=any
+ libkf5declarative-data deb libs optional arch=all
+ libkf5declarative-dev deb libdevel optional arch=any
+ libkf5declarative-doc deb doc optional arch=all
+ libkf5declarative5 deb libs optional arch=any
+ libkf5quickaddons5 deb libs optional arch=any
+ qml-module-org-kde-draganddrop deb libs optional arch=any
+ qml-module-org-kde-kcm deb libs optional arch=any
+ qml-module-org-kde-kconfig deb libs optional arch=any
+ qml-module-org-kde-kcoreaddons deb libs optional arch=any
+ qml-module-org-kde-kio deb libs optional arch=any
+ qml-module-org-kde-kquickcontrols deb libs optional arch=any
+ qml-module-org-kde-kquickcontrolsaddons deb libs optional arch=any
+ qml-module-org-kde-kwindowsystem deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/k/kdeclarative
+Priority: optional
+Section: misc

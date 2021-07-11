@@ -1,0 +1,25 @@
+Package: uefitool
+Binary: uefitool, uefitool-cli
+Version: 0.28.0-1
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Build-Depends: debhelper-compat (= 13), qt5-qmake, qtbase5-dev, qtbase5-dev-tools, icnsutils
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6f8e104ec1f4809304a0bf21f1db9ad2 1947 uefitool_0.28.0-1.dsc
+ 9b91a41a045fc42b7dcbca8da4045f74 217218 uefitool_0.28.0.orig.tar.gz
+ bc61bb19914f1516a0b0ba0e7a8d01a7 3520 uefitool_0.28.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/yangfl-guest/UEFITool
+Vcs-Git: https://salsa.debian.org/yangfl-guest/UEFITool.git
+Checksums-Sha256:
+ e252dce57fdd7f4aa22741b658601c8a63a7b9a9bef5aea2ae952f8e2bc91d68 1947 uefitool_0.28.0-1.dsc
+ 453cc817e17cf9aa5c5306df1994828c4f6cf9180e67bede2bbaca1135b43d3c 217218 uefitool_0.28.0.orig.tar.gz
+ baef2d8c7e1de7f7df2f2874d46dd454f84481060b151ce1a9160718aa3ec499 3520 uefitool_0.28.0-1.debian.tar.xz
+Homepage: https://github.com/LongSoft/UEFITool
+Package-List: 
+ uefitool deb devel optional arch=any
+ uefitool-cli deb devel optional arch=any
+Directory: pool/main/u/uefitool
+Priority: extra
+Section: misc

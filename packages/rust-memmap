@@ -1,0 +1,24 @@
+Package: rust-memmap
+Binary: librust-memmap-dev
+Version: 0.7.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-winapi-0.3+basetsd-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+memoryapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+std-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 71a065cfb018abbc8a44ec19e55d2682 1786 rust-memmap_0.7.0-1.dsc
+ bdb38691302aeb63500e053919f5f0f7 15214 rust-memmap_0.7.0.orig.tar.gz
+ 50f8d03ca9fa1eb260c4f6bce70b01c3 2504 rust-memmap_0.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/memmap
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/memmap]
+Checksums-Sha256:
+ 62bfaa3c186ff75012ddfbd4d5ac2ff2590b9c8fa03880af0631e5ec2b595536 1786 rust-memmap_0.7.0-1.dsc
+ 6585fd95e7bb50d6cc31e20d4cf9afb4e2ba16c5846fc76793f11218da9c475b 15214 rust-memmap_0.7.0.orig.tar.gz
+ db4e77819f713408fb15ff6962f29c7f8edf1116f3d49075249ee75ed3ce1816 2504 rust-memmap_0.7.0-1.debian.tar.xz
+Package-List: 
+ librust-memmap-dev deb rust optional arch=any
+Directory: pool/main/r/rust-memmap
+Priority: extra
+Section: misc

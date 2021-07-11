@@ -1,0 +1,27 @@
+Package: fitsverify
+Binary: fitsverify
+Version: 4.20-3
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), libcfitsio-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ de764beba5743fb712b86b6a483bda51 2110 fitsverify_4.20-3.dsc
+ 472f6189ce1acaf90a3e3308ebf3befd 43113 fitsverify_4.20.orig.tar.gz
+ bd6435ef21a4bcea2b0a437ab75a91a0 5500 fitsverify_4.20-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/fitsverify
+Vcs-Git: https://salsa.debian.org/debian-astro-team/fitsverify.git
+Checksums-Sha256:
+ 0c787652b6b18d1dc562e23e4326d1d71b15cb0de828f19547fd1cb4ebbc3e6c 2110 fitsverify_4.20-3.dsc
+ eec2cdd1f1db12b6aea7e6e8af4a1166d3227d7a847160c2748318d8e6334885 43113 fitsverify_4.20.orig.tar.gz
+ aaf10c1bee1dfcec44344e95e1d2edf4051fca1cf1c6aafe762f49f88b29c349 5500 fitsverify_4.20-3.debian.tar.xz
+Homepage: https://heasarc.gsfc.nasa.gov/docs/software/ftools/fitsverify/
+Package-List: 
+ fitsverify deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: eso-midas-testdata
+Directory: pool/main/f/fitsverify
+Priority: optional
+Section: misc

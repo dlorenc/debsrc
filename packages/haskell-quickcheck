@@ -1,0 +1,28 @@
+Package: haskell-quickcheck
+Binary: libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-quickcheck2-doc
+Version: 2.13.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@ubuntu.com>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.15), cdbs, ghc (>= 8), ghc-prof, libghc-random-dev (>= 1.0.1.0), libghc-random-dev (<< 1.2), libghc-random-prof, libghc-splitmix-dev (>= 0.0.2), libghc-splitmix-prof
+Build-Depends-Indep: ghc-doc, libghc-random-doc, libghc-splitmix-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c484ba01684312539163b735e85b6674 2521 haskell-quickcheck_2.13.2-1.dsc
+ 7a25b82863a7937fe7d26c98fe1aa55f 70427 haskell-quickcheck_2.13.2.orig.tar.gz
+ d20f1a1aa98bec84758ba66d6d746ace 5656 haskell-quickcheck_2.13.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-quickcheck
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-quickcheck]
+Checksums-Sha256:
+ 375f6902700babb1d8b14a8727bbb7e9e8072bb753577765ba5e666296bc9be9 2521 haskell-quickcheck_2.13.2-1.dsc
+ 7b560baa5853de777702dc23a6f2126ae4adbfdab163295bc56323a706914610 70427 haskell-quickcheck_2.13.2.orig.tar.gz
+ f028bf7853290d3dd218c1a513a349dfb9b609a8d6ea9980d9fbfa027e75b660 5656 haskell-quickcheck_2.13.2-1.debian.tar.xz
+Homepage: https://github.com/nick8325/quickcheck
+Package-List: 
+ libghc-quickcheck2-dev deb haskell optional arch=any
+ libghc-quickcheck2-doc deb doc optional arch=all
+ libghc-quickcheck2-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-quickcheck
+Priority: source
+Section: haskell

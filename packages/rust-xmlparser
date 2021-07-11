@@ -1,0 +1,26 @@
+Package: rust-xmlparser
+Binary: librust-xmlparser-dev
+Version: 0.11.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 9e7563b4c2460e4efaed48dd7ac915a0 1789 rust-xmlparser_0.11.0-1.dsc
+ 77e88c08c51c59d577df9d6050a717bc 25370 rust-xmlparser_0.11.0.orig.tar.gz
+ cd0443a558029a51994231a5ee864473 2740 rust-xmlparser_0.11.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/xmlparser
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/xmlparser]
+Checksums-Sha256:
+ ad17361bceef22d9d81dffd60ae10a1011585d9ef1c6c265b5917cbb12cf73f1 1789 rust-xmlparser_0.11.0-1.dsc
+ 475eb07a341b5e8a2ca7454ebfeb81c79ff0e25be46dfb16b3c51318586beb6a 25370 rust-xmlparser_0.11.0.orig.tar.gz
+ 000375c2b05903fd7a3c34e1aa996c725db4efd3e9f496132d580016d45ea3b1 2740 rust-xmlparser_0.11.0-1.debian.tar.xz
+Package-List: 
+ librust-xmlparser-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-xmlparser
+Priority: extra
+Section: misc

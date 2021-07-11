@@ -1,0 +1,27 @@
+Package: rust-tokio-io
+Binary: librust-tokio-io-dev
+Version: 0.1.12-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bytes-0.4+default-dev (>= 0.4.7-~~) <!nocheck>, librust-futures-0.1+default-dev (>= 0.1.18-~~) <!nocheck>, librust-log-0.4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 3cd3e7d8abfac8c655dccde448ca6719 2413 rust-tokio-io_0.1.12-1.dsc
+ c2712f3e0a504af9658ddd7136b77001 33555 rust-tokio-io_0.1.12.orig.tar.gz
+ 19a3b98feea0027bb9d0e0f04f1ae461 2596 rust-tokio-io_0.1.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-io
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-io]
+Checksums-Sha256:
+ 78edbd4a840d6d0096d91ab00b578dd2ad13c3196858eaff885b4daf3497b4fd 2413 rust-tokio-io_0.1.12-1.dsc
+ 5090db468dad16e1a7a54c8c67280c5e4b544f3d3e018f0b913b400261f85926 33555 rust-tokio-io_0.1.12.orig.tar.gz
+ 3298aec37a75ae24c809956eead8587c0f31dd65e9f7cd0cca0e2f8865029c90 2596 rust-tokio-io_0.1.12-1.debian.tar.xz
+Homepage: https://tokio.rs
+Package-List: 
+ librust-tokio-io-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tokio-current-thread-0.1+default-dev
+Directory: pool/main/r/rust-tokio-io
+Priority: extra
+Section: misc

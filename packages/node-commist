@@ -1,0 +1,26 @@
+Package: node-commist
+Binary: node-commist
+Version: 1.1.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs, node-minimist <!nocheck>, node-leven <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.8.11)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 4c134fc8dbf2db416ba22a301ce3a833 2106 node-commist_1.1.0-2.dsc
+ 34e3e7139037eaa3dff711f849780558 3316 node-commist_1.1.0.orig.tar.gz
+ 43eabf1c765cf4b7889bd51e83e6affc 2404 node-commist_1.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-commist
+Vcs-Git: https://salsa.debian.org/js-team/node-commist.git
+Checksums-Sha256:
+ 4c1e6a58c99ed059168b6c84fdee9d59ab7d56aad84dfc70d83d02444875834d 2106 node-commist_1.1.0-2.dsc
+ ea17137860b7b3c6be6b407968850a436204bd8f27b1cf866259c8f6f31efd25 3316 node-commist_1.1.0.orig.tar.gz
+ 96458f9afb02a9b2ea17c322818a5d6022876d395479583b7c4102c6f297c06a 2404 node-commist_1.1.0-2.debian.tar.xz
+Homepage: https://github.com/mcollina/commist
+Package-List: 
+ node-commist deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-commist
+Priority: extra
+Section: javascript

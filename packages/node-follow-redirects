@@ -1,0 +1,26 @@
+Package: node-follow-redirects
+Binary: node-follow-redirects
+Version: 1.13.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-concat-stream <!nocheck>, node-express <!nocheck>, node-lolex <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7ac2c2cd1201f38a217edc5746e6fb32 2227 node-follow-redirects_1.13.1-1.dsc
+ b0748bf63f11160080207b4a48a99ce4 63266 node-follow-redirects_1.13.1.orig.tar.gz
+ 9221017c2dc9d0712c88bad256abe3d1 3156 node-follow-redirects_1.13.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-follow-redirects
+Vcs-Git: https://salsa.debian.org/js-team/node-follow-redirects.git
+Checksums-Sha256:
+ 8acfd4e1a45506846e36043c1ab5707c06fa24a230c4899638971220cdf00cb0 2227 node-follow-redirects_1.13.1-1.dsc
+ c00673ee82e53d5f3b8226d0820bc5353c27d4141543b1c1009f9439b9e6ade0 63266 node-follow-redirects_1.13.1.orig.tar.gz
+ 44defdcd1d41c22271aa6a4fb8d8e22ceb505560650bff3be3f18d131c1f5775 3156 node-follow-redirects_1.13.1-1.debian.tar.xz
+Homepage: https://github.com/olalonde/follow-redirects
+Package-List: 
+ node-follow-redirects deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-follow-redirects
+Priority: extra
+Section: javascript

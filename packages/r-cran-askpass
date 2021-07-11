@@ -1,0 +1,27 @@
+Package: r-cran-askpass
+Binary: r-cran-askpass
+Version: 1.1-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-sys
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2ec41609546859109392e81afdd744fc 2094 r-cran-askpass_1.1-2.dsc
+ a00d6599ff99f501534c1d965a1fd3b4 5730 r-cran-askpass_1.1.orig.tar.gz
+ bfa9b5bc676a8410a8a71bfd042c589c 2612 r-cran-askpass_1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-askpass
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-askpass.git
+Checksums-Sha256:
+ ba03fe49df847dbed758d23d0bce80e0e29b920a1dacee808f59e21134c0fdfd 2094 r-cran-askpass_1.1-2.dsc
+ db40827d1bdbb90c0aa2846a2961d3bf9d76ad1b392302f9dd84cc2fd18c001f 5730 r-cran-askpass_1.1.orig.tar.gz
+ 352b8862ff062b85c1425d6f53b73a2bf0043cf0da3d16cf6c60dbccef8c9793 2612 r-cran-askpass_1.1-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=askpass
+Package-List: 
+ r-cran-askpass deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-askpass
+Priority: extra
+Section: misc

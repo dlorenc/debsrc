@@ -1,0 +1,24 @@
+Package: cowdancer
+Binary: cowdancer, cowbuilder, qemubuilder
+Version: 0.89
+Maintainer: Debian pbuilder maintenance team <team+pbuilder@tracker.debian.org>
+Uploaders: Jessica Clarke <jrtc27@debian.org>, Mattia Rizzolo <mattia@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-exec, pbuilder <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ b3a0a031f98145fa2111ff1681856c84 1786 cowdancer_0.89.dsc
+ 8bc1a7a480da9a6f4b3e83957bf255fa 71932 cowdancer_0.89.tar.xz
+Vcs-Browser: https://salsa.debian.org/pbuilder-team/cowdancer
+Vcs-Git: https://salsa.debian.org/pbuilder-team/cowdancer.git
+Checksums-Sha256:
+ 663d0e7cf8ef56a2ecb0e172c5c6bd70d8efabadb8494acd3fd2ea93d833cdd3 1786 cowdancer_0.89.dsc
+ 9c55432561b67e493bd48eba131ed871cd6c30e64537496af48cc2ae47bd5be3 71932 cowdancer_0.89.tar.xz
+Package-List: 
+ cowbuilder deb utils optional arch=any
+ cowdancer deb utils optional arch=any
+ qemubuilder deb utils optional arch=linux-any
+Directory: pool/main/c/cowdancer
+Priority: source
+Section: utils

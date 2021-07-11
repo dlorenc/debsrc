@@ -1,0 +1,27 @@
+Package: hsqldb
+Binary: libhsqldb-java, libhsqldb-java-doc, hsqldb-utils
+Version: 2.5.1-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: ant, debhelper-compat (= 13), default-jdk, javahelper, libservlet-api-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b5c0c93b88e6b3ddaec2a4ecb4e0ae46 2239 hsqldb_2.5.1-1.dsc
+ f660f944c6dd36f2bcfe5e07afc84902 3534200 hsqldb_2.5.1.orig.tar.xz
+ 34e2b90cbd914bf54c773b196d4c07a9 10284 hsqldb_2.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/hsqldb
+Vcs-Git: https://salsa.debian.org/java-team/hsqldb.git
+Checksums-Sha256:
+ 65ce5be3a3c8577b283a196f51de4f74a5b53b741dc077b28fe0b17c344833ce 2239 hsqldb_2.5.1-1.dsc
+ c7988fceeda4a2618c78004786253a7d7ae1b3b90fcde65f7c895266203f218f 3534200 hsqldb_2.5.1.orig.tar.xz
+ 5b8bc95508b5cc04b749f6218575d90145f2303de53298a8503bf9e06309ff4e 10284 hsqldb_2.5.1-1.debian.tar.xz
+Homepage: http://hsqldb.org/
+Package-List: 
+ hsqldb-utils deb database optional arch=all
+ libhsqldb-java deb java optional arch=all
+ libhsqldb-java-doc deb doc optional arch=all
+Directory: pool/main/h/hsqldb
+Priority: source
+Section: libs

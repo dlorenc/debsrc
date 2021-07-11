@@ -1,0 +1,24 @@
+Package: rust-fnv
+Binary: librust-fnv-dev
+Version: 1.0.6-1
+Maintainer: Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 5), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 582a20b40e3ab8160ae15fa52a20ab2f 1361 rust-fnv_1.0.6-1.dsc
+ b0fd8ad50f5e64c71f0daf8af79ca952 11131 rust-fnv_1.0.6.orig.tar.gz
+ 2e0c0e6bf87857ca9142de6289e4587d 2284 rust-fnv_1.0.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git
+Checksums-Sha256:
+ e50d63cb55746293161d64c6974f8ea8744408bed4191ea558122c0a0868edf0 1361 rust-fnv_1.0.6-1.dsc
+ 2fad85553e09a6f881f739c29f0b00b0f01357c743266d478b68951ce23285f3 11131 rust-fnv_1.0.6.orig.tar.gz
+ 93e649403db56d8b00c85f3d00c0a1d75bd07ea77eee54c41ef948589f762ce6 2284 rust-fnv_1.0.6-1.debian.tar.xz
+Package-List: 
+ librust-fnv-dev deb rust optional arch=any
+Directory: pool/main/r/rust-fnv
+Priority: extra
+Section: misc

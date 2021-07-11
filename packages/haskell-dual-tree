@@ -1,0 +1,28 @@
+Package: haskell-dual-tree
+Binary: libghc-dual-tree-dev, libghc-dual-tree-prof, libghc-dual-tree-doc
+Version: 0.2.2.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>, Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), haskell-devscripts (>= 0.13), ghc (>= 8), ghc-prof, libghc-monoid-extras-dev (>= 0.2), libghc-monoid-extras-dev (<< 0.6), libghc-monoid-extras-prof, libghc-newtype-generics-dev (>= 0.5.3), libghc-newtype-generics-dev (<< 0.6), libghc-newtype-generics-prof, libghc-semigroups-dev (>= 0.8), libghc-semigroups-dev (<< 0.20), libghc-semigroups-prof
+Build-Depends-Indep: ghc-doc, libghc-monoid-extras-doc, libghc-newtype-generics-doc, libghc-semigroups-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9bca908b612f8eb8276a13ac45584071 2752 haskell-dual-tree_0.2.2.1-1.dsc
+ 3533f1be95763b5bcf02a18a15503be0 8179 haskell-dual-tree_0.2.2.1.orig.tar.gz
+ 0e44c3152426cfe2108b536c9e4f736e 3076 haskell-dual-tree_0.2.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-dual-tree
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-dual-tree]
+Checksums-Sha256:
+ 2769b662e352fec086115035c2a6ddae6d32820904461516b0464453436dc801 2752 haskell-dual-tree_0.2.2.1-1.dsc
+ fdebb501680f50a9fc9fa27da5a484a7f5d07ca5b9bb18e72d1fb8069c756d9e 8179 haskell-dual-tree_0.2.2.1.orig.tar.gz
+ ff912ec18a5ed7079a924e7de896284f131f955dc531ec4e66160119ffce73c5 3076 haskell-dual-tree_0.2.2.1-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/dual-tree
+Package-List: 
+ libghc-dual-tree-dev deb haskell optional arch=any
+ libghc-dual-tree-doc deb doc optional arch=all
+ libghc-dual-tree-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-dual-tree
+Priority: source
+Section: misc

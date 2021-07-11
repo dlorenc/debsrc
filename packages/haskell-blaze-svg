@@ -1,0 +1,28 @@
+Package: haskell-blaze-svg
+Binary: libghc-blaze-svg-dev, libghc-blaze-svg-prof, libghc-blaze-svg-doc
+Version: 0.3.6.1-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-blaze-markup-dev (>= 0.5), libghc-blaze-markup-dev (<< 0.9), libghc-blaze-markup-prof
+Build-Depends-Indep: ghc-doc, libghc-blaze-markup-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 37250035b29dc4f05d1d3542e860e157 2472 haskell-blaze-svg_0.3.6.1-5.dsc
+ 4a28ed033d39aba5e5c178ae4f70a61e 22198 haskell-blaze-svg_0.3.6.1.orig.tar.gz
+ 7cc2eb96a52aaa05fc5b75449ead0183 2932 haskell-blaze-svg_0.3.6.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-blaze-svg
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-blaze-svg]
+Checksums-Sha256:
+ 42e5cba29b4250c87007f751bddc630f3e28f877e64fb1c2c18740ffdd660e5e 2472 haskell-blaze-svg_0.3.6.1-5.dsc
+ f6a4f1bba1e973b336e94de73369f4562778fde43b6ac7c0b32d6a501527aa60 22198 haskell-blaze-svg_0.3.6.1.orig.tar.gz
+ f7e4675b10742692863f651922514287df7485e4fd8b4bfedc1e370451368a1a 2932 haskell-blaze-svg_0.3.6.1-5.debian.tar.xz
+Homepage: https://github.com/deepakjois/blaze-svg
+Package-List: 
+ libghc-blaze-svg-dev deb haskell optional arch=any
+ libghc-blaze-svg-doc deb doc optional arch=all
+ libghc-blaze-svg-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-blaze-svg
+Priority: source
+Section: misc

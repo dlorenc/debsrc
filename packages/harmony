@@ -1,0 +1,22 @@
+Package: harmony
+Binary: python3-harmony
+Version: 0.7.0-1
+Maintainer: Paul Wise <pabs@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3 (>= 3.4~), python3-keyring (>= 17.0.0~), python3-librecaptcha (>= 0.6.0~), python3-pil (>= 4.1.1~), python3-requests (>= 2.18.1~), python3-setuptools, python3-slimit (>= 0.8.1~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a344f473cc854620908353f66a694654 1925 harmony_0.7.0-1.dsc
+ 2dd86c4281cbce27610514f644f5cb3d 28155 harmony_0.7.0.orig.tar.gz
+ 49dc920b398f328916593ebede712df6 2568 harmony_0.7.0-1.debian.tar.xz
+Checksums-Sha256:
+ b8577ab8ee5f62b95a0c1d075b43655f8db97cb3f982af3c452b55181883d6fe 1925 harmony_0.7.0-1.dsc
+ 41d59b9148e31c365c1c574e68c3080866829dd7bf6ddb1c21f86d8ef719733e 28155 harmony_0.7.0.orig.tar.gz
+ 470d6367bb2657702e078d2fcad6549dcf47045847b2d7fb3eb28afd3a99dbfb 2568 harmony_0.7.0-1.debian.tar.xz
+Homepage: https://github.com/taylordotfish/harmony/
+Package-List: 
+ python3-harmony deb web optional arch=all
+Directory: pool/main/h/harmony
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: ruby-msgpack
+Binary: ruby-msgpack
+Version: 1.1.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Taku YASUI <tach@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1.0~), ruby-json, ruby-rspec
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 372ca894ef2af7df024f9ec3b3d6b72d 2037 ruby-msgpack_1.1.0-2.dsc
+ 8bc93393864ce90412c3c3f30cae4b0d 75435 ruby-msgpack_1.1.0.orig.tar.gz
+ 4da3edb0a61885e1452244b7df7b150a 4736 ruby-msgpack_1.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-msgpack
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-msgpack.git
+Checksums-Sha256:
+ ac80c0a695f30acd22becf7d6bc490bac78e6fdd7b76202f20db32d3d861c98e 2037 ruby-msgpack_1.1.0-2.dsc
+ 3a5df81e3f85fb4a134b58cd0d84e0bcafcd2313b6d26544e4ac5050df1bcb6b 75435 ruby-msgpack_1.1.0.orig.tar.gz
+ fe80ea3f93468e9d4a06baf231749a213f33eb89ba1c5545e72e58904c9cbbe2 4736 ruby-msgpack_1.1.0-2.debian.tar.xz
+Homepage: http://msgpack.org/
+Package-List: 
+ ruby-msgpack deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-msgpack
+Priority: source
+Section: ruby

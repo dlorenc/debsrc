@@ -1,0 +1,26 @@
+Package: rust-shannon
+Binary: librust-shannon-dev
+Version: 0.2.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 45a6ff1542b620cb2d2aa8c8012fccda 2142 rust-shannon_0.2.0-2.dsc
+ 6c970dd124f8a0da2681e1b8257233bb 3816 rust-shannon_0.2.0.orig.tar.gz
+ 79e6c9d0154beff5ea0c37eb4256f541 2500 rust-shannon_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/shannon
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/shannon]
+Checksums-Sha256:
+ e41fd8fe2cff991f2f3d719e95e28c5aaeb4730d7401f8f37829dee73fa09247 2142 rust-shannon_0.2.0-2.dsc
+ 43da1baa785f0e04b23ab32a297dee221e4e87c5c179a3a9c40d47e4fa8db47c 3816 rust-shannon_0.2.0.orig.tar.gz
+ 01a35de669c4434a96c59e2f7783d81df522a5b98be798305fc22aa7acdefc23 2500 rust-shannon_0.2.0-2.debian.tar.xz
+Package-List: 
+ librust-shannon-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-shannon
+Priority: extra
+Section: misc

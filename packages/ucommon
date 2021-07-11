@@ -1,0 +1,29 @@
+Package: ucommon
+Binary: libucommon-dev, libucommon8, ucommon-utils, ucommon-doc
+Version: 7.0.0-19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Peter Colberg <peter@colberg.org>
+Build-Depends: debhelper (>= 10), dpkg-dev (>= 1.18.0~), libgnutls28-dev, pkg-config
+Build-Depends-Indep: doxygen-latex, graphviz
+Architecture: any all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ bcb8da5983bd02b2b9b15d1d7e4ed3fb 2243 ucommon_7.0.0-19.dsc
+ 90468af8f6692f0b6576189927414a39 837905 ucommon_7.0.0.orig.tar.gz
+ caeaa4f5706ce429e015791b5c6a618a 32480 ucommon_7.0.0-19.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-voip-team/ucommon
+Vcs-Git: https://salsa.debian.org/pkg-voip-team/ucommon.git
+Checksums-Sha256:
+ f8f8ece64ce0d20cbcb7c4af9eb879e54f72bfa05ef169a87d8c79eedfb89a0a 2243 ucommon_7.0.0-19.dsc
+ 6ac9f76c2af010f97e916e4bae1cece341dc64ca28e3881ff4ddc3bc334060d7 837905 ucommon_7.0.0.orig.tar.gz
+ d6ac6de31bd929cab1f8240a240870af95cd2d07c75cff7d8e6661e72bdaea10 32480 ucommon_7.0.0-19.debian.tar.xz
+Homepage: http://www.gnu.org/software/commoncpp/
+Package-List: 
+ libucommon-dev deb libdevel optional arch=any
+ libucommon8 deb libs optional arch=any
+ ucommon-doc deb doc optional arch=all
+ ucommon-utils deb utils optional arch=any
+Directory: pool/main/u/ucommon
+Priority: source
+Section: net

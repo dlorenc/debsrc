@@ -1,0 +1,27 @@
+Package: golang-github-containerd-typeurl
+Binary: golang-github-containerd-typeurl-dev
+Version: 1.0.1-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Arnaud Rebillout <arnaud.rebillout@collabora.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-gogo-protobuf-dev (>= 0.5~), golang-github-pkg-errors-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 85aa0b003e5f83638130b49cae092123 1788 golang-github-containerd-typeurl_1.0.1-1.dsc
+ 78c8647ba6988ca88ac8f0fdedca56fa 9159 golang-github-containerd-typeurl_1.0.1.orig.tar.gz
+ 09ccc116158dc2d4977a1e49c819a09c 2088 golang-github-containerd-typeurl_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-containerd-typeurl
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-containerd-typeurl.git
+Checksums-Sha256:
+ 25826a58c9bdeb0d887f2b9574ad43383644826d468ec073310feb2550cdc118 1788 golang-github-containerd-typeurl_1.0.1-1.dsc
+ b3600e15f7b6100792eceecf6a8449e233ccdcace01bb6668a816b45959aa3e8 9159 golang-github-containerd-typeurl_1.0.1.orig.tar.gz
+ 99c2f42ccd3f3e301f95d6da110794e96bfabe9e71b3e60a1404c0eee2d9e6bc 2088 golang-github-containerd-typeurl_1.0.1-1.debian.tar.xz
+Homepage: https://github.com/containerd/typeurl
+Go-Import-Path: github.com/containerd/typeurl
+Package-List: 
+ golang-github-containerd-typeurl-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-containerd-typeurl
+Priority: extra
+Section: golang

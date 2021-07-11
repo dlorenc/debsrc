@@ -1,0 +1,27 @@
+Package: node-browserify-aes
+Binary: node-browserify-aes
+Version: 1.2.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs (>= 10), node-create-hash (>= 1.1.0) <!nocheck>, node-evp-bytestokey (>= 1.0.3) <!nocheck>, node-cipher-base (>= 1.0.0) <!nocheck>, node-inherits (>= 2.0.1) <!nocheck>, node-buffer-xor (>= 1.0.3) <!nocheck>, node-safe-buffer (>= 5.0.1) <!nocheck>, node-tape (>= 4.6) <!nocheck>, node-tap (>= 10) <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 3b311c164c7ba782e2b31855ae5b20a4 2496 node-browserify-aes_1.2.0-3.dsc
+ f1926aab14b8adbb1a06caeb95779c9c 193086 node-browserify-aes_1.2.0.orig.tar.gz
+ aa844a5a5c84b811ae2b8db6e4c4d2cc 5168 node-browserify-aes_1.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-browserify-aes
+Vcs-Git: https://salsa.debian.org/js-team/node-browserify-aes.git
+Checksums-Sha256:
+ 9dfafaa74887d17011fa237bacb22589f72f3294bcf54b59bbb9d6cc37d9779b 2496 node-browserify-aes_1.2.0-3.dsc
+ 981057c8199e4647641e57e812ca603c04cd80dab55eb8c66b4a5c9ce56f42de 193086 node-browserify-aes_1.2.0.orig.tar.gz
+ d5ce9a1c323ea42143bb5c93f70d85d86f81cedf331901f279062f3b545374f6 5168 node-browserify-aes_1.2.0-3.debian.tar.xz
+Homepage: https://github.com/crypto-browserify/browserify-aes
+Package-List: 
+ node-browserify-aes deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tap, node-tape, nodejs
+Directory: pool/main/n/node-browserify-aes
+Priority: extra
+Section: javascript

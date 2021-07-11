@@ -1,0 +1,26 @@
+Package: rust-cpp-macros
+Binary: librust-cpp-macros-dev
+Version: 0.5.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-aho-corasick-0.7+default-dev <!nocheck>, librust-byteorder-1+default-dev <!nocheck>, librust-cpp-common-0.5.6+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+full-dev <!nocheck>, librust-syn-1+visit-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 81434b7f0acb2bdb6ab25b5642880e56 2520 rust-cpp-macros_0.5.6-1.dsc
+ 0c175462752b2ffd14bc9bf5563d8536 6346 rust-cpp-macros_0.5.6.orig.tar.gz
+ 9b97c01b42f5dba810f39cd3bcf4a39c 3632 rust-cpp-macros_0.5.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cpp-macros
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cpp-macros]
+Checksums-Sha256:
+ 2f485422a02d05aad0643e5bcb56f103c16e07614b148241e5b6f57379563b50 2520 rust-cpp-macros_0.5.6-1.dsc
+ 4f93a21e618c10abc84ebb63ffa5952e1f7a4568b8141d542d5ef860e4a8fc25 6346 rust-cpp-macros_0.5.6.orig.tar.gz
+ 8468497820c18896799a72050b7c0364cc7f5712bab4df5e34bb6678c0d3885b 3632 rust-cpp-macros_0.5.6-1.debian.tar.xz
+Package-List: 
+ librust-cpp-macros-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cpp-macros
+Priority: extra
+Section: misc

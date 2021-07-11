@@ -1,0 +1,25 @@
+Package: clojure-maven-plugin
+Binary: libclojure-maven-plugin-java
+Version: 1.7.1-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Elana Hashman <ehashman@debian.org>
+Build-Depends: debhelper (>= 10), maven-debian-helper (>= 2.2), default-jdk, libcommons-exec-java, libcommons-io-java, libcommons-lang-java, libmaven3-core-java, libmaven-plugin-tools-java, libmaven-compiler-plugin-java, libmaven-resources-plugin-java, libmaven-invoker-plugin-java, libmaven-scm-providers-java, libplexus-compiler-java, libplexus-utils-java
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 88b868f9188a00c34d1e2e52f00c4507 2502 clojure-maven-plugin_1.7.1-2.dsc
+ c2cefb740fa81582d9fa741012a81ae2 34829 clojure-maven-plugin_1.7.1.orig.tar.gz
+ abf381b50b8fb3b8187883cc467dc062 6484 clojure-maven-plugin_1.7.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/clojure-maven-plugin
+Vcs-Git: https://salsa.debian.org/java-team/clojure-maven-plugin.git
+Checksums-Sha256:
+ bb8af6b12678f818eb7ea72098620ec2b2f74e17c23a51438363a9fc4845c37f 2502 clojure-maven-plugin_1.7.1-2.dsc
+ 635d319cb8372e4488feab869703596b2afddd1515faec4e6482c440290f42d3 34829 clojure-maven-plugin_1.7.1.orig.tar.gz
+ 4842af00946fa924f578f7285a734565d5eb70a076167fbcbb76aa323b5b0569 6484 clojure-maven-plugin_1.7.1-2.debian.tar.xz
+Homepage: http://github.com/talios/clojure-maven-plugin
+Package-List: 
+ libclojure-maven-plugin-java deb java optional arch=all
+Directory: pool/main/c/clojure-maven-plugin
+Priority: source
+Section: java

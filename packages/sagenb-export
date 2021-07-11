@@ -1,0 +1,26 @@
+Package: sagenb-export
+Binary: python3-sagenb-export
+Version: 3.2-4
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 10), dh-python, python3-all, python3-ipython (>= 5), python3-nbconvert, python3-setuptools, python3-six, python3-tornado, python3-notebook, tox
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7a53f76922564d184609ffbbedeba274 2144 sagenb-export_3.2-4.dsc
+ 9847c3f3f7a9ca23ba71f6925aea14d9 77773 sagenb-export_3.2.orig.tar.gz
+ 185dd45ae287092decb503a3e4bc9da5 3408 sagenb-export_3.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/sagenb-export
+Vcs-Git: https://salsa.debian.org/science-team/sagenb-export.git
+Checksums-Sha256:
+ 74864714d9b5c8a30a417f06eecd2fd02d7ce95a33828cabb98caeaf3c12a8a3 2144 sagenb-export_3.2-4.dsc
+ a99ba8a0806f1f36bda7239aee7f9ddb7d2ca792e7d36eec03ae559d7bd8f492 77773 sagenb-export_3.2.orig.tar.gz
+ c882ea5ae164b4cbfd00b842738e7c871180298a639d6e64e6a069d5d7445088 3408 sagenb-export_3.2-4.debian.tar.xz
+Homepage: https://github.com/vbraun/ExportSageNB
+Package-List: 
+ python3-sagenb-export deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/s/sagenb-export
+Priority: optional
+Section: misc

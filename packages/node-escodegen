@@ -1,0 +1,26 @@
+Package: node-escodegen
+Binary: node-escodegen
+Version: 2.0.0+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), chai <!nocheck>, mocha (>= 4) <!nocheck>, node-acorn <!nocheck>, node-bluebird <!nocheck>, node-esprima <!nocheck>, node-estraverse <!nocheck>, node-esutils <!nocheck>, node-optionator <!nocheck>, node-source-map (>= 0.2.0) <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 46fb6a55faedfd8d9660ac519a86d0b9 2312 node-escodegen_2.0.0+dfsg-1.dsc
+ 272e5cc19702f79777fffe30c31ed71a 390772 node-escodegen_2.0.0+dfsg.orig.tar.xz
+ 561829bb09598bb29c5ab157f6a13c90 8924 node-escodegen_2.0.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-escodegen
+Vcs-Git: https://salsa.debian.org/js-team/node-escodegen.git
+Checksums-Sha256:
+ 6465fe13c983f0aacada66f050a254f0f9e485eb2b41a6ff41a69e2bbcc8c9ab 2312 node-escodegen_2.0.0+dfsg-1.dsc
+ 32b184cd7687d8eb9a69fbc17fb8975dd38fd371860f61e0720b99cbaf3b35c5 390772 node-escodegen_2.0.0+dfsg.orig.tar.xz
+ b7f1e503305ba5d9f8305b3ce7acadc12c74aa117d61f01fd4cde4ee76048e0d 8924 node-escodegen_2.0.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/estools/escodegen
+Package-List: 
+ node-escodegen deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-escodegen
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: rust-mysqlclient-sys
+Binary: librust-mysqlclient-sys-dev
+Version: 0.2.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.9-~~) <!nocheck>, librust-vcpkg-0.2+default-dev (>= 0.2.4-~~) <!nocheck>, default-libmysqlclient-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f57170e291e278c154e7085a71233328 2332 rust-mysqlclient-sys_0.2.4-1.dsc
+ 48e487b803a773145b7d55fa345f4e8b 27494 rust-mysqlclient-sys_0.2.4.orig.tar.gz
+ a835730987480432f2e9b22133cefeb3 2548 rust-mysqlclient-sys_0.2.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mysqlclient-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/mysqlclient-sys]
+Checksums-Sha256:
+ 43df500190d7f862a8712d2955ed13c9bfaaa01efdfdaa2fd7e2eef26ff86f38 2332 rust-mysqlclient-sys_0.2.4-1.dsc
+ 7e9637d93448044078aaafea7419aed69d301b4a12bcc4aa0ae856eb169bef85 27494 rust-mysqlclient-sys_0.2.4.orig.tar.gz
+ 11fc3ba3980e3cc1ceab5c375e648e33350cbb9e2e9a66d9197a9fca76b7105e 2548 rust-mysqlclient-sys_0.2.4-1.debian.tar.xz
+Package-List: 
+ librust-mysqlclient-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-mysqlclient-sys
+Priority: extra
+Section: misc

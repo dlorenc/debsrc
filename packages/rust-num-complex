@@ -1,0 +1,31 @@
+Package: rust-num-complex
+Binary: librust-num-complex-dev, librust-num-complex+i128-dev, librust-num-complex+rand-dev, librust-num-complex+serde-dev, librust-num-complex+std-dev
+Version: 0.2.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-autocfg-1+default-dev <!nocheck>, librust-num-traits-0.2+std-dev (>= 0.2.11-~~) <!nocheck>, librust-num-traits-0.2-dev (>= 0.2.11-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 3e7fe0beaf5e5bbbe72040ad0173812d 2358 rust-num-complex_0.2.4-1.dsc
+ 25a9c25700c416af66082afbd9187bb7 24679 rust-num-complex_0.2.4.orig.tar.gz
+ f8d15535e37ee264df91f38317a3cf07 3508 rust-num-complex_0.2.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-complex
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-complex]
+Checksums-Sha256:
+ f3ad3a3cf679466a8b90a0bb239483bf70f5e3f1ea15c340b07c2b740b269526 2358 rust-num-complex_0.2.4-1.dsc
+ b6b19411a9719e753aff12e5187b74d60d3dc449ec3f4dc21e3989c3f554bc95 24679 rust-num-complex_0.2.4.orig.tar.gz
+ 28b9a270a0cbe0c2fe22811d76910cc5f4181e36843821ecb5d79b7ed3c89cd8 3508 rust-num-complex_0.2.4-1.debian.tar.xz
+Homepage: https://github.com/rust-num/num-complex
+Package-List: 
+ librust-num-complex+i128-dev deb rust optional arch=any
+ librust-num-complex+rand-dev deb rust optional arch=any
+ librust-num-complex+serde-dev deb rust optional arch=any
+ librust-num-complex+std-dev deb rust optional arch=any
+ librust-num-complex-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-num-complex
+Priority: extra
+Section: misc

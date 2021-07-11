@@ -1,0 +1,28 @@
+Package: python-pskc
+Binary: python3-pskc, python-pskc-doc, pskc-utils
+Version: 1.1-3
+Maintainer: Arthur de Jong <adejong@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: python3-all (>= 3.1.2-10~), debhelper-compat (= 9), dh-python, python3-sphinx (>= 1.0.7+dfsg), python3-setuptools, python3-pkg-resources, python3-nose (>= 1.2.0), python3-cryptography, python3-dateutil
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c48788c4204d2ba48a5d2f1aa5120ef3 2274 python-pskc_1.1-3.dsc
+ 4220bef768505b2833097e60d7324576 132672 python-pskc_1.1.orig.tar.gz
+ c90ee843bbe98c232218d10d3a7cea32 15648 python-pskc_1.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-pskc
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-pskc.git
+Checksums-Sha256:
+ 6660eb69f63a486d61fb93cdb5a8bbf8bc996d98ed419f0edb94edb3c9b71910 2274 python-pskc_1.1-3.dsc
+ 489938c60a6c8493a619b39854aa5cf49e259ba089fc70e611c018353c88eb83 132672 python-pskc_1.1.orig.tar.gz
+ 79e251e46ca876b46677a9085a6a48b0a489e52267aa84660f8ea05b03e432d2 15648 python-pskc_1.1-3.debian.tar.xz
+Homepage: https://arthurdejong.org/python-pskc/
+Package-List: 
+ pskc-utils deb misc optional arch=all
+ python-pskc-doc deb doc optional arch=all
+ python3-pskc deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/python-pskc
+Priority: optional
+Section: misc

@@ -1,0 +1,29 @@
+Package: ring-clojure
+Binary: libring-core-clojure, libring-servlet-clojure, libring-jetty-adapter-clojure
+Version: 1.6.2-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, maven-repo-helper, libclojure-java, libring-codec-clojure (>= 1.1.2), libcommons-io-java, libcommons-fileupload-java, libclj-time-clojure (>= 0.15.2), libcrypto-random-clojure (>= 1.2.1), libcrypto-equality-clojure (>= 1.0.0-2), libring-core-clojure (>= 1.6.2-3), libservlet-api-java, libring-servlet-clojure, libjetty9-java, libclj-http-clojure, libnrepl-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3d9978fc39bda77aeee4ec878f115cc0 2639 ring-clojure_1.6.2-4.dsc
+ fe529cd5029aac03b91db283edf473a3 60247 ring-clojure_1.6.2.orig.tar.gz
+ cfe4bcc80b78312575f120404c6d7fa7 5140 ring-clojure_1.6.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/ring-clojure
+Vcs-Git: https://salsa.debian.org/java-team/ring-clojure.git
+Checksums-Sha256:
+ a8a87ac43cbc0cdea33defe5290486b33b209c4369191f883bf5d253fb9f503d 2639 ring-clojure_1.6.2-4.dsc
+ 8ab16166ce02346dc26e6f7ed59004672ab1c437eaba7421fee48e95f9a8dab2 60247 ring-clojure_1.6.2.orig.tar.gz
+ 87a9adb0f01b3b4e05e3306fda442517a7be40d65e49029786944af51790b82a 5140 ring-clojure_1.6.2-4.debian.tar.xz
+Homepage: https://github.com/ring-clojure/ring
+Package-List: 
+ libring-core-clojure deb java optional arch=all
+ libring-jetty-adapter-clojure deb java optional arch=all
+ libring-servlet-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/r/ring-clojure
+Priority: extra
+Section: misc

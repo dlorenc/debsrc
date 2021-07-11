@@ -1,0 +1,28 @@
+Package: rust-darling
+Binary: librust-darling-dev, librust-darling+diagnostics-dev, librust-darling+suggestions-dev
+Version: 0.10.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-darling-core-0.10.2+default-dev <!nocheck>, librust-darling-core-0.10.2+suggestions-dev <!nocheck>, librust-darling-macro-0.10.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 931cefdab2d3cd999ab05a4758cddbc0 2549 rust-darling_0.10.2-2.dsc
+ a42201f337a8d7cd51aae9e5ecad91f0 17620 rust-darling_0.10.2.orig.tar.gz
+ d1a4b661678ce2f5279ed3df69929c61 2812 rust-darling_0.10.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/darling
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/darling]
+Checksums-Sha256:
+ 651fef2d9c9f944bb35a607d954c93690cbcbe15c8bf7a31ffd24b22dd075f5c 2549 rust-darling_0.10.2-2.dsc
+ 0d706e75d87e35569db781a9b5e2416cff1236a47ed380831f959382ccd5f858 17620 rust-darling_0.10.2.orig.tar.gz
+ a3c4ff5a61021c58cce835396afcc92e8d4de0b899f804ebdfc6abb6c8be85b5 2812 rust-darling_0.10.2-2.debian.tar.xz
+Package-List: 
+ librust-darling+diagnostics-dev deb rust optional arch=any
+ librust-darling+suggestions-dev deb rust optional arch=any
+ librust-darling-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-syn-1+default-dev
+Directory: pool/main/r/rust-darling
+Priority: extra
+Section: misc

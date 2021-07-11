@@ -1,0 +1,24 @@
+Package: github-backup
+Binary: github-backup
+Version: 1.20200721-2
+Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Build-Depends: debhelper-compat (= 13), ghc, git, libghc-github-dev (>= 0.15.0), libghc-missingh-dev, libghc-hslogger-dev, libghc-pretty-show-dev, libghc-ifelse-dev, libghc-exceptions-dev, libghc-transformers-dev, libghc-unix-compat-dev, libghc-optparse-applicative-dev, libghc-vector-dev, libghc-utf8-string-dev, libghc-filepath-bytestring-dev, libghc-bytestring-dev, libghc-split-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 37aa31cf393baffd4ebcddf9679ab672 2287 github-backup_1.20200721-2.dsc
+ 653431e59de578678ecf7652eb0c6f07 63832 github-backup_1.20200721.orig.tar.xz
+ 1eab7d31c7dbf9a3c6dd0ea8564da356 10580 github-backup_1.20200721-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/github-backup
+Vcs-Git: https://salsa.debian.org/debian/github-backup.git
+Checksums-Sha256:
+ 833b5046bfe27a7915c0ebc05858fabb1abddc9de13d84149b92561641b9830e 2287 github-backup_1.20200721-2.dsc
+ 8fe11e23f5a67d8cbf3fee27c165be8585cad71cbadb51455ffee2c27bdd16d2 63832 github-backup_1.20200721.orig.tar.xz
+ a0f30afbc4052b2d80791dec4ef71c163c8fc5a00119edf3c25a83993a2b1495 10580 github-backup_1.20200721-2.debian.tar.xz
+Homepage: https://github-backup.branchable.com/
+Package-List: 
+ github-backup deb utils optional arch=any
+Directory: pool/main/g/github-backup
+Priority: source
+Section: utils

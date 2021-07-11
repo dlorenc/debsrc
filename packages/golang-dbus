@@ -1,0 +1,27 @@
+Package: golang-dbus
+Binary: golang-dbus-dev
+Version: 5.0.3-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: dbus-x11, debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 531a39499850cf73b346e9c2b8c12e78 2140 golang-dbus_5.0.3-2.dsc
+ dafaace084c1c435af62375cec777c40 53772 golang-dbus_5.0.3.orig.tar.xz
+ 0de7f80ff1962bb105a36aba0e9b8572 4088 golang-dbus_5.0.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-dbus
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-dbus.git
+Checksums-Sha256:
+ 1501bf96557c5d7a4d832204ca2427c2a2813f23edd5ed931843763385622a8d 2140 golang-dbus_5.0.3-2.dsc
+ 437917d6301a130252d5320698326ab603b3f9424764babb495a639b462effba 53772 golang-dbus_5.0.3.orig.tar.xz
+ c630bb2b86ad9d8baed70225e7cbc88cfd00c4fd04c9aa0555c01e9adc0159d5 4088 golang-dbus_5.0.3-2.debian.tar.xz
+Homepage: https://github.com/godbus/dbus
+Go-Import-Path: github.com/godbus/dbus
+Package-List: 
+ golang-dbus-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-dbus
+Priority: extra
+Section: golang

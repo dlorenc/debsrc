@@ -1,0 +1,26 @@
+Package: libbpp-popgen
+Binary: libbpp-popgen-dev, libbpp-popgen8
+Version: 2.4.1-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Julien Dutheil <julien.dutheil@univ-montp2.fr>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, d-shlibs (>= 0.82), libbpp-core-dev (>= 2.4.1), libbpp-seq-dev (>= 2.4.1)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e2b194602d73e515cc72fffdf57f079b 2210 libbpp-popgen_2.4.1-4.dsc
+ cdc84495e251b6ff4260385adecbea28 116874 libbpp-popgen_2.4.1.orig.tar.gz
+ 6ea044809a4bf5a3b5a338edc18e7920 18632 libbpp-popgen_2.4.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libbpp-popgen
+Vcs-Git: https://salsa.debian.org/med-team/libbpp-popgen.git
+Checksums-Sha256:
+ c4a14e98e432d49a781d6e90daaf2f3fd4b793653dc532bce3f8c5b3dcdd33d6 2210 libbpp-popgen_2.4.1-4.dsc
+ 03b57d71a63c8fa7f11c085e531d0d691fc1d40d4ea541070dabde0ab3baf413 116874 libbpp-popgen_2.4.1.orig.tar.gz
+ 0080dd390da9c796482a714ceaf333af303e9ac736026b567e20709f1bce3460 18632 libbpp-popgen_2.4.1-4.debian.tar.xz
+Homepage: http://biopp.univ-montp2.fr/wiki/index.php/Main_Page
+Package-List: 
+ libbpp-popgen-dev deb libdevel optional arch=any
+ libbpp-popgen8 deb libs optional arch=any
+Directory: pool/main/libb/libbpp-popgen
+Priority: source
+Section: libs

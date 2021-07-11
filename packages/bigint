@@ -1,0 +1,25 @@
+Package: bigint
+Binary: libbigint0, libbigint-dev
+Version: 2010.04.30-2
+Maintainer: Boyuan Yang <byang@debian.org>
+Build-Depends: cmake, debhelper-compat (= 12)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ff7bbc8b8730a06264cb67c58c59ae0d 1906 bigint_2010.04.30-2.dsc
+ 490fc280b39b019900ceed5967155371 27673 bigint_2010.04.30.orig.tar.bz2
+ 29b214f30f5d1969657f183c804173ea 2624 bigint_2010.04.30-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/bigint
+Vcs-Git: https://salsa.debian.org/debian/bigint.git
+Checksums-Sha256:
+ 7aa3210c8129f5e602f6accccf637c37663bf65f3ce5662cc19ec52e0c0952ac 1906 bigint_2010.04.30-2.dsc
+ 05fb838472b8f06c30cd11d58e6d911dd54d8413338c4d3d77dd4e52fed6dacc 27673 bigint_2010.04.30.orig.tar.bz2
+ 1bac21da79ae02230fb0625ec49441db1cbbcce31ce5d508d2ff79a2b3536547 2624 bigint_2010.04.30-2.debian.tar.xz
+Homepage: https://mattmccutchen.net/bigint/
+Package-List: 
+ libbigint-dev deb libdevel optional arch=any
+ libbigint0 deb libs optional arch=any
+Directory: pool/main/b/bigint
+Priority: extra
+Section: misc

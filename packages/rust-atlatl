@@ -1,0 +1,26 @@
+Package: rust-atlatl
+Binary: librust-atlatl-dev, librust-atlatl+serde-dev
+Version: 0.1.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-fnv-1+default-dev <!nocheck>, librust-num-traits-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 4358fd05fd449a9c749aacba8fa020ea 2237 rust-atlatl_0.1.2-1.dsc
+ 7c87d7a61c688633e460ee67200bf590 15022 rust-atlatl_0.1.2.orig.tar.gz
+ aa2cd1be8243f971352235ec3f504446 2504 rust-atlatl_0.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/atlatl
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/atlatl]
+Checksums-Sha256:
+ be25846921bbdc1f60f93ab415649190bf152bbd1ba88b02a6ce5cdf5392a2ec 2237 rust-atlatl_0.1.2-1.dsc
+ 32bb156841d2e2a888185b5b4f7d93d30efd3a40d1671d9628ab39536adb7ea2 15022 rust-atlatl_0.1.2.orig.tar.gz
+ 76bfaf1e12f1b61c1e513f08eece273c8ea124318614b4eedd29c9441ba5191c 2504 rust-atlatl_0.1.2-1.debian.tar.xz
+Homepage: https://github.com/tapeinosyne/atlatl
+Package-List: 
+ librust-atlatl+serde-dev deb rust optional arch=any
+ librust-atlatl-dev deb rust optional arch=any
+Directory: pool/main/r/rust-atlatl
+Priority: extra
+Section: misc

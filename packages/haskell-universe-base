@@ -1,0 +1,28 @@
+Package: haskell-universe-base
+Binary: libghc-universe-base-dev, libghc-universe-base-prof, libghc-universe-base-doc
+Version: 1.1.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-tagged-dev (>= 0.8.4), libghc-tagged-dev (<< 0.9), libghc-tagged-prof
+Build-Depends-Indep: ghc-doc, libghc-tagged-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e507c61f606096ab133277b64c91a03a 2470 haskell-universe-base_1.1.1-2.dsc
+ e152cba6f7d8e6c88704030d41e97b0a 9522 haskell-universe-base_1.1.1.orig.tar.gz
+ 193f2dae289040d0e5bc7f3dd59ed285 3192 haskell-universe-base_1.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-universe-base
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-universe-base]
+Checksums-Sha256:
+ b0067c90d830886ebef3b2ec96028d5c370eac4919923d23659f36c1c066ae75 2470 haskell-universe-base_1.1.1-2.dsc
+ 1ded30b31b1abbc7621bdb0086ba0d91c1920157e87a4abeb4f2fcf9f3f6dea8 9522 haskell-universe-base_1.1.1.orig.tar.gz
+ e1cdb9553fc6da9a900fe74253f6ee58f192dcdb39c5a5b2fba6c1dab639ec7a 3192 haskell-universe-base_1.1.1-2.debian.tar.xz
+Homepage: https://github.com/dmwit/universe
+Package-List: 
+ libghc-universe-base-dev deb haskell optional arch=any
+ libghc-universe-base-doc deb doc optional arch=all
+ libghc-universe-base-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-universe-base
+Priority: optional
+Section: misc

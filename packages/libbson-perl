@@ -1,0 +1,28 @@
+Package: libbson-perl
+Binary: libbson-perl
+Version: 1.12.2-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nuno Carvalho <smash@cpan.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libboolean-perl (>= 0.45) <!nocheck>, libcrypt-urandom-perl <!nocheck>, libjson-maybexs-perl <!nocheck>, libjson-pp-perl (>= 2.97001) <!nocheck>, libmoo-perl (>= 2.002004) <!nocheck>, libnamespace-clean-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtie-ixhash-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 15d886d3b84bc7ede6b27359d9db4af0 2667 libbson-perl_1.12.2-1.dsc
+ fddcc9e3a8d3538404d538524664c79c 115860 libbson-perl_1.12.2.orig.tar.gz
+ d162fb6a8c80e78b7d0889797dcf7019 2968 libbson-perl_1.12.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libbson-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libbson-perl.git
+Checksums-Sha256:
+ 55e5c278da10bfec350e85dad4500ed64a80e1d8f7f2fb11be953e7aeb0547e4 2667 libbson-perl_1.12.2-1.dsc
+ f4612c0c354310741b99ab6d26451226823150ca27109b1b391232d5cfdda6db 115860 libbson-perl_1.12.2.orig.tar.gz
+ 0f3cd30f6750d11619ce012cd701700b75e6d7223c102fe5f24bec79198a919a 2968 libbson-perl_1.12.2-1.debian.tar.xz
+Homepage: https://metacpan.org/release/BSON
+Dgit: 60dfc364750e976582c01937b27b81719f6f510c debian archive/debian/1.12.2-1 https://git.dgit.debian.org/libbson-perl
+Package-List: 
+ libbson-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libb/libbson-perl
+Priority: extra
+Section: misc

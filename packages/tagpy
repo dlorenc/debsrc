@@ -1,0 +1,26 @@
+Package: tagpy
+Binary: python3-tagpy
+Version: 2013.1-7
+Maintainer: Michal Čihař <nijel@debian.org>
+Uploaders: Python Modules Packaging Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 9), dh-python, python3-all-dev, libtag1-dev (>= 1.8), libboost-python-dev, pkg-config, python3-pkg-resources, python3-setuptools
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ b891a50beb2f40e16a3c465da591cedd 2090 tagpy_2013.1-7.dsc
+ 96cbbd8adb8a6c0b9c21851979cc7c64 151463 tagpy_2013.1.orig.tar.gz
+ a922325f543fad3fc5e8505fd488c490 6256 tagpy_2013.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/tagpy
+Vcs-Git: https://salsa.debian.org/python-team/modules/tagpy.git
+Checksums-Sha256:
+ cfd762441ab1947cb9c95c21e6e363db75208b2a1e56b70365d9d43cd7ed57fc 2090 tagpy_2013.1-7.dsc
+ 80481c78ce34878e7a1f3231acd781a3bf1b0b569c70ce0e8d63af58061152f4 151463 tagpy_2013.1.orig.tar.gz
+ 0e7d54ce8c566a02e79e45a04399991efa470ec43bbbaba8b2434af9374ff117 6256 tagpy_2013.1-7.debian.tar.xz
+Homepage: http://mathema.tician.de/software/tagpy
+Package-List: 
+ python3-tagpy deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/t/tagpy
+Priority: source
+Section: python

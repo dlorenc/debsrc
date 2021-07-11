@@ -1,0 +1,28 @@
+Package: nsf
+Binary: nsf, nsf-dev, nsf-shells
+Version: 2.3.0-1
+Maintainer: Tcl/Tk Debian Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Uploaders: Stefan Sobernig <stefan.sobernig@wu.ac.at>
+Build-Depends: debhelper (>= 9.0.0), autotools-dev, tcl-dev, tcllib
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ f6ae8192850640ba474ccfb6b84eaae3 2023 nsf_2.3.0-1.dsc
+ 47cf23a98b4dd3a5e812d4c4b7d91dc5 4747971 nsf_2.3.0.orig.tar.gz
+ 476228d470157a712e1833900760ce0d 11508 nsf_2.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tcltk-team/nsf
+Vcs-Git: https://salsa.debian.org/tcltk-team/nsf.git
+Checksums-Sha256:
+ eb331a48b0594c5e5e4da8fbf97b0765c76ebb3a5eaef8e438d0144923be1d20 2023 nsf_2.3.0-1.dsc
+ 3940c4c00e18900abac8d57c195498f563c3cdb65157257af57060185cfd7ba9 4747971 nsf_2.3.0.orig.tar.gz
+ e4626322f7df1ebabab17d6dddf69f37ed12e78170f22495cb8a6d0a2e536c77 11508 nsf_2.3.0-1.debian.tar.xz
+Homepage: https://next-scripting.org/
+Package-List: 
+ nsf deb libs optional arch=any
+ nsf-dev deb libdevel optional arch=any
+ nsf-shells deb interpreters optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/nsf
+Priority: optional
+Section: misc

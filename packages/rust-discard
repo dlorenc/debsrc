@@ -1,0 +1,25 @@
+Package: rust-discard
+Binary: librust-discard-dev
+Version: 1.0.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ a369ec1998a521c9b96cbefdd7bcca2e 2160 rust-discard_1.0.4-1.dsc
+ 20006dab4b1bd43c86688877ecd58e8f 4700 rust-discard_1.0.4.orig.tar.gz
+ a3e6a6ceed15ff77eea51f813cd062c8 2356 rust-discard_1.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/discard
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/discard]
+Checksums-Sha256:
+ 3368b2f25228adeaf20f5f6e8660a0bb0aac1ace95a82e94aa61d8acd6038fb8 2160 rust-discard_1.0.4-1.dsc
+ 212d0f5754cb6769937f4501cc0e67f4f4483c8d2c3e1e922ee9edbe4ab4c7c0 4700 rust-discard_1.0.4.orig.tar.gz
+ 7ad57988a8fcccdc3a4c8b33d7760387d8028de92335dfaea5be63d9675a4f7c 2356 rust-discard_1.0.4-1.debian.tar.xz
+Homepage: https://github.com/Pauan/rust-discard
+Package-List: 
+ librust-discard-dev deb rust optional arch=any
+Directory: pool/main/r/rust-discard
+Priority: extra
+Section: misc

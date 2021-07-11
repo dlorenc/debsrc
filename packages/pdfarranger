@@ -1,0 +1,26 @@
+Package: pdfarranger
+Binary: pdfarranger, pdfshuffler
+Version: 1.6.2-1
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Vincent Cheng <vcheng@debian.org>, Jeremy Lainé <jeremy.laine@m4x.org>, Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-distutils-extra, python3-pkg-resources, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1751526732d124eed1b847f26e1dfc32 1993 pdfarranger_1.6.2-1.dsc
+ cd841e0d9ac7d12e66662d349f3560b6 197726 pdfarranger_1.6.2.orig.tar.gz
+ 143d33c6e052d7af43726b30ef4f6514 4488 pdfarranger_1.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/pdfarranger
+Vcs-Git: https://salsa.debian.org/python-team/applications/pdfarranger.git
+Checksums-Sha256:
+ e861a526fd94e96a88ad04715b47001badddda1e82e9dcdcf611f1adda94cf17 1993 pdfarranger_1.6.2-1.dsc
+ afbd0c4409313e878a4cb729601d36b1374ebdc96ac8c1a6bc72054cd91dad96 197726 pdfarranger_1.6.2.orig.tar.gz
+ 3cdfc268ec6451589d931ba604de15dbbebe9e6a54a423ace04a6eca8c6711a6 4488 pdfarranger_1.6.2-1.debian.tar.xz
+Homepage: https://github.com/jeromerobert/pdfarranger
+Package-List: 
+ pdfarranger deb graphics optional arch=all
+ pdfshuffler deb oldlibs optional arch=all
+Directory: pool/main/p/pdfarranger
+Priority: extra
+Section: misc

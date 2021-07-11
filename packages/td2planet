@@ -1,0 +1,26 @@
+Package: td2planet
+Binary: td2planet
+Version: 0.3.0-4
+Maintainer: Yukiharu YABUKI <yyabuki@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 0.3.0~)
+Build-Depends-Indep: ruby | ruby-interpreter
+Architecture: all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 637fa5cce257aaacc7eb33f543d16501 1932 td2planet_0.3.0-4.dsc
+ 7e79b2a95eede74d65372d51dbe715f2 10050 td2planet_0.3.0.orig.tar.gz
+ e8e18ae0c66f43af5346367773463289 4464 td2planet_0.3.0-4.debian.tar.xz
+Vcs-Browser: https://github.com/yabuki/td2planet
+Vcs-Git: https://github.com/yabuki/td2planet.git
+Checksums-Sha256:
+ 13226514f2b5fabc88835e1012127e742c10358271a703d629717b5236a2a985 1932 td2planet_0.3.0-4.dsc
+ 971645cc2fc9231afc295807ebf52fa31d438d668f4c487bcb05708a1a0aec80 10050 td2planet_0.3.0.orig.tar.gz
+ 8c8cd7b650da90f75687cad0f5a9b7eff013c793bdc4b7953d85d473e2165364 4464 td2planet_0.3.0-4.debian.tar.xz
+Homepage: http://github.com/znz/td2planet/
+Package-List: 
+ td2planet deb ruby optional arch=all
+Ruby-Versions: all
+Directory: pool/main/t/td2planet
+Priority: source
+Section: web

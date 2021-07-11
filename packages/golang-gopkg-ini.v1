@@ -1,0 +1,27 @@
+Package: golang-gopkg-ini.v1
+Binary: golang-gopkg-ini.v1-dev
+Version: 1.57.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Anthony Fok <foka@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.39~), golang-any, golang-github-smartystreets-goconvey-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a212cd9d4b870c7e40abf50d8305e33f 1624 golang-gopkg-ini.v1_1.57.0-1.dsc
+ c9d433e5a748f63048c3c1a9f22a916d 48424 golang-gopkg-ini.v1_1.57.0.orig.tar.gz
+ 69cca2d0cfe1678e7e64aabd849a64d0 3388 golang-gopkg-ini.v1_1.57.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-gopkg-ini.v1
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-gopkg-ini.v1.git
+Checksums-Sha256:
+ fd28eb66cd0ad6fe6f93cab24804e00e03840e8097e866b9f08be8783180dfe1 1624 golang-gopkg-ini.v1_1.57.0-1.dsc
+ e612924cffa395825f32e65db18cff0366705952433e52c6efc81fc1c3adfd2a 48424 golang-gopkg-ini.v1_1.57.0.orig.tar.gz
+ ef5acd1c2f83a48be4420df0ad10a81ef03434745862cf108403127654d6cbaf 3388 golang-gopkg-ini.v1_1.57.0-1.debian.tar.xz
+Homepage: https://gopkg.in/ini.v1
+Go-Import-Path: gopkg.in/ini.v1
+Package-List: 
+ golang-gopkg-ini.v1-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-gopkg-ini.v1
+Priority: extra
+Section: golang

@@ -1,0 +1,26 @@
+Package: bisonc++
+Binary: bisonc++, bisonc++-doc
+Version: 6.04.01-1
+Maintainer: Frank B. Brokken <f.b.brokken@rug.nl>
+Uploaders: George Danchev <danchev@spnet.net>, tony mancill <tmancill@debian.org>
+Build-Depends: debhelper-compat (= 13), flexc++ (>= 2.08.01), libbobcat-dev (>= 5.05.00), icmake (>= 9.03.01), yodl (>= 4.02.02)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e32b2f56dd3e3e350ae8b52ac97001dc 2103 bisonc++_6.04.01-1.dsc
+ 8b21e55106e22e03de73d40820ac30b1 508247 bisonc++_6.04.01.orig.tar.gz
+ 55c0a9aad4d9d98f1d3a121cc536f94b 13232 bisonc++_6.04.01-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/bisoncpp
+Vcs-Git: https://salsa.debian.org/debian/bisoncpp.git
+Checksums-Sha256:
+ 893bc0f3e62af607ff3fb1ec3a579bb03e5ccf33b0b0c84a7acbefdb1e591d22 2103 bisonc++_6.04.01-1.dsc
+ cf57bca527ee51c8154c7f1f7ff1d79568ad927a34798a623336e57ab15f9e8f 508247 bisonc++_6.04.01.orig.tar.gz
+ 1cc899f09177c953eb67262f880a2c03416310adbf1230a23419509f660a3528 13232 bisonc++_6.04.01-1.debian.tar.xz
+Homepage: https://fbb-git.gitlab.io/bisoncpp/
+Package-List: 
+ bisonc++ deb devel optional arch=any
+ bisonc++-doc deb doc optional arch=all
+Directory: pool/main/b/bisonc++
+Priority: source
+Section: devel

@@ -1,0 +1,26 @@
+Package: haskell-show-combinators
+Binary: libghc-show-combinators-dev, libghc-show-combinators-prof, libghc-show-combinators-doc
+Version: 0.2.0.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c4b8e740f480cffd1f2e6fe4cfda7525 2278 haskell-show-combinators_0.2.0.0-1.dsc
+ ebb1e4d6853a84884a94f2c274a8d9cc 4297 haskell-show-combinators_0.2.0.0.orig.tar.gz
+ 41020eca6bf9f66cb8bf3f8cc3ff1476 1976 haskell-show-combinators_0.2.0.0-1.debian.tar.xz
+Checksums-Sha256:
+ ae8efc006962185cb74a1edc6f462d49d881f9afa6526255b1c53c1f2a236b2e 2278 haskell-show-combinators_0.2.0.0-1.dsc
+ c902dbaf0e9cf7056d786d44fbdea2781bc65524089639242c2624dae841ba1d 4297 haskell-show-combinators_0.2.0.0.orig.tar.gz
+ 1464a24f99248ba94e0704089ad6e3b018b62910c037de369810eb33684c7658 1976 haskell-show-combinators_0.2.0.0-1.debian.tar.xz
+Homepage: https://github.com/Lysxia/show-combinators#readme
+Package-List: 
+ libghc-show-combinators-dev deb haskell optional arch=any
+ libghc-show-combinators-doc deb doc optional arch=all
+ libghc-show-combinators-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-show-combinators
+Priority: extra
+Section: misc

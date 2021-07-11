@@ -1,0 +1,24 @@
+Package: leela-zero
+Binary: leela-zero
+Version: 0.17-1
+Maintainer: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), cmake, libgtest-dev, libeigen3-dev, libboost-dev, libboost-program-options-dev, libboost-filesystem-dev, libopenblas-dev, opencl-headers, ocl-icd-libopencl1, ocl-icd-opencl-dev, qtbase5-dev, zlib1g-dev, clinfo <!nocheck>, mesa-opencl-icd <!nocheck> | opencl-icd <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ e6fb29051aa1f428e8e0c83870bda560 1507 leela-zero_0.17-1.dsc
+ 0b03020f7d295df416481988d6a6c9e9 1740219 leela-zero_0.17.orig.tar.gz
+ 319b5e73ad645defe1d461b2ea3ea0b5 6264 leela-zero_0.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/infinity0/leela-zero
+Vcs-Git: https://salsa.debian.org/infinity0/leela-zero.git
+Checksums-Sha256:
+ 12cfd0b6ff208da4796d4810e894803a19186db8d59a824f6a8a76d4207b3875 1507 leela-zero_0.17-1.dsc
+ fc2cc2ae9739aeab058dfceee8e4e67fdcfc0f7bfe2777e565a2ba17a5579267 1740219 leela-zero_0.17.orig.tar.gz
+ 445138d0cf7b7869ecce005bbb45e7dedb7247cc9395d96ce824e2a42200fe23 6264 leela-zero_0.17-1.debian.tar.xz
+Homepage: https://github.com/gcp/leela-zero
+Package-List: 
+ leela-zero deb games optional arch=any
+Directory: pool/main/l/leela-zero
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-pipes
+Binary: libghc-pipes-dev, libghc-pipes-prof, libghc-pipes-doc
+Version: 4.3.14-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-exceptions-dev (>= 0.4), libghc-exceptions-dev (<< 0.11), libghc-exceptions-prof, libghc-mmorph-dev (>= 1.0.4), libghc-mmorph-dev (<< 1.2), libghc-mmorph-prof, libghc-void-dev (>= 0.4), libghc-void-dev (<< 0.8), libghc-void-prof
+Build-Depends-Indep: ghc-doc, libghc-exceptions-doc, libghc-mmorph-doc, libghc-void-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 242f4db09cece0fb44bbbe443d361522 2577 haskell-pipes_4.3.14-1.dsc
+ f7bf818d037f691dc73f6eb591e0eaf5 42576 haskell-pipes_4.3.14.orig.tar.gz
+ 8cb7b9446b24eede118337c3e24785c8 3728 haskell-pipes_4.3.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-pipes
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-pipes]
+Checksums-Sha256:
+ d2383125303cdfd10665e582a61d8f34b9eedae9b14459d5043b759a71ad4f86 2577 haskell-pipes_4.3.14-1.dsc
+ db8fcb260537fa34edbd6e72bef979aedd8ebf0b7d14fbb6023e70943c662887 42576 haskell-pipes_4.3.14.orig.tar.gz
+ 2a2503f0b09cc3cf028757952005a6b96abcdbf0a0b39df426e6bada15ff970d 3728 haskell-pipes_4.3.14-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/pipes
+Package-List: 
+ libghc-pipes-dev deb haskell optional arch=any
+ libghc-pipes-doc deb doc optional arch=all
+ libghc-pipes-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-pipes
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: toolz
+Binary: python3-toolz, python-toolz-doc
+Version: 0.9.0-1.1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Diane Trout <diane@ghic.org>
+Build-Depends: debhelper (>= 11), dh-python, python3-sphinx (>= 1.0.7+dfsg-1~), python3-all, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ c98c6ce6f243edd11cffbde1a7772592 2137 toolz_0.9.0-1.1.dsc
+ 23b06db727ccef711523430d4d06d168 71600 toolz_0.9.0.orig.tar.gz
+ 9f42e8215ed13c5ae34c48f548e32c44 3572 toolz_0.9.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/toolz
+Vcs-Git: https://salsa.debian.org/python-team/modules/toolz.git
+Checksums-Sha256:
+ a1616fbc3d91c066e8099569e90e93ea391ba0b7891b0263a8d93e03061e6d88 2137 toolz_0.9.0-1.1.dsc
+ 9173e5e9450ded2d1d177cae610e523228cf6c8c19e2f9d0394ca93284f1de43 71600 toolz_0.9.0.orig.tar.gz
+ cbd46198f0f98e24b95a238a8508f8cd33000a444fc049698080669b52379b3b 3572 toolz_0.9.0-1.1.debian.tar.xz
+Homepage: https://github.com/pytoolz/toolz/
+Package-List: 
+ python-toolz-doc deb doc optional arch=all
+ python3-toolz deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/t/toolz
+Priority: optional
+Section: misc

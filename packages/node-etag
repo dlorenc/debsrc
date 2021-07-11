@@ -1,0 +1,26 @@
+Package: node-etag
+Binary: node-etag
+Version: 1.8.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-safe-buffer <!nocheck>, node-seedrandom <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bea004530e6d45906926ea15affb6ea1 2052 node-etag_1.8.1-1.dsc
+ 8be5777fe45ed27be809f0172473271a 7200 node-etag_1.8.1.orig.tar.gz
+ 6cfbe6acd33ed079211d155f5c14b48d 2452 node-etag_1.8.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-etag
+Vcs-Git: https://salsa.debian.org/js-team/node-etag.git
+Checksums-Sha256:
+ ed2609a04119005efd261aef123a05938f2c0d35bea1aafacbab56e8841528ca 2052 node-etag_1.8.1-1.dsc
+ 541a645b18875b3081b4e0a6f2fc529152e9a6c50d354c027527cd58027b9a11 7200 node-etag_1.8.1.orig.tar.gz
+ b3bb6f0fd149f0da953f1593e297c4ee8c97967e5cb92b2bcd0ed190644be18e 2452 node-etag_1.8.1-1.debian.tar.xz
+Homepage: https://github.com/jshttp/etag
+Package-List: 
+ node-etag deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-etag
+Priority: optional
+Section: javascript

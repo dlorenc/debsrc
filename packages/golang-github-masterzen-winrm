@@ -1,0 +1,27 @@
+Package: golang-github-masterzen-winrm
+Binary: golang-github-masterzen-winrm-dev
+Version: 0.0~git20200615.c42b513-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any (>= 1.7~), golang-github-azure-go-ntlmssp-dev, golang-github-christrenkamp-goxpath-dev, golang-github-gofrs-uuid-dev, golang-github-masterzen-simplexml-dev, golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 19cefcc51e15cac770ef5aa98f89a4b2 1970 golang-github-masterzen-winrm_0.0~git20200615.c42b513-1.dsc
+ c7d0534ac14e2492cebc3e1b948772c8 29524 golang-github-masterzen-winrm_0.0~git20200615.c42b513.orig.tar.xz
+ 936a484ca60bdf09281b74b986a1fe7f 3224 golang-github-masterzen-winrm_0.0~git20200615.c42b513-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-masterzen-winrm
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-masterzen-winrm.git
+Checksums-Sha256:
+ 630a1af30b77fd5b71b69cfdf6e62eabe5a0e7cf7d6ab61385a8b10775e82cf9 1970 golang-github-masterzen-winrm_0.0~git20200615.c42b513-1.dsc
+ 9ad7f8eb5a9529f61b03b7d9cb89e785f28548c528779c8ad2fb4db34b738c2d 29524 golang-github-masterzen-winrm_0.0~git20200615.c42b513.orig.tar.xz
+ b737eec23cfd47917423541b3368fba98327e72464ecb4d0efc26560d14e1bc6 3224 golang-github-masterzen-winrm_0.0~git20200615.c42b513-1.debian.tar.xz
+Homepage: https://github.com/masterzen/winrm
+Go-Import-Path: github.com/masterzen/winrm
+Package-List: 
+ golang-github-masterzen-winrm-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-masterzen-winrm
+Priority: extra
+Section: golang

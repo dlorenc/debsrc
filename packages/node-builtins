@@ -1,0 +1,26 @@
+Package: node-builtins
+Binary: node-builtins
+Version: 1.0.3-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Amruth Lal <amruth27m@gmail.com>
+Build-Depends: debhelper-compat (= 12), pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dfa8ccf9c29005ce9ec5198d5857c570 2032 node-builtins_1.0.3-2.dsc
+ d2851aeeb4fcd0155d4282bcbbdfa963 1763 node-builtins_1.0.3.orig.tar.gz
+ 198c4077ac92ec3a0447b666d6fbb8a1 2368 node-builtins_1.0.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-builtins
+Vcs-Git: https://salsa.debian.org/js-team/node-builtins.git
+Checksums-Sha256:
+ e456d0b17faa6dd1e4b1c6b9048bf1e65b127b25b15629336084b8f7bfbfcf46 2032 node-builtins_1.0.3-2.dsc
+ b529a11b9e884676e0b7c22c10c53f7f5de024bfa3f3a50505beca96c5235c09 1763 node-builtins_1.0.3.orig.tar.gz
+ 502bd413a754766bc86cf12ddc5cdb4b708393985db20cdf42607be01c9d5b00 2368 node-builtins_1.0.3-2.debian.tar.xz
+Homepage: https://github.com/juliangruber/builtins
+Package-List: 
+ node-builtins deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-builtins
+Priority: extra
+Section: javascript

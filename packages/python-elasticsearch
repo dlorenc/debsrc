@@ -1,0 +1,28 @@
+Package: python-elasticsearch
+Binary: python3-elasticsearch, python-elasticsearch-doc
+Version: 7.1.0-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: libjs-jquery, python3-coverage, python3-mock, python3-nose, python3-pylibmc, python3-requests (>= 2.0.0), python3-sphinx (>= 1.0.7+dfsg-1~), python3-sphinx-rtd-theme, python3-thrift, python3-urllib3, python3-yaml
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1491585899db49a7e6533e0ef64904aa 2457 python-elasticsearch_7.1.0-3.dsc
+ 3c92af83e1992712096fbae04891028f 110917 python-elasticsearch_7.1.0.orig.tar.gz
+ a91bf4c607036521df23774ed0336bf4 5872 python-elasticsearch_7.1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-elasticsearch
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-elasticsearch.git
+Checksums-Sha256:
+ 27bf52e27f7ab0befa30fe9464ce60875cf9f85d8b2770cee1e1d2e38c8f6523 2457 python-elasticsearch_7.1.0-3.dsc
+ d929368ff4fa0cbfeca98fa6eacd3f6747e7bdd13953d9a5b4f6c8d877ef5e82 110917 python-elasticsearch_7.1.0.orig.tar.gz
+ 70a338d885da722d12e3c3fe43afef3d76a367455f7f32a89b592a7425f11a21 5872 python-elasticsearch_7.1.0-3.debian.tar.xz
+Homepage: https://github.com/elasticsearch/elasticsearch-py
+Package-List: 
+ python-elasticsearch-doc deb doc optional arch=all
+ python3-elasticsearch deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-elasticsearch
+Priority: optional
+Section: misc

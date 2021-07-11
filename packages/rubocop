@@ -1,0 +1,27 @@
+Package: rubocop
+Binary: rubocop
+Version: 0.89.1+dfsg-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sebastien Badia <sbadia@debian.org>, Miguel Landaeta <nomadium@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, pry, ruby, ruby-parallel (>= 1.10), ruby-progressbar (>= 1.7), ruby-rainbow (>= 2.2.2), ruby-regexp-parser (>= 1.7), ruby-rspec, ruby-rubocop-ast (<< 1.0), ruby-rubocop-ast (>= 0.3.0), ruby-rubocop-rspec, ruby-simplecov, ruby-unicode-display-width (>= 1.4.0), ruby-webmock, ruby-whitequark-parser (>= 2.7.1.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7bc93ce47536004c3a947d5ee3e24fe8 2450 rubocop_0.89.1+dfsg-1.dsc
+ 7a47607e36b1892f5634f4115c4148cd 754612 rubocop_0.89.1+dfsg.orig.tar.xz
+ c903b73420674aef7a755d1d380db7d2 11072 rubocop_0.89.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/rubocop
+Vcs-Git: https://salsa.debian.org/ruby-team/rubocop.git
+Checksums-Sha256:
+ bb08a03ec9eb9a712c2c9650fd69f0e12eec9727449edc7970b536b8a79a578a 2450 rubocop_0.89.1+dfsg-1.dsc
+ 0bcc09ae44da0d0b406a8715d8ea567f01efaa58ae48a54ba67e9e2efab9626c 754612 rubocop_0.89.1+dfsg.orig.tar.xz
+ b9b62af6c4bd276b180c4215759f4866f75c2fe52b3f7b8e6298a21f559a7c51 11072 rubocop_0.89.1+dfsg-1.debian.tar.xz
+Homepage: https://github.com/rubocop-hq/rubocop
+Package-List: 
+ rubocop deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/rubocop
+Priority: optional
+Section: misc

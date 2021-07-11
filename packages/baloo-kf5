@@ -1,0 +1,33 @@
+Package: baloo-kf5
+Binary: baloo-kf5, baloo-kf5-dev, libkf5baloo-doc, libkf5baloo5, libkf5balooengine5
+Version: 5.78.0-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), dh-exec, doxygen, extra-cmake-modules (>= 5.78.0~), gettext, libkf5config-dev (>= 5.78.0~), libkf5coreaddons-dev (>= 5.78.0~), libkf5crash-dev (>= 5.78.0~), libkf5dbusaddons-dev (>= 5.78.0~), libkf5filemetadata-dev (>= 5.78.0~), libkf5i18n-dev (>= 5.78.0~), libkf5idletime-dev (>= 5.78.0~), libkf5kio-dev (>= 5.78.0~), libkf5solid-dev (>= 5.78.0~), liblmdb-dev, libqt5sql5-sqlite, libxapian-dev, pkg-kde-tools (>= 0.15.18~), qtbase5-dev (>= 5.14.0~), qtdeclarative5-dev (>= 5.14.0~), qttools5-dev, qttools5-dev-tools (>= 5.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ca1f5c6ecbea29da972f46e44d13347f 3080 baloo-kf5_5.78.0-3.dsc
+ be581dc64436fafdeb74fcbbde087d28 290568 baloo-kf5_5.78.0.orig.tar.xz
+ a39662211590485ab2bb52403a703046 488 baloo-kf5_5.78.0.orig.tar.xz.asc
+ d0aa4ad2797629cb209c659dd64fa2ae 16812 baloo-kf5_5.78.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/baloo
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/baloo.git
+Checksums-Sha256:
+ a9ec166b774a1a8b42f8ca0d2432487f1c016e9c9f167a125085ed286d894049 3080 baloo-kf5_5.78.0-3.dsc
+ f152c9644c812cdaf0dbfb5fb224e64e2fa0dedf615dc1f2fa572abc1e051add 290568 baloo-kf5_5.78.0.orig.tar.xz
+ 24225451ef74f9947f6905927ab9a1cd50413c0dcb9622717b1283d80ebc9292 488 baloo-kf5_5.78.0.orig.tar.xz.asc
+ 5f655af49956ffe1971505ebb44836ddd270e7b51cdc5cd9d3c753010f8f7de4 16812 baloo-kf5_5.78.0-3.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/baloo
+Package-List: 
+ baloo-kf5 deb utils optional arch=any
+ baloo-kf5-dev deb devel optional arch=any
+ libkf5baloo-doc deb doc optional arch=all
+ libkf5baloo5 deb libs optional arch=any
+ libkf5balooengine5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/b/baloo-kf5
+Priority: optional
+Section: misc

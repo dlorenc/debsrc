@@ -1,0 +1,26 @@
+Package: rust-mint
+Binary: librust-mint-dev
+Version: 0.5.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 29f25980f8dccf8bf7f43f0ec66f9d07 2110 rust-mint_0.5.5-1.dsc
+ 3a8c4a928e493838ff16f2491e2bc523 6166 rust-mint_0.5.5.orig.tar.gz
+ dea91504cbb12b1a4db74ca2130a5365 2652 rust-mint_0.5.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mint
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/mint]
+Checksums-Sha256:
+ d91b866ef44c62bb8c586a4dcad428cad7141dbaea2f53c7fdeca02f21bd89d1 2110 rust-mint_0.5.5-1.dsc
+ d42e54f364a39ad5238e3072db2e8747785b37655368da756987d3b09ada91e0 6166 rust-mint_0.5.5.orig.tar.gz
+ ef3bf0cb9cb23fb4392e7d47d1c210e659ccf5e1d28e96c86446d03106ecd33d 2652 rust-mint_0.5.5-1.debian.tar.xz
+Package-List: 
+ librust-mint-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-mint
+Priority: extra
+Section: misc

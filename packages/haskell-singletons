@@ -1,0 +1,26 @@
+Package: haskell-singletons
+Binary: libghc-singletons-dev, libghc-singletons-prof, libghc-singletons-doc
+Version: 2.6-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc, ghc-prof, libghc-mtl-dev (>= 2.2.1), libghc-mtl-prof, libghc-syb-dev (>= 0.4), libghc-syb-prof, libghc-th-desugar-dev (>= 1.10), libghc-th-desugar-dev (<< 1.11), libghc-th-desugar-prof
+Build-Depends-Indep: ghc-doc, libghc-mtl-doc, libghc-syb-doc, libghc-text-doc, libghc-th-desugar-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 2f676d4784b4f420c0456bcc036cb30f 2425 haskell-singletons_2.6-1.dsc
+ 25cf87ee81e341eca5812061a1735ac7 316677 haskell-singletons_2.6.orig.tar.gz
+ 01dcff402a5858eeca94e9fca7baf1af 2480 haskell-singletons_2.6-1.debian.tar.xz
+Checksums-Sha256:
+ 4277d4c777efe011b5fe4cac5b25894bbdfd701fe198675d5ec04191ae0b5e30 2425 haskell-singletons_2.6-1.dsc
+ bea771f7017ad35413215cbbd275a19c3d2a338c92e37b0bb64402385cb886d1 316677 haskell-singletons_2.6.orig.tar.gz
+ 45d228157e60ed645cd7ce13fe3e57ec4efde4058216e6a910b1fa6a190685c3 2480 haskell-singletons_2.6-1.debian.tar.xz
+Homepage: https://www.github.com/goldfirere/singletons
+Package-List: 
+ libghc-singletons-dev deb haskell optional arch=any
+ libghc-singletons-doc deb doc optional arch=all
+ libghc-singletons-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-singletons
+Priority: extra
+Section: misc

@@ -1,0 +1,33 @@
+Package: qtserialbus-everywhere-src
+Binary: libqt5serialbus5, libqt5serialbus5-bin, libqt5serialbus5-plugins, libqt5serialbus5-dev, qtserialbus5-examples, qtserialbus5-doc, qtserialbus5-doc-html
+Version: 5.15.2-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Simon Quigley <tsimonq2@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Scarlett Moore <sgmoore@kde.org>
+Build-Depends: debhelper-compat (= 13), libqt5serialport5-dev (>= 5.15.2~), linux-libc-dev [linux-any], pkg-kde-tools, qtbase5-dev (>= 5.15.2+dfsg~), qtbase5-private-dev (>= 5.15.2+dfsg~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>
+Build-Conflicts: cmake <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b45fe980113e7091ac06b3385c0424b3 3041 qtserialbus-everywhere-src_5.15.2-2.dsc
+ 1e55c59d7c16c6d43c08bbaa8094007a 356360 qtserialbus-everywhere-src_5.15.2.orig.tar.xz
+ 0b108bb363ac81087b8793e444db2bba 7268 qtserialbus-everywhere-src_5.15.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtserialbus
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtserialbus.git
+Checksums-Sha256:
+ 9bc5064350ed58fc932f61a3fdd5ec81a5c7682bde753c85fb6aa0fe086cd14e 3041 qtserialbus-everywhere-src_5.15.2-2.dsc
+ aeeb7e5c0d3f8503215b22e1a84c0002ca67cf63862f6e3c6ef44a67ca31bd88 356360 qtserialbus-everywhere-src_5.15.2.orig.tar.xz
+ e566e8c20c626445349cda1d3aa55d8c2db9cceedbe109d0437f046d419dc072 7268 qtserialbus-everywhere-src_5.15.2-2.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtserialbus-index.html
+Package-List: 
+ libqt5serialbus5 deb libs optional arch=any
+ libqt5serialbus5-bin deb utils optional arch=linux-any
+ libqt5serialbus5-dev deb libdevel optional arch=any
+ libqt5serialbus5-plugins deb libs optional arch=any
+ qtserialbus5-doc deb doc optional arch=all profile=!nodoc
+ qtserialbus5-doc-html deb doc optional arch=all profile=!nodoc
+ qtserialbus5-examples deb x11 optional arch=linux-any
+Directory: pool/main/q/qtserialbus-everywhere-src
+Priority: extra
+Section: misc

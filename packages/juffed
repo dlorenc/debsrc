@@ -1,0 +1,27 @@
+Package: juffed
+Binary: juffed, juffed-dev, juffed-plugins
+Version: 0.10-89-g3690b60-5
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>, ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Build-Depends: debhelper (>= 11~), cmake, libenca-dev, libqscintilla2-qt5-dev, pkg-config, qttools5-dev, qttools5-dev-tools
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 12a9ac40cc83524667f8c41041bcf4bb 1841 juffed_0.10-89-g3690b60-5.dsc
+ cb5005e12d66557138bac431dfc024b8 647376 juffed_0.10-89-g3690b60.orig.tar.xz
+ 791a6a4b5c95fcd38c8270aa853ca21d 9588 juffed_0.10-89-g3690b60-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lxqt-team/juffed
+Vcs-Git: https://salsa.debian.org/lxqt-team/juffed.git
+Checksums-Sha256:
+ ad66df84011aa0ac464c016acad80b54b2cba7449d63e4644a5e55f358e78b3f 1841 juffed_0.10-89-g3690b60-5.dsc
+ f3d504628586565d4546b70d9a339768b7eb208bfc4377f7dc5160c2528bb533 647376 juffed_0.10-89-g3690b60.orig.tar.xz
+ fba3ad25f83db1fcc2be1b2ede04573fc73980ab223cc250485e3b1a92199b33 9588 juffed_0.10-89-g3690b60-5.debian.tar.xz
+Homepage: http://juffed.com
+Package-List: 
+ juffed deb editors optional arch=any
+ juffed-dev deb devel optional arch=any
+ juffed-plugins deb editors optional arch=any
+Directory: pool/main/j/juffed
+Priority: source
+Section: editors

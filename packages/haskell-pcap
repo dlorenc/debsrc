@@ -1,0 +1,28 @@
+Package: haskell-pcap
+Binary: libghc-pcap-dev, libghc-pcap-prof, libghc-pcap-doc
+Version: 0.4.5.2-14
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-network-dev, libghc-network-prof, libpcap0.8-dev
+Build-Depends-Indep: ghc-doc, libghc-network-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 546a0193385c3161de11674c098aa9a7 2332 haskell-pcap_0.4.5.2-14.dsc
+ 492b7ecc53d0ac3599845ab8ac553997 49414 haskell-pcap_0.4.5.2.orig.tar.gz
+ bf6e38d395ebe610f7d2cdb1826faacb 3012 haskell-pcap_0.4.5.2-14.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-pcap
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-pcap]
+Checksums-Sha256:
+ 25abed58e90faeac6ac97cfc075cdc609220fd3043ada85fed597acf77c64da6 2332 haskell-pcap_0.4.5.2-14.dsc
+ e7e92e6ff4bffa22102335a38dabb97fd0771fdf3b75d45cd7c1708c85e1cd5f 49414 haskell-pcap_0.4.5.2.orig.tar.gz
+ 66e03b3c980a1f27636ea3901aa5142af1d4faf7f3940af95ab3eb1f565b2dec 3012 haskell-pcap_0.4.5.2-14.debian.tar.xz
+Homepage: https://github.com/bos/pcap
+Package-List: 
+ libghc-pcap-dev deb haskell optional arch=any
+ libghc-pcap-doc deb doc optional arch=all
+ libghc-pcap-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-pcap
+Priority: source
+Section: misc

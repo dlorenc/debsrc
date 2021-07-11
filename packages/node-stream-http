@@ -1,0 +1,26 @@
+Package: node-stream-http
+Binary: node-stream-http
+Version: 3.1.1+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-builtin-status-codes <!nocheck>, node-inherits <!nocheck>, node-readable-stream (>= 3.0.6) <!nocheck>, node-tap (>= 10) <!nocheck>, node-tape <!nocheck>, node-to-arraybuffer <!nocheck>, node-xtend <!nocheck>, nodejs (>= 6)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4bce2f78ad0713d1238d411bceb79c03 2335 node-stream-http_3.1.1+dfsg-1.dsc
+ eaed81ee5edcf77109075b4d47781809 14604 node-stream-http_3.1.1+dfsg.orig.tar.xz
+ 84f2b981b6c9e30e1604a6d89ea50489 4156 node-stream-http_3.1.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-stream-http
+Vcs-Git: https://salsa.debian.org/js-team/node-stream-http.git
+Checksums-Sha256:
+ 5a7380f88ecf730ab71b86b21e68aa3a937ab9ad3a02b5e165e0ca011f879fce 2335 node-stream-http_3.1.1+dfsg-1.dsc
+ 810a2019d270e29f646194ffcc1b35f1a0a4f6e23bb5ca8fd19888dacc539af1 14604 node-stream-http_3.1.1+dfsg.orig.tar.xz
+ 6e95c87d738ec7e8fd5b06a0b8f1dc002c6395e365915a43c0a5cc9c059913b1 4156 node-stream-http_3.1.1+dfsg-1.debian.tar.xz
+Homepage: https://github.com/jhiesey/stream-http#readme
+Package-List: 
+ node-stream-http deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-stream-http
+Priority: optional
+Section: javascript

@@ -1,0 +1,27 @@
+Package: python-idna
+Binary: python3-idna
+Version: 2.10-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Tristan Seligmann <mithrandi@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 95d4afa20920e22efe4669ebd7ddf8c1 2113 python-idna_2.10-1.dsc
+ 7a910c706db30d758f377db2762c0f9a 175616 python-idna_2.10.orig.tar.gz
+ c6df13081c16946228934a034e988fdb 4756 python-idna_2.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-idna
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-idna.git
+Checksums-Sha256:
+ c4350a0573ae2c1f1c32c33a2119ca6e497b839692ebcaaa6046d76357b2d56c 2113 python-idna_2.10-1.dsc
+ b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6 175616 python-idna_2.10.orig.tar.gz
+ e2b5c6225ade51710ea21718a9b16bba632e235c4803c0daa5c3a9d7cfb6f541 4756 python-idna_2.10-1.debian.tar.xz
+Homepage: https://github.com/kjd/idna
+Package-List: 
+ python3-idna deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-idna
+Priority: optional
+Section: misc

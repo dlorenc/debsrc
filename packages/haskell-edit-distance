@@ -1,0 +1,28 @@
+Package: haskell-edit-distance
+Binary: libghc-edit-distance-dev, libghc-edit-distance-prof, libghc-edit-distance-doc
+Version: 0.2.2.1-11
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-random-dev (>= 1.0), libghc-random-prof, libghc-test-framework-dev (>= 0.1.1), libghc-quickcheck2-dev (>= 2.4), libghc-quickcheck2-dev (<< 2.14), libghc-test-framework-quickcheck2-dev
+Build-Depends-Indep: ghc-doc, libghc-random-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1dc64971ea650ae9a6ad10556e03aaa3 2611 haskell-edit-distance_0.2.2.1-11.dsc
+ aaa8d57fdce8afc1e2579d96f4d6eb58 13228 haskell-edit-distance_0.2.2.1.orig.tar.gz
+ 9eb34f5c841c60a4a72f06bc20ce58a0 3712 haskell-edit-distance_0.2.2.1-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-edit-distance
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-edit-distance]
+Checksums-Sha256:
+ 7dfa03a1133d0e6cf6032eab08d898968d1f8015cf21e1d9588b0219cb5b15bf 2611 haskell-edit-distance_0.2.2.1-11.dsc
+ 3e8885ee2f56ad4da940f043ae8f981ee2fe336b5e8e4ba3f7436cff4f526c4a 13228 haskell-edit-distance_0.2.2.1.orig.tar.gz
+ 0b512298be9b531e51523912c83d10903bcff1138da35b1ffe9b7e717d07166c 3712 haskell-edit-distance_0.2.2.1-11.debian.tar.xz
+Homepage: https://github.com/phadej/edit-distance
+Package-List: 
+ libghc-edit-distance-dev deb haskell optional arch=any
+ libghc-edit-distance-doc deb doc optional arch=all
+ libghc-edit-distance-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-edit-distance
+Priority: source
+Section: haskell

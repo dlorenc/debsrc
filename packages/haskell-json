@@ -1,0 +1,28 @@
+Package: haskell-json
+Binary: libghc-json-dev, libghc-json-prof, libghc-json-doc
+Version: 0.10-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Erik de Castro Lopo <erikd@mega-nerd.com>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-syb-dev (>= 0.3.3), libghc-syb-prof
+Build-Depends-Indep: ghc-doc, libghc-syb-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ f798822d8b8bfe37d27f497bc5fdbafe 2317 haskell-json_0.10-1.dsc
+ a30006f2e673b29852be7c001cfc2bfa 22622 haskell-json_0.10.orig.tar.gz
+ d14091fef0373b1e6d3a4b279c41e539 3740 haskell-json_0.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-json
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-json]
+Checksums-Sha256:
+ 8440aaf070a0fceea63a3bdd8f1780e9b411d4580b22cf2fc473d537922b9dd2 2317 haskell-json_0.10-1.dsc
+ 0c046a3c03c9332816d3c9e50319b1d1eb3c2c1baba1123a7650d047b26856ba 22622 haskell-json_0.10.orig.tar.gz
+ 985b36efb38f7792f77de0d0cdd5bb3d0dcbd949284c1582e7d615bb559d8e4a 3740 haskell-json_0.10-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/json
+Package-List: 
+ libghc-json-dev deb haskell optional arch=any
+ libghc-json-doc deb doc optional arch=all
+ libghc-json-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-json
+Priority: source
+Section: haskell

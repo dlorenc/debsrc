@@ -1,0 +1,27 @@
+Package: golang-github-soniah-dnsmadeeasy
+Binary: golang-github-soniah-dnsmadeeasy-dev
+Version: 1.1+git20150117.5578a8c-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-imdario-mergo-dev, golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4378b33379560c1913e9ecec69e912f5 2626 golang-github-soniah-dnsmadeeasy_1.1+git20150117.5578a8c-2.dsc
+ 1853c442054393aa9de9244b922468f8 11780 golang-github-soniah-dnsmadeeasy_1.1+git20150117.5578a8c.orig.tar.xz
+ 53f323383dcffb7ae4e6100f49f662ff 1904 golang-github-soniah-dnsmadeeasy_1.1+git20150117.5578a8c-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-soniah-dnsmadeeasy
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-soniah-dnsmadeeasy.git
+Checksums-Sha256:
+ f3bbadcebae354d30fb29fa401d16ea8274ce0b394a186d8b33e7c3a8b5df875 2626 golang-github-soniah-dnsmadeeasy_1.1+git20150117.5578a8c-2.dsc
+ 97f5a6d4b589e4b0f3211a6ad521cbc32968141cd73ffd64741f72d3bfed0acb 11780 golang-github-soniah-dnsmadeeasy_1.1+git20150117.5578a8c.orig.tar.xz
+ 6ed6419e03c4398f539e2c0b7ea217360465e120a8fb277b5106a10d388fca8c 1904 golang-github-soniah-dnsmadeeasy_1.1+git20150117.5578a8c-2.debian.tar.xz
+Homepage: https://github.com/soniah/dnsmadeeasy
+Go-Import-Path: github.com/soniah/dnsmadeeasy
+Package-List: 
+ golang-github-soniah-dnsmadeeasy-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-soniah-dnsmadeeasy
+Priority: extra
+Section: golang

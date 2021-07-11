@@ -1,0 +1,27 @@
+Package: ruby-pkg-config
+Binary: ruby-pkg-config
+Version: 1.4.4-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@alioth-lists.debian.net>
+Uploaders: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, libcairo2-dev, ruby-dev, ruby-test-unit
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d5e5135bb10ca6e60298cf513bb5983b 2099 ruby-pkg-config_1.4.4-1.dsc
+ a0b6a569c627a78ac841325f329ce50b 18739 ruby-pkg-config_1.4.4.orig.tar.gz
+ 1d61af7319266617990b3e17dbf41483 4080 ruby-pkg-config_1.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-pkg-config
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-pkg-config.git
+Checksums-Sha256:
+ f58d8fceea8d2c349ef8a306a64c5e5fb78abec30e63c353808d9578f58c465c 2099 ruby-pkg-config_1.4.4-1.dsc
+ 08b1c3a677f223fa9357a7160262bdd3656e8a423d21a4c024aff9280613003b 18739 ruby-pkg-config_1.4.4.orig.tar.gz
+ 942a9096cb1d48883088cd8cd579f140e485a38afd94551ab4a1198caf27fda0 4080 ruby-pkg-config_1.4.4-1.debian.tar.xz
+Homepage: https://github.com/ruby-gnome/pkg-config
+Package-List: 
+ ruby-pkg-config deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-pkg-config
+Priority: source
+Section: ruby

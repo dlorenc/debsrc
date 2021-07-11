@@ -1,0 +1,24 @@
+Package: ca-certificates
+Binary: ca-certificates, ca-certificates-udeb
+Version: 20210119
+Maintainer: Julien Cristau <jcristau@debian.org>
+Build-Depends: debhelper-compat (= 13), po-debconf
+Build-Depends-Indep: python3, openssl
+Architecture: all
+Standards-Version: 4.5.0.2
+Format: 3.0 (native)
+Files:
+ 0fc9d8d512961e7e9d5eab6d463555d8 1868 ca-certificates_20210119.dsc
+ c02582bf9ae338e558617291897615eb 232964 ca-certificates_20210119.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ca-certificates
+Vcs-Git: https://salsa.debian.org/debian/ca-certificates.git
+Checksums-Sha256:
+ 51e5c099ab976f50f4d2f3c5ea0ad49853024cdb3e630322cbd7e02b05a034f4 1868 ca-certificates_20210119.dsc
+ daa3afae563711c30a0586ddae4336e8e3974c2b627faaca404c4e0141b64665 232964 ca-certificates_20210119.tar.xz
+Dgit: 181be7ebd169b4a6fb5d90c3e6dc791e90534144 debian archive/debian/20210119 https://git.dgit.debian.org/ca-certificates
+Package-List: 
+ ca-certificates deb misc optional arch=all
+ ca-certificates-udeb udeb debian-installer optional arch=all
+Directory: pool/main/c/ca-certificates
+Priority: source
+Section: misc

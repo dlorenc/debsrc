@@ -1,0 +1,27 @@
+Package: rust-weedle
+Binary: librust-weedle-dev
+Version: 0.10.0-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-nom-4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 1d9061ba04248c995745da5209fa0649 2184 rust-weedle_0.10.0-3.dsc
+ 1d418405037615bc7c01dce66051efa2 34772 rust-weedle_0.10.0.orig.tar.gz
+ e8f50cafcb144b19dbe76eea43585600 2508 rust-weedle_0.10.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/weedle
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/weedle]
+Checksums-Sha256:
+ 2dd12bb96cb55b034271aa61a998cdf8b15861413cf4b064a394e262b06e3e54 2184 rust-weedle_0.10.0-3.dsc
+ 1905f340cb5bb4da08f67642183c0aad793d736a6444212a130142c6ca66f4bb 34772 rust-weedle_0.10.0.orig.tar.gz
+ 09788e0ddb0e3381dd8174442f862a092e6a459849dd64eec06139d811067878 2508 rust-weedle_0.10.0-3.debian.tar.xz
+Homepage: https://github.com/rustwasm/weedle
+Package-List: 
+ librust-weedle-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-weedle
+Priority: extra
+Section: misc

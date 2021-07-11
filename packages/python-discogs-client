@@ -1,0 +1,27 @@
+Package: python-discogs-client
+Binary: python3-discogs-client
+Version: 2.3.5-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Johannes Tiefenbacher <jt@peek-a-boo.at>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-oauthlib, python3-setuptools, python3-requests
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 64af009fcec951f599d3be9bf59b1f97 2206 python-discogs-client_2.3.5-2.dsc
+ 1dec94ae41f7fea12a93b3534cf95127 32146 python-discogs-client_2.3.5.orig.tar.gz
+ 14f1e0e2e0334f912c53eae26adbccb0 3784 python-discogs-client_2.3.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-discogs-client
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-discogs-client.git
+Checksums-Sha256:
+ c1839bd88a98d90de69aa8b40b2cb5a65ecb1cf3643bf9ede90ef9b4cdef7bd3 2206 python-discogs-client_2.3.5-2.dsc
+ 7d6cf98fb835ef3bba3861554f80a67cf1e60243d442c9f0b0cea9f7c50f0e6f 32146 python-discogs-client_2.3.5.orig.tar.gz
+ b9b829519f4b4f3760f291b140d9e0ecfa9256560e89fb0c60477c68775d6c8b 3784 python-discogs-client_2.3.5-2.debian.tar.xz
+Homepage: https://github.com/joalla/discogs_client
+Package-List: 
+ python3-discogs-client deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-discogs-client
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: golang-github-cloudflare-redoctober
+Binary: golang-github-cloudflare-redoctober-dev, golang-redoctober
+Version: 0.0~git20161017.0.78e9720-5
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-coreos-go-systemd-dev (>= 17~), golang-github-prometheus-client-golang-dev, golang-golang-x-crypto-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 743ec0ab3655ed0de14b0f164f8de056 2063 golang-github-cloudflare-redoctober_0.0~git20161017.0.78e9720-5.dsc
+ 42368f82e80b6b2b16302829b2f1b293 68716 golang-github-cloudflare-redoctober_0.0~git20161017.0.78e9720.orig.tar.xz
+ e1e41fa25cf818c4a472fe1d109d6735 4364 golang-github-cloudflare-redoctober_0.0~git20161017.0.78e9720-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-cloudflare-redoctober
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-cloudflare-redoctober.git
+Checksums-Sha256:
+ f27088048ecd679672cf3b691b256b6b3871f3b826fc61b459acaffb7f974820 2063 golang-github-cloudflare-redoctober_0.0~git20161017.0.78e9720-5.dsc
+ 588e787667391d8ba4f8bc5435c3f6d41a831a6b2c092a08dfc2fdde497a7a71 68716 golang-github-cloudflare-redoctober_0.0~git20161017.0.78e9720.orig.tar.xz
+ 8bc9eb987ea74aaf6f0ef994fa0cf2526a5bbc8f85d881c2fd98a6e0bf469a8c 4364 golang-github-cloudflare-redoctober_0.0~git20161017.0.78e9720-5.debian.tar.xz
+Homepage: https://github.com/cloudflare/redoctober
+Go-Import-Path: github.com/cloudflare/redoctober
+Package-List: 
+ golang-github-cloudflare-redoctober-dev deb golang optional arch=all
+ golang-redoctober deb golang optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-cloudflare-redoctober
+Priority: extra
+Section: golang

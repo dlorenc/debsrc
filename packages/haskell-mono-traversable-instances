@@ -1,0 +1,28 @@
+Package: haskell-mono-traversable-instances
+Binary: libghc-mono-traversable-instances-dev, libghc-mono-traversable-instances-prof, libghc-mono-traversable-instances-doc
+Version: 0.1.1.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-comonad-dev (>= 3.0.3), libghc-comonad-prof, libghc-dlist-dev (>= 0.6), libghc-dlist-dev (<< 1.1), libghc-dlist-prof, libghc-dlist-instances-dev (>= 0.1), libghc-dlist-instances-dev (<< 0.2), libghc-dlist-instances-prof, libghc-mono-traversable-dev (<< 1.1), libghc-mono-traversable-dev (>= 1.0), libghc-mono-traversable-prof, libghc-semigroupoids-dev (>= 3.0), libghc-semigroupoids-prof, libghc-semigroups-dev, libghc-semigroups-prof, libghc-vector-instances-dev, libghc-vector-instances-prof
+Build-Depends-Indep: ghc-doc, libghc-comonad-doc, libghc-dlist-doc, libghc-dlist-instances-doc, libghc-mono-traversable-doc, libghc-semigroupoids-doc, libghc-semigroups-doc, libghc-vector-instances-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 786a73ecb10b8b161e23d222233f5e13 3274 haskell-mono-traversable-instances_0.1.1.0-1.dsc
+ f308bf9930fc0c98a68c02e1578726b4 2724 haskell-mono-traversable-instances_0.1.1.0.orig.tar.gz
+ 1af0a996dcfff9f83be86a08abffd5cc 2428 haskell-mono-traversable-instances_0.1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-mono-traversable-instances
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-mono-traversable-instances]
+Checksums-Sha256:
+ eabcdba96a2594ef5be8bb4ae9a55563285327ff78e6c374e7560c11346b2b84 3274 haskell-mono-traversable-instances_0.1.1.0-1.dsc
+ ebc1ac7835e077473f524985feed6eb0fd90b849be5cd1eba10b7c471bfad3ba 2724 haskell-mono-traversable-instances_0.1.1.0.orig.tar.gz
+ 495d1574881d712c3f4e8c76e5719674a4693d10879b490b8fe23f91e769bb04 2428 haskell-mono-traversable-instances_0.1.1.0-1.debian.tar.xz
+Homepage: https://github.com/snoyberg/mono-traversable
+Package-List: 
+ libghc-mono-traversable-instances-dev deb haskell optional arch=any
+ libghc-mono-traversable-instances-doc deb doc optional arch=all
+ libghc-mono-traversable-instances-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-mono-traversable-instances
+Priority: optional
+Section: misc

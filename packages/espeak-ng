@@ -1,0 +1,33 @@
+Package: espeak-ng
+Binary: espeak-ng, espeak-ng-espeak, espeak-ng-data, espeak-ng-data-udeb, libespeak-ng1, libespeak-ng-libespeak1, libespeak-ng-dev, libespeak-ng-libespeak-dev
+Version: 1.50+dfsg-7
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec, libpcaudio-dev, libsonic-dev, ronn, kramdown
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cd82f40a3a98010762b05bde7a0cc8ac 2539 espeak-ng_1.50+dfsg-7.dsc
+ f5b0c46e7666d7a5e7e13e7fda3783fe 19074575 espeak-ng_1.50+dfsg.orig.tar.gz
+ 1e9157f5bd7b47ff10ecc4645e1b95e3 61284 espeak-ng_1.50+dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/espeak-ng
+Vcs-Git: https://salsa.debian.org/a11y-team/espeak-ng.git
+Checksums-Sha256:
+ 4b61df75026321897211aadfa9439f02cba4d826ea0e977183e53c54cffa3b07 2539 espeak-ng_1.50+dfsg-7.dsc
+ 1a568d801715cb88c7f30952a0b612b5a475bcd10e02bc748aaa42a1f4ae4431 19074575 espeak-ng_1.50+dfsg.orig.tar.gz
+ 21fda3848bef45886c9283b36a399b4ceaa45cce58d8ca96ed9eb1ec1813bb88 61284 espeak-ng_1.50+dfsg-7.debian.tar.xz
+Homepage: https://github.com/espeak-ng/espeak-ng
+Package-List: 
+ espeak-ng deb sound optional arch=any
+ espeak-ng-data deb sound optional arch=any
+ espeak-ng-data-udeb udeb debian-installer optional arch=any
+ espeak-ng-espeak deb sound optional arch=all
+ libespeak-ng-dev deb libdevel optional arch=any
+ libespeak-ng-libespeak-dev deb libdevel optional arch=any
+ libespeak-ng-libespeak1 deb libs optional arch=any
+ libespeak-ng1 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/e/espeak-ng
+Priority: optional
+Section: misc

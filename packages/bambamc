@@ -1,0 +1,26 @@
+Package: bambamc
+Binary: libbambamc0, libbambamc-dev
+Version: 0.0.50-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, German Tischler <gt1@sanger.ac.uk>, Roland Fehrenbacher <rf@q-leap.de>
+Build-Depends: debhelper-compat (= 13), d-shlibs, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f69b0eb8cbf6159c8257d586fbbcea5b 2099 bambamc_0.0.50-4.dsc
+ d79e11cefcb28c57d71586f6b4103134 63943 bambamc_0.0.50.orig.tar.gz
+ 8714b4cd3d6d2209f090854c3a6a3504 2548 bambamc_0.0.50-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/bambamc
+Vcs-Git: https://salsa.debian.org/med-team/bambamc.git
+Checksums-Sha256:
+ 11f7b4d7a4b08342afa39f6573839df244bf66613b5ad24456f0a6a318aae8c5 2099 bambamc_0.0.50-4.dsc
+ f1ca5b35ce115c3aa3a3630228293cab333d239b26476b271a056f038abdc7a5 63943 bambamc_0.0.50.orig.tar.gz
+ 4adfcaef28e2553009f429809bbf0f786272bcfe59fd9053bfef97c6f9be0b8c 2548 bambamc_0.0.50-4.debian.tar.xz
+Homepage: https://github.com/gt1/bambamc
+Package-List: 
+ libbambamc-dev deb libdevel optional arch=any
+ libbambamc0 deb libs optional arch=any
+Directory: pool/main/b/bambamc
+Priority: optional
+Section: misc

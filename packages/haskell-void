@@ -1,0 +1,28 @@
+Package: haskell-void
+Binary: libghc-void-dev, libghc-void-prof, libghc-void-doc
+Version: 0.7.3-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iulian Udrea <iulian@linux.com>, Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4af23f00a04504cceeaa8af7d20213c4 2267 haskell-void_0.7.3-2.dsc
+ 62eb3c78a01d7545551f7961ec5f2340 6741 haskell-void_0.7.3.orig.tar.gz
+ b89340bea51d9e90fbb74adc3b8ea6d5 3016 haskell-void_0.7.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-void
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-void]
+Checksums-Sha256:
+ c9233508c1bcb6b4cb3e5c9933faffb82c22a901aa38d3137a78bc978332de8e 2267 haskell-void_0.7.3-2.dsc
+ 53af758ddc37dc63981671e503438d02c6f64a2d8744e9bec557a894431f7317 6741 haskell-void_0.7.3.orig.tar.gz
+ d13aea7708b8c8ced59c244efb6ed2cefed8c3dcebc10ed23ae2dccc745e08d5 3016 haskell-void_0.7.3-2.debian.tar.xz
+Homepage: http://github.com/ekmett/void
+Package-List: 
+ libghc-void-dev deb haskell optional arch=any
+ libghc-void-doc deb doc optional arch=all
+ libghc-void-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-void
+Priority: source
+Section: haskell

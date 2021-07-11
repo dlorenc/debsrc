@@ -1,0 +1,25 @@
+Package: yara-python
+Binary: python3-yara
+Version: 4.0.4-1
+Maintainer: Hilko Bengen <bengen@debian.org>
+Uploaders: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Build-Depends: debhelper (>= 12~), dh-python, python3-all-dev, python3-setuptools, libyara-dev (>= 4)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ce4271dffc8c1a64c530a389d354a473 2017 yara-python_4.0.4-1.dsc
+ 8ba3ef5464cfb45e1ae95aaa83f35b82 32293 yara-python_4.0.4.orig.tar.gz
+ 57e5687d574af3bdabf7841ef3905a2c 3228 yara-python_4.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/yara-python
+Vcs-Git: https://salsa.debian.org/pkg-security-team/yara-python.git
+Checksums-Sha256:
+ fa27ba0f996fb3c4c7652a3526423f2447a7a756211249f8d575a460ae0044a4 2017 yara-python_4.0.4-1.dsc
+ 5fa5eb71311e306aa389931d2b7dac6cc71979a4c5c3d62e368717630aafa063 32293 yara-python_4.0.4.orig.tar.gz
+ 358ac1dd332db6c67c6dd46d19cff9ab52c17723235ccbb4d4f125730400828c 3228 yara-python_4.0.4-1.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/yara-python
+Package-List: 
+ python3-yara deb python optional arch=any
+Directory: pool/main/y/yara-python
+Priority: optional
+Section: misc

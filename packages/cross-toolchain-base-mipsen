@@ -1,0 +1,109 @@
+Package: cross-toolchain-base-mipsen
+Binary: linux-libc-dev-mips-cross, linux-libc-dev-mips64-cross, linux-libc-dev-mips64el-cross, linux-libc-dev-mips64r6-cross, linux-libc-dev-mips64r6el-cross, linux-libc-dev-mipsel-cross, linux-libc-dev-mipsn32-cross, linux-libc-dev-mipsn32el-cross, linux-libc-dev-mipsn32r6-cross, linux-libc-dev-mipsn32r6el-cross, linux-libc-dev-mipsr6-cross, linux-libc-dev-mipsr6el-cross, libc6-mips-cross, libc6-dev-mips-cross, libc6-mips64-cross, libc6-dev-mips64-cross, libc6-mips64el-cross, libc6-dev-mips64el-cross, libc6-mips64r6-cross, libc6-dev-mips64r6-cross, libc6-mips64r6el-cross, libc6-dev-mips64r6el-cross, libc6-mipsel-cross, libc6-dev-mipsel-cross, libc6-mipsn32-cross, libc6-dev-mipsn32-cross, libc6-mipsn32el-cross, libc6-dev-mipsn32el-cross, libc6-mipsn32r6-cross, libc6-dev-mipsn32r6-cross, libc6-mipsn32r6el-cross, libc6-dev-mipsn32r6el-cross, libc6-mipsr6-cross, libc6-dev-mipsr6-cross, libc6-mipsr6el-cross, libc6-dev-mipsr6el-cross, libc6-mips64-mips-cross,
+ libc6-dev-mips64-mips-cross, libc6-mipsn32-mips-cross, libc6-dev-mipsn32-mips-cross, libc6-mips64-mipsel-cross, libc6-dev-mips64-mipsel-cross, libc6-mipsn32-mipsel-cross, libc6-dev-mipsn32-mipsel-cross, libc6-mips64-mipsn32-cross, libc6-dev-mips64-mipsn32-cross, libc6-mips32-mipsn32-cross, libc6-dev-mips32-mipsn32-cross, libc6-mips64-mipsn32el-cross, libc6-dev-mips64-mipsn32el-cross, libc6-mips32-mipsn32el-cross, libc6-dev-mips32-mipsn32el-cross, libc6-mips32-mips64-cross, libc6-dev-mips32-mips64-cross, libc6-mipsn32-mips64-cross, libc6-dev-mipsn32-mips64-cross, libc6-mips32-mips64el-cross, libc6-dev-mips32-mips64el-cross, libc6-mipsn32-mips64el-cross, libc6-dev-mipsn32-mips64el-cross, libc6-mips64-mipsr6-cross, libc6-dev-mips64-mipsr6-cross, libc6-mipsn32-mipsr6-cross, libc6-dev-mipsn32-mipsr6-cross, libc6-mips64-mipsr6el-cross, libc6-dev-mips64-mipsr6el-cross, libc6-mipsn32-mipsr6el-cross, libc6-dev-mipsn32-mipsr6el-cross, libc6-mips64-mipsn32r6-cross,
+ libc6-dev-mips64-mipsn32r6-cross, libc6-mips32-mipsn32r6-cross, libc6-dev-mips32-mipsn32r6-cross, libc6-mips64-mipsn32r6el-cross, libc6-dev-mips64-mipsn32r6el-cross, libc6-mips32-mipsn32r6el-cross, libc6-dev-mips32-mipsn32r6el-cross, libc6-mips32-mips64r6-cross, libc6-dev-mips32-mips64r6-cross, libc6-mipsn32-mips64r6-cross, libc6-dev-mipsn32-mips64r6-cross, libc6-mips32-mips64r6el-cross, libc6-dev-mips32-mips64r6el-cross, libc6-mipsn32-mips64r6el-cross,
+ libc6-dev-mipsn32-mips64r6el-cross
+Version: 15
+Maintainer: Cross Toolchain Base Team <cross-toolchain-base-devs@lists.launchpad.net>
+Uploaders: Matthias Klose <doko@debian.org>, Dimitri John Ledkov <xnox@debian.org>, YunQiang Su <syq@debian.org>
+Build-Depends: binutils-multiarch, dpkg (>= 1.16.0~ubuntu6), rdfind, symlinks, lsb-release, binutils-source (>= 2.35.2-2~), glibc-source (>= 2.31-9~), gcc-10-source (>= 10.2.1-6~), linux-source (>= 5.10.13), linux-libc-dev (>= 5.10.13), autoconf (>= 2.69), autoconf2.69, autogen, automake, bison (>= 1:2.3), chrpath, debhelper (>= 9), dpkg-dev (>= 1.15.3.1), fakeroot, file, flex, dwz, debugedit (>= 4.16), gawk, gettext, gperf (>= 3.0.1), kernel-wedge (>= 2.24), libisl-dev, libmpc-dev, libelf-dev, libmpfr-dev (>= 2.3.0), rsync, xmlto, libtool, lzma, m4, make (>= 3.81), kmod | module-init-tools, patchutils, procps, quilt, coreutils (>= 2.26) | realpath (>= 1.9.12), sed (>= 4.0.5-4), sharutils, tar (>= 1.22), xz-utils, asciidoc, texinfo, cpio, python3, bc, time, libconfig-auto-perl, libfile-temp-perl, libfile-homedir-perl, liblocale-gettext-perl, libunwind-dev [amd64 i386 x32]
+Build-Conflicts: binutils-mips-linux-gnu [!mips], binutils-mips64-linux-gnuabi64 [!mips64], binutils-mips64-linux-gnuabin32 [!mipsn32], binutils-mips64el-linux-gnuabi64 [!mips64el], binutils-mips64el-linux-gnuabin32 [!mipsn32el], binutils-mipsel-linux-gnu [!mipsel], binutils-mipsisa32r6-linux-gnu [!mipsr6], binutils-mipsisa32r6el-linux-gnu [!mipsr6el], binutils-mipsisa64r6-linux-gnuabi64 [!mips64r6], binutils-mipsisa64r6-linux-gnuabin32 [!mipsn32r6], binutils-mipsisa64r6el-linux-gnuabi64 [!mips64r6el], binutils-mipsisa64r6el-linux-gnuabin32 [!mipsn32r6el], dpkg-cross, libc6-amd64 [i386 x32], libc6-i386 [amd64 x32], libc6-mips-cross, libc6-mips64-cross, libc6-mips64el-cross, libc6-mips64r6-cross, libc6-mips64r6el-cross, libc6-mipsel-cross, libc6-mipsn32-cross, libc6-mipsn32el-cross, libc6-mipsn32r6-cross, libc6-mipsn32r6el-cross, libc6-mipsr6-cross, libc6-mipsr6el-cross, libc6-x32 [amd64 i386], libdebian-dpkgcross-perl, linux-libc-dev-mips-cross, linux-libc-dev-mips64-cross, linux-libc-dev-mips64el-cross, linux-libc-dev-mips64r6-cross, linux-libc-dev-mips64r6el-cross, linux-libc-dev-mipsel-cross, linux-libc-dev-mipsn32-cross, linux-libc-dev-mipsn32el-cross, linux-libc-dev-mipsn32r6-cross, linux-libc-dev-mipsn32r6el-cross, linux-libc-dev-mipsr6-cross, linux-libc-dev-mipsr6el-cross
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 277a78702274dcaf449072896efbd409 11159 cross-toolchain-base-mipsen_15.dsc
+ 7065f324c363847a027fd78671c617e3 42748 cross-toolchain-base-mipsen_15.tar.xz
+Vcs-Browser: https://salsa.debian.org/toolchain-team/cross-toolchain-base
+Vcs-Git: https://salsa.debian.org/toolchain-team/cross-toolchain-base.git
+Checksums-Sha256:
+ ff6f240b81617b7fc7762fc965daacabcd23195590f0dfa37da0ab2de6db755f 11159 cross-toolchain-base-mipsen_15.dsc
+ 7bb53d7651d34d72bd125173b0b29a9c89aa6211ee5d582de531b34d88fe268d 42748 cross-toolchain-base-mipsen_15.tar.xz
+Package-List: 
+ libc6-dev-mips-cross deb libdevel optional arch=all
+ libc6-dev-mips32-mips64-cross deb libdevel optional arch=all
+ libc6-dev-mips32-mips64el-cross deb libdevel optional arch=all
+ libc6-dev-mips32-mips64r6-cross deb libdevel optional arch=all
+ libc6-dev-mips32-mips64r6el-cross deb libdevel optional arch=all
+ libc6-dev-mips32-mipsn32-cross deb libdevel optional arch=all
+ libc6-dev-mips32-mipsn32el-cross deb libdevel optional arch=all
+ libc6-dev-mips32-mipsn32r6-cross deb libdevel optional arch=all
+ libc6-dev-mips32-mipsn32r6el-cross deb libdevel optional arch=all
+ libc6-dev-mips64-cross deb libdevel optional arch=all
+ libc6-dev-mips64-mips-cross deb libdevel optional arch=all
+ libc6-dev-mips64-mipsel-cross deb libdevel optional arch=all
+ libc6-dev-mips64-mipsn32-cross deb libdevel optional arch=all
+ libc6-dev-mips64-mipsn32el-cross deb libdevel optional arch=all
+ libc6-dev-mips64-mipsn32r6-cross deb libdevel optional arch=all
+ libc6-dev-mips64-mipsn32r6el-cross deb libdevel optional arch=all
+ libc6-dev-mips64-mipsr6-cross deb libdevel optional arch=all
+ libc6-dev-mips64-mipsr6el-cross deb libdevel optional arch=all
+ libc6-dev-mips64el-cross deb libdevel optional arch=all
+ libc6-dev-mips64r6-cross deb libdevel optional arch=all
+ libc6-dev-mips64r6el-cross deb libdevel optional arch=all
+ libc6-dev-mipsel-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-mips-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-mips64-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-mips64el-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-mips64r6-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-mips64r6el-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-mipsel-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-mipsr6-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32-mipsr6el-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32el-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32r6-cross deb libdevel optional arch=all
+ libc6-dev-mipsn32r6el-cross deb libdevel optional arch=all
+ libc6-dev-mipsr6-cross deb libdevel optional arch=all
+ libc6-dev-mipsr6el-cross deb libdevel optional arch=all
+ libc6-mips-cross deb libs optional arch=all
+ libc6-mips32-mips64-cross deb libs optional arch=all
+ libc6-mips32-mips64el-cross deb libs optional arch=all
+ libc6-mips32-mips64r6-cross deb libs optional arch=all
+ libc6-mips32-mips64r6el-cross deb libs optional arch=all
+ libc6-mips32-mipsn32-cross deb libs optional arch=all
+ libc6-mips32-mipsn32el-cross deb libs optional arch=all
+ libc6-mips32-mipsn32r6-cross deb libs optional arch=all
+ libc6-mips32-mipsn32r6el-cross deb libs optional arch=all
+ libc6-mips64-cross deb libs optional arch=all
+ libc6-mips64-mips-cross deb libs optional arch=all
+ libc6-mips64-mipsel-cross deb libs optional arch=all
+ libc6-mips64-mipsn32-cross deb libs optional arch=all
+ libc6-mips64-mipsn32el-cross deb libs optional arch=all
+ libc6-mips64-mipsn32r6-cross deb libs optional arch=all
+ libc6-mips64-mipsn32r6el-cross deb libs optional arch=all
+ libc6-mips64-mipsr6-cross deb libs optional arch=all
+ libc6-mips64-mipsr6el-cross deb libs optional arch=all
+ libc6-mips64el-cross deb libs optional arch=all
+ libc6-mips64r6-cross deb libs optional arch=all
+ libc6-mips64r6el-cross deb libs optional arch=all
+ libc6-mipsel-cross deb libs optional arch=all
+ libc6-mipsn32-cross deb libs optional arch=all
+ libc6-mipsn32-mips-cross deb libs optional arch=all
+ libc6-mipsn32-mips64-cross deb libs optional arch=all
+ libc6-mipsn32-mips64el-cross deb libs optional arch=all
+ libc6-mipsn32-mips64r6-cross deb libs optional arch=all
+ libc6-mipsn32-mips64r6el-cross deb libs optional arch=all
+ libc6-mipsn32-mipsel-cross deb libs optional arch=all
+ libc6-mipsn32-mipsr6-cross deb libs optional arch=all
+ libc6-mipsn32-mipsr6el-cross deb libs optional arch=all
+ libc6-mipsn32el-cross deb libs optional arch=all
+ libc6-mipsn32r6-cross deb libs optional arch=all
+ libc6-mipsn32r6el-cross deb libs optional arch=all
+ libc6-mipsr6-cross deb libs optional arch=all
+ libc6-mipsr6el-cross deb libs optional arch=all
+ linux-libc-dev-mips-cross deb devel optional arch=all
+ linux-libc-dev-mips64-cross deb devel optional arch=all
+ linux-libc-dev-mips64el-cross deb devel optional arch=all
+ linux-libc-dev-mips64r6-cross deb devel optional arch=all
+ linux-libc-dev-mips64r6el-cross deb devel optional arch=all
+ linux-libc-dev-mipsel-cross deb devel optional arch=all
+ linux-libc-dev-mipsn32-cross deb devel optional arch=all
+ linux-libc-dev-mipsn32el-cross deb devel optional arch=all
+ linux-libc-dev-mipsn32r6-cross deb devel optional arch=all
+ linux-libc-dev-mipsn32r6el-cross deb devel optional arch=all
+ linux-libc-dev-mipsr6-cross deb devel optional arch=all
+ linux-libc-dev-mipsr6el-cross deb devel optional arch=all
+Directory: pool/main/c/cross-toolchain-base-mipsen
+Priority: extra
+Section: misc

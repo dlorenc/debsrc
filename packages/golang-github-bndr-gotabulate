@@ -1,0 +1,27 @@
+Package: golang-github-bndr-gotabulate
+Binary: golang-github-bndr-gotabulate-dev
+Version: 1.1.2-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Taowa Munene-Tardif <taowa@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-mattn-go-runewidth-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1c5d62c39ffce83d4abb0862d007f02a 2481 golang-github-bndr-gotabulate_1.1.2-2.dsc
+ 727461a9d3a9e10a6a828c6d860016d6 12958 golang-github-bndr-gotabulate_1.1.2.orig.tar.gz
+ 2ebe2bbe6bf4a09e607fd40be4c82388 2316 golang-github-bndr-gotabulate_1.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-bndr-gotabulate
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-bndr-gotabulate.git
+Checksums-Sha256:
+ 944ef8f01dea93b12eda332d5b0e76301b47ad57d25c0ca43ba7d4a15b561188 2481 golang-github-bndr-gotabulate_1.1.2-2.dsc
+ b5abc33243b0b4632b037248bd67efb1874f2aaf8f8104e5abf5783039c59d27 12958 golang-github-bndr-gotabulate_1.1.2.orig.tar.gz
+ 186e63b582a1954472feda13edd55dc1bfb0014e09bbbc1dea98fa1020e2bed8 2316 golang-github-bndr-gotabulate_1.1.2-2.debian.tar.xz
+Homepage: https://github.com/bndr/gotabulate
+Go-Import-Path: github.com/bndr/gotabulate
+Package-List: 
+ golang-github-bndr-gotabulate-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-bndr-gotabulate
+Priority: extra
+Section: golang

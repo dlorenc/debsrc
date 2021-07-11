@@ -1,0 +1,23 @@
+Package: apt-setup
+Binary: apt-setup-udeb, apt-mirror-setup, apt-cdrom-setup
+Version: 1:0.164
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Steve McIntyre <93sam@debian.org>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.7.0), po-debconf (>= 0.5.0)
+Architecture: any all
+Format: 3.0 (native)
+Files:
+ b2e1d8c7c4bd1800b6665d4ba311e14d 1823 apt-setup_0.164.dsc
+ 0d15e06831385321f57eb86716d4b84e 261904 apt-setup_0.164.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/apt-setup
+Vcs-Git: https://salsa.debian.org/installer-team/apt-setup.git
+Checksums-Sha256:
+ 8d418c21e99a6f4cc0af250fb368f176efb244894c3844834718f6af299026ed 1823 apt-setup_0.164.dsc
+ a7a8a83b5fb0863c27088b1dee347bd2eef0ddd4c043c285c999549172204d54 261904 apt-setup_0.164.tar.xz
+Package-List: 
+ apt-cdrom-setup udeb debian-installer optional arch=all
+ apt-mirror-setup udeb debian-installer optional arch=all
+ apt-setup-udeb udeb debian-installer standard arch=any
+Directory: pool/main/a/apt-setup
+Priority: source
+Section: admin

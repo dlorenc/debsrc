@@ -1,0 +1,26 @@
+Package: python-ldappool
+Binary: python3-ldappool
+Version: 2.3.1-1.1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 10), dh-python, openstack-pkg-tools (>= 75~), python3-all, python3-setuptools, python3-sphinx (>= 1.6.2)
+Build-Depends-Indep: python3-coverage, python3-fixtures, python3-hacking, python3-ldap (>= 3.0.0~b4), python3-stestr, python3-subunit, python3-testresources, python3-testtools (>= 1.4.0), subunit
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 58e07cc5a9059dfe3058da5dc34bdbf6 2308 python-ldappool_2.3.1-1.1.dsc
+ 90bac2f4232c1f854aa1e75ee1e1390b 12688 python-ldappool_2.3.1.orig.tar.xz
+ 968967599a8e9223342d9bbf1d5af14d 3356 python-ldappool_2.3.1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-ldappool
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-ldappool.git
+Checksums-Sha256:
+ 1c6c251f19bafbb5a37f361adf894b28315752e1150e80e8a67375367ee18784 2308 python-ldappool_2.3.1-1.1.dsc
+ ea625af018516d94e63011a0991712787fc933fecafc1814226d1783b58bd38b 12688 python-ldappool_2.3.1.orig.tar.xz
+ c3d26685cb3a8b4bc44ff4894b846e58cb3cfbc855c72e50f0ad8f343fc63afb 3356 python-ldappool_2.3.1-1.1.debian.tar.xz
+Homepage: https://git.openstack.org/cgit/openstack/ldappool
+Package-List: 
+ python3-ldappool deb python optional arch=all
+Directory: pool/main/p/python-ldappool
+Priority: optional
+Section: misc

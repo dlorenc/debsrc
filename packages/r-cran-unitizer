@@ -1,0 +1,27 @@
+Package: r-cran-unitizer
+Binary: r-cran-unitizer
+Version: 1.4.12-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-crayon, r-cran-diffobj
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 07a8c9b17d35f15a14d3c01c4c34ab67 2152 r-cran-unitizer_1.4.12-1.dsc
+ 8265566e0c67c532e8fb4479c894ea24 693207 r-cran-unitizer_1.4.12.orig.tar.gz
+ 8e13f4080d51c9ceadb612e9627bd9c6 2932 r-cran-unitizer_1.4.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-unitizer
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-unitizer.git
+Checksums-Sha256:
+ 17e6beaf55b2022514e95c4df2c0770b22e5199012be21431596ffc54154ac04 2152 r-cran-unitizer_1.4.12-1.dsc
+ 6c742a35147ab06651e9860b2654b1a1e20072de1f7420e49e63d017b2f71b55 693207 r-cran-unitizer_1.4.12.orig.tar.gz
+ 574cb10a893affb4da631d5c68ff52dc5346859b08b4664e920161f0cf97f013 2932 r-cran-unitizer_1.4.12-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=unitizer
+Package-List: 
+ r-cran-unitizer deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-unitizer
+Priority: extra
+Section: misc

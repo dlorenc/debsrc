@@ -1,0 +1,29 @@
+Package: libhtml-mason-perl
+Binary: libhtml-mason-perl, libhtml-mason-perl-doc
+Version: 1:1.59-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ivan Kohler <ivan-debian@420.am>, gregor herrmann <gregoa@debian.org>, Florian Schlichting <fsfs@debian.org>, Xavier Guimard <yadd@debian.org>, Dominic Hargreaves <dom@earth.li>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libapache2-mod-perl2 <!nocheck>, libcache-cache-perl <!nocheck>, libcgi-pm-perl <!nocheck>, libchi-perl <!nocheck>, libclass-container-perl <!nocheck>, libexception-class-perl <!nocheck>, libhtml-parser-perl <!nocheck>, liblog-any-perl <!nocheck>, libparams-validate-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5c5ea1b6a935dfdfba266406d07b3332 2946 libhtml-mason-perl_1.59-1.dsc
+ e9229057cbfb2f104bf2a59848e14580 323661 libhtml-mason-perl_1.59.orig.tar.gz
+ 452907b51a977338d743c47047575f8b 17260 libhtml-mason-perl_1.59-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhtml-mason-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhtml-mason-perl.git
+Checksums-Sha256:
+ f1a9ba60a7aa041be7d1d505e64d27c287a4373a6728be7c82c7b15098777489 2946 libhtml-mason-perl_1.59-1.dsc
+ 95bed2a6c488370046aa314be4b592bd65a6522f8845da8b36a6aff9a8b439d0 323661 libhtml-mason-perl_1.59.orig.tar.gz
+ b6c3bf1475256d46f1f9f67679d1d02e24747346cf9369acd6a8ccc23eab2131 17260 libhtml-mason-perl_1.59-1.debian.tar.xz
+Homepage: http://www.masonhq.com/
+Dgit: 8cdd2d4fb5c0ec46f444201567c37d9b3c1d3d5c debian archive/debian/1%1.59-1 https://git.dgit.debian.org/libhtml-mason-perl
+Package-List: 
+ libhtml-mason-perl deb perl optional arch=all
+ libhtml-mason-perl-doc deb doc optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhtml-mason-perl
+Priority: source
+Section: perl

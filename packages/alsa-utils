@@ -1,0 +1,26 @@
+Package: alsa-utils
+Binary: alsa-utils, alsa-utils-udeb
+Version: 1.2.4-1
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Uploaders: Jordi Mallach <jordi@debian.org>, Elimar Riesebieter <riesebie@lxtec.de>, Luke Yelavich <themuso@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), libasound2-dev (>= 1.2.1), libatopology-dev (>= 1.2.2), libfftw3-dev, libncursesw5-dev, libsamplerate-dev, pkg-config, python3-docutils, systemd, xmlto
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 619d55e92a6a532e92ed48e051c008f3 2250 alsa-utils_1.2.4-1.dsc
+ 39cde1fa4fde9f09366737fb089a9053 1286259 alsa-utils_1.2.4.orig.tar.bz2
+ 8d3a44ec6e68b2873fd4ad797a3af60c 28240 alsa-utils_1.2.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/alsa-team/alsa-utils
+Vcs-Git: https://salsa.debian.org/alsa-team/alsa-utils.git
+Checksums-Sha256:
+ 0d8baa60e493e2ffdb804426be44aba0a24601b45c68f52dd7d597b1bd070cca 2250 alsa-utils_1.2.4-1.dsc
+ 98ffc2d599de0577d423a48fa5f20a992ca0b82d812ed1f2e58ade49ac6da426 1286259 alsa-utils_1.2.4.orig.tar.bz2
+ 5437890a28ccdf39be5326d7726fefd0e79fc658df05da01607ee84257f92e22 28240 alsa-utils_1.2.4-1.debian.tar.xz
+Homepage: https://www.alsa-project.org/
+Package-List: 
+ alsa-utils deb sound optional arch=linux-any
+ alsa-utils-udeb udeb debian-installer optional arch=linux-any
+Directory: pool/main/a/alsa-utils
+Priority: source
+Section: sound

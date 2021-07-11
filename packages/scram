@@ -1,0 +1,26 @@
+Package: scram
+Binary: scram, scram-gui
+Version: 0.16.2-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Olzhas Rakhimov <ol.rakhimov@gmail.com>
+Build-Depends: debhelper-compat (= 13), g++ (>= 4:7.1), cmake (>= 3.8), libxml2-dev, libboost-all-dev (>= 1.61.0), libgoogle-perftools-dev, qtbase5-dev (>= 5.9.1), qtbase5-dev-tools, qttools5-dev, qttools5-dev-tools, libqt5svg5-dev, libqt5opengl5-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d2b5db2f67e56cec1ae29173ce0991f8 2187 scram_0.16.2-3.dsc
+ 6639c5abea601a25dad6c12624eb06ae 993822 scram_0.16.2.orig.tar.gz
+ 9700f5990dbd09a41095ad207eee0ed2 5492 scram_0.16.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/scram
+Vcs-Git: https://salsa.debian.org/science-team/scram.git
+Checksums-Sha256:
+ 59ddd5cf0767b22fe58974874fd74b0ac6ab16d929ccb737cd5cc1c1600adcdf 2187 scram_0.16.2-3.dsc
+ 7f8ca91ef549adcdd019541c87d72b9fbf10c7eb0feeed87fbf658e294f26f09 993822 scram_0.16.2.orig.tar.gz
+ 4da9ccdcea9d16c6745fb8beea8361b3e9646cd34d8e72988ca9bc4a6a92aeb1 5492 scram_0.16.2-3.debian.tar.xz
+Homepage: https://scram-pra.org
+Package-List: 
+ scram deb science optional arch=any
+ scram-gui deb science optional arch=any
+Directory: pool/main/s/scram
+Priority: optional
+Section: misc

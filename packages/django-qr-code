@@ -1,0 +1,27 @@
+Package: django-qr-code
+Binary: python3-django-qr-code
+Version: 2.1.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Mattia Rizzolo <mattia@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-django (>= 2:2.2) <!nocheck>, python3-segno <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 968d9ec9d591bf1d6d6e2867ed4ef829 2191 django-qr-code_2.1.0-1.dsc
+ 8c0c1723b211cecf6409cba1ca7ab98d 71820 django-qr-code_2.1.0.orig.tar.gz
+ 8e96190bf71f0a6d4cbf07c6e4a170f6 2540 django-qr-code_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/django-qr-code
+Vcs-Git: https://salsa.debian.org/python-team/packages/django-qr-code.git
+Checksums-Sha256:
+ 95eb9c19decbd4264951380a146243876d05a8aa420e1a460a65d45fac24f141 2191 django-qr-code_2.1.0-1.dsc
+ 131636df66f8c9257528c99590614e5d52f5bd0018174a4a745a1d4928b125bc 71820 django-qr-code_2.1.0.orig.tar.gz
+ 948758340ded63b1d5928b88434513d00fc256e38c6b7ae6f579f5edbddd126b 2540 django-qr-code_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/dprog-philippe-docourt/django-qr-code
+Package-List: 
+ python3-django-qr-code deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/d/django-qr-code
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: python-xarray
+Binary: python3-xarray, python-xarray-doc
+Version: 0.16.2-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>, Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-python3, dh-sequence-sphinxdoc, dpkg-dev (>= 1.17.14), python3-pip, python-numpy-doc <!nodoc>, python-pandas-doc <!nodoc>, python-scipy-doc <!nodoc>, python-dask-doc <!nodoc>, python3-all, python3-cfgrib, python3-h5netcdf <!nocheck>, python3-zarr <!nocheck>, python3-toolz, python3-cloudpickle, python3-flake8, python3-doc <!nodoc>, python3-bottleneck <!nocheck>, python3-cartopy <!nodoc>, python3-dask (>= 0.17.3) <!nocheck> <!nodoc>, python3-ipython <!nodoc>, python3-matplotlib <!nocheck> <!nodoc>, python3-netcdf4 <!nocheck> <!nodoc>, python3-numpy <!nocheck> <!nodoc>, python3-numpydoc <!nocheck> <!nodoc>, python3-pandas (>= 0.15.0) <!nocheck> <!nodoc>, python3-pytest (>= 2.7.1) <!nocheck>, python3-rasterio <!nocheck> <!nodoc>, python3-setuptools, python3-scipy <!nocheck> <!nodoc>, python3-seaborn <!nocheck> <!nodoc>, python3-sphinx <!nodoc>, python3-nbsphinx <!nodoc>, python3-sphinx-gallery <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, sphinx-common, pandoc, ipython3, python3-jupyter-console, python3-jupyter-core, python3-jupyter-client
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2c0f4e58aac3a8c6dd5613ea6ff3f91d 3342 python-xarray_0.16.2-2.dsc
+ f7c32cdc15504ac7a68a97c0b75c2fc1 1754196 python-xarray_0.16.2.orig.tar.xz
+ 9974f810e3705ecf2cf1b5a62c5f91d4 13336 python-xarray_0.16.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/python-xarray
+Vcs-Git: https://salsa.debian.org/science-team/python-xarray.git
+Checksums-Sha256:
+ 508d1235df44f8e5dae08ca5417a7dcaa98f63929a8a7f2b5f6c5e83338d06ee 3342 python-xarray_0.16.2-2.dsc
+ 48d97b2926fd10224aac0d2e9344d74ce3f56aef40612f009b94ee295db293f4 1754196 python-xarray_0.16.2.orig.tar.xz
+ f3ef66c83de1c4ac4f0f08cbc518a0d01ed390f38529d69b7a1d8ea1274bedf7 13336 python-xarray_0.16.2-2.debian.tar.xz
+Homepage: http://xarray.pydata.org/
+Package-List: 
+ python-xarray-doc deb doc optional arch=all profile=!nodoc
+ python3-xarray deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-bottleneck, python3-dask, python3-matplotlib, python3-netcdf4, python3-pytest, python3-scipy
+Directory: pool/main/p/python-xarray
+Priority: optional
+Section: misc

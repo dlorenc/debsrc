@@ -1,0 +1,26 @@
+Package: node-npmlog
+Binary: node-npmlog
+Version: 4.1.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), node-are-we-there-yet <!nocheck>, node-console-control-strings <!nocheck>, node-gauge <!nocheck>, node-set-blocking <!nocheck>, node-tap <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 14ed2736eb639ab3f05a0267e00b291e 2151 node-npmlog_4.1.2-2.dsc
+ a80585876b95be5b6eedacc61b0ff8ca 32953 node-npmlog_4.1.2.orig.tar.gz
+ 383c5c57a16ef6ef431da61ed2a9c667 2336 node-npmlog_4.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-npmlog
+Vcs-Git: https://salsa.debian.org/js-team/node-npmlog.git
+Checksums-Sha256:
+ bc8f861f1444132a5683d55c4d8bb234131edca31a57c942515cacc94131e0fe 2151 node-npmlog_4.1.2-2.dsc
+ 62e351ae7f09f967bb18451e7c50b6782f0fc9fca812ebb0c88318067d32b6a5 32953 node-npmlog_4.1.2.orig.tar.gz
+ 5ef27f6618d77dbbd7b55415ce89aecef1d3e03614f0bb54652a428ed0888752 2336 node-npmlog_4.1.2-2.debian.tar.xz
+Homepage: https://github.com/npm/npmlog
+Package-List: 
+ node-npmlog deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-npmlog
+Priority: source
+Section: javascript

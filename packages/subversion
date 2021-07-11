@@ -1,0 +1,39 @@
+Package: subversion
+Binary: subversion, libsvn1, libsvn-dev, libsvn-doc, libapache2-mod-svn, python3-subversion, subversion-tools, libsvn-java, libsvn-perl, ruby-svn
+Version: 1.14.1-3
+Maintainer: James McCoy <jamessan@debian.org>
+Build-Depends: autoconf, bash-completion, chrpath, debhelper-compat (= 12), default-jdk-headless (>= 2:1.8) [!hurd-i386 !hppa !sparc] <!pkg.subversion.nojava>, dh-apache2, dh-python, doxygen, junit4 [!hurd-i386 !hppa !sparc] <!pkg.subversion.nojava>, libapr1-dev, libaprutil1-dev, libdb5.3-dev, libdbus-1-dev, liblz4-dev (>= 0.0~r129), libkf5coreaddons-dev <!pkg.subversion.nokde>, libkf5i18n-dev <!pkg.subversion.nokde>, libkf5wallet-dev <!pkg.subversion.nokde>, libperl-dev, libsasl2-dev, libsecret-1-dev, libserf-dev (>= 1.3.9-4~), libsqlite3-dev (>= 3.8.7), libtool, libutf8proc-dev, perl, py3c-dev, python3-all-dev, rename, ruby <!pkg.subversion.noruby>, ruby-dev <!pkg.subversion.noruby>, swig (>= 3.0.10), zlib1g-dev
+Build-Conflicts: libsvn-dev (>= 1.15~), libsvn-dev (<< 1.14~), libsvn1 (>= 1.15~), libsvn1 (<< 1.14~)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a247ba3192d05cdc5b69b791b0edaf39 3807 subversion_1.14.1-3.dsc
+ 979fa7480964bd7ebae68558d1de49aa 11534165 subversion_1.14.1.orig.tar.gz
+ 3b2f684ec0e018a6107ebda8afe33705 1288 subversion_1.14.1.orig.tar.gz.asc
+ 3f333ca6e1cea1cfe2d37e9deeaf2e39 430084 subversion_1.14.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/jamessan/subversion
+Vcs-Git: https://salsa.debian.org/jamessan/subversion.git
+Checksums-Sha256:
+ caf86f3c500a4ffce464fd93aa68ae5ddf2373dda10a5d1a3d2cafe857520bd3 3807 subversion_1.14.1-3.dsc
+ dee2796abaa1f5351e6cc2a60b1917beb8238af548b20d3e1ec22760ab2f0cad 11534165 subversion_1.14.1.orig.tar.gz
+ 4dafc04642e634f3b75d70d3d707ba8eacc63a4925026402afcb94566f445fa6 1288 subversion_1.14.1.orig.tar.gz.asc
+ a309677ab7ca24948e033dcac6c327561ab3cf933547cdeea1d2114b8acbfd5d 430084 subversion_1.14.1-3.debian.tar.xz
+Homepage: http://subversion.apache.org/
+Dgit: cb7110d359e306450352cc8b4fb4525f8034da02 debian archive/debian/1.14.1-3 https://git.dgit.debian.org/subversion
+Package-List: 
+ libapache2-mod-svn deb httpd optional arch=any
+ libsvn-dev deb libdevel optional arch=any
+ libsvn-doc deb doc optional arch=all
+ libsvn-java deb java optional arch=any profile=!pkg.subversion.nojava
+ libsvn-perl deb perl optional arch=any
+ libsvn1 deb libs optional arch=any
+ python3-subversion deb python optional arch=any
+ ruby-svn deb ruby optional arch=any profile=!pkg.subversion.noruby
+ subversion deb vcs optional arch=any
+ subversion-tools deb vcs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, wget
+Directory: pool/main/s/subversion
+Priority: source
+Section: vcs

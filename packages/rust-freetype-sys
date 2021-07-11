@@ -1,0 +1,27 @@
+Package: rust-freetype-sys
+Binary: librust-freetype-sys-dev
+Version: 0.13.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cmake-0.1+default-dev (>= 0.1.42-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.42-~~) <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.11-~~) <!nocheck>, libfreetype6-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f4fc7fc933a5cde430df6195c25d704c 2091 rust-freetype-sys_0.13.1-1.dsc
+ b41bffb07bebe7694d5ecd91de845a07 10660 rust-freetype-sys_0.13.1.orig.tar.gz
+ 8aca078d2a186f43e8ccd01aa69b7b38 2744 rust-freetype-sys_0.13.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/freetype-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/freetype-sys]
+Checksums-Sha256:
+ f292dd61392824aaf4e1e7ebff6962339b6c8ca75a9cb92ef33f10d2221fdd6e 2091 rust-freetype-sys_0.13.1-1.dsc
+ 952b40c71fb2a8509e6090c78770ce27d8839588cfc63eba8a4f724bec5b4a56 10660 rust-freetype-sys_0.13.1.orig.tar.gz
+ 7fc29d304fa57b841e0e056883af0279ccf7fe9143da8a88823ec4e172eebab3 2744 rust-freetype-sys_0.13.1-1.debian.tar.xz
+Homepage: https://github.com/PistonDevelopers/freetype-sys
+Package-List: 
+ librust-freetype-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-freetype-sys
+Priority: extra
+Section: misc

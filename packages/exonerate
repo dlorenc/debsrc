@@ -1,0 +1,26 @@
+Package: exonerate
+Binary: exonerate
+Version: 2.4.0-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), libglib2.0-dev, libreadline-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4bbba9411b6f507a483c92bd8c851bf1 2109 exonerate_2.4.0-5.dsc
+ 126fbade003b80b663a1d530c56f1904 520899 exonerate_2.4.0.orig.tar.gz
+ c553b6e4a4b7140f63e052eac3db6be3 9192 exonerate_2.4.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/exonerate
+Vcs-Git: https://salsa.debian.org/med-team/exonerate.git
+Checksums-Sha256:
+ 54563123da06c3668ec6dceaa1124e27813db9b5a19792a5d6aca170d1cff114 2109 exonerate_2.4.0-5.dsc
+ f849261dc7c97ef1f15f222e955b0d3daf994ec13c9db7766f1ac7e77baa4042 520899 exonerate_2.4.0.orig.tar.gz
+ 8008e0266c3af10809bbb8e5de6f9774dcfa413da192bdfa79bad56098762b92 9192 exonerate_2.4.0-5.debian.tar.xz
+Homepage: https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate
+Package-List: 
+ exonerate deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/e/exonerate
+Priority: source
+Section: science

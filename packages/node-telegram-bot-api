@@ -1,0 +1,26 @@
+Package: node-telegram-bot-api
+Binary: node-telegram-bot-api
+Version: 2.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper-compat (= 12), node-axios, node-bluebird, node-body-parser (>= 1.18.2), node-express (>= 4.16.3), node-extend (>= 2.0.2), nodejs (>= 6), pkg-js-tools (>= 0.9.4)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 645ccb7258cd6a091723286e43032272 2310 node-telegram-bot-api_2.0.1-1.dsc
+ cf9dc73155e66329c7858c7cabff278c 2809529 node-telegram-bot-api_2.0.1.orig.tar.gz
+ 15502f3f194e863cc5a5282b527d5aea 3700 node-telegram-bot-api_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-telegram-bot-api
+Vcs-Git: https://salsa.debian.org/js-team/node-telegram-bot-api.git
+Checksums-Sha256:
+ 209c5c089e7286b26661d474a07d05f2dcdbd4c46c522e967c3b4dedc9c0eb71 2310 node-telegram-bot-api_2.0.1-1.dsc
+ 0002d78a46d31b19b846629b473ad3cdbfe5ce529a8bcb9eeeada74f2c629261 2809529 node-telegram-bot-api_2.0.1.orig.tar.gz
+ 760ab408fa5058c11d28cb8fa00c914a643104dd054954c6b30b5cd909779c9d 3700 node-telegram-bot-api_2.0.1-1.debian.tar.xz
+Homepage: https://github.com/mast/telegram-bot-api#readme
+Package-List: 
+ node-telegram-bot-api deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-telegram-bot-api
+Priority: extra
+Section: misc

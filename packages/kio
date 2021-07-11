@@ -1,0 +1,34 @@
+Package: kio
+Binary: kio, libkf5kio-dev, libkf5kio-doc, libkf5kiocore5, libkf5kiofilewidgets5, libkf5kiogui5, libkf5kiontlm5, libkf5kiowidgets5
+Version: 5.78.0-4
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), gettext, libacl1-dev, libkf5archive-dev (>= 5.78.0~), libkf5auth-dev (>= 5.78.0~), libkf5bookmarks-dev (>= 5.78.0~), libkf5completion-dev (>= 5.78.0~), libkf5config-dev (>= 5.78.0~), libkf5configwidgets-dev (>= 5.78.0~), libkf5coreaddons-dev (>= 5.78.0~), libkf5crash-dev (>= 5.78.0~), libkf5dbusaddons-dev (>= 5.78.0~), libkf5doctools-dev (>= 5.78.0~), libkf5i18n-dev (>= 5.78.0~), libkf5iconthemes-dev (>= 5.78.0~), libkf5itemviews-dev (>= 5.78.0~), libkf5jobwidgets-dev (>= 5.78.0~), libkf5notifications-dev (>= 5.78.0~), libkf5service-dev (>= 5.78.0~), libkf5solid-dev (>= 5.78.0~), libkf5textwidgets-dev (>= 5.78.0~), libkf5wallet-dev (>= 5.78.0~), libkf5widgetsaddons-dev (>= 5.78.0~), libkf5windowsystem-dev (>= 5.78.0~), libkf5xmlgui-dev (>= 5.78.0~), libkrb5-dev, libqt5sql5-sqlite, libqt5x11extras5-dev (>= 5.14.0~), libxml2-dev, libxslt1-dev, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qtdeclarative5-dev (>= 5.14.0~), qttools5-dev, qttools5-dev-tools, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8156a727ef1530e1199d9d6cf30d8732 3667 kio_5.78.0-4.dsc
+ 531795b6825801ced64ed65fb0dfe050 3308004 kio_5.78.0.orig.tar.xz
+ 0454ec8d43f499f15299ca2bd390074a 488 kio_5.78.0.orig.tar.xz.asc
+ 2d5faec81148274810d66e7c6c736b87 43820 kio_5.78.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kio
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kio.git
+Checksums-Sha256:
+ 2c02eedfa594cf47af41349597065bfef390da328e9e37312892cb11a1166791 3667 kio_5.78.0-4.dsc
+ e211dba2c1ed73b67188d3ddbaf40043409912ab731aed4eba5bea32a587d620 3308004 kio_5.78.0.orig.tar.xz
+ 89670d91aada8550ee30a2f35943f867dd119e92236871305863e1c7b65c9531 488 kio_5.78.0.orig.tar.xz.asc
+ 4f0c8f81f59199d6089ec859de14e6da90ed94e518baaed5b34f94c027ef0bcc 43820 kio_5.78.0-4.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kio
+Package-List: 
+ kio deb libs optional arch=any
+ libkf5kio-dev deb libdevel optional arch=any
+ libkf5kio-doc deb doc optional arch=all
+ libkf5kiocore5 deb libs optional arch=any
+ libkf5kiofilewidgets5 deb libs optional arch=any
+ libkf5kiogui5 deb libs optional arch=any
+ libkf5kiontlm5 deb libs optional arch=any
+ libkf5kiowidgets5 deb libs optional arch=any
+Directory: pool/main/k/kio
+Priority: optional
+Section: kde

@@ -1,0 +1,29 @@
+Package: libgpiod
+Binary: libgpiod-dev, libgpiod-doc, libgpiod2, gpiod, python3-libgpiod
+Version: 1.6.2-1
+Maintainer: SZ Lin (林上智) <szlin@debian.org>
+Build-Depends: debhelper-compat (= 13), autoconf-archive, automake, dh-sequence-python3 <!nopython>, help2man <!cross>, pkg-config, m4, python3-dev:any <!nopython>, libpython3-dev <!nopython>, python3-setuptools <!nopython>, linux-libc-dev (>= 4.8)
+Build-Depends-Indep: doxygen
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2ea1f546ac88d465d0f0171e8065a0db 2360 libgpiod_1.6.2-1.dsc
+ 4765470becb619fead3cdaeac61b9a77 326072 libgpiod_1.6.2.orig.tar.xz
+ 3c2539d01a6bf681f59cbbc3adafe6da 8500 libgpiod_1.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libgpiod
+Vcs-Git: https://salsa.debian.org/debian/libgpiod.git
+Checksums-Sha256:
+ e6b335afb39b62c336d9f271a197c4bac614fd22a64e89171cd0a0f7b541cbbb 2360 libgpiod_1.6.2-1.dsc
+ c601e71846f5ab140c83bc757fdd62a4fda24a9cee39cc5e99c96ec2bf1b06a9 326072 libgpiod_1.6.2.orig.tar.xz
+ 6287dfdc58dee1e40210b2a91797c31488c63263f7015e6e2d2e9ad2baeb0415 8500 libgpiod_1.6.2-1.debian.tar.xz
+Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git
+Package-List: 
+ gpiod deb misc optional arch=linux-any
+ libgpiod-dev deb libdevel optional arch=linux-any
+ libgpiod-doc deb doc optional arch=all
+ libgpiod2 deb libs optional arch=linux-any
+ python3-libgpiod deb python optional arch=linux-any profile=!nopython
+Directory: pool/main/libg/libgpiod
+Priority: extra
+Section: misc

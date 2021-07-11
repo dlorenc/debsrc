@@ -1,0 +1,32 @@
+Package: cryptsetup
+Binary: cryptsetup, cryptsetup-bin, cryptsetup-initramfs, cryptsetup-run, libcryptsetup12, libcryptsetup-dev, cryptsetup-udeb, libcryptsetup12-udeb
+Version: 2:2.3.5-1
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@alioth-lists.debian.net>
+Uploaders: Jonas Meurer <jonas@freesources.org>, Guilhem Moulin <guilhem@debian.org>
+Build-Depends: autoconf, automake (>= 1:1.12), autopoint, debhelper-compat (= 13), dh-strip-nondeterminism, docbook-xml, docbook-xsl, gettext, jq <!nocheck>, libargon2-dev, libblkid-dev, libdevmapper-dev, libjson-c-dev, libpopt-dev, libselinux1-dev, libsepol1-dev, libssl-dev, libtool, pkg-config, po-debconf, procps <!nocheck>, uuid-dev, xsltproc, xxd <!nocheck>
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ aa0196a2ca7d1841536501dc581a22e3 2873 cryptsetup_2.3.5-1.dsc
+ 04422dba3b03e0d2fcfc1dfb0f08001a 10772816 cryptsetup_2.3.5.orig.tar.xz
+ e1cdd8001ef70d2be55758403ea889ea 115292 cryptsetup_2.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cryptsetup-team/cryptsetup
+Vcs-Git: https://salsa.debian.org/cryptsetup-team/cryptsetup.git -b debian/latest
+Checksums-Sha256:
+ 1aefb0912d5fe42e052fcaafe058165fa3ca483fe910e0242861705bacdf68ff 2873 cryptsetup_2.3.5-1.dsc
+ 3573208af598d1255523eea872a832fda3e9aa266e558f19fa07c1069ba4eb73 10772816 cryptsetup_2.3.5.orig.tar.xz
+ d37cc91521062df81f564b0af095e5e90735911a10c48205d554d006ffe40b78 115292 cryptsetup_2.3.5-1.debian.tar.xz
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+Package-List: 
+ cryptsetup deb admin optional arch=linux-any
+ cryptsetup-bin deb admin optional arch=linux-any
+ cryptsetup-initramfs deb admin optional arch=all
+ cryptsetup-run deb oldlibs optional arch=all
+ cryptsetup-udeb udeb debian-installer optional arch=linux-any
+ libcryptsetup-dev deb libdevel optional arch=linux-any
+ libcryptsetup12 deb libs optional arch=linux-any
+ libcryptsetup12-udeb udeb debian-installer optional arch=linux-any
+Directory: pool/main/c/cryptsetup
+Priority: source
+Section: admin

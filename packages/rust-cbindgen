@@ -1,0 +1,28 @@
+Package: rust-cbindgen
+Binary: librust-cbindgen-dev, librust-cbindgen+clap-dev, cbindgen
+Version: 0.17.0-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native, rustc:native, libstd-rust-dev, librust-clap-2+default-dev, librust-heck-0.3+default-dev, librust-indexmap-1+default-dev, librust-log-0.4+default-dev, librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-serde-1+derive-dev (>= 1.0.103-~~), librust-serde-json-1+default-dev, librust-syn-1+clone-impls-dev (>= 1.0.3-~~), librust-syn-1+extra-traits-dev (>= 1.0.3-~~), librust-syn-1+full-dev (>= 1.0.3-~~), librust-syn-1+parsing-dev (>= 1.0.3-~~), librust-syn-1+printing-dev (>= 1.0.3-~~), librust-tempfile-3+default-dev, librust-toml-0.5+default-dev, help2man, librust-serial-test-dev, cython3
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 71bbf2da4237354f15db03b3d47ec6fe 2890 rust-cbindgen_0.17.0-4.dsc
+ 7d190237d30216cd7175f4d4c898dd78 124424 rust-cbindgen_0.17.0.orig.tar.gz
+ bacdb98869d3ad5c736ff17697a769a9 4976 rust-cbindgen_0.17.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cbindgen
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cbindgen]
+Checksums-Sha256:
+ 88035f053511d2665fc7db9a461a00fa442da2ed350484cb75b311b646b717af 2890 rust-cbindgen_0.17.0-4.dsc
+ 0d3d3d560ec8a8f8797eb6c9a03a128bf1637133f575f0e6c53f51a188073247 124424 rust-cbindgen_0.17.0.orig.tar.gz
+ 4a30b5fb5fe7aeba8f8d3570773e08b78b2436096717fa6615295ac51e8f8d4c 4976 rust-cbindgen_0.17.0-4.debian.tar.xz
+Package-List: 
+ cbindgen deb utils optional arch=any
+ librust-cbindgen+clap-dev deb utils optional arch=any
+ librust-cbindgen-dev deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: cython3, dh-cargo, g++, gcc, librust-serial-test-0.5+default-dev
+Directory: pool/main/r/rust-cbindgen
+Priority: extra
+Section: misc

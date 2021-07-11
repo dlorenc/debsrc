@@ -1,0 +1,26 @@
+Package: ocamlgraph
+Binary: libocamlgraph-ocaml-dev, libocamlgraph-ocaml-doc
+Version: 1.8.8-1.1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: cdbs, dh-ocaml (>= 0.9), debhelper (>= 7), ocaml-nox (>= 3.11.1), ocaml-findlib (>> 1.2.4-2), docbook-xml (>= 4.4), docbook-xsl, libxml2-utils, xsltproc, po4a
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ e8b5af55c01577894d70b23b7d7f245a 2167 ocamlgraph_1.8.8-1.1.dsc
+ 8dc5d04c92e138fbcb253ae83094b6c4 289986 ocamlgraph_1.8.8.orig.tar.gz
+ a146f3844ba47d0fdb154ceac820f8cc 13804 ocamlgraph_1.8.8-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocamlgraph
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocamlgraph.git
+Checksums-Sha256:
+ afb2cb0abeab2ddab37924c529568d6e6450af4a04b4fad8c34dbd4d4be444c0 2167 ocamlgraph_1.8.8-1.1.dsc
+ 414890f757cf6af6b33c3b9c54f0c03e9c0de1545872a16b10f5ec86af2e72fa 289986 ocamlgraph_1.8.8.orig.tar.gz
+ fcc00a1faa6ad64c5350d2ae5ab030d835918b706512fdd18b4d920599da7229 13804 ocamlgraph_1.8.8-1.1.debian.tar.xz
+Homepage: http://ocamlgraph.lri.fr/
+Package-List: 
+ libocamlgraph-ocaml-dev deb ocaml optional arch=any
+ libocamlgraph-ocaml-doc deb doc optional arch=all
+Directory: pool/main/o/ocamlgraph
+Priority: source
+Section: libdevel

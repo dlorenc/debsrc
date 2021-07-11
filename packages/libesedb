@@ -1,0 +1,28 @@
+Package: libesedb
+Binary: libesedb-dev, libesedb1, libesedb-utils, python3-libesedb
+Version: 20181229-3.1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper (>= 11), pkg-config, dh-python, python3-dev, libbfio-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ ac5ea2917b0b280548edf6df1ba8ecae 2179 libesedb_20181229-3.1.dsc
+ 998a37b07418292e7ba8ea7f51343366 1840102 libesedb_20181229.orig.tar.gz
+ 046a5f577dfa1b56a3561f5a9d495339 4992 libesedb_20181229-3.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/libesedb
+Vcs-Git: https://salsa.debian.org/pkg-security-team/libesedb.git
+Checksums-Sha256:
+ 74e1b3bee8bc69ed9154a3e3b36607fcd681f98fd645db775ded63f0442ffbb5 2179 libesedb_20181229-3.1.dsc
+ fa84b43179755241003f5b76a5193c2c1793a36f4566ed09ff564deaff5b7e63 1840102 libesedb_20181229.orig.tar.gz
+ ec74b58777bad8ee8669e9308ec5ac5c85043a153a9a9e46a0fba699714b9dcf 4992 libesedb_20181229-3.1.debian.tar.xz
+Homepage: https://github.com/libyal/libesedb
+Package-List: 
+ libesedb-dev deb libdevel optional arch=any
+ libesedb-utils deb otherosfs optional arch=any
+ libesedb1 deb libs optional arch=any
+ python3-libesedb deb python optional arch=any
+Directory: pool/main/libe/libesedb
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: libfennec-perl
+Binary: libfennec-perl
+Version: 2.018-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <x.guimard@free.fr>
+Build-Depends: debhelper (>= 10), libmodule-build-perl (>= 0.420000) | perl (<< 5.19.0)
+Build-Depends-Indep: libchild-perl (>= 0.010), libexporter-declare-perl, libmock-quick-perl, libparallel-runner-perl, libtest-exception-perl, libtest-pod-perl, libtest-warn-perl, perl
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 024e309cc785a21643a6a730d9d3430f 2397 libfennec-perl_2.018-1.dsc
+ d5e005745522dfcd6107e79befa1bd07 52861 libfennec-perl_2.018.orig.tar.gz
+ 959bbc1065082975830219009ec8664f 2812 libfennec-perl_2.018-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libfennec-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libfennec-perl.git
+Checksums-Sha256:
+ 8d1882cc3feeb88cd7af0d797c3ba9fbdd4dadd7942c943333149464cda4d72e 2397 libfennec-perl_2.018-1.dsc
+ d0788d189a14e5d56a291c1ad306bf2aa077fa8832992a63c1435cc4d36d2308 52861 libfennec-perl_2.018.orig.tar.gz
+ caf4ab94181f02286ea7bdd5a21dd2a628b6bd3cd15e24fe182bdb6ccf8009d7 2812 libfennec-perl_2.018-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Fennec
+Package-List: 
+ libfennec-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libf/libfennec-perl
+Priority: source
+Section: misc

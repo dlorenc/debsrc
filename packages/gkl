@@ -1,0 +1,26 @@
+Package: gkl
+Binary: libgkl-java, libgkl-jni
+Version: 0.8.7+dfsg-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Olivier Sallou <osallou@debian.org>
+Build-Depends: default-jdk (>= 2:1.9~), debhelper-compat (= 13), javahelper, gradle-debian-helper, maven-repo-helper, yasm, zlib1g-dev, testng, default-jdk-doc, liblog4j2-java, libhtsjdk-java (>= 2.14.3~), libgatk-native-bindings-java, cmake
+Architecture: all amd64
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d956f68eab80973d505f394dde492e84 2170 gkl_0.8.7+dfsg-1.dsc
+ 797d99047c2606eba75c25b15fe04794 1189472 gkl_0.8.7+dfsg.orig.tar.xz
+ 15c48b9e4e0f8144f4699a56c31d4a20 6364 gkl_0.8.7+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/gkl
+Vcs-Git: https://salsa.debian.org/java-team/gkl.git
+Checksums-Sha256:
+ 8bc3fa0d6b56670df5c60ffabf6a2fc278ca5ef9d769411ea6698b2e04b60ee9 2170 gkl_0.8.7+dfsg-1.dsc
+ 7b2571e1767bd4f110f430fcb73bb4e371016447e6022c652a16026e834af651 1189472 gkl_0.8.7+dfsg.orig.tar.xz
+ b3978c3281b447b171b1c6131afd1d9345c8e201079e3d17d00fb964146b0ae8 6364 gkl_0.8.7+dfsg-1.debian.tar.xz
+Homepage: https://github.com/Intel-HLS/GKL
+Package-List: 
+ libgkl-java deb java optional arch=all
+ libgkl-jni deb libs optional arch=amd64
+Directory: pool/main/g/gkl
+Priority: extra
+Section: misc

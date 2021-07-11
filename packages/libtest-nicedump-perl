@@ -1,0 +1,28 @@
+Package: libtest-nicedump-perl
+Binary: libtest-nicedump-perl
+Version: 1.0.1-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libdata-dump-perl <!nocheck>, libsafe-isa-perl (>= 1.000010) <!nocheck>, libtest-simple-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e8404e5e975789c66336a1a99f5bb101 2507 libtest-nicedump-perl_1.0.1-2.dsc
+ d08de03c540957f33e3590bbba548a4e 12332 libtest-nicedump-perl_1.0.1.orig.tar.gz
+ 98b5064996b6b4d1cb0919cb1b19e304 1632 libtest-nicedump-perl_1.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-nicedump-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-nicedump-perl.git
+Checksums-Sha256:
+ 48cd4a388ed55e3d5c17c6b3d097ef17a523f9ffd6069e9399adc932562129dd 2507 libtest-nicedump-perl_1.0.1-2.dsc
+ 122877276af68032eb6d7f899ff4ec91c9e21380198fba73839b2e04ecd4ba63 12332 libtest-nicedump-perl_1.0.1.orig.tar.gz
+ e5dc7fb8a317255324229f59e6356309b89c5500bb7c30ad32ece23936087b22 1632 libtest-nicedump-perl_1.0.1-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-NiceDump
+Dgit: 6ec8768c484b30d77161896ea53161d6210b7c76 debian archive/debian/1.0.1-2 https://git.dgit.debian.org/libtest-nicedump-perl
+Package-List: 
+ libtest-nicedump-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-nicedump-perl
+Priority: extra
+Section: misc

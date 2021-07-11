@@ -1,0 +1,28 @@
+Package: haskell-stringprep
+Binary: libghc-stringprep-dev, libghc-stringprep-prof, libghc-stringprep-doc
+Version: 1.0.0-11
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-text-icu-dev (>= 0.6), libghc-text-icu-prof
+Build-Depends-Indep: ghc-doc, libghc-text-icu-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3677f1c09a87caa0e97fb755567e30d7 2437 haskell-stringprep_1.0.0-11.dsc
+ b5ed4b1746deb42b29fd622fc3e99fe3 17166 haskell-stringprep_1.0.0.orig.tar.gz
+ 56a08f546a369356b3bb5e6fa6e3685e 2976 haskell-stringprep_1.0.0-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-stringprep
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-stringprep]
+Checksums-Sha256:
+ b4e0d26bf2e0c61d84c47a07d9bab8b6610eca254ba7b9e3b2fecea9cb2e3d03 2437 haskell-stringprep_1.0.0-11.dsc
+ 60015e858428f1af2f6e2e3e725a2738d8bcedd8258c043b09a5dddbfe664441 17166 haskell-stringprep_1.0.0.orig.tar.gz
+ 857feb77158a8b6bbb1684dc4290363788ba4d977ab4c82d439f607b08424df1 2976 haskell-stringprep_1.0.0-11.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/stringprep
+Package-List: 
+ libghc-stringprep-dev deb haskell optional arch=any
+ libghc-stringprep-doc deb doc optional arch=all
+ libghc-stringprep-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-stringprep
+Priority: source
+Section: misc

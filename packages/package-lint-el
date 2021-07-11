@@ -1,0 +1,27 @@
+Package: package-lint-el
+Binary: elpa-package-lint, elpa-package-lint-flymake
+Version: 0.13-1
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Lev Lamberov <dogsleg@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-elpa, elpa-let-alist
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a36ad47082577fe030a83cbe5d2a0321 2115 package-lint-el_0.13-1.dsc
+ 4a263733fd6636837c980ab40c32aef5 229050 package-lint-el_0.13.orig.tar.gz
+ 1a45aab1613c570ab998c3c99b4bc771 3772 package-lint-el_0.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/package-lint-el
+Vcs-Git: https://salsa.debian.org/emacsen-team/package-lint-el.git
+Checksums-Sha256:
+ d37fe9706ddd0d1b57e9b7de1979036fa2d0d48ea00e8489c97fc0bdcd2a980c 2115 package-lint-el_0.13-1.dsc
+ 8ca3e01a2a906359071b0887b6c111626c3d706f2475fd777fe7314d84eddb2d 229050 package-lint-el_0.13.orig.tar.gz
+ 538d115f8f44ca0c122ba532f76526aae3e565dd9f7d4c8a08744f16389e816d 3772 package-lint-el_0.13-1.debian.tar.xz
+Homepage: https://github.com/purcell/package-lint
+Package-List: 
+ elpa-package-lint deb lisp optional arch=all
+ elpa-package-lint-flymake deb lisp optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/p/package-lint-el
+Priority: extra
+Section: misc

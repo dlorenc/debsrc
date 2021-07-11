@@ -1,0 +1,25 @@
+Package: cppreference-doc
+Binary: cppreference-doc-en-html, cppreference-doc-en-qch
+Version: 20170409-2
+Maintainer: Povilas Kanapickas <povilas@radix.lt>
+Build-Depends: debhelper-compat (= 12), xsltproc, python3, python3-lxml, qttools5-dev-tools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ da951e19da5014599c6fe74cdc728a86 2106 cppreference-doc_20170409-2.dsc
+ 81da03c4850089fef218fc232acce70c 43109669 cppreference-doc_20170409.orig.tar.gz
+ 2103fc25c2cdb11705f9eecd09ced65c 10952 cppreference-doc_20170409-2.debian.tar.xz
+Vcs-Browser: https://github.com/p12tic/cppreference-doc-debian
+Vcs-Git: https://github.com/p12tic/cppreference-doc-debian.git
+Checksums-Sha256:
+ 9f4243e1835f4c00e5f266983c43bd452fdbb30b7782d5dc69c90300e51eedc5 2106 cppreference-doc_20170409-2.dsc
+ 1f54cf7b6d5c27434b7e9d24b4f7bdb0dde04441f20928d12ab9bd87317dc3f2 43109669 cppreference-doc_20170409.orig.tar.gz
+ 5ec6e99a4fb0bf3383a054c7c3bf571724e8af65c1e9017f1fb1bc5a8c805298 10952 cppreference-doc_20170409-2.debian.tar.xz
+Homepage: https://en.cppreference.com/w/Cppreference:Archives
+Package-List: 
+ cppreference-doc-en-html deb doc optional arch=all
+ cppreference-doc-en-qch deb doc optional arch=all
+Directory: pool/main/c/cppreference-doc
+Priority: optional
+Section: misc

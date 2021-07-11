@@ -1,0 +1,28 @@
+Package: libxml-twig-perl
+Binary: libxml-twig-perl, xml-twig-tools
+Version: 1:3.52-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: perl, expat <!nocheck>, libhtml-entities-numbered-perl <!nocheck>, libhtml-tidy-perl <!nocheck>, libhtml-tree-perl <!nocheck>, libio-captureoutput-perl <!nocheck>, libio-string-perl <!nocheck>, libio-stringy-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtext-iconv-perl <!nocheck>, libtie-ixhash-perl <!nocheck>, libunicode-map8-perl <!nocheck>, libunicode-string-perl <!nocheck>, libxml-handler-yawriter-perl <!nocheck>, libxml-parser-perl <!nocheck>, libxml-sax-machines-perl <!nocheck>, libxml-simple-perl <!nocheck>, libxml-xpath-perl <!nocheck>, libxml-xpathengine-perl <!nocheck>, libyaml-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 237b88155e2324fe03dbfa48ceb232ef 2824 libxml-twig-perl_3.52-1.dsc
+ 14fbaf5ea8729b797ada51a880b6720e 407769 libxml-twig-perl_3.52.orig.tar.gz
+ 43c5b358078e74076563ee9ccd16d46a 8252 libxml-twig-perl_3.52-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxml-twig-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxml-twig-perl.git
+Checksums-Sha256:
+ 0b5827074dc73211810aab14101bc4a85225bc29fd4c6e9f98a91b02f234971c 2824 libxml-twig-perl_3.52-1.dsc
+ fef75826c24f2b877d0a0d2645212fc4fb9756ed4d2711614ac15c497e8680ad 407769 libxml-twig-perl_3.52.orig.tar.gz
+ 635ac184acbcfa818f332a07c8978d3394fd56329a6b2b27b0cce41f03b6f1a2 8252 libxml-twig-perl_3.52-1.debian.tar.xz
+Homepage: https://metacpan.org/release/XML-Twig
+Package-List: 
+ libxml-twig-perl deb perl optional arch=all
+ xml-twig-tools deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libx/libxml-twig-perl
+Priority: source
+Section: perl

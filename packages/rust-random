@@ -1,0 +1,27 @@
+Package: rust-random
+Binary: librust-random-dev
+Version: 0.12.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 46626f7f864a81c541d92ebe8a98ff78 2146 rust-random_0.12.2-2.dsc
+ 70e6792f3f6926d901fec8ec68fc4bc9 4216 rust-random_0.12.2.orig.tar.gz
+ fab6653a8e6f11d1f7a3279fc58d96ef 2592 rust-random_0.12.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/random
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/random]
+Checksums-Sha256:
+ 5c9ad314384bf59017edabffe6f64fa48ac5805a0fb351441937fe3a8f458ea4 2146 rust-random_0.12.2-2.dsc
+ 3a4c26152d4a9b234d6e1bfcaf295fb2a0f5b232449c76be58beb8a8f2225108 4216 rust-random_0.12.2.orig.tar.gz
+ 7c13d3f21362b5a9ed1c3667a945ebde25c687368ce7b1631fa19a9a7935212a 2592 rust-random_0.12.2-2.debian.tar.xz
+Homepage: https://github.com/stainless-steel/random
+Package-List: 
+ librust-random-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-random
+Priority: extra
+Section: misc

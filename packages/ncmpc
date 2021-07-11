@@ -1,0 +1,26 @@
+Package: ncmpc
+Binary: ncmpc, ncmpc-lyrics
+Version: 0.45-1
+Maintainer: mpd maintainers <pkg-mpd-maintainers@lists.alioth.debian.org>
+Uploaders: Sebastian Harl <tokkee@debian.org>, Geoffroy Youri Berret <efrim@azylum.org>
+Build-Depends: debhelper-compat (= 13), meson (>= 0.47), libncursesw5-dev, libboost-dev, libmpdclient-dev, liblircclient-dev, pkg-config, libpcre++-dev, python3-sphinx
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 10f0ae2fa574cf36231b3cc8229c9eb1 2098 ncmpc_0.45-1.dsc
+ f0bdd820ff0c6c72ae220dd23accae1d 281860 ncmpc_0.45.orig.tar.xz
+ 3ef1ecf8ced187631079ba523d352817 16816 ncmpc_0.45-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mpd-team/ncmpc
+Vcs-Git: https://salsa.debian.org/mpd-team/ncmpc.git
+Checksums-Sha256:
+ 858550e0a27e3b8e803ca70074f29908f5ac9b1b688eb350214cfcb7bd3a3bcd 2098 ncmpc_0.45-1.dsc
+ 17ff446447e002f2ed4342b7324263a830df7d76bcf177dce928f7d3a6f1f785 281860 ncmpc_0.45.orig.tar.xz
+ 60cc9823b97405f1f1e361d0f17a574f7bb70fc8182f974c2ebb9f59bb0bd315 16816 ncmpc_0.45-1.debian.tar.xz
+Homepage: https://www.musicpd.org/clients/ncmpc/
+Package-List: 
+ ncmpc deb sound optional arch=any
+ ncmpc-lyrics deb sound optional arch=all
+Directory: pool/main/n/ncmpc
+Priority: source
+Section: sound

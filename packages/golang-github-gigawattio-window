@@ -1,0 +1,28 @@
+Package: golang-github-gigawattio-window
+Binary: golang-github-gigawattio-window-dev
+Version: 0.0~git20180317.0f5467e-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Aloïs Micard <alois@micard.lu>
+Build-Depends: debhelper-compat (= 13), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6502f0297496572a406b7af282dda7d5 2435 golang-github-gigawattio-window_0.0~git20180317.0f5467e-2.dsc
+ f65ce0a8149faa6ccfe6515054132d5e 2449 golang-github-gigawattio-window_0.0~git20180317.0f5467e.orig.tar.gz
+ 9d999fc8b0a82cd89684c49fd0c8b9cd 2756 golang-github-gigawattio-window_0.0~git20180317.0f5467e-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gigawattio-window
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gigawattio-window.git
+Checksums-Sha256:
+ bbec69d22e078448d4975cc3cfeafa50c3aafc8b788127f0a009fc2130230b10 2435 golang-github-gigawattio-window_0.0~git20180317.0f5467e-2.dsc
+ 2ce930d8f747640a1a6054a6b2ede059bea1fc4025becdf44a45f1e649157f40 2449 golang-github-gigawattio-window_0.0~git20180317.0f5467e.orig.tar.gz
+ 3a6151c5673ed8f45a9a11b64aecfa8523222e3bcbbf375406c2bcbadf476139 2756 golang-github-gigawattio-window_0.0~git20180317.0f5467e-2.debian.tar.xz
+Homepage: https://github.com/gigawattio/window
+Go-Import-Path: github.com/gigawattio/window
+Package-List: 
+ golang-github-gigawattio-window-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-gigawattio-window
+Priority: extra
+Section: golang

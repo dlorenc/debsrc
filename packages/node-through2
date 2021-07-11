@@ -1,0 +1,26 @@
+Package: node-through2
+Binary: node-through2
+Version: 4.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, chai <!nocheck>, mocha <!nocheck>, node-bl <!nocheck>, node-readable-stream (>= 3) <!nocheck>, node-xtend <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cd3564fd3ec3828f5b79e73fb427840f 2135 node-through2_4.0.2-1.dsc
+ 09e314d75d466f23ef06dcb1013166cf 6213 node-through2_4.0.2.orig.tar.gz
+ 43205e1d0050c8202f13310ad0042c49 4432 node-through2_4.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-through2
+Vcs-Git: https://salsa.debian.org/js-team/node-through2.git
+Checksums-Sha256:
+ 835577268c309e5d17b69f06e03b59122e3b887e6546d3c8dff93279f209c916 2135 node-through2_4.0.2-1.dsc
+ f87f62309825a967fd47706d957bcb3aaa1b61b7ef8748c836fb287ffb11739c 6213 node-through2_4.0.2.orig.tar.gz
+ c04f0ace8a4ebf5bb96f5272b56341a8f6733c7e7bdbe726b779827c5076916c 4432 node-through2_4.0.2-1.debian.tar.xz
+Homepage: https://github.com/rvagg/through2
+Package-List: 
+ node-through2 deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-through2
+Priority: optional
+Section: javascript

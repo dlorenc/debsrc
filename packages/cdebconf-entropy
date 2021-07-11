@@ -1,0 +1,23 @@
+Package: cdebconf-entropy
+Binary: cdebconf-text-entropy, cdebconf-newt-entropy, cdebconf-gtk-entropy
+Version: 0.48
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Max Vozeler <xam@debian.org>, Jérémy Bobbio <lunar@debian.org>, Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper (>= 9), po-debconf (>= 0.5.0), libdebian-installer4-dev, libdebconfclient0-dev (>= 0.206), libnewt-dev, libtextwrap-dev, libgtk2.0-dev (>= 2.18.7-2), dh-autoreconf
+Architecture: any
+Format: 3.0 (native)
+Files:
+ 7995e4d20ddb7b30575c8ddd3866934e 2066 cdebconf-entropy_0.48.dsc
+ fc75950730c3fb5bd7e233a556814cda 46976 cdebconf-entropy_0.48.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/cdebconf-entropy
+Vcs-Git: https://salsa.debian.org/installer-team/cdebconf-entropy.git
+Checksums-Sha256:
+ 62b11205b2f1808dbfbea0a83ffd4b8fafdfd12a39b4573686ed8a972c4efe9d 2066 cdebconf-entropy_0.48.dsc
+ 5244e0bc40b8d6cc35246a64b5ee955d21990a17c072c40c8365010944a899d5 46976 cdebconf-entropy_0.48.tar.xz
+Package-List: 
+ cdebconf-gtk-entropy udeb debian-installer optional arch=any
+ cdebconf-newt-entropy udeb debian-installer optional arch=any
+ cdebconf-text-entropy udeb debian-installer optional arch=any
+Directory: pool/main/c/cdebconf-entropy
+Priority: source
+Section: admin

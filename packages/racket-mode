@@ -1,0 +1,27 @@
+Package: racket-mode
+Binary: elpa-racket-mode
+Version: 20201227git0-3
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: David Bremner <bremner@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-elpa (>= 2.0), elpa-pos-tip <!nocheck>, elpa-s <!nocheck>, elpa-faceup <!nocheck>, elpa-paredit <!nocheck>, racket <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ caf92f060019147f755b0e8feb50662c 2293 racket-mode_20201227git0-3.dsc
+ 525a6c451de9498469f04eb6fd5e295a 154528 racket-mode_20201227git0.orig.tar.xz
+ 8e30287dd69ce834bdeeb7a876b1d1c1 2788 racket-mode_20201227git0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/racket-mode.git
+Vcs-Git: https://salsa.debian.org/emacsen-team/racket-mode.git
+Checksums-Sha256:
+ d56e71afafa6b670a7d44a378333e57f85abd0d38d6752c3c3ef0123b2f956d4 2293 racket-mode_20201227git0-3.dsc
+ 586bd431019cbdd8e70779c6b592b124c74b67f4ded53e7519b69f7bd135a87d 154528 racket-mode_20201227git0.orig.tar.xz
+ 4e26d5f8208b0d886137d632a38eaf62eb7363bd23e7279b0056940c629b1e3c 2788 racket-mode_20201227git0-3.debian.tar.xz
+Homepage: https://github.com/greghendershott/racket-mode
+Dgit: 077e425e5c0f3731fc2cabb7f30d18e7a120f847 debian archive/debian/20201227git0-3 https://git.dgit.debian.org/racket-mode
+Package-List: 
+ elpa-racket-mode deb lisp optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/r/racket-mode
+Priority: extra
+Section: misc

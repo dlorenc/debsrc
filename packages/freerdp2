@@ -1,0 +1,39 @@
+Package: freerdp2
+Binary: freerdp2-x11, libfreerdp2-2, libfreerdp-client2-2, libfreerdp-server2-2, libwinpr2-2, libwinpr-tools2-2, libwinpr2-dev, freerdp2-dev, winpr-utils, libfreerdp-shadow2-2, libfreerdp-shadow-subsystem2-2, freerdp2-shadow-x11, libuwac0-0, libuwac0-dev, freerdp2-wayland
+Version: 2.3.0+dfsg1-2
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Bernhard Miklautz <bernhard.miklautz@shacknet.at>,
+Build-Depends: debhelper-compat (= 13), cmake, docbook-xsl, libasound2-dev, libavcodec-dev, libavutil-dev, libcairo2-dev, libcups2-dev, libgsm1-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libicu-dev, libjpeg-dev, libpam0g-dev, libpcsclite-dev, libpulse-dev, libssl-dev, libswscale-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev [linux-any], libwayland-dev [linux-any], libx11-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxinerama-dev, libxi-dev, libxkbcommon-dev, libxkbfile-dev, libxrandr-dev, libxrender-dev, libxtst-dev, libxv-dev, pkg-config, uuid-dev, xmlto, xsltproc
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0b7a0f0dfa881afbbeea4a8f640edb9f 3553 freerdp2_2.3.0+dfsg1-2.dsc
+ 2817f81dcd347f0466320b382beede49 2220204 freerdp2_2.3.0+dfsg1.orig.tar.xz
+ faaa1f6d2dcb961f8a98563592f45202 62508 freerdp2_2.3.0+dfsg1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-remote-team/freerdp2
+Vcs-Git: https://salsa.debian.org/debian-remote-team/freerdp2.git
+Checksums-Sha256:
+ 435367a14ca4be6f26d8043b393f0f0209cdbf71769b704c27777c561fabca7c 3553 freerdp2_2.3.0+dfsg1-2.dsc
+ 50f80150580ce906ae86a7ec6667b7a4e3d1a6befadf4089361018386ad5477f 2220204 freerdp2_2.3.0+dfsg1.orig.tar.xz
+ b330ca9078873feeec8cb4b6bcaf533c37f8ee974ec8dd66f0795b34485525fb 62508 freerdp2_2.3.0+dfsg1-2.debian.tar.xz
+Homepage: https://www.freerdp.com/
+Package-List: 
+ freerdp2-dev deb devel optional arch=any
+ freerdp2-shadow-x11 deb x11 optional arch=any
+ freerdp2-wayland deb x11 optional arch=linux-any
+ freerdp2-x11 deb x11 optional arch=any
+ libfreerdp-client2-2 deb libs optional arch=any
+ libfreerdp-server2-2 deb libs optional arch=any
+ libfreerdp-shadow-subsystem2-2 deb libs optional arch=any
+ libfreerdp-shadow2-2 deb libs optional arch=any
+ libfreerdp2-2 deb libs optional arch=any
+ libuwac0-0 deb libs optional arch=linux-any
+ libuwac0-dev deb libdevel optional arch=linux-any
+ libwinpr-tools2-2 deb libs optional arch=any
+ libwinpr2-2 deb libs optional arch=any
+ libwinpr2-dev deb libdevel optional arch=any
+ winpr-utils deb utils optional arch=any
+Directory: pool/main/f/freerdp2
+Priority: optional
+Section: misc

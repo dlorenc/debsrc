@@ -1,0 +1,26 @@
+Package: node-security
+Binary: node-security
+Version: 1.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, mocha, nodejs, pkg-js-tools (>= 0.8.8)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ f03d9441615b384dc7762027fcf3e6b3 2060 node-security_1.0.0-2.dsc
+ 3606a57e986c3cf2f1384881b36f120d 10240 node-security_1.0.0.orig.tar.gz
+ a9d142005d087fdb88745fc0da1a32b2 2676 node-security_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-security
+Vcs-Git: https://salsa.debian.org/js-team/node-security.git
+Checksums-Sha256:
+ 9ee4a74f2d4a898a03615c2383f875e24f20941d903ee3a70e47cee7e7e05f60 2060 node-security_1.0.0-2.dsc
+ 1263dbeab6700b0f4615e65076a6fafd904428dba289f8be7989dc9f66c1b3c9 10240 node-security_1.0.0.orig.tar.gz
+ f64acedc5a95d74dcdeac12d8a66ef7183ecd550fbeabee42d36d245cb629c5d 2676 node-security_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/cweider/js-security
+Package-List: 
+ node-security deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-security
+Priority: optional
+Section: javascript

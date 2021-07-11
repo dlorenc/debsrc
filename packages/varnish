@@ -1,0 +1,31 @@
+Package: varnish
+Binary: varnish, varnish-doc, libvarnishapi2, libvarnishapi-dev
+Version: 6.5.1-1
+Maintainer: Varnish Package Maintainers <team+varnish-team@tracker.debian.org>
+Uploaders: Jan Wagner <waja@cyconet.org>, Lars Bahner <bahner@debian.org>, Stig Sandbeck Mathisen <ssm@debian.org>, Tollef Fog Heen <tfheen@debian.org>, Emanuele Rocca <ema@debian.org>
+Build-Depends: automake, debhelper-compat (= 12), graphviz, libedit-dev, libjemalloc-dev, libncurses-dev, libpcre3-dev, libtool, pkg-config, python3-sphinx, xsltproc
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fb311160af6e511f5ba6d42795ba2121 2545 varnish_6.5.1-1.dsc
+ 09304038cb3bb744a7c1742c8de848a1 3460024 varnish_6.5.1.orig.tar.gz
+ bf4cebb6f4a9911b157f5addace2d919 24452 varnish_6.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/varnish-team/varnish
+Vcs-Git: https://salsa.debian.org/varnish-team/varnish.git
+Checksums-Sha256:
+ 63e823fdab0c27b98e277f86663b32f6e875ce715653dfc428671c07a6772f93 2545 varnish_6.5.1-1.dsc
+ 11964c688f9852237c99c1e327d54dc487549ddb5f0f5aa7996e521333d7cdb5 3460024 varnish_6.5.1.orig.tar.gz
+ 1945bbb971ba9a13c80d66801df3a21a4281f989b00d5e8f4ba5ca729ecfc68e 24452 varnish_6.5.1-1.debian.tar.xz
+Homepage: https://www.varnish-cache.org/
+Dgit: 7625b0053f2927e53bfcfe643ce2f86fca818de9 debian archive/debian/6.5.1-1 https://git.dgit.debian.org/varnish
+Package-List: 
+ libvarnishapi-dev deb libdevel optional arch=any
+ libvarnishapi2 deb libs optional arch=any
+ varnish deb web optional arch=any
+ varnish-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ruby-serverspec
+Directory: pool/main/v/varnish
+Priority: source
+Section: web

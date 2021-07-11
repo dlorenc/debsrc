@@ -1,0 +1,28 @@
+Package: haskell-bindings-dsl
+Binary: libghc-bindings-dsl-dev, libghc-bindings-dsl-prof, libghc-bindings-dsl-doc
+Version: 1.0.25-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4a017d62c0b096dd4ed09326b451993a 2377 haskell-bindings-dsl_1.0.25-3.dsc
+ 1699b8010eafd6871c9a2093d4d665b9 6767 haskell-bindings-dsl_1.0.25.orig.tar.gz
+ 4ee7528a7f6d5c39d08df72c0a73cffe 3440 haskell-bindings-dsl_1.0.25-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-bindings-dsl
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-bindings-dsl]
+Checksums-Sha256:
+ fb8fd2c948ccf7cf3ceab85b94db6a97b3acd35bfd07fc9f7440d8d0a56d951d 2377 haskell-bindings-dsl_1.0.25-3.dsc
+ 63de32380c68d1cc5e9c7b3622d67832c786da21163ba0c8a4835e6dd169194f 6767 haskell-bindings-dsl_1.0.25.orig.tar.gz
+ a6c8c3fe3c57138ef8a1558aa54c6f9e7faaed6a609c5c080d796fb3e48f2e94 3440 haskell-bindings-dsl_1.0.25-3.debian.tar.xz
+Homepage: https://github.com/jwiegley/bindings-dsl/wiki
+Package-List: 
+ libghc-bindings-dsl-dev deb haskell optional arch=any
+ libghc-bindings-dsl-doc deb doc optional arch=all
+ libghc-bindings-dsl-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-bindings-dsl
+Priority: source
+Section: haskell

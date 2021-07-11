@@ -1,0 +1,26 @@
+Package: prometheus-xmpp-alerts
+Binary: prometheus-xmpp-alerts
+Version: 0.4.2-1
+Maintainer: Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: dh-python, python3-all, python3-slixmpp, python3-setuptools, python3-aiohttp, python3-yaml, python3-prometheus-client, debhelper-compat (= 12)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ f1557c16b7e3cbae16de49fd6ed5cee0 2187 prometheus-xmpp-alerts_0.4.2-1.dsc
+ 6a4f5fbe522970ecb93a77d3d007c202 9246 prometheus-xmpp-alerts_0.4.2.orig.tar.gz
+ 537daa380f60e9aa24048265f0ab9c83 2320 prometheus-xmpp-alerts_0.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/jelmer/prometheus-xmpp-alerts
+Vcs-Git: https://salsa.debian.org/jelmer/prometheus-xmpp-alerts.git/
+Checksums-Sha256:
+ 15c0046a74fb39419cc4b374974141da97a7ad368acfdada4206e53d75f85857 2187 prometheus-xmpp-alerts_0.4.2-1.dsc
+ bb329eed682f01cf7a191d6ae64c6372d9cee03e0837e830a0606e8cc5854cb5 9246 prometheus-xmpp-alerts_0.4.2.orig.tar.gz
+ 8b370df18c01b0805e70e7269f575d1d75c4b7521a49a9c6405ad1f07c784c58 2320 prometheus-xmpp-alerts_0.4.2-1.debian.tar.xz
+Homepage: https://jelmer.uk/code/prometheus-xmpp-alerts
+Package-List: 
+ prometheus-xmpp-alerts deb net optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-setuptools
+Directory: pool/main/p/prometheus-xmpp-alerts
+Priority: extra
+Section: misc

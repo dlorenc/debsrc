@@ -1,0 +1,29 @@
+Package: rust-lscolors
+Binary: librust-lscolors-dev, librust-lscolors+ansi-term-dev, lscolors
+Version: 0.7.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native, rustc:native, libstd-rust-dev, librust-ansi-term-0.12+default-dev | librust-ansi-term-0.11+default-dev, librust-tempfile-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 69169407ce87190e37e9e9a677a6130b 2443 rust-lscolors_0.7.1-1.dsc
+ f3373fd861a0066fa446a8ab3dabc749 17986 rust-lscolors_0.7.1.orig.tar.gz
+ f53957aeb8d40ea6f9a752262d07d4dd 3216 rust-lscolors_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lscolors
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/lscolors]
+Checksums-Sha256:
+ 57a8661fd7d39f9ab2f9142228af79a3e52d5a95b2830dc9be09f54f8ae5abb6 2443 rust-lscolors_0.7.1-1.dsc
+ d24b894c45c9da468621cdd615a5a79ee5e5523dd4f75c76ebc03d458940c16e 17986 rust-lscolors_0.7.1.orig.tar.gz
+ 3f556e4099a394b49c914ce6a696d26c213731abe13067af1da5c54897e1bf94 3216 rust-lscolors_0.7.1-1.debian.tar.xz
+Homepage: https://github.com/sharkdp/lscolors
+Package-List: 
+ librust-lscolors+ansi-term-dev deb rust optional arch=any
+ librust-lscolors-dev deb rust optional arch=any
+ lscolors deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-lscolors
+Priority: extra
+Section: misc

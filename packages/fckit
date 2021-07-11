@@ -1,0 +1,26 @@
+Package: fckit
+Binary: libfckit-dev, libfckit0d, libfckit-utils
+Version: 0.9.0-6
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-fortran-mod, gfortran | fortran-compiler, patchelf, ecbuild (>= 3.3.0-2), python3-all, libeckit-dev (>= 1.15.4-1), libssl-dev, libcurl4-gnutls-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a42514e9eda19e848aa3c906d51e0220 2116 fckit_0.9.0-6.dsc
+ f2fbe021baaff9e4b159c63b59d5a8f3 119380 fckit_0.9.0.orig.tar.xz
+ 36f2b01a23513c5ce3faf152ddce86e9 6392 fckit_0.9.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org:/mckinstry/fckit.git
+Vcs-Git: https://salsa.debian.org:/mckinstry/fckit.git -b debian/latest
+Checksums-Sha256:
+ 73c8b0f93d72ddd9c87361986a515d4e4212bd5565328275b3af688916387946 2116 fckit_0.9.0-6.dsc
+ 8c61e12124d183f1d3dd85ad6fdb99f06c4eebc6146290120414f52be2527044 119380 fckit_0.9.0.orig.tar.xz
+ ae7f609c59904ff84117ebb8c14df7de8446985f78d376bda8794d29b78df9fc 6392 fckit_0.9.0-6.debian.tar.xz
+Homepage: https://github.com/ecmwf/fckit
+Package-List: 
+ libfckit-dev deb libdevel optional arch=any
+ libfckit-utils deb science optional arch=all
+ libfckit0d deb libs optional arch=any
+Directory: pool/main/f/fckit
+Priority: extra
+Section: misc

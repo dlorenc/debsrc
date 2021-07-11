@@ -1,0 +1,28 @@
+Package: node-url-parse
+Binary: node-url-parse
+Version: 1.5.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-assume <!nocheck>, node-deep-eql <!nocheck>, node-object-inspect <!nocheck>, node-pathval <!nocheck>, node-querystringify, node-requires-port, nodejs, webpack (>= 4.7.0-2~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6d221fbe04a72c81597aac560562a7dc 2551 node-url-parse_1.5.1-1.dsc
+ 782204fc24278d978e12ef488becc87e 2028 node-url-parse_1.5.1.orig-types-url-parse.tar.gz
+ 9ac71a05eb039ce09af472d1748e05ac 15752 node-url-parse_1.5.1.orig.tar.gz
+ 9eb7b501f9679fbacfe4cdb17b628d15 4120 node-url-parse_1.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-url-parse
+Vcs-Git: https://salsa.debian.org/js-team/node-url-parse.git
+Checksums-Sha256:
+ 7fbb638e124745465fa3f7b9d89a879697e16f54a4bfceab0bf91659bf84b6c7 2551 node-url-parse_1.5.1-1.dsc
+ aacd8bb80991adce84b6305b2f64d1644f16ac47376a0958954555517647b03e 2028 node-url-parse_1.5.1.orig-types-url-parse.tar.gz
+ a06e817a6da716b87be010e04c20b03ce184749da94124377706c5acf637e75b 15752 node-url-parse_1.5.1.orig.tar.gz
+ 06a4602e903e90f456f17bf3950905af6cd80e608d9e82cd4db391753d3ced26 4120 node-url-parse_1.5.1-1.debian.tar.xz
+Homepage: https://github.com/unshiftio/url-parse#readme
+Package-List: 
+ node-url-parse deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-url-parse
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: node-response-time
+Binary: node-response-time
+Version: 2.3.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, nodejs, node-after <!nocheck>, node-depd <!nocheck>, node-on-headers <!nocheck>, node-supertest <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4694c32fbbf1c4835bb6a4cb53c8878e 2214 node-response-time_2.3.2-1.dsc
+ 690c7ad085b6a19a17523717995f179e 5074 node-response-time_2.3.2.orig.tar.gz
+ 748a946fda3aa50668ffa8eebcf483a5 2592 node-response-time_2.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-response-time
+Vcs-Git: https://salsa.debian.org/js-team/node-response-time.git
+Checksums-Sha256:
+ 123e36ea94aa0fafcdd7596d9ef1f1df136178ac19b3e27195db169d6d29de63 2214 node-response-time_2.3.2-1.dsc
+ 99c558fc30167b141fa552b7cf0da3513a284e550019d6053768d983ad6eff89 5074 node-response-time_2.3.2.orig.tar.gz
+ c3673697682d2c2e182cf27631e4b6e6f64882e86cbc994b464e71aa64df7f04 2592 node-response-time_2.3.2-1.debian.tar.xz
+Homepage: https://github.com/expressjs/response-time
+Package-List: 
+ node-response-time deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-response-time
+Priority: optional
+Section: javascript

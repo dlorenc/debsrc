@@ -1,0 +1,27 @@
+Package: lumpy-sv
+Binary: lumpy-sv, lumpy-sv-examples
+Version: 0.3.1+dfsg-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, libbamtools-dev, libfastahack-dev, libgzstream-dev, libsqlite3-dev, libhts-dev, libssl-dev, libcurl4-gnutls-dev, samtools, python3-pysam
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 221fc3bae90fd2433ca096710f4b1750 2271 lumpy-sv_0.3.1+dfsg-5.dsc
+ 1167e4a94bceb29ac5b83cb170058e25 111836 lumpy-sv_0.3.1+dfsg.orig.tar.xz
+ 6b08225b536cdefcdc19e45f4b348242 39161696 lumpy-sv_0.3.1+dfsg-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/lumpy-sv
+Vcs-Git: https://salsa.debian.org/med-team/lumpy-sv.git
+Checksums-Sha256:
+ ac9e96de07da91405abfb6b9d516e7dcd393462e83d3fe0d3ebe4cf7e818ac69 2271 lumpy-sv_0.3.1+dfsg-5.dsc
+ 78a6fe414739286d1f799bbdf3e34b9a1d6ed03b4c6dd17bfef1fcbba84bd35a 111836 lumpy-sv_0.3.1+dfsg.orig.tar.xz
+ 5c5a9ed0379342d9b36f437d876592e3f4fb77971b3c7123c64222881d66e206 39161696 lumpy-sv_0.3.1+dfsg-5.debian.tar.xz
+Homepage: https://github.com/arq5x/lumpy-sv
+Package-List: 
+ lumpy-sv deb science optional arch=any
+ lumpy-sv-examples deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/l/lumpy-sv
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: php-horde-group
+Binary: php-horde-group
+Version: 2.1.1-11
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 59cced18efb98e04a7864fa15fa14244 2283 php-horde-group_2.1.1-11.dsc
+ dc18ab1ca6f3ce6c2149820af11faf0f 23174 php-horde-group_2.1.1.orig.tar.gz
+ 4c63e5b3a69df4018a2a70b7b2318ab1 5900 php-horde-group_2.1.1-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-group
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-group.git
+Checksums-Sha256:
+ b758a5a0b013cff94257507d163881b3257d57775d0bdef08e9d0fdaecb9479e 2283 php-horde-group_2.1.1-11.dsc
+ 93c9353644e8df2dc5eb726752d942acc72e6e1ec9f3b672f3b216eb2e45621d 23174 php-horde-group_2.1.1.orig.tar.gz
+ 9e1d46ab1445333cc530020a88b74424da6a90244ba0e5c10ce136c75c67ed64 5900 php-horde-group_2.1.1-11.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-group deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mysql-server, php-cli, php-horde-cache, php-horde-cli, php-horde-db, php-horde-ldap, php-horde-log, php-horde-test, php-ldap, php-mysql, php-pgsql, php-sqlite3, postgresql
+Directory: pool/main/p/php-horde-group
+Priority: extra
+Section: misc

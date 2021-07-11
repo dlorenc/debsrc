@@ -1,0 +1,27 @@
+Package: golang-github-cznic-bufs
+Binary: golang-github-cznic-bufs-dev
+Version: 0.0~git20140818.0.3dcccbd-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go
+Architecture: all
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ 671246119f3ee9cbe153ed34210fbfd2 2370 golang-github-cznic-bufs_0.0~git20140818.0.3dcccbd-2.dsc
+ 72386623708951817f3c32af0faf329b 6088 golang-github-cznic-bufs_0.0~git20140818.0.3dcccbd.orig.tar.xz
+ c41e8ccb7a093908ae500d5c449176c7 2572 golang-github-cznic-bufs_0.0~git20140818.0.3dcccbd-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-cznic-bufs
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-cznic-bufs.git
+Checksums-Sha256:
+ 6b9588f63c65b083a1f15feec837b5541fac272f2d1af33335a10bf4fdbc38ae 2370 golang-github-cznic-bufs_0.0~git20140818.0.3dcccbd-2.dsc
+ dbeb04db3f5ce96cd6f0e1ed5dd456f412256c9b1aa196c0a42d5fceea759163 6088 golang-github-cznic-bufs_0.0~git20140818.0.3dcccbd.orig.tar.xz
+ 701a99a8ff6174115dcf7210daea005f7019080657bfe21e2b0ed512e94334ec 2572 golang-github-cznic-bufs_0.0~git20140818.0.3dcccbd-2.debian.tar.xz
+Homepage: https://github.com/cznic/bufs
+Go-Import-Path: github.com/cznic/bufs
+Package-List: 
+ golang-github-cznic-bufs-dev deb devel extra arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-cznic-bufs
+Priority: extra
+Section: golang

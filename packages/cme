@@ -1,0 +1,27 @@
+Package: cme
+Binary: cme
+Version: 1.032-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl, perl
+Build-Depends-Indep: bash-completion, libapp-cmd-perl <!nocheck>, libconfig-model-perl (>= 2.124) <!nocheck>, libjson-perl <!nocheck>, liblog-log4perl-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libpod-pom-perl <!nocheck>, libprobe-perl-perl <!nocheck>, libtest-command-perl <!nocheck>, libtest-file-contents-perl <!nocheck>, libyaml-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 578d7d1ccad31392097a20be95061223 2297 cme_1.032-1.dsc
+ 849387ef5f66c87e2047b70942251c47 40424 cme_1.032.orig.tar.gz
+ 9114c495a85c6bcd5ce6f83c43f96d1b 11136 cme_1.032-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/cme
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/cme.git
+Checksums-Sha256:
+ faed01a6b0619b1404497d63ce1369f8e28c11ad4914bf751652e7287d245ab6 2297 cme_1.032-1.dsc
+ 77ad8951bae5aebd23abe50b4599b97bceded580efac21ad1e6b645ef7f56e88 40424 cme_1.032.orig.tar.gz
+ 64964ce8836a61c83d2c7d0b2e43c2fa2310dc5d78eef16819880dc18b09c9b6 11136 cme_1.032-1.debian.tar.xz
+Homepage: https://metacpan.org/release/App-Cme
+Package-List: 
+ cme deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/c/cme
+Priority: optional
+Section: misc

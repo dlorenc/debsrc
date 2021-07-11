@@ -1,0 +1,27 @@
+Package: librime
+Binary: librime-bin, librime-dev, librime1
+Version: 1.6.1+dfsg1-1
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders: Qijiang Fan <fqj1994@gmail.com>, Aron Xu <aron@debian.org>, YunQiang Su <syq@debian.org>, Osamu Aoki <osamu@debian.org>, Guo Yixuan (郭溢譞) <culu.gyx@gmail.com>, Boyuan Yang <byang@debian.org>,
+Build-Depends: capnproto, cmake (>= 3.0.2), debhelper-compat (= 13), libboost-dev, libboost-filesystem-dev, libboost-locale-dev, libboost-regex-dev, libboost-system-dev, libboost-thread-dev, libcapnp-dev, libgoogle-glog-dev, libleveldb-dev, libmarisa-dev, libopencc-dev (>= 1.1~), libyaml-cpp-dev (>= 0.6.3-7~), pkg-config, x11proto-core-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d0eeef7fe2701115040e353fe17cf1d2 2542 librime_1.6.1+dfsg1-1.dsc
+ ead9c281613ba646d8c75910ad03e61a 2629403 librime_1.6.1+dfsg1.orig.tar.gz
+ d69f008a5c924716021ee5c848a3cd12 7084 librime_1.6.1+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/input-method-team/librime
+Vcs-Git: https://salsa.debian.org/input-method-team/librime.git
+Checksums-Sha256:
+ c43f07b5bc65fe48fbf7007eb4c488702fb8990a31b8e0245b11ac4fd8cd08ec 2542 librime_1.6.1+dfsg1-1.dsc
+ a12e62cb470b406ac849e5300fa453ed49331045a255420c68696f8f000e8c1e 2629403 librime_1.6.1+dfsg1.orig.tar.gz
+ c71f9e12715152ea47b2cce9cdcef7a85f35ae7769187d273ff634cdf70460a9 7084 librime_1.6.1+dfsg1-1.debian.tar.xz
+Homepage: https://github.com/rime/librime
+Package-List: 
+ librime-bin deb utils optional arch=any
+ librime-dev deb libdevel optional arch=any
+ librime1 deb libs optional arch=any
+Directory: pool/main/libr/librime
+Priority: source
+Section: misc

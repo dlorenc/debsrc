@@ -1,0 +1,27 @@
+Package: golang-github-apex-log
+Binary: golang-github-apex-log-dev
+Version: 1.1.1-3
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-aws-aws-sdk-go-dev, golang-github-fatih-color-dev, golang-github-go-logfmt-logfmt-dev, golang-github-mattn-go-colorable-dev, golang-github-pkg-errors-dev, golang-github-rogpeppe-fastuuid-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7e55ff15cc920247b6fe1c9564818209 2444 golang-github-apex-log_1.1.1-3.dsc
+ 26c783f41b03d53d3fa2ba7efa966f2b 27272 golang-github-apex-log_1.1.1.orig.tar.xz
+ fbed60b95c5164186a08b849ad0a845c 3024 golang-github-apex-log_1.1.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-apex-log
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-apex-log.git
+Checksums-Sha256:
+ 2fb059368df7103ccad59eab21423b103368f3767b9b1beffe915ce8a486cb77 2444 golang-github-apex-log_1.1.1-3.dsc
+ c26e564e522e8d27d4363f18118c27bc1a682ed1aeceb6d454daf700ae7a01b6 27272 golang-github-apex-log_1.1.1.orig.tar.xz
+ 986760194b0b68128741dcb9f51368afb3104b342873709b3e2cc9952120daf8 3024 golang-github-apex-log_1.1.1-3.debian.tar.xz
+Homepage: https://github.com/apex/log
+Go-Import-Path: github.com/apex/log
+Package-List: 
+ golang-github-apex-log-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-apex-log
+Priority: extra
+Section: golang

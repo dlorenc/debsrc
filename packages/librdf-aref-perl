@@ -1,0 +1,26 @@
+Package: librdf-aref-perl
+Binary: librdf-aref-perl
+Version: 0.28-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper, libjson-perl <!nocheck>, libmodule-build-tiny-perl, librdf-ns-perl (>= 20150725) <!nocheck>, librdf-trine-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 405e414083916bae7c7befe46db2b1e4 2166 librdf-aref-perl_0.28-1.dsc
+ 2f533870f12fd0ffb60d4a1f18757bc4 29804 librdf-aref-perl_0.28.orig.tar.gz
+ 990d1f56022fb3df267140b40c1985ed 4540 librdf-aref-perl_0.28-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/librdf-aref-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/librdf-aref-perl.git
+Checksums-Sha256:
+ 0f5257704777fc6cc8b9368ef96d4f027a537da7dc9bebb21edbf1ad4ebe194e 2166 librdf-aref-perl_0.28-1.dsc
+ 68084fe0269048d8fedccdac3eb00535cd417a08c67c5b1c6370f977eb30ae87 29804 librdf-aref-perl_0.28.orig.tar.gz
+ d19cb2772745a2b9c74e30aad4c450d8ad6fde2e164fe8d380426ee5ddce3987 4540 librdf-aref-perl_0.28-1.debian.tar.xz
+Homepage: https://github.com/nichtich/RDF-aREF
+Package-List: 
+ librdf-aref-perl deb oldlibs optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libr/librdf-aref-perl
+Priority: optional
+Section: misc

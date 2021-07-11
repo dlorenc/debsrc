@@ -1,0 +1,27 @@
+Package: r-cran-bench
+Binary: r-cran-bench
+Version: 1.1.1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-glue, r-cran-pillar, r-cran-rlang, r-cran-tibble, r-cran-profmem
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 25c682fc889bae3496916b4876907490 2142 r-cran-bench_1.1.1-1.dsc
+ 4ac987d4203899f2c740ba615c0a3cd1 251123 r-cran-bench_1.1.1.orig.tar.gz
+ 4a333e1d2eb7c20ee062c1b99d86d3dd 2120 r-cran-bench_1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-bench
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-bench.git
+Checksums-Sha256:
+ 58972ab3c2e6c4c21215181a5277d7cf2b70211f3d0082a10595239b6db6dc23 2142 r-cran-bench_1.1.1-1.dsc
+ 83373d8b1060e3579ca9725f527a605e312ba5b5b5f827d332fc71ab80abb8d1 251123 r-cran-bench_1.1.1.orig.tar.gz
+ e07e82d0db7cb4fcd7cd23f9c688d39b92966c9872a6e828d6ceac6701134e4a 2120 r-cran-bench_1.1.1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=bench
+Package-List: 
+ r-cran-bench deb gnu-r optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: r-cran-mockery, r-cran-testthat, r-cran-tidyr
+Directory: pool/main/r/r-cran-bench
+Priority: extra
+Section: misc

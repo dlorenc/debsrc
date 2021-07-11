@@ -1,0 +1,26 @@
+Package: haskell-gi-atk
+Binary: libghc-gi-atk-dev, libghc-gi-atk-prof, libghc-gi-atk-doc
+Version: 2.0.22-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-gi-glib-dev (>= 2.0), libghc-gi-glib-dev (<< 2.1), libghc-gi-glib-prof (>= 2.0), libghc-gi-glib-prof (<< 2.1), libghc-gi-gobject-dev (>= 2.0), libghc-gi-gobject-dev (<< 2.1), libghc-gi-gobject-prof, libghc-haskell-gi-dev (>= 0.24.0), libghc-haskell-gi-dev (<< 0.25), libghc-haskell-gi-prof, libghc-haskell-gi-base-dev (>= 0.24), libghc-haskell-gi-base-dev (<< 0.25), libghc-haskell-gi-base-prof, pkg-config, libatk1.0-dev
+Build-Depends-Indep: ghc-doc, libghc-gi-glib-doc, libghc-gi-gobject-doc, libghc-haskell-gi-doc, libghc-haskell-gi-base-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 87251dec27a48a796a24f2194b6dc8f9 2658 haskell-gi-atk_2.0.22-1.dsc
+ 426d4faff8033a25c8731b989160133f 11619 haskell-gi-atk_2.0.22.orig.tar.gz
+ 4189d5751f768998928d506f88d2ff4d 1736 haskell-gi-atk_2.0.22-1.debian.tar.xz
+Checksums-Sha256:
+ 09fc7db96e06546fd9dca7ec1d017fb1ba67805eb6c923fac0b39808c8a206a9 2658 haskell-gi-atk_2.0.22-1.dsc
+ 5d60188f5ad29eac069c2a064ab71e2688ba29b5434fed2fa6ec6fa086e7a0cb 11619 haskell-gi-atk_2.0.22.orig.tar.gz
+ 58b04f0c1a8eda1908205d8d7712f620dd8690684e6b2a2f40f99cc17e34d731 1736 haskell-gi-atk_2.0.22-1.debian.tar.xz
+Homepage: https://github.com/haskell-gi/haskell-gi
+Package-List: 
+ libghc-gi-atk-dev deb haskell optional arch=any
+ libghc-gi-atk-doc deb doc optional arch=all
+ libghc-gi-atk-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-gi-atk
+Priority: extra
+Section: misc

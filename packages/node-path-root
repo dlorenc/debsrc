@@ -1,0 +1,27 @@
+Package: node-path-root
+Binary: node-path-root
+Version: 0.1.1-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper (>= 9), dh-buildinfo, mocha, node-path-root-regex (>= 0.1.0), nodejs
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 05964c95acd61edb180b6bf3439fc26b 2131 node-path-root_0.1.1-1.1.dsc
+ bb803208597e756f799ab9312744e502 4600 node-path-root_0.1.1.orig.tar.gz
+ 7799d84575f59038f5d7a1ce78eefcf7 2484 node-path-root_0.1.1-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-path-root.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-path-root.git
+Checksums-Sha256:
+ cf9a44514f857901e6692e79eed9afcce552b5e4ff7c9d02d731cd76f154ff32 2131 node-path-root_0.1.1-1.1.dsc
+ 572d703cb26b1b2055cbf41d9c89a8764fec453b5572aed664048e92744254cf 4600 node-path-root_0.1.1.orig.tar.gz
+ 320c860cb0e9f664331c4355841909c16c48f76598b6120bc9eb206bde50bc8c 2484 node-path-root_0.1.1-1.1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/path-root
+Package-List: 
+ node-path-root deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/n/node-path-root
+Priority: optional
+Section: javascript

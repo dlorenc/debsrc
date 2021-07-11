@@ -1,0 +1,28 @@
+Package: golang-github-mcuadros-go-lookup
+Binary: golang-github-mcuadros-go-lookup-dev
+Version: 0.0~git20171110.5650f26-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dawid Dziurla <dawidd0811@gmail.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any, golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 2956cfa75cfc013c4912bb9d878905d4 2482 golang-github-mcuadros-go-lookup_0.0~git20171110.5650f26-2.dsc
+ 688827850a36058b69b50171c1d17439 4370 golang-github-mcuadros-go-lookup_0.0~git20171110.5650f26.orig.tar.gz
+ 12e10fe1f63bcde6f0cea0ba329f5f36 1948 golang-github-mcuadros-go-lookup_0.0~git20171110.5650f26-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mcuadros-go-lookup
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mcuadros-go-lookup.git
+Checksums-Sha256:
+ e686a43ab6c27697ccc07208a42d13530da2a513ac89951f0bc274cdbe910373 2482 golang-github-mcuadros-go-lookup_0.0~git20171110.5650f26-2.dsc
+ ba8777b0f630a6a7b0f022a088c7985885102b1e10c183f43639405ee0468abc 4370 golang-github-mcuadros-go-lookup_0.0~git20171110.5650f26.orig.tar.gz
+ fbee2ce699151cc9a1428cf12eab0337eacf959408f5a5b2ae23617bcd8e24e3 1948 golang-github-mcuadros-go-lookup_0.0~git20171110.5650f26-2.debian.tar.xz
+Homepage: https://github.com/mcuadros/go-lookup
+Go-Import-Path: github.com/mcuadros/go-lookup
+Package-List: 
+ golang-github-mcuadros-go-lookup-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mcuadros-go-lookup
+Priority: extra
+Section: golang

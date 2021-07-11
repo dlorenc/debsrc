@@ -1,0 +1,26 @@
+Package: commons-configuration2
+Binary: libcommons-configuration2-java, libcommons-configuration2-java-doc
+Version: 2.7-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, default-jdk-doc, javahelper, junit4, libcommons-beanutils-java, libcommons-beanutils-java-doc, libcommons-codec-java, libcommons-codec-java-doc, libcommons-dbcp-java, libcommons-dbcp-java-doc, libcommons-digester-java, libcommons-digester-java-doc, libcommons-jexl2-java, libcommons-jxpath-java (>= 1.3-5), libcommons-jxpath-java-doc, libcommons-lang-java (>= 2.3), libcommons-lang-java-doc, libcommons-logging-java, libcommons-logging-java-doc, libcommons-pool-java, libcommons-text-java, libcommons-vfs-java (>= 2.0), libcommons-vfs-java-doc, libeasymock-java, libjackson2-databind-java, libjavacc-maven-plugin-java, libmail-java, libmaven-javadoc-plugin-java, libservlet3.1-java, libspring-context-java, libyaml-snake-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7adcf06a5aaf3e17ad966160af1fdbdf 3082 commons-configuration2_2.7-2.dsc
+ 0c7b3a8354415725421b67d6d7235464 683052 commons-configuration2_2.7.orig.tar.xz
+ 151e574dc6e1274187fd40253d0d03ff 5040 commons-configuration2_2.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/commons-configuration2
+Vcs-Git: https://salsa.debian.org/java-team/commons-configuration2.git
+Checksums-Sha256:
+ a3b0ccb8595fdd13ba221b774091cee8cc981eb4b4b9f9f040ee4d4af3632e50 3082 commons-configuration2_2.7-2.dsc
+ a660e24f2b9a6da759a2638d896002917820195220809426bf157ea3f873efe0 683052 commons-configuration2_2.7.orig.tar.xz
+ adcd7975e5c303382d05d8cc8db00ba5da7a92b618f1e6880d90dafcaa5c1dc1 5040 commons-configuration2_2.7-2.debian.tar.xz
+Homepage: http://commons.apache.org/configuration/
+Package-List: 
+ libcommons-configuration2-java deb java optional arch=all
+ libcommons-configuration2-java-doc deb doc optional arch=all
+Directory: pool/main/c/commons-configuration2
+Priority: extra
+Section: misc

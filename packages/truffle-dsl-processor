@@ -1,0 +1,26 @@
+Package: truffle-dsl-processor
+Binary: libtruffle-dsl-processor-java, libtruffle-dsl-processor-java-doc
+Version: 0.6-2.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Miguel Landaeta <nomadium@debian.org>
+Build-Depends: debhelper (>= 9), default-jdk, maven-repo-helper, javahelper, libtruffle-java
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ ba5dc837516775814e92b11f0a8826f1 2226 truffle-dsl-processor_0.6-2.1.dsc
+ 977cf9e9c02509df8b042a373281b476 96986 truffle-dsl-processor_0.6.orig.tar.gz
+ 3c712b5a0ecf93f45cd4cc47d19b775d 2840 truffle-dsl-processor_0.6-2.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/truffle-dsl-processor.git
+Vcs-Git: git://anonscm.debian.org/pkg-java/truffle-dsl-processor.git
+Checksums-Sha256:
+ 8a3af8b4c9ce2bb14d45296cf93a63b3285e4c1701ac0cdf12a32000923acbe2 2226 truffle-dsl-processor_0.6-2.1.dsc
+ 7e2da8b4a55d3467c2a969f474f5d4bb1d8046c0f350e4152d2c5370f0b307b7 96986 truffle-dsl-processor_0.6.orig.tar.gz
+ 0dfb95cec9803c1a343a081c499045ff0819d836b218a84f0236d856220ab89a 2840 truffle-dsl-processor_0.6-2.1.debian.tar.xz
+Homepage: http://openjdk.java.net/projects/graal
+Package-List: 
+ libtruffle-dsl-processor-java deb java optional arch=all
+ libtruffle-dsl-processor-java-doc deb doc optional arch=all
+Directory: pool/main/t/truffle-dsl-processor
+Priority: optional
+Section: misc

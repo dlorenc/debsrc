@@ -1,0 +1,27 @@
+Package: clj-digest-clojure
+Binary: libclj-digest-clojure
+Version: 1.4.9+dfsg-1
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, maven-repo-helper, libclojure-java, libnrepl-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e739e50f217d536b9c414c71bc38d86b 2265 clj-digest-clojure_1.4.9+dfsg-1.dsc
+ a4d9158701e2387fc00ffa15250a1160 3172 clj-digest-clojure_1.4.9+dfsg.orig.tar.xz
+ 4d9d479fc65a6dff9c6c2b8f113ad7d7 14552 clj-digest-clojure_1.4.9+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/clj-digest-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/clj-digest-clojure.git
+Checksums-Sha256:
+ c0e25627b0e8c8407d399b1b8b6f852172b673630ed7dd81eb61b8bb03d800ce 2265 clj-digest-clojure_1.4.9+dfsg-1.dsc
+ 9003b12fc7ee1c8fad4efd1ddb343f1279ffa8ef33a09ccc026f018f3977f3af 3172 clj-digest-clojure_1.4.9+dfsg.orig.tar.xz
+ a41b7fe02bd237d39e4bc7d2308b0ef6bd2164107e99e1c2ba0120ce3d3a8db9 14552 clj-digest-clojure_1.4.9+dfsg-1.debian.tar.xz
+Homepage: https://github.com/tebeka/clj-digest
+Package-List: 
+ libclj-digest-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/c/clj-digest-clojure
+Priority: extra
+Section: misc

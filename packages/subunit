@@ -1,0 +1,32 @@
+Package: subunit
+Binary: libcppunit-subunit-dev, libcppunit-subunit0, libsubunit-dev, libsubunit-perl, libsubunit0, python3-subunit, subunit
+Version: 1.4.0-3
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Jelmer Vernooĳ <jelmer@debian.org>,
+Build-Depends: autoconf, automake, check <!nocheck>, debhelper-compat (= 12), dh-python, libcppunit-dev, libtool, openstack-pkg-tools, pkg-config, python3-all, python3-setuptools, python3-testscenarios <!nocheck>, python3-testtools <!nocheck>
+Build-Depends-Indep: perl
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ dd93f07cdc42297cf4ebd41226b9e253 2568 subunit_1.4.0-3.dsc
+ a99882182b1c00a74f84e88a285b5edb 91992 subunit_1.4.0.orig.tar.xz
+ ba3ac53e49afbacb09437ebd43423bcf 173996 subunit_1.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/subunit
+Vcs-Git: https://salsa.debian.org/openstack-team/python/subunit.git
+Checksums-Sha256:
+ a8212c55a76ffb249986be45e53562127d831273a62b9681c4b627281dfeb62e 2568 subunit_1.4.0-3.dsc
+ 31b57fc0cff983f752f4bfba553ca06cdf0c642fb4f86e1b49bf5cc5fdefb598 91992 subunit_1.4.0.orig.tar.xz
+ 3e58967a73ea67faa02295b84e45bee92e5d2526e4d5fbf95e8c8833078397db 173996 subunit_1.4.0-3.debian.tar.xz
+Homepage: https://code.launchpad.net/subunit
+Package-List: 
+ libcppunit-subunit-dev deb libdevel optional arch=any
+ libcppunit-subunit0 deb libs optional arch=any
+ libsubunit-dev deb libdevel optional arch=any
+ libsubunit-perl deb perl optional arch=all
+ libsubunit0 deb libs optional arch=any
+ python3-subunit deb python optional arch=all
+ subunit deb devel optional arch=all
+Directory: pool/main/s/subunit
+Priority: source
+Section: devel

@@ -1,0 +1,30 @@
+Package: node-liftoff
+Binary: node-liftoff
+Version: 3.1.0-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 12), chai <!nocheck>, mocha <!nocheck>, node-extend <!nocheck>, node-findup-sync (>= 0.4.2) <!nocheck>, node-fined <!nocheck>, node-flagged-respawn (>= 1.0~) <!nocheck>, node-for-own <!nocheck>, node-is-plain-object <!nocheck>, node-lodash-packages <!nocheck>, node-kind-of <!nocheck>, node-rechoir <!nocheck>, node-resolve (>= 1.1.7) <!nocheck>, node-sinon <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 5ae0c36e8144690df1cdea457c0e3a5a 2968 node-liftoff_3.1.0-4.dsc
+ 00db37fa649cf22ee768b93b63e81300 3340 node-liftoff_3.1.0.orig-make-iterator.tar.gz
+ 924d9c0b75cca130ab61f00a2ecc6599 2672 node-liftoff_3.1.0.orig-object-map.tar.gz
+ 038a0a64ac2ac39eeb0be91cb9b95e49 571880 node-liftoff_3.1.0.orig.tar.gz
+ 701be997b68383bcd1763fb7d72d8fa4 4836 node-liftoff_3.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-liftoff
+Vcs-Git: https://salsa.debian.org/js-team/node-liftoff.git
+Checksums-Sha256:
+ ffc20676829791737f64ab95300f7418c76dd1b8cf4e9ff110364f2a2eb8a50b 2968 node-liftoff_3.1.0-4.dsc
+ 2da16272887ed764ce3d8b763af5dd824c3fadb8b64d0518a97cd78beaad536b 3340 node-liftoff_3.1.0.orig-make-iterator.tar.gz
+ b27dfce6b63a591b86caea16705eb9e14949170ba0629645ed93ef8fa082080f 2672 node-liftoff_3.1.0.orig-object-map.tar.gz
+ 5d2157ad4241127120d208907befca85ae075787775f8a7da2dd22c572502ab4 571880 node-liftoff_3.1.0.orig.tar.gz
+ 72d356398a693f99d0ddcd319cebfb1ae7c6d3cfbb7dc9cc9580fb6abf9028c2 4836 node-liftoff_3.1.0-4.debian.tar.xz
+Homepage: https://github.com/js-cli/js-liftoff
+Package-List: 
+ node-liftoff deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-liftoff
+Priority: optional
+Section: javascript

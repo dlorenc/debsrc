@@ -1,0 +1,26 @@
+Package: seqmagick
+Binary: seqmagick
+Version: 0.8.4-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-nose, python3-biopython, python3-pygtrie
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a8727d9929154b30fb3eb1415f06718d 2087 seqmagick_0.8.4-1.dsc
+ 0c7b6732ea910867139652bcafaa8f35 668090 seqmagick_0.8.4.orig.tar.gz
+ d3ec5f9bff8b4b8abf94064f527b5ca3 4312 seqmagick_0.8.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/seqmagick
+Vcs-Git: https://salsa.debian.org/med-team/seqmagick.git
+Checksums-Sha256:
+ d655f35f7ba1ef0d65b77061d59914f379822998349471b3fc8055b6c8e3e9b2 2087 seqmagick_0.8.4-1.dsc
+ d7c583199bf09f05ea7ea833b4d97bd9cea01436d7320f80c5f6492a016b3b2f 668090 seqmagick_0.8.4.orig.tar.gz
+ 65083713625225bba9f57682dc844af7941ee3c2697b86173dbcbd7036b798b1 4312 seqmagick_0.8.4-1.debian.tar.xz
+Homepage: https://github.com/fhcrc/seqmagick/
+Package-List: 
+ seqmagick deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/s/seqmagick
+Priority: extra
+Section: misc

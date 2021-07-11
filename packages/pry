@@ -1,0 +1,27 @@
+Package: pry
+Binary: pry
+Version: 0.13.1-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1.0~), gist, rake, ruby-coderay (>= 1.1~), ruby-method-source (>= 1.0~), ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3294b055b84cefbe9f0e4a83677784ec 2081 pry_0.13.1-1.dsc
+ 193d472e131774bdbeaea5505025cd08 240103 pry_0.13.1.orig.tar.gz
+ 009118fabbe63096edc3f986d02822d6 9912 pry_0.13.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/pry
+Vcs-Git: https://salsa.debian.org/ruby-team/pry.git
+Checksums-Sha256:
+ 835f2e57335a7df42f1752d24ef590b5e67750949a463c0422d128c0a188074e 2081 pry_0.13.1-1.dsc
+ e57cf388ffb5779e4effb34b83a2f3fa238ec73e952272b48c235059b9f634f8 240103 pry_0.13.1.orig.tar.gz
+ 6800000cc3b8b139fadabc286023898fcd9512a6d5c8771085e876a2c7c39c19 9912 pry_0.13.1-1.debian.tar.xz
+Homepage: https://pry.github.io/
+Package-List: 
+ pry deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/p/pry
+Priority: optional
+Section: misc

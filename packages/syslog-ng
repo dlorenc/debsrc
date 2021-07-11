@@ -1,0 +1,52 @@
+Package: syslog-ng
+Binary: syslog-ng, syslog-ng-dbg, syslog-ng-dev, syslog-ng-core, syslog-ng-mod-mongodb, syslog-ng-mod-sql, syslog-ng-mod-smtp, syslog-ng-mod-amqp, syslog-ng-mod-geoip2, syslog-ng-mod-redis, syslog-ng-mod-stomp, syslog-ng-mod-riemann, syslog-ng-mod-graphite, syslog-ng-mod-python, syslog-ng-mod-add-contextual-data, syslog-ng-mod-getent, syslog-ng-mod-stardate, syslog-ng-mod-map-value-pairs, syslog-ng-mod-snmp, syslog-ng-mod-xml-parser, syslog-ng-mod-http, syslog-ng-mod-rdkafka, syslog-ng-mod-extra, syslog-ng-mod-examples, syslog-ng-mod-slog
+Version: 3.28.1-2
+Maintainer: syslog-ng maintainers <syslog-ng-maintainers@alioth-lists.debian.net>
+Uploaders: Laszlo Boszormenyi (GCS) <gcs@debian.org>, SZALAY Attila <sasa@debian.org>
+Build-Depends: debhelper (>= 10~), automake (>= 1:1.11.1), autoconf-archive, tzdata, pkg-config, flex, bison (>= 3.4.2), xsltproc, docbook-xsl, libesmtp-dev, libivykis-dev (>= 0.36.1~), libnet1-dev, libglib2.0-dev, libdbi-dev | libdbi0-dev, libssl-dev, libmongoc-dev, libbson-dev, libjson-c-dev | libjson0-dev, libwrap0-dev, libpcre3-dev, libcap-dev [linux-any], libsystemd-dev (>= 209) [linux-any], libhiredis-dev, libriemann-client-dev (>= 1.6.0~), librabbitmq-dev, python3, python3-dev, dh-python, dh-exec (>= 0.13~), python3-nose, python3-ply, libxml2-utils, geoip-database, libmaxminddb-dev, libcurl4-openssl-dev, libsnappy-dev, libsnmp-dev [linux-any hurd-i386], librdkafka-dev (>= 1.0.0)
+Build-Conflicts: autoconf2.13
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 574077ae694fd190d409a6cbca0044a1 4484 syslog-ng_3.28.1-2.dsc
+ afe91d27cf57b5f8373891618747bca8 1681069 syslog-ng_3.28.1.orig.tar.gz
+ 985275b7c7ad85d11fdd3e10f0203592 41136 syslog-ng_3.28.1-2.debian.tar.xz
+Vcs-Browser: https://github.com/gcsideal/syslog-ng-debian
+Vcs-Git: https://github.com/gcsideal/syslog-ng-debian.git
+Checksums-Sha256:
+ 0de3380a02a034b47677ae9574c32d1a0ee5de7ab18e85177bdead16739e3f59 4484 syslog-ng_3.28.1-2.dsc
+ a13409998320b914dcc5940e2b93155aa9adc2fe232dd3505b68541eadc2df6f 1681069 syslog-ng_3.28.1.orig.tar.gz
+ 2328c46f578f9ff049e5064fbb47f293a2abba94d28a1d4217b96f0034b28d4f 41136 syslog-ng_3.28.1-2.debian.tar.xz
+Homepage: https://www.syslog-ng.com/
+Package-List: 
+ syslog-ng deb admin optional arch=all
+ syslog-ng-core deb admin optional arch=any
+ syslog-ng-dbg deb debug optional arch=any
+ syslog-ng-dev deb libdevel optional arch=any
+ syslog-ng-mod-add-contextual-data deb admin optional arch=any
+ syslog-ng-mod-amqp deb admin optional arch=any
+ syslog-ng-mod-examples deb admin optional arch=any
+ syslog-ng-mod-extra deb admin optional arch=all
+ syslog-ng-mod-geoip2 deb admin optional arch=any
+ syslog-ng-mod-getent deb admin optional arch=any
+ syslog-ng-mod-graphite deb admin optional arch=any
+ syslog-ng-mod-http deb admin optional arch=any
+ syslog-ng-mod-map-value-pairs deb admin optional arch=any
+ syslog-ng-mod-mongodb deb admin optional arch=any
+ syslog-ng-mod-python deb admin optional arch=any
+ syslog-ng-mod-rdkafka deb admin optional arch=any
+ syslog-ng-mod-redis deb admin optional arch=any
+ syslog-ng-mod-riemann deb admin optional arch=any
+ syslog-ng-mod-slog deb admin optional arch=any
+ syslog-ng-mod-smtp deb admin optional arch=any
+ syslog-ng-mod-snmp deb admin optional arch=linux-any,hurd-i386
+ syslog-ng-mod-sql deb admin optional arch=any
+ syslog-ng-mod-stardate deb admin optional arch=any
+ syslog-ng-mod-stomp deb admin optional arch=any
+ syslog-ng-mod-xml-parser deb admin optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: syslog-ng-mod-tag-parser, sysvinit-core
+Directory: pool/main/s/syslog-ng
+Priority: source
+Section: admin

@@ -1,0 +1,25 @@
+Package: libextractor-java
+Binary: libextractor-java0, libextractor-java-dev
+Version: 1.0.0-2
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Build-Depends: debhelper (>= 9), autotools-dev, default-jdk, libextractor-dev (>= 1:0.6), sharutils
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 384c263cea18ce607461b74970b89a9b 2155 libextractor-java_1.0.0-2.dsc
+ f35a422e30f9aa0130718bae798e5dfd 339755 libextractor-java_1.0.0.orig.tar.gz
+ 5ea58980b426bcbf13a628a3b4e2a34a 10588 libextractor-java_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://git.progress-linux.org/users/daniel.baumann/debian/packages/libextractor-java
+Vcs-Git: https://git.progress-linux.org/users/daniel.baumann/debian/packages/libextractor-java
+Checksums-Sha256:
+ 54d052723802aecc8fbbdf2efae9b7a17bdb28d576cbcc5943055dcd77a92a81 2155 libextractor-java_1.0.0-2.dsc
+ ed20d34afce61c3f83bd28ed2bcfe1595a847ca1f862d76087d2d733db9099dc 339755 libextractor-java_1.0.0.orig.tar.gz
+ 39818f830ed322c292fd6c47dfe7bb55e34946d3146d557d21984cf7dcc8aa1c 10588 libextractor-java_1.0.0-2.debian.tar.xz
+Homepage: http://www.gnu.org/software/libextractor/
+Package-List: 
+ libextractor-java-dev deb libdevel optional arch=any
+ libextractor-java0 deb libs optional arch=any
+Directory: pool/main/libe/libextractor-java
+Priority: source
+Section: java

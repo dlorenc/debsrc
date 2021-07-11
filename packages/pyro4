@@ -1,0 +1,27 @@
+Package: pyro4
+Binary: pyro4, python3-pyro4, pyro4-doc, pyro4-examples
+Version: 4.80-1
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper-compat (= 11), python3-all
+Build-Depends-Indep: dh-python, python3-sphinx, python3-sphinx-rtd-theme, python3-serpent (>= 1.27), python3-setuptools, python3-cloudpickle (>= 0.4.0), python3-dill (>= 0.2.6), python3-msgpack (>= 0.5.2)
+Build-Conflicts: python-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ df8e51ed5d9a05327fd75eedc08c4c0b 2106 pyro4_4.80-1.dsc
+ 647cb2137f0ed56b9ed0b9f8ef798688 505536 pyro4_4.80.orig.tar.gz
+ 3b8e970fcd6cc2a088f3943b307d8e23 5736 pyro4_4.80-1.debian.tar.xz
+Checksums-Sha256:
+ 361a9b27912679aaaad3847dbb005e9638c41775665bfd47a0482a92c10596be 2106 pyro4_4.80-1.dsc
+ 0ecdc9ab2fae5851cf32cfaaa543e46ec72690abb0462cf2335998b3f285d849 505536 pyro4_4.80.orig.tar.gz
+ 52767b01ae892e07c37063b306b567ca9e825aed2779383de7c5d799ba35e8d6 5736 pyro4_4.80-1.debian.tar.xz
+Homepage: https://packages.python.org/Pyro4/
+Package-List: 
+ pyro4 deb python optional arch=all
+ pyro4-doc deb doc optional arch=all
+ pyro4-examples deb python optional arch=all
+ python3-pyro4 deb python optional arch=all
+Directory: pool/main/p/pyro4
+Priority: source
+Section: misc

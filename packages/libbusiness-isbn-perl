@@ -1,0 +1,28 @@
+Package: libbusiness-isbn-perl
+Binary: libbusiness-isbn-perl
+Version: 3.006-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Vincent Danjean <vdanjean@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libbusiness-isbn-data-perl (>= 20191107) <!nocheck>, libgd-barcode-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libwww-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 88df8fd9b0761b4da983d137e92b6ce9 2620 libbusiness-isbn-perl_3.006-1.dsc
+ 9b9ecd69bc6157332836dc870217ac67 362014 libbusiness-isbn-perl_3.006.orig.tar.gz
+ ce9a2fc1f7f7068e8bdb485eb2eb37ac 7068 libbusiness-isbn-perl_3.006-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libbusiness-isbn-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libbusiness-isbn-perl.git
+Checksums-Sha256:
+ c2dc3cd1d8cd4bf904e3a5338ecf16930e19700b8cc3d32f5fe235cb884afce9 2620 libbusiness-isbn-perl_3.006-1.dsc
+ c1fefe68354ffb80cdbd24303ebe684b3b6828df3d5f09b429a09fc4f0919c9a 362014 libbusiness-isbn-perl_3.006.orig.tar.gz
+ 0672a564a8c406573ef4bbb59a8d782bad3ef74d73eeb0f3f48509c1dc6a97d3 7068 libbusiness-isbn-perl_3.006-1.debian.tar.xz
+Homepage: https://sourceforge.net/projects/perl-isbn/
+Dgit: 51e42cf379411b41c006a3c1ee9fb43fecb53d2d debian archive/debian/3.006-1 https://git.dgit.debian.org/libbusiness-isbn-perl
+Package-List: 
+ libbusiness-isbn-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libb/libbusiness-isbn-perl
+Priority: source
+Section: perl

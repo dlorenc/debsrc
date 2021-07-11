@@ -1,0 +1,27 @@
+Package: ppx-optcomp
+Binary: libppx-optcomp-ocaml-dev, libppx-optcomp-ocaml
+Version: 1:0.14.0-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, ocaml-findlib, ocaml-dune, libbase-ocaml-dev (>= 0.14), libstdio-ocaml-dev (>= 0.14), libppxlib-ocaml-dev (>= 0.11.0), dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 36c2b7f5647b8bec28bb859e3111717d 1962 ppx-optcomp_0.14.0-1.dsc
+ c00cd1f3b478d682a54594bfe6349ad2 16583 ppx-optcomp_0.14.0.orig.tar.gz
+ f983d8cfa1ecd39194d27c7c817a2a94 2348 ppx-optcomp_0.14.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ppx-optcomp
+Vcs-Git: https://salsa.debian.org/ocaml-team/ppx-optcomp.git
+Checksums-Sha256:
+ c3cff324a4ae2d619929c341e6aa156a7fbb5b49287c4c8b2087dd07cf2ff6a2 1962 ppx-optcomp_0.14.0-1.dsc
+ c313d573059f35045754d134c316a4e7d9b5af8cef85719af312086304bb7464 16583 ppx-optcomp_0.14.0.orig.tar.gz
+ daf9966545df96a066512030fce86cfdbecf6e0be39225aa2ded6440428fc242 2348 ppx-optcomp_0.14.0-1.debian.tar.xz
+Homepage: https://github.com/janestreet/ppx_optcomp
+Dgit: 6e917647046fc31e785c9f7aa0c0323ca58a5cf9 debian archive/debian/1%0.14.0-1 https://git.dgit.debian.org/ppx-optcomp
+Package-List: 
+ libppx-optcomp-ocaml deb ocaml optional arch=any
+ libppx-optcomp-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/p/ppx-optcomp
+Priority: optional
+Section: misc

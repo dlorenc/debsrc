@@ -1,0 +1,28 @@
+Package: subliminal
+Binary: python3-subliminal, subliminal, subliminal-nautilus
+Version: 2.1.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Etienne Millon <me@emillon.org>, Oxan van Leeuwen <oxan@oxanvanleeuwen.nl>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: python3-html5lib, python3-guessit (>= 2.0.1), python3-babelfish, python3-enzyme, python3-bs4, python3-requests, python3-click, python3-dogpile.cache, python3-stevedore, python3-chardet, python3-pysrt, python3-six, python3-appdirs, python3-rarfile, python3-tz
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 04b524040876200849a45e9f6d0408bb 2464 subliminal_2.1.0-1.dsc
+ bd1193a10f2229ef04883977817930ae 52468 subliminal_2.1.0.orig.tar.gz
+ ccdac560059ec15323730707ae22de0a 13520 subliminal_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/subliminal
+Vcs-Git: https://salsa.debian.org/python-team/packages/subliminal.git
+Checksums-Sha256:
+ c6c40355c1a2a59a2d5cebf3a5a484d0a2e7394dca079a3ee302487bbe3b16d1 2464 subliminal_2.1.0-1.dsc
+ c6439cc733a4f37f01f8c14c096d44fd28d75d1f6f6e2d1d1003b1b82c65628b 52468 subliminal_2.1.0.orig.tar.gz
+ 079f69f99aa5d80592e36d4e009103a2d3007148259a8b822682fa882a87c299 13520 subliminal_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/Diaoul/subliminal
+Package-List: 
+ python3-subliminal deb python optional arch=all
+ subliminal deb video optional arch=all
+ subliminal-nautilus deb video optional arch=all
+Directory: pool/main/s/subliminal
+Priority: optional
+Section: video

@@ -1,0 +1,27 @@
+Package: rust-sysinfo
+Binary: librust-sysinfo-dev, librust-sysinfo+debug-dev
+Version: 0.13.2-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-doc-comment-0.3+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-ntapi-0.3+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>, librust-rayon-1+default-dev <!nocheck>, librust-winapi-0.3+combaseapi-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+fileapi-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+ifdef-dev <!nocheck>, librust-winapi-0.3+ioapiset-dev <!nocheck>, librust-winapi-0.3+lmaccess-dev <!nocheck>, librust-winapi-0.3+lmapibuf-dev <!nocheck>, librust-winapi-0.3+lmcons-dev <!nocheck>, librust-winapi-0.3+memoryapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+netioapi-dev <!nocheck>, librust-winapi-0.3+objidl-dev <!nocheck>, librust-winapi-0.3+oleauto-dev <!nocheck>, librust-winapi-0.3+pdh-dev <!nocheck>, librust-winapi-0.3+powerbase-dev <!nocheck>, librust-winapi-0.3+psapi-dev <!nocheck>, librust-winapi-0.3+rpcdce-dev <!nocheck>, librust-winapi-0.3+shellapi-dev <!nocheck>, librust-winapi-0.3+synchapi-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>, librust-winapi-0.3+wbemcli-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>, librust-winapi-0.3+winioctl-dev <!nocheck>, librust-winapi-0.3+winnt-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bf0ca19fb86862f238300618be214438 3241 rust-sysinfo_0.13.2-3.dsc
+ 16aedc9cf1b0eadb9e3e05e66c15ecc7 75774 rust-sysinfo_0.13.2.orig.tar.gz
+ 6b9d3654fa331d59c796eeafa57db9a5 3632 rust-sysinfo_0.13.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sysinfo
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/sysinfo]
+Checksums-Sha256:
+ bcb5673a633049df999ed109a84005c72827090e92c95b7bf07488683f355af2 3241 rust-sysinfo_0.13.2-3.dsc
+ 7bce96c3dd658a8916b8f379bae5a809ee0442b049fff1ce8e814dc0aedd5f5e 75774 rust-sysinfo_0.13.2.orig.tar.gz
+ 6a3f4ae413c3a258dbd2a801e1cd8474ee64389581d1fbe295c2adc874e569ce 3632 rust-sysinfo_0.13.2-3.debian.tar.xz
+Package-List: 
+ librust-sysinfo+debug-dev deb rust optional arch=any
+ librust-sysinfo-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-sysinfo
+Priority: extra
+Section: misc

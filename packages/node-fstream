@@ -1,0 +1,26 @@
+Package: node-fstream
+Binary: node-fstream
+Version: 1.0.12-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), node-rimraf <!nocheck>, node-mkdirp (>= 1) <!nocheck>, node-graceful-fs <!nocheck>, node-inherits <!nocheck>, node-tap <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8fc2a50ab4620dea1fb9ae3501be9d60 2145 node-fstream_1.0.12-4.dsc
+ 625ba9a5789351d9cc160e9ba82ac05a 33267 node-fstream_1.0.12.orig.tar.gz
+ 5d080d179b5590354a1ce175a9de021d 3860 node-fstream_1.0.12-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-fstream
+Vcs-Git: https://salsa.debian.org/js-team/node-fstream.git
+Checksums-Sha256:
+ 7b80a9eae29f25673717e8f2a6f235b200207794cfadf68bd4208b6fcbd604eb 2145 node-fstream_1.0.12-4.dsc
+ cc56ad8f8f2ebe732ec56b6776a4e757357dbd1bc2d261451e6216073f4a3c4c 33267 node-fstream_1.0.12.orig.tar.gz
+ 2d6889d2446086a1f10baeb7df888004b7ee2cfa764b29622bc5d315258ca1a1 3860 node-fstream_1.0.12-4.debian.tar.xz
+Homepage: https://github.com/npm/fstream
+Package-List: 
+ node-fstream deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-fstream
+Priority: source
+Section: javascript

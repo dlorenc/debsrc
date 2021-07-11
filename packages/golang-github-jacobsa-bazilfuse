@@ -1,0 +1,27 @@
+Package: golang-github-jacobsa-bazilfuse
+Binary: golang-github-jacobsa-bazilfuse-dev
+Version: 0.0~git20150622-4
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-any, golang-bazil-fuse-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ d5469c6aa67bc28e5bfba3209fe15810 2426 golang-github-jacobsa-bazilfuse_0.0~git20150622-4.dsc
+ c4f3d236d31cd99ee2117036ccb4cbc7 172782 golang-github-jacobsa-bazilfuse_0.0~git20150622.orig.tar.bz2
+ 936852a2788527a82ce6f3bce5c13da0 3616 golang-github-jacobsa-bazilfuse_0.0~git20150622-4.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-jacobsa-bazilfuse.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-jacobsa-bazilfuse.git
+Checksums-Sha256:
+ 11bab0eda33180f79230c6115da62cede2b36419c6e695e89b699b4c1ac1878e 2426 golang-github-jacobsa-bazilfuse_0.0~git20150622-4.dsc
+ da895352c0c3637f63c6d58b7c0b3f642f848a1fb0c6f129be3f9187c621a4c4 172782 golang-github-jacobsa-bazilfuse_0.0~git20150622.orig.tar.bz2
+ 6c5ac23f89ff325299df9ad80a184fb5bea90c74f05b780868dc31e33ee38681 3616 golang-github-jacobsa-bazilfuse_0.0~git20150622-4.debian.tar.xz
+Homepage: https://github.com/jacobsa/bazilfuse
+Go-Import-Path: github.com/jacobsa/bazilfuse
+Package-List: 
+ golang-github-jacobsa-bazilfuse-dev deb devel extra arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-jacobsa-bazilfuse
+Priority: extra
+Section: golang

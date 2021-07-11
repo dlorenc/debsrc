@@ -1,0 +1,21 @@
+Package: tzsetup
+Binary: tzsetup-udeb
+Version: 1:0.115
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Build-Depends: debhelper (>= 9), tzdata, iso-codes, isoquery
+Build-Depends-Indep: po-debconf
+Architecture: all
+Format: 3.0 (native)
+Files:
+ 0a44919be0d6020777fc4dabb7b3c931 1625 tzsetup_0.115.dsc
+ 980e5cdc71af8b25dd97d01e0b2536e1 114324 tzsetup_0.115.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/tzsetup
+Vcs-Git: https://salsa.debian.org/installer-team/tzsetup.git
+Checksums-Sha256:
+ cc5a987ef1162e7de248ade9c55d4edbe8d4e359871a4361d8cfc6799da05699 1625 tzsetup_0.115.dsc
+ 89dea8d8e31de6c3b7f517315551bba378f49a3290972400712eb41f10227b61 114324 tzsetup_0.115.tar.xz
+Package-List: 
+ tzsetup-udeb udeb debian-installer optional arch=all
+Directory: pool/main/t/tzsetup
+Priority: source
+Section: misc

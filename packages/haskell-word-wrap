@@ -1,0 +1,26 @@
+Package: haskell-word-wrap
+Binary: libghc-word-wrap-dev, libghc-word-wrap-prof, libghc-word-wrap-doc
+Version: 0.4.1-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-hspec-dev (>= 2.4)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fe04e542f0d25f592e3d0a6c31d033a9 2173 haskell-word-wrap_0.4.1-4.dsc
+ 9f61645b64472df9494c611c48bfa505 4994 haskell-word-wrap_0.4.1.orig.tar.gz
+ 50bf935a3472a9e9e9d5edd15d4c6593 2216 haskell-word-wrap_0.4.1-4.debian.tar.xz
+Checksums-Sha256:
+ 4ee3efeec3deaf1efb2081f1998c82f9165f9327e2853e268fe79d2d9e90f8d9 2173 haskell-word-wrap_0.4.1-4.dsc
+ eb72f91947c0c62cb862feb33cad9efdc5e720f456fa9ca68ef8ac9d1ec42c97 4994 haskell-word-wrap_0.4.1.orig.tar.gz
+ 07bda4eaf57d122029530a2c26498d06282cd20e8a1434fe004bc57780d09025 2216 haskell-word-wrap_0.4.1-4.debian.tar.xz
+Homepage: https://github.com/jtdaugherty/word-wrap/
+Package-List: 
+ libghc-word-wrap-dev deb haskell optional arch=any
+ libghc-word-wrap-doc deb doc optional arch=all
+ libghc-word-wrap-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-word-wrap
+Priority: extra
+Section: misc

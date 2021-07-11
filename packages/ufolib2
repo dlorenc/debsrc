@@ -1,0 +1,27 @@
+Package: ufolib2
+Binary: python3-ufolib2
+Version: 0.11.1+dfsg1-1
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Yao Wei (魏銘廷) <mwei@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-wheel, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-fonttools (>= 4.18.2), python3-attr (>= 20.3.0), python3-pytest
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 58aef11114ee34ce77fbedfc71187653 2207 ufolib2_0.11.1+dfsg1-1.dsc
+ 27f4f12d0e9bbdbf3b11c06fe50e195b 41576 ufolib2_0.11.1+dfsg1.orig.tar.xz
+ d73c9b90e103daeaa28b6a1524e1c8c3 3560 ufolib2_0.11.1+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/ufolib2
+Vcs-Git: https://salsa.debian.org/fonts-team/ufolib2.git
+Checksums-Sha256:
+ a7c3e0dc3806304de9eb12d2dc7ef139ef69064a58244e21b44081b6b63818e7 2207 ufolib2_0.11.1+dfsg1-1.dsc
+ b1c3af69739240b290be02a78d153af60a0c269a7ec1188aead8cec2c2f40ff0 41576 ufolib2_0.11.1+dfsg1.orig.tar.xz
+ 97d544c558dcf8cbaae4432f6d67198209c5eefc8f5d9bf51711b396da773768 3560 ufolib2_0.11.1+dfsg1-1.debian.tar.xz
+Homepage: https://github.com/fonttools/ufoLib2
+Package-List: 
+ python3-ufolib2 deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/u/ufolib2
+Priority: extra
+Section: misc

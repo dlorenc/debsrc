@@ -1,0 +1,26 @@
+Package: rust-arc-swap
+Binary: librust-arc-swap-dev
+Version: 0.4.8-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9a13640c71ca1d58806c7b2733171f4a 2328 rust-arc-swap_0.4.8-2.dsc
+ a5477b618cf3f7e1d9b7febd4b93ca56 48254 rust-arc-swap_0.4.8.orig.tar.gz
+ fa8e1b123c20417e2a75b6186e35a49f 3232 rust-arc-swap_0.4.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/arc-swap
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/arc-swap]
+Checksums-Sha256:
+ 54de464e74648a739aa0aa1ff0129f4b5a319db861c3525d2f8f53bc4541e357 2328 rust-arc-swap_0.4.8-2.dsc
+ dabe5a181f83789739c194cbe5a897dde195078fac08568d09221fd6137a7ba8 48254 rust-arc-swap_0.4.8.orig.tar.gz
+ fb5fdabd41e956d814ff03f3ca12072a7b72a3ac2277baf5adb563ccb46b966a 3232 rust-arc-swap_0.4.8-2.debian.tar.xz
+Package-List: 
+ librust-arc-swap-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-crossbeam-utils-0.7+default-dev, librust-itertools-0.9+default-dev, librust-num-cpus-1+default-dev, librust-once-cell-1+default-dev, librust-proptest-0.9+default-dev
+Directory: pool/main/r/rust-arc-swap
+Priority: extra
+Section: misc

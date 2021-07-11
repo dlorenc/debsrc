@@ -1,0 +1,28 @@
+Package: libjson-validator-perl
+Binary: libjson-validator-perl
+Version: 4.14+dfsg-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Kanashiro <kanashiro@debian.org>, Nick Morrott <nickm@debian.org>, Andrius Merkys <merkys@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: jq, libboolean-perl <!nocheck>, libcpanel-json-xs-perl (>= 3.0200) <!nocheck>, libdata-validate-domain-perl <!nocheck>, libdata-validate-ip-perl <!nocheck>, libmojolicious-perl (>= 7.28) <!nocheck>, libnet-idn-encode-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libsereal-encoder-perl (>= 4.00) <!nocheck>, libtest-deep-perl <!nocheck>, libtest-simple-perl (>= 1.300000) <!nocheck>, libyaml-libyaml-perl (>= 0.80) <!nocheck>, libyaml-pp-perl <!nocheck>, openapi-specification
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 73b9a8e73479d555730566a3edd200f7 3013 libjson-validator-perl_4.14+dfsg-1.dsc
+ ea7c5d426bf16fb40f15dddb7830f229 71096 libjson-validator-perl_4.14+dfsg.orig.tar.xz
+ 78a32006a5c7bdfa66622b92c369f813 7996 libjson-validator-perl_4.14+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libjson-validator-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libjson-validator-perl.git
+Checksums-Sha256:
+ 83fcfd9768ac7ca2db3e022f21c30e84367117a9ccfaac94ccb938a0f34c7381 3013 libjson-validator-perl_4.14+dfsg-1.dsc
+ c3e19aaf909ec6e83f0d2a9019f0c775c416525a4af1f1e266e600a98df6d2ca 71096 libjson-validator-perl_4.14+dfsg.orig.tar.xz
+ 8609989cd31d422a50bb919e48fcaa5a558956b6070db0009f9379dce4f0cfff 7996 libjson-validator-perl_4.14+dfsg-1.debian.tar.xz
+Homepage: https://metacpan.org/release/JSON-Validator
+Dgit: 5d5e4703360826e76f11cbbfe7f08d54675b6178 debian archive/debian/4.14+dfsg-1 https://git.dgit.debian.org/libjson-validator-perl
+Package-List: 
+ libjson-validator-perl deb perl optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Directory: pool/main/libj/libjson-validator-perl
+Priority: optional
+Section: misc

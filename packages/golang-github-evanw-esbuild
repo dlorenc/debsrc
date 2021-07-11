@@ -1,0 +1,28 @@
+Package: golang-github-evanw-esbuild
+Binary: golang-github-evanw-esbuild-dev, esbuild
+Version: 0.8.39-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any (>= 2:1.13~), golang-golang-x-sys-dev (>= 0.0~git20200501.bc7a7d4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 579cf5ae852193ce83f0cb27186eea14 2374 golang-github-evanw-esbuild_0.8.39-1.dsc
+ 989aea9ef124292ec058d0671d331753 1188989 golang-github-evanw-esbuild_0.8.39.orig.tar.gz
+ cd698e37b61f6ed3e7b412ea10e78fc0 6320 golang-github-evanw-esbuild_0.8.39-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-evanw-esbuild
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-evanw-esbuild.git
+Checksums-Sha256:
+ cf6cb7f3919294e4c4a25d87df9b2b33a96d9a6d9eec01a908617f5c497483d2 2374 golang-github-evanw-esbuild_0.8.39-1.dsc
+ 03203d1827510d5db964aec43866c51c0b18d2d4ccade4f32bf5dbe60e5a85f2 1188989 golang-github-evanw-esbuild_0.8.39.orig.tar.gz
+ 16627d045272385a7eff5b220160ad2498478c714056ff3d6350bb3a74ea097e 6320 golang-github-evanw-esbuild_0.8.39-1.debian.tar.xz
+Homepage: https://github.com/evanw/esbuild
+Go-Import-Path: github.com/evanw/esbuild
+Package-List: 
+ esbuild deb javascript optional arch=any
+ golang-github-evanw-esbuild-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-evanw-esbuild
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: libcache-fastmmap-perl
+Binary: libcache-fastmmap-perl
+Version: 1.56-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Harlan Lieberman-Berg <hlieberman@setec.io>
+Build-Depends: debhelper-compat (= 13), libcompress-lz4-perl <!nocheck>, libcompress-snappy-perl <!nocheck>, libtest-deep-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 463bd2146de739ca3022810ca6aef1ff 2589 libcache-fastmmap-perl_1.56-1.dsc
+ 009b4ef37286638e5eac89d55536418a 56713 libcache-fastmmap-perl_1.56.orig.tar.gz
+ 412a9181727b0b9c8c68aedaf1884657 4568 libcache-fastmmap-perl_1.56-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcache-fastmmap-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcache-fastmmap-perl.git
+Checksums-Sha256:
+ 41f82231dc00a55855181a9238d09dd1364bbcc641e69eecf195b15563a3b581 2589 libcache-fastmmap-perl_1.56-1.dsc
+ 8becaf0dacc876e9f60f4737104b79fd4e343d6fd984cef7d7a6dd14516b2159 56713 libcache-fastmmap-perl_1.56.orig.tar.gz
+ baef0697e5cfa0dfd1a6d5d4e3372ef03c8d680b6e9363ab5a4b766d73c512f5 4568 libcache-fastmmap-perl_1.56-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Cache-FastMmap
+Dgit: a2ec7797802af7137e38a4b596d024c534432836 debian archive/debian/1.56-1 https://git.dgit.debian.org/libcache-fastmmap-perl
+Package-List: 
+ libcache-fastmmap-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcache-fastmmap-perl
+Priority: source
+Section: perl

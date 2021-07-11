@@ -1,0 +1,26 @@
+Package: libaio
+Binary: libaio1, libaio1-udeb, libaio-dev
+Version: 0.3.112-9
+Maintainer: Guillem Jover <guillem@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f6f4cf73a1278cf5a558f47805c6e938 1974 libaio_0.3.112-9.dsc
+ 66e3b7dd255581a73542ee851f8cd737 38196 libaio_0.3.112.orig.tar.xz
+ f5462e26ba6cdef2ada506ade5c2f8d8 32368 libaio_0.3.112-9.debian.tar.xz
+Vcs-Browser: https://git.hadrons.org/cgit/debian/pkgs/libaio.git
+Vcs-Git: https://git.hadrons.org/git/debian/pkgs/libaio.git
+Checksums-Sha256:
+ 8363ce02c342c17d9fe3e9f8c9583446ac0e2af83b08efc447092be38a5a7c78 1974 libaio_0.3.112-9.dsc
+ f69e5800425f4ea957426693ac09f9896bb993db5490fa021644454adcc72a32 38196 libaio_0.3.112.orig.tar.xz
+ 24fcf641b66c01c7507819c567bbfb7b75345670bcb9a44eb1fc5225a17c963e 32368 libaio_0.3.112-9.debian.tar.xz
+Homepage: https://pagure.io/libaio
+Package-List: 
+ libaio-dev deb libdevel optional arch=linux-any
+ libaio1 deb libs optional arch=linux-any
+ libaio1-udeb udeb debian-installer optional arch=linux-any
+Directory: pool/main/liba/libaio
+Priority: source
+Section: libs

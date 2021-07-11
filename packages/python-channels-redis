@@ -1,0 +1,26 @@
+Package: python-channels-redis
+Binary: python3-channels-redis
+Version: 3.2.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-aioredis, python3-all, python3-asgiref (>= 3.2.10~), python3-async-generator, python3-async-timeout, python3-django-channels (>= 3~), python3-msgpack, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d05696da18bd51606e08a59f0afad81c 1964 python-channels-redis_3.2.0-1.dsc
+ 29dbac776dc6fce709e68317be142652 20225 python-channels-redis_3.2.0.orig.tar.gz
+ c84e7f0cab2bad8ed709d7d1af3f342b 2900 python-channels-redis_3.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-channels-redis
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-channels-redis.git
+Checksums-Sha256:
+ 8abb00ab40f2ede4227d3264d2045db3896933e3ad08932e776ff5124fb23a85 1964 python-channels-redis_3.2.0-1.dsc
+ 137ef8fe83e37c322f54246768898347a025b29fb51879c4eb3cc6fcf7c558c4 20225 python-channels-redis_3.2.0.orig.tar.gz
+ a76dab5da1ab1345fb296600d34092eb2f9f227ac59dbc5ee0888d05b6726e9e 2900 python-channels-redis_3.2.0-1.debian.tar.xz
+Homepage: https://github.com/django/channels_redis/
+Package-List: 
+ python3-channels-redis deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-channels-redis
+Priority: extra
+Section: misc

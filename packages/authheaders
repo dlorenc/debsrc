@@ -1,0 +1,29 @@
+Package: authheaders
+Binary: python3-authheaders
+Version: 0.13.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Scott Kitterman <scott@kitterman.com>
+Build-Depends: debhelper-compat (= 9), dh-python, publicsuffix, python3, python3-authres, python3-dkim, python3-dnspython, python3-publicsuffix2, python3-setuptools (>= 36.4.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2aaa48b00319fcf010d09e3ba0f94c5d 2531 authheaders_0.13.0-1.dsc
+ 76a5c5deeac2a4b42e50393e3acae484 93319 authheaders_0.13.0.orig.tar.gz
+ 234cd615ad17c329d79e2fdb718dd307 833 authheaders_0.13.0.orig.tar.gz.asc
+ 69323b57fa2a5e35a830df368cf7311b 8140 authheaders_0.13.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/authheaders
+Vcs-Git: https://salsa.debian.org/python-team/modules/authheaders.git
+Checksums-Sha256:
+ ca7944d7a8d8bdee1f40d82d65de4aef5d8d8d49a6adf5c6066297c5ebc1f45b 2531 authheaders_0.13.0-1.dsc
+ 935726b784cc636cbcfed2c977f1a6887dc60056806da4eff60db932c5896692 93319 authheaders_0.13.0.orig.tar.gz
+ c95e2cd7c4057687c082ca5b0c506bf533ad636f386cfae22b0f827f0ad54546 833 authheaders_0.13.0.orig.tar.gz.asc
+ 1ea214092188457f9463a9893a5e0fa30d67f39834e55e8bda0c0d8edd71435b 8140 authheaders_0.13.0-1.debian.tar.xz
+Homepage: https://github.com/ValiMail/authentication-headers
+Package-List: 
+ python3-authheaders deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-authres, python3-dkim, python3-dnspython, python3-publicsuffix2
+Directory: pool/main/a/authheaders
+Priority: extra
+Section: misc

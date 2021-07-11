@@ -1,0 +1,25 @@
+Package: rust-fd-find
+Binary: fd-find
+Version: 8.2.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <paride@debian.org>, Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native, rustc:native, libstd-rust-dev, librust-ansi-term-0.12+default-dev, librust-anyhow-1+default-dev, librust-atty-0.2+default-dev, librust-clap-2+color-dev (>= 2.31.2-~~), librust-clap-2+default-dev (>= 2.31.2-~~), librust-clap-2+suggestions-dev (>= 2.31.2-~~), librust-clap-2+wrap-help-dev (>= 2.31.2-~~), librust-ctrlc-3+default-dev (>= 3.1-~~), librust-dirs-next-2+default-dev, librust-globset-0.4+default-dev, librust-humantime-2+default-dev, librust-ignore-0.4+default-dev (>= 0.4.3-~~), librust-lazy-static-1+default-dev (>= 1.1.0-~~), librust-libc-0.2+default-dev, librust-lscolors-0.7+default-dev, librust-num-cpus-1+default-dev (>= 1.8-~~), librust-regex-1+default-dev, librust-regex-syntax-0.6+default-dev, librust-users-0.10+default-dev, librust-version-check-0.9+default-dev, dh-exec
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 902ba6e4d02aa153407b8c59f072a964 2838 rust-fd-find_8.2.1-1.dsc
+ 4ceb109e9b56fa12e9c0b7ae913f6f99 82590 rust-fd-find_8.2.1.orig.tar.gz
+ cdcce5bc358bd1da4c3ba86f2df87807 4988 rust-fd-find_8.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fd-find
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fd-find]
+Checksums-Sha256:
+ bd044481be5bbb2b0269ef4fb5c9a3bb70c5549e88a39761fddb2fc749e05fe3 2838 rust-fd-find_8.2.1-1.dsc
+ 68292701cc0aa983208be0d2b22774c58f1056a2b4988382bd7da727624365a4 82590 rust-fd-find_8.2.1.orig.tar.gz
+ 6df44cb4e100945635cbcf025e9764c6cb1a8219d70bd6e3f83397905b5e662c 4988 rust-fd-find_8.2.1-1.debian.tar.xz
+Homepage: https://github.com/sharkdp/fd
+Package-List: 
+ fd-find deb utils optional arch=any
+Directory: pool/main/r/rust-fd-find
+Priority: extra
+Section: misc

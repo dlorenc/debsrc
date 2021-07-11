@@ -1,0 +1,28 @@
+Package: haskell-adjunctions
+Binary: libghc-adjunctions-dev, libghc-adjunctions-prof, libghc-adjunctions-doc
+Version: 4.4-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iulian Udrea <iulian@linux.com>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-comonad-dev (<< 6), libghc-comonad-dev (>= 4), libghc-comonad-prof, libghc-contravariant-dev (<< 2), libghc-contravariant-dev (>= 1), libghc-contravariant-prof, libghc-distributive-dev (>= 0.5.1), libghc-distributive-dev (<< 1), libghc-distributive-prof, libghc-free-dev (>= 4), libghc-free-dev (<< 6), libghc-free-prof, libghc-profunctors-dev (<< 6), libghc-profunctors-dev (>= 4), libghc-profunctors-prof, libghc-semigroupoids-dev (<< 6), libghc-semigroupoids-dev (>= 4), libghc-semigroupoids-prof, libghc-semigroups-dev (<< 1), libghc-semigroups-dev (>= 0.11), libghc-semigroups-prof, libghc-tagged-dev (<< 1), libghc-tagged-dev (>= 0.7), libghc-tagged-prof, libghc-transformers-compat-dev (<< 1), libghc-transformers-compat-dev (>= 0.3), libghc-transformers-compat-prof, libghc-void-dev (<< 1), libghc-void-dev (>= 0.5.5.1), libghc-void-prof
+Build-Depends-Indep: ghc-doc, libghc-comonad-doc, libghc-contravariant-doc, libghc-distributive-doc, libghc-free-doc, libghc-profunctors-doc, libghc-semigroupoids-doc, libghc-semigroups-doc, libghc-tagged-doc, libghc-transformers-compat-doc, libghc-void-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1098f75e5fe0c8b1a240e995575e7d4b 3425 haskell-adjunctions_4.4-6.dsc
+ 8af0b35bc2111bf01a45f0e2f7487cc0 19891 haskell-adjunctions_4.4.orig.tar.gz
+ 3bf1e9463a49d997ac933691484d9a0f 4020 haskell-adjunctions_4.4-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-adjunctions
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-adjunctions]
+Checksums-Sha256:
+ 7347a1bb14332be2e019c7688b76a86a097cc10c1364c2e9746702225b051c35 3425 haskell-adjunctions_4.4-6.dsc
+ 507c2ef55337ae61c805f8cbc1213dfd7d2b85187342675d662254b8d8a16ae9 19891 haskell-adjunctions_4.4.orig.tar.gz
+ 7ea11d7891caafd34dcd92ecd7510e7f32f10772880dcf17208bb88596ead286 4020 haskell-adjunctions_4.4-6.debian.tar.xz
+Homepage: https://github.com/ekmett/adjunctions/
+Package-List: 
+ libghc-adjunctions-dev deb haskell optional arch=any
+ libghc-adjunctions-doc deb doc optional arch=all
+ libghc-adjunctions-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-adjunctions
+Priority: source
+Section: haskell

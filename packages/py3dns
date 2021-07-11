@@ -1,0 +1,29 @@
+Package: py3dns
+Binary: python3-dns
+Version: 3.2.1-1
+Maintainer: Scott Kitterman <scott@kitterman.com>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 9), python3-all (>= 3.1.2-8~), python3-setuptools, dh-python
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e06ba42c718e06fd5795bf75e7e9ae1e 2268 py3dns_3.2.1-1.dsc
+ 35a441081a1acfa0cf78e7ccc2ff9449 30691 py3dns_3.2.1.orig.tar.gz
+ d01edf098c6dc5f97e321301216fbceb 833 py3dns_3.2.1.orig.tar.gz.asc
+ c03cca2f35ebcd617ec0f19a3e3af519 28408 py3dns_3.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/py3dns
+Vcs-Git: https://salsa.debian.org/python-team/modules/py3dns.git
+Checksums-Sha256:
+ 9974a368501de255249edd1a92b9b1dce6440381f8b5843d05c37be00eacec65 2268 py3dns_3.2.1-1.dsc
+ 1f07d4463e98d9859ce0280c3eaa57da670ad623f6d4d3285c67dca23d7045e4 30691 py3dns_3.2.1.orig.tar.gz
+ c5d6bb6c1c7db7dc823ccbf20f0c66f312839acf6ee9076b27c411ee3dff9122 833 py3dns_3.2.1.orig.tar.gz.asc
+ 8281dfce0064c4152e669ba19d3115605b9887fb41029c9a16d115ec62812f7e 28408 py3dns_3.2.1-1.debian.tar.xz
+Homepage: https://launchpad.net/py3dns
+Package-List: 
+ python3-dns deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3
+Directory: pool/main/p/py3dns
+Priority: source
+Section: python

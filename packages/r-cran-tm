@@ -1,0 +1,27 @@
+Package: r-cran-tm
+Binary: r-cran-tm
+Version: 0.7-8-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>, Dylan Aïssi <daissi@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-nlp (>= 0.2-0), r-cran-rcpp, r-cran-slam, r-cran-xml2, r-cran-bh
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 96733db6df4b86296121cd3ea0861523 2174 r-cran-tm_0.7-8-1.dsc
+ 9262571704416bdf264212452bd6ea3f 481583 r-cran-tm_0.7-8.orig.tar.gz
+ cbf3da85b327f985c1f9468598c6c7df 13556 r-cran-tm_0.7-8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-tm
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-tm.git
+Checksums-Sha256:
+ 6ecb2428c433c89df917198d591d135f01f180cb1038be170d27db73857a207b 2174 r-cran-tm_0.7-8-1.dsc
+ b1eb1683d956db1a207b61cc086ae08b3ca7f46b6b8bc46d09ba5a4fafa66256 481583 r-cran-tm_0.7-8.orig.tar.gz
+ de8b37bd054f6dcacf0b2e1812b7271a75abbabb0848c6a416e5a1822ec8d6d5 13556 r-cran-tm_0.7-8-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=tm
+Package-List: 
+ r-cran-tm deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-snowballc, r-cran-testthat
+Directory: pool/main/r/r-cran-tm
+Priority: optional
+Section: misc

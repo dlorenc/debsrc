@@ -1,0 +1,27 @@
+Package: twitter-bootstrap4
+Binary: libjs-bootstrap4
+Version: 4.5.2+dfsg1-6
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), libjs-popper.js (>= 1.14.6+ds2-2), node-autoprefixer, node-babel7 (>= 7.9.6), node-less, node-postcss, node-rollup-plugin-babel (>= 5.1.0), node-rollup-plugin-node-resolve (>= 8.4.0), node-source-map, dh-sequence-nodejs, rollup, sassc, uglifyjs.terser
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d6efa6c3992d246b6061988a6213a1bf 2363 twitter-bootstrap4_4.5.2+dfsg1-6.dsc
+ a38aefea6f3b192ff8c59d3ea5a376d4 2339292 twitter-bootstrap4_4.5.2+dfsg1.orig.tar.xz
+ 249e9e4a0e2cffabb91530ffd50e90b9 18800 twitter-bootstrap4_4.5.2+dfsg1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/twitter-bootstrap4
+Vcs-Git: https://salsa.debian.org/js-team/twitter-bootstrap4.git
+Checksums-Sha256:
+ b9eea5b807d56d7adf9fe9facc48c160e260a27b46ad227f95c357689373bdae 2363 twitter-bootstrap4_4.5.2+dfsg1-6.dsc
+ 66723c5934751db702553656c47417612a663351c994781fb46fe176b33a855b 2339292 twitter-bootstrap4_4.5.2+dfsg1.orig.tar.xz
+ eb69266838c619b5d8b0558074cc0b55628e2b0e723fc1eddf633ae3f62ee5ed 18800 twitter-bootstrap4_4.5.2+dfsg1-6.debian.tar.xz
+Homepage: https://getbootstrap.com/
+Package-List: 
+ libjs-bootstrap4 deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: sassc
+Directory: pool/main/t/twitter-bootstrap4
+Priority: extra
+Section: misc

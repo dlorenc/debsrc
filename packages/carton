@@ -1,0 +1,27 @@
+Package: carton
+Binary: carton
+Version: 1.0.34-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Prokop <mika@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), perl (>= 5.17.10)
+Build-Depends-Indep: libapp-fatpacker-perl, libcapture-tiny-perl, libclass-tiny-perl (>= 1.001), libfile-pushd-perl, libjson-pp-perl (>= 2.27300), libmenlo-legacy-perl, libmodule-cpanfile-perl (>= 0.9031), libpath-tiny-perl, libtest-requires-perl, libtry-tiny-perl
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 9d177af9a741aa735e0d0edd15401d83 2272 carton_1.0.34-3.dsc
+ 8015c850fcd4add507a39c4d55763bcd 85808 carton_1.0.34.orig.tar.gz
+ bc335a5722c3d40522eb944e9c9ab57c 3516 carton_1.0.34-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/carton
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/carton.git
+Checksums-Sha256:
+ 249651c867b1167210ed7163509972b7704e7d0234250285303507170155a0e0 2272 carton_1.0.34-3.dsc
+ 77d42b92732bcfc18a59d341e56ce476205b1c4d380eab3a07224f5745c23e45 85808 carton_1.0.34.orig.tar.gz
+ 4917fcc55f8e59a9e2a6caef97a8ba5247f9b5c776ccc1f18616aaf26e841e1a 3516 carton_1.0.34-3.debian.tar.xz
+Homepage: https://metacpan.org/release/Carton
+Package-List: 
+ carton deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/c/carton
+Priority: source
+Section: perl

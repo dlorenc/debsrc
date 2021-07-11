@@ -1,0 +1,29 @@
+Package: flufl.lock
+Binary: python-flufl.lock-doc, python3-flufl.lock
+Version: 5.0.1-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Pierre-Elliott Bécue <peb@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-pkg-resources, python3-psutil, python3-public, python3-pytest, python3-pytest-cov, python3-setuptools, python3-sphinx, python3-sphinx-autodoc-typehints, python3-sybil
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 04a8cd1130096ac3952bfa4e21b536d6 2574 flufl.lock_5.0.1-1.dsc
+ d5f73eb9dd663073dbd2b11139c40913 27788 flufl.lock_5.0.1.orig.tar.gz
+ ebab4fcc1f89b53fa7da5580301d1441 833 flufl.lock_5.0.1.orig.tar.gz.asc
+ 89fa8a6de3d0814484a35d83ab28d1ae 35348 flufl.lock_5.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/flufl.lock
+Vcs-Git: https://salsa.debian.org/python-team/modules/flufl.lock.git
+Checksums-Sha256:
+ de234a2573911ce1648e1984decf9db2e246b83bf591165ecd8076dc6ea2dadf 2574 flufl.lock_5.0.1-1.dsc
+ f46d45ad4bdca825862e8c66e2833f818f7aaff4e60709515bb38d99085e37c5 27788 flufl.lock_5.0.1.orig.tar.gz
+ 52deaba852b4a5303aff455f61eacc9e8081621fbdb184c7214f4b0613f7ca90 833 flufl.lock_5.0.1.orig.tar.gz.asc
+ 1ec487e660b475aaee68976eaddb7feb30bbdbba1bcd37336e6f20b92373d927 35348 flufl.lock_5.0.1-1.debian.tar.xz
+Homepage: https://flufllock.readthedocs.io/en/latest/
+Package-List: 
+ python-flufl.lock-doc deb doc optional arch=all
+ python3-flufl.lock deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/f/flufl.lock
+Priority: source
+Section: python

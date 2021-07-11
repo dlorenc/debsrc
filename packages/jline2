@@ -1,0 +1,26 @@
+Package: jline2
+Binary: libjline2-java
+Version: 2.14.6-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: tony mancill <tmancill@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 1.6.5), javahelper (>= 0.43)
+Build-Depends-Indep: libeasymock-java, libjansi-java (>= 1.12), junit4
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 423e0bda9c0a5f67bf144347a229373d 2072 jline2_2.14.6-4.dsc
+ a30e8a900b8977bdbfbd907a8d7a026c 93752 jline2_2.14.6.orig.tar.xz
+ 8dce44baeb116e44f4b406a6b6a0ea93 4876 jline2_2.14.6-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jline2
+Vcs-Git: https://salsa.debian.org/java-team/jline2.git
+Checksums-Sha256:
+ e7f091275d8445532b465470c23d851ffb4a5174f15cacfb0f7863280d322fbe 2072 jline2_2.14.6-4.dsc
+ 6035c22c591fae78555a271a5846654555e32eb779ed44fd410c10ba324f1b5c 93752 jline2_2.14.6.orig.tar.xz
+ 469ba889359a39f4f86106d2b5960e047633ebef429d769eeead6584838d6f84 4876 jline2_2.14.6-4.debian.tar.xz
+Homepage: https://github.com/jline/jline2
+Package-List: 
+ libjline2-java deb java optional arch=all
+Directory: pool/main/j/jline2
+Priority: optional
+Section: misc

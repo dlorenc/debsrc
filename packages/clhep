@@ -1,0 +1,27 @@
+Package: clhep
+Binary: libclhep2.1v5, libclhep-dev, clhep-doc
+Version: 2.1.4.1+dfsg-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Lifeng Sun <lifongsun@gmail.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf, doxygen
+Architecture: any all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Files:
+ 6878f57ae859e9b6926fae09cf561713 2143 clhep_2.1.4.1+dfsg-1.dsc
+ 20841e054a591be1cbf1b4147fd01bee 1860127 clhep_2.1.4.1+dfsg.orig.tar.gz
+ c99e78e97573934b64afa5072850e637 6496 clhep_2.1.4.1+dfsg-1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=debian-science/packages/clhep.git;a=summary
+Vcs-Git: git://anonscm.debian.org/debian-science/packages/clhep.git
+Checksums-Sha256:
+ 7b11dc76939c6580e0c0e34e562fb0656e03f695dcef5dc9a53b11cd9cc7b26d 2143 clhep_2.1.4.1+dfsg-1.dsc
+ 5fa203ade32adda9b70b994569cfb8b7ebb8ba556826a79cd888288d3f7cf5d9 1860127 clhep_2.1.4.1+dfsg.orig.tar.gz
+ 9e5b3dbf74219ed50797952f6ae1a9c363d67804e62c13e07826c31d6a992884 6496 clhep_2.1.4.1+dfsg-1.debian.tar.xz
+Homepage: http://proj-clhep.web.cern.ch/proj-clhep/
+Package-List: 
+ clhep-doc deb doc optional arch=all
+ libclhep-dev deb libdevel optional arch=any
+ libclhep2.1v5 deb science optional arch=any
+Directory: pool/main/c/clhep
+Priority: source
+Section: science

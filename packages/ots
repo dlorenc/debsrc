@@ -1,0 +1,28 @@
+Package: ots
+Binary: libots-dev, libots0, ots
+Version: 0.5.0-6
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), docbook-utils, gtk-doc-tools, libglib2.0-dev, libpopt-dev, libxml2-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8c346ac81ec49a9ddc9b8058e6d074ce 1989 ots_0.5.0-6.dsc
+ 1e140a4bf9d720b4339a5c2bdf4976e8 371126 ots_0.5.0.orig.tar.gz
+ 4dbc94362fb0546d74768012bb321975 7152 ots_0.5.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ots
+Vcs-Git: https://salsa.debian.org/debian/ots.git
+Checksums-Sha256:
+ 7e94b4a0f1220dbdc8915db1c482ce55bb927f209de5a7c2fdcc3bebec38c97b 1989 ots_0.5.0-6.dsc
+ ea908d22256166d1200fef55a82dd3ea8e096a249eaaf0b926f3577f1a63e137 371126 ots_0.5.0.orig.tar.gz
+ fad4e9e1aad5f596726bc83e0bff63ae07d1ade760493ed0410bad139bb0cfa8 7152 ots_0.5.0-6.debian.tar.xz
+Homepage: http://libots.sourceforge.net/
+Package-List: 
+ libots-dev deb libdevel optional arch=any
+ libots0 deb libs optional arch=any
+ ots deb text optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: file
+Directory: pool/main/o/ots
+Priority: source
+Section: devel

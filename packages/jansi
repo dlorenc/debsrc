@@ -1,0 +1,24 @@
+Package: jansi
+Binary: libjansi-java
+Version: 1.18-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 11~), default-jdk, libhawtjni-runtime-java (>= 1.16), libjansi-native-java (>= 1.7), libmaven-bundle-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ ea0340f15b280aa73b7213577fef131f 1990 jansi_1.18-1.dsc
+ ce8d6129ad5ee510daf3c476b8c03677 194212 jansi_1.18.orig.tar.xz
+ 293237a3aae860f04cc13d9b46823df3 3168 jansi_1.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jansi
+Vcs-Git: https://salsa.debian.org/java-team/jansi.git
+Checksums-Sha256:
+ 8dd867b81eb7102be6cdcc931efecfe8ad9cd834dfbb60c917cb258ff5c4f12d 1990 jansi_1.18-1.dsc
+ efbb730500ca4cd34c51d0ee1bbe68056ed57917734b5115c5f71cd1e1509175 194212 jansi_1.18.orig.tar.xz
+ 49145b66537fa82c5d840ff5fe47924c6ca149aeec62bade3a8b766906486064 3168 jansi_1.18-1.debian.tar.xz
+Homepage: https://fusesource.github.io/jansi/
+Package-List: 
+ libjansi-java deb java optional arch=all
+Directory: pool/main/j/jansi
+Priority: source
+Section: java

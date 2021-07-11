@@ -1,0 +1,31 @@
+Package: heat
+Binary: heat-api, heat-api-cfn, heat-common, heat-doc, heat-engine, python3-heat
+Version: 1:15.0.0-4
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: bandit, python3-aodhclient, python3-babel, python3-barbicanclient, python3-blazarclient, python3-cinderclient, python3-coverage, python3-croniter, python3-cryptography, python3-debtcollector, python3-designateclient, python3-eventlet, python3-fixtures, python3-glanceclient, python3-ironicclient, python3-hacking, python3-heatclient, python3-keystoneauth1 (>= 3.18.0), python3-keystoneclient, python3-keystonemiddleware, python3-kombu (>= 5.0.1), python3-lxml (>= 4.5.0), python3-magnumclient, python3-manilaclient, python3-migrate (>= 0.13.0), python3-mistralclient, python3-monascaclient, python3-mysqldb, python3-netaddr, python3-neutron-lib, python3-neutronclient (>= 1:6.14.0), python3-novaclient, python3-octaviaclient (>= 1.8.0), python3-openstackclient, python3-openstackdocstheme, python3-openstacksdk, python3-os-api-ref, python3-oslo.cache, python3-oslo.concurrency, python3-oslo.config (>= 8.0.2), python3-oslo.context, python3-oslo.db (>= 6.0.0), python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy, python3-oslo.reports, python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils (>= 3.40.3), python3-oslo.versionedobjects, python3-oslotest, python3-osprofiler, python3-pastedeploy, python3-psycopg2 (>= 2.8), python3-pygments, python3-pymysql, python3-requests, python3-routes, python3-saharaclient, python3-senlinclient, python3-sphinxcontrib.apidoc, python3-sphinxcontrib.httpdomain, python3-sqlalchemy, python3-stestr, python3-stevedore (>= 3.1.0), python3-swiftclient, python3-tempest, python3-tenacity (>= 6.1.0), python3-testresources, python3-testscenarios, python3-testtools, python3-troveclient, python3-tz, python3-vitrageclient (>= 2.7.0), python3-webob, python3-yaml, python3-yaql, python3-zaqarclient, python3-zunclient (>= 3.4.0), subunit, tempest
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1517d38420bd809d8055a38844085681 4199 heat_15.0.0-4.dsc
+ 315bddbbc4fba95c49d074b9dcd94101 1428788 heat_15.0.0.orig.tar.xz
+ 78765e00c0c9bc2da90718460033ba9b 16484 heat_15.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/heat
+Vcs-Git: https://salsa.debian.org/openstack-team/services/heat.git
+Checksums-Sha256:
+ 7bbf44ec59973813ab38fef5798d3e061bb68c6212d8727370a5363e21d5b489 4199 heat_15.0.0-4.dsc
+ 939fb1cc93e24bf5344921b5f9499ac4d62b01ae9cada191586f7643f331a5fe 1428788 heat_15.0.0.orig.tar.xz
+ 0a844b8f868a806614d2d3e5de79ebdc13745868a66a5a00e93e9b06783a11c7 16484 heat_15.0.0-4.debian.tar.xz
+Homepage: http://wiki.openstack.org/Heat
+Package-List: 
+ heat-api deb web optional arch=all
+ heat-api-cfn deb web optional arch=all
+ heat-common deb web optional arch=all
+ heat-doc deb doc optional arch=all
+ heat-engine deb web optional arch=all
+ python3-heat deb python optional arch=all
+Directory: pool/main/h/heat
+Priority: source
+Section: misc

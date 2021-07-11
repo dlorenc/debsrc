@@ -1,0 +1,26 @@
+Package: node-raw-loader
+Binary: node-raw-loader
+Version: 4.0.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Daniel Ring <dring@wolfishly.me>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, jest <!nocheck>, node-babel7, node-loader-utils (>= 2.0~), node-schema-utils (>= 3.0~), webpack <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6b1600315bdea5a2fb8777611ebda3ad 2158 node-raw-loader_4.0.2-2.dsc
+ b41df64ca0c26983c7f09c11aa4c3670 136213 node-raw-loader_4.0.2.orig.tar.gz
+ 26d6185b2767df165fe57a9e77bba4e8 3056 node-raw-loader_4.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-raw-loader
+Vcs-Git: https://salsa.debian.org/js-team/node-raw-loader.git
+Checksums-Sha256:
+ c6e711116b014e3a1753d2ebcc78f1bd77404b80ce02bd7efac75cf37e6898d6 2158 node-raw-loader_4.0.2-2.dsc
+ 1e9905d729c70ef79134e2f2cb05c9f2d67bb99c8c9f88fceba4809d62a6b5d9 136213 node-raw-loader_4.0.2.orig.tar.gz
+ d7c298aa08c245f23dc34d8851561d0bfd03c8d4d69c9b99101b7ada0a46cf12 3056 node-raw-loader_4.0.2-2.debian.tar.xz
+Homepage: https://github.com/webpack/raw-loader
+Package-List: 
+ node-raw-loader deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-raw-loader
+Priority: optional
+Section: javascript

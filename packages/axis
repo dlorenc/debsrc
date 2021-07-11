@@ -1,0 +1,26 @@
+Package: axis
+Binary: libaxis-java, libaxis-java-doc
+Version: 1.4-28
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Jakub Adam <jakub.adam@ktknet.cz>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant-optional, bnd (>= 2.1.0), debhelper (>= 11~), default-jdk, libcommons-discovery-java, libcommons-httpclient-java, libcommons-logging-java, libmail-java, libservlet3.1-java, libwsdl4j-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 7b3b7aef0f5baae2f4d4939a24a55016 2217 axis_1.4-28.dsc
+ 6fd3b673a4de3609394f492748b1f3f1 5295544 axis_1.4.orig.tar.gz
+ 59fbaa3794a7070f779d15e344b8edc0 13740 axis_1.4-28.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/axis
+Vcs-Git: https://salsa.debian.org/java-team/axis.git
+Checksums-Sha256:
+ 420f3b36d63fef8ecc70f4d08f5d46eb4ecbfe6c881db5f01a912864a269e779 2217 axis_1.4-28.dsc
+ 9c6fd085bf83c76162c186ef755b05bb3cca68ab5ff66d47dcf69efda072ab74 5295544 axis_1.4.orig.tar.gz
+ 981edf6de06ae78662390e5caac7f07e6c7e01689107810f0e05da7fcb82cb35 13740 axis_1.4-28.debian.tar.xz
+Homepage: http://ws.apache.org/axis/
+Package-List: 
+ libaxis-java deb java optional arch=all
+ libaxis-java-doc deb doc optional arch=all
+Directory: pool/main/a/axis
+Priority: source
+Section: libs

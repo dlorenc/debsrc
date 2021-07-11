@@ -1,0 +1,27 @@
+Package: golang-github-urfave-cli-v2
+Binary: golang-github-urfave-cli-v2-dev
+Version: 2.2.0-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-cpuguy83-go-md2man-v2-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ df0f3c1cc1e543357acea2fbec969aa9 2264 golang-github-urfave-cli-v2_2.2.0-3.dsc
+ 33c41c7420d5240dfda4b596f8e395c5 3404022 golang-github-urfave-cli-v2_2.2.0.orig.tar.gz
+ f5279e62daf425daa718f78d9e6ca9ad 3660 golang-github-urfave-cli-v2_2.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-urfave-cli-v2
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-urfave-cli-v2.git
+Checksums-Sha256:
+ e6577ad8706c2919bde7eb411a505261909c7e30d16a1fc558697a68039e5846 2264 golang-github-urfave-cli-v2_2.2.0-3.dsc
+ 5c3717e403ec924011513cfb7542360c156ef1e4222ca21697198ca47f5ca731 3404022 golang-github-urfave-cli-v2_2.2.0.orig.tar.gz
+ c8eb0fb13d2029ec853df8a80a040bfd1cf1a9118ac5f9f5772af8956920ac25 3660 golang-github-urfave-cli-v2_2.2.0-3.debian.tar.xz
+Homepage: https://github.com/urfave/cli
+Go-Import-Path: github.com/urfave/cli/v2
+Package-List: 
+ golang-github-urfave-cli-v2-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-urfave-cli-v2
+Priority: extra
+Section: golang

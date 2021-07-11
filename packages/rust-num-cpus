@@ -1,0 +1,26 @@
+Package: rust-num-cpus
+Binary: librust-num-cpus-dev
+Version: 1.13.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.26-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7bae6624b10df34c9cb21cccc4037d4b 1613 rust-num-cpus_1.13.0-1.dsc
+ c36d452e37c73b1e99f40bae18cddfdb 14704 rust-num-cpus_1.13.0.orig.tar.gz
+ 03a127509073fd3e3a037f9ca97f8cad 2948 rust-num-cpus_1.13.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-cpus
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-cpus]
+Checksums-Sha256:
+ 39f63f6dbf52391d6c8f875424556c231678b9d0e1be1cee1019f83ba02f66ba 1613 rust-num-cpus_1.13.0-1.dsc
+ 05499f3756671c15885fee9034446956fff3f243d6077b91e5767df161f766b3 14704 rust-num-cpus_1.13.0.orig.tar.gz
+ fffefb88b7466dcb46337ac1139b6049e002f5f8b7ade611f921f0fdb6487a77 2948 rust-num-cpus_1.13.0-1.debian.tar.xz
+Package-List: 
+ librust-num-cpus-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-num-cpus
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: shellcheck
+Binary: shellcheck
+Version: 0.7.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Helmut Grohne <helmut@subdivi.de>, Samuel Henrique <samueloph@debian.org>
+Build-Depends: debhelper (>= 10), cdbs, haskell-devscripts (>= 0.13), ghc (>= 8.4.3), ghc-prof, libghc-diff-dev (>= 0.2.0), libghc-diff-prof, libghc-quickcheck2-dev (>= 2.7.4), libghc-aeson-dev, libghc-regex-tdfa-dev, libghc-regex-tdfa-prof, pandoc
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 562a843df6f28bfbfdddf802313451e5 2254 shellcheck_0.7.1-1.dsc
+ 2f6f8fd74391538f0d0be13f55f6c202 163288 shellcheck_0.7.1.orig.tar.gz
+ 04d1bb34f1674c6c15fa880cf6828a66 3524 shellcheck_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/shellcheck
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/shellcheck]
+Checksums-Sha256:
+ 45f0fea2464251659392acfe5fde9cc4b9675be4721e1ea9b52706fea710bdb3 2254 shellcheck_0.7.1-1.dsc
+ 415f23ed77c17cb6837b328a35b9fa262c7d9b1a9093bc801f50d99010e4a41a 163288 shellcheck_0.7.1.orig.tar.gz
+ 978ea6bedbf87e4013a7c6fddcb44595b1fcb06d796495d4a8ff4e27659c3060 3524 shellcheck_0.7.1-1.debian.tar.xz
+Homepage: https://www.shellcheck.net/
+Package-List: 
+ shellcheck deb devel optional arch=any
+Directory: pool/main/s/shellcheck
+Priority: optional
+Section: misc

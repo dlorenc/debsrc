@@ -1,0 +1,27 @@
+Package: ruby-money
+Binary: ruby-money
+Version: 6.13.6-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-i18n (<= 2), ruby-i18n (>= 0.6.4)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 40e3cf1a0b4ee64f714626a2df085c6a 2050 ruby-money_6.13.6-2.dsc
+ 86c659e349ca3b0f16b837c4f892b788 46358 ruby-money_6.13.6.orig.tar.gz
+ b052342478671ab35d7cd3af69559228 2236 ruby-money_6.13.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-money
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-money.git
+Checksums-Sha256:
+ 931d663a907815234e479ab2e6c5b91161f344722af283fb478eb6d12edd198d 2050 ruby-money_6.13.6-2.dsc
+ 78bb59f301ad8982b71cc9a8c351c8e26976de8ae8c8f8168391123c0f07e06f 46358 ruby-money_6.13.6.orig.tar.gz
+ 2af4a80920697ac1b1a0e47aae2bdcafee2c9bfb340ceda95e04a3db65502680 2236 ruby-money_6.13.6-2.debian.tar.xz
+Homepage: https://rubymoney.github.io/money
+Package-List: 
+ ruby-money deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-money
+Priority: extra
+Section: misc

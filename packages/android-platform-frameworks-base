@@ -1,0 +1,31 @@
+Package: android-platform-frameworks-base
+Binary: android-libandroidfw, android-libandroidfw-dev, aapt, android-libaapt, split-select, android-framework-res
+Version: 1:10.0.0+r36-3
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlikok@gmail.com>, Chirayu Desai <chirayudesai1@gmail.com>, Umang Parmar <umangjparmar@gmail.com>
+Build-Depends: android-libbase-dev (>= 1:10.0.0+r36~), android-liblog-dev (>= 1:10.0.0+r36~), android-libutils-dev (>= 1:10.0.0+r36~), android-libziparchive-dev (>= 1:10.0.0+r36~), android-platform-frameworks-native-headers (>= 1:10.0.0+r36~), bash-completion, chrpath, clang, debhelper (>= 10), dh-exec, libexpat-dev, libpng-dev, libprotobuf-dev, pandoc, protobuf-compiler, zlib1g-dev
+Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 1218732861e230df344952f35ac928c9 2939 android-platform-frameworks-base_10.0.0+r36-3.dsc
+ b0a61a763570a12a01782019d0c11839 44940044 android-platform-frameworks-base_10.0.0+r36.orig.tar.xz
+ 9f0dd08c3718adf3dc6dc8057ce5d03c 15560 android-platform-frameworks-base_10.0.0+r36-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/android-tools-team/android-platform-frameworks-base
+Vcs-Git: https://salsa.debian.org/android-tools-team/android-platform-frameworks-base.git
+Checksums-Sha256:
+ 106e39de0b095b4e20b28ff9a19a4902e56f39fc123001c78a5916178da2a66a 2939 android-platform-frameworks-base_10.0.0+r36-3.dsc
+ 67251bc9a4152b0d4783653d9d45ec815349771f501f28a8f96479848cfee26b 44940044 android-platform-frameworks-base_10.0.0+r36.orig.tar.xz
+ a97b381f85e1ed5555f82cbfe1f5f047cf76155f9a4068823e4e8a4b9ef4ccbf 15560 android-platform-frameworks-base_10.0.0+r36-3.debian.tar.xz
+Homepage: https://android.googlesource.com/platform/frameworks/base
+Package-List: 
+ aapt deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+ android-framework-res deb devel optional arch=all
+ android-libaapt deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+ android-libandroidfw deb libs optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+ android-libandroidfw-dev deb libdevel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+ split-select deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+Testsuite: autopkgtest
+Directory: pool/main/a/android-platform-frameworks-base
+Priority: optional
+Section: misc

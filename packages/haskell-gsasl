@@ -1,0 +1,28 @@
+Package: haskell-gsasl
+Binary: libghc-gsasl-dev, libghc-gsasl-prof, libghc-gsasl-doc
+Version: 0.3.7-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-monad-loops-dev (>= 0.3), libghc-monad-loops-prof, libgsasl7-dev
+Build-Depends-Indep: ghc-doc, libghc-monad-loops-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4874fe55e22c689b6178025a4248c36e 2367 haskell-gsasl_0.3.7-1.dsc
+ 13c4dfeb3376b43210e330c5f5e4730d 20184 haskell-gsasl_0.3.7.orig.tar.gz
+ 4f899b0d85e0e661e35300c6f5ff91cd 2604 haskell-gsasl_0.3.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-gsasl
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-gsasl]
+Checksums-Sha256:
+ afb28ec6d9d8706077d4553bf9dd2192f1c726ad40ac9ed6500b5f8af5e21b71 2367 haskell-gsasl_0.3.7-1.dsc
+ 0794fcbaa64b2552f88a491f6094373989d09c704fe13721c25982a153162186 20184 haskell-gsasl_0.3.7.orig.tar.gz
+ 0a86d7e193cbd0943d12ae16451c521c7e8824fe41afd1019257a84aa384a2a3 2604 haskell-gsasl_0.3.7-1.debian.tar.xz
+Homepage: https://git.sr.ht/~singpolyma/gsasl-haskell
+Package-List: 
+ libghc-gsasl-dev deb haskell optional arch=any
+ libghc-gsasl-doc deb doc optional arch=all
+ libghc-gsasl-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-gsasl
+Priority: source
+Section: haskell

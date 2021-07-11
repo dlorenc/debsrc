@@ -1,0 +1,26 @@
+Package: rust-unix-socket
+Binary: librust-unix-socket-dev
+Version: 0.5.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 080954e64667ecae2e65b1caaf1625ee 2282 rust-unix-socket_0.5.0-2.dsc
+ fd520d8c42a5fcb100221a5b93bb7471 12552 rust-unix-socket_0.5.0.orig.tar.gz
+ 869e9e80288fca5bbbf445f693442217 2576 rust-unix-socket_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unix-socket
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unix-socket]
+Checksums-Sha256:
+ b3f44810dc34294b92278b63cabcabfc983e7b04b1d7316c515539fe062e9517 2282 rust-unix-socket_0.5.0-2.dsc
+ 79b2b3702275d0a0e22b951d1504c01779c80f6680ad0a0a017f4ba0298eeb82 12552 rust-unix-socket_0.5.0.orig.tar.gz
+ 1e1d84354b13c8dfc5ea2ad504f8ed664103f68bd77c2b36f77a710b78361572 2576 rust-unix-socket_0.5.0-2.debian.tar.xz
+Package-List: 
+ librust-unix-socket-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-unix-socket
+Priority: extra
+Section: misc

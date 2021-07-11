@@ -1,0 +1,26 @@
+Package: astroidmail
+Binary: astroid
+Version: 0.15-7
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: cmake, cmark <!nocheck>, debhelper-compat (= 13), gnupg <!nocheck>, libboost-date-time-dev, libboost-filesystem-dev, libboost-log-dev, libboost-program-options-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, libgirepository1.0-dev, libglibmm-2.4-dev, libgmime-3.0-dev, libgtkmm-3.0-dev, libnotmuch-dev, libpeas-dev, libprotobuf-dev, libsass-dev, libsoup2.4-dev, libvte-2.91-dev, libwebkit2gtk-4.0-dev (>= 2.22), notmuch <!nocheck>, pkg-config, protobuf-compiler, python3-gi, scdoc, ronn, w3m <!nocheck>, xauth, xvfb
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1e4518f0ab48bc2218cec64b19f772ec 2438 astroidmail_0.15-7.dsc
+ 208cc14d20acd0d7e823dc7a60a3e048 3365732 astroidmail_0.15.orig.tar.gz
+ cc07541ca39c8bb19be360c0959fc78c 10308 astroidmail_0.15-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/astroidmail
+Vcs-Git: https://salsa.debian.org/debian/astroidmail.git
+Checksums-Sha256:
+ 07371af480a67bd387bc146efd8a7a847663d3803d7516b62b0ca82f4b283c11 2438 astroidmail_0.15-7.dsc
+ 8581bbdbc71bd00d4cdd473cfad8bc604628bb15616fe5eab5c623461f686c65 3365732 astroidmail_0.15.orig.tar.gz
+ cf0e87c5ce092352daf5a86ef597930eb9dc490159b3d68cf498b5735b8a1f6d 10308 astroidmail_0.15-7.debian.tar.xz
+Homepage: https://astroidmail.github.io/
+Package-List: 
+ astroid deb mail optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libtest-command-simple-perl, perl, xauth, xvfb
+Directory: pool/main/a/astroidmail
+Priority: extra
+Section: misc

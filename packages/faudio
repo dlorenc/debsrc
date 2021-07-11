@@ -1,0 +1,27 @@
+Package: faudio
+Binary: libfaudio0, libfaudio-dev
+Version: 21.02-1
+Maintainer: Debian Wine Team <debian-wine@lists.debian.org>
+Uploaders: Jens Reyer <jre.winesim@gmail.com>, Michael Gilbert <mgilbert@debian.org>, Stephen Kitt <skitt@debian.org>,
+Build-Depends: cmake, libstb-dev, libsdl2-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2df8e37a33bdb51baeb1280c689e057d 2117 faudio_21.02-1.dsc
+ b5e8f1f69b55147a08165f12849afb45 442092 faudio_21.02.orig.tar.xz
+ 51619116f579644542c0102d8bd82e70 7480 faudio_21.02-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/wine-team/faudio
+Vcs-Git: https://salsa.debian.org/wine-team/faudio.git
+Checksums-Sha256:
+ 88e9343538f82860922bd7ddfc91be21c8075fa85738fca4c1c15dc5346559c6 2117 faudio_21.02-1.dsc
+ ee2a6550822642533a16a4ed4a9414640b740805b422477ede10a8a1c73a08ef 442092 faudio_21.02.orig.tar.xz
+ f762ebbe06e1c26c5c11a7b252ffd4de4fd2c964ab09f5a45f7c2e7fa2d8cd75 7480 faudio_21.02-1.debian.tar.xz
+Homepage: https://github.com/FNA-XNA/FAudio
+Package-List: 
+ libfaudio-dev deb libdevel optional arch=any
+ libfaudio0 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/f/faudio
+Priority: extra
+Section: misc

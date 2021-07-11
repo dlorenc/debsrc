@@ -1,0 +1,27 @@
+Package: damapper
+Binary: damapper
+Version: 0.0+git20200322.b2c9d7f-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Shayan Doust <hello@shayandoust.me>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1dc1dd56aae5a7de0fd83727d2df8e7c 2131 damapper_0.0+git20200322.b2c9d7f-3.dsc
+ a0bd60be2c81a6b56ebead5134e1f12f 77732 damapper_0.0+git20200322.b2c9d7f.orig.tar.xz
+ 51a08da4e1627443a4cfd45fed6ff989 10280 damapper_0.0+git20200322.b2c9d7f-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/damapper
+Vcs-Git: https://salsa.debian.org/med-team/damapper.git
+Checksums-Sha256:
+ f0fe7451285d3051cfed5170727a1bc38c326b2f5c8a16ee57347f299f98bf86 2131 damapper_0.0+git20200322.b2c9d7f-3.dsc
+ 4fd93c3a808d1bbaa03bde9aedd48176c7abce21afbeb75a0084a17391144477 77732 damapper_0.0+git20200322.b2c9d7f.orig.tar.xz
+ 81a7a6a7a01a62d629cfc0de7d7549b35772b81cc93582c70fe25e5647f37014 10280 damapper_0.0+git20200322.b2c9d7f-3.debian.tar.xz
+Homepage: https://github.com/thegenemyers/DAMAPPER
+Package-List: 
+ damapper deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: daligner, dazzdb
+Directory: pool/main/d/damapper
+Priority: extra
+Section: misc

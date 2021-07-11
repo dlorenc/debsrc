@@ -1,0 +1,25 @@
+Package: epubcheck
+Binary: epubcheck
+Version: 4.2.4-2
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Uploaders: Eugene Zhukov <eugene@debian.org>
+Build-Depends: debhelper (>= 11), default-jdk, libcommons-compress-java, libguava-java, libjackson-json-java, libjing-java (>= 20181222+dfsg2-3), libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, libsac-java, libsaxonhe-java (>= 9.8.0.8+dfsg+1), libxml-maven-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 08692445ecf417f3ef0aed9fb5ad1fb8 2210 epubcheck_4.2.4-2.dsc
+ 19069e6d2ebede430d26110d4a61e67e 1910576 epubcheck_4.2.4.orig.tar.xz
+ c83cea28df65c36febe7be7a5938d425 6272 epubcheck_4.2.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/epubcheck
+Vcs-Git: https://salsa.debian.org/java-team/epubcheck.git
+Checksums-Sha256:
+ c8f0124f05c48c220b9de86c0140d0563fdc218e8f467a9d99f1d5f2dcfcada8 2210 epubcheck_4.2.4-2.dsc
+ 54c8a800abaa56143bbc5276fd76e08953ff2a4be61e2f8e436d4ffbb95cd879 1910576 epubcheck_4.2.4.orig.tar.xz
+ b4a88adf94fa221f57a866f6020c78f652832ad488acb4e4514897deded69d40 6272 epubcheck_4.2.4-2.debian.tar.xz
+Homepage: https://github.com/IDPF/epubcheck
+Package-List: 
+ epubcheck deb text optional arch=all
+Directory: pool/main/e/epubcheck
+Priority: source
+Section: misc

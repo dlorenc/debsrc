@@ -1,0 +1,35 @@
+Package: ostree
+Binary: gir1.2-ostree-1.0, libostree-1-1, libostree-dev, libostree-doc, ostree, ostree-boot, ostree-tests
+Version: 2020.8-2
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Build-Depends: attr, autoconf, automake, bison, bsdextrautils <!nocheck> | bsdmainutils (<< 12) <!nocheck>, ca-certificates, cpio, debhelper-compat (= 12), dh-exec (>= 0.23~), docbook-xml <!nodoc>, docbook-xsl <!nodoc>, e2fslibs-dev, elfutils, fuse, gnupg <!nocheck>, gobject-introspection, gtk-doc-tools <!nodoc>, libarchive-dev, libattr1-dev, libavahi-client-dev (>= 0.6.31), libavahi-glib-dev (>= 0.6.31), libcap-dev, libfuse-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.40.0), libgpgme-dev, liblzma-dev, libmount-dev (>= 2.23), libselinux1-dev, libsoup2.4-dev (>= 2.39.1), libsystemd-dev, libtool, procps, python3 <!nocheck>, python3-yaml <!nocheck>, xsltproc <!nodoc>, zlib1g-dev
+Build-Depends-Indep: libglib2.0-doc
+Architecture: linux-any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 487bded49d88ad272b7d74b4a397b5e2 3280 ostree_2020.8-2.dsc
+ f832dd8223c1ab4a34eb39caa1eba02a 2081080 ostree_2020.8.orig.tar.xz
+ afd0d16fcb7c263d6079015bdbae58b5 26616 ostree_2020.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ostree
+Vcs-Git: https://salsa.debian.org/debian/ostree.git
+Checksums-Sha256:
+ 6e78c7b1697e087dd2649819cf639ff0e06d7ee99ef234741ea1862a32fe5a09 3280 ostree_2020.8-2.dsc
+ fdaa5992d0a6f62157152355449ac8476c50df6602be398e9ad10438cc1e679b 2081080 ostree_2020.8.orig.tar.xz
+ f18bc9bd6559b2c1e15a2a93790207bce9f93d158868164f7896d7d9dfa1a0da 26616 ostree_2020.8-2.debian.tar.xz
+Homepage: https://github.com/ostreedev/ostree/
+Dgit: 7fd070f86a6f9ff0a02c4cec1f35704ac7ec300c debian archive/debian/2020.8-2 https://git.dgit.debian.org/ostree
+Package-List: 
+ gir1.2-ostree-1.0 deb introspection optional arch=linux-any
+ libostree-1-1 deb libs optional arch=linux-any
+ libostree-dev deb libdevel optional arch=linux-any
+ libostree-doc deb doc optional arch=all profile=!nodoc
+ ostree deb admin optional arch=linux-any
+ ostree-boot deb admin optional arch=linux-any
+ ostree-tests deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, gnome-desktop-testing, pkg-config
+Directory: pool/main/o/ostree
+Priority: optional
+Section: misc

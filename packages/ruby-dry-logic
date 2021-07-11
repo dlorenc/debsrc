@@ -1,0 +1,27 @@
+Package: ruby-dry-logic
+Binary: ruby-dry-logic
+Version: 1.0.5-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-concurrent (>= 1.0), ruby-dry-core (>= 0.2), ruby-dry-equalizer (>= 0.2), ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dbf40d9401ebc48219bc8f9fee0121bc 2181 ruby-dry-logic_1.0.5-2.dsc
+ 2e509969bb1f9a5dfa20261b36804119 26335 ruby-dry-logic_1.0.5.orig.tar.gz
+ b5386d4d045f72b04fcbc43bdbb3a144 2168 ruby-dry-logic_1.0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-dry-logic
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-dry-logic.git
+Checksums-Sha256:
+ 518e419b6fe8c460caec320e92637044b87197f6ee289ef05f0f15438c2fef55 2181 ruby-dry-logic_1.0.5-2.dsc
+ c2a22d2fb4e3e95b3aff4fc4e159f7f0dfc275f102a1206d8277e6227ccd643c 26335 ruby-dry-logic_1.0.5.orig.tar.gz
+ 5b1e53a6f189e796f2d404a2721cfcacbecfdc07a72f0fc57c756b37333c8763 2168 ruby-dry-logic_1.0.5-2.debian.tar.xz
+Homepage: https://github.com/dry-rb/dry-logic
+Package-List: 
+ ruby-dry-logic deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-dry-logic
+Priority: extra
+Section: misc

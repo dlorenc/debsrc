@@ -1,0 +1,29 @@
+Package: golang-github-dataence-porter2
+Binary: golang-github-dataence-porter2-dev, suffixfsm
+Version: 0.0~git20150829.56e4718-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Aaron M. Ucko <ucko@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-glog-dev, golang-github-stretchr-testify-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3e4c82e22082ee718e6eb27714eb5f39 2643 golang-github-dataence-porter2_0.0~git20150829.56e4718-3.dsc
+ abf9cdc231559acf713467c10e288d65 115204 golang-github-dataence-porter2_0.0~git20150829.56e4718.orig.tar.xz
+ 52883434fde3e9083358fb2f3c54b508 4044 golang-github-dataence-porter2_0.0~git20150829.56e4718-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/golang-github-dataence-porter2
+Vcs-Git: https://salsa.debian.org/med-team/golang-github-dataence-porter2.git
+Checksums-Sha256:
+ 4c11c2ef4fdd769bb06f696d1393ebf04163713f6872ceef56ac311ba13de906 2643 golang-github-dataence-porter2_0.0~git20150829.56e4718-3.dsc
+ 338143a3dbdfb4d2d00ca60f54b14fa0cba5a262527cbb1488322852e041eb47 115204 golang-github-dataence-porter2_0.0~git20150829.56e4718.orig.tar.xz
+ 4bce48912aa7bb486e05ca9e6de2f3f147a81ab643c47cc7769db09d5d3b491c 4044 golang-github-dataence-porter2_0.0~git20150829.56e4718-3.debian.tar.xz
+Homepage: https://github.com/dataence/porter2
+Dgit: 3a7c3eea370c6b634a53fa3ea2966bdad99a7b7c debian archive/debian/0.0_git20150829.56e4718-3 https://git.dgit.debian.org/golang-github-dataence-porter2
+Go-Import-Path: github.com/dataence/porter2
+Package-List: 
+ golang-github-dataence-porter2-dev deb devel optional arch=all
+ suffixfsm deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-dataence-porter2
+Priority: extra
+Section: golang

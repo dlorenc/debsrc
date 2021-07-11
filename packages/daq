@@ -1,0 +1,23 @@
+Package: daq
+Binary: libdaq-dev, libdaq2
+Version: 2.0.7-5
+Maintainer: Javier Fernández-Sanguino Peña <jfs@debian.org>
+Build-Depends: debhelper (>= 12~), flex, bison, libpcap0.8-dev, libdumbnet-dev, libnetfilter-queue-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 09271e0e32cc61fc5d97556aa6b4b1e3 1809 daq_2.0.7-5.dsc
+ ea796f001d1b00302e4e69e337ab2460 520287 daq_2.0.7.orig.tar.gz
+ 5b57f35004be8939a74b8aeb38d73ffd 7716 daq_2.0.7-5.debian.tar.xz
+Checksums-Sha256:
+ d50697274a51dffcdb45d004b2c25b6657d55eac5e68cf8802e9f1df0b2c6174 1809 daq_2.0.7-5.dsc
+ bdc4e5a24d1ea492c39ee213a63c55466a2e8114b6a9abed609927ae13a7705e 520287 daq_2.0.7.orig.tar.gz
+ d3f164babce942a2a65964a3df62971e46171ab35856d65a5a813dac2dd697cb 7716 daq_2.0.7-5.debian.tar.xz
+Homepage: https://www.snort.org/downloads/
+Package-List: 
+ libdaq-dev deb libdevel optional arch=any
+ libdaq2 deb libs optional arch=any
+Directory: pool/main/d/daq
+Priority: source
+Section: libs

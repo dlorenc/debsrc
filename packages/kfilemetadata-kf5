@@ -1,0 +1,33 @@
+Package: kfilemetadata-kf5
+Binary: libkf5filemetadata-bin, libkf5filemetadata-data, libkf5filemetadata-dev, libkf5filemetadata-doc, libkf5filemetadata3
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), graphviz, libattr1-dev, libavcodec-dev (>= 57.48~), libavdevice-dev (>= 3.1~), libavformat-dev (>= 57.40~), libavutil-dev, libepub-dev, libexiv2-dev (>= 0.21), libkf5archive-dev (>= 5.78.0~), libkf5coreaddons-dev (>= 5.78.0~), libkf5i18n-dev (>= 5.78.0~), libpoppler-qt5-dev (>= 0.12.1), libpostproc-dev, libqt5sql5-sqlite:native, libswscale-dev, libtag1-dev (>= 1.11.1~), pkg-config, pkg-kde-tools (>= 0.15.18), qtbase5-dev (>= 5.14.0~), qttools5-dev, qttools5-dev-tools
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fd09699a12497371b980af3f6f65d7b1 2910 kfilemetadata-kf5_5.78.0-2.dsc
+ 38fa7090ee75b558e99e9be887dce395 423960 kfilemetadata-kf5_5.78.0.orig.tar.xz
+ 26be4dd565624657336de77fae2ca7f6 488 kfilemetadata-kf5_5.78.0.orig.tar.xz.asc
+ 96d9fd92411f8a4a5c75d7c1d7f68812 15440 kfilemetadata-kf5_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kfilemetadata
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kfilemetadata.git
+Checksums-Sha256:
+ 86b12f81817fc1f4e4515b14bc9d702090c30f7ac0041d53c96f219eb55ebc4b 2910 kfilemetadata-kf5_5.78.0-2.dsc
+ 9dd965188f38dfc5cdcefb3b73d41885b069acb95076b96140b64e72dc213c84 423960 kfilemetadata-kf5_5.78.0.orig.tar.xz
+ 74db8a491d0d92b89e2374db963c5e514a5e753a962ea1337b37ad61a27ff859 488 kfilemetadata-kf5_5.78.0.orig.tar.xz.asc
+ 952cf2c10859cd519cb2198fe5af8a3629c8fc5f97c4b4869431d9c947fc7129 15440 kfilemetadata-kf5_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kfilemetadata
+Package-List: 
+ libkf5filemetadata-bin deb kde optional arch=any
+ libkf5filemetadata-data deb kde optional arch=all
+ libkf5filemetadata-dev deb libdevel optional arch=any
+ libkf5filemetadata-doc deb doc optional arch=all
+ libkf5filemetadata3 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/k/kfilemetadata-kf5
+Priority: optional
+Section: misc

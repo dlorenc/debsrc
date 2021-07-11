@@ -1,0 +1,26 @@
+Package: python-bids-validator
+Binary: python3-bids-validator
+Version: 1.6.0-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 09e3fc615f42df83f468782bdbf1d1e3 2218 python-bids-validator_1.6.0-1.dsc
+ dbba83d435d3f3155ed614180dae43d9 35464 python-bids-validator_1.6.0.orig.tar.gz
+ 35d5aea7cff7ed51fe756a1a12c04ed9 2716 python-bids-validator_1.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-bids-validator
+Vcs-Git: https://salsa.debian.org/med-team/python-bids-validator.git
+Checksums-Sha256:
+ f390cc4722593a018f536e8a0ec305a52a7e46544f40c1183ea9cb478da8e248 2218 python-bids-validator_1.6.0-1.dsc
+ 6858eab83068d34a9d41155c931ca8db9faef2272710d9730c2135915c19be82 35464 python-bids-validator_1.6.0.orig.tar.gz
+ 61f0f1d73ec7a0631a644eb1ab339de52727d8d99169d96ed9a5d7065bf21bea 2716 python-bids-validator_1.6.0-1.debian.tar.xz
+Homepage: https://github.com/bids-standard/bids-validator
+Package-List: 
+ python3-bids-validator deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-bids-validator
+Priority: extra
+Section: misc

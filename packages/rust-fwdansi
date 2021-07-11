@@ -1,0 +1,24 @@
+Package: rust-fwdansi
+Binary: librust-fwdansi-dev
+Version: 1.0.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-memchr-2+default-dev <!nocheck>, librust-termcolor-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ a8993a93c64e6fbe63491792d96553aa 2118 rust-fwdansi_1.0.1-1.dsc
+ 1e0cf8728f0fd57d03e284c3de1c6aa1 4658 rust-fwdansi_1.0.1.orig.tar.gz
+ 025a31a199b3bdcbb36fbb2ccb8ea5f6 2240 rust-fwdansi_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fwdansi
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fwdansi]
+Checksums-Sha256:
+ e9770317052e17d09996770be07a8fa472298f5c4e933d472e1d563f1d939d33 2118 rust-fwdansi_1.0.1-1.dsc
+ 34dd4c507af68d37ffef962063dfa1944ce0dd4d5b82043dbab1dabe088610c3 4658 rust-fwdansi_1.0.1.orig.tar.gz
+ 9cb4f293035511111964f15817cec5698cb84ed4a7f13d7409b3b2e5bc788abf 2240 rust-fwdansi_1.0.1-1.debian.tar.xz
+Package-List: 
+ librust-fwdansi-dev deb rust optional arch=any
+Directory: pool/main/r/rust-fwdansi
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: emacspeak
+Binary: emacspeak, emacspeak-espeak-server
+Version: 53.0+dfsg-1
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Paul Gevers <elbrus@debian.org>, Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), libespeak-ng-libespeak-dev, po-debconf, tcl-dev
+Build-Depends-Indep: csound, docbook-xsl, emacs-nox (>= 1:26.1~), xsltproc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0ff02c603a1dc2af056a6ff421fddc75 1965 emacspeak_53.0+dfsg-1.dsc
+ d8f484091c26cc0bd6d920ecfade9c77 14430956 emacspeak_53.0+dfsg.orig.tar.xz
+ 1d6667a9fae05913e400bf25b3a32e81 50428 emacspeak_53.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/emacspeak
+Vcs-Git: https://salsa.debian.org/a11y-team/emacspeak.git
+Checksums-Sha256:
+ 31c570d072aad6aa0512c3176c1fe0222337406e5ecd410537b59ad2520da2d0 1965 emacspeak_53.0+dfsg-1.dsc
+ 6224aa9ca4922c40092f58d615186ff1ee5f410b854ddd18bb46e2fa23fa0ef8 14430956 emacspeak_53.0+dfsg.orig.tar.xz
+ 2c51ba5544c0642eff02386b11e8add669b6f69546a7058e112fbdcbdd87ab86 50428 emacspeak_53.0+dfsg-1.debian.tar.xz
+Homepage: http://emacspeak.sf.net
+Dgit: ee918495eb09041c90b0e444398958d69294d555 debian archive/debian/53.0+dfsg-1 https://git.dgit.debian.org/emacspeak
+Package-List: 
+ emacspeak deb editors optional arch=all
+ emacspeak-espeak-server deb editors optional arch=any
+Directory: pool/main/e/emacspeak
+Priority: source
+Section: editors

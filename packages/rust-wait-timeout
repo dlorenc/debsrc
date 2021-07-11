@@ -1,0 +1,25 @@
+Package: rust-wait-timeout
+Binary: librust-wait-timeout-dev
+Version: 0.1.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5cbcab132cdce0309de4e6e75ebd3718 1595 rust-wait-timeout_0.1.5-1.dsc
+ e0403fa8ed0461beb256e1eb5b011a5f 13075 rust-wait-timeout_0.1.5.orig.tar.gz
+ adb98424ebdfe99ee178b558021153b2 2472 rust-wait-timeout_0.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wait-timeout
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/wait-timeout]
+Checksums-Sha256:
+ f95f58b26b4d82640f67d0202a1665fec128f313e47dad198cd176b42d01105f 1595 rust-wait-timeout_0.1.5-1.dsc
+ d7677ca82cb14c4c1e265573e28e516c3600d5bc09b1667c65ee769e2ee2e587 13075 rust-wait-timeout_0.1.5.orig.tar.gz
+ 4edeb67cc28ab1693cab993ff6c0987ecb09a0a83e4dc24a6dc2ad2ba110d774 2472 rust-wait-timeout_0.1.5-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/wait-timeout
+Package-List: 
+ librust-wait-timeout-dev deb rust optional arch=any
+Directory: pool/main/r/rust-wait-timeout
+Priority: extra
+Section: misc

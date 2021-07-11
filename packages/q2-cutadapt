@@ -1,0 +1,27 @@
+Package: q2-cutadapt
+Binary: q2-cutadapt
+Version: 2020.11.1-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Liubov Chuprikova <chuprikovalv@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-pytest-cov, python3-pandas, cutadapt (>= 2.3), qiime (>= 2020.11.0), q2-types (>= 2020.11.0)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 22dacb8516cbf63d321e1cd39fec3c0e 2203 q2-cutadapt_2020.11.1-1.dsc
+ a09b9225a38dedef2515d0465988fd71 7095941 q2-cutadapt_2020.11.1.orig.tar.gz
+ ea821ba7651d750905bc223f04c46dae 5540 q2-cutadapt_2020.11.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/q2-cutadapt
+Vcs-Git: https://salsa.debian.org/med-team/q2-cutadapt.git
+Checksums-Sha256:
+ c54c9c5be47bbe5fa6be0c022e3a0a2a968f4f74050dc8929eb875e8f99716f1 2203 q2-cutadapt_2020.11.1-1.dsc
+ 54e6d72f48612bef21dd97717fbaac613ad0345d383302bb6959f8c2b0361033 7095941 q2-cutadapt_2020.11.1.orig.tar.gz
+ b8a4da0e7d3474d67718a6507f899f73eb383a706b9f32052f8d38dfd4c09a0d 5540 q2-cutadapt_2020.11.1-1.debian.tar.xz
+Homepage: https://qiime2.org/
+Package-List: 
+ q2-cutadapt deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest-cov
+Directory: pool/main/q/q2-cutadapt
+Priority: extra
+Section: misc

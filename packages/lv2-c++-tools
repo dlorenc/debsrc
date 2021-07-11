@@ -1,0 +1,28 @@
+Package: lv2-c++-tools
+Binary: lv2-c++-tools, libpaq0, libpaq-dev, lv2-c++-tools-doc
+Version: 1.0.5-4
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Jaromír Mikeš <mira.mikes@seznam.cz>
+Build-Depends: debhelper (>= 9), doxygen, libatk1.0-dev, libboost-dev, libboost-system-dev, libcairo2-dev, libcairomm-1.0-dev, libfontconfig1-dev, libfreetype6-dev, libglib2.0-0, libgtkmm-2.4-dev
+Architecture: any all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ fc2b483445a2035a05a3bd7c0c072891 2337 lv2-c++-tools_1.0.5-4.dsc
+ 4707f2507f86d6c7bbaa809bb52eed9b 76403 lv2-c++-tools_1.0.5.orig.tar.bz2
+ 73b08a521271101c9889c26a90f4a11f 5016 lv2-c++-tools_1.0.5-4.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-multimedia/lv2-tools.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/lv2-tools.git
+Checksums-Sha256:
+ 69668ebeac38982d3756e9851026a8f9cef3ba9784514d387f51aade0d6c254f 2337 lv2-c++-tools_1.0.5-4.dsc
+ 6ce16a51a37259a45d8a7a59f39a6c36fc09b4c700dd26244a9dada241864e3b 76403 lv2-c++-tools_1.0.5.orig.tar.bz2
+ dd10c6a716b1b7864731fcab6113a079918f88bb9469a291fac16d833239f877 5016 lv2-c++-tools_1.0.5-4.debian.tar.xz
+Homepage: http://ll-plugins.nongnu.org/hacking.html
+Package-List: 
+ libpaq-dev deb libdevel optional arch=any
+ libpaq0 deb libs optional arch=any
+ lv2-c++-tools deb libdevel optional arch=any
+ lv2-c++-tools-doc deb doc optional arch=all
+Directory: pool/main/l/lv2-c++-tools
+Priority: source
+Section: utils

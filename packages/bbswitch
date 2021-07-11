@@ -1,0 +1,27 @@
+Package: bbswitch
+Binary: bbswitch-dkms, bbswitch-source
+Version: 0.8-10
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, Yunqiang Su <wzssyqa@gmail.com>, Luca Boccassi <bluca@debian.org>, Andreas Beckmann <anbe@debian.org>,
+Build-Depends: debhelper-compat (= 13), dkms, tar (>= 1.28)
+Architecture: amd64 i386 armhf arm64 ppc64el
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1da6d82557e7d29d44c8d75f2d5974ff 2240 bbswitch_0.8-10.dsc
+ 5b116b31ace3604ddf9d1fc1f4bc5807 15800 bbswitch_0.8.orig.tar.gz
+ 0150f76c00cabf81b3d3e98391bfd7b6 5148 bbswitch_0.8-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/nvidia-team/bbswitch
+Vcs-Git: https://salsa.debian.org/nvidia-team/bbswitch.git
+Checksums-Sha256:
+ 74abe8842e0523c8c770f4112dcde87ef1685bdbc2c3b6a925e661f56702bbe5 2240 bbswitch_0.8-10.dsc
+ 76cabd3f734fb4fe6ebfe3ec9814138d0d6f47d47238521ecbd6a986b60d1477 15800 bbswitch_0.8.orig.tar.gz
+ a0f28fd23cdc22df7cef252df4a8921da8bc068bbbb127de379d864cafa678f5 5148 bbswitch_0.8-10.debian.tar.xz
+Homepage: https://github.com/Bumblebee-Project/bbswitch
+Package-List: 
+ bbswitch-dkms deb kernel optional arch=amd64,i386,armhf,arm64,ppc64el
+ bbswitch-source deb kernel optional arch=amd64,i386,armhf,arm64,ppc64el
+Testsuite: autopkgtest-pkg-dkms
+Directory: pool/main/b/bbswitch
+Priority: source
+Section: misc

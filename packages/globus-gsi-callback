@@ -1,0 +1,26 @@
+Package: globus-gsi-callback
+Binary: libglobus-gsi-callback0, libglobus-gsi-callback-dev, libglobus-gsi-callback-doc
+Version: 6.2-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-openssl-module-dev (>= 3), libglobus-gsi-openssl-error-dev (>= 2), libglobus-gsi-cert-utils-dev (>= 8), libglobus-gsi-sysconfig-dev (>= 5), libssl-dev, doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3b13fc7475209397551435ebfc7386c6 2324 globus-gsi-callback_6.2-1.dsc
+ 967d11d55c411899b0fb1e8c187b6a29 370253 globus-gsi-callback_6.2.orig.tar.gz
+ 94693b6c361cb988661168af84cc6a01 3872 globus-gsi-callback_6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gsi-callback
+Vcs-Git: https://salsa.debian.org/ellert/globus-gsi-callback.git
+Checksums-Sha256:
+ 9aa5dc412b28046554a57d4a26839b5528c941b9302f87f20365ccc09dd3183f 2324 globus-gsi-callback_6.2-1.dsc
+ ffac5435b7d3a78db3c1f856fbe41e7951d5f7d60df3af4ce8cf5b9e303a6f68 370253 globus-gsi-callback_6.2.orig.tar.gz
+ b6e5e58f8817974117141f8c765a341129ef2db95837d79fec2884a0fe0e4bbb 3872 globus-gsi-callback_6.2-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-gsi-callback-dev deb libdevel optional arch=any
+ libglobus-gsi-callback-doc deb doc optional arch=all
+ libglobus-gsi-callback0 deb libs optional arch=any
+Directory: pool/main/g/globus-gsi-callback
+Priority: source
+Section: net

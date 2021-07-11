@@ -1,0 +1,26 @@
+Package: golang-github-docker-leadership
+Binary: golang-github-docker-leadership-dev
+Version: 0.1.0-1.1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go, golang-github-docker-libkv-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ c642d8f8e677d05c262bf9955f3612b9 2357 golang-github-docker-leadership_0.1.0-1.1.dsc
+ 8384b508a304549c50730bbe7fee9e50 8496 golang-github-docker-leadership_0.1.0.orig.tar.xz
+ 60a78779e6bb48437a28a91495325642 1780 golang-github-docker-leadership_0.1.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-docker-leadership.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-docker-leadership.git
+Checksums-Sha256:
+ 74dd3c072b09e276351fc1566c3e235627dfc23045f222975bee1e29fc04a34c 2357 golang-github-docker-leadership_0.1.0-1.1.dsc
+ 92374a91d6754641db6ddbae86d6b048f7fa5f5472338fe76cebcbcebf308ec4 8496 golang-github-docker-leadership_0.1.0.orig.tar.xz
+ 0be530037302bfda7eb098de4f8a66d5d35a2a5a2293c49778d7e66898ad6a75 1780 golang-github-docker-leadership_0.1.0-1.1.debian.tar.xz
+Homepage: https://github.com/docker/leadership
+Go-Import-Path: github.com/docker/leadership
+Package-List: 
+ golang-github-docker-leadership-dev deb devel extra arch=all
+Directory: pool/main/g/golang-github-docker-leadership
+Priority: extra
+Section: golang

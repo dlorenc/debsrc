@@ -1,0 +1,35 @@
+Package: swift
+Binary: python3-swift, swift, swift-account, swift-container, swift-doc, swift-drive-audit, swift-object, swift-object-expirer, swift-proxy
+Version: 2.26.0-10
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>, Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-exec, dh-python, openstack-pkg-tools (>= 116~), python3-all, python3-pbr, python3-setuptools, python3-sphinx (>= 1.6.2)
+Build-Depends-Indep: python3-boto, python3-boto3, python3-coverage, python3-cryptography, python3-eventlet (>= 0.25.0), python3-fixtures (>= 3.0.0), python3-greenlet, python3-keystoneclient, python3-keystonemiddleware (>= 4.17.0), python3-lxml, python3-mock, python3-netifaces, python3-nose, python3-nose-exclude, python3-nosehtmloutput, python3-nosexcover, python3-openssl, python3-openstack.nose-plugin, python3-openstackclient, python3-openstackdocstheme (>= 1.11.0), python3-os-api-ref (>= 1.0.0), python3-os-testr (>= 0.8.0), python3-oslosphinx, python3-pastedeploy, python3-pyeclib, python3-requests (>= 2.14.2), python3-requests-mock (>= 1.2.0), python3-six, python3-swiftclient, python3-xattr
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ be761deb43237efb1d6a417c943223ff 3299 swift_2.26.0-10.dsc
+ 611351b21eade1272085bddcea8259a1 2302476 swift_2.26.0.orig.tar.xz
+ 38f832f007ecc22b7805f397296ea1db 23208 swift_2.26.0-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/swift
+Vcs-Git: https://salsa.debian.org/openstack-team/services/swift.git
+Checksums-Sha256:
+ f8f5eca5dc44558585815443224c94dda76b61558213f588789d07312303ba3d 3299 swift_2.26.0-10.dsc
+ 68b57dce54445c4d0554dbf9efc112eccc1fd961e75015900474d8cae013ead9 2302476 swift_2.26.0.orig.tar.xz
+ 33e428a74fa3963aef300fa7107ed80c54bf9be1dbd3d7cb6a0b5924e6beb232 23208 swift_2.26.0-10.debian.tar.xz
+Homepage: https://github.com/openstack/swift
+Package-List: 
+ python3-swift deb python optional arch=all
+ swift deb net optional arch=all
+ swift-account deb net optional arch=all
+ swift-container deb net optional arch=all
+ swift-doc deb doc optional arch=all
+ swift-drive-audit deb net optional arch=all
+ swift-object deb net optional arch=all
+ swift-object-expirer deb net optional arch=all
+ swift-proxy deb net optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/s/swift
+Priority: source
+Section: net

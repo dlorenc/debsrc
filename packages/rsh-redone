@@ -1,0 +1,22 @@
+Package: rsh-redone
+Binary: rsh-redone-server, rsh-redone-client
+Version: 85-2
+Maintainer: Guus Sliepen <guus@debian.org>
+Build-Depends: debhelper (>> 7.0.0), libpam0g-dev, dpkg-dev (>= 1.16.1~)
+Architecture: any
+Standards-Version: 3.9.4
+Format: 1.0
+Files:
+ 3b8848d433514d6dad9d6b569e61e460 1093 rsh-redone_85-2.dsc
+ d666d075feafefd953915fbe0e645e4a 17668 rsh-redone_85.orig.tar.gz
+ 9736e788e99a2908a855969b2195e291 3858 rsh-redone_85-2.diff.gz
+Checksums-Sha256:
+ f1da89c62dbdbe5242a11f02f1049ddc2b7c53f1b6a109cc8e4c1bbd03ff2485 1093 rsh-redone_85-2.dsc
+ 55ac8ee2acacbc3490f073e3922c0cde46ffe4ea3c593e05c48fed4c1e1a8811 17668 rsh-redone_85.orig.tar.gz
+ 9d0a582827bba7753f2661dd597bc694d8919a75a80f98bdc6cd7fed40d10bbe 3858 rsh-redone_85-2.diff.gz
+Package-List: 
+ rsh-redone-client deb net optional
+ rsh-redone-server deb net optional
+Directory: pool/main/r/rsh-redone
+Priority: source
+Section: net

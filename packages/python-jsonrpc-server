@@ -1,0 +1,25 @@
+Package: python-jsonrpc-server
+Binary: python3-pyls-jsonrpc
+Version: 0.4.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Otto Kekäläinen <otto@debian.org>, Pablo Mestre Drake <pmdcuba@gmail.com>, Julian Gilbey <jdg@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pylint <!nocheck>, python3-all, python3-coverage <!nocheck>, python3-mock <!nocheck>, python3-pycodestyle <!nocheck>, python3-pyflakes <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-setuptools, python3-ujson
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a421788b29a489658ded6514cf45f4e8 2402 python-jsonrpc-server_0.4.0-2.dsc
+ ef4c967770dcdc601cadc8ae10beafe1 33342 python-jsonrpc-server_0.4.0.orig.tar.gz
+ 5216b2295894bd1db830756f98c52c33 8024 python-jsonrpc-server_0.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-jsonrpc-server
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-jsonrpc-server.git
+Checksums-Sha256:
+ de9e2e862d8a72fe6d71f013b7b6003211380df24f499b1f9933a72cdd29d4fb 2402 python-jsonrpc-server_0.4.0-2.dsc
+ d2ca9d2fa0ae5f3872f1362670509d8ee5e73cad0592c3c23390c4d521b30b8b 33342 python-jsonrpc-server_0.4.0.orig.tar.gz
+ e3c5d70addeb4e04877c5a317cd963f92fb9a8bed12702591c9106b70aa2c96d 8024 python-jsonrpc-server_0.4.0-2.debian.tar.xz
+Homepage: https://github.com/palantir/python-jsonrpc-server
+Package-List: 
+ python3-pyls-jsonrpc deb python optional arch=all
+Directory: pool/main/p/python-jsonrpc-server
+Priority: extra
+Section: misc

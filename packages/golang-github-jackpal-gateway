@@ -1,0 +1,27 @@
+Package: golang-github-jackpal-gateway
+Binary: golang-github-jackpal-gateway-dev
+Version: 1.0.7-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-go, iproute2, net-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 27caa7dbfba4761e6abce99f48740606 2302 golang-github-jackpal-gateway_1.0.7-1.dsc
+ a932c6c8b9d510b3589d426e3e0628db 6059 golang-github-jackpal-gateway_1.0.7.orig.tar.gz
+ 4dde6fb44e224d3e9ca37cd999eec525 3216 golang-github-jackpal-gateway_1.0.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-jackpal-gateway
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-jackpal-gateway.git
+Checksums-Sha256:
+ 4a6d31057cae736e61a4563e24105fd40f9694b268fcee7e0829bb5e3c098f52 2302 golang-github-jackpal-gateway_1.0.7-1.dsc
+ 1f97272e56f20159cb137152835b8ec8b18d1e586e265b1bee53524c993979bb 6059 golang-github-jackpal-gateway_1.0.7.orig.tar.gz
+ a0e786ae4ad19153383c6fce38c5f0e46fe749483983b33e0411be72974313a2 3216 golang-github-jackpal-gateway_1.0.7-1.debian.tar.xz
+Homepage: https://github.com/jackpal/gateway
+Go-Import-Path: github.com/jackpal/gateway
+Package-List: 
+ golang-github-jackpal-gateway-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-jackpal-gateway
+Priority: extra
+Section: golang

@@ -1,0 +1,26 @@
+Package: bobcat
+Binary: libbobcat5, libbobcat-dev
+Version: 5.07.00-1
+Maintainer: Frank B. Brokken <f.b.brokken@rug.nl>
+Uploaders: George Danchev <danchev@spnet.net>, tony mancill <tmancill@debian.org>
+Build-Depends: debhelper-compat (= 13), libmilter-dev (>= 8.14.4-8), libx11-dev (>= 2:1.6.2-3), libssl-dev, libreadline-dev, yodl (>= 4.02.02), icmake (>= 9.03.01)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a772ac0cae239caba1393081e5941fcf 2127 bobcat_5.07.00-1.dsc
+ ab155d3c7024d38de3e1db807f89060d 1222299 bobcat_5.07.00.orig.tar.gz
+ bad3d6becbc376ce52d841ce3425238a 14708 bobcat_5.07.00-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/bobcat
+Vcs-Git: https://salsa.debian.org/debian/bobcat.git
+Checksums-Sha256:
+ de22b18249ea5c0ad52982c9f61769a3090047a84e2c950aae09dd75c529ab16 2127 bobcat_5.07.00-1.dsc
+ ce4286caa2564f989a5ab40d5eeaeed0f6bb3df938c47c8b225ebf92fdbede1f 1222299 bobcat_5.07.00.orig.tar.gz
+ edd3c6545108b79be1480b27762c343a7198741659590e6043d945e6044863e9 14708 bobcat_5.07.00-1.debian.tar.xz
+Homepage: https://fbb-git.gitlab.io/bobcat/
+Package-List: 
+ libbobcat-dev deb libdevel optional arch=any
+ libbobcat5 deb libs optional arch=any
+Directory: pool/main/b/bobcat
+Priority: source
+Section: libs

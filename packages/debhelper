@@ -1,0 +1,24 @@
+Package: debhelper
+Binary: debhelper, libdebhelper-perl
+Version: 13.3.4
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Uploaders: Niels Thykier <niels@thykier.net>,
+Build-Depends: dpkg-dev (>= 1.18.0~), perl:any, po4a, man-db <pkg.debhelper.ci>, libtest-pod-perl <pkg.debhelper.ci>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ e870bb7240802c53924c60d6b911d1d6 1789 debhelper_13.3.4.dsc
+ e79d15a8e1116b32116f296c6d4cd5e5 555136 debhelper_13.3.4.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/debhelper
+Vcs-Git: https://salsa.debian.org/debian/debhelper.git
+Checksums-Sha256:
+ db56b96890c1df2db75ceebd930946b2dbe7416b3aba592c9da99c4e54c9338c 1789 debhelper_13.3.4.dsc
+ 5173b6c6d613e7c27a9c378ef339b01438b5bd80a0fc48b235df70307f5c77c6 555136 debhelper_13.3.4.tar.xz
+Package-List: 
+ debhelper deb devel optional arch=all
+ libdebhelper-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/d/debhelper
+Priority: source
+Section: devel

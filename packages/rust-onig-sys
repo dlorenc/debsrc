@@ -1,0 +1,26 @@
+Package: rust-onig-sys
+Binary: librust-onig-sys-dev
+Version: 69.5.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bindgen-0.55+default-dev <!nocheck>, librust-cc-1+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.16-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c71c10074be5e93064ee3c0c0df8bd70 2301 rust-onig-sys_69.5.1-2.dsc
+ dbf2124d22667f0c58689e7d2a8e289f 615126 rust-onig-sys_69.5.1.orig.tar.gz
+ 826102cb5f620a22383e4d40dfa0be62 4576 rust-onig-sys_69.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/onig-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/onig-sys]
+Checksums-Sha256:
+ b0b2ce520d9654484879540412e63ef6a3108a032b3899ba7f9e40400e7797df 2301 rust-onig-sys_69.5.1-2.dsc
+ 9bff06597a6b17855040955cae613af000fc0bfc8ad49ea68b9479a74e59292d 615126 rust-onig-sys_69.5.1.orig.tar.gz
+ 0a9cc7d6ce79272ebd997cf16acb81a417492993c9853494852d0af5690e9edc 4576 rust-onig-sys_69.5.1-2.debian.tar.xz
+Package-List: 
+ librust-onig-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-onig-sys
+Priority: extra
+Section: misc

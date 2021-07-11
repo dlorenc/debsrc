@@ -1,0 +1,25 @@
+Package: gnome-logs
+Binary: gnome-logs
+Version: 3.36.0-2
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper-compat (= 12), desktop-file-utils <!nocheck>, dh-sequence-gnome, docbook-xsl, libglib2.0-dev (>= 2.43.90), libgtk-3-dev (>= 3.22.0), libsystemd-dev, libxml2-utils, meson, itstool, xsltproc
+Architecture: linux-any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 4a6448bbde69f8aa2e36a8e8030c8292 2146 gnome-logs_3.36.0-2.dsc
+ fc25928b4ffad25e27b3755751b4b323 744104 gnome-logs_3.36.0.orig.tar.xz
+ 0de31c93bd21d77bd5d045f94035956b 13868 gnome-logs_3.36.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-logs
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-logs.git
+Checksums-Sha256:
+ 8d1f3f5899fac5c971b3e6bad4a402130b23ad67fd6d7cd09b2dd377ba71681f 2146 gnome-logs_3.36.0-2.dsc
+ 44766b61a6899e1b4c51ed7a8840608e6b9277f341f856a1e5c08dbd7a733670 744104 gnome-logs_3.36.0.orig.tar.xz
+ 611f57d3b0887d67397c02436eea740054077c5517c913fab5ae17c66ecacfc8 13868 gnome-logs_3.36.0-2.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Logs
+Package-List: 
+ gnome-logs deb gnome optional arch=linux-any
+Directory: pool/main/g/gnome-logs
+Priority: optional
+Section: misc

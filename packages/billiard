@@ -1,0 +1,27 @@
+Package: billiard
+Binary: python-billiard-doc, python3-billiard
+Version: 3.6.3.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>, Brian May <bam@debian.org>, Sergio Durigan Junior <sergiodj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-case, python3-mock, python3-psutil, python3-pytest, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1fda150ce58a5f4b0f8ea8892618419f 1900 billiard_3.6.3.0-2.dsc
+ 49f47bc7c6868e17591d8018d542b984 155090 billiard_3.6.3.0.orig.tar.gz
+ cec04c4d9cd2f5cc9c18ba7649e61b0d 7188 billiard_3.6.3.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/billiard
+Vcs-Git: https://salsa.debian.org/python-team/packages/billiard.git
+Checksums-Sha256:
+ 58ca6f5860f7a2bde8c9b20603ce006b8b4dea942f9dfbfc3e56ee007479d3f6 1900 billiard_3.6.3.0-2.dsc
+ d91725ce6425f33a97dfa72fb6bfef0e47d4652acd98a032bd1a7fbf06d5fa6a 155090 billiard_3.6.3.0.orig.tar.gz
+ 89d236fadcd83d6d3db3621d7677cf9eaee15a68ebb73ef3d683a8249ae7ba32 7188 billiard_3.6.3.0-2.debian.tar.xz
+Homepage: https://github.com/celery/billiard
+Package-List: 
+ python-billiard-doc deb doc optional arch=all
+ python3-billiard deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/b/billiard
+Priority: optional
+Section: misc

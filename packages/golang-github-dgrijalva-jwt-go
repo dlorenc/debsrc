@@ -1,0 +1,27 @@
+Package: golang-github-dgrijalva-jwt-go
+Binary: golang-github-dgrijalva-jwt-go-dev
+Version: 3.2.0-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.17~), golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 60174557ab9c166c07b5d26351fd5ff5 1717 golang-github-dgrijalva-jwt-go_3.2.0-3.dsc
+ 154e6feee5ae62b28cf6394769fc0662 36960 golang-github-dgrijalva-jwt-go_3.2.0.orig.tar.gz
+ 2d2d05df55676ff3f7b7a193ec637512 5584 golang-github-dgrijalva-jwt-go_3.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-dgrijalva-jwt-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-dgrijalva-jwt-go.git
+Checksums-Sha256:
+ 44a82a9f01d6993df5554d8528584d9ca3f7e8c772c641f8431abca45c79a650 1717 golang-github-dgrijalva-jwt-go_3.2.0-3.dsc
+ 197465ef53219f3aeb1a6940b70e16d288fe4e4108d4831b91ea101118440e63 36960 golang-github-dgrijalva-jwt-go_3.2.0.orig.tar.gz
+ 1bf4422c19d5bc69850cbe7758467ade1e5e64cb74d9ba441ce9641f8f52f9d7 5584 golang-github-dgrijalva-jwt-go_3.2.0-3.debian.tar.xz
+Homepage: https://github.com/dgrijalva/jwt-go
+Go-Import-Path: github.com/dgrijalva/jwt-go
+Package-List: 
+ golang-github-dgrijalva-jwt-go-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-dgrijalva-jwt-go
+Priority: extra
+Section: golang

@@ -1,0 +1,25 @@
+Package: rust-version-compare
+Binary: librust-version-compare-dev
+Version: 0.0.10-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ a18652c8cf3dbc5bb12bda17936f5147 2204 rust-version-compare_0.0.10-1.dsc
+ 716addd0410fd21a819f888726d4d275 15242 rust-version-compare_0.0.10.orig.tar.gz
+ fdfe39e75fd171a6dc071807142d37ab 2476 rust-version-compare_0.0.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/version-compare
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/version-compare]
+Checksums-Sha256:
+ acaf17d788ced99ae85161d9d2a75a1ca9c78df46420ca5089d5e8a35b05906d 2204 rust-version-compare_0.0.10-1.dsc
+ 72ce2c6416ed4de4d6038defc18126c90e86c892cc96c489022a562a5973d294 15242 rust-version-compare_0.0.10.orig.tar.gz
+ b1d66e571d8a7330cdfdf7b4ce3ae650b7add3c06f95cf1ca08a60679e8a0ec5 2476 rust-version-compare_0.0.10-1.debian.tar.xz
+Homepage: https://github.com/timvisee/version-compare
+Package-List: 
+ librust-version-compare-dev deb rust optional arch=any
+Directory: pool/main/r/rust-version-compare
+Priority: extra
+Section: misc

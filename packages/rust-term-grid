@@ -1,0 +1,24 @@
+Package: rust-term-grid
+Binary: librust-term-grid-dev
+Version: 0.1.7-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-unicode-width-0.1+default-dev (>= 0.1.3~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ a93b4eefdbc8b8881f267d5880ad1088 2135 rust-term-grid_0.1.7-1.dsc
+ 225ea4b479317c9db74e6e74db8ef198 7353 rust-term-grid_0.1.7.orig.tar.gz
+ b10a5c6374d088fb4cea98f3d27f229a 2248 rust-term-grid_0.1.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/term-grid
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/term-grid]
+Checksums-Sha256:
+ 42e38e025e30078daabd324d26857e1094516ae08e59225d3a9990ccb4f2e16f 2135 rust-term-grid_0.1.7-1.dsc
+ 230d3e804faaed5a39b08319efb797783df2fd9671b39b7596490cb486d702cf 7353 rust-term-grid_0.1.7.orig.tar.gz
+ 956b43a5272e7815b1cfbd399410c147623a30dcc6dbd6bb4a3c906e6cf8e527 2248 rust-term-grid_0.1.7-1.debian.tar.xz
+Package-List: 
+ librust-term-grid-dev deb rust optional arch=any
+Directory: pool/main/r/rust-term-grid
+Priority: extra
+Section: misc

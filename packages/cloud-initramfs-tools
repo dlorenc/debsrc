@@ -1,0 +1,25 @@
+Package: cloud-initramfs-tools
+Binary: cloud-initramfs-rescuevol, cloud-initramfs-growroot, cloud-initramfs-dyn-netconf
+Version: 0.18.debian8
+Maintainer: Debian Cloud <debian-cloud@lists.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Noah Meyerhans <noahm@debian.org>,
+Build-Depends: debhelper-compat (= 12), quilt
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ ec58fb3648e2d5c3b579160c6d348962 1974 cloud-initramfs-tools_0.18.debian8.dsc
+ 4f09fcd371b1ddfc57a0b0f7583d1ecf 32236 cloud-initramfs-tools_0.18.debian8.tar.xz
+Vcs-Browser: https://salsa.debian.org/cloud-team/cloud-initramfs-tools
+Vcs-Git: https://salsa.debian.org/cloud-team/cloud-initramfs-tools.git
+Checksums-Sha256:
+ 7babce4777eab0845f01612a1c554155185f6a56bb0696d1f62672f414f507e4 1974 cloud-initramfs-tools_0.18.debian8.dsc
+ cc222d6e8021558f0229880b8a5d229c4c55a5b64c2f610c9f30647a5c27b784 32236 cloud-initramfs-tools_0.18.debian8.tar.xz
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Package-List: 
+ cloud-initramfs-dyn-netconf deb admin optional arch=all
+ cloud-initramfs-growroot deb admin optional arch=all
+ cloud-initramfs-rescuevol deb admin optional arch=all
+Directory: pool/main/c/cloud-initramfs-tools
+Priority: source
+Section: misc

@@ -1,0 +1,26 @@
+Package: haskell-unliftio
+Binary: libghc-unliftio-dev, libghc-unliftio-prof, libghc-unliftio-doc
+Version: 0.2.13-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-async-dev (>> 2.1.1), libghc-async-prof, libghc-unliftio-core-dev (>= 0.1.1.0), libghc-unliftio-core-prof
+Build-Depends-Indep: ghc-doc, libghc-async-doc, libghc-unliftio-core-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 7898db18316be0b5eb75a88fc52822ea 2349 haskell-unliftio_0.2.13-1.dsc
+ d9b70495a3ffd440ae4f06b9fd2221b5 53519 haskell-unliftio_0.2.13.orig.tar.gz
+ 1f6d45b691ba4b1ef3ebae1d740e7bb2 2232 haskell-unliftio_0.2.13-1.debian.tar.xz
+Checksums-Sha256:
+ d9d8e5433d762af9a6406c9772bfcfcaba6069fae3baefaf35a5c78a8de31cf8 2349 haskell-unliftio_0.2.13-1.dsc
+ c2562c4c32a1a3ce4ad10c9e5c816862858c80cec0340599747e4dca586ef9f3 53519 haskell-unliftio_0.2.13.orig.tar.gz
+ 0779e02c10a43562126ac87c65f5f7317da12452dfeb3ae1dca0ea768e59a5fc 2232 haskell-unliftio_0.2.13-1.debian.tar.xz
+Homepage: https://github.com/fpco/unliftio/tree/master/unliftio#readme
+Package-List: 
+ libghc-unliftio-dev deb haskell optional arch=any
+ libghc-unliftio-doc deb doc optional arch=all
+ libghc-unliftio-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-unliftio
+Priority: extra
+Section: misc

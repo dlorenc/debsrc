@@ -1,0 +1,26 @@
+Package: node-ansi-regex
+Binary: node-ansi-regex
+Version: 5.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2b57c0b5c238810bc991a4766d828cfc 2084 node-ansi-regex_5.0.0-1.dsc
+ 783cfd3e259324922980939408cf4e2c 7488 node-ansi-regex_5.0.0.orig.tar.gz
+ ab2d1c194da16745b9b696f3dd2dd71b 3728 node-ansi-regex_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ansi-regex
+Vcs-Git: https://salsa.debian.org/js-team/node-ansi-regex.git
+Checksums-Sha256:
+ 6c050ed7a7f2c4f468cbae6bacc8f261c6460bb4e6a05d4e718d65ae76810854 2084 node-ansi-regex_5.0.0-1.dsc
+ f50f18d89e81b834ebad89fa1dcbc1d1d77a5b22599636942f0dfaac2ad4fbef 7488 node-ansi-regex_5.0.0.orig.tar.gz
+ 5a8b2677af21276788fa9a1d14df287c0be39e10e78311917c45a3ba28170286 3728 node-ansi-regex_5.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/ansi-regex
+Package-List: 
+ node-ansi-regex deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ansi-regex
+Priority: optional
+Section: javascript

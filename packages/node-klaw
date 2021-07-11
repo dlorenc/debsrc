@@ -1,0 +1,26 @@
+Package: node-klaw
+Binary: node-klaw
+Version: 3.0.0-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), node-graceful-fs (>= 4.1.9) <!nocheck>, node-mkdirp (>= 1) <!nocheck>, node-rimraf <!nocheck>, node-tape <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 82679b6f43985d368515c36edd22fa3c 2106 node-klaw_3.0.0-4.dsc
+ f04f480acea2b4bc0317cb2ade2e4ff9 7419 node-klaw_3.0.0.orig.tar.gz
+ 36718861f63dcf1cf1510f949c1cbe49 3236 node-klaw_3.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-klaw
+Vcs-Git: https://salsa.debian.org/js-team/node-klaw.git
+Checksums-Sha256:
+ 17f23138a2e86ff31e757bde48be159466123ad2edf9a621da05eb3359515fe8 2106 node-klaw_3.0.0-4.dsc
+ 231a77c2cc2cb36c73d5db3e253b2b4059ea13aaae6e686859abf3f41b6c77a3 7419 node-klaw_3.0.0.orig.tar.gz
+ d9378a356649c4e83244a447c6370b44c6ee088178dd46b7c72f61c0dca44cd7 3236 node-klaw_3.0.0-4.debian.tar.xz
+Homepage: https://github.com/jprichardson/node-klaw#readme
+Package-List: 
+ node-klaw deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-klaw
+Priority: optional
+Section: javascript

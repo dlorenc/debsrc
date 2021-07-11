@@ -1,0 +1,28 @@
+Package: haskell-process-extras
+Binary: libghc-process-extras-dev, libghc-process-extras-prof, libghc-process-extras-doc
+Version: 0.7.4-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>, Ilias Tsitsimpis <iliastsi@debian.org>, Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-listlike-dev (>= 4.4), libghc-listlike-prof, libghc-data-default-dev, libghc-data-default-prof, libghc-generic-deriving-dev (>= 1.10), libghc-generic-deriving-prof
+Build-Depends-Indep: ghc-doc, libghc-listlike-doc, libghc-data-default-doc, libghc-generic-deriving-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 202ca122c054dc98fc83ef8c88cd6991 2733 haskell-process-extras_0.7.4-4.dsc
+ a2145baeba4ac5c972fd0e5993675424 14256 haskell-process-extras_0.7.4.orig.tar.gz
+ a5a06ae24523cb00494fc9675fc7710d 2880 haskell-process-extras_0.7.4-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-process-extras
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-process-extras]
+Checksums-Sha256:
+ cb806ee491bfec9a29ea0150ec50353190a75c19db8fde6c59315d46f26d08c4 2733 haskell-process-extras_0.7.4-4.dsc
+ 293e75f849254ce0ce0d7fa659681917e07a557c602505a2f9e20777467e984e 14256 haskell-process-extras_0.7.4.orig.tar.gz
+ e140f4f833c7c06df4306dafa4aac2c030f0fb056f72cf97b382f4b8a61250a6 2880 haskell-process-extras_0.7.4-4.debian.tar.xz
+Homepage: https://github.com/seereason/process-extras
+Package-List: 
+ libghc-process-extras-dev deb haskell optional arch=any
+ libghc-process-extras-doc deb doc optional arch=all
+ libghc-process-extras-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-process-extras
+Priority: source
+Section: misc

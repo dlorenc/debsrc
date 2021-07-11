@@ -1,0 +1,23 @@
+Package: ruby-standalone
+Binary: ruby-standalone
+Version: 2.7~5
+Maintainer: Antonio Terceiro <terceiro@debian.org>
+Build-Depends: debhelper (>= 10~), ruby, ruby-dev, ruby-ffi, shunit2, ronn, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 90458643fe23db053dd26c2f48a0d452 1680 ruby-standalone_2.7~5.dsc
+ 765bf2db2707d416313a5494caf045de 7952 ruby-standalone_2.7~5.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-standalone
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-standalone.git
+Checksums-Sha256:
+ ada9738773e437c3d0f714b1da9f22bb56e84928e1b73eeec3098903ac82b196 1680 ruby-standalone_2.7~5.dsc
+ 47c32162fcc8a2a85d97bffab9bc841711bae431d4ca82fdd6a2bd45ed13eff4 7952 ruby-standalone_2.7~5.tar.xz
+Package-List: 
+ ruby-standalone deb ruby optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ruby-ffi, shunit2
+Directory: pool/main/r/ruby-standalone
+Priority: optional
+Section: misc

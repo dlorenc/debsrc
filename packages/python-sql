@@ -1,0 +1,29 @@
+Package: python-sql
+Binary: python3-sql
+Version: 1.2.1-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper-compat (= 12), dh-python (>= 1.20130901-1~), python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 693e027654809edec22cd3707133f0db 2359 python-sql_1.2.1-1.dsc
+ f5347b69e55c4719be878c2324de394e 32202 python-sql_1.2.1.orig.tar.gz
+ cdbb46d78afd63af65d008e51a3e348e 506 python-sql_1.2.1.orig.tar.gz.asc
+ f382d2a4a1b7b4a9798183c9137b9460 25368 python-sql_1.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/python-sql
+Vcs-Git: https://salsa.debian.org/tryton-team/python-sql.git
+Checksums-Sha256:
+ 3f601197891de66c0a7af798a4d7f116cab4702249bc2bf83ab98dcceeeab5e1 2359 python-sql_1.2.1-1.dsc
+ 306999bd311fbf50804d76f346655af0a6ff18881ce46c1329256fee40f492c0 32202 python-sql_1.2.1.orig.tar.gz
+ e11066ab9bffce1fa23c0c691169ac38d522b0ea4ae4c46f5a7bd7fa8750fee6 506 python-sql_1.2.1.orig.tar.gz.asc
+ 557c2af2b766836045316b190543f79fb41b03547bc77b9fe9496eb82b606c78 25368 python-sql_1.2.1-1.debian.tar.xz
+Homepage: http://hg.tryton.org/python-sql/
+Package-List: 
+ python3-sql deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/p/python-sql
+Priority: optional
+Section: misc

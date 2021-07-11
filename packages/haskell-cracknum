@@ -1,0 +1,29 @@
+Package: haskell-cracknum
+Binary: libghc-cracknum-dev, libghc-cracknum-prof, libghc-cracknum-doc, haskell-cracknum-utils
+Version: 2.3-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-floatinghex-dev (>= 0.4), libghc-floatinghex-prof
+Build-Depends-Indep: ghc-doc, libghc-floatinghex-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5c3db813f540b9fedacf142344217149 2450 haskell-cracknum_2.3-2.dsc
+ 970b7eba8da6fc0bf301d04536d59d6e 14308 haskell-cracknum_2.3.orig.tar.gz
+ 30127740f668913c655245ee7b4bd935 2816 haskell-cracknum_2.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-cracknum
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-cracknum]
+Checksums-Sha256:
+ f9f7f5b520f12dd035b6b22264ebb900e476a8cfc7bb52b4e9bd9a69c38ef05c 2450 haskell-cracknum_2.3-2.dsc
+ 428f25cfa0f7c4c126ee96fb9122966c2b175a194d59c200470a6f689ec038f3 14308 haskell-cracknum_2.3.orig.tar.gz
+ 554d51c54f731c65626c33a009f0582da8d6e72796c1c24408d41a4a3d8f386b 2816 haskell-cracknum_2.3-2.debian.tar.xz
+Homepage: https://github.com/LeventErkok/CrackNum
+Package-List: 
+ haskell-cracknum-utils deb misc optional arch=any
+ libghc-cracknum-dev deb haskell optional arch=any
+ libghc-cracknum-doc deb doc optional arch=all
+ libghc-cracknum-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cracknum
+Priority: optional
+Section: misc

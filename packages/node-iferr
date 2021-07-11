@@ -1,0 +1,27 @@
+Package: node-iferr
+Binary: node-iferr
+Version: 1.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Saravanan Palanisamy <saravanan30erd@gmail.com>
+Build-Depends: debhelper (>= 11), dh-buildinfo, nodejs, mocha (>= 4) <!nocheck>, coffeescript (>= 1) <!nocheck>
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 7248220205750406606ee56b7697d3f1 2080 node-iferr_1.0.2-1.dsc
+ 92f0bcbbc4df5923c47d5185c7d81fd8 4407 node-iferr_1.0.2.orig.tar.gz
+ d810f8db95f6695bb46a4931cd8c2a1d 2792 node-iferr_1.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-iferr
+Vcs-Git: https://salsa.debian.org/js-team/node-iferr.git
+Checksums-Sha256:
+ d51d138182e9de66d1d1d5e130b07474415b52a7badd4a30db00ad8beb16e0bc 2080 node-iferr_1.0.2-1.dsc
+ 855e07c8187484f54d38fcc1d77535dc02d5c7e0c589155b8eae147a44cefe9e 4407 node-iferr_1.0.2.orig.tar.gz
+ 7953460356a0a20af905c7e28134ab2ba30ad952d152afac7bfbcae3b515e421 2792 node-iferr_1.0.2-1.debian.tar.xz
+Homepage: https://github.com/shesek/iferr
+Package-List: 
+ node-iferr deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: coffeescript, mocha
+Directory: pool/main/n/node-iferr
+Priority: extra
+Section: javascript

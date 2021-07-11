@@ -1,0 +1,27 @@
+Package: ogdi-dfsg
+Binary: libogdi-dev, libogdi4.1, ogdi-bin
+Version: 4.1.0+ds-5
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Francesco Paolo Lovergine <frankie@debian.org>
+Build-Depends: debhelper (>= 10~), libexpat1-dev, pkg-config, tcl-dev (>= 8.4), zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0d078451770b80dee3f71dfe5e1b6c9c 2114 ogdi-dfsg_4.1.0+ds-5.dsc
+ 56e08328cae9251ea527f2da2d2f6be5 559566 ogdi-dfsg_4.1.0+ds.orig.tar.gz
+ 75727f146c7dd0a0bcedd3502871fa03 14204 ogdi-dfsg_4.1.0+ds-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/ogdi-dfsg
+Vcs-Git: https://salsa.debian.org/debian-gis-team/ogdi-dfsg.git
+Checksums-Sha256:
+ 188a60ea08b530be6755e9e9496a3f9b2a754daeb7e67c7eb2d0a74d9b4b6d7e 2114 ogdi-dfsg_4.1.0+ds-5.dsc
+ 4a214d5cfc9641be1d3eb3ead011b26076268131ac8d3cdefd1a7f7ea2a5f7c3 559566 ogdi-dfsg_4.1.0+ds.orig.tar.gz
+ 571c9cfbb9064c8632f2cff90a8347b5037ba9dc9e5b7c251b4c85be16fe6dee 14204 ogdi-dfsg_4.1.0+ds-5.debian.tar.xz
+Homepage: http://ogdi.sourceforge.net/
+Package-List: 
+ libogdi-dev deb libdevel optional arch=any
+ libogdi4.1 deb libs optional arch=any
+ ogdi-bin deb science optional arch=any
+Directory: pool/main/o/ogdi-dfsg
+Priority: source
+Section: libs

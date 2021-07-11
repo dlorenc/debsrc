@@ -1,0 +1,32 @@
+Package: djvulibre
+Binary: libdjvulibre-dev, libdjvulibre21, libdjvulibre-text, djvulibre-desktop, djview, djview3, djvuserve, djvulibre-bin
+Version: 3.5.28-2
+Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Uploaders: Leon Bottou <leonb@bottou.org>
+Build-Depends: pkg-config, debhelper-compat (= 13), libjpeg-dev, libtiff-dev, librsvg2-bin | imagemagick
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b31b44b272c6a801df44b90b9b0a1cea 2388 djvulibre_3.5.28-2.dsc
+ 2f72e25ecf571449aecc468fcfe4fb60 2959024 djvulibre_3.5.28.orig.tar.xz
+ 9ffd44e3eb32ad6d8e780b5d63ce6307 17420 djvulibre_3.5.28-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/djvulibre
+Vcs-Git: https://salsa.debian.org/debian/djvulibre.git
+Checksums-Sha256:
+ 0b5f31e70a8f81afec47e67e9465dbece7756f0c7f88da643f0dda82bf78a1ba 2388 djvulibre_3.5.28-2.dsc
+ 1223b7bf7c8dfe2e290882f3bfb88ba2468b30495a1bf8dfd54dc7e810987887 2959024 djvulibre_3.5.28.orig.tar.xz
+ 6f85dcd7cdb856cc3e4a31fc381e73a6cab717c90e058f474fb4d2ab29635d91 17420 djvulibre_3.5.28-2.debian.tar.xz
+Homepage: http://djvu.sourceforge.net/
+Package-List: 
+ djview deb graphics optional arch=all
+ djview3 deb graphics optional arch=all
+ djvulibre-bin deb graphics optional arch=any
+ djvulibre-desktop deb libs optional arch=all
+ djvuserve deb web optional arch=any
+ libdjvulibre-dev deb libdevel optional arch=any
+ libdjvulibre-text deb libs optional arch=all
+ libdjvulibre21 deb libs optional arch=any
+Directory: pool/main/d/djvulibre
+Priority: source
+Section: graphics

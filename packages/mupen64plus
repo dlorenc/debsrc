@@ -1,0 +1,26 @@
+Package: mupen64plus
+Binary: mupen64plus-audio-all, mupen64plus-input-all, mupen64plus-rsp-all, mupen64plus-video-all
+Version: 2.5+6
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Sven Eckelmann <sven@narfation.org>, Tobias Loose <TobiasLoose@gmx.de>,
+Build-Depends: debhelper (>= 12), dpkg-dev (>= 1.16.1.1)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (native)
+Files:
+ bb899f8bcf608b856daaef24b3ac020a 1975 mupen64plus_2.5+6.dsc
+ a01d78db72eabe0c965b6bc52056d98b 6972 mupen64plus_2.5+6.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/mupen64plus
+Vcs-Git: https://salsa.debian.org/games-team/mupen64plus.git -b master
+Checksums-Sha256:
+ d682fd09c9ee3bdecbd875ca369661c8621fd49a0170ce5ca4827117f4237aab 1975 mupen64plus_2.5+6.dsc
+ 8183717417a3f0d490a4f9f8cce520f0282d266c2ba430527f840b2a0dce09a1 6972 mupen64plus_2.5+6.tar.xz
+Homepage: http://mupen64plus.org/
+Package-List: 
+ mupen64plus-audio-all deb metapackages optional arch=all
+ mupen64plus-input-all deb metapackages optional arch=all
+ mupen64plus-rsp-all deb metapackages optional arch=all
+ mupen64plus-video-all deb metapackages optional arch=all
+Directory: pool/main/m/mupen64plus
+Priority: source
+Section: metapackages

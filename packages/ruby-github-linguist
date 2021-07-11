@@ -1,0 +1,27 @@
+Package: ruby-github-linguist
+Binary: ruby-github-linguist
+Version: 7.12.2-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Timothée Girard <debian@timotheegirard.com>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1.0~), ruby-charlock-holmes (>= 0.7.6~), ruby-escape-utils (>= 1.2~), ruby-json, ruby-mini-mime (>= 1.0~), ruby-mocha, ruby-rugged (>= 0.25.1~), ruby-yajl
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c07fb55587a07da43216f5df76b9adf3 2144 ruby-github-linguist_7.12.2-1.dsc
+ a9cd195b9ae1de02ab9cd5a9aae6ce86 2684182 ruby-github-linguist_7.12.2.orig.tar.gz
+ b88b95dbe5a3ba4c12979c90cde2d84e 3832 ruby-github-linguist_7.12.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-github-linguist
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-github-linguist.git
+Checksums-Sha256:
+ 23667f3866870a10bbf88bd06a88e20b21069da92b556b1b2b59a810672bb3c4 2144 ruby-github-linguist_7.12.2-1.dsc
+ b8b087a165722d5a235342a50e72063a9d240ec2f8dc310c701389c4332c4be5 2684182 ruby-github-linguist_7.12.2.orig.tar.gz
+ 41e16fb54e32a0da8d5ab67a32c65353a3fe004bf38bd36c21cc15541e90304e 3832 ruby-github-linguist_7.12.2-1.debian.tar.xz
+Homepage: https://github.com/github/linguist
+Package-List: 
+ ruby-github-linguist deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-github-linguist
+Priority: optional
+Section: misc

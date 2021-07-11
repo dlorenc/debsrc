@@ -1,0 +1,32 @@
+Package: node-ts-jest
+Binary: ts-jest
+Version: 26.5.0+~cs2.4.7-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs (>= 0.9.61), help2man, jest (>= 26.6.3+repack+~cs61.38.31-7~), node-ansi-regex <!nocheck>, node-ansi-styles <!nocheck>, node-babel7 <!nocheck>, node-base <!nocheck>, node-braces <!nocheck>, node-chalk <!nocheck>, node-color-convert <!nocheck>, node-color-name <!nocheck>, node-convert-source-map <!nocheck>, node-debug <!nocheck>, node-escape-string-regexp <!nocheck>, node-esutils <!nocheck>, node-fast-json-stable-stringify, node-fill-range <!nocheck>, node-fs-extra, node-has-flag <!nocheck>, node-is-number <!nocheck>, node-istanbul <!nocheck>, node-js-yaml <!nocheck>, node-jest-debbundle <!nocheck>, node-json-stable-stringify <!nocheck>, node-json5, node-lodash, node-make-error, node-mkdirp (>= 1.0), node-react <!nocheck>, node-semver (>= 7.0), node-types-babel-core, node-types-react, node-typescript, node-yargs, node-yargs-parser
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5cd3a6fc699fb8dcbe0b5ad942fdb278 3887 node-ts-jest_26.5.0+~cs2.4.7-1.dsc
+ ffb865395b0915b3ba0e7d649a101afe 68424 node-ts-jest_26.5.0+~cs2.4.7.orig-bs-logger.tar.xz
+ dee64db31517ee1cd36a9dba98204eb0 11344 node-ts-jest_26.5.0+~cs2.4.7.orig-buffer-from.tar.xz
+ b3e6787fbf213dc5f6806cfd02b57c34 1592 node-ts-jest_26.5.0+~cs2.4.7.orig-types-buffer-from.tar.xz
+ 56670cbf7c81b4812689605b9a61de7d 344816 node-ts-jest_26.5.0+~cs2.4.7.orig.tar.xz
+ 8b3e3c3c1a79795103a95a5f1f3d4d36 86328 node-ts-jest_26.5.0+~cs2.4.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ts-jest
+Vcs-Git: https://salsa.debian.org/js-team/node-ts-jest.git
+Checksums-Sha256:
+ 96b9910f7452f521613feb73d93ccde0757db88ba6a4abff11daa78c236fad63 3887 node-ts-jest_26.5.0+~cs2.4.7-1.dsc
+ b1aab5d1947d1eb1cebf16e53f2a46b78de1fa89850a01a4211eb0d01096fb8c 68424 node-ts-jest_26.5.0+~cs2.4.7.orig-bs-logger.tar.xz
+ dd9e97c689bc7422865d1da059085c86f700198d13e6bc95bb5764594bae2c5d 11344 node-ts-jest_26.5.0+~cs2.4.7.orig-buffer-from.tar.xz
+ 90b9bb4cf1035d558dddffa17c8b1ca9decbe12f33350b25876c78e55379dd81 1592 node-ts-jest_26.5.0+~cs2.4.7.orig-types-buffer-from.tar.xz
+ 8874e9e20e609ad2754a91f9fc4fa5a232a26268c060e53adb8f929505e20c0c 344816 node-ts-jest_26.5.0+~cs2.4.7.orig.tar.xz
+ 808efd75fa9cb86478bb4e99b00f360fcee5e831d86307a25d721387f4221b56 86328 node-ts-jest_26.5.0+~cs2.4.7-1.debian.tar.xz
+Homepage: https://kulshekhar.github.io/ts-jest
+Package-List: 
+ ts-jest deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ts-jest
+Priority: extra
+Section: misc

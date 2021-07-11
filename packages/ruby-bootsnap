@@ -1,0 +1,27 @@
+Package: ruby-bootsnap
+Binary: ruby-bootsnap
+Version: 1.4.6-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-bundler, rake (>= 10.0), rake-compiler, rubocop, ruby-minitest (<< 6.0), ruby-minitest (>= 5.0), ruby-mocha (>= 1.2), ruby-msgpack (>= 1.0)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a1450df3dce031c165ee298e53704b02 2183 ruby-bootsnap_1.4.6-1.dsc
+ 5af9f1974bfcde7f6ae9e6099e18ade2 43395 ruby-bootsnap_1.4.6.orig.tar.gz
+ 03ff420d9a21adb3f39b1da6050522fd 3932 ruby-bootsnap_1.4.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-bootsnap
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-bootsnap.git
+Checksums-Sha256:
+ 420a7021d8064d84b4aec719b5144d2dbd008f28775c903ffc8044732babcea5 2183 ruby-bootsnap_1.4.6-1.dsc
+ 2f5888ce50511a766416c80019c9b54e305ede20fc61d831a62a07cdfac50e23 43395 ruby-bootsnap_1.4.6.orig.tar.gz
+ 5030968917d9f5e56a0e2e2fb300d9be1dbfb50c963691811cdb4c0e601a8dfe 3932 ruby-bootsnap_1.4.6-1.debian.tar.xz
+Homepage: https://github.com/Shopify/bootsnap
+Package-List: 
+ ruby-bootsnap deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-bootsnap
+Priority: extra
+Section: misc

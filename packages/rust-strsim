@@ -1,0 +1,27 @@
+Package: rust-strsim
+Binary: librust-strsim-dev
+Version: 0.9.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 80fdfb76bff91bc25bf31dc0af60c95e 2140 rust-strsim_0.9.3-1.dsc
+ 90253ab52670a0551a533eb78a1f6b10 10266 rust-strsim_0.9.3.orig.tar.gz
+ 37a3827fdf1fc40db650599a50dc050e 2656 rust-strsim_0.9.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/strsim
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/strsim]
+Checksums-Sha256:
+ 916b84937d62b32879d27f255b2458cd9be9d88caccd12298b23b4ae196cdab0 2140 rust-strsim_0.9.3-1.dsc
+ 6446ced80d6c486436db5c078dde11a9f73d42b57fb273121e160b84f63d894c 10266 rust-strsim_0.9.3.orig.tar.gz
+ 13d43e2a911974d4993163a633ff6efaa1ebae3b1693afda5dadacc12aed3a14 2656 rust-strsim_0.9.3-1.debian.tar.xz
+Homepage: https://github.com/dguo/strsim-rs
+Package-List: 
+ librust-strsim-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-strsim
+Priority: extra
+Section: misc

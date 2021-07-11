@@ -1,0 +1,28 @@
+Package: systray-mdstat
+Binary: systray-mdstat
+Version: 1.2.0-2
+Maintainer: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-dist-zilla, libdesktop-notify-perl <!nocheck>, libdist-zilla-plugin-git-perl, libdist-zilla-plugin-githubmeta-perl, libdist-zilla-plugin-mojibaketests-perl, libdist-zilla-plugin-ourpkgversion-perl, libdist-zilla-plugin-podweaver-perl, libdist-zilla-plugin-run-perl, libdist-zilla-plugin-test-kwalitee-perl, libdist-zilla-plugin-test-perl-critic-perl, libdist-zilla-plugins-cjm-perl, libfile-sharedir-install-perl, libfile-sharedir-perl <!nocheck>, libfile-which-perl <!nocheck>, libgtk3-perl <!nocheck>, libtry-tiny-perl <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>
+Build-Conflicts: dh-strip-nondeterminism (<< 0.040~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 30ebeb622065296f1d6a4a1479234f16 2806 systray-mdstat_1.2.0-2.dsc
+ da66a5ae855196db746e002733615f24 58372 systray-mdstat_1.2.0.orig.tar.xz
+ 09d2e9010d88a29cecd0d25461492a29 833 systray-mdstat_1.2.0.orig.tar.xz.asc
+ 20090332361ac9549a369d35e3bc535c 15528 systray-mdstat_1.2.0-2.debian.tar.xz
+Vcs-Browser: https://github.com/xtaran/systray-mdstat
+Vcs-Git: https://github.com/xtaran/systray-mdstat.git
+Checksums-Sha256:
+ bdf014c0e95291569b39b5ca8c2a7bedf91fa2666f496bc61c5941547e0e3401 2806 systray-mdstat_1.2.0-2.dsc
+ 27ee5a2fc45a4f913ec1c9a716a15b4f62ee0000be33e02c1d1fe5d4f51b75d3 58372 systray-mdstat_1.2.0.orig.tar.xz
+ 2c92c5776fc6903c37a75186982a4e3a08c8c2e4b0679d32026b4e58c89c1832 833 systray-mdstat_1.2.0.orig.tar.xz.asc
+ c479c5cfeba25d2e9064ffbabdbc7fbd5d68b922fc0d824fa201304e2eb0e954 15528 systray-mdstat_1.2.0-2.debian.tar.xz
+Homepage: https://github.com/xtaran/systray-mdstat#readme
+Package-List: 
+ systray-mdstat deb utils optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/s/systray-mdstat
+Priority: optional
+Section: misc

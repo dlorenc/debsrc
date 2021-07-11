@@ -1,0 +1,26 @@
+Package: lua-readline
+Binary: lua-readline, lua-readline-dev
+Version: 2.9-1
+Maintainer: Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>
+Uploaders: Sergei Golovan <sgolovan@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-lua, lua-posix, libreadline-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 65d76245b00e0cb807c5c381da2d4019 2040 lua-readline_2.9-1.dsc
+ 81c028b755da96e39dcb0d1955449dbd 15314 lua-readline_2.9.orig.tar.gz
+ b176a9f3e7dfa4d5d463c6616790277d 2392 lua-readline_2.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lua-team/lua-readline
+Vcs-Git: https://salsa.debian.org/lua-team/lua-readline.git
+Checksums-Sha256:
+ 875cc97a392702929daa6772cda7f0b111aa4a4c017892f85dd8de2ac488fc57 2040 lua-readline_2.9-1.dsc
+ cfd469049cdf8f590a33c9137fb39744840c64588da9ebf599158484e0954b73 15314 lua-readline_2.9.orig.tar.gz
+ 7db3f6fc4b7a7d8d816050623bbad6ea34a35498c142972b94925789f45b9d1e 2392 lua-readline_2.9-1.debian.tar.xz
+Homepage: https://pjb.com.au/comp/lua/readline.html
+Package-List: 
+ lua-readline deb interpreters optional arch=any
+ lua-readline-dev deb libdevel optional arch=any
+Directory: pool/main/l/lua-readline
+Priority: extra
+Section: misc

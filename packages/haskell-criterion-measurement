@@ -1,0 +1,26 @@
+Package: haskell-criterion-measurement
+Binary: libghc-criterion-measurement-dev, libghc-criterion-measurement-prof, libghc-criterion-measurement-doc
+Version: 0.1.2.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-aeson-dev (>= 0.8), libghc-aeson-prof (>= 0.8), libghc-base-compat-dev (>= 0.9), libghc-base-compat-prof (>= 0.9), libghc-vector-dev (>= 0.7.1), libghc-vector-prof (>= 0.7.1)
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-base-compat-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ b554c56d7b6a60a61541db932aa9aada 2569 haskell-criterion-measurement_0.1.2.0-1.dsc
+ 4f76db58eaa52370d8b52fabe52ba085 16650 haskell-criterion-measurement_0.1.2.0.orig.tar.gz
+ 63667b5fd7815e3b9cd77e8bd5e7985c 2184 haskell-criterion-measurement_0.1.2.0-1.debian.tar.xz
+Checksums-Sha256:
+ f2f26b36300bddf242b1085a11ca619fd8065dee512ec89564b0864c6d07a147 2569 haskell-criterion-measurement_0.1.2.0-1.dsc
+ 74a433da656c298608c514b962b915ec83915983197ae06c4b5d3a6b5d0de70e 16650 haskell-criterion-measurement_0.1.2.0.orig.tar.gz
+ 649781d7be236293c0d682e120a355be3ad9ee99223e5522dbe757acf8456f3f 2184 haskell-criterion-measurement_0.1.2.0-1.debian.tar.xz
+Homepage: https://github.com/bos/criterion
+Package-List: 
+ libghc-criterion-measurement-dev deb haskell optional arch=any
+ libghc-criterion-measurement-doc deb doc optional arch=all
+ libghc-criterion-measurement-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-criterion-measurement
+Priority: extra
+Section: misc

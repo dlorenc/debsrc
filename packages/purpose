@@ -1,0 +1,32 @@
+Package: purpose
+Binary: libkf5purpose-bin, libkf5purpose-dev, libkf5purpose5, qml-module-org-kde-purpose
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), extra-cmake-modules (>= 5.78.0~), gettext, intltool, kirigami2-dev (>= 5.78.0~), libaccounts-glib-dev, libaccounts-qt5-dev, libkaccounts-dev (>= 4:20.08.0~), libkf5config-dev (>= 5.78.0~), libkf5coreaddons-dev (>= 5.78.0~), libkf5i18n-dev (>= 5.78.0~), libkf5kio-dev (>= 5.78.0~), libkf5notifications-dev, pkg-config, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qtdeclarative5-dev (>= 5.14.0~)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dbd9a632b8c49800317b256e8ee53d99 2589 purpose_5.78.0-2.dsc
+ aad0188a3110adf858484ab0f99dfd2b 158484 purpose_5.78.0.orig.tar.xz
+ 6b9917aa4e45575a043b935753434284 488 purpose_5.78.0.orig.tar.xz.asc
+ a36b33e5e2c2214a275125ff05078acd 12596 purpose_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/purpose
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/purpose.git
+Checksums-Sha256:
+ ce2bc75305b1cd8149504be70a5ee14d92d5039182fd0dac53776971dddaf0f2 2589 purpose_5.78.0-2.dsc
+ 498017bdbd1f46773963d2b97bfb8b7d9e480fa6d958a83ce629c7d327e1628f 158484 purpose_5.78.0.orig.tar.xz
+ b23fe19952c0e18953a3d61a3af6fe732822a50dd468a36107ef8805922515cd 488 purpose_5.78.0.orig.tar.xz.asc
+ 5715bf3a1e6ed0be121217037aca7f166e1a8c8cee2d0c7b1961706c38af6bb5 12596 purpose_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/purpose
+Package-List: 
+ libkf5purpose-bin deb libs optional arch=any
+ libkf5purpose-dev deb libdevel optional arch=any
+ libkf5purpose5 deb libs optional arch=any
+ qml-module-org-kde-purpose deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/p/purpose
+Priority: optional
+Section: misc

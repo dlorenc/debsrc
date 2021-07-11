@@ -1,0 +1,27 @@
+Package: golang-go.crypto
+Binary: golang-golang-x-crypto-dev
+Version: 1:0.0~git20201221.eec23a3-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>, Anthony Fok <foka@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.48~), golang-any (>= 2:1.9~), golang-golang-x-net-dev (>= 1:0.0+git20190404.eb5bcb5), golang-golang-x-sys-dev (>= 0.0~git20191026.33540a1), golang-golang-x-term-dev (>= 0.0~git20201117.f5c789d), openssh-server
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2614e07112fbddac2b66e938da806670 2545 golang-go.crypto_0.0~git20201221.eec23a3-1.dsc
+ 3a57d23feaf538c6ee8d0d465c8d1f99 1522404 golang-go.crypto_0.0~git20201221.eec23a3.orig.tar.xz
+ 5da5fbbe0164ac09c3e31ec3e1269de4 6592 golang-go.crypto_0.0~git20201221.eec23a3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-go.crypto
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-go.crypto.git
+Checksums-Sha256:
+ 88d0725ce18554e9b44a33b1a653d5c65997463acc0882779240f51cb94f2eb0 2545 golang-go.crypto_0.0~git20201221.eec23a3-1.dsc
+ 70544d3630eeeae0bcfcdd894ef289e1235e9b5a42dba937d89c7c2656ab3852 1522404 golang-go.crypto_0.0~git20201221.eec23a3.orig.tar.xz
+ 72c9f9c186f422ef7d549e039b6797386209b21b2dd3a2083b8ef1aede8d9716 6592 golang-go.crypto_0.0~git20201221.eec23a3-1.debian.tar.xz
+Homepage: https://golang.org/x/crypto
+Go-Import-Path: golang.org/x/crypto
+Package-List: 
+ golang-golang-x-crypto-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-go.crypto
+Priority: extra
+Section: golang

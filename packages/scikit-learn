@@ -1,0 +1,30 @@
+Package: scikit-learn
+Binary: python3-sklearn, python3-sklearn-lib, python-sklearn-doc
+Version: 0.23.2-5
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Christian Kastner <ckk@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev, cython3, python3-setuptools, python3-numpy, python3-scipy, python3-nose, python3-pytest, python3-matplotlib, python3-joblib (>= 0.9.2), python3-threadpoolctl (>= 2.0.0), libsvm-dev (>= 2.84.0), libblas-dev | libblas.so, libatlas-base-dev, python3-pandas <!nocheck>, python3-pil <!nocheck>
+Build-Depends-Indep: python3-sphinx (>= 1.0), python3-sphinx-gallery, python3-numpydoc (>= 0.9), python3-pandas, python3-skimage, python3-pil, librsvg2-bin, graphviz, python3-doc, python-numpy-doc, python-scipy-doc, python-matplotlib-doc, python-pandas-doc
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 92edaad07a578056d3266f2a1c39779f 2952 scikit-learn_0.23.2-5.dsc
+ a03e52a3fa6988bf932db5dcdc74019c 7155833 scikit-learn_0.23.2.orig.tar.gz
+ 087e9b8112778eedf2ab4594afda2d9b 25076 scikit-learn_0.23.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/scikit-learn
+Vcs-Git: https://salsa.debian.org/science-team/scikit-learn.git
+Checksums-Sha256:
+ 18898021f5712b48bcff162830f23272bf1ae767fc63150574eb997eef8840e3 2952 scikit-learn_0.23.2-5.dsc
+ 20766f515e6cd6f954554387dfae705d93c7b544ec0e6c6a5d8e006f6f7ef480 7155833 scikit-learn_0.23.2.orig.tar.gz
+ 7b26e0a055240b449a90afde9c8e885bb28089e6c7577c35f2766318deceebbe 25076 scikit-learn_0.23.2-5.debian.tar.xz
+Homepage: http://scikit-learn.sourceforge.net
+Package-List: 
+ python-sklearn-doc deb doc optional arch=all profile=!nodoc
+ python3-sklearn deb python optional arch=all
+ python3-sklearn-lib deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-joblib, python3-matplotlib, python3-nose, python3-numpy, python3-pytest, python3-scipy
+Directory: pool/main/s/scikit-learn
+Priority: source
+Section: python

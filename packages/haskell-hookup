@@ -1,0 +1,28 @@
+Package: haskell-hookup
+Binary: libghc-hookup-dev, libghc-hookup-prof, libghc-hookup-doc
+Version: 0.4-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-hsopenssl-dev (>= 0.11.2.3), libghc-hsopenssl-dev (<< 0.12), libghc-hsopenssl-prof (>= 0.11.2.3), libghc-hsopenssl-prof (<< 0.12), libghc-hsopenssl-x509-system-dev (>= 0.1), libghc-hsopenssl-x509-system-dev (<< 0.2), libghc-hsopenssl-x509-system-prof, libghc-attoparsec-dev (>= 0.13), libghc-attoparsec-dev (<< 0.14), libghc-attoparsec-prof, libghc-network-dev (>= 2.6), libghc-network-dev (<< 3.2), libghc-network-prof
+Build-Depends-Indep: ghc-doc, libghc-hsopenssl-doc, libghc-hsopenssl-x509-system-doc, libghc-attoparsec-doc, libghc-network-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b7523a890f700be518aa4e7cdec700cc 2788 haskell-hookup_0.4-2.dsc
+ 608aaf63f50bf09ae8bb6519802e995a 12340 haskell-hookup_0.4.orig.tar.gz
+ 1cff9ca65c2074450550b936067e3623 2660 haskell-hookup_0.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hookup
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hookup]
+Checksums-Sha256:
+ 92193f9e6111a985a5baa49414bdaa86154085ee3dce07c648ab04e903ee1908 2788 haskell-hookup_0.4-2.dsc
+ 11719a581cee3c79d3a51ef43a9616ea9c1837b961b368f4c86d4d1afca2d77d 12340 haskell-hookup_0.4.orig.tar.gz
+ ffb7447bb321492a2e796bb6bd95a7a0e14ec342ae530f3fb636fd209fbbb813 2660 haskell-hookup_0.4-2.debian.tar.xz
+Homepage: https://github.com/glguy/irc-core
+Package-List: 
+ libghc-hookup-dev deb haskell optional arch=any
+ libghc-hookup-doc deb doc optional arch=all
+ libghc-hookup-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hookup
+Priority: optional
+Section: misc

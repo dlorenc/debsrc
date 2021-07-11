@@ -1,0 +1,26 @@
+Package: node-isobject
+Binary: node-isobject
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, rollup
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9757bdb0a427a88e467f920b7a0f51aa 2054 node-isobject_4.0.0-1.dsc
+ 67193fd5d67e78ab33dd80f02a68ce9b 5305 node-isobject_4.0.0.orig.tar.gz
+ 385300d328485ae24c8e00c9dd4e7522 2636 node-isobject_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-isobject
+Vcs-Git: https://salsa.debian.org/js-team/node-isobject.git
+Checksums-Sha256:
+ b8b1bb06664a1ea5d977f188dd0cf0c6ba592fa3a69452856e25b2b49f101b60 2054 node-isobject_4.0.0-1.dsc
+ 2c8ee53e4aa006e0b57c4b4200484abf416c3053718b98f8629fab8cc1a3e160 5305 node-isobject_4.0.0.orig.tar.gz
+ 0308f6e051e13d68cf3a91cb8be2f40677d8cbf8cbe1eae1a28cd69aeeb5837c 2636 node-isobject_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/isobject
+Package-List: 
+ node-isobject deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-isobject
+Priority: optional
+Section: javascript

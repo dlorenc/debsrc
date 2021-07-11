@@ -1,0 +1,26 @@
+Package: haskell-stm-delay
+Binary: libghc-stm-delay-dev, libghc-stm-delay-prof, libghc-stm-delay-doc
+Version: 0.1.1.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d8b19d813bc4a26e2b2dce770ddf32b3 2184 haskell-stm-delay_0.1.1.1-2.dsc
+ 1dc88eff4bc1e7e37e71f383b348124b 5550 haskell-stm-delay_0.1.1.1.orig.tar.gz
+ 9fa4f8f185b8185b9fd4dbe14d68675a 2224 haskell-stm-delay_0.1.1.1-2.debian.tar.xz
+Checksums-Sha256:
+ cc69b7e2ae9c194ae1e8d34926504303c7b9e18ffb50b3252a1dd8f1d681e6a0 2184 haskell-stm-delay_0.1.1.1-2.dsc
+ b132581aac47e6cba6a1691a485e1700fbb047c02b7e1e43ae9bbd8476108a32 5550 haskell-stm-delay_0.1.1.1.orig.tar.gz
+ cb46bc17ad8cdb95450b6f08da8e097a194c74b157f51118586ed59ebdbce3fe 2224 haskell-stm-delay_0.1.1.1-2.debian.tar.xz
+Homepage: https://github.com/joeyadams/haskell-stm-delay
+Package-List: 
+ libghc-stm-delay-dev deb haskell optional arch=any
+ libghc-stm-delay-doc deb doc optional arch=all
+ libghc-stm-delay-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-stm-delay
+Priority: extra
+Section: misc

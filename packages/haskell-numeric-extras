@@ -1,0 +1,28 @@
+Package: haskell-numeric-extras
+Binary: libghc-numeric-extras-dev, libghc-numeric-extras-prof, libghc-numeric-extras-doc
+Version: 0.1-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dc84230e9e86f685f50d8cbb4f63de29 2392 haskell-numeric-extras_0.1-6.dsc
+ 4b91dc416bbd606a7579c591c641aa17 3929 haskell-numeric-extras_0.1.orig.tar.gz
+ b959cef823c639354d0b2166eb26628b 2744 haskell-numeric-extras_0.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-numeric-extras
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-numeric-extras]
+Checksums-Sha256:
+ ad5ca7ef74c6cf543932bf7d8945984d28844200957eb34b7476a56d1fc1a4fd 2392 haskell-numeric-extras_0.1-6.dsc
+ c700711021d96334be43a21fbd80a5f7146fdd6706ef8656f1d287ff000b61d6 3929 haskell-numeric-extras_0.1.orig.tar.gz
+ 035dbc653307a76ae3e27132a52830f5bc68dc480ae1687d2572342896383093 2744 haskell-numeric-extras_0.1-6.debian.tar.xz
+Homepage: https://github.com/ekmett/numeric-extras
+Package-List: 
+ libghc-numeric-extras-dev deb haskell optional arch=any
+ libghc-numeric-extras-doc deb doc optional arch=all
+ libghc-numeric-extras-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-numeric-extras
+Priority: optional
+Section: misc

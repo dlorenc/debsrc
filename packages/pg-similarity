@@ -1,0 +1,27 @@
+Package: pg-similarity
+Binary: postgresql-13-similarity
+Version: 1.0-4
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ac50b09e4c3e845c2ffb144298354bd8 2050 pg-similarity_1.0-4.dsc
+ e8b67f4a4092c19ec10c05bf1f1b157b 57558 pg-similarity_1.0.orig.tar.gz
+ fbd5905b6654fbc147c40efa3ff309a3 3512 pg-similarity_1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pg-similarity
+Vcs-Git: https://salsa.debian.org/postgresql/pg-similarity.git
+Checksums-Sha256:
+ ab2d13ed56a09b53ff8c3bc2579b4c2bed524075d1bc83dca51ae8f747d522ee 2050 pg-similarity_1.0-4.dsc
+ 0d74e5c6ba3dd753da8bb55293ebb0f05484eab342af5c2ee1fd03a1cd876276 57558 pg-similarity_1.0.orig.tar.gz
+ 68bb78198a67e711c799c329a3515f3377a135aaae963a3782d2f1783771b680 3512 pg-similarity_1.0-4.debian.tar.xz
+Homepage: https://github.com/eulerto/pg_similarity
+Package-List: 
+ postgresql-13-similarity deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/p/pg-similarity
+Priority: extra
+Section: misc

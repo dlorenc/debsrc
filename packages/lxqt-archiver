@@ -1,0 +1,26 @@
+Package: lxqt-archiver
+Binary: lxqt-archiver, lxqt-archiver-l10n
+Version: 0.3.0-2
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>, Andrew Lee (李健秋) <ajqlee@debian.org>, Yao Wei (魏銘廷) <mwei@debian.org>,
+Build-Depends: debhelper-compat (= 12), cmake, libfm-qt-dev, libjson-glib-dev, libmagic-dev, lxqt-build-tools, libqt5x11extras5-dev
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 5bb3c41d95b2f378cb1ff348855f3725 2232 lxqt-archiver_0.3.0-2.dsc
+ 4d8b9061a4fc3b82720f49d912ad22cc 157492 lxqt-archiver_0.3.0.orig.tar.xz
+ b51c3f52de38f3109224755444236ebd 5236 lxqt-archiver_0.3.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-archiver
+Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-archiver.git
+Checksums-Sha256:
+ 2762f51a76bd7efe60c02e6ee16861e897cbe54852e3d0da4ab513d71039cd14 2232 lxqt-archiver_0.3.0-2.dsc
+ a765e76edd3ed509d1a8adce3ab8700fbf033619f0e2edb0e486c202abe80c3e 157492 lxqt-archiver_0.3.0.orig.tar.xz
+ c1350d1721d3120dbe808d71bcc947653993c7bb97eed3f5256991a3690f90a9 5236 lxqt-archiver_0.3.0-2.debian.tar.xz
+Homepage: https://github.com/lxqt/lxqt-archiver
+Package-List: 
+ lxqt-archiver deb x11 optional arch=any
+ lxqt-archiver-l10n deb localization optional arch=all
+Directory: pool/main/l/lxqt-archiver
+Priority: extra
+Section: misc

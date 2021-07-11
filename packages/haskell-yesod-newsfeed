@@ -1,0 +1,28 @@
+Package: haskell-yesod-newsfeed
+Binary: libghc-yesod-newsfeed-dev, libghc-yesod-newsfeed-prof, libghc-yesod-newsfeed-doc
+Version: 1.7.0.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-blaze-html-dev (>= 0.5), libghc-blaze-html-prof, libghc-blaze-markup-dev (>= 0.5.1), libghc-blaze-markup-prof, libghc-shakespeare-dev (>= 2.0), libghc-shakespeare-prof, libghc-xml-conduit-dev (>= 1.0), libghc-xml-conduit-prof, libghc-yesod-core-dev (>= 1.6), libghc-yesod-core-dev (<< 1.7), libghc-yesod-core-prof
+Build-Depends-Indep: ghc-doc, libghc-blaze-html-doc, libghc-blaze-markup-doc, libghc-shakespeare-doc, libghc-xml-conduit-doc, libghc-yesod-core-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ de9b58514beb28e0097e75ad0bdb7381 2840 haskell-yesod-newsfeed_1.7.0.0-1.dsc
+ 0d7adc4fdd387c30972c8aaf8b5a71f4 4963 haskell-yesod-newsfeed_1.7.0.0.orig.tar.gz
+ fa90333468b268e28fa808eda703b8e8 2896 haskell-yesod-newsfeed_1.7.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-yesod-newsfeed
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-yesod-newsfeed]
+Checksums-Sha256:
+ a941dd68aa46ad07bc8a4619f12eceac15bd3ec18c89b496b658f17c8f5f3ceb 2840 haskell-yesod-newsfeed_1.7.0.0-1.dsc
+ 8f2ce7022fedf719d8f87ea4af401a2d77f686f42e5736055536baac7f4af63c 4963 haskell-yesod-newsfeed_1.7.0.0.orig.tar.gz
+ b81219b2f999db3fbfc4225ba1d69328603acdf1775a80da9f9d414edce2c6b0 2896 haskell-yesod-newsfeed_1.7.0.0-1.debian.tar.xz
+Homepage: http://www.yesodweb.com/
+Package-List: 
+ libghc-yesod-newsfeed-dev deb haskell optional arch=any
+ libghc-yesod-newsfeed-doc deb doc optional arch=all
+ libghc-yesod-newsfeed-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-yesod-newsfeed
+Priority: source
+Section: misc

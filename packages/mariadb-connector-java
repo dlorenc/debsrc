@@ -1,0 +1,25 @@
+Package: mariadb-connector-java
+Binary: libmariadb-java
+Version: 2.7.2-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, libbuild-helper-maven-plugin-java (>= 3.0.0), libjna-platform-java (>= 5.5.0), libosgi-compendium-java, libosgi-core-java, libreplacer-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fd632e5b7b5e639310293b7904e7be1a 2285 mariadb-connector-java_2.7.2-1.dsc
+ 9b4773d0bc2c946b5e40db855ba810de 785120 mariadb-connector-java_2.7.2.orig.tar.xz
+ 98247978742be39dab9f5ba0a31db5f0 6928 mariadb-connector-java_2.7.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/mariadb-connector-java
+Vcs-Git: https://salsa.debian.org/java-team/mariadb-connector-java.git
+Checksums-Sha256:
+ c6efc45c6e248e94b43e2ec14622c5606966cc2a9a8ee2507270fecdfd6cd040 2285 mariadb-connector-java_2.7.2-1.dsc
+ d3d000f7585d4805caeae17a1b8f344d25f6d58c5940fda49bb95ac463d638d2 785120 mariadb-connector-java_2.7.2.orig.tar.xz
+ 0f6a2c07aede72fdbc088bb10980ca2829a75d70743be080c2e877c872fefa39 6928 mariadb-connector-java_2.7.2-1.debian.tar.xz
+Homepage: https://mariadb.com/kb/en/mariadb/about-mariadb-connector-j/
+Package-List: 
+ libmariadb-java deb java optional arch=all
+Directory: pool/main/m/mariadb-connector-java
+Priority: extra
+Section: misc

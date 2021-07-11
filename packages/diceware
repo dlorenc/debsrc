@@ -1,0 +1,27 @@
+Package: diceware
+Binary: diceware, diceware-doc
+Version: 0.9.6-1
+Maintainer: Andre Bianchi <drebs@riseup.net>
+Uploaders: Micah Anderson <micah@debian.org>
+Build-Depends: debhelper (>= 9), dh-python, python3-setuptools, python3-all, python3-pytest-runner, python3-sphinx, python3-sphinx-rtd-theme, python3-pytest
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ f07ed2e28a0adc50020d6342b6a876bc 2058 diceware_0.9.6-1.dsc
+ c528060a7aa2f2ba30e00b5648ac489f 201029 diceware_0.9.6.orig.tar.gz
+ 17f6911da156e925c229326446b058e0 10592 diceware_0.9.6-1.debian.tar.xz
+Vcs-Browser: https://0xacab.org/drebs/diceware-debian
+Vcs-Git: https://0xacab.org/drebs/diceware-debian
+Checksums-Sha256:
+ 6b755d759690db979b839fbdc8b7db739e371c2c32103c6301debb21449ee653 2058 diceware_0.9.6-1.dsc
+ ff55832e725abff212dec1a2cb6e1c3545ae782b5f49ec91ec870a2b50e1f0e8 201029 diceware_0.9.6.orig.tar.gz
+ f95c253fc08164024f66e55b019783c56cadd067ee143c8df3ef7a799506a5c7 10592 diceware_0.9.6-1.debian.tar.xz
+Homepage: https://github.com/ulif/diceware
+Package-List: 
+ diceware deb utils optional arch=all
+ diceware-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/d/diceware
+Priority: optional
+Section: utils

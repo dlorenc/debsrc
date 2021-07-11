@@ -1,0 +1,26 @@
+Package: scalene
+Binary: python3-scalene
+Version: 0.7.5-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Emmanuel Arias <eamanu@yaerobi.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-numpy
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ da2800899e508c8f46d027ff3839102d 2044 scalene_0.7.5-2.dsc
+ 9df0d0d5e87e8c015445d6cc058a3261 14738 scalene_0.7.5.orig.tar.gz
+ 57362cd1c2f5b26d61c3c52fb96ca527 2504 scalene_0.7.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/scalene
+Vcs-Git: https://salsa.debian.org/python-team/packages/scalene.git
+Checksums-Sha256:
+ c358a6fbe250bb8ef589bf7ad681430e697892006ad4cc8af49db84163907948 2044 scalene_0.7.5-2.dsc
+ 013c35c7e65d726d0d00e5e50212006fa5cd0d5e3a99addd2e73092e48558216 14738 scalene_0.7.5.orig.tar.gz
+ dd37245330229f57d6d34791be3cecf9ba005af23ffcd53021e4e200476d4926 2504 scalene_0.7.5-2.debian.tar.xz
+Homepage: https://github.com/emeryberger/scalene
+Package-List: 
+ python3-scalene deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/s/scalene
+Priority: extra
+Section: misc

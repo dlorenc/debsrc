@@ -1,0 +1,26 @@
+Package: mustache-d
+Binary: libmustache-d0, libmustache-d-dev
+Version: 0.1.4-1
+Maintainer: Debian D Language Group <team+d-team@tracker.debian.org>
+Uploaders: Matthias Klumpp <mak@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-dlang, meson
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d7f5da4f63fc2849ce138d2a2bdd0c89 2028 mustache-d_0.1.4-1.dsc
+ c5601a0a865c06e9ef86f9aa24708638 17674 mustache-d_0.1.4.orig.tar.gz
+ 77336d5992f579cee93794e772ce1e28 3164 mustache-d_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/d-team/mustache-d
+Vcs-Git: https://salsa.debian.org/d-team/mustache-d.git
+Checksums-Sha256:
+ 967d8a43421000789029032c1a54948eaa4086a2aab0df964771a6b2c7863e90 2028 mustache-d_0.1.4-1.dsc
+ 31c2f983328d72f5a5a6e7088ee68da0b1bf7aa131abfd8b9c981f93e977b7d7 17674 mustache-d_0.1.4.orig.tar.gz
+ 1744b654db9746a68ffd6b06bdee39b5cd6c1a6c6964d55fba75a10f28835a14 3164 mustache-d_0.1.4-1.debian.tar.xz
+Homepage: https://github.com/repeatedly/mustache-d
+Package-List: 
+ libmustache-d-dev deb libdevel optional arch=any
+ libmustache-d0 deb libs optional arch=any
+Directory: pool/main/m/mustache-d
+Priority: optional
+Section: misc

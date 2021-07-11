@@ -1,0 +1,28 @@
+Package: spyder
+Binary: spyder, spyder3, python3-spyder, spyder-common
+Version: 4.2.1+dfsg1-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>, Picca Frédéric-Emmanuel <picca@debian.org>, Julian Gilbey <jdg@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, pylint, python3-all, python3-atomicwrites (>= 1.2.0), python3-chardet (>= 2.0.0), python3-cloudpickle, python3-diff-match-patch (>= 20181111), python3-docutils, python3-intervaltree, python3-ipython, python3-jedi (>= 0.17.2), python3-jsonschema (>= 3.2.0), python3-keyring, python3-nbconvert, python3-numpydoc, python3-parso, python3-pexpect, python3-pickleshare, python3-psutil, python3-pycodestyle, python3-pyflakes, python3-pygments (>= 2.0), python3-pyls (<< 1.0.0), python3-pyls-black, python3-pyls-spyder, python3-qdarkstyle, python3-qtawesome (>= 0.5.7), python3-qtconsole (>= 5.0.1), python3-qtpy, python3-rope, python3-setuptools, python3-sphinx, python3-spyder-kernels (<< 1.11.0), python3-spyder-kernels (>= 1.10.1), python3-textdistance, python3-three-merge, python3-watchdog (>= 0.10.3), python3-xdg (>= 0.26), python3-zmq
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ad0abffac112f8ae5c4d5b3dfe3a150d 3091 spyder_4.2.1+dfsg1-3.dsc
+ 4b1b810eec26f9c6d0d40cb43c0f4fe2 2130436 spyder_4.2.1+dfsg1.orig.tar.xz
+ 8880ca31164d79caa2bf75a3f6114d9c 31020 spyder_4.2.1+dfsg1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/spyder
+Vcs-Git: https://salsa.debian.org/science-team/spyder.git
+Checksums-Sha256:
+ c36cb0eae7d64b9df1529519cbaf1f8f02b79e4b997ac89d26a3fd3fbe311db5 3091 spyder_4.2.1+dfsg1-3.dsc
+ 68f23385f977da741cbac2c2d755eca81be69302347ee8ea480970ba8962b95b 2130436 spyder_4.2.1+dfsg1.orig.tar.xz
+ e366a607e202dc937d78c89fd0b7b7e1f676abc959b2cfa3ec4a9c7fd890dc96 31020 spyder_4.2.1+dfsg1-3.debian.tar.xz
+Homepage: https://github.com/spyder-ide/spyder
+Package-List: 
+ python3-spyder deb python optional arch=all
+ spyder deb devel optional arch=all
+ spyder-common deb science optional arch=all
+ spyder3 deb oldlibs optional arch=all
+Directory: pool/main/s/spyder
+Priority: source
+Section: devel

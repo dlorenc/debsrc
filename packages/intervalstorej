@@ -1,0 +1,27 @@
+Package: intervalstorej
+Binary: libintervalstorej-java
+Version: 1.2+dfsg-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Pierre Gruet <pgtdebian@free.fr>
+Build-Depends: debhelper-compat (= 13), default-jdk-headless, javahelper, maven-repo-helper, testng <!nocheck>, libjcommander-java <!nocheck>, unzip <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6d6d35303ffe5da86deec8990b53687a 2245 intervalstorej_1.2+dfsg-3.dsc
+ c781a2b877c652e701ded1830cc70ac0 1577692 intervalstorej_1.2+dfsg.orig.tar.xz
+ 509623cf6e0ac255401f3ef28a0d8de2 4224 intervalstorej_1.2+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/intervalstorej
+Vcs-Git: https://salsa.debian.org/java-team/intervalstorej.git
+Checksums-Sha256:
+ eda3b714c5ad21085dec42b7e5135c9c0552329630918831abb43adb7bf5bc27 2245 intervalstorej_1.2+dfsg-3.dsc
+ 07b2f89cb8d523a4b8beee1d75ec728bee4f38e542f5b2a2769d95728626ef4f 1577692 intervalstorej_1.2+dfsg.orig.tar.xz
+ 6cf191b19ff53479fa1b29ebeec1688117cb26b281bfea364c3c90ee72c6bea3 4224 intervalstorej_1.2+dfsg-3.debian.tar.xz
+Homepage: https://github.com/bartongroup/IntervalStoreJ
+Package-List: 
+ libintervalstorej-java deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: default-jdk-headless, libjcommander-java, testng, unzip
+Directory: pool/main/i/intervalstorej
+Priority: extra
+Section: misc

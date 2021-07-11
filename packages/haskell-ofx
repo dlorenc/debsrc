@@ -1,0 +1,28 @@
+Package: haskell-ofx
+Binary: libghc-ofx-dev, libghc-ofx-prof, libghc-ofx-doc
+Version: 0.4.4.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 69f34147db2564130ddd60e04741785f 2248 haskell-ofx_0.4.4.0-1.dsc
+ c5390979494b5ed92acb8ecadd97f7fc 11615 haskell-ofx_0.4.4.0.orig.tar.gz
+ 8fb127d70207a15ff3daf9b95a517cf1 3340 haskell-ofx_0.4.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ofx
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ofx]
+Checksums-Sha256:
+ 5492a660d03ba06ebfddd00fe032c5e3fdad6fdb9473e29fb031984ff0fe80e8 2248 haskell-ofx_0.4.4.0-1.dsc
+ 798ceb6b799c22811ad40289f0eaa54037028cc637cbd0df35a770bcf2efecf2 11615 haskell-ofx_0.4.4.0.orig.tar.gz
+ 532a6785b3bd6c3ca62a3f8ec0cf7373b85801ed5740bcf131430a310f9e6b10 3340 haskell-ofx_0.4.4.0-1.debian.tar.xz
+Homepage: http://www.github.com/massysett/ofx
+Package-List: 
+ libghc-ofx-dev deb haskell optional arch=any
+ libghc-ofx-doc deb doc optional arch=all
+ libghc-ofx-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ofx
+Priority: source
+Section: misc

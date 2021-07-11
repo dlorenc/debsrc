@@ -1,0 +1,23 @@
+Package: openbsd-inetd
+Binary: openbsd-inetd
+Version: 0.20160825-5
+Maintainer: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper-compat (= 12), debhelper (>= 12.8), pkg-config, libbsd-dev (>= 0.6.0), libwrap0-dev, libevent-dev, libsystemd-dev, libtirpc-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ de5fdac3c754cc1c604aa19bf07b96ab 1359 openbsd-inetd_0.20160825-5.dsc
+ 3f0ee6a3dd3a4fb92663b3c3b594f6fd 22688 openbsd-inetd_0.20160825.orig.tar.xz
+ 62447c3027a96cccd7d3026b067a589c 15296 openbsd-inetd_0.20160825-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/md/openbsd-inetd
+Vcs-Git: https://salsa.debian.org/md/openbsd-inetd.git
+Checksums-Sha256:
+ 0da4746231f03f5157562c020839affb679a210d7695e7958500530647d8f157 1359 openbsd-inetd_0.20160825-5.dsc
+ c795748a975b8243c71e199c809f5e7cab7a1c2492a7f22db276c704b4f30d5a 22688 openbsd-inetd_0.20160825.orig.tar.xz
+ 258ff8d31d9ef144a075cb97d9ddd2578263ffbb8669c964c143af8be6eb901e 15296 openbsd-inetd_0.20160825-5.debian.tar.xz
+Package-List: 
+ openbsd-inetd deb net optional arch=any
+Directory: pool/main/o/openbsd-inetd
+Priority: source
+Section: net

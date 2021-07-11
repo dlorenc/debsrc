@@ -1,0 +1,26 @@
+Package: libmediawiki
+Binary: libkf5mediawiki-dev, libkf5mediawiki5
+Version: 5.37.0-2
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Steve M. Robbins <smr@debian.org>
+Build-Depends: cmake (>= 2.8.12), debhelper-compat (= 13), extra-cmake-modules (>= 5.28.0~), libkf5coreaddons-dev, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.5.0~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5ae122767be7aed75db518af14f233a3 2236 libmediawiki_5.37.0-2.dsc
+ cb75f9b26a096fa85bf4ba1a1116119f 55188 libmediawiki_5.37.0.orig.tar.xz
+ 3b1178f95aaf8bd69cf6bc0c1f649656 6792 libmediawiki_5.37.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/libmediawiki
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/libmediawiki.git
+Checksums-Sha256:
+ 2e115f7f6cbd0a26cac55a9cf4e14177e9357be7e357e4acd26b41ccf119787c 2236 libmediawiki_5.37.0-2.dsc
+ da167259c49d012359ad65175c365613f0c42699fb99ac7fb9d1f1c8c48292c1 55188 libmediawiki_5.37.0.orig.tar.xz
+ 82aa70df0b032d7204143a0a34ba95f727368ecb6ea9ac92af4ccaab806d02c4 6792 libmediawiki_5.37.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/libraries/libmediawiki
+Package-List: 
+ libkf5mediawiki-dev deb libdevel optional arch=any
+ libkf5mediawiki5 deb libs optional arch=any
+Directory: pool/main/libm/libmediawiki
+Priority: extra
+Section: misc

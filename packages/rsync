@@ -1,0 +1,29 @@
+Package: rsync
+Binary: rsync
+Version: 3.2.3-4
+Maintainer: Paul Slootman <paul@debian.org>
+Uploaders: Samuel Henrique <samueloph@debian.org>
+Build-Depends: debhelper-compat (= 13), libacl1-dev, libpopt-dev, liblz4-dev, libxxhash-dev, libzstd-dev, zlib1g-dev, libssl-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e8ffaed90a0ab8c522bda37ef724e405 2231 rsync_3.2.3-4.dsc
+ 209f8326f5137d8817a6276d9577a2f1 1069784 rsync_3.2.3.orig.tar.gz
+ 64bb0b6f7331b8535f44e1383156a515 195 rsync_3.2.3.orig.tar.gz.asc
+ 15abbd1791a0c439a449c27c9d3c89d7 24692 rsync_3.2.3-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/rsync
+Vcs-Git: https://salsa.debian.org/debian/rsync.git
+Checksums-Sha256:
+ 4aae30497a632bf662696b995921dd55acbe7accb69f8053d080af3747f37f3a 2231 rsync_3.2.3-4.dsc
+ becc3c504ceea499f4167a260040ccf4d9f2ef9499ad5683c179a697146ce50e 1069784 rsync_3.2.3.orig.tar.gz
+ 2e363382a60e7faa6762f560756cc0f3b8116c313eea7fe5fbfc5fed5b2f4f74 195 rsync_3.2.3.orig.tar.gz.asc
+ 4f3d02458c794e37036f96f43aa0966f0f0e68d75eed815a888c19c542d5380b 24692 rsync_3.2.3-4.debian.tar.xz
+Homepage: https://rsync.samba.org/
+Package-List: 
+ rsync deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, build-essential
+Directory: pool/main/r/rsync
+Priority: source
+Section: net

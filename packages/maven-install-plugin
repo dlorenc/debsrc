@@ -1,0 +1,25 @@
+Package: maven-install-plugin
+Binary: libmaven-install-plugin-java
+Version: 2.5.2-4.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>, Torsten Werner <twerner@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, junit4, libmaven-artifact-transfer-java, libmaven-plugin-testing-java, libmaven-plugin-tools-java (>= 3.2), libmaven3-core-java, libplexus-utils-java, maven-debian-helper (>= 2.2)
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ 6f6cb73acee2801e77647049b466646b 2332 maven-install-plugin_2.5.2-4.1.dsc
+ 2bcca4785bf066e0730de7e83f2941ad 31212 maven-install-plugin_2.5.2.orig.tar.xz
+ 2ad28497099406ce04f2911a59695c11 4908 maven-install-plugin_2.5.2-4.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/maven-install-plugin.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/maven-install-plugin.git
+Checksums-Sha256:
+ 863325a9431ca5ffd09f94bf3fe80845b2580e07b8d7660ac1b224d5b26e69bc 2332 maven-install-plugin_2.5.2-4.1.dsc
+ dcf93a3258ed41415754801e86cb5c1785c04bd92ba6c2724b6fe54b5d61689c 31212 maven-install-plugin_2.5.2.orig.tar.xz
+ 2cf20dc67de213d3532a539a9b5d542f56ced0ec4474b46672dac4010e495556 4908 maven-install-plugin_2.5.2-4.1.debian.tar.xz
+Homepage: http://maven.apache.org/plugins/maven-install-plugin/
+Package-List: 
+ libmaven-install-plugin-java deb java optional arch=all
+Directory: pool/main/m/maven-install-plugin
+Priority: source
+Section: java

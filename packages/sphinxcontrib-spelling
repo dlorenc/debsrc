@@ -1,0 +1,30 @@
+Package: sphinxcontrib-spelling
+Binary: python3-sphinxcontrib.spelling, python-sphinxcontrib.spelling-doc
+Version: 4.3.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Daniele Tricoli <eriol@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, hunspell-de-de, hunspell-en-us, python3-all, python3-docutils, python3-enchant, python3-fixtures, python3-nose, python3-pbr, python3-setuptools, python3-six, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fbb0c33f16a8ce30481b7cad02c8b871 2842 sphinxcontrib-spelling_4.3.0-1.dsc
+ 363cd2f4c485db5e6a3f81572289a1e7 38316 sphinxcontrib-spelling_4.3.0.orig.tar.gz
+ 8ea66d2fee39c7539354b37ceef9f936 528 sphinxcontrib-spelling_4.3.0.orig.tar.gz.asc
+ 9b8c4120b3ac82771c4ad5ac15079cf1 19400 sphinxcontrib-spelling_4.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/sphinxcontrib-spelling
+Vcs-Git: https://salsa.debian.org/python-team/modules/sphinxcontrib-spelling.git
+Checksums-Sha256:
+ 7fb947b8355bd3a82f8e9d745a5a11f7d8152f30e98f338764e19f023d099e4e 2842 sphinxcontrib-spelling_4.3.0-1.dsc
+ 0304dac9286378f9c608af8d885a08fe03a9c62b3ebfa8802008018d92371c19 38316 sphinxcontrib-spelling_4.3.0.orig.tar.gz
+ 8bc1a47f0f6e727b3883f944c624c6d4168f187e5c006baba556c72134306758 528 sphinxcontrib-spelling_4.3.0.orig.tar.gz.asc
+ ba4690b1411554c87edc9787eda4e68d61dfe943def3b4bb3b0ae4027023a192 19400 sphinxcontrib-spelling_4.3.0-1.debian.tar.xz
+Homepage: https://github.com/sphinx-contrib/spelling
+Package-List: 
+ python-sphinxcontrib.spelling-doc deb doc optional arch=all
+ python3-sphinxcontrib.spelling deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: hunspell-de-de, hunspell-en-us, python3-all, python3-fixtures, python3-nose, python3-sphinx
+Directory: pool/main/s/sphinxcontrib-spelling
+Priority: source
+Section: python

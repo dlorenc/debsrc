@@ -1,0 +1,28 @@
+Package: haskell-twitter-types
+Binary: libghc-twitter-types-dev, libghc-twitter-types-prof, libghc-twitter-types-doc
+Version: 0.10.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 0.3.2.2), libghc-aeson-prof, libghc-unordered-containers-dev, libghc-unordered-containers-prof, libghc-tasty-dev (>= 0.7), libghc-tasty-hunit-dev, libghc-tasty-quickcheck-dev, libghc-tasty-th-dev
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4cfe4a2691abc8da4eb582bdc8fe8ba3 2664 haskell-twitter-types_0.10.1-2.dsc
+ df0545bcc65670dbf499f9ac0e34c702 26897 haskell-twitter-types_0.10.1.orig.tar.gz
+ 638494170342fd13a5b88f2c2d99b591 2560 haskell-twitter-types_0.10.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-twitter-types
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-twitter-types]
+Checksums-Sha256:
+ 686c6ccc8ba423ccad40a98395219e72eccd8a3c82a99aa5cdac23401b4685d9 2664 haskell-twitter-types_0.10.1-2.dsc
+ 6298af7757a227cce48751cf5a342bc9b510df125f537cb0697b32670ceee467 26897 haskell-twitter-types_0.10.1.orig.tar.gz
+ ed6a037284d7409014313c4fb940b0de44f38ba2b00064bbf377f94f5feda9d1 2560 haskell-twitter-types_0.10.1-2.debian.tar.xz
+Homepage: https://github.com/himura/twitter-types
+Package-List: 
+ libghc-twitter-types-dev deb haskell optional arch=any
+ libghc-twitter-types-doc deb doc optional arch=all
+ libghc-twitter-types-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-twitter-types
+Priority: optional
+Section: misc

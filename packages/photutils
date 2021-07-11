@@ -1,0 +1,27 @@
+Package: photutils
+Binary: python3-photutils
+Version: 1.0.2-1
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: cython3, debhelper-compat (= 13), dh-python, python3-all-dev (>= 3.6), python3-astropy (>= 4.0), python3-coverage, python3-extension-helpers, python3-numpy (>= 1.17), python3-pytest (>= 3.1), python3-setuptools, python3-setuptools-scm
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d0b9a7306b52232df8934a7675694122 2264 photutils_1.0.2-1.dsc
+ 1796be3ea9747b9e34613a437e90e03c 995291 photutils_1.0.2.orig.tar.gz
+ cf6efe8215efd7f0b35181ebba2d3ddc 3892 photutils_1.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/photutils
+Vcs-Git: https://salsa.debian.org/debian-astro-team/photutils.git
+Checksums-Sha256:
+ 08972f1f3bc850865823af41d4b7d7c96c79d28a88031b4aebdfe960ae842ad8 2264 photutils_1.0.2-1.dsc
+ 86f605e29276f081b80b7895fa2d95d545fd2a47ed1f47b283538cf05211c131 995291 photutils_1.0.2.orig.tar.gz
+ ccb482a29597d00c6d027056fe60add96ccbdfd9f7f1a91e52f0e6303d794174 3892 photutils_1.0.2-1.debian.tar.xz
+Homepage: https://github.com/astropy/photutils
+Package-List: 
+ python3-photutils deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-matplotlib, python3-scipy, python3-skimage
+Directory: pool/main/p/photutils
+Priority: optional
+Section: misc

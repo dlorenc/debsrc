@@ -1,0 +1,26 @@
+Package: lua-sec
+Binary: lua-sec, lua-sec-dev
+Version: 1.0-1
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Mathieu Parent <sathieu@debian.org>, Victor Seva <vseva@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-lua (>= 18), libssl-dev, lua-socket-dev (>= 3.0~rc), openssl
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9f8072c281f36cb3f4e2b659dbf6bec1 1728 lua-sec_1.0-1.dsc
+ ecde346e3152a032063f6a4438823c2e 52264 lua-sec_1.0.orig.tar.gz
+ 4755552fb57b2a937302c4c0121666e9 5676 lua-sec_1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lua-team/lua-sec
+Vcs-Git: https://salsa.debian.org/lua-team/lua-sec.git
+Checksums-Sha256:
+ faf653d3382b2a918ab29462193a47e07d989c5a46e571e87a3dfead8489dbd7 1728 lua-sec_1.0-1.dsc
+ 912bfd2050338895207cf24bc8dd26fa9ebddc34006cb8c33d488156d41ac932 52264 lua-sec_1.0.orig.tar.gz
+ cdc07aaa20c8c21ea9838af0ad8db58e7d90b9fc0f59bd91302336e383520e3d 5676 lua-sec_1.0-1.debian.tar.xz
+Homepage: https://github.com/brunoos/luasec
+Package-List: 
+ lua-sec deb interpreters optional arch=any
+ lua-sec-dev deb libdevel optional arch=any
+Directory: pool/main/l/lua-sec
+Priority: source
+Section: interpreters

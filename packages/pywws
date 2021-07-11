@@ -1,0 +1,25 @@
+Package: pywws
+Binary: python3-pywws
+Version: 20.1.0-3
+Maintainer: Debian IoT Maintainers <debian-iot-maintainers@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: dh-python, python3-setuptools, python3-all, python3-usb, python3-tz, python3-tzlocal, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ecdb4e716b7121f922737d67ef0cc9ec 2170 pywws_20.1.0-3.dsc
+ e1fa98d2fb1431e7c62a7a15a1718922 486574 pywws_20.1.0.orig.tar.gz
+ 523155ac3767c03fe56b2d4869ec8bdb 2448 pywws_20.1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-iot-team/pywws
+Vcs-Git: https://salsa.debian.org/debian-iot-team/pywws.git
+Checksums-Sha256:
+ c531c56be11cf97150ec6368df66ecf4c06fa242f7448d09c029eab22925db0e 2170 pywws_20.1.0-3.dsc
+ fcfc14f9f31623bf866fa5f3a401c7e1c2f70486d87bdb5afa8413017b9a384b 486574 pywws_20.1.0.orig.tar.gz
+ ee9acbaa0390873953296faacfc1eed30b8f625c1a27b4fccfeacfe99cc4eeb1 2448 pywws_20.1.0-3.debian.tar.xz
+Homepage: https://github.com/jim-easterbrook/pywws
+Package-List: 
+ python3-pywws deb python optional arch=all
+Directory: pool/main/p/pywws
+Priority: extra
+Section: misc

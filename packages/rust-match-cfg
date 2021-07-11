@@ -1,0 +1,27 @@
+Package: rust-match-cfg
+Binary: librust-match-cfg-dev
+Version: 0.1.0-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c7525a84798219cb53894be219546c7d 2172 rust-match-cfg_0.1.0-4.dsc
+ ccc5ff9ff4a431e36c0b6dd9f640ab58 7153 rust-match-cfg_0.1.0.orig.tar.gz
+ 182c6d8f4ff92e2c7e1765e702fc559e 2960 rust-match-cfg_0.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/match-cfg
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/match-cfg]
+Checksums-Sha256:
+ ce60dee2d957e02864cb7198badd0c4fe8d25c18c58abe1d6a058880609b1a84 2172 rust-match-cfg_0.1.0-4.dsc
+ ffbee8634e0d45d258acb448e7eaab3fce7a0a467395d4d9f228e3c1f01fb2e4 7153 rust-match-cfg_0.1.0.orig.tar.gz
+ ae0a86448c9ab1e9ae7fe1c9b6b8c1e76fb91f072179996e3a3bedcd30eda563 2960 rust-match-cfg_0.1.0-4.debian.tar.xz
+Homepage: https://github.com/gnzlbg/match_cfg
+Package-List: 
+ librust-match-cfg-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-match-cfg
+Priority: extra
+Section: misc

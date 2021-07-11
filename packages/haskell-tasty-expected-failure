@@ -1,0 +1,26 @@
+Package: haskell-tasty-expected-failure
+Binary: libghc-tasty-expected-failure-dev, libghc-tasty-expected-failure-prof, libghc-tasty-expected-failure-doc
+Version: 0.11.1.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-tagged-dev (>= 0.7), libghc-tagged-dev (<< 0.9), libghc-tagged-prof (>= 0.7), libghc-tagged-prof (<< 0.9), libghc-tasty-dev (>= 0.11), libghc-tasty-prof (>= 0.11)
+Build-Depends-Indep: ghc-doc, libghc-tagged-doc, libghc-tasty-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 4db239a195af9c1fb5206b5ffe4b00d8 2537 haskell-tasty-expected-failure_0.11.1.2-1.dsc
+ 90036f7bb592b92e4d3dca4704f0f7d6 3781 haskell-tasty-expected-failure_0.11.1.2.orig.tar.gz
+ 0d338d311544f31dec339d8a3c371053 2600 haskell-tasty-expected-failure_0.11.1.2-1.debian.tar.xz
+Checksums-Sha256:
+ 3908eda23c859fc09ce7a45d39788b35ca2aa09d63ca90aa2b02ffc59911bbb5 2537 haskell-tasty-expected-failure_0.11.1.2-1.dsc
+ 1689d91bf02994858bdaa7fdad0944eebfa8ea27744da9bae48cea59c36caf9c 3781 haskell-tasty-expected-failure_0.11.1.2.orig.tar.gz
+ 912eb57342702be65465fa9a24a9891b38e6ab0909ddc181d0a392d9183ae6cf 2600 haskell-tasty-expected-failure_0.11.1.2-1.debian.tar.xz
+Homepage: https://github.com/nomeata/tasty-expected-failure
+Package-List: 
+ libghc-tasty-expected-failure-dev deb haskell optional arch=any
+ libghc-tasty-expected-failure-doc deb doc optional arch=all
+ libghc-tasty-expected-failure-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-tasty-expected-failure
+Priority: extra
+Section: misc

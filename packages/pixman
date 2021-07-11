@@ -1,0 +1,27 @@
+Package: pixman
+Binary: libpixman-1-0, libpixman-1-0-udeb, libpixman-1-dev
+Version: 0.40.0-1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Andreas Boll <aboll@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, quilt
+Architecture: any
+Standards-Version: 4.2.1
+Format: 1.0
+Files:
+ fb870406fdcdc9ab2945053c64bb9673 2021 pixman_0.40.0-1.dsc
+ 73858c0862dd9896fb5f62ae267084a4 913976 pixman_0.40.0.orig.tar.gz
+ 2c246aa959ac92e00f92b1403d954522 319428 pixman_0.40.0-1.diff.gz
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/pixman
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/pixman.git
+Checksums-Sha256:
+ 908752b9c69211606daa8ee92bd929d80ad5f1c4d68f87b98f4fb33e01d4e455 2021 pixman_0.40.0-1.dsc
+ 6d200dec3740d9ec4ec8d1180e25779c00bc749f94278c8b9021f5534db223fc 913976 pixman_0.40.0.orig.tar.gz
+ 66a769eee187ce84ff416752f6913ad2ac6165f3bb61696cf1b43bdef48c41ab 319428 pixman_0.40.0-1.diff.gz
+Homepage: http://pixman.org/
+Package-List: 
+ libpixman-1-0 deb libs optional arch=any
+ libpixman-1-0-udeb udeb debian-installer optional arch=any
+ libpixman-1-dev deb libdevel optional arch=any
+Directory: pool/main/p/pixman
+Priority: source
+Section: devel

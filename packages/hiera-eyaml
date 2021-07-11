@@ -1,0 +1,29 @@
+Package: hiera-eyaml
+Binary: hiera-eyaml
+Version: 3.2.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Stig Sandbeck Mathisen <ssm@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 953dae38da94b210b76f8bc22058aea3 2182 hiera-eyaml_3.2.0-1.dsc
+ ce00dd9c58d093b556fdceb11805b6fc 57365 hiera-eyaml_3.2.0.orig.tar.gz
+ 0399998113f9c1c85703cf36639c2c99 10756 hiera-eyaml_3.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/hiera-eyaml
+Vcs-Git: https://salsa.debian.org/ruby-team/hiera-eyaml.git
+Checksums-Sha256:
+ 5fc8f11b2a4530b04f5934b166d8fb7256a6edf75ddff1623265f281cd380eae 2182 hiera-eyaml_3.2.0-1.dsc
+ 9d82744f4690062ee5065daa45297db917e6b3535214ca52761bddb5ce36a9dc 57365 hiera-eyaml_3.2.0.orig.tar.gz
+ a094f59721453e07cf4354067161fb50e5b9740ae55122344292feca3b197945 10756 hiera-eyaml_3.2.0-1.debian.tar.xz
+Homepage: https://github.com/voxpupuli/hiera-eyaml
+Dgit: 272be81cce10985ff59ca49e8123d720fc2a3a13 debian archive/debian/3.2.0-1 https://git.dgit.debian.org/hiera-eyaml
+Package-List: 
+ hiera-eyaml deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: perl
+Directory: pool/main/h/hiera-eyaml
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-trim-newlines
+Binary: node-trim-newlines
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 913df6c4000dba327a6063e29ada73b4 2109 node-trim-newlines_3.0.0-1.dsc
+ 7200afb6bbf526f69e56ce2e8c599a2f 2432 node-trim-newlines_3.0.0.orig.tar.gz
+ 574aa671d52ecf38d60ca60df4e1fa45 2828 node-trim-newlines_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-trim-newlines
+Vcs-Git: https://salsa.debian.org/js-team/node-trim-newlines.git
+Checksums-Sha256:
+ 6f45934622efdaf031f0ecdf06809182a593bd9c20af82de8ebd103dd9d91715 2109 node-trim-newlines_3.0.0-1.dsc
+ 38cfced4bb52c0b2dcfac0747631ba20f4b90a39325015c9d8a45dfd8f003509 2432 node-trim-newlines_3.0.0.orig.tar.gz
+ f7ec296a06a1c38f8c5a2a3bdc5c25cbeb866a342a235d8c0e7301f4c66c7fa9 2828 node-trim-newlines_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/trim-newlines
+Package-List: 
+ node-trim-newlines deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-trim-newlines
+Priority: optional
+Section: javascript

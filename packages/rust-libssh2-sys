@@ -1,0 +1,26 @@
+Package: rust-libssh2-sys
+Binary: librust-libssh2-sys-dev
+Version: 0.2.20-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.25-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-libz-sys-1+libc-dev (>= 1.1.0-~~) <!nocheck>, librust-openssl-sys-0.9+default-dev (>= 0.9.35-~~) <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.11-~~) <!nocheck>, librust-vcpkg-0.2+default-dev <!nocheck>, libssh2-1-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1b6846e0c8ec27fb48fe98c8cf50352d 2518 rust-libssh2-sys_0.2.20-1.dsc
+ 7dbcc1ef1662b1e9ef45491daa65b3f7 8259 rust-libssh2-sys_0.2.20.orig.tar.gz
+ 82388ec1b5aee4a0f5d9e97324ccf549 3544 rust-libssh2-sys_0.2.20-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libssh2-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/libssh2-sys]
+Checksums-Sha256:
+ 72a4ad9253e33dc46f0a3ca237db7c5ee18a0d3f50a4b7552f107fda4c4d1f87 2518 rust-libssh2-sys_0.2.20-1.dsc
+ 4867755dc9eaf0bb34a3e3ecb69d516fe2a2cf1812d29bcd343196e45094a63f 8259 rust-libssh2-sys_0.2.20.orig.tar.gz
+ c43364a7d82932cc7c1a13bb2d46904404e4d380c5b732f1a70b0978c71f8664 3544 rust-libssh2-sys_0.2.20-1.debian.tar.xz
+Package-List: 
+ librust-libssh2-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-libssh2-sys
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: python-asdf
+Binary: python3-asdf, python-asdf-doc, asdftool
+Version: 2.7.2-1
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, graphviz, python3-all, python3-astropy, python3-jsonschema, python3-lz4 (>= 0.10), python3-pytest (>= 2.7.2), python3-pytest-astropy, python3-semantic-version (>= 2.8), python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-sphinx-astropy, python3-yaml
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6faa025551a724163f454c60e894e5e8 2432 python-asdf_2.7.2-1.dsc
+ e9217acd9cb1385e74e0747b6e38f751 516029 python-asdf_2.7.2.orig.tar.gz
+ 77be9cbc94f390b14b5cea62e7975e42 7804 python-asdf_2.7.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/python-asdf
+Vcs-Git: https://salsa.debian.org/debian-astro-team/python-asdf.git
+Checksums-Sha256:
+ cb7cd59ac1e8e913f94f5b80922f82fc5af82012814ea08e2a00f518feff5eab 2432 python-asdf_2.7.2-1.dsc
+ effbef17f822cf64cfed2075e6c6a258ee0ca8abaa8c286ae52882d426fc87f8 516029 python-asdf_2.7.2.orig.tar.gz
+ 9f3dc08c4000844a8ba0694605956e718e383cf53bd1ae1aebdad85b0e7803d9 7804 python-asdf_2.7.2-1.debian.tar.xz
+Homepage: https://github.com/spacetelescope/asdf
+Package-List: 
+ asdftool deb science optional arch=all
+ python-asdf-doc deb doc optional arch=all
+ python3-asdf deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-astropy, python3-pytest
+Directory: pool/main/p/python-asdf
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: jeromq
+Binary: libjeromq-java
+Version: 0.3.6-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper (>= 2.0)
+Build-Depends-Indep: libmaven-bundle-plugin-java, junit4
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 12b7e624b5074e03c19eafe3c58215d6 2019 jeromq_0.3.6-1.1.dsc
+ dd34791d1133a4306935aff63376154a 170376 jeromq_0.3.6.orig.tar.xz
+ d7cf706215169cb4de91cf3e6a28f863 7472 jeromq_0.3.6-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/jeromq.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/jeromq.git
+Checksums-Sha256:
+ 7f4d6eda5ae6487b2dc3a21951cda7820508a6eeabd20b5f7b0be9162afd7d9b 2019 jeromq_0.3.6-1.1.dsc
+ 9e68db6813ba230b8c13d5ce77629a1542c8cce36a28737b32cd62256bf89653 170376 jeromq_0.3.6.orig.tar.xz
+ bf1b57e752ec741f21e57251516687527b6b43ba53765d39304230d1d2c8abcd 7472 jeromq_0.3.6-1.1.debian.tar.xz
+Homepage: https://github.com/zeromq/jeromq
+Package-List: 
+ libjeromq-java deb java optional arch=all
+Directory: pool/main/j/jeromq
+Priority: optional
+Section: misc

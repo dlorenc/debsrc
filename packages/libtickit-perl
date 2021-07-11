@@ -1,0 +1,27 @@
+Package: libtickit-perl
+Binary: libtickit-perl
+Version: 0.71-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, libmodule-build-using-pkgconfig-perl, libstruct-dumb-perl (>= 0.04) <!nocheck>, libtermkey-dev, libtest-fatal-perl <!nocheck>, libtest-hexstring-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-refcount-perl <!nocheck>, libtickit-dev (>= 0.4.0), libunibilium-dev, locales-all <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 792acd6770bc225823d0ebb8105644f5 2622 libtickit-perl_0.71-3.dsc
+ 76e4ef5f1927f721a3480533de4d164e 121617 libtickit-perl_0.71.orig.tar.gz
+ 3e9d0f885f3a889a71b71810ce87ff2b 3136 libtickit-perl_0.71-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtickit-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtickit-perl.git
+Checksums-Sha256:
+ fb14ec2cd8cbc6ce5931d0e00f2f14634598bed6101ba3c56899b9554046598e 2622 libtickit-perl_0.71-3.dsc
+ b309dd514abae7408bee9dd218ed5041e0dbe1578eca9608eadb84dec0717808 121617 libtickit-perl_0.71.orig.tar.gz
+ 2fd83ec8bf78051e5d631949fade6e1d6cd1980510679cf6c3cdf026fcf9a260 3136 libtickit-perl_0.71-3.debian.tar.xz
+Homepage: https://metacpan.org/release/Tickit
+Dgit: af90fc10c00caa2faa7302528fc2b88c5ca13243 debian archive/debian/0.71-3 https://git.dgit.debian.org/libtickit-perl
+Package-List: 
+ libtickit-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtickit-perl
+Priority: extra
+Section: misc

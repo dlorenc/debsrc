@@ -1,0 +1,27 @@
+Package: golang-k8s-klog
+Binary: golang-k8s-klog-dev
+Version: 2.5.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Arthur Diniz <arthurbdiniz@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-go-logr-logr-dev, golang-glog-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fe698fdb3d97304f5bb5a2b4fe7a10da 2157 golang-k8s-klog_2.5.0-2.dsc
+ 3fb0d97ab97f433a92853ecf7087b246 45054 golang-k8s-klog_2.5.0.orig.tar.gz
+ 6db86544a3fd60c4603496acde3cf130 2560 golang-k8s-klog_2.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-k8s-klog
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-k8s-klog.git
+Checksums-Sha256:
+ deb2f480b06bab71a34cd4493adc98d0724cee68a5594ed108fee4055a60bdf1 2157 golang-k8s-klog_2.5.0-2.dsc
+ 5dca5adaa01b16c7f7d090b393d31f5408c0414644bedda7d144092f9c421742 45054 golang-k8s-klog_2.5.0.orig.tar.gz
+ 5511eac3a37555a5595e5b9d07068daf5cd3481c4d8dc49b52cc3a50eecdfe9d 2560 golang-k8s-klog_2.5.0-2.debian.tar.xz
+Homepage: https://github.com/kubernetes/klog
+Go-Import-Path: k8s.io/klog
+Package-List: 
+ golang-k8s-klog-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-k8s-klog
+Priority: extra
+Section: misc

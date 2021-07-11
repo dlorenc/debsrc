@@ -1,0 +1,33 @@
+Package: at-spi2-core
+Binary: at-spi2-core, at-spi2-core-udeb, libatspi2.0-0, libatspi0-udeb, libatspi2.0-dev, gir1.2-atspi-2.0, at-spi2-doc
+Version: 2.38.0-4
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>, Jordi Mallach <jordi@debian.org>
+Build-Depends: debhelper-compat (= 12), dbus, libdbus-1-dev, gedit <!nocheck>, libglib2.0-dev, libxkbcommon-x11-dev, libxkbcommon-dev, libxtst-dev, meson (>= 0.46.0), libgirepository1.0-dev, gtk-doc-tools (>= 1.09), gobject-introspection | dh-sequence-gir, xauth <!nocheck>, xvfb <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 632306ac432705c48baefe586803b746 2730 at-spi2-core_2.38.0-4.dsc
+ ae060dc0a042822b3f07c786c5d5aab7 190540 at-spi2-core_2.38.0.orig.tar.xz
+ 5b47c633e7e101aa9cb1ac04cb303651 11440 at-spi2-core_2.38.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/at-spi2-core
+Vcs-Git: https://salsa.debian.org/a11y-team/at-spi2-core.git
+Checksums-Sha256:
+ adbde38fbc29d4ea94886ad2461371464ebc1c2fb63b305a6b7e771bdedc5f60 2730 at-spi2-core_2.38.0-4.dsc
+ 84e36c3fe66862133f5fe229772b76aa2526e10de5014a3778f2fa46ce550da5 190540 at-spi2-core_2.38.0.orig.tar.xz
+ 940d3f084a418e2b5ddee7d450e966d96824bf938b33a36263ac1b94da682250 11440 at-spi2-core_2.38.0-4.debian.tar.xz
+Homepage: https://wiki.gnome.org/Accessibility
+Package-List: 
+ at-spi2-core deb misc optional arch=any
+ at-spi2-core-udeb udeb debian-installer optional arch=any
+ at-spi2-doc deb doc optional arch=all
+ gir1.2-atspi-2.0 deb introspection optional arch=any
+ libatspi0-udeb udeb debian-installer optional arch=any
+ libatspi2.0-0 deb libs optional arch=any
+ libatspi2.0-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, dbus, xauth, xvfb
+Directory: pool/main/a/at-spi2-core
+Priority: source
+Section: misc

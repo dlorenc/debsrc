@@ -1,0 +1,26 @@
+Package: ruby-whenever
+Binary: ruby-whenever
+Version: 1.0.0-1
+Maintainer: Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-chronic, ruby-mocha
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 587c2cfad499ee9988c80697a98e9158 2000 ruby-whenever_1.0.0-1.dsc
+ 085e6fe2a275ad8d220e3df59d0a90dc 32475 ruby-whenever_1.0.0.orig.tar.gz
+ ed43ef9f85fc629a70b7c75883f569af 2344 ruby-whenever_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-whenever
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-whenever.git
+Checksums-Sha256:
+ 8d98a513da6be9816e959522c72bdd30c661434dbfc1b2a71176597556b88ec8 2000 ruby-whenever_1.0.0-1.dsc
+ a7fbaaad2f1cf46a32ab786b149b508bdcd28992b0d9a29cc4d869ada5e8e243 32475 ruby-whenever_1.0.0.orig.tar.gz
+ ed84864554f23a55f76a598d1ddb342cb952efd4963e7d71d65b1554c5ebd258 2344 ruby-whenever_1.0.0-1.debian.tar.xz
+Homepage: https://github.com/javan/whenever
+Package-List: 
+ ruby-whenever deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-whenever
+Priority: optional
+Section: misc

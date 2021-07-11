@@ -1,0 +1,28 @@
+Package: libscca
+Binary: libscca-dev, libscca1, libscca-utils, python3-libscca
+Version: 20200717-1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, pkg-config, python3-dev, libbfio-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8a6cbc9f75b2d1e005990fb5d9051b8c 1849 libscca_20200717-1.dsc
+ a673f2ea350a1c900a85e3a09bbd463c 1651492 libscca_20200717.orig.tar.gz
+ 185c2c00520c5ee9b701278fdcf3adf8 4524 libscca_20200717-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/libscca
+Vcs-Git: https://salsa.debian.org/pkg-security-team/libscca.git
+Checksums-Sha256:
+ c01a1ee59f20e34d5312677cc674fbd435214c672c1805e01cceb7d1e06cc07d 1849 libscca_20200717-1.dsc
+ 8b0d215d9579b274b75265c346c95a48f6d12bd8bea755b186105a04fe32b792 1651492 libscca_20200717.orig.tar.gz
+ 4ff2bbdf4cb64f2eb7f1819d7c442405f0342e6fe3c5f222b8b8b146e1e06bd9 4524 libscca_20200717-1.debian.tar.xz
+Homepage: https://github.com/libyal/libscca
+Package-List: 
+ libscca-dev deb libdevel optional arch=any
+ libscca-utils deb otherosfs optional arch=any
+ libscca1 deb libs optional arch=any
+ python3-libscca deb python optional arch=any
+Directory: pool/main/libs/libscca
+Priority: optional
+Section: misc

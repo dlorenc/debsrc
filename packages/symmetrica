@@ -1,0 +1,29 @@
+Package: symmetrica
+Binary: libsymmetrica2, libsymmetrica2-dev, symmetrica-doc
+Version: 2.0+ds-6
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jerome Benoit <calculus@rezozer.net>
+Build-Depends: debhelper (>= 11), libtool
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 18f01f305e155f1ef95798483e319585 2910 symmetrica_2.0+ds-6.dsc
+ 5ddb3dc5cb385939122a7e1b68bda97d 709073 symmetrica_2.0+ds.orig.tar.gz
+ f9c9b7ff7efe16fdc8b8cc287556cd19 58108 symmetrica_2.0+ds-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/symmetrica
+Vcs-Git: https://salsa.debian.org/science-team/symmetrica.git
+Checksums-Sha256:
+ 7ff61c08480c03969556c7d2300b9c784f5c066089bd977afab0e4d34e550648 2910 symmetrica_2.0+ds-6.dsc
+ 64c6ceba1c8f2d1d29d30a7d1ca47199fc2e1057edd046a4eaa872525eb868c1 709073 symmetrica_2.0+ds.orig.tar.gz
+ 13563b0683de711fb73c0d12e4f8abce58ab163a6f86c3b5732c24fa8c194bfe 58108 symmetrica_2.0+ds-6.debian.tar.xz
+Homepage: http://www.algorithm.uni-bayreuth.de/en/research/SYMMETRICA
+Package-List: 
+ libsymmetrica2 deb libs optional arch=any
+ libsymmetrica2-dev deb libdevel optional arch=any
+ symmetrica-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/s/symmetrica
+Priority: source
+Section: math

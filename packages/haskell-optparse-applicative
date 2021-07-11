@@ -1,0 +1,28 @@
+Package: haskell-optparse-applicative
+Binary: libghc-optparse-applicative-dev, libghc-optparse-applicative-prof, libghc-optparse-applicative-doc
+Version: 0.15.1.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-ansi-wl-pprint-dev (>= 0.6.8), libghc-ansi-wl-pprint-dev (<< 0.7), libghc-ansi-wl-pprint-prof, libghc-transformers-compat-dev (>= 0.3), libghc-transformers-compat-dev (<< 0.7), libghc-transformers-compat-prof, libghc-quickcheck2-dev (>= 2.8) <!nocheck>, libghc-quickcheck2-dev (<< 2.14) <!nocheck>, libghc-quickcheck2-prof
+Build-Depends-Indep: ghc-doc, libghc-ansi-wl-pprint-doc, libghc-transformers-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5bc409b89d018326b32b35ec726bad8c 2909 haskell-optparse-applicative_0.15.1.0-1.dsc
+ ced51e4d97fe3f02f56aab124ac381f6 56203 haskell-optparse-applicative_0.15.1.0.orig.tar.gz
+ 48834e60397b7f6344e45fc12f9d7a3d 3624 haskell-optparse-applicative_0.15.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-optparse-applicative
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-optparse-applicative]
+Checksums-Sha256:
+ 19ee0dff9dae5137a903f13e6588077ad4572efe4a8d0f5179b2827e998b6d2b 2909 haskell-optparse-applicative_0.15.1.0-1.dsc
+ 4db3675fd1e0594afdf079db46f4cd412d483835d703e7c07e1a1a37d6f046f3 56203 haskell-optparse-applicative_0.15.1.0.orig.tar.gz
+ a87cb2e8bd5cf9b3f0c7cd390a3d4b6647bdcbb1e52d6b61190866e3a8d33a98 3624 haskell-optparse-applicative_0.15.1.0-1.debian.tar.xz
+Homepage: https://github.com/pcapriotti/optparse-applicative
+Package-List: 
+ libghc-optparse-applicative-dev deb haskell optional arch=any
+ libghc-optparse-applicative-doc deb doc optional arch=all
+ libghc-optparse-applicative-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-optparse-applicative
+Priority: source
+Section: misc

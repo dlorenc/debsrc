@@ -1,0 +1,27 @@
+Package: q2-demux
+Binary: q2-demux
+Version: 2020.11.1-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Liubov Chuprikova <chuprikovalv@gmail.com>, Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, nodejs, python3-pytest-cov, python3-yaml, python3-pandas, python3-skbio, python3-psutil, python3-seaborn, qiime (>= 2019.10.0), q2-types, q2templates
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 549ce9cee87a58aae184fd99a3731afd 2254 q2-demux_2020.11.1-1.dsc
+ 0de894d104beca3d47b5166b616cbbe7 348033 q2-demux_2020.11.1.orig.tar.gz
+ 08bbdf767a964c026ff4e5085bc69808 5632 q2-demux_2020.11.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/q2-demux
+Vcs-Git: https://salsa.debian.org/med-team/q2-demux.git
+Checksums-Sha256:
+ 2f51eba4279758b59e130e2206bb9ca2d11d5df115cb5003e009e5c90282bd15 2254 q2-demux_2020.11.1-1.dsc
+ d29b96d1d3bf37bcb12a1d1ebd02aaedc9584db929eb3c855a0c03beb9842ff1 348033 q2-demux_2020.11.1.orig.tar.gz
+ 28d08d45d0e06fbd4346d34b4393b60482aa6d0c6ba3491e8d4322525488e209 5632 q2-demux_2020.11.1-1.debian.tar.xz
+Homepage: https://qiime2.org/
+Package-List: 
+ q2-demux deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest-cov
+Directory: pool/main/q/q2-demux
+Priority: extra
+Section: misc

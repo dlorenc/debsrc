@@ -1,0 +1,27 @@
+Package: laszip
+Binary: liblaszip8, liblaszip-api8, liblaszip-dev
+Version: 3.4.3-2
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Bas Couwenberg <sebastic@debian.org>
+Build-Depends: chrpath, cmake (>= 2.8.11), debhelper (>= 10~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6af40ffe7b5021e7985efed9c4f89526 2028 laszip_3.4.3-2.dsc
+ 134ce2a8d87c6a3b24b6c64f267396dc 235628 laszip_3.4.3.orig.tar.gz
+ 216c4a2170ed495727052deeac2cc38b 4948 laszip_3.4.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/laszip
+Vcs-Git: https://salsa.debian.org/debian-gis-team/laszip.git
+Checksums-Sha256:
+ 1d4902bf0c61c023e20256a70498b16eafa583603d0a40361e3cc80b723e4359 2028 laszip_3.4.3-2.dsc
+ 862715affa00609b78b4f469ab5529fee659c597efd40b5006b4305dd56c22d3 235628 laszip_3.4.3.orig.tar.gz
+ 6a969cfab8bcdf87406e357faff302fc9d4b650b8959fe145841370d797a9a8d 4948 laszip_3.4.3-2.debian.tar.xz
+Homepage: https://laszip.org/
+Package-List: 
+ liblaszip-api8 deb libs optional arch=any
+ liblaszip-dev deb libdevel optional arch=any
+ liblaszip8 deb libs optional arch=any
+Directory: pool/main/l/laszip
+Priority: extra
+Section: misc

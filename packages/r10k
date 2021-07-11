@@ -1,0 +1,27 @@
+Package: r10k
+Binary: r10k
+Version: 3.7.0-2
+Maintainer: Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>
+Uploaders: Sebastien Badia <sbadia@debian.org>, Markus Frosch <lazyfrosch@debian.org>, Georg Faerber <georg@debian.org>,
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 0.6.1~), git, rake, ronn | ruby-ronn (<< 0.7.3-5.1~), ruby-colored2, ruby-cri (>= 2.6.1), ruby-gettext-setup (>= 0.5), ruby-log4r (>= 1.1.10), ruby-minitar (>= 0.6.1), ruby-multi-json (>= 1.10), ruby-puppet-forge (>= 3.0.0~), ruby-rspec (>= 3.1), ruby-rugged (>= 0.24.0), yard (>= 0.8.7.3)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 139730d08c15f051c3015df8370b92a7 2299 r10k_3.7.0-2.dsc
+ ee559dd9d2ba1233e5888db050451ff7 216634 r10k_3.7.0.orig.tar.gz
+ 31eac948422ab162049c7193353cf428 5296 r10k_3.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/puppet-team/r10k
+Vcs-Git: https://salsa.debian.org/puppet-team/r10k.git
+Checksums-Sha256:
+ bf93f6623ce1564b7209c6455eda9e58e2a86487cfbcaee0d81ac51cbfb12933 2299 r10k_3.7.0-2.dsc
+ 3ef527cf137482bb640285c9ccba4496e6614e00a155731a1912567cf0d6395f 216634 r10k_3.7.0.orig.tar.gz
+ ed66e1fa1373f4849f6707505d7829ae3145e5270785e6fc26cfbf5d4b734563 5296 r10k_3.7.0-2.debian.tar.xz
+Homepage: https://github.com/puppetlabs/r10k
+Package-List: 
+ r10k deb admin optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/r10k
+Priority: optional
+Section: admin

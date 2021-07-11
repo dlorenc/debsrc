@@ -1,0 +1,27 @@
+Package: sdpb
+Binary: sdpb, sdpb-doc
+Version: 1.0-4
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Tobias Hansen <thansen@debian.org>
+Build-Depends: debhelper (>= 10), libboost-chrono-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-serialization-dev, libboost-system-dev, libboost-timer-dev, libgmp-dev, libtinyxml2-dev
+Build-Depends-Indep: texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-pictures
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 87e1c4a5a6a84791656f08acb275a7ed 2237 sdpb_1.0-4.dsc
+ 0ee3555412faf41548691c33a8db35b9 602464 sdpb_1.0.orig.tar.xz
+ 468bb143da0c331f5338f58b79c32c0e 7376 sdpb_1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/sdpb
+Vcs-Git: https://salsa.debian.org/science-team/sdpb.git
+Checksums-Sha256:
+ 241f9d912e0eaae741f1158a582930198c755448ae7d8f618ee64278ac1dd2fb 2237 sdpb_1.0-4.dsc
+ 998c6fd4867f4f5afbdad24f4f0e3624733adfc1307b97623e8df9103fd4c12e 602464 sdpb_1.0.orig.tar.xz
+ b5d030bfb1dd049fdec10a17edc95fc9b65a32e6961bf391d701166763f2d31b 7376 sdpb_1.0-4.debian.tar.xz
+Homepage: https://github.com/davidsd/sdpb
+Package-List: 
+ sdpb deb math optional arch=any
+ sdpb-doc deb doc optional arch=all
+Directory: pool/main/s/sdpb
+Priority: optional
+Section: misc

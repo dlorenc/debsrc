@@ -1,0 +1,24 @@
+Package: rust-peeking-take-while
+Binary: librust-peeking-take-while-dev
+Version: 0.1.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 9dd1edf3ff622a8eb3f8fe2b75d882ae 2154 rust-peeking-take-while_0.1.2-1.dsc
+ 1d067a9494356a485af7672db078d274 7010 rust-peeking-take-while_0.1.2.orig.tar.gz
+ 3eca1f9d9147748e736375291e3b860c 2488 rust-peeking-take-while_0.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/peeking-take-while
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/peeking-take-while]
+Checksums-Sha256:
+ 484a5aac9888a1d4544c140a9b7011812265248032b366780a326380949d1a56 2154 rust-peeking-take-while_0.1.2-1.dsc
+ 76f0afa882b7cf8cb2938e21a926a31db737807bc574e1f7c855656709d762bc 7010 rust-peeking-take-while_0.1.2.orig.tar.gz
+ 33a5b2455a524f2f4a1f6a7a3a7d12d81f4d5dbe3dd5a86a5f0cdf30ea51161e 2488 rust-peeking-take-while_0.1.2-1.debian.tar.xz
+Package-List: 
+ librust-peeking-take-while-dev deb rust optional arch=any
+Directory: pool/main/r/rust-peeking-take-while
+Priority: extra
+Section: misc

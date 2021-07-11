@@ -1,0 +1,28 @@
+Package: utf8proc
+Binary: libutf8proc2, libutf8proc-dev
+Version: 2.5.0-1
+Maintainer: Debian Julia Team <pkg-julia-devel@lists.alioth.debian.org>
+Uploaders: Peter Colberg <peter@colberg.org>, Graham Inggs <ginggs@debian.org>, Mo Zhou <lumin@debian.org>
+Build-Depends: debhelper-compat (= 12), perl, unicode-data (<< 13.1), unicode-data (>= 13.0)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f9b4dda72fdd5f8137b3bd8b950a6a8d 2154 utf8proc_2.5.0-1.dsc
+ e2d5f710796acdc55b92654b657f2b06 155485 utf8proc_2.5.0.orig.tar.gz
+ 8fff53f5af7770de8fca9204baec0afa 5240 utf8proc_2.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/julia-team/utf8proc
+Vcs-Git: https://salsa.debian.org/julia-team/utf8proc.git
+Checksums-Sha256:
+ 2137104a3712875650629305fe7d7ef37d4d99328846c18b087b289c0ddbf27c 2154 utf8proc_2.5.0-1.dsc
+ d4e8dfc898cfd062493cb7f42d95d70ccdd3a4cd4d90bec0c71b47cca688f1be 155485 utf8proc_2.5.0.orig.tar.gz
+ 333496cf4e178b5ccf4972fa52523d07a21a0cabf0cb123133c6c71f98e92eff 5240 utf8proc_2.5.0-1.debian.tar.xz
+Homepage: https://github.com/JuliaStrings/utf8proc
+Package-List: 
+ libutf8proc-dev deb libdevel optional arch=any
+ libutf8proc2 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/u/utf8proc
+Priority: optional
+Section: misc

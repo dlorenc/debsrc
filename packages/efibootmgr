@@ -1,0 +1,24 @@
+Package: efibootmgr
+Binary: efibootmgr
+Version: 17-1
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Uploaders: Daniel Jared Dominguez <jared.dominguez@dell.com>, Steve McIntyre <93sam@debian.org>, Mario Limonciello <mario.limonciello@dell.com>
+Build-Depends: debhelper (>> 9), pkg-config, libefivar-dev (>= 30), libefiboot-dev (>= 30), libpopt-dev
+Architecture: amd64 i386 ia64 armhf arm64 armel x32
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cbc702b28f43b174adb6c941d6aaac2e 2113 efibootmgr_17-1.dsc
+ 6ae315936d9bc8613b3a4cb8a4064128 41643 efibootmgr_17.orig.tar.gz
+ 53fbaaa7327b5c473dd5380fc2e93de2 7712 efibootmgr_17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/efi-team/efibootmgr
+Vcs-Git: https://salsa.debian.org/efi-team/efibootmgr.git
+Checksums-Sha256:
+ 46a6217f9d2e23a422ac1737f38d5f6ef455b3d84f97cd0176beaad4d1869b92 2113 efibootmgr_17-1.dsc
+ 22a95ebe0d5c9fb2915b3a100450f8f37484d1dbb8b296f55b343cc84f10397d 41643 efibootmgr_17.orig.tar.gz
+ f3ff3b086d36cc626cc73377c0d81fc565ebf5d551f8aac7373c0b695a63a1d5 7712 efibootmgr_17-1.debian.tar.xz
+Package-List: 
+ efibootmgr deb admin optional arch=amd64,i386,ia64,armhf,arm64,armel,x32
+Directory: pool/main/e/efibootmgr
+Priority: source
+Section: admin

@@ -1,0 +1,25 @@
+Package: sidedoor
+Binary: sidedoor, sidedoor-sudo
+Version: 0.2.1-1.1
+Maintainer: Dara Adib <daradib@ocf.berkeley.edu>
+Build-Depends: debhelper (>= 9), debhelper (>= 9.20160709) | dh-systemd
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 13ecbf9a184b49b664f1408d98a61f96 1908 sidedoor_0.2.1-1.1.dsc
+ 149582632d22be62ddf8169b166028cd 17372 sidedoor_0.2.1.orig.tar.gz
+ f534aa84c32dad84b8aa0a6829da3e5e 6428 sidedoor_0.2.1-1.1.debian.tar.xz
+Vcs-Browser: https://github.com/daradib/sidedoor
+Vcs-Git: https://github.com/daradib/sidedoor.git
+Checksums-Sha256:
+ a39e0bbd7827088b240d881acfd1b80f7a8fb38bc4432c85c0334e953833387e 1908 sidedoor_0.2.1-1.1.dsc
+ 285dcfdfe1f1e683d1a55f78bb334a43a220f6edf96b2b4d858692a88b6e25ef 17372 sidedoor_0.2.1.orig.tar.gz
+ 1b70fae1ab79c010ca3b781b5dd4b3832126e4535c3d5960137a2c6009911df2 6428 sidedoor_0.2.1-1.1.debian.tar.xz
+Homepage: https://github.com/daradib/sidedoor
+Package-List: 
+ sidedoor deb net optional arch=all
+ sidedoor-sudo deb net optional arch=all
+Directory: pool/main/s/sidedoor
+Priority: optional
+Section: misc

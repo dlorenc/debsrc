@@ -1,0 +1,26 @@
+Package: bilibop
+Binary: bilibop, bilibop-common, bilibop-lockfs, bilibop-rules, bilibop-udev
+Version: 0.6.3
+Maintainer: Yann Amar <quidame@poivron.org>
+Build-Depends: debhelper-compat (= 13), po-debconf
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 655a3f0c71a6870ab4d2d2f4a9f56415 1819 bilibop_0.6.3.dsc
+ 3f8e939d3127fc1160082368c39b1109 128400 bilibop_0.6.3.tar.xz
+Vcs-Git: https://un.poivron.org/~quidame/git/bilibop.git
+Checksums-Sha256:
+ bde24635c171c79e74723e4080c2f841647d204fd77617c468b389e4687b4479 1819 bilibop_0.6.3.dsc
+ 33a24672c6d896a47f14d9a47e2b8688e1655c8d358b838b9d8351cc58de3640 128400 bilibop_0.6.3.tar.xz
+Homepage: https://un.poivron.org/~quidame/wiki/bilibop
+Package-List: 
+ bilibop deb metapackages optional arch=linux-any
+ bilibop-common deb admin optional arch=linux-any
+ bilibop-lockfs deb admin optional arch=linux-any
+ bilibop-rules deb admin optional arch=linux-any
+ bilibop-udev deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Directory: pool/main/b/bilibop
+Priority: optional
+Section: misc

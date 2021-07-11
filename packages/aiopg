@@ -1,0 +1,25 @@
+Package: aiopg
+Binary: python3-aiopg
+Version: 1.2.0~b2-1
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, python3-all, python3-psycopg2 (>= 2.7.0) <!nocheck>, python3-setuptools, python3-sqlalchemy <!nocheck>, python3-async-timeout <!nocheck>
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 17d67f97f633e37578ccf413f370745b 2085 aiopg_1.2.0~b2-1.dsc
+ b7a8bb9545b18449e8c4a8c686029f12 33374 aiopg_1.2.0~b2.orig.tar.gz
+ 629ebb33bbf5a8b51acf05ffdc99905f 2748 aiopg_1.2.0~b2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/aiopg
+Vcs-Git: https://salsa.debian.org/python-team/packages/aiopg.git
+Checksums-Sha256:
+ e427dcc03a9199fad39a64e303aa95dcef64d4017a33903270c2ad7ef2006560 2085 aiopg_1.2.0~b2-1.dsc
+ e59eaf67ce944c63296c763885f4baa935cede082368d1cd273b3d59fa49b5be 33374 aiopg_1.2.0~b2.orig.tar.gz
+ 6d95ae9555980e8fd86a8443c73ace43a744323a177b0e3d9ba80a0baf888858 2748 aiopg_1.2.0~b2-1.debian.tar.xz
+Homepage: https://aiopg.readthedocs.org/
+Package-List: 
+ python3-aiopg deb python optional arch=all
+Directory: pool/main/a/aiopg
+Priority: optional
+Section: misc

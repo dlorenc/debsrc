@@ -1,0 +1,26 @@
+Package: node-is-directory
+Binary: node-is-directory
+Version: 0.3.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e02a259e727b149e1f26b422a107014a 2095 node-is-directory_0.3.1-2.dsc
+ 46597925fba7819dac0167e6ea1d6d10 5111 node-is-directory_0.3.1.orig.tar.gz
+ 7ac06821bcaa989a61da531351206720 2540 node-is-directory_0.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-directory
+Vcs-Git: https://salsa.debian.org/js-team/node-is-directory.git
+Checksums-Sha256:
+ 45ad48fb531c8f8d74bfa0525bfcb5973c88d05b6aa956a2415ab816a491b3ab 2095 node-is-directory_0.3.1-2.dsc
+ 2fceaf9c760a375f8ae9fda7fdb9f83e47222e4f22bad89730c2e72e085d5411 5111 node-is-directory_0.3.1.orig.tar.gz
+ 2ee4da29df38af94d0d32ea75f22004bc5609f4f4c4d646b9333ca15f3eba452 2540 node-is-directory_0.3.1-2.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/is-directory
+Package-List: 
+ node-is-directory deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-is-directory
+Priority: extra
+Section: misc

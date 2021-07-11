@@ -1,0 +1,25 @@
+Package: litecoin
+Binary: litecoind, litecoin-qt
+Version: 0.18.1-1.1
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12), imagemagick, libboost-all-dev, libdb++-dev, libevent-dev, libleveldb-dev (>= 1.18-2.1), libminiupnpc-dev [!hurd-any], libprotobuf-dev, protobuf-compiler, libqrencode-dev, libssl-dev, qttools5-dev, qttools5-dev-tools, pkg-config
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ cfa34bb1aafaa040a8d380f1313ee169 2116 litecoin_0.18.1-1.1.dsc
+ d990aaaf2d8825254ef963a4b74e7f7e 3611048 litecoin_0.18.1.orig.tar.xz
+ 56a146d25a6a3f1009145c2ac91843fa 12344 litecoin_0.18.1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/litecoin
+Vcs-Git: https://salsa.debian.org/debian/litecoin.git
+Checksums-Sha256:
+ 25c20b5427ff07c2fd6eafb10917fac1fce1c4e55eef2190d9f879262576641b 2116 litecoin_0.18.1-1.1.dsc
+ 6339cc8a4bf1df538d6d5005a5829f885b8e54e7b3e1417897f5c7bffae4c7dc 3611048 litecoin_0.18.1.orig.tar.xz
+ 0f8871272b449c3cf02457fe84702853b6112bdd48e3b575cce962ab5d4224fd 12344 litecoin_0.18.1-1.1.debian.tar.xz
+Homepage: http://litecoin.org/
+Package-List: 
+ litecoin-qt deb utils optional arch=any
+ litecoind deb utils optional arch=any
+Directory: pool/main/l/litecoin
+Priority: optional
+Section: misc

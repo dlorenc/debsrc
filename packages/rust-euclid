@@ -1,0 +1,26 @@
+Package: rust-euclid
+Binary: librust-euclid-dev, librust-euclid+mint-dev, librust-euclid+serde-dev
+Version: 0.20.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-num-traits-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 89f68c0917ac97c6b499c485266d8554 1907 rust-euclid_0.20.0-1.dsc
+ c94774cd83a75da342705ef19ed5b598 60319 rust-euclid_0.20.0.orig.tar.gz
+ 3765cb51822db8042ab2e0d506409937 2856 rust-euclid_0.20.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/euclid
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/euclid]
+Checksums-Sha256:
+ b5081b041f273056d85b956a3b0f75891a8448f38945027bcea92a389770f706 1907 rust-euclid_0.20.0-1.dsc
+ 6afdf39205bcef37da182ec36656b0dd69a6ebc554b6f762f4514ac58c66b1e1 60319 rust-euclid_0.20.0.orig.tar.gz
+ 11f52bc4b4ca4c4a6611838eefa826bf897d6435fbb9296f7851308c75f30827 2856 rust-euclid_0.20.0-1.debian.tar.xz
+Package-List: 
+ librust-euclid+mint-dev deb rust optional arch=any
+ librust-euclid+serde-dev deb rust optional arch=any
+ librust-euclid-dev deb rust optional arch=any
+Directory: pool/main/r/rust-euclid
+Priority: extra
+Section: misc

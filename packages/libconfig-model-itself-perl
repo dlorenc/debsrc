@@ -1,0 +1,27 @@
+Package: libconfig-model-itself-perl
+Binary: libconfig-model-itself-perl
+Version: 2.022-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, perl, xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: cme <!nocheck>, dh-sequence-bash-completion, libapp-cmd-perl <!nocheck>, libconfig-model-perl (>= 2.141), libconfig-model-tester-perl (>= 3.006) <!nocheck>, libconfig-model-tkui-perl (>= 1.370) <!nocheck>, libdata-compare-perl <!nocheck>, libfile-copy-recursive-perl <!nocheck>, liblog-log4perl-perl <!nocheck>, libpath-tiny-perl (>= 0.062) <!nocheck>, libpod-pom-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-file-contents-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtext-diff-perl <!nocheck>, libyaml-libyaml-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ eb77ee5603843323e9cb725800c4edb1 2927 libconfig-model-itself-perl_2.022-1.dsc
+ b3c58553960975ba3036465258290bba 69813 libconfig-model-itself-perl_2.022.orig.tar.gz
+ 12a4c69eda30d21e176a3b7ceb8beaa5 8200 libconfig-model-itself-perl_2.022-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libconfig-model-itself-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libconfig-model-itself-perl.git
+Checksums-Sha256:
+ 102aee0d866cac5134fcb13b99bd291cabf533ec4f47445612d530255e11326c 2927 libconfig-model-itself-perl_2.022-1.dsc
+ 951bfb781755f29c68ce0853f6bc294fccab14e51eb39ae2de68c6d759e0d70d 69813 libconfig-model-itself-perl_2.022.orig.tar.gz
+ 0918fc6c042688536855d6ce44604b8c3562097fece025f980c29db4db481fc0 8200 libconfig-model-itself-perl_2.022-1.debian.tar.xz
+Homepage: https://github.com/dod38fr/config-model/wiki
+Package-List: 
+ libconfig-model-itself-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libconfig-model-itself-perl
+Priority: source
+Section: perl

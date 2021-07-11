@@ -1,0 +1,27 @@
+Package: kget
+Binary: kget
+Version: 4:20.12.2-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>, Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.0.0~), debhelper-compat (= 13), extra-cmake-modules (>= 5.55.0~), gettext, libboost-dev, libgpgme-dev, libgpgmepp-dev (>= 1.7.0~), libkf5completion-dev (>= 5.55.0~), libkf5config-dev (>= 5.55.0~), libkf5configwidgets-dev (>= 5.55.0~), libkf5coreaddons-dev (>= 5.55.0~), libkf5crash-dev (>= 5.55.0~), libkf5dbusaddons-dev (>= 5.55.0~), libkf5doctools-dev (>= 5.55.0~), libkf5i18n-dev (>= 5.55.0~), libkf5iconthemes-dev (>= 5.55.0~), libkf5itemviews-dev (>= 5.55.0~), libkf5kcmutils-dev (>= 5.55.0~), libkf5kdelibs4support-dev (>= 5.55.0~), libkf5kio-dev (>= 5.55.0~), libkf5notifications-dev (>= 5.55.0~), libkf5notifyconfig-dev (>= 5.55.0~), libkf5parts-dev (>= 5.55.0~), libkf5service-dev (>= 5.55.0~), libkf5textwidgets-dev (>= 5.55.0~), libkf5wallet-dev (>= 5.55.0~), libkf5widgetsaddons-dev (>= 5.55.0~), libkf5windowsystem-dev (>= 5.55.0~), libkf5xmlgui-dev (>= 5.55.0~), libktorrent-dev (>= 2.1~), libmms-dev, libqca-qt5-2-dev (>= 2.1.0~), libsqlite3-dev, pkg-config, pkg-kde-tools (>= 0.15.16), plasma-workspace-dev [linux-any], qtbase5-dev (>= 5.7.0~)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d9e1e9d27b37663890bdeb657af110be 3215 kget_20.12.2-1.dsc
+ 55727efad428f33125b94259c78b6ca5 5583764 kget_20.12.2.orig.tar.xz
+ 5a2e4a8f4b45f01a35c7f96e687e4503 833 kget_20.12.2.orig.tar.xz.asc
+ 23ac5392c5aab3d2b3e526c181b25d74 14544 kget_20.12.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kget
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kget.git
+Checksums-Sha256:
+ be2f0cdf5b186daaf391b7f564efd5a0c67fe8272efa923f10045376f1b47b90 3215 kget_20.12.2-1.dsc
+ b7a021fa5b85348c84445893ec8052d37e796aae43bd39d6c758a6a85426caf7 5583764 kget_20.12.2.orig.tar.xz
+ 46a5b1c31adca331684a6791ee599bbec4e2fad68059c030220f94e128c87db8 833 kget_20.12.2.orig.tar.xz.asc
+ 21c27afdbca2447dc64344cd21534a990005aa944945ee485906c5fc9b6fd505 14544 kget_20.12.2-1.debian.tar.xz
+Homepage: https://apps.kde.org/en/kget
+Package-List: 
+ kget deb net optional arch=any
+Directory: pool/main/k/kget
+Priority: optional
+Section: misc

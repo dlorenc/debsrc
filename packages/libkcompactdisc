@@ -1,0 +1,28 @@
+Package: libkcompactdisc
+Binary: libkf5compactdisc-dev, libkf5compactdisc5
+Version: 4:20.12.0-1
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>, Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), extra-cmake-modules (>= 5.68.0~), gettext, libasound2-dev [linux-any], libkf5i18n-dev (>= 5.68.0~), libkf5solid-dev (>= 5.68.0~), libphonon4qt5-dev (>= 4.8.0~), pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.12.0~)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0294d47bd619e4420620e1f90b05db32 2659 libkcompactdisc_20.12.0-1.dsc
+ ea482383ebc92b2ba81729ac1cec3274 96708 libkcompactdisc_20.12.0.orig.tar.xz
+ e9fddcedfd9e699ab3bfb3f5137e19b1 488 libkcompactdisc_20.12.0.orig.tar.xz.asc
+ 239810afa3ad4bb2f383d3563ce548ef 7132 libkcompactdisc_20.12.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/libkcompactdisc
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/libkcompactdisc.git
+Checksums-Sha256:
+ d08d990b545d37b1820de3ac5780379ee803019dfc31a9ab06be58cbbd1e1398 2659 libkcompactdisc_20.12.0-1.dsc
+ e74c0a2952ab93213482851a2cf2bc3299f33614467d73054f871e26d6092078 96708 libkcompactdisc_20.12.0.orig.tar.xz
+ 168d1ae5fed4307f6f83a77a6c8e16ecf6c8046a2887d1501777d106845e8ff5 488 libkcompactdisc_20.12.0.orig.tar.xz.asc
+ 1975709cfbc3acd71d0446a215792ec198e098c7d489b0a630afc60457e1c32b 7132 libkcompactdisc_20.12.0-1.debian.tar.xz
+Homepage: https://invent.kde.org/multimedia/libkcompactdisc
+Package-List: 
+ libkf5compactdisc-dev deb libdevel optional arch=any
+ libkf5compactdisc5 deb libs optional arch=any
+Directory: pool/main/libk/libkcompactdisc
+Priority: source
+Section: misc

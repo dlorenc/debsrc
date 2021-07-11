@@ -1,0 +1,26 @@
+Package: systemd-bootchart
+Binary: systemd-bootchart
+Version: 234-1
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Biebl <biebl@debian.org>, Marco d'Itri <md@linux.it>, Sjoerd Simons <sjoerd@debian.org>, Martin Pitt <mpitt@debian.org>
+Build-Depends: debhelper-compat (= 13), intltool, pkg-config, libsystemd-dev (>= 221), xsltproc, docbook-xsl, docbook-xml
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6750c178c72b6cdecb6fc9faef10c8ae 2230 systemd-bootchart_234-1.dsc
+ 1141a465d0989f57e90f6a1f040ff9b2 111289 systemd-bootchart_234.orig.tar.gz
+ 49e825a6e4efccd0d624b5b1b26bddf6 4136 systemd-bootchart_234-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/systemd-team/systemd-bootchart
+Vcs-Git: https://salsa.debian.org/systemd-team/systemd-bootchart.git
+Checksums-Sha256:
+ 402695488ea20d0493366045c38288d3aa3a33536b395f805f3bfc05a487f7e7 2230 systemd-bootchart_234-1.dsc
+ 65bfcaea43a17f220a499dac7ab93ec643f8abe7c4e87c61f29f5b707e11f816 111289 systemd-bootchart_234.orig.tar.gz
+ 256c1314bd22bf8566e10ce2be048a087fe4d7f822d7c5b64f013d5692111921 4136 systemd-bootchart_234-1.debian.tar.xz
+Homepage: https://github.com/systemd/systemd-bootchart/
+Package-List: 
+ systemd-bootchart deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Directory: pool/main/s/systemd-bootchart
+Priority: optional
+Section: misc

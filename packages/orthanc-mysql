@@ -1,0 +1,25 @@
+Package: orthanc-mysql
+Binary: orthanc-mysql
+Version: 3.0-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Sebastien Jodogne <s.jodogne@gmail.com>
+Build-Depends: cmake, debhelper (>= 10), libgtest-dev, liborthancframework-dev, libssl-dev, orthanc-dev, default-libmysqlclient-dev, unzip
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b7661a96bdbfe7a3e82a5cad1b141d23 2106 orthanc-mysql_3.0-1.dsc
+ d8b4ff2fcb79b2a3d6b4e56ce6aa3aba 119808 orthanc-mysql_3.0.orig.tar.xz
+ 789d7e719203b00468faa2fdb0e3a26c 3952 orthanc-mysql_3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/orthanc-mysql
+Vcs-Git: https://salsa.debian.org/med-team/orthanc-mysql.git
+Checksums-Sha256:
+ 72bf194ec613f73c2d609929a76b1348edcd1211ffff217bd0c15737ecd759d8 2106 orthanc-mysql_3.0-1.dsc
+ acfbbd80ee9567c88b876b68928478ebb2ae92926eb2f2b6ebe7b791de2e41cf 119808 orthanc-mysql_3.0.orig.tar.xz
+ 2e51940274a468c628323264dbc70ac72a5381fbe79dd8a4ab0e612ec12ad972 3952 orthanc-mysql_3.0-1.debian.tar.xz
+Homepage: https://www.orthanc-server.com/static.php?page=mysql
+Package-List: 
+ orthanc-mysql deb science optional arch=any
+Directory: pool/main/o/orthanc-mysql
+Priority: extra
+Section: misc

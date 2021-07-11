@@ -1,0 +1,27 @@
+Package: dune-functions
+Binary: libdune-functions-dev, libdune-functions-doc
+Version: 2.7.1-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar <ansgar@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, gfortran, mpi-default-bin, mpi-default-dev, pkg-config, python3, libdune-localfunctions-dev (>= 2.7.1), libdune-grid-dev (>= 2.7.1), libdune-istl-dev (>= 2.7.1), libdune-typetree-dev (>= 2.7.1)
+Build-Depends-Indep: doxygen, ghostscript, graphviz, imagemagick, texlive-latex-extra, texlive-latex-recommended, texlive-pictures
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bed4b646a41b17bed593c8cd15a887f1 2423 dune-functions_2.7.1-2.dsc
+ 999235b1c5840a98f53f4403f0dfa253 87424 dune-functions_2.7.1.orig.tar.xz
+ 17f8e5e1247c15324721717ffbff9b20 3204 dune-functions_2.7.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/dune-functions
+Vcs-Git: https://salsa.debian.org/science-team/dune-functions.git
+Checksums-Sha256:
+ 74cd1f0e367e9a167e65547c42437139b7e8be2560b54df29811cd844f600cd7 2423 dune-functions_2.7.1-2.dsc
+ eb48b9f2d31aaec764859097b1f767b6c57ad178c9492dc9206f5f5e2e0976af 87424 dune-functions_2.7.1.orig.tar.xz
+ c13c0d50e0a84716a78461da7216ed1edb1023113577c4cba348f1493bdf9eda 3204 dune-functions_2.7.1-2.debian.tar.xz
+Homepage: https://www.dune-project.org/
+Package-List: 
+ libdune-functions-dev deb libdevel optional arch=all
+ libdune-functions-doc deb doc optional arch=all
+Directory: pool/main/d/dune-functions
+Priority: optional
+Section: misc

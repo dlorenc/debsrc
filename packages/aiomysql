@@ -1,0 +1,26 @@
+Package: aiomysql
+Binary: python3-aiomysql, python-aiomysql-doc
+Version: 0.0.20-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Adam Cecile <acecile@le-vert.net>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinxcontrib-asyncio <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-pytest <pkg.aiomysql.integrationtests>, python3-docker <pkg.aiomysql.integrationtests>, python3-pymysql (>= 0.9~) <pkg.aiomysql.integrationtests>, python3-sqlalchemy (>= 1.0~) <pkg.aiomysql.integrationtests>, python3-uvloop <pkg.aiomysql.integrationtests>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fe4e9d10bbe520a01c64700f557f9b7c 2447 aiomysql_0.0.20-2.dsc
+ e1ff4ba3381493f5df904b2262a689f7 97327 aiomysql_0.0.20.orig.tar.gz
+ f0a29f33f41557ee8696532abad88f57 4032 aiomysql_0.0.20-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/aiomysql
+Vcs-Git: https://salsa.debian.org/python-team/modules/aiomysql.git
+Checksums-Sha256:
+ dd1884136b5a1ae23c5c6f430ecbea2a0f68510d480b551e37a24fd78846207a 2447 aiomysql_0.0.20-2.dsc
+ 0e79fc6325d10b29924aecdf32b8d78c74b35ee7c252bf1a61def8ad19528c7a 97327 aiomysql_0.0.20.orig.tar.gz
+ 0a41f6e279adb9a0e6e5a9d444523eb3b79e967a6a4bc3e3021b7a2209b1eaba 4032 aiomysql_0.0.20-2.debian.tar.xz
+Homepage: https://github.com/aio-libs/aiomysql
+Package-List: 
+ python-aiomysql-doc deb doc optional arch=all profile=!nodoc
+ python3-aiomysql deb python optional arch=all
+Directory: pool/main/a/aiomysql
+Priority: extra
+Section: misc

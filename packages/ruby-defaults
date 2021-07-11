@@ -1,0 +1,30 @@
+Package: ruby-defaults
+Binary: ruby, ruby-dev, ruby-all-dev, libruby, ri, ruby-full
+Version: 1:2.7+2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>, Lucas Kanashiro <kanashiro@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 67a63a194569cb302c4ebb62dbc31bb5 2019 ruby-defaults_2.7+2.dsc
+ 56156c0d04da2ec39040c7990698a1c6 12528 ruby-defaults_2.7+2.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-defaults
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-defaults.git
+Checksums-Sha256:
+ 21bc1131766b9222d5d51205162df5a1c921f078917a77125b4eea61c9c6d9b4 2019 ruby-defaults_2.7+2.dsc
+ 7c04ad5e21c15d227cb6be23bceb5b559349c3a5fd068783ad5911f5a558240b 12528 ruby-defaults_2.7+2.tar.xz
+Homepage: https://www.ruby-lang.org/
+Package-List: 
+ libruby deb libs optional arch=all
+ ri deb ruby optional arch=all
+ ruby deb ruby optional arch=any
+ ruby-all-dev deb ruby optional arch=any
+ ruby-dev deb ruby optional arch=any
+ ruby-full deb ruby optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: pkg-config
+Directory: pool/main/r/ruby-defaults
+Priority: source
+Section: ruby

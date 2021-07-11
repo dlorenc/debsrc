@@ -1,0 +1,30 @@
+Package: tryton-client
+Binary: tryton-client, tryton-client-doc
+Version: 5.0.33-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 11~), dh-python, gir1.2-gtk-3.0, python3-chardet, python3-dateutil, python3, python3-gi-cairo, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 08ce9e75e022742d63fecc0615739802 2502 tryton-client_5.0.33-1.dsc
+ 16b34e66d0ff7892a3ec69426cc66241 581647 tryton-client_5.0.33.orig.tar.gz
+ 86931275885c1be498084286b2e2df0e 506 tryton-client_5.0.33.orig.tar.gz.asc
+ 2cc5dbefd93ca43f0f3dad5ed1e72870 19672 tryton-client_5.0.33-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/tryton-client
+Vcs-Git: https://salsa.debian.org/tryton-team/tryton-client.git
+Checksums-Sha256:
+ 2a978ec5ebbfb48bddb9797d30ee9c5b856f0aaa8cc91b01b3ba38ee99b7e1bb 2502 tryton-client_5.0.33-1.dsc
+ e620aef77bdf880d591bf955829e820e64f3162506f202f26a266983b3ed2acf 581647 tryton-client_5.0.33.orig.tar.gz
+ a8e536e8eec1aaf7e289dd842fcf9839b13a578dcd5ca57d0907056b0fa100f0 506 tryton-client_5.0.33.orig.tar.gz.asc
+ 7c22a7d1d6b2d40514705376422c72d43f7957cae5bd4a0b5ac2de4ccfc52fdd 19672 tryton-client_5.0.33-1.debian.tar.xz
+Homepage: http://www.tryton.org/
+Package-List: 
+ tryton-client deb python optional arch=all
+ tryton-client-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gir1.2-gtk-3.0
+Directory: pool/main/t/tryton-client
+Priority: source
+Section: python

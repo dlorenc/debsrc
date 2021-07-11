@@ -1,0 +1,27 @@
+Package: ruby-flowdock
+Binary: ruby-flowdock
+Version: 0.7.1-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 9~), gem2deb, rake, ruby-httparty (>= 0.7), ruby-multi-json, ruby-rspec, ruby-webmock
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ d61a189c41817dd6b3045eb7b43d7355 2135 ruby-flowdock_0.7.1-1.dsc
+ 485c6b44bb11f56baeac330ba9a3b7cd 9820 ruby-flowdock_0.7.1.orig.tar.gz
+ f85c72c225fbd0b8a6eb71717b189c48 3232 ruby-flowdock_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-flowdock.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-flowdock.git
+Checksums-Sha256:
+ 276d9735fdc54ed4a6f12962505ffef28f7654739495ab3357598afa15d8856b 2135 ruby-flowdock_0.7.1-1.dsc
+ f2fae1ca8b8e426580a84893710d637181b0e9d16ba5938ec6645c7596518265 9820 ruby-flowdock_0.7.1.orig.tar.gz
+ 61262cd62a1169116278b23dfab8ed6f01bde1e4c2fc3f621e892c164073c2e7 3232 ruby-flowdock_0.7.1-1.debian.tar.xz
+Homepage: http://github.com/flowdock/flowdock-api
+Package-List: 
+ ruby-flowdock deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-flowdock
+Priority: optional
+Section: misc

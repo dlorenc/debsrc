@@ -1,0 +1,28 @@
+Package: haskell-microlens-ghc
+Binary: libghc-microlens-ghc-dev, libghc-microlens-ghc-prof, libghc-microlens-ghc-doc
+Version: 0.4.12-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.15), libghc-microlens-dev (>= 0.4.11), libghc-microlens-dev (<< 0.4.12), libghc-microlens-prof
+Build-Depends-Indep: ghc-doc, libghc-microlens-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 005eeb01d50b6ec45a8fc09071d5c1c7 2497 haskell-microlens-ghc_0.4.12-1.dsc
+ ac19dc0d7eb502641522e9a777eb51c0 6616 haskell-microlens-ghc_0.4.12.orig.tar.gz
+ 7a64dcdaabcfe0299019bdf315e0dde4 2724 haskell-microlens-ghc_0.4.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-microlens-ghc
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-microlens-ghc]
+Checksums-Sha256:
+ 9ae09a9f5ac7d8608859555d2e5bac7a74509f9bf8b393a73577843b6024f8cc 2497 haskell-microlens-ghc_0.4.12-1.dsc
+ 2b441b12ce1108e59593a5cfc2cc98da549f1faa13203e28f912804d9531101f 6616 haskell-microlens-ghc_0.4.12.orig.tar.gz
+ 2807a55113fcd4cf788d69cedc5994de4ccb292bc8f208c730d1f88aa731b8ce 2724 haskell-microlens-ghc_0.4.12-1.debian.tar.xz
+Homepage: https://github.com/monadfix/microlens
+Package-List: 
+ libghc-microlens-ghc-dev deb haskell optional arch=any
+ libghc-microlens-ghc-doc deb doc optional arch=all
+ libghc-microlens-ghc-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-microlens-ghc
+Priority: optional
+Section: misc

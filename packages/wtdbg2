@@ -1,0 +1,28 @@
+Package: wtdbg2
+Binary: wtdbg2, wtdbg2-examples
+Version: 2.5-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), zlib1g-dev, libsimde-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d3c0b295c58c0e7d7f4bbe505ed8e03c 2079 wtdbg2_2.5-7.dsc
+ 0368caed7480192c42b1a4ffa1ddbb7c 236627 wtdbg2_2.5.orig.tar.gz
+ 2fb70b48a1f4e0505c2a3ccb37ce2511 121142812 wtdbg2_2.5-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/wtdbg2
+Vcs-Git: https://salsa.debian.org/med-team/wtdbg2.git
+Checksums-Sha256:
+ 08bae263604a5417557740037d9f2d0b2ede751e8facee263872cd5710e6740b 2079 wtdbg2_2.5-7.dsc
+ a2ffc8503d29f491a9a38ef63230d5b3c96db78377b5d25c91df511d0df06413 236627 wtdbg2_2.5.orig.tar.gz
+ 755e2d3cb633deb5eeee647edfe0539308952b25d7583fd55f953710f6d0bc37 121142812 wtdbg2_2.5-7.debian.tar.xz
+Homepage: https://github.com/ruanjue/wtdbg2
+Package-List: 
+ wtdbg2 deb science optional arch=any
+ wtdbg2-examples deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: bwa, minimap2, samtools
+Directory: pool/main/w/wtdbg2
+Priority: extra
+Section: misc

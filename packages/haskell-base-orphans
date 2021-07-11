@@ -1,0 +1,28 @@
+Package: haskell-base-orphans
+Binary: libghc-base-orphans-dev, libghc-base-orphans-prof, libghc-base-orphans-doc
+Version: 0.8.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 0f04821faa1fd4d06eb1b0125c94bd80 2363 haskell-base-orphans_0.8.2-1.dsc
+ 3de80a9b42b3b2662e8f1e08c861ddaa 20727 haskell-base-orphans_0.8.2.orig.tar.gz
+ 0cafdbbde5022a79f5b8673b91a283c3 2792 haskell-base-orphans_0.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-base-orphans
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-base-orphans]
+Checksums-Sha256:
+ a841c05832c0f17ba1bab2361976845ed88783bbdfcee8b0753b0f4516d49155 2363 haskell-base-orphans_0.8.2-1.dsc
+ 2a8062385e5d5dee418428a22c72b9391557bc1fe2f93bd643f7754b36b9eb01 20727 haskell-base-orphans_0.8.2.orig.tar.gz
+ 56e5d8da95a193cff145379144fffc32a38a6def5814d61e83c0106dae59b765 2792 haskell-base-orphans_0.8.2-1.debian.tar.xz
+Homepage: https://github.com/haskell-compat/base-orphans#readme
+Package-List: 
+ libghc-base-orphans-dev deb haskell optional arch=any
+ libghc-base-orphans-doc deb doc optional arch=all
+ libghc-base-orphans-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-base-orphans
+Priority: optional
+Section: misc

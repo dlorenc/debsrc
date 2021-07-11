@@ -1,0 +1,28 @@
+Package: foonathan-memory
+Binary: libfoonathan-memory0d, libfoonathan-memory-dev, libfoonathan-memory-doc
+Version: 0.7-3
+Maintainer: Timo Röhling <timo@gaussglocke.de>
+Build-Depends: debhelper-compat (= 13), cmake, pkg-kde-tools, doxygen <!nodoc>, catch2 <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c91c390dbc0f56b804a4152a1099c848 2023 foonathan-memory_0.7-3.dsc
+ 8473b33d99ee367be7498296e4e7abc1 181707 foonathan-memory_0.7.orig.tar.gz
+ cacf8e71a9742c246e0804dc2d2cd428 13148 foonathan-memory_0.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/roehling/foonathan-memory
+Vcs-Git: https://salsa.debian.org/roehling/foonathan-memory.git
+Checksums-Sha256:
+ 381e09336ef1b306d3a943d38845484ccac044b8f12cf58ee5f1bc7c73da0ae0 2023 foonathan-memory_0.7-3.dsc
+ 01a7cc5a5ebddbd71bec69c89562a4a2ecd7c29334c0a29d38d83e7f7f66eb53 181707 foonathan-memory_0.7.orig.tar.gz
+ cdc8c60f0b026473a76b0df8ca4409ede7c0235707669298bf2dbe2766395d60 13148 foonathan-memory_0.7-3.debian.tar.xz
+Homepage: https://github.com/foonathan/memory
+Package-List: 
+ libfoonathan-memory-dev deb libdevel optional arch=any
+ libfoonathan-memory-doc deb doc optional arch=all
+ libfoonathan-memory0d deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: catch2, cmake, g++
+Directory: pool/main/f/foonathan-memory
+Priority: extra
+Section: misc

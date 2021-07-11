@@ -1,0 +1,27 @@
+Package: ruby-webmock
+Binary: ruby-webmock
+Version: 3.8.3-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-addressable (>= 2.3.6), ruby-crack (>= 0.3.2), ruby-curb, ruby-em-http-request (>= 1.1.2), ruby-em-socksify, ruby-escape-utils (>= 1.0.1), ruby-eventmachine (>= 1.0.3-6), ruby-excon (>= 0.27.5~), ruby-hashdiff (>= 0.4~), ruby-http, ruby-httpclient, ruby-minitest, ruby-rack, ruby-rspec, ruby-safe-yaml, ruby-test-unit, ruby-typhoeus
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 7b3ad81a84ba91b4b1ab2b396ca37a2a 2381 ruby-webmock_3.8.3-1.dsc
+ 29309ecdb434fa939449a0a996325271 120271 ruby-webmock_3.8.3.orig.tar.gz
+ e1d091442c0327d2e497edfd6c2e0097 4852 ruby-webmock_3.8.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-webmock
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-webmock.git
+Checksums-Sha256:
+ 1855aaf1639466288588699ac69d8d9274d75ea1e4ae7e98dff7ffdded8ae680 2381 ruby-webmock_3.8.3-1.dsc
+ 1d5a057e012f0730793b86c28669966e7bc6bfda80c2d7ba179d773e689c49bf 120271 ruby-webmock_3.8.3.orig.tar.gz
+ 9fab5ee329d94ae5090a5fb845a66c82648e2293e4f1ef079576e9a953effc69 4852 ruby-webmock_3.8.3-1.debian.tar.xz
+Homepage: https://github.com/bblimke/webmock
+Package-List: 
+ ruby-webmock deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-webmock
+Priority: optional
+Section: misc

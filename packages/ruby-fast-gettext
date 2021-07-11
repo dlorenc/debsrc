@@ -1,0 +1,27 @@
+Package: ruby-fast-gettext
+Binary: ruby-fast-gettext
+Version: 2.0.3-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Borodaenko <angdraug@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, ruby-activerecord, ruby-i18n, ruby-rspec (>= 3), ruby-sqlite3
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8ecd991f28036086847ca7339b200728 2139 ruby-fast-gettext_2.0.3-1.dsc
+ c351b20357e01052f3a913bafa17d7a5 92262 ruby-fast-gettext_2.0.3.orig.tar.gz
+ 9f7b71da23cd99937e9581fdbb6242f8 7600 ruby-fast-gettext_2.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-fast-gettext
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-fast-gettext.git
+Checksums-Sha256:
+ d4989d832659db52d2abff18177dec3ef2229e8c2bf0c28ce78646d318e60471 2139 ruby-fast-gettext_2.0.3-1.dsc
+ 7a58cd52a57911987b50747e890d4f810f4b271173431646274e1cfe5f605c0a 92262 ruby-fast-gettext_2.0.3.orig.tar.gz
+ 0f7f8a54393f370fd372377c5c675362117524f1ef40c9681133fd714735dffd 7600 ruby-fast-gettext_2.0.3-1.debian.tar.xz
+Homepage: https://github.com/grosser/fast_gettext
+Package-List: 
+ ruby-fast-gettext deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-fast-gettext
+Priority: source
+Section: ruby

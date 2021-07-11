@@ -1,0 +1,27 @@
+Package: ruby-task-list
+Binary: ruby-task-list
+Version: 2.3.1-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, node-coffee-loader, ruby-github-markdown, ruby-html-pipeline, webpack (>= 4~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 72e1523b39af63446436db4b0a2eb409 2130 ruby-task-list_2.3.1-1.dsc
+ 84fd3e442263a14795e3f15507ccfa55 16674 ruby-task-list_2.3.1.orig.tar.gz
+ 901de26aaacffe3ed3660f9d5fe8b79b 3824 ruby-task-list_2.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-task-list
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-task-list.git
+Checksums-Sha256:
+ 5e99470af687a2e2c083c6021de742bd053f6140ef768880ffb7936295c2eaf8 2130 ruby-task-list_2.3.1-1.dsc
+ 438dad10263524133aa7f07a79374bcc43ca30773398fc552c7ac876b3f93d9c 16674 ruby-task-list_2.3.1.orig.tar.gz
+ 523d497a95a5dfad17a36832a16ca14652e9e746ecf6a411c379129c42454fea 3824 ruby-task-list_2.3.1-1.debian.tar.xz
+Homepage: https://github.com/deckar01/task_list
+Package-List: 
+ ruby-task-list deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-task-list
+Priority: optional
+Section: misc

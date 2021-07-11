@@ -1,0 +1,26 @@
+Package: socklog
+Binary: socklog, socklog-run
+Version: 2.1.0+repack-4
+Maintainer: Mathieu Mirmont <mat@parad0x.org>
+Uploaders: Gerrit Pape <pape@smarden.org>
+Build-Depends: debhelper-compat (= 13), dh-runit, dh-sysuser, doc-base
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2cbbcf75d20e70905778992a95b98fa1 1980 socklog_2.1.0+repack-4.dsc
+ 936848fc4531da3882ace2b9309fbac2 59796 socklog_2.1.0+repack.orig.tar.gz
+ c28e81ddb1e2ac43161f0bfe9f464372 11080 socklog_2.1.0+repack-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/socklog
+Vcs-Git: https://salsa.debian.org/debian/socklog.git
+Checksums-Sha256:
+ fec4b5b010f857f9c5dd0f866020874e9defaf28cd3de0f113911cf0dea4cf26 1980 socklog_2.1.0+repack-4.dsc
+ 80c0b73e6409b06748026dd3d26276fea29b78b1bd145a748e4a4c04cdf769f7 59796 socklog_2.1.0+repack.orig.tar.gz
+ 91925eb6565073aae940aa82d888069a5a76b5a3320ee3a714c0be8e7557eb45 11080 socklog_2.1.0+repack-4.debian.tar.xz
+Homepage: http://smarden.org/socklog
+Package-List: 
+ socklog deb admin optional arch=any
+ socklog-run deb admin optional arch=any
+Directory: pool/main/s/socklog
+Priority: source
+Section: admin

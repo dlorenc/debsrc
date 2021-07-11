@@ -1,0 +1,27 @@
+Package: php-log
+Binary: php-log
+Version: 1.13.2-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Guillaume Delacour <gui@iroqwa.org>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), php-db, php-pear, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4e182f6384a1a9fadd44960a379b0103 2037 php-log_1.13.2-1.dsc
+ c768bc1ec202f2c9968693756f7a325c 38408 php-log_1.13.2.orig.tar.xz
+ 33e74ecb5531682cec9929ec02edea0b 4164 php-log_1.13.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-log
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-log.git
+Checksums-Sha256:
+ 3c8ceadf857dd6bb305f0b1826a3a38505e32f96a94882c1ec1261a395b0c0f3 2037 php-log_1.13.2-1.dsc
+ d4e77d8632ce430e45ec176238bcde043a0c66069273509a3ac77364091d6d7c 38408 php-log_1.13.2.orig.tar.xz
+ 07b6050df493b07cef764e8bc8cb1a5ddb14e8e6b94e3497e076d6f957cc01b1 4164 php-log_1.13.2-1.debian.tar.xz
+Homepage: https://pear.php.net/package/Log/
+Package-List: 
+ php-log deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-db, php-pear
+Directory: pool/main/p/php-log
+Priority: source
+Section: php

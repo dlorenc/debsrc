@@ -1,0 +1,28 @@
+Package: libgit-annex-perl
+Binary: libgit-annex-perl
+Version: 0.007-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>,
+Build-Depends: debhelper-compat (= 12), dh-dist-zilla, libdist-zilla-plugin-git-perl, libdist-zilla-plugin-podweaver-perl
+Build-Depends-Indep: git-annex (>= 7.20191009) <!nocheck>, libcapture-tiny-perl, libdata-compare-perl, libdigest-md5-file-perl, libfile-chdir-perl, libfile-chmod-perl, libfile-slurp-perl, libgit-repository-perl, libgit-wrapper-perl, libipc-system-simple-perl, libscalar-list-utils-perl, libterm-readkey-perl, libtest-simple-perl, libtry-tiny-perl, perl (>= 5.28.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 486045e2716ee309b800129941fd40be 2647 libgit-annex-perl_0.007-1.dsc
+ 442b95b52c92facb790805b4e4f3c278 28192 libgit-annex-perl_0.007.orig.tar.xz
+ 7b673096676bded2d53dc1148c7c57c8 2120 libgit-annex-perl_0.007-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libgit-annex-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libgit-annex-perl.git
+Checksums-Sha256:
+ 33b59780e8b860117ae72815790a947b0fb73641b90c2d88b64f16100a7ba51d 2647 libgit-annex-perl_0.007-1.dsc
+ 2a4e1be801f11dfc85a8caf31cb55b6ffcb58dd51e8c66b13b3efcd609fa1f13 28192 libgit-annex-perl_0.007.orig.tar.xz
+ 3dbe43a5885a8b09d9fe12da671f76b27430f92ce9e4ed73d3b9c9b6a32c264b 2120 libgit-annex-perl_0.007-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Git-Annex
+Dgit: bc20335def3f166ca806c1175dd971b2953b18d7 debian archive/debian/0.007-1 https://git.dgit.debian.org/libgit-annex-perl
+Package-List: 
+ libgit-annex-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libg/libgit-annex-perl
+Priority: extra
+Section: misc

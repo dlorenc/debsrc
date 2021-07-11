@@ -1,0 +1,26 @@
+Package: node-livescript
+Binary: livescript
+Version: 1.6.1+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, help2man, jison, livescript, node-source-map-support
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 08475b43348f7c6855661e4cc0671b79 2117 node-livescript_1.6.1+dfsg-1.dsc
+ 2e01039796b714e0383e5d57c6130a21 119288 node-livescript_1.6.1+dfsg.orig.tar.xz
+ 43d2260f45ca7cd9a02640d42f89db9b 3620 node-livescript_1.6.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-livescript
+Vcs-Git: https://salsa.debian.org/js-team/node-livescript.git
+Checksums-Sha256:
+ e02491968a8fefbed716e71a36053e2f60de0d30871c893b4244d5a5549cd6e1 2117 node-livescript_1.6.1+dfsg-1.dsc
+ c05f13e154e93563c72066fa37b917d174624ce3bbdbceae357c7c544c6e9d72 119288 node-livescript_1.6.1+dfsg.orig.tar.xz
+ 5b78987a33a320f94748ae81ea744b7b0b3162bb7fb6ffdd5796e8daf220fdfd 3620 node-livescript_1.6.1+dfsg-1.debian.tar.xz
+Homepage: https://livescript.net
+Package-List: 
+ livescript deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-livescript
+Priority: optional
+Section: javascript

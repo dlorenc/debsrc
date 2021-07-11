@@ -1,0 +1,24 @@
+Package: rust-lzw
+Binary: librust-lzw-dev
+Version: 0.10.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 4f93bb464abf0781fa80cdb808ad508d 1999 rust-lzw_0.10.0-1.dsc
+ 2c98d6221607af72bff8540325d32a14 11075 rust-lzw_0.10.0.orig.tar.gz
+ 6496f14443bf8522b2351d951cdca5e1 2340 rust-lzw_0.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lzw
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/lzw]
+Checksums-Sha256:
+ 380de8c5371cca43964af6a56e3d240af185a118b810fd2041f5bf44176706de 1999 rust-lzw_0.10.0-1.dsc
+ d0ae42634770edf27766362593757544e052cdedfa0a31f91ffe4efb0ec85c61 11075 rust-lzw_0.10.0.orig.tar.gz
+ ce01e44e42f598e772ed6a37fe05ea71ef3f7efb05668a45298b1a0fc11242a2 2340 rust-lzw_0.10.0-1.debian.tar.xz
+Package-List: 
+ librust-lzw-dev deb rust optional arch=any
+Directory: pool/main/r/rust-lzw
+Priority: extra
+Section: misc

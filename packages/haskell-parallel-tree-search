@@ -1,0 +1,28 @@
+Package: haskell-parallel-tree-search
+Binary: libghc-parallel-tree-search-dev, libghc-parallel-tree-search-prof, libghc-parallel-tree-search-doc
+Version: 0.4.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Debian Curry Maintainers <pkg-curry-maintainers@lists.alioth.debian.org>,
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-parallel-dev, libghc-parallel-prof, libghc-tree-monad-dev (>= 0.3.1), libghc-tree-monad-prof (>= 0.3.1)
+Build-Depends-Indep: ghc-doc, libghc-parallel-doc, libghc-tree-monad-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9971d15b0985aa711013a9dc8a437352 2723 haskell-parallel-tree-search_0.4.2-1.dsc
+ b203793c4c79cc68fe72b7b6cc9bd455 1644 haskell-parallel-tree-search_0.4.2.orig.tar.gz
+ f3496ca6f8257e7824ad0fdb6193b90a 2440 haskell-parallel-tree-search_0.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-parallel-tree-search
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-parallel-tree-search]
+Checksums-Sha256:
+ 0002a53fe0e5fa895757947c290e42cc21a4e5a0240f93709c4e516ce769b264 2723 haskell-parallel-tree-search_0.4.2-1.dsc
+ 6dc98c7ab9874af1ceb7b4f32ce1b9be81350f4d35693ddaf07affd207ed2823 1644 haskell-parallel-tree-search_0.4.2.orig.tar.gz
+ 78175242a1fcb1e9d3048b94f77db4797bdd85302522f781b5387372c3cfe530 2440 haskell-parallel-tree-search_0.4.2-1.debian.tar.xz
+Homepage: https://github.com/nbun/parallel-tree-search/
+Package-List: 
+ libghc-parallel-tree-search-dev deb haskell optional arch=any
+ libghc-parallel-tree-search-doc deb doc optional arch=all
+ libghc-parallel-tree-search-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-parallel-tree-search
+Priority: optional
+Section: misc

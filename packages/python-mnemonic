@@ -1,0 +1,26 @@
+Package: python-mnemonic
+Binary: python3-mnemonic
+Version: 0.19-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Tristan Seligmann <mithrandi@debian.org>, Richard Ulrich <richi@paraeasy.ch>,
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pbkdf2, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 544083c2a2aa59d8361a4f33a4b788cd 1971 python-mnemonic_0.19-1.dsc
+ 7b86484dc606bf961c927ef3d98c8557 61592 python-mnemonic_0.19.orig.tar.gz
+ 0a744ec5f83f720563f7965029035c46 2676 python-mnemonic_0.19-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-mnemonic
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-mnemonic.git
+Checksums-Sha256:
+ cd8b66a9a7fceed9dc1dc52094490f98feddd8ce5e71346d0c80a0fe4f0ca0f1 1971 python-mnemonic_0.19-1.dsc
+ 4e37eb02b2cbd56a0079cabe58a6da93e60e3e4d6e757a586d9f23d96abea931 61592 python-mnemonic_0.19.orig.tar.gz
+ a9933f82ec03a16c6cbd8901300a1dc5ccaf3a890164d1cbfb8074dd6ef3c4a2 2676 python-mnemonic_0.19-1.debian.tar.xz
+Homepage: https://github.com/trezor/python-mnemonic
+Package-List: 
+ python3-mnemonic deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-mnemonic
+Priority: optional
+Section: misc

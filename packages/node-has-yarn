@@ -1,0 +1,26 @@
+Package: node-has-yarn
+Binary: node-has-yarn
+Version: 2.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Aarti Kashyap <kaarti.sr@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fc98cbf8c5fc4114d822b5250f458af4 2050 node-has-yarn_2.1.0-1.dsc
+ 6b49413fe65772b5da703ff813e3d704 3245 node-has-yarn_2.1.0.orig.tar.gz
+ 80ec466171ec918fd5a49e8d6d28ed58 2800 node-has-yarn_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-has-yarn
+Vcs-Git: https://salsa.debian.org/js-team/node-has-yarn.git
+Checksums-Sha256:
+ ec77fe0f510a44f8b12c1fa85b61d41a3a18cd27084c535c4fa1e05aaf93632a 2050 node-has-yarn_2.1.0-1.dsc
+ 014aea4005f7708d4c33cc07107135deb0124f2e19554f474ab3db63e208ac07 3245 node-has-yarn_2.1.0.orig.tar.gz
+ f6964bbb08d00c789a259482d45b9ec4cb6a6a51d771183558e1fea4e79f54b7 2800 node-has-yarn_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/has-yarn
+Package-List: 
+ node-has-yarn deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-has-yarn
+Priority: optional
+Section: javascript

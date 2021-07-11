@@ -1,0 +1,33 @@
+Package: kemoticons
+Binary: libkf5emoticons-bin, libkf5emoticons-data, libkf5emoticons-dev, libkf5emoticons-doc, libkf5emoticons5
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Diane Trout <diane@ghic.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), graphviz, libkf5archive-dev (>= 5.78.0~), libkf5config-dev (>= 5.78.0~), libkf5coreaddons-dev (>= 5.78.0~), libkf5service-dev (>= 5.78.0~), libqt5sql5-sqlite, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qttools5-dev, qttools5-dev-tools (>= 5.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b4ba6034787d433a2624a5109797712b 2627 kemoticons_5.78.0-2.dsc
+ caf891f23e1e0f973e7b83adcf951863 1697856 kemoticons_5.78.0.orig.tar.xz
+ 586596598173c0e16c7d3a64ff61e67c 488 kemoticons_5.78.0.orig.tar.xz.asc
+ 311f0400db825d59236eaf3a0febdb02 11360 kemoticons_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kemoticons
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kemoticons.git
+Checksums-Sha256:
+ d7e9529b5388a7cba041f1e045f0158efbc707ba1dece9918e25afcc5616e6f4 2627 kemoticons_5.78.0-2.dsc
+ 753c5c315a93174f3ce24bd8318bc7c1c0db813fba1e19ea6563be58ac805491 1697856 kemoticons_5.78.0.orig.tar.xz
+ bf629dcf3c8b7793bb7ed393c20bf1780867c84b9c2b3bed663221e515efb1b0 488 kemoticons_5.78.0.orig.tar.xz.asc
+ 966d99e7e0853c578ad3021fc5d0c2d77bbf14369a79f35940792aee738c0b1a 11360 kemoticons_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kemoticons
+Package-List: 
+ libkf5emoticons-bin deb libs optional arch=any
+ libkf5emoticons-data deb libs optional arch=all
+ libkf5emoticons-dev deb libdevel optional arch=any
+ libkf5emoticons-doc deb doc optional arch=all
+ libkf5emoticons5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/k/kemoticons
+Priority: optional
+Section: misc

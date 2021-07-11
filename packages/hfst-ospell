@@ -1,0 +1,27 @@
+Package: hfst-ospell
+Binary: hfst-ospell, libhfstospell11, hfst-ospell-dev
+Version: 0.5.2-1
+Maintainer: Debian Science Team <debian-science-maintainers@alioth-lists.debian.net>
+Uploaders: Tino Didriksen <tino@didriksen.cc>, Kartik Mistry <kartik@debian.org>
+Build-Depends: autoconf, debhelper-compat (= 13), libarchive-dev, libicu-dev, pkg-config, zip
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b8e68697f4ca98fc163e3209650da20f 2171 hfst-ospell_0.5.2-1.dsc
+ 6b31bcaf55160df8acf7d9940a8ed57a 122884 hfst-ospell_0.5.2.orig.tar.bz2
+ 849077601bc18b729186430761b6c3ce 3100 hfst-ospell_0.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/hfst-ospell
+Vcs-Git: https://salsa.debian.org/science-team/hfst-ospell.git
+Checksums-Sha256:
+ bb3f85130a24a4166cefcceb344b16c60bdf826c3e56ae54e79cc36cc636487f 2171 hfst-ospell_0.5.2-1.dsc
+ ab9ccf3c2165c0efd8dd514e0bf9116e86a8a079d712c0ed6c2fabf0052e9aa4 122884 hfst-ospell_0.5.2.orig.tar.bz2
+ 74e8358fcd164ed027f9cf3b12a3132231696cafaa59663e8dae0ecb5affc6e2 3100 hfst-ospell_0.5.2-1.debian.tar.xz
+Homepage: https://github.com/hfst/hfst-ospell
+Package-List: 
+ hfst-ospell deb science optional arch=any
+ hfst-ospell-dev deb devel optional arch=any
+ libhfstospell11 deb libs optional arch=any
+Directory: pool/main/h/hfst-ospell
+Priority: optional
+Section: misc

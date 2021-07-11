@@ -1,0 +1,23 @@
+Package: librpcsecgss
+Binary: librpcsecgss-dev, librpcsecgss3
+Version: 0.19-7
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Build-Depends: dpkg-dev (>= 1.16.1~), debhelper (>= 9), dh-autoreconf, pkg-config, chrpath, libkrb5-dev, libgssglue-dev
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 4b3febd365f2c2ab0aefa6c40bb497af 1904 librpcsecgss_0.19-7.dsc
+ 137a198324ea26d4382d57b5dfbb8e14 269024 librpcsecgss_0.19.orig.tar.bz2
+ 89c4698697968552c558ff68549a8ce4 7332 librpcsecgss_0.19-7.debian.tar.xz
+Checksums-Sha256:
+ 75b76421ba995b03b3f865949d469ef677636565456884053b960de24ba5cb66 1904 librpcsecgss_0.19-7.dsc
+ 1db3f78078e81e1163a8d1a7a09b7dfed4ccad6e697f5f28282c8b47e67d7c95 269024 librpcsecgss_0.19.orig.tar.bz2
+ 0066dfc16a7dbf05fae16d8e17354b30fc5ff929070202b4f70ba50ca3281311 7332 librpcsecgss_0.19-7.debian.tar.xz
+Homepage: http://www.citi.umich.edu/projects/nfsv4/linux/
+Package-List: 
+ librpcsecgss-dev deb libdevel optional arch=any
+ librpcsecgss3 deb libs standard arch=any
+Directory: pool/main/libr/librpcsecgss
+Priority: source
+Section: libs

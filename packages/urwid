@@ -1,0 +1,27 @@
+Package: urwid
+Binary: python3-urwid, python-urwid-doc
+Version: 2.1.2-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ian Ward <ian@excess.org>
+Build-Depends: debhelper-compat (= 13), dh-python, locales-all, python3-twisted, python3-all-dev (>= 3.4), python3-setuptools, python3-sphinx
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 83ef4038a7410171d53afa88457af9e3 2075 urwid_2.1.2-1.dsc
+ f7f4e6bed9ba38965dbd619520f39287 634621 urwid_2.1.2.orig.tar.gz
+ 1136dad05c5806bd518f6f679c58d4ba 6248 urwid_2.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/urwid
+Vcs-Git: https://salsa.debian.org/python-team/packages/urwid.git
+Checksums-Sha256:
+ 0e4ffb32d6e6f8d716400e424da22bdd59903c13a1c907c070a9b57533e8185d 2075 urwid_2.1.2-1.dsc
+ 588bee9c1cb208d0906a9f73c613d2bd32c3ed3702012f51efe318a3f2127eae 634621 urwid_2.1.2.orig.tar.gz
+ 7eab345dbaec304b1c47936040010a2d0fb2e81f7b5a36cfac900c1e6a92e01d 6248 urwid_2.1.2-1.debian.tar.xz
+Homepage: http://urwid.org/
+Package-List: 
+ python-urwid-doc deb doc optional arch=all
+ python3-urwid deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/u/urwid
+Priority: source
+Section: python

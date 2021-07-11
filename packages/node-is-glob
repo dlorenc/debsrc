@@ -1,0 +1,26 @@
+Package: node-is-glob
+Binary: node-is-glob
+Version: 4.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-is-extglob <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 762aae76dd77c862403b9690428f2e3a 2060 node-is-glob_4.0.1-1.dsc
+ 0b84043833e38d4d0d8071c6ea36022c 7848 node-is-glob_4.0.1.orig.tar.gz
+ 4eaded7305f3d638a160c1665c384711 2464 node-is-glob_4.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-glob
+Vcs-Git: https://salsa.debian.org/js-team/node-is-glob.git
+Checksums-Sha256:
+ 00685206cfc5e7c091a9b95ef757b85770ad0a600b60449564a89a5bbcb1fdb1 2060 node-is-glob_4.0.1-1.dsc
+ c04faf637631812a6610fb3d321eb7627cb088c9e805d57d611543a947a4faa3 7848 node-is-glob_4.0.1.orig.tar.gz
+ 8fecbbb0d5aed5368524359b688f0fd8ba7cacca1dae06883e5c9b24b5ca0a25 2464 node-is-glob_4.0.1-1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/is-glob
+Package-List: 
+ node-is-glob deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-is-glob
+Priority: optional
+Section: javascript

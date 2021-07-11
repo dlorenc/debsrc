@@ -1,0 +1,27 @@
+Package: node-lexical-scope
+Binary: node-lexical-scope
+Version: 1.2.0+dfsg1-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs (>= 6), node-astw (>= 2.0.0) <!nocheck>, node-brfs (>= 0.0.3) <!nocheck>, node-tape (>= 2.4.1) <!nocheck>, node-tap (>= 10) <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 4445593c8e538d7d0510c85c92205c21 2313 node-lexical-scope_1.2.0+dfsg1-3.dsc
+ 59a0de73f7b4b81e779880bf320a5343 5608 node-lexical-scope_1.2.0+dfsg1.orig.tar.gz
+ 6972e79924c2ab8ec646d14cc2a6a053 2908 node-lexical-scope_1.2.0+dfsg1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-lexical-scope
+Vcs-Git: https://salsa.debian.org/js-team/node-lexical-scope.git
+Checksums-Sha256:
+ 1e674e91f4044883f57e70f54c340e4b6a36dff094ec5cc30d493034e55589b7 2313 node-lexical-scope_1.2.0+dfsg1-3.dsc
+ a0651ac31db90fad47c195fea5130e903e4d3175dd581633a1dcd8259bb5d8f6 5608 node-lexical-scope_1.2.0+dfsg1.orig.tar.gz
+ 2de4ba37b09632ba2903e4b265c16f449ae3085ed207b4e7952ae69ca4c72395 2908 node-lexical-scope_1.2.0+dfsg1-3.debian.tar.xz
+Homepage: https://github.com/substack/lexical-scope
+Package-List: 
+ node-lexical-scope deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-brfs, node-tap, node-tape, nodejs
+Directory: pool/main/n/node-lexical-scope
+Priority: extra
+Section: misc

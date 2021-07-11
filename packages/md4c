@@ -1,0 +1,28 @@
+Package: md4c
+Binary: libmd4c-dev, libmd4c0, libmd4c-html0-dev, libmd4c-html0
+Version: 0.4.7-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Patrick Franz <patfra71@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), pkg-kde-tools
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 27336a729e594f166b3e18ee3f7436a9 2176 md4c_0.4.7-2.dsc
+ 9ff0e4f604a9ee89974ce8b3eb31a79f 228223 md4c_0.4.7.orig.tar.gz
+ b80754103920cc7d969da1ece68cbb78 10488 md4c_0.4.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/3rdparty/md4c
+Vcs-Git: https://salsa.debian.org/qt-kde-team/3rdparty/md4c.git
+Checksums-Sha256:
+ ec8a539fae9ffb5327df161c30f96c5bf69804279a8a232654ec7781ec809da3 2176 md4c_0.4.7-2.dsc
+ f1b12d7aeb64fcbc7092c832e1a8b137102fec168961c87222fa599aedc19035 228223 md4c_0.4.7.orig.tar.gz
+ fc72f81ee9aef4c6c1d93a3441dfd2d23bf3f6edc8aba51d62cf882388fa29ae 10488 md4c_0.4.7-2.debian.tar.xz
+Homepage: https://github.com/mity/md4c
+Package-List: 
+ libmd4c-dev deb libdevel optional arch=any
+ libmd4c-html0 deb libs optional arch=any
+ libmd4c-html0-dev deb libdevel optional arch=any
+ libmd4c0 deb libs optional arch=any
+Directory: pool/main/m/md4c
+Priority: extra
+Section: misc

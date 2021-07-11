@@ -1,0 +1,26 @@
+Package: pypass
+Binary: pypass, python3-pypass
+Version: 0.2.1-1.1
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-click, python3-colorama, python3-pbr, python3-pexpect, python3-setuptools
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 1022f1b8be298cfbdb4caefd2a740e31 2107 pypass_0.2.1-1.1.dsc
+ 723079e8c2112ea80d61d3a8d9ca9bcb 34101 pypass_0.2.1.orig.tar.gz
+ e71b3a596259e71ae3ade205544e5b97 2132 pypass_0.2.1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/pypass
+Vcs-Git: https://salsa.debian.org/python-team/applications/pypass.git
+Checksums-Sha256:
+ d1db7a0b889e1387dfcbf6d7a23f20dba4329d1f4c27953db17197251b11a816 2107 pypass_0.2.1-1.1.dsc
+ f9d0108ae7e950b754dbaa2be04283a9acd06ce6631916e123ff9d768faca4da 34101 pypass_0.2.1.orig.tar.gz
+ 5f26954897b2b633a2f41ed57ff8eb64c4995498091a77ab55d5023d1004be7b 2132 pypass_0.2.1-1.1.debian.tar.xz
+Homepage: https://github.com/aviau/python-pass
+Package-List: 
+ pypass deb admin optional arch=all
+ python3-pypass deb python optional arch=all
+Directory: pool/main/p/pypass
+Priority: optional
+Section: misc

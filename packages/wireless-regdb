@@ -1,0 +1,26 @@
+Package: wireless-regdb
+Binary: wireless-regdb, wireless-regdb-udeb
+Version: 2020.04.29-2
+Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
+Uploaders: Ben Hutchings <benh@debian.org>, Romain Perier <romain.perier@gmail.com>
+Build-Depends: debhelper-compat (= 12), openssl, python3, python3-m2crypto, quilt
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 87229d80e1d2535e14e24b6c6e392095 2196 wireless-regdb_2020.04.29-2.dsc
+ 4c8499d5229f9f4bcb2ba036195efc3e 28723 wireless-regdb_2020.04.29.orig.tar.gz
+ 98323949a5452670bfec22c7e868d39b 17844 wireless-regdb_2020.04.29-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/kernel-team/wireless-regdb
+Vcs-Git: https://salsa.debian.org/kernel-team/wireless-regdb.git
+Checksums-Sha256:
+ c70523405ad8598f7d2bd47b0cd913e80869a2cfeb92130d9a6bddcd0dc1250b 2196 wireless-regdb_2020.04.29-2.dsc
+ 4c79d1fa1b7f424cdf6a76ff3ed06a20bc3d94f391685046ba4d68b149d43fb8 28723 wireless-regdb_2020.04.29.orig.tar.gz
+ 107835526785b911d58e9ffb481fda8517f8164caa0553b10f38d2b2ef561e8a 17844 wireless-regdb_2020.04.29-2.debian.tar.xz
+Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb
+Package-List: 
+ wireless-regdb deb net optional arch=all
+ wireless-regdb-udeb udeb debian-installer optional arch=all
+Directory: pool/main/w/wireless-regdb
+Priority: source
+Section: net

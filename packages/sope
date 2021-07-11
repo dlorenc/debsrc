@@ -1,0 +1,27 @@
+Package: sope
+Binary: libsope1, libsope-dev, sope-bin
+Version: 5.0.1-2
+Maintainer: Debian SOGo Maintainers <pkg-sogo-maintainers@lists.alioth.debian.org>
+Uploaders: Jeroen Dekkers <jeroen@dekkers.ch>, Jordi Mallach <jordi@debian.org>
+Build-Depends: debhelper-compat (= 13), gnustep-make, gobjc, libgnustep-base-dev, libxml2-dev, libldap2-dev, libpq-dev, libssl-dev, default-libmysqlclient-dev, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9e6d840708173fa051fc99dc21b64f07 2136 sope_5.0.1-2.dsc
+ 0458dd8f4be1c50ec8ee5f6ea6f49c13 2293600 sope_5.0.1.orig.tar.gz
+ 22a42a845c078a275a01fba23b252d00 6396 sope_5.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sope
+Vcs-Git: https://salsa.debian.org/debian/sope.git
+Checksums-Sha256:
+ 8c06c5e013c5dbe8e35de68164e10aa6bc5bfb95c08c369b254fe8747a75e05f 2136 sope_5.0.1-2.dsc
+ 07f3158719b5f5da0f742238cac6d4adda2ce9e6bf1631b9c710a3a2a865a00b 2293600 sope_5.0.1.orig.tar.gz
+ f5f725c9a8280243ebb0c33c63af14654a22ed89e3f578c92b085664dbcbe7ce 6396 sope_5.0.1-2.debian.tar.xz
+Homepage: https://sogo.nu/
+Package-List: 
+ libsope-dev deb libdevel optional arch=any
+ libsope1 deb libs optional arch=any
+ sope-bin deb utils optional arch=any
+Directory: pool/main/s/sope
+Priority: source
+Section: libs

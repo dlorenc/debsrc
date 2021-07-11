@@ -1,0 +1,27 @@
+Package: rust-ppv-lite86
+Binary: librust-ppv-lite86-dev, librust-ppv-lite86+default-dev
+Version: 0.2.6-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e898fc6a988bfad741050d7e55a370fa 2062 rust-ppv-lite86_0.2.6-2.dsc
+ 7c4bfd315ee9de1c1b2f2d56163567cf 20522 rust-ppv-lite86_0.2.6.orig.tar.gz
+ b4781162a123f8cd19f555a4d9fefe72 3096 rust-ppv-lite86_0.2.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ppv-lite86
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ppv-lite86]
+Checksums-Sha256:
+ 7cb602086339f99ef5cde136a69dfb6eb1db4998beed153a89961bd8efed3bf0 2062 rust-ppv-lite86_0.2.6-2.dsc
+ 74490b50b9fbe561ac330df47c08f3f33073d2d00c150f719147d7c54522fa1b 20522 rust-ppv-lite86_0.2.6.orig.tar.gz
+ 94ce58a0b0e8735880b410047bde9d9bdd6851b85c253b3ba8804ba60ecde182 3096 rust-ppv-lite86_0.2.6-2.debian.tar.xz
+Package-List: 
+ librust-ppv-lite86+default-dev deb rust optional arch=any
+ librust-ppv-lite86-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-ppv-lite86
+Priority: extra
+Section: misc

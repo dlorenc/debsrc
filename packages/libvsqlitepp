@@ -1,0 +1,26 @@
+Package: libvsqlitepp
+Binary: libvsqlitepp3v5, libvsqlitepp-dev, libvsqlitepp-doc
+Version: 0.3.13-4.1
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, perl, rdfind, symlinks, doxygen, graphviz, libboost-dev, libsqlite3-dev
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 6f8a6c63fc0917a1640bd34caef24683 2130 libvsqlitepp_0.3.13-4.1.dsc
+ 4057fc607ce20cadff60976f706a6dfd 28195 libvsqlitepp_0.3.13.orig.tar.gz
+ dea05cd35177ca0eec3b8747b2402f07 3756 libvsqlitepp_0.3.13-4.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/libvsqlitepp.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/libvsqlitepp.git
+Checksums-Sha256:
+ 428a946887a343488967f67988283629f9295a0f09b502aa95547c9c17406e6d 2130 libvsqlitepp_0.3.13-4.1.dsc
+ 73dea3c0b4b7769254da17182efbf9fc16893c50ed0d544abfdde127b69467d5 28195 libvsqlitepp_0.3.13.orig.tar.gz
+ 0e40f37423ec8497ca3b4ee2546e00903c47ad19eaaa855b5711adc04969edde 3756 libvsqlitepp_0.3.13-4.1.debian.tar.xz
+Homepage: https://github.com/vinzenz/vsqlite--
+Package-List: 
+ libvsqlitepp-dev deb libdevel optional arch=any
+ libvsqlitepp-doc deb doc optional arch=all
+ libvsqlitepp3v5 deb libs optional arch=any
+Directory: pool/main/libv/libvsqlitepp
+Priority: optional
+Section: misc

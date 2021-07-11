@@ -1,0 +1,26 @@
+Package: rust-libgpg-error-sys
+Binary: librust-libgpg-error-sys-dev
+Version: 0.5.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Alexander Kjäll <alexander.kjall@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, libgpg-error-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ba7094eec89418879c6caf9eded635f3 2282 rust-libgpg-error-sys_0.5.1-2.dsc
+ 2adf60184e7927d4d979bdcabad5d2fa 16100 rust-libgpg-error-sys_0.5.1.orig.tar.gz
+ b9c762e707090aa03a692fe80cacf83f 2092 rust-libgpg-error-sys_0.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libgpg-error-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/libgpg-error-sys]
+Checksums-Sha256:
+ 8292d725c30eeef262edda25913cce81a4aeab64778602d49b4960e165dbe7d3 2282 rust-libgpg-error-sys_0.5.1-2.dsc
+ 9a1088124ffd50d800fa4daa9854a1ce6fbaa4b9cc953ee571c6b3cc27e5928f 16100 rust-libgpg-error-sys_0.5.1.orig.tar.gz
+ 9cb3e3c62f45a1c338d47a4c9e31cc6bc05a7020bc98e975b6857619d8ee1f4e 2092 rust-libgpg-error-sys_0.5.1-2.debian.tar.xz
+Package-List: 
+ librust-libgpg-error-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-libgpg-error-sys
+Priority: extra
+Section: misc

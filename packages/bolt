@@ -1,0 +1,28 @@
+Package: bolt
+Binary: bolt, bolt-tests
+Version: 0.9.1-1
+Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>
+Build-Depends: asciidoc-base <!nodoc>, debhelper-compat (= 12), docbook-xml <!nodoc>, libglib2.0-dev (>= 2.56), libpolkit-gobject-1-dev, libudev-dev, libumockdev-dev, libxml2-utils <!nodoc>, meson (>= 0.44.0), python3-dbus <!nocheck>, python3-dbusmock <!nocheck>, python3-gi <!nocheck>, systemd, udev, umockdev <!nocheck>, xmlto <!nodoc>, xsltproc <!nodoc>
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 4acc108fefdfc2c7abcbe3616fb4ae4f 2406 bolt_0.9.1-1.dsc
+ 0d9d7fe38158152e3bc31cf9d7805bef 250978 bolt_0.9.1.orig.tar.gz
+ 33b50f29c47940a46f6d3477413323b4 3932 bolt_0.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freedesktop-team/bolt
+Vcs-Git: https://salsa.debian.org/freedesktop-team/bolt.git
+Checksums-Sha256:
+ c6fb8fb001c2e30a1f6da14aee51776b2f8ffe7f8cd139314eddbd7b4aa39aea 2406 bolt_0.9.1-1.dsc
+ f938db68df79d0ada135a055fd01204f6f3436e17e962dfb8dc6699de77e1895 250978 bolt_0.9.1.orig.tar.gz
+ cb9e8a364168fe7ea47c57c0e84ec92752c7c268c88d41624da899f3654a2a19 3932 bolt_0.9.1-1.debian.tar.xz
+Homepage: https://gitlab.freedesktop.org/bolt/bolt
+Package-List: 
+ bolt deb admin optional arch=linux-any
+ bolt-tests deb admin optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dpkg-dev, gir1.2-umockdev-1.0, python3-dbus, python3-dbusmock, python3-gi, umockdev
+Directory: pool/main/b/bolt
+Priority: extra
+Section: misc

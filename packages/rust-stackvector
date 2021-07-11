@@ -1,0 +1,24 @@
+Package: rust-stackvector
+Binary: librust-stackvector-dev
+Version: 1.0.6-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-rustc-version-0.2+default-dev <!nocheck>, librust-unreachable-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ a23e1b89845ed0292532c30eb1a7d17b 2205 rust-stackvector_1.0.6-3.dsc
+ c8c3bd847acda7da862fa205c937b78d 15725 rust-stackvector_1.0.6.orig.tar.gz
+ 2384fdcfad0b4858c8c2540dafc87720 3244 rust-stackvector_1.0.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/stackvector
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/stackvector]
+Checksums-Sha256:
+ 223e332d86451a415d64dcd979ffc27cb6552c467466ffa0a158797be565972c 2205 rust-stackvector_1.0.6-3.dsc
+ 1c4725650978235083241fab0fdc8e694c3de37821524e7534a1a9061d1068af 15725 rust-stackvector_1.0.6.orig.tar.gz
+ 329eff733f61ba4cc9db41abdd654e63a6c5bc7c22326709ab277152c1185581 3244 rust-stackvector_1.0.6-3.debian.tar.xz
+Package-List: 
+ librust-stackvector-dev deb rust optional arch=any
+Directory: pool/main/r/rust-stackvector
+Priority: extra
+Section: misc

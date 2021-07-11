@@ -1,0 +1,26 @@
+Package: swtchart
+Binary: libswtchart-java, libswtchart-java-doc
+Version: 0.10.0-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Jakub Adam <jakub.adam@ktknet.cz>
+Build-Depends: debhelper-compat (= 13), javahelper, default-jdk, ant, libswt-gtk-4-java, libeclipse-jface-java, libeclipse-core-commands-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5a25d70ddfb928dd1682d1f72c06b6ba 2120 swtchart_0.10.0-4.dsc
+ b2c283b8596b41304b46aef5d6522eff 78039 swtchart_0.10.0.orig.tar.gz
+ 26dcf5847e2f6594eb614b14c5343384 7092 swtchart_0.10.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/swtchart
+Vcs-Git: https://salsa.debian.org/java-team/swtchart.git
+Checksums-Sha256:
+ faabed033c64b3c61951b4d4145f85d4ac88b8e1ba64844c16b588efa8aaf88e 2120 swtchart_0.10.0-4.dsc
+ aa3f6b9443a1a272153b3b26c922bb8a1e0854b365ac9756a944ba073d237dfb 78039 swtchart_0.10.0.orig.tar.gz
+ bcdec85327c53795ff7afadb8c80a49e477c5a808a36bc05a2224f35d10858e8 7092 swtchart_0.10.0-4.debian.tar.xz
+Homepage: http://www.swtchart.org
+Package-List: 
+ libswtchart-java deb java optional arch=all
+ libswtchart-java-doc deb doc optional arch=all
+Directory: pool/main/s/swtchart
+Priority: source
+Section: java

@@ -1,0 +1,28 @@
+Package: djangorestframework-gis
+Binary: python3-djangorestframework-gis
+Version: 0.16-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, libsqlite3-mod-spatialite, python3-all, python3-django-filters, python3-djangorestframework (>= 3.0.4), python3-gdal, python3-setuptools, python3-six
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dd2d3662c8c0fbb917dbb394fccd02ab 2266 djangorestframework-gis_0.16-1.dsc
+ 2c17996e0cfbcb9481486cac60e99f19 43503 djangorestframework-gis_0.16.orig.tar.gz
+ 044f5fefb6d2e9504d889221c61510aa 488 djangorestframework-gis_0.16.orig.tar.gz.asc
+ 88ffab58ea52a71eb09f66ab5c21e804 9380 djangorestframework-gis_0.16-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/djangorestframework-gis
+Vcs-Git: https://salsa.debian.org/python-team/packages/djangorestframework-gis.git
+Checksums-Sha256:
+ 3367bc42db04c4e378b9315234fcebacf3dea18fd6f95742165be732956d44a9 2266 djangorestframework-gis_0.16-1.dsc
+ 19a873740bcdac5c963779a1755d0d4acf96c4f5b63915d452f4b866d50f77d7 43503 djangorestframework-gis_0.16.orig.tar.gz
+ bd8ffc6d3f564c5d75cd521977eae7fc72301b3eb2255e39313264644f62ea22 488 djangorestframework-gis_0.16.orig.tar.gz.asc
+ f72b4ca959d3b7fcfebd7c05180bec4f919926ec3d231a6567017f0702336bf5 9380 djangorestframework-gis_0.16-1.debian.tar.xz
+Homepage: https://github.com/djangonauts/django-rest-framework-gis
+Package-List: 
+ python3-djangorestframework-gis deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/d/djangorestframework-gis
+Priority: optional
+Section: misc

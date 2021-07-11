@@ -1,0 +1,28 @@
+Package: ruby-hikidoc
+Binary: ruby-hikidoc
+Version: 0.1.0-2.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>, Caitlin Matos <caitlin.matos@zoho.com>
+Build-Depends: debhelper (>= 9), gem2deb (>= 0.9), help2man, nkf
+Architecture: all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 934894dda2770f44b96dd072555a2a6a 2197 ruby-hikidoc_0.1.0-2.1.dsc
+ 7206804391a11177f962c25a5bb92a39 18936 ruby-hikidoc_0.1.0.orig.tar.gz
+ d470ecca207f1327a5200728e56ece02 6676 ruby-hikidoc_0.1.0-2.1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/ruby-hikidoc.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-hikidoc.git
+Checksums-Sha256:
+ 54d406350dc56f7d02b7dd466141a687c5e378f29aa3cd656678abdbd4eca34c 2197 ruby-hikidoc_0.1.0-2.1.dsc
+ 49c6d0387ebaff3f7e41369e79f712ae047c5d8159f23c39d9117b1d48108807 18936 ruby-hikidoc_0.1.0.orig.tar.gz
+ fbcce319c842f29c068bbe2a99c9bc567650ede1738ce3d9e742203a1fc30261 6676 ruby-hikidoc_0.1.0-2.1.debian.tar.xz
+Homepage: https://github.com/hiki/hikidoc
+Package-List: 
+ ruby-hikidoc deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner, quilt, ruby-addressable, ruby-fakeweb
+Directory: pool/main/r/ruby-hikidoc
+Priority: source
+Section: ruby

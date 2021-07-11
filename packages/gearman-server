@@ -1,0 +1,27 @@
+Package: gearman-server
+Binary: gearman-server
+Version: 1.130.1-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonathan Yu <jawnsy@cpan.org>, gregor herrmann <gregoa@debian.org>, Nick Morrott <knowledgejunkie@gmail.com>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl, libgearman-client-perl, libdanga-socket-perl, libtest-script-perl (>= 1.12)
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ a2da9752d44f5dc8b54c82862f30428e 2341 gearman-server_1.130.1-1.dsc
+ d303daf27e020d9fef880dc5a50bc910 17585 gearman-server_1.130.1.orig.tar.gz
+ bcc88ef630e853cf4d2bd6abec1ca848 4212 gearman-server_1.130.1-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/gearman-server.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/gearman-server.git
+Checksums-Sha256:
+ ecc5e99521a6cea140b7c67ba07ea8f8df67e2c1e155a869ac2b49d3d9eb806a 2341 gearman-server_1.130.1-1.dsc
+ be1b6f5a3eef125a44e5daf2bfdf05d4f1b4161badc7dc82bcc84b8c8231535e 17585 gearman-server_1.130.1.orig.tar.gz
+ 548260e4b03aaaaaf862acadaa9ef6c118e009e2dcfa11c0f188831fb999123d 4212 gearman-server_1.130.1-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Gearman-Server
+Package-List: 
+ gearman-server deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/g/gearman-server
+Priority: source
+Section: perl

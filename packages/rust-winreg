@@ -1,0 +1,27 @@
+Package: rust-winreg
+Binary: librust-winreg-dev, librust-winreg+serde-dev, librust-winreg+serialization-serde-dev, librust-winreg+transactions-dev
+Version: 0.6.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>, librust-winapi-0.3+winnt-dev <!nocheck>, librust-winapi-0.3+winreg-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 14cd8036f146c6c3c25e43b08af46c8c 2564 rust-winreg_0.6.0-1.dsc
+ 448a52d21aa942ce2f146425dd810b17 18499 rust-winreg_0.6.0.orig.tar.gz
+ 1a13e3b36deb6125f49046c41af440da 2932 rust-winreg_0.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/winreg
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/winreg]
+Checksums-Sha256:
+ 97502e8ba83fc30114224ae76749e6d0ebc43818b734ca4354663e0ebb5803d2 2564 rust-winreg_0.6.0-1.dsc
+ daf67b95d0b1bf421c4f11048d63110ca3719977169eec86396b614c8942b6e0 18499 rust-winreg_0.6.0.orig.tar.gz
+ a353a92c8b1e93df1f04096533336919f7f07864288aa676a4ad08cbe1be5f35 2932 rust-winreg_0.6.0-1.debian.tar.xz
+Package-List: 
+ librust-winreg+serde-dev deb rust optional arch=any
+ librust-winreg+serialization-serde-dev deb rust optional arch=any
+ librust-winreg+transactions-dev deb rust optional arch=any
+ librust-winreg-dev deb rust optional arch=any
+Directory: pool/main/r/rust-winreg
+Priority: extra
+Section: misc

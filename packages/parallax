@@ -1,0 +1,27 @@
+Package: parallax
+Binary: python3-parallax
+Version: 1.0.6-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Valentin Vidic <vvidic@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0ea477b1c7ee6c91f7ef29fcdbf20ea9 2063 parallax_1.0.6-3.dsc
+ e312397b083426af84db7076dc2a28d7 17371 parallax_1.0.6.orig.tar.gz
+ 8f17cf2a5083f262be9972f7669776d5 4944 parallax_1.0.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/parallax
+Vcs-Git: https://salsa.debian.org/python-team/packages/parallax.git
+Checksums-Sha256:
+ 5b158573f19a612c1a22ff6975e4b01897294858258093564031c3c58581efbb 2063 parallax_1.0.6-3.dsc
+ c16703202ff67aed4740c0727df304abe9f3e7851e653533b24de21b338d9081 17371 parallax_1.0.6.orig.tar.gz
+ a2466897355be14c78627f6f42e1dec2c58a0e09554c02ef624291bcb4239136 4944 parallax_1.0.6-3.debian.tar.xz
+Homepage: https://github.com/krig/parallax/
+Package-List: 
+ python3-parallax deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: adduser, openssh-server
+Directory: pool/main/p/parallax
+Priority: optional
+Section: misc

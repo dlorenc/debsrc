@@ -1,0 +1,28 @@
+Package: dssi
+Binary: dssi-dev, dssi-utils, dssi-host-jack, dssi-example-plugins
+Version: 1.1.1~dfsg0-5
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Alessio Treglia <alessio@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>, Ross Gammon <rossgammon@debian.org>
+Build-Depends: debhelper-compat (= 12), ladspa-sdk, libjack-dev, liblo-dev, libasound2-dev [linux-any], libdssialsacompat-dev [!linux-any], libx11-dev, libsndfile1-dev, libsm-dev, libsamplerate0-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 15f39571b471a990c00b1d96a11640e6 2346 dssi_1.1.1~dfsg0-5.dsc
+ 301bca755e7c989b8b77d2ea2060eedf 433972 dssi_1.1.1~dfsg0.orig.tar.gz
+ 2b7422e4e8f71409c18688b6c4b4d458 5256 dssi_1.1.1~dfsg0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/dssi
+Vcs-Git: https://salsa.debian.org/multimedia-team/dssi.git
+Checksums-Sha256:
+ a6eb68cf69ea4e5744f2756c172953024599823c2ea1736baf0e886046011ae8 2346 dssi_1.1.1~dfsg0-5.dsc
+ fdfaf9ae8a6eb4dda2b33b488c333964cb5c1391fc2fc8d77f11fbe242c924a3 433972 dssi_1.1.1~dfsg0.orig.tar.gz
+ 855104a3547a38244bd73ed3021ea93ec3431807f9d6390363f641168c3bcaf7 5256 dssi_1.1.1~dfsg0-5.debian.tar.xz
+Homepage: http://dssi.sourceforge.net/
+Package-List: 
+ dssi-dev deb libdevel optional arch=any
+ dssi-example-plugins deb sound optional arch=any
+ dssi-host-jack deb sound optional arch=any
+ dssi-utils deb sound optional arch=any
+Directory: pool/main/d/dssi
+Priority: source
+Section: libdevel

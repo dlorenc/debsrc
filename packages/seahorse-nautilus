@@ -1,0 +1,27 @@
+Package: seahorse-nautilus
+Binary: seahorse-nautilus
+Version: 3.11.92-4
+Maintainer: Debian Privacy Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>
+Uploaders: Carlos Maddela <e7appew@gmail.com>, Ulrike Uhlig <u@451f.org>, Clément Hermann <nodens@nodens.org>, Chris Lamb <lamby@debian.org>,
+Build-Depends: debhelper (>= 12), intltool, libcryptui-dev, libgcr-3-dev, libgpgme-dev, libnautilus-extension-dev (>= 3.27), libnotify-dev
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 230f21f19e31d6c3f8f1fad5c5987bfe 2295 seahorse-nautilus_3.11.92-4.dsc
+ 172fc075a4f192bd8922a794d8cb2d09 395304 seahorse-nautilus_3.11.92.orig.tar.xz
+ 7331341284b4372ea348748a80abb9da 51116 seahorse-nautilus_3.11.92-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-privacy-team/seahorse-nautilus
+Vcs-Git: https://salsa.debian.org/pkg-privacy-team/seahorse-nautilus.git
+Checksums-Sha256:
+ da84a7b428ff8821f60b63761dddb7da9d05e6e12da8fed4c6e6bf8856b58bc3 2295 seahorse-nautilus_3.11.92-4.dsc
+ 70374f9bb46a0adfbd154f4094e7a05b7766abfe60845a0a49463b4d15f17f92 395304 seahorse-nautilus_3.11.92.orig.tar.xz
+ cc817749cc19ffca527aa82bace745c002a7aef8c5dcddc9b97b883acc96c789 51116 seahorse-nautilus_3.11.92-4.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Seahorse
+Package-List: 
+ seahorse-nautilus deb gnome optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dpkg
+Directory: pool/main/s/seahorse-nautilus
+Priority: source
+Section: misc

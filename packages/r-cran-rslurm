@@ -1,0 +1,27 @@
+Package: r-cran-rslurm
+Binary: r-cran-rslurm
+Version: 0.5.0-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-whisker
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2023da60abe4edfd570158042c751de2 2103 r-cran-rslurm_0.5.0-2.dsc
+ 6132db86ece203ed5e7d8d47293107dc 36686 r-cran-rslurm_0.5.0.orig.tar.gz
+ 872f38c74855cb0ee0bd51c6fcc95c95 2360 r-cran-rslurm_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-rslurm
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-rslurm.git
+Checksums-Sha256:
+ 501b46715668f2ea45550f0a5a91a7d6dd63244adc0a09b959c83fa3cd2ee9db 2103 r-cran-rslurm_0.5.0-2.dsc
+ 0fff43867993f5b3dfc8ebae5cc9ca86b011d42ba1803095055328ac197dfd36 36686 r-cran-rslurm_0.5.0.orig.tar.gz
+ 38d82ef8b45b56a4435488a3b79f54d13ccf1aecea7a9fe167d05df5733bd6d3 2360 r-cran-rslurm_0.5.0-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=rslurm
+Package-List: 
+ r-cran-rslurm deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-rslurm
+Priority: extra
+Section: misc

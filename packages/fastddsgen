@@ -1,0 +1,26 @@
+Package: fastddsgen
+Binary: fastddsgen
+Version: 2.0.0+dfsg-2
+Maintainer: Timo Röhling <timo@gaussglocke.de>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, libeprosima-idl-parser-java (>= 1.1.0)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b7c2ec9ec4ea269145f3a85e5ae15fe4 1866 fastddsgen_2.0.0+dfsg-2.dsc
+ 5b86499c9396860d8d825638bb6261de 53964 fastddsgen_2.0.0+dfsg.orig.tar.xz
+ 0761abaa03c637e61985f2766ba5ecfe 3828 fastddsgen_2.0.0+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/roehling/fastddsgen
+Vcs-Git: https://salsa.debian.org/roehling/fastddsgen.git
+Checksums-Sha256:
+ a8db1ea553a5597b4b8603bf408e3c7e0ba1c1746ea2e0d1a00259b0bcf18057 1866 fastddsgen_2.0.0+dfsg-2.dsc
+ 4a2fdb4593804f01ff1bd1555a1a3f88aec99a5c7bfaf0e2d8415377de9df063 53964 fastddsgen_2.0.0+dfsg.orig.tar.xz
+ 53a3ad978134e685dd4a35e56ac794b59de567b6a6629b4fa860fe79d979c83d 3828 fastddsgen_2.0.0+dfsg-2.debian.tar.xz
+Homepage: https://github.com/eProsima/Fast-DDS-Gen
+Package-List: 
+ fastddsgen deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: cmake, g++, libfastcdr-dev, libfastrtps-dev
+Directory: pool/main/f/fastddsgen
+Priority: extra
+Section: misc

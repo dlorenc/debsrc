@@ -1,0 +1,28 @@
+Package: haskell-socks
+Binary: libghc-socks-dev, libghc-socks-prof, libghc-socks-doc
+Version: 0.6.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-basement-dev, libghc-basement-prof, libghc-cereal-dev (>= 0.3.1), libghc-cereal-prof, libghc-network-dev (>= 2.6), libghc-network-prof
+Build-Depends-Indep: ghc-doc, libghc-basement-doc, libghc-cereal-doc, libghc-network-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 2414d9e549c27b71cc9a759cbb6ebbc4 2459 haskell-socks_0.6.1-1.dsc
+ e85be2113ecf285060ce2c3678bcd9dc 9759 haskell-socks_0.6.1.orig.tar.gz
+ 082441697003423f712056cf2a655eb8 2960 haskell-socks_0.6.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-socks
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-socks]
+Checksums-Sha256:
+ 8918dc73b0d4da242d9ab54039343b46435eabcadd6ca1f662f42d18b3f9bf5f 2459 haskell-socks_0.6.1-1.dsc
+ 734447558bb061ce768f53a0df1f2401902c6bee396cc96ce627edd986ef6a73 9759 haskell-socks_0.6.1.orig.tar.gz
+ 5d876b88b946e29af1eb2685f82534b3a1585124ece909e7d46912685bf6d3eb 2960 haskell-socks_0.6.1-1.debian.tar.xz
+Homepage: http://github.com/vincenthz/hs-socks
+Package-List: 
+ libghc-socks-dev deb haskell optional arch=any
+ libghc-socks-doc deb doc optional arch=all
+ libghc-socks-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-socks
+Priority: source
+Section: haskell

@@ -1,0 +1,29 @@
+Package: lua5.2
+Binary: lua5.2-doc, lua5.2, liblua5.2-dev, liblua5.2-0, liblua5.2-0-dbg
+Version: 5.2.4-1.1
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Uploaders: John V. Belmonte <jbelmonte@debian.org>
+Build-Depends: debhelper (>= 9), quilt (>= 0.40), libtool-bin, libreadline-dev
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ a618d8cfc5a3d53b8e001300c7ff4395 2116 lua5.2_5.2.4-1.1.dsc
+ 2882ccc7c651642c37734ef10f3ff0e4 248218 lua5.2_5.2.4.orig.tar.gz
+ a75bbc8483aad457dc75615c3f498003 9956 lua5.2_5.2.4-1.1.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=pkg-lua/lua5.2.git
+Vcs-Git: git://git.debian.org/git/pkg-lua/lua5.2.git
+Checksums-Sha256:
+ 2daf73851c1caa2d8a047879ee22171607821402bf89c1e8d57e00031249420d 2116 lua5.2_5.2.4-1.1.dsc
+ 86fb7e23cbbddfcd92684e5f8017ff41c9112251d1656dbece415a97fad171c0 248218 lua5.2_5.2.4.orig.tar.gz
+ 12c14f345e42de3b0eb3557d1436d74abb20ff2f03567919de8fb73f19084795 9956 lua5.2_5.2.4-1.1.debian.tar.xz
+Homepage: http://www.lua.org
+Package-List: 
+ liblua5.2-0 deb libs optional arch=any
+ liblua5.2-0-dbg deb debug extra arch=any
+ liblua5.2-dev deb libdevel optional arch=any
+ lua5.2 deb interpreters optional arch=any
+ lua5.2-doc deb doc optional arch=all
+Directory: pool/main/l/lua5.2
+Priority: source
+Section: interpreters

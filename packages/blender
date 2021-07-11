@@ -1,0 +1,27 @@
+Package: blender
+Binary: blender, blender-data
+Version: 2.83.5+dfsg-5
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Matteo F. Vescovi <mfv@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-python, gettext, libalut-dev, libavcodec-dev (>> 6:10), libavdevice-dev, libavformat-dev, libavfilter-dev, libblosc-dev, libboost-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-regex-dev, libboost-system-dev, libboost-thread-dev, libfftw3-dev, libfontconfig-dev, libgettextpo-dev, libglew-dev, libgsm1-dev, libilmbase-dev (>= 2.2.0), libjack-dev, libjemalloc-dev [!hurd-i386], libjpeg-dev, liblzma-dev, liblzo2-dev, libopenal-dev, libopencolorio-dev [!hurd-i386], libopenexr-dev (>= 2.2.0), libopenimageio-dev (>= 2.0.0), libopenjp2-7-dev, libopenvdb-dev [amd64 i386], libosd-dev, libpng-dev, libpugixml-dev, libsdl2-dev, libsndfile-dev, libspnav-dev, libswscale-dev, libtbb-dev, libtiff-dev, libvorbis-dev, libxi-dev, libxrandr-dev, libxxf86vm-dev, libz-dev, opencollada-dev [linux-any], pkg-config, python3-dev, python3-numpy, python3-requests
+Build-Conflicts: nvidia-glx
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bdae5b45c813ad25a5627ba598a2b895 3091 blender_2.83.5+dfsg-5.dsc
+ d687814905161a78f04365ad6de4ee43 39052564 blender_2.83.5+dfsg.orig.tar.xz
+ 4906913f697cbe237c402a144dbc8b7f 35436 blender_2.83.5+dfsg-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/blender
+Vcs-Git: https://salsa.debian.org/multimedia-team/blender.git
+Checksums-Sha256:
+ c5a45aba0b8347db7591f55dac90525f1210d7964ade232a03d27d9a19bc13d0 3091 blender_2.83.5+dfsg-5.dsc
+ ae32ebd7123fbd4fd66828e6b00c766e6af5d837133e61f1d73fa778ae456abd 39052564 blender_2.83.5+dfsg.orig.tar.xz
+ ad7eb4a3e70b1efa82b51c39182f38442d84b9f36a9d987635e0901e5575d87d 35436 blender_2.83.5+dfsg-5.debian.tar.xz
+Homepage: http://www.blender.org/
+Package-List: 
+ blender deb graphics optional arch=any
+ blender-data deb graphics optional arch=all
+Directory: pool/main/b/blender
+Priority: source
+Section: graphics

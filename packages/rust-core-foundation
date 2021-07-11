@@ -1,0 +1,31 @@
+Package: rust-core-foundation
+Binary: librust-core-foundation-dev, librust-core-foundation+chrono-dev, librust-core-foundation+mac-os-10-7-support-dev, librust-core-foundation+mac-os-10-8-features-dev, librust-core-foundation+uuid-dev
+Version: 0.9.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-core-foundation-sys-0.8+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3f8de29f807449de737897d1a05795e6 2861 rust-core-foundation_0.9.1-1.dsc
+ 750bf358cd0eaa708497bdb0f827e2b3 25985 rust-core-foundation_0.9.1.orig.tar.gz
+ a1b6c4e84ff2fc26a0bbba5fd3df49b2 3736 rust-core-foundation_0.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/core-foundation
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/core-foundation]
+Checksums-Sha256:
+ a3118ed8eca8c991ba894c76005a4481a4a3eb14ffa62818fa2474ee2dd39782 2861 rust-core-foundation_0.9.1-1.dsc
+ 0a89e2ae426ea83155dccf10c0fa6b1463ef6d5fcb44cee0b224a408fa640a62 25985 rust-core-foundation_0.9.1.orig.tar.gz
+ 1fb2f8a7335fab4cd434e4c1909af62c07eee829e07b382f396f24cd8c5c729a 3736 rust-core-foundation_0.9.1-1.debian.tar.xz
+Homepage: https://github.com/servo/core-foundation-rs
+Package-List: 
+ librust-core-foundation+chrono-dev deb rust optional arch=any
+ librust-core-foundation+mac-os-10-7-support-dev deb rust optional arch=any
+ librust-core-foundation+mac-os-10-8-features-dev deb rust optional arch=any
+ librust-core-foundation+uuid-dev deb rust optional arch=any
+ librust-core-foundation-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-core-foundation
+Priority: extra
+Section: misc

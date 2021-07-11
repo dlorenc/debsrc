@@ -1,0 +1,27 @@
+Package: portlet-api-2.0-spec
+Binary: libportlet-api-2.0-spec-java, libportlet-api-2.0-spec-java-doc
+Version: 1.0-2.2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper (>= 9), default-jdk, maven-debian-helper (>= 2.0)
+Build-Depends-Indep: default-jdk-doc, libmaven-javadoc-plugin-java, libservlet3.1-java, libservlet3.1-java-doc
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 0bcbba166e0bfd2f34bb75186f3ec546 2329 portlet-api-2.0-spec_1.0-2.2.dsc
+ 41aad1a72bc8829bad9776770c5aa9a0 63128 portlet-api-2.0-spec_1.0.orig.tar.gz
+ a55fcaaf2c1b3a174d84f0f66a3806e5 2960 portlet-api-2.0-spec_1.0-2.2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/portlet-api-2.0-spec.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/portlet-api-2.0-spec.git
+Checksums-Sha256:
+ 6002b2d4527f0c605e763b3e2bd3c3a06fe3527207a4e821c3d59c061dd52063 2329 portlet-api-2.0-spec_1.0-2.2.dsc
+ ac2346aa860394d65d3e9a80b7e006194d88ed4398dbe466543b4bf0d54d8fa1 63128 portlet-api-2.0-spec_1.0.orig.tar.gz
+ e6a0c04495e4bc24c40cff7c4b5784982d00f1d8e65fa2ea969a9e2cdabde1dd 2960 portlet-api-2.0-spec_1.0-2.2.debian.tar.xz
+Homepage: http://portals.apache.org/pluto/portlet-2.0-apidocs/
+Package-List: 
+ libportlet-api-2.0-spec-java deb java optional arch=all
+ libportlet-api-2.0-spec-java-doc deb doc optional arch=all
+Directory: pool/main/p/portlet-api-2.0-spec
+Priority: source
+Section: java

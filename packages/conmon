@@ -1,0 +1,26 @@
+Package: conmon
+Binary: conmon
+Version: 2.0.25+ds1-1
+Maintainer: Podman Packaging Team <team+podman@tracker.debian.org>
+Uploaders: Birger Schacht <birger@rantanplan.org>, Jamie Bliss <jamie@ivyleav.es>, Nicolas Braud-Santoni <nicoo@debian.org>, Dmitry Smirnov <onlyjob@debian.org>, Reinhard Tartler <siretart@tauware.de>,
+Build-Depends: debhelper-compat (= 12), go-md2man, golang-go, libglib2.0-dev, libsystemd-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b8ce1d399c2b525b60e8c4743af86a76 2267 conmon_2.0.25+ds1-1.dsc
+ 709c3d4d3230786cbf27f074521bebea 53504 conmon_2.0.25+ds1.orig.tar.xz
+ 71a8570b9096881213368a2b181b7064 3140 conmon_2.0.25+ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/podman-team/conmon
+Vcs-Git: https://salsa.debian.org/podman-team/conmon.git
+Checksums-Sha256:
+ 68788e5060e714a4a972af926648336da5dc313ec994ba73b290717b883ad0d5 2267 conmon_2.0.25+ds1-1.dsc
+ 47797239b82b01ae776d04917241566491915d318da104ba3cb41213420e5fa7 53504 conmon_2.0.25+ds1.orig.tar.xz
+ f57163df0e87cd205bce6f5b9b4bfb41d8d538fd4a537ff0794186df8a37d47a 3140 conmon_2.0.25+ds1-1.debian.tar.xz
+Homepage: https://github.com/containers/conmon
+Dgit: 6cc7e9f66d64753df95e5241b8650301d5d2f2fd debian archive/debian/2.0.25+ds1-1 https://git.dgit.debian.org/conmon
+Package-List: 
+ conmon deb admin optional arch=any
+Directory: pool/main/c/conmon
+Priority: extra
+Section: misc

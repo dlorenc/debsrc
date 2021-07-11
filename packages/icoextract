@@ -1,0 +1,27 @@
+Package: icoextract
+Binary: icoextract, python3-icoextract, icoextract-thumbnailer, exe-thumbnailer
+Version: 0.1.2-2
+Maintainer: James Lu <james@overdrivenetworks.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, gcc-mingw-w64 <!nocheck>, imagemagick <!nocheck>, python3-pefile <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8ba8b98870bd4e9c03a0241649353ed0 2180 icoextract_0.1.2-2.dsc
+ 5212026929665f15aa657fb45fa73ead 45254 icoextract_0.1.2.orig.tar.gz
+ 841a937b48307d045e7d3be7ffb6f417 3432 icoextract_0.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/jlu-guest/icoextract
+Vcs-Git: https://salsa.debian.org/jlu-guest/icoextract.git
+Checksums-Sha256:
+ a7877af1fea442c7efd56f98727dc6506c868d4fc59bd2e9e1c5b9186c73c6cd 2180 icoextract_0.1.2-2.dsc
+ 3818ad889160b33d360da4083da0a32df8d1955fb77a64bfbac49edc15d5ad3b 45254 icoextract_0.1.2.orig.tar.gz
+ cfd42452d12590fc45350b829ad502a3cdfc449360e52b3f812292e53b576a42 3432 icoextract_0.1.2-2.debian.tar.xz
+Homepage: https://github.com/jlu5/icoextract
+Package-List: 
+ exe-thumbnailer deb oldlibs optional arch=all
+ icoextract deb misc optional arch=all
+ icoextract-thumbnailer deb misc optional arch=all
+ python3-icoextract deb python optional arch=all
+Directory: pool/main/i/icoextract
+Priority: extra
+Section: misc

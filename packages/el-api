@@ -1,0 +1,25 @@
+Package: el-api
+Binary: libel-api-java
+Version: 3.0.0-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, libmaven-bundle-plugin-java (>= 3.5.1), maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2c16ad6e3a0607f73b0e6bbaf21ac8bc 2135 el-api_3.0.0-3.dsc
+ 29597483b74f975b2d9801fd695dfca0 41460 el-api_3.0.0.orig.tar.xz
+ d8629b52b44d91b5fadccdd4550e74ac 8636 el-api_3.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/el-api
+Vcs-Git: https://salsa.debian.org/java-team/el-api.git
+Checksums-Sha256:
+ 6d7034e2f078325949a7f9c1c17d60f26d3f7fbeb9c37c898618ae17e2620ab1 2135 el-api_3.0.0-3.dsc
+ 3af49a2a357102216ea6a0f2e58596d07509cb1ac92fea2b22b89d0a066785d5 41460 el-api_3.0.0.orig.tar.xz
+ b07492501cb519491d78ae70043ab2f616a44947b99c81b681fd96cb494f8f3a 8636 el-api_3.0.0-3.debian.tar.xz
+Homepage: https://github.com/javaee/el-spec/
+Package-List: 
+ libel-api-java deb java optional arch=all
+Directory: pool/main/e/el-api
+Priority: extra
+Section: misc

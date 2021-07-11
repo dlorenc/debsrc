@@ -1,0 +1,27 @@
+Package: phpunit-global-state
+Binary: phpunit-global-state
+Version: 5.0.2-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>, Prach Pongpanich <prachpub@gmail.com>
+Build-Depends: ant, debhelper-compat (= 13), phpab, phpunit (>= 9.3), pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cc363fa6f8f0e6f1f374054425ce63f1 1894 phpunit-global-state_5.0.2-1.dsc
+ 4751d38568c1f138588daf016c386212 12127 phpunit-global-state_5.0.2.orig.tar.gz
+ 9f930e44cdb0aa7ece1608989f1d144b 4172 phpunit-global-state_5.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/phpunit-global-state
+Vcs-Git: https://salsa.debian.org/php-team/pear/phpunit-global-state.git -b debian/latest
+Checksums-Sha256:
+ 31abef5be60a541af4a965cf41c11cb4d014e614cd4f89c86b9ba25807d98a59 1894 phpunit-global-state_5.0.2-1.dsc
+ f757fa49fb515d923f1d38c3fb6eb5ac00857340dcf07814f655615073f6381e 12127 phpunit-global-state_5.0.2.orig.tar.gz
+ 7f40abaf44e3035d81babaa257fb6014ef38fe5f159db55dd787ef660fa3ec1c 4172 phpunit-global-state_5.0.2-1.debian.tar.xz
+Homepage: https://github.com/sebastianbergmann/global-state
+Package-List: 
+ phpunit-global-state deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpab, phpunit
+Directory: pool/main/p/phpunit-global-state
+Priority: optional
+Section: misc

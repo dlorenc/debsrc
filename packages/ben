@@ -1,0 +1,25 @@
+Package: ben
+Binary: libben-ocaml-dev, libben-ocaml, ben
+Version: 0.9.2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>, Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-ocaml, graphviz, ocaml-findlib, ocamlbuild, menhir, libocamlnet-ocaml-dev, libocamlgraph-ocaml-dev, libfileutils-ocaml-dev, libtyxml-ocaml-dev (>= 4.1~), libpostgresql-ocaml-dev, libparmap-ocaml-dev, libre-ocaml-dev (>= 1.7.2~), libextlib-ocaml-dev, ocaml-nox (>= 4.03~), asciidoctor, docbook-xml, docbook-xsl, libxml2-utils, xsltproc, source-highlight
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 9a06ee1499466c90e90d4ee191761e1a 2114 ben_0.9.2.dsc
+ 9297c7979165a8e310c10b0c66130027 79228 ben_0.9.2.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ben
+Vcs-Git: https://salsa.debian.org/debian/ben.git
+Checksums-Sha256:
+ bd87bedebb91d1edfb5d4b2b2fe8d7a40e8336d3501860b9266eff56d46c4ba8 2114 ben_0.9.2.dsc
+ a2a27d375bd1386e072b72afcbe245cc1d04c23ffb99260bd16597cf8aad1330 79228 ben_0.9.2.tar.xz
+Homepage: https://ben.debian.net
+Package-List: 
+ ben deb devel optional arch=any
+ libben-ocaml deb ocaml optional arch=any
+ libben-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/b/ben
+Priority: source
+Section: ocaml

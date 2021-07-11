@@ -1,0 +1,24 @@
+Package: rust-ansi-colours
+Binary: librust-ansi-colours-dev
+Version: 1.0.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <pl@ninthfloor.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c55eb049619863b6d4dfbd17d13ee64a 1796 rust-ansi-colours_1.0.1-2.dsc
+ 4b7bc58614d5e591a09f1d43fce506d6 9937 rust-ansi-colours_1.0.1.orig.tar.gz
+ 83e396df522d6812fb82fdeea83464a8 2356 rust-ansi-colours_1.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ansi-colours
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ansi-colours]
+Checksums-Sha256:
+ 884848f4c6bbc0b7fd32f3af0f51db990cb93f7ad643ba5c92d3fc76f56050a1 1796 rust-ansi-colours_1.0.1-2.dsc
+ 1d0f302a81afc6a7f4350c04f0ba7cfab529cc009bca3324b3fb5764e6add8b6 9937 rust-ansi-colours_1.0.1.orig.tar.gz
+ e0889bbc0c20ec44dfcad893bd24ea5abafeac068527888cefb7ca663186a3dc 2356 rust-ansi-colours_1.0.1-2.debian.tar.xz
+Package-List: 
+ librust-ansi-colours-dev deb rust optional arch=any
+Directory: pool/main/r/rust-ansi-colours
+Priority: extra
+Section: misc

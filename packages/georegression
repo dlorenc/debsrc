@@ -1,0 +1,25 @@
+Package: georegression
+Binary: libgeoregression-java
+Version: 0.20+ds-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 12), gradle-debian-helper, libauto64fto32f-java, libddogleg-java, libejml-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ba18730495be26da10c2459446fe3f2b 2107 georegression_0.20+ds-2.dsc
+ f38afe130fe8c2ff6453ec399e37576a 147976 georegression_0.20+ds.orig.tar.xz
+ f687ca33ec02b9f047e3dc3310bb94e4 3180 georegression_0.20+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/georegression
+Vcs-Git: https://salsa.debian.org/java-team/georegression.git
+Checksums-Sha256:
+ 726708816869029c0c8d18e5cc6d51f78c2826bf616431074fe53c0da82f7179 2107 georegression_0.20+ds-2.dsc
+ 18ba20dac722188fff3a4dfedc65917993b753e44b74e1e6dfee91fa48010d65 147976 georegression_0.20+ds.orig.tar.xz
+ be2a036d845c22a5d27ce42a8970ca8a5fabbd2d2d1d627b5105ab8c949d2959 3180 georegression_0.20+ds-2.debian.tar.xz
+Homepage: https://georegression.org
+Package-List: 
+ libgeoregression-java deb java optional arch=all
+Directory: pool/main/g/georegression
+Priority: extra
+Section: misc

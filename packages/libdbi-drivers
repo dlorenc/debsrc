@@ -1,0 +1,26 @@
+Package: libdbi-drivers
+Binary: libdbd-sqlite3, libdbd-mysql, libdbd-pgsql, libdbd-freetds
+Version: 0.9.0-9
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Uploaders: Prach Pongpanich <prachpub@gmail.com>
+Build-Depends: automake, debhelper-compat (= 12), docbook-dsssl, freetds-dev, libdbi-dev (>= 0.9.0), default-libmysqlclient-dev, libpq-dev (>= 8.3~rc2-1+b1), libsqlite3-dev, libtool, locales-all | language-pack-en, default-mysql-client, default-mysql-server, openjade, postgresql, postgresql-client
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7e70a776187bb9edf48fb001b9964119 2255 libdbi-drivers_0.9.0-9.dsc
+ 9f47b960e225eede2cdeaabf7d22f59f 1829864 libdbi-drivers_0.9.0.orig.tar.gz
+ 8903453ee0d341393124824ebdd6c66c 13280 libdbi-drivers_0.9.0-9.debian.tar.xz
+Checksums-Sha256:
+ ce1ece0d5b10cf1670450744899280542b1ea8246252b51308b08c28b1146ef5 2255 libdbi-drivers_0.9.0-9.dsc
+ 43d2eacd573a4faff296fa925dd97fbf2aedbf1ae35c6263478210c61004c854 1829864 libdbi-drivers_0.9.0.orig.tar.gz
+ dd773b3289a8a95be49f0e1aeb8c78625074b7cb76b209670265f8e96eee54d0 13280 libdbi-drivers_0.9.0-9.debian.tar.xz
+Homepage: http://libdbi.sourceforge.net/
+Package-List: 
+ libdbd-freetds deb libs optional arch=any
+ libdbd-mysql deb libs optional arch=any
+ libdbd-pgsql deb libs optional arch=any
+ libdbd-sqlite3 deb libs optional arch=any
+Directory: pool/main/libd/libdbi-drivers
+Priority: source
+Section: libs

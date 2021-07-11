@@ -1,0 +1,26 @@
+Package: lua-inotify
+Binary: lua-inotify, lua-inotify-dev
+Version: 0.5-1
+Maintainer: Sophie Brun <sophie@freexian.com>
+Uploaders: Raphaël Hertzog <hertzog@debian.org>, Mathieu Parent <sathieu@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-lua (>= 24), pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6182d99cd9934a7da4ec06b754bf7d67 1716 lua-inotify_0.5-1.dsc
+ 650025d3d770c85882420f7e78c7ceed 5492 lua-inotify_0.5.orig.tar.gz
+ 804d0907d82e21e15f5c64d99e4c3105 2496 lua-inotify_0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lua-team/lua-inotify
+Vcs-Git: https://salsa.debian.org/lua-team/lua-inotify.git
+Checksums-Sha256:
+ 8c5ca8b866f744dddf30919431423e07d20eb323af4ca9d5d4057d939f240322 1716 lua-inotify_0.5-1.dsc
+ 21d005f16043397a85913a7d14a267716d6384f0228718d5de464bfc0274e338 5492 lua-inotify_0.5.orig.tar.gz
+ fe72cd7d92f7e1daee49ae5580c00c287b4b5731e6ef6ec83d27d3189b4777bb 2496 lua-inotify_0.5-1.debian.tar.xz
+Homepage: https://github.com/hoelzro/linotify
+Package-List: 
+ lua-inotify deb interpreters optional arch=any
+ lua-inotify-dev deb libdevel optional arch=any
+Directory: pool/main/l/lua-inotify
+Priority: optional
+Section: misc

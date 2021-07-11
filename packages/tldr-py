@@ -1,0 +1,26 @@
+Package: tldr-py
+Binary: tldr-py
+Version: 0.7.0-3
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-click, python3-mock (>= 1.3.0), python3-pytest (>= 2.8), python3-setuptools, python3-yaml
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 1317ecd8406b0223832091fd65e9b23f 2073 tldr-py_0.7.0-3.dsc
+ 3600a6ad4a06aad6f70d0cc96727da9f 11726 tldr-py_0.7.0.orig.tar.gz
+ 4c9ea55244fdad7dc36968ed830aff54 2992 tldr-py_0.7.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/tldr-py
+Vcs-Git: https://salsa.debian.org/python-team/applications/tldr-py.git
+Checksums-Sha256:
+ 3f3da99ae764142c945dcbb3575ca4e00d72010f3e0340ff4487a4b63fdc651a 2073 tldr-py_0.7.0-3.dsc
+ 73ec4b3d44b16a322583668fb9b2068afe4edf457b54d59f336d64a71ff27952 11726 tldr-py_0.7.0.orig.tar.gz
+ 75cbec6d10eaf3a4289666066aa01705cd1e04bbf60f935a0dc37df1b94c9b6e 2992 tldr-py_0.7.0-3.debian.tar.xz
+Homepage: https://github.com/lord63/tldr.py
+Package-List: 
+ tldr-py deb utils optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/t/tldr-py
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: libmongo-client
+Binary: libmongo-client0, libmongo-client-dev, libmongo-client-doc
+Version: 0.1.8-4
+Maintainer: Jörg Frings-Fürst <debian@jff.email>
+Build-Depends: debhelper (>= 11~), libglib2.0-dev, perl
+Build-Depends-Indep: doxygen, graphviz
+Architecture: any all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 8bde17f27673410aa3c2f9b4754f0b35 2087 libmongo-client_0.1.8-4.dsc
+ 5f46c273837fea5e03f0140d425d8f9b 101252 libmongo-client_0.1.8.orig.tar.xz
+ ce96562d663362555313965ee5ea9160 6204 libmongo-client_0.1.8-4.debian.tar.xz
+Vcs-Browser: https://jff.email/cgit/libmongo-cliet.git
+Vcs-Git: git://jff.email/opt/git/libmongo-client.git
+Checksums-Sha256:
+ a66413f3b59c15488fae73af802aec3384f66c96cc6ac4d35a07099467d20b7f 2087 libmongo-client_0.1.8-4.dsc
+ 603f64607bf2ebff79cb9b4e11977a2b8719f0e10c334dcb024b28530ef8c73a 101252 libmongo-client_0.1.8.orig.tar.xz
+ 54068ec7b17289ffd87ea985c92c041ffb8e866c070362a1a7aefcb25ad52017 6204 libmongo-client_0.1.8-4.debian.tar.xz
+Homepage: https://github.com/algernon/libmongo-client
+Package-List: 
+ libmongo-client-dev deb libdevel optional arch=any
+ libmongo-client-doc deb doc optional arch=all
+ libmongo-client0 deb libs optional arch=any
+Directory: pool/main/libm/libmongo-client
+Priority: source
+Section: libs

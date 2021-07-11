@@ -1,0 +1,32 @@
+Package: libgpuarray
+Binary: libgpuarray3, libgpuarray-dev, libgpuarray-doc, python3-pygpu, python3-pygpu-dbg
+Version: 0.7.6-5
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>, Rebecca N. Palmer <rebecca_palmer@zoho.com>
+Build-Depends: cmake, cython3 (>= 0.25), cython3-dbg, debhelper-compat (= 12), dpkg-dev (>= 1.17.14), dh-python, python3-all-dbg, python3-all-dev, python3-numpy, python3-numpy-dbg, python3-setuptools, sphinx-common, python3-mako
+Build-Depends-Indep: python3-breathe <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 246cbd8ab65f57608a23245730407f97 2806 libgpuarray_0.7.6-5.dsc
+ d8e0ec6a2ad3bf2eba915dc7efff467e 293770 libgpuarray_0.7.6.orig.tar.gz
+ 24b95315ddf99eadd349ebb2f7086cf2 13800 libgpuarray_0.7.6-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libgpuarray
+Vcs-Git: https://salsa.debian.org/science-team/libgpuarray.git
+Checksums-Sha256:
+ 902e19acb7298bf5818c535916f91959994fb10b921d28298c11adeedf32731f 2806 libgpuarray_0.7.6-5.dsc
+ ad1c00dd47c3d36ee1708e5167377edbfcdb7226e837ef9c68b841afbb4a4f6a 293770 libgpuarray_0.7.6.orig.tar.gz
+ c0ba784f1da557a040d9d1bdb4edee4e4a7254d1f1d563357cd7c44eba4f33d5 13800 libgpuarray_0.7.6-5.debian.tar.xz
+Homepage: https://github.com/Theano/libgpuarray
+Package-List: 
+ libgpuarray-dev deb libdevel optional arch=any
+ libgpuarray-doc deb doc optional arch=all profile=!nodoc
+ libgpuarray3 deb libs optional arch=any
+ python3-pygpu deb python optional arch=any
+ python3-pygpu-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libclblas-dev, mpi-default-bin, ocl-icd-opencl-dev, pocl-opencl-icd, python3-all, python3-all-dbg, python3-mpi4py, python3-nose, python3-scipy
+Directory: pool/main/libg/libgpuarray
+Priority: optional
+Section: misc

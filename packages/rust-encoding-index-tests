@@ -1,0 +1,25 @@
+Package: rust-encoding-index-tests
+Binary: librust-encoding-index-tests-dev
+Version: 0.1.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ a66b90027cb7ed37cea3bbfa5fd84987 2256 rust-encoding-index-tests_0.1.4-1.dsc
+ 0757c1d1a4224c08d2ecde61f4e78619 1934 rust-encoding-index-tests_0.1.4.orig.tar.gz
+ 00add86dfca4bbe45959067e32f254fc 4408 rust-encoding-index-tests_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/encoding-index-tests
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/encoding-index-tests]
+Checksums-Sha256:
+ bc1e020ad635a015d9f450d6db577b7adc5081ad80ceb86f2aad2dd7586ba002 2256 rust-encoding-index-tests_0.1.4-1.dsc
+ bf85129287d35860f9e2270fe97d94c7cd43c31a116233cf2c780db12fe5d336 1934 rust-encoding-index-tests_0.1.4.orig.tar.gz
+ 80b7a00a126054ee068b206b31abb5fb77c228c2dfac779c042882d6de5f6780 4408 rust-encoding-index-tests_0.1.4-1.debian.tar.xz
+Homepage: https://github.com/lifthrasiir/rust-encoding
+Package-List: 
+ librust-encoding-index-tests-dev deb rust optional arch=any
+Directory: pool/main/r/rust-encoding-index-tests
+Priority: extra
+Section: misc

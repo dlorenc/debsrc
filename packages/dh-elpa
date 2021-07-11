@@ -1,0 +1,24 @@
+Package: dh-elpa
+Binary: dh-elpa, dh-elpa-helper
+Version: 2.0.8
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: David Bremner <bremner@debian.org>, Sean Whitton <spwhitton@spwhitton.name>,
+Build-Depends: debhelper-compat (= 12), emacs-nox (>= 47) | emacs (>= 47.0)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (native)
+Files:
+ df85d7b023784a825d242c906ad78642 1828 dh-elpa_2.0.8.dsc
+ dcf48feaae22a37c7f48ea5cb3c3ef47 22864 dh-elpa_2.0.8.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/dh-elpa
+Vcs-Git: https://salsa.debian.org/emacsen-team/dh-elpa.git
+Checksums-Sha256:
+ d06da5ad7e7b9e1a3be3702d7b548f3da5567d0673b397f47435d5bd4a31d5eb 1828 dh-elpa_2.0.8.dsc
+ b656ff025a26d52fb56a6777b85218138b5f6e2687cbc979aa65ddadc113e014 22864 dh-elpa_2.0.8.tar.xz
+Dgit: 6d69b1f31e32aa2ea21e88826a2c39358167ccf0 debian archive/debian/2.0.8 https://git.dgit.debian.org/dh-elpa
+Package-List: 
+ dh-elpa deb devel optional arch=all
+ dh-elpa-helper deb devel optional arch=all
+Directory: pool/main/d/dh-elpa
+Priority: optional
+Section: misc

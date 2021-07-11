@@ -1,0 +1,27 @@
+Package: drm-info
+Binary: drm-info
+Version: 2.2.0-2
+Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
+Uploaders: Evangelos Ribeiro Tzaras <devrtz-debian@fortysixandtwo.eu>,
+Build-Depends: debhelper-compat (= 13), libdrm-dev, libjson-c-dev, meson, pkg-config, python3-distutils
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4a4e95a5e4840e54010896bf5100929f 2084 drm-info_2.2.0-2.dsc
+ dede335a98b68b1fe04752d7cacb14b6 13510 drm-info_2.2.0.orig.tar.gz
+ 68a763af4bde242c5ca678be474a96fc 2840 drm-info_2.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/swaywm-team/drm-info
+Vcs-Git: https://salsa.debian.org/swaywm-team/drm-info.git
+Checksums-Sha256:
+ fdc30fd59501766f2c52f1d97ea23c7d641b69920fd2b06ac6c372538257281a 2084 drm-info_2.2.0-2.dsc
+ 0a903e52b89ec010367f8bd008793cde0fe042f3112c4840ca33657e476e2d27 13510 drm-info_2.2.0.orig.tar.gz
+ 36a3370be97f46ee332894b6a0da50421ebff666adb20bf6f3f8b458a392e268 2840 drm-info_2.2.0-2.debian.tar.xz
+Homepage: https://github.com/ascent12/drm_info
+Package-List: 
+ drm-info deb x11 optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/d/drm-info
+Priority: extra
+Section: misc

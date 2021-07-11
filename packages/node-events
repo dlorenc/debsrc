@@ -1,0 +1,27 @@
+Package: node-events
+Binary: node-events, libjs-events
+Version: 3.2.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-debbundle-es-to-primitive <!nocheck>, node-tape <!nocheck>, uglifyjs.terser
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dc8f25d9d125192b3cfe039face158ee 2141 node-events_3.2.0-1.dsc
+ 75e1668d44b6028f49eb925aa7a114d6 15535 node-events_3.2.0.orig.tar.gz
+ 3f50fdcf2e8f5ad6a2568563dbdfbe50 4456 node-events_3.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-events
+Vcs-Git: https://salsa.debian.org/js-team/node-events.git
+Checksums-Sha256:
+ de3346b542c99d0fb55a41933e33422cac176f0ae15ccf3d5dd98131b69df0b4 2141 node-events_3.2.0-1.dsc
+ 5c08277c28792b2b69bd56308c3ddecdee4754927af90c44702e0fdcf0648c85 15535 node-events_3.2.0.orig.tar.gz
+ 352c044991a3c02abaa8f79e82710a613883e62556ef5893df82f1f49e23fb4d 4456 node-events_3.2.0-1.debian.tar.xz
+Homepage: https://github.com/Gozala/events
+Package-List: 
+ libjs-events deb javascript optional arch=all
+ node-events deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-events
+Priority: optional
+Section: javascript

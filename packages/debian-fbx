@@ -1,0 +1,25 @@
+Package: debian-fbx
+Binary: fbx-tasks, fbx-all
+Version: 2
+Maintainer: FreedomBox packaging team <freedombox-pkg-team@lists.alioth.debian.org>
+Uploaders: Federico Ceratto <federico@debian.org>, James Valleroy <jvalleroy@mailbox.org>, Sunil Mohan Adapa <sunil@medhas.org>,
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: blends-dev (>= 0.7.2~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 93fed76fc5bed8b2f3d61454598f2952 1829 debian-fbx_2.dsc
+ 55096cb93efdabc71f7d350e2f44967b 3912 debian-fbx_2.tar.xz
+Vcs-Browser: https://salsa.debian.org/blends-team/fbx
+Vcs-Git: https://salsa.debian.org/blends-team/fbx.git
+Checksums-Sha256:
+ 9a167ae45b1c7e087c19cd65cb0940dd1db72f4440e3799139aa880e838a5b93 1829 debian-fbx_2.dsc
+ 696922bcd08c69e25f7c280672c266f9071cbd614da8a55910e19b94ea34b289 3912 debian-fbx_2.tar.xz
+Homepage: https://freedombox.org
+Package-List: 
+ fbx-all deb metapackages optional arch=all
+ fbx-tasks deb misc optional arch=all
+Directory: pool/main/d/debian-fbx
+Priority: extra
+Section: misc

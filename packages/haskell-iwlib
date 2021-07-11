@@ -1,0 +1,28 @@
+Package: haskell-iwlib
+Binary: libghc-iwlib-dev, libghc-iwlib-prof, libghc-iwlib-doc
+Version: 0.1.0-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Aggelos Avgerinos <evaggelos.avgerinos@gmail.com>,
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libiw-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ce87fa3ca4455c61fd94c4dbd64127a5 2285 haskell-iwlib_0.1.0-4.dsc
+ d4b1729464117bcfb0a86e53cbef9cda 3393 haskell-iwlib_0.1.0.orig.tar.gz
+ 5516405369bd5cde5b97d42852a280b9 2380 haskell-iwlib_0.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-iwlib
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-iwlib]
+Checksums-Sha256:
+ 5e9f42279c175921ed2d02f6fc8dca002b735731b8498aba438da47d675896ac 2285 haskell-iwlib_0.1.0-4.dsc
+ bf5dc74aaaf51c67f7adb4549edec8d17dbc3294b076dd6229926f423177154e 3393 haskell-iwlib_0.1.0.orig.tar.gz
+ adae8366621882c43ea832121a819eff933d0952003f9aa56142ef95d2846509 2380 haskell-iwlib_0.1.0-4.debian.tar.xz
+Homepage: https://github.com/jaor/iwlib
+Package-List: 
+ libghc-iwlib-dev deb haskell optional arch=any
+ libghc-iwlib-doc deb doc optional arch=all
+ libghc-iwlib-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-iwlib
+Priority: extra
+Section: misc

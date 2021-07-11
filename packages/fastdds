@@ -1,0 +1,27 @@
+Package: fastdds
+Binary: libfastrtps2, libfastrtps-dev, libfastrtps-doc, fastdds-tools
+Version: 2.1.0+ds-9
+Maintainer: Timo Röhling <timo@gaussglocke.de>
+Build-Depends: debhelper-compat (= 13), cmake, pkg-kde-tools, libfastcdr-dev, libfoonathan-memory-dev, libsqlite3-dev, libboost-dev, libasio-dev, libtinyxml2-dev, libssl-dev, nlohmann-json3-dev, libgtest-dev <!nocheck>, libgmock-dev <!nocheck>, python3 <!nocheck>, openssl <!nocheck>, faketime <!nocheck>, doxygen <!nodoc>, graphviz <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 65be77cac8f88455f88406815b92c6c1 2169 fastdds_2.1.0+ds-9.dsc
+ eef9c4efb90ea96ef62b53fb0ef3d525 3806662 fastdds_2.1.0+ds.orig.tar.gz
+ 1ab9fa376eee58066671eeec55f4ab0c 63340 fastdds_2.1.0+ds-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/roehling/fastdds
+Vcs-Git: https://salsa.debian.org/roehling/fastdds.git
+Checksums-Sha256:
+ 058314c8204352214a595332a9a92a29c2f2fc60b44858bd06c25b69576275df 2169 fastdds_2.1.0+ds-9.dsc
+ e133cc258e0f839c2224d3b5c3606d94bb781312f301e9177d59248ff96c3bb8 3806662 fastdds_2.1.0+ds.orig.tar.gz
+ ffb6667e4a674fcdc17bf781b4bcde1ce8d96b90176245b107746f886a9ac1e3 63340 fastdds_2.1.0+ds-9.debian.tar.xz
+Homepage: https://github.com/eProsima/Fast-DDS
+Package-List: 
+ fastdds-tools deb net optional arch=any
+ libfastrtps-dev deb libdevel optional arch=any
+ libfastrtps-doc deb doc optional arch=all
+ libfastrtps2 deb libs optional arch=any
+Directory: pool/main/f/fastdds
+Priority: extra
+Section: misc

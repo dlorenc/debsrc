@@ -1,0 +1,28 @@
+Package: primer3
+Binary: primer3, primer3-examples
+Version: 2.4.0-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 290694249497902c758ffb1c42aa38e0 2101 primer3_2.4.0-4.dsc
+ aed6546bdfb60652cd7eba8d51eae8cc 31746780 primer3_2.4.0.orig.tar.gz
+ e322c8a6595ea403b1e0b5ac5e77dd6a 12688 primer3_2.4.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/primer3
+Vcs-Git: https://salsa.debian.org/med-team/primer3.git
+Checksums-Sha256:
+ fafdd3584e85bbed9331c7cec5d6d6d6a239e18a27bc19d5e9b56ff52881e3a7 2101 primer3_2.4.0-4.dsc
+ 6d537640c86e2b4656ae77f75b6ad4478fd0ca43985a56cce531fb9fc0431c47 31746780 primer3_2.4.0.orig.tar.gz
+ aa5bdcb82acf440f5104ff0125d9614f05d7a5eff1ac2ae22d4450692cdc75c4 12688 primer3_2.4.0-4.debian.tar.xz
+Homepage: http://primer3.sourceforge.net
+Package-List: 
+ primer3 deb science optional arch=any
+ primer3-examples deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: valgrind
+Directory: pool/main/p/primer3
+Priority: source
+Section: science

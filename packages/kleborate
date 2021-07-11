@@ -1,0 +1,27 @@
+Package: kleborate
+Binary: kleborate, kleborate-examples
+Version: 2.0.1-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, ncbi-blast+ <!nocheck>, mash <!nocheck>, kaptive <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b5f4b5fe68227ee90b88db8f765c62b4 2213 kleborate_2.0.1-1.dsc
+ 82dfb8cded9406c7429a8ff5de1dd11e 83407520 kleborate_2.0.1.orig.tar.gz
+ a58df430cd3cfe6a5e6166e805e48ffb 5994804 kleborate_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/kleborate
+Vcs-Git: https://salsa.debian.org/med-team/kleborate.git
+Checksums-Sha256:
+ a2ac74c8532263add1ff3e7f28eac2ecef8deb946439eaa1ee8ea99d62434409 2213 kleborate_2.0.1-1.dsc
+ 215299b694e7815bd3bb4d967a0b5e686a536becb1141796b1a5d0eeabe0c6c7 83407520 kleborate_2.0.1.orig.tar.gz
+ 9d8f4806bb9193721fa8b8f3492b654fa06da7ae63db2dedb59c1d8781eb3920 5994804 kleborate_2.0.1-1.debian.tar.xz
+Homepage: https://github.com/katholt/Kleborate
+Package-List: 
+ kleborate deb science optional arch=any
+ kleborate-examples deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/k/kleborate
+Priority: extra
+Section: misc

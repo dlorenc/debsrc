@@ -1,0 +1,27 @@
+Package: libopengl-perl
+Binary: libopengl-perl
+Version: 0.7000+dfsg-5
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Niko Tyni <ntyni@debian.org>, Damyan Ivanov <dmn@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 12), freeglut3-dev, libgl1-mesa-dev (>= 19~) | libgl-dev, libglu1-mesa-dev | libglu-dev, libx11-dev, perl
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 673a6be3e2a96f23e5e6eef7934f9f6e 2542 libopengl-perl_0.7000+dfsg-5.dsc
+ 116f11cc17d9c2193ceedda9727e9028 396233 libopengl-perl_0.7000+dfsg.orig.tar.gz
+ 7baf5ad5c4e958ff59b54db88cdf99d0 12584 libopengl-perl_0.7000+dfsg-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libopengl-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libopengl-perl.git
+Checksums-Sha256:
+ 70470b6d371532bc41de8d10f7a0e68de4f9357f99e12065513490b84a0a9dbe 2542 libopengl-perl_0.7000+dfsg-5.dsc
+ 15ef0a592d3b971b3318fc6bc6efdd902689be9af94cb6146c34f42693436c66 396233 libopengl-perl_0.7000+dfsg.orig.tar.gz
+ 38580706a2dda4710f4f7efa5fff3c6fb62c1b10b174e3c151811f71f2b30e2b 12584 libopengl-perl_0.7000+dfsg-5.debian.tar.xz
+Homepage: https://metacpan.org/release/OpenGL
+Dgit: 586d9f9c831ac62ab462239f14e190e763c42a15 debian archive/debian/0.7000+dfsg-5 https://git.dgit.debian.org/libopengl-perl
+Package-List: 
+ libopengl-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libo/libopengl-perl
+Priority: source
+Section: perl

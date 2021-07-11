@@ -1,0 +1,27 @@
+Package: octave-statistics
+Binary: octave-statistics
+Version: 1.4.2-2
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Uploaders: Sébastien Villemot <sebastien@debian.org>, Rafael Laboissière <rafael@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-octave (>= 0.7.1), octave (>= 4.4.0), octave-io (>> 2.2.4-1)
+Build-Conflicts: octave-nan
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9ccc3e6ff531cd826fd2b736417cc487 2195 octave-statistics_1.4.2-2.dsc
+ 399e28957be3a759e2ea8d413299c0de 304294 octave-statistics_1.4.2.orig.tar.gz
+ 4e8ff2257e46c25b44699fe610ed86c7 7956 octave-statistics_1.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-octave-team/octave-statistics
+Vcs-Git: https://salsa.debian.org/pkg-octave-team/octave-statistics.git
+Checksums-Sha256:
+ b17210165e7414f43e57cd76d2f470703cd858829c48298704fb052759f5d71c 2195 octave-statistics_1.4.2-2.dsc
+ 7976814f837508e70367548bfb0a6d30aa9e447d4e3a66914d069efb07876247 304294 octave-statistics_1.4.2.orig.tar.gz
+ eba2a548dd056386dd543910911d4cb2acdc0d7bf955ac155a093a284ef230e5 7956 octave-statistics_1.4.2-2.debian.tar.xz
+Homepage: https://octave.sourceforge.io/statistics/
+Package-List: 
+ octave-statistics deb math optional arch=all
+Testsuite: autopkgtest-pkg-octave
+Directory: pool/main/o/octave-statistics
+Priority: source
+Section: math

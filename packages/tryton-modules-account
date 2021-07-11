@@ -1,0 +1,29 @@
+Package: tryton-modules-account
+Binary: tryton-modules-account
+Version: 5.0.16-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 9), dh-python, python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a80c419216b34f502643ff12ec844d45 2522 tryton-modules-account_5.0.16-1.dsc
+ 5117a2166dec39a0a49ff7be0c90a275 397134 tryton-modules-account_5.0.16.orig.tar.gz
+ 313d58d8f3575ba0bc32fe7a4d0242bb 506 tryton-modules-account_5.0.16.orig.tar.gz.asc
+ 67a82b09834acf2cb37163ff73c52102 15092 tryton-modules-account_5.0.16-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/tryton-modules-account
+Vcs-Git: https://salsa.debian.org/tryton-team/tryton-modules-account.git
+Checksums-Sha256:
+ d839388b528d683576fbe06cdecb5189f92ecc32c0c3927c63ffa05fd3d9d0b1 2522 tryton-modules-account_5.0.16-1.dsc
+ 1a0cbe1c00b25ac60ad2eac33fe2fb20f5ffc8026a2a0377dd6441538df240b5 397134 tryton-modules-account_5.0.16.orig.tar.gz
+ 8191cba447fce7533c727a33deeb076ab90f1161160b555448df4936d7022be1 506 tryton-modules-account_5.0.16.orig.tar.gz.asc
+ b919265781bf7dc2895e5f0f24b63063e0ea9b012f64dd18d14f4cb6a63730f6 15092 tryton-modules-account_5.0.16-1.debian.tar.xz
+Homepage: http://www.tryton.org/
+Package-List: 
+ tryton-modules-account deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-setuptools, tryton-proteus
+Directory: pool/main/t/tryton-modules-account
+Priority: source
+Section: python

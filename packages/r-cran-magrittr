@@ -1,0 +1,27 @@
+Package: r-cran-magrittr
+Binary: r-cran-magrittr
+Version: 2.0.1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b8ede829e1d268d2143231d7a7ca75ae 2129 r-cran-magrittr_2.0.1-1.dsc
+ 10d9cda5a9f6b2b537749a1b703af571 265580 r-cran-magrittr_2.0.1.orig.tar.gz
+ cc3abd95a04e0fdaf899ec335b076628 2892 r-cran-magrittr_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-magrittr
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-magrittr.git
+Checksums-Sha256:
+ a3111bafc14c94de98a30601b793c6cd06464ba9749eb1f72534a84ac7dcb7bf 2129 r-cran-magrittr_2.0.1-1.dsc
+ 75c265d51cc2b34beb27040edb09823c7b954d3990a7a931e40690b75d4aad5f 265580 r-cran-magrittr_2.0.1.orig.tar.gz
+ c44d296db437b1cf97ae647a758df851b1758ea9c24e778bc5351d8a070fc174 2892 r-cran-magrittr_2.0.1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=magrittr
+Package-List: 
+ r-cran-magrittr deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-crayon, r-cran-testthat
+Directory: pool/main/r/r-cran-magrittr
+Priority: optional
+Section: misc

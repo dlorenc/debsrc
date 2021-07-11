@@ -1,0 +1,27 @@
+Package: live-config
+Binary: live-config, live-config-doc, live-config-systemd, live-config-sysvinit
+Version: 11.0.2
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Uploaders: Raphaël Hertzog <raphael@offensive-security.com>, Jonathan Carter <jcc@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: lsb-release
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ d22a73938cda0be9193d17f8e4fc8343 1637 live-config_11.0.2.dsc
+ 40c97516f2c79f01a047e1f97acee8ef 77856 live-config_11.0.2.tar.xz
+Vcs-Browser: https://salsa.debian.org/live-team/live-config
+Vcs-Git: https://salsa.debian.org/live-team/live-config.git
+Checksums-Sha256:
+ 7c5b791bc23ada029c27e305aaece30e9cac8271751848d2c5db34a33654d6ec 1637 live-config_11.0.2.dsc
+ c8351f7a715563b0d968de1ccedc375dce2362c5fda85ff2f9c1ae0c094c324e 77856 live-config_11.0.2.tar.xz
+Homepage: https://salsa.debian.org/live-team/live-config
+Package-List: 
+ live-config deb misc optional arch=all
+ live-config-doc deb doc optional arch=all
+ live-config-systemd deb misc optional arch=all
+ live-config-sysvinit deb misc optional arch=all
+Directory: pool/main/l/live-config
+Priority: source
+Section: misc

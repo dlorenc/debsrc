@@ -1,0 +1,27 @@
+Package: libflorist
+Binary: libflorist2020-dev, libflorist2020
+Version: 2017-9
+Maintainer: Ludovic Brenta <lbrenta@debian.org>
+Uploaders: Nicolas Boulenguez <nicolas@debian.org>
+Build-Depends: debhelper-compat (= 13), gnat, gnat-10, dh-sequence-ada-library, gprbuild (>= 2015-2)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2bc5b86d7f8748170508e89863ecdc60 2066 libflorist_2017-9.dsc
+ e3b94b41973a57818e71a812916bae46 291583 libflorist_2017.orig.tar.gz
+ 7eb083678effac767800ade0de300023 9416 libflorist_2017-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libflorist
+Vcs-Git: https://salsa.debian.org/debian/libflorist.git
+Checksums-Sha256:
+ ef5bb787585e82627704a983aacf8fe0e37c9e88b5a9e1dbdacf52ffa110d79d 2066 libflorist_2017-9.dsc
+ 086dd9c027ce4e8630967c99c45e3e280bebbb98d122a04f8e5232808d7d4295 291583 libflorist_2017.orig.tar.gz
+ 22b25beb8834fbc6ad5401aaa5da1d5a93b4fc1ee04b4b966325c3fcaffd9c53 9416 libflorist_2017-9.debian.tar.xz
+Package-List: 
+ libflorist2020 deb libs optional arch=any
+ libflorist2020-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gprbuild
+Directory: pool/main/libf/libflorist
+Priority: source
+Section: libs

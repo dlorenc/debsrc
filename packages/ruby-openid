@@ -1,0 +1,27 @@
+Package: ruby-openid
+Binary: ruby-openid
+Version: 2.9.2debian-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>, Paul van Tilburg <paulvt@debian.org>, Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-hmac, ruby-minitest
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a315cdd2b2a0df113b7930613df51b3a 2211 ruby-openid_2.9.2debian-1.dsc
+ 8710b819b77de9c7cce9adfc19866217 512584 ruby-openid_2.9.2debian.orig.tar.gz
+ 4538940ab9f7ebd09f993e41983ac82e 7304 ruby-openid_2.9.2debian-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-openid
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-openid.git
+Checksums-Sha256:
+ cd069d3efb8a623969260540e64aee5efc39b86b2f65a19f755f3e908841791a 2211 ruby-openid_2.9.2debian-1.dsc
+ ef998d8138c5c1684b079d4bc4fa9635f20db39d1ec5de48dc9b4d3a1aa0f306 512584 ruby-openid_2.9.2debian.orig.tar.gz
+ 2cbb561c8d1a526058dda1ce22ac9e93570da8762ab670318c1dca7088b41cd2 7304 ruby-openid_2.9.2debian-1.debian.tar.xz
+Homepage: https://github.com/openid/ruby-openid
+Package-List: 
+ ruby-openid deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-openid
+Priority: source
+Section: ruby

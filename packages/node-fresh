@@ -1,0 +1,26 @@
+Package: node-fresh
+Binary: node-fresh
+Version: 0.5.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, mocha, nodejs, pkg-js-tools (>= 0.8.7)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 0603f9fc9191792b3ae8366a5cbca44f 2027 node-fresh_0.5.2-1.dsc
+ 97020260f379cf3731659d270f983fdd 6370 node-fresh_0.5.2.orig.tar.gz
+ 94cd5e8b0bf66226d2520892f5ef3dcf 2528 node-fresh_0.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-fresh
+Vcs-Git: https://salsa.debian.org/js-team/node-fresh.git
+Checksums-Sha256:
+ f9057f7ec33d9b1250d3a440e684186ae5d855240965c14ce74d5cde056c5fc8 2027 node-fresh_0.5.2-1.dsc
+ f52fb5994d606c67e6536e7d0fe0055ca990f34d6c89f65db4036d9a96e1d89d 6370 node-fresh_0.5.2.orig.tar.gz
+ 79e66bae337ea84479bfad8ed6d5e6a16532a553509276b604d6843d8acea0a1 2528 node-fresh_0.5.2-1.debian.tar.xz
+Homepage: https://github.com/visionmedia/node-fresh
+Package-List: 
+ node-fresh deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-fresh
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: reportbug
+Binary: reportbug, python3-reportbug, reportbug-gtk
+Version: 7.10.3
+Maintainer: Reportbug Maintainers <debian-reportbug@lists.debian.org>
+Uploaders: Sandro Tosi <morph@debian.org>, Nis Martensen <nis.martensen@web.de>
+Build-Depends: debhelper-compat (= 12), python3, dh-python
+Build-Depends-Indep: python3-pytest, python3-pytest-cov, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 2117487e83e09fa164e317037f9b1807 1887 reportbug_7.10.3.dsc
+ 4f2f1ef6f9faf857df5f2f45781b7108 203264 reportbug_7.10.3.tar.xz
+Vcs-Browser: https://salsa.debian.org/reportbug-team/reportbug
+Vcs-Git: https://salsa.debian.org/reportbug-team/reportbug.git
+Checksums-Sha256:
+ c8e1ddb1881b9f516e2de0925b100fabaf2641489f61ade8ece2e3cada4e8905 1887 reportbug_7.10.3.dsc
+ ff6774dbbaebb1ed346cb2327dfc8cfbaaa17bef70f1272ba3f30500f3f5c396 203264 reportbug_7.10.3.tar.xz
+Package-List: 
+ python3-reportbug deb python standard arch=all
+ reportbug deb utils standard arch=all
+ reportbug-gtk deb utils optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/r/reportbug
+Priority: source
+Section: utils

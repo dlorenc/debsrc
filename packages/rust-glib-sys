@@ -1,0 +1,27 @@
+Package: rust-glib-sys
+Binary: librust-glib-sys-dev
+Version: 0.9.0-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, libglib2.0-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 8d17579ae8815a6a9a6f46166b68dfe4 2381 rust-glib-sys_0.9.0-3.dsc
+ dcd861d64c3e116da99adbd4cb54f48d 48354 rust-glib-sys_0.9.0.orig.tar.gz
+ 0408a2a7c86f4685db51db3a6557eb39 2860 rust-glib-sys_0.9.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/glib-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/glib-sys]
+Checksums-Sha256:
+ 40d4365fba5ab69c115c3cded34ab3baa1d25b1080e42e3aa485686a057775db 2381 rust-glib-sys_0.9.0-3.dsc
+ a922c24969255d04796da89a49dd818fae966e1989511254ee3924fe9f48b006 48354 rust-glib-sys_0.9.0.orig.tar.gz
+ cdf2fd043bb01cc20f1020576488c23e492d81bec3f71f16bf28d8ff687390a6 2860 rust-glib-sys_0.9.0-3.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-glib-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-shell-words-0.1+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-glib-sys
+Priority: extra
+Section: misc

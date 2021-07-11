@@ -1,0 +1,28 @@
+Package: kgb-bot
+Binary: kgb-bot, kgb-client
+Version: 1.58-1
+Maintainer: Debian KGB Maintainers <kgb-bot@packages.debian.org>
+Uploaders: Martín Ferrari <tincho@debian.org>, Damyan Ivanov <dmn@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: git <!nocheck>, libclass-accessor-perl <!nocheck>, libcpan-changes-perl <!nocheck>, libdbd-pg-perl <!nocheck>, libdpkg-perl <!nocheck>, libfile-remove-perl <!nocheck>, libfile-touch-perl <!nocheck>, libipc-run-perl <!nocheck>, libipc-system-simple-perl <!nocheck>, libjson-rpc-perl <!nocheck>, libjson-xs-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libmonkey-patch-perl <!nocheck>, libnet-ip-perl <!nocheck>, libpoe-component-irc-perl <!nocheck>, libpoe-component-server-soap-perl <!nocheck>, libpoe-perl <!nocheck>, libproc-pid-file-perl <!nocheck>, libschedule-ratelimiter-perl <!nocheck>, libsoap-lite-perl <!nocheck>, libsvn-perl <!nocheck>, libtest-compile-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtext-glob-perl <!nocheck>, libwww-shorten-perl <!nocheck>, libyaml-perl <!nocheck>, locales-all, perl, subversion <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e1af73f2bf6152a69053bb6019116ffc 3034 kgb-bot_1.58-1.dsc
+ d227c6f2e5d22f3296b3e76acafe2397 128635 kgb-bot_1.58.orig.tar.gz
+ 07c26ea77f022bbcdf089de9b1d0bbcd 17404 kgb-bot_1.58-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/kgb-team/kgb/
+Vcs-Git: https://salsa.debian.org/kgb-team/kgb.git
+Checksums-Sha256:
+ 68ae16811b1db35f9245ace56f195cb9788bac4d7870def76604b44c88ceaaf7 3034 kgb-bot_1.58-1.dsc
+ b2cc7e36004fefdbd3ed79b1315dd21a8630d6438cf5582e2525cf0a11f07916 128635 kgb-bot_1.58.orig.tar.gz
+ 88cf8e335e462e403357992377cde3ac3655739ea18bf56b370e55bf1d7c0774 17404 kgb-bot_1.58-1.debian.tar.xz
+Homepage: https://salsa.debian.org/kgb-team/kgb/wikis/home
+Package-List: 
+ kgb-bot deb devel optional arch=all
+ kgb-client deb devel optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/k/kgb-bot
+Priority: source
+Section: devel

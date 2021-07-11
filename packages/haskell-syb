@@ -1,0 +1,28 @@
+Package: haskell-syb
+Binary: libghc-syb-dev, libghc-syb-prof, libghc-syb-doc
+Version: 0.7.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7c289df53b6d9e9c61cf17fef4416a86 2247 haskell-syb_0.7.1-2.dsc
+ 8b4330cc60f6f61efc2a937e4658d0f5 39594 haskell-syb_0.7.1.orig.tar.gz
+ 8088e11832e2ecfb78b35a2facdd9f0b 3348 haskell-syb_0.7.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-syb
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-syb]
+Checksums-Sha256:
+ ec3c9c67a7414f486cd91ee0219a715d3ed12dcad3f186357753f910efc764f7 2247 haskell-syb_0.7.1-2.dsc
+ e04a9c7ae48d9fe25e9b7a064f7122d39c710753544511e15df7a6e87fdfe700 39594 haskell-syb_0.7.1.orig.tar.gz
+ 2d443120f0c7ad8c0002aa0316129924a44ea1734eed4b5c8056a591fcb2773b 3348 haskell-syb_0.7.1-2.debian.tar.xz
+Homepage: http://www.cs.uu.nl/wiki/GenericProgramming/SYB
+Package-List: 
+ libghc-syb-dev deb haskell optional arch=any
+ libghc-syb-doc deb doc optional arch=all
+ libghc-syb-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-syb
+Priority: source
+Section: haskell

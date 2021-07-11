@@ -1,0 +1,28 @@
+Package: ruby-method-source
+Binary: ruby-method-source
+Version: 1.0.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2a4ad84172e00fdd4005b5cec5c8a31a 2226 ruby-method-source_1.0.0-2.dsc
+ 8af95c921f9228b021226704593ffd61 9953 ruby-method-source_1.0.0.orig.tar.gz
+ 71e0d64ef77322c1fade104e99f798e8 3572 ruby-method-source_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-method-source
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-method-source.git
+Checksums-Sha256:
+ e7116d2141b3834d42a44737cdc17ceb9fc4a8ede4c24f63b80836e1ceac8893 2226 ruby-method-source_1.0.0-2.dsc
+ 6292d8b63bf248c1a524eb0ff24f3ff62838f7bd20d49a9f11b64425e19d7b72 9953 ruby-method-source_1.0.0.orig.tar.gz
+ 0e71226512b16bef8f6da0cde3fec453bd3f5ff6bd44dcd4b25c366a01b0f166 3572 ruby-method-source_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/banister/method_source
+Package-List: 
+ ruby-method-source deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner, quilt, ruby-rspec
+Directory: pool/main/r/ruby-method-source
+Priority: source
+Section: ruby

@@ -1,0 +1,25 @@
+Package: sweep
+Binary: sweep, sweep-dev
+Version: 0.9.3-9
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), gettext, libasound2-dev [linux-any], libgtk2.0-dev, libmad0-dev, libsamplerate0-dev, libsndfile1-dev, libspeex-dev, libvorbis-dev
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 09b6b499727d5c54753bcef70100a596 1993 sweep_0.9.3-9.dsc
+ be48e5740a06ee21d3d2bd32231d8f7d 1246176 sweep_0.9.3.orig.tar.gz
+ 55f998a7be3ec79c597a716f6652717a 10736 sweep_0.9.3-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sweep
+Vcs-Git: https://salsa.debian.org/debian/sweep.git
+Checksums-Sha256:
+ 251e28be5eb29de8052a1a88a7fe298f27366e50b72db8e289e0a81537cfbcf9 1993 sweep_0.9.3-9.dsc
+ e71ba12d696157170f24c7f00072123f1f78563b42a2ef95bada5dca1633227d 1246176 sweep_0.9.3.orig.tar.gz
+ 091004b91a1f5817bd012b9c9718bf8eb02ce8df28511f3d492a947a8b4b0731 10736 sweep_0.9.3-9.debian.tar.xz
+Homepage: http://www.metadecks.org/software/sweep/
+Package-List: 
+ sweep deb sound optional arch=any
+ sweep-dev deb devel optional arch=all
+Directory: pool/main/s/sweep
+Priority: source
+Section: sound

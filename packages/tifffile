@@ -1,0 +1,27 @@
+Package: tifffile
+Binary: python3-tifffile
+Version: 20210201-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-numpy
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 588d727097cd9a15f4b928902b9d5c49 2124 tifffile_20210201-1.dsc
+ 68b53ac99fdfdaa52b145bc8ea3e4c3f 239047 tifffile_20210201.orig.tar.gz
+ e5b4391a9b5b775451cca4091c8b0fce 7144 tifffile_20210201-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/tifffile
+Vcs-Git: https://salsa.debian.org/python-team/packages/tifffile.git
+Checksums-Sha256:
+ c26bdf6c6050d2309177c8c254829c78ade322bcd326cb9c07fab3b8eae0c572 2124 tifffile_20210201-1.dsc
+ 6793787742e18cf2116bc65e17c51cd9c14cd27a4a6033a8ddd5bf801a637615 239047 tifffile_20210201.orig.tar.gz
+ 9f20ab2d41e444288ac5750486617a8f58060cefeb2071eaa219f0d2a2ecc77b 7144 tifffile_20210201-1.debian.tar.xz
+Homepage: https://www.lfd.uci.edu/~gohlke/
+Package-List: 
+ python3-tifffile deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3, python3-lxml, python3-pytest
+Directory: pool/main/t/tifffile
+Priority: source
+Section: python

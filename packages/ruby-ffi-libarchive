@@ -1,0 +1,27 @@
+Package: ruby-ffi-libarchive
+Binary: ruby-ffi-libarchive
+Version: 1.0.1-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Kanashiro <lucas.kanashiro@canonical.com>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), ruby-ffi (>= 1.0), libarchive-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 727a2f135bc35acc7e526d499a67d9c7 2161 ruby-ffi-libarchive_1.0.1-1.dsc
+ 6a355fa8faa0d767c9ca81170662b145 20675 ruby-ffi-libarchive_1.0.1.orig.tar.gz
+ 702957d101a211d09a9e15f4657ae5eb 2228 ruby-ffi-libarchive_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ffi-libarchive
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ffi-libarchive.git
+Checksums-Sha256:
+ b57c017a7b297657f974c9be3bcd9cd8c4705c8ac38204d373d8420170e9ac06 2161 ruby-ffi-libarchive_1.0.1-1.dsc
+ 4b869f53670899beab807e6e70202316d69a110576481f400877b589b44c610b 20675 ruby-ffi-libarchive_1.0.1.orig.tar.gz
+ 6d88f8d7dba05a5cf63b9b0f1860d43ab8d56185cac38e57d2acda2c7ac6acd1 2228 ruby-ffi-libarchive_1.0.1-1.debian.tar.xz
+Homepage: https://github.com/chef/ffi-libarchive
+Package-List: 
+ ruby-ffi-libarchive deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ffi-libarchive
+Priority: extra
+Section: misc

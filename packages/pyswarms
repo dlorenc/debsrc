@@ -1,0 +1,28 @@
+Package: pyswarms
+Binary: python3-pyswarms, python-pyswarms-doc
+Version: 1.3.0-1
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Christian Kastner <ckk@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-attr, python3-numpy, python3-scipy, python3-future, python3-yaml, python3-tqdm, python3-matplotlib, python3-pytest <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-nbsphinx <!nodoc>, pandoc <!nodoc>, python3-pandocfilters <!nodoc>, python3-doc <!nodoc>, python-numpy-doc <!nodoc>, python-scipy-doc <!nodoc>, python-matplotlib-doc <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 985d8cde5098d3c815e49d20caba51e7 2519 pyswarms_1.3.0-1.dsc
+ d696ecc5e6f2a98e5762fa4107e35ebc 29246028 pyswarms_1.3.0.orig.tar.gz
+ e0b2275522be0b2e46d0d2997ed8ed5e 9316 pyswarms_1.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/pyswarms
+Vcs-Git: https://salsa.debian.org/science-team/pyswarms.git
+Checksums-Sha256:
+ ce9faeb868600e1d7df6243fc21a68aa918312fec37c16bd6815b3988a0841a8 2519 pyswarms_1.3.0-1.dsc
+ 8ae477f52cdfbd0b0a5be86bc0c1d93b3d46d7d5359e8730373896f506667739 29246028 pyswarms_1.3.0.orig.tar.gz
+ 117e87f90530e324d215a8e238fd8396f726011250706c3f3b79a6217256ee99 9316 pyswarms_1.3.0-1.debian.tar.xz
+Homepage: https://github.com/ljvmiranda921/pyswarms/
+Package-List: 
+ python-pyswarms-doc deb doc optional arch=all
+ python3-pyswarms deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-matplotlib, python3-pytest
+Directory: pool/main/p/pyswarms
+Priority: extra
+Section: misc

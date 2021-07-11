@@ -1,0 +1,27 @@
+Package: rust-parse-arg
+Binary: librust-parse-arg-dev
+Version: 0.1.4-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Martin Habovstiak <martin.habovstiak@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7d838272d9fcef6f54c6a9e01f898ea7 2182 rust-parse-arg_0.1.4-2.dsc
+ aa0600f98d25add668715650c8a87144 6999 rust-parse-arg_0.1.4.orig.tar.gz
+ edfe4275924de4978a85d4fa10ccb62b 2720 rust-parse-arg_0.1.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/parse-arg
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/parse-arg]
+Checksums-Sha256:
+ 7129b76177a79fa122ca94b1c48fe09ba0802068c49ca42a6f8d086442c1ab54 2182 rust-parse-arg_0.1.4-2.dsc
+ 14248cc8eced350e20122a291613de29e4fa129ba2731818c4cdbb44fccd3e55 6999 rust-parse-arg_0.1.4.orig.tar.gz
+ 20e9f8f5e4a2cfa1ab88bf3296fe3126e71c249f36371f5132f5326481a6cd0b 2720 rust-parse-arg_0.1.4-2.debian.tar.xz
+Homepage: https://github.com/Kixunil/parse_arg
+Package-List: 
+ librust-parse-arg-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-parse-arg
+Priority: extra
+Section: misc

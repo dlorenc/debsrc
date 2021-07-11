@@ -1,0 +1,27 @@
+Package: smpeg
+Binary: libsmpeg0, libsmpeg-dev, smpeg-plaympeg
+Version: 0.4.5+cvs20030824-9
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Uploaders: Manuel A. Fernandez Montecelo <mafm@debian.org>, Sam Hocevar (Debian packages) <sam+deb@zoy.org>
+Build-Depends: debhelper (>= 11~), chrpath, libsdl1.2-dev (>= 1.2.2-3.1)
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 504d343a080c09a84cd57e96845697dd 2184 smpeg_0.4.5+cvs20030824-9.dsc
+ 78110f18fe9f1ffc61e6cbbd40a823b5 340290 smpeg_0.4.5+cvs20030824.orig.tar.gz
+ 0670aea958b2aff267ad351cc5ad73ac 18296 smpeg_0.4.5+cvs20030824-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/sdl-team/smpeg
+Vcs-Git: https://salsa.debian.org/sdl-team/smpeg.git
+Checksums-Sha256:
+ cd71680d44a0002a06f011e743337d00e54c0da19205d593a064721fbd49dc9b 2184 smpeg_0.4.5+cvs20030824-9.dsc
+ 1276ea797dd9fde8a12dd3f33f180153922544c28ca9fc7b477c018876be1916 340290 smpeg_0.4.5+cvs20030824.orig.tar.gz
+ 621f833de3a967a3b17d54f1e9b1bb741a45d5ec07fc0659b65d594d9149840a 18296 smpeg_0.4.5+cvs20030824-9.debian.tar.xz
+Homepage: https://icculus.org/smpeg/
+Package-List: 
+ libsmpeg-dev deb libdevel optional arch=any
+ libsmpeg0 deb libs optional arch=any
+ smpeg-plaympeg deb video optional arch=any
+Directory: pool/main/s/smpeg
+Priority: source
+Section: video

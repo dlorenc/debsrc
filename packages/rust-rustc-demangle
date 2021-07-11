@@ -1,0 +1,30 @@
+Package: rust-rustc-demangle
+Binary: librust-rustc-demangle-dev, librust-rustc-demangle+compiler-builtins-dev, librust-rustc-demangle+core-dev, librust-rustc-demangle+rustc-dep-of-std-dev
+Version: 0.1.16-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6723c96bc4bf98dfb6d18bada6a6c7ee 2604 rust-rustc-demangle_0.1.16-4.dsc
+ 94136c77f70313d3162e031638fc67ed 19137 rust-rustc-demangle_0.1.16.orig.tar.gz
+ 64b7b5f8d0547488540fd9c1071cb43d 3172 rust-rustc-demangle_0.1.16-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustc-demangle
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustc-demangle]
+Checksums-Sha256:
+ 7762ce6218c8d09aae24783f2378b5e2a55810c49a876d80cbf176a53799d73a 2604 rust-rustc-demangle_0.1.16-4.dsc
+ 4c691c0e608126e00913e33f0ccf3727d5fc84573623b8d65b2df340b5201783 19137 rust-rustc-demangle_0.1.16.orig.tar.gz
+ eb3ec48cfdfde42eaaf3a1008a9073365256d2999b2bca26aa6c929b4229d6d5 3172 rust-rustc-demangle_0.1.16-4.debian.tar.xz
+Homepage: https://github.com/alexcrichton/rustc-demangle
+Package-List: 
+ librust-rustc-demangle+compiler-builtins-dev deb rust optional arch=any
+ librust-rustc-demangle+core-dev deb rust optional arch=any
+ librust-rustc-demangle+rustc-dep-of-std-dev deb rust optional arch=any
+ librust-rustc-demangle-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rustc-demangle
+Priority: extra
+Section: misc

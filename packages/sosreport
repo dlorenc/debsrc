@@ -1,0 +1,25 @@
+Package: sosreport
+Binary: sosreport
+Version: 4.0-2
+Maintainer: Eric Desrochers <slashd@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), dh-python, gettext, python3-all, python3-nose, python3-setuptools, python3-sphinx
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 988c1ef1359670595d62f5ba29e8635c 1944 sosreport_4.0-2.dsc
+ b2cbd9d2c85eecbb3221cb4a462c205a 328771 sosreport_4.0.orig.tar.gz
+ fd316d3d076ca16bd83476993390e17f 11860 sosreport_4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/sosreport-team/sosreport
+Vcs-Git: https://salsa.debian.org/sosreport-team/sosreport.git
+Checksums-Sha256:
+ 4a0fcc4d90c8f429b3325931d33d4632c12674c384c44b6004e04e30979e8d6b 1944 sosreport_4.0-2.dsc
+ 06859fa29d9accabe193a16d5cdc8d4c83e28bb6fbf732874ec864cf2d6067cc 328771 sosreport_4.0.orig.tar.gz
+ 94023821cdb6b5bec82a93fa0a9df1c6b4d479a700f2dce48aebb69a66181431 11860 sosreport_4.0-2.debian.tar.xz
+Homepage: https://github.com/sosreport/sos
+Package-List: 
+ sosreport deb admin optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/s/sosreport
+Priority: optional
+Section: misc

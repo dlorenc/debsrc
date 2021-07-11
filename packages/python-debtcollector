@@ -1,0 +1,28 @@
+Package: python-debtcollector
+Binary: python-debtcollector-doc, python3-debtcollector
+Version: 2.2.0-3
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 9), dh-python, openstack-pkg-tools, python3-all, python3-pbr (>= 2.0.0), python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-coverage, python3-fixtures, python3-hacking, python3-openstackdocstheme, python3-six, python3-stestr <!nocheck>, python3-testtools <!nocheck>, python3-wrapt, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4d3fa7435314a0fa4e3793b08a586bca 2436 python-debtcollector_2.2.0-3.dsc
+ ee7e3ee08449d671863f1174acd87744 21864 python-debtcollector_2.2.0.orig.tar.xz
+ 2f93c4fb401c5fed73fbf66250c0b312 3760 python-debtcollector_2.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/libs/python-debtcollector
+Vcs-Git: https://salsa.debian.org/openstack-team/libs/python-debtcollector.git
+Checksums-Sha256:
+ e596d1a3d6c39074e38baac99f14f6c002ea3b124198207fcaad01622ffb65e3 2436 python-debtcollector_2.2.0-3.dsc
+ 7176a22bee91cc35b5fdc0a97e5b4bfcd6c929c6468bb45ce323f2e941c8d16e 21864 python-debtcollector_2.2.0.orig.tar.xz
+ 5f5d5e73156839a6b3be5fb2a19fa9256767bc39fdc79d14b916cc2c1beae58b 3760 python-debtcollector_2.2.0-3.debian.tar.xz
+Homepage: http://www.openstack.org/
+Package-List: 
+ python-debtcollector-doc deb doc optional arch=all
+ python3-debtcollector deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/python-debtcollector
+Priority: optional
+Section: misc

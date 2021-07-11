@@ -1,0 +1,27 @@
+Package: ruby-prawn-svg
+Binary: ruby-prawn-svg
+Version: 0.31.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Keith Packard <keithp@keithp.com>
+Build-Depends: debhelper-compat (= 13), debhelper (>= 13), gem2deb, rake, ruby-css-parser (>= 1.6), ruby-prawn (<< 3), ruby-prawn (>= 0.11.1), ruby-rspec
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 57b8020cfd686b575f52e6f874691bfc 2157 ruby-prawn-svg_0.31.0-1.dsc
+ 2e5fbd5bfd43247629e63819fd4f9a38 275707 ruby-prawn-svg_0.31.0.orig.tar.gz
+ 6e5babdc7a3b4461a48906cbc0ee7c20 2316 ruby-prawn-svg_0.31.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/keithp/ruby-prawn-svg
+Vcs-Git: https://salsa.debian.org/keithp/ruby-prawn-svg.git
+Checksums-Sha256:
+ 48fb2fc65423245611ffe56a85ed913df7ca25a5689b9747b9ae2076f0f7edba 2157 ruby-prawn-svg_0.31.0-1.dsc
+ 99da7536b12185d4f08ded8f04925e66457fc8cb97ac122944044da3278b8d68 275707 ruby-prawn-svg_0.31.0.orig.tar.gz
+ 9d7af423f449830f263c7807ba477dd91cc6aa69a7474eadf3c78317d06cb3a6 2316 ruby-prawn-svg_0.31.0-1.debian.tar.xz
+Homepage: https://github.com/mogest/prawn-svg
+Package-List: 
+ ruby-prawn-svg deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-prawn-svg
+Priority: extra
+Section: misc

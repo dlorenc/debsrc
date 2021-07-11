@@ -1,0 +1,27 @@
+Package: rust-gstreamer-video-sys
+Binary: librust-gstreamer-video-sys-dev
+Version: 0.8.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sebastian Dröge <slomo@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-gstreamer-base-sys-0.8+default-dev <!nocheck>, librust-gstreamer-sys-0.8+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, libgstreamer-plugins-base1.0-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 8b3453ed98d7586f23edae2072fd45d0 2695 rust-gstreamer-video-sys_0.8.0-2.dsc
+ 5412df812116c2049c50b96f0b231147 30604 rust-gstreamer-video-sys_0.8.0.orig.tar.gz
+ f715ddac2b953aa3b9765e2dd05a9eda 2888 rust-gstreamer-video-sys_0.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-video-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-video-sys]
+Checksums-Sha256:
+ bdb669c3bb00d1af2a991bf98843d54dd980f5ec32d8b344f3c8f47c3098e6cf 2695 rust-gstreamer-video-sys_0.8.0-2.dsc
+ 6b8fcb1e577de93d1ad1e5117234ce64d40f215143d752140719923651608983 30604 rust-gstreamer-video-sys_0.8.0.orig.tar.gz
+ c1e5a793c6a8866c05bb8f2a303c305fa7732181ee72c6c6bcdf36830fd2564a 2888 rust-gstreamer-video-sys_0.8.0-2.debian.tar.xz
+Homepage: https://gstreamer.freedesktop.org
+Package-List: 
+ librust-gstreamer-video-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-shell-words-0.1+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-gstreamer-video-sys
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: s6
+Binary: libs6-2.10, libs6-dev, s6, s6-doc
+Version: 2.10.0.2-1
+Maintainer: Shengjing Zhu <zhsj@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2c9dc836315ef4e26f390782d40b388c 1437 s6_2.10.0.2-1.dsc
+ 98d2d86656b702b4e8432b6b07539321 212576 s6_2.10.0.2.orig.tar.gz
+ d99b8c8d4b9c273e3f601b7e8d6add3a 3964 s6_2.10.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/zhsj/s6
+Vcs-Git: https://salsa.debian.org/zhsj/s6.git
+Checksums-Sha256:
+ ebd9482ebe3fafb24326a58ded56d5cef329aa54b8ca401ab58e2ec34c341522 1437 s6_2.10.0.2-1.dsc
+ 315ad54415e10e68962f091159286904721daa355c487f654c093381b7d4594a 212576 s6_2.10.0.2.orig.tar.gz
+ c5b391acc9c3c6df42c84463cc4f0d3768a887d3c16bba71ce26bb5f01ac86d6 3964 s6_2.10.0.2-1.debian.tar.xz
+Homepage: https://skarnet.org/software/s6/
+Build-Depends-Arch: libexecline-dev (>= 2.7.0.1), skalibs-dev (>= 2.10.0.2)
+Package-List: 
+ libs6-2.10 deb libs optional arch=any
+ libs6-dev deb libdevel optional arch=any
+ s6 deb admin optional arch=any
+ s6-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/s/s6
+Priority: extra
+Section: misc

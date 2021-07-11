@@ -1,0 +1,27 @@
+Package: dnss
+Binary: dnss
+Version: 0.0~git20200927.0.6aad832e-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Alberto Bertogli <albertito@blitiri.com.ar>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-blitiri-go-log-dev, golang-blitiri-go-systemd-dev, golang-github-miekg-dns-dev, golang-golang-x-net-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 12935718c35674ab46416dbe2a6566b0 1669 dnss_0.0~git20200927.0.6aad832e-2.dsc
+ bf950635c0a19ea123754623501d4de4 26392 dnss_0.0~git20200927.0.6aad832e.orig.tar.xz
+ 9085cd2c72d9321003bfa41f03d4ef50 3932 dnss_0.0~git20200927.0.6aad832e-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/dnss
+Vcs-Git: https://salsa.debian.org/go-team/packages/dnss.git
+Checksums-Sha256:
+ 8d17143d4a819c56a480d011ac2edeae4341727c319513fad7bad8b3aae0a578 1669 dnss_0.0~git20200927.0.6aad832e-2.dsc
+ 51b81a3f026763c649106be4f89126ececaffc46b4fd7327f3d8ecab721a3ba3 26392 dnss_0.0~git20200927.0.6aad832e.orig.tar.xz
+ 8269292edcd5d87c5a7e816d5eb6f6920040f705c62c5cd8e52b88334079ab2c 3932 dnss_0.0~git20200927.0.6aad832e-2.debian.tar.xz
+Homepage: https://blitiri.com.ar/git/r/dnss/b/master/t/f=README.md.html
+Go-Import-Path: blitiri.com.ar/go/dnss
+Package-List: 
+ dnss deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/d/dnss
+Priority: optional
+Section: misc

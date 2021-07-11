@@ -1,0 +1,25 @@
+Package: tcpflow
+Binary: tcpflow, tcpflow-nox
+Version: 1.5.2+repack1-1
+Maintainer: Dima Kogan <dkogan@debian.org>
+Build-Depends: debhelper (>= 9), libpcap0.8-dev, zlib1g, autoconf, automake, openssl, libssl-dev, libboost-dev, libcairo2-dev, libhttp-parser-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 81984d59f7ae336ca881da81cc53c32b 2049 tcpflow_1.5.2+repack1-1.dsc
+ 4348cdfa9e1d61a459d1f696204fbeff 1045375 tcpflow_1.5.2+repack1.orig.tar.gz
+ a814d82438d5541a03855380f5b92b71 9308 tcpflow_1.5.2+repack1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/tcpflow
+Vcs-Git: https://salsa.debian.org/debian/tcpflow.git
+Checksums-Sha256:
+ 2bf6b7cbf9139096f5948038da65b277cd6b3523669e40aae72da564bcea140c 2049 tcpflow_1.5.2+repack1-1.dsc
+ d074b6291077e7a6ed2c647580c6f3771ce12a00d873c80ebcb700153bbbf100 1045375 tcpflow_1.5.2+repack1.orig.tar.gz
+ ec1b493cdb4486519bb2ab7bae7d42ce4a673a1986531394bf33d49c05e59643 9308 tcpflow_1.5.2+repack1-1.debian.tar.xz
+Homepage: https://github.com/simsong/tcpflow
+Package-List: 
+ tcpflow deb net optional arch=any
+ tcpflow-nox deb net optional arch=any
+Directory: pool/main/t/tcpflow
+Priority: source
+Section: net

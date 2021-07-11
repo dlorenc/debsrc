@@ -1,0 +1,31 @@
+Package: libkf5sane
+Binary: libkf5sane-data, libkf5sane-dev, libkf5sane5
+Version: 20.12.0-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Moore <sgmoore@kde.org>, Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.0.0~), debhelper-compat (= 13), extra-cmake-modules (>= 5.55.0~), gettext, libkf5i18n-dev (>= 5.55.0~), libkf5textwidgets-dev (>= 5.55.0~), libkf5wallet-dev (>= 5.55.0~), libkf5widgetsaddons-dev (>= 5.55.0~), libsane-dev, libx11-dev, pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.7.0~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9d3b572a83d02407e3ad97537eb03b68 2746 libkf5sane_20.12.0-1.dsc
+ 4f81b0c2dd4f0c28583e39a3b0e81cb3 145372 libkf5sane_20.12.0.orig.tar.xz
+ 8a663a707bd51093c7d8645110a239a3 488 libkf5sane_20.12.0.orig.tar.xz.asc
+ 6eeafc5b0b50f0b9ddf08091a0b09865 12204 libkf5sane_20.12.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/libksane
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/libksane.git
+Checksums-Sha256:
+ a2d20470c1af74c7dd9db641328a2ccc9ebce77bc3e3d520eeafabd32a0c31a8 2746 libkf5sane_20.12.0-1.dsc
+ 5bc01f05a55e1d97a45352b9f708af25e09324618836b8a60c59fa2c6e77d066 145372 libkf5sane_20.12.0.orig.tar.xz
+ 5392094a9a400aab3ec1a4f698db78452b4448e3f5748a70a29134d737718983 488 libkf5sane_20.12.0.orig.tar.xz.asc
+ 248c188bbc13982cb3910f29c2e94affcc19fc5cf51929f879aeea538ec3a854 12204 libkf5sane_20.12.0-1.debian.tar.xz
+Homepage: https://invent.kde.org/graphics/libksane
+Package-List: 
+ libkf5sane-data deb libs optional arch=all
+ libkf5sane-dev deb libdevel optional arch=any
+ libkf5sane5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/libk/libkf5sane
+Priority: optional
+Section: misc

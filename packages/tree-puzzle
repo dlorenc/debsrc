@@ -1,0 +1,28 @@
+Package: tree-puzzle
+Binary: tree-puzzle, tree-ppuzzle, tree-puzzle-doc
+Version: 5.3~rc16+dfsg-8
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Charles Plessy <plessy@debian.org>
+Build-Depends: debhelper-compat (= 13), libopenmpi-dev, libsprng2-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2367e36fe610bfffff8d9d91c45c0d53 2235 tree-puzzle_5.3~rc16+dfsg-8.dsc
+ b08d86d1fef6fab78eeec9ba376efcb3 590656 tree-puzzle_5.3~rc16+dfsg.orig.tar.xz
+ 6d0995b164f93f9ce3f70e6f6a02edb6 31004 tree-puzzle_5.3~rc16+dfsg-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/tree-puzzle
+Vcs-Git: https://salsa.debian.org/med-team/tree-puzzle.git
+Checksums-Sha256:
+ 5cdbe481b7ebed0669c9c589d9ed240ecc0b1ffc80589dc8ee9f86cb131b16d5 2235 tree-puzzle_5.3~rc16+dfsg-8.dsc
+ 825526224b27813aebd2d9d5ccec5195116964225b73d8ffc1252d3676b0a420 590656 tree-puzzle_5.3~rc16+dfsg.orig.tar.xz
+ cdec72ef1c30228959d7f3f7d6ab4ee89c1de9d0b64f3edbf40f9269c467fec1 31004 tree-puzzle_5.3~rc16+dfsg-8.debian.tar.xz
+Homepage: http://www.tree-puzzle.de
+Package-List: 
+ tree-ppuzzle deb science optional arch=any
+ tree-puzzle deb science optional arch=any
+ tree-puzzle-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/t/tree-puzzle
+Priority: source
+Section: science

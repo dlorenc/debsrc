@@ -1,0 +1,29 @@
+Package: node-json-schema
+Binary: node-json-schema
+Version: 0.3.0+~7.0.6-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Amarpreet Arora <aroraak15.it@coep.ac.in>, Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), jq, pandoc <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5939fb8c53b3d22ca2f107240cb3dff0 2472 node-json-schema_0.3.0+~7.0.6-1.dsc
+ 328926a2c1b1147dfb51533853c95b2b 6121 node-json-schema_0.3.0+~7.0.6.orig-Xtypes.tar.gz
+ e685c6dcac976e0cc2cb70a9fb994160 37655 node-json-schema_0.3.0+~7.0.6.orig.tar.gz
+ 2a9f18cd64f25f461338de564d6476e9 5868 node-json-schema_0.3.0+~7.0.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-json-schema
+Vcs-Git: https://salsa.debian.org/js-team/node-json-schema.git
+Checksums-Sha256:
+ fe7fa24ed4989b6daf2948568618b83f9a96ac09ef00e364ee143275cd88e95c 2472 node-json-schema_0.3.0+~7.0.6-1.dsc
+ 42752da08b762ed42f4969899777b9a440b67fbc300f0c5709268c71e346c6b7 6121 node-json-schema_0.3.0+~7.0.6.orig-Xtypes.tar.gz
+ fb496401c7e6fe75cbe22132a1a1624e2d8f257d8c5cb417296125ceef287ca9 37655 node-json-schema_0.3.0+~7.0.6.orig.tar.gz
+ aef310e3caa7cdfb2d7ac315fcecbe452621f1d50429d634f84bebd0e48ece4b 5868 node-json-schema_0.3.0+~7.0.6-1.debian.tar.xz
+Homepage: https://github.com/kriszyp/json-schema
+Package-List: 
+ node-json-schema deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: nodejs
+Directory: pool/main/n/node-json-schema
+Priority: optional
+Section: javascript

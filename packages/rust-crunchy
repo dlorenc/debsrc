@@ -1,0 +1,26 @@
+Package: rust-crunchy
+Binary: librust-crunchy-dev
+Version: 0.2.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 16187ce15b68f38b1a036e1a3cbf828a 2104 rust-crunchy_0.2.2-1.dsc
+ 32e5a346cb92729cf6c2d8d0e8202c73 2995 rust-crunchy_0.2.2.orig.tar.gz
+ aefbb362501c3021db696bf3e1a86b9c 2620 rust-crunchy_0.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crunchy
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crunchy]
+Checksums-Sha256:
+ b87eeb4c68b6710ddcf6315b06b93db166bac38c73ce6c3a9728e79c6b8061c4 2104 rust-crunchy_0.2.2-1.dsc
+ 7a81dae078cea95a014a339291cec439d2f232ebe854a9d672b796c6afafa9b7 2995 rust-crunchy_0.2.2.orig.tar.gz
+ c4a9bd51e6e968f8449c769e2ecd0131a363e66a645313f8428fd665b0e78e24 2620 rust-crunchy_0.2.2-1.debian.tar.xz
+Package-List: 
+ librust-crunchy-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-crunchy
+Priority: extra
+Section: misc

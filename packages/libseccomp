@@ -1,0 +1,32 @@
+Package: libseccomp
+Binary: libseccomp-dev, libseccomp2, seccomp, python3-seccomp
+Version: 2.5.1-1
+Maintainer: Kees Cook <kees@debian.org>
+Uploaders: Luca Bruno <lucab@debian.org>, Felix Geyer <fgeyer@debian.org>
+Build-Depends: debhelper-compat (= 12), linux-libc-dev, dh-python <!nopython>, python3-all-dev:any <!nopython>, libpython3-all-dev <!nopython>, cython3:native <!nopython>, valgrind [amd64 arm64 armhf i386 mips mips64 powerpc ppc64 ppc64el s390x] <!nocheck>, gperf
+Architecture: linux-any
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ 5aad4be617a53025a9e037ec3af3fa14 2676 libseccomp_2.5.1-1.dsc
+ 59f5563c532d3fa1df9db0516b36b1cd 638811 libseccomp_2.5.1.orig.tar.gz
+ a70bd435a38d8d3dee746f9be1efa0fe 833 libseccomp_2.5.1.orig.tar.gz.asc
+ 2658da1096ce40ac8bef11c6e911b828 16088 libseccomp_2.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libseccomp
+Vcs-Git: https://salsa.debian.org/debian/libseccomp.git
+Checksums-Sha256:
+ dca165a5c3308ce0b2e030afa709892fba27f62fe9bc30c984bafe0d5f8e10ee 2676 libseccomp_2.5.1-1.dsc
+ ee307e383c77aa7995abc5ada544d51c9723ae399768a97667d4cdb3c3a30d55 638811 libseccomp_2.5.1.orig.tar.gz
+ 14d45c86e5ceed5ac5511c3ebf70a4dca128b7584b314dc8a551c779ea225d2e 833 libseccomp_2.5.1.orig.tar.gz.asc
+ 09a67e85111bafdda96efe64b7c0c3135a6875ab2d8936f3650e229ba82a2eb1 16088 libseccomp_2.5.1-1.debian.tar.xz
+Homepage: https://github.com/seccomp/libseccomp
+Package-List: 
+ libseccomp-dev deb libdevel optional arch=linux-any
+ libseccomp2 deb libs optional arch=linux-any
+ python3-seccomp deb python optional arch=linux-any profile=!nopython
+ seccomp deb utils optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/libs/libseccomp
+Priority: source
+Section: libs

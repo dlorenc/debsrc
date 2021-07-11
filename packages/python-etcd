@@ -1,0 +1,25 @@
+Package: python-etcd
+Binary: python3-etcd
+Version: 0.4.5-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, python3-all, python3-dnspython <!nocheck>, python3-mock <!nocheck>, python3-nose <!nocheck>, python3-openssl <!nocheck>, python3-setuptools, python3-urllib3 <!nocheck>
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ e017a92cce2b0a244e2986a9bc3aeaec 2150 python-etcd_0.4.5-2.dsc
+ a6607033cada348e97d35b9d6656156a 38902 python-etcd_0.4.5.orig.tar.gz
+ 824a6daf80a6801863070f5c1471fa2e 2876 python-etcd_0.4.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-etcd
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-etcd.git
+Checksums-Sha256:
+ a2158b0f1a54c751b7f132c46b248fa648e80aee1fee29a711788e8bdbb2ab04 2150 python-etcd_0.4.5-2.dsc
+ 208e5794dd86d1a0a51753b0cd05caa2b55ff6917f917d88a92fd0b760d838db 38902 python-etcd_0.4.5.orig.tar.gz
+ 2c19310536f6ba79fd76b7d3051f09bb6095697c70cb04bd6a33002e7cde2aae 2876 python-etcd_0.4.5-2.debian.tar.xz
+Homepage: https://github.com/jplana/python-etcd
+Package-List: 
+ python3-etcd deb python optional arch=all
+Directory: pool/main/p/python-etcd
+Priority: optional
+Section: misc

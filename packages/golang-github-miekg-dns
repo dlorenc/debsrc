@@ -1,0 +1,27 @@
+Package: golang-github-miekg-dns
+Binary: golang-github-miekg-dns-dev
+Version: 1.1.35-1
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tonnerre LOMBARD <tonnerre@ancient-solutions.com>, Tim Potter <tpot@hpe.com>, Martín Ferrari <tincho@debian.org>, Dmitry Smirnov <onlyjob@debian.org>, Eric Dorland <eric@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.17~), golang-any (>= 2:1.10~), golang-golang-x-crypto-dev, golang-golang-x-net-dev (>= 1:0.0+git20180124), golang-golang-x-sync-dev, golang-golang-x-tools-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2554026027aa727e561291e74f14631d 2472 golang-github-miekg-dns_1.1.35-1.dsc
+ f911eae03a206559d23ef48eed154be6 197846 golang-github-miekg-dns_1.1.35.orig.tar.gz
+ fd0f8c439de0e2f89387e101e9c9f347 4556 golang-github-miekg-dns_1.1.35-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-miekg-dns
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-miekg-dns.git
+Checksums-Sha256:
+ a703246422768a61540b10da37375526b9a468f373c0079892b957723765dfc6 2472 golang-github-miekg-dns_1.1.35-1.dsc
+ 155a7a463dc353fc229aa107d9d23e3333b2fd47e2149319a8d3143c29ccca2a 197846 golang-github-miekg-dns_1.1.35.orig.tar.gz
+ f35ba6322f207e98285b5f77fa05f9d99debe50fc3db3430f5a88265654c429b 4556 golang-github-miekg-dns_1.1.35-1.debian.tar.xz
+Homepage: https://github.com/miekg/dns
+Go-Import-Path: github.com/miekg/dns
+Package-List: 
+ golang-github-miekg-dns-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-miekg-dns
+Priority: extra
+Section: golang

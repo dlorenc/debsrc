@@ -1,0 +1,27 @@
+Package: golang-github-karlseguin-ccache
+Binary: golang-github-karlseguin-ccache-dev
+Version: 2.0.3-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-karlseguin-expect-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 870b713dd245c0a8e68cedc9f4c10724 2310 golang-github-karlseguin-ccache_2.0.3-1.dsc
+ 6e9a8e7ce7df471a366049507e7ba5ca 12377 golang-github-karlseguin-ccache_2.0.3.orig.tar.gz
+ c1ab0bb79a8f2d857bd4d38169b6fd85 2816 golang-github-karlseguin-ccache_2.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-karlseguin-ccache
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-karlseguin-ccache.git
+Checksums-Sha256:
+ 4a395ec83e5bb69fcb9adc059f993ad31a35c1ea81008822a85e2fc0270e6176 2310 golang-github-karlseguin-ccache_2.0.3-1.dsc
+ 88af2aba89760fe2de218c51a87cfcc79c8029276888c99fd8aade47c7f0b80c 12377 golang-github-karlseguin-ccache_2.0.3.orig.tar.gz
+ 553ba9182728751f63417ff996f97f64ab848daf5cd87c97ce0f55c917902dbd 2816 golang-github-karlseguin-ccache_2.0.3-1.debian.tar.xz
+Homepage: https://github.com/karlseguin/ccache
+Go-Import-Path: github.com/karlseguin/ccache
+Package-List: 
+ golang-github-karlseguin-ccache-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-karlseguin-ccache
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: python-adal
+Binary: python3-adal
+Version: 1.2.2-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Nicolas Dandrimont <olasd@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-cryptography (>= 1.1.0), python3-dateutil (>= 2.1.0), python3-httpretty (>= 0.9), python3-jwt (>= 1.0.0), python3-mock, python3-requests (>= 2.0.0), python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c7fc85f486a8cb08c9018aef567428e6 2326 python-adal_1.2.2-1.dsc
+ c5357103308940ea5d86fcc19fc7083b 120404 python-adal_1.2.2.orig.tar.gz
+ 01736bdc0572b04be4933a820bd425bc 5732 python-adal_1.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-adal
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-adal.git
+Checksums-Sha256:
+ 5e9418794e0025aeb448538be8f7b73d54b58edb744bb9b284a1f599bb681f20 2326 python-adal_1.2.2-1.dsc
+ 1c81894a99a5616c0318f5677e0c7ae68d93be6ab0dbebfcb8ed68a3caef3897 120404 python-adal_1.2.2.orig.tar.gz
+ ba5e3a4c409b7b38483d31499b011788845ac28d73ef0834b8a44b77068ff1db 5732 python-adal_1.2.2-1.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/adal/
+Package-List: 
+ python3-adal deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-httpretty, python3-mock, python3-pytest
+Directory: pool/main/p/python-adal
+Priority: optional
+Section: misc

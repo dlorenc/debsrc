@@ -1,0 +1,26 @@
+Package: rust-dyn-clone
+Binary: librust-dyn-clone-dev
+Version: 1.0.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ abd14bf76716eed2c23261f0e0ad9116 1526 rust-dyn-clone_1.0.2-1.dsc
+ 8083345d408448b5ca81145a207b2ddf 9468 rust-dyn-clone_1.0.2.orig.tar.gz
+ 41255e4f6daaf5284fd1ff8285bafd87 2504 rust-dyn-clone_1.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/dyn-clone
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/dyn-clone]
+Checksums-Sha256:
+ 41d36d819475f794b8b33686fd6edfa69aaea096f6e226e5fa787cc562b05991 1526 rust-dyn-clone_1.0.2-1.dsc
+ 4c53dc3a653e0f64081026e4bf048d48fec9fce90c66e8326ca7292df0ff2d82 9468 rust-dyn-clone_1.0.2.orig.tar.gz
+ ce955d17d887ffdb7a9cf5fffdea8e5e055c3c9f109b5970a44e4f090231ea6f 2504 rust-dyn-clone_1.0.2-1.debian.tar.xz
+Package-List: 
+ librust-dyn-clone-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-dyn-clone
+Priority: extra
+Section: misc

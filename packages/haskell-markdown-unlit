@@ -1,0 +1,27 @@
+Package: haskell-markdown-unlit
+Binary: libghc-markdown-unlit-dev, libghc-markdown-unlit-prof, libghc-markdown-unlit-doc, markdown-unlit
+Version: 0.5.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-base-compat-dev, libghc-base-compat-prof, libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-hspec-dev (>= 2), libghc-hspec-dev (<< 3), libghc-hspec-prof (>= 2), libghc-silently-dev, libghc-silently-prof, libghc-stringbuilder-dev, libghc-stringbuilder-prof, libghc-temporary-dev, libghc-temporary-prof
+Build-Depends-Indep: ghc-doc, libghc-base-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 56927c1817c9651b3eca9d38b133532b 2631 haskell-markdown-unlit_0.5.0-3.dsc
+ 4dfa182370f39d61e5d5ab0142840ca6 4681 haskell-markdown-unlit_0.5.0.orig.tar.gz
+ f7b9c5afa61f8130bea90e6f4e08df45 2160 haskell-markdown-unlit_0.5.0-3.debian.tar.xz
+Checksums-Sha256:
+ 7ad33969fba86cae076e298e3174349b7d5334463cb4c3b68fa246b295386f1c 2631 haskell-markdown-unlit_0.5.0-3.dsc
+ e72d0d7b82525e2a2c664012ce9dc35835b3fff91040d9f20897ed82f24ec7bf 4681 haskell-markdown-unlit_0.5.0.orig.tar.gz
+ 969509a4b8ad50dad631ab2483303b7e8c0ee296b547083f40618088240fc891 2160 haskell-markdown-unlit_0.5.0-3.debian.tar.xz
+Homepage: https://github.com/sol/markdown-unlit#readme
+Package-List: 
+ libghc-markdown-unlit-dev deb haskell optional arch=any
+ libghc-markdown-unlit-doc deb doc optional arch=all
+ libghc-markdown-unlit-prof deb haskell optional arch=any
+ markdown-unlit deb misc optional arch=any
+Directory: pool/main/h/haskell-markdown-unlit
+Priority: extra
+Section: misc

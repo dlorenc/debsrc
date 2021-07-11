@@ -1,0 +1,25 @@
+Package: biber
+Binary: biber
+Version: 2.16-1
+Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
+Uploaders: Danai SAE-HAN (韓達耐) <danai@debian.org>, Norbert Preining <norbert@preining.info>, Hilmar Preusse <hille42@web.de>
+Build-Depends: debhelper-compat (= 13), perl (>= 5.30), libautovivification-perl, libclass-accessor-perl, libconfig-autoconf-perl (>= 0.15), libdata-compare-perl, libdata-dump-perl, libdata-uniqid-perl, libdate-simple-perl, libdatetime-perl, libdatetime-format-builder-perl, libdatetime-calendar-julian-perl, libencode-eucjpms-perl, libencode-hanextra-perl, libencode-jis2k-perl, libextutils-libbuilder-perl (>= 0.02), libfile-slurper-perl, libfile-which-perl, libipc-run3-perl, libio-string-perl, liblingua-translit-perl (>= 0.28), liblist-allutils-perl, liblist-moreutils-perl, liblog-log4perl-perl, liblwp-protocol-https-perl, libmodule-build-perl | perl (<< 5.22), libparse-recdescent-perl, libperlio-utf8-strict-perl, libreadonly-perl, libregexp-common-perl, libtext-bibtex-perl (>= 0.88), libtext-csv-perl, libtext-csv-xs-perl, libunicode-collate-perl (>= 1.29), libunicode-linebreak-perl, libwww-perl, libxml-libxml-simple-perl, libxml-libxslt-perl, libtest-pod-perl (>= 1.22), libxml-writer-perl, libbusiness-isbn-perl, libbusiness-ismn-perl, libbusiness-issn-perl, liburi-perl, libsort-key-perl, libtest-pod-coverage-perl (>= 1.08), libtest-differences-perl, libtext-roman-perl, tex-common, lmodern, texlive-base, texlive-fonts-extra, texlive-fonts-recommended, texlive-lang-english, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-luatex, texlive-pictures, texlive-xetex, tipa, fonts-cmu
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2848dc1172f81f781020e4875ee59789 3460 biber_2.16-1.dsc
+ fafae81d8ae67314692e2b646024fa98 1594209 biber_2.16.orig.tar.gz
+ 05cbc6888daa5e7b7d40841cbb029672 11368 biber_2.16-1.debian.tar.xz
+Vcs-Browser: https://github.com/debian-tex/biber
+Vcs-Git: https://github.com/debian-tex/biber.git
+Checksums-Sha256:
+ 153ee98504c1a4101668cba91f8f28e72e3cfd0ca818f7065de64b2cbe73f5ca 3460 biber_2.16-1.dsc
+ 57111ebc6d0d1933e55d3fe1a92f8ef57c602388ae83598a8073c8a77fd811e2 1594209 biber_2.16.orig.tar.gz
+ 58c0101aaf1bc69ee445fd1e4566f50ce2c8323655a38543a99dc8c595f2ba82 11368 biber_2.16-1.debian.tar.xz
+Homepage: http://biblatex-biber.sourceforge.net/
+Package-List: 
+ biber deb perl optional arch=all
+Directory: pool/main/b/biber
+Priority: source
+Section: perl

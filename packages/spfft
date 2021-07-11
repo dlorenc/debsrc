@@ -1,0 +1,26 @@
+Package: spfft
+Binary: libspfft-dev, libspfft0
+Version: 0.9.13-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: cmake, debhelper-compat (= 12), libfftw3-dev, mpi-default-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 38486b2cc939a91a09cfedb4bc134f5a 2030 spfft_0.9.13-1.dsc
+ 1c4ee2b6cc679666ad90de80b8021611 364611 spfft_0.9.13.orig.tar.gz
+ 261848fa7977d325b3a810a27b1a193e 2712 spfft_0.9.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/spfft
+Vcs-Git: https://salsa.debian.org/science-team/spfft.git
+Checksums-Sha256:
+ 697bed9837fe041fec40e83bb4370dd1a2d9b49634e9eb14bbf8aea011898f0d 2030 spfft_0.9.13-1.dsc
+ 621543658991782dd184948082c7eea474b6759140f796bb55da2e2f654d3558 364611 spfft_0.9.13.orig.tar.gz
+ d6245def653733ecc6f35914cf36bc7516103efacbbff5a2c58f10f749f4838d 2712 spfft_0.9.13-1.debian.tar.xz
+Homepage: https://github.com/eth-cscs/SpFFT
+Package-List: 
+ libspfft-dev deb libdevel optional arch=any
+ libspfft0 deb libs optional arch=any
+Directory: pool/main/s/spfft
+Priority: extra
+Section: misc

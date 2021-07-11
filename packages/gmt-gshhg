@@ -1,0 +1,28 @@
+Package: gmt-gshhg
+Binary: gmt-gshhg, gmt-gshhg-low, gmt-gshhg-high, gmt-gshhg-full
+Version: 2.3.7-5
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c7f852aad36ae51dde7341f132f4caba 2131 gmt-gshhg_2.3.7-5.dsc
+ 8ee2653f9daf84d49fefbf990bbfa1e7 57052180 gmt-gshhg_2.3.7.orig.tar.gz
+ f49bc14d1ad150bfe15715781eea3080 4300 gmt-gshhg_2.3.7-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/gmt-gshhg
+Vcs-Git: https://salsa.debian.org/debian-gis-team/gmt-gshhg.git
+Checksums-Sha256:
+ bd88989462e8397bb174731bc10c79bf0f28e7f4d207021cd7fb0a932ccd852b 2131 gmt-gshhg_2.3.7-5.dsc
+ 9bb1a956fca0718c083bef842e625797535a00ce81f175df08b042c2a92cfe7f 57052180 gmt-gshhg_2.3.7.orig.tar.gz
+ 47ae1a541550a38fd82e27ef1cf7cf39637887571869d9000dff427b0c018185 4300 gmt-gshhg_2.3.7-5.debian.tar.xz
+Homepage: http://www.soest.hawaii.edu/pwessel/gshhg/index.html
+Package-List: 
+ gmt-gshhg deb science optional arch=all
+ gmt-gshhg-full deb science optional arch=all
+ gmt-gshhg-high deb science optional arch=all
+ gmt-gshhg-low deb science optional arch=all
+Directory: pool/main/g/gmt-gshhg
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-unicode-normalization
+Binary: librust-unicode-normalization-dev
+Version: 0.1.12-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-smallvec-1+default-dev (>= 1.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ d3cf3c87e7fa5f9c102d99240b6c0053 2424 rust-unicode-normalization_0.1.12-1.dsc
+ 3d394ff298f20e04de3ce053ab63ccc7 91057 rust-unicode-normalization_0.1.12.orig.tar.gz
+ 41f7b7a71142185ebf060da5c8b60697 3056 rust-unicode-normalization_0.1.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unicode-normalization
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-normalization]
+Checksums-Sha256:
+ 6476a0e5fabcaa59dac8d92b8c72381ed42f60efcb4d26aa979196cda0f81ac6 2424 rust-unicode-normalization_0.1.12-1.dsc
+ 5479532badd04e128284890390c1e876ef7a993d0570b3597ae43dfa1d59afa4 91057 rust-unicode-normalization_0.1.12.orig.tar.gz
+ 00bc7e1c157dd3ddfe6408654bed1cdb5efe233db1a67bef617cdedb55cc4dfb 3056 rust-unicode-normalization_0.1.12-1.debian.tar.xz
+Homepage: https://github.com/unicode-rs/unicode-normalization
+Package-List: 
+ librust-unicode-normalization-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-unicode-normalization
+Priority: extra
+Section: misc

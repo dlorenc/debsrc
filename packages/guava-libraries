@@ -1,0 +1,26 @@
+Package: guava-libraries
+Binary: libguava-java, libguava-testlib-java
+Version: 29.0-6
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>, James Page <james.page@canonical.com>
+Build-Depends: debhelper-compat (= 13), default-jdk, junit4, libanimal-sniffer-java, libatinject-jsr330-api-java, libjsr305-java, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, libtruth-java, maven-debian-helper, zip
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 38ed20ade76a1e4af69417de6200613a 2285 guava-libraries_29.0-6.dsc
+ 410d2d07837d4d5e841a28fdb7e72a13 3249044 guava-libraries_29.0.orig.tar.xz
+ 049fe6bc6dd0b84e55691a91803a4fa7 26292 guava-libraries_29.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/guava-libraries
+Vcs-Git: https://salsa.debian.org/java-team/guava-libraries.git
+Checksums-Sha256:
+ 8f7ac864f36ae61b7c3b12d39c7beaff6f03a85b66a6a6c45ca73c0fc6ba4e37 2285 guava-libraries_29.0-6.dsc
+ f302ac9944caabc31891a3e80da11266932f964708b879cdfd2f18f9d99fc48d 3249044 guava-libraries_29.0.orig.tar.xz
+ d3f4a1b9d87cef95b4b0e8f0b0c1d81accca3b036d9c411c1c522da7b0397f17 26292 guava-libraries_29.0-6.debian.tar.xz
+Homepage: https://github.com/google/guava
+Package-List: 
+ libguava-java deb java optional arch=all
+ libguava-testlib-java deb java optional arch=all
+Directory: pool/main/g/guava-libraries
+Priority: source
+Section: java

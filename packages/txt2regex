@@ -1,0 +1,24 @@
+Package: txt2regex
+Binary: txt2regex
+Version: 0.9-3
+Maintainer: Rene Engelhard <rene@debian.org>
+Build-Depends: debhelper (>> 9), gettext, txt2tags, clitest <!nocheck>
+Architecture: all
+Standards-Version: 3.6.1
+Format: 3.0 (quilt)
+Files:
+ 9b640f5f43e45abce850d3cb5b3861a3 1821 txt2regex_0.9-3.dsc
+ 7066adc50e55300f5bcad276cf65b852 67184 txt2regex_0.9.orig.tar.gz
+ 2328d9f16dcf346957118ec6db135882 4592 txt2regex_0.9-3.debian.tar.xz
+Checksums-Sha256:
+ a037a324287fb2913395cb40f79c27e5ce543849987f317510ea026b651e03f6 1821 txt2regex_0.9-3.dsc
+ 3bbccde25f942129450f34d6d4975f4234958072540e758bc131bb7960716d63 67184 txt2regex_0.9.orig.tar.gz
+ b43c55fd4c150acb9037de2612a45452da83f6acc2b0b899e562920889be1319 4592 txt2regex_0.9-3.debian.tar.xz
+Homepage: https://github.com/aureliojargas/txt2regex
+Package-List: 
+ txt2regex deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clitest
+Directory: pool/main/t/txt2regex
+Priority: source
+Section: utils

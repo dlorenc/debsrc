@@ -1,0 +1,27 @@
+Package: php-horde-constraint
+Binary: php-horde-constraint
+Version: 2.0.3-9
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 63cd945305a8e7c23f611953d4880cbb 2183 php-horde-constraint_2.0.3-9.dsc
+ 6f0d728c6505b61e39df19f3653ac95c 5073 php-horde-constraint_2.0.3.orig.tar.gz
+ f312f36df1494124c01da936d874a866 3944 php-horde-constraint_2.0.3-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-constraint
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-constraint.git
+Checksums-Sha256:
+ 2b6cd5616188a4241496a3f0a2583094ccd92fc5c5b700db498ae0095e6bc3eb 2183 php-horde-constraint_2.0.3-9.dsc
+ 741969928ac25f059f7cba3489be2f9999dc9179ef8f4e63cb471706d59deeb5 5073 php-horde-constraint_2.0.3.orig.tar.gz
+ 5ccfb0688595905d8077ec2530ce4e8103ac53ac06be4ebea3e64ae1f95c035d 3944 php-horde-constraint_2.0.3-9.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-constraint deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-constraint
+Priority: extra
+Section: misc

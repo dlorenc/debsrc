@@ -1,0 +1,26 @@
+Package: node-github-url-from-git
+Binary: node-github-url-from-git
+Version: 1.5.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>, Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-should <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 8620e28cfd8bfe7737fa985ff26d365d 2250 node-github-url-from-git_1.5.0-1.dsc
+ 06019e10d85af5967be084e4b0862437 2869 node-github-url-from-git_1.5.0.orig.tar.gz
+ b9228071f494c9af3b68fe2d41fdc3cd 4700 node-github-url-from-git_1.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-github-url-from-git
+Vcs-Git: https://salsa.debian.org/js-team/node-github-url-from-git.git
+Checksums-Sha256:
+ f4679d435728d21bfe1cf2bcc7df9bdfedabc4b81ef80e7d7c076e9c03a2f15f 2250 node-github-url-from-git_1.5.0-1.dsc
+ 15448a808db69b2fbc1724fa0f5187286a548b33a58f35fe29851cba1f235fb8 2869 node-github-url-from-git_1.5.0.orig.tar.gz
+ a298ef42b0b34dadf9c68b6d8eff7aae11c09efc00dbaf3ec8e48828e5dc8dfb 4700 node-github-url-from-git_1.5.0-1.debian.tar.xz
+Homepage: https://github.com/visionmedia/node-github-url-from-git
+Package-List: 
+ node-github-url-from-git deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-github-url-from-git
+Priority: optional
+Section: javascript

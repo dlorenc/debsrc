@@ -1,0 +1,27 @@
+Package: python-ecdsa
+Binary: python3-ecdsa
+Version: 0.16.1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-six (>= 1.2), python3-pytest, python3-hypothesis, openssl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b9df5a19077d8f1dce5581423b40907c 2205 python-ecdsa_0.16.1-1.dsc
+ 98c0da4c046286e892fdba727f93edea 126935 python-ecdsa_0.16.1.orig.tar.gz
+ 8d10f17aaf624406c8ff38c535559029 4652 python-ecdsa_0.16.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-ecdsa
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-ecdsa.git
+Checksums-Sha256:
+ 19d2a79be58cdcc76dc90929571ef8d8ddba454ee4168a793a22ded98b01185d 2205 python-ecdsa_0.16.1-1.dsc
+ cfc046a2ddd425adbd1a78b3c46f0d1325c657811c0f45ecc3a0a6236c1e50ff 126935 python-ecdsa_0.16.1.orig.tar.gz
+ 4acf4654faf024e1cce285fb2b193ab79c4aba49fbd799890d82dbf353c29c9b 4652 python-ecdsa_0.16.1-1.debian.tar.xz
+Homepage: https://github.com/warner/python-ecdsa
+Package-List: 
+ python3-ecdsa deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: openssl, python3-all, python3-hypothesis, python3-pytest
+Directory: pool/main/p/python-ecdsa
+Priority: source
+Section: misc

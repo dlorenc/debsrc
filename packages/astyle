@@ -1,0 +1,28 @@
+Package: astyle
+Binary: astyle, libastyle3, libastyle-dev, libastylej-jni
+Version: 3.1-2
+Maintainer: Matteo Cypriani <mcy@lm7.fr>
+Uploaders: Margarita Manterola <marga@debian.org>
+Build-Depends: debhelper (>= 11), default-jdk, dh-exec (>= 0.3), cmake
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ e9aa59518a8ec4d2f16fbcc2d401531d 2030 astyle_3.1-2.dsc
+ 7712622f62661b1d8cb1062d7fedc390 185589 astyle_3.1.orig.tar.gz
+ a1db4cc3e9cd1ec55a194d1ab3d94241 9980 astyle_3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/astyle
+Vcs-Git: https://salsa.debian.org/debian/astyle.git
+Checksums-Sha256:
+ 1ae2d89ddec4b2787a2b8f8c786cabab5d8648fe5b33febdcbaaf6befaa1cb12 2030 astyle_3.1-2.dsc
+ cbcc4cf996294534bb56f025d6f199ebfde81aa4c271ccbd5ee1c1a3192745d7 185589 astyle_3.1.orig.tar.gz
+ 18e2a95118f872678312a6a3305e0d8dcba8bcd2f5b705fbbe991b564970c105 9980 astyle_3.1-2.debian.tar.xz
+Homepage: http://astyle.sourceforge.net/
+Package-List: 
+ astyle deb devel optional arch=any
+ libastyle-dev deb libdevel optional arch=any
+ libastyle3 deb libs optional arch=any
+ libastylej-jni deb java optional arch=any
+Directory: pool/main/a/astyle
+Priority: source
+Section: devel

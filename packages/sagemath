@@ -1,0 +1,29 @@
+Package: sagemath
+Binary: sagemath, sagemath-common, sagemath-jupyter, sagemath-doc, sagemath-doc-en
+Version: 9.2-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Tobias Hansen <thansen@debian.org>, Julien Puydt <julien.puydt@laposte.net>, Jerome Benoit <calculus@rezozer.net>, Ximin Luo <infinity0@debian.org>
+Build-Depends: curl, cysignals-tools (>= 1.8.1) <!nodoc>, cython3 (>= 0.29.1), ecl (>= 20.4.24), eclib-tools (>= 20180815), fflas-ffpack (>= 2.4.3), flintqs, gap-dev (>= 4.11.0), gap-online-help, gap-atlasrep (>= 2.1.0-2), gap-primgrp, gap-smallgrp, gap-transgrp, gap-table-of-marks, gfan (>= 0.6.2), glpk-utils, gmp-ecm, ipython3 (>= 7.11.1), iso-codes, jmol (>= 14.6.4), lcalc (>= 1.23+dfsg-10), less, libcdd-tools (>= 094j), libjs-mathjax, libjs-three (>= 111), maxima-sage (>= 5.44.0), maxima-sage-share (>= 5.44.0), nauty, palp (>= 2.1-2), pari-gp (>= 2.11.4~pre1), pari-gp2c, pari-elldata, pari-galdata, pari-galpol, pari-seadata, python3, python3-alabaster, python3-babel, python3-cvxopt, python3-cycler, python3-cypari2 (>= 2.1), python3-cysignals-pari (>= 1.8.1), python3-decorator, python3-docutils, python3-fpylll (>= 0.4.1), python3-future, python3-gmpy2, python3-imagesize, python3-ipython-genutils, python3-itsdangerous, python3-matplotlib (>= 2.1), python3-mistune, python3-mpmath, python3-networkx (>= 2.2), python3-nose, python3-numpy (>= 1:1.14), python3-packaging, python3-path, python3-pexpect (>= 4.1), python3-pickleshare, python3-pil, python3-pip, python3-pkgconfig, python3-ppl, python-ppl-doc (>= 0.8.4-4), python3-psutil, python3-ptyprocess, python3-pygments, python3-rpy2, python3-scipy (>= 1.2), python3-setuptools, python3-setuptools-scm, python3-simplegeneric, python3-singledispatch, python3-snowballstemmer, python3-sphinx (>= 3.0), python3-stemmer, python3-sympy, python3-terminado, python3-tk, python3-tornado, python3-traitlets, python3-tz, python3-vcversioner, python3-wcwidth, python3-werkzeug, python3-zmq, python3-zope.interface, r-base-core, rubiks, sagemath-database-conway-polynomials (>= 0.5-7), sagemath-database-elliptic-curves, sagemath-database-graphs, sagemath-database-mutually-combinatorial-designs, sagemath-database-polytopes, singular (>= 1:4.1.1-p2), singular (<< 1:4.1.1-p3+ds-1), sqlite3, sympow (>= 1.023-9), tachyon, xcas, yasm, maxima-sage-doc (>= 5.42.2), pari-doc (>= 2.11.0), python3-sagenb-export (>= 3.2), r-cran-lattice, singular-doc (>= 1:4.1.1-p2), singular-doc (<< 1:4.1.1-p3+ds-1), jupyter-client, jupyter-core, jupyter-nbextension-jupyter-js-widgets, python3-ipykernel, python3-ipywidgets (>= 6.0.0), python3-nbconvert, python3-nbformat, python3-notebook (>= 4.2.3-3), autoconf, cython3-dbg <pkg.sagemath.dbg>, debhelper (>= 10), dh-python (>= 2.20170125), dpkg-dev (>= 1.17.14), gdb, git, libc6-dbg <pkg.sagemath.dbg>, libboost-dev (>= 1.55), libbraiding-dev, libbrial-dev (>= 1.2.5-2), libbrial-groebner-dev (>= 1.2.5-2), libcdd-dev (>= 094j), libcliquer-dev, libcurl4-openssl-dev, libec-dev (>= 20190909-3), libecm-dev, libflint-arb-dev (>= 1:2.15), libflint-dev (>= 2.5.2-5), libfplll-dev (>= 5.2.1), libfreetype6-dev, libgap-dev, libgc-dev, libgd-dev, libgf2x-dev (>= 1.2-4), libgiac-dev (>= 1.4.9.69), libgivaro-dev (>= 4.1.1-2), libglpk-dev, libgmp-dev (>= 2:5.1.2), libgpg-error-dev, libgsl-dev (>= 2.4+dfsg-5~), libhomfly-dev, libiml-dev, liblfunction-dev (>= 1.23+dfsg-10), liblinbox-dev (>= 1.6.3), liblrcalc-dev (>= 1.2-2), libm4ri-dev (>= 20130416), libm4rie-dev (>= 20130416), libmpc-dev (>= 1.0), libmpfi-dev, libmpfr-dev, libntl-dev (>= 9.9.1-2), libopenblas-dev, libpari-dev (>= 2.11.4~pre1), libplanarity-dev, libpng-dev, libppl-dev (>= 1:1.1), libpynac-dev (>= 0.7.26-5), libratpoints-dev, libreadline-dev, librw-dev, libsingular4-dev (>= 1:4.1.1-p2), libsingular4-dev (<< 1:4.1.1-p3+ds-1), libsqlite3-dev, libsymmetrica-dev, libzmq3-dev, libzn-poly-dev, pkg-config, ppl-dev, python3-debian, python3-dev, python3-dbg <pkg.sagemath.dbg>, python3-cysignals-pari-dbgsym <pkg.sagemath.dbg>, r-base-dev, rdfind, texlive-latex-base, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7984b08611bd950d8af98a7631b1e123 5951 sagemath_9.2-2.dsc
+ 6fc18571d520321446d43edad314bfaf 20511540 sagemath_9.2.orig.tar.xz
+ aa62c83303484ac9876ec1b47fc3542e 60172 sagemath_9.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/sagemath
+Vcs-Git: https://salsa.debian.org/science-team/sagemath.git
+Checksums-Sha256:
+ 96c677c9334c8f4c5a7742cbf967e6e88b27267e134ef9939e52096a5dee2b16 5951 sagemath_9.2-2.dsc
+ 6ea96d4986ccee63ed92fa033dabf47ccd18307c52e6c2633debb218d08269a3 20511540 sagemath_9.2.orig.tar.xz
+ 1f1b8ea248857519917cc65d1f1c10e6ae2148d704bcb56dddaea3ddcbec5e19 60172 sagemath_9.2-2.debian.tar.xz
+Homepage: http://www.sagemath.org/
+Package-List: 
+ sagemath deb math optional arch=any
+ sagemath-common deb math optional arch=all
+ sagemath-doc deb math optional arch=all
+ sagemath-doc-en deb oldlibs optional arch=all
+ sagemath-jupyter deb math optional arch=all
+Directory: pool/main/s/sagemath
+Priority: optional
+Section: misc

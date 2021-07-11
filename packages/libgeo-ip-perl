@@ -1,0 +1,27 @@
+Package: libgeo-ip-perl
+Binary: libgeo-ip-perl
+Version: 1.51-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 12), geoip-database <!nocheck>, libgeoip-dev, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6ded8dcafc2ad4b3452ad6d9dfe07c05 2341 libgeo-ip-perl_1.51-2.dsc
+ da22ae4cc1362f5460d6b0972e5e330b 155629 libgeo-ip-perl_1.51.orig.tar.gz
+ a9539a786a4ec09a6937b5ecd78586b8 4244 libgeo-ip-perl_1.51-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libgeo-ip-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libgeo-ip-perl.git
+Checksums-Sha256:
+ cbd40ced8af7a17b526a3631904e624159738086db797757f63a63a0035f9383 2341 libgeo-ip-perl_1.51-2.dsc
+ 163020315d5c5441836ac79e08a77b428f277fd090bea4fa80da7077b2436aba 155629 libgeo-ip-perl_1.51.orig.tar.gz
+ 932878c7a4e20f395299e1bb017bddcbc49f113935e0845e52c666606ada3be0 4244 libgeo-ip-perl_1.51-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Geo-IP
+Dgit: e5863ca993ad5c6a91fac1bf113e64e40bd4ae38 debian archive/debian/1.51-2 https://git.dgit.debian.org/libgeo-ip-perl
+Package-List: 
+ libgeo-ip-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libg/libgeo-ip-perl
+Priority: source
+Section: perl

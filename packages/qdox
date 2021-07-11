@@ -1,0 +1,26 @@
+Package: qdox
+Binary: libqdox-java, libqdox-java-doc
+Version: 1.12.1-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>, Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: byacc-j, debhelper (>= 10), default-jdk, default-jdk-doc, jflex (>= 1.6.1), junit (>= 3.8.1), libjmock-java (>= 1.0.1), libmaven-antrun-plugin-java, libmaven-javadoc-plugin-java, maven-debian-helper (>= 2.2)
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 87b0355e968fc16d9f2068b70df8ca90 2225 qdox_1.12.1-3.dsc
+ dee350e0ebd022c2d6ec21a53773411b 150598 qdox_1.12.1.orig.tar.gz
+ 0b1b8e40323676b3921e2fa3158f2d9f 4136 qdox_1.12.1-3.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/qdox.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/qdox.git
+Checksums-Sha256:
+ f9665465fc4b8cf61f60a1a746a7b8dd79dab5fdfcc6db9c9ce875d472b9a7fc 2225 qdox_1.12.1-3.dsc
+ 702ee0a71479021a4f87cae949944d76d54cc0b6f1f3d9a08fd52b2077b899a2 150598 qdox_1.12.1.orig.tar.gz
+ 56171f439f45294d29e254351079e7c7b497bf8e67d58386f7bd83b19eca0479 4136 qdox_1.12.1-3.debian.tar.xz
+Homepage: https://github.com/codehaus/qdox
+Package-List: 
+ libqdox-java deb java optional arch=all
+ libqdox-java-doc deb doc optional arch=all
+Directory: pool/main/q/qdox
+Priority: source
+Section: libs

@@ -1,0 +1,25 @@
+Package: medley-clojure
+Binary: libmedley-clojure
+Version: 1.0.0-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 10), javahelper (>= 0.32), maven-repo-helper (>= 1.7), clojure (>= 1.7), libtext-markdown-perl | markdown, default-jdk
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ b670dfe6cf7a84b4eb6caaefe2754732 2119 medley-clojure_1.0.0-1.1.dsc
+ 7b3fd7c109b6459fd069e293768640f8 6678 medley-clojure_1.0.0.orig.tar.gz
+ b36d8ee474c620076cc7bd756d021f0b 6924 medley-clojure_1.0.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-java/medley-clojure.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/medley-clojure.git
+Checksums-Sha256:
+ d1d3fb56a75707e81a0ab2eb6492d6b06d7841903e5c4ecefe2e0edd7d160a17 2119 medley-clojure_1.0.0-1.1.dsc
+ 4b9d8f7548b0269d4cbacd85422f80c4aef1e618cfda628fe0ae3db30b4fefb0 6678 medley-clojure_1.0.0.orig.tar.gz
+ f85e8d4c66a92c7fa5cc61d256473eaaabbd7f3e1e5cc84f9b4d5ec159dc072e 6924 medley-clojure_1.0.0-1.1.debian.tar.xz
+Homepage: https://github.com/weavejester/medley
+Package-List: 
+ libmedley-clojure deb java optional arch=all
+Directory: pool/main/m/medley-clojure
+Priority: extra
+Section: misc

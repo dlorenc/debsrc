@@ -1,0 +1,27 @@
+Package: prompt-toolkit
+Binary: python3-prompt-toolkit
+Version: 3.0.14-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Lennart Weller <lhw@ring0.de>, Gordon Ball <gordon@chronitis.net>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-asyncssh <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, python3-wcwidth
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f940688ba234dcded0c49facb4353c80 2258 prompt-toolkit_3.0.14-1.dsc
+ dfcd6323ee3084586a1a19edd49939d8 3012248 prompt-toolkit_3.0.14.orig.tar.gz
+ 25d171e5fdf873656a7992916110ff13 3728 prompt-toolkit_3.0.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/prompt-toolkit
+Vcs-Git: https://salsa.debian.org/python-team/packages/prompt-toolkit.git
+Checksums-Sha256:
+ 569eecd60f7b16b960b302328c4e09f6cc03a0517042f859decc8b84a0f20d10 2258 prompt-toolkit_3.0.14-1.dsc
+ 594e14dda6e9fd564cfbfcaed1030d5f8cdbb4049749b67c863831a5a852958d 3012248 prompt-toolkit_3.0.14.orig.tar.gz
+ 8ea461b0df20e03056f8078b453c4e0d8578709e8e11b67486bb5077538d8c7c 3728 prompt-toolkit_3.0.14-1.debian.tar.xz
+Homepage: https://github.com/prompt-toolkit/python-prompt-toolkit
+Package-List: 
+ python3-prompt-toolkit deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/p/prompt-toolkit
+Priority: optional
+Section: misc

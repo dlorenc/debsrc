@@ -1,0 +1,27 @@
+Package: libwww-curl-perl
+Binary: libwww-curl-perl
+Version: 4.17-7
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Niko Tyni <ntyni@iki.fi>, gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13), libcurl4-gnutls-dev, libmodule-install-perl, libtest-cpan-meta-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 63544e1b70f3667bdbc4fd5f214624ad 2585 libwww-curl-perl_4.17-7.dsc
+ 997ac81cd6b03b30b36f7cd930474845 50917 libwww-curl-perl_4.17.orig.tar.gz
+ fa13df319134399f290ba4a2d87a97c1 14456 libwww-curl-perl_4.17-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libwww-curl-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libwww-curl-perl.git
+Checksums-Sha256:
+ f1746360356cff13cf83cda505443e7141a1df84faf31244414facd4d2552c3f 2585 libwww-curl-perl_4.17-7.dsc
+ 52ffab110e32348d775f241c973eb56f96b08eedbc110d77d257cdb0a24ab7ba 50917 libwww-curl-perl_4.17.orig.tar.gz
+ e1f14821c32c2251339ace7dad4423a99c90975cd0a2c76ccd46ff84c94120d7 14456 libwww-curl-perl_4.17-7.debian.tar.xz
+Homepage: https://metacpan.org/release/WWW-Curl
+Dgit: 347b36fb7aa3a270becc5c55686ba301da4bf1fa debian archive/debian/4.17-7 https://git.dgit.debian.org/libwww-curl-perl
+Package-List: 
+ libwww-curl-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libw/libwww-curl-perl
+Priority: source
+Section: perl

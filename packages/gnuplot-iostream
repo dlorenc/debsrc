@@ -1,0 +1,28 @@
+Package: gnuplot-iostream
+Binary: libgnuplot-iostream-dev, libgnuplot-iostream-doc
+Version: 0~20140302.gitc8919a0+dfsg-4
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Anton Gladky <gladk@debian.org>
+Build-Depends: debhelper (>= 12~), gnuplot, libarmadillo-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-system-dev
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ ad85ad8ab42e7334faced7e4acdc5588 2485 gnuplot-iostream_0~20140302.gitc8919a0+dfsg-4.dsc
+ e27a86194e86e771c8a2f5e1a44122ce 30056 gnuplot-iostream_0~20140302.gitc8919a0+dfsg.orig.tar.xz
+ 1e14ef3fc9f5882b89f53e536e38d2da 6280 gnuplot-iostream_0~20140302.gitc8919a0+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/gnuplot-iostream
+Vcs-Git: https://salsa.debian.org/science-team/gnuplot-iostream.git
+Checksums-Sha256:
+ 2c23b7df4d65ded4dc174356b1d5b4e33b31d6f0500fe0c85a469aaaaabb7237 2485 gnuplot-iostream_0~20140302.gitc8919a0+dfsg-4.dsc
+ 09c7c1db251cb03b00e3edb2a4d1e457ed50aed8fcb4424a2a36f75bb73976b3 30056 gnuplot-iostream_0~20140302.gitc8919a0+dfsg.orig.tar.xz
+ 55e890e7fc6306653b2b1296a1d1a9b2834557cc0bfe9a8aac558359c67e2e9d 6280 gnuplot-iostream_0~20140302.gitc8919a0+dfsg-4.debian.tar.xz
+Homepage: http://www.stahlke.org/dan/gnuplot-iostream/
+Package-List: 
+ libgnuplot-iostream-dev deb libdevel optional arch=all
+ libgnuplot-iostream-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, libboost-filesystem-dev, libboost-iostreams-dev, libboost-system-dev, xauth, xvfb
+Directory: pool/main/g/gnuplot-iostream
+Priority: source
+Section: misc

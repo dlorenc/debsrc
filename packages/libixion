@@ -1,0 +1,32 @@
+Package: libixion
+Binary: libixion-dev, libixion-0.16-0, python3-ixion, libixion-doc
+Version: 0.16.1-2
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-autoreconf, dh-python, dpkg-dev (>= 1.16.1), libboost-filesystem-dev, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libmdds-dev (>= 1.5), pkg-config, python3, python3-dev, sphinx-common, zlib1g-dev
+Build-Depends-Indep: doxygen, python3-breathe, python3-sphinx, python3-sphinx-rtd-theme
+Build-Conflicts: python-sphinx
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 842ea1a9fadd2392282401ff90ed8308 2550 libixion_0.16.1-2.dsc
+ 6aef823752990d193e5cf80a87d0ef58 482500 libixion_0.16.1.orig.tar.xz
+ 5264ba40a8713a390d485d71183b2f63 9728 libixion_0.16.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/libreoffice-team/libixion
+Vcs-Git: https://salsa.debian.org/libreoffice-team/libixion.git
+Checksums-Sha256:
+ c26d0e74c37cdb008c275b85d60b47dda58859bd9ae4eb68fb5afdbc230fa047 2550 libixion_0.16.1-2.dsc
+ 426c643b3c346d546027c0226619abb2e59848e94470b9b5aa6365e26125089f 482500 libixion_0.16.1.orig.tar.xz
+ 0f1d722749d63e430238b8548c2c30f2bbeeb5e535e887a9c35ae067dc22bc4b 9728 libixion_0.16.1-2.debian.tar.xz
+Homepage: https://gitlab.com/ixion/ixion
+Package-List: 
+ libixion-0.16-0 deb libs optional arch=any
+ libixion-dev deb libdevel optional arch=any
+ libixion-doc deb doc optional arch=all
+ python3-ixion deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, python3
+Directory: pool/main/libi/libixion
+Priority: optional
+Section: misc

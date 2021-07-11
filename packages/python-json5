@@ -1,0 +1,27 @@
+Package: python-json5
+Binary: python3-json5
+Version: 0.9.5-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python (>= 2.20160609~), python3-all, python3-hypothesis <!nocheck>, python3-pytest <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 987ebb6015651a50c3a428e54313b1d8 2181 python-json5_0.9.5-2.dsc
+ 9d514b99450bb64a8275d4a307d016e0 109222 python-json5_0.9.5.orig.tar.gz
+ d8a9de03d373c367b8ab2e805013c827 1992 python-json5_0.9.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-json5
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-json5.git
+Checksums-Sha256:
+ d6a5d9347fe2dbfc58985e644fe1243138156b92a0323c2de3db8508fadba9b2 2181 python-json5_0.9.5-2.dsc
+ 4631b8a6c61704b7942fe9d16a1e95f2b26a2bdcc38a1fdc3b5c984f2e861045 109222 python-json5_0.9.5.orig.tar.gz
+ 0574731884cffaa2671ecd5a835d30bb084bdc83fd31d77f97e166223c5444ce 1992 python-json5_0.9.5-2.debian.tar.xz
+Homepage: https://github.com/dpranke/pyjson5
+Package-List: 
+ python3-json5 deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-hypothesis, python3-pytest
+Directory: pool/main/p/python-json5
+Priority: extra
+Section: misc

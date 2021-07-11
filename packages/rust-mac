@@ -1,0 +1,24 @@
+Package: rust-mac
+Binary: librust-mac-dev
+Version: 0.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c1237e32c1ff6f21084510468d208931 1987 rust-mac_0.1.1-1.dsc
+ a27c2bdb7694af5b902f40700e6774a6 5143 rust-mac_0.1.1.orig.tar.gz
+ eb8c9968085ef93128e69f53444f4c1d 2260 rust-mac_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mac
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/mac]
+Checksums-Sha256:
+ 3478ce5dd93fa5671f2cd9824c3f1e9b84dcc38a2516f39afc5f21256541aafc 1987 rust-mac_0.1.1-1.dsc
+ 6a1db0ca69b5680b99b58c8cb39421999ce7de52266f47ac56afe5acbca49199 5143 rust-mac_0.1.1.orig.tar.gz
+ b95a51946bb2fecd632309b875c73529ab3751fe864049d06153fa078608c5df 2260 rust-mac_0.1.1-1.debian.tar.xz
+Package-List: 
+ librust-mac-dev deb rust optional arch=any
+Directory: pool/main/r/rust-mac
+Priority: extra
+Section: misc

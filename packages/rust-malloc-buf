@@ -1,0 +1,26 @@
+Package: rust-malloc-buf
+Binary: librust-malloc-buf-dev
+Version: 1.0.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Alexander Kjäll <alexander.kjall@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck> | librust-libc-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f1b0e5ad9d910e8932b6b101d5276179 2226 rust-malloc-buf_1.0.0-2.dsc
+ 877b9ce688c8e0e09acca46700f87898 2158 rust-malloc-buf_1.0.0.orig.tar.gz
+ f83acabb0cac9812a0b720fd9ab2037a 2508 rust-malloc-buf_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/malloc-buf
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/malloc-buf]
+Checksums-Sha256:
+ 2118ce322e827465871cf02fff0bb6c38034fce5c8cfa6a68d363b4ead5bd4dd 2226 rust-malloc-buf_1.0.0-2.dsc
+ 02220cfa939c0353008364d609675daee08c2d9d3d904364eb6b08a49934936b 2158 rust-malloc-buf_1.0.0.orig.tar.gz
+ 72aa238bea928033db121db638292209d4db0942a054d7006240cc45332cd370 2508 rust-malloc-buf_1.0.0-2.debian.tar.xz
+Package-List: 
+ librust-malloc-buf-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-malloc-buf
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: lame
+Binary: lame, lame-doc, libmp3lame-dev, libmp3lame0
+Version: 3.100-3
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Fabian Greffrath <fabian@debian.org>, Reinhard Tartler <siretart@tauware.de>
+Build-Depends: debhelper-compat (= 12), libncurses5-dev, libsndfile1-dev, nasm [i386], pkg-config
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 972ffa35ea75db879e9839de994b4ab8 2143 lame_3.100-3.dsc
+ 83e260acbe4389b54fe08e0bdbf7cddb 1524133 lame_3.100.orig.tar.gz
+ 9dbf052c175338cefac5e07bbd677375 12236 lame_3.100-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/lame
+Vcs-Git: https://salsa.debian.org/multimedia-team/lame.git
+Checksums-Sha256:
+ 5dec57a62002607b803b8eb659f0ed1079350de4ac9f8f8e52faa3d1e8fca08b 2143 lame_3.100-3.dsc
+ ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e 1524133 lame_3.100.orig.tar.gz
+ 85b6685d3c3c86a1331fa63e3efbd229acfcee360cd530dbdb6ea42b830d50d3 12236 lame_3.100-3.debian.tar.xz
+Homepage: http://lame.sourceforge.net/
+Package-List: 
+ lame deb sound optional arch=any
+ lame-doc deb doc optional arch=all
+ libmp3lame-dev deb libdevel optional arch=any
+ libmp3lame0 deb libs optional arch=any
+Directory: pool/main/l/lame
+Priority: source
+Section: sound

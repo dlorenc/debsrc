@@ -1,0 +1,26 @@
+Package: supertuxkart
+Binary: supertuxkart, supertuxkart-data
+Version: 1.2+ds-2
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Sam Hocevar <sho@debian.org>, Vincent Cheng <vcheng@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), libalut-dev, libbluetooth-dev [linux-any], libcurl4-gnutls-dev | libcurl4-dev, libfreetype6-dev, libgl1-mesa-dev, libgles2-mesa-dev, libglu1-mesa-dev, libglew-dev, libharfbuzz-dev, libjpeg-dev, libmcpp-dev, libopenal-dev, libpng-dev, libsdl2-dev, libsqlite3-dev, libsquish-dev, libvorbis-dev, libxrandr-dev, libxxf86vm-dev, mesa-common-dev, nettle-dev, pkg-config, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 16b6bba341a521205c41a248b07b47d0 2596 supertuxkart_1.2+ds-2.dsc
+ 8af3297445c425f0a43fe9bdfe71bd67 587527568 supertuxkart_1.2+ds.orig.tar.xz
+ 99ff70c2db2cc81ce2becd0364c045f9 2283768 supertuxkart_1.2+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/supertuxkart
+Vcs-Git: https://salsa.debian.org/games-team/supertuxkart.git
+Checksums-Sha256:
+ fea5be3c816f93d2a18a624922039f7d95775ef722dc8ef4780bec4d40933539 2596 supertuxkart_1.2+ds-2.dsc
+ 180e280189566a97f1442f49e99ad363253adda59f08631c30429c8e50697f11 587527568 supertuxkart_1.2+ds.orig.tar.xz
+ ebf0fb3ee7348e00a6c70b392956a58e64fc8901340363e8b2fd79ff1b9a5cd3 2283768 supertuxkart_1.2+ds-2.debian.tar.xz
+Homepage: https://supertuxkart.net
+Package-List: 
+ supertuxkart deb games optional arch=any
+ supertuxkart-data deb games optional arch=all
+Directory: pool/main/s/supertuxkart
+Priority: source
+Section: games

@@ -1,0 +1,28 @@
+Package: libmodule-compile-perl
+Binary: libmodule-compile-perl
+Version: 0.38-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nick Morrott <knowledgejunkie@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libcapture-tiny-perl <!nocheck>, libyaml-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6774b983a2e6c5a5080db6c8a69d4375 2470 libmodule-compile-perl_0.38-1.dsc
+ b51c0b2ebc169b2290d4c4d40fbd6206 35482 libmodule-compile-perl_0.38.orig.tar.gz
+ 0156596ece071d8f89926d85989292da 3376 libmodule-compile-perl_0.38-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmodule-compile-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmodule-compile-perl.git
+Checksums-Sha256:
+ 8dfed6a93c0c1e50ea8ffd3d92974e4d8942ab774d8205de7d56ca48836416a3 2470 libmodule-compile-perl_0.38-1.dsc
+ 8090cfbb61123437eefec3e3bed86005d1f7c5a529fb6fda2ebebc6564b9aa10 35482 libmodule-compile-perl_0.38.orig.tar.gz
+ 7dab574a881b9a12eaa7565e241357d4041cf34f35190f9788aedb366de3579d 3376 libmodule-compile-perl_0.38-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Module-Compile
+Dgit: d4213f97bf3e247ac32ab0907ed4ff4901398257 debian archive/debian/0.38-1 https://git.dgit.debian.org/libmodule-compile-perl
+Package-List: 
+ libmodule-compile-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmodule-compile-perl
+Priority: optional
+Section: misc

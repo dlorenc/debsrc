@@ -1,0 +1,27 @@
+Package: ruby-peek-redis
+Binary: ruby-peek-redis
+Version: 1.2.0-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 9~), gem2deb, ruby-atomic (>= 1.0.0), ruby-peek, ruby-redis
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ 966b92b6fbbff43d944a1b45b60133d8 2134 ruby-peek-redis_1.2.0-1.1.dsc
+ 58e5d298fc30494a38dbd45c7f77e809 3002 ruby-peek-redis_1.2.0.orig.tar.gz
+ 9544cbbc39591380fef258f6e63d7ab3 2052 ruby-peek-redis_1.2.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-peek-redis.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-peek-redis.git
+Checksums-Sha256:
+ 3d3aef81327064f9a1f94e9ce2be1ed7384c9eb087c4c57f9d206f83d9d1dfc3 2134 ruby-peek-redis_1.2.0-1.1.dsc
+ de15d20964234ed4c9d450e8395dbda4452c3dc7fa4a9b4d4e81d2375f0a881d 3002 ruby-peek-redis_1.2.0.orig.tar.gz
+ ba05f531b432399ef2fe9eb9205e13951c59db612fccc753f01756fd83fa6e7d 2052 ruby-peek-redis_1.2.0-1.1.debian.tar.xz
+Homepage: https://github.com/peek/peek-redis
+Package-List: 
+ ruby-peek-redis deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-peek-redis
+Priority: extra
+Section: misc

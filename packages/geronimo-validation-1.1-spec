@@ -1,0 +1,26 @@
+Package: geronimo-validation-1.1-spec
+Binary: libgeronimo-validation-1.1-spec-java, libgeronimo-validation-1.1-spec-java-doc
+Version: 1.0-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 10~), default-jdk, libgeronimo-osgi-support-java, libmaven-antrun-plugin-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, maven-debian-helper (>= 2.2)
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ a7eac48381859089fb7710eae410ac09 2428 geronimo-validation-1.1-spec_1.0-2.dsc
+ 4a131244abf121b625f38228173bf786 13812 geronimo-validation-1.1-spec_1.0.orig.tar.xz
+ e0cae38f27e3d820b1e68876382191e6 3440 geronimo-validation-1.1-spec_1.0-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/geronimo-validation-1.1-spec.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/geronimo-validation-1.1-spec.git
+Checksums-Sha256:
+ fc650f2c089094e12a0bb654d0fcd4b178eaa893db573c978fd5ce3871e83eba 2428 geronimo-validation-1.1-spec_1.0-2.dsc
+ 32e050536f73348d756ad55703a2ac17d4696d077c523ae41a7d932248b8c104 13812 geronimo-validation-1.1-spec_1.0.orig.tar.xz
+ 865cfd25119a576953568fe3fd4b805d60e60354868cf0631ecafcbc9bdee0cb 3440 geronimo-validation-1.1-spec_1.0-2.debian.tar.xz
+Homepage: http://geronimo.apache.org
+Package-List: 
+ libgeronimo-validation-1.1-spec-java deb java optional arch=all
+ libgeronimo-validation-1.1-spec-java-doc deb doc optional arch=all
+Directory: pool/main/g/geronimo-validation-1.1-spec
+Priority: extra
+Section: misc

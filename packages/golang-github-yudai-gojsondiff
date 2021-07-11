@@ -1,0 +1,27 @@
+Package: golang-github-yudai-gojsondiff
+Binary: golang-github-yudai-gojsondiff-dev
+Version: 1.0.0+git20180504.0525c87-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-onsi-ginkgo-dev, golang-github-sergi-go-diff-dev, golang-github-urfave-cli-dev, golang-github-yudai-golcs-dev, golang-gomega-dev, golang-github-k0kubun-pp-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3a05800b3adb8ce72117f70efe9184f2 2734 golang-github-yudai-gojsondiff_1.0.0+git20180504.0525c87-2.dsc
+ 51406a4d59df6498960c0e7bac4b7dc5 14852 golang-github-yudai-gojsondiff_1.0.0+git20180504.0525c87.orig.tar.xz
+ 1f3c23bb5ab77106bbefdc4a1dd3bd22 2408 golang-github-yudai-gojsondiff_1.0.0+git20180504.0525c87-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-yudai-gojsondiff
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-yudai-gojsondiff.git
+Checksums-Sha256:
+ 670a7f506227e3774ce81b8a21437c841214225612f3f636cca2846407d0476d 2734 golang-github-yudai-gojsondiff_1.0.0+git20180504.0525c87-2.dsc
+ 110d481d859cbc26242e95e7c725dbc571c6e4f91c1eb07a0ac610e8c85358cc 14852 golang-github-yudai-gojsondiff_1.0.0+git20180504.0525c87.orig.tar.xz
+ f273d3849cf0ce685e7b9ecdb982cd01c5c3617293d02dace5c8543f3acd2ce0 2408 golang-github-yudai-gojsondiff_1.0.0+git20180504.0525c87-2.debian.tar.xz
+Homepage: https://github.com/yudai/gojsondiff
+Go-Import-Path: github.com/yudai/gojsondiff
+Package-List: 
+ golang-github-yudai-gojsondiff-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-yudai-gojsondiff
+Priority: extra
+Section: golang

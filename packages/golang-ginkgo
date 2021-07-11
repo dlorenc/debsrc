@@ -1,0 +1,29 @@
+Package: golang-ginkgo
+Binary: ginkgo, golang-github-onsi-ginkgo-dev, golang-ginkgo-dev
+Version: 1.14.2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Martín Ferrari <tincho@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang (>= 1.17~), golang-any, golang-github-influxdata-tail-dev, golang-golang-x-sys-dev, golang-gomega-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1c75c50ed9c042ca506782ae6aea5188 2327 golang-ginkgo_1.14.2-1.dsc
+ b3053dd08c279f2242546c7f2288e957 146966 golang-ginkgo_1.14.2.orig.tar.gz
+ c12e03878605d9436a884723db7cd879 6276 golang-ginkgo_1.14.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-ginkgo
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-ginkgo.git
+Checksums-Sha256:
+ 701d82b618040e86a89dac94843afc34339c16eb49197798a49b54bd51826723 2327 golang-ginkgo_1.14.2-1.dsc
+ 53246dc56de75ceb7e144daacb07096083020b58cf4006056ca393f34f68c499 146966 golang-ginkgo_1.14.2.orig.tar.gz
+ 61e6082f33b4a5e8b3870ce6ffad1e162d7d227e2c971b50ab868d21f19c9108 6276 golang-ginkgo_1.14.2-1.debian.tar.xz
+Homepage: https://github.com/onsi/ginkgo
+Go-Import-Path: github.com/onsi/ginkgo
+Package-List: 
+ ginkgo deb devel optional arch=any
+ golang-ginkgo-dev deb oldlibs optional arch=all
+ golang-github-onsi-ginkgo-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-ginkgo
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: r-cran-libcoin
+Binary: r-cran-libcoin
+Version: 1.0-7-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-mvtnorm
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9f6895e3172794e38fcdf4b347b808ff 2114 r-cran-libcoin_1.0-7-1.dsc
+ 2d317b5c454d5c1ecb9fe5aabe8211e5 991805 r-cran-libcoin_1.0-7.orig.tar.gz
+ 3459632260843a47d209ce31a109264b 2228 r-cran-libcoin_1.0-7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-libcoin
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-libcoin.git
+Checksums-Sha256:
+ 74301e2bd7afbb87970a9abfe66e22be9788dd6f45b2f1cf6bd7ae00d5b4b1bb 2114 r-cran-libcoin_1.0-7-1.dsc
+ 96f68426879e498b2e90486453cc6b608fd0d512bc35e66cbb62df3df80d62ed 991805 r-cran-libcoin_1.0-7.orig.tar.gz
+ 1afd9a34a5ffa35b16cf53353b1a11d84d2ed67014b9616507bf3135aa960f51 2228 r-cran-libcoin_1.0-7-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=libcoin
+Package-List: 
+ r-cran-libcoin deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-coin
+Directory: pool/main/r/r-cran-libcoin
+Priority: extra
+Section: misc

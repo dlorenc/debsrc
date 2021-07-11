@@ -1,0 +1,27 @@
+Package: golang-golang-x-arch
+Binary: golang-golang-x-arch-dev
+Version: 0.0~git20201207.1e68675-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Emanuel Krivoy <ekrivoy@gmail.com>, Roger Shimizu <rosh@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8bd4c903f8756ba8a010e82d4320edab 1715 golang-golang-x-arch_0.0~git20201207.1e68675-1.dsc
+ 8d756476e8971deba25ad6e7640d1ece 798445 golang-golang-x-arch_0.0~git20201207.1e68675.orig.tar.gz
+ 01eb28f4de181d8a01290c0414d84496 4144 golang-golang-x-arch_0.0~git20201207.1e68675-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-golang-x-arch
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-golang-x-arch.git
+Checksums-Sha256:
+ 1a99bbe22188d15c3c510c3cc951d4ffc3b9baf4b9898e543403f603d290302d 1715 golang-golang-x-arch_0.0~git20201207.1e68675-1.dsc
+ fa0c8e8a118c6a06a529f70e782a6355490b0b437ce2bfe9b7ae82af7ee79dbf 798445 golang-golang-x-arch_0.0~git20201207.1e68675.orig.tar.gz
+ 9fc204850118112c5c44af0faa3ebeae0a5b53832aacfd28cbc91a06f7c4d38b 4144 golang-golang-x-arch_0.0~git20201207.1e68675-1.debian.tar.xz
+Homepage: https://github.com/golang/arch
+Go-Import-Path: golang.org/x/arch
+Package-List: 
+ golang-golang-x-arch-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-golang-x-arch
+Priority: extra
+Section: golang

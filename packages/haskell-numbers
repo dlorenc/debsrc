@@ -1,0 +1,28 @@
+Package: haskell-numbers
+Binary: libghc-numbers-dev, libghc-numbers-prof, libghc-numbers-doc
+Version: 3000.2.0.2-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-quickcheck2-dev (<< 3), libghc-quickcheck2-dev (>= 2), libghc-test-framework-dev (>= 0.6), libghc-test-framework-quickcheck2-dev (>= 0.2)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2f3c032ece3238b5fcec5c42ed294826 2482 haskell-numbers_3000.2.0.2-3.dsc
+ 43adfcac96ebec5097eb67f6544bb17d 18252 haskell-numbers_3000.2.0.2.orig.tar.gz
+ 15a895f798e6b4b75d732ba78980e271 3164 haskell-numbers_3000.2.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-numbers
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-numbers]
+Checksums-Sha256:
+ 1fa316fbd71d435d6818296b66a4ffbc905dd18fb399e25f6f0ed6dbfeb99081 2482 haskell-numbers_3000.2.0.2-3.dsc
+ f0cee40b90c3746bd0bc0559d3827d3cf1b1e2c43270b7ec9bf4fa458fcb5a77 18252 haskell-numbers_3000.2.0.2.orig.tar.gz
+ 4aa8a346c57250271eaa07c6203da45317c6849ba6992d8a3cb3cf4ad09c6dad 3164 haskell-numbers_3000.2.0.2-3.debian.tar.xz
+Homepage: https://github.com/jwiegley/numbers#readme
+Package-List: 
+ libghc-numbers-dev deb haskell optional arch=any
+ libghc-numbers-doc deb doc optional arch=all
+ libghc-numbers-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-numbers
+Priority: source
+Section: haskell

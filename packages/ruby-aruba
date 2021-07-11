@@ -1,0 +1,27 @@
+Package: ruby-aruba
+Binary: ruby-aruba
+Version: 1.0.4-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>, Praveen Arimbrathodiyil <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 0.3.0~), libjs-jquery, rake (>= 13.0), rake (<< 14.0), ruby-simplecov (>= 0.18.0), ruby-simplecov (<< 1.0), ruby-rspec (>= 3.6), ruby-rspec (<< 4.0), ruby-json (>= 2.1), ruby-json (<< 3.0), ruby-minitest (>= 5.10), ruby-minitest (<< 6.0), rubocop (>= 0.79.0), rubocop (<< 1.0), ruby-contracts (>= 0.16.0), ruby-childprocess (>= 3.0), cucumber (>= 2.4), cucumber (<< 6.0), ruby-childprocess (<< 5.0), ruby-contracts (<< 1.0), ruby-rspec-expectations (>= 3.4), ruby-rspec-expectations (<< 4.0), ruby-thor (>= 1.0), ruby-thor (<< 2.0)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ecba69b6de87656fbdf0f73d034f32fc 2590 ruby-aruba_1.0.4-1.dsc
+ f96b11495eddb92fd4bf275014fe9970 133509 ruby-aruba_1.0.4.orig.tar.gz
+ 43ee2668b9733e66c845625b06f4e8aa 80300 ruby-aruba_1.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-aruba
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-aruba.git
+Checksums-Sha256:
+ ce3a1bc2157166f8cb2379cc2f377a83115d6042ad4cc9fa90df26220e64f240 2590 ruby-aruba_1.0.4-1.dsc
+ 55000209da033c76888870caa134deb2affab355265f779009a2865acef4a6d5 133509 ruby-aruba_1.0.4.orig.tar.gz
+ 8c17431334615214e85da6251a1f536c1df78c8fe92e359c4c0c55aaf7464bc7 80300 ruby-aruba_1.0.4-1.debian.tar.xz
+Homepage: https://github.com/cucumber/aruba
+Package-List: 
+ ruby-aruba deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-aruba
+Priority: optional
+Section: misc

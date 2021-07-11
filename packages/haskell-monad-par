@@ -1,0 +1,28 @@
+Package: haskell-monad-par
+Binary: libghc-monad-par-dev, libghc-monad-par-prof, libghc-monad-par-doc
+Version: 0.3.5-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iulian Udrea <iulian@physics.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-abstract-deque-dev (>= 0.1.4), libghc-abstract-deque-prof, libghc-abstract-par-dev, libghc-abstract-par-prof, libghc-hunit-dev, libghc-monad-par-extras-dev (>= 0.3), libghc-monad-par-extras-prof, libghc-mwc-random-dev (>= 0.11), libghc-mwc-random-prof, libghc-parallel-dev (>= 3.1), libghc-parallel-prof, libghc-quickcheck2-dev [!mips !mipsel !sparc], libghc-test-framework-dev [!mips !mipsel !sparc], libghc-test-framework-hunit-dev [!mips !mipsel !sparc], libghc-test-framework-quickcheck2-dev (>= 0.3) [!mips !mipsel !sparc], libghc-test-framework-th-dev [!mips !mipsel !sparc]
+Build-Depends-Indep: ghc-doc, libghc-abstract-deque-doc, libghc-abstract-par-doc, libghc-monad-par-extras-doc, libghc-mwc-random-doc, libghc-parallel-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c41f3cdf4a44999e76f1f0bf3578711e 3043 haskell-monad-par_0.3.5-1.dsc
+ cd00fc653b09c62df97eb089fe655f9b 31675 haskell-monad-par_0.3.5.orig.tar.gz
+ 480ab545c4c537e5b663d9547ebe9a24 3584 haskell-monad-par_0.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-monad-par
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-monad-par]
+Checksums-Sha256:
+ 10ea1f32ff59656fddc8addcc478b5022bbe100e110638839761ed5299bb7e16 3043 haskell-monad-par_0.3.5-1.dsc
+ 823ad5666cbcaefe2c6e0ff131daa0713dff9b3b534fb809643b869e5e4a15a9 31675 haskell-monad-par_0.3.5.orig.tar.gz
+ 525adf06bf8ceb949b1af96338c5ac761d5c2d61904d4116acfc41c2d5707d12 3584 haskell-monad-par_0.3.5-1.debian.tar.xz
+Homepage: https://github.com/simonmar/monad-par
+Package-List: 
+ libghc-monad-par-dev deb haskell optional arch=any
+ libghc-monad-par-doc deb doc optional arch=all
+ libghc-monad-par-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-monad-par
+Priority: source
+Section: haskell

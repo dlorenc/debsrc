@@ -1,0 +1,28 @@
+Package: dwarfutils
+Binary: dwarfdump, libdwarf-dev, libdwarf1
+Version: 20201201-1
+Maintainer: Fabian Wolff <fabi.wolff@arcor.de>
+Build-Depends: debhelper-compat (= 13), libelf-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a6deaac2576b371f761675dd65820382 2091 dwarfutils_20201201-1.dsc
+ b8cf2f53bbe34891d77933ed39a43484 2838730 dwarfutils_20201201.orig.tar.gz
+ dcc8bd855739ea7902b07be986e51544 14124 dwarfutils_20201201-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/wolff/dwarfutils
+Vcs-Git: https://salsa.debian.org/wolff/dwarfutils.git
+Checksums-Sha256:
+ 342e89a0b3fd01c2e4110efecaca34e58124c0c32ae022dfea267965e722ecec 2091 dwarfutils_20201201-1.dsc
+ 62db1028dfd8fd877d01ae75873ac1fe311437012ef48a0ac4157189e1e9b2c9 2838730 dwarfutils_20201201.orig.tar.gz
+ f047df00abbcab0e9428a86410038e2df261782f56f8e76e286a533df20f67d8 14124 dwarfutils_20201201-1.debian.tar.xz
+Homepage: https://www.prevanders.net/dwarf.html
+Package-List: 
+ dwarfdump deb utils optional arch=any
+ libdwarf-dev deb libdevel optional arch=any
+ libdwarf1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/d/dwarfutils
+Priority: source
+Section: libs

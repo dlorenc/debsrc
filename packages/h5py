@@ -1,0 +1,33 @@
+Package: h5py
+Binary: python3-h5py, python3-h5py-serial, python3-h5py-mpi, python3-h5py-dbg, python3-h5py-serial-dbg, python3-h5py-mpi-dbg, python-h5py-doc
+Version: 2.10.0-9
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>, Mo Zhou <cdluminate@gmail.com>,
+Build-Depends: cython3, cython3-dbg, debhelper-compat (= 12), dh-python, dpkg-dev (>= 1.17.14), libhdf5-dev, libhdf5-mpi-dev (>= 1.10.6+repack-1), libjs-mathjax, liblzf-dev, mpi-default-dev, python3-all-dbg, python3-all-dev, python3-mpi4py, python3-mpi4py-dbg, python3-numpy, python3-numpy-dbg, python3-pkgconfig, python3-pytest, python3-setuptools, python3-six, python3-unittest2, python3-sphinx <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d394453ca2a629bffd13f8542aa52331 2860 h5py_2.10.0-9.dsc
+ 504b595237409ab766fbbe568e60a080 301057 h5py_2.10.0.orig.tar.gz
+ 00503d3f3bc50859827722eae74c7415 20000 h5py_2.10.0-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/h5py
+Vcs-Git: https://salsa.debian.org/science-team/h5py.git
+Checksums-Sha256:
+ b162a75bd2ab874c0989233c6b5d84042dead4a75e52a0514aa7ffc4785dbc3d 2860 h5py_2.10.0-9.dsc
+ 84412798925dc870ffd7107f045d7659e60f5d46d1c70c700375248bf6bf512d 301057 h5py_2.10.0.orig.tar.gz
+ 2e42239ab7dc36fe91f4114506846490839f0480fcdf019bdcdeecec11ec4777 20000 h5py_2.10.0-9.debian.tar.xz
+Homepage: https://www.h5py.org/
+Package-List: 
+ python-h5py-doc deb doc optional arch=all profile=!nodoc
+ python3-h5py deb python optional arch=all
+ python3-h5py-dbg deb debug optional arch=all
+ python3-h5py-mpi deb python optional arch=any
+ python3-h5py-mpi-dbg deb debug optional arch=any
+ python3-h5py-serial deb python optional arch=any
+ python3-h5py-serial-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: mpi-default-bin, python3-all, python3-all-dbg, python3-pytest, python3-unittest2
+Directory: pool/main/h/h5py
+Priority: source
+Section: python

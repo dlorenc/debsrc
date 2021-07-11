@@ -1,0 +1,27 @@
+Package: haskell-servant-client-core
+Binary: libghc-servant-client-core-dev, libghc-servant-client-core-prof, libghc-servant-client-core-doc
+Version: 0.16-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.15), libghc-aeson-dev (>= 1.4.1.0), libghc-aeson-dev (<< 1.5), libghc-aeson-prof, libghc-base-compat-dev (>= 0.10.5), libghc-base-compat-dev (<< 0.12), libghc-base-compat-prof, libghc-base64-bytestring-dev (>= 1.0.0.1), libghc-base64-bytestring-dev (<< 1.1), libghc-base64-bytestring-prof, libghc-exceptions-dev (>= 0.10.0), libghc-exceptions-dev (<< 0.11), libghc-exceptions-prof, libghc-free-dev (>= 5.1), libghc-free-dev (<< 5.2), libghc-free-prof, libghc-http-media-dev (>= 0.7.1.3), libghc-http-media-dev (<< 0.9), libghc-http-media-prof, libghc-http-types-dev (>= 0.12.2), libghc-http-types-dev (<< 0.13), libghc-http-types-prof, libghc-network-uri-dev (>= 2.6.1.0), libghc-network-uri-dev (<< 2.7), libghc-network-uri-prof, libghc-safe-dev (>= 0.3.17), libghc-safe-dev (<< 0.4), libghc-safe-prof, libghc-servant-dev (>= 0.16), libghc-servant-dev (<< 0.17), libghc-servant-prof, libghc-quickcheck2-dev (>= 2.12.6.1), libghc-quickcheck2-dev (<< 2.14), libghc-quickcheck2-prof, libghc-hspec-dev (>= 2.6.0), libghc-hspec-dev (<< 2.8), libghc-hspec-prof
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-base-compat-doc, libghc-base64-bytestring-doc, libghc-exceptions-doc, libghc-free-doc, libghc-http-media-doc, libghc-http-types-doc, libghc-network-uri-doc, libghc-safe-doc, libghc-servant-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 5270c83e17de17ee1e8b4c1715b852ce 3698 haskell-servant-client-core_0.16-2.dsc
+ 31ff6bd52a770254a9c3fff4a92702b4 16916 haskell-servant-client-core_0.16.orig.tar.gz
+ 15aa9bfcd75be2f513d5b1bd99243130 3152 haskell-servant-client-core_0.16-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-servant-client-core
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-servant-client-core]
+Checksums-Sha256:
+ 125e3832eff7b787b1296bec8746bd678508f6137a336e5289baf5b88f5bd55c 3698 haskell-servant-client-core_0.16-2.dsc
+ bf8d750ba21fef9772387d0d03e35acac51093ea9ab031c8951c2af38f4a7b33 16916 haskell-servant-client-core_0.16.orig.tar.gz
+ 5fa72526e1933e78c4146aeb6284b041633468295d27eeb9455c7de5b1ab6f2a 3152 haskell-servant-client-core_0.16-2.debian.tar.xz
+Homepage: http://haskell-servant.readthedocs.org/
+Package-List: 
+ libghc-servant-client-core-dev deb haskell optional arch=any
+ libghc-servant-client-core-doc deb doc optional arch=all
+ libghc-servant-client-core-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-servant-client-core
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: ros-wstool
+Binary: python3-wstool
+Version: 0.1.18-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Thomas Moulard <thomas.moulard@gmail.com>, Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, git, mercurial, subversion, bzr, python3-vcstools, python3-mock, python3-yaml
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ ed5b998227aceaebae7307f28f524754 2206 ros-wstool_0.1.18-2.dsc
+ e1892df12d90abccf0e34b20fac35975 80595 ros-wstool_0.1.18.orig.tar.gz
+ 15b696a6efbc5abd341df271ba94d630 3300 ros-wstool_0.1.18-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ros-wstool
+Vcs-Git: https://salsa.debian.org/science-team/ros-wstool.git
+Checksums-Sha256:
+ 8d9f4a959214e512e083a13a672dc51d7078ea6baf35996ba20e9c26e45e67ca 2206 ros-wstool_0.1.18-2.dsc
+ f04621acda755a45896db2d3a84131f96cf69905515997637b4568f3fad5c46e 80595 ros-wstool_0.1.18.orig.tar.gz
+ 0db0a4ba0bf4f4f6d952136d9b792666be5534d037b7139aa857556a27a0697b 3300 ros-wstool_0.1.18-2.debian.tar.xz
+Homepage: https://wiki.ros.org/wstool
+Package-List: 
+ python3-wstool deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/r/ros-wstool
+Priority: optional
+Section: misc

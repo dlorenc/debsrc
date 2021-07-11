@@ -1,0 +1,27 @@
+Package: phpunit
+Binary: phpunit
+Version: 9.5.2-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Prach Pongpanich <prach@debian.org>, David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, php-codecoverage (>= 9), php-deepcopy, php-doctrine-instantiator, php-invoker (>= 3), php-mbstring, php-phar-io-manifest, php-phpspec-prophecy, php-phpspec-prophecy-phpunit, php-soap, php-sqlite3, php-timer (>= 4), php-xdebug, phpab, phpunit-cli-parser, phpunit-code-unit, phpunit-diff, phpunit-environment, phpunit-global-state, phpunit-object-enumerator, phpunit-resource-operations, phpunit-type, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3aa397287a3d9d17d074a25d22d7b095 2164 phpunit_9.5.2-1.dsc
+ 9a108bc6275af725cf711e9e87c91e5b 5324328 phpunit_9.5.2.orig.tar.xz
+ 75f4b5b596ac25d714004b4607dc7619 63268 phpunit_9.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/phpunit
+Vcs-Git: https://salsa.debian.org/php-team/pear/phpunit.git -b debian/latest
+Checksums-Sha256:
+ b96186332315f172483dbd8feec8a504289da2074322337d52a099fe1f5a3554 2164 phpunit_9.5.2-1.dsc
+ d98b88d89670fa8da40c90d850b29331786747b06978c2edc297dbc607d311a8 5324328 phpunit_9.5.2.orig.tar.xz
+ 695e001092fd3d72ca88461927547b74c186c765634b7cf43cdce66c6296edc4 63268 phpunit_9.5.2-1.debian.tar.xz
+Homepage: https://phpunit.de/
+Package-List: 
+ phpunit deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-phpspec-prophecy-phpunit, php-soap, php-sqlite3, php-xdebug, phpab
+Directory: pool/main/p/phpunit
+Priority: source
+Section: php

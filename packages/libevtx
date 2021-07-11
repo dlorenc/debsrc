@@ -1,0 +1,28 @@
+Package: libevtx
+Binary: libevtx-dev, libevtx1, libevtx-utils, python3-libevtx
+Version: 20181227-2
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper-compat (= 11), pkg-config, dh-python, python3-dev, libbfio-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7eed8e4050ad64b8949eeb4b7fcd1cb5 1814 libevtx_20181227-2.dsc
+ 438ab1f45ec931e091a3eecca4d7b9cf 1912084 libevtx_20181227.orig.tar.gz
+ 6829284317617adf028ad449dd3e1006 4708 libevtx_20181227-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/libevtx
+Vcs-Git: https://salsa.debian.org/pkg-security-team/libevtx.git
+Checksums-Sha256:
+ af4c78d970e6b6355f54439e1b65b03f3b42b23d33ad9ec69d32abb270312024 1814 libevtx_20181227-2.dsc
+ 1d0661138389a0ffc01428143c7a905d6dc60837912dc7fd04624b356dea4ead 1912084 libevtx_20181227.orig.tar.gz
+ 6464bff497ac779db472397b3f2e8aa7344c2054b5e8583b48f5d46862c7307a 4708 libevtx_20181227-2.debian.tar.xz
+Homepage: https://github.com/libyal/libevtx
+Package-List: 
+ libevtx-dev deb libdevel optional arch=any
+ libevtx-utils deb otherosfs optional arch=any
+ libevtx1 deb libs optional arch=any
+ python3-libevtx deb python optional arch=any
+Directory: pool/main/libe/libevtx
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-espree
+Binary: node-espree
+Version: 7.3.1~dfsg1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Pirate Praveen <praveen@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, eslint <!nocheck>, mocha <!nocheck>, node-acorn (>= 6) <!nocheck>, node-chai <!nocheck>, node-eslint-config-eslint <!nocheck>, node-eslint-plugin-node <!nocheck>, node-eslint-visitor-keys <!nocheck>, node-leche <!nocheck>, node-shelljs <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a7078117086cc282bc48cf3e8f29b088 2331 node-espree_7.3.1~dfsg1-1.dsc
+ 1cab415ad2af6481c545d5ddb5d5e54d 253068 node-espree_7.3.1~dfsg1.orig.tar.xz
+ b34f786c0711ade1c82e59a7ff3749d7 13340 node-espree_7.3.1~dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-espree
+Vcs-Git: https://salsa.debian.org/js-team/node-espree.git
+Checksums-Sha256:
+ 2f14939f736f6c967bc07cd124103a5f2e9bb9fb688a9ba34edd293e1578ab34 2331 node-espree_7.3.1~dfsg1-1.dsc
+ 469205dff36aacdbaf1f1f4089b4855cddc0ae4c94cc46dbdcdf6ee8fe0658fd 253068 node-espree_7.3.1~dfsg1.orig.tar.xz
+ da7fcdb094461d1ea3212aaa1e4003087723a6ca097018b0447cec906f98f648 13340 node-espree_7.3.1~dfsg1-1.debian.tar.xz
+Homepage: https://github.com/eslint/espree
+Package-List: 
+ node-espree deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-espree
+Priority: extra
+Section: javascript

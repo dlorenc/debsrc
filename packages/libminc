@@ -1,0 +1,26 @@
+Package: libminc
+Binary: libminc2-5.2.0, libminc-dev
+Version: 2.4.03-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steve M. Robbins <smr@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec, cmake, libnetcdf-dev, libnifti-dev, zlib1g-dev, libhdf5-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9fd038d18740868fad172e8a38ff50fa 2105 libminc_2.4.03-3.dsc
+ 98b270f1ce536346662c34ee85e3e22a 809098 libminc_2.4.03.orig.tar.gz
+ 52483d186c1d300ddc1e9fb9988106e7 9048 libminc_2.4.03-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libminc
+Vcs-Git: https://salsa.debian.org/med-team/libminc.git
+Checksums-Sha256:
+ e55ed38cbb0e94a9fcedcdf7bfeb5a66d95b797ff7d67450b36beda9b4a21773 2105 libminc_2.4.03-3.dsc
+ 7ee57846641d92988e96eb6d2c88ff2d922cd2b42a9e6256cf4213953ca896e4 809098 libminc_2.4.03.orig.tar.gz
+ 796a72d00aec6b4af9f5e529fba90ba61f3e072d76c7af694d33482fa299ce92 9048 libminc_2.4.03-3.debian.tar.xz
+Homepage: https://github.com/BIC-MNI/libminc
+Package-List: 
+ libminc-dev deb libdevel optional arch=any
+ libminc2-5.2.0 deb libs optional arch=any
+Directory: pool/main/libm/libminc
+Priority: optional
+Section: misc

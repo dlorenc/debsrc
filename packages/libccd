@@ -1,0 +1,28 @@
+Package: libccd
+Binary: libccd2, libccd-dev
+Version: 2.1-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jose Luis Rivero <jrivero@osrfoundation.org>
+Build-Depends: debhelper (>= 11), cmake
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 68bd54e8f73ae1b5ad638ed4a98de3cc 1707 libccd_2.1-1.dsc
+ 229390200e31dae6d500d0349f8d1935 74069 libccd_2.1.orig.tar.gz
+ 71ac2c092e04c1c3d4592f44c4b3fbc2 4472 libccd_2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libccd
+Vcs-Git: https://salsa.debian.org/science-team/libccd.git
+Checksums-Sha256:
+ cca4ce8d35bc6143a7fec85adb4f07686a80dbeed8e296a495acc16996cc699a 1707 libccd_2.1-1.dsc
+ 3543093486a8bdb7129e18d69d8f2b42e3056877521425210f9fe560789ebba5 74069 libccd_2.1.orig.tar.gz
+ 8ef29a6c9c7db4555125cbec94af00e7bfac56e00c16f1e1900816ca0d04ee36 4472 libccd_2.1-1.debian.tar.xz
+Homepage: http://libccd.danfis.cz/
+Package-List: 
+ libccd-dev deb libdevel optional arch=any
+ libccd2 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/libc/libccd
+Priority: optional
+Section: misc

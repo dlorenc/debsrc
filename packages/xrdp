@@ -1,0 +1,25 @@
+Package: xrdp
+Binary: xrdp
+Version: 0.9.12-1.1
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Uploaders: Dominik George <natureshadow@debian.org>, Andreas Tille <tille@debian.org>, Mike Gabriel <sunweaver@debian.org>, Thorsten Glaser <tg@mirbsd.de>,
+Build-Depends: autoconf (>= 2.59), automake (>= 1.6), debhelper-compat (= 12), libfuse-dev [!hurd-any], libjpeg-dev, libopus-dev, libpam0g-dev, libssl-dev, libtool, libx11-dev, libxfixes-dev, libxrandr-dev, nasm [amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386], openssl, pkg-config, systemd [linux-any]
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f8ac1099c66724d15cc57cace2d634e2 2411 xrdp_0.9.12-1.1.dsc
+ cf6507a8d3f44408bead7bdcdfb9f742 1871977 xrdp_0.9.12.orig.tar.gz
+ d9723a12dba5a2abbfcd46cc07694e75 28176 xrdp_0.9.12-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-remote-team/xrdp
+Vcs-Git: https://salsa.debian.org/debian-remote-team/xrdp.git
+Checksums-Sha256:
+ 1eada96f22b21b00bb1a07ccb1d1d03f5a7270e21b39eb1d192fbc374c35f495 2411 xrdp_0.9.12-1.1.dsc
+ 9d3d7865c372afc8f9acbd93d59f3a5aae244509577b003ffc46af8ff32a21e6 1871977 xrdp_0.9.12.orig.tar.gz
+ 6df4f2956fb3ee9b952888efca74af0dd79c553c8341b641ac4527f6f7547f05 28176 xrdp_0.9.12-1.1.debian.tar.xz
+Homepage: http://www.xrdp.org/
+Package-List: 
+ xrdp deb net optional arch=any
+Directory: pool/main/x/xrdp
+Priority: source
+Section: net

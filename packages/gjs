@@ -1,0 +1,31 @@
+Package: gjs
+Binary: gjs, gjs-tests, libgjs0g, libgjs-dev
+Version: 1.66.2-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Tim Lunn <tim@feathertop.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, pkg-config (>= 0.28), libcairo2-dev, libffi-dev (>= 3.3), libglib2.0-dev (>= 2.58.0), libgirepository1.0-dev (>= 1.64), gir1.2-gtk-3.0, gobject-introspection (>= 1.64), libmozjs-78-dev, libreadline-dev, meson (>= 0.50.0), dbus <!nocheck>, dbus-x11 <!nocheck>, at-spi2-core <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fb783cb530d7c0567b6e9f393090992c 2678 gjs_1.66.2-1.dsc
+ 3c272f27a2ce18c82261698520b1147f 440184 gjs_1.66.2.orig.tar.xz
+ 46449f3be073e62d0f9de859d644c4b3 16452 gjs_1.66.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gjs
+Vcs-Git: https://salsa.debian.org/gnome-team/gjs.git
+Checksums-Sha256:
+ 293c62b049f24f9cb1122def8978c9b06d3c70307bc0a88a673bb78d3a479caf 2678 gjs_1.66.2-1.dsc
+ bd7f5f8b171277cc0bb9ee1754b0240b62f06a76b8b18c968cf471b34ab34e59 440184 gjs_1.66.2.orig.tar.xz
+ 8b4391ec7f2237a6048a2f2159183d4b7245db52a620bd6ed95f0be85a2ad52c 16452 gjs_1.66.2-1.debian.tar.xz
+Homepage: https://gitlab.gnome.org/GNOME/gjs/wikis
+Dgit: fe4f5f1bf32a303e3ca9a0dead7c8f15123fd1f3 debian archive/debian/1.66.2-1 https://git.dgit.debian.org/gjs
+Package-List: 
+ gjs deb interpreters optional arch=any
+ gjs-tests deb interpreters optional arch=any
+ libgjs-dev deb libdevel optional arch=any
+ libgjs0g deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, dbus, dbus-x11, gnome-desktop-testing, xauth, xvfb
+Directory: pool/main/g/gjs
+Priority: source
+Section: interpreters

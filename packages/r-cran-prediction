@@ -1,0 +1,27 @@
+Package: r-cran-prediction
+Binary: r-cran-prediction
+Version: 0.3.14-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-data.table
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e74360d8d5d6bc14051430fa40966acd 2157 r-cran-prediction_0.3.14-2.dsc
+ f27a713e1265ac86ab47b06a32154e44 74182 r-cran-prediction_0.3.14.orig.tar.gz
+ f49252c3c50ef13a4e85050714ea06e9 2620 r-cran-prediction_0.3.14-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-prediction
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-prediction.git
+Checksums-Sha256:
+ 6b4faa012a6f686bda47b3884218e48d19463d9062bd442f98e682f30096b87d 2157 r-cran-prediction_0.3.14-2.dsc
+ 3daf9f03c12f932817376361fecae62b8f74f5cce3f09096a84645d769c1942b 74182 r-cran-prediction_0.3.14.orig.tar.gz
+ ef9c304924aeb72f812f7ffe5764198f8879bc42ddeaf4f85ff35ea011824426 2620 r-cran-prediction_0.3.14-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=prediction
+Package-List: 
+ r-cran-prediction deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-prediction
+Priority: extra
+Section: misc

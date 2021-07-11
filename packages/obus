@@ -1,0 +1,28 @@
+Package: obus
+Binary: libobus-ocaml-dev, libobus-ocaml, libobus-ocaml-bin
+Version: 1.2.3-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-ocaml, libxmlm-ocaml-dev, liblwt-ocaml-dev (>= 4.3.0), liblwt-log-ocaml-dev, libppxlib-ocaml-dev (>= 0.14.0), ocaml-dune, menhir, ocaml-nox
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a06221f4bac5f73ce4389a4b6d6a88f0 1951 obus_1.2.3-1.dsc
+ 3090a796f0af95e16838d81656ac4b97 172214 obus_1.2.3.orig.tar.gz
+ 59f23b8e08fc09f7038e1513abaf2963 4076 obus_1.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/obus
+Vcs-Git: https://salsa.debian.org/ocaml-team/obus.git
+Checksums-Sha256:
+ d6e41cc66aae7bd3aebc0e6ccefe9748cbf4f05c6ceb138f14c2cb13f107c837 1951 obus_1.2.3-1.dsc
+ 75703f78015e15d03d0fdba1633a155875daf17d854225658429e72a0df06258 172214 obus_1.2.3.orig.tar.gz
+ 0562eb5373fabb482cddb04b0de80b99a010a027584ab743eb86fc5249d34904 4076 obus_1.2.3-1.debian.tar.xz
+Homepage: https://github.com/ocaml-community/obus
+Dgit: 18c291e6dddf5d5917e9bdff661fbbde36d67636 debian archive/debian/1.2.3-1 https://git.dgit.debian.org/obus
+Package-List: 
+ libobus-ocaml deb ocaml optional arch=any
+ libobus-ocaml-bin deb ocaml optional arch=any
+ libobus-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/obus
+Priority: source
+Section: ocaml

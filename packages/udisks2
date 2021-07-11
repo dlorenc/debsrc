@@ -1,0 +1,36 @@
+Package: udisks2
+Binary: udisks2, udisks2-bcache, udisks2-btrfs, udisks2-lvm2, udisks2-zram, udisks2-doc, libudisks2-0, libudisks2-dev, gir1.2-udisks-2.0
+Version: 2.9.2-2
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Biebl <biebl@debian.org>, Martin Pitt <mpitt@debian.org>,
+Build-Depends: debhelper-compat (= 13), docbook-xml, docbook-xsl, gtk-doc-tools, gettext (>= 0.19.8), gobject-introspection (>= 1.30), libacl1-dev, libatasmart-dev (>= 0.17), libblockdev-btrfs-dev, libblockdev-crypto-dev, libblockdev-dev (>= 2.25), libblockdev-fs-dev, libblockdev-kbd-dev, libblockdev-loop-dev, libblockdev-lvm-dev, libblockdev-mdraid-dev, libblockdev-part-dev (>= 2.10), libblockdev-swap-dev, libgirepository1.0-dev (>= 1.30), libglib2.0-dev (>= 2.50), libgudev-1.0-dev (>= 165), libmount-dev (>= 2.30), libpolkit-agent-1-dev (>= 0.102), libpolkit-gobject-1-dev (>= 0.102), libsystemd-dev (>= 209), pkg-config, policykit-1 (>= 0.105-18), udev (>= 147), xsltproc
+Build-Depends-Indep: libglib2.0-doc <!nodoc>, policykit-1-doc <!nodoc>
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ba832728082a9c5970593722b64b186e 3502 udisks2_2.9.2-2.dsc
+ 1f8a9ca98a63ecc9e48ffd08309d0492 1701377 udisks2_2.9.2.orig.tar.bz2
+ c6b2737e518ed779593dcfbed650e164 19300 udisks2_2.9.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/utopia-team/udisks2
+Vcs-Git: https://salsa.debian.org/utopia-team/udisks2.git
+Checksums-Sha256:
+ 0b50d34c5f2d7db19410d1111a1c2b39e53d1e5420e82ad010363643f4d62d49 3502 udisks2_2.9.2-2.dsc
+ bda6f9d7edc632c57e55862731a8ffeff2413fa4346708a22bf31ed72b0fe058 1701377 udisks2_2.9.2.orig.tar.bz2
+ c2a49d02acbc991072ac5a47de71d438606778935fd7a517d31aea810ef2b604 19300 udisks2_2.9.2-2.debian.tar.xz
+Homepage: https://www.freedesktop.org/wiki/Software/udisks
+Package-List: 
+ gir1.2-udisks-2.0 deb introspection optional arch=linux-any
+ libudisks2-0 deb libs optional arch=linux-any
+ libudisks2-dev deb libdevel optional arch=linux-any
+ udisks2 deb admin optional arch=linux-any
+ udisks2-bcache deb admin optional arch=linux-any
+ udisks2-btrfs deb admin optional arch=linux-any
+ udisks2-doc deb doc optional arch=all profile=!nodoc
+ udisks2-lvm2 deb admin optional arch=linux-any
+ udisks2-zram deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: cryptsetup-bin, dosfstools, exfat-fuse, exfat-utils, gir1.2-glib-2.0, kpartx, libatasmart-bin, libblockdev-crypto2, lvm2, make, mdadm, ntfs-3g, policykit-1, python3-dbus, python3-distutils, python3-gi, reiserfsprogs, targetcli-fb, xfsprogs
+Directory: pool/main/u/udisks2
+Priority: source
+Section: admin

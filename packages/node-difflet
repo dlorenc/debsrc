@@ -1,0 +1,26 @@
+Package: node-difflet
+Binary: node-difflet
+Version: 1.0.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-charm <!nocheck>, node-deep-is <!nocheck>, node-tap <!nocheck>, node-traverse <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c0fe3175c156413796df7e25e83a3dda 2114 node-difflet_1.0.1-2.dsc
+ 93ac9c41c8fa0f628f09b20642466af2 6217 node-difflet_1.0.1.orig.tar.gz
+ 33d7cc5bf52dd4ca22b737c0fe3453d0 4900 node-difflet_1.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-difflet
+Vcs-Git: https://salsa.debian.org/js-team/node-difflet.git
+Checksums-Sha256:
+ 3b9532dcd89998852e25f5a34273766fac71a6efff7754be0a8c3495fdbb215e 2114 node-difflet_1.0.1-2.dsc
+ 4fe93f6444c7fd88ec6d3031aa601370121d31ff2edbf740007749bea21bef37 6217 node-difflet_1.0.1.orig.tar.gz
+ 3bb8d04a94c2c53981f8fd1b9f4644f413c267290d708ec5eef6da37e6321826 4900 node-difflet_1.0.1-2.debian.tar.xz
+Homepage: https://github.com/substack/difflet
+Package-List: 
+ node-difflet deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-difflet
+Priority: optional
+Section: javascript

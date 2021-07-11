@@ -1,0 +1,26 @@
+Package: gosu
+Binary: gosu
+Version: 1.12-1
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>
+Build-Depends: debhelper (>= 9), dh-golang (>= 1.10~), golang-github-opencontainers-runc-dev (>= 0.0.4~), golang-go (>= 2:1.4~)
+Architecture: linux-any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 972d88d502a3bbce64c1040cf6c2c9e9 2008 gosu_1.12-1.dsc
+ deeeea108dbbf08bd6e47c898b98902f 19366 gosu_1.12.orig.tar.gz
+ 8765e711a3b475c80d20c2b380112b86 3440 gosu_1.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/gosu
+Vcs-Git: https://salsa.debian.org/go-team/packages/gosu.git
+Checksums-Sha256:
+ 2d73de09a13b10d0955ac067078af3c0f3d66309dab58ee2c22914bd58050d13 2008 gosu_1.12-1.dsc
+ 91de59882ae888c3e32dbc89c54d3d3c995f0dbbe3e90fd8f79c54757f110a3d 19366 gosu_1.12.orig.tar.gz
+ f05c0d0019513118ddce3f28cf6d4c727536605ba30095901e28818407927bee 3440 gosu_1.12-1.debian.tar.xz
+Homepage: https://github.com/tianon/gosu
+Go-Import-Path: github.com/tianon/gosu
+Package-List: 
+ gosu deb admin extra arch=linux-any
+Directory: pool/main/g/gosu
+Priority: optional
+Section: misc

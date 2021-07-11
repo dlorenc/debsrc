@@ -1,0 +1,28 @@
+Package: libdist-zilla-plugin-test-podspelling-perl
+Binary: libdist-zilla-plugin-test-podspelling-perl, libdist-zilla-plugin-podspellingtests-perl
+Version: 2.007005-1.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper (>= 10), libmodule-build-tiny-perl
+Build-Depends-Indep: libdist-zilla-perl (>= 5), libfile-pushd-perl, libmoose-perl, libpath-tiny-perl, libtest-deep-perl, libtest-fatal-perl, libtest-needs-perl, libtest-spelling-perl, perl (>= 5.21.6) | libtest-simple-perl (>= 1.001010), perl
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 56296de280cbafd93ebbf16e1a031582 2775 libdist-zilla-plugin-test-podspelling-perl_2.007005-1.1.dsc
+ 8e456b2c5e14269424518df37797c9f1 34222 libdist-zilla-plugin-test-podspelling-perl_2.007005.orig.tar.gz
+ e63935e52f5ee7e02d09213ff512e449 5904 libdist-zilla-plugin-test-podspelling-perl_2.007005-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libdist-zilla-plugin-test-podspelling-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libdist-zilla-plugin-test-podspelling-perl.git
+Checksums-Sha256:
+ e29f538b2a3fda4bc0a1552caf074d8ba13b33100cd95bd98024a48af50d90ee 2775 libdist-zilla-plugin-test-podspelling-perl_2.007005-1.1.dsc
+ 719fadf05144ffe8c08bb4b8f442bf1ca9d5651fa4d2846370ca88e67a540c11 34222 libdist-zilla-plugin-test-podspelling-perl_2.007005.orig.tar.gz
+ 43e00e8290ba3645bac1650b565aacdc5cd0e6b88f59dc7e56e3082fc39a85d6 5904 libdist-zilla-plugin-test-podspelling-perl_2.007005-1.1.debian.tar.xz
+Homepage: https://metacpan.org/release/Dist-Zilla-Plugin-Test-PodSpelling
+Package-List: 
+ libdist-zilla-plugin-podspellingtests-perl deb oldlibs optional arch=all
+ libdist-zilla-plugin-test-podspelling-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdist-zilla-plugin-test-podspelling-perl
+Priority: optional
+Section: misc

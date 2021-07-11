@@ -1,0 +1,26 @@
+Package: pilon
+Binary: pilon
+Version: 1.23+dfsg-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), javahelper, scala, libhtsjdk-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f70e96c72ac6dc716cdb802ac517c42a 1999 pilon_1.23+dfsg-2.dsc
+ 7ff72d7b8b300fdd185bde7047c319f2 41572 pilon_1.23+dfsg.orig.tar.xz
+ b32754fdb9c7fbcdbe9b3eb25a1439f3 83576 pilon_1.23+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pilon
+Vcs-Git: https://salsa.debian.org/med-team/pilon.git
+Checksums-Sha256:
+ 8512155723a44efb9f0045a64b23754883f9f0a9bec649d8f9c24e11bb99e7c6 1999 pilon_1.23+dfsg-2.dsc
+ b7b2017f4dea73a639d149a2427d5706a602771052d4abc05cbe00d4e32b24c5 41572 pilon_1.23+dfsg.orig.tar.xz
+ f9a88b7394410cc20d70f42c1d5e08cd56883d81b8246b8827cb18489d63ee59 83576 pilon_1.23+dfsg-2.debian.tar.xz
+Homepage: https://github.com/broadinstitute/pilon/wiki
+Package-List: 
+ pilon deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/pilon
+Priority: extra
+Section: misc

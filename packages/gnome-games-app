@@ -1,0 +1,25 @@
+Package: gnome-games-app
+Binary: gnome-games-app
+Version: 3.38.0-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper-compat (= 12), appstream-util <!nocheck>, desktop-file-utils <!nocheck>, dh-sequence-gnome, libarchive-dev, libgrilo-0.3-dev, libgtk-3-dev, libhandy-1-dev (>= 0.90.0), libmanette-0.2-dev, libretro-gtk-1-dev (>= 0.18.0), librsvg2-dev, libsoup2.4-dev, libsqlite3-dev, libtool-bin, libtracker-sparql-2.0-dev, libxml2-dev, libxml2-utils, meson (>= 0.46.1), pkg-config (>= 0.22), valac
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ da6350ce3679161368ebe6cfcde7d24c 2088 gnome-games-app_3.38.0-1.dsc
+ 976f10d975798dec30b88cdc8aef3cbb 4601932 gnome-games-app_3.38.0.orig.tar.xz
+ db7f275e7f52e6c21f457f5b0e24eb9c 6532 gnome-games-app_3.38.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-games
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-games.git
+Checksums-Sha256:
+ 4b1980192272dfb8153f3a1587e86eebdab5815d6d4d7008d37fa61774399f20 2088 gnome-games-app_3.38.0-1.dsc
+ 5c868fd6eb0b8d23b995039633043e90d8d93856d315832de3a315d7b1e54e48 4601932 gnome-games-app_3.38.0.orig.tar.xz
+ 32dc289841686b0f5b5f19840271083486674de3af9bf49ff286adb6acbc53c1 6532 gnome-games-app_3.38.0-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Games
+Package-List: 
+ gnome-games-app deb games optional arch=linux-any
+Directory: pool/main/g/gnome-games-app
+Priority: optional
+Section: misc

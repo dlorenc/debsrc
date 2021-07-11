@@ -1,0 +1,26 @@
+Package: sra-sdk
+Binary: sra-toolkit
+Version: 2.10.9+dfsg-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>, Aaron M. Ucko <ucko@debian.org>
+Build-Depends: debhelper-compat (= 13), libngs-sdk-dev (>= 2.10.9), libncbi-vdb-dev (>= 2.10.6+dfsg-3~), libvdb-sqlite-dev, libfuse-dev, libhdf5-dev, libmagic-dev, libxml2-dev, python3
+Architecture: amd64
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7f69b64f1fdf1c6f5bb70196c20d18dc 2204 sra-sdk_2.10.9+dfsg-2.dsc
+ 728daf811251c87decaa2ddb4b81a187 5736156 sra-sdk_2.10.9+dfsg.orig.tar.xz
+ eef5a1eb6a6cd8c57cb00c05f7516250 3845208 sra-sdk_2.10.9+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/sra-sdk
+Vcs-Git: https://salsa.debian.org/med-team/sra-sdk.git
+Checksums-Sha256:
+ 2e7e99ceff6959608ed126018ccb8556f793e345546601f2a7384f572d626188 2204 sra-sdk_2.10.9+dfsg-2.dsc
+ ed9e44bc4e662ac4996bdb9e34c3bc629f90e80d514067c813fbf6ec02a29d56 5736156 sra-sdk_2.10.9+dfsg.orig.tar.xz
+ 27349102775d42dc0b6cc19885a6ac1aacfedfbe27955872a037ff10f0fa06de 3845208 sra-sdk_2.10.9+dfsg-2.debian.tar.xz
+Homepage: https://github.com/ncbi/sra-tools/
+Package-List: 
+ sra-toolkit deb science optional arch=amd64
+Testsuite: autopkgtest
+Directory: pool/main/s/sra-sdk
+Priority: source
+Section: science

@@ -1,0 +1,27 @@
+Package: pmix
+Binary: libpmix-dev, libpmix2, libpmix-bin, python3-pmix
+Version: 4.0.0-4
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, flex, python3-all-dev, cython3, python3-distutils, pandoc, libpsm-infinipath1-dev [amd64 i386], libpsm2-dev [amd64], libhwloc-dev, zlib1g-dev, libevent-dev, libjansson-dev, libltdl-dev, libmunge-dev [!hurd-i386]
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d4c37a3eed02708d793198d49aeb76a3 2219 pmix_4.0.0-4.dsc
+ efb717846526fc6cdd1e8f338ac4bebb 806668 pmix_4.0.0.orig.tar.xz
+ 452935ff088f0cddc3dd02c701d9951e 9004 pmix_4.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org:/science-team/pmix.git
+Vcs-Git: https://salsa.debian.org:/science-team/pmix.git -b debian/latest
+Checksums-Sha256:
+ 6587589f75cc8404d4ab7f6c1b4fe05b952c5762e9f8e255df69ad484fda7069 2219 pmix_4.0.0-4.dsc
+ b11eb90a88cd387515b96b8ab8e2f035eeef24f51fa6f15a9ca5cc89778eb1f7 806668 pmix_4.0.0.orig.tar.xz
+ bb81d95bacf58a53641d3d0a48439275785f98489d9b88fdcd2d9e43d3a74889 9004 pmix_4.0.0-4.debian.tar.xz
+Homepage: https://github.com/pmix/pmix
+Package-List: 
+ libpmix-bin deb net optional arch=any
+ libpmix-dev deb libdevel optional arch=any
+ libpmix2 deb libs optional arch=any
+ python3-pmix deb net optional arch=any
+Directory: pool/main/p/pmix
+Priority: extra
+Section: misc

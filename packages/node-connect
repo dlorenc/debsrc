@@ -1,0 +1,26 @@
+Package: node-connect
+Binary: node-connect
+Version: 3.7.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>, David Paleino <dapal@debian.org>, Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 12), nodejs, node-debug (>= 2.6.9) <!nocheck>, node-finalhandler (>= 1.1.0) <!nocheck>, node-parseurl <!nocheck>, node-utils-merge <!nocheck>, mocha (>= 4) <!nocheck>, node-supertest <!nocheck>, pkg-js-tools (>= 0.8.6)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ d33cb0a3fda0102e1b39dc3a930c7da3 2276 node-connect_3.7.0-2.dsc
+ 8d2fcfdca529f657243bb3f403d3364c 59958 node-connect_3.7.0.orig.tar.gz
+ 3cf16327316f37a7fbdadc0fe53c71f9 3668 node-connect_3.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-connect
+Vcs-Git: https://salsa.debian.org/js-team/node-connect.git
+Checksums-Sha256:
+ cc5c8e45b6ca3f21be119da994fc7ecbb35ba1517b2a8d3fcbc628e20fc4a1df 2276 node-connect_3.7.0-2.dsc
+ 5cba1b899d8d95fc82e45d7c7abee013a38f560edbb8729b0861148a77bfedfa 59958 node-connect_3.7.0.orig.tar.gz
+ 330c0eb87dc6904f60f86bf6950ea56277d3209e2d097e763251e0c20484f3d7 3668 node-connect_3.7.0-2.debian.tar.xz
+Homepage: https://github.com/senchalabs/connect
+Package-List: 
+ node-connect deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-connect
+Priority: source
+Section: javascript

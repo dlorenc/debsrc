@@ -1,0 +1,33 @@
+Package: wpa
+Binary: hostapd, wpagui, wpasupplicant, wpasupplicant-udeb, eapoltest, libwpa-client-dev
+Version: 2:2.9.0-21
+Maintainer: Debian wpasupplicant Maintainers <wpa@packages.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec, libdbus-1-dev, libssl-dev, qtbase5-dev <!pkg.wpa.nogui>, libncurses5-dev, libpcsclite-dev, libnl-3-dev (>= 3.4.0~) [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkgconf | pkg-config, docbook-to-man, docbook-utils
+Architecture: linux-any kfreebsd-any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4332f9fc5076ae1b67e58c81496fb3f9 2196 wpa_2.9.0-21.dsc
+ 132953a85df36d0fca4df129b036ca06 2347080 wpa_2.9.0.orig.tar.xz
+ 89c3ff43eba6766e62623d85f6d41dc1 97692 wpa_2.9.0-21.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/wpa
+Vcs-Git: https://salsa.debian.org/debian/wpa.git
+Checksums-Sha256:
+ b8dbf7704e47271ba10e970fed5e2f6b14518da8dea42c82ee890530144f5d25 2196 wpa_2.9.0-21.dsc
+ 4032da92d97cb555053d94d514d590d0ce066ca13ba5ef144063450bc56161a7 2347080 wpa_2.9.0.orig.tar.xz
+ 494f259c14d85d68ca5bb695e363c124b1a11ddf0f23c34d7e1498d0605dd746 97692 wpa_2.9.0-21.debian.tar.xz
+Homepage: https://w1.fi/wpa_supplicant/
+Dgit: f4206bfe27a6a4120950e0b6f8be92000c243789 debian archive/debian/2%2.9.0-21 https://git.dgit.debian.org/wpa
+Package-List: 
+ eapoltest deb net optional arch=linux-any,kfreebsd-any
+ hostapd deb net optional arch=linux-any,kfreebsd-any
+ libwpa-client-dev deb libdevel optional arch=linux-any,kfreebsd-any
+ wpagui deb net optional arch=linux-any,kfreebsd-any profile=!pkg.wpa.nogui
+ wpasupplicant deb net optional arch=linux-any,kfreebsd-any
+ wpasupplicant-udeb udeb debian-installer standard arch=linux-any profile=!noudeb
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/w/wpa
+Priority: source
+Section: net

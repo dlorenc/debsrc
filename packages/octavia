@@ -1,0 +1,34 @@
+Package: octavia
+Binary: octavia-driver-agent, octavia-agent, octavia-api, octavia-common, octavia-doc, octavia-health-manager, octavia-housekeeping, octavia-worker, python3-octavia
+Version: 7.1.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx <!nodoc>
+Build-Depends-Indep: alembic (>= 0.9.6), python3-bandit, python3-barbicanclient, python3-bashate, python3-castellan, python3-cinderclient, python3-cotyledon, python3-coverage, python3-cryptography (>= 3.0), python3-dateutil, python3-distro, python3-docutils, python3-flask, python3-futurist, python3-glanceclient, python3-graphviz, python3-gunicorn, python3-hacking, python3-jinja2, python3-jsonschema (>= 3.2.0), python3-keystoneauth1, python3-keystonemiddleware, python3-netaddr, python3-networkx, python3-neutronclient, python3-novaclient, python3-octavia-lib (>= 2.2.0), python3-openssl (>= 19.1.0), python3-openstackdocstheme, python3-os-api-ref, python3-oslo.config, python3-oslo.context, python3-oslo.db (>= 8.3.0), python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging (>= 12.4.0), python3-oslo.middleware (>= 4.0.1), python3-oslo.policy, python3-oslo.reports, python3-oslo.serialization (>= 2.28.1), python3-oslo.upgradecheck, python3-oslo.utils (>= 3.37.0), python3-oslotest, python3-pecan, python3-pyasn1, python3-pyasn1-modules, python3-pydot, python3-pydotplus, python3-pyparsing, python3-pyroute2, python3-reno, python3-requests, python3-requests-mock, python3-rfc3986, python3-sadisplay, python3-setproctitle, python3-simplejson, python3-sphinx-feature-classification, python3-sphinxcontrib.actdiag, python3-sphinxcontrib.apidoc, python3-sphinxcontrib.blockdiag, python3-sphinxcontrib.nwdiag, python3-sphinxcontrib.seqdiag, python3-sqlalchemy (>= 1.2.19), python3-sqlalchemy-utils, python3-stevedore, python3-subunit, python3-taskflow (>= 4.4.0), python3-tempest (>= 21.0.0), python3-tenacity (>= 0.5.4), python3-testrepository, python3-testresources, python3-testscenarios, python3-testtools, python3-webob, python3-wsme, python3-yaml
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 48420d530bf1056a4c25788ab0db498c 4358 octavia_7.1.0-2.dsc
+ 3a7ae1d9382dc96521b71cbe570c625a 781816 octavia_7.1.0.orig.tar.xz
+ 9e3f03ab8cce87f8628f774cdc807b53 17144 octavia_7.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/octavia
+Vcs-Git: https://salsa.debian.org/openstack-team/services/octavia.git
+Checksums-Sha256:
+ 250abdebe85a8d9ee6fec446195de8aae35ff32ba01d7046454554e4a48a24a2 4358 octavia_7.1.0-2.dsc
+ 395ae5704d6e3e99a0a41568b33dcaa795e8c27633a4903038d5dc6c69d894fe 781816 octavia_7.1.0.orig.tar.xz
+ dbc4658e8a9839909c716a858fefcf2c597e266493166571e4963de2fe381066 17144 octavia_7.1.0-2.debian.tar.xz
+Homepage: https://github.com/openstack/octavia
+Package-List: 
+ octavia-agent deb net optional arch=all
+ octavia-api deb net optional arch=all
+ octavia-common deb net optional arch=all
+ octavia-doc deb doc optional arch=all profile=!nodoc
+ octavia-driver-agent deb net optional arch=all
+ octavia-health-manager deb net optional arch=all
+ octavia-housekeeping deb net optional arch=all
+ octavia-worker deb net optional arch=all
+ python3-octavia deb python optional arch=all
+Directory: pool/main/o/octavia
+Priority: extra
+Section: misc

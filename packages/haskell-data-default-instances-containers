@@ -1,0 +1,28 @@
+Package: haskell-data-default-instances-containers
+Binary: libghc-data-default-instances-containers-dev, libghc-data-default-instances-containers-prof, libghc-data-default-instances-containers-doc
+Version: 0.0.1-11
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13.8), libghc-data-default-class-dev, libghc-data-default-class-prof
+Build-Depends-Indep: ghc-doc, libghc-data-default-class-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6d5fd549aab5a61571e27a681c0a0461 2809 haskell-data-default-instances-containers_0.0.1-11.dsc
+ 1c574d87bf9bc69d4748e3236d575a3c 1659 haskell-data-default-instances-containers_0.0.1.orig.tar.gz
+ e48a7259e2100130e4a5a5252ba38351 2892 haskell-data-default-instances-containers_0.0.1-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-data-default-instances-containers
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-data-default-instances-containers]
+Checksums-Sha256:
+ 3a23d5cbf6436bd463c57985745ee91cf9c7b40ff82bf1ec4e427504b5fe48de 2809 haskell-data-default-instances-containers_0.0.1-11.dsc
+ a55e07af005c9815d82f3fc95e125db82994377c9f4a769428878701d4ec081a 1659 haskell-data-default-instances-containers_0.0.1.orig.tar.gz
+ 21705021726ada4651ea15b6a2d0b1673337d75c9581eabfdf90add18c67c064 2892 haskell-data-default-instances-containers_0.0.1-11.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/data-default-instances-containers
+Package-List: 
+ libghc-data-default-instances-containers-dev deb haskell optional arch=any
+ libghc-data-default-instances-containers-doc deb doc optional arch=all
+ libghc-data-default-instances-containers-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-data-default-instances-containers
+Priority: optional
+Section: misc

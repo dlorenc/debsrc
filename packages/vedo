@@ -1,0 +1,28 @@
+Package: vedo
+Binary: python3-vedo, python3-vedo-examples
+Version: 2020.4.2-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-vtk9 | python3-vtk7, python3-numpy
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dddee8d5d12998870ebac3a41557fe22 2169 vedo_2020.4.2-2.dsc
+ b88847fe74001f0314c75803e70ce2a6 11336168 vedo_2020.4.2.orig.tar.gz
+ ab9fda6822597d21db211119863f4d7d 12080 vedo_2020.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/vedo
+Vcs-Git: https://salsa.debian.org/science-team/vedo.git
+Checksums-Sha256:
+ 8cb47c135907bc8f1877c8da6794fbf5749384ac450b54e259ac1f747c4c9da6 2169 vedo_2020.4.2-2.dsc
+ 331969149163a3059e8b231f1f6e808e899de78f372f7e3f10a12ab822b10e76 11336168 vedo_2020.4.2.orig.tar.gz
+ 38fba7fbcc158f0149b9ae4bcd9aac2745937ed92644e050e6c51c6b2ad38c35 12080 vedo_2020.4.2-2.debian.tar.xz
+Homepage: https://vedo.embl.es/
+Package-List: 
+ python3-vedo deb python optional arch=all
+ python3-vedo-examples deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3, python3-numpy, python3-vtk7, python3-vtk9
+Directory: pool/main/v/vedo
+Priority: extra
+Section: misc

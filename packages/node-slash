@@ -1,0 +1,26 @@
+Package: node-slash
+Binary: node-slash
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ceef955d0d04f45c15d52651566d921d 2021 node-slash_3.0.0-1.dsc
+ 04953160947537fbd74b07df16dac727 2529 node-slash_3.0.0.orig.tar.gz
+ 160b4448e660c3fd7eca05ba1a55561c 2760 node-slash_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-slash
+Vcs-Git: https://salsa.debian.org/js-team/node-slash.git
+Checksums-Sha256:
+ bf61bc5e4be5f06a8125afe6f4d26b654e8ebf313c78fa3e67610c7b08906b95 2021 node-slash_3.0.0-1.dsc
+ 162ae4434c40358597d62bdc553d15d9c0bc9e731120990f6290c2d68792f174 2529 node-slash_3.0.0.orig.tar.gz
+ bb652f6690e286deabf79907edc6a03461bf505adaefa971ad4ea03bf5141aa4 2760 node-slash_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/slash
+Package-List: 
+ node-slash deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-slash
+Priority: optional
+Section: javascript

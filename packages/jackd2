@@ -1,0 +1,28 @@
+Package: jackd2
+Binary: jackd2, libjack-jackd2-0, jackd2-firewire, libjack-jackd2-dev
+Version: 1.9.17~dfsg-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Adrian Knoth <adi@drcomp.erfurt.thur.de>, Reinhard Tartler <siretart@tauware.de>
+Build-Depends: cdbs (>= 0.4.93~), debhelper (>= 10), python3, dh-python, libsamplerate-dev, libasound2-dev (>= 1.0.18) [linux-any], libdbus-1-dev, libexpat1-dev, libsndfile1-dev, libncurses-dev, libreadline-dev, libraw1394-dev [linux-any], libffado-dev (>= 2.0.0) [linux-any], libopus-dev, libsystemd-dev [linux-any], po-debconf
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b34a104801e9674e0e356611626e74bd 2477 jackd2_1.9.17~dfsg-1.dsc
+ ed2c2c7e71ad1855f601576af8e58760 964766 jackd2_1.9.17~dfsg.orig.tar.gz
+ a707a562043ef3e94e9fd3e9360f2f16 40212 jackd2_1.9.17~dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/jackd2
+Vcs-Git: https://salsa.debian.org/multimedia-team/jackd2.git
+Checksums-Sha256:
+ 537a39602eb5af657384d0e5963f555e71a432165dccf00ffbce3971bb8aa531 2477 jackd2_1.9.17~dfsg-1.dsc
+ 7436c33a17179eb7ea9facb7a21c0c914a222e871ab56f5bc2cfb378933baf3d 964766 jackd2_1.9.17~dfsg.orig.tar.gz
+ c899946edc7debfeb032896989ebb045c9cdaafbec21524ff41edaa59edb2c84 40212 jackd2_1.9.17~dfsg-1.debian.tar.xz
+Homepage: https://jackaudio.org/
+Package-List: 
+ jackd2 deb sound optional arch=any
+ jackd2-firewire deb sound optional arch=amd64,i386,powerpc
+ libjack-jackd2-0 deb libs optional arch=any
+ libjack-jackd2-dev deb libdevel optional arch=any
+Directory: pool/main/j/jackd2
+Priority: source
+Section: sound

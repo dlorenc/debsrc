@@ -1,0 +1,27 @@
+Package: node-es6-promise
+Binary: node-es6-promise, libjs-es6-promise
+Version: 4.2.8-7
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 12), node-babel-loader (>= 8.0.1), node-babel7, node-babel-plugin-add-module-exports, nodejs (>= 8.9~), uglifyjs.terser, webpack (>= 4~), pkg-js-tools (>= 0.8.11)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3a85e7404ffa3d42616d5daaff9635f1 2275 node-es6-promise_4.2.8-7.dsc
+ c801b77afcdfab463b62a3278f06c414 74957 node-es6-promise_4.2.8.orig.tar.gz
+ 04a8b0f8da5872b6ab9a18e493905be0 3996 node-es6-promise_4.2.8-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-es6-promise
+Vcs-Git: https://salsa.debian.org/js-team/node-es6-promise.git
+Checksums-Sha256:
+ 31a43b5a39e6ee7e531efed136240089d683963cbab32f3fcd44076e0cb70304 2275 node-es6-promise_4.2.8-7.dsc
+ a7910b5d2b4aae153c03e610f00457d0035761da6d0586931ecb9b9fc28b0d0e 74957 node-es6-promise_4.2.8.orig.tar.gz
+ d5d2c01473ab0f61bbd6b6ff311826aedd7b713f67c4d275aca9f9664d8d7255 3996 node-es6-promise_4.2.8-7.debian.tar.xz
+Homepage: https://github.com/jakearchibald/es6-promise
+Package-List: 
+ libjs-es6-promise deb javascript optional arch=all
+ node-es6-promise deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-es6-promise
+Priority: optional
+Section: javascript

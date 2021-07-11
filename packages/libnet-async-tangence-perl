@@ -1,0 +1,28 @@
+Package: libnet-async-tangence-perl
+Binary: libnet-async-tangence-perl
+Version: 0.15-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl, perl
+Build-Depends-Indep: libfuture-perl <!nocheck>, libio-async-perl <!nocheck>, libtangence-perl (>= 0.25) <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-hexstring-perl <!nocheck>, libtest-identity-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-memorygrowth-perl <!nocheck>, libtest-refcount-perl <!nocheck>, liburi-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 96125504c0a59e058bba2ba67dcf61b2 2811 libnet-async-tangence-perl_0.15-1.dsc
+ ded5abccbe6b4ea8ca16e15ed7ae1338 27393 libnet-async-tangence-perl_0.15.orig.tar.gz
+ db2d3f4a5edc64faa1a5d0087950a804 1852 libnet-async-tangence-perl_0.15-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-async-tangence-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-async-tangence-perl.git
+Checksums-Sha256:
+ 739e8e6566034393c69792e6a9e9ce4b3eb009b4c38bc14ca68c61955445cafd 2811 libnet-async-tangence-perl_0.15-1.dsc
+ ec95357b37600b36b006e46a8d4e8a4cf70253bbf06acaf55521857e6b9f0483 27393 libnet-async-tangence-perl_0.15.orig.tar.gz
+ 824f8e1afb409f279ee50a75a15584aaa1ac359af7a834218c15165a4250b702 1852 libnet-async-tangence-perl_0.15-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Net-Async-Tangence
+Dgit: 409a71fb0e34903945213d819de5b7276e7066ae debian archive/debian/0.15-1 https://git.dgit.debian.org/libnet-async-tangence-perl
+Package-List: 
+ libnet-async-tangence-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-async-tangence-perl
+Priority: extra
+Section: misc

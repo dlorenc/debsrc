@@ -1,0 +1,26 @@
+Package: node-stream-browserify
+Binary: node-stream-browserify
+Version: 2.0.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs (>= 6), node-inherits <!nocheck>, node-readable-stream (>= 3.4.0) <!nocheck>, node-tape <!nocheck>, node-tap (>= 10) <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ed3187022e62672f397c7d4e1202e6e2 2277 node-stream-browserify_2.0.2-3.dsc
+ 77f354bd78fbfe8abb77ef74cca52733 3281 node-stream-browserify_2.0.2.orig.tar.gz
+ e81e372d598cf1bef1022e99f7d5e365 3484 node-stream-browserify_2.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-stream-browserify
+Vcs-Git: https://salsa.debian.org/js-team/node-stream-browserify.git
+Checksums-Sha256:
+ e94910539ebd4fcdfab29d831c5cc21ff947194e425a438736534f4f3135286a 2277 node-stream-browserify_2.0.2-3.dsc
+ 5c2cecc10dfd2dbc5ab502df975c54b084acf5a67b12e5d4d3e72095e98e604f 3281 node-stream-browserify_2.0.2.orig.tar.gz
+ 578c743dae94d9bb3f84fae4609964ff9c2bc1b8ca383585fe76b20d36ffd01d 3484 node-stream-browserify_2.0.2-3.debian.tar.xz
+Homepage: https://github.com/substack/stream-browserify
+Package-List: 
+ node-stream-browserify deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-stream-browserify
+Priority: optional
+Section: javascript

@@ -1,0 +1,28 @@
+Package: kio-extras
+Binary: kio-extras, kio-extras-data
+Version: 4:20.12.2-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 3.7~), debhelper-compat (= 13), extra-cmake-modules (>= 5.69.0~), gettext, gperf, kio, libkdsoap-dev (>= 1.9.0~), libkf5activities-dev (>= 5.3.0~), libkf5activitiesstats-dev (>= 5.62~), libkf5archive-dev (>= 5.69.0~), libkf5bookmarks-dev (>= 5.69.0~), libkf5codecs-dev, libkf5config-dev (>= 5.69.0~), libkf5configwidgets-dev (>= 5.69.0~), libkf5coreaddons-dev (>= 5.69.0~), libkf5dbusaddons-dev (>= 5.69.0~), libkf5dnssd-dev (>= 5.69.0~), libkf5doctools-dev (>= 5.69.0~), libkf5guiaddons-dev (>= 5.69.0~), libkf5i18n-dev (>= 5.69.0~), libkf5iconthemes-dev (>= 5.69.0~), libkf5kio-dev (>= 5.69.0~), libkf5pty-dev (>= 5.69.0~), libkf5solid-dev (>= 5.69.0~), libkf5syntaxhighlighting-dev (>= 5.69.0~), libmtp-dev, libopenexr-dev, libphonon4qt5-dev (>= 4:4.6.60), libphonon4qt5experimental-dev, libqt5svg5-dev (>= 5.11.0~), libsmbclient-dev, libssh-dev (>= 0.7.0), libtag1-dev (>= 1.11~), libtirpc-dev, pkg-config, pkg-kde-tools (>= 0.15.18~), qtbase5-dev (>= 5.11.0~), shared-mime-info
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6ade375dd93eb7a3c8166f1930fd08f4 3275 kio-extras_20.12.2-1.dsc
+ b9598c901bfafd976a1a9c71d2c1a6ee 634140 kio-extras_20.12.2.orig.tar.xz
+ 0ad4ad2d2c3937ba0062ea7f091e31fe 833 kio-extras_20.12.2.orig.tar.xz.asc
+ 63fd4d5f5568630207122db8ffb59ea3 19500 kio-extras_20.12.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kio-extras
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kio-extras.git
+Checksums-Sha256:
+ 9bf5fb8fe56ac064a6a06f366d30d782b1ef6741f100d44ec6dcc189f83908ae 3275 kio-extras_20.12.2-1.dsc
+ 237df668c8bdeac4a362659c00b64c6e89d8b60080fcbdcaf21f387a22e25ae4 634140 kio-extras_20.12.2.orig.tar.xz
+ 182fc21743b6401ff65d065a8718c9e79f9275a1780e9119b2fa2468354d6fd4 833 kio-extras_20.12.2.orig.tar.xz.asc
+ 0882176b6daee844415a62bee0b383c40ed0bde8ffdf5d918a3c09dff946018a 19500 kio-extras_20.12.2-1.debian.tar.xz
+Homepage: https://projects.kde.org/projects/kde/workspace/kio-extras
+Package-List: 
+ kio-extras deb kde optional arch=any
+ kio-extras-data deb kde optional arch=all
+Directory: pool/main/k/kio-extras
+Priority: optional
+Section: misc

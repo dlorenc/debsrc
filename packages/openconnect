@@ -1,0 +1,31 @@
+Package: openconnect
+Binary: openconnect, libopenconnect-dev, libopenconnect5
+Version: 8.10-2
+Maintainer: Mike Miller <mtmiller@debian.org>
+Uploaders: Luca Boccassi <bluca@debian.org>
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.17.14), groff, libgcrypt20-dev, libgnutls28-dev, libkrb5-dev, liblz4-dev, libp11-kit-dev, libpcsclite-dev, libproxy-dev, libsocket-wrapper [!hurd-i386] <!nocheck>, libstoken-dev, libtasn1-6-dev, libtss2-dev, libuid-wrapper [!alpha !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386] <!nocheck>, libxml2-dev, locales-all <!nocheck>, ocserv (>= 0.12.1-2) [!hurd-i386 !kfreebsd-amd64 !kfreebsd-i386] <!nocheck>, openssl <!nocheck>, pkg-config, python3:any, softhsm2 [!hurd-i386] <!nocheck>, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e1710ea1151805b8d5bb6f81c4647091 2578 openconnect_8.10-2.dsc
+ d772c3c68afae12252a5377a99352b97 2084534 openconnect_8.10.orig.tar.gz
+ 36976d3263b4c9d8417528b2ac4e9f35 833 openconnect_8.10.orig.tar.gz.asc
+ 7c4acaadde5ee6b625077c954f5a9797 14980 openconnect_8.10-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/openconnect
+Vcs-Git: https://salsa.debian.org/debian/openconnect.git
+Checksums-Sha256:
+ 8f929fc6a30c644c7de34517f875f4b5f3c6b8c7be5341db41610a69ccfc795d 2578 openconnect_8.10-2.dsc
+ 30e64c6eca4be47bbf1d61f53dc003c6621213738d4ea7a35e5cf1ac2de9bab1 2084534 openconnect_8.10.orig.tar.gz
+ def024366970d9c2b69d0b4ce049bae809a562903fedb60f7505ced0322f4343 833 openconnect_8.10.orig.tar.gz.asc
+ 9126f283e34c40fc352398deb3ea7c7b217b32befc6b21910d0e6d595ac5c248 14980 openconnect_8.10-2.debian.tar.xz
+Homepage: https://www.infradead.org/openconnect/
+Package-List: 
+ libopenconnect-dev deb libdevel optional arch=any
+ libopenconnect5 deb libs optional arch=any
+ openconnect deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libsocket-wrapper, libuid-wrapper, locales-all, ocserv, softhsm2
+Directory: pool/main/o/openconnect
+Priority: source
+Section: net

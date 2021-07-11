@@ -1,0 +1,27 @@
+Package: golang-github-tmc-grpc-websocket-proxy
+Binary: golang-github-tmc-grpc-websocket-proxy-dev
+Version: 0.0~git20200427.3cfed13-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-gorilla-websocket-dev, golang-github-sirupsen-logrus-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 020d4f987d9881411f1389d9f3397050 1973 golang-github-tmc-grpc-websocket-proxy_0.0~git20200427.3cfed13-2.dsc
+ 11233a734c0dd454b51b77ba6d5f36b2 9268 golang-github-tmc-grpc-websocket-proxy_0.0~git20200427.3cfed13.orig.tar.xz
+ 703bfeada3d8322ffcc52ac3d2fbcd08 3008 golang-github-tmc-grpc-websocket-proxy_0.0~git20200427.3cfed13-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-tmc-grpc-websocket-proxy
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-tmc-grpc-websocket-proxy.git
+Checksums-Sha256:
+ ced8e5c8490f0dffb544a17f93c059d45f9bd351617e82e1f28943ed3ed30707 1973 golang-github-tmc-grpc-websocket-proxy_0.0~git20200427.3cfed13-2.dsc
+ d9612a164e27671ac2f8b0fd6e15541f968743afbd0b4300e0c52789de8b0465 9268 golang-github-tmc-grpc-websocket-proxy_0.0~git20200427.3cfed13.orig.tar.xz
+ e05fa7fb86c38030313654a2e143a6548a2c9af643b3c027edcc73eda3e26ca7 3008 golang-github-tmc-grpc-websocket-proxy_0.0~git20200427.3cfed13-2.debian.tar.xz
+Homepage: https://github.com/tmc/grpc-websocket-proxy
+Go-Import-Path: github.com/tmc/grpc-websocket-proxy
+Package-List: 
+ golang-github-tmc-grpc-websocket-proxy-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-tmc-grpc-websocket-proxy
+Priority: extra
+Section: golang

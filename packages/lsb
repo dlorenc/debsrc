@@ -1,0 +1,24 @@
+Package: lsb
+Binary: lsb-base, lsb-release
+Version: 11.1.0
+Maintainer: Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>
+Uploaders: Dmitry Bogatov <KAction@debian.org>
+Build-Depends: po-debconf (>= 0.5.0), dpkg-dev (>= 1.10), python3-all:any, dh-python, distro-info-data, ionit, debhelper-compat (= 12)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (native)
+Files:
+ f1cad0dcba92cb4e3a03bbc2f8568e72 1800 lsb_11.1.0.dsc
+ c95461b756c67dcfe374ae4907f10c82 42452 lsb_11.1.0.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/lsb
+Vcs-Git: https://salsa.debian.org/debian/lsb.git
+Checksums-Sha256:
+ 5cb5679dcc92e30aa878f892f73081d6b4d5299841549f6d53a886d51509feb1 1800 lsb_11.1.0.dsc
+ c7926d511228862892630070f7708c425db9473ceefc70872868c448b5145b57 42452 lsb_11.1.0.tar.xz
+Homepage: https://wiki.linuxfoundation.org/lsb/start
+Package-List: 
+ lsb-base deb misc required arch=all
+ lsb-release deb misc optional arch=all
+Directory: pool/main/l/lsb
+Priority: source
+Section: misc

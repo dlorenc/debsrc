@@ -1,0 +1,26 @@
+Package: joypy
+Binary: python3-joypy
+Version: 0.2.2-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-matplotlib, python3-numpy, python3-pandas (>= 0.20.0), python3-scipy, python3-pytest
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 79cd70a1263ef7baf0db2a7c8b80a2d8 2136 joypy_0.2.2-2.dsc
+ 4018795a17778580241c0c37cae62b78 1562394 joypy_0.2.2.orig.tar.gz
+ 3da5cbe6984000ae4b314a0b6a832183 2668 joypy_0.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/joypy
+Vcs-Git: https://salsa.debian.org/python-team/packages/joypy.git
+Checksums-Sha256:
+ 8aba1074bf82fca3677bd011d4badd61718390ecaeb296f04ae5fed8c70a4a1a 2136 joypy_0.2.2-2.dsc
+ c5655c454bd70595d8221ac3feaf7c39b11d0800c7ed8de75f32232ac180ed55 1562394 joypy_0.2.2.orig.tar.gz
+ a8a44dd9bb7875bff81b9db48b118caade632388812364821f00ac6954785955 2668 joypy_0.2.2-2.debian.tar.xz
+Homepage: https://github.com/sbebo/joypy
+Package-List: 
+ python3-joypy deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/j/joypy
+Priority: extra
+Section: misc

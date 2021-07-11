@@ -1,0 +1,27 @@
+Package: libgtkdatabox
+Binary: libgtkdatabox-dev, libgtkdatabox0, libgtkdatabox-doc
+Version: 1:0.9.3.1-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Daniele E. Domenichelli <daniele.domenichelli@gmail.com>
+Build-Depends: debhelper-compat (= 13), d-shlibs, libgtk2.0-dev, libcairo2-dev, libpango1.0-dev, gtk-doc-tools
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bee016a619b444a4c30a51061e046fe6 2277 libgtkdatabox_0.9.3.1-2.dsc
+ 22d31b0fb150bae2304bcc29a8bc7335 1768112 libgtkdatabox_0.9.3.1.orig.tar.xz
+ be6b38840d8003e4d00957091d4dee8d 10824 libgtkdatabox_0.9.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libgtkdatabox
+Vcs-Git: https://salsa.debian.org/science-team/libgtkdatabox.git
+Checksums-Sha256:
+ 4ca3fcd22c7b1be9eabb32fd77bffb93e9da54c7d99869300ba1b7712523ce2b 2277 libgtkdatabox_0.9.3.1-2.dsc
+ 89aa7b81dd5d9280e19a7edc582dee2e55ed54a286ca92df343d06195bb3bd58 1768112 libgtkdatabox_0.9.3.1.orig.tar.xz
+ 50e84daac66bba9fe0812bb4d42411c0935dc2be00be6771351039754ff5da1f 10824 libgtkdatabox_0.9.3.1-2.debian.tar.xz
+Homepage: http://sourceforge.net/projects/gtkdatabox
+Package-List: 
+ libgtkdatabox-dev deb libdevel optional arch=any
+ libgtkdatabox-doc deb doc optional arch=all
+ libgtkdatabox0 deb libs optional arch=any
+Directory: pool/main/libg/libgtkdatabox
+Priority: source
+Section: libs

@@ -1,0 +1,25 @@
+Package: fastapi
+Binary: python3-fastapi
+Version: 0.63.0-2
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-aiofiles <!nocheck>, python3-aiosqlite <!nocheck>, python3-all, python3-databases <!nocheck>, python3-email-validator <!nocheck>, python3-flask <!nocheck>, python3-httpx <!nocheck>, python3-multipart <!nocheck>, python3-peewee <!nocheck>, python3-pydantic <!nocheck>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-requests <!nocheck>, python3-starlette <!nocheck>, python3-ujson <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2c3429da5bc46675cc233e0a8f755e91 2362 fastapi_0.63.0-2.dsc
+ fc0129eec5b4089a706aed061e282305 5270183 fastapi_0.63.0.orig.tar.gz
+ ef00b03b69a3f961e34f8e7c87561ce0 4564 fastapi_0.63.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/fastapi
+Vcs-Git: https://salsa.debian.org/python-team/packages/fastapi.git
+Checksums-Sha256:
+ 384681e0fbd9c189dc9ba23c06b52143d3aa164ff5ea9a6a8dec835bcd314e47 2362 fastapi_0.63.0-2.dsc
+ f0d3000622ffdf94bb228232f2e74b92e91b4b60db9dd6d1f92865308903ab9c 5270183 fastapi_0.63.0.orig.tar.gz
+ 694bc2f48d81e07e0b03095e616e543adc38e44127f5892a74e4f25f8ac2851c 4564 fastapi_0.63.0-2.debian.tar.xz
+Homepage: https://github.com/tiangolo/fastapi
+Package-List: 
+ python3-fastapi deb python optional arch=all
+Directory: pool/main/f/fastapi
+Priority: extra
+Section: misc

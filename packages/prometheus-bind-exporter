@@ -1,0 +1,27 @@
+Package: prometheus-bind-exporter
+Binary: prometheus-bind-exporter
+Version: 0.4.0+ds-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Jelmer Vernooĳ <jelmer@debian.org>, Martina Ferrari <tina@debian.org>, Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, dh-sequence-bash-completion, golang-any, golang-github-go-kit-kit-dev, golang-github-prometheus-client-golang-dev, golang-github-prometheus-common-dev, golang-github-prometheus-exporter-toolkit-dev, golang-gopkg-alecthomas-kingpin.v2-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e68f66ddb66b732cfe3800f5d2bf4948 2556 prometheus-bind-exporter_0.4.0+ds-1.dsc
+ 69be22399b195963b7ad97ff57682d1b 60005 prometheus-bind-exporter_0.4.0+ds.orig.tar.gz
+ 0c044eca45946d63ab66a42b9099ebec 6132 prometheus-bind-exporter_0.4.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/prometheus-bind-exporter
+Vcs-Git: https://salsa.debian.org/go-team/packages/prometheus-bind-exporter.git
+Checksums-Sha256:
+ fd956f9fd61cbfdc3465e4666a27c03f5807fee590a48bcfac49bbdb1855038f 2556 prometheus-bind-exporter_0.4.0+ds-1.dsc
+ 1d0d744fef9d689b3aea0627ff8b84bd160cd5d836a1b20c383dc8ccee47f9a8 60005 prometheus-bind-exporter_0.4.0+ds.orig.tar.gz
+ 1eb97ee8d8da28523eb85afcd70fd5ea176859abf9fe46b84c7619cbd73de6b1 6132 prometheus-bind-exporter_0.4.0+ds-1.debian.tar.xz
+Homepage: https://github.com/prometheus-community/bind_exporter/
+Go-Import-Path: github.com/prometheus-community/bind_exporter
+Package-List: 
+ prometheus-bind-exporter deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/p/prometheus-bind-exporter
+Priority: extra
+Section: misc

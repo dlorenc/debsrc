@@ -1,0 +1,28 @@
+Package: haskell-persistent-sqlite
+Binary: libghc-persistent-sqlite-dev, libghc-persistent-sqlite-prof, libghc-persistent-sqlite-doc
+Version: 2.10.6.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 1.0), libghc-aeson-prof, libghc-conduit-dev (>= 1.2.12), libghc-conduit-prof, libghc-microlens-th-dev (>= 0.4.1.1), libghc-microlens-th-prof, libghc-monad-logger-dev (>= 0.3.25), libghc-monad-logger-prof, libghc-persistent-dev (>= 2.10), libghc-persistent-dev (<< 3), libghc-persistent-prof, libghc-resource-pool-dev, libghc-resource-pool-prof, libghc-resourcet-dev (>= 1.1.9), libghc-resourcet-prof, libghc-unliftio-core-dev, libghc-unliftio-core-prof, libghc-unordered-containers-dev, libghc-unordered-containers-prof, libsqlite3-dev
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-conduit-doc, libghc-microlens-th-doc, libghc-monad-logger-doc, libghc-persistent-doc, libghc-resource-pool-doc, libghc-resourcet-doc, libghc-unliftio-core-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d2dba4d870eeddfd24d683b2b41c1ffa 3251 haskell-persistent-sqlite_2.10.6.2-1.dsc
+ b0315c3a95785e193ba4768ecd6ef82c 2220390 haskell-persistent-sqlite_2.10.6.2.orig.tar.gz
+ dd7db7a5e6247077d480d8afc32fda0f 3304 haskell-persistent-sqlite_2.10.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-persistent-sqlite
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-persistent-sqlite]
+Checksums-Sha256:
+ 5229f909cab5e8989fffcd6dff5c0338122f98a802bb9e5a41bd1d8923259c91 3251 haskell-persistent-sqlite_2.10.6.2-1.dsc
+ ceaebbb65f3dba13e33985bfa08cc5ec4ad8a5d7eb993d1145514f11ed41c250 2220390 haskell-persistent-sqlite_2.10.6.2.orig.tar.gz
+ 70abcbae22612a58057b6b76315304cf7417b34ff80b6d43cb6ab067e177122b 3304 haskell-persistent-sqlite_2.10.6.2-1.debian.tar.xz
+Homepage: http://www.yesodweb.com/book/persistent
+Package-List: 
+ libghc-persistent-sqlite-dev deb haskell optional arch=any
+ libghc-persistent-sqlite-doc deb doc optional arch=all
+ libghc-persistent-sqlite-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-persistent-sqlite
+Priority: source
+Section: haskell

@@ -1,0 +1,28 @@
+Package: imexam
+Binary: python3-imexam, python-imexam-doc
+Version: 0.9.1-1
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: cython3, debhelper-compat (= 12), dh-python, ipython3, libxpa-dev, python3-all-dev, python3-astropy, python3-ginga, python3-matplotlib, python3-photutils, python3-pytest, python3-scipy, python3-setuptools, python3-setuptools-scm, python3-sphinx (>= 2.0), python3-sphinx-astropy, python3-sphinx-automodapi
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0aafe479c4742b1ffbdfd00e18bc3ce2 2361 imexam_0.9.1-1.dsc
+ 07aae0abbbe4983665fd31fa2aa3b07f 21359358 imexam_0.9.1.orig.tar.gz
+ d767c4a471cad98ec5f3052ae4be5c4c 4744 imexam_0.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/imexam
+Vcs-Git: https://salsa.debian.org/debian-astro-team/imexam.git
+Checksums-Sha256:
+ 23ded3f66ec87401f089724509873c1b379193af4d6da62733b782f66cd44d8c 2361 imexam_0.9.1-1.dsc
+ a5b73604b693c003d10e41a77016e3fd16ec035519aa74de8508e6614aa72652 21359358 imexam_0.9.1.orig.tar.gz
+ fefd9f498abe4b3855b92f8c3fd2b50f4d50d2fe59678ac8ff7cda4d0b3e8c5a 4744 imexam_0.9.1-1.debian.tar.xz
+Homepage: https://imexam.readthedocs.io
+Package-List: 
+ python-imexam-doc deb doc optional arch=all
+ python3-imexam deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ipython3, python3-matplotlib, python3-scipy
+Directory: pool/main/i/imexam
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: golang-github-geertjohan-go.rice
+Binary: golang-github-geertjohan-go.rice-dev, golang-rice
+Version: 1.0.2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-akavel-rsrc-dev (>= 0.8.0), golang-github-daaku-go.zipexe-dev (>= 1.0.0), golang-github-davecgh-go-spew-dev (>= 1.1.1), golang-github-geertjohan-go.incremental-dev (>= 1.0.0), golang-github-nkovacs-streamquote-dev (>= 1.0.0), golang-github-valyala-fasttemplate-dev (>= 1.0.1), golang-go-flags-dev (>= 1.4.0)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 104f245c8d5339b9bfcd55ebd609a1ef 2713 golang-github-geertjohan-go.rice_1.0.2-1.dsc
+ 1fed73b60653325e4ffb4c8d32391189 68031 golang-github-geertjohan-go.rice_1.0.2.orig.tar.gz
+ ebf5139f334721e4b16773d5757e30f9 4316 golang-github-geertjohan-go.rice_1.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-geertjohan-go.rice
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-geertjohan-go.rice.git
+Checksums-Sha256:
+ 592a1f11032cd9ac5eef0e99f9b899e7638dd6886dcf32ed0edb485c9bbbeab2 2713 golang-github-geertjohan-go.rice_1.0.2-1.dsc
+ 2eed960aa9531a87c82d2379677723bc0129bc9e387dc0dbb3bb70b78c928dd0 68031 golang-github-geertjohan-go.rice_1.0.2.orig.tar.gz
+ 1e52393ba8809d23d97d5cac9d8b790e2f54214739a3d9afabeafde8e3f20fac 4316 golang-github-geertjohan-go.rice_1.0.2-1.debian.tar.xz
+Homepage: https://github.com/GeertJohan/go.rice
+Go-Import-Path: github.com/GeertJohan/go.rice
+Package-List: 
+ golang-github-geertjohan-go.rice-dev deb golang optional arch=all
+ golang-rice deb golang optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-geertjohan-go.rice
+Priority: extra
+Section: golang

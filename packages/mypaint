@@ -1,0 +1,27 @@
+Package: mypaint
+Binary: mypaint, mypaint-data, mypaint-data-extras
+Version: 2.0.1-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Andrew Chadwick <a.t.chadwick@gmail.com>, Vincent Cheng <vcheng@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-python3, gettext, libgtk-3-dev (>= 3.10), libjson-c-dev, liblcms2-dev, libpng-dev, libmypaint-dev (>= 1.5~), librsvg2-dev <!nocheck>, python3-dev:any, python-gi-dev, python3-gi, python3-gi-cairo, python3-matplotlib, python3-numpy, python3-setuptools, python3-nose <!nocheck>, mypaint-brushes (>= 1.5~) <!nocheck>, swig
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0c3f145f37d96867ff00275e87c679c0 2407 mypaint_2.0.1-2.dsc
+ dc9abd2e9da8477cbad55905ed07a46a 7295048 mypaint_2.0.1.orig.tar.xz
+ fb004454ddc7a301b019f27694b03209 20652 mypaint_2.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/mypaint
+Vcs-Git: https://salsa.debian.org/python-team/packages/mypaint.git
+Checksums-Sha256:
+ a613052bc09bead090fd7d07dc6020f2903c6e72533a3e15c053d606e4bb441a 2407 mypaint_2.0.1-2.dsc
+ f3e437d7cdd5fd28ef6532e8ab6b4b05d842bcdd644f16a0162dad3d8e57bb16 7295048 mypaint_2.0.1.orig.tar.xz
+ e03cd6d13ec4b98cec6e2064e77d093c3695aa7f64b434928bd87bdd68d36895 20652 mypaint_2.0.1-2.debian.tar.xz
+Homepage: http://mypaint.org/
+Package-List: 
+ mypaint deb graphics optional arch=any
+ mypaint-data deb graphics optional arch=all
+ mypaint-data-extras deb graphics optional arch=all
+Directory: pool/main/m/mypaint
+Priority: source
+Section: graphics

@@ -1,0 +1,27 @@
+Package: intel-media-driver
+Binary: intel-media-va-driver, libigfxcmrt7, libigfxcmrt-dev
+Version: 21.1.1+dfsg1-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-libva, cmake, libigdgmm-dev (>= 20.3.3), libva-dev (>= 2.8), libx11-dev, pkg-config
+Architecture: amd64 i386 x32
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0515986cd53fc4098eed6fd9fae7f688 2359 intel-media-driver_21.1.1+dfsg1-1.dsc
+ 30d93b18effbf4ff5444d9676216b9a3 6358948 intel-media-driver_21.1.1+dfsg1.orig.tar.xz
+ a9986f13a9706ead4dd39b448a97ba18 5812 intel-media-driver_21.1.1+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/intel-media-driver
+Vcs-Git: https://salsa.debian.org/multimedia-team/intel-media-driver.git
+Checksums-Sha256:
+ f050e3159e020289a82cdf65894ff5bb95d50096ea929f9791baae17f07a3b53 2359 intel-media-driver_21.1.1+dfsg1-1.dsc
+ 348789625f4f981cde457aaa480b31875caf6fe01d1aabe284e107db7865faa9 6358948 intel-media-driver_21.1.1+dfsg1.orig.tar.xz
+ 3e7a405f68baeb7e758aa6dbc35824ba372d292a715c8ca50580ca601ce8c709 5812 intel-media-driver_21.1.1+dfsg1-1.debian.tar.xz
+Homepage: https://github.com/intel/media-driver
+Package-List: 
+ intel-media-va-driver deb video optional arch=amd64,i386,x32
+ libigfxcmrt-dev deb libdevel optional arch=amd64,i386,x32
+ libigfxcmrt7 deb libs optional arch=amd64,i386,x32
+Directory: pool/main/i/intel-media-driver
+Priority: extra
+Section: misc

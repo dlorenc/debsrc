@@ -1,0 +1,27 @@
+Package: swissknife
+Binary: libswiss-perl
+Version: 1.79-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl
+Build-Depends-Indep: perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0db4e00f6eb6c561bde5794cf0dcf70d 2127 swissknife_1.79-3.dsc
+ 223d08dbc173965ee8eea7ff301b2e89 1608432 swissknife_1.79.orig.tar.gz
+ 465562a897040f16867dec6b026eb084 3964 swissknife_1.79-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/swissknife
+Vcs-Git: https://salsa.debian.org/med-team/swissknife.git
+Checksums-Sha256:
+ 86c45cd8b286231b24bc8fed0abaafce67baa6a7287309dbea28c52226b1f822 2127 swissknife_1.79-3.dsc
+ a7affa6ed892a8d9f4f9f1297d521076ac5bb1adfd85de5dc041679b53b949d6 1608432 swissknife_1.79.orig.tar.gz
+ 2b4e5604da074b9bf0f771027e21faafe11b344f4550bbf54803c8b1a10e75af 3964 swissknife_1.79-3.debian.tar.xz
+Homepage: http://swissknife.sourceforge.net
+Package-List: 
+ libswiss-perl deb perl optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Directory: pool/main/s/swissknife
+Priority: source
+Section: perl

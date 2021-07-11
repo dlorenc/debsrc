@@ -1,0 +1,26 @@
+Package: libbssolv-perl
+Binary: libbssolv-perl
+Version: 0.17-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>
+Build-Depends: debhelper-compat (= 12), libsolv-dev (>= 0.7), perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 644473118ab9c74f211f919b35895fd1 2109 libbssolv-perl_0.17-3.dsc
+ 8c8613575f1669e463ca27227a70edff 53606 libbssolv-perl_0.17.orig.tar.gz
+ bb62796cc8c4488a3cdc1c2ffe62fb95 3156 libbssolv-perl_0.17-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libbssolv-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libbssolv-perl.git
+Checksums-Sha256:
+ c8183a8bd51b72fd7b6f0f695b624a14f7cc54f216e82e110cc0e3cf5f11cc6a 2109 libbssolv-perl_0.17-3.dsc
+ bf607fae7a6901b9dfa666e6b120c60203016b029900068c32f8525323f9a1b2 53606 libbssolv-perl_0.17.orig.tar.gz
+ b62635c2cd36463b0199829883e511470f379f44748b8d81a74c243607174314 3156 libbssolv-perl_0.17-3.debian.tar.xz
+Homepage: https://github.com/openSUSE/perl-BSSolv
+Package-List: 
+ libbssolv-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libb/libbssolv-perl
+Priority: optional
+Section: misc

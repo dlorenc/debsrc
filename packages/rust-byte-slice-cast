@@ -1,0 +1,26 @@
+Package: rust-byte-slice-cast
+Binary: librust-byte-slice-cast-dev
+Version: 0.3.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sebastian Dröge <slomo@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 90bdd06e227c56fd0639ebaae4e9c44b 2344 rust-byte-slice-cast_0.3.5-1.dsc
+ bc6a0a95b2d696af374a39293cfb5b47 8122 rust-byte-slice-cast_0.3.5.orig.tar.gz
+ 81a6f40a1605db20e6f15f8a2f9faf9a 2564 rust-byte-slice-cast_0.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/byte-slice-cast
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/byte-slice-cast]
+Checksums-Sha256:
+ 18743b3fa658288b72183041befa18441ecf96735e161cdbd65a2ff1ea056ee2 2344 rust-byte-slice-cast_0.3.5-1.dsc
+ b0a5e3906bcbf133e33c1d4d95afc664ad37fbdb9f6568d8043e7ea8c27d93d3 8122 rust-byte-slice-cast_0.3.5.orig.tar.gz
+ 36394868ae94dfd95640fe9c6eac74ee7b78a785d82848f88a55f32e37337bfb 2564 rust-byte-slice-cast_0.3.5-1.debian.tar.xz
+Package-List: 
+ librust-byte-slice-cast-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-byte-slice-cast
+Priority: extra
+Section: misc

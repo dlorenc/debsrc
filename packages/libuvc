@@ -1,0 +1,28 @@
+Package: libuvc
+Binary: libuvc-dev, libuvc0, libuvc-doc
+Version: 0.0.6-1.1
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>,
+Build-Depends: debhelper (>= 10~), cmake, pkg-config, libusb-1.0-0-dev, libjpeg-dev
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 7ce811b0fcdd1601fba325615e84f496 2138 libuvc_0.0.6-1.1.dsc
+ 62dc2eb627c2e7f3af13de145398def8 95598 libuvc_0.0.6.orig.tar.gz
+ 8709bc660ecfce9dcb54ae9f683943dc 4656 libuvc_0.0.6-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-multimedia/libuvc.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-multimedia/libuvc.git
+Checksums-Sha256:
+ 3a86d797864670705db78c3ea80277fadd2855149b6f3ebb4ac8c9cfeed7ed0d 2138 libuvc_0.0.6-1.1.dsc
+ 42175a53c1c704365fdc782b44233925e40c9344fbb7f942181c1090f06e2873 95598 libuvc_0.0.6.orig.tar.gz
+ 1e23c2c19f53074acf4a69a66ebb7a30dddd01d21b5af92b14438d1f0875274f 4656 libuvc_0.0.6-1.1.debian.tar.xz
+Homepage: https://github.com/ktossell/libuvc
+Package-List: 
+ libuvc-dev deb libdevel optional arch=any
+ libuvc-doc deb doc optional arch=all
+ libuvc0 deb libs optional arch=any
+Directory: pool/main/libu/libuvc
+Priority: extra
+Section: misc

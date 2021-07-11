@@ -1,0 +1,26 @@
+Package: crac
+Binary: crac
+Version: 2.5.2+dfsg-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), zlib1g-dev, libhts-dev, libjellyfish-2.0-dev, libgzstream-dev, libgkarrays-dev, pkg-config, rsync
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 61e79a50f28aa5ab62c2a556079a7d1c 2087 crac_2.5.2+dfsg-4.dsc
+ a58db6dc3a449b7dd4bea567bbb7233a 658188 crac_2.5.2+dfsg.orig.tar.xz
+ b622771ed332686af656eb7fc6faf801 13788 crac_2.5.2+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/crac
+Vcs-Git: https://salsa.debian.org/med-team/crac.git
+Checksums-Sha256:
+ db8a4f89367b63e9aa7ab509f06b6f301dd41ce4709dfe3750d46a52551e0d23 2087 crac_2.5.2+dfsg-4.dsc
+ 66198b60f8bebb4d923a1230231949f8c7dc1adce92176b45f041726496c69fd 658188 crac_2.5.2+dfsg.orig.tar.xz
+ 208111b3c42afa252ad73fadd3e035ef9b7dc6bc3def4e84adaa3c5266845750 13788 crac_2.5.2+dfsg-4.debian.tar.xz
+Homepage: https://crac.gforge.inria.fr/
+Package-List: 
+ crac deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/crac
+Priority: optional
+Section: misc

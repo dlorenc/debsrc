@@ -1,0 +1,27 @@
+Package: ruby-vmstat
+Binary: ruby-vmstat
+Version: 2.3.0-3
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1.0), rake, ruby-rspec, ruby-rspec-its, ruby-timecop
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 91dea3cdf61f0fc0ca6c13538c5653a9 2076 ruby-vmstat_2.3.0-3.dsc
+ 7beba1aa8a8c4cb4b81766148a741071 24740 ruby-vmstat_2.3.0.orig.tar.gz
+ 1edfc8ddf655a93585251a9e6dd2c3ff 3264 ruby-vmstat_2.3.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-vmstat
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-vmstat.git
+Checksums-Sha256:
+ 4640991a685b61382cb31c67f0cb55a2ae85294c26fd691aedab5a2b25fea294 2076 ruby-vmstat_2.3.0-3.dsc
+ 268460f610b6ae65534d441e41aef7a50245ec52e318dca5f4c24cc38d626719 24740 ruby-vmstat_2.3.0.orig.tar.gz
+ 52df66e82ff46b81d3ee3e7a4dcd9ea28da5b2c248c693d9cab6be89abd4c921 3264 ruby-vmstat_2.3.0-3.debian.tar.xz
+Homepage: https://threez.github.com/ruby-vmstat/
+Package-List: 
+ ruby-vmstat deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-vmstat
+Priority: optional
+Section: misc

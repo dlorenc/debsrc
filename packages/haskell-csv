@@ -1,0 +1,28 @@
+Package: haskell-csv
+Binary: libghc-csv-dev, libghc-csv-prof, libghc-csv-doc
+Version: 0.1.2-15
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 89dafc90852119949d0c0d931e9837aa 2239 haskell-csv_0.1.2-15.dsc
+ f8e58a83393542c404e649f0b612af3d 2923 haskell-csv_0.1.2.orig.tar.gz
+ fed4e2e55aa6578481e5ec8847a9e949 3036 haskell-csv_0.1.2-15.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-csv
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-csv]
+Checksums-Sha256:
+ 71b217e5fc8f4ed0dc06a6b63851a44e6c1ee7be98b6315479a707f3dd68583f 2239 haskell-csv_0.1.2-15.dsc
+ 8cf43442325faa1368f9b55ad952beccf677d9980cdffa3d70a7f204a23ae600 2923 haskell-csv_0.1.2.orig.tar.gz
+ e2fad740d2cbddd7d6475c89523de4be7a6c51a5e70740ff136b1b76790b5913 3036 haskell-csv_0.1.2-15.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/csv
+Package-List: 
+ libghc-csv-dev deb haskell optional arch=any
+ libghc-csv-doc deb doc optional arch=all
+ libghc-csv-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-csv
+Priority: source
+Section: haskell

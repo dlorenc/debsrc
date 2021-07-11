@@ -1,0 +1,29 @@
+Package: admesh
+Binary: admesh, libadmesh-dev, libadmesh1
+Version: 0.98.4-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Anton Gladky <gladk@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 0a262b3a57e9d73cbf5406a41e613cd5 2073 admesh_0.98.4-1.dsc
+ ab11dfc3db8102f3e0147bf9280291a2 41107 admesh_0.98.4.orig.tar.gz
+ 1f3db13dee11d323a657fa2c39de5fd2 6168 admesh_0.98.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/admesh
+Vcs-Git: https://salsa.debian.org/science-team/admesh.git
+Checksums-Sha256:
+ 67524b923225f0c1e0d66fb6736d520cd856bae64c0da5942865b85b8dca969b 2073 admesh_0.98.4-1.dsc
+ 17e18b0e6c08c7dda879d4a0e963bea32d2593758ffd4a1a902b757115394e58 41107 admesh_0.98.4.orig.tar.gz
+ 8a2c6051134cd50a70d172fa8a7fb04f3daa3b41134f535890ae3100252e6524 6168 admesh_0.98.4-1.debian.tar.xz
+Homepage: https://github.com/admesh/admesh
+Package-List: 
+ admesh deb math optional arch=any
+ libadmesh-dev deb libdevel optional arch=any
+ libadmesh1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/a/admesh
+Priority: source
+Section: math

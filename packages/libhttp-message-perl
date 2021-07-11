@@ -1,0 +1,28 @@
+Package: libhttp-message-perl
+Binary: libhttp-message-perl
+Version: 6.28-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libclone-perl <!nocheck>, libencode-locale-perl <!nocheck>, libencode-perl (>= 3.01) <!nocheck>, libhttp-date-perl <!nocheck>, libio-html-perl <!nocheck>, liblwp-mediatypes-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ aa4c992c8249d6c966437a0ba2ac0b2c 2621 libhttp-message-perl_6.28-1.dsc
+ cc1fb7f1b5bb229f5759b9224d339b89 88053 libhttp-message-perl_6.28.orig.tar.gz
+ 447568c495987fe2586f423d323e842d 3388 libhttp-message-perl_6.28-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhttp-message-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhttp-message-perl.git
+Checksums-Sha256:
+ 452e795a0f194ee1c01449e931c4372e744f77063f360d591a4ab78a6e4d421c 2621 libhttp-message-perl_6.28-1.dsc
+ 04e3168f9576b48d45124ac681a574408ebb6fa8eb2dba6d3fe70c8f6704dbb8 88053 libhttp-message-perl_6.28.orig.tar.gz
+ d43dd56013e4d2c6747c4fbbb05c571551e76e2a662a9a1bad93c5ca6a942648 3388 libhttp-message-perl_6.28-1.debian.tar.xz
+Homepage: https://metacpan.org/release/HTTP-Message
+Dgit: ac1a4c08ed7c340a902f9e1ad48ed3f8739dfc33 debian archive/debian/6.28-1 https://git.dgit.debian.org/libhttp-message-perl
+Package-List: 
+ libhttp-message-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhttp-message-perl
+Priority: source
+Section: perl

@@ -1,0 +1,26 @@
+Package: liblxi
+Binary: liblxi1, liblxi-dev
+Version: 1.13-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Dima Kogan <dkogan@debian.org>
+Build-Depends: debhelper (>= 10), libavahi-client-dev, libc-dev-bin, libxml2-dev
+Architecture: any
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ ad602be074423f2415fe77255f5f7f22 2007 liblxi_1.13-1.dsc
+ a6704ce8e14d1977cdedba0559408c3b 19359 liblxi_1.13.orig.tar.gz
+ 7885a6f7a81ad478a6345163a609967b 3708 liblxi_1.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/liblxi
+Vcs-Git: https://salsa.debian.org/science-team/liblxi.git
+Checksums-Sha256:
+ 83b18d6b60fa3fd10706b37af87a62621130f6234582e7b304a990c9092c3018 2007 liblxi_1.13-1.dsc
+ 5c2a97b1d098ac49f6c01c918298db8b3f7af505e463b4d3d8952aff447e9ac2 19359 liblxi_1.13.orig.tar.gz
+ 331f9276ab386dce87bedce083871650a6964ef5ffd26a0a2f1d334ad24c8b66 3708 liblxi_1.13-1.debian.tar.xz
+Homepage: https://lxi-tools.github.io/
+Package-List: 
+ liblxi-dev deb libdevel optional arch=any
+ liblxi1 deb libs optional arch=any
+Directory: pool/main/libl/liblxi
+Priority: extra
+Section: misc

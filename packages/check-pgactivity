@@ -1,0 +1,27 @@
+Package: check-pgactivity
+Binary: check-pgactivity
+Version: 2.5-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christophe Courtois <christophe.courtois@dalibo.com>
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0da9b5cf9074d2571b1da69d946ee373 2065 check-pgactivity_2.5-1.dsc
+ 1bf22cb2f3d43e63d1fca3bd1364960f 101290 check-pgactivity_2.5.orig.tar.gz
+ 82f490e21b66bf8e10a06fd6b1b5962a 2828 check-pgactivity_2.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/check-pgactivity
+Vcs-Git: https://salsa.debian.org/postgresql/check-pgactivity.git
+Checksums-Sha256:
+ f14dd5454dcef508a67cf87927aa54c29a206df2787f37847dfff233b6a9c38b 2065 check-pgactivity_2.5-1.dsc
+ 9bb1bd1be664ae8a3d7c71074f286b30cdb6a5b28ce9741f3870af0a1602fbab 101290 check-pgactivity_2.5.orig.tar.gz
+ 4ae4478b2f0f358a4f901f81988e35583d78580cdaf35c94519a83a5b71dc15a 2828 check-pgactivity_2.5-1.debian.tar.xz
+Homepage: https://github.com/OPMDG/check_pgactivity
+Package-List: 
+ check-pgactivity deb database optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: postgresql
+Directory: pool/main/c/check-pgactivity
+Priority: extra
+Section: misc

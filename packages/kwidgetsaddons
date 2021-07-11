@@ -1,0 +1,32 @@
+Package: kwidgetsaddons
+Binary: libkf5widgetsaddons-data, libkf5widgetsaddons-dev, libkf5widgetsaddons-doc, libkf5widgetsaddons5
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), graphviz, libqt5sql5-sqlite:native, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qttools5-dev (>= 5.5.0~), qttools5-dev-tools (>= 5.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 41b4f017ba11dceac107e7b1b8b69e67 2559 kwidgetsaddons_5.78.0-2.dsc
+ e37adf956b09a7996c87c56e2961b035 2369660 kwidgetsaddons_5.78.0.orig.tar.xz
+ 6a96f918a54e965df758fdd561d6fd58 488 kwidgetsaddons_5.78.0.orig.tar.xz.asc
+ 059b5c6058553cc74c72a041da20aeab 26236 kwidgetsaddons_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kwidgetsaddons
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kwidgetsaddons.git
+Checksums-Sha256:
+ 36e801234074434352fe13cf097ff5e189cfab164e8fb7ef55c88b47ba28ccc7 2559 kwidgetsaddons_5.78.0-2.dsc
+ e4abb00c3228459768e99451350d94255a386ccd9cd15005ffe47f31694c5e2c 2369660 kwidgetsaddons_5.78.0.orig.tar.xz
+ 01bf54f432b8798d47c6261968a365271b15abb36b03d0581bac94493dce1033 488 kwidgetsaddons_5.78.0.orig.tar.xz.asc
+ 22fc4835f96fe0fa6e1c1c764fe8a8bf9586c886096fb3bbd438c3ce8a8c3364 26236 kwidgetsaddons_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kwidgetsaddons
+Package-List: 
+ libkf5widgetsaddons-data deb libs optional arch=all
+ libkf5widgetsaddons-dev deb libdevel optional arch=any
+ libkf5widgetsaddons-doc deb doc optional arch=all
+ libkf5widgetsaddons5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, build-essential, dbus, dh-acc, exuberant-ctags, openbox, xauth, xvfb
+Directory: pool/main/k/kwidgetsaddons
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: more-itertools
+Binary: python3-more-itertools
+Version: 4.2.0-3
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ethan Ward <ethan.ward@mycroft.ai>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-six (<< 2.0.0), python3-six (>= 1.0.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dc9bb78f705e9532c977994f862e5d26 2190 more-itertools_4.2.0-3.dsc
+ 5629c955d17df328ec534989f0649369 56871 more-itertools_4.2.0.orig.tar.gz
+ 04638f467b6fa09f90320a8ad677de37 2640 more-itertools_4.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/more-itertools
+Vcs-Git: https://salsa.debian.org/python-team/modules/more-itertools.git
+Checksums-Sha256:
+ 32c6dd07026e139dec0b751750054dad684dd26132b691d4a3e908f45721f03f 2190 more-itertools_4.2.0-3.dsc
+ 2b6b9893337bfd9166bee6a62c2b0c9fe7735dcf85948b387ec8cba30e85d8e8 56871 more-itertools_4.2.0.orig.tar.gz
+ fcf809555e6cc222e48463c52e54117466823d2fad702c34c6698eea20adc660 2640 more-itertools_4.2.0-3.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/more-itertools/
+Package-List: 
+ python3-more-itertools deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-setuptools
+Directory: pool/main/m/more-itertools
+Priority: extra
+Section: misc

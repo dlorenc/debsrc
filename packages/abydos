@@ -1,0 +1,26 @@
+Package: abydos
+Binary: python3-abydos, python-abydos-doc
+Version: 0.5.0+git20201231.344346a-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Otto Kekäläinen <otto@debian.org>, Julian Gilbey <jdg@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, latexmk <!nodoc>, python3-all, python3-deprecation, python3-lzss <!nocheck>, python3-nltk <!nocheck>, python3-numpy, python3-paq <!nocheck>, python3-setuptools, python3-sphinx-rtd-theme <!nodoc>, python3-sphinxcontrib.bibtex <!nodoc>, python3-syllabipy <!nocheck>, sphinx <!nodoc>, texlive-fonts-recommended <!nodoc>, texlive-latex-extra <!nodoc>, texlive-luatex <!nodoc>, texlive-plain-generic <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2789869dc5df8dd2a7a04973a527e52c 2621 abydos_0.5.0+git20201231.344346a-3.dsc
+ 2bbc1c5e23fc5778ad17f6ebf8bf919e 21335891 abydos_0.5.0+git20201231.344346a.orig.tar.gz
+ 4b95c3a526b812df9227a41d87c4f41d 5168 abydos_0.5.0+git20201231.344346a-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/abydos
+Vcs-Git: https://salsa.debian.org/python-team/packages/abydos.git
+Checksums-Sha256:
+ ccb3c0cde3485132ce5bec1673d060740763fc5303cf8bf639d209d076761f74 2621 abydos_0.5.0+git20201231.344346a-3.dsc
+ 08e36ee602f03a5bd704d6a71ecb99de4713a4c483888a2abed65ed5a7ddc81c 21335891 abydos_0.5.0+git20201231.344346a.orig.tar.gz
+ 091fee5c361bd3eb7f681390a8efb17be394a9d0bcda079da3cbb7ea2d566bb5 5168 abydos_0.5.0+git20201231.344346a-3.debian.tar.xz
+Homepage: https://github.com/spyder-ide/pyls-spyder
+Package-List: 
+ python-abydos-doc deb doc optional arch=all profile=!nodoc
+ python3-abydos deb python optional arch=all
+Directory: pool/main/a/abydos
+Priority: extra
+Section: misc

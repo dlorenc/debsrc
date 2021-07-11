@@ -1,0 +1,26 @@
+Package: rust-daemonize
+Binary: librust-daemonize-dev
+Version: 0.4.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-boxfnonce-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.4-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a1d8ec01cd8ae35347a7ebb8ac02ad1e 2265 rust-daemonize_0.4.1-2.dsc
+ 8bf5e830cae98f0b9d6bb83c0607040e 14494 rust-daemonize_0.4.1.orig.tar.gz
+ 6c54aeb6c111e779fa7a0218f838b92b 2628 rust-daemonize_0.4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/daemonize
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/daemonize]
+Checksums-Sha256:
+ 79e2427291cfbbfb8073fc00e3d65d6e0b4c813eb7dadfed4bb79fc2d1ba8b34 2265 rust-daemonize_0.4.1-2.dsc
+ 70c24513e34f53b640819f0ac9f705b673fcf4006d7aab8778bee72ebfc89815 14494 rust-daemonize_0.4.1.orig.tar.gz
+ 85c34e03e701a3d9ed044dd3b08f9402ce15232f2d706cd62a3db699ae307b0d 2628 rust-daemonize_0.4.1-2.debian.tar.xz
+Package-List: 
+ librust-daemonize-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-daemonize
+Priority: extra
+Section: misc

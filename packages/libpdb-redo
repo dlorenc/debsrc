@@ -1,0 +1,28 @@
+Package: libpdb-redo
+Binary: libpdb-redo-dev, libpdb-redo1
+Version: 1.0.2-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Maarten L. Hekkelman <maarten@hekkelman.com>
+Build-Depends: debhelper-compat (= 13), libcifpp-dev (>= 1.0.1), autoconf-archive, libnewuoa-dev, pkg-config, libgsl-dev, libboost-dev, libboost-iostreams-dev, libzeep-dev (>= 5.0.2), libclipper-dev, libccp4-dev (>= 6.5.1-5)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 22006d91e93380f8dd6dc0ab9ef85d17 2299 libpdb-redo_1.0.2-2.dsc
+ d6f80bebff8fb8553bd2801b730583d0 4162557 libpdb-redo_1.0.2.orig.tar.gz
+ b8646398e5e7a3e18282e940a0d407df 4788 libpdb-redo_1.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libpdb-redo
+Vcs-Git: https://salsa.debian.org/med-team/libpdb-redo.git
+Checksums-Sha256:
+ b38c6dfae3874f55009c222fdee2228f93892e04b27e2770674df339a56cda7a 2299 libpdb-redo_1.0.2-2.dsc
+ 4b97a544a734d8e4a6eaf44b6c4b0d10c0b5381da4d928175640d2dcc0caf56b 4162557 libpdb-redo_1.0.2.orig.tar.gz
+ aaa60696aeae40df9abc49a9e9335e515ae522f119944923a9380778984a172a 4788 libpdb-redo_1.0.2-2.debian.tar.xz
+Homepage: https://github.com/PDB-REDO/libpdb-redo
+Package-List: 
+ libpdb-redo-dev deb libdevel optional arch=any
+ libpdb-redo1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, mrc
+Directory: pool/main/libp/libpdb-redo
+Priority: extra
+Section: misc

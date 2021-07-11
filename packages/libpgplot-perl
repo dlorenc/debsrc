@@ -1,0 +1,26 @@
+Package: libpgplot-perl
+Binary: libpgplot-perl
+Version: 1:2.24-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), gfortran, giza-dev (>= 0.9.4-4~), libextutils-f77-perl, libpkgconfig-perl | libextutils-pkgconfig-perl, perl, xauth <!nocheck>, xvfb <!nocheck>
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ bcacff9dc3bd4fcd01c611f7381bd6ae 2305 libpgplot-perl_2.24-1.dsc
+ 4fbddcfb9b88bad823bde163fbcb72a7 55954 libpgplot-perl_2.24.orig.tar.gz
+ 8e07e9677181725e27c52dbf438e8b79 6536 libpgplot-perl_2.24-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpgplot-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpgplot-perl.git
+Checksums-Sha256:
+ ee64ae72216aac1333ad518f046da1edb439b316ff6f81c4563cd36f935748da 2305 libpgplot-perl_2.24-1.dsc
+ 5a08c1f048cc83f4912dcc1e171a15b918a247c5cf658215535a394ad5d6dc8e 55954 libpgplot-perl_2.24.orig.tar.gz
+ 0356f4f1d64689954efd47f0d4fddf6ae4cfbf71a78d8ce80542dd8ec610e213 6536 libpgplot-perl_2.24-1.debian.tar.xz
+Homepage: https://metacpan.org/release/PGPLOT
+Package-List: 
+ libpgplot-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libpgplot-perl
+Priority: extra
+Section: misc

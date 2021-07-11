@@ -1,0 +1,26 @@
+Package: haskell-ghc-lib-parser
+Binary: libghc-ghc-lib-parser-dev, libghc-ghc-lib-parser-prof, libghc-ghc-lib-parser-doc
+Version: 8.10.2.20200808-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.16), cdbs, ghc, ghc-prof, alex (>= 3.1), happy (>= 1.19.4)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 81b5570209b720a30fc36f606de6b4e8 2313 haskell-ghc-lib-parser_8.10.2.20200808-1.dsc
+ 51b3771801a9b597a524c32f7a797469 1627093 haskell-ghc-lib-parser_8.10.2.20200808.orig.tar.gz
+ f285da8a460cd7f56d15b4478331881b 2528 haskell-ghc-lib-parser_8.10.2.20200808-1.debian.tar.xz
+Checksums-Sha256:
+ 4c790ea7c21acb39b53cb572f67ba22a08ee1b9957c59235fb30741b5040e5b3 2313 haskell-ghc-lib-parser_8.10.2.20200808-1.dsc
+ d4f96608b7f414fc3094e9d352045b08cc033e385db50d0793abfba8efd6dd59 1627093 haskell-ghc-lib-parser_8.10.2.20200808.orig.tar.gz
+ 7010f9bad7765683ca80db9b18aa2e291c98f84b49d2c2a949b71151a151e4b4 2528 haskell-ghc-lib-parser_8.10.2.20200808-1.debian.tar.xz
+Homepage: https://github.com/digital-asset/ghc-lib
+Package-List: 
+ libghc-ghc-lib-parser-dev deb haskell optional arch=any
+ libghc-ghc-lib-parser-doc deb doc optional arch=all
+ libghc-ghc-lib-parser-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ghc-lib-parser
+Priority: extra
+Section: misc

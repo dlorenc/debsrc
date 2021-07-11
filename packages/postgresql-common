@@ -1,0 +1,31 @@
+Package: postgresql-common
+Binary: postgresql-common, postgresql-client-common, postgresql-server-dev-all, postgresql, postgresql-client, postgresql-doc, postgresql-contrib, postgresql-all
+Version: 225
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Martin Pitt <mpitt@debian.org>, Christoph Berg <myon@debian.org>, Peter Eisentraut <petere@debian.org>,
+Build-Depends: debhelper (>= 9), debhelper (>= 10.1) | dh-systemd (>= 1.19), libreadline-dev
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (native)
+Files:
+ 2334aeb9ad28a12ac8bb9dee83f9c8af 2430 postgresql-common_225.dsc
+ 36fd50d6280f6668a847f0ea8e84c59d 219440 postgresql-common_225.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/postgresql-common
+Vcs-Git: https://salsa.debian.org/postgresql/postgresql-common.git
+Checksums-Sha256:
+ 549154379518b014730be85aa2477bde4ebd495c0dbf2f157be56dd95ab66904 2430 postgresql-common_225.dsc
+ 0a6d104d18a1da36136ea4498fe448c5fe00eedb75b29d68d0f9d21459ed7ffb 219440 postgresql-common_225.tar.xz
+Package-List: 
+ postgresql deb database optional arch=all
+ postgresql-all deb database optional arch=all
+ postgresql-client deb database optional arch=all
+ postgresql-client-common deb database optional arch=all
+ postgresql-common deb database optional arch=all
+ postgresql-contrib deb database optional arch=all
+ postgresql-doc deb doc optional arch=all
+ postgresql-server-dev-all deb database optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, debhelper, fakeroot, hunspell-en-us, locales, logrotate, net-tools, netcat-openbsd, perl, procps
+Directory: pool/main/p/postgresql-common
+Priority: source
+Section: database

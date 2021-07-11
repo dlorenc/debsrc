@@ -1,0 +1,27 @@
+Package: insilicoseq
+Binary: insilicoseq
+Version: 1.5.2-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Sao I Kuan <saoikuan@gmail.com>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-biopython, python3-nose
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 435acd7ea0c235a94056eace2170bdb4 2184 insilicoseq_1.5.2-1.dsc
+ 51a36be7db1e3529c81345828e4b83f2 1885771 insilicoseq_1.5.2.orig.tar.gz
+ e953bdd51e1f2b9add2cfd441dc1438f 4048 insilicoseq_1.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/insilicoseq
+Vcs-Git: https://salsa.debian.org/med-team/insilicoseq.git
+Checksums-Sha256:
+ ba6ab3fde34d94dc27d0436203091c50a5b3d7d0ea52c301fd0b7a1ad627e86c 2184 insilicoseq_1.5.2-1.dsc
+ 81e15842a6ca2030dfe20076caec28b8498f209fca92da508d6dc7af5b55423a 1885771 insilicoseq_1.5.2.orig.tar.gz
+ 44b8f86a31271e93d2178b4fabc82ea7af7a1645936c56401049f29c0b910c7c 4048 insilicoseq_1.5.2-1.debian.tar.xz
+Homepage: https://github.com/HadrienG/InSilicoSeq
+Package-List: 
+ insilicoseq deb science optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-nose
+Directory: pool/main/i/insilicoseq
+Priority: extra
+Section: misc

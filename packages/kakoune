@@ -1,0 +1,27 @@
+Package: kakoune
+Binary: kakoune
+Version: 2020.01.16-2
+Maintainer: Peter Pentchev <roam@debian.org>
+Build-Depends: debhelper (>> 13.1~), debhelper-compat (= 13), asciidoc-base, docbook-xsl, libboost-regex-dev, libncursesw5-dev, pkg-config, xsltproc, w3m
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0271e59075adf48c34d01dccd1b53fa7 2147 kakoune_2020.01.16-2.dsc
+ 49c7d45167276bf093303f2f3d9c7dbe 579837 kakoune_2020.01.16.orig.tar.gz
+ 438ba66cb9904ecce7e1407fe1617d15 12636 kakoune_2020.01.16-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/kakoune/
+Vcs-Git: https://salsa.debian.org/debian/kakoune.git
+Checksums-Sha256:
+ 6eb20367b68cd51158ff08226ec67557cbcfda030ea363043db864b350c08453 2147 kakoune_2020.01.16-2.dsc
+ 304d4aedf59b3c128912828fa66fd73742b0668bc281ffc2ab984da75e3543ee 579837 kakoune_2020.01.16.orig.tar.gz
+ 7d58eadf70f158aa06aa6ccf700e89c6f0a57268f51391a40429ef08196fa0b0 12636 kakoune_2020.01.16-2.debian.tar.xz
+Homepage: http://kakoune.org/
+Dgit: d6e1ddf6c255f56a7083e7756f97be0d07dec857 debian archive/debian/2020.01.16-2 https://git.dgit.debian.org/kakoune
+Package-List: 
+ kakoune deb editors optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: diffutils
+Directory: pool/main/k/kakoune
+Priority: optional
+Section: misc

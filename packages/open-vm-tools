@@ -1,0 +1,27 @@
+Package: open-vm-tools
+Binary: open-vm-tools, open-vm-tools-desktop, open-vm-tools-sdmp, open-vm-tools-dev
+Version: 2:11.2.5-2
+Maintainer: Bernd Zeimetz <bzed@debian.org>
+Build-Depends: debhelper-compat (= 12), doxygen, libcunit1-dev, libfuse-dev, libgtkmm-3.0-dev, libgtk-3-dev, libicu-dev, libnotify-dev, libpam0g-dev, libprocps-dev, libx11-dev, libxinerama-dev, libxss-dev, libxtst-dev, libmspack-dev, libssl-dev, libxmlsec1-dev, libudev-dev, libdrm-dev, liblzma-dev, libgdk-pixbuf-xlib-2.0-dev
+Architecture: amd64 i386
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1363bf431825a61d9aec2fb675605d58 2464 open-vm-tools_11.2.5-2.dsc
+ ce4b0bb8da12a016aa7ce7aac4d3eebf 1658304 open-vm-tools_11.2.5.orig.tar.xz
+ a949b13ce92f9b1a9f6643193b4cee1e 31124 open-vm-tools_11.2.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/vmware-packaging-team/pkg-open-vm-tools
+Vcs-Git: https://salsa.debian.org/vmware-packaging-team/pkg-open-vm-tools.git
+Checksums-Sha256:
+ a05c4df9b328d6e253e4252d0e0f6c315de9f737b5099e5aae03d465869a3216 2464 open-vm-tools_11.2.5-2.dsc
+ cac26505a1206b8a4c6fa399e219756d18185bb17fc6fd95936916581c1c4c34 1658304 open-vm-tools_11.2.5.orig.tar.xz
+ e55a730aff6327ab336549893bb5b450a6ec6f173033772a30a24b080da7b112 31124 open-vm-tools_11.2.5-2.debian.tar.xz
+Homepage: https://github.com/vmware/open-vm-tools
+Package-List: 
+ open-vm-tools deb admin optional arch=amd64,i386
+ open-vm-tools-desktop deb admin optional arch=amd64,i386
+ open-vm-tools-dev deb devel optional arch=amd64,i386
+ open-vm-tools-sdmp deb admin optional arch=amd64,i386
+Directory: pool/main/o/open-vm-tools
+Priority: source
+Section: admin

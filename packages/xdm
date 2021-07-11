@@ -1,0 +1,24 @@
+Package: xdm
+Binary: xdm
+Version: 1:1.1.11-3
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Cyril Brulebois <kibi@debian.org>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1), pkg-config, libxmu-dev (>= 1:1.0.1), libx11-dev (>= 2:1.0.0), libxau-dev (>= 1:1.0.0), libxaw7-dev (>= 1:1.0.1), libpam0g-dev, libselinux1-dev [linux-any], libxinerama-dev (>= 1:1.0.1), libxft-dev, quilt, automake, libtool, xutils-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 1.0
+Files:
+ 8cf41ae7da4a7612d0924898cacae9af 1677 xdm_1.1.11-3.dsc
+ aaf8c3d05d4a1e689d2d789c99a6023c 566582 xdm_1.1.11.orig.tar.gz
+ b8fded0cb0dc4ba5b1e55578038b9370 66544 xdm_1.1.11-3.diff.gz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/app/xdm.git
+Vcs-Git: git://anonscm.debian.org/pkg-xorg/app/xdm
+Checksums-Sha256:
+ eb1e01d4a405f13218765a692691fdf6f71e358670b247dce3903e26a0cef19e 1677 xdm_1.1.11-3.dsc
+ 38c544a986143b1f24566c1a0111486b339b92224b927be78714eeeedca12a14 566582 xdm_1.1.11.orig.tar.gz
+ 88e483db65a34ce28fdd2f44505a2c9798a9017d8940f662a4513872b1b295f0 66544 xdm_1.1.11-3.diff.gz
+Package-List: 
+ xdm deb x11 optional arch=any
+Directory: pool/main/x/xdm
+Priority: source
+Section: x11

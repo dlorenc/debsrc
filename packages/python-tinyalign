@@ -1,0 +1,27 @@
+Package: python-tinyalign
+Binary: python3-tinyalign
+Version: 0.2-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, cython3, python3-setuptools, python3-setuptools-scm, python3-all-dev, python3-pytest
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c4e152b4ba11a841787bfe00294e33f5 2207 python-tinyalign_0.2-5.dsc
+ 40c5fa487b51f7e7126a5d2f86d333d2 5896 python-tinyalign_0.2.orig.tar.gz
+ 1b0eadfff6e8df6f70ca21755b31f202 3184 python-tinyalign_0.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-tinyalign
+Vcs-Git: https://salsa.debian.org/med-team/python-tinyalign.git
+Checksums-Sha256:
+ 2e00f2737b5937dfc043f1883b46a962d7ee20ac029a9ad6db3d13f186b85f38 2207 python-tinyalign_0.2-5.dsc
+ babf5a91da5ce66b9c09090e29f125dbc1e29373f60888b1072e1151617f8fc6 5896 python-tinyalign_0.2.orig.tar.gz
+ 3229d277df1be5089ce3e9f0919dc766b639de008d80829e7486ace48b82c28d 3184 python-tinyalign_0.2-5.debian.tar.xz
+Homepage: https://github.com/marcelm/tinyalign
+Package-List: 
+ python3-tinyalign deb python optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-tinyalign
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-victoriametrics-metricsql
+Binary: golang-github-victoriametrics-metricsql-dev
+Version: 0.10.0+ds-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Guillem Jover <gjover@sipwise.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-victoriametrics-metrics-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1acd585f919aa296cfaa521a79134b77 2448 golang-github-victoriametrics-metricsql_0.10.0+ds-1.dsc
+ f3e3a06f1a7c0db83d0da54c636ba986 32397 golang-github-victoriametrics-metricsql_0.10.0+ds.orig.tar.gz
+ e67f4c4d88107a68b640c891ca8e7aa4 2472 golang-github-victoriametrics-metricsql_0.10.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-victoriametrics-metricsql
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-victoriametrics-metricsql.git
+Checksums-Sha256:
+ a8ab28f2f7bcbc8f0039a5fbe82a33b4c917a05725feeae1cc5aa2b3ead73aac 2448 golang-github-victoriametrics-metricsql_0.10.0+ds-1.dsc
+ 32b02d72f3797c3d0a2254d033692dee523d6212b191a2d6e1aa94c5ad466972 32397 golang-github-victoriametrics-metricsql_0.10.0+ds.orig.tar.gz
+ d5b11afc51f02bfa3733eff702ddaa112fff9d880977640acf706b69e3bafaa4 2472 golang-github-victoriametrics-metricsql_0.10.0+ds-1.debian.tar.xz
+Homepage: https://github.com/VictoriaMetrics/metricsql
+Go-Import-Path: github.com/VictoriaMetrics/metricsql
+Package-List: 
+ golang-github-victoriametrics-metricsql-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-victoriametrics-metricsql
+Priority: extra
+Section: misc

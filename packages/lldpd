@@ -1,0 +1,28 @@
+Package: lldpd
+Binary: lldpd, liblldpctl-dev
+Version: 1.0.11-1
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends: debhelper-compat (= 13), libsnmp-dev, libpci-dev, libxml2-dev, libevent-dev, libreadline-dev, libbsd-dev, libcap-dev, pkg-config, check
+Architecture: linux-any kfreebsd-any
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ b4d7519795b6fb74e1e38bfe0b1c9422 2311 lldpd_1.0.11-1.dsc
+ 65218012d738bfec59f68e4bbf8bbeb3 1962748 lldpd_1.0.11.orig.tar.gz
+ 31a8465d9cc7be6c3263b12e49729456 833 lldpd_1.0.11.orig.tar.gz.asc
+ b3786d5a7bf5140d1f93c1e52ae4d93a 14532 lldpd_1.0.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/lldpd
+Vcs-Git: https://salsa.debian.org/debian/lldpd.git
+Checksums-Sha256:
+ 0aee3392a086f61a502f744bddb052b31be0241ad3dc14e1795d2db6c141bb9a 2311 lldpd_1.0.11-1.dsc
+ b51d15700fbaefcb7fb85c3506b49d33173a0f15d700f933ef044067b42d46e4 1962748 lldpd_1.0.11.orig.tar.gz
+ e6fc10f5e714d9658ea00c5642fff3fb765a618b5e2aefcea71c15f2305eab98 833 lldpd_1.0.11.orig.tar.gz.asc
+ f41b40ebe3fb61acacad38fb93e863842830fe792272ff9f17b869f835aff87a 14532 lldpd_1.0.11-1.debian.tar.xz
+Homepage: https://lldpd.github.io
+Package-List: 
+ liblldpctl-dev deb libdevel optional arch=linux-any,kfreebsd-any
+ lldpd deb net optional arch=linux-any,kfreebsd-any
+Testsuite: autopkgtest
+Directory: pool/main/l/lldpd
+Priority: source
+Section: net

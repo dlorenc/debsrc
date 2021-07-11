@@ -1,0 +1,27 @@
+Package: php-horde-kolab-session
+Binary: php-horde-kolab-session
+Version: 2.0.3-9
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 758fbff1d514f4951914af9221ffaf23 2281 php-horde-kolab-session_2.0.3-9.dsc
+ 86b22e3a9cd47acfead74eb88e213353 21250 php-horde-kolab-session_2.0.3.orig.tar.gz
+ 4fa6844efd8142ca2a3f2f1bb9615c0f 5684 php-horde-kolab-session_2.0.3-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-kolab-session
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-kolab-session.git
+Checksums-Sha256:
+ a98a093c4d858e449567a73925362e711668795da67a8238236e05ac042eb51f 2281 php-horde-kolab-session_2.0.3-9.dsc
+ 64b3a778a763d9a3c3bb641fa11e6e58f89f1170452dfbafc304662a1a06934f 21250 php-horde-kolab-session_2.0.3.orig.tar.gz
+ 3239be200da2e2a8ddb3a9bb851b115de537f38cb72922661f80786eaa889b5d 5684 php-horde-kolab-session_2.0.3-9.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-kolab-session deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-imap-client, php-horde-kolab-server, php-horde-log, php-horde-test
+Directory: pool/main/p/php-horde-kolab-session
+Priority: extra
+Section: misc

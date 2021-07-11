@@ -1,0 +1,25 @@
+Package: netty
+Binary: libnetty-java
+Version: 1:4.1.48-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Chris Grzegorczyk <grze@eucalyptus.com>, Graziano Obertelli <graziano@eucalyptus.com>, Kyo Lee <kyo.lee@eucalyptus.com>
+Build-Depends: ant, ant-contrib (>= 1.0~b3+svn177-8~), debhelper-compat (= 13), default-jdk, groovy, libbcpkix-java, libbuild-helper-maven-plugin-java, libcompress-lzf-java, libgoogle-gson-java, libjavassist-java, libjctools-java (>= 2.0), libjzlib-java, liblog4j2-java, libmaven-antrun-plugin-java, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, libmaven-shade-plugin-java, libmockito-java, libnetty-tcnative-java (>= 2.0.28), libprotobuf-java, libxz-java, maven-debian-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 070ad62dcccc1be6401079737faeb8e2 2468 netty_4.1.48-4.dsc
+ ebc25581b3e2b6e1bb47200ba260a636 1665244 netty_4.1.48.orig.tar.xz
+ d1419390535f79c5c6e9a0ba8b7bf08f 24196 netty_4.1.48-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/netty
+Vcs-Git: https://salsa.debian.org/java-team/netty.git
+Checksums-Sha256:
+ d4a9ff93064e5c80936ea85b4ccc96cdc7873612505cbfc199ad7d1c8c7c48ed 2468 netty_4.1.48-4.dsc
+ e5351d821f461f64af58e89f260ad8943b0ab75f26c1a845300a91f22a711600 1665244 netty_4.1.48.orig.tar.xz
+ b0e09c1c1c3ad3d81d695facf6a26bac37f1ce43cd84dc41a07b93776bd5ae2e 24196 netty_4.1.48-4.debian.tar.xz
+Homepage: http://netty.io/
+Package-List: 
+ libnetty-java deb java optional arch=all
+Directory: pool/main/n/netty
+Priority: source
+Section: java

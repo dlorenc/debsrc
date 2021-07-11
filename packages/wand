@@ -1,0 +1,28 @@
+Package: wand
+Binary: python3-wand, pypy-wand, wand-doc
+Version: 0.6.5-1
+Maintainer: Håvard Flaget Aasen <haavard_aasen@yahoo.no>
+Build-Depends: debhelper-compat (= 13), dh-python, libmagickcore-6.q16-6-extra <!nodoc> <!nocheck>, libmagickwand-6.q16-6 <!nodoc> <!nocheck>, pypy, python3-all, python3-pytest <!nocheck>, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7f97610007edeafad2bd7677c7534fe9 2258 wand_0.6.5-1.dsc
+ bd5047573511a399527cfea8db13ffea 11468840 wand_0.6.5.orig.tar.gz
+ 1673c26f80e1533d6c9ca8a6edc610ef 7920 wand_0.6.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/wand
+Vcs-Git: https://salsa.debian.org/debian/wand.git
+Checksums-Sha256:
+ ac9b0d6ea0e18048a393fa9d834173dafc6adec865818b70c619e63f21dc06b9 2258 wand_0.6.5-1.dsc
+ 8d7fce83b2c5c9b3d3ccccdb689b48020b11a39913cf6416ff515dd3dcf7b56c 11468840 wand_0.6.5.orig.tar.gz
+ 317a87d8b6d773b9c97076ce26c09e0f99e28ec09911536d3ae8a52898ab76a9 7920 wand_0.6.5-1.debian.tar.xz
+Homepage: https://github.com/emcconville/wand
+Package-List: 
+ pypy-wand deb python optional arch=all
+ python3-wand deb python optional arch=all
+ wand-doc deb doc optional arch=all profile=!nodoc
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: libmagickcore-6.q16-6-extra, libmagickwand-6.q16-6, python3-all, python3-pytest
+Directory: pool/main/w/wand
+Priority: source
+Section: misc

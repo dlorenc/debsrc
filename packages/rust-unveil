@@ -1,0 +1,24 @@
+Package: rust-unveil
+Binary: librust-unveil-dev
+Version: 0.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 8d78042cc97df26be37719ac907635e0 1458 rust-unveil_0.2.0-1.dsc
+ 4fe5074cbdfd772bd5da7dbd94e20f00 6425 rust-unveil_0.2.0.orig.tar.gz
+ 0d5ba448139116cf1b396289a82cdfd9 2276 rust-unveil_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unveil
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unveil]
+Checksums-Sha256:
+ 0e585b3548a64ee018ea7032438a3aa0b582fd90213fe6cb22a776f4eb41d999 1458 rust-unveil_0.2.0-1.dsc
+ 774088f12a68c21aa5d0a9901a5087ad4dfc8e5515fd3557349e8defc980a0e5 6425 rust-unveil_0.2.0.orig.tar.gz
+ acc1d01fd72eddc06aa30fcf3df7ce38c0fc98a0962a84c0b3eda5dcb6824201 2276 rust-unveil_0.2.0-1.debian.tar.xz
+Package-List: 
+ librust-unveil-dev deb rust optional arch=any
+Directory: pool/main/r/rust-unveil
+Priority: extra
+Section: misc

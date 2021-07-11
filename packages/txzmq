@@ -1,0 +1,27 @@
+Package: txzmq
+Binary: python3-txzmq
+Version: 0.8.0-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Nicolas Dandrimont <olasd@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c9526703604b382b4cc499fed9303b8a 2088 txzmq_0.8.0-2.dsc
+ f32ad1051ac981df67844b2357be3f0f 19229 txzmq_0.8.0.orig.tar.gz
+ a4ad202414d641fa6642eb12321b7b8b 3064 txzmq_0.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/txzmq
+Vcs-Git: https://salsa.debian.org/python-team/modules/txzmq.git
+Checksums-Sha256:
+ 6ed51fa03749e7bc8fce3b56d01f28a6fd31331be005946329f35d2e44266975 2088 txzmq_0.8.0-2.dsc
+ 718476042c78732caba592104f2bd16a0f9f3fbc2c169d752526a25a12cb35ec 19229 txzmq_0.8.0.orig.tar.gz
+ f3a672813315967e5970dc5bac67bfdfa37615a8d9707913413ad8c7d296e51e 3064 txzmq_0.8.0-2.debian.tar.xz
+Homepage: https://github.com/smira/txZMQ
+Package-List: 
+ python3-txzmq deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-pytest, python3-twisted, python3-zmq, python3-zope.interface
+Directory: pool/main/t/txzmq
+Priority: optional
+Section: misc

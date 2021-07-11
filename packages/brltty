@@ -1,0 +1,38 @@
+Package: brltty
+Binary: brltty, libbrlapi0.8, libbrlapi-dev, libbrlapi-jni, libbrlapi-java, brltty-flite, brltty-speechd, brltty-espeak, brltty-udeb, brltty-x11, xbrlapi, cl-brlapi, python3-brlapi
+Version: 6.3+dfsg-1
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-lisp, dh-python, dh-strip-nondeterminism, dh-exec, autoconf, pkg-config, tcl (>= 8.5~), libasound2-dev [linux-any], python3-all-dev, cython3 (>= 0.28.4), libexpat1-dev, libpcre3-dev, libgpmg1-dev [linux-any], libsystemd-dev [linux-any], libicu-dev, liblouis-dev, libpolkit-gobject-1-dev, libcap-dev [linux-any], default-jdk [!hppa !hurd-i386 !kfreebsd-i386 !kfreebsd-amd64 !m68k], doxygen, linuxdoc-tools, groff, flite1-dev, libncursesw5-dev, libxaw7-dev, x11proto-kb-dev, libxtst-dev, libxfixes-dev, libdbus-1-dev, libatspi2.0-dev, libglib2.0-dev, libbluetooth-dev [linux-any], libspeechd-dev, libespeak-ng-dev, libespeak-ng-libespeak-dev
+Build-Conflicts: libasound2-dev [!linux-any], libatspi-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 70239e940221e64c90befa7dad723fb6 3287 brltty_6.3+dfsg-1.dsc
+ ea124156bdd0adc540b013ce5f86014f 2350776 brltty_6.3+dfsg.orig.tar.xz
+ d24093a2f7231a7b33973c9d83b35f3b 32652 brltty_6.3+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/brltty
+Vcs-Git: https://salsa.debian.org/a11y-team/brltty.git
+Checksums-Sha256:
+ 84924885bd20aafdbd8b452db6214e00ea4b622ebffb36fed73f98d87bb9fc5b 3287 brltty_6.3+dfsg-1.dsc
+ f923c89c9cb546b469d14e0398567ae94b5d3141c5a8c37f37cef2dab36d34ea 2350776 brltty_6.3+dfsg.orig.tar.xz
+ 3691b0b81de3b2a60b123b391515d6b5d8bfa4ff8bf89bd041ee9e0b9eb87f85 32652 brltty_6.3+dfsg-1.debian.tar.xz
+Homepage: https://brltty.com
+Package-List: 
+ brltty deb admin optional arch=any
+ brltty-espeak deb admin optional arch=any
+ brltty-flite deb admin optional arch=any
+ brltty-speechd deb admin optional arch=any
+ brltty-udeb udeb debian-installer optional arch=any
+ brltty-x11 deb admin optional arch=any
+ cl-brlapi deb lisp optional arch=all
+ libbrlapi-dev deb libdevel optional arch=any
+ libbrlapi-java deb java optional arch=all
+ libbrlapi-jni deb java optional arch=any
+ libbrlapi0.8 deb libs optional arch=any
+ python3-brlapi deb python optional arch=any
+ xbrlapi deb admin optional arch=any
+Directory: pool/main/b/brltty
+Priority: source
+Section: admin

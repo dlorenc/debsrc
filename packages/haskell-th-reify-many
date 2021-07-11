@@ -1,0 +1,28 @@
+Package: haskell-th-reify-many
+Binary: libghc-th-reify-many-dev, libghc-th-reify-many-prof, libghc-th-reify-many-doc
+Version: 0.1.9-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Christopher Reichert <creichert07@gmail.com>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-safe-dev, libghc-safe-prof, libghc-th-expand-syns-dev, libghc-th-expand-syns-prof
+Build-Depends-Indep: ghc-doc, libghc-safe-doc, libghc-th-expand-syns-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c77b7a3f104408a5c52158e685e9de4f 2534 haskell-th-reify-many_0.1.9-2.dsc
+ 617e1b20bfee388584b852f0f5273a59 5693 haskell-th-reify-many_0.1.9.orig.tar.gz
+ 22ed8dcfe84a299a143891b9df3c2e8b 3020 haskell-th-reify-many_0.1.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-th-reify-many
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-th-reify-many]
+Checksums-Sha256:
+ 81f3e26500f027193a5d0cbfbd83f90dfbbc76a62efd809075211e55c0672a93 2534 haskell-th-reify-many_0.1.9-2.dsc
+ f889dd029d5ab191ace99fe595f363c60314d536e61c8c58f6167f1a9d29ae43 5693 haskell-th-reify-many_0.1.9.orig.tar.gz
+ 26255ef7aa9b9fb8f68204baae0d87b2034b1d182a2756442e1ee3fb1dce3b62 3020 haskell-th-reify-many_0.1.9-2.debian.tar.xz
+Homepage: https://github.com/mgsloan/th-reify-many
+Package-List: 
+ libghc-th-reify-many-dev deb haskell optional arch=any
+ libghc-th-reify-many-doc deb doc optional arch=all
+ libghc-th-reify-many-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-th-reify-many
+Priority: optional
+Section: misc

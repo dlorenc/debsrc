@@ -1,0 +1,27 @@
+Package: r-cran-rcarb
+Binary: r-cran-rcarb
+Version: 0.1.4-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-interp, r-cran-matrixstats (>= 0.56.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 252e55ab14337d222c736b350be2aa41 2125 r-cran-rcarb_0.1.4-1.dsc
+ 29603a2ef05ba23f4a9a7faf9992d81a 208394 r-cran-rcarb_0.1.4.orig.tar.gz
+ 401cf7c6854eae81cf588e3b37799609 2284 r-cran-rcarb_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-rcarb
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-rcarb.git
+Checksums-Sha256:
+ b06181d86924f952ef4e909f0806278c12c35f698eea9f3412c1d5821380904a 2125 r-cran-rcarb_0.1.4-1.dsc
+ e65cf3e60cd2073f6b6e430438a3015521fb64d6d095919f99b3f1eb0bd18a56 208394 r-cran-rcarb_0.1.4.orig.tar.gz
+ d2201070914e3ebdd9e602bc2483969fb49256d9cd29ea01268bbe221547d908 2284 r-cran-rcarb_0.1.4-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=RCarb
+Package-List: 
+ r-cran-rcarb deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-rcarb
+Priority: extra
+Section: misc

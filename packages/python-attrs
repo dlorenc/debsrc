@@ -1,0 +1,28 @@
+Package: python-attrs
+Binary: python3-attr, python-attr-doc
+Version: 20.3.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Tristan Seligmann <mithrandi@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python (>= 3.20180313~), python3-all, python3-doc, python3-hypothesis, python3-pytest, python3-setuptools, python3-six, python3-sphinx, python3-sphinx-rtd-theme, python3-zope.interface
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7e5881031b927375a310467b8a64a7cd 2130 python-attrs_20.3.0-1.dsc
+ e9dad920768d1713bab9c2ea5a6e06da 157041 python-attrs_20.3.0.orig.tar.gz
+ a017864b3f15d3f0824a176fbe2172e2 5016 python-attrs_20.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-attrs
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-attrs.git
+Checksums-Sha256:
+ 959ac0c2cbd669c56e70ee7c6870a52bccd70495ca3c65ce3b12929ca3a42ca7 2130 python-attrs_20.3.0-1.dsc
+ c7d2ef493768bfea33cd5d8cbd2a6c2ddf229d5e8c3a79aefa67d1daf1e9d96d 157041 python-attrs_20.3.0.orig.tar.gz
+ 8c5d9ba58ee92e51a32479f19fa06f943e0faaa80599873b454ec0eb57f808b2 5016 python-attrs_20.3.0-1.debian.tar.xz
+Homepage: https://attrs.readthedocs.org/
+Package-List: 
+ python-attr-doc deb doc optional arch=all
+ python3-attr deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-hypothesis, python3-pytest, python3-six, python3-zope.interface
+Directory: pool/main/p/python-attrs
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-argparse
+Binary: node-argparse
+Version: 2.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonathan Ulrich Horn <debian@autoit4you.de>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-sprintf-js <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b6a56ff2151b77d8f71e55d170e10d2d 2079 node-argparse_2.0.1-1.dsc
+ 41d6b64bf40e8bc1f352815172b84257 71068 node-argparse_2.0.1.orig.tar.gz
+ f38596f113d031dad81ae2d2b56ef801 2772 node-argparse_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-argparse
+Vcs-Git: https://salsa.debian.org/js-team/node-argparse.git
+Checksums-Sha256:
+ 1e5fabd5c483aa398fdee98f093df8e289682e32d3e454136cdc2e27aa5d1437 2079 node-argparse_2.0.1-1.dsc
+ 703c0a7443d19704641a8b9914fd8f84ddac7152ebc21c668b46dc05f8e807ba 71068 node-argparse_2.0.1.orig.tar.gz
+ a09099a11a2c8228003d29a0c62aac910273ca7f7b8bea32a58df31370a31ac9 2772 node-argparse_2.0.1-1.debian.tar.xz
+Homepage: https://github.com/nodeca/argparse
+Package-List: 
+ node-argparse deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-argparse
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: node-emittery
+Binary: node-emittery
+Version: 0.7.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-tape <!nocheck>, node-p-timeout <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e82844e0194abd44465e223465c1d9e4 2090 node-emittery_0.7.2-2.dsc
+ fc38b7cc3549837548f33fb50b7d3568 847322 node-emittery_0.7.2.orig.tar.gz
+ d3ebf879682558a99331fdfbf3012a51 10084 node-emittery_0.7.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-emittery
+Vcs-Git: https://salsa.debian.org/js-team/node-emittery.git
+Checksums-Sha256:
+ 21e166b784847bbb38602973907a6d5ffc25acb1a25290f9f7bd10c7af0cfb5a 2090 node-emittery_0.7.2-2.dsc
+ e42cae835b3b77138161a1540ae390728f065619546b0bc323f755601bf6e420 847322 node-emittery_0.7.2.orig.tar.gz
+ 3c78f281be7d5a6e01100885b39c5e523f4268aaebb4bc82f91c5a2ee869cff7 10084 node-emittery_0.7.2-2.debian.tar.xz
+Homepage: https://github.com/sindresorhus/emittery#readme
+Package-List: 
+ node-emittery deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-emittery
+Priority: extra
+Section: misc

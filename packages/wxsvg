@@ -1,0 +1,27 @@
+Package: wxsvg
+Binary: libwxsvg3, libwxsvg-tools, libwxsvg-dev
+Version: 2:1.5.22+dfsg.1-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Alec Leamas <leamas.alec@gmail.com>
+Build-Depends: debhelper-compat (= 13), libavcodec-dev, libavformat-dev, libavutil-dev, libexif-dev, libexpat-dev, libpango1.0-dev, libswscale-dev, libwxgtk3.0-gtk3-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 033ea05594de65d167aec3c10be931a0 2208 wxsvg_1.5.22+dfsg.1-1.dsc
+ 1ba3b66a38758d151960e5c9d321d6a0 160832 wxsvg_1.5.22+dfsg.1.orig.tar.xz
+ 93054989db3461c0fcae3bb8ab2e6f01 5568 wxsvg_1.5.22+dfsg.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/wxsvg
+Vcs-Git: https://salsa.debian.org/multimedia-team/wxsvg.git
+Checksums-Sha256:
+ ec245098fd11256d6ed3746301598ec79cabdd1ff9538f08a2cf25e8acd91044 2208 wxsvg_1.5.22+dfsg.1-1.dsc
+ 5c6215e0df66a3882f2fb7ff10cdef0611ea9de75f647aaaca5bb76f3bb5ece1 160832 wxsvg_1.5.22+dfsg.1.orig.tar.xz
+ e6fb2ddaa65d802cec3121243740a746693070e88e8357ba86795cd7c30afe0c 5568 wxsvg_1.5.22+dfsg.1-1.debian.tar.xz
+Homepage: http://wxsvg.sourceforge.net/
+Package-List: 
+ libwxsvg-dev deb libdevel optional arch=any
+ libwxsvg-tools deb libs optional arch=any
+ libwxsvg3 deb libs optional arch=any
+Directory: pool/main/w/wxsvg
+Priority: extra
+Section: misc

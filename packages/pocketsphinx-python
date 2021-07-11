@@ -1,0 +1,27 @@
+Package: pocketsphinx-python
+Binary: python3-pocketsphinx
+Version: 1:0.1.15-2
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@lists.alioth.debian.org>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), libsphinxbase-dev (>= 0.8+5prealpha~), swig-sphinxbase, libpocketsphinx-dev (>= 0.8+5prealpha~), pocketsphinx-en-us, python3-sphinxbase, swig-pocketsphinx, pocketsphinx-testdata, python3-all-dev, python3-setuptools, swig, dh-python
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c5913d218086685f47196f981d2e08a8 2422 pocketsphinx-python_0.1.15-2.dsc
+ ef7ae91a59163c0fa2834b13afe97c25 12461 pocketsphinx-python_0.1.15.orig.tar.gz
+ 1201ab03a587b672d9d6223af62925c3 5576 pocketsphinx-python_0.1.15-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/pocketsphinx-python
+Vcs-Git: https://salsa.debian.org/a11y-team/pocketsphinx-python
+Checksums-Sha256:
+ 992e43246060a052c908bef2896472847f22534cff8e339c929c5c7dcc7f1954 2422 pocketsphinx-python_0.1.15-2.dsc
+ 09b784be9b683e3b7a37e0d2da00cd37c223a1ec5d5bb4df254498b5f6b64848 12461 pocketsphinx-python_0.1.15.orig.tar.gz
+ 9ecf009dc6c762eaa2ac0115fbd1dce6c0266dd1780c9d79d38bea7b0c31f213 5576 pocketsphinx-python_0.1.15-2.debian.tar.xz
+Homepage: https://github.com/bambocher/pocketsphinx-python/
+Package-List: 
+ python3-pocketsphinx deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: pocketsphinx-en-us, pocketsphinx-testdata, python3-all, python3-setuptools, swig-pocketsphinx
+Directory: pool/main/p/pocketsphinx-python
+Priority: extra
+Section: misc

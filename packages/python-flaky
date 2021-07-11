@@ -1,0 +1,26 @@
+Package: python-flaky
+Binary: python3-flaky
+Version: 3.7.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Tristan Seligmann <mithrandi@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-genty, python3-mock, python3-nose, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ba78031b57ab376755f9a75cb575d114 1937 python-flaky_3.7.0-1.dsc
+ 91f181dc3982daba9e70d2b20f711f97 36165 python-flaky_3.7.0.orig.tar.gz
+ f66005fdc394eade7a9f65768232f3ce 2692 python-flaky_3.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-flaky
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-flaky.git
+Checksums-Sha256:
+ 78da140f0db8b18379a5a0844fedf95d2c2887e014e033c9edcec1f4a74eb534 1937 python-flaky_3.7.0-1.dsc
+ d2d0c482ef43211e9ef23213dd83ec1b2686c1510a5ac83624b7d6b41710c3eb 36165 python-flaky_3.7.0.orig.tar.gz
+ f622aac8faba0bcc0bc87b51d078d8863d038f4d60cc9697161d25a726258864 2692 python-flaky_3.7.0-1.debian.tar.xz
+Homepage: https://github.com/box/flaky
+Package-List: 
+ python3-flaky deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-flaky
+Priority: optional
+Section: misc

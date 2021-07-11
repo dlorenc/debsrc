@@ -1,0 +1,27 @@
+Package: ocsinventory-server
+Binary: ocsinventory-server, ocsinventory-reports
+Version: 2.8+dfsg1-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>, Cyrille Bollu <cyrille@bollu.be>
+Build-Depends: debhelper-compat (= 13), apache2-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a334aad5ea83d1381f12b8a589219494 2237 ocsinventory-server_2.8+dfsg1-1.dsc
+ 184e8c0fbb23d9828e8e789d526fbf49 1304860 ocsinventory-server_2.8+dfsg1.orig.tar.xz
+ 4e12ba85e563926f9a80588134c5e720 18452 ocsinventory-server_2.8+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/ocsinventory-server
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/ocsinventory-server.git
+Checksums-Sha256:
+ ebf6ae1ea60c8da2f665e70fe09a4872b63e97318af65af361dd647ea6d4bdb5 2237 ocsinventory-server_2.8+dfsg1-1.dsc
+ 0d1581fad53786e7c28b533a66c5b86ac2e440a3752da6fabd5eeb5ef4a8e51a 1304860 ocsinventory-server_2.8+dfsg1.orig.tar.xz
+ 4d9a3addd3ab0e8278aac95770ed7e7ce684b22ac53299c37494147b291af7d7 18452 ocsinventory-server_2.8+dfsg1-1.debian.tar.xz
+Homepage: https://www.ocsinventory-ng.org/
+Package-List: 
+ ocsinventory-reports deb web optional arch=all
+ ocsinventory-server deb web optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/o/ocsinventory-server
+Priority: source
+Section: web

@@ -1,0 +1,26 @@
+Package: haskell-wai-middleware-static
+Binary: libghc-wai-middleware-static-dev, libghc-wai-middleware-static-prof, libghc-wai-middleware-static-doc
+Version: 0.8.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-cryptonite-dev (>= 0.10), libghc-cryptonite-dev (<< 1.0), libghc-cryptonite-prof (>= 0.10), libghc-cryptonite-prof (<< 1.0), libghc-expiring-cache-map-dev (>= 0.0.5), libghc-expiring-cache-map-dev (<< 0.1), libghc-expiring-cache-map-prof (>= 0.0.5), libghc-expiring-cache-map-prof (<< 0.1), libghc-http-types-dev (>= 0.8.2), libghc-http-types-dev (<< 0.13), libghc-http-types-prof (>= 0.8.2), libghc-http-types-prof (<< 0.13), libghc-memory-dev (>= 0.10), libghc-memory-dev (<< 1.0), libghc-memory-prof (>= 0.10), libghc-memory-prof (<< 1.0), libghc-mime-types-dev (>= 0.1.0.3), libghc-mime-types-dev (<< 0.2), libghc-mime-types-prof (>= 0.1.0.3), libghc-mime-types-prof (<< 0.2), libghc-old-locale-dev (>= 1.0), libghc-old-locale-dev (<< 1.1), libghc-old-locale-prof (>= 1.0), libghc-old-locale-prof (<< 1.1), libghc-semigroups-dev (>= 0.18), libghc-semigroups-dev (<< 1), libghc-semigroups-prof (>= 0.18), libghc-semigroups-prof (<< 1), libghc-wai-dev (>= 3.0.0), libghc-wai-dev (<< 3.3), libghc-wai-prof (>= 3.0.0), libghc-wai-prof (<< 3.3)
+Build-Depends-Indep: ghc-doc, libghc-cryptonite-doc, libghc-expiring-cache-map-doc, libghc-http-types-doc, libghc-memory-doc, libghc-mime-types-doc, libghc-old-locale-doc, libghc-semigroups-doc, libghc-wai-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ db3d5b1216c94b9960ff7cb8137d135d 3560 haskell-wai-middleware-static_0.8.3-1.dsc
+ 161af1b7e9354cf172f10cf9578b8876 6479 haskell-wai-middleware-static_0.8.3.orig.tar.gz
+ b85967231e5bc0dc4f5d9eb643408ade 2352 haskell-wai-middleware-static_0.8.3-1.debian.tar.xz
+Checksums-Sha256:
+ d9d181f00ffbc4aac819833af9a520200e1fdb9a4a0aa5ecd53f7d8007b76ccc 3560 haskell-wai-middleware-static_0.8.3-1.dsc
+ d42e00db4eda497d1ea7a5024561e94849d4cf73e78fcee5d8e0a46c40f8ca50 6479 haskell-wai-middleware-static_0.8.3.orig.tar.gz
+ 9e7fa16b22cc5e9ee757977bbeac9b3dfc30061e07c94f36f807c1592de18e16 2352 haskell-wai-middleware-static_0.8.3-1.debian.tar.xz
+Homepage: https://github.com/scotty-web/wai-middleware-static
+Package-List: 
+ libghc-wai-middleware-static-dev deb haskell optional arch=any
+ libghc-wai-middleware-static-doc deb doc optional arch=all
+ libghc-wai-middleware-static-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-wai-middleware-static
+Priority: extra
+Section: misc

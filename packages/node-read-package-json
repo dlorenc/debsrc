@@ -1,0 +1,28 @@
+Package: node-read-package-json
+Binary: node-read-package-json
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), node-glob (>= 7.1.1~), node-json-parse-better-errors, node-normalize-package-data (>= 2.0~), node-slash, node-tap, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5e73f2cd288e84c470cbceae52613874 2609 node-read-package-json_3.0.0-1.dsc
+ 41db8f635fbba132fa2fef931de9f8a8 31250 node-read-package-json_3.0.0.orig-npm-normalize-package-bin.tar.gz
+ a11cb13d8d060324fe60ba081d51e863 127227 node-read-package-json_3.0.0.orig.tar.gz
+ f02669f062a4c92e6178c8982ed644c3 3252 node-read-package-json_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-read-package-json
+Vcs-Git: https://salsa.debian.org/js-team/node-read-package-json.git
+Checksums-Sha256:
+ eef5cb9ceb980b3632625d909b14d0ec85fd1a7811c7fb8925461ea6ac1e06fc 2609 node-read-package-json_3.0.0-1.dsc
+ e8983f7c59e45907f04d2d337b3ff2fe08ab16b4b18d9f5f14795ce9c97930b1 31250 node-read-package-json_3.0.0.orig-npm-normalize-package-bin.tar.gz
+ 36a58edee8bada51cd2fdeec8027aa861c5e015bfad4981bc1ce2330c2e1a954 127227 node-read-package-json_3.0.0.orig.tar.gz
+ 1fd1433ccae309f75270e17766ffc5dc175690348e587b62597ae66f148ff720 3252 node-read-package-json_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/isaacs/read-package-json
+Package-List: 
+ node-read-package-json deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-read-package-json
+Priority: source
+Section: javascript

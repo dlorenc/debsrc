@@ -1,0 +1,27 @@
+Package: genomethreader
+Binary: genomethreader
+Version: 1.7.3+dfsg-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper (>= 12), debhelper-compat (= 12), genometools (>= 1.6.1), libgenometools0-dev (>= 1.6.1), libvmatch-dev, zlib1g-dev, libbz2-dev, libexpat1-dev, liblua5.1-0-dev, libtre-dev, asciidoctor
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d8fa102c20b943b60d3788fb4dff8a45 1902 genomethreader_1.7.3+dfsg-5.dsc
+ 62eb8a06280490f22b646147f0e0f444 39993616 genomethreader_1.7.3+dfsg.orig.tar.xz
+ b769b091d4e4ceea6a133e5f827defee 13436 genomethreader_1.7.3+dfsg-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/genomethreader
+Vcs-Git: https://salsa.debian.org/med-team/genomethreader.git
+Checksums-Sha256:
+ 34ea4ed4d2cac2a651398a07a9d68954f4022ca1c1292e94a0d1e473a6ca25a4 1902 genomethreader_1.7.3+dfsg-5.dsc
+ d19808894b1c86312b51f1aeb6e11f5ba0dfc8dcf237bf08fc0615d26b0cf051 39993616 genomethreader_1.7.3+dfsg.orig.tar.xz
+ f4ae49ed7f93ded46f76c8880467691badf2fd7bf6f4be26c05c5be92cb0d466 13436 genomethreader_1.7.3+dfsg-5.debian.tar.xz
+Homepage: http://genomethreader.org
+Package-List: 
+ genomethreader deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: genometools, ruby
+Directory: pool/main/g/genomethreader
+Priority: extra
+Section: misc

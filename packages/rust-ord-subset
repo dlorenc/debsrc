@@ -1,0 +1,26 @@
+Package: rust-ord-subset
+Binary: librust-ord-subset-dev
+Version: 3.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b5f1254a04f797d915c371325ff71a3a 2140 rust-ord-subset_3.1.1-1.dsc
+ 6c90308681fb28ecf88f200dbb1ad4bc 16577 rust-ord-subset_3.1.1.orig.tar.gz
+ 2f9fd5f38574d05b97b4bcb08632f7a0 2696 rust-ord-subset_3.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ord-subset
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ord-subset]
+Checksums-Sha256:
+ 2e8fc3aa8e199c90c5eb476ac8cf9f804c7003d012b029e678097d3947de4191 2140 rust-ord-subset_3.1.1-1.dsc
+ d7ce14664caf5b27f5656ff727defd68ae1eb75ef3c4d95259361df1eb376bef 16577 rust-ord-subset_3.1.1.orig.tar.gz
+ 190943cb7cd7c3b4a27aaa73d4d9671a76fa048982cb932c0f55f95e7c5bd310 2696 rust-ord-subset_3.1.1-1.debian.tar.xz
+Package-List: 
+ librust-ord-subset-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-ord-subset
+Priority: extra
+Section: misc

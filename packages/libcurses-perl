@@ -1,0 +1,27 @@
+Package: libcurses-perl
+Binary: libcurses-perl
+Version: 1.37-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, Niko Tyni <ntyni@debian.org>, gregor herrmann <gregoa@debian.org>, Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13), libncursesw5-dev, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d1f85a58346250f887b60bc89cc3faf4 2417 libcurses-perl_1.37-1.dsc
+ aede9d1ed9856eff89f4ce208ee59de0 135763 libcurses-perl_1.37.orig.tar.gz
+ dd6ca45d201a0fde5e578ff27cfc8221 7164 libcurses-perl_1.37-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcurses-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcurses-perl.git
+Checksums-Sha256:
+ 004278d8c348f1523002bd32d0911bdd9356940c62e47b63645093d091962576 2417 libcurses-perl_1.37-1.dsc
+ 74707ae3ad19b35bbefda2b1d6bd31f57b40cdac8ab872171c8714c88954db20 135763 libcurses-perl_1.37.orig.tar.gz
+ 838287ce9591c3a18f27399d6a4f2ed346ae3b02e3039844bedde089638a2848 7164 libcurses-perl_1.37-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Curses
+Dgit: 17415ca11a3bf7de35d4ae41c6b1439dccea2769 debian archive/debian/1.37-1 https://git.dgit.debian.org/libcurses-perl
+Package-List: 
+ libcurses-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcurses-perl
+Priority: source
+Section: perl

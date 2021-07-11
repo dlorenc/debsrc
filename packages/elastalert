@@ -1,0 +1,26 @@
+Package: elastalert
+Binary: elastalert, elastalert-doc
+Version: 0.2.4-1
+Maintainer: Sophie Brun <sophie@freexian.com>
+Uploaders: Raphaël Hertzog <hertzog@debian.org>, Sebastien Delafond <seb@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-apscheduler, python3-aws-requests-auth, python3-blist, python3-boto3, python3-croniter, python3-dateutil, python3-elasticsearch, python3-envparse, python3-exotel, python3-jira, python3-jsonschema (>= 3.0.2), python3-mock, python3-prison (>= 0.1.2), python3-pytest (>= 3.3), python3-requests, python3-staticconf, python3-stomp (>= 5.0.0), python3-texttable, python3-twilio, python3-yaml
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5b9009c3a551fd378d4c25efafdd63a8 2160 elastalert_0.2.4-1.dsc
+ 1a28c4682ecb37bc3514530d459e2fcb 192954 elastalert_0.2.4.orig.tar.gz
+ 944f4e3d90b6e4fbad8ad7439438fe35 5692 elastalert_0.2.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/elastalert
+Vcs-Git: https://salsa.debian.org/debian/elastalert.git
+Checksums-Sha256:
+ 9a72fdb033e63ca218f8ce1fa139ab24737ae2e3e9ade1e748f513274d09e6d7 2160 elastalert_0.2.4-1.dsc
+ 92cebc2fe7b479604b1e75713583386fac701ba0435f13cdaa4d59d10f9d197a 192954 elastalert_0.2.4.orig.tar.gz
+ 01ac29eb9791cbacf1aca177f98bd5ab80683979d975b30b1cc2396281f70050 5692 elastalert_0.2.4-1.debian.tar.xz
+Homepage: https://github.com/Yelp/elastalert
+Package-List: 
+ elastalert deb python optional arch=all
+ elastalert-doc deb doc optional arch=all
+Directory: pool/main/e/elastalert
+Priority: extra
+Section: misc

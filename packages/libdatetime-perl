@@ -1,0 +1,26 @@
+Package: libdatetime-perl
+Binary: libdatetime-perl
+Version: 2:1.54-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Xavier Guimard <yadd@debian.org>, Nick Morrott <nickm@debian.org>
+Build-Depends: debhelper-compat (= 13), libcpan-meta-check-perl (>= 0.011) <!nocheck>, libcpan-meta-requirements-perl <!nocheck>, libdatetime-locale-perl (>= 1:1.06) <!nocheck>, libdatetime-timezone-perl (>= 1:2.44) <!nocheck>, libdist-checkconflicts-perl <!nocheck>, libnamespace-autoclean-perl <!nocheck>, libparams-validationcompiler-perl (>= 0.26) <!nocheck>, libspecio-perl <!nocheck>, libtest-cleannamespaces-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-warnings-perl <!nocheck>, libtry-tiny-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c8490a3c93571e2df64245f187da2d3f 2689 libdatetime-perl_1.54-1.dsc
+ 6366c5422f19f77db28066316030dea4 311702 libdatetime-perl_1.54.orig.tar.gz
+ 82987014970c60a52b00bfac489531aa 10036 libdatetime-perl_1.54-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdatetime-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdatetime-perl.git
+Checksums-Sha256:
+ a50375fe54b2e243589da080d74f55d0cbb31269ab7d802487d8bf876d0ea501 2689 libdatetime-perl_1.54-1.dsc
+ 2c6786d34d8441d4ce44bcf9a6e947ca02309ec1ef756082a9fff5eec3983ace 311702 libdatetime-perl_1.54.orig.tar.gz
+ 5aa8c16d27b1fd62ce60f3b08e93a0bb1525513c542ed4d86556b51345370963 10036 libdatetime-perl_1.54-1.debian.tar.xz
+Homepage: https://github.com/houseabsolute/DateTime.pm/wiki
+Package-List: 
+ libdatetime-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdatetime-perl
+Priority: source
+Section: perl

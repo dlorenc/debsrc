@@ -1,0 +1,26 @@
+Package: node-decamelize
+Binary: node-decamelize
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 76fd5802a05df7a4caa6d7915236ec28 2084 node-decamelize_4.0.0-1.dsc
+ c5c4be6e84ca518e54ba80bcd9b66ad3 3178 node-decamelize_4.0.0.orig.tar.gz
+ 76452028c1088cbfd47a3f96895c8906 2868 node-decamelize_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-decamelize
+Vcs-Git: https://salsa.debian.org/js-team/node-decamelize.git
+Checksums-Sha256:
+ 3816e88dc492c0300a299921274f76a68ae57131ca2e36883d9000adad35d78d 2084 node-decamelize_4.0.0-1.dsc
+ 9eeaabd49b859eddf968cc2cb75977431adf1e88f1d71abd8e196f9582c0fea9 3178 node-decamelize_4.0.0.orig.tar.gz
+ 4cbd229fb9d3d0140c2939f541cca2fb829c892ba072704d3ab80a5342fc32f6 2868 node-decamelize_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/decamelize
+Package-List: 
+ node-decamelize deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-decamelize
+Priority: optional
+Section: javascript

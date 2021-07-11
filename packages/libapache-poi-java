@@ -1,0 +1,26 @@
+Package: libapache-poi-java
+Binary: libapache-poi-java, libapache-poi-java-doc
+Version: 4.0.1-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>, Torsten Werner <twerner@debian.org>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, ant-optional, debhelper (>= 10~), default-jdk, javahelper, junit4, libbcpkix-java (>= 1.54), libcommons-codec-java, libcommons-collections4-java, libcommons-compress-java, libcommons-logging-java, libcommons-math3-java, libcurvesapi-java, libdom4j-java, libjaxb-java, liblog4j1.2-java, libxmlbeans-java (>= 3.0.2), libxml-security-java (>= 2.0), maven-repo-helper, xmltooling-schemas
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 283a176fd8f58bec361c22bdd5724b17 2552 libapache-poi-java_4.0.1-1.dsc
+ c3cf01b9270865eac57e24930876e634 76161400 libapache-poi-java_4.0.1.orig.tar.xz
+ bcc1e7601888e6cc90064179f07ed4d3 12392 libapache-poi-java_4.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libapache-poi-java
+Vcs-Git: https://salsa.debian.org/java-team/libapache-poi-java.git
+Checksums-Sha256:
+ b98465ee3e320adffa4d528e082809d062ee8b76e4b0085a5160cfbfb36da090 2552 libapache-poi-java_4.0.1-1.dsc
+ 54db524e2bae73658e4fdb3a6e2d69cb4137638ace71fcde93659be2695287ea 76161400 libapache-poi-java_4.0.1.orig.tar.xz
+ 3cbe0bdf367fc47e7a6cb32e961a3733bd55c5e9eef1a7ada3eb738636e2d205 12392 libapache-poi-java_4.0.1-1.debian.tar.xz
+Homepage: http://poi.apache.org
+Package-List: 
+ libapache-poi-java deb java optional arch=all
+ libapache-poi-java-doc deb doc optional arch=all
+Directory: pool/main/liba/libapache-poi-java
+Priority: source
+Section: java

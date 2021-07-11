@@ -1,0 +1,25 @@
+Package: rust-slab
+Binary: librust-slab-dev
+Version: 0.4.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 521544e92efa8dc68af2d1b0f61955c6 2043 rust-slab_0.4.1-1.dsc
+ cecfe213083001cbbb29cb7247576024 9479 rust-slab_0.4.1.orig.tar.gz
+ ea416309c9f1676cf78af567860bcfea 2340 rust-slab_0.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/slab
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/slab]
+Checksums-Sha256:
+ 8ff62fcfb26c72daa43162c41cdca09f8d9c1eea73436c36fbd479965d1e082e 2043 rust-slab_0.4.1-1.dsc
+ 5f9776d6b986f77b35c6cf846c11ad986ff128fe0b2b63a3628e3755e8d3102d 9479 rust-slab_0.4.1.orig.tar.gz
+ 762591ef5e847744c689c3782adb3a521e0c3e40501d6233146139eb9a49ecbe 2340 rust-slab_0.4.1-1.debian.tar.xz
+Homepage: https://github.com/carllerche/slab
+Package-List: 
+ librust-slab-dev deb rust optional arch=any
+Directory: pool/main/r/rust-slab
+Priority: extra
+Section: misc

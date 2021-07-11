@@ -1,0 +1,26 @@
+Package: multiverse-core
+Binary: libmultiverse-core-java, libmultiverse-core-java-doc
+Version: 0.7.0-4.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Miguel Landaeta <nomadium@debian.org>
+Build-Depends: debhelper (>= 9~), gradle, default-jdk, javahelper, maven-repo-helper
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 6993410c170acf7fd8f3f8cfdd48a174 2157 multiverse-core_0.7.0-4.1.dsc
+ 2df99ad877af8d772e730bd11388f76a 1095546 multiverse-core_0.7.0.orig.tar.gz
+ 3a49042b737e8b044f935cf81b86af21 3272 multiverse-core_0.7.0-4.1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-java/multiverse-core.git
+Vcs-Git: git://anonscm.debian.org/pkg-java/multiverse-core.git
+Checksums-Sha256:
+ 5ebf9413e7cff4584bea44b4d8820fe05a8e16b0897b2a7c6e7a352e127f9081 2157 multiverse-core_0.7.0-4.1.dsc
+ 558fbdf7c4f4f32fd154d7ae1a2db8a8aec48c1b6c2cd6744c053a0c3db5b110 1095546 multiverse-core_0.7.0.orig.tar.gz
+ 94bf401702f492bb04ff471adb3cca81637a4cac01f5bc4b2064428aaf29c072 3272 multiverse-core_0.7.0-4.1.debian.tar.xz
+Homepage: http://multiverse.codehaus.org/
+Package-List: 
+ libmultiverse-core-java deb java optional arch=all
+ libmultiverse-core-java-doc deb doc optional arch=all
+Directory: pool/main/m/multiverse-core
+Priority: optional
+Section: misc

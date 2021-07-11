@@ -1,0 +1,26 @@
+Package: node-tippex
+Binary: node-tippex
+Version: 3.0.0+ds-6
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-console-group <!nocheck>, node-rollup-plugin-buble (>= 0.19.8~) <!nocheck>, node-rollup-plugin-node-resolve (>= 11~) <!nocheck>, node-source-map-support <!nocheck>, pkg-js-tools (>= 0.9.16~), rollup (>= 1~), node-locate-character
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 63fe728ef8e79c9a1503175d86720ad1 2255 node-tippex_3.0.0+ds-6.dsc
+ 1443670a0885ab4ac81c42fef7516891 8843 node-tippex_3.0.0+ds.orig.tar.gz
+ 3f0618202c26697d9cd6e5fa6793790e 3652 node-tippex_3.0.0+ds-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-tippex
+Vcs-Git: https://salsa.debian.org/js-team/node-tippex.git
+Checksums-Sha256:
+ 10b92185cdd20f64b2200fbb1d9112a0deb803ceec5aca0863bdd528f4e94086 2255 node-tippex_3.0.0+ds-6.dsc
+ 9aefaf43ac1b010e84e09066bcbc6fdffbed0d73fb5149a4e23357f051db67b3 8843 node-tippex_3.0.0+ds.orig.tar.gz
+ 812f6b24b9e554ab2785ed5b1d1d3cad8d3d8ec65ee015dc51d73ecaff8bf031 3652 node-tippex_3.0.0+ds-6.debian.tar.xz
+Homepage: https://github.com/Rich-Harris/tippex
+Package-List: 
+ node-tippex deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-tippex
+Priority: extra
+Section: misc

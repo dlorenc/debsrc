@@ -1,0 +1,25 @@
+Package: openstack-nose
+Binary: python3-openstack.nose-plugin
+Version: 0.11-5
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 9), dh-python, openstack-pkg-tools, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ c9b437de438561e88080b22e37f95d58 2068 openstack-nose_0.11-5.dsc
+ 7fbae987de0dfdc59b6eba5b6caca621 3520 openstack-nose_0.11.orig.tar.xz
+ 4c0840f2dd22454742d75e068079ec21 2716 openstack-nose_0.11-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/libs/openstack-nose
+Vcs-Git: https://salsa.debian.org/openstack-team/libs/openstack-nose.git
+Checksums-Sha256:
+ 242637f5886e712ff9d1b094527670b5eb9afeb63169c90384f7e3a4e3a4d421 2068 openstack-nose_0.11-5.dsc
+ 0c415ef293f94eb5e85f64fecdda09c7a8dec13756e2644a4c53e95928867695 3520 openstack-nose_0.11.orig.tar.xz
+ 9d8f9c2807d0b27d0412b456a289a86428f4bddf8f26af6ab284c39a18e6ffac 2716 openstack-nose_0.11-5.debian.tar.xz
+Homepage: https://github.com/openstack-dev/openstack-nose
+Package-List: 
+ python3-openstack.nose-plugin deb python optional arch=all
+Directory: pool/main/o/openstack-nose
+Priority: optional
+Section: misc

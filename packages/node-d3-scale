@@ -1,0 +1,26 @@
+Package: node-d3-scale
+Binary: node-d3-scale
+Version: 2.2.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs, pkg-js-tools (>= 0.9.7~), node-tape <!nocheck>, rollup (>= 1~), node-rollup-plugin-terser, node-d3-color (>= 1) <!nocheck>, node-d3-interpolate (>= 1), node-d3-time (>= 1), node-d3-time-format (>= 2), node-d3-array (>= 1.2.0), node-d3-collection (>= 1), node-d3-format (>= 1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5307a429dc7a4f9802bd6f5728d6b606 2282 node-d3-scale_2.2.2-3.dsc
+ a7d4d1ad79d447876bb87487f9d5c72d 74228 node-d3-scale_2.2.2.orig.tar.gz
+ 6da5d159194330e7b9672e7e549b0bf7 3432 node-d3-scale_2.2.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-d3-scale
+Vcs-Git: https://salsa.debian.org/js-team/node-d3-scale.git
+Checksums-Sha256:
+ 86eea5c3292697a9c09b3e61da537fc1d8b859e0ffe17fd9b212afc120117d06 2282 node-d3-scale_2.2.2-3.dsc
+ 1b49ed9c01a416fbbec14ad47d254e8cd1339f17ccac2161ae64fe1faa76fa70 74228 node-d3-scale_2.2.2.orig.tar.gz
+ 446b829d4a49e2129edd748134463a6317370a656970429cb5273a5702aef0f6 3432 node-d3-scale_2.2.2-3.debian.tar.xz
+Homepage: https://d3js.org/d3-scale/
+Package-List: 
+ node-d3-scale deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-d3-scale
+Priority: extra
+Section: misc

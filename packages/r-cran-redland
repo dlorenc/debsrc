@@ -1,0 +1,27 @@
+Package: r-cran-redland
+Binary: r-cran-redland
+Version: 1.0.17-14-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-roxygen2, librdf0-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6c6915f814c8d7e10a7eabb9f96013be 2160 r-cran-redland_1.0.17-14-1.dsc
+ f72bff34b3dc206b039473d95bfb8576 117972 r-cran-redland_1.0.17-14.orig.tar.gz
+ 15515cd4d7cf66aec4e7f7939034213a 2528 r-cran-redland_1.0.17-14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-redland
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-redland.git
+Checksums-Sha256:
+ 57fc0cfc7ab3549933ae873e9edaca7dd86e940948b0a0ad536d70ef1959dc93 2160 r-cran-redland_1.0.17-14-1.dsc
+ 13a71415de0b4724854982630144caf114c0ab91c07bdd36f705d9d9294ba7b9 117972 r-cran-redland_1.0.17-14.orig.tar.gz
+ b7e32e32f5714323b45cbd4d90cd13e46452359eb32d36a91993efed1be95bb4 2528 r-cran-redland_1.0.17-14-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=redland
+Package-List: 
+ r-cran-redland deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-redland
+Priority: extra
+Section: misc

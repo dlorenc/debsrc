@@ -1,0 +1,27 @@
+Package: git-big-picture
+Binary: git-big-picture
+Version: 1.0.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Doug Torrance <dtorrance@piedmont.edu>
+Build-Depends: debhelper-compat (= 13), dh-python, git, python3-all, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0262939026d96e57522a9ca6c3420564 2156 git-big-picture_1.0.0-1.dsc
+ 88300139bbc0d01e5bc17746bd570b3a 2948343 git-big-picture_1.0.0.orig.tar.gz
+ da79fc9101086f858d2e41315b7095e1 4056 git-big-picture_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/git-big-picture
+Vcs-Git: https://salsa.debian.org/python-team/packages/git-big-picture.git
+Checksums-Sha256:
+ b189217e55e8d9880435c2e2bd59f45edd839dd2d5c27ed8edd712c765d8c112 2156 git-big-picture_1.0.0-1.dsc
+ 3c1775f131fc71539c3bde17d1953f53390154f6c6b0349821fd04f488b9e3f9 2948343 git-big-picture_1.0.0.orig.tar.gz
+ b5f10ac2635ed052a7e1f774e0aadb0b516616c23ab3e77f098a6e9dbef1ec0a 4056 git-big-picture_1.0.0-1.debian.tar.xz
+Homepage: https://github.com/git-big-picture/git-big-picture
+Package-List: 
+ git-big-picture deb vcs optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/g/git-big-picture
+Priority: optional
+Section: misc

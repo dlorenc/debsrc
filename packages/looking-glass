@@ -1,0 +1,24 @@
+Package: looking-glass
+Binary: looking-glass-client
+Version: 0+b1-5
+Maintainer: Lennart Weller <lhw@ring0.de>
+Build-Depends: cmake, debhelper (>= 12), debhelper-compat (= 12), libconfig-dev, libfontconfig-dev, libsdl2-ttf-dev, libspice-protocol-dev, nettle-dev
+Architecture: amd64
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cb91d0e9ec93301393eb64460d5b1bfd 2024 looking-glass_0+b1-5.dsc
+ 1b81e35ee06c9299b8e1f93c3e247adb 171545 looking-glass_0+b1.orig.tar.gz
+ a259aaecc2d4d3d03e72dcd397011d79 5392 looking-glass_0+b1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lhw-guest/looking-glass
+Vcs-Git: https://salsa.debian.org/lhw-guest/looking-glass.git
+Checksums-Sha256:
+ 97d646a5e7a08f7f679dce40ede2314d6bd14d63f0b9f86252746355edc6df9e 2024 looking-glass_0+b1-5.dsc
+ f066845dd0e816503b3eeb798b43dd29a97e9283cd60b61036e95505393a38d0 171545 looking-glass_0+b1.orig.tar.gz
+ d69d6e851bda9fde87eb1c328e2a8d5293418c35db28ad85fadb28cadbba9e9c 5392 looking-glass_0+b1-5.debian.tar.xz
+Homepage: https://looking-glass.hostfission.com
+Package-List: 
+ looking-glass-client deb net optional arch=amd64
+Directory: pool/main/l/looking-glass
+Priority: extra
+Section: misc

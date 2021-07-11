@@ -1,0 +1,27 @@
+Package: golang-github-oschwald-maxminddb-golang
+Binary: golang-github-oschwald-maxminddb-golang-dev
+Version: 1.8.0-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>, Cyril Brulebois <cyril@debamax.com>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-go, golang-golang-x-sys-dev
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 5b30a9fc756c1012e0f050327bf2d122 2471 golang-github-oschwald-maxminddb-golang_1.8.0-1.dsc
+ 5c2cf18a3a20a1b6d110d5e8011b6fed 25029 golang-github-oschwald-maxminddb-golang_1.8.0.orig.tar.gz
+ b37209cee8e7d00447084e2d6ae21142 2816 golang-github-oschwald-maxminddb-golang_1.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-oschwald-maxminddb-golang
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-oschwald-maxminddb-golang.git
+Checksums-Sha256:
+ 8456e384d354f364a2e2303525b03551f7dbb164c7d923c5ac4172c048af8280 2471 golang-github-oschwald-maxminddb-golang_1.8.0-1.dsc
+ bb215e75bc25e25ccd733225ccc2f2144ab10a76d616f13232d5cd873b983986 25029 golang-github-oschwald-maxminddb-golang_1.8.0.orig.tar.gz
+ 54d3dbb5964447667281dca613a16f66e0d5aefa51c52f270b148c6ca52f151b 2816 golang-github-oschwald-maxminddb-golang_1.8.0-1.debian.tar.xz
+Homepage: https://github.com/oschwald/maxminddb-golang
+Go-Import-Path: github.com/oschwald/maxminddb-golang
+Package-List: 
+ golang-github-oschwald-maxminddb-golang-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-oschwald-maxminddb-golang
+Priority: extra
+Section: golang

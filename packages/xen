@@ -1,0 +1,47 @@
+Package: xen
+Binary: xenstore-utils, xen-utils-common, xen-hypervisor-common, xen-doc, xen-utils-4.14, xen-hypervisor-4.14-amd64, xen-system-amd64, xen-hypervisor-4.14-arm64, xen-system-arm64, xen-hypervisor-4.14-armhf, xen-system-armhf, libxen-dev, libxenmisc4.14, libxencall1, libxendevicemodel1, libxenevtchn1, libxenforeignmemory1, libxengnttab1, libxenstore3.0, libxentoolcore1, libxentoollog1, libxenhypfs1
+Version: 4.14.1+11-gb0b734a8b3-1
+Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Uploaders: Ian Jackson <ian.jackson@eu.citrix.com>, Hans van Kranenburg <hans@knorrie.org>
+Build-Depends: debhelper (>= 10), dh-exec, dpkg-dev (>= 1.16.0~), file, rdfind, lsb-release, flex, bison, python3-dev:any, libpython3-dev, dh-python, bcc [i386 amd64], gcc-multilib [i386 amd64], e2fslibs-dev, iasl, seabios (>= 1.7.4-2~) [i386 amd64], libaio-dev, libfdt-dev [armhf arm64], libglib2.0-dev, liblzma-dev, libncurses-dev, libpixman-1-dev, libyajl-dev, pkg-config, uuid-dev, zlib1g-dev, pandoc, markdown, ocaml-native-compilers | ocaml-nox, ocaml-findlib
+Architecture: amd64 arm64 armhf i386 all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1a514064f3001814c8acd422cbfb7505 4249 xen_4.14.1+11-gb0b734a8b3-1.dsc
+ c783a4d92b7fae91f3c6a4cdd93ac5d9 4359020 xen_4.14.1+11-gb0b734a8b3.orig.tar.xz
+ a7ae32874e584094d425c400e88124e8 138900 xen_4.14.1+11-gb0b734a8b3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xen-team/debian-xen
+Vcs-Git: https://salsa.debian.org/xen-team/debian-xen.git
+Checksums-Sha256:
+ ac953c84fc10557e1b9b26a5a46ae0a26c7344fd2705aef366fe8057cb94ec00 4249 xen_4.14.1+11-gb0b734a8b3-1.dsc
+ beb49c6d4d436dc74a694ff43cc016b25cad95d9e4f2e4b75683dbb330799dc1 4359020 xen_4.14.1+11-gb0b734a8b3.orig.tar.xz
+ a75209ac42bcbea9a1acf3a6e471cbd4069cce7a312ea43470ca6a72af7c8aa1 138900 xen_4.14.1+11-gb0b734a8b3-1.debian.tar.xz
+Homepage: https://xenproject.org/
+Dgit: 43fc436635b162b94b598798a52f39d78b928761 debian archive/debian/4.14.1+11-gb0b734a8b3-1 https://git.dgit.debian.org/xen
+Package-List: 
+ libxen-dev deb libdevel optional arch=amd64,arm64,armhf,i386
+ libxencall1 deb libs optional arch=amd64,arm64,armhf,i386
+ libxendevicemodel1 deb libs optional arch=amd64,arm64,armhf,i386
+ libxenevtchn1 deb libs optional arch=amd64,arm64,armhf,i386
+ libxenforeignmemory1 deb libs optional arch=amd64,arm64,armhf,i386
+ libxengnttab1 deb libs optional arch=amd64,arm64,armhf,i386
+ libxenhypfs1 deb libs optional arch=amd64,arm64,armhf,i386
+ libxenmisc4.14 deb libs optional arch=amd64,arm64,armhf,i386
+ libxenstore3.0 deb libs optional arch=amd64,arm64,armhf,i386
+ libxentoolcore1 deb libs optional arch=amd64,arm64,armhf,i386
+ libxentoollog1 deb libs optional arch=amd64,arm64,armhf,i386
+ xen-doc deb doc optional arch=amd64,i386,armhf,arm64
+ xen-hypervisor-4.14-amd64 deb kernel optional arch=amd64,i386
+ xen-hypervisor-4.14-arm64 deb kernel optional arch=arm64
+ xen-hypervisor-4.14-armhf deb kernel optional arch=armhf
+ xen-hypervisor-common deb kernel optional arch=all
+ xen-system-amd64 deb admin optional arch=amd64,i386
+ xen-system-arm64 deb admin optional arch=arm64
+ xen-system-armhf deb admin optional arch=armhf
+ xen-utils-4.14 deb admin optional arch=amd64,arm64,armhf,i386
+ xen-utils-common deb admin optional arch=amd64,i386,armhf,arm64
+ xenstore-utils deb admin optional arch=amd64,arm64,armhf,i386
+Directory: pool/main/x/xen
+Priority: source
+Section: kernel

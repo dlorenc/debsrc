@@ -1,0 +1,26 @@
+Package: node-compression
+Binary: node-compression
+Version: 1.7.4-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper (>= 12~), nodejs (>= 6) <!nocheck>, node-accepts <!nocheck>, node-bytes (>= 3.0.0) <!nocheck>, node-compressible <!nocheck>, node-debug (>= 2.6.9) <!nocheck>, node-on-headers <!nocheck>, node-safe-buffer <!nocheck>, node-vary <!nocheck>, node-supertest <!nocheck>, node-after <!nocheck>, mocha (>= 4) <!nocheck>, pkg-js-tools (>= 0.8.10)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ f7e8971e0b5d453d2ea38c32e73efb7c 2364 node-compression_1.7.4-2.dsc
+ d9b40fbc5ffd482075c5860c2b6d0ab4 11280 node-compression_1.7.4.orig.tar.gz
+ f2bdf928234ead48d6be500995ec847d 2736 node-compression_1.7.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-compression
+Vcs-Git: https://salsa.debian.org/js-team/node-compression.git
+Checksums-Sha256:
+ 7e833b310407e2347eb1c0aa45b10a80be6a13bb178101511951a502ee980b9b 2364 node-compression_1.7.4-2.dsc
+ 59d7726e78bac33fe17418cb6606cc14272f7d2acc6db8a2c48086eaf743d4c2 11280 node-compression_1.7.4.orig.tar.gz
+ 51e80d25bdcbee39b9061e12dcaf9aa7bb4fbfc1c4c143ca096b64ae3686d27c 2736 node-compression_1.7.4-2.debian.tar.xz
+Homepage: https://github.com/expressjs/compression
+Package-List: 
+ node-compression deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-compression
+Priority: optional
+Section: javascript

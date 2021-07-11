@@ -1,0 +1,27 @@
+Package: octocatalog-diff
+Binary: octocatalog-diff
+Version: 1.5.4-2
+Maintainer: Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 11~), gem2deb, ruby-diffy, ruby-hashdiff, ruby-httparty (>= 0.11.0), ruby-parallel, ruby-rugged
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 4b4195f722b1b377c1ab86e2806f0b16 2181 octocatalog-diff_1.5.4-2.dsc
+ b39fced902b3a27ead11696442ff8c4b 163444 octocatalog-diff_1.5.4.orig.tar.gz
+ ce2fbe0eb30c81605808164750498ab6 4808 octocatalog-diff_1.5.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/puppet-team/octocatalog-diff
+Vcs-Git: https://salsa.debian.org/puppet-team/octocatalog-diff.git
+Checksums-Sha256:
+ ecc3bc14f97078d17559bba3ceab0d5a3e3ab1d335b562143b9cb6afca355a5a 2181 octocatalog-diff_1.5.4-2.dsc
+ f3469c76e7a3189ebd27286218703bac63dce2890cc12f02826ca71755812dcb 163444 octocatalog-diff_1.5.4.orig.tar.gz
+ ddfef787b03c613788129b0f01ed14fde4a8ac32ffa8d195edc222f92641d22e 4808 octocatalog-diff_1.5.4-2.debian.tar.xz
+Homepage: https://github.com/github/octocatalog-diff
+Package-List: 
+ octocatalog-diff deb admin optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/o/octocatalog-diff
+Priority: optional
+Section: misc

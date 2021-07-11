@@ -1,0 +1,28 @@
+Package: haskell-glib
+Binary: libghc-glib-dev, libghc-glib-prof, libghc-glib-doc
+Version: 0.13.8.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, gtk2hs-buildtools (>= 0.13.2.0), gtk2hs-buildtools (<< 0.14), libghc-gtk2hs-buildtools-dev (>= 0.13.2.0), libghc-gtk2hs-buildtools-dev (<< 0.14), libghc-gtk2hs-buildtools-prof, haskell-devscripts (>= 0.13), libghc-utf8-string-dev (<< 1.1), libghc-utf8-string-dev (>= 0.2), libghc-utf8-string-prof, libglib2.0-dev
+Build-Depends-Indep: ghc-doc, libghc-gtk2hs-buildtools-doc, libghc-utf8-string-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cded22beea4c1d36a6758c9b9c7e6a48 2619 haskell-glib_0.13.8.1-1.dsc
+ 705e7875a9a479aa178925578abfff23 39557 haskell-glib_0.13.8.1.orig.tar.gz
+ c62cd77a4e66eb8fa6105694a6324154 3292 haskell-glib_0.13.8.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-glib
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-glib]
+Checksums-Sha256:
+ 7edd710992812fb376871b26ca38cf3b06d9170026b17e8f6d1e4f44fd1fbaae 2619 haskell-glib_0.13.8.1-1.dsc
+ dcd028ac6d4a7476c14585be1d845b8c4aea4c389f34e809ed1a8df7425c1a9c 39557 haskell-glib_0.13.8.1.orig.tar.gz
+ 072840b9952c05948980bf881d490e890157e7f34a9e6b45f64771cf2f404947 3292 haskell-glib_0.13.8.1-1.debian.tar.xz
+Homepage: http://projects.haskell.org/gtk2hs/
+Package-List: 
+ libghc-glib-dev deb haskell optional arch=any
+ libghc-glib-doc deb doc optional arch=all
+ libghc-glib-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-glib
+Priority: source
+Section: haskell

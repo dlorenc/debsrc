@@ -1,0 +1,21 @@
+Package: libpaper
+Binary: libpaper1, libpaper-utils, libpaper-dev
+Version: 1.1.28
+Maintainer: Giuseppe Sacco <eppesuig@debian.org>
+Build-Depends: autotools-dev, dpkg-dev (>= 1.16.1~), debhelper (>= 9), dh-autoreconf, dh-exec (>= 0.3), po-debconf, autoconf
+Architecture: any
+Standards-Version: 3.9.8
+Format: 1.0
+Files:
+ d18798f0f5cc27812028371aae07fb26 1633 libpaper_1.1.28.dsc
+ 58dcdb3e1074f571b86d0ee937ed0072 42356 libpaper_1.1.28.tar.gz
+Checksums-Sha256:
+ 298d6347d84ece2f55088e371facc13362c8f4731d80f94c6ad84190309de8b4 1633 libpaper_1.1.28.dsc
+ c8bb946ec93d3c2c72bbb1d7257e90172a22a44a07a07fb6b802a5bb2c95fddc 42356 libpaper_1.1.28.tar.gz
+Package-List: 
+ libpaper-dev deb libdevel optional arch=any
+ libpaper-utils deb utils optional arch=any
+ libpaper1 deb libs optional arch=any
+Directory: pool/main/libp/libpaper
+Priority: source
+Section: text

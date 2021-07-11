@@ -1,0 +1,26 @@
+Package: rust-foreign-types-shared-0.1
+Binary: librust-foreign-types-shared-0.1-dev
+Version: 0.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paul van Tilburg <paulvt@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b11838af718ddbf17c97872c34394c7f 2289 rust-foreign-types-shared-0.1_0.1.1-1.dsc
+ 667e86b8b8d96ab4e9605627ce7dcc9a 5672 rust-foreign-types-shared-0.1_0.1.1.orig.tar.gz
+ b37ffd6a3e5d2b084df55e7ba48d1590 2656 rust-foreign-types-shared-0.1_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/foreign-types-shared-0.1
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/foreign-types-shared-0.1]
+Checksums-Sha256:
+ 56dc9cd07943a61d9d6b86a088a78c8b726c3f67af9fbd5b5008ed943f73eadf 2289 rust-foreign-types-shared-0.1_0.1.1-1.dsc
+ 00b0228411908ca8685dba7fc2cdd70ec9990a6e753e89b6ac91a84c40fbaf4b 5672 rust-foreign-types-shared-0.1_0.1.1.orig.tar.gz
+ 1b9edfcc0a930c4e36e89877c67610ed233b0001e81ecc28d506b8362f609698 2656 rust-foreign-types-shared-0.1_0.1.1-1.debian.tar.xz
+Package-List: 
+ librust-foreign-types-shared-0.1-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-foreign-types-shared-0.1
+Priority: extra
+Section: misc

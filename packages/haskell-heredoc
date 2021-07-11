@@ -1,0 +1,28 @@
+Package: haskell-heredoc
+Binary: libghc-heredoc-dev, libghc-heredoc-prof, libghc-heredoc-doc
+Version: 0.2.0.0-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8.0), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0ba485c8aee162da7a8e90a979f344c5 2312 haskell-heredoc_0.2.0.0-6.dsc
+ 7cb70d3aa076c8a51beafcfda8584b72 2449 haskell-heredoc_0.2.0.0.orig.tar.gz
+ faaa5efefea1cb405f3effedbc7f5f31 2424 haskell-heredoc_0.2.0.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-heredoc
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-heredoc]
+Checksums-Sha256:
+ c67ebea98d22fe3c442d5adcaa4f9fed29c8a025a524574f0e0476a15610fae5 2312 haskell-heredoc_0.2.0.0-6.dsc
+ c90d9fc61cb8cd812be510845493b6a6eddcc4b772581fd40a9433ed8f130f40 2449 haskell-heredoc_0.2.0.0.orig.tar.gz
+ 8da1d378f1651eafd7d9128221cc7920ed2d42cddb85f3e83e608fcb5059332d 2424 haskell-heredoc_0.2.0.0-6.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/heredoc
+Package-List: 
+ libghc-heredoc-dev deb haskell optional arch=any
+ libghc-heredoc-doc deb doc optional arch=all
+ libghc-heredoc-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-heredoc
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: sympow
+Binary: sympow, sympow-data
+Version: 2.023.6-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jerome Benoit <calculus@rezozer.net>
+Build-Depends: debhelper-compat (= 12), help2man
+Build-Depends-Indep: pari-gp (>= 2.7.2)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 938ffe9ce0dc42db3f3124cedc21a1af 2780 sympow_2.023.6-1.dsc
+ a85e5ba8b8c90d8331ef65ed728e9e2c 61451 sympow_2.023.6.orig.tar.bz2
+ 407eba8ef0c5cca5a78b09a63de5730e 12924 sympow_2.023.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/sympow
+Vcs-Git: https://salsa.debian.org/science-team/sympow.git
+Checksums-Sha256:
+ 5dd6ed02014c40c964756131487910db9ed636f94ab295e94beaef39ef1ac8c7 2780 sympow_2.023.6-1.dsc
+ 738e2e97cdd0bf1655bad7bc0d189f579efa7c52476fa0ad096d29d1f1ffee32 61451 sympow_2.023.6.orig.tar.bz2
+ ff73a813580e2e476c80a87a27400c4914193fa4614c804cc847bf450e2ac248 12924 sympow_2.023.6-1.debian.tar.xz
+Homepage: https://gitlab.com/rezozer/forks/sympow
+Package-List: 
+ sympow deb math optional arch=any
+ sympow-data deb math optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/s/sympow
+Priority: source
+Section: math

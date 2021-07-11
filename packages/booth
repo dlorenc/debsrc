@@ -1,0 +1,28 @@
+Package: booth
+Binary: booth, booth-pacemaker
+Version: 1.0-237-gdd88847-2
+Maintainer: Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>
+Uploaders: Adrian Vondendriesch <adrian.vondendriesch@credativ.de>, Valentin Vidic <vvidic@debian.org>
+Build-Depends: asciidoctor, cluster-glue-dev, debhelper-compat (= 13), docbook-xml, docbook-xsl, libdbus-1-dev, libgcrypt20-dev, libglib2.0-dev, libplumb2-dev, libxml2-dev, libxml2-utils, pacemaker-dev, pkg-config, xsltproc
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 99b85e03a3b4d58eafe45ccc0bc34307 2415 booth_1.0-237-gdd88847-2.dsc
+ 933d4d3bfe8ce8adc05d5670e97f6269 146646 booth_1.0-237-gdd88847.orig.tar.gz
+ e7a57b93458216d2cafdbfc446a6fbbe 7820 booth_1.0-237-gdd88847-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ha-team/booth
+Vcs-Git: https://salsa.debian.org/ha-team/booth.git
+Checksums-Sha256:
+ 078ee66f8841535a884c070892576e72a84ff37df87e74bbdbdeae31b961a8de 2415 booth_1.0-237-gdd88847-2.dsc
+ ed72bfea71e42f0559c9ed502021bd96f112fd638041ad937d4ad4d9bec87c2c 146646 booth_1.0-237-gdd88847.orig.tar.gz
+ e741d34a7f7aa3082bf5dbf7d6f49f062438695753e19d54c070e0e349f5b464 7820 booth_1.0-237-gdd88847-2.debian.tar.xz
+Homepage: https://github.com/ClusterLabs/booth
+Package-List: 
+ booth deb admin optional arch=linux-any
+ booth-pacemaker deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: cluster-glue, crmsh, net-tools, pacemaker-cli-utils, perl, psmisc, python3
+Directory: pool/main/b/booth
+Priority: source
+Section: admin

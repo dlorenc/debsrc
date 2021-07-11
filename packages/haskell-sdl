@@ -1,0 +1,28 @@
+Package: haskell-sdl
+Binary: libghc-sdl-dev, libghc-sdl-prof, libghc-sdl-doc
+Version: 0.6.7.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Miriam Ruiz <little_miry@yahoo.es>,
+Build-Depends: alex, c2hs, cdbs, cpphs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libsdl1.2-dev, libx11-dev, pkg-config
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 626aa670d74c9e899e1ee63c8847b799 2373 haskell-sdl_0.6.7.0-2.dsc
+ b72bf9772c67d11c7fb4773db0f31745 60748 haskell-sdl_0.6.7.0.orig.tar.gz
+ dd44626c311c0378fce11f7a38fc6015 3740 haskell-sdl_0.6.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-sdl
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-sdl]
+Checksums-Sha256:
+ c90f0a5fe40b38319337478a3443f516a9eba4b21932361c18c0cb5287c7991d 2373 haskell-sdl_0.6.7.0-2.dsc
+ d87deb185064d236197aca2640771487cf221e4de09b33474c802205d03ec603 60748 haskell-sdl_0.6.7.0.orig.tar.gz
+ 3162dbd7279274c7e27f7d93a72e614aea69c339615b5f159fe5a3e1d0d9050d 3740 haskell-sdl_0.6.7.0-2.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/SDL
+Package-List: 
+ libghc-sdl-dev deb haskell optional arch=any
+ libghc-sdl-doc deb doc optional arch=all
+ libghc-sdl-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-sdl
+Priority: source
+Section: haskell

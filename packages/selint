@@ -1,0 +1,27 @@
+Package: selint
+Binary: selint
+Version: 1.2.0-1
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Uploaders: Christian Göttsche <cgzones@googlemail.com>
+Build-Depends: autoconf-archive, bison, check (>= 0.11.0), debhelper-compat (= 13), flex, help2man, libconfuse-dev, pkg-config, uthash-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 93e1df62bcac2480f8f3b9bc85fd5a27 1746 selint_1.2.0-1.dsc
+ 01a3c1ff8c8affd381375c5946e48cc5 306527 selint_1.2.0.orig.tar.gz
+ 1555013a1b182f5fd9cbd8b3673340c2 3560 selint_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/selinux-team/selint
+Vcs-Git: https://salsa.debian.org/selinux-team/selint.git
+Checksums-Sha256:
+ 2e9014ce3cc2b2455abc49a96bdea8f454328c1661b3b44880e0837d8ce217d3 1746 selint_1.2.0-1.dsc
+ ca5ec998f2e4791e1c338bb018d3e79a6b6da38c5d3b6cd96a1cddc5f7764a53 306527 selint_1.2.0.orig.tar.gz
+ b48f2a01ab62205ddfec7169e35292d3adf6fb808183b59ff349ca5038f569c3 3560 selint_1.2.0-1.debian.tar.xz
+Homepage: https://github.com/TresysTechnology/selint
+Package-List: 
+ selint deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: selinux-policy-src
+Directory: pool/main/s/selint
+Priority: extra
+Section: misc

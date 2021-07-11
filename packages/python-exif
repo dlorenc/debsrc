@@ -1,0 +1,28 @@
+Package: python-exif
+Binary: python3-exif, python3-exifread
+Version: 2.3.2-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>, W. Martin Borgert <debacle@debian.org>
+Build-Depends: python3-setuptools, debhelper-compat (= 12), dh-python, python3-all
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e976150f73e0fbb33ce461d4b79ca82f 2178 python-exif_2.3.2-1.dsc
+ 004364edcb6ac3b9706931e6cc44f384 42796 python-exif_2.3.2.orig.tar.gz
+ 66e833fb9777940056e6b7d03fd52cec 3376 python-exif_2.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-exif
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-exif.git
+Checksums-Sha256:
+ 731b997efb0ab5f5e137cbc8d06c337d0296197d8a08864900e8b8f9db2bda6f 2178 python-exif_2.3.2-1.dsc
+ b595f8644a456d00df98b2f83b5fe17682bba0e7e9f7c8b39fb7130a80b73b0a 42796 python-exif_2.3.2.orig.tar.gz
+ 34f03d4c51a9ca870d6e1dd2d9afa307db42359f8a7deb6488e0320f6f8b02ea 3376 python-exif_2.3.2-1.debian.tar.xz
+Homepage: https://github.com/ianare/exif-py
+Package-List: 
+ python3-exif deb oldlibs optional arch=all
+ python3-exifread deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-exif
+Priority: source
+Section: python

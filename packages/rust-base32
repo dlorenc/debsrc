@@ -1,0 +1,24 @@
+Package: rust-base32
+Binary: librust-base32-dev
+Version: 0.4.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 2db5bff25f1b6e298d0e1c60a28aa475 2038 rust-base32_0.4.0-1.dsc
+ 2745d970dffca62d1f13445387c678e3 7791 rust-base32_0.4.0.orig.tar.gz
+ ea6d6215405c7c3e5dbfd9af19e89269 2356 rust-base32_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/base32
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/base32]
+Checksums-Sha256:
+ 7baa68dfabbd07af5ff9047eb55083098a7909936df794c483c57b4663e8e6f0 2038 rust-base32_0.4.0-1.dsc
+ 23ce669cd6c8588f79e15cf450314f9638f967fc5770ff1c7c1deb0925ea7cfa 7791 rust-base32_0.4.0.orig.tar.gz
+ 1fdca5c8cea493671e01a61f7127099e1933439a2c631273b33ec8e9b7e5d7db 2356 rust-base32_0.4.0-1.debian.tar.xz
+Package-List: 
+ librust-base32-dev deb rust optional arch=any
+Directory: pool/main/r/rust-base32
+Priority: extra
+Section: misc

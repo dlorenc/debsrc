@@ -1,0 +1,26 @@
+Package: libmods-record-perl
+Binary: libmods-record-perl
+Version: 0.13-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper, libjson-perl <!nocheck>, libmodule-build-tiny-perl, libmoo-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-exception-perl <!nocheck>, libxml-parser-perl (>= 2.44) <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 1da218fd75471f738b25a58e2154c198 2258 libmods-record-perl_0.13-1.dsc
+ 5fe7a1beea11d885593b366e92d83350 22225 libmods-record-perl_0.13.orig.tar.gz
+ 08c789978e2dc4401d402bd2bb896371 2932 libmods-record-perl_0.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmods-record-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmods-record-perl.git
+Checksums-Sha256:
+ d68703ae175e8a40e7076851e250d045b62eb1b569d7e1bdd5bad5c2765a5545 2258 libmods-record-perl_0.13-1.dsc
+ f69e7fd3d8a132aec47204f81be94441c9672b75864a9326ca410fef6b34e20e 22225 libmods-record-perl_0.13.orig.tar.gz
+ 14d1171ea934fa1b6169dc9e237cd12962abe2928aef120a1e92eaedc5dda356 2932 libmods-record-perl_0.13-1.debian.tar.xz
+Homepage: https://github.com/LibreCat/MODS-Record
+Package-List: 
+ libmods-record-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmods-record-perl
+Priority: extra
+Section: misc

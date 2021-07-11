@@ -1,0 +1,28 @@
+Package: libcifpp
+Binary: libcifpp-dev, libcifpp1
+Version: 1.0.1-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Maarten L. Hekkelman <maarten@hekkelman.com>, Andreas Tille <tille@debian.org>,
+Build-Depends: autoconf-archive, debhelper-compat (= 13), libboost-date-time-dev, libboost-dev, libboost-iostreams-dev, libboost-system-dev, po-debconf
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e32daff70a7e44c00b52fb1220c7acdc 2231 libcifpp_1.0.1-3.dsc
+ 0440beab23fc4460bcd2a02a2bb8086e 1217914 libcifpp_1.0.1.orig.tar.gz
+ f81bc72cd6b49b3dbcd02853a148eb13 6480 libcifpp_1.0.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libcifpp
+Vcs-Git: https://salsa.debian.org/med-team/libcifpp.git
+Checksums-Sha256:
+ 7fdce18638a708c14fdf33ee2acab9ec58df4c6134f5fbe0286c31638e132883 2231 libcifpp_1.0.1-3.dsc
+ 62279453b6b5aaf446de10ea7dbdc8ac3c9b78f1453019face097fd2c148cb1f 1217914 libcifpp_1.0.1.orig.tar.gz
+ 040eb45dec72eee69901385f2b1b7092864acb2edf3c90d6a60280bf5e75b5ed 6480 libcifpp_1.0.1-3.debian.tar.xz
+Homepage: https://github.com/PDB-REDO/libcifpp
+Package-List: 
+ libcifpp-dev deb libdevel optional arch=any
+ libcifpp1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/libc/libcifpp
+Priority: extra
+Section: misc

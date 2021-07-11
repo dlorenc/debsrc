@@ -1,0 +1,30 @@
+Package: rubygems
+Binary: ruby-rubygems, ruby-bundler, bundler
+Version: 3.2.5-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Kanashiro <kanashiro@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby, ruby-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 18c0bd4978586181e04998da944352c3 2219 rubygems_3.2.5-2.dsc
+ 77bb8f284be42865789d49693bad6c66 11877854 rubygems_3.2.5.orig.tar.gz
+ bf7ecd72a5f6c0d20e07fe98d9091d61 8676 rubygems_3.2.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/rubygems
+Vcs-Git: https://salsa.debian.org/ruby-team/rubygems.git
+Checksums-Sha256:
+ 03779e059b0315b857fd7f398785d6abe8b2100a787e167c84852ab7ea53dc31 2219 rubygems_3.2.5-2.dsc
+ 9fd3a66bc97b9d57f529a82e08076222743d3c9f040ba8be5b9763004c9c51b7 11877854 rubygems_3.2.5.orig.tar.gz
+ db95eaca845e09f5f11fea61b547af3bdfdb58b60d20489ff41cee24fda8fa25 8676 rubygems_3.2.5-2.debian.tar.xz
+Homepage: https://rubygems.org
+Package-List: 
+ bundler deb ruby optional arch=all
+ ruby-bundler deb ruby optional arch=all
+ ruby-rubygems deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Testsuite-Triggers: @builddeps@, build-essential, libxml2-dev, libz-dev
+Directory: pool/main/r/rubygems
+Priority: extra
+Section: misc

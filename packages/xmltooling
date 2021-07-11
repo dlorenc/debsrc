@@ -1,0 +1,33 @@
+Package: xmltooling
+Binary: libxmltooling10, libxmltooling-dev, xmltooling-schemas, libxmltooling-doc
+Version: 3.2.0-2
+Maintainer: Debian Shib Team <pkg-shibboleth-devel@alioth-lists.debian.net>
+Uploaders: Ferenc Wágner <wferi@debian.org>, Etienne Dysli Metref <etienne.dysli-metref@switch.ch>,
+Build-Depends: cxxtest, debhelper-compat (= 12), libboost-dev, libcurl4-openssl-dev, liblog4shib-dev (>= 2~), libssl-dev, libxerces-c-dev, libxml-security-c-dev (>= 2~), pkg-config, zlib1g-dev
+Build-Depends-Indep: doxygen, graphviz
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 03dcd5c2d39659e0b73896c8d2906bc8 2770 xmltooling_3.2.0-2.dsc
+ 91714fbb372715d874a1c48cac686df8 608764 xmltooling_3.2.0.orig.tar.bz2
+ 81fb93504d4e2fcb786ee84160a22de8 833 xmltooling_3.2.0.orig.tar.bz2.asc
+ e40a46b61c02b4e7de5ba75a0df11c01 16532 xmltooling_3.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/shib-team/xmltooling
+Vcs-Git: https://salsa.debian.org/shib-team/xmltooling.git
+Checksums-Sha256:
+ ef419a62d8ba803038046682064c8c9867fadead18b19bbc5c32146c30e53cd9 2770 xmltooling_3.2.0-2.dsc
+ 635ce0e912d8fbd450103c274237067923efac3e1b3662b4d3040f3ac5eb2e86 608764 xmltooling_3.2.0.orig.tar.bz2
+ 545c5d10dd4a841abef49abac9988f85c4c36bdf7c169bd4f450f692ae6752b5 833 xmltooling_3.2.0.orig.tar.bz2.asc
+ 10cb5b95d45f8103225f2dd914c517ff7245c09581ffdfc4fb35f56e34b4e6a5 16532 xmltooling_3.2.0-2.debian.tar.xz
+Homepage: https://wiki.shibboleth.net/confluence/display/OpenSAML/XMLTooling-C
+Package-List: 
+ libxmltooling-dev deb libdevel optional arch=any
+ libxmltooling-doc deb doc optional arch=all
+ libxmltooling10 deb libs optional arch=any
+ xmltooling-schemas deb text optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: cxxtest, g++, make, pkg-config, zlib1g-dev
+Directory: pool/main/x/xmltooling
+Priority: source
+Section: libs

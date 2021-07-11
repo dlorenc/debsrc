@@ -1,0 +1,28 @@
+Package: rust-aho-corasick
+Binary: librust-aho-corasick-dev, librust-aho-corasick+std-dev
+Version: 0.7.10-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-memchr-2+use-std-dev (>= 2.2.0-~~) <!nocheck>, librust-memchr-2-dev (>= 2.2.0-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 0e842e3072f834526ec52ba5a6c45bec 2530 rust-aho-corasick_0.7.10-1.dsc
+ abc51f82118d86e83165ba87e2521e96 111039 rust-aho-corasick_0.7.10.orig.tar.gz
+ 6426dd8c8e24b5cf5d2a6f8c4d658153 3404 rust-aho-corasick_0.7.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/aho-corasick
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/aho-corasick]
+Checksums-Sha256:
+ 9d38977cc2fc2d178ca3880cbbf00059cca6cf6dcca5382e4a7efe835f4b58d4 2530 rust-aho-corasick_0.7.10-1.dsc
+ 8716408b8bc624ed7f65d223ddb9ac2d044c0547b6fa4b0d554f3a9540496ada 111039 rust-aho-corasick_0.7.10.orig.tar.gz
+ aadaf983d0b320be4ab2f91fd986c479cc8cc119a41a03d404a7db4812d40cb2 3404 rust-aho-corasick_0.7.10-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/aho-corasick
+Package-List: 
+ librust-aho-corasick+std-dev deb rust optional arch=any
+ librust-aho-corasick-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-doc-comment-0.3+default-dev
+Directory: pool/main/r/rust-aho-corasick
+Priority: extra
+Section: misc

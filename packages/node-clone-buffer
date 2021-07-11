@@ -1,0 +1,26 @@
+Package: node-clone-buffer
+Binary: node-clone-buffer
+Version: 1.0.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-has <!nocheck>, node-is-callable <!nocheck>, node-isarray <!nocheck>, node-object-inspect <!nocheck>, node-tmatch <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a5ef9aa1b54c79c34cd23b027c44a734 2221 node-clone-buffer_1.0.0-3.dsc
+ 2bf0e5949883ee6c6d5112e13e6f236d 3652 node-clone-buffer_1.0.0.orig.tar.gz
+ 5dcc3c177358b29702bbb50bf71ad340 54716 node-clone-buffer_1.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-clone-buffer
+Vcs-Git: https://salsa.debian.org/js-team/node-clone-buffer.git
+Checksums-Sha256:
+ 1b75385217b92a4bed53d83f48a158fd40c27307d5ba85e9782a4394db5f1d00 2221 node-clone-buffer_1.0.0-3.dsc
+ 9369c1ba88d23c12c526392ca78cbdda8223c7208ced58201a330927377ddc12 3652 node-clone-buffer_1.0.0.orig.tar.gz
+ 98dd392c89e7f9078da9dbde675eda8e0e193bc865a4121bcf320e5edf8db828 54716 node-clone-buffer_1.0.0-3.debian.tar.xz
+Homepage: https://github.com/gulpjs/clone-buffer
+Package-List: 
+ node-clone-buffer deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-clone-buffer
+Priority: optional
+Section: javascript

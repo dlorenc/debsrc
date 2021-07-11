@@ -1,0 +1,28 @@
+Package: haskell-repa
+Binary: libghc-repa-dev, libghc-repa-prof, libghc-repa-doc
+Version: 3.4.1.4-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Denis Laxalde <denis@laxalde.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-quickcheck2-dev (>= 2.8), libghc-quickcheck2-dev (<< 2.14), libghc-quickcheck2-prof, libghc-vector-dev (<< 0.13), libghc-vector-dev (>= 0.11), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3ec23fa3737ee0e479cefe831906bf37 2469 haskell-repa_3.4.1.4-3.dsc
+ edcb8fe2eb3c2b751529b75698b1a977 39165 haskell-repa_3.4.1.4.orig.tar.gz
+ 6be24be9bd3dc32570a4d9fd5713f824 3556 haskell-repa_3.4.1.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-repa
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-repa]
+Checksums-Sha256:
+ 00949c183ce741449abacc25d020dadc53625246e4e1abdd7fb4d4b179291ff3 2469 haskell-repa_3.4.1.4-3.dsc
+ 43607a5de4b89b8e58bfcbc261445d89fa40b685d43952797704b80d09e5a39e 39165 haskell-repa_3.4.1.4.orig.tar.gz
+ 5405c3d1186b531763a8195fe6bf3032842e5363ebf0910307e723f19609d528 3556 haskell-repa_3.4.1.4-3.debian.tar.xz
+Homepage: http://repa.ouroborus.net
+Package-List: 
+ libghc-repa-dev deb haskell optional arch=any
+ libghc-repa-doc deb doc optional arch=all
+ libghc-repa-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-repa
+Priority: source
+Section: misc

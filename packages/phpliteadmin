@@ -1,0 +1,26 @@
+Package: phpliteadmin
+Binary: phpliteadmin, phpliteadmin-themes
+Version: 1.9.8.2-1
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Build-Depends: debhelper-compat (= 12), dh-apache2
+Build-Depends-Indep: php-cli
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 777fb0a41cac064c14422b96de3483af 1999 phpliteadmin_1.9.8.2-1.dsc
+ 852c23820e56a4f63bf36d3606156aa3 836685 phpliteadmin_1.9.8.2.orig.tar.gz
+ 7a7aec15bb29aa70122123ca632c476c 27044 phpliteadmin_1.9.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mymedia-guest/phpliteadmin
+Vcs-Git: https://salsa.debian.org/mymedia-guest/phpliteadmin.git
+Checksums-Sha256:
+ cf5944b79520ed155d04705da646636c25012d075d82f2675a5529f640149023 1999 phpliteadmin_1.9.8.2-1.dsc
+ 07b4cc40f34daba4c6eb851bb164cf0475594ac1bfd9892ee7fbfe08c530e7ed 836685 phpliteadmin_1.9.8.2.orig.tar.gz
+ 78171cc61ea85ed92d37ac264dc5b80a1d40b77f68afe32a99477d8ea94ad0a9 27044 phpliteadmin_1.9.8.2-1.debian.tar.xz
+Homepage: https://www.phpliteadmin.org/
+Package-List: 
+ phpliteadmin deb web optional arch=all
+ phpliteadmin-themes deb web optional arch=all
+Directory: pool/main/p/phpliteadmin
+Priority: extra
+Section: misc

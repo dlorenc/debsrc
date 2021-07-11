@@ -1,0 +1,27 @@
+Package: ruby-net-ssh
+Binary: ruby-net-ssh
+Version: 1:6.1.0-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>, Paul van Tilburg <paulvt@debian.org>, David Suárez <david.sephirot@gmail.com>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-bcrypt-pbkdf, ruby-ed25519, ruby-highline, ruby-mocha, ruby-termios, ruby-test-unit
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 10272cdc14eae674992d8a69c36e9d18 2199 ruby-net-ssh_6.1.0-2.dsc
+ 938661337a9319d63462783b49b94d0d 220190 ruby-net-ssh_6.1.0.orig.tar.gz
+ d5b85d69ba37cfe4b4a51847a6fda40a 4880 ruby-net-ssh_6.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-net-ssh
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-net-ssh.git
+Checksums-Sha256:
+ 37707f966ba52e47b4325a31e532824407d4f41ec6dfaf5515ea55703ad9e1f9 2199 ruby-net-ssh_6.1.0-2.dsc
+ 7051275f0988424c529ebaf13b00766d26aa6a76d6b15201755352b07c23638a 220190 ruby-net-ssh_6.1.0.orig.tar.gz
+ f15bcbb54b37080a82d77619b1bf71c795841a51d2b9ef2114a130bee3a36ae6 4880 ruby-net-ssh_6.1.0-2.debian.tar.xz
+Homepage: https://net-ssh.github.com/net-ssh/
+Package-List: 
+ ruby-net-ssh deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-net-ssh
+Priority: source
+Section: ruby

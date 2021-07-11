@@ -1,0 +1,27 @@
+Package: mupen64plus-core
+Binary: libmupen64plus-dev, libmupen64plus2, mupen64plus-data
+Version: 2.5-7
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Sven Eckelmann <sven@narfation.org>, Tobias Loose <TobiasLoose@gmx.de>,
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.16.1.1), libfreetype6-dev, libgl1-mesa-dev [any-i386 any-amd64] | libgl-dev [any-i386 any-amd64], libglu1-mesa-dev [any-i386 any-amd64] | libglu-dev [any-i386 any-amd64], libminizip-dev, libpng-dev, libsdl2-dev, pkg-config, zlib1g-dev | libz-dev
+Architecture: any-amd64 any-i386 all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9c9830a4cf7bbfbd9cdba751b72b0131 2448 mupen64plus-core_2.5-7.dsc
+ cba17cda21bff63525006bd9fa9d0567 895890 mupen64plus-core_2.5.orig.tar.gz
+ c2c9c6ab4a5cdd791713cd029c88d9da 22328 mupen64plus-core_2.5-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/mupen64plus-core
+Vcs-Git: https://salsa.debian.org/games-team/mupen64plus-core.git -b debian/sid
+Checksums-Sha256:
+ 9afcb651e5992e814f114d4cc3620f69584fa5e0b7a4f39e09b49f4325e6bc0f 2448 mupen64plus-core_2.5-7.dsc
+ 59e99a79e7f862517232e3115bd1f72377e3e34da795c118ba617c478c839578 895890 mupen64plus-core_2.5.orig.tar.gz
+ fabd3f7f4714ee4d6b2fb4f0b45a26f63ff8ebb08d17485378d52d4794ef6a53 22328 mupen64plus-core_2.5-7.debian.tar.xz
+Homepage: http://mupen64plus.org/
+Package-List: 
+ libmupen64plus-dev deb libdevel optional arch=all
+ libmupen64plus2 deb libs optional arch=any-amd64,any-i386
+ mupen64plus-data deb games optional arch=all
+Directory: pool/main/m/mupen64plus-core
+Priority: source
+Section: games

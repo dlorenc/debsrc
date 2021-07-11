@@ -1,0 +1,28 @@
+Package: python-jieba
+Binary: python-jieba-doc, python3-jieba
+Version: 0.42.1-2
+Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
+Uploaders: Yangfl <mmyangfl@gmail.com>, Boyuan Yang <byang@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 76f137c5a0c9bd55121adc28331c1bfb 2151 python-jieba_0.42.1-2.dsc
+ 774aa388d2f9a4fa50c78c582f037e96 24420490 python-jieba_0.42.1.orig.tar.gz
+ 2c3400798a69a13be4fbcb0096dd6dba 3184 python-jieba_0.42.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/chinese-team/python-jieba
+Vcs-Git: https://salsa.debian.org/chinese-team/python-jieba.git
+Checksums-Sha256:
+ 62e289bcb6ddba4efae72d35b83b765736f65dd19c8c712757bf2c154d7807da 2151 python-jieba_0.42.1-2.dsc
+ 607dd88ab9ac78b09d475cf19a3729539beaaecdf42fd5e46f933ffaedaa428e 24420490 python-jieba_0.42.1.orig.tar.gz
+ c2efd7e089edf3f98b26c92f702e5ac7f13e935cf3ebc4bcb77eec64773cd600 3184 python-jieba_0.42.1-2.debian.tar.xz
+Homepage: https://github.com/fxsjy/jieba
+Package-List: 
+ python-jieba-doc deb doc optional arch=all
+ python3-jieba deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-jieba
+Priority: extra
+Section: misc

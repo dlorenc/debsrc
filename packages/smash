@@ -1,0 +1,26 @@
+Package: smash
+Binary: node-smash
+Version: 0.0.15-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-queue-async <!nocheck>, node-vows <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 64a1626c8997e30a4f20dbb25789cb53 2007 smash_0.0.15-3.dsc
+ c921d490d0bee6cd928536404a59a324 8960 smash_0.0.15.orig.tar.gz
+ fc8535c61055783388463ac624bb5934 3280 smash_0.0.15-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/smash
+Vcs-Git: https://salsa.debian.org/js-team/smash.git
+Checksums-Sha256:
+ ca616f1d87585cc570d0b8c0e9dea0940416c26f19d2203b3c65805359cc95b2 2007 smash_0.0.15-3.dsc
+ 9e6133934ce41fcbe56ae68c26cc1ea2c9eb54fc8eedfc722ccc654a1175e1e4 8960 smash_0.0.15.orig.tar.gz
+ c91cac5b872227cd3f6bcedcef242aa9cdaaa9e5017f5996bd80c685e8bece94 3280 smash_0.0.15-3.debian.tar.xz
+Homepage: https://github.com/mbostock/smash
+Package-List: 
+ node-smash deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/s/smash
+Priority: optional
+Section: misc

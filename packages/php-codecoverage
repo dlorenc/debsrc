@@ -1,0 +1,27 @@
+Package: php-codecoverage
+Binary: php-codecoverage
+Version: 9.2.5+dfsg-3
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Arthur Gautier <superbaloo@superbaloo.net>, Prach Pongpanich <prachpub@gmail.com>, David Prévot <taffit@debian.org>
+Build-Depends: ant, cssmin, debhelper-compat (= 13), libjs-bootstrap4, libjs-d3, libjs-jquery, minify, php-parser, php-pcov, php-tokenizer, php-xdebug, phpab, phpunit (>= 9), phpunit-code-unit-reverse-lookup, phpunit-complexity, phpunit-lines-of-code, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4c00efa34dcfd4b6ed700ac8342418f6 2137 php-codecoverage_9.2.5+dfsg-3.dsc
+ aeae6cf89f6bb6677b9a5491033c42f7 104752 php-codecoverage_9.2.5+dfsg.orig.tar.xz
+ 071a5d2d4a2fc2e5e937589c661ba69a 66516 php-codecoverage_9.2.5+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-codecoverage
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-codecoverage.git -b debian/latest
+Checksums-Sha256:
+ 1942ef4803a20bd36fa0022f5ad2b79ab267be9912a98d41eabeeacfadfa8592 2137 php-codecoverage_9.2.5+dfsg-3.dsc
+ cd29c9954a9c1c924122ec1ea662231d4529fee1b8815ba802650b523887f1c7 104752 php-codecoverage_9.2.5+dfsg.orig.tar.xz
+ 1f0d02968c4f8c44924da728845a914e311ec4b208d9da5f1a128e135d8e55dd 66516 php-codecoverage_9.2.5+dfsg-3.debian.tar.xz
+Homepage: https://github.com/sebastianbergmann/php-code-coverage
+Package-List: 
+ php-codecoverage deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-pcov, php-xdebug, phpunit
+Directory: pool/main/p/php-codecoverage
+Priority: source
+Section: php

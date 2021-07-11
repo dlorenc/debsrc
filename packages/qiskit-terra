@@ -1,0 +1,26 @@
+Package: qiskit-terra
+Binary: python3-qiskit-terra
+Version: 0.12.0-2.1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Enrique de la Torre <indisoluble_dev@me.com>, Luciano Bello <luciano@debian.org>, Diego M. Rodriguez <diego@moreda.io>
+Build-Depends: cython3 (>= 0.27.1), debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-setuptools, python3-dill (>= 0.3), python3-jsonschema (>= 2.6), python3-marshmallow (>= 3.2), python3-marshmallow-polyfield (>= 5.7), python3-networkx (>= 2.4), python3-numpy (>= 1.13), python3-ply (>= 3.10), python3-psutil (>= 5), python3-scipy (>= 1.0), python3-sympy (>= 1.3), python3-matplotlib (>= 2.1), python3-pil, python3-pydot, python3-seaborn (>= 0.9.0), python3-ddt, python3-nbconvert, python3-nbformat, python3-pytest
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 01f6acb6455cec3396f461024ecc5e4a 2005 qiskit-terra_0.12.0-2.1.dsc
+ 97a7cdf19abec31d45117aeb088fba0d 2243517 qiskit-terra_0.12.0.orig.tar.gz
+ 5b5c9f7d8c49d1173e398bd594719d02 5984 qiskit-terra_0.12.0-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/qiskit-terra
+Vcs-Git: https://salsa.debian.org/science-team/qiskit-terra.git
+Checksums-Sha256:
+ 77e6e8f3b23901aea6bc1acb9607b87e912752e492ffb36905b9524c648449fc 2005 qiskit-terra_0.12.0-2.1.dsc
+ 700dc80a84c059d35cba0c9af2412f4d979f1bc73c681a5d5b8afcee285258c8 2243517 qiskit-terra_0.12.0.orig.tar.gz
+ 04effd5a709df061779d939b0c74b11c292d31268b969733bb315e8577028081 5984 qiskit-terra_0.12.0-2.1.debian.tar.xz
+Homepage: https://qiskit.org/
+Package-List: 
+ python3-qiskit-terra deb science optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/q/qiskit-terra
+Priority: extra
+Section: misc

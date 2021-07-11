@@ -1,0 +1,26 @@
+Package: openttd
+Binary: openttd, openttd-data
+Version: 1.10.3-1
+Maintainer: Matthijs Kooijman <matthijs@stdin.nl>
+Uploaders: Jordi Mallach <jordi@debian.org>
+Build-Depends: debhelper-compat (= 13), libsdl2-dev, zlib1g-dev, libpng-dev, libfreetype6-dev, libfontconfig-dev, libicu-dev, liblzo2-dev, liblzma-dev, libxdg-basedir-dev, grfcodec (>= 6.0.5), dpkg-dev (>= 1.16.1), openttd-opengfx
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0904baaba42d05ad7eeaebce42323e33 2151 openttd_1.10.3-1.dsc
+ 9435e367e8130372ba338dd2a465cd93 6815924 openttd_1.10.3.orig.tar.xz
+ 8aad1e357ce4f6c973d64a8450070214 12740 openttd_1.10.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openttd-team/openttd
+Vcs-Git: https://salsa.debian.org/openttd-team/openttd.git
+Checksums-Sha256:
+ 6738b073d2228e18a066efd637d8dbb27a376aa5a43a6ca56af4904bc5abb327 2151 openttd_1.10.3-1.dsc
+ c11601ef547eb1f6d4f9a035bd19e0a760b47872ce7d9b4117aaa45ac377b53b 6815924 openttd_1.10.3.orig.tar.xz
+ 354da6530e73a5ed22db35daf8453a43e8bdc246cc4782f15daf42f946c69429 12740 openttd_1.10.3-1.debian.tar.xz
+Homepage: https://www.openttd.org/
+Package-List: 
+ openttd deb games optional arch=any
+ openttd-data deb games optional arch=all
+Directory: pool/main/o/openttd
+Priority: source
+Section: games

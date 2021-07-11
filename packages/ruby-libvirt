@@ -1,0 +1,28 @@
+Package: ruby-libvirt
+Binary: ruby-libvirt
+Version: 0.7.1-1
+Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
+Uploaders: Guido Günther <agx@sigxcpu.org>,
+Build-Depends: debhelper (>= 11~), gem2deb (>= 0.6.0), libvirt-daemon, libvirt-dev, pkg-config, rake
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ ac033f825c7bd0bb08bfc3714be92fbe 2147 ruby-libvirt_0.7.1-1.dsc
+ 39cf9767a6277b8e99409a1b7f7c5d9a 115052 ruby-libvirt_0.7.1.orig.tar.gz
+ b03e49088711354b81a930e6b21aee50 4040 ruby-libvirt_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/libvirt-team/ruby-libvirt
+Vcs-Git: https://salsa.debian.org/libvirt-team/ruby-libvirt.git
+Checksums-Sha256:
+ 8bcb01518dd2c12108a9cbc2e5bf67658517680fdbec80301ab9e3145205c092 2147 ruby-libvirt_0.7.1-1.dsc
+ 4e1495d64af5ce9edba80f973a2e2eb125946c0fa266c8f9d75f1e7a98fc5d60 115052 ruby-libvirt_0.7.1.orig.tar.gz
+ 68e53305548f09398b9a16f193106d44280c812902b52f7c21d2a2af63cf7756 4040 ruby-libvirt_0.7.1-1.debian.tar.xz
+Homepage: http://libvirt.org/ruby/
+Package-List: 
+ ruby-libvirt deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner, libvirt-daemon, libvirt-dev, pkg-config, rake
+Directory: pool/main/r/ruby-libvirt
+Priority: source
+Section: ruby

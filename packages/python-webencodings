@@ -1,0 +1,27 @@
+Package: python-webencodings
+Binary: python3-webencodings
+Version: 0.5.1-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Barry Warsaw <barry@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-nose, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ adec312d52bfa8d9b3676728272d59e0 2190 python-webencodings_0.5.1-2.dsc
+ 32f6e261d52e57bf7e1c4d41546d15b8 9721 python-webencodings_0.5.1.orig.tar.gz
+ b4bd7494eeaadad2b577ecfea9ab9eeb 3192 python-webencodings_0.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-webencodings
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-webencodings.git
+Checksums-Sha256:
+ 47e33bee3791bd924159f3769ff2c36e056988f423a6203526fd3684b2172afc 2190 python-webencodings_0.5.1-2.dsc
+ b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923 9721 python-webencodings_0.5.1.orig.tar.gz
+ fa5fbda7af1387df3635f3aa08c47b7e7ffff21ffc117664ad4fdcc01db869f5 3192 python-webencodings_0.5.1-2.debian.tar.xz
+Homepage: https://github.com/SimonSapin/python-webencodings
+Package-List: 
+ python3-webencodings deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-nose
+Directory: pool/main/p/python-webencodings
+Priority: optional
+Section: misc

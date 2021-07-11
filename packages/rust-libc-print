@@ -1,0 +1,26 @@
+Package: rust-libc-print
+Binary: librust-libc-print-dev
+Version: 0.1.14-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Nick Black <dankamongmen@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2-dev (>= 0.2.77-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 58199b5a640ef78dd00e65d63486b298 2189 rust-libc-print_0.1.14-2.dsc
+ 2319b8ad7c93228ac246fd434494ec6f 2824 rust-libc-print_0.1.14.orig.tar.gz
+ 6df0d111f777ade2396843bd0611d90b 2552 rust-libc-print_0.1.14-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libc-print
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/libc-print]
+Checksums-Sha256:
+ 48b3b351de8c89d202434bc4d38940698f94c1686bc2b706546564a0fc6f958d 2189 rust-libc-print_0.1.14-2.dsc
+ e70323535c8d481cbfd9a0996538a06861ee0c2fb082cff05b8ac87e272ba7ca 2824 rust-libc-print_0.1.14.orig.tar.gz
+ 372962c25460894c77c939ad5fde80771b8699b00cd3375f67c8180a2e7e824a 2552 rust-libc-print_0.1.14-2.debian.tar.xz
+Package-List: 
+ librust-libc-print-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-libc-print
+Priority: extra
+Section: misc

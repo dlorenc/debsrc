@@ -1,0 +1,23 @@
+Package: dh-cmake
+Binary: dh-cmake
+Version: 0.6.1
+Maintainer: Kitware Debian Maintainers <debian@kitware.com>
+Uploaders: Kyle Edwards <kyle.edwards@kitware.com>, Kitware Robot <kwrobot@kitware.com>, Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-python3, python3-all, python3-setuptools, cmake (>= 3.15), git, python3-debian, python3-autopep8, python3-pyflakes
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 1c4c813dd07c447c85efc1204acd51b2 1839 dh-cmake_0.6.1.dsc
+ 7d7501369468c9b7005f5b8646dba409 24304 dh-cmake_0.6.1.tar.xz
+Vcs-Browser: https://gitlab.kitware.com/debian/dh-cmake
+Vcs-Git: https://gitlab.kitware.com/debian/dh-cmake.git
+Checksums-Sha256:
+ 43c1aa0c060a0f0b396937f82992deb402c1432af7df5e6cd104a270add22b2a 1839 dh-cmake_0.6.1.dsc
+ 45163e834c6d3078e8f1422fd5823bd14e69da3c7d82380c1a04861ec8a88fa3 24304 dh-cmake_0.6.1.tar.xz
+Homepage: https://gitlab.kitware.com/debian/dh-cmake
+Package-List: 
+ dh-cmake deb devel optional arch=all
+Directory: pool/main/d/dh-cmake
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: starlet
+Binary: starlet
+Version: 0.31-1.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominic Hargreaves <dom@earth.li>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libparallel-prefork-perl, libplack-perl, libserver-starter-perl, libtest-tcp-perl (>= 2.10), libwww-perl, perl
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 22d863b8f9a07d81af619833b080ab12 2085 starlet_0.31-1.1.dsc
+ b33a749d05b41aa0aca8fbe565965c4f 111347 starlet_0.31.orig.tar.gz
+ aa9c2417c5602afb620276394c3a7339 3472 starlet_0.31-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/starlet.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/starlet.git
+Checksums-Sha256:
+ 56e66e54609adbe137bb0cadbde6f837e4bcca4961bc0c4484dfed29b3b7f8d9 2085 starlet_0.31-1.1.dsc
+ b9603b8e62880cb4582f6a7939eafec65e6efd3d900f2c7dd342e5f4c68d62d8 111347 starlet_0.31.orig.tar.gz
+ 7bfce564d4b95c6b01ab1679d5e1c10512171dc0f665043dd591895c3eaac493 3472 starlet_0.31-1.1.debian.tar.xz
+Homepage: https://metacpan.org/release/Starlet
+Package-List: 
+ starlet deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/s/starlet
+Priority: source
+Section: misc

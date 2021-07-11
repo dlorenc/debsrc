@@ -1,0 +1,27 @@
+Package: node-is-number
+Binary: node-is-number
+Version: 7.0.0-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 11), nodejs, mocha, node-kind-of (>= 3.0.2~)
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 6cbe76fba4de6aac3cf68edf8302df73 2084 node-is-number_7.0.0-1.1.dsc
+ a0226fc8c1858b9e9d52fa8da6c501a8 7648 node-is-number_7.0.0.orig.tar.gz
+ 01d8876a6a95168d1a5edd2a9f23a6c9 2480 node-is-number_7.0.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-number
+Vcs-Git: https://salsa.debian.org/js-team/node-is-number.git
+Checksums-Sha256:
+ c07c08e32c793b49269b42ec71d902ecb27ffd785f032cf54db22dea4f201156 2084 node-is-number_7.0.0-1.1.dsc
+ 03e4ee5cb387a46770d6863ada442947bd60d6ba94ed86fb7402adade430f949 7648 node-is-number_7.0.0.orig.tar.gz
+ aaed3582163fe77abab155e388aade19162628653bc74e643340e9e77f1535f4 2480 node-is-number_7.0.0-1.1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/is-number
+Package-List: 
+ node-is-number deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-mocha
+Directory: pool/main/n/node-is-number
+Priority: optional
+Section: javascript

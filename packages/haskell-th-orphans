@@ -1,0 +1,28 @@
+Package: haskell-th-orphans
+Binary: libghc-th-orphans-dev, libghc-th-orphans-prof, libghc-th-orphans-doc
+Version: 0.13.10-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-ghci, ghc-prof, haskell-devscripts (>= 0.13), libghc-th-lift-dev (>= 0.7.1), libghc-th-lift-instances-dev, libghc-th-lift-instances-prof, libghc-th-lift-prof, libghc-th-reify-many-dev (<< 0.2), libghc-th-reify-many-dev (>= 0.1), libghc-th-reify-many-prof
+Build-Depends-Indep: ghc-doc, libghc-th-lift-doc, libghc-th-lift-instances-doc, libghc-th-reify-many-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 45574e01e02d6f7a1bd69b801fa46f33 2656 haskell-th-orphans_0.13.10-1.dsc
+ 282e47d3ed6b56aabc63b53bf2862bd3 8680 haskell-th-orphans_0.13.10.orig.tar.gz
+ 52e06e78ca775ea0f770a5ba2dc1f0e8 3244 haskell-th-orphans_0.13.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-th-orphans
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-th-orphans]
+Checksums-Sha256:
+ 2a36f8eddfa3e8a46f89f63c3067b281f56b73840f32a686a0426efcf2769f29 2656 haskell-th-orphans_0.13.10-1.dsc
+ 4433573649ccf97e475c58f65eb24af0100a954ce2c801c34b8f53157796c928 8680 haskell-th-orphans_0.13.10.orig.tar.gz
+ 96a3cd4eff10bb1dab454b44edf4c191a434a5a86b508cbe39a1bbf99370c891 3244 haskell-th-orphans_0.13.10-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/th-orphans
+Package-List: 
+ libghc-th-orphans-dev deb haskell optional arch=any
+ libghc-th-orphans-doc deb doc optional arch=all
+ libghc-th-orphans-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-th-orphans
+Priority: optional
+Section: misc

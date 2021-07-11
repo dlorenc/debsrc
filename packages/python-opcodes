@@ -1,0 +1,27 @@
+Package: python-opcodes
+Binary: python3-opcodes, python-opcodes-doc
+Version: 0.0~git20180424.6e2b0cd-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Yangfl <mmyangfl@gmail.com>, Mo Zhou <lumin@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools
+Build-Depends-Indep: python3-sphinx, python3-sphinx-bootstrap-theme
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 36d6abbf9d7d2c4ddba8819a158a6200 2356 python-opcodes_0.0~git20180424.6e2b0cd-3.dsc
+ e02f381cd53c31d548555508b2b7bc5b 148952 python-opcodes_0.0~git20180424.6e2b0cd.orig.tar.xz
+ 12cd37027f89557c4c571fcaac7e028b 2812 python-opcodes_0.0~git20180424.6e2b0cd-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/deeplearning-team/python-opcodes
+Vcs-Git: https://salsa.debian.org/deeplearning-team/python-opcodes.git
+Checksums-Sha256:
+ afe1ed143160eeba226f179c7f050327f8892cbdeaac4469523cf3af01abd6ab 2356 python-opcodes_0.0~git20180424.6e2b0cd-3.dsc
+ 6a0f69010c17dd7b5b6a9130af8b6a89967545d764f52cb0656831a6aadb318d 148952 python-opcodes_0.0~git20180424.6e2b0cd.orig.tar.xz
+ 24127c5c632c2cbec243afb53307648c2a13b07bac41cd7e11c0997b1d631798 2812 python-opcodes_0.0~git20180424.6e2b0cd-3.debian.tar.xz
+Homepage: https://github.com/Maratyszcza/Opcodes
+Package-List: 
+ python-opcodes-doc deb doc optional arch=all
+ python3-opcodes deb python optional arch=all
+Directory: pool/main/p/python-opcodes
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-gethostname
+Binary: librust-gethostname-dev
+Version: 0.2.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ dc4010c053f2bd6815f7418e1737a28f 2375 rust-gethostname_0.2.1-1.dsc
+ 41948b2eab3411fb820f891d73d54b51 8988 rust-gethostname_0.2.1.orig.tar.gz
+ 9a044278d45118c40f78e093aa019b64 1992 rust-gethostname_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gethostname
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gethostname]
+Checksums-Sha256:
+ d008c21b58635fb5201ab3382a87efb21799bc0f6142067be1cf7553c764fca0 2375 rust-gethostname_0.2.1-1.dsc
+ e692e296bfac1d2533ef168d0b60ff5897b8b70a4009276834014dd8924cc028 8988 rust-gethostname_0.2.1.orig.tar.gz
+ 25bb3c9fda4d61e443c16d9ada456ce55bd9bd5acf0d99f69956c0cf37d45c1a 1992 rust-gethostname_0.2.1-1.debian.tar.xz
+Homepage: https://github.com/lunaryorn/gethostname.rs
+Package-List: 
+ librust-gethostname-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-pretty-assertions-0.6+default-dev
+Directory: pool/main/r/rust-gethostname
+Priority: extra
+Section: misc

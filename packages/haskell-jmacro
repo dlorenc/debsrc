@@ -1,0 +1,29 @@
+Package: haskell-jmacro
+Binary: jmacro, libghc-jmacro-dev, libghc-jmacro-prof, libghc-jmacro-doc
+Version: 0.6.17-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 0.5), libghc-aeson-prof, libghc-parseargs-dev, libghc-parseargs-prof, libghc-regex-posix-dev (>> 0.9), libghc-regex-posix-prof, libghc-safe-dev (>= 0.2), libghc-safe-prof, libghc-src-exts-dev, libghc-src-exts-prof, libghc-src-meta-dev, libghc-src-meta-prof, libghc-syb-dev, libghc-syb-prof, libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-prof, libghc-vector-dev (>= 0.8), libghc-vector-prof, libghc-wl-pprint-text-dev, libghc-wl-pprint-text-prof
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-regex-posix-doc, libghc-safe-doc, libghc-src-exts-doc, libghc-src-meta-doc, libghc-syb-doc, libghc-unordered-containers-doc, libghc-vector-doc, libghc-wl-pprint-text-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f4bf0ee1c8b638a8aa052e55174d71a0 3030 haskell-jmacro_0.6.17-1.dsc
+ 927ed8387adff08027b2943829ff6bda 36122 haskell-jmacro_0.6.17.orig.tar.gz
+ 9fc5b0272785ce03ceb6edb2f82ef72a 3656 haskell-jmacro_0.6.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-jmacro
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-jmacro]
+Checksums-Sha256:
+ eee730d2f7d9a46620b7163ee3128db45a86ad94bd68579f449580c7238148a7 3030 haskell-jmacro_0.6.17-1.dsc
+ fd9e85da0ab807566dbca3783d9dfd7326c4457d92c85cfc910cd291b1b27593 36122 haskell-jmacro_0.6.17.orig.tar.gz
+ 2365154200527fe09a2daab0a0e0b7e73e779cbc9e41e6ade1914679a241a5a5 3656 haskell-jmacro_0.6.17-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/jmacro
+Package-List: 
+ jmacro deb haskell optional arch=any
+ libghc-jmacro-dev deb haskell optional arch=any
+ libghc-jmacro-doc deb doc optional arch=all
+ libghc-jmacro-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-jmacro
+Priority: optional
+Section: misc

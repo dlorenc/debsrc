@@ -1,0 +1,27 @@
+Package: node-qw
+Binary: node-qw
+Version: 1.0.1-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: suman <suman@protonmail.com>
+Build-Depends: debhelper (>= 9), dh-buildinfo, nodejs, node-tap
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 47c62ac1928d984cb956c072121aa473 2016 node-qw_1.0.1-1.1.dsc
+ 7777f32c7e9641da4f5b668235df3f36 2455 node-qw_1.0.1.orig.tar.gz
+ 42c92d06507b258f24b2e5d7011393cc 2000 node-qw_1.0.1-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-qw.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-qw.git
+Checksums-Sha256:
+ e3cfec7483286894b527f1812c242dcdbe18e4fee25ea3336d5dee39b20efbfd 2016 node-qw_1.0.1-1.1.dsc
+ f505cb44ea6caa5e5c4b5d2d64373e117eb1d79970368de16111c530f1175ffd 2455 node-qw_1.0.1.orig.tar.gz
+ 1ee613cb671c248ee574f1705e47fcdba0dd70e78489b6a4e1375c35f0377e76 2000 node-qw_1.0.1-1.1.debian.tar.xz
+Homepage: https://github.com/iarna/node-qw#readme
+Package-List: 
+ node-qw deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tap
+Directory: pool/main/n/node-qw
+Priority: extra
+Section: misc

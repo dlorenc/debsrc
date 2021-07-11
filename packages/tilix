@@ -1,0 +1,26 @@
+Package: tilix
+Binary: tilix, tilix-common
+Version: 1.9.4-2
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Matthias Klumpp <mak@debian.org>
+Build-Depends: appstream, debhelper-compat (= 12), dh-dlang, gnome-pkg-tools (>= 0.19.8), libgtkd-3-dev (>= 3.9), librsvg2-dev, libsecret-1-dev, libunwind-dev, libvted-3-dev (>= 3.9), meson, po4a
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 15f0749e2b7140aab04c4fef85798609 2156 tilix_1.9.4-2.dsc
+ f21b6b129af1dcc183d586c6b8c35209 968142 tilix_1.9.4.orig.tar.gz
+ f8073b2b8a81156bf2db9693fb5d2e82 19348 tilix_1.9.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/tilix
+Vcs-Git: https://salsa.debian.org/gnome-team/tilix.git
+Checksums-Sha256:
+ ecbbe661dbfb3f7afb7b5dd47ed320fcfd70c8fec2bcec95dbdb09f4f625d65d 2156 tilix_1.9.4-2.dsc
+ 2a9482770391d11d5edc8351d426c700c2cc6c194a30391ef2ae25bb7095b59b 968142 tilix_1.9.4.orig.tar.gz
+ 378e51ac13e9505a6db348ea1d6671ea73158e82b9fe88b5401494054b39faed 19348 tilix_1.9.4-2.debian.tar.xz
+Homepage: https://gnunn1.github.io/tilix-web/
+Package-List: 
+ tilix deb gnome optional arch=any
+ tilix-common deb gnome optional arch=all
+Directory: pool/main/t/tilix
+Priority: optional
+Section: misc

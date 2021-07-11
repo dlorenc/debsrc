@@ -1,0 +1,28 @@
+Package: haskell-intervals
+Binary: libghc-intervals-dev, libghc-intervals-prof, libghc-intervals-doc
+Version: 0.9.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-distributive-dev (<< 1), libghc-distributive-dev (>= 0.2), libghc-distributive-prof
+Build-Depends-Indep: ghc-doc, libghc-distributive-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 499e3abc94820248d0b3b70eb803a357 2448 haskell-intervals_0.9.1-1.dsc
+ c5edc5159170e817fd6895bc4f8e7cf8 17494 haskell-intervals_0.9.1.orig.tar.gz
+ bc754cced3c24e363bf5c15b90ebe9f9 2888 haskell-intervals_0.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-intervals
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-intervals]
+Checksums-Sha256:
+ 8d4732f5af96546e45327160792630f70974dffd09ffa0c97aa0b8286fd0020e 2448 haskell-intervals_0.9.1-1.dsc
+ dfa8e2ee95b320ac33a11f6e6ecee82d3fb1bbb58ae0640eae9a24a89a9037e9 17494 haskell-intervals_0.9.1.orig.tar.gz
+ d7d40054b21cd9a7458fa77d00b368ad5571bb05a41fe6163dd8d00682172562 2888 haskell-intervals_0.9.1-1.debian.tar.xz
+Homepage: https://github.com/ekmett/intervals
+Package-List: 
+ libghc-intervals-dev deb haskell optional arch=any
+ libghc-intervals-doc deb doc optional arch=all
+ libghc-intervals-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-intervals
+Priority: optional
+Section: misc

@@ -1,0 +1,29 @@
+Package: snp-sites
+Binary: snp-sites, libsnp-sites1, libsnp-sites1-dev
+Version: 2.5.1-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Jorge Soares <j.s.soares@gmail.com>, Andreas Tille <tille@debian.org>, Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper (>= 11), zlib1g-dev, check, pkg-config, d-shlibs, asciidoctor
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ b5608a51c1d4fec1e2192371d2cdbf80 2266 snp-sites_2.5.1-1.dsc
+ a4183dadd8f8d56398654c943e4f1811 15577807 snp-sites_2.5.1.orig.tar.gz
+ 3279cfd988b49767ca39b93dd15db4af 7968 snp-sites_2.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/snp-sites
+Vcs-Git: https://salsa.debian.org/med-team/snp-sites.git
+Checksums-Sha256:
+ 9b986365695cfed6acd50c39e70718b84f2faa877006b12d72426ed01fba66d2 2266 snp-sites_2.5.1-1.dsc
+ 913f79302e5d3127aea382756abc9ffeb05e26ce00022f43a6ea16a55cdd7a7e 15577807 snp-sites_2.5.1.orig.tar.gz
+ 0f5b2e6dcddea62310aea84af8db0c5fb3c6b0984f3a1b8376555de10d2549b9 7968 snp-sites_2.5.1-1.debian.tar.xz
+Homepage: https://github.com/sanger-pathogens/snp-sites
+Package-List: 
+ libsnp-sites1 deb libs optional arch=any
+ libsnp-sites1-dev deb libdevel optional arch=any
+ snp-sites deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, zlib1g, zlib1g-dev
+Directory: pool/main/s/snp-sites
+Priority: optional
+Section: misc

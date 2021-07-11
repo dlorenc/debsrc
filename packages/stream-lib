@@ -1,0 +1,26 @@
+Package: stream-lib
+Binary: libstream-java
+Version: 2.9.8-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper (>= 12), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: junit4 (>= 4.12), libcolt-free-java, libcommons-codec-java (>= 1.11), libfastutil-java, libguava-java, libslf4j-java (>= 1.7.25)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ d144aaeaac4245a2055176f1fa187aed 2160 stream-lib_2.9.8-2.dsc
+ 03d7ff980782da9bb97764c8d6fb8080 919812 stream-lib_2.9.8.orig.tar.gz
+ af380496d0e5e4bf33ec57396b20371f 10728 stream-lib_2.9.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/stream-lib
+Vcs-Git: https://salsa.debian.org/java-team/stream-lib.git
+Checksums-Sha256:
+ c0be23d0cddc3b240d8229672d378c56034fc9c7d4e2ede9ee6d839fb6ad290e 2160 stream-lib_2.9.8-2.dsc
+ b2a48d89f150545eed41ca4cdfcc1ec4730a107b67b61ddede6bdf6ae4417d1e 919812 stream-lib_2.9.8.orig.tar.gz
+ 349a741325fa42e456e14f080a1a6dae7dd2b0bc07c77692144046c8f5bfe0ed 10728 stream-lib_2.9.8-2.debian.tar.xz
+Homepage: https://github.com/addthis/stream-lib
+Package-List: 
+ libstream-java deb java optional arch=all
+Directory: pool/main/s/stream-lib
+Priority: extra
+Section: misc

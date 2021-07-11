@@ -1,0 +1,26 @@
+Package: munge-maven-plugin
+Binary: libmunge-maven-plugin-java
+Version: 1.0-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper (>= 2.2)
+Build-Depends-Indep: junit (>= 3.8.1), libmaven-plugin-tools-java, libmaven3-core-java
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ f5c1e6b2cd63b496db043fe087250485 2201 munge-maven-plugin_1.0-2.dsc
+ a0d3a1cdb0ade1e52ef4b0762fea5b23 15329 munge-maven-plugin_1.0.orig.tar.gz
+ 5218d18a2502219a410549b17c058afa 8540 munge-maven-plugin_1.0-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/munge-maven-plugin.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/munge-maven-plugin.git
+Checksums-Sha256:
+ afa589a1079bf03e0b1b7bbafee1b9daf4258ba8daadd7eb5b7142e58e61b03c 2201 munge-maven-plugin_1.0-2.dsc
+ 44b318324497d1db39c2267dc48da668d9b9cc6f29e239a8824d543e29ef98d8 15329 munge-maven-plugin_1.0.orig.tar.gz
+ 9b3849a464657d2c238842068d9bef66668252a1d0215cbfa3edda7dcbd44c77 8540 munge-maven-plugin_1.0-2.debian.tar.xz
+Homepage: http://sonatype.github.com/munge-maven-plugin/
+Package-List: 
+ libmunge-maven-plugin-java deb java optional arch=all
+Directory: pool/main/m/munge-maven-plugin
+Priority: source
+Section: java

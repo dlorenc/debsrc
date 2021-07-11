@@ -1,0 +1,32 @@
+Package: ismrmrd
+Binary: libismrmrd1.4, libismrmrd-dev, libismrmrd-doc, ismrmrd-tools, ismrmrd-schema
+Version: 1.4.2.1-6
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: cmake, debhelper-compat (= 13), d-shlibs, libboost-program-options-dev, libboost-test-dev, libfftw3-dev, libhdf5-dev, libpugixml-dev
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ de9914dbb80717210e1696c22937d635 2376 ismrmrd_1.4.2.1-6.dsc
+ 3234fc94e3bee48bb499ce6d18afb981 199814 ismrmrd_1.4.2.1.orig.tar.gz
+ 432cb2352b560818da0c6dcfd807ee80 7788 ismrmrd_1.4.2.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/ismrmrd
+Vcs-Git: https://salsa.debian.org/med-team/ismrmrd.git
+Checksums-Sha256:
+ c2c6d6a0f47bd88188b1fe9bee41c5c7e8a2796639d1ac2caeba86be22e74ca5 2376 ismrmrd_1.4.2.1-6.dsc
+ 7dd4f0119166cec7dd5f696b2289c0ecbff9117d3a45ff60caec1e7559c47e3d 199814 ismrmrd_1.4.2.1.orig.tar.gz
+ 3d976f81fc901e98d54dd6e16b2c868cb2f516105ff14d8eb43cb4c0b1f4449a 7788 ismrmrd_1.4.2.1-6.debian.tar.xz
+Homepage: https://ismrmrd.github.io/
+Package-List: 
+ ismrmrd-schema deb misc optional arch=all
+ ismrmrd-tools deb utils optional arch=any
+ libismrmrd-dev deb libdevel optional arch=any
+ libismrmrd-doc deb doc optional arch=all
+ libismrmrd1.4 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: c++-compiler, cmake, g++
+Directory: pool/main/i/ismrmrd
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-url
+Binary: librust-url-dev, librust-url+serde-dev
+Version: 2.1.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <pl@ninthfloor.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-idna-0.2+default-dev <!nocheck>, librust-matches-0.1+default-dev <!nocheck>, librust-percent-encoding-2+default-dev (>= 2.1.0-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b37a7bf749b74d465085f1c80bc04a3c 2432 rust-url_2.1.1-2.dsc
+ 81821d39675a1f584546b9920e5d6b5d 70383 rust-url_2.1.1.orig.tar.gz
+ bc761d5b702329a1bdf1052338879684 3112 rust-url_2.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/url
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/url]
+Checksums-Sha256:
+ ffef467550216e2e52fd39010f076088772a31ac100ee1521821fe3d0bf133fa 2432 rust-url_2.1.1-2.dsc
+ 829d4a8476c35c9bf0bbce5a3b23f4106f79728039b726d292bb93bc106787cb 70383 rust-url_2.1.1.orig.tar.gz
+ 69708e4ec8fc69d98e21785506444f2daeb36d6d258477c50b37b80b243e7caa 3112 rust-url_2.1.1-2.debian.tar.xz
+Package-List: 
+ librust-url+serde-dev deb rust optional arch=any
+ librust-url-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-bencher-0.1+default-dev, librust-rustc-test-0.3+default-dev, librust-serde-json-1+default-dev
+Directory: pool/main/r/rust-url
+Priority: extra
+Section: misc

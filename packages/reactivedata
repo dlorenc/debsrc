@@ -1,0 +1,27 @@
+Package: reactivedata
+Binary: libreactivedata-ocaml-dev, libreactivedata-ocaml
+Version: 0.2.2-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 12), libreact-ocaml-dev (>= 1.2.1), opam-installer, ocaml-nox, ocaml-findlib, ocamlbuild, dh-ocaml
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 20a44b151b2782ab18e78ee7a1a779aa 1921 reactivedata_0.2.2-1.dsc
+ d08a22087b617ce50ac279e3f058674a 23512 reactivedata_0.2.2.orig.tar.gz
+ 0224982c539d9a46432052e92c6aa31b 2928 reactivedata_0.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/reactivedata
+Vcs-Git: https://salsa.debian.org/ocaml-team/reactivedata.git
+Checksums-Sha256:
+ 389fcf03e459ca615b870a653e5d6270af808a2ae3fe88a605a14e6bbad66bb5 1921 reactivedata_0.2.2-1.dsc
+ cf6a8376694c3926c09d0a69b236c8311cd750e3f8b13d3d4742d14fae7fea4b 23512 reactivedata_0.2.2.orig.tar.gz
+ 23d4d5f278a3ad029fd028ba9bd23413917bddcccda5efcb8319ec17b3325d8b 2928 reactivedata_0.2.2-1.debian.tar.xz
+Homepage: https://github.com/ocsigen/reactiveData
+Dgit: b2b50e7e75c98d2cde84856dfe481df2f674b87d debian archive/debian/0.2.2-1 https://git.dgit.debian.org/reactivedata
+Package-List: 
+ libreactivedata-ocaml deb ocaml optional arch=any
+ libreactivedata-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/r/reactivedata
+Priority: optional
+Section: misc

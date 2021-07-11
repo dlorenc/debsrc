@@ -1,0 +1,25 @@
+Package: mcstrans
+Binary: mcstrans
+Version: 3.1-1
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Uploaders: Laurent Bigonville <bigon@debian.org>, Russell Coker <russell@coker.com.au>
+Build-Depends: debhelper (>= 12), libcap-dev, libpcre3-dev, libselinux1-dev (>= 3.1), libsepol1-dev (>= 3.1)
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 47e533602b139e01c3f71b64328f85be 1703 mcstrans_3.1-1.dsc
+ 18b7bf8193dd2360bc60f0e2639009ab 44598 mcstrans_3.1.orig.tar.gz
+ 79c0a16b1859cfc20f7fa620195ac070 22208 mcstrans_3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/selinux-team/mcstrans
+Vcs-Git: https://salsa.debian.org/selinux-team/mcstrans.git
+Checksums-Sha256:
+ 68c265c9633cc453e735235abd7f023bd8547c734cdae1991c8dcacf4cc2fdd1 1703 mcstrans_3.1-1.dsc
+ cc918576c17340fc944849d785e2a7400b269ef079a36b871c140504164d6a45 44598 mcstrans_3.1.orig.tar.gz
+ ca4a6f1d234782739521c394bc3f5bff62ad6d760e290b619e9eb75e0505c3aa 22208 mcstrans_3.1-1.debian.tar.xz
+Homepage: http://userspace.selinuxproject.org/
+Package-List: 
+ mcstrans deb utils optional arch=linux-any
+Directory: pool/main/m/mcstrans
+Priority: extra
+Section: misc

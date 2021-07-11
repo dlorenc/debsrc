@@ -1,0 +1,28 @@
+Package: haskell-finite-field
+Binary: libghc-finite-field-dev, libghc-finite-field-prof, libghc-finite-field-doc
+Version: 0.9.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hashable-dev, libghc-hashable-prof, libghc-singletons-dev (>= 1.0), libghc-singletons-prof, libghc-quickcheck2-dev (>= 2.5), libghc-quickcheck2-dev (<< 3), libghc-quickcheck2-prof, libghc-primes-dev, libghc-primes-prof, libghc-tasty-dev (>= 0.10.1), libghc-tasty-prof, libghc-tasty-hunit-dev (>= 0.9), libghc-tasty-hunit-dev (<< 0.11), libghc-tasty-hunit-prof, libghc-tasty-quickcheck-dev (>= 0.8), libghc-tasty-quickcheck-dev (<< 0.11), libghc-tasty-quickcheck-prof, libghc-tasty-th-dev, libghc-tasty-th-prof
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc, libghc-singletons-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4c1bcbd750919601ac27a6ef26bdf3c5 2950 haskell-finite-field_0.9.0-3.dsc
+ a840489732e2c0d90a21814ff3729549 6884 haskell-finite-field_0.9.0.orig.tar.gz
+ 52942ee051b70f96f69521c4d40015d0 3016 haskell-finite-field_0.9.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-finite-field
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-finite-field]
+Checksums-Sha256:
+ fdc9f11759442f71d07a3a4b421c51d2d1abc780958f2625eb57ffd7be8277ed 2950 haskell-finite-field_0.9.0-3.dsc
+ 8318c793c43cb30c8bf7f6fbea19e7d3e94cc1e81d849f821655efc3322ed408 6884 haskell-finite-field_0.9.0.orig.tar.gz
+ 1d13abc10e86122026fd9bf2ae0c8e7d25e520e06a2d28ced34a549e2d2edd54 3016 haskell-finite-field_0.9.0-3.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/finite-field
+Package-List: 
+ libghc-finite-field-dev deb haskell optional arch=any
+ libghc-finite-field-doc deb doc optional arch=all
+ libghc-finite-field-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-finite-field
+Priority: optional
+Section: misc

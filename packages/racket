@@ -1,0 +1,27 @@
+Package: racket
+Binary: racket, racket-common, racket-doc
+Version: 7.9+dfsg1-1
+Maintainer: David Bremner <bremner@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), patchutils, libffi-dev, libfreetype6-dev, libjpeg-dev, libpango1.0-dev, libpng-dev, libssl-dev, libxaw7-dev, xbitmaps, libxft-dev, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libx11-dev, libxrender-dev, libcairo2-dev, sqlite3
+Architecture: any all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ ef4e4702fe347ed828f22b49dc2c2f8a 2299 racket_7.9+dfsg1-1.dsc
+ d8f63fd2ba3a5cadbab5dc9764cfdb54 25259816 racket_7.9+dfsg1.orig.tar.xz
+ 4ffcead1afa9d00d2b6dc878bebc4e6f 25500 racket_7.9+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/bremner/racket
+Vcs-Git: https://salsa.debian.org/bremner/racket
+Checksums-Sha256:
+ 486be6b2375ae3c57626373e6554a55035e9abdb55989c4904b7b07a1a2cc0be 2299 racket_7.9+dfsg1-1.dsc
+ f774c5c4ed06d4092bcb599f378fd60bc1e172255fe690473365132e8299ffda 25259816 racket_7.9+dfsg1.orig.tar.xz
+ d70a0c23cc8812befbd653ec6936e180a8d14cff548cd30751c6bf24d9287bbd 25500 racket_7.9+dfsg1-1.debian.tar.xz
+Homepage: https://www.racket-lang.org/
+Dgit: d6287bfece21aa20a19372ba5b2d93c002629421 debian archive/debian/7.9+dfsg1-1 https://git.dgit.debian.org/racket
+Package-List: 
+ racket deb lisp optional arch=any
+ racket-common deb lisp optional arch=all
+ racket-doc deb doc optional arch=all
+Directory: pool/main/r/racket
+Priority: source
+Section: lisp

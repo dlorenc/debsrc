@@ -1,0 +1,27 @@
+Package: libauthen-passphrase-perl
+Binary: libauthen-passphrase-perl
+Version: 0.008-2.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ivan Kohler <ivan-debian@420.am>, Ansgar Burchardt <ansgar@debian.org>, Xavier Guimard <x.guimard@free.fr>
+Build-Depends: debhelper (>= 8), libmodule-build-perl, perl
+Build-Depends-Indep: libauthen-dechpwd-perl, libcrypt-des-perl, libcrypt-eksblowfish-perl, libcrypt-mysql-perl, libcrypt-passwdmd5-perl, libcrypt-unixcrypt-xs-perl, libdata-entropy-perl, libdigest-md4-perl, libmodule-runtime-perl (>= 0.011), libparams-classify-perl, libtest-pod-coverage-perl, libtest-pod-perl
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 8d27f8119ba2548d06a48e03ac07bc87 2571 libauthen-passphrase-perl_0.008-2.1.dsc
+ 9d82583a323af61dd301bdc0b0c9083e 59031 libauthen-passphrase-perl_0.008.orig.tar.gz
+ 6d40270d228100f5ea28b8b8f876f18b 3440 libauthen-passphrase-perl_0.008-2.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libauthen-passphrase-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libauthen-passphrase-perl.git
+Checksums-Sha256:
+ 4ba090450f826efbf4f25d8020378fdcc4b7eb86539dc0090f59411daca786c1 2571 libauthen-passphrase-perl_0.008-2.1.dsc
+ 55db4520617d859d88c0ee54965da815b7226d792b8cdc8debf92073559e0463 59031 libauthen-passphrase-perl_0.008.orig.tar.gz
+ d43daf6dbc54a9609c842273eb9c90f9ec4ec3b6bc1ad73471c65d9455414f6c 3440 libauthen-passphrase-perl_0.008-2.1.debian.tar.xz
+Homepage: https://metacpan.org/release/Authen-Passphrase
+Package-List: 
+ libauthen-passphrase-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liba/libauthen-passphrase-perl
+Priority: source
+Section: perl

@@ -1,0 +1,26 @@
+Package: plexus-sec-dispatcher
+Binary: libplexus-sec-dispatcher-java, libplexus-sec-dispatcher-java-doc
+Version: 1.4-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends: debhelper (>= 11), default-jdk, default-jdk-doc, junit (>= 3.8.2), junit4, libmaven-javadoc-plugin-java, libmodello-maven-plugin-java, libplexus-cipher-java, libplexus-component-metadata-java, libplexus-utils2-java, libplexus-utils2-java-doc, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ edc1d402fcad856af4dd69467177e32e 2449 plexus-sec-dispatcher_1.4-4.dsc
+ 1cfe76b87e8b2f121943ad4c8183acf5 6036 plexus-sec-dispatcher_1.4.orig.tar.xz
+ 094e9ffb8b53c2503778e88f2a1f269a 3912 plexus-sec-dispatcher_1.4-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/plexus-sec-dispatcher
+Vcs-Git: https://salsa.debian.org/java-team/plexus-sec-dispatcher.git
+Checksums-Sha256:
+ 77b92a21389ed7a9df021a6c7fd0976aa8bc5a1f0f17a999900d5050ebffae03 2449 plexus-sec-dispatcher_1.4-4.dsc
+ 8b48b7fc970ca8ae3fdba931325435318c7330d4a95ae56ebeb054345327b172 6036 plexus-sec-dispatcher_1.4.orig.tar.xz
+ ae0d38bd27e0f609e5b8fb5e5cfe7bff264c6ed6965f5cb6e5f546cdd2dec42a 3912 plexus-sec-dispatcher_1.4-4.debian.tar.xz
+Homepage: https://github.com/codehaus-plexus/plexus-sec-dispatcher
+Package-List: 
+ libplexus-sec-dispatcher-java deb java optional arch=all
+ libplexus-sec-dispatcher-java-doc deb doc optional arch=all
+Directory: pool/main/p/plexus-sec-dispatcher
+Priority: source
+Section: java

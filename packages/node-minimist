@@ -1,0 +1,30 @@
+Package: node-minimist
+Binary: node-minimist
+Version: 1.2.5+~cs5.3.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@mail.dk>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-arrify <!nocheck>, node-is-plain-obj <!nocheck>, node-kind-of <!nocheck>, node-tap <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3e7593d3ad61e552defc56ad4f50fbaa 2862 node-minimist_1.2.5+~cs5.3.1-2.dsc
+ cf888e2272c556a25cf19f528b74dfe2 5293 node-minimist_1.2.5+~cs5.3.1.orig-minimist-options.tar.gz
+ bda939a2e829e45bc22a889d4a83e122 2459 node-minimist_1.2.5+~cs5.3.1.orig-types-minimist.tar.gz
+ a29c5f4091783c67bef994425c53858d 8370 node-minimist_1.2.5+~cs5.3.1.orig.tar.gz
+ e6822a214b4f5e4433c4fde3d38a33e4 3744 node-minimist_1.2.5+~cs5.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-minimist
+Vcs-Git: https://salsa.debian.org/js-team/node-minimist.git
+Checksums-Sha256:
+ 784cc4461ab2d4f84e4b6acc45d9d7587f0c72fc6b14178ad963027f68dfa002 2862 node-minimist_1.2.5+~cs5.3.1-2.dsc
+ 948089354113d71fffab7b3951b321fa0593ba4d36a6d47fc9b5a99683eea6a9 5293 node-minimist_1.2.5+~cs5.3.1.orig-minimist-options.tar.gz
+ ec2e19de653ce00bdcc023e650c4476121a6fe0f5081a81bcf674732029039c1 2459 node-minimist_1.2.5+~cs5.3.1.orig-types-minimist.tar.gz
+ d0e848eb0b5dbd104474578c8603182f82baab37105a49404c44bfd6a890c02a 8370 node-minimist_1.2.5+~cs5.3.1.orig.tar.gz
+ 81c5b509d59007dd1e777f3a1830e0fcc31ef0fa837b8ed91700d8ebbf8c54e6 3744 node-minimist_1.2.5+~cs5.3.1-2.debian.tar.xz
+Homepage: https://github.com/substack/minimist
+Package-List: 
+ node-minimist deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-minimist
+Priority: optional
+Section: javascript

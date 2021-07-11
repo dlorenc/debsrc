@@ -1,0 +1,26 @@
+Package: qtkeychain
+Binary: libqt5keychain1, qt5keychain-dev
+Version: 0.10.0-1
+Maintainer: ownCloud for Debian maintainers <pkg-owncloud-maintainers@lists.alioth.debian.org>
+Uploaders: Sandro Knauß <hefee@debian.org>
+Build-Depends: cmake, debhelper-compat (= 12), libsecret-1-dev, pkg-config, pkg-kde-tools, qttools5-dev, qttools5-dev-tools
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e61bdb4f09034cf64a8266167e22e60e 2149 qtkeychain_0.10.0-1.dsc
+ b4369f5c6e1e3feed500ec06a954869f 39336 qtkeychain_0.10.0.orig.tar.gz
+ 89079d646427a1806d3638e8e21cc6e8 7652 qtkeychain_0.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/owncloud-team/qtkeychain
+Vcs-Git: https://salsa.debian.org/owncloud-team/qtkeychain.git
+Checksums-Sha256:
+ 5e966bf426a4649948807062b5753c721273adee57d4f114a453b4a45a6c5cfa 2149 qtkeychain_0.10.0-1.dsc
+ 861eb816920ef1cdb160ac44acd693a23b7de674ce0f621fd5626fa9fbb4eb36 39336 qtkeychain_0.10.0.orig.tar.gz
+ 12ee9d85016ca4fafca93949b186f401c6ab17da319f586e5b662cc6df306dd1 7652 qtkeychain_0.10.0-1.debian.tar.xz
+Homepage: https://github.com/frankosterfeld/qtkeychain
+Package-List: 
+ libqt5keychain1 deb libs optional arch=any
+ qt5keychain-dev deb libdevel optional arch=any
+Directory: pool/main/q/qtkeychain
+Priority: optional
+Section: misc

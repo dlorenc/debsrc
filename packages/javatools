@@ -1,0 +1,24 @@
+Package: javatools
+Binary: jarwrapper, javahelper, java-propose-classpath
+Version: 0.78
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>, tony mancill <tmancill@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, libarchive-zip-perl (>= 1.30-6~), libtest-minimumversion-perl, libtest-perl-critic-perl, libtest-strict-perl, markdown, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ c2b5296c7107430e233f0effdcc7fc9e 1928 javatools_0.78.dsc
+ 8981c395c32ad33f8ae8fbd30bca3e1e 54832 javatools_0.78.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/javatools
+Vcs-Git: https://salsa.debian.org/java-team/javatools.git
+Checksums-Sha256:
+ 676102fd960483b385431c24107e3d3d200afce6b59ddcff291b1da171dfb239 1928 javatools_0.78.dsc
+ 425aa0022ff0afe98a61d8281e58fd807d70e7fd74317d6e0092652fb94d1b0a 54832 javatools_0.78.tar.xz
+Package-List: 
+ jarwrapper deb java optional arch=all
+ java-propose-classpath deb java optional arch=all
+ javahelper deb java optional arch=all
+Directory: pool/main/j/javatools
+Priority: source
+Section: java

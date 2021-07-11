@@ -1,0 +1,26 @@
+Package: node-yaml
+Binary: node-yaml
+Version: 1.10.0-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs (>= 0.9.62~), jest <!nocheck>, node-babel7, node-rollup-plugin-babel, node-tslib <!nocheck>, node-typescript <!nocheck>, rollup
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6db7bb8f026dc161d93fa08a79652fd3 2112 node-yaml_1.10.0-4.dsc
+ 5c4e76ce0f45aae812d4497b96c1a875 212533 node-yaml_1.10.0.orig.tar.gz
+ fff9e17858e28c46aa62f4401ef2f6db 118432 node-yaml_1.10.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-yaml
+Vcs-Git: https://salsa.debian.org/js-team/node-yaml.git
+Checksums-Sha256:
+ e515fd63106a2b88974210fb3740625dea8c6c88b5f70f34090709aaa520b485 2112 node-yaml_1.10.0-4.dsc
+ a641a8ffda89b5805106b74833f7835d53fab3f5e87cb462f871f8ce1e620b73 212533 node-yaml_1.10.0.orig.tar.gz
+ 2fdd1c87ed363b543c0215278aa46804720533e68683a48fa4452aeadf307b0f 118432 node-yaml_1.10.0-4.debian.tar.xz
+Homepage: https://eemeli.org/yaml/
+Package-List: 
+ node-yaml deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-yaml
+Priority: extra
+Section: misc

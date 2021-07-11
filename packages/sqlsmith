@@ -1,0 +1,27 @@
+Package: sqlsmith
+Binary: sqlsmith
+Version: 1.2.1-1
+Maintainer: Andreas Seltenreich <seltenreich@gmx.de>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: autoconf, autoconf-archive, debhelper (>= 9), libboost-regex-dev, libpq-dev, libpqxx-dev (>= 4.0), libsqlite3-dev
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ b513d26941ce9a9acd6f68d9ea1e2901 2015 sqlsmith_1.2.1-1.dsc
+ 752a941af4250446d1d6128d72209efd 256835 sqlsmith_1.2.1.orig.tar.gz
+ 57bb73c7bfe7b9f348f8ffdc4519fa05 1696 sqlsmith_1.2.1-1.debian.tar.xz
+Vcs-Browser: https://github.com/anse1/sqlsmith
+Vcs-Git: https://github.com/anse1/sqlsmith.git -b debian
+Checksums-Sha256:
+ fac88862804716202b00767de45a60fe4ed661df81ca8a52557d86fe8324a453 2015 sqlsmith_1.2.1-1.dsc
+ a136a8162487555e6aded49c7082189eacf0117cf2c64456c3bc0838071bcb00 256835 sqlsmith_1.2.1.orig.tar.gz
+ 7a0916e65097734bb25ce98178c6dee0003da00465148ddf71b676db85e0714d 1696 sqlsmith_1.2.1-1.debian.tar.xz
+Homepage: https://github.com/anse1/sqlsmith
+Package-List: 
+ sqlsmith deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: postgresql
+Directory: pool/main/s/sqlsmith
+Priority: optional
+Section: misc

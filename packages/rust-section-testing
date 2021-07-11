@@ -1,0 +1,26 @@
+Package: rust-section-testing
+Binary: librust-section-testing-dev
+Version: 0.0.4-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Nikos Tsipinakis <nikos@tsipinakis.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 3e2895434c093f2ca19aa5234c1366e8 2193 rust-section-testing_0.0.4-2.dsc
+ 82d23d1b89a2d4ccb381ba72f0b3f0db 4362 rust-section-testing_0.0.4.orig.tar.gz
+ 34180ce7ce3568d15fb5188ba0bd163d 2528 rust-section-testing_0.0.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/section-testing
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/section-testing]
+Checksums-Sha256:
+ a46faf2f554816bf87b26ca49222233d78fd1908fb53879848f1eb5c157005d6 2193 rust-section-testing_0.0.4-2.dsc
+ ece4d7d98fdab75ddff5c4fad54a4c7ad0222a13c8a3c6859f1037a1d9e53f28 4362 rust-section-testing_0.0.4.orig.tar.gz
+ 91c2bcd045c5a53ac397d86c6ac7fdf1de394af77f996f2d977f408684dbc2db 2528 rust-section-testing_0.0.4-2.debian.tar.xz
+Package-List: 
+ librust-section-testing-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-section-testing
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: alsa-plugins
+Binary: libasound2-plugins
+Version: 1.2.2-2
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Uploaders: Jordi Mallach <jordi@debian.org>, Elimar Riesebieter <riesebie@lxtec.de>, Luke Yelavich <themuso@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), libasound2-dev (>= 1.1.8), libavcodec-dev, libavresample-dev, libavutil-dev, libdbus-1-dev (>= 1.4.12-3~), libjack-dev (>= 1:0.121.0+svn4538-2~), libpulse-dev (>= 0.99.1-1~), libsamplerate0-dev | libsamplerate-dev, libspeexdsp-dev
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 29b896a97a25670ac5818d0c31a8c00a 2276 alsa-plugins_1.2.2-2.dsc
+ 8455e3c6fbc47f62f070afabc14ba575 406494 alsa-plugins_1.2.2.orig.tar.bz2
+ 0a2797ffab7c4274b156b36c748a2353 8336 alsa-plugins_1.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/alsa-team/alsa-plugins
+Vcs-Git: https://salsa.debian.org/alsa-team/alsa-plugins.git
+Checksums-Sha256:
+ 68098fe3d766a40074f13d275e72be270128805fe76e47168d14a302a56dc5e4 2276 alsa-plugins_1.2.2-2.dsc
+ 1c0f06450c928d711719686c9dbece2d480184f36fab11b8f0534cb7b41e337d 406494 alsa-plugins_1.2.2.orig.tar.bz2
+ fcbdf8b2faa30cf8b3f902a590542718b08b26e341ce6a220f6d420f6ef1119a 8336 alsa-plugins_1.2.2-2.debian.tar.xz
+Homepage: https://www.alsa-project.org/
+Package-List: 
+ libasound2-plugins deb libs optional arch=linux-any
+Directory: pool/main/a/alsa-plugins
+Priority: source
+Section: libs

@@ -1,0 +1,25 @@
+Package: mojo-executor
+Binary: libmojo-executor-java
+Version: 2.3.1-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper (>= 12), default-jdk, libcommons-lang-java (>= 2.5), libmaven-invoker-plugin-java, libmaven-plugin-tools-java (>= 3.5), libmaven3-core-java, libplexus-utils2-java (>= 2.1), libslf4j-java (>= 1.7.22), maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 9c1e7de323453b777db5747a42eb91be 2228 mojo-executor_2.3.1-1.dsc
+ 3dd704998ad5058a16ae0a97e983de25 12996 mojo-executor_2.3.1.orig.tar.xz
+ b694736c56f24dcfc075cd0f45572f89 2600 mojo-executor_2.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/mojo-executor
+Vcs-Git: https://salsa.debian.org/java-team/mojo-executor.git
+Checksums-Sha256:
+ 22d60388e59601611a3b37201010c108f6e22d2f0d95026de774324101247c82 2228 mojo-executor_2.3.1-1.dsc
+ 49a1ed5c153f67c7e424aa502fe7ace92011ff0186a26c8ddda7f97fe97cc066 12996 mojo-executor_2.3.1.orig.tar.xz
+ 4ce9a35b5687aeb1c78a2ea37802c8d3e473779a7ed5ad1fdb0a83295dc510bb 2600 mojo-executor_2.3.1-1.debian.tar.xz
+Homepage: https://timmoore.github.com/mojo-executor/
+Package-List: 
+ libmojo-executor-java deb java optional arch=all
+Directory: pool/main/m/mojo-executor
+Priority: extra
+Section: misc

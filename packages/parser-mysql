@@ -1,0 +1,24 @@
+Package: parser-mysql
+Binary: parser3-mysql
+Version: 10.8-3
+Maintainer: Sergey B Kirpichev <skirpichev@gmail.com>
+Build-Depends: debhelper-compat (= 13), parser3-dev (>= 3.4.2), libmariadb-dev-compat, libltdl-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8563096afdc8c48d1a7b1c3618efdd5b 1934 parser-mysql_10.8-3.dsc
+ 6acf267f83fe12f46aca012860f400cb 631626 parser-mysql_10.8.orig.tar.gz
+ 56550d2d238f1cc56d657ad7a16f6a62 3560 parser-mysql_10.8-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/sk-guest/parser-mysql
+Vcs-Git: https://salsa.debian.org/sk-guest/parser-mysql.git
+Checksums-Sha256:
+ 1b8c59f2edf78f8f1a46c38d498c384851c667836b3d27dec269a20244fb6ad1 1934 parser-mysql_10.8-3.dsc
+ 18ace4dccd3e10f1ff18e8cbc83a99d93239642e332b69482237fc2f3d244bc4 631626 parser-mysql_10.8.orig.tar.gz
+ 39294ba70f4bee86a85048eab8d851aa5472c8ad046d2ff7f889a5dd2f0e9f9c 3560 parser-mysql_10.8-3.debian.tar.xz
+Homepage: http://www.parser.ru/en/download/src/
+Package-List: 
+ parser3-mysql deb web optional arch=any
+Directory: pool/main/p/parser-mysql
+Priority: source
+Section: web

@@ -1,0 +1,27 @@
+Package: node-test
+Binary: node-test
+Version: 0.6.0-9
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>, Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper (>= 11), dh-buildinfo, dpkg-dev (>= 1.17.14), nodejs (>= 6), node-ansi-font (>= 0.0.2) <!nocheck>
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ e86ae8a3f6de1dbf163436d652c9323d 2105 node-test_0.6.0-9.dsc
+ 056510f2aab7e64d170fae0ed1e475af 12198 node-test_0.6.0.orig.tar.gz
+ d6d360ad4c32e72e39c33cd3a57a56a2 4876 node-test_0.6.0-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-test
+Vcs-Git: https://salsa.debian.org/js-team/node-test.git
+Checksums-Sha256:
+ ee3959bb87ea73456c26453e0675c70ddd8f3aa093e1210fa0b0637c73fb5820 2105 node-test_0.6.0-9.dsc
+ 1e8fba2eea02e94e4037a2c921850dd53e83a7a2f0194f6407e64c18e450d298 12198 node-test_0.6.0.orig.tar.gz
+ 1651effcc28f8480979195e1e3d4c212abe597fe7374d143aa2bd8d34319c9cf 4876 node-test_0.6.0-9.debian.tar.xz
+Homepage: https://github.com/Gozala/test-commonjs/
+Package-List: 
+ node-test deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: nodejs
+Directory: pool/main/n/node-test
+Priority: optional
+Section: javascript

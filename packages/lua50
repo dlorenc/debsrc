@@ -1,0 +1,29 @@
+Package: lua50
+Binary: lua50, lua50-doc, liblua50, liblua50-dev, liblualib50, liblualib50-dev
+Version: 5.0.3-8.1
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Build-Depends: debhelper (>= 5), libreadline-dev, quilt (>= 0.40)
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 1dd63bb80c5492019b80b72c6101796d 2107 lua50_5.0.3-8.1.dsc
+ feee27132056de2949ce499b0ef4c480 191384 lua50_5.0.3.orig.tar.gz
+ add6f1ac760d26d18d1370fc82243ff9 14044 lua50_5.0.3-8.1.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=pkg-lua/lua50.git
+Vcs-Git: git://git.debian.org/git/pkg-lua/lua50.git
+Checksums-Sha256:
+ 5a132acc8afd0b2b9f6c71538546175e2b77bc1f2df32dfd9078472af7e2a1d2 2107 lua50_5.0.3-8.1.dsc
+ 1193a61b0e08acaa6eee0eecf29709179ee49c71baebc59b682a25c3b5a45671 191384 lua50_5.0.3.orig.tar.gz
+ b618b3a3e7e9284550c370394fe8bd379f7503fda137a21ebf5ba53190211a03 14044 lua50_5.0.3-8.1.debian.tar.xz
+Homepage: http://www.lua.org
+Package-List: 
+ liblua50 deb libs optional arch=any
+ liblua50-dev deb libdevel optional arch=any
+ liblualib50 deb libs optional arch=any
+ liblualib50-dev deb libdevel optional arch=any
+ lua50 deb interpreters optional arch=any
+ lua50-doc deb doc optional arch=all
+Directory: pool/main/l/lua50
+Priority: source
+Section: interpreters

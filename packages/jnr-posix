@@ -1,0 +1,26 @@
+Package: jnr-posix
+Binary: libjnr-posix-java, libjnr-posix-java-doc
+Version: 3.0.45-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Jakub Adam <jakub.adam@ktknet.cz>, Tim Potter <tpot@hp.com>, Miguel Landaeta <nomadium@debian.org>
+Build-Depends: bnd (>= 2.1.0), debhelper (>= 11~), default-jdk, javahelper, junit4, libjffi-java (>= 1.2.7~), libjnr-constants-java (>= 0.9.6~), libjnr-ffi-java (>= 2.1.2~), libjnr-x86asm-java (>= 1.0.2~), libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 151e47f14ab8cd1da0f70c1d587f286a 2475 jnr-posix_3.0.45-2.dsc
+ 97142ff01032d129464358dee112c38b 128768 jnr-posix_3.0.45.orig.tar.gz
+ 1c9635afb167a0329f922ea118ef3736 8980 jnr-posix_3.0.45-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jnr-posix
+Vcs-Git: https://salsa.debian.org/java-team/jnr-posix.git
+Checksums-Sha256:
+ 4e1df280f7ae565679e3f4675d7f1c4e6fdf55bc0381975b78bc2f6008eaeb20 2475 jnr-posix_3.0.45-2.dsc
+ cd779ae91d416a9375dd3138df2ae959bf9a26510d7a2fc4f1ce635f4c1c4555 128768 jnr-posix_3.0.45.orig.tar.gz
+ ea855a3eeaf727357b106232063dce522cc9cea8b5f2676024802396e3190f75 8980 jnr-posix_3.0.45-2.debian.tar.xz
+Homepage: https://github.com/jnr/jnr-posix
+Package-List: 
+ libjnr-posix-java deb java optional arch=all
+ libjnr-posix-java-doc deb doc optional arch=all
+Directory: pool/main/j/jnr-posix
+Priority: optional
+Section: misc

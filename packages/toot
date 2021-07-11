@@ -1,0 +1,25 @@
+Package: toot
+Binary: toot
+Version: 0.27.0-1
+Maintainer: Jonathan Carter <jcc@debian.org>
+Uploaders: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pytest, python3-setuptools, python3-bs4, python3-requests, python3-wcwidth
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 266f4e95a9fb61f563d097dabaac59cc 2031 toot_0.27.0-1.dsc
+ 2d71d8e8aba7af84c52ef6cff5865b62 67199 toot_0.27.0.orig.tar.gz
+ 8b044c31830c8b35fb1e9788b2e3ce3c 2636 toot_0.27.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/toot
+Vcs-Git: https://salsa.debian.org/python-team/applications/toot.git
+Checksums-Sha256:
+ c3ddd488301cc02f3ee33595d4cc4df446b98eafa71b74dfb88063131ab47c01 2031 toot_0.27.0-1.dsc
+ 1dfdba9acc8555fa3b4db903cbf806a639bf43c7855d324233041c655fc5cbd5 67199 toot_0.27.0.orig.tar.gz
+ ede075fae9123502003ab2099869d611df759468c7e18dbb525d6ad4e2857615 2636 toot_0.27.0-1.debian.tar.xz
+Homepage: https://github.com/ihabunek/toot
+Package-List: 
+ toot deb web optional arch=all
+Directory: pool/main/t/toot
+Priority: extra
+Section: misc

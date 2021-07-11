@@ -1,0 +1,31 @@
+Package: brasero
+Binary: brasero, brasero-common, brasero-cdrkit, libbrasero-media3-1, libbrasero-media3-dev, gir1.2-brasero-3.1, nautilus-extension-brasero
+Version: 3.12.2-6
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Jordi Mallach <jordi@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper (>= 11), gnome-common, gnome-pkg-tools (>= 0.7), yelp-tools, gtk-doc-tools (>= 1.12), pkg-config, libcam-dev [kfreebsd-any], libglib2.0-dev (>= 2.29.14), libgstreamer1.0-dev (>= 0.11.92), libgstreamer-plugins-base1.0-dev (>= 0.11.92), libxml2-dev (>= 2.6.0), libsm-dev, libice-dev, libgtk-3-dev (>= 3.0.0), libnotify-dev (>= 0.6.1), libcanberra-dev (>= 0.1), libcanberra-gtk3-dev (>= 0.1), libnautilus-extension-dev (>= 3.21.92-3~), libburn-dev (>= 0.4.0), libisofs-dev (>= 0.6.4), libtracker-sparql-2.0-dev, libtotem-plparser-dev (>= 2.32), gobject-introspection (>= 0.6.3), libgirepository1.0-dev (>= 0.6.3), intltool (>= 0.50), libglib2.0-doc, libgtk-3-doc
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ cd6394ef33c9d2868fa5543087925dd7 3128 brasero_3.12.2-6.dsc
+ 2dec59c179e49e37f1cfc0dd26344a2e 3742120 brasero_3.12.2.orig.tar.xz
+ 11483fad1ae4a2bb2fb4349ffbb3301b 17804 brasero_3.12.2-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/brasero.git
+Vcs-Git: https://salsa.debian.org/gnome-team/brasero.git
+Checksums-Sha256:
+ 5a88c956a725424c4cf1f38ac0f17fa9e1b6f76bdfe8c02fae9e2721026097f2 3128 brasero_3.12.2-6.dsc
+ 6822166f9d08efcf8d900cab6f563e87f49f0e078ca10595dcd908498ef12041 3742120 brasero_3.12.2.orig.tar.xz
+ ba79bb6505f5f5db1aa258a2fc065f8de211b9342c1f3ea1df4fd623d47c81a7 17804 brasero_3.12.2-6.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Brasero
+Package-List: 
+ brasero deb gnome optional arch=any
+ brasero-cdrkit deb gnome optional arch=any
+ brasero-common deb gnome optional arch=all
+ gir1.2-brasero-3.1 deb introspection optional arch=any
+ libbrasero-media3-1 deb libs optional arch=any
+ libbrasero-media3-dev deb libdevel optional arch=any
+ nautilus-extension-brasero deb gnome optional arch=any
+Directory: pool/main/b/brasero
+Priority: source
+Section: gnome

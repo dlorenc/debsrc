@@ -1,0 +1,27 @@
+Package: chardet
+Binary: python3-chardet
+Version: 4.0.0-1
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Uploaders: Mark Pilgrim <mark@diveintomark.org>, Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>, Daniele Tricoli <eriol@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-hypothesis, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a613b1c83d86ac31e39416c09b2fe2b4 2191 chardet_4.0.0-1.dsc
+ bc9a5603d8d0994b2d4cbf255f99e654 1907771 chardet_4.0.0.orig.tar.gz
+ 6a25f647842950eeb38270c9abea7309 4868 chardet_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/chardet
+Vcs-Git: https://salsa.debian.org/python-team/packages/chardet.git
+Checksums-Sha256:
+ 1e043212ccd9689294fc57151c4f33bee67a406581bc9943d3b51780aeb4d333 2191 chardet_4.0.0-1.dsc
+ 0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa 1907771 chardet_4.0.0.orig.tar.gz
+ 9f5c025839874ab66baa2423d542a9af4520b9c15d7bfa09a5439b1d972058d9 4868 chardet_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/chardet/chardet
+Package-List: 
+ python3-chardet deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-hypothesis, python3-pytest
+Directory: pool/main/c/chardet
+Priority: source
+Section: python

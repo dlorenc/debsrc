@@ -1,0 +1,29 @@
+Package: jsofa
+Binary: libjsofa-java, libjsofa-java-doc
+Version: 0~20200721-1
+Maintainer: Debian Astro Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: default-jdk-doc, libmaven-antrun-plugin-java (>= 1.8), libwagon-java, libwagon-ssh-java, libmaven-javadoc-plugin-java (>= 3.0.1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d162b09620f105107569e1c7a86f638a 2268 jsofa_0~20200721-1.dsc
+ 49532539f7086636e91100af045049de 311477 jsofa_0~20200721.orig.tar.gz
+ cb6c75137e759430c505a148bd1d6ce9 5356 jsofa_0~20200721-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/jsofa
+Vcs-Git: https://salsa.debian.org/debian-astro-team/jsofa.git
+Checksums-Sha256:
+ 53b2f7f24cecd4f262d47ae659a8d17809801787474ba2c7f7d9ff2b831f95ff 2268 jsofa_0~20200721-1.dsc
+ ee225bc9979bd54a903bbc0635c3e51929d05e83a640bfb13c2f3b7a5e3670b5 311477 jsofa_0~20200721.orig.tar.gz
+ c3fc19b1742b5da9e27f8926421a3293cc2a6a501fbc8aa6cf059d500d492f62 5356 jsofa_0~20200721-1.debian.tar.xz
+Homepage: https://javastro.github.io/jsofa/
+Package-List: 
+ libjsofa-java deb java optional arch=all
+ libjsofa-java-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: default-jdk, junit4
+Directory: pool/main/j/jsofa
+Priority: extra
+Section: misc

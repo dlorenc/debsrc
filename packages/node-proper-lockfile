@@ -1,0 +1,26 @@
+Package: node-proper-lockfile
+Binary: node-proper-lockfile
+Version: 4.1.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-async <!nocheck>, node-expect.js <!nocheck>, node-graceful-fs (>= 4.1.2) <!nocheck>, node-retry <!nocheck>, node-rimraf <!nocheck>, node-signal-exit <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 652f23582d35d49790bd291a4050282e 2313 node-proper-lockfile_4.1.1-2.dsc
+ 4a448916a3605d792f1b58bc99b5b74f 87543 node-proper-lockfile_4.1.1.orig.tar.gz
+ 1b82e1b61fd2a03fe9868fc74ea6e922 2580 node-proper-lockfile_4.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-proper-lockfile
+Vcs-Git: https://salsa.debian.org/js-team/node-proper-lockfile.git
+Checksums-Sha256:
+ 1a9b7f7cf10fd40cfb56038ce0c68f9635b5819b717d70c85f4a05d88f383275 2313 node-proper-lockfile_4.1.1-2.dsc
+ ee352a86023fd1adbc04561d29b5ef0f04fe9a35deae24ab09d22a54bc23242e 87543 node-proper-lockfile_4.1.1.orig.tar.gz
+ b1e27787ecba52ffbf8b57729c02ca88dc663f1558567d8b6445866cafa025b4 2580 node-proper-lockfile_4.1.1-2.debian.tar.xz
+Homepage: https://github.com/IndigoUnited/node-proper-lockfile
+Package-List: 
+ node-proper-lockfile deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-proper-lockfile
+Priority: optional
+Section: javascript

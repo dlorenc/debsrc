@@ -1,0 +1,28 @@
+Package: libxml-dt-perl
+Binary: libxml-dt-perl
+Version: 0.69-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nuno Carvalho <smash@cpan.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: perl, libhttp-tiny-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libxml-dtdparser-perl <!nocheck>, libxml-libxml-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 44686c383b0bcda0dcea2e57f831781c 2460 libxml-dt-perl_0.69-1.dsc
+ 0be0d0a63608b2df6000928356e10e02 31757 libxml-dt-perl_0.69.orig.tar.gz
+ b6a34caafe173a77d6b1711a79ebd5b2 2796 libxml-dt-perl_0.69-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxml-dt-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxml-dt-perl.git
+Checksums-Sha256:
+ d5ef16d15948860e4095f4d33436a34542ecb9e46c0387bd9969e9554b1594a4 2460 libxml-dt-perl_0.69-1.dsc
+ 2f80b710ae0af4e700e7b94840fecab2c3af1268ea28562db26ce297bc81368d 31757 libxml-dt-perl_0.69.orig.tar.gz
+ de1d12052d7e9e2a41e84dfb2caedba98bea941f6acbb7fcfe303d7dde49110a 2796 libxml-dt-perl_0.69-1.debian.tar.xz
+Homepage: https://metacpan.org/release/XML-DT
+Dgit: 7141ae050caa5680a3a22631100239d483031d65 debian archive/debian/0.69-1 https://git.dgit.debian.org/libxml-dt-perl
+Package-List: 
+ libxml-dt-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libx/libxml-dt-perl
+Priority: source
+Section: perl

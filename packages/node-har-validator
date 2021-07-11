@@ -1,0 +1,26 @@
+Package: node-har-validator
+Binary: node-har-validator
+Version: 5.1.5-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-ajv (>= 6.5.5~) <!nocheck>, node-har-schema <!nocheck>, node-tap <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f4e03964cb6db956fb3e05e8d33ff2e7 2172 node-har-validator_5.1.5-1.dsc
+ f349c66a9862e2524302b86a2baba31f 36307 node-har-validator_5.1.5.orig.tar.gz
+ 07c150b0d430737d7b11210abd7aaa3b 2996 node-har-validator_5.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-har-validator
+Vcs-Git: https://salsa.debian.org/js-team/node-har-validator.git
+Checksums-Sha256:
+ d2c25aa1336541a0ee7940f67e82215b4215225d4788fde45e7f5e027abdc7e2 2172 node-har-validator_5.1.5-1.dsc
+ 5d5703fb541b418e3962aebb174b96ddb88be761e86cda33fe73ada9416af6fb 36307 node-har-validator_5.1.5.orig.tar.gz
+ a08d0cb8e7751fe343bbbe477474d2daf2dc324e6395e4dc4c5805085971faeb 2996 node-har-validator_5.1.5-1.debian.tar.xz
+Homepage: https://github.com/ahmadnassri/har-validator
+Package-List: 
+ node-har-validator deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-har-validator
+Priority: optional
+Section: javascript

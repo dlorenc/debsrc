@@ -1,0 +1,32 @@
+Package: libpeas
+Binary: libpeas-1.0-0, libpeas-dev, libpeas-doc, libpeas-common, gir1.2-peas-1.0
+Version: 1.28.0-2
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Build-Depends: adwaita-icon-theme <!nocheck>, debhelper-compat (= 12), dh-sequence-gir, dh-sequence-gnome, gnome-common, gtk-doc-tools (>= 1.11), intltool (>= 0.40), libgirepository1.0-dev (>= 1.39.0), libgirepository1.0-doc <!nodoc>, libgladeui-dev, libglib2.0-dev (>= 2.38.0), libglib2.0-doc <!nodoc>, libgtk-3-dev (>= 3.0.0), libgtk-3-doc <!nodoc>, meson (>= 0.47.1), python-gi-dev (>= 3.7.2), python3-dev (>= 3.2.0), python3-gi (>= 3.7.2), xauth <!nocheck>, xvfb <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 363b0fa28eac31702fe3d9c3c91e439a 3011 libpeas_1.28.0-2.dsc
+ 62a5d01e9561f8fafca68e2863640735 191896 libpeas_1.28.0.orig.tar.xz
+ 6da29e0c4312839948d0b380f8c15ef4 10984 libpeas_1.28.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/libpeas
+Vcs-Git: https://salsa.debian.org/gnome-team/libpeas.git
+Checksums-Sha256:
+ 7a3791132c226af8e110def6b5d17059712c0f23bf427a19b6bdf4efd27d3c5a 3011 libpeas_1.28.0-2.dsc
+ 42d91993b46ed50f16add6d9577ecc22beb8e2dffa7101e2232c2b63733b8b15 191896 libpeas_1.28.0.orig.tar.xz
+ c749d2af48696a162d868d5fad083b26c2464ed95d3c4bdf303aa7f92e782780 10984 libpeas_1.28.0-2.debian.tar.xz
+Homepage: https://wiki.gnome.org/Projects/Libpeas
+Dgit: b0c5ff8c373c1c69967f36b60e941b65219df111 debian archive/debian/1.28.0-2 https://git.dgit.debian.org/libpeas
+Package-List: 
+ gir1.2-peas-1.0 deb introspection optional arch=any
+ libpeas-1.0-0 deb libs optional arch=any
+ libpeas-common deb libs optional arch=all
+ libpeas-dev deb libdevel optional arch=any
+ libpeas-doc deb doc optional arch=any profile=!nodoc
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config, python3, python3-gi
+Directory: pool/main/libp/libpeas
+Priority: source
+Section: libs

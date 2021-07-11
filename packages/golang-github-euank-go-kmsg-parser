@@ -1,0 +1,28 @@
+Package: golang-github-euank-go-kmsg-parser
+Binary: golang-github-euank-go-kmsg-parser-dev
+Version: 2.0.1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9567de26fb2cfb1964d6f972b172e8bb 1778 golang-github-euank-go-kmsg-parser_2.0.1-2.dsc
+ a655ed8f54bc69aacb8507013fafbadb 8757 golang-github-euank-go-kmsg-parser_2.0.1.orig.tar.gz
+ 91dde89ee49c3264762bb7436694ea6a 2316 golang-github-euank-go-kmsg-parser_2.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-euank-go-kmsg-parser
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-euank-go-kmsg-parser.git
+Checksums-Sha256:
+ 9409c15e32e47049787c87466dbd0989b772ad5cde1d40850ee0f34c00369bbe 1778 golang-github-euank-go-kmsg-parser_2.0.1-2.dsc
+ 557d57ef558485211cedf7605b7b50bca50b62cf8b7c3c27ca0e73808b3e33e8 8757 golang-github-euank-go-kmsg-parser_2.0.1.orig.tar.gz
+ 568a772840928fe6eac83329ff836e45f27684a05eb57182e879795bc7c131fa 2316 golang-github-euank-go-kmsg-parser_2.0.1-2.debian.tar.xz
+Homepage: https://github.com/euank/go-kmsg-parser
+Go-Import-Path: github.com/euank/go-kmsg-parser
+Package-List: 
+ golang-github-euank-go-kmsg-parser-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-euank-go-kmsg-parser
+Priority: extra
+Section: golang

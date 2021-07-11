@@ -1,0 +1,31 @@
+Package: twisted
+Binary: python3-twisted, python3-twisted-bin, python3-twisted-bin-dbg, twisted-doc
+Version: 20.3.0-7
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, patch, python2-doc, python3-all-dev, python3-all-dbg, python3-hamcrest, python3-zope.interface (>= 4.0.2), python3-setuptools, python3-incremental, python3-constantly, python3-automat (>= 0.6.0), python3-hyperlink, python3-doc
+Build-Depends-Indep: python3-sphinx <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7ea1623e93d01166219e9f816d032d73 2510 twisted_20.3.0-7.dsc
+ fc16d575730db7d0cddd09fc35af3eea 3127793 twisted_20.3.0.orig.tar.bz2
+ c35e03063e0012221aee792db1f49599 31184 twisted_20.3.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/twisted
+Vcs-Git: https://salsa.debian.org/python-team/packages/twisted.git
+Checksums-Sha256:
+ cf201f91ea05271b12f6087b66836805208155060bebe828a5874f118dbd9d5c 2510 twisted_20.3.0-7.dsc
+ d72c55b5d56e176563b91d11952d13b01af8725c623e498db5507b6614fc1e10 3127793 twisted_20.3.0.orig.tar.bz2
+ 49e9ccc89044bf18c90a543dd7cda41089db5c593357bfd692137c5e78315c9e 31184 twisted_20.3.0-7.debian.tar.xz
+Homepage: https://twistedmatrix.com/
+Package-List: 
+ python3-twisted deb python optional arch=all
+ python3-twisted-bin deb python optional arch=any
+ python3-twisted-bin-dbg deb debug optional arch=any
+ twisted-doc deb doc optional arch=all profile=!nodoc
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-hamcrest, python3-setuptools
+Directory: pool/main/t/twisted
+Priority: source
+Section: net

@@ -1,0 +1,35 @@
+Package: bluez
+Binary: libbluetooth3, libbluetooth-dev, bluetooth, bluez, bluez-cups, bluez-obexd, bluez-meshd, bluez-hcidump, bluez-test-tools, bluez-test-scripts, bluez-source
+Version: 5.55-3.1
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper-compat (= 13), flex, bison, libdbus-1-dev (>= 1.6), libglib2.0-dev, libcap-ng-dev, libdw-dev, libudev-dev, libreadline-dev, libical-dev, libasound2-dev, libell-dev (>= 0.28), libjson-c-dev (>= 0.13), udev, check, systemd
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 379cd0a0154edecd6c203496ae9abd7a 2884 bluez_5.55-3.1.dsc
+ e7c87deadb74346f77a61ebee70bf375 1700208 bluez_5.55.orig.tar.xz
+ 296230c600fd215fd912510167d53044 35236 bluez_5.55-3.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/bluetooth-team/bluez
+Vcs-Git: https://salsa.debian.org/bluetooth-team/bluez.git
+Checksums-Sha256:
+ e7c6c6ec99c424816d900cb8edcda82ffec2c2c7c0eafaec0721939848e0fe72 2884 bluez_5.55-3.1.dsc
+ f06520e1e48bddc88db1a5c5a60ee97b36b47409c352352374bf07a594400ac4 1700208 bluez_5.55.orig.tar.xz
+ 1afdaa4b1e3ae66e8181b879910abcbf7d693d0a6b3f0b4f22b136efc1e650df 35236 bluez_5.55-3.1.debian.tar.xz
+Homepage: http://www.bluez.org
+Package-List: 
+ bluetooth deb admin optional arch=all
+ bluez deb admin optional arch=linux-any
+ bluez-cups deb admin optional arch=linux-any
+ bluez-hcidump deb admin optional arch=linux-any
+ bluez-meshd deb admin optional arch=linux-any
+ bluez-obexd deb admin optional arch=linux-any
+ bluez-source deb admin optional arch=all
+ bluez-test-scripts deb admin optional arch=all
+ bluez-test-tools deb admin optional arch=linux-any
+ libbluetooth-dev deb libdevel optional arch=linux-any
+ libbluetooth3 deb libs optional arch=linux-any
+Directory: pool/main/b/bluez
+Priority: source
+Section: admin

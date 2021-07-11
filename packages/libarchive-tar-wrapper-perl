@@ -1,0 +1,28 @@
+Package: libarchive-tar-wrapper-perl
+Binary: libarchive-tar-wrapper-perl
+Version: 0.38-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: intrigeri <intrigeri@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libfile-which-perl, libipc-run-perl <!nocheck>, liblog-log4perl-perl <!nocheck>, libtest-simple-perl (>= 1.302073) <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 26ef3b6d1f1b175deedc602bbb94da7e 2596 libarchive-tar-wrapper-perl_0.38-1.dsc
+ d7dc2ce1f265aaf2fa8911869cb86580 38425 libarchive-tar-wrapper-perl_0.38.orig.tar.gz
+ bd5dccdea35f00d44a086f8491c04736 2884 libarchive-tar-wrapper-perl_0.38-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libarchive-tar-wrapper-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libarchive-tar-wrapper-perl.git
+Checksums-Sha256:
+ 0d337e3ac4a1916279fd2b112cc2c5d00a2d2feac9ad67fb910c7517c854111e 2596 libarchive-tar-wrapper-perl_0.38-1.dsc
+ 19f3d0daa8b95cffb68c704350dd0674a23e1d2f14d032903b7e9609edb7b37a 38425 libarchive-tar-wrapper-perl_0.38.orig.tar.gz
+ 415d162a654a8421a0c3ad39c074792a2125b88912428cda64932d4903609fe6 2884 libarchive-tar-wrapper-perl_0.38-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Archive-Tar-Wrapper
+Dgit: d2031f7afddbb85523b902f8857e11b0c8097eb7 debian archive/debian/0.38-1 https://git.dgit.debian.org/libarchive-tar-wrapper-perl
+Package-List: 
+ libarchive-tar-wrapper-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liba/libarchive-tar-wrapper-perl
+Priority: source
+Section: perl

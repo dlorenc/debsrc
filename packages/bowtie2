@@ -1,0 +1,27 @@
+Package: bowtie2
+Binary: bowtie2, bowtie2-examples
+Version: 2.4.2-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Alexandre Mestiashvili <mestia@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, libtbb-dev, python3, liblocal-lib-perl, libtest-deep-perl, libclone-perl, libfile-which-perl, zlib1g-dev, libsimde-dev
+Architecture: any-amd64 arm64 mips64el ppc64el s390x ia64 m68k ppc64 riscv64 sh4 sparc64 all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8ba86af5d67d1cf3ce6e383d08cae313 2350 bowtie2_2.4.2-2.dsc
+ d5f8674aed8bdbf6b96bd07f3df528ee 10590144 bowtie2_2.4.2.orig.tar.gz
+ 711d0c1b45ef9f175e04af81fd523d0a 17536 bowtie2_2.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/bowtie2
+Vcs-Git: https://salsa.debian.org/med-team/bowtie2.git
+Checksums-Sha256:
+ 2e82e1a135213c60b3e7741f86df9a48a98f09385a90911f11e44e657664aa94 2350 bowtie2_2.4.2-2.dsc
+ ea33a1562faf759b21b3a905e20b87a3524ac4e53af8cd723d9a9f31ee159c8a 10590144 bowtie2_2.4.2.orig.tar.gz
+ 2bb28268081cf0f96524e51d647743f28c9b44aee6b8e6d0d7a9bc960057fffe 17536 bowtie2_2.4.2-2.debian.tar.xz
+Homepage: http://bowtie-bio.sourceforge.net/bowtie2
+Package-List: 
+ bowtie2 deb science optional arch=any-amd64,arm64,mips64el,ppc64el,s390x,ia64,m68k,ppc64,riscv64,sh4,sparc64
+ bowtie2-examples deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/b/bowtie2
+Priority: source
+Section: science

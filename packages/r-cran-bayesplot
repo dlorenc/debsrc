@@ -1,0 +1,27 @@
+Package: r-cran-bayesplot
+Binary: r-cran-bayesplot
+Version: 1.8.0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-dplyr (>= 0.8.0), r-cran-ggplot2 (>= 3.0.0), r-cran-ggridges, r-cran-glue, r-cran-reshape2, r-cran-rlang, r-cran-tibble, r-cran-tidyselect
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e7ba42895bd8f6aa1016ce1aff86ffc6 2323 r-cran-bayesplot_1.8.0-1.dsc
+ 22724c87816cbc978364910651535847 4628147 r-cran-bayesplot_1.8.0.orig.tar.gz
+ e347541ea68a877b4fc45171ed09c0f6 3632 r-cran-bayesplot_1.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-bayesplot
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-bayesplot.git
+Checksums-Sha256:
+ 8b85cb7cfef9891e4dfdbbc0c8b8a271bd63a9d1cc90e4a4a1b4b84b68215004 2323 r-cran-bayesplot_1.8.0-1.dsc
+ a605f9929e681593a3ef3ca9c836e713314994aaea00f359f71cfc42d151c948 4628147 r-cran-bayesplot_1.8.0.orig.tar.gz
+ da54e61192fa2aae8037933e67ed47fb2684e5b26ce55ef277c83aa1e5985cc3 3632 r-cran-bayesplot_1.8.0-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=bayesplot
+Package-List: 
+ r-cran-bayesplot deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-hexbin, r-cran-rstanarm, r-cran-testthat, r-cran-vdiffr
+Directory: pool/main/r/r-cran-bayesplot
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-enumflags2-derive
+Binary: librust-enumflags2-derive-dev
+Version: 0.6.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 19373984d6456bd4f8b91645d920ab60 1991 rust-enumflags2-derive_0.6.4-1.dsc
+ 3d2977b047e366303274ab03ebef1c2b 3659 rust-enumflags2-derive_0.6.4.orig.tar.gz
+ 0641fd6935ab5b9b704d0bb60594292b 2632 rust-enumflags2-derive_0.6.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/enumflags2-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/enumflags2-derive]
+Checksums-Sha256:
+ 8441cf0eb7a78589a22a5e1cc022b77d665bf737565b9e0b28384e99e42e6225 1991 rust-enumflags2-derive_0.6.4-1.dsc
+ 946ee94e3dbf58fdd324f9ce245c7b238d46a66f00e86a020b71996349e46cce 3659 rust-enumflags2-derive_0.6.4.orig.tar.gz
+ 081925e3b705e4fdf9f594317798f24a286ee5fa3b0de8d44e511f0299e627ce 2632 rust-enumflags2-derive_0.6.4-1.debian.tar.xz
+Package-List: 
+ librust-enumflags2-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-enumflags2-derive
+Priority: extra
+Section: misc

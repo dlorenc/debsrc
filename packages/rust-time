@@ -1,0 +1,26 @@
+Package: rust-time
+Binary: librust-time-dev, librust-time+rustc-serialize-dev
+Version: 0.1.42-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.1-~~) <!nocheck>, librust-redox-syscall-0.1+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+minwinbase-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+ntdef-dev <!nocheck>, librust-winapi-0.3+profileapi-dev <!nocheck>, librust-winapi-0.3+std-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>, librust-winapi-0.3+timezoneapi-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5ef06944830a4c94cdbf4fad3ed64696 2665 rust-time_0.1.42-1.dsc
+ 3d311d2cedf2d3d7b11b32baf470b178 30005 rust-time_0.1.42.orig.tar.gz
+ f2de0b04dbf9d4d31eb3c9c0ee59863b 2628 rust-time_0.1.42-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/time
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/time]
+Checksums-Sha256:
+ f34189bfe87e9adef35715505a89b9d71123b219ae3ccae10110afe832fd2f17 2665 rust-time_0.1.42-1.dsc
+ db8dcfca086c1143c9270ac42a2bbd8a7ee477b78ac8e45b19abfb0cbede4b6f 30005 rust-time_0.1.42.orig.tar.gz
+ 66c67dd9e5004946a49690cff814d3de3a66ffdb69d9f8b08345cc91686c3806 2628 rust-time_0.1.42-1.debian.tar.xz
+Homepage: https://github.com/rust-lang/time
+Package-List: 
+ librust-time+rustc-serialize-dev deb rust optional arch=any
+ librust-time-dev deb rust optional arch=any
+Directory: pool/main/r/rust-time
+Priority: extra
+Section: misc

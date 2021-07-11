@@ -1,0 +1,25 @@
+Package: rdp-alignment
+Binary: rdp-alignment
+Version: 1.2.0-6
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Tim Booth <tbooth@ceh.ac.uk>, Andreas Tille <tille@debian.org>, Olivier Sallou <osallou@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, libcommons-io-java, libcommons-cli-java, libcommons-lang-java, libjaxb-java, libjaxb-api-java, junit4, ant, ant-optional, rdp-readseq
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 663d4f97c973e4776e3fcf9a9e32ea3a 2223 rdp-alignment_1.2.0-6.dsc
+ bc65f409ed933146144ff1093bee6ce4 261473 rdp-alignment_1.2.0.orig.tar.gz
+ 3876f4b228dd57849f130211ae2dafde 3692 rdp-alignment_1.2.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/rdp-alignment
+Vcs-Git: https://salsa.debian.org/med-team/rdp-alignment.git
+Checksums-Sha256:
+ 67f187d88945bc20896d1d4aaf12853a8d44a16f9e2162549c93a29e8bc300be 2223 rdp-alignment_1.2.0-6.dsc
+ 085575b4d2664eef7d6c16acf275db9f487e13ddcdd2c10ba5f092f64969c426 261473 rdp-alignment_1.2.0.orig.tar.gz
+ df7c48c5f62883fc9c40fe48fcad9aa06604abbee9faaab318e8ad4773e1e405 3692 rdp-alignment_1.2.0-6.debian.tar.xz
+Homepage: https://github.com/rdpstaff/AlignmentTools
+Package-List: 
+ rdp-alignment deb java optional arch=all
+Directory: pool/main/r/rdp-alignment
+Priority: optional
+Section: misc

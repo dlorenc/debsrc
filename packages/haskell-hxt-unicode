@@ -1,0 +1,28 @@
+Package: haskell-hxt-unicode
+Binary: libghc-hxt-unicode-dev, libghc-hxt-unicode-prof, libghc-hxt-unicode-doc
+Version: 9.0.2.4-9
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>, Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hxt-charproperties-dev (<< 10), libghc-hxt-charproperties-dev (>= 9), libghc-hxt-charproperties-prof
+Build-Depends-Indep: ghc-doc, libghc-hxt-charproperties-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 74178b22be10efe7604bde6b0ae9e879 2538 haskell-hxt-unicode_9.0.2.4-9.dsc
+ e4f61cef60736dca5778641e791f66c8 14010 haskell-hxt-unicode_9.0.2.4.orig.tar.gz
+ 0e8d8b56800bab5fb0db3413390b73b7 2984 haskell-hxt-unicode_9.0.2.4-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hxt-unicode
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hxt-unicode]
+Checksums-Sha256:
+ cd1fbfc50fb6e79faeba49abdab7d1fad26bd944d746252a77d13919b9556867 2538 haskell-hxt-unicode_9.0.2.4-9.dsc
+ 7b5823f3bd94b57022d9d84ab3555303653c5121eaaef2ee1fd4918f3c434466 14010 haskell-hxt-unicode_9.0.2.4.orig.tar.gz
+ 816abcc97952b19c20ebf1353b328159749fe6557fe91bc5dc425af32acbb3b1 2984 haskell-hxt-unicode_9.0.2.4-9.debian.tar.xz
+Homepage: https://github.com/UweSchmidt/hxt
+Package-List: 
+ libghc-hxt-unicode-dev deb haskell optional arch=any
+ libghc-hxt-unicode-doc deb doc optional arch=all
+ libghc-hxt-unicode-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hxt-unicode
+Priority: source
+Section: haskell

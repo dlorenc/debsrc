@@ -1,0 +1,29 @@
+Package: bash
+Binary: bash, bash-static, bash-builtins, bash-doc
+Version: 5.1-2
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: autoconf, autotools-dev, bison, libncurses5-dev, texinfo, texi2html, debhelper (>= 11), gettext, sharutils, locales <!nocheck>, time <!nocheck>, xz-utils, dpkg-dev (>= 1.16.1)
+Build-Depends-Indep: texlive-latex-base, ghostscript, texlive-fonts-recommended, man2html-base
+Build-Conflicts: r-base-core
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ be44c5a9fc12fb567a486f54b842dd9e 2296 bash_5.1-2.dsc
+ 6ddb13b6111f601db08fc7c72afa0263 5802740 bash_5.1.orig.tar.xz
+ 9d0cbd5f463f461c840c95f62a64d61b 90660 bash_5.1-2.debian.tar.xz
+Vcs-Browser: https://code.launchpad.net/~doko/+junk/pkg-bash-debian
+Vcs-Bzr: http://bazaar.launchpad.net/~doko/+junk/pkg-bash-debian
+Checksums-Sha256:
+ 1129f1397ec8e673bb8fc6acf53b371b9ed4132a7076e59bc0bf0f8e8d134e32 2296 bash_5.1-2.dsc
+ d5eeee4f953c09826409d572e2e8996a2140d67eb8f382ce1f3a9d23883ad696 5802740 bash_5.1.orig.tar.xz
+ b41f4a62e613ccffbef6032eee4d671bf82cdb00472c452fcb0c510a1503710c 90660 bash_5.1-2.debian.tar.xz
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Package-List: 
+ bash deb shells required arch=any essential=yes
+ bash-builtins deb utils optional arch=any
+ bash-doc deb doc optional arch=all
+ bash-static deb shells optional arch=any
+Directory: pool/main/b/bash
+Priority: source
+Section: shells

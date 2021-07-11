@@ -1,0 +1,28 @@
+Package: haskell-regex-pcre
+Binary: libghc-regex-pcre-dev, libghc-regex-pcre-prof, libghc-regex-pcre-doc
+Version: 0.95.0.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libpcre3-dev, pkg-config, libghc-regex-base-dev (>= 0.94), libghc-regex-base-dev (<< 0.95), libghc-regex-base-prof
+Build-Depends-Indep: ghc-doc, libghc-regex-base-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f0dd9397bec39b2744ccdcee293aa1de 2503 haskell-regex-pcre_0.95.0.0-2.dsc
+ a9dcdff506937df7fadb563a030b508b 9766 haskell-regex-pcre_0.95.0.0.orig.tar.gz
+ 4732bfe5ad7b4d81fd7a24e6d16591b8 3028 haskell-regex-pcre_0.95.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-regex-pcre
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-regex-pcre]
+Checksums-Sha256:
+ 3f239bb60d0dcb7844bd6548fa87b5e46840cad47de5154333ecd857cf52fb16 2503 haskell-regex-pcre_0.95.0.0-2.dsc
+ 16ad6f10de3b14a4020075b3db64d2ca0c585d94013420418ddd4abd0836c75a 9766 haskell-regex-pcre_0.95.0.0.orig.tar.gz
+ 8ff94ea38f2dcc466fe0becb8414870f6ca98d710efbc1eb0b69ca6868cb15f5 3028 haskell-regex-pcre_0.95.0.0-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/regex-pcre
+Package-List: 
+ libghc-regex-pcre-dev deb haskell optional arch=any
+ libghc-regex-pcre-doc deb doc optional arch=all
+ libghc-regex-pcre-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-regex-pcre
+Priority: source
+Section: haskell

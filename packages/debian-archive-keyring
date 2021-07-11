@@ -1,0 +1,23 @@
+Package: debian-archive-keyring
+Binary: debian-archive-keyring, debian-archive-keyring-udeb
+Version: 2021.1.1
+Maintainer: Debian Release Team <packages@release.debian.org>
+Uploaders: Niels Thykier <niels@thykier.net>, Jonathan Wiltshire <jmw@debian.org>,
+Build-Depends: debhelper (>= 10), jetring, gnupg
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (native)
+Files:
+ dc6f3fc1a0982338bb2235015ff26f2b 1854 debian-archive-keyring_2021.1.1.dsc
+ 0c082803f0efd64ba0c328a4f8712b6c 151340 debian-archive-keyring_2021.1.1.tar.xz
+Vcs-Browser: https://salsa.debian.org/release-team/debian-archive-keyring
+Vcs-Git: https://salsa.debian.org/release-team/debian-archive-keyring.git
+Checksums-Sha256:
+ a17a062b6dabe2d1092ee362412b8f2c9d4a44c7bd18ef2bbb45340c2ee4c512 1854 debian-archive-keyring_2021.1.1.dsc
+ 5fe6011f7caf516b19b8f2c545bd215f4b6f8022b161d1ce5262ac2c51c4dbcf 151340 debian-archive-keyring_2021.1.1.tar.xz
+Package-List: 
+ debian-archive-keyring deb misc important arch=all
+ debian-archive-keyring-udeb udeb debian-installer optional arch=all
+Directory: pool/main/d/debian-archive-keyring
+Priority: source
+Section: misc

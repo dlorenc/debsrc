@@ -1,0 +1,30 @@
+Package: slang2
+Binary: libslang2-dev, libslang2, libslang2-pic, libslang2-udeb, slsh, libslang2-modules
+Version: 2.3.2-5
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@member.fsf.org>
+Build-Depends: debhelper-compat (= 12), unicode-data, chrpath, docbook-to-man, dpkg-dev (>= 1.16.1~), libncurses-dev, libonig-dev, libpcre3-dev, libpng-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ af988b66458b4a0b26ff4aa09f846a04 2300 slang2_2.3.2-5.dsc
+ f3bbb3b4c32a2a83e83a4f85bcf7df1a 1309848 slang2_2.3.2.orig.tar.xz
+ bdde95be46a1c31119ba114a66b6fe09 22100 slang2_2.3.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/slang2
+Vcs-Git: https://salsa.debian.org/debian/slang2.git
+Checksums-Sha256:
+ 770066b3c3ecbfd1a755319a271f3fe05878fe4e16d14d3e41cd02b999f6956e 2300 slang2_2.3.2-5.dsc
+ 18c99f4c5ad9710eb0fcd4c82f7c32427f94c9c93a5ba04a88318e521db2cadf 1309848 slang2_2.3.2.orig.tar.xz
+ 3da6df3f5b9050679b9977655c0cc43f06a07467527357aec62aac26c81cd15a 22100 slang2_2.3.2-5.debian.tar.xz
+Homepage: http://www.jedsoft.org/slang/
+Package-List: 
+ libslang2 deb libs optional arch=any
+ libslang2-dev deb libdevel optional arch=any
+ libslang2-modules deb libs optional arch=any
+ libslang2-pic deb libdevel optional arch=any
+ libslang2-udeb udeb debian-installer optional arch=any
+ slsh deb interpreters optional arch=any
+Directory: pool/main/s/slang2
+Priority: source
+Section: devel

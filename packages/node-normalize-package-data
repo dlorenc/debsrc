@@ -1,0 +1,28 @@
+Package: node-normalize-package-data
+Binary: node-normalize-package-data
+Version: 3.0.0+~2.4.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), node-async <!nocheck>, node-hosted-git-info (>= 3) <!nocheck>, node-resolve (>= 1.10.0~) <!nocheck>, node-semver <!nocheck>, node-tap <!nocheck>, node-underscore <!nocheck>, node-validate-npm-package-license <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 43b21404a33daa3478150f401c87a0fc 2861 node-normalize-package-data_3.0.0+~2.4.0-1.dsc
+ d6407969cddce9e389d14b2ab5a6e5bf 1786 node-normalize-package-data_3.0.0+~2.4.0.orig-types-normalize-package-data.tar.gz
+ 467f7a44df53e7308631c1ef10c41a5f 90270 node-normalize-package-data_3.0.0+~2.4.0.orig.tar.gz
+ 2e1a59d5141be69771e858f351a29155 3700 node-normalize-package-data_3.0.0+~2.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-normalize-package-data
+Vcs-Git: https://salsa.debian.org/js-team/node-normalize-package-data.git
+Checksums-Sha256:
+ 9a992a958c153710cfa6ccd365d922cf5dd758579c127aa2c56c1ca1213b9876 2861 node-normalize-package-data_3.0.0+~2.4.0-1.dsc
+ 90a8066b88f7cf71e43fe79143bce45d8fd9245a9f11f3ca49ac494019a46a59 1786 node-normalize-package-data_3.0.0+~2.4.0.orig-types-normalize-package-data.tar.gz
+ 3f87023d062f8840ed1a7c93eb519b0bfdafd5289bf206877844a74364757d6e 90270 node-normalize-package-data_3.0.0+~2.4.0.orig.tar.gz
+ 58f8ad5542211095c47592f14764e29bab1bd17e3ac81571ff13791d404aee42 3700 node-normalize-package-data_3.0.0+~2.4.0-1.debian.tar.xz
+Homepage: https://github.com/meryn/normalize-package-data
+Package-List: 
+ node-normalize-package-data deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-normalize-package-data
+Priority: optional
+Section: javascript

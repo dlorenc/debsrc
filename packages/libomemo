@@ -1,0 +1,28 @@
+Package: libomemo
+Binary: libomemo-dev, libomemo0
+Version: 0.7.0-1
+Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
+Uploaders: Evangelos Ribeiro Tzaras <devrtz-debian@fortysixandtwo.eu>,
+Build-Depends: debhelper-compat (= 13), libcmocka-dev, libgcrypt20-dev, libglib2.0-dev, libmxml-dev, libsqlite3-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 910f622e215a9d039c66acb4f2587a76 2245 libomemo_0.7.0-1.dsc
+ 41459a3fb1b4cefd4179a3de154ffa0c 23678 libomemo_0.7.0.orig.tar.gz
+ 34e076952665e1f8b414cdbf08e5cf2a 4132 libomemo_0.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/DebianOnMobile-team/libomemo
+Vcs-Git: https://salsa.debian.org/DebianOnMobile-team/libomemo.git
+Checksums-Sha256:
+ de43ececcd301c4b3154b87fda026238ba7a82c56c5b5e3ef020f66e5799795e 2245 libomemo_0.7.0-1.dsc
+ 50c536546bbe29552b54a82673d47b1b843de20d2ad9861af9bbb520f80d9f57 23678 libomemo_0.7.0.orig.tar.gz
+ d0d08f4e8fe5552ffa9b66acaacfb27267db60e41b3f18c5a91090034b292076 4132 libomemo_0.7.0-1.debian.tar.xz
+Homepage: https://github.com/gkdr/libomemo
+Package-List: 
+ libomemo-dev deb libdevel optional arch=any
+ libomemo0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, libgcrypt20-dev, libglib2.0-dev, libmxml-dev, libsqlite3-dev, pkg-config
+Directory: pool/main/libo/libomemo
+Priority: extra
+Section: misc

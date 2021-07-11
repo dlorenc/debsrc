@@ -1,0 +1,25 @@
+Package: haskell-sop-core
+Binary: libghc-sop-core-dev, libghc-sop-core-prof, libghc-sop-core-doc
+Version: 0.5.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 9), haskell-devscripts-minimal | haskell-devscripts (>= 0.15), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 527e20cf2e571f642dff7c323abdc4b8 2112 haskell-sop-core_0.5.0.1-2.dsc
+ 1242310ded124b30df653c0d1bd6a9ef 28666 haskell-sop-core_0.5.0.1.orig.tar.gz
+ 1ce3bac8c038f2f1f374e970be5f2b81 2272 haskell-sop-core_0.5.0.1-2.debian.tar.xz
+Checksums-Sha256:
+ d9111bcc3e61ceade63da0561cdb5d4adc1ad90e8184fe8c43742564f6e09058 2112 haskell-sop-core_0.5.0.1-2.dsc
+ dac367f1608c9bd6c5dd1697e2a30e1b760617023b96e1df7d44c6c017999db0 28666 haskell-sop-core_0.5.0.1.orig.tar.gz
+ 9bbf0fe0e2ae552f72dbdac96718e256191d07980a15ed7875077ead191c6146 2272 haskell-sop-core_0.5.0.1-2.debian.tar.xz
+Package-List: 
+ libghc-sop-core-dev deb haskell optional arch=any
+ libghc-sop-core-doc deb doc optional arch=all
+ libghc-sop-core-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-sop-core
+Priority: extra
+Section: misc

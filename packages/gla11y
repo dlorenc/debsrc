@@ -1,0 +1,27 @@
+Package: gla11y
+Binary: gla11y
+Version: 0.4-2
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper (>= 11), help2man, python3, python3-lxml
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 16bc73bb3ac9015f2407836046f6b832 1952 gla11y_0.4-2.dsc
+ f2c2cafd34842b51300ea96a94dccbe5 20776 gla11y_0.4.orig.tar.xz
+ c6f8dc34a81caf4e84e695080ac7aace 2352 gla11y_0.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/gla11y
+Vcs-Git: https://salsa.debian.org/a11y-team/gla11y.git
+Checksums-Sha256:
+ e7ed41f0b910000b932b6acb4adbc2fb13a621beff5937a7f01347105b3738b9 1952 gla11y_0.4-2.dsc
+ 42187a26bd2e618f7073c4e5239ac01ed64e8a36ba8efb9772aad0ab3f3a77c8 20776 gla11y_0.4.orig.tar.xz
+ 50a6645483beaa000432854d34ca32a4950ed018b0c1146edb265d1b499f64b1 2352 gla11y_0.4-2.debian.tar.xz
+Homepage: https://github.com/hypra/gla11y
+Package-List: 
+ gla11y deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-lxml
+Directory: pool/main/g/gla11y
+Priority: extra
+Section: misc

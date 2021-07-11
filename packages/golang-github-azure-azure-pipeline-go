@@ -1,0 +1,27 @@
+Package: golang-github-azure-azure-pipeline-go
+Binary: golang-github-azure-azure-pipeline-go-dev
+Version: 0.2.2-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dr. Tobias Quathamer <toddy@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-mattn-go-ieproxy-dev, golang-github-pkg-errors-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 614bdcdbae6bf5537fed5d86b2ce8e17 2419 golang-github-azure-azure-pipeline-go_0.2.2-2.dsc
+ cdd1b5acacd8cadf5694ed0a5ce60d2c 16443 golang-github-azure-azure-pipeline-go_0.2.2.orig.tar.gz
+ 0fe117e01236a2a2db8d0c682addced8 2092 golang-github-azure-azure-pipeline-go_0.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-azure-azure-pipeline-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-azure-azure-pipeline-go.git
+Checksums-Sha256:
+ 61e196871a80aa4e8661f86fe04e5d5351623284a5bd159963d920cfcdee0149 2419 golang-github-azure-azure-pipeline-go_0.2.2-2.dsc
+ dc0d15949088e17e74da35c3ae2730f52240ad73e25cf795f532b7282de68e2f 16443 golang-github-azure-azure-pipeline-go_0.2.2.orig.tar.gz
+ ea6dfcbe379f203350327dd41940f8c466ddf9394b6eac079995538af85ac7a5 2092 golang-github-azure-azure-pipeline-go_0.2.2-2.debian.tar.xz
+Homepage: https://github.com/Azure/azure-pipeline-go
+Go-Import-Path: github.com/Azure/azure-pipeline-go
+Package-List: 
+ golang-github-azure-azure-pipeline-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-azure-azure-pipeline-go
+Priority: extra
+Section: golang

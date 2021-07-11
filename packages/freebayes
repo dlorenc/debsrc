@@ -1,0 +1,26 @@
+Package: freebayes
+Binary: freebayes
+Version: 1.3.5-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Brad Chapman <chapmanb@50mail.com>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), meson, ninja-build, pkg-config, python3, zlib1g-dev, libbamtools-dev, libvcflib-dev (>= 1.0.0~rc2+dfsg-3~), libtabixpp-dev, libseqlib-dev (>= 1.1.2+dfsg-5), bc, samtools, parallel <!nocheck>, libvcflib-tools (>= 1.0.0~rc1+dfsg1-6) <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9a967a90ae19c869f6ed685cc9f37471 2253 freebayes_1.3.5-1.dsc
+ 0474f30e2cc128973cac9d12ea726d50 2890213 freebayes_1.3.5.orig.tar.gz
+ 0a60d7b20c09b1ba28b3bdc596d01616 11220 freebayes_1.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/freebayes
+Vcs-Git: https://salsa.debian.org/med-team/freebayes.git
+Checksums-Sha256:
+ 01141a2669b51d7fcd249110bf0ea864045f414fff02ea4723c76ee167797563 2253 freebayes_1.3.5-1.dsc
+ af195a8c54b742d01af5a7e1fd1781a89290d726b310216c83e78c650d7aee49 2890213 freebayes_1.3.5.orig.tar.gz
+ 1ee7c3ad4c9e57c565a4f7d4fbb5a583a2c1307881ab736286f2b8da5328caad 11220 freebayes_1.3.5-1.debian.tar.xz
+Homepage: https://github.com/ekg/freebayes
+Package-List: 
+ freebayes deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/f/freebayes
+Priority: optional
+Section: misc

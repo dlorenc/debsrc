@@ -1,0 +1,27 @@
+Package: allelecount
+Binary: allelecount, liballelecount-perl
+Version: 4.2.1-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), libhts-dev, libbz2-dev, libconst-fast-perl <!nocheck>, libdevel-cover-perl <!nocheck>, libfile-slurp-perl <!nocheck>, libfile-which-perl <!nocheck>, libipc-system-simple-perl <!nocheck>, libpod-coverage-perl <!nocheck>, libtest-fatal-perl (>= 0.013) <!nocheck>, libtry-tiny-perl <!nocheck>, perl
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 743e3f5e4132adece3ff25fbdd6f7c35 2399 allelecount_4.2.1-1.dsc
+ be3a782a78187a46cf005944c04c6666 1388983 allelecount_4.2.1.orig.tar.gz
+ 1d2ff91491d0bc840bd242fc752c28eb 15184 allelecount_4.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/allelecount
+Vcs-Git: https://salsa.debian.org/med-team/allelecount.git
+Checksums-Sha256:
+ f2e51d6dbfa402447e17f0c7a8682b4f3d9b00542f8bb0685b50cf047099a6e5 2399 allelecount_4.2.1-1.dsc
+ dbec2d47fb4fad8ead72f55c4b6e3c02b216cbed285c05617b62e9a38c32e400 1388983 allelecount_4.2.1.orig.tar.gz
+ cb8440ddb6c1e476fe1a568c27df8cf586acf8194feb10993c4c8efc7f61d91e 15184 allelecount_4.2.1-1.debian.tar.xz
+Homepage: https://github.com/cancerit/alleleCount
+Package-List: 
+ allelecount deb science optional arch=any
+ liballelecount-perl deb perl optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Directory: pool/main/a/allelecount
+Priority: extra
+Section: misc

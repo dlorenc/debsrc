@@ -1,0 +1,27 @@
+Package: node-toidentifier
+Binary: node-toidentifier
+Version: 1.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper (>= 11), dh-buildinfo, nodejs, mocha (>= 4) <!nocheck>
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c8081175809b6e25b162bd1dc474943b 2126 node-toidentifier_1.0.0-2.dsc
+ 483580c17691bd760c4b67bc47b56f51 3349 node-toidentifier_1.0.0.orig.tar.gz
+ cfd7237cc0f033dc104072ed01b9a096 2436 node-toidentifier_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-toidentifier
+Vcs-Git: https://salsa.debian.org/js-team/node-toidentifier.git
+Checksums-Sha256:
+ dcfb60e3a3d7e9fd31c6a3eb0b36118f5eabbda9761e9987d824f095110f4862 2126 node-toidentifier_1.0.0-2.dsc
+ b863c58fa81aa9e4dea9dc55f93a247548ec74920b61bf93e163b7034e2296d6 3349 node-toidentifier_1.0.0.orig.tar.gz
+ 9b44c0757eddcfff4521cdb9c60cea83ecd4a02ebd0d8e3a21fe93eaa71b65b8 2436 node-toidentifier_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/component/toidentifier#readme
+Package-List: 
+ node-toidentifier deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha, nodejs
+Directory: pool/main/n/node-toidentifier
+Priority: extra
+Section: misc

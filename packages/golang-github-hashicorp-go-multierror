@@ -1,0 +1,27 @@
+Package: golang-github-hashicorp-go-multierror
+Binary: golang-github-hashicorp-go-multierror-dev
+Version: 1.1.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-github-hashicorp-errwrap-dev (>= 1.0.0~), golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f3c20cd3e935622b382cbf5dd473793a 1873 golang-github-hashicorp-go-multierror_1.1.0-1.dsc
+ 794e1aaf8e649aabb63b97eb92c15e79 12084 golang-github-hashicorp-go-multierror_1.1.0.orig.tar.gz
+ f253e0ce49001a7d4b41b3c3f76bcfce 2840 golang-github-hashicorp-go-multierror_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-multierror
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-multierror.git
+Checksums-Sha256:
+ 8afe5fc3d715002276c2f1428ac475dae30b9e79f975f878d5d485e105928b82 1873 golang-github-hashicorp-go-multierror_1.1.0-1.dsc
+ 466a1f3596417a35b407d06d2dc2cb87dba46b025af4f77d30f82aa6e0e6d4d4 12084 golang-github-hashicorp-go-multierror_1.1.0.orig.tar.gz
+ 0505b3d1c6272c4e28a1a8b219042337f7321c29188da092914dc32047acceb0 2840 golang-github-hashicorp-go-multierror_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/hashicorp/go-multierror
+Go-Import-Path: github.com/hashicorp/go-multierror
+Package-List: 
+ golang-github-hashicorp-go-multierror-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hashicorp-go-multierror
+Priority: extra
+Section: golang

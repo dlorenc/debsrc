@@ -1,0 +1,26 @@
+Package: commons-pool
+Binary: libcommons-pool-java, libcommons-pool-java-doc
+Version: 1.6-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Marcus Better <marcus@better.se>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, ant-optional, debhelper-compat (= 13), default-jdk, default-jdk-doc, junit, maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 239c7349acebbe2f6e594b39018dd9ce 2167 commons-pool_1.6-4.dsc
+ ef08ea62cad838d4149e40b1eae06d9a 321409 commons-pool_1.6.orig.tar.gz
+ 9f51a2449acd3af1bf9102cf252e0b3d 4092 commons-pool_1.6-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/commons-pool
+Vcs-Git: https://salsa.debian.org/java-team/commons-pool.git
+Checksums-Sha256:
+ 270551b321b37784dd8f6baf0a9347ff2ee03dae892997e7e98fd38273f4abbc 2167 commons-pool_1.6-4.dsc
+ 31d182e5dc857666dba640caf9529158c679075f4f137deceff128e268d9195a 321409 commons-pool_1.6.orig.tar.gz
+ 3f49f47ebaa98f87e622a5053104d0065c35f5a48b2d3e3083f86c2b283dc2df 4092 commons-pool_1.6-4.debian.tar.xz
+Homepage: https://commons.apache.org/pool/
+Package-List: 
+ libcommons-pool-java deb java optional arch=all
+ libcommons-pool-java-doc deb doc optional arch=all
+Directory: pool/main/c/commons-pool
+Priority: source
+Section: libs

@@ -1,0 +1,28 @@
+Package: haskell-statevar
+Binary: libghc-statevar-dev, libghc-statevar-prof, libghc-statevar-doc
+Version: 1.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ d1aad2ee6ef49e503a7e104c094436ea 2306 haskell-statevar_1.2-1.dsc
+ 1499cb15cda0e23e31dd8dfec6bca704 4770 haskell-statevar_1.2.orig.tar.gz
+ aa56c0624c03df601e82bdf554f843f9 3012 haskell-statevar_1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-statevar
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-statevar]
+Checksums-Sha256:
+ 135dc70341828cf8649b6e7f550ff11b1f55d7f4b268c4501047db70fbd5f37b 2306 haskell-statevar_1.2-1.dsc
+ afc036021fcd38f15fcc4af392a3e57017d5ddcc926e99391dbfc8c4e6375f8b 4770 haskell-statevar_1.2.orig.tar.gz
+ 6f5f1daf1708a3c1e86c33093a2a3baf402b18fcae260a310776305644b18831 3012 haskell-statevar_1.2-1.debian.tar.xz
+Homepage: https://github.com/haskell-opengl/StateVar
+Package-List: 
+ libghc-statevar-dev deb haskell optional arch=any
+ libghc-statevar-doc deb doc optional arch=all
+ libghc-statevar-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-statevar
+Priority: source
+Section: haskell

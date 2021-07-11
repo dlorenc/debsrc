@@ -1,0 +1,29 @@
+Package: rust-wasm-bindgen-macro
+Binary: librust-wasm-bindgen-macro-dev, librust-wasm-bindgen-macro+spans-dev, librust-wasm-bindgen-macro+strict-macro-dev
+Version: 0.2.58-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-wasm-bindgen-macro-support-0.2.58+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 4a4d130843acaddf4a1a325f6da776e4 2831 rust-wasm-bindgen-macro_0.2.58-1.dsc
+ cc93c2e5059f488d13a19bb6b8494b9f 11599 rust-wasm-bindgen-macro_0.2.58.orig.tar.gz
+ 30db6376c131aa611b0a3d8a151a7059 3060 rust-wasm-bindgen-macro_0.2.58-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wasm-bindgen-macro
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen-macro]
+Checksums-Sha256:
+ 580a1cc6dda3a24153afef8131c496e2ddbaf2a37993c9ead1dc67a966d243ee 2831 rust-wasm-bindgen-macro_0.2.58-1.dsc
+ 574094772ce6921576fb6f2e3f7497b8a76273b6db092be18fc48a082de09dc3 11599 rust-wasm-bindgen-macro_0.2.58.orig.tar.gz
+ 69253a2db30277dcc631aaee003bdc7e4bf553bb69b0f1d2a2acb299efd916ca 3060 rust-wasm-bindgen-macro_0.2.58-1.debian.tar.xz
+Homepage: https://rustwasm.github.io/wasm-bindgen/
+Package-List: 
+ librust-wasm-bindgen-macro+spans-dev deb rust optional arch=any
+ librust-wasm-bindgen-macro+strict-macro-dev deb rust optional arch=any
+ librust-wasm-bindgen-macro-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-trybuild-1+default-dev, librust-wasm-bindgen-0.2+default-dev, librust-wasm-bindgen-0.2+strict-macro-dev, librust-wasm-bindgen-futures-0.4+default-dev
+Directory: pool/main/r/rust-wasm-bindgen-macro
+Priority: extra
+Section: misc

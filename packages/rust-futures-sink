@@ -1,0 +1,27 @@
+Package: rust-futures-sink
+Binary: librust-futures-sink-dev
+Version: 0.3.8-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Fabian Grünbichler <f.gruenbichler@proxmox.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b95ff63d82f1ec6ffb2b2ff0f9494721 2218 rust-futures-sink_0.3.8-1.dsc
+ 9882b030c15a7926557dc275310bed26 7733 rust-futures-sink_0.3.8.orig.tar.gz
+ 638445dcf03c895ba88a891380d4a125 2672 rust-futures-sink_0.3.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futures-sink
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/futures-sink]
+Checksums-Sha256:
+ 449ea7b63ce72640cd3813008b466f7b4668d8e24df86103ac9cc9ac4bf269d2 2218 rust-futures-sink_0.3.8-1.dsc
+ f878195a49cee50e006b02b93cf7e0a95a38ac7b776b4c4d9cc1207cd20fcb3d 7733 rust-futures-sink_0.3.8.orig.tar.gz
+ 06b973ae2cb4c7ad3d82d9fc224596a1a19bc81161de060b34a1514dfafaa631 2672 rust-futures-sink_0.3.8-1.debian.tar.xz
+Homepage: https://rust-lang.github.io/futures-rs
+Package-List: 
+ librust-futures-sink-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-futures-sink
+Priority: extra
+Section: misc

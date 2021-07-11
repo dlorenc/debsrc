@@ -1,0 +1,26 @@
+Package: xdotool
+Binary: xdotool, libxdo3, libxdo-dev
+Version: 1:3.20160805.1-4
+Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 11~), dh-exec (>= 0.3), doxygen, dpkg-dev (>= 1.17.14), libx11-dev, libxinerama-dev, libxkbcommon-dev, libxtst-dev, openbox <!nocheck>, perl, pkg-config, procps <!nocheck>, ruby <!nocheck>, ruby-minitest <!nocheck>, x11-utils <!nocheck>, x11-xkb-utils <!nocheck>, xauth <!nocheck>, xfonts-base <!nocheck>, xkb-data <!nocheck>, xterm <!nocheck>, xvfb <!nocheck>
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ abc874cadc51a836c12fe73705e08c6c 1722 xdotool_3.20160805.1-4.dsc
+ 22c8c7f855025a55e56672114693d3e1 104965 xdotool_3.20160805.1.orig.tar.gz
+ 86ecd32752e4eac1d0659f9ecc037ca2 7216 xdotool_3.20160805.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/xdotool
+Vcs-Git: https://salsa.debian.org/debian/xdotool.git
+Checksums-Sha256:
+ 889d4605b470f858057e3754a720aa7565b206c8b06d24d40ac7f8642cba6fa5 1722 xdotool_3.20160805.1-4.dsc
+ 1723c48b9b437a9637a2ddf3011c19df96dd0f9eba44478e40a5f5419f6d5a56 104965 xdotool_3.20160805.1.orig.tar.gz
+ e15256ebd460ca714889d417ce781565eff14d66723e08c9dba733e0dc663619 7216 xdotool_3.20160805.1-4.debian.tar.xz
+Homepage: https://github.com/jordansissel/xdotool/
+Package-List: 
+ libxdo-dev deb libdevel optional arch=any
+ libxdo3 deb libs optional arch=any
+ xdotool deb x11 optional arch=any
+Directory: pool/main/x/xdotool
+Priority: source
+Section: x11

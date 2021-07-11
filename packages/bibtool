@@ -1,0 +1,27 @@
+Package: bibtool
+Binary: bibtool
+Version: 2.68+ds-1
+Maintainer: Debian Tex Maintainers <debian-tex-maint@lists.debian.org>
+Uploaders: Jerome Benoit <calculus@rezozer.net>, Norbert Preining <norbert@preining.info>
+Build-Depends: debhelper-compat (= 12), tex-common, texlive-binaries, texlive-latex-base, texlive-latex-recommended, texlive-latex-extra, texlive-luatex, lmodern, libkpathsea-dev, tth, html2text
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7bcb006e406ec713b9a9e617ea7924d0 2916 bibtool_2.68+ds-1.dsc
+ c1efbf561a0f1d1f13ba439c46133379 253388 bibtool_2.68+ds.orig.tar.xz
+ 40c1abd38d51d320f3703d6b583e19cb 21068 bibtool_2.68+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tex-team/bibtool
+Vcs-Git: https://salsa.debian.org/tex-team/bibtool.git
+Checksums-Sha256:
+ f9a071c32a17b22f5b6734d0309633d64bfe6d8cef352d943eec3f8afdaaf028 2916 bibtool_2.68+ds-1.dsc
+ 3fc66f066ac9052257a2dd30b68c971ad087585291ee384902da55fc7129b7e9 253388 bibtool_2.68+ds.orig.tar.xz
+ 3ad15bd052e3a0989f31df0922873bfe3f5356e26f334d3eb0dafb11e93057db 21068 bibtool_2.68+ds-1.debian.tar.xz
+Homepage: http://www.gerd-neugebauer.de/software/TeX/BibTool/index.en.html
+Package-List: 
+ bibtool deb tex optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make, texlive-base
+Directory: pool/main/b/bibtool
+Priority: source
+Section: tex

@@ -1,0 +1,25 @@
+Package: pulseview
+Binary: pulseview
+Version: 0.4.2-2
+Maintainer: Debian Electronics Packaging Team <pkg-electronics-devel@alioth-lists.debian.net>
+Uploaders: Jonathan McDowell <noodles@earth.li>
+Build-Depends: debhelper (>= 10), cmake (>= 2.8.6), libboost-system-dev, libboost-thread-dev, libboost-filesystem-dev, libboost-test-dev, libglib2.0-dev (>= 2.28.0), libglibmm-2.4-dev (>= 2.28.0), libsigrokcxx-dev (>= 0.5.0), libsigrokdecode-dev (>= 0.5.0), libqt5svg5-dev, libsigc++-2.0-dev (>= 2.10.0-2.1), pkg-config (>= 0.22), qtbase5-dev, qtbase5-dev-tools, qttools5-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ d88b5a6919198dfb28424e0a29af8b6f 2307 pulseview_0.4.2-2.dsc
+ 108a5f095f06a9485d31a0349ea38243 1399718 pulseview_0.4.2.orig.tar.gz
+ baa71e619cdd3d1e5ad067a62f6fbeca 6896 pulseview_0.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/electronics-team/sigrok/pulseview
+Vcs-Git: https://salsa.debian.org/electronics-team/sigrok/pulseview.git
+Checksums-Sha256:
+ 92c8b69fe4739b70afbf7ac689c9caceda397e51f27096dcc3bc6d226beaa59d 2307 pulseview_0.4.2-2.dsc
+ f042f77a3e1b35bf30666330e36ec38fab8d248c3693c37b7e35d401c3bfabcb 1399718 pulseview_0.4.2.orig.tar.gz
+ 97a2579eb93bceef71b69b4b427eec3373ae26a63cb46f581a1263b0c5905dbc 6896 pulseview_0.4.2-2.debian.tar.xz
+Homepage: http://sigrok.org/wiki/PulseView
+Package-List: 
+ pulseview deb electronics optional arch=any
+Directory: pool/main/p/pulseview
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-promise
+Binary: node-promise
+Version: 8.1.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), node-acorn (>= 6), node-asap, node-rimraf, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 167f2b57d05e6ec949b7aa8ffe8fa613 2047 node-promise_8.1.0-2.dsc
+ 0eb2941972acf1d47dbb9d5f2be7c49a 17416 node-promise_8.1.0.orig.tar.gz
+ e6a3149162cd331233270565e783f772 26452 node-promise_8.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-promise
+Vcs-Git: https://salsa.debian.org/js-team/node-promise.git
+Checksums-Sha256:
+ df509b0a6680e5bcc09fc0a3453e1e4d5a1439654dc79054913b111c40227bf0 2047 node-promise_8.1.0-2.dsc
+ 4554cde3267249e9f1630f63276d0413457440d7f7b974da3d4c20a47e927fd8 17416 node-promise_8.1.0.orig.tar.gz
+ 0b1affe81c820d881e16e53f59f404249bffeaa2536c294dcc20375fe8ae25c1 26452 node-promise_8.1.0-2.debian.tar.xz
+Homepage: https://www.promisejs.org
+Package-List: 
+ node-promise deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-promise
+Priority: optional
+Section: javascript

@@ -1,0 +1,28 @@
+Package: libtransmission-client-perl
+Binary: libtransmission-client-perl
+Version: 0.0806-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Marius Gavrilescu <marius@ieval.ro>
+Build-Depends: debhelper-compat (= 12), libmodule-install-perl
+Build-Depends-Indep: libdatetime-perl <!nocheck>, libjson-maybexs-perl <!nocheck>, libjson-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libsub-exporter-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libwww-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 983bb8ca4ec4fc67ae580856fbd65a76 2817 libtransmission-client-perl_0.0806-1.dsc
+ d76143fb98031f436d918ddf900578ab 49130 libtransmission-client-perl_0.0806.orig.tar.gz
+ bd9d5a9231d7301f13cdf3746c9e0c5a 2280 libtransmission-client-perl_0.0806-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtransmission-client-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtransmission-client-perl.git
+Checksums-Sha256:
+ 3d576c6aed43c990f02f9717f1e139341e09ec26f23055c3c85767a631607e20 2817 libtransmission-client-perl_0.0806-1.dsc
+ 074d8b8c9fbe37d22b3d03f5115182a3a303918f0cc6dc56cae882ea9d1bd20c 49130 libtransmission-client-perl_0.0806.orig.tar.gz
+ 9bff651c07f2328a2bb0448e79bf783bb0c2a96c41adedad78e39a42896b0c73 2280 libtransmission-client-perl_0.0806-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Transmission-Client
+Dgit: d594023f82c8d67042c4ca3ab5c849ab8552a311 debian archive/debian/0.0806-1 https://git.dgit.debian.org/libtransmission-client-perl
+Package-List: 
+ libtransmission-client-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtransmission-client-perl
+Priority: optional
+Section: misc

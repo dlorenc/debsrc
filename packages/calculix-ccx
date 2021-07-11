@@ -1,0 +1,26 @@
+Package: calculix-ccx
+Binary: calculix-ccx
+Version: 2.17-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Wolfgang Fütterer <debian@wlf-online.de>, Kurt Kremitzki <kkremitzki@debian.org>
+Build-Depends: debhelper-compat (= 13), gfortran, libarpack2-dev, libspooles-dev, liblapack-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ abe6541aaaaaf23fbe9dd3ed4317c586 2118 calculix-ccx_2.17-3.dsc
+ e8edbe7360ce62d0dd97f77a648e4b07 1791682 calculix-ccx_2.17.orig.tar.bz2
+ 7854784d07948b652558e3c13086cd83 20184 calculix-ccx_2.17-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/calculix-ccx
+Vcs-Git: https://salsa.debian.org/science-team/calculix-ccx.git
+Checksums-Sha256:
+ e8be7834e036801cdb246cb8aa2781fa7576eacaaab53e243c5afbc4a9225f48 2118 calculix-ccx_2.17-3.dsc
+ 9201a64e49c8df8a8b6b6b7e515d1979fb2bfbdd1700aac2518edc191d570437 1791682 calculix-ccx_2.17.orig.tar.bz2
+ 0852d991a3ad27b998e495bd566abf42521a1c5f51d78358924d88fcb3c1da0b 20184 calculix-ccx_2.17-3.debian.tar.xz
+Homepage: http://www.calculix.de
+Package-List: 
+ calculix-ccx deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/calculix-ccx
+Priority: optional
+Section: misc

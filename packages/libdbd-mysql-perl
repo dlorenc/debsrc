@@ -1,0 +1,28 @@
+Package: libdbd-mysql-perl
+Binary: libdbd-mysql-perl
+Version: 4.050-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12), default-libmysqlclient-dev (>= 1.0.5), default-mysql-server <!nocheck>, libdbi-perl, libdevel-checklib-perl (>= 1.09), libssl-dev, libtest-deep-perl <!nocheck>, perl, procps <!nocheck>, zlib1g-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 807f1702322f1e4ff4a11278a03e7ee7 2697 libdbd-mysql-perl_4.050-3.dsc
+ 29b1f61321d0892885ccfd0e7bc07f7f 161579 libdbd-mysql-perl_4.050.orig.tar.gz
+ 9d335558602cc2faae4726139d97aa7d 12884 libdbd-mysql-perl_4.050-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdbd-mysql-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdbd-mysql-perl.git
+Checksums-Sha256:
+ 619bb88bd6e79c596e8ec3e6503adfbf7e4f304faeea183126366f2a793ba133 2697 libdbd-mysql-perl_4.050-3.dsc
+ 4f48541ff15a0a7405f76adc10f81627c33996fbf56c95c26c094444c0928d78 161579 libdbd-mysql-perl_4.050.orig.tar.gz
+ 5ddd459e46b1f38e82c43266df537767593e9eea81e53a6433f9a9bfd07ec6ce 12884 libdbd-mysql-perl_4.050-3.debian.tar.xz
+Homepage: https://dbi.perl.org/
+Dgit: 95b696039a1e978851db68e6fdf6b4e5b77ad749 debian archive/debian/4.050-3 https://git.dgit.debian.org/libdbd-mysql-perl
+Package-List: 
+ libdbd-mysql-perl deb perl optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Testsuite-Triggers: libdbi-perl, libtest-deep-perl, mysql-server, perl, pkg-perl-autopkgtest, procps
+Directory: pool/main/libd/libdbd-mysql-perl
+Priority: source
+Section: perl

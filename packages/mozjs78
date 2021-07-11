@@ -1,0 +1,27 @@
+Package: mozjs78
+Binary: libmozjs-78-0, libmozjs-78-dev
+Version: 78.4.0-2
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper-compat (= 13), gnome-pkg-tools, cargo, clang, autoconf, autoconf2.13, automake, libicu-dev (>= 67.1-4~), libreadline-dev, llvm, zlib1g-dev (>= 1:1.2.3), pkg-config, pkg-kde-tools, python3-dev, rustc (>= 1.41), tzdata, zip
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 210deee9817b80248ab692d79845b645 2420 mozjs78_78.4.0-2.dsc
+ 476857b277ce4acd51bea27f4c1b1814 58319040 mozjs78_78.4.0.orig.tar.xz
+ fc7796b5f29905735ff6aa5120406905 55740 mozjs78_78.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/mozjs/tree/debian/78/master
+Vcs-Git: https://salsa.debian.org/gnome-team/mozjs.git -b debian/78/master
+Checksums-Sha256:
+ 38a77874685344da33ef3c308f5c74cdbf2cac9ae5cf26c4bf3080b7ad89ca24 2420 mozjs78_78.4.0-2.dsc
+ c434830deffe1a9ec4b9c05f259a799bbeec8509d638d5135c3c005087f5956f 58319040 mozjs78_78.4.0.orig.tar.xz
+ dcf2eec86c275448656cf18b3c142c3a2067dc8fdeff029211b66182b9179d21 55740 mozjs78_78.4.0-2.debian.tar.xz
+Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey
+Dgit: 2da53a1577d5b24e7e3e649d7587534aedaa79f4 debian archive/debian/78.4.0-2 https://git.dgit.debian.org/mozjs78
+Package-List: 
+ libmozjs-78-0 deb libs optional arch=any
+ libmozjs-78-dev deb libdevel optional arch=any
+Directory: pool/main/m/mozjs78
+Priority: extra
+Section: misc

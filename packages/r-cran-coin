@@ -1,0 +1,27 @@
+Package: r-cran-coin
+Binary: r-cran-coin
+Version: 1.4-0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Jonathon Love <jon@thon.cc>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-survival, r-cran-libcoin, r-cran-matrixstats (>= 0.54.0), r-cran-modeltools, r-cran-mvtnorm, r-cran-multcomp
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8d182fbb14f2216eace1d32555179bf6 2184 r-cran-coin_1.4-0-1.dsc
+ 9e15487a64a66a419613a93c561e298f 1242958 r-cran-coin_1.4-0.orig.tar.gz
+ 780d2a80d89520f82fe957855c66cf7e 5592 r-cran-coin_1.4-0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-coin
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-coin.git
+Checksums-Sha256:
+ fec613dd0fca99f66f85b25e44ac7103868e6ecc8b1dfdaf00663a5015f769ef 2184 r-cran-coin_1.4-0-1.dsc
+ fb9bfb1be33947ac3784829c6c2f7623b29bca04e540c0bce917f13f2a694ad8 1242958 r-cran-coin_1.4-0.orig.tar.gz
+ 66756b21f2a67a89603bad78e97aa05eaad864acfc50aa02a91c650ced8aa100 5592 r-cran-coin_1.4-0-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=coin
+Package-List: 
+ r-cran-coin deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-libcoin
+Directory: pool/main/r/r-cran-coin
+Priority: optional
+Section: misc

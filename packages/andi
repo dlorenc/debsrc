@@ -1,0 +1,27 @@
+Package: andi
+Binary: andi
+Version: 0.13-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Fabian Klötzl <kloetzl@evolbio.mpg.de>
+Build-Depends: debhelper-compat (= 12), libdivsufsort-dev, pkgconf, libgsl-dev, libglib2.0-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 95eb9f9631cebae2e997c6b5ba803f81 2010 andi_0.13-3.dsc
+ 5918d4786535aa4e3e62279bf79fba76 531413 andi_0.13.orig.tar.gz
+ 8520b1640670707ea90c48cb8b92541c 11128 andi_0.13-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/andi
+Vcs-Git: https://salsa.debian.org/med-team/andi.git
+Checksums-Sha256:
+ 17e67ec218620325707b143c30a996013c2fac12f5645ee0447a9fafa038c8ac 2010 andi_0.13-3.dsc
+ 3fb11f5399efdcbf98ecbbaa95b1a6cd98f887cf78554e460dc3f18d4880ae3e 531413 andi_0.13.orig.tar.gz
+ b5253c49e97ae6c2d5e2b31a3e85640ce42406ab671f589eb3c2e6d16ef4f063 11128 andi_0.13-3.debian.tar.xz
+Homepage: https://github.com/EvolBioInf/andi
+Package-List: 
+ andi deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/a/andi
+Priority: optional
+Section: misc

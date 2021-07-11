@@ -1,0 +1,29 @@
+Package: efivar
+Binary: libefivar-dev, libefiboot-dev, efivar, libefiboot1, libefivar1
+Version: 37-6
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Uploaders: Steve McIntyre <93sam@debian.org>, Mario Limonciello <mario.limonciello@dell.com>
+Build-Depends: debhelper-compat (= 12), libpopt-dev, pkg-config
+Architecture: amd64 i386 ia64 armhf arm64 armel riscv64 x32
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ af256865017c5d028ab49e8c0da9e751 2447 efivar_37-6.dsc
+ 9f067275c5f7aafdd75bfb364280ac9c 109431 efivar_37.orig.tar.bz2
+ b9d73c4a285d924f32365bf7a5f4fbe9 18108 efivar_37-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/efi-team/efivar
+Vcs-Git: https://salsa.debian.org/efi-team/efivar.git
+Checksums-Sha256:
+ b0009dd484fdd57dac094775e8aad3608c001a755d64273baf3f98de97c639b6 2447 efivar_37-6.dsc
+ 3c67feb93f901b98fbb897d5ca82931a6698b5bcd6ac34f0815f670d77747b9f 109431 efivar_37.orig.tar.bz2
+ a113edb4e515b53a7c132f46f8ba27908ae5a7793f5c903d594d611701406e4f 18108 efivar_37-6.debian.tar.xz
+Homepage: https://github.com/rhinstaller/efivar
+Package-List: 
+ efivar deb admin optional arch=amd64,i386,ia64,armhf,arm64,armel,riscv64,x32
+ libefiboot-dev deb libdevel optional arch=amd64,i386,ia64,armhf,arm64,armel,riscv64,x32
+ libefiboot1 deb libs optional arch=amd64,i386,ia64,armhf,arm64,armel,riscv64,x32
+ libefivar-dev deb libdevel optional arch=amd64,i386,ia64,armhf,arm64,armel,riscv64,x32
+ libefivar1 deb libs optional arch=amd64,i386,ia64,armhf,arm64,armel,riscv64,x32
+Directory: pool/main/e/efivar
+Priority: optional
+Section: misc

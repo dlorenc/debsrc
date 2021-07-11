@@ -1,0 +1,23 @@
+Package: libapache2-mod-ldap-userdir
+Binary: libapache2-mod-ldap-userdir, libapache2-mod-ldap-userdir-dbg
+Version: 1.1.19-2.1
+Maintainer: John Morrissey <jwm@horde.net>
+Build-Depends: debhelper (>= 7), dh-apache2, apache2-dev, libldap2-dev, chrpath
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 84df3498d2ff41cea7b04d1114658e53 2085 libapache2-mod-ldap-userdir_1.1.19-2.1.dsc
+ a24781bd4323632b0eefbb18bce08503 51483 libapache2-mod-ldap-userdir_1.1.19.orig.tar.gz
+ 1cbcf9fae6157dbcb935b08ed5e28e12 2824 libapache2-mod-ldap-userdir_1.1.19-2.1.debian.tar.gz
+Checksums-Sha256:
+ de334dee3ad90ecf4fd41084df8a6bd7df11815dc46fb37c62abe18309c4eeb7 2085 libapache2-mod-ldap-userdir_1.1.19-2.1.dsc
+ 467c3c9e40c1a8f39fe01ffedf5b9a462e14ed2a6ce2ec493c53f081b5a99fb5 51483 libapache2-mod-ldap-userdir_1.1.19.orig.tar.gz
+ df40a89c984fa0dbdcae24edde2dffc1624a55a801f7752800da2de18639d5af 2824 libapache2-mod-ldap-userdir_1.1.19-2.1.debian.tar.gz
+Homepage: http://horde.net/~jwm/software/mod_ldap_userdir/
+Package-List: 
+ libapache2-mod-ldap-userdir deb httpd optional
+ libapache2-mod-ldap-userdir-dbg deb debug extra
+Directory: pool/main/liba/libapache2-mod-ldap-userdir
+Priority: source
+Section: httpd

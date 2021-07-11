@@ -1,0 +1,25 @@
+Package: qperf
+Binary: qperf
+Version: 0.4.11-2
+Maintainer: Debian HPC team <debian-hpc@lists.debian.org>
+Uploaders: Brian T. Smith <bsmith@systemfabricworks.com>,
+Build-Depends: debhelper (>= 10), libibverbs-dev, librdmacm-dev
+Architecture: linux-any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 828c454deae6bbb41707b6eaa3ef2146 1930 qperf_0.4.11-2.dsc
+ 8ef6f0c0124a4eee447f39479c62a992 60027 qperf_0.4.11.orig.tar.gz
+ 0e2124a4cdc8ecdf8e66f1f3ea5969a4 2292 qperf_0.4.11-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/hpc-team/qperf
+Vcs-Git: https://salsa.debian.org/hpc-team/qperf.git
+Checksums-Sha256:
+ e858d6d2e14a8f6da547506c3b5f28047079cfe84466ffbb62c91de3f100ea63 1930 qperf_0.4.11-2.dsc
+ b0ef2ffe050607566d06102b4ef6268aad08fdc52898620d429096e7b0767e75 60027 qperf_0.4.11.orig.tar.gz
+ c7e64f9a4f1f622bee748a33c21d38a80de4c26ec352a284e9241395ad3c211d 2292 qperf_0.4.11-2.debian.tar.xz
+Homepage: https://github.com/linux-rdma/qperf
+Package-List: 
+ qperf deb utils optional arch=linux-any
+Directory: pool/main/q/qperf
+Priority: extra
+Section: misc

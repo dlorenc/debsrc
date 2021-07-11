@@ -1,0 +1,27 @@
+Package: raqm
+Binary: libraqm0, libraqm-dev
+Version: 0.7.0-4
+Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+Build-Depends: debhelper-compat (= 12), pkg-config, libfreetype6-dev (>= 2.4.2), libfribidi-dev, libharfbuzz-dev, python3, gtk-doc-tools (>= 1.15)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2c0fc20f53d4c175c92d75cb2ba59038 1771 raqm_0.7.0-4.dsc
+ d75dbe365fabebd053a9aecfc3d9e09f 683634 raqm_0.7.0.orig.tar.gz
+ e6a1805d4bae05530b270d2d62537e27 3932 raqm_0.7.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/raqm
+Vcs-Git: https://salsa.debian.org/debian/raqm.git
+Checksums-Sha256:
+ 93fdabb5711fd6a2d871e39805137481a5548f731c5580d34bfe513326d175a2 1771 raqm_0.7.0-4.dsc
+ e28575ecdd4e8a1d277d9be8268bb663ce1e476aaf55eb0456787821ddf0f941 683634 raqm_0.7.0.orig.tar.gz
+ ea6d9575bb77a5f320729536426f052422d8dd7ba794fa9ebb4f9838142f8581 3932 raqm_0.7.0-4.debian.tar.xz
+Homepage: https://github.com/HOST-Oman/libraqm
+Package-List: 
+ libraqm-dev deb libdevel optional arch=any
+ libraqm0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/r/raqm
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: libosmo-netif
+Binary: libosmonetif8, libosmo-netif-dev
+Version: 1.0.0-4
+Maintainer: Debian Mobcom Maintainers <Debian-mobcom-maintainers@lists.alioth.debian.org>
+Uploaders: Ruben Undheim <ruben.undheim@gmail.com> , Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), libosmocore-dev (>= 1.4.0), libosmo-abis-dev (>= 1.0.1), pkg-config, libortp-dev, libsctp-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c37618ac6ed2ac918802f5fcfbb49bee 2362 libosmo-netif_1.0.0-4.dsc
+ fa515203f02588f5be8c2c2d2b3139bb 163992 libosmo-netif_1.0.0.orig.tar.xz
+ 88b4c3a50b7afa31bdfea5c5e309101a 4352 libosmo-netif_1.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-mobcom-team/libosmo-netif
+Vcs-Git: https://salsa.debian.org/debian-mobcom-team/libosmo-netif.git
+Checksums-Sha256:
+ 4e71fa6869d342f0a860ff04ead25e41e19147cf84f257562ba7cd20634a962e 2362 libosmo-netif_1.0.0-4.dsc
+ ac4947349d8492cbd2f3b3a9a59bb9ad4f50643182d1e64d2c0f255b57a02345 163992 libosmo-netif_1.0.0.orig.tar.xz
+ b1b3a45f9c0678353217ec4d7a15f620e7450141f3462860f800949ea05efb7b 4352 libosmo-netif_1.0.0-4.debian.tar.xz
+Homepage: http://git.osmocom.org/libosmo-netif/
+Package-List: 
+ libosmo-netif-dev deb libdevel optional arch=any
+ libosmonetif8 deb libs optional arch=any
+Directory: pool/main/libo/libosmo-netif
+Priority: optional
+Section: misc

@@ -1,0 +1,30 @@
+Package: libcap2
+Binary: libcap2-bin, libcap2, libcap-dev, libpam-cap, libcap2-udeb
+Version: 1:2.44-1
+Maintainer: Christian Kastner <ckk@debian.org>
+Build-Depends: debhelper-compat (= 12), indent, libpam0g-dev, gperf (>= 3.1)
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ae72737291a2c8cad271ccf530e5e88f 2179 libcap2_2.44-1.dsc
+ 46ab71759e17a07efa920692ac2f714d 125568 libcap2_2.44.orig.tar.xz
+ cd4fb93ba7fd6daabf0be143c5e218b9 21116 libcap2_2.44-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libcap2
+Vcs-Git: https://salsa.debian.org/debian/libcap2.git
+Checksums-Sha256:
+ c356b4239be3c35ef4b7ef5b9f7ea1677da41a68ef9761a8cabc96023076ac83 2179 libcap2_2.44-1.dsc
+ 92188359cd5be86e8e5bd3f6483ac6ce582264f912398937ef763def2205c8e1 125568 libcap2_2.44.orig.tar.xz
+ f612c54d31b44b4f508342a3415f5d51deeffaf939d4b47068909bbb1fd6c0f2 21116 libcap2_2.44-1.debian.tar.xz
+Homepage: https://sites.google.com/site/fullycapable/
+Package-List: 
+ libcap-dev deb libdevel optional arch=linux-any
+ libcap2 deb libs optional arch=linux-any
+ libcap2-bin deb utils important arch=linux-any
+ libcap2-udeb udeb debian-installer optional arch=linux-any
+ libpam-cap deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc, libc-dev
+Directory: pool/main/libc/libcap2
+Priority: source
+Section: libs

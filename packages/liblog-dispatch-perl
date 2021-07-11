@@ -1,0 +1,28 @@
+Package: liblog-dispatch-perl
+Binary: liblog-dispatch-perl
+Version: 2.70-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ernesto Hernández-Novich (USB) <emhn@usb.ve>, Florian Schlichting <fsfs@debian.org>, Angel Abad <angel@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdevel-globaldestruction-perl <!nocheck>, libdist-checkconflicts-perl <!nocheck>, libipc-run3-perl <!nocheck>, libjson-pp-perl <!nocheck>, libmail-sendmail-perl <!nocheck>, libmailtools-perl <!nocheck>, libmime-lite-perl <!nocheck>, libmodule-runtime-perl <!nocheck>, libnamespace-autoclean-perl <!nocheck>, libparams-validationcompiler-perl <!nocheck>, libspecio-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-needs-perl <!nocheck>, libtest-requires-perl <!nocheck>, libtry-tiny-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8cfd0fe29cf90009dcfe48266ed91733 2969 liblog-dispatch-perl_2.70-1.dsc
+ 3369ffd45dc098ef6c74622ceee7ad74 70808 liblog-dispatch-perl_2.70.orig.tar.gz
+ 82afea07b83106895e2824a518964e45 7716 liblog-dispatch-perl_2.70-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/liblog-dispatch-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/liblog-dispatch-perl.git
+Checksums-Sha256:
+ d65fbfae9e2f18aa9cb6eaafe74446a96ec11e60ab09f5e60a9c6068a51b6fe3 2969 liblog-dispatch-perl_2.70-1.dsc
+ a3d91cc52467d3a3c6683103f3df4472d71e405a45f553289448713ac4293f21 70808 liblog-dispatch-perl_2.70.orig.tar.gz
+ 1b5b7f0f74362b09f7e71b1d0b338daaa57b66e915b0059a97d3208ad1561dfd 7716 liblog-dispatch-perl_2.70-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Log-Dispatch
+Dgit: a38d8761f215e7903f481703c222f953481fc505 debian archive/debian/2.70-1 https://git.dgit.debian.org/liblog-dispatch-perl
+Package-List: 
+ liblog-dispatch-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libl/liblog-dispatch-perl
+Priority: source
+Section: perl

@@ -1,0 +1,25 @@
+Package: postfwd
+Binary: postfwd, hapolicy
+Version: 1.35-6
+Maintainer: Jan Wagner <waja@cyconet.org>
+Build-Depends: debhelper-compat (= 12), html2text
+Architecture: all
+Standards-Version: 4.5.1.0
+Format: 3.0 (quilt)
+Files:
+ 0a3ffa8a6cabbcf1d9935dafb679aeea 1863 postfwd_1.35-6.dsc
+ 8e01328416c735d55efec90dede8bff2 354609 postfwd_1.35.orig.tar.gz
+ f6e4c29d45dd46c1eceac0776cd2ef87 15188 postfwd_1.35-6.debian.tar.xz
+Vcs-Browser: https://gitlab.uncompleted.org/debian/postfwd
+Vcs-Git: https://gitlab.uncompleted.org/debian/postfwd.git
+Checksums-Sha256:
+ aa15f4cfb8e1dddcde529534195d5b29653319517a2d491ae39aa215770d23a8 1863 postfwd_1.35-6.dsc
+ 42abf8fc1229e8a09fa0141b6e23e34c6e1b654a56f6e7556d04067eafc77c41 354609 postfwd_1.35.orig.tar.gz
+ cd96952b3e32604cbafb526e5cb2485386bd2b689ea2d9d03d85566574047880 15188 postfwd_1.35-6.debian.tar.xz
+Homepage: http://www.postfwd.org/
+Package-List: 
+ hapolicy deb mail optional arch=all
+ postfwd deb mail optional arch=all
+Directory: pool/main/p/postfwd
+Priority: source
+Section: mail

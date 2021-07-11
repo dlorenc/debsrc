@@ -1,0 +1,24 @@
+Package: libapache2-mod-auth-pubtkt
+Binary: libapache2-mod-auth-pubtkt
+Version: 0.13-1
+Maintainer: Ivo De Decker <ivodd@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-apache2, apache2-dev, libssl-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 0b0714a7c5cd4974b892c20a2aa67bfc 2055 libapache2-mod-auth-pubtkt_0.13-1.dsc
+ 1d78f80b0049fc360b70e8b454ca17be 40762 libapache2-mod-auth-pubtkt_0.13.orig.tar.gz
+ 71e47e07a3e259d9a80176bba54d813f 6452 libapache2-mod-auth-pubtkt_0.13-1.debian.tar.xz
+Checksums-Sha256:
+ 3c0dbca0b0487cc78274e19621828b3792bc4d594b9b23e7a11710958c1558c8 2055 libapache2-mod-auth-pubtkt_0.13-1.dsc
+ b5992623b1e9a0f6f72f531a6642f85b553940c0a0dc50238de0a0da1d1ae09c 40762 libapache2-mod-auth-pubtkt_0.13.orig.tar.gz
+ 02dc6e562d63d37b168e3a57e2c2d6b5e7aa0f9a0a367789427cff99cdf524c8 6452 libapache2-mod-auth-pubtkt_0.13-1.debian.tar.xz
+Homepage: https://neon1.net/mod_auth_pubtkt/
+Package-List: 
+ libapache2-mod-auth-pubtkt deb httpd optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, libany-uri-escape-perl, libipc-run3-perl, libwww-curl-perl, openssl
+Directory: pool/main/liba/libapache2-mod-auth-pubtkt
+Priority: source
+Section: httpd

@@ -1,0 +1,30 @@
+Package: openimageio
+Binary: libopenimageio2.2, libopenimageio-dev, openimageio-tools, python3-openimageio, libopenimageio-doc
+Version: 2.2.10.1+dfsg-1
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Uploaders: Matteo F. Vescovi <mfv@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-python, libboost-filesystem-dev, libboost-python-dev, libboost-regex-dev, libboost-system-dev, libboost-thread-dev, libdcmtk-dev, libfmt-dev, libfreetype6-dev, libgif-dev, libheif-dev, libopencolorio-dev [!hurd-i386], libopencv-dev, libopenexr-dev, libopenjp2-7-dev, libopenvdb-dev, libpng-dev, libqt5opengl5-dev, libraw-dev, libsquish-dev, libtiff-dev, libwebp-dev, pybind11-dev, python3-dev, qtbase5-dev, robin-map-dev (>= 0.2.0), txt2man
+Build-Depends-Indep: texlive-latex-base, fonts-freefont-ttf, latex2html
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 97f86290ededaadbf726abcd1d8f2b31 3005 openimageio_2.2.10.1+dfsg-1.dsc
+ 2860d722dd1577ddbd8c3f879301c1c0 26335196 openimageio_2.2.10.1+dfsg.orig.tar.xz
+ 0c5f9034c359e5fe461d7e1f06ec9745 17540 openimageio_2.2.10.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-phototools-team/openimageio
+Vcs-Git: https://salsa.debian.org/debian-phototools-team/openimageio.git
+Checksums-Sha256:
+ 98fea69111accaef773a5dc42edab4831e80469e901bbfb493137cba8169e799 3005 openimageio_2.2.10.1+dfsg-1.dsc
+ bf8f109db3f4ab29c26905d9309cb76af074f7e9df1ea2346145115d2c04fe50 26335196 openimageio_2.2.10.1+dfsg.orig.tar.xz
+ f336b259c69d717d45e9d67f01de492d7d7e606bcb78793f4f35c6595d3784df 17540 openimageio_2.2.10.1+dfsg-1.debian.tar.xz
+Homepage: http://www.openimageio.org/
+Package-List: 
+ libopenimageio-dev deb libdevel optional arch=any
+ libopenimageio-doc deb doc optional arch=all
+ libopenimageio2.2 deb libs optional arch=any
+ openimageio-tools deb graphics optional arch=any
+ python3-openimageio deb python optional arch=any
+Directory: pool/main/o/openimageio
+Priority: source
+Section: libs
