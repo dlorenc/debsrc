@@ -6,19 +6,19 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"net/http"
 	"os"
 	"strings"
 )
 
-var url = "https://ftp.debian.org/debian/dists/bullseye/main/source/Sources.gz"
+var path = "Sources.gz"
 
 func main() {
-	resp, err := http.Get(url)
+
+	f, err := os.Open(path)
 	if err != nil {
 		panic(err)
 	}
-	gz, err := gzip.NewReader(resp.Body)
+	gz, err := gzip.NewReader(f)
 	if err != nil {
 		panic(err)
 	}
