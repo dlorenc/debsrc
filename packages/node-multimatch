@@ -1,0 +1,26 @@
+Package: node-multimatch
+Binary: node-multimatch
+Version: 5.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-array-differ <!nocheck>, node-array-union <!nocheck>, node-arrify <!nocheck>, node-minimatch (>= 3.0.0) <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 66fcf463f115df67d4fbb66d217df6a0 2194 node-multimatch_5.0.0-1.dsc
+ 72c97f47904ff12fbff9d44d0c0afd1e 4671 node-multimatch_5.0.0.orig.tar.gz
+ 6088633b255d593fe75d536db6948e12 3676 node-multimatch_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-multimatch
+Vcs-Git: https://salsa.debian.org/js-team/node-multimatch.git
+Checksums-Sha256:
+ d4e27031305fe262e27260386859cbf386e517290d8c70f5e9bc218e24b66ef6 2194 node-multimatch_5.0.0-1.dsc
+ cb6c51048327eb622115d45332ffc920a1e5fb31c07d7b8641a895b41ea3e140 4671 node-multimatch_5.0.0.orig.tar.gz
+ 97a5da7888961067419a1184a01ef7654164d1212c2918358b013e3b2a660307 3676 node-multimatch_5.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/multimatch
+Package-List: 
+ node-multimatch deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-multimatch
+Priority: optional
+Section: javascript

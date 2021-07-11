@@ -1,0 +1,34 @@
+Package: squid
+Binary: squid, squid-openssl, squid-common, squidclient, squid-cgi, squid-purge
+Version: 4.13-10
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Uploaders: Santiago Garcia Mantinan <manty@debian.org>
+Build-Depends: ed, libltdl-dev, pkg-config, g++ (>= 4.9) <!cross> | clang (>= 3.7) <!cross>, gcc (>= 4.9) <!cross> | clang (>= 3.7) <!cross>, debhelper (>= 12.8), dpkg-dev (>= 1.17.11~), lsb-release, dh-apparmor, libcppunit-dev, libcap2-dev [linux-any], libdb-dev, libecap3-dev (>= 1.0.1-2), libexpat1-dev, libgnutls28-dev (>= 3.5), libkrb5-dev, comerr-dev, libldap2-dev, libnetfilter-conntrack-dev [linux-any], libpam0g-dev, libsasl2-dev, libsystemd-dev [linux-any], libxml2-dev, nettle-dev, libssl-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a902743425c59c5e16e919ccf5d44c53 2956 squid_4.13-10.dsc
+ 492e54afc15821141ff1d1d9903854d6 2452752 squid_4.13.orig.tar.xz
+ 4be8191f3ce8e4891bc371cc1e72327d 1194 squid_4.13.orig.tar.xz.asc
+ bb6425a65ef6b7b87b464ca49816caaa 52936 squid_4.13-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/squid-team/squid
+Vcs-Git: https://salsa.debian.org/squid-team/squid.git
+Checksums-Sha256:
+ c3fcfcb6378a900ea78a76d76d1eba0425646d2236464c7ee7f61ef9fbfdd603 2956 squid_4.13-10.dsc
+ 6891a0f540e60779b4f24f1802a302f813c6f473ec7336a474ed68c3e2e53ee0 2452752 squid_4.13.orig.tar.xz
+ 3e145c4af6322ff55bf299ff166c824c092ba2b62f822c8fdd7f885ec90c2ad2 1194 squid_4.13.orig.tar.xz.asc
+ 120f8b867ec6c8abfeada7b4db6ef401c3a92e55e177a1a9d5bc1067a140270c 52936 squid_4.13-10.debian.tar.xz
+Homepage: http://www.squid-cache.org
+Package-List: 
+ squid deb web optional arch=any
+ squid-cgi deb web optional arch=any
+ squid-common deb web optional arch=all
+ squid-openssl deb web optional arch=any
+ squid-purge deb web optional arch=any
+ squidclient deb web optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, apache2, apparmor-utils, elinks, fakeroot, netcat, python3-minimal, ssl-cert, vsftpd
+Directory: pool/main/s/squid
+Priority: extra
+Section: misc

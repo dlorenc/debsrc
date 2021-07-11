@@ -1,0 +1,35 @@
+Package: cheese
+Binary: cheese, cheese-common, libcheese-gtk25, libcheese-gtk-dev, libcheese8, libcheese-dev, libcheese-doc, gir1.2-cheese-3.0
+Version: 3.38.0-3
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Sebastien Bacher <seb128@debian.org>
+Build-Depends: debhelper-compat (= 13), docbook-xsl, gnome-pkg-tools (>= 0.10), gtk-doc-tools (>= 1.14), meson (>= 0.50), intltool (>= 0.50.0), valac (>= 0.25.3), libglib2.0-dev (>= 2.39.90), libgdk-pixbuf-2.0-dev | libgdk-pixbuf2.0-dev, libgtk-3-dev (>= 3.13.4), libgnome-desktop-3-dev (>= 3.12), libgstreamer1.0-dev (>= 0.11.0), libgstreamer-plugins-base1.0-dev (>= 0.11.0), libgstreamer-plugins-bad1.0-dev (>= 1.4), libcairo2-dev (>= 1.10.0), libpango1.0-dev (>= 1.28.0), librsvg2-dev (>= 2.32.0), libclutter-1.0-dev (>= 1.16), libclutter-gtk-1.0-dev (>= 0.91.8), libclutter-gst-3.0-dev, x11proto-core-dev, libcanberra-gtk3-dev (>= 0.26), gnome-video-effects-dev, gobject-introspection (>= 0.9.12-4~), libgirepository1.0-dev (>= 0.9.6), libxtst-dev, pkg-config (>= 0.24), appstream-util, xauth <!nocheck>, xvfb <!nocheck>, yelp-tools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9da15d381f77c94af095fc11288e849e 3434 cheese_3.38.0-3.dsc
+ 83b580b1451b27d43403d3ae5829e08c 1086428 cheese_3.38.0.orig.tar.xz
+ 17271d00af30940eef6666e0c6c4b44e 21524 cheese_3.38.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/cheese
+Vcs-Git: https://salsa.debian.org/gnome-team/cheese.git
+Checksums-Sha256:
+ baa23eb96864d64bf88512f821260f663d7f760bcf027a5e671dc792eae04506 3434 cheese_3.38.0-3.dsc
+ 88d2732b421b903110a2628db25c0d61e219c42bdfb5971151033fba95a8d16f 1086428 cheese_3.38.0.orig.tar.xz
+ f8afeeeb62d486b451a9090f3a52fd7162e5b9fdbeb4a746356494d1fe0e55d4 21524 cheese_3.38.0-3.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Cheese
+Dgit: 6411ac5a2c7036e8c2417d609d50ffb2c5bd781f debian archive/debian/3.38.0-3 https://git.dgit.debian.org/cheese
+Package-List: 
+ cheese deb gnome optional arch=any
+ cheese-common deb gnome optional arch=all
+ gir1.2-cheese-3.0 deb introspection optional arch=any
+ libcheese-dev deb libdevel optional arch=any
+ libcheese-doc deb doc optional arch=all
+ libcheese-gtk-dev deb libdevel optional arch=any
+ libcheese-gtk25 deb libs optional arch=any
+ libcheese8 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, dbus, xauth, xvfb
+Directory: pool/main/c/cheese
+Priority: source
+Section: gnome

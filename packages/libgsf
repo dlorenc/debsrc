@@ -1,0 +1,28 @@
+Package: libgsf
+Binary: gir1.2-gsf-1, libgsf-1-114, libgsf-1-dev, libgsf-1-common, libgsf-bin
+Version: 1.14.47-1
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, gobject-introspection (>= 1.41.4), gtk-doc-tools, intltool, libbz2-dev, libgirepository1.0-dev, libglib2.0-dev, libglib2.0-doc, libgtk2.0-dev, libxml2-dev, unzip <!nocheck>, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3d5c7cf1d3c4865f334274a88280ed19 2269 libgsf_1.14.47-1.dsc
+ 20bf9933128210d7a9f920a34198d22f 691448 libgsf_1.14.47.orig.tar.xz
+ 2057a2773061438e3be55f0bd5721591 13544 libgsf_1.14.47-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libgsf
+Vcs-Git: https://salsa.debian.org/debian/libgsf.git
+Checksums-Sha256:
+ 8de7c975a4233106662ecb42c1557a32ebada788adb1b86956fa6d16507d8160 2269 libgsf_1.14.47-1.dsc
+ d188ebd3787b5375a8fd38ee6f761a2007de5e98fa0cf5623f271daa67ba774d 691448 libgsf_1.14.47.orig.tar.xz
+ 99f80ce6abd4778a87073d900dc65193eea042a75d30eafe5d152d113b706196 13544 libgsf_1.14.47-1.debian.tar.xz
+Homepage: http://projects.gnome.org/libgsf/
+Package-List: 
+ gir1.2-gsf-1 deb introspection optional arch=any
+ libgsf-1-114 deb libs optional arch=any
+ libgsf-1-common deb libs optional arch=all
+ libgsf-1-dev deb libdevel optional arch=any
+ libgsf-bin deb gnome optional arch=any
+Directory: pool/main/libg/libgsf
+Priority: source
+Section: libs

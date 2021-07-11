@@ -1,0 +1,27 @@
+Package: flask-login
+Binary: python3-flask-login, python-flask-login-doc
+Version: 0.5.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Daniele Tricoli <eriol@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-blinker, python3-flask, python3-mock, python3-pytest, python3-semantic-version, python3-setuptools, python3-sphinx, python3-werkzeug
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e5563c2b6cf72c8ff55070d2ec269f66 2289 flask-login_0.5.0-1.dsc
+ 5899f9cb9903b3ba76b729a4121645ca 44961 flask-login_0.5.0.orig.tar.gz
+ e56331eb0c4c38453278d2044275b55c 5660 flask-login_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/flask-login
+Vcs-Git: https://salsa.debian.org/python-team/modules/flask-login.git
+Checksums-Sha256:
+ ad7db1b596a447af0ecf1efc4519cf69f42c1c7888289a59115d104e37660159 2289 flask-login_0.5.0-1.dsc
+ 08ddae69a5f7adf206cd5eeffd993b8305e3384809399abc5dbfac47273e9089 44961 flask-login_0.5.0.orig.tar.gz
+ ff49d1e62c5450786eae6472c79854f4b18d272531e523f1805e79657fbc78c3 5660 flask-login_0.5.0-1.debian.tar.xz
+Homepage: https://github.com/maxcountryman/flask-login
+Package-List: 
+ python-flask-login-doc deb doc optional arch=all
+ python3-flask-login deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/f/flask-login
+Priority: optional
+Section: misc

@@ -1,0 +1,24 @@
+Package: plocate
+Binary: plocate
+Version: 1.1.8-2
+Maintainer: Steinar H. Gunderson <sesse@debian.org>
+Build-Depends: debhelper-compat (= 13), liburing-dev [linux-any], libzstd-dev, meson, ninja-build, pkg-config, systemd [linux-any]
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 21234503df2c7ad687dfcbd0b12d7007 1843 plocate_1.1.8-2.dsc
+ 962a8416f31ee36ee4412f95336a3275 71569 plocate_1.1.8.orig.tar.gz
+ e051fb435ca31f2cef2570689114fb91 5488 plocate_1.1.8-2.debian.tar.xz
+Checksums-Sha256:
+ 981917daddc3f99be177f1e515f0cf0420593ebd4e60c45a711a146d196b8a73 1843 plocate_1.1.8-2.dsc
+ 13002f065c28a93623a03d44c911a44f1659e8b1841aad80fd8a566a1200f43c 71569 plocate_1.1.8.orig.tar.gz
+ 140faf190bcd52454fa7e9acbe92f07aa6eae8335d3e744eea7a9af0ba8b2185 5488 plocate_1.1.8-2.debian.tar.xz
+Homepage: https://plocate.sesse.net/
+Package-List: 
+ plocate deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: mlocate
+Directory: pool/main/p/plocate
+Priority: extra
+Section: misc

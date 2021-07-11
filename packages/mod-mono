@@ -1,0 +1,25 @@
+Package: mod-mono
+Binary: libapache2-mod-mono
+Version: 3.8-3
+Maintainer: Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>
+Uploaders: Dylan R. E. Moonfire <debian@mfgames.com>, Mirco Bauer <meebey@debian.org>, Jo Shields <directhex@apebox.org>
+Build-Depends: debhelper (>= 7.0.50~), dh-autoreconf, dh-apache2, apache2-dev (>= 2.4), po-debconf, pkg-config, mono-runtime (>= 2.11)
+Architecture: any
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Files:
+ c7c883843ef24d90873aa472b2fc8781 1724 mod-mono_3.8-3.dsc
+ f25198bb2dce0448c26977170c5a5602 377327 mod-mono_3.8.orig.tar.gz
+ 15ae2bfbae680a35d683d34175fce52a 15356 mod-mono_3.8-3.debian.tar.xz
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-mono/mod-mono/trunk/
+Vcs-Svn: svn://svn.debian.org/pkg-mono/mod-mono/trunk
+Checksums-Sha256:
+ 893bdb4e1f01c3d480f79b025ab97f82b57430a8779f13df59b5cfb81e6436d9 1724 mod-mono_3.8-3.dsc
+ 39c8c82f1a7a43c9fe6ff5988fdde893f578b4a8c6bd18dddff7c5c42a8fc7c1 377327 mod-mono_3.8.orig.tar.gz
+ 736a705802a91fdd0f61eacfda8c823d11cc5eaa190d8b7dc463587a2a418686 15356 mod-mono_3.8-3.debian.tar.xz
+Homepage: http://www.mono-project.com/Mod_mono
+Package-List: 
+ libapache2-mod-mono deb web optional arch=any
+Directory: pool/main/m/mod-mono
+Priority: source
+Section: cli-mono

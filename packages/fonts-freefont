@@ -1,0 +1,29 @@
+Package: fonts-freefont
+Binary: fonts-freefont-ttf, fonts-freefont-otf, fonts-freefont-udeb
+Version: 20120503-10
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Davide Viti <zinosat@tiscali.it>, Fabian Greffrath <fabian@debian.org>
+Build-Depends: debhelper (>= 11~)
+Build-Depends-Indep: fontforge-nox | fontforge
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 9c7eaba9ed9a762c15d15fc4d3bdb197 2028 fonts-freefont_20120503-10.dsc
+ 89986f8492f9e5f15c0d6df45757b8f0 4453956 fonts-freefont_20120503.orig.tar.xz
+ 5aac64917e3f74ba6b3c8459eb57021e 18012 fonts-freefont_20120503-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/fonts-freefont
+Vcs-Git: https://salsa.debian.org/fonts-team/fonts-freefont.git
+Checksums-Sha256:
+ f51ad79e7894c42bbcaad12d8a6184fa38fc28eeff3663dd92426c7c374aedd9 2028 fonts-freefont_20120503-10.dsc
+ b3850d562f2e227720b4cd67f44490bdcb7abd6482714945b9b65cdcfe8ce0d8 4453956 fonts-freefont_20120503.orig.tar.xz
+ 1798c185de175d881a5d5bc7f69c0e0abe050e1294d6f12dac6f08d0dd2cc557 18012 fonts-freefont_20120503-10.debian.tar.xz
+Homepage: http://savannah.gnu.org/projects/freefont/
+Dgit: 5e5235a53b742ccb720748da10cb6497da5b3ac5 debian archive/debian/20120503-10 https://git.dgit.debian.org/fonts-freefont
+Package-List: 
+ fonts-freefont-otf deb fonts optional arch=all
+ fonts-freefont-ttf deb fonts optional arch=all
+ fonts-freefont-udeb udeb debian-installer optional arch=all
+Directory: pool/main/f/fonts-freefont
+Priority: source
+Section: fonts

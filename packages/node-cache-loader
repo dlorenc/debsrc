@@ -1,0 +1,28 @@
+Package: node-cache-loader
+Binary: node-cache-loader
+Version: 4.1.0+~cs2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), jest <!nocheck>, nodejs (>= 6), node-babel7, node-babel-loader (>= 8.0.1), node-loader-utils (>= 1.2.3~) <!nocheck>, node-memory-fs <!nocheck>, node-mkdirp (>= 1~) <!nocheck>, node-neo-async (>= 2.6.1~) <!nocheck>, node-schema-utils (>= 3.0~) <!nocheck>, node-tape <!nocheck>, webpack (>= 4.0~) <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c824f7dd5cd58810960d948640afe464 2783 node-cache-loader_4.1.0+~cs2.0.0-1.dsc
+ aeaf9b5385650ad062d645e1e18c4f94 2757 node-cache-loader_4.1.0+~cs2.0.0.orig-buffer-json.tar.gz
+ a36b54dac9af82b737e7726415b1630e 239379 node-cache-loader_4.1.0+~cs2.0.0.orig.tar.gz
+ 913f30efba11c8bf3b808256a7e91b10 3940 node-cache-loader_4.1.0+~cs2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cache-loader
+Vcs-Git: https://salsa.debian.org/js-team/node-cache-loader.git
+Checksums-Sha256:
+ 8f91e595fea72d56c0c91b922e9598d12ffa1a48900f037582d2018ac0bee572 2783 node-cache-loader_4.1.0+~cs2.0.0-1.dsc
+ 44043e45b7b6b596d934412d8bf07ce46ceb5a799d7ea6e0127ec0c53438e891 2757 node-cache-loader_4.1.0+~cs2.0.0.orig-buffer-json.tar.gz
+ 19789c70f9e6b2b0db45602dfa3e7ef1be4689009b256826a648dfacde94c792 239379 node-cache-loader_4.1.0+~cs2.0.0.orig.tar.gz
+ 0bd1f98c3226ad4825e260117a1900c64eab0dd754e1779b37bb4148f05e37ef 3940 node-cache-loader_4.1.0+~cs2.0.0-1.debian.tar.xz
+Homepage: https://github.com/webpack-contrib/cache-loader
+Package-List: 
+ node-cache-loader deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cache-loader
+Priority: extra
+Section: misc

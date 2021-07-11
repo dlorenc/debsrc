@@ -1,0 +1,28 @@
+Package: python-pynvim
+Binary: python3-neovim, python3-pynvim
+Version: 0.4.2-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: James McCoy <jamessan@debian.org>, Víctor Cuadrado Juan <me@viccuad.me>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-msgpack (>= 0.5.0), python3-greenlet, neovim (>= 0.2.1), python3-pytest (>= 3.4.0), python3-pytest-runner
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 24bc51923961c68d8d25d7f8fb2db021 2314 python-pynvim_0.4.2-1.dsc
+ b0bfd6477cdc8dac95ebe6423eb2977b 42234 python-pynvim_0.4.2.orig.tar.gz
+ 17ef67a639bc5879aa724eaba0db6055 4256 python-pynvim_0.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-pynvim
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-pynvim.git
+Checksums-Sha256:
+ bad78c1e8f76b0e5d903788ccbfa40b4783b2d20379a04f006bfa09c4faf67cf 2314 python-pynvim_0.4.2-1.dsc
+ 6bc6204d465de5888a0c5e3e783fe01988b032e22ae87875912280bef0e40f8f 42234 python-pynvim_0.4.2.orig.tar.gz
+ d5e373b846c0ccdf7a426230070bd97105afcec588049f9d4d924315baefafc1 4256 python-pynvim_0.4.2-1.debian.tar.xz
+Homepage: https://github.com/neovim/python-client
+Package-List: 
+ python3-neovim deb oldlibs optional arch=all
+ python3-pynvim deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: neovim, python3-all, python3-pytest
+Directory: pool/main/p/python-pynvim
+Priority: extra
+Section: misc

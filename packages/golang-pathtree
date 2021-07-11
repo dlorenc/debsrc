@@ -1,0 +1,28 @@
+Package: golang-pathtree
+Binary: golang-github-robfig-pathtree-dev
+Version: 0.0~git20140121-4
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3420d54057b069bac895894fcb13e0a4 2279 golang-pathtree_0.0~git20140121-4.dsc
+ 88b8d8f352855bb4bfc2f9d80ebf4e80 4300 golang-pathtree_0.0~git20140121.orig.tar.gz
+ 08c0ccf2fd585b00950c869f631275cd 3460 golang-pathtree_0.0~git20140121-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-pathtree
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-pathtree.git
+Checksums-Sha256:
+ e619edf9d7da525ebafcb7443f522b227687a981e4887342132bb863972e36a6 2279 golang-pathtree_0.0~git20140121-4.dsc
+ c27e2a698a31a7f8884389673713f1a5e7c84ee52d3a4cf4a5b9f0dfbfafcf8c 4300 golang-pathtree_0.0~git20140121.orig.tar.gz
+ 87dc73a801f64a6ab6d1d12f34c7c7d0bb0fe6a3c164106e00781ef925357087 3460 golang-pathtree_0.0~git20140121-4.debian.tar.xz
+Homepage: https://github.com/robfig/pathtree
+Go-Import-Path: github.com/robfig/pathtree,
+                   github.com/revel/pathtree
+Package-List: 
+ golang-github-robfig-pathtree-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-pathtree
+Priority: extra
+Section: golang

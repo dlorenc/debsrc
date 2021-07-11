@@ -1,0 +1,29 @@
+Package: starjava-connect
+Binary: starlink-connect-java, starlink-connect-java-doc
+Version: 0.1+2020.10.01-1
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: ant, debhelper-compat (= 13), dh-exec, javahelper
+Build-Depends-Indep: ant-optional, default-jdk, default-jdk-doc, junit, starlink-util-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e712a158e24358e859c5e98fd3107843 2382 starjava-connect_0.1+2020.10.01-1.dsc
+ c6b12b7243f510b45c497918d8e5c339 28328 starjava-connect_0.1+2020.10.01.orig.tar.xz
+ ed59ea9e10d270bddb6e28cf2adb22b9 4728 starjava-connect_0.1+2020.10.01-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/starjava-connect
+Vcs-Git: https://salsa.debian.org/debian-astro-team/starjava-connect.git
+Checksums-Sha256:
+ 8eb1c924fb72f7ce3e5943b11b4b65c814bc40a99af7fdc6b3e89ad990b65544 2382 starjava-connect_0.1+2020.10.01-1.dsc
+ f75731ed8fac1703eb4e5c48e35d73444af18d7a853acfd64b43403543f965f1 28328 starjava-connect_0.1+2020.10.01.orig.tar.xz
+ b14b7fcc4c4b741ddc579e03427df5b8ebdb3cd00b0f12b2e88cff06eb936728 4728 starjava-connect_0.1+2020.10.01-1.debian.tar.xz
+Homepage: https://github.com/Starlink/starjava/tree/master/connect
+Package-List: 
+ starlink-connect-java deb java optional arch=all
+ starlink-connect-java-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ant, ant-optional, default-jdk, junit
+Directory: pool/main/s/starjava-connect
+Priority: optional
+Section: misc

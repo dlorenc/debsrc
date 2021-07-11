@@ -1,0 +1,27 @@
+Package: python-duniterpy
+Binary: python3-duniterpy, python-duniterpy-doc
+Version: 0.60.1-1
+Maintainer: Debian Cryptocoin Team <team+cryptocoin@tracker.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: black <!nocheck>, debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nocheck>, mypy <!nocheck>, pylint <!nocheck>, python3, python3-aiohttp (>= 3.6.1) <!nocheck>, python3-attr (>= 19.3.0) <!nocheck>, python3-base58 <!nocheck>, python3-jsonschema (>= 3.0.2) <!nocheck>, python3-libnacl (>= 1.7.2) <!nocheck>, python3-pyaes <!nocheck>, python3-pypeg2 <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cac340e7e35e7c3296995724924f340c 2567 python-duniterpy_0.60.1-1.dsc
+ 966a12e37088f4f37024eaf7f238609e 103105 python-duniterpy_0.60.1.orig.tar.bz2
+ 41cd2bb7e5d6ec0489bf284805bceebb 4776 python-duniterpy_0.60.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cryptocoin-team/python-duniterpy
+Vcs-Git: https://salsa.debian.org/cryptocoin-team/python-duniterpy.git
+Checksums-Sha256:
+ e6cf9ab67975db284d9b57a68133aa748dceabaefbac06285988760ae4cbdd7b 2567 python-duniterpy_0.60.1-1.dsc
+ 0bad103a258284961fc5a40179ce0e0693e7ff2834a78023d4ce2c47ed1c6794 103105 python-duniterpy_0.60.1.orig.tar.bz2
+ 623a131b7d18f15ae6330efeb1f2242f04498512a9e82f6f2e1891c8da2fecb9 4776 python-duniterpy_0.60.1-1.debian.tar.xz
+Homepage: https://git.duniter.org/clients/python/duniterpy
+Package-List: 
+ python-duniterpy-doc deb python optional arch=all
+ python3-duniterpy deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-duniterpy
+Priority: extra
+Section: misc

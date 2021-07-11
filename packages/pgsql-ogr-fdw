@@ -1,0 +1,27 @@
+Package: pgsql-ogr-fdw
+Binary: postgresql-13-ogr-fdw
+Version: 1.1.0-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>, Christoph Berg <myon@debian.org>
+Build-Depends: debhelper (>= 10~), libgdal-dev, postgresql-server-dev-all
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 12fbe91a4c0a2034a564449e037b64f4 2142 pgsql-ogr-fdw_1.1.0-1.dsc
+ 1a14ab7f6238e790ca139254f47e579b 252808 pgsql-ogr-fdw_1.1.0.orig.tar.gz
+ 626c6f66ea74bb8c2584bf1689c3fc4e 5192 pgsql-ogr-fdw_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/pgsql-ogr-fdw
+Vcs-Git: https://salsa.debian.org/debian-gis-team/pgsql-ogr-fdw.git
+Checksums-Sha256:
+ e3b6bf1e1dc591e2444aaabfd32fbcd8d989966d705400585f7c34f9d35d8687 2142 pgsql-ogr-fdw_1.1.0-1.dsc
+ 688729fb38c320b70e7ddeb629a9472efd3d2a7227816740d215c863958cff33 252808 pgsql-ogr-fdw_1.1.0.orig.tar.gz
+ 245b35bfc4ba4308ef623ebf632b9fcc10d4f2ddde0e71e2d13bbc54dc3bed0f 5192 pgsql-ogr-fdw_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/pramsey/pgsql-ogr-fdw
+Package-List: 
+ postgresql-13-ogr-fdw deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: newpid, postgresql-server-dev-all
+Directory: pool/main/p/pgsql-ogr-fdw
+Priority: optional
+Section: misc

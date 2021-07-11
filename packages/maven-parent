@@ -1,0 +1,25 @@
+Package: maven-parent
+Binary: libmaven-parent-java
+Version: 31-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends: debhelper (>= 11~), default-jdk, libapache-pom-java (>= 7), maven-repo-helper (>= 1.9.3~)
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 470d6b2fb408fc6323c7acb9bba5e57e 2036 maven-parent_31-2.dsc
+ dfcc6d92ce6002a5452bc4132dc5fdbb 15252 maven-parent_31.orig.tar.xz
+ 4d291705c81eb8d5e0c1106b649432b4 3040 maven-parent_31-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/maven-parent
+Vcs-Git: https://salsa.debian.org/java-team/maven-parent.git
+Checksums-Sha256:
+ b535341d66fe553bd9bd604833bdc7086f346282d3d93ca8a0014a3aa4e145a8 2036 maven-parent_31-2.dsc
+ 2d06dd77913e7ca3666590e97620f9a02394150f1a99325aa673dabc159c23cd 15252 maven-parent_31.orig.tar.xz
+ 2bc75f28bd7b56482c1868305af390e9b72b28e35c34e2488bdbe6f99bdad6b8 3040 maven-parent_31-2.debian.tar.xz
+Homepage: http://maven.apache.org/
+Package-List: 
+ libmaven-parent-java deb java optional arch=all
+Directory: pool/main/m/maven-parent
+Priority: source
+Section: java

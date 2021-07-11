@@ -1,0 +1,28 @@
+Package: rust-grep
+Binary: librust-grep-dev, librust-grep+simd-accel-dev
+Version: 0.2.7-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-grep-cli-0.1+default-dev (>= 0.1.5-~~) <!nocheck>, librust-grep-matcher-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-grep-pcre2-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-grep-printer-0.1+default-dev (>= 0.1.5-~~) <!nocheck>, librust-grep-regex-0.1+default-dev (>= 0.1.8-~~) <!nocheck>, librust-grep-searcher-0.1+default-dev (>= 0.1.7-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ dafa282a30771879031b6b0a9109f4b4 2663 rust-grep_0.2.7-1.dsc
+ 83bb7a55eac5a4e0633c89ac1981bbc2 7146 rust-grep_0.2.7.orig.tar.gz
+ 2d21785800fc101704b321ed9468eb20 3436 rust-grep_0.2.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/grep
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/grep]
+Checksums-Sha256:
+ 3c9d87ea4d6f22b88938fe4bb43069959e7caf17009548c0e6dd29fce1a87504 2663 rust-grep_0.2.7-1.dsc
+ 582e93ba59eae0f9607f53832326f351f87a5175f17ff123b3986b927a0e7e68 7146 rust-grep_0.2.7.orig.tar.gz
+ d0f237100eaaa3207c755da4641f7e0c4e636b1a67ab392f52da7b72af0ebb65 3436 rust-grep_0.2.7-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/ripgrep/tree/master/crates/grep
+Package-List: 
+ librust-grep+simd-accel-dev deb rust optional arch=any
+ librust-grep-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-termcolor-1+default-dev, librust-walkdir-2+default-dev
+Directory: pool/main/r/rust-grep
+Priority: extra
+Section: misc

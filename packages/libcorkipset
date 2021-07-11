@@ -1,0 +1,30 @@
+Package: libcorkipset
+Binary: libcorkipset-utils, libcorkipset-dev, libcorkipset1, libcorkipset-doc
+Version: 1.1.1+20150311-11
+Maintainer: Debian Bridges Team <team+bridges@tracker.debian.org>
+Uploaders: Roger Shimizu <rosh@debian.org>
+Build-Depends: check, cmake, debhelper-compat (= 12), help2man, libcork-dev (>= 0.15.0+ds-8), pkg-config, python3-sphinx
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a06d818731b4ae93c04dbab9cb4f078b 2377 libcorkipset_1.1.1+20150311-11.dsc
+ 9b26ae1904579d11e8479ad5fe022533 49676 libcorkipset_1.1.1+20150311.orig.tar.xz
+ 8731ea8fd17e24a02f48385359131d47 14052 libcorkipset_1.1.1+20150311-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/bridges-team/libcorkipset
+Vcs-Git: https://salsa.debian.org/bridges-team/libcorkipset.git
+Checksums-Sha256:
+ 972a326b9fb9069200b2d3bb05e217f4d480cda401fe8dcf6760063ecea1d054 2377 libcorkipset_1.1.1+20150311-11.dsc
+ 6ff060e78d3265bb1bf4f53eee2a46b68b718901de3596dd36fac1e8a75ca341 49676 libcorkipset_1.1.1+20150311.orig.tar.xz
+ 1b73d137084a837463091b486f8ba6841ea183bfc3d5ffea58628601ca720758 14052 libcorkipset_1.1.1+20150311-11.debian.tar.xz
+Homepage: https://github.com/dcreager/libcorkipset
+Package-List: 
+ libcorkipset-dev deb libdevel optional arch=any
+ libcorkipset-doc deb doc optional arch=all
+ libcorkipset-utils deb libs optional arch=any
+ libcorkipset1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/libc/libcorkipset
+Priority: optional
+Section: misc

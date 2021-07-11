@@ -1,0 +1,28 @@
+Package: haskell-vector-space
+Binary: libghc-vector-space-dev, libghc-vector-space-prof, libghc-vector-space-doc
+Version: 0.16-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Iulian Udrea <iulian@physics.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-boolean-dev (>= 0.1.0), libghc-boolean-prof, libghc-memotrie-dev (>= 0.5), libghc-memotrie-prof, libghc-numinstances-dev (>= 1.0), libghc-numinstances-prof
+Build-Depends-Indep: ghc-doc, libghc-boolean-doc, libghc-memotrie-doc, libghc-numinstances-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 4fff34b8204d3eaa46e8091d5787d87e 2635 haskell-vector-space_0.16-1.dsc
+ 5abfe11d45103a770886d327ed518f99 16049 haskell-vector-space_0.16.orig.tar.gz
+ c25b8f2f40787f9a677c5e5967ae961a 3300 haskell-vector-space_0.16-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-vector-space
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-vector-space]
+Checksums-Sha256:
+ f76ef53a34a0c7a4865a97afbfbdbd937335d191417b94696e8beaec9ba8432e 2635 haskell-vector-space_0.16-1.dsc
+ 0c0b2f1209f95045865b968c7aa0a25e155410b3e08cf98a6c8544e48436c79c 16049 haskell-vector-space_0.16.orig.tar.gz
+ 9e416db7bccb480f4e85498ce5787a2166b1bba7c0f73b425b1614e16d8a5637 3300 haskell-vector-space_0.16-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/vector-space
+Package-List: 
+ libghc-vector-space-dev deb haskell optional arch=any
+ libghc-vector-space-doc deb doc optional arch=all
+ libghc-vector-space-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-vector-space
+Priority: source
+Section: haskell

@@ -1,0 +1,26 @@
+Package: node-supertest
+Binary: node-supertest
+Version: 6.1.3-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), node-superagent <!nocheck>, node-methods <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 58fabe40fa1a6549bac3b57f96508580 2094 node-supertest_6.1.3-1.dsc
+ 4481aac841a2eadb60ec2ff697d26789 58563 node-supertest_6.1.3.orig.tar.gz
+ 915db1fdf9195db144dd659be2091b22 27660 node-supertest_6.1.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-supertest
+Vcs-Git: https://salsa.debian.org/js-team/node-supertest.git
+Checksums-Sha256:
+ 535e7022ad72b518006849a22f1a304c8b57cb073e720cc2988eacf331229a44 2094 node-supertest_6.1.3-1.dsc
+ 8814564db6ede7574d34e21d0eb45ca50657f6277b4276929761b886d98e0786 58563 node-supertest_6.1.3.orig.tar.gz
+ 7652c58d500c15c74157a918d59539073c3f72ae2d7ed946db23b78710c79df7 27660 node-supertest_6.1.3-1.debian.tar.xz
+Homepage: https://github.com/visionmedia/supertest
+Package-List: 
+ node-supertest deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-supertest
+Priority: optional
+Section: javascript

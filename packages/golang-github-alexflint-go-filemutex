@@ -1,0 +1,28 @@
+Package: golang-github-alexflint-go-filemutex
+Binary: golang-github-alexflint-go-filemutex-dev
+Version: 1.1.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang
+Build-Depends-Indep: golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4f3d43c1404db7abe884fbe03e40d223 1811 golang-github-alexflint-go-filemutex_1.1.0-1.dsc
+ ed1c41de0ea17516369daf4e0ae11c0b 3607 golang-github-alexflint-go-filemutex_1.1.0.orig.tar.gz
+ 9bd29c309943f8592459a94b787190af 2804 golang-github-alexflint-go-filemutex_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-alexflint-go-filemutex
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-alexflint-go-filemutex.git
+Checksums-Sha256:
+ a1b8b6264e4b10f904619d0b704960ac8f526d2341dc11039e82bb3a1e75a4da 1811 golang-github-alexflint-go-filemutex_1.1.0-1.dsc
+ 3f96ca458981b1d48efac0d9bb0c6ed06531261ea50446dc430d97cf53c8b66d 3607 golang-github-alexflint-go-filemutex_1.1.0.orig.tar.gz
+ 92579e2d8f4c3d511021f6aa11e625c0c39e22bf427e0bd2def201c45a9111b3 2804 golang-github-alexflint-go-filemutex_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/alexflint/go-filemutex
+Go-Import-Path: github.com/alexflint/go-filemutex
+Package-List: 
+ golang-github-alexflint-go-filemutex-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-alexflint-go-filemutex
+Priority: extra
+Section: golang

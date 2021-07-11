@@ -1,0 +1,27 @@
+Package: rust-rand-hc
+Binary: librust-rand-hc-dev
+Version: 0.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-rand-core-0.5+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 6d2d382940b9b1d7b3af8346f8ce9e51 1597 rust-rand-hc_0.2.0-1.dsc
+ b269356e8646f3184a0e8d52a58cee69 11670 rust-rand-hc_0.2.0.orig.tar.gz
+ fc12b502122642aeec428df34fa6cf87 2624 rust-rand-hc_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand-hc
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand-hc]
+Checksums-Sha256:
+ 2f916862f5145e26f6fec47e26b8e8b573362d510a079cb435c08f7b8b54e312 1597 rust-rand-hc_0.2.0-1.dsc
+ ca3129af7b92a17112d59ad498c6f81eaf463253766b90396d39ea7a39d6613c 11670 rust-rand-hc_0.2.0.orig.tar.gz
+ 2b503db5824b66fff2a55f8d1ec9f687a62e82f7a93086d3d1ebc3fcfc76a03d 2624 rust-rand-hc_0.2.0-1.debian.tar.xz
+Homepage: https://crates.io/crates/rand_hc
+Package-List: 
+ librust-rand-hc-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rand-hc
+Priority: extra
+Section: misc

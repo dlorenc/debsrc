@@ -1,0 +1,28 @@
+Package: rust-ascii
+Binary: librust-ascii-dev, librust-ascii+serde-dev, librust-ascii+serde-test-dev
+Version: 0.9.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ fb858f1b1c0c56f5f2b0e1dbcfec3811 2288 rust-ascii_0.9.2-1.dsc
+ 77109057f4c3030b84c7bee1e1cfa914 28093 rust-ascii_0.9.2.orig.tar.gz
+ 05fdbcb7e1599b5798f147a9bc0d4ba3 3084 rust-ascii_0.9.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ascii
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ascii]
+Checksums-Sha256:
+ 710a69eec5bab5c0def00d4c35822675b1b81a72c4245fd4e119b913ec263bec 2288 rust-ascii_0.9.2-1.dsc
+ 91e320562a8fa3286a481b7189f89578ace6b20df99e123c87f2f509c957c5d6 28093 rust-ascii_0.9.2.orig.tar.gz
+ 83fcaa4ce30897029a4c2edc68327e4a25072bf2f04a93a835e23366509c708a 3084 rust-ascii_0.9.2-1.debian.tar.xz
+Package-List: 
+ librust-ascii+serde-dev deb rust optional arch=any
+ librust-ascii+serde-test-dev deb rust optional arch=any
+ librust-ascii-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-ascii
+Priority: extra
+Section: misc

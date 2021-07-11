@@ -1,0 +1,26 @@
+Package: node-gzip-size
+Binary: node-gzip-size
+Version: 6.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-duplexer <!nocheck>, node-p-timeout <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d8f8a3b7cbf83651b4d5000cd87b54b2 2115 node-gzip-size_6.0.0-1.dsc
+ 18172411b5bcaa74e99bfe89792b4cd1 4288 node-gzip-size_6.0.0.orig.tar.gz
+ dac7305e858946212f72a1ed1d6f67ac 7032 node-gzip-size_6.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-gzip-size
+Vcs-Git: https://salsa.debian.org/js-team/node-gzip-size.git
+Checksums-Sha256:
+ 8168adc7783c4934301eccde43a77284d97a8563137dcdd4b56b1718bde8d621 2115 node-gzip-size_6.0.0-1.dsc
+ c4eff952ccc0d17fe3258e5a253432355625c095e3501cdd963a8cc318f95e3c 4288 node-gzip-size_6.0.0.orig.tar.gz
+ 5e262e4138fb709819f7a64253b78d089795e02e1ad9cdf72ca424665e0975de 7032 node-gzip-size_6.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/gzip-size
+Package-List: 
+ node-gzip-size deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-gzip-size
+Priority: extra
+Section: javascript

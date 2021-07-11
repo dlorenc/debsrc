@@ -1,0 +1,27 @@
+Package: golang-google-appengine
+Binary: golang-google-appengine-dev
+Version: 1.6.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>, Martín Ferrari <tincho@debian.org>, Michael Stapelberg <stapelberg@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 12), dh-golang (>= 1.17~), golang-any, golang-golang-x-net-dev (>= 1:0.0+git20180724.3673e40~), golang-golang-x-text-dev (>= 0.3.0~), golang-goprotobuf-dev (>= 1.2.0~)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ ec9717c6c28313fcea8ac63442918d8f 2426 golang-google-appengine_1.6.0-1.dsc
+ bcbb1315064a6b630a40f31cc13f952d 332522 golang-google-appengine_1.6.0.orig.tar.gz
+ 8dd598304edb17957b988402e2debe61 3152 golang-google-appengine_1.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-google-appengine
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-google-appengine.git
+Checksums-Sha256:
+ 96cf0b9579a64ec41597c18c9ecf722dc42bff8fb6fef79244f4ec99102ffe2b 2426 golang-google-appengine_1.6.0-1.dsc
+ b2273441e2f02213d10acc4c5410662a13407a80589f74ff49353ffcae3f517f 332522 golang-google-appengine_1.6.0.orig.tar.gz
+ 7eaffda895dbb3aff3dc4925781138615b11b8cad743d7c5dc3726ae67a43b1c 3152 golang-google-appengine_1.6.0-1.debian.tar.xz
+Homepage: http://google.golang.org/appengine
+Go-Import-Path: google.golang.org/appengine
+Package-List: 
+ golang-google-appengine-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-google-appengine
+Priority: extra
+Section: golang

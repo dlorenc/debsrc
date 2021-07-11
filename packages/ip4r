@@ -1,0 +1,27 @@
+Package: ip4r
+Binary: postgresql-13-ip4r
+Version: 2.4.1-4
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8d168e42f2a053f82261c10abd538d81 1965 ip4r_2.4.1-4.dsc
+ edfc714cbd38eefab0eae44d6e64f4e1 128212 ip4r_2.4.1.orig.tar.gz
+ bedaa620cda022b58ed23ef969c095ca 3872 ip4r_2.4.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/ip4r
+Vcs-Git: https://salsa.debian.org/postgresql/ip4r.git
+Checksums-Sha256:
+ bbf06760713f0683dc08ae59eeaf1a345b4d53f3ed89b9072338909dde0e89e1 1965 ip4r_2.4.1-4.dsc
+ 78b9f0c1ae45c22182768fe892a32d533c82281035e10914111400bf6301c726 128212 ip4r_2.4.1.orig.tar.gz
+ 0bb623851f5abd9985be2ffbfec7ee91d97853021d390a5db969e9796bc13c82 3872 ip4r_2.4.1-4.debian.tar.xz
+Homepage: https://github.com/RhodiumToad/ip4r
+Package-List: 
+ postgresql-13-ip4r deb misc optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/i/ip4r
+Priority: source
+Section: misc

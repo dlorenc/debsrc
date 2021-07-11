@@ -1,0 +1,28 @@
+Package: netcdf-parallel
+Binary: libnetcdf-mpi-18, libnetcdf-pnetcdf-18, libnetcdf-mpi-dev, libnetcdf-pnetcdf-dev
+Version: 1:4.7.4-1
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 12), cmake (>= 3.6.1), chrpath, m4, doxygen, graphviz, libjs-jquery, libaec-dev, libhdf5-mpi-dev (>= 1.8.13+docs~), libcurl4-gnutls-dev | libcurl-ssl-dev, libpnetcdf-dev [amd64 arm64 mips64el ppc64el s390x alpha ia64 sparc64 kfreebsd-amd64 ppc64 riscv64]
+Build-Conflicts: hdf5-helpers, libhdf5-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 260d9b74ab356f0d5975892c5c2a01a7 2625 netcdf-parallel_4.7.4-1.dsc
+ 2773a0786bc2c84ac6f222235fbd6638 12779204 netcdf-parallel_4.7.4.orig.tar.xz
+ a7290ec573f03995d5a7ab6d80d2c065 39348 netcdf-parallel_4.7.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mckinstry/netcdf-parallel
+Vcs-Git: https://salsa.debian.org/mckinstry/netcdf-parallel.git -b dev-coinstallable
+Checksums-Sha256:
+ aa3e975a2f7f89ea1ede4e5454b55de1ee12e9077779fd5802e71e5613000632 2625 netcdf-parallel_4.7.4-1.dsc
+ ae5f29ee59282a4a34c0657148deacbe30753eeee59db396fd54a50cc9567d33 12779204 netcdf-parallel_4.7.4.orig.tar.xz
+ be3b473cf495da237fbb95c8c2c747a897deea140b486551757dbb3803cd136c 39348 netcdf-parallel_4.7.4-1.debian.tar.xz
+Homepage: http://www.unidata.ucar.edu/software/netcdf/
+Package-List: 
+ libnetcdf-mpi-18 deb libs optional arch=any
+ libnetcdf-mpi-dev deb libdevel optional arch=any
+ libnetcdf-pnetcdf-18 deb libs optional arch=amd64,arm64,mips64el,ppc64el,s390x,alpha,ia64,sparc64,kfreebsd-amd64,ppc64,riscv64
+ libnetcdf-pnetcdf-dev deb libdevel optional arch=amd64,arm64,mips64el,ppc64el,s390x,alpha,ia64,sparc64,kfreebsd-amd64,ppc64,riscv64
+Directory: pool/main/n/netcdf-parallel
+Priority: extra
+Section: misc

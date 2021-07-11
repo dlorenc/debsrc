@@ -1,0 +1,25 @@
+Package: maven-invoker
+Binary: libmaven-invoker-java
+Version: 3.0.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>, tony mancill <tmancill@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, junit4, libmaven-plugin-tools-java, libplexus-component-metadata-java (>= 1.6), libplexus-utils-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 34c88be0f9d30b4a9e25a53bf78181b1 2205 maven-invoker_3.0.0-1.dsc
+ 8b0226cd8b06f553003a3069b81c426d 24924 maven-invoker_3.0.0.orig.tar.xz
+ aa526260a93fd7bb8b0a6d5898aff8da 3660 maven-invoker_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/maven-invoker.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/maven-invoker.git
+Checksums-Sha256:
+ 38ea87bed3f60bd2727dffb4ff8600bcb29934646381504f5d9cdc1768ff2cea 2205 maven-invoker_3.0.0-1.dsc
+ 1f9e62e648159283eb99b69b60df0129f718d26359544e691514ed33b5a9a16c 24924 maven-invoker_3.0.0.orig.tar.xz
+ d0c9d47859442343458f1978b76a2f4224c8fdff1482e03591ff991a703707cb 3660 maven-invoker_3.0.0-1.debian.tar.xz
+Homepage: http://maven.apache.org/shared/maven-invoker/
+Package-List: 
+ libmaven-invoker-java deb java optional arch=all
+Directory: pool/main/m/maven-invoker
+Priority: source
+Section: java

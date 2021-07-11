@@ -1,0 +1,27 @@
+Package: python-itemadapter
+Binary: python3-itemadapter
+Version: 0.2.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Andrey Rahmatullin <wrar@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pytest, python3-setuptools, python3-attr, python3-scrapy
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6ea51a21c467f8c84e44230fb1567783 2254 python-itemadapter_0.2.0-1.dsc
+ 7fffedda13fa002c3f25785dde766a74 12897 python-itemadapter_0.2.0.orig.tar.gz
+ 2397804aa0b1a6f33938dea58461abb3 2556 python-itemadapter_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-itemadapter
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-itemadapter.git
+Checksums-Sha256:
+ 3014cc79fe64d6bf8ff618c1e7d248670aef7347e22d2c706e3e8fc0ebac92b5 2254 python-itemadapter_0.2.0-1.dsc
+ ad1df0ea5cbeddb7554358c4d929ee013e117c973865ed9ecc416c9f6f346ed2 12897 python-itemadapter_0.2.0.orig.tar.gz
+ d06dfad71010cf6b06bdd4511481d7e30f027de7adaa9b895e34f6fb293ffc76 2556 python-itemadapter_0.2.0-1.debian.tar.xz
+Homepage: https://github.com/scrapy/itemadapter
+Package-List: 
+ python3-itemadapter deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-attr, python3-pytest, python3-scrapy
+Directory: pool/main/p/python-itemadapter
+Priority: extra
+Section: misc

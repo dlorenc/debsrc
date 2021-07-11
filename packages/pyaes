@@ -1,0 +1,27 @@
+Package: pyaes
+Binary: python3-pyaes
+Version: 1.6.1-4
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9765dac953b00eba02ee71fd6ae36f1f 2001 pyaes_1.6.1-4.dsc
+ e452068b81ee61f35bc850294a622e9e 29203 pyaes_1.6.1.orig.tar.gz
+ 9848e463bd9c827553e5a8251ae3989e 3000 pyaes_1.6.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyaes
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyaes.git
+Checksums-Sha256:
+ 0ca5da33837edca287cb5eb8454508140f68464734185d20f0b6647e872ac728 2001 pyaes_1.6.1-4.dsc
+ 2de6150553b59b212c1512a7b3a3a2d4c6432839a75d64c791e028af64ef3e23 29203 pyaes_1.6.1.orig.tar.gz
+ 71a578fcc86fdb316a0c0cc55df9b184353b6c9f89626db19faa3420e8464066 3000 pyaes_1.6.1-4.debian.tar.xz
+Homepage: https://github.com/ricmoo/pyaes
+Package-List: 
+ python3-pyaes deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pycryptodome
+Directory: pool/main/p/pyaes
+Priority: extra
+Section: misc

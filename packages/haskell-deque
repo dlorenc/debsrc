@@ -1,0 +1,26 @@
+Package: haskell-deque
+Binary: libghc-deque-dev, libghc-deque-prof, libghc-deque-doc
+Version: 0.4.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-hashable-dev (>= 1.2), libghc-hashable-dev (<< 2), libghc-hashable-prof, libghc-strict-list-dev (>= 0.1.5), libghc-strict-list-dev (<< 0.2), libghc-strict-list-prof
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc, libghc-strict-list-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 849b5b0f95b9cddb87b22dfb2526f43c 2324 haskell-deque_0.4.3-1.dsc
+ 3f554ca72589bea776bbc121b8fa49e8 8565 haskell-deque_0.4.3.orig.tar.gz
+ 2c1409af32e34e0ef6253fd02b800b92 1992 haskell-deque_0.4.3-1.debian.tar.xz
+Checksums-Sha256:
+ ea06ea02bfb8c39e960a6553523cac9219f5db662d674f617f5be9cc77da9694 2324 haskell-deque_0.4.3-1.dsc
+ b76a0e7d8a5f3b12ca8cf5a583f3e8e4333c7860f56b1e921a3fdfe959e557a5 8565 haskell-deque_0.4.3.orig.tar.gz
+ d55bc6cc48c2e4bce8839c9a3e49de7663d2469a72059301502e38701c5939a5 1992 haskell-deque_0.4.3-1.debian.tar.xz
+Homepage: https://github.com/nikita-volkov/deque
+Package-List: 
+ libghc-deque-dev deb haskell optional arch=any
+ libghc-deque-doc deb doc optional arch=all
+ libghc-deque-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-deque
+Priority: extra
+Section: misc

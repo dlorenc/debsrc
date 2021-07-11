@@ -1,0 +1,30 @@
+Package: six
+Binary: python-six, python3-six, pypy-six, python-six-doc
+Version: 1.16.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, pypy, pypy-setuptools, python2 (>= 2.6.6-3~), python-all, python-setuptools, python3 (>= 3.1.2-8~), python3-all, python3-pytest, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3f5d562c6e9cccedbde6d6b1274274f6 2358 six_1.16.0-1.dsc
+ a7c927740e4964dd29b72cebfc1429bb 34041 six_1.16.0.orig.tar.gz
+ daafa5db3ac763e330fee9f3795ec6ce 4572 six_1.16.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/six
+Vcs-Git: https://salsa.debian.org/python-team/packages/six.git
+Checksums-Sha256:
+ 4b19d0d6d83ee50eae3b0a2e2b2e95e29939f67de7c2e0e6a7aa088552e2eebd 2358 six_1.16.0-1.dsc
+ 1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 34041 six_1.16.0.orig.tar.gz
+ 32cb41fc6949947e352c0b779400076e3f64b7060fe46689cb5c6cbd0e72f67f 4572 six_1.16.0-1.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/six
+Dgit: be3fd26915a5798f112a616cc2edd64a9f8748e8 debian archive/debian/1.16.0-1 https://git.dgit.debian.org/six
+Package-List: 
+ pypy-six deb python optional arch=all
+ python-six deb python optional arch=all
+ python-six-doc deb doc optional arch=all
+ python3-six deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/s/six
+Priority: source
+Section: python

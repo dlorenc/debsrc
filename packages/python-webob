@@ -1,0 +1,27 @@
+Package: python-webob
+Binary: python-webob-doc, python3-webob
+Version: 1:1.8.6-1.1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Soren Hansen <soren@ubuntu.com>, Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-sphinx, python3-all, python3-setuptools
+Build-Depends-Indep: python3-doc, python3-pytest, python3-simplejson
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 2d2cd4aa745fd1be3064e867804e0a09 2223 python-webob_1.8.6-1.1.dsc
+ dc3cc8c317d4acd03a6fd97cb0a9121a 274606 python-webob_1.8.6.orig.tar.gz
+ ed34e60e0564acccec151da1764e46c9 5960 python-webob_1.8.6-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-webob
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-webob.git
+Checksums-Sha256:
+ bd3820a9aedfe52cd7cbce9688b18addaf48520656dd7312ff3a5f708fa634f3 2223 python-webob_1.8.6-1.1.dsc
+ aa3a917ed752ba3e0b242234b2a373f9c4e2a75d35291dcbe977649bd21fd108 274606 python-webob_1.8.6.orig.tar.gz
+ 7dbad6a49d980fbf9fc44af99500ab7d5745417f8d3296bd462201f1296f21d7 5960 python-webob_1.8.6-1.1.debian.tar.xz
+Homepage: https://webob.org/
+Package-List: 
+ python-webob-doc deb doc optional arch=all
+ python3-webob deb python optional arch=all
+Directory: pool/main/p/python-webob
+Priority: source
+Section: python

@@ -1,0 +1,27 @@
+Package: ruby-asana
+Binary: ruby-asana
+Version: 0.10.2-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-faraday (>= 1.0~), ruby-faraday-middleware (>= 1.0~), ruby-faraday-middleware-multi-json (>= 0.0), ruby-oauth2 (>= 1.4.4~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 12b24d605fc4688b5a2fd98afdc76673 2127 ruby-asana_0.10.2-2.dsc
+ f0d4659ed1b15c5c4de223313f6708c3 57333 ruby-asana_0.10.2.orig.tar.gz
+ 20ec42af2b8291e2e9486c2f24686bf8 3092 ruby-asana_0.10.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-asana
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-asana.git
+Checksums-Sha256:
+ c1cb079b325ea84e34ec714f1f78a101c08543c80d3d7fbbaf9aad6479712520 2127 ruby-asana_0.10.2-2.dsc
+ a5827caed56ae939f96493b7d566ed59d8ae7823ea6e5e0b31ee8a1581a9a2a5 57333 ruby-asana_0.10.2.orig.tar.gz
+ 34e05b725b015ebdf47d409d0492194d0c6bcd07146ba46105e465ef432bef91 3092 ruby-asana_0.10.2-2.debian.tar.xz
+Homepage: https://github.com/asana/ruby-asana
+Package-List: 
+ ruby-asana deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-asana
+Priority: optional
+Section: misc

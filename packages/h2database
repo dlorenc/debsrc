@@ -1,0 +1,26 @@
+Package: h2database
+Binary: libh2-java, libh2-java-doc
+Version: 1.4.197-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11), default-jdk, javahelper, libjts-java, liblucene4.10-java, libosgi-compendium-java, libservlet3.1-java, libslf4j-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 8b2a980333fc13a78ead0a02f16c5c33 2157 h2database_1.4.197-4.dsc
+ 2cba84c41b2cefb0b0df2dee824302de 2285716 h2database_1.4.197.orig.tar.xz
+ 36f9746849c099554e2c2ca5b2e3fc7f 13104 h2database_1.4.197-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/h2database
+Vcs-Git: https://salsa.debian.org/java-team/h2database.git
+Checksums-Sha256:
+ d0250e228e1457b38d5ab22625e3fbe46f7aeec5820828e7c6b161af08c15860 2157 h2database_1.4.197-4.dsc
+ 728b1171cbfd160a84c246463e0df700c08ed6c49ef30a37663b209bba0bf420 2285716 h2database_1.4.197.orig.tar.xz
+ 2686d89b3b1c370e4867841bab2be20aca3a0067546c09786278d62cb8f209e3 13104 h2database_1.4.197-4.debian.tar.xz
+Homepage: http://www.h2database.com
+Package-List: 
+ libh2-java deb java optional arch=all
+ libh2-java-doc deb doc optional arch=all
+Directory: pool/main/h/h2database
+Priority: optional
+Section: misc

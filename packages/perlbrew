@@ -1,0 +1,28 @@
+Package: perlbrew
+Binary: perlbrew
+Version: 0.91-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl
+Build-Depends-Indep: curl <!nocheck>, libcapture-tiny-perl (>= 0.36) <!nocheck>, libcpan-perl-releases-perl (>= 5.20210123) <!nocheck>, libdevel-patchperl-perl (>= 2.08) <!nocheck>, libfile-which-perl (>= 1.21) <!nocheck>, libio-all-perl <!nocheck>, liblocal-lib-perl <!nocheck>, libpath-class-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>, libtest-output-perl <!nocheck>, libtest-spec-perl <!nocheck>, libtest-tempdir-tiny-perl <!nocheck>, perl (>= 5.25.4), perl-doc, wget <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e26822f9aa83267e1e904a14071338f3 2764 perlbrew_0.91-1.dsc
+ 0de85ed06385a01496c42033273d1fd6 86985 perlbrew_0.91.orig.tar.gz
+ 4b79217f1930577845a11dda08da4d43 5948 perlbrew_0.91-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/perlbrew
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/perlbrew.git
+Checksums-Sha256:
+ 51cef55000c4a0821ea986b5e8ceac527b9fc71bccd21a4e9ba78f9f818e2a10 2764 perlbrew_0.91-1.dsc
+ e617a77bf474b1bbece6244de33e62d02be9fc40b0f74f71d06864ead1e18dfe 86985 perlbrew_0.91.orig.tar.gz
+ 91f168ad3d3b091fe0c862c0dcf9f22bfd4dbf2e915b9a06a17cb8fe22d500b9 5948 perlbrew_0.91-1.debian.tar.xz
+Homepage: https://metacpan.org/release/App-perlbrew
+Dgit: 97bfcfed577f570899f443b24108ace2b74821ef debian archive/debian/0.91-1 https://git.dgit.debian.org/perlbrew
+Package-List: 
+ perlbrew deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/p/perlbrew
+Priority: source
+Section: perl

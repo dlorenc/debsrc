@@ -1,0 +1,36 @@
+Package: node-markdown-it
+Binary: node-markdown-it
+Version: 10.0.0+dfsg-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sakshi Sangwan <sangwansakshi10@gmail.com>
+Build-Depends: debhelper-compat (= 12), nodejs (>= 6), rollup, mocha, chai, node-supertest, node-entities (>= 2.0.0), node-argparse, uglifyjs.terser, node-object-assign, node-js-yaml, pkg-js-tools (>= 0.9.13~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 140e0dce3d16f17b5eed2ee61525e26b 3886 node-markdown-it_10.0.0+dfsg-2.dsc
+ 47bbff491499a288bfed2ad28b557104 22284 node-markdown-it_10.0.0+dfsg.orig-linkify-it.tar.xz
+ 93eb19120e0f80486a6a5397e0de8b01 4668 node-markdown-it_10.0.0+dfsg.orig-markdown-it-for-inline.tar.xz
+ e7c936de348c84cfca7ced1749f467ee 6040 node-markdown-it_10.0.0+dfsg.orig-markdown-it-testgen.tar.xz
+ b2a6006cba70c4897ee1b325a9beb06c 12456 node-markdown-it_10.0.0+dfsg.orig-mdurl.tar.xz
+ dd678ec323a2b9df9b37f3be42005ea8 3524 node-markdown-it_10.0.0+dfsg.orig-ucmicro.tar.xz
+ 765befe68c6472fbd8cfc107ca1939db 118384 node-markdown-it_10.0.0+dfsg.orig.tar.xz
+ 27b636b2a1302333f655650ab3879178 9528 node-markdown-it_10.0.0+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-markdown-it
+Vcs-Git: https://salsa.debian.org/js-team/node-markdown-it.git
+Checksums-Sha256:
+ 4017dd81917eb5633e8d462f61def2a70b326f7f68361bd8803d3742ffac002d 3886 node-markdown-it_10.0.0+dfsg-2.dsc
+ f9fac723e656b8cba5298df697eec3b3a371193e5c86d34032f3825473d69afb 22284 node-markdown-it_10.0.0+dfsg.orig-linkify-it.tar.xz
+ ce4bbf9eea4f595ba28628ae670ff5142a2ca020229c94a62598a0236dbbeb09 4668 node-markdown-it_10.0.0+dfsg.orig-markdown-it-for-inline.tar.xz
+ 37ca54132e30236baeb8f39d5f42b59785d5b4a447b8cf558928b1a9cfbefb91 6040 node-markdown-it_10.0.0+dfsg.orig-markdown-it-testgen.tar.xz
+ f7ef6edcf56fea35302948e9417c7962f0ae711fa333b0c8af24e7a6118517fc 12456 node-markdown-it_10.0.0+dfsg.orig-mdurl.tar.xz
+ ca8e68a9eb390de674b38754d5cb9875860d4bfc75d23dd95787482f22517acf 3524 node-markdown-it_10.0.0+dfsg.orig-ucmicro.tar.xz
+ 807178efe123b0c1299de87b22f2ac3e223eb5098465c2b2add5b7ec663e4a93 118384 node-markdown-it_10.0.0+dfsg.orig.tar.xz
+ 758bc59d42b676eae4d2e8bdba2b3983857f5a1b248ed2095f799d0857c2abcf 9528 node-markdown-it_10.0.0+dfsg-2.debian.tar.xz
+Homepage: https://github.com/markdown-it/markdown-it#readme
+Package-List: 
+ node-markdown-it deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-markdown-it
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: pgcluu
+Binary: pgcluu
+Version: 3.1-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: apache2-dev | dh-apache2, debhelper (>= 9.20160709~), yui-compressor
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 9515d865434eccbdd253eb9164cb473e 1995 pgcluu_3.1-1.dsc
+ b72eea2a65a45f85527407e0212eb3b9 1133874 pgcluu_3.1.orig.tar.gz
+ d3e230d01167eddd25cec87a4979f377 7652 pgcluu_3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pgcluu
+Vcs-Git: https://salsa.debian.org/postgresql/pgcluu.git
+Checksums-Sha256:
+ 360a5d3b9f306a2baf41f85586c76d9d2eefc93132335dbf2b6734ca9900a87d 1995 pgcluu_3.1-1.dsc
+ ce18ec7378947ed842f6bb9162853eeb7251818022f0facf897f5e49872ebd2f 1133874 pgcluu_3.1.orig.tar.gz
+ 2937a6363185d7db1607d9a35e18bd8c90afee09f3fe64d7a0e0443b9061ee4f 7652 pgcluu_3.1-1.debian.tar.xz
+Homepage: https://pgcluu.darold.net/
+Package-List: 
+ pgcluu deb database optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: postgresql, postgresql-server-dev-all
+Directory: pool/main/p/pgcluu
+Priority: extra
+Section: misc

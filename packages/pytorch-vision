@@ -1,0 +1,25 @@
+Package: pytorch-vision
+Binary: python3-torchvision
+Version: 0.8.2-1
+Maintainer: Debian Deep Learning Team <debian-ai@lists.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-python, libtorch-dev (>= 1.6.0), ninja-build, python3, python3-numpy, python3-pillow, python3-scipy, python3-torch (>= 1.6.0), python3-setuptools, python3-all, python3-all-dev, libgflags-dev, libgoogle-glog-dev, python3-pybind11, pybind11-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dd310eed15656eae65c67171882f6676 2262 pytorch-vision_0.8.2-1.dsc
+ b9dd650b6ee9b2f33aa1232ef012dbbe 6782676 pytorch-vision_0.8.2.orig.tar.gz
+ cfb4acfa03ae86206a911785aed08420 2832 pytorch-vision_0.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/deeplearning-team/pytorch-vision
+Vcs-Git: https://salsa.debian.org/deeplearning-team/pytorch-vision.git
+Checksums-Sha256:
+ 3d0714a9db364e3ff806a410e0967643ca21fea90ef3b7f94599b9d7e7aa45c0 2262 pytorch-vision_0.8.2-1.dsc
+ 9a866c3c8feb23b3221ce261e6153fc65a98ce9ceaa71ccad017016945c178bf 6782676 pytorch-vision_0.8.2.orig.tar.gz
+ 7c7ba86b48debd9581a4155e5166d56afb1f2abaebd1c83b8fbeaf20ba51eaf7 2832 pytorch-vision_0.8.2-1.debian.tar.xz
+Homepage: https://github.com/pytorch/vision
+Package-List: 
+ python3-torchvision deb science optional arch=any
+Directory: pool/main/p/pytorch-vision
+Priority: extra
+Section: misc

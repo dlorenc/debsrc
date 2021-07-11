@@ -1,0 +1,27 @@
+Package: rust-bytecount
+Binary: librust-bytecount-dev, librust-bytecount+generic-simd-dev
+Version: 0.6.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ e5d101f5baa32ae5a4bccbfc551b114c 2315 rust-bytecount_0.6.0-1.dsc
+ fe9c56d3d43021538850fcad8404bdad 11905 rust-bytecount_0.6.0.orig.tar.gz
+ e1eb61890e736a57befec1e7869e8cf9 3028 rust-bytecount_0.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bytecount
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytecount]
+Checksums-Sha256:
+ baf113cf028c90a6fd12f842bb440aa77a3722d6b4a50bbefd275e1142b85558 2315 rust-bytecount_0.6.0-1.dsc
+ b0017894339f586ccb943b01b9555de56770c11cda818e7e3d8bd93f4ed7f46e 11905 rust-bytecount_0.6.0.orig.tar.gz
+ b62fcb09f807ce1c0e4db1fa384b62f2de983eb90f3060ee1c30549065f37691 3028 rust-bytecount_0.6.0-1.debian.tar.xz
+Package-List: 
+ librust-bytecount+generic-simd-dev deb rust optional arch=any
+ librust-bytecount-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.3-dev, librust-quickcheck-0.9+default-dev, librust-rand-0.7+default-dev
+Directory: pool/main/r/rust-bytecount
+Priority: extra
+Section: misc

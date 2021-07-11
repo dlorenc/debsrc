@@ -1,0 +1,27 @@
+Package: networking-bgpvpn
+Binary: networking-bgpvpn-doc, python3-networking-bgpvpn
+Version: 13.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 109~), python3-all, python3-pbr, python3-setuptools, python3-sphinx, python3-sphinxcontrib.blockdiag, python3-sphinxcontrib.seqdiag
+Build-Depends-Indep: openstack-dashboard (>= 3:17.1.0), python3-astroid, python3-coverage, python3-debtcollector, python3-django-horizon, python3-django-nose, python3-isort, python3-networking-bagpipe (>= 12.0.0), python3-neutron (>= 2:16.0.0), python3-neutron-lib (>= 1.30.0), python3-openstackdocstheme, python3-os-testr, python3-oslo.config, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.utils, python3-oslosphinx, python3-oslotest, python3-psycopg2 (>= 2.8.5), python3-pymysql, python3-stestr, python3-subunit, python3-tempest, python3-testresources, python3-testscenarios, python3-testtools, python3-webob, subunit
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6508deabe6e57c884382a93cda8a8e1d 2962 networking-bgpvpn_13.0.0-1.dsc
+ 6edd27379a6f1b37913d4ed9379afe22 91180 networking-bgpvpn_13.0.0.orig.tar.xz
+ bc82bd6407c5c243d66bc18413bf2a42 3744 networking-bgpvpn_13.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/neutron-plugins/networking-bgpvpn
+Vcs-Git: https://salsa.debian.org/openstack-team/neutron-plugins/networking-bgpvpn.git
+Checksums-Sha256:
+ 5caf3eab39116658667de7d63dccb75061e2ac5ce33d24e34e354903ba1cbeb8 2962 networking-bgpvpn_13.0.0-1.dsc
+ 1413c2f5d95bc3b58874f0c242400d005ad101769605027766820fec4bb88398 91180 networking-bgpvpn_13.0.0.orig.tar.xz
+ e074bd4a8a37c0ec91be87a106c382528ea54d6532c8221b738fe5e5906bbb15 3744 networking-bgpvpn_13.0.0-1.debian.tar.xz
+Homepage: http://github.com/openstack/networking-bgpvpn
+Package-List: 
+ networking-bgpvpn-doc deb doc optional arch=all profile=!nodoc
+ python3-networking-bgpvpn deb python optional arch=all
+Directory: pool/main/n/networking-bgpvpn
+Priority: extra
+Section: misc

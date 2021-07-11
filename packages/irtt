@@ -1,0 +1,27 @@
+Package: irtt
+Binary: irtt
+Version: 0.9.0-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Pete Heist <pete@eventide.io>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-ogier-pflag-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev
+Architecture: any
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 61ab41be14a00ed0886c4a156864de2f 2059 irtt_0.9.0-2.dsc
+ 6a3bcf50ceb5865b9296b682283ab179 112642 irtt_0.9.0.orig.tar.gz
+ 27152c94b20a97e4e54c9d9eb1baf77d 1880 irtt_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/irtt.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/irtt.git
+Checksums-Sha256:
+ 824da66cf90a85ff02e2f9f964597b23fad186b33a3d5abf273090081d3ddb41 2059 irtt_0.9.0-2.dsc
+ cfe8c57bf638184d7f8f7aec9099da68e255e7d8930a0cf8517b46b9d841baa5 112642 irtt_0.9.0.orig.tar.gz
+ a6bccd063b8737732789b60d5200cd2067685c19ed8187d9215f1d04866d57ea 1880 irtt_0.9.0-2.debian.tar.xz
+Homepage: https://github.com/peteheist/irtt
+Go-Import-Path: github.com/peteheist/irtt
+Package-List: 
+ irtt deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/i/irtt
+Priority: extra
+Section: misc

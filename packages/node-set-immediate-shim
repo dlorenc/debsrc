@@ -1,0 +1,26 @@
+Package: node-set-immediate-shim
+Binary: node-set-immediate-shim
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-resolve-from <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ac7f662961000646426876734c3c93f7 2207 node-set-immediate-shim_2.0.0-1.dsc
+ f56d5a6b747760f402bf4557108b128e 2233 node-set-immediate-shim_2.0.0.orig.tar.gz
+ bb877fe7320a2b10d3bb612c0031ebdd 4984 node-set-immediate-shim_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-set-immediate-shim
+Vcs-Git: https://salsa.debian.org/js-team/node-set-immediate-shim.git
+Checksums-Sha256:
+ e652c1266e839b849d33e94b84b3684e3ba23435b873eecdd8ad5160283a1678 2207 node-set-immediate-shim_2.0.0-1.dsc
+ 1a43b5c98fc74a9344aad36f0da3c7a9ddcbd502e516f02052ea7350d3569382 2233 node-set-immediate-shim_2.0.0.orig.tar.gz
+ 041a06945c6226cd3ed2d29154bdfa5262a8eba409057edde270f148bb892717 4984 node-set-immediate-shim_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/set-immediate-shim
+Package-List: 
+ node-set-immediate-shim deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-set-immediate-shim
+Priority: optional
+Section: javascript

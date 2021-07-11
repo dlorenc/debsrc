@@ -1,0 +1,25 @@
+Package: bosh
+Binary: bosh
+Version: 0.6-11
+Maintainer: Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13), libncurses5-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 509d73e984ec3d69e822694e138d8edd 1961 bosh_0.6-11.dsc
+ 975ef183ed4d2314186b1f2705d57c65 96341 bosh_0.6.orig.tar.gz
+ c873bc4e669c17e1aa76d129010c3dba 6796 bosh_0.6-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/carnil/bosh
+Vcs-Git: https://salsa.debian.org/carnil/bosh.git
+Checksums-Sha256:
+ 10d890659fe67a3549a31ddf6aa08a8ccc089742308eb6a9cdb714842c98c148 1961 bosh_0.6-11.dsc
+ 212e41266efc592d732c689302e64b0b0fa566c19382debe6ff1d42de31b615f 96341 bosh_0.6.orig.tar.gz
+ 8ae5c3476c12ee28991efc32518ded4adda038c72dc2d57eca233e0b98787dac 6796 bosh_0.6-11.debian.tar.xz
+Homepage: http://bosh.sourceforge.net/
+Package-List: 
+ bosh deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/b/bosh
+Priority: source
+Section: utils

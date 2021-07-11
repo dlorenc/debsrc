@@ -1,0 +1,42 @@
+Package: nut
+Binary: nut, nut-server, nut-client, nut-cgi, nut-snmp, nut-ipmi, nut-xml, nut-powerman-pdu, nut-doc, libupsclient4, libupsclient-dev, libnutclient0, libnutclient-dev, libnutscan1, libnutscan-dev, libups-nut-perl
+Version: 2.7.4-13
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper (>= 12), dh-python, libfreeipmi-dev (>= 0.8.5) [!hurd-i386], libgd-dev | libgd2-xpm-dev | libgd2-noxpm-dev, libipmimonitoring-dev (>= 1.1.5-2) [!hurd-i386], libltdl-dev, libneon27-gnutls-dev | libneon27-dev, libnss3-dev, libpowerman0-dev (>= 2.3.3), libsnmp-dev | libsnmp9-dev, libusb-dev (>= 0.1.8), libwrap0-dev (>= 7.6), python3
+Build-Depends-Indep: asciidoc (>= 8.6.3) <!nodoc>, asciidoc-dblatex <!nodoc>, dblatex (>= 0.2.5) <!nodoc>, docbook-xsl <!nodoc>, libxml2-utils <!nodoc>
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ a54a5d2b8ef8de041d8a3748b6aa8a61 2874 nut_2.7.4-13.dsc
+ 3ba53656933d7471f95140b32a5b8d5c 2509831 nut_2.7.4.orig.tar.gz
+ 3617397757dddb8503ebfa2c4bc066e8 76596 nut_2.7.4-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/nut
+Vcs-Git: https://salsa.debian.org/debian/nut.git
+Checksums-Sha256:
+ 66fd4a472c97f56a22f169bf9e3b39d607bebaa8239c4b77800a3c4e9338cdb5 2874 nut_2.7.4-13.dsc
+ 980e82918c52d364605c0703a5dcf01f74ad2ef06e3d365949e43b7d406d25a7 2509831 nut_2.7.4.orig.tar.gz
+ b074ac0f74113e980bf287b164cd7fdc2f1d8fe8f69ae74b82ffb761d6f2090a 76596 nut_2.7.4-13.debian.tar.xz
+Homepage: https://networkupstools.org/
+Package-List: 
+ libnutclient-dev deb libdevel optional arch=any
+ libnutclient0 deb libs optional arch=any
+ libnutscan-dev deb libdevel optional arch=any
+ libnutscan1 deb libs optional arch=any
+ libups-nut-perl deb perl optional arch=all
+ libupsclient-dev deb libdevel optional arch=any
+ libupsclient4 deb libs optional arch=any
+ nut deb metapackages optional arch=all
+ nut-cgi deb admin optional arch=any
+ nut-client deb admin optional arch=any
+ nut-doc deb doc optional arch=all profile=!nodoc
+ nut-ipmi deb admin optional arch=kfreebsd-any,linux-any
+ nut-powerman-pdu deb admin optional arch=any
+ nut-server deb admin optional arch=any
+ nut-snmp deb admin optional arch=any
+ nut-xml deb admin optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: lsb-release, netcat, psmisc, python3
+Directory: pool/main/n/nut
+Priority: source
+Section: metapackages

@@ -1,0 +1,26 @@
+Package: rust-git2-curl
+Binary: librust-git2-curl-dev
+Version: 0.14.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-curl-0.4+default-dev (>= 0.4.33-~~) <!nocheck>, librust-git2-0.13-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-url-2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fd686f640999e009fe561ceaed8796a7 2471 rust-git2-curl_0.14.1-1.dsc
+ c3298115ab0768915f28ac393aea61e4 9336 rust-git2-curl_0.14.1.orig.tar.gz
+ 7e4ea01df872b409786e7983a84a6bcd 3068 rust-git2-curl_0.14.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/git2-curl
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/git2-curl]
+Checksums-Sha256:
+ e4a569bc7b051ac396698039489e67d2845a075b4edbff01c7efce53dfe6d6eb 2471 rust-git2-curl_0.14.1-1.dsc
+ 883539cb0ea94bab3f8371a98cd8e937bbe9ee7c044499184aa4c17deb643a50 9336 rust-git2-curl_0.14.1.orig.tar.gz
+ da7fab65386b41aef67e0c0938819d91c9c5970286f55253036c738d576b7233 3068 rust-git2-curl_0.14.1-1.debian.tar.xz
+Package-List: 
+ librust-git2-curl-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-civet-0.11+default-dev, librust-conduit-0.8+default-dev, librust-conduit-git-http-backend-0.8+default-dev, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-git2-curl
+Priority: extra
+Section: misc

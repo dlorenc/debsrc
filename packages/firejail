@@ -1,0 +1,29 @@
+Package: firejail
+Binary: firejail, firejail-profiles
+Version: 0.9.64.4-2
+Maintainer: Reiner Herrmann <reiner@reiner-h.de>
+Build-Depends: debhelper-compat (= 13), dh-apparmor, gawk, libapparmor-dev, libselinux1-dev, pkg-config
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c877ca76fb127e5ecba5cd7c7f0d102f 2499 firejail_0.9.64.4-2.dsc
+ e3be55266472dc8ac373c9fcfba4f9f9 431116 firejail_0.9.64.4.orig.tar.xz
+ 2fb8e73eff64ccbcd2126ca26f6f4966 488 firejail_0.9.64.4.orig.tar.xz.asc
+ 66a4938029d4091c77165df9f768684f 16592 firejail_0.9.64.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/reiner/firejail
+Vcs-Git: https://salsa.debian.org/reiner/firejail.git
+Checksums-Sha256:
+ d3de5309419d8180781bf92971fdb17fe520e622597c8c94369f0b141ae3a753 2499 firejail_0.9.64.4-2.dsc
+ 2bdaf71fff00d7551b6a4f584f3f7152821b6f9b9d416ee098f4aeaf3a02dff1 431116 firejail_0.9.64.4.orig.tar.xz
+ 9c743e148f128295eb9fdf4176107f099063aed4b3a410f8e4f24ed18791f0d1 488 firejail_0.9.64.4.orig.tar.xz.asc
+ 5d91d532435d5369de5a0d7a9342726a838f2dc6a1d491260dfe9baffd16b70f 16592 firejail_0.9.64.4-2.debian.tar.xz
+Homepage: https://firejail.wordpress.com
+Package-List: 
+ firejail deb utils optional arch=linux-any
+ firejail-profiles deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: bridge-utils, cpio, csh, evince, expect, file, firefox, iproute2, iptables, iputils-ping, man-db, net-tools, procps, strace, sudo, thunderbird, transmission-gtk, wget, xserver-xephyr, xterm, xvfb, xzdec, zsh
+Directory: pool/main/f/firejail
+Priority: optional
+Section: misc

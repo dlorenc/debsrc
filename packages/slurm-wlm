@@ -1,0 +1,49 @@
+Package: slurm-wlm
+Binary: slurm-wlm, slurm-client, slurmrestd, slurmd, slurmctld, libslurm36, libpmi0, libpmi2-0, libslurm-dev, libpmi0-dev, libpmi2-0-dev, slurm-wlm-doc, slurm-wlm-basic-plugins, slurm-wlm-basic-plugins-dev, sview, slurmdbd, libslurm-perl, libslurmdb-perl, slurm-wlm-torque, libpam-slurm, libpam-slurm-adopt, slurm-wlm-emulator, slurm-client-emulator
+Version: 20.11.4-1
+Maintainer: Debian HPC Team <debian-hpc@lists.debian.org>
+Uploaders: Rémi Palancher <remi@rezib.org>, Mehdi Dogguy <mehdi@debian.org>, Gennaro Oliva <oliva.g@na.icar.cnr.it>,
+Build-Depends: debhelper (>= 11), libmunge-dev, libncurses5-dev, po-debconf, python3, libgtk2.0-dev, default-libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-exec, librrd-dev, libipmimonitoring-dev, hdf5-helpers, libfreeipmi-dev, libhdf5-dev, man2html, libcurl4-openssl-dev, libpmix-dev, libhttp-parser-dev, libyaml-dev, libjson-c-dev, libjwt-dev, liblz4-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 791326b10da1b3ec5093e21f2d0cc1e1 3767 slurm-wlm_20.11.4-1.dsc
+ 6f450d9dedc65398003e481c9cb74723 8840768 slurm-wlm_20.11.4.orig.tar.gz
+ 0fe795ffcac34876e946a5d299a3d06e 133968 slurm-wlm_20.11.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/hpc-team/slurm-wlm
+Vcs-Git: https://salsa.debian.org/hpc-team/slurm-wlm.git
+Checksums-Sha256:
+ 60af05bf5a7f81397a16d268f3165d9c9042ddcfcb35a06c13037a2dcaf74d57 3767 slurm-wlm_20.11.4-1.dsc
+ 06c5333e85f531730bf1c6eb48a8d48a551d9090540ce37b78181024273fb6bd 8840768 slurm-wlm_20.11.4.orig.tar.gz
+ ba8479255c5fe42bbf38af8bd6cecd8ceb1c1922f6869f28c317b1d906ae9c89 133968 slurm-wlm_20.11.4-1.debian.tar.xz
+Homepage: http://slurm.schedmd.com
+Package-List: 
+ libpam-slurm deb admin optional arch=any
+ libpam-slurm-adopt deb admin optional arch=any
+ libpmi0 deb libs optional arch=any
+ libpmi0-dev deb libdevel optional arch=any
+ libpmi2-0 deb libs optional arch=any
+ libpmi2-0-dev deb libdevel optional arch=any
+ libslurm-dev deb libdevel optional arch=any
+ libslurm-perl deb perl optional arch=any
+ libslurm36 deb libs optional arch=any
+ libslurmdb-perl deb perl optional arch=any
+ slurm-client deb admin optional arch=any
+ slurm-client-emulator deb admin optional arch=any
+ slurm-wlm deb admin optional arch=any
+ slurm-wlm-basic-plugins deb admin optional arch=any
+ slurm-wlm-basic-plugins-dev deb devel optional arch=any
+ slurm-wlm-doc deb doc optional arch=all
+ slurm-wlm-emulator deb admin optional arch=any
+ slurm-wlm-torque deb admin optional arch=all
+ slurmctld deb admin optional arch=any
+ slurmd deb admin optional arch=any
+ slurmdbd deb admin optional arch=any
+ slurmrestd deb admin optional arch=any
+ sview deb admin optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc, mariadb-client, mariadb-server, mpi-default-dev, mpich-doc
+Directory: pool/main/s/slurm-wlm
+Priority: extra
+Section: misc

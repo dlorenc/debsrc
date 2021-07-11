@@ -1,0 +1,25 @@
+Package: libtgowt
+Binary: libtgowt-dev
+Version: 0~git20210124.be23804+ds-3
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8708d7ab411e33d01a17b0b3dd09271b 2286 libtgowt_0~git20210124.be23804+ds-3.dsc
+ f782b873b1f6315a92942dd90ad9f16b 15993384 libtgowt_0~git20210124.be23804+ds.orig.tar.xz
+ e7bfe2156be72ce1877ba26ee782085c 12652 libtgowt_0~git20210124.be23804+ds-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libtgowt
+Vcs-Git: https://salsa.debian.org/debian/libtgowt.git
+Checksums-Sha256:
+ 9a5d29db8d757bd71c1537b5a01d1521c65c0616b4eac42df865ca7215b2ceb1 2286 libtgowt_0~git20210124.be23804+ds-3.dsc
+ b4a82fb28ccba57cc1e10de26df9709db4643ac0fdb707ac0bfeb94f04e8e9a5 15993384 libtgowt_0~git20210124.be23804+ds.orig.tar.xz
+ 68083273b23516fd62b7e389fb6fd3279b6bb5fefc30e38bcd29c1ce742914d1 12652 libtgowt_0~git20210124.be23804+ds-3.debian.tar.xz
+Homepage: https://github.com/desktop-app/tg_owt
+Build-Depends-Arch: cmake, libasound2-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libjpeg62-turbo-dev | libjpeg62-dev | libjpeg9-dev, libopus-dev, libprotobuf-dev, libpulse-dev, libssl-dev, libswresample-dev, libswscale-dev, protobuf-compiler, yasm [any-amd64 any-i386 x32]
+Package-List: 
+ libtgowt-dev deb libdevel optional arch=any
+Directory: pool/main/libt/libtgowt
+Priority: extra
+Section: misc

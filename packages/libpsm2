@@ -1,0 +1,27 @@
+Package: libpsm2
+Binary: libpsm2-2, libpsm2-2-compat, libpsm2-dev
+Version: 11.2.185-1
+Maintainer: Debian HPC team <debian-hpc@lists.debian.org>
+Uploaders: Brian T. Smith <bsmith@systemfabricworks.com>, Roland Fehrenbacher <rfehren@debian.org>,
+Build-Depends: debhelper-compat (= 13), libnuma-dev
+Architecture: amd64
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 36930c8a859fa9402f27ca2413bae8f8 2132 libpsm2_11.2.185-1.dsc
+ f1d593c7d0d2b0d33c125aff422247e1 460259 libpsm2_11.2.185.orig.tar.gz
+ 5dac013fab55550125e74ef0728d1c6d 7616 libpsm2_11.2.185-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/hpc-team/libpsm2
+Vcs-Git: https://salsa.debian.org/hpc-team/libpsm2.git
+Checksums-Sha256:
+ 2b79b373ae0b853d84d3da9f33e9196220ebd3b5dd6d635d5b164edd48371355 2132 libpsm2_11.2.185-1.dsc
+ 8c0446e989feb4a3822791e4a3687060916f7c4612d1e8e493879be66f10db09 460259 libpsm2_11.2.185.orig.tar.gz
+ 8b8b84a338a817c5649d122009b01e6eb66b7820e387281ae3c8cf2a69f95ea3 7616 libpsm2_11.2.185-1.debian.tar.xz
+Homepage: https://github.com/01org/opa-psm2
+Package-List: 
+ libpsm2-2 deb libs optional arch=amd64
+ libpsm2-2-compat deb libs optional arch=amd64
+ libpsm2-dev deb libdevel optional arch=amd64
+Directory: pool/main/libp/libpsm2
+Priority: extra
+Section: misc

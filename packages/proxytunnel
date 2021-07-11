@@ -1,0 +1,27 @@
+Package: proxytunnel
+Binary: proxytunnel
+Version: 1.10.20210128-1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Sven Geuer <debmaint@g-e-u-e-r.de>
+Build-Depends: debhelper-compat (= 13), libssl-dev (>= 1.1.0), pkg-config, xmlto, asciidoc
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b3bcbfc533da9b249c5074763691a5a2 2183 proxytunnel_1.10.20210128-1.dsc
+ d66184577912137f9ce454008ec724d4 54702 proxytunnel_1.10.20210128.orig.tar.gz
+ 017f66038afb8aaf5e20b61a07cc7afc 15076 proxytunnel_1.10.20210128-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/proxytunnel
+Vcs-Git: https://salsa.debian.org/pkg-security-team/proxytunnel.git
+Checksums-Sha256:
+ 9dbb3d2d1dcce62cb47af763d7ee792c7dbbf0c589931b746fa362b0cebabfad 2183 proxytunnel_1.10.20210128-1.dsc
+ 8253e19dd5e27a34a2c236e3e4739b7edba556110717af962b7412b461a6c2fa 54702 proxytunnel_1.10.20210128.orig.tar.gz
+ 5bcee21a89c16a25b17af3e9ceea31d0a38cb86cedd441273f55bc504d3f6206 15076 proxytunnel_1.10.20210128-1.debian.tar.xz
+Homepage: https://proxytunnel.sourceforge.io/
+Package-List: 
+ proxytunnel deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, openssh-client, openssh-server, ssl-cert
+Directory: pool/main/p/proxytunnel
+Priority: source
+Section: net

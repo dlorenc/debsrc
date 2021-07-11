@@ -1,0 +1,26 @@
+Package: node-camelcase-keys
+Binary: node-camelcase-keys
+Version: 6.2.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-camelcase <!nocheck>, node-map-obj <!nocheck>, node-quick-lru <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d14b42693a8b5b066671403ba9d8c1cf 2208 node-camelcase-keys_6.2.2-1.dsc
+ 5e3110787f3333f97b72424f49ae4274 6089 node-camelcase-keys_6.2.2.orig.tar.gz
+ 5ab6ffa0dab528b5ea5bb5bd4f3045de 3216 node-camelcase-keys_6.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-camelcase-keys
+Vcs-Git: https://salsa.debian.org/js-team/node-camelcase-keys.git
+Checksums-Sha256:
+ 1f2fdba121b44d7374620f713b3cb19c2ec49c2c7abfe7460e8b2a47c0c7d70d 2208 node-camelcase-keys_6.2.2-1.dsc
+ f7cf322ca73d4a416a2670f84111dd0328db94dbf2e0a98379e7194d551e0403 6089 node-camelcase-keys_6.2.2.orig.tar.gz
+ 7c2393feeb86e0dfa6046ebf930bc1f38ebf1a413684465ec400617fbfab8e41 3216 node-camelcase-keys_6.2.2-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/camelcase-keys
+Package-List: 
+ node-camelcase-keys deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-camelcase-keys
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: ocaml-portaudio
+Binary: libportaudio-ocaml, libportaudio-ocaml-dev
+Version: 0.2.1-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Samuel Mimram <smimram@debian.org>, Romain Beauxis <toots@rastageeks.org>
+Build-Depends: cdbs (>= 0.4.85~), debhelper (>= 10), dh-buildinfo, ocaml-nox, dh-ocaml (>= 0.9), portaudio19-dev, ocaml-findlib (>= 1.2.4), ocamlbuild, pkg-config
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 826909948e278d5efc06992cac485585 2279 ocaml-portaudio_0.2.1-1.dsc
+ c504a0d47c1aa834b774b9c668b65691 108968 ocaml-portaudio_0.2.1.orig.tar.gz
+ 2fdf388ec5c4b6593fe9fb8dc9c17941 3088 ocaml-portaudio_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-ocaml-maint/packages/ocaml-portaudio.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ocaml-maint/packages/ocaml-portaudio.git
+Checksums-Sha256:
+ 3c468bc804e159cb893d1a65b1679a8ced0797cb0abeff2d84516d27d5f68462 2279 ocaml-portaudio_0.2.1-1.dsc
+ 6ba5fff19ee46ab6839940f05875a99d7c6b8709eb90aa57878e6aa6d6cc4b43 108968 ocaml-portaudio_0.2.1.orig.tar.gz
+ fdcb1281daefc17a2d947bc790d10a668b51e4fd9d5abeacdd2561f410105c7b 3088 ocaml-portaudio_0.2.1-1.debian.tar.xz
+Homepage: https://github.com/savonet/ocaml-portaudio
+Package-List: 
+ libportaudio-ocaml deb ocaml optional arch=any
+ libportaudio-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-portaudio
+Priority: source
+Section: ocaml

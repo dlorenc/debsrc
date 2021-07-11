@@ -1,0 +1,26 @@
+Package: wmhdplop
+Binary: wmhdplop, gkrellm-hdplop
+Version: 0.9.11-1
+Maintainer: Debian Window Maker Team <pkg-wmaker-devel@lists.alioth.debian.org>
+Uploaders: Doug Torrance <dtorrance@piedmont.edu>
+Build-Depends: debhelper (>= 11), gkrellm, libgtk2.0-dev, libimlib2-dev, libx11-dev, libxext-dev, libxt-dev
+Architecture: linux-any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ fb7673d4d8f9ec3f3b1e14031be6213b 2065 wmhdplop_0.9.11-1.dsc
+ f28b41f5cdfa937703c1894256983d77 163931 wmhdplop_0.9.11.orig.tar.gz
+ d95b7a849715f2bdea0f6041393f2da8 3656 wmhdplop_0.9.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/wmaker-team/wmhdplop
+Vcs-Git: https://salsa.debian.org/wmaker-team/wmhdplop.git
+Checksums-Sha256:
+ 8a22f8aabcbc45cf94365fc4a18dd8d021e66132c709d02c1660d72617f9f3e2 2065 wmhdplop_0.9.11-1.dsc
+ f8290d2bbf5f5e7beab7ae4f95b919ddcae93b866796c705c4fad197c14155b7 163931 wmhdplop_0.9.11.orig.tar.gz
+ 77e7cd8d3e82513d105ac98dbc39b7498b9f4787f5f8803bcc3bd54e560cd36f 3656 wmhdplop_0.9.11-1.debian.tar.xz
+Homepage: https://www.dockapps.net/wmhdplop
+Package-List: 
+ gkrellm-hdplop deb x11 optional arch=linux-any
+ wmhdplop deb x11 optional arch=linux-any
+Directory: pool/main/w/wmhdplop
+Priority: source
+Section: x11

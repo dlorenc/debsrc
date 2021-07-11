@@ -1,0 +1,28 @@
+Package: haskell-threads
+Binary: libghc-threads-dev, libghc-threads-prof, libghc-threads-doc
+Version: 0.5.1.6-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b52d75cf632a399d760f5354228edc1c 2318 haskell-threads_0.5.1.6-4.dsc
+ 777644098fdf3453ad932faf1372821c 7406 haskell-threads_0.5.1.6.orig.tar.gz
+ ac39ad4150315fe1abadbab02fee0e16 2988 haskell-threads_0.5.1.6-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-threads
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-threads]
+Checksums-Sha256:
+ 16afd36f412cd6180021b6eb37759d1cfd60cb138d9ed0ac9c7e4148fce76014 2318 haskell-threads_0.5.1.6-4.dsc
+ 139ac3c067fcbb392b5b9c2feaa98184b75ebe7f2e580726eea6ce812d94562e 7406 haskell-threads_0.5.1.6.orig.tar.gz
+ 2a4f4a87f5e3995ea8d0298f6f8fc77deee3cb46aeb97becd298e1dab144b603 2988 haskell-threads_0.5.1.6-4.debian.tar.xz
+Homepage: https://github.com/basvandijk/threads
+Package-List: 
+ libghc-threads-dev deb haskell optional arch=any
+ libghc-threads-doc deb doc optional arch=all
+ libghc-threads-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-threads
+Priority: source
+Section: misc

@@ -1,0 +1,26 @@
+Package: feathernotes
+Binary: feathernotes, feathernotes-l10n
+Version: 0.8.0-1
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>, Andrew Lee (李健秋) <ajqlee@debian.org>
+Build-Depends: debhelper-compat (= 12), qtbase5-dev, qt5-qmake, libx11-dev, libxext-dev, libqt5x11extras5-dev, libqt5svg5-dev, qttools5-dev, qttools5-dev-tools
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f9cfc50b25c767e465b1756232ffea86 2191 feathernotes_0.8.0-1.dsc
+ 1d427be9e362f441a89723cc59df62ad 392700 feathernotes_0.8.0.orig.tar.gz
+ c5012ed7b26f9d59fac8ea1679e6858a 3096 feathernotes_0.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lxqt-team/feathernotes
+Vcs-Git: https://salsa.debian.org/lxqt-team/feathernotes.git
+Checksums-Sha256:
+ a2bdc4db905eb81a8ccd3d8d13cef72debb8fca683144ef49b6113f6bade3be3 2191 feathernotes_0.8.0-1.dsc
+ 6f5faac984131f6cc7db1ed47ffd24d715f7c8b53d99d3e3ded747e94e77cdb3 392700 feathernotes_0.8.0.orig.tar.gz
+ debb18b003868e1d89c8616d3a274bc7a93a854e939c7452e2e27ae90182b3a3 3096 feathernotes_0.8.0-1.debian.tar.xz
+Homepage: https://github.com/tsujan/feathernotes
+Package-List: 
+ feathernotes deb editors optional arch=any
+ feathernotes-l10n deb localization optional arch=all
+Directory: pool/main/f/feathernotes
+Priority: extra
+Section: misc

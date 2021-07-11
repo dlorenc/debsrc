@@ -1,0 +1,26 @@
+Package: qdox2
+Binary: libqdox2-java, libqdox2-java-doc
+Version: 2.0.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: byacc-j, debhelper-compat (= 12), default-jdk, default-jdk-doc, jflex (>= 1.7.0), junit4, libmaven-exec-plugin-java, libmaven-javadoc-plugin-java, libmockito-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 20d9374f60140554cc984b797881daa0 2272 qdox2_2.0.0-1.dsc
+ 60bbf013383c7cc3ff35b25713b76a1b 201700 qdox2_2.0.0.orig.tar.xz
+ 51cf98562e4ac4c642daa70a1c6a6431 20776 qdox2_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/qdox2
+Vcs-Git: https://salsa.debian.org/java-team/qdox2.git
+Checksums-Sha256:
+ 3f3eded037cfb5cc55f532b204b1dfb3eab26260bc304c25531838b3ec4ca2bb 2272 qdox2_2.0.0-1.dsc
+ 2b3c2b96cd7dd848d1f3becf240999c8df2bf60df446763a7eea1dd17b04e911 201700 qdox2_2.0.0.orig.tar.xz
+ 5b4cc05317c819ab5694bdded74e24fc121dab4ec2d206e0dfa3f73403184e14 20776 qdox2_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/paul-hammant/qdox
+Package-List: 
+ libqdox2-java deb java optional arch=all
+ libqdox2-java-doc deb doc optional arch=all
+Directory: pool/main/q/qdox2
+Priority: optional
+Section: misc

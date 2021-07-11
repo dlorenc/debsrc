@@ -1,0 +1,36 @@
+Package: libayatana-appindicator
+Binary: libayatana-appindicator1, gir1.2-ayatanaappindicator-0.1, libayatana-appindicator-dev, libayatana-appindicator-doc, libayatana-appindicator3-1, libayatana-appindicator3-dev, gir1.2-ayatanaappindicator3-0.1, libayatana-appindicator0.1-cil, libayatana-appindicator0.1-cil-dev
+Version: 0.5.5-2
+Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.16.1.1), at-spi2-core, cli-common-dev (>= 0.8~) [amd64 arm64 armel armhf i386 mipsel ppc64el s390x kfreebsd-amd64 kfreebsd-i386 powerpc ppc64], gobject-introspection, intltool, gtk-doc-tools, libxml2-utils, libnunit-cil-dev [amd64 arm64 armel armhf i386 mipsel ppc64el s390x kfreebsd-amd64 kfreebsd-i386 powerpc ppc64], dbus-test-runner, xvfb, valac, mate-common, mono-devel (>= 2.4.3) [amd64 arm64 armel armhf i386 mipsel ppc64el s390x kfreebsd-amd64 kfreebsd-i386 powerpc ppc64], libglib2.0-dev (>= 2.35.4), libgtk-3-dev (>= 2.91.3), libgtk2.0-dev (>= 2.12.0), procps, gtk-sharp2-gapi [amd64 arm64 armel armhf i386 mipsel ppc64el s390x kfreebsd-amd64 kfreebsd-i386 powerpc ppc64], libgtk2.0-cil-dev [amd64 arm64 armel armhf i386 mipsel ppc64el s390x kfreebsd-amd64 kfreebsd-i386 powerpc ppc64], libdbus-glib-1-dev (>= 0.82), libayatana-indicator-dev (>= 0.6.0-0~), libayatana-indicator3-dev (>= 0.6.0-0~), libdbusmenu-glib-dev (>= 0.5.90), libdbusmenu-gtk-dev (>= 0.5.90), libdbusmenu-gtk3-dev (>= 0.5.90), libgirepository1.0-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ba2f61d699b17edf7cd4d92cc7d8775b 4442 libayatana-appindicator_0.5.5-2.dsc
+ eb9d13f9cf5db8d53341fcfc093ae746 131479 libayatana-appindicator_0.5.5.orig.tar.gz
+ 394e9477da6b5b37824ea146e888abd0 833 libayatana-appindicator_0.5.5.orig.tar.gz.asc
+ 5c2bf6a0541eddfe9c55b90b08b5be19 15984 libayatana-appindicator_0.5.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-edu-ayatana-team/libayatana-appindicator
+Vcs-Git: https://salsa.debian.org/debian-ayatana-team/libayatana-appindicator.git
+Checksums-Sha256:
+ b6d2d0d323e9fe741b13dac7aaa45f0ff3a175db89b722f5a3bbe6f6195d24aa 4442 libayatana-appindicator_0.5.5-2.dsc
+ 4e600d499311c7f2273e433cdb15ab534fd1c2cfb65c7835ee8790e69c5741f1 131479 libayatana-appindicator_0.5.5.orig.tar.gz
+ 02c378adf271201def7f5edd806e3ce1e93f330cac7f5dca32b81daa11a1cc35 833 libayatana-appindicator_0.5.5.orig.tar.gz.asc
+ cc5118d0c954e0ae5c604cf4ec3cbcbf0d8628e5bf5081a55fa088673568c38e 15984 libayatana-appindicator_0.5.5-2.debian.tar.xz
+Homepage: https://github.com/AyatanaIndicators/libayatana-appindicator
+Package-List: 
+ gir1.2-ayatanaappindicator-0.1 deb introspection optional arch=any
+ gir1.2-ayatanaappindicator3-0.1 deb introspection optional arch=any
+ libayatana-appindicator-dev deb libdevel optional arch=any
+ libayatana-appindicator-doc deb doc optional arch=all
+ libayatana-appindicator0.1-cil deb cli-mono optional arch=amd64,arm64,armel,armhf,i386,mipsel,ppc64el,s390x,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64
+ libayatana-appindicator0.1-cil-dev deb cli-mono optional arch=amd64,arm64,armel,armhf,i386,mipsel,ppc64el,s390x,kfreebsd-amd64,kfreebsd-i386,powerpc,ppc64
+ libayatana-appindicator1 deb libs optional arch=any
+ libayatana-appindicator3-1 deb libs optional arch=any
+ libayatana-appindicator3-dev deb libdevel optional arch=any
+Python-Version: all
+Directory: pool/main/liba/libayatana-appindicator
+Priority: optional
+Section: misc

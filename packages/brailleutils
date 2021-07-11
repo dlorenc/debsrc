@@ -1,0 +1,27 @@
+Package: brailleutils
+Binary: libbrailleutils-java, libbrailleutils-java-doc, brailleutils
+Version: 1.2.3-6
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>, Sebastian Humenda <shumenda@gmx.de>
+Build-Depends: debhelper-compat (= 12), maven-repo-helper, ant (>= 1.8~), ant-optional, default-jdk, libstax-java, libjing-java, libjaxp1.3-java, junit4
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1e263588c4d32a97f7230ca50c35a40b 2260 brailleutils_1.2.3-6.dsc
+ 2d1e3073f8bb707463320563d46f0c2d 273656 brailleutils_1.2.3.orig.tar.xz
+ 3ede2452bdb5856384fa7a5ea955162b 8360 brailleutils_1.2.3-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/brailleutils
+Vcs-Git: https://salsa.debian.org/a11y-team/brailleutils.git
+Checksums-Sha256:
+ 1681225b476b83747e77b3b3d79a4b766e4fd83e3ab3932ffafb09113e1c0c99 2260 brailleutils_1.2.3-6.dsc
+ df4f17b451f0b9c1e77fdb6256d976930ccdadedc7f6ce946e6b0bc413aec220 273656 brailleutils_1.2.3.orig.tar.xz
+ f139641725fa39cb8279c4855ffd7fe0fde8a6340848b237a3a6ca14649a59fb 8360 brailleutils_1.2.3-6.debian.tar.xz
+Homepage: https://github.com/joeha480/brailleutils
+Package-List: 
+ brailleutils deb java optional arch=all
+ libbrailleutils-java deb java optional arch=all
+ libbrailleutils-java-doc deb doc optional arch=all
+Directory: pool/main/b/brailleutils
+Priority: source
+Section: java

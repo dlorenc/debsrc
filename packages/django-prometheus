@@ -1,0 +1,26 @@
+Package: django-prometheus
+Binary: python3-django-prometheus
+Version: 2.1.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-django, python3-mock, python3-prometheus-client (>= 0.7~), python3-pytest-django, python3-pytest-runner, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 26314dfe6fb48b349e34655772392709 1889 django-prometheus_2.1.0-1.dsc
+ 6d940d173ab2e902c0e8847cfe578b8e 184180 django-prometheus_2.1.0.orig.tar.gz
+ 98e382b495bfe90dc0a20352eeff3ba9 2664 django-prometheus_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/django-prometheus
+Vcs-Git: https://salsa.debian.org/python-team/packages/django-prometheus.git
+Checksums-Sha256:
+ 9702e26cbede9501ca20f8dd8d0c1eb65feba75de9077031a78f55b97316e8b3 1889 django-prometheus_2.1.0-1.dsc
+ cdfb2f7c1a99b3df294290a38bc7a1f6e1aaae996de5405d6eca26482ce4c7e9 184180 django-prometheus_2.1.0.orig.tar.gz
+ e426ad5bc30186d693d0b8070303645f3c2ba9dba97311111a7e5257ff5952df 2664 django-prometheus_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/korfuri/django-prometheus
+Package-List: 
+ python3-django-prometheus deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/d/django-prometheus
+Priority: extra
+Section: misc

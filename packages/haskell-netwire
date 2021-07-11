@@ -1,0 +1,28 @@
+Package: haskell-netwire
+Binary: libghc-netwire-dev, libghc-netwire-prof, libghc-netwire-doc
+Version: 5.0.3-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-parallel-dev (<< 4), libghc-parallel-dev (>= 3.2), libghc-parallel-prof, libghc-profunctors-dev (>= 4.3), libghc-profunctors-dev (<< 6), libghc-profunctors-prof, libghc-random-dev (>= 1.1), libghc-random-dev (<< 2), libghc-random-prof, libghc-semigroups-dev (>= 0.15), libghc-semigroups-dev (<< 1), libghc-semigroups-prof
+Build-Depends-Indep: ghc-doc, libghc-parallel-doc, libghc-profunctors-doc, libghc-random-doc, libghc-semigroups-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aba73fe8fdf31856617f6509a358d8a6 2713 haskell-netwire_5.0.3-3.dsc
+ 10f3291e0347c84eb00ee8d79b18a09c 22449 haskell-netwire_5.0.3.orig.tar.gz
+ da5fe344bdd69c09bef4738ed90acbff 3164 haskell-netwire_5.0.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-netwire
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-netwire]
+Checksums-Sha256:
+ f46ba876996ccefe397a54763a60472d4c94167be642f757163bb7f835410581 2713 haskell-netwire_5.0.3-3.dsc
+ f1dde7293efe9cdb3080f53a1be702f473ef0bcc0d3e4ea2d23b847fa3ef222e 22449 haskell-netwire_5.0.3.orig.tar.gz
+ c5ce321d62aba9a61e5e776d8f290835a11a6e873107c4dafa41eada3be139d5 3164 haskell-netwire_5.0.3-3.debian.tar.xz
+Homepage: https://github.com/esoeylemez/netwire
+Package-List: 
+ libghc-netwire-dev deb haskell optional arch=any
+ libghc-netwire-doc deb doc optional arch=all
+ libghc-netwire-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-netwire
+Priority: source
+Section: haskell

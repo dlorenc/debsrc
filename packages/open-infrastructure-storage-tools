@@ -1,0 +1,25 @@
+Package: open-infrastructure-storage-tools
+Binary: open-infrastructure-ceph-tools, open-infrastructure-storage-tools
+Version: 20190301-lts1-2
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Build-Depends: apache2-dev, asciidoc, debhelper-compat (= 12), docbook-xml, docbook-xsl, libxml2-utils, xsltproc
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 307ac0af5b614ea218b6b658effc61ee 2424 open-infrastructure-storage-tools_20190301-lts1-2.dsc
+ a05845aa9b6c02779bb6b71d50c1684b 23300 open-infrastructure-storage-tools_20190301-lts1.orig.tar.xz
+ 411952843366644f48938941da9a91cf 14240 open-infrastructure-storage-tools_20190301-lts1-2.debian.tar.xz
+Vcs-Browser: https://git.progress-linux.org/users/daniel.baumann/debian/packages/open-infrastructure-storage-tools
+Vcs-Git: https://git.progress-linux.org/users/daniel.baumann/debian/packages/open-infrastructure-storage-tools
+Checksums-Sha256:
+ d6a9807a970f968028c9e77c497d890408f16e899c5d5a9431973cad2d6644a5 2424 open-infrastructure-storage-tools_20190301-lts1-2.dsc
+ b771ea8e2a0a418c3ab6cc2d7862a9339ee0298247b5ea8b1b973094a194dfde 23300 open-infrastructure-storage-tools_20190301-lts1.orig.tar.xz
+ 4c42a8d77a7f0b5a7576ed3ecdb602cacd4a4e2488ab9c5fd4b49ddb59254505 14240 open-infrastructure-storage-tools_20190301-lts1-2.debian.tar.xz
+Homepage: https://open-infrastructure.net/software/storage-tools
+Package-List: 
+ open-infrastructure-ceph-tools deb admin optional arch=all
+ open-infrastructure-storage-tools deb admin optional arch=all
+Directory: pool/main/o/open-infrastructure-storage-tools
+Priority: optional
+Section: misc

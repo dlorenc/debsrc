@@ -1,0 +1,34 @@
+Package: octomap
+Binary: liboctomap1.9, octomap-tools, liboctomap-dev, libdynamicedt3d1.9, libdynamicedt3d-dev, liboctovis1.9, liboctovis-dev, octovis
+Version: 1.9.5+dfsg-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Leopold Palomo-Avellaneda <leo@alaxarxa.net>, Jose Luis Rivero <jrivero@osrfoundation.org>, Juhani Numminen <juhaninumminen0@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, qtbase5-dev, libqglviewer-dev-qt5
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1033965ef3c1ebf24977e9c67fc79dc6 2598 octomap_1.9.5+dfsg-1.dsc
+ a25f8afa60efadcd2b06b1b21b9e05c2 1180888 octomap_1.9.5+dfsg.orig.tar.xz
+ 37d05e0dd29507ee7f24465ceabb0933 11164 octomap_1.9.5+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/octomap
+Vcs-Git: https://salsa.debian.org/science-team/octomap.git
+Checksums-Sha256:
+ 807b57076237b19a2cb7639fc6cd054400e9caccad722d411e0133170fbc88b4 2598 octomap_1.9.5+dfsg-1.dsc
+ 658092fb374703adbf13fcf58383e1416aa6a44a9114477087267340dfcbe38a 1180888 octomap_1.9.5+dfsg.orig.tar.xz
+ 4ff3720f6bfc7b131695c5533170442ddd4f98f334728a81745715eb718c6046 11164 octomap_1.9.5+dfsg-1.debian.tar.xz
+Homepage: https://octomap.github.io
+Package-List: 
+ libdynamicedt3d-dev deb libdevel optional arch=any
+ libdynamicedt3d1.9 deb libs optional arch=any
+ liboctomap-dev deb libdevel optional arch=any
+ liboctomap1.9 deb libs optional arch=any
+ liboctovis-dev deb libdevel optional arch=any
+ liboctovis1.9 deb libs optional arch=any
+ octomap-tools deb science optional arch=any
+ octovis deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, cmake
+Directory: pool/main/o/octomap
+Priority: optional
+Section: misc

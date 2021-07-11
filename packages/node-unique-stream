@@ -1,0 +1,28 @@
+Package: node-unique-stream
+Binary: node-unique-stream
+Version: 2.3.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), chai <!nocheck>, dh-sequence-nodejs, mocha <!nocheck>, node-after <!nocheck>, node-json-stable-stringify <!nocheck>, node-through2-filter <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e9592f9dc4f3788b2f141c8f1043c16f 2600 node-unique-stream_2.3.1-1.dsc
+ 08e9086d2d987b656ea651e5e38d9ebc 4621 node-unique-stream_2.3.1.orig-json-stable-stringify-without-jsonify.tar.gz
+ 776f3735a81224a1b312314e87c1a00a 10324 node-unique-stream_2.3.1.orig.tar.gz
+ 6d569586739ccafc2c3d565a9772d126 2732 node-unique-stream_2.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-unique-stream
+Vcs-Git: https://salsa.debian.org/js-team/node-unique-stream.git
+Checksums-Sha256:
+ 90e18bd7bfed180720b594b8df020b695c4856c9a2d1814c260b1577b72fa151 2600 node-unique-stream_2.3.1-1.dsc
+ 5dbd60ac858b8eb9fb8219cd0dbe89cb866405749cbac90c2f8bc18acc77aeea 4621 node-unique-stream_2.3.1.orig-json-stable-stringify-without-jsonify.tar.gz
+ fddf5f21e40dad207c299b91cecfd9c91c9458a9dcc210ccc60d797e5cccf147 10324 node-unique-stream_2.3.1.orig.tar.gz
+ cbd304b81ad0fa31ddcd3bf5efa522afbfe46202c30a62f48e3f2dbeba485454 2732 node-unique-stream_2.3.1-1.debian.tar.xz
+Homepage: https://github.com/eugeneware/unique-stream
+Package-List: 
+ node-unique-stream deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-unique-stream
+Priority: optional
+Section: javascript

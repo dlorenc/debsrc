@@ -1,0 +1,28 @@
+Package: sqlcipher
+Binary: sqlcipher, libsqlcipher0, libsqlcipher-dev
+Version: 3.4.1-2
+Maintainer: Hans-Christoph Steiner <hans@eds.org>
+Uploaders: Micah Anderson <micah@debian.org>
+Build-Depends: dpkg-dev (>= 1.16.1~), debhelper (>= 10), autoconf (>= 2.59), libtool (>= 1.5.2), automake, libreadline-dev, tcl8.6-dev, libssl-dev
+Build-Conflicts: tcl8.4, tcl8.4-dev, tcl8.5, tcl8.5-dev
+Architecture: any
+Standards-Version: 4.0.1
+Format: 3.0 (quilt)
+Files:
+ 884f737ac2ca382afecba1f2ece1b5e1 1824 sqlcipher_3.4.1-2.dsc
+ edd1c57129c21a22ab2c2fd7f47d4ccd 13873645 sqlcipher_3.4.1.orig.tar.gz
+ 5dbb79f38fe4201d754c972ad7990f53 14764 sqlcipher_3.4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sqlcipher
+Vcs-Git: https://salsa.debian.org/debian/sqlcipher.git
+Checksums-Sha256:
+ f084505f2bd6b263a43da1007ee950f0d529b542c65ca99c32deb64ea30f9fd3 1824 sqlcipher_3.4.1-2.dsc
+ 4172cc6e5a79d36e178d36bd5cc467a938e08368952659bcd95eccbaf0fa4ad4 13873645 sqlcipher_3.4.1.orig.tar.gz
+ 862cc7d89716276fc18b5b2fc26118f3e1086888659882e6a6d22f79c3869d45 14764 sqlcipher_3.4.1-2.debian.tar.xz
+Homepage: http://sqlcipher.net/
+Package-List: 
+ libsqlcipher-dev deb libdevel optional arch=any
+ libsqlcipher0 deb libs optional arch=any
+ sqlcipher deb database optional arch=any
+Directory: pool/main/s/sqlcipher
+Priority: optional
+Section: misc

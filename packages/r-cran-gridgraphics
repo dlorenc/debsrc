@@ -1,0 +1,27 @@
+Package: r-cran-gridgraphics
+Binary: r-cran-gridgraphics
+Version: 0.5-1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0ebbae319649c7b03387ab415cb9df0b 2174 r-cran-gridgraphics_0.5-1-1.dsc
+ ec6a5183d4597929f18ae491b9adecf9 69207 r-cran-gridgraphics_0.5-1.orig.tar.gz
+ 945b0e41a0dae53fbd8a1dbd71bf162c 2328 r-cran-gridgraphics_0.5-1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-gridgraphics
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-gridgraphics.git
+Checksums-Sha256:
+ 69d0ac18db1b1bf3404cd420d58b37020b729c0776a21ce8451129cb930f8b99 2174 r-cran-gridgraphics_0.5-1-1.dsc
+ 29086e94e63891884c933b186b35511aac2a2f9c56967a72e4050e2980e7da8b 69207 r-cran-gridgraphics_0.5-1.orig.tar.gz
+ 75eb48b9f2a7bef647d14fdf5f9ed734549cd482ad1ba24606933f2e9eb33e4b 2328 r-cran-gridgraphics_0.5-1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=gridGraphics
+Package-List: 
+ r-cran-gridgraphics deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-magick, r-cran-pdftools
+Directory: pool/main/r/r-cran-gridgraphics
+Priority: extra
+Section: misc

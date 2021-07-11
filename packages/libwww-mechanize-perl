@@ -1,0 +1,28 @@
+Package: libwww-mechanize-perl
+Binary: libwww-mechanize-perl
+Version: 2.03-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcgi-pm-perl (>= 4.32) <!nocheck>, libhtml-form-perl <!nocheck>, libhtml-parser-perl <!nocheck>, libhtml-tree-perl <!nocheck>, libhttp-cookies-perl <!nocheck>, libhttp-daemon-perl (>= 6.12) <!nocheck>, libhttp-message-perl <!nocheck>, libhttp-server-simple-perl <!nocheck>, libio-socket-ssl-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>, libtest-output-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-taint-perl <!nocheck>, libtest-warn-perl <!nocheck>, libtest-warnings-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl (>= 6.45) <!nocheck>, netbase <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 837ba8dd17f87751aaee04b2dc29d63f 3256 libwww-mechanize-perl_2.03-1.dsc
+ fdd3b556dba8cffea3193c9f673ba904 183933 libwww-mechanize-perl_2.03.orig.tar.gz
+ dea1b12c8514599aa1357a3f6d05425c 7420 libwww-mechanize-perl_2.03-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libwww-mechanize-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libwww-mechanize-perl.git
+Checksums-Sha256:
+ 90f458f0af7fe339e234e08897b726d596ab053e803a51cfbdbb2b543e4159aa 3256 libwww-mechanize-perl_2.03-1.dsc
+ 3f1dd74df61d61522c0270f196ecc6e80c408f8c4d1835b99e1fce0a0d93845e 183933 libwww-mechanize-perl_2.03.orig.tar.gz
+ 79672bb1f065f65d6ce9c15e41aecae56b4aa08d43416c66139f5fc7d68d2a94 7420 libwww-mechanize-perl_2.03-1.debian.tar.xz
+Homepage: https://metacpan.org/release/WWW-Mechanize
+Dgit: 50255821e39f962313dfa8a47c43e9239f12b0e1 debian archive/debian/2.03-1 https://git.dgit.debian.org/libwww-mechanize-perl
+Package-List: 
+ libwww-mechanize-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libw/libwww-mechanize-perl
+Priority: source
+Section: perl

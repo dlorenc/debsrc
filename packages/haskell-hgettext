@@ -1,0 +1,30 @@
+Package: haskell-hgettext
+Binary: libghc-hgettext-dev, libghc-hgettext-prof, libghc-hgettext-doc
+Version: 0.1.31.0-8
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Sven Bartscher <sven.bartscher@weltraumschlangen.de>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-setlocale-dev (>= 0.0.3), libghc-setlocale-dev (<< 1.1), libghc-setlocale-prof, libghc-src-exts-dev (>= 1.18), libghc-src-exts-dev (<< 1.24), libghc-uniplate-dev (>= 1.6.12), libghc-uniplate-dev (<< 1.7)
+Build-Depends-Indep: ghc-doc, libghc-setlocale-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0ad1346de9c05e958e0ed8ffa8e4c103 2639 haskell-hgettext_0.1.31.0-8.dsc
+ 480acba59e114ed4a4f907695cfb60a1 8142 haskell-hgettext_0.1.31.0.orig.tar.gz
+ 16629cdc253e449fe6ca3bbeca31c3c5 5312 haskell-hgettext_0.1.31.0-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hgettext
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hgettext]
+Checksums-Sha256:
+ 61a8f853c9bc32f2f579c2630e06949924a58197457025f9e6d20ef767d485a3 2639 haskell-hgettext_0.1.31.0-8.dsc
+ d51fb618f414441f573d96c1bc41fcec80976a4a80453d571683cf49e57df368 8142 haskell-hgettext_0.1.31.0.orig.tar.gz
+ f38c1b7bb1be878d2de21b52d92740ec533021c99f77e9632cb17b38b4619e2a 5312 haskell-hgettext_0.1.31.0-8.debian.tar.xz
+Homepage: https://github.com/vasylp/hgettext
+Package-List: 
+ libghc-hgettext-dev deb haskell optional arch=any
+ libghc-hgettext-doc deb doc optional arch=all
+ libghc-hgettext-prof deb haskell optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: cabal-install
+Directory: pool/main/h/haskell-hgettext
+Priority: optional
+Section: misc

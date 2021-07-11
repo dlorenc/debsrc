@@ -1,0 +1,26 @@
+Package: xandikos
+Binary: xandikos
+Version: 0.2.2-1
+Maintainer: Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: python3-all, debhelper-compat (= 13), python3-dulwich (>= 0.19.1), dh-python, python3-icalendar, python3-defusedxml, python3-jinja2, python3-setuptools, python3-aiohttp, python3-prometheus-client
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0cfb86c89c89b7b38ebfa9cfd4289d31 2044 xandikos_0.2.2-1.dsc
+ 10a43e94f8e660321a0003f2db88abb6 95842 xandikos_0.2.2.orig.tar.gz
+ 81ce6f9661521e75eb1693a751309a83 593736 xandikos_0.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/jelmer/xandikos
+Vcs-Git: https://salsa.debian.org/jelmer/xandikos.git
+Checksums-Sha256:
+ dbc1cf3726fd458ea778f3f6faabdfc40fdb7a67c03354b03ec8151f0abaa284 2044 xandikos_0.2.2-1.dsc
+ 0a5d48828f43e4c799412e0df802bb8c7669d8e1593d02be213183348d5ad6fa 95842 xandikos_0.2.2.orig.tar.gz
+ 89a400a39786fa015ba3e1c0b6caad60b208c29953d322e3438bdf2a2f746393 593736 xandikos_0.2.2-1.debian.tar.xz
+Homepage: https://www.xandikos.org/
+Package-List: 
+ xandikos deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: curl, litmus
+Directory: pool/main/x/xandikos
+Priority: optional
+Section: misc

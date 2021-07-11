@@ -1,0 +1,30 @@
+Package: xdg-desktop-portal
+Binary: xdg-desktop-portal, xdg-desktop-portal-dev, xdg-desktop-portal-tests
+Version: 1.8.1-1
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Simon McVittie <smcv@debian.org>,
+Build-Depends: dbus, debhelper-compat (= 12), geoclue-2.0 <!nocheck pkg.libportal.enable>, fuse <!nocheck>, libcap2-bin <!nocheck>, libgdk-pixbuf-2.0-dev | libgdk-pixbuf2.0-dev, libgeoclue-2-dev (>= 2.5.2), libflatpak-dev (>= 1.5.0), libfuse-dev, libglib2.0-dev, libjson-glib-dev, libpipewire-0.3-dev (>= 0.3.10), libportal-dev (>= 0.3) <pkg.libportal.enable>, pipewire (>= 0.3.10) <!nocheck pkg.libportal.enable>, procps <!nocheck>, python3 <!nocheck>, python3-gi <!nocheck>, xmlto
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8a291b402f8678bfae15a188a00e5fc9 2829 xdg-desktop-portal_1.8.1-1.dsc
+ 54102ef352be3a26df15fa10af193470 473052 xdg-desktop-portal_1.8.1.orig.tar.xz
+ 2d6166ed5221d9baef203266d2bfacf3 10656 xdg-desktop-portal_1.8.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/xdg-desktop-portal
+Vcs-Git: https://salsa.debian.org/debian/xdg-desktop-portal.git
+Checksums-Sha256:
+ 92f3c6c546d49cd0b5003f9ef57210d4b615cc43a2364052061b9201e5ef06ea 2829 xdg-desktop-portal_1.8.1-1.dsc
+ 01f5f87d3546b63bad85cdba40619913435235a499af3c48ec7554ce8200dcdf 473052 xdg-desktop-portal_1.8.1.orig.tar.xz
+ 6a48a82179cb8c310a8bb4b174a60db7bba336c4f8be913fb0d384835a3b59a7 10656 xdg-desktop-portal_1.8.1-1.debian.tar.xz
+Homepage: https://github.com/flatpak/xdg-desktop-portal
+Dgit: f4506778a67ac904aa61abfb1abf57bea5f9725f debian archive/debian/1.8.1-1 https://git.dgit.debian.org/xdg-desktop-portal
+Package-List: 
+ xdg-desktop-portal deb admin optional arch=linux-any
+ xdg-desktop-portal-dev deb admin optional arch=all
+ xdg-desktop-portal-tests deb admin optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gnome-desktop-testing
+Directory: pool/main/x/xdg-desktop-portal
+Priority: optional
+Section: misc

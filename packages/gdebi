@@ -1,0 +1,22 @@
+Package: gdebi
+Binary: gdebi-core, gdebi
+Version: 0.9.5.7+nmu5
+Maintainer: gdebi developers <gdebi@packages.debian.org>
+Uploaders: Michael Vogt <mvo@debian.org>
+Build-Depends: debhelper (>= 9), dh-python, gir1.2-gtk-3.0, gir1.2-vte-2.91, python3-all, python3-apt, python3-gi, python3-nose, python3-setuptools, intltool, xvfb, xauth, lintian
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (native)
+Files:
+ 76b033620d59161e7c4d34dc6f4c2b99 1724 gdebi_0.9.5.7+nmu5.dsc
+ e2eedbb9ab7c03bd22a23cf27320ad19 191512 gdebi_0.9.5.7+nmu5.tar.xz
+Vcs-Bzr: https://code.launchpad.net/~gdebi-developers/gdebi/trunk
+Checksums-Sha256:
+ 9d4e820ea543da4017b0e4fad83c84b3e8bf42779530df850aa1ac3764c1c936 1724 gdebi_0.9.5.7+nmu5.dsc
+ d0444cf12a59720b437e1471a565169fd4ea9d94d1d09054b287d8a67ec90800 191512 gdebi_0.9.5.7+nmu5.tar.xz
+Package-List: 
+ gdebi deb admin optional arch=all
+ gdebi-core deb admin optional arch=all
+Directory: pool/main/g/gdebi
+Priority: source
+Section: admin

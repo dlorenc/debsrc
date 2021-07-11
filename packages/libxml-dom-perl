@@ -1,0 +1,27 @@
+Package: libxml-dom-perl
+Binary: libxml-dom-perl
+Version: 1.46-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: perl, libtest-nowarnings-perl <!nocheck>, libwww-perl <!nocheck>, libxml-parser-perl <!nocheck>, libxml-perl <!nocheck>, libxml-regexp-perl <!nocheck>, libxml2-utils <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ae16554fa9f6edec4cf1f5ca5b94eddc 2241 libxml-dom-perl_1.46-1.dsc
+ 2062bfe9a47f467e1df03f34fa5f3795 116705 libxml-dom-perl_1.46.orig.tar.gz
+ c8bcde95eb3be6cc39d42d4f1eb36507 5444 libxml-dom-perl_1.46-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxml-dom-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxml-dom-perl.git
+Checksums-Sha256:
+ 586d598ef1b91cec980da7a21dbfbda8cefbecde500ad29ef93c136a94aec145 2241 libxml-dom-perl_1.46-1.dsc
+ 18ad52eb034889dd7e00fdab8728333b28c9215ae6fc4edb1d3218fb87e2c003 116705 libxml-dom-perl_1.46.orig.tar.gz
+ 663df443187b75d37866288ba3fc9226aa7ef13a80311aa0d2820321bfe5c6ab 5444 libxml-dom-perl_1.46-1.debian.tar.xz
+Homepage: https://metacpan.org/release/XML-DOM
+Package-List: 
+ libxml-dom-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libx/libxml-dom-perl
+Priority: source
+Section: perl

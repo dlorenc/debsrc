@@ -1,0 +1,26 @@
+Package: haskell-natural-transformation
+Binary: libghc-natural-transformation-dev, libghc-natural-transformation-prof, libghc-natural-transformation-doc
+Version: 0.4-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-quickcheck-instances-dev (>= 0.1) <!nocheck>, libghc-quickcheck-instances-dev (<< 0.4) <!nocheck>, libghc-tasty-dev (>= 0.8) <!nocheck>, libghc-tasty-quickcheck-dev (>= 0.8) <!nocheck>
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a12b4ad03553a0f59610b5ec45f36d79 2490 haskell-natural-transformation_0.4-6.dsc
+ e82ab073ac2469252e73ef945f93eed2 4391 haskell-natural-transformation_0.4.orig.tar.gz
+ 66779a519480c37bdff28ee5da5bfbc6 2772 haskell-natural-transformation_0.4-6.debian.tar.xz
+Checksums-Sha256:
+ 435914750fe1a7459cbcd13df0bb2d044768ee97f0c73d63b8db7896824ff974 2490 haskell-natural-transformation_0.4-6.dsc
+ aac28e2c1147ed77c1ec0f0eb607a577fa26d0fd67474293ba860ec124efc8af 4391 haskell-natural-transformation_0.4.orig.tar.gz
+ 4113ab390c679d5828ec88db171a787d064e50b55f96f0d3d5619bb18fd9cbb7 2772 haskell-natural-transformation_0.4-6.debian.tar.xz
+Homepage: https://github.com/ku-fpg/natural-transformation
+Package-List: 
+ libghc-natural-transformation-dev deb haskell optional arch=any
+ libghc-natural-transformation-doc deb doc optional arch=all
+ libghc-natural-transformation-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-natural-transformation
+Priority: extra
+Section: misc

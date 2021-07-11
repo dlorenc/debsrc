@@ -1,0 +1,27 @@
+Package: libdata-hal-perl
+Binary: libdata-hal-perl
+Version: 1.001-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Prokop <mika@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl, perl
+Build-Depends-Indep: libboolean-perl, libclone-perl, libdata-visitor-perl, libfailures-perl, libfile-slurp-perl, libhttp-message-perl, libjson-perl, liblog-any-adapter-filehandle-perl, liblog-any-perl (>= 1.00) | liblog-any-adapter-perl, libmime-types-perl, libmoo-perl, libsafe-isa-perl, libstrictures-perl, libtest-fatal-perl, libtype-tiny-perl, liburi-namespacemap-perl, liburi-perl, liburi-template-perl, libxml-regexp-perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ba08e27f9efcca2375a7d20dde00392c 2541 libdata-hal-perl_1.001-1.dsc
+ 03cff4947c4f321add3a1e7fdfec0f8d 14435 libdata-hal-perl_1.001.orig.tar.gz
+ baa2adb3dd2765146dce2464a52403ee 2808 libdata-hal-perl_1.001-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdata-hal-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdata-hal-perl.git
+Checksums-Sha256:
+ 060f45c492997c8ed9ab10b9094745747e770c13b08ae2e5efb7597275b6fb51 2541 libdata-hal-perl_1.001-1.dsc
+ 50891a53d3bd0ff8e380af046e34aa5467d541dd82383641af16bf91cc3d82f6 14435 libdata-hal-perl_1.001.orig.tar.gz
+ 7a2761179aed8dd4575084a67e6fdc8b999a5ded26b9b5f6468afeb290595959 2808 libdata-hal-perl_1.001-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Data-HAL
+Package-List: 
+ libdata-hal-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdata-hal-perl
+Priority: optional
+Section: misc

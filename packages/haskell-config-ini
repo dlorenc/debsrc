@@ -1,0 +1,26 @@
+Package: haskell-config-ini
+Binary: libghc-config-ini-dev, libghc-config-ini-prof, libghc-config-ini-doc
+Version: 0.2.4.0-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-megaparsec-dev (>= 7), libghc-megaparsec-dev (<< 9), libghc-megaparsec-prof, libghc-unordered-containers-dev (>= 0.2.7), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof (>= 0.2.7), libghc-unordered-containers-prof (<< 0.3), libghc-hedgehog-dev, libghc-ini-dev
+Build-Depends-Indep: ghc-doc, libghc-megaparsec-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fbcb974a06407f64e20ccde73b67bbf3 2521 haskell-config-ini_0.2.4.0-5.dsc
+ 48e3072a9c4116d9d907496be30d682d 24677 haskell-config-ini_0.2.4.0.orig.tar.gz
+ 06db4668588b1b6c37e24e553bbcfe0c 2716 haskell-config-ini_0.2.4.0-5.debian.tar.xz
+Checksums-Sha256:
+ a46d87a2c179ed8e24d296f8b66b6cd9246e7c8ab0a4f4bd28bb47238d75a724 2521 haskell-config-ini_0.2.4.0-5.dsc
+ 6e5194e8acb7d189f0904852138990d03b64f86b9fde8f591ee1341d5627d535 24677 haskell-config-ini_0.2.4.0.orig.tar.gz
+ 4bbcd9c7f9fbf917825912b61c30061d42e4d250da45566555e09e65834b0442 2716 haskell-config-ini_0.2.4.0-5.debian.tar.xz
+Homepage: https://github.com/aisamanra/config-ini
+Package-List: 
+ libghc-config-ini-dev deb haskell optional arch=any
+ libghc-config-ini-doc deb doc optional arch=all
+ libghc-config-ini-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-config-ini
+Priority: extra
+Section: misc

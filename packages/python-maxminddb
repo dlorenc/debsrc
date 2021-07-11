@@ -1,0 +1,27 @@
+Package: python-maxminddb
+Binary: python3-maxminddb, python-maxminddb-doc
+Version: 2.0.3-1
+Maintainer: Faidon Liambotis <paravoid@debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>, Sergio Durigan Junior <sergiodj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, python3-nose, python3-mock, python3-docutils, python3-sphinx, libmaxminddb-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 07e55e7b82aa95038742964966284fbf 2290 python-maxminddb_2.0.3-1.dsc
+ a2866dcb5ade9050ffc99ab1ed6d5d2b 222857 python-maxminddb_2.0.3.orig.tar.gz
+ be11e7c3832be8d56d76988df246f5a2 9892 python-maxminddb_2.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-maxminddb
+Vcs-Git: https://salsa.debian.org/debian/python-maxminddb.git
+Checksums-Sha256:
+ b4061ca635d9f974f2126bc215ae57ca3e48d44e62056942a8b6b1a007d1658d 2290 python-maxminddb_2.0.3-1.dsc
+ 80a4cba42124d762d06f6a9bfc351a16ae445905fb1c712d4b278cf77260cec4 222857 python-maxminddb_2.0.3.orig.tar.gz
+ baa7f3c5e5d1290f736b424870cfcf643bb0983727796a8c58f2d220567b7d77 9892 python-maxminddb_2.0.3-1.debian.tar.xz
+Homepage: https://github.com/maxmind/MaxMind-DB-Reader-python
+Package-List: 
+ python-maxminddb-doc deb doc optional arch=all
+ python3-maxminddb deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-maxminddb
+Priority: optional
+Section: misc

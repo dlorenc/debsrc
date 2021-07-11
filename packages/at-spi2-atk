@@ -1,0 +1,31 @@
+Package: at-spi2-atk
+Binary: libatk-adaptor, libatk-adaptor-udeb, libatk-bridge2.0-0, libatk-bridge-2.0-0-udeb, libatk-bridge2.0-dev
+Version: 2.38.0-1
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>, Jordi Mallach <jordi@debian.org>
+Build-Depends: at-spi2-core <!nocheck>, dbus <!nocheck>, debhelper-compat (= 12), libdbus-1-dev, libatk1.0-dev (>= 2.36.0~), libatspi2.0-dev (>= 2.33.92), libglib2.0-dev, libxml2-dev (>= 2.9.1), libx11-dev, meson (>= 0.40), xauth <!nocheck>, xvfb <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1b8cc1e68105d55b16e36d3d7efabe6e 2632 at-spi2-atk_2.38.0-1.dsc
+ aed95be54ef213d210331dda88298b92 97464 at-spi2-atk_2.38.0.orig.tar.xz
+ f37547de844727f3fa03e70b34773874 10424 at-spi2-atk_2.38.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/at-spi2-atk
+Vcs-Git: https://salsa.debian.org/a11y-team/at-spi2-atk.git
+Checksums-Sha256:
+ 0a4be468f9070c967caeea6d0c2e87b8e5e57127ed301cfe7e6bfb0b3975ba36 2632 at-spi2-atk_2.38.0-1.dsc
+ cfa008a5af822b36ae6287f18182c40c91dd699c55faa38605881ed175ca464f 97464 at-spi2-atk_2.38.0.orig.tar.xz
+ 44e33d8024c46595a00509ec5dd5d5604ff011816475afaa1b6e13b4e5f5a95b 10424 at-spi2-atk_2.38.0-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Accessibility
+Package-List: 
+ libatk-adaptor deb misc optional arch=any
+ libatk-adaptor-udeb udeb debian-installer optional arch=any
+ libatk-bridge-2.0-0-udeb udeb debian-installer optional arch=any
+ libatk-bridge2.0-0 deb libs optional arch=any
+ libatk-bridge2.0-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, at-spi2-core, build-essential, dbus, xauth, xvfb
+Directory: pool/main/a/at-spi2-atk
+Priority: source
+Section: misc

@@ -1,0 +1,26 @@
+Package: dictzip-java
+Binary: libdictzip-java
+Version: 0.8.2-2.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>,
+Build-Depends: debhelper (>= 9), gradle-debian-helper, default-jdk
+Build-Depends-Indep: default-jdk-doc, maven-repo-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 70ac58ea527bbd922521fd6aaa4c51c8 2073 dictzip-java_0.8.2-2.1.dsc
+ 89365777a84b162f648cf8061c5d69e0 1729869 dictzip-java_0.8.2.orig.tar.gz
+ f9e1a1bf6cc82a9c64e020d054e78465 4156 dictzip-java_0.8.2-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/dictzip-java
+Vcs-Git: https://salsa.debian.org/java-team/dictzip-java.git
+Checksums-Sha256:
+ a407a459624bf2c21892fb8f0ef9638f139a6e8569c331ebaaa8b6e736ba5de8 2073 dictzip-java_0.8.2-2.1.dsc
+ 44a53990475607f50f9dd2611fbc362621a7774315ee1ae54e58834e133f8b53 1729869 dictzip-java_0.8.2.orig.tar.gz
+ 9477cca13f831fdc5580f6b59987b49a22ff5eb2e9d0252a841315a36839bbfa 4156 dictzip-java_0.8.2-2.1.debian.tar.xz
+Homepage: https://github.com/dictzip/dictzip-java
+Package-List: 
+ libdictzip-java deb java optional arch=all
+Directory: pool/main/d/dictzip-java
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: zed
+Binary: libzed-ocaml-dev, libzed-ocaml
+Version: 3.1.0-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>,
+Build-Depends: debhelper-compat (= 13), libreact-ocaml-dev, libcamomile-ocaml-dev, libcharinfo-width-ocaml-dev, ocaml-findlib, ocaml-dune, ocaml-nox, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b3311c316e22b074975edaa3c625fed0 1840 zed_3.1.0-1.dsc
+ 51e8676ba972e5ad727633c161e404b1 45535 zed_3.1.0.orig.tar.gz
+ 07146eca6a668f66334d0e42b2896a72 2944 zed_3.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/zed
+Vcs-Git: https://salsa.debian.org/ocaml-team/zed.git
+Checksums-Sha256:
+ 67571aaecd354a473c58125d3d79895f17f56ebe2a6821d5f56e9c880d53071b 1840 zed_3.1.0-1.dsc
+ c387b0496c34c7eb680999e751525992e3e636a803297480ef004498887625fd 45535 zed_3.1.0.orig.tar.gz
+ ee3fd81d02a2323e87aa60d740af240c5c3b7c9768ff70b9061abebe627bd17a 2944 zed_3.1.0-1.debian.tar.xz
+Homepage: https://github.com/ocaml-community/zed
+Dgit: e2510015594e96a06a1c4664de40b23f78298c79 debian archive/debian/3.1.0-1 https://git.dgit.debian.org/zed
+Package-List: 
+ libzed-ocaml deb ocaml optional arch=any
+ libzed-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/z/zed
+Priority: optional
+Section: misc

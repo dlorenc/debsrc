@@ -1,0 +1,27 @@
+Package: rust-atk-sys
+Binary: librust-atk-sys-dev
+Version: 0.9.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, libatk1.0-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 42123b4b081488c82727d13e66eca385 2462 rust-atk-sys_0.9.0-2.dsc
+ 37616d5248a6b06da22837dbed09dee9 20777 rust-atk-sys_0.9.0.orig.tar.gz
+ c6594c9d2639dc2594a7b37badfce9f0 2724 rust-atk-sys_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/atk-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/atk-sys]
+Checksums-Sha256:
+ f3160bd5aa1c1a14639307420d77f2e91f35ea3ca5bebc8a74269108135e91a7 2462 rust-atk-sys_0.9.0-2.dsc
+ 5067531f752c01027f004032bb676e715aba74b75e904a7340a61ce3fb0b61b0 20777 rust-atk-sys_0.9.0.orig.tar.gz
+ 8c1aa55a62b72f097447e390e23a7de61001a80382be8fbc96d4f76642ba67a1 2724 rust-atk-sys_0.9.0-2.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-atk-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-shell-words-0.1+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-atk-sys
+Priority: extra
+Section: misc

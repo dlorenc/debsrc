@@ -1,0 +1,30 @@
+Package: pocl
+Binary: pocl-opencl-icd, libpocl2-common, libpocl2, libpocl-dev, pocl-doc
+Version: 1.6-5
+Maintainer: Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>
+Uploaders: Vincent Danjean <vdanjean@debian.org>, Andreas Beckmann <anbe@debian.org>,
+Build-Depends: debhelper-compat (= 13), gcc (>= 4:10), pkg-config, libhwloc-dev, ocl-icd-dev (>= 2.2.3), ocl-icd-libopencl1 (>= 2.2.3), ocl-icd-opencl-dev, clang-9, libclang-9-dev, llvm-9-dev, pkg-kde-tools, cmake, clinfo
+Build-Depends-Indep: dh-sequence-sphinxdoc, python3-sphinx
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 21b9ae0250cacec8bbfb868cf1ee4bb1 2392 pocl_1.6-5.dsc
+ fabba199f40b3712fc66b0363c30d26c 1595212 pocl_1.6.orig.tar.gz
+ 41633119ee624563d6845d2d69ff5d45 28860 pocl_1.6-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/opencl-team/pocl
+Vcs-Git: https://salsa.debian.org/opencl-team/pocl.git
+Checksums-Sha256:
+ 47b91b172a2333e5282fde50de02de4ee507d7c711feced74a444369be9e28cb 2392 pocl_1.6-5.dsc
+ b0a4c0c056371b6f0db726b88fbb76bbee94948fb2abd4dbc8d958f7c42f766c 1595212 pocl_1.6.orig.tar.gz
+ 9666d38e0b2204cbbf977cb5f71cf1c7734600e1729f2615a94ec568a69ca2f8 28860 pocl_1.6-5.debian.tar.xz
+Homepage: http://portablecl.org
+Package-List: 
+ libpocl-dev deb libdevel optional arch=any
+ libpocl2 deb libs optional arch=any
+ libpocl2-common deb utils optional arch=all
+ pocl-doc deb doc optional arch=all
+ pocl-opencl-icd deb libs optional arch=any
+Directory: pool/main/p/pocl
+Priority: optional
+Section: misc

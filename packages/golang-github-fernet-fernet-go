@@ -1,0 +1,28 @@
+Package: golang-github-fernet-fernet-go
+Binary: golang-github-fernet-fernet-go-dev, fernet-go
+Version: 0.0~git20180830.9eac43b-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4d3660bf952ed0ae8c51767cf0b27ca5 2391 golang-github-fernet-fernet-go_0.0~git20180830.9eac43b-2.dsc
+ 488477b1b47fe42182ececdd0b6fa9e7 6180 golang-github-fernet-fernet-go_0.0~git20180830.9eac43b.orig.tar.xz
+ dbf87e8d244b665a1a932fd46daf4576 2320 golang-github-fernet-fernet-go_0.0~git20180830.9eac43b-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/fernet-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/fernet-go.git
+Checksums-Sha256:
+ 16c31b8851a06d144f542e433e140d2c50394b3331776be2044214c49e7692bd 2391 golang-github-fernet-fernet-go_0.0~git20180830.9eac43b-2.dsc
+ 3883a7b08847f7b885420211194caaa5fe1951734e552639a3a5b406f0dc6ee2 6180 golang-github-fernet-fernet-go_0.0~git20180830.9eac43b.orig.tar.xz
+ 215c559b76248b78842eed630b8cdd32508317457cfb07739e038401ca449812 2320 golang-github-fernet-fernet-go_0.0~git20180830.9eac43b-2.debian.tar.xz
+Homepage: https://github.com/fernet/fernet-go
+Go-Import-Path: github.com/fernet/fernet-go
+Package-List: 
+ fernet-go deb devel optional arch=any
+ golang-github-fernet-fernet-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-fernet-fernet-go
+Priority: extra
+Section: golang

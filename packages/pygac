@@ -1,0 +1,27 @@
+Package: pygac
+Binary: python3-pygac, pygac-bin
+Version: 1.4.0-2
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Build-Depends: debhelper-compat (= 12), dh-python, cython3, python3-all-dev, python3-docutils, python3-geotiepoints, python3-h5py, python3-numpy, python3-pyorbital, python3-scipy, python3-setuptools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2586a98a7cdf1da0a9c98aade1780c1c 2157 pygac_1.4.0-2.dsc
+ c2f2bb4705971a5e2d0c939af9dba672 525192 pygac_1.4.0.orig.tar.gz
+ 303b7a36451319bd9f62f1b89935c1ef 5876 pygac_1.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/pygac
+Vcs-Git: https://salsa.debian.org/debian-gis-team/pygac.git
+Checksums-Sha256:
+ 33476f1975223652eb1b2cb7c0b5cbf4f35de915ed47f3b96e46b5406c767ff0 2157 pygac_1.4.0-2.dsc
+ ef6ab73379552d8b9e5eb11779318bc571d1a7412e8823045a6a11b0cedbf086 525192 pygac_1.4.0.orig.tar.gz
+ 2028153608d0aa5c0e3bf190f345b89e6184c022770b37ecc86962645205aeb9 5876 pygac_1.4.0-2.debian.tar.xz
+Homepage: https://github.com/pytroll/pygac
+Package-List: 
+ pygac-bin deb utils optional arch=all
+ python3-pygac deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pygac
+Priority: extra
+Section: misc

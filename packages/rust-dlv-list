@@ -1,0 +1,27 @@
+Package: rust-dlv-list
+Binary: librust-dlv-list-dev
+Version: 0.2.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Alexander Kjäll <alexander.kjall@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-rand+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 13713d920ba3b6d4becf61050b9b2b47 2212 rust-dlv-list_0.2.2-1.dsc
+ d38bc27016314428fcb5b7ca65743358 12359 rust-dlv-list_0.2.2.orig.tar.gz
+ 4275e4298b09af94d8e41e352b54cabd 2628 rust-dlv-list_0.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/dlv-list
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/dlv-list]
+Checksums-Sha256:
+ 93ab1aa650cfbe4c401224f0b46eb11975121a1399c822823fb6fb2671d64237 2212 rust-dlv-list_0.2.2-1.dsc
+ 1b391911b9a786312a10cb9d2b3d0735adfd5a8113eb3648de26a75e91b0826c 12359 rust-dlv-list_0.2.2.orig.tar.gz
+ e44214224ab8dc4b52784de9328943744c4e922d33752a81c3e3ae7f881747c3 2628 rust-dlv-list_0.2.2-1.debian.tar.xz
+Homepage: https://github.com/sgodwincs/dlv-list-rs
+Package-List: 
+ librust-dlv-list-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-dlv-list
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: python-xmlschema
+Binary: python3-xmlschema, python-xmlschema-doc
+Version: 1.4.2-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Christian Kastner <ckk@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, help2man, python3-all, python3-elementpath (>= 2.1.2), python3-lxml, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ acc8ee42f9b525fad4fdf97eaeff1d4a 2331 python-xmlschema_1.4.2-1.dsc
+ 5695192d439b9213ddf36c6123a9738a 322455 python-xmlschema_1.4.2.orig.tar.gz
+ dd5680f41a621844c9b6482d4465ea56 5312 python-xmlschema_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-xmlschema
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-xmlschema.git
+Checksums-Sha256:
+ a185d5a17e76ad0e94c567267650d53cbea062b6b5f7e32c3435e9973da2698e 2331 python-xmlschema_1.4.2-1.dsc
+ f52ef5e73fa895aeb62774196f91507fa0b30447c65276b58ab2c5bd5d64784d 322455 python-xmlschema_1.4.2.orig.tar.gz
+ 3722344b98df1832eac0bc273520466186bf75385e642285c023055ed3f9e712 5312 python-xmlschema_1.4.2-1.debian.tar.xz
+Homepage: https://github.com/sissaschool/xmlschema
+Package-List: 
+ python-xmlschema-doc deb doc optional arch=all
+ python3-xmlschema deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-elementpath, python3-lxml
+Directory: pool/main/p/python-xmlschema
+Priority: extra
+Section: misc

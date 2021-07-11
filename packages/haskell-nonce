@@ -1,0 +1,28 @@
+Package: haskell-nonce
+Binary: libghc-nonce-dev, libghc-nonce-prof, libghc-nonce-doc
+Version: 1.0.7-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Christopher Reichert <creichert07@gmail.com>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-base64-bytestring-dev (<< 1.1), libghc-base64-bytestring-dev (>= 1.0), libghc-base64-bytestring-prof, libghc-entropy-dev (>= 0.3.7), libghc-entropy-dev (<< 0.4.2), libghc-entropy-prof, libghc-unliftio-dev, libghc-unliftio-prof, libghc-unliftio-core-dev, libghc-unliftio-core-prof
+Build-Depends-Indep: ghc-doc, libghc-base64-bytestring-doc, libghc-entropy-doc, libghc-unliftio-doc, libghc-unliftio-core-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f0489487092f0c7bb38496393d9846d3 2666 haskell-nonce_1.0.7-4.dsc
+ 83eae66f4dcf0c102eb3a1c7e8171080 2956 haskell-nonce_1.0.7.orig.tar.gz
+ 2e1b836b54a4e12eea0454b9af679c59 3136 haskell-nonce_1.0.7-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-nonce
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-nonce]
+Checksums-Sha256:
+ 04a799d12dee892fe70ccb3ebc54a2f5f9b74255b76a92db8a341a8a4861a6f4 2666 haskell-nonce_1.0.7-4.dsc
+ 4b4f6232b2cb07a6de47a838b4dc35c346a745683866dbfc6ebb8682158037e1 2956 haskell-nonce_1.0.7.orig.tar.gz
+ dd458572e2f74db6b982776dc82fefed56123cf73e53bf75dfa1382ff44993d2 3136 haskell-nonce_1.0.7-4.debian.tar.xz
+Homepage: https://github.com/prowdsponsor/nonce
+Package-List: 
+ libghc-nonce-dev deb haskell optional arch=any
+ libghc-nonce-doc deb doc optional arch=all
+ libghc-nonce-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-nonce
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: fst
+Binary: fst-dev
+Version: 0.115.2-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>,
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 23e2b4a987e1a2933e20038ad74873bb 2123 fst_0.115.2-1.dsc
+ b5f5293cdd1e98022e2c954720cc4417 79601 fst_0.115.2.orig.tar.bz2
+ 630f5139567252a81a0f00f2c75e4840 3020 fst_0.115.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/fst
+Vcs-Git: https://salsa.debian.org/multimedia-team/fst.git
+Checksums-Sha256:
+ e3350436e60521236e06b98692eec66dc9e5c292918f182a6cc4fddbb8433b0b 2123 fst_0.115.2-1.dsc
+ 023f47bcd0513319e5924355168918b14ddd8abec67b62f80b018e8a38fab147 79601 fst_0.115.2.orig.tar.bz2
+ 31659c40574e5a1fde0d2ea11eb99ca044b44965e0fc367f237be0c14313dd5e 3020 fst_0.115.2-1.debian.tar.xz
+Homepage: https://git.iem.at/zmoelnig/FST/
+Dgit: 805a6bb8028e485b8b361ec5c41644ed9b76d388 debian archive/debian/0.115.2-1 https://git.dgit.debian.org/fst
+Package-List: 
+ fst-dev deb libdevel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/f/fst
+Priority: extra
+Section: misc

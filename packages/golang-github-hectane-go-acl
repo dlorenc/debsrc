@@ -1,0 +1,28 @@
+Package: golang-github-hectane-go-acl
+Binary: golang-github-hectane-go-acl-dev
+Version: 0.0~git20190604.da78bae-4
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Eric Dorland <eric@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.5.1.0
+Format: 3.0 (quilt)
+Files:
+ a1e1dbb38eacece97b7bc86681887fd1 2372 golang-github-hectane-go-acl_0.0~git20190604.da78bae-4.dsc
+ 4a08442c2f78d16fe7ce84a5fd51f9db 5700 golang-github-hectane-go-acl_0.0~git20190604.da78bae.orig.tar.xz
+ 6c86ec745b73f36484a1cfe6e564fc04 2732 golang-github-hectane-go-acl_0.0~git20190604.da78bae-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hectane-go-acl
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hectane-go-acl.git
+Checksums-Sha256:
+ f94d58fece16abf5aed1bda964551886121bb9e67d4bb7dd5f6eed0aef40557f 2372 golang-github-hectane-go-acl_0.0~git20190604.da78bae-4.dsc
+ b99e2f464a29470b83bbf3705a6a60fa9ecee13ceadb8f6aa0a33eb6a90b476a 5700 golang-github-hectane-go-acl_0.0~git20190604.da78bae.orig.tar.xz
+ 2fd227e670adaa0ebf04ff4d180bae9a3be12c738488a872d10496f95d57222f 2732 golang-github-hectane-go-acl_0.0~git20190604.da78bae-4.debian.tar.xz
+Homepage: https://github.com/hectane/go-acl
+Go-Import-Path: github.com/hectane/go-acl
+Package-List: 
+ golang-github-hectane-go-acl-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hectane-go-acl
+Priority: extra
+Section: golang

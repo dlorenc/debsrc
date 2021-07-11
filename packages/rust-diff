@@ -1,0 +1,27 @@
+Package: rust-diff
+Binary: librust-diff-dev
+Version: 0.1.12-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f2c88d4d1b6228af8ab338173189f8d0 2204 rust-diff_0.1.12-1.dsc
+ 06fc5cd841a576b0bc969fb13ba22b4c 10223 rust-diff_0.1.12.orig.tar.gz
+ 0ab591160ab8ea808a141a6cc686a0d4 2556 rust-diff_0.1.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/diff
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/diff]
+Checksums-Sha256:
+ 07b73d598ee3cc198ee91ff8f9872b5f7ac8f6f0ecf77ffed82e7921057e3fc5 2204 rust-diff_0.1.12-1.dsc
+ 0e25ea47919b1560c4e3b7fe0aaab9becf5b84a10325ddf7db0f0ba5e1026499 10223 rust-diff_0.1.12.orig.tar.gz
+ 8459e8e3855ccbd1e8870bb7052ac5fb827286720c5a29d8c187bd2bc6031841 2556 rust-diff_0.1.12-1.debian.tar.xz
+Homepage: https://github.com/utkarshkukreti/diff.rs
+Package-List: 
+ librust-diff-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-quickcheck-0.9+default-dev, librust-speculate-0.1+default-dev
+Directory: pool/main/r/rust-diff
+Priority: extra
+Section: misc

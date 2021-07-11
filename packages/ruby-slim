@@ -1,0 +1,27 @@
+Package: ruby-slim
+Binary: ruby-slim
+Version: 4.0.1-3
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Eugene Lavnikevich <e.lavnikevich@sam-solutions.net>, Jérémy Bobbio <lunar@debian.org>
+Build-Depends: asciidoctor, debhelper-compat (= 12), gem2deb, rake (>= 0.8.7), ruby-builder, ruby-creole, ruby-kramdown, ruby-minitest, ruby-org, ruby-sass (>= 3.1.0), ruby-temple (>= 0.7.6), ruby-temple (<< 0.9), ruby-tilt (>= 2.0.6), ruby-tilt (<< 2.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f28aaca0b17d6b5e3f30be5cd607d87a 1895 ruby-slim_4.0.1-3.dsc
+ e6168b1e385c0bce3008071986d287f0 98695 ruby-slim_4.0.1.orig.tar.gz
+ 2f2c4b83aa85604b82237bc6df794131 4940 ruby-slim_4.0.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-slim
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-slim.git
+Checksums-Sha256:
+ 3322e81d7bda60fd0a9214d5f7dc7a1fe1895e5b9422a8bd051c63088b871d11 1895 ruby-slim_4.0.1-3.dsc
+ 5db39ae770537a2a3b0429593251f6936439761f2a21b74224007f977dd83194 98695 ruby-slim_4.0.1.orig.tar.gz
+ 7626aab0887bf4a6182e9aecb7c6b58abdeca58124d4e4bf0fd29f1aa5ec8d40 4940 ruby-slim_4.0.1-3.debian.tar.xz
+Homepage: http://slim-lang.com/
+Package-List: 
+ ruby-slim deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-slim
+Priority: source
+Section: misc

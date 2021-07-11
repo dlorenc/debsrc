@@ -1,0 +1,28 @@
+Package: libtest-postgresql-perl
+Binary: libtest-postgresql-perl
+Version: 1.28-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Don Armstrong <don@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libdbd-pg-perl <!nocheck>, libdbi-perl <!nocheck>, libfile-which-perl <!nocheck>, libfunction-parameters-perl <!nocheck>, libmoo-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-sharedfork-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libtype-tiny-perl <!nocheck>, postgresql <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 939dd45b566a726b77e30d738ab24bc6 2735 libtest-postgresql-perl_1.28-1.dsc
+ 6416ca53bec8ed68201291116931fcc0 19432 libtest-postgresql-perl_1.28.orig.tar.gz
+ d3749f635b8465a85a489a12139b78d1 5936 libtest-postgresql-perl_1.28-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-postgresql-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-postgresql-perl.git
+Checksums-Sha256:
+ 7274ddc67b683a85995719a3f978cd41b20556df1ecb620565314ca13faba6b3 2735 libtest-postgresql-perl_1.28-1.dsc
+ 32086e6ec5d346abf5ef3e61b358aec495831a97fe13783ab223fe7b0803a795 19432 libtest-postgresql-perl_1.28.orig.tar.gz
+ 43ef2ca1e79e8a3ca07190a0158d5bb47eaff298c6584e3a2c73236cd6ba347c 5936 libtest-postgresql-perl_1.28-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-PostgreSQL
+Dgit: 8e449af3c5b949af896674622ee24bf57e286d72 debian archive/debian/1.28-1 https://git.dgit.debian.org/libtest-postgresql-perl
+Package-List: 
+ libtest-postgresql-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-postgresql-perl
+Priority: extra
+Section: misc

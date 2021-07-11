@@ -1,0 +1,33 @@
+Package: lxc
+Binary: lxc, lxc-dev, lxc-tests, liblxc1, libpam-cgfs
+Version: 1:4.0.6-2
+Maintainer: pkg-lxc <pkg-lxc-devel@lists.alioth.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>, Evgeni Golov <evgeni@debian.org>, Pierre-Elliott Bécue <peb@debian.org>
+Build-Depends: bash-completion, debhelper-compat (= 13), dh-apparmor, dh-exec, docbook2x, doxygen, graphviz, libapparmor-dev, libcap-dev, libgnutls28-dev, liblua5.2-dev, libpam0g-dev, libseccomp-dev [!alpha !hppa !m68k !sh4 !sparc64], libselinux-dev, linux-libc-dev, pkg-config
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0dc4a287c3b2fbbb21b2bb5fb51bdd5a 2831 lxc_4.0.6-2.dsc
+ 732571c7cb4ab845068afb227bf35256 1363162 lxc_4.0.6.orig.tar.gz
+ eef4ecce5fa60c543d8f9718e069b318 833 lxc_4.0.6.orig.tar.gz.asc
+ 74b5617499fdcf605101186e33f8fdea 50088 lxc_4.0.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lxc-team/lxc
+Vcs-Git: https://salsa.debian.org/lxc-team/lxc.git
+Checksums-Sha256:
+ 97e63721699d4603f4fef882a6cde5fb41f4c3232f654939b2ea59890cecb54e 2831 lxc_4.0.6-2.dsc
+ 9165dabc0bb6ef7f2fda2009aee90b20fbefe77ed8008347e9f06048eba1e463 1363162 lxc_4.0.6.orig.tar.gz
+ 216f753ee627c20a4953cac01b9e733debdb274b444855732f27bf61d89e42ed 833 lxc_4.0.6.orig.tar.gz.asc
+ fff152351f906310c9cdc7cbed9266fb37816967aa7d0634ade9eaba8a0bea9c 50088 lxc_4.0.6-2.debian.tar.xz
+Homepage: https://linuxcontainers.org/
+Package-List: 
+ liblxc1 deb libs optional arch=linux-any
+ libpam-cgfs deb admin optional arch=linux-any
+ lxc deb admin optional arch=linux-any
+ lxc-dev deb libdevel optional arch=linux-any
+ lxc-tests deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: busybox-static, debootstrap, dirmngr, distro-info, dnsmasq-base, file, gnupg, iptables, lsb-release, rsync, uidmap, wget, xz-utils
+Directory: pool/main/l/lxc
+Priority: source
+Section: admin

@@ -1,0 +1,27 @@
+Package: rust-fastrand
+Binary: librust-fastrand-dev
+Version: 1.4.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bdd572a45bc27b33b0376b6f81d92cf6 1917 rust-fastrand_1.4.0-2.dsc
+ 6166704c0fbee41a818acd6024a21495 11181 rust-fastrand_1.4.0.orig.tar.gz
+ 4560013176cbdcd5f906df87bcbdebc4 2716 rust-fastrand_1.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fastrand
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fastrand]
+Checksums-Sha256:
+ 8bfb41a4f76b9221690883b3d876e8bf4f242377400d318a324dde96e82c4e73 1917 rust-fastrand_1.4.0-2.dsc
+ ca5faf057445ce5c9d4329e382b2ce7ca38550ef3b73a5348362d5f24e0c7fe3 11181 rust-fastrand_1.4.0.orig.tar.gz
+ 260aa3fd548b659a9d7b2831ebf703b0a921eea9f4b1271ae2f9fa95a181c306 2716 rust-fastrand_1.4.0-2.debian.tar.xz
+Homepage: https://github.com/stjepang/fastrand
+Package-List: 
+ librust-fastrand-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-getrandom-0.1+default-dev, librust-rand-0.7+default-dev, librust-rand-pcg-0.2+default-dev
+Directory: pool/main/r/rust-fastrand
+Priority: extra
+Section: misc

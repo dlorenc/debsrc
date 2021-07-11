@@ -1,0 +1,28 @@
+Package: libjson-rpc-common-perl
+Binary: libjson-rpc-common-perl
+Version: 0.11-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, perl
+Build-Depends-Indep: libclass-load-perl <!nocheck>, libencode-perl <!nocheck>, libhttp-message-perl <!nocheck>, libjson-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libmro-compat-perl <!nocheck>, libnamespace-clean-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 484f77c3d4c66fe88ff0af64a9699850 2804 libjson-rpc-common-perl_0.11-2.dsc
+ ebb140b4b0b1936e76da04f3d8be998e 26153 libjson-rpc-common-perl_0.11.orig.tar.gz
+ 1482237359e65b3a8c9a9daba7e0d85a 1864 libjson-rpc-common-perl_0.11-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libjson-rpc-common-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libjson-rpc-common-perl.git
+Checksums-Sha256:
+ 3164d576d4f750894ff3e6ab36d72a65291642369389b850f52cf997aaf856c5 2804 libjson-rpc-common-perl_0.11-2.dsc
+ 22062213fdae302159d012c055b7e2006eb527234088d2f216b34eec36167c62 26153 libjson-rpc-common-perl_0.11.orig.tar.gz
+ 409d904dc187e07a2a1fbd9439a659496a1bc562f65829c0c7103a8a3d04429a 1864 libjson-rpc-common-perl_0.11-2.debian.tar.xz
+Homepage: https://metacpan.org/release/JSON-RPC-Common
+Dgit: 2c2b78bbe529484210ed887a0f4e50480aa113a9 debian archive/debian/0.11-2 https://git.dgit.debian.org/libjson-rpc-common-perl
+Package-List: 
+ libjson-rpc-common-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libj/libjson-rpc-common-perl
+Priority: extra
+Section: misc

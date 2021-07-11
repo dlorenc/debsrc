@@ -1,0 +1,27 @@
+Package: rust-pem
+Binary: librust-pem-dev
+Version: 0.7.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Nicolas Braud-Santoni <nicoo@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-base64-0.12+default-dev <!nocheck> | librust-base64-0.11+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-regex-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4c3dfd8cd33cb7e7f20d0e105f452e71 1718 rust-pem_0.7.0-2.dsc
+ ec6919fe4c8c2d837dae1d6812d36a8d 9813 rust-pem_0.7.0.orig.tar.gz
+ b8a6aacf6214ea2511d39f317677188c 2920 rust-pem_0.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pem
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pem]
+Checksums-Sha256:
+ 42e530cef8e6467f81d3749a4e78c6ff8f249cfb36bbdf10201847248609df67 1718 rust-pem_0.7.0-2.dsc
+ a1581760c757a756a41f0ee3ff01256227bdf64cb752839779b95ffb01c59793 9813 rust-pem_0.7.0.orig.tar.gz
+ 1ca3cdf9e4cc9cded805e5ea7cdf8a0b50722e266195f7486e34708155268357 2920 rust-pem_0.7.0-2.debian.tar.xz
+Homepage: https://github.com/jcreekmore/pem-rs.git
+Package-List: 
+ librust-pem-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.2+default-dev
+Directory: pool/main/r/rust-pem
+Priority: extra
+Section: misc

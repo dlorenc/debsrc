@@ -1,0 +1,28 @@
+Package: unibilium
+Binary: libunibilium-dev, libunibilium4
+Version: 2.1.0-1
+Maintainer: James McCoy <jamessan@debian.org>
+Build-Depends: debhelper-compat (= 12), libtool-bin, perl
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d9fc929774dadfbbe219416ac17b2aa6 2290 unibilium_2.1.0-1.dsc
+ 8d756e6e56f4e5255e080d20601ad3b9 121971 unibilium_2.1.0.orig.tar.gz
+ 83a65a9a889062903e8b97215c52cc0e 4828 unibilium_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/jamessan/unibilium
+Vcs-Git: https://salsa.debian.org/jamessan/unibilium.git
+Checksums-Sha256:
+ 9cfeb2d4c77aa0b8483d71eff47567abe685f6b3063413a2f5b74f4ebd17bbc7 2290 unibilium_2.1.0-1.dsc
+ 05bf97e357615e218126f7ac086e7056a23dc013cfac71643b50a18ad390c7d4 121971 unibilium_2.1.0.orig.tar.gz
+ e4804028d60dd43af57b3ee0e94392aee6154f1329b8edb3b442d6d8efd65d7f 4828 unibilium_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/neovim/unibilium
+Dgit: be75864800efd42b19e656c424304bc13190eba2 debian archive/debian/2.1.0-1 https://git.dgit.debian.org/unibilium
+Package-List: 
+ libunibilium-dev deb libdevel optional arch=any
+ libunibilium4 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, ncurses-base, pkg-config
+Directory: pool/main/u/unibilium
+Priority: optional
+Section: misc

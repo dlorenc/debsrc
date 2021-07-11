@@ -1,0 +1,27 @@
+Package: node-move-concurrently
+Binary: node-move-concurrently
+Version: 1.0.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 11~), nodejs (>= 8~), node-tap <!nocheck>, node-tacks <!nocheck>, node-run-queue (>= 1.0.3) <!nocheck>, node-rimraf (>= 2.5.4) <!nocheck>, node-fs-write-stream-atomic (>= 1.0.8) <!nocheck>, node-aproba (>= 1.1.1) <!nocheck>, node-mkdirp (>= 0.5.1) <!nocheck>, node-copy-concurrently (>= 1.0.0) <!nocheck>
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 3da86eee99c315b357bdc8b269f12961 2439 node-move-concurrently_1.0.1-2.dsc
+ cf194e30680bfae63c767361919067b5 4843 node-move-concurrently_1.0.1.orig.tar.gz
+ f84c99dbe61f538ffe7647443e604c93 2328 node-move-concurrently_1.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-move-concurrently
+Vcs-Git: https://salsa.debian.org/js-team/node-move-concurrently.git
+Checksums-Sha256:
+ 878e60b54488d94f7fd44284cc3886a676cb5b56ed75ffbd60dcba6a5b49f538 2439 node-move-concurrently_1.0.1-2.dsc
+ e28f1a1435eef2ff80bff5281b5629f1a62675677ff0b606ea59ba8f82581153 4843 node-move-concurrently_1.0.1.orig.tar.gz
+ 78672cb4a931452d660641bb839f2c23ca5404a1b4d0a97a6a63faddb7d52b9b 2328 node-move-concurrently_1.0.1-2.debian.tar.xz
+Homepage: https://www.npmjs.com/package/move-concurrently
+Package-List: 
+ node-move-concurrently deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tacks, node-tap
+Directory: pool/main/n/node-move-concurrently
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-hs-bibutils
+Binary: libghc-hs-bibutils-dev, libghc-hs-bibutils-prof, libghc-hs-bibutils-doc
+Version: 6.10.0.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libbibutils-dev (>= 6.2), libghc-syb-dev, libghc-syb-prof, pkg-config
+Build-Depends-Indep: ghc-doc, libghc-syb-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 993584b99c76f0ad4a8e8a2d8fa23683 2469 haskell-hs-bibutils_6.10.0.0-3.dsc
+ 3bdf1ee33aeb7831bb8bd1498e506252 754344 haskell-hs-bibutils_6.10.0.0.orig.tar.gz
+ 845899472b730cdc406c6f5c86d35c9d 4364 haskell-hs-bibutils_6.10.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hs-bibutils
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hs-bibutils]
+Checksums-Sha256:
+ 543e49674444e7a7b8af8ea68faffb96c29d0456c2ca7f1bcee61ca492a780a8 2469 haskell-hs-bibutils_6.10.0.0-3.dsc
+ 76bc12763bd8c45519313a08fad3ce715ec4b9d5373146791431ae5c76f0d7f2 754344 haskell-hs-bibutils_6.10.0.0.orig.tar.gz
+ 867afc7f94e54af87d482d3ebdc740fc0227dd014dc9f83de01451f6f548e66d 4364 haskell-hs-bibutils_6.10.0.0-3.debian.tar.xz
+Homepage: https://github.com/wilx/hs-bibutils
+Package-List: 
+ libghc-hs-bibutils-dev deb haskell optional arch=any
+ libghc-hs-bibutils-doc deb doc optional arch=all
+ libghc-hs-bibutils-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hs-bibutils
+Priority: source
+Section: haskell

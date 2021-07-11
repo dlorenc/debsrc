@@ -1,0 +1,25 @@
+Package: kafkacat
+Binary: kafkacat
+Version: 1.6.0-1
+Maintainer: Vincent Bernat <bernat@debian.org>
+Uploaders: Faidon Liambotis <paravoid@debian.org>
+Build-Depends: debhelper-compat (= 13), librdkafka-dev (>= 0.9.0), libavro-dev, pkg-config, zlib1g-dev, libyajl-dev (>= 2)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e9a2621a655d8ba1822bf984f5318eda 1996 kafkacat_1.6.0-1.dsc
+ 36be7af54de64b9ed7e13dc7bd27a445 131326 kafkacat_1.6.0.orig.tar.gz
+ 608b8d5aae1977c57901e0e27cf0d537 2736 kafkacat_1.6.0-1.debian.tar.xz
+Vcs-Browser: https://github.com/edenhill/kafkacat/tree/debian
+Vcs-Git: https://github.com/edenhill/kafkacat.git -b debian
+Checksums-Sha256:
+ 3f0f2bf3cd44c8e537665f4902480a71f95cc1e7959319d69373d6196f79ef57 1996 kafkacat_1.6.0-1.dsc
+ d915aee4d2d5ac06aa47ca6e9597562946e7e30452deab556ec9ab79d16ed32c 131326 kafkacat_1.6.0.orig.tar.gz
+ b8800170f7796460e3298cb313028ca2a62dde0bd501278ef6dea345a90c273f 2736 kafkacat_1.6.0-1.debian.tar.xz
+Homepage: https://github.com/edenhill/kafkacat
+Package-List: 
+ kafkacat deb net optional arch=any
+Directory: pool/main/k/kafkacat
+Priority: optional
+Section: misc

@@ -1,0 +1,31 @@
+Package: swupdate
+Binary: swupdate, libswupdate-dev, libswupdate0.1, swupdate-doc, lua-swupdate
+Version: 2020.11-2
+Maintainer: Stefano Babic <sbabic@denx.de>
+Uploaders: SZ Lin (林上智) <szlin@debian.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-lua <!nolua>, liblua5.2-dev <!nolua>, libfdisk-dev, latexmk <!nodoc>, libconfig-dev, libcurl4-openssl-dev, libarchive-dev, libjson-c-dev, librsync-dev, libssl-dev, libsystemd-dev, zlib1g-dev, libzstd-dev, libp11-kit-dev <pkg.swupdate.p11>, libwolfssl-dev <pkg.swupdate.p11>, libmtd-dev <!pkg.swupdate.bpo>, libubi-dev <!pkg.swupdate.bpo>, libwebsockets-dev (>= 3.2.0) <!pkg.swupdate.bpo>, liburiparser-dev <!pkg.swupdate.bpo>, libubootenv-dev <pkg.swupdate.uboot>, libcmocka-dev, pkg-config, gawk, python3-sphinx <!nodoc>, texlive-latex-recommended <!nodoc>, texlive-fonts-recommended <!nodoc>, texlive-formats-extra <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0db4824fb0eb4f73511aa374b436f79f 2960 swupdate_2020.11-2.dsc
+ 295545e5566aa6096d59f10cf5b1f9f2 5610096 swupdate_2020.11.orig.tar.xz
+ 20a595137cdfbc9a4d3bc52877d675f1 131040 swupdate_2020.11-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/swupdate
+Vcs-Git: https://salsa.debian.org/debian/swupdate.git
+Checksums-Sha256:
+ 9394aa824a12e1c1b01c9f9f17ac5acb0cb6659528c5fcf772eae72b73953b4c 2960 swupdate_2020.11-2.dsc
+ a0db4e1e869d078df4acb33ba4328b011e45162ebf53415381aa4f8eae543230 5610096 swupdate_2020.11.orig.tar.xz
+ 500d05ed040dac5074c33006c26501af75643cee4f6d669edb5fbb5e061a32ae 131040 swupdate_2020.11-2.debian.tar.xz
+Homepage: https://sbabic.github.io/swupdate
+Package-List: 
+ libswupdate-dev deb libdevel optional arch=any
+ libswupdate0.1 deb libs optional arch=any
+ lua-swupdate deb interpreters optional arch=linux-any profile=!nolua
+ swupdate deb embedded optional arch=linux-any
+ swupdate-doc deb doc optional arch=all profile=!nodoc
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, ca-certificates, cpio, openssl, pkg-config, wget
+Directory: pool/main/s/swupdate
+Priority: extra
+Section: misc

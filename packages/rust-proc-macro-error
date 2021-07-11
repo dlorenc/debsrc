@@ -1,0 +1,26 @@
+Package: rust-proc-macro-error
+Binary: librust-proc-macro-error-dev
+Version: 1.0.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro-error-attr-1.0.3+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+derive-dev <!nocheck>, librust-syn-1+parsing-dev <!nocheck>, librust-syn-1+printing-dev <!nocheck>, librust-syn-1+proc-macro-dev <!nocheck>, librust-version-check-0.9+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2686e3bec5345dd7bba6b34d67935a9a 2068 rust-proc-macro-error_1.0.3-1.dsc
+ 8e2b4c207161d8a8cbcddfcb53fa1bd3 23736 rust-proc-macro-error_1.0.3.orig.tar.gz
+ 818ae7f6dfe1da4291436fbee10e30fc 2796 rust-proc-macro-error_1.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proc-macro-error
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/proc-macro-error]
+Checksums-Sha256:
+ 8bb5395706114bc9c3ff396a46a1063301584c39b7030afcf9e5c5661f8bf294 2068 rust-proc-macro-error_1.0.3-1.dsc
+ fc175e9777c3116627248584e8f8b3e2987405cabe1c0adf7d1dd28f09dc7880 23736 rust-proc-macro-error_1.0.3.orig.tar.gz
+ 557ce3f0d240a1b643bcca0eda20e3d47c3ad4b6abe56db43fd4d6880a265a5a 2796 rust-proc-macro-error_1.0.3-1.debian.tar.xz
+Package-List: 
+ librust-proc-macro-error-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-derive-1.0.107+default-dev, librust-toml-0.5.2+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev
+Directory: pool/main/r/rust-proc-macro-error
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-on-headers
+Binary: node-on-headers
+Version: 1.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-supertest (>= 3.4.2) <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e9056f5d95956b76f6938d896c6fe632 2105 node-on-headers_1.0.2-1.dsc
+ 08db8e5b4dc9b9e4b314d8e6491fff59 6206 node-on-headers_1.0.2.orig.tar.gz
+ 298e78b163b526c576fc0e2c191ecae4 2556 node-on-headers_1.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-on-headers
+Vcs-Git: https://salsa.debian.org/js-team/node-on-headers.git
+Checksums-Sha256:
+ 717cf7ddeb3d8649b014fdca7305fd0d067c59281f9c712a93e5ecaf2eefcd85 2105 node-on-headers_1.0.2-1.dsc
+ 729b004ac5479fd2070c2e3eaab7270f2a950f3a31c4a657fec4c71c894ddab1 6206 node-on-headers_1.0.2.orig.tar.gz
+ 16463a31c8239f1aa4c21e78ec303ac0922c57aed2eb8f034722f16108c60417 2556 node-on-headers_1.0.2-1.debian.tar.xz
+Homepage: https://github.com/jshttp/on-headers
+Package-List: 
+ node-on-headers deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-on-headers
+Priority: optional
+Section: javascript

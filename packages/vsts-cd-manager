@@ -1,0 +1,27 @@
+Package: vsts-cd-manager
+Binary: python3-vsts-cd-manager
+Version: 1.0.2-3
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-mock <!nocheck>, python3-msrest <!nocheck>, python3-portalocker <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5c1bf7429fe48f161c44f65fd13ab096 1929 vsts-cd-manager_1.0.2-3.dsc
+ 4c9c20edd2c473f93523641a06f792ac 16135 vsts-cd-manager_1.0.2.orig.tar.gz
+ b903c4a3c76b1ee3288cc04dec7db199 2928 vsts-cd-manager_1.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/vsts-cd-manager
+Vcs-Git: https://salsa.debian.org/python-team/modules/vsts-cd-manager.git -b debian/sid
+Checksums-Sha256:
+ 4a52c8996373840f4baa6fcd34bcbb5467a17eac74deeba4497348c2110e35c3 1929 vsts-cd-manager_1.0.2-3.dsc
+ 113b0620b166e7fc5390c3f6effc17dc54708b0c851707d4d444718370deed2b 16135 vsts-cd-manager_1.0.2.orig.tar.gz
+ f84f6194e1672f2225477a789ddbccca63c2a96f058f826dd6ea88ec557965c6 2928 vsts-cd-manager_1.0.2-3.debian.tar.xz
+Homepage: https://github.com/Microsoft/vsts-cd-manager
+Package-List: 
+ python3-vsts-cd-manager deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@, python3-pytest
+Directory: pool/main/v/vsts-cd-manager
+Priority: extra
+Section: misc

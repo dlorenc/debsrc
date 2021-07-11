@@ -1,0 +1,25 @@
+Package: gr-iio
+Binary: gr-iio, libgnuradio-iio1
+Version: 0.3-9
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Build-Depends: bison, cmake, debhelper (>= 12), dh-python, doxygen, flex, gnuradio-dev (>= 3.8), libad9361-dev (>= 0.2), libcppunit-dev, libgmp-dev, libiio-dev (>= 0.18), liborc-0.4-dev, pkg-config, python3-dev, swig
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6f0ebeb74bb1f02345ed602baa59532f 2049 gr-iio_0.3-9.dsc
+ 430b2577e469065abba7cf847bbff235 45764 gr-iio_0.3.orig.tar.xz
+ 9a01da4527ea213a15ab7b026f408bfd 50560 gr-iio_0.3-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/gr-iio
+Vcs-Git: https://salsa.debian.org/debian/gr-iio.git
+Checksums-Sha256:
+ 61b23d397ca7ada8703f6467987a6f2e3eb8ae8cb7c900ceb254caf5af7eebdb 2049 gr-iio_0.3-9.dsc
+ 2953e785147b52648c94acae4df463df203bbd19f9f614de389b5252c41a7d32 45764 gr-iio_0.3.orig.tar.xz
+ e7097361b0e64ef53a49b184e4957bc7b1a02bf4ec985810c75d455510bbd170 50560 gr-iio_0.3-9.debian.tar.xz
+Homepage: https://github.com/analogdevicesinc/gr-iio.git
+Package-List: 
+ gr-iio deb libdevel optional arch=any
+ libgnuradio-iio1 deb libs optional arch=any
+Directory: pool/main/g/gr-iio
+Priority: optional
+Section: misc

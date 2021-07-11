@@ -1,0 +1,26 @@
+Package: open-jtalk
+Binary: open-jtalk, open-jtalk-mecab-naist-jdic
+Version: 1.11-1.1
+Maintainer: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Uploaders: Koichi Akabe <vbkaisetsu@gmail.com>
+Build-Depends: debhelper (>= 11~), docbook-to-man, libhtsengine-dev (>= 1.10)
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ cdba6452e314190d8829dbb635f381ae 2035 open-jtalk_1.11-1.1.dsc
+ e24b0237c2a2d1ee18a735c6e39ac3db 19464975 open-jtalk_1.11.orig.tar.gz
+ b514603adb95bd8cd87151836bca4943 6820 open-jtalk_1.11-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/open-jtalk
+Vcs-Git: https://salsa.debian.org/debian/open-jtalk.git
+Checksums-Sha256:
+ 61ba1a69fb05d5614c613fd253c13ac008d847343cac9413c23f4d5c82b74bda 2035 open-jtalk_1.11-1.1.dsc
+ 20fdc6aeb6c757866034abc175820573db43e4284707c866fcd02c8ec18de71f 19464975 open-jtalk_1.11.orig.tar.gz
+ 9d3bc69dfbb183e840c9252c361c332a09ac4d27e5a3e86e54823b695e23ea43 6820 open-jtalk_1.11-1.1.debian.tar.xz
+Homepage: http://open-jtalk.sourceforge.net/
+Package-List: 
+ open-jtalk deb sound optional arch=any
+ open-jtalk-mecab-naist-jdic deb misc optional arch=all
+Directory: pool/main/o/open-jtalk
+Priority: source
+Section: sound

@@ -1,0 +1,27 @@
+Package: ruby-http
+Binary: ruby-http
+Version: 4.4.1-4
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-addressable, ruby-certificate-authority, ruby-coveralls, ruby-http-cookie, ruby-http-form-data (>= 2.2~), ruby-http-parser, ruby-rspec, ruby-rspec-its, ruby-simplecov
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1c0b57657c8340069b2af04e7b8292ef 2227 ruby-http_4.4.1-4.dsc
+ 838b7486509f21009ff443b04281c45d 73401 ruby-http_4.4.1.orig.tar.gz
+ b17fa45e8fa686fb004e62e35d9ecba2 5440 ruby-http_4.4.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-http
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-http.git
+Checksums-Sha256:
+ a0ea84086ad1d48f42455cbdc1a25fa62fa452ae901589f7e837bb91b112f8f9 2227 ruby-http_4.4.1-4.dsc
+ e60535017cfc8f674802611421b2b9c9ed229a0d2d794dddf73e768fedf60f5b 73401 ruby-http_4.4.1.orig.tar.gz
+ ce16b8df1e0ef5628d20b2ce4200b957462ea8285952cc8504a6226e8fe84623 5440 ruby-http_4.4.1-4.debian.tar.xz
+Homepage: https://github.com/httprb/http
+Package-List: 
+ ruby-http deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-http
+Priority: optional
+Section: misc

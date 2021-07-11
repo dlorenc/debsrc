@@ -1,0 +1,27 @@
+Package: ruby-faraday
+Binary: ruby-faraday
+Version: 1.1.0-6
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Anish A <aneesh.nl@gmail.com>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, lsof, ruby-rspec, ruby-em-http-request, ruby-em-synchrony, ruby-excon, ruby-httpclient, ruby-minitest, ruby-multipart-post, ruby-net-http-persistent (>= 3.1~), ruby-rack-test, ruby-sinatra, ruby-typhoeus (>= 1.4~), ruby-webmock, ruby-multipart-parser, ruby-ruby2-keywords, pry, ruby-simplecov, ruby-coveralls
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3facdc2fb4b0a8a0214e5261797b1b96 2400 ruby-faraday_1.1.0-6.dsc
+ d38278ce17f76bf38484c20bca2bab57 838062 ruby-faraday_1.1.0.orig.tar.gz
+ f35f7edc0e15c0bbdc27d6e3b06784c7 5816 ruby-faraday_1.1.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-faraday
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-faraday.git
+Checksums-Sha256:
+ fab9a92586f1b1e73e46a2166ff12ebc2f924d2f90113f25418a011171a83313 2400 ruby-faraday_1.1.0-6.dsc
+ ce270a49234b82e9d2b8cf66d60903ce9d052d496db298789daa762cbeab9dcb 838062 ruby-faraday_1.1.0.orig.tar.gz
+ 2354f43047fd5c756db7acc12d5bf333ae5579f6c09fd0c4b271d8fa54b06b78 5816 ruby-faraday_1.1.0-6.debian.tar.xz
+Homepage: https://github.com/lostisland/faraday
+Package-List: 
+ ruby-faraday deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-faraday
+Priority: optional
+Section: misc

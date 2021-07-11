@@ -1,0 +1,28 @@
+Package: khal
+Binary: khal, khal-doc
+Version: 1:0.10.3-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Filip Pytloun <filip@pytloun.cz>, Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 12), dh-exec, dh-python (>= 2.20160609~), locales, locales-all, python3-alabaster, python3-all, python3-click (>= 3.2), python3-configobj, python3-dateutil, python3-doc, python3-freezegun, python3-icalendar (>= 4.0.3), python3-pytest, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-tz, python3-tzlocal, python3-urwid, python3-xdg, vdirsyncer (>= 0.16.7)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b9ae58360c5157acb74d04dc2c4d5eb6 2404 khal_0.10.3-1.dsc
+ 0c1b1503b47de1dba41f4c5608936858 184808 khal_0.10.3.orig.tar.gz
+ a99204da2d7aad1b6f16f66b93f193b0 6248 khal_0.10.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/khal
+Vcs-Git: https://salsa.debian.org/python-team/packages/khal.git
+Checksums-Sha256:
+ 0a3b334b77e19c40f2c04726eff8fc93591db07c1e97cc10d505192ca5127158 2404 khal_0.10.3-1.dsc
+ 2fdd8fc14fe597e5a7d6e9c63c7868d960b4ed021b563c684a71f07090eda432 184808 khal_0.10.3.orig.tar.gz
+ 6512114f605014412cd96029c9d9cace9f27839f5b9e0ae31b6f87c9933b56d4 6248 khal_0.10.3-1.debian.tar.xz
+Homepage: https://github.com/pimutils/khal
+Package-List: 
+ khal deb utils optional arch=all
+ khal-doc deb doc optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all
+Directory: pool/main/k/khal
+Priority: extra
+Section: misc

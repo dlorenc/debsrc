@@ -1,0 +1,25 @@
+Package: tenshi
+Binary: tenshi
+Version: 0.13-7
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bc51d62e3dbba5268cad2f0807c03faa 1849 tenshi_0.13-7.dsc
+ 86233a514b3a6fbc9a76493513119342 29179 tenshi_0.13.orig.tar.gz
+ 36e5afdfd75a3bfef20e57fe5ac98c6a 10908 tenshi_0.13-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/tenshi
+Vcs-Git: https://salsa.debian.org/debian/tenshi.git
+Checksums-Sha256:
+ 59e5a1b65e1f436ebfe3c6f6a9bdbe0901eb15583455bd2cb2257124f0203d24 1849 tenshi_0.13-7.dsc
+ a0b9e0ca95eec52b9bbf0c29529435da64af9b3dfa943dbeca0cd77bf223edf2 29179 tenshi_0.13.orig.tar.gz
+ a769c82320b298f40fe5ae0eca7acbfe3589c96b2b0a52cbb34c603dafdc26a5 10908 tenshi_0.13-7.debian.tar.xz
+Homepage: http://dev.inversepath.com/trac/tenshi
+Package-List: 
+ tenshi deb admin optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Directory: pool/main/t/tenshi
+Priority: source
+Section: admin

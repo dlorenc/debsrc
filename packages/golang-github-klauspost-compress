@@ -1,0 +1,27 @@
+Package: golang-github-klauspost-compress
+Binary: golang-github-klauspost-compress-dev
+Version: 1.11.7-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>, Anthony Fok <foka@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.31~), golang-any, golang-github-cespare-xxhash-dev (>= 2.1.0~), golang-golang-x-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f17e465365801db1d8382b473501f975 1859 golang-github-klauspost-compress_1.11.7-2.dsc
+ d25de1993542df0805fcc532ed55bc19 14246280 golang-github-klauspost-compress_1.11.7.orig.tar.xz
+ f3f9a85acef42dbcfb69f19c08b41a71 6192 golang-github-klauspost-compress_1.11.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-klauspost-compress
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-klauspost-compress.git
+Checksums-Sha256:
+ 8d4edbf419eb487b155f6405a4ee1a90a8e22b61d7ff3abb5e8572c5e902291b 1859 golang-github-klauspost-compress_1.11.7-2.dsc
+ ec50f182946f37ef65fdcefafbe2c4a5b710554fc9ed753d23c86c4f47fc18e1 14246280 golang-github-klauspost-compress_1.11.7.orig.tar.xz
+ e6b6cd9de57b0e103841e9686c3f1ef3cd9b906c6673dd885f85e480ff944a05 6192 golang-github-klauspost-compress_1.11.7-2.debian.tar.xz
+Homepage: https://github.com/klauspost/compress
+Go-Import-Path: github.com/klauspost/compress
+Package-List: 
+ golang-github-klauspost-compress-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-klauspost-compress
+Priority: extra
+Section: golang

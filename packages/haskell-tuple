@@ -1,0 +1,25 @@
+Package: haskell-tuple
+Binary: libghc-tuple-dev, libghc-tuple-prof, libghc-tuple-doc
+Version: 0.3.0.2-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-onetuple-dev (<< 10), libghc-onetuple-prof (<< 10)
+Build-Depends-Indep: ghc-doc, libghc-onetuple-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e3e86882b54e1180b010460b249450cd 2128 haskell-tuple_0.3.0.2-3.dsc
+ 0c91c53d6fa6a61dbeeec6ac6f5d65c3 19756 haskell-tuple_0.3.0.2.orig.tar.gz
+ 01ebee7df2f91f2b8382dde30e36c46b 2072 haskell-tuple_0.3.0.2-3.debian.tar.xz
+Checksums-Sha256:
+ d3db898d4eddd089c0b5e112e07daf27599f307a4dfa74ca96ea697863c8ade5 2128 haskell-tuple_0.3.0.2-3.dsc
+ 2fcb068ffafbe64170e02094a363f83d1725f44f8af963d9dad943a592e89624 19756 haskell-tuple_0.3.0.2.orig.tar.gz
+ d379d0685a94299d03f4d8099a31c4d63e58f26d0e720bb6da8a0b8e76b52103 2072 haskell-tuple_0.3.0.2-3.debian.tar.xz
+Package-List: 
+ libghc-tuple-dev deb haskell optional arch=any
+ libghc-tuple-doc deb doc optional arch=all
+ libghc-tuple-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-tuple
+Priority: extra
+Section: misc

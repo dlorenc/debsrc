@@ -1,0 +1,27 @@
+Package: debomatic
+Binary: debomatic
+Version: 0.25-2
+Maintainer: Luca Falavigna <dktrkranz@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>
+Build-Depends: debhelper-compat (= 13), python3 (>= 3.2~), dh-python, python3-sphinx, latexmk, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, texlive-plain-generic
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 52c06f8d50d7191cfa57f0bf2e2c0675 2228 debomatic_0.25-2.dsc
+ 9954990078c12f40f18d269a3c081c5e 53288 debomatic_0.25.orig.tar.xz
+ 9f82474b56286e5757cf6007e2651d6e 8212 debomatic_0.25-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/debomatic
+Vcs-Git: https://salsa.debian.org/python-team/packages/debomatic.git
+Checksums-Sha256:
+ 2d2a8175c17f4878a19a2a1a686929a56d4761f7c2489264910ead6f8c880a48 2228 debomatic_0.25-2.dsc
+ 6db1b1112662862cddcbc52badeb777268a8c52c7eb250ef4c1f23a4405bc563 53288 debomatic_0.25.orig.tar.xz
+ e997d9fa346d32866385fb226967c1c2250f23a61fa516c206d016cc897949ec 8212 debomatic_0.25-2.debian.tar.xz
+Homepage: https://debomatic.github.io
+Package-List: 
+ debomatic deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ca-certificates, debhelper, debian-archive-keyring, devscripts, dput-ng, fakeroot, liburi-perl, wget
+Directory: pool/main/d/debomatic
+Priority: source
+Section: devel

@@ -1,0 +1,27 @@
+Package: fsspec
+Binary: python3-fsspec, python-fsspec-doc
+Version: 0.8.4-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Emmanuel Arias <eamanu@yaerobi.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-numpydoc, python3-certifi, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7679dfa45073c20718c61b6ff35a1166 2149 fsspec_0.8.4-1.dsc
+ ba99f68fdaf8e9926afbd55a1dd06f4e 245482 fsspec_0.8.4.orig.tar.gz
+ 031c868ad0c49074441dae2beeb503df 3532 fsspec_0.8.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-fsspec
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-fsspec.git
+Checksums-Sha256:
+ 53b571f4a4f764a0e1212bc16bf1a0074e21a50aae64c1db43049be0d7fb5433 2149 fsspec_0.8.4-1.dsc
+ 4c57fc289e142c4acda867a5550811ec4249320d535899a85b74e8c387ec5025 245482 fsspec_0.8.4.orig.tar.gz
+ 1f2fb6d32477e3c86adea31f8e7de94676a97a54de764bcdf16866ee3a0b6441 3532 fsspec_0.8.4-1.debian.tar.xz
+Homepage: https://github.com/intake/filesystem_spec
+Package-List: 
+ python-fsspec-doc deb doc optional arch=all
+ python3-fsspec deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/f/fsspec
+Priority: extra
+Section: misc

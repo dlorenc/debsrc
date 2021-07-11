@@ -1,0 +1,27 @@
+Package: python-volatile
+Binary: python3-volatile
+Version: 2.1.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Nicholas D Steeves <nsteeves@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-pytest <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 758ea8253af2330119cb925b97d8d5c5 2132 python-volatile_2.1.0-2.dsc
+ 4f36c5793b368ffe3cf3323baf9446a5 4150 python-volatile_2.1.0.orig.tar.gz
+ 31fc1c04de3554198061295cd60d65bf 2468 python-volatile_2.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-volatile
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-volatile.git
+Checksums-Sha256:
+ cd9115539c26088fc5f691d7703e58998eb968bde23eabf3aa9bb020e4b29185 2132 python-volatile_2.1.0-2.dsc
+ 5ae9063fe2c030bfbdda015aef7cbe4dec0beb68fef777ad8ef7c92ae51fd417 4150 python-volatile_2.1.0.orig.tar.gz
+ fdc26da8ad94c400b1a0c42ac43cf671850d366f7182bd9773f2a78d5609598b 2468 python-volatile_2.1.0-2.debian.tar.xz
+Homepage: https://github.com/mbr/volatile
+Package-List: 
+ python3-volatile deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-volatile
+Priority: extra
+Section: misc

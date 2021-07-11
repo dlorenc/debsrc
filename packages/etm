@@ -1,0 +1,26 @@
+Package: etm
+Binary: etm, etm-qt
+Version: 3.2.30-1.1
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Jackson Doak <noskcaj@ubuntu.com>
+Build-Depends: debhelper (>= 9), dh-python, python3, python3-setuptools
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ ba0b3f8566791c8e121444ad4caca5d6 1998 etm_3.2.30-1.1.dsc
+ 4bf4f48492e51aeef7c2eb702f35e6fb 330027 etm_3.2.30.orig.tar.gz
+ a1cc3c4145d51692cb9a864d491f0c64 3336 etm_3.2.30-1.1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-apps/packages/etm/trunk/
+Vcs-Svn: svn://anonscm.debian.org/python-apps/packages/etm/trunk/
+Checksums-Sha256:
+ eba09f0d471a1e81d94fe4ba92675d0f4741ca7fa10efa7216d225cbcfaa66aa 1998 etm_3.2.30-1.1.dsc
+ 6a90118ddbdfdcd11b5f9fe58b10a24d279a6a572f35d21407bfddd5e2e10b44 330027 etm_3.2.30.orig.tar.gz
+ 217f2b8dddb51966fca784f8d85e357587e62e3e1f1b5b5819dbf3f2aa718d17 3336 etm_3.2.30-1.1.debian.tar.xz
+Homepage: http://people.duke.edu/~dgraham/etmtk/
+Package-List: 
+ etm deb utils optional arch=all
+ etm-qt deb oldlibs extra arch=all
+Directory: pool/main/e/etm
+Priority: optional
+Section: utils

@@ -1,0 +1,46 @@
+Package: ejabberd-contrib
+Binary: ejabberd-contrib, ejabberd-mod-cron, ejabberd-mod-default-contacts, ejabberd-mod-default-rooms, ejabberd-mod-deny-omemo, ejabberd-mod-filter, ejabberd-mod-grafite, ejabberd-mod-irc, ejabberd-mod-isolation, ejabberd-mod-log-chat, ejabberd-mod-logsession, ejabberd-mod-logxml, ejabberd-mod-message-log, ejabberd-mod-muc-log-http, ejabberd-mod-post-log, ejabberd-mod-pottymouth, ejabberd-mod-rest, ejabberd-mod-s2s-log, ejabberd-mod-shcommands, ejabberd-mod-spam-filter, ejabberd-mod-statsdx, ejabberd-mod-webpresence
+Version: 0.2020.10.21~dfsg0-5
+Maintainer: Ejabberd Packaging Team <ejabberd@packages.debian.org>
+Uploaders: Philipp Huebner <debalance@debian.org>
+Build-Depends: debhelper-compat (= 13), erlang-base, erlang-dev, erlang-tools, ejabberd (>= 21.01-2~), rebar (>= 2.6.0)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ da11cdd3d828bfefe5ffeefa858c673a 3775 ejabberd-contrib_0.2020.10.21~dfsg0-5.dsc
+ 6a2bb7c038609d966d2465442fd6db4d 558808 ejabberd-contrib_0.2020.10.21~dfsg0.orig.tar.gz
+ 31616b40497dce6f4bd7b43fcb94be39 10868 ejabberd-contrib_0.2020.10.21~dfsg0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ejabberd-packaging-team/ejabberd-contrib
+Vcs-Git: https://salsa.debian.org/ejabberd-packaging-team/ejabberd-contrib.git
+Checksums-Sha256:
+ 657cc0d145583509976d5869b8c5ccec8aa8de026b423e754a308ef70ca8245f 3775 ejabberd-contrib_0.2020.10.21~dfsg0-5.dsc
+ 45eca0ccb3f749685d0fcf4ce959d10e1c58ed7e100efce9046cef27aa541342 558808 ejabberd-contrib_0.2020.10.21~dfsg0.orig.tar.gz
+ efeb9299d7733509d97718f35466493cf7d3dbd19ec319c6212954bf48cc68b2 10868 ejabberd-contrib_0.2020.10.21~dfsg0-5.debian.tar.xz
+Homepage: https://github.com/processone/ejabberd-contrib
+Package-List: 
+ ejabberd-contrib deb net optional arch=all
+ ejabberd-mod-cron deb net optional arch=any
+ ejabberd-mod-default-contacts deb net optional arch=any
+ ejabberd-mod-default-rooms deb net optional arch=any
+ ejabberd-mod-deny-omemo deb net optional arch=any
+ ejabberd-mod-filter deb net optional arch=any
+ ejabberd-mod-grafite deb net optional arch=any
+ ejabberd-mod-irc deb net optional arch=any
+ ejabberd-mod-isolation deb net optional arch=any
+ ejabberd-mod-log-chat deb net optional arch=any
+ ejabberd-mod-logsession deb net optional arch=any
+ ejabberd-mod-logxml deb net optional arch=any
+ ejabberd-mod-message-log deb net optional arch=any
+ ejabberd-mod-muc-log-http deb net optional arch=any
+ ejabberd-mod-post-log deb net optional arch=any
+ ejabberd-mod-pottymouth deb net optional arch=any
+ ejabberd-mod-rest deb net optional arch=any
+ ejabberd-mod-s2s-log deb net optional arch=any
+ ejabberd-mod-shcommands deb net optional arch=any
+ ejabberd-mod-spam-filter deb net optional arch=any
+ ejabberd-mod-statsdx deb net optional arch=any
+ ejabberd-mod-webpresence deb net optional arch=any
+Directory: pool/main/e/ejabberd-contrib
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-relational-schemas
+Binary: libghc-relational-schemas-dev, libghc-relational-schemas-prof, libghc-relational-schemas-doc
+Version: 0.1.8.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Kei Hibino <ex8k.hibino@gmail.com>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.15), libghc-relational-query-dev (>= 0.12.2), libghc-relational-query-prof, libghc-sql-words-dev, libghc-sql-words-prof
+Build-Depends-Indep: ghc-doc, libghc-relational-query-doc, libghc-sql-words-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ a55ddc1e00b17b8f7a90d03aca0599b8 2657 haskell-relational-schemas_0.1.8.0-1.dsc
+ c2eab3f5308122a28b133e53bfb142a5 16758 haskell-relational-schemas_0.1.8.0.orig.tar.gz
+ a168f11f82e9e3645e0a9ff0403695ce 2724 haskell-relational-schemas_0.1.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-relational-schemas
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-relational-schemas]
+Checksums-Sha256:
+ 70522dc0c5563a20037ba668f74a63189832588457e51b87c467aa7f6e3edf9a 2657 haskell-relational-schemas_0.1.8.0-1.dsc
+ 849651c007e27d39f868b4f23e3f5b1b1e4a55b766e6ddf90e64fbdbb11c4b04 16758 haskell-relational-schemas_0.1.8.0.orig.tar.gz
+ 5af760600c115f326c9d54e9ff83246dfcc0eb396e0bc2f524ccb8b0bbcc17ae 2724 haskell-relational-schemas_0.1.8.0-1.debian.tar.xz
+Homepage: https://khibino.github.io/haskell-relational-record/
+Package-List: 
+ libghc-relational-schemas-dev deb haskell optional arch=any
+ libghc-relational-schemas-doc deb doc optional arch=all
+ libghc-relational-schemas-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-relational-schemas
+Priority: optional
+Section: misc

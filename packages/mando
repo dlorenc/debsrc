@@ -1,0 +1,28 @@
+Package: mando
+Binary: python3-mando, python-mando-doc
+Version: 0.6.4-5
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Neil Williams <codehelp@debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, python3, python3-setuptools, python3-pytest, python3-sphinx, libjs-underscore, libjs-jquery
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 293c2c3c2340a348f049172f7a6825cd 2187 mando_0.6.4-5.dsc
+ be01e3f88c86e00dc41c61a4341296ab 36560 mando_0.6.4.orig.tar.gz
+ 6b2edaa06b46422337b8a383f47804e5 4120 mando_0.6.4-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/mando.git
+Vcs-Git: https://salsa.debian.org/python-team/applications/mando.git
+Checksums-Sha256:
+ 66046e99b7e4e91ac26aae4983071a5205c1c8e59d4bc61a39c645ae41e8f8dc 2187 mando_0.6.4-5.dsc
+ f1c54f62a81e94595bb22f9730bdbce5ceca3770487f7c56a255a1979cf495b5 36560 mando_0.6.4.orig.tar.gz
+ 531c1f5a8e07eac1c1a9029de626de24a2032d0dfc1fbeeb53de97bfb0abf281 4120 mando_0.6.4-5.debian.tar.xz
+Homepage: https://mando.readthedocs.io/en/latest/
+Package-List: 
+ python-mando-doc deb doc optional arch=all
+ python3-mando deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3, python3-pytest, python3-setuptools
+Directory: pool/main/m/mando
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: liblog-handler-perl
+Binary: liblog-handler-perl
+Version: 0.90-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, perl
+Build-Depends-Indep: libdbi-perl <!nocheck>, libemail-date-perl <!nocheck>, libparams-validate-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 21bc9adf80d7d12b109000d4341520bb 2628 liblog-handler-perl_0.90-1.dsc
+ ba81ca5df91e9e4048393d0761896049 62541 liblog-handler-perl_0.90.orig.tar.gz
+ 795cb304a4e6bfa6a6fa1b8b505b6f50 5592 liblog-handler-perl_0.90-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/liblog-handler-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/liblog-handler-perl.git
+Checksums-Sha256:
+ fd10c6a975f5619268befb757bb23cdfff3b2d30922ddafea5c8bd9c4cc3f2f0 2628 liblog-handler-perl_0.90-1.dsc
+ 3a5c80e7128454770f83acab8cbd3e70e5ec3d59a61dc32792a178f0b31bf74d 62541 liblog-handler-perl_0.90.orig.tar.gz
+ 166a3caee855e41fb01e0d79aa56f42e7702661d4095100fd1c754e7444f67de 5592 liblog-handler-perl_0.90-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Log-Handler
+Dgit: 602473b3284091aaff73f2207e99aebec2f5ab1b debian archive/debian/0.90-1 https://git.dgit.debian.org/liblog-handler-perl
+Package-List: 
+ liblog-handler-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libl/liblog-handler-perl
+Priority: source
+Section: perl

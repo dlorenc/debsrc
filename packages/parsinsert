@@ -1,0 +1,27 @@
+Package: parsinsert
+Binary: parsinsert, parsinsert-testdata
+Version: 1.04-10
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Tim Booth <tbooth@ceh.ac.uk>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0d6c6601587714cf15d16c7433d9aecc 2103 parsinsert_1.04-10.dsc
+ 3e4997e279325e13860996758c2aed7e 53700 parsinsert_1.04.orig.tar.gz
+ b8031a6e036b026bea7d959af116c0b8 2827616 parsinsert_1.04-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/parsinsert
+Vcs-Git: https://salsa.debian.org/med-team/parsinsert.git
+Checksums-Sha256:
+ b832a9bd157644d4f4af6f6e87813df380e4bdcd14b80ff10aac161f9f245830 2103 parsinsert_1.04-10.dsc
+ 06977f23a08b1a0a6657f5c4c5c6a1bb699ab28335ff06c081f9ecf82e8f84c0 53700 parsinsert_1.04.orig.tar.gz
+ 278830d3e00e5046f20526c9cfd2d9df8c24783f35ea887a4f98f2f71ad10074 2827616 parsinsert_1.04-10.debian.tar.xz
+Homepage: http://sourceforge.net/projects/parsinsert/
+Package-List: 
+ parsinsert deb science optional arch=any
+ parsinsert-testdata deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/parsinsert
+Priority: optional
+Section: misc

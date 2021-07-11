@@ -1,0 +1,26 @@
+Package: rust-bytelines
+Binary: librust-bytelines-dev
+Version: 2.2.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6e35aa223f4d012f250a88c3e43dbc4c 2126 rust-bytelines_2.2.2-1.dsc
+ 5d28b93c58933adf83f90c959f807c3c 4218 rust-bytelines_2.2.2.orig.tar.gz
+ 30961b7412a263bb14d4954fd5b33ae5 2400 rust-bytelines_2.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bytelines
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytelines]
+Checksums-Sha256:
+ 68d7d67db8dedcd1a607a590024698745a5b08f2943b6784ff847c5e5e88377c 2126 rust-bytelines_2.2.2-1.dsc
+ 791e4e40d13e1463dee537b254225c12c46ec7328f1817c6264873bc166f615f 4218 rust-bytelines_2.2.2.orig.tar.gz
+ 229308044217da35429637f9e77d9f1b0a3766817c25e9fa2554f0be18fa052a 2400 rust-bytelines_2.2.2-1.debian.tar.xz
+Package-List: 
+ librust-bytelines-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-bytelines
+Priority: extra
+Section: misc

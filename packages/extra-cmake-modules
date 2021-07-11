@@ -1,0 +1,29 @@
+Package: extra-cmake-modules
+Binary: extra-cmake-modules, extra-cmake-modules-doc
+Version: 5.78.0-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), libjs-jquery (>= 3.5.1+dfsg-3) <!nodoc>, libjs-underscore <!nodoc>, pkg-kde-tools (>= 0.15.16~), python3-distutils <!nodoc>, python3-setuptools <!nodoc>, python3-sphinx <!nodoc>, python3-sphinxcontrib.qthelp <!nodoc>, python3-sphinxcontrib.serializinghtml <!nodoc>, qtdeclarative5-dev, qttools5-dev (>= 5.4), qttools5-dev-tools (>= 5.4)
+Build-Depends-Indep: dh-sequence-sphinxdoc
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 861cf4eb915042a87d083bb80695711c 2536 extra-cmake-modules_5.78.0-3.dsc
+ 7d9e7e066de1ce26194bd92e018b365f 355416 extra-cmake-modules_5.78.0.orig.tar.xz
+ bae34c35abc4c1ed27daea20e794548f 488 extra-cmake-modules_5.78.0.orig.tar.xz.asc
+ d1c2267722ff62bd57a720717788840e 13004 extra-cmake-modules_5.78.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/extra-cmake-modules
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/extra-cmake-modules.git
+Checksums-Sha256:
+ afe072fa3c7ce45d005a69d5c73405b2ea4c8e199afc32c54f165b0f001693e4 2536 extra-cmake-modules_5.78.0-3.dsc
+ eede1f0c21f24eca56bd71a805fa76500a8c683bf21982cb33f4bba682d012f9 355416 extra-cmake-modules_5.78.0.orig.tar.xz
+ 75a7d86edf81aca842f4d95d9d9dc134c69138f245046838875dae9ee0431bdc 488 extra-cmake-modules_5.78.0.orig.tar.xz.asc
+ 54bb4f59255283376a0dcad8fa2fe1e7dfa1ebafb1d3e376b5e0696bc0702c81 13004 extra-cmake-modules_5.78.0-3.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/extra-cmake-modules
+Package-List: 
+ extra-cmake-modules deb devel optional arch=any
+ extra-cmake-modules-doc deb doc optional arch=all profile=!nodoc
+Directory: pool/main/e/extra-cmake-modules
+Priority: optional
+Section: misc

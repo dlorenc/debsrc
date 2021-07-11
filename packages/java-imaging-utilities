@@ -1,0 +1,28 @@
+Package: java-imaging-utilities
+Binary: libjiu-java, libjiu-java-doc
+Version: 0.14.3-5
+Maintainer: Stuart Prescott <stuart@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: ant, default-jdk, default-jdk-doc, texlive-base-bin, texlive-latex-extra, texlive-latex-recommended
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 12e3db18b2628d27414712a8bd9ece00 2204 java-imaging-utilities_0.14.3-5.dsc
+ 0db7d05d8192f6e074a5afdeea8b7839 496884 java-imaging-utilities_0.14.3.orig.tar.bz2
+ cd8d3ace723bc8e712e9281ceab5a528 5764 java-imaging-utilities_0.14.3-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/java-imaging-utilities
+Vcs-Git: https://salsa.debian.org/debian/java-imaging-utilities.git
+Checksums-Sha256:
+ 24ca7b8dcd9ca46eabd57c6d227ffed6309df5e8af082c82f4c02039714cb425 2204 java-imaging-utilities_0.14.3-5.dsc
+ f8093ffa42da8e5f281845ead540e46926b883c69ef534c37dd693e6cfcf8539 496884 java-imaging-utilities_0.14.3.orig.tar.bz2
+ 08c72b3ce5db6d5b790ba4dacbe30d2e663e942e2c8eb105f66f3aa2c6e4d1d6 5764 java-imaging-utilities_0.14.3-5.debian.tar.xz
+Homepage: https://sourceforge.net/projects/jiu/
+Package-List: 
+ libjiu-java deb java optional arch=all
+ libjiu-java-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: default-jre
+Directory: pool/main/j/java-imaging-utilities
+Priority: source
+Section: java

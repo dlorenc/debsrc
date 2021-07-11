@@ -1,0 +1,30 @@
+Package: sasview
+Binary: sasview, python3-sasview, sasview-doc
+Version: 5.0.3-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>, Stuart Prescott <stuart@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, pyqt5-dev-tools, python3-all-dev, python3-bumps, python3-h5py, python3-ipython, python3-lxml, python3-matplotlib, python3-numpy, python3-periodictable, python3-pil, python3-pyparsing, python3-pytest, python3-pyqt5, python3-qt5reactor, python3-qtconsole, python3-pyqt5.qtsvg, python3-sasmodels (>> 1.0.0~), python3-scipy, python3-setuptools, python3-sphinx (>= 1.6~), python3-xhtml2pdf, xauth, xserver-xephyr, xvfb
+Build-Depends-Indep: libjs-jquery, libjs-mathjax, python-bumps-doc (>> 0.7.6-3~), python-sasmodels-doc (>> 0.97~git20180309-1~), rename, texinfo, texlive-fonts-recommended, texlive-plain-generic, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 619095f64b097005710082e8bfe0ebd1 2861 sasview_5.0.3-3.dsc
+ fe4a96c271950171e5cf9a0b921e06ea 64924651 sasview_5.0.3.orig.tar.gz
+ 2514ac5e9d5248772a05e11c90fd957f 55480 sasview_5.0.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/sasview
+Vcs-Git: https://salsa.debian.org/science-team/sasview.git
+Checksums-Sha256:
+ 1590bf1bd70a6db56e696bb7b092b13e89a78daaefbebaf33484369d0e1e32fe 2861 sasview_5.0.3-3.dsc
+ f1ff482d29e80984dd4837cbb0c4fe8496f25567d9faa78f4f0fa52737ef10b9 64924651 sasview_5.0.3.orig.tar.gz
+ 6930a6ec1f2e5b63cc8bada49ac94964212f7b09e54d13ff52edad2be0027043 55480 sasview_5.0.3-3.debian.tar.xz
+Homepage: http://www.sasview.org/
+Package-List: 
+ python3-sasview deb python optional arch=any
+ sasview deb science optional arch=all
+ sasview-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, xauth, xserver-xephyr, xvfb
+Directory: pool/main/s/sasview
+Priority: extra
+Section: misc

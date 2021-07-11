@@ -1,0 +1,32 @@
+Package: qtquickcontrols-opensource-src
+Binary: qml-module-qtquick-controls, qml-module-qtquick-extras, qml-module-qtquick-dialogs, qml-module-qtquick-privatewidgets, qtquickcontrols5-examples, qtquickcontrols5-doc, qtquickcontrols5-doc-html
+Version: 5.15.2-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>, Patrick Franz <patfra71@gmail.com>
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.17.14), pkg-kde-tools (>= 0.15.26~), qml-module-qt-labs-folderlistmodel (>= 5.15.2+dfsg~), qml-module-qt-labs-settings (>= 5.15.2+dfsg~), qml-module-qtgraphicaleffects (>= 5.15.2~), qml-module-qtqml (>= 5.15.2+dfsg~), qml-module-qtqml-models2 (>= 5.15.2+dfsg~), qml-module-qtquick-layouts (>= 5.15.2+dfsg~), qml-module-qtquick-window2 (>= 5.15.2+dfsg~), qml-module-qttest (>= 5.15.2+dfsg~), qtbase5-dev (>= 5.15.2+dfsg~), qtbase5-private-dev (>= 5.15.2+dfsg~), qtdeclarative5-dev-tools (>= 5.15.2+dfsg~), qtdeclarative5-private-dev (>= 5.15.2+dfsg~), xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>, qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>, qtdeclarative5-doc-html (>= 5.15.2+dfsg~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 36706e11ded8ab9d55491670acf55b8b 3773 qtquickcontrols-opensource-src_5.15.2-2.dsc
+ 7472c27a7e05fa02ee2fb4f30959d01c 5982344 qtquickcontrols-opensource-src_5.15.2.orig.tar.xz
+ d3c793141ba6c42a0eb75d7cf7e1cfc4 11240 qtquickcontrols-opensource-src_5.15.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtquickcontrols
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtquickcontrols.git
+Checksums-Sha256:
+ 853a016c61f7c257ad048cb2056c57723dbc0f87ffce3815cefe217252de6eed 3773 qtquickcontrols-opensource-src_5.15.2-2.dsc
+ c393fb7384b1f047f10e91a6832cf3e6a4c2a41408b8cb2d05af2283e8549fb5 5982344 qtquickcontrols-opensource-src_5.15.2.orig.tar.xz
+ 7c1bd1a142e9e5417cd45f75a413d9ce6e5195063fec17644e1bea2d13429984 11240 qtquickcontrols-opensource-src_5.15.2-2.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtquickcontrols1-index.html
+Package-List: 
+ qml-module-qtquick-controls deb libs optional arch=any
+ qml-module-qtquick-dialogs deb libs optional arch=any
+ qml-module-qtquick-extras deb libs optional arch=any
+ qml-module-qtquick-privatewidgets deb libs optional arch=any
+ qtquickcontrols5-doc deb doc optional arch=all profile=!nodoc
+ qtquickcontrols5-doc-html deb doc optional arch=all profile=!nodoc
+ qtquickcontrols5-examples deb x11 optional arch=any
+Directory: pool/main/q/qtquickcontrols-opensource-src
+Priority: optional
+Section: misc

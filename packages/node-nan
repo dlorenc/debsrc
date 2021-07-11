@@ -1,0 +1,26 @@
+Package: node-nan
+Binary: node-nan
+Version: 2.14.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-bindings <!nocheck>, node-gyp (>= 3.0.1) <!nocheck>, node-tap (>= 0.7.1) <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fb47f474672d42afa7bddd28cc63cbcd 2062 node-nan_2.14.2-2.dsc
+ b4a9369404d22dd10dc4112c730bf49b 178650 node-nan_2.14.2.orig.tar.gz
+ e46a1db09ba2da8043393ee53e2d3a58 5524 node-nan_2.14.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-nan
+Vcs-Git: https://salsa.debian.org/js-team/node-nan.git
+Checksums-Sha256:
+ 81dd31a7918e87680b11fbd31160f8db3cbdb235f62c9910c464df391ef73adc 2062 node-nan_2.14.2-2.dsc
+ 26dce4db0194c4a7b51b33d0324f3cf36eb67be49dc43a043e0a2dffc9dcdd6d 178650 node-nan_2.14.2.orig.tar.gz
+ 5a7d03cbd525ac722dbc181e5e382f455db37bcb74ecde5c1124047c729baef1 5524 node-nan_2.14.2-2.debian.tar.xz
+Homepage: https://github.com/nodejs/nan
+Package-List: 
+ node-nan deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-nan
+Priority: optional
+Section: javascript

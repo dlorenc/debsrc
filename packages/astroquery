@@ -1,0 +1,27 @@
+Package: astroquery
+Binary: python3-astroquery, python-astroquery-doc
+Version: 0.4.1+dfsg-4
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Vincent Prat <vivi@debian.org>
+Build-Depends: debhelper (>= 13), debhelper-compat (= 13), dh-python, python3-all, python3-astropy, python3-astropy-helpers, python3-bs4 (>= 4.3), python3-html5lib, python3-keyring, python3-pytest (>= 2.6), python3-pytest-astropy-header, python3-requests (>= 2), python3-setuptools, python3-sphinx, python3-tk
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6345fbe0bfb9a8017c77dbc771d2a51c 2398 astroquery_0.4.1+dfsg-4.dsc
+ 54098793f9eea3392ad9ba4b1ebaa43f 4309448 astroquery_0.4.1+dfsg.orig.tar.xz
+ dd302051b826f38f6bdba51e252d0ab1 10980 astroquery_0.4.1+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/astroquery
+Vcs-Git: https://salsa.debian.org/debian-astro-team/astroquery.git
+Checksums-Sha256:
+ 367e91f891fd752179eae06b0489911a5ac51881df79efb7079120b14d6fef8c 2398 astroquery_0.4.1+dfsg-4.dsc
+ 33c02e754ac484cc0d881bbd90d644d80e80001c07bdc976df1ce2384b803519 4309448 astroquery_0.4.1+dfsg.orig.tar.xz
+ 246312b4c5549196c6a6d30a9bc32b678666b116c2c8d9022c9af89b3cab2d5d 10980 astroquery_0.4.1+dfsg-4.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/astroquery/
+Package-List: 
+ python-astroquery-doc deb doc optional arch=all
+ python3-astroquery deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/a/astroquery
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: python-libnacl
+Binary: python3-libnacl
+Version: 1.7.2-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper-compat (= 9), dh-python, libsodium-dev (>= 1.0.15), pkg-config, python3 (>= 3.1.2-8~), python3-all, python3-nose, python3-setuptools
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ d5d2754703591c5eef90024288396632 1491 python-libnacl_1.7.2-3.dsc
+ 5f2e3ee35bf25b4cdf2332add1462326 41307 python-libnacl_1.7.2.orig.tar.gz
+ 4687cc658795977c14498822a6840b82 3088 python-libnacl_1.7.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-libnacl
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-libnacl.git
+Checksums-Sha256:
+ 4e8f727c858a08081a8b3e6c4315152348ca5bacb8c28c68653260b712242250 1491 python-libnacl_1.7.2-3.dsc
+ b53999817435d24bf87bc9c7a2fb95e865f8ff7dc6a36655c28d6c62443c3d6b 41307 python-libnacl_1.7.2.orig.tar.gz
+ ff8e37ac1ca2abd2849934cca252a0dac365440b744264e8367e9af477db9808 3088 python-libnacl_1.7.2-3.debian.tar.xz
+Homepage: https://libnacl.readthedocs.io/
+Package-List: 
+ python3-libnacl deb python optional arch=all
+Directory: pool/main/p/python-libnacl
+Priority: optional
+Section: misc

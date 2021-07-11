@@ -1,0 +1,26 @@
+Package: node-find-up
+Binary: node-find-up
+Version: 5.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-is-path-inside <!nocheck>, node-locate-path, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 539843903426623a963e0609cd45a0c7 2133 node-find-up_5.0.0-1.dsc
+ d7cdbc91f57dd475922c140c2adabbf6 6921 node-find-up_5.0.0.orig.tar.gz
+ fabd49e7e365e8e66eb7aa5b6f8012b5 4504 node-find-up_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-find-up
+Vcs-Git: https://salsa.debian.org/js-team/node-find-up.git
+Checksums-Sha256:
+ 19193b419c5862d6011b6f3197e6535bdaaf37545db432d95e4f5e523ba8ab02 2133 node-find-up_5.0.0-1.dsc
+ 10184fad4872e108a2d26795d25ec8b74d9ef08e8c1db2bf7004dc371215ea73 6921 node-find-up_5.0.0.orig.tar.gz
+ da069cd5b30d9f1a6efa3266ede55ee9472427ed2660b1d6148f023ccfc0c5de 4504 node-find-up_5.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/find-up
+Package-List: 
+ node-find-up deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-find-up
+Priority: optional
+Section: javascript

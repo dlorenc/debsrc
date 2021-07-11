@@ -1,0 +1,35 @@
+Package: nifticlib
+Binary: libnifti2-2, libnifti2-dev, libnifti-dev, libniftiio2, libniftiio-dev, libnifticdf2, libnifticdf-dev, libznz3, libznz-dev, nifti-bin, libnifti-doc
+Version: 3.0.1-8
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael Hanke <mih@debian.org>, Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper-compat (= 13), d-shlibs, cmake, zlib1g-dev, doxygen, python3, graphviz
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1d9971ae025b3154e0c3c13b0dbd22cf 2599 nifticlib_3.0.1-8.dsc
+ 9fbfd9f113e941d0d983c453f6e49b35 438871 nifticlib_3.0.1.orig.tar.gz
+ fdc4b6f4e4e29fa073d86c5bf2d28b7b 11848 nifticlib_3.0.1-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/nifticlib
+Vcs-Git: https://salsa.debian.org/med-team/nifticlib.git
+Checksums-Sha256:
+ a4ccdda74512396addb1d9f3f596ea5a4d9d6956e2d85c85823a93eb47eeee97 2599 nifticlib_3.0.1-8.dsc
+ 868b611b5f8a3a73809436c9072db50db4975615905f0bd5fb7b1432e6d24b37 438871 nifticlib_3.0.1.orig.tar.gz
+ d73d8a917be084885880d211a92b1db8da93d259c25fad5dd4204ac05d3d2664 11848 nifticlib_3.0.1-8.debian.tar.xz
+Homepage: https://github.com/NIFTI-Imaging/nifti_clib
+Package-List: 
+ libnifti-dev deb oldlibs optional arch=all
+ libnifti-doc deb doc optional arch=all
+ libnifti2-2 deb libs optional arch=any
+ libnifti2-dev deb libdevel optional arch=any
+ libnifticdf-dev deb libdevel optional arch=any
+ libnifticdf2 deb libs optional arch=any
+ libniftiio-dev deb libdevel optional arch=any
+ libniftiio2 deb libs optional arch=any
+ libznz-dev deb libdevel optional arch=any
+ libznz3 deb libs optional arch=any
+ nifti-bin deb science optional arch=any
+Directory: pool/main/n/nifticlib
+Priority: source
+Section: libs

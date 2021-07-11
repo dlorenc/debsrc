@@ -1,0 +1,26 @@
+Package: rust-spin
+Binary: librust-spin-dev
+Version: 0.5.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ ac6b451a9090232007066f160d6a0a8e 2118 rust-spin_0.5.2-1.dsc
+ 422ea23fbfe5bff61f519d960647ebf8 12004 rust-spin_0.5.2.orig.tar.gz
+ 598a5d75efb18ab15ccfbef96963a646 2656 rust-spin_0.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/spin
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/spin]
+Checksums-Sha256:
+ 87ef7d90059e0bb4ce51885021786879a6f41334c7b69c5493d3c628c3cd90dd 2118 rust-spin_0.5.2-1.dsc
+ 6e63cff320ae2c57904679ba7cb63280a3dc4613885beafb148ee7bf9aa9042d 12004 rust-spin_0.5.2.orig.tar.gz
+ 002ea458bb222bb3180510503ad807a71b778933f47bfd125fe37e446c1a59f6 2656 rust-spin_0.5.2-1.debian.tar.xz
+Package-List: 
+ librust-spin-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-spin
+Priority: extra
+Section: misc

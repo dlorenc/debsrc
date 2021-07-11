@@ -1,0 +1,27 @@
+Package: ruby-hamster
+Binary: ruby-hamster
+Version: 3.0.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hanno Zulla <kontakt@hanno.de>
+Build-Depends: debhelper (>= 9~), gem2deb, pry, rake, ruby-concurrent (>= 1.0.0), ruby-rspec
+Architecture: all
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ 0e50cfe777ca3014fbb70f4ddb2575ac 1756 ruby-hamster_3.0.0-2.dsc
+ 97f16109fe1f4efdb1eda481a3111dab 129120 ruby-hamster_3.0.0.orig.tar.gz
+ c7867bf4a36b848b36c13ab253d0b2b0 2952 ruby-hamster_3.0.0-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-hamster.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-hamster.git
+Checksums-Sha256:
+ 72ce84cc5e34e040e1e00c2d6e81618476dce6755ad0de0a47877c16f4ef3676 1756 ruby-hamster_3.0.0-2.dsc
+ 6c8d5c12d3770559401b72c742ac540875a6dcd568c525b3f8c7ffe776429bbf 129120 ruby-hamster_3.0.0.orig.tar.gz
+ 58718ecaea9d6b991c9bfd394955120c003053acf6b5fd853216138d4669372c 2952 ruby-hamster_3.0.0-2.debian.tar.xz
+Homepage: https://github.com/hamstergem/hamster
+Package-List: 
+ ruby-hamster deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-hamster
+Priority: optional
+Section: misc

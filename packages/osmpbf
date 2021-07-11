@@ -1,0 +1,28 @@
+Package: osmpbf
+Binary: libosmpbf-java, libosmpbf1, libosmpbf-dev, osmpbf-bin
+Version: 1.5.0-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>, Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), ant, cmake, default-jdk-headless | java6-sdk-headless, libprotobuf-dev (>= 3.12.3), libprotobuf-java (>= 3.12.3), protobuf-compiler (>= 3.12.3), maven-repo-helper, pkg-kde-tools
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4a4a29d62fe83ddaa40c49a13ded0eac 2290 osmpbf_1.5.0-1.dsc
+ 4ba0369dcc4dd1e1bc1a23e4a5f7e601 47543 osmpbf_1.5.0.orig.tar.gz
+ c58ec56da06dcea1482918fa61bdaae0 8668 osmpbf_1.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/osmpbf
+Vcs-Git: https://salsa.debian.org/debian-gis-team/osmpbf.git
+Checksums-Sha256:
+ 008e067a98c9a23dbd1d1e9de513542a0665b9197a90b491192adbe02ce08250 2290 osmpbf_1.5.0-1.dsc
+ 2abf3126729793732c3380763999cc365e51bffda369a008213879a3cd90476c 47543 osmpbf_1.5.0.orig.tar.gz
+ c2d2e8d76f7c38dbdc93c3a206d71b827873aa5c4e99e37643d81ca4849e240d 8668 osmpbf_1.5.0-1.debian.tar.xz
+Homepage: https://github.com/openstreetmap/OSM-binary
+Package-List: 
+ libosmpbf-dev deb libdevel optional arch=any
+ libosmpbf-java deb java optional arch=all
+ libosmpbf1 deb libs optional arch=any
+ osmpbf-bin deb utils optional arch=any
+Directory: pool/main/o/osmpbf
+Priority: source
+Section: java

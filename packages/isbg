@@ -1,0 +1,27 @@
+Package: isbg
+Binary: isbg
+Version: 2.3.1-1
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Taowa Munene-Tardif <taowa@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-doc, python3-docopt, python3-pytest <!nocheck>, python3-pytest-runner <!nocheck>, python3-recommonmark <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0.0
+Format: 3.0 (quilt)
+Files:
+ 31a7316be4526d40fc51425d5f648a81 2241 isbg_2.3.1-1.dsc
+ 354373505564caf98114e066cf55ec89 52984 isbg_2.3.1.orig.tar.xz
+ 0fd2ef9971f00002f021359f92508af8 9272 isbg_2.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/isbg
+Vcs-Git: https://salsa.debian.org/python-team/applications/isbg.git
+Checksums-Sha256:
+ 1e52a390288ba738e5cd2061eabbf792d4e1e1a3a70f9051a7aef545b3055e19 2241 isbg_2.3.1-1.dsc
+ 1ad075a0f2482f01026da7e8c390c26f4efd29c7f30270908af9c44f781608e5 52984 isbg_2.3.1.orig.tar.xz
+ 2abe0292f28df48a53753e079c3290d66ea7b57382a906429e8fdf788f6b46bb 9272 isbg_2.3.1-1.debian.tar.xz
+Homepage: https://gitlab.com/isbg/isbg
+Package-List: 
+ isbg deb mail optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-docopt, python3-pytest, python3-pytest-runner, python3-recommonmark
+Directory: pool/main/i/isbg
+Priority: extra
+Section: misc

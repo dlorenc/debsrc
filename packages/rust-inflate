@@ -1,0 +1,24 @@
+Package: rust-inflate
+Binary: librust-inflate-dev
+Version: 0.4.5-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-adler32-1+default-dev (>= 1.0.2-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ a58b656946b51c1a2209574bb2efa638 2092 rust-inflate_0.4.5-2.dsc
+ 8ece65b4db64f81379cbd293e2f04d39 17715 rust-inflate_0.4.5.orig.tar.gz
+ 3fbbd07e3795a648e85e7bf2046aabf4 2416 rust-inflate_0.4.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/inflate
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/inflate]
+Checksums-Sha256:
+ 53eeaad9ce40dde1bb333dcf61a2c0fa2c4cd2957935d087169b9c608db48ceb 2092 rust-inflate_0.4.5-2.dsc
+ 1cdb29978cc5797bd8dcc8e5bf7de604891df2a8dc576973d71a281e916db2ff 17715 rust-inflate_0.4.5.orig.tar.gz
+ a9042ef112d06d4b7f488932f261478b9e2232ebf5093f116b87f2ffcc43b52f 2416 rust-inflate_0.4.5-2.debian.tar.xz
+Package-List: 
+ librust-inflate-dev deb rust optional arch=any
+Directory: pool/main/r/rust-inflate
+Priority: extra
+Section: misc

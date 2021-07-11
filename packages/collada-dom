@@ -1,0 +1,27 @@
+Package: collada-dom
+Binary: libcollada-dom2.5-dp0, libcollada-dom-dev, libcollada-dom2.4-dp-dev
+Version: 2.5.0+ds1-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>, Rosen Diankov <rosen.diankov@gmail.com>, Wookey <wookey@debian.org>
+Build-Depends: debhelper-compat (= 12), cmake, libxml2-dev, libboost-dev, zlib1g-dev, libboost-filesystem-dev, libboost-system-dev, libpcre3-dev, pkg-config, libminizip-dev, liburiparser-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ feceeb4cab0fc68a8231b3b6ef5d31b9 2441 collada-dom_2.5.0+ds1-1.dsc
+ b34516040000a3cf262f5c65d5000034 403608 collada-dom_2.5.0+ds1.orig.tar.xz
+ 707c628977162ee6d3184027812a3c7b 7388 collada-dom_2.5.0+ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/collada-dom
+Vcs-Git: https://salsa.debian.org/science-team/collada-dom.git
+Checksums-Sha256:
+ c56f75f7c4cc7b6f626b157584b89c647cab3b106a15cec1b29be2283572688a 2441 collada-dom_2.5.0+ds1-1.dsc
+ 2bab758d4f984dda768c66d06978f655181a89ecb1ced3fcc1a22b5bd20fecca 403608 collada-dom_2.5.0+ds1.orig.tar.xz
+ 72ef1618e772c4a38b62f3a76f2a7c5a0a147e9986f789c95b3238d612c4d631 7388 collada-dom_2.5.0+ds1-1.debian.tar.xz
+Homepage: https://github.com/rdiankov/collada-dom
+Package-List: 
+ libcollada-dom-dev deb libdevel optional arch=any
+ libcollada-dom2.4-dp-dev deb oldlibs optional arch=all
+ libcollada-dom2.5-dp0 deb libs optional arch=any
+Directory: pool/main/c/collada-dom
+Priority: optional
+Section: misc

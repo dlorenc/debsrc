@@ -1,0 +1,32 @@
+Package: node-lodash
+Binary: node-lodash, libjs-lodash, node-lodash-packages
+Version: 4.17.21+dfsg+~cs8.31.173-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Valentin OVD <valentin.ovd@live.fr>, Matthew Pideil <matthewp_debian@teledetection.fr>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs, uglifyjs, node-async, node-fs-extra, webpack, node-glob, node-semver
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 08757de54937995e5d5585a4e72e046a 3083 node-lodash_4.17.21+dfsg+~cs8.31.173-1.dsc
+ b2217589333a9b2e1dd198bdfa1f3948 41560 node-lodash_4.17.21+dfsg+~cs8.31.173.orig-lodash-cli.tar.xz
+ ee87f94ababe513cb4a32a4480cc3eb1 75612 node-lodash_4.17.21+dfsg+~cs8.31.173.orig-types-lodash.tar.xz
+ 0dc3289b0bd047a1bb177476a1c2495a 576176 node-lodash_4.17.21+dfsg+~cs8.31.173.orig.tar.xz
+ be3f70e8f3c115c65185b3a13f3519ca 7156 node-lodash_4.17.21+dfsg+~cs8.31.173-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-lodash
+Vcs-Git: https://salsa.debian.org/js-team/node-lodash.git
+Checksums-Sha256:
+ d5662af44c8ff77bb5728e9e820aa4f2f85b99a1ff2e98ef1e598dc7783e874f 3083 node-lodash_4.17.21+dfsg+~cs8.31.173-1.dsc
+ 60211e46cf49a805fced79175317505a6337b440ea3e0e37a3b78ec7d3ce7366 41560 node-lodash_4.17.21+dfsg+~cs8.31.173.orig-lodash-cli.tar.xz
+ 82fad02c44e7d4643eb6cff72b37fd31cd1985827147c7bc1fcce48db66e460a 75612 node-lodash_4.17.21+dfsg+~cs8.31.173.orig-types-lodash.tar.xz
+ cd29276e76663f2eed86aa7adb3017fef7631777ac33f2355e19e1e07ad7f7a9 576176 node-lodash_4.17.21+dfsg+~cs8.31.173.orig.tar.xz
+ e22e74995f48d0f7c0d8585a73ef1bda454e76b9506d75aa38644e6683fe2fe2 7156 node-lodash_4.17.21+dfsg+~cs8.31.173-1.debian.tar.xz
+Homepage: https://lodash.com/
+Package-List: 
+ libjs-lodash deb javascript optional arch=all
+ node-lodash deb javascript optional arch=all
+ node-lodash-packages deb javascript optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/node-lodash
+Priority: optional
+Section: javascript

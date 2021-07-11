@@ -1,0 +1,27 @@
+Package: rust-grep-cli
+Binary: librust-grep-cli-dev
+Version: 0.1.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atty-0.2+default-dev (>= 0.2.11-~~) <!nocheck>, librust-bstr-0.2+default-dev <!nocheck>, librust-globset-0.4+default-dev (>= 0.4.5-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.5-~~) <!nocheck>, librust-regex-1+default-dev (>= 1.1-~~) <!nocheck>, librust-same-file-1+default-dev (>= 1.0.4-~~) <!nocheck>, librust-termcolor-1+default-dev (>= 1.0.4-~~) <!nocheck>, librust-winapi-util-0.1+default-dev (>= 0.1.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f2c2353c9c810646b2a880c690faf431 2688 rust-grep-cli_0.1.5-1.dsc
+ a7e635a81f5d57bbd694403de7a55331 16978 rust-grep-cli_0.1.5.orig.tar.gz
+ cd86e11a21a3bf5a2113ba10ae1dd433 3080 rust-grep-cli_0.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/grep-cli
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/grep-cli]
+Checksums-Sha256:
+ 860369d7e52322d8a67abceddaeed00a82bd08e31ba06981187f2dde8357e451 2688 rust-grep-cli_0.1.5-1.dsc
+ 3592784f7791f5f0bfc2e4b5595dc2d4e34a79099d7228d121b954bae73db182 16978 rust-grep-cli_0.1.5.orig.tar.gz
+ 878ea7f9e23ec08569cc999e51fee42734d61eb5c906914cfe7c4417eeb0fd95 3080 rust-grep-cli_0.1.5-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/ripgrep/tree/master/crates/cli
+Package-List: 
+ librust-grep-cli-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-grep-cli
+Priority: extra
+Section: misc

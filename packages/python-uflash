@@ -1,0 +1,29 @@
+Package: python-uflash
+Binary: python3-uflash, python-uflash-doc, firmware-microbit-micropython-dl
+Version: 1.2.4+dfsg-7
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Nick Morrott <nickm@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, pandoc, python3-all, python3-coverage, python3-mock, python3-nudatus, python3-pycodestyle, python3-pyflakes, python3-pytest, python3-pytest-cov, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 93e2f891bd35edec36cf63854970242e 2414 python-uflash_1.2.4+dfsg-7.dsc
+ fd2aeb32bdf76e4fadddaa4c71b3f5e8 23208 python-uflash_1.2.4+dfsg.orig.tar.gz
+ 8c407099939703dd15b5433c3fab10a9 9096 python-uflash_1.2.4+dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-uflash
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-uflash.git
+Checksums-Sha256:
+ 944ef75bca82cbbeec5faccb2af6e21ca78a731a50fa91d15243984c40d5e70f 2414 python-uflash_1.2.4+dfsg-7.dsc
+ 654ddded30c17e0cb4effad0fbe362dee74c324054aaa985a220d1d48d5816c0 23208 python-uflash_1.2.4+dfsg.orig.tar.gz
+ 6a5c6764135707803b6d23b822454cb418eabc214d0a0f340005a2658ad4dfe9 9096 python-uflash_1.2.4+dfsg-7.debian.tar.xz
+Homepage: https://github.com/ntoll/uflash
+Package-List: 
+ firmware-microbit-micropython-dl deb contrib/python optional arch=all
+ python-uflash-doc deb doc optional arch=all
+ python3-uflash deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-uflash
+Priority: extra
+Section: misc

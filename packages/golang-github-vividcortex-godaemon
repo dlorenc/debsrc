@@ -1,0 +1,27 @@
+Package: golang-github-vividcortex-godaemon
+Binary: golang-github-vividcortex-godaemon-dev
+Version: 0.0~git20201215.eda9777-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Eric Dorland <eric@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0.2
+Format: 3.0 (quilt)
+Files:
+ 25c9e3f78271f93ce0b1fc666eaa4f31 2442 golang-github-vividcortex-godaemon_0.0~git20201215.eda9777-1.dsc
+ cacf1c6a62e9560b4538d6e805a66fb1 8076 golang-github-vividcortex-godaemon_0.0~git20201215.eda9777.orig.tar.xz
+ 5611e4479fd68180b135ccd933f2ab33 2412 golang-github-vividcortex-godaemon_0.0~git20201215.eda9777-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-vividcortex-godaemon
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-vividcortex-godaemon.git
+Checksums-Sha256:
+ 89a9c7c21f30fed6c7b0c8957a8abf55fe8c81ef5efb44ad5ebcea318e767557 2442 golang-github-vividcortex-godaemon_0.0~git20201215.eda9777-1.dsc
+ 7808135b59f4306906e805741710964569e2e2ff0709e6ba2f562f5aba591b34 8076 golang-github-vividcortex-godaemon_0.0~git20201215.eda9777.orig.tar.xz
+ 2db3bcb0e97ba7b8adeae39aa162486fd5fd8272f2cbe32c442dd05b37cdf0ce 2412 golang-github-vividcortex-godaemon_0.0~git20201215.eda9777-1.debian.tar.xz
+Homepage: https://github.com/VividCortex/godaemon
+Go-Import-Path: github.com/VividCortex/godaemon
+Package-List: 
+ golang-github-vividcortex-godaemon-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-vividcortex-godaemon
+Priority: extra
+Section: golang

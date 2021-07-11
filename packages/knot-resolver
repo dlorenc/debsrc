@@ -1,0 +1,31 @@
+Package: knot-resolver
+Binary: knot-resolver, knot-resolver-module-http, knot-resolver-doc
+Version: 5.3.1-1
+Maintainer: knot-resolver packagers <knot-resolver@packages.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Santiago Ruano Rincón <santiago@debian.org>, Jakub Ružička <jakub.ruzicka@nic.cz>
+Build-Depends: debhelper-compat (= 13), dns-root-data, doxygen, gnutls-bin <!nocheck>, knot-dnsutils <!nocheck>, libcmocka-dev (>= 1.0.0), libedit-dev, libfstrm-dev, libgnutls28-dev, libknot-dev (>= 3.0.1), liblmdb-dev, libluajit-5.1-dev, libnghttp2-dev, libprotobuf-c-dev, libsystemd-dev (>= 227) [linux-any], libuv1-dev, lua-basexx, lua-cqueues, luajit, meson, ninja-build, po-debconf, pkg-config, protobuf-c-compiler, python3-breathe, python3-sphinx, python3-sphinx-rtd-theme, socat <!nocheck>
+Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64 ppc64el all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 245e165bb028dc52f313db90d624cdb9 2604 knot-resolver_5.3.1-1.dsc
+ a6f9b3404bee7a3e99642ff0ebd4ac33 1867068 knot-resolver_5.3.1.orig.tar.xz
+ a0c56c336d96621eead6843997222d1f 833 knot-resolver_5.3.1.orig.tar.xz.asc
+ 54ba2cbeca563f5f447e89c890b51aab 411376 knot-resolver_5.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/dns-team/knot-resolver
+Vcs-Git: https://salsa.debian.org/dns-team/knot-resolver.git
+Checksums-Sha256:
+ 1c1eb5a04038e125d1786147f4ddb17cab7e07a97c8112ab98514d9f201cb6be 2604 knot-resolver_5.3.1-1.dsc
+ 9d4d6b7bcdf114acc948e5ee68c83fcbb3944f48a13b9751dbbbc190cdd729c9 1867068 knot-resolver_5.3.1.orig.tar.xz
+ 5b857de300d289d50cc3c7275fe9a1e53b3b38c4214a178f9060b654eac1b19a 833 knot-resolver_5.3.1.orig.tar.xz.asc
+ c009bdf98b95e1d7483df28daaecc415bc7e96417605396e3cef90d777514ac9 411376 knot-resolver_5.3.1-1.debian.tar.xz
+Homepage: https://www.knot-resolver.cz/
+Package-List: 
+ knot-resolver deb net optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el
+ knot-resolver-doc deb doc optional arch=all
+ knot-resolver-module-http deb net optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el
+Testsuite: autopkgtest
+Testsuite-Triggers: gnutls-bin, knot-dnsutils, socat
+Directory: pool/main/k/knot-resolver
+Priority: optional
+Section: misc

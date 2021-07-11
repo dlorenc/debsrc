@@ -1,0 +1,27 @@
+Package: ruby-git
+Binary: ruby-git
+Version: 1.7.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Schutte <michi@debian.org>, Paul van Tilburg <paulvt@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), git, ruby-rchardet (>= 1.8)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9f9713384752d20a5e8bb15316de60eb 2060 ruby-git_1.7.0-1.dsc
+ 4fe68651efb87dee52b7db144d16c47d 142017 ruby-git_1.7.0.orig.tar.gz
+ 89db92f4104e1d99cbfc81b9bca5edc1 4108 ruby-git_1.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-git
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-git.git
+Checksums-Sha256:
+ 12cb393fc3c6f730235f4a250760bd29a48b57040dcda33389167fb2fcc2bee5 2060 ruby-git_1.7.0-1.dsc
+ c44019e1b314f39b392d2e61ddabbc9e7d311ec5f3276bd02f69e4d0e4133f27 142017 ruby-git_1.7.0.orig.tar.gz
+ 42e128d858d70d7b9bea93e584efd6ac6e567bd9e274409e2c81786558ceaf4b 4108 ruby-git_1.7.0-1.debian.tar.xz
+Homepage: https://github.com/ruby-git/ruby-git
+Package-List: 
+ ruby-git deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-git
+Priority: source
+Section: ruby

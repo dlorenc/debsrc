@@ -1,0 +1,28 @@
+Package: vkd3d
+Binary: libvkd3d-dev, libvkd3d1, libvkd3d-utils1, vkd3d-demos
+Version: 1.1-5
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Uploaders: Michael Gilbert <mgilbert@debian.org>, Jens Reyer <jre.winesim@gmail.com>,
+Build-Depends: dpkg (>= 1.19), debhelper-compat (= 12), pkg-config, spirv-headers, libx11-dev, libvulkan-dev (>= 1.1.70), libxcb-util0-dev, libxcb-icccm4-dev, libxcb-keysyms1-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 37dfee3d01993ac0b4d88d76706e0412 2885 vkd3d_1.1-5.dsc
+ 65d1ecf1f9dbdc6903af82510951d00d 266780 vkd3d_1.1.orig.tar.xz
+ 3aa0e5af32fa162e1e8efedf8802fe98 6664 vkd3d_1.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/wine-team/vkd3d
+Vcs-Git: https://salsa.debian.org/wine-team/vkd3d.git
+Checksums-Sha256:
+ 907974056e8344941bac3f5ed265395dfecab565cfa9f22778b47c462069adb5 2885 vkd3d_1.1-5.dsc
+ 04607e91ce3460d0874e8a4431d04437793c6a8075725270564c4801d4bfc440 266780 vkd3d_1.1.orig.tar.xz
+ 5b40bc5c12e391aac6e9f43ab0e052ef91a2491b551fbf5e2c43332f2fd2e47b 6664 vkd3d_1.1-5.debian.tar.xz
+Homepage: http://www.winehq.org
+Package-List: 
+ libvkd3d-dev deb libdevel optional arch=any
+ libvkd3d-utils1 deb libs optional arch=any
+ libvkd3d1 deb libs optional arch=any
+ vkd3d-demos deb misc optional arch=any
+Directory: pool/main/v/vkd3d
+Priority: extra
+Section: misc

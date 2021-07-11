@@ -1,0 +1,26 @@
+Package: rust-gettext-rs
+Binary: librust-gettext-rs-dev, librust-gettext-rs+gettext-system-dev
+Version: 0.4.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Nikos Tsipinakis <nikos@tsipinakis.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-gettext-sys-0.19+default-dev (>= 0.19.8-~~) <!nocheck>, librust-locale-config-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ ad28231aa51f3be532f41e77dd401ed1 2350 rust-gettext-rs_0.4.1-1.dsc
+ e5eadbf9c92867ed30b7d9e772e46f10 8488 rust-gettext-rs_0.4.1.orig.tar.gz
+ 6f23dbadeb3d958dd0d2e76140dc8872 2480 rust-gettext-rs_0.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gettext-rs
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gettext-rs]
+Checksums-Sha256:
+ b4d6aee972373dabfb3bbdb6c5a4f124c4308e920b3354371a41633f18a5bfd1 2350 rust-gettext-rs_0.4.1-1.dsc
+ b2502071e088651bd5fec87a896be2a5b908e817070d350a534a305abc9c6048 8488 rust-gettext-rs_0.4.1.orig.tar.gz
+ 11b0a386a0bb5cd62a2b0f1a0f2928c0984b78cbfb5f0236e73aab3ea91256bb 2480 rust-gettext-rs_0.4.1-1.debian.tar.xz
+Homepage: https://github.com/Koka/gettext-rs
+Package-List: 
+ librust-gettext-rs+gettext-system-dev deb rust optional arch=any
+ librust-gettext-rs-dev deb rust optional arch=any
+Directory: pool/main/r/rust-gettext-rs
+Priority: extra
+Section: misc

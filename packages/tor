@@ -1,0 +1,28 @@
+Package: tor
+Binary: tor, tor-geoipdb
+Version: 0.4.5.9-1
+Maintainer: Peter Palfrader <weasel@debian.org>
+Build-Depends: debhelper (>= 9.20160709), quilt, libssl-dev, zlib1g-dev, libevent-dev (>= 1.1), asciidoc (>= 8.2), docbook-xml, docbook-xsl, xmlto, dh-apparmor, libseccomp-dev [amd64 i386], libsystemd-dev [linux-any], pkg-config [linux-any], libcap-dev [linux-any], dh-autoreconf, liblzma-dev, libzstd-dev, dh-runit (>= 2.8.8)
+Build-Conflicts: libnacl-dev, libseccomp-dev [!amd64 !i386]
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 1.0
+Files:
+ a36bdc1df5a25a017df13e17c5dcacab 1961 tor_0.4.5.9-1.dsc
+ 103c96c9d553e34c0ae25dd0cb587b04 7840294 tor_0.4.5.9.orig.tar.gz
+ ee016a401fa3483e35674d41146ad744 53060 tor_0.4.5.9-1.diff.gz
+Vcs-Browser: https://gitweb.torproject.org/debian/tor.git
+Vcs-Git: https://git.torproject.org/debian/tor.git
+Checksums-Sha256:
+ ec32b3bdb191945168defaac1c52b102959e90bce59314dff8d27c3758918489 1961 tor_0.4.5.9-1.dsc
+ f304e456102ed26c39e5f16ece2115585398cdb4e67455139c86ea43cdf70856 7840294 tor_0.4.5.9.orig.tar.gz
+ a47e415414d32a3cee0c45ca86ba5531f4e952422f2cd7c218f7755776f78449 53060 tor_0.4.5.9-1.diff.gz
+Homepage: https://www.torproject.org/
+Package-List: 
+ tor deb net optional arch=any
+ tor-geoipdb deb net optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ca-certificates, colorized-logs, curl, diffutils, netcat-openbsd, onionshare, torsocks, unzip
+Directory: pool/main/t/tor
+Priority: source
+Section: net

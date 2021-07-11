@@ -1,0 +1,32 @@
+Package: lirc
+Binary: lirc, lirc-doc, liblirc0, liblircclient0, liblircclient-dev, liblirc-dev, liblirc-client0, lirc-x
+Version: 0.10.1-6.3
+Maintainer: Debian Lirc Team <team+debian-lirc@tracker.debian.org>
+Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>, Alec Leamas <leamas.alec@gmail.com>
+Build-Depends: debhelper (>= 11), dh-exec, dh-python, doxygen, expect [!hurd-any], kmod [linux-any], libasound2-dev [linux-any kfreebsd-any], libftdi1-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev [!kfreebsd-any], libusb-dev [!kfreebsd-any], libx11-dev, man2html-base, pkg-config, portaudio19-dev, python3-dev (>= 3.5), python3-setuptools, python3-yaml, socat [!hurd-any], systemd [linux-any], xsltproc
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 31c2d71efa57e96e797746ddd19d4ec5 2688 lirc_0.10.1-6.3.dsc
+ 2a390b353181fe6c6b5b94dcd10ba743 2715271 lirc_0.10.1.orig.tar.gz
+ ab038a9e9490905ee3f518a002eaa898 38384 lirc_0.10.1-6.3.debian.tar.xz
+Vcs-Browser: https://gitlab.com/leamas/lirc
+Vcs-Git: https://gitlab.com/leamas/lirc.git
+Checksums-Sha256:
+ a465b12519715b3269e89523cb94ad80cd894252c9bc76a6d0cc1166f494060f 2688 lirc_0.10.1-6.3.dsc
+ 25b0a5c761d927e9651e6eb54d0ce4cce3870ebb893afad5c4b181182fc642c1 2715271 lirc_0.10.1.orig.tar.gz
+ c7b9a7d6504111e3bd5b48546907d4858b610d00d9c5c2e85fd2ff38b256754e 38384 lirc_0.10.1-6.3.debian.tar.xz
+Homepage: https://sf.net/p/lirc
+Package-List: 
+ liblirc-client0 deb libs optional arch=any
+ liblirc-dev deb libdevel optional arch=any
+ liblirc0 deb libs optional arch=any
+ liblircclient-dev deb libdevel optional arch=any
+ liblircclient0 deb libs optional arch=any
+ lirc deb utils optional arch=any
+ lirc-doc deb doc optional arch=all
+ lirc-x deb utils optional arch=any
+Directory: pool/main/l/lirc
+Priority: source
+Section: utils

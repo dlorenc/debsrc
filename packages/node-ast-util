@@ -1,0 +1,26 @@
+Package: node-ast-util
+Binary: node-ast-util
+Version: 0.6.0-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-esprima-fb <!nocheck>, node-recast <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5c7b8ad538d15aae4e059c449962dd5d 2132 node-ast-util_0.6.0-5.dsc
+ feb091cd96bbec87888484af30979a10 17141 node-ast-util_0.6.0.orig.tar.gz
+ 7a62f7495f3359f3467539bcdb3b2523 2700 node-ast-util_0.6.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ast-util
+Vcs-Git: https://salsa.debian.org/js-team/node-ast-util.git
+Checksums-Sha256:
+ 4335491c560a700e7086bac42393ebf8b52f025a8de6d8fd3260c24546db21a6 2132 node-ast-util_0.6.0-5.dsc
+ bdc4610b242750a3b2a0a57122f6f4c8b0fb7917907a23b5b571c21bd8c820d7 17141 node-ast-util_0.6.0.orig.tar.gz
+ 0f1ab3ef5da0cc84766b1f4ce5009f3b071b7f02778f703a7616ae86bca638d6 2700 node-ast-util_0.6.0-5.debian.tar.xz
+Homepage: https://github.com/eventualbuddha/ast-util
+Package-List: 
+ node-ast-util deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ast-util
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: drbd-utils
+Binary: drbd-utils
+Version: 9.15.0-1
+Maintainer: Debian DRBD Maintainers <debian-ha-maintainers@lists.alioth.debian.org>
+Uploaders: Norbert Tretkowski <norbert@tretkowski.de>, Martin Loschwitz <madkiss@debian.org>, Philipp Hug <debian@hug.cx>, Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 13), flex, xsltproc, docbook-xsl, docbook-xml, udev, bash-completion, po4a
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 36bf8bb30a16a5236779f71ec8352138 2186 drbd-utils_9.15.0-1.dsc
+ 9b55924f9f101c6966755adb04a658a3 1252800 drbd-utils_9.15.0.orig.tar.gz
+ 1b10424644dd8fc47179b495dec6b1c8 18976 drbd-utils_9.15.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ha-team/drbd-utils
+Vcs-Git: https://salsa.debian.org/ha-team/drbd-utils.git
+Checksums-Sha256:
+ 8667c505d5440d2a864627f2f38ffb8ad35bdebf6b48824d999deb1c54a26d78 2186 drbd-utils_9.15.0-1.dsc
+ 0284b3a8092c3add9cf928e68bcb075c0d89681c565ae37afa0f3d759c772fb4 1252800 drbd-utils_9.15.0.orig.tar.gz
+ 56a9b247e3ced6c9f119c4ab86268577c178588ea41194efb481539e192559f7 18976 drbd-utils_9.15.0-1.debian.tar.xz
+Homepage: https://www.drbd.org/
+Package-List: 
+ drbd-utils deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Directory: pool/main/d/drbd-utils
+Priority: optional
+Section: misc

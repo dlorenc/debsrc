@@ -1,0 +1,27 @@
+Package: pyemd
+Binary: python3-pyemd
+Version: 0.5.1-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Paul Wise <pabs@debian.org>,
+Build-Depends: cython3, debhelper-compat (= 13), dh-python, python3-all-dev, python3-numpy (<< 1:2.0.0), python3-numpy (>= 1:1.9.0), python3-pytest <!nocheck>, python3-setuptools
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ eac224b4e73e4b82e0d26d456cf01de2 2098 pyemd_0.5.1-2.dsc
+ fd985347473c1df40675bcf8dbf3b942 20957 pyemd_0.5.1.orig.tar.gz
+ 46231566ec35e456ef862db64bd29001 2968 pyemd_0.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/pyemd
+Vcs-Git: https://salsa.debian.org/science-team/pyemd.git
+Checksums-Sha256:
+ 032240596c6c91a22aa298b3b20b4df19af9c5f13e3083bc3862ffd7ab6694e7 2098 pyemd_0.5.1-2.dsc
+ 79eb293f6d115e09206a3b2acd0dcc8db9f42dfcfd544ed4b814a63d7399c91f 20957 pyemd_0.5.1.orig.tar.gz
+ b71fdd5e3d9a6d507363a1faffe71febbb29cc7a74de0676d1e8e8ac9cba6c1c 2968 pyemd_0.5.1-2.debian.tar.xz
+Homepage: https://github.com/wmayner/pyemd
+Package-List: 
+ python3-pyemd deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/p/pyemd
+Priority: extra
+Section: misc

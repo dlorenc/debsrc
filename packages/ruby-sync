@@ -1,0 +1,27 @@
+Package: ruby-sync
+Binary: ruby-sync
+Version: 0.5.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6fc0ff7132b93d8ef11cb6a958b41474 1999 ruby-sync_0.5.0-2.dsc
+ 708cf8bbbe82808fc136dada7515cca9 4952 ruby-sync_0.5.0.orig.tar.gz
+ 18520a088faff5675ad1b08cbd8f5a9d 2640 ruby-sync_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-sync
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-sync.git
+Checksums-Sha256:
+ 3ba7cb5e6b3ba6181585647a8fb6556297c30abcd55ff42feae759aef15f13b0 1999 ruby-sync_0.5.0-2.dsc
+ 8ed29e306ab28648ac2cbe2fce05ad353b48b5df0e6c2f3d3949bc8b8ccf9a70 4952 ruby-sync_0.5.0.orig.tar.gz
+ 27f69437e503c059c1e93367151c17247658e60153245d9fbec55464e3477482 2640 ruby-sync_0.5.0-2.debian.tar.xz
+Homepage: https://github.com/ruby/sync
+Package-List: 
+ ruby-sync deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-sync
+Priority: extra
+Section: misc

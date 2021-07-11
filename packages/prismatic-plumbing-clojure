@@ -1,0 +1,27 @@
+Package: prismatic-plumbing-clojure
+Binary: libprismatic-plumbing-clojure
+Version: 0.5.5-2
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, maven-repo-helper, libclojure-java, liblazymap-clojure (>= 3.1.1-2), libcljx-clojure, libprismatic-schema-clojure (>= 1.1.12), libcore-async-clojure (>= 1.3.610-2), libnrepl-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2e0b51907e98dd290c44ca1e39e18cff 2447 prismatic-plumbing-clojure_0.5.5-2.dsc
+ 71b71af656a75866efaf447b4fc67256 58719 prismatic-plumbing-clojure_0.5.5.orig.tar.gz
+ 88efa9e9ad99c7ec0d3cacd234af725b 7908 prismatic-plumbing-clojure_0.5.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/prismatic-plumbing-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/prismatic-plumbing-clojure.git
+Checksums-Sha256:
+ 1023a1d1895667ab0cba286d99f13f4f5c113c51143c6848800245f314ac6bad 2447 prismatic-plumbing-clojure_0.5.5-2.dsc
+ 8624226dae2ffb37a6db99ddcba5191b5e9b181b8ab4c1aac12053baf7c538cc 58719 prismatic-plumbing-clojure_0.5.5.orig.tar.gz
+ 3ffac6116813977542a2220fadaf3462a41ca047dce2ad682084aa8e69d3f5e5 7908 prismatic-plumbing-clojure_0.5.5-2.debian.tar.xz
+Homepage: https://github.com/plumatic/plumbing
+Package-List: 
+ libprismatic-plumbing-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/p/prismatic-plumbing-clojure
+Priority: extra
+Section: misc

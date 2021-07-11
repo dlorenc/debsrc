@@ -1,0 +1,28 @@
+Package: haskell-listlike
+Binary: libghc-listlike-dev, libghc-listlike-prof, libghc-listlike-doc
+Version: 4.7.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>, Ilias Tsitsimpis <iliastsi@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-dlist-dev (<< 0.9), libghc-dlist-dev (>= 0.7), libghc-dlist-prof, libghc-fmlist-dev (<< 0.10), libghc-fmlist-dev (>= 0.8), libghc-fmlist-prof, libghc-semigroups-dev (>= 0.16), libghc-semigroups-dev (<< 0.20), libghc-semigroups-prof, libghc-utf8-string-dev, libghc-utf8-string-prof, libghc-vector-dev (>= 0.5), libghc-vector-dev (<< 0.13), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-dlist-doc, libghc-fmlist-doc, libghc-semigroups-doc, libghc-utf8-string-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 936023171868a42c94b09fb193c69e58 2827 haskell-listlike_4.7.1-1.dsc
+ 422814dff9faa070da6afdc88ea3f916 31704 haskell-listlike_4.7.1.orig.tar.gz
+ aed7f3dc48b8f2a31dc2378568d0fd3f 3440 haskell-listlike_4.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-listlike
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-listlike]
+Checksums-Sha256:
+ 6aacafa5d57fb6c41dcc2765fe05c5b9bbed5a1369530a3bd3dfad366771576f 2827 haskell-listlike_4.7.1-1.dsc
+ b726f1622965a4e4a7bb86db979ac9b42870147e10fd26f9a417a8ea085a8cbd 31704 haskell-listlike_4.7.1.orig.tar.gz
+ 7cd417977d028f13d9c020336a5150ebb2364969c372931e92b33f8dec6f7f72 3440 haskell-listlike_4.7.1-1.debian.tar.xz
+Homepage: https://github.com/ddssff/listlike
+Package-List: 
+ libghc-listlike-dev deb haskell optional arch=any
+ libghc-listlike-doc deb doc optional arch=all
+ libghc-listlike-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-listlike
+Priority: source
+Section: haskell

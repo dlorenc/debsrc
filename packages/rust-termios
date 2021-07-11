@@ -1,0 +1,25 @@
+Package: rust-termios
+Binary: librust-termios-dev
+Version: 0.3.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ d850b6477d1602294f451975532f8232 2123 rust-termios_0.3.0-1.dsc
+ 760bd8b41e9b8f7a85bd62f74eac416c 9369 rust-termios_0.3.0.orig.tar.gz
+ 60659888a62a51311f7a61e0070a5ae5 2240 rust-termios_0.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/termios
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/termios]
+Checksums-Sha256:
+ ba60f8e11f87201d20d42bb697b3cafa378f75ef3e6375740c3a8a82c23923eb 2123 rust-termios_0.3.0-1.dsc
+ 70226acdf12d182df757d9fb07c0257a1558ec48c8059f607d6b38145ce4e2fa 9369 rust-termios_0.3.0.orig.tar.gz
+ 5fc2b9e3a89812e330d446241b098a414750395621b56c8e8f1b8199cab380f4 2240 rust-termios_0.3.0-1.debian.tar.xz
+Homepage: https://github.com/dcuddeback/termios-rs
+Package-List: 
+ librust-termios-dev deb rust optional arch=any
+Directory: pool/main/r/rust-termios
+Priority: extra
+Section: misc

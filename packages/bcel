@@ -1,0 +1,27 @@
+Package: bcel
+Binary: libbcel-java, libbcel-java-doc
+Version: 6.5.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), libcommons-lang3-java, libjna-platform-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, junit4, maven-debian-helper (>= 2.1~)
+Build-Depends-Indep: default-jdk, default-jdk-doc
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bff18bbb9255b7c0fe023fe269afed7e 2196 bcel_6.5.0-1.dsc
+ 03ca482ec9fc77fb8ab4a8c742e375fc 707820 bcel_6.5.0.orig.tar.xz
+ 1c12bd7e05a83ff275ccf1a79599c446 6256 bcel_6.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/bcel
+Vcs-Git: https://salsa.debian.org/java-team/bcel.git
+Checksums-Sha256:
+ 973005b316eebe1375c7db8913a1f678b0278523508b8fd77f785ce39f5febc7 2196 bcel_6.5.0-1.dsc
+ 14c4489220b11643b9cdbaa8b5d0521f593d296f00aae1025ca7052cd7940422 707820 bcel_6.5.0.orig.tar.xz
+ 9f9ab9e1ddcce2495c99da91905a23ebe702a518ef8cfe59033fe6e060b20a8a 6256 bcel_6.5.0-1.debian.tar.xz
+Homepage: http://commons.apache.org/bcel/
+Package-List: 
+ libbcel-java deb java optional arch=all
+ libbcel-java-doc deb doc optional arch=all
+Directory: pool/main/b/bcel
+Priority: source
+Section: libs

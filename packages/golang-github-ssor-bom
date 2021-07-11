@@ -1,0 +1,27 @@
+Package: golang-github-ssor-bom
+Binary: golang-github-ssor-bom-dev
+Version: 0.0~git20170718.0.6386211-5
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Aloïs Micard <alois@micard.lu>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b63d68b101d430d8a6e7ea8560abb326 2312 golang-github-ssor-bom_0.0~git20170718.0.6386211-5.dsc
+ f44de7943cd8ce4605473f5993ea89b3 1708 golang-github-ssor-bom_0.0~git20170718.0.6386211.orig.tar.xz
+ 4102f7ee945c4188afd69b7985d0e86d 2952 golang-github-ssor-bom_0.0~git20170718.0.6386211-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-ssor-bom
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-ssor-bom.git
+Checksums-Sha256:
+ ec5a9d0fd59f9722c0f6968d54bbc25b29297d04acdd4594f5b78733527a35c3 2312 golang-github-ssor-bom_0.0~git20170718.0.6386211-5.dsc
+ ebc9d78efa71dd4188e8ed69c602abd06dfa0d2f2e87fee5e47a797ef54c45fd 1708 golang-github-ssor-bom_0.0~git20170718.0.6386211.orig.tar.xz
+ 36dd2cc290809805305531754000eab50c5271a1ed6483d91ef58940cf97d1fb 2952 golang-github-ssor-bom_0.0~git20170718.0.6386211-5.debian.tar.xz
+Homepage: https://github.com/ssor/bom
+Go-Import-Path: github.com/ssor/bom
+Package-List: 
+ golang-github-ssor-bom-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-ssor-bom
+Priority: extra
+Section: golang

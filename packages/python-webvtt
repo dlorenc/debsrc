@@ -1,0 +1,28 @@
+Package: python-webvtt
+Binary: python-webvtt-doc, python3-webvtt, webvtt
+Version: 0.4.5-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, docbook-to-man, python3-all, python3-docopt, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 33bba3ea5db03beaae42bb6ac2063e1e 1910 python-webvtt_0.4.5-1.dsc
+ 9b43c7f857d8e81d9eaaef1bd8cfef49 52835 python-webvtt_0.4.5.orig.tar.gz
+ d391255cc305437ed49347dd0413641c 4296 python-webvtt_0.4.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-webvtt
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-webvtt.git
+Checksums-Sha256:
+ fb0365e5fe11ecd7b32f3074ed80c6ce76804bc374f9eed55766435c48188a57 1910 python-webvtt_0.4.5-1.dsc
+ 33937f8a5431416954211fbc7de542cd772cbacc98bb7293ca7c7d6c16e53c2e 52835 python-webvtt_0.4.5.orig.tar.gz
+ 2ecb577e17ad2ffa2cea114dc52b381718d00559e53da4fdf72f509975a36885 4296 python-webvtt_0.4.5-1.debian.tar.xz
+Homepage: https://github.com/glut23/webvtt-py/
+Package-List: 
+ python-webvtt-doc deb doc optional arch=all
+ python3-webvtt deb python optional arch=all
+ webvtt deb utils optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-webvtt
+Priority: extra
+Section: misc

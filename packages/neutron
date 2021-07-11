@@ -1,0 +1,41 @@
+Package: neutron
+Binary: neutron-api, neutron-common, neutron-dhcp-agent, neutron-doc, neutron-l3-agent, neutron-linuxbridge-agent, neutron-macvtap-agent, neutron-metadata-agent, neutron-metering-agent, neutron-openvswitch-agent, neutron-ovn-metadata-agent, neutron-plugin-nec-agent, neutron-rpc-server, neutron-server, neutron-sriov-agent, python3-neutron
+Version: 2:17.1.1-6
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>, Gustavo Panizzo <gfa@zumbi.com.ar>, Ivan Udovichenko <iudovichenko@mirantis.com>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: alembic (>= 0.9.6), bridge-utils, python3-astroid (>= 2.4.0), python3-cliff, python3-coverage, python3-ddt, python3-debtcollector, python3-decorator, python3-designateclient, python3-eventlet (>= 0.22.1), python3-fixtures, python3-flake8, python3-futurist, python3-gevent, python3-hacking, python3-httplib2, python3-isort, python3-jinja2, python3-keystoneauth1 (>= 3.14.0), python3-keystonemiddleware, python3-netaddr, python3-netifaces, python3-neutron-lib (>= 2.6.0), python3-neutronclient, python3-novaclient, python3-openssl (>= 17.1.0), python3-openstackdocstheme, python3-openstacksdk (>= 0.31.2), python3-openvswitch, python3-os-ken, python3-os-vif (>= 1.15.1), python3-os-xenapi (>= 0.3.4), python3-oslo.cache, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context (>= 2.22.0), python3-oslo.db (>= 4.44.0), python3-oslo.i18n, python3-oslo.log (>= 4.2.1), python3-oslo.messaging (>= 7.0.0), python3-oslo.middleware, python3-oslo.policy, python3-oslo.privsep (>= 2.3.0), python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils (>= 4.4.0), python3-oslo.versionedobjects (>= 1.35.1), python3-oslotest, python3-osprofiler, python3-ovsdbapp (>= 1.3.0), python3-paste, python3-pastedeploy, python3-pecan, python3-pep8, python3-psutil, python3-pymysql, python3-pyroute2 (>= 0.5.13), python3-pyudev, python3-requests, python3-routes, python3-sphinx-feature-classification, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-tempest, python3-tenacity (>= 6.0.0), python3-testresources, python3-testscenarios, python3-testtools, python3-tooz, python3-unittest2, python3-webob, python3-webtest, tempest
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 50541db30d01c2a5499aeaddcf824c55 4945 neutron_17.1.1-6.dsc
+ 0e1a63e3c7fc0b9972755ce730d173b8 10983432 neutron_17.1.1.orig.tar.xz
+ 9822b053bd4ba1b91dd2d58ff4a578ac 51328 neutron_17.1.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/neutron
+Vcs-Git: https://salsa.debian.org/openstack-team/services/neutron.git
+Checksums-Sha256:
+ 87db24fcd986816a5647270be1c1c1aab3b3953a2b001b82dfc67b1152d26c5c 4945 neutron_17.1.1-6.dsc
+ ad71fa5bbb33fa0e468c94345b4d34913e19285a0bb685fae005c6d36352c755 10983432 neutron_17.1.1.orig.tar.xz
+ de750667701e637337daa4e911eb90d3aeb086543fe08b906f4596ce4f21427a 51328 neutron_17.1.1-6.debian.tar.xz
+Homepage: http://neutron.openstack.org/
+Package-List: 
+ neutron-api deb net optional arch=all
+ neutron-common deb net optional arch=all
+ neutron-dhcp-agent deb net optional arch=all
+ neutron-doc deb doc optional arch=all profile=!nodoc
+ neutron-l3-agent deb net optional arch=all
+ neutron-linuxbridge-agent deb net optional arch=all
+ neutron-macvtap-agent deb net optional arch=all
+ neutron-metadata-agent deb net optional arch=all
+ neutron-metering-agent deb net optional arch=all
+ neutron-openvswitch-agent deb net optional arch=all
+ neutron-ovn-metadata-agent deb net optional arch=all
+ neutron-plugin-nec-agent deb net optional arch=all
+ neutron-rpc-server deb net optional arch=all
+ neutron-server deb net optional arch=all
+ neutron-sriov-agent deb net optional arch=all
+ python3-neutron deb python optional arch=all
+Directory: pool/main/n/neutron
+Priority: optional
+Section: misc

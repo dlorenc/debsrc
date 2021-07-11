@@ -1,0 +1,27 @@
+Package: itamae
+Binary: itamae
+Version: 1.11.1-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Scott Leggett <scott@sl.id.au>, Antonio Terceiro <terceiro@debian.org>,
+Build-Depends: asciidoctor, debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-ansi, ruby-fakefs, ruby-hashie, ruby-rspec, ruby-schash (>= 0.1.0), ruby-specinfra (<< 3.0.0), ruby-specinfra (>= 2.64.0), ruby-thor
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5bdd2bf504d31ffafefea0d5217fde9d 2143 itamae_1.11.1-1.dsc
+ 610aff6a31d83c866acbd1b42327b8a4 39477 itamae_1.11.1.orig.tar.gz
+ d8d10d499efda5cd9790a9a1458915b0 5408 itamae_1.11.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/itamae
+Vcs-Git: https://salsa.debian.org/ruby-team/itamae.git
+Checksums-Sha256:
+ 12dfe651685f856ae8f455e0f86058dca859d7328a436b10ffa5ebe12d8d6e55 2143 itamae_1.11.1-1.dsc
+ 187de5fa1b9ec1ced9f48a34f28fd69a04fc145f6bf853216f540a60b716a1ef 39477 itamae_1.11.1.orig.tar.gz
+ 3edcba496fca1b40fd96f300569222c94462d0283282507dd559c53c67f02adc 5408 itamae_1.11.1-1.debian.tar.xz
+Homepage: https://itamae.kitchen/
+Package-List: 
+ itamae deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/i/itamae
+Priority: optional
+Section: misc

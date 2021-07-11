@@ -1,0 +1,28 @@
+Package: utop
+Binary: libutop-ocaml-dev, libutop-ocaml, utop
+Version: 2.7.0-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>,
+Build-Depends: debhelper-compat (= 13), ocaml-findlib, ocaml-nox, cppo, ocaml-dune, libfindlib-ocaml-dev, liblambda-term-ocaml-dev (>= 3.1.0), dh-elpa, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ deb6eefdcb4f38447971d739b12910e3 1900 utop_2.7.0-2.dsc
+ 6dc6602784d77e04a97a4ae03b9a3a8f 412729 utop_2.7.0.orig.tar.gz
+ 459de89811a8edb1437e494e1b678092 3860 utop_2.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/utop
+Vcs-Git: https://salsa.debian.org/ocaml-team/utop.git
+Checksums-Sha256:
+ 29e478d194d3e3d9bfc3b6afe0686c2bd24835ac69f3fd658f62a415a0a16989 1900 utop_2.7.0-2.dsc
+ c6aaa5e1643ad220e66503820f07180cb50ae3fac49b79ed4ee27b0f733fc24c 412729 utop_2.7.0.orig.tar.gz
+ e6147078541e5bd7188ffff76f36dd611b5284661d85410f6cf97ad9e5cff72a 3860 utop_2.7.0-2.debian.tar.xz
+Homepage: https://github.com/ocaml-community/utop
+Dgit: a7294a1063b60ea6260489e52bbcaba7021989ec debian archive/debian/2.7.0-2 https://git.dgit.debian.org/utop
+Package-List: 
+ libutop-ocaml deb ocaml optional arch=any
+ libutop-ocaml-dev deb ocaml optional arch=any
+ utop deb ocaml optional arch=any
+Directory: pool/main/u/utop
+Priority: optional
+Section: misc

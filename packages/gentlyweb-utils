@@ -1,0 +1,26 @@
+Package: gentlyweb-utils
+Binary: libgentlyweb-utils-java, libgentlyweb-utils-java-doc
+Version: 1.5-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper (>= 11), default-jdk, default-jdk-doc, javahelper (>= 0.20), libactivation-java, libjdom1-java, maven-repo-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 0c6c50633ee56a3b395295993c361594 2205 gentlyweb-utils_1.5-2.dsc
+ 8a82e32a87f38d1ee29a4faf35c19a47 47802 gentlyweb-utils_1.5.orig.tar.gz
+ a88ca8ace1cab1942d6aeaf01892a857 2036 gentlyweb-utils_1.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/gentlyweb-utils
+Vcs-Git: https://salsa.debian.org/java-team/gentlyweb-utils.git
+Checksums-Sha256:
+ ac39e2902a235b4b7a0ebb44149b710e823edc44393194309fb9d8d782e26281 2205 gentlyweb-utils_1.5-2.dsc
+ 45476a48caaadbb74fef05e068fe5be215a1a21d148fd1c8eccbe58e3c9bd908 47802 gentlyweb-utils_1.5.orig.tar.gz
+ 2ba15c3b2ecc7c81d63d2b641960ec9713b73b7386a9fca588160d2f1fff52a1 2036 gentlyweb-utils_1.5-2.debian.tar.xz
+Homepage: http://josql.sourceforge.net/
+Package-List: 
+ libgentlyweb-utils-java deb java optional arch=all
+ libgentlyweb-utils-java-doc deb doc optional arch=all
+Directory: pool/main/g/gentlyweb-utils
+Priority: source
+Section: java

@@ -1,0 +1,28 @@
+Package: ruby-serverspec
+Binary: ruby-serverspec
+Version: 2.41.5-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: KURASHIKI Satoru <lurdan@gmail.com>, Scott Leggett <scott@sl.id.au>, HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-multi-json, ruby-rspec (>= 3.0), ruby-rspec-its, ruby-specinfra (>= 2.72)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e3fe49062dec3db0406954db936ee38f 2248 ruby-serverspec_2.41.5-1.dsc
+ 1fc8e5e7d6879cfd3c71181338436d64 34936 ruby-serverspec_2.41.5.orig.tar.gz
+ 53306d2fd8f0bc37bc053d2b1d88a159 4328 ruby-serverspec_2.41.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-serverspec
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-serverspec.git
+Checksums-Sha256:
+ 24dfed4d62644e9d8c329a297b9ee3006aa7e7027d566cb00d1e46e6606476e0 2248 ruby-serverspec_2.41.5-1.dsc
+ edaba1a9d9b1a89f088cf0963179336387674e5bf12193f3ee9526a42d3a7dac 34936 ruby-serverspec_2.41.5.orig.tar.gz
+ 9f9c8899bb5428d0ce582018c4fc85bfe52f9c8b754eb35ff1bfd67df9b1f62c 4328 ruby-serverspec_2.41.5-1.debian.tar.xz
+Homepage: https://serverspec.org/
+Package-List: 
+ ruby-serverspec deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner
+Directory: pool/main/r/ruby-serverspec
+Priority: optional
+Section: misc

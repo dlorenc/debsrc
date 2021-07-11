@@ -1,0 +1,25 @@
+Package: rust-unicode-xid
+Binary: librust-unicode-xid-dev
+Version: 0.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 02f8453d1ac8de15aad7d0cd6ec06e65 2145 rust-unicode-xid_0.2.0-1.dsc
+ 3e032da993a6976368a7ebeeeb8e2f2a 15039 rust-unicode-xid_0.2.0.orig.tar.gz
+ 6f73cbf3f6479ce48c4392b9e9757c0d 2644 rust-unicode-xid_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unicode-xid
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-xid]
+Checksums-Sha256:
+ 2d4e5d2757577b3d6e4be289c7fe0d1bfd26ec347942f9e93fdc34e2d6a01bd4 2145 rust-unicode-xid_0.2.0-1.dsc
+ 2fe5397faee757caa77e9006d412c3ea65c14206b79f2a43170760c96dfb95df 15039 rust-unicode-xid_0.2.0.orig.tar.gz
+ c5587b4fa2ecfc646a62bc73bd58b6571b3b028c12899b2e8c7d8ea593f78140 2644 rust-unicode-xid_0.2.0-1.debian.tar.xz
+Homepage: https://github.com/unicode-rs/unicode-xid
+Package-List: 
+ librust-unicode-xid-dev deb rust optional arch=any
+Directory: pool/main/r/rust-unicode-xid
+Priority: extra
+Section: misc

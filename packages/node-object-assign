@@ -1,0 +1,26 @@
+Package: node-object-assign
+Binary: node-object-assign
+Version: 4.1.1-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), nodejs, node-tape <!nocheck>, pkg-js-tools (>= 0.9.8)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ a38519beb02c003353729a6083262a0e 2129 node-object-assign_4.1.1-3.dsc
+ 0a4fe468ed29553b28e30766bee8dd47 4122 node-object-assign_4.1.1.orig.tar.gz
+ 19f832de244ebcc751c8a62de9f1179d 3284 node-object-assign_4.1.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-object-assign
+Vcs-Git: https://salsa.debian.org/js-team/node-object-assign.git
+Checksums-Sha256:
+ 63b7d6366c5e1e72a61248d2fd8c35cbb6bef1dc43de808560006164c4fb9781 2129 node-object-assign_4.1.1-3.dsc
+ 16fd04bb99fb67bd485bb6b2af033892a07f8020012499bb4275fec4745aeeb5 4122 node-object-assign_4.1.1.orig.tar.gz
+ a617f406dbbcc2ea19e376080fd92732d21054838dc743b57746a5cdab97fa8d 3284 node-object-assign_4.1.1-3.debian.tar.xz
+Homepage: https://github.com/sindresorhus/object-assign#readme
+Package-List: 
+ node-object-assign deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-object-assign
+Priority: optional
+Section: javascript

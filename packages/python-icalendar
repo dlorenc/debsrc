@@ -1,0 +1,27 @@
+Package: python-icalendar
+Binary: python-icalendar-doc, python3-icalendar
+Version: 4.0.3-4
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Christoph Egger <christoph@debian.org>, Félix Sipma <felix+debian@gueux.org>, Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-dateutil, python3-setuptools, python3-sphinx, python3-tz
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4aa42c144af059936aa9bb38809a2025 2296 python-icalendar_4.0.3-4.dsc
+ 8a30e6129917db2eda13fb38fc56fe8d 77899 python-icalendar_4.0.3.orig.tar.gz
+ 65fe994e84452d8600f8cfcd0146444a 4636 python-icalendar_4.0.3-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-icalendar
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-icalendar.git
+Checksums-Sha256:
+ d0c05496ecc70779debf90c55800236d078b47f871cd7ee40e6bbfeee1503585 2296 python-icalendar_4.0.3-4.dsc
+ 07c2447a1d44cbb27c90b8c6a5c98e890cc1853c6223e2a52195cddec26c6356 77899 python-icalendar_4.0.3.orig.tar.gz
+ 380e865458e6712b4d07f5ced8929f0fcb61688f2673695279e54d5da51c4664 4636 python-icalendar_4.0.3-4.debian.tar.xz
+Homepage: https://icalendar.readthedocs.org/
+Package-List: 
+ python-icalendar-doc deb doc optional arch=all
+ python3-icalendar deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-icalendar
+Priority: optional
+Section: misc

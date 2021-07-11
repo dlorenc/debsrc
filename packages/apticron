@@ -1,0 +1,22 @@
+Package: apticron
+Binary: apticron, apticron-systemd
+Version: 1.2.5
+Maintainer: Tiago Bortoletto Vaz <tiago@debian.org>
+Build-Depends: po-debconf, debhelper (>= 9.20160709~), dh-exec
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (native)
+Files:
+ d9d98d6040c2a81ddeb14cbd635ade9d 1627 apticron_1.2.5.dsc
+ a5a4da43c5999d01582f565c6510cebe 20436 apticron_1.2.5.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/apticron
+Vcs-Git: https://salsa.debian.org/debian/apticron.git
+Checksums-Sha256:
+ d70fc9cad3449568532fe1f8efcb6c89ca0a59bfe1084cd4853deddc902ce825 1627 apticron_1.2.5.dsc
+ 0500ae5a096aa7a593019271063e329f6792f59d945864a338778630254817b5 20436 apticron_1.2.5.tar.xz
+Package-List: 
+ apticron deb admin optional arch=all
+ apticron-systemd deb admin optional arch=all
+Directory: pool/main/a/apticron
+Priority: source
+Section: admin

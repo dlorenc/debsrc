@@ -1,0 +1,24 @@
+Package: python-distutils-extra
+Binary: python3-distutils-extra
+Version: 2.45
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Martin Pitt <mpitt@debian.org>, Sebastian Heinlein <devel@glatzor.de>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all (>= 3.1.2-10~), python3-setuptools, python3-httplib2, python3-pkg-resources, python3-gi, gir1.2-glib-2.0, intltool, pyflakes3 <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (native)
+Files:
+ 97e9018ffdac0119f88351b55ec39288 1998 python-distutils-extra_2.45.dsc
+ 5b80b7ff7661c059f1d06789a985d9f0 38480 python-distutils-extra_2.45.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-distutils-extra
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-distutils-extra.git
+Checksums-Sha256:
+ 0df7d88abc7e80e657461164806797a4a2dca5bcdc1a95b8cd10952d82d8596d 1998 python-distutils-extra_2.45.dsc
+ 9db7e00e609a762ac5541532816aa028475cb715a8be8ee8d615a5ab63dd7344 38480 python-distutils-extra_2.45.tar.xz
+Package-List: 
+ python3-distutils-extra deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-gi, python3-httplib2
+Directory: pool/main/p/python-distutils-extra
+Priority: source
+Section: python

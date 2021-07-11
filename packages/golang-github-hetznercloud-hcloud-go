@@ -1,0 +1,27 @@
+Package: golang-github-hetznercloud-hcloud-go
+Binary: golang-github-hetznercloud-hcloud-go-dev
+Version: 1.17.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fe4180db4290054282f6a281aa6c8f9b 2499 golang-github-hetznercloud-hcloud-go_1.17.0-1.dsc
+ 5efb4fda5f60f4a32dfb0f7f07319efb 51523 golang-github-hetznercloud-hcloud-go_1.17.0.orig.tar.gz
+ cbe6385f3ea1eb309a684996afc46b6b 2052 golang-github-hetznercloud-hcloud-go_1.17.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hetznercloud-hcloud-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hetznercloud-hcloud-go.git
+Checksums-Sha256:
+ 6aab4d55fd64f6ba5b3fd2f65028af3e09fbe7904cf58580174b862123ad6fd4 2499 golang-github-hetznercloud-hcloud-go_1.17.0-1.dsc
+ de25b21a63af3d58f43d3d941f7b4eb4f2df076d521754056bfb217c9fd5ccbc 51523 golang-github-hetznercloud-hcloud-go_1.17.0.orig.tar.gz
+ 45131323a098d822d754eb0c7f34a012304e91ecea95930df8fc76784f9556c6 2052 golang-github-hetznercloud-hcloud-go_1.17.0-1.debian.tar.xz
+Homepage: https://github.com/hetznercloud/hcloud-go
+Go-Import-Path: github.com/hetznercloud/hcloud-go
+Package-List: 
+ golang-github-hetznercloud-hcloud-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hetznercloud-hcloud-go
+Priority: extra
+Section: golang

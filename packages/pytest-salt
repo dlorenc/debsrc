@@ -1,0 +1,26 @@
+Package: pytest-salt
+Binary: python3-pytestsalt
+Version: 2019.6.13-1
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Uploaders: Benjamin Drung <benjamin.drung@cloud.ionos.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-psutil (>= 4.2.0), python3-pytest (>= 2.8.1), python3-pytest-helpers-namespace, python3-pytest-tempdir, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ a4f34b42302808092f27fcc08109243f 2175 pytest-salt_2019.6.13-1.dsc
+ ff9e9f83882ea21080ec8ddf2e29e04c 63167 pytest-salt_2019.6.13.orig.tar.gz
+ 81cf2e058b7ae54d7901468b8666d558 1336 pytest-salt_2019.6.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/salt-team/pytest-salt
+Vcs-Git: https://salsa.debian.org/salt-team/pytest-salt.git
+Checksums-Sha256:
+ c6a3bc1fac028071419b01438c184a830b3c337b1bc1c7f749e4e07c683ca375 2175 pytest-salt_2019.6.13-1.dsc
+ 84160154ba0f111d794c6796b7b86079377c3859ac540ff486b3efa348b4b5e1 63167 pytest-salt_2019.6.13.orig.tar.gz
+ 071f48e3956f7dcdb139a7fef07d66058b1662e0b1db1d020a38d8a261f74aaf 1336 pytest-salt_2019.6.13-1.debian.tar.xz
+Homepage: https://github.com/saltstack/pytest-salt
+Package-List: 
+ python3-pytestsalt deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pytest-salt
+Priority: extra
+Section: misc

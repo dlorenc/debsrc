@@ -1,0 +1,26 @@
+Package: node-depd
+Binary: node-depd
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrew Kelley <superjoe30@gmail.com>
+Build-Depends: debhelper-compat (= 12), mocha (>= 4) <!nocheck>, node-should <!nocheck>, nodejs, node-safe-buffer, node-uid-safe, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 108f03814e69f78c82e4d6bab389f15b 2086 node-depd_2.0.0-1.dsc
+ 0c940ef2e8e48e9458bfa0ff96638bc9 18669 node-depd_2.0.0.orig.tar.gz
+ f4fccd3b823f13bf242fc0755825b28a 2852 node-depd_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-depd
+Vcs-Git: https://salsa.debian.org/js-team/node-depd.git
+Checksums-Sha256:
+ e730c04b24333a391240d560b48f688a51b2dbd7c61d6a18e28e9b51a3b88aa0 2086 node-depd_2.0.0-1.dsc
+ 165bf0d97508cabad3c313d5099b00e2a6f71710198b26f32c369106b274bd32 18669 node-depd_2.0.0.orig.tar.gz
+ 24bcc1a4b0e6b106e8ff2dfbd56bf72231a9a6033af111b7361ac52be35eb7c0 2852 node-depd_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/dougwilson/nodejs-depd
+Package-List: 
+ node-depd deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-depd
+Priority: optional
+Section: javascript

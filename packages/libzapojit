@@ -1,0 +1,28 @@
+Package: libzapojit
+Binary: libzapojit-0.0-0, libzapojit-dev, libzapojit-doc, gir1.2-zpj-0.0
+Version: 0.0.3-5
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Build-Depends: debhelper (>= 11), gnome-pkg-tools (>= 0.11), gnome-common, pkg-config (>= 0.14), libglib2.0-dev (>= 2.30.0), libgoa-1.0-dev, libjson-glib-dev, librest-dev (>= 0.7), libsoup2.4-dev (>= 2.38), libsoup-gnome2.4-dev (>= 2.38), intltool (>= 0.40), gtk-doc-tools (>= 1.14), libgirepository1.0-dev (>= 1.30), gobject-introspection (>= 1.30.0)
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 734323eeb4c8d67eec51c7e7d49112b5 2525 libzapojit_0.0.3-5.dsc
+ 9de0d94e2c6a86852133a6f2f0b5fee1 272108 libzapojit_0.0.3.orig.tar.xz
+ c533e077af6066e042f9cb374173de6a 3360 libzapojit_0.0.3-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/libzapojit
+Vcs-Git: https://salsa.debian.org/gnome-team/libzapojit.git
+Checksums-Sha256:
+ 5c730b76c4e77a7f3093c3c69c793784977abf807a8aa77dbc2737fc37baa513 2525 libzapojit_0.0.3-5.dsc
+ 3d25f99329105abb99d1e9651b0aa1842065456ea54c22970a7330e9f3d1c37e 272108 libzapojit_0.0.3.orig.tar.xz
+ 7652a86591043caf9f19e3fe76f92fe37cc1b2dcab4968cfff39108c789c9882 3360 libzapojit_0.0.3-5.debian.tar.xz
+Homepage: http://git.gnome.org/browse/libzapojit
+Package-List: 
+ gir1.2-zpj-0.0 deb introspection optional arch=any
+ libzapojit-0.0-0 deb libs optional arch=any
+ libzapojit-dev deb libdevel optional arch=any
+ libzapojit-doc deb doc optional arch=all
+Directory: pool/main/libz/libzapojit
+Priority: source
+Section: misc

@@ -1,0 +1,27 @@
+Package: libmoose-perl
+Binary: libmoose-perl
+Version: 2.2014-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Salvatore Bonaccorso <carnil@debian.org>, gregor herrmann <gregoa@debian.org>, Damyan Ivanov <dmn@debian.org>, Niko Tyni <ntyni@debian.org>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper-compat (= 13), libclass-load-perl <!nocheck>, libclass-load-xs-perl <!nocheck>, libcpan-meta-check-perl (>= 0.011) <!nocheck>, libcpan-meta-requirements-perl <!nocheck>, libdata-optlist-perl <!nocheck>, libdatetime-format-mysql-perl <!nocheck>, libdbm-deep-perl <!nocheck>, libdevel-globaldestruction-perl <!nocheck>, libdevel-overloadinfo-perl (>= 0.005) <!nocheck>, libdevel-partialdump-perl <!nocheck>, libdevel-stacktrace-perl (>= 2.0300) <!nocheck>, libdist-checkconflicts-perl <!nocheck>, libeval-closure-perl <!nocheck>, libio-string-perl <!nocheck>, liblocale-us-perl <!nocheck>, libmodule-refresh-perl <!nocheck>, libmodule-runtime-conflicts-perl (>= 0.002) <!nocheck>, libmodule-runtime-perl <!nocheck>, libmro-compat-perl <!nocheck>, libpackage-deprecationmanager-perl <!nocheck>, libpackage-stash-perl <!nocheck>, libpackage-stash-xs-perl <!nocheck>, libpadwalker-perl <!nocheck>, libparams-coerce-perl <!nocheck>, libparams-util-perl <!nocheck>, libregexp-common-perl <!nocheck>, libscalar-list-utils-perl (>= 1:1.45) <!nocheck>, libsub-exporter-perl <!nocheck>, libsub-name-perl (>= 0.20) <!nocheck>, libsuper-perl <!nocheck>, libtest-cleannamespaces-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-leaktrace-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-output-perl <!nocheck>, libtest-requires-perl <!nocheck>, libtest-warn-perl <!nocheck>, libtest-warnings-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d59ba624b1f1784b27bf298e09958d79 3962 libmoose-perl_2.2014-2.dsc
+ 6d1e84977bc2a7d0e1111e16822fc250 899094 libmoose-perl_2.2014.orig.tar.gz
+ 86f86ebfbb7691bdff5679f3831c1e67 14304 libmoose-perl_2.2014-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmoose-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmoose-perl.git
+Checksums-Sha256:
+ faeed62721705ecfec1bb84c9398be15fa89d1214f2fef85e71a04cc049fef59 3962 libmoose-perl_2.2014-2.dsc
+ 33c75c11143d1943be9be61bb37e134fe4b0a316fa4494a380a2e3dd416f116a 899094 libmoose-perl_2.2014.orig.tar.gz
+ 8bb08bede3b4f4a7440e5b2fb4312a2c8fcc1262ffc73033171c9eac6cd48c27 14304 libmoose-perl_2.2014-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Moose
+Dgit: ec7008dd8d2adaae56996034446522691d94c900 debian archive/debian/2.2014-2 https://git.dgit.debian.org/libmoose-perl
+Package-List: 
+ libmoose-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmoose-perl
+Priority: source
+Section: perl

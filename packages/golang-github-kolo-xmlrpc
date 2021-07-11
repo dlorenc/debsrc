@@ -1,0 +1,27 @@
+Package: golang-github-kolo-xmlrpc
+Binary: golang-github-kolo-xmlrpc-dev
+Version: 0.0~git20200310.e035052-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Martín Ferrari <tincho@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-text-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9f492fcbda367c283502392f9c16d812 1765 golang-github-kolo-xmlrpc_0.0~git20200310.e035052-1.dsc
+ a94498b32152c4962cf442cce4007482 11668 golang-github-kolo-xmlrpc_0.0~git20200310.e035052.orig.tar.gz
+ 1674faf22f1d39912ee26c9f52179b39 2808 golang-github-kolo-xmlrpc_0.0~git20200310.e035052-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-kolo-xmlrpc
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-kolo-xmlrpc.git
+Checksums-Sha256:
+ 5813ec90aad1c9338b60e74476223fa5c11d37725916afb433db8e74a7e2753d 1765 golang-github-kolo-xmlrpc_0.0~git20200310.e035052-1.dsc
+ 50a890bee653baad09b15f7169977ddefed0f4ad22789dff16853ad26c04a67c 11668 golang-github-kolo-xmlrpc_0.0~git20200310.e035052.orig.tar.gz
+ 58305bae27f740eddde39acbe2a186098742dddba616449b19d7180ed0327776 2808 golang-github-kolo-xmlrpc_0.0~git20200310.e035052-1.debian.tar.xz
+Homepage: https://github.com/kolo/xmlrpc
+Go-Import-Path: github.com/kolo/xmlrpc
+Package-List: 
+ golang-github-kolo-xmlrpc-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-kolo-xmlrpc
+Priority: extra
+Section: golang

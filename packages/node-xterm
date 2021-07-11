@@ -1,0 +1,28 @@
+Package: node-xterm
+Binary: node-xterm, libjs-xterm
+Version: 3.8.1+~cs0.9.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>, Ximin Luo <infinity0@debian.org>
+Build-Depends: chai <!nocheck>, debhelper-compat (= 12), mocha <!nocheck>, rollup, node-typescript, node-types-jquery, node-types-jsdom, node-types-mocha, nodejs, pkg-js-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 182d2a86906a17fbe0744060a76b6703 2533 node-xterm_3.8.1+~cs0.9.0-1.dsc
+ ad6db5bb6ac10dffeae24e5f25dd9484 239001 node-xterm_3.8.1+~cs0.9.0.orig-node-pty.tar.gz
+ 1b561d784cc784db39cb175346210f3e 287514 node-xterm_3.8.1+~cs0.9.0.orig.tar.gz
+ 2b6b55a5e00842a60abae3b9921eea53 6024 node-xterm_3.8.1+~cs0.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-xterm
+Vcs-Git: https://salsa.debian.org/js-team/node-xterm.git
+Checksums-Sha256:
+ bbe2516dba88ced4244ee0e8cb5a3026f30b6849b88b380c084dce62ae746577 2533 node-xterm_3.8.1+~cs0.9.0-1.dsc
+ 02100c1f7dd1bc16a7b3555e097ba1a0a8bcf9c116ec9d985c2d716d0f0f2bea 239001 node-xterm_3.8.1+~cs0.9.0.orig-node-pty.tar.gz
+ 81ffa6c425126878c32dc9bcdc5dd7a5a5bc862e2ef063fc9bcbe03cf2fee31d 287514 node-xterm_3.8.1+~cs0.9.0.orig.tar.gz
+ 05423ccc5e9060c0e6a21e72aadbdc101d20b2b95684dcef4aa28af267b98580 6024 node-xterm_3.8.1+~cs0.9.0-1.debian.tar.xz
+Homepage: https://xtermjs.org
+Package-List: 
+ libjs-xterm deb javascript optional arch=all
+ node-xterm deb javascript optional arch=all
+Directory: pool/main/n/node-xterm
+Priority: optional
+Section: javascript

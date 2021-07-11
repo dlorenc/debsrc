@@ -1,0 +1,27 @@
+Package: ruby-rbtrace
+Binary: ruby-rbtrace
+Version: 0.4.11-3
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-ffi, ruby-msgpack, ruby-optimist
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 608afa996245630312252ae1dd99d59b 2107 ruby-rbtrace_0.4.11-3.dsc
+ ea4674ad9cfdffa8cc4330a042150cc7 513670 ruby-rbtrace_0.4.11.orig.tar.gz
+ e8099a530fc894e0c2bde7c077cc58e9 2072 ruby-rbtrace_0.4.11-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rbtrace
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rbtrace.git
+Checksums-Sha256:
+ b81183d67be059bc91b11bb0c8bf36d09a7e98d4e5e186e13124e3c9940e9e33 2107 ruby-rbtrace_0.4.11-3.dsc
+ 7b7fe318b4476682e2378b0079fd030a8201751618bb6ea8ba4d49467c5d4a66 513670 ruby-rbtrace_0.4.11.orig.tar.gz
+ 750dd8e07ad7175457a887ded60232161a95e8f551c809477a7aa9d24400c5a4 2072 ruby-rbtrace_0.4.11-3.debian.tar.xz
+Homepage: http://github.com/tmm1/rbtrace
+Package-List: 
+ ruby-rbtrace deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-rbtrace
+Priority: extra
+Section: misc

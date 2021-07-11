@@ -1,0 +1,31 @@
+Package: saods9
+Binary: saods9, tksao, tcliis, tclfitsy, saods9-doc
+Version: 8.2+repack-2
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: cpio, debhelper-compat (= 13), dh-exec, html2text, libstdc++-10-dev | libstdc++-dev, libfuntools-dev, libstarlink-ast-dev, libtk-img-dev, libxml2-dev, perl, tcl-awthemes, tcl-dev, tcl-signal, tcl-xpa, tcllib, tcl-tls, tcl-ttkthemes, tclxml, tk-dev, tk-html1, tk-mpeg, tk-table, tkblt-dev, tkcon, xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 176f17864142961db532ce775345a3b4 2495 saods9_8.2+repack-2.dsc
+ ba36d458b93b832b8ef80eb173eb741e 6788104 saods9_8.2+repack.orig.tar.xz
+ 89f1f4c2f85e0e0bd947f9c9f121c19b 21704 saods9_8.2+repack-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/saods9
+Vcs-Git: https://salsa.debian.org/debian-astro-team/saods9.git
+Checksums-Sha256:
+ d54b0b3d1cccc58d100c741cab24d9df10d01ddd983ba16bb027fac4921987a4 2495 saods9_8.2+repack-2.dsc
+ cd2e7a9eafd233088eb479069ed034414aed411085fa7400b442ae019e61cc0f 6788104 saods9_8.2+repack.orig.tar.xz
+ 7ef89fc4a72366ca798cfa6bab8d0c4ca18eacc6ffb4b8a9c555723eda07ce39 21704 saods9_8.2+repack-2.debian.tar.xz
+Homepage: http://ds9.si.edu/
+Package-List: 
+ saods9 deb science optional arch=all
+ saods9-doc deb doc optional arch=all
+ tclfitsy deb science optional arch=any
+ tcliis deb science optional arch=any
+ tksao deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: funtools, xauth, xpa-tools, xvfb
+Directory: pool/main/s/saods9
+Priority: source
+Section: science

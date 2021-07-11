@@ -1,0 +1,25 @@
+Package: rust-mio-named-pipes
+Binary: librust-mio-named-pipes-dev
+Version: 0.1.6-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-mio-0.6+default-dev (>= 0.6.5-~~) <!nocheck>, librust-miow-0.3+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+ioapiset-dev <!nocheck>, librust-winapi-0.3+minwinbase-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 12cb0aaa91de09f4b192b6e0b348b7a0 2537 rust-mio-named-pipes_0.1.6-2.dsc
+ 0e68149cff6d0663d9d70dc88a3f124a 14766 rust-mio-named-pipes_0.1.6.orig.tar.gz
+ f4d813c29749529f1940308a44378f37 2492 rust-mio-named-pipes_0.1.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mio-named-pipes
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/mio-named-pipes]
+Checksums-Sha256:
+ 9d47dc86f5c9ff849c4f3fac10086a439925d015247274b5a7478230c8f07125 2537 rust-mio-named-pipes_0.1.6-2.dsc
+ f5e374eff525ce1c5b7687c4cef63943e7686524a387933ad27ca7ec43779cb3 14766 rust-mio-named-pipes_0.1.6.orig.tar.gz
+ 3721296c57022136a59fd3eba0d53fe4332cd5c0d9ee897b0c73981453c6927a 2492 rust-mio-named-pipes_0.1.6-2.debian.tar.xz
+Homepage: https://github.com/alexcrichton/mio-named-pipes
+Package-List: 
+ librust-mio-named-pipes-dev deb rust optional arch=any
+Directory: pool/main/r/rust-mio-named-pipes
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: libisal
+Binary: isal, libisal-dev, libisal2
+Version: 2.30.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 13), nasm
+Architecture: amd64 arm64 kfreebsd-amd64
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8f861a2eba88c6063fddd093057a7948 2174 libisal_2.30.0-2.dsc
+ 8195b40800c5cca3b69f1239ce7c01d5 369568 libisal_2.30.0.orig.tar.xz
+ e861638a8ebb1cbca1a0e879ccf98b59 6920 libisal_2.30.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/third-party/libisal
+Vcs-Git: https://salsa.debian.org/openstack-team/third-party/libisal.git
+Checksums-Sha256:
+ 3edab3418fad2c0fe806416a7c6c7b54659c2911204a8cfb9c858be9891c500a 2174 libisal_2.30.0-2.dsc
+ f363f1be3d657d5676cef5253ee2233e60116e2fa9c9de86881185bf81e0e4b8 369568 libisal_2.30.0.orig.tar.xz
+ 7fbc61aca5e3e09e2c9ce1079c21f3307d3e0d2ee7c756300857d4b8d24f6789 6920 libisal_2.30.0-2.debian.tar.xz
+Homepage: https://github.com/01org/isa-l
+Package-List: 
+ isal deb utils optional arch=amd64,arm64,kfreebsd-amd64
+ libisal-dev deb libdevel optional arch=amd64,arm64,kfreebsd-amd64
+ libisal2 deb libs optional arch=amd64,arm64,kfreebsd-amd64
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/libi/libisal
+Priority: optional
+Section: misc

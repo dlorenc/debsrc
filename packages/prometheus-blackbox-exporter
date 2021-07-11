@@ -1,0 +1,27 @@
+Package: prometheus-blackbox-exporter
+Binary: prometheus-blackbox-exporter
+Version: 0.18.0+ds-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Filippo Giunchedi <filippo@debian.org>, Martina Ferrari <tina@debian.org>, Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any (>= 2:1.13~), golang-github-go-kit-kit-dev, golang-github-miekg-dns-dev (>= 1), golang-github-prometheus-client-golang-dev, golang-github-prometheus-client-model-dev, golang-github-prometheus-common-dev (>= 0.14.0~), golang-golang-x-net-dev, golang-gopkg-yaml.v3-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f6be0f121cc413415d1943ed8cb4cf47 2640 prometheus-blackbox-exporter_0.18.0+ds-3.dsc
+ 960869c149a18973810b0554e85e7c17 65482 prometheus-blackbox-exporter_0.18.0+ds.orig.tar.gz
+ d823d0c09cd0219b1479ec9b96b12a13 10740 prometheus-blackbox-exporter_0.18.0+ds-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/prometheus-blackbox-exporter
+Vcs-Git: https://salsa.debian.org/go-team/packages/prometheus-blackbox-exporter.git
+Checksums-Sha256:
+ 0c6c0747b1b911e703c45b64bc0f5974d1939039e54c893f4ff672e1e5128957 2640 prometheus-blackbox-exporter_0.18.0+ds-3.dsc
+ df2a725561e5cad389d521b975baae0f653562a0db0c4f1142efc01e64e608df 65482 prometheus-blackbox-exporter_0.18.0+ds.orig.tar.gz
+ 01e38f981d4379506bf641cf32b10dc730ffabd265d7ecb7fd56c7571dbc0723 10740 prometheus-blackbox-exporter_0.18.0+ds-3.debian.tar.xz
+Homepage: https://github.com/prometheus/blackbox_exporter
+Go-Import-Path: github.com/prometheus/blackbox_exporter
+Package-List: 
+ prometheus-blackbox-exporter deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/p/prometheus-blackbox-exporter
+Priority: optional
+Section: misc

@@ -1,0 +1,29 @@
+Package: alot
+Binary: alot, alot-doc
+Version: 0.9.1-2
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Jordan Justen <jljusten@debian.org>, Simon Chopin <chopin.simon@gmail.com>, Hugo Lefeuvre <hle@debian.org>, Johannes 'josch' Schauer <josch@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, procps, less, locales-all, python3 (>= 3.6), python3-configobj, python3-doc, python3-gpg (>= 1.13.1-6), python3-magic (>= 2:0.4.15), python3-notmuch (>= 0.27), python3-setuptools, python3-sphinx (>= 1.0.7+dfsg), python3-twisted (>= 18.4.0), python3-urwid (>= 1.1.0), python3-urwidtrees (>= 1.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 399b5a565d49918c3057565864ee60ba 2717 alot_0.9.1-2.dsc
+ 866e4d5f16b198f4714c0b2343cef565 228645 alot_0.9.1.orig.tar.gz
+ e0f28b5445723106662f78376e30565f 195 alot_0.9.1.orig.tar.gz.asc
+ 222211057cc39da8d7384a5a7814590a 10000 alot_0.9.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/alot
+Vcs-Git: https://salsa.debian.org/python-team/applications/alot.git
+Checksums-Sha256:
+ bba489b1844f43381910ca17c3da811f14b4f1f21bb8fcc9701d1931b8cda1ed 2717 alot_0.9.1-2.dsc
+ ee2c1ab1b43d022a8fe2078820ed57d8d72aec260a7d750776dac4ee841d1de4 228645 alot_0.9.1.orig.tar.gz
+ e844d43ae74670e198dda2d4718b513d941b0cef029343276aac7fc97ef17ecd 195 alot_0.9.1.orig.tar.gz.asc
+ eb2ad94c1ec1bacd8d1934b7ee122741bc392eef9f5fcc95486e94b00c8d7460 10000 alot_0.9.1-2.debian.tar.xz
+Homepage: https://github.com/pazz/alot/
+Dgit: aa5c5e3eba6efda71dc7147448ae71fcdd85bc4b debian archive/debian/0.9.1-2 https://git.dgit.debian.org/alot
+Package-List: 
+ alot deb mail optional arch=all
+ alot-doc deb doc optional arch=all
+Directory: pool/main/a/alot
+Priority: source
+Section: misc

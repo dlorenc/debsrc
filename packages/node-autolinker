@@ -1,0 +1,26 @@
+Package: node-autolinker
+Binary: node-autolinker
+Version: 1.8.3+dfsg-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Daniel Ring <dring@wolfishly.me>
+Build-Depends: debhelper-compat (= 13), node-umd, dh-sequence-nodejs, uglifyjs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f40c7d4a86aa66ead75f2eeb064ddd82 2111 node-autolinker_1.8.3+dfsg-4.dsc
+ 7112f0ee0c1eee4f9136e8f3e74e6a9e 160784 node-autolinker_1.8.3+dfsg.orig.tar.xz
+ 407775bdd506a4ba193f939b083b7d25 8656 node-autolinker_1.8.3+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-autolinker
+Vcs-Git: https://salsa.debian.org/js-team/node-autolinker.git
+Checksums-Sha256:
+ 5950e9aabf95f19f818fab16215cd768d77b1139beea9b210e8806e8a8baee70 2111 node-autolinker_1.8.3+dfsg-4.dsc
+ f1da66edbf21cb0e67415b2cd23d0035d7ea7dc929d47a67e7375fcca5b33565 160784 node-autolinker_1.8.3+dfsg.orig.tar.xz
+ f0416933be88a80c08ed170f0d43586bd3991299738bc538a51a697612dcb5c9 8656 node-autolinker_1.8.3+dfsg-4.debian.tar.xz
+Homepage: https://github.com/gregjacobs/Autolinker.js
+Package-List: 
+ node-autolinker deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-autolinker
+Priority: extra
+Section: misc

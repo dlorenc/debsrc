@@ -1,0 +1,25 @@
+Package: kyua
+Binary: kyua
+Version: 0.13-3
+Maintainer: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: autotools-dev, debhelper-compat (= 12), libatf-dev, atf-sh, liblua5.2-dev, liblutok-dev, libsqlite3-dev, pkgconf | pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1e043c903a2b67c7dc952c41679ed092 1634 kyua_0.13-3.dsc
+ 475203c0877ebe739edf8b8dff4606ec 663776 kyua_0.13.orig.tar.gz
+ bc56d799fdf040e20e2b3841a36f4062 3340 kyua_0.13-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/kyua
+Vcs-Git: https://salsa.debian.org/debian/kyua.git
+Checksums-Sha256:
+ 709a8d14763c5128e374d177f724b92e0ce645290bd1ffd2d954023376cf4566 1634 kyua_0.13-3.dsc
+ db6e5d341d5cf7e49e50aa361243e19087a00ba33742b0855d2685c0b8e721d6 663776 kyua_0.13.orig.tar.gz
+ 5b5f955e62df8b6b95db7692473c2478a23fa15798c92afe64913efe9414b550 3340 kyua_0.13-3.debian.tar.xz
+Homepage: https://github.com/jmmv/kyua
+Dgit: 1b786564bbb5d8727ecbf5c713101aeaa05b012e debian archive/debian/0.13-3 https://git.dgit.debian.org/kyua
+Package-List: 
+ kyua deb devel optional arch=any
+Directory: pool/main/k/kyua
+Priority: extra
+Section: misc

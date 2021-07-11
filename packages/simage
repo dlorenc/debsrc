@@ -1,0 +1,28 @@
+Package: simage
+Binary: libsimage-dev, libsimage20
+Version: 1.8.0-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Steve M. Robbins <smr@debian.org>
+Build-Depends: cmake, debhelper (>= 12), libgif-dev, libjpeg-dev, libpng-dev, libsndfile1-dev, libtiff-dev, libvorbis-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 6af154c09fe25a2d680c6b8a5fa78ab8 2145 simage_1.8.0-2.dsc
+ 73bd33cace7396b33f13a3fefa758ab7 504484 simage_1.8.0.orig.tar.xz
+ 76bf50443a24f3d7db5754a99c5139e9 25732 simage_1.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/simage
+Vcs-Git: https://salsa.debian.org/science-team/simage.git
+Checksums-Sha256:
+ 500ff922c4f6354c95f4cf121103ad46f5db0c3f5e35bd57f3a7b7eeaf41e197 2145 simage_1.8.0-2.dsc
+ a7d742b0a153fa78f693f2ad8ebf18e754421bfbcb760f7516289561eca11925 504484 simage_1.8.0.orig.tar.xz
+ 7f9a5afea77e1ab9af25fafbf4a3cc8663ade3b88bf16647a4fa9378c67a29d6 25732 simage_1.8.0-2.debian.tar.xz
+Homepage: https://bitbucket.org/Coin3D/simage
+Package-List: 
+ libsimage-dev deb libdevel optional arch=any
+ libsimage20 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/s/simage
+Priority: source
+Section: libs

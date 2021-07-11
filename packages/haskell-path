@@ -1,0 +1,28 @@
+Package: haskell-path
+Binary: libghc-path-dev, libghc-path-prof, libghc-path-doc
+Version: 0.7.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev, libghc-aeson-prof, libghc-exceptions-dev (>= 0.4), libghc-exceptions-dev (<< 0.11), libghc-exceptions-prof, libghc-hashable-dev (>= 1.2), libghc-hashable-dev (<< 1.4), libghc-hashable-prof, libghc-quickcheck2-dev <!nocheck>, libghc-genvalidity-dev (>= 0.8) <!nocheck>, libghc-genvalidity-hspec-dev (>= 0.7) <!nocheck>, libghc-genvalidity-property-dev (>= 0.4) <!nocheck>, libghc-hspec-dev (>= 2.0) <!nocheck>, libghc-hspec-dev (<< 3) <!nocheck>, libghc-validity-dev (>= 0.8.0.0) <!nocheck>
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-exceptions-doc, libghc-hashable-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cbf7aa14630b0f5268bd24028ec727ad 2836 haskell-path_0.7.0-3.dsc
+ 19ab7d6c235b54761d29d4781d3031d6 24227 haskell-path_0.7.0.orig.tar.gz
+ 9de552690edef0a0b762db3c010d1f22 3372 haskell-path_0.7.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-path
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-path]
+Checksums-Sha256:
+ df2196b3fcd5beccf1545b1af0993e58d8b3767ee798b880c54aa4eb1011ed32 2836 haskell-path_0.7.0-3.dsc
+ b328d285381ce00607444c96cf6d1bf4aa30e8dcb8e82017e5a33636abf487b6 24227 haskell-path_0.7.0.orig.tar.gz
+ 78e6a8033114ea27606d187cebda0c145bcad432f805a4040f23d1bb65362f99 3372 haskell-path_0.7.0-3.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/path
+Package-List: 
+ libghc-path-dev deb haskell optional arch=any
+ libghc-path-doc deb doc optional arch=all
+ libghc-path-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-path
+Priority: optional
+Section: misc

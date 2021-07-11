@@ -1,0 +1,28 @@
+Package: haskell-simple-reflect
+Binary: libghc-simple-reflect-dev, libghc-simple-reflect-prof, libghc-simple-reflect-doc
+Version: 0.3.3-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d74f4668be50912d22e71eaedc4330ed 2421 haskell-simple-reflect_0.3.3-3.dsc
+ f6410d426f8c09e5c5aa36a7e325572c 4590 haskell-simple-reflect_0.3.3.orig.tar.gz
+ 84a5f094c76d558fa58884ef023f98c2 3056 haskell-simple-reflect_0.3.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-simple-reflect
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-simple-reflect]
+Checksums-Sha256:
+ 886d96ab93c689cdfb8263c007e9a6fbfd04d556688f5923f5e190c8aa0417e4 2421 haskell-simple-reflect_0.3.3-3.dsc
+ 07825ea04c135298008cf080133e3bfc8e04cbacd24719c46ac6a2ca4acfdb2b 4590 haskell-simple-reflect_0.3.3.orig.tar.gz
+ 55d223c44f8539d63fc6731a826e19ad65f6db8d04246dd0a912caf8c3ce3bb5 3056 haskell-simple-reflect_0.3.3-3.debian.tar.xz
+Homepage: http://twanvl.nl/blog/haskell/simple-reflection-of-expressions
+Package-List: 
+ libghc-simple-reflect-dev deb haskell optional arch=any
+ libghc-simple-reflect-doc deb doc optional arch=all
+ libghc-simple-reflect-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-simple-reflect
+Priority: source
+Section: misc

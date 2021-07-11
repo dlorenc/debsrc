@@ -1,0 +1,27 @@
+Package: libxklavier
+Binary: libxklavier16, libxklavier-dev, gir1.2-xkl-1.0
+Version: 5.4-4
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Frederic Peters <fpeters@debian.org>, Jeremy Bicha <jbicha@debian.org>, Josselin Mouette <joss@debian.org>, Martin Pitt <mpitt@debian.org>, Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper (>= 11), gtk-doc-tools (>= 1.0), libglib2.0-dev (>= 2.16.0), libxml2-dev (>= 2.0.0), pkg-config, libxkbfile-dev, libxt-dev, libxi-dev (>= 2:1.1.3), gobject-introspection (>= 1.30), libgirepository1.0-dev (>= 1.30), gnome-pkg-tools (>= 0.12.3), iso-codes, libglib2.0-doc
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 70dafd9ada03ea2a761e852cadda3b65 2480 libxklavier_5.4-4.dsc
+ aaa8366eaecae3075a2b35d2c0c948c8 73464 libxklavier_5.4.orig.tar.xz
+ 5073f84b4c68302cc2b69b7b24633d76 8792 libxklavier_5.4-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/libxklavier
+Vcs-Git: https://salsa.debian.org/gnome-team/libxklavier.git
+Checksums-Sha256:
+ b3218256fc5ac892565c4b11b9df80d9dc721c2c26ad32e2ec61aab9a52758fe 2480 libxklavier_5.4-4.dsc
+ a30b302f3490e6423d21844dae4411a38e9c9d4f5196df571bc8276a03a53e63 73464 libxklavier_5.4.orig.tar.xz
+ f4f348588109295586f86da9a4c1532e92ab3d0358685839702e38b8c17d6f77 8792 libxklavier_5.4-4.debian.tar.xz
+Homepage: https://www.freedesktop.org/wiki/Software/LibXklavier
+Package-List: 
+ gir1.2-xkl-1.0 deb introspection optional arch=any
+ libxklavier-dev deb libdevel optional arch=any
+ libxklavier16 deb libs optional arch=any
+Directory: pool/main/libx/libxklavier
+Priority: source
+Section: libs

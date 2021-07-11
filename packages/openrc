@@ -1,0 +1,29 @@
+Package: openrc
+Binary: openrc, librc1, librc-dev, libeinfo1, libeinfo-dev
+Version: 0.42-2.1
+Maintainer: OpenRC Debian Maintainers <openrc@packages.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Benda Xu <heroxbd@gentoo.org>, Mo Zhou <cdluminate@gmail.com>
+Build-Depends: debhelper (>= 11), libaudit-dev [linux-any], libpam0g-dev [linux-any], libselinux1-dev [linux-any]
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5e55b01dacb117ac6d390438d4be02e8 2209 openrc_0.42-2.1.dsc
+ 66686589f8cd5cabc61c60e2873eb7d1 193368 openrc_0.42.orig.tar.xz
+ 01ff941385cfc9266cc59eaa9bdb36bb 26552 openrc_0.42-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/openrc
+Vcs-Git: https://salsa.debian.org/debian/openrc.git
+Checksums-Sha256:
+ 7f34bd3e6a29bf0153fba18ab6c4d0f16e6345fa1e7a6d14fb678e13920f269f 2209 openrc_0.42-2.1.dsc
+ a0b04f5b218c64513a51cf2dacc3ceab79b861fe233953dbc27eb80111515c18 193368 openrc_0.42.orig.tar.xz
+ e80f62af6c9a8432189aeb4c6956b14676dd7659ea757a44514457b89d8bed1c 26552 openrc_0.42-2.1.debian.tar.xz
+Homepage: https://github.com/openrc/openrc
+Package-List: 
+ libeinfo-dev deb libdevel optional arch=any
+ libeinfo1 deb libs optional arch=any
+ librc-dev deb libdevel optional arch=any
+ librc1 deb libs optional arch=any
+ openrc deb admin optional arch=any
+Directory: pool/main/o/openrc
+Priority: optional
+Section: misc

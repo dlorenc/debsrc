@@ -1,0 +1,26 @@
+Package: node-stream-each
+Binary: node-stream-each
+Version: 1.2.3-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-end-of-stream <!nocheck>, node-json-stringify-safe <!nocheck>, node-split2 <!nocheck>, node-stream-shift <!nocheck>, node-tape <!nocheck>, node-through2 <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9adec385c1a69425029d05f68c91bd74 2238 node-stream-each_1.2.3-1.dsc
+ 1d0ba4c8cf7aa7d85097c1a5cea4d9ac 2936 node-stream-each_1.2.3.orig.tar.gz
+ 7040a479a9be54c57eced10245233879 4488 node-stream-each_1.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-stream-each
+Vcs-Git: https://salsa.debian.org/js-team/node-stream-each.git
+Checksums-Sha256:
+ 1e6999039b111258ebb0cc7052a7b015eb10ad3fed8f1d7bd986e5c9dd404433 2238 node-stream-each_1.2.3-1.dsc
+ c1130a1e7c623507af65852b90aa50662a67e1c377cc709d635dbcb80fca074b 2936 node-stream-each_1.2.3.orig.tar.gz
+ 6f2343b1200ce5e043ae49cf355702076abfde5364b6459053c2f0da3ea4650a 4488 node-stream-each_1.2.3-1.debian.tar.xz
+Homepage: https://github.com/mafintosh/stream-each
+Package-List: 
+ node-stream-each deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-stream-each
+Priority: extra
+Section: misc

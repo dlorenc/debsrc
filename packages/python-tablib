@@ -1,0 +1,28 @@
+Package: python-tablib
+Binary: python3-tablib
+Version: 0.13.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Joseph Herlant <aerostitch@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: python3-odf, python3-openpyxl, python3-pandas, python3-pytest, python3-unicodecsv, python3-xlrd, python3-xlwt, python3-yaml
+Architecture: all
+Standards-Version: 4.4.0.1
+Format: 3.0 (quilt)
+Files:
+ bd5f41fe67f1e3f1853a3c8f58818c64 2328 python-tablib_0.13.0-1.dsc
+ 5fbed00354a77cfd296ca6e2b44addb8 86898 python-tablib_0.13.0.orig.tar.gz
+ 593cfa71f3113e23844d9c8b66d2c079 5488 python-tablib_0.13.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-tablib
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-tablib.git
+Checksums-Sha256:
+ f073cd8bfeddc5bd75700bd02424a7173062b50324787002972487ab179eac8b 2328 python-tablib_0.13.0-1.dsc
+ 3b2425afd6c758254be37bf8027d65d4aff744405ea98ed3dd7fa38f7ab4e667 86898 python-tablib_0.13.0.orig.tar.gz
+ c4a64cb0938a4947139f736e43b72de08c2f9aaed269dc933470cac792788226 5488 python-tablib_0.13.0-1.debian.tar.xz
+Homepage: http://docs.python-tablib.org/en/latest/index.html
+Package-List: 
+ python3-tablib deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-tablib
+Priority: source
+Section: misc

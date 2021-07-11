@@ -1,0 +1,26 @@
+Package: guvcview
+Binary: guvcview, libguvcview-2.0-2, libguvcview-dev
+Version: 2.0.6+debian-1
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper (>= 11), intltool, libsdl2-dev, libgtk-3-dev, portaudio19-dev, libpng-dev, libtwolame-dev, libavcodec-dev, libv4l-dev, libudev-dev, libusb-1.0-0-dev, libgsl-dev
+Architecture: linux-any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ cba03fc6e79902ed48cfcf7ee113e2ef 2179 guvcview_2.0.6+debian-1.dsc
+ 7883ea713e3b39cff356e4037bc0c40b 593608 guvcview_2.0.6+debian.orig.tar.xz
+ 100d24c0269753aa435e6c705c5eba1b 6540 guvcview_2.0.6+debian-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/guvcview
+Vcs-Git: https://salsa.debian.org/debian/guvcview.git
+Checksums-Sha256:
+ d36ad9090bab5bb9a0da3f55d4cd612258122c81f78abf04d8dbcb62287fa29d 2179 guvcview_2.0.6+debian-1.dsc
+ ae50b50de1fef6a6147c071f3a9fda53f29fda8504a7d2a9b8ed3ae69f115164 593608 guvcview_2.0.6+debian.orig.tar.xz
+ b29f8200ccbcdd9dba82bcbdde6d73e15e75d95328f46d15dfa98d724743b4bf 6540 guvcview_2.0.6+debian-1.debian.tar.xz
+Homepage: http://guvcview.sourceforge.net/
+Package-List: 
+ guvcview deb graphics optional arch=linux-any
+ libguvcview-2.0-2 deb libs optional arch=linux-any
+ libguvcview-dev deb libdevel optional arch=linux-any
+Directory: pool/main/g/guvcview
+Priority: source
+Section: graphics

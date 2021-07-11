@@ -1,0 +1,26 @@
+Package: rust-rgb
+Binary: librust-rgb-dev, librust-rgb+serde-dev
+Version: 0.8.11-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 57c443d73f1cb884704624bbdca801ac 1785 rust-rgb_0.8.11-1.dsc
+ 36a3fe193378d4a050c684afbbe72b1a 9519 rust-rgb_0.8.11.orig.tar.gz
+ dce25f0a0d5c2743969218f4c8bad144 2440 rust-rgb_0.8.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rgb
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rgb]
+Checksums-Sha256:
+ de97cc2834b2a56b386b1baa08c368d50b6382bb2e45c9f203f67058c8da44d9 1785 rust-rgb_0.8.11-1.dsc
+ 002bebda58b24482d6911a59512e8a17fa1defecf5a2162521113b7cc5422dd1 9519 rust-rgb_0.8.11.orig.tar.gz
+ ae127ca3b0246aa1208c6d28c183f01c53fe2ff391ac0e5be7e4a05f7b319883 2440 rust-rgb_0.8.11-1.debian.tar.xz
+Homepage: https://crates.rs/crates/rgb
+Package-List: 
+ librust-rgb+serde-dev deb rust optional arch=any
+ librust-rgb-dev deb rust optional arch=any
+Directory: pool/main/r/rust-rgb
+Priority: extra
+Section: misc

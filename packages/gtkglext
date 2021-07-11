@@ -1,0 +1,26 @@
+Package: gtkglext
+Binary: libgtkglext1-dev, libgtkglext1, libgtkglext1-doc
+Version: 1.2.0-9
+Maintainer: Gert Wollny <gewo@debian.org>
+Build-Depends: debhelper (>= 10), libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, libgtk2.0-dev (>= 2.20), libice-dev, libpango1.0-dev, libpangox-1.0-dev, libsm-dev, libxmu-dev, libxt-dev
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 5d560ffa2b6aa46b5dc9d7a11a33ca2c 1774 gtkglext_1.2.0-9.dsc
+ 18265c10709340b43662b9695e01e228 568812 gtkglext_1.2.0.orig.tar.xz
+ f62317b252b76ddd11e8b1b46992f474 7528 gtkglext_1.2.0-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gewo/gtkglext
+Vcs-Git: https://salsa.debian.org/gewo/gtkglext.git
+Checksums-Sha256:
+ b7c35aacdc3dca930cb7febfbce6c3589b5f604eb0a525ca08d394b49fa4b5c9 1774 gtkglext_1.2.0-9.dsc
+ d749c16b287666795892c759905b319543ae68d845dff6578829809420bbced5 568812 gtkglext_1.2.0.orig.tar.xz
+ 7943662105a38d26fa2c90babfeab793ac651f3efd0caa573aa828d4f6b59b1a 7528 gtkglext_1.2.0-9.debian.tar.xz
+Homepage: http://projects.gnome.org/gtkglext/
+Package-List: 
+ libgtkglext1 deb oldlibs optional arch=any
+ libgtkglext1-dev deb libdevel optional arch=any
+ libgtkglext1-doc deb doc optional arch=all
+Directory: pool/main/g/gtkglext
+Priority: source
+Section: libs

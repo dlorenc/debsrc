@@ -1,0 +1,28 @@
+Package: haskell-groups
+Binary: libghc-groups-dev, libghc-groups-prof, libghc-groups-doc
+Version: 0.4.1.0-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 903c8b4afce60f0d1c9b194b2b4dcdec 2291 haskell-groups_0.4.1.0-4.dsc
+ bfb89903f8886ed0793f916324e21208 2136 haskell-groups_0.4.1.0.orig.tar.gz
+ b9d10b6d68f37803164324cb23bf52cb 3016 haskell-groups_0.4.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-groups
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-groups]
+Checksums-Sha256:
+ ac86d5469dcb817af2ff28f51cd2679c829569d882c9014d079d7a6336a72518 2291 haskell-groups_0.4.1.0-4.dsc
+ dd4588b71dfff42b9a30cb40304912742b95db964b20f51951aff0eee7f3f33d 2136 haskell-groups_0.4.1.0.orig.tar.gz
+ 61a941999cdaeec88fd054e62b1e1d20e6d66c2e8913c87e2f2c5af32d1a22f4 3016 haskell-groups_0.4.1.0-4.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/groups
+Package-List: 
+ libghc-groups-dev deb haskell optional arch=any
+ libghc-groups-doc deb doc optional arch=all
+ libghc-groups-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-groups
+Priority: optional
+Section: misc

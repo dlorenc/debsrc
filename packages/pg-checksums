@@ -1,0 +1,28 @@
+Package: pg-checksums
+Binary: postgresql-13-pg-checksums, pg-checksums-doc
+Version: 1.0-6
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Michael Banck <michael.banck@credativ.de>,
+Build-Depends: debhelper-compat (= 13), docbook-xsl, postgresql-all (>= 217~), xsltproc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cf51da3ac0a940621496e0fe6a6a4fe5 2161 pg-checksums_1.0-6.dsc
+ 03624ee98d281521dbaff5a46cd418c1 39446 pg-checksums_1.0.orig.tar.gz
+ 93a63fbd2e749281c5646785a5bda7df 4580 pg-checksums_1.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pg-checksums
+Vcs-Git: https://salsa.debian.org/postgresql/pg-checksums.git
+Checksums-Sha256:
+ 5984b7739e8288666c848366d3f5c44480a414b27d4b9f545b20762c02ca56e3 2161 pg-checksums_1.0-6.dsc
+ 4910dc9c37cbfad9c0df53eb067aae28741ebfcb9d6f7df90aec63df35d065a6 39446 pg-checksums_1.0.orig.tar.gz
+ eb412398e86476842c3005a71dbc00a550c0beba8bd03b96de3f4b202115a353 4580 pg-checksums_1.0-6.debian.tar.xz
+Homepage: https://github.com/credativ/pg_checksums
+Package-List: 
+ pg-checksums-doc deb doc optional arch=all
+ postgresql-13-pg-checksums deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libipc-run-perl, make
+Directory: pool/main/p/pg-checksums
+Priority: extra
+Section: misc

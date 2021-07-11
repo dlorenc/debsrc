@@ -1,0 +1,26 @@
+Package: rust-universal-hash
+Binary: librust-universal-hash-dev
+Version: 0.3.0-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-generic-array-0.14+default-dev <!nocheck>, librust-subtle-2-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ad5bee2297d04b97ee86c2c332b475d9 2263 rust-universal-hash_0.3.0-3.dsc
+ 165195486723b28bd7f8c4e9464fe9c6 7457 rust-universal-hash_0.3.0.orig.tar.gz
+ 23df964d1b3ecbb5e0c3ed45081f6b80 2888 rust-universal-hash_0.3.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/universal-hash
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/universal-hash]
+Checksums-Sha256:
+ 95e7da6a94a33e80203fab7969d5b4f63c07e97449ad0c60f1334d64e962b6b8 2263 rust-universal-hash_0.3.0-3.dsc
+ df0c900f2f9b4116803415878ff48b63da9edb268668e08cf9292d7503114a01 7457 rust-universal-hash_0.3.0.orig.tar.gz
+ 841543f6c0e15a3fab031b64ecedb881c1da99a01e1d00b5c7172adefb6e3dcd 2888 rust-universal-hash_0.3.0-3.debian.tar.xz
+Package-List: 
+ librust-universal-hash-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-universal-hash
+Priority: extra
+Section: misc

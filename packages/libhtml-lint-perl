@@ -1,0 +1,28 @@
+Package: libhtml-lint-perl
+Binary: libhtml-lint-perl, weblint-perl
+Version: 2.32+dfsg-1.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: perl, libhtml-parser-perl (>= 3.47), libhtml-tagset-perl (>= 3.03), libtest-pod-perl (>= 0.95), libtest-pod-coverage-perl (>= 1.04), txt2man
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ cc5621fd697817f00d6a51bf3af81a47 2352 libhtml-lint-perl_2.32+dfsg-1.1.dsc
+ 42b0927345f0d734994e48be0aaef02c 27050 libhtml-lint-perl_2.32+dfsg.orig.tar.gz
+ ef8f807a02d9ba617d9b0b7e9c938460 8840 libhtml-lint-perl_2.32+dfsg-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhtml-lint-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhtml-lint-perl.git
+Checksums-Sha256:
+ 8051db591e178691bce4c04ecf9d970740f81bc75af372c93da651d21bc89d04 2352 libhtml-lint-perl_2.32+dfsg-1.1.dsc
+ 8d046108cafc0f90b985be4dc004b8336e407053bc3ceca608418957a6210999 27050 libhtml-lint-perl_2.32+dfsg.orig.tar.gz
+ d926d3e69bd09bcc99ed34346d6bcc38a036a723c4ddb7d886e5eca8fc658f6b 8840 libhtml-lint-perl_2.32+dfsg-1.1.debian.tar.xz
+Homepage: https://metacpan.org/release/HTML-Lint
+Package-List: 
+ libhtml-lint-perl deb perl optional arch=all
+ weblint-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhtml-lint-perl
+Priority: source
+Section: perl

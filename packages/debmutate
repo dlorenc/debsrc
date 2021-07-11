@@ -1,0 +1,22 @@
+Package: debmutate
+Binary: python3-debmutate
+Version: 0.20
+Maintainer: Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: dh-python, python3-all, python3-debian, python3-setuptools, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ a15e4440f1892290d3e5e74836c21fd6 1614 debmutate_0.20.dsc
+ a11efb16232281cd5cd93b3290aa298b 37284 debmutate_0.20.tar.xz
+Vcs-Browser: https://salsa.debian.org/jelmer/debmutate
+Vcs-Git: https://salsa.debian.org/jelmer/debmutate.git
+Checksums-Sha256:
+ 426711d4e55a924a14a30e1d7ae304771376a86124e0be4353244d6a6bd0e48b 1614 debmutate_0.20.dsc
+ 5a2fe1b511e483a002608cf164fb96120dbb4753df9c959ba8fc14579412aea0 37284 debmutate_0.20.tar.xz
+Package-List: 
+ python3-debmutate deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/d/debmutate
+Priority: extra
+Section: misc

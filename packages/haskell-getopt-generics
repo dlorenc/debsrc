@@ -1,0 +1,26 @@
+Package: haskell-getopt-generics
+Binary: libghc-getopt-generics-dev, libghc-getopt-generics-prof, libghc-getopt-generics-doc
+Version: 0.13.0.4-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-base-compat-dev (>= 0.8), libghc-base-compat-prof (>= 0.8), libghc-base-orphans-dev, libghc-base-orphans-prof, libghc-generics-sop-dev (>= 0.2.3), libghc-generics-sop-dev (<< 0.6), libghc-generics-sop-prof, libghc-tagged-dev, libghc-tagged-prof, libghc-quickcheck2-dev, libghc-hspec-dev (>= 2.1.8), libghc-safe-dev, libghc-silently-dev
+Build-Depends-Indep: ghc-doc, libghc-base-compat-doc, libghc-base-orphans-doc, libghc-generics-sop-doc, libghc-tagged-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cdcbb9b2638d2bf6a8d6ec55ab951660 2714 haskell-getopt-generics_0.13.0.4-1.dsc
+ 9419a1d1545f3fb8bb04dacd2c427143 19194 haskell-getopt-generics_0.13.0.4.orig.tar.gz
+ 11bec595556b9a5168de0446f65ed4a1 2468 haskell-getopt-generics_0.13.0.4-1.debian.tar.xz
+Checksums-Sha256:
+ b12191418bd8097f620f431eabb5530c6e1b875d7b849c9889554f8dfedfe927 2714 haskell-getopt-generics_0.13.0.4-1.dsc
+ f9458ffc13a8767ca8026a2c9dfc294ce2b5ca94148d5286e368bc1c2c9b5fe7 19194 haskell-getopt-generics_0.13.0.4.orig.tar.gz
+ be4a8e597844a12e1ecc8e7ba8f6b2b87e3b259fc1bdd69ed6514ddc91f26a29 2468 haskell-getopt-generics_0.13.0.4-1.debian.tar.xz
+Homepage: https://github.com/soenkehahn/getopt-generics#readme
+Package-List: 
+ libghc-getopt-generics-dev deb haskell optional arch=any
+ libghc-getopt-generics-doc deb doc optional arch=all
+ libghc-getopt-generics-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-getopt-generics
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-posener-complete
+Binary: golang-github-posener-complete-dev
+Version: 1.2.3-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-hashicorp-go-multierror-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ cd83408a30fa6abe9981d09ef54aa064 2385 golang-github-posener-complete_1.2.3-2.dsc
+ 9f2531e6462d1b79e9e336ce19778936 19280 golang-github-posener-complete_1.2.3.orig.tar.xz
+ fff6e24ab3313780fd37a9cf75711cc7 2924 golang-github-posener-complete_1.2.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-posener-complete
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-posener-complete.git
+Checksums-Sha256:
+ 9277b6ae5209695c1abffdf76ba75d6477d740ee44faa3bc7ca62e62c8067f8e 2385 golang-github-posener-complete_1.2.3-2.dsc
+ 503259e2cafa1b2f6b2362c0dae1a11ccb6e565933e65dc55365d27222bc4098 19280 golang-github-posener-complete_1.2.3.orig.tar.xz
+ bdacf2b247223f913744d4e486b383db4acc85c9b8d1e47ae8140513c5381d22 2924 golang-github-posener-complete_1.2.3-2.debian.tar.xz
+Homepage: https://github.com/posener/complete
+Go-Import-Path: github.com/posener/complete
+Package-List: 
+ golang-github-posener-complete-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-posener-complete
+Priority: extra
+Section: golang

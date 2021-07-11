@@ -1,0 +1,27 @@
+Package: r-bioc-iranges
+Binary: r-bioc-iranges
+Version: 2.24.1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biocgenerics (>= 0.36.0), r-bioc-s4vectors (>= 0.27.12)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ad795f6121ab9f25441caddfb0836f10 2186 r-bioc-iranges_2.24.1-1.dsc
+ d80e152955f2984fea28f4c7eb704508 452117 r-bioc-iranges_2.24.1.orig.tar.gz
+ 8518b776516da37a435e5dd131c30810 4908 r-bioc-iranges_2.24.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-iranges
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-iranges.git
+Checksums-Sha256:
+ 6bbef3ca65ef8d501b76e7f6eb4ff119c21126877bfdda0db4d8870ab1f01e49 2186 r-bioc-iranges_2.24.1-1.dsc
+ a2704c1600ff0d15e587ac6389f440e6f5cbc99c40de02ce7fa36d819421bd06 452117 r-bioc-iranges_2.24.1.orig.tar.gz
+ 113876a90ec527831b39241c0e1c7f870e6cfc084a1ce5898bbea9e3fee9e5bf 4908 r-bioc-iranges_2.24.1-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/IRanges/
+Package-List: 
+ r-bioc-iranges deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-bioc-xvector, r-cran-runit
+Directory: pool/main/r/r-bioc-iranges
+Priority: optional
+Section: misc

@@ -1,0 +1,29 @@
+Package: rust-rand-chacha
+Binary: librust-rand-chacha-dev, librust-rand-chacha+default-dev, librust-rand-chacha+std-dev
+Version: 0.2.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-ppv-lite86-0.2+simd-dev (>= 0.2.6-~~) <!nocheck>, librust-ppv-lite86-0.2+std-dev (>= 0.2.6-~~) <!nocheck>, librust-rand-core-0.5+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6882ceb1bea0c021054df120dde30a30 2576 rust-rand-chacha_0.2.2-1.dsc
+ 0a80ed36a125ac3cdfa09f8707055873 13267 rust-rand-chacha_0.2.2.orig.tar.gz
+ e88923fd545400f4cd15fd1a229d910e 2960 rust-rand-chacha_0.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand-chacha
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand-chacha]
+Checksums-Sha256:
+ 733e7fb8a229b21cd248a0b47f39d677d41ecd19cd0e73fe80bf76be8e01d3ef 2576 rust-rand-chacha_0.2.2-1.dsc
+ f4c8ed856279c9737206bf725bf36935d8666ead7aa69b52be55af369d193402 13267 rust-rand-chacha_0.2.2.orig.tar.gz
+ 60205fd371cfe723db6aa18b9f173adba6ce7d6330664efdf3af88abe13d1320 2960 rust-rand-chacha_0.2.2-1.debian.tar.xz
+Homepage: https://crates.io/crates/rand_chacha
+Package-List: 
+ librust-rand-chacha+default-dev deb rust optional arch=any
+ librust-rand-chacha+std-dev deb rust optional arch=any
+ librust-rand-chacha-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rand-chacha
+Priority: extra
+Section: misc

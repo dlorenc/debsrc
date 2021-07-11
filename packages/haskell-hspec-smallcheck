@@ -1,0 +1,26 @@
+Package: haskell-hspec-smallcheck
+Binary: libghc-hspec-smallcheck-dev, libghc-hspec-smallcheck-prof, libghc-hspec-smallcheck-doc
+Version: 0.5.2-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-hunit-dev, libghc-hunit-prof, libghc-call-stack-dev, libghc-call-stack-prof, libghc-hspec-core-dev (>= 2.5.0), libghc-hspec-core-prof, libghc-smallcheck-dev (>= 1.1), libghc-smallcheck-prof, libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-base-orphans-dev, libghc-base-orphans-prof, libghc-hspec-dev
+Build-Depends-Indep: ghc-doc, libghc-hunit-doc, libghc-call-stack-doc, libghc-hspec-core-doc, libghc-smallcheck-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3d89a4a733c94d585ef622b546266020 2637 haskell-hspec-smallcheck_0.5.2-2.dsc
+ c3274cda4fa076dc9d25b2f1a9aa1dca 4432 haskell-hspec-smallcheck_0.5.2.orig.tar.gz
+ 0d45ae420b19715bf61c217896ad60f3 2144 haskell-hspec-smallcheck_0.5.2-2.debian.tar.xz
+Checksums-Sha256:
+ 684b7adda92fde37772c702e072d16eda0139b99936bf2bd6948ec66c09117bb 2637 haskell-hspec-smallcheck_0.5.2-2.dsc
+ 9a301a26a439a92b303217545b65792bd8500f25aeccbe48e46dfe914ef58119 4432 haskell-hspec-smallcheck_0.5.2.orig.tar.gz
+ e43d23e992b42d5dd1d822baa64dea9d2962d8056624e4214eb594d640f8772b 2144 haskell-hspec-smallcheck_0.5.2-2.debian.tar.xz
+Homepage: https://hspec.github.io/
+Package-List: 
+ libghc-hspec-smallcheck-dev deb haskell optional arch=any
+ libghc-hspec-smallcheck-doc deb doc optional arch=all
+ libghc-hspec-smallcheck-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hspec-smallcheck
+Priority: extra
+Section: misc

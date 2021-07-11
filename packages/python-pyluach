@@ -1,0 +1,27 @@
+Package: python-pyluach
+Binary: python-pyluach-doc, python3-pyluach
+Version: 1.2.1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 21242d2e6b4adfbe4deae872df2e2160 1843 python-pyluach_1.2.1-1.dsc
+ 98d4c3688d4ed1cb1e4ab218400a66be 19179 python-pyluach_1.2.1.orig.tar.gz
+ c75d1ad0f104402ea4848e8df77af523 3220 python-pyluach_1.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-pyluach
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-pyluach.git
+Checksums-Sha256:
+ 326b363d39de062ef1383d2181657d33ba30ebf1afdde13984fa04d2eb2936c5 1843 python-pyluach_1.2.1-1.dsc
+ 0315011d78c0059ccb16374525c23a167cbf93c3bbaa8263e43b4491a0562ba3 19179 python-pyluach_1.2.1.orig.tar.gz
+ a283c1596577a382daa15b4d3aa33a79bf431212cfbc4fe17ad39f93ba46ea9e 3220 python-pyluach_1.2.1-1.debian.tar.xz
+Homepage: https://github.com/simlist/pyluach/
+Package-List: 
+ python-pyluach-doc deb doc optional arch=all
+ python3-pyluach deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-pyluach
+Priority: extra
+Section: misc

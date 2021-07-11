@@ -1,0 +1,27 @@
+Package: ruby-haml-rails
+Binary: ruby-haml-rails
+Version: 2.0.1-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rails, rake, ruby-actionpack, ruby-activesupport, ruby-haml (<< 6.0), ruby-haml (>= 4.0.6~), ruby-html2haml (>= 2.0~), ruby-railties, ruby-test-unit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 10f074fd4bae45130bb4055844c67f94 2280 ruby-haml-rails_2.0.1-1.dsc
+ fb0a7ffad000e5705b5651df726b8af7 9463 ruby-haml-rails_2.0.1.orig.tar.gz
+ 2f14383ecc756282101e024fe4ce8c30 3448 ruby-haml-rails_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-haml-rails
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-haml-rails.git
+Checksums-Sha256:
+ 2689461778665e5069707cc8286eb7638204508be21c49212067dfeca855b46f 2280 ruby-haml-rails_2.0.1-1.dsc
+ 9b97e4bdcdb9bbadb62088a2079b3a61329ab61309af785681e2a5033b91baf9 9463 ruby-haml-rails_2.0.1.orig.tar.gz
+ 37e0bad3ad13da52c82f722f0a5a73e5c4d21da6a41e4a3efdc4984afecb5a62 3448 ruby-haml-rails_2.0.1-1.debian.tar.xz
+Homepage: https://github.com/indirect/haml-rails
+Package-List: 
+ ruby-haml-rails deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-haml-rails
+Priority: optional
+Section: misc

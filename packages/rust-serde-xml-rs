@@ -1,0 +1,26 @@
+Package: rust-serde-xml-rs
+Binary: librust-serde-xml-rs-dev
+Version: 0.4.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, librust-xml-rs-0.8+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cba18202f0bf4f235a5d87242704fd6d 2089 rust-serde-xml-rs_0.4.0-2.dsc
+ 4c4a90a7172cb09ce1d310ba877c2cc1 14858 rust-serde-xml-rs_0.4.0.orig.tar.gz
+ 06413e771c02287714808541502fb35c 2628 rust-serde-xml-rs_0.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-xml-rs
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-xml-rs]
+Checksums-Sha256:
+ 34588933f4e9ff5cb521ab414571b6790c1d7dbc96d1ba668ec07d2091db16d4 2089 rust-serde-xml-rs_0.4.0-2.dsc
+ efe415925cf3d0bbb2fc47d09b56ce03eef51c5d56846468a39bcc293c7a846c 14858 rust-serde-xml-rs_0.4.0.orig.tar.gz
+ 233872a619fd7e6c47c84a49cc9664470d689d72923438e638d3ac8fbe2e40fd 2628 rust-serde-xml-rs_0.4.0-2.debian.tar.xz
+Package-List: 
+ librust-serde-xml-rs-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-docmatic-0.1+default-dev, librust-serde-derive-1+default-dev, librust-simple-logger-1+default-dev
+Directory: pool/main/r/rust-serde-xml-rs
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: dpkg
+Binary: dpkg, libdpkg-dev, dpkg-dev, libdpkg-perl, dselect
+Version: 1.20.9
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Uploaders: Guillem Jover <guillem@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, gettext (>= 0.19.7), po4a (>= 0.59), zlib1g-dev, libbz2-dev, liblzma-dev, libselinux1-dev [linux-any], libncurses-dev (>= 6.1+20180210) | libncursesw5-dev, bzip2 <!nocheck>, xz-utils <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ a52e2adc18900f3a429158434ca168d7 2120 dpkg_1.20.9.dsc
+ 6ca4a7954b82c1be6e49aa3264f19f39 4954428 dpkg_1.20.9.tar.xz
+Vcs-Browser: https://git.dpkg.org/cgit/dpkg/dpkg.git
+Vcs-Git: https://git.dpkg.org/git/dpkg/dpkg.git
+Checksums-Sha256:
+ 87f21320f3165d1c57dae2314b7fd1849b49da9416fee3fb57c4b1e4192b4285 2120 dpkg_1.20.9.dsc
+ 5ce242830f213b5620f08e6c4183adb1ef4dc9da28d31988a27c87c71fe534ce 4954428 dpkg_1.20.9.tar.xz
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Package-List: 
+ dpkg deb admin required arch=any essential=yes
+ dpkg-dev deb utils optional arch=all
+ dselect deb admin optional arch=any
+ libdpkg-dev deb libdevel optional arch=any
+ libdpkg-perl deb perl optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: autoconf, build-essential, eatmydata, file, pkg-config
+Directory: pool/main/d/dpkg
+Priority: source
+Section: admin

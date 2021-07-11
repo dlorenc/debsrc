@@ -1,0 +1,27 @@
+Package: libtifiles
+Binary: libtifiles-dev, libtifiles2-10
+Version: 1.1.7-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Andreas B. Mundt <andi@debian.org>
+Build-Depends: debhelper (>= 11.0.0), gettext, libarchive-dev, libglib2.0-dev, libticonv-dev (>= 1.1.5), pkg-config, tfdocgen, zlib1g-dev
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 76fbbaa19b422a0d55d7451e7c31f156 2140 libtifiles_1.1.7-2.dsc
+ 0c7eb26b307a2e5299fa04df8db5397a 122271 libtifiles_1.1.7.orig.tar.bz2
+ 788c90dd72128f159e928b56313e056f 4560 libtifiles_1.1.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libtifiles
+Vcs-Git: https://salsa.debian.org/science-team/libtifiles.git
+Checksums-Sha256:
+ bc6a79628cf692f5cc449112076aae87700370f046e409082b410f4266bd4eec 2140 libtifiles_1.1.7-2.dsc
+ 92b1dc6a360c528c113183a4ce7b5aa04d583c9e29ad99a099bb324e43762dff 122271 libtifiles_1.1.7.orig.tar.bz2
+ 8f92db31b4d783e872c8d69224d046c366fe808d657870a0a792aa00f5f303c9 4560 libtifiles_1.1.7-2.debian.tar.xz
+Homepage: http://lpg.ticalc.org/prj_tilp/
+Package-List: 
+ libtifiles-dev deb libdevel optional arch=any
+ libtifiles2-10 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/libt/libtifiles
+Priority: source
+Section: libs

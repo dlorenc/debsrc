@@ -1,0 +1,27 @@
+Package: node-argv
+Binary: node-argv
+Version: 0.0.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs (>= 10) <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 057bf642a93ffe09e6255ae95f20e72e 2018 node-argv_0.0.2-3.dsc
+ ce0fc7f1c6816638125c1f3874195c22 7713 node-argv_0.0.2.orig.tar.gz
+ 794e70fc8862a278305b3ba05a3a8605 2308 node-argv_0.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-argv
+Vcs-Git: https://salsa.debian.org/js-team/node-argv.git
+Checksums-Sha256:
+ 9eebf482419c37564661648b3da99d10379058bb538c51238ede7417867899f1 2018 node-argv_0.0.2-3.dsc
+ 2e69ea0212bed1ea972873280f581a3d3f27067e16c58a985721707abf40c147 7713 node-argv_0.0.2.orig.tar.gz
+ 571aac467f720576269db1e7c04d68f6eaf09d0139c234cbf8d6e924af8af623 2308 node-argv_0.0.2-3.debian.tar.xz
+Homepage: https://github.com/codenothing/argv
+Package-List: 
+ node-argv deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: nodejs
+Directory: pool/main/n/node-argv
+Priority: optional
+Section: javascript

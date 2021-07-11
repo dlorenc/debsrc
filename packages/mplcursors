@@ -1,0 +1,27 @@
+Package: mplcursors
+Binary: python3-mplcursors
+Version: 0.4-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Sudip Mukherjee <sudipm.mukherjee@gmail.com>
+Build-Depends: debhelper-compat (= 13), python3-all, python3-cycler, python3-setuptools, dh-sequence-python3, python3-matplotlib, python3-setuptools-scm, python3-pytest, libopenblas-base, dh-python
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ afe792b6791fd874c30857177ad45823 2204 mplcursors_0.4-1.dsc
+ 1f6cf4b1ff400e4fe3500bcfa292ca4a 83503 mplcursors_0.4.orig.tar.gz
+ 3541c37db48fdcd1b6933288d5051df4 2744 mplcursors_0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/mplcursors
+Vcs-Git: https://salsa.debian.org/python-team/packages/mplcursors.git
+Checksums-Sha256:
+ 1cb94fc0f14d4b5614c29a14762fe143ad66b453824022119d34eaaa1a7ccd1c 2204 mplcursors_0.4-1.dsc
+ 1649af8b827133523948b940b4db151940b0a618f464a377cd84494d88665c7e 83503 mplcursors_0.4.orig.tar.gz
+ 8429356ca6d71f243e4098af86e9028f13b41725c8e33d28178f439828cdcad6 2744 mplcursors_0.4-1.debian.tar.xz
+Homepage: https://github.com/anntzer/mplcursors
+Package-List: 
+ python3-mplcursors deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libopenblas-base, python3-matplotlib, python3-pytest
+Directory: pool/main/m/mplcursors
+Priority: extra
+Section: misc

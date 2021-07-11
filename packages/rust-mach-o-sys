@@ -1,0 +1,26 @@
+Package: rust-mach-o-sys
+Binary: librust-mach-o-sys-dev
+Version: 0.1.1-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 22f388e0b70e9b90dbda8d485d5abcbc 1540 rust-mach-o-sys_0.1.1-3.dsc
+ cb8687b8f8cede5387ac5af7d043baba 80515 rust-mach-o-sys_0.1.1.orig.tar.gz
+ 46af7d2ff8b4842d9183117b5d20b4b9 2648 rust-mach-o-sys_0.1.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mach-o-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/mach-o-sys]
+Checksums-Sha256:
+ b2f9d7d656f6361b4e5d3f32627b9dda0279e8ba26bb7adb5afa8ec946f866ec 1540 rust-mach-o-sys_0.1.1-3.dsc
+ baf2802b2135f15ce13e15acec285a42c6da57ece0367490ede90de4c1a5cc92 80515 rust-mach-o-sys_0.1.1.orig.tar.gz
+ 6879ea6d0f5b8407bc475a358402c5130d1a527ff81946e8bd35c69600c285a9 2648 rust-mach-o-sys_0.1.1-3.debian.tar.xz
+Package-List: 
+ librust-mach-o-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-mach-o-sys
+Priority: extra
+Section: misc

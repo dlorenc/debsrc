@@ -1,0 +1,26 @@
+Package: node-vm-browserify
+Binary: node-vm-browserify
+Version: 1.1.2+ds-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org> , Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs (>= 6), pkg-js-tools (>= 0.9.28), node-tape <!nocheck>, node-tap <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b737d99bc7b929bcec1ea6cfa912d979 2223 node-vm-browserify_1.1.2+ds-1.dsc
+ 1a5bcf4b7c08693302c6265614886ba6 4564 node-vm-browserify_1.1.2+ds.orig.tar.xz
+ 5e4be7963b3118da0eecf6e04841a99a 2220 node-vm-browserify_1.1.2+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-vm-browserify
+Vcs-Git: https://salsa.debian.org/js-team/node-vm-browserify.git
+Checksums-Sha256:
+ f6e58033d9c9268977cc182ab05be972e91c6d7413b6f41eb4e0cf242ee32f15 2223 node-vm-browserify_1.1.2+ds-1.dsc
+ 8dcf842b6d802147c1e80628d4ad09c53140fb2a37747a76240c4ee212b8bb9c 4564 node-vm-browserify_1.1.2+ds.orig.tar.xz
+ 28edb82c2eb4f0e8f763f26d28e5ba868d75c824cc5ce4c8880ce8b4666969ee 2220 node-vm-browserify_1.1.2+ds-1.debian.tar.xz
+Homepage: https://github.com/substack/vm-browserify
+Package-List: 
+ node-vm-browserify deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-vm-browserify
+Priority: optional
+Section: javascript

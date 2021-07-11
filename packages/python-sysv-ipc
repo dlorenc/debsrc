@@ -1,0 +1,26 @@
+Package: python-sysv-ipc
+Binary: python3-sysv-ipc
+Version: 1.0.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, openstack-pkg-tools (>= 99~), python3-all, python3-all-dev (>= 3.2), python3-setuptools
+Architecture: any
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ bfbaa13f5ffb2eeb713b379fc9938439 2131 python-sysv-ipc_1.0.0-2.dsc
+ 083a490bf38ad0d7ad0938519c15ab35 71744 python-sysv-ipc_1.0.0.orig.tar.xz
+ 2786c8a3b9ed058b510e393d49768c41 2632 python-sysv-ipc_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-sysv-ipc
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-sysv-ipc.git
+Checksums-Sha256:
+ 7cc49d996811e3b6ccc67e810517cd7866326a203126b24f2fb050a8465b8b6a 2131 python-sysv-ipc_1.0.0-2.dsc
+ bdd4b8996283b32849b30dae637d870f9238b08a3df9524cd1f8f48b77b939ef 71744 python-sysv-ipc_1.0.0.orig.tar.xz
+ b42a4fcf1911212de09b1ed7d16794309f9624ac191a6e294fe09101557b0e96 2632 python-sysv-ipc_1.0.0-2.debian.tar.xz
+Homepage: http://semanchuk.com/philip/sysv_ipc/
+Package-List: 
+ python3-sysv-ipc deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-sysv-ipc
+Priority: optional
+Section: misc

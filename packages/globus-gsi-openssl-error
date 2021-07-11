@@ -1,0 +1,26 @@
+Package: globus-gsi-openssl-error
+Binary: libglobus-gsi-openssl-error0, libglobus-gsi-openssl-error-dev, libglobus-gsi-openssl-error-doc
+Version: 4.2-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libssl-dev, doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 56966ad7625395493c9f439e4b9a0124 2249 globus-gsi-openssl-error_4.2-1.dsc
+ ebb89d1db00c6b55ff693201406dc6f5 329888 globus-gsi-openssl-error_4.2.orig.tar.gz
+ e49108100c47249b43855d1b659ce68d 3688 globus-gsi-openssl-error_4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gsi-openssl-error
+Vcs-Git: https://salsa.debian.org/ellert/globus-gsi-openssl-error.git
+Checksums-Sha256:
+ 9f193c91d8e72e138f6b0c019f15c7cc723a7e22849e48ea8acd1a4fa69b1211 2249 globus-gsi-openssl-error_4.2-1.dsc
+ d9481c135670ead50d31a7c55a6c6a9aff7f7746fe82cb37ee1cb10e1e9f8c00 329888 globus-gsi-openssl-error_4.2.orig.tar.gz
+ a4828379a69240d57805a2ddb59098c1251bdd9ba9d504674fe28c50dfa93672 3688 globus-gsi-openssl-error_4.2-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-gsi-openssl-error-dev deb libdevel optional arch=any
+ libglobus-gsi-openssl-error-doc deb doc optional arch=all
+ libglobus-gsi-openssl-error0 deb libs optional arch=any
+Directory: pool/main/g/globus-gsi-openssl-error
+Priority: source
+Section: net

@@ -1,0 +1,26 @@
+Package: node-has-flag
+Binary: node-has-flag
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 870f9861d40dc87eb63852e586552fa3 2060 node-has-flag_4.0.0-1.dsc
+ 048eead67dd407a012f6c795b182d604 2921 node-has-flag_4.0.0.orig.tar.gz
+ a390fa59000d5b2ae5d7dab3dc7aadaa 2748 node-has-flag_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-has-flag
+Vcs-Git: https://salsa.debian.org/js-team/node-has-flag.git
+Checksums-Sha256:
+ 689776c64294402f4901470aaeb2ed4b399039d71a8cb4ce27d95cb91df6605d 2060 node-has-flag_4.0.0-1.dsc
+ ffdabbbfcc87e9e363c4a93df49dbec1a0cbff2a69ff22d0d435bdeaf0e78731 2921 node-has-flag_4.0.0.orig.tar.gz
+ 11a78fe532c9a96501eb2bf1d310a6812ceb66a6ff40d93814a4c4304a4c7217 2748 node-has-flag_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/has-flag
+Package-List: 
+ node-has-flag deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-has-flag
+Priority: optional
+Section: javascript

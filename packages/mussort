@@ -1,0 +1,26 @@
+Package: mussort
+Binary: mussort
+Version: 0.4-3.1
+Maintainer: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper (>= 11)
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 219e072251ce1975aadfdcb779078364 1853 mussort_0.4-3.1.dsc
+ 2c966b4314246e28daf67ffabbb75c9e 32714 mussort_0.4.orig.tar.gz
+ fc178f715ba5eaadcd881951777d2cf6 3584 mussort_0.4-3.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/satta/mussort
+Vcs-Git: https://salsa.debian.org/satta/mussort.git
+Checksums-Sha256:
+ 262e347ec8557d7d7a949388a7cc650f271dce7ad0343a2034aa7cf91ad6f6ec 1853 mussort_0.4-3.1.dsc
+ ce8e2e9a102f0506a46254906d63bc13ef005c046dd46cb0ad3be39cc66e277b 32714 mussort_0.4.orig.tar.gz
+ 0346c9dcf8ba3af04ac834d12fe96809386603b4cb26b5432ebbd3f3083acfda 3584 mussort_0.4-3.1.debian.tar.xz
+Homepage: http://random.zerodogg.org/mussort
+Package-List: 
+ mussort deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ffmpeg, id3v2
+Directory: pool/main/m/mussort
+Priority: optional
+Section: misc

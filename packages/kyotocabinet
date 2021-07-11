@@ -1,0 +1,28 @@
+Package: kyotocabinet
+Binary: libkyotocabinet16v5, libkyotocabinet16v5-dbg, kyotocabinet-utils, kyotocabinet-doc, libkyotocabinet-dev
+Version: 1.2.76-4.2
+Maintainer: Shawn Landden <shawnlandden@gmail.com>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1), automake, libtool (>= 2.2), zlib1g-dev, liblzma-dev, liblzo2-dev
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ aa862866d66d4a614f8b5676d8d45da2 2242 kyotocabinet_1.2.76-4.2.dsc
+ b925d369d7ed4a37cf0013409046738c 951930 kyotocabinet_1.2.76.orig.tar.gz
+ c02c630bfc1bc0e794e816e4b36a0815 8828 kyotocabinet_1.2.76-4.2.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/kyoto-cabinet.git
+Vcs-Git: git://git.debian.org/collab-maint/kyoto-cabinet.git
+Checksums-Sha256:
+ ce49eda1824facaae96f8f18fcb72a59c7358d9f7ef60836a068cb5ec6bddb5b 2242 kyotocabinet_1.2.76-4.2.dsc
+ 812a2d3f29c351db4c6f1ff29d94d7135f9e601d7cc1872ec1d7eed381d0d23c 951930 kyotocabinet_1.2.76.orig.tar.gz
+ ab96492aa59d1bb58f493a57d13c9c52937cf498a5e0c1617a9971a3e08fbd8a 8828 kyotocabinet_1.2.76-4.2.debian.tar.xz
+Homepage: http://fallabs.com/kyotocabinet/
+Package-List: 
+ kyotocabinet-doc deb doc optional arch=all
+ kyotocabinet-utils deb utils optional arch=any
+ libkyotocabinet-dev deb libdevel optional arch=any
+ libkyotocabinet16v5 deb libs optional arch=any
+ libkyotocabinet16v5-dbg deb debug extra arch=any
+Directory: pool/main/k/kyotocabinet
+Priority: source
+Section: utils

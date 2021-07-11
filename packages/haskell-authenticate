@@ -1,0 +1,28 @@
+Package: haskell-authenticate
+Binary: libghc-authenticate-dev, libghc-authenticate-prof, libghc-authenticate-doc
+Version: 1.3.5-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-aeson-dev (>= 0.5), libghc-aeson-prof, libghc-attoparsec-dev, libghc-attoparsec-prof, libghc-blaze-builder-dev, libghc-blaze-builder-prof, libghc-case-insensitive-dev (>= 0.2), libghc-case-insensitive-prof, libghc-conduit-dev (>= 0.5), libghc-conduit-prof, libghc-html-conduit-dev (>= 1.3), libghc-html-conduit-prof, libghc-http-conduit-dev (>= 1.5), libghc-http-conduit-prof, libghc-http-types-dev (>= 0.6), libghc-http-types-prof, libghc-network-uri-dev (>= 2.6), libghc-network-uri-prof, libghc-resourcet-dev, libghc-resourcet-prof, libghc-unordered-containers-dev, libghc-unordered-containers-prof, libghc-xml-conduit-dev (>= 1.0), libghc-xml-conduit-prof
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-attoparsec-doc, libghc-blaze-builder-doc, libghc-case-insensitive-doc, libghc-conduit-doc, libghc-html-conduit-doc, libghc-http-conduit-doc, libghc-http-types-doc, libghc-network-uri-doc, libghc-resourcet-doc, libghc-unordered-containers-doc, libghc-xml-conduit-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ae0caf3ed77f868a4e593659f2bc98d6 3305 haskell-authenticate_1.3.5-1.dsc
+ c881fd4785e2cdf1121623738f6bef30 8817 haskell-authenticate_1.3.5.orig.tar.gz
+ 132e6055f8beef8b2b6ab71187413147 3324 haskell-authenticate_1.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-authenticate
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-authenticate]
+Checksums-Sha256:
+ c3fc4de6c305648107418c82041ca7a01341def6635eb0e3ea76ff381d68fd36 3305 haskell-authenticate_1.3.5-1.dsc
+ 5f13043155a53b14da9b3625e512480110a5d906b0fd8eca2d2493c63c20ae81 8817 haskell-authenticate_1.3.5.orig.tar.gz
+ bf1a0b70f59494d935bf0ad0aec4be48bdcd018983026b6a33850f1d58b114d3 3324 haskell-authenticate_1.3.5-1.debian.tar.xz
+Homepage: http://github.com/yesodweb/authenticate
+Package-List: 
+ libghc-authenticate-dev deb haskell optional arch=any
+ libghc-authenticate-doc deb doc optional arch=all
+ libghc-authenticate-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-authenticate
+Priority: source
+Section: haskell

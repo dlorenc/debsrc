@@ -1,0 +1,27 @@
+Package: ruby-gollum-lib
+Binary: ruby-gollum-lib
+Version: 4.2.7.10~gitlab.1+dfsg-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-gemojione (>= 3.2~), ruby-github-markup (>= 1.6~), ruby-gollum-rugged-adapter (>= 0.4.4.3~), ruby-nokogiri (>= 1.6.4~), ruby-rouge (>= 3.1~), ruby-sanitize (>= 5.2~), ruby-stringex (>= 2.6~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9a3029abac93c6557cd2df3f836bd8f9 2196 ruby-gollum-lib_4.2.7.10~gitlab.1+dfsg-1.dsc
+ 8738e92c4e701166bcd693888c32f4bd 125393 ruby-gollum-lib_4.2.7.10~gitlab.1+dfsg.orig.tar.gz
+ 3bd434e3a896d2f8f357bb1c847f7001 3844 ruby-gollum-lib_4.2.7.10~gitlab.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-gollum-lib
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-gollum-lib.git
+Checksums-Sha256:
+ 22b5bb042f49b12d024a40675f1995de3f2fa5370181de06d9d1ff582c36ce03 2196 ruby-gollum-lib_4.2.7.10~gitlab.1+dfsg-1.dsc
+ 863ed03049beb8c13baeddef24f986370017e3e84b49896973f2c1c136403393 125393 ruby-gollum-lib_4.2.7.10~gitlab.1+dfsg.orig.tar.gz
+ 1c1eff2e3d6c1c3bfdd3c4e762af90eca5c8ea2908a07ce6b0e84f06348d4b80 3844 ruby-gollum-lib_4.2.7.10~gitlab.1+dfsg-1.debian.tar.xz
+Homepage: https://gitlab.com/gitlab-org/gollum-lib
+Package-List: 
+ ruby-gollum-lib deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-gollum-lib
+Priority: optional
+Section: misc

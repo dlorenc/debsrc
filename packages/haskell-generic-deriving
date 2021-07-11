@@ -1,0 +1,28 @@
+Package: haskell-generic-deriving
+Binary: libghc-generic-deriving-dev, libghc-generic-deriving-prof, libghc-generic-deriving-doc
+Version: 1.13.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), cdbs, haskell-devscripts (>= 0.13), ghc (>= 8), ghc-prof, libghc-th-abstraction-dev (>= 0.3), libghc-th-abstraction-dev (<< 0.4), libghc-th-abstraction-prof
+Build-Depends-Indep: ghc-doc, libghc-th-abstraction-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ d7b964dafb8cd5083be607d1031669ef 2573 haskell-generic-deriving_1.13.1-1.dsc
+ a0cddab953bd4d9fa479b16281a14fc0 68256 haskell-generic-deriving_1.13.1.orig.tar.gz
+ e51840153ee4799957bcd8beb0793789 3116 haskell-generic-deriving_1.13.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-generic-deriving
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-generic-deriving]
+Checksums-Sha256:
+ 8c62040f67508083872b6717e10aae0705ebf9ed8bda2aadc4bb0766648977e6 2573 haskell-generic-deriving_1.13.1-1.dsc
+ e9b53a40eae58e18ee281858a1ba400f14128d5779858272b01c10d64aa09abe 68256 haskell-generic-deriving_1.13.1.orig.tar.gz
+ ba90df290b216f64f5381bdb193865037eb2f5b8992f2cab1fb6fcde678f2829 3116 haskell-generic-deriving_1.13.1-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/generic-deriving
+Package-List: 
+ libghc-generic-deriving-dev deb haskell optional arch=any
+ libghc-generic-deriving-doc deb doc optional arch=all
+ libghc-generic-deriving-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-generic-deriving
+Priority: source
+Section: misc

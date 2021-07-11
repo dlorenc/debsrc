@@ -1,0 +1,28 @@
+Package: libparanoid-perl
+Binary: libparanoid-perl
+Version: 2.08-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcgi-pm-perl <!nocheck>, libsocket6-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cd7595a006d9d5c2a4cd0d24d3e075ff 2454 libparanoid-perl_2.08-1.dsc
+ 261bc279501e1b0b7b3d8e986b0d6de9 107097 libparanoid-perl_2.08.orig.tar.gz
+ f67056ae054767e50cd3e4a4df79d347 4312 libparanoid-perl_2.08-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libparanoid-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libparanoid-perl.git
+Checksums-Sha256:
+ 372079dbf75bb8fe245954979b3761b344f292a881b3458722b35c6c61f90598 2454 libparanoid-perl_2.08-1.dsc
+ 21e2c84ddd13ac0e31c5cc3fd06a5f45fd0edf4666bc25a07e3d70cbc3944638 107097 libparanoid-perl_2.08.orig.tar.gz
+ 932dbfb7084eaa932375b7ffa13efb462655594b6caa2a4619beb5484eb4c56a 4312 libparanoid-perl_2.08-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Paranoid
+Dgit: 09c65c625384a97c04d2fa04feee49216c2c5550 debian archive/debian/2.08-1 https://git.dgit.debian.org/libparanoid-perl
+Package-List: 
+ libparanoid-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libparanoid-perl
+Priority: source
+Section: perl

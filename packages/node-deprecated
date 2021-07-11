@@ -1,0 +1,26 @@
+Package: node-deprecated
+Binary: node-deprecated
+Version: 0.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sagar Ippalpalli <i.vikram15@gmail.com>
+Build-Depends: debhelper-compat (= 12), mocha, node-should, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f7f74aee47e63a6558c630fc72cf21b5 2083 node-deprecated_0.0.2-1.dsc
+ bd3460451aeaa851a555b194f65b1e4c 2774 node-deprecated_0.0.2.orig.tar.gz
+ 71b0778e2aca0a9666f7580a94df207d 2460 node-deprecated_0.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-deprecated
+Vcs-Git: https://salsa.debian.org/js-team/node-deprecated.git
+Checksums-Sha256:
+ d03272e755954e224219e99b518ca097304e40f9a82275d8dcce6a0f7e3360ae 2083 node-deprecated_0.0.2-1.dsc
+ 14cc75a9074e7c65b1b751b8732887174252eee2726bfc9c55f90783aaf24789 2774 node-deprecated_0.0.2.orig.tar.gz
+ 0edfb8e729287469f964f8272082dd8dd6bff61ae5d2c12fc9eaf0bea6aa4efc 2460 node-deprecated_0.0.2-1.debian.tar.xz
+Homepage: https://github.com/wearefractal/deprecated
+Package-List: 
+ node-deprecated deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-deprecated
+Priority: optional
+Section: javascript

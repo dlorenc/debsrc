@@ -1,0 +1,26 @@
+Package: node-jison
+Binary: jison
+Version: 0.4.17+dfsg-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-cjson <!nocheck>, node-ebnf-parser <!nocheck>, node-escodegen <!nocheck>, node-esprima <!nocheck>, node-jison-lex <!nocheck>, node-jsonselect <!nocheck>, node-lex-parser <!nocheck>, node-nomnom <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d5d7e499e0170ee7ef209694b7a1c6de 2217 node-jison_0.4.17+dfsg-4.dsc
+ 020df02e932e35afd7a414f2b2cc521d 34651 node-jison_0.4.17+dfsg.orig.tar.gz
+ fb851793c85374dc3f3705a7c0b84084 3156 node-jison_0.4.17+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-jison
+Vcs-Git: https://salsa.debian.org/js-team/node-jison.git
+Checksums-Sha256:
+ 8770e2017755f4e75ed87634c60f78a228ea50ef9c1ff1c66bc5b2c0a2bae27f 2217 node-jison_0.4.17+dfsg-4.dsc
+ 3090440e5271c49b42e06c1a25c0aba7efcf70d98b4506b38f7756f11ca414b8 34651 node-jison_0.4.17+dfsg.orig.tar.gz
+ 73992a38970253247afad5a4948db96602b3db3590d198eda8ea56ccc878e279 3156 node-jison_0.4.17+dfsg-4.debian.tar.xz
+Homepage: http://jison.org
+Package-List: 
+ jison deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-jison
+Priority: optional
+Section: javascript

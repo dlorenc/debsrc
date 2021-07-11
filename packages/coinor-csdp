@@ -1,0 +1,30 @@
+Package: coinor-csdp
+Binary: coinor-csdp, coinor-csdp-doc, libsdp0, libsdp-dev
+Version: 6.2.0-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Doug Torrance <dtorrance@piedmont.edu>
+Build-Depends: debhelper-compat (= 13), doxygen-latex, gfortran, libblas-dev, libgfortran5, libgomp1, liblapack-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0b62724885ff341258ce63dc9f8b7a6c 2276 coinor-csdp_6.2.0-3.dsc
+ c91f72018c15d89e6706818e72807fcb 526179 coinor-csdp_6.2.0.orig.tar.gz
+ 08ecadd65df8dfdfa0bc44c32f37e3da 18340 coinor-csdp_6.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/csdp
+Vcs-Git: https://salsa.debian.org/science-team/csdp.git
+Checksums-Sha256:
+ 6c3b045276cbd71cf9dde23fe35e195f4b251ee1ed2d044c487275ecb9fb08f5 2276 coinor-csdp_6.2.0-3.dsc
+ 7f202a15f33483ee205dcfbd0573fdbd74911604bb739a04f8baa35f8a055c5b 526179 coinor-csdp_6.2.0.orig.tar.gz
+ 06f4f655782b20495c43278022fe431d9db41ab152a80466c2289e9f735c8056 18340 coinor-csdp_6.2.0-3.debian.tar.xz
+Homepage: https://github.com/coin-or/Csdp
+Package-List: 
+ coinor-csdp deb science optional arch=any
+ coinor-csdp-doc deb doc optional arch=all
+ libsdp-dev deb libdevel optional arch=any
+ libsdp0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/c/coinor-csdp
+Priority: source
+Section: science

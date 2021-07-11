@@ -1,0 +1,27 @@
+Package: hatop
+Binary: hatop
+Version: 0.8.0-1.1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Bernd Zeimetz <bzed@debian.org>
+Build-Depends: debhelper-compat (= 13), debhelper (>= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e54d30452b80fceb23ff9370da694148 1949 hatop_0.8.0-1.1.dsc
+ 29af1775276d0af7cc2438c29a15fd89 123344 hatop_0.8.0.orig.tar.xz
+ b753ac0308588541eb993750c09f5601 2380 hatop_0.8.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/hatop
+Vcs-Git: https://salsa.debian.org/python-team/packages/hatop.git
+Checksums-Sha256:
+ 63f704b5fe0696a5b9fd9a101be526a5ed823d7c2c626c24da986736a07a998c 1949 hatop_0.8.0-1.1.dsc
+ 6cef0a7b55c9d87a0f2f351a38270e7e84357c00499db773582d754f82926c36 123344 hatop_0.8.0.orig.tar.xz
+ 909a7dc5850cb6a8635b2e80944fbb33c5ccaf610905abd2aeb4b867e5e42d5b 2380 hatop_0.8.0-1.1.debian.tar.xz
+Homepage: https://github.com/jhunt/hatop
+Package-List: 
+ hatop deb admin extra arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: haproxy
+Directory: pool/main/h/hatop
+Priority: extra
+Section: misc

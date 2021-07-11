@@ -1,0 +1,28 @@
+Package: node-minimatch
+Binary: node-minimatch
+Version: 3.0.4+~3.0.3-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), node-brace-expansion (>= 1.1.7), node-tap (>= 8.0), dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5bc0305d5cc9c5d622ffd1124c43e654 2460 node-minimatch_3.0.4+~3.0.3-1.dsc
+ 01f03610bab61e75e5b1f4d0787d26c8 2918 node-minimatch_3.0.4+~3.0.3.orig-types-minimatch.tar.gz
+ c3f11980d25856b2807a5e6a9b45bdda 17303 node-minimatch_3.0.4+~3.0.3.orig.tar.gz
+ 435b96e504a14c9256bfcc749f27c572 3964 node-minimatch_3.0.4+~3.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-minimatch
+Vcs-Git: https://salsa.debian.org/js-team/node-minimatch.git
+Checksums-Sha256:
+ 677b82da55ef4a1714750971764f5094cff1d09e3c3c5aa312f9f3b891722aad 2460 node-minimatch_3.0.4+~3.0.3-1.dsc
+ 71d7512873c41dda650f0be23fba8fe000d8abe948d8937fe4b040c0e6c61677 2918 node-minimatch_3.0.4+~3.0.3.orig-types-minimatch.tar.gz
+ 4d2b5945d821a8c097232e899561f9fe26a45057eab9d04bb7a5549b171b8a72 17303 node-minimatch_3.0.4+~3.0.3.orig.tar.gz
+ 2ee87aa3e7f532ddcaba1c8aca3cb6744d4ab889b5cada60321ed6c9e6b24676 3964 node-minimatch_3.0.4+~3.0.3-1.debian.tar.xz
+Homepage: https://github.com/isaacs/minimatch
+Package-List: 
+ node-minimatch deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-minimatch
+Priority: source
+Section: javascript

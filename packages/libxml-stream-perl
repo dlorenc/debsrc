@@ -1,0 +1,28 @@
+Package: libxml-stream-perl
+Binary: libxml-stream-perl
+Version: 1.24-4
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: libauthen-sasl-perl <!nocheck>, libio-socket-ssl-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cb721bbf8517a34353a81ed968afec54 2483 libxml-stream-perl_1.24-4.dsc
+ 62717494479cba3746bfeab73d2f955c 80952 libxml-stream-perl_1.24.orig.tar.gz
+ 42c502cfc76084d255f8895dd74ede4b 5996 libxml-stream-perl_1.24-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxml-stream-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxml-stream-perl.git
+Checksums-Sha256:
+ a3c6f2e66355953e9dedd25cc0febfd4e9584d3be3aba0ccb696010045d78ad0 2483 libxml-stream-perl_1.24-4.dsc
+ bce5c4f4dddf3cb6e94903bcbcfece3a8650521309c0cc4019aed83287d91d5c 80952 libxml-stream-perl_1.24.orig.tar.gz
+ 9140013c24144df1ef2d43a2602b1df9ed7674d424959f5b274d8da699b6ca28 5996 libxml-stream-perl_1.24-4.debian.tar.xz
+Homepage: https://metacpan.org/release/XML-Stream
+Dgit: ae9a8d9202fb476a3c45e8180212dfa7a8d23770 debian archive/debian/1.24-4 https://git.dgit.debian.org/libxml-stream-perl
+Package-List: 
+ libxml-stream-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libx/libxml-stream-perl
+Priority: source
+Section: perl

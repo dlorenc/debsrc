@@ -1,0 +1,27 @@
+Package: r-cran-recipes
+Binary: r-cran-recipes
+Version: 0.1.15+dfsg-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-dplyr, r-cran-generics (>= 0.1.0), r-cran-glue, r-cran-gower, r-cran-ipred, r-cran-lifecycle, r-cran-lubridate, r-cran-magrittr, r-cran-matrix, r-cran-purrr, r-cran-rlang (>= 0.4.0), r-cran-tibble, r-cran-tidyr (>= 1.0.0), r-cran-tidyselect (>= 1.1.0), r-cran-timedate, r-cran-withr
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 47c8ba0827f1f8c320061ed0f93152b5 2623 r-cran-recipes_0.1.15+dfsg-1.dsc
+ 12cb2f2dba2f09d622b760d016f150b5 476208 r-cran-recipes_0.1.15+dfsg.orig.tar.xz
+ d1763d3eaa5ba281dbf11dd6301e063e 3680 r-cran-recipes_0.1.15+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-recipes
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-recipes.git
+Checksums-Sha256:
+ 63423fa8d416bfc23bfcc9246f6b84ff367438e06ed00fff276b5553a3662c0d 2623 r-cran-recipes_0.1.15+dfsg-1.dsc
+ 46978922bbe22f3cd7b2d9f8d0d5346017aaef8a2ed3ea325125e6683771eaa8 476208 r-cran-recipes_0.1.15+dfsg.orig.tar.xz
+ 807c0fe4a2dd93bdc2a8c4e8d31eb3eb5e0177a5848051cd75d7de98228df57d 3680 r-cran-recipes_0.1.15+dfsg-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=recipes
+Package-List: 
+ r-cran-recipes deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-ddalpha, r-cran-dimred, r-cran-fastica, r-cran-igraph, r-cran-kernlab, r-cran-modeldata, r-cran-pls, r-cran-rann, r-cran-rcpproll, r-cran-rsample, r-cran-rspectra, r-cran-testthat, r-cran-xml2
+Directory: pool/main/r/r-cran-recipes
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-proc-macro-crate
+Binary: librust-proc-macro-crate-dev
+Version: 0.1.5-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-toml-0.5+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5756c36b3374ca2f0cf2db74a65a54cd 1988 rust-proc-macro-crate_0.1.5-2.dsc
+ 5ecf56203dda9419751b532d99c3601d 8096 rust-proc-macro-crate_0.1.5.orig.tar.gz
+ 41f59e279d4a1d5c2e053f0b04084689 2572 rust-proc-macro-crate_0.1.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proc-macro-crate
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/proc-macro-crate]
+Checksums-Sha256:
+ 1c8a138d54b91b637ce5d6a8204e743f907e4c0d704f55bc59f885b22fa17a82 1988 rust-proc-macro-crate_0.1.5-2.dsc
+ 1d6ea3c4595b96363c13943497db34af4460fb474a95c43f4446ad341b8c9785 8096 rust-proc-macro-crate_0.1.5.orig.tar.gz
+ 8a1198c124f7cbf76d96c693f4ef6de36efd0073dc122f888603532a4559b762 2572 rust-proc-macro-crate_0.1.5-2.debian.tar.xz
+Package-List: 
+ librust-proc-macro-crate-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-syn-1+default-dev
+Directory: pool/main/r/rust-proc-macro-crate
+Priority: extra
+Section: misc

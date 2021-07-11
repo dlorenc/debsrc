@@ -1,0 +1,27 @@
+Package: rust-difference
+Binary: librust-difference-dev, librust-difference+bin-dev, librust-difference+getopts-dev, difference
+Version: 2.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native, rustc:native, libstd-rust-dev, librust-getopts-0.2+default-dev
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c901df1cedd410608fb3cc779bcf7e06 2314 rust-difference_2.0.0-1.dsc
+ 5e49f4c3f9076fe30ae207fe951f9195 147616 rust-difference_2.0.0.orig.tar.gz
+ 85cf0f7aa2a900b151bd2d67ad4ceae1 3488 rust-difference_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/difference
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/difference]
+Checksums-Sha256:
+ a0dbecf541f785d52312496696c3ce26445d3007503f2be9d2828b4116b8189b 2314 rust-difference_2.0.0-1.dsc
+ 524cbf6897b527295dff137cec09ecf3a05f4fddffd7dfcd1585403449e74198 147616 rust-difference_2.0.0.orig.tar.gz
+ 85a03661f67a5b5f386631f94bb2c70787c4334b88f94d2d21ae55c9c0cf6d45 3488 rust-difference_2.0.0-1.debian.tar.xz
+Package-List: 
+ difference deb utils optional arch=any
+ librust-difference+bin-dev deb rust optional arch=any
+ librust-difference+getopts-dev deb rust optional arch=any
+ librust-difference-dev deb rust optional arch=any
+Directory: pool/main/r/rust-difference
+Priority: extra
+Section: misc

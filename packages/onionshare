@@ -1,0 +1,25 @@
+Package: onionshare
+Binary: onionshare
+Version: 2.2-3
+Maintainer: Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>
+Uploaders: Ulrike Uhlig <ulrike@debian.org>, anonym <anonym@riseup.net>, Clément Hermann <nodens@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pycryptodome, python3-distutils-extra, python3-flask, python3-flask-httpauth, python3-nautilus, python3-nose, python3-pyqt5, python3-pytest, python3-requests, python3-setuptools, python3-socks, python3-stem (>= 1.4.0)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 58a4147235de4eb7f77a8f9a54f860a9 2254 onionshare_2.2-3.dsc
+ 3ff52742b7e6809b9646605e10b25562 3319589 onionshare_2.2.orig.tar.gz
+ aa9794e0a48a24e6e4dfc85f4c98dc63 78340 onionshare_2.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-privacy-team/onionshare
+Vcs-Git: https://salsa.debian.org/pkg-privacy-team/onionshare.git
+Checksums-Sha256:
+ 5e49b4e44a07ecdbacf79301f503d6d1716bd3e8258bea38e6717bab7da564f6 2254 onionshare_2.2-3.dsc
+ 7173863d7582b05aa8fd0d2207236e3cbbb38d854aad65e3b98ec5baad521fc2 3319589 onionshare_2.2.orig.tar.gz
+ 3cfe3ae2fb64eaa58aee497ad1f32f4123b83da64b676d6ff8597d4ffa1aabf7 78340 onionshare_2.2-3.debian.tar.xz
+Homepage: https://onionshare.org
+Package-List: 
+ onionshare deb net optional arch=all
+Directory: pool/main/o/onionshare
+Priority: optional
+Section: misc

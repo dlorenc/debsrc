@@ -1,0 +1,25 @@
+Package: sombok
+Binary: libsombok-dev, libsombok3
+Version: 2.4.0-2
+Maintainer: Emmanuel Bouthenot <kolter@debian.org>
+Build-Depends: libthai-dev (>= 0.1.9), pkg-config, debhelper (>= 11), doxygen
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ db34dfd29c37fbe386c546433e218d35 1919 sombok_2.4.0-2.dsc
+ 761921401ff323ce37d76e217062d2e8 329681 sombok_2.4.0.orig.tar.gz
+ 082a463cb6770db7ead34ee68116bde7 18664 sombok_2.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/kolter/sombok
+Vcs-Git: https://salsa.debian.org/kolter/sombok.git
+Checksums-Sha256:
+ 12ed60e51aeb553f116d3147b1a2d6f5934ec5d0cc044f99793ea340de9a717d 1919 sombok_2.4.0-2.dsc
+ 14d9dcd3621bf9d591a7158aeac99b4d4a60296558173be51d57b54b8f9d70a2 329681 sombok_2.4.0.orig.tar.gz
+ addf219c57965df4056e74b5007d588c843a30bd04a3c642097306d4afcf4153 18664 sombok_2.4.0-2.debian.tar.xz
+Homepage: https://github.com/hatukanezumi/sombok
+Package-List: 
+ libsombok-dev deb libdevel optional arch=any
+ libsombok3 deb libs optional arch=any
+Directory: pool/main/s/sombok
+Priority: source
+Section: libs

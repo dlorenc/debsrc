@@ -1,0 +1,38 @@
+Package: rust-syntect
+Binary: librust-syntect-dev, librust-syntect+bincode-dev, librust-syntect+default-dev, librust-syntect+dump-create-dev, librust-syntect+dump-create-rs-dev, librust-syntect+flate2-dev, librust-syntect+fnv-dev, librust-syntect+html-dev, librust-syntect+onig-dev, librust-syntect+parsing-dev, librust-syntect+regex-syntax-dev, librust-syntect+yaml-load-dev, librust-syntect+yaml-rust-dev
+Version: 3.3.0-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <paride@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bincode-1+default-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-flate2-1+default-dev <!nocheck>, librust-fnv-1+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-lazycell-1+default-dev <!nocheck>, librust-onig-6+default-dev <!nocheck>, librust-plist-1+default-dev <!nocheck>, librust-regex-syntax-0.6+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-derive-1+default-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-walkdir-2+default-dev <!nocheck>, librust-yaml-rust-0.4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 39b2e328e854debb45a377e998839f45 3915 rust-syntect_3.3.0-4.dsc
+ 3952fefecfe4ffc02f2ef1c75c14ca5e 735117 rust-syntect_3.3.0.orig.tar.gz
+ 36e869803c49931c776e27e0466d31b6 3956 rust-syntect_3.3.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/syntect
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/syntect]
+Checksums-Sha256:
+ 29df74009a8589752a9ba8574ddb21283a8f4421a0820427f317c67eb0867b90 3915 rust-syntect_3.3.0-4.dsc
+ 955e9da2455eea5635f7032fc3a229908e6af18c39600313866095e07db0d8b8 735117 rust-syntect_3.3.0.orig.tar.gz
+ 46732c53d6cfe514d4a04f96f96366e7d5930e05f5a4286fd0120d13a4dfc14f 3956 rust-syntect_3.3.0-4.debian.tar.xz
+Package-List: 
+ librust-syntect+bincode-dev deb rust optional arch=any
+ librust-syntect+default-dev deb rust optional arch=any
+ librust-syntect+dump-create-dev deb rust optional arch=any
+ librust-syntect+dump-create-rs-dev deb rust optional arch=any
+ librust-syntect+flate2-dev deb rust optional arch=any
+ librust-syntect+fnv-dev deb rust optional arch=any
+ librust-syntect+html-dev deb rust optional arch=any
+ librust-syntect+onig-dev deb rust optional arch=any
+ librust-syntect+parsing-dev deb rust optional arch=any
+ librust-syntect+regex-syntax-dev deb rust optional arch=any
+ librust-syntect+yaml-load-dev deb rust optional arch=any
+ librust-syntect+yaml-rust-dev deb rust optional arch=any
+ librust-syntect-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.2+default-dev, librust-getopts-0.2+default-dev, librust-pretty-assertions-0.6+default-dev, librust-rayon-1+default-dev, librust-regex-1+default-dev
+Directory: pool/main/r/rust-syntect
+Priority: extra
+Section: misc

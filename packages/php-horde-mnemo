@@ -1,0 +1,27 @@
+Package: php-horde-mnemo
+Binary: php-horde-mnemo
+Version: 4.2.14-10
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, php-horde-role, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2d750c36f8e029309deba4d05507162d 2164 php-horde-mnemo_4.2.14-10.dsc
+ 53647861fcf965dfcaf991ca919e3b55 1183902 php-horde-mnemo_4.2.14.orig.tar.gz
+ 1b2e34d50beb338bbe7aad65726301d6 6100 php-horde-mnemo_4.2.14-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-mnemo
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-mnemo.git
+Checksums-Sha256:
+ 7a657430216d1ceb40877e77bf8f4160662183a757132c0eb3319ecf6f42e12a 2164 php-horde-mnemo_4.2.14-10.dsc
+ 38cd53830492f2f4c324c7f715952da41ef3422ad6d355b6dc48fd895ac28095 1183902 php-horde-mnemo_4.2.14.orig.tar.gz
+ 25118794055ffd3f7e19bb01ae87db109c68fd5382313a3f7713fdca3bd4a545 6100 php-horde-mnemo_4.2.14-10.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-mnemo deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-mnemo
+Priority: extra
+Section: misc

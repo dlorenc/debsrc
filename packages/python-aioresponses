@@ -1,0 +1,26 @@
+Package: python-aioresponses
+Binary: python3-aioresponses, python3-aioresponses-doc
+Version: 0.7.1-1
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, python3, python3-aiohttp <!nocheck>, python3-ddt <!nocheck>, python3-pbr, python3-pytest <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 941e77a86a1e8d405df9a2dd23734275 2259 python-aioresponses_0.7.1-1.dsc
+ b9bc5dfb61ab264d1d039ed8af97b811 22993 python-aioresponses_0.7.1.orig.tar.gz
+ 8e474224aeeafd66554c8e367308a167 4604 python-aioresponses_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-aioresponses
+Vcs-Git: https://salsa.debian.org/debian/python-aioresponses.git
+Checksums-Sha256:
+ 6ef4083cff9c57ec73e5cac6010e8174959084fc54a57612863ed3a42d72c4b3 2259 python-aioresponses_0.7.1-1.dsc
+ ec50794a160438d0b65675242e88b04984d935aac625afe2cd0a835dbffcf624 22993 python-aioresponses_0.7.1.orig.tar.gz
+ dac689211dc1907186d9abc7bbb275d64d5d9f8dfad42362cb0361dc30788cbc 4604 python-aioresponses_0.7.1-1.debian.tar.xz
+Homepage: https://github.com/pnuckowski/aioresponses
+Package-List: 
+ python3-aioresponses deb python optional arch=all
+ python3-aioresponses-doc deb doc optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-aioresponses
+Priority: extra
+Section: misc

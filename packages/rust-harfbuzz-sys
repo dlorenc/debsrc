@@ -1,0 +1,24 @@
+Package: rust-harfbuzz-sys
+Binary: librust-harfbuzz-sys-dev
+Version: 0.5.0+really.0.4.1-5
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev <!nocheck>, librust-freetype-0.7-dev (>= 0.7.0-2~) <!nocheck>, librust-pkg-config-0.3+default-dev <!nocheck>, libharfbuzz-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e7b59e2cc9e61196e63b27d43cd2bc2e 2023 rust-harfbuzz-sys_0.5.0+really.0.4.1-5.dsc
+ f41ad33e854ee3a0284ed69ba1c674d9 24367 rust-harfbuzz-sys_0.5.0+really.0.4.1.orig.tar.gz
+ f0cbe2b5767176d4c3983625e0ed65ad 2964 rust-harfbuzz-sys_0.5.0+really.0.4.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/harfbuzz-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/harfbuzz-sys]
+Checksums-Sha256:
+ eeb5af2a016ca5a7786413c9e9f78ec072f24e92a1d16be40bb6eb3b3b14d302 2023 rust-harfbuzz-sys_0.5.0+really.0.4.1-5.dsc
+ 675fed8475991a25eea600d919262b20672cd4ea96edba6fffdb49ea23395bfe 24367 rust-harfbuzz-sys_0.5.0+really.0.4.1.orig.tar.gz
+ 3dab402bb755a24a4a7bb40db3eefb04d0bb4735746be75a23046dc6ff652b0f 2964 rust-harfbuzz-sys_0.5.0+really.0.4.1-5.debian.tar.xz
+Package-List: 
+ librust-harfbuzz-sys-dev deb rust optional arch=any
+Directory: pool/main/r/rust-harfbuzz-sys
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: haproxyctl
+Binary: haproxyctl
+Version: 1.4.3-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Genannt <genannt@debian.org>, Sebastien Badia <sbadia@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ronn | ruby-ronn (<< 0.7.3-5.1~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aee429ce8e95950bfc8d27b1b45e968c 2050 haproxyctl_1.4.3-1.dsc
+ afec9c32043055609b5517f58bc9d73b 17992 haproxyctl_1.4.3.orig.tar.gz
+ 3f61d0a3e5625957f46b08f2ff0719a9 3116 haproxyctl_1.4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/haproxyctl
+Vcs-Git: https://salsa.debian.org/ruby-team/haproxyctl.git
+Checksums-Sha256:
+ 463b669da3c1394000bcb7415a4adbf3aba6fd626c9af9e4f81882b8f0c04145 2050 haproxyctl_1.4.3-1.dsc
+ 9f5c48ac0eabf14623f313bb023fb4e84bf06291d3657a0175d09178cda88fe3 17992 haproxyctl_1.4.3.orig.tar.gz
+ b6535d97099a7f07f9f56e894c44d5e87c0aa8b8784f4b61c36c86eca5dc1730 3116 haproxyctl_1.4.3-1.debian.tar.xz
+Homepage: https://github.com/easybiblabs/haproxyctl
+Package-List: 
+ haproxyctl deb admin optional arch=all
+Ruby-Versions: all
+Directory: pool/main/h/haproxyctl
+Priority: optional
+Section: misc

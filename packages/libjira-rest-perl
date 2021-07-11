@@ -1,0 +1,28 @@
+Package: libjira-rest-perl
+Binary: libjira-rest-perl
+Version: 0.021-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libconfig-identity-perl <!nocheck>, libhtml-tree-perl <!nocheck>, libhttp-cookiejar-perl <!nocheck>, libhttp-message-perl <!nocheck>, libjson-perl <!nocheck>, librest-client-perl <!nocheck>, liburi-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8f749f848415c25cb3af22f54de2dc3b 2565 libjira-rest-perl_0.021-1.dsc
+ ac39f8d304ffa1228d4d33d24120114a 24113 libjira-rest-perl_0.021.orig.tar.gz
+ f60cca0750552d4ea1502361634979d0 2532 libjira-rest-perl_0.021-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libjira-rest-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libjira-rest-perl.git
+Checksums-Sha256:
+ 37bdac579762e1e726632d0170546037ad4eb48faf0e245442c9ef4902fc55a9 2565 libjira-rest-perl_0.021-1.dsc
+ 6d105738b77b7e4c90fc48632b9479e540f7f7aadc670f792d308aed647835eb 24113 libjira-rest-perl_0.021.orig.tar.gz
+ 39f5308189c90fa6aaca74141e1551413960aa1bb09eaebc96f2a3b44e9e7591 2532 libjira-rest-perl_0.021-1.debian.tar.xz
+Homepage: https://metacpan.org/release/JIRA-REST
+Dgit: 862817a6ab624e1a6c67c1a17b4537919139dad8 debian archive/debian/0.021-1 https://git.dgit.debian.org/libjira-rest-perl
+Package-List: 
+ libjira-rest-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libj/libjira-rest-perl
+Priority: optional
+Section: misc

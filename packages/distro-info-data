@@ -1,0 +1,24 @@
+Package: distro-info-data
+Binary: distro-info-data
+Version: 0.50
+Maintainer: Benjamin Drung <bdrung@debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends: debhelper-compat (= 12), python3
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ e7cbc42a61afd2c281cf257befb2c9f7 1073 distro-info-data_0.50.dsc
+ 4b953dbba5301751441f9590395bb0ba 9012 distro-info-data_0.50.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/distro-info-data
+Vcs-Git: https://salsa.debian.org/debian/distro-info-data.git
+Checksums-Sha256:
+ 4d99fe3a2aa88309e245c4a0ca441313e11ec1b23d18744b01228653585a4f35 1073 distro-info-data_0.50.dsc
+ d76fa03439ec9b85abb486dade73f967d3ebc92c525835aa1b28f96fe0e73bfc 9012 distro-info-data_0.50.tar.xz
+Package-List: 
+ distro-info-data deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/d/distro-info-data
+Priority: source
+Section: devel

@@ -1,0 +1,26 @@
+Package: libvisio
+Binary: libvisio-dev, libvisio-doc, libvisio-0.1-1, libvisio-tools
+Version: 0.1.7-1
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>
+Build-Depends: autotools-dev, dh-autoreconf, debhelper (>= 10), doxygen, dpkg-dev (>= 1.17.14), gperf, libboost-dev, libcppunit-dev, libicu-dev, librevenge-dev, libxml2-dev (>= 2.9.2+zdfsg1-4), pkg-config, tzdata <!nocheck>, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Files:
+ 3373fa5a2e5d47761dc0eb90a762c105 2213 libvisio_0.1.7-1.dsc
+ 812a21fee1f7b096612ca83fdafb0db7 854296 libvisio_0.1.7.orig.tar.xz
+ 78882183f6ae00b5af872c9b5c2909f6 8112 libvisio_0.1.7-1.debian.tar.xz
+Checksums-Sha256:
+ 61eaf3865704e12520640233be381b093fac33408ee701d504c93fb1f8b87e48 2213 libvisio_0.1.7-1.dsc
+ 8faf8df870cb27b09a787a1959d6c646faa44d0d8ab151883df408b7166bea4c 854296 libvisio_0.1.7.orig.tar.xz
+ 1731dd1fa9f9d16da62b20d9f73b13a544c1925ffe2c5f0d0f6d5f238770e615 8112 libvisio_0.1.7-1.debian.tar.xz
+Homepage: http://freedesktop.org/wiki/Software/libvisio
+Package-List: 
+ libvisio-0.1-1 deb libs optional arch=any
+ libvisio-dev deb libdevel optional arch=any
+ libvisio-doc deb doc optional arch=all
+ libvisio-tools deb utils optional arch=any
+Directory: pool/main/libv/libvisio
+Priority: source
+Section: libs

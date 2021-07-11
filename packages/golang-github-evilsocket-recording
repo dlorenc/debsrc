@@ -1,0 +1,27 @@
+Package: golang-github-evilsocket-recording
+Binary: golang-github-evilsocket-recording-dev
+Version: 0.0~git20190408.3ce1dcf-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Francisco Vilmar Cardoso Ruviaro <francisco.ruviaro@riseup.net>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-evilsocket-islazy-dev, golang-github-kr-binarydist-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 08648c6b57a47be1119dfcdd5f991b12 2573 golang-github-evilsocket-recording_0.0~git20190408.3ce1dcf-2.dsc
+ 74a9b3d9bbf108f7fbe237754b6cf7a8 14492 golang-github-evilsocket-recording_0.0~git20190408.3ce1dcf.orig.tar.xz
+ f44dd67d60248805d7fab5145e51ef38 2684 golang-github-evilsocket-recording_0.0~git20190408.3ce1dcf-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-evilsocket-recording
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-evilsocket-recording.git
+Checksums-Sha256:
+ 7c5dffb307767c8dc160d7f5dc6d01ea3de87ff9fdfc62c62fe8def9ab78b566 2573 golang-github-evilsocket-recording_0.0~git20190408.3ce1dcf-2.dsc
+ 6601f84bbcdabfdae8b4cf22029204805317deda532775cf6f373456918e3385 14492 golang-github-evilsocket-recording_0.0~git20190408.3ce1dcf.orig.tar.xz
+ e062820e98e42d246e61c227eb984aced272d19ad3e4d758ad306cc97c3b90df 2684 golang-github-evilsocket-recording_0.0~git20190408.3ce1dcf-2.debian.tar.xz
+Homepage: https://github.com/bettercap/recording
+Go-Import-Path: github.com/bettercap/recording
+Package-List: 
+ golang-github-evilsocket-recording-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-evilsocket-recording
+Priority: extra
+Section: golang

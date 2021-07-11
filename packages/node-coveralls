@@ -1,0 +1,26 @@
+Package: node-coveralls
+Binary: node-coveralls
+Version: 3.1.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), docbook2x <!nodoc>, mocha <!nocheck>, node-growl (>= 1.10.0) <!nocheck>, node-js-yaml <!nocheck>, node-lcov-parse <!nocheck>, node-log-driver <!nocheck>, node-minimist <!nocheck>, node-fetch <!nocheck>, node-should (>= 8.0) <!nocheck>, node-sinon (>= 7.4.2) <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 68188a9c905c784a63a7ae8dcb2d87dc 2318 node-coveralls_3.1.0-2.dsc
+ e39a3eb778c7002569594b55e2eead35 44351 node-coveralls_3.1.0.orig.tar.gz
+ f769524ed35188aec441eb1a1ddd6456 6012 node-coveralls_3.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-coveralls
+Vcs-Git: https://salsa.debian.org/js-team/node-coveralls.git
+Checksums-Sha256:
+ 6a49ad780ceeb038227014d3f7ff8c49cec85f880eb221aa6c1da1141494b886 2318 node-coveralls_3.1.0-2.dsc
+ 42f15d0bd2fda8c3b1a95da8b7b6ff1e9e64d45f0dee7833d31b43222641a39d 44351 node-coveralls_3.1.0.orig.tar.gz
+ 33bad479fc2901694d8dcafedf5bf034f485a5dad19abc201f05aeb2435848c9 6012 node-coveralls_3.1.0-2.debian.tar.xz
+Homepage: https://github.com/nickmerwin/node-coveralls
+Package-List: 
+ node-coveralls deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-coveralls
+Priority: extra
+Section: misc

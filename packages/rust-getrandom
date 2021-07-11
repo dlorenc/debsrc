@@ -1,0 +1,30 @@
+Package: rust-getrandom
+Binary: librust-getrandom-dev, librust-getrandom+compiler-builtins-dev, librust-getrandom+core-dev, librust-getrandom+log-dev, librust-getrandom+rustc-dep-of-std-dev
+Version: 0.1.13-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-libc-0.2-dev (>= 0.2.62-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5a94ced6b82d958b2aa120d4a6c3c345 2040 rust-getrandom_0.1.13-4.dsc
+ dfdcc92099e197aa0fbae622636ed40a 24581 rust-getrandom_0.1.13.orig.tar.gz
+ 67ebd9d5abb500459a2b3da662b4cdde 3584 rust-getrandom_0.1.13-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/getrandom
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/getrandom]
+Checksums-Sha256:
+ 753ecbe7ebaf06513ef149897483705d0cad28d6d3a1ad8ad7ecc41842b5a8d6 2040 rust-getrandom_0.1.13-4.dsc
+ e7db7ca94ed4cd01190ceee0d8a8052f08a247aa1b469a7f68c6a3b71afcf407 24581 rust-getrandom_0.1.13.orig.tar.gz
+ 756850297b50e6d0ca3308d2a71bca3d2266434dfe6073556c3f3d97d9b1a021 3584 rust-getrandom_0.1.13-4.debian.tar.xz
+Package-List: 
+ librust-getrandom+compiler-builtins-dev deb rust optional arch=any
+ librust-getrandom+core-dev deb rust optional arch=any
+ librust-getrandom+log-dev deb rust optional arch=any
+ librust-getrandom+rustc-dep-of-std-dev deb rust optional arch=any
+ librust-getrandom-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-wasm-bindgen-test-0.2+default-dev
+Directory: pool/main/r/rust-getrandom
+Priority: extra
+Section: misc

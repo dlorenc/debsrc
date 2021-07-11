@@ -1,0 +1,28 @@
+Package: haskell-assert-failure
+Binary: libghc-assert-failure-dev, libghc-assert-failure-prof, libghc-assert-failure-doc
+Version: 0.1.2.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Mikolaj Konarski <mikolaj.konarski@funktory.com>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-pretty-show-dev (>= 1.6), libghc-pretty-show-dev (<< 2), libghc-pretty-show-prof
+Build-Depends-Indep: ghc-doc, libghc-pretty-show-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 82ab45d699d290b55d68a6d2928e0080 2609 haskell-assert-failure_0.1.2.3-1.dsc
+ 4d97816356453c57caaf08b67cb5c5e7 3782 haskell-assert-failure_0.1.2.3.orig.tar.gz
+ 117eeb86c61d1a708722ed7db5262fa1 2692 haskell-assert-failure_0.1.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-assert-failure
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-assert-failure]
+Checksums-Sha256:
+ eb88fc438dbd9261b79974485e656d7eb2ca4acd380f17d0cfe67b662c3438c1 2609 haskell-assert-failure_0.1.2.3-1.dsc
+ c8b0975d7abe09d1fd3c630e63b0a110906defa1d2b2e69dfa359386544f54b2 3782 haskell-assert-failure_0.1.2.3.orig.tar.gz
+ b1db25490b8f07b9ef724d0287e70923fbd069b6acbb47e1cbe7d1e86ac7c6bc 2692 haskell-assert-failure_0.1.2.3-1.debian.tar.xz
+Homepage: https://github.com/Mikolaj/assert-failure
+Package-List: 
+ libghc-assert-failure-dev deb haskell optional arch=any
+ libghc-assert-failure-doc deb doc optional arch=all
+ libghc-assert-failure-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-assert-failure
+Priority: optional
+Section: misc

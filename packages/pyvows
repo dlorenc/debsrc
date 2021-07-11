@@ -1,0 +1,27 @@
+Package: pyvows
+Binary: python3-pyvows
+Version: 3.0.0-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Marcelo Jorge Vieira <metal@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, help2man, python3-all (>= 2.6.6-3), python3-argparse-manpage, python3-colorama, python3-coverage, python3-gevent, python3-preggy (>= 1.4.3), python3-setuptools (>= 0.6b3)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 56ae6f9ffbfcabaeb64ae799c7415227 2134 pyvows_3.0.0-3.dsc
+ 268f27d1b98345870a3c3caa2083ed18 41054 pyvows_3.0.0.orig.tar.gz
+ 27aa19671a682a10b8638c534b23651b 3632 pyvows_3.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyvows
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyvows.git
+Checksums-Sha256:
+ 68e10652c81b1d9a81d26ca980970a7568bfbf93bf8ac985dd56331a4490726e 2134 pyvows_3.0.0-3.dsc
+ b48d62eaf927545360745cbba76e34782a4dea4a979fdc0b5f7b34472fc6f2a3 41054 pyvows_3.0.0.orig.tar.gz
+ 44cf55abbf337f616f90e394ad75bf0a3c8b14651e37e128ec2ba4454a94c8fd 3632 pyvows_3.0.0-3.debian.tar.xz
+Homepage: http://pyvows.org
+Package-List: 
+ python3-pyvows deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/pyvows
+Priority: optional
+Section: misc

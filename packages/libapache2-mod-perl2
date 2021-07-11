@@ -1,0 +1,32 @@
+Package: libapache2-mod-perl2
+Binary: libapache2-mod-perl2, libapache2-mod-perl2-dev, libapache2-mod-perl2-doc
+Version: 2.0.11-4
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, Niko Tyni <ntyni@debian.org>, gregor herrmann <gregoa@debian.org>, Dominic Hargreaves <dom@earth.li>, Ivan Kohler <ivan-debian@420.am>, Xavier Guimard <yadd@debian.org>
+Build-Depends: apache2 <!nocheck>, apache2-dev, debhelper-compat (= 13), libbsd-resource-perl <!nocheck>, libcgi-pm-perl <!nocheck>, libdevel-symdump-perl <!nocheck>, libhtml-parser-perl <!nocheck>, libhtml-template-perl, libperl-dev, libreadonly-perl, libwww-perl <!nocheck>, locales-all <!nocheck>, netbase <!nocheck>, perl-xs-dev, perl:native
+Build-Depends-Indep: rename
+Build-Conflicts: apache2-mpm-event
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b0fce548b526ced2e150ba5c7fd38073 3109 libapache2-mod-perl2_2.0.11-4.dsc
+ 897708961bcc079b53c91860f95a2b59 3848147 libapache2-mod-perl2_2.0.11.orig.tar.gz
+ f923ee956ad1d56a01ebb1303d97644d 27864 libapache2-mod-perl2_2.0.11-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libapache2-mod-perl2
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libapache2-mod-perl2.git
+Checksums-Sha256:
+ 60fef3a4d87eda0532d46322d4874d6b873a92e37713162b88ff7c9b97598900 3109 libapache2-mod-perl2_2.0.11-4.dsc
+ ca2a9e18cdf90f9c6023e786369d5ba75e8dac292ebfea9900c29bf42dc16f74 3848147 libapache2-mod-perl2_2.0.11.orig.tar.gz
+ b779f42adce716b4a1f5b54b1b42fa6962e7eb3220ae79140205576e40bd79ae 27864 libapache2-mod-perl2_2.0.11-4.debian.tar.xz
+Homepage: https://perl.apache.org/
+Dgit: 6f3a9c409dd4d7d8c9efad44d157fc3172e659e3 debian archive/debian/2.0.11-4 https://git.dgit.debian.org/libapache2-mod-perl2
+Package-List: 
+ libapache2-mod-perl2 deb httpd optional arch=any
+ libapache2-mod-perl2-dev deb libdevel optional arch=all
+ libapache2-mod-perl2-doc deb doc optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/liba/libapache2-mod-perl2
+Priority: source
+Section: httpd

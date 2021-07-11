@@ -1,0 +1,27 @@
+Package: golang-github-mitchellh-go-vnc
+Binary: golang-github-mitchellh-go-vnc-dev
+Version: 0.0~git20150629.723ed98-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7dbd2b7bf654f8a0ac842dd35a857d30 1797 golang-github-mitchellh-go-vnc_0.0~git20150629.723ed98-1.dsc
+ f536ddbf9dd521d08ca170b1d2a013d2 8676 golang-github-mitchellh-go-vnc_0.0~git20150629.723ed98.orig.tar.xz
+ 5e0dbc1c62e29bd7ea5273b55e20a3e3 2848 golang-github-mitchellh-go-vnc_0.0~git20150629.723ed98-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mitchellh-go-vnc
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mitchellh-go-vnc.git
+Checksums-Sha256:
+ 76e03ac5affee9c50622a388965cb70bc384bda10d98d590f8a204fd14f64352 1797 golang-github-mitchellh-go-vnc_0.0~git20150629.723ed98-1.dsc
+ fb7dbf024f68de88f4586e413783eaecf97ef3bba12bfacf2de11542e845b1f2 8676 golang-github-mitchellh-go-vnc_0.0~git20150629.723ed98.orig.tar.xz
+ b8c77383dd9bc9398e3ddd164ab0a5a029a65d59d161375611b32d3a46125494 2848 golang-github-mitchellh-go-vnc_0.0~git20150629.723ed98-1.debian.tar.xz
+Homepage: https://github.com/mitchellh/go-vnc
+Go-Import-Path: github.com/mitchellh/go-vnc
+Package-List: 
+ golang-github-mitchellh-go-vnc-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mitchellh-go-vnc
+Priority: extra
+Section: golang

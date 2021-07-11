@@ -1,0 +1,26 @@
+Package: runlim
+Binary: runlim
+Version: 1.10-6
+Maintainer: Thomas Krennwallner <tkren@kr.tuwien.ac.at>
+Build-Depends: debhelper-compat (= 13)
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2dfc27151354b252910a72655a8d9532 1850 runlim_1.10-6.dsc
+ 5e0855a5d554c75ea4caafb08ffcfa17 7242 runlim_1.10.orig.tar.gz
+ 50bbec677027520abf7b9ea0256b78bf 6180 runlim_1.10-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/runlim
+Vcs-Git: https://salsa.debian.org/debian/runlim.git
+Checksums-Sha256:
+ 6f73fb8d911ff5dc2c50d3d74595d3b26e9210ff2c7b4349c207e6ee21a1a184 1850 runlim_1.10-6.dsc
+ 619aec701e9984977832e2db2bf05cef82ad6ac4ca53b595863bec115b69bc33 7242 runlim_1.10.orig.tar.gz
+ 667b61af92d181ff831b990ad1c7537df3956a46b77043c198ed7edd80fa8b06 6180 runlim_1.10-6.debian.tar.xz
+Homepage: http://fmv.jku.at/runlim/
+Package-List: 
+ runlim deb utils optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: stress
+Directory: pool/main/r/runlim
+Priority: source
+Section: utils

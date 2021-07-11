@@ -1,0 +1,27 @@
+Package: epiphany-browser
+Binary: epiphany-browser, epiphany-browser-data
+Version: 3.38.2-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Sebastien Bacher <seb128@debian.org>
+Build-Depends: appstream-util, at-spi2-core <!nocheck>, debhelper-compat (= 13), dh-sequence-gnome, gobject-introspection (>= 0.9.12-4~), gsettings-desktop-schemas-dev, gtk-doc-tools (>= 1.0), iso-codes (>= 0.35), itstool, libdazzle-1.0-dev (>= 3.37.1), libgcr-3-dev (>= 3.5.5), libgdk-pixbuf-2.0-dev (>= 2.36.5) | libgdk-pixbuf2.0-dev (>= 2.36.5), libgirepository1.0-dev (>= 0.10.7-1~), libglib2.0-dev (>= 2.61.2), libgtk-3-dev (>= 3.22.13), libhandy-1-dev (>= 1.0), libjson-glib-dev (>= 1.2.0), libsecret-1-dev (>= 0.19), libsoup-gnome2.4-dev (>= 2.48.0), libsqlite3-dev, libwebkit2gtk-4.0-dev (>= 2.29.3), libxml-parser-perl, libxml2-dev (>= 2.6.12), libxslt1-dev (>= 1.1.7), meson (>= 0.46), nettle-dev (>= 3.4), pkg-config, xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: libglib2.0-doc, libgtk-3-doc
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d823fbf40ef7de26837c40c8ee895687 2619 epiphany-browser_3.38.2-1.dsc
+ 486b5ff95db04073efc0a4d2bf9736ca 3862520 epiphany-browser_3.38.2.orig.tar.xz
+ 0bed2066cabf87d2e074c015777c1b54 42656 epiphany-browser_3.38.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/epiphany-browser
+Vcs-Git: https://salsa.debian.org/gnome-team/epiphany-browser.git
+Checksums-Sha256:
+ 82e4d49dd723931c79a10a01b8b1a9ecd711173b4874ad87caea99410e509eac 2619 epiphany-browser_3.38.2-1.dsc
+ 8b05f2bcc1e80ecf4a10f6f01b3285087eb4cbdf5741dffb8c0355715ef5116d 3862520 epiphany-browser_3.38.2.orig.tar.xz
+ ec9b20dc3e13c6000237ba9b13ab7fba3da3102193f3a66e62959d0aa3f81895 42656 epiphany-browser_3.38.2-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Web
+Package-List: 
+ epiphany-browser deb gnome optional arch=any
+ epiphany-browser-data deb gnome optional arch=all
+Directory: pool/main/e/epiphany-browser
+Priority: source
+Section: gnome

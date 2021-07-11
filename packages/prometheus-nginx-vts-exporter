@@ -1,0 +1,27 @@
+Package: prometheus-nginx-vts-exporter
+Binary: prometheus-nginx-vts-exporter
+Version: 0.10.3+git20180501.43b4556+ds-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Raúl Benencia <rul@kalgan.cc>,
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-prometheus-client-golang-dev, golang-github-prometheus-common-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 14de78636962dca6dee5553564e8cebf 2505 prometheus-nginx-vts-exporter_0.10.3+git20180501.43b4556+ds-2.dsc
+ a2ea4d64d88f993aa7f5449afa695961 9821 prometheus-nginx-vts-exporter_0.10.3+git20180501.43b4556+ds.orig.tar.gz
+ 4d25743ecc170faa9cdccac3b18d40b2 5308 prometheus-nginx-vts-exporter_0.10.3+git20180501.43b4556+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/prometheus-nginx-vts-exporter
+Vcs-Git: https://salsa.debian.org/go-team/packages/prometheus-nginx-vts-exporter.git
+Checksums-Sha256:
+ 0cd27a81daceef396ec16378e388e6d2e12031e7901de780900682a013e83c16 2505 prometheus-nginx-vts-exporter_0.10.3+git20180501.43b4556+ds-2.dsc
+ d01ce8c342d72bd51a3ed6f158bc8080c6f18195bc531209b13b54b7acd86b8a 9821 prometheus-nginx-vts-exporter_0.10.3+git20180501.43b4556+ds.orig.tar.gz
+ feab7f4113781cb25c6a418f26514a17a31bd1c51ac586acffe16a5ccb24254d 5308 prometheus-nginx-vts-exporter_0.10.3+git20180501.43b4556+ds-2.debian.tar.xz
+Homepage: https://github.com/hnlq715/nginx-vts-exporter
+Go-Import-Path: github.com/hnlq715/nginx-vts-exporter
+Package-List: 
+ prometheus-nginx-vts-exporter deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/p/prometheus-nginx-vts-exporter
+Priority: extra
+Section: misc

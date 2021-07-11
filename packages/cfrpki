@@ -1,0 +1,27 @@
+Package: cfrpki
+Binary: octorpki
+Version: 1.2.2-1
+Maintainer: Marco d'Itri <md@linux.it>
+Uploaders: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-cloudflare-gortr-dev, golang-github-getsentry-sentry-go-dev, golang-github-gorilla-mux-dev, golang-github-kentik-patricia-dev, golang-github-prometheus-client-golang-dev, golang-github-rs-cors-dev, golang-github-stretchr-testify-dev, golang-google-grpc-dev, golang-goprotobuf-dev, golang-logrus-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 56a1af840cff9b5b16aa67452011d5a3 1668 cfrpki_1.2.2-1.dsc
+ 8cac0fd06227ae21ab0fcb0d49514dde 2064788 cfrpki_1.2.2.orig.tar.xz
+ 7360550197fef419226bc0d9b43edf8b 5072 cfrpki_1.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/md/cfrpki
+Vcs-Git: https://salsa.debian.org/md/cfrpki.git
+Checksums-Sha256:
+ 3d2ac6fe7ef01381b39fc895b2f2df7a9762af3ec5dab6ae565e5c5a33b3940a 1668 cfrpki_1.2.2-1.dsc
+ f6335033f8573cb217a50d98896aba1063aa162723438bf9e12f594c15245b24 2064788 cfrpki_1.2.2.orig.tar.xz
+ 9cd6779ca42fc1bac332e2ce345ba76501aced8dc281ead06b50da13f16fde94 5072 cfrpki_1.2.2-1.debian.tar.xz
+Homepage: https://github.com/cloudflare/cfrpki
+Go-Import-Path: github.com/cloudflare/cfrpki
+Package-List: 
+ octorpki deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/c/cfrpki
+Priority: extra
+Section: misc

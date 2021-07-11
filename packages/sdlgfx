@@ -1,0 +1,29 @@
+Package: sdlgfx
+Binary: libsdl-gfx1.2-5, libsdl-gfx1.2-dev, libsdl-gfx1.2-doc
+Version: 2.0.25-11.1
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Uploaders: Felix Geyer <fgeyer@debian.org>, Manuel A. Fernandez Montecelo <mafm@debian.org>
+Build-Depends: debhelper (>= 11~), libsdl1.2-dev, libjs-jquery, tar (>= 1.28)
+Architecture: any all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 47ade0587e20e6f4398290d34a57eee7 2226 sdlgfx_2.0.25-11.1.dsc
+ cad730083b9f1620cebfc5c2f8445f76 1731294 sdlgfx_2.0.25.orig.tar.gz
+ 030a371413afa4da60bce3157bf53bfe 8664 sdlgfx_2.0.25-11.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/sdl-team/sdlgfx
+Vcs-Git: https://salsa.debian.org/sdl-team/sdlgfx.git
+Checksums-Sha256:
+ 0f232ec7b41d82d1412f37beeed41e1d603bb5fea1f85014a98e861fbf301155 2226 sdlgfx_2.0.25-11.1.dsc
+ a5a11cc7246e7e30427300022c49b85892ded4484427090496e41faa53bd137e 1731294 sdlgfx_2.0.25.orig.tar.gz
+ b2f84fcedce1e608222c177ffd08e41a84cd829f1b64fc818ac09db56e79d362 8664 sdlgfx_2.0.25-11.1.debian.tar.xz
+Homepage: https://www.ferzkopp.net/Software/SDL_gfx-2.0/
+Package-List: 
+ libsdl-gfx1.2-5 deb libs optional arch=any
+ libsdl-gfx1.2-dev deb libdevel optional arch=any
+ libsdl-gfx1.2-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/s/sdlgfx
+Priority: source
+Section: libs

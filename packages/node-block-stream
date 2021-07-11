@@ -1,0 +1,26 @@
+Package: node-block-stream
+Binary: node-block-stream
+Version: 0.0.9-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), node-tap <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5cb9bbc915392d70e162b2559e2141b5 2095 node-block-stream_0.0.9-2.dsc
+ d470651a857f2357e633276433816286 6118 node-block-stream_0.0.9.orig.tar.gz
+ 65f683a9b0eb3b6197b1752969bc485f 2408 node-block-stream_0.0.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-block-stream
+Vcs-Git: https://salsa.debian.org/js-team/node-block-stream.git
+Checksums-Sha256:
+ 0a902f172f34639172629e358a30775c901c8e3799abd446429f641dd65f0af7 2095 node-block-stream_0.0.9-2.dsc
+ 45412e9f72b8f297b841f0a91caf4aee5906ae52785b7a22eb33a4c48ef3a8a0 6118 node-block-stream_0.0.9.orig.tar.gz
+ 87fecb92a84677a7846c18a107a22fb3b01c41848cd0f976e56f641f9ded958e 2408 node-block-stream_0.0.9-2.debian.tar.xz
+Homepage: https://github.com/isaacs/block-stream
+Package-List: 
+ node-block-stream deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-block-stream
+Priority: source
+Section: javascript

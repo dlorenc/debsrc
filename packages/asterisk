@@ -1,0 +1,41 @@
+Package: asterisk
+Binary: asterisk, asterisk-modules, asterisk-dahdi, asterisk-vpb, asterisk-voicemail, asterisk-voicemail-imapstorage, asterisk-voicemail-odbcstorage, asterisk-ooh323, asterisk-mp3, asterisk-mysql, asterisk-mobile, asterisk-tests, asterisk-doc, asterisk-dev, asterisk-config
+Version: 1:16.16.1~dfsg-1
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Uploaders: Bernhard Schmidt <berni@debian.org>, Jeremy Lainé <jeremy.laine@m4x.org>, Jonas Smedegaard <dr@jones.dk>, Mark Purcell <msp@debian.org>, Tzafrir Cohen <tzafrir@debian.org>
+Build-Depends: autoconf, automake, binutils-dev, dahdi-source, debhelper (>= 10), default-libmysqlclient-dev, freetds-dev, libasound2-dev, libavcodec-dev, libavdevice-dev, libbluetooth-dev [linux-any], libc-client2007e-dev, libcap-dev [linux-any], libcurl4-openssl-dev | libcurl-dev, libedit-dev, libradcli-dev | libfreeradius-client-dev | libradiusclient-ng-dev, libgmime-3.0-dev, libgsm1-dev, libical-dev, libiksemel-dev, libjack-dev, libjansson-dev (>= 2.11), libldap-dev, liblua5.1-0-dev, libncurses-dev, libneon27-gnutls-dev | libneon27-dev, libnewt-dev, libogg-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopenr2-dev [linux-any], libopus-dev, libopusfile-dev, libpopt-dev, libpq-dev, libpri-dev, libreadline-dev, libresample1-dev, libsdl-image1.2-dev, libsnmp-dev, libspandsp-dev, libspeex-dev, libspeexdsp-dev, libsqlite3-dev, libsrtp2-dev, libss7-dev, libssl-dev, libsystemd-dev [linux-any], libswscale-dev, libtonezone-dev [linux-any], libunbound-dev, liburiparser-dev, libvorbis-dev, libvpb-dev [linux-any], libxml2-dev, libxslt1-dev, portaudio19-dev, unixodbc-dev, uuid-dev, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ cdd946324c7bfb50a0e2cb38fbc538f4 4201 asterisk_16.16.1~dfsg-1.dsc
+ ad421903a111f0a43e25d64b7aadc2e9 7055724 asterisk_16.16.1~dfsg.orig.tar.xz
+ 998121308e544f279b505428e4e41b48 5949036 asterisk_16.16.1~dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-voip-team/asterisk
+Vcs-Git: https://salsa.debian.org/pkg-voip-team/asterisk.git
+Checksums-Sha256:
+ c967376bac906d3e82eea5435b372cdf858aa950488f3d82302dd5bac1ee864c 4201 asterisk_16.16.1~dfsg-1.dsc
+ 42268f21025a0fab9288f616951609f8b10118fb63e35fae80e7d110eb5dda6e 7055724 asterisk_16.16.1~dfsg.orig.tar.xz
+ 2c421974dbad0178b8af0ef3919b151c8317d1a841980a3ba4ec3be3c41d5a85 5949036 asterisk_16.16.1~dfsg-1.debian.tar.xz
+Homepage: http://www.asterisk.org/
+Package-List: 
+ asterisk deb comm optional arch=any
+ asterisk-config deb comm optional arch=all
+ asterisk-dahdi deb comm optional arch=linux-any
+ asterisk-dev deb devel optional arch=all
+ asterisk-doc deb doc optional arch=all
+ asterisk-mobile deb comm optional arch=linux-any
+ asterisk-modules deb libs optional arch=any
+ asterisk-mp3 deb comm optional arch=any
+ asterisk-mysql deb comm optional arch=any
+ asterisk-ooh323 deb comm optional arch=any
+ asterisk-tests deb comm optional arch=linux-any
+ asterisk-voicemail deb comm optional arch=any
+ asterisk-voicemail-imapstorage deb comm optional arch=any
+ asterisk-voicemail-odbcstorage deb comm optional arch=any
+ asterisk-vpb deb comm optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: asterisk-core-sounds-en-gsm, libxml2-utils
+Directory: pool/main/a/asterisk
+Priority: source
+Section: comm

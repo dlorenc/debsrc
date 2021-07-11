@@ -1,0 +1,28 @@
+Package: python-multipledispatch
+Binary: python3-multipledispatch, python-multipledispatch-doc
+Version: 0.6.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Christian Kastner <ckk@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-doc <!nodoc>, python3-pytest <!nocheck>, python3-pytest-benchmark <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 80b83ce81b8d0a144376999bbe2ee770 2425 python-multipledispatch_0.6.0-2.dsc
+ f91173ac478c03d46d4e4731b4f13e93 23692 python-multipledispatch_0.6.0.orig.tar.gz
+ ea20a18673c541caa2a6ff99f5f0f097 3856 python-multipledispatch_0.6.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-multipledispatch
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-multipledispatch.git
+Checksums-Sha256:
+ b929ac5f02c42dc6c348b5c8f58575d287818821c8c26ffa3dd4471c3c5de574 2425 python-multipledispatch_0.6.0-2.dsc
+ 649f6e61b8a6ce581c75f32365c926b55495c01b8177135408b83aa03886cde0 23692 python-multipledispatch_0.6.0.orig.tar.gz
+ a26584321c41760f8ebabba9fe1103d121a26aadb3a0e7cac829182e3e70f09f 3856 python-multipledispatch_0.6.0-2.debian.tar.xz
+Homepage: https://github.com/mrocklin/multipledispatch
+Package-List: 
+ python-multipledispatch-doc deb doc optional arch=all
+ python3-multipledispatch deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-pytest-benchmark
+Directory: pool/main/p/python-multipledispatch
+Priority: extra
+Section: misc

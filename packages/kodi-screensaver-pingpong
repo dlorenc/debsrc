@@ -1,0 +1,26 @@
+Package: kodi-screensaver-pingpong
+Binary: kodi-screensaver-pingpong
+Version: 2.4.0+ds1-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Vasyl Gello <vasek.gello@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dfbce3da4f325334f9e36f0373893501 2316 kodi-screensaver-pingpong_2.4.0+ds1-2.dsc
+ c8617071d569a370a79b3048647c7edf 23400 kodi-screensaver-pingpong_2.4.0+ds1.orig.tar.xz
+ 9e998fd477b1f54d1eeaf5fe41a698a2 2812 kodi-screensaver-pingpong_2.4.0+ds1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-screensaver-pingpong
+Vcs-Git: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-screensaver-pingpong.git
+Checksums-Sha256:
+ 1d79ca97a0477d4683abc2fd67387b44820401de4f12d96b77ed9b0de1d4958e 2316 kodi-screensaver-pingpong_2.4.0+ds1-2.dsc
+ 464ea5dca285962a860389ecbc1a62ad851dc7921c7b6ed7e9402545fc19b49f 23400 kodi-screensaver-pingpong_2.4.0+ds1.orig.tar.xz
+ 71d27d2bc1a7da37f5616a7150abfdad976e320fc3d9ba9f8e00fb9a56a053ed 2812 kodi-screensaver-pingpong_2.4.0+ds1-2.debian.tar.xz
+Homepage: https://kodi.tv
+Build-Depends-Arch: dh-sequence-kodiaddon, cmake, kodi-addons-dev (>= 2:19~), libgles2-mesa-dev [arm64 armel armhf], libgl1-mesa-dev [!arm64 !armel !armhf], libglm-dev
+Package-List: 
+ kodi-screensaver-pingpong deb libs optional arch=any
+Directory: pool/main/k/kodi-screensaver-pingpong
+Priority: extra
+Section: misc

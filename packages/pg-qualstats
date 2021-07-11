@@ -1,0 +1,26 @@
+Package: pg-qualstats
+Binary: postgresql-13-pg-qualstats
+Version: 2.0.2-2
+Maintainer: Julien Rouhaud <rjuju123@gmail.com>
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4c4c15b49678c3c887f9cf9d1f75be41 1958 pg-qualstats_2.0.2-2.dsc
+ f514fccdaee59588fae3892bc0259ad0 33535 pg-qualstats_2.0.2.orig.tar.gz
+ 9ddf831dc38b162528e8459b4d624ca2 2592 pg-qualstats_2.0.2-2.debian.tar.xz
+Vcs-Browser: https://github.com/powa-team/pg_qualstats
+Vcs-Git: https://github.com/powa-team/pg_qualstats.git
+Checksums-Sha256:
+ 325ce869d6b11591412637ffb3477c9bb0712e659b3d1f972e9bec2509444236 1958 pg-qualstats_2.0.2-2.dsc
+ 291ea12d4809aa3b112340e12dc74d98db5f7d8e5fc3f22e857a4b289eefb3c7 33535 pg-qualstats_2.0.2.orig.tar.gz
+ a0da021593c83209482f64c0c75ffc0f77aba03acb208d3f83503be3284ef6ee 2592 pg-qualstats_2.0.2-2.debian.tar.xz
+Homepage: https://powa.readthedocs.io/
+Package-List: 
+ postgresql-13-pg-qualstats deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/p/pg-qualstats
+Priority: extra
+Section: misc

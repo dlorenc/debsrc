@@ -1,0 +1,35 @@
+Package: perl
+Binary: perl-base, perl-doc, perl-debug, libperl5.32, libperl-dev, perl-modules-5.32, perl
+Version: 5.32.1-4
+Maintainer: Niko Tyni <ntyni@debian.org>
+Uploaders: Dominic Hargreaves <dom@earth.li>
+Build-Depends: file, cpio, libdb-dev, libgdbm-dev (>= 1.18-3), libgdbm-compat-dev, netbase <!nocheck>, procps [!hurd-any] <!nocheck>, debhelper-compat (= 13), zlib1g-dev | libz-dev, libbz2-dev, dpkg-dev (>= 1.17.14), dist (>= 3.5-236), libc6-dev (>= 2.19-9) [s390x]
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ f13a75547c116a01773513bddf85a2ed 2886 perl_5.32.1-4.dsc
+ 377ac050e8c90f3361fec97d91e96469 871331 perl_5.32.1.orig-regen-configure.tar.gz
+ 7f104064b906ad8c7329ca5e409a32d7 12610988 perl_5.32.1.orig.tar.xz
+ edf5dae13d9bc51d744f7271e2be98cf 164680 perl_5.32.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/interpreter/perl
+Vcs-Git: https://salsa.debian.org/perl-team/interpreter/perl.git
+Checksums-Sha256:
+ cfdbfe682a349ce72566061495e47c295df6afdc82f57726a30b4ff312501431 2886 perl_5.32.1-4.dsc
+ 1d179b41283f12ad83f9758430f6ddc49bdf20db5c396aeae7e51ebb4e4afd29 871331 perl_5.32.1.orig-regen-configure.tar.gz
+ 57cc47c735c8300a8ce2fa0643507b44c4ae59012bfdad0121313db639e02309 12610988 perl_5.32.1.orig.tar.xz
+ 33605cc1ed7ef959a105d5ea1695f8b77e415c539aef3ddd8c91bb3dae81967e 164680 perl_5.32.1-4.debian.tar.xz
+Homepage: http://dev.perl.org/perl5/
+Package-List: 
+ libperl-dev deb libdevel optional arch=any
+ libperl5.32 deb libs optional arch=any
+ perl deb perl standard arch=any
+ perl-base deb perl required arch=any essential=yes
+ perl-debug deb devel optional arch=any
+ perl-doc deb doc optional arch=all
+ perl-modules-5.32 deb libs standard arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, cpio, db-util, dist, dpkg-dev, gdbmtool, libapt-pkg-perl, libdpkg-perl, pkg-perl-autopkgtest
+Directory: pool/main/p/perl
+Priority: source
+Section: perl

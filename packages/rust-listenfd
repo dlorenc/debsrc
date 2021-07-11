@@ -1,0 +1,27 @@
+Package: rust-listenfd
+Binary: librust-listenfd-dev
+Version: 0.3.3-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.40-~~) <!nocheck>, librust-uuid-0.8+default-dev <!nocheck> | librust-uuid-0.7+default-dev <!nocheck> | librust-uuid-0.6+default-dev (>= 0.6.3-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.4-~~) <!nocheck>, librust-winapi-0.3+processthreadsapi-dev (>= 0.3.4-~~) <!nocheck>, librust-winapi-0.3+winsock2-dev (>= 0.3.4-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1d660327013b18793528e88f13631819 2533 rust-listenfd_0.3.3-2.dsc
+ 1b25b470f51ed83ef84ba70cf05e5fa3 5604 rust-listenfd_0.3.3.orig.tar.gz
+ 30800af98e26bd7ffcc958a3f7f9304e 2864 rust-listenfd_0.3.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/listenfd
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/listenfd]
+Checksums-Sha256:
+ 98899284988271808957f85722e6925770c3a153fd15ebccb34fc47bbc44057a 2533 rust-listenfd_0.3.3-2.dsc
+ 492158e732f2e2de81c592f0a2427e57e12cd3d59877378fe7af624b6bbe0ca1 5604 rust-listenfd_0.3.3.orig.tar.gz
+ 9804701cc41eb3c07208e95d818ee1bda3e1c71dfea0460503dc2cdb49020fa8 2864 rust-listenfd_0.3.3-2.debian.tar.xz
+Homepage: https://github.com/mitsuhiko/rust-listenfd
+Package-List: 
+ librust-listenfd-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-listenfd
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-ini
+Binary: node-ini
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-tap <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 71a124b6c2232acf1e4f59cc4d8146c7 1986 node-ini_2.0.0-1.dsc
+ ed326280ce9b7539098f4e999f0b0cf8 109383 node-ini_2.0.0.orig.tar.gz
+ 0102de59c8698e87c1d683bd777ec527 2708 node-ini_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ini
+Vcs-Git: https://salsa.debian.org/js-team/node-ini.git
+Checksums-Sha256:
+ 357b0f9ab337bd7c697f94c3e98d63c0f9859e64883e62bef0fafd8910256ed7 1986 node-ini_2.0.0-1.dsc
+ c01dfc6d190c6f1d770cfb84490461415c9d67ac6e77b5335cbe17184cf5f891 109383 node-ini_2.0.0.orig.tar.gz
+ 9d65e1936e2846cab2944840dd895b8b33eb30938c625abd200b2d4529c2b77e 2708 node-ini_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/isaacs/ini
+Package-List: 
+ node-ini deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ini
+Priority: source
+Section: javascript

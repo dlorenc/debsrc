@@ -1,0 +1,28 @@
+Package: haskell-ed25519
+Binary: libghc-ed25519-dev, libghc-ed25519-prof, libghc-ed25519-doc
+Version: 0.0.5.0-14
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-doctest-dev (>= 0.10), libghc-doctest-dev (<< 0.17), libghc-quickcheck2-dev (>= 2.4), libghc-quickcheck2-dev (<< 2.14)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4887e6a1eccf93d61a7b1c520dfb61d5 2443 haskell-ed25519_0.0.5.0-14.dsc
+ 5dd00a5576601dd8e0cd851762a5545c 80034 haskell-ed25519_0.0.5.0.orig.tar.gz
+ 31808429a28d34f4c89ac4d0dd4be72f 3864 haskell-ed25519_0.0.5.0-14.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ed25519
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ed25519]
+Checksums-Sha256:
+ 613800588315ae08422e11e767239b54f762971a5d2a1e6da9836ee7e48929a0 2443 haskell-ed25519_0.0.5.0-14.dsc
+ d8a5958ebfa9309790efade64275dc5c441b568645c45ceed1b0c6ff36d6156d 80034 haskell-ed25519_0.0.5.0.orig.tar.gz
+ 67f0836da7a01457045ae689632e7b9c07984b778773739ffb050858879a7856 3864 haskell-ed25519_0.0.5.0-14.debian.tar.xz
+Homepage: https://thoughtpolice.github.com/hs-ed25519
+Package-List: 
+ libghc-ed25519-dev deb haskell optional arch=any
+ libghc-ed25519-doc deb doc optional arch=all
+ libghc-ed25519-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ed25519
+Priority: optional
+Section: misc

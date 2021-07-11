@@ -1,0 +1,27 @@
+Package: golang-github-cockroachdb-cockroach-go
+Binary: golang-github-cockroachdb-cockroach-go-dev
+Version: 0.0~git20170808.c806b48-1.1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper (>= 10), dh-golang, golang-any, golang-github-lib-pq-dev
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 0c185ae45c574b8837a0edd87d3979ba 2547 golang-github-cockroachdb-cockroach-go_0.0~git20170808.c806b48-1.1.dsc
+ 4477028032411c1f00e8772bea8e6ec2 11184 golang-github-cockroachdb-cockroach-go_0.0~git20170808.c806b48.orig.tar.xz
+ 81bf41e283d4e3212dc6f6a3f28c7aa2 1792 golang-github-cockroachdb-cockroach-go_0.0~git20170808.c806b48-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-cockroachdb-cockroach-go.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-cockroachdb-cockroach-go.git
+Checksums-Sha256:
+ bdd58d6e60c2cd999647d24cf2bef1a4aac20c869b6c9d85dad6079e8285c81d 2547 golang-github-cockroachdb-cockroach-go_0.0~git20170808.c806b48-1.1.dsc
+ ee3d0fab1857ced14462968763a6ad262f6f092db20a7b47f05b38da2798f927 11184 golang-github-cockroachdb-cockroach-go_0.0~git20170808.c806b48.orig.tar.xz
+ deba76b4eb6d22e3e1c99eb14e4b4b051a6dffb6f89c45e584cc7860bd7b3989 1792 golang-github-cockroachdb-cockroach-go_0.0~git20170808.c806b48-1.1.debian.tar.xz
+Homepage: https://github.com/cockroachdb/cockroach-go
+Go-Import-Path: github.com/cockroachdb/cockroach-go
+Package-List: 
+ golang-github-cockroachdb-cockroach-go-dev deb devel extra arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-cockroachdb-cockroach-go
+Priority: extra
+Section: golang

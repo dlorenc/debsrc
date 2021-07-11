@@ -1,0 +1,36 @@
+Package: roundcube
+Binary: roundcube-core, roundcube, roundcube-mysql, roundcube-pgsql, roundcube-sqlite3, roundcube-plugins
+Version: 1.4.11+dfsg.1-4
+Maintainer: Debian Roundcube Maintainers <pkg-roundcube-maintainers@alioth-lists.debian.net>
+Uploaders: Vincent Bernat <bernat@debian.org>, Sandro Knauß <hefee@debian.org>, Guilhem Moulin <guilhem@debian.org>
+Build-Depends: cleancss, debhelper-compat (= 13), dh-buildinfo, node-less (>= 3.0.0~), php-intl <!nocheck>, php-masterminds-html5 <!nocheck>, php-mbstring, phpunit (>= 9~) <!nocheck>, pigz, pkg-php-tools, po-debconf, uglifyjs (>= 3)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 66575bc70535bbcafd31a9d65bd9fd59 3241 roundcube_1.4.11+dfsg.1-4.dsc
+ 28460077273499075a2d495934849fa8 128936 roundcube_1.4.11+dfsg.1.orig-tinymce-langs.tar.xz
+ 69cde5dd36ec558ac5e7a447640dfd93 889028 roundcube_1.4.11+dfsg.1.orig-tinymce.tar.xz
+ c063085a8de902970710d8c3fea7cd05 2975336 roundcube_1.4.11+dfsg.1.orig.tar.xz
+ ae4d5fae97446edc56ed2fc566e042fa 90500 roundcube_1.4.11+dfsg.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/roundcube-team/roundcube
+Vcs-Git: https://salsa.debian.org/roundcube-team/roundcube.git -b debian/latest
+Checksums-Sha256:
+ 753adfd3afeeb722388a2f9af311af85de46569344ad2112a2ccb119b60c922d 3241 roundcube_1.4.11+dfsg.1-4.dsc
+ 5f8de0871a25e3bb17de3f6cbf1895a28e1c292734d987544666908eb3337f78 128936 roundcube_1.4.11+dfsg.1.orig-tinymce-langs.tar.xz
+ 2cd988c24f3508c9feaa2abfac966e042ef554643e4dc3d81b34f0b26b772b97 889028 roundcube_1.4.11+dfsg.1.orig-tinymce.tar.xz
+ ec9e1d54a54c8e1fe41a7cbb8c9590ec624b844d677e4d42cdb99764dddce648 2975336 roundcube_1.4.11+dfsg.1.orig.tar.xz
+ 014e499860d36f2c4e6864a00c21f2874955d8faa59de2d7d016a96910187d60 90500 roundcube_1.4.11+dfsg.1-4.debian.tar.xz
+Homepage: https://www.roundcube.net/
+Package-List: 
+ roundcube deb web optional arch=all
+ roundcube-core deb web optional arch=all
+ roundcube-mysql deb web optional arch=all
+ roundcube-pgsql deb web optional arch=all
+ roundcube-plugins deb web optional arch=all
+ roundcube-sqlite3 deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/r/roundcube
+Priority: source
+Section: web

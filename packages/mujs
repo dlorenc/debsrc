@@ -1,0 +1,26 @@
+Package: mujs
+Binary: libmujs-dev, libmujs1, mujs
+Version: 1.1.0-1
+Maintainer: Bastian Germann <bastiangermann@fishpost.de>
+Build-Depends: debhelper-compat (= 13), libreadline-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a00f4ae8c7a43166773d222b6280af5f 1757 mujs_1.1.0-1.dsc
+ f68f04aa9223934295afb88e87442ecc 95088 mujs_1.1.0.orig.tar.xz
+ 2c3cd37402c44abb0134a18920a0b11e 5340 mujs_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/bage/mujs
+Vcs-Git: https://salsa.debian.org/bage/mujs.git
+Checksums-Sha256:
+ ad3eefea51237071a6e12e0acbb38269738b5c95167b4e7a1fa9d7acd83bbe9f 1757 mujs_1.1.0-1.dsc
+ 37b43559ed2ae95b03916b24485f90222e8e98ad9d35c0b8f8e5dc087bee04f7 95088 mujs_1.1.0.orig.tar.xz
+ 3bd226a439e28ed0fdcce2c9b66d65f822f9006639dfee7958539512512b19cb 5340 mujs_1.1.0-1.debian.tar.xz
+Homepage: https://mujs.com/
+Package-List: 
+ libmujs-dev deb libdevel optional arch=any
+ libmujs1 deb libs optional arch=any
+ mujs deb javascript optional arch=any
+Directory: pool/main/m/mujs
+Priority: extra
+Section: misc

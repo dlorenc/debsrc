@@ -1,0 +1,26 @@
+Package: impacket
+Binary: python3-impacket
+Version: 0.9.22-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Emmanuel Arias <emmanuelarias30@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-ldap, python3-openssl, python3-pycryptodome, python3-setuptools, python3-six
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 74bca306f5e1ffaf5e94012e28439197 1497 impacket_0.9.22-2.dsc
+ 47939299af04f04512b2f87add929f76 1368318 impacket_0.9.22.orig.tar.gz
+ 2a8e8aae1c064b60b43f8155d53d3bd5 40340 impacket_0.9.22-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/impacket
+Vcs-Git: https://salsa.debian.org/python-team/packages/impacket.git
+Checksums-Sha256:
+ ab03c9731228be2db3d2b110e3623ee0b6c4f889d07e60b245c6213b308950eb 1497 impacket_0.9.22-2.dsc
+ 4bf7e7b595356585599b4b2773b8a463d7b9765c97012dcd5a44eb6d547f6a1d 1368318 impacket_0.9.22.orig.tar.gz
+ 58a63b219f79964d93f4ea92f57a4485256ba542d2a2f9093b6a51330ebc3067 40340 impacket_0.9.22-2.debian.tar.xz
+Homepage: https://github.com/CoreSecurity/impacket
+Package-List: 
+ python3-impacket deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/i/impacket
+Priority: source
+Section: python

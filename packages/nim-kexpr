@@ -1,0 +1,27 @@
+Package: nim-kexpr
+Binary: nim-kexpr-dev
+Version: 0.0.2-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Nilesh Patra <npatra974@gmail.com>, Debian Nim Team <team+nim@tracker.debian.org>
+Build-Depends: debhelper-compat (= 13), nim <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8d0c30fd1da3a8198b1f50174aa16e15 2124 nim-kexpr_0.0.2-2.dsc
+ 351425a86171e0ab9fbe8bdf70a67e1d 17928 nim-kexpr_0.0.2.orig.tar.gz
+ cbfc1598401ec367dec16e009473938a 2804 nim-kexpr_0.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/nim-kexpr
+Vcs-Git: https://salsa.debian.org/med-team/nim-kexpr.git
+Checksums-Sha256:
+ e733fad0db7ef45decba079fba29b4131772a3cf20a60dc43ca093b07b3bcbab 2124 nim-kexpr_0.0.2-2.dsc
+ ff8b240b7a97a2c1fc9a112b558578effe267ca8350393b2055bb184c6aadd8a 17928 nim-kexpr_0.0.2.orig.tar.gz
+ b6a5ea79c02b4c74eb3ed1e822bee36badddf9d65785a1d2b07c87d3977ccc57 2804 nim-kexpr_0.0.2-2.debian.tar.xz
+Homepage: https://github.com/brentp/kexpr-nim
+Package-List: 
+ nim-kexpr-dev deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, nim
+Directory: pool/main/n/nim-kexpr
+Priority: extra
+Section: misc

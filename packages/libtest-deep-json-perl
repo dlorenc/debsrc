@@ -1,0 +1,27 @@
+Package: libtest-deep-json-perl
+Binary: libtest-deep-json-perl
+Version: 0.05-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nick Morrott <knowledgejunkie@gmail.com>
+Build-Depends: debhelper (>= 10), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libexporter-lite-perl, libjson-maybexs-perl, libtest-deep-perl, perl (>= 5.21.6) | libtest-simple-perl (>= 1.001010)
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 0c3d4755a88c44d9f38850b568e2aee4 2424 libtest-deep-json-perl_0.05-1.dsc
+ 4919d51563bb5277b4ea3be72dfafd5a 10250 libtest-deep-json-perl_0.05.orig.tar.gz
+ 6e50845caafaf89fc0b19f15fd0714c6 1824 libtest-deep-json-perl_0.05-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-deep-json-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-deep-json-perl.git
+Checksums-Sha256:
+ 0f370a0db3e6b10ba248020e5eadbc0d33b34874f11b23607105e7638d70c9b3 2424 libtest-deep-json-perl_0.05-1.dsc
+ aec8571b9e31b7301e26132c132c6800952dc089c645d76954a3ad1a6b350858 10250 libtest-deep-json-perl_0.05.orig.tar.gz
+ 4583ed69d6045514a8f10bbaa22e622ebe8aaf83bf960cba6d02b76ab71ed85c 1824 libtest-deep-json-perl_0.05-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Deep-JSON
+Package-List: 
+ libtest-deep-json-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-deep-json-perl
+Priority: optional
+Section: misc

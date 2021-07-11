@@ -1,0 +1,29 @@
+Package: python-acme
+Binary: python3-acme, python-acme-doc
+Version: 1.12.0-2
+Maintainer: Debian Let's Encrypt <team+letsencrypt@tracker.debian.org>
+Uploaders: Harlan Lieberman-Berg <hlieberman@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-cryptography (>= 2.1.4), python3-docutils, python3-josepy, python3-ndg-httpsclient, python3-openssl (>= 17.3.0), python3-pytest, python3-requests, python3-requests-toolbelt, python3-rfc3339, python3-setuptools (>= 11.3), python3-six (>= 1.9), python3-sphinx (>= 1.3.1-1~), python3-sphinx-rtd-theme, python3-tz
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 35aa3e34dbb891d1970e6fb51a451a4c 2811 python-acme_1.12.0-2.dsc
+ 3d8a68f1a5557b5a230e1859467fa581 90983 python-acme_1.12.0.orig.tar.gz
+ 3c3816cc836d4290818f11bda9eb3243 488 python-acme_1.12.0.orig.tar.gz.asc
+ 052626fab9c140959bfa3fe033987b6d 6992 python-acme_1.12.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/letsencrypt-team/certbot/acme
+Vcs-Git: https://salsa.debian.org/letsencrypt-team/certbot/acme.git
+Checksums-Sha256:
+ e2ee362521d27b4be1c0cd0fdb646cbfc611b5254ab2f1009a3f26ae9e6b93fe 2811 python-acme_1.12.0-2.dsc
+ aa363474d50e9fdda27acb8b1aa7efb26fecc5650e02039a0de3a3f0e696c2f2 90983 python-acme_1.12.0.orig.tar.gz
+ cbbd1dcf0ddeed785c0930e206df80e31d79288d900a707af6e01af91cdd9ebb 488 python-acme_1.12.0.orig.tar.gz.asc
+ 87be44f9137b7049de4ae87410f70a3fcb650fc8447dd854664171e5ad0bc8c4 6992 python-acme_1.12.0-2.debian.tar.xz
+Homepage: https://letsencrypt.org/
+Package-List: 
+ python-acme-doc deb doc optional arch=all
+ python3-acme deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-acme
+Priority: optional
+Section: misc

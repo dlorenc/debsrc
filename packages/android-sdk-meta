@@ -1,0 +1,28 @@
+Package: android-sdk-meta
+Binary: android-sdk, android-sdk-common, android-sdk-platform-tools, android-sdk-platform-tools-common, android-sdk-build-tools, android-sdk-build-tools-common
+Version: 28.0.2+3
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlik@debian.org>, Chirayu Desai <chirayudesai1@gmail.com>,
+Build-Depends: debhelper-compat (= 12), dh-exec
+Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 042e2a58300f5f810a94d448aaf386c3 2040 android-sdk-meta_28.0.2+3.dsc
+ 440c64f5866052d89a3b6f6b0fa95ec8 11272 android-sdk-meta_28.0.2+3.tar.xz
+Vcs-Browser: https://salsa.debian.org/android-tools-team/android-sdk-meta
+Vcs-Git: https://salsa.debian.org/android-tools-team/android-sdk-meta.git
+Checksums-Sha256:
+ 87125e929c37ed60cf52a09df2f9d22d8ea150ae34c2cdcbd208848f915b17a2 2040 android-sdk-meta_28.0.2+3.dsc
+ 2d0c43c4b072355149ba976dfd5afcaf2993112e5006d64f449be5b31812f4c0 11272 android-sdk-meta_28.0.2+3.tar.xz
+Package-List: 
+ android-sdk deb metapackages optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+ android-sdk-build-tools deb metapackages optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+ android-sdk-build-tools-common deb devel optional arch=all
+ android-sdk-common deb devel optional arch=all
+ android-sdk-platform-tools deb metapackages optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+ android-sdk-platform-tools-common deb devel optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/a/android-sdk-meta
+Priority: optional
+Section: misc

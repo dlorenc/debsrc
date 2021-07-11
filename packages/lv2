@@ -1,0 +1,28 @@
+Package: lv2
+Binary: lv2-dev, lv2-examples
+Version: 1.18.2-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Alessio Treglia <alessio@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>, Dennis Braun <d_braun@kabelmail.de>
+Build-Depends: debhelper-compat (= 13), libgtk2.0-dev, libsndfile1-dev, pkg-config, python3
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3cf57a73cc8adf3e0d3b0558e043cd04 2300 lv2_1.18.2-1.dsc
+ 4693bac601af4ca329ff18e6d6dae3fa 538345 lv2_1.18.2.orig.tar.bz2
+ dcfb1a8fe0473ce9c551202ce31b0c3d 833 lv2_1.18.2.orig.tar.bz2.asc
+ be55b1e5843ae2bb623918cd5eb9595d 11740 lv2_1.18.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/lv2
+Vcs-Git: https://salsa.debian.org/multimedia-team/lv2.git
+Checksums-Sha256:
+ 5d2e8c969125fefa8cfe188e8add5275c3424a0fba54298106eff56e13d67a58 2300 lv2_1.18.2-1.dsc
+ 4e891fbc744c05855beb5dfa82e822b14917dd66e98f82b8230dbd1c7ab2e05e 538345 lv2_1.18.2.orig.tar.bz2
+ 36ffdf3f5daa18ba7d8b33405b8296fc1f96a2bd2f7785daa023254bbf659730 833 lv2_1.18.2.orig.tar.bz2.asc
+ 45bf0445ddd819d2e81774bb5e5b2e68e9f0104c74a778bed093a6c90a671888 11740 lv2_1.18.2-1.debian.tar.xz
+Homepage: https://lv2plug.in/
+Package-List: 
+ lv2-dev deb libdevel optional arch=any
+ lv2-examples deb sound optional arch=any
+Directory: pool/main/l/lv2
+Priority: source
+Section: sound

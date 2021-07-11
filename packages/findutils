@@ -1,0 +1,28 @@
+Package: findutils
+Binary: findutils, locate
+Version: 4.8.0-1
+Maintainer: Andreas Metzler <ametzler@debian.org>
+Uploaders: Chuan-kai Lin <cklin@debian.org>
+Build-Depends: bison, debhelper-compat (= 13), dejagnu <!nocheck>, libselinux1-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], texinfo
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5a3079c016a52931159c2b49cb0bddcd 2302 findutils_4.8.0-1.dsc
+ eeefe2e6380931a77dfa6d9350b43186 1983096 findutils_4.8.0.orig.tar.xz
+ e34a7bc870b41456bf1bdbfe70013fa2 488 findutils_4.8.0.orig.tar.xz.asc
+ 493975d78a02af22fb199052587fd50a 27296 findutils_4.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/findutils
+Vcs-Git: https://salsa.debian.org/debian/findutils.git
+Checksums-Sha256:
+ 47f342ec5146f4138f5004dbefe5838656057b502dfe225884b9f56840e29a3b 2302 findutils_4.8.0-1.dsc
+ 57127b7e97d91282c6ace556378d5455a9509898297e46e10443016ea1387164 1983096 findutils_4.8.0.orig.tar.xz
+ dc0d5251026532d2b115e447eea70a934d3df6a0efcaf225c9d585eeedeefe62 488 findutils_4.8.0.orig.tar.xz.asc
+ c99753f13f9e79653f79a398d1aafb15294c8f7953ad86948c7bf4cb0032bb43 27296 findutils_4.8.0-1.debian.tar.xz
+Homepage: https://savannah.gnu.org/projects/findutils/
+Package-List: 
+ findutils deb utils required arch=any essential=yes
+ locate deb utils optional arch=any
+Directory: pool/main/f/findutils
+Priority: source
+Section: utils

@@ -1,0 +1,27 @@
+Package: astropy-healpix
+Binary: python3-astropy-healpix
+Version: 0.6-1
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Leo Singer <leo.singer@ligo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev, python3-astropy, python3-extension-helpers, python3-healpy (>= 1.12.8-8), python3-hypothesis, python3-numpy, python3-pytest, python3-setuptools (>= 0.6.4), python3-setuptools-scm
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a07e73bb6f607f49e94b0b083a2836cb 2319 astropy-healpix_0.6-1.dsc
+ 95e4b5e7d57bd3756d2086516f68e9d5 104224 astropy-healpix_0.6.orig.tar.gz
+ fd7f6468657077054596f8e4f192a1f1 5636 astropy-healpix_0.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/astropy-healpix
+Vcs-Git: https://salsa.debian.org/debian-astro-team/astropy-healpix.git
+Checksums-Sha256:
+ 3382af0a5de76ba62a3becc94d019e59d38e7cf8daf828dca12d13fd94cf5d59 2319 astropy-healpix_0.6-1.dsc
+ 409a6621c383641456c074f0f0350a24a4a58e910eaeef14e9bbce3e00ad6690 104224 astropy-healpix_0.6.orig.tar.gz
+ 56ce807f97e797ff3e4b06372ad62be1b33d71625db99033db8cc43e922a7e5f 5636 astropy-healpix_0.6-1.debian.tar.xz
+Homepage: http://astropy-healpix.readthedocs.io
+Package-List: 
+ python3-astropy-healpix deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-healpy, python3-hypothesis, python3-pytest
+Directory: pool/main/a/astropy-healpix
+Priority: extra
+Section: misc

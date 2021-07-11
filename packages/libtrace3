@@ -1,0 +1,28 @@
+Package: libtrace3
+Binary: libtrace3-dev, libtrace3, libpacketdump3-dev, libpacketdump3, libtrace-tools, libwandio1, libwandio1-dev
+Version: 3.0.21-1
+Maintainer: Matt Brown <mattb@debian.org>
+Build-Depends: debhelper (>= 5.0.0), dpkg-dev (>= 1.16.1~), dh-autoreconf, libpcap0.8-dev, zlib1g-dev, flex, bison, doxygen, liblzma-dev, graphviz, libncurses5-dev, libbz2-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 7561651e62e5d1872f9011b73e8cdf37 1883 libtrace3_3.0.21-1.dsc
+ cbbd54e1153294f1bc737b060307c057 618097 libtrace3_3.0.21.orig.tar.bz2
+ 4c38db9cfcc7688f06393eeb01aae00f 4896 libtrace3_3.0.21-1.debian.tar.xz
+Checksums-Sha256:
+ 9a17cd390f384c0334cf089f1edf33fe8e11fbaffa3f661c0254d3eeea77cb8a 1883 libtrace3_3.0.21-1.dsc
+ 965d6224213530565926f22f7c2e5bdd41e89f99ece973444e567e94f895c658 618097 libtrace3_3.0.21.orig.tar.bz2
+ bf06e9e4fe5de15971989204795a7daff4f7034f33f2e1aa29818529b87cf00b 4896 libtrace3_3.0.21-1.debian.tar.xz
+Homepage: http://research.wand.net.nz/software/libtrace.php
+Package-List: 
+ libpacketdump3 deb libs optional arch=any
+ libpacketdump3-dev deb libdevel optional arch=any
+ libtrace-tools deb net optional arch=any
+ libtrace3 deb libs optional arch=any
+ libtrace3-dev deb libdevel optional arch=any
+ libwandio1 deb libs optional arch=any
+ libwandio1-dev deb libdevel optional arch=any
+Directory: pool/main/libt/libtrace3
+Priority: source
+Section: libs

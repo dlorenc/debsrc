@@ -1,0 +1,27 @@
+Package: flashrom
+Binary: flashrom, libflashrom-dev, libflashrom1
+Version: 1.2-5
+Maintainer: Debian EFI <debian-efi@lists.debian.org>
+Uploaders: Jeremiah C. Foster <jeremiah.foster@puri.sm>, Mario Limonciello <mario.limonciello@dell.com>, Gürkan Myczko <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 11), pkg-config, libpci-dev, libusb-1.0-0-dev [!hurd-i386], libftdi1-dev [!hurd-i386], meson
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 61ff9e3b670fe3de12f91e981c0a4037 2210 flashrom_1.2-5.dsc
+ 7f8e4b87087eb12ecee0fcc5445b4956 366995 flashrom_1.2.orig.tar.bz2
+ 5ef9aaa87c4f615e2340b1748d2af328 10152 flashrom_1.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/myczko-guest/flashrom
+Vcs-Git: https://salsa.debian.org/myczko-guest/flashrom.git
+Checksums-Sha256:
+ aa8abbcffb4fc6e007e14a80358686321d489d13aefa68a907e64be5da5fc350 2210 flashrom_1.2-5.dsc
+ e1f8d95881f5a4365dfe58776ce821dfcee0f138f75d0f44f8a3cd032d9ea42b 366995 flashrom_1.2.orig.tar.bz2
+ 11f061e832386004ea7aa85e8afe025d73f3db839c14b629f4019137afe6c37d 10152 flashrom_1.2-5.debian.tar.xz
+Homepage: http://www.flashrom.org
+Package-List: 
+ flashrom deb electronics optional arch=any
+ libflashrom-dev deb libdevel optional arch=any
+ libflashrom1 deb libs optional arch=any
+Directory: pool/main/f/flashrom
+Priority: source
+Section: electronics

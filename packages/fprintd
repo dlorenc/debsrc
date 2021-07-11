@@ -1,0 +1,28 @@
+Package: fprintd
+Binary: fprintd, libpam-fprintd, fprintd-doc
+Version: 1.90.9-1
+Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
+Uploaders: Marco Trevisan <marco@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), dh-exec, libfprint-2-dev (>= 1:1.90.1), libglib2.0-dev (>= 2.56), libpam0g-dev, libpolkit-gobject-1-dev, libsystemd-dev (>= 235) [linux-any], meson (>= 0.50.0), policykit-1, python3, python3-cairo, python3-dbus, python3-dbusmock, python3-gi <!nocheck>, python3-pypamtest, libpam-wrapper, libxml2-utils <!nocheck>
+Build-Depends-Indep: gtk-doc-tools <!nodoc>, xsltproc <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 904701233faf4b6bdd1abba0eb531ed1 2422 fprintd_1.90.9-1.dsc
+ 9e29cedc0e6648ec556ce78c245467a0 636538 fprintd_1.90.9.orig.tar.bz2
+ 4e71db8cc64806546ac331499e2a0cba 6708 fprintd_1.90.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/fprintd
+Vcs-Git: https://salsa.debian.org/debian/fprintd.git
+Checksums-Sha256:
+ 445e587bb5e612511880877b438179106468b3ff280889f7307240d0361c6ab8 2422 fprintd_1.90.9-1.dsc
+ 9c9dcef205be0dfc669e2c892b28224dcd517674214aba745697e7341e3aef6f 636538 fprintd_1.90.9.orig.tar.bz2
+ b67aff07f6e4d2d7c35185b2cb8a82f92fa2dfc2f83b4b6a13005cfd575374c0 6708 fprintd_1.90.9-1.debian.tar.xz
+Homepage: https://www.freedesktop.org/wiki/Software/fprint/fprintd
+Package-List: 
+ fprintd deb misc optional arch=any
+ fprintd-doc deb doc optional arch=all profile=!nodoc
+ libpam-fprintd deb admin optional arch=any
+Directory: pool/main/f/fprintd
+Priority: source
+Section: misc

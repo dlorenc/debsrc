@@ -1,0 +1,26 @@
+Package: dlt-viewer
+Binary: dlt-viewer, dlt-viewer-dev
+Version: 2.21.2+dfsg-2
+Maintainer: Stefan Potyra <stefan@potyra.de>
+Uploaders: Bruno "Fuddl" Kleinert <fuddl@debian.org>, Aigars Mahinovs <aigarius@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Build-Depends: debhelper-compat (= 12), qtbase5-dev, qtdeclarative5-dev, libqt5serialport5-dev, cmake, asciidoc, dblatex
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ba12b2306f563575e9cb7f5fda74327d 2239 dlt-viewer_2.21.2+dfsg-2.dsc
+ 4704daacc602333ddf197d1a0b34f129 3568168 dlt-viewer_2.21.2+dfsg.orig.tar.xz
+ 356dfe575d74c796ec54b55d324bdea3 3632 dlt-viewer_2.21.2+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/sistpoty-guest-guest/dlt-viewer
+Vcs-Git: https://salsa.debian.org/sistpoty-guest-guest/dlt-viewer.git
+Checksums-Sha256:
+ aefd9d190e6019980ab6c3041ab0bde71a70b3609c39008dbcac0c6c3566af96 2239 dlt-viewer_2.21.2+dfsg-2.dsc
+ e3c59d5f7731d11d23f5894b4b291338b727cfaeb29bcf2d95bc5a4307d7dbfa 3568168 dlt-viewer_2.21.2+dfsg.orig.tar.xz
+ 1681ccffefa614a80ad4da221afc2739becca4d9eed87eeac2103f2ee64378e6 3632 dlt-viewer_2.21.2+dfsg-2.debian.tar.xz
+Homepage: https://at.projects.genivi.org/wiki/display/PROJ/Diagnostic+Log+and+Trace
+Package-List: 
+ dlt-viewer deb devel optional arch=any
+ dlt-viewer-dev deb devel optional arch=any
+Directory: pool/main/d/dlt-viewer
+Priority: extra
+Section: misc

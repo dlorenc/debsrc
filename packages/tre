@@ -1,0 +1,24 @@
+Package: tre
+Binary: libtre5, libtre-dev, tre-agrep
+Version: 0.8.0-6
+Maintainer: Santiago Vila <sanvila@debian.org>
+Uploaders: Milan Zamazal <pdm@debian.org>
+Build-Depends: gettext (>= 0.18.1.1-8), debhelper (>= 9), locales-all
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 6d85c5939d803e40a622e529081b5546 1437 tre_0.8.0-6.dsc
+ 2fd70fa65cb8e5d6b6b99f6e4a4b8913 481286 tre_0.8.0.orig.tar.gz
+ a498ccbc33b6af2263fd0cb4b7a89119 311848 tre_0.8.0-6.debian.tar.xz
+Checksums-Sha256:
+ e7f0dddc53032c9ae91e5c7c969925f11038ca61367f7bd6e8b96ce56461ca16 1437 tre_0.8.0-6.dsc
+ be8670a55198bc57485a6a8ae4b497d7db98ea25f90968585b7eb07d94c6a7dd 481286 tre_0.8.0.orig.tar.gz
+ a1746f1307fb7cc1d5ad04dd74c1c24b43de08bec80a42e50d864b211c36477f 311848 tre_0.8.0-6.debian.tar.xz
+Package-List: 
+ libtre-dev deb libdevel optional arch=any
+ libtre5 deb libs optional arch=any
+ tre-agrep deb text optional arch=any
+Directory: pool/main/t/tre
+Priority: source
+Section: libs

@@ -1,0 +1,24 @@
+Package: adequate
+Binary: adequate
+Version: 0.15.6
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), perl, python3, python3-apt
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ e0cfdc24af8cf64738a2a10e3dcc6c8b 1734 adequate_0.15.6.dsc
+ a5e626e8a1283b839f24ce6d9f98c0dc 27384 adequate_0.15.6.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/adequate
+Vcs-Git: https://salsa.debian.org/debian/adequate.git
+Checksums-Sha256:
+ c86bea4d9476e5807f2cf581d432564a1a01b722b5d4b5937822b120cf2fb6db 1734 adequate_0.15.6.dsc
+ 89757b928f67e5f5105b6d5668d8d75d5e1379580d67684d0f3a33a58fe16f63 27384 adequate_0.15.6.tar.xz
+Homepage: https://salsa.debian.org/debian/adequate
+Package-List: 
+ adequate deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, debhelper-compat, pkg-config, python3, python3-apt
+Directory: pool/main/a/adequate
+Priority: source
+Section: misc

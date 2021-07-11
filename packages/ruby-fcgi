@@ -1,0 +1,27 @@
+Package: ruby-fcgi
+Binary: ruby-fcgi
+Version: 0.9.2.1-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Tatsuki Sugiura <sugi@nemui.org>
+Build-Depends: debhelper (>= 9~), gem2deb, libfcgi-dev
+Architecture: any
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ aa1dc377153a35548f5b13939bd141ab 2025 ruby-fcgi_0.9.2.1-2.dsc
+ 11928f31cc6b69ef857ec08d29760ff6 12398 ruby-fcgi_0.9.2.1.orig.tar.gz
+ 13db5355a748fb102bb77244bbe80669 2884 ruby-fcgi_0.9.2.1-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-fcgi.git
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-fcgi.git
+Checksums-Sha256:
+ d98eadb168749e4b521a9cafea7fd63f3176af83eeaecd216310f692048e6732 2025 ruby-fcgi_0.9.2.1-2.dsc
+ da438d3f65adb45e975fc9de1d9f346a4158eae6e536fe1c7cac487f753077ca 12398 ruby-fcgi_0.9.2.1.orig.tar.gz
+ b127e296b97442ccea51d7b8ec6684e0d22a562cf65dcdc905d350b6f85a0354 2884 ruby-fcgi_0.9.2.1-2.debian.tar.xz
+Homepage: http://github.com/alphallc/ruby-fcgi-ng
+Package-List: 
+ ruby-fcgi deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-fcgi
+Priority: optional
+Section: misc

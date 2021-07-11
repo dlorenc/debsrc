@@ -1,0 +1,28 @@
+Package: libccp4
+Binary: libccp4-data, libccp4-dev, libccp4c0, libccp4f0
+Version: 6.5.1-5
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Picca Frédéric-Emmanuel <picca@debian.org>, Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 13), gfortran, libmmdb2-dev, m4
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 65b4e691267aa72344929a51bf5f279b 2176 libccp4_6.5.1-5.dsc
+ ac145e52039546c1751b69db9b216c33 947521 libccp4_6.5.1.orig.tar.gz
+ 6ace13fd8aedecc598b1c41d196404a9 5348 libccp4_6.5.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libccp4
+Vcs-Git: https://salsa.debian.org/science-team/libccp4.git
+Checksums-Sha256:
+ 69e15c07a9d8c29985147eab4af83b6e4c40ece52718f7a0c0ecdf44d1c84fac 2176 libccp4_6.5.1-5.dsc
+ 280b473d950cdf8837ef66147ec581104298b892399bd856f13b096f2395dbe5 947521 libccp4_6.5.1.orig.tar.gz
+ ef4087a633e24e7ee74121b2923d45c5265b73e38f4823869736160092352b3a 5348 libccp4_6.5.1-5.debian.tar.xz
+Homepage: http://www.ccp4.ac.uk/
+Package-List: 
+ libccp4-data deb libdevel optional arch=all
+ libccp4-dev deb libdevel optional arch=any
+ libccp4c0 deb libs optional arch=any
+ libccp4f0 deb libs optional arch=any
+Directory: pool/main/libc/libccp4
+Priority: optional
+Section: misc

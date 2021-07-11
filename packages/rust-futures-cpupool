@@ -1,0 +1,28 @@
+Package: rust-futures-cpupool
+Binary: librust-futures-cpupool-dev, librust-futures-cpupool+with-deprecated-dev
+Version: 0.1.8-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-futures-0.1+use-std-dev <!nocheck>, librust-futures-0.1+with-deprecated-dev <!nocheck>, librust-num-cpus-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ aefd79bbbd02f89d2dc5df5e0f6aaed8 2543 rust-futures-cpupool_0.1.8-2.dsc
+ c9a5f223bcdf318649575cc13c85e833 10583 rust-futures-cpupool_0.1.8.orig.tar.gz
+ 3aadb5b3d2ebcbbe20c1faa0a0db1087 2776 rust-futures-cpupool_0.1.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futures-cpupool
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/futures-cpupool]
+Checksums-Sha256:
+ 79de8bfb23c2ef56236c1b406cdfca17f698f84f20fdf5985fdd95b08d5ccd4e 2543 rust-futures-cpupool_0.1.8-2.dsc
+ ab90cde24b3319636588d0c35fe03b1333857621051837ed769faefb4c2162e4 10583 rust-futures-cpupool_0.1.8.orig.tar.gz
+ 5f0985eb0272c5f90b702dbfeda42e6630c6ed5a1921d24dbd0f5c5df949d802 2776 rust-futures-cpupool_0.1.8-2.debian.tar.xz
+Homepage: https://github.com/alexcrichton/futures-rs
+Package-List: 
+ librust-futures-cpupool+with-deprecated-dev deb rust optional arch=any
+ librust-futures-cpupool-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-futures-cpupool
+Priority: extra
+Section: misc

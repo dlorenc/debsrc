@@ -1,0 +1,28 @@
+Package: libtest-manifest-perl
+Binary: libtest-manifest-perl
+Version: 2.022-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7c81e0da6e02223b6d0d7b9999d9ebea 2501 libtest-manifest-perl_2.022-1.dsc
+ dd1e8e6499896f4f3ee4b8fa5aabf639 14664 libtest-manifest-perl_2.022.orig.tar.gz
+ 92689f685d17c6984b95d4265823866e 6924 libtest-manifest-perl_2.022-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-manifest-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-manifest-perl.git
+Checksums-Sha256:
+ 449c798f66e78ff45f890bd11007c5b8b7f0c9b8ca62478d9c1a6278fb134311 2501 libtest-manifest-perl_2.022-1.dsc
+ 63c009df0b368ecc00273cadb5bc0cab4a35eac16ff0e28213db8e6e89e05475 14664 libtest-manifest-perl_2.022.orig.tar.gz
+ d16cfcf1213e4259089d713b0ac767ae04cb070122c0c8c206e1e65614df3c7d 6924 libtest-manifest-perl_2.022-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Manifest
+Dgit: f0302020a52d3f200d59f39e9d10968febb4b11f debian archive/debian/2.022-1 https://git.dgit.debian.org/libtest-manifest-perl
+Package-List: 
+ libtest-manifest-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-manifest-perl
+Priority: source
+Section: perl

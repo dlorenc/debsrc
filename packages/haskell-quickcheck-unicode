@@ -1,0 +1,28 @@
+Package: haskell-quickcheck-unicode
+Binary: libghc-quickcheck-unicode-dev, libghc-quickcheck-unicode-prof, libghc-quickcheck-unicode-doc
+Version: 1.0.1.0-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-quickcheck2-dev (>= 2.7), libghc-quickcheck2-prof
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 47b51197d4060cca31bfcf0d64160645 2559 haskell-quickcheck-unicode_1.0.1.0-4.dsc
+ b8a282849b0b905bf1575429c6423e64 3216 haskell-quickcheck-unicode_1.0.1.0.orig.tar.gz
+ 2e42e463db5279576c751f737faa9567 2816 haskell-quickcheck-unicode_1.0.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-quickcheck-unicode
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-quickcheck-unicode]
+Checksums-Sha256:
+ 4e925762213088c27f11b9271206b4b68b288ebf46b336ccabcd17cb40f2c92d 2559 haskell-quickcheck-unicode_1.0.1.0-4.dsc
+ 132005ea7edff35e95139c36232a70698cd0f4f4d79dfaa4e66fbcf557d08368 3216 haskell-quickcheck-unicode_1.0.1.0.orig.tar.gz
+ 225bff460f2a47bef4d2eceefa54f6958e9f68e7c02407c22b6a4a7de897b849 2816 haskell-quickcheck-unicode_1.0.1.0-4.debian.tar.xz
+Homepage: https://github.com/bos/quickcheck-unicode
+Package-List: 
+ libghc-quickcheck-unicode-dev deb haskell optional arch=any
+ libghc-quickcheck-unicode-doc deb doc optional arch=all
+ libghc-quickcheck-unicode-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-quickcheck-unicode
+Priority: optional
+Section: misc

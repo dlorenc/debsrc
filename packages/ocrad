@@ -1,0 +1,25 @@
+Package: ocrad
+Binary: ocrad, libocrad-dev
+Version: 0.27-2
+Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
+Build-Depends: debhelper (>= 11), dpkg-dev (>= 1.16), install-info
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ d319cff3c79f985437fd5fdecd2268dd 1830 ocrad_0.27-2.dsc
+ 735daaa84eb707cce4075b5ad06ee1be 119844 ocrad_0.27.orig.tar.gz
+ 6ca454ed61e5d0000da8a5a07c8039e1 7632 ocrad_0.27-2.debian.tar.xz
+Checksums-Sha256:
+ 86153e17d6f9023d7d39e64d87f0012f4d17a1c8513c513d1a49a3677f6676d2 1830 ocrad_0.27-2.dsc
+ c62bc36c0695e0bf4a3c945388f995964b874c794b4ae25c50ba79b50cd9922b 119844 ocrad_0.27.orig.tar.gz
+ f2b857ca4fca80da405c481513e9209292d6a1f6a12d0ac2d299ea11e3a56e86 7632 ocrad_0.27-2.debian.tar.xz
+Homepage: http://www.gnu.org/software/ocrad/ocrad.html
+Package-List: 
+ libocrad-dev deb libdevel optional arch=any
+ ocrad deb graphics optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: g++
+Directory: pool/main/o/ocrad
+Priority: source
+Section: graphics

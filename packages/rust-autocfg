@@ -1,0 +1,26 @@
+Package: rust-autocfg
+Binary: librust-autocfg-dev
+Version: 1.0.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 57cb6b376637061af95ce79300dc6020 1542 rust-autocfg_1.0.1-1.dsc
+ c6443ec8d007c729ba5482008d0c864d 12908 rust-autocfg_1.0.1.orig.tar.gz
+ 6005255fe014dfd61004f91463a8868c 2804 rust-autocfg_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/autocfg
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/autocfg]
+Checksums-Sha256:
+ 03a195371cc88a756085e27f44ad0490037edc6d71047214422eef2eeb2f1bb8 1542 rust-autocfg_1.0.1-1.dsc
+ cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a 12908 rust-autocfg_1.0.1.orig.tar.gz
+ 3d76a7acd5a36b8f40259dcdc5779d0b9a86f48e998b39e6c42d3fffcd9fb06b 2804 rust-autocfg_1.0.1-1.debian.tar.xz
+Package-List: 
+ librust-autocfg-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-autocfg
+Priority: extra
+Section: misc

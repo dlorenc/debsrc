@@ -1,0 +1,26 @@
+Package: ognibuild
+Binary: ognibuild
+Version: 0.0.1~git20201031.4cbc8df-1.1
+Maintainer: Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-python3, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 99a03a12090be9001f4ceb79437c4077 2086 ognibuild_0.0.1~git20201031.4cbc8df-1.1.dsc
+ d1884fc951f8b7fb99a4bbdc74f9006d 12310 ognibuild_0.0.1~git20201031.4cbc8df.orig.tar.gz
+ 6233f13ac5ba6354cdf14832a06bc2dd 1816 ognibuild_0.0.1~git20201031.4cbc8df-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/jelmer/ognibuild
+Vcs-Git: https://salsa.debian.org/jelmer/ognibuild.git
+Checksums-Sha256:
+ a7a01cf50e1384b0ea1bba63e56c6f065cf4311b7c147c7178e22b40d952d7a8 2086 ognibuild_0.0.1~git20201031.4cbc8df-1.1.dsc
+ 9a8c8a76e12409825f577657e8d1c433983f32303277a768bce56c335185c7f2 12310 ognibuild_0.0.1~git20201031.4cbc8df.orig.tar.gz
+ deca2a93cad4c553ceaa203437b59b2f83b2b83713fd625d200a3fd885204bf3 1816 ognibuild_0.0.1~git20201031.4cbc8df-1.1.debian.tar.xz
+Homepage: https://github.com/jelmer/ognibuild
+Package-List: 
+ ognibuild deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3
+Directory: pool/main/o/ognibuild
+Priority: extra
+Section: misc

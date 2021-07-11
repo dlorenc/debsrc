@@ -1,0 +1,28 @@
+Package: haskell-random-fu
+Binary: libghc-random-fu-dev, libghc-random-fu-prof, libghc-random-fu-doc
+Version: 0.2.7.4-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-erf-dev, libghc-erf-prof, libghc-math-functions-dev, libghc-math-functions-prof, libghc-monad-loops-dev (>= 0.3.0.1), libghc-monad-loops-prof, libghc-random-shuffle-dev, libghc-random-shuffle-prof, libghc-random-source-dev (<< 0.4), libghc-random-source-dev (>= 0.3), libghc-random-source-prof, libghc-rvar-dev (<< 0.3), libghc-rvar-dev (>= 0.2), libghc-rvar-prof, libghc-syb-dev, libghc-syb-prof, libghc-vector-dev (>= 0.7), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-erf-doc, libghc-math-functions-doc, libghc-monad-loops-doc, libghc-random-shuffle-doc, libghc-random-source-doc, libghc-rvar-doc, libghc-syb-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 35b1ed3fae6f25a740a36e4e13637a67 2973 haskell-random-fu_0.2.7.4-1.dsc
+ 6ebffb29eb9c3d3f440372912a86b83f 29993 haskell-random-fu_0.2.7.4.orig.tar.gz
+ 259be22e76b031980cb4fc3e3f3095f1 2876 haskell-random-fu_0.2.7.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-random-fu
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-random-fu]
+Checksums-Sha256:
+ 3cf988a13b22afb1493a3594276f2369bfab8bea23c94521e10ec84cdf9b741e 2973 haskell-random-fu_0.2.7.4-1.dsc
+ 7544167ba1cb5158b9a184a215c8e5a33d804f335460414fedae6d9a0ce8af8d 29993 haskell-random-fu_0.2.7.4.orig.tar.gz
+ 28534a4a23bde410dabdf405baeb47ccc598f565e180266214643955cc8c0475 2876 haskell-random-fu_0.2.7.4-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/random-fu
+Package-List: 
+ libghc-random-fu-dev deb haskell optional arch=any
+ libghc-random-fu-doc deb doc optional arch=all
+ libghc-random-fu-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-random-fu
+Priority: optional
+Section: misc

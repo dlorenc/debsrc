@@ -1,0 +1,27 @@
+Package: php-composer-semver
+Binary: php-composer-semver
+Version: 3.2.4-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 03b2a64c348f097f1b7e91ee89a40cf1 1808 php-composer-semver_3.2.4-2.dsc
+ 094259dc57870b815b096923b6d1e30e 37613 php-composer-semver_3.2.4.orig.tar.gz
+ b39d3f2e4873caf0039c150afe1c8f81 4100 php-composer-semver_3.2.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-composer-semver
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-composer-semver.git -b debian/latest
+Checksums-Sha256:
+ 516d987c36e2439198c2637ac9a3ee597d2c29f23c406bd6672ac35427261eab 1808 php-composer-semver_3.2.4-2.dsc
+ 5343ff462465bd8d88cb04ef8db1ea241305002890c076912ae322b63c7a02c9 37613 php-composer-semver_3.2.4.orig.tar.gz
+ 72d6a0f1b808131c62a44138c56d9d983faf469379c8119a2671cca5e6f4ed58 4100 php-composer-semver_3.2.4-2.debian.tar.xz
+Homepage: https://github.com/composer/semver
+Package-List: 
+ php-composer-semver deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/p/php-composer-semver
+Priority: optional
+Section: misc

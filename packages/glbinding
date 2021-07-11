@@ -1,0 +1,31 @@
+Package: glbinding
+Binary: libglbinding2, libglbinding-dev, glbinding-doc, glbinding-tools
+Version: 2.1.1-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: cmake (>= 3.0), debhelper (>= 9), libglfw3-dev
+Build-Depends-Indep: doxygen, graphviz
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ ff1e00829f09e660aa87832a1746bac7 2339 glbinding_2.1.1-2.dsc
+ 93dab7f4d64eff5385e3d1915e765695 3147406 glbinding_2.1.1.orig.tar.gz
+ 7b02f1a6757192b2f13f024aa051b3df 19572 glbinding_2.1.1-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/glbinding.git
+Vcs-Git: https://anonscm.debian.org/git/debian-science/packages/glbinding.git
+Checksums-Sha256:
+ ac69daad5f36c22960a288bf4404a2569fbdab886241b6fb18cf9ae171ffc524 2339 glbinding_2.1.1-2.dsc
+ 253671f2b730a6efa55de92a704938bb0f1761d151f3f8e87c043c51d46ea1e4 3147406 glbinding_2.1.1.orig.tar.gz
+ 3327116b6e9d69386c5d5be9b2f71b6f73bd7ac2acfc7d9970d9fc8fb2b939a4 19572 glbinding_2.1.1-2.debian.tar.xz
+Homepage: https://github.com/cginternals/glbinding
+Package-List: 
+ glbinding-doc deb doc optional arch=all
+ glbinding-tools deb utils optional arch=any
+ libglbinding-dev deb libdevel optional arch=any
+ libglbinding2 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: c++-compiler, cmake, g++, libglfw3-dev
+Directory: pool/main/g/glbinding
+Priority: optional
+Section: misc

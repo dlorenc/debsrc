@@ -1,0 +1,26 @@
+Package: deltachat-core
+Binary: libdeltachat0-dev, libdeltachat0, libdeltachat0-doc
+Version: 0.45.0+ds-1
+Maintainer: Micah Anderson <micah@debian.org>
+Build-Depends: debhelper-compat (= 12), meson, pkg-config, libetpan-dev, libssl-dev, libsqlite3-dev, libsasl2-dev, libbz2-dev, zlib1g-dev, ninja-build, git, doxygen
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a64b9006963ce7e0d59148a235c4162d 2186 deltachat-core_0.45.0+ds-1.dsc
+ a1a1df66eeabe9ed2966e3fec6060fa5 364032 deltachat-core_0.45.0+ds.orig.tar.xz
+ a77f91ebadac7b4cd22f9f79352819e6 9828 deltachat-core_0.45.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/deltachat-core
+Vcs-Git: https://salsa.debian.org/debian/deltachat-core.git
+Checksums-Sha256:
+ c93f71e0d0b4ce4ac91da04dfa62374f45000bd8e903f8c91849431ef682ef17 2186 deltachat-core_0.45.0+ds-1.dsc
+ 6bfea575404feb95ca0626e293035067f965347f40f8f0e5df3eef12370fa2db 364032 deltachat-core_0.45.0+ds.orig.tar.xz
+ 5e1d0b3c18bde7e9ab17efc9149132638e0923da4ae44fefe2b19aff0e620c0c 9828 deltachat-core_0.45.0+ds-1.debian.tar.xz
+Homepage: https://delta.chat/
+Package-List: 
+ libdeltachat0 deb libs optional arch=any
+ libdeltachat0-dev deb libdevel optional arch=any
+ libdeltachat0-doc deb doc optional arch=all
+Directory: pool/main/d/deltachat-core
+Priority: extra
+Section: misc

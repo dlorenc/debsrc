@@ -1,0 +1,29 @@
+Package: vala-panel-appmenu
+Binary: budgie-appmenu-applet, xfce4-appmenu-plugin, mate-applet-appmenu, vala-panel-appmenu, vala-panel-appmenu-common
+Version: 0.7.6+dfsg1-3
+Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
+Uploaders: Martin Wimpress <martin.wimpress@ubuntu.com>, Mike Gabriel <sunweaver@debian.org>, Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>,
+Build-Depends: budgie-core-dev, meson (>= 0.51.0), debhelper-compat (= 13), libbamf3-dev (>= 0.5.0), bamfdaemon (>= 0.5.0), libglib2.0-dev (>= 2.52.0), libgtk-3-dev (>= 3.22.0), libmate-panel-applet-dev (>= 1.20), libvalapanel-dev (>= 0.4.92), libwnck-3-dev (>= 3.4.8), libxfce4panel-2.0-dev, libxfconf-0-dev, valac (>= 0.24.0)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1eaab16958ba7ed76a087ff3c947393d 2823 vala-panel-appmenu_0.7.6+dfsg1-3.dsc
+ ba2e0285612f47f43901e8b1e7e32400 49708 vala-panel-appmenu_0.7.6+dfsg1.orig.tar.xz
+ a5bfcc7b8af4592057de5a6679b8fac8 7588 vala-panel-appmenu_0.7.6+dfsg1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-edu-ayatana-team/vala-panel-appmenu
+Vcs-Git: https://salsa.debian.org/debian-ayatana-team/vala-panel-appmenu.git
+Checksums-Sha256:
+ a80eb70cc3e81b28e4bcdddd87299b41d6a22133e09340c48ec1708672f0cfb8 2823 vala-panel-appmenu_0.7.6+dfsg1-3.dsc
+ ba40ac0ed0ed2d511ef5b6ea1bb44ee8fdf3f32c58a858b453537427f3825f5e 49708 vala-panel-appmenu_0.7.6+dfsg1.orig.tar.xz
+ c0eb137e827665d491cee5f031010319c5ddcc816c557326de65ec0b1c7b7717 7588 vala-panel-appmenu_0.7.6+dfsg1-3.debian.tar.xz
+Homepage: https://gitlab.com/vala-panel-project/vala-panel-appmenu
+Package-List: 
+ budgie-appmenu-applet deb x11 optional arch=any
+ mate-applet-appmenu deb x11 optional arch=any
+ vala-panel-appmenu deb x11 optional arch=any
+ vala-panel-appmenu-common deb x11 optional arch=all
+ xfce4-appmenu-plugin deb xfce optional arch=any
+Directory: pool/main/v/vala-panel-appmenu
+Priority: extra
+Section: misc

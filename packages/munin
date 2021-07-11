@@ -1,0 +1,37 @@
+Package: munin
+Binary: munin-node, munin-plugins-core, munin-plugins-extra, munin-plugins-java, munin, munin-common, munin-async, munin-doc
+Version: 2.0.67-1
+Maintainer: Munin Debian Maintainers <team+munin@tracker.debian.org>
+Uploaders: Holger Levsen <holger@debian.org>, Stig Sandbeck Mathisen <ssm@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, po-debconf
+Build-Depends-Indep: default-jdk, html2text, htmldoc, libfile-slurp-perl, libhtml-template-perl, libio-stringy-perl, liblist-moreutils-perl, liblog-log4perl-perl, libnet-server-perl, libnet-snmp-perl, libnet-ssleay-perl, librrds-perl, libtest-deep-perl, libtest-differences-perl, libtest-exception-perl, libtest-longstring-perl, libtest-mockmodule-perl, libtest-mockobject-perl, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 93dc22a23e672d0c0185eb502a6b35e2 3138 munin_2.0.67-1.dsc
+ 26e6a45a1036394e1f4a3a13324d739d 2252301 munin_2.0.67.orig.tar.gz
+ 71400d49a1cbfdf542d6bc3604551c0c 833 munin_2.0.67.orig.tar.gz.asc
+ 99f48f643f9379d12c399620db239309 64684 munin_2.0.67-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/munin
+Vcs-Git: https://salsa.debian.org/debian/munin.git -b debian
+Checksums-Sha256:
+ 70e42503e8a54a95a7ac1bb2293c4438f829be2b0be097ccaae370f239c5e232 3138 munin_2.0.67-1.dsc
+ 6a4312c504a2da6a41982dd71afebbcb30a93ec383e2ec6be87a863a5e7564d3 2252301 munin_2.0.67.orig.tar.gz
+ 614cff16cbe8aaabe7d7ecf8d644a2de973a5bcc993d32b452ad74d18aabab52 833 munin_2.0.67.orig.tar.gz.asc
+ 12f92d883cf1f59ea52973020d9a6923d192e36ee1586e3629895a049801352f 64684 munin_2.0.67-1.debian.tar.xz
+Homepage: http://munin-monitoring.org
+Package-List: 
+ munin deb net optional arch=all
+ munin-async deb net optional arch=all
+ munin-common deb net optional arch=all
+ munin-doc deb doc optional arch=all
+ munin-node deb net optional arch=all
+ munin-plugins-core deb net optional arch=all
+ munin-plugins-extra deb net optional arch=all
+ munin-plugins-java deb net optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, cron, curl, daemontools, file, libcgi-fast-perl, netcat-openbsd, psmisc, sharness, systemd-sysv, sysvinit-core
+Directory: pool/main/m/munin
+Priority: source
+Section: net

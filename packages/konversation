@@ -1,0 +1,28 @@
+Package: konversation
+Binary: konversation, konversation-data
+Version: 20.12.1-1
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>,
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.5~), pkg-kde-tools (>= 0.15.16), extra-cmake-modules (>= 5.71.0~), gettext, qtbase5-dev (>= 5.12.0~), libkf5archive-dev (>= 5.71.0~), libkf5bookmarks-dev (>= 5.71.0~), libkf5config-dev (>= 5.71.0~), libkf5configwidgets-dev (>= 5.71.0~), libkf5coreaddons-dev (>= 5.71.0~), libkf5crash-dev (>= 5.71.0~), libkf5doctools-dev (>= 5.71.0~), libkf5idletime-dev (>= 5.71.0~), libkf5i18n-dev (>= 5.71.0~), libkf5kio-dev (>= 5.71.0~), libkf5newstuff-dev (>= 5.71.0~), libkf5notifyconfig-dev (>= 5.71.0~), libkf5parts-dev (>= 5.71.0~), libkf5wallet-dev (>= 5.71.0~), libkf5widgetsaddons-dev (>= 5.71.0~), libkf5globalaccel-dev (>= 5.71.0~), libkf5dbusaddons-dev (>= 5.71.0~), libkf5notifications-dev (>= 5.71.0~), libkf5windowsystem-dev (>= 5.71.0~), libphonon4qt5-dev (>= 4.6.60), libphonon4qt5experimental-dev (>= 4.6.60), libqca-qt5-2-dev (>= 2.1.0), dh-python, python3:any
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ecce83738fb4ef8de81c7948faf0f4ee 3206 konversation_20.12.1-1.dsc
+ 2aec8b8fba3ecbab08cd9e18a46623d7 4220716 konversation_20.12.1.orig.tar.xz
+ 6401f3f0c38c4c3d5583add00c7d4a7d 488 konversation_20.12.1.orig.tar.xz.asc
+ f5629287d48446c8f293208604ea99b5 28092 konversation_20.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/konversation
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/konversation.git
+Checksums-Sha256:
+ 6f3af659e72f304eec4b89653dda7bbb1335d28094d4f6df1b1176c67ca9e7b2 3206 konversation_20.12.1-1.dsc
+ 441e8924763893e5933309dd90525ed8fc37e6e7dc2eda2b1e6cab7176f4d7f4 4220716 konversation_20.12.1.orig.tar.xz
+ 66c8eca5fef185c0c0ceefd488c911d9c958b9a802b8bcc120a142daa6307771 488 konversation_20.12.1.orig.tar.xz.asc
+ 2660584601a504810e824f580325658c67fedffd7bc1a5da125228839e1c88c1 28092 konversation_20.12.1-1.debian.tar.xz
+Homepage: https://konversation.kde.org/
+Package-List: 
+ konversation deb net optional arch=any
+ konversation-data deb net optional arch=all
+Directory: pool/main/k/konversation
+Priority: source
+Section: net

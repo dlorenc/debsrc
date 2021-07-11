@@ -1,0 +1,28 @@
+Package: ruby-pluggaloid
+Binary: ruby-pluggaloid
+Version: 1.5.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-delayer (<< 2.0), ruby-delayer (>= 1.0), ruby-instance-storage (<< 2.0.0), ruby-instance-storage (>= 1.0.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cb73658043d8fb10ab43cc59713550e3 2216 ruby-pluggaloid_1.5.0-1.dsc
+ c386b752199698be588c494b932e7280 15739 ruby-pluggaloid_1.5.0.orig.tar.gz
+ 7972315c999f90b2cfd34b6024cc6b94 2956 ruby-pluggaloid_1.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-pluggaloid
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-pluggaloid.git
+Checksums-Sha256:
+ 0553d1aabe6f0c2a68bedd7472e4a47fa71f6a691a075c2a17f9deeb9b9fe4f0 2216 ruby-pluggaloid_1.5.0-1.dsc
+ c927af98d539965f626f61177f5d7a8323fbfd8005c9f871a2870a5dac4f1006 15739 ruby-pluggaloid_1.5.0.orig.tar.gz
+ fd8e45e2e7913c5bf89f29b396abd5f72a6f1ca729d8a4d77c9f48efa80db52a 2956 ruby-pluggaloid_1.5.0-1.debian.tar.xz
+Homepage: https://github.com/toshia/pluggaloid
+Package-List: 
+ ruby-pluggaloid deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner, quilt
+Directory: pool/main/r/ruby-pluggaloid
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: maven-dependency-tree
+Binary: libmaven-dependency-tree-java, libmaven-dependency-tree-java-doc
+Version: 3.0.1-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>, Torsten Werner <twerner@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper (>= 1.4)
+Build-Depends-Indep: default-jdk-doc, libjaxen-java, libjmock-java, libmaven-javadoc-plugin-java, libmaven-plugin-testing-java, libmaven-resolver-java, libmaven3-core-java, libplexus-component-metadata-java
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ 0ecc9fa03dcc025cf5c59d0a3b133a83 2464 maven-dependency-tree_3.0.1-1.1.dsc
+ 4b89146260a0376ebc1046596af36b47 18436 maven-dependency-tree_3.0.1.orig.tar.xz
+ d13119ffe4d2c60fffa72c3a7c255510 5508 maven-dependency-tree_3.0.1-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/maven-dependency-tree.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/maven-dependency-tree.git
+Checksums-Sha256:
+ 06720f52a1f9a8242223e1a58f1d0352b2317072467bbd8547557ddbad715e75 2464 maven-dependency-tree_3.0.1-1.1.dsc
+ 03acaa0ea8aa7d3f1d874b7ed5798db012a3d848d5055240436925fd525053a7 18436 maven-dependency-tree_3.0.1.orig.tar.xz
+ 78cdc804fc9e42d190ade1bdec07d2ad2fc16c7d4ddb157be5597d0634062735 5508 maven-dependency-tree_3.0.1-1.1.debian.tar.xz
+Homepage: http://maven.apache.org
+Package-List: 
+ libmaven-dependency-tree-java deb java optional arch=all
+ libmaven-dependency-tree-java-doc deb doc optional arch=all
+Directory: pool/main/m/maven-dependency-tree
+Priority: source
+Section: java

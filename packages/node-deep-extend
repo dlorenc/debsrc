@@ -1,0 +1,26 @@
+Package: node-deep-extend
+Binary: node-deep-extend
+Version: 0.6.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, mocha, nodejs, node-should, pkg-js-tools (>= 0.8.7)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a861d00b2f8fd0fa1eb831fc45bd6f97 2115 node-deep-extend_0.6.0-1.dsc
+ 22c6f04324c6a0974291081b9f32afd1 5636 node-deep-extend_0.6.0.orig.tar.gz
+ 133026b24ea36edb96e3cab15e54ce65 2436 node-deep-extend_0.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-deep-extend
+Vcs-Git: https://salsa.debian.org/js-team/node-deep-extend.git
+Checksums-Sha256:
+ 5330d1d9cd8a61069e11635268f0a2be0b8393b726203ee760a899d3c52b8462 2115 node-deep-extend_0.6.0-1.dsc
+ 280ab2f5c8e2a9538b8d8db6e983a1dad293f492a2d175d490b88e2c8e84b9e3 5636 node-deep-extend_0.6.0.orig.tar.gz
+ 79c5eb2dcfbcff9ea0f98d604c6ff5c73bd790ac07bc64f01466b7eb1d583320 2436 node-deep-extend_0.6.0-1.debian.tar.xz
+Homepage: https://github.com/unclechu/node-deep-extend
+Package-List: 
+ node-deep-extend deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-deep-extend
+Priority: optional
+Section: javascript

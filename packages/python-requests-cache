@@ -1,0 +1,26 @@
+Package: python-requests-cache
+Binary: python3-requests-cache, python-requests-cache-doc
+Version: 0.5.2-1
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), python3, dh-python, python3-sphinx, python3-requests, python3-pymongo, python3-redis, python3-setuptools, python3-distutils
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 99e2298d6b49a1fe9f54f03ef8c4583e 2287 python-requests-cache_0.5.2-1.dsc
+ 13688e8cda62ee92426aa952ca1dbeb5 26848 python-requests-cache_0.5.2.orig.tar.xz
+ 802846f116ea2a66b422b4687b1f6541 3764 python-requests-cache_0.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-requests-cache
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-requests-cache.git
+Checksums-Sha256:
+ 4df5a862b43fe53d21f3ebe0eca99f48bbd46612d8dbed3f51904f4e1303ec8a 2287 python-requests-cache_0.5.2-1.dsc
+ b7b31c3954fb7140d97813ffa3fb5f91f87b9234b92b53e34dd0a1416eb0fad9 26848 python-requests-cache_0.5.2.orig.tar.xz
+ 7a5f7f167e7c9705205a31318ab0a771756c34a43865039e4be70d44022bd737 3764 python-requests-cache_0.5.2-1.debian.tar.xz
+Homepage: https://github.com/reclosedev/requests-cache
+Package-List: 
+ python-requests-cache-doc deb doc optional arch=all
+ python3-requests-cache deb python optional arch=all
+Directory: pool/main/p/python-requests-cache
+Priority: optional
+Section: misc

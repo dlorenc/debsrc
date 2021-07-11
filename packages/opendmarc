@@ -1,0 +1,27 @@
+Package: opendmarc
+Binary: opendmarc, libopendmarc2, libopendmarc-dev
+Version: 1.4.0~beta1+dfsg-6
+Maintainer: Scott Kitterman <scott@kitterman.com>
+Uploaders: David Bürgin <dbuergin@gluet.ch>
+Build-Depends: debhelper-compat (= 13), libmilter-dev, pkg-config, miltertest, libspf2-dev, libbsd-dev, automake, dh-exec
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 19b22aa95c39031fbcf65542243f0784 2178 opendmarc_1.4.0~beta1+dfsg-6.dsc
+ c11af7fc5f60308b2951e8ec4b0770f5 379548 opendmarc_1.4.0~beta1+dfsg.orig.tar.xz
+ a0b38427e17d7d6b56dedc0313d88a55 30960 opendmarc_1.4.0~beta1+dfsg-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/kitterman/opendmarc
+Vcs-Git: https://salsa.debian.org/kitterman/opendmarc.git
+Checksums-Sha256:
+ 9a2aa2d317160e8055ee1e2e81866e009414d52a4bae611e609d67738007cf77 2178 opendmarc_1.4.0~beta1+dfsg-6.dsc
+ 67cee21860b1bcb5ea67be67b1dfc9087a4d813a568ba6710285bba247c9cafb 379548 opendmarc_1.4.0~beta1+dfsg.orig.tar.xz
+ 80d04983b6c9d44680fb8dd1b08fd40eb00ab8619843fd7453fcad5b1e9e212e 30960 opendmarc_1.4.0~beta1+dfsg-6.debian.tar.xz
+Homepage: http://www.trusteddomain.org/opendmarc
+Package-List: 
+ libopendmarc-dev deb libdevel optional arch=any
+ libopendmarc2 deb libs optional arch=any
+ opendmarc deb mail optional arch=any
+Directory: pool/main/o/opendmarc
+Priority: source
+Section: misc

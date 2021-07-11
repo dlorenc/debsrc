@@ -1,0 +1,27 @@
+Package: ruby-jsonpath
+Binary: ruby-jsonpath
+Version: 1.0.5-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-multi-json, ruby-to-regexp (>= 0.2.1~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4cc87a7208cc4d0abfbf178649dbdeb9 2091 ruby-jsonpath_1.0.5-2.dsc
+ 61653d8494038599dc6e807dfd0dd579 14989 ruby-jsonpath_1.0.5.orig.tar.gz
+ a34a29ab075655889b859f378416aa43 2536 ruby-jsonpath_1.0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-jsonpath
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-jsonpath.git
+Checksums-Sha256:
+ aa42fee7810cab66dcd92fe2a0720cf5ec7bef672117e91a146c6c0f23a72e54 2091 ruby-jsonpath_1.0.5-2.dsc
+ 5e2d8443da49b7b561e40142ecceedf4bd8891b1935ad8c6bda2217363370bb3 14989 ruby-jsonpath_1.0.5.orig.tar.gz
+ 6a4aace6a163fbfb871a0a0be92a8c7511f2aec017d9bb7ff75ba46b74804510 2536 ruby-jsonpath_1.0.5-2.debian.tar.xz
+Homepage: https://github.com/joshbuddy/jsonpath
+Package-List: 
+ ruby-jsonpath deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-jsonpath
+Priority: extra
+Section: misc

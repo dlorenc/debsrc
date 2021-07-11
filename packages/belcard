@@ -1,0 +1,26 @@
+Package: belcard
+Binary: libbelcard-dev, libbelcard1
+Version: 4.4.13-2
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Uploaders: Bernhard Schmidt <berni@debian.org>
+Build-Depends: cmake, debhelper-compat (= 12), libbctoolbox-dev (>= 4.4.0~), libbelr-dev (>= 4.4.0~), libudev-dev
+Architecture: any
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ ee15bbef5c358583e27a569ee84b32dd 2121 belcard_4.4.13-2.dsc
+ 53b14a381e15bb0626a513bfa6075d3e 201526 belcard_4.4.13.orig.tar.gz
+ fc8a66b2d413adc3c936592029405360 2780 belcard_4.4.13-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-voip-team/linphone-stack/belcard
+Vcs-Git: https://salsa.debian.org/pkg-voip-team/linphone-stack/belcard.git
+Checksums-Sha256:
+ a5f2ff6f1a7521cfa68e95a23d3c5f5d8f8a35576c697b1e7cc26bc2dc1e6b50 2121 belcard_4.4.13-2.dsc
+ 167970fa8a64c740392efce0f69764c601abc8d821604d0b0153c89711692cd2 201526 belcard_4.4.13.orig.tar.gz
+ f7abed1cc01dbcdb5b7917f46a5bd13ea4435bb6123a8a293902a661cf556e53 2780 belcard_4.4.13-2.debian.tar.xz
+Homepage: https://gitlab.linphone.org/BC/public/belcard/
+Package-List: 
+ libbelcard-dev deb libdevel optional arch=any
+ libbelcard1 deb libs optional arch=any
+Directory: pool/main/b/belcard
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: hwinfo
+Binary: hwinfo, libhd21, libhd-doc, libhd-dev
+Version: 21.72-1
+Maintainer: Sebastien Badia <sbadia@debian.org>
+Uploaders: Tomasz Buchert <tomasz@debian.org>
+Build-Depends: debhelper (>= 13), debhelper-compat (= 13), doxygen, flex, libx86emu-dev [amd64 i386], pkg-config, uuid-dev
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a6b3c5bafb220255adae3d8640eb65fa 2137 hwinfo_21.72-1.dsc
+ d33995be010185840f99c4eff4f699f0 1178988 hwinfo_21.72.orig.tar.gz
+ 82b5a19bb3bef13e2cfc88fbedaaae0f 18576 hwinfo_21.72-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/hwinfo
+Vcs-Git: https://salsa.debian.org/debian/hwinfo.git
+Checksums-Sha256:
+ e23ad5c18e181b322de03698b73628558c90abe30b4466a4a1700d7ba6a61ebf 2137 hwinfo_21.72-1.dsc
+ 60eb6cde92512f12e67139b57bff03b1deb2b56e614d6023068b09560d5255c2 1178988 hwinfo_21.72.orig.tar.gz
+ dad58e5b498cb750199fce7e81b06b7bd085c4df705fd00af616094ed27470a3 18576 hwinfo_21.72-1.debian.tar.xz
+Homepage: https://github.com/openSUSE/hwinfo
+Package-List: 
+ hwinfo deb admin optional arch=linux-any
+ libhd-dev deb libdevel optional arch=linux-any
+ libhd-doc deb doc optional arch=all
+ libhd21 deb libs optional arch=linux-any
+Directory: pool/main/h/hwinfo
+Priority: source
+Section: admin

@@ -1,0 +1,31 @@
+Package: frei0r
+Binary: frei0r-plugins, frei0r-plugins-dev, frei0r-plugins-doc
+Version: 1.7.0-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, pkg-config, libgavl-dev, libcairo2-dev
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 451f93e3d9d671a493b28224f7c937ca 2579 frei0r_1.7.0-1.dsc
+ 78a7c7511cbda93013147563dc7a3618 1214323 frei0r_1.7.0.orig.tar.gz
+ 8060916e24ebfd194d07271712f79309 1528 frei0r_1.7.0.orig.tar.gz.asc
+ 77df95dca1fafc3d8e29cc5b3874efae 16116 frei0r_1.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/frei0r
+Vcs-Git: https://salsa.debian.org/multimedia-team/frei0r.git
+Checksums-Sha256:
+ 6e9d3e875d6a08d4f9981ca2c19b1e235d18d35792d0a19ca866fed68be92369 2579 frei0r_1.7.0-1.dsc
+ 1b1ff8f0f9bc23eed724e94e9a7c1d8f0244bfe33424bb4fe68e6460c088523a 1214323 frei0r_1.7.0.orig.tar.gz
+ 5675ee0734800628eaf22b3a7b6f39c45fdc8f0ac39396f5f5c799f6d997131a 1528 frei0r_1.7.0.orig.tar.gz.asc
+ 435023f88ac75a947da09c06f68d19ea7b8ab4584689df04517ece6d2778c209 16116 frei0r_1.7.0-1.debian.tar.xz
+Homepage: http://frei0r.dyne.org/
+Dgit: a45adfffb1a4190b56267178321d0b6999ee7045 debian archive/debian/1.7.0-1 https://git.dgit.debian.org/frei0r
+Package-List: 
+ frei0r-plugins deb video optional arch=any
+ frei0r-plugins-dev deb devel optional arch=all
+ frei0r-plugins-doc deb doc optional arch=all
+Directory: pool/main/f/frei0r
+Priority: source
+Section: video

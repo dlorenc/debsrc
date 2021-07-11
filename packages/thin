@@ -1,0 +1,27 @@
+Package: thin
+Binary: thin
+Version: 1.8.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Ryan Niebur <ryan@debian.org>, Laurent Arnoud <laurent@spkdev.net>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), help2man, ruby-daemons (>= 1.0.9), ruby-eventmachine (>= 1.0.4), ruby-rack (<< 3), ruby-rack (>= 1), ruby-rspec
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4f0759580a0b3d14e654a78ce6be2526 2079 thin_1.8.0-1.dsc
+ b84564f17ac6857d8144757db7c3d909 181199 thin_1.8.0.orig.tar.gz
+ b43c41f44e9b0598fa6e0d4f43e8b974 7584 thin_1.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/thin
+Vcs-Git: https://salsa.debian.org/ruby-team/thin.git
+Checksums-Sha256:
+ 69dc5879818cca5d84aa3cc74a84ce00ecd76128db8efaa8b2859df570c5b476 2079 thin_1.8.0-1.dsc
+ 9b69d39d2c00fc979947d37ea4ddf86dc2f50e279aa880b5624b22315a20e52e 181199 thin_1.8.0.orig.tar.gz
+ 05d1d566bbb486c709ce7b381aea5bb834980f7a3924b60422a7a7b004da5976 7584 thin_1.8.0-1.debian.tar.xz
+Homepage: https://github.com/macournoyer/thin
+Package-List: 
+ thin deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/t/thin
+Priority: source
+Section: web

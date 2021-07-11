@@ -1,0 +1,27 @@
+Package: python-django-import-export
+Binary: python3-django-import-export
+Version: 2.5.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-django, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b8b65e24f82cc41da0fe76393d81fe6c 2286 python-django-import-export_2.5.0-1.dsc
+ f8764a79749bd38175770766441e8b75 231849 python-django-import-export_2.5.0.orig.tar.gz
+ 7b8534989b36aa5ab9da3ccc82d322c6 2828 python-django-import-export_2.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-django-import-export
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-django-import-export.git
+Checksums-Sha256:
+ bd16f52e126d55b21904819062eaab7b03738633bc3d6f6bcda49f8639ec1985 2286 python-django-import-export_2.5.0-1.dsc
+ db52e7ec519043381ac9b98f1e2b17cf8b1eacb3898f4ca61cc337d4421dfefe 231849 python-django-import-export_2.5.0.orig.tar.gz
+ 2f4731fc650bddfed6cfc713c521f010ce4732efa48a73fc006896d508461f6e 2828 python-django-import-export_2.5.0-1.debian.tar.xz
+Homepage: https://github.com/django-import-export/django-import-export
+Package-List: 
+ python3-django-import-export deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-django-import-export
+Priority: extra
+Section: misc

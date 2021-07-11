@@ -1,0 +1,26 @@
+Package: shelltestrunner
+Binary: shelltestrunner
+Version: 1.9-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iustin Pop <iustin@debian.org>
+Build-Depends: debhelper (>= 10), cdbs, haskell-devscripts (>= 0.13), ghc (>= 8.4.3), ghc-prof, libghc-diff-dev (>= 0.2.0), libghc-hunit-dev, libghc-cmdargs-dev (>= 0.7), libghc-filemanip-dev (>= 0.3), libghc-pretty-show-dev (>= 1.6.5), libghc-regex-tdfa-dev (>= 1.1), libghc-safe-dev, libghc-test-framework-dev (>= 0.3.2), libghc-test-framework-hunit-dev (>= 0.2), libghc-utf8-string-dev (>= 0.3.5)
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 0f1bf3bef3e8a5eb79842064a2b0f346 2445 shelltestrunner_1.9-2.dsc
+ 4911f9ea021f0b7a64262a793b3c0e51 39538 shelltestrunner_1.9.orig.tar.gz
+ f64b635495694f42010719e4d2c7726b 6008 shelltestrunner_1.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/shelltestrunner
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/shelltestrunner]
+Checksums-Sha256:
+ 5a60c95f9fa3e8c0e8e6fdc53196a2df2a172c69ceb864e81de93904a19441bf 2445 shelltestrunner_1.9-2.dsc
+ cbc4358d447e32babe4572cda0d530c648cc4c67805f9f88002999c717feb3a8 39538 shelltestrunner_1.9.orig.tar.gz
+ 6855edf014dc50495522037c5e0509b7dfc463e3876388324e6c1668c8eb0877 6008 shelltestrunner_1.9-2.debian.tar.xz
+Homepage: https://github.com/simonmichael/shelltestrunner
+Package-List: 
+ shelltestrunner deb haskell optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/s/shelltestrunner
+Priority: source
+Section: haskell

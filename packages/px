@@ -1,0 +1,26 @@
+Package: px
+Binary: px
+Version: 1.4.0-1
+Maintainer: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-pytest-cov, python3-pytest-runner, python3-dateutil
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2c1cedda65fd076e3e1d208982da4006 1927 px_1.4.0-1.dsc
+ 1123af2abbc9e5fc442ac1ad72b5cb9f 660663 px_1.4.0.orig.tar.gz
+ 03946368cc983235462daf242df84a55 4184 px_1.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/px
+Vcs-Git: https://salsa.debian.org/debian/px.git
+Checksums-Sha256:
+ f03fb4691ce9e68a9c2e1c19d596a477a55d7e8ef04570cce558c995d853ef25 1927 px_1.4.0-1.dsc
+ 288ab0c42c979f456e78813a28301a8dcb5c979a7423e9b82f5b7632a62422fe 660663 px_1.4.0.orig.tar.gz
+ d34db68aa6ced5305432a70dd0cb0072dbfcc53b7dd7c5c3d8bfc8c552a36f9d 4184 px_1.4.0-1.debian.tar.xz
+Homepage: https://github.com/walles/px/
+Package-List: 
+ px deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: lsof
+Directory: pool/main/p/px
+Priority: extra
+Section: misc

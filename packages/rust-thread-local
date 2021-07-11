@@ -1,0 +1,26 @@
+Package: rust-thread-local
+Binary: librust-thread-local-dev
+Version: 1.0.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <pl@ninthfloor.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5a0c35f23cc76d7f7881de8314023f8f 2205 rust-thread-local_1.0.1-1.dsc
+ a5dd75e77c7324f5c1d2d372c990d0a7 12609 rust-thread-local_1.0.1.orig.tar.gz
+ c18ccb6605f19f32ad3ccc01175b891d 2656 rust-thread-local_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/thread-local
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/thread-local]
+Checksums-Sha256:
+ 4e88c42123ddc3afb3818caebf9469c75e7af2d45d01a1e610ff5c2cef8c8e0c 2205 rust-thread-local_1.0.1-1.dsc
+ d40c6d1b69745a6ec6fb1ca717914848da4b44ae29d9b3080cbee91d72a69b14 12609 rust-thread-local_1.0.1.orig.tar.gz
+ 1ce3293a0d4e4c9ccae7d7bddae8f95910925a253f4d82c39c67f8bccf2128e2 2656 rust-thread-local_1.0.1-1.debian.tar.xz
+Package-List: 
+ librust-thread-local-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-thread-local
+Priority: extra
+Section: misc

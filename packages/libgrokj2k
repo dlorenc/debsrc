@@ -1,0 +1,28 @@
+Package: libgrokj2k
+Binary: libgrokj2k1, libgrokj2k1-dev, grokj2k-tools, libgrokj2k1-doc
+Version: 7.6.6-3
+Maintainer: Aaron Boxer <boxerab@gmail.com>
+Build-Depends: cmake (>= 3.16.0), debhelper-compat (= 13), help2man, liblcms2-dev, libpng-dev, libzstd-dev, libtiff-dev, libjpeg-dev, zlib1g-dev, libimage-exiftool-perl
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b8e6e85a5c2f73097510f2edfb5da19f 2226 libgrokj2k_7.6.6-3.dsc
+ 308018b862b41f6d2cad8b8426369e2a 720246 libgrokj2k_7.6.6.orig.tar.gz
+ 9069bc66fbe7ea58ae03a37a4b14363c 16260 libgrokj2k_7.6.6-3.debian.tar.xz
+Vcs-Browser: https://github.com/GrokImageCompression/grok
+Vcs-Git: https://github.com/GrokImageCompression/grok.git -b debian/master
+Checksums-Sha256:
+ f3389ad9955b42f74adfde5e84968c5d16a3bdbff5d901472cf78b439259adad 2226 libgrokj2k_7.6.6-3.dsc
+ ae615b97f8d27eb027dbf4c1665f6c1cf91c8436925ab6c5ffb21992aa056a27 720246 libgrokj2k_7.6.6.orig.tar.gz
+ 2ca0c5859b04152cf9a7f9bc8a7c460796e2316677769ed6b5ad389fdbfe9e39 16260 libgrokj2k_7.6.6-3.debian.tar.xz
+Homepage: https://github.com/GrokImageCompression/grok
+Package-List: 
+ grokj2k-tools deb graphics optional arch=any
+ libgrokj2k1 deb libs optional arch=any
+ libgrokj2k1-dev deb libdevel optional arch=any
+ libgrokj2k1-doc deb doc optional arch=all
+Directory: pool/main/libg/libgrokj2k
+Priority: extra
+Section: misc

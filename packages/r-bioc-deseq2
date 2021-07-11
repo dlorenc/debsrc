@@ -1,0 +1,27 @@
+Package: r-bioc-deseq2
+Binary: r-bioc-deseq2
+Version: 1.30.1+dfsg-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Michael R. Crusoe <michael.crusoe@gmail.com>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-s4vectors (>= 0.23.18), r-bioc-iranges, r-bioc-genomicranges, r-bioc-summarizedexperiment, r-bioc-biocgenerics, r-bioc-biobase, r-bioc-biocparallel, r-bioc-genefilter, r-cran-locfit, r-bioc-geneplotter, r-cran-ggplot2, r-cran-rcpp, r-cran-rcpparmadillo
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0e329d4b582c60c1ce4ba56e7a87443e 2449 r-bioc-deseq2_1.30.1+dfsg-1.dsc
+ 9bb183f09f9cc8d0d6938505f859a9c4 589144 r-bioc-deseq2_1.30.1+dfsg.orig.tar.xz
+ d5dbab419814f0f736c43493d907bcf3 4760 r-bioc-deseq2_1.30.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-deseq2
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-deseq2.git
+Checksums-Sha256:
+ d9c3b0e7d5b73c258858c95881a23384a976c4f3b0c5f8773b504d46383cce43 2449 r-bioc-deseq2_1.30.1+dfsg-1.dsc
+ 62c2295d8e081ee49ea2760f4a06e2572a3341835ee9d567d5d9df0a326a8194 589144 r-bioc-deseq2_1.30.1+dfsg.orig.tar.xz
+ ce30ad2fbea26528aa8ba93b46e9dda1f9d6fdb7c1be3226edd3882c40811edc 4760 r-bioc-deseq2_1.30.1+dfsg-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/DESeq2/
+Package-List: 
+ r-bioc-deseq2 deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-bioc-glmgampoi, r-bioc-tximport, r-cran-testthat
+Directory: pool/main/r/r-bioc-deseq2
+Priority: optional
+Section: misc

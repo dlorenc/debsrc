@@ -1,0 +1,27 @@
+Package: python-memprof
+Binary: python3-memprof
+Version: 0.3.6-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Javi Merino <vicho@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, cython3, python3-matplotlib
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 85924f1e2f7bb1fdf9d5aac4c9ea0132 2106 python-memprof_0.3.6-3.dsc
+ 3e1ca038bb4bce2db25b82cd373e4857 53984 python-memprof_0.3.6.orig.tar.xz
+ eb39489d37bcc6b4bea3db5a2149bb77 4056 python-memprof_0.3.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-memprof
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-memprof.git
+Checksums-Sha256:
+ 8921310e782622f047de44889f52b62759234328496b6fa90962a2bc097507e8 2106 python-memprof_0.3.6-3.dsc
+ 29bcc232a17e301f754fcd9e0f9892df1da015f18b54127c4d69fe398579492b 53984 python-memprof_0.3.6.orig.tar.xz
+ b0c9b5b212aedd152f8161bec9dd0cf6be9481e6676766f8d5ba20374b53d3a9 4056 python-memprof_0.3.6-3.debian.tar.xz
+Homepage: http://jmdana.github.io/memprof/
+Package-List: 
+ python3-memprof deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-memprof
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: luksmeta
+Binary: libluksmeta0, libluksmeta-dev, luksmeta
+Version: 9-3
+Maintainer: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Build-Depends: debhelper (>= 11~), asciidoctor, cryptsetup-bin, libcryptsetup-dev (>= 2:1.5.1), pkg-config
+Architecture: linux-any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 4ea1dbfb6fae0781f43be4059aa5345f 2018 luksmeta_9-3.dsc
+ 0cd26cba320ba6b625cda369699b3409 267561 luksmeta_9.orig.tar.bz2
+ 1b47ec2b662f815dcdbaeb281a125525 4340 luksmeta_9-3.debian.tar.xz
+Vcs-Browser: https://git.in-ulm.de/cbiedl/luksmeta
+Vcs-Git: https://git.in-ulm.de/cbiedl/luksmeta.git
+Checksums-Sha256:
+ feb15c13f8b7e55cb99b31f189c9fa49eb0a586e95006f2c661933a282c6c3f3 2018 luksmeta_9-3.dsc
+ 2ca0c35b551b331ba1444fc9d36e8c48ff8cae53dd4e6155b028e8904edc202a 267561 luksmeta_9.orig.tar.bz2
+ 9419bfb4017c77ffa695d0f52e5f28b1536b15c797d1713e972b2131d4c88ed8 4340 luksmeta_9-3.debian.tar.xz
+Homepage: https://github.com/latchset/luksmeta
+Package-List: 
+ libluksmeta-dev deb libdevel optional arch=linux-any
+ libluksmeta0 deb libs optional arch=linux-any
+ luksmeta deb net optional arch=linux-any
+Directory: pool/main/l/luksmeta
+Priority: extra
+Section: misc

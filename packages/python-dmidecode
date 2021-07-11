@@ -1,0 +1,27 @@
+Package: python-dmidecode
+Binary: python3-dmidecode, python3-dmidecode-dbg, python-dmidecode-data
+Version: 3.12.2-11
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, liblzma-dev, libxml2-dev, pkg-config, python3-all-dbg, python3-all-dev, python3-libxml2
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 325571295553bbfa15d626d608eb0f00 2291 python-dmidecode_3.12.2-11.dsc
+ 458d83ac45316ec40df327b183b2030e 147096 python-dmidecode_3.12.2.orig.tar.gz
+ c73bcb347b97817aa8f2a944416c63f7 7524 python-dmidecode_3.12.2-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-dmidecode
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-dmidecode.git
+Checksums-Sha256:
+ 13af20024d0b14561daaa4317dc2f2609f0b626229cce52650d8229d24b84557 2291 python-dmidecode_3.12.2-11.dsc
+ 2f9d311f09988a645707dbed883d513daca9729ab84efe8317fe5393eae9769d 147096 python-dmidecode_3.12.2.orig.tar.gz
+ a015609e6c15de6d5a3bdaf692ced9db7145bd9a019d906c9c16fb406a40bc25 7524 python-dmidecode_3.12.2-11.debian.tar.xz
+Homepage: https://github.com/nima/python-dmidecode
+Package-List: 
+ python-dmidecode-data deb python optional arch=all
+ python3-dmidecode deb python optional arch=any
+ python3-dmidecode-dbg deb debug optional arch=any
+Directory: pool/main/p/python-dmidecode
+Priority: source
+Section: python

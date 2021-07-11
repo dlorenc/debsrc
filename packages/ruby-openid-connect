@@ -1,0 +1,27 @@
+Package: ruby-openid-connect
+Binary: ruby-openid-connect
+Version: 1.1.8-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-activemodel, ruby-attr-required, ruby-json, ruby-json-jwt, ruby-rack-oauth2 (>= 1.6.1), ruby-rspec, ruby-rspec-its, ruby-swd, ruby-tzinfo, ruby-validate-email, ruby-validate-url, ruby-webfinger, ruby-webmock
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bb99a7623623b3da6d3d1ccbba5b1014 2376 ruby-openid-connect_1.1.8-1.dsc
+ c8029ff66f0dcb914ab84207573d133a 27429 ruby-openid-connect_1.1.8.orig.tar.gz
+ 74ce406eb387209e2d6b72dce55f730f 3644 ruby-openid-connect_1.1.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-openid-connect
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-openid-connect.git
+Checksums-Sha256:
+ c8ddb0dead61885b9c82eb0014934be6c04955f88f0effa882d063b29c0b451f 2376 ruby-openid-connect_1.1.8-1.dsc
+ 6a8ccd3eb1c1a726eec4cc0536c0e9fa3165e452f7bd70f270023adc15e6f9e0 27429 ruby-openid-connect_1.1.8.orig.tar.gz
+ 7bb5676e29759302b065173b7996d7c8b96df5fe3cccc3f71ede15efe6355625 3644 ruby-openid-connect_1.1.8-1.debian.tar.xz
+Homepage: https://github.com/nov/openid_connect
+Package-List: 
+ ruby-openid-connect deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-openid-connect
+Priority: optional
+Section: misc

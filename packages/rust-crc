@@ -1,0 +1,24 @@
+Package: rust-crc
+Binary: librust-crc-dev
+Version: 1.8.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-build-const-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 45680181298b8a95c2a37359b5c331c2 2037 rust-crc_1.8.1-1.dsc
+ c07d2bd46a0fb313b00d1241e6024527 9114 rust-crc_1.8.1.orig.tar.gz
+ 9d13ad1eaffd15c8d0e9d18c1f058f8b 2372 rust-crc_1.8.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crc
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crc]
+Checksums-Sha256:
+ c5439e4dbda9d7bb806521142d0f0e6c4de2c6c4969954cdda35b4e3673ab752 2037 rust-crc_1.8.1-1.dsc
+ d663548de7f5cca343f1e0a48d14dcfb0e9eb4e079ec58883b7251539fa10aeb 9114 rust-crc_1.8.1.orig.tar.gz
+ a0bcd45051f135e769fc0ba999be5279e065a707b07e700b1f90b571ac801f41 2372 rust-crc_1.8.1-1.debian.tar.xz
+Package-List: 
+ librust-crc-dev deb rust optional arch=any
+Directory: pool/main/r/rust-crc
+Priority: extra
+Section: misc

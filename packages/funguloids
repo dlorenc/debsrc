@@ -1,0 +1,27 @@
+Package: funguloids
+Binary: funguloids, funguloids-data
+Version: 1.06-14
+Maintainer: Debian Games Team <pkg-games-devel@lists.debian.org>
+Uploaders: Paul Wise <pabs@debian.org>
+Build-Depends: autoconf-archive, debhelper (>= 11), libalut-dev, liblua5.1-0-dev, libmad0-dev, libogg-dev, libogre-1.9-dev, libois-dev, libopenal-dev, libvorbis-dev, pkg-config, python3
+Build-Conflicts: libboost-date-time1.49-dev (<< 1.49.0-4~)
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 5138c1df256d99429a710a5479ae7cc5 2188 funguloids_1.06-14.dsc
+ a73b24e362a51bfe589915c15fd029f8 14775043 funguloids_1.06.orig.tar.gz
+ d00476a46f71b66c6fe0ef2b781a12f5 15504 funguloids_1.06-14.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/funguloids
+Vcs-Git: https://salsa.debian.org/games-team/funguloids.git
+Checksums-Sha256:
+ bf0c8e50432568f5f53ef1097d2977a9987c5b8dd10c71ef391d2e0a70c3202e 2188 funguloids_1.06-14.dsc
+ 4c967e8aa7cb202491cba6033890aef0729d91cf56285bd30ba37cabe534ee2c 14775043 funguloids_1.06.orig.tar.gz
+ 79902550c51db6b06cc9adf597b354330c563ca87d09a316e711b1777397e2d8 15504 funguloids_1.06-14.debian.tar.xz
+Homepage: http://funguloids.sourceforge.net
+Package-List: 
+ funguloids deb games optional arch=any
+ funguloids-data deb games optional arch=all
+Directory: pool/main/f/funguloids
+Priority: source
+Section: misc

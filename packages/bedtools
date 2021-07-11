@@ -1,0 +1,28 @@
+Package: bedtools
+Binary: bedtools, bedtools-test
+Version: 2.30.0+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), python3, zlib1g-dev, libbz2-dev, liblzma-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c701b4e85ad01bbc0960bea396f4c542 2157 bedtools_2.30.0+dfsg-1.dsc
+ 09a779eccf6d7de519d3ce6ef158661e 13986284 bedtools_2.30.0+dfsg.orig.tar.xz
+ 9ad1723e22c653893b96518618c5bb8f 13276 bedtools_2.30.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/bedtools
+Vcs-Git: https://salsa.debian.org/med-team/bedtools.git
+Checksums-Sha256:
+ f5e91531a14a35de381bbc981044078bed35e9019a2c238fa7cfc92adf214ccf 2157 bedtools_2.30.0+dfsg-1.dsc
+ 3a1f3bd16e6ee034af6236c6ec23feec5ceeaddeb951530e9bd2be22636e385a 13986284 bedtools_2.30.0+dfsg.orig.tar.xz
+ 0519b92c0a809fb9c37aa4fa067ca21b47ad00b6bbeef396520638388e9be7be 13276 bedtools_2.30.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/arq5x/bedtools2
+Package-List: 
+ bedtools deb science optional arch=any
+ bedtools-test deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: tabix
+Directory: pool/main/b/bedtools
+Priority: source
+Section: science

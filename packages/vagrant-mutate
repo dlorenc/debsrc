@@ -1,0 +1,28 @@
+Package: vagrant-mutate
+Binary: vagrant-mutate
+Version: 1.2.0-4.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Build-Depends: debhelper (>= 11~), gem2deb, rake, vagrant (>= 1.5)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 0a9b7d6bdcffcdee23306fd07ee1eb62 2108 vagrant-mutate_1.2.0-4.1.dsc
+ 017db1c9e8271ce5ccb677b4da87cbb0 31386 vagrant-mutate_1.2.0.orig.tar.gz
+ 7ae5a890f96d8c01aaa890ab82314d2b 2600 vagrant-mutate_1.2.0-4.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/vagrant-mutate
+Vcs-Git: https://salsa.debian.org/ruby-team/vagrant-mutate.git
+Checksums-Sha256:
+ 4e835260e6fcbd4e511e1dfc0a59da43dccfca48a7b91dcaec8609ed4fd70cc4 2108 vagrant-mutate_1.2.0-4.1.dsc
+ f960414a6b1c621ce0e024a0190f7c62728ead5dd2d693e3c7aa076c77f3428c 31386 vagrant-mutate_1.2.0.orig.tar.gz
+ 006e413a308c3cf32aa504f129a0f2059f2904205f2ea910c3b3ab0c6460fcf2 2600 vagrant-mutate_1.2.0-4.1.debian.tar.xz
+Homepage: https://github.com/sciurus/vagrant-mutate
+Package-List: 
+ vagrant-mutate deb admin optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: distro-info
+Directory: pool/main/v/vagrant-mutate
+Priority: optional
+Section: misc

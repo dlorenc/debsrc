@@ -1,0 +1,24 @@
+Package: rust-futf
+Binary: librust-futf-dev
+Version: 0.1.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-mac-0.1+default-dev <!nocheck>, librust-new-debug-unreachable-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ bde9f8a10ea6b0a3ced9de9756433d81 2097 rust-futf_0.1.4-1.dsc
+ 97a2637a0640d4d651a8d35b25adde70 11341 rust-futf_0.1.4.orig.tar.gz
+ 4cd0c79b44c4af547c9737eefd938197 2356 rust-futf_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futf
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/futf]
+Checksums-Sha256:
+ 9304b97467e3e37b5e7d30aaa659badae03706094b705002e37139de922f09cc 2097 rust-futf_0.1.4-1.dsc
+ 7c9c1ce3fa9336301af935ab852c437817d14cd33690446569392e65170aac3b 11341 rust-futf_0.1.4.orig.tar.gz
+ 90c214d71048ee6d455e47adc8b566472e62697ac19c308138e7c791dd6a1e9d 2356 rust-futf_0.1.4-1.debian.tar.xz
+Package-List: 
+ librust-futf-dev deb rust optional arch=any
+Directory: pool/main/r/rust-futf
+Priority: extra
+Section: misc

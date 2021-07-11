@@ -1,0 +1,25 @@
+Package: python-debian
+Binary: python3-debian
+Version: 0.1.39
+Maintainer: Debian python-debian Maintainers <pkg-python-debian-maint@lists.alioth.debian.org>
+Uploaders: Enrico Zini <enrico@debian.org>, James Westby <jw+debian@jameswestby.net>, Reinhard Tartler <siretart@tauware.de>, Stefano Zacchiroli <zack@debian.org>, John Wright <jsw@debian.org>, Stuart Prescott <stuart@debian.org>, Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: binutils (>= 2.23), debhelper-compat (= 13), dh-python, python3-all (>= 3.1.2-8~), python3-apt (>> 1.1~), python3-chardet, python3-setuptools, python3-six (>> 1.4~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 9719ac6f2a94f263a7a91df55e3343c5 2226 python-debian_0.1.39.dsc
+ 8d4472af3e5c9a9baa08a20d0be82c6a 319020 python-debian_0.1.39.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-debian-team/python-debian
+Vcs-Git: https://salsa.debian.org/python-debian-team/python-debian.git
+Checksums-Sha256:
+ ae048bc8b3b480cabd7e2619417e7743322c1bd8db9958552763c757ae0a05d3 2226 python-debian_0.1.39.dsc
+ dcb119620e01ae9c913b315b03cdd5a55f00f1d0890f5bb5b8aaafd7fb0a322e 319020 python-debian_0.1.39.tar.xz
+Homepage: https://salsa.debian.org/python-debian-team/python-debian
+Package-List: 
+ python3-debian deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: binutils, debian-archive-keyring, debian-keyring, python3-all, python3-apt
+Directory: pool/main/p/python-debian
+Priority: source
+Section: python

@@ -1,0 +1,27 @@
+Package: golang-github-keltia-archive
+Binary: golang-github-keltia-archive-dev
+Version: 0.8.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Antoine Beaupré <anarcat@debian.org> , Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-pkg-errors-dev, golang-github-stretchr-testify-dev, golang-github-proglottis-gpgme-dev, golang-github-klauspost-compress-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9346c7ec3b71af1a86d65d7a20f58a75 2574 golang-github-keltia-archive_0.8.0-2.dsc
+ d1cfcdc5cb73d310ea7fbc3647ef8e7a 10863 golang-github-keltia-archive_0.8.0.orig.tar.gz
+ 8bf2b8fc02069e04e6a7f9064a129b1f 3040 golang-github-keltia-archive_0.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-keltia-archive
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-keltia-archive.git
+Checksums-Sha256:
+ 412ff847ba97c81f2055247894030bb59bd0d09a7072ae609a1f09f8eb24c724 2574 golang-github-keltia-archive_0.8.0-2.dsc
+ 8e9c4f27d9c8fcc1e8c27a01ee364042156de99659a186ca4b6299e6d8845743 10863 golang-github-keltia-archive_0.8.0.orig.tar.gz
+ 00274e6484d5f3ab03f70645c57b0ff2f9fea4991a596d59f2440d1cf5a0771b 3040 golang-github-keltia-archive_0.8.0-2.debian.tar.xz
+Homepage: https://github.com/keltia/archive
+Go-Import-Path: github.com/keltia/archive
+Package-List: 
+ golang-github-keltia-archive-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-keltia-archive
+Priority: extra
+Section: golang

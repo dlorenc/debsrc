@@ -1,0 +1,27 @@
+Package: ppx-variants-conv
+Binary: libppx-variants-conv-ocaml-dev, libppx-variants-conv-ocaml
+Version: 0.14.1-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, ocaml-dune, libbase-ocaml-dev (>= 0.14), libvariantslib-ocaml-dev (>= 0.14), libppxlib-ocaml-dev (>= 0.14.0), dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 994a24740c5c3f2f0b05a7bfa6802baa 2064 ppx-variants-conv_0.14.1-1.dsc
+ 5967b6bdf8d1d95ac25f79ffa925397d 9640 ppx-variants-conv_0.14.1.orig.tar.gz
+ 3e37cb81248cdecda4413f93a70719a6 2440 ppx-variants-conv_0.14.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ppx-variants-conv
+Vcs-Git: https://salsa.debian.org/ocaml-team/ppx-variants-conv.git
+Checksums-Sha256:
+ 7b2a6eba6dec2783e408a0016c65406f28dbf4891b388f23ef157b524f7c6c69 2064 ppx-variants-conv_0.14.1-1.dsc
+ e0510568fd4f652dd7d802f090679d3c5e3f393deb2c92cdd5a6caafe1f33803 9640 ppx-variants-conv_0.14.1.orig.tar.gz
+ 45fa09e2f79e6fc66218c26b4c48882a5113563e5caa74dc1c038a9335a50163 2440 ppx-variants-conv_0.14.1-1.debian.tar.xz
+Homepage: https://github.com/janestreet/ppx_variants_conv
+Dgit: 9f304aec1be85e349de95421e2b62561ba37770b debian archive/debian/0.14.1-1 https://git.dgit.debian.org/ppx-variants-conv
+Package-List: 
+ libppx-variants-conv-ocaml deb ocaml optional arch=any
+ libppx-variants-conv-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/p/ppx-variants-conv
+Priority: extra
+Section: misc

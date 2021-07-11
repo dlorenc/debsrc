@@ -1,0 +1,25 @@
+Package: mvel
+Binary: libmvel-java
+Version: 2.4.4-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, default-jdk-doc, junit4, libasm-java (>= 5.0), libmaven-bundle-plugin-java, libmaven-compiler-plugin-java (>= 2.0.2), libmaven-jar-plugin-java (>= 2.2), libmaven-javadoc-plugin-java, libsurefire-java (>= 2.4.3), libxstream-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ d02feb3aeb979743c0427b5777796426 2298 mvel_2.4.4-1.dsc
+ 328bdeceab668e4671e677aa21e13cc9 234908 mvel_2.4.4.orig.tar.xz
+ 2a51092df580807dc18ec99d2d331e2f 4832 mvel_2.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/mvel
+Vcs-Git: https://salsa.debian.org/java-team/mvel.git
+Checksums-Sha256:
+ db7bf8c6cac1d9ae132759e4124606f014421ee36866f1e2d8d844c9baffbc0a 2298 mvel_2.4.4-1.dsc
+ f28b5e43f72df72b9764f1968b50d73c6930348db627c6ff5e62b43517b9a6b2 234908 mvel_2.4.4.orig.tar.xz
+ 1b88d20e035b328f5c023b96b02567f6dbbd50deed6c1b10e873b35bc487b00a 4832 mvel_2.4.4-1.debian.tar.xz
+Homepage: https://github.com/mvel/mvel/
+Package-List: 
+ libmvel-java deb java optional arch=all
+Directory: pool/main/m/mvel
+Priority: source
+Section: java

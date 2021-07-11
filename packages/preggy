@@ -1,0 +1,27 @@
+Package: preggy
+Binary: python3-preggy
+Version: 1.4.4-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Gilles Dubuc <gilles@wikimedia.org>, Marcelo Jorge Vieira <metal@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-nose, python3-setuptools, python3-six, python3-unidecode, tox
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e62d954cc1c8bf4dc7bf58662f0107a1 1525 preggy_1.4.4-1.dsc
+ 0eb0f2d83a8af16386c7da0fe546615d 20615 preggy_1.4.4.orig.tar.gz
+ d47fae280f507ac69691d6e073ef2fb4 2724 preggy_1.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/preggy
+Vcs-Git: https://salsa.debian.org/python-team/modules/preggy.git
+Checksums-Sha256:
+ c78bcfdb1a5e17bbac41beeb0b24fcdcaf1a3918bf85939af59e1bb9c6d003b1 1525 preggy_1.4.4-1.dsc
+ 728f072bd073d4cb54905a1193d7b52b25965994ea458522816344884d3c6110 20615 preggy_1.4.4.orig.tar.gz
+ ea2d853b6ce1e39b85fc01338c7224fb1a1f37310facd49e8fef4061d4a802c8 2724 preggy_1.4.4-1.debian.tar.xz
+Homepage: http://heynemann.github.io/preggy
+Package-List: 
+ python3-preggy deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-nose
+Directory: pool/main/p/preggy
+Priority: optional
+Section: misc

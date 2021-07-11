@@ -1,0 +1,25 @@
+Package: ell
+Binary: libell0, libell-dev
+Version: 0.36-1
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper-compat (= 13), libglib2.0-dev
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0327f02b7bdeef5e5915be9e866a542b 1846 ell_0.36-1.dsc
+ ee14c8a645c4d63e089f36ea1515e26d 282860 ell_0.36.orig.tar.xz
+ edd1444c226b8ba065f449288e76ad05 6068 ell_0.36-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ell
+Vcs-Git: https://salsa.debian.org/debian/ell.git
+Checksums-Sha256:
+ 369efa0ba5847a7837314ae255a66f568ce69246403cff4c2ca43c99147f4272 1846 ell_0.36-1.dsc
+ f669796a77dee05361c4fd4b326939e9cdfa8e52b137c89e68b4b729577aef03 282860 ell_0.36.orig.tar.xz
+ 99c99ed429d94788664c659cc8b594f8a191e3538fbd7f40679d4f522729de98 6068 ell_0.36-1.debian.tar.xz
+Homepage: https://01.org/ell
+Package-List: 
+ libell-dev deb libdevel optional arch=linux-any
+ libell0 deb libs optional arch=linux-any
+Directory: pool/main/e/ell
+Priority: extra
+Section: misc

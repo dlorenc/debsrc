@@ -1,0 +1,27 @@
+Package: node-opencv
+Binary: node-opencv
+Version: 7.0.0+git20200310.6c13234-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper (>= 11), dh-exec (>= 0.3), libnode-dev, libopencv-dev (>= 4.0.1), node-buffers, node-glob, node-gyp, node-istanbul, node-nan, node-pre-gyp, node-request, node-tape, npm
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ f4096bae44dc605a4543b69c23a988c6 2370 node-opencv_7.0.0+git20200310.6c13234-2.dsc
+ d33a270fe458e20f3f3624e3319ec8e0 5521407 node-opencv_7.0.0+git20200310.6c13234.orig.tar.gz
+ 8a0e02393e7cbec59ef654f4b007e6d2 6540 node-opencv_7.0.0+git20200310.6c13234-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-opencv
+Vcs-Git: https://salsa.debian.org/js-team/node-opencv.git
+Checksums-Sha256:
+ 5a9a99dcb727572215feae6907458369d135e70ec9a2cdf48d5189c44a33c182 2370 node-opencv_7.0.0+git20200310.6c13234-2.dsc
+ 3384655d3dfde81e1edae52f46f6445564a9db9aff49e789999c936728c55b2e 5521407 node-opencv_7.0.0+git20200310.6c13234.orig.tar.gz
+ 74b771d3d227db49a8b588860cfc3c63451c0bf42107eb797d46f51c802b816a 6540 node-opencv_7.0.0+git20200310.6c13234-2.debian.tar.xz
+Homepage: https://github.com/peterbraden/node-opencv
+Package-List: 
+ node-opencv deb javascript optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: node-glob, node-request, node-tape
+Directory: pool/main/n/node-opencv
+Priority: extra
+Section: misc

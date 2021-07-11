@@ -1,0 +1,26 @@
+Package: rust-mdl
+Binary: librust-mdl-dev
+Version: 1.0.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Henry-Nicolas Tourneur <debian@nilux.be>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bincode-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-failure-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-lmdb-0.8+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.79-~~) <!nocheck>, librust-serde-derive-1+default-dev (>= 1.0.79-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ b2e224e72a17473aac9a3fc476ee15e8 2334 rust-mdl_1.0.4-1.dsc
+ cf76d832ab68a8ca36f76b2b324f1b7a 9294 rust-mdl_1.0.4.orig.tar.gz
+ f21874c24803e378a83bf591578a9f88 2092 rust-mdl_1.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mdl
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/mdl]
+Checksums-Sha256:
+ af3eae4532a8c6efdb89606b5a6e795f219486917622444d72bfbb3eb88c8a9d 2334 rust-mdl_1.0.4-1.dsc
+ b9ab681f8a6f741dd30a3f4f103b35b3e92fa510e0ef82ee83833819cf739b75 9294 rust-mdl_1.0.4.orig.tar.gz
+ 71c715e7738a02c2f4653cb66d77453791356731b038bcd6415ae85c5b2d1020 2092 rust-mdl_1.0.4-1.debian.tar.xz
+Package-List: 
+ librust-mdl-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-mdl
+Priority: extra
+Section: misc

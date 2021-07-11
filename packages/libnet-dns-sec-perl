@@ -1,0 +1,27 @@
+Package: libnet-dns-sec-perl
+Binary: libnet-dns-sec-perl
+Version: 1.18-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>
+Build-Depends: debhelper-compat (= 13), libnet-dns-perl (>= 1.08) <!nocheck>, libssl-dev, libtest-simple-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 82ee8845156568a2dd48f9fe712eec0d 2432 libnet-dns-sec-perl_1.18-1.dsc
+ 5bcda505bc2f1226a5e855cd6050c79f 46301 libnet-dns-sec-perl_1.18.orig.tar.gz
+ e23efc2f643cddff109e585bb53fe585 4320 libnet-dns-sec-perl_1.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-dns-sec-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-dns-sec-perl.git
+Checksums-Sha256:
+ cccd7de03407a37c80208fc4a011363221ffc795954afb2a95c95b802ab610f8 2432 libnet-dns-sec-perl_1.18-1.dsc
+ 65ea2b1e878ca651238192426d41d1750eb77b5b7ba1fb71be3fc2ebb7e237b9 46301 libnet-dns-sec-perl_1.18.orig.tar.gz
+ b02a34a95687b6d0ed208bda88cfb44347fe14a09003b2f2fbcc1e79a199cf20 4320 libnet-dns-sec-perl_1.18-1.debian.tar.xz
+Homepage: https://www.net-dns.org/
+Dgit: 04083bb916208ddfd2da0b70f7d5a22edc9571e6 debian archive/debian/1.18-1 https://git.dgit.debian.org/libnet-dns-sec-perl
+Package-List: 
+ libnet-dns-sec-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-dns-sec-perl
+Priority: source
+Section: perl

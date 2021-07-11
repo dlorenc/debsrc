@@ -1,0 +1,27 @@
+Package: r-cran-robust
+Binary: r-cran-robust
+Version: 0.5-0.0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-fit.models, r-cran-lattice, r-cran-mass, r-cran-robustbase, r-cran-rrcov
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 97c70bd78aa2206dc451557fd429ca69 2166 r-cran-robust_0.5-0.0-1.dsc
+ 442fc34466cf1fbdf419ce418bb90467 232065 r-cran-robust_0.5-0.0.orig.tar.gz
+ abe515f9a07687c178d2f2af0d983faa 2380 r-cran-robust_0.5-0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-robust
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-robust.git
+Checksums-Sha256:
+ 1db9ec0e48e52d43471de0cb78bc6c74826756153946a8b27d982046f14536ff 2166 r-cran-robust_0.5-0.0-1.dsc
+ 82f0b50028938966f807a4c4da5c345a3a64ccafd9a31c64a22cda852ed345cf 232065 r-cran-robust_0.5-0.0.orig.tar.gz
+ 15f983b7f4e20d5545195b9d1b5a0747c682e49566cd3d8f74dfcea85829df2c 2380 r-cran-robust_0.5-0.0-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=robust
+Package-List: 
+ r-cran-robust deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-fit.models
+Directory: pool/main/r/r-cran-robust
+Priority: extra
+Section: misc

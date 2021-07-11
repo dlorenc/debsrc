@@ -1,0 +1,28 @@
+Package: libjna-java
+Binary: libjna-java, libjna-jni, libjna-platform-java, libjna-java-doc
+Version: 5.6.0-1
+Maintainer: Debian Java maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Jan Dittberner <jandd@debian.org>, Ludovic Claude <ludovic.claude@laposte.net>, Andrew Ross <ubuntu@rossfamily.co.uk>
+Build-Depends: ant, ant-optional, debhelper-compat (= 13), default-jdk, default-jdk-doc, javahelper (>= 0.32~), libffi-dev, libx11-dev, libxt-dev, maven-repo-helper (>= 1.5~), pkg-config
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3f5721ee36d024d1cb946e0f4257ffcf 2386 libjna-java_5.6.0-1.dsc
+ 7e2de4332f04b6bb8537655db0abaeba 1714740 libjna-java_5.6.0.orig.tar.xz
+ 45cfa4bfdb70a771a6640060b1dd2122 10344 libjna-java_5.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libjna-java
+Vcs-Git: https://salsa.debian.org/java-team/libjna-java.git
+Checksums-Sha256:
+ e0949848bf5d9d846d51a1d8d91d0773894ee5f409d990dd21c036932b39af62 2386 libjna-java_5.6.0-1.dsc
+ ee176d4b0ad25c5d4084425b126af983e68f3f9676de2b5560a9051eeb186979 1714740 libjna-java_5.6.0.orig.tar.xz
+ fe9db64c051d281e224db6dd4239d84f5ccb001d7bd61f77236d3b7f1b6f872d 10344 libjna-java_5.6.0-1.debian.tar.xz
+Homepage: https://github.com/twall/jna
+Package-List: 
+ libjna-java deb java optional arch=all
+ libjna-java-doc deb doc optional arch=all
+ libjna-jni deb java optional arch=any
+ libjna-platform-java deb java optional arch=all
+Directory: pool/main/libj/libjna-java
+Priority: source
+Section: java

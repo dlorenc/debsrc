@@ -1,0 +1,27 @@
+Package: rust-pest-meta
+Binary: librust-pest-meta-dev
+Version: 2.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-maplit-1+default-dev <!nocheck>, librust-pest-2+default-dev (>= 2.1.0-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f1f62368e0ed5cf5d21e4f3983af3349 2261 rust-pest-meta_2.1.1-1.dsc
+ ae2738b045ef2d43d46a0b4ad4ff3fa6 27698 rust-pest-meta_2.1.1.orig.tar.gz
+ 7b6d67edf3cccb48aec0f683e5261df4 2896 rust-pest-meta_2.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pest-meta
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pest-meta]
+Checksums-Sha256:
+ 043491cb9fb22805b20f1ddeb27857db0dd4bcddf32ed6c737bf11e000c2d7ba 2261 rust-pest-meta_2.1.1-1.dsc
+ f249ea6de7c7b7aba92b4ff4376a994c6dbd98fd2166c89d5c4947397ecb574d 27698 rust-pest-meta_2.1.1.orig.tar.gz
+ b324188d9e9ee234ea208b70831485d3862940d57fb6f46f70901b4d6465db1a 2896 rust-pest-meta_2.1.1-1.debian.tar.xz
+Homepage: https://pest-parser.github.io/
+Package-List: 
+ librust-pest-meta-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-pest-meta
+Priority: extra
+Section: misc

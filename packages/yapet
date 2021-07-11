@@ -1,0 +1,25 @@
+Package: yapet
+Binary: yapet
+Version: 2.5-1
+Maintainer: Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13), gettext, libargon2-dev, libcppunit-dev, libncurses5-dev, libssl-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a2a84ca3d12359a6ebf66acc8ae71088 2032 yapet_2.5-1.dsc
+ 96fbca6097cdb8e995d4dc0eacc79307 998736 yapet_2.5.orig.tar.xz
+ 5c836684a719b492760535b10ba1df0d 6608 yapet_2.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/carnil/yapet
+Vcs-Git: https://salsa.debian.org/carnil/yapet.git
+Checksums-Sha256:
+ 2df3f29ce7e8e73d2811d57cb15048fe9f351f472fb846c3d8bb6cc28b881ab2 2032 yapet_2.5-1.dsc
+ af518e6f76fda72eef0530e431b54b8d252b4dd6b10c7d7765a9089f9b5ef142 998736 yapet_2.5.orig.tar.xz
+ bf171442d90ef02d547c1ffb6a110e6b128d2f4a85f3ce2517ce1770869698cb 6608 yapet_2.5-1.debian.tar.xz
+Homepage: https://yapet.guengel.ch/
+Package-List: 
+ yapet deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/y/yapet
+Priority: source
+Section: utils

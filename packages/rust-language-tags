@@ -1,0 +1,24 @@
+Package: rust-language-tags
+Binary: librust-language-tags-dev
+Version: 0.2.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 3b9abb28e8bc1c039e3b09ad75b9cc3d 2160 rust-language-tags_0.2.2-2.dsc
+ c47ecf87047b360cdd70729d2b14cb3d 13068 rust-language-tags_0.2.2.orig.tar.gz
+ 4badf470c33e7ace9949e9f4c0b91a71 2724 rust-language-tags_0.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/language-tags
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/language-tags]
+Checksums-Sha256:
+ 5ccf3d6722075f0d253c1239116292c5f02fd43cb22aa651d33c1678dbb4d6a7 2160 rust-language-tags_0.2.2-2.dsc
+ 93c4bcc0a667f085596fe68749920142ca4050d5deabb2577c91a952640828dc 13068 rust-language-tags_0.2.2.orig.tar.gz
+ 3fae9f3dca2dce2c5a4421be8a2cdd0f9857363eda455dbac757e4dbd35b6d63 2724 rust-language-tags_0.2.2-2.debian.tar.xz
+Package-List: 
+ librust-language-tags-dev deb rust optional arch=any
+Directory: pool/main/r/rust-language-tags
+Priority: extra
+Section: misc

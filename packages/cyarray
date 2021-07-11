@@ -1,0 +1,26 @@
+Package: cyarray
+Binary: python3-cyarray
+Version: 1.1-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Build-Depends: cython3, debhelper-compat (= 12), dh-python, python3-all-dev, python3-mako, python3-numpy, python3-pytest, python3-setuptools
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d7f0f2693d0106ac95efbad747f942bd 2062 cyarray_1.1-2.dsc
+ 1d78fd1eced502c7e09828be972a2181 24665 cyarray_1.1.orig.tar.gz
+ 3eead49ba8bbd7a526a8e824fb5ac274 3604 cyarray_1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/cyarray
+Vcs-Git: https://salsa.debian.org/science-team/cyarray.git
+Checksums-Sha256:
+ 61bf72171cb22e07a84b6c40384357a01f2001c6717fd75ef144d4489e977ff7 2062 cyarray_1.1-2.dsc
+ bc23dd135828a5f504ba5108dd06c0e2bae1145614d55a972cec02b73b6f2b72 24665 cyarray_1.1.orig.tar.gz
+ 6b61eb4daf86762dda77b27e5eeb41a5757b712d7d2b6c5edefbab44ce957cf5 3604 cyarray_1.1-2.debian.tar.xz
+Homepage: https://github.com/pypr/cyarray
+Package-List: 
+ python3-cyarray deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/c/cyarray
+Priority: extra
+Section: misc

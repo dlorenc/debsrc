@@ -1,0 +1,28 @@
+Package: libnet-server-perl
+Binary: libnet-server-perl
+Version: 2.009-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Alexander Wirt <formorer@debian.org>, gregor herrmann <gregoa@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libcgi-pm-perl <!nocheck>, libio-multiplex-perl <!nocheck>, libio-socket-inet6-perl <!nocheck>, libio-socket-ssl-perl <!nocheck>, libnet-ssleay-perl <!nocheck>, libsocket6-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4c04c6f40162891bd29869e2c72648d1 2630 libnet-server-perl_2.009-2.dsc
+ d45a0700d820b3eebd1e9e14611b1613 146781 libnet-server-perl_2.009.orig.tar.gz
+ d0a5246d5381df2af4a298e5c9f3ff6a 17144 libnet-server-perl_2.009-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-server-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-server-perl.git
+Checksums-Sha256:
+ aeb41ebb63501f942f8685e9dec380a70fdfb7977368b268d361f4cbbb9819da 2630 libnet-server-perl_2.009-2.dsc
+ 8267c6560355e2e0f483d3cc16195f342f32fe13cae9dde75a0a1ece5e9a813f 146781 libnet-server-perl_2.009.orig.tar.gz
+ 86844435a024631ebafec892d28d8134ffe410deef73c03f7519f42ac3da2fb6 17144 libnet-server-perl_2.009-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Net-Server
+Dgit: 43d3952255b54ab8b3d5232334e463ede3f3a642 debian archive/debian/2.009-2 https://git.dgit.debian.org/libnet-server-perl
+Package-List: 
+ libnet-server-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-server-perl
+Priority: source
+Section: perl

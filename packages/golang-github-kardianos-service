@@ -1,0 +1,27 @@
+Package: golang-github-kardianos-service
+Binary: golang-github-kardianos-service-dev
+Version: 1.2.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Eric Dorland <eric@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0.2
+Format: 3.0 (quilt)
+Files:
+ 892b0713eb488ea00dc1a90dc785c3ec 2268 golang-github-kardianos-service_1.2.0-2.dsc
+ 0f4bd05dfe2493c9913b525b5b708e3c 24943 golang-github-kardianos-service_1.2.0.orig.tar.gz
+ 666cd776ca096975abd3ba71b0a4b19f 2516 golang-github-kardianos-service_1.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-kardianos-service
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-kardianos-service.git
+Checksums-Sha256:
+ e910346578ea03112304e193b83431e9f18f5d0a815f6781f81bde8484034b67 2268 golang-github-kardianos-service_1.2.0-2.dsc
+ 5fd81c968382a0e77fca970d14308e6d3d3f5adc9feb48af85ee02253f5afde1 24943 golang-github-kardianos-service_1.2.0.orig.tar.gz
+ 6fea233dfc3dddcc31756ce2b4b6ef9bade01168e8e5b84e9cf7d55c3901ab3a 2516 golang-github-kardianos-service_1.2.0-2.debian.tar.xz
+Homepage: https://github.com/kardianos/service
+Go-Import-Path: github.com/kardianos/service
+Package-List: 
+ golang-github-kardianos-service-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-kardianos-service
+Priority: extra
+Section: golang

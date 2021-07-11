@@ -1,0 +1,27 @@
+Package: lcdf-typetools
+Binary: lcdf-typetools
+Version: 2.108-2
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Vasudev Kamath <vasudev@copyninja.info>,
+Build-Depends: aglfn, debhelper-compat (= 13), libkpathsea-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6cad4f8317274b8679ed2a84c9906ebc 2235 lcdf-typetools_2.108-2.dsc
+ 7cbf568ff55a34cf6da066f7976de6eb 651350 lcdf-typetools_2.108.orig.tar.gz
+ c4a463c150725e0678c6823a9f645c6d 14196 lcdf-typetools_2.108-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/lcdf-typetools
+Vcs-Git: https://salsa.debian.org/fonts-team/lcdf-typetools.git
+Checksums-Sha256:
+ c56e379f164cf594dd5edf9a37e396a1b1838d85b1ee06aaf2db5dec384490ca 2235 lcdf-typetools_2.108-2.dsc
+ fb09bf45d98fa9ab104687e58d6e8a6727c53937e451603662338a490cbbcb26 651350 lcdf-typetools_2.108.orig.tar.gz
+ 23aa2bb169d54ecaa1835bf8507172a081f498c762f3b5c8a233ae9c686a8c08 14196 lcdf-typetools_2.108-2.debian.tar.xz
+Homepage: https://www.lcdf.org/type/
+Package-List: 
+ lcdf-typetools deb text optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: fonts-font-awesome, fonts-gfs-artemisia, fonts-urw-base35, gsfonts, libtest-command-simple-perl, libtest-tempdir-tiny-perl, perl, texlive-base, texlive-binaries
+Directory: pool/main/l/lcdf-typetools
+Priority: source
+Section: text

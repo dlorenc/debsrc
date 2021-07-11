@@ -1,0 +1,27 @@
+Package: libcgns
+Binary: libcgns-dev, libcgns3.4, cgns-convert
+Version: 3.4.0-3
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Gilles Filippini <pini@debian.org>
+Build-Depends: debhelper (>= 11~), dh-exec, tk-dev, libglu1-mesa-dev, libxmu-dev, gfortran, libhdf5-dev, chrpath, cmake
+Architecture: any
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ cbc923b3ea4fe4dc2f6c3252297eaa2d 1782 libcgns_3.4.0-3.dsc
+ e5d038fa2725cd429b52847e2189805a 3393312 libcgns_3.4.0.orig.tar.gz
+ 2e27ccc737a2230244dfdca31bb5c1fc 12752 libcgns_3.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libcgns.git
+Vcs-Git: https://salsa.debian.org/science-team/libcgns.git
+Checksums-Sha256:
+ 69a2a50ab76356a7304278536c82b2ebb66d61ecd35b83d8b6b95343e1a6dcee 1782 libcgns_3.4.0-3.dsc
+ 6372196caf25b27d38cf6f056258cb0bdd45757f49d9c59372b6dbbddb1e05da 3393312 libcgns_3.4.0.orig.tar.gz
+ efa57357b8ad6c2faaaf99fd237e1d3ac1fb614d54630c516276eda7d427b7dd 12752 libcgns_3.4.0-3.debian.tar.xz
+Homepage: https://cgns.github.io
+Package-List: 
+ cgns-convert deb science optional arch=any
+ libcgns-dev deb libdevel optional arch=any
+ libcgns3.4 deb libs optional arch=any
+Directory: pool/main/libc/libcgns
+Priority: source
+Section: libs

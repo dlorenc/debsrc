@@ -1,0 +1,27 @@
+Package: libirman
+Binary: libirman-dev, libirman0, lirc-drv-irman
+Version: 0.5.2-5
+Maintainer: Debian Lirc Team <team+debian-lirc@tracker.debian.org>
+Uploaders: Amaya Rodrigo Sastre <amaya@debian.org>, Hector Garcia <hector@debian.org>, Loic Minier <lool@dooz.org>,
+Build-Depends: debhelper-compat (= 12), liblirc-dev, pkg-config
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 494f15b2a3aa39836b2113c3b000ad8a 2129 libirman_0.5.2-5.dsc
+ 65674f70c72b04c2b814be166abb90ab 374621 libirman_0.5.2.orig.tar.gz
+ e1b0860faca4c7f1f3ced1f72eb57d43 5388 libirman_0.5.2-5.debian.tar.xz
+Vcs-Browser: https://sourceforge.net/p/libirman/code/ci/debian/tree/
+Vcs-Git: git://git.code.sf.net/p/libirman/code -b debian
+Checksums-Sha256:
+ 03cdf891e11827caa01ee4ca7e2d24dea86d094eb366e19700aeeb9cfd087d38 2129 libirman_0.5.2-5.dsc
+ 3608506e03ad4668be9bce67d983ad9d3ddcc8d301ebcdd3168d3acd786b1df8 374621 libirman_0.5.2.orig.tar.gz
+ 8e744a10a49c31738a74379a3f32dfdde79ed930f704e0256140323baefe3ffb 5388 libirman_0.5.2-5.debian.tar.xz
+Homepage: https://sourceforge.net/projects/libirman/
+Package-List: 
+ libirman-dev deb libdevel optional arch=any
+ libirman0 deb libs optional arch=any
+ lirc-drv-irman deb libs optional arch=any
+Directory: pool/main/libi/libirman
+Priority: source
+Section: libs

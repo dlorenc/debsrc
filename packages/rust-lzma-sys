@@ -1,0 +1,25 @@
+Package: rust-lzma-sys
+Binary: librust-lzma-sys-dev
+Version: 0.1.15-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.34-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.51-~~) <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.14-~~) <!nocheck>, liblzma-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 80c358d58fe8d90afdacb47d4b324934 2294 rust-lzma-sys_0.1.15-1.dsc
+ 37f3ea571ecf252e1d3660da46aae78e 8861 rust-lzma-sys_0.1.15.orig.tar.gz
+ fc87436aa6502bee93573acb30f87e6f 2568 rust-lzma-sys_0.1.15-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lzma-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/lzma-sys]
+Checksums-Sha256:
+ 4ffe2a1b3f0a3e3f33511fa8788eed0d134f1cac7cdd500f82c1a34d25f46f77 2294 rust-lzma-sys_0.1.15-1.dsc
+ 306005d86aad11d8296c578b07756d08b88b30314bf8bb826a576ab7855e3a58 8861 rust-lzma-sys_0.1.15.orig.tar.gz
+ d78a8bae41820f81c2e2dc91f2e80729e632b0a3b4e852bc105c7950802d9e3b 2568 rust-lzma-sys_0.1.15-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/xz2-rs
+Package-List: 
+ librust-lzma-sys-dev deb rust optional arch=any
+Directory: pool/main/r/rust-lzma-sys
+Priority: extra
+Section: misc

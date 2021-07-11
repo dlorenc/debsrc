@@ -1,0 +1,31 @@
+Package: libkdegames
+Binary: kdegames-card-data-kf5, libkf5kdegames-dev, libkf5kdegames7, libkf5kdegamesprivate1, qml-module-org-kde-games-core
+Version: 4:20.12.1-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>, Sune Vuorela <sune@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>, Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>,
+Build-Depends: cmake (>= 3.5.0~), debhelper-compat (= 13), extra-cmake-modules (>= 5.57.0~), gettext, libkf5archive-dev (>= 5.57.0~), libkf5bookmarks-dev (>= 5.57.0~), libkf5codecs-dev (>= 5.57.0~), libkf5completion-dev (>= 5.57.0~), libkf5config-dev (>= 5.57.0~), libkf5configwidgets-dev (>= 5.57.0~), libkf5coreaddons-dev (>= 5.57.0~), libkf5crash-dev (>= 5.57.0~), libkf5dbusaddons-dev (>= 5.57.0~), libkf5declarative-dev (>= 5.57.0~), libkf5dnssd-dev (>= 5.57.0~), libkf5globalaccel-dev (>= 5.57.0~), libkf5guiaddons-dev (>= 5.57.0~), libkf5i18n-dev (>= 5.57.0~), libkf5iconthemes-dev (>= 5.57.0~), libkf5itemviews-dev (>= 5.57.0~), libkf5jobwidgets-dev (>= 5.57.0~), libkf5newstuff-dev (>= 5.57.0~), libkf5service-dev (>= 5.57.0~), libkf5textwidgets-dev (>= 5.57.0~), libkf5widgetsaddons-dev (>= 5.57.0~), libkf5xmlgui-dev (>= 5.57.0~), libopenal-dev, libqt5svg5-dev (>= 5.9.0~), libsndfile1-dev, pkg-kde-tools (>= 0.14), qtbase5-dev (>= 5.9.0~), qtdeclarative5-dev (>= 5.9.0~), xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 17826375f3faa0308c4a322860af3462 3683 libkdegames_20.12.1-1.dsc
+ 967372f8b3f3e8a35300802217840784 6390808 libkdegames_20.12.1.orig.tar.xz
+ 7fb59b232c399b1b9159005fc7c6b359 488 libkdegames_20.12.1.orig.tar.xz.asc
+ 479ce004647fed05318ac4f3037d3019 23068 libkdegames_20.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/libkdegames
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/libkdegames.git
+Checksums-Sha256:
+ bb51fcb51537145aa2ae46f4e4d4afeb2edcd100a68e87a885b435db75d1740e 3683 libkdegames_20.12.1-1.dsc
+ cf9e09a7248038b60d60a0b7db394963b9294a704fad32946e5eca8ed224c4ff 6390808 libkdegames_20.12.1.orig.tar.xz
+ 722474c1fa4a4a62b0cde3580a429028bd08c704033ee1bd63d5eb7c8a276f74 488 libkdegames_20.12.1.orig.tar.xz.asc
+ 6089778356d37c7d8cc87b4ee09a8fd9716e5b7a3cc50bb00582ea9be2ead06f 23068 libkdegames_20.12.1-1.debian.tar.xz
+Homepage: http://games.kde.org/
+Package-List: 
+ kdegames-card-data-kf5 deb games optional arch=all
+ libkf5kdegames-dev deb libdevel optional arch=any
+ libkf5kdegames7 deb libs optional arch=any
+ libkf5kdegamesprivate1 deb libs optional arch=any
+ qml-module-org-kde-games-core deb libs optional arch=any
+Directory: pool/main/libk/libkdegames
+Priority: source
+Section: misc

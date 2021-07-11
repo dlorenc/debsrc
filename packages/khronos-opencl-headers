@@ -1,0 +1,26 @@
+Package: khronos-opencl-headers
+Binary: opencl-c-headers, opencl-headers
+Version: 3.0~2020.12.18-1
+Maintainer: Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>
+Uploaders: Andreas Beckmann <anbe@debian.org>, Vincent Danjean <vdanjean@debian.org>
+Build-Depends: debhelper-compat (= 13), libgl1-mesa-dev, cmake
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 77fadb820d1aec8ffb758f671e6bf766 2271 khronos-opencl-headers_3.0~2020.12.18-1.dsc
+ ea0296fb79951f43082b742234f26c9a 59558 khronos-opencl-headers_3.0~2020.12.18.orig.tar.gz
+ 6a847f0b5ff6b441e6a0b8bb23b6b3c0 6172 khronos-opencl-headers_3.0~2020.12.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/opencl-team/khronos-opencl-headers
+Vcs-Git: https://salsa.debian.org/opencl-team/khronos-opencl-headers.git
+Checksums-Sha256:
+ 6e355d3ec83d12f0fb2a6b6c8ae182473153de3e9b0219d04286089e5ad63002 2271 khronos-opencl-headers_3.0~2020.12.18-1.dsc
+ 5dad6d436c0d7646ef62a39ef6cd1f3eba0a98fc9157808dfc1d808f3705ebc2 59558 khronos-opencl-headers_3.0~2020.12.18.orig.tar.gz
+ 8337368eaf7e5fde11f4e612d69c33c48c135aedb47c9dcd11693aca6ae5cd1b 6172 khronos-opencl-headers_3.0~2020.12.18-1.debian.tar.xz
+Homepage: https://www.khronos.org/registry/cl/
+Package-List: 
+ opencl-c-headers deb libdevel optional arch=all
+ opencl-headers deb libdevel optional arch=all
+Directory: pool/main/k/khronos-opencl-headers
+Priority: source
+Section: libdevel

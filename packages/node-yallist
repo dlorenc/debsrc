@@ -1,0 +1,26 @@
+Package: node-yallist
+Binary: node-yallist
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 12~), dh-buildinfo, node-tap <!nocheck>, nodejs, pkg-js-tools (>= 0.8.8)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fc9ba84ffc3c3fa5bcf3cf4929b59201 2063 node-yallist_4.0.0-1.dsc
+ 619110513dc458bf9463cf68a370c7fa 22636 node-yallist_4.0.0.orig.tar.gz
+ 8354f875945e21798abcd476561df120 2492 node-yallist_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-yallist
+Vcs-Git: https://salsa.debian.org/js-team/node-yallist.git
+Checksums-Sha256:
+ 0e75a864f614badb791a8f5d719ac36169b9c5cccb39a043e607f0e97d668cf8 2063 node-yallist_4.0.0-1.dsc
+ 677bf22005c7600f7b4453b8e4848f27e8e3245e686f47dc3607998a41b06dad 22636 node-yallist_4.0.0.orig.tar.gz
+ 558e5cf026240bbe68781c5bae1603bfe8701a890639929e838af8e37dcf59be 2492 node-yallist_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/isaacs/yallist#readme
+Package-List: 
+ node-yallist deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-yallist
+Priority: optional
+Section: javascript

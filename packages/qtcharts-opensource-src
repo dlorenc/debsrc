@@ -1,0 +1,31 @@
+Package: qtcharts-opensource-src
+Binary: libqt5charts5, libqt5charts5-dev, qml-module-qtcharts, qtcharts5-examples, qtcharts5-doc, qtcharts5-doc-html
+Version: 5.15.2-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Simon Quigley <tsimonq2@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Patrick Franz <patfra71@gmail.com>
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.17.14), pkg-kde-tools, qml-module-qtquick2 (>= 5.15.2~), qml-module-qttest (>= 5.15.2~), qtbase5-dev (>= 5.15.2+dfsg~), qtdeclarative5-dev (>= 5.15.2~), xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>, qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 14f0458e953cad3071c92e4b5a564650 2960 qtcharts-opensource-src_5.15.2-2.dsc
+ 396fe36ef2af15cee94c31e3f8d50975 4251992 qtcharts-opensource-src_5.15.2.orig.tar.xz
+ 3c584a99c6d87cedb25fecd05c64ad46 27380 qtcharts-opensource-src_5.15.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtcharts
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtcharts.git
+Checksums-Sha256:
+ c03bfc6bf4f53bbc99d8c9dcfcd1533ba05f0d76bb93ba234d2cb17c87777059 2960 qtcharts-opensource-src_5.15.2-2.dsc
+ e0750e4195bd8a8b9758ab4d98d437edbe273cd3d289dd6a8f325df6d13f3d11 4251992 qtcharts-opensource-src_5.15.2.orig.tar.xz
+ 0a854031e75c49f44d47b1e1abf272e2aed17c6061ba4e4e5fd6d969804b3700 27380 qtcharts-opensource-src_5.15.2-2.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtcharts-index.html
+Package-List: 
+ libqt5charts5 deb libs optional arch=any
+ libqt5charts5-dev deb libdevel optional arch=any
+ qml-module-qtcharts deb libs optional arch=any
+ qtcharts5-doc deb doc optional arch=all profile=!nodoc
+ qtcharts5-doc-html deb doc optional arch=all profile=!nodoc
+ qtcharts5-examples deb x11 optional arch=any
+Directory: pool/main/q/qtcharts-opensource-src
+Priority: optional
+Section: misc

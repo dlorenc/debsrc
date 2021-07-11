@@ -1,0 +1,26 @@
+Package: metamonger
+Binary: metamonger
+Version: 0.20210406-7
+Maintainer: Richard Hartmann <richih@debian.org>
+Build-Depends: debhelper-compat (= 13), libconfig-simple-perl, libfile-lchown-perl, libfile-util-perl, libhash-diff-perl, libhash-merge-simple-perl, libjson-perl, liblog-contextual-perl, liblog-log4perl-perl, libpadwalker-perl, libmodule-install-perl, libshell-command-perl, libtest-most-perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3dad6f7a2239aa7ab065e6792f4d34b8 2449 metamonger_0.20210406-7.dsc
+ 8ac3d076f2a0fbaa5555abd23ec741f0 10244 metamonger_0.20210406.orig.tar.xz
+ 26ecc360df4d6d225ead807ab76686f8 2688 metamonger_0.20210406-7.debian.tar.xz
+Vcs-Browser: https://github.com/RichiH/metamonger
+Vcs-Git: https://github.com/RichiH/metamonger.git
+Checksums-Sha256:
+ 6ac27f7947eadd7ed3a1a9357626394197f1a9b1beed491c1d0f80beda2193d9 2449 metamonger_0.20210406-7.dsc
+ a9fd2f56a567e7902eac4c6839f25a4d15cda14103c022136ce6ade14882c65a 10244 metamonger_0.20210406.orig.tar.xz
+ 4a37063700db33d2167faf9659150eeb7b1ea8d99794a8e5138e49405c6276b6 2688 metamonger_0.20210406-7.debian.tar.xz
+Homepage: https://github.com/RichiH/metamonger
+Package-List: 
+ metamonger deb misc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libconfig-simple-perl, libfile-lchown-perl, libfile-util-perl, libhash-diff-perl, libhash-merge-simple-perl, libjson-perl, liblog-contextual-perl, liblog-log4perl-perl, libmodule-install-perl, libpadwalker-perl, libshell-command-perl, libtest-most-perl, perl
+Directory: pool/main/m/metamonger
+Priority: optional
+Section: misc

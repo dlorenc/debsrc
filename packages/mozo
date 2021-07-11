@@ -1,0 +1,26 @@
+Package: mozo
+Binary: mozo
+Version: 1.24.0-1
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>, Stefano Karapetsas <stefano@karapetsas.com>, Vangelis Mouhtsis <vangelis@gnugr.org>, Martin Wimpress <code@flexion.org>,
+Build-Depends: cdbs (>= 0.4.41), debhelper (>= 10.3~), dh-python, mate-common (>= 1.18), python3 (>= 3.5)
+Build-Depends-Indep: gettext, intltool (>= 0.40.0), libmate-menu-dev (>= 1.22), python-gi-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 02cb1eef2ced62aac9b5ca69896d7321 2244 mozo_1.24.0-1.dsc
+ ffb1f2f26ae6b67a963fa4333810031a 95304 mozo_1.24.0.orig.tar.xz
+ f36648e243a312e7e3908ca1f67f24aa 4428 mozo_1.24.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-mate-team/mozo
+Vcs-Git: https://salsa.debian.org/debian-mate-team/mozo.git
+Checksums-Sha256:
+ 3607ae142288682db5190c47f5f28e4337a25c4b3f5a4315caa30122bca80d5f 2244 mozo_1.24.0-1.dsc
+ 0459a68cd242c8dc35bf2db44ebfb635424613dc984daf7b61867f951b6baa41 95304 mozo_1.24.0.orig.tar.xz
+ ded573dd6a7cddaa3bdc16d458b400fc8c53f4bae319739b198e5b7622efd463 4428 mozo_1.24.0-1.debian.tar.xz
+Homepage: http://www.mate-desktop.org/
+Package-List: 
+ mozo deb utils optional arch=all
+Directory: pool/main/m/mozo
+Priority: optional
+Section: misc

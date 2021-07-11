@@ -1,0 +1,28 @@
+Package: rust-users
+Binary: librust-users-dev, librust-users+default-dev, librust-users+log-dev
+Version: 0.10.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-log-0.4-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 73f16552af602539d85912436bd3b081 2368 rust-users_0.10.0-1.dsc
+ b96c3dea1a6967c6b225d4c84272ec87 16692 rust-users_0.10.0.orig.tar.gz
+ 8ce0d2c2fac6776d68ef7acc61f5ace0 2800 rust-users_0.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/users
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/users]
+Checksums-Sha256:
+ 2f46d57c5d95e81c5431cd7eda32ff8069b35fb413b0a4291a5631ee4134fe4b 2368 rust-users_0.10.0-1.dsc
+ 4021d8dae93eed5437ecc1a777057aff67458df217b14b65eaa2a60056d04877 16692 rust-users_0.10.0.orig.tar.gz
+ e18b19e9ec38bb0bd9d37382d6c58c9fe25cfc8f25cf0ebdd8dfa45b5e06efed 2800 rust-users_0.10.0-1.debian.tar.xz
+Package-List: 
+ librust-users+default-dev deb rust optional arch=any
+ librust-users+log-dev deb rust optional arch=any
+ librust-users-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-env-logger-0.7-dev
+Directory: pool/main/r/rust-users
+Priority: extra
+Section: misc

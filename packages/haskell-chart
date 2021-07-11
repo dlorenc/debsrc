@@ -1,0 +1,28 @@
+Package: haskell-chart
+Binary: libghc-chart-dev, libghc-chart-prof, libghc-chart-doc
+Version: 1.9.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Ilias Tsitsimpis <iliastsi@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-colour-dev (<< 2.4), libghc-colour-dev (>= 2.2.1), libghc-colour-prof, libghc-data-default-class-dev (<< 0.2), libghc-data-default-class-prof, libghc-lens-dev (>= 3.9), libghc-lens-dev (<< 4.19), libghc-lens-prof, libghc-old-locale-dev, libghc-old-locale-prof, libghc-operational-dev (<< 0.3), libghc-operational-dev (>= 0.2.2), libghc-operational-prof, libghc-vector-dev (>= 0.9), libghc-vector-dev (<< 0.13), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-colour-doc, libghc-data-default-class-doc, libghc-lens-doc, libghc-old-locale-doc, libghc-operational-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ e10742a4d74d7fbf643775d75a711d24 2885 haskell-chart_1.9.3-1.dsc
+ 14b2e7ac934bddbfc6a75e65b35812a0 60493 haskell-chart_1.9.3.orig.tar.gz
+ 8f93a5ad0f161e81aef1133d7c30f639 3500 haskell-chart_1.9.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-chart
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-chart]
+Checksums-Sha256:
+ 24917d0e2debdad52c62eb3736a0934aec0635b244142e34de75fb770bf788cb 2885 haskell-chart_1.9.3-1.dsc
+ 3e17f4ca0112399df627862bb50581f81ec3ebf54b618e3c690f10380b9ec95c 60493 haskell-chart_1.9.3.orig.tar.gz
+ 88a26bd463a62af34e10e42cb7cb3b11c6b0536d9b4c71557031b19833c4d913 3500 haskell-chart_1.9.3-1.debian.tar.xz
+Homepage: https://github.com/timbod7/haskell-chart/wiki
+Package-List: 
+ libghc-chart-dev deb haskell optional arch=any
+ libghc-chart-doc deb doc optional arch=all
+ libghc-chart-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-chart
+Priority: source
+Section: haskell

@@ -1,0 +1,26 @@
+Package: gap-laguna
+Binary: gap-laguna
+Version: 3.9.3+ds-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jerome Benoit <calculus@rezozer.net>
+Build-Depends: debhelper-compat (= 12), gap (>= 4r10p0), gap-gapdoc (>= 1.6.2), gap-io (>= 4.5.4), gap-smallgrp, texlive-latex-extra, texlive-fonts-recommended
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c90d459137204258d469fbd97743e76f 2847 gap-laguna_3.9.3+ds-2.dsc
+ 7517892d14b082a5be24e41c4c848986 51076 gap-laguna_3.9.3+ds.orig.tar.xz
+ 79d73e7db80895133bb9d4533ccfb873 4328 gap-laguna_3.9.3+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/gap-laguna
+Vcs-Git: https://salsa.debian.org/science-team/gap-laguna.git
+Checksums-Sha256:
+ 8de20784b0877fa2eddff3570c1c43124440f5a3247d6835ae0a4e6fe3a32101 2847 gap-laguna_3.9.3+ds-2.dsc
+ e7a61e60bccaad72ac6ad2d941bf2a470d22b7c54621ee0de274795fb3e8c8d6 51076 gap-laguna_3.9.3+ds.orig.tar.xz
+ 284074404d1322ac07189d5d753e8e465a01038f99f57e582477ec4037af62f6 4328 gap-laguna_3.9.3+ds-2.debian.tar.xz
+Homepage: https://www.gap-system.org/Packages/laguna.html
+Package-List: 
+ gap-laguna deb math optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/g/gap-laguna
+Priority: optional
+Section: misc

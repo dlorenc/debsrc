@@ -1,0 +1,28 @@
+Package: opennlp-maxent
+Binary: libopennlp-maxent-java
+Version: 3.0.0+ds-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: junit (>= 3.8.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5c619146479b86b133ff77f6b33444b4 2194 opennlp-maxent_3.0.0+ds-2.dsc
+ b7861e9783a5e6fa521bc7d9c3404398 67840 opennlp-maxent_3.0.0+ds.orig.tar.xz
+ 59e6088195e8419084ced6a0c57333ad 2512 opennlp-maxent_3.0.0+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/opennlp-maxent
+Vcs-Git: https://salsa.debian.org/science-team/opennlp-maxent.git
+Checksums-Sha256:
+ de59eab879fc5bb95d3cbd374e54e85b384eca1bad6f06f6606e89ab998b8523 2194 opennlp-maxent_3.0.0+ds-2.dsc
+ 054f13e0f3d4abdd0ac12a22ffb43efbd29f3d44dd784ee8c392ee1b1fd25eaa 67840 opennlp-maxent_3.0.0+ds.orig.tar.xz
+ 26343651c4f75bbe5df4a9e2e5352f53b98857a837b678ab66d288462d34914c 2512 opennlp-maxent_3.0.0+ds-2.debian.tar.xz
+Homepage: https://sourceforge.net/projects/maxent/
+Package-List: 
+ libopennlp-maxent-java deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: default-jdk
+Directory: pool/main/o/opennlp-maxent
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: haskell-monad-chronicle
+Binary: libghc-monad-chronicle-dev, libghc-monad-chronicle-prof, libghc-monad-chronicle-doc
+Version: 1.0.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-data-default-class-dev (>= 0.1.2.0), libghc-data-default-class-dev (<< 0.2), libghc-data-default-class-prof (>= 0.1.2.0), libghc-data-default-class-prof (<< 0.2), libghc-semigroupoids-dev (>= 5.3.2), libghc-semigroupoids-dev (<< 5.4), libghc-semigroupoids-prof (>= 5.3.2), libghc-semigroupoids-prof (<< 5.4), libghc-these-dev (>= 1), libghc-these-dev (<< 1.2), libghc-these-prof (>= 1), libghc-transformers-compat-dev (>= 0.6.5), libghc-transformers-compat-dev (<< 0.7), libghc-transformers-compat-prof (>= 0.6.5), libghc-transformers-compat-prof (<< 0.7)
+Build-Depends-Indep: ghc-doc, libghc-data-default-class-doc, libghc-semigroupoids-doc, libghc-these-doc, libghc-transformers-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bdf663710c3dce0940a64a263941a156 2919 haskell-monad-chronicle_1.0.0.1-2.dsc
+ 550250d1a0f9fa4cc4e15f355a62c2b3 5627 haskell-monad-chronicle_1.0.0.1.orig.tar.gz
+ 0bd910ebf05ad71342f683d230d3ff55 2236 haskell-monad-chronicle_1.0.0.1-2.debian.tar.xz
+Checksums-Sha256:
+ ff201b45b509fadabb84fec0f5c10e36818db72bc3ecc1811f054af6430730c1 2919 haskell-monad-chronicle_1.0.0.1-2.dsc
+ 6fd568d01e17e66c0f55d871bba24014b65974df402df772ef4d11ae8b4b3cdd 5627 haskell-monad-chronicle_1.0.0.1.orig.tar.gz
+ 413623879b9577201568d2024599d6f613f968896403906d7e1ac52209624ed9 2236 haskell-monad-chronicle_1.0.0.1-2.debian.tar.xz
+Homepage: https://github.com/isomorphism/these
+Package-List: 
+ libghc-monad-chronicle-dev deb haskell optional arch=any
+ libghc-monad-chronicle-doc deb doc optional arch=all
+ libghc-monad-chronicle-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-monad-chronicle
+Priority: extra
+Section: misc

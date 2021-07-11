@@ -1,0 +1,24 @@
+Package: gitlabracadabra
+Binary: gitlabracadabra
+Version: 1.2.0
+Maintainer: Mathieu Parent <sathieu@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-github, python3-gitlab (>= 1.6.0), python3-jsonschema (>= 2.6.0), python3-pygit2, python3-semantic-version, python3-setuptools, python3-vcr
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (native)
+Files:
+ 3de615ad51c777afe7d25df046154723 1924 gitlabracadabra_1.2.0.dsc
+ 3a629a4b02879f2f2f8bedd3eafc7946 729072 gitlabracadabra_1.2.0.tar.xz
+Vcs-Browser: https://gitlab.com/gitlabracadabra/gitlabracadabra
+Vcs-Git: https://gitlab.com/gitlabracadabra/gitlabracadabra.git
+Checksums-Sha256:
+ 348c08a0a3b32a72c78fd4382917710d4108840aec8f94f8fb2ed373be0d506c 1924 gitlabracadabra_1.2.0.dsc
+ e5536f924bb6b7aca3f4f67fe36a084849ad8660941005d1cab1eb66e21a2ca8 729072 gitlabracadabra_1.2.0.tar.xz
+Homepage: https://gitlab.com/gitlabracadabra/gitlabracadabra#readme
+Package-List: 
+ gitlabracadabra deb admin optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-vcr
+Directory: pool/main/g/gitlabracadabra
+Priority: extra
+Section: misc

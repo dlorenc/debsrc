@@ -1,0 +1,29 @@
+Package: galera-3
+Binary: galera-3, galera-arbitrator-3
+Version: 25.3.31-2
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Uploaders: Otto Kekäläinen <otto@debian.org>
+Build-Depends: check, debhelper-compat (= 12), libboost-dev (>= 1.41), libboost-program-options-dev (>= 1.41), libssl-dev, scons (>= 2)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 44f44460d50530d0c6c9d30f34bc425f 2374 galera-3_25.3.31-2.dsc
+ d53b77207a70c4ef2e6b2fccdcb31a66 3411955 galera-3_25.3.31.orig.tar.gz
+ 631c5999c2ef94f25162a666c48eb4d7 473 galera-3_25.3.31.orig.tar.gz.asc
+ 3b38c0a35b188be7d2a458e7f24f3fc4 17672 galera-3_25.3.31-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mariadb-team/galera-3
+Vcs-Git: https://salsa.debian.org/mariadb-team/galera-3.git
+Checksums-Sha256:
+ 9b9c9645c15e1d64175c0f9f5b48b02d1847c32afbd9929722c6744e26f00061 2374 galera-3_25.3.31-2.dsc
+ 41ccacecb84f6462c542079139c8b8d6e649f1591bc499e40b36985e7a0f237f 3411955 galera-3_25.3.31.orig.tar.gz
+ 6e08d7dfd53ff492da4ea5c2e51c5b4a29e66a46aadec9ee9877a4537d49bccb 473 galera-3_25.3.31.orig.tar.gz.asc
+ 14441942feee4f814aa5f9a68b856e39ce2c43aa4aa048631bd729cd0a73c1a7 17672 galera-3_25.3.31-2.debian.tar.xz
+Homepage: http://www.galeracluster.com/
+Package-List: 
+ galera-3 deb libs optional arch=any
+ galera-arbitrator-3 deb database optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/g/galera-3
+Priority: optional
+Section: misc

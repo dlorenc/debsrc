@@ -1,0 +1,27 @@
+Package: ruby-redis-rack
+Binary: ruby-redis-rack
+Version: 2.1.2-4
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, procps, ruby-minitest, ruby-mocha, ruby-rack (>= 2.1~), ruby-redis-store (>= 1.2~), ruby-connection-pool
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 33f23d89c9c05cc7097134b60cc65a27 2174 ruby-redis-rack_2.1.2-4.dsc
+ 4b693c7e2632588006a32ee69704d542 9864 ruby-redis-rack_2.1.2.orig.tar.gz
+ c0387cd2913d1e02d07be5765ebc716b 3564 ruby-redis-rack_2.1.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-redis-rack
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-redis-rack.git
+Checksums-Sha256:
+ 57c4edab9dd9c56884aebfceac6f2f69ccc48db891f2f0bf157fa2a27127bb25 2174 ruby-redis-rack_2.1.2-4.dsc
+ 8908a9aa8c9c3524afc097e38af2df062f447d22821558c5897482b778c7e1f9 9864 ruby-redis-rack_2.1.2.orig.tar.gz
+ 30d0c43a0fe5d1137be7f66ceb19b12ccda1c1abb1be50106b47231937eae156 3564 ruby-redis-rack_2.1.2-4.debian.tar.xz
+Homepage: https://github.com/redis-store/redis-rack
+Package-List: 
+ ruby-redis-rack deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-redis-rack
+Priority: optional
+Section: misc

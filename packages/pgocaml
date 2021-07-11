@@ -1,0 +1,26 @@
+Package: pgocaml
+Binary: libpgocaml-ocaml-dev, libpgocaml-ocaml
+Version: 2.3-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: debhelper (>= 9), quilt, dh-ocaml (>= 0.9), ocaml-nox (>= 4.02), ocamlbuild, camlp4 (>= 3.11), ocaml-findlib, libre-ocaml-dev, libcsv-ocaml-dev, libfindlib-ocaml-dev, libcalendar-ocaml-dev (>= 2)
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 2d019fed56896626f6c18d77bf06c60a 2162 pgocaml_2.3-1.dsc
+ 0f26e179c7c2ad32140ecb69a5f6c8a1 90383 pgocaml_2.3.orig.tar.gz
+ 8ffc36e7e5672b8ea5691cfbdc712868 4152 pgocaml_2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/pgocaml
+Vcs-Git: https://salsa.debian.org/ocaml-team/pgocaml.git
+Checksums-Sha256:
+ 53e0e385e0534f3ab46916a7cf0b58d14f018c43564637e4da2adb8e6323da25 2162 pgocaml_2.3-1.dsc
+ ef8ec253a752eb31e535d845440185b95c4de31db8c5c955e79638b669af9ea2 90383 pgocaml_2.3.orig.tar.gz
+ 7b51468cf124519f78ff389ab5020ba44635a56d7f54ee2551fde3b73b254188 4152 pgocaml_2.3-1.debian.tar.xz
+Homepage: http://pgocaml.forge.ocamlcore.org/
+Package-List: 
+ libpgocaml-ocaml deb ocaml optional arch=any
+ libpgocaml-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/p/pgocaml
+Priority: source
+Section: ocaml

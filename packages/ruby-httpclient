@@ -1,0 +1,27 @@
+Package: ruby-httpclient
+Binary: ruby-httpclient
+Version: 2.8.3-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Ryan Niebur <ryanryan52@gmail.com>, Gunnar Wolf <gwolf@debian.org>
+Build-Depends: debhelper (>= 12~), gem2deb, rake, ruby-http-cookie (>= 1.0), ruby-rack
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ c2786c58a21cc6b3911d5c2d4909efda 2135 ruby-httpclient_2.8.3-2.dsc
+ cb86fe8a2a0ee33b3891492b362c0822 389854 ruby-httpclient_2.8.3.orig.tar.gz
+ 1b5c10b50f715bf8ee9e7022aa9bc2bb 22196 ruby-httpclient_2.8.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-httpclient
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-httpclient.git
+Checksums-Sha256:
+ e06acfd05ba1113c4f1316235db03ff3e3a3533cf133c2169c5a4cc6d840b8c9 2135 ruby-httpclient_2.8.3-2.dsc
+ d3440bd1ccf3e34950f74feb4bd2729002d69d0b06cf21f3f3d6793051654c66 389854 ruby-httpclient_2.8.3.orig.tar.gz
+ 6796d6fa12397c64962e6920973f5eaccbca32a46ea782dda2760a6a46789aac 22196 ruby-httpclient_2.8.3-2.debian.tar.xz
+Homepage: https://github.com/nahi/httpclient
+Package-List: 
+ ruby-httpclient deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-httpclient
+Priority: source
+Section: ruby

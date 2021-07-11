@@ -1,0 +1,26 @@
+Package: node-multipipe
+Binary: node-multipipe
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-duplexer2 (>= 0.1.2) <!nocheck>, node-object-assign (>= 4.1.0) <!nocheck>, node-through2 <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a71d85f28d53f204247d44ca0963499e 2167 node-multipipe_4.0.0-1.dsc
+ 62f52786fd175d8f21211ec9ee9a7ae4 57999 node-multipipe_4.0.0.orig.tar.gz
+ 8577146426aea09ffe0340114b508b37 2912 node-multipipe_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-multipipe
+Vcs-Git: https://salsa.debian.org/js-team/node-multipipe.git
+Checksums-Sha256:
+ a2593b4546e1005d2376e34e5d2fd3e4ead41eaa05e84d0213ffc97b64fe5803 2167 node-multipipe_4.0.0-1.dsc
+ aa895c56677980a44e98a81ea3f9f4dab717f3794feb869523e0811be52946a9 57999 node-multipipe_4.0.0.orig.tar.gz
+ d2fcf77288b202d5768db116410d3d43e7a0f9546d2b93cebf5044ba74291280 2912 node-multipipe_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/juliangruber/multipipe
+Package-List: 
+ node-multipipe deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-multipipe
+Priority: optional
+Section: javascript

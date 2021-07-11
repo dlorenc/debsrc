@@ -1,0 +1,27 @@
+Package: python-biom-format
+Binary: python3-biom-format, python-biom-format-doc
+Version: 2.1.10-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, help2man, bash-completion, cython3, python3-all-dev, python3-click, python3-future, python3-h5py, python3-nose, python3-numpy, python3-pandas, python3-setuptools, python3-scipy, python3-sphinx, python3-matplotlib, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>
+Architecture: any-amd64 any-arm64 any-i386 any-mips64el any-ppc64el armel armhf mipsel all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 847bf6eb8ca74b5c684fe1ed34d45736 2600 python-biom-format_2.1.10-1.dsc
+ b64ee096fe5dcd8c6a942216347743f3 8532268 python-biom-format_2.1.10.orig.tar.xz
+ ad6f864791001f52bed071096d0bd3de 10440 python-biom-format_2.1.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-biom-format
+Vcs-Git: https://salsa.debian.org/med-team/python-biom-format.git
+Checksums-Sha256:
+ 5cd9687a92efd17a5f3693348d21d81eca9d85da00db70125462d791e665b4de 2600 python-biom-format_2.1.10-1.dsc
+ f7c33d43dc975292bef8bd36c1853fd6aa6bb3b9fe2fd208d71afd6c70d62e86 8532268 python-biom-format_2.1.10.orig.tar.xz
+ be7228e073d8a1e5510a537141f94aded067d66e5e3cb87ba95148c0d5258c3d 10440 python-biom-format_2.1.10-1.debian.tar.xz
+Homepage: https://biom-format.org/
+Package-List: 
+ python-biom-format-doc deb doc optional arch=all
+ python3-biom-format deb python optional arch=any-amd64,any-arm64,armel,armhf,any-i386,any-mips64el,mipsel,any-ppc64el
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/p/python-biom-format
+Priority: source
+Section: python

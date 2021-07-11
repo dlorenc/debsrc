@@ -1,0 +1,37 @@
+Package: postfix
+Binary: postfix, postfix-ldap, postfix-lmdb, postfix-cdb, postfix-pcre, postfix-mysql, postfix-pgsql, postfix-sqlite, postfix-doc
+Version: 3.5.6-1
+Maintainer: LaMont Jones <lamont@debian.org>
+Uploaders: Scott Kitterman <scott@kitterman.com>
+Build-Depends: debhelper-compat (= 12), po-debconf (>= 0.5.0), groff-base, patch, pkg-config, lsb-release, libdb-dev (>= 4.6.19), libldap2-dev (>= 2.1), liblmdb-dev, libpcre3-dev, default-libmysqlclient-dev | libmysqlclient-dev, libssl-dev (>= 1.0.2), libsasl2-dev, libpq-dev, libcdb-dev, dpkg-dev (>= 1.16.1~), libsqlite3-dev, html2text, libicu-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 35182f54337af1ae7733315ce72b04f3 2997 postfix_3.5.6-1.dsc
+ c5819f40ffbe22bc785a30905b1f1c7a 4613310 postfix_3.5.6.orig.tar.gz
+ 65c6d57f5be7da90b1ce85feda652d9c 220 postfix_3.5.6.orig.tar.gz.asc
+ 1739297a0214cb788b8603c901a6a10e 203916 postfix_3.5.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postfix-team/postfix-dev
+Vcs-Git: https://salsa.debian.org/postfix-team/postfix-dev.git
+Checksums-Sha256:
+ b0f979ed84c821e6ceaacba724a9364700199ae4f4e072ef365f363cb7d918aa 2997 postfix_3.5.6-1.dsc
+ 8ec0aa671582adce157675e15da1dfa7ac2b5ff653571addba643735d0ec1e6a 4613310 postfix_3.5.6.orig.tar.gz
+ 1d45ea65f35e59fd13792012fd8483eff1551d1ba8be780bc98e6abb9f9c8467 220 postfix_3.5.6.orig.tar.gz.asc
+ e8b176addbc235d7f9e89434b01513b1c1761358587280ff1eb98d1cd9b3b906 203916 postfix_3.5.6-1.debian.tar.xz
+Homepage: http://www.postfix.org
+Package-List: 
+ postfix deb mail optional arch=any
+ postfix-cdb deb mail optional arch=any
+ postfix-doc deb doc optional arch=all
+ postfix-ldap deb mail optional arch=any
+ postfix-lmdb deb mail optional arch=any
+ postfix-mysql deb mail optional arch=any
+ postfix-pcre deb mail optional arch=any
+ postfix-pgsql deb mail optional arch=any
+ postfix-sqlite deb mail optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libsasl2-modules, lsb-release, procmail, python3, python3-pexpect, sasl2-bin
+Directory: pool/main/p/postfix
+Priority: source
+Section: mail

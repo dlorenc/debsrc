@@ -1,0 +1,27 @@
+Package: rampler
+Binary: rampler
+Version: 2.0.0-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Pranav Ballaney <ballaneypranav@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, libbioparser-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f8e0cbcfc655e81afdb19574672d9567 2012 rampler_2.0.0-1.dsc
+ 8b316278ca4ad024359fc7839db7c967 5190 rampler_2.0.0.orig.tar.gz
+ 540ad04b7738d625853e817dfe1038a6 4420 rampler_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/rampler
+Vcs-Git: https://salsa.debian.org/med-team/rampler.git
+Checksums-Sha256:
+ 55e05ff4efd469ead9a3335dea115f202fa816f3e9142806a361d36b34f220f2 2012 rampler_2.0.0-1.dsc
+ 3a589b1ce1c2a0ac55a105cdd185b5698b4a5f6c9e015e59edee56fd64261eb8 5190 rampler_2.0.0.orig.tar.gz
+ e20aad2c4a12c0f7a3f1c85a0fb5476b2a39e3740bdd6265484554abb1eabf69 4420 rampler_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/rvaser/rampler
+Package-List: 
+ rampler deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dazzdb
+Directory: pool/main/r/rampler
+Priority: extra
+Section: misc

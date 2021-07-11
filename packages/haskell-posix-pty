@@ -1,0 +1,28 @@
+Package: haskell-posix-pty
+Binary: libghc-posix-pty-dev, libghc-posix-pty-prof, libghc-posix-pty-doc
+Version: 0.2.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b2b7407e9018350bc0d8be4093fdffb8 2353 haskell-posix-pty_0.2.2-1.dsc
+ e2f7d13be99fc681cb25098e49f584c2 7200 haskell-posix-pty_0.2.2.orig.tar.gz
+ ffc507c200186d1e2d6e1f7451285672 2712 haskell-posix-pty_0.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-posix-pty
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-posix-pty]
+Checksums-Sha256:
+ 4be65b4071c290fe33f42d4711121079df6e21ad19b7c556caeefd391b9a8954 2353 haskell-posix-pty_0.2.2-1.dsc
+ 9afb1dc6877fc03a6feedece7862901318b58cdbce9557b18f5514c1acdc97f3 7200 haskell-posix-pty_0.2.2.orig.tar.gz
+ 7b3a6c4ac77a8bdfa8fde6d7df4facd27a1253ecf251e6a8c84a520b880b0bc3 2712 haskell-posix-pty_0.2.2-1.debian.tar.xz
+Homepage: https://bitbucket.org/merijnv/posix-pty
+Package-List: 
+ libghc-posix-pty-dev deb haskell optional arch=any
+ libghc-posix-pty-doc deb doc optional arch=all
+ libghc-posix-pty-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-posix-pty
+Priority: optional
+Section: misc

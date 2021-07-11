@@ -1,0 +1,27 @@
+Package: rust-unicode-segmentation
+Binary: librust-unicode-segmentation-dev
+Version: 1.6.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 9d01b454cf49f37aada42d79ef845645 2347 rust-unicode-segmentation_1.6.0-1.dsc
+ f4c4adefa5c5303bea99f622785de3b4 90703 rust-unicode-segmentation_1.6.0.orig.tar.gz
+ 1d0f1094c4e08f2deb50ed9ef5984a14 2864 rust-unicode-segmentation_1.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unicode-segmentation
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-segmentation]
+Checksums-Sha256:
+ ad1b320287bf0daadd4b67021d9668d6152e98e06be8f4dd1d53ac08b9424f36 2347 rust-unicode-segmentation_1.6.0-1.dsc
+ e83e153d1053cbb5a118eeff7fd5be06ed99153f00dbcd8ae310c5fb2b22edc0 90703 rust-unicode-segmentation_1.6.0.orig.tar.gz
+ 6e4c2f1bd0f51a9b10e992d6f9de8e078cc673366cd05d69034c6f2538754308 2864 rust-unicode-segmentation_1.6.0-1.debian.tar.xz
+Homepage: https://github.com/unicode-rs/unicode-segmentation
+Package-List: 
+ librust-unicode-segmentation-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-quickcheck-0.7+default-dev
+Directory: pool/main/r/rust-unicode-segmentation
+Priority: extra
+Section: misc

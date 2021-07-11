@@ -1,0 +1,27 @@
+Package: clickhouse
+Binary: clickhouse-common, clickhouse-server, clickhouse-client, clickhouse-tools
+Version: 18.16.1+ds-7.2
+Maintainer: Alexander GQ Gerasiov <gq@debian.org>
+Build-Depends: cmake, curl <!nocheck>, debhelper (>= 10), default-libmysqlclient-dev | libmysqlclient-dev, gdb <!nocheck>, googletest, libboost-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-regex-dev, libboost-system-dev, libboost-thread-dev, libcapnp-dev [!ia64], libcctz-dev, libcpuinfo-dev [amd64 arm64], libdouble-conversion-dev, libfarmhash-dev, libglib2.0-dev, libgoogle-perftools-dev [!sparc64 !x32], libgsasl7-dev, libicu-dev, libjemalloc-dev, libltdl-dev, liblz4-dev, libpoco-dev, librdkafka-dev, libre2-dev, libreadline-dev, libsparsehash-dev, libssl-dev, libzstd-dev, llvm-dev, openssl <!nocheck>, python3-lxml <!nocheck>, python3-requests <!nocheck>, python3-termcolor <!nocheck>, unixodbc-dev, zlib1g-dev, libdivide-dev, libpcg-cpp-dev, libmetrohash-dev, tzdata
+Architecture: any-amd64 ia64 arm64 ppc64el ppc64 s390x mips64el sparc64 riscv64 hppa
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 09050967f07569981493fd06366cb396 3205 clickhouse_18.16.1+ds-7.2.dsc
+ 8b5b223b6bfc95eb9fc0aeefb9d0798b 2623524 clickhouse_18.16.1+ds.orig.tar.xz
+ 4d72fb1c635d79b90772ba87db5f7c2e 24744 clickhouse_18.16.1+ds-7.2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ClickHouse
+Vcs-Git: https://salsa.debian.org/debian/ClickHouse.git
+Checksums-Sha256:
+ 20f0de6ab45c93d5d7ccb94cd6ded00e162bcbc85f63e59e9aacc74238126f07 3205 clickhouse_18.16.1+ds-7.2.dsc
+ afb86101964995a4a3a5e66fbe0b3b64159c6ce1751419419301d55f57618136 2623524 clickhouse_18.16.1+ds.orig.tar.xz
+ 4e625cc50b6623e950f1d28012ac99ca0e5ab3ca6332bda3dfc89ae2db808c4f 24744 clickhouse_18.16.1+ds-7.2.debian.tar.xz
+Homepage: https://clickhouse.yandex/
+Package-List: 
+ clickhouse-client deb database optional arch=any-amd64,ia64,arm64,ppc64el,ppc64,s390x,mips64el,sparc64,riscv64,hppa
+ clickhouse-common deb database optional arch=any-amd64,ia64,arm64,ppc64el,ppc64,s390x,mips64el,sparc64,riscv64,hppa
+ clickhouse-server deb database optional arch=any-amd64,ia64,arm64,ppc64el,ppc64,s390x,mips64el,sparc64,riscv64,hppa
+ clickhouse-tools deb database optional arch=any-amd64,ia64,arm64,ppc64el,ppc64,s390x,mips64el,sparc64,riscv64,hppa
+Directory: pool/main/c/clickhouse
+Priority: extra
+Section: misc

@@ -1,0 +1,24 @@
+Package: libxv
+Binary: libxv1, libxv-dev
+Version: 2:1.0.11-1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: dpkg-dev (>= 1.16.1), debhelper (>= 10), libx11-dev (>= 1:0.99.2), libxext-dev (>= 1:0.99.1), x11proto-video-dev, pkg-config, quilt, xutils-dev (>= 1:7.5+4)
+Architecture: any
+Standards-Version: 3.9.8
+Format: 1.0
+Files:
+ 48337d882e6a150e13715ed1e64f5b60 1959 libxv_1.0.11-1.dsc
+ ee541b93dc23a31ebf8c12ccbb2d0fdd 387057 libxv_1.0.11.orig.tar.gz
+ 41eb8f55ec6e90aa8e5a038e80c3c44a 8235 libxv_1.0.11-1.diff.gz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/lib/libxv.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/lib/libxv.git
+Checksums-Sha256:
+ 7753e8d4496ec0d3f32417b03cfc8b344e2dff486e46f630158a6a52e4bd8542 1959 libxv_1.0.11-1.dsc
+ c4112532889b210e21cf05f46f0f2f8354ff7e1b58061e12d7a76c95c0d47bb1 387057 libxv_1.0.11.orig.tar.gz
+ 529ed2bcbccc9340c9c7987e8c5ed933a0fa41d6e4e67ef71ce3925ac83d93b6 8235 libxv_1.0.11-1.diff.gz
+Package-List: 
+ libxv-dev deb libdevel optional arch=any
+ libxv1 deb libs optional arch=any
+Directory: pool/main/libx/libxv
+Priority: source
+Section: x11

@@ -1,0 +1,28 @@
+Package: golang-github-tevino-abool
+Binary: golang-github-tevino-abool-dev
+Version: 0.0~git20170917.9b9efcf-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dawid Dziurla <dawidd0811@gmail.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7c6eb213e043375db6fa3508d716350f 2377 golang-github-tevino-abool_0.0~git20170917.9b9efcf-2.dsc
+ 13687395efc209fdeff3cf58b2b39e9c 2876 golang-github-tevino-abool_0.0~git20170917.9b9efcf.orig.tar.gz
+ dbdb8d1763b2d9b8b0c97bcda308435f 1916 golang-github-tevino-abool_0.0~git20170917.9b9efcf-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-tevino-abool
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-tevino-abool.git
+Checksums-Sha256:
+ 2f6c93191322ed4126b336bfa1b9062eb1b74e148368c083431f4e25a1f6ff64 2377 golang-github-tevino-abool_0.0~git20170917.9b9efcf-2.dsc
+ 6e84efb691e0e10550c3f1950f7a11ecadca51bf9cd9ba9f6dfae034ff2306b0 2876 golang-github-tevino-abool_0.0~git20170917.9b9efcf.orig.tar.gz
+ ba87a65e7d4b9645658208a708b4a226f10e78302aacc0111a65c6538cddd7cf 1916 golang-github-tevino-abool_0.0~git20170917.9b9efcf-2.debian.tar.xz
+Homepage: https://github.com/tevino/abool
+Go-Import-Path: github.com/tevino/abool
+Package-List: 
+ golang-github-tevino-abool-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-tevino-abool
+Priority: extra
+Section: golang

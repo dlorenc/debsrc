@@ -1,0 +1,25 @@
+Package: python-caldav
+Binary: python3-caldav
+Version: 0.6.2-1
+Maintainer: Martin Zobel-Helas <zobel@debian.org>
+Uploaders: Diane Trout <diane@ghic.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-coverage <!nocheck>, python3-lxml, python3-nose <!nocheck>, python3-requests, python3-setuptools, python3-tz <!nocheck>, python3-tzlocal <!nocheck>, python3-vobject
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 39caf5c3cfa5898868a8676c2ea444c2 2130 python-caldav_0.6.2-1.dsc
+ fe5cf035ae3fb5cd777ee2d120b8b555 58280 python-caldav_0.6.2.orig.tar.gz
+ 4d6c496f6652a883a813c8a48bb2b867 2296 python-caldav_0.6.2-1.debian.tar.xz
+Checksums-Sha256:
+ e19fb84ac5ed48a03f9ab270cef5b9e1aa161186b5cf66d2303b0cc00b56c26b 2130 python-caldav_0.6.2-1.dsc
+ 80c33b143539da3a471148ac89512f67d9df3a5286fae5a023e2ad3923246c0d 58280 python-caldav_0.6.2.orig.tar.gz
+ 9dd1d78b4928bdf29575291fb86bd146ec240026236cbbcce0ae06d2fcdf7a54 2296 python-caldav_0.6.2-1.debian.tar.xz
+Homepage: https://bitbucket.org/cyrilrbt/caldav/wiki/Home
+Package-List: 
+ python3-caldav deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-coverage, python3-nose, python3-tz, python3-tzlocal
+Directory: pool/main/p/python-caldav
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: libmodule-signature-perl
+Binary: libmodule-signature-perl
+Version: 0.87-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-install-perl
+Build-Depends-Indep: gnupg | gnupg2, libipc-run-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e9ee7d715c07227864ffcfd2b7d69832 2501 libmodule-signature-perl_0.87-1.dsc
+ a5196135116ef28e20cfa7d3737b939b 97211 libmodule-signature-perl_0.87.orig.tar.gz
+ fa9f6202a1b86cfde4da59a3518e4c8b 5636 libmodule-signature-perl_0.87-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmodule-signature-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmodule-signature-perl.git
+Checksums-Sha256:
+ 782e95e6c8f2f5c2ea7d78815681a198cbf80eb29d953765cfd22d111810699d 2501 libmodule-signature-perl_0.87-1.dsc
+ 214e8055c50fec371a95743520fe26940004e76169063b2b44ec90a0d45d6982 97211 libmodule-signature-perl_0.87.orig.tar.gz
+ 64d883f0d8396827d2e533149e3bf040c4f41619da54f0246c07b33042f6048a 5636 libmodule-signature-perl_0.87-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Module-Signature
+Dgit: 654264455d14b222656d5b76c47e4d9a43207093 debian archive/debian/0.87-1 https://git.dgit.debian.org/libmodule-signature-perl
+Package-List: 
+ libmodule-signature-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmodule-signature-perl
+Priority: source
+Section: perl

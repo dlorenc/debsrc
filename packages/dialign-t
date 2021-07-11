@@ -1,0 +1,27 @@
+Package: dialign-t
+Binary: dialign-tx, dialign-tx-data
+Version: 1.0.2-13
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 89d1292e094b22319d08bc42a5928815 2081 dialign-t_1.0.2-13.dsc
+ 8ccfb1d91136157324d1e513f184ca29 1765296 dialign-t_1.0.2.orig.tar.gz
+ f6c88f5ffd94a65b0e408b10b10f06ca 18716 dialign-t_1.0.2-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/dialign-t
+Vcs-Git: https://salsa.debian.org/med-team/dialign-t.git
+Checksums-Sha256:
+ 85e470e5cb721065249a6e523eb11557955131a77c13ea3dbe948e585d147b8b 2081 dialign-t_1.0.2-13.dsc
+ fb3940a48a12875332752a298f619f0da62593189cd257d28932463c7cebcb8f 1765296 dialign-t_1.0.2.orig.tar.gz
+ 9181953501ec429fb72212da26900cea64812b49a39fe2c46c11db5e8ba79093 18716 dialign-t_1.0.2-13.debian.tar.xz
+Homepage: https://dialign-tx.gobics.de/
+Package-List: 
+ dialign-tx deb science optional arch=any
+ dialign-tx-data deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/d/dialign-t
+Priority: source
+Section: science

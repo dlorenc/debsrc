@@ -1,0 +1,29 @@
+Package: sqlobject
+Binary: python3-sqlobject, python-sqlobject-doc, sqlobject-admin
+Version: 3.9.0+dfsg-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Neil Muller <drnlmuller+debian@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-formencode, python3-pydispatch, python3-setuptools, python3-sphinx, python3-pytest
+Architecture: all
+Standards-Version: 4.5.1.0
+Format: 3.0 (quilt)
+Files:
+ 10f6fea920156394c89a8f24e2809e80 2310 sqlobject_3.9.0+dfsg-1.dsc
+ ea6b446f4d0923ef32200bc668cff113 239472 sqlobject_3.9.0+dfsg.orig.tar.xz
+ 78e7a43ea81901a92efdd19c496ec6a2 15052 sqlobject_3.9.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/sqlobject
+Vcs-Git: https://salsa.debian.org/python-team/packages/sqlobject.git
+Checksums-Sha256:
+ eabaa2421cda66ad88da4712f5056e3d280b48de0fd1741244f79135b8e1659d 2310 sqlobject_3.9.0+dfsg-1.dsc
+ 3630e867fd123e61f8826acc66ff79f31918afb56896c7f271ea30a7fd580c18 239472 sqlobject_3.9.0+dfsg.orig.tar.xz
+ ce0c24f37154cf903d8f738cd3f1e8caa880824d0228edd749a0d8e0b2b7b812 15052 sqlobject_3.9.0+dfsg-1.debian.tar.xz
+Homepage: http://www.sqlobject.org
+Package-List: 
+ python-sqlobject-doc deb doc optional arch=all
+ python3-sqlobject deb python optional arch=all
+ sqlobject-admin deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-setuptools
+Directory: pool/main/s/sqlobject
+Priority: source
+Section: python

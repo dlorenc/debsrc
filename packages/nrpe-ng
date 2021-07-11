@@ -1,0 +1,25 @@
+Package: nrpe-ng
+Binary: nrpe-ng
+Version: 0.2.0-1
+Maintainer: Chris Boot <crb@tiger-computing.co.uk>
+Uploaders: Jonathan Wiltshire <jmw@tiger-computing.co.uk>
+Build-Depends: debhelper (>= 10), dh-python (>= 2.20160609~), python3-all (>= 3.4~), python3-coverage, python3-daemon (>= 2.0~), python3-nose, python3-requests, python3-setuptools, python3-tornado (>= 4.4~)
+Architecture: all
+Standards-Version: 4.0.1
+Format: 3.0 (quilt)
+Files:
+ be5a9da4d64a5d900ed9b65b611bcf0b 2193 nrpe-ng_0.2.0-1.dsc
+ d3e43e1ca08e702f0386ffdafb80ef5c 25729 nrpe-ng_0.2.0.orig.tar.gz
+ 12e4c0b3d7a45e98634c756b77cd3a37 4064 nrpe-ng_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/collab-maint/nrpe-ng.git
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/nrpe-ng.git
+Checksums-Sha256:
+ c36c8bec8e786b760db931832865d41c5b8b30e83aa00ac625f5dce44ec870e2 2193 nrpe-ng_0.2.0-1.dsc
+ 2940fde4dd13457476aa9e581c350c95bad41cd2635a33f402b00608636cc6e4 25729 nrpe-ng_0.2.0.orig.tar.gz
+ f9b5dfa6f38779ff3407c1ee455a42afaa16e732df88b674693d051ba0294d31 4064 nrpe-ng_0.2.0-1.debian.tar.xz
+Homepage: https://github.com/bootc/nrpe-ng
+Package-List: 
+ nrpe-ng deb net optional arch=all
+Directory: pool/main/n/nrpe-ng
+Priority: optional
+Section: misc

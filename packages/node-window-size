@@ -1,0 +1,26 @@
+Package: node-window-size
+Binary: window-size
+Version: 1.1.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-assert <!nocheck>, node-define-property <!nocheck>, node-is-number <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5510603d11e5c9f72008d864f3f844d3 2166 node-window-size_1.1.1-1.dsc
+ 3aee051f3389a5dfcc89deedfeae4d28 1150166 node-window-size_1.1.1.orig.tar.gz
+ 68e53c5bcc53c172a460b364b4213f15 3312 node-window-size_1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-window-size
+Vcs-Git: https://salsa.debian.org/js-team/node-window-size.git
+Checksums-Sha256:
+ 14def7367c8a80cf65ae63a475ff94312c9ded2f2df36f27fde863c40aabed43 2166 node-window-size_1.1.1-1.dsc
+ 1bee9d0f6a31e798f9ec0a282e787f0b6fac6e171a471415db4c3cd21897f6e7 1150166 node-window-size_1.1.1.orig.tar.gz
+ 5dd46aa8461da334bcc1f11800f3a323f93418c51bf4cbdd777e28cd15ea0bae 3312 node-window-size_1.1.1-1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/window-size
+Package-List: 
+ window-size deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-window-size
+Priority: optional
+Section: javascript

@@ -1,0 +1,27 @@
+Package: php-horde-controller
+Binary: php-horde-controller
+Version: 2.0.5-5
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 72a1797f5f428502deaf5c257f7432b3 2186 php-horde-controller_2.0.5-5.dsc
+ cf0fb5fd30fc30b54c0959643659f522 11127 php-horde-controller_2.0.5.orig.tar.gz
+ 06955c155a92a27eada57f37cd004926 4780 php-horde-controller_2.0.5-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-controller
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-controller.git
+Checksums-Sha256:
+ 1e14a9b4e27e2b0b6254d6e36337ca7b8278582ab7be89e7e8192a047bcef942 2186 php-horde-controller_2.0.5-5.dsc
+ b5e5e49dcf75d386bcb738afe8d122140c708d89f9db55347cbd799f4c7ee623 11127 php-horde-controller_2.0.5.orig.tar.gz
+ 59e13f5d48018d84fd242ec7baaf6b8df3f3bdfedf7f26e6479fa7b8aee63c32 4780 php-horde-controller_2.0.5-5.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-controller deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-controller
+Priority: extra
+Section: misc

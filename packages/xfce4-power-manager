@@ -1,0 +1,27 @@
+Package: xfce4-power-manager
+Binary: xfce4-power-manager, xfce4-power-manager-data, xfce4-power-manager-plugins
+Version: 4.16.0-1
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Build-Depends: debhelper-compat (= 12), intltool, libglib2.0-dev, libgtk-3-dev (>= 3.14), libnotify-dev, libpolkit-gobject-1-dev, libsystemd-dev [linux-any], libupower-glib-dev (>= 0.99), libx11-dev, libxext-dev, libxfce4panel-2.0-dev (>= 4.12), libxfce4ui-2-dev (>= 4.13), libxfconf-0-dev (>= 4.10.0), pkg-config, xfce4-dev-tools (>= 4.16)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 71649a95ae69ed62b2b05fe4bf362454 2190 xfce4-power-manager_4.16.0-1.dsc
+ 6fbf95dcfe2154be4ff252545c7c887b 1234968 xfce4-power-manager_4.16.0.orig.tar.bz2
+ 44cd6425e4f0eb987b7d56d660adbd10 7528 xfce4-power-manager_4.16.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xfce-team/desktop/xfce4-power-manager
+Vcs-Git: https://salsa.debian.org/xfce-team/desktop/xfce4-power-manager.git
+Checksums-Sha256:
+ 6b6b2ce3729c1a6c43074504908f9c00232df6211c750963695f91a5042ebd3c 2190 xfce4-power-manager_4.16.0-1.dsc
+ eb9c587c01b502fa45a32e7fc2aba98fa6d8391475133883654f77e562c43bf3 1234968 xfce4-power-manager_4.16.0.orig.tar.bz2
+ e57e3ebf67993515b09645df4141b3cb4bca7e72be38c73b4781b549f0586fa5 7528 xfce4-power-manager_4.16.0-1.debian.tar.xz
+Homepage: https://docs.xfce.org/xfce/xfce4-power-manager/start
+Package-List: 
+ xfce4-power-manager deb xfce optional arch=any
+ xfce4-power-manager-data deb xfce optional arch=all
+ xfce4-power-manager-plugins deb xfce optional arch=any
+Directory: pool/main/x/xfce4-power-manager
+Priority: source
+Section: xfce

@@ -1,0 +1,27 @@
+Package: ruby-net-scp
+Binary: ruby-net-scp
+Version: 3.0.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: David Suárez <david.sephirot@gmail.com>, Lucas Nussbaum <lucas@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-highline, ruby-mocha, ruby-net-ssh (>= 2.6.5), ruby-termios, ruby-test-unit
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ee645acb3ab72f9c6eb7eb85c52422d9 2161 ruby-net-scp_3.0.0-1.dsc
+ 1104328d4d5a3ea9a811fa34624248ce 27947 ruby-net-scp_3.0.0.orig.tar.gz
+ e2bd018b251f2334d66c288c9232cf49 4420 ruby-net-scp_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-net-scp
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-net-scp.git
+Checksums-Sha256:
+ ab94a4b26d905d219891504a83c562a1ad01817eba639900e689f6a478e34ed1 2161 ruby-net-scp_3.0.0-1.dsc
+ 1509b3cb807ee21e4439711f8468b67f24a2547da8800c3c70a35f84fd10d10b 27947 ruby-net-scp_3.0.0.orig.tar.gz
+ 7da50b14b4203f1ff662d6c2f06eacdfb90235af9f17fe9591e37977836bdee4 4420 ruby-net-scp_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/net-ssh/net-scp
+Package-List: 
+ ruby-net-scp deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-net-scp
+Priority: source
+Section: ruby

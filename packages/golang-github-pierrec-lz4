@@ -1,0 +1,27 @@
+Package: golang-github-pierrec-lz4
+Binary: golang-github-pierrec-lz4-dev
+Version: 2.5.2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-frankban-quicktest-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0b54751daf526fb418a08b2032881131 1656 golang-github-pierrec-lz4_2.5.2-1.dsc
+ 4ffeb013589d00cb923999ae0adc2abd 20509582 golang-github-pierrec-lz4_2.5.2.orig.tar.gz
+ 43a1b8695213815c8b9938bd95b26508 3672 golang-github-pierrec-lz4_2.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-pierrec-lz4
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-pierrec-lz4.git
+Checksums-Sha256:
+ 955b5df0fa1446e013808ad2f5fb2ce47ebcb040b1cc11c6859f1a8e8d329e8e 1656 golang-github-pierrec-lz4_2.5.2-1.dsc
+ bf5ad1ce74f264bad828cea8a546e5d2100a7ab67695bf7badcbe14c57ec4df4 20509582 golang-github-pierrec-lz4_2.5.2.orig.tar.gz
+ 75b007797edc8f1caa17fddb8927677164206a577ef0babe887927ff6158d482 3672 golang-github-pierrec-lz4_2.5.2-1.debian.tar.xz
+Homepage: https://github.com/pierrec/lz4
+Go-Import-Path: github.com/pierrec/lz4
+Package-List: 
+ golang-github-pierrec-lz4-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-pierrec-lz4
+Priority: extra
+Section: golang

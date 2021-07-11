@@ -1,0 +1,27 @@
+Package: ruby-gitlab-fog-azure-rm
+Binary: ruby-gitlab-fog-azure-rm
+Version: 1.0.0-4
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-azure-storage-blob (>= 2.0~), ruby-azure-storage-common (>= 2.0~), ruby-fog-core (>= 2.1~), ruby-fog-json (>= 1.2~), ruby-mime-types, ruby-ms-rest-azure (>= 0.12~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ab17c8a777f360c47253cab8cb6dcb1f 2342 ruby-gitlab-fog-azure-rm_1.0.0-4.dsc
+ 3c1977a2d5912b6c50c59892afd3daae 58272 ruby-gitlab-fog-azure-rm_1.0.0.orig.tar.gz
+ 192ed8fecff6ff759cc3745172427cb1 2760 ruby-gitlab-fog-azure-rm_1.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-gitlab-fog-azure-rm
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-gitlab-fog-azure-rm.git
+Checksums-Sha256:
+ 92705569840b397c8e725d52e5103f7790dbedca862e31fbc683d0971d219021 2342 ruby-gitlab-fog-azure-rm_1.0.0-4.dsc
+ aa8e8a16396da2ce868d3b85280219f5cc823d478e830ebf365272d19ebdd463 58272 ruby-gitlab-fog-azure-rm_1.0.0.orig.tar.gz
+ 533ed0b9738e966139248cbbf9b12e84533e50d73c1b40b7faafca346d77d1e4 2760 ruby-gitlab-fog-azure-rm_1.0.0-4.debian.tar.xz
+Homepage: https://gitlab.com/gitlab-org/gitlab-fog-azure-rm
+Package-List: 
+ ruby-gitlab-fog-azure-rm deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-gitlab-fog-azure-rm
+Priority: extra
+Section: misc

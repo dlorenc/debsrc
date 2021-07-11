@@ -1,0 +1,29 @@
+Package: libsmbios
+Binary: libsmbios-c2, libsmbios-dev, smbios-utils, python3-libsmbios, libsmbios-doc
+Version: 2.4.3-1
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Uploaders: tony mancill <tmancill@debian.org>, Mario Limonciello <mario.limonciello@dell.com>, Jose Luis Tallon <jltallon@adv-solutions.net>, Steve McIntyre <93sam@debian.org>
+Build-Depends: debhelper (>= 10), dh-python, doxygen, graphviz, python3, libxml2-dev, pkg-config, autoconf, automake, libtool, help2man, autopoint
+Architecture: i386 amd64 all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 60d42a6d7cf0956c86afdbea5eaf9bfa 2421 libsmbios_2.4.3-1.dsc
+ d27a0de66b04860e4e3e8d1bb338bf6a 644140 libsmbios_2.4.3.orig.tar.gz
+ 58cf3b609856ffdcf1275832a8980855 11028 libsmbios_2.4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/efi-team/libsmbios
+Vcs-Git: https://salsa.debian.org/efi-team/libsmbios.git
+Checksums-Sha256:
+ 1407ab1c13a6ca3fc5064e330dea8ae5fc93b4e4a8a9899cb41ba09f1e808067 2421 libsmbios_2.4.3-1.dsc
+ 36c36a0f6b59190d6b4fef11696886e4511091929a5eb7ae7cf5fea0c32d3f58 644140 libsmbios_2.4.3.orig.tar.gz
+ 4a5bb3214fbc48251bfea98bb099f25a14dbb9b49538659f1fe9ab88afaba931 11028 libsmbios_2.4.3-1.debian.tar.xz
+Homepage: https://github.com/dell/libsmbios/
+Package-List: 
+ libsmbios-c2 deb libs optional arch=i386,amd64
+ libsmbios-dev deb libdevel optional arch=i386,amd64
+ libsmbios-doc deb doc optional arch=all
+ python3-libsmbios deb python optional arch=all
+ smbios-utils deb admin optional arch=i386,amd64
+Directory: pool/main/libs/libsmbios
+Priority: source
+Section: libs

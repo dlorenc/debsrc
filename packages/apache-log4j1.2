@@ -1,0 +1,26 @@
+Package: apache-log4j1.2
+Binary: liblog4j1.2-java, liblog4j1.2-java-doc
+Version: 1.2.17-10
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Varun Hiremath <varun@debian.org>, Torsten Werner <twerner@debian.org>, Ludovic Claude <ludovic.claude@laposte.net>, Jakub Adam <jakub.adam@ktknet.cz>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, bnd (>= 2.1.0), debhelper-compat (= 13), default-jdk, default-jdk-doc, libmail-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ eb9687788473690c54b18cb472a6557b 2334 apache-log4j1.2_1.2.17-10.dsc
+ 9a5f6f7ee471525673a647d86f311e22 552081 apache-log4j1.2_1.2.17.orig.tar.gz
+ 2f6dd1abcf93aa0396f303c12e3c23f3 9848 apache-log4j1.2_1.2.17-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/apache-log4j1.2
+Vcs-Git: https://salsa.debian.org/java-team/apache-log4j1.2.git
+Checksums-Sha256:
+ 1faa7a94891c4d1349ce6cb73d49f1a7d8bd6c471b0f9093fd5df7f628af0f49 2334 apache-log4j1.2_1.2.17-10.dsc
+ f293c2b8cb5a68c43b8c83a41891d3ef667841c2abc4dcfb172292a49eb5336f 552081 apache-log4j1.2_1.2.17.orig.tar.gz
+ 38f03524b7115c26c3c90d6cb646b1705aef0db3537d3753f11fb37d93a6257c 9848 apache-log4j1.2_1.2.17-10.debian.tar.xz
+Homepage: http://logging.apache.org/log4j/1.2/
+Package-List: 
+ liblog4j1.2-java deb java optional arch=all
+ liblog4j1.2-java-doc deb doc optional arch=all
+Directory: pool/main/a/apache-log4j1.2
+Priority: source
+Section: java

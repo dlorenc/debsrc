@@ -1,0 +1,25 @@
+Package: chemical-structures
+Binary: chemical-structures, chemical-structures-data
+Version: 2.2.dfsg.0-18
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Build-Depends: debhelper (>= 11), python3, po-debconf, cmake, openbabel
+Build-Depends-Indep: xsltproc, docbook-xsl, docbook-xml
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 51e1175de59f94d14fc6a15ed59f9c5b 2160 chemical-structures_2.2.dfsg.0-18.dsc
+ 5cabfcdb2d7b4a5776b95c0b5fe51261 509255 chemical-structures_2.2.dfsg.0.orig.tar.gz
+ 7e7533a0c3f65bf746890ee9c9520a01 21496 chemical-structures_2.2.dfsg.0-18.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/chemical-structures
+Vcs-Git: https://salsa.debian.org/science-team/chemical-structures.git
+Checksums-Sha256:
+ bc098ba7bf7168335dd790078de0a0f2ce786b32d7759cbfd0cba15d5a7907a3 2160 chemical-structures_2.2.dfsg.0-18.dsc
+ 41e92b30086941533fd9188d4998627abfbfcd4a769927ec58ee0c8b63e7ed7b 509255 chemical-structures_2.2.dfsg.0.orig.tar.gz
+ 5380cef4c650d2827c9793111fe1165ea921e0beb4796aed1400fd580650ed6f 21496 chemical-structures_2.2.dfsg.0-18.debian.tar.xz
+Package-List: 
+ chemical-structures deb science optional arch=all
+ chemical-structures-data deb science optional arch=all
+Directory: pool/main/c/chemical-structures
+Priority: source
+Section: science

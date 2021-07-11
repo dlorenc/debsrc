@@ -1,0 +1,26 @@
+Package: libmmmulti
+Binary: libmmmulti-dev, mmmulti
+Version: 0.1-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), libargs-dev, libatomicbitvector-dev, libatomic-queue-dev, libsdsl-dev, libips4o-dev, libparyfor-dev, cmake
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 31ef09899420808aa61e790dd3ee0d90 2184 libmmmulti_0.1-2.dsc
+ 7d593e0e57f067129401a1d4d3c3b232 15212 libmmmulti_0.1.orig.tar.gz
+ 251cb01253facd269c31aa940a76b72f 6164 libmmmulti_0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libmmmulti
+Vcs-Git: https://salsa.debian.org/med-team/libmmmulti.git
+Checksums-Sha256:
+ a4cde19511cea418c5bde1e575e094a7ef0b7716dbda6143d105856787451939 2184 libmmmulti_0.1-2.dsc
+ acff00f6603c43c23d405db2d7b8a3b6b40ed9bf72d6bd9bcd80296156beeefa 15212 libmmmulti_0.1.orig.tar.gz
+ 45f9abf327e15b36633eba6f584933613494cfb0b2fcdd42d1d1d8706b0692fe 6164 libmmmulti_0.1-2.debian.tar.xz
+Homepage: https://github.com/ekg/mmmulti
+Package-List: 
+ libmmmulti-dev deb libdevel optional arch=all
+ mmmulti deb science optional arch=any
+Directory: pool/main/libm/libmmmulti
+Priority: extra
+Section: misc

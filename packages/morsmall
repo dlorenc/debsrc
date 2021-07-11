@@ -1,0 +1,28 @@
+Package: morsmall
+Binary: libmorsmall-ocaml-dev
+Version: 0.3.0-3
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-ocaml, ocaml-nox (>= 4.04.0), ocaml-dune, ocaml-findlib, libppx-deriving-ocaml-dev (>= 4.2.0), libmorbig-ocaml-dev (>= 0.10.0)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b36e6ae9dda45f4232f173f0f95c5099 1911 morsmall_0.3.0-3.dsc
+ 7363cb8daed4b56ffe7bbd419fd335a2 25616 morsmall_0.3.0.orig.tar.xz
+ a5eefbba46b3452b28e92c859f2fdf47 2628 morsmall_0.3.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/morsmall
+Vcs-Git: https://salsa.debian.org/ocaml-team/morsmall.git
+Checksums-Sha256:
+ eb0cbe6ecd7496c1d052d1fd044822ab58106ace8b8b27f4e588747e53fbe83f 1911 morsmall_0.3.0-3.dsc
+ 66bb9254a7f03dfaf58233859cb26b693aa7e173c736d02bdc01faef5a7a5dda 25616 morsmall_0.3.0.orig.tar.xz
+ 4da37d12f47f858480afd25e53b08d92ab69d24d50c8db142bfd8a4878a2e611 2628 morsmall_0.3.0-3.debian.tar.xz
+Homepage: https://github.com/colis-anr/morsmall
+Dgit: c25fccdfa8068b40d223358fa729369564d43469 debian archive/debian/0.3.0-3 https://git.dgit.debian.org/morsmall
+Package-List: 
+ libmorsmall-ocaml-dev deb ocaml optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ocaml-findlib, ocaml-nox, ocamlbuild
+Directory: pool/main/m/morsmall
+Priority: extra
+Section: misc

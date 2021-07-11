@@ -1,0 +1,27 @@
+Package: test-check-clojure
+Binary: libtest-check-clojure
+Version: 0.9.0-4
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Rob Browning <rlb@defaultvalue.org>
+Build-Depends: debhelper-compat (= 13), javahelper, leiningen, maven-repo-helper, libclojure-java, libcomplete-clojure, libnrepl-clojure, default-jdk
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4ccfe57a9342f179d06b53143ba964af 2233 test-check-clojure_0.9.0-4.dsc
+ ca7b866ec9ee79b352b3c19df8617e2a 39380 test-check-clojure_0.9.0.orig.tar.xz
+ d9c45824463bf2000165ba8e15a6b1e5 11296 test-check-clojure_0.9.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/test-check-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/test-check-clojure.git
+Checksums-Sha256:
+ f49c3f4687e57ad78c6aef5f9a793e60232a6d4045378427fb4f8c5eb8b7fc05 2233 test-check-clojure_0.9.0-4.dsc
+ a4e9356feef94e50035c12f9ff4366da063560fc9ff7f7acea630f8dc84e4662 39380 test-check-clojure_0.9.0.orig.tar.xz
+ 01c9ad88d5c2b41dbbe363b60cb85b4934e1f9f87d110d253acecafe5e92d5ed 11296 test-check-clojure_0.9.0-4.debian.tar.xz
+Homepage: https://github.com/clojure/test.check
+Package-List: 
+ libtest-check-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/t/test-check-clojure
+Priority: extra
+Section: misc

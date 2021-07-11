@@ -1,0 +1,26 @@
+Package: browserpass
+Binary: webext-browserpass
+Version: 3.7.2-1
+Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-go, golang-github-gokyle-twofactor-dev, golang-github-mattn-go-zglob-dev, golang-github-sahilm-fuzzy-dev, golang-github-sirupsen-logrus-dev, node-less
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ec68690cc84821454bb56c3990a2f057 2186 browserpass_3.7.2-1.dsc
+ f932ccd03567c98e185ec964ea8d317e 871312 browserpass_3.7.2.orig.tar.gz
+ e2dfca3af2a2495516e6fc33bf1d743e 329584 browserpass_3.7.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/webext-team/browserpass
+Vcs-Git: https://salsa.debian.org/webext-team/browserpass.git
+Checksums-Sha256:
+ e64cb48538598c0199976634c15bd4f8dc109c2c5d82d7309a57d679d992e5d5 2186 browserpass_3.7.2-1.dsc
+ b11f347f348eee8947fe13c3e36fb98d1c79c0de83e2679730ae82117ff9ea29 871312 browserpass_3.7.2.orig.tar.gz
+ f6e55f765e8b6b3ca33518924b41ee4d20c6364e94cc569f31042e9827dc2f45 329584 browserpass_3.7.2-1.debian.tar.xz
+Homepage: https://github.com/browserpass
+Go-Import-Path: github.com/browserpass
+Package-List: 
+ webext-browserpass deb web optional arch=any
+Directory: pool/main/b/browserpass
+Priority: extra
+Section: misc

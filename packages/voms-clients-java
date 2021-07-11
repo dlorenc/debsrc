@@ -1,0 +1,24 @@
+Package: voms-clients-java
+Binary: voms-clients-java
+Version: 3.3.2-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>> 10), maven-debian-helper (>= 2.2), libmaven-javadoc-plugin-java, junit4, libvoms-api-java-java (>= 3.3.2), libcommons-cli-java, libcommons-io-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f30072668252915eb228e2013e89c727 2064 voms-clients-java_3.3.2-1.dsc
+ ac5df9ad28b418e00e24be3a06fca8ca 49691 voms-clients-java_3.3.2.orig.tar.gz
+ 44db6b8b1aaad3cac1d42a235d44acfd 2852 voms-clients-java_3.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/voms-clients-java
+Vcs-Git: https://salsa.debian.org/ellert/voms-clients-java.git
+Checksums-Sha256:
+ 05b08f3cec3a2afd029a4f2c5b02e06e3cb70575cc8cb28b416dd88a68601d1e 2064 voms-clients-java_3.3.2-1.dsc
+ 5e878371262c28c941a2b07781f9e829d4c6e75179552773548c6285f360f10d 49691 voms-clients-java_3.3.2.orig.tar.gz
+ 5dc3277bcc995d40bac3c5a14aa6b3bd7d4ca1a28b2fe7ea754e62560c1da59e 2852 voms-clients-java_3.3.2-1.debian.tar.xz
+Homepage: https://wiki.italiangrid.it/VOMS
+Package-List: 
+ voms-clients-java deb java optional arch=all
+Directory: pool/main/v/voms-clients-java
+Priority: optional
+Section: misc

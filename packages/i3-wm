@@ -1,0 +1,28 @@
+Package: i3-wm
+Binary: i3, i3-wm
+Version: 4.19.1-1
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Uploaders: Jakob Haufe <sur5r@debian.org>
+Build-Depends: debhelper (>= 10), meson, libx11-dev, libxcb-util0-dev (>= 0.3.8), libxcb-keysyms1-dev, libxcb-xinerama0-dev (>= 1.1), libxcb-randr0-dev, libxcb-icccm4-dev, libxcb-cursor-dev, libxcb-xrm-dev, libxcb-xkb-dev, libxcb-shape0-dev, libxkbcommon-dev (>= 0.4.0), libxkbcommon-x11-dev (>= 0.4.0), asciidoc (>= 8.4.4), xmlto, docbook-xml, pkg-config, libev-dev (>= 1:4.04), libyajl-dev (>= 2.0.4), libpcre3-dev (>= 1:8.10), libstartup-notification0-dev (>= 0.10), libcairo2-dev (>= 1.14.4), libpango1.0-dev, libpod-simple-perl
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2c3ac74ed0070802d330d25622a51a05 2630 i3-wm_4.19.1-1.dsc
+ 9da20eac1a34a6cfe7c145ba24421b5c 1277648 i3-wm_4.19.1.orig.tar.xz
+ f9e5ca91bc4d052eb1b675c82e3cee9d 833 i3-wm_4.19.1.orig.tar.xz.asc
+ 5c7cf5079b8c14abbf5cc4e82099a7f1 15832 i3-wm_4.19.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/i3-team/i3-wm
+Vcs-Git: https://salsa.debian.org/i3-team/i3-wm.git
+Checksums-Sha256:
+ 39764afe4bd9b12a35d948002ebfdc69901d5c903525ef0748c07b9d411f11aa 2630 i3-wm_4.19.1-1.dsc
+ 2284c812fc689e0338d8fe9be0b8d1552e548fc168d165f795b26bf497c22b47 1277648 i3-wm_4.19.1.orig.tar.xz
+ b663b26eb54bb8ce96a438f67dceddaf44ddf0110baae159326663f5b35b8600 833 i3-wm_4.19.1.orig.tar.xz.asc
+ ec70a92e0e03ad7de753c481a4cb6471732f62bc71acd407c48936c8ccc6ed90 15832 i3-wm_4.19.1-1.debian.tar.xz
+Homepage: https://i3wm.org/
+Package-List: 
+ i3 deb x11 optional arch=any
+ i3-wm deb x11 optional arch=any
+Directory: pool/main/i/i3-wm
+Priority: source
+Section: x11

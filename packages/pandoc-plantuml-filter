@@ -1,0 +1,27 @@
+Package: pandoc-plantuml-filter
+Binary: pandoc-plantuml-filter
+Version: 0.1.1-2
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Hanno Stock <opensource@hanno-stock.de>
+Build-Depends: debhelper-compat (= 11), dh-python, docbook-xsl, python3-all, python3-setuptools, xsltproc
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ecb18c0432074c89474432b19bdaf170 2235 pandoc-plantuml-filter_0.1.1-2.dsc
+ 04631e9795652a3d63c61f0fefdfd8ec 2924 pandoc-plantuml-filter_0.1.1.orig.tar.gz
+ ff4c6bb52928bb787a70b56570be23e6 4108 pandoc-plantuml-filter_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/pandoc-plantuml-filter
+Vcs-Git: https://salsa.debian.org/python-team/applications/pandoc-plantuml-filter.git
+Checksums-Sha256:
+ 30fabfb898f2d71f5c8923dfcab77b7355228934ca11e2c0699439690b520583 2235 pandoc-plantuml-filter_0.1.1-2.dsc
+ f8880795ee6e290936bad4fcadf76163a00549ee16c5240d17ed4418411753c8 2924 pandoc-plantuml-filter_0.1.1.orig.tar.gz
+ f2f00c2dd6b3340002649b604270e6bacff4f80d665b17e6412c1768409f8fbc 4108 pandoc-plantuml-filter_0.1.1-2.debian.tar.xz
+Homepage: https://github.com/timofurrer/pandoc-plantuml-filter
+Package-List: 
+ pandoc-plantuml-filter deb misc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: pandoc
+Directory: pool/main/p/pandoc-plantuml-filter
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: qwtplot3d
+Binary: libqwtplot3d-qt5-dev, libqwtplot3d-qt5-0, libqwtplot3d-doc
+Version: 0.2.7+svn191+gcc7-3
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Gudjon I. Gudjonsson <gudjon@gudjon.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper (>= 10), doxygen, libglu1-mesa-dev | libglu-dev, libjs-jquery, pkg-kde-tools, zlib1g-dev, libqt5opengl5-desktop-dev
+Architecture: any all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 82f7d5b7a1e896a30799f8fdffa30546 2336 qwtplot3d_0.2.7+svn191+gcc7-3.dsc
+ 39aa52486a33d70590f494fa8362d967 146608 qwtplot3d_0.2.7+svn191+gcc7.orig.tar.xz
+ e38d467718fcba4572b48a1cc50b5e7a 11184 qwtplot3d_0.2.7+svn191+gcc7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/qwtplot3d
+Vcs-Git: https://salsa.debian.org/science-team/qwtplot3d.git
+Checksums-Sha256:
+ 91e8191808487e40e844fad693af43d2608afdbb0f9219024f58d2c2186d04ca 2336 qwtplot3d_0.2.7+svn191+gcc7-3.dsc
+ e5fd4759d739c1f7ed9ec1b642f07550d4be66703e9caf980d9ae183f93fac9e 146608 qwtplot3d_0.2.7+svn191+gcc7.orig.tar.xz
+ 4704e4f5e6af5cd7a53ad8f93b5582529ec32678bd0dba17077d3f8a0df0e6fb 11184 qwtplot3d_0.2.7+svn191+gcc7-3.debian.tar.xz
+Homepage: http://qwtplot3d.sourceforge.net
+Package-List: 
+ libqwtplot3d-doc deb doc optional arch=all
+ libqwtplot3d-qt5-0 deb libs optional arch=any
+ libqwtplot3d-qt5-dev deb libdevel optional arch=any
+Directory: pool/main/q/qwtplot3d
+Priority: source
+Section: libs

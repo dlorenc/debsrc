@@ -1,0 +1,32 @@
+Package: gprbuild
+Binary: libgnatprj8, libgnatprj8-dev, gprbuild, gprbuild-doc
+Version: 2021.0.0.0778b109-5
+Maintainer: Nicolas Boulenguez <nicolas@debian.org>
+Uploaders: Ludovic Brenta <lbrenta@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: dh-sequence-sphinxdoc, latexmk, python3-sphinx, texinfo, texlive-fonts-recommended, texlive-latex-extra
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ da6d20d7c549d498d0bdfe69b686d88d 2532 gprbuild_2021.0.0.0778b109-5.dsc
+ 3042c43945b36d46d40791f24d8f7452 928686 gprbuild_2021.0.0.0778b109.orig.tar.gz
+ 8f51b2c14e14220f48725e808c27ac3e 19892 gprbuild_2021.0.0.0778b109-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/gprbuild
+Vcs-Git: https://salsa.debian.org/debian/gprbuild.git
+Checksums-Sha256:
+ 8521a0cfe8a85638c5e0dab6a5f12c64e4200d0936ce738bbb1558d9ee4f3d45 2532 gprbuild_2021.0.0.0778b109-5.dsc
+ 9dcc69bf459d1d2b9af2a6f241fa33b2f05b93344ec629f84544fb334540eaed 928686 gprbuild_2021.0.0.0778b109.orig.tar.gz
+ 0908da499a5abd627e54c26083585a3acbee02c85b462e392c0b866a1c69aeff 19892 gprbuild_2021.0.0.0778b109-5.debian.tar.xz
+Homepage: https://github.com/AdaCore/gprbuild
+Build-Depends-Arch: gnat, gnat-10, libxmlada-dom10-dev (>= 21), libxmlada-input10-dev (>= 21), libxmlada-sax10-dev (>= 21), libxmlada-schema10-dev (>= 21)
+Package-List: 
+ gprbuild deb devel optional arch=any
+ gprbuild-doc deb doc optional arch=all
+ libgnatprj8 deb libs optional arch=any
+ libgnatprj8-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: binutils, g++, gcc, gfortran, gnat, make
+Directory: pool/main/g/gprbuild
+Priority: source
+Section: devel

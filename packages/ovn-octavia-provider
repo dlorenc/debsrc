@@ -1,0 +1,27 @@
+Package: ovn-octavia-provider
+Binary: python3-ovn-octavia-provider, python-ovn-octavia-provider-doc
+Version: 0.3.1-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 10), dh-python, openstack-pkg-tools (>= 109~), python3-all, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-coverage, python3-hacking, python3-keystoneauth1, python3-isort, python3-mock, python3-netaddr, python3-neutron (>= 2:15.0.0), python3-neutron-lib (>= 2.1.0), python3-neutronclient, python3-octavia-lib, python3-openstackdocstheme, python3-openvswitch, python3-oslo.config, python3-oslo.log, python3-oslo.messaging (>= 12.4.0), python3-oslo.serialization (>= 2.28.1), python3-oslo.utils, python3-oslotest, python3-ovsdbapp (>= 0.17.0), python3-pbr, python3-sphinxcontrib.svg2pdfconverter, python3-sqlalchemy (>= 1.2.19), python3-stestr, python3-tenacity (>= 5.0.2), python3-testresources, python3-testscenarios, python3-testtools, python3-webtest, subunit
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 91e93a4c4b38d044a705ac24d5a3e1e1 2954 ovn-octavia-provider_0.3.1-1.dsc
+ 08d4e34aa876777651e1622d0a32a076 73732 ovn-octavia-provider_0.3.1.orig.tar.xz
+ 79e3805023440a4cf89abdb397212515 2744 ovn-octavia-provider_0.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-ovn-octavia-provider
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-ovn-octavia-provider.git
+Checksums-Sha256:
+ e791f03c4169aeed920bc3ef45bb69b8ac0e198a52fa368ee8ccf698ca2fcf0f 2954 ovn-octavia-provider_0.3.1-1.dsc
+ 3393fe768dfdddf0091d96a38f4f4fbc6cca2692cfc4ed69e4bca472564f1faf 73732 ovn-octavia-provider_0.3.1.orig.tar.xz
+ bc3ce4046e277e2ee3ba173e9a6912dc8eb71aa676fa761d0837e534228db67e 2744 ovn-octavia-provider_0.3.1-1.debian.tar.xz
+Homepage: https://opendev.org/openstack/ovn-octavia-provider
+Package-List: 
+ python-ovn-octavia-provider-doc deb doc optional arch=all
+ python3-ovn-octavia-provider deb python optional arch=all
+Directory: pool/main/o/ovn-octavia-provider
+Priority: extra
+Section: misc

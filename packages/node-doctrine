@@ -1,0 +1,26 @@
+Package: node-doctrine
+Binary: node-doctrine
+Version: 3.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 12), node-esutils <!nocheck>, node-isarray <!nocheck>, node-should <!nocheck>, mocha <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 75dcc50a76e7e13a5caf391cf511d95e 2121 node-doctrine_3.0.0-2.dsc
+ b4ae17efba18fcb1da0a9abb062aa02f 36473 node-doctrine_3.0.0.orig.tar.gz
+ 53f68523d6c023a33378ce8c5a4e027e 3020 node-doctrine_3.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-doctrine
+Vcs-Git: https://salsa.debian.org/js-team/node-doctrine.git
+Checksums-Sha256:
+ eed4ff7e7e59d2b4d3eb074f57db4cb047e676ccce98f29727fb538cb5d6e338 2121 node-doctrine_3.0.0-2.dsc
+ 224355c8a2da5ff9ce0d8a80728892fdbe20585d98e9bd7181753fa0b1e14787 36473 node-doctrine_3.0.0.orig.tar.gz
+ 8cd341a990802efe6699068191f8edfd96bbba14ddbcb763a9c2003ac8c8f966 3020 node-doctrine_3.0.0-2.debian.tar.xz
+Homepage: https://github.com/eslint/doctrine
+Package-List: 
+ node-doctrine deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-doctrine
+Priority: optional
+Section: javascript

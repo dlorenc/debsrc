@@ -1,0 +1,28 @@
+Package: vagrant
+Binary: vagrant
+Version: 2.2.14+dfsg-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: bash-completion, debhelper-compat (= 12), curl, gem2deb (>= 1), rake, ruby, ruby-bcrypt-pbkdf (>= 1.0.0), ruby-childprocess (>= 4.0.0), ruby-ed25519 (>= 1.2.4), ruby-erubi, ruby-i18n (>= 1.8), ruby-listen (>= 3.1.5), ruby-log4r (>= 1.1.9), ruby-mime-types (>= 3.3), ruby-net-scp (>= 1.2.0), ruby-net-sftp (>= 3.0), ruby-net-ssh (>= 6.1.0), ruby-rspec, ruby-rspec-its, ruby-vagrant-cloud (>= 3.0), ruby-webmock, ruby-zip (>= 2.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 770cce6f0764ddad8571d19d052f0cea 2569 vagrant_2.2.14+dfsg-1.dsc
+ 429dd4fe67d01b117ed432f2647250f2 695812 vagrant_2.2.14+dfsg.orig.tar.xz
+ 78e5cfbc94beb466a98461979609577f 14584 vagrant_2.2.14+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/vagrant
+Vcs-Git: https://salsa.debian.org/ruby-team/vagrant.git
+Checksums-Sha256:
+ 58e58b61c29ab44e5bc182dfff81043c7773cde80aa24c2b39ec80411591dbc1 2569 vagrant_2.2.14+dfsg-1.dsc
+ 4d627b16abedb4dafb2a1115ec15c98d1231580c8e4f5342602df11437f84fea 695812 vagrant_2.2.14+dfsg.orig.tar.xz
+ 7e90a249479a977efb8551af21303d5dd8ae95b8b7037d009ed897461964afd2 14584 vagrant_2.2.14+dfsg-1.debian.tar.xz
+Homepage: https://www.vagrantup.com
+Package-List: 
+ vagrant deb admin optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Testsuite-Triggers: distro-info, libguestfs-tools, libvirt-daemon-system, nfs-kernel-server, qemu-utils, vagrant-libvirt
+Directory: pool/main/v/vagrant
+Priority: source
+Section: admin

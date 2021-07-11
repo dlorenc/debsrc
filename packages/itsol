@@ -1,0 +1,26 @@
+Package: itsol
+Binary: libitsol-dev, libitsol1
+Version: 1.0.0-3
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Belhachemi <domibel@debian.org>
+Build-Depends: debhelper (>= 11), dh-exec, gfortran, liblapack-dev, cmake
+Architecture: any
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 85350ed198441aca226b6e7c758a983a 2038 itsol_1.0.0-3.dsc
+ 9d9af9feb5a812c78266b9d3477347bf 450096 itsol_1.0.0.orig.tar.gz
+ be0b7fe078fe0c21456d1d863f815aa3 7608 itsol_1.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/itsol.git
+Vcs-Git: https://salsa.debian.org/science-team/itsol.git
+Checksums-Sha256:
+ 9d0490fd79761a57fe4a4814242d489e6384738a8d1b365d54f2bfb10ec435f2 2038 itsol_1.0.0-3.dsc
+ 6fe8e53d8209bd5bfd480a52f6cc77da4094b034de82d0ad548477e4cc9f4fbb 450096 itsol_1.0.0.orig.tar.gz
+ ef74b724c5615aa026e8cbd7102aa376779f648827bd52d7163c512567c3942a 7608 itsol_1.0.0-3.debian.tar.xz
+Homepage: http://www-users.cs.umn.edu/~saad/software/ITSOL/
+Package-List: 
+ libitsol-dev deb libdevel optional arch=any
+ libitsol1 deb libs optional arch=any
+Directory: pool/main/i/itsol
+Priority: source
+Section: libs

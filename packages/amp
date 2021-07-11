@@ -1,0 +1,25 @@
+Package: amp
+Binary: python3-amp
+Version: 0.6.1-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Muammar El Khatib <muammar@debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, gfortran, python3-all-dev, python3-ase (>= 3.9.0~), python3-matplotlib, python3-nose, python3-numpy, python3-scipy, python3-setuptools, python3-pexpect, python3-zmq, openssh-server
+Architecture: any
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 0b4146e6150dbd45b536a9869d7ed361 2095 amp_0.6.1-1.dsc
+ 8e5350ac9cc6d1857ade89d63cbbd825 3250424 amp_0.6.1.orig.tar.gz
+ 1edd42a5bafc1976ddb7852f741e2548 3428 amp_0.6.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/amp
+Vcs-Git: https://salsa.debian.org/science-team/amp.git
+Checksums-Sha256:
+ 409cac33af1b9eb4924d2d99d9e2263fd98e760019d578d9736d864480ae684c 2095 amp_0.6.1-1.dsc
+ 0111cda57c55caa21529c1fae53625e6c9a9653434e0be8d54d6d1a46042116f 3250424 amp_0.6.1.orig.tar.gz
+ a7a870c8f5a33d0d5158a80355a73716f5326bdbd17b56af876039106a34024e 3428 amp_0.6.1-1.debian.tar.xz
+Homepage: https://bitbucket.org/andrewpeterson/amp
+Package-List: 
+ python3-amp deb science optional arch=any
+Directory: pool/main/a/amp
+Priority: extra
+Section: misc

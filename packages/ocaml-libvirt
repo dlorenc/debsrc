@@ -1,0 +1,27 @@
+Package: ocaml-libvirt
+Binary: libvirt-ocaml, libvirt-ocaml-dev
+Version: 0.6.1.5-1
+Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
+Uploaders: Guido Guenther <agx@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), dh-autoreconf, pkg-config, dh-ocaml, libvirt-dev, ocaml-findlib, ocaml-nox
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ bcbc52dddf7058b8a29b18374a6ed4cc 1918 ocaml-libvirt_0.6.1.5-1.dsc
+ 4b5ec3b6eb93ca18e02433f04806f0ed 146401 ocaml-libvirt_0.6.1.5.orig.tar.gz
+ 73006f24aefee8242ac0673ff3200c44 4604 ocaml-libvirt_0.6.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-libvirt
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-libvirt.git
+Checksums-Sha256:
+ bc3b61e404bfbfbc3fc1ef3c27896b6694f0238584344a76782a7b3a7de515dc 1918 ocaml-libvirt_0.6.1.5-1.dsc
+ bd8e340288f9734ba3e66ba1ee385b915ad74c95bfb0ff912581f7474469b6a1 146401 ocaml-libvirt_0.6.1.5.orig.tar.gz
+ a825bd27376675c99ac35619f3fd853a8a2e0acf6cc4c9029ff05a52c67e0b7c 4604 ocaml-libvirt_0.6.1.5-1.debian.tar.xz
+Homepage: http://libvirt.org/ocaml/
+Dgit: aa3c2fd942403023fd8eab8c8e61f93a90a9e5f0 debian archive/debian/0.6.1.5-1 https://git.dgit.debian.org/ocaml-libvirt
+Package-List: 
+ libvirt-ocaml deb ocaml optional arch=any
+ libvirt-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-libvirt
+Priority: source
+Section: ocaml

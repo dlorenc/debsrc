@@ -1,0 +1,25 @@
+Package: jaxb-api
+Binary: libjaxb-api-java
+Version: 2.3.1-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Timo Aaltonen <tjaalton@ubuntu.com>
+Build-Depends: debhelper (>= 11), default-jdk, libactivation-java, libbuild-helper-maven-plugin-java, libmaven-antrun-plugin-java, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, maven-debian-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 902eb566fb589c384c6d0ca55c65b376 2136 jaxb-api_2.3.1-1.dsc
+ 113408224bf508ac5a6ad38ed202e84d 116816 jaxb-api_2.3.1.orig.tar.xz
+ ab2417771324e5505955d26c4b5acde6 8944 jaxb-api_2.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jaxb-api
+Vcs-Git: https://salsa.debian.org/java-team/jaxb-api.git
+Checksums-Sha256:
+ 78de9ce926fcea5f838dc87eb48cdd2cb93912b236ea04e580d0b084daed8140 2136 jaxb-api_2.3.1-1.dsc
+ bc86fec50bd50e1172fcf7863e57428bc765fe1a6e7215dd60cb4eb00456ab43 116816 jaxb-api_2.3.1.orig.tar.xz
+ 964812c9fba322f0edfcb75263f38973f203ba610c0be4f5ef997b4ab4b749d9 8944 jaxb-api_2.3.1-1.debian.tar.xz
+Homepage: https://github.com/javaee/jaxb-spec
+Package-List: 
+ libjaxb-api-java deb java optional arch=all
+Directory: pool/main/j/jaxb-api
+Priority: optional
+Section: misc

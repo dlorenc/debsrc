@@ -1,0 +1,25 @@
+Package: tclreadline
+Binary: tcl-tclreadline
+Version: 2.3.8-1
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Uploaders: Sergei Golovan <sgolovan@debian.org>
+Build-Depends: debhelper (>= 12.0.0), dpkg-dev (>= 1.16.1~), tcl-dev (>= 8.6.0+2), tk-dev (>= 8.6.0+2), libreadline-dev, automake, libtool
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 3aac33861dde972c8b0b7b2ba401c379 2059 tclreadline_2.3.8-1.dsc
+ f9ff7068272befa82d22637737735a8a 393167 tclreadline_2.3.8.orig.tar.gz
+ bb4f1ea94dbbeb66add3f15bf542fa49 5852 tclreadline_2.3.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tcltk-team/tclreadline
+Vcs-Git: https://salsa.debian.org/tcltk-team/tclreadline.git
+Checksums-Sha256:
+ 53796caa0fd6cbb3723573d40ea65aa79d6ed2e84a38383c1012fc4cf5c21395 2059 tclreadline_2.3.8-1.dsc
+ a64e0faed5957b8e1ac16f179948e21cdd6d3b8313590b7ab049a3192ab864fb 393167 tclreadline_2.3.8.orig.tar.gz
+ 65662ad40ef1600effecd70039bd745f50088d550eac9c1f75a019eeea905707 5852 tclreadline_2.3.8-1.debian.tar.xz
+Homepage: https://github.com/flightaware/tclreadline
+Package-List: 
+ tcl-tclreadline deb devel optional arch=any
+Directory: pool/main/t/tclreadline
+Priority: source
+Section: devel

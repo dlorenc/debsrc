@@ -1,0 +1,27 @@
+Package: libvm-ec2-perl
+Binary: libvm-ec2-perl
+Version: 1.28-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Olivier Sallou <osallou@debian.org>, Daniel Lintott <daniel@serverb.co.uk>
+Build-Depends: debhelper (>= 9), libmodule-build-perl, perl
+Build-Depends-Indep: libanyevent-cachedns-perl, libanyevent-http-perl (>= 2.15), libanyevent-perl (>= 7.040), libjson-perl, libstring-approx-perl, liburi-perl, libwww-perl, libxml-simple-perl, rename
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 7f153084f217f7e479255dd1c3a8305a 2409 libvm-ec2-perl_1.28-2.dsc
+ 09d2773a3480542bcd04cb84a1baf45e 360542 libvm-ec2-perl_1.28.orig.tar.gz
+ 4a4a17ad1bbf81ac84370f37fd1b1baf 10540 libvm-ec2-perl_1.28-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libvm-ec2-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libvm-ec2-perl.git
+Checksums-Sha256:
+ 5039852bbd8dd2286022a25ab6d77101a9884e2fdef7086fe223fc8706123256 2409 libvm-ec2-perl_1.28-2.dsc
+ b2b6b31745c57431fca0efb9b9d0b8f168d6081755e048fd9d6c4469bd108acd 360542 libvm-ec2-perl_1.28.orig.tar.gz
+ 9ca8209219d73f8a5cfed2239c3c2e365974aeafb5c5752b8d01c97a182d36f9 10540 libvm-ec2-perl_1.28-2.debian.tar.xz
+Homepage: https://metacpan.org/release/VM-EC2
+Package-List: 
+ libvm-ec2-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libv/libvm-ec2-perl
+Priority: source
+Section: misc

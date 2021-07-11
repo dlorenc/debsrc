@@ -1,0 +1,26 @@
+Package: bio-tradis
+Binary: bio-tradis
+Version: 1.4.5+dfsg2-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libbio-perl-perl, libenv-path-perl, libexception-class-perl, libmoose-perl, libtest-exception-perl, libtest-files-perl, libtest-most-perl, libtest-simple-perl, libtext-csv-perl, libtry-tiny-perl, perl, samtools, smalt, tabix, bwa
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9773a3174daa6a419c5dc6e3bfd8c6c5 2238 bio-tradis_1.4.5+dfsg2-1.dsc
+ c31ec74b7db82cd7bf39386caf70859f 7876340 bio-tradis_1.4.5+dfsg2.orig.tar.xz
+ e6f4dc91f849275edbca4da5646abe28 5980 bio-tradis_1.4.5+dfsg2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/bio-tradis
+Vcs-Git: https://salsa.debian.org/med-team/bio-tradis.git
+Checksums-Sha256:
+ f1fc0c7cb0c5000ee96ea9d9d6c7b1462653040a1a772f0de5d63bebaa144275 2238 bio-tradis_1.4.5+dfsg2-1.dsc
+ 2ae1058a077eb8753dea148079c82ac8335c1488886cfbf2a6fe534b7f7c076e 7876340 bio-tradis_1.4.5+dfsg2.orig.tar.xz
+ 371f023935eb0065e991444bcc1489b4291f3ec9193f23a93f43acebdc01de68 5980 bio-tradis_1.4.5+dfsg2-1.debian.tar.xz
+Homepage: https://github.com/sanger-pathogens/Bio-Tradis
+Package-List: 
+ bio-tradis deb perl optional arch=all
+Directory: pool/main/b/bio-tradis
+Priority: optional
+Section: misc

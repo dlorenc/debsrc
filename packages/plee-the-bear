@@ -1,0 +1,27 @@
+Package: plee-the-bear
+Binary: plee-the-bear, plee-the-bear-data, bear-factory
+Version: 0.6.0-7
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Julien Jorge <julien.jorge@gamned.org>, Barry deFreese <bdefreese@debian.org>, Gonéri Le Bouder <goneri@rulezlan.org>
+Build-Depends: debhelper-compat (= 13), docbook-to-man, cmake (>= 2.8), libsdl-mixer1.2-dev (>= 1.2.8), libboost-filesystem-dev (>= 1.45), libboost-regex-dev (>= 1.45), libboost-thread-dev (>= 1.45), mesa-common-dev (>= 6.5), libclaw-dev (>= 1.7.0), libclaw-graphic-dev (>= 1.7.0), libclaw-logger-dev (>= 1.7.0), libclaw-application-dev (>= 1.7.0), libclaw-dynamic-library-dev (>= 1.7.0), libclaw-configuration-file-dev (>= 1.7.0), libclaw-net-dev (>= 1.7.0), libclaw-tween-dev (>= 1.7.0), libwxgtk3.0-gtk3-dev, gettext (>= 0.17)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 30c42eb7ff45a10371887c8bbb0d9202 2828 plee-the-bear_0.6.0-7.dsc
+ 53ec3a0153be8684c007a5da4efcd929 118784725 plee-the-bear_0.6.0.orig.tar.gz
+ 01671eaa2a91a984623e7c4eaf355551 18000 plee-the-bear_0.6.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/plee-the-bear/
+Vcs-Git: https://salsa.debian.org/games-team/plee-the-bear.git
+Checksums-Sha256:
+ d469cdafac5086153ed3760443e3a6028b2f20e939adf7653c401dc543c2d149 2828 plee-the-bear_0.6.0-7.dsc
+ dc07a5362d33a327caed70b986096dd190ca30ac7259e4722f90f50f2066dae7 118784725 plee-the-bear_0.6.0.orig.tar.gz
+ ef5f9384f8c02658a9abd8bc24c0b63f668760d444600d11d2636f8c499b48dc 18000 plee-the-bear_0.6.0-7.debian.tar.xz
+Homepage: http://plee-the-bear.sourceforge.net/
+Package-List: 
+ bear-factory deb games optional arch=any
+ plee-the-bear deb games optional arch=any
+ plee-the-bear-data deb games optional arch=all
+Directory: pool/main/p/plee-the-bear
+Priority: source
+Section: games

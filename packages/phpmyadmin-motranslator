@@ -1,0 +1,27 @@
+Package: phpmyadmin-motranslator
+Binary: php-phpmyadmin-motranslator
+Version: 5.2.0-1
+Maintainer: phpMyAdmin Team <team+phpmyadmin@tracker.debian.org>
+Uploaders: Felipe Sateler <fsateler@debian.org>, William Desportes <williamdes@wdes.fr>
+Build-Depends: debhelper-compat (= 13), php-symfony-expression-language (>= 3.2), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7a505674c7e7c7b9059ecce258474326 1900 phpmyadmin-motranslator_5.2.0-1.dsc
+ 84667614a04642872bdf8370779e8ccc 577117 phpmyadmin-motranslator_5.2.0.orig.tar.gz
+ 5c1ee3c6104935ab7c4ad537cc66d8c6 3144 phpmyadmin-motranslator_5.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/phpmyadmin-team/motranslator
+Vcs-Git: https://salsa.debian.org/phpmyadmin-team/motranslator.git -b debian/latest
+Checksums-Sha256:
+ 6230586f8188ceb5ff504d93d887927d7aefd203789fe063f38628999003e63e 1900 phpmyadmin-motranslator_5.2.0-1.dsc
+ 7182bc1b186e106793edebb59eece8899026a71d553a9f361bc933729e05a564 577117 phpmyadmin-motranslator_5.2.0.orig.tar.gz
+ 1cb1032887041a26c5683c9f9950ecab3bd90493d45dfdcc60e80e3dc1d7b5ad 3144 phpmyadmin-motranslator_5.2.0-1.debian.tar.xz
+Homepage: https://github.com/phpmyadmin/motranslator
+Package-List: 
+ php-phpmyadmin-motranslator deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/p/phpmyadmin-motranslator
+Priority: extra
+Section: misc

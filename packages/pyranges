@@ -1,0 +1,26 @@
+Package: pyranges
+Binary: python3-pyranges
+Version: 0.0.85+ds-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-ncls <!nocheck>, python3-pyrle <!nocheck>, python3-pytest <!nocheck>, python3-sorted-nearest, python3-hypothesis, bedtools, samtools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 060d8501c0017625ebcf1159196e873f 2247 pyranges_0.0.85+ds-1.dsc
+ 07bbc9561c853e8316fb7de191455435 3281584 pyranges_0.0.85+ds.orig.tar.xz
+ 53ec08abfb235e56e5dd796af7a409a8 79860 pyranges_0.0.85+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pyranges
+Vcs-Git: https://salsa.debian.org/med-team/pyranges.git
+Checksums-Sha256:
+ 6d375fdd1b7df47b6b30322a4c7945f9a82d6e369d91745f9ae9882954c26adb 2247 pyranges_0.0.85+ds-1.dsc
+ 2c3229c4e15063a3092668f5c809c0837d24a93b1b9658168a981dcf1a1e2b39 3281584 pyranges_0.0.85+ds.orig.tar.xz
+ 54e8eb602a11fd73f305c82bc6369b9391cf5c6bb6318852a55ae994f05c99b3 79860 pyranges_0.0.85+ds-1.debian.tar.xz
+Homepage: https://github.com/biocore-ntnu/pyranges
+Package-List: 
+ python3-pyranges deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pyranges
+Priority: extra
+Section: misc

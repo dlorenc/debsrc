@@ -1,0 +1,34 @@
+Package: node-fined
+Binary: node-fined
+Version: 1.2.0+~cs4.5.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-expand-tilde <!nocheck>, node-expect.js <!nocheck>, node-for-own <!nocheck>, node-is-plain-object <!nocheck>, node-isobject <!nocheck>, node-parse-filepath <!nocheck>, node-vinyl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b5575310302fb2d337c245413011436b 3496 node-fined_1.2.0+~cs4.5.1-1.dsc
+ 74223fbcd73faf1d069ebbb19afce83f 4824 node-fined_1.2.0+~cs4.5.1.orig-array-each.tar.gz
+ 97ae984ec422d22a9d83a0e1091b54c3 4938 node-fined_1.2.0+~cs4.5.1.orig-array-slice.tar.gz
+ 838476ba1960f3e8b68fadaee1687f8d 5350 node-fined_1.2.0+~cs4.5.1.orig-objectdefaults.tar.gz
+ 2f924b00561729a9ca333eca11108de8 5031 node-fined_1.2.0+~cs4.5.1.orig-objectpick.tar.gz
+ 3e98ebbdb76afd79ad2acda63a77a66e 8275 node-fined_1.2.0+~cs4.5.1.orig.tar.gz
+ f6f82a990b9e02f5601ed5daebe9af3b 5076 node-fined_1.2.0+~cs4.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-fined
+Vcs-Git: https://salsa.debian.org/js-team/node-fined.git
+Checksums-Sha256:
+ d5ef4605750f0dac699ed2118a1984398750e408b7e1877e8e1c2ac25320fc7a 3496 node-fined_1.2.0+~cs4.5.1-1.dsc
+ 29a93d989ba6e5e28ab840400b6706fb6ae2bb8e23dd8ece0e9bcb9d1643d947 4824 node-fined_1.2.0+~cs4.5.1.orig-array-each.tar.gz
+ deddb4f7476007941588ad267e23f4218e50b424ad7061edc682192f9d50f3e9 4938 node-fined_1.2.0+~cs4.5.1.orig-array-slice.tar.gz
+ 0ed967fe079293a9bea02c5a6fe9b4f6c6214cc0e7ddd9da4ad75a218dad076e 5350 node-fined_1.2.0+~cs4.5.1.orig-objectdefaults.tar.gz
+ 7f8b780c2525f9d1351a892d97ce0cc8da463a6393732e5a42723eca300bdf1f 5031 node-fined_1.2.0+~cs4.5.1.orig-objectpick.tar.gz
+ 35862f47be9cce7122621a5bfbd7316541cd3595d26309e01d97de42e07c554d 8275 node-fined_1.2.0+~cs4.5.1.orig.tar.gz
+ a2c93cad965b82d1599d285794aee23b33e27845b42ab5fc5f95dfb2d1939872 5076 node-fined_1.2.0+~cs4.5.1-1.debian.tar.xz
+Homepage: https://github.com/js-cli/fined
+Package-List: 
+ node-fined deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-fined
+Priority: optional
+Section: javascript

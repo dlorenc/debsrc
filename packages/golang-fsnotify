@@ -1,0 +1,27 @@
+Package: golang-fsnotify
+Binary: golang-github-fsnotify-fsnotify-dev
+Version: 1.4.9-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Anthony Fok <foka@debian.org>, Martín Ferrari <tincho@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-golang-x-sys-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c4321ab2b4256c4042683b2081304039 1622 golang-fsnotify_1.4.9-2.dsc
+ 32c99527e52a13b5c1a3f988ae040fcd 31907 golang-fsnotify_1.4.9.orig.tar.gz
+ 5561e74405d154aefc3cd12f8dcdbb7b 3384 golang-fsnotify_1.4.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-fsnotify
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-fsnotify.git
+Checksums-Sha256:
+ 6c487f4f28fc5ac2f6297a27f2245e47f984c0e3e091f1c6979ddd17837f451f 1622 golang-fsnotify_1.4.9-2.dsc
+ 4207cbc46c7feb78d76bb218945e0c17aed7a97f8eb79e8fda4622d584612f8a 31907 golang-fsnotify_1.4.9.orig.tar.gz
+ fb5664083accef7c48318d2ca60fcd395c426bedca31aa0b1892a12595b18d7f 3384 golang-fsnotify_1.4.9-2.debian.tar.xz
+Homepage: https://fsnotify.org/
+Go-Import-Path: github.com/fsnotify/fsnotify
+Package-List: 
+ golang-github-fsnotify-fsnotify-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-fsnotify
+Priority: extra
+Section: golang

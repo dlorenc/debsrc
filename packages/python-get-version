@@ -1,0 +1,26 @@
+Package: python-get-version
+Binary: python3-get-version
+Version: 2.1-2
+Maintainer: Diane Trout <diane@ghic.org>
+Build-Depends: dh-python, python3-all, debhelper-compat (= 12), python3-setuptools, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-testpath <!nocheck>, python3-pygments <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e4a30124951a4258c72d945cd963cd46 2237 python-get-version_2.1-2.dsc
+ 1ac0b965517d2650fe9c7218bbce5b48 17382 python-get-version_2.1.orig.tar.gz
+ 2670b54e30376941f551e62aeb2ee99c 1888 python-get-version_2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-get-version
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-get-version.git
+Checksums-Sha256:
+ 3e405649393c34b03d3bf6b8cebd75db4a38d9a48c18802632e95929474cc3e5 2237 python-get-version_2.1-2.dsc
+ 8156b526c2557537b8ca82241fa2b82b3da25939627398f6567dee31ba9725bc 17382 python-get-version_2.1.orig.tar.gz
+ c74094ab9b9631e7cbac638ab67ad89e7a6ad2397023da61273620f9d417d9b4 1888 python-get-version_2.1-2.debian.tar.xz
+Homepage: https://github.com/flying-sheep/get_version
+Package-List: 
+ python3-get-version deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pygments, python3-pytest, python3-pytest-cov, python3-testpath
+Directory: pool/main/p/python-get-version
+Priority: extra
+Section: misc

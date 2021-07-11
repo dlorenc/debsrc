@@ -1,0 +1,27 @@
+Package: golang-github-renekroon-ttlcache
+Binary: golang-github-renekroon-ttlcache-dev
+Version: 2.3.0+ds-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 66978f58bfff5c891d49f21eac33028a 2341 golang-github-renekroon-ttlcache_2.3.0+ds-1.dsc
+ 10bc0408e879dedd0ceaac9a5e46fb29 15404 golang-github-renekroon-ttlcache_2.3.0+ds.orig.tar.xz
+ 33ccc2031a3c22998fb7c240bbb41aa3 2540 golang-github-renekroon-ttlcache_2.3.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-renekroon-ttlcache
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-renekroon-ttlcache.git
+Checksums-Sha256:
+ 14b4766b8e713bb3d0fbe341c5785514c93679b1f5f7477f867f525b96c4808c 2341 golang-github-renekroon-ttlcache_2.3.0+ds-1.dsc
+ f3ff0594d1ecd872eb7e4ef5d469c3f816e066b55a7e17507df64714afb4c814 15404 golang-github-renekroon-ttlcache_2.3.0+ds.orig.tar.xz
+ e321a417c2ea8f8b8d9c43252e881757d16fa27a923b8d71c4cd7d169258e574 2540 golang-github-renekroon-ttlcache_2.3.0+ds-1.debian.tar.xz
+Homepage: https://github.com/ReneKroon/ttlcache
+Go-Import-Path: github.com/ReneKroon/ttlcache
+Package-List: 
+ golang-github-renekroon-ttlcache-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-renekroon-ttlcache
+Priority: extra
+Section: golang

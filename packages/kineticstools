@@ -1,0 +1,29 @@
+Package: kineticstools
+Binary: kineticstools, kineticstools-data, python3-kineticstools
+Version: 0.6.1+git20200729.e3723e0+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-docutils, python3-pbcore, python3-pbcommand, python3-numpy, python3-h5py, python3-scipy, python3-uritools <!nocheck>, python3-pytest <!nocheck>, python3-pytest-runner <!nocheck>, python3-pytest-xdist <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0eecac7a1e0db125238e2f2b41f323fe 2715 kineticstools_0.6.1+git20200729.e3723e0+dfsg-1.dsc
+ 9a648d68f899fd589c0826b59d3d2ce3 21772560 kineticstools_0.6.1+git20200729.e3723e0+dfsg.orig.tar.xz
+ 1a7da211aef41b93ed4d76820680d0fa 10384 kineticstools_0.6.1+git20200729.e3723e0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/kineticstools
+Vcs-Git: https://salsa.debian.org/med-team/kineticstools.git
+Checksums-Sha256:
+ 2673c50a3028887f0b0bfe9d42244a409da9f5a39430abd6c9940018f3144da6 2715 kineticstools_0.6.1+git20200729.e3723e0+dfsg-1.dsc
+ 3d32b035c2cf12b4a2d6fe115d09ec3ab4bbf55154d3314b59a1d2042b770812 21772560 kineticstools_0.6.1+git20200729.e3723e0+dfsg.orig.tar.xz
+ 446c0495efdb9df4a2f0acb89062ccba58ec598f1886dc74f542844a13e7eacf 10384 kineticstools_0.6.1+git20200729.e3723e0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/PacificBiosciences/kineticsTools
+Package-List: 
+ kineticstools deb science optional arch=all
+ kineticstools-data deb science optional arch=all
+ python3-kineticstools deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: hdf5-tools, make, python3-cram, python3-nose
+Directory: pool/main/k/kineticstools
+Priority: optional
+Section: misc

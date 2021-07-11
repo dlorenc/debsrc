@@ -1,0 +1,29 @@
+Package: libkf5gravatar
+Binary: libkf5gravatar-data, libkf5gravatar-dev, libkf5gravatar5abi2
+Version: 4:20.08.3-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Sandro Knauß <hefee@debian.org>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), extra-cmake-modules (>= 5.71.0~), gettext, libkf5config-dev (>= 5.71.0~), libkf5i18n-dev (>= 5.71.0~), libkf5kio-dev (>= 5.71.0~), libkf5pimcommon-dev (>= 4:20.08.3~), libkf5textwidgets-dev (>= 5.71.0~), libkf5widgetsaddons-dev (>= 5.71.0~), pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.13.0~), xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 922cf2329d2450e20a76254d34f029e9 2803 libkf5gravatar_20.08.3-1.dsc
+ 61193e19680a70104a63a5e35118447c 33564 libkf5gravatar_20.08.3.orig.tar.xz
+ 085e626f8a8f05adb38f3cbb00e8529d 488 libkf5gravatar_20.08.3.orig.tar.xz.asc
+ ee1c0c83d2486eb3adfd139cb893bf20 8720 libkf5gravatar_20.08.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/libgravatar
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/libgravatar.git
+Checksums-Sha256:
+ 9712a1fde40abf61ae22af084eacf49204568046c59e26ae3336dcc043bf36c0 2803 libkf5gravatar_20.08.3-1.dsc
+ 190298a460bc1fcc386c58de7cb1b4437934e5061faef94026f8c8b0b2e8bb25 33564 libkf5gravatar_20.08.3.orig.tar.xz
+ 2b72b169c8a782003eb9998c92f897ec94fcc33baf6b8706939a0410abc7fed4 488 libkf5gravatar_20.08.3.orig.tar.xz.asc
+ cf238951fb513a30cdcd9ce945f7947b14f0aa81cd4b1fa8b57296a70a94206d 8720 libkf5gravatar_20.08.3-1.debian.tar.xz
+Homepage: https://invent.kde.org/pim/libgravatar
+Package-List: 
+ libkf5gravatar-data deb libs optional arch=all
+ libkf5gravatar-dev deb libdevel optional arch=any
+ libkf5gravatar5abi2 deb libs optional arch=any
+Directory: pool/main/libk/libkf5gravatar
+Priority: optional
+Section: misc

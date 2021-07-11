@@ -1,0 +1,28 @@
+Package: libpdf-api2-perl
+Binary: libpdf-api2-perl
+Version: 2.038-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Damyan Ivanov <dmn@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libfont-ttf-perl <!nocheck>, libimage-png-libpng-perl <!nocheck>, libpdf-api2-xs-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c3bf8976305f410fdc4e8a25f0171219 2540 libpdf-api2-perl_2.038-3.dsc
+ 2d6683d01b95f554ec5bb2e29f31ff03 3567202 libpdf-api2-perl_2.038.orig.tar.gz
+ b8ff8565951d6d4afba4aab639ab83c8 9020 libpdf-api2-perl_2.038-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpdf-api2-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpdf-api2-perl.git
+Checksums-Sha256:
+ 005bba5f9cc69e22042ded4744af9c60727f3a8b7f809207567f3777c2de9eeb 2540 libpdf-api2-perl_2.038-3.dsc
+ 7447c4749b02a784f525d3c7ece99d34b0a10475db65096f6316748dd2f9bd09 3567202 libpdf-api2-perl_2.038.orig.tar.gz
+ 443737da1f9d857461c54a91b58dfc67aa5ee9d18ac71f314746eb32601259c3 9020 libpdf-api2-perl_2.038-3.debian.tar.xz
+Homepage: http://pdfapi2.sourceforge.net/
+Dgit: e4010b22094c4fc065e830000d5c4d4d0bbf78f6 debian archive/debian/2.038-3 https://git.dgit.debian.org/libpdf-api2-perl
+Package-List: 
+ libpdf-api2-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libpdf-api2-perl
+Priority: source
+Section: perl

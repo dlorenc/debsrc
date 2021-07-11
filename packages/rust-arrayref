@@ -1,0 +1,24 @@
+Package: rust-arrayref
+Binary: librust-arrayref-dev
+Version: 0.3.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 36b97050c317c32aef5682a8c4abac03 2044 rust-arrayref_0.3.5-1.dsc
+ 3ac483de5b4c3bd00c6922295391ce70 7644 rust-arrayref_0.3.5.orig.tar.gz
+ 05c06b796b1dec806490443c1f2c7503 2408 rust-arrayref_0.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/arrayref
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/arrayref]
+Checksums-Sha256:
+ a5ad07730d7de73182074cbf0277d6f43dd287a8cf70b127cd1ba155fe3b171b 2044 rust-arrayref_0.3.5-1.dsc
+ 0d382e583f07208808f6b1249e60848879ba3543f57c32277bf52d69c2f0f0ee 7644 rust-arrayref_0.3.5.orig.tar.gz
+ 0d3e2ded60cc6602843eaec7c903cd56c4dbceef7fa5a4a57b309311757f2ef5 2408 rust-arrayref_0.3.5-1.debian.tar.xz
+Package-List: 
+ librust-arrayref-dev deb rust optional arch=any
+Directory: pool/main/r/rust-arrayref
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: networking-baremetal
+Binary: ironic-neutron-agent, python3-ironic-neutron-agent
+Version: 3.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-coverage, python3-hacking, python3-keystoneauth1 (>= 3.14.0), python3-mock, python3-neutron (>= 2:14.0.2), python3-neutron-lib (>= 1.28.0), python3-openstackdocstheme, python3-openstacksdk (>= 0.31.2), python3-oslo.config, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.service, python3-oslo.utils, python3-oslotest, python3-stestr, python3-sphinxcontrib.apidoc, python3-tenacity (>= 6.0.0), python3-testscenarios, python3-testtools, python3-tooz (>= 2.5.1), subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 87796a2f6d79ba348082c61d1e825415 2786 networking-baremetal_3.0.0-1.dsc
+ 3c964ab824e9e3517163fa1921c13a85 29748 networking-baremetal_3.0.0.orig.tar.xz
+ 664b15afe5d5bdfbc8bf2bfc6b82ef4e 3588 networking-baremetal_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/neutron-plugins/networking-baremetal
+Vcs-Git: https://salsa.debian.org/openstack-team/neutron-plugins/networking-baremetal.git
+Checksums-Sha256:
+ eb0c13fcc2f2e77750aec2b1c813894a98c74864911336e8e59577af5142d589 2786 networking-baremetal_3.0.0-1.dsc
+ 2df441534d79b03c702f94072542652fabfef833b7d3ad56c554d80b8511ad30 29748 networking-baremetal_3.0.0.orig.tar.xz
+ cf5d0a879dfd5feeea5b4563451d9859f529c8786fd40a1de23848bf7cff6b09 3588 networking-baremetal_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/networking-baremetal
+Package-List: 
+ ironic-neutron-agent deb python optional arch=all
+ python3-ironic-neutron-agent deb python optional arch=all
+Directory: pool/main/n/networking-baremetal
+Priority: extra
+Section: misc

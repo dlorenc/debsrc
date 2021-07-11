@@ -1,0 +1,26 @@
+Package: rust-serde-cbor
+Binary: librust-serde-cbor-dev
+Version: 0.11.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-half-1+default-dev (>= 1.2.0-~~) <!nocheck>, librust-serde-1+std-dev (>= 1.0.14-~~) <!nocheck>, librust-serde-1-dev (>= 1.0.14-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 558cc08cfd9d4e436b275ccee5805df8 2326 rust-serde-cbor_0.11.1-1.dsc
+ c09f1f396a2b77c61990888d8b1d6150 43947 rust-serde-cbor_0.11.1.orig.tar.gz
+ 1e41f6cd52f692b759c89a43cdd75081 2824 rust-serde-cbor_0.11.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-cbor
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-cbor]
+Checksums-Sha256:
+ 16ddfc3cf1d1940fe6503aeda59668d5f76765be44596abaae3db9166ccc4013 2326 rust-serde-cbor_0.11.1-1.dsc
+ 1e18acfa2f90e8b735b2836ab8d538de304cbb6729a7360729ea5a895d15a622 43947 rust-serde-cbor_0.11.1.orig.tar.gz
+ a722e67feba015146e1977470976252b3642c599d015dfe51c8dd1be01c6c7b8 2824 rust-serde-cbor_0.11.1-1.debian.tar.xz
+Package-List: 
+ librust-serde-cbor-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-derive-1-dev
+Directory: pool/main/r/rust-serde-cbor
+Priority: extra
+Section: misc

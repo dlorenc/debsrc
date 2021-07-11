@@ -1,0 +1,27 @@
+Package: ruby-rspec-puppet
+Binary: ruby-rspec-puppet
+Version: 2.8.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sebastien Badia <sbadia@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, puppet, ruby-rspec
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0b909d1d9465937234817aa5b168064f 2092 ruby-rspec-puppet_2.8.0-1.dsc
+ 3d3c3fcda7325a71541b3b5987d32b33 81620 ruby-rspec-puppet_2.8.0.orig.tar.xz
+ 02bdd075d2516a2832017d47e97b1a1b 4104 ruby-rspec-puppet_2.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rspec-puppet
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rspec-puppet.git
+Checksums-Sha256:
+ 014eea28bf78e2370a7ec3b0d367b3141fb4f4ed6665b1d802f64d6337139f25 2092 ruby-rspec-puppet_2.8.0-1.dsc
+ caeaa1287103c950ff6e49acf4819ce77a1fa8be654105556e3ca5e459c799c0 81620 ruby-rspec-puppet_2.8.0.orig.tar.xz
+ 929fd75c158a2eec1547347e432516331256c8d83e1858fb4c94d893f3516725 4104 ruby-rspec-puppet_2.8.0-1.debian.tar.xz
+Homepage: https://github.com/rodjek/rspec-puppet/
+Package-List: 
+ ruby-rspec-puppet deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-rspec-puppet
+Priority: optional
+Section: misc

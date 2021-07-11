@@ -1,0 +1,28 @@
+Package: libsys-hostip-perl
+Binary: libsys-hostip-perl
+Version: 2.120-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nick Morrott <knowledgejunkie@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libcapture-tiny-perl <!nocheck>, libtest-cpan-meta-perl <!nocheck>, libtest-pod-perl <!nocheck>, iproute2 <!nocheck> | net-tools <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 60c5a7b20a381fce931b2ff6db20424a 2509 libsys-hostip-perl_2.120-1.dsc
+ 1fe29e865a6d7e81bb24389e66fb49b0 21985 libsys-hostip-perl_2.120.orig.tar.gz
+ 88ed607063a837068703c38a411289d8 2868 libsys-hostip-perl_2.120-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsys-hostip-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsys-hostip-perl.git
+Checksums-Sha256:
+ 21a44ffde034773973eee0da1553bf6a97a91719fd8f9b126c62d737ae280a36 2509 libsys-hostip-perl_2.120-1.dsc
+ dff394faa704e6f5e834df0a92e8b22645c1d027108c57dbd4a8bb1d3ab9894d 21985 libsys-hostip-perl_2.120.orig.tar.gz
+ 3fc1963af724c3e0826331f9a94ba5a4da7448bfbd854b85a8a3c37f5d1f3ee9 2868 libsys-hostip-perl_2.120-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Sys-HostIP
+Dgit: a1ddca6f1802471e7c084d99e4ff9171549af65c debian archive/debian/2.120-1 https://git.dgit.debian.org/libsys-hostip-perl
+Package-List: 
+ libsys-hostip-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libs/libsys-hostip-perl
+Priority: optional
+Section: misc

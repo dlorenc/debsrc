@@ -1,0 +1,28 @@
+Package: haskell-uri-encode
+Binary: libghc-uri-encode-dev, libghc-uri-encode-prof, libghc-uri-encode-doc
+Version: 1.5.0.6-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-network-uri-dev (>= 2.6), libghc-network-uri-prof, libghc-utf8-string-dev (>= 0.3), libghc-utf8-string-dev (<< 1.1), libghc-utf8-string-prof
+Build-Depends-Indep: ghc-doc, libghc-network-uri-doc, libghc-utf8-string-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4044a35fa3e765605b086af01db11b6b 2594 haskell-uri-encode_1.5.0.6-1.dsc
+ 47d43e61f6c9ad2b4190590b50b06dcd 3485 haskell-uri-encode_1.5.0.6.orig.tar.gz
+ 84525165aa28bfd8dbaf763de0c61e64 2508 haskell-uri-encode_1.5.0.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-uri-encode
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-uri-encode]
+Checksums-Sha256:
+ ec6b025866e298a4cefe7444a4ea3226ddff2c03325513e490ec663511ae55b1 2594 haskell-uri-encode_1.5.0.6-1.dsc
+ 68af15dac559f7197024e55eead8221bde3fa4ab5fe7a3c3354203ca366ee4f0 3485 haskell-uri-encode_1.5.0.6.orig.tar.gz
+ 3cb7645050752ecbb3bfe62ea4773cb802a6705968bc8d53eb7ebdfbb845b200 2508 haskell-uri-encode_1.5.0.6-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/uri-encode
+Package-List: 
+ libghc-uri-encode-dev deb haskell optional arch=any
+ libghc-uri-encode-doc deb doc optional arch=all
+ libghc-uri-encode-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-uri-encode
+Priority: extra
+Section: misc

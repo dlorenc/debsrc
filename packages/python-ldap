@@ -1,0 +1,28 @@
+Package: python-ldap
+Binary: python3-ldap, python3-ldap-dbg, python3-pyldap
+Version: 3.2.0-4
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Willem van den Akker <wvdakker@wilsoft.nl>
+Build-Depends: debhelper-compat (= 12), libldap2-dev, libsasl2-dev, dh-python, python3-all-dev, python3-all-dbg, python3-setuptools, python3-pyasn1-modules
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fcec46433a673d6d733b4ec6c4b59310 2247 python-ldap_3.2.0-4.dsc
+ fe22522208dc9b06d16eb70f8553eaab 367645 python-ldap_3.2.0.orig.tar.gz
+ 5c2a8905fa4e13a3a43ff5569594446b 8128 python-ldap_3.2.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-ldap
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-ldap.git
+Checksums-Sha256:
+ 30680f0a1ee4234d0e3310eaf111508a37bfd363839f60250fb52bfa1977ad76 2247 python-ldap_3.2.0-4.dsc
+ 7d1c4b15375a533564aad3d3deade789221e450052b21ebb9720fb822eccdb8e 367645 python-ldap_3.2.0.orig.tar.gz
+ 692b78628383f9d78f2ba94492a71f4b3b9346279736cef0613de6354d6366bf 8128 python-ldap_3.2.0-4.debian.tar.xz
+Homepage: https://www.python-ldap.org
+Package-List: 
+ python3-ldap deb python optional arch=any
+ python3-ldap-dbg deb debug optional arch=any
+ python3-pyldap deb oldlibs optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-ldap
+Priority: source
+Section: python

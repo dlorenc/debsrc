@@ -1,0 +1,26 @@
+Package: node-vhost
+Binary: node-vhost
+Version: 3.0.2-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, mocha, node-should, node-supertest (>= 1.1.0), nodejs, pkg-js-tools (>= 0.8.8)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fd322829c686f6ee88343c3cddf55dd5 2059 node-vhost_3.0.2-4.dsc
+ 399c652d374d116147d239ed09329dd9 5497 node-vhost_3.0.2.orig.tar.gz
+ 600d781c0b4be95f233c240198ae089c 3616 node-vhost_3.0.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-vhost
+Vcs-Git: https://salsa.debian.org/js-team/node-vhost.git
+Checksums-Sha256:
+ d04e57488e76774403a9d64b990f87a1e23f1350f93ff71eb32f90f7ad77608f 2059 node-vhost_3.0.2-4.dsc
+ 0d8e089181103c68a7134a489531983e5b23d08096c60a2e2bb447f0c1846014 5497 node-vhost_3.0.2.orig.tar.gz
+ 4633130105f687dc75f35851a5f160eeb76b28652acc730a24ed2c13e8f46491 3616 node-vhost_3.0.2-4.debian.tar.xz
+Homepage: https://github.com/expressjs/vhost
+Package-List: 
+ node-vhost deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-vhost
+Priority: optional
+Section: javascript

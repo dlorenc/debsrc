@@ -1,0 +1,28 @@
+Package: haskell-minimorph
+Binary: libghc-minimorph-dev, libghc-minimorph-prof, libghc-minimorph-doc
+Version: 0.2.2.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Mikolaj Konarski <mikolaj.konarski@funktory.com>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-hunit-dev, libghc-test-framework-dev, libghc-test-framework-hunit-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ e9af160eab7dc3f997bbfce7166aca8e 2490 haskell-minimorph_0.2.2.0-1.dsc
+ e0ef813625bd8e08ca8d39d5ca479187 6709 haskell-minimorph_0.2.2.0.orig.tar.gz
+ cedcc70e22b35eac4df904110ea60602 2788 haskell-minimorph_0.2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-minimorph
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-minimorph]
+Checksums-Sha256:
+ 3104be08f7a7924a25e7d66c0eaf7da2af1963d732eb4ca2785b9681d0101f77 2490 haskell-minimorph_0.2.2.0-1.dsc
+ 4c38adb47db434b3e9d93dfd24f30722ddc9ce75088825d0ec76a38cc5a6b6ba 6709 haskell-minimorph_0.2.2.0.orig.tar.gz
+ 22278451daa2c821ae9328614ec7ceea25e72b1c67661da71337e03f8373fd8e 2788 haskell-minimorph_0.2.2.0-1.debian.tar.xz
+Homepage: https://github.com/Mikolaj/minimorph
+Package-List: 
+ libghc-minimorph-dev deb haskell optional arch=any
+ libghc-minimorph-doc deb doc optional arch=all
+ libghc-minimorph-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-minimorph
+Priority: optional
+Section: misc

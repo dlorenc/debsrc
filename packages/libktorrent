@@ -1,0 +1,27 @@
+Package: libktorrent
+Binary: libkf5torrent6abi1, libktorrent-dev, libktorrent-l10n
+Version: 2.2.0-3
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), pkg-kde-tools (>= 0.15.16), extra-cmake-modules (>= 1.0.0), qtbase5-dev, libkf5archive-dev (>= 5.15), libkf5crash-dev (>= 5.15), libkf5i18n-dev (>= 5.15), libkf5kio-dev (>= 5.15), libkf5solid-dev (>= 5.15), libqca-qt5-2-dev, libgmp-dev, libboost-dev, libgcrypt20-dev, pkg-config, gettext
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 11ce934dd1d2e3bf962bd8a3c4726dc6 2425 libktorrent_2.2.0-3.dsc
+ 5d3ba5142103cd0cf9e618a2ed12de66 357364 libktorrent_2.2.0.orig.tar.xz
+ 2614c47e78b6f9c64b6a6f109edc1174 27212 libktorrent_2.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/libktorrent
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/libktorrent.git
+Checksums-Sha256:
+ e453deb1806e63a532fe5f0e82bca30ea037e15ac9bdd5e350e02ccc8e9c9239 2425 libktorrent_2.2.0-3.dsc
+ 77c1ddfb0a56c40227e0624c078836a8c22bf5a2fb4a3c0cbd53ee6b174c126e 357364 libktorrent_2.2.0.orig.tar.xz
+ f878509c0cd8012e1c170148f938b22853b54e33f46a1586dd9846cead120a7a 27212 libktorrent_2.2.0-3.debian.tar.xz
+Homepage: https://www.kde.org/applications/internet/ktorrent/
+Package-List: 
+ libkf5torrent6abi1 deb libs optional arch=any
+ libktorrent-dev deb libdevel optional arch=any
+ libktorrent-l10n deb localization optional arch=all
+Directory: pool/main/libk/libktorrent
+Priority: source
+Section: libs

@@ -1,0 +1,27 @@
+Package: php-horde-kronolith
+Binary: php-horde-kronolith
+Version: 4.2.29-2
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, php-horde-role, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a6b1d618e7980c0ecfaff6c8ce942939 2217 php-horde-kronolith_4.2.29-2.dsc
+ 47dc93856d0799d4a4a06b3cccfb626f 2645641 php-horde-kronolith_4.2.29.orig.tar.gz
+ 94eebf6cc46b471a6e1eeaed0bc3a227 7068 php-horde-kronolith_4.2.29-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-kronolith
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-kronolith.git
+Checksums-Sha256:
+ 63af6d76c797621e3176b40bcaa6efab4500e96bd5ffc8f9500f05bd9236b97e 2217 php-horde-kronolith_4.2.29-2.dsc
+ b220e716e2b054cfff89c06df61fc41ce02b6913d5d30997a0d0f27f420b394a 2645641 php-horde-kronolith_4.2.29.orig.tar.gz
+ 20ba9be230d273e9515697a5f52b00d1e49f8d452b5327aeeda58add6b3c36d5 7068 php-horde-kronolith_4.2.29-2.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-kronolith deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test, php-sqlite3
+Directory: pool/main/p/php-horde-kronolith
+Priority: extra
+Section: misc

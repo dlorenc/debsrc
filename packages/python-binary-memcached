@@ -1,0 +1,26 @@
+Package: python-binary-memcached
+Binary: python3-binary-memcached
+Version: 0.30.0+dfsg1-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 99~), python3-all, python3-setuptools
+Build-Depends-Indep: memcached, python3-mock, python3-pytest, python3-six, python3-trustme, python3-uhashring
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f64fe56cef3e3b62d9eb50412a762a02 2336 python-binary-memcached_0.30.0+dfsg1-2.dsc
+ 39a0815562e0a96475db6a6921967c84 18120 python-binary-memcached_0.30.0+dfsg1.orig.tar.xz
+ 1a3fa183413ffe2ff526799f17fe45fe 2784 python-binary-memcached_0.30.0+dfsg1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-binary-memcached
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-binary-memcached.git
+Checksums-Sha256:
+ e03258baa698404b83eddc80d5723cbfcaff2e4bd359df1eba9df13eac7d8ca8 2336 python-binary-memcached_0.30.0+dfsg1-2.dsc
+ 5319c688c91b813f3e762fad4bd2cfc2bb4b0dfeb36508d0a505ee7a273c0328 18120 python-binary-memcached_0.30.0+dfsg1.orig.tar.xz
+ 93862d2fe238f15220bfbcdc592f1ac47ecc4d88c1b3df9bf76a2a0651369afe 2784 python-binary-memcached_0.30.0+dfsg1-2.debian.tar.xz
+Homepage: https://github.com/jaysonsantos/python-binary-memcached
+Package-List: 
+ python3-binary-memcached deb python optional arch=all
+Directory: pool/main/p/python-binary-memcached
+Priority: extra
+Section: misc

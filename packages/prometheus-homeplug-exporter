@@ -1,0 +1,27 @@
+Package: prometheus-homeplug-exporter
+Binary: prometheus-homeplug-exporter
+Version: 0.3.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Martina Ferrari <tina@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-mdlayher-ethernet-dev, golang-github-mdlayher-raw-dev, golang-github-prometheus-client-golang-dev (>= 0.9.0~pre1+git20180417), golang-github-prometheus-common-dev (>= 0+git20171117), golang-gopkg-alecthomas-kingpin.v2-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7f1377409f2bc21f42ad78f58d85d972 2479 prometheus-homeplug-exporter_0.3.0-2.dsc
+ 34e61b397914307b2beec64e4dcde72d 6410 prometheus-homeplug-exporter_0.3.0.orig.tar.gz
+ 845e882bfc04e4c2c83b0a6c903ea68d 7488 prometheus-homeplug-exporter_0.3.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/prometheus-homeplug-exporter
+Vcs-Git: https://salsa.debian.org/go-team/packages/prometheus-homeplug-exporter.git
+Checksums-Sha256:
+ 928bdd61b3b8cd5b654a407615c66006d95a4f09bbf09b3a59597ee71f6f5041 2479 prometheus-homeplug-exporter_0.3.0-2.dsc
+ fa47464bd978edb74a7374dfbc4a5e8112b49e6ae407b2ca8e6f6b60f82a34dd 6410 prometheus-homeplug-exporter_0.3.0.orig.tar.gz
+ 547d932ff4f072fcccda279041c1a3cabc5ca9c5dbddb9b6d0c5d5127de9aba1 7488 prometheus-homeplug-exporter_0.3.0-2.debian.tar.xz
+Homepage: https://github.com/brandond/homeplug_exporter
+Go-Import-Path: github.com/brandond/homeplug_exporter
+Package-List: 
+ prometheus-homeplug-exporter deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/p/prometheus-homeplug-exporter
+Priority: extra
+Section: misc

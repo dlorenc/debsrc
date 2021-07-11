@@ -1,0 +1,26 @@
+Package: apertium-eng-cat
+Binary: apertium-eng-cat, apertium-en-ca
+Version: 1.0.1-4
+Maintainer: Debian Science Team <debian-science-maintainers@alioth-lists.debian.net>
+Uploaders: Tino Didriksen <tino@didriksen.cc>, Kartik Mistry <kartik@debian.org>
+Build-Depends: apertium-anaphora, apertium-dev (>= 3.6.0), apertium-lex-tools, apertium-separable, cg3-dev, debhelper-compat (= 13), gawk, pkg-config, python3
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d9164a8587442fab358032e07f6064e2 2219 apertium-eng-cat_1.0.1-4.dsc
+ f9f537387f3b2d266e8d575911350720 2317567 apertium-eng-cat_1.0.1.orig.tar.bz2
+ 57b323b052cca2c90505e8186285ec7a 3932 apertium-eng-cat_1.0.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/apertium-eng-cat
+Vcs-Git: https://salsa.debian.org/science-team/apertium-eng-cat.git
+Checksums-Sha256:
+ 3881f4c93b1e4d7401d4079d4042965c508edadefc99f26752a292363a85af84 2219 apertium-eng-cat_1.0.1-4.dsc
+ fce36541bb2956dbcee4f0fdb2c9cbe657f99a5325181872ab78841f3df45407 2317567 apertium-eng-cat_1.0.1.orig.tar.bz2
+ fff5d79ae78b736d8f15f2d2fc58a85db90b3c90a23d94eedb9c3ecaa75b3f35 3932 apertium-eng-cat_1.0.1-4.debian.tar.xz
+Homepage: https://apertium.org/
+Package-List: 
+ apertium-en-ca deb oldlibs optional arch=all
+ apertium-eng-cat deb science optional arch=all
+Directory: pool/main/a/apertium-eng-cat
+Priority: extra
+Section: misc

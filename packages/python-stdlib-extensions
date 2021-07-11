@@ -1,0 +1,28 @@
+Package: python-stdlib-extensions
+Binary: python-tk, python-gdbm, python-tk-dbg, python-gdbm-dbg
+Version: 2.7.18-1
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper (>= 9), libpython-all-dev (>= 2.7.14-1~), python-all-dev:any (>= 2.7.14-1~), libpython-all-dbg, python-all-dbg:any, tk8.6-dev, blt-dev (>= 2.4z-9), libgdbm-dev
+Build-Conflicts: tcl8.4-dev, tcl8.5-dev, tk8.4-dev, tk8.5-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 14f89b1138a8cff1444e5e665527fd2c 2345 python-stdlib-extensions_2.7.18-1.dsc
+ 2aecdf5346121b46d8e9b565238638c9 40620 python-stdlib-extensions_2.7.18.orig.tar.xz
+ 1911c32561c7ffbade8bc3d01a30b7a1 8532 python-stdlib-extensions_2.7.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cpython-team/python-stdlib
+Vcs-Git: https://salsa.debian.org/cpython-team/python-stdlib.git
+Checksums-Sha256:
+ fd487861d7bdd4ecb365dfdf4d328f40a469bbf29587770ab43f909897ae6105 2345 python-stdlib-extensions_2.7.18-1.dsc
+ d0b539cbbb507f3f0c0f965ed1d323862b93a209ca93d37e16fce1857db5c139 40620 python-stdlib-extensions_2.7.18.orig.tar.xz
+ fb309a3d49f2ab7842f574746c58c32c95ae14772b570e19784070d0fb4839c9 8532 python-stdlib-extensions_2.7.18-1.debian.tar.xz
+Package-List: 
+ python-gdbm deb python optional arch=any
+ python-gdbm-dbg deb debug optional arch=any
+ python-tk deb python optional arch=any
+ python-tk-dbg deb debug optional arch=any
+Python-Version: 2.7
+Directory: pool/main/p/python-stdlib-extensions
+Priority: source
+Section: python

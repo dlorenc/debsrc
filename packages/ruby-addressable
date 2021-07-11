@@ -1,0 +1,27 @@
+Package: ruby-addressable
+Binary: ruby-addressable
+Version: 2.7.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Deepak Tripathi <deepak@debian.org>, Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-coveralls, ruby-rack-mount (>= 0.8.3-2~), ruby-rspec (>= 3.8~), ruby-rspec-its (>= 1.3~), ruby-public-suffix (>= 2.0.2~)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 4455905dddf39a0896b91eea5a7100ea 1909 ruby-addressable_2.7.0-1.dsc
+ ae3567e57c34fdc8077e06bcf897d051 104202 ruby-addressable_2.7.0.orig.tar.gz
+ b09185b7463b7186c3dfc0c71aed7e56 4300 ruby-addressable_2.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-addressable
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-addressable.git
+Checksums-Sha256:
+ 32136e8dfe87d322adaac26d3a87fd8e9be85278ea80c632a5f158d2a1ae458e 1909 ruby-addressable_2.7.0-1.dsc
+ 96403f001d03ac0228b4943fc01c26385b1d994fdaf1f677deb19b77e9f0e108 104202 ruby-addressable_2.7.0.orig.tar.gz
+ 1b709692b8286b074fa8d2b47bf66e422c7ae050bf266a4307571bff99799b12 4300 ruby-addressable_2.7.0-1.debian.tar.xz
+Homepage: https://github.com/sporkmonger/addressable
+Package-List: 
+ ruby-addressable deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-addressable
+Priority: source
+Section: ruby

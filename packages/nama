@@ -1,0 +1,28 @@
+Package: nama
+Binary: nama
+Version: 1.216-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-install-perl
+Build-Depends-Indep: libanyevent-perl <!nocheck>, libanyevent-termkey-perl <!nocheck>, libdata-dumper-concise-perl <!nocheck>, libdata-section-simple-perl <!nocheck>, libevent-perl <!nocheck>, libfile-copy-link-perl <!nocheck>, libfile-find-rule-perl <!nocheck>, libfile-homedir-perl <!nocheck>, libfile-slurp-perl <!nocheck>, libgit-repository-perl <!nocheck>, libgraph-perl <!nocheck>, libjson-xs-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, liblog-log4perl-perl <!nocheck>, libmodern-perl-perl <!nocheck>, libparse-recdescent-perl <!nocheck>, librole-tiny-perl <!nocheck>, libsuper-perl <!nocheck>, libterm-readline-gnu-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest2-suite-perl <!nocheck>, libtext-diff-perl <!nocheck>, libtext-format-perl <!nocheck>, libtext-template-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libyaml-tiny-perl <!nocheck>, perl, procps <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 642df693fe5c91e3b918cf8363e3407c 3117 nama_1.216-1.dsc
+ 10d893aee334fc682d28fe9de6bed1de 317422 nama_1.216.orig.tar.gz
+ 0ca725b11c91790798361a6d7d935eca 5324 nama_1.216-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/nama
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/nama.git
+Checksums-Sha256:
+ 73e17ecf5eba3923291dc534811055e5a4428f01096a7559bd885fc73f8cf582 3117 nama_1.216-1.dsc
+ f4b6497f4edc5dc7724f751e100cfa1e785f901b8aa4743308b23ed98c3198dd 317422 nama_1.216.orig.tar.gz
+ 7841387fe6774c3d1ce53ddb11d2aa8f244aacc2f11066a458be483ca20783cf 5324 nama_1.216-1.debian.tar.xz
+Homepage: https://freeshell.de/~bolangi/nama
+Dgit: 740b597af14e9504742f14deb263f4c836754ba8 debian archive/debian/1.216-1 https://git.dgit.debian.org/nama
+Package-List: 
+ nama deb sound optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/n/nama
+Priority: source
+Section: sound

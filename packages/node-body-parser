@@ -1,0 +1,26 @@
+Package: node-body-parser
+Binary: node-body-parser
+Version: 1.19.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs (>= 6), node-bytes (>= 3.0.0) <!nocheck>, node-content-type <!nocheck>, node-debug (>= 2.6.9) <!nocheck>, node-depd (>= 1.1.1) <!nocheck>, node-http-errors <!nocheck>, node-iconv (>= 2.3.0) <!nocheck>, node-on-finished <!nocheck>, node-qs <!nocheck>, node-raw-body <!nocheck>, node-type-is <!nocheck>, mocha (>= 4) <!nocheck>, node-supertest (>= 4.0.2) <!nocheck>, node-safe-buffer <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 21ffee4e366883091633e078c06b22cf 2490 node-body-parser_1.19.0-2.dsc
+ 27ae656c998bcf60b2fb6327fd70760b 21794 node-body-parser_1.19.0.orig.tar.gz
+ 784658e0e756aecc8fffddb1b772cea4 3708 node-body-parser_1.19.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-body-parser
+Vcs-Git: https://salsa.debian.org/js-team/node-body-parser.git
+Checksums-Sha256:
+ 18937da78128f8f5378798969ada59fa3be1cdb2f346828df1ef785c4935a7ab 2490 node-body-parser_1.19.0-2.dsc
+ 642a307bde07c7be849e0a0ef45ecd28c10066f8e5e431e6c4f3b9b36c1bd655 21794 node-body-parser_1.19.0.orig.tar.gz
+ aac6f9ca49c047aaa0fbc3dc8b64cf49dd943dd5365af0c20a8e3228dc15f678 3708 node-body-parser_1.19.0-2.debian.tar.xz
+Homepage: https://github.com/expressjs/body-parser
+Package-List: 
+ node-body-parser deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-body-parser
+Priority: optional
+Section: javascript

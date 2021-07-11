@@ -1,0 +1,27 @@
+Package: ruby-browser
+Binary: ruby-browser
+Version: 4.2.0-3
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-minitest-utils, ruby-railties, ruby-rspec, ruby-simplecov
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c908d708c5d623f127f17d48d47a766c 2130 ruby-browser_4.2.0-3.dsc
+ a8b0dc33d65dfbd099404575d1319202 48890 ruby-browser_4.2.0.orig.tar.gz
+ 8e3a1c85e7b587e8775e3e82af7c94f7 3420 ruby-browser_4.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-browser
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-browser.git
+Checksums-Sha256:
+ f2ef40875e4b55221fb0949357086185b20eed24719853a48bb827127a353a69 2130 ruby-browser_4.2.0-3.dsc
+ 6be58d5db5866af0056cf93a7f2166cd1e312efd54fca540f860094a66dbf5b0 48890 ruby-browser_4.2.0.orig.tar.gz
+ edd888a948fe30ebb518c08e75fa88793fef51eb3fdde665496875f553f4c3bb 3420 ruby-browser_4.2.0-3.debian.tar.xz
+Homepage: http://github.com/fnando/browser
+Package-List: 
+ ruby-browser deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-browser
+Priority: optional
+Section: misc

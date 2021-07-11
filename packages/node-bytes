@@ -1,0 +1,26 @@
+Package: node-bytes
+Binary: node-bytes
+Version: 3.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), mocha, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9a07556cedf508198e8bd4bd616f6094 2005 node-bytes_3.1.0-1.dsc
+ 815d23faf089b4e23cffe462ad6d611f 6883 node-bytes_3.1.0.orig.tar.gz
+ e7f4dcdc96faf1cee6ff6f5af511adc6 2984 node-bytes_3.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-bytes
+Vcs-Git: https://salsa.debian.org/js-team/node-bytes.git
+Checksums-Sha256:
+ 4c2d9a39185ec2cbd2891dc971bb684065bfba09c97f8c36ea5e2e417542411e 2005 node-bytes_3.1.0-1.dsc
+ 3170980c58c9fac4c2326bd6ab8df4a1cb5da81cf611387336ec975f42663361 6883 node-bytes_3.1.0.orig.tar.gz
+ 283eba074756c7ffa05ebb21522931ba8fc62e7d047b4447703686e7e9fb925b 2984 node-bytes_3.1.0-1.debian.tar.xz
+Homepage: https://github.com/visionmedia/bytes.js
+Package-List: 
+ node-bytes deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-bytes
+Priority: optional
+Section: javascript

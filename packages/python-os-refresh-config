@@ -1,0 +1,26 @@
+Package: python-os-refresh-config
+Binary: python3-os-refresh-config
+Version: 12.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 99~), python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-babel, python3-coverage, python3-dib-utils, python3-fixtures, python3-psutil, python3-stestr, python3-subunit, python3-testscenarios, python3-testtools, subunit
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 89bbb13afc63a44c6fd793a8c016fe2d 2398 python-os-refresh-config_12.0.0-1.dsc
+ 7802a92671d1f283e1cfb9b6bbc91743 9844 python-os-refresh-config_12.0.0.orig.tar.xz
+ 63e507a4558b92326607de080294b40d 2468 python-os-refresh-config_12.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/libs/python-os-refresh-config
+Vcs-Git: https://salsa.debian.org/openstack-team/libs/python-os-refresh-config.git
+Checksums-Sha256:
+ 656b57f8673ca11d3216306a8ebdadb8e87f37aa905493c36515140278cdc060 2398 python-os-refresh-config_12.0.0-1.dsc
+ 4d4084f04fe5b13273e72657919038cbefd99aea9411638af75ca9d0f26f9050 9844 python-os-refresh-config_12.0.0.orig.tar.xz
+ c4d5d17a961cc8037599ed00fcc2da80d5b3397f4c2dfbdadf6291c0d23fee55 2468 python-os-refresh-config_12.0.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/os-refresh-config
+Package-List: 
+ python3-os-refresh-config deb python optional arch=all
+Directory: pool/main/p/python-os-refresh-config
+Priority: optional
+Section: misc

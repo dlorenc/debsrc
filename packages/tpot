@@ -1,0 +1,28 @@
+Package: tpot
+Binary: python3-tpot, python-tpot-doc
+Version: 0.11.7+dfsg-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Christian Kastner <ckk@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, mkdocs, help2man, python3-all, python3-deap (>= 1.2), python3-joblib (>= 0.13.2), python3-imblearn (>= 0.7.0), python3-nose (>= 1.3.7) <!nocheck>, python3-numpy (>= 1.16.3), python3-pandas (>= 0.24.2), python3-scipy (>= 1.3.1), python3-setuptools, python3-sklearn (>= 0.22), python3-stopit (>= 1.1.1), python3-torch, python3-tqdm (>= 4.36.1), python3-xgboost (>= 0.90)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f953a729ddaf72ebbbe2ccaad9a4772c 2470 tpot_0.11.7+dfsg-1.dsc
+ 92f58b8bcce1af6ca0061415bb0d9d6a 728956 tpot_0.11.7+dfsg.orig.tar.xz
+ c4f2e8b6313bae6b0e712b0c253727e9 8440 tpot_0.11.7+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/tpot
+Vcs-Git: https://salsa.debian.org/science-team/tpot.git
+Checksums-Sha256:
+ c0cd9dd9cb9b490fb16eb35a106eb451ddd4600c8f78294725dfc5c05a6fcfaf 2470 tpot_0.11.7+dfsg-1.dsc
+ a102f9b33176f0607c3afbe974e1daf3b987ccb7210eb478fca93f693d144af7 728956 tpot_0.11.7+dfsg.orig.tar.xz
+ baebfc4a1918e2dc6dab596fab61eaf35bbae2d64886dda3928e618f9029f9a8 8440 tpot_0.11.7+dfsg-1.debian.tar.xz
+Homepage: https://epistasislab.github.io/tpot/
+Package-List: 
+ python-tpot-doc deb doc optional arch=all profile=!nodoc
+ python3-tpot deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-nose
+Directory: pool/main/t/tpot
+Priority: extra
+Section: misc

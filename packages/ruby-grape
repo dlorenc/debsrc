@@ -1,0 +1,27 @@
+Package: ruby-grape
+Binary: ruby-grape
+Version: 1.4.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Kanashiro <kanashiro@debian.org>, Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-activesupport, ruby-builder, ruby-dry-types (>= 1.1~), ruby-mustermann-grape, ruby-rack, ruby-rack-accept (>= 0.4.5-3~), ruby-virtus, ruby-hashie (>= 3.5.5~), ruby-cookiejar, ruby-coveralls, ruby-grape-entity, ruby-mime-types, ruby-rack-test (>= 0.6.3~), ruby-rspec, ruby-multi-xml
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 16e24a5f16bbae41ba916c980af73906 2376 ruby-grape_1.4.0-1.dsc
+ 9227279348b172fed1064412967e7907 233318 ruby-grape_1.4.0.orig.tar.gz
+ 96ca942068c3370d1f6855f1abdec13e 4284 ruby-grape_1.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-grape
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-grape.git
+Checksums-Sha256:
+ ee6879092b3efa63e6f95f4858483c9ac00fbee3ab6eae121c720c41a20ca2a3 2376 ruby-grape_1.4.0-1.dsc
+ 1a16e2d6138db29b1dcd4eba80f09cfa654aedd534bba9d77ea534512e06864f 233318 ruby-grape_1.4.0.orig.tar.gz
+ ac3f8032a53987275ba9e3a9aa951c8fc740df2c72f75b586a9e7e6e1987801a 4284 ruby-grape_1.4.0-1.debian.tar.xz
+Homepage: https://github.com/intridea/grape
+Package-List: 
+ ruby-grape deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-grape
+Priority: optional
+Section: misc

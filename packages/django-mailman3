@@ -1,0 +1,29 @@
+Package: django-mailman3
+Binary: python3-django-mailman3
+Version: 1.3.5-2
+Maintainer: Debian Mailman Team <pkg-mailman-hackers@lists.alioth.debian.org>
+Uploaders: Pierre-Elliott Bécue <peb@debian.org>, Jonas Meurer <jonas@freesources.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-django (>= 2:2.0~), python3-django-allauth, python3-django-compressor, python3-django-gravatar2, python3-mailmanclient (>= 3.3.2), python3-mock, python3-setuptools, python3-tz
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4c6edd4c29b5b9087856caa613871636 2602 django-mailman3_1.3.5-2.dsc
+ 94a94ed982d0f465fc9d0f3240d24e31 395717 django-mailman3_1.3.5.orig.tar.gz
+ 44a45daf42808e41e0ab5861068512bf 833 django-mailman3_1.3.5.orig.tar.gz.asc
+ a07220b9295d00b3223577240b5ae08f 7052 django-mailman3_1.3.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mailman-team/django-mailman3
+Vcs-Git: https://salsa.debian.org/mailman-team/django-mailman3.git
+Checksums-Sha256:
+ c28f968ae2fcd75fa16f6da6fbe9d9fa0006a4a2fd475df15a7893160067595b 2602 django-mailman3_1.3.5-2.dsc
+ 368595b3c2623edeaca5beea5f12887424c384edd6f7052cf442443075084313 395717 django-mailman3_1.3.5.orig.tar.gz
+ 2676d5538571d4c382be10d51609def8ba41674e8683541868a794b05a04da4f 833 django-mailman3_1.3.5.orig.tar.gz.asc
+ 4214da6bdec0da0a179f0dc211fce8d125ede0e9111e1438597eb132690ec5a8 7052 django-mailman3_1.3.5-2.debian.tar.xz
+Homepage: https://gitlab.com/mailman/django-mailman3
+Package-List: 
+ python3-django-mailman3 deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-mock
+Directory: pool/main/d/django-mailman3
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: node-is-extglob
+Binary: node-is-extglob
+Version: 2.1.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper (>= 9), dh-buildinfo, nodejs, mocha
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 0c714c4e1de6e3c923c4e10ffe9039a7 2091 node-is-extglob_2.1.1-1.dsc
+ a7994daa19033b127409492e80854068 5469 node-is-extglob_2.1.1.orig.tar.gz
+ fc43f11b1fb461946e0977d4da387e88 2124 node-is-extglob_2.1.1-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-is-extglob.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-is-extglob.git
+Checksums-Sha256:
+ c12373ef9d74ee959863136affb89d35f8fe82bc4784763e70dc6b6f25cbd58a 2091 node-is-extglob_2.1.1-1.dsc
+ 6448275ed56aa37dd639f483022e60e6651233a34038722c57800d3b54076bd3 5469 node-is-extglob_2.1.1.orig.tar.gz
+ af51e0666b73346a71e17207ec6f68ce30a5c40b042dce8c8df7b2917d37e7b1 2124 node-is-extglob_2.1.1-1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/is-extglob
+Package-List: 
+ node-is-extglob deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha
+Directory: pool/main/n/node-is-extglob
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: heat-cfntools
+Binary: heat-cfntools
+Version: 1.4.2-2.1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper (>= 9), dh-python, openstack-pkg-tools, python3-all, python3-pbr (>= 0.6), python3-setuptools (>= 0.6b3), python3-sphinx
+Build-Depends-Indep: python3-six, python3-boto (>= 2.12.0), python3-hacking (>= 0.8.0), python3-mock, python3-psutil (>= 1.1.1), python3-subunit (>= 0.0.18), python3-testtools (>= 0.9.32), subunit (>= 0.0.18), testrepository (>= 0.0.18)
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ a4754fdc685cf27cbd645df84fd919f3 2326 heat-cfntools_1.4.2-2.1.dsc
+ 8037010cea7626ea93c307edd06bbd05 47124 heat-cfntools_1.4.2.orig.tar.xz
+ 167f8e9f5dc7fe3d8a3f99f095c1d641 55352 heat-cfntools_1.4.2-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/heat-cfntools
+Vcs-Git: https://salsa.debian.org/openstack-team/services/heat-cfntools.git
+Checksums-Sha256:
+ 8ab009b773700d97b77caa264f57feabfcfd5b1467324a12481f81a56b204a3c 2326 heat-cfntools_1.4.2-2.1.dsc
+ f782df9b61658c097112586a359fddf4969d7a3775b02208b35048c9f8f9657d 47124 heat-cfntools_1.4.2.orig.tar.xz
+ af365379181eac96f4f14fc9744ed5f422643f92374aba50ba5cf90b2e25e940 55352 heat-cfntools_1.4.2-2.1.debian.tar.xz
+Homepage: https://wiki.openstack.org/Heat
+Package-List: 
+ heat-cfntools deb python optional arch=all
+Directory: pool/main/h/heat-cfntools
+Priority: optional
+Section: misc

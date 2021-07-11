@@ -1,0 +1,31 @@
+Package: gss
+Binary: gss-doc, gss-man, libgss3, libgss-dev
+Version: 1.0.3-6
+Maintainer: Debian GSS Team <help-gss@gnu.org>
+Uploaders: Simon Josefsson <simon@josefsson.org>, Russ Allbery <rra@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, libshishi-dev (>= 0.0.42), texinfo, valgrind [amd64 i386 powerpc]
+Build-Depends-Indep: dblatex, gtk-doc-tools, libglib2.0-dev, texlive
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0af50fb3b7d1957546360c7ed07c1c8a 1918 gss_1.0.3-6.dsc
+ 441859b30bed73010d426c087c71aac5 2241612 gss_1.0.3.orig.tar.gz
+ 243f27dd4109292059599952af611e0f 18180 gss_1.0.3-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/auth-team/gss
+Vcs-Git: https://salsa.debian.org/auth-team/gss.git
+Checksums-Sha256:
+ 51fdbb62b21909108cc915280e8da68a1f8d953e7ab0c9b284ed14d4d2fcfbfc 1918 gss_1.0.3-6.dsc
+ ff919ddc731531d65e27d7ababdc361aae05ada5f1a6dd60703d153307dcdeeb 2241612 gss_1.0.3.orig.tar.gz
+ 37fd96e9ab66b298443da040bc3b8124c6616df1522e036e133d8ffce5a65261 18180 gss_1.0.3-6.debian.tar.xz
+Homepage: https://www.gnu.org/software/gss/
+Package-List: 
+ gss-doc deb doc optional arch=all
+ gss-man deb doc optional arch=all
+ libgss-dev deb libdevel optional arch=any
+ libgss3 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, man, pkg-config
+Directory: pool/main/g/gss
+Priority: source
+Section: net

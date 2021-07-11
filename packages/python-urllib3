@@ -1,0 +1,26 @@
+Package: python-urllib3
+Binary: python3-urllib3
+Version: 1.26.5-1~exp1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Daniele Tricoli <eriol@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python (>= 3.20180927~), python3-all, python3-coverage (>= 3.6), python3-idna, python3-mock, python3-pytest, python3-setuptools, python3-six (>= 1.12.0), python3-tornado
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bb939c130944cb77324d9b7e093eb2b3 2243 python-urllib3_1.26.5-1~exp1.dsc
+ 33b8670413e684188b1340204bc8ad75 292865 python-urllib3_1.26.5.orig.tar.gz
+ 882c94c34455cc465a8b50260c7315d9 12164 python-urllib3_1.26.5-1~exp1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-urllib3
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-urllib3.git
+Checksums-Sha256:
+ 39abf0f987b0addc16146995dffde5073af9c878018f0cad23a43f0eb74a0671 2243 python-urllib3_1.26.5-1~exp1.dsc
+ a7acd0977125325f516bda9735fa7142b909a8d01e8b2e4c8108d0984e6e0098 292865 python-urllib3_1.26.5.orig.tar.gz
+ b986919e426bc0a2266345aecd30eb7eb209a709abaff0fc21b27a0338aaf360 12164 python-urllib3_1.26.5-1~exp1.debian.tar.xz
+Homepage: https://urllib3.readthedocs.org
+Package-List: 
+ python3-urllib3 deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-urllib3
+Priority: source
+Section: python

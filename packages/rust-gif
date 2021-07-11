@@ -1,0 +1,27 @@
+Package: rust-gif
+Binary: librust-gif-dev, librust-gif+c-api-dev, librust-gif+libc-dev
+Version: 0.10.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-color-quant-1+default-dev <!nocheck>, librust-lzw-0.10+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ ca53d98b7be82b78231865404c7e2dfe 2278 rust-gif_0.10.2-2.dsc
+ 87c4ff9cb5853d1a0a61cb82f04dc84c 25417 rust-gif_0.10.2.orig.tar.gz
+ c292c1784f409131f9e1c9ee0fa9bc28 2632 rust-gif_0.10.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gif
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gif]
+Checksums-Sha256:
+ 7dcf7743e7a45d41ec43cd039e692b2835b4dbd06de619efd76bfb74983ad0e8 2278 rust-gif_0.10.2-2.dsc
+ 3d39b10ab99de9da84e982c9a8105ad58d04e227d68c99e95ee482e93d3a425a 25417 rust-gif_0.10.2.orig.tar.gz
+ 54741a626781b52281d9378cc5fa7b7f25d065b0eb45e644463eed0a482efbd1 2632 rust-gif_0.10.2-2.debian.tar.xz
+Homepage: https://github.com/image-rs/image-gif
+Package-List: 
+ librust-gif+c-api-dev deb rust optional arch=any
+ librust-gif+libc-dev deb rust optional arch=any
+ librust-gif-dev deb rust optional arch=any
+Directory: pool/main/r/rust-gif
+Priority: extra
+Section: misc

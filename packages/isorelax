@@ -1,0 +1,27 @@
+Package: isorelax
+Binary: libisorelax-java, libisorelax-java-doc
+Version: 20041111-12
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Samuel Thibault <sthibault@debian.org>, Giovanni Mascellani <gio@debian.org>
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: default-jdk, ant, ant-doc, maven-repo-helper
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 72ee9a73c27462522a4b2a75527f0940 2158 isorelax_20041111-12.dsc
+ 16b0206f135c44187b422440905a5df7 34267 isorelax_20041111.orig.tar.gz
+ 83ed8223a528fe5ccd91e3673aea8910 5072 isorelax_20041111-12.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/isorelax
+Vcs-Git: https://salsa.debian.org/java-team/isorelax.git
+Checksums-Sha256:
+ 73b4d3e6c4dc8c3b54b53b7b8f632f7ee9875c110705f015aa87e0b5110d1eb9 2158 isorelax_20041111-12.dsc
+ bdf9b57853c097f83c31008d7a6056f4a92c00dbf39421fc5398ce7dbd753a3b 34267 isorelax_20041111.orig.tar.gz
+ b063dff4895302bf52c54e9f15ca9d3052bafb10a2efcf1a5e58e42b75c983bd 5072 isorelax_20041111-12.debian.tar.xz
+Homepage: https://sourceforge.net/projects/iso-relax/
+Package-List: 
+ libisorelax-java deb java optional arch=all
+ libisorelax-java-doc deb doc optional arch=all
+Directory: pool/main/i/isorelax
+Priority: source
+Section: java

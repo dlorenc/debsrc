@@ -1,0 +1,28 @@
+Package: fscrypt
+Binary: fscrypt, libpam-fscrypt
+Version: 0.2.9-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Paride Legovini <paride@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec, dh-golang (>= 1.35), golang-any (>= 2:1.10~), golang-github-pkg-errors-dev, golang-github-urfave-cli-dev, golang-golang-x-crypto-dev (>= 1:0.0~git20180322.88942b9), golang-golang-x-sys-dev, golang-goprotobuf-dev, libpam0g-dev, m4
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7f4afdca856ceb6d6f5b01a41f941dd4 1970 fscrypt_0.2.9-1.dsc
+ 65345920be1496a445eaf3bf3313e572 144204 fscrypt_0.2.9.orig.tar.gz
+ 4239d8d6009f9c4f988c26cda8c56fde 5404 fscrypt_0.2.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/fscrypt
+Vcs-Git: https://salsa.debian.org/go-team/packages/fscrypt.git
+Checksums-Sha256:
+ d4ecccaa10b1adde24ab4e02f3c456441667d6aeee7612bc17a99f983c2644a4 1970 fscrypt_0.2.9-1.dsc
+ 36f1166d9886548b0d72beeeffb9ca8fb5b28b63a42b369923bc3f0bea78bb3d 144204 fscrypt_0.2.9.orig.tar.gz
+ 5d573e3edc1bd2af9992291fcc02c3faacd66b2988412ce8808baf651336424d 5404 fscrypt_0.2.9-1.debian.tar.xz
+Homepage: https://github.com/google/fscrypt
+Go-Import-Path: github.com/google/fscrypt
+Package-List: 
+ fscrypt deb admin optional arch=linux-any
+ libpam-fscrypt deb admin optional arch=linux-any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/f/fscrypt
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: python-pure-sasl
+Binary: python3-pure-sasl
+Version: 0.5.1+dfsg1-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 98~), python3-all, python3-setuptools
+Build-Depends-Indep: python3-kerberos, python3-mock, python3-nose
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 41ffbe8b7300d438fca5e0567ab744f3 2187 python-pure-sasl_0.5.1+dfsg1-2.dsc
+ b5e5e172b973a13f885424fa799c630d 13752 python-pure-sasl_0.5.1+dfsg1.orig.tar.xz
+ 0583cdf4bcd473cd12ea4ab553784952 2636 python-pure-sasl_0.5.1+dfsg1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-pure-sasl
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-pure-sasl.git
+Checksums-Sha256:
+ 09a309f77eba39b9c429ef5adde254a2b26fd6bff157d740358114f22c4d64ab 2187 python-pure-sasl_0.5.1+dfsg1-2.dsc
+ 74036813e45ad0811e7e8c909f57c3caeea04a7ffcce6d94c7dfa732b3f41c17 13752 python-pure-sasl_0.5.1+dfsg1.orig.tar.xz
+ b7954e553caba8dc7892026e89b71a2f65fc1b5570bed6751654c089f7c1459f 2636 python-pure-sasl_0.5.1+dfsg1-2.debian.tar.xz
+Homepage: http://github.com/thobbs/pure-sasl
+Package-List: 
+ python3-pure-sasl deb python optional arch=all
+Directory: pool/main/p/python-pure-sasl
+Priority: extra
+Section: misc

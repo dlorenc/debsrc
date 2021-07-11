@@ -1,0 +1,26 @@
+Package: gap-toric
+Binary: gap-toric
+Version: 1.9.5+ds-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jerome Benoit <calculus@rezozer.net>
+Build-Depends: debhelper-compat (= 12), gap (>= 4r10p2), gap-gapdoc (>= 1.6.2), gap-autodoc (>= 2018.09.20), texlive-latex-extra, texlive-fonts-recommended
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7f6bc701ad34842cc953e4192b45ca6d 2831 gap-toric_1.9.5+ds-1.dsc
+ 09f321ef82e2281058f5abcb8b76fe68 16968 gap-toric_1.9.5+ds.orig.tar.xz
+ 02aa0402cab0fd6191577100bf0794f9 3640 gap-toric_1.9.5+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/gap-toric
+Vcs-Git: https://salsa.debian.org/science-team/gap-toric.git
+Checksums-Sha256:
+ 93fee307bf40ec46a1fa05890496a4765611bdef4470d9c77c5061ea36cf8775 2831 gap-toric_1.9.5+ds-1.dsc
+ d8007a7cdf48695b0b9f7657bf440677d726207a3a2c970794b59880ba473853 16968 gap-toric_1.9.5+ds.orig.tar.xz
+ 2b04c8bbd2d71d120bc7e7bb89401477bf935dbe494530c69de93764a86d5c61 3640 gap-toric_1.9.5+ds-1.debian.tar.xz
+Homepage: https://www.gap-system.org/Packages/toric.html
+Package-List: 
+ gap-toric deb math optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/g/gap-toric
+Priority: optional
+Section: misc

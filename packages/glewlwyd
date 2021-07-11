@@ -1,0 +1,29 @@
+Package: glewlwyd
+Binary: glewlwyd, glewlwyd-common
+Version: 2.5.2-2
+Maintainer: Debian IoT Maintainers <debian-iot-maintainers@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de> , Nicolas Mora <babelouest@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, po-debconf, libmicrohttpd-dev, libjansson-dev, libcurl4-gnutls-dev, libldap2-dev, libsqlite3-dev, libconfig-dev, libgnutls28-dev, liborcania-dev, libyder-dev, libulfius-dev, libhoel-dev, librhonabwy-dev, libiddawc-dev, liboath-dev, libcbor-dev, cmake
+Build-Depends-Indep: nodejs, node-react, node-babel7, node-babel-loader, node-css-loader, node-i18next, node-i18next-browser-languagedetector, node-i18next-http-backend, node-qrcode-generator, webpack
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8bd772da3d5aea3127d3701cb5b5eef1 2572 glewlwyd_2.5.2-2.dsc
+ fa6d6f99894aae2b0e16a36e9322f4a8 5437175 glewlwyd_2.5.2.orig.tar.gz
+ d260430339171e4b10f7766fabaffd61 22748 glewlwyd_2.5.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-iot-team/oauth2/glewlwyd.git
+Vcs-Git: https://salsa.debian.org/debian-iot-team/oauth2/glewlwyd.git
+Checksums-Sha256:
+ 15d2a792f90e4e2a8929d12072283eb3fb8bcaf6efc988490a8c3a3dd0a20901 2572 glewlwyd_2.5.2-2.dsc
+ 2630d4e3ea2350c7060ff39321ff7e0cbef5893b9bd99ad098fc5fafba31fe4f 5437175 glewlwyd_2.5.2.orig.tar.gz
+ 9c5cb2b4f0fe21bc9c39d4fd8ae63a11b28a11fbd22323ba1b63f58b06877f51 22748 glewlwyd_2.5.2-2.debian.tar.xz
+Homepage: https://github.com/babelouest/glewlwyd
+Package-List: 
+ glewlwyd deb web optional arch=any
+ glewlwyd-common deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: procps
+Directory: pool/main/g/glewlwyd
+Priority: extra
+Section: misc

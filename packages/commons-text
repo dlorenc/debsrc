@@ -1,0 +1,26 @@
+Package: commons-text
+Binary: libcommons-text-java
+Version: 1.9-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper (>= 12), default-jdk, maven-debian-helper
+Build-Depends-Indep: libcommons-lang3-java (>= 3.11), libmaven-bundle-plugin-java
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c13850119ed3cb82172cc0fb1c69ea97 2097 commons-text_1.9-1.dsc
+ c5f930e2b713cf81cfe061bb3f22e3bb 312885 commons-text_1.9.orig.tar.gz
+ 58dce4d4dc9c355d39e2fbfcd420ef4d 2468 commons-text_1.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/commons-text
+Vcs-Git: https://salsa.debian.org/java-team/commons-text.git
+Checksums-Sha256:
+ a8b33f63c605879251ca48ae627dcb744b78dde09a251dc0f2c7da98fb6ec351 2097 commons-text_1.9-1.dsc
+ 3edbc1306b1ad97efc7fa2d03ebf707a9578ee98238fb538b13896ebfecc1a42 312885 commons-text_1.9.orig.tar.gz
+ efb35c9eef75b09f318e972f756cc40c81a80b42fc742774d753a9f1d59f2aef 2468 commons-text_1.9-1.debian.tar.xz
+Homepage: https://github.com/apache/commons-text
+Package-List: 
+ libcommons-text-java deb java optional arch=all
+Directory: pool/main/c/commons-text
+Priority: extra
+Section: misc

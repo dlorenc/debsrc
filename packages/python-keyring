@@ -1,0 +1,27 @@
+Package: python-keyring
+Binary: python3-keyring
+Version: 22.0.1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Carl Chenet <chaica@debian.org>, Dmitry Shachnev <mitya57@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python (>= 2.20160609~), python3-all, python3-setuptools (>= 42), python3-setuptools-scm (>= 3.4.1), python3-toml
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 72bea9e73c985c491d3520a4a1d7dc38 2254 python-keyring_22.0.1-1.dsc
+ 88e1607f9f40b82ab9e28529eec3edbc 58079 python-keyring_22.0.1.orig.tar.gz
+ 5bd9a9693dfba5e8240784cc360bd073 8744 python-keyring_22.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-keyring
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-keyring.git
+Checksums-Sha256:
+ d9883c570332dcc927f9467383d3220928ba98c582b80fced191d657f32c36f8 2254 python-keyring_22.0.1-1.dsc
+ 9acb3e1452edbb7544822b12fd25459078769e560fa51f418b6d00afaa6178df 58079 python-keyring_22.0.1.orig.tar.gz
+ 9552e1ffeddc8a72e045645acf2547f4bb5a310ac314c230a1ad8d49c07dde29 8744 python-keyring_22.0.1-1.debian.tar.xz
+Homepage: https://github.com/jaraco/keyring
+Package-List: 
+ python3-keyring deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gnome-keyring, python3-all, python3-pytest
+Directory: pool/main/p/python-keyring
+Priority: source
+Section: python

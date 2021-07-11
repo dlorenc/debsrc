@@ -1,0 +1,27 @@
+Package: q2templates
+Binary: q2templates
+Version: 2020.11.1+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Liubov Chuprikova <chuprikovalv@gmail.com>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-pytest, python3-pandas, python3-jinja2
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 73c269deba0b0a94972820ae1764fcf8 2195 q2templates_2020.11.1+dfsg-1.dsc
+ 6ed9397d454690351d180e400a124027 225664 q2templates_2020.11.1+dfsg.orig.tar.xz
+ 3c9f4878d4b6555fde067b9c8dbc1db6 6020 q2templates_2020.11.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/q2templates
+Vcs-Git: https://salsa.debian.org/med-team/q2templates.git
+Checksums-Sha256:
+ b8da774a2d8d4eb4f999ab99844584800698286c0f348610835063a833096b75 2195 q2templates_2020.11.1+dfsg-1.dsc
+ 787ca05f3049448455b77739c2ed01f59b7e0b954d580f598ba3e2947cb428f1 225664 q2templates_2020.11.1+dfsg.orig.tar.xz
+ a91202e263b5364b72a2e44239c8c80fde1d32d819a8e35b437c14fd548967f3 6020 q2templates_2020.11.1+dfsg-1.debian.tar.xz
+Homepage: https://qiime2.org/
+Package-List: 
+ q2templates deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/q/q2templates
+Priority: extra
+Section: misc

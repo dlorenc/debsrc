@@ -1,0 +1,27 @@
+Package: ruby-commonmarker
+Binary: ruby-commonmarker
+Version: 0.21.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1.0~), rake, ruby, ruby-awesome-print, ruby-enum (>= 0.5), ruby-json (>= 1.8~), ruby-minitest-focus (>= 1.1~), ruby-minitest (>= 5.6~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7ada9296dc5ce76a2a6ab3a949bed3dd 1879 ruby-commonmarker_0.21.0-1.dsc
+ a6090dc70a954c1f5eb92f5a7ee66b6f 150376 ruby-commonmarker_0.21.0.orig.tar.gz
+ 18169fa1e88cf6754b204ccf87ef9db7 2696 ruby-commonmarker_0.21.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-commonmarker
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-commonmarker.git
+Checksums-Sha256:
+ cf518893ccc97fbb92a4840ead218241cf74fbf01ae73b838f91b6ee0c8e07e8 1879 ruby-commonmarker_0.21.0-1.dsc
+ 9b7782392c4adff793f43c5626c00730cff4d7150574864eb4e7558ce98ab1d1 150376 ruby-commonmarker_0.21.0.orig.tar.gz
+ 0aa43a483c3714e1b0de94227385d2211d2a4d1dacb637d604453a83b043fc75 2696 ruby-commonmarker_0.21.0-1.debian.tar.xz
+Homepage: https://github.com/gjtorikian/commonmarker
+Package-List: 
+ ruby-commonmarker deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-commonmarker
+Priority: extra
+Section: misc

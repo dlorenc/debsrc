@@ -1,0 +1,26 @@
+Package: node-get-stdin
+Binary: node-get-stdin
+Version: 8.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonathan Ulrich Horn <debian@autoit4you.de>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, jest <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5449b7987f2152505bf706c8d3d3fcfc 2065 node-get-stdin_8.0.0-1.dsc
+ 36be6dfafb88b30febf369e9a1b97904 3410 node-get-stdin_8.0.0.orig.tar.gz
+ 4f88e0185aa80f773f3d4e211f60cd38 5132 node-get-stdin_8.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-get-stdin
+Vcs-Git: https://salsa.debian.org/js-team/node-get-stdin.git
+Checksums-Sha256:
+ 6ffa9815cb9a38e316ebf42c80266a73dff3e4c5e6bc37995dc1390ed13aa11f 2065 node-get-stdin_8.0.0-1.dsc
+ 968a0f46fee895bb81a23f788344bc395eeb8fa0dd7c33e6a582e462f828befb 3410 node-get-stdin_8.0.0.orig.tar.gz
+ d5e37d240dd6b275b09f7286f064882eee899cfec86790427ea2c4295391707f 5132 node-get-stdin_8.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/get-stdin
+Package-List: 
+ node-get-stdin deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-get-stdin
+Priority: optional
+Section: javascript

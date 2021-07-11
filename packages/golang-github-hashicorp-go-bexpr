@@ -1,0 +1,28 @@
+Package: golang-github-hashicorp-go-bexpr
+Binary: golang-github-hashicorp-go-bexpr-dev
+Version: 0.1.2-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 04ba854e262b3e5b03f13d5919c94647 2342 golang-github-hashicorp-go-bexpr_0.1.2-2.dsc
+ 331f4660b1b300c7ae6f99eddd989b58 37320 golang-github-hashicorp-go-bexpr_0.1.2.orig.tar.xz
+ c810f71ed87ad9ee8a58dfd3886f6441 1628 golang-github-hashicorp-go-bexpr_0.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-bexpr
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-bexpr.git
+Checksums-Sha256:
+ 1bceb67f5a413ef61ae74ff5266dd9e5bddc8ffe46bdfb038bf8fd63f7fd85c8 2342 golang-github-hashicorp-go-bexpr_0.1.2-2.dsc
+ 923b53a9da20820f6ef41a47fb9eaecf3b39e3009db10ff9bcc404d9cbdf9760 37320 golang-github-hashicorp-go-bexpr_0.1.2.orig.tar.xz
+ e03908242f03cc87cdfbc30cb4d501428f5e8833fd0144b7dc98a090e46fefba 1628 golang-github-hashicorp-go-bexpr_0.1.2-2.debian.tar.xz
+Homepage: https://github.com/hashicorp/go-bexpr
+Go-Import-Path: github.com/hashicorp/go-bexpr
+Package-List: 
+ golang-github-hashicorp-go-bexpr-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hashicorp-go-bexpr
+Priority: extra
+Section: golang

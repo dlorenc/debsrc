@@ -1,0 +1,27 @@
+Package: first-last-agg
+Binary: postgresql-13-first-last-agg
+Version: 0.1.4-4-gd63ea3b-3
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>,
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 100aa5047b7a2bc1609774c109e814c0 2157 first-last-agg_0.1.4-4-gd63ea3b-3.dsc
+ 4fa41039369e4121a0e3dcc642929773 3480 first-last-agg_0.1.4-4-gd63ea3b.orig.tar.gz
+ 112c066460020702b8ad1c0569b6971b 2348 first-last-agg_0.1.4-4-gd63ea3b-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/first-last-agg
+Vcs-Git: https://salsa.debian.org/postgresql/first-last-agg.git
+Checksums-Sha256:
+ c17001628dc875535a64af792ee14798f03dadd8a5904e5327a3815b630ee7e6 2157 first-last-agg_0.1.4-4-gd63ea3b-3.dsc
+ 5dd0f82b0a08932e6a19d3f98b5390a9a5c2993b0b397a6bd78f0ac553e0884e 3480 first-last-agg_0.1.4-4-gd63ea3b.orig.tar.gz
+ 13d82a56d3b7d82faabf4c0c9c4f15eaff65383f3ec45f079ed96d5aeb1caf4c 2348 first-last-agg_0.1.4-4-gd63ea3b-3.debian.tar.xz
+Homepage: https://github.com/wulczer/first_last_agg
+Package-List: 
+ postgresql-13-first-last-agg deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/f/first-last-agg
+Priority: extra
+Section: misc

@@ -1,0 +1,39 @@
+Package: libxmlada
+Binary: libxmlada-unicode10-dev, libxmlada-doc, libxmlada-dom10-dev, libxmlada-dom7, libxmlada-input10-dev, libxmlada-input7, libxmlada-sax10-dev, libxmlada-sax7, libxmlada-schema10-dev, libxmlada-schema7, libxmlada-unicode7
+Version: 21.0.0-4
+Maintainer: Ludovic Brenta <lbrenta@debian.org>
+Uploaders: Xavier Grave <xavier.grave@csnsm.in2p3.fr>, Nicolas Boulenguez <nicolas@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: dh-sequence-sphinxdoc, python3-sphinx (>= 1.6.3-2), latexmk, texlive-fonts-recommended, texlive-plain-generic, texlive-latex-extra
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8f2e7f638d95614bbf5ca27885372c65 2976 libxmlada_21.0.0-4.dsc
+ e1908a9d798388386aa5500d9d4b3f4e 1022764 libxmlada_21.0.0.orig.tar.gz
+ b905530683913c3a833eb156f67e4787 14344 libxmlada_21.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libxmlada
+Vcs-Git: https://salsa.debian.org/debian/libxmlada.git
+Checksums-Sha256:
+ b6823b173cf5f1031a883f0d59ac4f5db7ca2371ec76247ce0ab442d39be41a8 2976 libxmlada_21.0.0-4.dsc
+ 923024931f0c57451aa52cb9a3333874646102cb75957f27e3689670f90edc1e 1022764 libxmlada_21.0.0.orig.tar.gz
+ 214638db1526753d79bc96d6d4d37ff7b7970039b71c64b8bcdbe429c1aaf8c3 14344 libxmlada_21.0.0-4.debian.tar.xz
+Homepage: https://github.com/AdaCore/xmlada
+Build-Depends-Arch: gnat, gnat-10, unicode-data (>= 13~), unicode-data (<< 14~)
+Package-List: 
+ libxmlada-doc deb doc optional arch=all
+ libxmlada-dom10-dev deb libdevel optional arch=any
+ libxmlada-dom7 deb libs optional arch=any
+ libxmlada-input10-dev deb libdevel optional arch=any
+ libxmlada-input7 deb libs optional arch=any
+ libxmlada-sax10-dev deb libdevel optional arch=any
+ libxmlada-sax7 deb libs optional arch=any
+ libxmlada-schema10-dev deb libdevel optional arch=any
+ libxmlada-schema7 deb libs optional arch=any
+ libxmlada-unicode10-dev deb libdevel optional arch=any
+ libxmlada-unicode7 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dpkg-dev, gcc, gprbuild
+Directory: pool/main/libx/libxmlada
+Priority: source
+Section: libdevel

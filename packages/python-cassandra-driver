@@ -1,0 +1,27 @@
+Package: python-cassandra-driver
+Binary: python3-cassandra, python3-cassandra-doc
+Version: 3.24.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Emmanuel Arias <eamanu@yaerobi.com>,
+Build-Depends: cython3, debhelper-compat (= 13), dh-python, libev-dev, python3-all-dbg, python3-all-dev, python3-eventlet <!nocheck>, python3-mock <!nocheck>, python3-nose <!nocheck>, python3-pure-sasl, python3-setuptools, python3-six, python3-sphinx <!nodoc>, python3-sure <!nocheck>, python3-twisted <!nocheck>, python3-tz <!nocheck>, python3-yaml <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1e0f36dd6d1c9d402a7843d68c1ca091 1927 python-cassandra-driver_3.24.0-1.dsc
+ cb4f1664bc0bb561f686a26bc8f14119 769361 python-cassandra-driver_3.24.0.orig.tar.gz
+ 19546b1ba7ecf61e5aedb0a4f16c2f0d 6836 python-cassandra-driver_3.24.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-cassandra-driver
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-cassandra-driver.git
+Checksums-Sha256:
+ 05dd0e53150c95f229215cebfab8d7421928a780afde20053d58d821296685be 1927 python-cassandra-driver_3.24.0-1.dsc
+ 4063dbb069ba95a124b96606107c8c81600e043657317485d9df75f0b3cfc13b 769361 python-cassandra-driver_3.24.0.orig.tar.gz
+ d5655b24fdf9917ba46c9c235bde295243207106a2b18eb85ee9c7abb8847822 6836 python-cassandra-driver_3.24.0-1.debian.tar.xz
+Homepage: https://github.com/datastax/python-driver
+Package-List: 
+ python3-cassandra deb python optional arch=any
+ python3-cassandra-doc deb doc optional arch=all profile=!nodoc
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-cassandra-driver
+Priority: optional
+Section: misc

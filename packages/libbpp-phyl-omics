@@ -1,0 +1,26 @@
+Package: libbpp-phyl-omics
+Binary: libbpp-phyl-omics-dev, libbpp-phyl-omics3
+Version: 2.4.1-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Julien Dutheil <julien.dutheil@univ-montp2.fr>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, d-shlibs (>= 0.82), libbpp-phyl-dev (>= 2.4.1), libbpp-seq-omics-dev (>= 2.4.1)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bc2ea9a41a5eab03b04af22a2532f94a 2265 libbpp-phyl-omics_2.4.1-2.dsc
+ 7c1c1d06e0c0ff61ddecc7fcc4064f51 48482 libbpp-phyl-omics_2.4.1.orig.tar.gz
+ 90da81f86add8c9e0071032703c7417c 13796 libbpp-phyl-omics_2.4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libbpp-phyl-omics
+Vcs-Git: https://salsa.debian.org/med-team/libbpp-phyl-omics.git
+Checksums-Sha256:
+ 1c7bf30217bb7c7f9ff686f663b52c689ae6c598d12b774a11f86b2219b442fe 2265 libbpp-phyl-omics_2.4.1-2.dsc
+ fb0908422e59c71065db874e68d5c71acddf66d8a51776f7e04a5f8d5f0f6577 48482 libbpp-phyl-omics_2.4.1.orig.tar.gz
+ 164b4445624467dcb1f8fbd5dcda11cd0bfcf54bd63136aaef33cd4d56dfbdb5 13796 libbpp-phyl-omics_2.4.1-2.debian.tar.xz
+Homepage: http://biopp.univ-montp2.fr/wiki/index.php/Main_Page
+Package-List: 
+ libbpp-phyl-omics-dev deb libdevel optional arch=any
+ libbpp-phyl-omics3 deb libs optional arch=any
+Directory: pool/main/libb/libbpp-phyl-omics
+Priority: optional
+Section: misc

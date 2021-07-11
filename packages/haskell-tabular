@@ -1,0 +1,28 @@
+Package: haskell-tabular
+Binary: libghc-tabular-dev, libghc-tabular-prof, libghc-tabular-doc
+Version: 0.2.2.7-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-csv-dev (<< 0.2), libghc-csv-dev (>= 0.1), libghc-csv-prof, libghc-html-dev (<< 2.0), libghc-html-dev (>= 1.0), libghc-html-prof
+Build-Depends-Indep: ghc-doc, libghc-csv-doc, libghc-html-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 795d18017437a8d61d4661ca9e7bbc31 2478 haskell-tabular_0.2.2.7-10.dsc
+ 3da4101b391a0e6e663caed1aea50486 6526 haskell-tabular_0.2.2.7.orig.tar.gz
+ 5c123839be7ca4029ee4c9bfcfa55e82 3344 haskell-tabular_0.2.2.7-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-tabular
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-tabular]
+Checksums-Sha256:
+ 76ff9c3192c1211d0cd1d2da4650b18767a64cfce5e6dfa645bd37235fea1f5d 2478 haskell-tabular_0.2.2.7-10.dsc
+ 13f8da12108dafcf3194eb6bf25febf0081c7e4734f66d2d4aeee899f3c14ffb 6526 haskell-tabular_0.2.2.7.orig.tar.gz
+ 4be92214a2baa24078b5c27196518a851418a7ac442812a9eec2f216c031feb3 3344 haskell-tabular_0.2.2.7-10.debian.tar.xz
+Homepage: http://hub.darcs.net/kowey/tabular
+Package-List: 
+ libghc-tabular-dev deb haskell optional arch=any
+ libghc-tabular-doc deb doc optional arch=all
+ libghc-tabular-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-tabular
+Priority: optional
+Section: misc

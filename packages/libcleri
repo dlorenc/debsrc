@@ -1,0 +1,29 @@
+Package: libcleri
+Binary: libcleri0, libcleri-dev
+Version: 0.12.1-1
+Maintainer: SiriDB Maintainers <libcleri@packages.debian.org>
+Uploaders: Jeroen van der Heijden <jeroen@transceptor.technology>, Paul Gevers <elbrus@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-exec, libpcre2-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 70dde0f397e215aad57385e475533a6c 1844 libcleri_0.12.1-1.dsc
+ 10af9f472a85359b4367d3f34069d29d 46428 libcleri_0.12.1.orig.tar.gz
+ 195a2395c5ea82b0f3834e4620ffffb1 3316 libcleri_0.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/siridb-team/libcleri
+Vcs-Git: https://salsa.debian.org/siridb-team/libcleri.git
+Checksums-Sha256:
+ b72742a72c49f3e95cce770f99c1d6465a4a972b34d66f73ad9564b2e4ca0e0a 1844 libcleri_0.12.1-1.dsc
+ c8a6c2da09f93b914140f838390f164d0f7da245db01b892aaed6af926d6569a 46428 libcleri_0.12.1.orig.tar.gz
+ 06b2083a12ef0322a114821c6552762d583c28b97494d1471c2e633c8c2c568b 3316 libcleri_0.12.1-1.debian.tar.xz
+Homepage: http://siridb.net/
+Dgit: d00ba682aaabf727accdf4d8001b3bb57f2393ef debian archive/debian/0.12.1-1 https://git.dgit.debian.org/libcleri
+Package-List: 
+ libcleri-dev deb libdevel optional arch=any
+ libcleri0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/libc/libcleri
+Priority: extra
+Section: misc

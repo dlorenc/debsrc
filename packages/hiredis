@@ -1,0 +1,27 @@
+Package: hiredis
+Binary: libhiredis0.14, libhiredis-dev
+Version: 0.14.1-1
+Maintainer: Chris Lamb <lamby@debian.org>
+Build-Depends: debhelper-compat (= 12), procps <!nocheck>, redis-server [linux-any kfreebsd-any] <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ef9e33d036c6dbb74a4ed12fefe2de8a 2029 hiredis_0.14.1-1.dsc
+ 3e1c541f9df28becb82a611e63e3e939 64372 hiredis_0.14.1.orig.tar.gz
+ d0ef92c6f301ac5023f7953cf7816ff0 8872 hiredis_0.14.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lamby/pkg-hiredis
+Vcs-Git: https://salsa.debian.org/lamby/pkg-hiredis.git
+Checksums-Sha256:
+ 962116cb813a17660209d12f8473a85884688796149667695cf3d95495f84e87 2029 hiredis_0.14.1-1.dsc
+ 2663b2aed9fd430507e30fc5e63274ee40cdd1a296026e22eafd7d99b01c8913 64372 hiredis_0.14.1.orig.tar.gz
+ 581d935f9039e1cce32a3b2141b2b2363f7abd5f2aa1faffd51a7966ffaadcac 8872 hiredis_0.14.1-1.debian.tar.xz
+Homepage: https://github.com/redis/hiredis
+Package-List: 
+ libhiredis-dev deb libdevel optional arch=any
+ libhiredis0.14 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc, libc-dev, pkg-config
+Directory: pool/main/h/hiredis
+Priority: source
+Section: libs

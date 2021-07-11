@@ -1,0 +1,28 @@
+Package: golang-k8s-sigs-structured-merge-diff
+Binary: golang-k8s-sigs-structured-merge-diff-dev
+Version: 4.0.2+ds1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tong Sun <suntong001@users.sourceforge.net>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-google-gofuzz-dev, golang-github-json-iterator-go-dev, golang-gopkg-yaml.v2-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2a484a1ca612ca6968ea8eb22ca937eb 2672 golang-k8s-sigs-structured-merge-diff_4.0.2+ds1-2.dsc
+ 7253b14991e6adb9cbe0402acc3da655 117032 golang-k8s-sigs-structured-merge-diff_4.0.2+ds1.orig.tar.xz
+ 110ad41097a32ab0a7d4e15213cc2733 3232 golang-k8s-sigs-structured-merge-diff_4.0.2+ds1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-k8s-sigs-structured-merge-diff
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-k8s-sigs-structured-merge-diff.git
+Checksums-Sha256:
+ ebb0b6ed36bef078baf222ec7f698894d0363e517f765e5b00943e02846ee451 2672 golang-k8s-sigs-structured-merge-diff_4.0.2+ds1-2.dsc
+ 5502f1b6b65397e5ea27a77a9885dac76a3b4de2ef5f6354bc148052a8104db3 117032 golang-k8s-sigs-structured-merge-diff_4.0.2+ds1.orig.tar.xz
+ 485ca35d006d7b2726166eef1a6d4a18ca458ee5e996cd76f9c0fd786fe89e1f 3232 golang-k8s-sigs-structured-merge-diff_4.0.2+ds1-2.debian.tar.xz
+Homepage: https://github.com/kubernetes-sigs/structured-merge-diff
+Dgit: 5d368510be3932b418073b84effdf2eaf2683896 debian archive/debian/4.0.2+ds1-2 https://git.dgit.debian.org/golang-k8s-sigs-structured-merge-diff
+Go-Import-Path: sigs.k8s.io/structured-merge-diff
+Package-List: 
+ golang-k8s-sigs-structured-merge-diff-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-k8s-sigs-structured-merge-diff
+Priority: extra
+Section: golang

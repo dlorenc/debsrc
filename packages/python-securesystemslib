@@ -1,0 +1,27 @@
+Package: python-securesystemslib
+Binary: python3-securesystemslib
+Version: 0.20.0-1
+Maintainer: NYU Secure Systems Lab <securesystemslib-dev@googlegroups.com>
+Uploaders: Santiago Torres-Arias <santiago@nyu.edu>, Holger Levsen <holger@debian.org>, Lukas Puehringer <lukas.puehringer@nyu.edu>, Justin Cappos <jcappos@nyu.edu>,
+Build-Depends: dh-python, debhelper-compat (= 13), python3-all, python3-setuptools, python3-nacl, python3-cryptography, python3-colorama, python3-mock, python3-six, gnupg2
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cb203ab868eb718a364b73fe1c89a205 2627 python-securesystemslib_0.20.0-1.dsc
+ 44e45d1dd81e1b9d0b593ce9d60ff5dc 177683 python-securesystemslib_0.20.0.orig.tar.gz
+ 4bde4881e4be985e43b790e62003863b 874 python-securesystemslib_0.20.0.orig.tar.gz.asc
+ a768e2f16671e0a1c2ed2a69bd94e4f6 6392 python-securesystemslib_0.20.0-1.debian.tar.xz
+Vcs-Browser: https://github.com/secure-systems-lab/securesystemslib/
+Vcs-Git: https://github.com/secure-systems-lab/securesystemslib.git -b debian
+Checksums-Sha256:
+ 8e31da921d5a0e82779ebc32fe6fd2f87b484ee7673b28b9ab5c4b7cc9df4604 2627 python-securesystemslib_0.20.0-1.dsc
+ bd9dcd5d178eddcbc62d9913e4a306901afeea972e8adc7ffebca6d66a0e5886 177683 python-securesystemslib_0.20.0.orig.tar.gz
+ 6315e3484f9b4b33ec926d619f58caa0fab45ec4e073d2b8a4719f0f0fe67b4f 874 python-securesystemslib_0.20.0.orig.tar.gz.asc
+ 875b1fc15e47274c6d9fcfedd0736025594ccaf8b1ee7e5444ba58769be46d9b 6392 python-securesystemslib_0.20.0-1.debian.tar.xz
+Homepage: https://ssl.engineering.nyu.edu
+Package-List: 
+ python3-securesystemslib deb python optional arch=all
+Directory: pool/main/p/python-securesystemslib
+Priority: extra
+Section: misc

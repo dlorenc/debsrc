@@ -1,0 +1,26 @@
+Package: htseq
+Binary: python3-htseq
+Version: 0.13.5-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Diane Trout <diane@ghic.org>, Andreas Tille <tille@debian.org>
+Build-Depends: 2to3, debhelper-compat (= 13), dh-python, python3-debian, python3-setuptools, python3-all-dev, python3-numpy, python3-matplotlib, python3-pysam, swig, cython3
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9da95b981a50da171a6e363185b78926 2155 htseq_0.13.5-1.dsc
+ cea1e447846a6474d5e515b1a3680903 318076 htseq_0.13.5.orig.tar.gz
+ e6def32bb11e775a2150da72b0b5b7c3 11068 htseq_0.13.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/htseq
+Vcs-Git: https://salsa.debian.org/med-team/htseq.git
+Checksums-Sha256:
+ e91696227ef5006237ae7f5d09850df971f659a06581dd8e30313db2a2065eb2 2155 htseq_0.13.5-1.dsc
+ 2015aea9b682785e26bf8f2ec61be352843760b677c3f8c1c20022c58adac648 318076 htseq_0.13.5.orig.tar.gz
+ f01e90928130e511da82bf34d5aad35615ed9da44b62963565cd0b7d21cfd305 11068 htseq_0.13.5-1.debian.tar.xz
+Homepage: https://www-huber.embl.de/users/anders/HTSeq/doc/overview.html
+Package-List: 
+ python3-htseq deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/h/htseq
+Priority: optional
+Section: misc

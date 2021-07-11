@@ -1,0 +1,25 @@
+Package: jsonb-api
+Binary: libjsonb-api-java
+Version: 1.0-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, junit4 (>= 4.12), libjsonp-java, libmaven-bundle-plugin-java (>= 3.5.0), libmaven-dependency-plugin-java (>= 3.1.1), maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 677f1923646e2cd02cef00d52229d489 2106 jsonb-api_1.0-2.dsc
+ 04174ad5dfc73fccd3a07ec2867a8c01 53900 jsonb-api_1.0.orig.tar.xz
+ 5074fc146015d8fe8a45c29243e74524 8604 jsonb-api_1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jsonb-api
+Vcs-Git: https://salsa.debian.org/java-team/jsonb-api.git
+Checksums-Sha256:
+ eaf3b0a3876d11269feec1542ad92df05e225db08cdfc87193bdb49e29e3816e 2106 jsonb-api_1.0-2.dsc
+ 09add8aeefff79a211025ac7b592b4a6ade7c1c36b79242bb22fe2ca5a6e315c 53900 jsonb-api_1.0.orig.tar.xz
+ def74e3a72810b013d9c068191adbac5fee5cddae83e323e55bdb02d97668775 8604 jsonb-api_1.0-2.debian.tar.xz
+Homepage: https://javaee.github.io/jsonb-spec
+Package-List: 
+ libjsonb-api-java deb java optional arch=all
+Directory: pool/main/j/jsonb-api
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: ruby-rubymail
+Binary: ruby-rubymail, ruby-rubymail-doc
+Version: 1.1.4-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Per Andersson <avtobiff@gmail.com>,
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 210a22488b3b0544a691504042e1ac5a 2099 ruby-rubymail_1.1.4-1.dsc
+ 99d0861d3cbaed02de137fc6612d16ae 71903 ruby-rubymail_1.1.4.orig.tar.gz
+ 5706e2e90d98ffd810e7b06fc90d9c85 4704 ruby-rubymail_1.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rubymail
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rubymail.git
+Checksums-Sha256:
+ 2e32ab5b7e85463bb623c6a7643a2e05e5d49b8efe8c56a45f071dd4397ea191 2099 ruby-rubymail_1.1.4-1.dsc
+ 45f91a0bbee7c59c50233e5cbf14c2a7255f1baa2186797e438da7b274b6aad2 71903 ruby-rubymail_1.1.4.orig.tar.gz
+ 457dd56339dad253efe5470684f25d2ab6423ebc2a5cfdc53e14a2e335fa8f8c 4704 ruby-rubymail_1.1.4-1.debian.tar.xz
+Homepage: https://github.com/terceiro/rmail
+Package-List: 
+ ruby-rubymail deb ruby optional arch=all
+ ruby-rubymail-doc deb doc optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-rubymail
+Priority: source
+Section: ruby

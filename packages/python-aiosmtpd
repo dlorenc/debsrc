@@ -1,0 +1,26 @@
+Package: python-aiosmtpd
+Binary: python3-aiosmtpd
+Version: 1.2.2-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Pierre-Elliott Bécue <peb@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, openssl, python3-all (>= 3.5), python3-docutils, python3-public, python3-pytest, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2aa94cf935b5ddbc96b793299f1a2e56 2198 python-aiosmtpd_1.2.2-1.dsc
+ d80588a9e1bfeba2e02024d5a8451252 170459 python-aiosmtpd_1.2.2.orig.tar.gz
+ cded1ae64888b5a22c381b367841783c 4428 python-aiosmtpd_1.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-aiosmtpd
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-aiosmtpd.git
+Checksums-Sha256:
+ f717488ad23e54d53d85a06ca52c60dd48cb0ca6af223d2deea126a8faf55ffa 2198 python-aiosmtpd_1.2.2-1.dsc
+ 47fb2a64495e51301af390b6d2d887a16ad01d1df40b0de7ccf456046c52357d 170459 python-aiosmtpd_1.2.2.orig.tar.gz
+ a488c6c4e06de50ee8ccbe4dfa7e7ba5e11f93a3c382c770e446c9b4733f71b4 4428 python-aiosmtpd_1.2.2-1.debian.tar.xz
+Homepage: https://aiosmtpd.readthedocs.io
+Package-List: 
+ python3-aiosmtpd deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-aiosmtpd
+Priority: extra
+Section: misc

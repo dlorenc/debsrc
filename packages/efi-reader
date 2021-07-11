@@ -1,0 +1,21 @@
+Package: efi-reader
+Binary: efi-reader
+Version: 0.16
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: dann frazier <dannf@debian.org>, Christian Perrier <bubulle@debian.org>
+Build-Depends: debhelper (>= 9), libdebconfclient0-dev (>= 0.47), libdebian-installer4-dev, po-debconf (>= 0.5.0), iso-codes (>= 0.012), isoquery
+Architecture: ia64 amd64 i386 arm64 armhf
+Format: 3.0 (native)
+Files:
+ 314abc1adcd3bc847f15dc9967c1c559 1811 efi-reader_0.16.dsc
+ e57586de768f67bd97703f368fc5493b 4084 efi-reader_0.16.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/efi-reader
+Vcs-Git: https://salsa.debian.org/installer-team/efi-reader.git
+Checksums-Sha256:
+ d18c6636edf94aff6ec8902830fc39a756ba4e7c2fb14673e60efb92a5569d92 1811 efi-reader_0.16.dsc
+ 46c1259b4a61f6221dee98a2d30a7f7cb2276b0fb4f6ebb4d83f469764229452 4084 efi-reader_0.16.tar.xz
+Package-List: 
+ efi-reader udeb debian-installer optional arch=ia64,amd64,i386,arm64,armhf
+Directory: pool/main/e/efi-reader
+Priority: source
+Section: debian-installer

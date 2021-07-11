@@ -1,0 +1,29 @@
+Package: ruby-moneta
+Binary: ruby-moneta
+Version: 1.0.0-9
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>
+Build-Depends: debhelper-compat (= 12), gem2deb
+Build-Depends-Indep: lsof, mariadb-server, netcat-openbsd, ruby-activerecord, ruby-activesupport (>= 2:3.2.11~), ruby-fog-core, ruby-multi-json, ruby-mysql2, ruby-rack, ruby-rack-cache, ruby-rspec (>= 2.11), ruby-rspec-retry, ruby-sequel, ruby-sqlite3, ruby-tokyocabinet
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a49a5b5edc690d4c3008353b66402a60 2542 ruby-moneta_1.0.0-9.dsc
+ 9546fa65c07897a5220a3af6a0064ffd 183242 ruby-moneta_1.0.0.orig.tar.gz
+ f487a151cd3fb813b6b8d06e0e2e49f0 13904 ruby-moneta_1.0.0-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-moneta
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-moneta.git
+Checksums-Sha256:
+ 7d3a1b7f5c6c016793d06616114a1673524b0940c000a6c90c5e87b98a79948e 2542 ruby-moneta_1.0.0-9.dsc
+ 470da427462c0a74b743dc50de49abf831a2d80b0073c5578d7fa781f294f209 183242 ruby-moneta_1.0.0.orig.tar.gz
+ 328cdf0d5c1a0041b28a30ff133774fdb2af498d9672a366e2f8082325056a93 13904 ruby-moneta_1.0.0-9.debian.tar.xz
+Homepage: https://github.com/minad/moneta
+Package-List: 
+ ruby-moneta deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: default-mysql-server, gem2deb-test-runner, netcat-openbsd, quilt, ruby-activerecord, ruby-activesupport, ruby-fog-core, ruby-multi-json, ruby-mysql2, ruby-rack, ruby-rack-cache, ruby-rspec, ruby-rspec-retry, ruby-sequel, ruby-sqlite3, ruby-tokyocabinet
+Directory: pool/main/r/ruby-moneta
+Priority: source
+Section: ruby

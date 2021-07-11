@@ -1,0 +1,27 @@
+Package: golang-github-dgryski-go-metro
+Binary: golang-github-dgryski-go-metro-dev
+Version: 0.0~git20200812.85c65e2-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Roger Shimizu <rosh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d02d3d011073bb2a07889b6bc6c5acd0 2402 golang-github-dgryski-go-metro_0.0~git20200812.85c65e2-2.dsc
+ fdcc79585f70f5c0ef0248af2a7e9a8c 3980 golang-github-dgryski-go-metro_0.0~git20200812.85c65e2.orig.tar.xz
+ 29d7b583749d918fa8ee05143036f681 2816 golang-github-dgryski-go-metro_0.0~git20200812.85c65e2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-dgryski-go-metro
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-dgryski-go-metro.git
+Checksums-Sha256:
+ d19ff2c3ff76c2c21a49a6a479a36a0e0bd642152049b603cda3b2fca220d405 2402 golang-github-dgryski-go-metro_0.0~git20200812.85c65e2-2.dsc
+ 9bf14c6a4accb39df6c23f8be2531ec468a4be9e2646743d75ffb805e64a1835 3980 golang-github-dgryski-go-metro_0.0~git20200812.85c65e2.orig.tar.xz
+ bc45ffe090581b14b51a70b93bf01bcbd43da62780d0a2003ab156f194d7256d 2816 golang-github-dgryski-go-metro_0.0~git20200812.85c65e2-2.debian.tar.xz
+Homepage: https://github.com/dgryski/go-metro
+Go-Import-Path: github.com/dgryski/go-metro
+Package-List: 
+ golang-github-dgryski-go-metro-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-dgryski-go-metro
+Priority: extra
+Section: golang

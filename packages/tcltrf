@@ -1,0 +1,24 @@
+Package: tcltrf
+Binary: tcl-trf, tcl-trf-dev, tcl-trf-doc
+Version: 2.1.4-dfsg3-2.1
+Maintainer: Sergei Golovan <sgolovan@debian.org>
+Build-Depends: debhelper (>= 9.0.0), zlib1g-dev (>= 1:1.2.1), libbz2-dev (>= 1.0.2), libssl-dev, tcl-dev (>= 8.6.0+2)
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ b40bd24e78f28cee4bf5c8a09ccfc7c8 1944 tcltrf_2.1.4-dfsg3-2.1.dsc
+ fbfa8915ee4ca8d6982898c0ad542adb 1266512 tcltrf_2.1.4-dfsg3.orig.tar.gz
+ da5add8b8d418684588b8353907c14a1 83464 tcltrf_2.1.4-dfsg3-2.1.debian.tar.xz
+Checksums-Sha256:
+ d067c3bdb56623d54dcb526d58c4b820532bcafd0a660fe0803331ea2b8fc321 1944 tcltrf_2.1.4-dfsg3-2.1.dsc
+ 74703dee6be26b65df7f4627d3f46ae18294c673232ad0eaf4cc68446b18f55b 1266512 tcltrf_2.1.4-dfsg3.orig.tar.gz
+ 87dba623f80f7f34984fcc3440e6bdf53d59e4f97df5921b7a3cb8f88d255fdf 83464 tcltrf_2.1.4-dfsg3-2.1.debian.tar.xz
+Homepage: http://tcltrf.sourceforge.net/
+Package-List: 
+ tcl-trf deb libs optional arch=any
+ tcl-trf-dev deb libdevel optional arch=any
+ tcl-trf-doc deb doc optional arch=all
+Directory: pool/main/t/tcltrf
+Priority: source
+Section: interpreters

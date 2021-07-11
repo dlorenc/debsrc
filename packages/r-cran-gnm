@@ -1,0 +1,27 @@
+Package: r-cran-gnm
+Binary: r-cran-gnm
+Version: 1.1-1-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-mass, r-cran-matrix, r-cran-nnet, r-cran-qvcalc, r-cran-relimp
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5012fa1429cd085ce6e3a06100b78a91 2109 r-cran-gnm_1.1-1-2.dsc
+ cd13bd09b19edfd3938586f4f0294cfa 1003125 r-cran-gnm_1.1-1.orig.tar.gz
+ de17697e0bc72ccb08877a14f5e6e2f2 3936 r-cran-gnm_1.1-1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-gnm
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-gnm.git
+Checksums-Sha256:
+ a5dd023f1f88bfe9ec702e7e2b91b9bae86aeb4970c970c8659fbb377666d40b 2109 r-cran-gnm_1.1-1-2.dsc
+ 422903508802ac7c5d2bb4a685436b72398c3b8906241d9079970ff274d3add1 1003125 r-cran-gnm_1.1-1.orig.tar.gz
+ 50b2ee2584c35060addfdceb6b3ab8ec51e4fb1b2ddbc06a8e6662ace0f41842 3936 r-cran-gnm_1.1-1-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=gnm
+Package-List: 
+ r-cran-gnm deb gnu-r optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-gnm
+Priority: optional
+Section: misc

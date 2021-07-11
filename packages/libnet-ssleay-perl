@@ -1,0 +1,27 @@
+Package: libnet-ssleay-perl
+Binary: libnet-ssleay-perl
+Version: 1.88-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libssl-dev, libtest-exception-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-warn-perl <!nocheck>, openssl, perl-openssl-defaults, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 19798653b203d81e65f970f09ca06918 2567 libnet-ssleay-perl_1.88-3.dsc
+ fcef4985f5f7e0381e3dddd0ee7878d1 436215 libnet-ssleay-perl_1.88.orig.tar.gz
+ e8c0e741be17b25cd05eb6e39bce66e2 12568 libnet-ssleay-perl_1.88-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-ssleay-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-ssleay-perl.git
+Checksums-Sha256:
+ d1f4f15ea66be394fd073f80263f66d16526a1f9a59c9ed576d503994fd71125 2567 libnet-ssleay-perl_1.88-3.dsc
+ 2000da483c8471a0b61e06959e92a6fca7b9e40586d5c828de977d3d2081cfdd 436215 libnet-ssleay-perl_1.88.orig.tar.gz
+ b6145c8ad3178942f52bf7d4cab6cb1a76f523e6a0dfe299d69a17aab98e0464 12568 libnet-ssleay-perl_1.88-3.debian.tar.xz
+Homepage: https://metacpan.org/release/Net-SSLeay
+Dgit: c0b7cc38c037096f5f36519b06788bb37438870a debian archive/debian/1.88-3 https://git.dgit.debian.org/libnet-ssleay-perl
+Package-List: 
+ libnet-ssleay-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-ssleay-perl
+Priority: source
+Section: perl

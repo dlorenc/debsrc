@@ -1,0 +1,24 @@
+Package: ipmiutil
+Binary: ipmiutil
+Version: 3.1.7-1
+Maintainer: Jörg Frings-Fürst <debian@jff.email>
+Build-Depends: debhelper-compat (= 13), libfreeipmi-dev (>= 1.1.5) | libopenipmi-dev (>= 2.0.18), libssl-dev, libtool-bin, openssl
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dd193ab48f2871c718855c3cc912ea92 1920 ipmiutil_3.1.7-1.dsc
+ fab260bc834a0f3f9324a6365fc26eca 1726396 ipmiutil_3.1.7.orig.tar.gz
+ f4fcb1438fe103792965bdbbe63a49d9 13628 ipmiutil_3.1.7-1.debian.tar.xz
+Vcs-Browser: https://jff.email/cgit/ipmiutil.git
+Vcs-Git: git://jff.email/opt/git/ipmiutil.git
+Checksums-Sha256:
+ e4b2ba7fe7702cd56627fd3a7eaaedc450ce1f17e0de5dca80a9cfc7eae4e4b4 1920 ipmiutil_3.1.7-1.dsc
+ 911fd6f8b33651b98863d57e678d2fc593bc43fcd2a21f5dc7d5db8f92128a9a 1726396 ipmiutil_3.1.7.orig.tar.gz
+ 79f61bbe6eb0e731ddf0be22c9b53659cba8fe1bb3bb409818f57ce28a383b17 13628 ipmiutil_3.1.7-1.debian.tar.xz
+Homepage: https://sourceforge.net/projects/ipmiutil/
+Package-List: 
+ ipmiutil deb utils optional arch=any
+Directory: pool/main/i/ipmiutil
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: gr-rds
+Binary: gr-rds, libgnuradio-rds1
+Version: 3.8.0.0.f1c584a-3
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Build-Depends: cmake, debhelper (>= 12~), dh-python, doxygen, gnuradio-dev (>= 3.8), graphviz, libboost-regex-dev, libboost-system-dev, libgmp-dev, liblog4cpp5-dev, liborc-0.4-dev, pkg-config, python3-dev, swig
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 81bf90583237270c5eb3105ec880c5a4 2128 gr-rds_3.8.0.0.f1c584a-3.dsc
+ f835f88be63398983672c920ee615918 140244 gr-rds_3.8.0.0.f1c584a.orig.tar.xz
+ c33f36598f0f575639bd144ad60fece7 4340 gr-rds_3.8.0.0.f1c584a-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/bottoms/pkg-gr-rds
+Vcs-Git: https://salsa.debian.org/bottoms/pkg-gr-rds.git
+Checksums-Sha256:
+ 51d59cd20a4497a6a7c83fbf5fd00d304f44135779d3addde91585a60ec04e19 2128 gr-rds_3.8.0.0.f1c584a-3.dsc
+ 9264b4b1fb8b9a61fb887cca703856ab845f1f88168a6208e9a611385bedcafd 140244 gr-rds_3.8.0.0.f1c584a.orig.tar.xz
+ dbea419d0700356c5d597a4812254dca2cf97b88dc812a807c85e1341e727547 4340 gr-rds_3.8.0.0.f1c584a-3.debian.tar.xz
+Homepage: https://github.com/bastibl/gr-rds
+Package-List: 
+ gr-rds deb libdevel optional arch=any
+ libgnuradio-rds1 deb libdevel optional arch=any
+Directory: pool/main/g/gr-rds
+Priority: optional
+Section: misc

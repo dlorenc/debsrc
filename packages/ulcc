@@ -1,0 +1,26 @@
+Package: ulcc
+Binary: ulcc
+Version: 1.0.2-2
+Maintainer: Joao Eriberto Mota Filho <eriberto@debian.org>
+Build-Depends: debhelper-compat (= 13), qtmultimedia5-dev, qttools5-dev-tools
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8900d96dbc304e41ef21a7509d328e24 1893 ulcc_1.0.2-2.dsc
+ 2cf11e1463d89d431a01994fdfd0ff72 3429088 ulcc_1.0.2.orig.tar.gz
+ 29f7ff1b5a722fc8c2c5418638664854 4028 ulcc_1.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ulcc
+Vcs-Git: https://salsa.debian.org/debian/ulcc.git
+Checksums-Sha256:
+ 9438736b1bc7ee3d638ff9d38b75cb6e703bc6c8bb4d8a00dbeea3beec39bb4e 1893 ulcc_1.0.2-2.dsc
+ fb57055edd93d3c9c54a15e9b8edab0c2926564693c3ea605b6ee7cb271c92fa 3429088 ulcc_1.0.2.orig.tar.gz
+ 7754399cc4191eddd16459716024b0ebaeae23903ef7a0ec92e4f52a1ef0e716 4028 ulcc_1.0.2-2.debian.tar.xz
+Homepage: https://bitbucket.org/admsasha/ulcc
+Package-List: 
+ ulcc deb education optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/u/ulcc
+Priority: extra
+Section: misc

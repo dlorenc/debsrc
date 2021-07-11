@@ -1,0 +1,27 @@
+Package: puppet-module-puppetlabs-apt
+Binary: puppet-module-puppetlabs-apt
+Version: 6.1.1-1
+Maintainer: Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>
+Uploaders: Stig Sandbeck Mathisen <ssm@debian.org>, Russ Allbery <rra@debian.org>, Sebastien Badia <sbadia@debian.org>
+Build-Depends: debhelper (>= 11~)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ a251022c1dbe2fd21651f30aa529319d 2262 puppet-module-puppetlabs-apt_6.1.1-1.dsc
+ 9f9e710ff07c41b082eddfc80e11af4a 102837 puppet-module-puppetlabs-apt_6.1.1.orig.tar.gz
+ 2ba7e38b0ad4fd730cfd01a97226eca4 4700 puppet-module-puppetlabs-apt_6.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-apt
+Vcs-Git: https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-apt.git
+Checksums-Sha256:
+ fef05099763addde81111351e82420aa461ad52fd6ad7cf83370b55c400934dd 2262 puppet-module-puppetlabs-apt_6.1.1-1.dsc
+ 9db1fcdfbe272965d5f08b3fec9415d65ac47a359f335b5634d68e4586aa6d9b 102837 puppet-module-puppetlabs-apt_6.1.1.orig.tar.gz
+ d3f07bf86fdd94f196e438e8d83dc11336ce8fc316b45ffba74537aba9ef2f68 4700 puppet-module-puppetlabs-apt_6.1.1-1.debian.tar.xz
+Homepage: https://forge.puppet.com/puppetlabs/apt
+Package-List: 
+ puppet-module-puppetlabs-apt deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: lsb-release
+Directory: pool/main/p/puppet-module-puppetlabs-apt
+Priority: optional
+Section: misc

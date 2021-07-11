@@ -1,0 +1,26 @@
+Package: node-ejs
+Binary: node-ejs
+Version: 2.5.7-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-lru-cache <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a3f4b4d7d5dc917e713cca002ffe0c9a 2010 node-ejs_2.5.7-3.dsc
+ 99ea83fff4b6d576e2578fb948ac9773 39639 node-ejs_2.5.7.orig.tar.gz
+ 32e2d80efce9baf39934bbe056b5d7fe 7584 node-ejs_2.5.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ejs
+Vcs-Git: https://salsa.debian.org/js-team/node-ejs.git
+Checksums-Sha256:
+ ee75a4bde3ede780e69013587e3d93a252eaa12dfd28d43fa41c12492db1774c 2010 node-ejs_2.5.7-3.dsc
+ 908a00ceff5158b5367d244386fd2b0f8f2e52e7886de10caf177eab78baabf8 39639 node-ejs_2.5.7.orig.tar.gz
+ 8db875d1a0c317063b8f339245c580f75364eb8079b5b445ec32364420b9bdec 7584 node-ejs_2.5.7-3.debian.tar.xz
+Homepage: https://github.com/mde/ejs
+Package-List: 
+ node-ejs deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ejs
+Priority: optional
+Section: javascript

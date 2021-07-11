@@ -1,0 +1,27 @@
+Package: node-code
+Binary: node-code
+Version: 6.0.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs (>= 10)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ fc13562a89d2794544775f9eeb947402 2028 node-code_6.0.0-3.dsc
+ 58bf6c1e24018d7286c3fb2fd74ce27a 16292 node-code_6.0.0.orig.tar.gz
+ b9c30945ced272c7a33513107847fa1b 2772 node-code_6.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-code
+Vcs-Git: https://salsa.debian.org/js-team/node-code.git
+Checksums-Sha256:
+ cdbaa3e36e049613de11e57bec4ac9a5c52245e0dbe695cc0b3c036d53119851 2028 node-code_6.0.0-3.dsc
+ dcc610c3f749ca358e17a45a8db583b76ba66a00b0bab1589d11d6a905ff14df 16292 node-code_6.0.0.orig.tar.gz
+ 576750211ab6675d5fce21bbbff3f471cc600ffb8f00191389524118eccc0530 2772 node-code_6.0.0-3.debian.tar.xz
+Homepage: https://github.com/hapijs/code#readme
+Package-List: 
+ node-code deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-hapi-code, nodejs
+Directory: pool/main/n/node-code
+Priority: extra
+Section: misc

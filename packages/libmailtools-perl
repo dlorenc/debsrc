@@ -1,0 +1,28 @@
+Package: libmailtools-perl
+Binary: libmailtools-perl
+Version: 2.21-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libnet-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtimedate-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 60b16ad76aa47b199b67c10f9cb217b4 2326 libmailtools-perl_2.21-1.dsc
+ 69ee516d40011e7e92b77c6f06c0dc01 58013 libmailtools-perl_2.21.orig.tar.gz
+ 850182b76411a54207ff07b87c5833f6 6808 libmailtools-perl_2.21-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmailtools-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmailtools-perl.git
+Checksums-Sha256:
+ ff030ed490005c751f275d9af4e1ad98d509ab7bfe573efa32f6db1006483bf0 2326 libmailtools-perl_2.21-1.dsc
+ 4ad9bd6826b6f03a2727332466b1b7d29890c8d99a32b4b3b0a8d926ee1a44cb 58013 libmailtools-perl_2.21.orig.tar.gz
+ 6023c5ba5e1b7d304f2f42d0d6381d842662e6a11ff37f06e5ff88456aae22d3 6808 libmailtools-perl_2.21-1.debian.tar.xz
+Homepage: https://metacpan.org/release/MailTools
+Dgit: 50fc0f341e5551c3e001e1bb58859ae4a0b92acc debian archive/debian/2.21-1 https://git.dgit.debian.org/libmailtools-perl
+Package-List: 
+ libmailtools-perl deb mail optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmailtools-perl
+Priority: source
+Section: perl

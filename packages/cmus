@@ -1,0 +1,26 @@
+Package: cmus
+Binary: cmus, cmus-plugin-ffmpeg
+Version: 2.9.1-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Ryan Kavanagh <rak@debian.org>
+Build-Depends: debhelper-compat (= 13), bash-completion, libao-dev, libasound2-dev (>= 1.0.11) [linux-any], libavcodec-dev, libavformat-dev (>= 6:10~), libswresample-dev, libcddb2-dev, libcdio-cdda-dev, libcue-dev, libdiscid-dev, libfaad-dev, libflac-dev, libjack-dev, libmad0-dev, libmodplug-dev, libmpcdec-dev, libncursesw5-dev, libopusfile-dev, libpulse-dev (>= 0.9.19), libroar-dev, libsamplerate0-dev, libsystemd-dev, libvorbis-dev, libwavpack-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ beaf311c00227f152b66492351a7f449 2355 cmus_2.9.1-1.dsc
+ 914ea4f79827174f825e9e7ce3880c44 321004 cmus_2.9.1.orig.tar.gz
+ 825e47554a788b604272a98f510cb369 9132 cmus_2.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/cmus
+Vcs-Git: https://salsa.debian.org/multimedia-team/cmus.git
+Checksums-Sha256:
+ 66ef20c21b4d1ea461ed96588ae7fdd0db92aa94d9695d012c661d8c8b5a26a1 2355 cmus_2.9.1-1.dsc
+ 6fb799cae60db9324f03922bbb2e322107fd386ab429c0271996985294e2ef44 321004 cmus_2.9.1.orig.tar.gz
+ dc29164ac412a222923dbc60bd21b1ca019a1ef31cd036f2af728cf7c666a7a9 9132 cmus_2.9.1-1.debian.tar.xz
+Homepage: https://cmus.github.io/
+Package-List: 
+ cmus deb sound optional arch=any
+ cmus-plugin-ffmpeg deb sound optional arch=any
+Directory: pool/main/c/cmus
+Priority: source
+Section: sound

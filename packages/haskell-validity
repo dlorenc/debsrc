@@ -1,0 +1,26 @@
+Package: haskell-validity
+Binary: libghc-validity-dev, libghc-validity-prof, libghc-validity-doc
+Version: 0.11.0.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ abe8459e5459bc8f58b8285800f19016 2119 haskell-validity_0.11.0.0-2.dsc
+ 4cab3689023a3e7d344d5ea987393e4e 8819 haskell-validity_0.11.0.0.orig.tar.gz
+ 5d5111f5f38db15997fd8655dc9f4f3c 3188 haskell-validity_0.11.0.0-2.debian.tar.xz
+Checksums-Sha256:
+ bd93c8ce716709d2c76c1de05ee0b7eaaaa00d356cb56ef61f5aba852029fc72 2119 haskell-validity_0.11.0.0-2.dsc
+ 967a7ac82e31e6bb120de5f6359911e9213278520b9625ee4f82aa33da515cc9 8819 haskell-validity_0.11.0.0.orig.tar.gz
+ fb98ba9a685f38ac01c69cc5828569bd97dcf00aa9d64282b073108f74594418 3188 haskell-validity_0.11.0.0-2.debian.tar.xz
+Homepage: https://github.com/NorfairKing/validity#readme
+Package-List: 
+ libghc-validity-dev deb haskell optional arch=any
+ libghc-validity-doc deb doc optional arch=all
+ libghc-validity-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-validity
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: ros-resource-retriever
+Binary: libresource-retriever0d, libresource-retriever-dev, python3-resource-retriever
+Version: 1.12.6-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 13), catkin, librosconsole-dev, libroslib-dev, libcurl4-openssl-dev | libcurl-dev, python3-all, dh-sequence-python3
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1a555a0f6356ee635691cfc1ffc14bda 2425 ros-resource-retriever_1.12.6-3.dsc
+ fb19647bf7c66cc0de7e01b3d6a78ad4 6916 ros-resource-retriever_1.12.6.orig.tar.gz
+ 2a9ef52a73905135d8497dda191885a1 3972 ros-resource-retriever_1.12.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ros-resource-retriever
+Vcs-Git: https://salsa.debian.org/science-team/ros-resource-retriever.git
+Checksums-Sha256:
+ 5c5005662efebe5e696ac345d3c5eef5fd8a5bd3877ed82359cb423024dca6f6 2425 ros-resource-retriever_1.12.6-3.dsc
+ dd44ffa5838b47d34485c66332727989f087ddf025da7ef3f66a2935c71fcab3 6916 ros-resource-retriever_1.12.6.orig.tar.gz
+ 8faaa50a37ef2a74748e2304e2fdb44380214c40e45c227d671de4a7e8b33bf3 3972 ros-resource-retriever_1.12.6-3.debian.tar.xz
+Homepage: https://wiki.ros.org/resource_retriever
+Package-List: 
+ libresource-retriever-dev deb libdevel optional arch=any
+ libresource-retriever0d deb libs optional arch=any
+ python3-resource-retriever deb python optional arch=all
+Directory: pool/main/r/ros-resource-retriever
+Priority: optional
+Section: misc

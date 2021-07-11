@@ -1,0 +1,28 @@
+Package: haskell-unexceptionalio
+Binary: libghc-unexceptionalio-dev, libghc-unexceptionalio-prof, libghc-unexceptionalio-doc
+Version: 0.5.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 11d4b24243f12697bc3658a76af96097 2419 haskell-unexceptionalio_0.5.1-1.dsc
+ f9a4ba94ac6e5b5cac3713c4c1f4fb61 5635 haskell-unexceptionalio_0.5.1.orig.tar.gz
+ ee750a4cd4f1ad0e95bb026d261ba053 2240 haskell-unexceptionalio_0.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-unexceptionalio
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-unexceptionalio]
+Checksums-Sha256:
+ f989aaef5aa988767e072d1fb5e72a829dfd58b9e775fa98405a6f28a63987f7 2419 haskell-unexceptionalio_0.5.1-1.dsc
+ b0ea7422bf197ca2620b4a16d7ee53314eb13e7c0c6f9f35fab7bfe69c15fe1e 5635 haskell-unexceptionalio_0.5.1.orig.tar.gz
+ dfe5a0570f7a1d46bd8de612b308570afa31cc032f5837f77aa4b3edb8232c58 2240 haskell-unexceptionalio_0.5.1-1.debian.tar.xz
+Homepage: https://github.com/singpolyma/unexceptionalio
+Package-List: 
+ libghc-unexceptionalio-dev deb haskell optional arch=any
+ libghc-unexceptionalio-doc deb doc optional arch=all
+ libghc-unexceptionalio-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-unexceptionalio
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-equivalence
+Binary: libghc-equivalence-dev, libghc-equivalence-prof, libghc-equivalence-doc
+Version: 0.3.5-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-stmonadtrans-dev (>= 0.4.1), libghc-stmonadtrans-prof, libghc-transformers-compat-dev (>= 0.3), libghc-transformers-compat-prof, libghc-quickcheck2-dev (>= 2), libghc-quickcheck2-prof
+Build-Depends-Indep: ghc-doc, libghc-stmonadtrans-doc, libghc-transformers-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0044a70f3ae6bb6895e64ee5811feb5d 2608 haskell-equivalence_0.3.5-1.dsc
+ abcb2e673e29abb4f8fa948fdade4ecd 8313 haskell-equivalence_0.3.5.orig.tar.gz
+ 6754e44ff0158e2d2e35bcbb6ec4e018 3344 haskell-equivalence_0.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-equivalence
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-equivalence]
+Checksums-Sha256:
+ 4ec8d66ab0589374f70a002f7beebb576152fd74d6bdb385c00ca4a509903954 2608 haskell-equivalence_0.3.5-1.dsc
+ 17ab5a2a6759f6855de40acdd9dde0d0f89e9d9219a4bc8e52623816da97f698 8313 haskell-equivalence_0.3.5.orig.tar.gz
+ af119806b1caef2478cb81d1519605cbd1bffe206c5ec230e710f44085f2afc4 3344 haskell-equivalence_0.3.5-1.debian.tar.xz
+Homepage: https://github.com/pa-ba/equivalence
+Package-List: 
+ libghc-equivalence-dev deb haskell optional arch=any
+ libghc-equivalence-doc deb doc optional arch=all
+ libghc-equivalence-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-equivalence
+Priority: optional
+Section: misc

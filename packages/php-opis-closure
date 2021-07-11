@@ -1,0 +1,27 @@
+Package: php-opis-closure
+Binary: php-opis-closure
+Version: 3.6.1-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Robin Gustafsson <robin@rgson.se>
+Build-Depends: debhelper-compat (= 13), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 70399592bc83a3aad1043ff540309a0b 2083 php-opis-closure_3.6.1-1.dsc
+ 4f3cdd06b72a670335cbc48753618247 21432 php-opis-closure_3.6.1.orig.tar.xz
+ 08822cb5fd6f0219df9fbb58655a8dc4 3804 php-opis-closure_3.6.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-opis-closure
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-opis-closure.git
+Checksums-Sha256:
+ 3f583a6246f52ad25a32081fcded4c7d7f57dd291ea86356969e90faaa8c46fa 2083 php-opis-closure_3.6.1-1.dsc
+ 7cdf8e0392349d4bd4c98261e7949c1b4245bec148e4a3daa74722879058eaaf 21432 php-opis-closure_3.6.1.orig.tar.xz
+ d3968b66c7c46f867e9a16c59104d5090e899973aeaf74cf7e5f76e2beb5f0cf 3804 php-opis-closure_3.6.1-1.debian.tar.xz
+Homepage: https://github.com/opis/closure
+Package-List: 
+ php-opis-closure deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpab, phpunit
+Directory: pool/main/p/php-opis-closure
+Priority: extra
+Section: misc

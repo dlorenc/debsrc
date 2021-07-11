@@ -1,0 +1,30 @@
+Package: lensfun
+Binary: liblensfun-dev, liblensfun1, liblensfun-data-v1, liblensfun-doc, liblensfun-bin, python3-lensfun
+Version: 0.3.2-6
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Mark Purcell <msp@debian.org>, Pino Toscano <pino@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, pkg-config, python3, libglib2.0-dev, dh-python, doxygen, python3-docutils
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b61b4486e9468074f5e4da813418bd65 2341 lensfun_0.3.2-6.dsc
+ 247e59a0812ec451f6cd0d20b3379cb5 784825 lensfun_0.3.2.orig.tar.gz
+ d4ed3c6e69abba854c50a7702bf5532f 13640 lensfun_0.3.2-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/3rdparty/lensfun
+Vcs-Git: https://salsa.debian.org/qt-kde-team/3rdparty/lensfun.git
+Checksums-Sha256:
+ fdfcb9f70dc6527c727f5b304628a720d475d957fba6d2b5fc97f7b4ae3be29c 2341 lensfun_0.3.2-6.dsc
+ ae8bcad46614ca47f5bda65b00af4a257a9564a61725df9c74cb260da544d331 784825 lensfun_0.3.2.orig.tar.gz
+ f05ba125cbdf8933c4ac7606b01a1414d7b3fa8443773734860aa16c37f78d5e 13640 lensfun_0.3.2-6.debian.tar.xz
+Homepage: https://lensfun.github.io/
+Package-List: 
+ liblensfun-bin deb utils optional arch=any
+ liblensfun-data-v1 deb libs optional arch=all
+ liblensfun-dev deb libdevel optional arch=any
+ liblensfun-doc deb doc optional arch=all
+ liblensfun1 deb libs optional arch=any
+ python3-lensfun deb python optional arch=any
+Directory: pool/main/l/lensfun
+Priority: source
+Section: libs

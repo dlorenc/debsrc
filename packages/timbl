@@ -1,0 +1,27 @@
+Package: timbl
+Binary: timbl, libtimbl-dev, libtimbl4
+Version: 6.5-3
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Joost van Baal-Ilić <joostvb@debian.org>, Ko van der Sloot <ko.vandersloot@uvt.nl>, Maarten van Gompel <proycon@anaproy.nl>,
+Build-Depends: debhelper-compat (= 12), libticcutils-dev (>= 0.24), libxml2-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 10e215bff486dee29a6bb8e44c9d9855 1789 timbl_6.5-3.dsc
+ 7d2157e8c8eef895072be03e3349110e 580624 timbl_6.5.orig.tar.gz
+ b3c443e16f769d9fcdf61f284c93bb1d 5668 timbl_6.5-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/timbl
+Vcs-Git: https://salsa.debian.org/science-team/timbl.git
+Checksums-Sha256:
+ 32bd0ffcfe69456277e42432a44065446d220aeb6c147f45ff2347e23205cc5e 1789 timbl_6.5-3.dsc
+ 9bb9dec794997b05501babdfeb44984b4216cf1c070f7c31028a3ff7657bd66f 580624 timbl_6.5.orig.tar.gz
+ 2955df42eec9e40e4bdb79348c683d662db1868fe8c58e457daa62930f1b2451 5668 timbl_6.5-3.debian.tar.xz
+Homepage: https://languagemachines.github.io/timbl/
+Package-List: 
+ libtimbl-dev deb libdevel optional arch=any
+ libtimbl4 deb libs optional arch=any
+ timbl deb science optional arch=any
+Directory: pool/main/t/timbl
+Priority: source
+Section: science

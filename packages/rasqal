@@ -1,0 +1,26 @@
+Package: rasqal
+Binary: librasqal3-dev, librasqal3, rasqal-utils, librasqal3-dbg, librasqal3-doc
+Version: 0.9.33-0.1
+Maintainer: Dave Beckett <dajobe@debian.org>
+Build-Depends: debhelper (>> 8.1.3), cdbs (>= 0.4.93~), dh-autoreconf, pkg-config, libraptor2-dev (>= 2.0.12-2), libgmp-dev, libmhash-dev, libpcre3-dev, uuid-dev
+Architecture: any all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 03adee90fd411ecfada6b01c573759b7 2071 rasqal_0.9.33-0.1.dsc
+ 1f5def51ca0026cd192958ef07228b52 1595647 rasqal_0.9.33.orig.tar.gz
+ 60fd782c60e350a18c7be0f159061440 5980 rasqal_0.9.33-0.1.debian.tar.xz
+Checksums-Sha256:
+ 8eec59c6f2c1d9492e625b8e1b0f76a77eb4bbce04395285dffb062eb778087a 2071 rasqal_0.9.33-0.1.dsc
+ 6924c9ac6570bd241a9669f83b467c728a322470bf34f4b2da4f69492ccfd97c 1595647 rasqal_0.9.33.orig.tar.gz
+ 28916ca977362ff9edf41432faa33c5db25595719d34ede560c15318b970c9b1 5980 rasqal_0.9.33-0.1.debian.tar.xz
+Homepage: http://librdf.org/rasqal/
+Package-List: 
+ librasqal3 deb libs optional arch=any
+ librasqal3-dbg deb debug extra arch=any
+ librasqal3-dev deb libdevel optional arch=any
+ librasqal3-doc deb doc optional arch=all
+ rasqal-utils deb text optional arch=any
+Directory: pool/main/r/rasqal
+Priority: source
+Section: libs

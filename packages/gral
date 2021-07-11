@@ -1,0 +1,25 @@
+Package: gral
+Binary: libgral-java
+Version: 0.11-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper (>= 12), gradle-debian-helper, libproguard-java, libvectorgraphics2d-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ef009b3cee7b127508ef94053d85656a 1979 gral_0.11-2.dsc
+ cdaf243df04a726ad018b3d2247c076a 234892 gral_0.11.orig.tar.gz
+ d30c2025b86239c7273dff235237ce84 4164 gral_0.11-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/gral
+Vcs-Git: https://salsa.debian.org/java-team/gral.git
+Checksums-Sha256:
+ 5c23d3066ce41060c5ad887f32b117380d04d7fb6b035380eebb3681620a8c0e 1979 gral_0.11-2.dsc
+ 5dea4da6fad5cbd0fe4ce30e5487ff4141427bab64b2edfff1857369f1961f9a 234892 gral_0.11.orig.tar.gz
+ 28cbb022a72cb24566fa161b4c100a866af0bf508e7d9166745ac93dc5bb5cc4 4164 gral_0.11-2.debian.tar.xz
+Homepage: https://github.com/eseifert/gral
+Package-List: 
+ libgral-java deb java optional arch=all
+Directory: pool/main/g/gral
+Priority: extra
+Section: misc

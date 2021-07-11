@@ -1,0 +1,26 @@
+Package: ocamldap
+Binary: libldap-ocaml-dev
+Version: 2.4.1-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, ocaml-dune, libocamlnet-ocaml-dev, libssl-ocaml-dev, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5817e1717f019331a826e57d1f866e2e 1789 ocamldap_2.4.1-1.dsc
+ 4fe4b86fdd4d4448e642628c2f2c6762 82417 ocamldap_2.4.1.orig.tar.gz
+ c380acd55b13cbbdfdcd1198c7b002c9 4368 ocamldap_2.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocamldap
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocamldap.git
+Checksums-Sha256:
+ 64b6ff95aa06d5633568390e7da6a7941bc6cb66201b4b277dbd84e3feaecc20 1789 ocamldap_2.4.1-1.dsc
+ 03e6544a78484e395b166a9e3fdd855bf5b45c1a86d1def440c99358e5674800 82417 ocamldap_2.4.1.orig.tar.gz
+ 25266da2c7ee75578a872e907efeabac0f03fbb717109dd6bdf27149210fef8e 4368 ocamldap_2.4.1-1.debian.tar.xz
+Homepage: https://github.com/kit-ty-kate/ocamldap
+Dgit: b67952cccf80541381bf7253a653daee5e21b837 debian archive/debian/2.4.1-1 https://git.dgit.debian.org/ocamldap
+Package-List: 
+ libldap-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocamldap
+Priority: source
+Section: devel

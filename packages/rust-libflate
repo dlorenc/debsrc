@@ -1,0 +1,25 @@
+Package: rust-libflate
+Binary: librust-libflate-dev
+Version: 0.1.25-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-adler32-1+default-dev <!nocheck>, librust-byteorder-1+default-dev <!nocheck>, librust-crc32fast-1+default-dev <!nocheck>, librust-rle-decode-fast-1+default-dev <!nocheck>, librust-take-mut-0.2+default-dev (>= 0.2.2-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 8b5f85ddd1a4e056457d0495ee92233c 2029 rust-libflate_0.1.25-1.dsc
+ 4133f8a57d6a4969dfecdb3eb87f6a72 36152 rust-libflate_0.1.25.orig.tar.gz
+ d506b5b6f4a0bbdcd15b45da631f3913 2508 rust-libflate_0.1.25-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libflate
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/libflate]
+Checksums-Sha256:
+ 382abe1de212f794e24dd778011a5f7f5f17f0d70539605474209fbfca560864 2029 rust-libflate_0.1.25-1.dsc
+ f617fbee4e93a24bb726095ae1d746eaf2ff2502db8b9284b3c07f16176cafd4 36152 rust-libflate_0.1.25.orig.tar.gz
+ 3737c61009075cd5fa46a559a371df0380393a259baeddc2491e70fef81efdda 2508 rust-libflate_0.1.25-1.debian.tar.xz
+Homepage: https://github.com/sile/libflate
+Package-List: 
+ librust-libflate-dev deb rust optional arch=any
+Directory: pool/main/r/rust-libflate
+Priority: extra
+Section: misc

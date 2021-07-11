@@ -1,0 +1,29 @@
+Package: wolfssl
+Binary: libwolfssl24, libwolfssl-dev
+Version: 4.6.0-3
+Maintainer: Felix Lechner <felix.lechner@lease-up.com>
+Build-Depends: debhelper-compat (= 13), libpcap0.8-dev, openssl
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c07a976e178f48a79d68696cf2797407 2415 wolfssl_4.6.0-3.dsc
+ 99f09fce6739a6dcb7554d2c2588e4c1 7745543 wolfssl_4.6.0.orig.tar.gz
+ 937381ee7238ce3cd68ec86089b6d4e2 488 wolfssl_4.6.0.orig.tar.gz.asc
+ b51cf0103118266f125fefb8302ae43b 31532 wolfssl_4.6.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lechner/wolfssl
+Vcs-Git: https://salsa.debian.org/lechner/wolfssl.git -b debian/master
+Checksums-Sha256:
+ 252dea74b5a50d2c43d4912aa4b50508c3ee7240faea273c4eda8ea57bbbe1ae 2415 wolfssl_4.6.0-3.dsc
+ 053aefbb02d0b06b27c5e2df6875b4b587318755b7db9d6aa8d72206b310a848 7745543 wolfssl_4.6.0.orig.tar.gz
+ 05afbbb309d12fd91f74d0198edbeecf5b15e331ad8f199bea96baafe18f2fde 488 wolfssl_4.6.0.orig.tar.gz.asc
+ 4cab3f4da7d88c2bd7811f10102333eb8d5d985117c96c0c7d3f9ae2e13add05 31532 wolfssl_4.6.0-3.debian.tar.xz
+Homepage: https://www.wolfssl.com/products/wolfssl/
+Package-List: 
+ libwolfssl-dev deb libdevel optional arch=any
+ libwolfssl24 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/w/wolfssl
+Priority: optional
+Section: misc

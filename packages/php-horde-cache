@@ -1,0 +1,27 @@
+Package: php-horde-cache
+Binary: php-horde-cache
+Version: 2.5.5-8
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools (>= 1~), pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 39886287326ad22a029052bbc7db2254 2310 php-horde-cache_2.5.5-8.dsc
+ c6e12c3c34f4f6afde9003ca1e96759c 27049 php-horde-cache_2.5.5.orig.tar.gz
+ b09177c2026daffb385317bedf606744 4892 php-horde-cache_2.5.5-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-cache
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-cache.git
+Checksums-Sha256:
+ 767159e6035466fff37a07d305d8c0b4a339629fb8f90e5072d2336efc662c40 2310 php-horde-cache_2.5.5-8.dsc
+ aaec10b1979d7ea57494ee1a4f43800d1debc6141915816ed868c1ade2f073b6 27049 php-horde-cache_2.5.5.orig.tar.gz
+ f3bbce0c897bc5f92f3dcf9c77b0a604a14399b7b657a177425f7f52668becab 4892 php-horde-cache_2.5.5-8.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-cache deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: memcached, mysql-server, php-cli, php-horde-cli, php-horde-db, php-horde-hashtable, php-horde-log, php-horde-memcache, php-horde-test, php-memcache, php-mysql, php-pgsql, php-sqlite3, postgresql
+Directory: pool/main/p/php-horde-cache
+Priority: extra
+Section: misc

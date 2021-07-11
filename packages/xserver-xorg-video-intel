@@ -1,0 +1,25 @@
+Package: xserver-xorg-video-intel
+Binary: xserver-xorg-video-intel
+Version: 2:2.99.917+git20200714-1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>, Michael Stapelberg <stapelberg@debian.org>, maximilian attems <maks@debian.org>, Vincent Cheng <vcheng@debian.org>,
+Build-Depends: debhelper-compat (= 12), pkg-config, xserver-xorg-dev (>= 2:1.11.99.901), x11proto-dev, libx11-dev, libdrm-dev (>= 2.4.23), libgl1-mesa-dev | libgl-dev, libpciaccess-dev (>= 0.8.0+git20071002), libxvmc-dev (>= 2:1.0.12), libxext-dev, libxfixes-dev, libx11-xcb-dev, libxcb-util0-dev, libxcb-dri2-0-dev, libudev-dev [linux-any], quilt, xutils-dev (>= 1:7.5+4), valgrind [amd64 arm64 armhf i386 mips mipsel mips64 mips64el powerpc ppc64 ppc64el s390x x32], libxinerama-dev, libxrandr-dev, libxdamage-dev, libxcursor-dev, libxtst-dev, libxrender-dev, libpixman-1-dev, libxss-dev
+Architecture: amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32
+Standards-Version: 4.5.0
+Format: 1.0
+Files:
+ ce4d8d8ff9afca6824cafe2bfc467477 2901 xserver-xorg-video-intel_2.99.917+git20200714-1.dsc
+ b062b2101cb175036e27c92968188872 1664815 xserver-xorg-video-intel_2.99.917+git20200714.orig.tar.gz
+ 9d9e6355aba53d381468ab2b77660119 935706 xserver-xorg-video-intel_2.99.917+git20200714-1.diff.gz
+Vcs-Browser: https://salsa.debian.org/xorg-team/driver/xserver-xorg-video-intel
+Vcs-Git: https://salsa.debian.org/xorg-team/driver/xserver-xorg-video-intel.git
+Checksums-Sha256:
+ dd87cd14adfb28d598f3a6c901bf7ec7947d16898ca578a055a931722ed85e8e 2901 xserver-xorg-video-intel_2.99.917+git20200714-1.dsc
+ db69e02515f6c8a7fd21fb13120a3f784e1662f7c1b12773d2ee3b69c7277e21 1664815 xserver-xorg-video-intel_2.99.917+git20200714.orig.tar.gz
+ 2adaf8c50152fb9a9d9aa8b4c6db2b0a70bf63866293e986167657421195d346 935706 xserver-xorg-video-intel_2.99.917+git20200714-1.diff.gz
+Homepage: https://www.x.org/
+Package-List: 
+ xserver-xorg-video-intel deb x11 optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,x32
+Directory: pool/main/x/xserver-xorg-video-intel
+Priority: source
+Section: x11

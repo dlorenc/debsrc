@@ -1,0 +1,26 @@
+Package: g810-led
+Binary: g810-led, libg810-led0, libg810-led-dev
+Version: 0.4.2-1
+Maintainer: Stephen Kitt <skitt@debian.org>
+Build-Depends: debhelper-compat (= 12), libhidapi-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7a7cb38ec630653ea32dfe45126619ab 1953 g810-led_0.4.2-1.dsc
+ 6f4180a75469cd763b65fec7f1325c5f 36669 g810-led_0.4.2.orig.tar.gz
+ 96ddb60e311ed575d05fdef46b92ddfa 5036 g810-led_0.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/g810-led
+Vcs-Git: https://salsa.debian.org/debian/g810-led.git
+Checksums-Sha256:
+ a6b97af0436aa662cc1506cf0663cc2d36e6d301f9844a691f904a2f168b2b91 1953 g810-led_0.4.2-1.dsc
+ feeec1c214c80d0fc75a16dcf5a1d20e49cc2ee407d97fd52d0caa4a0a395e9c 36669 g810-led_0.4.2.orig.tar.gz
+ 96731d182c4220b257ccf909745cc292940cada95410290fd0daf34ca1e890b3 5036 g810-led_0.4.2-1.debian.tar.xz
+Homepage: https://github.com/MatMoul/g810-led
+Package-List: 
+ g810-led deb utils optional arch=any
+ libg810-led-dev deb libdevel optional arch=any
+ libg810-led0 deb libs optional arch=any
+Directory: pool/main/g/g810-led
+Priority: extra
+Section: misc

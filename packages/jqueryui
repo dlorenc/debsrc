@@ -1,0 +1,27 @@
+Package: jqueryui
+Binary: libjs-jquery-ui, libjs-jquery-ui-docs, node-jquery-ui
+Version: 1.12.1+dfsg-8
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Marcelo Jorge Vieira (metal) <metal@debian.org>, Paul Gevers <elbrus@debian.org>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), node-requirejs (>= 2.3.2~), uglifyjs, nodejs, dh-sequence-nodejs, yui-compressor
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 30b9669fe0c32717454e4946a147e1eb 2274 jqueryui_1.12.1+dfsg-8.dsc
+ 05348fb9a557e6df14306ecb0a79b618 696380 jqueryui_1.12.1+dfsg.orig.tar.gz
+ 7c11a40ce4b837861def70e2f3b5ab89 125564 jqueryui_1.12.1+dfsg-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/jqueryui
+Vcs-Git: https://salsa.debian.org/js-team/jqueryui.git
+Checksums-Sha256:
+ 01d76839f92eae57f06360566d09be9bd4acc02ba8f9f64e5f4cacc10d7507de 2274 jqueryui_1.12.1+dfsg-8.dsc
+ 472cf4cd5d43ecc078a4cb80fd29675a258f52205510775a7ecace59995a5a60 696380 jqueryui_1.12.1+dfsg.orig.tar.gz
+ 475b2b7bd7020689a5f5a3b52811d882b1568f0be7f6b5a8c257c346aedc3338 125564 jqueryui_1.12.1+dfsg-8.debian.tar.xz
+Homepage: https://jqueryui.com/
+Package-List: 
+ libjs-jquery-ui deb javascript optional arch=all
+ libjs-jquery-ui-docs deb javascript optional arch=all
+ node-jquery-ui deb javascript optional arch=all
+Directory: pool/main/j/jqueryui
+Priority: source
+Section: web

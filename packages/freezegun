@@ -1,0 +1,27 @@
+Package: freezegun
+Binary: python3-freezegun
+Version: 0.3.15-1
+Maintainer: Federico Ceratto <federico@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: dh-python, python3-all, python3-coverage, python3-dateutil, python3-mock, python3-nose, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1f04a57aa29ee14eaa641b83c3d2a350 2076 freezegun_0.3.15-1.dsc
+ 20d32ddc33d79bf53b6029a265ed2fcc 25530 freezegun_0.3.15.orig.tar.gz
+ ebc9c96c802a9799eda33d4af2f2a4c9 2452 freezegun_0.3.15-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-freezegun
+Vcs-Git: https://salsa.debian.org/debian/python-freezegun.git
+Checksums-Sha256:
+ e78e144ecbebab51acb2853b4fd89673975b35642b5ff05016ab055fbaacf79a 2076 freezegun_0.3.15-1.dsc
+ e2062f2c7f95cc276a834c22f1a17179467176b624cc6f936e8bc3be5535ad1b 25530 freezegun_0.3.15.orig.tar.gz
+ a6727dc91df5bffb3e715b53d3fde0307276180fc68add73b0e3905415cd1f88 2452 freezegun_0.3.15-1.debian.tar.xz
+Homepage: https://github.com/spulec/freezegun
+Package-List: 
+ python3-freezegun deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/f/freezegun
+Priority: optional
+Section: misc

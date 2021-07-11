@@ -1,0 +1,22 @@
+Package: netkit-ntalk
+Binary: talk, talkd
+Version: 0.17-17
+Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Build-Depends: debhelper (>> 10~), libncurses-dev, libwrap0-dev, cmake
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ b5bba8dfabc990641602f2d9ed5a336f 1790 netkit-ntalk_0.17-17.dsc
+ e3c57208f8644ae206dab5e236daf7b3 37396 netkit-ntalk_0.17.orig.tar.gz
+ 1290735bfc6c6fb80c925ae66b4ef1a7 10448 netkit-ntalk_0.17-17.debian.tar.xz
+Checksums-Sha256:
+ b32cbcc8247efcdfa5b229e9ac2bfe4e220fefec9ebeef06ca8d0e5b8844f4e2 1790 netkit-ntalk_0.17-17.dsc
+ d8f614e8d4d7981a0adf0f84d2d3954018d5fe0e57a8e5731256d66cbcf45e90 37396 netkit-ntalk_0.17.orig.tar.gz
+ be38dce4a8dcc65bcca94c00981f469abfca60b02173a043136eaefabb7901f5 10448 netkit-ntalk_0.17-17.debian.tar.xz
+Package-List: 
+ talk deb net optional arch=any
+ talkd deb net optional arch=any
+Directory: pool/main/n/netkit-ntalk
+Priority: source
+Section: net

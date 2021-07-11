@@ -1,0 +1,29 @@
+Package: wordpress
+Binary: wordpress, wordpress-l10n, wordpress-theme-twentynineteen, wordpress-theme-twentytwenty, wordpress-theme-twentytwentyone
+Version: 5.7.1+dfsg1-2
+Maintainer: Craig Small <csmall@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-linktree
+Build-Depends-Indep: gettext, libjs-backbone, libjs-cropper, libjs-jquery (>= 1.11.3), libjs-jquery-form, libjs-jquery-ui, libjs-underscore, php-getid3 (>= 1.9.8-2), perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bc6798f0da4f68c932c712e8c82cb018 2392 wordpress_5.7.1+dfsg1-2.dsc
+ c511a42f1df7e3ef93e50f77aab56c3a 11475104 wordpress_5.7.1+dfsg1.orig.tar.xz
+ f12800e4bb38d7f212613fe3ad295a8d 6824396 wordpress_5.7.1+dfsg1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/wordpress
+Vcs-Git: https://salsa.debian.org/debian/wordpress.git
+Checksums-Sha256:
+ bf44661e48cc390cc20c024729ad814b6f6f07344673ac1d84c1c8fa98898017 2392 wordpress_5.7.1+dfsg1-2.dsc
+ 890e231977bd75c0d883415510edaa9313e881f7c066d86f92472aefb9bfd8f3 11475104 wordpress_5.7.1+dfsg1.orig.tar.xz
+ 6b61f231fb1a89389d2cf76b3a6e196fc0117c0e657bc338633a81d982dda498 6824396 wordpress_5.7.1+dfsg1-2.debian.tar.xz
+Homepage: https://wordpress.org
+Package-List: 
+ wordpress deb web optional arch=all
+ wordpress-l10n deb localization optional arch=all
+ wordpress-theme-twentynineteen deb web optional arch=all
+ wordpress-theme-twentytwenty deb web optional arch=all
+ wordpress-theme-twentytwentyone deb web optional arch=all
+Directory: pool/main/w/wordpress
+Priority: source
+Section: web

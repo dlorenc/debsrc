@@ -1,0 +1,23 @@
+Package: xf86-video-omap
+Binary: xserver-xorg-video-omap
+Version: 0.4.5-1.1
+Maintainer: Sebastian Reichel <sre@debian.org>
+Build-Depends: debhelper (>= 10~), libdrm-dev (>= 2.4.36), libudev-dev, libxext-dev, pkg-config, x11proto-core-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xutils-dev, xserver-xorg-dev (>= 2:1.9.4)
+Architecture: armel armhf
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ cd3126194559cd31280424487552c0eb 2104 xf86-video-omap_0.4.5-1.1.dsc
+ 3b8ea5e8fba63355c0dc6681c49d5fe5 316765 xf86-video-omap_0.4.5.orig.tar.bz2
+ e119c74185825b6640eb620b32778aa1 6964 xf86-video-omap_0.4.5-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xf86-video-omap.git
+Vcs-Git: https://anonscm.debian.org/cgit/collab-maint/xf86-video-omap.git
+Checksums-Sha256:
+ bdc048321a6964952fff1654d66eb1767617a6c55a64fbbfe4d9a5460d7d1df0 2104 xf86-video-omap_0.4.5-1.1.dsc
+ 93e7d42107521e61f61980eaea64fb452e87b7b94272e48938ac8d904ccfab5a 316765 xf86-video-omap_0.4.5.orig.tar.bz2
+ 6b84afc6f691c04e403113da82147cf5387948170a563b7565de292438a1827d 6964 xf86-video-omap_0.4.5-1.1.debian.tar.xz
+Package-List: 
+ xserver-xorg-video-omap deb x11 optional arch=armel,armhf
+Directory: pool/main/x/xf86-video-omap
+Priority: source
+Section: x11

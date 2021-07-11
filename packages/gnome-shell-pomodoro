@@ -1,0 +1,27 @@
+Package: gnome-shell-pomodoro
+Binary: gnome-shell-pomodoro, gnome-shell-pomodoro-data
+Version: 0.18.0-0.1
+Maintainer: Joseph Herlant <aerostitch@debian.org>
+Build-Depends: appstream-util, autoconf-archive, debhelper-compat (= 13), desktop-file-utils, gettext, gjs, gnome-shell, gobject-introspection (>= 1.36.0), gsettings-desktop-schemas-dev (>= 3.16.0), libayatana-appindicator3-dev, libcanberra-dev (>= 0.30), libgirepository1.0-dev, libglib2.0-dev (>= 2.38.0), libgom-1.0-dev (>= 0.3.0), libgstreamer1.0-dev (>= 1.2.0), libgtk-3-dev (>= 3.20.0), libpeas-dev (>= 1.5.0), libsqlite3-dev, pkg-config, valac (>= 0.28), xauth, xvfb
+Architecture: linux-any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3897f302aecbbf9a6e8ef0db9e76e149 2572 gnome-shell-pomodoro_0.18.0-0.1.dsc
+ e884579bb509ca586b1fd443e9b0b9f4 6203162 gnome-shell-pomodoro_0.18.0.orig.tar.gz
+ 5bf75dffdb535f51405a8470328de8a2 6872 gnome-shell-pomodoro_0.18.0-0.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/gnome-shell-pomodoro
+Vcs-Git: https://salsa.debian.org/debian/gnome-shell-pomodoro.git
+Checksums-Sha256:
+ c2cf3584e0f582c6fcf824aea81bc2785945a94d3c3567e61634f9ab0384bedb 2572 gnome-shell-pomodoro_0.18.0-0.1.dsc
+ 16cb0a772a5e0adad1519dbc63f98a6959887b4e65f8db512a9b7a4d24fcc52d 6203162 gnome-shell-pomodoro_0.18.0.orig.tar.gz
+ d3fefbc401096985878effef1c0f355dd1e2221e38686c8ae9e4f4c1a9ca4b23 6872 gnome-shell-pomodoro_0.18.0-0.1.debian.tar.xz
+Homepage: https://github.com/codito/gnome-pomodoro/
+Package-List: 
+ gnome-shell-pomodoro deb gnome optional arch=linux-any
+ gnome-shell-pomodoro-data deb gnome optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/g/gnome-shell-pomodoro
+Priority: optional
+Section: misc

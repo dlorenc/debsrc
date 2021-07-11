@@ -1,0 +1,27 @@
+Package: node-eslint-utils
+Binary: node-eslint-utils
+Version: 2.1.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), eslint <!nocheck>, mocha <!nocheck>, node-dot-prop <!nocheck>, node-mysticatea-eslint-plugin <!nocheck>, node-rollup-plugin-sourcemaps, nodejs (>= 12), pandoc <!nodoc>, rollup
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 49daf52268fdce2abefacfd4dc809636 2247 node-eslint-utils_2.1.0-3.dsc
+ 4a3e4071f215e020a51469f6a99aa74f 30499 node-eslint-utils_2.1.0.orig.tar.gz
+ 9c0e6c066f0745700ebfdb8b583fa0bf 5756 node-eslint-utils_2.1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-eslint-utils
+Vcs-Git: https://salsa.debian.org/js-team/node-eslint-utils.git
+Checksums-Sha256:
+ bcf09759a3b1999f5f82f99614f17db240be742c87e765bd0e3107e808cf46f6 2247 node-eslint-utils_2.1.0-3.dsc
+ 0978539d71a39f71dbbb13bd461035ef4856376072093665bf80f281065cba64 30499 node-eslint-utils_2.1.0.orig.tar.gz
+ acb55988a12c730a55da0eb4d2a170583a7374322a1876ba00880bff8805e057 5756 node-eslint-utils_2.1.0-3.debian.tar.xz
+Homepage: https://github.com/mysticatea/eslint-utils
+Package-List: 
+ node-eslint-utils deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: nodejs
+Directory: pool/main/n/node-eslint-utils
+Priority: extra
+Section: misc

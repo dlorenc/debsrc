@@ -1,0 +1,26 @@
+Package: python-mockupdb
+Binary: python3-mockupdb
+Version: 1.8.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-pymongo (>= 3)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d9549d2db470dae5c64590f6eee0641c 2100 python-mockupdb_1.8.0-1.dsc
+ 717f8f20cb565ecf26cc0b4d9f79a831 47645 python-mockupdb_1.8.0.orig.tar.gz
+ 9e0799a97ada920ee8eccc49647988cf 2332 python-mockupdb_1.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-mockupdb
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-mockupdb.git
+Checksums-Sha256:
+ 9a028fcbc5d15ffc78e67862139d39657c64b117e72a2a7fadcc3542eff53cc8 2100 python-mockupdb_1.8.0-1.dsc
+ 8832627ee23c6df620ed86a4ccc5ca71f0375e704b1686851950946cd22b1f8c 47645 python-mockupdb_1.8.0.orig.tar.gz
+ c40b3f09b27fb57b4bfe430059bd733b14611cae8e1a18f8c61c9e25693381cb 2332 python-mockupdb_1.8.0-1.debian.tar.xz
+Homepage: https://github.com/ajdavis/mongo-mockup-db
+Package-List: 
+ python3-mockupdb deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-mockupdb
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: pgsphere
+Binary: postgresql-13-pgsphere
+Version: 1.1.1+2020-10-20-2
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>, Markus Nullmeier <mnullmei@vodafonemail.de>, Christoph Berg <myon@debian.org>,
+Build-Depends: debhelper-compat (= 13), docbook-dsssl, docbook-xml, flex, libhealpix-cxx-dev (>= 3.30.0), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 66f1fd138c1f9e59c69a7b4cc0fe5cbb 2230 pgsphere_1.1.1+2020-10-20-2.dsc
+ 0c65012612d32ea1cfdcd5ddd612d60c 916836 pgsphere_1.1.1+2020-10-20.orig.tar.gz
+ f7af61ce75e7898c3673baff2391802b 4064 pgsphere_1.1.1+2020-10-20-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pgsphere
+Vcs-Git: https://salsa.debian.org/postgresql/pgsphere.git
+Checksums-Sha256:
+ 2916696b2beb8da9f4e1a2b9addbbff72225a38b24ffd9f72bab70bea2ca0435 2230 pgsphere_1.1.1+2020-10-20-2.dsc
+ 2cb47d133550014cb3ceeaf7412d187b8fe110b621e2a7d13dae10cc95129024 916836 pgsphere_1.1.1+2020-10-20.orig.tar.gz
+ e1d4de133f1ce19d8c24d2e927a94c4913574d9509d1f8e469c3ff9df71113f6 4064 pgsphere_1.1.1+2020-10-20-2.debian.tar.xz
+Homepage: https://pgsphere.github.io/
+Package-List: 
+ postgresql-13-pgsphere deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/p/pgsphere
+Priority: extra
+Section: misc

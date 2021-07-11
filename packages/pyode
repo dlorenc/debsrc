@@ -1,0 +1,28 @@
+Package: pyode
+Binary: python3-pyode, python3-pyode-doc
+Version: 1.2.0.dev15-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev, libode-dev, cython3, python3-setuptools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2075c382681bd6ebc91c4abce54d8824 2269 pyode_1.2.0.dev15-3.dsc
+ 1b449478dc3623a3e8b2c3d654782138 73988 pyode_1.2.0.dev15.orig.tar.gz
+ bc4dfa992f4c886b6bb6d29a8802d904 6312 pyode_1.2.0.dev15-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pyode
+Vcs-Git: https://salsa.debian.org/med-team/pyode.git
+Checksums-Sha256:
+ 9b0e7267524d328f1e2d9d768cd6ebf05897797ac7a2b386fdbfa0c62d832cc7 2269 pyode_1.2.0.dev15-3.dsc
+ dffd44260bb329b102cd779e58a17ffbb1eda41f70ee17061cbe85826fae250a 73988 pyode_1.2.0.dev15.orig.tar.gz
+ 04f64e3aeecb1c63b8207f20dec0266432169cca12821cfc7ccb7fcde5d2c444 6312 pyode_1.2.0.dev15-3.debian.tar.xz
+Homepage: https://github.com/filipeabperes/Py3ODE
+Package-List: 
+ python3-pyode deb python optional arch=any
+ python3-pyode-doc deb doc optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/pyode
+Priority: source
+Section: science

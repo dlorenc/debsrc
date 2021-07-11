@@ -1,0 +1,25 @@
+Package: haskell-inline-c
+Binary: libghc-inline-c-dev, libghc-inline-c-prof, libghc-inline-c-doc
+Version: 0.9.1.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-ansi-wl-pprint-dev (>= 0.6.8), libghc-ansi-wl-pprint-prof (>= 0.6.8), libghc-hashable-dev, libghc-hashable-prof, libghc-parsers-dev, libghc-parsers-prof, libghc-unordered-containers-dev, libghc-unordered-containers-prof, libghc-vector-dev, libghc-vector-prof, libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-hspec-dev (>= 2), libghc-hspec-prof (>= 2), libghc-raw-strings-qq-dev, libghc-raw-strings-qq-prof, libghc-regex-posix-dev, libghc-regex-posix-prof, libghc-split-dev, libghc-split-prof
+Build-Depends-Indep: ghc-doc, libghc-ansi-wl-pprint-doc, libghc-hashable-doc, libghc-parsers-doc, libghc-unordered-containers-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 07f6914ade080a5f1866a3c36c099166 2745 haskell-inline-c_0.9.1.0-2.dsc
+ 1f85de2c4be6e2ee17bc0bc526ceb90d 44983 haskell-inline-c_0.9.1.0.orig.tar.gz
+ 25c72b15357055c00d59043e2a085d9f 2080 haskell-inline-c_0.9.1.0-2.debian.tar.xz
+Checksums-Sha256:
+ b5619a376b632481d2c58ef02aa8c61a5d84dacb2bd6aef44e25b786c02bbbbd 2745 haskell-inline-c_0.9.1.0-2.dsc
+ 829677f0a781431a55f870cef405e3219fb16842c9c1ab265ddc35890b8b2976 44983 haskell-inline-c_0.9.1.0.orig.tar.gz
+ 602ad698b6f31ff7ac172053dfec8c36092aee3b1d426f72023aebe6a59164c5 2080 haskell-inline-c_0.9.1.0-2.debian.tar.xz
+Package-List: 
+ libghc-inline-c-dev deb haskell optional arch=any
+ libghc-inline-c-doc deb doc optional arch=all
+ libghc-inline-c-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-inline-c
+Priority: extra
+Section: misc

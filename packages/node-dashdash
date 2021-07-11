@@ -1,0 +1,26 @@
+Package: node-dashdash
+Binary: node-dashdash
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-assert-plus <!nocheck>, node-tap <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 70a987573edbcef97b5420ba76ef8c16 2080 node-dashdash_2.0.0-1.dsc
+ ae77e66a3f556553a838a3bffad1c080 69857 node-dashdash_2.0.0.orig.tar.gz
+ 23e6728bdad4a3bb6a0e9ffb1d6650d9 2736 node-dashdash_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-dashdash
+Vcs-Git: https://salsa.debian.org/js-team/node-dashdash.git
+Checksums-Sha256:
+ 3d5c7994554687606a7e43888c434c5c9d5d0fa729219103a8e1382b324b07a9 2080 node-dashdash_2.0.0-1.dsc
+ f669a42fd997fb6106faa7e38769ef430df2c585a7cdbc3ea3d298108b20e265 69857 node-dashdash_2.0.0.orig.tar.gz
+ f2baf71b19ca86d3b220d9270e8ca0ef2de22745747197a7417f978764c165d9 2736 node-dashdash_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/trentm/node-dashdash
+Package-List: 
+ node-dashdash deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-dashdash
+Priority: extra
+Section: javascript

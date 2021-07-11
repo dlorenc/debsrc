@@ -1,0 +1,28 @@
+Package: ruby-chromedriver-helper
+Binary: ruby-chromedriver-helper
+Version: 2.1.0-7
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Mangesh Divate <divatemangesh12@gmail.com>
+Build-Depends: debhelper (>= 11~), gem2deb, rake, ruby-archive-zip (>= 0.10), ruby-nokogiri (>= 1.8), ruby-rspec
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 23f3f6e9a7e099443b9ef4bf64dea921 2287 ruby-chromedriver-helper_2.1.0-7.dsc
+ 532e96064de8856fd035b573370e239c 15612 ruby-chromedriver-helper_2.1.0.orig.tar.gz
+ e2c5067259a5874671e6ce2bbc84ddc4 3808 ruby-chromedriver-helper_2.1.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-chromedriver-helper
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-chromedriver-helper.git
+Checksums-Sha256:
+ bfaafe0628a3dcb05f473dad184d0c90f57441862b91dda15f02bfcb75a4486b 2287 ruby-chromedriver-helper_2.1.0-7.dsc
+ 56335544fbed314607a93c45f765ede1fd4e63009a38ce096c995c713de5c5b1 15612 ruby-chromedriver-helper_2.1.0.orig.tar.gz
+ fc0926c1019febf608c5c641cda4c34bd9e2215c0dc5c69721b5f6538eeeb4cf 3808 ruby-chromedriver-helper_2.1.0-7.debian.tar.xz
+Homepage: https://github.com/flavorjones/chromedriver-helper
+Package-List: 
+ ruby-chromedriver-helper deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Testsuite-Triggers: bundler
+Directory: pool/main/r/ruby-chromedriver-helper
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: libgit-repository-perl
+Binary: libgit-repository-perl
+Version: 1.324-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: git <!nocheck>, libgit-version-compare-perl <!nocheck>, libnamespace-clean-perl <!nocheck>, libsystem-command-perl (>= 1.118) <!nocheck>, libtest-requires-git-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9eb1949932bb34b3b69a2d18b0286e2d 2608 libgit-repository-perl_1.324-2.dsc
+ 9d7b851ee21f5ff93df7541489995103 56277 libgit-repository-perl_1.324.orig.tar.gz
+ af35f59fe810d96b8956a66d6a20278b 4704 libgit-repository-perl_1.324-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libgit-repository-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libgit-repository-perl.git
+Checksums-Sha256:
+ 77fe7e24db46daa0830431a3630e04077cc9815a88c14bbae14e130cfaeac196 2608 libgit-repository-perl_1.324-2.dsc
+ 814dfad104a9546349f9e0fd492c86137de827ebc284017a91a5267c120ad4f6 56277 libgit-repository-perl_1.324.orig.tar.gz
+ 00621cca6291f8e0825069609c1220ea37d4d00dab6d4dc0aaca9ddc117593a2 4704 libgit-repository-perl_1.324-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Git-Repository
+Dgit: 1c02b707ee2cacfe8cc31ff89a061f4d38a76ff4 debian archive/debian/1.324-2 https://git.dgit.debian.org/libgit-repository-perl
+Package-List: 
+ libgit-repository-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libg/libgit-repository-perl
+Priority: source
+Section: perl

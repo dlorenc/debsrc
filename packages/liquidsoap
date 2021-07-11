@@ -1,0 +1,26 @@
+Package: liquidsoap
+Binary: liquidsoap, liquidsoap-mode
+Version: 1.4.3-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Kyle Robbertze <paddatrapper@debian.org>
+Build-Depends: chrpath, debhelper (>= 11), debhelper-compat (= 13), dh-elpa, dh-ocaml (>= 1.0.1), festival, fonts-liberation, pandoc, libalsa-ocaml-dev (>= 0.2.1) [linux-any], libao-ocaml-dev (>= 0.2.0), libbjack-ocaml-dev (>= 0.1.3), libcamlimages-ocaml-dev (>= 4.0.1-6), libcamomile-ocaml-dev (>= 1.0.0), libcry-ocaml-dev (>= 0.6.0), libdtools-ocaml-dev (>= 0.4.1), libduppy-ocaml-dev (>= 0.8.0), libfaad-ocaml-dev (>= 0.4.0), libffmpeg-ocaml-dev (>= 0.2.), libflac-ocaml-dev (>= 0.1.5), libfrei0r-ocaml-dev (>= 0.1.0), libgavl-ocaml-dev (>= 0.1.4), libgd-ocaml-dev | libgd-gd2-noxpm-ocaml-dev, libssl-ocaml-dev (>= 0.5.2), libgstreamer-ocaml-dev (>= 0.3.0), libinotify-ocaml-dev (>= 1.0) [linux-any], libladspa-ocaml-dev (>= 0.1.4), liblastfm-ocaml-dev (>= 0.3.0), liblo-ocaml-dev (>= 0.1.2), libmad-ocaml-dev (>= 0.1.4), libmagic-ocaml-dev (>= 0.6), libmenhir-ocaml-dev, libmm-ocaml-dev (>= 0.5.0), libmp3lame-ocaml-dev (>= 0.3.2), libogg-ocaml-dev (>= 0.5.0), libopus-ocaml-dev (>= 0.1.3), libpcre-ocaml-dev, libportaudio-ocaml-dev (>= 0.2.0), libpulse-ocaml-dev (>= 0.1.2), libsamplerate-ocaml-dev (>= 0.1.1), libsdl-ocaml-dev, libsedlex-ocaml-dev (>= 2.0), libshine-ocaml-dev (>= 0.2.0), libsoundtouch-ocaml-dev (>= 0.1.7), libspeex-ocaml-dev (>= 0.2.1), libtaglib-ocaml-dev (>= 0.3.0), libtheora-ocaml-dev (>= 0.3.1), libvoaacenc-ocaml-dev, libvorbis-ocaml-dev (>= 0.7.0), libxml-dom-perl, libxmlplaylist-ocaml-dev (>= 0.1.3), libyojson-ocaml-dev, menhir, ocaml-findlib, ocaml-nox (>= 4.08), sox
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ce6cf4fc8f10c7774dce00f58c4accbe 3469 liquidsoap_1.4.3-2.dsc
+ 0bdb8b8366c700560f44c509232fd173 728157 liquidsoap_1.4.3.orig.tar.bz2
+ d1161b6c0cfdfb7a31a487fa871d145d 18236 liquidsoap_1.4.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/liquidsoap
+Vcs-Git: https://salsa.debian.org/ocaml-team/liquidsoap.git
+Checksums-Sha256:
+ 6188ca1d2f7b5a5570ef6c69c0ee1fc3b8c3fea8378300a9d97f47199836c445 3469 liquidsoap_1.4.3-2.dsc
+ 7df1791063ffee2c6dc3aec8366e3f3bbb6acd2df7156024abb404040e2d0e44 728157 liquidsoap_1.4.3.orig.tar.bz2
+ 57704c4845c37f0105f401ca22baf16affed46052378983f5cb88aab7d381667 18236 liquidsoap_1.4.3-2.debian.tar.xz
+Homepage: http://savonet.sourceforge.net/
+Package-List: 
+ liquidsoap deb sound optional arch=any
+ liquidsoap-mode deb editors optional arch=all
+Directory: pool/main/l/liquidsoap
+Priority: source
+Section: sound

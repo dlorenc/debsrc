@@ -1,0 +1,27 @@
+Package: knack
+Binary: python3-knack
+Version: 0.8.0~rc2-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, pylint <!nocheck>, python3-all, python3-argcomplete <!nocheck>, python3-colorama <!nocheck>, python3-flake8 <!nocheck>, python3-jmespath <!nocheck>, python3-mock <!nocheck>, python3-pytest <!nocheck>, python3-tabulate <!nocheck>, python3-vcr <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 93c00433cf1dfcf9e21a12180eba2026 1945 knack_0.8.0~rc2-1.dsc
+ 9cca463f5af8e4eb30cc78e3b2dea7c8 84232 knack_0.8.0~rc2.orig.tar.gz
+ dccb0bd281bc67a497af2866d7ff4d65 2928 knack_0.8.0~rc2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/knack
+Vcs-Git: https://salsa.debian.org/python-team/packages/knack.git
+Checksums-Sha256:
+ 55bd81c737c1a81b2aaad6b7b64b805ad33b1022adcf93cd15221e845e3d70e0 1945 knack_0.8.0~rc2-1.dsc
+ aa96f20d8f940e441d8af58cb12098ceefc6ed50069eea27f96f894066f277eb 84232 knack_0.8.0~rc2.orig.tar.gz
+ 82b9c11ab66d4ccb6a7aead37c0314dcf3a9616b1ab2f1e23b15b99662c73b18 2928 knack_0.8.0~rc2-1.debian.tar.xz
+Homepage: https://github.com/Microsoft/knack
+Package-List: 
+ python3-knack deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/k/knack
+Priority: extra
+Section: misc

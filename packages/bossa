@@ -1,0 +1,26 @@
+Package: bossa
+Binary: bossa, bossa-cli
+Version: 1.9.1-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Scott Howard <showard@debian.org>
+Build-Depends: debhelper-compat (= 12), libwxgtk3.0-gtk3-dev, libreadline6-dev, libx11-dev, imagemagick
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ff4a2a74b01d67d9d2cdf0999f7976bc 2053 bossa_1.9.1-1.dsc
+ a79d34e125aaeecf65ec9f04c3120cc7 544082 bossa_1.9.1.orig.tar.gz
+ 87df638813f298a9f5365a6aa0a9e596 5876 bossa_1.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/bossa
+Vcs-Git: https://salsa.debian.org/science-team/bossa.git
+Checksums-Sha256:
+ 3710a81d87a3ef45963cd7777c34c6cd7ef471e91b4ffed81fb8cd10216795ae 2053 bossa_1.9.1-1.dsc
+ ca650455dfa36cbd029010167347525bea424717a71a691381c0811591c93e72 544082 bossa_1.9.1.orig.tar.gz
+ 1ed1f8a4cd8809bb00c769eb0a981855889375e0da4ba5c7d7e094d667ad37c7 5876 bossa_1.9.1-1.debian.tar.xz
+Homepage: http://www.shumatech.com/web/products/bossa
+Package-List: 
+ bossa deb electronics optional arch=any
+ bossa-cli deb electronics optional arch=any
+Directory: pool/main/b/bossa
+Priority: optional
+Section: misc

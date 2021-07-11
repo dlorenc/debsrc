@@ -1,0 +1,27 @@
+Package: lexicon
+Binary: python3-lexicon, lexicon
+Version: 3.3.17-1
+Maintainer: Ana Custura <ana@netstat.org.uk>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), python3-all, dh-python, python3-boto3, python3-cryptography (>= 1.3.4), python3-future, python3-idna (>= 2.0.0~), python3-mock (>= 2.0.0~), python3-openssl (>= 0.14~), python3-pytest, python3-setuptools, python3-softlayer, python3-tldextract, python3-vcr, python3-yaml
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ dd8d08ac5db5632b3ef337419d1337e8 2341 lexicon_3.3.17-1.dsc
+ 45ab3c239c094ed018524f4e9bc7f95c 3263978 lexicon_3.3.17.orig.tar.gz
+ 78cd514f63f584af7fcd4b912adbe860 4532 lexicon_3.3.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-lexicon
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-lexicon.git
+Checksums-Sha256:
+ d3d8de48f4329e0eca4cf4cf3712a30fef21ecfbb36df9a6cb15e451686a676d 2341 lexicon_3.3.17-1.dsc
+ 4bcd454d7a7965f6e4f7cc65f9c79f30efd8d6b3d5524252f4f159c3d93c661b 3263978 lexicon_3.3.17.orig.tar.gz
+ 51521cf1d482f3a62b04840a21ea8a0625a1ad98a0e044ee2998793a5432d054 4532 lexicon_3.3.17-1.debian.tar.xz
+Homepage: https://github.com/AnalogJ/lexicon
+Package-List: 
+ lexicon deb python optional arch=all
+ python3-lexicon deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/l/lexicon
+Priority: extra
+Section: misc

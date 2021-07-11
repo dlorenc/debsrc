@@ -1,0 +1,35 @@
+Package: lava
+Binary: lava-dispatcher, lava-dispatcher-host, lava-server, lava-common, lava, lava-lxc-mocker, lava-coordinator, lava-dev, lava-server-doc
+Version: 2020.12-5
+Maintainer: Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>
+Uploaders: Antonio Terceiro <antonio.terceiro@linaro.org>, Remi Duraffort <remi.duraffort@linaro.org>
+Build-Depends: debhelper-compat (= 12), dh-python, libjs-bootstrap, libjs-excanvas, libjs-jquery, libjs-jquery-flot (>= 0.8.2), libjs-jquery-typeahead, node-uglify, po-debconf, python3, python3-setuptools (>= 3), python3-sphinx (>= 1.4), python3-sphinx-bootstrap-theme, python3-yaml
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 83a214eb277e7708ef5a44b77f860c2b 2950 lava_2020.12-5.dsc
+ 6355b4c22a0339574b7e1286613b6cc8 7318009 lava_2020.12.orig.tar.gz
+ 97f2b0bc119279f17e3b64fbe28073a4 92828 lava_2020.12-5.debian.tar.xz
+Vcs-Browser: https://git.lavasoftware.org/lava/lava
+Vcs-Git: https://git.lavasoftware.org/lava/lava.git
+Checksums-Sha256:
+ b6d11ea97a5ae3234117eb82848920bba2464a08fdc65eaac4f12af10809348e 2950 lava_2020.12-5.dsc
+ db6068a6870f5295c77574ab1f9917321d728d508e8605748f54c2904c450ef5 7318009 lava_2020.12.orig.tar.gz
+ d70e20235049aef09abad7b32af337aef91a07b012c776ad4cf1092a5ba953b5 92828 lava_2020.12-5.debian.tar.xz
+Homepage: https://www.lavasoftware.org/
+Package-List: 
+ lava deb metapackages optional arch=all
+ lava-common deb net optional arch=all
+ lava-coordinator deb net optional arch=all
+ lava-dev deb devel optional arch=all
+ lava-dispatcher deb net optional arch=all
+ lava-dispatcher-host deb net optional arch=all
+ lava-lxc-mocker deb net optional arch=all
+ lava-server deb net optional arch=all
+ lava-server-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, dh-python, git, lxc, nfs-kernel-server, postgresql, python3-pymongo, python3-pytest, python3-pytest-django, python3-pytest-mock, python3-setuptools, python3-sphinx, python3-tz, python3-yaml, qemu-system-x86, schroot, telnet, tftpd-hpa, u-boot-tools
+Directory: pool/main/l/lava
+Priority: extra
+Section: misc

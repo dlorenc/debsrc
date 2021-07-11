@@ -1,0 +1,26 @@
+Package: kbibtex
+Binary: kbibtex, kbibtex-data
+Version: 0.9.90-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>, Pino Toscano <pino@debian.org>,
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.7.2~), extra-cmake-modules (>= 5.51.0~), gettext, qtbase5-dev (>= 5.9.0~), libicu-dev, libkf5doctools-dev (>= 5.51.0~), libkf5i18n-dev (>= 5.51.0~), libkf5xmlgui-dev (>= 5.51.0~), libkf5kio-dev (>= 5.51.0~), libkf5iconthemes-dev (>= 5.51.0~), libkf5parts-dev (>= 5.51.0~), libkf5coreaddons-dev (>= 5.51.0~), libkf5service-dev (>= 5.51.0~), libkf5wallet-dev (>= 5.51.0~), libkf5crash-dev (>= 5.51.0~), libkf5texteditor-dev (>= 5.51.0~), libqt5xmlpatterns5-dev (>= 5.9.0~), qtwebengine5-dev (>= 5.9.0~) [amd64 arm64 armhf i386 mipsel], libqt5webkit5-dev (>= 5.9.0~) [!amd64 !arm64 !armhf !i386 !mipsel], libqt5networkauth5-dev (>= 5.9.0~), libpoppler-qt5-dev, pkg-config, pkg-kde-tools, shared-mime-info
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 792308d3a28b806d3f69068885190053 2733 kbibtex_0.9.90-1.dsc
+ 02a5d0305829b057bf2d8bb8f73b1cdf 3836360 kbibtex_0.9.90.orig.tar.xz
+ 6f834cc56851d4a4d81e985632945c65 13388 kbibtex_0.9.90-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/kbibtex
+Vcs-Git: https://salsa.debian.org/science-team/kbibtex.git
+Checksums-Sha256:
+ 5369291f1065eb66766549ee22876e7353d89f79c575bb24f08eeb5558d6e4d0 2733 kbibtex_0.9.90-1.dsc
+ 610cb193cfb58d57a1ebec5bfc92ab48a591c918dca7e07fc16c1ff0253f3d2e 3836360 kbibtex_0.9.90.orig.tar.xz
+ b245759148ea799c5a396633947fd39c33a7f81d2ddb572ec52a72e92e65b6a6 13388 kbibtex_0.9.90-1.debian.tar.xz
+Homepage: https://userbase.kde.org/KBibTeX
+Package-List: 
+ kbibtex deb kde optional arch=any
+ kbibtex-data deb kde optional arch=all
+Directory: pool/main/k/kbibtex
+Priority: source
+Section: kde

@@ -1,0 +1,27 @@
+Package: r-bioc-summarizedexperiment
+Binary: r-bioc-summarizedexperiment
+Version: 1.20.0+dfsg-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-matrixgenerics, r-bioc-genomicranges (>= 1.41.5), r-bioc-biobase, r-cran-matrix, r-bioc-biocgenerics (>= 0.15.3), r-bioc-s4vectors (>= 0.27.12), r-bioc-iranges (>= 2.23.9), r-bioc-genomeinfodb (>= 1.13.1), r-bioc-delayedarray (>= 0.15.10)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8c3bcdd911d2a29803032f60eed45bd0 2576 r-bioc-summarizedexperiment_1.20.0+dfsg-1.dsc
+ c8f3d82c352d5bbf341db1e39b74cda2 923688 r-bioc-summarizedexperiment_1.20.0+dfsg.orig.tar.xz
+ dac837d424730311d84907638376be8a 4940 r-bioc-summarizedexperiment_1.20.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-summarizedexperiment
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-summarizedexperiment.git
+Checksums-Sha256:
+ 151b5070c6fe9a517e05268ed499817fe446e6c828421d6c90919bfede73441e 2576 r-bioc-summarizedexperiment_1.20.0+dfsg-1.dsc
+ 10b48ee6e1ab1a54475e2879de96fbb847dcdd2090f46d22d8d2e05dfd7d1bdd 923688 r-bioc-summarizedexperiment_1.20.0+dfsg.orig.tar.xz
+ 341e87e760493eed2479265fe3c225589a5a3d3482c7cb6233383a0479162ed9 4940 r-bioc-summarizedexperiment_1.20.0+dfsg-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/SummarizedExperiment/
+Package-List: 
+ r-bioc-summarizedexperiment deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-bioc-annotate, r-cran-digest, r-cran-runit
+Directory: pool/main/r/r-bioc-summarizedexperiment
+Priority: optional
+Section: misc

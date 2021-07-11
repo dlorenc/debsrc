@@ -1,0 +1,27 @@
+Package: python-bugzilla
+Binary: python3-bugzilla, bugzilla-cli
+Version: 3.0.2-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Sergio Durigan Junior <sergiodj@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-requests, python3-pytest, python3-docutils, locales-all
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 44a87b80f6b09266978b12230b24bf2e 2241 python-bugzilla_3.0.2-1.dsc
+ ad8082e88c7f2296b731a29aacde20f6 115324 python-bugzilla_3.0.2.orig.tar.gz
+ 595afb89335ef80fd16e3b87ee8fe896 2924 python-bugzilla_3.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-bugzilla
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-bugzilla.git
+Checksums-Sha256:
+ 95a32153bfc12fb03bdc98bb9bddd2c9b0190e292c60bfa4476f2bc67a12bb70 2241 python-bugzilla_3.0.2-1.dsc
+ f251da6d2317d57f8b4abf354e5200250cab7b3ea0a5f0c6eb67dce7240f6966 115324 python-bugzilla_3.0.2.orig.tar.gz
+ 7a05ce79e5d9d1ce990306fe9c6c88bafdd62d81b10789ae1acecbf006d6b10a 2924 python-bugzilla_3.0.2-1.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/python-bugzilla
+Package-List: 
+ bugzilla-cli deb devel optional arch=all
+ python3-bugzilla deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-bugzilla
+Priority: optional
+Section: misc

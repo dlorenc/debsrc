@@ -1,0 +1,27 @@
+Package: simutrans
+Binary: simutrans, simutrans-data, simutrans-makeobj
+Version: 121.0-1
+Maintainer: Debian Games Team <Pkg-games-devel@alioth-lists.debian.net>
+Uploaders: Clint Adams <clint@debian.org>, Jörg Frings-Fürst <debian@jff.email>
+Build-Depends: debhelper-compat (= 12), libbz2-dev, libpng-dev, libsdl2-dev, libsdl2-mixer-dev, quilt, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3ea6a219b6bd9a2898728f3049c25706 2306 simutrans_121.0-1.dsc
+ 1d0233393129563afab18ff88b824500 2583764 simutrans_121.0.orig.tar.xz
+ f712fcedf0d6f03fbad0b3d1dadd1847 274892 simutrans_121.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/simutrans
+Vcs-Git: https://salsa.debian.org/games-team/simutrans.git
+Checksums-Sha256:
+ dbfa1b39723c7acb8432af414599f76b33e1687df834cfd793b0ff1e9e3260be 2306 simutrans_121.0-1.dsc
+ 094d425c4d4737cd6308b31c1bf774889632a130f1b33008002805f72533fdd7 2583764 simutrans_121.0.orig.tar.xz
+ ebee6820ec9e2bca98eccee86019cb5cdfb32c79d4465c4cdafaab8ade5407a5 274892 simutrans_121.0-1.debian.tar.xz
+Homepage: http://www.simutrans.com/
+Package-List: 
+ simutrans deb games optional arch=any
+ simutrans-data deb games optional arch=all
+ simutrans-makeobj deb games optional arch=any
+Directory: pool/main/s/simutrans
+Priority: source
+Section: games

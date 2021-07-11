@@ -1,0 +1,25 @@
+Package: isenkram
+Binary: isenkram, isenkram-cli
+Version: 0.48
+Maintainer: Petter Reinholdtsen <pere@debian.org>
+Build-Depends: debhelper (>= 12), po-debconf
+Build-Depends-Indep: dash (>= 0.5.4-12), python3, python3-gi, dh-python, gir1.2-gudev-1.0, gir1.2-gtk-3.0, gir1.2-notify-0.7, rdfind, packagekit, appstream, gir1.2-packagekitglib-1.0, python3-docutils
+Architecture: all
+Standards-Version: 4.5.1
+Format: 1.0
+Files:
+ fa29d1e4af3dddc1ef5c4d212b8be1e3 1825 isenkram_0.48.dsc
+ eb85a76081c8a510cf11b4d4ff89dbb6 196435 isenkram_0.48.tar.gz
+Vcs-Browser: https://salsa.debian.org/debian/isenkram
+Vcs-Git: https://salsa.debian.org/debian/isenkram.git
+Checksums-Sha256:
+ 77df290abdcc979c370f83056f16d2c0b7bc8cca3bc9c5fdc76ac92cae51c595 1825 isenkram_0.48.dsc
+ 5cba393f70e15ef7904f04a5851dff2cc920ed245e187d1b3fc8b41c79206349 196435 isenkram_0.48.tar.gz
+Package-List: 
+ isenkram deb misc optional arch=all
+ isenkram-cli deb misc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: pciutils, usbutils
+Directory: pool/main/i/isenkram
+Priority: source
+Section: misc

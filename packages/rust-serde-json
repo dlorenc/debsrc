@@ -1,0 +1,27 @@
+Package: rust-serde-json
+Binary: librust-serde-json-dev, librust-serde-json+indexmap-dev
+Version: 1.0.41-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-itoa-0.4+default-dev (>= 0.4.3-~~) <!nocheck>, librust-ryu-1+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.60-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 85970adf0fa42ab262bb4441a5133fa1 2663 rust-serde-json_1.0.41-1.dsc
+ 2d0a5cc8d69b765b1de05618c111b995 69870 rust-serde-json_1.0.41.orig.tar.gz
+ 6df20f3698cd8216329c9c562c00a522 3068 rust-serde-json_1.0.41-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-json
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-json]
+Checksums-Sha256:
+ 69598b95c098223ed6874495f2446f17041f5f888009e8b4b591ca882a42e164 2663 rust-serde-json_1.0.41-1.dsc
+ 2f72eb2a68a7dc3f9a691bfda9305a1c017a6215e5a4545c258500d2099a37c2 69870 rust-serde-json_1.0.41.orig.tar.gz
+ 5b1175b1e3152f1f89fa84a005f8730a1ad64d0985fd251ae95079a94ac32785 3068 rust-serde-json_1.0.41-1.debian.tar.xz
+Package-List: 
+ librust-serde-json+indexmap-dev deb rust optional arch=any
+ librust-serde-json-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-automod-0.1+default-dev, librust-rustversion-0.1+default-dev, librust-serde-bytes-0.11+default-dev, librust-serde-derive-1+default-dev, librust-serde-stacker-0.1+default-dev, librust-trybuild-1+default-dev
+Directory: pool/main/r/rust-serde-json
+Priority: extra
+Section: misc

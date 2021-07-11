@@ -1,0 +1,26 @@
+Package: node-loader-utils
+Binary: node-loader-utils
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-big.js <!nocheck>, node-emojis-list <!nocheck>, node-json5 <!nocheck>, node-object-assign <!nocheck>, nodejs (>= 10) <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 82ee8db5d348c73e25c54c0967530e60 2233 node-loader-utils_2.0.0-1.dsc
+ dcf5b276b3fb76f3ccf46cfaf3303dbc 97262 node-loader-utils_2.0.0.orig.tar.gz
+ d08389c15fc050fbbb783d003ca26cd7 2536 node-loader-utils_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-loader-utils
+Vcs-Git: https://salsa.debian.org/js-team/node-loader-utils.git
+Checksums-Sha256:
+ e62c3d978dae758ef8aa47d2ac544f4d46e469d0284d60aaeb766ca39a929f65 2233 node-loader-utils_2.0.0-1.dsc
+ 472e04b21c27fdfe66357c932807d653ca2cdf9c31f60aeea68733afef7ccbdf 97262 node-loader-utils_2.0.0.orig.tar.gz
+ e83f3881741c85c9d73091bd4fbd08db88a6bcef4805c34ff42bd54a276d2004 2536 node-loader-utils_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/webpack/loader-utils#readme
+Package-List: 
+ node-loader-utils deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-loader-utils
+Priority: optional
+Section: javascript

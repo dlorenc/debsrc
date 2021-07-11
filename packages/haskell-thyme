@@ -1,0 +1,26 @@
+Package: haskell-thyme
+Binary: libghc-thyme-dev, libghc-thyme-prof, libghc-thyme-doc
+Version: 0.3.5.5-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-quickcheck2-dev (>= 2.4), libghc-quickcheck2-prof (>= 2.4), libghc-aeson-dev (>= 0.6), libghc-aeson-prof (>= 0.6), libghc-attoparsec-dev (>= 0.10), libghc-attoparsec-prof (>= 0.10), libghc-old-locale-dev (>= 1.0), libghc-old-locale-prof (>= 1.0), libghc-profunctors-dev (>= 3.1.2), libghc-profunctors-prof (>= 3.1.2), libghc-random-dev, libghc-random-prof, libghc-vector-dev (>= 0.9), libghc-vector-prof (>= 0.9), libghc-vector-space-dev (>= 0.8), libghc-vector-space-prof (>= 0.8), libghc-vector-th-unbox-dev (>= 0.2.1.0), libghc-vector-th-unbox-prof (>= 0.2.1.0)
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc, libghc-aeson-doc, libghc-attoparsec-doc, libghc-old-locale-doc, libghc-profunctors-doc, libghc-random-doc, libghc-vector-doc, libghc-vector-space-doc, libghc-vector-th-unbox-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ced32a9c88a61d894cc02eb8e414687f 2906 haskell-thyme_0.3.5.5-5.dsc
+ 6fa862b1667af9e79950b4531e39e006 37220 haskell-thyme_0.3.5.5.orig.tar.gz
+ ae322a3c2704dbd24c41cc357d014840 3000 haskell-thyme_0.3.5.5-5.debian.tar.xz
+Checksums-Sha256:
+ 6684930a53146a26ecb551c2164845d80502b788f8840be3c707df9ce62e29a2 2906 haskell-thyme_0.3.5.5-5.dsc
+ 84c6701fb7b40841d22582202382c362fd9e0d6e5f1c959b7e0f2f91a85c796c 37220 haskell-thyme_0.3.5.5.orig.tar.gz
+ b5bd9a02761dfd6c24e65fb33ffa6013513962063338736448658cd61acfd261 3000 haskell-thyme_0.3.5.5-5.debian.tar.xz
+Homepage: https://github.com/liyang/thyme
+Package-List: 
+ libghc-thyme-dev deb haskell optional arch=any
+ libghc-thyme-doc deb doc optional arch=all
+ libghc-thyme-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-thyme
+Priority: extra
+Section: misc

@@ -1,0 +1,22 @@
+Package: apt-listchanges
+Binary: apt-listchanges
+Version: 3.24
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python
+Build-Depends-Indep: docbook-xml, docbook-xsl, gettext, libxml2-utils, po-debconf, po4a (>= 0.47), python3 (>= 3.7), xsltproc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 72dbc055a05326d6de3337cfb56d8a58 1708 apt-listchanges_3.24.dsc
+ e4a9662056a8ce536538230e67542630 143140 apt-listchanges_3.24.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/apt-listchanges/
+Vcs-Git: https://salsa.debian.org/debian/apt-listchanges.git
+Checksums-Sha256:
+ b34a390463a7d774b727994907fdf2cae5e03d87f64324feb6da52df478eb57c 1708 apt-listchanges_3.24.dsc
+ 2d9aa17d46e9fae57b940665818a5e4a04b878df41117cc8c13aeef22235bf91 143140 apt-listchanges_3.24.tar.xz
+Package-List: 
+ apt-listchanges deb utils standard arch=all
+Directory: pool/main/a/apt-listchanges
+Priority: source
+Section: utils

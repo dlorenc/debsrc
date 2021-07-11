@@ -1,0 +1,26 @@
+Package: node-cli-width
+Binary: node-cli-width
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 12), node-tap <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cb785b2e8421a4b961ef2620a744ffa9 2072 node-cli-width_3.0.0-1.dsc
+ 6d25d144b7621401bbc112a210b2adaf 39265 node-cli-width_3.0.0.orig.tar.gz
+ 32bb2947b2b6cd1472b15c98147a4777 2856 node-cli-width_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cli-width
+Vcs-Git: https://salsa.debian.org/js-team/node-cli-width.git
+Checksums-Sha256:
+ 78954bed7a728a580843c01a8045c0bd1fa32002a346b9cd0e52c004d1d6c553 2072 node-cli-width_3.0.0-1.dsc
+ 725b1b5d4898a296579c3d045f4f00a7328c3a85a1caa3c7267e4abfe8893bec 39265 node-cli-width_3.0.0.orig.tar.gz
+ 59f0dd18bd074e35be64657888fcf4c879feb65107a47d67ef99a3c1a9e6336f 2856 node-cli-width_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/knownasilya/cli-width
+Package-List: 
+ node-cli-width deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cli-width
+Priority: optional
+Section: javascript

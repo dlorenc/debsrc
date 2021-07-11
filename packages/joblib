@@ -1,0 +1,27 @@
+Package: joblib
+Binary: python3-joblib
+Version: 0.17.0-4
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-pytest, python3-numpy, python3-psutil, python3-lz4, python3-threadpoolctl <!nocheck>, cython3, procps
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d7583bfa800027dbb7387c314353e6b7 2251 joblib_0.17.0-4.dsc
+ bbd8b933a863a57556d3ce3e160358d1 345984 joblib_0.17.0.orig.tar.gz
+ d5d237cd5f0a2dd9457dc36a17101000 7712 joblib_0.17.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/joblib
+Vcs-Git: https://salsa.debian.org/science-team/joblib.git
+Checksums-Sha256:
+ bb89cf498a41962da9f5864d0226fe3f1e280179a4fcbdd6c1671a8c63ef2d19 2251 joblib_0.17.0-4.dsc
+ 6dd8d75808624ac60434a3c6de4623dc49e4f9f3332501b467c36b0fbfdd54c9 345984 joblib_0.17.0.orig.tar.gz
+ a0c9575a67dc17f895739781e4aed747e1e2ac8e6b5f69429d09cb5bd072e7df 7712 joblib_0.17.0-4.debian.tar.xz
+Homepage: https://github.com/joblib/joblib
+Package-List: 
+ python3-joblib deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-lz4, python3-numpy, python3-psutil, python3-pytest, python3-threadpoolctl
+Directory: pool/main/j/joblib
+Priority: source
+Section: python

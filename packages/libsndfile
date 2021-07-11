@@ -1,0 +1,30 @@
+Package: libsndfile
+Binary: libsndfile1-dev, libsndfile1, sndfile-programs
+Version: 1.0.31-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>,
+Build-Depends: debhelper-compat (= 13), autogen, pkg-config, libasound2-dev [linux-any], libflac-dev (>= 1.1.4-3), libopus-dev, libvorbis-dev (>= 1.2.3), python3
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e7f981114954a445c864e939258f79b6 2445 libsndfile_1.0.31-1.dsc
+ b43ae73daf35b7b2dd0edd973a31e8fb 662584 libsndfile_1.0.31.orig.tar.gz
+ 5619311b29ac870992bc5cb1061c352f 13572 libsndfile_1.0.31-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libsndfile
+Vcs-Git: https://salsa.debian.org/multimedia-team/libsndfile.git
+Checksums-Sha256:
+ a87fd2bdbe46ff586e9e55c57fa1d3f90a363617b231976434fe425e7c19bd5f 2445 libsndfile_1.0.31-1.dsc
+ 8cdee0acb06bb0a3c1a6ca524575643df8b1f3a55a0893b4dd9f829d08263785 662584 libsndfile_1.0.31.orig.tar.gz
+ 725e96537a033f3c70f0d8cb7573410dd7d16074f3a71281a804aa8261fe4edf 13572 libsndfile_1.0.31-1.debian.tar.xz
+Homepage: http://www.mega-nerd.com/libsndfile/
+Dgit: bc5aae0f417923c80ebc21a7b1b374e589de734d debian archive/debian/1.0.31-1 https://git.dgit.debian.org/libsndfile
+Package-List: 
+ libsndfile1 deb libs optional arch=any
+ libsndfile1-dev deb libdevel optional arch=any
+ sndfile-programs deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, python3
+Directory: pool/main/libs/libsndfile
+Priority: source
+Section: libs

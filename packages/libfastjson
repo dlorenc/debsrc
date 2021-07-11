@@ -1,0 +1,25 @@
+Package: libfastjson
+Binary: libfastjson4, libfastjson-dev
+Version: 0.99.9-1
+Maintainer: Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0612c68ecb1cede0648ca91ff77b4db7 1943 libfastjson_0.99.9-1.dsc
+ b4668f067145d4eb2a44433d5256f277 436502 libfastjson_0.99.9.orig.tar.gz
+ 5a75cb67cea31ceefaeb10b4081b6a55 3264 libfastjson_0.99.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libfastjson
+Vcs-Git: https://salsa.debian.org/debian/libfastjson.git
+Checksums-Sha256:
+ df066b50a60dbc2e10eaf44ab70f2fd9773d16b3842b463e422315835a4fa18a 1943 libfastjson_0.99.9-1.dsc
+ a330e1bdef3096b7ead53b4bad1a6158f19ba9c9ec7c36eda57de7729d84aaee 436502 libfastjson_0.99.9.orig.tar.gz
+ 3aa508cfcd6470dfa7ac7c66a486a6a8a377a5e2e4e282235ee57fbe1d2af907 3264 libfastjson_0.99.9-1.debian.tar.xz
+Homepage: https://github.com/rsyslog/libfastjson
+Package-List: 
+ libfastjson-dev deb libdevel optional arch=any
+ libfastjson4 deb libs optional arch=any
+Directory: pool/main/libf/libfastjson
+Priority: optional
+Section: misc

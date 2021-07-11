@@ -1,0 +1,28 @@
+Package: haskell-pointed
+Binary: libghc-pointed-dev, libghc-pointed-prof, libghc-pointed-doc
+Version: 5.0.1-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-comonad-dev (>= 5), libghc-comonad-dev (<< 6), libghc-comonad-prof, libghc-data-default-class-dev (<< 0.2), libghc-data-default-class-dev (>= 0.0.1), libghc-data-default-class-prof, libghc-hashable-dev (<< 1.4), libghc-hashable-dev (>= 1.1), libghc-hashable-prof, libghc-kan-extensions-dev (>= 5), libghc-kan-extensions-dev (<< 6), libghc-kan-extensions-prof, libghc-semigroupoids-dev (<< 6), libghc-semigroupoids-dev (>= 4), libghc-semigroupoids-prof, libghc-semigroups-dev (<< 1), libghc-semigroups-dev (>= 0.8.3.1), libghc-semigroups-prof, libghc-tagged-dev (<< 1), libghc-tagged-dev (>= 0.5), libghc-tagged-prof, libghc-transformers-compat-dev (<< 1), libghc-transformers-compat-dev (>= 0.3), libghc-transformers-compat-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-prof
+Build-Depends-Indep: ghc-doc, libghc-comonad-doc, libghc-data-default-class-doc, libghc-hashable-doc, libghc-kan-extensions-doc, libghc-semigroupoids-doc, libghc-semigroups-doc, libghc-tagged-doc, libghc-transformers-compat-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 71f8049d29aa6a65706b4ecca45e4238 3379 haskell-pointed_5.0.1-6.dsc
+ a11781eed9b31638f5d6dbf83755c424 7020 haskell-pointed_5.0.1.orig.tar.gz
+ ae78df5c276892f7e27620af6ded4609 3352 haskell-pointed_5.0.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-pointed
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-pointed]
+Checksums-Sha256:
+ 5c7d2df70295ae8725e0c10c70b6212685b6a3156885d3c2dd30cf9e8ac7984d 3379 haskell-pointed_5.0.1-6.dsc
+ b94635a5c8779238501a9156015422ce2fb4d5efd45d68999e8cbe2ecc5121dd 7020 haskell-pointed_5.0.1.orig.tar.gz
+ e646abde186df4efaab26c3ec99ab35f8e39f926d9cdc571366535bafb302bb1 3352 haskell-pointed_5.0.1-6.debian.tar.xz
+Homepage: https://github.com/ekmett/pointed/
+Package-List: 
+ libghc-pointed-dev deb haskell optional arch=any
+ libghc-pointed-doc deb doc optional arch=all
+ libghc-pointed-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-pointed
+Priority: optional
+Section: misc

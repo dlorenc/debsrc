@@ -1,0 +1,27 @@
+Package: ruby-progressbar
+Binary: ruby-progressbar
+Version: 1.10.1-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Paul van Tilburg <paulvt@debian.org>, Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-rspec (>= 3.0), ruby-timecop
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ eba8d3a6d4cb9133f4c6df5f4ea5f774 2170 ruby-progressbar_1.10.1-1.dsc
+ a40830b95be713014b035281a301a6d1 53416 ruby-progressbar_1.10.1.orig.tar.gz
+ ae2f28fbd36bf638bc58446084ec160f 6336 ruby-progressbar_1.10.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-progressbar
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-progressbar.git
+Checksums-Sha256:
+ 043b70149acb312b7659781cf06732865eeb44c3b0cfb1e92d07029b73003116 2170 ruby-progressbar_1.10.1-1.dsc
+ 4528f51e75f916f26762be48bedea8dfd1887a7e5fcbc6744ac50cacff269a65 53416 ruby-progressbar_1.10.1.orig.tar.gz
+ 43fbfff9e7b9967142c092e33c0fca8e3630b7d397df7bd92f35308ab962c2ee 6336 ruby-progressbar_1.10.1-1.debian.tar.xz
+Homepage: https://github.com/jfelchner/ruby-progressbar
+Package-List: 
+ ruby-progressbar deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-progressbar
+Priority: source
+Section: ruby

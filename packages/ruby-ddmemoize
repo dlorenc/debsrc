@@ -1,0 +1,27 @@
+Package: ruby-ddmemoize
+Binary: ruby-ddmemoize
+Version: 1.0.0-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper (>= 11~), gem2deb, rake, ruby-ddmetrics (>= 1.0), ruby-fuubar, ruby-ref (>= 2.0), ruby-rspec
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 49014631cd6118b314dd88263bd29569 2129 ruby-ddmemoize_1.0.0-1.1.dsc
+ ac22c4f2e7660795315845ebb51ec16b 7812 ruby-ddmemoize_1.0.0.orig.tar.gz
+ 6742dd42edd5149353b21999b9e1340e 2364 ruby-ddmemoize_1.0.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ddmemoize
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ddmemoize.git
+Checksums-Sha256:
+ de151cccf8968b88529bbae173058a859319c404f06c25ae3c593db542f8b1f2 2129 ruby-ddmemoize_1.0.0-1.1.dsc
+ f4ff1557b94ca1c17dce1385a7335d415698b7e1b46900dce3cae5effd26ea74 7812 ruby-ddmemoize_1.0.0.orig.tar.gz
+ 9367fdaf03a8154e6088d7e3d75fcce17218303bcfebeec3bc690d649f91604b 2364 ruby-ddmemoize_1.0.0-1.1.debian.tar.xz
+Homepage: https://github.com/ddfreyne/ddmemoize
+Package-List: 
+ ruby-ddmemoize deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ddmemoize
+Priority: extra
+Section: misc

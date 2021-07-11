@@ -1,0 +1,24 @@
+Package: encfs
+Binary: encfs
+Version: 1.9.5-1
+Maintainer: Eduard Bloch <blade@debian.org>
+Build-Depends: debhelper (>= 9.0), libfuse-dev (>> 2.6), libssl-dev (>> 0.9.8), libtinyxml2-dev, dpkg-dev (>= 1.17), cmake (>> 3.2)
+Architecture: linux-any kfreebsd-any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 14cff296a615707edb7d2354d6b85cf5 1915 encfs_1.9.5-1.dsc
+ a4688a329d255c39500b41b100956e37 1899224 encfs_1.9.5.orig.tar.xz
+ 4b1b73bc38f122a5eb12faf1c984af0b 12252 encfs_1.9.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/encfs
+Vcs-Git: https://salsa.debian.org/debian/encfs.git
+Checksums-Sha256:
+ a0c85a2a3d196ee644456680a777720e6c596d45135dc8e807ecf822cfc09d89 1915 encfs_1.9.5-1.dsc
+ b5232280ebb7e3131de28beb7fe8bc4d3d1c110f70a5f90cf7a55b2c9340f119 1899224 encfs_1.9.5.orig.tar.xz
+ c68db1621c71968b46151106f6a95da799a3a290702a1857ff0fe4c0db56e464 12252 encfs_1.9.5-1.debian.tar.xz
+Homepage: http://www.arg0.net/encfs
+Package-List: 
+ encfs deb utils optional arch=linux-any,kfreebsd-any
+Directory: pool/main/e/encfs
+Priority: source
+Section: utils

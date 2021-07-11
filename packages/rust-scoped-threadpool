@@ -1,0 +1,24 @@
+Package: rust-scoped-threadpool
+Binary: librust-scoped-threadpool-dev
+Version: 0.1.9-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 8a21ff70b0666ab48da737c84b45b1a8 2160 rust-scoped-threadpool_0.1.9-1.dsc
+ b492e0a70603c3903a44ec5cabd3ba21 7800 rust-scoped-threadpool_0.1.9.orig.tar.gz
+ 5fe5bcd7444cc83d93ed4ab9c3a58f6e 2264 rust-scoped-threadpool_0.1.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/scoped-threadpool
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/scoped-threadpool]
+Checksums-Sha256:
+ 812a73bf5de3314f5edeeca83b09318dfbef8107de0678d6df967dfab415f579 2160 rust-scoped-threadpool_0.1.9-1.dsc
+ 1d51f5df5af43ab3f1360b429fa5e0152ac5ce8c0bd6485cae490332e96846a8 7800 rust-scoped-threadpool_0.1.9.orig.tar.gz
+ 050b80fd6b602e998c21f8376c2af4f10ba3fc28aebad22951719871911c20e9 2264 rust-scoped-threadpool_0.1.9-1.debian.tar.xz
+Package-List: 
+ librust-scoped-threadpool-dev deb rust optional arch=any
+Directory: pool/main/r/rust-scoped-threadpool
+Priority: extra
+Section: misc

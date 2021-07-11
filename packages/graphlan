@@ -1,0 +1,27 @@
+Package: graphlan
+Binary: graphlan
+Version: 1.1.3-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), python3-all, dh-python
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6cc0c7a03cc807d89028ad53b8cd7f45 2052 graphlan_1.1.3-2.dsc
+ 5b24ff985c71f331d1fed5225644ed1f 2608428 graphlan_1.1.3.orig.tar.gz
+ f3573f30e22860e3d4d7f6c064dc1312 6520 graphlan_1.1.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/graphlan
+Vcs-Git: https://salsa.debian.org/med-team/graphlan.git
+Checksums-Sha256:
+ 57f16ab2c26855b3d8269ba4045e99c484ee16b47531f8731f48c070b32c33f9 2052 graphlan_1.1.3-2.dsc
+ c8efadc7e7a54e3284d8ef6bc23fa2c697281bfdda516144c8fae6e58095abbc 2608428 graphlan_1.1.3.orig.tar.gz
+ 4e81591f3207361f80e4c4064ae4a0d6b56b50edee40e9aecd7e0e4e973761e6 6520 graphlan_1.1.3-2.debian.tar.xz
+Homepage: https://bitbucket.org/nsegata/graphlan/wiki/Home
+Package-List: 
+ graphlan deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: r-cran-gsl, r-cran-randomfields
+Directory: pool/main/g/graphlan
+Priority: optional
+Section: misc

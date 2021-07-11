@@ -1,0 +1,28 @@
+Package: qterminal
+Binary: qterminal, qterminal-l10n
+Version: 0.16.1-1
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>, ChangZhuo Chen (陳昌倬) <czchen@debian.org>, Andrew Lee (李健秋) <ajqlee@debian.org>
+Build-Depends: debhelper-compat (= 12), libkf5windowsystem-dev, libqtermwidget5-0-dev (>= 0.16.1~), libqt5svg5-dev, libqt5x11extras5-dev, libutf8proc-dev, libx11-dev, lxqt-build-tools (>= 0.8.0~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ db43ce898a0a29a6c40fcb5a29385f47 2177 qterminal_0.16.1-1.dsc
+ a5c9e3622721df87210ae476a652839d 185144 qterminal_0.16.1.orig.tar.xz
+ 385138c13bceb7570fd1139000e11974 862 qterminal_0.16.1.orig.tar.xz.asc
+ 7aa463a4838422e459c1c34c2d0d63c5 9116 qterminal_0.16.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lxqt-team/qterminal
+Vcs-Git: https://salsa.debian.org/lxqt-team/qterminal.git
+Checksums-Sha256:
+ a872e34776a6262600612865dd9b9041478be3225c2bb3b042c362552f1b1d99 2177 qterminal_0.16.1-1.dsc
+ 550f39aeb705cd58f8296a07e3bb5553fdba5ebccb837a83798fcc4f7af30b9e 185144 qterminal_0.16.1.orig.tar.xz
+ da068a80630aeb3f0128a571cef752b5008046308526579cb6cda1da30af6b9a 862 qterminal_0.16.1.orig.tar.xz.asc
+ d84b159543d43ba2ee3536da300d653fa64da628f45b642b82ca4cb10fe3361a 9116 qterminal_0.16.1-1.debian.tar.xz
+Homepage: https://github.com/lxqt/qterminal
+Package-List: 
+ qterminal deb x11 optional arch=any
+ qterminal-l10n deb localization optional arch=all
+Directory: pool/main/q/qterminal
+Priority: optional
+Section: misc

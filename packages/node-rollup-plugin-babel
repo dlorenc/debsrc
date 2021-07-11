@@ -1,0 +1,26 @@
+Package: node-rollup-plugin-babel
+Binary: node-rollup-plugin-babel
+Version: 5.2.2+repack-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), node-babel-core (>= 7), node-babel-plugin-external-helpers (>= 7), node-babel-plugin-proposal-decorators (>= 7), node-babel-plugin-syntax-dynamic-import (>= 7), node-babel-plugin-transform-runtime (>= 7), node-babel-preset-env (>= 7), node-types-babel-core (>= 7), node-rollup-plugin-buble (>= 0.19.4-3~), node-rollup-pluginutils (>> 3.1.0~), node-source-map, node-source-map-support, nodejs (>= 10), dh-sequence-nodejs, rollup (>> 0.68.2+ds~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b7a596360dc98c2b6f1b702ca6eb85d9 2619 node-rollup-plugin-babel_5.2.2+repack-2.dsc
+ 18ad13dc891212d659190fced2a2918e 41848 node-rollup-plugin-babel_5.2.2+repack.orig.tar.xz
+ 88e0cb06f05b966b6b475013dac0b931 7784 node-rollup-plugin-babel_5.2.2+repack-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rollup-plugin-babel
+Vcs-Git: https://salsa.debian.org/js-team/node-rollup-plugin-babel.git
+Checksums-Sha256:
+ 64240af4be2a5881ccd1a770e2dc0e2cde79c03e7ad0dbeced36df67a1425a3d 2619 node-rollup-plugin-babel_5.2.2+repack-2.dsc
+ 0574ca162233c018fdade537ea8a98234d59eaa91ea35d20ec685951b4de2d5b 41848 node-rollup-plugin-babel_5.2.2+repack.orig.tar.xz
+ 81ce6333d111430201e9e48d7e5de119833ebb01b3efd7216c5412055517c8c6 7784 node-rollup-plugin-babel_5.2.2+repack-2.debian.tar.xz
+Homepage: https://github.com/rollup/plugins
+Package-List: 
+ node-rollup-plugin-babel deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-rollup-plugin-babel
+Priority: extra
+Section: misc

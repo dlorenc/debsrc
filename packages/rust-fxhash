@@ -1,0 +1,24 @@
+Package: rust-fxhash
+Binary: librust-fxhash-dev
+Version: 0.2.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 375bba4fe36200b5d8c9f3f976bc65c4 2064 rust-fxhash_0.2.1-1.dsc
+ 36b10e8a7330d7bd3e3dab5bd72c8927 4128 rust-fxhash_0.2.1.orig.tar.gz
+ 9aff900a0dccf7cc67b013f633a14d62 2380 rust-fxhash_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fxhash
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fxhash]
+Checksums-Sha256:
+ b846ca7f338fb4c1c0b8a356c5c87eb641fe55485eb85546d4e39c24ba8f2ff2 2064 rust-fxhash_0.2.1-1.dsc
+ 8cc9bff55ec0ac3322b4a202cdf752fc8e38b570e50d9482814dc650b2d1f42a 4128 rust-fxhash_0.2.1.orig.tar.gz
+ 3a3d36696e9e5c8888cb1133fd440a4d71778e745a0d0488dd968989127fded7 2380 rust-fxhash_0.2.1-1.debian.tar.xz
+Package-List: 
+ librust-fxhash-dev deb rust optional arch=any
+Directory: pool/main/r/rust-fxhash
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: edbrowse
+Binary: edbrowse
+Version: 3.7.7-2
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Paul Gevers <elbrus@debian.org>, Samuel Thibault <sthibault@debian.org>,
+Build-Depends: cmake, debhelper-compat (= 12), duktape-dev, libcurl4-openssl-dev, libpcre3-dev, libreadline-dev, libssl-dev, libtidy-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 14fd1f6a58451166dff6488da89f1d52 2055 edbrowse_3.7.7-2.dsc
+ 0c4a359ec5f60481af2bd957a4274dca 835830 edbrowse_3.7.7.orig.tar.gz
+ cd8cf12522d7e36a2e89d7cefab771c4 8392 edbrowse_3.7.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/edbrowse.git
+Vcs-Git: https://salsa.debian.org/a11y-team/edbrowse.git
+Checksums-Sha256:
+ b46d5bbc09a13ceacdada022dbcdb827f86f060edfc04aa766a8b4c16b69393f 2055 edbrowse_3.7.7-2.dsc
+ bc015decc022d90f482a7f1028e9a56aa84f17406879f9aa1060e1dc175ed00f 835830 edbrowse_3.7.7.orig.tar.gz
+ 9a5e5436c526574b76705771d96ad6eb52e3c715094eba76571ee4fce037648c 8392 edbrowse_3.7.7-2.debian.tar.xz
+Homepage: http://edbrowse.org/
+Package-List: 
+ edbrowse deb net optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/e/edbrowse
+Priority: source
+Section: net

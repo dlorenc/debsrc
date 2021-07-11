@@ -1,0 +1,28 @@
+Package: haskell-oeis
+Binary: libghc-oeis-dev, libghc-oeis-prof, libghc-oeis-doc
+Version: 0.3.10-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-http-dev (<< 1:4000.4), libghc-http-dev (>= 1:4000.2), libghc-http-prof, libghc-network-dev (>= 2.6), libghc-network-prof, libghc-network-uri-dev (>= 2.6), libghc-network-uri-prof
+Build-Depends-Indep: ghc-doc, libghc-http-doc, libghc-network-doc, libghc-network-uri-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ce6f179f5cb78eda3ec7f169003b2673 2505 haskell-oeis_0.3.10-1.dsc
+ 98c4d9dfb1a9a0c0cf2e28153def460e 29350 haskell-oeis_0.3.10.orig.tar.gz
+ b9651395e294653b0b1f64ffb0ec74a1 3004 haskell-oeis_0.3.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-oeis
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-oeis]
+Checksums-Sha256:
+ 3f53e32bcacf953f6a11dad7489e5df713910036f7cdb6e519eb219aeb379151 2505 haskell-oeis_0.3.10-1.dsc
+ bbfa724d9f69f14bcc95a5ecbd94a3e0ec1b072b69a5413c70174d2406884529 29350 haskell-oeis_0.3.10.orig.tar.gz
+ 3ff9f225cf090e0d0549b7ef0fcc14ad65a2d446b4b2557f50758d681aaf5963 3004 haskell-oeis_0.3.10-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/oeis
+Package-List: 
+ libghc-oeis-dev deb haskell optional arch=any
+ libghc-oeis-doc deb doc optional arch=all
+ libghc-oeis-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-oeis
+Priority: source
+Section: haskell

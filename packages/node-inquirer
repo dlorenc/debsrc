@@ -1,0 +1,26 @@
+Package: node-inquirer
+Binary: node-inquirer
+Version: 3.3.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 12), nodejs, node-ansi-escapes (>= 3.0.0) <!nocheck>, node-chalk (>= 2.0.0) <!nocheck>, node-cli-cursor (>= 2.1.0) <!nocheck>, node-cli-width <!nocheck>, node-external-editor <!nocheck>, node-lodash (>= 4.3.0) <!nocheck>, node-mute-stream (>= 0.0.7) <!nocheck>, node-run-async <!nocheck>, node-rx <!nocheck>, node-string-width (>= 2.1.0) <!nocheck>, node-strip-ansi (>= 4.0.0) <!nocheck>, node-through2 (>= 2.0) <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 56cc3ca8c277db9f8683014bc7e32596 2469 node-inquirer_3.3.0-3.dsc
+ 788d139fa72969463799007b3258034a 184516 node-inquirer_3.3.0.orig.tar.gz
+ 49bbe8aa50078396d52d6b72f69deadb 4180 node-inquirer_3.3.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-inquirer
+Vcs-Git: https://salsa.debian.org/js-team/node-inquirer.git
+Checksums-Sha256:
+ 3d6106d8d8a4e97b889a48476c6c7b6d573ecf415828b2106af85bb351e0479e 2469 node-inquirer_3.3.0-3.dsc
+ 370cf9b7e8d161fdb7d22deb2b45231037e7844113ad4a8fb522c1e2a30b193f 184516 node-inquirer_3.3.0.orig.tar.gz
+ bee73adc9dfdc421bffbf9f9dd464902ebfc28a0b85c62a345444d4a1357b40b 4180 node-inquirer_3.3.0-3.debian.tar.xz
+Homepage: https://github.com/sboudrias/Inquirer.js#readme
+Package-List: 
+ node-inquirer deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-inquirer
+Priority: optional
+Section: javascript

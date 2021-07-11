@@ -1,0 +1,27 @@
+Package: r-bioc-pwmenrich
+Binary: r-bioc-pwmenrich
+Version: 4.26.0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biocgenerics, r-bioc-biostrings, r-bioc-seqlogo, r-cran-gdata, r-cran-evd, r-bioc-s4vectors
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 77a492dc00a2bacd2d83e431f472fc89 2236 r-bioc-pwmenrich_4.26.0-1.dsc
+ 958f37bf6557dc4f787efb51aece0ac0 1635854 r-bioc-pwmenrich_4.26.0.orig.tar.gz
+ 0e32d65d257581c4c208e3de88db4d86 2580 r-bioc-pwmenrich_4.26.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-pwmenrich
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-pwmenrich.git
+Checksums-Sha256:
+ 49b3a05e3be17bffc39308bb4122bd456a2510cf7b813fc0f4d7b7741139de62 2236 r-bioc-pwmenrich_4.26.0-1.dsc
+ 77459b1d768f66ee7af0485c8aa4ce4bf32f92b0866ac12c23c6cc48229178f3 1635854 r-bioc-pwmenrich_4.26.0.orig.tar.gz
+ cade37c63ebb69df6c241dc37c85f3bf8ae1421f79d12be1119cadc9e6bf46db 2580 r-bioc-pwmenrich_4.26.0-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/PWMEnrich/
+Package-List: 
+ r-bioc-pwmenrich deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-bioc-pwmenrich
+Priority: extra
+Section: misc

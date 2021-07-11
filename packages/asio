@@ -1,0 +1,25 @@
+Package: asio
+Binary: libasio-dev, libasio-doc
+Version: 1:1.18.1-1
+Maintainer: Markus Wanner <markus@bluegap.ch>
+Build-Depends: debhelper (>= 11), libssl-dev, libboost-dev, libboost-date-time-dev, libboost-regex-dev, libboost-test-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1a876b7e547f613a1e317bf67a3c9f70 2636 asio_1.18.1-1.dsc
+ 381a252fe0f4d0b737378007f1e81de9 1653104 asio_1.18.1.orig.tar.bz2
+ b19b42d035fd4dda41ac07bfe7408862 5728 asio_1.18.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/markus/libasio
+Vcs-Git: https://salsa.debian.org/markus/libasio.git
+Checksums-Sha256:
+ 3d97f4a4c7eebc2385f08e5dfcd00257e46e4f162f1266df9172975c0a16dd1e 2636 asio_1.18.1-1.dsc
+ cd112c40fb137115f37306d4a2e4d4c80c4755609140784c59fbdaa8af3f32f3 1653104 asio_1.18.1.orig.tar.bz2
+ a8c8d5ecf41a98146c73c0accbb1b75e7f56135404026be40c62cbef1f048e39 5728 asio_1.18.1-1.debian.tar.xz
+Homepage: https://think-async.com/
+Package-List: 
+ libasio-dev deb libdevel optional arch=all
+ libasio-doc deb doc optional arch=all
+Directory: pool/main/a/asio
+Priority: source
+Section: devel

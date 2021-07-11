@@ -1,0 +1,25 @@
+Package: dotenv-cli
+Binary: python3-dotenv-cli
+Version: 2.2.0-1
+Maintainer: Bastian Venthur <venthur@debian.org>
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-setuptools, bash-completion
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ d0ed1f45b5a26a39169c5dde47dbb133 1969 dotenv-cli_2.2.0-1.dsc
+ d8a964b5caf5a3b4c1808f5bf233d1bf 8735 dotenv-cli_2.2.0.orig.tar.gz
+ 2ab7bade2f9c44d877427b9fec210bda 2880 dotenv-cli_2.2.0-1.debian.tar.xz
+Vcs-Browser: https://github.com/venthur/dotenv-cli
+Vcs-Git: https://github.com/venthur/dotenv-cli.git
+Checksums-Sha256:
+ 352357e48106a64fdf72f6bd14371025667416b2c3c1d7ddd50deea6e4b7bf76 1969 dotenv-cli_2.2.0-1.dsc
+ 5373554cd1aed44f552622057df7b80f99090b916c6aa6f35eed0a924cbc8766 8735 dotenv-cli_2.2.0.orig.tar.gz
+ 425d9d43da90cd9a0f97a77808c446d22f6dd8fbc1209fa3d644e7dad270cd45 2880 dotenv-cli_2.2.0-1.debian.tar.xz
+Homepage: https://github.com/venthur/dotenv-cli
+Package-List: 
+ python3-dotenv-cli deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/d/dotenv-cli
+Priority: extra
+Section: misc

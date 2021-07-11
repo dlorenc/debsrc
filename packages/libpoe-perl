@@ -1,0 +1,28 @@
+Package: libpoe-perl
+Binary: libpoe-perl
+Version: 2:1.3680-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libfilter-perl <!nocheck>, libhttp-daemon-perl <!nocheck>, libio-pipely-perl <!nocheck>, libio-pty-perl <!nocheck>, libpoe-test-loops-perl (>= 1.360) <!nocheck>, libsocket-getaddrinfo-perl <!nocheck>, libsocket6-perl <!nocheck>, libterm-readkey-perl <!nocheck>, libterm-size-perl <!nocheck>, libyaml-perl <!nocheck>, netbase <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a8f767f7f4a4beb64b8e431900e86591 2663 libpoe-perl_1.3680-1.dsc
+ 106984a58adfc2415090d551040a3a1d 377702 libpoe-perl_1.3680.orig.tar.gz
+ 5f99d317cc17aad97e0cc0e061cf3734 8992 libpoe-perl_1.3680-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpoe-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpoe-perl.git
+Checksums-Sha256:
+ a42feebc59f65dd03b23075a2833d997bc2b1a9859502a9794327a68cb1ef9b8 2663 libpoe-perl_1.3680-1.dsc
+ b7b1dc761e36d48b39068349b576dafc0eccbc3b9db51c677de0e1aafadfe121 377702 libpoe-perl_1.3680.orig.tar.gz
+ ae1cecea9a386eafc8ec07f521b4ac7f22640966b5bea6b62499b6d9c9aa8c69 8992 libpoe-perl_1.3680-1.debian.tar.xz
+Homepage: https://metacpan.org/release/POE
+Dgit: aa687b1b48f95fb3fc7e74405cf1a3140b255d8d debian archive/debian/2%1.3680-1 https://git.dgit.debian.org/libpoe-perl
+Package-List: 
+ libpoe-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libpoe-perl
+Priority: source
+Section: perl

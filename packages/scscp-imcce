@@ -1,0 +1,30 @@
+Package: scscp-imcce
+Binary: libscscp1, libscscp1-dev, libscscp-doc
+Version: 1.0.3+ds-6
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jerome Benoit <calculus@rezozer.net>
+Build-Depends: debhelper-compat (= 12), gnulib, libtool, pkg-config, libxml2-dev
+Build-Depends-Indep: texinfo, texlive-base, texlive-latex-base
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 238b65dc7cf5d2b778140ce7394a7ddc 3005 scscp-imcce_1.0.3+ds-6.dsc
+ 987d9e1bb9740528344240bd52beeb00 98032 scscp-imcce_1.0.3+ds.orig.tar.xz
+ cccb2e8997dde7b6ac08a7b6b24426ba 18168 scscp-imcce_1.0.3+ds-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/scscp-imcce
+Vcs-Git: https://salsa.debian.org/science-team/scscp-imcce.git
+Checksums-Sha256:
+ d64965fe6ff10b8ad432499d3915aaecd20eacb61a658d3579a7e49f76c8c1a2 3005 scscp-imcce_1.0.3+ds-6.dsc
+ 5c3c5f1ea10fde07e3dbef0515d3dc7665bd55b13300f8f6647ff9b1b621208b 98032 scscp-imcce_1.0.3+ds.orig.tar.xz
+ 9cdbfae338b4437b6e72d3bd0d9b5e821cc2dab184ca87c8c7253f12beaba338 18168 scscp-imcce_1.0.3+ds-6.debian.tar.xz
+Homepage: https://www.imcce.fr/trip/scscp
+Package-List: 
+ libscscp-doc deb doc optional arch=all
+ libscscp1 deb libs optional arch=any
+ libscscp1-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, libxml2-dev, pkg-config
+Directory: pool/main/s/scscp-imcce
+Priority: source
+Section: misc

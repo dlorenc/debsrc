@@ -1,0 +1,31 @@
+Package: rust-lexical-core
+Binary: librust-lexical-core-dev, librust-lexical-core+correct-dev, librust-lexical-core+default-dev, librust-lexical-core+dtoa-dev, librust-lexical-core+ryu-dev, librust-lexical-core+stackvector-dev
+Version: 0.4.3-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-rustc-version-0.2+default-dev <!nocheck>, librust-ryu-1+default-dev <!nocheck>, librust-stackvector-1+default-dev (>= 1.0.5-~~) <!nocheck>, librust-static-assertions-1+default-dev (>= 1.1.0-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a072c43cd3e92bfc4ad095c2a418cc07 2974 rust-lexical-core_0.4.3-2.dsc
+ 5a26aea6f3b4052f4d4c99b0239a0728 448604 rust-lexical-core_0.4.3.orig.tar.gz
+ e6b4eb6d92fa5f37b2fab3e2c756d673 4356 rust-lexical-core_0.4.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lexical-core
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/lexical-core]
+Checksums-Sha256:
+ 5faebb8fe88e9445d20c7e7924fb4d5715a27dac68c7fced62fd685f7f813ea1 2974 rust-lexical-core_0.4.3-2.dsc
+ b8b0f90c979adde96d19eb10eb6431ba0c441e2f9e9bdff868b2f6f5114ff519 448604 rust-lexical-core_0.4.3.orig.tar.gz
+ f247e8ce7d45f5c49d49c71bce8cb128bd7afa6018befb231a7051217505ed16 4356 rust-lexical-core_0.4.3-2.debian.tar.xz
+Package-List: 
+ librust-lexical-core+correct-dev deb rust optional arch=any
+ librust-lexical-core+default-dev deb rust optional arch=any
+ librust-lexical-core+dtoa-dev deb rust optional arch=any
+ librust-lexical-core+ryu-dev deb rust optional arch=any
+ librust-lexical-core+stackvector-dev deb rust optional arch=any
+ librust-lexical-core-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-approx-0.3+default-dev, librust-proptest-0.9+default-dev, librust-quickcheck-0.8+default-dev
+Directory: pool/main/r/rust-lexical-core
+Priority: extra
+Section: misc

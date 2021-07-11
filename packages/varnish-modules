@@ -1,0 +1,27 @@
+Package: varnish-modules
+Binary: varnish-modules
+Version: 0.16.0-2.1
+Maintainer: Varnish Package Maintainers <team+varnish-team@tracker.debian.org>
+Uploaders: Stig Sandbeck Mathisen <ssm@debian.org>, Emanuele Rocca <ema@debian.org>
+Build-Depends: autotools-dev, debhelper (>= 9), libvarnishapi-dev (>= 6.4.0~), libnss-wrapper, pkg-config, python3-docutils, varnish (>= 6.4.0~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f1d40c5b665d93d90d2cffea1cd740c5 2214 varnish-modules_0.16.0-2.1.dsc
+ e0974f34a989e851db6ddef44e9451f8 430173 varnish-modules_0.16.0.orig.tar.gz
+ 69af7576f2c72e35c98b2fe0f9ca6e20 6424 varnish-modules_0.16.0-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/varnish-team/varnish-modules
+Vcs-Git: https://salsa.debian.org/varnish-team/varnish-modules.git
+Checksums-Sha256:
+ a4e845507773efc59cde101fcbe36473fd81bbfd622cabf5bcfee7d8718890ca 2214 varnish-modules_0.16.0-2.1.dsc
+ bab1cbcad6ab77a5cf75af51b15f666ff15cf77a50b04031f399dca8e95d05de 430173 varnish-modules_0.16.0.orig.tar.gz
+ adb6f63f8089aa55efa892c6f2527fef5468538d1ae583a2a7b206306af3829e 6424 varnish-modules_0.16.0-2.1.debian.tar.xz
+Homepage: https://github.com/varnish/varnish-modules
+Package-List: 
+ varnish-modules deb web optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ruby-serverspec
+Directory: pool/main/v/varnish-modules
+Priority: optional
+Section: misc

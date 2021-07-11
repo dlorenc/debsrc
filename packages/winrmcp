@@ -1,0 +1,28 @@
+Package: winrmcp
+Binary: golang-github-packer-community-winrmcp-dev, winrmcp
+Version: 0.0~git20180921.c76d91c-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-dylanmei-iso8601-dev, golang-github-gofrs-uuid-dev, golang-github-masterzen-winrm-dev (>= 0.0~git20170601.0.1ca0ba6)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a8d98b63c657530bcac2ceaeb77b248a 1804 winrmcp_0.0~git20180921.c76d91c-1.dsc
+ 014adf7ed5a3deb79e483c132aff8f3a 6380 winrmcp_0.0~git20180921.c76d91c.orig.tar.xz
+ 31a7d97baf7d676014bb7e9894528f80 3584 winrmcp_0.0~git20180921.c76d91c-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/winrmcp
+Vcs-Git: https://salsa.debian.org/go-team/packages/winrmcp.git
+Checksums-Sha256:
+ 0e244e67e99c0a075dbd8c98632523f7b6c666d5a182ad774e8c4658617b29f5 1804 winrmcp_0.0~git20180921.c76d91c-1.dsc
+ 38aa5b7a5b662ae936d2c188738e30cb9b2bf915a2d9ac483ce4f0d43bd09f5d 6380 winrmcp_0.0~git20180921.c76d91c.orig.tar.xz
+ 3bb696314e6cb87ce70898cd47328cb219facae7ac4b0b0dbc155edb70d7558e 3584 winrmcp_0.0~git20180921.c76d91c-1.debian.tar.xz
+Homepage: https://github.com/packer-community/winrmcp
+Go-Import-Path: github.com/packer-community/winrmcp
+Package-List: 
+ golang-github-packer-community-winrmcp-dev deb devel optional arch=all
+ winrmcp deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/w/winrmcp
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: libpegex-perl
+Binary: libpegex-perl
+Version: 0.75-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libfile-sharedir-install-perl, libjson-pp-perl <!nocheck>, libxxx-perl (>= 0.35) <!nocheck>, libyaml-pp-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e07cb59d2c9d73efed46fdc54ce3037d 2414 libpegex-perl_0.75-1.dsc
+ 5f289274eb303c1ff9eef94c3ad8b033 148676 libpegex-perl_0.75.orig.tar.gz
+ 434058f57230884bac5765a01f74bce5 3440 libpegex-perl_0.75-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpegex-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpegex-perl.git
+Checksums-Sha256:
+ 0b3af0c2112e2c4b36184c15352cc689c290ab644b842002ef7a1d05449d7729 2414 libpegex-perl_0.75-1.dsc
+ 4dc8d335de80b25247cdb3f946f0d10d9ba0b3c34b0ed7d00316fd068fd05edc 148676 libpegex-perl_0.75.orig.tar.gz
+ 64ada518bb9e85298ac1fb7c1a80e3f449c626f227f73367702c8e9ec849468e 3440 libpegex-perl_0.75-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Pegex
+Dgit: a84b552e1c41b8814281944fd1f5e9b4133d7d75 debian archive/debian/0.75-1 https://git.dgit.debian.org/libpegex-perl
+Package-List: 
+ libpegex-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libpegex-perl
+Priority: optional
+Section: misc

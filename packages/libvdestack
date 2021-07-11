@@ -1,0 +1,26 @@
+Package: libvdestack
+Binary: libvdestack-dev, libvdestack0
+Version: 0.1.1-1
+Maintainer: Debian VirtualSquare Team <virtualsquare@cs.unibo.it>
+Uploaders: Andrea Capriotti <capriott@debian.org>, Renzo Davoli <renzo@cs.unibo.it>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.12), libvdeplug-dev, libcap-dev, libexecs-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f15286da6aa8b5f69efa9908fde648f2 2101 libvdestack_0.1.1-1.dsc
+ ad88a3c785728e717207bb84adb0f657 19117 libvdestack_0.1.1.orig.tar.gz
+ a3bbeb0e950635779e1f00257df27867 2404 libvdestack_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/virtualsquare-team/libvdestack
+Vcs-Git: https://salsa.debian.org/virtualsquare-team/libvdestack.git
+Checksums-Sha256:
+ 849032c240fa1a43231a708c948097b5b1061ab412515cfd49e80c6b0de991e6 2101 libvdestack_0.1.1-1.dsc
+ e13b69f2924c4724f22e3ff37ab4342d28f6222ca902f867b9fa46965419c08d 19117 libvdestack_0.1.1.orig.tar.gz
+ 9809cb92f21f7b3d543204f32ca42cc545b438e8cc3c8b0607f3505192e63d42 2404 libvdestack_0.1.1-1.debian.tar.xz
+Homepage: http://wiki.virtualsquare.org/
+Package-List: 
+ libvdestack-dev deb libdevel optional arch=any
+ libvdestack0 deb libs optional arch=any
+Directory: pool/main/libv/libvdestack
+Priority: extra
+Section: misc

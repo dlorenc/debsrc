@@ -1,0 +1,28 @@
+Package: haskell-yi-mode-javascript
+Binary: libghc-yi-mode-javascript-dev, libghc-yi-mode-javascript-prof, libghc-yi-mode-javascript-doc
+Version: 0.19.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Marcel Fourné <debian@marcelfourne.de>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-data-default-dev, libghc-data-default-prof, libghc-dlist-dev, libghc-dlist-prof, libghc-microlens-platform-dev, libghc-microlens-platform-prof, libghc-yi-core-dev (>= 0.19), libghc-yi-core-prof, libghc-yi-language-dev (>= 0.19), libghc-yi-language-prof, libghc-yi-rope-dev (>= 0.10), libghc-yi-rope-prof, alex
+Build-Depends-Indep: ghc-doc, libghc-data-default-doc, libghc-dlist-doc, libghc-microlens-platform-doc, libghc-yi-core-doc, libghc-yi-language-doc, libghc-yi-rope-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ eef806b785e6eac6f0c627154794545f 2935 haskell-yi-mode-javascript_0.19.0-1.dsc
+ 665fe9d29cf86aadd28fef1204611e0c 24060 haskell-yi-mode-javascript_0.19.0.orig.tar.gz
+ 3e73452c73a1a0ef9c40905b7b7e69f0 2488 haskell-yi-mode-javascript_0.19.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-yi-mode-javascript
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-yi-mode-javascript]
+Checksums-Sha256:
+ f178044e4f769cddf2d5254b54ee86ba71906345a8722c75116e180cfc5de029 2935 haskell-yi-mode-javascript_0.19.0-1.dsc
+ 017f918466ff55817f3d6c925e4a9c86ee6aac6c200233295296aaa7a619fdfd 24060 haskell-yi-mode-javascript_0.19.0.orig.tar.gz
+ 3b004c90902f0180ec65165d27606f5987e4cef2ab8e2bde78a3a35c5ba38c45 2488 haskell-yi-mode-javascript_0.19.0-1.debian.tar.xz
+Homepage: https://github.com/yi-editor/yi#readme
+Package-List: 
+ libghc-yi-mode-javascript-dev deb haskell optional arch=any
+ libghc-yi-mode-javascript-doc deb doc optional arch=all
+ libghc-yi-mode-javascript-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-yi-mode-javascript
+Priority: extra
+Section: misc

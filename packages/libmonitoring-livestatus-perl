@@ -1,0 +1,27 @@
+Package: libmonitoring-livestatus-perl
+Binary: libmonitoring-livestatus-perl
+Version: 0.84-1
+Maintainer: Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>
+Uploaders: Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-install-perl
+Build-Depends-Indep: libcpanel-json-xs-perl, netcat-openbsd, perl, procps
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ edf08ea6eaec2d5b32fa47d709970dfc 2294 libmonitoring-livestatus-perl_0.84-1.dsc
+ 8fb322661ac7e8c6b9f6d2607505cc29 54175 libmonitoring-livestatus-perl_0.84.orig.tar.gz
+ 49aaf0fb7944666c3364ba506cc9ddbe 2740 libmonitoring-livestatus-perl_0.84-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/nagios-team/pkg-libmonitoring-livestatus-perl
+Vcs-Git: https://salsa.debian.org/nagios-team/pkg-libmonitoring-livestatus-perl.git
+Checksums-Sha256:
+ e48a79342ddeeabd40c734dc68f1e0ae1deaf4fa2501a7fabf2fbbea8f5241ef 2294 libmonitoring-livestatus-perl_0.84-1.dsc
+ 4d8b3fdf42965bc84202be80bd62259bdb1b5869a95f6f62b796f0d40321678d 54175 libmonitoring-livestatus-perl_0.84.orig.tar.gz
+ fd62f9a56ac615015da27d3c795fd4babad6ce313b04ad948eb97ce8a93fb753 2740 libmonitoring-livestatus-perl_0.84-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Monitoring-Livestatus
+Package-List: 
+ libmonitoring-livestatus-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmonitoring-livestatus-perl
+Priority: source
+Section: perl

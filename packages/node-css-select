@@ -1,0 +1,26 @@
+Package: node-css-select
+Binary: node-css-select
+Version: 3.1.2-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, jest (>= 26.6.3+repack+~cs61.38.31-5~), node-css-what (>= 3.0.0~), node-boolbase, node-domutils (>= 2.1.0~), node-domhandler (>= 4.0.0~), node-htmlparser2 (>= 6.0.0~), node-expect.js, node-nth-check (>= 2.0.0~), node-typescript, node-typescript-types
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7bf6f66e853ad7ac317bc0bfabb834d8 2311 node-css-select_3.1.2-4.dsc
+ c8e27315f94857bf2472f58c09e249f9 108043 node-css-select_3.1.2.orig.tar.gz
+ 4998e1ef98cac148cfd8c53f97551f24 4076 node-css-select_3.1.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-css-select
+Vcs-Git: https://salsa.debian.org/js-team/node-css-select.git
+Checksums-Sha256:
+ 867e43e53f24b98032e821431cf6bd7dec43360d3caedd6b17609de794a5f459 2311 node-css-select_3.1.2-4.dsc
+ 867d500633b2f33bea902767164efcece3470515bb20c178346016cac65bad81 108043 node-css-select_3.1.2.orig.tar.gz
+ c35ed8b24200865fb5ad74a6c3d8f6c396e3b769a3b48a64e78aa752b581012e 4076 node-css-select_3.1.2-4.debian.tar.xz
+Homepage: https://github.com/fb55/css-select#readme
+Package-List: 
+ node-css-select deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-css-select
+Priority: optional
+Section: javascript

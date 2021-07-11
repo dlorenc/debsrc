@@ -1,0 +1,26 @@
+Package: maven-war-plugin
+Binary: libmaven-war-plugin-java
+Version: 3.2.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper (>= 1.4)
+Build-Depends-Indep: junit4, libmaven-archiver-java (>= 3.1.1), libmaven-filtering-java, libmaven-mapping-java, libmaven-plugin-testing-java, libmaven-plugin-tools-java, libmaven3-core-java, libplexus-archiver-java (>= 3.4), libplexus-io-java, libplexus-utils-java, libxstream-java
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 706141fe3345eea4d74c7635c66e9d30 2397 maven-war-plugin_3.2.0-1.dsc
+ c87b3f532f2cc5fce1b541ae861dc53f 388168 maven-war-plugin_3.2.0.orig.tar.xz
+ 37442292bd5df220fcd4237e6f974d81 4400 maven-war-plugin_3.2.0-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/maven-war-plugin.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/maven-war-plugin.git
+Checksums-Sha256:
+ fd761bde8d1f1c0b0b6470ac062c12aecf9a26ec68e87a845915dc2ded25eed3 2397 maven-war-plugin_3.2.0-1.dsc
+ a338c4d2429427286e8e077617314a3eb98c2a604a6b8c8564370e4c67ab718b 388168 maven-war-plugin_3.2.0.orig.tar.xz
+ 402c0b6b32abff98116a53ca09f41f82c68e665df3a0fbc80adf8ae3e6339527 4400 maven-war-plugin_3.2.0-1.debian.tar.xz
+Homepage: http://maven.apache.org/plugins/maven-war-plugin/
+Package-List: 
+ libmaven-war-plugin-java deb java optional arch=all
+Directory: pool/main/m/maven-war-plugin
+Priority: source
+Section: java

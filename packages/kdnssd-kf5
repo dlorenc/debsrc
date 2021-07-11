@@ -1,0 +1,32 @@
+Package: kdnssd-kf5
+Binary: libkf5dnssd-data, libkf5dnssd-dev, libkf5dnssd-doc, libkf5dnssd5
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), graphviz, libavahi-common-dev, libqt5sql5-sqlite, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qttools5-dev (>= 5.4), qttools5-dev-tools (>= 5.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f59df541e2a9ca7b416eb2edea5401a7 2378 kdnssd-kf5_5.78.0-2.dsc
+ 6a07e7ec9fb8edae2cbf58dc13a46fca 57500 kdnssd-kf5_5.78.0.orig.tar.xz
+ 9eacc4a42ddbbf8f9877895a6eca401c 488 kdnssd-kf5_5.78.0.orig.tar.xz.asc
+ d7225480d027b0a67a77411ae7992afb 11900 kdnssd-kf5_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kdnssd
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kdnssd.git
+Checksums-Sha256:
+ 9af989f05f3706501ecd95db39e2123228ec12ef79df15a37526ad561758f015 2378 kdnssd-kf5_5.78.0-2.dsc
+ 4e03bd3dfcd468ef2d75182488b779006b59a5cb6c7f44fb093116d04b5c52e7 57500 kdnssd-kf5_5.78.0.orig.tar.xz
+ 3cdc2db6e79812abe0b6d5eff0ae143d42a3ec9367c08dd084591c0cc35b3d62 488 kdnssd-kf5_5.78.0.orig.tar.xz.asc
+ 27245a2f53c56bd1acb8102eb2f085959962c44fec804516757b09eea3335cb7 11900 kdnssd-kf5_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kdnssd
+Package-List: 
+ libkf5dnssd-data deb libs optional arch=all
+ libkf5dnssd-dev deb libdevel optional arch=any
+ libkf5dnssd-doc deb doc optional arch=all
+ libkf5dnssd5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/k/kdnssd-kf5
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-soheilhy-cmux
+Binary: golang-github-soheilhy-cmux-dev
+Version: 0.1.4-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-net-dev, golang-google-grpc-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 989d223fa15372a9eadac81667876782 1684 golang-github-soheilhy-cmux_0.1.4-2.dsc
+ b81fba0297a2a7d9c0543ccbfcbae048 17392 golang-github-soheilhy-cmux_0.1.4.orig.tar.gz
+ 0832e70409799097ffccacfa5899ed28 2300 golang-github-soheilhy-cmux_0.1.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-soheilhy-cmux
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-soheilhy-cmux.git
+Checksums-Sha256:
+ c1c3451e8f8d3e9ac22a63d473fef2de152e1e6c2b05182834524ece0b6b8c6e 1684 golang-github-soheilhy-cmux_0.1.4-2.dsc
+ 9a4df9702b86471a42dfb78e77c9a31ce378d29ee7107635e1bed450221f707f 17392 golang-github-soheilhy-cmux_0.1.4.orig.tar.gz
+ 0205f31144ac7b4e0bd37ccebf9c26967018eb04a72506d23f87274ea5db0160 2300 golang-github-soheilhy-cmux_0.1.4-2.debian.tar.xz
+Homepage: https://github.com/soheilhy/cmux
+Go-Import-Path: github.com/soheilhy/cmux
+Package-List: 
+ golang-github-soheilhy-cmux-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-soheilhy-cmux
+Priority: extra
+Section: golang

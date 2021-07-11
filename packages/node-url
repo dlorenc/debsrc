@@ -1,0 +1,27 @@
+Package: node-url
+Binary: node-url
+Version: 0.11.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper (>= 11), dh-buildinfo, nodejs, node-assert (>= 1.1.1) <!nocheck>, mocha (>= 1.18.2) <!nocheck>
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 8689b1c8c3a0c3b691b5894cd20b9edd 2090 node-url_0.11.0-2.dsc
+ a9518951a4914a55f156a4333a563cb5 18323 node-url_0.11.0.orig.tar.gz
+ ecae2e725aa8e98c17a533e821282ff6 2464 node-url_0.11.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-url
+Vcs-Git: https://salsa.debian.org/js-team/node-url.git
+Checksums-Sha256:
+ 723cb330011ca9734bc48fd507fcbef16e42020274df174201727a199fabf3b6 2090 node-url_0.11.0-2.dsc
+ f262dda05ccff7ccfe522ed24603c25d2dec12b19f9397a9301d192bbd19a82d 18323 node-url_0.11.0.orig.tar.gz
+ c854d462403f62f9281232c49d12e099fcd13e9fb82203deef8bcfc6ac70ab71 2464 node-url_0.11.0-2.debian.tar.xz
+Homepage: https://github.com/defunctzombie/node-url#readme
+Package-List: 
+ node-url deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha, node-assert, nodejs
+Directory: pool/main/n/node-url
+Priority: optional
+Section: javascript

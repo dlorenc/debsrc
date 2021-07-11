@@ -1,0 +1,26 @@
+Package: distro-info
+Binary: distro-info, libdistro-info-perl, python3-distro-info
+Version: 1.0
+Maintainer: Benjamin Drung <bdrung@debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, distro-info-data (>= 0.46), pylint (>= 2.2.2-2~), python3-all, python3-flake8, python3-setuptools, shunit2 (>= 2.1.6)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ aafa6c6227a6ff70b7958dd8a68bb38e 1339 distro-info_1.0.dsc
+ 007e1c78e68ab2e5cb4451f425fd58c2 30908 distro-info_1.0.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/distro-info
+Vcs-Git: https://salsa.debian.org/debian/distro-info.git
+Checksums-Sha256:
+ 3a13f1636545040c2cf6195ab42a2861de4e1c40cecc0c466446296d5b95b62e 1339 distro-info_1.0.dsc
+ 5a7843f2f55140f62eb074d36d2f41cfa9fda12f980c4f4210da086d40b880ae 30908 distro-info_1.0.tar.xz
+Package-List: 
+ distro-info deb devel optional arch=any
+ libdistro-info-perl deb perl optional arch=all
+ python3-distro-info deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: pylint, pylint3, python3-all, python3-flake8, shunit2
+Directory: pool/main/d/distro-info
+Priority: source
+Section: devel

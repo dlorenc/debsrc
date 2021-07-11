@@ -1,0 +1,27 @@
+Package: python-sabyenc
+Binary: python3-sabyenc
+Version: 4.0.2-1
+Maintainer: JCF Ploemen (jcfp) <linux@jcf.pm>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev, python3-chardet <!nocheck>, python3-pytest <!nocheck>, python3-setuptools
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 37e306e408d4e3cdd11d97f90b7b450f 2219 python-sabyenc_4.0.2-1.dsc
+ f3e8528a93176a1a2cff083348217448 19579235 python-sabyenc_4.0.2.orig.tar.gz
+ a29a795efc207395dfe2ec21ff964e87 5200 python-sabyenc_4.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-sabyenc
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-sabyenc.git
+Checksums-Sha256:
+ dbc81faa3a04e89785a6241e990e553193a6c7103d2a2e5f5aa2ff05ef3bf9eb 2219 python-sabyenc_4.0.2-1.dsc
+ 1adf8bfc653558c37b09a97c47c023fb305b1cc20715533bb494543ef9df19eb 19579235 python-sabyenc_4.0.2.orig.tar.gz
+ 3ee5b7c76462268eeb700c61c0de69b5be584b5eb8767ce517a7c764d4b28a1c 5200 python-sabyenc_4.0.2-1.debian.tar.xz
+Homepage: https://github.com/sabnzbd/sabyenc
+Package-List: 
+ python3-sabyenc deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-chardet, python3-pytest
+Directory: pool/main/p/python-sabyenc
+Priority: extra
+Section: misc

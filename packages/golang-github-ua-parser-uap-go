@@ -1,0 +1,27 @@
+Package: golang-github-ua-parser-uap-go
+Binary: golang-github-ua-parser-uap-go-dev
+Version: 0.0~git20200325.e1c09f1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-yaml.v2-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8ee62d6659282756941504b0decc917b 2566 golang-github-ua-parser-uap-go_0.0~git20200325.e1c09f1-2.dsc
+ fd063cd2655afadf33aa0e32bcae4405 65304 golang-github-ua-parser-uap-go_0.0~git20200325.e1c09f1.orig.tar.xz
+ 96b15d174d80f201cd70ec4ca30011c9 4140 golang-github-ua-parser-uap-go_0.0~git20200325.e1c09f1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-ua-parser-uap-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-ua-parser-uap-go.git
+Checksums-Sha256:
+ 7237159cf00a87036e82fd29c43b6311915a10edf941dd6abe6425a7f4bce846 2566 golang-github-ua-parser-uap-go_0.0~git20200325.e1c09f1-2.dsc
+ beaedb45a97f18c8e0aaf812f91956e5623a2a5d070861675b75980dbd94f4af 65304 golang-github-ua-parser-uap-go_0.0~git20200325.e1c09f1.orig.tar.xz
+ 70b39f16c4745d1bc2850a249f0fc7e0f16dcb5a2fdbfbe12ba7eead9f7357eb 4140 golang-github-ua-parser-uap-go_0.0~git20200325.e1c09f1-2.debian.tar.xz
+Homepage: https://github.com/ua-parser/uap-go
+Go-Import-Path: github.com/ua-parser/uap-go
+Package-List: 
+ golang-github-ua-parser-uap-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-ua-parser-uap-go
+Priority: extra
+Section: golang

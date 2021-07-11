@@ -1,0 +1,27 @@
+Package: sphde
+Binary: libsphde-doc, libsphde-dev, libsphde1, sphde-utils
+Version: 1.4.0-2
+Maintainer: Frédéric Bonnard <frediz@debian.org>
+Build-Depends: debhelper (>= 11~), doxygen, graphviz, pkg-kde-tools
+Architecture: any all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 025e90cbc5385908b30f3eeb57b07f27 2037 sphde_1.4.0-2.dsc
+ 2f11a70b49615bf0d423c65c8d0b5d7f 697633 sphde_1.4.0.orig.tar.gz
+ 4b49c17de1c1f11ad7e61b58289f0bc5 12720 sphde_1.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sphde
+Vcs-Git: https://salsa.debian.org/debian/sphde.git
+Checksums-Sha256:
+ a34b2337e3f9bc621216fd49786ec4e93a86c80efdddcadfd125e3b4db524232 2037 sphde_1.4.0-2.dsc
+ f49d50979007cf7d9e735de9367cbced86f19a148c202245d9651251b3c2a4e7 697633 sphde_1.4.0.orig.tar.gz
+ 98dc380facbfccde58a8212abac07bb2de61236b57153735bd90269827482675 12720 sphde_1.4.0-2.debian.tar.xz
+Homepage: https://github.com/sphde/sphde
+Package-List: 
+ libsphde-dev deb libdevel optional arch=any
+ libsphde-doc deb doc optional arch=all
+ libsphde1 deb libs optional arch=any
+ sphde-utils deb utils optional arch=any
+Directory: pool/main/s/sphde
+Priority: optional
+Section: misc

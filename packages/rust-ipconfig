@@ -1,0 +1,25 @@
+Package: rust-ipconfig
+Binary: librust-ipconfig-dev
+Version: 0.2.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-socket2-0.3+default-dev (>= 0.3.1-~~) <!nocheck>, librust-widestring-0.4+default-dev <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.4-~~) <!nocheck>, librust-winreg-0.6+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 4b1a0c52d897644a97eb6287764e4dea 2302 rust-ipconfig_0.2.1-2.dsc
+ 5d0e61d879dc5fdafb47913696bd5aff 22594 rust-ipconfig_0.2.1.orig.tar.gz
+ c3531557cb53ca2e383fa3b255aca342 2508 rust-ipconfig_0.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ipconfig
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ipconfig]
+Checksums-Sha256:
+ 7d4ec99cbd36f9f70ad0b19fbef9f3329c95175900a30077cf7dbaf143c06fa2 2302 rust-ipconfig_0.2.1-2.dsc
+ 845e29426eb628069c09520a26c724f2e982b6afab99cf617e6ce6e1cf9bd944 22594 rust-ipconfig_0.2.1.orig.tar.gz
+ 613bca6128e4c4aeac4b913b3b294b2412e8f74c02fd7ab96b3ae122bf3940c7 2508 rust-ipconfig_0.2.1-2.debian.tar.xz
+Homepage: https://github.com/liranringel/ipconfig
+Package-List: 
+ librust-ipconfig-dev deb rust optional arch=any
+Directory: pool/main/r/rust-ipconfig
+Priority: extra
+Section: misc

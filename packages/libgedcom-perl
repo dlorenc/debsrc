@@ -1,0 +1,27 @@
+Package: libgedcom-perl
+Binary: libgedcom-perl
+Version: 1.22-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libcgi-pm-perl <!nocheck>, libdate-manip-perl <!nocheck>, libparse-recdescent-perl <!nocheck>, libpod-markdown-perl, libroman-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtext-soundex-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 431430e99c8819e5ba3c193f5482694a 2262 libgedcom-perl_1.22-1.dsc
+ 1d19ee24abf5452fe2b34115b97a7958 120627 libgedcom-perl_1.22.orig.tar.gz
+ 7a279a529fe2391a7dee1dd6ccb6f678 3132 libgedcom-perl_1.22-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libgedcom-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libgedcom-perl.git
+Checksums-Sha256:
+ ca2f5c73ab70fa1f2c5c81f579d56b6855abea48bdf43529cb1536030175ee96 2262 libgedcom-perl_1.22-1.dsc
+ 2b6f229b879cdbaab9b1440f03e8ff940386fb46d75237ac1adee8ccf2016635 120627 libgedcom-perl_1.22.orig.tar.gz
+ 87df3b16403ff89c652b45251347a493a276b270ce9a0056b860e9f283219af1 3132 libgedcom-perl_1.22-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Gedcom
+Package-List: 
+ libgedcom-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libg/libgedcom-perl
+Priority: source
+Section: perl

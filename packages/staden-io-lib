@@ -1,0 +1,30 @@
+Package: staden-io-lib
+Binary: staden-io-lib-utils, libstaden-read-dev, libstaden-read14, staden-io-lib-examples
+Version: 1.14.13-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>, Thorsten Alteholz <debian@alteholz.de>, Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper-compat (= 13), zlib1g-dev, libcurl4-gnutls-dev | libcurl4-nss-dev, libhtscodecs-dev, d-shlibs
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 23b8bd0e43b22651a95f240c7f52b0b1 2469 staden-io-lib_1.14.13-4.dsc
+ c586ca633e6de59dabb480f05fc38195 3378761 staden-io-lib_1.14.13.orig.tar.gz
+ 400bc3e7a3ab267d0c353aa38fdd4466 18376 staden-io-lib_1.14.13-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/staden-io-lib
+Vcs-Git: https://salsa.debian.org/med-team/staden-io-lib.git
+Checksums-Sha256:
+ 4e31a8ab659bcc237d8ba4dcd569ee9db77e24f3f382d5ff3f08465f9a4f848a 2469 staden-io-lib_1.14.13-4.dsc
+ 583c01d8ddaa2a86b0ff8e9ba1b63a05a4e40846651b3882a0e8101290cbe3ef 3378761 staden-io-lib_1.14.13.orig.tar.gz
+ 162ca816dd035e517ca567e304d019e07dedddeceee75adf4982f050d3f3fd7c 18376 staden-io-lib_1.14.13-4.debian.tar.xz
+Homepage: https://github.com/jkbonfield/io_lib
+Package-List: 
+ libstaden-read-dev deb libdevel optional arch=any
+ libstaden-read14 deb libs optional arch=any
+ staden-io-lib-examples deb science optional arch=all
+ staden-io-lib-utils deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: smalt-examples
+Directory: pool/main/s/staden-io-lib
+Priority: source
+Section: science

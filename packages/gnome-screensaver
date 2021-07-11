@@ -1,0 +1,25 @@
+Package: gnome-screensaver
+Binary: gnome-screensaver
+Version: 3.6.1-13
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Shachnev <mitya57@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-gnome, gnome-common, intltool (>= 0.35.0), libdbus-glib-1-dev (>= 0.30), libglib2.0-dev (>= 2.15.0), libgtk-3-dev (>= 3.0.0), libgnome-desktop-3-dev (>= 3.35), libgnomekbd-dev (>= 2.91.91), libsystemd-dev [linux-any], libxklavier-dev, libx11-dev, libxt-dev, libxext-dev, libpam0g-dev, xmlto, x11proto-xext-dev, x11proto-scrnsaver-dev, libxss-dev, x11proto-xf86vidmode-dev, libxxf86vm-dev, gsettings-desktop-schemas-dev (>= 2.91.91)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 30837cc34bf99eb87c31d06491e33f12 2580 gnome-screensaver_3.6.1-13.dsc
+ 881cc58daa7cd8602737912ae5715cc8 568340 gnome-screensaver_3.6.1.orig.tar.xz
+ 89ceddaeb69152391dd6637dd376416f 13540 gnome-screensaver_3.6.1-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-screensaver
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-screensaver.git
+Checksums-Sha256:
+ e9f83b42bc1cd68ba1d50e04cb3a5d316f58743894914e5e2913de983559a286 2580 gnome-screensaver_3.6.1-13.dsc
+ f39b78d4f7fed748c7f0a31d694112fb907c6d3c4e63db22eb858df07e962cd0 568340 gnome-screensaver_3.6.1.orig.tar.xz
+ b227635dacc3f32368033777d611c06dc8e9a85050e70d1478f7f34988e0a339 13540 gnome-screensaver_3.6.1-13.debian.tar.xz
+Homepage: https://wiki.gnome.org/GnomeScreensaver
+Package-List: 
+ gnome-screensaver deb gnome optional arch=any
+Directory: pool/main/g/gnome-screensaver
+Priority: source
+Section: gnome

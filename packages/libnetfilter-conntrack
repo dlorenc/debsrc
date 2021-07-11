@@ -1,0 +1,27 @@
+Package: libnetfilter-conntrack
+Binary: libnetfilter-conntrack3, libnetfilter-conntrack-dev, libnetfilter-conntrack-doc
+Version: 1.0.8-3
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Uploaders: Alexander Wirt <formorer@debian.org>, Arturo Borrero Gonzalez <arturo@debian.org>, Jeremy Sowden <jeremy@azazel.net>
+Build-Depends: debhelper-compat (= 13), doxygen, libmnl-dev (>= 1.0.3), libnfnetlink-dev (>= 1.0.0), libtool, pkg-config
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6fdcef1d3d27d1f19a1480289ac9f9a3 2462 libnetfilter-conntrack_1.0.8-3.dsc
+ 3121b55acf97322db830da75d8407cba 331750 libnetfilter-conntrack_1.0.8.orig.tar.bz2
+ 85b5d63997f0ba17155fe1b85f35437f 5068 libnetfilter-conntrack_1.0.8-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-netfilter-team/pkg-libnetfilter-conntrack
+Vcs-Git: https://salsa.debian.org/pkg-netfilter-team/pkg-libnetfilter-conntrack.git
+Checksums-Sha256:
+ 3e38e3760fb746f15c1507c485d0fb035ccdb05a4075d9238bb147fe174517a8 2462 libnetfilter-conntrack_1.0.8-3.dsc
+ 0cd13be008923528687af6c6b860f35392d49251c04ee0648282d36b1faec1cf 331750 libnetfilter-conntrack_1.0.8.orig.tar.bz2
+ 2a058c1a01e9e0386bf69d099e314cd497b3bf6d76a36a928bac1e2497210142 5068 libnetfilter-conntrack_1.0.8-3.debian.tar.xz
+Homepage: https://www.netfilter.org/projects/libnetfilter_conntrack/
+Package-List: 
+ libnetfilter-conntrack-dev deb libdevel optional arch=any
+ libnetfilter-conntrack-doc deb doc optional arch=all
+ libnetfilter-conntrack3 deb libs optional arch=any
+Directory: pool/main/libn/libnetfilter-conntrack
+Priority: source
+Section: libs

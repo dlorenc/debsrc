@@ -1,0 +1,26 @@
+Package: rust-enum-as-inner
+Binary: librust-enum-as-inner-dev
+Version: 0.3.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-heck-0.3+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ d0fd39fb5d35d8034a16df66ca114a99 2336 rust-enum-as-inner_0.3.0-1.dsc
+ d40e0aecd6f47a0dc0f988354074772a 10321 rust-enum-as-inner_0.3.0.orig.tar.gz
+ c1476db34763be408e030263a8044843 2728 rust-enum-as-inner_0.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/enum-as-inner
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/enum-as-inner]
+Checksums-Sha256:
+ d0bcef506a0ce12bf2ce68a626e48771178fa2ba1cff168e5ee293f178d29fa5 2336 rust-enum-as-inner_0.3.0-1.dsc
+ 900a6c7fbe523f4c2884eaf26b57b81bb69b6810a01a236390a7ac021d09492e 10321 rust-enum-as-inner_0.3.0.orig.tar.gz
+ e2e52c01cf072acc9ccde555c0986ef744c87b7ed1336c4b7db890aa5d7065be 2728 rust-enum-as-inner_0.3.0-1.debian.tar.xz
+Package-List: 
+ librust-enum-as-inner-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-enum-as-inner
+Priority: extra
+Section: misc

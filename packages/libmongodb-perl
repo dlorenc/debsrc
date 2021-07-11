@@ -1,0 +1,28 @@
+Package: libmongodb-perl
+Binary: libmongodb-perl
+Version: 2.2.2-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominic Hargreaves <dom@earth.li>, gregor herrmann <gregoa@debian.org>, Harlan Lieberman-Berg <hlieberman@setec.io>, Dominique Dumont <dod@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libauthen-sasl-saslprep-perl <!nocheck>, libauthen-scram-perl (>= 0.011) <!nocheck>, libboolean-perl <!nocheck>, libbson-perl <!nocheck>, libbson-xs-perl <!nocheck>, libclass-xsaccessor-perl <!nocheck>, libjson-maybexs-perl <!nocheck>, libjson-pp-perl <!nocheck>, libmoo-perl (>= 2) <!nocheck>, libnamespace-clean-perl <!nocheck>, libnet-dns-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libsafe-isa-perl (>= 1.000007) <!nocheck>, libsub-quote-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtie-ixhash-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libtype-tiny-xs-perl <!nocheck>, libuuid-urandom-perl <!nocheck>, net-tools <!nocheck>, perl, procps <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 03602161f0e6b96778fa2083d952fd81 3166 libmongodb-perl_2.2.2-1.dsc
+ c4bcbc7d0ecc02bbd8b82ac0f46fcbbe 581441 libmongodb-perl_2.2.2.orig.tar.gz
+ dfac687d32e797a9bd19bde102a3bcb0 6976 libmongodb-perl_2.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmongodb-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmongodb-perl.git
+Checksums-Sha256:
+ 1ac01da6e5d8341e55805ebfc1f36c881b223d192d59899a4b7749ac6802aeae 3166 libmongodb-perl_2.2.2-1.dsc
+ 201935f92dac94f39c35de73661e8b252439e496f228657db85ff93257c3268f 581441 libmongodb-perl_2.2.2.orig.tar.gz
+ c6871a56a8898cef3e3fb0c539801c48bdce9e7c026d6707908332c6cc6b06cf 6976 libmongodb-perl_2.2.2-1.debian.tar.xz
+Homepage: https://metacpan.org/release/MongoDB
+Dgit: 8e91c2ca757dc239aac363a42435591a562484d6 debian archive/debian/2.2.2-1 https://git.dgit.debian.org/libmongodb-perl
+Package-List: 
+ libmongodb-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmongodb-perl
+Priority: source
+Section: perl

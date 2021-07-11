@@ -1,0 +1,28 @@
+Package: haskell-sha
+Binary: libghc-sha-dev, libghc-sha-prof, libghc-sha-doc
+Version: 1.6.4.4-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 86a0377ec95bea2bf708bd3ad5d00ff6 2258 haskell-sha_1.6.4.4-3.dsc
+ f2a26839057b5e4fd53b8f6a41b88553 2715144 haskell-sha_1.6.4.4.orig.tar.gz
+ d3b048a9748c3f3064cf6501e99add63 3764 haskell-sha_1.6.4.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-sha
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-sha]
+Checksums-Sha256:
+ c8eff13c8736e69065dd7c32486d32ed4da24da266475ae137dd1184e4cea5d5 2258 haskell-sha_1.6.4.4-3.dsc
+ 6bd950df6b11a3998bb1452d875d2da043ee43385459afc5f16d471d25178b44 2715144 haskell-sha_1.6.4.4.orig.tar.gz
+ d52fddd1472cc99294ea7b718019e3d0c72bf6ed8b4efa49a726e3470ceff706 3764 haskell-sha_1.6.4.4-3.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/SHA
+Package-List: 
+ libghc-sha-dev deb haskell optional arch=any
+ libghc-sha-doc deb doc optional arch=all
+ libghc-sha-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-sha
+Priority: source
+Section: haskell

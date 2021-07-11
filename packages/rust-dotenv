@@ -1,0 +1,29 @@
+Package: rust-dotenv
+Binary: librust-dotenv-dev, librust-dotenv+clap-dev, dotenv
+Version: 0.15.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Niklas Claesson <nicke.claesson@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native, rustc:native, libstd-rust-dev, help2man, librust-clap-2+default-dev
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 95de1e1db1074b5b7065397caee077dc 1706 rust-dotenv_0.15.0-2.dsc
+ 21f7682fe66353c432584ab63c12fdf6 11668 rust-dotenv_0.15.0.orig.tar.gz
+ e96fa4c8ed43cdbef7da28e8a29739bf 3296 rust-dotenv_0.15.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/dotenv
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/dotenv]
+Checksums-Sha256:
+ 7de115c9aee30895bfd2069715ebee3b5a8caac76b688f6d9a2532b8e032f544 1706 rust-dotenv_0.15.0-2.dsc
+ 77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f 11668 rust-dotenv_0.15.0.orig.tar.gz
+ b001f4576ec7917110922fcbcad354e7e5e166b738b31d7890552fb3f90cc6de 3296 rust-dotenv_0.15.0-2.debian.tar.xz
+Homepage: https://github.com/dotenv-rs/dotenv
+Package-List: 
+ dotenv deb devel optional arch=any
+ librust-dotenv+clap-dev deb rust optional arch=any
+ librust-dotenv-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-dotenv
+Priority: extra
+Section: misc

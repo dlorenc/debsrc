@@ -1,0 +1,26 @@
+Package: node-create-require
+Binary: node-create-require
+Version: 1.1.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-tap <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5e76a566dbf1bcb5924399761a1a3807 2146 node-create-require_1.1.1-2.dsc
+ ff8c2e45e5663dbc5efee6249549d906 80870 node-create-require_1.1.1.orig.tar.gz
+ 96dacae8f9206fdfb38493722322725b 2288 node-create-require_1.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-create-require
+Vcs-Git: https://salsa.debian.org/js-team/node-create-require.git
+Checksums-Sha256:
+ e8a9f04d4c48b131ccaf7637e17835827491f0b6d1cb44d8d76d685b8d581bcb 2146 node-create-require_1.1.1-2.dsc
+ f30dbdc151e967576914410f218bfbf36df644309bea5c4c151af887df1bd6f1 80870 node-create-require_1.1.1.orig.tar.gz
+ a9aa5c6e8f7a4eff4312f5693391886fdb14e3c55f37fb3e7a00be1243340de0 2288 node-create-require_1.1.1-2.debian.tar.xz
+Homepage: https://github.com/nuxt-contrib/create-require
+Package-List: 
+ node-create-require deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-create-require
+Priority: extra
+Section: misc

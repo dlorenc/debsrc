@@ -1,0 +1,25 @@
+Package: ruby-mini-exiftool
+Binary: ruby-mini-exiftool
+Version: 2.9.0-2
+Maintainer: Marc Bigler <marc@towards.ch>
+Build-Depends: debhelper-compat (= 12), gem2deb
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 1685047447215a4c04bbbb8f784af8a4 1898 ruby-mini-exiftool_2.9.0-2.dsc
+ 142cead6a564a7097d1776c19a4dfb15 324713 ruby-mini-exiftool_2.9.0.orig.tar.gz
+ 6e52024b8be318646a82a2defb46505b 4616 ruby-mini-exiftool_2.9.0-2.debian.tar.xz
+Checksums-Sha256:
+ 57b057e973daf813e6b0a8cccbba7362994cf81e9748db3de79379b0d7871cce 1898 ruby-mini-exiftool_2.9.0-2.dsc
+ f47232d67a5fe0a160c13bb508221c71e798a69d2188f4537391918600385ecb 324713 ruby-mini-exiftool_2.9.0.orig.tar.gz
+ 1a1144552a50c95975201a8d12e8ce7eb41a7b0b5dc861aa0f60429274588fc9 4616 ruby-mini-exiftool_2.9.0-2.debian.tar.xz
+Homepage: https://github.com/janfri/mini_exiftool
+Package-List: 
+ ruby-mini-exiftool deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: libimage-exiftool-perl
+Directory: pool/main/r/ruby-mini-exiftool
+Priority: optional
+Section: misc

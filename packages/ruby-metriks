@@ -1,0 +1,27 @@
+Package: ruby-metriks
+Binary: ruby-metriks
+Version: 0.9.9.8-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hp.com>
+Build-Depends: gem2deb, ruby-atomic, ruby-avl-tree (>= 1.2~), ruby-hitimes, ruby-mocha, ruby-riemann-client, ruby-test-unit, debhelper-compat (= 12)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 82c48cf5c482a1c93c3a758a49cc7035 1782 ruby-metriks_0.9.9.8-1.dsc
+ f228c385ff0ba46f97c367192caa6b18 17844 ruby-metriks_0.9.9.8.orig.tar.gz
+ c59a7b0cbbd3b1cc9c600cf9e98a5c7e 3100 ruby-metriks_0.9.9.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-metriks
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-metriks.git
+Checksums-Sha256:
+ e57ecddd6305bb416b73d95ef9e19340c9baddda375ea75c148d4559c95a738c 1782 ruby-metriks_0.9.9.8-1.dsc
+ bcc865fccd61a8a6805e07249484fd5d021ffe56fbe4ed1605258ebbefe66ff6 17844 ruby-metriks_0.9.9.8.orig.tar.gz
+ 7ac8bb67baa3a6e5b1fe53ec581cd605c8a16fa90735e0cb27564b7446e4e69a 3100 ruby-metriks_0.9.9.8-1.debian.tar.xz
+Homepage: https://github.com/eric/metriks
+Package-List: 
+ ruby-metriks deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-metriks
+Priority: optional
+Section: misc

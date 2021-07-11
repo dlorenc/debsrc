@@ -1,0 +1,28 @@
+Package: ruby-rails-assets-autosize
+Binary: ruby-rails-assets-autosize
+Version: 4.0.2-6
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, libjs-autosize (>= 4.0~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1729d42e1cb762bc57f5c78510599ad1 2282 ruby-rails-assets-autosize_4.0.2-6.dsc
+ f39a098f85b97e1d2efa3695a24d3da6 4863 ruby-rails-assets-autosize_4.0.2.orig.tar.gz
+ fe4a5a32087708cdb07d8308981f4f65 3360 ruby-rails-assets-autosize_4.0.2-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rails-assets-autosize
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rails-assets-autosize.git
+Checksums-Sha256:
+ 8ae32f739bf1b9c3cb4d9b2b64b77d59586c938a07b88c4c08bbc47e8f45149b 2282 ruby-rails-assets-autosize_4.0.2-6.dsc
+ 07ce5bc112923123f8e4da7ca9437ee19ef5076e90ec50bea12a7a989dc432df 4863 ruby-rails-assets-autosize_4.0.2.orig.tar.gz
+ e210c6280e6d3ff2c46d25dcc70925a73ae7949d9335e99d207dafd92e165509 3360 ruby-rails-assets-autosize_4.0.2-6.debian.tar.xz
+Homepage: https://www.jacklmoore.com/autosize
+Package-List: 
+ ruby-rails-assets-autosize deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Testsuite-Triggers: ruby-bundler, ruby-railties, ruby-sass-rails
+Directory: pool/main/r/ruby-rails-assets-autosize
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: geronimo-jacc-1.1-spec
+Binary: libgeronimo-jacc-1.1-spec-java
+Version: 1.0.3-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Chris Grzegorczyk <grze@eucalyptus.com>, Graziano Obertelli <graziano@eucalyptus.com>, Kyo Lee <kyo.lee@eucalyptus.com>
+Build-Depends: debhelper-compat (= 13), default-jdk, junit, libgeronimo-osgi-support-java, libmaven-bundle-plugin-java, libservlet-api-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 23d30880a2f8299afb948d9b14c3495c 2302 geronimo-jacc-1.1-spec_1.0.3-1.dsc
+ 9d54ff4035ccbdac310ec06988828a2f 21144 geronimo-jacc-1.1-spec_1.0.3.orig.tar.xz
+ 6f79f11b10c9cba3ee1e1df1d617c890 4540 geronimo-jacc-1.1-spec_1.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/geronimo-jacc-1.1-spec
+Vcs-Git: https://salsa.debian.org/java-team/geronimo-jacc-1.1-spec.git
+Checksums-Sha256:
+ c451259b3c6b9f559ccdf7f57f55c5001c415220dd603f2d3e185c9d52250823 2302 geronimo-jacc-1.1-spec_1.0.3-1.dsc
+ 5bceeb67f16d176387da89b281739c61dde4960366a3c009c57b6cb9eec6acd4 21144 geronimo-jacc-1.1-spec_1.0.3.orig.tar.xz
+ cff557034117717803d6978c3b7dc03fb1066caaaace629cfbb6e50b33aa8fb2 4540 geronimo-jacc-1.1-spec_1.0.3-1.debian.tar.xz
+Homepage: http://geronimo.apache.org
+Package-List: 
+ libgeronimo-jacc-1.1-spec-java deb java optional arch=all
+Directory: pool/main/g/geronimo-jacc-1.1-spec
+Priority: source
+Section: java

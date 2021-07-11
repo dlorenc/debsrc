@@ -1,0 +1,28 @@
+Package: libimage-info-perl
+Binary: libimage-info-perl
+Version: 1.42-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Don Armstrong <don@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libimage-base-bundle-perl <!nocheck> | libimage-xbm-perl <!nocheck>, libimage-base-bundle-perl <!nocheck> | libimage-xpm-perl <!nocheck>, libio-string-perl <!nocheck>, libxml-libxml-perl <!nocheck> | libxml-simple-perl <!nocheck>, perl, perl (>= 5.21.7) <!nocheck> | libio-stringy-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c4653001d26781cdd63a8befc695111e 2645 libimage-info-perl_1.42-1.dsc
+ d5e097328288d795361c4379a4d8a144 321727 libimage-info-perl_1.42.orig.tar.gz
+ 9751fb10b29c6219da211ba44133713f 4272 libimage-info-perl_1.42-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libimage-info-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libimage-info-perl.git
+Checksums-Sha256:
+ eadf3aaf091454bff6e9e821756e742c6c8fcf7d7ee504dbf8d9d903a8e4fb23 2645 libimage-info-perl_1.42-1.dsc
+ 2bca560c3f71b3c1cd63ac3a974e62f3baeb986b7ffaa026b929081b914a8f4f 321727 libimage-info-perl_1.42.orig.tar.gz
+ 38e3a3c7266b77237dfce433ba269d525053e56fbbd30d14267a6191d2ebe1b8 4272 libimage-info-perl_1.42-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Image-Info
+Dgit: 449a02025f2e1a33682f80239bffc99ec487dc28 debian archive/debian/1.42-1 https://git.dgit.debian.org/libimage-info-perl
+Package-List: 
+ libimage-info-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libi/libimage-info-perl
+Priority: source
+Section: perl

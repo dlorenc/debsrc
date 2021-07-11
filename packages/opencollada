@@ -1,0 +1,26 @@
+Package: opencollada
+Binary: opencollada-dev, opencollada-tools
+Version: 0.1.0~20180719.619d942+dfsg0-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Matteo F. Vescovi <mfv@debian.org>
+Build-Depends: cmake, debhelper (>= 11), libpcre3-dev, libxml2-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 3c01d498f55a3849191fcecbf316bb8c 2375 opencollada_0.1.0~20180719.619d942+dfsg0-2.dsc
+ be7c567d06d0a66a9999638d768d5cea 8509060 opencollada_0.1.0~20180719.619d942+dfsg0.orig.tar.xz
+ aaa26d7aa4bf0477590b9fe9edb67ded 12852 opencollada_0.1.0~20180719.619d942+dfsg0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/opencollada
+Vcs-Git: https://salsa.debian.org/multimedia-team/opencollada.git
+Checksums-Sha256:
+ edfc3c89a67b0d60b63fd31c0dcc2c33eef6a793673b8f76dfb6484f370172e6 2375 opencollada_0.1.0~20180719.619d942+dfsg0-2.dsc
+ d57992d36f7597aa3f039954d07fcda6bf3aed93f75f0332c8423a524f03c1b4 8509060 opencollada_0.1.0~20180719.619d942+dfsg0.orig.tar.xz
+ a20028ff6e41396b2ca1499d10c96c23266cd9a1ef4b052d08118369a49a4fb8 12852 opencollada_0.1.0~20180719.619d942+dfsg0-2.debian.tar.xz
+Homepage: http://www.opencollada.org/
+Package-List: 
+ opencollada-dev deb libdevel optional arch=any
+ opencollada-tools deb graphics optional arch=any
+Directory: pool/main/o/opencollada
+Priority: optional
+Section: misc

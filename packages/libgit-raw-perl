@@ -1,0 +1,26 @@
+Package: libgit-raw-perl
+Binary: libgit-raw-perl
+Version: 0.87+ds-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Marc Haber <mh+debian-packages@zugschlus.de>
+Build-Depends: debhelper-compat (= 13), gnulib, libcapture-tiny-perl <!nocheck>, libdevel-checklib-perl, libfile-slurp-tiny-perl <!nocheck>, libgit2-dev (>= 1.0.0), libhttp-parser-dev, libssh2-1-dev, libssl-dev, libtest-deep-perl <!nocheck>, perl-xs-dev, perl:native, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0553fa2fbd5118b0a46040380980caa1 2344 libgit-raw-perl_0.87+ds-1.dsc
+ c260ec97e4955c691564a3f6b0878773 163448 libgit-raw-perl_0.87+ds.orig.tar.xz
+ cb62c0a6d96950ad8840701fd636b94d 4436 libgit-raw-perl_0.87+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libgit-raw-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libgit-raw-perl.git
+Checksums-Sha256:
+ 42bdc5e22be2b2431fb802753110c35990a61e744a2dd02adcb0841e6978464f 2344 libgit-raw-perl_0.87+ds-1.dsc
+ 6fa3f6bba589f03b814310993117c7ff897013a53662a6a93d3bfa7b973cb2cc 163448 libgit-raw-perl_0.87+ds.orig.tar.xz
+ b338d274a19affa68081adba585fa9b62155c9c3468dfc21305284c2d7dd61d8 4436 libgit-raw-perl_0.87+ds-1.debian.tar.xz
+Homepage: https://github.com/jacquesg/p5-Git-Raw
+Package-List: 
+ libgit-raw-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libg/libgit-raw-perl
+Priority: extra
+Section: misc

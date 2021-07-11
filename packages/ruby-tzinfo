@@ -1,0 +1,27 @@
+Package: ruby-tzinfo
+Binary: ruby-tzinfo
+Version: 1.2.6-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hleb Valoshka <375gnu@gmail.com>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-minitest (>= 5.0~), ruby-thread-safe (>= 0.1~), tzdata, ruby-concurrent
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8ba135ba7c9bf52525ed7192ebe1ebe7 2113 ruby-tzinfo_1.2.6-1.dsc
+ 2c0590337e895f46c126b78cca41595a 151623 ruby-tzinfo_1.2.6.orig.tar.gz
+ db857353f36018950dd11afa88e54a2e 3584 ruby-tzinfo_1.2.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-tzinfo
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-tzinfo.git
+Checksums-Sha256:
+ 551fecf4e54ee248293e43cccc6fb3e5a627b4cd3c9eeddb5addfb1b3befac43 2113 ruby-tzinfo_1.2.6-1.dsc
+ 608047e98865356edb02b3df014f99d8418035bac0d0ce520c19729c7f4b1910 151623 ruby-tzinfo_1.2.6.orig.tar.gz
+ 6abcb6d98ea2c7336d5523c4084d944982eba5470a6bdcf0bc30cfd0a1a2a80e 3584 ruby-tzinfo_1.2.6-1.debian.tar.xz
+Homepage: https://tzinfo.github.io/
+Package-List: 
+ ruby-tzinfo deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-tzinfo
+Priority: source
+Section: ruby

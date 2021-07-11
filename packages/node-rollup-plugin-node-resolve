@@ -1,0 +1,26 @@
+Package: node-rollup-plugin-node-resolve
+Binary: node-rollup-plugin-node-resolve
+Version: 11.0.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-builtin-modules, node-deepmerge <!nocheck>, node-graceful-fs, node-is-module, node-buble <!nocheck>, node-resolve, node-rollup-plugin-babel <!pkg.node-rollup-plugin-node-resolve.transpilebuble>, node-rollup-plugin-buble <pkg.node-rollup-plugin-node-resolve.transpilebuble>, node-rollup-plugin-buble <!nocheck>, node-rollup-plugin-commonjs (>= 14) <!nocheck>, node-rollup-plugin-json, node-tape <!nocheck>, nodejs (>= 10), dh-sequence-nodejs, rollup (>= 1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 055a6df6164730eb103ca8daa7b61920 2686 node-rollup-plugin-node-resolve_11.0.1-2.dsc
+ 970f3790ea385ab42184adf6827768b1 50664 node-rollup-plugin-node-resolve_11.0.1.orig.tar.xz
+ b60b7fd189f261dbb1e53bec74eee12a 7168 node-rollup-plugin-node-resolve_11.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rollup-plugin-node-resolve
+Vcs-Git: https://salsa.debian.org/js-team/node-rollup-plugin-node-resolve.git
+Checksums-Sha256:
+ cbee8ce3785c78fdef9165f3ac0e7391cfa425f93d9f55659b78a21463108274 2686 node-rollup-plugin-node-resolve_11.0.1-2.dsc
+ 42a132dbec3f5bd1ee3a15c783477c82f163f8c5498390625e479b53126d1ca5 50664 node-rollup-plugin-node-resolve_11.0.1.orig.tar.xz
+ a3493f6e09b6e5900e58f0d30b618687391f2644d96ed2a667b8fdf53b522985 7168 node-rollup-plugin-node-resolve_11.0.1-2.debian.tar.xz
+Homepage: https://github.com/rollup/plugins
+Package-List: 
+ node-rollup-plugin-node-resolve deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-rollup-plugin-node-resolve
+Priority: extra
+Section: misc

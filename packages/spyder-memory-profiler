@@ -1,0 +1,27 @@
+Package: spyder-memory-profiler
+Binary: python3-spyder-memory-profiler
+Version: 0.2.1-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-memory-profiler, python3-pytest <!nocheck>, python3-pytest-xvfb <!nocheck>, python3-pytestqt <!nocheck>, python3-setuptools, python3-spyder (>= 4.0)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 67c606d588af10867c07a713d3c50c1b 2430 spyder-memory-profiler_0.2.1-1.dsc
+ fe9f39333eb87c77b068b751d8d87de3 16802 spyder-memory-profiler_0.2.1.orig.tar.gz
+ 1e53e3fe6393011b3b4fe24e039ccb31 2500 spyder-memory-profiler_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/spyder-memory-profiler
+Vcs-Git: https://salsa.debian.org/science-team/spyder-memory-profiler.git
+Checksums-Sha256:
+ c387405f6456158e734784888c85301cb378b6fcddf0d67ca49b3f0b5c87b425 2430 spyder-memory-profiler_0.2.1-1.dsc
+ 86d2e8a6749188a17cf5f21b9e8076f091702dbd924bd619e3b6085b3d1b756f 16802 spyder-memory-profiler_0.2.1.orig.tar.gz
+ 8eaab6af5234c0003f71769ec1cbf20012c95d8179b84d183e15b5d9f76d4e28 2500 spyder-memory-profiler_0.2.1-1.debian.tar.xz
+Homepage: https://github.com/spyder-ide/spyder-memory-profiler
+Package-List: 
+ python3-spyder-memory-profiler deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest-xvfb, python3-pytestqt
+Directory: pool/main/s/spyder-memory-profiler
+Priority: optional
+Section: misc

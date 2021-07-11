@@ -1,0 +1,28 @@
+Package: haskell-errors
+Binary: libghc-errors-dev, libghc-errors-prof, libghc-errors-doc
+Version: 2.3.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-exceptions-dev (>= 0.6), libghc-exceptions-dev (<< 0.11), libghc-exceptions-prof, libghc-safe-dev (>= 0.3.3), libghc-safe-dev (<< 0.4), libghc-safe-prof, libghc-transformers-compat-dev (>= 0.4), libghc-transformers-compat-dev (<< 0.7), libghc-transformers-compat-prof
+Build-Depends-Indep: ghc-doc, libghc-exceptions-doc, libghc-safe-doc, libghc-transformers-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c493b643dbf279d6e52d44cf48f5076e 2629 haskell-errors_2.3.0-3.dsc
+ 43bec23a661dd4a5eefb5549b4fad8a8 9184 haskell-errors_2.3.0.orig.tar.gz
+ ebb11840bf62236c568170c69ec15a7c 3316 haskell-errors_2.3.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-errors
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-errors]
+Checksums-Sha256:
+ 1aa0d1349e42abe2d45c74f21668021808b171afd11b8e4cc6d000b28edea158 2629 haskell-errors_2.3.0-3.dsc
+ 6772e5689f07e82077ffe3339bc672934d83d83a97a7d4f1349de1302cb71f75 9184 haskell-errors_2.3.0.orig.tar.gz
+ 6eb0b7f3045f5deda9a99bdef6e9eb7388b2a87bbf1f8e8e1442f071caed409d 3316 haskell-errors_2.3.0-3.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/errors
+Package-List: 
+ libghc-errors-dev deb haskell optional arch=any
+ libghc-errors-doc deb doc optional arch=all
+ libghc-errors-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-errors
+Priority: source
+Section: misc

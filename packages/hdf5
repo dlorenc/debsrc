@@ -1,0 +1,55 @@
+Package: hdf5
+Binary: libhdf5-103-1, libhdf5-fortran-102, libhdf5-hl-100, libhdf5-hl-fortran-100, libhdf5-103, libhdf5-cpp-103-1, libhdf5-hl-cpp-100, libhdf5-cpp-103, libhdf5-dev, libhdf5-openmpi-103-1, libhdf5-openmpi-fortran-102, libhdf5-openmpi-hl-100, libhdf5-openmpi-hl-fortran-100, libhdf5-openmpi-103, libhdf5-openmpi-cpp-103-1, libhdf5-openmpi-hl-cpp-100, libhdf5-openmpi-dev, libhdf5-mpich-103-1, libhdf5-mpich-fortran-102, libhdf5-mpich-hl-100, libhdf5-mpich-hl-fortran-100, libhdf5-mpich-103, libhdf5-mpich-cpp-103-1, libhdf5-mpich-hl-cpp-100, libhdf5-mpich-dev, libhdf5-mpi-dev, libhdf5-doc, hdf5-helpers, hdf5-tools, libhdf5-java, libhdf5-jni
+Version: 1.10.6+repack-4
+Maintainer: Gilles Filippini <pini@debian.org>
+Build-Depends: debhelper (>= 10~), mpi-default-dev, libopenmpi-dev, libmpich-dev, zlib1g-dev, libjpeg-dev, gfortran, sharutils, chrpath, libaec-dev, default-jdk-headless (>= 2:1.7) [!hppa !hurd-i386], javahelper [!hppa !hurd-i386]
+Build-Depends-Indep: doxygen, php-cli
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6f8b957b14f41893289fa2a0fe375c65 3838 hdf5_1.10.6+repack-4.dsc
+ d5816cf023691ba612c28809912f59d9 12685436 hdf5_1.10.6+repack.orig.tar.gz
+ 519b5259c61b102933de345691672258 145304 hdf5_1.10.6+repack-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/hdf5
+Vcs-Git: https://salsa.debian.org/debian/hdf5.git
+Checksums-Sha256:
+ 7f06e6edbe02bd1b6bf9acfb9e4784395d7c70b3495c9103a65b77df1fc25f85 3838 hdf5_1.10.6+repack-4.dsc
+ 09c94704ee96129211c049bc1bce27b99914863f7429bae5b3372ea9bac51ce5 12685436 hdf5_1.10.6+repack.orig.tar.gz
+ 55907035db9409807f16fbccc698d2aca02820bc0abbe1888fe14a15ca8f511f 145304 hdf5_1.10.6+repack-4.debian.tar.xz
+Homepage: http://hdfgroup.org/HDF5/
+Package-List: 
+ hdf5-helpers deb science optional arch=any
+ hdf5-tools deb science optional arch=any
+ libhdf5-103 deb libs optional arch=any
+ libhdf5-103-1 deb libs optional arch=any
+ libhdf5-cpp-103 deb libs optional arch=any
+ libhdf5-cpp-103-1 deb libs optional arch=any
+ libhdf5-dev deb libdevel optional arch=any
+ libhdf5-doc deb doc optional arch=all
+ libhdf5-fortran-102 deb libs optional arch=any
+ libhdf5-hl-100 deb libs optional arch=any
+ libhdf5-hl-cpp-100 deb libs optional arch=any
+ libhdf5-hl-fortran-100 deb libs optional arch=any
+ libhdf5-java deb java optional arch=all
+ libhdf5-jni deb science optional arch=any
+ libhdf5-mpi-dev deb libdevel optional arch=any
+ libhdf5-mpich-103 deb libs optional arch=any
+ libhdf5-mpich-103-1 deb libs optional arch=any
+ libhdf5-mpich-cpp-103-1 deb libs optional arch=any
+ libhdf5-mpich-dev deb libdevel optional arch=any
+ libhdf5-mpich-fortran-102 deb libs optional arch=any
+ libhdf5-mpich-hl-100 deb libs optional arch=any
+ libhdf5-mpich-hl-cpp-100 deb libs optional arch=any
+ libhdf5-mpich-hl-fortran-100 deb libs optional arch=any
+ libhdf5-openmpi-103 deb libs optional arch=any
+ libhdf5-openmpi-103-1 deb libs optional arch=any
+ libhdf5-openmpi-cpp-103-1 deb libs optional arch=any
+ libhdf5-openmpi-dev deb libdevel optional arch=any
+ libhdf5-openmpi-fortran-102 deb libs optional arch=any
+ libhdf5-openmpi-hl-100 deb libs optional arch=any
+ libhdf5-openmpi-hl-cpp-100 deb libs optional arch=any
+ libhdf5-openmpi-hl-fortran-100 deb libs optional arch=any
+Directory: pool/main/h/hdf5
+Priority: source
+Section: libs

@@ -1,0 +1,27 @@
+Package: libnet-prometheus-perl
+Binary: libnet-prometheus-perl
+Version: 0.11-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libhttp-message-perl <!nocheck>, libmodule-build-perl, libref-util-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libstruct-dumb-perl <!nocheck>, libtest-fatal-perl <!nocheck>, liburi-perl <!nocheck>, perl:native, perl-xs-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aa485a135e4808f752eb1a8dc817c944 2616 libnet-prometheus-perl_0.11-1.dsc
+ c7274629dfd384ef2464d27046dab0dc 39243 libnet-prometheus-perl_0.11.orig.tar.gz
+ 7510d44363212643d26c9fe6ddccfc77 2168 libnet-prometheus-perl_0.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-prometheus-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-prometheus-perl.git
+Checksums-Sha256:
+ f0c24f79fa162e1a9606187a23d6aec6944385cda9be3ae1d0d315e235092581 2616 libnet-prometheus-perl_0.11-1.dsc
+ 22f809e278ead51936ad539580651b4ce5cbc91c209e4a577ac82383cd9f726a 39243 libnet-prometheus-perl_0.11.orig.tar.gz
+ 7e626e283458efa22f2d9a21bc08a1c4c26d58ff72b5c85e23e615b7cb08ff3c 2168 libnet-prometheus-perl_0.11-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Net-Prometheus
+Dgit: b6e7dfc9e915602c2d7a76898b937647393ee1b3 debian archive/debian/0.11-1 https://git.dgit.debian.org/libnet-prometheus-perl
+Package-List: 
+ libnet-prometheus-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-prometheus-perl
+Priority: optional
+Section: misc

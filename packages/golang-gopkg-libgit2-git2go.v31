@@ -1,0 +1,27 @@
+Package: golang-gopkg-libgit2-git2go.v31
+Binary: golang-gopkg-libgit2-git2go.v31-dev
+Version: 31.4.3-2
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Michael Stapelberg <stapelberg@debian.org>, Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), golang-any, dh-golang, pkg-config, golang-golang-x-crypto-dev, golang-github-google-shlex-dev, git, libgit2-dev (>> 1.1~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 21cc0526712f3e1ab8cd48eb61d40221 2509 golang-gopkg-libgit2-git2go.v31_31.4.3-2.dsc
+ 5e93a5e895ed4b09357045a9704bc58e 113425 golang-gopkg-libgit2-git2go.v31_31.4.3.orig.tar.gz
+ 9b9d134433e47abac2437eff59370954 4180 golang-gopkg-libgit2-git2go.v31_31.4.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-gopkg-libgit2-git2go.git
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-gopkg-libgit2-git2go
+Checksums-Sha256:
+ 7b68e927b555b54cdc6e3de0752cd576f9c76606ebc20f8c69d004706d980dd5 2509 golang-gopkg-libgit2-git2go.v31_31.4.3-2.dsc
+ bd1a43b294b59493ad0b9cd77529157515cf50e93d07f35807e076674d412f84 113425 golang-gopkg-libgit2-git2go.v31_31.4.3.orig.tar.gz
+ 9298ebd0a462693ef859c315188a86ab194c16e1a69b6d660748b6be4dfee11b 4180 golang-gopkg-libgit2-git2go.v31_31.4.3-2.debian.tar.xz
+Homepage: https://github.com/libgit2/git2go
+Go-Import-Path: gopkg.in/libgit2/git2go.v31
+Package-List: 
+ golang-gopkg-libgit2-git2go.v31-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-gopkg-libgit2-git2go.v31
+Priority: extra
+Section: golang

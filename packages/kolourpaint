@@ -1,0 +1,28 @@
+Package: kolourpaint
+Binary: kolourpaint, kolourpaint4
+Version: 4:20.12.0-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>, Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.10.0~), debhelper-compat (= 13), extra-cmake-modules (>= 5.67.0~), gettext, libkf5doctools-dev (>= 5.67.0~), libkf5guiaddons-dev (>= 5.67.0~), libkf5i18n-dev (>= 5.67.0~), libkf5jobwidgets-dev (>= 5.67.0~), libkf5kio-dev (>= 5.67.0~), libkf5sane-dev, libkf5textwidgets-dev (>= 5.67.0~), libkf5widgetsaddons-dev (>= 5.67.0~), libkf5xmlgui-dev (>= 5.67.0~), pkg-config, pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.11.0~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a5d2b330ae0582b2ae957bcbd8bda370 2771 kolourpaint_20.12.0-1.dsc
+ ee3ab9780d52bfb4f73930166cfc03ae 5686588 kolourpaint_20.12.0.orig.tar.xz
+ a65b7b874029d7faa7c8c8e46c5ac2e9 488 kolourpaint_20.12.0.orig.tar.xz.asc
+ b87f7e1cc0830e38cdd94a63a0a46a98 9072 kolourpaint_20.12.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kolourpaint
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kolourpaint.git
+Checksums-Sha256:
+ a6c4d3c316e9b7ef41777bef9340053b3ebd1f3a88fe228c0781cc8fdfe69461 2771 kolourpaint_20.12.0-1.dsc
+ d80940e27155304aa0842fa3c08d72f8e383eb45beff49dc1a66b12b030be4ca 5686588 kolourpaint_20.12.0.orig.tar.xz
+ 7743f2450e4896f258fe0abb98f5c1f31a12b4278444c1f451af512f484ce992 488 kolourpaint_20.12.0.orig.tar.xz.asc
+ ecf0352980858d425a4b9e80ebd9cfec363722e4f107e62ecef04b67f251b03d 9072 kolourpaint_20.12.0-1.debian.tar.xz
+Homepage: https://apps.kde.org/en/kolourpaint
+Package-List: 
+ kolourpaint deb graphics optional arch=any
+ kolourpaint4 deb oldlibs optional arch=all
+Directory: pool/main/k/kolourpaint
+Priority: source
+Section: kde

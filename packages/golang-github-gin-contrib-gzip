@@ -1,0 +1,27 @@
+Package: golang-github-gin-contrib-gzip
+Binary: golang-github-gin-contrib-gzip-dev
+Version: 0.0.3-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-gin-gonic-gin-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 745cc5860f62eaeba5cdb595d4f0a0c1 2486 golang-github-gin-contrib-gzip_0.0.3-1.dsc
+ aa9fdf785fefa422bd69c8819f9268d4 7025 golang-github-gin-contrib-gzip_0.0.3.orig.tar.gz
+ ccae5e832fe25951695dbf9a7e24e102 2296 golang-github-gin-contrib-gzip_0.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gin-contrib-gzip
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gin-contrib-gzip.git
+Checksums-Sha256:
+ ac28ce0ee346d59207efd283f9066886294dbadef023eda6cd71b86a03f2332a 2486 golang-github-gin-contrib-gzip_0.0.3-1.dsc
+ acb2146e50698f2274b276368f696c4493090cb182be827a43758fdc77c05193 7025 golang-github-gin-contrib-gzip_0.0.3.orig.tar.gz
+ 80b063127c59ffa21c1e368f2f9de3bed03c66b19af8a0145d1f5fd844e41581 2296 golang-github-gin-contrib-gzip_0.0.3-1.debian.tar.xz
+Homepage: https://github.com/gin-contrib/gzip
+Go-Import-Path: github.com/gin-contrib/gzip
+Package-List: 
+ golang-github-gin-contrib-gzip-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-gin-contrib-gzip
+Priority: extra
+Section: golang

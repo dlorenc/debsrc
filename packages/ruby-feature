@@ -1,0 +1,27 @@
+Package: ruby-feature
+Binary: ruby-feature
+Version: 1.4.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Andrew Lee (李健秋) <ajqlee@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-coveralls, ruby-fakeredis, ruby-rspec, ruby-timecop
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b31e044ad461bf773fda7f6f87781548 2097 ruby-feature_1.4.0-2.dsc
+ 35d6c5d1d147eab42d948ad635ee72cb 10746 ruby-feature_1.4.0.orig.tar.gz
+ 4d833c2bdb2d7710242a7e02313560d6 3536 ruby-feature_1.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-feature
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-feature.git
+Checksums-Sha256:
+ 77c596e4bf7cfa084007f5d08e20bde0fb06502b25432c7fd6d2578b984110a5 2097 ruby-feature_1.4.0-2.dsc
+ 68d16fe064b83851a705a2571feb7866a5e3682a181c1bbc8e49331dfd4cdd18 10746 ruby-feature_1.4.0.orig.tar.gz
+ 63b928cac824a499951a7f468cf4393543c3f297f4e1dcf8646975aece505b75 3536 ruby-feature_1.4.0-2.debian.tar.xz
+Homepage: https://github.com/mgsnova/feature
+Package-List: 
+ ruby-feature deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-feature
+Priority: extra
+Section: misc

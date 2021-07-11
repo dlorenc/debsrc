@@ -1,0 +1,29 @@
+Package: healpix-java
+Binary: libhealpix-java, libhealpix-java-doc
+Version: 3.60+ds-4
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Leo Singer <leo.singer@ligo.org>
+Build-Depends: debhelper-compat (= 12), javahelper, libjs-jquery, libjs-jquery-ui
+Build-Depends-Indep: default-jdk, junit, libfits-java (>= 1.15.1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ adc581ef47dd8e389e09a57f6da9914f 2211 healpix-java_3.60+ds-4.dsc
+ 02e4795fb1610a16d03d2d066d4933f5 51244 healpix-java_3.60+ds.orig.tar.xz
+ bab0e6dc7372f6b8fa8ae6d53224a954 3804 healpix-java_3.60+ds-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/healpix-java
+Vcs-Git: https://salsa.debian.org/debian-astro-team/healpix-java.git
+Checksums-Sha256:
+ a4bbe1d347e97977ebf6c2ae243e6330df384636eea9acdca640df6a275047fa 2211 healpix-java_3.60+ds-4.dsc
+ 06d5ede9b369cee873e859996bf28c9d9dd68b82f773cd136e91ab878fea4fd2 51244 healpix-java_3.60+ds.orig.tar.xz
+ 699ad2ca539522938c8ef771d8e605a3ac7f2a96bbcb99a75366935a7d6367a5 3804 healpix-java_3.60+ds-4.debian.tar.xz
+Homepage: http://healpix.sourceforge.net
+Package-List: 
+ libhealpix-java deb java optional arch=all
+ libhealpix-java-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/h/healpix-java
+Priority: optional
+Section: misc

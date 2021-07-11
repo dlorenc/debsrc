@@ -1,0 +1,26 @@
+Package: node-estraverse
+Binary: node-estraverse
+Version: 5.2.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, chai <!nocheck>, mocha <!nocheck>, node-babel7 <!nocheck>, node-espree <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 52cea61dec6ec38be06bef6f58453581 2133 node-estraverse_5.2.0-1.dsc
+ 2285e434b60484b284d87b9b1bd38692 42809 node-estraverse_5.2.0.orig.tar.gz
+ 177c70f0cfa11144e7f699dde09305c8 3336 node-estraverse_5.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-estraverse
+Vcs-Git: https://salsa.debian.org/js-team/node-estraverse.git
+Checksums-Sha256:
+ 6ba151d9fb13229ddba61dea7b1f6ec8c1b0d7e5b9afde655566ee52526faf2b 2133 node-estraverse_5.2.0-1.dsc
+ 038790962c7953e2e6cb5aaeb321c9cda4e3a1067c2b810e1a505d09e9e6d291 42809 node-estraverse_5.2.0.orig.tar.gz
+ b8f61f4eb637bfabdd1be1fc4c7438ed883d13d322fe64738d9e76ed3b55c9aa 3336 node-estraverse_5.2.0-1.debian.tar.xz
+Homepage: https://github.com/estools/estraverse
+Package-List: 
+ node-estraverse deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-estraverse
+Priority: optional
+Section: javascript

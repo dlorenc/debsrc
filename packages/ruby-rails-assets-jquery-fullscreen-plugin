@@ -1,0 +1,29 @@
+Package: ruby-rails-assets-jquery-fullscreen-plugin
+Binary: ruby-rails-assets-jquery-fullscreen-plugin, libjs-jquery-fullscreen-plugin
+Version: 0.5.0+dfsg-4
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Syam G Krishnan (sgk) <sgk@riseup.net>
+Build-Depends: debhelper-compat (= 13), gem2deb, node-uglify
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 70ea5db31d215df6074226747e6da86b 2570 ruby-rails-assets-jquery-fullscreen-plugin_0.5.0+dfsg-4.dsc
+ 6aafc13450b7b96d9659d436c933c8a7 5448 ruby-rails-assets-jquery-fullscreen-plugin_0.5.0+dfsg.orig.tar.gz
+ c587bd711c80f21ca103e619ad6d6af5 4368 ruby-rails-assets-jquery-fullscreen-plugin_0.5.0+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rails-assets-jquery-fullscreen-plugin
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rails-assets-jquery-fullscreen-plugin.git
+Checksums-Sha256:
+ e7e4ba8475f275a8a75773c1189afe4c176cecf3e8a35b596a641d76a35f1106 2570 ruby-rails-assets-jquery-fullscreen-plugin_0.5.0+dfsg-4.dsc
+ 5623ad4129a377042f71b6a6021e4b8affc44ab417c9902878ec5586cf093e28 5448 ruby-rails-assets-jquery-fullscreen-plugin_0.5.0+dfsg.orig.tar.gz
+ 26e9e1b8e0390e219ef6203b5df5fd290d8027a35f8b6a3994fbb6d651bc14ff 4368 ruby-rails-assets-jquery-fullscreen-plugin_0.5.0+dfsg-4.debian.tar.xz
+Homepage: https://github.com/private-face/jquery.fullscreen
+Package-List: 
+ libjs-jquery-fullscreen-plugin deb javascript optional arch=all
+ ruby-rails-assets-jquery-fullscreen-plugin deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Testsuite-Triggers: rails
+Directory: pool/main/r/ruby-rails-assets-jquery-fullscreen-plugin
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: node-boxen
+Binary: node-boxen
+Version: 4.2.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: suman <suman@protonmail.com>
+Build-Depends: debhelper-compat (= 12), node-ansi-align <!nocheck>, node-camelcase (>= 4.0.0) <!nocheck>, node-chalk (>= 2.0.1) <!nocheck>, node-cli-boxes (>= 2.0.0~) <!nocheck>, node-string-width <!nocheck>, node-tape <!nocheck>, node-term-size <!nocheck>, node-widest-line <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bf6d71f490bfc35f7bda079bf89fa871 2529 node-boxen_4.2.0-3.dsc
+ 749f0b8eb5ce2a8c3b988c3627e765d0 949652 node-boxen_4.2.0.orig-type-fest.tar.gz
+ 75cfb40f382682b84e147884bba7562e 21644 node-boxen_4.2.0.orig.tar.gz
+ f37d8e50b99f26a68b76a883c799f8ff 5292 node-boxen_4.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-boxen
+Vcs-Git: https://salsa.debian.org/js-team/node-boxen.git
+Checksums-Sha256:
+ a2815512c773a141a6f4ffaa9242b271f0d035c4c9f87fdba38882bb72fd7452 2529 node-boxen_4.2.0-3.dsc
+ d9944b31c0ec37287c916286de6ada454b5e0486e9e66be12466ce4f7d265447 949652 node-boxen_4.2.0.orig-type-fest.tar.gz
+ 62d72593d1f1e7bf7ee34533e98246716a5c35c0afed78e410629b0ed0b623e1 21644 node-boxen_4.2.0.orig.tar.gz
+ c4cae30ade182a38b974caaf6b203b213d9fbdf646745ded2d06dac940906f7f 5292 node-boxen_4.2.0-3.debian.tar.xz
+Homepage: https://github.com/sindresorhus/boxen#readme
+Package-List: 
+ node-boxen deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-boxen
+Priority: extra
+Section: misc

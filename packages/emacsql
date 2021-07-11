@@ -1,0 +1,30 @@
+Package: emacsql
+Binary: elpa-emacsql, elpa-emacsql-sqlite, elpa-emacsql-psql, elpa-emacsql-mysql
+Version: 3.0.0+ds-2
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper-compat (= 12), dh-elpa, libsqlite3-dev, elpa-pg <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6fcd4a50dff45f847a5d793a73d714f5 2330 emacsql_3.0.0+ds-2.dsc
+ 2c9bdb76c2cf72bf9f3aa0597ec5fd0f 24040 emacsql_3.0.0+ds.orig.tar.xz
+ 14d14c2911713a7bfff45c5b21848aed 4560 emacsql_3.0.0+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/emacsql
+Vcs-Git: https://salsa.debian.org/emacsen-team/emacsql.git
+Checksums-Sha256:
+ acf1d7878c24233a4d130fcf722bb6111764d538c5bbe33aed4c461256d9c4f1 2330 emacsql_3.0.0+ds-2.dsc
+ a066880692b58bdf1b13a288e3ac7c286213f3b31c5eb8b6cc87f596845e3407 24040 emacsql_3.0.0+ds.orig.tar.xz
+ 7c5d17c08e63fb81d7ac51cf4914421d96223803c67eaab323d8e677f55a8b09 4560 emacsql_3.0.0+ds-2.debian.tar.xz
+Homepage: https://github.com/skeeto/emacsql
+Dgit: f4c19cd56470ce31ccccbf6556c38fb9b6560632 debian archive/debian/3.0.0+ds-2 https://git.dgit.debian.org/emacsql
+Package-List: 
+ elpa-emacsql deb editors optional arch=all
+ elpa-emacsql-mysql deb editors optional arch=all
+ elpa-emacsql-psql deb editors optional arch=all
+ elpa-emacsql-sqlite deb editors optional arch=any
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/e/emacsql
+Priority: extra
+Section: misc

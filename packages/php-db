@@ -1,0 +1,27 @@
+Package: php-db
+Binary: php-db
+Version: 1.10.0-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), pkg-php-tools, phpunit
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 49c84a9ad0de1bc5212985cf8f7c1284 2004 php-db_1.10.0-1.dsc
+ f4b5533b0f17c4c04230ef826dc9ca9f 81908 php-db_1.10.0.orig.tar.xz
+ c8773d976dd312c8a9372b681e92144f 4852 php-db_1.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-db
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-db.git
+Checksums-Sha256:
+ fd93e566f813a7c9a01de3e732152e71fee8846b73740fb865319a6aa059bea5 2004 php-db_1.10.0-1.dsc
+ 50882c6dbb1f5a1dbecb6f5dd2ad4c34375c4ad3542e96cc6219e52218b25c74 81908 php-db_1.10.0.orig.tar.xz
+ cfcffe10730d8b1cba2cb76ca078ddecd62d4aff34970402c74882e2d4b3f8ba 4852 php-db_1.10.0-1.debian.tar.xz
+Homepage: https://pear.php.net/package/DB
+Package-List: 
+ php-db deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-pear
+Directory: pool/main/p/php-db
+Priority: source
+Section: php

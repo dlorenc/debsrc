@@ -1,0 +1,27 @@
+Package: ruby-six
+Binary: ruby-six
+Version: 0.2.0-4
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-rspec (>= 3~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 44fcf3873ddf8c552f502f73af1553dd 2009 ruby-six_0.2.0-4.dsc
+ b4f8e126fe34acdba465b71a0b36051d 6700 ruby-six_0.2.0.orig.tar.gz
+ 7d7fcd756d0ae2deb008901b7d184801 4300 ruby-six_0.2.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-six
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-six.git
+Checksums-Sha256:
+ 9270e26a601d0db4b8e0b3fbdbb4f72a44a11b3a3b143d626434dbefc6ab46e5 2009 ruby-six_0.2.0-4.dsc
+ 409d357c53a6cf4337ba510432fd4c986c29ef9cdc5fa67a513c47dec903635b 6700 ruby-six_0.2.0.orig.tar.gz
+ 117a676e66c2e3ebdb27a0d5908d7d2e637dfbab9b427a98b975c7b525bf2399 4300 ruby-six_0.2.0-4.debian.tar.xz
+Homepage: https://github.com/dzaporozhets/six
+Package-List: 
+ ruby-six deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-six
+Priority: optional
+Section: misc

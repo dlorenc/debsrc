@@ -1,0 +1,26 @@
+Package: sonic-visualiser
+Binary: sonic-visualiser
+Version: 4.2-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Alessio Treglia <alessio@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>, IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>,
+Build-Depends: debhelper-compat (= 13), qt5-qmake, qtbase5-dev, qttools5-dev, qttools5-dev-tools, libqt5svg5-dev, libbz2-dev, capnproto, libcapnp-dev (>= 0.6.0), libdataquay-dev (>= 0.9-3), libfftw3-dev, libfishsound1-dev, libid3tag0-dev, libjack-dev, liblo-dev, liblrdf0-dev, libopusfile-dev, libmad0-dev, liboggz2-dev, libpulse-dev, librdf0-dev, librubberband-dev, libsamplerate0-dev, libsm-dev, libsndfile1-dev, libsord-dev, libx11-dev, portaudio19-dev, vamp-plugin-sdk (>= 2.5)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2ddd595d8c51c1566d6b058427e1a451 2691 sonic-visualiser_4.2-1.dsc
+ e09fafac58c74d53c7c692560384eb68 3994228 sonic-visualiser_4.2.orig.tar.xz
+ 8e13312ef77798c51d7bcccc0b8bb0cf 21420 sonic-visualiser_4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/sonic-visualiser
+Vcs-Git: https://salsa.debian.org/multimedia-team/sonic-visualiser.git
+Checksums-Sha256:
+ 10d7712a951d243c09535e2055ebb892d69bcbe5c4e9e5d32708e0b0abfa31ed 2691 sonic-visualiser_4.2-1.dsc
+ 2bdb145fb9106930ce61e4b15512ff7d576195f668c61f6ec80d88828733f8a7 3994228 sonic-visualiser_4.2.orig.tar.xz
+ f81c2ebe9eb64d22625f49ceeddf4689a1e454640979f273b3c31c6c08d04406 21420 sonic-visualiser_4.2-1.debian.tar.xz
+Homepage: https://www.sonicvisualiser.org
+Dgit: 32f6f465cd939ef4e0df69c7ee29954208d14e04 debian archive/debian/4.2-1 https://git.dgit.debian.org/sonic-visualiser
+Package-List: 
+ sonic-visualiser deb sound optional arch=any
+Directory: pool/main/s/sonic-visualiser
+Priority: source
+Section: misc

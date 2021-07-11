@@ -1,0 +1,27 @@
+Package: r-cran-rpact
+Binary: r-cran-rpact
+Version: 3.0.3-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp (>= 1.0.0)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7b9f7bbbad31d2e879a3b9de00a024c9 2098 r-cran-rpact_3.0.3-2.dsc
+ 65b8c40a574637f5b585db11d0da3981 795963 r-cran-rpact_3.0.3.orig.tar.gz
+ 329dcc3977b8cde9320000eb7a55eb77 2564 r-cran-rpact_3.0.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-rpact
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-rpact.git
+Checksums-Sha256:
+ fe8d4d605e673e07ad254c1698ac8151c12e117d3c68349f1bdf83e9ee503f1a 2098 r-cran-rpact_3.0.3-2.dsc
+ b1b7554128accbf8801523382aec10c75429a05b924f61938e892c003f151b12 795963 r-cran-rpact_3.0.3.orig.tar.gz
+ 9a327ec8bc3455fde38befda8c1e06de3f57dd2442566bcf9532163aa5fc99f8 2564 r-cran-rpact_3.0.3-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=rpact
+Package-List: 
+ r-cran-rpact deb gnu-r optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: r-cran-mnormt, r-cran-testthat
+Directory: pool/main/r/r-cran-rpact
+Priority: extra
+Section: misc

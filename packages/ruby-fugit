@@ -1,0 +1,27 @@
+Package: ruby-fugit
+Binary: ruby-fugit
+Version: 1.3.8-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-chronic (>= 0.10~), ruby-et-orbi (>= 1.1.8~), ruby-raabro (>= 1.3~), ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1f70a3251da0ae6cd796ff7cb20b8f81 1751 ruby-fugit_1.3.8-1.dsc
+ 9373f2524bb3b5ee247bb2917529fa8a 37075 ruby-fugit_1.3.8.orig.tar.gz
+ e9e8e20c482cee5a660e38596fba004c 2744 ruby-fugit_1.3.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-fugit
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-fugit.git
+Checksums-Sha256:
+ fb5d895ca9537b9a55848b27f18b4fd251f7804f5b87a5564f3340581f9b0dbf 1751 ruby-fugit_1.3.8-1.dsc
+ fe18406734233daa93007fbaa05766b429b01f674090550fa04da4a665c39172 37075 ruby-fugit_1.3.8.orig.tar.gz
+ 2568fd33b36217980dbc6de53c558b9879af46f710f3fc32295dd8c8b8e1e89c 2744 ruby-fugit_1.3.8-1.debian.tar.xz
+Homepage: https://github.com/floraison/fugit
+Package-List: 
+ ruby-fugit deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-fugit
+Priority: extra
+Section: misc

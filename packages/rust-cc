@@ -1,0 +1,28 @@
+Package: rust-cc
+Binary: librust-cc-dev, librust-cc+jobserver-dev
+Version: 1.0.59-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b438860d78110df13eb9dc6e1e322ef1 2263 rust-cc_1.0.59-1.dsc
+ 1e6c2fa88c44a0822243fee42526719b 53238 rust-cc_1.0.59.orig.tar.gz
+ ff82d5d71edbc71652b25abd8966851e 3476 rust-cc_1.0.59-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cc
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cc]
+Checksums-Sha256:
+ 29cf1515bcd4e6383791c4e66515873ea180ff38d6f3237941d4b85c9c422ded 2263 rust-cc_1.0.59-1.dsc
+ 66120af515773fb005778dc07c261bd201ec8ce50bd6e7144c927753fe013381 53238 rust-cc_1.0.59.orig.tar.gz
+ ae97b1b4d3c35c13669abb1044a2643bc2139480dff87d169342d557784f27d8 3476 rust-cc_1.0.59-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/cc-rs
+Package-List: 
+ librust-cc+jobserver-dev deb rust optional arch=any
+ librust-cc-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, g++, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-cc
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-blaze-builder
+Binary: libghc-blaze-builder-dev, libghc-blaze-builder-prof, libghc-blaze-builder-doc
+Version: 0.4.1.0-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cc88e0c01b60c42af5ca28f40a2c168a 2408 haskell-blaze-builder_0.4.1.0-4.dsc
+ c3cc5bdc46bd6e8bf5142cda2b0679b6 61365 haskell-blaze-builder_0.4.1.0.orig.tar.gz
+ 5d73585fc1db3e16099618526119fd6b 3364 haskell-blaze-builder_0.4.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-blaze-builder
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-blaze-builder]
+Checksums-Sha256:
+ db41a9ec68928bcef00c83e1f753f61ca3ce60634de87434a9d342f9f80f0277 2408 haskell-blaze-builder_0.4.1.0-4.dsc
+ 91fc8b966f3e9dc9461e1675c7566b881740f99abc906495491a3501630bc814 61365 haskell-blaze-builder_0.4.1.0.orig.tar.gz
+ 2da07c6d40fcc8c732304123167e35ad786adc06137a9bfeaf359cd0cb691c16 3364 haskell-blaze-builder_0.4.1.0-4.debian.tar.xz
+Homepage: https://github.com/lpsmith/blaze-builder
+Package-List: 
+ libghc-blaze-builder-dev deb haskell optional arch=any
+ libghc-blaze-builder-doc deb doc optional arch=all
+ libghc-blaze-builder-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-blaze-builder
+Priority: source
+Section: haskell

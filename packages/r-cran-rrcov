@@ -1,0 +1,27 @@
+Package: r-cran-rrcov
+Binary: r-cran-rrcov
+Version: 1.5-5-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-robustbase (>= 0.92.1), r-cran-mvtnorm, r-cran-lattice, r-cran-pcapp
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 85357503d6237d121e89accdf5212c54 2158 r-cran-rrcov_1.5-5-1.dsc
+ f935c881b91a8b4a14db2506f284d280 1147825 r-cran-rrcov_1.5-5.orig.tar.gz
+ e6348383dec4c8065b274e391b261db8 2896 r-cran-rrcov_1.5-5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-rrcov
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-rrcov.git
+Checksums-Sha256:
+ 96d063e359bdae72dce621dfc74c150ef7cff5d5adb0f8938f5375f8e0658ef3 2158 r-cran-rrcov_1.5-5-1.dsc
+ 1f7f07558e347e7d1f1adff68631764670bc672777a7d990901c4fa94cc0e629 1147825 r-cran-rrcov_1.5-5.orig.tar.gz
+ 271182fbc448f6cd32873e341219400b1d5ae67cd77b820eab1e75412aa34c58 2896 r-cran-rrcov_1.5-5-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=rrcov
+Package-List: 
+ r-cran-rrcov deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-mass
+Directory: pool/main/r/r-cran-rrcov
+Priority: extra
+Section: misc

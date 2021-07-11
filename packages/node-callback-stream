@@ -1,0 +1,26 @@
+Package: node-callback-stream
+Binary: node-callback-stream
+Version: 1.1.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper-compat (= 12), node-inherits <!nocheck>, node-readable-stream <!nocheck>, node-tap <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1bff062621cab10d98595d5231269738 2204 node-callback-stream_1.1.0-3.dsc
+ 02472f0d5c137496b779b5d74154cf96 3177 node-callback-stream_1.1.0.orig.tar.gz
+ 6d2b613ea78abbb53feadd62f4754bae 2708 node-callback-stream_1.1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-callback-stream
+Vcs-Git: https://salsa.debian.org/js-team/node-callback-stream.git
+Checksums-Sha256:
+ a0e22b94a360423555016d2318ee8773ecf2f62c088a226e5a8582b80fa7c333 2204 node-callback-stream_1.1.0-3.dsc
+ 0b93cc3814ba9fb24c460a2fd55809cec75b7a5656ce1c3f1afd73e57eb89d81 3177 node-callback-stream_1.1.0.orig.tar.gz
+ 9ceb482a8629b934ca5abc903347bbe487d37d5cdcd4b84904fee0f49f3b2569 2708 node-callback-stream_1.1.0-3.debian.tar.xz
+Homepage: https://github.com/mcollina/callback-stream
+Package-List: 
+ node-callback-stream deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-callback-stream
+Priority: extra
+Section: javascript

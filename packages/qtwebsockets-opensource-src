@@ -1,0 +1,32 @@
+Package: qtwebsockets-opensource-src
+Binary: libqt5websockets5, libqt5websockets5-dev, qml-module-qtwebsockets, qml-module-qt-websockets, qtwebsockets5-examples, qtwebsockets5-doc, qtwebsockets5-doc-html
+Version: 5.15.2-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-kde-tools, qml-module-qtquick2 (>= 5.15.2+dfsg~), qml-module-qttest (>= 5.15.2+dfsg~), qtbase5-private-dev (>= 5.15.2+dfsg~), qtdeclarative5-dev (>= 5.15.2+dfsg~), qtdeclarative5-private-dev (>= 5.15.2+dfsg~), xauth, xvfb
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>, qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cdf642f41395c814e53203c128fc356e 3211 qtwebsockets-opensource-src_5.15.2-2.dsc
+ d229bcde2f055f1bae9de009490cba31 259000 qtwebsockets-opensource-src_5.15.2.orig.tar.xz
+ 7134270e76cf76609b69b63df8e5d73f 9320 qtwebsockets-opensource-src_5.15.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtwebsockets
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtwebsockets.git
+Checksums-Sha256:
+ 769070b1513862edf6be0ff610d5a3b37fa480c4df00dc533fa8ef9e70d917fe 3211 qtwebsockets-opensource-src_5.15.2-2.dsc
+ a0b42d85dd34ff6e2d23400e02f83d8b85bcd80e60efd1521d12d9625d4a233f 259000 qtwebsockets-opensource-src_5.15.2.orig.tar.xz
+ 3e193bc5e15d8ea068dc03e2261c4c119ef496af7ca7395428fb29732296cba9 9320 qtwebsockets-opensource-src_5.15.2-2.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtwebsockets-index.html
+Package-List: 
+ libqt5websockets5 deb libs optional arch=any
+ libqt5websockets5-dev deb libdevel optional arch=any
+ qml-module-qt-websockets deb oldlibs optional arch=any
+ qml-module-qtwebsockets deb libs optional arch=any
+ qtwebsockets5-doc deb doc optional arch=all profile=!nodoc
+ qtwebsockets5-doc-html deb doc optional arch=all profile=!nodoc
+ qtwebsockets5-examples deb doc optional arch=any
+Directory: pool/main/q/qtwebsockets-opensource-src
+Priority: optional
+Section: misc

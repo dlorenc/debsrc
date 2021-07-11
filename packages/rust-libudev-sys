@@ -1,0 +1,25 @@
+Package: rust-libudev-sys
+Binary: librust-libudev-sys-dev
+Version: 0.1.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.2-~~) <!nocheck>, libudev-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 273512757701b3a0668ca523779b072c 2280 rust-libudev-sys_0.1.4-1.dsc
+ 6f0fbf3c0a0be28c10525cbbe0ad4846 6177 rust-libudev-sys_0.1.4.orig.tar.gz
+ a50266d20aa55caf4e3f232175e6e081 2356 rust-libudev-sys_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libudev-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/libudev-sys]
+Checksums-Sha256:
+ c10f1276673980be86241a28de4f77b7b830781c72df7ea2cdcd6c0288d5c756 2280 rust-libudev-sys_0.1.4-1.dsc
+ 3c8469b4a23b962c1396b9b451dda50ef5b283e8dd309d69033475fa9b334324 6177 rust-libudev-sys_0.1.4.orig.tar.gz
+ 3fbb722eab86546a9eadb97ef3be8d67d12276286bbdf3b80ab74a5dca875fbf 2356 rust-libudev-sys_0.1.4-1.debian.tar.xz
+Homepage: https://github.com/dcuddeback/libudev-sys
+Package-List: 
+ librust-libudev-sys-dev deb rust optional arch=any
+Directory: pool/main/r/rust-libudev-sys
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: pystemd
+Binary: python3-pystemd
+Version: 0.7.0-4
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Alexandros Afentoulis <alexaf.dpkg@bloom.re>
+Build-Depends: debhelper-compat (= 12), dh-python, libsystemd-dev, python3-all-dev, python3-mock, python3-setuptools, python3-six
+Architecture: linux-any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 65ed5cf1bb2d41fa019ba783eecdc5d3 2146 pystemd_0.7.0-4.dsc
+ f493c3e54457e49fe3c160274b863bac 265071 pystemd_0.7.0.orig.tar.gz
+ 37cb5f19c3e1a10d7dece44a1d0a5be3 2728 pystemd_0.7.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pystemd
+Vcs-Git: https://salsa.debian.org/python-team/modules/pystemd.git
+Checksums-Sha256:
+ e8885068426107505cb58980ebd4bed4ee644fff7505aeaacb4d02fd95da05ec 2146 pystemd_0.7.0-4.dsc
+ f5dc49d02995ab96335d9e94f9fe036673d89b8cc9907e7a0ac83c06665f2430 265071 pystemd_0.7.0.orig.tar.gz
+ c4fe8c9562ae7faa50c77dd148384cd70f50a64c394fab04790b0f7fbd519bb5 2728 pystemd_0.7.0-4.debian.tar.xz
+Homepage: https://github.com/facebookincubator/pystemd
+Package-List: 
+ python3-pystemd deb python optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: dbus, python3-all, python3-mock, systemd
+Directory: pool/main/p/pystemd
+Priority: extra
+Section: misc

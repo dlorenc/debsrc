@@ -1,0 +1,26 @@
+Package: usemod-wiki
+Binary: usemod-wiki
+Version: 1.2.1-2
+Maintainer: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper (>> 10), dh-apache2
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 316895cfad6e1ab2e3e75cd550c4ca03 1933 usemod-wiki_1.2.1-2.dsc
+ 073f3b900e6d29d973da3f48643e9162 64038 usemod-wiki_1.2.1.orig.tar.gz
+ bb0003501921f0634899a84ef3abadc9 12380 usemod-wiki_1.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/usemod-wiki
+Vcs-Git: https://salsa.debian.org/debian/usemod-wiki.git
+Checksums-Sha256:
+ 048f1b6e783a8ce68899053a5844c9b7bf25212a21d509dc768a99fde5bec88f 1933 usemod-wiki_1.2.1-2.dsc
+ 69fa4e03cef1fc2063be04eecd843890233c2d1e209eaf11bc4e3b912488cffd 64038 usemod-wiki_1.2.1.orig.tar.gz
+ dd504587631ec243c9cc4ff9958c48c4fe758fc88080f103af4f537f87b0a363 12380 usemod-wiki_1.2.1-2.debian.tar.xz
+Homepage: http://www.usemod.com/cgi-bin/wiki.pl?UseModWiki
+Package-List: 
+ usemod-wiki deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: httpd, mini-httpd
+Directory: pool/main/u/usemod-wiki
+Priority: source
+Section: web

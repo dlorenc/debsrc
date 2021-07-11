@@ -1,0 +1,27 @@
+Package: libcgi-untaint-perl
+Binary: libcgi-untaint-perl
+Version: 1.26-7
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominic Hargreaves <dom@earth.li>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl, libcgi-pm-perl | perl (<< 5.19), libuniversal-require-perl, libtest-pod-perl, libtest-pod-coverage-perl
+Architecture: all
+Standards-Version: 4.0.1
+Format: 3.0 (quilt)
+Files:
+ c96c13f81037f9d3572a2ddb321e68d6 2227 libcgi-untaint-perl_1.26-7.dsc
+ 1ed11830476470d4895b632bf2222606 8875 libcgi-untaint-perl_1.26.orig.tar.gz
+ 49abf87526002e56ee0bf82bf5f07406 3180 libcgi-untaint-perl_1.26-7.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libcgi-untaint-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libcgi-untaint-perl.git
+Checksums-Sha256:
+ d9eff531c74d54d370bce3a059a56eeb383c7b330a902191aca6d43705fb9f48 2227 libcgi-untaint-perl_1.26-7.dsc
+ 08e12a7ec938bc81899c02a6426777b9fe0e75da1161516416999d3052bc63b9 8875 libcgi-untaint-perl_1.26.orig.tar.gz
+ 12ef7d6b2e0d7d24ddc4654eb90ccd725a96cc1b54117ab211a732ee71233106 3180 libcgi-untaint-perl_1.26-7.debian.tar.xz
+Homepage: https://metacpan.org/release/CGI-Untaint
+Package-List: 
+ libcgi-untaint-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcgi-untaint-perl
+Priority: source
+Section: perl

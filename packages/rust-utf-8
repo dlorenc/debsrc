@@ -1,0 +1,24 @@
+Package: rust-utf-8
+Binary: librust-utf-8-dev
+Version: 0.7.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c23c261e66e7defe0510d971ed42396e 2103 rust-utf-8_0.7.5-1.dsc
+ 0ced546827bd868294dd6985ec87f4de 6551 rust-utf-8_0.7.5.orig.tar.gz
+ 2c27e954a29bfb24295493d05ea993cf 2428 rust-utf-8_0.7.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/utf-8
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/utf-8]
+Checksums-Sha256:
+ 8caa9a83bdb135997c393a258b840a097c6003f018bbfdcc143c59389730d283 2103 rust-utf-8_0.7.5-1.dsc
+ 05e42f7c18b8f902290b009cde6d651262f956c98bc51bca4cd1d511c9cd85c7 6551 rust-utf-8_0.7.5.orig.tar.gz
+ be5771543d9ba6547f66560af25465fc0ace2be032ddd018f6880f03435413f4 2428 rust-utf-8_0.7.5-1.debian.tar.xz
+Package-List: 
+ librust-utf-8-dev deb rust optional arch=any
+Directory: pool/main/r/rust-utf-8
+Priority: extra
+Section: misc

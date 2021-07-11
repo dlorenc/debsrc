@@ -1,0 +1,27 @@
+Package: pysmbc
+Binary: python3-smbc
+Version: 1.0.23-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>, Jérôme Guelfucci <jeromeg@xfce.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, pkg-config, python3-all-dev, libsmbclient-dev (>= 3.2)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8b6b30fffd984bc7a95f35c7d4de0e11 2287 pysmbc_1.0.23-1.dsc
+ 75d4bd24161c16b8609a0171d3aff6f1 26219 pysmbc_1.0.23.orig.tar.gz
+ a85b832bccf4b488753a965aee100640 833 pysmbc_1.0.23.orig.tar.gz.asc
+ e97994390b65a0240b276a5315c514a7 5748 pysmbc_1.0.23-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pysmbc
+Vcs-Git: https://salsa.debian.org/python-team/packages/pysmbc.git
+Checksums-Sha256:
+ 0cedb75b1680c023840d5d25ff04ff726511f94bcd1e39db7626fb2777b20e9f 2287 pysmbc_1.0.23-1.dsc
+ 08db176281103024b7e8563adef733e56250051d87394c4baec4fd298d0d16f8 26219 pysmbc_1.0.23.orig.tar.gz
+ 8333f1efbed61c081fcc1d65ce614515a1a75e188497b1b4928e473a6f33a6ec 833 pysmbc_1.0.23.orig.tar.gz.asc
+ 335cf3fb2e7ba70a28fc93ee1b601cb96405da29d6ab96d4e54e9e3c941fc2fd 5748 pysmbc_1.0.23-1.debian.tar.xz
+Homepage: https://github.com/hamano/pysmbc
+Package-List: 
+ python3-smbc deb python optional arch=any
+Directory: pool/main/p/pysmbc
+Priority: source
+Section: python

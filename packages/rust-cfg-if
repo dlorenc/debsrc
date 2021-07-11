@@ -1,0 +1,28 @@
+Package: rust-cfg-if
+Binary: librust-cfg-if-dev, librust-cfg-if+core-dev
+Version: 1.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b995114816c89c9ecf890298b510dff6 2259 rust-cfg-if_1.0.0-1.dsc
+ 74634128440dbc3766bda76fdf0aaa05 7934 rust-cfg-if_1.0.0.orig.tar.gz
+ 6e4fce57c3ca346e150cf6fd63f73d4e 3640 rust-cfg-if_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cfg-if
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cfg-if]
+Checksums-Sha256:
+ adbc0c23a3669be444992d4463faf18b1fda48644f16493bb52f2cf43b36a094 2259 rust-cfg-if_1.0.0-1.dsc
+ baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd 7934 rust-cfg-if_1.0.0.orig.tar.gz
+ 73fefcd4a14f1e57975c7a0a702b587130a264b7c36f8095983c2a259d6435cb 3640 rust-cfg-if_1.0.0-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/cfg-if
+Package-List: 
+ librust-cfg-if+core-dev deb rust optional arch=any
+ librust-cfg-if-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cfg-if
+Priority: extra
+Section: misc

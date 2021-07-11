@@ -1,0 +1,28 @@
+Package: hfst
+Binary: hfst, libhfst52, libhfst-dev, python3-libhfst
+Version: 3.15.1-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Tino Didriksen <tino@didriksen.cc>, Kartik Mistry <kartik@debian.org>
+Build-Depends: autoconf, automake, bison, debhelper (>= 12), dh-python, flex, libicu-dev, libreadline-dev, libtool, pkg-config, python3-all-dev, python3-setuptools, swig, zlib1g-dev
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ ea2bfa19efdaea1bca38dfff01722bb1 2226 hfst_3.15.1-2.dsc
+ c277778f5c8971f68c0feb546d4348a2 2337220 hfst_3.15.1.orig.tar.bz2
+ aab4e6f5b5b900fc5218d118e14a1b02 4736 hfst_3.15.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/hfst
+Vcs-Git: https://salsa.debian.org/science-team/hfst.git
+Checksums-Sha256:
+ 9d55bd7cff8846074c0fa44a53a83aeff20755b39cd71529561705aaf432b2d1 2226 hfst_3.15.1-2.dsc
+ 101682f64a005260db25702bcddeafa139eb014c279a6cb57ff77b1849484457 2337220 hfst_3.15.1.orig.tar.bz2
+ 389068e0cdf507faa1e1cc3fe5437ed2df5f67ee383e99b89d2d1653af0a1df0 4736 hfst_3.15.1-2.debian.tar.xz
+Homepage: https://hfst.github.io/
+Package-List: 
+ hfst deb science optional arch=any
+ libhfst-dev deb libdevel optional arch=any
+ libhfst52 deb libs optional arch=any
+ python3-libhfst deb python optional arch=any
+Directory: pool/main/h/hfst
+Priority: optional
+Section: misc

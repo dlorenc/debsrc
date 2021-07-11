@@ -1,0 +1,27 @@
+Package: xorg-gtest
+Binary: libxorg-gtest-dev, libxorg-gtest-data, libxorg-gtest-doc
+Version: 0.7.1-7
+Maintainer: Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>
+Build-Depends: automake, debhelper-compat (= 13), doxygen, libgtest-dev, libtool, libx11-dev, libxi-dev, pkg-config, rdfind, symlinks, valgrind [!arm64 !ppc64el !armel !alpha !hppa !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386 !m68k !powerpcspe !sh4 !sparc64 !x32], xserver-xorg-core, xserver-xorg-dev, xserver-xorg-video-dummy, xutils-dev (>= 1:7.7~1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8664c5131453b2626532e579dd9ecde9 2460 xorg-gtest_0.7.1-7.dsc
+ 31beb4d7d2b4eba7f9265fa0cb4c6428 371980 xorg-gtest_0.7.1.orig.tar.bz2
+ 72a3ffc46a360b680a80fa8fc650e7fa 40896 xorg-gtest_0.7.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-edu-ayatana-team/xorg-gtest
+Vcs-Git: https://salsa.debian.org/debian-ayatana-team/xorg-gtest.git
+Checksums-Sha256:
+ 9bd4878fde44c232c82357ffbf5ccd55408a42d9b4abd3d3ba7b05a15e1c6346 2460 xorg-gtest_0.7.1-7.dsc
+ 6cedc7904c698472783203bd686e777db120b808bb4052e451a822e437b72682 371980 xorg-gtest_0.7.1.orig.tar.bz2
+ 9185f8910d769eccd28692c48d2a7cb851d8ded7dc69e7f00d78d584a362f6ac 40896 xorg-gtest_0.7.1-7.debian.tar.xz
+Homepage: https://cgit.freedesktop.org/xorg/test/xorg-gtest/
+Package-List: 
+ libxorg-gtest-data deb devel optional arch=all
+ libxorg-gtest-dev deb libdevel optional arch=all
+ libxorg-gtest-doc deb doc optional arch=all
+Directory: pool/main/x/xorg-gtest
+Priority: extra
+Section: misc

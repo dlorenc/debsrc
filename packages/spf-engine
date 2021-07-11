@@ -1,0 +1,29 @@
+Package: spf-engine
+Binary: postfix-policyd-spf-python, pyspf-milter, python3-spf-engine
+Version: 2.9.2-1
+Maintainer: Scott Kitterman <scott@kitterman.com>
+Uploaders: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9.20160709~), dh-python, python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b424d977542dfeac63e403ea80d0d9a1 2422 spf-engine_2.9.2-1.dsc
+ 2e4518d3ba1d4fa2ee2b2c48839c2ce0 52737 spf-engine_2.9.2.orig.tar.gz
+ c9bb6d5c1f71f111b8e922cf890d37c3 833 spf-engine_2.9.2.orig.tar.gz.asc
+ 2229928ceb5327a6e1052eeba7e37d74 13924 spf-engine_2.9.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/spf-engine
+Vcs-Git: https://salsa.debian.org/python-team/applications/spf-engine.git
+Checksums-Sha256:
+ 7f399c239440c95db7ebce15a990a6983d4ffa92a08604e14ebc0a1dd5c38755 2422 spf-engine_2.9.2-1.dsc
+ 188a8bc78f1ddb40f1b87a0b6fe2fa78efa0b4cc5d984ff19a53724bb5c28131 52737 spf-engine_2.9.2.orig.tar.gz
+ 010c5909f503aa40b560d75813b99119230b199db6c364d64515a2edd8bfefe8 833 spf-engine_2.9.2.orig.tar.gz.asc
+ b3949c5c765e69548df5a08a738d3e05618bb232b1090bf1fe2c5201f220fce7 13924 spf-engine_2.9.2-1.debian.tar.xz
+Homepage: https://launchpad.net/spf-engine
+Package-List: 
+ postfix-policyd-spf-python deb mail optional arch=all
+ pyspf-milter deb mail optional arch=all
+ python3-spf-engine deb python optional arch=all
+Directory: pool/main/s/spf-engine
+Priority: extra
+Section: misc

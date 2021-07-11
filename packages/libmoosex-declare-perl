@@ -1,0 +1,27 @@
+Package: libmoosex-declare-perl
+Binary: libmoosex-declare-perl
+Version: 0.43-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ryan Niebur <ryan@debian.org>, Jonathan Yu <jawnsy@cpan.org>, gregor herrmann <gregoa@debian.org>, Krzysztof Krzyżaniak (eloy) <eloy@debian.org>
+Build-Depends: debhelper (>= 9.20140227~), libmodule-build-tiny-perl
+Build-Depends-Indep: perl, libdevel-declare-perl, libmodule-runtime-perl, libmoose-perl, libmoosex-method-signatures-perl (>= 0.36), libmoosex-role-parameterized-perl, libmoosex-types-perl, libnamespace-autoclean-perl (>= 0.16), libnamespace-clean-perl (>= 0.19), libparse-method-signatures-perl, libsub-exporter-perl, libsub-install-perl, libtest-compile-perl, libtest-fatal-perl
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 35b0af0eb31589566563b4854ed5d6de 2754 libmoosex-declare-perl_0.43-1.dsc
+ d2397ef961bcdb75fb353b0bf53c24c0 60478 libmoosex-declare-perl_0.43.orig.tar.gz
+ a5784fc5bcf9cff80915be7003ca2891 3948 libmoosex-declare-perl_0.43-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libmoosex-declare-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libmoosex-declare-perl.git
+Checksums-Sha256:
+ eb0bf0e149ff6d0b709995baf94d7983b7f87186265a3e3d32c63f95382376ec 2754 libmoosex-declare-perl_0.43-1.dsc
+ 3e0d811c60f8df8e486f5d49b5d485b60293b0b1aad64efd6a51b5fbb9075773 60478 libmoosex-declare-perl_0.43.orig.tar.gz
+ 1a909c2711c855ba9e659964c9b86fadc35a61dd5600a89fa58a46ec0637c59e 3948 libmoosex-declare-perl_0.43-1.debian.tar.xz
+Homepage: https://metacpan.org/release/MooseX-Declare
+Package-List: 
+ libmoosex-declare-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmoosex-declare-perl
+Priority: source
+Section: perl

@@ -1,0 +1,28 @@
+Package: golang-defaults
+Binary: golang-go, golang-any, gccgo-go, golang-src, golang-doc, golang
+Version: 2:1.15~1
+Maintainer: Go Compiler Team <team+go-compiler@tracker.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Martín Ferrari <tincho@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ de6b962b0dfcbd9c4e05129309cdfeaf 2371 golang-defaults_1.15~1.dsc
+ 8bc5b06769c9126dbf67725225cd6f47 15168 golang-defaults_1.15~1.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/compiler/golang-defaults
+Vcs-Git: https://salsa.debian.org/go-team/compiler/golang-defaults.git
+Checksums-Sha256:
+ 7bce5a1fb32a2089ea6459059d099e6c319bdd573fc794ee29619d6bf65886e4 2371 golang-defaults_1.15~1.dsc
+ 7df59c66b94c103d37044a6c252b38ce1857b4b9f9ab900b574ad1944d507ef6 15168 golang-defaults_1.15~1.tar.xz
+Homepage: https://golang.org
+Package-List: 
+ gccgo-go deb devel optional arch=any
+ golang deb devel optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64el,riscv64,s390x
+ golang-any deb devel optional arch=any
+ golang-doc deb doc optional arch=all
+ golang-go deb devel optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64el,riscv64,s390x
+ golang-src deb devel optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64el,riscv64,s390x
+Directory: pool/main/g/golang-defaults
+Priority: extra
+Section: golang

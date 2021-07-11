@@ -1,0 +1,27 @@
+Package: ocaml-integers
+Binary: libintegers-ocaml-dev, libintegers-ocaml
+Version: 0.4.0-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, ocaml-dune, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fbe950b9f82863f266234db90056fa24 1864 ocaml-integers_0.4.0-1.dsc
+ c1492352e6525048790508c57aad93c3 9980 ocaml-integers_0.4.0.orig.tar.gz
+ c8ba9a4ff04052d86de66e8c3a35282a 2144 ocaml-integers_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-integers
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-integers.git
+Checksums-Sha256:
+ 0e5d222df245e299f300990155c02caa30f6f3be6436a1668187a0618c602421 1864 ocaml-integers_0.4.0-1.dsc
+ ba6e087606c622533ecca9dc4c0917a3cc183e73e3e7d8511b68e21183ef913f 9980 ocaml-integers_0.4.0.orig.tar.gz
+ 8041b46019a781c85e59cf49dd9796108b88dc7cddeffdfc5ea2368491b6c9ed 2144 ocaml-integers_0.4.0-1.debian.tar.xz
+Homepage: https://github.com/ocamllabs/ocaml-integers
+Dgit: ffddf458269039254839f71aa15e8e2cd3d8c2dc debian archive/debian/0.4.0-1 https://git.dgit.debian.org/ocaml-integers
+Package-List: 
+ libintegers-ocaml deb ocaml optional arch=any
+ libintegers-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-integers
+Priority: extra
+Section: misc

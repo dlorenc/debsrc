@@ -1,0 +1,29 @@
+Package: segyio
+Binary: libsegyio1, libsegyio-dev, segyio-bin, python3-segyio
+Version: 1.8.3-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jørgen Kvalsvik <jokva@equinor.com>
+Build-Depends: debhelper (>= 10), cmake, dh-python, python3 (>= 3.4), python3-all-dev, python3-numpy, python3-pytest, python3-pytest-runner, python3-setuptools, python3-setuptools-scm
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 87ad672ee77f8d83489390ccef7bf4ba 2267 segyio_1.8.3-1.dsc
+ 0a68792d1d7215b4f48ad735aa3d39fb 436695 segyio_1.8.3.orig.tar.gz
+ 4062d423bbbb5252d5c7ef16aef9d24c 4600 segyio_1.8.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/segyio
+Vcs-Git: https://salsa.debian.org/science-team/segyio.git
+Checksums-Sha256:
+ 998d4204735885aa67f1e842a5123d5ee0e8da0386fbbb0be288c3327bc6b718 2267 segyio_1.8.3-1.dsc
+ a563f630c959236164b5cf3317671cb0202bdb7cae4f72e71b31a7d9c40365cb 436695 segyio_1.8.3.orig.tar.gz
+ 5fcc0b13e9b05e2e219765c2c81c0b9f10fe886008ba48a232ad1183e68fe912 4600 segyio_1.8.3-1.debian.tar.xz
+Homepage: https://github.com/statoil/segyio
+Package-List: 
+ libsegyio-dev deb libdevel optional arch=any
+ libsegyio1 deb libs optional arch=any
+ python3-segyio deb python optional arch=any
+ segyio-bin deb science optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/s/segyio
+Priority: extra
+Section: misc

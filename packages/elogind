@@ -1,0 +1,29 @@
+Package: elogind
+Binary: elogind, libelogind0, libelogind-dev, libelogind-dev-doc, libpam-elogind
+Version: 246.9.1-1+debian1
+Maintainer: Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>
+Uploaders: Mark Hindley <mark@hindley.org.uk>, Ian Jackson <ijackson@chiark.greenend.org.uk>
+Build-Depends: debhelper-compat (= 12), dh-exec (>= 0.3), pkg-config, docbook-xsl, meson, gperf (>= 3.1), gtk-doc-tools, python3-lxml, libcap-dev, libudev-dev, libmount-dev (>= 2.27.1), libseccomp-dev (>= 2.3.1) [amd64 arm64 armel armhf i386 mips mipsel mips64 mips64el x32 powerpc ppc64 ppc64el s390x], libblkid-dev (>= 2.24), libpam0g-dev (>= 1.1.2), libacl1-dev, libselinux1-dev, libglib2.0-dev, dbus (>= 1.9.14)
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7773414a8b6a11890f6ee34786e3e087 2674 elogind_246.9.1-1+debian1.dsc
+ d9fdee3692990afadcd8c8764e440fa0 1534991 elogind_246.9.1.orig.tar.gz
+ 8d20b192db233b4c60ff494085ea20db 8652 elogind_246.9.1-1+debian1.debian.tar.xz
+Vcs-Browser: https://git.devuan.org/devuan/elogind/tree/debian
+Vcs-Git: https://git.devuan.org/devuan/elogind.git -b debian
+Checksums-Sha256:
+ d7aeab061e9df35dffd8fa6e7b9f43d8395b97aafe4416cc56525f2fbfd51b8e 2674 elogind_246.9.1-1+debian1.dsc
+ 13afcc58f71c4804b682532cd055819493411c33c814b1b3707e55e857582651 1534991 elogind_246.9.1.orig.tar.gz
+ a98d304982a3257c699ece2324113bd0f29ed9a4ca73fd3f69eccf680a35a229 8652 elogind_246.9.1-1+debian1.debian.tar.xz
+Homepage: https://github.com/elogind/elogind
+Package-List: 
+ elogind deb admin optional arch=linux-any
+ libelogind-dev deb libdevel optional arch=linux-any
+ libelogind-dev-doc deb doc optional arch=all
+ libelogind0 deb libs optional arch=linux-any
+ libpam-elogind deb admin optional arch=linux-any
+Directory: pool/main/e/elogind
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-fast-logger
+Binary: libghc-fast-logger-dev, libghc-fast-logger-prof, libghc-fast-logger-doc
+Version: 3.0.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-auto-update-dev (>= 0.1.2), libghc-auto-update-prof, libghc-easy-file-dev (>= 0.2), libghc-easy-file-prof, libghc-unix-compat-dev, libghc-unix-compat-prof, libghc-unix-time-dev (>= 0.4.4), libghc-unix-time-prof, libghc-hspec-dev, hspec-discover
+Build-Depends-Indep: ghc-doc, libghc-auto-update-doc, libghc-easy-file-doc, libghc-unix-compat-doc, libghc-unix-time-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 945e0e9892d1d134868beb0babe87cb1 2703 haskell-fast-logger_3.0.1-1.dsc
+ 19c0fc56f9c79a913ff61ca2b652ee5f 11700 haskell-fast-logger_3.0.1.orig.tar.gz
+ eb2a22c1d36e67b89ffab1446ed9beb4 3268 haskell-fast-logger_3.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-fast-logger
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-fast-logger]
+Checksums-Sha256:
+ c92a717e3b174c43997442abbdd3c849a650c6d19bd48e2f929a2675cee70f8e 2703 haskell-fast-logger_3.0.1-1.dsc
+ 45080ca54a3862ed22f78c2bcb56d023695c4f4fd37dbbac418248c07cdca53b 11700 haskell-fast-logger_3.0.1.orig.tar.gz
+ b48aa42e57af6022ec03c6a08781b882825b1403c86778b6709295e283494d39 3268 haskell-fast-logger_3.0.1-1.debian.tar.xz
+Homepage: https://github.com/kazu-yamamoto/logger
+Package-List: 
+ libghc-fast-logger-dev deb haskell optional arch=any
+ libghc-fast-logger-doc deb doc optional arch=all
+ libghc-fast-logger-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-fast-logger
+Priority: source
+Section: haskell

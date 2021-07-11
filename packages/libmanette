@@ -1,0 +1,27 @@
+Package: libmanette
+Binary: libmanette-0.2-0, libmanette-0.2-dev, gir1.2-manette-0.2
+Version: 0.2.5-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, pkg-config (>= 0.14), libevdev-dev (>= 1.4.5), libglib2.0-dev (>= 2.50.0), libgirepository1.0-dev (>= 1.30), libgudev-1.0-dev, meson (>= 0.43.0), valac
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 13b0a359837598a8ca276f8ac43b8eed 2351 libmanette_0.2.5-1.dsc
+ c3daf344b7a21d0edf352ab0f8d891ac 38192 libmanette_0.2.5.orig.tar.xz
+ b8bf733316abc6d550d752e9b24f84d4 3028 libmanette_0.2.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/libmanette
+Vcs-Git: https://salsa.debian.org/gnome-team/libmanette.git
+Checksums-Sha256:
+ b52a0693b7feaa9b1e24e9be97cde119ea58639481a96752d4af6b9e08e7917e 2351 libmanette_0.2.5-1.dsc
+ 8006e08480c0cbd4f749ec155827d100447cf23903fad8240a7c4c321aa09a2b 38192 libmanette_0.2.5.orig.tar.xz
+ aa17db543f41cc7e671e419a61643ae40e02db394b3cd357846c4253e5557cf6 3028 libmanette_0.2.5-1.debian.tar.xz
+Homepage: https://gitlab.gnome.org/aplazas/libmanette
+Package-List: 
+ gir1.2-manette-0.2 deb introspection optional arch=linux-any
+ libmanette-0.2-0 deb libs optional arch=linux-any
+ libmanette-0.2-dev deb libdevel optional arch=linux-any
+Directory: pool/main/libm/libmanette
+Priority: extra
+Section: misc

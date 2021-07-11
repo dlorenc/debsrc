@@ -1,0 +1,28 @@
+Package: libio-async-perl
+Binary: libio-async-perl
+Version: 0.78-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, perl
+Build-Depends-Indep: libfuture-perl (>= 0.33) <!nocheck>, libio-socket-ip-perl <!nocheck>, libmetrics-any-perl <!nocheck>, libsereal-perl <!nocheck>, libsocket-perl <!nocheck>, libstruct-dumb-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-identity-perl <!nocheck>, libtest-metrics-any-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-refcount-perl <!nocheck>, netbase <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b83a45879ad1598d50b3c52e3083a046 2766 libio-async-perl_0.78-1.dsc
+ ab1acf872de8c0155a7974e7b19cb676 248560 libio-async-perl_0.78.orig.tar.gz
+ 9c2a504f7ea0370621ca9be405167b54 5848 libio-async-perl_0.78-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libio-async-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libio-async-perl.git
+Checksums-Sha256:
+ 87051fd48e4f22dcc79e6a4e9e278ee5054d409f53771ebda284b73cb4063ba2 2766 libio-async-perl_0.78-1.dsc
+ 3fb51885977b86218a89ea42f38cafbce5823bf48faaa2d185a186c2a358366c 248560 libio-async-perl_0.78.orig.tar.gz
+ 89e37675e4ae19912367d8324f4e82137474a09b0844bf155394b8ff52bac2cc 5848 libio-async-perl_0.78-1.debian.tar.xz
+Homepage: https://metacpan.org/release/IO-Async
+Dgit: c3747832b00e2756cf877d546b007174cc047d38 debian archive/debian/0.78-1 https://git.dgit.debian.org/libio-async-perl
+Package-List: 
+ libio-async-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libi/libio-async-perl
+Priority: source
+Section: perl

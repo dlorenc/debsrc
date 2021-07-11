@@ -1,0 +1,28 @@
+Package: sunpinyin
+Binary: libsunpinyin-dev, libsunpinyin3v5, python3-sunpinyin, sunpinyin-utils
+Version: 3.0.0~rc1+ds1-3
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders: Liang Guo <guoliang@debian.org>, YunQiang Su <syq@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, libsqlite3-dev, pkg-config, python3-dev:any, scons
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4a3dbe153e1485311883f9a68b6c35a3 2275 sunpinyin_3.0.0~rc1+ds1-3.dsc
+ 6a963613b5dc2ce0eeb529295c0ab749 162690 sunpinyin_3.0.0~rc1+ds1.orig.tar.gz
+ 2e39de5b232f4bd87e9351674a97f207 24300 sunpinyin_3.0.0~rc1+ds1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sunpinyin
+Vcs-Git: https://salsa.debian.org/debian/sunpinyin.git
+Checksums-Sha256:
+ e157bd7ad93cbf203267ef4c7bc594dee921af132e64e2e042c3ddfb143eb858 2275 sunpinyin_3.0.0~rc1+ds1-3.dsc
+ 6df45a203bfd3d8a99a78a25cdf90fe4eefca41d51a0394f4763807b69eb4443 162690 sunpinyin_3.0.0~rc1+ds1.orig.tar.gz
+ 62aa0ee70a17361f8bd8e6aee55699df8e7b66d504e0af7d4c1ffc2bb4ab91b5 24300 sunpinyin_3.0.0~rc1+ds1-3.debian.tar.xz
+Homepage: https://github.com/sunpinyin/sunpinyin
+Package-List: 
+ libsunpinyin-dev deb libdevel optional arch=any
+ libsunpinyin3v5 deb libs optional arch=any
+ python3-sunpinyin deb python optional arch=all
+ sunpinyin-utils deb utils optional arch=any
+Directory: pool/main/s/sunpinyin
+Priority: source
+Section: libs

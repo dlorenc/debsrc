@@ -1,0 +1,28 @@
+Package: haskell-bmp
+Binary: libghc-bmp-dev, libghc-bmp-prof, libghc-bmp-doc
+Version: 1.2.6.3-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 058fbb587192ec831cff42af113e328c 2249 haskell-bmp_1.2.6.3-5.dsc
+ df9cb98ede5a9769782a1d4a9e6e84d3 10619 haskell-bmp_1.2.6.3.orig.tar.gz
+ c64583b2595d18cc73c2e0acd3b163b7 2320 haskell-bmp_1.2.6.3-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-bmp
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-bmp]
+Checksums-Sha256:
+ 22af0c3eb283e56fbe988e03f752caea32a5f8bbd77d4e7f647a2349982c0045 2249 haskell-bmp_1.2.6.3-5.dsc
+ 3cc63de40fe088ce4d1c869180fd2309bcec35a940c9e3d1904d3520ca2fdacc 10619 haskell-bmp_1.2.6.3.orig.tar.gz
+ 8d1dab07f17bf9c98d06682b221845fc8e1e6b53930dd44665327282abf34749 2320 haskell-bmp_1.2.6.3-5.debian.tar.xz
+Homepage: https://github.com/benl23x5/bmp
+Package-List: 
+ libghc-bmp-dev deb haskell optional arch=any
+ libghc-bmp-doc deb doc optional arch=all
+ libghc-bmp-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-bmp
+Priority: optional
+Section: misc

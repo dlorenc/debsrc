@@ -1,0 +1,26 @@
+Package: zt-exec
+Binary: libzt-exec-java
+Version: 1.12+dfsg-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Mechtilde Stehmann <mechtilde@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: libslf4j-java (>= 1.7.2)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 47d018e058adb6f2c79de2ba1de933fc 2043 zt-exec_1.12+dfsg-1.dsc
+ 863c719969e0db2da83737396da4b49f 40668 zt-exec_1.12+dfsg.orig.tar.xz
+ e3c7f4be9b1a96d372e878ad77d6c606 2900 zt-exec_1.12+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/zt-exec
+Vcs-Git: https://salsa.debian.org/java-team/zt-exec.git
+Checksums-Sha256:
+ e93e247b9a58a3c18a5ff2ea4b3d2b6ed133fc90bd901ed39393897d8fc52523 2043 zt-exec_1.12+dfsg-1.dsc
+ d70ff13ac3b7b8751d2eb6866929aa210eccb33c7f2e56d7a1ba8a43a8c26965 40668 zt-exec_1.12+dfsg.orig.tar.xz
+ 9844f5096ca5fc60f5c51c8fae495251fd55a47fe1758854542ff547d367f396 2900 zt-exec_1.12+dfsg-1.debian.tar.xz
+Homepage: https://github.com/zeroturnaround/zt-exec
+Package-List: 
+ libzt-exec-java deb java optional arch=all
+Directory: pool/main/z/zt-exec
+Priority: extra
+Section: misc

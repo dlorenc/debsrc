@@ -1,0 +1,27 @@
+Package: rust-native-tls
+Binary: librust-native-tls-dev, librust-native-tls+vendored-dev
+Version: 0.2.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.5-~~) <!nocheck>, librust-openssl-0.10+default-dev (>= 0.10.25-~~) <!nocheck>, librust-openssl-probe-0.1+default-dev <!nocheck>, librust-openssl-sys-0.9+default-dev (>= 0.9.30-~~) <!nocheck>, librust-schannel-0.1+default-dev (>= 0.1.16-~~) <!nocheck>, librust-security-framework-sys-0.4+default-dev (>= 0.4.1-~~) <!nocheck>, librust-tempfile-3+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d3251e99e3cf31a47c78e6fb9cb4efa8 2734 rust-native-tls_0.2.4-1.dsc
+ 98731fbefe42841dce239a8e8064431d 32170 rust-native-tls_0.2.4.orig.tar.gz
+ 1ef56895ba6e49c2a0d6b089e26f763b 3496 rust-native-tls_0.2.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/native-tls
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/native-tls]
+Checksums-Sha256:
+ 41179aa6b0756a920bf97b46918045c29f1a73e482fb0259ea7ef3bea9b7429d 2734 rust-native-tls_0.2.4-1.dsc
+ 2b0d88c06fe90d5ee94048ba40409ef1d9315d86f6f38c2efdaad4fb50c58b2d 32170 rust-native-tls_0.2.4.orig.tar.gz
+ 06920863eb55bb719f84eb6cf28902e12a1fe38e530a51540fecb88771d54d5a 3496 rust-native-tls_0.2.4-1.debian.tar.xz
+Package-List: 
+ librust-native-tls+vendored-dev deb rust optional arch=any
+ librust-native-tls-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-hex-0.4+default-dev
+Directory: pool/main/r/rust-native-tls
+Priority: extra
+Section: misc

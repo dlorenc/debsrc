@@ -1,0 +1,28 @@
+Package: haskell-harp
+Binary: libghc-harp-dev, libghc-harp-prof, libghc-harp-doc
+Version: 0.4.3.4-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8.0), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 5de7dfe7b19f199162ccb09ffc887d8d 2260 haskell-harp_0.4.3.4-1.dsc
+ f8765314520185e34626fce2f1138df8 2927 haskell-harp_0.4.3.4.orig.tar.gz
+ e9c0d032f6a2e7f391c470b28231e1b4 3340 haskell-harp_0.4.3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-harp
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-harp]
+Checksums-Sha256:
+ 4e94d741692311d4c6b38c2e331ff9cc07ca74956746960438bf96cd91efdbba 2260 haskell-harp_0.4.3.4-1.dsc
+ 38a139400c9fa82ac3886b4fc529d3a23de61a607b4c2a2e8a52c9e8ee5e6058 2927 haskell-harp_0.4.3.4.orig.tar.gz
+ cbb07ba4424346f6b981c102a04fbb977f37799d9c5c899928a59ba47a21180a 3340 haskell-harp_0.4.3.4-1.debian.tar.xz
+Homepage: https://github.com/seereason/harp
+Package-List: 
+ libghc-harp-dev deb haskell optional arch=any
+ libghc-harp-doc deb doc optional arch=all
+ libghc-harp-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-harp
+Priority: source
+Section: haskell

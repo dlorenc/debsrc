@@ -1,0 +1,31 @@
+Package: plasma-discover
+Binary: plasma-discover, plasma-discover-backend-flatpak, plasma-discover-backend-fwupd, plasma-discover-backend-snap, plasma-discover-common
+Version: 5.20.5-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>, Matthias Klumpp <mak@debian.org>, Norbert Preining <norbert@preining.info>, Scarlett Moore <sgmoore@kde.org>, Patrick Franz <patfra71@gmail.com>,
+Build-Depends: cmake (>= 2.8.12), debhelper-compat (= 13), extra-cmake-modules (>= 5.74.0~), gettext, jcat (>= 0.1.0), libjcat-dev (>= 0.1.0), libcurl4-gnutls-dev | libcurl4-openssl-dev | libcurl4-nss-dev (>= 0.1.0), kirigami2-dev (>= 5.42), kuserfeedback-dev, libappstreamqt-dev (>= 0.11.1~), libdebconf-kde-dev (>= 1.0.0), libflatpak-dev (>= 0.11.8~) [linux-any], libfwupd-dev (>= 1.0.6~) [linux-any], libkf5archive-dev (>= 5.74.0~), libkf5attica-dev (>= 5.74.0~), libkf5config-dev (>= 5.74.0~), libkf5coreaddons-dev (>= 5.74.0~), libkf5crash-dev (>= 5.74.0~), libkf5dbusaddons-dev (>= 5.74.0~), libkf5declarative-dev (>= 5.74.0~), libkf5i18n-dev (>= 5.74.0~), libkf5itemmodels-dev (>= 5.74.0~), libkf5kio-dev (>= 5.74.0~), libkf5newstuff-dev (>= 5.74.0~), libkf5notifications-dev (>= 5.74.0~), libkf5xmlgui-dev (>= 5.74.0~), libmarkdown2-dev, libpackagekitqt5-dev (>= 1.0.1), libqca-qt5-2-dev, libqt5svg5-dev (>= 5.15.0~), libsnapd-qt-dev (>= 1.30) [linux-any], pkg-config, pkg-kde-tools (>= 0.15.16), qtbase5-dev (>= 5.15.0~), qtdeclarative5-dev (>= 5.15.0~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4796e5e2bf010c4f651112fa47186e90 3469 plasma-discover_5.20.5-3.dsc
+ 7aad86c7ecbe26a616cbc5784572b0c3 10305280 plasma-discover_5.20.5.orig.tar.xz
+ a8948b1381d6c30e87a914fc5ee6dd94 488 plasma-discover_5.20.5.orig.tar.xz.asc
+ 8c1ae59c120ee00cdbb41bbca7e6571f 17464 plasma-discover_5.20.5-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/plasma-discover
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/plasma-discover.git
+Checksums-Sha256:
+ 00d22f905878a03190d1938dfca44865d20087e706cafc483ce1145f9792ba73 3469 plasma-discover_5.20.5-3.dsc
+ c5bad44f28f85782b011b775992a66b823920c44a8b898a6ff21bab53362b521 10305280 plasma-discover_5.20.5.orig.tar.xz
+ 0c38e1aaec452da68ccd282c7926d48aa9b6a88a4c922cdea483125538e82a68 488 plasma-discover_5.20.5.orig.tar.xz.asc
+ 08ae8c01db3ffa44c006e361ae2f75ef7b27accac13a12587ce5564c05d35aeb 17464 plasma-discover_5.20.5-3.debian.tar.xz
+Homepage: https://invent.kde.org/plasma/discover
+Package-List: 
+ plasma-discover deb kde optional arch=any
+ plasma-discover-backend-flatpak deb kde optional arch=linux-any
+ plasma-discover-backend-fwupd deb kde optional arch=linux-any
+ plasma-discover-backend-snap deb kde optional arch=linux-any
+ plasma-discover-common deb kde optional arch=all
+Directory: pool/main/p/plasma-discover
+Priority: optional
+Section: misc

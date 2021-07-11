@@ -1,0 +1,27 @@
+Package: gron
+Binary: gron
+Version: 0.6.1-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Nick Morrott <nickm@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-fatih-color-dev, golang-github-mattn-go-colorable-dev, golang-github-nwidger-jsoncolor-dev, golang-github-pkg-errors-dev, pandoc
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 03e59c6049f1690851e8284608167755 2103 gron_0.6.1-1.dsc
+ 3e501f50d232aad0b94aa30ba368565c 256120 gron_0.6.1.orig.tar.xz
+ 9950cfee277f7eff73973eb70649f60e 6084 gron_0.6.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/gron
+Vcs-Git: https://salsa.debian.org/go-team/packages/gron.git
+Checksums-Sha256:
+ fbe976b49dd1baf5338de6a45c00e9ea9151063a9eab0a3569373544b34d8e85 2103 gron_0.6.1-1.dsc
+ a82fe8e74f286390a99ec95b949445a155ae5832ad7e55c53103ce540d2e363e 256120 gron_0.6.1.orig.tar.xz
+ 2b17014f1b0e541ac7a129c0d873db5a39be5d47950a99603c1671d1da5a586a 6084 gron_0.6.1-1.debian.tar.xz
+Homepage: https://github.com/tomnomnom/gron
+Go-Import-Path: github.com/tomnomnom/gron
+Package-List: 
+ gron deb utils optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/gron
+Priority: extra
+Section: misc

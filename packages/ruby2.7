@@ -1,0 +1,29 @@
+Package: ruby2.7
+Binary: ruby2.7, libruby2.7, ruby2.7-dev, ruby2.7-doc
+Version: 2.7.3-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>, Lucas Kanashiro <kanashiro@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: bison, coreutils (>= 7.5), debhelper-compat (= 13), file, libffi-dev, libgdbm-compat-dev, libgdbm-dev, libgmp-dev, libncurses-dev, libedit-dev, libssl-dev, libyaml-dev, netbase <!nocheck>, openssl <!nocheck>, procps <!nocheck>, ruby:native <cross>, rubygems-integration (>= 1.6) <!nocheck>, systemtap-sdt-dev [linux-any], tzdata, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0cb76f92fb56aa083011a8f4f9bc2911 2477 ruby2.7_2.7.3-2.dsc
+ 0d16a39785ab35b790c282afff759c88 10818116 ruby2.7_2.7.3.orig.tar.xz
+ e609a853f624d9c9c5ed80027c56573d 112448 ruby2.7_2.7.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby.git
+Checksums-Sha256:
+ c3e7127d68190373d662abf4dcb5653aa02723b2ff81ee25c5a57fc498f0e56a 2477 ruby2.7_2.7.3-2.dsc
+ d61766c37ce31d799e9ff1643e3282f26b56c8f111507d06e650218bcdb0dbc0 10818116 ruby2.7_2.7.3.orig.tar.xz
+ b0124a5fceabc6bf929db0f5674ffea32c1084d97c7dce1522ae6d5a734ce051 112448 ruby2.7_2.7.3-2.debian.tar.xz
+Homepage: https://www.ruby-lang.org/
+Package-List: 
+ libruby2.7 deb libs optional arch=any
+ ruby2.7 deb ruby optional arch=any
+ ruby2.7-dev deb ruby optional arch=any
+ ruby2.7-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/r/ruby2.7
+Priority: extra
+Section: misc

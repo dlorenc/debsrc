@@ -1,0 +1,30 @@
+Package: kdiagram
+Binary: libkchart-dev, libkchart2, libkchart2-l10n, libkgantt-dev, libkgantt2, libkgantt2-l10n
+Version: 2.8.0-1
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>,
+Build-Depends: cmake (>= 2.8.12), debhelper-compat (= 13), extra-cmake-modules (>= 5.60.0~), libqt5svg5-dev, qtbase5-dev (>= 5.12.0~), qttools5-dev, qttools5-dev-tools, xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fa0fc4762e8a5e66ab9cb16d62d6c6ed 2381 kdiagram_2.8.0-1.dsc
+ a63593335d382d4c6518e1a98a9e013f 691044 kdiagram_2.8.0.orig.tar.xz
+ 492f585ae89c20d3b09b35e9b2eb029d 20544 kdiagram_2.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/kdiagram
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/kdiagram.git
+Checksums-Sha256:
+ e093d51eef6bf4c8c1ac8c3122d75e4609d5c706e2205982ee0aa8c503171982 2381 kdiagram_2.8.0-1.dsc
+ 579dad3bd1ea44b5a20c0f133ebf47622e38960f9c7c8b3a316be30a369f431f 691044 kdiagram_2.8.0.orig.tar.xz
+ 828df1477526d2d57462de7f453f71dbfd8a0f23f35a57153589a772a72f86d4 20544 kdiagram_2.8.0-1.debian.tar.xz
+Homepage: https://cgit.kde.org/kdiagram.git
+Package-List: 
+ libkchart-dev deb libdevel optional arch=any
+ libkchart2 deb libs optional arch=any
+ libkchart2-l10n deb localization optional arch=all
+ libkgantt-dev deb libdevel optional arch=any
+ libkgantt2 deb libs optional arch=any
+ libkgantt2-l10n deb localization optional arch=all
+Directory: pool/main/k/kdiagram
+Priority: optional
+Section: misc

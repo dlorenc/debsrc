@@ -1,0 +1,27 @@
+Package: pg-rational
+Binary: postgresql-13-rational
+Version: 0.0.2-2
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b6e9b95155f7fdcf4b30bd0f735f20b3 2041 pg-rational_0.0.2-2.dsc
+ e4c5b4c1e5576ce9ce7486b37879bc9b 10776 pg-rational_0.0.2.orig.tar.gz
+ 50ca867cfdd655f2f609e4d098fcf05b 2764 pg-rational_0.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pg-rational
+Vcs-Git: https://salsa.debian.org/postgresql/pg-rational.git
+Checksums-Sha256:
+ 6c746c5cb4ee46f07ea070c1decb4aa530d02e4b499ad1dc0bfa8b0a4d94a348 2041 pg-rational_0.0.2-2.dsc
+ 49f123c05d6ee04ce66474e2656ffc21ae1642e317dcd7e4e357d41903c497eb 10776 pg-rational_0.0.2.orig.tar.gz
+ ddda1580939609e2b3058f3aab783f4b638d4da8ee02e56f11b865544b0aa611 2764 pg-rational_0.0.2-2.debian.tar.xz
+Homepage: https://github.com/begriffs/pg_rational
+Package-List: 
+ postgresql-13-rational deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/p/pg-rational
+Priority: extra
+Section: misc

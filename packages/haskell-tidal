@@ -1,0 +1,28 @@
+Package: haskell-tidal
+Binary: libghc-tidal-dev, libghc-tidal-prof, libghc-tidal-doc
+Version: 1.5.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-bifunctors-dev (<< 5.6), libghc-bifunctors-prof, libghc-clock-dev (<< 0.9), libghc-clock-prof, libghc-colour-dev (<< 2.4), libghc-colour-prof, libghc-hosc-dev (>= 0.17), libghc-hosc-dev (<< 0.18), libghc-hosc-prof, libghc-network-dev (<< 3.2), libghc-network-prof, libghc-primitive-dev (<< 0.8), libghc-primitive-prof, libghc-random-dev (<< 1.2), libghc-random-prof, libghc-vector-dev (<< 0.13), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-bifunctors-doc, libghc-clock-doc, libghc-colour-doc, libghc-hosc-doc, libghc-network-doc, libghc-primitive-doc, libghc-random-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ a24fea257b58dac805cd22e172b4d54c 2865 haskell-tidal_1.5.2-1.dsc
+ 94ae07c4e4be043cf2286d8fda2e6267 109920 haskell-tidal_1.5.2.orig.tar.gz
+ 1ded62a71be1b54759bd14d05d46ae9c 2468 haskell-tidal_1.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-tidal
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-tidal]
+Checksums-Sha256:
+ 72d73027860623a2efe6d45e204f627037840568156bd114340841853d4893bf 2865 haskell-tidal_1.5.2-1.dsc
+ 3f3768ebe2808eb6e76b4f0b94f8355e03ada637d9edcd19c42bbbc2b883c10f 109920 haskell-tidal_1.5.2.orig.tar.gz
+ f9f0f6683c220f1e72bf8f6d122c8a3512c53950957953912f7b865a371c1cc7 2468 haskell-tidal_1.5.2-1.debian.tar.xz
+Homepage: http://tidalcycles.org/
+Package-List: 
+ libghc-tidal-dev deb haskell optional arch=any
+ libghc-tidal-doc deb doc optional arch=all
+ libghc-tidal-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-tidal
+Priority: extra
+Section: misc

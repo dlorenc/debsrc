@@ -1,0 +1,25 @@
+Package: haskell-fgl-arbitrary
+Binary: libghc-fgl-arbitrary-dev, libghc-fgl-arbitrary-prof, libghc-fgl-arbitrary-doc
+Version: 0.2.0.6-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-quickcheck2-dev (>= 2.3), libghc-quickcheck2-dev (<< 2.15), libghc-quickcheck2-prof, libghc-fgl-dev (>= 5.5.2.0), libghc-fgl-dev (<< 6), libghc-fgl-prof, libghc-hspec-dev (>= 2.1), libghc-hspec-dev (<< 2.8), libghc-hspec-prof
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc, libghc-fgl-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 52897b91e5aa59f28945741bd72d07c6 2452 haskell-fgl-arbitrary_0.2.0.6-1.dsc
+ 6acdd378a0826bbd04d9ec1840c51812 6157 haskell-fgl-arbitrary_0.2.0.6.orig.tar.gz
+ 869e7618f3cc3d45cd1a7ffe1310707a 2460 haskell-fgl-arbitrary_0.2.0.6-1.debian.tar.xz
+Checksums-Sha256:
+ 7ea836c3830cd22ba3a4ed7c1a66b203f241973165ec5f5204d9985ccb121035 2452 haskell-fgl-arbitrary_0.2.0.6-1.dsc
+ 6cf210a2ecbda21059647008cc8d85969308b21d18690f82d5f70d92435bd3d7 6157 haskell-fgl-arbitrary_0.2.0.6.orig.tar.gz
+ 4bff743011cbe68b74391e3f7e4a3e0497510a2cc09a24c7d57e745cbaf26394 2460 haskell-fgl-arbitrary_0.2.0.6-1.debian.tar.xz
+Package-List: 
+ libghc-fgl-arbitrary-dev deb haskell optional arch=any
+ libghc-fgl-arbitrary-doc deb doc optional arch=all
+ libghc-fgl-arbitrary-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-fgl-arbitrary
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-hex-literal
+Binary: librust-hex-literal-dev
+Version: 0.2.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-hex-literal-impl-0.2+default-dev <!nocheck>, librust-proc-macro-hack-0.5+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 5f769c26083632f957aad2e9f8855d7d 2251 rust-hex-literal_0.2.1-2.dsc
+ fffb63752e18300553397036c53a1162 5966 rust-hex-literal_0.2.1.orig.tar.gz
+ f1875d1f4d5fc3435f14fa10099f02c1 2648 rust-hex-literal_0.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/hex-literal
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/hex-literal]
+Checksums-Sha256:
+ 853c4252adf9fdf327987a31d100fb6516b98c478e36fda0307d95dec84962ea 2251 rust-hex-literal_0.2.1-2.dsc
+ 961de220ec9a91af2e1e5bd80d02109155695e516771762381ef8581317066e0 5966 rust-hex-literal_0.2.1.orig.tar.gz
+ 2c481c9d3d52fc025bddb28e2a6b136730d2c3ea96676a552ede35e6db51c322 2648 rust-hex-literal_0.2.1-2.debian.tar.xz
+Package-List: 
+ librust-hex-literal-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-hex-literal
+Priority: extra
+Section: misc

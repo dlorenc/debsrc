@@ -1,0 +1,28 @@
+Package: libnet-dns-perl
+Binary: libnet-dns-perl
+Version: 1.29-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdigest-bubblebabble-perl <!nocheck>, libdigest-hmac-perl <!nocheck>, libdigest-sha-perl <!nocheck>, libencode-perl <!nocheck>, libio-socket-ip-perl (>= 0.38) <!nocheck>, libnet-dns-sec-perl <!nocheck>, libnet-ip-perl <!nocheck>, libnet-libidn-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-simple-perl <!nocheck>, netbase <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 83a26f3e53cc90204718fa63e5713cdd 2687 libnet-dns-perl_1.29-1.dsc
+ 2c9120830a68f18deb43a95826ea6372 255662 libnet-dns-perl_1.29.orig.tar.gz
+ bdc6e02049b8612312f3cb25ae5098c4 7312 libnet-dns-perl_1.29-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-dns-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-dns-perl.git
+Checksums-Sha256:
+ 248221d216f676468a16ab13dd16632fb84f69471327928d794b185ee134deff 2687 libnet-dns-perl_1.29-1.dsc
+ 852d6ee87e8f0d014223026581cbb56924ba8cddd3ceb29c6191dbb6122d43c5 255662 libnet-dns-perl_1.29.orig.tar.gz
+ 4bea8bfd341c07b5e1d3ba32d4ee651f06c4b91d4b0595f1d55ae6999d16fc1c 7312 libnet-dns-perl_1.29-1.debian.tar.xz
+Homepage: https://www.net-dns.org/
+Dgit: 5028e85082527398439c63efe6e149ba19df7c22 debian archive/debian/1.29-1 https://git.dgit.debian.org/libnet-dns-perl
+Package-List: 
+ libnet-dns-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-dns-perl
+Priority: source
+Section: perl

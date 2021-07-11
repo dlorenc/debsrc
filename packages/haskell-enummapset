@@ -1,0 +1,28 @@
+Package: haskell-enummapset
+Binary: libghc-enummapset-dev, libghc-enummapset-prof, libghc-enummapset-doc
+Version: 0.6.0.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Mikolaj Konarski <mikolaj.konarski@funktory.com>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-semigroups-dev (>= 0.1), libghc-semigroups-dev (<< 1.0), libghc-semigroups-prof
+Build-Depends-Indep: ghc-doc, libghc-semigroups-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ a90e3b7cc4011fbe9b072bc207469624 2474 haskell-enummapset_0.6.0.3-1.dsc
+ d4394e5b98835c5c0b2b2f2e8e184c60 12880 haskell-enummapset_0.6.0.3.orig.tar.gz
+ 51013f62a2cea27a1e1aec9e3d13b02e 2340 haskell-enummapset_0.6.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-enummapset
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-enummapset]
+Checksums-Sha256:
+ 10cd5961399c3547c298ff80b99ae6adf4445249605c397cd003159d45db2a50 2474 haskell-enummapset_0.6.0.3-1.dsc
+ 5eacc9a4ef2e1a48b65d48dc7c8295c42050edb506245e134566a73f0a78ab6b 12880 haskell-enummapset_0.6.0.3.orig.tar.gz
+ 1c0d7bcc6718eee3dfcc27256489f072321e2cdd0acf9d427eab158b7eca3621 2340 haskell-enummapset_0.6.0.3-1.debian.tar.xz
+Homepage: https://github.com/Mikolaj/enummapset
+Package-List: 
+ libghc-enummapset-dev deb haskell optional arch=any
+ libghc-enummapset-doc deb doc optional arch=all
+ libghc-enummapset-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-enummapset
+Priority: extra
+Section: misc

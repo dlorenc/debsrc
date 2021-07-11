@@ -1,0 +1,33 @@
+Package: xz-utils
+Binary: liblzma5, xz-utils, xzdec, liblzma-dev, liblzma-doc
+Version: 5.2.5-2
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Uploaders: Mohammed Adnène Trojette <adn+deb@diwi.org>
+Build-Depends: debhelper (>= 8.9.0), dpkg-dev (>= 1.16.2), autoconf (>= 2.64~), automake, libtool (>= 2.2), gettext, autopoint | gettext (<< 0.18-1), autopoint | cvs
+Build-Depends-Indep: doxygen
+Build-Conflicts: automake1.4
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 6e18d3da8fa2aac34cbce1f097fdeada 2312 xz-utils_5.2.5-2.dsc
+ aa1621ec7013a19abab52a8aff04fe5b 1148824 xz-utils_5.2.5.orig.tar.xz
+ aefee8195012884d039461b5073fbd7e 833 xz-utils_5.2.5.orig.tar.xz.asc
+ c06349e4be54e6f0858200996360400b 33532 xz-utils_5.2.5-2.debian.tar.xz
+Vcs-Browser: https://repo.or.cz/w/xz/debian
+Vcs-Git: https://repo.or.cz/r/xz/debian
+Checksums-Sha256:
+ fa2706f0c863bee4715460bc9103c6fb73ad2cbc12d8d6d7d5dced81ab349949 2312 xz-utils_5.2.5-2.dsc
+ 3e1e518ffc912f86608a8cb35e4bd41ad1aec210df2a47aaa1f95e7f5576ef56 1148824 xz-utils_5.2.5.orig.tar.xz
+ 6efc0075a58912e640119d2b52ef7d1518b260d8720fadc73df21ab7fc727624 833 xz-utils_5.2.5.orig.tar.xz.asc
+ 7bf06a86c35cc6b21a7731df9e11d241f8d3c16b0fe6ed78d64506d1bc29b06e 33532 xz-utils_5.2.5-2.debian.tar.xz
+Homepage: https://tukaani.org/xz/
+Package-List: 
+ liblzma-dev deb libdevel optional arch=any
+ liblzma-doc deb doc optional arch=all
+ liblzma5 deb libs optional arch=any
+ xz-utils deb utils standard arch=any
+ xzdec deb utils optional arch=any
+Directory: pool/main/x/xz-utils
+Priority: source
+Section: utils

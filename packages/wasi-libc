@@ -1,0 +1,25 @@
+Package: wasi-libc
+Binary: wasi-libc
+Version: 0.0~git20200731.215adc8-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper-compat (= 12), clang-11, llvm-11
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 8c78855869102135b4672faee733ba46 1467 wasi-libc_0.0~git20200731.215adc8-2.dsc
+ 6003e60dfbaa0fd112775ac06fe67390 818804 wasi-libc_0.0~git20200731.215adc8.orig.tar.xz
+ 90ccdee432089cec348a0fddb8297097 6440 wasi-libc_0.0~git20200731.215adc8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/wasi-libc
+Vcs-Git: https://salsa.debian.org/rust-team/wasi-libc.git
+Checksums-Sha256:
+ e721235bb63d9ded828a635fc3adad334ceace836f788d9948c34a2bd960743d 1467 wasi-libc_0.0~git20200731.215adc8-2.dsc
+ 6ede30b303525be2e010d460bac671eacb518cc43391691d9fda76497562ecac 818804 wasi-libc_0.0~git20200731.215adc8.orig.tar.xz
+ 83661760f5aa06a244764c2537b66b2940982cf3c55568d82b6a0fa7ea2d7237 6440 wasi-libc_0.0~git20200731.215adc8-2.debian.tar.xz
+Homepage: https://github.com/CraneStation/wasi-libc
+Package-List: 
+ wasi-libc deb devel optional arch=all
+Directory: pool/main/w/wasi-libc
+Priority: extra
+Section: misc

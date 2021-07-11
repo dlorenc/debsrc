@@ -1,0 +1,27 @@
+Package: python-feather-format
+Binary: python3-feather-format
+Version: 0.3.1+dfsg1-4
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Build-Depends: debhelper-compat (= 12), cython3, dh-python, python3-all, python3-all-dev, python3-numpy, python3-pandas, python3-six, python3-setuptools
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0bf0371575d0bcb9ba8e868d44ac51a8 2299 python-feather-format_0.3.1+dfsg1-4.dsc
+ 0bcc161f183a65312b7598533e5621e2 110623 python-feather-format_0.3.1+dfsg1.orig.tar.gz
+ e0698aed99f0c9218ebed5563397332c 4492 python-feather-format_0.3.1+dfsg1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-feather-format
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-feather-format.git
+Checksums-Sha256:
+ 2781d4c03b7ec2e23f331dd71bb2d16b1e338c96fdcff57c52e8c5642078ce97 2299 python-feather-format_0.3.1+dfsg1-4.dsc
+ df85387ba8f8121eab3afa743ca205a3c0bad4c66670f48d49ce1807127e0096 110623 python-feather-format_0.3.1+dfsg1.orig.tar.gz
+ ea6d8031ee13732ddb71ee79aa25bf97bed41da97be761b3bed8b114d848662d 4492 python-feather-format_0.3.1+dfsg1-4.debian.tar.xz
+Homepage: https://github.com/wesm/feather
+Package-List: 
+ python3-feather-format deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-feather-format
+Priority: optional
+Section: misc

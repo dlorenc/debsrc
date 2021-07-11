@@ -1,0 +1,28 @@
+Package: node-vinyl
+Binary: node-vinyl
+Version: 2.2.1+~2.0.4-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-debbundle-es-to-primitive <!nocheck>, node-clone <!nocheck>, node-clone-buffer <!nocheck>, node-clone-stats <!nocheck>, node-cloneable-readable <!nocheck>, node-has <!nocheck>, node-mississippi <!nocheck>, node-object-inspect <!nocheck>, node-remove-trailing-separator <!nocheck>, node-replace-ext <!nocheck>, node-tmatch <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 09e72d84262cf2b217be37e495e6898e 2698 node-vinyl_2.2.1+~2.0.4-1.dsc
+ 1584d4c4ef70ba3c0c29881add78de0f 4121 node-vinyl_2.2.1+~2.0.4.orig-types-vinyl.tar.gz
+ 0ccc5ed3d8c59026faf4d5fa880618c9 14844 node-vinyl_2.2.1+~2.0.4.orig.tar.gz
+ 2e5501a375ea2ee0e841cedbc0d7c633 27000 node-vinyl_2.2.1+~2.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-vinyl
+Vcs-Git: https://salsa.debian.org/js-team/node-vinyl.git
+Checksums-Sha256:
+ e97d4510c285578fb21a59c767170f57dc0147143746bedbb4bd83ca045fef7f 2698 node-vinyl_2.2.1+~2.0.4-1.dsc
+ b991d1e312d2d81233a12e36b092e11c0e945979034984d8bba0b4ce78b6717d 4121 node-vinyl_2.2.1+~2.0.4.orig-types-vinyl.tar.gz
+ b295470c6914289167520da4afa09b6f68ac966306afc158159a15024a357f33 14844 node-vinyl_2.2.1+~2.0.4.orig.tar.gz
+ ccc2c15dc90ea17d786cbe25c5a09bdbb1278b4dabf144b1a4fa2bff1f2e1f3c 27000 node-vinyl_2.2.1+~2.0.4-1.debian.tar.xz
+Homepage: https://github.com/gulpjs/vinyl
+Package-List: 
+ node-vinyl deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-vinyl
+Priority: optional
+Section: javascript

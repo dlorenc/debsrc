@@ -1,0 +1,25 @@
+Package: bind-dyndb-ldap
+Binary: bind9-dyndb-ldap
+Version: 11.6-3
+Maintainer: Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>
+Uploaders: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: debhelper-compat (= 12), bind9-dev, libkrb5-dev, libldap2-dev, libsasl2-dev, uuid-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c7ba0f27ac5830d1229949513345059e 2045 bind-dyndb-ldap_11.6-3.dsc
+ 96c705f452e926e68ffb280650cd6fbf 352387 bind-dyndb-ldap_11.6.orig.tar.bz2
+ 8047725e09b3b41a3599e750f140869e 6432 bind-dyndb-ldap_11.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freeipa-team/bind-dyndb-ldap
+Vcs-Git: https://salsa.debian.org/freeipa-team/bind-dyndb-ldap.git
+Checksums-Sha256:
+ 8031c738ac0ef5fa2f8afac103409f554aff33a5e06a0734fccfe466674707d2 2045 bind-dyndb-ldap_11.6-3.dsc
+ a3d8946bb6abcf579bf0b46db1fa528fac431d351fa331d7ebbd7589fafc7943 352387 bind-dyndb-ldap_11.6.orig.tar.bz2
+ 86049d9ee6cd42e208508c53022d9a81595837b6253200e382b0a179b93c38fa 6432 bind-dyndb-ldap_11.6-3.debian.tar.xz
+Homepage: https://pagure.io/bind-dyndb-ldap
+Package-List: 
+ bind9-dyndb-ldap deb net optional arch=any
+Directory: pool/main/b/bind-dyndb-ldap
+Priority: optional
+Section: misc

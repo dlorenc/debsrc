@@ -1,0 +1,29 @@
+Package: python-amqp
+Binary: python-amqp-doc, python3-amqp
+Version: 5.0.3-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>, Thomas Goirand <zigo@debian.org>, Brian May <bam@debian.org>, Christopher Hoskin <mans0954@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: libjs-jquery, python3-case <!nocheck>, python3-pytest <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-celery <!nodoc>, python3-vine <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5f34b32fb43e2f7451f13810739cfe8c 2400 python-amqp_5.0.3-3.dsc
+ f84f3ee556a7dd363033f5177cb2e09d 122043 python-amqp_5.0.3.orig.tar.gz
+ 8c87c3232a671720ebd1ff5976c8111b 9344 python-amqp_5.0.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-amqp
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-amqp.git
+Checksums-Sha256:
+ 68b108361671b8536df6480fb8b702255f4db4181582c466fe116f59322cc8ab 2400 python-amqp_5.0.3-3.dsc
+ 1733ebf713050504fd9d2ebc661f1fc95b3588f99ee87d2e39c84c27bfd815dc 122043 python-amqp_5.0.3.orig.tar.gz
+ 67aa0b11c31506d6b6a9012517a56d57a1410486229f74207cfe34fc241f134e 9344 python-amqp_5.0.3-3.debian.tar.xz
+Homepage: https://github.com/celery/py-amqp
+Package-List: 
+ python-amqp-doc deb doc optional arch=all profile=!nodoc
+ python3-amqp deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-amqp
+Priority: optional
+Section: misc

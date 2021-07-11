@@ -1,0 +1,39 @@
+Package: postgresql-13
+Binary: libpq-dev, libpq5, libecpg6, libecpg-dev, libecpg-compat3, libpgtypes3, postgresql-13, postgresql-client-13, postgresql-server-dev-13, postgresql-doc-13, postgresql-plperl-13, postgresql-plpython3-13, postgresql-pltcl-13
+Version: 13.3-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Martin Pitt <mpitt@debian.org>, Peter Eisentraut <petere@debian.org>, Christoph Berg <myon@debian.org>
+Build-Depends: bison, clang-11 [!alpha !hppa !hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !m68k !powerpc !riscv64 !sh4 !sparc64 !x32], debhelper-compat (= 13), dh-exec (>= 0.13~), docbook-xml, docbook-xsl (>= 1.77), dpkg-dev (>= 1.16.1~), flex, gdb <!nocheck>, gettext, libicu-dev, libio-pty-perl <!nocheck>, libipc-run-perl <!nocheck>, libkrb5-dev, libldap2-dev, libpam0g-dev | libpam-dev, libperl-dev, libreadline-dev, libselinux1-dev [linux-any], libssl-dev, libsystemd-dev [linux-any], libxml2-dev, libxml2-utils, libxslt1-dev, llvm-11-dev [!alpha !hppa !hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !m68k !powerpc !riscv64 !sh4 !sparc64 !x32], perl (>= 5.8), pkg-config, python3-dev, systemtap-sdt-dev, tcl-dev, uuid-dev, xsltproc, zlib1g-dev | libz-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a6d7018c18cddc42e8317d8a6803a6e8 3655 postgresql-13_13.3-1.dsc
+ edf0e016fc53025bcabc7e793920f1c1 21119109 postgresql-13_13.3.orig.tar.bz2
+ ee77db4a44052ca0f7ab5eb5aeae9272 28020 postgresql-13_13.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/postgresql
+Vcs-Git: https://salsa.debian.org/postgresql/postgresql.git -b 13
+Checksums-Sha256:
+ 052d8c1b538bb4ddc17378a444e19640f1bcd488474bed233711db38f253b678 3655 postgresql-13_13.3-1.dsc
+ 3cd9454fa8c7a6255b6743b767700925ead1b9ab0d7a0f9dcb1151010f8eb4a1 21119109 postgresql-13_13.3.orig.tar.bz2
+ 07d04c37e345db84bb1b5f0681a6cb5a12544e4f9329c922c75a80580b2ee9f0 28020 postgresql-13_13.3-1.debian.tar.xz
+Homepage: http://www.postgresql.org/
+Package-List: 
+ libecpg-compat3 deb libs optional arch=any
+ libecpg-dev deb libdevel optional arch=any
+ libecpg6 deb libs optional arch=any
+ libpgtypes3 deb libs optional arch=any
+ libpq-dev deb libdevel optional arch=any
+ libpq5 deb libs optional arch=any
+ postgresql-13 deb database optional arch=any
+ postgresql-client-13 deb database optional arch=any
+ postgresql-doc-13 deb doc optional arch=all
+ postgresql-plperl-13 deb database optional arch=any
+ postgresql-plpython3-13 deb database optional arch=any
+ postgresql-pltcl-13 deb database optional arch=any
+ postgresql-server-dev-13 deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, hunspell-en-us, locales, logrotate, net-tools, netcat-openbsd, perl
+Directory: pool/main/p/postgresql-13
+Priority: extra
+Section: misc

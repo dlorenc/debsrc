@@ -1,0 +1,26 @@
+Package: ktorrent
+Binary: ktorrent, ktorrent-data
+Version: 5.2.0-2
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>
+Build-Depends: cmake (>= 2.8.12), debhelper-compat (= 13), pkg-kde-tools (>= 0.15.16), gettext, pkg-config, extra-cmake-modules, qtbase5-dev (>= 5.7.0), qtscript5-dev (>= 5.7.0), qtwebengine5-dev (>= 5.7.0) [amd64 arm64 armhf i386 mipsel], libphonon4qt5-dev, libphonon4qt5experimental-dev, libkf5archive-dev (>= 5.15), libkf5completion-dev (>= 5.15), libkf5config-dev (>= 5.15), libkf5configwidgets-dev (>= 5.15), libkf5coreaddons-dev (>= 5.15), libkf5crash-dev (>= 5.15), libkf5dbusaddons-dev (>= 5.15), libkf5dnssd-dev (>= 5.15), libkf5doctools-dev (>= 5.15), libkf5i18n-dev (>= 5.15), libkf5iconthemes-dev (>= 5.15), libkf5kio-dev (>= 5.15), libkf5itemviews-dev (>= 5.15), libkf5notifications-dev (>= 5.15), libkf5notifyconfig-dev (>= 5.15), libkf5kcmutils-dev (>= 5.15), libkf5parts-dev (>= 5.15), libkf5plotting-dev (>= 5.15), libkf5solid-dev (>= 5.15), libkf5textwidgets-dev (>= 5.15), libkf5widgetsaddons-dev (>= 5.15), libkf5windowsystem-dev (>= 5.15), libkf5xmlgui-dev (>= 5.15), kross-dev (>= 5.15), libkf5syndication-dev, libboost-dev, libktorrent-dev (>= 2.2.0~), libtag1-dev, libgeoip-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ef36b1e51f5bec2bffc16efcb8761bd3 3067 ktorrent_5.2.0-2.dsc
+ 0aeed9807a578e7aabc9c4e7cae83d56 2056012 ktorrent_5.2.0.orig.tar.xz
+ 3cc698feafa2a7fc471c351caae17143 24672 ktorrent_5.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/ktorrent
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/ktorrent.git
+Checksums-Sha256:
+ b6a1dfd32c407bc05827e4f180a99b3cbc690999af8840b9823d05411cebcc08 3067 ktorrent_5.2.0-2.dsc
+ d1031d745c1ace02d11b59c426610aee779d208e3d1ae81f8559c265173732ff 2056012 ktorrent_5.2.0.orig.tar.xz
+ 0e12c50a193c425bd4a81035fc275e56fe9b1fad3aefa5d9854f67dc979190d6 24672 ktorrent_5.2.0-2.debian.tar.xz
+Homepage: https://www.kde.org/applications/internet/ktorrent/
+Package-List: 
+ ktorrent deb net optional arch=any
+ ktorrent-data deb net optional arch=all
+Directory: pool/main/k/ktorrent
+Priority: source
+Section: net

@@ -1,0 +1,25 @@
+Package: apache-log4j2
+Binary: liblog4j2-java
+Version: 2.13.3-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, groovy, libapache-pom-java (>= 10), libbsh-java, libbuild-helper-maven-plugin-java, libcommons-compress-java, libcommons-csv-java (>= 1.2), libcommons-lang3-java, libcommons-logging-java, libconversant-disruptor-java, libdisruptor-java, libgeronimo-jms-1.1-spec-java, libgeronimo-jpa-2.0-spec-java, libjackson2-annotations-java, libjackson2-databind-java, libjackson2-dataformat-xml-java, libjackson2-dataformat-yaml, libjackson2-module-jaxb-annotations-java, libjansi-java, libjcommander-java, libjctools-java, libjeromq-java, liblightcouch-java, libmail-java, libmaven-assembly-plugin-java, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, libmaven-exec-plugin-java, libmaven-install-plugin-java, libmaven-source-plugin-java, libmongodb-java, libnetty-java, libosgi-core-java, libservlet3.1-java, libslf4j-java, libwoodstox-java, maven-debian-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ef76283f0f651815339d19086013f059 2892 apache-log4j2_2.13.3-1.dsc
+ cf1326fa3f943b978124aee126831f9e 1160000 apache-log4j2_2.13.3.orig.tar.xz
+ f951f8b8df083a21952a2e2a08ffb791 6648 apache-log4j2_2.13.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/apache-log4j2
+Vcs-Git: https://salsa.debian.org/java-team/apache-log4j2.git
+Checksums-Sha256:
+ 8c66006b7b7868ec0919e3403ff0c2c621ab10af30bd4910befb1c422250da1a 2892 apache-log4j2_2.13.3-1.dsc
+ 37af00419bda861981b5765a0dd07e76e6fcd47d90b4329a21e46c6e09c2e150 1160000 apache-log4j2_2.13.3.orig.tar.xz
+ 4e513365f390682fd351d5b298b8b96740014c7b88e8b13abb5e17da3e0932a8 6648 apache-log4j2_2.13.3-1.debian.tar.xz
+Homepage: http://logging.apache.org/log4j/2.x/
+Package-List: 
+ liblog4j2-java deb java optional arch=all
+Directory: pool/main/a/apache-log4j2
+Priority: optional
+Section: misc

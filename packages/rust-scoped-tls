@@ -1,0 +1,27 @@
+Package: rust-scoped-tls
+Binary: librust-scoped-tls-dev
+Version: 1.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 5947128fe678edaeaaa221bca58d3cfa 2250 rust-scoped-tls_1.0.0-1.dsc
+ fc60e4ecd18db5e582b9e7dd19dd62e4 9146 rust-scoped-tls_1.0.0.orig.tar.gz
+ c7f315674054aa6b17f4d91e87357192 2776 rust-scoped-tls_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/scoped-tls
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/scoped-tls]
+Checksums-Sha256:
+ eccb6f32d9b76693ec6db7afe5dc456ae8d8a7cb4e6b93de17c9eff19af798a1 2250 rust-scoped-tls_1.0.0-1.dsc
+ ea6a9290e3c9cf0f18145ef7ffa62d68ee0bf5fcd651017e586dc7fd5da448c2 9146 rust-scoped-tls_1.0.0.orig.tar.gz
+ e9905d57f420f127baa75fbdf27d790449644c3fccccdf7b4f7ac4df7ce72bc2 2776 rust-scoped-tls_1.0.0-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/scoped-tls
+Package-List: 
+ librust-scoped-tls-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-scoped-tls
+Priority: extra
+Section: misc

@@ -1,0 +1,32 @@
+Package: cinder
+Binary: cinder-api, cinder-backup, cinder-common, cinder-doc, cinder-scheduler, cinder-volume, python3-cinder
+Version: 2:17.0.1-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr (>= 5.4.1), python3-setuptools, python3-sphinx
+Build-Depends-Indep: bandit, python3-barbicanclient (>= 4.9.0), python3-castellan (>= 1.3.0), python3-coverage, python3-cryptography, python3-cursive, python3-ddt (>= 1.2.1), python3-decorator, python3-doc8, python3-eventlet (>= 0.26.0), python3-fixtures, python3-glanceclient (>= 2.15.0), python3-googleapi, python3-greenlet (>= 0.4.15), python3-hacking, python3-httplib2, python3-importlib-metadata, python3-iso8601 (>= 0.1.12), python3-jsonschema (>= 3.2.0), python3-keystoneauth1 (>= 3.14.0), python3-keystoneclient, python3-keystonemiddleware, python3-lxml, python3-migrate (>= 0.13.0), python3-mysqldb, python3-novaclient, python3-oauth2client, python3-openstackdocstheme, python3-os-brick (>= 4.0.1), python3-os-win (>= 4.2.0), python3-oslo.concurrency, python3-oslo.config (>= 1:6.11.0), python3-oslo.context (>= 2.23.0), python3-oslo.db (>= 6.0.0), python3-oslo.i18n (>= 3.24.0), python3-oslo.log (>= 3.44.0), python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (>= 1.44.1), python3-oslo.privsep (>= 2.3.0), python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service (>= 2.0.0), python3-oslo.upgradecheck, python3-oslo.utils (>= 3.40.2), python3-oslo.versionedobjects, python3-oslo.vmware, python3-oslotest, python3-osprofiler, python3-packaging (>= 20.4), python3-paramiko (>= 2.7.1), python3-paste, python3-pastedeploy, python3-pep8, python3-psutil, python3-psycopg2 (>= 2.8), python3-pygments, python3-pymysql, python3-pyparsing (>= 2.2.1), python3-reno, python3-requests, python3-routes, python3-rtslib-fb, python3-six, python3-sphinx-feature-classification, python3-sphinxcontrib.apidoc, python3-sqlalchemy (>= 1.3.0), python3-sqlalchemy-utils (>= 0.36.1), python3-stestr (>= 2.2.0), python3-stevedore (>= 1.31.0), python3-swiftclient, python3-tabulate, python3-taskflow (>= 3.8.0), python3-tenacity (>= 6.1.0), python3-testtools (>= 2.4.0), python3-tooz, python3-tz, python3-webob, python3-zstd, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 27e5690dbbfa5eabaec43c9b084e8eef 4414 cinder_17.0.1-1.dsc
+ 335613ed3c07981f3998174867497c78 3944016 cinder_17.0.1.orig.tar.xz
+ 3b7ca19e74c62227168c69691f8260cc 41864 cinder_17.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/cinder
+Vcs-Git: https://salsa.debian.org/openstack-team/services/cinder.git
+Checksums-Sha256:
+ 22c6a63eb86e5a68993ba6ec70a410019e6505fd06d6dd648e1604e1202425c7 4414 cinder_17.0.1-1.dsc
+ 9079a000149f68dea0e26e0f4387a6e67299492271479e4cce47ac96ce463f70 3944016 cinder_17.0.1.orig.tar.xz
+ e3b494d60e696b9c1dca3e3ecaae61642fe339a46bf78112718d78ce9cb981b3 41864 cinder_17.0.1-1.debian.tar.xz
+Homepage: https://github.com/openstack/cinder
+Package-List: 
+ cinder-api deb net optional arch=all
+ cinder-backup deb net optional arch=all
+ cinder-common deb net optional arch=all
+ cinder-doc deb doc optional arch=all profile=!nodoc
+ cinder-scheduler deb net optional arch=all
+ cinder-volume deb net optional arch=all
+ python3-cinder deb python optional arch=all
+Directory: pool/main/c/cinder
+Priority: source
+Section: misc

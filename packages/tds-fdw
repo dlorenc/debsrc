@@ -1,0 +1,26 @@
+Package: tds-fdw
+Binary: postgresql-13-tds-fdw
+Version: 2.0.2-2
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>,
+Build-Depends: debhelper-compat (= 13), freetds-dev, postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dd10feb63e54faf0ab1e1a7392a4b0ce 1988 tds-fdw_2.0.2-2.dsc
+ ea9b78f1eab5da72fd4d41e9980f6496 63917 tds-fdw_2.0.2.orig.tar.gz
+ c53ca67812539d47d455e08a30595b42 2584 tds-fdw_2.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/tds-fdw
+Vcs-Git: https://salsa.debian.org/postgresql/tds-fdw.git
+Checksums-Sha256:
+ a32d8b2951f3186d90156dde704a4d31d978aba0a9cd9fd0e7c54f6b11a72b8c 1988 tds-fdw_2.0.2-2.dsc
+ d34973a919a1b3baefe717e496920af26994adbb9ead0f82f6d2cc20bf9a8cbe 63917 tds-fdw_2.0.2.orig.tar.gz
+ bc6e070a3517970cfb8b5a37c547f3403432daf3b5b5de7b06a88658cfe3789c 2584 tds-fdw_2.0.2-2.debian.tar.xz
+Homepage: https://github.com/tds-fdw/tds_fdw
+Package-List: 
+ postgresql-13-tds-fdw deb database optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/t/tds-fdw
+Priority: extra
+Section: misc

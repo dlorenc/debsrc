@@ -1,0 +1,26 @@
+Package: python-openflow
+Binary: python3-openflow
+Version: 2019.2-2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-pytest-runner, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 30f003557813e1878385d26e459fe90d 2047 python-openflow_2019.2-2.dsc
+ 7649e59d068aba6ec5d44f74ce863d9f 102762 python-openflow_2019.2.orig.tar.gz
+ 822b3e44330b9815d69899aa28302a33 8976 python-openflow_2019.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-openflow
+Vcs-Git: https://salsa.debian.org/debian/python-openflow.git
+Checksums-Sha256:
+ b1c215207ebbbc9846c7165fdf2ddeddbea62b788af5224b82797450b12bb267 2047 python-openflow_2019.2-2.dsc
+ c45f609ecd0b2efe6d7b92481113926d300af9d4cdb4e5ddd795b6bcb14c2ffd 102762 python-openflow_2019.2.orig.tar.gz
+ 44ab0f586d11b3d47466317433883bca2182f2a8704c079021eb9eb058634dc2 8976 python-openflow_2019.2-2.debian.tar.xz
+Homepage: https://github.com/kytos/python-openflow
+Package-List: 
+ python3-openflow deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/p/python-openflow
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: sumalibs
+Binary: libsuma1, libsuma-dev
+Version: 1.0.36-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Pierre Gruet <pgtdebian@free.fr>
+Build-Depends: debhelper-compat (= 12), cmake
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0f02c8c2fd2fc831a0c83fb0dc9c1fb4 2110 sumalibs_1.0.36-2.dsc
+ 3487176765b470eb2ae5c4c85c5add6d 52112 sumalibs_1.0.36.orig.tar.gz
+ c828bd2237d3e99d030f35ec47247b19 11124 sumalibs_1.0.36-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/sumalibs
+Vcs-Git: https://salsa.debian.org/med-team/sumalibs.git
+Checksums-Sha256:
+ 696b143b3354ad4565814a34d17cffe65677c07715ffbb08a83e721c9cafa8e1 2110 sumalibs_1.0.36-2.dsc
+ 89ef6b7a0a31ee0690e42d9f08ee2767441f61d1886a3a70b3e95e4eaeecb949 52112 sumalibs_1.0.36.orig.tar.gz
+ a48690006ecf0b0d10bbe9a8bd46760eeeab9ae4b15c1ea6a96ab3a6677a2967 11124 sumalibs_1.0.36-2.debian.tar.xz
+Homepage: https://git.metabarcoding.org/obitools/sumalibs
+Package-List: 
+ libsuma-dev deb libdevel optional arch=any
+ libsuma1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/s/sumalibs
+Priority: extra
+Section: misc

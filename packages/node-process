@@ -1,0 +1,27 @@
+Package: node-process
+Binary: node-process
+Version: 0.11.10-2.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 9), dh-buildinfo, nodejs, mocha
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ cf85b4e357bdee63d2c8e53fe539fc28 2087 node-process_0.11.10-2.1.dsc
+ c543c267acc3fed1d0b5ee9ad0714091 4590 node-process_0.11.10.orig.tar.gz
+ aa5fe9a7329fd158560179be0a560ba3 2480 node-process_0.11.10-2.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-process.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-process.git
+Checksums-Sha256:
+ 29a7b4117ac62564581ae24094fe6f66e776a56298238b03ad8716b06d898f0b 2087 node-process_0.11.10-2.1.dsc
+ 4a0842b0a5fccfea097a625f094331621f1e1be3d67e328fc65ae1178797e91a 4590 node-process_0.11.10.orig.tar.gz
+ 1c28172108f82098ca18299569ffd89e1b619e1e218d2b178324f959f2420013 2480 node-process_0.11.10-2.1.debian.tar.xz
+Homepage: https://github.com/shtylman/node-process#readme
+Package-List: 
+ node-process deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha
+Directory: pool/main/n/node-process
+Priority: extra
+Section: javascript

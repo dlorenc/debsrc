@@ -1,0 +1,31 @@
+Package: libtasn1-6
+Binary: libtasn1-6-dev, libtasn1-doc, libtasn1-6, libtasn1-bin
+Version: 4.16.0-2
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Uploaders: Andreas Metzler <ametzler@debian.org>, Eric Dorland <eric@debian.org>, James Westby <jw+debian@jameswestby.net>, Simon Josefsson <simon@josefsson.org>
+Build-Depends: bison, debhelper-compat (= 12), help2man <!cross>
+Build-Depends-Indep: gtk-doc-tools, texinfo, texlive-latex-base
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6dc6585d50093e61702586c9c0b5915b 2586 libtasn1-6_4.16.0-2.dsc
+ 531208de3729d42e2af0a32890f08736 1812442 libtasn1-6_4.16.0.orig.tar.gz
+ ce0fce1eb64b6dc03ab6ca942a2e2823 488 libtasn1-6_4.16.0.orig.tar.gz.asc
+ 0638d48908790991eab55b8ad2cfe374 17740 libtasn1-6_4.16.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnutls-team/libtasn1
+Vcs-Git: https://salsa.debian.org/gnutls-team/libtasn1.git
+Checksums-Sha256:
+ fd4a387c71f95c3eceb1072a3f42c7021d73128027ea41a18d6efc6cbfdd764a 2586 libtasn1-6_4.16.0-2.dsc
+ 0e0fb0903839117cb6e3b56e68222771bebf22ad7fc2295a0ed7d576e8d4329d 1812442 libtasn1-6_4.16.0.orig.tar.gz
+ 06c201e8c3b43c27465ed79294d4c4ec8dcd3e95e4a6176ecbf273229ee3e2d0 488 libtasn1-6_4.16.0.orig.tar.gz.asc
+ c1a89b0bac0fb7c83ebac4eafbca0475c24350ade6ccaef31266424725610624 17740 libtasn1-6_4.16.0-2.debian.tar.xz
+Homepage: https://www.gnu.org/software/libtasn1/
+Package-List: 
+ libtasn1-6 deb libs optional arch=any
+ libtasn1-6-dev deb libdevel optional arch=any
+ libtasn1-bin deb devel optional arch=any
+ libtasn1-doc deb doc optional arch=all
+Directory: pool/main/libt/libtasn1-6
+Priority: source
+Section: misc

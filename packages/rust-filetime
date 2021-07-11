@@ -1,0 +1,27 @@
+Package: rust-filetime
+Binary: librust-filetime-dev
+Version: 0.2.9-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev (>= 0.1.6-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.27-~~) <!nocheck>, librust-redox-syscall-0.1+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+fileapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ aa78b2fa29d5767c3acdfd2f8c32b5b0 2611 rust-filetime_0.2.9-1.dsc
+ 412b2bce94e56ba00946c357e5832c1b 13714 rust-filetime_0.2.9.orig.tar.gz
+ 60887c62e9f4b4e80bb3fcfe5494389d 2768 rust-filetime_0.2.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/filetime
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/filetime]
+Checksums-Sha256:
+ 934c9b68ab36987eed4fd845a401b121c8ccc3e163f0608b45cda273fd838cf3 2611 rust-filetime_0.2.9-1.dsc
+ f59efc38004c988e4201d11d263b8171f49a2e7ec0bdbb71773433f271504a5e 13714 rust-filetime_0.2.9.orig.tar.gz
+ 292ae3b53f36a27ed981284a3a9a2cde0a58118384cb507569d8a03fb7e98e16 2768 rust-filetime_0.2.9-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/filetime
+Package-List: 
+ librust-filetime-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-filetime
+Priority: extra
+Section: misc

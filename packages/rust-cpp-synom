@@ -1,0 +1,26 @@
+Package: rust-cpp-synom
+Binary: librust-cpp-synom-dev
+Version: 0.12.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-unicode-xid-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a1d84a795a9b4fb4e78ce48fcf2fdcbd 2184 rust-cpp-synom_0.12.0-1.dsc
+ 258f652d6387889bc3ccfee45cf9fb96 11021 rust-cpp-synom_0.12.0.orig.tar.gz
+ 18a67fe13d684969f293f88d462bf862 2644 rust-cpp-synom_0.12.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cpp-synom
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cpp-synom]
+Checksums-Sha256:
+ 2f6fa2bc9163d20d2b6a5e8302e45966d35cc609c975a5d51ae63f2b7a85a4f0 2184 rust-cpp-synom_0.12.0-1.dsc
+ 2af0846b1255eba3b8115b4004d828e5972c22a5b3c80f508ef2fed61f111a3e 11021 rust-cpp-synom_0.12.0.orig.tar.gz
+ 7d2129607ec8b866b8caa85846f0b66ee68c349874c6fb1c349ad78ac1d1b07a 2644 rust-cpp-synom_0.12.0-1.debian.tar.xz
+Package-List: 
+ librust-cpp-synom-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cpp-synom
+Priority: extra
+Section: misc

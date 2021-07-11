@@ -1,0 +1,26 @@
+Package: libbpp-seq-omics
+Binary: libbpp-seq-omics-dev, libbpp-seq-omics3
+Version: 2.4.1-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Julien Dutheil <julien.dutheil@univ-montp2.fr>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, d-shlibs (>= 0.82), libbpp-seq-dev (>= 2.4.1)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 31edf19a4ae07926def150d0b549192e 2221 libbpp-seq-omics_2.4.1-5.dsc
+ fe5d906c557d94ef1341e78f240119d4 107415 libbpp-seq-omics_2.4.1.orig.tar.gz
+ 697f820c2a04e221d046404c9e67ad9c 17036 libbpp-seq-omics_2.4.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libbpp-seq-omics
+Vcs-Git: https://salsa.debian.org/med-team/libbpp-seq-omics.git
+Checksums-Sha256:
+ 61f312f4c092ac968e4dff0a485d8728f75d1851c28a9e19f483a5281117e68b 2221 libbpp-seq-omics_2.4.1-5.dsc
+ 200da925b42065998d825f0b2a37e26b00a865883c85bc332beb3a94cae1e08b 107415 libbpp-seq-omics_2.4.1.orig.tar.gz
+ c8910ae01c8d17c8269dd5328a8eeb6f54c6585dd762fa6bc41d23d956d5f248 17036 libbpp-seq-omics_2.4.1-5.debian.tar.xz
+Homepage: http://biopp.univ-montp2.fr/wiki/index.php/Main_Page
+Package-List: 
+ libbpp-seq-omics-dev deb libdevel optional arch=any
+ libbpp-seq-omics3 deb libs optional arch=any
+Directory: pool/main/libb/libbpp-seq-omics
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: ruby-bullet
+Binary: ruby-bullet
+Version: 6.1.0-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cocoa <cocoa1231@disroot.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-activesupport (>= 3.0.0), ruby-rspec, ruby-uniform-notifier (>= 1.11)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 63528fb31d54af9db4da7903c05886e9 1739 ruby-bullet_6.1.0-2.dsc
+ d86bb820b620d9db46ae76ab615be167 43583 ruby-bullet_6.1.0.orig.tar.gz
+ 74271d5a5769e23e84794c743edb943a 2424 ruby-bullet_6.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-bullet
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-bullet.git
+Checksums-Sha256:
+ 9d9c47baacad252cbfef4b8a5bdea182e7a8a6ac8c18eee11e80b7087b04acbd 1739 ruby-bullet_6.1.0-2.dsc
+ e1ec11f6990c2503d7dddb25c551b68ce66126cbfe2f5910883bcd88597b3c2c 43583 ruby-bullet_6.1.0.orig.tar.gz
+ a3ef331d49a268ecb345eebf8b63e878dab10c4ea9510e51b9450194d48334c4 2424 ruby-bullet_6.1.0-2.debian.tar.xz
+Homepage: https://github.com/flyerhzm/bullet
+Package-List: 
+ ruby-bullet deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-bullet
+Priority: extra
+Section: misc

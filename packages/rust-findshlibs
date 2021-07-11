@@ -1,0 +1,24 @@
+Package: rust-findshlibs
+Binary: librust-findshlibs-dev
+Version: 0.5.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.55-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f7dcffc7ff8cdd39fe6c5f2481f73370 2205 rust-findshlibs_0.5.0-1.dsc
+ b27f23dce24c099f5cc68a211232344f 15986 rust-findshlibs_0.5.0.orig.tar.gz
+ a121fa779deb2c8a21884285c789119d 2652 rust-findshlibs_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/findshlibs
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/findshlibs]
+Checksums-Sha256:
+ e88e6341c2cd84f3453c0e60bca76acb2d039209d2ef6812ae1613090e154576 2205 rust-findshlibs_0.5.0-1.dsc
+ 78e8135fd01a5849a3f0835fd7e2d02856d4f22724350432c3d74ae8b79902b2 15986 rust-findshlibs_0.5.0.orig.tar.gz
+ c4d2d9a396c5a01b06755355749e12b9aa8a27e7c51343e190dbfed44e089803 2652 rust-findshlibs_0.5.0-1.debian.tar.xz
+Package-List: 
+ librust-findshlibs-dev deb rust optional arch=any
+Directory: pool/main/r/rust-findshlibs
+Priority: extra
+Section: misc

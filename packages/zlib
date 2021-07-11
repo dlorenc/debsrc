@@ -1,0 +1,30 @@
+Package: zlib
+Binary: zlib1g, zlib1g-dev, zlib1g-udeb, lib64z1, lib64z1-dev, lib32z1, lib32z1-dev, libn32z1, libn32z1-dev
+Version: 1:1.2.11.dfsg-2
+Maintainer: Mark Brown <broonie@debian.org>
+Build-Depends: debhelper (>= 8.1.3~), gcc-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 sparc s390x mipsn32 mipsn32el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64 mips64el mips64r6 mips64r6el x32] <!nobiarch>, dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 5ab821f176dd6a4d53ffcd1f7157afd8 2397 zlib_1.2.11.dfsg-2.dsc
+ 2950b229ed4a5e556ad6581580e4ab2c 370248 zlib_1.2.11.dfsg.orig.tar.gz
+ 8609b201cc16486391315af4475e20d8 19244 zlib_1.2.11.dfsg-2.debian.tar.xz
+Checksums-Sha256:
+ ce8c40737357aeaf17e9ca952a631c9bde4bcfc352c2bbe963836202b12c10a7 2397 zlib_1.2.11.dfsg-2.dsc
+ 80c481411a4fe8463aeb8270149a0e80bb9eaf7da44132b6e16f2b5af01bc899 370248 zlib_1.2.11.dfsg.orig.tar.gz
+ 8602accb97cb92bd52e0d48fa958e67ccad4382a948cca716d5dd24bd0b43bd7 19244 zlib_1.2.11.dfsg-2.debian.tar.xz
+Homepage: http://zlib.net/
+Package-List: 
+ lib32z1 deb libs optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch
+ lib32z1-dev deb libdevel optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch
+ lib64z1 deb libs optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch
+ lib64z1-dev deb libdevel optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch
+ libn32z1 deb libs optional arch=mips,mipsel profile=!nobiarch
+ libn32z1-dev deb libdevel optional arch=mips,mipsel profile=!nobiarch
+ zlib1g deb libs required arch=any
+ zlib1g-dev deb libdevel optional arch=any
+ zlib1g-udeb udeb debian-installer optional arch=any
+Directory: pool/main/z/zlib
+Priority: source
+Section: libs

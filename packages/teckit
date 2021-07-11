@@ -1,0 +1,27 @@
+Package: teckit
+Binary: teckit, libteckit0, libteckit-dev
+Version: 2.5.10+ds1-3
+Maintainer: Debian TeX Maintainers <debian-tex-maint@lists.debian.org>
+Uploaders: Daniel Glassey <wdg@debian.org>, Norbert Preining <norbert@preining.info>, Hilmar Preusse <hille42@web.de>,
+Build-Depends: debhelper-compat (= 12), pkg-config, chrpath, zlib1g-dev, libexpat1-dev, pkg-kde-tools
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5d387561b29871d9a084451ff640b939 1809 teckit_2.5.10+ds1-3.dsc
+ 684bd2ec34cee6dbdd365a773ed9a3e3 1410172 teckit_2.5.10+ds1.orig.tar.xz
+ a99619a7c982526e43455016074fe7b2 13048 teckit_2.5.10+ds1-3.debian.tar.xz
+Vcs-Browser: https://github.com/debian-tex/teckit
+Vcs-Git: https://github.com/debian-tex/teckit.git
+Checksums-Sha256:
+ f235c99db692de11b1a0b496b1e39eb7fa5d8f03cd0aea0e0805227213882030 1809 teckit_2.5.10+ds1-3.dsc
+ 44275b88150a1c9fce046b621e32ad036b71016f470af01850e007502562fb7a 1410172 teckit_2.5.10+ds1.orig.tar.xz
+ 67d6937f6199ca3d5e2209a3d5dd37f9c5491c94629b02c4bc534f2809225a6b 13048 teckit_2.5.10+ds1-3.debian.tar.xz
+Homepage: https://github.com/silnrsi/teckit
+Package-List: 
+ libteckit-dev deb libdevel optional arch=any
+ libteckit0 deb libs optional arch=any
+ teckit deb text optional arch=any
+Directory: pool/main/t/teckit
+Priority: optional
+Section: misc

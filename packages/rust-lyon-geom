@@ -1,0 +1,28 @@
+Package: rust-lyon-geom
+Binary: librust-lyon-geom-dev, librust-lyon-geom+serde-dev, librust-lyon-geom+serialization-dev
+Version: 0.15.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-arrayvec-0.5+default-dev <!nocheck>, librust-euclid-0.20+default-dev <!nocheck>, librust-num-traits-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ e651594880936bdb94952c1bf21dfdf7 2111 rust-lyon-geom_0.15.0-1.dsc
+ f084d16d94fbfe6fbe9fbc3a9e558df0 47445 rust-lyon-geom_0.15.0.orig.tar.gz
+ ad93d063f23eabe1314b822e674405f3 3376 rust-lyon-geom_0.15.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lyon-geom
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/lyon-geom]
+Checksums-Sha256:
+ af587004ec4d9691ab5e0b42f74e3dd718c07de0be22cee3779f56e10a5bc1fb 2111 rust-lyon-geom_0.15.0-1.dsc
+ 9e2a8bde54788e0eb4f1b9f072910bfa1cba95688698f7bb206d13a2f8fd06b3 47445 rust-lyon-geom_0.15.0.orig.tar.gz
+ 2738d90c6cba7ab2dbfdc634b5eda4a1be6bf839b776500bf83f63c98a7b2ec2 3376 rust-lyon-geom_0.15.0-1.debian.tar.xz
+Package-List: 
+ librust-lyon-geom+serde-dev deb rust optional arch=any
+ librust-lyon-geom+serialization-dev deb rust optional arch=any
+ librust-lyon-geom-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-lyon-geom
+Priority: extra
+Section: misc

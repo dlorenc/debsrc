@@ -1,0 +1,26 @@
+Package: haskell-wai-cors
+Binary: libghc-wai-cors-dev, libghc-wai-cors-prof, libghc-wai-cors-doc
+Version: 0.2.7-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-attoparsec-dev (>= 0.10.4.0), libghc-attoparsec-prof (>= 0.10.4.0), libghc-base-unicode-symbols-dev (>= 0.2.2.3), libghc-base-unicode-symbols-prof (>= 0.2.2.3), libghc-case-insensitive-dev (>= 1.0.0.1), libghc-case-insensitive-prof (>= 1.0.0.1), libghc-http-types-dev (>= 0.8.0), libghc-http-types-prof (>= 0.8.0), libghc-wai-dev (>= 3.0), libghc-wai-prof (>= 3.0), libghc-network-dev (>= 2.6), libghc-network-prof (>= 2.6), libghc-tasty-dev (>= 0.10), libghc-tasty-prof (>= 0.10), libghc-tasty-hunit-dev (>= 0.9), libghc-tasty-hunit-prof (>= 0.9), libghc-wai-extra-dev (>= 3.0), libghc-wai-extra-prof (>= 3.0), libghc-wai-websockets-dev (>= 3.0), libghc-wai-websockets-prof (>= 3.0), libghc-warp-dev (>= 3.0), libghc-warp-prof (>= 3.0), libghc-websockets-dev (>= 0.9), libghc-websockets-prof (>= 0.9)
+Build-Depends-Indep: ghc-doc, libghc-attoparsec-doc, libghc-base-unicode-symbols-doc, libghc-case-insensitive-doc, libghc-http-types-doc, libghc-wai-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1ad1096f82926270b022af62b3a90365 3081 haskell-wai-cors_0.2.7-1.dsc
+ e6263dfe12340ea2b8b08d4d05279491 16248 haskell-wai-cors_0.2.7.orig.tar.gz
+ c12da2b80e1bb28f95d28e8e66b1bcc8 2232 haskell-wai-cors_0.2.7-1.debian.tar.xz
+Checksums-Sha256:
+ c5995bb2aa8f1f9b2634899f924ad691f1143cdfde6cceaedd677046ce197a0c 3081 haskell-wai-cors_0.2.7-1.dsc
+ 2597beb56ebd7148f9755ae2661c065a6c532e0a286717061861b149a51cfb81 16248 haskell-wai-cors_0.2.7.orig.tar.gz
+ bd15ca5c191728fc52a580809317e2a3f92e99c305913f342dc4ccbacec3b061 2232 haskell-wai-cors_0.2.7-1.debian.tar.xz
+Homepage: https://github.com/larskuhtz/wai-cors
+Package-List: 
+ libghc-wai-cors-dev deb haskell optional arch=any
+ libghc-wai-cors-doc deb doc optional arch=all
+ libghc-wai-cors-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-wai-cors
+Priority: extra
+Section: misc

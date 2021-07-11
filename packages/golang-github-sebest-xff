@@ -1,0 +1,28 @@
+Package: golang-github-sebest-xff
+Binary: golang-github-sebest-xff, golang-github-sebest-xff-dev
+Version: 0.0~git20160910.6c115e0-1.1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-codegangsta-negroni-dev, golang-github-gorilla-mux-dev, golang-github-stretchr-testify-dev
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 3f4e88d2f525d4711dc4dd59f28aff19 2502 golang-github-sebest-xff_0.0~git20160910.6c115e0-1.1.dsc
+ b604b2e08145e50caa69ef073d0c7c23 3764 golang-github-sebest-xff_0.0~git20160910.6c115e0.orig.tar.xz
+ 694be00392bb362117183271a0465e59 2216 golang-github-sebest-xff_0.0~git20160910.6c115e0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-sebest-xff
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-sebest-xff.git
+Checksums-Sha256:
+ c1403024884867c18924710bcc41d2e6fc5a96f3096de93d17c20d7840edee96 2502 golang-github-sebest-xff_0.0~git20160910.6c115e0-1.1.dsc
+ e2acc60abee0b42b9e97b33437f63f8eaf04cef0780980657814381e146ac751 3764 golang-github-sebest-xff_0.0~git20160910.6c115e0.orig.tar.xz
+ db188ef205a33adf027fb621be72928b30a894e967d6647b637d5846c1ca0507 2216 golang-github-sebest-xff_0.0~git20160910.6c115e0-1.1.debian.tar.xz
+Homepage: https://github.com/sebest/xff
+Go-Import-Path: github.com/sebest/xff
+Package-List: 
+ golang-github-sebest-xff deb devel optional arch=any
+ golang-github-sebest-xff-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-sebest-xff
+Priority: extra
+Section: golang

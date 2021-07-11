@@ -1,0 +1,27 @@
+Package: python-peakutils
+Binary: python3-peakutils
+Version: 1.3.3+ds-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-matplotlib <!nocheck>, python3-pandas <!nocheck>, python3-scipy <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7b927b6219533f37fdab31689d9d7172 2267 python-peakutils_1.3.3+ds-2.dsc
+ a89b8f8ffc9c91e130a4eb0c87de4275 102944 python-peakutils_1.3.3+ds.orig.tar.xz
+ d013d4afbd3d1c1607a839e4d73607fc 2204 python-peakutils_1.3.3+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-peakutils
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-peakutils.git
+Checksums-Sha256:
+ d0ae747768daa6741fe153a2b92b6520d0649be9ac0a77f0cad5564b31ab5847 2267 python-peakutils_1.3.3+ds-2.dsc
+ 982be5f47f3250ecd3f16f3d497fa15a93c5a02c53e5614f2a24e0287f859b30 102944 python-peakutils_1.3.3+ds.orig.tar.xz
+ e387068d35c37f9983d6dc514609f15f7ec25b9e1e87a3b50c188c46d6253d98 2204 python-peakutils_1.3.3+ds-2.debian.tar.xz
+Homepage: https://bitbucket.org/lucashnegri/peakutils
+Package-List: 
+ python3-peakutils deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pandas
+Directory: pool/main/p/python-peakutils
+Priority: extra
+Section: misc

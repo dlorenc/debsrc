@@ -1,0 +1,27 @@
+Package: ruby-necromancer
+Binary: ruby-necromancer
+Version: 0.5.1-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Gabriel Filion <gabriel@koumbit.org>,
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6bce17b71da6c503676e16ddc311cc15 1500 ruby-necromancer_0.5.1-2.dsc
+ dedc3d4d66bf87d04a5c96cae01e7a59 16422 ruby-necromancer_0.5.1.orig.tar.gz
+ 24d6f5ac3b96a02b6dc239c362877ab4 2820 ruby-necromancer_0.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-necromancer
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-necromancer.git
+Checksums-Sha256:
+ e06db7bfa86fcbd320e5ae21c7f2a92903cf85b21552f9b010dfbabde9fa8e17 1500 ruby-necromancer_0.5.1-2.dsc
+ 3e161b63929fadf5237223f38db3f2018834f00e104586ed8beddb5efb5c73c4 16422 ruby-necromancer_0.5.1.orig.tar.gz
+ df5e4d7dffdc88c6a7dbd5c8015a17dc7d5111982790c094db77865b867ab557 2820 ruby-necromancer_0.5.1-2.debian.tar.xz
+Homepage: https://github.com/piotrmurach/necromancer
+Package-List: 
+ ruby-necromancer deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-necromancer
+Priority: extra
+Section: misc

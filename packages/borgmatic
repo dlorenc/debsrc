@@ -1,0 +1,26 @@
+Package: borgmatic
+Binary: borgmatic
+Version: 1.5.12-2
+Maintainer: Debian Borg Collective <team+borg@tracker.debian.org>
+Uploaders: Johan Fleury <jfleury@arcaik.net>, Andrej Shadura <andrewsh@debian.org>, Sebastien Badia <sbadia@debian.org>, Dominik George <natureshadow@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, pandoc, python3-all, python3-colorama, python3-flexmock, python3-requests, python3-pykwalify, python3-pytest, python3-ruamel.yaml, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2c151b7dbb95edc7067dd8dca90ba102 2213 borgmatic_1.5.12-2.dsc
+ e146bae5251e9a219cb63843bd2d41f7 265456 borgmatic_1.5.12.orig.tar.gz
+ 78a2a2b1b82dc96fb5d5f6eba5d54a45 6688 borgmatic_1.5.12-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/borgmatic
+Vcs-Git: https://salsa.debian.org/debian/borgmatic.git
+Checksums-Sha256:
+ ddf39cf3a39e3fc566e1000df5437e8e1fbd36cfb9dabcfc0aaf9c05797d7456 2213 borgmatic_1.5.12-2.dsc
+ a91f84e7cb5179b0d9b66be5634e1da7f5ddef73f2bacb59241432226a92bf0b 265456 borgmatic_1.5.12.orig.tar.gz
+ d1de32fa40c210b724fb7adcb0c4bbedd0f37913d91bb36ab3cf37131be03594 6688 borgmatic_1.5.12-2.debian.tar.xz
+Homepage: https://torsion.org/borgmatic
+Package-List: 
+ borgmatic deb utils optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/b/borgmatic
+Priority: extra
+Section: misc

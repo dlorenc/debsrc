@@ -1,0 +1,27 @@
+Package: rust-futures-io
+Binary: librust-futures-io-dev
+Version: 0.3.8-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Fabian Grünbichler <f.gruenbichler@proxmox.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ecc895604678d010f6e5ffd65ed61320 2196 rust-futures-io_0.3.8-1.dsc
+ d9e8cce711a40fe9271e98b24ad8a018 9131 rust-futures-io_0.3.8.orig.tar.gz
+ b0ac2152c4ee91337b422410540f8e1e 2764 rust-futures-io_0.3.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futures-io
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/futures-io]
+Checksums-Sha256:
+ 9707ddc9b49922a1dcb361120569ab2a35a367fa7a308b7a43e9d47c595ec1e9 2196 rust-futures-io_0.3.8-1.dsc
+ 611834ce18aaa1bd13c4b374f5d653e1027cf99b6b502584ff8c9a64413b30bb 9131 rust-futures-io_0.3.8.orig.tar.gz
+ 8a713d99d275532de50a3d295b9a21a1cd2d68b11cd8d81b61dc737739edbe22 2764 rust-futures-io_0.3.8-1.debian.tar.xz
+Homepage: https://rust-lang.github.io/futures-rs
+Package-List: 
+ librust-futures-io-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-futures-io
+Priority: extra
+Section: misc

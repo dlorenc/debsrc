@@ -1,0 +1,26 @@
+Package: node-archy
+Binary: node-archy
+Version: 1.0.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), node-tap, dh-buildinfo, pkg-js-tools (>= 0.8.6)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 540b0d341e08caec4e3ad12aa3795955 2019 node-archy_1.0.0-3.dsc
+ 85cb0b7b337f78e00012e09383b707a3 2989 node-archy_1.0.0.orig.tar.gz
+ 9cc5c02cb52b8ce9a2877b06db1b90af 2724 node-archy_1.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-archy
+Vcs-Git: https://salsa.debian.org/js-team/node-archy.git
+Checksums-Sha256:
+ 0726caa6cf6fc8535d8d7b354cc055ae03d82120295cffff876b8b1202fc13d3 2019 node-archy_1.0.0-3.dsc
+ 2ccb1751986471628a55454c52ba749fbc4334ccd4ce02175e71917f7c222c79 2989 node-archy_1.0.0.orig.tar.gz
+ 60c777b9864a6613aa427d762ec35d6db7cc66d54ac5dcbf878cb3b8ee5fe7a5 2724 node-archy_1.0.0-3.debian.tar.xz
+Homepage: https://github.com/substack/node-archy
+Package-List: 
+ node-archy deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-archy
+Priority: source
+Section: javascript

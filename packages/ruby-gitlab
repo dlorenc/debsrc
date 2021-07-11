@@ -1,0 +1,27 @@
+Package: ruby-gitlab
+Binary: ruby-gitlab
+Version: 4.17.0-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sophie Brun <sophie@freexian.com>, Sebastien Delafond <seb@debian.org>, Daniel Leidert <dleidert@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby, ruby-httparty (>= 0.18), ruby-rspec, ruby-terminal-table (>= 1.5.1), ruby-webmock
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a9290e48039e64db47a1b085c6a26332 1832 ruby-gitlab_4.17.0-2.dsc
+ 5dd8caa1f2406ba11a54371e3e56075c 156184 ruby-gitlab_4.17.0.orig.tar.gz
+ 9e8a142c370141f4171f57c0f9604009 4228 ruby-gitlab_4.17.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-gitlab
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-gitlab.git
+Checksums-Sha256:
+ 03ac72f0ca726e03b917c06808b42faae59a24112911c6017be1e53ec43c17c7 1832 ruby-gitlab_4.17.0-2.dsc
+ 53d2658073e1ffdca0b67b971b4280542b4d831bfb9baf06836e8063cfadb801 156184 ruby-gitlab_4.17.0.orig.tar.gz
+ e01485267e167a48c2fd9297294bed07fe24093a1987e67031d910a0514d9d26 4228 ruby-gitlab_4.17.0-2.debian.tar.xz
+Homepage: https://github.com/NARKOZ/gitlab
+Package-List: 
+ ruby-gitlab deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-gitlab
+Priority: extra
+Section: misc

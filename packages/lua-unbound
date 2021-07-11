@@ -1,0 +1,26 @@
+Package: lua-unbound
+Binary: lua-unbound, lua-unbound-dev
+Version: 0.5-2
+Maintainer: Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>
+Uploaders: Victor Seva <vseva@debian.org>, Sergei Golovan <sgolovan@debian.org>, Enrico Tassi <gareuselesinge@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-lua, libunbound-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fda83088c576753cd8c05451d9707c07 2071 lua-unbound_0.5-2.dsc
+ b0b0bbe3d10a08b6d9d81db0fab33e96 5948 lua-unbound_0.5.orig.tar.gz
+ e925460d468f7c6737918623dc044ce1 2488 lua-unbound_0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lua-team/lua-unbound
+Vcs-Git: https://salsa.debian.org/lua-team/lua-unbound.git
+Checksums-Sha256:
+ 6cfd5ffea291d0436ce87c7eff285208261230bcbcaa6b2ea1c9774390877a34 2071 lua-unbound_0.5-2.dsc
+ a6564ac1cca6bb350576eb2a5cfa03adb0aafd4f99d6cd491bd8028d046c62a7 5948 lua-unbound_0.5.orig.tar.gz
+ 4c5054c7d30c081d73be45b40012de4d22d850164a2332bb2e31fabc7230e2ea 2488 lua-unbound_0.5-2.debian.tar.xz
+Homepage: https://www.zash.se/luaunbound.html
+Package-List: 
+ lua-unbound deb net optional arch=any
+ lua-unbound-dev deb libdevel optional arch=any
+Directory: pool/main/l/lua-unbound
+Priority: extra
+Section: misc

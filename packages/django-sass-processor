@@ -1,0 +1,27 @@
+Package: django-sass-processor
+Binary: python3-django-sass-processor
+Version: 0.8.2-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-django, python3-django-compressor, python3-jinja2, python3-libsass, python3-setuptools, python3-pytest, python3-pytest-django
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 42e1109e1babbbec6ff673ea8a203177 2319 django-sass-processor_0.8.2-1.dsc
+ 6b41fe0476dc27b552954856b0cbabad 20784 django-sass-processor_0.8.2.orig.tar.gz
+ 4cf4e5f3f6715e0166bb17ea9a6f9a31 3524 django-sass-processor_0.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/django-sass-processor
+Vcs-Git: https://salsa.debian.org/python-team/modules/django-sass-processor.git
+Checksums-Sha256:
+ 92ae9f64ffba415e090f100ba0e54f8ad1fb47eeee63a951366cefcf3a322ce5 2319 django-sass-processor_0.8.2-1.dsc
+ f8acf7ad48517b9a134a3387bd2444f1114ec84c6f34b09456064791e0af2955 20784 django-sass-processor_0.8.2.orig.tar.gz
+ 712e6f597023ee5217691442593157524d8bc63453964911f2b13c6efe6b9794 3524 django-sass-processor_0.8.2-1.debian.tar.xz
+Homepage: https://github.com/jrief/django-sass-processor
+Package-List: 
+ python3-django-sass-processor deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/d/django-sass-processor
+Priority: extra
+Section: misc

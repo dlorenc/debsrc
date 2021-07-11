@@ -1,0 +1,27 @@
+Package: golang-github-json-iterator-go
+Binary: golang-github-json-iterator-go-dev
+Version: 1.1.10-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Martín Ferrari <tincho@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-davecgh-go-spew-dev, golang-github-google-gofuzz-dev (>= 0.0~git20170612~), golang-github-modern-go-concurrent-dev, golang-github-modern-go-reflect2-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 50b481928005895634f9035dec1c101e 1874 golang-github-json-iterator-go_1.1.10-2.dsc
+ e739910a337c853273d35cf1fbb3666f 83358 golang-github-json-iterator-go_1.1.10.orig.tar.gz
+ 36c108cd65cada0542f59cb69cfde852 3192 golang-github-json-iterator-go_1.1.10-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-json-iterator-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-json-iterator-go.git
+Checksums-Sha256:
+ 7f227a4c907ea317c5561e5eee17ea67c167eb6fdba5584c530d1f4b00a03586 1874 golang-github-json-iterator-go_1.1.10-2.dsc
+ 6a985afabb6b968fee605c7dd28c81b9333298d6e3332f2f3d340e833f1e816f 83358 golang-github-json-iterator-go_1.1.10.orig.tar.gz
+ 21ef0e41023593e2931fa3891dc74d002d0a1c72ee214ca2bfed64874cdb708d 3192 golang-github-json-iterator-go_1.1.10-2.debian.tar.xz
+Homepage: http://jsoniter.com/
+Go-Import-Path: github.com/json-iterator/go
+Package-List: 
+ golang-github-json-iterator-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-json-iterator-go
+Priority: extra
+Section: golang

@@ -1,0 +1,28 @@
+Package: haskell-authenticate-oauth
+Binary: libghc-authenticate-oauth-dev, libghc-authenticate-oauth-prof, libghc-authenticate-oauth-doc
+Version: 1.6.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-rsa-dev (>= 2.0), libghc-rsa-dev (<< 2.5), libghc-rsa-prof, libghc-sha-dev (>= 1.4), libghc-sha-dev (<< 1.7), libghc-sha-prof, libghc-base64-bytestring-dev (>= 0.1), libghc-base64-bytestring-dev (<< 1.2), libghc-base64-bytestring-prof, libghc-blaze-builder-dev, libghc-blaze-builder-prof, libghc-crypto-pubkey-types-dev (<< 0.5), libghc-crypto-pubkey-types-dev (>= 0.1), libghc-crypto-pubkey-types-prof, libghc-data-default-dev, libghc-data-default-prof, libghc-http-client-dev (>= 0.3), libghc-http-client-prof, libghc-http-types-dev (>= 0.6), libghc-http-types-prof, libghc-random-dev, libghc-random-prof, libghc-transformers-compat-dev (>= 0.3), libghc-transformers-compat-prof
+Build-Depends-Indep: ghc-doc, libghc-rsa-doc, libghc-sha-doc, libghc-base64-bytestring-doc, libghc-blaze-builder-doc, libghc-crypto-pubkey-types-doc, libghc-data-default-doc, libghc-http-client-doc, libghc-http-types-doc, libghc-random-doc, libghc-transformers-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d5e3b615ad8484ec412a780eec4e6456 3403 haskell-authenticate-oauth_1.6.0.1-2.dsc
+ cde013dbc811d2745a3a98a80f0c6d30 9470 haskell-authenticate-oauth_1.6.0.1.orig.tar.gz
+ 56834d1e11e03f4836aedd76d9104e97 3420 haskell-authenticate-oauth_1.6.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-authenticate-oauth
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-authenticate-oauth]
+Checksums-Sha256:
+ c25e3900323eccaaa612a8739c3ff0172330bc93079a2c5d36fcc514948881f8 3403 haskell-authenticate-oauth_1.6.0.1-2.dsc
+ e0520fb4255ac8d6ff30f06a2b91a9fdc478aa799e254e52747ebd13d70f3ec3 9470 haskell-authenticate-oauth_1.6.0.1.orig.tar.gz
+ 075623cb0e17f41817098be3c51abbd3aff31713e2197b6273cfabf8f4a3fc88 3420 haskell-authenticate-oauth_1.6.0.1-2.debian.tar.xz
+Homepage: https://github.com/yesodweb/authenticate
+Package-List: 
+ libghc-authenticate-oauth-dev deb haskell optional arch=any
+ libghc-authenticate-oauth-doc deb doc optional arch=all
+ libghc-authenticate-oauth-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-authenticate-oauth
+Priority: source
+Section: misc

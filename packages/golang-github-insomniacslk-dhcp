@@ -1,0 +1,27 @@
+Package: golang-github-insomniacslk-dhcp
+Binary: golang-github-insomniacslk-dhcp-dev
+Version: 0.0~git20200621.d74cd86-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-stretchr-testify-dev, golang-golang-x-net-dev, golang-golang-x-sys-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8d84af50fb8ef0dbc1743b987ddaeea8 1902 golang-github-insomniacslk-dhcp_0.0~git20200621.d74cd86-1.dsc
+ f21c88c2cb2cb58e9948eba1f3d769ce 133232 golang-github-insomniacslk-dhcp_0.0~git20200621.d74cd86.orig.tar.gz
+ ee8b6efc226be639ea0fe5a68c82d10c 9872 golang-github-insomniacslk-dhcp_0.0~git20200621.d74cd86-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-insomniacslk-dhcp
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-insomniacslk-dhcp.git
+Checksums-Sha256:
+ 6c1e1031fbb4773c8dcd4bc93da5a2c52d9a15a8a5f67cbfe1bcae1e66335c04 1902 golang-github-insomniacslk-dhcp_0.0~git20200621.d74cd86-1.dsc
+ 537fd4c2c4f7a378dcef58882229c57fba53f7648bade55da768646b95118b01 133232 golang-github-insomniacslk-dhcp_0.0~git20200621.d74cd86.orig.tar.gz
+ bfca416efcb322e30f25317aa3210873fb357049e90c902c030fc44d4ff89417 9872 golang-github-insomniacslk-dhcp_0.0~git20200621.d74cd86-1.debian.tar.xz
+Homepage: https://github.com/insomniacslk/dhcp
+Go-Import-Path: github.com/insomniacslk/dhcp
+Package-List: 
+ golang-github-insomniacslk-dhcp-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-insomniacslk-dhcp
+Priority: extra
+Section: golang

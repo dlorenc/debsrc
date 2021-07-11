@@ -1,0 +1,26 @@
+Package: rust-zmq-sys
+Binary: librust-zmq-sys-dev
+Version: 0.11.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Jan Niehusmann <jan@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.15-~~) <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.17-~~) <!nocheck>, libzmq3-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c6c876e680a70113a1bafdc0440b1961 2099 rust-zmq-sys_0.11.0-2.dsc
+ 1f27c2c3a2df51d6ac837c858d59944b 12220 rust-zmq-sys_0.11.0.orig.tar.gz
+ 50d75e2efd1fcdd6a91cdc5a7bf6a323 3544 rust-zmq-sys_0.11.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/zmq-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/zmq-sys]
+Checksums-Sha256:
+ a25a2c822972a7c881f1c828b0334bb76fc46d08d10618473d4acb621a33a26c 2099 rust-zmq-sys_0.11.0-2.dsc
+ d33a2c51dde24d5b451a2ed4b488266df221a5eaee2ee519933dc46b9a9b3648 12220 rust-zmq-sys_0.11.0.orig.tar.gz
+ 72fc0ea6faa860af41f75527e63e9df6b5c9fa27baaa13c5bc602e1dc680db9f 3544 rust-zmq-sys_0.11.0-2.debian.tar.xz
+Package-List: 
+ librust-zmq-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-zmq-sys
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: build-essential
+Binary: build-essential, crossbuild-essential-amd64, crossbuild-essential-arm64, crossbuild-essential-armel, crossbuild-essential-armhf, crossbuild-essential-i386, crossbuild-essential-powerpc, crossbuild-essential-ppc64el, crossbuild-essential-s390x
+Version: 12.9
+Maintainer: Matthias Klose <doko@debian.org>
+Uploaders: Scott James Remnant <scott@netsplit.com>
+Build-Depends: debhelper (>= 11), python3:any, g++ (>= 4:10.2)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 334ed4ac44d9e3310a5e408fa6602297 2220 build-essential_12.9.dsc
+ 839a81f01a625e40afa9bce17930742e 51532 build-essential_12.9.tar.xz
+Checksums-Sha256:
+ 1e4ad67c69001a162b2eb3a2019f037e53c8a1e312073ba1a2110d1e21971555 2220 build-essential_12.9.dsc
+ 938da370b4ef883687d141723d1b7470ad76bec7a54158d3d6b9b38f9c9eedb2 51532 build-essential_12.9.tar.xz
+Package-List: 
+ build-essential deb devel optional arch=any
+ crossbuild-essential-amd64 deb devel optional arch=all
+ crossbuild-essential-arm64 deb devel optional arch=all
+ crossbuild-essential-armel deb devel optional arch=all
+ crossbuild-essential-armhf deb devel optional arch=all
+ crossbuild-essential-i386 deb devel optional arch=all
+ crossbuild-essential-powerpc deb devel optional arch=all
+ crossbuild-essential-ppc64el deb devel optional arch=all
+ crossbuild-essential-s390x deb devel optional arch=all
+Directory: pool/main/b/build-essential
+Priority: source
+Section: devel

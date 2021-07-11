@@ -1,0 +1,27 @@
+Package: libmstoolkit
+Binary: libmstoolkit-dev, libmstoolkit82, libmstoolkit-tools
+Version: 82-7
+Maintainer: The Debichem Group <debichem-devel@lists.alioth.debian.org>
+Uploaders: Filippo Rusconi <lopippo@debian.org>
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.16.1~), zlib1g-dev (>= 1:1.2.8), libsqlite3-dev (>= 3.8.6), libexpat1-dev (>= 2.1.0), docbook-to-man
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a9b1f3fbcbb01cf430cfdaf9475e60b4 2197 libmstoolkit_82-7.dsc
+ 44736875135da7442f4edaf2bf585d86 101094 libmstoolkit_82.orig.tar.gz
+ 415e463185afe906d265bf9b3c6b729f 16152 libmstoolkit_82-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debichem-team/libmstoolkit
+Vcs-Git: https://salsa.debian.org/debichem-team/libmstoolkit.git
+Checksums-Sha256:
+ ff8408d4f8d9b7bd68800f39fe2f5df3ce3281aedafb96c5950de4045b9a4df3 2197 libmstoolkit_82-7.dsc
+ 6066d62b5110eb85ac9ec2827899c1339ce27fe6c2ad9750f09a19c6fdc2e967 101094 libmstoolkit_82.orig.tar.gz
+ 30a6b209498a2a93f31760cd686d946af36b44edcdc58943cefd4897090222a9 16152 libmstoolkit_82-7.debian.tar.xz
+Homepage: https://github.com/mhoopmann/mstoolkit
+Package-List: 
+ libmstoolkit-dev deb libdevel optional arch=any
+ libmstoolkit-tools deb science optional arch=any
+ libmstoolkit82 deb libs optional arch=any
+Directory: pool/main/libm/libmstoolkit
+Priority: optional
+Section: misc

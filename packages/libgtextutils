@@ -1,0 +1,26 @@
+Package: libgtextutils
+Binary: libgtextutils-dev, libgtextutils0v5
+Version: 0.7-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>, Pierre Gruet <pgtdebian@free.fr>
+Build-Depends: debhelper-compat (= 13), dh-exec, libtool
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 659b7583a5a67ae73902f254fa2b5cb2 2143 libgtextutils_0.7-7.dsc
+ acb1e606705595c1ffb4013a04cc17f5 32478 libgtextutils_0.7.orig.tar.gz
+ 5c1b139257c08c8ecd06a8045a710598 15796 libgtextutils_0.7-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libgtextutils
+Vcs-Git: https://salsa.debian.org/med-team/libgtextutils.git
+Checksums-Sha256:
+ ccb6c1337708ae01e03c43470e81c43dc4641d6535f87fb4011b51ee48f7a770 2143 libgtextutils_0.7-7.dsc
+ 9eed751dea812ab247486f040754815bd3d0239557d0f91c0152d1b5b10dbc3e 32478 libgtextutils_0.7.orig.tar.gz
+ ab862f1a1f7d9a50597f1b8736f4f9a3eca3642c4d9bd5e86fb3311229a72ce0 15796 libgtextutils_0.7-7.debian.tar.xz
+Homepage: http://hannonlab.cshl.edu/fastx_toolkit/
+Package-List: 
+ libgtextutils-dev deb libdevel optional arch=any
+ libgtextutils0v5 deb libs optional arch=any
+Directory: pool/main/libg/libgtextutils
+Priority: source
+Section: science

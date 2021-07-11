@@ -1,0 +1,27 @@
+Package: libplack-middleware-session-perl
+Binary: libplack-middleware-session-perl
+Version: 0.33-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-tiny-perl
+Build-Depends-Indep: libclass-dbi-sqlite-perl <!nocheck>, libcookie-baker-perl (>= 0.10) <!nocheck>, libdigest-hmac-perl <!nocheck>, libhttp-cookies-perl <!nocheck>, libhttp-message-perl <!nocheck>, libplack-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-requires-perl <!nocheck>, libwww-perl <!nocheck>, libyaml-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 45626ac22e91e577d0ea8399ff6ca7ba 2617 libplack-middleware-session-perl_0.33-1.dsc
+ bf3073a3242fa880aec5c513324861a5 25835 libplack-middleware-session-perl_0.33.orig.tar.gz
+ 29e11b698adb6eb36e18648dcbd9f5ec 2932 libplack-middleware-session-perl_0.33-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libplack-middleware-session-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libplack-middleware-session-perl.git
+Checksums-Sha256:
+ 0afccdddfc4e02e83f766009cbbb08b54656920a7e89c583c271bed92dd38e06 2617 libplack-middleware-session-perl_0.33-1.dsc
+ f9f633f38bbc1a8ed6c44f8fe385cf20ea43e4921aba54b58aedc99a8a99fba1 25835 libplack-middleware-session-perl_0.33.orig.tar.gz
+ 71e6cf7a1eea59db26608333cdd4ccf58d221825971a2654b8ecf87a9cf53ac2 2932 libplack-middleware-session-perl_0.33-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Plack-Middleware-Session
+Package-List: 
+ libplack-middleware-session-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libplack-middleware-session-perl
+Priority: source
+Section: perl

@@ -1,0 +1,26 @@
+Package: dokujclient
+Binary: libdokujclient-java, dokujclient
+Version: 3.9.1-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Guillaume Turri <guillaume.turri@gmail.com>
+Build-Depends: debhelper-compat (= 13), default-jdk, libaxmlrpc-java (>= 1.8.0), libguava-java, libjsap-java, maven-debian-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0c252d082df8dec0c584a5dd55ab4f99 2146 dokujclient_3.9.1-1.dsc
+ ff2020d69386fa1868ce8115cb56c02a 47388 dokujclient_3.9.1.orig.tar.xz
+ 6bb1b10bddecaa21998b1f8f7afe381f 3112 dokujclient_3.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/dokujclient
+Vcs-Git: https://salsa.debian.org/java-team/dokujclient.git
+Checksums-Sha256:
+ 988cf39aa7cbc1bd14e7f71580ca4df15ec3b529e22edc44bb8ae9fd0e349f22 2146 dokujclient_3.9.1-1.dsc
+ c34bd5c97c622232e83b83478d088c7a48b6dcf488200de41f546a52f1661230 47388 dokujclient_3.9.1.orig.tar.xz
+ 850d35be2c2a2d35adf070fcbea94f254105e0c803797040204d201ca0c2d033 3112 dokujclient_3.9.1-1.debian.tar.xz
+Homepage: https://github.com/gturri/dokuJClient
+Package-List: 
+ dokujclient deb java optional arch=all
+ libdokujclient-java deb java optional arch=all
+Directory: pool/main/d/dokujclient
+Priority: optional
+Section: misc

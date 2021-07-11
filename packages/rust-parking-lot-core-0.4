@@ -1,0 +1,30 @@
+Package: rust-parking-lot-core-0.4
+Binary: librust-parking-lot-core-0.4-dev, librust-parking-lot-core-0.4+backtrace-dev, librust-parking-lot-core-0.4+deadlock-detection-dev, librust-parking-lot-core-0.4+petgraph-dev, librust-parking-lot-core-0.4+thread-id-dev
+Version: 0.4.0-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.27-~~) <!nocheck>, librust-rand-0.7+default-dev <!nocheck>, librust-rand-0.7+small-rng-dev <!nocheck>, librust-rustc-version-0.2+default-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck> | librust-smallvec-0+default-dev (>= 0.6-~~) <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+errhandlingapi-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+ntstatus-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>, librust-winapi-0.3+winnt-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6935b8456dd979d2977da8af6fe12b06 2832 rust-parking-lot-core-0.4_0.4.0-4.dsc
+ f59fef46e6ebc8bfcca5bd8c05e23089 26817 rust-parking-lot-core-0.4_0.4.0.orig.tar.gz
+ 70581f1fa481366818033a891e69baef 3776 rust-parking-lot-core-0.4_0.4.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/parking-lot-core-0.4
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/parking-lot-core-0.4]
+Checksums-Sha256:
+ 0d48e13b95ff3bb632aae19e73c22c94ff2ed9adbdafa0fb877221ca0275d7c6 2832 rust-parking-lot-core-0.4_0.4.0-4.dsc
+ 94c8c7923936b28d546dfd14d4472eaf34c99b14e1c973a32b3e6d4eb04298c9 26817 rust-parking-lot-core-0.4_0.4.0.orig.tar.gz
+ de9b840fd5dc35787f28cd66c0f28f974599c989b2a3024e9d695128a5fc0c74 3776 rust-parking-lot-core-0.4_0.4.0-4.debian.tar.xz
+Package-List: 
+ librust-parking-lot-core-0.4+backtrace-dev deb rust optional arch=any
+ librust-parking-lot-core-0.4+deadlock-detection-dev deb rust optional arch=any
+ librust-parking-lot-core-0.4+petgraph-dev deb rust optional arch=any
+ librust-parking-lot-core-0.4+thread-id-dev deb rust optional arch=any
+ librust-parking-lot-core-0.4-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-parking-lot-core-0.4
+Priority: extra
+Section: misc

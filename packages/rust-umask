@@ -1,0 +1,26 @@
+Package: rust-umask
+Binary: librust-umask-dev
+Version: 1.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Emmanuel Arias <eamanu@yaerobi.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3381e176f91443c0e3850f494ee176b4 2079 rust-umask_1.0.0-1.dsc
+ bc905c75d5168dfa99886e2998194b86 4380 rust-umask_1.0.0.orig.tar.gz
+ 75d76dc000b40d67b67e85f90ee1994f 2600 rust-umask_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/umask
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/umask]
+Checksums-Sha256:
+ c7de3982c7c8fa5aa9562695b971a4123d578f8ae507304057a3d51682dafc8e 2079 rust-umask_1.0.0-1.dsc
+ 982efbf70ec4d28f7862062c03dd1a4def601a5079e0faf1edc55f2ad0f6fe46 4380 rust-umask_1.0.0.orig.tar.gz
+ fe8b489bc378435091e5720989dbd9a602221b0e0e3c22025a9054533b743767 2600 rust-umask_1.0.0-1.debian.tar.xz
+Package-List: 
+ librust-umask-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-umask
+Priority: extra
+Section: misc

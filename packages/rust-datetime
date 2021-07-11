@@ -1,0 +1,25 @@
+Package: rust-datetime
+Binary: librust-datetime-dev
+Version: 0.4.7-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-iso8601-0.3+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-locale-0.2+default-dev <!nocheck>, librust-num-traits-0.2+default-dev (>= 0.2.5-~~) <!nocheck>, librust-pad-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ bdec23c92fd2c3c47dc045be5350c945 2350 rust-datetime_0.4.7-2.dsc
+ e24bacbc7458707a7b6dcca445a6e7b2 117752 rust-datetime_0.4.7.orig.tar.gz
+ 2e0ede07e57d9687d291983b8a8a90ae 2640 rust-datetime_0.4.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/datetime
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/datetime]
+Checksums-Sha256:
+ 6063a128ee315eb819ed217445a9e3cd6e7e801a204ce3e4c5736a51685968e2 2350 rust-datetime_0.4.7-2.dsc
+ 3a9a092fd3cc27e499d8d9d6faa9316bfbaf4688a38d610539aef8d80747e835 117752 rust-datetime_0.4.7.orig.tar.gz
+ 69abcf71c53ffcc296b805646578d672aa8bccad4ea50f009722ebc740066f0b 2640 rust-datetime_0.4.7-2.debian.tar.xz
+Homepage: https://github.com/rust-datetime/datetime
+Package-List: 
+ librust-datetime-dev deb rust optional arch=any
+Directory: pool/main/r/rust-datetime
+Priority: extra
+Section: misc

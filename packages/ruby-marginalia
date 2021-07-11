@@ -1,0 +1,27 @@
+Package: ruby-marginalia
+Binary: ruby-marginalia
+Version: 1.9.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-activejob, ruby-actionpack (>= 2.3), ruby-activerecord (>= 2.3), ruby-mocha, ruby-mysql2, ruby-railties, ruby-sidekiq
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3068e823311e69606a2a0cda5639beb3 2174 ruby-marginalia_1.9.0-1.dsc
+ 8a0c82b0db6f16d76e2b56694e46e69d 9431 ruby-marginalia_1.9.0.orig.tar.gz
+ 33f8976d4382ad6bac175def49a0bb5c 2480 ruby-marginalia_1.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-marginalia
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-marginalia.git
+Checksums-Sha256:
+ 23d0f0cc8a4dd31a588ed9d9d7fda209a34ab111a558c17df0d5e53855e8339e 2174 ruby-marginalia_1.9.0-1.dsc
+ 86d2a50d728de0bb1c8801f6a356a2eb0f635cd237d465f2a9c89f2ed34498fd 9431 ruby-marginalia_1.9.0.orig.tar.gz
+ c957644650fc1785661f5c259d952156e0c437615823790fdad1a92dacb4961c 2480 ruby-marginalia_1.9.0-1.debian.tar.xz
+Homepage: https://github.com/basecamp/marginalia
+Package-List: 
+ ruby-marginalia deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-marginalia
+Priority: extra
+Section: misc

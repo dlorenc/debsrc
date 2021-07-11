@@ -1,0 +1,24 @@
+Package: rust-antidote
+Binary: librust-antidote-dev
+Version: 1.0.0-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 25c8602f564313424e30c7235fa33660 2044 rust-antidote_1.0.0-3.dsc
+ 357b6346ec59f7ecd187efb76bea9c86 6627 rust-antidote_1.0.0.orig.tar.gz
+ fbdc26d695e4131b5145618a55ba1034 2468 rust-antidote_1.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/antidote
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/antidote]
+Checksums-Sha256:
+ ae40f1ab99d115aa682553bc2a0e8ca2fd986ed5b833536aea263a2b5855b771 2044 rust-antidote_1.0.0-3.dsc
+ 32d94a33d304a2331e6c52feb576322b0d17ab8a7b04d3f1d7d13f3649833ee0 6627 rust-antidote_1.0.0.orig.tar.gz
+ 58afcd4108d4df07e36ae2e924445db2e2790b51809c24567660a7fd0c41b574 2468 rust-antidote_1.0.0-3.debian.tar.xz
+Package-List: 
+ librust-antidote-dev deb rust optional arch=any
+Directory: pool/main/r/rust-antidote
+Priority: extra
+Section: misc

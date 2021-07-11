@@ -1,0 +1,29 @@
+Package: mediawiki
+Binary: mediawiki, mediawiki-classes
+Version: 1:1.35.2-1
+Maintainer: Kunal Mehta <legoktm@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-buildinfo, apache2-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ be3e6414785f97c4d9778eee1aecb5c5 2377 mediawiki_1.35.2-1.dsc
+ 1ad08e20263cbf13a442bc53c932441b 48109666 mediawiki_1.35.2.orig.tar.gz
+ 7932252febbe23b4c64ede958530d089 195 mediawiki_1.35.2.orig.tar.gz.asc
+ 4d6a5ace80ecb2d6e406d608ff0cbf14 100520 mediawiki_1.35.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mediawiki-team/mediawiki
+Vcs-Git: https://salsa.debian.org/mediawiki-team/mediawiki.git
+Checksums-Sha256:
+ 8afdda19c84af4a2b9749a7b125de220024112ebd8962790e96b4d301a210476 2377 mediawiki_1.35.2-1.dsc
+ bffa58d9b76667d4131b4b46f106ba0008d85d60a18c70b674cc322a24818c1d 48109666 mediawiki_1.35.2.orig.tar.gz
+ 7f29fc4edce67bdb8d625875571b5b112f0d3d38b4237fe6f3b564ea34821518 195 mediawiki_1.35.2.orig.tar.gz.asc
+ 83dd51a10f684ef3053020c44b413a39891ead9eeedbeba2c7d3aef9a8f5dc53 100520 mediawiki_1.35.2-1.debian.tar.xz
+Homepage: https://www.mediawiki.org/
+Package-List: 
+ mediawiki deb web optional arch=all
+ mediawiki-classes deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, curl, jsonlint, mariadb-server, php-cli, php-mysql, php-pgsql, php-sqlite3, postgresql, sudo
+Directory: pool/main/m/mediawiki
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: dh-make-golang
+Binary: dh-make-golang
+Version: 0.4.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, git, golang-any (>= 2:1.9), golang-github-google-go-github-dev (>= 32), golang-github-gregjones-httpcache-dev, golang-github-mattn-go-isatty-dev, golang-github-russross-blackfriday-dev, golang-golang-x-net-dev, golang-golang-x-sync-dev, golang-golang-x-tools-dev, pandoc
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e8bcb204c0fd4b3ce7982d64ac7ecdf9 2448 dh-make-golang_0.4.0-1.dsc
+ 902da413392d63b1dad3fd63051b141f 25598 dh-make-golang_0.4.0.orig.tar.gz
+ 6ff8270bd1e4939ebb8d79b36a75ca0a 7272 dh-make-golang_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/dh-make-golang
+Vcs-Git: https://salsa.debian.org/go-team/packages/dh-make-golang.git
+Checksums-Sha256:
+ 85574d2bd03d5b809fec23f34da76b95e318dcdd238fd3374acdb3ebc5d184f8 2448 dh-make-golang_0.4.0-1.dsc
+ 0c82d205de99548eac6808663b9ce0e0659ccad351c64e5ea0883cbb202832ac 25598 dh-make-golang_0.4.0.orig.tar.gz
+ ec86321c5f445c44ec63ce9db17d7194b76df92d25e8b7d8fa1a13be9bb02413 7272 dh-make-golang_0.4.0-1.debian.tar.xz
+Homepage: https://github.com/Debian/dh-make-golang
+Go-Import-Path: github.com/Debian/dh-make-golang
+Package-List: 
+ dh-make-golang deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/d/dh-make-golang
+Priority: optional
+Section: misc

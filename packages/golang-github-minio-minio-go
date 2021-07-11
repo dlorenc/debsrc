@@ -1,0 +1,27 @@
+Package: golang-github-minio-minio-go
+Binary: golang-github-minio-minio-go-dev
+Version: 6.0.53-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Félix Sipma <felix+debian@gueux.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-go-ini-ini-dev, golang-github-minio-sha256-simd-dev, golang-github-mitchellh-go-homedir-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-gopkg-ini.v1-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 28fa7e045719cb390e7e2a31700819cb 2478 golang-github-minio-minio-go_6.0.53-1.dsc
+ f2ec64f7b2070b75d48c7ad9b550b503 159228 golang-github-minio-minio-go_6.0.53.orig.tar.xz
+ 4eae9b0d17f3d9f8323109a040860da2 3468 golang-github-minio-minio-go_6.0.53-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-minio-minio-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-minio-minio-go.git
+Checksums-Sha256:
+ 93b1b811c83592068203bb3bb61e592fa567bff607f75a564c1907fe1a7f734e 2478 golang-github-minio-minio-go_6.0.53-1.dsc
+ 9a4d3d49fc4889d34b450ff290f015340ddeae202e6f136c3cf04f7903fca4ef 159228 golang-github-minio-minio-go_6.0.53.orig.tar.xz
+ dbce9922f7daf322a42d21ad4f81ce92f4f3a36c8bde16d27132c2c6dc2ac39e 3468 golang-github-minio-minio-go_6.0.53-1.debian.tar.xz
+Homepage: https://github.com/minio/minio-go
+Go-Import-Path: github.com/minio/minio-go
+Package-List: 
+ golang-github-minio-minio-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-minio-minio-go
+Priority: extra
+Section: golang

@@ -1,0 +1,30 @@
+Package: python-launchpadlib
+Binary: python3-launchpadlib
+Version: 1.10.13-1
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all (>= 2.6.6-3~), python3-keyring (>= 0.5), python3-lazr.restfulclient (>= 0.11.2), python3-setuptools, python3-simplejson, python3-testresources, python3-wadllib
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2a889d93f57b893d7164e57de0bf8d44 2742 python-launchpadlib_1.10.13-1.dsc
+ 84967ab72c9111b77ef7faa85c05bef1 200770 python-launchpadlib_1.10.13.orig.tar.gz
+ 3fac7c370bc00c7e2dd6a954c014171b 833 python-launchpadlib_1.10.13.orig.tar.gz.asc
+ dcb47c13690997a1b1f1546ac98d6b12 10776 python-launchpadlib_1.10.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-launchpadlib
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-launchpadlib.git
+Checksums-Sha256:
+ 6f6cd845a373632248ca9e7fc655be0d35c0dbc4baa98f12e3ddefff8ccf5f37 2742 python-launchpadlib_1.10.13-1.dsc
+ 5804d68ec93247194449d17d187e949086da0a4d044f12155fad269ef8515435 200770 python-launchpadlib_1.10.13.orig.tar.gz
+ c611ad46efd00642d86523ba4afc95c34118e211f733a1a2f58f51870a4d9fa6 833 python-launchpadlib_1.10.13.orig.tar.gz.asc
+ eb1d56d0ee6ae0edfad1b372f3cb5909abaed7629854e24d48fd7752a4ab16e0 10776 python-launchpadlib_1.10.13-1.debian.tar.xz
+Homepage: https://launchpad.net/launchpadlib
+Dgit: 55a47eec623e09a7613e026c905bea1ff0fcd37a debian archive/debian/1.10.13-1 https://git.dgit.debian.org/python-launchpadlib
+Package-List: 
+ python3-launchpadlib deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-nose
+Directory: pool/main/p/python-launchpadlib
+Priority: source
+Section: python

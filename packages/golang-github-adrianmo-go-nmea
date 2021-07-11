@@ -1,0 +1,27 @@
+Package: golang-github-adrianmo-go-nmea
+Binary: golang-github-adrianmo-go-nmea-dev
+Version: 1.3.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Francisco Vilmar Cardoso Ruviaro <francisco.ruviaro@riseup.net>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4cbef41ca62ce9fb9170e83bd8ee4838 2363 golang-github-adrianmo-go-nmea_1.3.0-1.dsc
+ 5b7f2b74b1e667bf505aaed7cd653c44 27093 golang-github-adrianmo-go-nmea_1.3.0.orig.tar.gz
+ f8b6f2b7fca9c407878cf1d80ea4a325 2976 golang-github-adrianmo-go-nmea_1.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-adrianmo-go-nmea
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-adrianmo-go-nmea.git
+Checksums-Sha256:
+ 85ac0a8379fc5e3d3c5096e7324de70299ff0d02a39b9f72a365f0fc8a6e6a1b 2363 golang-github-adrianmo-go-nmea_1.3.0-1.dsc
+ 78c3d0f4aa0a46d3b13f8a154b5f2a6e1977059224b32ebc414014e9b5886efc 27093 golang-github-adrianmo-go-nmea_1.3.0.orig.tar.gz
+ 47f885ff7f40137b5442af580e1d3800dd5ced916093afaa2eac57a1a01fb267 2976 golang-github-adrianmo-go-nmea_1.3.0-1.debian.tar.xz
+Homepage: https://github.com/adrianmo/go-nmea
+Go-Import-Path: github.com/adrianmo/go-nmea
+Package-List: 
+ golang-github-adrianmo-go-nmea-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-adrianmo-go-nmea
+Priority: extra
+Section: golang

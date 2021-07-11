@@ -1,0 +1,28 @@
+Package: evdi
+Binary: evdi-dkms, libevdi0, libevdi0-dev
+Version: 1.9.0+dfsg-1
+Maintainer: Hanno Stock <opensource@hanno-stock.de>
+Build-Depends: debhelper-compat (= 13), dkms, dh-exec, libdrm-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8f6e526a323920e08dd4a82acbf04369 2025 evdi_1.9.0+dfsg-1.dsc
+ 27e7502051c141f7c8f1de4a5fdde7ca 40832 evdi_1.9.0+dfsg.orig.tar.xz
+ becd9f93fd14585e68aee1909d3b18e6 4492 evdi_1.9.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/hansto-guest/evdi
+Vcs-Git: https://salsa.debian.org/hansto-guest/evdi.git
+Checksums-Sha256:
+ b51a9013e73411e10a1ffa11b8ad205f34ffbc554b931d041ef2e658585f6902 2025 evdi_1.9.0+dfsg-1.dsc
+ 7da00b440c33a251330764503e35cb7d6a219c8b88a402c2fe0e621f356f366f 40832 evdi_1.9.0+dfsg.orig.tar.xz
+ d47505b4868941579b60c25af9701aa92a4ae0fd88c2306caddc9cb2b190ce01 4492 evdi_1.9.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/DisplayLink/evdi
+Package-List: 
+ evdi-dkms deb kernel optional arch=all
+ libevdi0 deb libs optional arch=any
+ libevdi0-dev deb libdevel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: dkms
+Directory: pool/main/e/evdi
+Priority: extra
+Section: misc

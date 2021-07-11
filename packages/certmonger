@@ -1,0 +1,25 @@
+Package: certmonger
+Binary: certmonger
+Version: 0.79.13-3
+Maintainer: Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>
+Uploaders: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: debhelper-compat (= 12), quilt, autopoint, dbus (>= 1.8), dos2unix, expect, libdbus-1-dev, libcurl4-nss-dev, libidn2-dev, libjansson-dev, libkrb5-dev, libldap2-dev, libnspr4-dev, libnss3-tools, libnss3-dev, libpopt-dev, libssl-dev, libsystemd-dev [linux-any], libtevent-dev, libxml2-dev, lsb-release, openssl, pkg-config, uuid-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 1.0
+Files:
+ f2668ba721d0c5c006a92326c7f1a1a4 2223 certmonger_0.79.13-3.dsc
+ 34d04e8fd072d8292b0e559e3f7cd53f 908256 certmonger_0.79.13.orig.tar.gz
+ e0d07eccb4e19abd7828534cf88e8c71 8004 certmonger_0.79.13-3.diff.gz
+Vcs-Browser: https://salsa.debian.org/freeipa-team/certmonger
+Vcs-Git: https://salsa.debian.org/freeipa-team/certmonger.git
+Checksums-Sha256:
+ d8fdb82419bed3926c0f994e7b30009b5d0176469d9b13ce4f8cf56a9548a479 2223 certmonger_0.79.13-3.dsc
+ 70cdfb266ef51a0bc9ea4f84dcc9cea1f8869d8f7eb846208489b3782bb53d75 908256 certmonger_0.79.13.orig.tar.gz
+ 1a642bb006a8ae096f4d4d7e26cd8fde60f5548db68332da9558f4b0235f831d 8004 certmonger_0.79.13-3.diff.gz
+Homepage: https://pagure.io/certmonger/
+Package-List: 
+ certmonger deb utils optional arch=any
+Directory: pool/main/c/certmonger
+Priority: source
+Section: utils

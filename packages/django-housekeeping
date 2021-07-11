@@ -1,0 +1,28 @@
+Package: django-housekeeping
+Binary: python3-django-housekeeping
+Version: 1.2-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Mattia Rizzolo <mattia@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python
+Build-Depends-Indep: dh-sequence-python3, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 11d1dfb1badcd9ddedae24b0676b166c 2189 django-housekeeping_1.2-2.dsc
+ 5823b69200cac3c9567bd2cefeeecfef 25393 django-housekeeping_1.2.orig.tar.gz
+ 57378cfbf2c74d95b17f4272c46ecade 2664 django-housekeeping_1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/django-housekeeping
+Vcs-Git: https://salsa.debian.org/python-team/packages/django-housekeeping.git
+Checksums-Sha256:
+ a70cffa4cfd1ff03542f88ec8de91cdfb7e538915964e954bebbd0464a8a50a9 2189 django-housekeeping_1.2-2.dsc
+ 926f8ec2c16a97df4f8ce5016b33c39d77f0bd7536df2f613cd080a973f84a0a 25393 django-housekeeping_1.2.orig.tar.gz
+ e8425eb3ca9bc13cd6c939d553bd4389997cf475ff1a844609b9995230da507d 2664 django-housekeeping_1.2-2.debian.tar.xz
+Homepage: https://github.com/spanezz/django-housekeeping
+Package-List: 
+ python3-django-housekeeping deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/d/django-housekeeping
+Priority: optional
+Section: misc

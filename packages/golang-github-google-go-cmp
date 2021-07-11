@@ -1,0 +1,27 @@
+Package: golang-github-google-go-cmp
+Binary: golang-github-google-go-cmp-dev
+Version: 0.5.4-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Arnaud Rebillout <arnaud.rebillout@collabora.com>, Martín Ferrari <tincho@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-xerrors-dev (>= 0.0~git20191204.9bdfabe~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a5224d86234f4ceee6b57d597495be7a 2389 golang-github-google-go-cmp_0.5.4-1.dsc
+ 19da951d846fd1f173f6e555d7e31ea6 101019 golang-github-google-go-cmp_0.5.4.orig.tar.gz
+ c5867aed0dcc72eae88936da70f11190 3456 golang-github-google-go-cmp_0.5.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-google-go-cmp
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-google-go-cmp.git
+Checksums-Sha256:
+ 56b796b437ec1a0bcafa54a710cb706baa9813ab7d0cd21e228b748e9276999f 2389 golang-github-google-go-cmp_0.5.4-1.dsc
+ 1e4a881d0bc4974107218d08834e2815f634a8bd9b76633fd30ace36d8a6c72b 101019 golang-github-google-go-cmp_0.5.4.orig.tar.gz
+ 6e23489336f92cabe5f2dd576e548ef9dd4675e5abc1fb6550a0cdf66973ccb0 3456 golang-github-google-go-cmp_0.5.4-1.debian.tar.xz
+Homepage: https://github.com/google/go-cmp
+Go-Import-Path: github.com/google/go-cmp
+Package-List: 
+ golang-github-google-go-cmp-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-google-go-cmp
+Priority: extra
+Section: golang

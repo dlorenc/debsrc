@@ -1,0 +1,28 @@
+Package: minilla
+Binary: minilla
+Version: 3.1.11-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: cpanminus <!nocheck>, dh-exec, dh-sequence-bash-completion, git <!nocheck>, libconfig-identity-perl <!nocheck>, libcpan-uploader-perl <!nocheck>, libdata-section-simple-perl <!nocheck>, libfile-copy-recursive-perl <!nocheck>, libfile-pushd-perl <!nocheck>, libfile-which-perl <!nocheck>, libjson-perl <!nocheck>, libmodule-cpanfile-perl <!nocheck>, libmodule-metadata-perl (>= 1.000027) <!nocheck>, libmodule-runtime-perl <!nocheck>, libmoo-perl <!nocheck>, libpod-markdown-perl <!nocheck>, libsoftware-license-perl <!nocheck>, libtest-harness-perl <!nocheck>, libtest-output-perl <!nocheck>, libtest-requires-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtext-microtemplate-perl <!nocheck>, libtoml-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>, libversion-next-perl <!nocheck>, libversion-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 225d10aaea6ba274088c5d8682c3d526 3100 minilla_3.1.11-1.dsc
+ d85d4c451c214f01eb2c649ac57a2d77 92284 minilla_3.1.11.orig.tar.gz
+ fff0751a6fe9d03843f0ea1b1b7c087c 2732 minilla_3.1.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/minilla
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/minilla.git
+Checksums-Sha256:
+ 06df8c6a68c6a9e7725e87d15dc7c6cf86b0cd6bebf49feef43db8d92ab79d54 3100 minilla_3.1.11-1.dsc
+ acc7caf2f6000918ffd09dd1ef3106e5a4bd1b08fc09aa0eabed178dcddff4b1 92284 minilla_3.1.11.orig.tar.gz
+ 9d69671ac66c41bad5b62f416b611fa363f35622783a753bb161230c5d890a9a 2732 minilla_3.1.11-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Minilla
+Dgit: 20d4ab9725175d6f9f51e37fa03906b1a351f95a debian archive/debian/3.1.11-1 https://git.dgit.debian.org/minilla
+Package-List: 
+ minilla deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/m/minilla
+Priority: extra
+Section: misc

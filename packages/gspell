@@ -1,0 +1,33 @@
+Package: gspell
+Binary: libgspell-1-2, libgspell-1-common, libgspell-1-dev, gir1.2-gspell-1, libgspell-1-doc, gspell-1-tests
+Version: 1.8.4-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Tanguy Ortolo <tanguy+debian@ortolo.eu>, Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
+Build-Depends: at-spi2-core <!nocheck>, dbus <!nocheck>, debhelper-compat (= 12), dh-sequence-gir, dh-sequence-gnome, iso-codes, libenchant-2-dev (>= 2.1.3), libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libgtk-3-dev (>= 3.20), valac, xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: gtk-doc-tools (>= 1.24-2) <!nodoc>, libglib2.0-doc <!nodoc>, libgtk-3-doc <!nodoc>, libgtksourceview-4-doc <!nodoc>, libpango1.0-doc <!nodoc>
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9814bde32576b8231ed69a4dce0bb933 2916 gspell_1.8.4-1.dsc
+ 378dee938c08c24b559953cbcad83942 424356 gspell_1.8.4.orig.tar.xz
+ 6deb92881c2affa8a468a54480de7802 8600 gspell_1.8.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gspell
+Vcs-Git: https://salsa.debian.org/gnome-team/gspell.git
+Checksums-Sha256:
+ af2e0973f0e039bf190d5df9b3e9851a30537b21807c99313d9e28f9c3a1e239 2916 gspell_1.8.4-1.dsc
+ cf4d16a716e813449bd631405dc1001ea89537b8cdae2b8abfb3999212bd43b4 424356 gspell_1.8.4.orig.tar.xz
+ c031ec6b1643e80be6c9df736671df80701a003e990f46c3d629a6809b806cbe 8600 gspell_1.8.4-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Projects/gspell
+Package-List: 
+ gir1.2-gspell-1 deb introspection optional arch=any
+ gspell-1-tests deb misc optional arch=any
+ libgspell-1-2 deb libs optional arch=any
+ libgspell-1-common deb libs optional arch=all
+ libgspell-1-dev deb libdevel optional arch=any
+ libgspell-1-doc deb doc optional arch=all profile=!nodoc
+Testsuite: autopkgtest
+Testsuite-Triggers: at-spi2-core, build-essential, dbus, gnome-desktop-testing, pkg-config, xauth, xvfb
+Directory: pool/main/g/gspell
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-chart-cairo
+Binary: libghc-chart-cairo-dev, libghc-chart-cairo-prof, libghc-chart-cairo-doc
+Version: 1.9.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-chart-dev (>= 1.9), libghc-chart-dev (<< 1.10), libghc-chart-prof, libghc-cairo-dev (>= 0.9.11), libghc-cairo-prof, libghc-colour-dev (<< 2.4), libghc-colour-dev (>= 2.2.1), libghc-colour-prof, libghc-data-default-class-dev (<< 0.2), libghc-data-default-class-prof, libghc-lens-dev (>= 3.9), libghc-lens-dev (<< 4.19), libghc-lens-prof, libghc-operational-dev (<< 0.3), libghc-operational-dev (>= 0.2.2), libghc-operational-prof
+Build-Depends-Indep: ghc-doc, libghc-cairo-doc, libghc-chart-doc, libghc-colour-doc, libghc-data-default-class-doc, libghc-lens-doc, libghc-operational-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c3d0c9cda2ac081f8d7e59015c186456 2936 haskell-chart-cairo_1.9.3-1.dsc
+ 3c4c6e6787e2f77155bca2f578c7df6e 4361 haskell-chart-cairo_1.9.3.orig.tar.gz
+ cdc54c28bce16708fa6373834053f052 2932 haskell-chart-cairo_1.9.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-chart-cairo
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-chart-cairo]
+Checksums-Sha256:
+ 0d0cacffca249a9eb41af3774076ad3cb87c4e20a32cfb39e9288f785e32e665 2936 haskell-chart-cairo_1.9.3-1.dsc
+ 6e9023d3ed3f41277c86644daf99922ab331fa6b8940528b9d53e94f15329532 4361 haskell-chart-cairo_1.9.3.orig.tar.gz
+ 3ab0c019c4884df5e08accf7f466918e959a5f1eaf4494159c8635b82f0ff9ce 2932 haskell-chart-cairo_1.9.3-1.debian.tar.xz
+Homepage: https://github.com/timbod7/haskell-chart/wiki
+Package-List: 
+ libghc-chart-cairo-dev deb haskell optional arch=any
+ libghc-chart-cairo-doc deb doc optional arch=all
+ libghc-chart-cairo-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-chart-cairo
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: libgisi
+Binary: libgisi0, libgisi-dev, libgisicomm0, libgisicomm-dev
+Version: 0.1.0-2
+Maintainer: Sebastian Reichel <sre@debian.org>
+Build-Depends: debhelper (>= 9~), dh-autoreconf, libglib2.0-dev (>= 2.18.0~), valac (>= 0.12.1)
+Architecture: linux-any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 4c2bc010161ba971700714906c119bef 2068 libgisi_0.1.0-2.dsc
+ c2366a650628d9166f52866681f9977d 390690 libgisi_0.1.0.orig.tar.bz2
+ 55a20456882fd4570ba0647f41758425 3972 libgisi_0.1.0-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-fso/libgisi.git/
+Vcs-Git: https://anonscm.debian.org/cgit/pkg-fso/libgisi.git/
+Checksums-Sha256:
+ c7a5828f7366c90c3bcba026b8799445d2d4f0c360f3b0522b58aecc8e54dda2 2068 libgisi_0.1.0-2.dsc
+ 66953ac8b2453bcd218df1fd051b2c759df4bcc71f2ec2c69fcba6c7874b197c 390690 libgisi_0.1.0.orig.tar.bz2
+ f4f26e4497c59d4e7afc50f7d7fc7950681bdc1ea791d9dd0b9d4cbfed83e307 3972 libgisi_0.1.0-2.debian.tar.xz
+Homepage: http://freesmartphone.org/
+Package-List: 
+ libgisi-dev deb libdevel extra arch=linux-any
+ libgisi0 deb libs extra arch=linux-any
+ libgisicomm-dev deb libdevel extra arch=linux-any
+ libgisicomm0 deb libs extra arch=linux-any
+Directory: pool/main/libg/libgisi
+Priority: optional
+Section: misc

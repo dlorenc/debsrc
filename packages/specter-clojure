@@ -1,0 +1,25 @@
+Package: specter-clojure
+Binary: libspecter-clojure
+Version: 1.0.2-2.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 10), javahelper (>= 0.32), maven-repo-helper (>= 1.7), clojure (>= 1.8), libriddley-clojure, libtext-markdown-perl | markdown, default-jdk
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ fcc137b906b554239821d5cf11594de8 2154 specter-clojure_1.0.2-2.1.dsc
+ fec8d59df73b623c0ce20b37a1720a91 54647 specter-clojure_1.0.2.orig.tar.gz
+ bf02b5fd3e2f8194f7aff16a4afc1cc8 3424 specter-clojure_1.0.2-2.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/specter-clojure.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/specter-clojure.git
+Checksums-Sha256:
+ 8c36449a06e2e43f7430184e31001c0a0e46fd02077e8a3ceae4fb0768a1bab0 2154 specter-clojure_1.0.2-2.1.dsc
+ 8cc21d6f01cd118bc533f36fa9684e8bf8154a9394b6858ac188d2c0ae94724e 54647 specter-clojure_1.0.2.orig.tar.gz
+ d97ebd7be86149f06625849918c4f3b9b8e6f018fc8d818f05bdde529200967f 3424 specter-clojure_1.0.2-2.1.debian.tar.xz
+Homepage: https://github.com/nathanmarz/specter
+Package-List: 
+ libspecter-clojure deb java optional arch=all
+Directory: pool/main/s/specter-clojure
+Priority: extra
+Section: misc

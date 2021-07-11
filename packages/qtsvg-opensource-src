@@ -1,0 +1,30 @@
+Package: qtsvg-opensource-src
+Binary: libqt5svg5, libqt5svg5-dev, qtsvg5-examples, qtsvg5-doc, qtsvg5-doc-html
+Version: 5.15.2-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Felix Geyer <fgeyer@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>
+Build-Depends: dbus, debhelper-compat (= 13), dpkg-dev (>= 1.17.14), libqt5opengl5-dev (>= 5.15.2+dfsg~), pkg-kde-tools (>= 0.15.17), qtbase5-dev (>= 5.15.2+dfsg~), qtbase5-private-dev (>= 5.15.2+dfsg~), zlib1g-dev
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>, qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 22262acaec0d73132c3dbae9f90e5190 2901 qtsvg-opensource-src_5.15.2-3.dsc
+ c0f5c1c2cc1b66e56ce4ef13a2b7093a 1886268 qtsvg-opensource-src_5.15.2.orig.tar.xz
+ 61b50e01610f40078a9342afbba68f33 12752 qtsvg-opensource-src_5.15.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtsvg/
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtsvg.git
+Checksums-Sha256:
+ 47a14b1a6896e396c8fcc72078180c3c00c5115f585f6dbdcaf70d64a9867d10 2901 qtsvg-opensource-src_5.15.2-3.dsc
+ 8bc3c2c1bc2671e9c67d4205589a8309b57903721ad14c60ea21a5d06acb585e 1886268 qtsvg-opensource-src_5.15.2.orig.tar.xz
+ ee83edb7bbfff52ce760668052159bbf8d39159aab43e7afc6fec7319235e96d 12752 qtsvg-opensource-src_5.15.2-3.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtsvg-index.html
+Package-List: 
+ libqt5svg5 deb libs optional arch=any
+ libqt5svg5-dev deb libdevel optional arch=any
+ qtsvg5-doc deb doc optional arch=all profile=!nodoc
+ qtsvg5-doc-html deb doc optional arch=all profile=!nodoc
+ qtsvg5-examples deb x11 optional arch=any
+Directory: pool/main/q/qtsvg-opensource-src
+Priority: source
+Section: misc

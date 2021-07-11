@@ -1,0 +1,28 @@
+Package: golang-github-gucumber-gucumber
+Binary: golang-github-gucumber-gucumber-dev, golang-github-lsegal-gucumber-dev, gucumber
+Version: 0.0~git20160715.0.71608e2-1.1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>, Martín Ferrari <tincho@debian.org>,
+Build-Depends: debhelper (>= 9), dh-golang (>= 1.10~), golang-any, golang-github-shiena-ansicolor-dev, golang-github-stretchr-testify-dev
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 6f018f356e386ca30e720e0566935682 2700 golang-github-gucumber-gucumber_0.0~git20160715.0.71608e2-1.1.dsc
+ 385264eb50f4aa1ddd4311a80cd819b1 15171 golang-github-gucumber-gucumber_0.0~git20160715.0.71608e2.orig.tar.gz
+ 6a73aed57a0febfd2c9b996cb1de738a 2772 golang-github-gucumber-gucumber_0.0~git20160715.0.71608e2-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-gucumber-gucumber.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-gucumber-gucumber.git
+Checksums-Sha256:
+ 3c8afe890be1a128cec708495d735940960cffcc8f37b1249f072f85890ebf11 2700 golang-github-gucumber-gucumber_0.0~git20160715.0.71608e2-1.1.dsc
+ 553c8ffe459bb9630bb332ff0e8949c1cfe3110afd1c854d1cd4a49f36102dc5 15171 golang-github-gucumber-gucumber_0.0~git20160715.0.71608e2.orig.tar.gz
+ d3ce303c17b3ec54513aacecc5b3ee0d5920393386d239023b7711e33c8ef9d4 2772 golang-github-gucumber-gucumber_0.0~git20160715.0.71608e2-1.1.debian.tar.xz
+Homepage: https://github.com/gucumber/gucumber
+Go-Import-Path: github.com/gucumber/gucumber
+Package-List: 
+ golang-github-gucumber-gucumber-dev deb devel extra arch=all
+ golang-github-lsegal-gucumber-dev deb oldlibs extra arch=all
+ gucumber deb devel extra arch=any
+Directory: pool/main/g/golang-github-gucumber-gucumber
+Priority: extra
+Section: golang

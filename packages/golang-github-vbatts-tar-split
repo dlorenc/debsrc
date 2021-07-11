@@ -1,0 +1,28 @@
+Package: golang-github-vbatts-tar-split
+Binary: tar-split, golang-github-vbatts-tar-split-dev
+Version: 0.11.1-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-sirupsen-logrus-dev, golang-github-urfave-cli-dev
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4a859ec2766fa4e91351f9ce2ae479de 2457 golang-github-vbatts-tar-split_0.11.1-2.dsc
+ 5cdc2c49c6e8eb36fdfd9067bdd895fe 64908 golang-github-vbatts-tar-split_0.11.1.orig.tar.xz
+ 82bc40a3303575103eae83fa221388cf 4672 golang-github-vbatts-tar-split_0.11.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-vbatts-tar-split
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-vbatts-tar-split.git
+Checksums-Sha256:
+ dc6aac9e1373847daef5012fb44fc6210d1f21e3ee85097bd88ae98e04457608 2457 golang-github-vbatts-tar-split_0.11.1-2.dsc
+ 43b37bcc7a3e3f955968bf417fe84a87beddb2121ce3351c02b59aa380fc831a 64908 golang-github-vbatts-tar-split_0.11.1.orig.tar.xz
+ 28feda1f8afe3959a9ec655e6676ece0bf29f8f376c8443b20a6f4205d1c5b82 4672 golang-github-vbatts-tar-split_0.11.1-2.debian.tar.xz
+Homepage: https://github.com/vbatts/tar-split
+Go-Import-Path: github.com/vbatts/tar-split
+Package-List: 
+ golang-github-vbatts-tar-split-dev deb devel optional arch=all
+ tar-split deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-vbatts-tar-split
+Priority: extra
+Section: golang

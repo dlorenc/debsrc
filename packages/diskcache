@@ -1,0 +1,26 @@
+Package: diskcache
+Binary: python3-diskcache
+Version: 5.2.1-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, tox <!nocheck>, python3-django <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-pytest-django <!nocheck>, python3-pytest-xdist <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 47d2a9f3772d2fecd10cc18e3788db0b 2256 diskcache_5.2.1-2.dsc
+ 078d678c27a54b6a0719e458b65d777e 652769 diskcache_5.2.1.orig.tar.gz
+ 3bbe831cdaa8b65325c82ace22c11605 1928 diskcache_5.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/diskcache
+Vcs-Git: https://salsa.debian.org/python-team/packages/diskcache.git
+Checksums-Sha256:
+ eb2d704bcf7ff7e247738277ecf24798b60c67f67b16c9889bbf49f19505ef22 2256 diskcache_5.2.1-2.dsc
+ 05bd57edfaf7763b1b90d497bbef848347ef617a1ec71e733e0a4fa10be97612 652769 diskcache_5.2.1.orig.tar.gz
+ 7589c1160fb9b25b24d6f0aaada29c39eb4db3c319e4b09b212e1eba4c54c17b 1928 diskcache_5.2.1-2.debian.tar.xz
+Homepage: https://pypi.org/project/diskcache/
+Package-List: 
+ python3-diskcache deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/d/diskcache
+Priority: extra
+Section: misc

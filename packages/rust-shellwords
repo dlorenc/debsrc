@@ -1,0 +1,25 @@
+Package: rust-shellwords
+Binary: librust-shellwords-dev
+Version: 1.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lazy-static-1+default-dev (>= 1.1.0-~~) <!nocheck>, librust-regex-1+default-dev (>= 1.0.5-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 2f1c7f01a540512fdf819ecfc1ceeaa6 2237 rust-shellwords_1.0.0-1.dsc
+ c6c016571c221746fe53e53608cfdc29 3901 rust-shellwords_1.0.0.orig.tar.gz
+ 0c8482735ffaae071609e4800118d983 2352 rust-shellwords_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/shellwords
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/shellwords]
+Checksums-Sha256:
+ 014bcf629012042b97f8fb2e29a347329893c4c6e5362a928847dde624403dd7 2237 rust-shellwords_1.0.0-1.dsc
+ 685f0e9b0efe23d26e60a780d8dcd3ac95e90975814de9bc6f48e5d609b5d0f5 3901 rust-shellwords_1.0.0.orig.tar.gz
+ 13195ce7188fb5d945d5bc2f9e74c23a2b1ad19b9fad8da7852ce95215fd84b9 2352 rust-shellwords_1.0.0-1.debian.tar.xz
+Homepage: https://github.com/jimmycuadra/rust-shellwords
+Package-List: 
+ librust-shellwords-dev deb rust optional arch=any
+Directory: pool/main/r/rust-shellwords
+Priority: extra
+Section: misc

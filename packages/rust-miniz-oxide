@@ -1,0 +1,27 @@
+Package: rust-miniz-oxide
+Binary: librust-miniz-oxide-dev
+Version: 0.3.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-adler32-1+default-dev (>= 1.0.4-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 444cc532e45db404910746aee52dafe3 2273 rust-miniz-oxide_0.3.6-1.dsc
+ 6ad7c30338903afc3521369ecd826cfb 44717 rust-miniz-oxide_0.3.6.orig.tar.gz
+ f08cfa8d0d38aa0d05cea4ba53fa34a0 2636 rust-miniz-oxide_0.3.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/miniz-oxide
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/miniz-oxide]
+Checksums-Sha256:
+ 97a019b26436ad3960891f03c2e62bb1d3aca2dfad3c19e2035e314fe6ee9cb1 2273 rust-miniz-oxide_0.3.6-1.dsc
+ aa679ff6578b1cddee93d7e82e263b94a575e0bfced07284eb0c037c1d2416a5 44717 rust-miniz-oxide_0.3.6.orig.tar.gz
+ ecbdbb0de6e44b14f395e103c7615ccd8fd0e0f2c30eadeeb3dd736bab43219f 2636 rust-miniz-oxide_0.3.6-1.debian.tar.xz
+Homepage: https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide
+Package-List: 
+ librust-miniz-oxide-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-miniz-oxide
+Priority: extra
+Section: misc

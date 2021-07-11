@@ -1,0 +1,28 @@
+Package: node-lunr
+Binary: libjs-lunr, node-lunr
+Version: 2.3.8~dfsg-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: node-chai (>= 4) <!nocheck>, debhelper-compat (= 13), mocha <!nocheck>, node-source-map, uglifyjs.terser, pandoc
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 698692f556f8525fcaba8058440c423b 2150 node-lunr_2.3.8~dfsg-2.dsc
+ a91f2c90390e9c70bc78286483b1bfba 46452 node-lunr_2.3.8~dfsg.orig.tar.xz
+ b9705a946ed6844653fc1d9a76df2de8 6784 node-lunr_2.3.8~dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-lunr
+Vcs-Git: https://salsa.debian.org/js-team/node-lunr.git
+Checksums-Sha256:
+ 9997123375d9e3f82b659c5a8846f2c2315d1ab419686f85e8674fb8b166a136 2150 node-lunr_2.3.8~dfsg-2.dsc
+ fdc8741c2e9f100b5caaefe07e0fb877e74ded478100cec2016ed1309008c3cc 46452 node-lunr_2.3.8~dfsg.orig.tar.xz
+ c30d0f3df6698ec596f240c9adc45c1fa864e9aad5e83a32b7414555be69a766 6784 node-lunr_2.3.8~dfsg-2.debian.tar.xz
+Homepage: https://lunrjs.com/
+Package-List: 
+ libjs-lunr deb javascript optional arch=all
+ node-lunr deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha, node-chai
+Directory: pool/main/n/node-lunr
+Priority: extra
+Section: misc

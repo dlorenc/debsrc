@@ -1,0 +1,26 @@
+Package: haskell-text-format
+Binary: libghc-text-format-dev, libghc-text-format-prof, libghc-text-format-doc
+Version: 0.3.2-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-double-conversion-dev (>= 0.2.0.0), libghc-double-conversion-prof (>= 0.2.0.0), libghc-old-locale-dev, libghc-old-locale-prof
+Build-Depends-Indep: ghc-doc, libghc-double-conversion-doc, libghc-old-locale-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 88c0088d59da365677e4ee957655ebe9 2381 haskell-text-format_0.3.2-4.dsc
+ 84214337de0e56be72a57dcb18f7ed99 9624 haskell-text-format_0.3.2.orig.tar.gz
+ 9a81e4629812703c07c0d9a4a0e16bfa 2680 haskell-text-format_0.3.2-4.debian.tar.xz
+Checksums-Sha256:
+ 8e3c404bed4439817fec9d84a3088fde725791933f6b3d85f4a2f780a13b8156 2381 haskell-text-format_0.3.2-4.dsc
+ 326637b8ad8420a51c0531cb444e45e0029d68c5980a53d5ffdfa2297d47bae3 9624 haskell-text-format_0.3.2.orig.tar.gz
+ 83e782adce36a663fc192be2bb5a1fec82d781fbd9705eabdf4820a867d1e5a9 2680 haskell-text-format_0.3.2-4.debian.tar.xz
+Homepage: https://github.com/bos/text-format
+Package-List: 
+ libghc-text-format-dev deb haskell optional arch=any
+ libghc-text-format-doc deb doc optional arch=all
+ libghc-text-format-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-text-format
+Priority: extra
+Section: misc

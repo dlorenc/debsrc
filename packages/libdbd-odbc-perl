@@ -1,0 +1,27 @@
+Package: libdbd-odbc-perl
+Binary: libdbd-odbc-perl
+Version: 1.61-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12), libdbi-perl, libsqliteodbc, perl-xs-dev, perl:native, unixodbc-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ be6e8d9f9e0b09b7bbaa23b616919897 2446 libdbd-odbc-perl_1.61-1.dsc
+ 274f7a8f1436a421ae4955da674f8a79 283251 libdbd-odbc-perl_1.61.orig.tar.gz
+ 07333e68ad78bd44a34ac2fc85a7285f 9648 libdbd-odbc-perl_1.61-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdbd-odbc-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdbd-odbc-perl.git
+Checksums-Sha256:
+ 182b7b6d623801988bd6e2ef0b15fab72edd654ca097ce645484b0cc32bda241 2446 libdbd-odbc-perl_1.61-1.dsc
+ 96def438c9610d72d0e24d007ea0eacd0059b5203c17eadb623bdea22fa9f40a 283251 libdbd-odbc-perl_1.61.orig.tar.gz
+ 0afdbcc6569d91871324f0f4e83a87363591b561270b7758c128dd3520394960 9648 libdbd-odbc-perl_1.61-1.debian.tar.xz
+Homepage: https://metacpan.org/release/DBD-ODBC
+Dgit: fb9f1db6d52db9f8bcbf28cdae6234d2d3404197 debian archive/debian/1.61-1 https://git.dgit.debian.org/libdbd-odbc-perl
+Package-List: 
+ libdbd-odbc-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdbd-odbc-perl
+Priority: source
+Section: perl

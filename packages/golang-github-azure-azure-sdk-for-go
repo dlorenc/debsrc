@@ -1,0 +1,27 @@
+Package: golang-github-azure-azure-sdk-for-go
+Binary: golang-github-azure-azure-sdk-for-go-dev
+Version: 43.3.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Martín Ferrari <tincho@debian.org>, Tianon Gravi <tianon@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-azure-go-autorest-dev (>= 14.1.1~), golang-github-dnaeon-go-vcr-dev, golang-github-satori-go.uuid-dev, golang-github-shopspring-decimal-dev, golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 92ba8b0518ca6ea6ee73dfb4b8ebe94d 1988 golang-github-azure-azure-sdk-for-go_43.3.0-1.dsc
+ e3b5f178bc076dd3aa42d4272fbada77 25705495 golang-github-azure-azure-sdk-for-go_43.3.0.orig.tar.gz
+ ec55f16dc1a1329216a70e986d4c8b5f 3540 golang-github-azure-azure-sdk-for-go_43.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-azure-azure-sdk-for-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-azure-azure-sdk-for-go.git
+Checksums-Sha256:
+ 9f2f0ffeddc45adcf6e488772fdf14d3fa700f2f8e32b852707b6ff8f4b61cb7 1988 golang-github-azure-azure-sdk-for-go_43.3.0-1.dsc
+ 267c068ab5ace737eb38fcf6c6a33092a96ad4dd8f73ff136f4f73f681f701fb 25705495 golang-github-azure-azure-sdk-for-go_43.3.0.orig.tar.gz
+ 33f47fe7f54ae3c582c5af697267a172fee72ea197bcbb10f6a24be935395611 3540 golang-github-azure-azure-sdk-for-go_43.3.0-1.debian.tar.xz
+Homepage: https://github.com/Azure/azure-sdk-for-go
+Go-Import-Path: github.com/Azure/azure-sdk-for-go
+Package-List: 
+ golang-github-azure-azure-sdk-for-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-azure-azure-sdk-for-go
+Priority: extra
+Section: golang

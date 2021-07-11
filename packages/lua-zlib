@@ -1,0 +1,26 @@
+Package: lua-zlib
+Binary: lua-zlib, lua-zlib-dev
+Version: 1.2-2
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Uploaders: Sergei Golovan <sgolovan@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-lua, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 42cf2684f081033ee58be215955d268a 1952 lua-zlib_1.2-2.dsc
+ e6e550384eac5571f5ed6efa1ffe73f1 16573 lua-zlib_1.2.orig.tar.gz
+ c5d4bff87a9baa8ef8fc3eea7eb11a11 3088 lua-zlib_1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lua-team/lua-zlib
+Vcs-Git: https://salsa.debian.org/lua-team/lua-zlib.git
+Checksums-Sha256:
+ cb7e9b3fb3538e236fe2751ce9e749636f8a2fc29353c0ddbfa60efac110cd1e 1952 lua-zlib_1.2-2.dsc
+ 9539fac7825e91e5b55ab108d2b8fe7b57bc8cf99d24320a9bcd6102cb9693b1 16573 lua-zlib_1.2.orig.tar.gz
+ e60dbfb539b29b94c3ac46127b3ffc6b43717dce8ac179418bed99aba4eaab3f 3088 lua-zlib_1.2-2.debian.tar.xz
+Homepage: http://github.com/brimworks/lua-zlib
+Package-List: 
+ lua-zlib deb interpreters optional arch=any
+ lua-zlib-dev deb libdevel optional arch=any
+Directory: pool/main/l/lua-zlib
+Priority: source
+Section: interpreters

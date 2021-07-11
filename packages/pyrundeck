@@ -1,0 +1,26 @@
+Package: pyrundeck
+Binary: python3-pyrundeck
+Version: 0.9.10-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Benjamin Drung <benjamin.drung@cloud.ionos.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-requests, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b8d466c0f029c0199cd364729c2a15fb 2044 pyrundeck_0.9.10-1.dsc
+ a275071888a7c94ba2367a6a8fc833b7 3845 pyrundeck_0.9.10.orig.tar.gz
+ e9fe0f872662045083c2ebc924c8323c 1776 pyrundeck_0.9.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyrundeck
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyrundeck.git
+Checksums-Sha256:
+ ebc6415b3e3448128ed6a694b5dcb808b380fa64839413bb585316ca792310e4 2044 pyrundeck_0.9.10-1.dsc
+ 7561f14182487c7be1725d6b676472847e1bc25ab17e0bf1f64b10e32a668b3a 3845 pyrundeck_0.9.10.orig.tar.gz
+ 2e115ee68589f8e631b29d4dbd2c61b5d41f336a13311ca7413bdf7ad6da6751 1776 pyrundeck_0.9.10-1.debian.tar.xz
+Homepage: https://github.com/pschmitt/pyrundeck
+Package-List: 
+ python3-pyrundeck deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/pyrundeck
+Priority: extra
+Section: misc

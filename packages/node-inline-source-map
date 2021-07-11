@@ -1,0 +1,27 @@
+Package: node-inline-source-map
+Binary: node-inline-source-map
+Version: 0.6.2~git-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rosco2@ubuntu.com>
+Build-Depends: debhelper (>= 11), dh-buildinfo, nodejs (>= 8), dpkg-dev (>= 1.17.14), node-tap (>= 0.7.0) <!nocheck>, node-source-map (>= 0.5.3) <!nocheck>
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 4321e98d7f0876c9c8c2313d830fc737 2279 node-inline-source-map_0.6.2~git-3.dsc
+ a1212c617adfc3c39eb93af414a0442d 5328 node-inline-source-map_0.6.2~git.orig.tar.xz
+ e9376175287f6bd75fcd4672d8b3a2a9 5880 node-inline-source-map_0.6.2~git-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-inline-source-map
+Vcs-Git: https://salsa.debian.org/js-team/node-inline-source-map.git
+Checksums-Sha256:
+ 344ff92fa84ed04806c21eff12485db83cb0e815c3c9f9f1c8d3f6c42217855d 2279 node-inline-source-map_0.6.2~git-3.dsc
+ 7b338046e389ae417455f0b2e6e022594650410f140b84d4e2c31da99dd2c47b 5328 node-inline-source-map_0.6.2~git.orig.tar.xz
+ 51c9e37261f0db93b3a1e578618395c06f15175652d11014bf097b46212caeae 5880 node-inline-source-map_0.6.2~git-3.debian.tar.xz
+Homepage: https://github.com/thlorenz/inline-source-map
+Package-List: 
+ node-inline-source-map deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tap, nodejs
+Directory: pool/main/n/node-inline-source-map
+Priority: optional
+Section: javascript

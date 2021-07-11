@@ -1,0 +1,26 @@
+Package: rust-pam-sys
+Binary: librust-pam-sys-dev
+Version: 0.5.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Fabian Grünbichler <f.gruenbichler@proxmox.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.39-~~) <!nocheck>, libpam-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 75879a2a59f64d8064a2587d55f6a3a9 2196 rust-pam-sys_0.5.6-1.dsc
+ 1a61e05436ba382ed378ec9cf100fea2 12738 rust-pam-sys_0.5.6.orig.tar.gz
+ b83064948cb7b924dbb4e1a38639364a 2652 rust-pam-sys_0.5.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pam-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pam-sys]
+Checksums-Sha256:
+ 21208a668e27ec0be20b387af71ad6d9f9dad74f17734d645c71a1aa1caeec4c 2196 rust-pam-sys_0.5.6-1.dsc
+ cd4858311a097f01a0006ef7d0cd50bca81ec430c949d7bf95cbefd202282434 12738 rust-pam-sys_0.5.6.orig.tar.gz
+ 934467e6c455be87ea82d6c692a88eecce8039502c6b5459cb1138a77a814509 2652 rust-pam-sys_0.5.6-1.debian.tar.xz
+Package-List: 
+ librust-pam-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-pam-sys
+Priority: extra
+Section: misc

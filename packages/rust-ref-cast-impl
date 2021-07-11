@@ -1,0 +1,26 @@
+Package: rust-ref-cast-impl
+Binary: librust-ref-cast-impl-dev
+Version: 1.0.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Henry-Nicolas Tourneur <debian@nilux.be>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 131ab6d228ea19b2a9f2b601dacb0c6a 2296 rust-ref-cast-impl_1.0.3-1.dsc
+ f8cab51d35b2b162f4754ab05ac78b81 7089 rust-ref-cast-impl_1.0.3.orig.tar.gz
+ 7c732a8b4e21e1b0808ebe2e603f12b2 2600 rust-ref-cast-impl_1.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ref-cast-impl
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ref-cast-impl]
+Checksums-Sha256:
+ 1d84a250cd11317dc2a8d85b92f4c745af962c3cdad38b59c79ac2c3cb93567a 2296 rust-ref-cast-impl_1.0.3-1.dsc
+ 0c523ccaed8ac4b0288948849a350b37d3035827413c458b6a40ddb614bb4f72 7089 rust-ref-cast-impl_1.0.3.orig.tar.gz
+ c01f51ecb4e4c839af9d4d5ab140ea63cf10a55d82bd03261f45372a68dd1447 2600 rust-ref-cast-impl_1.0.3-1.debian.tar.xz
+Package-List: 
+ librust-ref-cast-impl-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-ref-cast-impl
+Priority: extra
+Section: misc

@@ -1,0 +1,24 @@
+Package: kernel-wedge
+Binary: kernel-wedge
+Version: 2.104
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Steve Langasek <vorlon@debian.org>, Ben Hutchings <benh@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (native)
+Files:
+ ce10f5ddfcf68920929751e3283c6d28 1717 kernel-wedge_2.104.dsc
+ 6b9fd80723a8bcbc57b7d9fd0c04b17c 38672 kernel-wedge_2.104.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/kernel-wedge
+Vcs-Git: https://salsa.debian.org/installer-team/kernel-wedge.git
+Checksums-Sha256:
+ 038a710e04d2a0809a13d0d1f0ff1253bedca7acb28187e6b0e336f5e089ea4c 1717 kernel-wedge_2.104.dsc
+ 0b20606fd9daa379767dc57f44b1576ca5f34d73f6d99841335aec3a0af0f1c7 38672 kernel-wedge_2.104.tar.xz
+Package-List: 
+ kernel-wedge deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: diffutils, gcc
+Directory: pool/main/k/kernel-wedge
+Priority: source
+Section: utils

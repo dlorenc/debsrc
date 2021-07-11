@@ -1,0 +1,31 @@
+Package: installation-guide
+Binary: installation-guide-amd64, installation-guide-arm64, installation-guide-armel, installation-guide-armhf, installation-guide-i386, installation-guide-mips64el, installation-guide-mipsel, installation-guide-ppc64el, installation-guide-s390x
+Version: 20210305
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: docbook, docbook-xml, docbook-xsl, xsltproc, gawk, libhtml-parser-perl, w3m, poxml, dblatex, docbook-dsssl, ghostscript, texlive-xetex, lmodern, texlive-lang-chinese, texlive-lang-cyrillic, texlive-lang-czechslovak, texlive-lang-european, texlive-lang-french, texlive-lang-german, texlive-lang-greek, texlive-lang-italian, texlive-lang-korean, texlive-lang-other, texlive-lang-portuguese, texlive-lang-spanish, fonts-wqy-microhei, fonts-vlgothic, fonts-noto-cjk, fonts-freefont-ttf
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ a2c1be5024cf280401cac8ca9b20c1ca 2843 installation-guide_20210305.dsc
+ f182cc2920d34973bba5ed1a4eee045e 3745928 installation-guide_20210305.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/installation-guide
+Vcs-Git: https://salsa.debian.org/installer-team/installation-guide.git
+Checksums-Sha256:
+ ef505b23f0f51ad26710d71ce83c1f827335ace76d603b8ee28fd5f691ea4f64 2843 installation-guide_20210305.dsc
+ ddecb55617a53f59856125b33c6fda5a405f0de4b87c06355b598b5689dded09 3745928 installation-guide_20210305.tar.xz
+Package-List: 
+ installation-guide-amd64 deb doc optional arch=all
+ installation-guide-arm64 deb doc optional arch=all
+ installation-guide-armel deb doc optional arch=all
+ installation-guide-armhf deb doc optional arch=all
+ installation-guide-i386 deb doc optional arch=all
+ installation-guide-mips64el deb doc optional arch=all
+ installation-guide-mipsel deb doc optional arch=all
+ installation-guide-ppc64el deb doc optional arch=all
+ installation-guide-s390x deb doc optional arch=all
+Directory: pool/main/i/installation-guide
+Priority: source
+Section: doc

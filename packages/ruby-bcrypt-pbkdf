@@ -1,0 +1,27 @@
+Package: ruby-bcrypt-pbkdf
+Binary: ruby-bcrypt-pbkdf
+Version: 1.1.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1.0~), rake, rake-compiler, ruby-minitest
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 623d2f8aada87c2261cb47edfbdf6992 2121 ruby-bcrypt-pbkdf_1.1.0-1.dsc
+ fe159ea719d4d7be4b7c76f4817f7f83 20303 ruby-bcrypt-pbkdf_1.1.0.orig.tar.gz
+ 059a1263065754c3a64aa03a06f77f4c 3564 ruby-bcrypt-pbkdf_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-bcrypt-pbkdf
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-bcrypt-pbkdf.git
+Checksums-Sha256:
+ cffc6f9b40cda9fe976bbe8df77339fcf0cae559493901b89e93f745e05b6d85 2121 ruby-bcrypt-pbkdf_1.1.0-1.dsc
+ b6380058ffc93bd48829c3e9b8d697c56ea86b8b1a5e2cf92d5fdd45551bb256 20303 ruby-bcrypt-pbkdf_1.1.0.orig.tar.gz
+ ee4426aeaaf1e643e667860a0accefc238a6e200473cd02ebd62f4c7ddd8bcae 3564 ruby-bcrypt-pbkdf_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/net-ssh/bcrypt_pbkdf-ruby
+Package-List: 
+ ruby-bcrypt-pbkdf deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-bcrypt-pbkdf
+Priority: extra
+Section: misc

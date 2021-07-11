@@ -1,0 +1,27 @@
+Package: python-cmarkgfm
+Binary: python3-cmarkgfm
+Version: 0.4.2-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Nicolas Dandrimont <olasd@debian.org>
+Build-Depends: debhelper (>= 11~), dh-python (>= 3~), python3-all-dev, python3-cffi, python3-pytest, python3-setuptools
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 8156ed033760fc861039beb53053b996 2168 python-cmarkgfm_0.4.2-1.dsc
+ fbdfc8c9b9e46ed4cbf683c9803c9b42 133264 python-cmarkgfm_0.4.2.orig.tar.gz
+ 2bd3a9af0d0451db8b0c029f9f72752b 2836 python-cmarkgfm_0.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-cmarkgfm
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-cmarkgfm
+Checksums-Sha256:
+ b016eb46619ed1c40de902c2bb6180d72363462e2d03ff5913d32a57c2036fb1 2168 python-cmarkgfm_0.4.2-1.dsc
+ f20900f16377f2109783ae9348d34bc80530808439591c3d3df73d5c7ef1a00c 133264 python-cmarkgfm_0.4.2.orig.tar.gz
+ 11523ad222bdccc450f8c74ddbd203fbd3988f5326d9b1edddaebc1da3d05700 2836 python-cmarkgfm_0.4.2-1.debian.tar.xz
+Homepage: https://github.com/jonparrott/cmarkgfm
+Package-List: 
+ python3-cmarkgfm deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-cmarkgfm
+Priority: extra
+Section: misc

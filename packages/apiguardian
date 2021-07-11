@@ -1,0 +1,25 @@
+Package: apiguardian
+Binary: libapiguardian-java
+Version: 1.1.0-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, gradle-debian-helper, maven-repo-helper
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b20d0850b72890119d7c2e8245303c8f 2171 apiguardian_1.1.0-2.dsc
+ 00739de61878d11d2413c84504e547d9 9788 apiguardian_1.1.0.orig.tar.xz
+ 6e93129f3093e0b596fa2b33c17d688e 2040 apiguardian_1.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/apiguardian
+Vcs-Git: https://salsa.debian.org/java-team/apiguardian.git
+Checksums-Sha256:
+ 628252b4e6c9efc1a6a25c2695e86370332af82874857b3c079ae00738d7b933 2171 apiguardian_1.1.0-2.dsc
+ c3cb62b6c844785f455da77fd59940aeb4065afe5e487772b9c2267f0717ec5e 9788 apiguardian_1.1.0.orig.tar.xz
+ 1f4b3db1be4fcb177e3af6d0a30e8eb250cdfe34b9ce5b1c2b0c5f3110abbe77 2040 apiguardian_1.1.0-2.debian.tar.xz
+Homepage: https://github.com/apiguardian-team/apiguardian
+Package-List: 
+ libapiguardian-java deb java optional arch=all
+Directory: pool/main/a/apiguardian
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: libstdc++-arm-none-eabi
+Binary: libstdc++-arm-none-eabi-newlib
+Version: 13
+Maintainer: Agustin Henze <tin@debian.org>
+Uploaders: Thomas Preud'homme <thomas.preudhomme@arm.com>
+Build-Depends: autotools-dev, binutils-arm-none-eabi, gcc-arm-none-eabi, gcc-arm-none-eabi-source, libnewlib-arm-none-eabi, bison, debhelper (>= 9), dejagnu, flex, gawk, gettext, libgmp-dev, libmpc-dev, libmpfr-dev, libtool, locales, lsb-release, lzma, m4, patchutils, sharutils, texinfo, xz-utils, zlib1g-dev, rename
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (native)
+Files:
+ b747f8369e209281e80f5262e3a0b066 2066 libstdc++-arm-none-eabi_13.dsc
+ 3829a94f6140449046fb06cf802e1a0c 3844 libstdc++-arm-none-eabi_13.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libstdcxx_arm_none_eabi_newlib
+Vcs-Git: https://salsa.debian.org/debian/libstdcxx_arm_none_eabi_newlib.git
+Checksums-Sha256:
+ ff1f0151b505dda65618b4ce8ef597f42a42d582d4827a31e7ecf0a2044629b6 2066 libstdc++-arm-none-eabi_13.dsc
+ 41ccfdd1a2196d4ed401570dbf455b11287162e41d94f16aa3ec1d11f55f8d98 3844 libstdc++-arm-none-eabi_13.tar.xz
+Homepage: http://gcc.gnu.org/
+Package-List: 
+ libstdc++-arm-none-eabi-newlib deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc-arm-none-eabi
+Directory: pool/main/libs/libstdc++-arm-none-eabi
+Priority: optional
+Section: misc

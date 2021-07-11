@@ -1,0 +1,25 @@
+Package: libapreq2
+Binary: libapache2-mod-apreq2, libapreq2-3, libapreq2-dev, libapreq2-doc, libapache2-request-perl
+Version: 2.13-7
+Maintainer: Steinar H. Gunderson <sesse@debian.org>
+Build-Depends: debhelper (>= 9), apache2-dev (>= 2.0.50-10), dh-apache2, libapr1-dev, libextutils-xsbuilder-perl, perl (>= 5.8.0-7), libapache2-mod-perl2 (>= 2.0.2-2.1), libapache2-mod-perl2-dev, dpkg-dev (>= 1.16.1~), autotools-dev
+Architecture: any all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 7f2859fd3700a66b67ebb37bdfe42d35 2144 libapreq2_2.13-7.dsc
+ c11fb0861aa84dcc6cd0f0798b045eee 891320 libapreq2_2.13.orig.tar.gz
+ 55146f8af84f591434529684a9a7306a 8940 libapreq2_2.13-7.debian.tar.xz
+Checksums-Sha256:
+ 7252443adb36964a51ebf4bedf8e47f279a55189b3e2fcd9215f086f6f8a4047 2144 libapreq2_2.13-7.dsc
+ 5731e6833b32d88e4a5c690e45ddf20fcf969ce3da666c5627d775e92da0cf6e 891320 libapreq2_2.13.orig.tar.gz
+ 14674ec33aaf9680f45698f19c6dd672f4bced3f7795a85eb137b0c4b577adf8 8940 libapreq2_2.13-7.debian.tar.xz
+Package-List: 
+ libapache2-mod-apreq2 deb web optional arch=any
+ libapache2-request-perl deb perl optional arch=any
+ libapreq2-3 deb libs optional arch=any
+ libapreq2-dev deb libdevel optional arch=any
+ libapreq2-doc deb doc optional arch=all
+Directory: pool/main/liba/libapreq2
+Priority: source
+Section: libs

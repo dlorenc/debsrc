@@ -1,0 +1,30 @@
+Package: rust-tabwriter
+Binary: librust-tabwriter-dev, librust-tabwriter+ansi-formatting-dev, librust-tabwriter+lazy-static-dev, librust-tabwriter+regex-dev
+Version: 1.2.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Matt Kraai <kraai@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-unicode-width-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 70efbe7639151c2b0d0100dcbb569977 1899 rust-tabwriter_1.2.1-1.dsc
+ 0bfeae632cdc26bf308ee1272abcf584 9320 rust-tabwriter_1.2.1.orig.tar.gz
+ 5ea294d023197a8baf1d604493ca60c9 3148 rust-tabwriter_1.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tabwriter
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tabwriter]
+Checksums-Sha256:
+ bee45e1136d8e34120bf83ab8d148c520ef26ad2a9f70cac80680eaae9a489cc 1899 rust-tabwriter_1.2.1-1.dsc
+ 36205cfc997faadcc4b0b87aaef3fbedafe20d38d4959a7ca6ff803564051111 9320 rust-tabwriter_1.2.1.orig.tar.gz
+ 9677b582969c3517ea7fee100dea8955c6ecd59a752065c2f951c2c74e826427 3148 rust-tabwriter_1.2.1-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/tabwriter
+Package-List: 
+ librust-tabwriter+ansi-formatting-dev deb rust optional arch=any
+ librust-tabwriter+lazy-static-dev deb rust optional arch=any
+ librust-tabwriter+regex-dev deb rust optional arch=any
+ librust-tabwriter-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-tabwriter
+Priority: extra
+Section: misc

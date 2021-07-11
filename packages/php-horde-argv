@@ -1,0 +1,27 @@
+Package: php-horde-argv
+Binary: php-horde-argv
+Version: 2.1.0-7
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e66989f9a3c032bf62448675fa96b439 2120 php-horde-argv_2.1.0-7.dsc
+ 592af798d74680f2112db2ed93fa6155 64636 php-horde-argv_2.1.0.orig.tar.gz
+ 0777215246b6acf7d1a0648fa8ea46ea 5512 php-horde-argv_2.1.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-argv
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-argv.git
+Checksums-Sha256:
+ 4afffa951ef5da77271323b92da8aee12c30e3e5d5a8b81877f356f7a86de673 2120 php-horde-argv_2.1.0-7.dsc
+ f2a7c6ded596083e47ad75952d1611dad8033387f6d3a602ecb43dddf6a2892c 64636 php-horde-argv_2.1.0.orig.tar.gz
+ 7ca29f859abecbea4199c9105ad5f010d541c395b8c1a3f3ccec54f3815a4720 5512 php-horde-argv_2.1.0-7.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-argv deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-argv
+Priority: extra
+Section: misc

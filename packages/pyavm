@@ -1,0 +1,26 @@
+Package: pyavm
+Binary: python3-pyavm
+Version: 0.9.4-7
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-pytest (>= 2.6.0), python3-pil (>= 3.0.0), python3-numpy (>= 1.1.8.2), python3-astropy (>= 0.4.1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6c66a1831d7fbf77f06feb8d99d6fe50 2115 pyavm_0.9.4-7.dsc
+ 6c044d9ce6e8f44e76178e31125389b9 220986 pyavm_0.9.4.orig.tar.gz
+ 7b1ba612a214f1decd43a471ec8cda20 4196 pyavm_0.9.4-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/pyavm
+Vcs-Git: https://salsa.debian.org/debian-astro-team/pyavm.git
+Checksums-Sha256:
+ b1e2091e71746e8d38e6a9ec5718fdcafff44b08bf1d1b93c5574011ce1fc2fa 2115 pyavm_0.9.4-7.dsc
+ 503f9d7e22599c74dd22078e9de8f230f4ffbeb56a9720c1b17b355bff32b324 220986 pyavm_0.9.4.orig.tar.gz
+ 12251b415e7cdad469bba237fde700df32ee51168ef2adca15da0af91f1ba9da 4196 pyavm_0.9.4-7.debian.tar.xz
+Homepage: https://astrofrog.github.io/pyavm
+Package-List: 
+ python3-pyavm deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/pyavm
+Priority: optional
+Section: misc

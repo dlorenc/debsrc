@@ -1,0 +1,26 @@
+Package: node-d3-geo
+Binary: node-d3-geo
+Version: 1.11.9-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>,
+Build-Depends: debhelper-compat (= 13), node-d3-array, nodejs, dh-sequence-nodejs, rollup, node-rollup-plugin-terser, node-tape (>= 4.11~) <!nocheck>, node-babel7 <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 71dc48dd76184a017e80c3905972bf34 2128 node-d3-geo_1.11.9-4.dsc
+ 740caa494b192164fbc5b351180ac545 3019282 node-d3-geo_1.11.9.orig.tar.gz
+ ab41005f79099636950d1023be8331dd 267516 node-d3-geo_1.11.9-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-d3-geo
+Vcs-Git: https://salsa.debian.org/js-team/node-d3-geo.git
+Checksums-Sha256:
+ c8eef3c0fb0c75038f4e2f1aa12277c654c2d675098f202cd5ce83496aba6fba 2128 node-d3-geo_1.11.9-4.dsc
+ 8f4103673763ee4714938ffb2ddd2a341d0a5c9fc9accd86ce5eb99b88ffdac3 3019282 node-d3-geo_1.11.9.orig.tar.gz
+ 5a65ecafcc759c882546f7dfb5086a8ad167966061df866731a3fa1d7a44242d 267516 node-d3-geo_1.11.9-4.debian.tar.xz
+Homepage: https://d3js.org/d3-geo/
+Package-List: 
+ node-d3-geo deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-d3-geo
+Priority: extra
+Section: misc

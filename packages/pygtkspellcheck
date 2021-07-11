@@ -1,0 +1,26 @@
+Package: pygtkspellcheck
+Binary: python3-gtkspellcheck, python-gtkspellcheck-doc
+Version: 4.0.5-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Raphaël Hertzog <hertzog@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-sphinx, python3-enchant, python3-gi, gir1.2-gtk-3.0
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 0087b8bc332d6046869c8a9070351e08 2190 pygtkspellcheck_4.0.5-2.dsc
+ c04e968cbc49fd1c44d4f0acd25a52b7 167181 pygtkspellcheck_4.0.5.orig.tar.gz
+ 26f82e7ba4c6d448eb21fd5e0894227f 3440 pygtkspellcheck_4.0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pygtkspellcheck
+Vcs-Git: https://salsa.debian.org/python-team/modules/pygtkspellcheck.git
+Checksums-Sha256:
+ 43942c49a1480867f883a9e2a372d40ce4826b63944b06d9dc3df694860c9549 2190 pygtkspellcheck_4.0.5-2.dsc
+ af90465c11cd0362a802d19d60166d5e22ab58c0e610e731d29f6ffcf97c372b 167181 pygtkspellcheck_4.0.5.orig.tar.gz
+ 02a1c62bfaa1cb4dfde64db129c44b7ee5afcef527e8c977655fc3dcea652c34 3440 pygtkspellcheck_4.0.5-2.debian.tar.xz
+Homepage: http://pygtkspellcheck.readthedocs.org/
+Package-List: 
+ python-gtkspellcheck-doc deb doc optional arch=all
+ python3-gtkspellcheck deb python optional arch=all
+Directory: pool/main/p/pygtkspellcheck
+Priority: source
+Section: misc

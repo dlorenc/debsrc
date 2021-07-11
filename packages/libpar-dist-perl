@@ -1,0 +1,28 @@
+Package: libpar-dist-perl
+Binary: libpar-dist-perl
+Version: 0.51-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Florian Schlichting <fschlich@zedat.fu-berlin.de>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libarchive-zip-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libyaml-libyaml-perl <!nocheck> | libyaml-perl <!nocheck> | libyaml-tiny-perl <!nocheck> | libyaml-syck-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 56e0bd9230a9b25fccbca0df4ccda600 2600 libpar-dist-perl_0.51-1.dsc
+ 9231ef7cb0f46c6c183e91962e2a766c 42492 libpar-dist-perl_0.51.orig.tar.gz
+ 56873b7506c06b10336ae7244ce10ab2 3772 libpar-dist-perl_0.51-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libpar-dist-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libpar-dist-perl.git
+Checksums-Sha256:
+ da37672be59298296a7b8818e793bafe25567551719273f7c8a4430e1c65de58 2600 libpar-dist-perl_0.51-1.dsc
+ d242062df9b689f39040e4c4e09131a6c464d0eefadbd1c9ac947173af33dff8 42492 libpar-dist-perl_0.51.orig.tar.gz
+ e5ca2532928f6ed386ce5a6431a52c372160dd5014532e2af5ba88a7e6bebaed 3772 libpar-dist-perl_0.51-1.debian.tar.xz
+Homepage: https://metacpan.org/release/PAR-Dist
+Dgit: 34907f944c187b4676e6940933004d0300fc0517 debian archive/debian/0.51-1 https://git.dgit.debian.org/libpar-dist-perl
+Package-List: 
+ libpar-dist-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libpar-dist-perl
+Priority: source
+Section: perl

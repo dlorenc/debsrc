@@ -1,0 +1,25 @@
+Package: nagios-plugins-contrib
+Binary: monitoring-plugins-contrib, nagios-plugins-contrib
+Version: 35.20210511
+Maintainer: Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>
+Uploaders: Bernd Zeimetz <bzed@debian.org>, Jan Wagner <waja@cyconet.org>, Stefan Schoerghofer <amd1212@4md.gr>, Petter Reinholdtsen <pere@hungry.com>, Leo Antunes <leo@costela.net>
+Build-Depends: debhelper (>= 8.0.0), dh-autoreconf, dh-python, python3:any, python3-debian:native, quilt (>= 0.46-7), autotools-dev, flex, libmemcached-dev [!hurd-i386], pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 882dd2888280bb986b9229dd514a8d36 2404 nagios-plugins-contrib_35.20210511.dsc
+ c5c6c27894688d936558365d12a4756c 728288 nagios-plugins-contrib_35.20210511.tar.xz
+Vcs-Browser: https://salsa.debian.org/nagios-team/pkg-nagios-plugins-contrib
+Vcs-Git: https://salsa.debian.org/nagios-team/pkg-nagios-plugins-contrib.git
+Checksums-Sha256:
+ 9a0fb93ac1fadd8504dfaa3993bfd62b825ad2a665e70b348d0f81971c908e19 2404 nagios-plugins-contrib_35.20210511.dsc
+ e9068e562117fd2382089e65744346ac185efe35c0c4927a89db27eb18b8dfa5 728288 nagios-plugins-contrib_35.20210511.tar.xz
+Package-List: 
+ monitoring-plugins-contrib deb net optional arch=any
+ nagios-plugins-contrib deb oldlibs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, bind9-host, ca-certificates, cups, curl, debsecan, file, knot-host, libdate-manip-perl, liblocale-gettext-perl, liblwp-useragent-determined-perl, libmonitoring-plugin-perl, libnagios-plugin-perl, libnet-cups-perl, libnet-dns-perl, openssl
+Directory: pool/main/n/nagios-plugins-contrib
+Priority: source
+Section: net

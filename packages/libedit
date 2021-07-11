@@ -1,0 +1,27 @@
+Package: libedit
+Binary: libedit2, libedit-dev, libeditreadline-dev
+Version: 3.1-20191231-2
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Uploaders: Anibal Monsalve Salazar <anibal@debian.org>, Sylvestre Ledru <sylvestre@debian.org>,
+Build-Depends: debhelper-compat (= 13), pkg-config, groff-base, libbsd-dev (>= 0.1.3), libncurses-dev | libtinfo-dev, bsdmainutils
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ da76268c3d561d0049c70bc434f2d258 2208 libedit_3.1-20191231-2.dsc
+ 2e22a51131de94ff2df24901f7cfe416 516801 libedit_3.1-20191231.orig.tar.gz
+ 105340107dc3550405ce4f830de06f50 14576 libedit_3.1-20191231-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libedit
+Vcs-Git: https://salsa.debian.org/debian/libedit.git
+Checksums-Sha256:
+ 422c4cab3b047b62142eef4f77995fd1cd0f424c52ffeae953935e241d3aaa81 2208 libedit_3.1-20191231-2.dsc
+ dbb82cb7e116a5f8025d35ef5b4f7d4a3cdd0a3909a146a39112095a2d229071 516801 libedit_3.1-20191231.orig.tar.gz
+ afb4656959bfa61817d0bc1982f2628373e84b251a148edb7da3e3c10645366c 14576 libedit_3.1-20191231-2.debian.tar.xz
+Homepage: https://www.thrysoee.dk/editline/
+Package-List: 
+ libedit-dev deb libdevel optional arch=any
+ libedit2 deb libs optional arch=any
+ libeditreadline-dev deb libdevel optional arch=any
+Directory: pool/main/libe/libedit
+Priority: source
+Section: libs

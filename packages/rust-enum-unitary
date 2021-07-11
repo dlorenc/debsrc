@@ -1,0 +1,26 @@
+Package: rust-enum-unitary
+Binary: librust-enum-unitary-dev
+Version: 0.4.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Stephan Lachnit <stephanlachnit@protonmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-enum-iterator-0.6+default-dev <!nocheck>, librust-num-traits-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ee00bc196d652603a24b8a7418ebffe1 2265 rust-enum-unitary_0.4.2-1.dsc
+ dfca3a02b3648361d86267d4cbc8472c 9132 rust-enum-unitary_0.4.2.orig.tar.gz
+ 3904a1a92553cd448612262e95b1056c 1948 rust-enum-unitary_0.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/enum-unitary
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/enum-unitary]
+Checksums-Sha256:
+ d75b77def4ea2e60d45e32c3e90e7800ca1048caecb0cbec5f9cdada9684073c 2265 rust-enum-unitary_0.4.2-1.dsc
+ 44afd1b5e6ac73229825b28e84e6ccca2ce7c419037c4f62a1aa56999e950496 9132 rust-enum-unitary_0.4.2.orig.tar.gz
+ a7663bc72451c98294ff1c619aaf4aa43862a0e5fd112d77b0a0ccdc3d807398 1948 rust-enum-unitary_0.4.2-1.debian.tar.xz
+Package-List: 
+ librust-enum-unitary-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-enum-unitary
+Priority: extra
+Section: misc

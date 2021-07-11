@@ -1,0 +1,27 @@
+Package: libdmapsharing
+Binary: libdmapsharing-3.0-2, libdmapsharing-3.0-dev, gir1.2-dmap-3.0
+Version: 2.9.41-3
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools (>= 1.0), pkg-config, libglib2.0-dev, libgdk-pixbuf2.0-dev, libavahi-client-dev (>= 0.6), libavahi-glib-dev (>= 0.6), libgirepository1.0-dev (>= 1.30.0), libsoup2.4-dev (>= 2.48), libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev (>= 1.0.6), libgtk2.0-dev, zlib1g-dev, libgee-0.8-dev, valac, check
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 276553084a9d7d0e90d3741825f6de1f 2529 libdmapsharing_2.9.41-3.dsc
+ 37741954ed02c08c526dcec81e443043 765880 libdmapsharing_2.9.41.orig.tar.gz
+ 5992673370e7c1a186c471e22088a0cb 5536 libdmapsharing_2.9.41-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/libdmapsharing
+Vcs-Git: https://salsa.debian.org/gnome-team/libdmapsharing.git
+Checksums-Sha256:
+ f614f31d1d0169c59692618eecaab088e42bac173f677232d4494e53f78e5002 2529 libdmapsharing_2.9.41-3.dsc
+ 0c1fcf89e9de5489fd9a28c7b5cd7e2538fbcf187b1480c0b74d5a1785fb0154 765880 libdmapsharing_2.9.41.orig.tar.gz
+ bc2e6aa049cce459ef19591208fd4e8b6461d9000ce2754a5e3a1f70f07e4254 5536 libdmapsharing_2.9.41-3.debian.tar.xz
+Homepage: http://www.flyn.org/projects/libdmapsharing/
+Package-List: 
+ gir1.2-dmap-3.0 deb introspection optional arch=any
+ libdmapsharing-3.0-2 deb libs optional arch=any
+ libdmapsharing-3.0-dev deb libdevel optional arch=any
+Directory: pool/main/libd/libdmapsharing
+Priority: source
+Section: libs

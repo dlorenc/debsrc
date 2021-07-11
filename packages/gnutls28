@@ -1,0 +1,38 @@
+Package: gnutls28
+Binary: libgnutls28-dev, libgnutls30, gnutls-bin, gnutls-doc, libgnutlsxx28, libgnutls-openssl27, libgnutls-dane0, guile-gnutls
+Version: 3.7.1-5
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Uploaders: Andreas Metzler <ametzler@debian.org>, Eric Dorland <eric@debian.org>, James Westby <jw+debian@jameswestby.net>, Simon Josefsson <simon@josefsson.org>
+Build-Depends: autogen (>= 1:5.16-0), bison, ca-certificates <!nocheck>, chrpath, datefudge <!nocheck>, debhelper-compat (= 13), freebsd-net-tools [kfreebsd-i386 kfreebsd-amd64] <!nocheck>, gperf, guile-2.2-dev <!noguile>, libcmocka-dev <!nocheck>, libgmp-dev (>= 2:6), libidn2-dev, libopts25-dev, libp11-kit-dev (>= 0.23.10), libssl-dev <!nocheck>, libtasn1-6-dev (>= 4.9), libunbound-dev (>= 1.5.10-1), libunistring-dev (>= 0.9.7), net-tools [!kfreebsd-i386 !kfreebsd-amd64] <!nocheck>, nettle-dev (>= 3.6), openssl <!nocheck>, pkg-config, softhsm2 <!nocheck>
+Build-Depends-Indep: gtk-doc-tools, texinfo (>= 4.8), texlive-plain-generic, texlive-latex-base
+Build-Conflicts: libgnutls-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8719930ffaf8e69d714e5b8815a91e50 3487 gnutls28_3.7.1-5.dsc
+ 278e1f50d79cd13727733adbf01fde8f 6038388 gnutls28_3.7.1.orig.tar.xz
+ 590c9d64f7d8ee77671cdb9547f5edaf 854 gnutls28_3.7.1.orig.tar.xz.asc
+ 3b7e1b67a0616a0003663ec62e63435e 88576 gnutls28_3.7.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnutls-team/gnutls
+Vcs-Git: https://salsa.debian.org/gnutls-team/gnutls.git
+Checksums-Sha256:
+ 1cdc0abae8cc1b4a86ff4be7e549a5b6e82297645e7f61962e03294987e2ab9f 3487 gnutls28_3.7.1-5.dsc
+ 3777d7963eca5e06eb315686163b7b3f5045e2baac5e54e038ace9835e5cac6f 6038388 gnutls28_3.7.1.orig.tar.xz
+ 13a683b12602c169a7ad7827ab0e3f35c8fa1f98675d0073cf7d54a8cd635582 854 gnutls28_3.7.1.orig.tar.xz.asc
+ ec60906fcf50fb01654cf76557cc3810bfa88b0d0492e4d865097b97dd00558d 88576 gnutls28_3.7.1-5.debian.tar.xz
+Homepage: https://www.gnutls.org/
+Package-List: 
+ gnutls-bin deb net optional arch=any
+ gnutls-doc deb doc optional arch=all
+ guile-gnutls deb lisp optional arch=any profile=!noguile
+ libgnutls-dane0 deb libs optional arch=any
+ libgnutls-openssl27 deb libs optional arch=any
+ libgnutls28-dev deb libdevel optional arch=any
+ libgnutls30 deb libs optional arch=any
+ libgnutlsxx28 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, ca-certificates, datefudge, freebsd-net-tools, net-tools, openssl, softhsm2
+Directory: pool/main/g/gnutls28
+Priority: source
+Section: libs

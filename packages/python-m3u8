@@ -1,0 +1,27 @@
+Package: python-m3u8
+Binary: python3-m3u8
+Version: 0.8.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@alioth-lists.debian.net>
+Uploaders: Ondřej Nový <onovy@debian.org>, Ondřej Kobližek <kobla@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python (>= 2.20160609~), python3-all, python3-setuptools
+Build-Depends-Indep: python3-bottle, python3-iso8601, python3-pytest
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ef912f3f8a13e4e2e45a62155998bc83 2183 python-m3u8_0.8.0-1.dsc
+ 022d14833c025685dac6372c9ece022c 40069 python-m3u8_0.8.0.orig.tar.gz
+ 97aa51f9b3de2610d9d1d4e2c35593a6 29452 python-m3u8_0.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-m3u8
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-m3u8.git
+Checksums-Sha256:
+ a6e75b47d6873ac502bfc2d8604394de25001881cd473cbaffbd1d286a7ef5ab 2183 python-m3u8_0.8.0-1.dsc
+ d3a692564781d2cb1e7aadb7003bcebd59b277233efe61cea1c7ad31a391af54 40069 python-m3u8_0.8.0.orig.tar.gz
+ a3cec1171ab28617331c2a63572e9dc2e518d95f9aca353c55acae9fa71b330d 29452 python-m3u8_0.8.0-1.debian.tar.xz
+Homepage: https://github.com/globocom/m3u8
+Package-List: 
+ python3-m3u8 deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/p/python-m3u8
+Priority: optional
+Section: misc

@@ -1,0 +1,22 @@
+Package: partman-crypto
+Binary: partman-crypto, partman-crypto-dm
+Version: 114
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Max Vozeler <xam@debian.org>, Dmitrijs Ledkovs <dmitrijs.ledkovs@canonical.com>
+Build-Depends: debhelper (>= 9), dh-di, po-debconf (>= 0.5.0)
+Architecture: any all
+Format: 3.0 (native)
+Files:
+ d6c62098a30a2736a4a51d498da0f054 1803 partman-crypto_114.dsc
+ 2ab954e5211c98827281f01cecd165ee 274088 partman-crypto_114.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/partman-crypto
+Vcs-Git: https://salsa.debian.org/installer-team/partman-crypto.git
+Checksums-Sha256:
+ eece9d4de450cd1dcd327f89bdd666374e62ae58db6e8e0885298c33a5ac533c 1803 partman-crypto_114.dsc
+ fe269891505344f5379ecfdf9a27d7287deda3d2e50d417390da8ae51f73e0e8 274088 partman-crypto_114.tar.xz
+Package-List: 
+ partman-crypto udeb debian-installer optional arch=any
+ partman-crypto-dm udeb debian-installer optional arch=all
+Directory: pool/main/p/partman-crypto
+Priority: source
+Section: debian-installer

@@ -1,0 +1,26 @@
+Package: rust-utf8parse
+Binary: librust-utf8parse-dev
+Version: 0.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f34753fe2efa1d12794abe50e5e661d7 2110 rust-utf8parse_0.2.0-1.dsc
+ 9d83f7627e511837fb2d94fbad338d35 13392 rust-utf8parse_0.2.0.orig.tar.gz
+ 00042bac0ab4deb268075e4ff4063b1d 2620 rust-utf8parse_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/utf8parse
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/utf8parse]
+Checksums-Sha256:
+ ae72347463a77e3cbb1ca7ba69c77a104975b3d64627b0bbe5402a052eb2ee26 2110 rust-utf8parse_0.2.0-1.dsc
+ 936e4b492acfd135421d8dca4b1aa80a7bfc26e702ef3af710e0752684df5372 13392 rust-utf8parse_0.2.0.orig.tar.gz
+ 326d6e084f9fa1e2fa2579afb1829b6ca7bc27940efb10871149e85766a32833 2620 rust-utf8parse_0.2.0-1.debian.tar.xz
+Package-List: 
+ librust-utf8parse-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-utf8parse
+Priority: extra
+Section: misc

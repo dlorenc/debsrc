@@ -1,0 +1,28 @@
+Package: golang-github-gofrs-uuid
+Binary: golang-github-gofrs-uuid-dev
+Version: 3.2.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 80c7754ba6db0084f1caa73997c920c9 2202 golang-github-gofrs-uuid_3.2.0-2.dsc
+ 555dc1408ac20e277b9e43906fb8215c 14124 golang-github-gofrs-uuid_3.2.0.orig.tar.xz
+ 0fe5710b41ca366c48c478528f930057 2192 golang-github-gofrs-uuid_3.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gofrs-uuid
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gofrs-uuid.git
+Checksums-Sha256:
+ 1e7f6550b19df5e99a11ed0f21c8efd11328e20d251653a4235b7a85ce1890a5 2202 golang-github-gofrs-uuid_3.2.0-2.dsc
+ 074248495b2339bcbbf8c25af74b8f3563bc0d5cb702e6fc26bc5229acac7446 14124 golang-github-gofrs-uuid_3.2.0.orig.tar.xz
+ 5b4f8114ecff2d222a244d9fcad9a17aea6e26168189c12b381f592a94bfec59 2192 golang-github-gofrs-uuid_3.2.0-2.debian.tar.xz
+Homepage: https://github.com/gofrs/uuid
+Go-Import-Path: github.com/gofrs/uuid
+Package-List: 
+ golang-github-gofrs-uuid-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-gofrs-uuid
+Priority: extra
+Section: golang

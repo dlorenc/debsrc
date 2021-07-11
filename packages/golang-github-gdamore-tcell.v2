@@ -1,0 +1,27 @@
+Package: golang-github-gdamore-tcell.v2
+Binary: golang-github-gdamore-tcell.v2-dev
+Version: 2.1.0-5
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Paride Legovini <paride@debian.org>, Daniel Milde <daniel@milde.cz>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-gdamore-encoding-dev, golang-github-lucasb-eyer-go-colorful-dev, golang-github-mattn-go-runewidth-dev, golang-github-smartystreets-goconvey-dev, golang-golang-x-text-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cfbe762499a34078e0af645a31617174 2502 golang-github-gdamore-tcell.v2_2.1.0-5.dsc
+ 1e4234d892f73b876ee0939c595c479c 150769 golang-github-gdamore-tcell.v2_2.1.0.orig.tar.gz
+ 6244f94dde64b071898ef39e0cf14663 2168 golang-github-gdamore-tcell.v2_2.1.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gdamore-tcell.v2
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gdamore-tcell.v2.git
+Checksums-Sha256:
+ 23dc7424e1dda0bcf36862014f09a13dddb8d3f242ee9bbdb155dc55cab08083 2502 golang-github-gdamore-tcell.v2_2.1.0-5.dsc
+ 6ea1dae2962cc7bded6192345e18525ab6b51983a4ceac3f0526174f07ed7d50 150769 golang-github-gdamore-tcell.v2_2.1.0.orig.tar.gz
+ 6c459e32ebe920d260040eacb7146498e7490de68fa3b12a806e8a14b25e78fe 2168 golang-github-gdamore-tcell.v2_2.1.0-5.debian.tar.xz
+Homepage: https://github.com/gdamore/tcell
+Go-Import-Path: github.com/gdamore/tcell/v2
+Package-List: 
+ golang-github-gdamore-tcell.v2-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-gdamore-tcell.v2
+Priority: extra
+Section: misc

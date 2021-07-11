@@ -1,0 +1,28 @@
+Package: python-pysnmp4-mibs
+Binary: python3-pysnmp4-mibs
+Version: 0.1.3-3
+Maintainer: Jan Lübbe <jluebbe@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>, Deepak Tripathi <apenguinlinux@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all (>= 2.6.6-3~)
+Build-Depends-Indep: xsltproc, docbook-xsl, docbook-xml, po4a (>= 0.21)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f4c42cb5d61f99e6756f553523a595ff 1684 python-pysnmp4-mibs_0.1.3-3.dsc
+ 49e5bacbdf099db198fec69a9e23416d 1961708 python-pysnmp4-mibs_0.1.3.orig.tar.gz
+ 68ca8f095b14fc0c662e2b64ad79a651 8396 python-pysnmp4-mibs_0.1.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-pysnmp4-mibs
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-pysnmp4-mibs.git
+Checksums-Sha256:
+ 3635f86f0f104c07ccd16faae643ffe013c103c6e413ca17b6b20cabe9211d65 1684 python-pysnmp4-mibs_0.1.3-3.dsc
+ fa78171d63a91df29d18641516c02f5f9628fda35c2986a09a1a6fc9c9032753 1961708 python-pysnmp4-mibs_0.1.3.orig.tar.gz
+ 8639593915c87e2b7dab3b2e439077046d728c116fd9d23358a40003f6f68039 8396 python-pysnmp4-mibs_0.1.3-3.debian.tar.xz
+Homepage: http://pysnmp.sourceforge.net/
+Package-List: 
+ python3-pysnmp4-mibs deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-pysnmp4-mibs
+Priority: source
+Section: python

@@ -1,0 +1,28 @@
+Package: cl-ppcre
+Binary: cl-ppcre, cl-ppcre-unicode
+Version: 20190407.git1ca0cd9-2
+Maintainer: Debian Common Lisp Team <debian-common-lisp@lists.debian.org>
+Uploaders: Peter Van Eynde <pvaneynd@debian.org>, Sébastien Villemot <sebastien@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e18a877fb18d3b77d467fffd458600e5 2200 cl-ppcre_20190407.git1ca0cd9-2.dsc
+ 0250ef870aead0a7fa488100c910334a 114716 cl-ppcre_20190407.git1ca0cd9.orig.tar.xz
+ bb739dceb04659dfa3a966069444034d 5644 cl-ppcre_20190407.git1ca0cd9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/common-lisp-team/cl-ppcre
+Vcs-Git: https://salsa.debian.org/common-lisp-team/cl-ppcre.git
+Checksums-Sha256:
+ 28f5b57bcddd32af5c557eba40e7204049df0fb01beb472765ae26a2d5d78eaf 2200 cl-ppcre_20190407.git1ca0cd9-2.dsc
+ 008f57b8befec9efd396f15aded4bec39a9c7960675153cad9a91058ed3f50ec 114716 cl-ppcre_20190407.git1ca0cd9.orig.tar.xz
+ 10300c54b17fd16e47997af4b4e25014a79720a3047f641e8a6795e77fa5457f 5644 cl-ppcre_20190407.git1ca0cd9-2.debian.tar.xz
+Homepage: https://edicl.github.io/cl-ppcre/
+Package-List: 
+ cl-ppcre deb lisp optional arch=all
+ cl-ppcre-unicode deb lisp optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: cl-flexi-streams, clisp, ecl, sbcl
+Directory: pool/main/c/cl-ppcre
+Priority: source
+Section: lisp

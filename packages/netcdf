@@ -1,0 +1,28 @@
+Package: netcdf
+Binary: netcdf-doc, libnetcdf18, libnetcdf-dev, netcdf-bin
+Version: 1:4.7.4-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Francesco Paolo Lovergine <frankie@debian.org>, Nico Schlömer <nico.schloemer@gmail.com>, Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), cmake (>= 3.6.1), chrpath, m4, doxygen, graphviz, libhdf5-dev (>= 1.8.6-1~), libcurl4-gnutls-dev | libcurl-ssl-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 08c366f35261087874ebf1d78d76397c 2294 netcdf_4.7.4-1.dsc
+ 33979e8f0cf4ee31323fc0934282111b 19711158 netcdf_4.7.4.orig.tar.gz
+ 52e056405ef62173ff5390417f3c9a7e 31256 netcdf_4.7.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/netcdf
+Vcs-Git: https://salsa.debian.org/debian-gis-team/netcdf.git
+Checksums-Sha256:
+ 5068f13c23f50280fdb232229430141b8106286689e766d09cfc608ef9794d28 2294 netcdf_4.7.4-1.dsc
+ 99930ad7b3c4c1a8e8831fb061cb02b2170fc8e5ccaeda733bd99c3b9d31666b 19711158 netcdf_4.7.4.orig.tar.gz
+ 97d3a5d1c11e4aa6d0491c7bcdf6c75032db5d7e9b6073ea845c1bd1052e4c61 31256 netcdf_4.7.4-1.debian.tar.xz
+Homepage: http://www.unidata.ucar.edu/software/netcdf/
+Package-List: 
+ libnetcdf-dev deb libdevel optional arch=any
+ libnetcdf18 deb libs optional arch=any
+ netcdf-bin deb science optional arch=any
+ netcdf-doc deb doc optional arch=all
+Directory: pool/main/n/netcdf
+Priority: source
+Section: math

@@ -1,0 +1,26 @@
+Package: biomaj3-daemon
+Binary: python3-biomaj3-daemon
+Version: 3.0.22-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Olivier Sallou <osallou@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, protobuf-compiler, python3-all, python3-bcrypt, python3-consul, python3-flask, python3-mock, python3-nose, python3-pika, python3-prometheus-client, python3-protobuf, python3-pymongo, python3-redis, python3-setuptools, python3-yaml, python3-biomaj3-core, python3-biomaj3-zipkin, python3-biomaj3
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c9b60f6827dd64ba9a9aeaaa89122b72 2378 biomaj3-daemon_3.0.22-2.dsc
+ 0d696024552d9bc18f69edd80a980c49 17108 biomaj3-daemon_3.0.22.orig.tar.xz
+ 1cb101fb9158331c1d6320724f0d0ec0 13648 biomaj3-daemon_3.0.22-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/biomaj3-daemon
+Vcs-Git: https://salsa.debian.org/med-team/biomaj3-daemon.git
+Checksums-Sha256:
+ 489e8d3c3e48f667d8163aee931b5afaf272a73e288b2afc3f1b3d6daacb258c 2378 biomaj3-daemon_3.0.22-2.dsc
+ a9dce26e2ba5d5f0913f5d59c55f65583365103ecb758fab75a42b5a46ef78e9 17108 biomaj3-daemon_3.0.22.orig.tar.xz
+ cd79cb84b54fb9ec4a42a582555810eb8af5fda842d4939dd97e99a0e62a1b2a 13648 biomaj3-daemon_3.0.22-2.debian.tar.xz
+Homepage: https://github.com/genouest/biomaj-daemon
+Package-List: 
+ python3-biomaj3-daemon deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/b/biomaj3-daemon
+Priority: extra
+Section: misc

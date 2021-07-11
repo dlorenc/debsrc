@@ -1,0 +1,28 @@
+Package: gworkspace
+Binary: gworkspace.app, gworkspace-common, mdfinder.app, gworkspace-apps-wrappers
+Version: 0.9.4-3
+Maintainer: Debian GNUstep maintainers <pkg-gnustep-maintainers@lists.alioth.debian.org>
+Uploaders: Eric Heintzmann <heintzmann.eric@free.fr>, Jonathan Shipley <jon@windj.ath.cx>, Gürkan Myczko <gurkan@phys.ethz.ch>, Yavor Doganov <yavor@gnu.org>
+Build-Depends: debhelper-compat (= 13), imagemagick, libgnustep-gui-dev, libpreferencepanes-dev, libpopplerkit-dev, libsqlite3-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ee52542a2d4e93923afda02080280669 2393 gworkspace_0.9.4-3.dsc
+ 406256f470781bc3be2670611276780f 3855909 gworkspace_0.9.4.orig.tar.gz
+ 784b511c6be0d7376a809da1e1f5352b 21700 gworkspace_0.9.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnustep-team/gworkspace
+Vcs-Git: https://salsa.debian.org/gnustep-team/gworkspace.git
+Checksums-Sha256:
+ 76071f72de464e5e3adbd5d5c8950f69ac4cfac8768de37e0718309fbe2dcec3 2393 gworkspace_0.9.4-3.dsc
+ f3c18371c10d8ca02954017ce5c78d8f6b6ed3101a7adae86d7c557cea405632 3855909 gworkspace_0.9.4.orig.tar.gz
+ 3a53783ba76f3c08ffca282f3e2e5c85214bba2d171790147a12f7ec3a7e0794 21700 gworkspace_0.9.4-3.debian.tar.xz
+Homepage: http://www.gnustep.org/experience/GWorkspace.html
+Package-List: 
+ gworkspace-apps-wrappers deb gnustep optional arch=all
+ gworkspace-common deb gnustep optional arch=all
+ gworkspace.app deb gnustep optional arch=any
+ mdfinder.app deb gnustep optional arch=any
+Directory: pool/main/g/gworkspace
+Priority: source
+Section: x11

@@ -1,0 +1,27 @@
+Package: rust-tokio-executor
+Binary: librust-tokio-executor-dev
+Version: 0.1.8-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-utils-0.7+default-dev <!nocheck>, librust-futures-0.1+default-dev (>= 0.1.19-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7e6b5e1d658c1bb1243ed0d50bb3caf1 2397 rust-tokio-executor_0.1.8-2.dsc
+ 3facc94d9def274bd895a5d8d25aad75 11775 rust-tokio-executor_0.1.8.orig.tar.gz
+ c49703214b9014ccfc5e54aa9d579dad 2880 rust-tokio-executor_0.1.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-executor
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-executor]
+Checksums-Sha256:
+ 881dc165c4ff93b3ecc4d704cbf642e2c681ffb306e2667b71c3737b8a85d4a2 2397 rust-tokio-executor_0.1.8-2.dsc
+ 0f27ee0e6db01c5f0b2973824547ce7e637b2ed79b891a9677b0de9bd532b6ac 11775 rust-tokio-executor_0.1.8.orig.tar.gz
+ a65aee6b9d9563fb6a28915e2aeb089ad3c53509da9d50c4ad08c88c22ed0425 2880 rust-tokio-executor_0.1.8-2.debian.tar.xz
+Homepage: https://github.com/tokio-rs/tokio
+Package-List: 
+ librust-tokio-executor-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tokio-0.1+default-dev
+Directory: pool/main/r/rust-tokio-executor
+Priority: extra
+Section: misc

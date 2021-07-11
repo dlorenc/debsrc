@@ -1,0 +1,27 @@
+Package: starjava-cdf
+Binary: starlink-cdf-java, starlink-cdf-java-doc
+Version: 1.0+2021.01.10+dfsg-1
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: ant, debhelper-compat (= 13), dh-exec, javahelper
+Build-Depends-Indep: ant-optional, default-jdk, default-jdk-doc, junit, libjcdf-java, starlink-table-java (>= 4~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e11aa1c8106de53c058605f4f6667a3c 2303 starjava-cdf_1.0+2021.01.10+dfsg-1.dsc
+ 02a9d523371c0ffabf07559a8f778e89 19608 starjava-cdf_1.0+2021.01.10+dfsg.orig.tar.xz
+ 9e145d7b924264f7785d04fbc3a9b914 4340 starjava-cdf_1.0+2021.01.10+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/starjava-cdf
+Vcs-Git: https://salsa.debian.org/debian-astro-team/starjava-cdf.git
+Checksums-Sha256:
+ 5572273a873c50f4ae30ae5c77a06d2ab38c52e01bcf0d95117bbd4e502fa088 2303 starjava-cdf_1.0+2021.01.10+dfsg-1.dsc
+ d5a81a7ef3ca894a9e9b89118b4a71311cd07dc3a68c340fe920487df48ced05 19608 starjava-cdf_1.0+2021.01.10+dfsg.orig.tar.xz
+ 2cc2b88725cc45c7bc738fbc3bbce135568e4bac86b864f7d2cd25a3d7927c91 4340 starjava-cdf_1.0+2021.01.10+dfsg-1.debian.tar.xz
+Homepage: https://github.com/Starlink/starjava/tree/master/cdf
+Package-List: 
+ starlink-cdf-java deb java optional arch=all
+ starlink-cdf-java-doc deb doc optional arch=all
+Directory: pool/main/s/starjava-cdf
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-pest-derive
+Binary: librust-pest-derive-dev
+Version: 2.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Arnaud Ferraris <arnaud.ferraris@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-pest-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-pest-generator-2+default-dev (>= 2.1.0-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 538c602768ba5e81dd90daafe3c10e19 2313 rust-pest-derive_2.1.0-1.dsc
+ 43e97206d08bfd1a23b2ed01fba95c69 14049 rust-pest-derive_2.1.0.orig.tar.gz
+ 2adffeb89dd458c395d839896a7d216b 2604 rust-pest-derive_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pest-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pest-derive]
+Checksums-Sha256:
+ 9c526a96e38ffb95b6cb59e5c552e6619457556bf89663c9b172fae4956de157 2313 rust-pest-derive_2.1.0-1.dsc
+ 833d1ae558dc601e9a60366421196a8d94bc0ac980476d0b67e1d0988d72b2d0 14049 rust-pest-derive_2.1.0.orig.tar.gz
+ d404715246c7c5ae6be2b6447176d349c409ca5f02bd488cb85630c0c1a0e55e 2604 rust-pest-derive_2.1.0-1.debian.tar.xz
+Homepage: https://pest-parser.github.io/
+Package-List: 
+ librust-pest-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-pest-derive
+Priority: extra
+Section: misc

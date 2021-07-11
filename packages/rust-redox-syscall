@@ -1,0 +1,26 @@
+Package: rust-redox-syscall
+Binary: librust-redox-syscall-dev
+Version: 0.1.57-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3d58480763cdce9ad52345e05820a603 2190 rust-redox-syscall_0.1.57-2.dsc
+ 3cc3a4bd5861ca93d7c0d19129334703 17087 rust-redox-syscall_0.1.57.orig.tar.gz
+ 1912d2192b06edbec3753edbb40e95c8 3352 rust-redox-syscall_0.1.57-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/redox-syscall
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/redox-syscall]
+Checksums-Sha256:
+ e6bc4c790ae0893631629aaac0697ae9726610d1067cbb5ef213d30ff5465ebe 2190 rust-redox-syscall_0.1.57-2.dsc
+ 41cc0f7e4d5d4544e8861606a285bb08d3e70712ccc7d2b84d7c0ccfaf4b05ce 17087 rust-redox-syscall_0.1.57.orig.tar.gz
+ b9cd62b30d5b2a8de56ad0ff3569b2457ac5991559bbcfdd9a2fc8c4650931c4 3352 rust-redox-syscall_0.1.57-2.debian.tar.xz
+Package-List: 
+ librust-redox-syscall-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-redox-syscall
+Priority: extra
+Section: misc

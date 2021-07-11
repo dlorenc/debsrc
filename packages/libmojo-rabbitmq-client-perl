@@ -1,0 +1,27 @@
+Package: libmojo-rabbitmq-client-perl
+Binary: libmojo-rabbitmq-client-perl
+Version: 0.3.1-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libfile-sharedir-perl, libmojolicious-perl (>= 7.53), libnet-amqp-perl, libtest-exception-perl (>= 0.43), perl (>= 5.19.5) | libscalar-list-utils-perl (>= 1:1.33)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 85436d15c1b7d88df7231d133cd9d16a 2419 libmojo-rabbitmq-client-perl_0.3.1-2.dsc
+ 7bd238ef392ce1f69292a2e9936274d6 44541 libmojo-rabbitmq-client-perl_0.3.1.orig.tar.gz
+ b7ad6a868ec18a2fec4fa76dc21a6a8c 5696 libmojo-rabbitmq-client-perl_0.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmojo-rabbitmq-client-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmojo-rabbitmq-client-perl.git
+Checksums-Sha256:
+ 6ab2c7542062a2c907571b6cbb2b97e4c4bf316d30dbd2ebf0f3e8ecbfc8a78c 2419 libmojo-rabbitmq-client-perl_0.3.1-2.dsc
+ fa5c1a9e41b36969cbee0dbe1a6274f0fa652c338bf49c223efd64d2dc7da5ec 44541 libmojo-rabbitmq-client-perl_0.3.1.orig.tar.gz
+ 1288c097878a06a30f2446f269b3a320598c1d7fe421c2175e243dada0383686 5696 libmojo-rabbitmq-client-perl_0.3.1-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Mojo-RabbitMQ-Client
+Package-List: 
+ libmojo-rabbitmq-client-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmojo-rabbitmq-client-perl
+Priority: extra
+Section: misc

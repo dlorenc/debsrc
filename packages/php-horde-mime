@@ -1,0 +1,27 @@
+Package: php-horde-mime
+Binary: php-horde-mime
+Version: 2.11.1-2
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 70ad51416e28bb392614cd8e13e38702 2203 php-horde-mime_2.11.1-2.dsc
+ 90284f5aebf000c47023234368cf2628 147626 php-horde-mime_2.11.1.orig.tar.gz
+ d5aa266651f4b4a93fb6d5f03df95aaf 7696 php-horde-mime_2.11.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-mime
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-mime.git
+Checksums-Sha256:
+ 440f832a0230579c184384bcf9f027c2e2d44e729c599831aabf25a5d6d5949b 2203 php-horde-mime_2.11.1-2.dsc
+ 9f7983441f0e2530b914d473ae4a62d9ab8b2d422f327f6af275dcdf07e10bd1 147626 php-horde-mime_2.11.1.orig.tar.gz
+ e6cc5c22cd05cc48b869438c43c94bc69ffb3919ee71d8331c6ce708b7cc0856 7696 php-horde-mime_2.11.1-2.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-mime deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-mail, php-horde-stream, php-horde-test, php-horde-text-filter
+Directory: pool/main/p/php-horde-mime
+Priority: extra
+Section: misc

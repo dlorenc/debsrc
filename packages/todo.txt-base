@@ -1,0 +1,24 @@
+Package: todo.txt-base
+Binary: todo.txt-base
+Version: 2.4
+Maintainer: David Steele <steele@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-pytest-runner, pandoc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ de5803eabff75a14f98732f416aec279 1738 todo.txt-base_2.4.dsc
+ b1ef8c2591ff1c2e45ce7ec99ed1b89d 24332 todo.txt-base_2.4.tar.xz
+Vcs-Browser: https://github.com/davesteele/todo.txt-base
+Vcs-Git: https://github.com/davesteele/todo.txt-base.git
+Checksums-Sha256:
+ d0e34cac6f685ea6042ab25b44b17c5392c58fcb65244d6e71424ddceaa1f5d1 1738 todo.txt-base_2.4.dsc
+ 410f6cc3637615b252812389864390ed11b15ad3f0f0fec017010e2f30ad21e1 24332 todo.txt-base_2.4.tar.xz
+Homepage: https://github.com/davesteele/todo.txt-base
+Package-List: 
+ todo.txt-base deb text optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: topydo
+Directory: pool/main/t/todo.txt-base
+Priority: extra
+Section: misc

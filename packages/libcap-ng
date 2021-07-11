@@ -1,0 +1,25 @@
+Package: libcap-ng
+Binary: libcap-ng-dev, libcap-ng0, libcap-ng-utils, python3-cap-ng
+Version: 0.7.9-2.2
+Maintainer: Pierre Chifflier <pollux@debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, dh-python <!nopython>, autotools-dev, linux-libc-dev, swig <!nopython>, libpython3-dev <!nopython>, python3-dev:any <!nopython>
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 4b9a94878e2a15864d732c47b3379bc7 2081 libcap-ng_0.7.9-2.2.dsc
+ 2398d695508fab9ce33668c53a89b0e9 449038 libcap-ng_0.7.9.orig.tar.gz
+ 72cf71103f2bfebd8a32613b7a264ad6 6308 libcap-ng_0.7.9-2.2.debian.tar.xz
+Checksums-Sha256:
+ d573ce59d83d2c117515e7c57dde1c990e9c5a34e0f53ac09f6b4d3e153e9aae 2081 libcap-ng_0.7.9-2.2.dsc
+ 4a1532bcf3731aade40936f6d6a586ed5a66ca4c7455e1338d1f6c3e09221328 449038 libcap-ng_0.7.9.orig.tar.gz
+ 6d7b5cfcf435fe996e5dc78770a9ab1ab614ced5bee56e3e0ba4e09d8c832a0a 6308 libcap-ng_0.7.9-2.2.debian.tar.xz
+Homepage: http://people.redhat.com/sgrubb/libcap-ng
+Package-List: 
+ libcap-ng-dev deb libdevel optional arch=any
+ libcap-ng-utils deb admin optional arch=any
+ libcap-ng0 deb libs optional arch=any
+ python3-cap-ng deb python optional arch=any profile=!nopython
+Directory: pool/main/libc/libcap-ng
+Priority: source
+Section: libs

@@ -1,0 +1,34 @@
+Package: profnet
+Binary: profnet-bval, profnet-chop, profnet-con, profnet-isis, profnet-md, profnet-norsnet, profnet-prof, profnet-snapfun, profphd-net
+Version: 1.0.22-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Guy Yachdav <gyachdav@rostlab.org>, Laszlo Kajan <lkajan@rostlab.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), gfortran, rsync
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dc9c21b4d51da37d642cc19a129bee56 2521 profnet_1.0.22-7.dsc
+ 72ad53038b158655812a256a2a335f99 203676 profnet_1.0.22.orig.tar.gz
+ 417d013756f3ef76cc4de4c0b4cd5dbd 55232 profnet_1.0.22-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/profnet
+Vcs-Git: https://salsa.debian.org/med-team/profnet.git
+Checksums-Sha256:
+ 95d59e9b44303ba6cea63f17c55347332684eac5a741a3b421536d1f2f0b25a1 2521 profnet_1.0.22-7.dsc
+ a124bbb7822a22189ddc410032cfd1c1ccd30129eecf4a7cd09608edd3955f18 203676 profnet_1.0.22.orig.tar.gz
+ 89212cb5492a04ecc3205169e523ba0456213952c83cfaf44b58f55751cf9fdc 55232 profnet_1.0.22-7.debian.tar.xz
+Homepage: https://www.predictprotein.org/
+Package-List: 
+ profnet-bval deb science optional arch=any
+ profnet-chop deb science optional arch=any
+ profnet-con deb science optional arch=any
+ profnet-isis deb science optional arch=any
+ profnet-md deb science optional arch=any
+ profnet-norsnet deb science optional arch=any
+ profnet-prof deb science optional arch=any
+ profnet-snapfun deb science optional arch=any
+ profphd-net deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/profnet
+Priority: source
+Section: science

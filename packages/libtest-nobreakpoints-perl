@@ -1,0 +1,28 @@
+Package: libtest-nobreakpoints-perl
+Binary: libtest-nobreakpoints-perl
+Version: 0.17-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libtest-pod-perl <!nocheck>, libtest-simple-perl (>= 1.001010) <!nocheck>, libtest-useallmodules-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 15af0c496ab206ed083f6c6cf53cf227 2573 libtest-nobreakpoints-perl_0.17-1.dsc
+ f0ff6b9467584eff6ef2bb621e7f9691 15082 libtest-nobreakpoints-perl_0.17.orig.tar.gz
+ 95c019bf59c3d522088ef12559637cd3 2640 libtest-nobreakpoints-perl_0.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-nobreakpoints-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-nobreakpoints-perl.git
+Checksums-Sha256:
+ dead42c0f9c02b0ad244a2c52816d0f2d2ef5700095cb19f9de32f24030e469c 2573 libtest-nobreakpoints-perl_0.17-1.dsc
+ fdb558b6fc90c17487867f80dc3fe038f7fc550f4bfd87afff3cfc3e5dc6bf93 15082 libtest-nobreakpoints-perl_0.17.orig.tar.gz
+ ab3231df83e94d9c6f57cb959881228f99be55fd2030b5146b8e62c8944511aa 2640 libtest-nobreakpoints-perl_0.17-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-NoBreakpoints
+Dgit: 7097829790e71bd0b4e3ff2ea55d4382aef580fd debian archive/debian/0.17-1 https://git.dgit.debian.org/libtest-nobreakpoints-perl
+Package-List: 
+ libtest-nobreakpoints-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-nobreakpoints-perl
+Priority: source
+Section: perl

@@ -1,0 +1,24 @@
+Package: dh-python
+Binary: dh-python
+Version: 4.20201102+nmu1
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends: debhelper-compat (= 12), python3-minimal, libpython3-stdlib, libdpkg-perl, python3-docutils
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 2da792f59871b17b78f81099b712c6c5 1563 dh-python_4.20201102+nmu1.dsc
+ 0984f2df4a04d2934ae5dfcb780378d4 95592 dh-python_4.20201102+nmu1.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/tools/dh-python
+Vcs-Git: https://salsa.debian.org/python-team/tools/dh-python.git
+Checksums-Sha256:
+ 3fae08c5cf6802b381d6526934a70216768b3ec3f4eebe7944f135d36575eebf 1563 dh-python_4.20201102+nmu1.dsc
+ 3bb388d2f86cbf507a1d42fdae8ddd7497f6c90676b7d89c108e5e4a6f57ec63 95592 dh-python_4.20201102+nmu1.tar.xz
+Package-List: 
+ dh-python deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, debhelper, fakeroot, flit, libjs-jquery, pypy, python-all, python-all-dbg, python-all-dev, python3-all, python3-all-dbg, python3-all-dev, python3-nose
+Directory: pool/main/d/dh-python
+Priority: optional
+Section: misc

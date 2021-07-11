@@ -1,0 +1,25 @@
+Package: jss
+Binary: libjss-java
+Version: 4.8.0-2
+Maintainer: Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>
+Uploaders: Timo Aaltonen <tjaalton@debian.org>,
+Build-Depends: debhelper-compat (= 12), cmake, default-jdk, junit4, libcommons-codec-java, libcommons-lang3-java, libjaxb-api-java, libnss3-dev, libnss3-tools, libslf4j-java, pkg-config, quilt, unzip, zip
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a01e90ce90d6400fc7b446f02ade7b3a 2039 jss_4.8.0-2.dsc
+ 3d4a84570d51bca929dc443c12579cd4 993029 jss_4.8.0.orig.tar.gz
+ 322cc5d493d868b108fdb1ad0387dc26 14076 jss_4.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freeipa-team/jss
+Vcs-Git: https://salsa.debian.org/freeipa-team/jss.git
+Checksums-Sha256:
+ f1a5c4663be92fb5d8cbcd4c05d9496decc26273e5378fed5ab3fa29bf08f562 2039 jss_4.8.0-2.dsc
+ e0d4a793d393554b18916d2d66d5a87eea2a0face92471b14fea2e56a065cc8f 993029 jss_4.8.0.orig.tar.gz
+ b29148faaee7046e28631852a9e05bd43f1e8d66ee8c1df4460d6150c4dce461 14076 jss_4.8.0-2.debian.tar.xz
+Homepage: https://github.com/dogtagpki/jss
+Package-List: 
+ libjss-java deb java optional arch=any
+Directory: pool/main/j/jss
+Priority: source
+Section: java

@@ -1,0 +1,26 @@
+Package: python-opentracing
+Binary: python3-opentracing, python-opentracing-doc
+Version: 2.4.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Fabrice BAUZAC <noon@mykolab.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-doc, python3-docutils, python3-gevent, python3-mock, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-tornado, texinfo
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 564c4e6aff4067d901c3e48f5ec2109d 2322 python-opentracing_2.4.0-1.dsc
+ 5d5b906ffd9ab9043f991b218091ffac 52834 python-opentracing_2.4.0.orig.tar.gz
+ 86d62c8248c2303ce241460bb1c30fd4 4360 python-opentracing_2.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-opentracing
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-opentracing.git
+Checksums-Sha256:
+ 3b0ac1f57f7db36fb25c4e0756895e8a53a06de565b3b9becaadd9a54450e09d 2322 python-opentracing_2.4.0-1.dsc
+ 55ee4afc1f58cdc7d6c40bcc7f51568099619c1ef2cb78ddfd5c2cff871a500d 52834 python-opentracing_2.4.0.orig.tar.gz
+ c484220139d66babfff18179ff540ed642fb6f0c493429670eb02279a6e631e2 4360 python-opentracing_2.4.0-1.debian.tar.xz
+Homepage: https://github.com/opentracing/opentracing-python
+Package-List: 
+ python-opentracing-doc deb doc optional arch=all
+ python3-opentracing deb python optional arch=all
+Directory: pool/main/p/python-opentracing
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: libemail-sender-perl
+Binary: libemail-sender-perl
+Version: 1.300035-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>, Damyan Ivanov <dmn@debian.org>, Salvatore Bonaccorso <carnil@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcapture-tiny-perl <!nocheck>, libemail-abstract-perl <!nocheck>, libemail-address-xs-perl <!nocheck>, libemail-simple-perl <!nocheck>, libmodule-runtime-perl <!nocheck>, libmoo-perl (>= 2.000000) <!nocheck>, libmoox-types-mooselike-perl <!nocheck>, libscalar-list-utils-perl (>= 1:1.45) <!nocheck>, libsub-exporter-perl <!nocheck>, libsub-override-perl <!nocheck>, libtest-mockobject-perl <!nocheck>, libthrowable-perl <!nocheck>, libtry-tiny-perl <!nocheck>, perl (>= 5.23.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 458b16174dfaef75386710ae4de57ade 2997 libemail-sender-perl_1.300035-1.dsc
+ 6b247daa83ecfdae32f41e9686687a7a 52327 libemail-sender-perl_1.300035.orig.tar.gz
+ 53ffa8c3ed5c6bc28ec52df4c054e4a7 6252 libemail-sender-perl_1.300035-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libemail-sender-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libemail-sender-perl.git
+Checksums-Sha256:
+ 9125d464f076032cc5715fbf5c154cbc38b0816d2fd700539fd6cad8b53d563b 2997 libemail-sender-perl_1.300035-1.dsc
+ 144bd86cf768ea79107ca0e99291a818ce3bdfcfea79bb5f6da1379cc7d5da79 52327 libemail-sender-perl_1.300035.orig.tar.gz
+ 41b3065c766086614c095dd47f50902f7bd87b6e7a6fd9e1d5ffd87535fbf8ac 6252 libemail-sender-perl_1.300035-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Email-Sender
+Dgit: 8659e8331bcdca69fcd22d355f0d02b94c2f32bc debian archive/debian/1.300035-1 https://git.dgit.debian.org/libemail-sender-perl
+Package-List: 
+ libemail-sender-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libe/libemail-sender-perl
+Priority: source
+Section: perl

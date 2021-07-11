@@ -1,0 +1,27 @@
+Package: openscap
+Binary: libopenscap-dev, libopenscap8, python3-openscap, libopenscap-perl, libopenscap8-dbg
+Version: 1.3.4-1
+Maintainer: Pierre Chifflier <pollux@debian.org>
+Uploaders: Philippe Thierry <philou@debian.org>
+Build-Depends: debhelper (>= 13), cmake, libpcre3-dev, libxml2-dev, libxslt1-dev, swig, python3-all-dev, libperl-dev, libcurl4-openssl-dev | libcurl4-gnutls-dev | libcurl-dev, libgcrypt-dev, libapt-pkg-dev, libselinux1-dev [linux-any], libcap-dev [linux-any], libattr1-dev, libldap2-dev, libbz2-dev, pkg-config, dh-python, chrpath, libdbus-1-dev
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ da24db82dcf17df4f116a56ce33e6887 2372 openscap_1.3.4-1.dsc
+ ccab8609d3c08da51cd370ca4f41c5b3 14807442 openscap_1.3.4.orig.tar.gz
+ a7c41264b211d3384c33ece66bf64b36 70780 openscap_1.3.4-1.debian.tar.xz
+Checksums-Sha256:
+ 20c6ea5f8947e7b07bba05428e36b271e339a5298139ff8b8b86eaf272c3f556 2372 openscap_1.3.4-1.dsc
+ ee98f650f028819cfeda786d7e85dcadb74d827d4585f332ca03b217d4d82fb7 14807442 openscap_1.3.4.orig.tar.gz
+ 32fb65eab4e2e29003746bce130e01924dc88625213adc351ff8c3d5ce95b53d 70780 openscap_1.3.4-1.debian.tar.xz
+Homepage: http://www.open-scap.org/
+Package-List: 
+ libopenscap-dev deb libdevel optional arch=linux-any
+ libopenscap-perl deb perl optional arch=linux-any
+ libopenscap8 deb libs optional arch=linux-any
+ libopenscap8-dbg deb debug optional arch=linux-any
+ python3-openscap deb python optional arch=linux-any
+Directory: pool/main/o/openscap
+Priority: source
+Section: libs

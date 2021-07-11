@@ -1,0 +1,25 @@
+Package: maven-dependency-analyzer
+Binary: libmaven-dependency-analyzer-java
+Version: 1.11.1-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends: debhelper (>= 11~), default-jdk, junit4, libasm-java (>= 6.0), libjmock-java, libmaven-plugin-testing-java, libmaven3-core-java, libplexus-component-metadata-java (>= 1.6), libplexus-utils-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0c677b48b4144659331ebdf4326aa240 2365 maven-dependency-analyzer_1.11.1-1.dsc
+ 51c765e1ef112382049b2bb206fc1e51 23720 maven-dependency-analyzer_1.11.1.orig.tar.xz
+ 50038a50c784b56e98dcd8bbb50c3ba7 3560 maven-dependency-analyzer_1.11.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/maven-dependency-analyzer
+Vcs-Git: https://salsa.debian.org/java-team/maven-dependency-analyzer.git
+Checksums-Sha256:
+ 940b138885d7f6f124c8bf38a7ac2d840e6a99fc7c498c6054259781dfb64b98 2365 maven-dependency-analyzer_1.11.1-1.dsc
+ 31c8adf17c12ce286d9c6a73ed57a76166e2b3e390ba414555e20f5fa4946afa 23720 maven-dependency-analyzer_1.11.1.orig.tar.xz
+ fcd65ad57ae5710fb78fdcd581254d2c9d7f089343916bab9ec3f66b5417c026 3560 maven-dependency-analyzer_1.11.1-1.debian.tar.xz
+Homepage: http://maven.apache.org/shared/maven-dependency-analyzer/
+Package-List: 
+ libmaven-dependency-analyzer-java deb java optional arch=all
+Directory: pool/main/m/maven-dependency-analyzer
+Priority: source
+Section: java

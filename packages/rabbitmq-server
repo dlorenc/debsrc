@@ -1,0 +1,25 @@
+Package: rabbitmq-server
+Binary: rabbitmq-server
+Version: 3.8.9-3
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: James Page <james.page@ubuntu.com>, Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 10), dh-python, elixir (>= 1.6.6), erlang-base (>= 1:21.3), erlang-crypto (>= 1:21.3), erlang-dev (>= 1:21.3), erlang-edoc (>= 1:21.3), erlang-eldap (>= 1:21.3), erlang-erl-docgen (>= 1:21.3), erlang-eunit (>= 1:21.3), erlang-inets (>= 1:21.3), erlang-mnesia (>= 1:21.3), erlang-nox (>= 1:21.3), erlang-os-mon (>= 1:21.3), erlang-parsetools (>= 1:21.3), erlang-public-key (>= 1:21.3), erlang-runtime-tools (>= 1:21.3), erlang-src (>= 1:21.3), erlang-ssl (>= 1:21.3), erlang-syntax-tools (>= 1:21.3), erlang-tools (>= 1:21.3), erlang-xmerl (>= 1:21.3), locales-all, python3-all, python3-simplejson, rsync, unzip, xmlto, xsltproc, zip
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 93372f9a76dd2f3c74908d76a9cfb0c9 2664 rabbitmq-server_3.8.9-3.dsc
+ 15ac61eb000efd9c76c11fd886dd8035 3074468 rabbitmq-server_3.8.9.orig.tar.xz
+ d7cd639f26df0904e9bb5ecab9213903 22216 rabbitmq-server_3.8.9-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/third-party/rabbitmq-server
+Vcs-Git: https://salsa.debian.org/openstack-team/third-party/rabbitmq-server.git
+Checksums-Sha256:
+ 51b97d9321f868f6229bef14f54c5e52b217f06cbcc5a01204b75f2861578479 2664 rabbitmq-server_3.8.9-3.dsc
+ 1b4b764e2f1af29b464b3354f85d360fd505a1b10cb7155fc90816921315452c 3074468 rabbitmq-server_3.8.9.orig.tar.xz
+ f7bca6aa2812273149844f4ea9a612b7c1089b581934ede05e060602c3aa6938 22216 rabbitmq-server_3.8.9-3.debian.tar.xz
+Homepage: https://www.rabbitmq.com/
+Package-List: 
+ rabbitmq-server deb net optional arch=all
+Directory: pool/main/r/rabbitmq-server
+Priority: source
+Section: net

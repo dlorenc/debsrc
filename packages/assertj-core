@@ -1,0 +1,25 @@
+Package: assertj-core
+Binary: libassertj-core-java
+Version: 2.3.0-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, debhelper (>= 10), default-jdk, junit4, libcglib-nodep-java, libjarjar-maven-plugin-java, libmaven-bundle-plugin-java, libmockito-java, maven-debian-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ d88d8db9bbd75432c273b6f7d0c90a56 2170 assertj-core_2.3.0-4.dsc
+ a9cf1e32171dbe66d79d3faba41622f1 393084 assertj-core_2.3.0.orig.tar.xz
+ 6d414cb83b96c857bc6765466bda3049 3084 assertj-core_2.3.0-4.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/assertj-core.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/assertj-core.git
+Checksums-Sha256:
+ 7e18aab757994d84449d69d087c9f3d0d6c1fd6f124034bc4d6246b64ceaa15b 2170 assertj-core_2.3.0-4.dsc
+ e2726b746827fc51b3b6ea566a3802d638fd779300dd0aaeb74d2c51ebe2b23e 393084 assertj-core_2.3.0.orig.tar.xz
+ 8cc90c9027ec66683fa4a0233cac418be3287f5096c0c5a89b3254e6540bedc7 3084 assertj-core_2.3.0-4.debian.tar.xz
+Homepage: https://github.com/joel-costigliola/assertj-core
+Package-List: 
+ libassertj-core-java deb java optional arch=all
+Directory: pool/main/a/assertj-core
+Priority: optional
+Section: misc

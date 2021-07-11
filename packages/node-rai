@@ -1,0 +1,26 @@
+Package: node-rai
+Binary: node-rai
+Version: 0.1.12-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), nodeunit <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d6b878fb37161a3dcc21085850058577 2004 node-rai_0.1.12-4.dsc
+ 8589e2a64eba19900d080a6e8af9d9fa 12965 node-rai_0.1.12.orig.tar.gz
+ 782a6b65256a909f08f9c05d5c796463 8016 node-rai_0.1.12-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rai
+Vcs-Git: https://salsa.debian.org/js-team/node-rai.git
+Checksums-Sha256:
+ 7b26f3e77873663bce3cd6ac3bdaf632292af551ef64c376f1da4b3398d8a0ce 2004 node-rai_0.1.12-4.dsc
+ 18ed41d6297c5f1dc508f50feb8934f5f888a031440941eb255e0e77e3ac9234 12965 node-rai_0.1.12.orig.tar.gz
+ ef09100a5463d3941112b0579ecede510d846bf33886daa1524c74e8630b0ab7 8016 node-rai_0.1.12-4.debian.tar.xz
+Homepage: https://github.com/andris9/rai
+Package-List: 
+ node-rai deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-rai
+Priority: optional
+Section: javascript

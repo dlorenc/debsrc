@@ -1,0 +1,26 @@
+Package: rust-dissimilar
+Binary: librust-dissimilar-dev
+Version: 1.0.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 011e8a585d599344d5f6328adc38f750 2146 rust-dissimilar_1.0.1-1.dsc
+ 105b7cade0727b7943fd336842e41cc3 25580 rust-dissimilar_1.0.1.orig.tar.gz
+ 38cdad263a9a35fd8dba913e5d1b2e9f 9072 rust-dissimilar_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/dissimilar
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/dissimilar]
+Checksums-Sha256:
+ 35fa7b6fbf0364359360e9ada2085b415f022fdc4a742bae91dad1fcd1a3e6d8 2146 rust-dissimilar_1.0.1-1.dsc
+ 39de161cd2ebbd6e5783db53a82a47b6a47dcfef754130839603561745528b94 25580 rust-dissimilar_1.0.1.orig.tar.gz
+ 5fc5f475c658a7556f80b6c10b49690a9024a65834833c8623ef1ab670a6735a 9072 rust-dissimilar_1.0.1-1.debian.tar.xz
+Package-List: 
+ librust-dissimilar-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-dissimilar
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: hdf-compass
+Binary: hdf-compass, hdf-compass-doc, python3-hdf-compass
+Version: 0.7~b8-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, icoutils, python3-all, python3-h5py, python3-setuptools, python3-sphinx, python3-wheel, python3-wxgtk4.0
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 24695073ac87bf84755062312ed8353f 2315 hdf-compass_0.7~b8-3.dsc
+ 7fad2061d8375a2253bd12320fa935c5 499968 hdf-compass_0.7~b8.orig.tar.gz
+ 13edf9525287b2ed10998de0669be8fd 4956 hdf-compass_0.7~b8-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/hdf-compass
+Vcs-Git: https://salsa.debian.org/science-team/hdf-compass.git
+Checksums-Sha256:
+ 958328104deae38458beaae25162cc2c7b2bdeac612dfb39ca784d1a1271097b 2315 hdf-compass_0.7~b8-3.dsc
+ 31ca0616709634e3687ced740d4bf4049225163a2634a72eff9b6607c32f5d53 499968 hdf-compass_0.7~b8.orig.tar.gz
+ 562ff0a8958177f68523e5ec768710306c67357b0df60c4465d7f1a70da500b7 4956 hdf-compass_0.7~b8-3.debian.tar.xz
+Homepage: https://www.hdfgroup.org/projects/compass/
+Package-List: 
+ hdf-compass deb science optional arch=all
+ hdf-compass-doc deb doc optional arch=all
+ python3-hdf-compass deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-nose
+Directory: pool/main/h/hdf-compass
+Priority: optional
+Section: misc

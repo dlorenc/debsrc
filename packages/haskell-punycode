@@ -1,0 +1,28 @@
+Package: haskell-punycode
+Binary: libghc-punycode-dev, libghc-punycode-prof, libghc-punycode-doc
+Version: 2.0-12
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-cereal-dev, libghc-cereal-prof
+Build-Depends-Indep: ghc-doc, libghc-cereal-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d358fcb64ba507dbf2fb29f3c3e08b54 2362 haskell-punycode_2.0-12.dsc
+ 36b87090223cc82a9f37f8a69e89c874 6243 haskell-punycode_2.0.orig.tar.gz
+ af698a2192fe2319ff17e824760b416a 2672 haskell-punycode_2.0-12.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-punycode
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-punycode]
+Checksums-Sha256:
+ a5699a7a65b64475d0448ca48f1289707d1c1e0a243ac1813efa52abdcd394c8 2362 haskell-punycode_2.0-12.dsc
+ 59072915dbd5f94d5cc2e6ac84061b329ab84a9f22fd18a591ad5fdba37b52a4 6243 haskell-punycode_2.0.orig.tar.gz
+ 6a026b2050efe7e96af6d417679aa48dc47617bfee319479b96729cc79f596e9 2672 haskell-punycode_2.0-12.debian.tar.xz
+Homepage: https://github.com/litherum/punycode
+Package-List: 
+ libghc-punycode-dev deb haskell optional arch=any
+ libghc-punycode-doc deb doc optional arch=all
+ libghc-punycode-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-punycode
+Priority: source
+Section: misc

@@ -1,0 +1,27 @@
+Package: purify
+Binary: purify, libpurify2.0, libpurify-dev
+Version: 2.0.0-5
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Gijs Molenaar <gijs@pythonic.nl>, Ole Streicher <olebole@debian.org>
+Build-Depends: casacore-dev, catch, cmake, debhelper-compat (= 13), libblas-dev, libboost-dev, libccfits-dev, libeigen3-dev, libfftw3-dev, libsopt-dev, libspdlog-dev, libtiff5-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f45cf0f2012f832ca6bc5ac0289bc138 2214 purify_2.0.0-5.dsc
+ d46d9871ec5be1bc175ac9854c634a6a 39428267 purify_2.0.0.orig.tar.gz
+ 9d027d545a10d2b720d6139d52ec9d89 19008 purify_2.0.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/purify
+Vcs-Git: https://salsa.debian.org/debian-astro-team/purify.git
+Checksums-Sha256:
+ b8e5d77054980712e723013f329d8a5054cd33348411da3b720c5b70d67343e2 2214 purify_2.0.0-5.dsc
+ 9a350a7e14a9368644e9d16a00e47a1e339a181fc2bffea7202b0aa61a9b6c90 39428267 purify_2.0.0.orig.tar.gz
+ 93630554a80b3b9e167d76583a6ae0ea2f28b313c151fb1a2fe27dbbeed99a07 19008 purify_2.0.0-5.debian.tar.xz
+Homepage: https://astro-informatics.github.io/purify/
+Package-List: 
+ libpurify-dev deb libdevel optional arch=any
+ libpurify2.0 deb libs optional arch=any
+ purify deb science optional arch=any
+Directory: pool/main/p/purify
+Priority: optional
+Section: misc

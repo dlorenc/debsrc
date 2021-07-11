@@ -1,0 +1,29 @@
+Package: node-rollup-plugin-inject
+Binary: node-rollup-plugin-inject
+Version: 4.0.2+~3.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-estree-walker (>= 1.0.1), node-magic-string (>= 0.25.5), node-rollup-pluginutils (>= 3.0.4), node-rollup-plugin-buble (>= 0.21.0), node-source-map, node-tape <!nocheck>, node-typescript, rollup (>= 1.17~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5a0e3a1a9e53a561672145bc11e45f65 2823 node-rollup-plugin-inject_4.0.2+~3.0.2-1.dsc
+ 4c1163d1f855ed2c3f5dc2ddf4e33559 22728 node-rollup-plugin-inject_4.0.2+~3.0.2.orig-legacy.tar.xz
+ f2a4c1127409eb2ded0aefe245775ce5 290060 node-rollup-plugin-inject_4.0.2+~3.0.2.orig.tar.xz
+ 0955cea64519dc62daac1de26223e23b 3492 node-rollup-plugin-inject_4.0.2+~3.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rollup-plugin-inject
+Vcs-Git: https://salsa.debian.org/js-team/node-rollup-plugin-inject.git
+Checksums-Sha256:
+ c6b115fdc63e84b165ffb328c4628d481e462432d78d4119dbdc99ab3e54e382 2823 node-rollup-plugin-inject_4.0.2+~3.0.2-1.dsc
+ c0914a33989131f915c6284367b87262aec569196133ed882abf99dec9d4930a 22728 node-rollup-plugin-inject_4.0.2+~3.0.2.orig-legacy.tar.xz
+ 5865d08347446a941ce9e98298ed1d9f20cdc0718942cd0780947fafe3b6da69 290060 node-rollup-plugin-inject_4.0.2+~3.0.2.orig.tar.xz
+ 9f766d919a3258fe853471a0e46ec6dc1f7e6de62ce720fae886191968e69a8a 3492 node-rollup-plugin-inject_4.0.2+~3.0.2-1.debian.tar.xz
+Homepage: https://github.com/rollup/plugins#readme
+Package-List: 
+ node-rollup-plugin-inject deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/n/node-rollup-plugin-inject
+Priority: extra
+Section: misc

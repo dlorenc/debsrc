@@ -1,0 +1,28 @@
+Package: libvorbisidec
+Binary: libvorbisidec-dev, libvorbisidec1
+Version: 1.2.1+git20180316-7
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Ralph Giles <giles@thaumas.net> , Martin Steghöfer <martin@steghoefer.eu> , Petter Reinholdtsen <pere@debian.org>
+Build-Depends: debhelper-compat (= 13), libogg-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 07895eb9e864d9aa72bfb1c54743a3bb 2333 libvorbisidec_1.2.1+git20180316-7.dsc
+ 477c0b353fb9f9287b5133f19b1fd0c2 147673 libvorbisidec_1.2.1+git20180316.orig.tar.gz
+ 9b31924cf75d671261800eb9dd71930a 6660 libvorbisidec_1.2.1+git20180316-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libvorbisidec
+Vcs-Git: https://salsa.debian.org/multimedia-team/libvorbisidec.git
+Checksums-Sha256:
+ 87e3924d8303c28a3bbade36e907eed3f821f0d645046c2ed30bce8b8e193d5d 2333 libvorbisidec_1.2.1+git20180316-7.dsc
+ 491b88661544f55b17154407420b5d78d2ac35d12786ee030d0925eb6aec03da 147673 libvorbisidec_1.2.1+git20180316.orig.tar.gz
+ 17d7820056e25252cb43bfba401d380f2e4921fe7e4aa3b7225dfd9b76e9e383 6660 libvorbisidec_1.2.1+git20180316-7.debian.tar.xz
+Homepage: https://wiki.xiph.org/index.php/Tremor
+Package-List: 
+ libvorbisidec-dev deb libdevel optional arch=any
+ libvorbisidec1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config, sound-theme-freedesktop
+Directory: pool/main/libv/libvorbisidec
+Priority: source
+Section: libs

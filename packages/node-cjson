@@ -1,0 +1,26 @@
+Package: node-cjson
+Binary: node-cjson
+Version: 0.5.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-json-parse-helpfulerror <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 731fe54aff580974727d3c0c76104b34 2036 node-cjson_0.5.0-1.dsc
+ ca49895127ab9d021d7d4e18a5ee733d 6617 node-cjson_0.5.0.orig.tar.gz
+ db22360640b2f61358acbe0203f55608 2728 node-cjson_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cjson
+Vcs-Git: https://salsa.debian.org/js-team/node-cjson.git
+Checksums-Sha256:
+ a5f6191286f158872b9acfa7f8c7ecd8f3d63ec6c66798017a2b55e02a269b2d 2036 node-cjson_0.5.0-1.dsc
+ aa82ba281af8534ba1598350b490310fda6fb6e101cff65e2930da5b3d1ddc73 6617 node-cjson_0.5.0.orig.tar.gz
+ 67e859686377879797bcce1373c53fbf916c647b0e0252feed121af96e84356b 2728 node-cjson_0.5.0-1.debian.tar.xz
+Homepage: https://github.com/kof/node-cjson
+Package-List: 
+ node-cjson deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cjson
+Priority: optional
+Section: javascript

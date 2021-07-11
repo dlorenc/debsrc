@@ -1,0 +1,27 @@
+Package: datamash
+Binary: datamash
+Version: 1.7-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Alejandro Garrido Mota <alejandro@debian.org>
+Build-Depends: debhelper-compat (= 13), bash-completion, pkg-config, gperf
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a425d0595c90c9448dc64f7da43ff2d6 2047 datamash_1.7-2.dsc
+ e5474d3bfee13e7ab1c44ebaec497a0d 2183886 datamash_1.7.orig.tar.gz
+ 0463975096ca88de8afbce6029eb2e84 9860 datamash_1.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/datamash
+Vcs-Git: https://salsa.debian.org/science-team/datamash.git
+Checksums-Sha256:
+ d63efe94178954a5abb798a6074380b0ac8187cb8fb32e7737044e88c247aee6 2047 datamash_1.7-2.dsc
+ 574a592bb90c5ae702ffaed1b59498d5e3e7466a8abf8530c5f2f3f11fa4adb3 2183886 datamash_1.7.orig.tar.gz
+ af39963a17a893459b550ea5a64776149d0141decf392c2f59a59a4b5193e72f 9860 datamash_1.7-2.debian.tar.xz
+Homepage: https://savannah.gnu.org/projects/datamash/
+Package-List: 
+ datamash deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: shunit2
+Directory: pool/main/d/datamash
+Priority: optional
+Section: misc

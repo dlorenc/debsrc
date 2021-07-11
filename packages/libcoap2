@@ -1,0 +1,28 @@
+Package: libcoap2
+Binary: libcoap2, libcoap2-bin, libcoap2-dev, libcoap2-doc
+Version: 4.2.1-1
+Maintainer: Debian IoT Maintainers <debian-iot-maintainers@lists.alioth.debian.org>
+Uploaders: Carsten Schoenert <c.schoenert@t-online.de>,
+Build-Depends: asciidoc, debhelper-compat (= 12), doxygen, exuberant-ctags, graphviz, libgnutls28-dev, libssl-dev, pkg-config, xmlto
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fb5513bebedac07f19cb9296dea7f387 2222 libcoap2_4.2.1-1.dsc
+ 377391cdf62ad361a9554db6faa34d27 557748 libcoap2_4.2.1.orig.tar.bz2
+ 34aeaae901aae26d09710d64f9846621 7788 libcoap2_4.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-iot-team/libcoap2
+Vcs-Git: https://salsa.debian.org/debian-iot-team/libcoap2.git
+Checksums-Sha256:
+ 42d9d2a5f7e311a2a110f721cb6cf7d4a9f77b80817a152c391e4148152f00a8 2222 libcoap2_4.2.1-1.dsc
+ 0dca6aecb306717d175906adcbf76d11dfa3d897894a1f13d4f5d02d1a4342a2 557748 libcoap2_4.2.1.orig.tar.bz2
+ 8eb25af2531a6bf5a8fcedb6980ba80ef59615141d1568114b97340363bdd205 7788 libcoap2_4.2.1-1.debian.tar.xz
+Homepage: https://libcoap.net/
+Package-List: 
+ libcoap2 deb libs optional arch=any
+ libcoap2-bin deb libs optional arch=any
+ libcoap2-dev deb libdevel optional arch=any
+ libcoap2-doc deb doc optional arch=all
+Directory: pool/main/libc/libcoap2
+Priority: extra
+Section: misc

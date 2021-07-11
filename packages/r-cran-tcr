@@ -1,0 +1,26 @@
+Package: r-cran-tcr
+Binary: r-cran-tcr
+Version: 2.3.2+ds-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2, r-cran-dplyr, r-cran-gridextra, r-cran-reshape2, r-cran-igraph, r-cran-rcpp, r-cran-data.table, r-cran-gtable, r-cran-stringdist, r-cran-scales (>= 0.3.0)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f9c3d73ad3654ed4863818ff6d42eab2 2209 r-cran-tcr_2.3.2+ds-1.dsc
+ 6f65ca0971516070482f276787ccd29c 1555638 r-cran-tcr_2.3.2+ds.orig.tar.gz
+ e74cca5f1c7521b268cf18394b4e0c16 3004 r-cran-tcr_2.3.2+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-tcr
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-tcr.git
+Checksums-Sha256:
+ d4c0dacf331b18f100d812a7c11ae10053f1d4b723d9b643c9f11e201dc32afc 2209 r-cran-tcr_2.3.2+ds-1.dsc
+ ecdaf6461e118d9d2ea3bc6576825eac474aaa7f9bff14994c4710b11ab56ca7 1555638 r-cran-tcr_2.3.2+ds.orig.tar.gz
+ f08f1b48e7f992461d886bba31b4cf7aa1f6dfa7b5a9850335a1ab6a875ee1c6 3004 r-cran-tcr_2.3.2+ds-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=tcR
+Package-List: 
+ r-cran-tcr deb gnu-r optional arch=any
+Testsuite: autopkgtest-pkg-r
+Directory: pool/main/r/r-cran-tcr
+Priority: extra
+Section: misc

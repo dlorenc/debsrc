@@ -1,0 +1,28 @@
+Package: libnewuoa
+Binary: libnewuoa-dev, libnewuoa0
+Version: 0.1.1-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Maarten L. Hekkelman <maarten@hekkelman.com>
+Build-Depends: debhelper-compat (= 13), cmake
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 31af6f29e1cbee3e3dd92a33d31757b8 2083 libnewuoa_0.1.1-2.dsc
+ b728ee798d3b3d4730db722eedd348fc 17787 libnewuoa_0.1.1.orig.tar.gz
+ 0572d4d8b91e89381a4748c4634d7c77 3396 libnewuoa_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libnewuoa
+Vcs-Git: https://salsa.debian.org/med-team/libnewuoa.git
+Checksums-Sha256:
+ 8ad3a1cd2a09e5b48ac72d4576849008a5033f8c9bed1e2901ffe9e093dc83c7 2083 libnewuoa_0.1.1-2.dsc
+ ca2b919dc78798fec4a0c544cac6405486db44a6aa1c40abbcaa34eb83c39862 17787 libnewuoa_0.1.1.orig.tar.gz
+ f43d0b6307c273ee590a3c17d866884e604a6852cf1ed40b964a5bfabe649cde 3396 libnewuoa_0.1.1-2.debian.tar.xz
+Homepage: https://github.com/elsid/newuoa-cpp
+Package-List: 
+ libnewuoa-dev deb libdevel optional arch=any
+ libnewuoa0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/libn/libnewuoa
+Priority: extra
+Section: misc

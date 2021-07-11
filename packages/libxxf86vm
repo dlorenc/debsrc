@@ -1,0 +1,25 @@
+Package: libxxf86vm
+Binary: libxxf86vm1, libxxf86vm1-dbg, libxxf86vm-dev
+Version: 1:1.1.4-1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libx11-dev (>= 1:0.99.2), x11proto-xf86vidmode-dev (>= 2.2.99.1), libx11-6 (>= 2:1.6), libxext-dev (>= 1:0.99.1), pkg-config, quilt, xutils-dev (>= 1:7.5+4)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 1.0
+Files:
+ 3b2443594d7874b1aac54f5b4acc63dd 2078 libxxf86vm_1.1.4-1.dsc
+ 675bd0c521472628d5796602f625ef51 363146 libxxf86vm_1.1.4.orig.tar.gz
+ 42d45a8140a9912f20bf4427e2f33e3d 8040 libxxf86vm_1.1.4-1.diff.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxxf86vm.git
+Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxxf86vm
+Checksums-Sha256:
+ 5a3aded030a415b0d6c201d2b9d3af36f241dc981f10052fd4c2b56d59597838 2078 libxxf86vm_1.1.4-1.dsc
+ 5108553c378a25688dcb57dca383664c36e293d60b1505815f67980ba9318a99 363146 libxxf86vm_1.1.4.orig.tar.gz
+ e0f11739d28c7a4475820ebda26e6f29e6cfa80b99a3513c075471132c81725b 8040 libxxf86vm_1.1.4-1.diff.gz
+Package-List: 
+ libxxf86vm-dev deb libdevel optional arch=any
+ libxxf86vm1 deb libs optional arch=any
+ libxxf86vm1-dbg deb debug extra arch=any
+Directory: pool/main/libx/libxxf86vm
+Priority: source
+Section: x11

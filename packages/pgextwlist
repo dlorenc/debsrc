@@ -1,0 +1,27 @@
+Package: pgextwlist
+Binary: postgresql-13-pgextwlist
+Version: 1.11-4
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Dimitri Fontaine <dim@tapoueh.org>, Christoph Berg <myon@debian.org>,
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 219~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1c2e367635689eac2c64a3153d022d74 2066 pgextwlist_1.11-4.dsc
+ e22b52a9916edc40078ef7407fe0d03c 17229 pgextwlist_1.11.orig.tar.gz
+ cb51ab0f9ff1124add0e6b9cf2541179 2972 pgextwlist_1.11-4.debian.tar.xz
+Vcs-Browser: https://github.com/dimitri/pgextwlist
+Vcs-Git: https://github.com/dimitri/pgextwlist.git
+Checksums-Sha256:
+ 5a49f50a55aff32a1fd14339e415a2f60563b4d514a7b4f0408b358ee8026e9e 2066 pgextwlist_1.11-4.dsc
+ 07a89eb55a5c704ffac9644c4321b5c3f5ae3f8acde5b53f6512d9bc1596f51f 17229 pgextwlist_1.11.orig.tar.gz
+ 7b9e08367b4ac531d03d6a65747c91d911a53995aed0024068a5d7b616f1a616 2972 pgextwlist_1.11-4.debian.tar.xz
+Homepage: https://github.com/dimitri/pgextwlist
+Package-List: 
+ postgresql-13-pgextwlist deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make, postgresql-contrib-13
+Directory: pool/main/p/pgextwlist
+Priority: optional
+Section: misc

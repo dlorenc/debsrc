@@ -1,0 +1,27 @@
+Package: ruby-redis-namespace
+Binary: ruby-redis-namespace
+Version: 1.7.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, procps, redis-server, ruby-redis (>= 3.0.4), ruby-rspec, ruby-rspec-its
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bdb83b62f36963702b2e8a6c447fb5a5 2194 ruby-redis-namespace_1.7.0-1.dsc
+ c1e5814dadf44a96b7066b1c77874a8b 14442 ruby-redis-namespace_1.7.0.orig.tar.gz
+ 561a4cd0436a4e3a58612125af1878b7 3240 ruby-redis-namespace_1.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-redis-namespace
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-redis-namespace.git
+Checksums-Sha256:
+ 6ee1d1d31b335563042f148b89d23382979f0dc785169749764263c83931639e 2194 ruby-redis-namespace_1.7.0-1.dsc
+ decc61ba2619a958f90f98afb483dacba09021e45310c5066027f9dd296666e5 14442 ruby-redis-namespace_1.7.0.orig.tar.gz
+ b10ad7b5dbd9ce7184e071fdef6c6ff90aa468d12198801ee4f1be55301a6185 3240 ruby-redis-namespace_1.7.0-1.debian.tar.xz
+Homepage: https://github.com/resque/redis-namespace
+Package-List: 
+ ruby-redis-namespace deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-redis-namespace
+Priority: optional
+Section: misc

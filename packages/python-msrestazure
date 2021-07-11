@@ -1,0 +1,27 @@
+Package: python-msrestazure
+Binary: python3-msrestazure
+Version: 0.6.2-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>, Nicolas Dandrimont <olasd@debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, python3-adal (>= 0.6.0), python3-all, python3-httpretty, python3-mock, python3-msrest (>= 0.6.3), python3-pytest, python3-pytest-asyncio, python3-setuptools
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ fbe5e97feeb69e936e8231ba3168cd21 2470 python-msrestazure_0.6.2-1.dsc
+ 7014d7ae13747139fa25f017d758972b 47673 python-msrestazure_0.6.2.orig.tar.gz
+ 67616a4acc6ef892dbebb7a40649ecc3 2976 python-msrestazure_0.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-msrestazure
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-msrestazure.git
+Checksums-Sha256:
+ de8d788d58d889ed588b89463a6071a5b9e99060865a5a4bc603bac62ac99f70 2470 python-msrestazure_0.6.2-1.dsc
+ f74d814304ef11ba75073ad55d284eb9a4d6da8425a245548ac7859f69736418 47673 python-msrestazure_0.6.2.orig.tar.gz
+ 53c724d774d0c95b6255b78bd1a268a59cfaa53af5917192d86ace03b23d72c7 2976 python-msrestazure_0.6.2-1.debian.tar.xz
+Homepage: https://github.com/Azure/msrestazure-for-python
+Package-List: 
+ python3-msrestazure deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-httpretty, python3-mock, python3-pytest, python3-pytest-asyncio
+Directory: pool/main/p/python-msrestazure
+Priority: optional
+Section: misc

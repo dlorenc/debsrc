@@ -1,0 +1,38 @@
+Package: poppler
+Binary: libpoppler102, libpoppler-dev, libpoppler-private-dev, libpoppler-glib8, libpoppler-glib-dev, libpoppler-glib-doc, gir1.2-poppler-0.18, libpoppler-qt5-1, libpoppler-qt5-dev, libpoppler-cpp0v5, libpoppler-cpp-dev, poppler-utils
+Version: 20.09.0-3.1
+Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
+Uploaders: Loic Minier <lool@dooz.org>, Pino Toscano <pino@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>,
+Build-Depends: debhelper (>= 11), dpkg (>= 1.16.1), cmake, libboost-dev (>= 1.58.0), libglib2.0-dev (>= 2.41), libfontconfig1-dev, libcairo2-dev (>= 1.10.0), libopenjp2-7-dev, libjpeg-dev, libpng-dev, libtiff-dev, liblcms2-dev, libfreetype6-dev, gtk-doc-tools (>= 1.14), pkg-config (>= 0.18), python3:any, libgirepository1.0-dev (>= 1.42.0-2~), gobject-introspection (>= 1.42.0-2~), qtbase5-dev, zlib1g-dev, libnss3-dev
+Build-Depends-Indep: libglib2.0-doc, libcairo2-doc
+Architecture: any all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 1c7e8185b789b806a3ce7b214a4b15c6 3248 poppler_20.09.0-3.1.dsc
+ 969328317ed60213f78b3502b074b72e 1642932 poppler_20.09.0.orig.tar.xz
+ 69e2e292891826374dfcfbd1d14f8f14 34000 poppler_20.09.0-3.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freedesktop-team/poppler
+Vcs-Git: https://salsa.debian.org/freedesktop-team/poppler.git
+Checksums-Sha256:
+ 8ddc4e09e6b03065e6705544923cf16a5e026730cc7fc5279fa463d99f1e0384 3248 poppler_20.09.0-3.1.dsc
+ 4ed6eb5ddc4c37f2435c9d78ff9c7c4036455aea3507d1ce8400070aab745363 1642932 poppler_20.09.0.orig.tar.xz
+ adfb3883faf8846cd62c6861964324191fe12dcd4af54a8d872970d020d0f7d0 34000 poppler_20.09.0-3.1.debian.tar.xz
+Homepage: http://poppler.freedesktop.org/
+Package-List: 
+ gir1.2-poppler-0.18 deb introspection optional arch=any
+ libpoppler-cpp-dev deb libdevel optional arch=any
+ libpoppler-cpp0v5 deb libs optional arch=any
+ libpoppler-dev deb libdevel optional arch=any
+ libpoppler-glib-dev deb libdevel optional arch=any
+ libpoppler-glib-doc deb doc optional arch=all
+ libpoppler-glib8 deb libs optional arch=any
+ libpoppler-private-dev deb libdevel optional arch=any
+ libpoppler-qt5-1 deb libs optional arch=any
+ libpoppler-qt5-dev deb libdevel optional arch=any
+ libpoppler102 deb libs optional arch=any
+ poppler-utils deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/poppler
+Priority: source
+Section: devel

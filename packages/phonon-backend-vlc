@@ -1,0 +1,27 @@
+Package: phonon-backend-vlc
+Binary: phonon4qt5-backend-vlc
+Version: 0.11.2-1
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>, Diane Trout <diane@ghic.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), extra-cmake-modules (>= 5.60~), libphonon4qt5-dev (>= 4:4.10.60~), libphonon4qt5experimental-dev (>= 4:4.10.60~), libv4l-dev [linux-any], libvlc-dev (>= 2.1.0), libvlccore-dev (>= 2.1.0), libx11-dev, pkg-config, pkg-kde-tools (>= 0.12), qtbase5-dev, qttools5-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 32da88ac28ecc0a8c81df7195b311d10 2696 phonon-backend-vlc_0.11.2-1.dsc
+ 182c543f0601b63b629580b489905cb8 66096 phonon-backend-vlc_0.11.2.orig.tar.xz
+ 86dc55019b842ce37d88869e0ebd0c5d 833 phonon-backend-vlc_0.11.2.orig.tar.xz.asc
+ 77e951f58328c3209b97c78d4db497fd 10312 phonon-backend-vlc_0.11.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/phonon-backend-vlc
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/phonon-backend-vlc.git
+Checksums-Sha256:
+ 10db70a15cdfc26593d00c349b6e3d94d705ac50ec6b395465f9da9865748368 2696 phonon-backend-vlc_0.11.2-1.dsc
+ c6c33bfc68d137f0e57a029e4b798cbb90f54af6f731af49677857791ccd53a5 66096 phonon-backend-vlc_0.11.2.orig.tar.xz
+ a532a98fc958250416d766f8bb5ebae00282ac6c2999b1f421c0a08f65cdaa10 833 phonon-backend-vlc_0.11.2.orig.tar.xz.asc
+ 5d055d27ab77d3f5ca3621024a9f26c49d4afce776bd110dddea9b48f5a1fba5 10312 phonon-backend-vlc_0.11.2-1.debian.tar.xz
+Homepage: https://commits.kde.org/phonon-vlc
+Package-List: 
+ phonon4qt5-backend-vlc deb sound optional arch=any
+Directory: pool/main/p/phonon-backend-vlc
+Priority: source
+Section: sound

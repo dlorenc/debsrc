@@ -1,0 +1,26 @@
+Package: node-dottie
+Binary: node-dottie
+Version: 2.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: chai <!nocheck>, debhelper-compat (= 12), mocha <!nocheck>, pkg-js-tools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3b462e1505922ec4937e2b833b6d79fa 2060 node-dottie_2.0.2-1.dsc
+ 8db389f521942b27ad6835a6bf159e34 8488 node-dottie_2.0.2.orig.tar.xz
+ b06144cf3a74a65d95eac474029493bb 1888 node-dottie_2.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-dottie
+Vcs-Git: https://salsa.debian.org/js-team/node-dottie.git
+Checksums-Sha256:
+ 3c15257b8b59b0cb936e0fffb4019973155681d996047b9bf2c9b08265e5f645 2060 node-dottie_2.0.2-1.dsc
+ 650e7c9df0d09e6554f6d0ffd6f17f1d46646dc38cb98ce43747aa2555c49cbf 8488 node-dottie_2.0.2.orig.tar.xz
+ b3dddea39575fd012f4df7ba03b64b810631f8c9707ee567f66e5fed3e161c1e 1888 node-dottie_2.0.2-1.debian.tar.xz
+Homepage: https://github.com/mickhansen/dottie.js
+Package-List: 
+ node-dottie deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-dottie
+Priority: extra
+Section: misc

@@ -1,0 +1,30 @@
+Package: libx11
+Binary: libx11-6, libx11-6-udeb, libx11-data, libx11-dev, libx11-xcb1, libx11-xcb-dev, libx11-doc
+Version: 2:1.7.1-1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.18.0), pkg-config, xtrans-dev, x11proto-dev, libxcb1-dev (>= 1.11.1), quilt, xutils-dev (>= 1:7.6+2)
+Build-Depends-Indep: xmlto, xorg-sgml-doctools (>= 1:1.10), w3m
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 1.0
+Files:
+ 5e4131a7152c028918249d731509f218 2294 libx11_1.7.1-1.dsc
+ 6ea2defd5b248aeaa9be47a2169657fc 3169116 libx11_1.7.1.orig.tar.gz
+ f2bc893f2bae01b29117964782e85128 75515 libx11_1.7.1-1.diff.gz
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libx11
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/libx11
+Checksums-Sha256:
+ 84b5f56f80062322a53f47c686e86fcecdd02e51021aff089e7069054f55bc3d 2294 libx11_1.7.1-1.dsc
+ 7e6d4120696e90995e66ac24f1042d4f11c14fbefd7aab48de0ed1fe3c4b922b 3169116 libx11_1.7.1.orig.tar.gz
+ 3fd46b5916adad16252949cdd045bd8d52098fa8d46ed3c1075022d12c42be96 75515 libx11_1.7.1-1.diff.gz
+Package-List: 
+ libx11-6 deb libs optional arch=any
+ libx11-6-udeb udeb debian-installer optional arch=any
+ libx11-data deb x11 optional arch=all
+ libx11-dev deb libdevel optional arch=any
+ libx11-doc deb doc optional arch=all
+ libx11-xcb-dev deb libdevel optional arch=any
+ libx11-xcb1 deb libs optional arch=any
+Directory: pool/main/libx/libx11
+Priority: source
+Section: x11

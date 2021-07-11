@@ -1,0 +1,29 @@
+Package: rust-ena
+Binary: librust-ena-dev, librust-ena+congruence-closure-dev, librust-ena+dogged-dev
+Version: 0.14.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Matt Kraai <kraai@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9c147ebd173a26c0a3aacb7a6e083f79 1721 rust-ena_0.14.0-1.dsc
+ 25e033b68503b1eb640318d93b08ccc2 23052 rust-ena_0.14.0.orig.tar.gz
+ 0f2726da7c103cb3a05ad38e9742ef04 3236 rust-ena_0.14.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ena
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ena]
+Checksums-Sha256:
+ 684fb0fe1d92df8a7c6f6ee809a110e431f1907728e06ebc46a8d3c52dbe1a30 1721 rust-ena_0.14.0-1.dsc
+ d7402b94a93c24e742487327a7cd839dc9d36fec9de9fb25b09f2dae459f36c3 23052 rust-ena_0.14.0.orig.tar.gz
+ c5ead0e9b5a960e97960892837a5632b0edab08434691590a680977f04c0476c 3236 rust-ena_0.14.0-1.debian.tar.xz
+Homepage: https://github.com/rust-lang-nursery/ena
+Package-List: 
+ librust-ena+congruence-closure-dev deb rust optional arch=any
+ librust-ena+dogged-dev deb rust optional arch=any
+ librust-ena-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-ena
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: rust-num-iter
+Binary: librust-num-iter-dev, librust-num-iter+i128-dev, librust-num-iter+std-dev
+Version: 0.1.40-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-autocfg-1+default-dev <!nocheck>, librust-num-integer-0.1+std-dev (>= 0.1.42-~~) <!nocheck>, librust-num-integer-0.1-dev (>= 0.1.42-~~) <!nocheck>, librust-num-traits-0.2+std-dev (>= 0.2.11-~~) <!nocheck>, librust-num-traits-0.2-dev (>= 0.2.11-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 79f3aed789d0ed7c32e4f2cbbd9e96bd 2252 rust-num-iter_0.1.40-1.dsc
+ 7ea8e5ad906d517aa522b8fcbc49e8dd 9659 rust-num-iter_0.1.40.orig.tar.gz
+ 1926f694d772b1468a4819d71a261fd8 2900 rust-num-iter_0.1.40-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-iter
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-iter]
+Checksums-Sha256:
+ 403537277a5575e7688a50005fbe2d2951389abcd1446e75419f6da80543fc48 2252 rust-num-iter_0.1.40-1.dsc
+ dfb0800a0291891dd9f4fe7bd9c19384f98f7fbe0cd0f39a2c6b88b9868bbc00 9659 rust-num-iter_0.1.40.orig.tar.gz
+ bc951ddb270659ca6f501cd2c2c03c56dbc494a25472120b87a6cae873aa8b23 2900 rust-num-iter_0.1.40-1.debian.tar.xz
+Homepage: https://github.com/rust-num/num-iter
+Package-List: 
+ librust-num-iter+i128-dev deb rust optional arch=any
+ librust-num-iter+std-dev deb rust optional arch=any
+ librust-num-iter-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-num-iter
+Priority: extra
+Section: misc

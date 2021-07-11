@@ -1,0 +1,28 @@
+Package: liblatex-driver-perl
+Binary: liblatex-driver-perl
+Version: 1.2.0-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-install-perl
+Build-Depends-Indep: ghostscript <!nocheck>, libcapture-tiny-perl <!nocheck>, libclass-accessor-perl <!nocheck>, libexception-class-perl <!nocheck>, libfile-pushd-perl <!nocheck>, libfile-slurp-perl <!nocheck>, liblog-any-perl <!nocheck>, libreadonly-perl <!nocheck>, libtemplate-perl <!nocheck>, libtest-exception-perl <!nocheck>, lmodern <!nocheck>, perl, texlive-binaries <!nocheck>, texlive-latex-base, texlive-latex-extra <!nocheck>, texlive-xetex <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5632b7d3ba9ca93ae74c85625f340903 2856 liblatex-driver-perl_1.2.0-1.dsc
+ 6abd6edefc3086a7e374c23f450d15bd 55293 liblatex-driver-perl_1.2.0.orig.tar.gz
+ 26197c9490badbb50fee8243f30563a1 5768 liblatex-driver-perl_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/liblatex-driver-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/liblatex-driver-perl.git
+Checksums-Sha256:
+ 75fc8b7d8d4a218b7d51d559aade761a2040663eb2a18c8d271e03931e7c5e73 2856 liblatex-driver-perl_1.2.0-1.dsc
+ 5fb817072ef5b679f03845e3b24dad2f136ac7246336ca47d217c0b8e84cccf9 55293 liblatex-driver-perl_1.2.0.orig.tar.gz
+ 2119cb53e60e2d81b8e49082eb6c7286557e08470b54df567678f784333fbab6 5768 liblatex-driver-perl_1.2.0-1.debian.tar.xz
+Homepage: https://metacpan.org/release/LaTeX-Driver
+Dgit: c0a1d191933f084a15a53eba229dcbe1c9d858c3 debian archive/debian/1.2.0-1 https://git.dgit.debian.org/liblatex-driver-perl
+Package-List: 
+ liblatex-driver-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libl/liblatex-driver-perl
+Priority: source
+Section: perl

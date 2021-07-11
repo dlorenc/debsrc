@@ -1,0 +1,26 @@
+Package: javatuples
+Binary: libjavatuples-java
+Version: 1.2-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Eugene Zhukov <jevgeni.zh@gmail.com>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 1.5)
+Build-Depends-Indep: junit4, libcommons-lang-java (>= 2.5)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e6a575d8b02ca9fb0f887eaafa61a549 2026 javatuples_1.2-2.dsc
+ 80eaa902480a4fc5831632cfbda0a68e 40820 javatuples_1.2.orig.tar.gz
+ 0690e42799f7ba465c85af60ebca5ccc 2716 javatuples_1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/javatuples
+Vcs-Git: https://salsa.debian.org/java-team/javatuples.git
+Checksums-Sha256:
+ 4ca7b2910b7f0869b60dfc10c27b5205e4ec52125336a431a3c3fdbf4a388cc1 2026 javatuples_1.2-2.dsc
+ c0f94b2cbc6063f1389926fae558dbb8812ded89ae6740b224a914c719268404 40820 javatuples_1.2.orig.tar.gz
+ f4abc0370746a2c76f3f91b348dce05b0e2e1045ba4cf49c40fc227e71d24269 2716 javatuples_1.2-2.debian.tar.xz
+Homepage: http://www.javatuples.org
+Package-List: 
+ libjavatuples-java deb java optional arch=all
+Directory: pool/main/j/javatuples
+Priority: optional
+Section: misc

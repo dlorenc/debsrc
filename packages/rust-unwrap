@@ -1,0 +1,27 @@
+Package: rust-unwrap
+Binary: librust-unwrap-dev
+Version: 1.2.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 8e0aeb496d6a3af9791f6f2082516dc1 2126 rust-unwrap_1.2.1-2.dsc
+ 9ef995efe5ba9e3c6a3b7a74d1743090 3584 rust-unwrap_1.2.1.orig.tar.gz
+ e423cec5b504af48f934dc863bb15f1f 2964 rust-unwrap_1.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unwrap
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unwrap]
+Checksums-Sha256:
+ 97e570100b49006483d41ee59b25c8c8e1b19b78ff1a5898d89f5ae263a8dbae 2126 rust-unwrap_1.2.1-2.dsc
+ 7e33648dd74328e622c7be51f3b40a303c63f93e6fa5f08778b6203a4c25c20f 3584 rust-unwrap_1.2.1.orig.tar.gz
+ c513518ed555f060b8c12035872c3e65b62fe077882ff2b2ae655a49a426bcad 2964 rust-unwrap_1.2.1-2.debian.tar.xz
+Homepage: https://github.com/canndrew/unwrap
+Package-List: 
+ librust-unwrap-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-unwrap
+Priority: extra
+Section: misc

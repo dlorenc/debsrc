@@ -1,0 +1,28 @@
+Package: haskell-tasty-kat
+Binary: libghc-tasty-kat-dev, libghc-tasty-kat-prof, libghc-tasty-kat-doc
+Version: 0.0.3-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-tasty-dev, libghc-tasty-prof
+Build-Depends-Indep: ghc-doc, libghc-tasty-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8500d63b480759eedf491beeea7c40e5 2386 haskell-tasty-kat_0.0.3-10.dsc
+ 88a3ecccae17a677399f09c27c9feaf9 6167 haskell-tasty-kat_0.0.3.orig.tar.gz
+ 8591a1fb957dba8431171c5f7ca71f28 2624 haskell-tasty-kat_0.0.3-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-tasty-kat
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-tasty-kat]
+Checksums-Sha256:
+ 66052e77bdb2facb62fb305576409a683b5c131b0bf81baedee42d21fcd3df95 2386 haskell-tasty-kat_0.0.3-10.dsc
+ a72501f0f77db372648566bbba1dd1d6d0d0c975b42238875d663313e9a5db93 6167 haskell-tasty-kat_0.0.3.orig.tar.gz
+ f785db6ab11d63d486807f47bbc9af5462de5f78f11c6f72a131ffc23a6c7868 2624 haskell-tasty-kat_0.0.3-10.debian.tar.xz
+Homepage: https://github.com/vincenthz/tasty-kat
+Package-List: 
+ libghc-tasty-kat-dev deb haskell optional arch=any
+ libghc-tasty-kat-doc deb doc optional arch=all
+ libghc-tasty-kat-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-tasty-kat
+Priority: optional
+Section: misc

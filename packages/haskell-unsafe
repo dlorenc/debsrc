@@ -1,0 +1,26 @@
+Package: haskell-unsafe
+Binary: libghc-unsafe-dev, libghc-unsafe-prof, libghc-unsafe-doc
+Version: 0.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 326913683b7c5a2168df554ddd538c0c 2112 haskell-unsafe_0.0-2.dsc
+ 3f047c839b42c62160c3b8e5de447c42 2347 haskell-unsafe_0.0.orig.tar.gz
+ c2a32297c13f5b1a945ffd0acc9a3466 2224 haskell-unsafe_0.0-2.debian.tar.xz
+Checksums-Sha256:
+ 25a1a6324dd325ad3b98f721af49f9153e565485f6bcf973507c618a31980307 2112 haskell-unsafe_0.0-2.dsc
+ df0a74ccf7b43956c1b5decd5580e235317d1f96a1bbd75e117fc21143ee8641 2347 haskell-unsafe_0.0.orig.tar.gz
+ 6d074e4eb1a712449d77e4602501bc98d21499298498c839a2ff71ac9695329f 2224 haskell-unsafe_0.0-2.debian.tar.xz
+Homepage: http://code.haskell.org/~thielema/unsafe/
+Package-List: 
+ libghc-unsafe-dev deb haskell optional arch=any
+ libghc-unsafe-doc deb doc optional arch=all
+ libghc-unsafe-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-unsafe
+Priority: extra
+Section: misc

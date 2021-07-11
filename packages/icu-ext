@@ -1,0 +1,27 @@
+Package: icu-ext
+Binary: postgresql-13-icu-ext
+Version: 1.6.2-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>,
+Build-Depends: debhelper-compat (= 13), libicu-dev, postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8fa6d6ac1aadbd0871f0d2e8c4c5e3cf 2012 icu-ext_1.6.2-1.dsc
+ 06eb3ed9f50154c82b6d588ffd782762 26123 icu-ext_1.6.2.orig.tar.gz
+ 1ec43865c8098d510c6833965804f562 2152 icu-ext_1.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/icu-ext
+Vcs-Git: https://salsa.debian.org/postgresql/icu-ext.git
+Checksums-Sha256:
+ 248eb9791e41b89ed4814bcd841e7c9f56cc360c9f969470844a827a7766da2c 2012 icu-ext_1.6.2-1.dsc
+ 69cf7a142a74542f140f147ec1524d4262ccfd7f1fa8b2bbb872926f4b5511c6 26123 icu-ext_1.6.2.orig.tar.gz
+ 28e6344ed12f3978fdba1accddb26f75e96f0cde90cd3271a64e00bbc4b43663 2152 icu-ext_1.6.2-1.debian.tar.xz
+Homepage: https://github.com/dverite/icu_ext
+Package-List: 
+ postgresql-13-icu-ext deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/i/icu-ext
+Priority: extra
+Section: misc

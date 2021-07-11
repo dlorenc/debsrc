@@ -1,0 +1,28 @@
+Package: mailmanclient
+Binary: python3-mailmanclient
+Version: 3.3.2-1
+Maintainer: Debian Mailman Team <pkg-mailman-hackers@lists.alioth.debian.org>
+Uploaders: Pierre-Elliott Bécue <peb@debian.org>, Jonas Meurer <jonas@freesources.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bdf7646d6757b25dab9b818a07206155 2452 mailmanclient_3.3.2-1.dsc
+ bec106f294fe4774b4cbcc4e0331ac04 80654 mailmanclient_3.3.2.orig.tar.gz
+ cd178ce66ba70b09b3885b4505bf99e7 833 mailmanclient_3.3.2.orig.tar.gz.asc
+ 562ec5cb8c7186423f80ca608532c704 7408 mailmanclient_3.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mailman-team/mailmanclient
+Vcs-Git: https://salsa.debian.org/mailman-team/mailmanclient.git
+Checksums-Sha256:
+ e4bf331d033321cfbf80529b792096ea72410f85ba5ce68aa8a53b4cc2fb28c3 2452 mailmanclient_3.3.2-1.dsc
+ 4082ac0c66d7f7bee15751fe2564098b971177c0013e66d0c8ceee1ebdcb5592 80654 mailmanclient_3.3.2.orig.tar.gz
+ f82f84605ac7b619ba6f90a49a3765002ec94ab0928b35c3bfde823f01d5b6fb 833 mailmanclient_3.3.2.orig.tar.gz.asc
+ 3920ac152e493348af53a5509ad44ab2808652f464ce36fd660bf6f5e2a5d09c 7408 mailmanclient_3.3.2-1.debian.tar.xz
+Homepage: https://gitlab.com/mailman/mailmanclient
+Package-List: 
+ python3-mailmanclient deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/m/mailmanclient
+Priority: extra
+Section: misc

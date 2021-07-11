@@ -1,0 +1,27 @@
+Package: rust-wasm-bindgen-webidl
+Binary: librust-wasm-bindgen-webidl-dev
+Version: 0.2.58-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Nicolas Braud-Santoni <nicoo@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev <!nocheck>, librust-heck-0.3+default-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.1-~~) <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+full-dev <!nocheck>, librust-wasm-bindgen-backend-0.2.58+default-dev <!nocheck>, librust-weedle-0.10+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ ec609fc232af1077da6e990e1912d45a 2798 rust-wasm-bindgen-webidl_0.2.58-1.dsc
+ 57ddc12704a126c463853f56e9e50702 23864 rust-wasm-bindgen-webidl_0.2.58.orig.tar.gz
+ c42ff469b558c1bc20b5c9e59092b41d 2724 rust-wasm-bindgen-webidl_0.2.58-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wasm-bindgen-webidl
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen-webidl]
+Checksums-Sha256:
+ c815950de37d0400a5e95406013f6ec6af415d000bdaf671f88bf58f6c5d97ea 2798 rust-wasm-bindgen-webidl_0.2.58-1.dsc
+ ef012a0d93fc0432df126a8eaf547b2dce25a8ce9212e1d3cbeef5c11157975d 23864 rust-wasm-bindgen-webidl_0.2.58.orig.tar.gz
+ 23a77274391766dce44ed0759fcb33d28d7aa2bc979dabebe8a03b83c8c66311 2724 rust-wasm-bindgen-webidl_0.2.58-1.debian.tar.xz
+Homepage: https://rustwasm.github.io/wasm-bindgen/
+Package-List: 
+ librust-wasm-bindgen-webidl-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-wasm-bindgen-webidl
+Priority: extra
+Section: misc

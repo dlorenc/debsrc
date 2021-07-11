@@ -1,0 +1,27 @@
+Package: spirv-llvm-translator
+Binary: libllvmspirvlib11, libllvmspirvlib-dev, llvm-spirv
+Version: 11.0.0-1
+Maintainer: Debian OpenCL team <pkg-opencl-devel@lists.alioth.debian.org>
+Uploaders: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: debhelper-compat (= 12), cmake, libclang-11-dev, lldb-11, llvm-11-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0331867553e145909abf7f63bd6d3525 2245 spirv-llvm-translator_11.0.0-1.dsc
+ 864ece2fb8fa890410708370e4eb3e24 665089 spirv-llvm-translator_11.0.0.orig.tar.gz
+ c417bdb5066ffa848fc10f2a68600b93 3312 spirv-llvm-translator_11.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/opencl-team/spirv-llvm-translator
+Vcs-Git: https://salsa.debian.org/opencl-team/spirv-llvm-translator.git
+Checksums-Sha256:
+ 4d5d336432f31399f696a157a52c2c222bd01ffdcf87ece169f1e77fefdcea6f 2245 spirv-llvm-translator_11.0.0-1.dsc
+ 6464a722278d37fca783cb505caf44cc8473c22fd22ff6a5d07198bc92059c4f 665089 spirv-llvm-translator_11.0.0.orig.tar.gz
+ e197899cca70d7deb166a50f30f5debcb976702b78aec2d11b4adef0be8df85e 3312 spirv-llvm-translator_11.0.0-1.debian.tar.xz
+Homepage: https://github.com/KhronosGroup/SPIRV-LLVM-Translator
+Package-List: 
+ libllvmspirvlib-dev deb libdevel optional arch=any
+ libllvmspirvlib11 deb libdevel optional arch=any
+ llvm-spirv deb libdevel optional arch=any
+Directory: pool/main/s/spirv-llvm-translator
+Priority: extra
+Section: misc

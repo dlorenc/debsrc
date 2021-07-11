@@ -1,0 +1,28 @@
+Package: librpc-xml-perl
+Binary: librpc-xml-perl
+Version: 0.82-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ivan Kohler <ivan-debian@420.am>, Damyan Ivanov <dmn@debian.org>, Niko Tyni <ntyni@debian.org>, gregor herrmann <gregoa@debian.org>, Salvatore Bonaccorso <carnil@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdatetime-format-iso8601-perl (>= 0.15) <!nocheck>, libdatetime-perl (>= 2:1.54) <!nocheck>, libhttp-daemon-perl (>= 6.12) <!nocheck>, libhttp-message-perl (>= 6.26) <!nocheck>, libio-socket-ip-perl <!nocheck>, libnet-server-perl <!nocheck>, libscalar-list-utils-perl (>= 1:1.55) <!nocheck>, libsocket-perl <!nocheck>, libtest-simple-perl (>= 1.302183) <!nocheck>, libwww-perl (>= 6.51) <!nocheck>, libxml-libxml-perl <!nocheck>, libxml-parser-perl (>= 2.46) <!nocheck>, netbase <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 57548afe57c879b2acbeed39efd7ebf5 2984 librpc-xml-perl_0.82-1.dsc
+ 13de8e3d219e64c60b4f195ef0ea7f8a 225690 librpc-xml-perl_0.82.orig.tar.gz
+ 8c81787f520a18fa0b9bfd0e5b614e52 9916 librpc-xml-perl_0.82-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/librpc-xml-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/librpc-xml-perl.git
+Checksums-Sha256:
+ 805c7bfd66d03036d84e456baa193740e4375d91b3cdde12e11e85307eb12b8d 2984 librpc-xml-perl_0.82-1.dsc
+ 5279eb0d136c533ff897f6934c3aad6f20504b997fb2606e52c5dbbd92758e73 225690 librpc-xml-perl_0.82.orig.tar.gz
+ 15ae2cf74b3ea599c78c10ee9cb02f512e620963a81305f3b9357368d6656ea9 9916 librpc-xml-perl_0.82-1.debian.tar.xz
+Homepage: https://metacpan.org/release/RPC-XML
+Dgit: 26fa347909f33fb7d7e9361b6e859e1b281fd403 debian archive/debian/0.82-1 https://git.dgit.debian.org/librpc-xml-perl
+Package-List: 
+ librpc-xml-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libr/librpc-xml-perl
+Priority: source
+Section: perl

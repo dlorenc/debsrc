@@ -1,0 +1,26 @@
+Package: mtpolicyd
+Binary: mtpolicyd
+Version: 2.04-1
+Maintainer: Mtpolicyd Maintainers <pkg-mtpolicyd-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Benning <ich@markusbenning.de>, Scott Kitterman <scott@kitterman.com>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: perl, libtest-mockobject-perl, libdbd-sqlite3-perl, libcache-memcached-perl, libdbi-perl, libmoose-perl, libmail-rbl-perl, libwww-perl, libconfig-general-perl, libtest-exception-perl, libnamespace-autoclean-perl, libmoosex-getopt-perl, libmoosex-role-parameterized-perl, libmoosex-singleton-perl, libgeo-ip-perl, libtie-ixhash-perl, libtime-piece-mysql-perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d3a78a2b00c0014770ee523aee9a6650 2338 mtpolicyd_2.04-1.dsc
+ c3fb4a0b999da9b1f9dc1fcf20998eda 96500 mtpolicyd_2.04.orig.tar.gz
+ 99fde7d601f025dcf5bcd477e93b8d4f 4844 mtpolicyd_2.04-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/mtpolicyd
+Vcs-Git: https://salsa.debian.org/debian/mtpolicyd.git
+Checksums-Sha256:
+ 277d7bc2d6eaef5b13efb902aa3ee6200e12204e6ca2ce0da518fe9350e0e196 2338 mtpolicyd_2.04-1.dsc
+ 136023d4e0e79897fef3cf984c0460cf11c80b32b3c94a9e90ee996af043a988 96500 mtpolicyd_2.04.orig.tar.gz
+ 49bf84bad1083a0b01cff83dc216d68186f8c8c7b35bc645df9e79bcb9a18101 4844 mtpolicyd_2.04-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Mail-MtPolicyd
+Package-List: 
+ mtpolicyd deb mail optional arch=all
+Directory: pool/main/m/mtpolicyd
+Priority: optional
+Section: misc

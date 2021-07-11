@@ -1,0 +1,26 @@
+Package: rust-rusty-fork
+Binary: librust-rusty-fork-dev, librust-rusty-fork+timeout-dev, librust-rusty-fork+wait-timeout-dev
+Version: 0.2.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-fnv-1+default-dev <!nocheck>, librust-quick-error-1+default-dev (>= 1.2-~~) <!nocheck>, librust-tempfile-3+default-dev <!nocheck>, librust-wait-timeout-0.1+default-dev (>= 0.1.4-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 7a91c86089d0b5384cacec6bbe570279 1871 rust-rusty-fork_0.2.1-1.dsc
+ 8f316480245db44925b8f70ab3e18559 20069 rust-rusty-fork_0.2.1.orig.tar.gz
+ 965470fca8516db9f5b388741b700487 2696 rust-rusty-fork_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rusty-fork
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rusty-fork]
+Checksums-Sha256:
+ e35605b9a70f0775a1810839640e597ccfa6ae684c5100d7e4483e379ee1720f 1871 rust-rusty-fork_0.2.1-1.dsc
+ 9591f190d2852720b679c21f66ad929f9f1d7bb09d1193c26167586029d8489c 20069 rust-rusty-fork_0.2.1.orig.tar.gz
+ 5565a860697da9ec8b31603e91684358aa4cc5423b1a5edf386cbdbebe23eb92 2696 rust-rusty-fork_0.2.1-1.debian.tar.xz
+Package-List: 
+ librust-rusty-fork+timeout-dev deb rust optional arch=any
+ librust-rusty-fork+wait-timeout-dev deb rust optional arch=any
+ librust-rusty-fork-dev deb rust optional arch=any
+Directory: pool/main/r/rust-rusty-fork
+Priority: extra
+Section: misc

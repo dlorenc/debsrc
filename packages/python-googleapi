@@ -1,0 +1,23 @@
+Package: python-googleapi
+Binary: python3-googleapi, python3-googleapi-samples
+Version: 1.7.11-4
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper (>= 12), dh-python, python3-all (>= 3.4), python3-mock, python3-nose, python3-oauth2client (>= 1.4.6), python3-setuptools, python3-six, python3-unittest2, python3-uritemplate, python3-google-auth, python3-google-auth-httplib2 (>= 0.0.3)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 044a471ca4d0e23885493dbd117877c5 2132 python-googleapi_1.7.11-4.dsc
+ 99ad872b0048d783dc19e3df390f832a 11767295 python-googleapi_1.7.11.orig.tar.gz
+ 6dcfeb35549bac16da1b2c0faf3ca580 3684 python-googleapi_1.7.11-4.debian.tar.xz
+Checksums-Sha256:
+ 6b96e86d54b02eaa49ab1e6c51a487afea4ff27b3b840a5c21bce431ad89a437 2132 python-googleapi_1.7.11-4.dsc
+ 7a95af326f36ae9b57093513f2770cc49bf59ad92c218c70fe005f2da4987fc9 11767295 python-googleapi_1.7.11.orig.tar.gz
+ cc50cebb816fab8d11ba7489cfd0e5f3cd6983622f48aeb2e7a0d5f7bdc72e89 3684 python-googleapi_1.7.11-4.debian.tar.xz
+Homepage: https://github.com/google/google-api-python-client
+Package-List: 
+ python3-googleapi deb python optional arch=all
+ python3-googleapi-samples deb python optional arch=all
+Directory: pool/main/p/python-googleapi
+Priority: optional
+Section: misc

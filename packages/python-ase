@@ -1,0 +1,29 @@
+Package: python-ase
+Binary: ase, python3-ase, python-ase-doc
+Version: 3.21.1-2
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Uploaders: Ask Hjorth Larsen <asklarsen@gmail.com>, Graham Inggs <ginggs@debian.org>, Andrius Merkys <merkys@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec, dh-python, help2man, povray, povray-includes, python3-all, python3-matplotlib, python3-netcdf4, python3-numpy, python3-pycodcif <!nocheck>, python3-pytest <!nocheck>, python3-pytest-mock <!nocheck>, python3-scipy, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-tk <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ d104176824e406ed8eb4cb4179a038d4 2579 python-ase_3.21.1-2.dsc
+ 6178bcac1ebc1615e3c69d7ff0477741 2794700 python-ase_3.21.1.orig.tar.gz
+ ea1781417468eb0b8e97c00b63d7f8c4 9020 python-ase_3.21.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debichem-team/python-ase
+Vcs-Git: https://salsa.debian.org/debichem-team/python-ase.git
+Checksums-Sha256:
+ 26315f4101691185db2943f1f7b22593242798e490d3f61f7dab67816ef99908 2579 python-ase_3.21.1-2.dsc
+ 5d15a4ebf1da1104cb017f6aa1fc3b1a10516acb6b5536c3ddcb1f2553613145 2794700 python-ase_3.21.1.orig.tar.gz
+ 0eefb18fe4622bfebfb989441d2801ad0aac4f919a1bd73dabd348061478296e 9020 python-ase_3.21.1-2.debian.tar.xz
+Homepage: https://wiki.fysik.dtu.dk/ase/
+Package-List: 
+ ase deb science optional arch=all
+ python-ase-doc deb doc optional arch=all
+ python3-ase deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-netcdf4, python3-pycodcif, python3-pytest, python3-pytest-mock, python3-tk
+Directory: pool/main/p/python-ase
+Priority: source
+Section: python

@@ -1,0 +1,26 @@
+Package: pkg-js-tools
+Binary: pkg-js-tools, pkg-js-autopkgtest
+Version: 0.9.65
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>,
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: devscripts, git, help2man, libdebian-copyright-perl, libipc-run-perl, libjson-perl, libregexp-assemble-perl, libtest-output-perl, perl, nodejs <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 7939cb2b6311bbbd87f1cf5761c0e803 1969 pkg-js-tools_0.9.65.dsc
+ 3bf287d9540d7d5c778f1735321e2265 47168 pkg-js-tools_0.9.65.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/pkg-js-tools
+Vcs-Git: https://salsa.debian.org/js-team/pkg-js-tools.git
+Checksums-Sha256:
+ 3e8555aea96f8a55765356ec8c2c00c89a006f618398f01bbb35517bc11da071 1969 pkg-js-tools_0.9.65.dsc
+ d26c20b91cc4335fb8862145ebcf84986b9809931d57be0195fbe00027f9bc20 47168 pkg-js-tools_0.9.65.tar.xz
+Homepage: https://salsa.debian.org/js-team/pkg-js-tools
+Package-List: 
+ pkg-js-autopkgtest deb devel optional arch=all
+ pkg-js-tools deb devel optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Directory: pool/main/p/pkg-js-tools
+Priority: extra
+Section: misc

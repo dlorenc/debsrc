@@ -1,0 +1,28 @@
+Package: libhat-trie
+Binary: libhat-trie0, libhat-trie-dev
+Version: 0.1.2-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper (>= 11~), d-shlibs
+Architecture: amd64 arm64 armel armhf i386 mips64el mipsel ppc64el sh4 kfreebsd-amd64 kfreebsd-i386
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 888136ed893307dfbfa552c48538469e 2344 libhat-trie_0.1.2-2.dsc
+ 8345153a29c4a4b52dcadee93ff861ee 25295 libhat-trie_0.1.2.orig.tar.gz
+ 1f5478020888322dc027d75ff37abac1 4412 libhat-trie_0.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libhat-trie
+Vcs-Git: https://salsa.debian.org/med-team/libhat-trie.git
+Checksums-Sha256:
+ f5af377769a6175cb8e0e2e257082184c0eecaef1d3ba9ff5efb3fecc5a8975c 2344 libhat-trie_0.1.2-2.dsc
+ da95d2777c5492097335515d4c5d131449b35f136c38365c980aeb930ab6abea 25295 libhat-trie_0.1.2.orig.tar.gz
+ 8ffc94eb43277135c691a2fb75635bc6452251685c3fd516b416cebb0bc2cda6 4412 libhat-trie_0.1.2-2.debian.tar.xz
+Homepage: https://github.com/dcjones/hat-trie
+Package-List: 
+ libhat-trie-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,sh4,kfreebsd-amd64,kfreebsd-i386
+ libhat-trie0 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,sh4,kfreebsd-amd64,kfreebsd-i386
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/libh/libhat-trie
+Priority: optional
+Section: misc

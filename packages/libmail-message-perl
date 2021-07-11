@@ -1,0 +1,28 @@
+Package: libmail-message-perl
+Binary: libmail-message-perl
+Version: 3.010-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libio-stringy-perl <!nocheck>, libmailtools-perl (>= 2.17) <!nocheck>, libmime-types-perl <!nocheck>, libtimedate-perl <!nocheck>, liburi-perl <!nocheck>, libuser-identity-perl (>= 1.00) <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3280691ae343733dcd7cea66b00c0c42 2586 libmail-message-perl_3.010-1.dsc
+ eb60f43a2ec4b5d1334a3d379ce68db1 258187 libmail-message-perl_3.010.orig.tar.gz
+ ce1faf293eccf1b613e710f3ac072b53 2464 libmail-message-perl_3.010-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmail-message-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmail-message-perl.git
+Checksums-Sha256:
+ 29f14b54989499ebee1cebaac991cf00fbba7dbb595a1bc5c52d3ff40a44b095 2586 libmail-message-perl_3.010-1.dsc
+ 58414b1ae382988153a915d317245d89dd450f186ecf6d383c964b3673a78b13 258187 libmail-message-perl_3.010.orig.tar.gz
+ 56710dd71e79f4dd17a9642bf853a33b34d90aadd4fed5593deb750b44e49e6e 2464 libmail-message-perl_3.010-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Mail-Message
+Dgit: ff67951c95b1dda61a220df3896a4a36784c8a47 debian archive/debian/3.010-1 https://git.dgit.debian.org/libmail-message-perl
+Package-List: 
+ libmail-message-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmail-message-perl
+Priority: extra
+Section: misc

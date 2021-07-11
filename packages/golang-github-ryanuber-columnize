@@ -1,0 +1,27 @@
+Package: golang-github-ryanuber-columnize
+Binary: golang-github-ryanuber-columnize-dev
+Version: 2.1.1-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d64efa807ae94753e5ad08339eb2f577 2354 golang-github-ryanuber-columnize_2.1.1-2.dsc
+ 79900b0657074be00a749292cb6a620f 4720 golang-github-ryanuber-columnize_2.1.1.orig.tar.xz
+ b998b88a2b4c31994944a5eaa5f28853 2992 golang-github-ryanuber-columnize_2.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-ryanuber-columnize
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-ryanuber-columnize.git
+Checksums-Sha256:
+ 62580a9648e17a6d4a5abe9ba98e14573567b211b0ac8173f6371ad7753a4c45 2354 golang-github-ryanuber-columnize_2.1.1-2.dsc
+ a05e7c89b20cdb6c1d8cc7c044b8c37ceb84951b2473e83f99be4308385d09e1 4720 golang-github-ryanuber-columnize_2.1.1.orig.tar.xz
+ 9af7287f8252a053a30afa363e6be403f1d48c2b5b5a47f67c7061332525111a 2992 golang-github-ryanuber-columnize_2.1.1-2.debian.tar.xz
+Homepage: https://github.com/ryanuber/columnize
+Go-Import-Path: github.com/ryanuber/columnize
+Package-List: 
+ golang-github-ryanuber-columnize-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-ryanuber-columnize
+Priority: extra
+Section: golang

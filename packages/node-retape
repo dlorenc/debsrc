@@ -1,0 +1,27 @@
+Package: node-retape
+Binary: node-retape
+Version: 0.0.3-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.17.14), dh-buildinfo, nodejs (>= 10), node-tape (>= 0.1.5) <!nocheck>, node-tap (>= 10) <!nocheck>, node-test (>> 0.6.0-3~) <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 8352b6f0301bf1cdbd79d12073d7fe69 2157 node-retape_0.0.3-4.dsc
+ 1ae683c8ba2e992becb0a0796414c471 2535 node-retape_0.0.3.orig.tar.gz
+ aa2fcc04241c3fa7e026d49277e570a1 2912 node-retape_0.0.3-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-retape
+Vcs-Git: https://salsa.debian.org/js-team/node-retape.git
+Checksums-Sha256:
+ 9ce3fef259317817c57039bb5406ef0a101689abd5ce82ec91bf799fbcd6d2c8 2157 node-retape_0.0.3-4.dsc
+ d86143bb3ad4ba6f39fc07ab45aad14fa06b70927f0c7cd9cfebb2a599cfc42d 2535 node-retape_0.0.3.orig.tar.gz
+ 4f919503fe4f77106facc2b7a8b90d958a8e9fa06e7c37e191edfad1fd4ce004 2912 node-retape_0.0.3-4.debian.tar.xz
+Homepage: https://github.com/Gozala/retape
+Package-List: 
+ node-retape deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tap, nodejs
+Directory: pool/main/n/node-retape
+Priority: optional
+Section: javascript

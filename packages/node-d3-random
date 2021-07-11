@@ -1,0 +1,26 @@
+Package: node-d3-random
+Binary: node-d3-random
+Version: 1.1.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-nodejs, nodejs, rollup, node-rollup-plugin-terser, node-tape <!nocheck>, node-seedrandom <!nocheck>, node-d3-array <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 73e229cf9341198a242a64ac436e7fc5 2148 node-d3-random_1.1.2-3.dsc
+ 7b6666ad99390e071d39a8065886de53 16403 node-d3-random_1.1.2.orig.tar.gz
+ e1f0326d317e805aa9259007a7841a36 3264 node-d3-random_1.1.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-d3-random
+Vcs-Git: https://salsa.debian.org/js-team/node-d3-random.git
+Checksums-Sha256:
+ b2cec6d074f7426a38841f665fbd988f7ea53dc8a53bb78f37793f3a24c2da83 2148 node-d3-random_1.1.2-3.dsc
+ cacce6aaaf1e3b33664503538a8919b92c05aa33655a3ec12500ae96a39574f9 16403 node-d3-random_1.1.2.orig.tar.gz
+ 09d2fabb977c1bbe1778410ce4891fdffda4865ad5192a300c65d668cc76dd0f 3264 node-d3-random_1.1.2-3.debian.tar.xz
+Homepage: https://d3js.org/d3-random/
+Package-List: 
+ node-d3-random deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-d3-random
+Priority: extra
+Section: misc

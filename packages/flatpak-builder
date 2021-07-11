@@ -1,0 +1,29 @@
+Package: flatpak-builder
+Binary: flatpak-builder, flatpak-builder-tests
+Version: 1.0.12-1
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>,
+Build-Depends: attr <!nocheck>, automake (>= 1.14.1), ca-certificates <!nocheck>, dbus, debhelper-compat (= 12), desktop-file-utils <!nocheck>, dh-exec (>= 0.23~), docbook-xml <!nodoc>, docbook-xsl <!nodoc>, flatpak (>= 0.99.1), fuse <!nocheck>, git <!nocheck>, gtk-update-icon-cache <!nocheck>, hicolor-icon-theme <!nocheck>, libarchive-dev (>= 2.8.0), libattr1-dev, libcap-dev, libcurl4-gnutls-dev, libdw-dev, libelf-dev, libflatpak-dev (>= 0.99.1), libglib2.0-dev (>= 2.44), libjson-glib-dev, libostree-dev (>= 2017.14), libsoup2.4-dev, libxml2-dev (>= 2.4), libyaml-dev, ostree <!nocheck>, procps, python3, shared-mime-info <!nocheck>, xmlto <!nodoc>, xsltproc <!nodoc>
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c561c7e237a60708f76124cdb940cc1d 2923 flatpak-builder_1.0.12-1.dsc
+ 83583c2e34837575a882aca11b2e1dd0 459764 flatpak-builder_1.0.12.orig.tar.xz
+ 8da23a3b63117e7464a41f00908a1917 6636 flatpak-builder_1.0.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/flatpak-builder
+Vcs-Git: https://salsa.debian.org/debian/flatpak-builder.git
+Checksums-Sha256:
+ 89b6afe3b8c9c032922130e7372660f3ded76f0499c56ae5b8f5d3702cc7d5e1 2923 flatpak-builder_1.0.12-1.dsc
+ 4780c1b8e0838ffb64e9639bd7801417964fd818c7c6d5e9afca4d5511ded2c8 459764 flatpak-builder_1.0.12.orig.tar.xz
+ b97bd1ca4951deea60b3cb2a349d377f4ee4589b4b7b0cac9e9b6bce9857b97f 6636 flatpak-builder_1.0.12-1.debian.tar.xz
+Homepage: https://flatpak.org/
+Dgit: 2ab17a9c6c1e8f17ae27f31409a26f26901458b5 debian archive/debian/1.0.12-1 https://git.dgit.debian.org/flatpak-builder
+Package-List: 
+ flatpak-builder deb devel optional arch=linux-any
+ flatpak-builder-tests deb misc optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: gnome-desktop-testing
+Directory: pool/main/f/flatpak-builder
+Priority: extra
+Section: misc

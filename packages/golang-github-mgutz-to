@@ -1,0 +1,28 @@
+Package: golang-github-mgutz-to
+Binary: golang-github-mgutz-to-dev
+Version: 1.0.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dawid Dziurla <dawidd0811@gmail.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ ae90b11dee4ca868de22f2cb89f8ad86 2174 golang-github-mgutz-to_1.0.0-2.dsc
+ a435a6cfdfcd02aaf44fc334dc42fe84 8040 golang-github-mgutz-to_1.0.0.orig.tar.gz
+ 2b38ad77d2d839eea56285f65fb0118b 2256 golang-github-mgutz-to_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mgutz-to
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mgutz-to.git
+Checksums-Sha256:
+ 9d8980a3e8cd26d6729d13caf4d5bc62e2b958fcb75f65e38441aee43257f95a 2174 golang-github-mgutz-to_1.0.0-2.dsc
+ b4424468e08cc74efa6e6b91109fa6097a9344f3495904e9172ab89217b14d31 8040 golang-github-mgutz-to_1.0.0.orig.tar.gz
+ 4558321a7b7c5649462e9f7740c2081ab8b76e630f82757bea771a49d9ebe106 2256 golang-github-mgutz-to_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/mgutz/to
+Go-Import-Path: github.com/mgutz/to
+Package-List: 
+ golang-github-mgutz-to-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mgutz-to
+Priority: extra
+Section: golang

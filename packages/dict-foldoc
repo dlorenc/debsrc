@@ -1,0 +1,27 @@
+Package: dict-foldoc
+Binary: dict-foldoc
+Version: 20201018-1
+Maintainer: Iustin Pop <iustin@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: dictfmt, dictzip | dictd (<< 1.7.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d1469defb1dcd39a1e638a89d68ba3a0 1993 dict-foldoc_20201018-1.dsc
+ 34a484b8588b40343e724b230bd2953e 2169216 dict-foldoc_20201018.orig.tar.gz
+ 123108f60450d6d2ed1fc9d484a1c0b0 16104 dict-foldoc_20201018-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/dict-foldoc
+Vcs-Git: https://salsa.debian.org/debian/dict-foldoc.git
+Checksums-Sha256:
+ c639a5dc05c1efbfb7967b68200d290cbbb6da13f926ff8bb8dc0c3884e295de 1993 dict-foldoc_20201018-1.dsc
+ ae48d1b8580f95a1d0b9af345bcf35f1248bad981c4ee55371b3c8f0dcb62ce3 2169216 dict-foldoc_20201018.orig.tar.gz
+ 1524eabc6790f45a2b19de02238a4dcb4c9723cf3769b628dab1eb5e88493abf 16104 dict-foldoc_20201018-1.debian.tar.xz
+Homepage: https://foldoc.org/
+Package-List: 
+ dict-foldoc deb text optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: dict
+Directory: pool/main/d/dict-foldoc
+Priority: source
+Section: text

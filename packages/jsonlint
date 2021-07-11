@@ -1,0 +1,27 @@
+Package: jsonlint
+Binary: jsonlint
+Version: 1.8.3-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: andrea rota <a@xelera.eu>, David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ee5b8badeca445f1fb6bc0a3af1f3c15 1725 jsonlint_1.8.3-2.dsc
+ 8eec0585e7b90e5de0d4f2dd3dddfc05 13789 jsonlint_1.8.3.orig.tar.gz
+ 2678c96561e8abfba61c93914e1b6fb7 5544 jsonlint_1.8.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/jsonlint
+Vcs-Git: https://salsa.debian.org/php-team/pear/jsonlint.git -b debian/latest
+Checksums-Sha256:
+ 774bc508568ce3292b9deec4a148f184fb0ed3a5d9298b542b52229596478b97 1725 jsonlint_1.8.3-2.dsc
+ 65b13e99ad177989e942dbf46b955708e1dc211e28992adff26b83dbda0b9088 13789 jsonlint_1.8.3.orig.tar.gz
+ e4e978f927c1e8b658b5995ee5e45a74c4438780f2461519865ca787e019b518 5544 jsonlint_1.8.3-2.debian.tar.xz
+Homepage: https://github.com/Seldaek/jsonlint
+Package-List: 
+ jsonlint deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/j/jsonlint
+Priority: optional
+Section: misc

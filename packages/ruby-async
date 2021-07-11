@@ -1,0 +1,27 @@
+Package: ruby-async
+Binary: ruby-async
+Version: 1.26.2-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-nio4r (<< 3.0), ruby-nio4r (>= 2.3), ruby-timers (<< 5.0), ruby-timers (>= 4.1), ruby-console (<< 2.0), ruby-console (>= 1.0), ruby-rspec (<< 4.0), ruby-rspec (>= 3.6)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f1c78defbe1b860657649379fa50bfe2 2182 ruby-async_1.26.2-2.dsc
+ 503b8d18f64a01dad1ad4055cca45846 88430 ruby-async_1.26.2.orig.tar.gz
+ a2b3c8901a494d3f5c5a6bb9822d2aa7 2628 ruby-async_1.26.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-async
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-async.git
+Checksums-Sha256:
+ 5ca0b57cda9856ddb37cabafb1355b3537a7dd104e3621c1c22b4ca016c379bc 2182 ruby-async_1.26.2-2.dsc
+ 05641c6ed08d4f8ecff8c11ee46ab72660961bd971f0178b665367e4e46ae22d 88430 ruby-async_1.26.2.orig.tar.gz
+ f31dfb17a2f83e8826be2c86d0958ac6dc5432813876bfe462a28b6e7e37d2d5 2628 ruby-async_1.26.2-2.debian.tar.xz
+Homepage: https://github.com/socketry/async
+Package-List: 
+ ruby-async deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-async
+Priority: extra
+Section: misc

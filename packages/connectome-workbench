@@ -1,0 +1,26 @@
+Package: connectome-workbench
+Binary: connectome-workbench, connectome-workbench-dbg
+Version: 1.5.0-1
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>
+Build-Depends: debhelper (>= 9), help2man, cmake, libosmesa6-dev, qtbase5-dev, libssl-dev, zlib1g-dev, libqt5opengl5-dev, libglib2.0-dev, libglm-dev (>= 0.9.9.6~), opencl-c-headers, xauth, xvfb, libftgl-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3ad65e527b65c5a5c34dda4ee432301b 2302 connectome-workbench_1.5.0-1.dsc
+ a0dabfc83fbd02d6ec0d24d1a85743e3 22097926 connectome-workbench_1.5.0.orig.tar.gz
+ 8abb730245769ed4d80d178eca788b44 11804 connectome-workbench_1.5.0-1.debian.tar.xz
+Vcs-Browser: http://github.com/neurodebian/workbench
+Vcs-Git: https://github.com/neurodebian/workbench -b debian
+Checksums-Sha256:
+ 878fbb902a43d9738e9825f39191409d40ad6039a6e7c1e99af81974a9500579 2302 connectome-workbench_1.5.0-1.dsc
+ f142545d415944f7eb3d4219d324c42eeabd5ffd6f649fad8a0d66dd74c65b09 22097926 connectome-workbench_1.5.0.orig.tar.gz
+ d53de3d71fea017777973b6626a2c0e0e2c9ae64a52b1abe25776f2b5dfd0d28 11804 connectome-workbench_1.5.0-1.debian.tar.xz
+Homepage: http://www.nitrc.org/projects/workbench/
+Package-List: 
+ connectome-workbench deb science optional arch=any
+ connectome-workbench-dbg deb debug optional arch=any
+Directory: pool/main/c/connectome-workbench
+Priority: optional
+Section: misc

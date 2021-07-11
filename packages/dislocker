@@ -1,0 +1,28 @@
+Package: dislocker
+Binary: libdislocker0.7, libdislocker0-dev, dislocker
+Version: 0.7.3-2
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Giovani Augusto Ferreira <giovani@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), libfuse-dev | libfuse-hurd-dev, libmbedtls-dev, ruby-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f8c3bf945e9a02bad7836aa8808ea1b0 2187 dislocker_0.7.3-2.dsc
+ ff1a5a0120cedf04c6146da91dfbd27c 111257 dislocker_0.7.3.orig.tar.gz
+ ca1ef48e18e4ed1efc32525cd345a41c 9248 dislocker_0.7.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/dislocker
+Vcs-Git: https://salsa.debian.org/pkg-security-team/dislocker.git
+Checksums-Sha256:
+ f955d93b452578951f6910609fe16f95001e3593fbf44b356b3b9eeb5efdac08 2187 dislocker_0.7.3-2.dsc
+ 8d5275577c44f2bd87f6e05dd61971a71c0e56a9cbedf000bd38deadd8b6c1e6 111257 dislocker_0.7.3.orig.tar.gz
+ 32b19bdba7f3c2f48238a7d7409381c43f7f3a11b55440e52be107bba27dd5f0 9248 dislocker_0.7.3-2.debian.tar.xz
+Homepage: https://github.com/Aorimn/dislocker
+Package-List: 
+ dislocker deb utils optional arch=any
+ libdislocker0-dev deb libdevel optional arch=any
+ libdislocker0.7 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/d/dislocker
+Priority: optional
+Section: misc

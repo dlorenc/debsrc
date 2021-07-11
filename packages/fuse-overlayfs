@@ -1,0 +1,25 @@
+Package: fuse-overlayfs
+Binary: fuse-overlayfs
+Version: 1.4.0-1
+Maintainer: Reinhard Tartler <siretart@tauware.de>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12), autoconf, automake, go-md2man, libfuse3-dev, pkg-config | pkgconf
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c8ece2dbd181d77b9c62802535447132 2013 fuse-overlayfs_1.4.0-1.dsc
+ 1a38951ae6367b7eac9c94e2d3622c06 85256 fuse-overlayfs_1.4.0.orig.tar.xz
+ 61fc52e09d805f81063a34f2cd8ccddc 2644 fuse-overlayfs_1.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/fuse-overlayfs
+Vcs-Git: https://salsa.debian.org/debian/fuse-overlayfs.git
+Checksums-Sha256:
+ 7e3f9254840ab2b9bc0e4f6c38a521fe26638d5b5c71d4708fa3bf732aa3b759 2013 fuse-overlayfs_1.4.0-1.dsc
+ 0f11089e5f715c36e05d9f0381a40faf87b11bc4c245b24ad0982c70df7215a0 85256 fuse-overlayfs_1.4.0.orig.tar.xz
+ 130965f77653f23ac2fce8989c836e2481e828ed0e378745f4b61c764145e6ea 2644 fuse-overlayfs_1.4.0-1.debian.tar.xz
+Homepage: https://github.com/containers/fuse-overlayfs
+Package-List: 
+ fuse-overlayfs deb misc optional arch=any
+Directory: pool/main/f/fuse-overlayfs
+Priority: extra
+Section: misc

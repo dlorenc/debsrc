@@ -1,0 +1,27 @@
+Package: earlyoom
+Binary: earlyoom
+Version: 1.6.2-1
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Uploaders: Boyuan Yang <byang@debian.org>,
+Build-Depends: debhelper-compat (= 13), golang-any, pandoc
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b62739b84637260d6e9bf668bc0c1ca1 1957 earlyoom_1.6.2-1.dsc
+ 87a1cdcbd8700caf94e95f893eccea3d 49006 earlyoom_1.6.2.orig.tar.gz
+ b82935a91d83bdbcd0ab3b8cc632e743 4112 earlyoom_1.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/yangfl-guest/earlyoom
+Vcs-Git: https://salsa.debian.org/yangfl-guest/earlyoom.git
+Checksums-Sha256:
+ dcb524c0be3e9399256aab1cecff96210e6fb0546674a3dcc6210fa75440379b 1957 earlyoom_1.6.2-1.dsc
+ 227234cf9e77831c21c748bd361e1a7c415e158b96034eacd59e70586779bb6c 49006 earlyoom_1.6.2.orig.tar.gz
+ 0cb5928b178e99f0f51654cf0789e722a5150bc973ed1ce3e185e29681460691 4112 earlyoom_1.6.2-1.debian.tar.xz
+Homepage: https://github.com/rfjakob/earlyoom
+Package-List: 
+ earlyoom deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/e/earlyoom
+Priority: extra
+Section: misc

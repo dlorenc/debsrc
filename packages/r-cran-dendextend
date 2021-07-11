@@ -1,0 +1,27 @@
+Package: r-cran-dendextend
+Binary: r-cran-dendextend
+Version: 1.14.0+dfsg-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-magrittr, r-cran-ggplot2, r-cran-viridis
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f07d535c00a91d5c5cfd8e6431f8addd 2245 r-cran-dendextend_1.14.0+dfsg-1.dsc
+ c74eab3894aa0f58720343159deb4130 410072 r-cran-dendextend_1.14.0+dfsg.orig.tar.xz
+ f156de709fe2690fedab5a4bc40f2b34 2940 r-cran-dendextend_1.14.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-dendextend
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-dendextend.git
+Checksums-Sha256:
+ 724de1cc373c44782729d40705b9ed1415e23a4764677ad5d458904dac8cb389 2245 r-cran-dendextend_1.14.0+dfsg-1.dsc
+ 06cd12610c1c70d3779e9502cc985cc7c0c65bbe92bc282f68aceb048d95bfb6 410072 r-cran-dendextend_1.14.0+dfsg.orig.tar.xz
+ 13d94972d2267ffb52c1b23ecef1bac4b89b53d2d29e1011cb1ec1c45a54adf9 2940 r-cran-dendextend_1.14.0+dfsg-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=dendextend
+Package-List: 
+ r-cran-dendextend deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-pvclust, r-cran-testthat
+Directory: pool/main/r/r-cran-dendextend
+Priority: extra
+Section: misc

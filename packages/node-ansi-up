@@ -1,0 +1,27 @@
+Package: node-ansi-up
+Binary: node-ansi-up, libjs-ansi-up
+Version: 5.0.0+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Dmitry Bogatov <KAction@debian.org>
+Build-Depends: debhelper-compat (= 13), node-typescript, nodejs (>= 6), node-should, mocha, dh-sequence-nodejs, uglifyjs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2b69fe4ee8dc57d82ac57dd1cd1e8e28 2180 node-ansi-up_5.0.0+dfsg-1.dsc
+ 846e3899c9d01ffe4d06c0afc7ef8f55 36208 node-ansi-up_5.0.0+dfsg.orig.tar.xz
+ 03e0728639e05a7bea3b030248820cb1 3388 node-ansi-up_5.0.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ansi-up
+Vcs-Git: https://salsa.debian.org/js-team/node-ansi-up.git
+Checksums-Sha256:
+ 1bcc5da11bc79de4f42f8ebf4168af6024074eeb0ce068a8c22ec5e733e9b108 2180 node-ansi-up_5.0.0+dfsg-1.dsc
+ 323099dcf35054daff2e6f67053940018515b039a10417fedf6eee0b83f14b32 36208 node-ansi-up_5.0.0+dfsg.orig.tar.xz
+ 4bda3c0a3854247102fddb0a650b917fcf3dcf154f3a683add593b1b1365a6cf 3388 node-ansi-up_5.0.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/drudru/ansi_up#readme
+Package-List: 
+ libjs-ansi-up deb javascript optional arch=all
+ node-ansi-up deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ansi-up
+Priority: extra
+Section: misc

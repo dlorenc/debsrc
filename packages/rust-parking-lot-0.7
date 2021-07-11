@@ -1,0 +1,29 @@
+Package: rust-parking-lot-0.7
+Binary: librust-parking-lot-0.7-dev, librust-parking-lot-0.7+deadlock-detection-dev, librust-parking-lot-0.7+nightly-dev, librust-parking-lot-0.7+owning-ref-dev
+Version: 0.7.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lock-api-0.1+default-dev <!nocheck>, librust-lock-api-0.1+owning-ref-dev <!nocheck>, librust-parking-lot-core-0.4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 6cec8bea3b2a305d8e51e101455e3ed0 2769 rust-parking-lot-0.7_0.7.1-1.dsc
+ e0493a4c121cded246f611c435dce2b7 32670 rust-parking-lot-0.7_0.7.1.orig.tar.gz
+ cdae5705ca0a015e726134b497deaf9b 3056 rust-parking-lot-0.7_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/parking-lot-0.7
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/parking-lot-0.7]
+Checksums-Sha256:
+ 6b44f93b716d7a5318a09f06c268ac5f3b54715f378c60ea700bb90fbf073771 2769 rust-parking-lot-0.7_0.7.1-1.dsc
+ ab41b4aed082705d1056416ae4468b6ea99d52599ecf3169b00088d43113e337 32670 rust-parking-lot-0.7_0.7.1.orig.tar.gz
+ a52c3cd1ff6cb3d6667ee6a716bbda96c09f13a0f595ecac5a0d0fb414c5f61b 3056 rust-parking-lot-0.7_0.7.1-1.debian.tar.xz
+Package-List: 
+ librust-parking-lot-0.7+deadlock-detection-dev deb rust optional arch=any
+ librust-parking-lot-0.7+nightly-dev deb rust optional arch=any
+ librust-parking-lot-0.7+owning-ref-dev deb rust optional arch=any
+ librust-parking-lot-0.7-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-rand-0.6+default-dev
+Directory: pool/main/r/rust-parking-lot-0.7
+Priority: extra
+Section: misc

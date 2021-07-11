@@ -1,0 +1,27 @@
+Package: golang-golang-x-image
+Binary: golang-golang-x-image-dev
+Version: 0.0~git20200119.58c2397-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dr. Tobias Quathamer <toddy@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang (>= 1.31~), golang-any, golang-golang-x-text-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3847c46234c943337cca2344d291e42c 2346 golang-golang-x-image_0.0~git20200119.58c2397-1.dsc
+ e31d5cc1305d9dc4e9ba10826ca08b72 3282784 golang-golang-x-image_0.0~git20200119.58c2397.orig.tar.xz
+ 83304f4e8e7a7b26170106abe9dcf904 5592 golang-golang-x-image_0.0~git20200119.58c2397-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-golang-x-image
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-golang-x-image.git
+Checksums-Sha256:
+ 845eb25d1f9119565bb2825e1f20e6ce45bb62a3b801f7f35f838fbffe69497d 2346 golang-golang-x-image_0.0~git20200119.58c2397-1.dsc
+ f4b2b6d6bdd770dbe1d25ecc696a8c427fe5ba027dca487f1791c7079f75e228 3282784 golang-golang-x-image_0.0~git20200119.58c2397.orig.tar.xz
+ 089174df074e4c0467c0d651f4c4ca528699df41d7b934196aea80ac9b73a9c0 5592 golang-golang-x-image_0.0~git20200119.58c2397-1.debian.tar.xz
+Homepage: https://golang.org/x/image/
+Go-Import-Path: golang.org/x/image
+Package-List: 
+ golang-golang-x-image-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-golang-x-image
+Priority: extra
+Section: golang

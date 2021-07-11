@@ -1,0 +1,28 @@
+Package: libprotocol-http2-perl
+Binary: libprotocol-http2-perl
+Version: 1.10-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libanyevent-perl <!nocheck>, libnet-ssleay-perl <!nocheck>, libtest-leaktrace-perl <!nocheck>, libtest-tcp-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1331d49694f799fe3bde35e0ea42859e 2558 libprotocol-http2-perl_1.10-1.dsc
+ 037fcf213b83741ea8327be10876668c 53303 libprotocol-http2-perl_1.10.orig.tar.gz
+ f2622049a2e9c5f9da7a08e55c59db3e 2140 libprotocol-http2-perl_1.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libprotocol-http2-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libprotocol-http2-perl.git
+Checksums-Sha256:
+ ce3ef6eac18af89f9624b00796d816542bceb0e687d50e0cf0c7ea4353b4242f 2558 libprotocol-http2-perl_1.10-1.dsc
+ c26a0058fb4afae97e4bf0dbc64189f671144515c4447f3dcb597ecd0396a64a 53303 libprotocol-http2-perl_1.10.orig.tar.gz
+ 520494cbfc1e50cd63570a9cc3415e49ee608ac162c1fc05cef37d059cf34dc5 2140 libprotocol-http2-perl_1.10-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Protocol-HTTP2
+Dgit: 501473ffd9a9209dc674c2b1edd568c722647071 debian archive/debian/1.10-1 https://git.dgit.debian.org/libprotocol-http2-perl
+Package-List: 
+ libprotocol-http2-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libprotocol-http2-perl
+Priority: optional
+Section: misc

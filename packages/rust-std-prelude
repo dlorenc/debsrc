@@ -1,0 +1,26 @@
+Package: rust-std-prelude
+Binary: librust-std-prelude-dev
+Version: 0.2.12-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 752f86b74cb016f450196a3c30155519 2155 rust-std-prelude_0.2.12-1.dsc
+ 8e320697cbdcd4b294e671888e746131 5066 rust-std-prelude_0.2.12.orig.tar.gz
+ 5a9d2f8af94010e7963830ccfa7f43ad 2472 rust-std-prelude_0.2.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/std-prelude
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/std-prelude]
+Checksums-Sha256:
+ edb68db4a60d576137b03e63a16991e977061064f0a1c1428f6fd5ea1df2b2ed 2155 rust-std-prelude_0.2.12-1.dsc
+ 8207e78455ffdf55661170876f88daf85356e4edd54e0a3dbc79586ca1e50cbe 5066 rust-std-prelude_0.2.12.orig.tar.gz
+ e9a287d43dabccf974333817be82f0cf521c091bf4dea2682708926c348df43c 2472 rust-std-prelude_0.2.12-1.debian.tar.xz
+Package-List: 
+ librust-std-prelude-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-std-prelude
+Priority: extra
+Section: misc

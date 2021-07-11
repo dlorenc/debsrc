@@ -1,0 +1,25 @@
+Package: cado
+Binary: cado
+Version: 0.9.5-1
+Maintainer: Debian VirtualSquare Team <virtualsquare@cs.unibo.it>
+Uploaders: Mattia Biondi <mattiabiondi1@gmail.com>, Renzo Davoli <renzo@cs.unibo.it>, Andrea Capriotti <capriott@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake (>= 2.6), libexecs-dev, libmhash-dev, libcap-dev, libpam0g-dev
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7ef3f7fb66d903b0cb05d2c2924df619 2021 cado_0.9.5-1.dsc
+ 3b8e33e50817f4dc5ab311c9846471d7 30573 cado_0.9.5.orig.tar.gz
+ 3b0b3a9a05c80c4274db3be74363feaa 2384 cado_0.9.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/virtualsquare-team/cado
+Vcs-Git: https://salsa.debian.org/virtualsquare-team/cado.git
+Checksums-Sha256:
+ 5a59bd187d38d633c2ab840ea78179a5b181d7ef5e947df170f4bfa63cebe426 2021 cado_0.9.5-1.dsc
+ 0fa49e1910b79726d46cb0f8b3fbb12f818c89d6368cd70c93429edd648f3be5 30573 cado_0.9.5.orig.tar.gz
+ eb4b98a8a496765adc1f4a6c39fb9493350a80cb93ccabe614c6f63370538204 2384 cado_0.9.5-1.debian.tar.xz
+Homepage: http://www.virtualsquare.org/
+Package-List: 
+ cado deb admin optional arch=linux-any
+Directory: pool/main/c/cado
+Priority: extra
+Section: misc

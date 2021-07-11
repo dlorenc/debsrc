@@ -1,0 +1,28 @@
+Package: haskell-quickcheck-io
+Binary: libghc-quickcheck-io-dev, libghc-quickcheck-io-prof, libghc-quickcheck-io-doc
+Version: 0.2.0-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8.0), ghc-prof, libghc-hunit-dev (>= 1.2.5), libghc-hunit-prof, libghc-quickcheck2-dev (>= 2.7), libghc-quickcheck2-prof
+Build-Depends-Indep: ghc-doc, libghc-hunit-doc, libghc-quickcheck2-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ad902da1a0946654e03dd978ede20fda 2539 haskell-quickcheck-io_0.2.0-4.dsc
+ bd4506673b516515f552565267a62c56 1843 haskell-quickcheck-io_0.2.0.orig.tar.gz
+ 673a91b4b2525184dea5cc276458f6b3 2668 haskell-quickcheck-io_0.2.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-quickcheck-io
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-quickcheck-io]
+Checksums-Sha256:
+ 3868c5375c0ebc96f806e16a81452500dcaaaaed7507c3aef8fdb545514c5351 2539 haskell-quickcheck-io_0.2.0-4.dsc
+ fb779119d79fe08ff4d502fb6869a70c9a8d5fd8ae0959f605c3c937efd96422 1843 haskell-quickcheck-io_0.2.0.orig.tar.gz
+ 408a27a9952c2678cb8465a7e32df6421f196096ea2f521bd18a8347df68a8fa 2668 haskell-quickcheck-io_0.2.0-4.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/quickcheck-io
+Package-List: 
+ libghc-quickcheck-io-dev deb haskell optional arch=any
+ libghc-quickcheck-io-doc deb doc optional arch=all
+ libghc-quickcheck-io-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-quickcheck-io
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: pyflakes
+Binary: pyflakes3, python3-pyflakes
+Version: 2.2.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Varun Hiremath <varun@debian.org>, Barry Warsaw <barry@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-nose, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cf3dc4c93c2eddded9613c8fd867f21a 2112 pyflakes_2.2.0-2.dsc
+ 48b1c29732ca810a70cba0e6d0531169 65307 pyflakes_2.2.0.orig.tar.gz
+ 013e2d40e645b3bd30060cd23c33204f 8172 pyflakes_2.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyflakes
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyflakes.git
+Checksums-Sha256:
+ 53a2b2a10fd45be574fdc2d3763117afef5a7ed837df4c15c98d484cd2573e3b 2112 pyflakes_2.2.0-2.dsc
+ 35b2d75ee967ea93b55750aa9edbbf72813e06a66ba54438df2cfac9e3c27fc8 65307 pyflakes_2.2.0.orig.tar.gz
+ d8051abe5512bbe5c87dc6296b40f10b2b4d96459b085940055350f989a05d1b 8172 pyflakes_2.2.0-2.debian.tar.xz
+Homepage: https://launchpad.net/pyflakes
+Package-List: 
+ pyflakes3 deb python optional arch=all
+ python3-pyflakes deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/p/pyflakes
+Priority: source
+Section: python

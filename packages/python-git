@@ -1,0 +1,27 @@
+Package: python-git
+Binary: python3-git, python-git-doc
+Version: 3.1.14-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Vincent Bernat <bernat@debian.org>, TANIGUCHI Takaki <takaki@debian.org>, Yaroslav Halchenko <debian@onerussian.com>,
+Build-Depends: debhelper-compat (= 13), dh-python, git, python3-sphinx, python3-sphinx-rtd-theme, python3-all, python3-setuptools, python3-pyflakes, python3-ddt
+Build-Depends-Indep: python3-gitdb (>= 2), python3-mock, python3-nose, python3-smmap (>= 2)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 23c20147e02076d524c3f99d7c9bc372 2341 python-git_3.1.14-1.dsc
+ 8d4a922cb32ce13b5c91fee1e4ecd84c 171534 python-git_3.1.14.orig.tar.gz
+ 523cc36b6eb4b5dcfa0b29c89c029c5d 6760 python-git_3.1.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-git
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-git.git
+Checksums-Sha256:
+ f15898add65fbbbcee9093930d127af66f3ddec35f348729252f7a2a2af9b133 2341 python-git_3.1.14-1.dsc
+ be27633e7509e58391f10207cd32b2a6cf5b908f92d9cd30da2e514e1137af61 171534 python-git_3.1.14.orig.tar.gz
+ 8a47403f7ac2bf09c8406fb0350432a303c3f789517d74c80229f42b20730f1d 6760 python-git_3.1.14-1.debian.tar.xz
+Homepage: https://github.com/gitpython-developers/GitPython
+Package-List: 
+ python-git-doc deb doc optional arch=all
+ python3-git deb python optional arch=all
+Directory: pool/main/p/python-git
+Priority: source
+Section: python

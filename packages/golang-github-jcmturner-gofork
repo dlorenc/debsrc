@@ -1,0 +1,28 @@
+Package: golang-github-jcmturner-gofork
+Binary: golang-github-jcmturner-gofork-dev
+Version: 1.0.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Stephen Gelman <ssgelm@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d323f99d725578f76076d7518b2b8d5e 2302 golang-github-jcmturner-gofork_1.0.0-2.dsc
+ eaa3013f143c0cdf5c2025a963a82d45 27036 golang-github-jcmturner-gofork_1.0.0.orig.tar.gz
+ 8f435ca3fddd5916d9c83372fc53dbf2 2720 golang-github-jcmturner-gofork_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-jcmturner-gofork
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-jcmturner-gofork.git
+Checksums-Sha256:
+ 9335d6082a208edaf2807e85f668516d986de57f2b1458a0f9acc68001d4fed9 2302 golang-github-jcmturner-gofork_1.0.0-2.dsc
+ d85188110837abd563dca4d9013665f82348a541beb47ee08207e70a161c9755 27036 golang-github-jcmturner-gofork_1.0.0.orig.tar.gz
+ bb7c758542878d4c39395e2c879f715b93adac7c0938dbaf645cec3d7bc9e0a7 2720 golang-github-jcmturner-gofork_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/jcmturner/gofork
+Go-Import-Path: github.com/jcmturner/gofork
+Package-List: 
+ golang-github-jcmturner-gofork-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-jcmturner-gofork
+Priority: extra
+Section: golang

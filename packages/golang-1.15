@@ -1,0 +1,28 @@
+Package: golang-1.15
+Binary: golang-1.15-go, golang-1.15-src, golang-1.15-doc, golang-1.15
+Version: 1.15.9-5
+Maintainer: Go Compiler Team <team+go-compiler@tracker.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>, Paul Tagliamonte <paultag@debian.org>, Tianon Gravi <tianon@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>
+Build-Depends: debhelper-compat (= 13), golang-any (>= 2:1.4~) | golang-go (>= 2:1.4~) | gccgo (>= 4:5~), netbase
+Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7f7939330e30a6494174a201f2bc7411 2028 golang-1.15_1.15.9-5.dsc
+ ba40334b68b1512e203acabbad6aa65f 23019739 golang-1.15_1.15.9.orig.tar.gz
+ 2863a43a43cb7e33938b503a35869f79 49224 golang-1.15_1.15.9-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.15
+Vcs-Git: https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.15
+Checksums-Sha256:
+ c3bcefb57bcbc549960eb19b429b0bd71e5de9d12145c42862d1aa76104910c6 2028 golang-1.15_1.15.9-5.dsc
+ 90983b9c84a92417337dc1942ff066fc8b3a69733b8b5493fd0b9b9db1ead60f 23019739 golang-1.15_1.15.9.orig.tar.gz
+ 2aa9310f509743f932500981dfe50cbe7cc99a5e50123c45478f2993196a674e 49224 golang-1.15_1.15.9-5.debian.tar.xz
+Homepage: https://golang.org
+Package-List: 
+ golang-1.15 deb devel optional arch=all
+ golang-1.15-doc deb doc optional arch=all
+ golang-1.15-go deb devel optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x
+ golang-1.15-src deb devel optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x
+Directory: pool/main/g/golang-1.15
+Priority: extra
+Section: golang

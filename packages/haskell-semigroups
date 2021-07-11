@@ -1,0 +1,28 @@
+Package: haskell-semigroups
+Binary: libghc-semigroups-dev, libghc-semigroups-prof, libghc-semigroups-doc
+Version: 0.19.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-hashable-dev (>= 1.2.5.0), libghc-hashable-dev (<< 1.4), libghc-hashable-prof, libghc-tagged-dev (>= 0.4.4), libghc-tagged-dev (<< 1), libghc-tagged-prof, libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc, libghc-tagged-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bb7d5e9652fbef6f4123d4015b5fce0f 2699 haskell-semigroups_0.19.1-2.dsc
+ 5c60017c5afb9d6b84c18a8cee6cba84 21124 haskell-semigroups_0.19.1.orig.tar.gz
+ da1b4a35d333f14f991993968ac38229 3240 haskell-semigroups_0.19.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-semigroups
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-semigroups]
+Checksums-Sha256:
+ 13e70389ce6d2f4cd937cff6783d26206f8afaf69233cc7474c04c1dc23f9768 2699 haskell-semigroups_0.19.1-2.dsc
+ 79e761e64b862564a3470d5d356cb6b060b14452d675859aed3b2d1e14646648 21124 haskell-semigroups_0.19.1.orig.tar.gz
+ 7c9bb64e0e596db9f2d1c0ec3caf665720a77875f9aa5f659e94e453b678219f 3240 haskell-semigroups_0.19.1-2.debian.tar.xz
+Homepage: https://github.com/ekmett/semigroups/
+Package-List: 
+ libghc-semigroups-dev deb haskell optional arch=any
+ libghc-semigroups-doc deb doc optional arch=all
+ libghc-semigroups-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-semigroups
+Priority: source
+Section: haskell

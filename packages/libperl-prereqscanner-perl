@@ -1,0 +1,27 @@
+Package: libperl-prereqscanner-perl
+Binary: libperl-prereqscanner-perl
+Version: 1.023-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Jonathan Yu <jawnsy@cpan.org>, Alessandro Ghedini <ghedo@debian.org>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl, perl (>= 5.19.5) | libcpan-meta-requirements-perl (>= 2.124), libgetopt-long-descriptive-perl, liblist-moreutils-perl, libmodule-path-perl, libmoose-perl, libnamespace-autoclean-perl, libparams-util-perl, libppi-perl, libstring-rewriteprefix-perl, libtry-tiny-perl, perl (>= 5.13.4) | libtest-simple-perl (>= 0.96)
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 210f31ca319974c7d55e8ee4d820da62 2693 libperl-prereqscanner-perl_1.023-1.dsc
+ be8e8a5266eb838a55f34753757a4fb5 28136 libperl-prereqscanner-perl_1.023.orig.tar.gz
+ 62ff64403c9a281db9bc6ab5a67d5635 3728 libperl-prereqscanner-perl_1.023-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libperl-prereqscanner-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libperl-prereqscanner-perl.git
+Checksums-Sha256:
+ 51bfa72efba31926211c759ad19eaa26ecbb5c9b54a451206a2e29f49b093c9a 2693 libperl-prereqscanner-perl_1.023-1.dsc
+ 280a1c4710390865fb9f310a861a34720b28b4cbe50609c841af5cf2d3a2bced 28136 libperl-prereqscanner-perl_1.023.orig.tar.gz
+ 52e14693d5fe2081e8cca604e5aaeb0220282a8f2f2627bdcbc8e3b70e4c09e0 3728 libperl-prereqscanner-perl_1.023-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Perl-PrereqScanner
+Package-List: 
+ libperl-prereqscanner-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libperl-prereqscanner-perl
+Priority: source
+Section: perl

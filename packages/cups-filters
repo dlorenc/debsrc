@@ -1,0 +1,32 @@
+Package: cups-filters
+Binary: libcupsfilters1, libfontembed1, cups-filters, cups-filters-core-drivers, libcupsfilters-dev, libfontembed-dev, cups-browsed
+Version: 1.28.7-1
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Uploaders: Till Kamppeter <till.kamppeter@gmail.com>, Didier Raboud <odyx@debian.org>
+Build-Depends: autoconf, debhelper-compat (= 13), dh-apparmor, pkg-config, sharutils, ghostscript, poppler-utils, libglib2.0-dev, liblcms2-dev, libldap2-dev, libpoppler-cpp-dev, libqpdf-dev (>= 8.3~), libjpeg-dev, libpng-dev, libtiff-dev, libcups2-dev (>= 2.2.2), libcupsimage2-dev, libijs-dev, zlib1g-dev, libfontconfig1-dev, libdbus-1-dev, libavahi-common-dev, libavahi-client-dev, libavahi-glib-dev, librsvg2-bin, liblouis-dev, fonts-dejavu-core
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0f011283b0519d1a7b8a261b9bd40df8 2930 cups-filters_1.28.7-1.dsc
+ 2efeed97e11ea5e157c5f4f2e0780fe7 1503052 cups-filters_1.28.7.orig.tar.xz
+ 24abdfae0b83b4ab00c1f4ad74e55e0f 82772 cups-filters_1.28.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/printing-team/cups-filters
+Vcs-Git: https://salsa.debian.org/printing-team/cups-filters.git
+Checksums-Sha256:
+ 0cc9959bed5d2010af2a173c8e79da50aaed3bc9d2806f57a1273280297db86b 2930 cups-filters_1.28.7-1.dsc
+ e4150902809c58dfff7089c9345f196ecd88e38bce2be4800fa4811a0902057d 1503052 cups-filters_1.28.7.orig.tar.xz
+ 9012498f6d5cccb6d7f8cedb24365752a5293657bf16386e11629aea49c96ece 82772 cups-filters_1.28.7-1.debian.tar.xz
+Homepage: https://wiki.linuxfoundation.org/openprinting/
+Dgit: 68ee55f6229f6ce8e7ec8f70c8049b371f573ee6 debian archive/debian/1.28.7-1 https://git.dgit.debian.org/cups-filters
+Package-List: 
+ cups-browsed deb net optional arch=any
+ cups-filters deb net optional arch=any
+ cups-filters-core-drivers deb net optional arch=any
+ libcupsfilters-dev deb libdevel optional arch=any
+ libcupsfilters1 deb libs optional arch=any
+ libfontembed-dev deb libdevel optional arch=any
+ libfontembed1 deb libs optional arch=any
+Directory: pool/main/c/cups-filters
+Priority: source
+Section: net

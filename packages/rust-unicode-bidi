@@ -1,0 +1,26 @@
+Package: rust-unicode-bidi
+Binary: librust-unicode-bidi-dev, librust-unicode-bidi+serde-dev, librust-unicode-bidi+with-serde-dev
+Version: 0.3.4-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <pl@ninthfloor.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-matches-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ eb81640f8e4b2242a6e87181fcc003ae 2364 rust-unicode-bidi_0.3.4-2.dsc
+ bd7aaf4eb3c6556ffb9455fe57b68951 32260 rust-unicode-bidi_0.3.4.orig.tar.gz
+ 85a7c072b4c49e1cfa5e859345ded9ab 2996 rust-unicode-bidi_0.3.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unicode-bidi
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-bidi]
+Checksums-Sha256:
+ 3ed8e0ef474d3a4927a9d47aa6b51ec7a35d47f927aaca2417cfd8d4f6206f5f 2364 rust-unicode-bidi_0.3.4-2.dsc
+ 4ceafd01de8c15e69434c4d2a210b2fd290a7cd32dfaca6fa0603f83d1e1be27 32260 rust-unicode-bidi_0.3.4.orig.tar.gz
+ 731d0796d9889d7cb25592562ec710e7231a5d471da0f0d499d19e4a11d02236 2996 rust-unicode-bidi_0.3.4-2.debian.tar.xz
+Package-List: 
+ librust-unicode-bidi+serde-dev deb rust optional arch=any
+ librust-unicode-bidi+with-serde-dev deb rust optional arch=any
+ librust-unicode-bidi-dev deb rust optional arch=any
+Directory: pool/main/r/rust-unicode-bidi
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: ros-opencv-apps
+Binary: libopencv-apps-dev, libopencv-apps2d, ros-opencv-apps, python3-opencv-apps, cl-opencv-apps
+Version: 2.0.2-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 13), catkin, librosconsole-dev, libsensor-msgs-dev, libboost-python-dev, libopencv-dev, libdynamic-reconfigure-config-init-mutex-dev, ros-message-generation, libimage-transport-dev, libnodeletlib-dev, libroscpp-dev, libstd-srvs-dev, dh-sequence-python3, librostest-dev, ros-std-msgs, libcv-bridge-dev, ros-sensor-msgs, python3-dynamic-reconfigure, python3, python3-roslaunch, python3-rostest, python3-rosunit, python3-rosservice, python3-rosbag
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ea52d1343895716e516f6c766ec463db 2759 ros-opencv-apps_2.0.2-3.dsc
+ c5c4c7c35c3229be66634ad1962cb9d2 84924 ros-opencv-apps_2.0.2.orig.tar.gz
+ f1fce27ae6c09cc9f67499b52115f2ca 7504 ros-opencv-apps_2.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ros-opencv-apps
+Vcs-Git: https://salsa.debian.org/science-team/ros-opencv-apps.git
+Checksums-Sha256:
+ 63f349258a8dcbe2132ef67b758a0465fc4c0e9baf3c80e61bfb93c29f9c2244 2759 ros-opencv-apps_2.0.2-3.dsc
+ f741455fbfc37153750be04e797606c24fb54b9a2560561a34c31e3dd1f6e82d 84924 ros-opencv-apps_2.0.2.orig.tar.gz
+ 6a217a38f2619981c13c0ef36d59d14275a8bc7afb7f8b7d40cd5d9f954f94fb 7504 ros-opencv-apps_2.0.2-3.debian.tar.xz
+Homepage: https://wiki.ros.org/opencv_apps
+Package-List: 
+ cl-opencv-apps deb lisp optional arch=all
+ libopencv-apps-dev deb libdevel optional arch=any
+ libopencv-apps2d deb libs optional arch=any
+ python3-opencv-apps deb python optional arch=all
+ ros-opencv-apps deb utils optional arch=any
+Directory: pool/main/r/ros-opencv-apps
+Priority: optional
+Section: misc

@@ -1,0 +1,22 @@
+Package: netcfg
+Binary: netcfg, netcfg-static
+Version: 1.173
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~), libdebconfclient0-dev (>= 0.46), libdebian-installer4-dev (>= 0.41), po-debconf (>= 0.5.0), libiw-dev (>= 27+28pre9) [!s390 !s390x !sparc !kfreebsd-any !hurd-any], check, libsubunit-dev
+Architecture: any
+Format: 3.0 (native)
+Files:
+ c488155ffa9fbd0fe5be89a9e9c151c7 1870 netcfg_1.173.dsc
+ 4712f2f88429ca90763b9fa2a3b06fd7 400836 netcfg_1.173.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/netcfg
+Vcs-Git: https://salsa.debian.org/installer-team/netcfg.git
+Checksums-Sha256:
+ 14e0726007a9a94a313b970b3d7536af82b6be4c837f3505dd7b4a971f66d7bc 1870 netcfg_1.173.dsc
+ 08fa0de961515d3bdb1e977dd7304597beb56d404775bca0c3bfd4e749910ffa 400836 netcfg_1.173.tar.xz
+Package-List: 
+ netcfg udeb debian-installer optional arch=any
+ netcfg-static udeb debian-installer optional arch=any
+Directory: pool/main/n/netcfg
+Priority: source
+Section: debian-installer

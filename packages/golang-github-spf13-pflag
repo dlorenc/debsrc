@@ -1,0 +1,27 @@
+Package: golang-github-spf13-pflag
+Binary: golang-github-spf13-pflag-dev
+Version: 1.0.5-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>, Dmitry Smirnov <onlyjob@debian.org>, Félix Sipma <felix+debian@gueux.org>, Tim Potter <tpot@hpe.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ea4a5c0743d1cad315ccb561e5df8b54 1710 golang-github-spf13-pflag_1.0.5-2.dsc
+ 74d0865e571eac53f065dc5f8f307911 40260 golang-github-spf13-pflag_1.0.5.orig.tar.xz
+ e95416836f14bec99a812fcfe7762490 6876 golang-github-spf13-pflag_1.0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-spf13-pflag
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-spf13-pflag.git
+Checksums-Sha256:
+ 526dd6a50638db94bedd9aee20758465fe3403e267ca77e5acca5e0abb97cb91 1710 golang-github-spf13-pflag_1.0.5-2.dsc
+ f3e990674d8a16e2e7c761bfcb509fbe9aad6ebfecd68f4e34d1232422693956 40260 golang-github-spf13-pflag_1.0.5.orig.tar.xz
+ 7762323dbc07d42d2754253baebe254cf5af704985cea4c136c2e1c4067310d6 6876 golang-github-spf13-pflag_1.0.5-2.debian.tar.xz
+Homepage: https://github.com/spf13/pflag
+Go-Import-Path: github.com/spf13/pflag
+Package-List: 
+ golang-github-spf13-pflag-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-spf13-pflag
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: golang-github-bsipos-thist
+Binary: golang-github-bsipos-thist-dev
+Version: 1.0.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-crypto-dev, golang-gonum-v1-plot-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dcf1f06b0c870a9c4028509ce4770e10 2315 golang-github-bsipos-thist_1.0.0-2.dsc
+ 4527293ddd03fd1950fa741a317a88db 8296 golang-github-bsipos-thist_1.0.0.orig.tar.gz
+ 9a041594972cbb32295b6de41e2f519d 2572 golang-github-bsipos-thist_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-bsipos-thist
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-bsipos-thist.git
+Checksums-Sha256:
+ edb3ace4fe9061a5e41820d7b68941fee53eca7bad6ed12de0bbc66bc5d5730e 2315 golang-github-bsipos-thist_1.0.0-2.dsc
+ c90ccec3f6e6781fc8371c4bdc52faec61f84a850b88053a726ae0ec748c1ca3 8296 golang-github-bsipos-thist_1.0.0.orig.tar.gz
+ dd373ee4ef327809ab6f8270c7929d3304999bebf8ad33fe652dc15ecebb2012 2572 golang-github-bsipos-thist_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/bsipos/thist
+Go-Import-Path: github.com/bsipos/thist
+Package-List: 
+ golang-github-bsipos-thist-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-bsipos-thist
+Priority: extra
+Section: golang

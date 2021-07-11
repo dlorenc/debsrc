@@ -1,0 +1,26 @@
+Package: node-uniq
+Binary: node-uniq
+Version: 1.0.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5c5748361a0d25857a3e748ff83013af 2010 node-uniq_1.0.1-2.dsc
+ b7fd70b974406ccf0859667a6ff5cdcd 2302 node-uniq_1.0.1.orig.tar.gz
+ ade55248a3fff8c02e311991b88b69f3 2832 node-uniq_1.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-uniq
+Vcs-Git: https://salsa.debian.org/js-team/node-uniq.git
+Checksums-Sha256:
+ f290cf7ad018da582785bb9ea695d35c7233f7a30a576980609eb926f80bbb1e 2010 node-uniq_1.0.1-2.dsc
+ 2e71598a50822caa9096d140f2269545e02e844311d861d62d6e9ecc57d4a9fc 2302 node-uniq_1.0.1.orig.tar.gz
+ fe0a22105f585f11a200854ad826fd1587c611ec163ec7102acc3eced50dbcd5 2832 node-uniq_1.0.1-2.debian.tar.xz
+Homepage: https://github.com/mikolalysenko/uniq
+Package-List: 
+ node-uniq deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-uniq
+Priority: extra
+Section: misc

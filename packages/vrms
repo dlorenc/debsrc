@@ -1,0 +1,25 @@
+Package: vrms
+Binary: vrms
+Version: 1.27
+Maintainer: Debian vrms Maintainers <team+vrms@tracker.debian.org>
+Uploaders: Bdale Garbee <bdale@gag.com>, Rogério Brito <rbrito@ime.usp.br>, Holger Levsen <holger@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 5158553e9b5460e38e0f80ba636a83de 1741 vrms_1.27.dsc
+ 6ac3cf8bf20b020c9e90c95247bcc66b 12768 vrms_1.27.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/vrms
+Vcs-Git: https://salsa.debian.org/debian/vrms.git
+Checksums-Sha256:
+ 463aaa00209f2d8f378ff891ccd5fc45a180bd53553a020332265b9d6c4c4f51 1741 vrms_1.27.dsc
+ 916297b7a22cc27acd61e5a97dbeb1d8f28eac80426392cf923d216ae2f2590f 12768 vrms_1.27.tar.xz
+Homepage: https://debian.pages.debian.net/vrms/
+Package-List: 
+ vrms deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: amd64-microcode, doc-rfc-std, intel-microcode
+Directory: pool/main/v/vrms
+Priority: source
+Section: admin

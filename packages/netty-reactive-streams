@@ -1,0 +1,25 @@
+Package: netty-reactive-streams
+Binary: libnetty-reactive-streams-java
+Version: 2.0.5-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, libnetty-java (>= 1:4.1.13), libmaven-bundle-plugin-java, libreactive-streams-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 193485392a73c3b1f97d5309821247da 2250 netty-reactive-streams_2.0.5-1.dsc
+ f92b93f015b9ec820f00d41cb9f60e91 29496 netty-reactive-streams_2.0.5.orig.tar.xz
+ 2165a986bb9f65e2f31c42a300cf7010 2592 netty-reactive-streams_2.0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/netty-reactive-streams
+Vcs-Git: https://salsa.debian.org/java-team/netty-reactive-streams.git
+Checksums-Sha256:
+ d02aae2031d60bd11cf4f5b61769e833285236ea2a517d73ec2ca80290fcfda8 2250 netty-reactive-streams_2.0.5-1.dsc
+ 2aa1032cd7730440a1d768744d981a0471af344123749d7230eade55d95d272a 29496 netty-reactive-streams_2.0.5.orig.tar.xz
+ df3107fbf374481a97e1815b8b593a73e8e62ccce08a766887326fc135b839d0 2592 netty-reactive-streams_2.0.5-1.debian.tar.xz
+Homepage: https://github.com/playframework/netty-reactive-streams
+Package-List: 
+ libnetty-reactive-streams-java deb java optional arch=all
+Directory: pool/main/n/netty-reactive-streams
+Priority: extra
+Section: misc

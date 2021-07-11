@@ -1,0 +1,24 @@
+Package: rust-iso8601
+Binary: librust-iso8601-dev
+Version: 0.3.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-nom-4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f4da5277341742bad9bcf8a62d7765f3 2114 rust-iso8601_0.3.0-1.dsc
+ 29c3389b276d518a91d68aa28063b033 14282 rust-iso8601_0.3.0.orig.tar.gz
+ cfae0d016d2db8c0109669179703f4b5 2488 rust-iso8601_0.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/iso8601
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/iso8601]
+Checksums-Sha256:
+ 3ecdf4517a3e23d64c1d1bd089f5d372cf5e94bb9d7405d58c3f5e79a8f3a4c2 2114 rust-iso8601_0.3.0-1.dsc
+ 43e86914a73535f3f541a765adea0a9fafcf53fa6adb73662c4988fd9233766f 14282 rust-iso8601_0.3.0.orig.tar.gz
+ 6c008919c5a67694b605b7ec3f0ae7dbf6bf1b809d5dfba81afc80b35a4b4b05 2488 rust-iso8601_0.3.0-1.debian.tar.xz
+Package-List: 
+ librust-iso8601-dev deb rust optional arch=any
+Directory: pool/main/r/rust-iso8601
+Priority: extra
+Section: misc

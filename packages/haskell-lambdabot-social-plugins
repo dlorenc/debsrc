@@ -1,0 +1,28 @@
+Package: haskell-lambdabot-social-plugins
+Binary: libghc-lambdabot-social-plugins-dev, libghc-lambdabot-social-plugins-prof, libghc-lambdabot-social-plugins-doc
+Version: 5.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Delanoë <anoe@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), haskell-devscripts (>= 0.13), ghc (>= 8.4.3), ghc-prof, libghc-lambdabot-core-dev (>= 5.3), libghc-lambdabot-core-dev (<< 5.4), libghc-lambdabot-core-prof, libghc-split-dev (>= 0.2), libghc-split-prof
+Build-Depends-Indep: ghc-doc, libghc-lambdabot-core-doc, libghc-split-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 0f191594fab955f7b84d2c4d30fc4666 2731 haskell-lambdabot-social-plugins_5.3-1.dsc
+ 840c710e8a100e3bdb94fb0844ea7430 15523 haskell-lambdabot-social-plugins_5.3.orig.tar.gz
+ c1485230d2c47a7bcf65d19f2b6426bf 2888 haskell-lambdabot-social-plugins_5.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-lambdabot-social-plugins
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-lambdabot-social-plugins]
+Checksums-Sha256:
+ 71c3c108fa9842c0d95d90355d4fe70c3462348205e6731b7bbed40466d21fb9 2731 haskell-lambdabot-social-plugins_5.3-1.dsc
+ d6258ee7d1995657b9276b336e9e5533418fdee56b93831ed94674f103a5cc3e 15523 haskell-lambdabot-social-plugins_5.3.orig.tar.gz
+ d956e398c2da07f7f524417bdbd813008a521f61486e9ed8992d743b4cf49085 2888 haskell-lambdabot-social-plugins_5.3-1.debian.tar.xz
+Homepage: https://wiki.haskell.org/Lambdabot
+Package-List: 
+ libghc-lambdabot-social-plugins-dev deb haskell optional arch=any
+ libghc-lambdabot-social-plugins-doc deb doc optional arch=all
+ libghc-lambdabot-social-plugins-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-lambdabot-social-plugins
+Priority: optional
+Section: misc

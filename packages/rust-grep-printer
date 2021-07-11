@@ -1,0 +1,32 @@
+Package: rust-grep-printer
+Binary: librust-grep-printer-dev, librust-grep-printer+base64-dev, librust-grep-printer+serde-dev, librust-grep-printer+serde1-dev, librust-grep-printer+serde-derive-dev, librust-grep-printer+serde-json-dev
+Version: 0.1.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-base64-0.12+default-dev <!nocheck>, librust-bstr-0.2+default-dev <!nocheck>, librust-grep-matcher-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-grep-searcher-0.1+default-dev (>= 0.1.4-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.77-~~) <!nocheck>, librust-serde-derive-1+default-dev (>= 1.0.77-~~) <!nocheck>, librust-serde-json-1+default-dev (>= 1.0.27-~~) <!nocheck>, librust-termcolor-1+default-dev (>= 1.0.4-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ db62e95f3ae4468418f1f986cf756c24 3203 rust-grep-printer_0.1.5-1.dsc
+ 9d836c4567c79e12ae66da60448fa04c 43595 rust-grep-printer_0.1.5.orig.tar.gz
+ d68164e0ce03335f4850a3c36116ddfc 3708 rust-grep-printer_0.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/grep-printer
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/grep-printer]
+Checksums-Sha256:
+ e31b1ba1efc4283fbde2394b6f0d3606ffa59e81919fada3a7ee6526eddf436e 3203 rust-grep-printer_0.1.5-1.dsc
+ 7f34d40c840fe8e413a94598345d8a4bb25fdbb4f3860a6c00a88bb296d89d00 43595 rust-grep-printer_0.1.5.orig.tar.gz
+ 449ffad3c0b66c4b7a44f45aabe59bd44aea75a8d478bbfc427904eac71ee3a1 3708 rust-grep-printer_0.1.5-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/ripgrep/tree/master/crates/printer
+Package-List: 
+ librust-grep-printer+base64-dev deb rust optional arch=any
+ librust-grep-printer+serde-derive-dev deb rust optional arch=any
+ librust-grep-printer+serde-dev deb rust optional arch=any
+ librust-grep-printer+serde-json-dev deb rust optional arch=any
+ librust-grep-printer+serde1-dev deb rust optional arch=any
+ librust-grep-printer-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-grep-regex-0.1+default-dev
+Directory: pool/main/r/rust-grep-printer
+Priority: extra
+Section: misc

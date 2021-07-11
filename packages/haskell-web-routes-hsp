@@ -1,0 +1,28 @@
+Package: haskell-web-routes-hsp
+Binary: libghc-web-routes-hsp-dev, libghc-web-routes-hsp-prof, libghc-web-routes-hsp-doc
+Version: 0.24.6.1-7
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-hsp-dev (<< 0.11), libghc-hsp-dev (>= 0.9), libghc-hsp-prof, libghc-web-routes-dev (<< 0.28), libghc-web-routes-dev (>= 0.26), libghc-web-routes-prof
+Build-Depends-Indep: ghc-doc, libghc-hsp-doc, libghc-web-routes-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 70758043019bf7d43436e899f775d713 2633 haskell-web-routes-hsp_0.24.6.1-7.dsc
+ 81128047ad4acb54d63340a2ff57faa4 2655 haskell-web-routes-hsp_0.24.6.1.orig.tar.gz
+ c835f4b19b914718b84675d4ddb6e927 3200 haskell-web-routes-hsp_0.24.6.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-web-routes-hsp
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-web-routes-hsp]
+Checksums-Sha256:
+ a785fe49061e11ebfbc6ef1346dc299abaf3567e1dbffdc88180d038a677bdb1 2633 haskell-web-routes-hsp_0.24.6.1-7.dsc
+ ca7cf5bf026c52fee5b6af3ca173c7341cd991dcd38508d07589cc7ea8102cab 2655 haskell-web-routes-hsp_0.24.6.1.orig.tar.gz
+ 89c76b33362cfe8a16a712421b984778d9163787a3a495d5fe4f6e993d8b7d0b 3200 haskell-web-routes-hsp_0.24.6.1-7.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/web-routes-hsp
+Package-List: 
+ libghc-web-routes-hsp-dev deb haskell optional arch=any
+ libghc-web-routes-hsp-doc deb doc optional arch=all
+ libghc-web-routes-hsp-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-web-routes-hsp
+Priority: optional
+Section: misc

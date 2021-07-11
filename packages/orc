@@ -1,0 +1,28 @@
+Package: orc
+Binary: liborc-0.4-0, liborc-0.4-dev, liborc-0.4-dev-bin, liborc-0.4-doc
+Version: 1:0.4.32-1
+Maintainer: Maintainers of GStreamer packages <orc@packages.debian.org>
+Uploaders: Sebastian Dröge <slomo@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Build-Depends: debhelper-compat (= 13), meson (>= 0.47.0), pkg-config, gtk-doc-tools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 148f2977dc5495224f1036353ce2185c 2323 orc_0.4.32-1.dsc
+ 4fd61be43bb222fac1ecc486f4d055db 180340 orc_0.4.32.orig.tar.xz
+ 7f485efc6f8b260a05dd5daaa0207985 5644 orc_0.4.32-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gstreamer-team/orc/
+Vcs-Git: https://salsa.debian.org/gstreamer-team/orc.git
+Checksums-Sha256:
+ 87cfe7e2b15c979fc3a0cc021211edbc04f94ca667974bc4feae6de957f4e7bd 2323 orc_0.4.32-1.dsc
+ a66e3d8f2b7e65178d786a01ef61f2a0a0b4d0b8370de7ce134ba73da4af18f0 180340 orc_0.4.32.orig.tar.xz
+ 98f2598023364af087d4d6b45ad89ed3caa80ba0589755ee7cc79b22fb7cb440 5644 orc_0.4.32-1.debian.tar.xz
+Homepage: https://cgit.freedesktop.org/gstreamer/orc
+Package-List: 
+ liborc-0.4-0 deb libs optional arch=any
+ liborc-0.4-dev deb libdevel optional arch=any
+ liborc-0.4-dev-bin deb libdevel optional arch=any
+ liborc-0.4-doc deb doc optional arch=all
+Directory: pool/main/o/orc
+Priority: source
+Section: devel

@@ -1,0 +1,27 @@
+Package: rbac-client-clojure
+Binary: librbac-client-clojure
+Version: 0.9.4-2
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, maven-repo-helper, libclojure-java, libring-core-clojure, libring-json-clojure, libpuppetlabs-ring-middleware-clojure, libslingshot-clojure, libkitchensink-clojure, libpuppetlabs-http-client-clojure, libtrapperkeeper-clojure, libpuppetlabs-i18n-clojure, libtrapperkeeper-webserver-jetty9-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 346ff3ce0dce1551d9723ab6632c24df 2482 rbac-client-clojure_0.9.4-2.dsc
+ cb0a81f5cc30f1dbeb69cec3409eaf47 27932 rbac-client-clojure_0.9.4.orig.tar.xz
+ 913e39a9bcde84c16cc5b42f2da7bc91 3380 rbac-client-clojure_0.9.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/rbac-client-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/rbac-client-clojure.git
+Checksums-Sha256:
+ 9ba0607d6e0e5e6dcd79122913868a22d6a966c669bf2826484b60c102c542cc 2482 rbac-client-clojure_0.9.4-2.dsc
+ 7995e5ea81eb96d640cb5451616b4e81cc5fb715277e58246b69174061a1f010 27932 rbac-client-clojure_0.9.4.orig.tar.xz
+ 5ec4428bb89092a3f8a118011044d09af180f92595a6c557d0d733cf77662f53 3380 rbac-client-clojure_0.9.4-2.debian.tar.xz
+Homepage: https://github.com/puppetlabs/clj-rbac-client
+Package-List: 
+ librbac-client-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/r/rbac-client-clojure
+Priority: extra
+Section: misc

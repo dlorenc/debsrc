@@ -1,0 +1,27 @@
+Package: rust-libmount
+Binary: librust-libmount-dev
+Version: 0.1.15-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.28-~~) <!nocheck>, librust-nix-0.19+default-dev <!nocheck>, librust-quick-error-1+default-dev (>= 1.2.0-~~) <!nocheck>, libmount-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 270fa17342738e3306b20860167e10ee 2491 rust-libmount_0.1.15-2.dsc
+ 0cd05e5f3b02f83d99106fb69cb62aa9 22892 rust-libmount_0.1.15.orig.tar.gz
+ f3699d5cc2d601176af07cf83f01f706 3056 rust-libmount_0.1.15-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libmount
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/libmount]
+Checksums-Sha256:
+ 9832a890c73d02c7cae46d06d3b6ac5121e838e9ec19d25fadf0f8d724adcc13 2491 rust-libmount_0.1.15-2.dsc
+ 23c4c2ad2d5cbd2f5a05620c3daf45930add53ec207fa99ce5eec971089dc35f 22892 rust-libmount_0.1.15.orig.tar.gz
+ befad3967354e2acd85b6bbeb14e3517e8e56b074b7381345c374dc13c3663b6 3056 rust-libmount_0.1.15-2.debian.tar.xz
+Homepage: http://github.com/tailhook/libmount
+Package-List: 
+ librust-libmount-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-argparse-0.2+default-dev, librust-env-logger-0.7+default-dev, librust-log-0.4+default-dev
+Directory: pool/main/r/rust-libmount
+Priority: extra
+Section: misc

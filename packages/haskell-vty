@@ -1,0 +1,28 @@
+Package: haskell-vty
+Binary: libghc-vty-dev, libghc-vty-prof, libghc-vty-doc
+Version: 5.28.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-ansi-terminal-dev (>= 0.10.3), libghc-ansi-terminal-prof, libghc-blaze-builder-dev (>= 0.3.3.2), libghc-blaze-builder-dev (<< 0.5), libghc-blaze-builder-prof, libghc-hashable-dev (>= 1.2), libghc-hashable-prof, libghc-microlens-dev (<< 0.4.12), libghc-microlens-prof, libghc-microlens-mtl-dev, libghc-microlens-mtl-prof, libghc-microlens-th-dev, libghc-microlens-th-prof, libghc-parallel-dev (<< 3.3), libghc-parallel-dev (>= 2.2), libghc-parallel-prof, libghc-utf8-string-dev (<< 1.1), libghc-utf8-string-dev (>= 0.3), libghc-utf8-string-prof, libghc-vector-dev (>= 0.7), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-ansi-terminal-doc, libghc-blaze-builder-doc, libghc-hashable-doc, libghc-microlens-doc, libghc-microlens-mtl-doc, libghc-microlens-th-doc, libghc-parallel-doc, libghc-utf8-string-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 3dde66513cb18ef9f950eb1ee3a5b010 3057 haskell-vty_5.28.2-1.dsc
+ 7fd0686afdf139cd12ea5aeea8a31309 104319 haskell-vty_5.28.2.orig.tar.gz
+ 23c16c3248452267114675cac67afbb0 4396 haskell-vty_5.28.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-vty
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-vty]
+Checksums-Sha256:
+ 13a6915be03254fdf2aac2236da547599957a6642631376e6c65e68d10de8a36 3057 haskell-vty_5.28.2-1.dsc
+ 3bdf60e9445d0add86cd2c5d398107a2b9cc9e6e24b513c9b7b75d0e9182d149 104319 haskell-vty_5.28.2.orig.tar.gz
+ 8500322ea8d4d7bef2cb428b7055faf27fe40635bc99f2420df9a412679e0110 4396 haskell-vty_5.28.2-1.debian.tar.xz
+Homepage: https://github.com/jtdaugherty/vty
+Package-List: 
+ libghc-vty-dev deb haskell optional arch=any
+ libghc-vty-doc deb doc optional arch=all
+ libghc-vty-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-vty
+Priority: source
+Section: haskell

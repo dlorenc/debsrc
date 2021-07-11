@@ -1,0 +1,27 @@
+Package: golang-go-patricia
+Binary: golang-github-tchap-go-patricia-dev
+Version: 2.2.6-5
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper (>= 9), dh-golang (>= 1.28), golang-github-satori-go.uuid-dev, golang-go
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 6b5ed689b889fdb265cb08dc0956000b 2271 golang-go-patricia_2.2.6-5.dsc
+ c665be01ae554e31a17ae84b104a1f70 11995 golang-go-patricia_2.2.6.orig.tar.gz
+ 618eea4fb4f9e8d420f11325206fead4 2884 golang-go-patricia_2.2.6-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-go-patricia
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-go-patricia.git
+Checksums-Sha256:
+ 1ad043229ea0c03b83e8b8eb37d47fb2aff3e69a765ca850340875ea4988a837 2271 golang-go-patricia_2.2.6-5.dsc
+ ff686af39f02c64d6186129780c91cdb3b34dc315e4ce452f63e855f6f40cf7f 11995 golang-go-patricia_2.2.6.orig.tar.gz
+ 3b5b77d9449048402c1e4c3e4cc149b57b3507294a981ab673c2d5350968d465 2884 golang-go-patricia_2.2.6-5.debian.tar.xz
+Homepage: https://github.com/tchap/go-patricia
+Go-Import-Path: github.com/tchap/go-patricia,
+                   gopkg.in/tchap/go-patricia.v2
+Package-List: 
+ golang-github-tchap-go-patricia-dev deb devel optional arch=all
+Directory: pool/main/g/golang-go-patricia
+Priority: extra
+Section: golang

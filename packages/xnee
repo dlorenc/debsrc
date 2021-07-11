@@ -1,0 +1,29 @@
+Package: xnee
+Binary: xnee, libxnee0, libxnee-dev, xnee-doc, cnee
+Version: 3.19-5
+Maintainer: Vincent Bernat <bernat@debian.org>
+Uploaders: Barry deFreese <bddebian@comcast.net>
+Build-Depends: debhelper (>= 9), cdbs, dh-autoreconf, pkg-config, libxtst-dev, imagemagick, dia, texi2html, texlive-base, texlive-extra-utils, texlive-font-utils, texlive-plain-generic, texinfo, ghostscript
+Architecture: any all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ c243a65a2bc5823b93fb2603783df483 2214 xnee_3.19-5.dsc
+ 560e8126950d8d4e7c30fc844d556482 1893109 xnee_3.19.orig.tar.gz
+ 2882d9ce02bce626ef72b91e70cb857b 13204980 xnee_3.19-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/xnee
+Vcs-Git: https://salsa.debian.org/debian/xnee.git
+Checksums-Sha256:
+ d6dbf02498bac7ef461af3d89b466d33770f7d11edc4f8b8ba9aba7b2da57b62 2214 xnee_3.19-5.dsc
+ 52a41e5cf62f81b7a3e5b58124eb3565e1e12028abda63f547fbbe0d98a2c212 1893109 xnee_3.19.orig.tar.gz
+ cd466d128742262b3f6fa1a0ac6eea8996c10dc8f7f6beb768326118675e276a 13204980 xnee_3.19-5.debian.tar.xz
+Homepage: http://www.sandklef.com/xnee/
+Package-List: 
+ cnee deb x11 optional arch=any
+ libxnee-dev deb libdevel optional arch=any
+ libxnee0 deb libs optional arch=any
+ xnee deb x11 optional arch=all
+ xnee-doc deb doc optional arch=all
+Directory: pool/main/x/xnee
+Priority: source
+Section: x11

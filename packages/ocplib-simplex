@@ -1,0 +1,28 @@
+Package: ocplib-simplex
+Binary: ocplib-simplex-ocaml-dev
+Version: 0.4-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>,
+Build-Depends: debhelper (>= 10), dh-ocaml, ocaml-nox (>= 4.01.0), ocaml-findlib
+Architecture: any
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 9e1ff4447373366830ed215e724f009b 1894 ocplib-simplex_0.4-2.dsc
+ fbde2d7194acc0cda9f1b4511f4baa27 31784 ocplib-simplex_0.4.orig.tar.gz
+ 98eb07f7814c42212e7f2cfb55f53bcc 2756 ocplib-simplex_0.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocplib-simplex
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocplib-simplex.git
+Checksums-Sha256:
+ 8a9ca8d4ab893f4bf8b4ec57f67a104b3fb2313004c2574ca38d237acfbc515a 1894 ocplib-simplex_0.4-2.dsc
+ e17dab080508f2d02ce727c3dbc8dbc2613b15229cc74c67d3d11d4fdf22d878 31784 ocplib-simplex_0.4.orig.tar.gz
+ bc9fb3734a55b053b188ae9efacf2278ffdfa47870475d974fcf7bac5d13b69f 2756 ocplib-simplex_0.4-2.debian.tar.xz
+Homepage: https://github.com/OCamlPro-Iguernlala/ocplib-simplex
+Dgit: 342ede68b77ed6c1c068f8335b8f16d8b5ce3b3c debian archive/debian/0.4-2 https://git.dgit.debian.org/ocplib-simplex
+Package-List: 
+ ocplib-simplex-ocaml-dev deb ocaml optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libnum-ocaml-dev, ocaml-findlib, ocaml-nox
+Directory: pool/main/o/ocplib-simplex
+Priority: optional
+Section: misc

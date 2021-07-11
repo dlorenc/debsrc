@@ -1,0 +1,27 @@
+Package: lua-filesystem
+Binary: lua-filesystem, lua-filesystem-dev
+Version: 1.8.0-1
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Build-Depends: debhelper (>= 11~), dh-lua (>= 21)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 43145852ed230fe8157479aaae8e79b7 2176 lua-filesystem_1.8.0-1.dsc
+ 19eed27d16f1aac5e4d75dba5b191677 30370 lua-filesystem_1.8.0.orig.tar.gz
+ 053db17d5061348bf9e98480dd5710b0 3872 lua-filesystem_1.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-lua/lua-filesystem
+Vcs-Git: https://salsa.debian.org/lua-team/lua-filesystem.git
+Checksums-Sha256:
+ 843770ea64535be619ee437571e2e0bcef6c0cbada3b485d0a3b5d5949357987 2176 lua-filesystem_1.8.0-1.dsc
+ a1b7cf748ef2cdb6d75ebaa82a9c91b383fabc541b96febb1f9de98f06b8c188 30370 lua-filesystem_1.8.0.orig.tar.gz
+ 04bda2383d86a7e85910df4b4be9f66647853fe550af6b2a57cbd60596683de1 3872 lua-filesystem_1.8.0-1.debian.tar.xz
+Homepage: https://github.com/keplerproject/luafilesystem
+Package-List: 
+ lua-filesystem deb interpreters optional arch=any
+ lua-filesystem-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-lua
+Directory: pool/main/l/lua-filesystem
+Priority: source
+Section: interpreters

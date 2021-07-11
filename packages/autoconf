@@ -1,0 +1,27 @@
+Package: autoconf
+Binary: autoconf, autoconf-doc
+Version: 2.69-14
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: texinfo (>= 4.6), m4 (>= 1.4.13), texlive-base, texlive-plain-generic, texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended, help2man, cm-super
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 66ebad02a2a7ee9403fd955dddfe3b80 1624 autoconf_2.69-14.dsc
+ 50f97f4159805e374639a73e2636f22e 1214744 autoconf_2.69.orig.tar.xz
+ e162319736775794ae40f8bd3560a6c9 24512 autoconf_2.69-14.debian.tar.xz
+Vcs-Browser: https://browse.dgit.debian.org/autoconf
+Vcs-Git: https://git.dgit.debian.org/autoconf.git
+Checksums-Sha256:
+ aa23c53bf119239e302419772f89d988ecbf6ed2ac736db7329bcf71a891dece 1624 autoconf_2.69-14.dsc
+ 64ebcec9f8ac5b2487125a86a7760d2591ac9e1d3dbd59489633f9de62a57684 1214744 autoconf_2.69.orig.tar.xz
+ 156bbeaeeb8a9c5cdd7d482a7d85c05c2050456959656c3b7f5f0b062dbe6f9e 24512 autoconf_2.69-14.debian.tar.xz
+Homepage: https://www.gnu.org/software/autoconf/
+Dgit: 4d29308f474ac4382142af743ead5baa9cc96ecd debian archive/debian/2.69-14 https://git.dgit.debian.org/autoconf
+Package-List: 
+ autoconf deb devel optional arch=all
+ autoconf-doc deb doc optional arch=all
+Directory: pool/main/a/autoconf
+Priority: source
+Section: devel

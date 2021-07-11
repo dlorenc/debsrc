@@ -1,0 +1,27 @@
+Package: python-bioblend
+Binary: python3-bioblend, python-bioblend-doc
+Version: 0.7.0-3
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>,
+Build-Depends: debhelper-compat (= 9), dh-python, python3-all, python3-boto, python3-requests-toolbelt, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 94cfb6233c9c6f3795c4178e609d7f38 2225 python-bioblend_0.7.0-3.dsc
+ 850fe3c9b6eaf1fdfc100e370a973059 115298 python-bioblend_0.7.0.orig.tar.gz
+ 8d5412c248d37929ea05335ed4b75c3d 3412 python-bioblend_0.7.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-bioblend
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-bioblend.git
+Checksums-Sha256:
+ 89df3b68eba85852850c198344f579ae95818351a392fdbe2b3d446e668f2dcd 2225 python-bioblend_0.7.0-3.dsc
+ b0ede739533f8b04341c8e7b48e311c78843595a1ce14039eeafba26775d8431 115298 python-bioblend_0.7.0.orig.tar.gz
+ fe08e87dab5028a83d623c60fc13470057d17bad2b5cf28cd6988bb140ccdd87 3412 python-bioblend_0.7.0-3.debian.tar.xz
+Homepage: https://github.com/galaxyproject/bioblend
+Package-List: 
+ python-bioblend-doc deb doc optional arch=all
+ python3-bioblend deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-bioblend
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-regenerator-transform
+Binary: node-regenerator-transform
+Version: 0.14.5-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-babel-cli (>= 7) <!nocheck>, node-babel-core (>= 7) <!nocheck>, node-babel-plugin-transform-runtime (>= 7) <!nocheck>, node-babel-preset-env (>= 7) <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f0dc564657fa1d08f7ebc98997ccf0b4 2388 node-regenerator-transform_0.14.5-4.dsc
+ 50b17347afb12bf1a718460ee2f5d331 30033 node-regenerator-transform_0.14.5.orig.tar.gz
+ 73df98ef07234a9031c4bcf6f2819a20 3536 node-regenerator-transform_0.14.5-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-regenerator-transform
+Vcs-Git: https://salsa.debian.org/js-team/node-regenerator-transform.git
+Checksums-Sha256:
+ 99170ac545edd57af6e768d4fe2510ee247ddb0277a4d0f0aa401cb9908e4052 2388 node-regenerator-transform_0.14.5-4.dsc
+ f1ba04e774484b98c9576d64c54d7ddc9ee7a04cc0498af9e146d06e6ded2575 30033 node-regenerator-transform_0.14.5.orig.tar.gz
+ 8fd9efebd5d4c6e5e2102422b49a195562919d2fb33d0dd743b87982b89998f7 3536 node-regenerator-transform_0.14.5-4.debian.tar.xz
+Homepage: https://github.com/facebook/regenerator/tree/master/packages/regenerator-transform
+Package-List: 
+ node-regenerator-transform deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-regenerator-transform
+Priority: extra
+Section: misc

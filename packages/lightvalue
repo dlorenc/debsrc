@@ -1,0 +1,26 @@
+Package: lightvalue
+Binary: liblightvalue-generator-java, liblightvalue-gradle-plugin-java
+Version: 0.8.1-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Miroslav Kravec <kravec.miroslav@gmail.com>
+Build-Depends: debhelper (>= 11), default-jdk, gradle-debian-helper (>= 1.4), groovy (>= 2.4.10), jflex (>= 1.6.1), libjavapoet-java (>= 1.11.1), maven-repo-helper
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 0674cd498b9998a22c9e9be20150d773 2206 lightvalue_0.8.1-1.1.dsc
+ df62ba8053c07007cd4943779fd59a22 21391 lightvalue_0.8.1.orig.tar.gz
+ 0a41ea9056176e8e7839ee3565dabee0 2184 lightvalue_0.8.1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/lightvalue
+Vcs-Git: https://salsa.debian.org/java-team/lightvalue.git
+Checksums-Sha256:
+ 4df10c9239e62dddb73aa46e2af74975c4e9a1a365273b2fe955a06c372f64c4 2206 lightvalue_0.8.1-1.1.dsc
+ 734480a817b28d774bb7f82bb1db21698198e7d99fe45a78e7d7f2be7ca21c25 21391 lightvalue_0.8.1.orig.tar.gz
+ 6eb1cff57598d0497f3c225667283d154a4d7c579163e984a0afcb0d4e86b900 2184 lightvalue_0.8.1-1.1.debian.tar.xz
+Homepage: https://gitlab.com/kravemir/lightvalue
+Package-List: 
+ liblightvalue-generator-java deb java optional arch=all
+ liblightvalue-gradle-plugin-java deb java optional arch=all
+Directory: pool/main/l/lightvalue
+Priority: extra
+Section: misc

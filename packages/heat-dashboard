@@ -1,0 +1,26 @@
+Package: heat-dashboard
+Binary: python3-heat-dashboard
+Version: 4.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 109~), python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: nodeenv, openstack-dashboard (>= 3:18.3.1), python3-heatclient, python3-openstack.nose-plugin, python3-selenium, python3-testtools, python3-xstatic-angular-uuid, python3-xstatic-angular-vis, python3-xstatic-filesaver, python3-xstatic-js-yaml, python3-xstatic-json2yaml, python3-xvfbwrapper
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 48999aef4d8a2832944bc0a0c3f8d0b9 2483 heat-dashboard_4.0.0-1.dsc
+ 9e0b2ac623a3401624cb5f38881f9fc9 742324 heat-dashboard_4.0.0.orig.tar.xz
+ b6b66a828be4553153dbaf42391262e6 4604 heat-dashboard_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/horizon-plugins/heat-dashboard
+Vcs-Git: https://salsa.debian.org/openstack-team/horizon-plugins/heat-dashboard.git
+Checksums-Sha256:
+ acfe12f44f5231c2e3137c283b53aebab2539eab78ef20ef2f4bc64e1cc402fa 2483 heat-dashboard_4.0.0-1.dsc
+ e3f478f6e98f8c4870040e01c7ddb48638c57d521f721c884dcfce50fde4c67d 742324 heat-dashboard_4.0.0.orig.tar.xz
+ c3416d808d693e81a7d2900bb78c2a57116f47558f86cbbce6bc397b60c53247 4604 heat-dashboard_4.0.0-1.debian.tar.xz
+Homepage: https://opendev.org/openstack/heat-dashboard
+Package-List: 
+ python3-heat-dashboard deb python optional arch=all
+Directory: pool/main/h/heat-dashboard
+Priority: extra
+Section: misc

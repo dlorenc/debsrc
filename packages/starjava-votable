@@ -1,0 +1,29 @@
+Package: starjava-votable
+Binary: starlink-votable-java, starlink-votable-java-doc
+Version: 2.0+2021.01.10-2
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: ant, debhelper-compat (= 13), dh-exec, javahelper
+Build-Depends-Indep: ant-optional, default-jdk, default-jdk-doc, junit, libaxis-java, libfits-java (>= 1.15.2~), starlink-fits-java, starlink-table-java (>= 4~), starlink-util-java (>= 1.0+2021.01.10~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 08f477f85c9602a1eec6f56261dd5806 2496 starjava-votable_2.0+2021.01.10-2.dsc
+ 2bfac7389c94a9c76cba2086480c1b18 117324 starjava-votable_2.0+2021.01.10.orig.tar.xz
+ c9a66a4125843b96a1f2670548b66297 5764 starjava-votable_2.0+2021.01.10-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/starjava-votable
+Vcs-Git: https://salsa.debian.org/debian-astro-team/starjava-votable.git
+Checksums-Sha256:
+ 5883b8ad5732fe6dd22609fe85e900d16e35942f0f649141a30402849ef6414e 2496 starjava-votable_2.0+2021.01.10-2.dsc
+ 265d03bc2228c99fc81f06cfab7f00b864c645852dd5b41d2cebef99fdda516d 117324 starjava-votable_2.0+2021.01.10.orig.tar.xz
+ ffc5b175d9cc271bde51327ba62d011ef964acc683a59f7f110f8a8da942c4db 5764 starjava-votable_2.0+2021.01.10-2.debian.tar.xz
+Homepage: https://github.com/Starlink/starjava/tree/master/votable
+Package-List: 
+ starlink-votable-java deb java optional arch=all
+ starlink-votable-java-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ant, ant-optional, default-jdk, junit
+Directory: pool/main/s/starjava-votable
+Priority: optional
+Section: misc

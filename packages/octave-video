@@ -1,0 +1,26 @@
+Package: octave-video
+Binary: octave-video
+Version: 2.0.0-2
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Uploaders: Rafael Laboissière <rafael@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-octave (>= 0.7.1), libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 043b71c4296cc970216eb65f01d3010c 2093 octave-video_2.0.0-2.dsc
+ 0b09f8cb0e7caa31c38e4304c92ee79c 61998 octave-video_2.0.0.orig.tar.gz
+ 2094a114ce5bbe2025678289db82c019 3528 octave-video_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-octave-team/octave-video
+Vcs-Git: https://salsa.debian.org/pkg-octave-team/octave-video.git
+Checksums-Sha256:
+ c660bdfa1ffe9e671c13a39c738caaec1528eac6602da0dbff3c4da205cdd641 2093 octave-video_2.0.0-2.dsc
+ 3b5724281f9059cfb2678eac03ec0bde2b269568761f4d105cda16d8081bd268 61998 octave-video_2.0.0.orig.tar.gz
+ cf6d942a02e99764953b8a12ed8e018d1c8718d9446df39b4f4502435b885983 3528 octave-video_2.0.0-2.debian.tar.xz
+Homepage: https://octave.sourceforge.io/video/
+Package-List: 
+ octave-video deb math optional arch=any
+Testsuite: autopkgtest-pkg-octave
+Directory: pool/main/o/octave-video
+Priority: extra
+Section: misc

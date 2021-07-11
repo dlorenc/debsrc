@@ -1,0 +1,25 @@
+Package: tqdm
+Binary: python3-tqdm
+Version: 4.57.0-2
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-docopt, python3-keras <!nocheck>, python3-pandas <!nocheck>, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-rich <!nocheck>, python3-setuptools, python3-tk <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6bdc10f32457114bac9f28a833b3175f 2108 tqdm_4.57.0-2.dsc
+ f996cee4d5c3fd830eb35c3490f46ecc 106820 tqdm_4.57.0.orig.tar.xz
+ 362031f7d99c01c40ebf47d3919d4173 8848 tqdm_4.57.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/tqdm
+Vcs-Git: https://salsa.debian.org/python-team/packages/tqdm.git
+Checksums-Sha256:
+ 022f07207cbd555ced937451c3a727ec8542905c06b9227b46719038b9c0869e 2108 tqdm_4.57.0-2.dsc
+ b801ab193dc6cf34d8f99ce4964ba5adaee0c55b11a9ed106bec4d216d45d8ca 106820 tqdm_4.57.0.orig.tar.xz
+ 2a656baeafb0804b1f8e713d2a05b7c240b4fb27605ed14c6586c3d3bffaaa95 8848 tqdm_4.57.0-2.debian.tar.xz
+Homepage: https://github.com/tqdm/tqdm
+Package-List: 
+ python3-tqdm deb python optional arch=all
+Directory: pool/main/t/tqdm
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: honeysql-clojure
+Binary: libhoneysql-clojure
+Version: 0.8.2-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 10), javahelper (>= 0.32), maven-repo-helper (>= 1.7), clojure (>= 1.8), libtext-markdown-perl | markdown, default-jdk
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 2785e0cb8fdf2a60e25a26d0381f7944 2116 honeysql-clojure_0.8.2-2.dsc
+ 8d43a58dfef51b4949ffb17c348c91a8 14656 honeysql-clojure_0.8.2.orig.tar.xz
+ 4d0ca13ffeecf91cb2df7c47f6252451 7200 honeysql-clojure_0.8.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/honeysql-clojure
+Vcs-Git: https://salsa.debian.org/java-team/honeysql-clojure.git
+Checksums-Sha256:
+ bb28d8e4963947a2cba5cae1186195c699526b87020144ef72ef4f6cddfa336b 2116 honeysql-clojure_0.8.2-2.dsc
+ 92dc15a4a3748ebf446540e7c13aae0332d4266196de0be12dfbf366b4d75e7a 14656 honeysql-clojure_0.8.2.orig.tar.xz
+ e0d3cff21da3b2fe4bbfdd907dfae8045278359a18c94cef527a750cbf760ec3 7200 honeysql-clojure_0.8.2-2.debian.tar.xz
+Homepage: https://github.com/jkk/honeysql
+Package-List: 
+ libhoneysql-clojure deb java optional arch=all
+Directory: pool/main/h/honeysql-clojure
+Priority: extra
+Section: misc

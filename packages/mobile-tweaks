@@ -1,0 +1,26 @@
+Package: mobile-tweaks
+Binary: mobile-tweaks-common, librem5-tweaks, pinephone-tweaks, pinetab-tweaks
+Version: 3
+Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
+Uploaders: Arnaud Ferraris <arnaud.ferraris@gmail.com>, Guido Günther <agx@sigxcpu.org>, Henry-Nicolas Tourneur <debian@nilux.be>,
+Build-Depends: debhelper-compat (= 13), dh-exec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 3097297a4fe175a1954c76b3380b1ea9 2083 mobile-tweaks_3.dsc
+ 4e48e6fc365748293d8bbdfe83296e04 238848 mobile-tweaks_3.tar.xz
+Vcs-Browser: https://salsa.debian.org/DebianOnMobile-team/mobile-tweaks
+Vcs-Git: https://salsa.debian.org/DebianOnMobile-team/mobile-tweaks.git
+Checksums-Sha256:
+ 3f5483276fd45fafe1d5039423d734fe87eebb1597d51314979206d48d1bac8a 2083 mobile-tweaks_3.dsc
+ aef22c70641325dc8a7d084ea9c0e8d9f43820a837cd71a0ab6261d6a9409654 238848 mobile-tweaks_3.tar.xz
+Homepage: https://salsa.debian.org/DebianOnMobile-team/mobile-tweaks
+Package-List: 
+ librem5-tweaks deb metapackages optional arch=all
+ mobile-tweaks-common deb metapackages optional arch=all
+ pinephone-tweaks deb metapackages optional arch=all
+ pinetab-tweaks deb metapackages optional arch=all
+Directory: pool/main/m/mobile-tweaks
+Priority: extra
+Section: misc

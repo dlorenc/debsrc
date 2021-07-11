@@ -1,0 +1,30 @@
+Package: kombu
+Binary: python-kombu-doc, python3-kombu
+Version: 5.0.2-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>, Brian May <bam@debian.org>, Christopher Hoskin <mans0954@debian.org>, Thomas Goirand <zigo@debian.org>, Sergio Durigan Junior <sergiodj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-amqp (>= 5.0.0) <!nocheck>, python3-anyjson (>= 0.3.3) <!nocheck>, python3-botocore <!nocheck>, python3-case <!nocheck>, python3-django <!nocheck>, python3-mock <!nocheck>, python3-msgpack <!nocheck>, python3-pymongo <!nocheck>, python3-pyro4 <!nocheck>, python3-pytest <!nocheck>, python3-redis (>= 3.3.11) <!nocheck>, python3-simplejson <!nocheck>, python3-sphinx-celery <!nodoc>, python3-sqlalchemy <!nocheck>, python3-tz <!nocheck>, python3-vine <!nocheck>, python3-yaml <!nocheck>
+Build-Conflicts: python-cjson, python-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ef672fc6dba45367a9b5090b02fc19d6 2805 kombu_5.0.2-3.dsc
+ 52192e631ac39a443fb1abeb52299f22 406267 kombu_5.0.2.orig.tar.gz
+ adb9d6be9385463d85eaae87e391e463 11088 kombu_5.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/kombu
+Vcs-Git: https://salsa.debian.org/python-team/packages/kombu.git
+Checksums-Sha256:
+ b6a70da3f2bfdd38cd4ffd47802fca5cb67b7c8ef1b447024a6a55d85393afb3 2805 kombu_5.0.2-3.dsc
+ f4965fba0a4718d47d470beeb5d6446e3357a62402b16c510b6a2f251e05ac3c 406267 kombu_5.0.2.orig.tar.gz
+ cf7d0543e3dd9c8107d41883939c31143b7dfb8af174f1f1121f42f7b360e2c1 11088 kombu_5.0.2-3.debian.tar.xz
+Homepage: https://github.com/celery/kombu/
+Package-List: 
+ python-kombu-doc deb doc optional arch=all profile=!nodoc
+ python3-kombu deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/k/kombu
+Priority: source
+Section: python

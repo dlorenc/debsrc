@@ -1,0 +1,24 @@
+Package: rust-shlex
+Binary: librust-shlex-dev
+Version: 0.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 9f2b7c3fe7b9289eb0a0cf6baac48b67 1994 rust-shlex_0.1.1-1.dsc
+ 596af0e588b249afe287b2efb399ec0e 6016 rust-shlex_0.1.1.orig.tar.gz
+ 4bb52aaa9e80c010fa46b38dd0e020de 2276 rust-shlex_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git
+Checksums-Sha256:
+ efc3dfba2c4bcd3e5e01e3ae211bbdffebe4d92b6ffd821c1aa86ad9ce6ac657 1994 rust-shlex_0.1.1-1.dsc
+ 69889b94de7663c847d7310dc05691c58759901d4b4c479ca2dceead5dc84b52 6016 rust-shlex_0.1.1.orig.tar.gz
+ ad9a0f7b8134742524b077829d07c4d36eb8035b90273f8d3ad1737fa5781c07 2276 rust-shlex_0.1.1-1.debian.tar.xz
+Package-List: 
+ librust-shlex-dev deb rust optional arch=any
+Directory: pool/main/r/rust-shlex
+Priority: extra
+Section: misc

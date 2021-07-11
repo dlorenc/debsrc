@@ -1,0 +1,27 @@
+Package: wml
+Binary: wml, slice
+Version: 2.32.0~ds1-1
+Maintainer: Axel Beckert <abe@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), eperl <!nocheck>, freetable <!nocheck>, libbit-vector-perl, libclass-xsaccessor-perl, libcarp-always-perl, libcode-tidyall-perl <!nocheck>, libfile-which-perl, libgd-gd2-perl, libhtml-clean-perl, libimage-size-perl, liblist-moreutils-perl, libpath-tiny-perl, libperl-critic-perl <!nocheck>, libterm-readkey-perl, linklint <!nocheck>, lynx, m4 <!nocheck>, mp4h <!nocheck>, perl (>= 5.14.0), txt2html <!nocheck>, weblint-perl <!nocheck>, zlib1g-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6233065692569abb55a51e65e1daf699 2385 wml_2.32.0~ds1-1.dsc
+ e3bd1348b4af4c846d1b6230bcd8245e 228240 wml_2.32.0~ds1.orig.tar.xz
+ 868386a796d986abff443e010363c0a7 25728 wml_2.32.0~ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/wml
+Vcs-Git: https://salsa.debian.org/debian/wml.git
+Checksums-Sha256:
+ 764988cd7d6152c7242a3b6a927eccd150111951bd411f26bd678a8338c87abf 2385 wml_2.32.0~ds1-1.dsc
+ a8aa13b2ba447e43466a8b3044eff04c20834484d2e38a40eed2bfdc72fa18b5 228240 wml_2.32.0~ds1.orig.tar.xz
+ ea43bff0774fe852c63cf7162f31c11d5ea86b6229ab582035966ec73b4f7523 25728 wml_2.32.0~ds1-1.debian.tar.xz
+Homepage: https://www.shlomifish.org/open-source/projects/website-meta-language/
+Package-List: 
+ slice deb web optional arch=all
+ wml deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/w/wml
+Priority: source
+Section: web

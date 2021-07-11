@@ -1,0 +1,25 @@
+Package: rust-colored
+Binary: librust-colored-dev
+Version: 1.6.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 6d152d5c603286445cee9500c6d95085 2125 rust-colored_1.6.1-1.dsc
+ eff4f507d818922e4cb60edd34536a4d 17671 rust-colored_1.6.1.orig.tar.gz
+ a327224b533d32d9b4bd4a3542b9b26f 1684 rust-colored_1.6.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/colored
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/colored]
+Checksums-Sha256:
+ e6f89c5046d5ef5342db539134e34f62417a491aa9b3c523b7a1adc081750666 2125 rust-colored_1.6.1-1.dsc
+ dc0a60679001b62fb628c4da80e574b9645ab4646056d7c9018885efffe45533 17671 rust-colored_1.6.1.orig.tar.gz
+ 84af48196daa95653a1cf88313f4b679a52e26d41637cbfe70ee733b8356f1a6 1684 rust-colored_1.6.1-1.debian.tar.xz
+Homepage: https://github.com/mackwic/colored
+Package-List: 
+ librust-colored-dev deb rust optional arch=any
+Directory: pool/main/r/rust-colored
+Priority: extra
+Section: misc

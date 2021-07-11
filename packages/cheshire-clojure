@@ -1,0 +1,25 @@
+Package: cheshire-clojure
+Binary: libcheshire-clojure
+Version: 5.7.1-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: clojure (>= 1.8), debhelper (>= 10), default-jdk, javahelper (>= 0.32), libjackson2-core-java, libjackson2-dataformat-cbor, libjackson2-dataformat-smile, libtigris-clojure, markdown, maven-repo-helper (>= 1.5~)
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ a2e4af00f66accb528c02d588986a402 2226 cheshire-clojure_5.7.1-1.1.dsc
+ 4ede60443faee779a7077e5a08f05963 605146 cheshire-clojure_5.7.1.orig.tar.gz
+ 9417f57574765af9a25cfc78ff031450 10184 cheshire-clojure_5.7.1-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-java/cheshire-clojure.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/cheshire-clojure.git
+Checksums-Sha256:
+ cb38fc767b1c7fff9217c6ee43a49b889ba9287c5ab330b4244cb1fb9168ddde 2226 cheshire-clojure_5.7.1-1.1.dsc
+ 48ca838459cf92ed9486db318ba12ea795f1d50ba773917b1275532e3b779760 605146 cheshire-clojure_5.7.1.orig.tar.gz
+ c5180cd7da777797f136160258de7a641048851dc2f9ab39e2762235508830d9 10184 cheshire-clojure_5.7.1-1.1.debian.tar.xz
+Homepage: https://github.com/dakrone/cheshire
+Package-List: 
+ libcheshire-clojure deb java optional arch=all
+Directory: pool/main/c/cheshire-clojure
+Priority: extra
+Section: misc

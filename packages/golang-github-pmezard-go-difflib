@@ -1,0 +1,27 @@
+Package: golang-github-pmezard-go-difflib
+Binary: golang-github-pmezard-go-difflib-dev
+Version: 1.0.0-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0824be3f7c0757e7eb6967b4495d2940 2340 golang-github-pmezard-go-difflib_1.0.0-3.dsc
+ 56e81fe945d04771dcb79964ce958a5f 11398 golang-github-pmezard-go-difflib_1.0.0.orig.tar.gz
+ a395f61cf5aaa17005f90b255a786164 3252 golang-github-pmezard-go-difflib_1.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-pmezard-go-difflib
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-pmezard-go-difflib.git
+Checksums-Sha256:
+ 8850c0afa8f52318455bbe840f3495c793f8235c6ef45de02847ee4e907641f8 2340 golang-github-pmezard-go-difflib_1.0.0-3.dsc
+ 28f3dc1b5c0efd61203ab07233f774740d3bf08da4d8153fb5310db6cea0ebda 11398 golang-github-pmezard-go-difflib_1.0.0.orig.tar.gz
+ 6e1ce41f02e1d93ab9ca482f997047862c0a9a4e4d4a4dc4fa648b2d6b2fb7d3 3252 golang-github-pmezard-go-difflib_1.0.0-3.debian.tar.xz
+Homepage: https://github.com/pmezard/go-difflib
+Go-Import-Path: github.com/pmezard/go-difflib
+Package-List: 
+ golang-github-pmezard-go-difflib-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-pmezard-go-difflib
+Priority: extra
+Section: golang

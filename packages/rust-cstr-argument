@@ -1,0 +1,26 @@
+Package: rust-cstr-argument
+Binary: librust-cstr-argument-dev
+Version: 0.1.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Alexander Kjäll <alexander.kjall@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-memchr-2-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b02316f8dce7067e15126fc7c13b392b 2252 rust-cstr-argument_0.1.1-2.dsc
+ 4e37c68ba4c581abbdde984026e7b6fa 4248 rust-cstr-argument_0.1.1.orig.tar.gz
+ 42ed14d8ba86c4faa9af98ff8f222332 2600 rust-cstr-argument_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cstr-argument
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cstr-argument]
+Checksums-Sha256:
+ bfc4f9f2afa7ef339c51e2d5597da7daf439f4940f77e48e384274f15e01b6f3 2252 rust-cstr-argument_0.1.1-2.dsc
+ 20bd4e8067c20c7c3a4dea759ef91d4b18418ddb5bd8837ef6e2f2f93ca7ccbb 4248 rust-cstr-argument_0.1.1.orig.tar.gz
+ cdee93cc0cb526390c020b59990bf218bdf20af1ca6f5bf03cbb56470418d19d 2600 rust-cstr-argument_0.1.1-2.debian.tar.xz
+Package-List: 
+ librust-cstr-argument-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cstr-argument
+Priority: extra
+Section: misc

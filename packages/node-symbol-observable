@@ -1,0 +1,26 @@
+Package: node-symbol-observable
+Binary: node-symbol-observable
+Version: 2.0.3-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs, dh-sequence-nodejs, node-babel7, mocha <!nocheck>, chai <!nocheck>, node-typescript <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4190ad7adb2c563674913d8d41692df7 2223 node-symbol-observable_2.0.3-1.dsc
+ 86f91d8a5287d37ac629901ac488c92f 21884 node-symbol-observable_2.0.3.orig.tar.gz
+ f1f27e22a87773287bd7fde1410a80ba 3012 node-symbol-observable_2.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-symbol-observable
+Vcs-Git: https://salsa.debian.org/js-team/node-symbol-observable.git
+Checksums-Sha256:
+ 73dbfb2cbabfcdd3bfc249067275523f3002b9450f00e3caef75702035f0a384 2223 node-symbol-observable_2.0.3-1.dsc
+ d9c2d16f6b55eb880440e3c52b2cc57136a9811d5414bf3b8dfdd8b336766d45 21884 node-symbol-observable_2.0.3.orig.tar.gz
+ d45aa275c4132bc6bdbf86ed9ae586cde736146c76f2944aa61961d875450513 3012 node-symbol-observable_2.0.3-1.debian.tar.xz
+Homepage: https://github.com/blesh/symbol-observable#readme
+Package-List: 
+ node-symbol-observable deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-symbol-observable
+Priority: extra
+Section: misc

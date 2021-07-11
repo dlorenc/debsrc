@@ -1,0 +1,27 @@
+Package: libmarkdent-perl
+Binary: libmarkdent-perl, markdent
+Version: 0.39-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), libfile-slurper-perl, libgetopt-long-descriptive-perl, libhtml-parser-perl, liblist-allutils-perl, libmodule-runtime-perl, libmoose-perl (>= 2.1802), libmoosex-getopt-perl, libmoosex-role-parameterized-perl, libmoosex-semiaffordanceaccessor-perl, libmoosex-strictconstructor-perl, libnamespace-autoclean-perl, libparams-validationcompiler-perl, libspecio-perl, libtest-requires-perl <!nocheck>, libtest-simple-perl (>= 1.302015) <!nocheck>, libtest2-suite-perl <!nocheck>, libtree-simple-perl, libtree-simple-visitorfactory-perl <!nocheck>, libtry-tiny-perl, pandoc <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4790ae0c2c45fbc1a6fea89a93cb898c 2675 libmarkdent-perl_0.39-1.dsc
+ 356214d2c66857d57904f001dfd9d4bf 127905 libmarkdent-perl_0.39.orig.tar.gz
+ 2a44a8729789294dd870778e7c1bc462 4952 libmarkdent-perl_0.39-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmarkdent-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmarkdent-perl.git
+Checksums-Sha256:
+ 84b7e7c42dd2be0eb1950e58dbbca59a2d59708b012c89808a993d9ac2010329 2675 libmarkdent-perl_0.39-1.dsc
+ 597220e20980d27cdbeb5adbb45846536601167e8a139e42d2c70eb6e1ccc808 127905 libmarkdent-perl_0.39.orig.tar.gz
+ 4f24c83d0b33cc708d88256ddaee5fc414022239b7027485506bb81b7ec1a410 4952 libmarkdent-perl_0.39-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Markdent
+Package-List: 
+ libmarkdent-perl deb perl optional arch=all
+ markdent deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmarkdent-perl
+Priority: extra
+Section: misc

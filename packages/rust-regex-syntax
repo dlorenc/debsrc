@@ -1,0 +1,28 @@
+Package: rust-regex-syntax
+Binary: librust-regex-syntax-dev, librust-regex-syntax+unicode-dev
+Version: 0.6.17-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 04728c7e6522592f4eb93322c7925099 2352 rust-regex-syntax_0.6.17-1.dsc
+ 937b1e612256b02f2d0e9d2b97a92d6b 293637 rust-regex-syntax_0.6.17.orig.tar.gz
+ 2c1a24490f28355b5c89eddbf51ead97 3992 rust-regex-syntax_0.6.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/regex-syntax
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/regex-syntax]
+Checksums-Sha256:
+ 9f9bfdd72b17b45d16e820a6e16379e647446857d40e91e7bb19f75eda6faecf 2352 rust-regex-syntax_0.6.17-1.dsc
+ a0eebc3e5933986de1bc235c634a74dcf5b1da29b994c419f43dde5a95e5d9cf 293637 rust-regex-syntax_0.6.17.orig.tar.gz
+ 9a0eeeb44b672dd9447bc59e5f5234485da2e245b375c4df15a13200e422e410 3992 rust-regex-syntax_0.6.17-1.debian.tar.xz
+Homepage: https://github.com/rust-lang/regex
+Package-List: 
+ librust-regex-syntax+unicode-dev deb rust optional arch=any
+ librust-regex-syntax-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-regex-syntax
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: libapache2-mod-auth-openidc
+Binary: libapache2-mod-auth-openidc
+Version: 2.4.4.1-2
+Maintainer: Moritz Schlarb <schlarbm@uni-mainz.de>
+Uploaders: Christoph Martin <martin@uni-mainz.de>
+Build-Depends: debhelper-compat (= 13), apache2-dev, libssl-dev, libcurl4-openssl-dev, libjansson-dev, libhiredis-dev, libpcre3-dev, libcjose-dev, pkg-config
+Architecture: amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el alpha hppa hurd-i386 kfreebsd-amd64 kfreebsd-i386 m68k powerpc x32
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d82797aa38cea6fc88f3a7448a7be0a5 2495 libapache2-mod-auth-openidc_2.4.4.1-2.dsc
+ 929c2302f553ff09d821396f0f403c84 250995 libapache2-mod-auth-openidc_2.4.4.1.orig.tar.gz
+ 96488ff3cbdc93416e5668720837c59c 6088 libapache2-mod-auth-openidc_2.4.4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libapache2-mod-auth-openidc
+Vcs-Git: https://salsa.debian.org/debian/libapache2-mod-auth-openidc.git
+Checksums-Sha256:
+ ff52b70d1618f3054418a2f83fba4e62292fc043c2896f9cd7b1d89a4131c823 2495 libapache2-mod-auth-openidc_2.4.4.1-2.dsc
+ 3982bae4b665cc753d2aebef1fb76a3412cc1730b5cdc252d0bf6f38de52adbc 250995 libapache2-mod-auth-openidc_2.4.4.1.orig.tar.gz
+ a8bb3f5de5182e1807aecc39efe82882b5878f85dac783bac8a1cfb043a075cc 6088 libapache2-mod-auth-openidc_2.4.4.1-2.debian.tar.xz
+Homepage: https://github.com/zmartzone/mod_auth_openidc
+Package-List: 
+ libapache2-mod-auth-openidc deb httpd optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,ppc64el,alpha,hppa,hurd-i386,kfreebsd-amd64,kfreebsd-i386,m68k,powerpc,x32
+Testsuite: autopkgtest
+Directory: pool/main/liba/libapache2-mod-auth-openidc
+Priority: optional
+Section: misc

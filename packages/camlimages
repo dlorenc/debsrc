@@ -1,0 +1,28 @@
+Package: camlimages
+Binary: libcamlimages-ocaml, libcamlimages-ocaml-dev, libcamlimages-ocaml-doc
+Version: 1:5.0.4-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Kyle Robbertze <paddatrapper@debian.org>, Ralf Treinen <treinen@debian.org>, Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, ocaml, ocaml-findlib, ocaml-dune, cppo, libdune-ocaml-dev, libfindlib-ocaml-dev, libbase-ocaml-dev, libstdio-ocaml-dev, libgraphics-ocaml-dev, libpng-dev, libjpeg-dev, libtiff-dev, libxpm-dev, libexif-dev, libfreetype6-dev (>= 2.1.7), libgif-dev, ghostscript, dh-ocaml
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 370adc7d41d03a98d827917d94f61e18 2265 camlimages_5.0.4-1.dsc
+ b37a457b896733ec9a32b90d5507d114 860772 camlimages_5.0.4.orig.tar.gz
+ 5d8fd3f2137c8d2c8842e6fa79fddcad 7644 camlimages_5.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/camlimages
+Vcs-Git: https://salsa.debian.org/ocaml-team/camlimages.git
+Checksums-Sha256:
+ 5bcbdb9498e5b4d19b65be9c0089f100c1a604b415759fe360a3c7d760f6f505 2265 camlimages_5.0.4-1.dsc
+ c0e38e911a83bfb5c470216b1af83c50f4fea4df9654e091e2cb98d5d081842b 860772 camlimages_5.0.4.orig.tar.gz
+ bf30829cb1cc6175fd2282d7ba8a6fc95e9c04c0673c0d210518b74d6fa6bfa1 7644 camlimages_5.0.4-1.debian.tar.xz
+Homepage: https://gitlab.com/camlspotter/camlimages
+Dgit: c7fa7c353981f0f93600314ff6e2500d72767c6c debian archive/debian/1%5.0.4-1 https://git.dgit.debian.org/camlimages
+Package-List: 
+ libcamlimages-ocaml deb ocaml optional arch=any
+ libcamlimages-ocaml-dev deb ocaml optional arch=any
+ libcamlimages-ocaml-doc deb doc optional arch=all
+Directory: pool/main/c/camlimages
+Priority: source
+Section: devel

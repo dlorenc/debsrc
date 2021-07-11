@@ -1,0 +1,27 @@
+Package: golang-github-coreos-gexpect
+Binary: golang-github-coreos-gexpect-dev
+Version: 0.1.1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.17~), golang-any, golang-github-creack-pty-dev (>= 1.1.10), golang-github-kballard-go-shellquote-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ffa51e440784b9f8786b5b0a9acb1a60 2407 golang-github-coreos-gexpect_0.1.1-2.dsc
+ 3ea254ec8739225ff06062c10e994bc3 8170 golang-github-coreos-gexpect_0.1.1.orig.tar.gz
+ d97dac9715f1c2afbf10157ce91517ba 3840 golang-github-coreos-gexpect_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-coreos-gexpect
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-coreos-gexpect.git
+Checksums-Sha256:
+ e3e154c29092c46c26d5ed54d9740640990edf9fc092f52df7737d9a08697a5f 2407 golang-github-coreos-gexpect_0.1.1-2.dsc
+ 3928ce5805549775f3f36536ee80a3289b02016bdc527d32a7436f444976149f 8170 golang-github-coreos-gexpect_0.1.1.orig.tar.gz
+ 8ea7bad626ef2fe97133e8798c3db12e7ec75b9fe707603e1afb7f1479f947c0 3840 golang-github-coreos-gexpect_0.1.1-2.debian.tar.xz
+Homepage: https://github.com/coreos/gexpect
+Go-Import-Path: github.com/coreos/gexpect
+Package-List: 
+ golang-github-coreos-gexpect-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-coreos-gexpect
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: modernize
+Binary: modernize, python3-libmodernize
+Version: 0.7-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Benjamin Drung <benjamin.drung@cloud.ionos.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-nose, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c74b7b0df5627530f311a980dff7e05b 2124 modernize_0.7-2.dsc
+ 80e356e4218f6a293f76d9e362aaaaec 18277 modernize_0.7.orig.tar.gz
+ 3adb49cf86dd65799a6524ae6bb4d982 3280 modernize_0.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/modernize
+Vcs-Git: https://salsa.debian.org/python-team/modules/modernize.git
+Checksums-Sha256:
+ aabddf3a3ac3c7d5ec90cb7e6e27f3e32397936274cb89d51860b4779255f032 2124 modernize_0.7-2.dsc
+ d4f6a3555b1621281ee013d830337c72c133c6318efaac6fc24fe6afa0cc1ab6 18277 modernize_0.7.orig.tar.gz
+ a4ae701a5a96b6e232e40139412cc97d2d0848ae5ac21c6ff4ec2d0d95646931 3280 modernize_0.7-2.debian.tar.xz
+Homepage: https://github.com/python-modernize/python-modernize
+Package-List: 
+ modernize deb python optional arch=all
+ python3-libmodernize deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/m/modernize
+Priority: extra
+Section: misc

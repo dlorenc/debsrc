@@ -1,0 +1,28 @@
+Package: haskell-wai-conduit
+Binary: libghc-wai-conduit-dev, libghc-wai-conduit-prof, libghc-wai-conduit-doc
+Version: 3.0.0.4-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-conduit-dev, libghc-conduit-prof, libghc-http-types-dev, libghc-http-types-prof, libghc-wai-dev (<< 3.3), libghc-wai-dev (>= 3.0), libghc-wai-prof
+Build-Depends-Indep: ghc-doc, libghc-conduit-doc, libghc-http-types-doc, libghc-wai-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bc6e738a045712c39d8c4205010a241c 2571 haskell-wai-conduit_3.0.0.4-3.dsc
+ eab8a21c6c35a2d9622a97806103bfaf 2151 haskell-wai-conduit_3.0.0.4.orig.tar.gz
+ 533c94c054a8bd6877df966e7576c2ab 2716 haskell-wai-conduit_3.0.0.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-wai-conduit
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-wai-conduit]
+Checksums-Sha256:
+ 37c6e5f13ce980788f919b169ef8cb3df46b9dcf57a3aec53c92405aa30cf5b6 2571 haskell-wai-conduit_3.0.0.4-3.dsc
+ 2790093bd52892b8087c295044573c720773144f4061ccc72d6d6a617320d61f 2151 haskell-wai-conduit_3.0.0.4.orig.tar.gz
+ 771f258a2ab6f8e77272868766796d1d57b0fd4560a9d51c19f0396433f78df9 2716 haskell-wai-conduit_3.0.0.4-3.debian.tar.xz
+Homepage: https://github.com/yesodweb/wai
+Package-List: 
+ libghc-wai-conduit-dev deb haskell optional arch=any
+ libghc-wai-conduit-doc deb doc optional arch=all
+ libghc-wai-conduit-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-wai-conduit
+Priority: optional
+Section: misc

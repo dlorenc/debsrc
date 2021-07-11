@@ -1,0 +1,25 @@
+Package: jcc
+Binary: python3-jcc
+Version: 3.6-1
+Maintainer: Emmanuel Arias <eamanu@yaerobi.com>
+Build-Depends: dh-python, debhelper-compat (= 12), default-jdk, dpkg-dev (>= 1.16.1.1), python3-all-dev, python3-setuptools
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b54a9367b88b540e9a0ea01e95bb82ab 1896 jcc_3.6-1.dsc
+ c9e1d187aea6b8aafa68b478be114bce 185005 jcc_3.6.orig.tar.gz
+ 45b77dfaae1b970ba1f4be61aa7de026 7164 jcc_3.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/jcc
+Vcs-Git: https://salsa.debian.org/debian/jcc.git
+Checksums-Sha256:
+ 5c10201f666e379ef51206b286d43db0fbcb66145445ddc94c3a91387fa43bcb 1896 jcc_3.6-1.dsc
+ 375f25b7186a67327ba9c031ee357b85c17d1569f4c2dd1d2fccea39eb670048 185005 jcc_3.6.orig.tar.gz
+ d5deff39a215a84492974c03b310191650c2ef1f4fbf10b404b167d6e93ba805 7164 jcc_3.6-1.debian.tar.xz
+Homepage: http://lucene.apache.org/pylucene/jcc/
+Package-List: 
+ python3-jcc deb oldlibs optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/j/jcc
+Priority: source
+Section: python

@@ -1,0 +1,28 @@
+Package: django-allauth
+Binary: python3-django-allauth, python-django-allauth-doc
+Version: 0.44.0+ds-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Jonas Meurer <mejo@debian.org>, Pierre-Elliott Bécue <peb@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-cryptography, python3-django (>= 1:2.0~), python3-jwt, python3-requests, python3-requests-oauthlib, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 53cbca606dd22f2513db04c70f41a23e 2413 django-allauth_0.44.0+ds-1.dsc
+ b74a99c226d30f2abed2edfacdb2a4b2 286328 django-allauth_0.44.0+ds.orig.tar.xz
+ c0ca2e17486fc5e7571af938a1f66078 6628 django-allauth_0.44.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/django-allauth
+Vcs-Git: https://salsa.debian.org/python-team/packages/django-allauth.git
+Checksums-Sha256:
+ 5050387149c7f2324b819a1a2c05d592fe716891eeff55c59449918e83f79df4 2413 django-allauth_0.44.0+ds-1.dsc
+ 86c7e8c755294326fa0e1202acebddf0ab6090ee73bc49cb23b2f3e65c80fd2f 286328 django-allauth_0.44.0+ds.orig.tar.xz
+ d5b5d2e470a2faab9333df9ee0d13bbf234ee87144d5da5fc94c0f4f284aea1e 6628 django-allauth_0.44.0+ds-1.debian.tar.xz
+Homepage: https://github.com/pennersr/django-allauth
+Package-List: 
+ python-django-allauth-doc deb doc optional arch=all
+ python3-django-allauth deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/d/django-allauth
+Priority: extra
+Section: misc

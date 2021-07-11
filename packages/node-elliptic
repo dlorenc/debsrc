@@ -1,0 +1,27 @@
+Package: node-elliptic
+Binary: node-elliptic
+Version: 6.5.4~dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Pirate Praveen <praveen@debian.org>,
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-assert <!nocheck>, node-bn.js <!nocheck>, node-brorand <!nocheck>, node-hash.js <!nocheck>, node-hmac-drbg <!nocheck>, node-inherits <!nocheck>, node-minimalistic-crypto-utils <!nocheck>, nodejs <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c186d2f65c7b44ff9034807bbe66e410 2329 node-elliptic_6.5.4~dfsg-1.dsc
+ cd1d60de300e27756ce89a16f333572f 856908 node-elliptic_6.5.4~dfsg.orig.tar.xz
+ 8a2a133db55f691d88beda57d956582a 3968 node-elliptic_6.5.4~dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-elliptic
+Vcs-Git: https://salsa.debian.org/js-team/node-elliptic.git
+Checksums-Sha256:
+ ebb74926ae7899f3d6f5ee8903e81b3f7823f7dfbc8738a7ddec989b679de286 2329 node-elliptic_6.5.4~dfsg-1.dsc
+ b06196d6238b22ac0dd60125ead5cbc1742be7434f26f8254e300fdd4af3b395 856908 node-elliptic_6.5.4~dfsg.orig.tar.xz
+ 4150cc2ca2d032ddce4080fe2dba08a5956a7d6678df199724fda3ba91c76969 3968 node-elliptic_6.5.4~dfsg-1.debian.tar.xz
+Homepage: https://github.com/indutny/elliptic
+Package-List: 
+ node-elliptic deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/n/node-elliptic
+Priority: optional
+Section: javascript

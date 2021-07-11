@@ -1,0 +1,26 @@
+Package: pcapy
+Binary: python3-pcapy
+Version: 0.11.4-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Emmanuel Arias <eamanu@yaerobi.com>
+Build-Depends: debhelper-compat (= 12), libpcap0.8-dev, dh-python, python3-all-dev (>= 3), python3-all (>= 3), python3-setuptools (>= 0.6.24)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d421127931c649d08fba673a173b087d 1798 pcapy_0.11.4-2.dsc
+ ccc0ece6114a095800c8764f85451677 35623 pcapy_0.11.4.orig.tar.gz
+ 0d38572772eeda1c3668c114997fc6c3 5500 pcapy_0.11.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pcapy
+Vcs-Git: https://salsa.debian.org/python-team/modules/pcapy.git
+Checksums-Sha256:
+ 20b77cf4b1de973ff1926572d8341bc0e8baeff272207ae0d95062f79a371822 1798 pcapy_0.11.4-2.dsc
+ b7d15e6dc78997377f9d0d40fa006c7a043ec0205400b31d7c1821e32319fa6d 35623 pcapy_0.11.4.orig.tar.gz
+ 3c513db9de4a33a0d48a81426dae05e06b9cfeee44dae30e316122f7c3fbf996 5500 pcapy_0.11.4-2.debian.tar.xz
+Homepage: https://www.coresecurity.com/corelabs-research/open-source-tools/pcapy
+Package-List: 
+ python3-pcapy deb python optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/p/pcapy
+Priority: source
+Section: python

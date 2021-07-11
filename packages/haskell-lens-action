@@ -1,0 +1,28 @@
+Package: haskell-lens-action
+Binary: libghc-lens-action-dev, libghc-lens-action-prof, libghc-lens-action-doc
+Version: 0.2.4-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-comonad-dev (>= 4), libghc-comonad-dev (<< 6), libghc-comonad-prof, libghc-contravariant-dev (<< 2), libghc-contravariant-dev (>= 1.2.1), libghc-contravariant-prof, libghc-lens-dev (<< 5), libghc-lens-dev (>= 4.7), libghc-lens-prof, libghc-profunctors-dev (<< 6), libghc-profunctors-dev (>= 4), libghc-profunctors-prof, libghc-semigroupoids-dev (<< 6), libghc-semigroupoids-dev (>= 4), libghc-semigroupoids-prof, libghc-semigroups-dev (<< 1), libghc-semigroups-dev (>= 0.8.4), libghc-semigroups-prof
+Build-Depends-Indep: ghc-doc, libghc-comonad-doc, libghc-contravariant-doc, libghc-lens-doc, libghc-profunctors-doc, libghc-semigroupoids-doc, libghc-semigroups-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 452fd212a7257af9660beedb92a51664 3004 haskell-lens-action_0.2.4-1.dsc
+ 14f4cceceafcd1fdcf1d6dad812fa977 7844 haskell-lens-action_0.2.4.orig.tar.gz
+ 03768ebbf070ac04985b638304a34cd8 2956 haskell-lens-action_0.2.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-lens-action
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-lens-action]
+Checksums-Sha256:
+ 875d070fa3116889072369459b4beba00dd9ea6a1a86cbd02962ce746aa90838 3004 haskell-lens-action_0.2.4-1.dsc
+ a3c5d82a392939a4dcb37da50e31bf8697580c420cba40ffd08e91067423cf1b 7844 haskell-lens-action_0.2.4.orig.tar.gz
+ 0dc1fe88b905f7577af4b52f288f74cbecbac28880736eccd709ee46686bc3ba 2956 haskell-lens-action_0.2.4-1.debian.tar.xz
+Homepage: http://github.com/ekmett/lens-action/
+Package-List: 
+ libghc-lens-action-dev deb haskell optional arch=any
+ libghc-lens-action-doc deb doc optional arch=all
+ libghc-lens-action-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-lens-action
+Priority: optional
+Section: misc

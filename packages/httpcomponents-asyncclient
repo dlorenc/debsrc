@@ -1,0 +1,25 @@
+Package: httpcomponents-asyncclient
+Binary: libhttpasyncclient-java
+Version: 4.1.4-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11), default-jdk, junit4, libbuild-helper-maven-plugin-java, libcommons-io-java, libcommons-logging-java, libhttpclient-java, libhttpcore-java, libmockito-java, maven-debian-helper (>= 2.0)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 777a20da50e23fc53f075819b1372786 2321 httpcomponents-asyncclient_4.1.4-1.dsc
+ e896764dd99ed6e37006c3d899fc2ec4 88708 httpcomponents-asyncclient_4.1.4.orig.tar.xz
+ 9067334de4e8513199a46eda03842fc2 2976 httpcomponents-asyncclient_4.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/httpcomponents-asyncclient
+Vcs-Git: https://salsa.debian.org/java-team/httpcomponents-asyncclient.git
+Checksums-Sha256:
+ 7653c567454a316c1d9706cc280d16e961b628d501ba815bff1ac16c85f458d3 2321 httpcomponents-asyncclient_4.1.4-1.dsc
+ b3e8f65bcec93f9cc3f6f89e4736bd2e8ccde61c3c76985ce779514775514ef2 88708 httpcomponents-asyncclient_4.1.4.orig.tar.xz
+ 8689a2cd09f07b593ef06cf1fe29f0ce05cd03498fbe15395244eb48d3155b91 2976 httpcomponents-asyncclient_4.1.4-1.debian.tar.xz
+Homepage: http://hc.apache.org/httpcomponents-asyncclient-dev
+Package-List: 
+ libhttpasyncclient-java deb java optional arch=all
+Directory: pool/main/h/httpcomponents-asyncclient
+Priority: optional
+Section: misc

@@ -1,0 +1,29 @@
+Package: psychtoolbox-3
+Binary: psychtoolbox-3-common, psychtoolbox-3-lib, octave-psychtoolbox-3, psychtoolbox-3-dbg
+Version: 3.0.17.9.dfsg1-2
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>
+Build-Depends: debhelper (>= 9), rsync, quilt, lsb-base (>= 9.20170808~), matlab-support-dev, dh-octave | octave-pkg-dev (>= 0.5.7), gfortran, libpciaccess-dev, libxml2-dev, libglib2.0-dev, libxxf86vm-dev, libglu1-mesa-dev, libxcb1-dev, libx11-xcb-dev, libxcb-dri3-dev, libxext-dev, libxfixes-dev, libxi-dev, libxrandr-dev, libglew-dev (>= 1.9.0~) | libglew1.9-dev, freeglut3-dev, libgstreamer-plugins-base1.0-dev (>= 1.8~), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-libav, libdc1394-dev | libdc1394-22-dev, libusb-1.0-0-dev (>= 2:1.0.9~), libfreenect-dev (>= 0.1.2), libfontconfig1-dev, libfreetype6-dev, libopenhmd-dev (>= 0.3~), libasound2-dev, libvulkan-dev (>= 1.1~), portaudio19-dev, libopenal-dev, xvfb, xauth, libgl1-mesa-dri, xdotool, pulseaudio-utils, octave-image, gnuplot-nox | gnuplot, autotools-dev
+Build-Conflicts: libglew-dev (= 1.9.0.is.1.8.0-0ubuntu1), libglew-dev (= 1.9.0.is.1.8.0-0ubuntu2)
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ c5b40298174f7621f1b158558660220d 3198 psychtoolbox-3_3.0.17.9.dfsg1-2.dsc
+ 6f2ef85efb29f8e1973b5ddffc1c501f 34682558 psychtoolbox-3_3.0.17.9.dfsg1.orig.tar.gz
+ a49d3a87787673f912d3044d7337dbe7 52232 psychtoolbox-3_3.0.17.9.dfsg1-2.debian.tar.xz
+Vcs-Browser: https://github.com/neurodebian/Psychtoolbox-3/tree/debian
+Vcs-Git: https://github.com/neurodebian/Psychtoolbox-3 -b debian
+Checksums-Sha256:
+ 503ef6650a74f7b65023dab9bab49fd52547379b084b2e224901631c3a1e0961 3198 psychtoolbox-3_3.0.17.9.dfsg1-2.dsc
+ 5927657995b616db50505fa6555352aacac432b99950c53fbbf4bf462e4f2965 34682558 psychtoolbox-3_3.0.17.9.dfsg1.orig.tar.gz
+ 5f818256f974e7438fff6602aacddcfe3d09bdf5826dd12758e527f52fafd151 52232 psychtoolbox-3_3.0.17.9.dfsg1-2.debian.tar.xz
+Homepage: http://psychtoolbox.org
+Package-List: 
+ octave-psychtoolbox-3 deb science optional arch=any
+ psychtoolbox-3-common deb science optional arch=all
+ psychtoolbox-3-dbg deb debug optional arch=any
+ psychtoolbox-3-lib deb science optional arch=any
+Directory: pool/main/p/psychtoolbox-3
+Priority: source
+Section: science

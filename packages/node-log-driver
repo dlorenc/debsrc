@@ -1,0 +1,27 @@
+Package: node-log-driver
+Binary: node-log-driver
+Version: 1.2.7+git+20180219+bba1761737-7
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs (>= 10), mocha (>= 4) <!nocheck>, node-sinon (>= 7.4.2) <!nocheck>, node-should <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d2c652667236efabde2451e892519259 2345 node-log-driver_1.2.7+git+20180219+bba1761737-7.dsc
+ 8c015a8287df70176726e207bb31bbac 17216 node-log-driver_1.2.7+git+20180219+bba1761737.orig.tar.xz
+ 11ebd54a645ac06f2db71adbb8064c99 4100 node-log-driver_1.2.7+git+20180219+bba1761737-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-log-driver
+Vcs-Git: https://salsa.debian.org/js-team/node-log-driver.git
+Checksums-Sha256:
+ fa44512f3efcf485629d3f33b37b7485b12a40d7015afd86240f40ced6f9daa4 2345 node-log-driver_1.2.7+git+20180219+bba1761737-7.dsc
+ b70c731c9c198b6f7a821f8666871cedf5873d4477815d58c8d44040a94b8d9b 17216 node-log-driver_1.2.7+git+20180219+bba1761737.orig.tar.xz
+ 4e73f4d4ae1acd07d54daa673ac2a6d3299558216fea44c54e4822bfda48c1ed 4100 node-log-driver_1.2.7+git+20180219+bba1761737-7.debian.tar.xz
+Homepage: https://github.com/cainus/logdriver
+Package-List: 
+ node-log-driver deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha, node-should, node-sinon, nodejs
+Directory: pool/main/n/node-log-driver
+Priority: extra
+Section: misc

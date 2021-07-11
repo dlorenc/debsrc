@@ -1,0 +1,26 @@
+Package: mecab-jumandic
+Binary: mecab-jumandic, mecab-jumandic-utf8
+Version: 7.0-20130310-7
+Maintainer: Natural Language Processing (Japanese) <team+pkg-nlp-ja@tracker.debian.org>
+Uploaders: TSUCHIYA Masatoshi <tsuchiya@namazu.org>, Hideki Yamane <henrich@debian.org>, NOKUBI Takatsugu <knok@daionet.gr.jp>,
+Build-Depends: debhelper (>= 11), debhelper-compat (= 11), libmecab-dev, mecab-utils
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 5840f1b6b8c2e0d709cfa80263b29fdd 2237 mecab-jumandic_7.0-20130310-7.dsc
+ 65a804d59582b084300d7a6d694a80c1 30146890 mecab-jumandic_7.0-20130310.orig.tar.gz
+ 3b0ad212f3d699572ef063e2e8c4a2e8 3836 mecab-jumandic_7.0-20130310-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/nlp-ja-team/mecab-jumandic
+Vcs-Git: https://salsa.debian.org/nlp-ja-team/mecab-jumandic.git
+Checksums-Sha256:
+ 2dfc0f839c68ae278dfd3897b71f9ff9b9c1c5c568a0488cc8ccf3284c12578e 2237 mecab-jumandic_7.0-20130310-7.dsc
+ eaf216758edee9a159bc3d02507007318686b9537943268c4565cc1f9ef07f15 30146890 mecab-jumandic_7.0-20130310.orig.tar.gz
+ 9595ff6a5a03dc3e3f8ea2c3e59d43c5b3f6aa9a9557c9a0f45321fda8742118 3836 mecab-jumandic_7.0-20130310-7.debian.tar.xz
+Homepage: http://taku910.github.io/mecab/
+Package-List: 
+ mecab-jumandic deb oldlibs optional arch=all
+ mecab-jumandic-utf8 deb misc optional arch=all
+Directory: pool/main/m/mecab-jumandic
+Priority: source
+Section: misc

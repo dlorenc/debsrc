@@ -1,0 +1,27 @@
+Package: php-horde-vfs
+Binary: php-horde-vfs
+Version: 2.4.1-2
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 53710a21232a97b5fe76157bfaf6180c 2264 php-horde-vfs_2.4.1-2.dsc
+ 960d18ba9bec8211e1ec417ad1cd9ce9 75659 php-horde-vfs_2.4.1.orig.tar.gz
+ bc16b577af4b960b29d13ec397b38518 7156 php-horde-vfs_2.4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-vfs
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-vfs.git
+Checksums-Sha256:
+ 4731ef433ac6aabbc14d0b8d164ff66e34a2bae1fcbec2926ca579ef745017c8 2264 php-horde-vfs_2.4.1-2.dsc
+ 4d0555962e47090464973441f6f75bd47151bb7a9e8149b099cb7223fed1a3f9 75659 php-horde-vfs_2.4.1.orig.tar.gz
+ 9acf229126c7a907a0e0a4875ac216c8b1b18ae7e99bc2da371f54dfdc2972e1 7156 php-horde-vfs_2.4.1-2.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-vfs deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ftpd, mysql-server, openssh-server, php-cli, php-horde-cli, php-horde-db, php-horde-log, php-horde-test, php-mysql, php-pgsql, php-sqlite3, php-ssh2, postgresql, samba, smbclient
+Directory: pool/main/p/php-horde-vfs
+Priority: extra
+Section: misc

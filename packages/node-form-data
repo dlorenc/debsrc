@@ -1,0 +1,26 @@
+Package: node-form-data
+Binary: node-form-data
+Version: 3.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), node-asynckit <!nocheck>, node-combined-stream (>= 1.0.6~) <!nocheck>, node-formidable (>= 1.0.17) <!nocheck>, node-mime-types (>= 2.1.12~) <!nocheck>, pkg-js-tools (>= 0.8.7)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f80476c34cc983ac91201e4800f04774 2197 node-form-data_3.0.0-2.dsc
+ 827bd5b50e902f9a11c74429b05349bf 45949 node-form-data_3.0.0.orig.tar.gz
+ 691e9d44cd9f6dab33dc8aaff8de19dc 9036 node-form-data_3.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-form-data
+Vcs-Git: https://salsa.debian.org/js-team/node-form-data.git
+Checksums-Sha256:
+ 9a2c538b541366d7db209b5e922dba7d6bc6249feeba4fa448659fd1e3e509d8 2197 node-form-data_3.0.0-2.dsc
+ bef37a9bfefa290114c77a2ac03a924785df4f3bef5680686ca756656f72e216 45949 node-form-data_3.0.0.orig.tar.gz
+ d7015e82b1de27b696470fd63ab2777551fa9c1a5416bcb4822e01a8cbf2e471 9036 node-form-data_3.0.0-2.debian.tar.xz
+Homepage: https://github.com/felixge/node-form-data
+Package-List: 
+ node-form-data deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-form-data
+Priority: optional
+Section: javascript

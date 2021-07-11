@@ -1,0 +1,27 @@
+Package: sorl-thumbnail
+Binary: python3-sorl-thumbnail, python-sorl-thumbnail-doc
+Version: 12.5.0-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: W. Martin Borgert <debacle@debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, graphicsmagick, imagemagick, locales, lsof, python3-all, python3-django, python3-pil, python3-pgmagick, python3-pytest, python3-pytest-django, python3-setuptools, python3-sphinx (>= 1.0.7+dfsg)
+Build-Conflicts: locales-all (<< 2.21-1)
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ e4555d4b6ee862c524131c095f923869 2364 sorl-thumbnail_12.5.0-2.dsc
+ 123247306fb859783fda7d3315373538 533101 sorl-thumbnail_12.5.0.orig.tar.gz
+ 316bd391e40ca8684628995b1bc90e22 6552 sorl-thumbnail_12.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/sorl-thumbnail
+Vcs-Git: https://salsa.debian.org/python-team/modules/sorl-thumbnail.git
+Checksums-Sha256:
+ 8e86a84f2f0d3c6fa0dd1bbd9f49471551b17db3d6d88dedaef73e44a3b2e5c5 2364 sorl-thumbnail_12.5.0-2.dsc
+ 51f586cb483c763a659da8814cc5ad4632dd6404816774fa37e460e636260d31 533101 sorl-thumbnail_12.5.0.orig.tar.gz
+ ddc0c35ef023361d1465a424a1d617c8cd4cfeef21eb8b7f871782475380b24e 6552 sorl-thumbnail_12.5.0-2.debian.tar.xz
+Homepage: https://github.com/mariocesar/sorl-thumbnail
+Package-List: 
+ python-sorl-thumbnail-doc deb doc optional arch=all
+ python3-sorl-thumbnail deb python optional arch=all
+Directory: pool/main/s/sorl-thumbnail
+Priority: source
+Section: python

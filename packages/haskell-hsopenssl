@@ -1,0 +1,28 @@
+Package: haskell-hsopenssl
+Binary: libghc-hsopenssl-dev, libghc-hsopenssl-prof, libghc-hsopenssl-doc
+Version: 0.11.4.18-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-network-dev (>= 2.1), libghc-network-dev (<< 3.2), libghc-network-prof, libssl-dev
+Build-Depends-Indep: ghc-doc, libghc-network-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 5e1e6977caa55cbed8503c8bd78de810 2467 haskell-hsopenssl_0.11.4.18-1.dsc
+ 486670000d5e3e3425f4dc38152380b0 80320 haskell-hsopenssl_0.11.4.18.orig.tar.gz
+ d5ce80aafea05b87103b830bdbcb382b 4992 haskell-hsopenssl_0.11.4.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hsopenssl
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hsopenssl]
+Checksums-Sha256:
+ 933ce1790d3b738b3937ec42e29076fc039c1adbbfff5a50a7f8c97b25730a84 2467 haskell-hsopenssl_0.11.4.18-1.dsc
+ ddc7dc4e5448590f9804249e008717f2cf89fa64053dcf6c39675bc6af69e4db 80320 haskell-hsopenssl_0.11.4.18.orig.tar.gz
+ 595a74ac7254bd29b8dab6f387cd2a7e263146b7e93f98ccc8670ace52440adc 4992 haskell-hsopenssl_0.11.4.18-1.debian.tar.xz
+Homepage: https://github.com/vshabanov/HsOpenSSL
+Package-List: 
+ libghc-hsopenssl-dev deb haskell optional arch=any
+ libghc-hsopenssl-doc deb doc optional arch=all
+ libghc-hsopenssl-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hsopenssl
+Priority: optional
+Section: misc

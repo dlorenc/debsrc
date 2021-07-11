@@ -1,0 +1,25 @@
+Package: dh-runit
+Binary: dh-runit, runit-helper
+Version: 2.10.3
+Maintainer: Lorenzo Puliti <plorenzo@disroot.org>
+Build-Depends: debhelper-compat (= 13), perl, perl-doc, libfile-copy-recursive-perl, libtext-hogan-perl, libfile-slurp-perl, libghc-shake-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 318a31013f47208ecfe7f9655deea1ac 1786 dh-runit_2.10.3.dsc
+ fc281a0b452e6b90f1eb44bd8f150d06 14996 dh-runit_2.10.3.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/dh-runit
+Vcs-Git: https://salsa.debian.org/debian/dh-runit.git
+Checksums-Sha256:
+ 6c86f54c8c0fdf6689b5e00d312bdf334fe787f642dcde32d1a3519bbad84428 1786 dh-runit_2.10.3.dsc
+ 0b87f5d4b8352ef349cca640e28c16942695738a8e9a6deca1f3e5fdc800f7df 14996 dh-runit_2.10.3.tar.xz
+Homepage: https://salsa.debian.org/debian/dh-runit
+Package-List: 
+ dh-runit deb admin optional arch=all
+ runit-helper deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libghc-shake-dev
+Directory: pool/main/d/dh-runit
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: emacs-websocket
+Binary: elpa-websocket
+Version: 1.13-1
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Nicholas D Steeves <nsteeves@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-elpa, python3-tornado <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c2e4aae7e1a0d5b1d1838f932ce9f9f1 2045 emacs-websocket_1.13-1.dsc
+ dc237ef8c65bdc4945960d2f044868af 27421 emacs-websocket_1.13.orig.tar.gz
+ 0dba2dcbed6fa435b002a95565f6a9e5 2988 emacs-websocket_1.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/emacs-websocket
+Vcs-Git: https://salsa.debian.org/emacsen-team/emacs-websocket.git
+Checksums-Sha256:
+ 6ce1ba60f696e2413c60bd9f4554424f00406494acbafb7505c87158e862dffa 2045 emacs-websocket_1.13-1.dsc
+ 0581ec9ff4383295314295b26a15550e83bed9ef2962e99b152ad1df82e5ccb3 27421 emacs-websocket_1.13.orig.tar.gz
+ 708fc743d9a3b37284a8a9c4101191ae9cfd71553ec2726c264eb2d27b7de096 2988 emacs-websocket_1.13-1.debian.tar.xz
+Homepage: https://github.com/ahyatt/emacs-websocket
+Package-List: 
+ elpa-websocket deb lisp optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/e/emacs-websocket
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: vdr-plugin-svdrposd
+Binary: vdr-plugin-svdrposd, vdr-plugin-svdrpext
+Version: 1.0.0-9
+Maintainer: Debian VDR Team <pkg-vdr-dvb-devel@lists.alioth.debian.org>
+Uploaders: Thomas Schmidt <tschmidt@debian.org>, Tobias Grimm <etobi@debian.org>, Thomas Günther <tom@toms-cafe.de>
+Build-Depends: debhelper (>= 9), vdr-dev (>= 2.4.1), pkg-config
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 25b871d0ace762da2e3736209c7ce603 2175 vdr-plugin-svdrposd_1.0.0-9.dsc
+ 4a7ac5d0580a426cf2c8221722763d4c 12470 vdr-plugin-svdrposd_1.0.0.orig.tar.gz
+ 04adc29fa747bb9be00634dbf6c5e0ed 3168 vdr-plugin-svdrposd_1.0.0-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/vdr-team/vdr-plugin-svdrposd
+Vcs-Git: https://salsa.debian.org/vdr-team/vdr-plugin-svdrposd.git
+Checksums-Sha256:
+ d1f2ea5ec726385e0a09999c8ed67852fe2040963506eeefbc41eae67b45279b 2175 vdr-plugin-svdrposd_1.0.0-9.dsc
+ 1e84dcd1ff54a3967c6e2e552789b8e7878e278ef302306f012af9ef2631c81a 12470 vdr-plugin-svdrposd_1.0.0.orig.tar.gz
+ d809e15049c5f94099f97622084154caa5d3c42f6ab6fe6caefb599e673688de 3168 vdr-plugin-svdrposd_1.0.0-9.debian.tar.xz
+Homepage: http://vdr.schmirler.de
+Package-List: 
+ vdr-plugin-svdrpext deb video optional arch=all
+ vdr-plugin-svdrposd deb video optional arch=any
+Directory: pool/main/v/vdr-plugin-svdrposd
+Priority: source
+Section: video

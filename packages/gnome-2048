@@ -1,0 +1,25 @@
+Package: gnome-2048
+Binary: gnome-2048
+Version: 3.38.0-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper-compat (= 13), appstream-util <!nocheck>, desktop-file-utils <!nocheck>, dh-sequence-gnome, libclutter-1.0-dev (>= 1.14.0), libclutter-gtk-1.0-dev (>= 1.5.0), libgee-0.8-dev (>= 0.14), libgnome-games-support-1-dev (>= 1.7.1), libglib2.0-dev (>= 2.42.0), libgtk-3-dev (>= 3.24), itstool, meson (>= 0.37.1), valac (>= 0.22)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d298e62fda0a18a74a8a599cc74680a6 2248 gnome-2048_3.38.0-1.dsc
+ 572f802433a55a0dce8b6f60ec083135 125560 gnome-2048_3.38.0.orig.tar.xz
+ 5a7f36c481d89b9519d0d2343f920446 9408 gnome-2048_3.38.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-2048
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-2048.git
+Checksums-Sha256:
+ 7ea0b8972238f45bea6d37c354f8555e83110bafcf7e82a8f534f42df1450d2c 2248 gnome-2048_3.38.0-1.dsc
+ 4c257f9799085263070a88acf5fbc8f7aae075ac8d56dca3e63dd982607123c9 125560 gnome-2048_3.38.0.orig.tar.xz
+ c2a3a01c6c52da4d73735ec01cadd9138cfb0300bf9e7eb2aefb22e32dfc16d7 9408 gnome-2048_3.38.0-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/2048
+Package-List: 
+ gnome-2048 deb games optional arch=any
+Directory: pool/main/g/gnome-2048
+Priority: optional
+Section: misc

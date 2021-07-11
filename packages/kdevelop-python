@@ -1,0 +1,27 @@
+Package: kdevelop-python
+Binary: kdevelop-python, kdevelop-python-data, kdevelop-python-l10n
+Version: 5.6.2-1
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>, Andreas Cord-Landwehr <cola@uni-paderborn.de>
+Build-Depends: cmake (>= 3.0), debhelper-compat (= 13), dh-exec, extra-cmake-modules (>= 5.59~), gettext, qtbase5-dev (>= 5.7.0), libkf5i18n-dev (>= 5.28.0), libkf5itemmodels-dev (>= 5.28.0), libkf5kcmutils-dev (>= 5.28.0), libkf5newstuff-dev (>= 5.28.0), libkf5texteditor-dev (>= 5.28.0), libkf5threadweaver-dev (>= 5.28.0), kdevelop-dev (>= 4:5.6.2), pkg-kde-tools (>= 0.15.16), python3.9-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3a3494cd6a0ea74bdba4b1480350cffb 2542 kdevelop-python_5.6.2-1.dsc
+ 00627eed7f0a4252a84767d36f4da450 1072212 kdevelop-python_5.6.2.orig.tar.xz
+ b433b2d16bc1a249773b78f378e14d04 7756 kdevelop-python_5.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/kdevelop-python
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/kdevelop-python.git
+Checksums-Sha256:
+ 1de98efce2c9bfc42f8815aa5ca243c3502bff6aa92d7a5252e5d5f87fc643c6 2542 kdevelop-python_5.6.2-1.dsc
+ 20f9b771b961262ded986a4f32b8d259ad9f7bc48bb29eac0a5d5853be1d917f 1072212 kdevelop-python_5.6.2.orig.tar.xz
+ 503175af2e952bdb96b879f199db7106daa7721ca85c906c7dd80d69dba13214 7756 kdevelop-python_5.6.2-1.debian.tar.xz
+Homepage: https://www.kdevelop.org/
+Package-List: 
+ kdevelop-python deb devel optional arch=any
+ kdevelop-python-data deb devel optional arch=all
+ kdevelop-python-l10n deb localization optional arch=all
+Directory: pool/main/k/kdevelop-python
+Priority: optional
+Section: misc

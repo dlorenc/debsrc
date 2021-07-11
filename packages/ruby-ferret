@@ -1,0 +1,27 @@
+Package: ruby-ferret
+Binary: ruby-ferret
+Version: 0.11.8.7-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Paul van Tilburg <paulvt@debian.org>, Leandro Nunes dos Santos <leandronunes@colivre.coop.br>, Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, libbz2-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bbfa19f9365c18c5bfef9ab21739f7db 2190 ruby-ferret_0.11.8.7-2.dsc
+ 9874d0a6f0f4170bbb26c733338b53c1 392784 ruby-ferret_0.11.8.7.orig.tar.xz
+ a06cce5c4236bc193615557f163fdb6d 8332 ruby-ferret_0.11.8.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ferret
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ferret.git
+Checksums-Sha256:
+ 2f37f4df753cb770f1b6a54a5604c83fead02fa5494b21ed4467e052cfa3684a 2190 ruby-ferret_0.11.8.7-2.dsc
+ 91cfda716b05ae7e4adea87f8d1c32b19ece16bf5af5f35f105bb1249ebd3ad2 392784 ruby-ferret_0.11.8.7.orig.tar.xz
+ 4135a738e16894db9241d95b9dc883c89e0078635b12c94ed4ec4036fd695939 8332 ruby-ferret_0.11.8.7-2.debian.tar.xz
+Homepage: https://github.com/jkraemer/ferret
+Package-List: 
+ ruby-ferret deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ferret
+Priority: source
+Section: ruby

@@ -1,0 +1,26 @@
+Package: magnum-ui
+Binary: python3-magnum-ui
+Version: 7.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 96~), python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: openstack-dashboard (>= 3:17.1.0), python3-coverage, python3-hacking, python3-heatclient (>= 1.18.0), python3-magnumclient (>= 2.15.0), python3-pytest, python3-selenium, python3-xvfbwrapper
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ cc4586f4455be87430a41b12ea6b336e 2321 magnum-ui_7.0.0-1.dsc
+ 505638543f417752e2e3c43c3acb9fe5 112808 magnum-ui_7.0.0.orig.tar.xz
+ b890e91730089ae433915563cbfd8d99 3156 magnum-ui_7.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/horizon-plugins/magnum-ui
+Vcs-Git: https://salsa.debian.org/openstack-team/horizon-plugins/magnum-ui.git
+Checksums-Sha256:
+ da1dfb77701ae75eafb5cf67cdc267152e9fefb016c80a8730fb18b71005c774 2321 magnum-ui_7.0.0-1.dsc
+ c5c0256af680c3146dfebf7343470b85876183ab2125c20689f538684ad9de11 112808 magnum-ui_7.0.0.orig.tar.xz
+ 4bd348fd874858135d6c10687dc09b65b7a304ca2d3ca26f01a53628342e1150 3156 magnum-ui_7.0.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/magnum-ui
+Package-List: 
+ python3-magnum-ui deb python optional arch=all
+Directory: pool/main/m/magnum-ui
+Priority: extra
+Section: misc

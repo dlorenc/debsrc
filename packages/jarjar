@@ -1,0 +1,25 @@
+Package: jarjar
+Binary: libjarjar-java
+Version: 1.4+svn142-10
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: ant, debhelper (>= 11), default-jdk, libasm-java (>= 6.0~), maven-repo-helper
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 17a2b9d355d12dd6d00bab3f36f5f1b1 2023 jarjar_1.4+svn142-10.dsc
+ 4bafdbb9b155a202127a27bc1cf34bab 27204 jarjar_1.4+svn142.orig.tar.gz
+ a20cf68ac8920456dc06bf7b9c906d81 9184 jarjar_1.4+svn142-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jarjar
+Vcs-Git: https://salsa.debian.org/java-team/jarjar.git
+Checksums-Sha256:
+ 43897e2866ba071fc0d2730e510eb37befff36da671f8e2c5506041e1186d826 2023 jarjar_1.4+svn142-10.dsc
+ 9a15d57b371d8e30e1fc9df179e5f65d717e64b21d3f7fab28d0f4624f3671f3 27204 jarjar_1.4+svn142.orig.tar.gz
+ 67685921a881bb502bc6e855b8ded1ea14173fd83359e57d09822754537d52dc 9184 jarjar_1.4+svn142-10.debian.tar.xz
+Homepage: http://code.google.com/p/jarjar/
+Package-List: 
+ libjarjar-java deb java optional arch=all
+Directory: pool/main/j/jarjar
+Priority: source
+Section: libs

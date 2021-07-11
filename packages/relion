@@ -1,0 +1,27 @@
+Package: relion
+Binary: relion, relion-gui
+Version: 3.1.0-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Roland Fehrenbacher <rfehren@debian.org>, Andreas Tille <tille@debian.org>,
+Build-Depends: cmake, debhelper-compat (= 13), libfftw3-dev, libfltk1.3-dev, libopenmpi-dev, libtiff-dev, fluid
+Architecture: amd64 i386
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 930190ae8f707fe98a89548f39173c0e 2154 relion_3.1.0-4.dsc
+ e475dbf32c3cd8511be7531f64e90c81 1311280 relion_3.1.0.orig.tar.xz
+ e4318d9322492d0d647e0a6ac4f03ede 7004 relion_3.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/relion
+Vcs-Git: https://salsa.debian.org/med-team/relion.git
+Checksums-Sha256:
+ 1a07d20080e5174c26267fe3265d03fce3b048b3580491e2a68941a8bf48c456 2154 relion_3.1.0-4.dsc
+ 3958ae5a27a81292f22cf27dc9a4506ea78c29e7580cc088d62f6e6288b4df55 1311280 relion_3.1.0.orig.tar.xz
+ ef35f540b372355d1de7efaf7e533b52e9da242dd9b7e44b21af76f447047802 7004 relion_3.1.0-4.debian.tar.xz
+Homepage: https://www2.mrc-lmb.cam.ac.uk/relion/index.php/Main_Page
+Package-List: 
+ relion deb science optional arch=amd64,i386
+ relion-gui deb science optional arch=amd64,i386
+Testsuite: autopkgtest
+Directory: pool/main/r/relion
+Priority: optional
+Section: misc

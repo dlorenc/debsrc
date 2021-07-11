@@ -1,0 +1,26 @@
+Package: node-entities
+Binary: node-entities
+Version: 2.2.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>, Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), node-typescript, mocha <!nocheck>, node-assert <!nocheck>, node-diff <!nocheck>, node-source-map <!nocheck>, node-source-map-support <!nocheck>, node-typescript-types (>= 20200219~) <!nocheck>, node-yn (>= 4.0.0) <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b2f9ca551b7b6fd1d238baf837a0ca75 2279 node-entities_2.2.0-1.dsc
+ 4a39aed1c49c955d7708f7cdd183ffd7 81790 node-entities_2.2.0.orig.tar.gz
+ c5c80d669072dd0f63197005c535dc47 3688 node-entities_2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-entities
+Vcs-Git: https://salsa.debian.org/js-team/node-entities.git
+Checksums-Sha256:
+ 6c2293dee7dcdb3a2d3a8d93cfe3b0732e32fc465ef28c1d74c4643486dd9b76 2279 node-entities_2.2.0-1.dsc
+ d78a6ea1760d69c2157d01e0cd36924d1be58cd25a29abaa62a8d5ae4f36118f 81790 node-entities_2.2.0.orig.tar.gz
+ f4749d6308984761fd175eb10293eeefaf7003453d67f79b91692e23079bff12 3688 node-entities_2.2.0-1.debian.tar.xz
+Homepage: https://github.com/fb55/entities
+Package-List: 
+ node-entities deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-entities
+Priority: optional
+Section: javascript

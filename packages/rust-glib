@@ -1,0 +1,36 @@
+Package: rust-glib
+Binary: librust-glib-dev, librust-glib+dox-dev, librust-glib+v2-44-dev, librust-glib+v2-46-dev, librust-glib+v2-48-dev, librust-glib+v2-50-dev, librust-glib+v2-52-dev, librust-glib+v2-54-dev, librust-glib+v2-56-dev, librust-glib+v2-58-dev
+Version: 0.8.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-lazy-static-1+default-dev (>= 1.2-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ e9183458b8765060dd98473715cd040e 3083 rust-glib_0.8.2-1.dsc
+ 31f8f2901dea0aaea3c081cced8a979d 121579 rust-glib_0.8.2.orig.tar.gz
+ 1a765a53045a17d062098a2d7d0ce774 3556 rust-glib_0.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/glib
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/glib]
+Checksums-Sha256:
+ 8d78f45da821ec5441d74747aa50657f96d722a3d3733e8c143bf13527e152b0 3083 rust-glib_0.8.2-1.dsc
+ be27232841baa43e0fd5ae003f7941925735b2f733a336dc75f07b9eff415e7b 121579 rust-glib_0.8.2.orig.tar.gz
+ c5afef2a89172d67e0f1120e16b3a9dba82e7d87756a5d96da0461a6ef12a69e 3556 rust-glib_0.8.2-1.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-glib+dox-dev deb rust optional arch=any
+ librust-glib+v2-44-dev deb rust optional arch=any
+ librust-glib+v2-46-dev deb rust optional arch=any
+ librust-glib+v2-48-dev deb rust optional arch=any
+ librust-glib+v2-50-dev deb rust optional arch=any
+ librust-glib+v2-52-dev deb rust optional arch=any
+ librust-glib+v2-54-dev deb rust optional arch=any
+ librust-glib+v2-56-dev deb rust optional arch=any
+ librust-glib+v2-58-dev deb rust optional arch=any
+ librust-glib-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-glib
+Priority: extra
+Section: misc

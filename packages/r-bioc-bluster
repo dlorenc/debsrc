@@ -1,0 +1,27 @@
+Package: r-bioc-bluster
+Binary: r-bioc-bluster
+Version: 1.0.0+dfsg-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-matrix, r-cran-rcpp, r-cran-igraph, r-bioc-s4vectors, r-bioc-biocparallel, r-bioc-biocneighbors
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4ebdde1e5557d0a46d735c290b884b1c 2241 r-bioc-bluster_1.0.0+dfsg-2.dsc
+ f937b40d7be389955409d53d92f821aa 31220 r-bioc-bluster_1.0.0+dfsg.orig.tar.xz
+ 56968e91e3b1a06232d187a1bc17aabe 2240 r-bioc-bluster_1.0.0+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-bluster
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-bluster.git
+Checksums-Sha256:
+ 253cda047d942bc0462bd39de562ca6d46eed611f02044a3c4bf687a33ea3503 2241 r-bioc-bluster_1.0.0+dfsg-2.dsc
+ 205c37d7cd6ebb79daf32492732587a5c86645dff889bd8e2ede69df69615f87 31220 r-bioc-bluster_1.0.0+dfsg.orig.tar.xz
+ 5e740b2213a962c70839e28c41dcd9d51ad3748e4efb57bc4957a6223a281ee1 2240 r-bioc-bluster_1.0.0+dfsg-2.debian.tar.xz
+Homepage: https://bioconductor.org/packages/bluster/
+Package-List: 
+ r-bioc-bluster deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-dynamictreecut, r-cran-testthat
+Directory: pool/main/r/r-bioc-bluster
+Priority: extra
+Section: misc

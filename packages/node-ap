@@ -1,0 +1,27 @@
+Package: node-ap
+Binary: node-ap
+Version: 0.2.0-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper (>= 9), dh-buildinfo, node-tap, nodejs
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ f20f7d5c1d926733908627f3219630c9 2012 node-ap_0.2.0-1.1.dsc
+ 0691c55992c0a924a89ee03261f2c8eb 1809 node-ap_0.2.0.orig.tar.gz
+ 88562079ec20e7affde6de239d610e16 2216 node-ap_0.2.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-ap.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-ap.git
+Checksums-Sha256:
+ c81572d30980d91d175fe5997a8546ff4a797478a35c547af59d4e6ddc5d5015 2012 node-ap_0.2.0-1.1.dsc
+ 08fa2b4c7cdfbbd520133fdbb5c254338ec47068a637a9b4eea873c33d45e28b 1809 node-ap_0.2.0.orig.tar.gz
+ b7a4eaf5b6614f95a89f8e79cb2de9790a83ac78e4abcfdeb50fd97c52bfc8b4 2216 node-ap_0.2.0-1.1.debian.tar.xz
+Homepage: https://github.com/substack/node-ap
+Package-List: 
+ node-ap deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/n/node-ap
+Priority: optional
+Section: javascript

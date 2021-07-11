@@ -1,0 +1,28 @@
+Package: rust-futures
+Binary: librust-futures-dev, librust-futures+default-dev
+Version: 0.1.29-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bd98e04854582041bdd7a2426350a577 2295 rust-futures_0.1.29-3.dsc
+ 0ed5bf3af32a0199693268f90e5050c5 158346 rust-futures_0.1.29.orig.tar.gz
+ 2499d19b4289178542dc319657222e35 3648 rust-futures_0.1.29-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/futures
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/futures]
+Checksums-Sha256:
+ 9c94572cb3f2ff54efa4a8887f4654a6c09c72212af56017b618ef78fac8ae07 2295 rust-futures_0.1.29-3.dsc
+ 1b980f2816d6ee8673b6517b52cb0e808a180efc92e5c19d02cdda79066703ef 158346 rust-futures_0.1.29.orig.tar.gz
+ 8638791fc3c75518c483dcaad661468ffc4c3f18adecd52de893a54c0ff73b4b 3648 rust-futures_0.1.29-3.debian.tar.xz
+Homepage: https://github.com/rust-lang-nursery/futures-rs
+Package-List: 
+ librust-futures+default-dev deb rust optional arch=any
+ librust-futures-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-futures
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: libgig
+Binary: libgig-dev, libgig9, libakai0, gigtools, libgig-doc
+Version: 4.2.0~ds1-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Paul Brossier <piem@debian.org>, Free Ekanayaka <freee@debian.org>, Alessio Treglia <alessio@debian.org>, Jaromír Mikeš <mira.mikes@seznam.cz>
+Build-Depends: debhelper-compat (= 12), g++ (>= 4:5.1.1-20), pkg-config, libsndfile1-dev, doxygen, libtool, uuid-dev, automake
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 01627d66ffb0290ffd6d2a64e07e1576 2331 libgig_4.2.0~ds1-2.dsc
+ b921e066ea9e6e38142fd6f0a180ba28 456800 libgig_4.2.0~ds1.orig.tar.xz
+ b30f87eeee1e9ca39f1b4ad5fe7185c8 7900 libgig_4.2.0~ds1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libgig
+Vcs-Git: https://salsa.debian.org/multimedia-team/libgig.git
+Checksums-Sha256:
+ 8df39fa2681c0c74a91e661c036e3bbd4845c1d1cf1157a8cd657494a9fa5909 2331 libgig_4.2.0~ds1-2.dsc
+ 6cf44f84fa6c7e769f93b31013cd44473340cbc4416578faa8a371e415a3906e 456800 libgig_4.2.0~ds1.orig.tar.xz
+ fa3116e9dcbf16793ccf2a469c1fcf83cacce4a878edbb941e69e4f1042759b4 7900 libgig_4.2.0~ds1-2.debian.tar.xz
+Homepage: https://www.linuxsampler.org/libgig/
+Package-List: 
+ gigtools deb utils optional arch=any
+ libakai0 deb libs optional arch=any
+ libgig-dev deb libdevel optional arch=any
+ libgig-doc deb doc optional arch=all
+ libgig9 deb libs optional arch=any
+Directory: pool/main/libg/libgig
+Priority: source
+Section: devel

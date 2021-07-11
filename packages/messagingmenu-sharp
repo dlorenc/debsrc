@@ -1,0 +1,27 @@
+Package: messagingmenu-sharp
+Binary: libmessagingmenu12.10-cil, libmessagingmenu-cil-dev
+Version: 1.0.1-1.1
+Maintainer: Debian CLI Libraries Team <pkg-cli-libs-team@lists.alioth.debian.org>
+Uploaders: Mirco Bauer <meebey@debian.org>, Victor Seva <vseva@debian.org>,
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: cli-common-dev (>= 0.8), gtk-sharp2-gapi, libgio2.0-cil-dev, libgtk2.0-cil-dev, libmessaging-menu-dev, lsb-release, mono-devel (>= 2.6), mono-xbuild (>= 2.6), pkg-config
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 6160083fe5bc5ff01618baf568654550 2375 messagingmenu-sharp_1.0.1-1.1.dsc
+ 1a7429972df5ccbe70e8fa9e372af4f8 103191 messagingmenu-sharp_1.0.1.orig.tar.gz
+ 84836e8014625fef3c966b51cf65286e 3340 messagingmenu-sharp_1.0.1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/dotnet-team/messagingmenu-sharp
+Vcs-Git: https://salsa.debian.org/dotnet-team/messagingmenu-sharp.git
+Checksums-Sha256:
+ d3778524227267a271a533929814708bd3063150b8c03ba4163f749286ae9864 2375 messagingmenu-sharp_1.0.1-1.1.dsc
+ 97c68f09bf99fb8463dbe09ff8197f2a67c46cd02df5590966c92c256c425e13 103191 messagingmenu-sharp_1.0.1.orig.tar.gz
+ 360211d5f5069667985a668f1e5c5dfe9ab5162ab77196a2b3563c82def83e55 3340 messagingmenu-sharp_1.0.1-1.1.debian.tar.xz
+Homepage: https://www.meebey.net/projects/messagingmenu-sharp/
+Package-List: 
+ libmessagingmenu-cil-dev deb cli-mono optional arch=all
+ libmessagingmenu12.10-cil deb cli-mono optional arch=all
+Directory: pool/main/m/messagingmenu-sharp
+Priority: extra
+Section: misc

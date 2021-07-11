@@ -1,0 +1,27 @@
+Package: esorex
+Binary: esorex
+Version: 3.13.3+ds-1
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, libcfitsio-dev, libcpl-dev (>= 6.5), libffi-dev, libltdl-dev, wcslib-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b7a169935aa5b73e7dda055c9025a410 2098 esorex_3.13.3+ds-1.dsc
+ 1b05a3bc0480b825beebd9f8db0a1efe 437688 esorex_3.13.3+ds.orig.tar.xz
+ d74e3d9bdbda7022a0ddb641444ba8e4 70516 esorex_3.13.3+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/esorex
+Vcs-Git: https://salsa.debian.org/debian-astro-team/esorex.git
+Checksums-Sha256:
+ 774453c146770f8f99ec8150e5e722bb75b6fb3946a9152f3036787dc9518b70 2098 esorex_3.13.3+ds-1.dsc
+ c217a9960f2b3c68b193a99e43790eb2d969de7a2483c291e0c89d35dc704b47 437688 esorex_3.13.3+ds.orig.tar.xz
+ d517b4e10dd5334c7c08c06c38befebcac13c1a6d3bf0bbbba7ba90552422e02 70516 esorex_3.13.3+ds-1.debian.tar.xz
+Homepage: https://www.eso.org/sci/software/cpl/esorex.html
+Package-List: 
+ esorex deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: cpl-plugin-amber
+Directory: pool/main/e/esorex
+Priority: source
+Section: science

@@ -1,0 +1,25 @@
+Package: ring-headers-clojure
+Binary: libring-headers-clojure
+Version: 0.3.0-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 10), javahelper (>= 0.32), maven-repo-helper (>= 1.7), clojure (>= 1.8), libtext-markdown-perl | markdown, libring-core-clojure (>= 1.6.0), libring-mock-clojure (>= 0.3.0), default-jdk-headless
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ c904defbe23c6e2b0b323caef3ee6b06 2268 ring-headers-clojure_0.3.0-1.1.dsc
+ a3f23dcdb9092ee719cf3eea466cc1ad 5186 ring-headers-clojure_0.3.0.orig.tar.gz
+ 5e877af40df36bbfe0467d43ac00be8d 3344 ring-headers-clojure_0.3.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/ring-headers-clojure.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/ring-headers-clojure.git
+Checksums-Sha256:
+ ad5671119b4a1c6bf60d05d6646a6da47d00b4d0f065aafaf1b685212d61ee18 2268 ring-headers-clojure_0.3.0-1.1.dsc
+ 213bc1814f7b3c3990ec7896ef80f504e4d513f742ffeeb940b7f5b985c4f137 5186 ring-headers-clojure_0.3.0.orig.tar.gz
+ 497898d3ea56bed2febc115e6175289b16bbf11763c3713694164abd099f389f 3344 ring-headers-clojure_0.3.0-1.1.debian.tar.xz
+Homepage: https://github.com/ring-clojure/ring-headers
+Package-List: 
+ libring-headers-clojure deb java optional arch=all
+Directory: pool/main/r/ring-headers-clojure
+Priority: extra
+Section: misc

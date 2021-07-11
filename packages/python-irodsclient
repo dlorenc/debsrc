@@ -1,0 +1,27 @@
+Package: python-irodsclient
+Binary: python3-irodsclient
+Version: 0.8.1-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Olivier Sallou <osallou@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-six, python3-prettytable, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 56564aea6bd3a04e891433a7864adc6b 2186 python-irodsclient_0.8.1-2.dsc
+ fbfb27f8c33a2d4476c3e1bdc35f7a5f 70844 python-irodsclient_0.8.1.orig.tar.xz
+ 7d69bff063d7225d9c4750aa405f4ddf 3160 python-irodsclient_0.8.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-irodsclient
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-irodsclient.git
+Checksums-Sha256:
+ 03173b4e79c580b4af305a04d994ceac30bf8d728fa71f7e5ccfc62dad03a575 2186 python-irodsclient_0.8.1-2.dsc
+ 72e40b073d5b5400ceca23246c92ac5913ba3fa55a53aa41b1ac10a2ab3755a8 70844 python-irodsclient_0.8.1.orig.tar.xz
+ 5498891c6fb6936710eac7ddcd9ec675a3ac2efd1aff712839e9e9ca153158aa 3160 python-irodsclient_0.8.1-2.debian.tar.xz
+Homepage: https://github.com/irods/python-irodsclient
+Package-List: 
+ python3-irodsclient deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-irodsclient
+Priority: extra
+Section: misc

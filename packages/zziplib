@@ -1,0 +1,26 @@
+Package: zziplib
+Binary: zziplib-bin, libzzip-0-13, libzzip-dev
+Version: 0.13.62-3.3
+Maintainer: Scott Howard <showard@debian.org>
+Build-Depends: debhelper (>= 9), pkg-config, zlib1g-dev, python2:native, zip, dh-exec, dh-autoreconf
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 7ceaa0ea74ed10d2203801a4f480c0c5 2066 zziplib_0.13.62-3.3.dsc
+ 5fe874946390f939ee8f4abe9624b96c 685770 zziplib_0.13.62.orig.tar.bz2
+ 49c1857880e748d1b9b48d7e506aebe1 17036 zziplib_0.13.62-3.3.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/zziplib.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/zziplib.git
+Checksums-Sha256:
+ 7913767c0a6439a08f8dab05babfbaa3de9219515ab1216c3c0ba25b4c6dfc8c 2066 zziplib_0.13.62-3.3.dsc
+ a1b8033f1a1fd6385f4820b01ee32d8eca818409235d22caf5119e0078c7525b 685770 zziplib_0.13.62.orig.tar.bz2
+ 7d95e46fb0ebbcb598ce4ab256ceb3a021d89859db8b36d53bafc821948ed569 17036 zziplib_0.13.62-3.3.debian.tar.xz
+Homepage: https://github.com/gdraheim
+Package-List: 
+ libzzip-0-13 deb libs optional arch=any
+ libzzip-dev deb libdevel optional arch=any
+ zziplib-bin deb utils optional arch=any
+Directory: pool/main/z/zziplib
+Priority: source
+Section: libs

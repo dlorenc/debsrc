@@ -1,0 +1,32 @@
+Package: qtxmlpatterns-opensource-src
+Binary: libqt5xmlpatterns5, libqt5xmlpatterns5-dev, qtxmlpatterns5-dev-tools, qml-module-qtquick-xmllistmodel, qtxmlpatterns5-examples, qtxmlpatterns5-doc, qtxmlpatterns5-doc-html
+Version: 5.15.2-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.17.14), pkg-kde-tools, qml-module-qtquick2 (>= 5.15.2+dfsg~) <!nocheck>, qtbase5-private-dev (>= 5.15.2+dfsg~), qtdeclarative5-private-dev (>= 5.15.2+dfsg~), xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 07a4da72c7652a66c703bfcc72d046f6 3187 qtxmlpatterns-opensource-src_5.15.2-3.dsc
+ ef96631d72399cfa495f223ef21bb039 5209380 qtxmlpatterns-opensource-src_5.15.2.orig.tar.xz
+ 2aff899d089ce8e35fb5e7c6c41b031c 12748 qtxmlpatterns-opensource-src_5.15.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtxmlpatterns
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtxmlpatterns.git
+Checksums-Sha256:
+ ec00be95aaa9f0e8b4eb649e6141f7e7d63cefdd6757472a63699dbbd9dedc51 3187 qtxmlpatterns-opensource-src_5.15.2-3.dsc
+ 76ea2162a7c349188d7e7e4f6c77b78e8a205494c90fee3cea3487a1ae2cf2fa 5209380 qtxmlpatterns-opensource-src_5.15.2.orig.tar.xz
+ 2e4adeb12752b8f6e4da10677fdfbc7662976532d283153e8e011a419b76d298 12748 qtxmlpatterns-opensource-src_5.15.2-3.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtxmlpatterns-index.html
+Package-List: 
+ libqt5xmlpatterns5 deb libs optional arch=any
+ libqt5xmlpatterns5-dev deb libdevel optional arch=any
+ qml-module-qtquick-xmllistmodel deb libs optional arch=any
+ qtxmlpatterns5-dev-tools deb devel optional arch=any
+ qtxmlpatterns5-doc deb doc optional arch=all profile=!nodoc
+ qtxmlpatterns5-doc-html deb doc optional arch=all profile=!nodoc
+ qtxmlpatterns5-examples deb x11 optional arch=any
+Directory: pool/main/q/qtxmlpatterns-opensource-src
+Priority: source
+Section: misc

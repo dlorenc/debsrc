@@ -1,0 +1,26 @@
+Package: mapnik-reference
+Binary: mapnik-reference
+Version: 8.10.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), python3, mocha, nodejs, node-glob, node-semver (>= 7), pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d73eaaada279b4865200e5e845651cdc 2128 mapnik-reference_8.10.0-2.dsc
+ d91fc95e1f4264d4d3c0477cbdd32f52 208592 mapnik-reference_8.10.0.orig.tar.gz
+ 310025db6e5b9062533e94e6ff8841b5 5844 mapnik-reference_8.10.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/mapnik-reference
+Vcs-Git: https://salsa.debian.org/js-team/mapnik-reference.git
+Checksums-Sha256:
+ 7303ea1b342883f721207d84e9aa5d23366e2ac4c7ecf94a4f57f7725b0e5058 2128 mapnik-reference_8.10.0-2.dsc
+ 7a30cc39954d16a8cebc11da967f8a0ed3adf07d8f4dbc26ee5ca42ecc2fef84 208592 mapnik-reference_8.10.0.orig.tar.gz
+ cbcfd8d798bebc2a966bf798b3d7f13e37bd77d4b95413a33bdf5174831fd8a6 5844 mapnik-reference_8.10.0-2.debian.tar.xz
+Homepage: https://github.com/mapnik/mapnik-reference
+Package-List: 
+ mapnik-reference deb doc optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/m/mapnik-reference
+Priority: optional
+Section: misc

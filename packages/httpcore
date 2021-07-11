@@ -1,0 +1,25 @@
+Package: httpcore
+Binary: python3-httpcore
+Version: 0.12.3-1
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, mitmproxy <!nocheck>, python3-all, python3-pytest <!nocheck>, python3-pytest-asyncio <!nocheck>, python3-pytest-cov <!nocheck>, python3-setuptools, python3-sniffio <!nocheck>, python3-trio <!nocheck>, python3-trustme <!nocheck>, python3-uvicorn <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ abbbcddb6ca7c24fb825c2ea0b7d980b 2200 httpcore_0.12.3-1.dsc
+ dea887f3f0e387cb15927704f6b2cb27 38348 httpcore_0.12.3.orig.tar.xz
+ 608b43b09484c55325f770fea0eee45a 2980 httpcore_0.12.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/httpcore
+Vcs-Git: https://salsa.debian.org/python-team/packages/httpcore.git
+Checksums-Sha256:
+ 1c8693d3883240de3313068d7a765cd23584f184f6524f209c9de04e43c27e87 2200 httpcore_0.12.3-1.dsc
+ 358432371e0656e027ded03d0e425ac087a5d9ca9be47fe0ad248ab06dd68037 38348 httpcore_0.12.3.orig.tar.xz
+ b214002a5941c93ebb1e5c00daea6d88875b6b6f1365d268599e5f77d9d63dda 2980 httpcore_0.12.3-1.debian.tar.xz
+Homepage: https://github.com/encode/httpcore
+Package-List: 
+ python3-httpcore deb python optional arch=all
+Directory: pool/main/h/httpcore
+Priority: extra
+Section: misc

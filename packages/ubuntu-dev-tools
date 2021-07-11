@@ -1,0 +1,26 @@
+Package: ubuntu-dev-tools
+Binary: ubuntu-dev-tools, python3-ubuntutools
+Version: 0.183
+Maintainer: Ubuntu Developers <ubuntu-dev-tools@packages.debian.org>
+Uploaders: Benjamin Drung <bdrung@debian.org>, Stefano Rivera <stefanor@debian.org>, Mattia Rizzolo <mattia@debian.org>,
+Build-Depends: dctrl-tools, debhelper-compat (= 12), devscripts (>= 2.11.0~), dh-python, distro-info (>= 0.2~), flake8 (>= 3.8.0), lsb-release, python3-all, python3-apt, python3-debian, python3-debianbts, python3-distro-info, python3-httplib2, python3-launchpadlib, python3-nose, python3-requests <!nocheck>, python3-setuptools, python3-termcolor <!nocheck>, python3-yaml <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ cb37cf7b8d0e342d1f91193fe4685387 1647 ubuntu-dev-tools_0.183.dsc
+ 926aa22f638d152cff64a87fc788c413 173684 ubuntu-dev-tools_0.183.tar.xz
+Vcs-Browser: https://git.launchpad.net/ubuntu-dev-tools
+Vcs-Git: https://git.launchpad.net/ubuntu-dev-tools
+Checksums-Sha256:
+ a6cc5d5ba0117b37bd8aa7b8cb441a44712404523f2cfeb4f2e422ac04b0830d 1647 ubuntu-dev-tools_0.183.dsc
+ f54d789354832bd5a311b42d30cc0f255cb1b1cfd98a15f9dfb1c2bb62f29151 173684 ubuntu-dev-tools_0.183.tar.xz
+Homepage: https://launchpad.net/ubuntu-dev-tools
+Package-List: 
+ python3-ubuntutools deb python optional arch=all
+ ubuntu-dev-tools deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: flake8, python3-nose, python3-setuptools
+Directory: pool/main/u/ubuntu-dev-tools
+Priority: source
+Section: devel

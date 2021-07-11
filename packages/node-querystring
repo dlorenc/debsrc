@@ -1,0 +1,27 @@
+Package: node-querystring
+Binary: node-querystring
+Version: 0.2.0-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs (>= 10), node-tap (>= 8) <!nocheck>, node-retape <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ bdb51bb5e842aa4b548b514db8597fe0 2161 node-querystring_0.2.0-4.dsc
+ 4c6a9167476fd3ae5f4aa9e2bb30db9b 4844 node-querystring_0.2.0.orig.tar.gz
+ d617272565d1260904c53660071533be 2744 node-querystring_0.2.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-querystring
+Vcs-Git: https://salsa.debian.org/js-team/node-querystring.git
+Checksums-Sha256:
+ ef80f12fabb33f59618f4d7998980682b075a82ed90d42ff8174d64c5af80775 2161 node-querystring_0.2.0-4.dsc
+ 79106ef9345bc79928d9fb23d359ef8aec0bc8eb79dd832041d2c379589d6868 4844 node-querystring_0.2.0.orig.tar.gz
+ a08e75e83fae73ae9f984e767545c466f18d53457c5a0c5226bbb495f785186c 2744 node-querystring_0.2.0-4.debian.tar.xz
+Homepage: https://github.com/Gozala/querystring
+Package-List: 
+ node-querystring deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-retape, node-tap, nodejs
+Directory: pool/main/n/node-querystring
+Priority: optional
+Section: javascript

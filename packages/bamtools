@@ -1,0 +1,29 @@
+Package: bamtools
+Binary: bamtools, libbamtools-dev, libbamtools2.5.1, libbamtools-doc
+Version: 2.5.1+dfsg-9
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael R. Crusoe <michael.crusoe@gmail.com>, Andreas Tille <tille@debian.org>, Kevin Murray <spam@kdmurray.id.au>, Dominique Belhachemi <domibel@debian.org>
+Build-Depends: debhelper-compat (= 13), d-shlibs, cmake, zlib1g-dev, libjsoncpp-dev, help2man, doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9a4e756b99644aa677f38a8f4b229518 2388 bamtools_2.5.1+dfsg-9.dsc
+ 012e7ec1a1c9bc44b62794ba9c855de0 196644 bamtools_2.5.1+dfsg.orig.tar.gz
+ aeaa4c253ae8060308b3df8bf0788b2b 11848 bamtools_2.5.1+dfsg-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/bamtools
+Vcs-Git: https://salsa.debian.org/med-team/bamtools.git
+Checksums-Sha256:
+ c0eb5590a8b58e01ce4f9698e5515d537a9f074d351f372e96c953f8b0a89f4a 2388 bamtools_2.5.1+dfsg-9.dsc
+ 034873ddc9cbe557af9f081893083c361aff55e079448b22d856a667c50110ef 196644 bamtools_2.5.1+dfsg.orig.tar.gz
+ 09aa1cf457ec64c4a7be912d1692d52e2a0a23a9c03569229ef20e6d89f9d0b6 11848 bamtools_2.5.1+dfsg-9.debian.tar.xz
+Homepage: https://github.com/pezmaster31/bamtools/wiki
+Package-List: 
+ bamtools deb science optional arch=any
+ libbamtools-dev deb libdevel optional arch=any
+ libbamtools-doc deb doc optional arch=all
+ libbamtools2.5.1 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/b/bamtools
+Priority: optional
+Section: misc

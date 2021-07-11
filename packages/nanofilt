@@ -1,0 +1,26 @@
+Package: nanofilt
+Binary: nanofilt
+Version: 2.6.0-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Shayan Doust <hello@shayandoust.me>
+Build-Depends: debhelper-compat (= 13), python3-all, python3-setuptools, dh-python, python3-biopython, python3-pandas, python3-flake8
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2698304c9ee8599224b1f37d4ed4cbab 2069 nanofilt_2.6.0-3.dsc
+ da8a00952a173faed3958f9dda1a9dcc 19002 nanofilt_2.6.0.orig.tar.gz
+ 02795b9977aa2a9255001bb544510d61 63923688 nanofilt_2.6.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/nanofilt
+Vcs-Git: https://salsa.debian.org/med-team/nanofilt.git
+Checksums-Sha256:
+ 34dc6bc08312da1926633f9e45e365d9ff8b91a16fe7aac8e7233291c561afe1 2069 nanofilt_2.6.0-3.dsc
+ 83e3a581b7bf8a4b2e63b1a9b659baea6908448cbca9a0d42893f1cd4021d113 19002 nanofilt_2.6.0.orig.tar.gz
+ 0fc9ac23a9e3ee16189d63d29ee7f6bdf2faddbcfc140b29b8fe64d8495f4aa3 63923688 nanofilt_2.6.0-3.debian.tar.xz
+Homepage: https://github.com/wdecoster/nanofilt
+Package-List: 
+ nanofilt deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/nanofilt
+Priority: extra
+Section: misc

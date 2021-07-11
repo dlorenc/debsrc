@@ -1,0 +1,32 @@
+Package: libgit2-glib
+Binary: libgit2-glib-1.0-0, libgit2-glib-1.0-dev, libgit2-glib-1.0-doc, gir1.2-ggit-1.0
+Version: 0.99.0.1-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper-compat (= 12), gtk-doc-tools, gnome-pkg-tools, gobject-introspection, libgirepository1.0-dev, libgit2-dev (>= 0.26.0), libglib2.0-dev (>= 2.44.0), meson (>= 0.48.0), pkg-config, python-gi-dev, valac
+Build-Depends-Indep: libglib2.0-doc <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 211d453c62a1eb1faac6973aedf6f078 2713 libgit2-glib_0.99.0.1-1.dsc
+ 0507d588f149f7b002256e5e8e733156 140996 libgit2-glib_0.99.0.1.orig.tar.xz
+ 1d31529176c622d848031bb80b9bce3a 12012 libgit2-glib_0.99.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/libgit2-glib
+Vcs-Git: https://salsa.debian.org/gnome-team/libgit2-glib.git
+Checksums-Sha256:
+ f1721d8dc1aacb682f9139fee89274b645ab5614cb40e19173b8d66782fa035e 2713 libgit2-glib_0.99.0.1-1.dsc
+ e05a75c444d9c8d5991afc4a5a64cd97d731ce21aeb7c1c651ade1a3b465b9de 140996 libgit2-glib_0.99.0.1.orig.tar.xz
+ 68ef728e6e61403f064d67276ed350f869096ed8e70acc4c4482441d73894b07 12012 libgit2-glib_0.99.0.1-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Projects/Libgit2-glib
+Dgit: 9f6738d9c5ab54328094e4eeb5e37110116cf1af debian archive/debian/0.99.0.1-1 https://git.dgit.debian.org/libgit2-glib
+Package-List: 
+ gir1.2-ggit-1.0 deb introspection optional arch=any
+ libgit2-glib-1.0-0 deb libs optional arch=any
+ libgit2-glib-1.0-dev deb libdevel optional arch=any
+ libgit2-glib-1.0-doc deb doc optional arch=all profile=!nodoc
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, libglib2.0-dev, pkg-config
+Directory: pool/main/libg/libgit2-glib
+Priority: optional
+Section: misc

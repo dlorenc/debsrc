@@ -1,0 +1,27 @@
+Package: golang-github-hlandau-buildinfo
+Binary: golang-github-hlandau-buildinfo-dev
+Version: 0.0~git20160722.0.b25d4b0-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Peter Colberg <peter@colberg.org>
+Build-Depends: debhelper (>= 11~), dh-golang (>= 1.10~), golang-any, golang-gopkg-hlandau-easyconfig.v1-dev
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ c28e7f278e46f92734114ad32436c97f 2452 golang-github-hlandau-buildinfo_0.0~git20160722.0.b25d4b0-3.dsc
+ 8c36a41625f8c3d6c70df5e100351689 1969 golang-github-hlandau-buildinfo_0.0~git20160722.0.b25d4b0.orig.tar.gz
+ aae939ccd3da8392663ed72014f306cf 3212 golang-github-hlandau-buildinfo_0.0~git20160722.0.b25d4b0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hlandau-buildinfo
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hlandau-buildinfo.git
+Checksums-Sha256:
+ 392c69af7ddd3b344b1d9b0fdeba36f574f9272539527f9b23ace5674d909e9b 2452 golang-github-hlandau-buildinfo_0.0~git20160722.0.b25d4b0-3.dsc
+ da0f55397a9ea15810127e70178c3f36b52eb5e0a736baaedcde58707977e619 1969 golang-github-hlandau-buildinfo_0.0~git20160722.0.b25d4b0.orig.tar.gz
+ 9bd98f48542d1af458c85b87243d914c3b324cf4d17bd0a949d475ff3d3fe425 3212 golang-github-hlandau-buildinfo_0.0~git20160722.0.b25d4b0-3.debian.tar.xz
+Homepage: https://github.com/hlandau/buildinfo
+Go-Import-Path: github.com/hlandau/buildinfo
+Package-List: 
+ golang-github-hlandau-buildinfo-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hlandau-buildinfo
+Priority: extra
+Section: golang

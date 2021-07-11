@@ -1,0 +1,27 @@
+Package: golang-github-containerd-btrfs
+Binary: golang-github-containerd-btrfs-dev
+Version: 0.0~git20201111.404b914-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Arnaud Rebillout <arnaud.rebillout@collabora.com>,
+Build-Depends: debhelper-compat (= 13), libbtrfs-dev | btrfs-progs (<< 4.16.1~), dh-golang, golang-any, golang-github-pkg-errors-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2d71d4c680e2e12efc8a3686aec2f0b9 1889 golang-github-containerd-btrfs_0.0~git20201111.404b914-1.dsc
+ 009d86c924073d912eab53b42f9d3ed4 10148 golang-github-containerd-btrfs_0.0~git20201111.404b914.orig.tar.xz
+ 94040d4ade0067903799266058c7f6d0 2340 golang-github-containerd-btrfs_0.0~git20201111.404b914-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-containerd-btrfs
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-containerd-btrfs.git
+Checksums-Sha256:
+ 8e760b2ce7e526c33f02f5b50f15e14134be9d832e4a533634332d6d04dd7f64 1889 golang-github-containerd-btrfs_0.0~git20201111.404b914-1.dsc
+ fbe953e03576220ac21f2431cd36148223692d8b6401dc7624d0d56c80ac2ba0 10148 golang-github-containerd-btrfs_0.0~git20201111.404b914.orig.tar.xz
+ 7d52ec918c6f6212be20fe9b61945da43272c479fea0272c4ae4a4c7ecca420a 2340 golang-github-containerd-btrfs_0.0~git20201111.404b914-1.debian.tar.xz
+Homepage: https://github.com/containerd/btrfs
+Go-Import-Path: github.com/containerd/btrfs
+Package-List: 
+ golang-github-containerd-btrfs-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-containerd-btrfs
+Priority: extra
+Section: golang

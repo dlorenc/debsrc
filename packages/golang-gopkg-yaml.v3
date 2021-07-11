@@ -1,0 +1,27 @@
+Package: golang-gopkg-yaml.v3
+Binary: golang-gopkg-yaml.v3-dev
+Version: 3.0.0~git20200121.a6ecf24-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang (>= 1.39), golang-any, golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 75b77f1c0464032c79657f7053c09165 1740 golang-gopkg-yaml.v3_3.0.0~git20200121.a6ecf24-3.dsc
+ ccb103d495d352de65a5ab302418dd30 86764 golang-gopkg-yaml.v3_3.0.0~git20200121.a6ecf24.orig.tar.gz
+ 72036aca88921721b9f74734bdf9d4de 3704 golang-gopkg-yaml.v3_3.0.0~git20200121.a6ecf24-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-gopkg-yaml.v3
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-gopkg-yaml.v3.git
+Checksums-Sha256:
+ 6a2305582723586fee464e92a325cf361982d0be1d607c1ddb575566ae34deb0 1740 golang-gopkg-yaml.v3_3.0.0~git20200121.a6ecf24-3.dsc
+ dae77d410315d2ab98511ad3bfe1d252b71a755eddf1a732c7c709947f6dd8f6 86764 golang-gopkg-yaml.v3_3.0.0~git20200121.a6ecf24.orig.tar.gz
+ 9cf541240fe1bed4d312a33f06b01c0eabe392cdb6c29f7aa650aad2e3cb8014 3704 golang-gopkg-yaml.v3_3.0.0~git20200121.a6ecf24-3.debian.tar.xz
+Homepage: https://gopkg.in/yaml.v3
+Go-Import-Path: gopkg.in/yaml.v3
+Package-List: 
+ golang-gopkg-yaml.v3-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-gopkg-yaml.v3
+Priority: extra
+Section: golang

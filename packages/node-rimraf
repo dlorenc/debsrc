@@ -1,0 +1,28 @@
+Package: node-rimraf
+Binary: node-rimraf
+Version: 3.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), node-glob, node-mkdirp, node-tap, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9166214fd38ec05cb5716a4b5aa8803b 2318 node-rimraf_3.0.2-1.dsc
+ bd17c7984fef55fb1cc191487ad83cb4 2183 node-rimraf_3.0.2.orig-types-rimraf.tar.gz
+ 9a382525f868f83f09bc8ec6ae769bc7 26331 node-rimraf_3.0.2.orig.tar.gz
+ 8e64b28801afaaf6d9bb61f7ab82048f 4100 node-rimraf_3.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rimraf
+Vcs-Git: https://salsa.debian.org/js-team/node-rimraf.git
+Checksums-Sha256:
+ c8e081f30e4750f43147b5155d77af51fa85f9a197e1326a6f154bdfdd64746f 2318 node-rimraf_3.0.2-1.dsc
+ 07f91757909a215d5fdd7fdd0c978ec9d47799b7a584ee596697d3d543facb63 2183 node-rimraf_3.0.2.orig-types-rimraf.tar.gz
+ f15579fdbf1a49c1e435e3163f7ba8119ddb7cab5eddb3300b3c6facd0726fe7 26331 node-rimraf_3.0.2.orig.tar.gz
+ 441cdb381155e24056eb6fdb02c3a9fbc7e357458f0e74f206d91f026b2ab46b 4100 node-rimraf_3.0.2-1.debian.tar.xz
+Homepage: https://github.com/isaacs/rimraf
+Package-List: 
+ node-rimraf deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-rimraf
+Priority: source
+Section: javascript

@@ -1,0 +1,27 @@
+Package: sendpage
+Binary: sendpage-server, sendpage-client, sendpage-common
+Version: 1.0.3-1.1
+Maintainer: Kees Cook <kees@debian.org>
+Build-Depends: debhelper (>= 6.0.0), quilt
+Build-Depends-Indep: perl (>= 5.6.1-6), libdevice-serialport-perl (>= 1.04), libmailtools-perl (>= 1.40), libnet-perl, libnet-snpp-perl, libdbi-perl
+Architecture: all
+Standards-Version: 3.8.1
+Format: 1.0
+Files:
+ 979aa91425ce40542852da739cdfb0a7 2096 sendpage_1.0.3-1.1.dsc
+ 586afe41d6cd82d045fdc34ccf99cab3 102976 sendpage_1.0.3.orig.tar.gz
+ 1a6791ed2642622bdb63490912a22b2b 13990 sendpage_1.0.3-1.1.diff.gz
+Vcs-Browser: http://sendpage.svn.sourceforge.net/viewvc/sendpage/sendpage/
+Vcs-Svn: https://sendpage.svn.sourceforge.net/svnroot/sendpage
+Checksums-Sha256:
+ 64ae6ed2a09e79ca816e953eba6ec2a66e4c0d85220f89b31490dc110a297cc6 2096 sendpage_1.0.3-1.1.dsc
+ 88a128c077ca0573cfe456bd9f595ccf8f9335ba44a339144a0c70163e209317 102976 sendpage_1.0.3.orig.tar.gz
+ 76093671b60ce00135058d498f5169bb41e5bf83cddfc18eedbcc13b67aa38e3 13990 sendpage_1.0.3-1.1.diff.gz
+Homepage: http://sendpage.org/
+Package-List: 
+ sendpage-client deb comm extra arch=all
+ sendpage-common deb comm extra arch=all
+ sendpage-server deb comm extra arch=all
+Directory: pool/main/s/sendpage
+Priority: source
+Section: comm

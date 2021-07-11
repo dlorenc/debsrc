@@ -1,0 +1,25 @@
+Package: rust-base-x
+Binary: librust-base-x-dev
+Version: 0.2.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ da98cd6885d35124e89dbc64ad041cb1 2068 rust-base-x_0.2.3-1.dsc
+ f2dcaac0076db4efd2455568ff100a12 10022 rust-base-x_0.2.3.orig.tar.gz
+ aefee09b7abf63c108088ebee609dc5f 2284 rust-base-x_0.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/base-x
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/base-x]
+Checksums-Sha256:
+ 0fe1b3ddd1358fb9ceb4d921e4e8b1deb33c4c8d824329b9fbe7fefce81be1a7 2068 rust-base-x_0.2.3-1.dsc
+ 5cda5d0f5584d129112ad8bf4775b9fd2b9f1e30738c7b1a25314ba2244d6a51 10022 rust-base-x_0.2.3.orig.tar.gz
+ 87fd5a412645e628e77dfe87bada503549ff7e64f6437d4669c0ee5c0c325131 2284 rust-base-x_0.2.3-1.debian.tar.xz
+Homepage: https://github.com/OrKoN/base-x-rs
+Package-List: 
+ librust-base-x-dev deb rust optional arch=any
+Directory: pool/main/r/rust-base-x
+Priority: extra
+Section: misc

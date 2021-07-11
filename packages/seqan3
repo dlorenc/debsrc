@@ -1,0 +1,28 @@
+Package: seqan3
+Binary: libseqan3-dev, seqan3-doc
+Version: 3.0.2+ds-9
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, ninja-build, zlib1g-dev <!nocheck>, libbz2-dev <!nocheck>, libboost-dev <!nocheck>, libgtest-dev <!nocheck>, libcereal-dev <!nocheck>, libbenchmark-dev <!nocheck>, librange-v3-dev <!nocheck>, doxygen <!nodoc>, graphviz <!nodoc>, cppreference-doc-en-html <!nodoc>, texlive-latex-base <!nodoc>, ghostscript <!nodoc>, texlive-latex-extra <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e6e6386db241630eacbaa2db98d30cfe 2512 seqan3_3.0.2+ds-9.dsc
+ 5047cb1767bc3b7bde80f557c34d8187 1865784 seqan3_3.0.2+ds.orig.tar.xz
+ 2673c37928317680ea213492cbb0be49 10804 seqan3_3.0.2+ds-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/seqan3
+Vcs-Git: https://salsa.debian.org/med-team/seqan3.git
+Checksums-Sha256:
+ 40ac149a9795154af1468d3e3de73025fd1569471fe0fa45145744883e9737c6 2512 seqan3_3.0.2+ds-9.dsc
+ 128b0dcad1ee9d14cec0134dc40cd23d91c996d2a54bfc53d6475dc9ac6c23f7 1865784 seqan3_3.0.2+ds.orig.tar.xz
+ aea61e50ecedbbd6edfed25a67e5b4dd1f0c6603c8b6eed6d140154e6c0b5f1b 10804 seqan3_3.0.2+ds-9.debian.tar.xz
+Homepage: http://www.seqan.de/
+Package-List: 
+ libseqan3-dev deb libdevel optional arch=all
+ seqan3-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: cmake, dpkg-dev, g++, gcc, libbenchmark-dev, libboost-dev, libbz2-dev, libgtest-dev, librange-v3-dev, quilt, zlib1g-dev
+Directory: pool/main/s/seqan3
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: python-babel
+Binary: python-babel-doc, python-babel-localedata, python3-babel
+Version: 2.8.0+dfsg.1-7
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Christoph Haas <haas@debian.org>, Thomas Goirand <zigo@debian.org>, Nilesh Patra <nilesh@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-sphinx, python3-all, python3-pytest, python3-setuptools, python3-tz
+Build-Depends-Indep: python3-freezegun
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 808d29ee3b11b0286e18e88cbe8e9620 2343 python-babel_2.8.0+dfsg.1-7.dsc
+ 93ca7dbeca492b9a710a54dcae9dff41 14029964 python-babel_2.8.0+dfsg.1.orig.tar.xz
+ 47ef1a56dd29ab0dab5c216d428429a6 13700 python-babel_2.8.0+dfsg.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-babel
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-babel.git
+Checksums-Sha256:
+ a88c1f9bee68819f2677f8e5864811d3aca558dc1edbf94a5f3308449f60bc16 2343 python-babel_2.8.0+dfsg.1-7.dsc
+ 099ee52ffe5d386321d0108b2de0f93aa8cd5a56149dbb55b7c77e3b9637e4e4 14029964 python-babel_2.8.0+dfsg.1.orig.tar.xz
+ 5a429cf185cc77af648204459cd7e7a0f41f15189a6c639b35af1baece9e129b 13700 python-babel_2.8.0+dfsg.1-7.debian.tar.xz
+Homepage: http://babel.pocoo.org/
+Package-List: 
+ python-babel-doc deb doc optional arch=all
+ python-babel-localedata deb python optional arch=all
+ python3-babel deb python optional arch=all
+Directory: pool/main/p/python-babel
+Priority: source
+Section: python

@@ -1,0 +1,27 @@
+Package: python-oslo.serialization
+Binary: python-oslo.serialization-doc, python3-oslo.serialization
+Version: 4.0.2-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, David Della Vecchia <ddv@canonical.com>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-coverage, python3-debtcollector, python3-hacking, python3-msgpack, python3-netaddr, python3-openstackdocstheme, python3-oslo.i18n, python3-oslo.utils, python3-oslotest, python3-stestr, python3-tz, python3-yaml, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 31f76ea28301b954e1c36b1a9607c740 2584 python-oslo.serialization_4.0.2-1.dsc
+ b6b79855e1fcaf817bf616797091f489 21652 python-oslo.serialization_4.0.2.orig.tar.xz
+ 0e0ea2b839de581b04bfe785791d8c2e 3600 python-oslo.serialization_4.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/oslo/python-oslo.serialization
+Vcs-Git: https://salsa.debian.org/openstack-team/oslo/python-oslo.serialization.git
+Checksums-Sha256:
+ 4390d30176ab2067a4cf305e7529d55137d2289a079fc9ae9d21c8f2605b01f3 2584 python-oslo.serialization_4.0.2-1.dsc
+ 18e145ae3cea6f748085e82b5ab1878b25233e276167490cbc4926ded5d701c3 21652 python-oslo.serialization_4.0.2.orig.tar.xz
+ 4050ac1b19db3a853e653664e9b283b30abdeccb914f9921e02579171b688193 3600 python-oslo.serialization_4.0.2-1.debian.tar.xz
+Homepage: https://github.com/openstack/oslo.serialization
+Package-List: 
+ python-oslo.serialization-doc deb doc optional arch=all
+ python3-oslo.serialization deb python optional arch=all
+Directory: pool/main/p/python-oslo.serialization
+Priority: optional
+Section: misc

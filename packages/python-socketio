@@ -1,0 +1,26 @@
+Package: python-socketio
+Binary: python3-socketio
+Version: 5.0.3-2
+Maintainer: Paulo Henrique de Lima Santana (phls) <phls@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-aiohttp, python3-all, python3-bidict, python3-coverage, python3-engineio (>= 4.0.0), python3-mock, python3-requests, python3-setuptools, python3-sphinx, python3-websocket, python3-websockets
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8af9b29d7f1fe49730e60a68f8c5b837 2208 python-socketio_5.0.3-2.dsc
+ 1267cd1bdd63ad6a85a918c95bbcc09c 42386 python-socketio_5.0.3.orig.tar.gz
+ 8c70ccade7e20f9392cd8f400df4b652 47344 python-socketio_5.0.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-socketio
+Vcs-Git: https://salsa.debian.org/debian/python-socketio.git
+Checksums-Sha256:
+ 0b740b4f4a7f36273314348d9c5ccd37265be2f48f705b86d9b46290948db039 2208 python-socketio_5.0.3-2.dsc
+ 3794412ea577144ce1bc8f258deb265230da1d9d1ff5427c32fe7e8de484c275 42386 python-socketio_5.0.3.orig.tar.gz
+ 7212fa9dafaeb0d6b2b808edcc3f405fbaf05c2ca6e4264090adfaa529134542 47344 python-socketio_5.0.3-2.debian.tar.xz
+Homepage: https://pypi.org/project/python-socketio
+Package-List: 
+ python3-socketio deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/p/python-socketio
+Priority: extra
+Section: misc

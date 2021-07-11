@@ -1,0 +1,28 @@
+Package: perlbal
+Binary: perlbal, libperlbal-perl
+Version: 1.80-3.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonathan Steinert <deb@hachi.kuiki.net>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl, libbsd-resource-perl, libdanga-socket-perl, libsys-syscall-perl, libwww-perl, libio-aio-perl, libnet-netmask-perl, perl (>= 5.11.1) | libtest-simple-perl (>= 0.94)
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 50a60d5267bfb6d999224646897b0693 2197 perlbal_1.80-3.1.dsc
+ a5bbc1d6af947ccd8bb77dc9c98f3087 212701 perlbal_1.80.orig.tar.gz
+ 0acc3d4bf5a497fb8d5c80aa3a9919d0 6864 perlbal_1.80-3.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/perlbal.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/perlbal.git
+Checksums-Sha256:
+ 726e51ea171465c357f64b8e69639817632c2c2fc8a9e3ffbb5df233a7636b98 2197 perlbal_1.80-3.1.dsc
+ 179e1d8a8106d7a18cd0718c7c53a066b4b557350c29eb5e08eb2ccecb00f16c 212701 perlbal_1.80.orig.tar.gz
+ ffd9e593ced65f1cf7bc00e54f3fdc09cc3b9a2a724daecae56e280c0f94158f 6864 perlbal_1.80-3.1.debian.tar.xz
+Homepage: http://www.danga.com/perlbal/
+Package-List: 
+ libperlbal-perl deb perl optional arch=all
+ perlbal deb web optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/p/perlbal
+Priority: source
+Section: web

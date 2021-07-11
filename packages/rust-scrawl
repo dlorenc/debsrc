@@ -1,0 +1,27 @@
+Package: rust-scrawl
+Binary: librust-scrawl-dev
+Version: 1.0.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Igor Petruk <ipetruk@google.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ccb6763867df08466dfb8444156fc232 2130 rust-scrawl_1.0.0-2.dsc
+ e3247357dc08073bcfa719cb06073674 6581 rust-scrawl_1.0.0.orig.tar.gz
+ 9ed153a7b11f636e7f046c26f82fe668 2728 rust-scrawl_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/scrawl
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/scrawl]
+Checksums-Sha256:
+ eb35e43e35b233e1158a8638c9a729492eda32af7b98a69381df90c637fe2a0b 2130 rust-scrawl_1.0.0-2.dsc
+ 8ba18a57ebf9e7ba1b1a408e4ddf4ecf1c9a576f7b14d4d230f089b7a4030425 6581 rust-scrawl_1.0.0.orig.tar.gz
+ 6f250c6d61f7b456017f11b8accbdd17693deb248cad1833355b0de08bad603e 2728 rust-scrawl_1.0.0-2.debian.tar.xz
+Homepage: https://git.xvrqt.com/amy/scrawl
+Package-List: 
+ librust-scrawl-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-scrawl
+Priority: extra
+Section: misc

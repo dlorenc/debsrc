@@ -1,0 +1,27 @@
+Package: icecast2
+Binary: icecast2
+Version: 2.4.4-4
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Romain Beauxis <toots@rastageeks.org>, Unit 193 <unit193@debian.org>
+Build-Depends: debhelper-compat (= 12), libogg-dev, libvorbis-dev, libxslt1-dev | libxslt-dev, libxml2-dev, libcurl4-openssl-dev, libtheora-dev, libspeex-dev, libssl-dev, pkg-config, po-debconf, autoconf-archive
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b031875e89ead57151535206e3f120ad 2167 icecast2_2.4.4-4.dsc
+ 835c7b571643f6436726a6118defb366 2360592 icecast2_2.4.4.orig.tar.gz
+ 333e6a553bfb66d9f8f4aa89da9f86fd 28108 icecast2_2.4.4-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/icecast2
+Vcs-Git: https://salsa.debian.org/multimedia-team/icecast2.git
+Checksums-Sha256:
+ 3d7d74128ad9edfca53fab9a5b66d1dc34091e843991ba397532985a3bf073ec 2167 icecast2_2.4.4-4.dsc
+ 49b5979f9f614140b6a38046154203ee28218d8fc549888596a683ad604e4d44 2360592 icecast2_2.4.4.orig.tar.gz
+ 46d339e39a0ec2ee4c057a40ef745f2c4ac8556b3ce4ddeb5dd2125762563adb 28108 icecast2_2.4.4-4.debian.tar.xz
+Homepage: https://icecast.org/
+Package-List: 
+ icecast2 deb sound optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: curl
+Directory: pool/main/i/icecast2
+Priority: source
+Section: sound

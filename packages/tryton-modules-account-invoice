@@ -1,0 +1,29 @@
+Package: tryton-modules-account-invoice
+Binary: tryton-modules-account-invoice
+Version: 5.0.11-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 9), dh-python, python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 27b1fd6fa94d1f07fda277dad3490088 2609 tryton-modules-account-invoice_5.0.11-1.dsc
+ acd99ed71be3e8bf949761fa89b6d584 166355 tryton-modules-account-invoice_5.0.11.orig.tar.gz
+ f060ce2f186d51ba44e464caa52b3982 506 tryton-modules-account-invoice_5.0.11.orig.tar.gz.asc
+ 3b31e99d51a93b04522b1ec9426f614b 14504 tryton-modules-account-invoice_5.0.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/tryton-modules-account-invoice
+Vcs-Git: https://salsa.debian.org/tryton-team/tryton-modules-account-invoice.git
+Checksums-Sha256:
+ c4c0860650e99217fbec36eb44a23fd246ea9ba71952a22097be8bf7882f5bb8 2609 tryton-modules-account-invoice_5.0.11-1.dsc
+ 5ee4527e9854aae28e3e97da149600d5d3b2b142772ff2fcf9f034bdb466a74d 166355 tryton-modules-account-invoice_5.0.11.orig.tar.gz
+ e31afb85c45453ea75780d9dd4ff9898f70475f607f774a8d6a9424e478a5029 506 tryton-modules-account-invoice_5.0.11.orig.tar.gz.asc
+ cde8327b4697e6e6a80b8bc6ea78a800c615bf545b037c4c6da2dbcec2a0f7df 14504 tryton-modules-account-invoice_5.0.11-1.debian.tar.xz
+Homepage: http://www.tryton.org/
+Package-List: 
+ tryton-modules-account-invoice deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-setuptools, tryton-proteus
+Directory: pool/main/t/tryton-modules-account-invoice
+Priority: source
+Section: python

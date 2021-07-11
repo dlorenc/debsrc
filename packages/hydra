@@ -1,0 +1,26 @@
+Package: hydra
+Binary: hydra, hydra-gtk
+Version: 9.1-1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Julián Moreno Patiño <julian@debian.org>, Daniel Echeverri <epsilon@debian.org>
+Build-Depends: debhelper-compat (= 13), firebird-dev [!hurd-any], freerdp2-dev, libgtk2.0-dev, libidn11-dev, default-libmysqlclient-dev, libgcrypt-dev, libmemcached-dev, libmongoc-dev, libncurses-dev, libpcre3-dev, libpq-dev, libssh-dev, libsvn-dev, pkg-config, dh-exec
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 18c3b1cf48c3875452ec03a66e30a30b 2234 hydra_9.1-1.dsc
+ 7a2f54980ce44aff0cc047fb75751dba 611846 hydra_9.1.orig.tar.gz
+ 4c044584cfe2752ec324ca3f0ff6a1ce 14700 hydra_9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/hydra
+Vcs-Git: https://salsa.debian.org/pkg-security-team/hydra.git
+Checksums-Sha256:
+ 9c90ec0da6e22f53d3936b5becb8d6df9c93371e77af112b6218a225e9b084ca 2234 hydra_9.1-1.dsc
+ ce08a5148c0ae5ff4b0a4af2f7f15c5946bc939a57eae1bbb6dda19f34410273 611846 hydra_9.1.orig.tar.gz
+ d9b68ea216bd58cb9645a7f6b0058dd4e8b5fb2147d4e33998baee0643f26d7b 14700 hydra_9.1-1.debian.tar.xz
+Homepage: https://github.com/vanhauser-thc/thc-hydra
+Package-List: 
+ hydra deb net optional arch=any
+ hydra-gtk deb net optional arch=any
+Directory: pool/main/h/hydra
+Priority: source
+Section: net

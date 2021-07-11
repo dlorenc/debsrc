@@ -1,0 +1,26 @@
+Package: libjcommon-java
+Binary: libjcommon-java, libjcommon-java-doc
+Version: 1.0.23-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Christian Bayle <bayle@debian.org>, Rene Engelhard <rene@debian.org>, Jakub Adam <jakub.adam@ktknet.cz>
+Build-Depends: ant, bnd (>= 2.1.0), debhelper-compat (= 13), default-jdk, junit, libservlet3.1-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 806d043b04637d34e11e045b09ce1854 2358 libjcommon-java_1.0.23-2.dsc
+ 19d291507c921c88acf6c732211a7042 239216 libjcommon-java_1.0.23.orig.tar.xz
+ 644e1f6b91254e4ff02f5ee0b2095fa1 6592 libjcommon-java_1.0.23-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libjcommon-java
+Vcs-Git: https://salsa.debian.org/java-team/libjcommon-java.git
+Checksums-Sha256:
+ e172a1555fd57c3e0590d0fe48cb406c8d9aace28dec6bf176c94342ab6d08e0 2358 libjcommon-java_1.0.23-2.dsc
+ 62c8fbb687828edacfab20a0d7c5749ab82e9bffa49f6799d38f08dace99381a 239216 libjcommon-java_1.0.23.orig.tar.xz
+ e5ffac2c39fa0a2c1829c132e8ee0c54290421be1b06c74ff2a51d828c4872d3 6592 libjcommon-java_1.0.23-2.debian.tar.xz
+Homepage: http://www.jfree.org/jcommon/
+Package-List: 
+ libjcommon-java deb java optional arch=all
+ libjcommon-java-doc deb doc optional arch=all
+Directory: pool/main/libj/libjcommon-java
+Priority: source
+Section: java

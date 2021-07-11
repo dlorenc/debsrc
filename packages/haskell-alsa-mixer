@@ -1,0 +1,26 @@
+Package: haskell-alsa-mixer
+Binary: libghc-alsa-mixer-dev, libghc-alsa-mixer-prof, libghc-alsa-mixer-doc
+Version: 0.3.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-alsa-core-dev (>= 0.5), libghc-alsa-core-dev (<< 0.6), libghc-alsa-core-prof (>= 0.5), libghc-alsa-core-prof (<< 0.6), c2hs, libasound2-dev (>= 1.0.14)
+Build-Depends-Indep: ghc-doc, libghc-alsa-core-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cfa3015e48b3ad6719a277418bbfaa29 2351 haskell-alsa-mixer_0.3.0-2.dsc
+ f5384dbbef508bd965dd0c4490b893b2 7304 haskell-alsa-mixer_0.3.0.orig.tar.gz
+ d85a325a165e441ab999e9b4bb4e57b2 2356 haskell-alsa-mixer_0.3.0-2.debian.tar.xz
+Checksums-Sha256:
+ 12c890f03ac2d7a4f675180d0d69cf1d836161c7a11f1f3236421015d22445af 2351 haskell-alsa-mixer_0.3.0-2.dsc
+ cb6a197de99c6b4339a7f552e1c6b71eaefa11bb96102d5ba4519a23c615de02 7304 haskell-alsa-mixer_0.3.0.orig.tar.gz
+ 93e2749bf8560719540fd3f14df15b1b152a9b2004e2cffa1501f60af442914a 2356 haskell-alsa-mixer_0.3.0-2.debian.tar.xz
+Homepage: https://github.com/ttuegel/alsa-mixer
+Package-List: 
+ libghc-alsa-mixer-dev deb haskell optional arch=any
+ libghc-alsa-mixer-doc deb doc optional arch=all
+ libghc-alsa-mixer-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-alsa-mixer
+Priority: extra
+Section: misc

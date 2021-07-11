@@ -1,0 +1,25 @@
+Package: libkiwix
+Binary: libkiwix-dev, libkiwix9
+Version: 9.4.1+dfsg-1
+Maintainer: Kunal Mehta <legoktm@debian.org>
+Build-Depends: debhelper-compat (= 13), meson, pkg-config, libzim-dev (>= 6.3.0), libcurl4-gnutls-dev, libicu-dev, libgtest-dev, libkainjow-mustache-dev, liblzma-dev, libmicrohttpd-dev, libpugixml-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 460a8d899ffefd3cd757478ddc80288c 2124 libkiwix_9.4.1+dfsg-1.dsc
+ 4ded24935f941e3b2cd338a77c1a1584 854044 libkiwix_9.4.1+dfsg.orig.tar.xz
+ c388697c4b69110bb2d048fd92e634e6 10584 libkiwix_9.4.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/legoktm/libkiwix
+Vcs-Git: https://salsa.debian.org/legoktm/libkiwix.git
+Checksums-Sha256:
+ 0c9efaeea4965358dd2835d855439e29c37a4886880a36e530c9fdbc5c562a8e 2124 libkiwix_9.4.1+dfsg-1.dsc
+ b03b99c5f5ce7879d5849787f0375a94aeb617a5404293294d69c9a25cc89939 854044 libkiwix_9.4.1+dfsg.orig.tar.xz
+ d5009d7d5310abc29b22ca1c9c504eb50ef3cfc7ff089c32802e9937d90595ec 10584 libkiwix_9.4.1+dfsg-1.debian.tar.xz
+Homepage: https://github.com/kiwix/kiwix-lib
+Package-List: 
+ libkiwix-dev deb libdevel optional arch=any
+ libkiwix9 deb libs optional arch=any
+Directory: pool/main/libk/libkiwix
+Priority: extra
+Section: misc

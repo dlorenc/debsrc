@@ -1,0 +1,25 @@
+Package: cpu-x
+Binary: cpu-x
+Version: 4.1.0-1
+Maintainer: Martin Wimpress <martin.wimpress@ubuntu.com>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: debhelper-compat (= 13), cmake (>= 3), gawk, gettext, libcpuid-dev (>= 0.5.0) [amd64 i386], libgtk-3-dev (>= 3.12), libcurl4-gnutls-dev, libjson-c-dev, libncurses-dev, libpci-dev, libprocps-dev, libstatgrab-dev, nasm, pkg-config, procps
+Architecture: amd64 i386
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 273f7840471c6e2ae98fe9e488a84bf1 2101 cpu-x_4.1.0-1.dsc
+ 8aba2bfe98c0dcd3da53d01b77e94036 1749012 cpu-x_4.1.0.orig.tar.gz
+ 009f9255168062ed0b5fa8d3cf275703 8128 cpu-x_4.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/cpu-x
+Vcs-Git: https://salsa.debian.org/debian/cpu-x.git
+Checksums-Sha256:
+ 0662c1b549b31346a1cafbfbd24c794b422ddea2288ea1a7bf6da25caffb39eb 2101 cpu-x_4.1.0-1.dsc
+ b7f3158b226badec77500a8f847850b618a167d7b9e6599a145c53e31df64b0a 1749012 cpu-x_4.1.0.orig.tar.gz
+ f9402614b2670ae75554744193a524e43318920667aa2b27436d1b8e24bf5363 8128 cpu-x_4.1.0-1.debian.tar.xz
+Homepage: https://github.com/X0rg/CPU-X
+Package-List: 
+ cpu-x deb x11 optional arch=amd64,i386
+Directory: pool/main/c/cpu-x
+Priority: extra
+Section: misc

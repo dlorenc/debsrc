@@ -1,0 +1,28 @@
+Package: golang-github-oklog-run
+Binary: golang-github-oklog-run-dev
+Version: 1.1.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dawid Dziurla <dawidd0811@gmail.com>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 81b64c413d97504ae73f95694c51fff2 2224 golang-github-oklog-run_1.1.0-1.dsc
+ 10c3ab4d18620970d84b9d81eb872158 7991 golang-github-oklog-run_1.1.0.orig.tar.gz
+ 97a4839ca7c8fafebd34d561a471d4aa 2092 golang-github-oklog-run_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-oklog-run
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-oklog-run.git
+Checksums-Sha256:
+ efc42b057f0376457a5f5b5e5b217dcd9159164e7c8f329c309ba2414622a6ff 2224 golang-github-oklog-run_1.1.0-1.dsc
+ 00c8e2d2071fca7db49027aaaf1e846fa863c4d8a5be33b49898d828ba88cdb5 7991 golang-github-oklog-run_1.1.0.orig.tar.gz
+ 9d2bf3f04af0414a8cdcb3027453566418cdfe593408b614b7c7fe050e2eb4e4 2092 golang-github-oklog-run_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/oklog/run
+Go-Import-Path: github.com/oklog/run
+Package-List: 
+ golang-github-oklog-run-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-oklog-run
+Priority: extra
+Section: golang

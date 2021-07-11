@@ -1,0 +1,28 @@
+Package: konsole
+Binary: konsole, konsole-kpart
+Version: 4:20.12.3-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>, Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.13~), debhelper-compat (= 13), extra-cmake-modules (>= 5.68.0~), gettext, kinit-dev (>= 5.68.0~), libkf5bookmarks-dev (>= 5.68.0~), libkf5completion-dev (>= 5.68.0~), libkf5config-dev (>= 5.68.0~), libkf5configwidgets-dev (>= 5.68.0~), libkf5coreaddons-dev (>= 5.68.0~), libkf5crash-dev (>= 5.68.0~), libkf5dbusaddons-dev (>= 5.68.0~), libkf5doctools-dev (>= 5.68.0~), libkf5globalaccel-dev (>= 5.68.0~), libkf5guiaddons-dev (>= 5.68.0~), libkf5i18n-dev (>= 5.68.0~), libkf5iconthemes-dev (>= 5.68.0~), libkf5kio-dev (>= 5.68.0~), libkf5newstuff-dev (>= 5.68.0~), libkf5notifications-dev (>= 5.68.0~), libkf5notifyconfig-dev (>= 5.68.0~), libkf5parts-dev (>= 5.68.0~), libkf5pty-dev (>= 5.68.0~), libkf5service-dev (>= 5.68.0~), libkf5textwidgets-dev (>= 5.68.0~), libkf5widgetsaddons-dev (>= 5.68.0~), libkf5windowsystem-dev (>= 5.68.0~), libkf5xmlgui-dev (>= 5.68.0~), libx11-dev, pkg-kde-tools (>= 0.15.16~), qtbase5-dev (>= 5.12.0~)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f46cd37d7201da2c5a53fd980923e969 3222 konsole_20.12.3-1.dsc
+ ccb51a46be52c711149f4ea9b3218150 1250536 konsole_20.12.3.orig.tar.xz
+ 17c0c54108cbbadfc22bfe85bbc6723d 833 konsole_20.12.3.orig.tar.xz.asc
+ 38f8b349a92dbea0463d6a483a452b7c 17244 konsole_20.12.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/konsole
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/konsole.git
+Checksums-Sha256:
+ cfbed05676966f168012e37c9fb3818ea8fe28dcf8960a198919302e2e1e53b6 3222 konsole_20.12.3-1.dsc
+ 24cd42fdc4ae2e17526bfab9c5ad516bb25b22d654782e98aa52f6e39bdd138d 1250536 konsole_20.12.3.orig.tar.xz
+ 3340df90ca7d0498077f00e3efd43d3eed88730a01a20375c940f86abcc1e780 833 konsole_20.12.3.orig.tar.xz.asc
+ 25dda42557a213f6886ba3ba0c55ca5a3562561de17b78d643c8f12e5f8da42d 17244 konsole_20.12.3-1.debian.tar.xz
+Homepage: https://apps.kde.org/en/konsole
+Package-List: 
+ konsole deb kde optional arch=any
+ konsole-kpart deb kde optional arch=any
+Directory: pool/main/k/konsole
+Priority: source
+Section: kde

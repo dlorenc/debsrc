@@ -1,0 +1,28 @@
+Package: pyyaml
+Binary: python3-yaml, python3-yaml-dbg
+Version: 5.3.1-4
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Scott Kitterman <scott@kitterman.com>, Michael Hudson-Doyle <mwhudson@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all-dev, python3-all-dbg, libyaml-dev, cython3, cython3-dbg
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9ff35540640392d5bf5d4d7f0b1ab9aa 1542 pyyaml_5.3.1-4.dsc
+ d3590b85917362e837298e733321962b 269377 pyyaml_5.3.1.orig.tar.gz
+ ccc3f6bbfcc0edf326d599a526aef656 7756 pyyaml_5.3.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyyaml
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyyaml.git
+Checksums-Sha256:
+ ef2a56e41400e8133cdc90d3bf789bdbc1efa14794976fa687966ea8f92ffe7a 1542 pyyaml_5.3.1-4.dsc
+ b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d 269377 pyyaml_5.3.1.orig.tar.gz
+ 2f51f2d3fed9b778fc889047aa4cd380f0421b3ab97f4ae0d140e39d78d50733 7756 pyyaml_5.3.1-4.debian.tar.xz
+Homepage: https://github.com/yaml/pyyaml
+Package-List: 
+ python3-yaml deb python optional arch=any
+ python3-yaml-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/pyyaml
+Priority: source
+Section: python

@@ -1,0 +1,26 @@
+Package: mpfit
+Binary: gdl-mpfit
+Version: 1.85+2017.01.03-4
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 12), gnudatalanguage (>= 0.9.5), python3
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f2933f9973b6d43042def8befbd147f6 2051 mpfit_1.85+2017.01.03-4.dsc
+ 96ad9643c43a01481f36501125f575ba 158207 mpfit_1.85+2017.01.03.orig.tar.gz
+ 0d7a602a694a3b0f9000fc85df59ddc5 8732 mpfit_1.85+2017.01.03-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/mpfit
+Vcs-Git: https://salsa.debian.org/debian-astro-team/mpfit.git
+Checksums-Sha256:
+ b16bf1853437ad2ece5ff4a358fbb6a8bd0c489d96c0d2a251c9831802785bc8 2051 mpfit_1.85+2017.01.03-4.dsc
+ 9cae112615a97eddcaea6fd02d4c0d7772776680801d903186162d5cf95dc22a 158207 mpfit_1.85+2017.01.03.orig.tar.gz
+ f88f64077073317897c0eee451b2e17fbadf23185a070ca543bbb6abf9b3aac3 8732 mpfit_1.85+2017.01.03-4.debian.tar.xz
+Homepage: https://cow.physics.wisc.edu/~craigm/idl/fitting.html
+Package-List: 
+ gdl-mpfit deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/mpfit
+Priority: optional
+Section: misc

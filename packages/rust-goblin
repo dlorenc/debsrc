@@ -1,0 +1,31 @@
+Package: rust-goblin
+Binary: librust-goblin-dev, librust-goblin+alloc-dev, librust-goblin+default-dev, librust-goblin+log-dev, librust-goblin+mach32-dev, librust-goblin+std-dev
+Version: 0.2.1-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4-dev <!nocheck>, librust-plain-0.2+default-dev (>= 0.2.3-~~) <!nocheck>, librust-scroll-0.10+derive-dev <!nocheck>, librust-scroll-0.10+std-dev <!nocheck>, librust-scroll-0.10-dev (>= 0.10.1~)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 689a7968839362cf2e16afe46d83b570 2770 rust-goblin_0.2.1-4.dsc
+ c90f34ce30ad25f62173ddde5ae3f606 153064 rust-goblin_0.2.1.orig.tar.gz
+ df9374dd638b3d120d0a9d3efea52dc5 3940 rust-goblin_0.2.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/goblin
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/goblin]
+Checksums-Sha256:
+ 4cc60f6933cba75223334405bfeae1b177a0dcc61db765835ecc4b589173e140 2770 rust-goblin_0.2.1-4.dsc
+ ddd5e3132801a1ac34ac53b97acde50c4685414dd2f291b9ea52afa6f07468c8 153064 rust-goblin_0.2.1.orig.tar.gz
+ c569067d34cad1db3df06ba59838aeb4be3c44829cada2487396a7835f4ecfb2 3940 rust-goblin_0.2.1-4.debian.tar.xz
+Package-List: 
+ librust-goblin+alloc-dev deb rust optional arch=any
+ librust-goblin+default-dev deb rust optional arch=any
+ librust-goblin+log-dev deb rust optional arch=any
+ librust-goblin+mach32-dev deb rust optional arch=any
+ librust-goblin+std-dev deb rust optional arch=any
+ librust-goblin-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-goblin
+Priority: extra
+Section: misc

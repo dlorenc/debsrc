@@ -1,0 +1,28 @@
+Package: haskell-hinotify
+Binary: libghc-hinotify-dev, libghc-hinotify-prof, libghc-hinotify-doc
+Version: 0.4-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Andy Bailey <bailey@akamai.com>, Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), cdbs, haskell-devscripts (>= 0.13), ghc (>= 8.0), ghc-prof, libinotify-dev [kfreebsd-any], libghc-async-dev (>= 2), libghc-async-dev (<< 3), libghc-async-prof
+Build-Depends-Indep: ghc-doc, libghc-async-doc
+Architecture: linux-any kfreebsd-any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 15b022d6815dfb4a161789aa4fe4bdf0 2505 haskell-hinotify_0.4-2.dsc
+ 324484ce37fb2333024f66382ac405f5 9158 haskell-hinotify_0.4.orig.tar.gz
+ 985801de3e73fa6a9820aa15d2d9b534 3368 haskell-hinotify_0.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hinotify
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hinotify]
+Checksums-Sha256:
+ 495f9d1625996ddc9a45621886173b39fd339212f5ec82da0d166e890e544591 2505 haskell-hinotify_0.4-2.dsc
+ 7d182c524384aaa15eec666803643d067671e8e806f315c10758685e90a934f4 9158 haskell-hinotify_0.4.orig.tar.gz
+ 46293dfc5e6ad0d4084edcbafed33b8cf31a2b467b8bf63ef7c08caa6903c39c 3368 haskell-hinotify_0.4-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/hinotify
+Package-List: 
+ libghc-hinotify-dev deb haskell optional arch=linux-any,kfreebsd-any
+ libghc-hinotify-doc deb doc optional arch=all
+ libghc-hinotify-prof deb haskell optional arch=linux-any,kfreebsd-any
+Directory: pool/main/h/haskell-hinotify
+Priority: source
+Section: haskell

@@ -1,0 +1,28 @@
+Package: golang-github-mmcdole-goxpp
+Binary: golang-github-mmcdole-goxpp-dev
+Version: 0.0~git20200921.2f3784f-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Aloïs Micard <alois@micard.lu>
+Build-Depends: debhelper-compat (= 13), dh-golang
+Build-Depends-Indep: golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1a2c447d785a53d1180ba6561dd4b110 2419 golang-github-mmcdole-goxpp_0.0~git20200921.2f3784f-1.dsc
+ 61e98198e8a7b974c03e153340e61cc4 5400 golang-github-mmcdole-goxpp_0.0~git20200921.2f3784f.orig.tar.xz
+ 05385f2c4bc57fe9be6a9ecd6890a00e 2836 golang-github-mmcdole-goxpp_0.0~git20200921.2f3784f-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mmcdole-goxpp
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mmcdole-goxpp.git
+Checksums-Sha256:
+ b19092fd69cb653dea8b52607b6996f503c19fff6ceeb5af15e1e6b79bd15761 2419 golang-github-mmcdole-goxpp_0.0~git20200921.2f3784f-1.dsc
+ c1e03d9181b4125064a765a7cd2412aeb41f3e195ae32fc2477b9051a5fc3d61 5400 golang-github-mmcdole-goxpp_0.0~git20200921.2f3784f.orig.tar.xz
+ 5e647a95bb1e5869853074ad1627d324437df0eb974ed8ad72db26a704fc02ce 2836 golang-github-mmcdole-goxpp_0.0~git20200921.2f3784f-1.debian.tar.xz
+Homepage: https://github.com/mmcdole/goxpp
+Go-Import-Path: github.com/mmcdole/goxpp
+Package-List: 
+ golang-github-mmcdole-goxpp-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mmcdole-goxpp
+Priority: extra
+Section: golang

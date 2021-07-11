@@ -1,0 +1,27 @@
+Package: flask-silk
+Binary: python3-flask-silk, python-flask-silk-doc
+Version: 0.2-18
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Jonathan Carter <jcc@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, dh-linktree, python3-all, python3-setuptools, python3-sphinx, python3-flask, famfamfam-silk
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 4c3cb6aae9ed88d97f45611d6ea751a6 2172 flask-silk_0.2-18.dsc
+ aca545a94063dc4acd21779ea5dde330 627171 flask-silk_0.2.orig.tar.gz
+ 4dd901c772fcc3f7e003240901dff0ca 9684 flask-silk_0.2-18.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/flask-silk
+Vcs-Git: https://salsa.debian.org/python-team/modules/flask-silk.git
+Checksums-Sha256:
+ f78b153f9bd4d5326f05369eaab65c8b719e445b4b02f89b6054835bcd3e90fb 2172 flask-silk_0.2-18.dsc
+ 80a21faf09fe257443a4fbbf8cd3f6c793c567c87ff784751a1c38d2e18b5fbe 627171 flask-silk_0.2.orig.tar.gz
+ 476b42658809db67ec1b3079e595ef9df17190fc49312e594624fc28eb2cd83b 9684 flask-silk_0.2-18.debian.tar.xz
+Homepage: https://github.com/sublee/flask-silk
+Package-List: 
+ python-flask-silk-doc deb doc optional arch=all
+ python3-flask-silk deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/f/flask-silk
+Priority: source
+Section: misc

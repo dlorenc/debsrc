@@ -1,0 +1,24 @@
+Package: python-etesync
+Binary: python3-etesync
+Version: 0.12.1-1
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3, python3-cryptography (>= 1.9) <!nocheck>, python3-furl <!nocheck>, python3-peewee <!nocheck>, python3-pytest <!nocheck>, python3-requests <!nocheck>, python3-setuptools, python3-vobject <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d057b8f8bf4b24f5760bb981e9b32cc2 2110 python-etesync_0.12.1-1.dsc
+ 92e0567cfdb75c48437a03fb19e3eb2f 23331 python-etesync_0.12.1.orig.tar.gz
+ de37c58c3625e21d7ee30b07aaa118ed 2816 python-etesync_0.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-etesync
+Vcs-Git: https://salsa.debian.org/debian/python-etesync.git
+Checksums-Sha256:
+ d665a30dcd4d63e6bd1c9a96d967628469040c21a708e93cc74212cf1791705b 2110 python-etesync_0.12.1-1.dsc
+ 772c0a74731e25e54bf59f870498d8a20e3b80e2cbddd2797dec5658885e6670 23331 python-etesync_0.12.1.orig.tar.gz
+ 59655f18b1d24f7fca57a3afb5e6948d830080e42e5e4e4576958171ca10f39c 2816 python-etesync_0.12.1-1.debian.tar.xz
+Homepage: https://www.etesync.com/
+Package-List: 
+ python3-etesync deb python optional arch=all
+Directory: pool/main/p/python-etesync
+Priority: extra
+Section: misc

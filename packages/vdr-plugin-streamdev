@@ -1,0 +1,26 @@
+Package: vdr-plugin-streamdev
+Binary: vdr-plugin-streamdev-client, vdr-plugin-streamdev-server
+Version: 0.6.1+git20180514-3
+Maintainer: Debian VDR Team <pkg-vdr-dvb-devel@lists.alioth.debian.org>
+Uploaders: Peter Siering <ps@ctmagazin.de>, Thomas Schmidt <tschmidt@debian.org>, Tobias Grimm <etobi@debian.org>, Thomas Günther <tom@toms-cafe.de>
+Build-Depends: debhelper (>= 9), vdr-dev (>= 2.4.1), gettext, pkg-config
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ faa3103d7ab3f4a2a13b39cf627dba58 2352 vdr-plugin-streamdev_0.6.1+git20180514-3.dsc
+ 5276bf5195092433a1f37dda469599c3 200711 vdr-plugin-streamdev_0.6.1+git20180514.orig.tar.gz
+ 7f46ed4d99ec75988000d1b316d46f2e 6776 vdr-plugin-streamdev_0.6.1+git20180514-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/vdr-team/vdr-plugin-streamdev
+Vcs-Git: https://salsa.debian.org/vdr-team/vdr-plugin-streamdev.git
+Checksums-Sha256:
+ 40fb4573fc015e5a379557c4769ee3003d2e2a4c947660d04147dd8e6e459f10 2352 vdr-plugin-streamdev_0.6.1+git20180514-3.dsc
+ c1c0b1e3e89f63225547b23201438e4fadbf99bcb80c44e513bb32fa410fad9a 200711 vdr-plugin-streamdev_0.6.1+git20180514.orig.tar.gz
+ 708173fe4bfeb583216a22073728714c8463518e1e1f00d69178cd6a8b0b758f 6776 vdr-plugin-streamdev_0.6.1+git20180514-3.debian.tar.xz
+Homepage: http://streamdev.vdr-developer.org
+Package-List: 
+ vdr-plugin-streamdev-client deb video optional arch=any
+ vdr-plugin-streamdev-server deb video optional arch=any
+Directory: pool/main/v/vdr-plugin-streamdev
+Priority: source
+Section: video

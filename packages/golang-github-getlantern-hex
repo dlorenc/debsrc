@@ -1,0 +1,27 @@
+Package: golang-github-getlantern-hex
+Binary: golang-github-getlantern-hex-dev
+Version: 0.0~git20160523.083fba3-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Micah Anderson <micah@debian.org> , Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 53f808c586404f47433199671acdf001 2553 golang-github-getlantern-hex_0.0~git20160523.083fba3-2.dsc
+ ffa81b47afebcbda68e592658b4f554a 1400 golang-github-getlantern-hex_0.0~git20160523.083fba3.orig.tar.xz
+ f3211df01d971133c6273c94a575ff82 1700 golang-github-getlantern-hex_0.0~git20160523.083fba3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-getlantern-hex
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-getlantern-hex.git
+Checksums-Sha256:
+ d402171090d2a6b23f68339e43cb5e736d141e7bc3d17b96f274cff427214264 2553 golang-github-getlantern-hex_0.0~git20160523.083fba3-2.dsc
+ 8f542049064a825184fc4a604839c88e5a70fa48df8fd69ff6c4ed824e2f6d1c 1400 golang-github-getlantern-hex_0.0~git20160523.083fba3.orig.tar.xz
+ 2254f4863e9b30534dba03bd4c8cdb5f9b7d581281e0b1b37ea86ebf9b479925 1700 golang-github-getlantern-hex_0.0~git20160523.083fba3-2.debian.tar.xz
+Homepage: https://github.com/getlantern/hex
+Go-Import-Path: github.com/getlantern/hex
+Package-List: 
+ golang-github-getlantern-hex-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-getlantern-hex
+Priority: extra
+Section: golang

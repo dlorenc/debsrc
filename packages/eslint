@@ -1,0 +1,29 @@
+Package: eslint
+Binary: eslint
+Version: 5.16.0~dfsg+~4.16.8-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), help2man <!nodoc>, jq, mocha <!nocheck>, node-ajv <!nocheck> <!nodoc>, node-babel-core (>= 7) <!nocheck>, node-babel-loader (>= 7) <!nocheck>, node-babel-preset-env (>= 7) <!nocheck>, node-chai <!nocheck>, node-chalk <!nocheck>, node-cheerio <!nocheck>, node-concat-stream <!nocheck>, node-dateformat <!nocheck>, node-debug <!nocheck>, node-doctrine <!nocheck> <!nodoc>, node-ejs <!nocheck>, node-eslint-plugin-eslint-plugin <!nocheck>, node-eslint-plugin-node (>= 8.0.0~) <!nocheck>, node-eslint-scope <!nocheck> <!nodoc>, node-eslint-rule-composer <!nocheck>, node-eslint-utils <!nocheck> <!nodoc>, node-eslint-visitor-keys <!nocheck> <!nodoc>, node-espree <!nocheck> <!nodoc>, node-esprima <!nocheck>, node-esquery <!nocheck> <!nodoc>, node-estraverse <!nocheck>, node-esutils <!nocheck> <!nodoc>, node-file-entry-cache <!nocheck> <!nodoc>, node-functional-red-black-tree <!nocheck> <!nodoc>, node-glob <!nocheck>, node-globals <!nocheck> <!nodoc>, node-ignore <!nocheck> <!nodoc>, node-import-fresh <!nocheck> <!nodoc>, node-imurmurhash <!nocheck> <!nodoc>, node-inquirer <!nocheck>, node-js-yaml <!nocheck>, node-json-stable-stringify <!nocheck>, node-leche <!nocheck>, node-levn <!nocheck>, node-lodash <!nocheck> <!nodoc>, node-mkdirp <!nocheck> <!nodoc>, node-mock-fs <!nocheck>, node-optionator <!nocheck> <!nodoc>, node-path-is-inside <!nocheck> <!nodoc>, node-progress <!nocheck>, node-proxyquire <!nocheck>, node-regenerate-unicode-properties <!nocheck> <!nodoc>, node-regexpp <!nocheck> <!nodoc>, node-semver <!nocheck>, node-shelljs <!nocheck>, node-sinon <!nocheck>, node-strip-ansi <!nocheck>, node-strip-json-comments <!nocheck>, node-text-table <!nocheck>, node-temp <!nocheck>, nodejs, pandoc <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 10ed960963bef1de36a1cede6c4c937a 4306 eslint_5.16.0~dfsg+~4.16.8-5.dsc
+ 65b6327facc4c06a21eedbcf301d2218 5072 eslint_5.16.0~dfsg+~4.16.8.orig-Xtypes.tar.xz
+ c299105c442f1ff86442e8122882695b 999416 eslint_5.16.0~dfsg+~4.16.8.orig.tar.xz
+ bc51d2e27f420c91557fcbe1bc2e1518 27084 eslint_5.16.0~dfsg+~4.16.8-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/eslint
+Vcs-Git: https://salsa.debian.org/js-team/eslint.git
+Checksums-Sha256:
+ c6b5d5220be36e750ca8fb6ed38af88bfbeaf9503c98f746a3fa22b7d6062f7c 4306 eslint_5.16.0~dfsg+~4.16.8-5.dsc
+ a82ef7dcc6b24ed6682461ac4e6fd98a7c374cc6ba7d91007f2cd157e4be71d0 5072 eslint_5.16.0~dfsg+~4.16.8.orig-Xtypes.tar.xz
+ 189c42bc869427d31259b77844a4f2a8df34ff2f5ed545d053a63f013b847a60 999416 eslint_5.16.0~dfsg+~4.16.8.orig.tar.xz
+ 7760962e3138e1aab184cac38477abe6c466c4b6542e5be9e38d6bb0d022f096 27084 eslint_5.16.0~dfsg+~4.16.8-5.debian.tar.xz
+Homepage: https://eslint.org/
+Package-List: 
+ eslint deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-babel-code-frame, node-chai, node-cheerio, node-eslint, node-eslint-plugin-eslint-plugin, node-eslint-plugin-node, node-eslint-rule-composer, node-inquirer, node-leche, node-mock-fs, node-proxyquire, node-shelljs, node-sinon, node-temp, node-text-table, nodejs
+Directory: pool/main/e/eslint
+Priority: extra
+Section: misc

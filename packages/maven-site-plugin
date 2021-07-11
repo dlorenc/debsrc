@@ -1,0 +1,25 @@
+Package: maven-site-plugin
+Binary: libmaven-site-plugin-java
+Version: 3.6-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends: debhelper (>= 10), default-jdk, junit4, libdoxia-java (>= 1.7), libdoxia-sitetools-java (>= 1.7.4), libjetty9-extra-java, libjetty9-java, libmaven-doxia-tools-java, libmaven-plugin-testing-java, libmaven-plugin-tools-java, libmaven-reporting-api-java, libmaven-reporting-exec-java, libmaven-shade-plugin-java, libmaven3-core-java, libplexus-archiver-java, libplexus-component-metadata-java, libplexus-i18n-java, libplexus-utils2-java, libservlet-api-java, libwagon-provider-api-java, maven-debian-helper (>= 1.4)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 19ac67904a10b6e170eaf268dd147144 2588 maven-site-plugin_3.6-4.dsc
+ 769035f1e100a9be4ffe6438e00583d3 151972 maven-site-plugin_3.6.orig.tar.xz
+ de7da3fcae8a8482e4e8a994a738f4b9 6160 maven-site-plugin_3.6-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/maven-site-plugin
+Vcs-Git: https://salsa.debian.org/java-team/maven-site-plugin.git
+Checksums-Sha256:
+ 6de56fa4466214ad3f2b79aef75604a5c97850e83c013566ba8fcc775b1c3453 2588 maven-site-plugin_3.6-4.dsc
+ cbefaa3fa4f8db5d5a0876033d70a546ebb88a7d0d05e4cc9a6409d8b9c659b7 151972 maven-site-plugin_3.6.orig.tar.xz
+ 99347e02afa29c0f850a3717005079c2b363a437fad94fc2566658bda376d874 6160 maven-site-plugin_3.6-4.debian.tar.xz
+Homepage: http://maven.apache.org/plugins/maven-site-plugin/
+Package-List: 
+ libmaven-site-plugin-java deb java optional arch=all
+Directory: pool/main/m/maven-site-plugin
+Priority: source
+Section: java

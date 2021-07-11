@@ -1,0 +1,27 @@
+Package: golang-github-aws-aws-sdk-go
+Binary: golang-github-aws-aws-sdk-go-dev
+Version: 1.36.33-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>, Shengjing Zhu <zhsj@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.31~), golang-any, golang-github-jmespath-go-jmespath-dev (>= 0.4.0), golang-github-pkg-errors-dev (>= 0.9.1), golang-golang-x-net-dev (>= 1:0.0+git20201110.69a7880)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3d047d629092db6af43e7d2179aa026d 2531 golang-github-aws-aws-sdk-go_1.36.33-1.dsc
+ d5b6601812227a8c33fc528104db5b26 18113634 golang-github-aws-aws-sdk-go_1.36.33.orig.tar.gz
+ 2cf0ba1930ff578e4cc517445692ce84 7076 golang-github-aws-aws-sdk-go_1.36.33-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-aws-aws-sdk-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-aws-aws-sdk-go.git
+Checksums-Sha256:
+ 27c50c863ba859494608bbf4b2f64900c986ac0a76647d4ef6c1b558daf75deb 2531 golang-github-aws-aws-sdk-go_1.36.33-1.dsc
+ c4a2b690fc144a0f6b8d9526ed257259bcca5573db1b3c7c1f179bda443a9d78 18113634 golang-github-aws-aws-sdk-go_1.36.33.orig.tar.gz
+ e66382a0d21b6258c02cad764f5c14ff57531b94647a1a2290b227257e3e886e 7076 golang-github-aws-aws-sdk-go_1.36.33-1.debian.tar.xz
+Homepage: https://github.com/aws/aws-sdk-go
+Go-Import-Path: github.com/aws/aws-sdk-go
+Package-List: 
+ golang-github-aws-aws-sdk-go-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-aws-aws-sdk-go
+Priority: extra
+Section: golang

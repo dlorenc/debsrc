@@ -1,0 +1,28 @@
+Package: python-pika-pool
+Binary: python3-pika-pool
+Version: 0.1.3-4
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, openstack-pkg-tools, python3-all, python3-setuptools
+Build-Depends-Indep: python3-pika (>= 0.9), python3-pytest
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 1659938485e325f4b88af802f59400b7 2229 python-pika-pool_0.1.3-4.dsc
+ bdfc57457874884772d36fec1429e6f3 5280 python-pika-pool_0.1.3.orig.tar.xz
+ 782043927d2c45f53b8f0a39c1fc22ef 2628 python-pika-pool_0.1.3-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-pika-pool
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-pika-pool.git
+Checksums-Sha256:
+ 7073d177ae496279b0016771744c4d95cc8f131ea4bad1a433dc4e674594ff7e 2229 python-pika-pool_0.1.3-4.dsc
+ 738263ba4188babeab81dfbddadff479319d59fb33ae96eb8383b0720baeaffc 5280 python-pika-pool_0.1.3.orig.tar.xz
+ 5944a301ed7cdc0c693446606ccc302ffd294df14140f325eca1976c95def7a9 2628 python-pika-pool_0.1.3-4.debian.tar.xz
+Homepage: https://github.com/bninja/pika-pool
+Package-List: 
+ python3-pika-pool deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pika, python3-pytest, rabbitmq-server
+Directory: pool/main/p/python-pika-pool
+Priority: optional
+Section: misc

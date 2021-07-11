@@ -1,0 +1,27 @@
+Package: r-cran-ggally
+Binary: r-cran-ggally
+Version: 2.1.0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2 (>= 3.3.0), r-cran-dplyr (>= 1.0.0), r-cran-forcats, r-cran-gtable (>= 0.2.0), r-cran-lifecycle, r-cran-plyr (>= 1.8.3), r-cran-progress, r-cran-rcolorbrewer, r-cran-reshape, r-cran-rlang, r-cran-scales (>= 1.1.0), r-cran-tidyr
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2f6d6a3e43cf974c62cbcb13521b2e4a 2423 r-cran-ggally_2.1.0-1.dsc
+ a8f28775f2d9bb5ea2222a52f9baab09 1431883 r-cran-ggally_2.1.0.orig.tar.gz
+ 0b02cf7ed90fc6eef5adec2f477121a3 3080 r-cran-ggally_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-ggally
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-ggally.git
+Checksums-Sha256:
+ c57966086d5a64b4dbc166a409c31913cb75a33a09321eb9a3015ff416821794 2423 r-cran-ggally_2.1.0-1.dsc
+ 7ffb86b8a4e79543cf7e6bb1e3684d738ecd8e0ba89e8ef38991898b18dd6c53 1431883 r-cran-ggally_2.1.0.orig.tar.gz
+ f994e98075a831d3ff3ac555d9644f050767656f7cad6e21a352a9c626f0eb9d 3080 r-cran-ggally_2.1.0-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=GGally
+Package-List: 
+ r-cran-ggally deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-broom, r-cran-hmisc, r-cran-maps, r-cran-network, r-cran-sna, r-cran-survival, r-cran-testthat
+Directory: pool/main/r/r-cran-ggally
+Priority: extra
+Section: misc

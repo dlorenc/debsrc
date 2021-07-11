@@ -1,0 +1,28 @@
+Package: golang-github-farsightsec-go-nmsg
+Binary: golang-github-farsightsec-go-nmsg-dev
+Version: 0.0~git20190917.04d2174-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any, golang-goprotobuf-dev, golang-yaml.v2-dev, golang-github-dnstap-golang-dnstap-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 17007c882725797df462a08ae4b9ef7a 2183 golang-github-farsightsec-go-nmsg_0.0~git20190917.04d2174-2.dsc
+ 718027a4987fd623d4fea843037bd50e 36424 golang-github-farsightsec-go-nmsg_0.0~git20190917.04d2174.orig.tar.xz
+ 6dcf7e0d3d43c4040583fa5d3e470bdc 1980 golang-github-farsightsec-go-nmsg_0.0~git20190917.04d2174-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-farsightsec-go-nmsg
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-farsightsec-go-nmsg.git
+Checksums-Sha256:
+ a89f43f75d27e27b63f7dab957ca72c1c02ffa76454436a27eef11a0b99b6aa4 2183 golang-github-farsightsec-go-nmsg_0.0~git20190917.04d2174-2.dsc
+ 403cb5d51834914989332f4d7f0f8ed494d1ad7824f9fb6e77681389f301200c 36424 golang-github-farsightsec-go-nmsg_0.0~git20190917.04d2174.orig.tar.xz
+ 5e57744d1757289fbc2822fa7ad289ccf9cc15f970fa342320ee5774c8a2b53d 1980 golang-github-farsightsec-go-nmsg_0.0~git20190917.04d2174-2.debian.tar.xz
+Homepage: https://github.com/farsightsec/go-nmsg
+Go-Import-Path: github.com/farsightsec/go-nmsg
+Package-List: 
+ golang-github-farsightsec-go-nmsg-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-farsightsec-go-nmsg
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: ruby-mojo-magick
+Binary: ruby-mojo-magick
+Version: 0.5.6-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>, Sophie Brun <sophie@freexian.com>
+Build-Depends: debhelper-compat (= 12), gem2deb, imagemagick, gsfonts, rake, ruby-simplecov
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 54d3efa5966b98376e643246f64f16df 2155 ruby-mojo-magick_0.5.6-2.dsc
+ abc32a2d4ead5a530c47c0eb61b9a436 56352 ruby-mojo-magick_0.5.6.orig.tar.gz
+ b89b44662d11a55020726b68947415be 4508 ruby-mojo-magick_0.5.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-mojo-magick
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-mojo-magick.git
+Checksums-Sha256:
+ 533c756cf2b4a6cae93f544b418927a576e724d1e409223a5e691eee1cf26780 2155 ruby-mojo-magick_0.5.6-2.dsc
+ 4cc955617066693ea53415360e3d0ec12d702e2654ac9da90ccba1fd51cdf693 56352 ruby-mojo-magick_0.5.6.orig.tar.gz
+ 7c00bf86c818ee847a88bee508f7e50005ffcea532af1ed210fa1c480b16b761 4508 ruby-mojo-magick_0.5.6-2.debian.tar.xz
+Homepage: https://github.com/rcode5/mojo_magick
+Package-List: 
+ ruby-mojo-magick deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-mojo-magick
+Priority: extra
+Section: misc

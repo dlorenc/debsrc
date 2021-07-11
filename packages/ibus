@@ -1,0 +1,37 @@
+Package: ibus
+Binary: ibus, ibus-data, ibus-tests, libibus-1.0-5, libibus-1.0-dev, ibus-gtk, ibus-gtk3, ibus-wayland, ibus-doc, gir1.2-ibus-1.0, python3-ibus-1.0
+Version: 1.5.23-2
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, Changwoo Ryu <cwryu@debian.org>, Osamu Aoki <osamu@debian.org>,
+Build-Depends: dbus-x11 (>= 1.8) <!nocheck>, debhelper-compat (= 13), desktop-file-utils, dh-python, gettext (>= 0.19.8), gnome-pkg-tools, gobject-introspection (>= 0.9.6~), gtk-doc-tools <!nodoc>, iso-codes, libdconf-dev (>= 0.7.5~), libgirepository1.0-dev, libglib2.0-dev (>= 2.46.0~), libgtk-3-bin, libgtk-3-dev (>= 3.12.0), libgtk2.0-dev (>= 2.24.5-4), libtool, libwayland-dev (>= 1.2.0~) [linux-any], pkg-config (>= 0.16), python-gi-dev (>= 3.0.0~), python3-all, unicode-cldr-core, unicode-data (>= 13.0.0-2), valac (>= 0.20), xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: libglib2.0-doc <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 30d39ab725515bab81b406d6074573ce 3116 ibus_1.5.23-2.dsc
+ 2e2cf49d449c532171b9d9698f934a01 3557661 ibus_1.5.23.orig.tar.gz
+ 3b8ac2579ab0d2c11c94c48d5c05289d 29460 ibus_1.5.23-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ibus
+Vcs-Git: https://salsa.debian.org/debian/ibus.git
+Checksums-Sha256:
+ 4ad76ac5d0a0b864f02e2bb809aea2a9f7f88e93dfcf47488a463ad1ce6d4b10 3116 ibus_1.5.23-2.dsc
+ b7e8d5bdb7d71a5ba4ee43cdf374675f77121a71c1679c9b9e7e02875bd0e150 3557661 ibus_1.5.23.orig.tar.gz
+ a9dbe03e354a8577e0463c15a72fb4cbed12434d9b61a4abe15ccf28d7535734 29460 ibus_1.5.23-2.debian.tar.xz
+Homepage: https://github.com/ibus/ibus
+Package-List: 
+ gir1.2-ibus-1.0 deb introspection optional arch=any
+ ibus deb utils optional arch=any
+ ibus-data deb utils optional arch=all
+ ibus-doc deb doc optional arch=all profile=!nodoc
+ ibus-gtk deb utils optional arch=any
+ ibus-gtk3 deb utils optional arch=any
+ ibus-tests deb utils optional arch=any profile=!noinsttest
+ ibus-wayland deb utils optional arch=linux-any
+ libibus-1.0-5 deb libs optional arch=any
+ libibus-1.0-dev deb libdevel optional arch=any
+ python3-ibus-1.0 deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/i/ibus
+Priority: source
+Section: utils

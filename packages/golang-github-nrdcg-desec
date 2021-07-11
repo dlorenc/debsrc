@@ -1,0 +1,27 @@
+Package: golang-github-nrdcg-desec
+Binary: golang-github-nrdcg-desec-dev
+Version: 0.5.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Félix Sipma <felix+debian@gueux.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-stretchr-testify-dev, golang-golang-x-time-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 07f411587910401b8a6d22f4f3936bff 1677 golang-github-nrdcg-desec_0.5.0-2.dsc
+ 9a171ba21dbc9044dd24016b0a41d84e 15821 golang-github-nrdcg-desec_0.5.0.orig.tar.gz
+ 0e0550d58ecb2f15ca5326314307433f 2232 golang-github-nrdcg-desec_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-nrdcg-desec
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-nrdcg-desec.git
+Checksums-Sha256:
+ ee9b5f591181fce569f14bb0ed7750726bb26efe726ff25e54a3ad2a612b0b93 1677 golang-github-nrdcg-desec_0.5.0-2.dsc
+ 8d3b5c7067b334f7a2da2fe36fcf4d1ebf0e14a6aaad5eadccd5db7c8f5f2a15 15821 golang-github-nrdcg-desec_0.5.0.orig.tar.gz
+ ddce478f34eae8689b311766603f6482f3ce9b7e0a4b01d16b4fba01b424195e 2232 golang-github-nrdcg-desec_0.5.0-2.debian.tar.xz
+Homepage: https://github.com/nrdcg/desec
+Go-Import-Path: github.com/nrdcg/desec
+Package-List: 
+ golang-github-nrdcg-desec-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-nrdcg-desec
+Priority: extra
+Section: misc

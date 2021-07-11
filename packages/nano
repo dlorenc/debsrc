@@ -1,0 +1,29 @@
+Package: nano
+Binary: nano, nano-tiny, nano-udeb
+Version: 5.4-2
+Maintainer: Jordi Mallach <jordi@debian.org>
+Uploaders: Steve Langasek <vorlon@debian.org>
+Build-Depends: debhelper-compat (= 13), libncurses5-dev, libncursesw5-dev, libslang2-dev, pkg-config, texinfo
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bdef4d7ad56c0e29ce89bf75c4293a23 2226 nano_5.4-2.dsc
+ 703d9b5317486c6f49918e27c435fbc9 1410188 nano_5.4.orig.tar.xz
+ 0ab82db9b96c4a2a7543d80adcd9e446 833 nano_5.4.orig.tar.xz.asc
+ e93b802339e0eec07dcde3bdafcaf0cc 64032 nano_5.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/nano
+Vcs-Git: https://salsa.debian.org/debian/nano.git
+Checksums-Sha256:
+ f8d20e3a0fdd1092f9b95d1d6993a46ae609a055c950a4b324f3e59e46ab8077 2226 nano_5.4-2.dsc
+ fe993408b22286355809ce48ebecc4444d19af8203ed4959d269969112ed86e9 1410188 nano_5.4.orig.tar.xz
+ ad331c65846317afdbbcc13f9a5645b20a2364039c899cd350813a7cba54db09 833 nano_5.4.orig.tar.xz.asc
+ e3318cbf5f2528d8ff4503173acc0942dfb451a8ca54614a45837dc2ca3c4a50 64032 nano_5.4-2.debian.tar.xz
+Homepage: https://www.nano-editor.org/
+Package-List: 
+ nano deb editors important arch=any
+ nano-tiny deb editors optional arch=any
+ nano-udeb udeb debian-installer standard arch=any
+Directory: pool/main/n/nano
+Priority: source
+Section: editors

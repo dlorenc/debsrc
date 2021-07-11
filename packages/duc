@@ -1,0 +1,25 @@
+Package: duc
+Binary: duc-nox, duc
+Version: 1.4.4-1
+Maintainer: Jonathan Dowland <jmtd@debian.org>
+Build-Depends: debhelper (>= 12), libcairo2-dev, libncursesw5-dev, libpango1.0-dev, libtokyocabinet-dev, ronn, txt2man
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c4d2a26a66c389ab3d0be76d4ffa029f 1879 duc_1.4.4-1.dsc
+ 36a8ba10d8af98b74b2049f828d83faa 801972 duc_1.4.4.orig.tar.xz
+ 23d8f03c8039a888c2b3167349e3be60 4696 duc_1.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/duc
+Vcs-Git: https://salsa.debian.org/debian/duc.git
+Checksums-Sha256:
+ a7f6b3b48e4039fc30ac904cd806e416cb7bedf7fd70c85c320ff5e7213df912 1879 duc_1.4.4-1.dsc
+ 3162710e334efd49714ca050f54a0bdacfdc20700630588566208a968398ca4f 801972 duc_1.4.4.orig.tar.xz
+ 62c4442032003a9e84d5f9ed228a1a826d2fbb5c95cbb8c92fe34ede83c1106a 4696 duc_1.4.4-1.debian.tar.xz
+Homepage: http://duc.zevv.nl/
+Package-List: 
+ duc deb utils optional arch=any
+ duc-nox deb utils optional arch=any
+Directory: pool/main/d/duc
+Priority: optional
+Section: misc

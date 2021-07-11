@@ -1,0 +1,30 @@
+Package: kompare
+Binary: kompare, kpart5-kompare, libkompareinterface-dev, libkompareinterface5
+Version: 4:20.12.0-2
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>, Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.0~), debhelper-compat (= 13), extra-cmake-modules (>= 5.68.0~), gettext, libkf5codecs-dev (>= 5.68.0~), libkf5config-dev (>= 5.68.0~), libkf5coreaddons-dev (>= 5.68.0~), libkf5doctools-dev (>= 5.68.0~), libkf5iconthemes-dev (>= 5.68.0~), libkf5jobwidgets-dev (>= 5.68.0~), libkf5parts-dev (>= 5.68.0~), libkf5texteditor-dev (>= 5.68.0~), libkf5widgetsaddons-dev (>= 5.68.0~), libkomparediff2-dev (>= 4:18.08~), pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.12.0~)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 564ff07a937c5700f2a491ef8c567224 2898 kompare_20.12.0-2.dsc
+ 2bd605f7386799febe214ad85288531e 921984 kompare_20.12.0.orig.tar.xz
+ f3e3cdb7de1894843621601b813819e9 488 kompare_20.12.0.orig.tar.xz.asc
+ fc855b2974a60866443584cf458b6469 8700 kompare_20.12.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kompare
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kompare.git
+Checksums-Sha256:
+ 5fe29e7a6a4be9820bea1899fa6e49589dcb2d267e04a8b077b3cae246369a5a 2898 kompare_20.12.0-2.dsc
+ 6d838d59031dc91cbd0f690b881ec3b35e70e63a921c5454f709520f8646576a 921984 kompare_20.12.0.orig.tar.xz
+ 5dfeaf88390abf7644ab5be98f4b246744a105caca243fb88d288de28d80ea66 488 kompare_20.12.0.orig.tar.xz.asc
+ de6ec1f721b00ae57765fe1b338fc82230c4551f70c6fe45a301806295f7b055 8700 kompare_20.12.0-2.debian.tar.xz
+Homepage: https://apps.kde.org/en/kompare
+Package-List: 
+ kompare deb devel optional arch=any
+ kpart5-kompare deb devel optional arch=any
+ libkompareinterface-dev deb libdevel optional arch=any
+ libkompareinterface5 deb libs optional arch=any
+Directory: pool/main/k/kompare
+Priority: optional
+Section: misc

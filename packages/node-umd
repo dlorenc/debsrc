@@ -1,0 +1,26 @@
+Package: node-umd
+Binary: node-umd
+Version: 3.0.3+ds-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, dos2unix, mocha (>= 4) <!nocheck>, node-brfs, uglifyjs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ adf8d8af62ed573e84683281f77dc433 2065 node-umd_3.0.3+ds-3.dsc
+ 961e4665a784144ec3a40ed34429037b 27134 node-umd_3.0.3+ds.orig.tar.gz
+ 9b3150a78b1f005e6b13421ddde003a2 4044 node-umd_3.0.3+ds-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-umd
+Vcs-Git: https://salsa.debian.org/js-team/node-umd.git
+Checksums-Sha256:
+ 9644666801bd3fa315cfd0a3f16b2ca6c3f8102a9af8ddfd63acea6409f693f6 2065 node-umd_3.0.3+ds-3.dsc
+ b1f93298e66808507cbdd444d6e2c225225ce5528614f81976eca55f7b697d73 27134 node-umd_3.0.3+ds.orig.tar.gz
+ c70fcef2428cf6744f92488b734e31b71b499197c4237e8f5f7df25dfb97c60b 4044 node-umd_3.0.3+ds-3.debian.tar.xz
+Homepage: https://github.com/ForbesLindesay/umd
+Package-List: 
+ node-umd deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-umd
+Priority: optional
+Section: javascript

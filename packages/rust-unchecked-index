@@ -1,0 +1,26 @@
+Package: rust-unchecked-index
+Binary: librust-unchecked-index-dev
+Version: 0.2.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Arnaud Ferraris <arnaud.ferraris@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c192c2fbdc836683b37a7b2f2a5003a8 2197 rust-unchecked-index_0.2.2-1.dsc
+ 83d328e6ea713d79084f0e9fe5e46233 8325 rust-unchecked-index_0.2.2.orig.tar.gz
+ 93b030bc2ed740cc603611dc7e4c2d6f 2488 rust-unchecked-index_0.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unchecked-index
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unchecked-index]
+Checksums-Sha256:
+ f497e3b708b471ba9897d759426c2d0b523d5a7aba30c3326cdeb63437e5d806 2197 rust-unchecked-index_0.2.2-1.dsc
+ eeba86d422ce181a719445e51872fa30f1f7413b62becb52e95ec91aa262d85c 8325 rust-unchecked-index_0.2.2.orig.tar.gz
+ 6ff8310f529d68b37108e26fbd86f91fb98d5a38c69dde642c2a64449c680bd2 2488 rust-unchecked-index_0.2.2-1.debian.tar.xz
+Package-List: 
+ librust-unchecked-index-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-unchecked-index
+Priority: extra
+Section: misc

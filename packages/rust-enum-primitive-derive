@@ -1,0 +1,27 @@
+Package: rust-enum-primitive-derive
+Binary: librust-enum-primitive-derive-dev
+Version: 0.1.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-num-traits-0.2+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b661d000e02a1ba6fcb1f9c8f1e974c8 2422 rust-enum-primitive-derive_0.1.2-2.dsc
+ cabb8ddc604ed50dc7f542ddfdb9248c 3919 rust-enum-primitive-derive_0.1.2.orig.tar.gz
+ cd50598f9c4693cf6bb1d4c2fb3707ce 4008 rust-enum-primitive-derive_0.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/enum-primitive-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/enum-primitive-derive]
+Checksums-Sha256:
+ 98abc036fb726ba21b69e42d68eae7ddabcddcbaa21699fb31f06cb787824019 2422 rust-enum-primitive-derive_0.1.2-2.dsc
+ 85ce12cf554ec2901df2e7e1fddef182ccb537cf84302d499ffa2b383ef71d78 3919 rust-enum-primitive-derive_0.1.2.orig.tar.gz
+ 952793b05203da75b2f6dfc7d7b39970d13e496ee64e14b7ee2c42da0c466005 4008 rust-enum-primitive-derive_0.1.2-2.debian.tar.xz
+Homepage: https://gitlab.com/cardoe/enum-primitive-derive
+Package-List: 
+ librust-enum-primitive-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-enum-primitive-derive
+Priority: extra
+Section: misc

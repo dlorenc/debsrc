@@ -1,0 +1,28 @@
+Package: libtest-cukes-perl
+Binary: libtest-cukes-perl
+Version: 0.11-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Niko Tyni <ntyni@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl
+Build-Depends-Indep: libcarp-assert-perl <!nocheck>, libmoose-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtry-tiny-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f9d2478dfff62287629f0f2528c6fcb7 1784 libtest-cukes-perl_0.11-1.dsc
+ 04d8813921a15391424c777979434632 7966 libtest-cukes-perl_0.11.orig.tar.gz
+ 8ff30ad6ec95e19af544843551ad42bb 3752 libtest-cukes-perl_0.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-cukes-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-cukes-perl.git
+Checksums-Sha256:
+ c363208c2b7d14a216c0cb4afa869b5fcd7d4df273e26e19d8b60feda7090f12 1784 libtest-cukes-perl_0.11-1.dsc
+ 240c505a218d4f312d3fc08776a0c65efcb3691cf4f370e0dda6c08bb5ab5524 7966 libtest-cukes-perl_0.11.orig.tar.gz
+ 72f1bae4415417226bc85105eed1e74481fb55c48276ecf2428a55d29d52a8d6 3752 libtest-cukes-perl_0.11-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Cukes
+Dgit: cd9d55c3d59d43fd7f98fe6044c53ba22fb32bc5 debian archive/debian/0.11-1 https://git.dgit.debian.org/libtest-cukes-perl
+Package-List: 
+ libtest-cukes-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-cukes-perl
+Priority: source
+Section: perl

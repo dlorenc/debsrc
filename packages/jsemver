@@ -1,0 +1,26 @@
+Package: jsemver
+Binary: libsemver-java, libsemver-java-doc
+Version: 0.9.0-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, default-jdk-doc, junit4, libmaven-javadoc-plugin-java, maven-debian-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3457ff3452dad9535ae8106cdc11db16 2231 jsemver_0.9.0-4.dsc
+ c4a06cef10b700ae55665408f0706265 31224 jsemver_0.9.0.orig.tar.gz
+ 3ace2a76b1db01029cc6fe3d4a31a527 3140 jsemver_0.9.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jsemver
+Vcs-Git: https://salsa.debian.org/java-team/jsemver.git
+Checksums-Sha256:
+ 64a96ac4de2820aa23ed43b455854fb83eb7c95849ad28cd2e1b5bb7b0c24d88 2231 jsemver_0.9.0-4.dsc
+ 9c5cbf3b8ab74d37b8f7fc51d448b4bf245b81616a9491bb26de9dc53444684b 31224 jsemver_0.9.0.orig.tar.gz
+ d9311fd52b26993a23fd60a773f6bc3145ca76b45c7e7161767a5f8c60cca1ae 3140 jsemver_0.9.0-4.debian.tar.xz
+Homepage: https://github.com/zafarkhaja/java-semver
+Package-List: 
+ libsemver-java deb java optional arch=all
+ libsemver-java-doc deb doc optional arch=all
+Directory: pool/main/j/jsemver
+Priority: optional
+Section: misc

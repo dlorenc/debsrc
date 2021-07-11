@@ -1,0 +1,26 @@
+Package: overpass
+Binary: python3-overpass
+Version: 0.7-1
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-geojson, python3-requests, python3-setuptools, python3-shapely
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 35e57cffc213afe62b923d5fec5612f1 2075 overpass_0.7-1.dsc
+ 41518d0edec63cda926b4d47f5f29fa2 16344 overpass_0.7.orig.tar.xz
+ d29de30fd08f5bcc488adcd6472742f1 2080 overpass_0.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/overpass
+Vcs-Git: https://salsa.debian.org/python-team/modules/overpass.git
+Checksums-Sha256:
+ 2d123681e1232a4c6aca189c600d716432f8da4e8f576dadfbf77442170dd285 2075 overpass_0.7-1.dsc
+ 548933eabb0da8945239e339df7faf656822fa1fc2be3d9ad9a0a4c99019250d 16344 overpass_0.7.orig.tar.xz
+ fe4d1e48c1caf8b8d52c3752e859ffb54f4b200cfd866c9e92dae8a26746ab79 2080 overpass_0.7-1.debian.tar.xz
+Homepage: https://github.com/mvexel/overpass-api-python-wrapper
+Package-List: 
+ python3-overpass deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/o/overpass
+Priority: optional
+Section: misc

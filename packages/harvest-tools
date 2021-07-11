@@ -1,0 +1,26 @@
+Package: harvest-tools
+Binary: harvest-tools
+Version: 1.3-6
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), cython3, python3-setuptools, protobuf-compiler, capnproto, libprotobuf-dev, libcapnp-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 487a2c5e85063cd52cb2b9a636b1c392 2143 harvest-tools_1.3-6.dsc
+ bd7f862a086e4a44987921f113a5760e 3751637 harvest-tools_1.3.orig.tar.gz
+ f3e117e256179ba24935847433c7ada9 6836 harvest-tools_1.3-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/harvest-tools
+Vcs-Git: https://salsa.debian.org/med-team/harvest-tools.git
+Checksums-Sha256:
+ 2bceb978b4c8c7b1a612f5c06dbd64d072e9eb6258ca9f0fe1b61fb53025d6d6 2143 harvest-tools_1.3-6.dsc
+ ffbcf0a115c74507695fd6cee4a9d5ba27a700db36b32d226521ef8dd3309264 3751637 harvest-tools_1.3.orig.tar.gz
+ ab29b0a03608b072d76b8c7820f32cbd523dab56d0ed8fe3b1bcd253c9d38ca5 6836 harvest-tools_1.3-6.debian.tar.xz
+Homepage: https://harvest.readthedocs.org/en/latest/content/harvest-tools.html
+Package-List: 
+ harvest-tools deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/h/harvest-tools
+Priority: optional
+Section: misc

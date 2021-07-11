@@ -1,0 +1,27 @@
+Package: cryptokit
+Binary: libcryptokit-ocaml, libcryptokit-ocaml-dev
+Version: 1.16.1-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>, Stéphane Glondu <glondu@debian.org>, Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox (>= 4), ocaml-dune (>= 2), libdune-ocaml-dev, zlib1g-dev, libzarith-ocaml-dev, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1ba3f7fd0b012b7d5d0604a81a1446f5 1987 cryptokit_1.16.1-1.dsc
+ 18591fc3f467bc33681be2cede36b8f1 120607 cryptokit_1.16.1.orig.tar.gz
+ 425024e5c797fee76634fc33e75b54bc 5884 cryptokit_1.16.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/cryptokit
+Vcs-Git: https://salsa.debian.org/ocaml-team/cryptokit.git
+Checksums-Sha256:
+ 9b81a66c4cecb77366c721919cc4d7d711cc40db49e12d128c0b570007db0304 1987 cryptokit_1.16.1-1.dsc
+ 2c183579f7edbc18f5b3ec8d60e2dfe566d032988a475c22b6c9d450c89cf84f 120607 cryptokit_1.16.1.orig.tar.gz
+ e4ef89f6a57eda639087c08fef71941cb380b4abd1bc20326f20dc7b2e3cd906 5884 cryptokit_1.16.1-1.debian.tar.xz
+Homepage: https://github.com/xavierleroy/cryptokit
+Dgit: 28d66d44d1a08b1b88e41920d46ca684aa06a6c4 debian archive/debian/1.16.1-1 https://git.dgit.debian.org/cryptokit
+Package-List: 
+ libcryptokit-ocaml deb ocaml optional arch=any
+ libcryptokit-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/c/cryptokit
+Priority: source
+Section: libdevel

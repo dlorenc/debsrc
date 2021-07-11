@@ -1,0 +1,33 @@
+Package: c++-annotations
+Binary: c++-annotations, c++-annotations-html, c++-annotations-txt, c++-annotations-latex, c++-annotations-pdf, c++-annotations-ps, c++-annotations-dvi, c++-annotations-contrib
+Version: 11.5.0-1
+Maintainer: Frank B. Brokken <f.b.brokken@rug.nl>
+Uploaders: George Danchev <danchev@spnet.net>, tony mancill <tmancill@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: icmake (>= 9.02.08), yodl (>= 4.02.02), libbobcat-dev (>= 5.05.00), flex, zip, texlive-latex-base, texlive-plain-generic, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra, ghostscript, libfl-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 85af984d7e491d65ce144f8de41f9d56 2758 c++-annotations_11.5.0-1.dsc
+ a8ad7f34fb74522a08da038e09cc2d0c 1861210 c++-annotations_11.5.0.orig.tar.gz
+ fcb0baf1fba78f3818a62b692cdb8c9f 8288 c++-annotations_11.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/cpp-annotations
+Vcs-Git: https://salsa.debian.org/debian/cpp-annotations.git
+Checksums-Sha256:
+ 5eb7571bf581eb669bd450f76a36b48436cca899db698e641b0a728aefde6f65 2758 c++-annotations_11.5.0-1.dsc
+ a2ad30b515405f3abe9166b007a181b77cfc37a84939a714a36541d724b236e4 1861210 c++-annotations_11.5.0.orig.tar.gz
+ bd0576b85df7d416711b90b3ac8bd31c090827dbeb3793e10d1ddc247b11dbce 8288 c++-annotations_11.5.0-1.debian.tar.xz
+Homepage: https://fbb-git.github.io/cppannotations/
+Package-List: 
+ c++-annotations deb doc optional arch=all
+ c++-annotations-contrib deb doc optional arch=all
+ c++-annotations-dvi deb doc optional arch=all
+ c++-annotations-html deb doc optional arch=all
+ c++-annotations-latex deb doc optional arch=all
+ c++-annotations-pdf deb doc optional arch=all
+ c++-annotations-ps deb doc optional arch=all
+ c++-annotations-txt deb doc optional arch=all
+Directory: pool/main/c/c++-annotations
+Priority: source
+Section: devel

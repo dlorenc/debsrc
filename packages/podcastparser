@@ -1,0 +1,25 @@
+Package: podcastparser
+Binary: python3-podcastparser, python-podcastparser-doc
+Version: 0.6.5-1
+Maintainer: tony mancill <tmancill@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-python, python3-all, python3-nose, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5549a798583461a1d41a6e204722ba18 2086 podcastparser_0.6.5-1.dsc
+ fa7f6de618c5fb363e279cebc7fb237e 20728 podcastparser_0.6.5.orig.tar.xz
+ 6ce08e26a0321864ffb3763275b5151b 2448 podcastparser_0.6.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/podcastparser
+Vcs-Git: https://salsa.debian.org/debian/podcastparser.git
+Checksums-Sha256:
+ 564259ca001bbb0cf2de3ee43541b90f98c195c4f9bcefdddb95ecb905c8218c 2086 podcastparser_0.6.5-1.dsc
+ 3125e3c0f1121dcb2100f7f0cf2e06eb2ebe647c157dd276d7ca9332acff9bfa 20728 podcastparser_0.6.5.orig.tar.xz
+ 3734ff16e03e02d3c482d355659037ac31888c7d50a842d76cdb049f23a5925e 2448 podcastparser_0.6.5-1.debian.tar.xz
+Homepage: https://github.com/gpodder/podcastparser
+Package-List: 
+ python-podcastparser-doc deb doc optional arch=all
+ python3-podcastparser deb python optional arch=all
+Directory: pool/main/p/podcastparser
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: e2guardian
+Binary: e2guardian
+Version: 5.3.4-1
+Maintainer: Debian Edu Packaging Team <debian-edu-pkg-team@lists.alioth.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Benjamin Schlüter <bschlueter@posteo.de>,
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.16.1.1), quilt, libpcre3-dev, libpthread-stubs0-dev, libssl-dev (>= 1.1), pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 94593358032cc74cdd716149105e40ff 2152 e2guardian_5.3.4-1.dsc
+ a7fa0442c3502a73230b7834bf9f553e 2083057 e2guardian_5.3.4.orig.tar.gz
+ 0122de4e93b603499c27684ff25c2579 14588 e2guardian_5.3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-edu-pkg-team/e2guardian
+Vcs-Git: https://salsa.debian.org/debian-edu-pkg-team/e2guardian.git
+Checksums-Sha256:
+ 48284017d296621faa0049d909d9b803d5006d3ad9ccea8ce2f1b3f98050e634 2152 e2guardian_5.3.4-1.dsc
+ 09a107fd791be92edcb0837b8fdcad626928162d05e31ae53fa8fe3adb7d5652 2083057 e2guardian_5.3.4.orig.tar.gz
+ dd9190fb90391acb0481f10747755affcbfa4163fcc9fb969d16d7e71b9ea76b 14588 e2guardian_5.3.4-1.debian.tar.xz
+Homepage: https://github.com/e2guardian/e2guardian
+Package-List: 
+ e2guardian deb web optional arch=any
+Directory: pool/main/e/e2guardian
+Priority: optional
+Section: misc

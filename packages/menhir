@@ -1,0 +1,29 @@
+Package: menhir
+Binary: menhir, libmenhir-ocaml-dev, menhir-doc
+Version: 20201216-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>, Ralf Treinen <treinen@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox (>= 4.02.3~), ocaml-dune (>= 2.2.0), dh-ocaml
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 41b3c4841af5b2c4da32c4f7f50e6faa 2236 menhir_20201216-1.dsc
+ e67a5fe2ab67e2e7065a2dfe14f69c27 1109251 menhir_20201216.orig.tar.gz
+ a55d65793e927182afa3df2c46efa799 13400 menhir_20201216-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/menhir
+Vcs-Git: https://salsa.debian.org/ocaml-team/menhir.git
+Checksums-Sha256:
+ 08eefe220291bb8df8a2ed64b69020a0b946464669b30b5a1d3b6317f9382c1d 2236 menhir_20201216-1.dsc
+ a7a9d827409fa910a7d9de33ca0f353c06f4669f4ff4b1cf68726602e7cd2367 1109251 menhir_20201216.orig.tar.gz
+ a16cb71f8e8e591fb859f10b8e78938746ddae5c8f4dcb9ac2cdee6c5d344347 13400 menhir_20201216-1.debian.tar.xz
+Homepage: http://gallium.inria.fr/~fpottier/menhir/
+Package-List: 
+ libmenhir-ocaml-dev deb ocaml optional arch=any
+ menhir deb ocaml optional arch=any
+ menhir-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ocaml-findlib, ocaml-nox, ocamlbuild
+Directory: pool/main/m/menhir
+Priority: source
+Section: devel

@@ -1,0 +1,28 @@
+Package: libmail-box-perl
+Binary: libmail-box-perl
+Version: 3.009-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Damyan Ivanov <dmn@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdevel-globaldestruction-perl <!nocheck>, libfile-remove-perl <!nocheck>, libio-stringy-perl <!nocheck>, libmail-message-perl <!nocheck>, libmail-transport-perl <!nocheck>, libobject-realize-later-perl <!nocheck>, libtest-pod-perl <!nocheck>, netbase <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f92daf9328d575484990a58f241bd72f 2675 libmail-box-perl_3.009-1.dsc
+ 93d65cd1c816d496aaceb2beebacebf5 296059 libmail-box-perl_3.009.orig.tar.gz
+ 484fe89d1ab1a949ee4ef0a05710e29b 9304 libmail-box-perl_3.009-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmail-box-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmail-box-perl.git
+Checksums-Sha256:
+ 9fc5e81d37051dfeeb4eab3c7fe1891955f87d632d843d711303d4056795d548 2675 libmail-box-perl_3.009-1.dsc
+ 9185216b0e14c919ec2384769525559491ed7d56d27adb1bc985a1fbeb799165 296059 libmail-box-perl_3.009.orig.tar.gz
+ cbcda2f0c5cf1cf7d2e4dad6830f954a669637602d809559321ac374861e01ab 9304 libmail-box-perl_3.009-1.debian.tar.xz
+Homepage: http://perl.overmeer.net/mailbox/
+Dgit: 2a6e8b411dc2740d25c43dbd3a6b4af7c2f88c51 debian archive/debian/3.009-1 https://git.dgit.debian.org/libmail-box-perl
+Package-List: 
+ libmail-box-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmail-box-perl
+Priority: source
+Section: perl

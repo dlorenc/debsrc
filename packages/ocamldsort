@@ -1,0 +1,28 @@
+Package: ocamldsort
+Binary: ocamldsort
+Version: 0.16.0-7
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, camlp4, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7044a703122cd6a1799485976e5b8f1b 1796 ocamldsort_0.16.0-7.dsc
+ a435419deb26286d1994cdcbe4876df4 42388 ocamldsort_0.16.0.orig.tar.gz
+ d8fb3ae4d95005074bbeefb5bcd9fefe 4248 ocamldsort_0.16.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocamldsort
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocamldsort.git
+Checksums-Sha256:
+ e8377cb187589ff678d1742e687e348e7ffbe8560af02f3c58595c4c36cd49c0 1796 ocamldsort_0.16.0-7.dsc
+ df9eb91c615748b61c590e58efdf30dbc4ea0a50974e0a4dbec27c527ed8753b 42388 ocamldsort_0.16.0.orig.tar.gz
+ d4702af71b9729fc37d20f7bb53cbd93e24bdc4db8ae583c6d7e15ba7a63f9a2 4248 ocamldsort_0.16.0-7.debian.tar.xz
+Homepage: http://iml.univ-mrs.fr/~ara/programmes.html.en
+Dgit: c826e75406ea2d0b8e062abf039a3a80edb7ec42 debian archive/debian/0.16.0-7 https://git.dgit.debian.org/ocamldsort
+Package-List: 
+ ocamldsort deb ocaml optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ocaml-nox
+Directory: pool/main/o/ocamldsort
+Priority: source
+Section: ocaml

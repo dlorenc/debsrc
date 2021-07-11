@@ -1,0 +1,24 @@
+Package: rust-matches
+Binary: librust-matches-dev
+Version: 0.1.8-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 61a0eb1c9344d75efc69129d3f1b78f3 2050 rust-matches_0.1.8-1.dsc
+ 7916dcd738a8fa6a2798754c20d6e146 2216 rust-matches_0.1.8.orig.tar.gz
+ 929e8145a66885b95f231a90c0156f50 2400 rust-matches_0.1.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/matches
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/matches]
+Checksums-Sha256:
+ c551b0d33ea587051b61b32549e21ed13a992d8cab59b5243c0aa72081afe5bb 2050 rust-matches_0.1.8-1.dsc
+ 7ffc5c5338469d4d3ea17d269fa8ea3512ad247247c30bd2df69e68309ed0a08 2216 rust-matches_0.1.8.orig.tar.gz
+ 3859bd8de3cd4815e3c21303c16a2ecafe6614f29836e2b71dcd9027f3c93103 2400 rust-matches_0.1.8-1.debian.tar.xz
+Package-List: 
+ librust-matches-dev deb rust optional arch=any
+Directory: pool/main/r/rust-matches
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-array-flatten
+Binary: node-array-flatten
+Version: 2.1.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 83bb2e618b228789aadc184801da667e 2115 node-array-flatten_2.1.0-2.dsc
+ ae9f09a3c7d95fe757a035c10310f5a0 5387 node-array-flatten_2.1.0.orig.tar.gz
+ 13f0033ef3566874a8fe2b941f5d9b80 2548 node-array-flatten_2.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-array-flatten
+Vcs-Git: https://salsa.debian.org/js-team/node-array-flatten.git
+Checksums-Sha256:
+ 89d1e420822bf496db8724e58ce55587e020263d2d35aa91b89e127b8e26be52 2115 node-array-flatten_2.1.0-2.dsc
+ f5bc782259cd8d6ebdede53e022ad88a238e2585c9fa810b42551bc1a176b377 5387 node-array-flatten_2.1.0.orig.tar.gz
+ b0f01cea534eefc892a3b354d6181b760c0c869a962606ee900a33a6bcd4aa7e 2548 node-array-flatten_2.1.0-2.debian.tar.xz
+Homepage: https://github.com/blakeembrey/array-flatten
+Package-List: 
+ node-array-flatten deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-array-flatten
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: node-browserify-sign
+Binary: node-browserify-sign
+Version: 4.2.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-bn.js <!nocheck>, node-browserify-rsa <!nocheck>, node-create-hash <!nocheck>, node-create-hmac <!nocheck>, node-elliptic <!nocheck>, node-inherits <!nocheck>, node-parse-asn1 <!nocheck>, node-readable-stream <!nocheck>, node-safe-buffer <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7dfac5a791eaa329de3fa38443ff5cae 2397 node-browserify-sign_4.2.1-1.dsc
+ 2ea291f5485de7542d6dc1bd9bcf2472 80701 node-browserify-sign_4.2.1.orig.tar.gz
+ 016725f9cb9fc6fb6b3f0faf191bb315 2652 node-browserify-sign_4.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-browserify-sign
+Vcs-Git: https://salsa.debian.org/js-team/node-browserify-sign.git
+Checksums-Sha256:
+ 9e0de79f3a0983cb077ac7c7a1aa8d7b3dbbcfcc85889e3d0418b0b73b08f4f6 2397 node-browserify-sign_4.2.1-1.dsc
+ b01c1c04298b186409f3056cb26170dbb9e08dbb399182afd3a8bcbb1aa509c5 80701 node-browserify-sign_4.2.1.orig.tar.gz
+ ff0329d0b56e024fdc236650407542c8d434d079e67a63e4d54c2be6a41d8e5a 2652 node-browserify-sign_4.2.1-1.debian.tar.xz
+Homepage: https://github.com/crypto-browserify/browserify-sign
+Package-List: 
+ node-browserify-sign deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-browserify-sign
+Priority: extra
+Section: javascript

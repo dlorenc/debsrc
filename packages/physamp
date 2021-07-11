@@ -1,0 +1,26 @@
+Package: physamp
+Binary: physamp
+Version: 1.1.0-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Julien Dutheil <julien.dutheil@univ-montp2.fr>
+Build-Depends: debhelper-compat (= 13), cmake, texinfo, libbpp-phyl-dev (>= 2.4.1)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 794dd6368e376b40adc64374d724092b 2037 physamp_1.1.0-2.dsc
+ 70c3d25a3ab2c937495c502a4dbddcdd 241845 physamp_1.1.0.orig.tar.gz
+ 3fab5c3cf74862b672b5151f7f11a994 3788 physamp_1.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/physamp
+Vcs-Git: https://salsa.debian.org/med-team/physamp.git
+Checksums-Sha256:
+ d1e6ba4ffff9c32ae701cc682a72f7ed86d5dfa75ce941cbf5ee1bfcd17df523 2037 physamp_1.1.0-2.dsc
+ 0c687e7f46d6d5732a3ad6f029a0169667921101294a9fb5efaae9adfc397ae8 241845 physamp_1.1.0.orig.tar.gz
+ 1e1a0ad507be21ba303899faabc1fc0b7fe178d5cbb29b6914e9758b27fcfce6 3788 physamp_1.1.0-2.debian.tar.xz
+Homepage: https://jydu.github.io/physamp/
+Package-List: 
+ physamp deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/physamp
+Priority: optional
+Section: misc

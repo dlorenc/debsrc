@@ -1,0 +1,27 @@
+Package: golang-github-cznic-zappy
+Binary: golang-github-cznic-zappy-dev
+Version: 0.0~git20160305.0.4f5e6ef-3
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-go, golang-github-golang-snappy-dev
+Architecture: all
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ 6b2f6289c4e568c2a98b1a722042f9ab 2401 golang-github-cznic-zappy_0.0~git20160305.0.4f5e6ef-3.dsc
+ 06843c948b9902c617ac6a2f5d70362a 9980 golang-github-cznic-zappy_0.0~git20160305.0.4f5e6ef.orig.tar.xz
+ ff60542066e7b79fa6cdfba924a1cf46 3296 golang-github-cznic-zappy_0.0~git20160305.0.4f5e6ef-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-cznic-zappy
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-cznic-zappy.git
+Checksums-Sha256:
+ 0a2c34e33ab984dc6b24070e4bbe50dcc9c85977c3734c8f6f0d5fff94642ffc 2401 golang-github-cznic-zappy_0.0~git20160305.0.4f5e6ef-3.dsc
+ 1758bd47ec004d9594875e4c3edceffc74fd2f89460de4fb6b98056539135a5d 9980 golang-github-cznic-zappy_0.0~git20160305.0.4f5e6ef.orig.tar.xz
+ 50b32788629aac9d0961b8816c879cb763867e956f3507dba345f6791059c37e 3296 golang-github-cznic-zappy_0.0~git20160305.0.4f5e6ef-3.debian.tar.xz
+Homepage: https://github.com/cznic/zappy
+Go-Import-Path: github.com/cznic/zappy
+Package-List: 
+ golang-github-cznic-zappy-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-cznic-zappy
+Priority: extra
+Section: golang

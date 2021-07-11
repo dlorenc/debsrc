@@ -1,0 +1,28 @@
+Package: haskell-bzlib
+Binary: libghc-bzlib-dev, libghc-bzlib-prof, libghc-bzlib-doc
+Version: 0.5.1.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Erik de Castro Lopo <erikd@mega-nerd.com>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libbz2-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4d28a023e80433437378a29a8c3198be 2305 haskell-bzlib_0.5.1.0-1.dsc
+ d80badbd3a87a416874dfeba7629e773 46082 haskell-bzlib_0.5.1.0.orig.tar.gz
+ fcc6080799d035723603fa66baf433e0 3900 haskell-bzlib_0.5.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-bzlib
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-bzlib]
+Checksums-Sha256:
+ b450e34c7da8cfc0b7af1dfa5b820e3fbbd1991de64438e174ab6ae34630f4ff 2305 haskell-bzlib_0.5.1.0-1.dsc
+ ded9b3e000417a6c217b4bb05260488f2188050d138caaa6280ebeee794fa9d8 46082 haskell-bzlib_0.5.1.0.orig.tar.gz
+ 4e6b5bd4e3b60321ec514bf69c241535652987110f85678a08177c16c42025e0 3900 haskell-bzlib_0.5.1.0-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/bzlib
+Package-List: 
+ libghc-bzlib-dev deb haskell optional arch=any
+ libghc-bzlib-doc deb doc optional arch=all
+ libghc-bzlib-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-bzlib
+Priority: source
+Section: haskell

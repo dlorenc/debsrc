@@ -1,0 +1,28 @@
+Package: haskell-diagrams-core
+Binary: libghc-diagrams-core-dev, libghc-diagrams-core-prof, libghc-diagrams-core-doc
+Version: 1.4.2-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-adjunctions-dev (<< 5.0), libghc-adjunctions-dev (>= 4.0), libghc-adjunctions-prof, libghc-distributive-dev (<< 1.0), libghc-distributive-dev (>= 0.2.2), libghc-distributive-prof, libghc-dual-tree-dev (<< 0.3), libghc-dual-tree-dev (>= 0.2), libghc-dual-tree-prof, libghc-lens-dev (>= 4.0), libghc-lens-dev (<< 4.20), libghc-lens-prof, libghc-linear-dev (<< 1.22), libghc-linear-dev (>= 1.11.3), libghc-linear-prof, libghc-monoid-extras-dev (>= 0.3), libghc-monoid-extras-dev (<< 0.6), libghc-monoid-extras-prof, libghc-profunctors-dev (>= 5.0), libghc-profunctors-dev (<< 6.0), libghc-profunctors-prof, libghc-semigroups-dev (>= 0.8.4), libghc-semigroups-dev (<< 0.20), libghc-semigroups-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-prof
+Build-Depends-Indep: ghc-doc, libghc-adjunctions-doc, libghc-distributive-doc, libghc-dual-tree-doc, libghc-lens-doc, libghc-linear-doc, libghc-monoid-extras-doc, libghc-profunctors-doc, libghc-semigroups-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1cd21f74fb5f84dd42698394cc96775b 3429 haskell-diagrams-core_1.4.2-2.dsc
+ 6008a76de733f6a8ec6329753c53396e 52710 haskell-diagrams-core_1.4.2.orig.tar.gz
+ e29be688b9dcedd864f701954d9ada88 4084 haskell-diagrams-core_1.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-diagrams-core
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-diagrams-core]
+Checksums-Sha256:
+ c4b912b1ce9124f9edc8c931f5e51877054afb03ae55febc31cf54c399628358 3429 haskell-diagrams-core_1.4.2-2.dsc
+ 83d0074c3338829f8d52d43d3837ae918ceba5c1ae573b6077e40de1f720eb61 52710 haskell-diagrams-core_1.4.2.orig.tar.gz
+ f68942698702ecd3e00a8544cd594a5409fe0b37c31f352ccb7dc56e96668137 4084 haskell-diagrams-core_1.4.2-2.debian.tar.xz
+Homepage: http://projects.haskell.org/diagrams
+Package-List: 
+ libghc-diagrams-core-dev deb haskell optional arch=any
+ libghc-diagrams-core-doc deb doc optional arch=all
+ libghc-diagrams-core-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-diagrams-core
+Priority: source
+Section: haskell

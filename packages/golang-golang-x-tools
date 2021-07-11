@@ -1,0 +1,29 @@
+Package: golang-golang-x-tools
+Binary: golang-golang-x-tools, golang-golang-x-tools-dev, gopls
+Version: 1:0.1.0+ds-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Martín Ferrari <tincho@debian.org>, Michael Stapelberg <stapelberg@debian.org>, Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.40~), golang-any (>= 2:1.12~), golang-github-sergi-go-diff-dev, golang-github-yuin-goldmark-dev (>= 1.1.27), golang-golang-x-mod-dev (>= 0.2.0), golang-golang-x-net-dev (>= 1:0.0+git20200226.0de0cce), golang-golang-x-sync-dev (>= 0.0~git20190911.cd5d95a), golang-golang-x-sys-dev (>= 0.0~git20210124.22da62e), golang-golang-x-xerrors-dev (>= 0.0~git20191204.9bdfabe), golang-honnef-go-tools-dev, golang-mvdan-gofumpt-dev, golang-mvdan-xurls-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 93066ceff51d353e5a7191b799451be8 2291 golang-golang-x-tools_0.1.0+ds-1.dsc
+ 5cf6af449e6870121d5c51b996ebba02 2221397 golang-golang-x-tools_0.1.0+ds.orig.tar.gz
+ a2b1868a4ddfad14d0aa22652904f8af 25036 golang-golang-x-tools_0.1.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-golang-x-tools
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-golang-x-tools.git
+Checksums-Sha256:
+ 67fed1412a7e5d111acee3538f99dc7d8e72c75f30aab4dee6accbfebebf3ecd 2291 golang-golang-x-tools_0.1.0+ds-1.dsc
+ a04aead325198b960e4007e4cd8455dcee866e9c96c5209c03993b35d2da5aec 2221397 golang-golang-x-tools_0.1.0+ds.orig.tar.gz
+ ba5569195f9def0a65b9c5d81f2cdbd195edd48d1105ef410b4f9badf50fb8d6 25036 golang-golang-x-tools_0.1.0+ds-1.debian.tar.xz
+Homepage: https://golang.org/x/tools
+Go-Import-Path: golang.org/x/tools
+Package-List: 
+ golang-golang-x-tools deb golang optional arch=any
+ golang-golang-x-tools-dev deb golang optional arch=all
+ gopls deb golang optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-golang-x-tools
+Priority: extra
+Section: golang

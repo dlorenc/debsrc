@@ -1,0 +1,25 @@
+Package: haskell-lens-family-core
+Binary: libghc-lens-family-core-dev, libghc-lens-family-core-prof, libghc-lens-family-core-doc
+Version: 2.0.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ d2b1310004e377226d910a234088ed04 2203 haskell-lens-family-core_2.0.0-1.dsc
+ a3bb62a4f8ee4370e76fbe768cc87f61 17566 haskell-lens-family-core_2.0.0.orig.tar.gz
+ da3312c172589344f89c9d53e0d76885 2228 haskell-lens-family-core_2.0.0-1.debian.tar.xz
+Checksums-Sha256:
+ 1484574158f4d4f9384f23a831d00dd5c0a65212a3f374fe87acd2693081e920 2203 haskell-lens-family-core_2.0.0-1.dsc
+ 19b4fcd3bd37dd0056c112a9b16cf405644fabd6652013c61a5078380ed2265a 17566 haskell-lens-family-core_2.0.0.orig.tar.gz
+ 769f67a625bfbe60c3937e08c884893eb8cc37b3b1b0fbea9f75c58331f23d18 2228 haskell-lens-family-core_2.0.0-1.debian.tar.xz
+Package-List: 
+ libghc-lens-family-core-dev deb haskell optional arch=any
+ libghc-lens-family-core-doc deb doc optional arch=all
+ libghc-lens-family-core-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-lens-family-core
+Priority: extra
+Section: misc

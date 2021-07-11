@@ -1,0 +1,27 @@
+Package: rust-ipnet
+Binary: librust-ipnet-dev, librust-ipnet+serde-dev
+Version: 2.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: David Bürgin <dbuergin@gluet.ch>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e93dcb8c48d7e4dc598b71e7c6995890 2191 rust-ipnet_2.2.0-1.dsc
+ 7ac388653f5946380c9af3fa6ff147a6 24895 rust-ipnet_2.2.0.orig.tar.gz
+ f04935e08c6728fe8c66bf5c9b24e597 2908 rust-ipnet_2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ipnet
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ipnet]
+Checksums-Sha256:
+ cbd3571cf9c1d8ed65fcee03614588d75fb11ed86fa57a7c4fc61a22595a5681 2191 rust-ipnet_2.2.0-1.dsc
+ a859057dc563d1388c1e816f98a1892629075fc046ed06e845b883bb8b2916fb 24895 rust-ipnet_2.2.0.orig.tar.gz
+ c12e75a4e4e4c92c3d71b5020863bdbbe3f80216e2cf6c1636d6ff63a74654df 2908 rust-ipnet_2.2.0-1.debian.tar.xz
+Package-List: 
+ librust-ipnet+serde-dev deb rust optional arch=any
+ librust-ipnet-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-test-1+default-dev
+Directory: pool/main/r/rust-ipnet
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: libmarc-lint-perl
+Binary: libmarc-lint-perl
+Version: 1.53-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Vincent Danjean <vdanjean@debian.org>, gregor herrmann <gregoa@debian.org>, Damyan Ivanov <dmn@debian.org>, Florian Schlichting <fsfs@debian.org>, Robin Sheat <robin@catalyst.net.nz>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libbusiness-isbn-perl (>= 2.010) <!nocheck>, libmarc-record-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 667a2a5d07274bd3da2ed97705f51c8e 2566 libmarc-lint-perl_1.53-1.dsc
+ a144f177e4a395395c3ff7a52b12690a 81989 libmarc-lint-perl_1.53.orig.tar.gz
+ 2ff1b3199ece340195d21eb37fd57e57 3936 libmarc-lint-perl_1.53-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmarc-lint-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmarc-lint-perl.git
+Checksums-Sha256:
+ c95f67c88ec81d7c9158407746c62318bb956854d75ae49f479e8ac309f516b0 2566 libmarc-lint-perl_1.53-1.dsc
+ 7385b26b9f0645d2b9e65129a69c204ec8bbc5daff4df134554909a543d4386f 81989 libmarc-lint-perl_1.53.orig.tar.gz
+ 0a63c15e01bdca8da7b06dd02c9de83b744fada41127db7af6d11552b059f15a 3936 libmarc-lint-perl_1.53-1.debian.tar.xz
+Homepage: https://metacpan.org/release/MARC-Lint
+Dgit: c416dcb0b9f3daa0b2847d6b6dfdf69d90d9c1c9 debian archive/debian/1.53-1 https://git.dgit.debian.org/libmarc-lint-perl
+Package-List: 
+ libmarc-lint-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmarc-lint-perl
+Priority: source
+Section: perl

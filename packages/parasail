@@ -1,0 +1,29 @@
+Package: parasail
+Binary: libparasail-dev, libparasail3, parasail
+Version: 2.4.3+dfsg-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), libhts-dev, libsimde-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5ace9e275ebe90643740cc40fb37d4e4 2159 parasail_2.4.3+dfsg-2.dsc
+ 486942340b57d0fb4df3e9bf0aa8ac53 1029780 parasail_2.4.3+dfsg.orig.tar.xz
+ 5197b12c10d1ee49bb646ee30a877bb0 43900 parasail_2.4.3+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/parasail
+Vcs-Git: https://salsa.debian.org/med-team/parasail.git
+Checksums-Sha256:
+ 5e647492be968db7f9719c348dd335606f1222fad69e2e0cbdc35151e10d9686 2159 parasail_2.4.3+dfsg-2.dsc
+ 702d46c777a30b10c18a16011859273333213ac74795fe70a9ae8466a274c8c1 1029780 parasail_2.4.3+dfsg.orig.tar.xz
+ 1e1a6a1d042fb1e2b0b181b9c8769cd8f90ef9f562c1a7bd0a159a9f58a7ea2f 43900 parasail_2.4.3+dfsg-2.debian.tar.xz
+Homepage: https://github.com/jeffdaily/parasail
+Package-List: 
+ libparasail-dev deb libdevel optional arch=any
+ libparasail3 deb libs optional arch=any
+ parasail deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/p/parasail
+Priority: extra
+Section: misc

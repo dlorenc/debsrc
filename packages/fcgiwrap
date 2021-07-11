@@ -1,0 +1,27 @@
+Package: fcgiwrap
+Binary: fcgiwrap
+Version: 1.1.0-12
+Maintainer: Debian fcgiwrap Maintainers <team+fcgiwrap@tracker.debian.org>
+Uploaders: Jordi Mallach <jordi@debian.org>, Peter Colberg <peter@colberg.org>
+Build-Depends: autoconf (>= 2.61), debhelper (>= 11~), libfcgi-dev, libsystemd-dev [linux-any], pkg-config
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 4ffed09c281ee49145e029f5d4fd9583 2057 fcgiwrap_1.1.0-12.dsc
+ 7ccf9b7c6127b86260e8f16cb8eaa696 9284 fcgiwrap_1.1.0.orig.tar.xz
+ ecb4acaab5abc70b7c29cf8cc842b4ba 11236 fcgiwrap_1.1.0-12.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/fcgiwrap
+Vcs-Git: https://salsa.debian.org/debian/fcgiwrap.git
+Checksums-Sha256:
+ ee9e3f9d64983059f3c5b4c7b64c5358b5462902cf30c7ed008ba190319aa48a 2057 fcgiwrap_1.1.0-12.dsc
+ 02cd41ad98d0ec28d06d262dd1768ec2daaf9227aa2ae84fd54117cf7f5b5ab9 9284 fcgiwrap_1.1.0.orig.tar.xz
+ 173961c0685a2f248f6d47f06be1bb6f2f874ea227a1a717459ee5f1f5683148 11236 fcgiwrap_1.1.0-12.debian.tar.xz
+Homepage: https://github.com/gnosek/fcgiwrap
+Package-List: 
+ fcgiwrap deb web optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: git, nginx-light
+Directory: pool/main/f/fcgiwrap
+Priority: source
+Section: web

@@ -1,0 +1,28 @@
+Package: libcircle-be-perl
+Binary: circle-backend
+Version: 0.173320-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl, perl
+Build-Depends-Indep: libattribute-storage-perl (>= 0.09), libclass-method-modifiers-perl, libdata-dump-perl, libfile-sharedir-perl (>= 1.00), libio-async-perl (>= 0.64), libmodule-pluggable-perl (>= 4.1), libnet-async-irc-perl (>= 0.10), libnet-async-tangence-perl (>= 0.13), libstring-tagged-perl (>= 0.11), libstruct-dumb-perl, libtangence-perl (>= 0.20), libtest-identity-perl, libyaml-perl
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 2cbafdbff8cd14ec8799b7de9e2b219d 2290 libcircle-be-perl_0.173320-2.dsc
+ 9d3056d49f84828a1b6a6d7d6a2fb412 70813 libcircle-be-perl_0.173320.orig.tar.gz
+ b4b7255653869766c256fd9adf30704c 1936 libcircle-be-perl_0.173320-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcircle-be-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcircle-be-perl.git
+Checksums-Sha256:
+ 0ef3d57511c7ce01184531fd5843ad8b7344328e65df1b9a27bafb3775ff2c18 2290 libcircle-be-perl_0.173320-2.dsc
+ 9a3fa4bd806c30c88ed6a4c2ea889534e658853472d63dba366e44ad6b987f5e 70813 libcircle-be-perl_0.173320.orig.tar.gz
+ 5f22d89356f3f667728cf61be1e7d47c7bccf782cc1cdd90e2149edb11414d5f 1936 libcircle-be-perl_0.173320-2.debian.tar.xz
+Homepage: https://metacpan.org/release/circle-be
+Dgit: 2399febdc359942308fe45854347c512695081ec debian archive/debian/0.173320-2 https://git.dgit.debian.org/libcircle-be-perl
+Package-List: 
+ circle-backend deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcircle-be-perl
+Priority: extra
+Section: misc

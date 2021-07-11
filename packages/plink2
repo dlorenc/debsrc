@@ -1,0 +1,26 @@
+Package: plink2
+Binary: plink2
+Version: 2.00~a3-210203+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Dylan Aïssi <daissi@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, libatlas-base-dev, liblapack-dev, libzstd-dev (>= 1.4.4), zlib1g-dev, libsimde-dev, libdeflate-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a2b8b50fbf94e5bd96a0eb8534a16a0e 2153 plink2_2.00~a3-210203+dfsg-1.dsc
+ 66fbcb9a62113383e2080843e794fbd8 881948 plink2_2.00~a3-210203+dfsg.orig.tar.xz
+ 495dd1e357fbefc594bd2c115a52536d 48044 plink2_2.00~a3-210203+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/plink2
+Vcs-Git: https://salsa.debian.org/med-team/plink2.git
+Checksums-Sha256:
+ 42ddeaf16ba93a42acf126185ae55b18ba32626c8d3a97e214673268551eebd3 2153 plink2_2.00~a3-210203+dfsg-1.dsc
+ e1a00b20cbfdbbbb0ef21a411c72d73a4e7ef695a55da2e1f6295c01db98b322 881948 plink2_2.00~a3-210203+dfsg.orig.tar.xz
+ f0f45154597b3da07bd14ffdad0fa41d2f430728759c991c406a5ff6284c4589 48044 plink2_2.00~a3-210203+dfsg-1.debian.tar.xz
+Homepage: https://www.cog-genomics.org/plink/2.0/
+Package-List: 
+ plink2 deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/plink2
+Priority: extra
+Section: misc

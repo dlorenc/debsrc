@@ -1,0 +1,28 @@
+Package: dbus-test-runner
+Binary: dbus-test-runner, libdbustest1, libdbustest1-dev
+Version: 16.10.0~bzr100+repack1-4.1
+Maintainer: Mike Gabriel <sunweaver@debian.org>
+Build-Depends: debhelper (>= 11), dpkg-dev (>= 1.16.1.1), mate-common, xvfb, libdbus-glib-1-dev, dbus, python3-dbusmock, procps
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 228cba7d7035e5c919c28a04bc198f66 2395 dbus-test-runner_16.10.0~bzr100+repack1-4.1.dsc
+ 29277036bbd50b5f17ef93924b9ec8c7 39360 dbus-test-runner_16.10.0~bzr100+repack1.orig.tar.xz
+ 80a355873f90d375d74f817a0736b747 18924 dbus-test-runner_16.10.0~bzr100+repack1-4.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/dbus-test-runner/
+Vcs-Git: https://salsa.debian.org/debian/dbus-test-runner.git
+Checksums-Sha256:
+ b0f4c060fac9f0121bb831fe8852866d22599b2735b2464d5e4d66b3f0e013db 2395 dbus-test-runner_16.10.0~bzr100+repack1-4.1.dsc
+ 39b3a1fa9ef3f61c4637095a4553af9d17a7d39ac600c73429a9d7e4577c6033 39360 dbus-test-runner_16.10.0~bzr100+repack1.orig.tar.xz
+ 53dba85e3de1c60d0cd9086bf2f2b3961a7cfa9613cf4172ea08f1f498cc1f10 18924 dbus-test-runner_16.10.0~bzr100+repack1-4.1.debian.tar.xz
+Homepage: https://launchpad.net/dbus-test-runner
+Package-List: 
+ dbus-test-runner deb devel optional arch=any
+ libdbustest1 deb libs optional arch=any
+ libdbustest1-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, bustle, bustle-pcap, intltool, libdbus-glib-1-dev, pkg-config, python3-dbusmock
+Directory: pool/main/d/dbus-test-runner
+Priority: optional
+Section: misc

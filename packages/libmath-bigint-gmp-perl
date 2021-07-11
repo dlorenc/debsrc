@@ -1,0 +1,27 @@
+Package: libmath-bigint-gmp-perl
+Binary: libmath-bigint-gmp-perl
+Version: 1.6007-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Laurent Fousse <laurent@komite.net>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libgmp-dev, libmath-bigint-perl (>= 1.999817) <!nocheck>, libyaml-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 66866000b1be866d865a65ce6a8f9282 2562 libmath-bigint-gmp-perl_1.6007-1.dsc
+ abc713279a17091a8043a7a6806ce8d4 2459995 libmath-bigint-gmp-perl_1.6007.orig.tar.gz
+ 7cc1ccef5dd73c7aa6006ac4e5b48a86 4020 libmath-bigint-gmp-perl_1.6007-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmath-bigint-gmp-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmath-bigint-gmp-perl.git
+Checksums-Sha256:
+ c40f70c9d9ff8d4888fe7ad525e6588b2dd4bb811826035244877d8f9c1b0b7e 2562 libmath-bigint-gmp-perl_1.6007-1.dsc
+ 5d725e6d20ccb37e072673628f0b0dd10e5dd011619f70f50ad58aded454c01f 2459995 libmath-bigint-gmp-perl_1.6007.orig.tar.gz
+ 6315236a57f2820d72bf507a2bbc5179d420f457b8e5eba3d55bef8418af1fab 4020 libmath-bigint-gmp-perl_1.6007-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Math-BigInt-GMP
+Dgit: cdab38e66d461e7b36844184eafc4ffb8a4de993 debian archive/debian/1.6007-1 https://git.dgit.debian.org/libmath-bigint-gmp-perl
+Package-List: 
+ libmath-bigint-gmp-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmath-bigint-gmp-perl
+Priority: source
+Section: perl

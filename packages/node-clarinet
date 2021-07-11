@@ -1,0 +1,26 @@
+Package: node-clarinet
+Binary: node-clarinet
+Version: 0.12.4+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrew Kelley <superjoe30@gmail.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-should <!nocheck>, node-underscore <!nocheck>, pkg-js-tools (>= 0.9.17~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 5c409d2cc38ba62eb42687418cb29fbc 2151 node-clarinet_0.12.4+dfsg-1.dsc
+ d1d89e4f215477101c61653ff6dfdfef 3286632 node-clarinet_0.12.4+dfsg.orig.tar.xz
+ 1539a23ff19081f63de58e509aab458e 3284 node-clarinet_0.12.4+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-clarinet
+Vcs-Git: https://salsa.debian.org/js-team/node-clarinet.git
+Checksums-Sha256:
+ d70d355582ff43e835f7bf97f1c9a7038ed2227bd901562ae36779a2731f6ec8 2151 node-clarinet_0.12.4+dfsg-1.dsc
+ b60aec033841d280582e37a697000eaf18fd7f5887fd24375655326d74d1787d 3286632 node-clarinet_0.12.4+dfsg.orig.tar.xz
+ 5e031a7f1295948b6e964e37f97de41640d43bff2226d0fea358bfa9822995a8 3284 node-clarinet_0.12.4+dfsg-1.debian.tar.xz
+Homepage: https://github.com/dscape/clarinet
+Package-List: 
+ node-clarinet deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-clarinet
+Priority: optional
+Section: javascript

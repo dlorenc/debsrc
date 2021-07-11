@@ -1,0 +1,28 @@
+Package: libfvde
+Binary: libfvde-dev, libfvde1, libfvde-utils, python3-libfvde
+Version: 20190104-1.1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper (>= 11), dh-python, pkg-config, python3-dev, libbfio-dev, libfuse-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 4df0f106882ffb35816d4c0ea67a5ebe 2162 libfvde_20190104-1.1.dsc
+ ffa4c35f14a3b4c1977fe7825bf0bdef 1720806 libfvde_20190104.orig.tar.gz
+ ef8ac863116dcd37f2d79a5c38c87020 3608 libfvde_20190104-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/libfvde
+Vcs-Git: https://salsa.debian.org/pkg-security-team/libfvde.git
+Checksums-Sha256:
+ 52aba85b4c54d04fb23db6ee1d362e992e148448f65459fe073c74fa74fe45af 2162 libfvde_20190104-1.1.dsc
+ 0101dba937827999cfe1bf7518652851b08613dd218a8d182b1636f1af2d62a8 1720806 libfvde_20190104.orig.tar.gz
+ b80053828db0fd7abc3b23ca39b311086c2eb4aa68439c88030c968ac14fcbaf 3608 libfvde_20190104-1.1.debian.tar.xz
+Homepage: https://github.com/libyal/libfvde
+Package-List: 
+ libfvde-dev deb libdevel extra arch=any
+ libfvde-utils deb otherosfs extra arch=any
+ libfvde1 deb libs extra arch=any
+ python3-libfvde deb python extra arch=any
+Directory: pool/main/libf/libfvde
+Priority: optional
+Section: misc

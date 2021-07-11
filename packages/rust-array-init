@@ -1,0 +1,26 @@
+Package: rust-array-init
+Binary: librust-array-init-dev
+Version: 0.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sebastian Dröge <slomo@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ dfb97b0a8f199368f106e865cef0baaa 2292 rust-array-init_0.1.1-1.dsc
+ 7d547e15c68ee5d06a1c85e4b719e740 10082 rust-array-init_0.1.1.orig.tar.gz
+ 226d51e00180fd2a36864a80282f3681 2584 rust-array-init_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/array-init
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/array-init]
+Checksums-Sha256:
+ b08473a3467f3c498abeae96344fe129fb25c9ca24635a533fd586199e954430 2292 rust-array-init_0.1.1-1.dsc
+ f30bbe2f5e3d117f55bd8c7a1f9191e4a5deba9f15f595bbea4f670c59c765db 10082 rust-array-init_0.1.1.orig.tar.gz
+ c429f1e007e876f5925eff5004c9b28804aab70a075a2ee21f4d0fbdf52290b6 2584 rust-array-init_0.1.1-1.debian.tar.xz
+Package-List: 
+ librust-array-init-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-array-init
+Priority: extra
+Section: misc

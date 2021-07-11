@@ -1,0 +1,28 @@
+Package: libdatetime-format-natural-perl
+Binary: libdatetime-format-natural-perl
+Version: 1.11-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>, gregor herrmann <gregoa@debian.org>, Angel Abad <angel@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, perl
+Build-Depends-Indep: libboolean-perl <!nocheck>, libdate-calc-perl <!nocheck>, libdatetime-perl <!nocheck>, libdatetime-timezone-perl <!nocheck>, libclone-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libmodule-util-perl <!nocheck>, libparams-validate-perl <!nocheck>, libtest-mocktime-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 03d4a555241005ed35fd483bf2f4a216 3012 libdatetime-format-natural-perl_1.11-1.dsc
+ 00a443dd3352767578aa7aa48fe20a45 82424 libdatetime-format-natural-perl_1.11.orig.tar.gz
+ 3532fe89289d69c8d47bd9b9dbd0c656 5188 libdatetime-format-natural-perl_1.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdatetime-format-natural-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdatetime-format-natural-perl.git
+Checksums-Sha256:
+ 9d54f604c3f614232156b9fe65f9717472f30a1072fc75ad27dd5e1382ca61c9 3012 libdatetime-format-natural-perl_1.11-1.dsc
+ 738fb0fb14e42ffae142a322f49f471c8cc122694cfbe6d33580363203f44552 82424 libdatetime-format-natural-perl_1.11.orig.tar.gz
+ e6346e4c3562c10106fdf9909afdc2660343408193a31c9f20034beb65c87e23 5188 libdatetime-format-natural-perl_1.11-1.debian.tar.xz
+Homepage: https://metacpan.org/release/DateTime-Format-Natural
+Dgit: dec9e2b692c487551de457bde7235843cab15c61 debian archive/debian/1.11-1 https://git.dgit.debian.org/libdatetime-format-natural-perl
+Package-List: 
+ libdatetime-format-natural-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdatetime-format-natural-perl
+Priority: source
+Section: perl

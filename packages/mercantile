@@ -1,0 +1,27 @@
+Package: mercantile
+Binary: python3-mercantile, mercantile
+Version: 1.1.5-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Joachim Langenbach <joachim.langenbach@engsas.de>
+Build-Depends: debhelper (>= 10~), dh-python, python3-all, python3-click, python3-setuptools, python3-pytest, python3-pytest-cov, python3-pydocstyle, python3-hypothesis, python3-sphinx, python3-numpydoc
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 74b1cd11dace6ba0bdb38a1afdc005ca 2216 mercantile_1.1.5-1.dsc
+ ba29585c69dd278c2145ab05e514c184 28276 mercantile_1.1.5.orig.tar.gz
+ fd7913a730bdec2e679e26b5ba5e0e72 3952 mercantile_1.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/mercantile
+Vcs-Git: https://salsa.debian.org/debian-gis-team/mercantile.git
+Checksums-Sha256:
+ 107b3e26ac8bf14b48a8a24542656b56a60bbd05bfdadb7a0c8705fa5b3ebae4 2216 mercantile_1.1.5-1.dsc
+ 164e88a23540ab474d88b18619040033b188ec4e67c2dcad7cfcd8fc935c8b05 28276 mercantile_1.1.5.orig.tar.gz
+ 946db46cfc4dc894b07384044c97ce82db0286dcbf63cc13d5e992a103a7e952 3952 mercantile_1.1.5-1.debian.tar.xz
+Homepage: https://github.com/mapbox/mercantile
+Package-List: 
+ mercantile deb utils optional arch=all
+ python3-mercantile deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/m/mercantile
+Priority: extra
+Section: misc

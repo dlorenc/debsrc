@@ -1,0 +1,27 @@
+Package: golang-github-hashicorp-go-cleanhttp
+Binary: golang-github-hashicorp-go-cleanhttp-dev
+Version: 0.5.2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c764ecadec8276fdbae0487aad4d2b3d 2452 golang-github-hashicorp-go-cleanhttp_0.5.2-1.dsc
+ ee4516ef1334234cb69efc08751fa763 8094 golang-github-hashicorp-go-cleanhttp_0.5.2.orig.tar.gz
+ 80340a1d2211413dea14a43863ae88bf 8084 golang-github-hashicorp-go-cleanhttp_0.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-cleanhttp
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-cleanhttp.git
+Checksums-Sha256:
+ 5f01255c4b88eb005b0a1f2dcb9ef9670a83c56e9f0865338a481f5822558d07 2452 golang-github-hashicorp-go-cleanhttp_0.5.2-1.dsc
+ 091d90c479401bc9047454c25f91a97a6707e6a279ce778e4881cf6b0191a47f 8094 golang-github-hashicorp-go-cleanhttp_0.5.2.orig.tar.gz
+ 030da497cbd5093db69c62277eecbe375ec02a18b301121bae76e32325547eaf 8084 golang-github-hashicorp-go-cleanhttp_0.5.2-1.debian.tar.xz
+Homepage: https://github.com/hashicorp/go-cleanhttp
+Go-Import-Path: github.com/hashicorp/go-cleanhttp
+Package-List: 
+ golang-github-hashicorp-go-cleanhttp-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hashicorp-go-cleanhttp
+Priority: extra
+Section: golang

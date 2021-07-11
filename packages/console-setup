@@ -1,0 +1,39 @@
+Package: console-setup
+Binary: keyboard-configuration, console-setup, console-setup-mini, console-setup-linux, console-setup-freebsd, bdf2psf, console-setup-udeb, console-setup-amiga-ekmap, console-setup-ataritt-ekmap, console-setup-pc-ekmap, console-setup-sun4-ekmap, console-setup-sun5-ekmap, console-setup-pc-ekbd, console-setup-linux-fonts-udeb, console-setup-freebsd-fonts-udeb, console-setup-linux-charmaps-udeb, console-setup-freebsd-charmaps-udeb
+Version: 1.203
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Anton Zinoviev <zinoviev@debian.org>
+Build-Depends: perl, debhelper (>= 9.20160709), po-debconf, libxml-parser-perl, bdfresize, liblocale-gettext-perl
+Build-Depends-Indep: xkb-data (>= 1.6), locales-all, sharutils
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (native)
+Files:
+ d60328bb20785cf3b6a8dc39144283c7 3209 console-setup_1.203.dsc
+ 3e19d5d69a320411c5baa401926c8ce5 1794416 console-setup_1.203.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/console-setup
+Vcs-Git: https://salsa.debian.org/installer-team/console-setup.git
+Checksums-Sha256:
+ 288e1c495c060d0d7db5224e993e46ce22b164dfa4eb80d09c379240657cb241 3209 console-setup_1.203.dsc
+ 0d6ac1faa2b26d692e794be5b179866feea5a68821da97eea09802ea0c93e4a2 1794416 console-setup_1.203.tar.xz
+Package-List: 
+ bdf2psf deb utils optional arch=all
+ console-setup deb utils optional arch=all
+ console-setup-amiga-ekmap udeb debian-installer optional arch=all
+ console-setup-ataritt-ekmap udeb debian-installer optional arch=all
+ console-setup-freebsd deb utils optional arch=all
+ console-setup-freebsd-charmaps-udeb udeb debian-installer optional arch=all
+ console-setup-freebsd-fonts-udeb udeb debian-installer optional arch=all
+ console-setup-linux deb utils optional arch=all
+ console-setup-linux-charmaps-udeb udeb debian-installer optional arch=all
+ console-setup-linux-fonts-udeb udeb debian-installer optional arch=all
+ console-setup-mini deb utils optional arch=all
+ console-setup-pc-ekbd udeb debian-installer optional arch=all
+ console-setup-pc-ekmap udeb debian-installer optional arch=all
+ console-setup-sun4-ekmap udeb debian-installer optional arch=all
+ console-setup-sun5-ekmap udeb debian-installer optional arch=all
+ console-setup-udeb udeb debian-installer optional arch=all
+ keyboard-configuration deb utils optional arch=all
+Directory: pool/main/c/console-setup
+Priority: source
+Section: utils

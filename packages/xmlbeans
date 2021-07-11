@@ -1,0 +1,26 @@
+Package: xmlbeans
+Binary: libxmlbeans-java, xmlbeans
+Version: 3.0.2-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, ant-optional, debhelper (>= 11), default-jdk, libsaxonhe-java, libxmlbeans-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 7acd6d334413154097890b064d6c0ab6 2073 xmlbeans_3.0.2-1.dsc
+ 7722c3b65e5c982461dd1133898d2169 2447424 xmlbeans_3.0.2.orig.tar.xz
+ 42e4b257e070511d4b0639435025e22e 8356 xmlbeans_3.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/xmlbeans
+Vcs-Git: https://salsa.debian.org/java-team/xmlbeans.git
+Checksums-Sha256:
+ 9f5b6d04aef1b863058f46c44c15775d5be41c5164298d49ee87af6cf13c4903 2073 xmlbeans_3.0.2-1.dsc
+ 8f573f4073450dbd3880aa75bf22dec145913718a035c58cc72b8f52f8b8a225 2447424 xmlbeans_3.0.2.orig.tar.xz
+ 66bc691977a98f54e3ad33e61f452cc8c772bc71ee44e5be9098fbcaa5ab69fa 8356 xmlbeans_3.0.2-1.debian.tar.xz
+Homepage: http://xmlbeans.apache.org
+Package-List: 
+ libxmlbeans-java deb java optional arch=all
+ xmlbeans deb java optional arch=all
+Directory: pool/main/x/xmlbeans
+Priority: source
+Section: java

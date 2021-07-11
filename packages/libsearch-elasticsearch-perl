@@ -1,0 +1,28 @@
+Package: libsearch-elasticsearch-perl
+Binary: libsearch-elasticsearch-perl
+Version: 7.30-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Mirko Tietgen <mirko@abunchofthings.net>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libany-uri-escape-perl <!nocheck>, libdevel-globaldestruction-perl <!nocheck>, libhttp-message-perl <!nocheck>, libhttp-tiny-perl (>= 0.076) <!nocheck>, libio-socket-ssl-perl <!nocheck>, libjson-maybexs-perl <!nocheck>, liblog-any-adapter-callback-perl <!nocheck>, liblog-any-perl (>= 1.02) <!nocheck>, libmodule-runtime-perl <!nocheck>, libmoo-perl (>= 2.001000) <!nocheck>, libnamespace-clean-perl <!nocheck>, libnet-ip-perl <!nocheck>, libpackage-stash-perl <!nocheck>, libsub-exporter-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-sharedfork-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3bad7900fa6599bccd7fa9e1605f41ca 3208 libsearch-elasticsearch-perl_7.30-1.dsc
+ 7b460bf3c89ed58ac93c6b4e687ea625 127260 libsearch-elasticsearch-perl_7.30.orig.tar.gz
+ bb197982213bfdae75191efce6d367cb 3092 libsearch-elasticsearch-perl_7.30-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsearch-elasticsearch-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsearch-elasticsearch-perl.git
+Checksums-Sha256:
+ 2a97d5ccbb7ecc4d41b4411d60d86ebda96f3512f0bc4aac0c838b058f2f5634 3208 libsearch-elasticsearch-perl_7.30-1.dsc
+ 839da662144a7003474123a49d3ad7c8cd4707cf062a3d139837ed567aa96e65 127260 libsearch-elasticsearch-perl_7.30.orig.tar.gz
+ bdf67b0eabc1b1c8e995d4460306b54f71c202aa22c4ec50a15875556fba932f 3092 libsearch-elasticsearch-perl_7.30-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Search-Elasticsearch
+Dgit: 09330366f3a301d31df48072c44b9171ee224c46 debian archive/debian/7.30-1 https://git.dgit.debian.org/libsearch-elasticsearch-perl
+Package-List: 
+ libsearch-elasticsearch-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libs/libsearch-elasticsearch-perl
+Priority: optional
+Section: misc

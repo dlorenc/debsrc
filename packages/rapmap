@@ -1,0 +1,28 @@
+Package: rapmap
+Binary: rapmap, rapmap-example-data, rapmap-dev
+Version: 0.15.0+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Michael R. Crusoe <michael.crusoe@gmail.com>
+Build-Depends: debhelper-compat (= 12), cmake, zlib1g-dev, libdivsufsort-dev, libcereal-dev, libjellyfish-2.0-dev, libjemalloc-dev, libsparsehash-dev, libspdlog-dev, libtclap-dev, pkg-config, python3-markdown, python3
+Architecture: amd64 all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 8092826017fd7b20051f5c9d075a86e8 2319 rapmap_0.15.0+dfsg-1.dsc
+ c52551692c7480f0c1a46478595dd24b 624916 rapmap_0.15.0+dfsg.orig.tar.xz
+ 4d3da9f802c50b0adfb62804906b169c 10944 rapmap_0.15.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/rapmap
+Vcs-Git: https://salsa.debian.org/med-team/rapmap.git
+Checksums-Sha256:
+ d2cdf2974718d2808f4335a360fb40dd5507edeb14ad12354ce11e9e873c1df1 2319 rapmap_0.15.0+dfsg-1.dsc
+ 17068c4f664e07bec3ade28d624e5b84ef240b116bcc39e5b495d73b2d87ede5 624916 rapmap_0.15.0+dfsg.orig.tar.xz
+ 10cd78334fe70e73ae2779abe63c35539a47b98a3ca7e8b031c4e87509bb2421 10944 rapmap_0.15.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/COMBINE-lab/RapMap
+Package-List: 
+ rapmap deb science optional arch=amd64
+ rapmap-dev deb science optional arch=all
+ rapmap-example-data deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/r/rapmap
+Priority: optional
+Section: misc

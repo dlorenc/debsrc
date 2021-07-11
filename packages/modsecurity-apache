@@ -1,0 +1,22 @@
+Package: modsecurity-apache
+Binary: libapache2-mod-security2
+Version: 2.9.3-3
+Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Build-Depends: debhelper (>> 11), apache2-dev, libxml2-dev (>= 2.0.50-10), liblua5.1-0-dev, libcurl4-gnutls-dev, libpcre3-dev, pkg-config, libyajl-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ f8ebabf1586540ff170334bb109824a7 1958 modsecurity-apache_2.9.3-3.dsc
+ 215a96d679a5b0fadcf13b5d09b35422 4307670 modsecurity-apache_2.9.3.orig.tar.gz
+ 8a3ac6aa5e6dbb1d61fbc0b1cced5d19 8828 modsecurity-apache_2.9.3-3.debian.tar.xz
+Checksums-Sha256:
+ 18bb427411d9d419b27b7c6808bd7892e15f44799350485c5abe64b211569c89 1958 modsecurity-apache_2.9.3-3.dsc
+ 4192019d169d3f1dd82cc4714db6986df54c6ceb4ee1c8f253de78d1a6b62118 4307670 modsecurity-apache_2.9.3.orig.tar.gz
+ a3bfbfb69cb2b6156990ac9d9a38b42461d5dd73af862985ff2b8cb7e938338a 8828 modsecurity-apache_2.9.3-3.debian.tar.xz
+Homepage: http://www.modsecurity.org/
+Package-List: 
+ libapache2-mod-security2 deb httpd optional arch=any
+Directory: pool/main/m/modsecurity-apache
+Priority: source
+Section: httpd

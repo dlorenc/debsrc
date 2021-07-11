@@ -1,0 +1,26 @@
+Package: pyglet
+Binary: python3-pyglet
+Version: 1.5.14-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Hanke <michael.hanke@gmail.com>, Per B. Sederberg <psederberg@gmail.com>, Stephan Peijnik <debian@sp.or.at>, Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper-compat (= 13), dh-python, libavcodec-dev, libavformat-dev, libavutil-dev, libfreetype6-dev, libfontconfig1-dev, libgtk2.0-dev, libgdk-pixbuf2.0-dev, libgl1-mesa-dev, libgl1-mesa-dri, libglu1-mesa, libswresample-dev, libswscale-dev, libpulse-dev, libx11-dev, libxext-dev, libxi-dev, libxinerama-dev, libxxf86vm-dev, python3-all, python3-future, python3-setuptools, python3-png, python3-pytest, xauth, xvfb
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4f96ef4f91bd1cc24ca9d31863d2edce 2484 pyglet_1.5.14-1.dsc
+ 1f6752fe74b38582c82dc7daa67926e3 2224424 pyglet_1.5.14.orig.tar.xz
+ 780302ace1cd91ec758728c922e59706 11592 pyglet_1.5.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyglet
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyglet.git
+Checksums-Sha256:
+ 852917a73bc3b2758b31766186ee60ec025d208645f25da4fe901c2e53c203bd 2484 pyglet_1.5.14-1.dsc
+ c6c3ecfec3fd6908dcc9a05950581587aaf336746fa03dfeb7e44fd56b138ce7 2224424 pyglet_1.5.14.orig.tar.xz
+ 1265421d7ccf6550d937ab0d6054f580d74516a5646216db44dbb97858ed3a39 11592 pyglet_1.5.14-1.debian.tar.xz
+Homepage: http://www.pyglet.org
+Package-List: 
+ python3-pyglet deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pyglet
+Priority: source
+Section: python

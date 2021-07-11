@@ -1,0 +1,27 @@
+Package: libexif
+Binary: libexif12, libexif-dev, libexif-doc
+Version: 0.6.22-3
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Uploaders: Hugh McMaster <hugh.mcmaster@outlook.com>
+Build-Depends: debhelper-compat (= 13), doxygen, graphviz
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ eb9df4f65fbb3f7862570e6f74d299f0 2079 libexif_0.6.22-3.dsc
+ 5638b4a4c13ba7f836b6ccce5d568402 1109525 libexif_0.6.22.orig.tar.gz
+ 2f4029d55c7130720981466a84d7111a 12468 libexif_0.6.22-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-phototools-team/libexif
+Vcs-Git: https://salsa.debian.org/debian-phototools-team/libexif.git
+Checksums-Sha256:
+ faccc62b4ebbf8af6750c672c4583c88cff23026ce8968ced5ab78f93ede7013 2079 libexif_0.6.22-3.dsc
+ 46498934b7b931526fdee8fd8eb77a1dddedd529d5a6dbce88daf4384baecc54 1109525 libexif_0.6.22.orig.tar.gz
+ 30d2110b469ba89d10526520e1e9e68b9a7bfc8cf01ced054a613de8396658ed 12468 libexif_0.6.22-3.debian.tar.xz
+Homepage: https://libexif.github.io/
+Package-List: 
+ libexif-dev deb libdevel optional arch=any
+ libexif-doc deb doc optional arch=all
+ libexif12 deb libs optional arch=any
+Directory: pool/main/libe/libexif
+Priority: source
+Section: libs

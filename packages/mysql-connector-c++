@@ -1,0 +1,28 @@
+Package: mysql-connector-c++
+Binary: libmysqlcppconn-dev, libmysqlcppconn7v5
+Version: 1.1.12-4
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper (>= 12~), dh-exec (>= 0.3), cmake, default-libmysqlclient-dev, libboost-dev, libssl-dev
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 1c583b858de1b469cac8f0d7e75df95c 2305 mysql-connector-c++_1.1.12-4.dsc
+ 2c2ef0195018a9220ee5897245c776c5 360552 mysql-connector-c++_1.1.12.orig.tar.xz
+ 810f2d06911a1162c5b0424303e02b2e 30224 mysql-connector-c++_1.1.12-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mariadb-team/mysql-connector-cpp
+Vcs-Git: https://salsa.debian.org/mariadb-team/mysql-connector-cpp.git
+Checksums-Sha256:
+ 112cda6df19a56fab1ac14b250e70936773a5b805cd0543002d6492a4f163fb0 2305 mysql-connector-c++_1.1.12-4.dsc
+ b7dc8bf9d3d307f345a7750b79087ecdd43d2c4f6cfd77e003d08ef002169ee6 360552 mysql-connector-c++_1.1.12.orig.tar.xz
+ 6a47670792f22e2b8a2517c5df3c6bf0f9a5192271c6cb0f02e843ce26f7dda1 30224 mysql-connector-c++_1.1.12-4.debian.tar.xz
+Homepage: https://dev.mysql.com/doc/relnotes/connector-cpp/en/news-1-1.html
+Package-List: 
+ libmysqlcppconn-dev deb libdevel optional arch=any
+ libmysqlcppconn7v5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, default-mysql-server, psmisc
+Directory: pool/main/m/mysql-connector-c++
+Priority: source
+Section: libs

@@ -1,0 +1,27 @@
+Package: humanfriendly
+Binary: python3-humanfriendly, python-humanfriendly-doc, humanfriendly
+Version: 9.1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Gaurav Juvekar <gauravjuvekar@gmail.com>, Sandro Tosi <morph@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-coloredlogs <!nocheck>, python3-docutils <!nocheck>, python3-mock <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ deb331b640f6069eb50de66b930637ce 2332 humanfriendly_9.1-1.dsc
+ 4747087e54ae2363d81cf05171087e64 337656 humanfriendly_9.1.orig.tar.xz
+ d0b625563b3747e423a79775ed1eca32 5056 humanfriendly_9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/humanfriendly
+Vcs-Git: https://salsa.debian.org/python-team/packages/humanfriendly.git
+Checksums-Sha256:
+ 009e233869f2f78583f4890ca86222ec2e9c58caff3837eeeede829ea15f3feb 2332 humanfriendly_9.1-1.dsc
+ 270122fac713ce6dcae00f42dd11d45380dcab5eb6456116dc0d069b08a4acc7 337656 humanfriendly_9.1.orig.tar.xz
+ eea8acd1c5bb28e6e828f210632431018bf54f9546ff1bfd751f4c3e8374c4e8 5056 humanfriendly_9.1-1.debian.tar.xz
+Homepage: https://humanfriendly.readthedocs.io
+Package-List: 
+ humanfriendly deb python optional arch=all
+ python-humanfriendly-doc deb doc optional arch=all
+ python3-humanfriendly deb python optional arch=all
+Directory: pool/main/h/humanfriendly
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: python-dtcwt
+Binary: python3-dtcwt, python-dtcwt-doc
+Version: 0.12.0-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper-compat (= 10), dh-python, dpkg-dev (>= 1.17.14), python3-all, python3-coverage <!nocheck>, python3-matplotlib <!nodoc>, python3-numpy, python3-pytest <!nocheck>, python3-scipy <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-six, sphinx-common
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ e5ad598de0b90d9a098b7d1873148c73 2434 python-dtcwt_0.12.0-2.dsc
+ 85f51e3e96ed6e028124dac651a7d13a 7456932 python-dtcwt_0.12.0.orig.tar.gz
+ 759b93b9203f84e3da2bdd3e749bc36d 4488 python-dtcwt_0.12.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/python-dtcwt
+Vcs-Git: https://salsa.debian.org/science-team/python-dtcwt.git
+Checksums-Sha256:
+ e075cb1008d361bb61208395d3ee866378ac800c7695b3141cb81de1b96735c3 2434 python-dtcwt_0.12.0-2.dsc
+ f510cc01e48a66be148ac9c5784122d14d0e43b7ab278bc82c25b177f3fd6a1d 7456932 python-dtcwt_0.12.0.orig.tar.gz
+ 102af90898e2205b1fc4975ffebe62f6109bca10ac2b78597a6856f89b144c09 4488 python-dtcwt_0.12.0-2.debian.tar.xz
+Homepage: https://github.com/rjw57/dtcwt
+Package-List: 
+ python-dtcwt-doc deb doc optional arch=all profile=!nodoc
+ python3-dtcwt deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-scipy
+Directory: pool/main/p/python-dtcwt
+Priority: optional
+Section: misc

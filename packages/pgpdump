@@ -1,0 +1,26 @@
+Package: pgpdump
+Binary: pgpdump
+Version: 0.33-2
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Uploaders: Jose Luis Rivas <ghostbar@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>,
+Build-Depends: debhelper (>= 11~), libbz2-dev, tzdata, zlib1g-dev
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ a6557706112445e6313f27cf423ffe71 2005 pgpdump_0.33-2.dsc
+ b77be04a910a7311e4ea26a7af185b82 65841 pgpdump_0.33.orig.tar.gz
+ 35b6a64ae630f05e8578c691ad521c18 5152 pgpdump_0.33-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/pgpdump
+Vcs-Git: https://salsa.debian.org/debian/pgpdump.git -b debian/master
+Checksums-Sha256:
+ 6e905f4fed7953098e971a6d668fe6eceab29dc1fe0da21213d8e6722b631839 2005 pgpdump_0.33-2.dsc
+ fe580ef43f651da59816c70f38f177ea4fa769d64e3d6883a9d1f661bb0a6952 65841 pgpdump_0.33.orig.tar.gz
+ be51c729f200636da706f80c847aee1872116a9e0673192832403324874133f2 5152 pgpdump_0.33-2.debian.tar.xz
+Homepage: https://www.mew.org/~kazu/proj/pgpdump/en/
+Package-List: 
+ pgpdump deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/pgpdump
+Priority: source
+Section: utils

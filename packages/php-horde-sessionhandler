@@ -1,0 +1,27 @@
+Package: php-horde-sessionhandler
+Binary: php-horde-sessionhandler
+Version: 2.3.0-1
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 902ca1e10a5045acd8c3e6b74fa18364 2380 php-horde-sessionhandler_2.3.0-1.dsc
+ 657e1c9085789aa8148a34db240e0128 24935 php-horde-sessionhandler_2.3.0.orig.tar.gz
+ d37a9cbd67ce411c39b7544385ce369e 6664 php-horde-sessionhandler_2.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-sessionhandler
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-sessionhandler.git
+Checksums-Sha256:
+ 6735932169240103e3a406bcf1b80cc73df8bb6ba5ea0eb27bb15480ada8e9d6 2380 php-horde-sessionhandler_2.3.0-1.dsc
+ b0b29e6501ac2c8075d8ca211df9bb90bab5a9f05a81ee999ba14699e8529a90 24935 php-horde-sessionhandler_2.3.0.orig.tar.gz
+ 4e40723b1a74ed5dda882fc1eae64da65ee11a936d87d831d4fb4e84e74aaa32 6664 php-horde-sessionhandler_2.3.0-1.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-sessionhandler deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: memcached, mysql-server, php-cli, php-horde-cli, php-horde-db, php-horde-log, php-horde-memcache, php-horde-test, php-memcache, php-mysql, php-pgsql, php-sqlite3, postgresql
+Directory: pool/main/p/php-horde-sessionhandler
+Priority: extra
+Section: misc

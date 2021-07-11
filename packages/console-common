@@ -1,0 +1,22 @@
+Package: console-common
+Binary: console-common, dh-consoledata
+Version: 0.7.91
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Uploaders: Wartan Hachaturow <wart@softhome.net>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: docbook-to-man, po-debconf
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (native)
+Files:
+ ad5bac8cd6cc1448f91515c2e6c4c3d3 1608 console-common_0.7.91.dsc
+ 0c6b49153fcd158ef00faf4ab417a1bd 136016 console-common_0.7.91.tar.xz
+Checksums-Sha256:
+ 0f5d6544478bdc4c8d0b119a23a02db1a462d7f0183b5684d34f87cafefea12e 1608 console-common_0.7.91.dsc
+ 3444f5256df9eb47beb66194406f32f156289ce5ef8fc431c2a5ca4614399d00 136016 console-common_0.7.91.tar.xz
+Package-List: 
+ console-common deb utils optional arch=all
+ dh-consoledata deb devel optional arch=all
+Directory: pool/main/c/console-common
+Priority: source
+Section: utils

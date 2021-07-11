@@ -1,0 +1,26 @@
+Package: node-decompress-response
+Binary: node-decompress-response
+Version: 6.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Preyass Chandran <preyassc@hotmail.com>
+Build-Depends: debhelper-compat (= 12), node-get-stream <!nocheck>, node-mimic-response <!nocheck>, node-pify <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cd3054b92df436b4f40ed6f629d9e7aa 2275 node-decompress-response_6.0.0-1.dsc
+ 7ba790cb482c39f4bdd6324369ef62ae 4300 node-decompress-response_6.0.0.orig.tar.gz
+ f80ee23360d2fa50f022b00c4f63d0b9 3732 node-decompress-response_6.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-decompress-response
+Vcs-Git: https://salsa.debian.org/js-team/node-decompress-response.git
+Checksums-Sha256:
+ b7c30650248d08ee6309db0269735cccfb0d3dab3187dd5ca208812394ac8bf4 2275 node-decompress-response_6.0.0-1.dsc
+ d94e8856ee6c503b51930470a0b28230d5243292ce8ea0fe8671de4e98ce8c12 4300 node-decompress-response_6.0.0.orig.tar.gz
+ bb4d623019c7006ef37aac90586b79192702624d677f106e648dd3d024123e58 3732 node-decompress-response_6.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/decompress-response
+Package-List: 
+ node-decompress-response deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-decompress-response
+Priority: extra
+Section: misc

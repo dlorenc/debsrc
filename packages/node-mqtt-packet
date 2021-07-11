@@ -1,0 +1,27 @@
+Package: node-mqtt-packet
+Binary: node-mqtt-packet
+Version: 6.9.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper-compat (= 12), node-bl, node-debug, node-inherits (>= 2.0.3), node-process-nextick-args (>= 2.0.0), node-readable-stream, node-safe-buffer, node-tape, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bd9a58ed6c8c981c37252d0e6af03300 2285 node-mqtt-packet_6.9.0-1.dsc
+ a5bdfe7cccb68aaa41ba0064287ce1a9 27996 node-mqtt-packet_6.9.0.orig.tar.gz
+ f48e7233a84853b9e3cbd3fda0a55c34 4332 node-mqtt-packet_6.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-mqtt-packet
+Vcs-Git: https://salsa.debian.org/js-team/node-mqtt-packet.git
+Checksums-Sha256:
+ 02319d244e15238cc0446d899955a50759fb2a9814b49f58a9be7775c43777c3 2285 node-mqtt-packet_6.9.0-1.dsc
+ b968eef28e2f791bb8c7d452a88441f25d15c916ecc13359588743c50962a862 27996 node-mqtt-packet_6.9.0.orig.tar.gz
+ 2b835d16738913c694ad14d5a10e8099cdf71c641fea7b0ecf112d6e9082a500 4332 node-mqtt-packet_6.9.0-1.debian.tar.xz
+Homepage: https://github.com/mqttjs/mqtt-packet
+Package-List: 
+ node-mqtt-packet deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: node-tape
+Directory: pool/main/n/node-mqtt-packet
+Priority: extra
+Section: javascript

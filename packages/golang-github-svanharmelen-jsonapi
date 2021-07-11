@@ -1,0 +1,27 @@
+Package: golang-github-svanharmelen-jsonapi
+Binary: golang-github-svanharmelen-jsonapi-dev
+Version: 1.0.0+git20180618.0c0828c-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 12), dh-golang, golang-any, golang-github-google-jsonapi-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 996d10b4609f9d28bdb946d370c4e1f5 2640 golang-github-svanharmelen-jsonapi_1.0.0+git20180618.0c0828c-2.dsc
+ 4c29e468601509a4fb524db46ebf8d55 25128 golang-github-svanharmelen-jsonapi_1.0.0+git20180618.0c0828c.orig.tar.xz
+ c39f6dc2123199637999235d6e8d7185 2012 golang-github-svanharmelen-jsonapi_1.0.0+git20180618.0c0828c-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-svanharmelen-jsonapi
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-svanharmelen-jsonapi.git
+Checksums-Sha256:
+ ed984a9fd06feee1ad690766207a34918f426caf0eddc9e7ea398fdeb68fe787 2640 golang-github-svanharmelen-jsonapi_1.0.0+git20180618.0c0828c-2.dsc
+ c4a43345e06f6d61b70a96591434718ccccd647feebb4d2a30a4f26f6e582323 25128 golang-github-svanharmelen-jsonapi_1.0.0+git20180618.0c0828c.orig.tar.xz
+ 2003d431f60beebb3fe3abfccd59096aa68d9568ffd07b3ee5d92caf5ec955c6 2012 golang-github-svanharmelen-jsonapi_1.0.0+git20180618.0c0828c-2.debian.tar.xz
+Homepage: https://github.com/svanharmelen/jsonapi
+Go-Import-Path: github.com/svanharmelen/jsonapi
+Package-List: 
+ golang-github-svanharmelen-jsonapi-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-svanharmelen-jsonapi
+Priority: extra
+Section: golang

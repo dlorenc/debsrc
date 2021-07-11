@@ -1,0 +1,26 @@
+Package: evil-el
+Binary: elpa-evil
+Version: 1.14.0-1
+Maintainer: Debian Emacsen Team <debian-emacsen@lists.debian.org>
+Uploaders: David Krauser <david@krauser.org>
+Build-Depends: debhelper-compat (= 12), dh-elpa, python3-sphinx, texinfo
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ afa9c1a51216e2c6796611cec7b2c4c6 1964 evil-el_1.14.0-1.dsc
+ b9dda8c0be6e16773e88c01f0c30bc85 410031 evil-el_1.14.0.orig.tar.gz
+ c476328299dbd01a1fe83079087674dd 4412 evil-el_1.14.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/evil-el
+Vcs-Git: https://salsa.debian.org/emacsen-team/evil-el.git
+Checksums-Sha256:
+ d383a0f76910d158dea14d92a81e2b509e5ccc7a75989f7b608493b51eed48fa 1964 evil-el_1.14.0-1.dsc
+ 5fcf711112597aa6d80f3fac798ed150c956b4c27fa74c8260aab915c6080199 410031 evil-el_1.14.0.orig.tar.gz
+ 25453c44c2ae357888f0574305bad38456d78f470c79fb790d2df7ef8ad2351d 4412 evil-el_1.14.0-1.debian.tar.xz
+Homepage: https://github.com/emacs-evil/evil
+Package-List: 
+ elpa-evil deb lisp optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/e/evil-el
+Priority: optional
+Section: misc

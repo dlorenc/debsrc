@@ -1,0 +1,27 @@
+Package: rust-lazy-static
+Binary: librust-lazy-static-dev, librust-lazy-static+spin-dev
+Version: 1.4.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <pl@ninthfloor.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 49dfef25ea1cd194432f5044ca1da575 2351 rust-lazy-static_1.4.0-1.dsc
+ fba3b040a55c01be7376d3dd5c4d4920 10443 rust-lazy-static_1.4.0.orig.tar.gz
+ 887ccf9500101eb1a46f1597fa7184fb 3044 rust-lazy-static_1.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lazy-static
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/lazy-static]
+Checksums-Sha256:
+ e52f210593cab7ab36c543b322755609f670c3e81649dbbdde6307b76570aa0c 2351 rust-lazy-static_1.4.0-1.dsc
+ e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646 10443 rust-lazy-static_1.4.0.orig.tar.gz
+ 578723cd4b049159cd181730a578311cf495a399fa0371a394bd8dacba5a70f1 3044 rust-lazy-static_1.4.0-1.debian.tar.xz
+Package-List: 
+ librust-lazy-static+spin-dev deb rust optional arch=any
+ librust-lazy-static-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-doc-comment-0.3+default-dev
+Directory: pool/main/r/rust-lazy-static
+Priority: extra
+Section: misc

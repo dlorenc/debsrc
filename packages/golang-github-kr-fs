@@ -1,0 +1,27 @@
+Package: golang-github-kr-fs
+Binary: golang-github-kr-fs-dev
+Version: 0.1.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 46e30d801a3c17154e8e644b89907013 2131 golang-github-kr-fs_0.1.0-1.dsc
+ dc2cce4fb96077dd05120c4bdcf1cacb 4405 golang-github-kr-fs_0.1.0.orig.tar.gz
+ 209e3b5600a5eb16a825ffbd48c30211 3160 golang-github-kr-fs_0.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-kr-fs
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-kr-fs.git
+Checksums-Sha256:
+ 08e99a93a1a244abceff2bff576323f7c137acf9efa0f281dd164996bc0582f2 2131 golang-github-kr-fs_0.1.0-1.dsc
+ 5743b4ec1e7c4a336c40c9936989174dc9bfc1fb19640d7308c04892453f6c8d 4405 golang-github-kr-fs_0.1.0.orig.tar.gz
+ 9b929a624df1aa898075d0823c367de70f83f0faa36b6132f2d6d40285443a6b 3160 golang-github-kr-fs_0.1.0-1.debian.tar.xz
+Homepage: https://github.com/kr/fs
+Go-Import-Path: github.com/kr/fs
+Package-List: 
+ golang-github-kr-fs-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-kr-fs
+Priority: extra
+Section: golang

@@ -1,0 +1,25 @@
+Package: latexila
+Binary: latexila, latexila-data
+Version: 3.22.0-1.1
+Maintainer: Tanguy Ortolo <tanguy+debian@ortolo.eu>
+Build-Depends: autotools-dev, debhelper (>= 9~), gettext, gsettings-desktop-schemas-dev, intltool, itstool, libgee-0.8-dev (>= 0.10), libglib2.0-dev (>= 2.40), libgspell-1-dev (>= 1.0), libgtk-3-dev (>= 3.20), libgtksourceview-3.0-dev (>= 3.18), libxml2-utils
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 623b9446701d1b06a82f5931e8066f95 2123 latexila_3.22.0-1.1.dsc
+ 117b38b10871c51a3ee8c3d06d95ffb4 1113648 latexila_3.22.0.orig.tar.xz
+ 893a716672a033641fd9af02e9fbec09 6696 latexila_3.22.0-1.1.debian.tar.xz
+Vcs-Browser: https://git.ortolo.eu/pkg-latexila.git
+Vcs-Git: https://git.ortolo.eu/git/pkg-latexila.git
+Checksums-Sha256:
+ 7373133fc892eaa03779aa9f97df23d579a9435c9adfc018c8bc5a23b2ae677a 2123 latexila_3.22.0-1.1.dsc
+ f78b643d95bbc3867430b32684c859a13aa887c1433d0e8df91a51168b564e54 1113648 latexila_3.22.0.orig.tar.xz
+ 042f09922263b681cd6023dfac8e2781079aeefef9d9efa7896afadfc3ec0f77 6696 latexila_3.22.0-1.1.debian.tar.xz
+Homepage: https://projects.gnome.org/latexila/
+Package-List: 
+ latexila deb tex optional arch=any
+ latexila-data deb tex optional arch=all
+Directory: pool/main/l/latexila
+Priority: source
+Section: tex

@@ -1,0 +1,27 @@
+Package: ruby-safe-yaml
+Binary: ruby-safe-yaml
+Version: 1.0.5-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-hashie, ruby-indentation, ruby-rspec
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 0100cece64b199becd0b88a6986ec9d9 1754 ruby-safe-yaml_1.0.5-1.dsc
+ d9259ca0dc8b7b38eccbac88fd6e95f0 26949 ruby-safe-yaml_1.0.5.orig.tar.gz
+ 1c4536bdf3c94ab17ef1811d06eb925c 3708 ruby-safe-yaml_1.0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-safe-yaml
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-safe-yaml.git
+Checksums-Sha256:
+ bfc141e240f3cd3acbe0210d8b52abe8e1b12f260be643b40b96b4735aeed207 1754 ruby-safe-yaml_1.0.5-1.dsc
+ 7847d876adab14d35f939328f14147722fb122433b919ecc85ac0dd876de86ba 26949 ruby-safe-yaml_1.0.5.orig.tar.gz
+ 92a35e3129c66758cab23e3bad3215a91c9d4dcee99396ab77fe3c66d8bd8535 3708 ruby-safe-yaml_1.0.5-1.debian.tar.xz
+Homepage: https://github.com/dtao/safe_yaml
+Package-List: 
+ ruby-safe-yaml deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-safe-yaml
+Priority: source
+Section: misc

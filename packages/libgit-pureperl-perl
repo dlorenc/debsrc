@@ -1,0 +1,27 @@
+Package: libgit-pureperl-perl
+Binary: libgit-pureperl-perl
+Version: 0.53-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Genannt <jonas.genannt@capi2name.de>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libarchive-extract-perl | perl (<< 5.17.0), libconfig-gitlike-perl, libdata-stream-bulk-perl, libdatetime-perl, libfile-find-rule-perl, libio-digest-perl, libmoose-perl, libmoosex-strictconstructor-perl, libmoosex-types-path-class-perl, libtest-utf8-perl, perl
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 5b688bf2d8552faac5cddd2d0fe2bd5f 2479 libgit-pureperl-perl_0.53-1.dsc
+ cc51e027b68140e40e473beb000bd9cd 65556 libgit-pureperl-perl_0.53.orig.tar.gz
+ ab190c48832e60f902b109f34d90902b 3208 libgit-pureperl-perl_0.53-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libgit-pureperl-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libgit-pureperl-perl.git
+Checksums-Sha256:
+ ad5570329d98c117847847b88905b219241aca97589614d1b751b600f50a3a94 2479 libgit-pureperl-perl_0.53-1.dsc
+ 987c74366cc4c37ee084050f985fa254359c89c12507f5b8bfc6607de538d5a8 65556 libgit-pureperl-perl_0.53.orig.tar.gz
+ 3b980f909aa54898decda90001631ef36c98504888856e79e6625878801724ba 3208 libgit-pureperl-perl_0.53-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Git-PurePerl
+Package-List: 
+ libgit-pureperl-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libg/libgit-pureperl-perl
+Priority: optional
+Section: misc

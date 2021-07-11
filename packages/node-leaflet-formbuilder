@@ -1,0 +1,27 @@
+Package: node-leaflet-formbuilder
+Binary: node-leaflet-formbuilder
+Version: 0.2.1-4
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@mail.dk>
+Build-Depends: debhelper (>= 9), dh-buildinfo, nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f6e1b5bb79c093b9ebc4f92e05b46932 2203 node-leaflet-formbuilder_0.2.1-4.dsc
+ 3367da85f2ef0c87f704585925424ed1 3586 node-leaflet-formbuilder_0.2.1.orig.tar.gz
+ 1a95efad4ae1c196993e5e0cd007fb7e 2944 node-leaflet-formbuilder_0.2.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/node-leaflet-formbuilder
+Vcs-Git: https://salsa.debian.org/debian-gis-team/node-leaflet-formbuilder.git
+Checksums-Sha256:
+ 6d96198a43c0135eb312abf5a83430531c255d1c45b27b106bfcb3db8c8399ce 2203 node-leaflet-formbuilder_0.2.1-4.dsc
+ f7305688306d98994c4bc5f0de7c2b213391e2b145b15ccf076cbbc3e8362e98 3586 node-leaflet-formbuilder_0.2.1.orig.tar.gz
+ bf9f29f9e22d1300960133c7f342aca4f0405d64440793007c02461edb316dc6 2944 node-leaflet-formbuilder_0.2.1-4.debian.tar.xz
+Homepage: https://github.com/yohanboniface/Leaflet.FormBuilder#readme
+Package-List: 
+ node-leaflet-formbuilder deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-domino, node-leaflet, rollup
+Directory: pool/main/n/node-leaflet-formbuilder
+Priority: optional
+Section: javascript

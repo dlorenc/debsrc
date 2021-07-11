@@ -1,0 +1,27 @@
+Package: all-knowing-dns
+Binary: all-knowing-dns
+Version: 1.7-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-install-perl
+Build-Depends-Indep: libmouse-perl, libmousex-nativetraits-perl, libnet-dns-perl, libnetaddr-ip-perl, libprivileges-drop-perl, perl
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 1d442d14eb2b8ed4fa810dd6219b1473 2202 all-knowing-dns_1.7-3.dsc
+ 3cb3ac3e0cb3c34e902c933c3d0ec88c 25869 all-knowing-dns_1.7.orig.tar.gz
+ 2556b1fb771b58c0fb623cfb7d74f2fe 4452 all-knowing-dns_1.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/all-knowing-dns
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/all-knowing-dns.git
+Checksums-Sha256:
+ 47c15228e594e939a65a84d6eb284057c74a4d86f7c072cbfccf773a978ca2dd 2202 all-knowing-dns_1.7-3.dsc
+ 3695a4db511f4eb746617bff013a40a4d2987358b3eb4f9999c7cca90138cc5c 25869 all-knowing-dns_1.7.orig.tar.gz
+ 9f4595ce648a2f8ac12cde8231e798197f71b055107d7c16716cdaf896ff4afb 4452 all-knowing-dns_1.7-3.debian.tar.xz
+Homepage: https://metacpan.org/release/AllKnowingDNS
+Package-List: 
+ all-knowing-dns deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/a/all-knowing-dns
+Priority: source
+Section: perl

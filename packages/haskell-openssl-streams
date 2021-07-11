@@ -1,0 +1,28 @@
+Package: haskell-openssl-streams
+Binary: libghc-openssl-streams-dev, libghc-openssl-streams-prof, libghc-openssl-streams-doc
+Version: 1.2.2.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hsopenssl-dev (<< 0.12), libghc-hsopenssl-dev (>= 0.10.3), libghc-hsopenssl-prof, libghc-io-streams-dev (>= 1.0), libghc-io-streams-dev (<< 1.6), libghc-io-streams-prof, libghc-network-dev (>= 2.4), libghc-network-dev (<< 3.2), libghc-network-prof
+Build-Depends-Indep: ghc-doc, libghc-hsopenssl-doc, libghc-io-streams-doc, libghc-network-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2f686600d96a45a78ee1ac1f42806f70 2769 haskell-openssl-streams_1.2.2.0-3.dsc
+ 31fe5af5b011d87c3f9f6265c33f1690 6376 haskell-openssl-streams_1.2.2.0.orig.tar.gz
+ 27e3e62a9bdca31da16dbc211d46b89d 3280 haskell-openssl-streams_1.2.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-openssl-streams
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-openssl-streams]
+Checksums-Sha256:
+ d90c8f39adea69f336169c8c44db5a0fcf93221f1906725c1fda52c9ccce3aea 2769 haskell-openssl-streams_1.2.2.0-3.dsc
+ b966b06f579bc9d1f4698408deff77ff6f7047a083d7d44fbeb379af4cf5f466 6376 haskell-openssl-streams_1.2.2.0.orig.tar.gz
+ fac1e9c465aad3373613116f76bb358e09567c43a65a0a58ab66bb207042b052 3280 haskell-openssl-streams_1.2.2.0-3.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/openssl-streams
+Package-List: 
+ libghc-openssl-streams-dev deb haskell optional arch=any
+ libghc-openssl-streams-doc deb doc optional arch=all
+ libghc-openssl-streams-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-openssl-streams
+Priority: optional
+Section: misc

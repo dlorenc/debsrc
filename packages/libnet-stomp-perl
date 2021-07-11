@@ -1,0 +1,28 @@
+Package: libnet-stomp-perl
+Binary: libnet-stomp-perl
+Version: 0.60-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl
+Build-Depends-Indep: libclass-accessor-perl <!nocheck>, libio-socket-ip-perl <!nocheck>, libio-socket-ssl-perl <!nocheck>, liblog-any-adapter-tap-perl <!nocheck>, liblog-any-perl (>= 1.707) <!nocheck>, libtest-deep-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-nicedump-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 83bad09e54f30896c9d681b4921ee840 2747 libnet-stomp-perl_0.60-1.dsc
+ a6ee4f3fc4d3ba4c649c2f02d824416b 30622 libnet-stomp-perl_0.60.orig.tar.gz
+ 85337416541b28a1b5da39dd80925f9a 3756 libnet-stomp-perl_0.60-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-stomp-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-stomp-perl.git
+Checksums-Sha256:
+ b05730ed0b7c42147334c785fffad03a628aa863b8ef64ae8841e50e41e58250 2747 libnet-stomp-perl_0.60-1.dsc
+ c6d06162df67b9184bf2f60c3c85a63eb9937fc9e757a8009bfc12efced79ea6 30622 libnet-stomp-perl_0.60.orig.tar.gz
+ 31ab1b51797ace7d7fadbfa9d069fbd2cf7f241c1cadba7dae2c4ce6426cdd0d 3756 libnet-stomp-perl_0.60-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Net-Stomp
+Dgit: 063c2970a7bb8be9538cc8263d027af5127489c2 debian archive/debian/0.60-1 https://git.dgit.debian.org/libnet-stomp-perl
+Package-List: 
+ libnet-stomp-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-stomp-perl
+Priority: source
+Section: perl

@@ -1,0 +1,28 @@
+Package: libtext-micromason-perl
+Binary: libtext-micromason-perl
+Version: 2.23-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: perl, libclass-mixinfactory-perl <!nocheck>, libhtml-parser-perl <!nocheck>, liburi-perl <!nocheck>, libtest-warn-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 38c0d60cdeccc14f875e9c8bfb6fa3c5 2583 libtext-micromason-perl_2.23-1.dsc
+ 2bc820e04662d1d5b51fd4bad919b705 72409 libtext-micromason-perl_2.23.orig.tar.gz
+ b1145bd8ee345694a2047494ff4f41a1 4640 libtext-micromason-perl_2.23-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtext-micromason-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtext-micromason-perl.git
+Checksums-Sha256:
+ 8110192f9881b721b1462257a1afb69ffb2d66e2ef95f65360fa05637deaa071 2583 libtext-micromason-perl_2.23-1.dsc
+ b67e054c0758d26a3ebd728397e80560cef9590b2f27f0f8f228510d168e8dcf 72409 libtext-micromason-perl_2.23.orig.tar.gz
+ db74178de4b8cfbdf225cfb44c6088ca97c5c7b843fb17de9ebd423c2dc839b5 4640 libtext-micromason-perl_2.23-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Text-MicroMason
+Dgit: fa434812da52fd8d051fe49c54fe4c043faba44f debian archive/debian/2.23-1 https://git.dgit.debian.org/libtext-micromason-perl
+Package-List: 
+ libtext-micromason-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtext-micromason-perl
+Priority: source
+Section: perl

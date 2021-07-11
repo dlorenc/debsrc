@@ -1,0 +1,27 @@
+Package: projectile
+Binary: elpa-projectile, projectile-doc
+Version: 2.1.0-1
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>,
+Build-Depends: debhelper (>= 10), dh-elpa (>= 1.7), dh-exec, elpa-buttercup, mkdocs (>= 1.0.4)
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ d773bc80dcf329d469659b3c5761f48b 2159 projectile_2.1.0-1.dsc
+ 60d30ce65ce2b6613dcf88ece0a0f54c 211832 projectile_2.1.0.orig.tar.xz
+ 8eb79077eb068730f978edef9f3212a6 8700 projectile_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/projectile
+Vcs-Git: https://salsa.debian.org/emacsen-team/projectile.git
+Checksums-Sha256:
+ c908ed98189341c3e5619368380b5868b5f0dba4d42d71c5dccd8bf0e429693f 2159 projectile_2.1.0-1.dsc
+ 9514c1f57674920ed78f4449dc76294b2be50a8cb83f6522f1204409ea3a9395 211832 projectile_2.1.0.orig.tar.xz
+ ff84ef9620a190741bc134907cab8e4a17cacd704588d1f95b6a65d9731c5d95 8700 projectile_2.1.0-1.debian.tar.xz
+Homepage: https://www.projectile.mx/
+Dgit: 3bb8ab87967d00588836e220e31811a56cb5e102 debian archive/debian/2.1.0-1 https://git.dgit.debian.org/projectile
+Package-List: 
+ elpa-projectile deb lisp optional arch=all
+ projectile-doc deb doc optional arch=all
+Directory: pool/main/p/projectile
+Priority: optional
+Section: misc

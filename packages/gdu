@@ -1,0 +1,27 @@
+Package: gdu
+Binary: gdu
+Version: 4.6.3-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Daniel Milde <daniel@milde.cz>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-gdamore-tcell.v2-dev, golang-github-mattn-go-isatty-dev, golang-github-rivo-tview-dev (>= 0.0~git20210122), golang-github-spf13-cobra-dev, golang-github-fatih-color-dev, golang-github-stretchr-testify-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ eac979df88227598525f7b0cf6b0a768 2156 gdu_4.6.3-1.dsc
+ 5140fef732a9ea26259ea77438155f57 36563 gdu_4.6.3.orig.tar.gz
+ e5c75133553e4e728a99dcd6b2bdc976 2680 gdu_4.6.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/gdu
+Vcs-Git: https://salsa.debian.org/go-team/packages/gdu.git
+Checksums-Sha256:
+ 92c216b506ab4d3efa5abe17988a4ee480d510ac737e6ed1ef6667a401b12b8e 2156 gdu_4.6.3-1.dsc
+ dbc4564394ba76f08525fcea8b71d69cf26868efb0ac6d55fdbe43f0b16617af 36563 gdu_4.6.3.orig.tar.gz
+ bb184c8c8aa8461f7850facf850c0a020882c3693d49a061dddd4802559c0b46 2680 gdu_4.6.3-1.debian.tar.xz
+Homepage: https://github.com/dundee/gdu
+Go-Import-Path: github.com/dundee/gdu
+Package-List: 
+ gdu deb admin optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/gdu
+Priority: extra
+Section: misc

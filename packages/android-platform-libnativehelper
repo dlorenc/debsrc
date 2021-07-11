@@ -1,0 +1,26 @@
+Package: android-platform-libnativehelper
+Binary: android-libnativehelper, android-libnativehelper-dev
+Version: 10.0.0+r36-2
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlikok@gmail.com>, Hans-Christoph Steiner <hans@eds.org>, Chirayu Desai <chirayudesai1@gmail.com>
+Build-Depends: debhelper-compat (= 12), android-libbase-dev (>= 1:10.0.0+r36-1~), android-libcutils-dev (>= 1:10.0.0+r36-1~), android-liblog-dev (>= 1:10.0.0+r36-1~), clang, dh-exec
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 6f8da716faf6193fa2c04a7a75d2b23d 2194 android-platform-libnativehelper_10.0.0+r36-2.dsc
+ 7b3f952bef3f92238fee8071e7aef773 56551 android-platform-libnativehelper_10.0.0+r36.orig.tar.gz
+ 858cbd27c35b489f4b9514cdb7d6770c 3512 android-platform-libnativehelper_10.0.0+r36-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/android-tools-team/android-platform-libnativehelper
+Vcs-Git: https://salsa.debian.org/android-tools-team/android-platform-libnativehelper.git
+Checksums-Sha256:
+ 3af164baa8ae95fdb1762435c1d1991647329c3664ab3c49d5cfc28305832803 2194 android-platform-libnativehelper_10.0.0+r36-2.dsc
+ 0d1164f855749bb94b3e750dc0db6aa1fb6bc9b2927e618a3111b540a7e9981e 56551 android-platform-libnativehelper_10.0.0+r36.orig.tar.gz
+ 53e59aaadbcfaf7bc3fd8d6360d206fdab5198a63e040ac3d480a20cb41d5711 3512 android-platform-libnativehelper_10.0.0+r36-2.debian.tar.xz
+Homepage: https://android.googlesource.com/platform/libnativehelper
+Package-List: 
+ android-libnativehelper deb libs optional arch=any
+ android-libnativehelper-dev deb libs optional arch=any
+Directory: pool/main/a/android-platform-libnativehelper
+Priority: optional
+Section: misc

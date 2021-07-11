@@ -1,0 +1,27 @@
+Package: rust-boxfnonce
+Binary: librust-boxfnonce-dev
+Version: 0.1.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ dc11db7dbd9f323efb0701899fbb7222 2168 rust-boxfnonce_0.1.1-2.dsc
+ 35974d9c1451819388edf2d2f25959a5 9698 rust-boxfnonce_0.1.1.orig.tar.gz
+ 88d09339c6b3a3dab656504b300c7709 2532 rust-boxfnonce_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/boxfnonce
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/boxfnonce]
+Checksums-Sha256:
+ bd1068ace3733d71dc075cb1c9feff7cc04a2e61520fed4446afdf94905b1784 2168 rust-boxfnonce_0.1.1-2.dsc
+ 5988cb1d626264ac94100be357308f29ff7cbdd3b36bda27f450a4ee3f713426 9698 rust-boxfnonce_0.1.1.orig.tar.gz
+ 5db8fc955c28ead95c20dfd915f96c493c559949fcb4c2f825aa9abe32b658f1 2532 rust-boxfnonce_0.1.1-2.debian.tar.xz
+Homepage: https://github.com/stbuehler/rust-boxfnonce
+Package-List: 
+ librust-boxfnonce-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-boxfnonce
+Priority: extra
+Section: misc

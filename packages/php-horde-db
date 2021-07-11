@@ -1,0 +1,27 @@
+Package: php-horde-db
+Binary: php-horde-db
+Version: 2.4.1-1
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1621fd44eb819deb88629b29fe6a4db6 2176 php-horde-db_2.4.1-1.dsc
+ bbdefa9dcab1be06ef597fb0aa326db7 98261 php-horde-db_2.4.1.orig.tar.gz
+ 1ef1fb2ea93675cb23e64daecabc0ee7 7356 php-horde-db_2.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-db
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-db.git
+Checksums-Sha256:
+ c739645be4a9b6380f1d0be4caf2c671c7665ac4abc99f17c06aa4868d23b61a 2176 php-horde-db_2.4.1-1.dsc
+ 0b89bbfd961a152ff23ce59b4d9aba2a98599b018777a7c7e44b22ea7b677c84 98261 php-horde-db_2.4.1.orig.tar.gz
+ 29f3163e9f245bc9778c683a23c6a7a12cbf0244a9185d8d28d26012d807bb81 7356 php-horde-db_2.4.1-1.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-db deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mysql-server, php-cli, php-horde-cache, php-horde-test, php-mysql, php-pgsql, php-sqlite3, postgresql
+Directory: pool/main/p/php-horde-db
+Priority: extra
+Section: misc

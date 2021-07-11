@@ -1,0 +1,28 @@
+Package: haskell-word-trie
+Binary: libghc-word-trie-dev, libghc-word-trie-prof, libghc-word-trie-doc
+Version: 0.3.0-9
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Marcel Fourne <debian@marcelfourne.de>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hspec-dev, libghc-quickcheck2-dev (<< 3), libghc-quickcheck2-dev (>= 2)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c1b1c432110edc9f1381e50a84429af0 2412 haskell-word-trie_0.3.0-9.dsc
+ 23d58399cf7d8be6f9ab7ae03885f86c 9421 haskell-word-trie_0.3.0.orig.tar.gz
+ 2f9e4165ec4cc2c302fc001b0dc910ce 2508 haskell-word-trie_0.3.0-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-word-trie
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-word-trie]
+Checksums-Sha256:
+ eae0c2f12d40f9136a2b5e8f715d6ce53485b5fdae8981bcc9f19201b500d819 2412 haskell-word-trie_0.3.0-9.dsc
+ a3f3c2c088c64219ae35f7383a5dc1a368217183ba603e98785c110ac3f29282 9421 haskell-word-trie_0.3.0.orig.tar.gz
+ 29cb247edb2ef9ecb60920f330548e5d5a133a5c8043373d37a03b63b0acd564 2508 haskell-word-trie_0.3.0-9.debian.tar.xz
+Homepage: https://github.com/yi-editor/word-trie
+Package-List: 
+ libghc-word-trie-dev deb haskell optional arch=any
+ libghc-word-trie-doc deb doc optional arch=all
+ libghc-word-trie-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-word-trie
+Priority: optional
+Section: misc

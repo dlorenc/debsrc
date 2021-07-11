@@ -1,0 +1,28 @@
+Package: golang-github-openpeedeep-xdg
+Binary: golang-github-openpeedeep-xdg-dev
+Version: 0.2.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dawid Dziurla <dawidd0811@gmail.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 2e19d9f1b35e8e1cea6dcbabecc565e8 2326 golang-github-openpeedeep-xdg_0.2.0-2.dsc
+ 603ddb63183fbd5c55329437cb4fa682 6619 golang-github-openpeedeep-xdg_0.2.0.orig.tar.gz
+ f19cf4b0814746abb174eda7d9ef595a 2216 golang-github-openpeedeep-xdg_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-openpeedeep-xdg
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-openpeedeep-xdg.git
+Checksums-Sha256:
+ 352db5a874cc1ab4ad9922e8aa8ea4459cd15ca6994aec1006d9006e47f68be7 2326 golang-github-openpeedeep-xdg_0.2.0-2.dsc
+ f19e4bee360295c91bf1900406add9f9b0f193237e1e8dfa8df98e6b9d4008d4 6619 golang-github-openpeedeep-xdg_0.2.0.orig.tar.gz
+ 07e800e81675b2fa8e118d744006a355b584e4385ad1a02e9a9e0d6b72bddb0e 2216 golang-github-openpeedeep-xdg_0.2.0-2.debian.tar.xz
+Homepage: https://github.com/OpenPeeDeeP/xdg
+Go-Import-Path: github.com/OpenPeeDeeP/xdg
+Package-List: 
+ golang-github-openpeedeep-xdg-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-openpeedeep-xdg
+Priority: extra
+Section: golang

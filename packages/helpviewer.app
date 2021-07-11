@@ -1,0 +1,25 @@
+Package: helpviewer.app
+Binary: helpviewer.app
+Version: 0.3-8
+Maintainer: Debian GNUstep maintainers <pkg-gnustep-maintainers@lists.alioth.debian.org>
+Uploaders: Yavor Doganov <yavor@gnu.org>
+Build-Depends: debhelper (>= 9), libgnustep-gui-dev (>= 0.24), imagemagick
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 4298c3afd96429ef688d24459f82ce50 2006 helpviewer.app_0.3-8.dsc
+ 9e3c1c07cdbe0187ce6e0152d3e8870d 1237235 helpviewer.app_0.3.orig.tar.gz
+ 2542368afa357619c804f51c7ab724c3 9816 helpviewer.app_0.3-8.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-gnustep/helpviewer.app.git
+Vcs-Git: git://anonscm.debian.org/pkg-gnustep/helpviewer.app.git
+Checksums-Sha256:
+ 4efd40b7e3338bd59f80c2a0dfbcccaf8f6cd76d0b0b7825b2c4c7a15b5f24bd 2006 helpviewer.app_0.3-8.dsc
+ 482f649efacf362ec0e64e4d8a69c8bfe1ca25d3297bf7030675379224d4ad3d 1237235 helpviewer.app_0.3.orig.tar.gz
+ 44d3e178f9b713ffa714786a994aa82586196535c31463b2f61418e1fefe09c8 9816 helpviewer.app_0.3-8.debian.tar.xz
+Homepage: http://www.roard.com/helpviewer/
+Package-List: 
+ helpviewer.app deb gnustep optional arch=any
+Directory: pool/main/h/helpviewer.app
+Priority: source
+Section: gnustep

@@ -1,0 +1,25 @@
+Package: swayidle
+Binary: swayidle
+Version: 1.6-2
+Maintainer: Sway and related packages team <team+swaywm@tracker.debian.org>
+Uploaders: Birger Schacht <birger@rantanplan.org>, Nicolas Braud-Santoni <nicoo@debian.org>
+Build-Depends: debhelper-compat (= 12), libwayland-dev, libsystemd-dev, wayland-protocols (>= 1.14), meson (>= 0.48), pkgconf, scdoc
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c188d128aaf23572d782383354d2bb15 2062 swayidle_1.6-2.dsc
+ fb24916f9c25a3c85665b3112183f097 10131 swayidle_1.6.orig.tar.gz
+ 738c0b344021b78800158d59050d5236 4900 swayidle_1.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/swaywm-team/swayidle
+Vcs-Git: https://salsa.debian.org/swaywm-team/swayidle.git
+Checksums-Sha256:
+ cdd10c7e6b76c12d35e13d0ca6de03ac6c3175805739a43755e5999996177aca 2062 swayidle_1.6-2.dsc
+ efb2f0878531ea5be0744063e6e31762a16b4ee3cfb22dbade49795fa53b130c 10131 swayidle_1.6.orig.tar.gz
+ 7dad4ab4f2b0c903740dfbf8eea3a39cd5b06fee8c554656fb913f48a6ac8c7b 4900 swayidle_1.6-2.debian.tar.xz
+Homepage: https://github.com/swaywm/swayidle
+Package-List: 
+ swayidle deb x11 optional arch=any
+Directory: pool/main/s/swayidle
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-humantime
+Binary: librust-humantime-dev
+Version: 2.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ fafb9e5ea084224c0d00a56022f0208e 2275 rust-humantime_2.0.0-1.dsc
+ 361bd9fd6988aa4ac291c63336fb29c3 17374 rust-humantime_2.0.0.orig.tar.gz
+ 12c209b8f442af5f785faea90f89978a 2700 rust-humantime_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/humantime
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/humantime]
+Checksums-Sha256:
+ aeb687676e948b796ee061c20d4a804161d5203335390b2e3d472630a3481f92 2275 rust-humantime_2.0.0-1.dsc
+ b9b6c53306532d3c8e8087b44e6580e10db51a023cf9b433cea2ac38066b92da 17374 rust-humantime_2.0.0.orig.tar.gz
+ 9fd9c155c357032697c874589e3952f6666259170a583313c486d62b2eba4e6b 2700 rust-humantime_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/tailhook/humantime
+Package-List: 
+ librust-humantime-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-chrono-0.4+default-dev, librust-rand-0.6+default-dev, librust-time-0.1+default-dev
+Directory: pool/main/r/rust-humantime
+Priority: extra
+Section: misc

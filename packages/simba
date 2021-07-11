@@ -1,0 +1,24 @@
+Package: simba
+Binary: simba, websimba
+Version: 0.8.4-6
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: po-debconf, libropkg-perl (>= 0.4), liblog-dispatch-perl, libxml-rss-perl, libnumber-format-perl, libhtml-template-perl, libmodule-pluggable-perl, libsql-abstract-perl, libdatetime-perl, liblog-log4perl-perl
+Architecture: all
+Standards-Version: 3.7.2
+Format: 3.0 (quilt)
+Files:
+ 808b31e34d69abb65cc2c1ec1d2deb70 1950 simba_0.8.4-6.dsc
+ e453c2071ff553f972e94cdd1c969b58 46772 simba_0.8.4.orig.tar.gz
+ 47895172fc2caf73270e2d43c7864499 9768 simba_0.8.4-6.debian.tar.xz
+Checksums-Sha256:
+ 3a1c4dc2ff68801fd60986fd8ef562ea5bfd8943471e85589e420fc88d640cf8 1950 simba_0.8.4-6.dsc
+ f9a5341412ec9bef4d9a3354b58098fc94f4d2cd9f3715549d43a7f2a06e675f 46772 simba_0.8.4.orig.tar.gz
+ e5425c187ebe802f587cb7a0545c11a3b9dfee65e53b6a42027c3defbf20afe8 9768 simba_0.8.4-6.debian.tar.xz
+Homepage: http://simba.packages.ro/
+Package-List: 
+ simba deb perl optional arch=all
+ websimba deb perl optional arch=all
+Directory: pool/main/s/simba
+Priority: source
+Section: perl

@@ -1,0 +1,30 @@
+Package: wcstools
+Binary: wcstools, libwcstools-dev, libwcstools1, iraf-wcstools
+Version: 3.9.6-1
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec, help2man
+Build-Depends-Indep: iraf-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5ce1f3c4803636e2ddabfcc786f20527 2200 wcstools_3.9.6-1.dsc
+ b728e5fc4a3a08230570c1c7559ae909 8606427 wcstools_3.9.6.orig.tar.gz
+ 67bba7e0688a0382ab2d95d6215893c9 26204 wcstools_3.9.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/wcstools
+Vcs-Git: https://salsa.debian.org/debian-astro-team/wcstools.git
+Checksums-Sha256:
+ e103514d46f60a7a7a2df141070d70c6d4534f528aa6401058c5a1290735eed7 2200 wcstools_3.9.6-1.dsc
+ d99a4c114ee48d0806f3693b003b673446088104a30ecc95cd27ebbe2a704ec5 8606427 wcstools_3.9.6.orig.tar.gz
+ 59ef7cf0bac514aa79a73a6a326d105b9edc2c225484465ce17b78d444d62f6e 26204 wcstools_3.9.6-1.debian.tar.xz
+Homepage: http://tdc-www.harvard.edu/software/wcstools/
+Package-List: 
+ iraf-wcstools deb science optional arch=all
+ libwcstools-dev deb libdevel optional arch=any
+ libwcstools1 deb libs optional arch=any
+ wcstools deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/w/wcstools
+Priority: source
+Section: science

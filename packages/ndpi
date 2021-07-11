@@ -1,0 +1,27 @@
+Package: ndpi
+Binary: libndpi-dev, libndpi3.4, libndpi-bin, libndpi-wireshark
+Version: 3.4-3
+Maintainer: Ludovico Cavedon <cavedon@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec (>= 0.3), dpkg-dev (>= 1.16.1.1), libgcrypt20-dev, libjson-c-dev, libpcap-dev, libwireshark-dev (>= 3.0~), pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7aee4c2e817668ad5e37263b1c5adab6 1780 ndpi_3.4-3.dsc
+ 4a2978b0d527a220ab46344444a1934c 37976087 ndpi_3.4.orig.tar.gz
+ 8277920b59627832b7e3e697d8e066f8 14068 ndpi_3.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ndpi
+Vcs-Git: https://salsa.debian.org/debian/ndpi.git
+Checksums-Sha256:
+ 35a326b638be35353234e08af6a83b441ca5a9e9faebf7b0b5a08216a4af04e5 1780 ndpi_3.4-3.dsc
+ dc9b291c7fde94edb45fb0f222e0d93c93f8d6d37f4efba20ebd9c655bfcedf9 37976087 ndpi_3.4.orig.tar.gz
+ b194170806c1fd89077b228c9a04a8637758b816a1b56f8fa61fb42cfb3eff9f 14068 ndpi_3.4-3.debian.tar.xz
+Homepage: http://www.ntop.org/products/ndpi/
+Package-List: 
+ libndpi-bin deb libs optional arch=any
+ libndpi-dev deb libdevel optional arch=any
+ libndpi-wireshark deb libs optional arch=any
+ libndpi3.4 deb libs optional arch=any
+Directory: pool/main/n/ndpi
+Priority: optional
+Section: misc

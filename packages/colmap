@@ -1,0 +1,24 @@
+Package: colmap
+Binary: colmap
+Version: 3.6+really3.6-1
+Maintainer: Gürkan Myczko <gurkan@phys.ethz.ch>
+Build-Depends: debhelper-compat (= 13), libeigen3-dev, libgoogle-glog-dev, libceres-dev, libqt5opengl5-desktop-dev, libfreeimage-dev, libglew-dev, cmake, libboost-system-dev, libboost-program-options-dev, libboost-filesystem-dev, libboost-regex-dev, libboost-test-dev, libboost-graph-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 43ec46a0125a05d00ef6eace7504189e 2126 colmap_3.6+really3.6-1.dsc
+ db5485ca1ecd11dfe1551338506fdb4a 6322652 colmap_3.6+really3.6.orig.tar.gz
+ bd60785bc106ab5a0c2e906b7bc7ebab 21340 colmap_3.6+really3.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/myczko-guest/colmap
+Vcs-Git: https://salsa.debian.org/myczko-guest/colmap.git
+Checksums-Sha256:
+ db22949e5fa3838c7a16a5196c8b3ca332079c8b8b754da30dc0612089b35f15 2126 colmap_3.6+really3.6-1.dsc
+ ea22d026a3b13d339551319f4562fe1471b7232433695970704669755031a192 6322652 colmap_3.6+really3.6.orig.tar.gz
+ f276a57f8763d916334fffc995b5e65bb8f4b00d8b5cb52c541b79697ad9c919 21340 colmap_3.6+really3.6-1.debian.tar.xz
+Homepage: https://github.com/colmap/colmap
+Package-List: 
+ colmap deb science optional arch=any
+Directory: pool/main/c/colmap
+Priority: extra
+Section: misc

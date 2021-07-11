@@ -1,0 +1,26 @@
+Package: node-esutils
+Binary: node-esutils
+Version: 2.0.3-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, chai <!nocheck>, coffeescript <!nocheck>, mocha <!nocheck>, node-regenerate, node-unicode-13.0.0
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6961ebc5176c84412711aaf72a549ac9 2112 node-esutils_2.0.3-1.dsc
+ 9c5778dde9c3f66d4475cf65a78ee2a4 13669 node-esutils_2.0.3.orig.tar.gz
+ fd6688851de910de4899bbeebdcf5520 3552 node-esutils_2.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-esutils
+Vcs-Git: https://salsa.debian.org/js-team/node-esutils.git
+Checksums-Sha256:
+ a94d2891ce02228899e1da2a3f963fa1075b7657f97a7f854b3f2cc491c799c6 2112 node-esutils_2.0.3-1.dsc
+ 0ffab9be782b1edb3cceedc4037f425fa57075415403cbc8bc402f93a10aa3d4 13669 node-esutils_2.0.3.orig.tar.gz
+ 8d94a7a718aae7fd4e1c4968dc231080924d051d96995934f8af8bd13c2fe97e 3552 node-esutils_2.0.3-1.debian.tar.xz
+Homepage: https://github.com/estools/esutils
+Package-List: 
+ node-esutils deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-esutils
+Priority: optional
+Section: javascript

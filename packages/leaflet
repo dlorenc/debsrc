@@ -1,0 +1,28 @@
+Package: leaflet
+Binary: node-leaflet, libjs-leaflet
+Version: 1.7.1~dfsg-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrew Harvey <andrew.harvey4@gmail.com>, Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: brotli, debhelper-compat (= 12), eslint <!nocheck>, node-rollup-plugin-json, pigz, rename, rollup, sassc, uglifyjs (>= 3), uglifyjs.terser
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ da207ef6a39658b5f8caf3c8d942b74c 2213 leaflet_1.7.1~dfsg-2.dsc
+ 6963aa1df48a7a2082e3f65dcd7024f3 8379004 leaflet_1.7.1~dfsg.orig.tar.xz
+ a60eed2f564d26da513bd429003aba10 14644 leaflet_1.7.1~dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/leaflet
+Vcs-Git: https://salsa.debian.org/js-team/leaflet.git
+Checksums-Sha256:
+ d715b195405a75fb777d92697b4eb784ee76d68a43eae5098a83f13e7af673f9 2213 leaflet_1.7.1~dfsg-2.dsc
+ e043b32917ac1c7fb72473798a0fa0440a3f65dde5c962173ba670d488b37f09 8379004 leaflet_1.7.1~dfsg.orig.tar.xz
+ cf65db6b46d5f41dc419ea560d533a3d3e04ce94a657d5cd642c6d2a9503f7c0 14644 leaflet_1.7.1~dfsg-2.debian.tar.xz
+Homepage: https://leafletjs.com/
+Package-List: 
+ libjs-leaflet deb web optional arch=all
+ node-leaflet deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: eslint, node-domino
+Directory: pool/main/l/leaflet
+Priority: source
+Section: web

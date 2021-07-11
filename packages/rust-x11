@@ -1,0 +1,26 @@
+Package: rust-x11
+Binary: librust-x11-dev
+Version: 2.18.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.8-~~) <!nocheck>, libx11-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 146236f0e40828e8aacf13251cc224b9 1856 rust-x11_2.18.2-2.dsc
+ 586a6e3b38605750f9f561867a6f9cf7 63683 rust-x11_2.18.2.orig.tar.gz
+ e762c2ab8c37283524f6d276681e2987 3252 rust-x11_2.18.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/x11
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/x11]
+Checksums-Sha256:
+ 1394501a09e56a47617e63f541d5b9c2df0d0eb03b7c8fc94987aa0b5263abdb 1856 rust-x11_2.18.2-2.dsc
+ 77ecd092546cb16f25783a5451538e73afc8d32e242648d54f4ae5459ba1e773 63683 rust-x11_2.18.2.orig.tar.gz
+ 5a2a2a7b68313323cd9d9121e9000d5294999244deb7b53d60318af76583b0aa 3252 rust-x11_2.18.2-2.debian.tar.xz
+Package-List: 
+ librust-x11-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-x11
+Priority: extra
+Section: misc

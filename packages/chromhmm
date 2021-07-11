@@ -1,0 +1,28 @@
+Package: chromhmm
+Binary: chromhmm, chromhmm-example
+Version: 1.21+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Dylan Aïssi <daissi@debian.org>
+Build-Depends: debhelper-compat (= 13), javahelper, libhtsjdk-java, libbatik-java, libjheatchart-java
+Build-Depends-Indep: default-jdk
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1e930d7206fad4e66d5832babd48eb68 2124 chromhmm_1.21+dfsg-1.dsc
+ 11d32afbb6061f846be17da5fd7340ab 38099852 chromhmm_1.21+dfsg.orig.tar.xz
+ 29104f6396425db8e64cfce1a8229d77 9024 chromhmm_1.21+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/chromhmm
+Vcs-Git: https://salsa.debian.org/med-team/chromhmm.git
+Checksums-Sha256:
+ 2c6c93f8a9ea82de9f4f88f6e2a7a905781fa810ebf95acc344316a11495bf89 2124 chromhmm_1.21+dfsg-1.dsc
+ b963d8e41110282ff4283a727fc4959e459b97dd6e8dee8128b7ab5a3f2dd439 38099852 chromhmm_1.21+dfsg.orig.tar.xz
+ 6274bd7d6b22d5dbeed2d99a0c58ada58b8be95497c71216f96fcaf4113c73cb 9024 chromhmm_1.21+dfsg-1.debian.tar.xz
+Homepage: http://compbio.mit.edu/ChromHMM/
+Package-List: 
+ chromhmm deb science optional arch=all
+ chromhmm-example deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/c/chromhmm
+Priority: extra
+Section: misc

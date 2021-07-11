@@ -1,0 +1,27 @@
+Package: ssake
+Binary: ssake, ssake-examples
+Version: 4.0-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Charles Plessy <plessy@debian.org>
+Build-Depends: debhelper-compat (= 12), markdown
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 06eda0df18924e69d1542272843595ce 2040 ssake_4.0-3.dsc
+ 515dccde1a0a37b46ad13e4acbf03505 1354341 ssake_4.0.orig.tar.gz
+ 26487c569d7a491386aa98c7cb907ea7 9164 ssake_4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/ssake
+Vcs-Git: https://salsa.debian.org/med-team/ssake.git
+Checksums-Sha256:
+ 4527dbca4f864b3bac0f460219ffc805904f4130e16c51aacd47f11733982cd5 2040 ssake_4.0-3.dsc
+ c9854e8cc0ed5ce3cd9719175daafe79dc265dd15ca6759cb4a2a667203e5ee4 1354341 ssake_4.0.orig.tar.gz
+ e92483bfe006d1668c68e612a98600f8f7e2499c38307c7a7dd9dd9f188a9121 9164 ssake_4.0-3.debian.tar.xz
+Homepage: http://www.bcgsc.ca/platform/bioinfo/software/ssake
+Package-List: 
+ ssake deb science optional arch=all
+ ssake-examples deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/s/ssake
+Priority: source
+Section: science

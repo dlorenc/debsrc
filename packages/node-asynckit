@@ -1,0 +1,26 @@
+Package: node-asynckit
+Binary: node-asynckit
+Version: 0.4.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Aditya Neralkar <adityaneralkar@gmail.com>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 899285aa114821689e96b2f975dea3fc 2065 node-asynckit_0.4.0-3.dsc
+ b06a42e3f8a62b423ffee5f99e8e2683 19795 node-asynckit_0.4.0.orig.tar.gz
+ 8643f96b46b25f8ac894265c05868e1a 2724 node-asynckit_0.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-asynckit
+Vcs-Git: https://salsa.debian.org/js-team/node-asynckit.git
+Checksums-Sha256:
+ 854f4f64c3f3d52af908ce2b3d3c7953554b984b6d3d5cfbb385dd628d3bb06b 2065 node-asynckit_0.4.0-3.dsc
+ 7512bb764eb128d4b0043de0630cacb87f48c3fa6f3a25e22fbfb24bc95a59f1 19795 node-asynckit_0.4.0.orig.tar.gz
+ 4f49658788ed79b0cc56abe390f2fd93c9acc6c5cdb0f3f9cff5e8648ffa506b 2724 node-asynckit_0.4.0-3.debian.tar.xz
+Homepage: https://github.com/alexindigo/asynckit
+Package-List: 
+ node-asynckit deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-asynckit
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: node-prosemirror-markdown
+Binary: node-prosemirror-markdown
+Version: 1.4.4-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Abraham Raji <avronr@tuta.io>
+Build-Depends: debhelper-compat (= 12), node-markdown-it <!nocheck>, node-prosemirror-model <!nocheck>, node-rollup-plugin-buble, nodejs (>= 6), pkg-js-tools (>= 0.9.20), rollup
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7122484139ff084b0807d3d6ecbd4967 2294 node-prosemirror-markdown_1.4.4-2.dsc
+ 2b78eac0da209a4acd7b5993ddc3575b 15919 node-prosemirror-markdown_1.4.4.orig.tar.gz
+ 3fd095db50c5a5290b4ed41a0f6372c3 2672 node-prosemirror-markdown_1.4.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-prosemirror-markdown
+Vcs-Git: https://salsa.debian.org/js-team/node-prosemirror-markdown.git
+Checksums-Sha256:
+ 4acc42dda8a305c469059e2f18bf3a50ed538bea6408e57dcccec34930497e48 2294 node-prosemirror-markdown_1.4.4-2.dsc
+ 57204277896d359f7bec62c4c2f87dd652a0598aa64f540aa062c309e1435102 15919 node-prosemirror-markdown_1.4.4.orig.tar.gz
+ 965286304bb4b03761542f2bb07dad968b6dce4df1eb3c1ad8341657cdb31054 2672 node-prosemirror-markdown_1.4.4-2.debian.tar.xz
+Homepage: https://github.com/prosemirror/prosemirror-markdown#readme
+Package-List: 
+ node-prosemirror-markdown deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-prosemirror-markdown
+Priority: extra
+Section: misc

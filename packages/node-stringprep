@@ -1,0 +1,26 @@
+Package: node-stringprep
+Binary: node-node-stringprep
+Version: 0.8.0-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: cdbs, licensecheck, debhelper (>= 10~), dh-buildinfo, libnode-dev, node-gyp (>= 3.8.0-2), node-nan (>= 2.3.3), libicu-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ d1634639e412f91e892569cb1e91c462 2104 node-stringprep_0.8.0-5.dsc
+ 209189a227f4eec6714bb71c8bac6742 7707 node-stringprep_0.8.0.orig.tar.gz
+ 0302a2bd1dcbe08e815735b6109e0417 6592 node-stringprep_0.8.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-stringprep
+Vcs-Git: https://salsa.debian.org/js-team/node-stringprep.git
+Checksums-Sha256:
+ e6a499d22f4ae885a45a429dafb0a2528687896416a7f51e0bb7f3a0ff9578a7 2104 node-stringprep_0.8.0-5.dsc
+ a6e0122bd95a41106c1178353b2bbe485d7ecaf178cefd3017f064ad6fa8a260 7707 node-stringprep_0.8.0.orig.tar.gz
+ d4f689572c80a65761de812b5df0cb69b92ff04547f8d8d4239d9942221a6b64 6592 node-stringprep_0.8.0-5.debian.tar.xz
+Homepage: https://node-xmpp.org/
+Package-List: 
+ node-node-stringprep deb javascript optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/n/node-stringprep
+Priority: source
+Section: javascript

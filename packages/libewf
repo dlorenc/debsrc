@@ -1,0 +1,28 @@
+Package: libewf
+Binary: libewf2, libewf-dev, ewf-tools, python3-libewf
+Version: 20140807-2
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Pierre Chifflier <pollux@debian.org>
+Build-Depends: debhelper-compat (= 12), autopoint, libfuse-dev, zlib1g-dev, libbz2-dev, uuid-dev, libssl-dev, flex, bison, pkg-config, python3-dev, dh-python
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 333769243d58b8eb539c5d60f8565cb5 1902 libewf_20140807-2.dsc
+ 724b7ca565bd9cf16a1eeda27d8ace67 2241379 libewf_20140807.orig.tar.gz
+ 51e4d230d0cd02ea987c13825e03b417 7320 libewf_20140807-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/libewf
+Vcs-Git: https://salsa.debian.org/pkg-security-team/libewf.git
+Checksums-Sha256:
+ 9ad0574d07a853fb8cf485655611c00d9fe085346ea2dd132b078c9ea6a35562 1902 libewf_20140807-2.dsc
+ 7336bb1e8e9bf787fcf21a56097df86439b0342949b4d111ec4683bcd3d9fc08 2241379 libewf_20140807.orig.tar.gz
+ 0d3ac49af812985721218b57911fa00d42ddc201bb63170254c6cc9e101ca6a8 7320 libewf_20140807-2.debian.tar.xz
+Homepage: https://github.com/libyal/libewf-legacy
+Package-List: 
+ ewf-tools deb admin optional arch=any
+ libewf-dev deb libdevel optional arch=any
+ libewf2 deb libs optional arch=any
+ python3-libewf deb python optional arch=any
+Directory: pool/main/libe/libewf
+Priority: source
+Section: libs

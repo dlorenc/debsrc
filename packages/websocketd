@@ -1,0 +1,26 @@
+Package: websocketd
+Binary: websocketd
+Version: 0.4.1-1
+Maintainer: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-gorilla-websocket-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a5820811a318153474454cbac4f19625 2018 websocketd_0.4.1-1.dsc
+ c9bbe47847b580483ab508fbe9cd4f50 46366 websocketd_0.4.1.orig.tar.gz
+ 7d9fb7a95395baf9b40a10f2a4a38973 3124 websocketd_0.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/websocketd
+Vcs-Git: https://salsa.debian.org/debian/websocketd.git
+Checksums-Sha256:
+ 8195da9981a43a207a9471cef8449bd70c82b9feb8f3e6a7ec53fbbb82ec47e6 2018 websocketd_0.4.1-1.dsc
+ 6b8fe0fad586d794e002340ee597059b2cfc734ba7579933263aef4743138fe5 46366 websocketd_0.4.1.orig.tar.gz
+ 6e994753f8297d0e88ba604f47717dcd7824d153d5d840d702d8a1ac7745c77f 3124 websocketd_0.4.1-1.debian.tar.xz
+Homepage: https://github.com/joewalnes/websocketd
+Go-Import-Path: github.com/joewalnes/websocketd
+Package-List: 
+ websocketd deb web optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-go
+Directory: pool/main/w/websocketd
+Priority: extra
+Section: misc

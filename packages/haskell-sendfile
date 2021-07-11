@@ -1,0 +1,28 @@
+Package: haskell-sendfile
+Binary: libghc-sendfile-dev, libghc-sendfile-prof, libghc-sendfile-doc
+Version: 0.7.11.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), haskell-devscripts (>= 0.13), ghc (>= 8), ghc-prof, libghc-network-dev (>= 2), libghc-network-dev (<< 3.2), libghc-network-prof
+Build-Depends-Indep: ghc-doc, libghc-network-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 13501c4b894ba2e2e703f1e87c3995fb 2435 haskell-sendfile_0.7.11.1-2.dsc
+ cbfe77f4b4915f9c5c8e31b27791e4a1 10678 haskell-sendfile_0.7.11.1.orig.tar.gz
+ 518ce440ad4229800c8cb1c487394a43 3600 haskell-sendfile_0.7.11.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-sendfile
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-sendfile]
+Checksums-Sha256:
+ 8aa5689756d23ded4976b1756d3b4a41daf800ceb46c19bcc2a982b4bb277054 2435 haskell-sendfile_0.7.11.1-2.dsc
+ e0e6c45e73578d2d7139e23a965937ac4514e5d310613607bfd4afd1abd50825 10678 haskell-sendfile_0.7.11.1.orig.tar.gz
+ 3a1ef83c5866b01ef79abab8eef7d84b961da390ad06ced0b6319e1773f2d894 3600 haskell-sendfile_0.7.11.1-2.debian.tar.xz
+Homepage: http://hub.darcs.net/stepcut/sendfile
+Package-List: 
+ libghc-sendfile-dev deb haskell optional arch=any
+ libghc-sendfile-doc deb doc optional arch=all
+ libghc-sendfile-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-sendfile
+Priority: source
+Section: haskell

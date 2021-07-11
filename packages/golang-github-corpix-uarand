@@ -1,0 +1,27 @@
+Package: golang-github-corpix-uarand
+Binary: golang-github-corpix-uarand-dev
+Version: 0.1.1-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 3ebd66570d2942250be2d2dc200452b9 2411 golang-github-corpix-uarand_0.1.1-1.dsc
+ 6005386c10b2fdc6eabd204dd2806c4f 27686 golang-github-corpix-uarand_0.1.1.orig.tar.gz
+ 19858e0e0a6e6d433db5244458271814 2044 golang-github-corpix-uarand_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-corpix-uarand
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-corpix-uarand.git
+Checksums-Sha256:
+ b60ae56e63dd9ad8107c31ea082d680d1d07141c63ddf730088ee36a24f68806 2411 golang-github-corpix-uarand_0.1.1-1.dsc
+ a76056222f3845e70140bd88f86d74fb05f47f24aa6f386b89a84b1ca2e66013 27686 golang-github-corpix-uarand_0.1.1.orig.tar.gz
+ c071f72c45d79c62ec45b10a053e332ca5ec6be7745849eb179950e35e787870 2044 golang-github-corpix-uarand_0.1.1-1.debian.tar.xz
+Homepage: https://github.com/corpix/uarand
+Go-Import-Path: github.com/corpix/uarand
+Package-List: 
+ golang-github-corpix-uarand-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-corpix-uarand
+Priority: extra
+Section: golang

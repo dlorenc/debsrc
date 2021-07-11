@@ -1,0 +1,28 @@
+Package: bmap-tools
+Binary: bmap-tools
+Version: 3.5-3
+Maintainer: Simon McVittie <smcv@debian.org>
+Uploaders: Sjoerd Simons <sjoerd@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-setuptools, python3-six
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4f84fff2db41c3223a6d2d1edc94b9ea 2102 bmap-tools_3.5-3.dsc
+ c4952bec2884b36096ddb349f4b9ba8a 94505 bmap-tools_3.5.orig.tar.gz
+ 6f3a44abfcd67af89c8957fec0630e31 8052 bmap-tools_3.5-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/bmap-tools
+Vcs-Git: https://salsa.debian.org/debian/bmap-tools.git
+Checksums-Sha256:
+ 9d00a0246e9d4b4362bfebd23e65c568d7181f8e69bbb54c769fe7f6e28b3dc0 2102 bmap-tools_3.5-3.dsc
+ d410e2d97192d0fc2f88ef160a0bb6ed83fce99da97a606d7f6890cc654ec594 94505 bmap-tools_3.5.orig.tar.gz
+ 62487ece77aaa857a11a1ad6e0a923fd4f1a617305b21f62a2cf75837689fcba 8052 bmap-tools_3.5-3.debian.tar.xz
+Homepage: https://github.com/intel/bmap-tools
+Dgit: 9cf6f332923126a734a8594176f835827d399aeb debian archive/debian/3.5-3 https://git.dgit.debian.org/bmap-tools
+Package-List: 
+ bmap-tools deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: dosfstools, python3
+Directory: pool/main/b/bmap-tools
+Priority: optional
+Section: misc

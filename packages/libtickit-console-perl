@@ -1,0 +1,28 @@
+Package: libtickit-console-perl
+Binary: libtickit-console-perl
+Version: 0.09-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, perl (>= 5.26)
+Build-Depends-Indep: libobject-pad-perl (>= 0.27) <!nocheck>, libstring-tagged-perl <!nocheck>, libtest-identity-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-refcount-perl <!nocheck>, libtickit-perl <!nocheck>, libtickit-widget-scroller-perl <!nocheck>, libtickit-widget-tabbed-perl <!nocheck>, libtickit-widgets-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8c1a79fc0286d151174f8651d0fef14c 2758 libtickit-console-perl_0.09-1.dsc
+ c10f221e39faa00e7c732b2605862eba 20547 libtickit-console-perl_0.09.orig.tar.gz
+ bc76fa6a9a17b8d8996b192bffeccda2 2220 libtickit-console-perl_0.09-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtickit-console-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtickit-console-perl.git
+Checksums-Sha256:
+ 9e0e3d49bb0f5f6ed575fce75af902d72214e183c70a76eb7842aae606698975 2758 libtickit-console-perl_0.09-1.dsc
+ 950ac8be5e1171ede69f8df6f0f1a8a8d3fc37c6a625f4bedc5aa8c726f15a8e 20547 libtickit-console-perl_0.09.orig.tar.gz
+ 3530fe3f1cc037f14ab6adaeac4c8e2fbb3651dcba753efdfb87ae032e37c9d7 2220 libtickit-console-perl_0.09-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Tickit-Console
+Dgit: 219ed5186230ba0da7f57d6b479c5c6a9b45eb5d debian archive/debian/0.09-1 https://git.dgit.debian.org/libtickit-console-perl
+Package-List: 
+ libtickit-console-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtickit-console-perl
+Priority: extra
+Section: misc

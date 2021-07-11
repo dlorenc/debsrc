@@ -1,0 +1,27 @@
+Package: rust-xdg
+Binary: librust-xdg-dev
+Version: 2.2.0-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2e1a0672048afaccb8c7c8595035fca6 2118 rust-xdg_2.2.0-3.dsc
+ 1628d3f26e3f952d8c43973ade1f2dad 13387 rust-xdg_2.2.0.orig.tar.gz
+ f3299fad6a3edb83ba8374c58e2170c8 3824 rust-xdg_2.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/xdg
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/xdg]
+Checksums-Sha256:
+ 936293dcdd8996fbca287ccd0508fd2720caad842dd2f3ecfa70ab525b8fbcc7 2118 rust-xdg_2.2.0-3.dsc
+ d089681aa106a86fade1b0128fb5daf07d5867a509ab036d99988dec80429a57 13387 rust-xdg_2.2.0.orig.tar.gz
+ 8e6efcbee1bc3516fa310812be873cff3f79aeb7782f6778ffbdfbf27b843e60 3824 rust-xdg_2.2.0-3.debian.tar.xz
+Homepage: https://github.com/whitequark/rust-xdg
+Package-List: 
+ librust-xdg-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-xdg
+Priority: extra
+Section: misc

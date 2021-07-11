@@ -1,0 +1,26 @@
+Package: seer
+Binary: seer
+Version: 1.1.4-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), libarmadillo-dev (>= 1:6.700.6+dfsg-1~), libdlib-dev, libhdf5-dev, libgzstream-dev, libboost-dev, libboost-program-options-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 87b92b274bb08471c7981c6e0ba2f279 2045 seer_1.1.4-5.dsc
+ e4b331eaf17819aabc545b032148d8c2 972155 seer_1.1.4.orig.tar.gz
+ 624efe7b641fcf0d28f7501e8d4a9484 8508 seer_1.1.4-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/seer
+Vcs-Git: https://salsa.debian.org/med-team/seer.git
+Checksums-Sha256:
+ fe6dc957077eb0138a6a4fbb894f04f2a0644d6b0e43b8e7843980c500b94a09 2045 seer_1.1.4-5.dsc
+ 96e55b9fe2cde089ff05bbcd55088832e90f44a968a81a8dca9f9cffa6faa9c1 972155 seer_1.1.4.orig.tar.gz
+ d8224022efe9bdcae52e9e115e6069258d9f96e57c517923c89cc4a99a9c3696 8508 seer_1.1.4-5.debian.tar.xz
+Homepage: https://github.com/johnlees/seer
+Package-List: 
+ seer deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/s/seer
+Priority: optional
+Section: misc

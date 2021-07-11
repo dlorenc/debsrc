@@ -1,0 +1,26 @@
+Package: mate-terminal
+Binary: mate-terminal, mate-terminal-common
+Version: 1.24.1-1
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>, Stefano Karapetsas <stefano@karapetsas.com>, Mike Gabriel <sunweaver@debian.org>, Wences Arana <aranax@debian.org.gt>, Vangelis Mouhtsis <vangelis@gnugr.org>, Martin Wimpress <code@flexion.org>,
+Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.16.1.1), intltool, libdconf-dev, libglib2.0-dev (>= 2.50), libgtk-3-dev (>= 3.22), libsm-dev, libvte-2.91-dev (>= 0.48), libx11-dev, libxml2-utils, mate-common (>= 1.20), yelp-tools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1b5c5628778e6471a9fe5bf8f3bc3e6b 2494 mate-terminal_1.24.1-1.dsc
+ 3e677820bd06b1f7915ab0160e070213 1304320 mate-terminal_1.24.1.orig.tar.xz
+ 0844d4ce47378f276c0bdc2ffe13d3d4 8372 mate-terminal_1.24.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-mate-team/mate-terminal
+Vcs-Git: https://salsa.debian.org/debian-mate-team/mate-terminal.git
+Checksums-Sha256:
+ 51771465016b8747276b42391734b403ad1592e0c15391ee1f3d60a4aef6862a 2494 mate-terminal_1.24.1-1.dsc
+ d82bc74de43ebc839ba33dbe4e4f30b79912d89bc7321a80dccb5a0388f38082 1304320 mate-terminal_1.24.1.orig.tar.xz
+ 1f048d35e988b3f10af0357cc7302cb7af61acc0044d3798c1264eaa27add2c6 8372 mate-terminal_1.24.1-1.debian.tar.xz
+Homepage: http://www.mate-desktop.org
+Package-List: 
+ mate-terminal deb x11 optional arch=any
+ mate-terminal-common deb x11 optional arch=all
+Directory: pool/main/m/mate-terminal
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: bibledit-cloud
+Binary: bibledit-cloud, bibledit-cloud-data
+Version: 5.0.922-1
+Maintainer: CrossWire Packaging Team <pkg-crosswire-devel@alioth-lists.debian.net>
+Uploaders: Teus Benschop <teusbenschop@debian.org>
+Build-Depends: debhelper (>= 10), patchutils (>= 0.2.25), pkg-config, rcs, autoconf, autoconf-archive, libcurl4-openssl-dev, libssl-dev, zip, unzip, libmimetic-dev, libmbedtls-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 18bbf8f5883c091b087900e49f9f6e79 2233 bibledit-cloud_5.0.922-1.dsc
+ e7f82f41a652dcc303ae191024c57838 60817801 bibledit-cloud_5.0.922.orig.tar.gz
+ c09d607949f0d7c791e4b5664b864802 5708 bibledit-cloud_5.0.922-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/bibledit-cloud
+Vcs-Git: https://salsa.debian.org/debian/bibledit-cloud.git
+Checksums-Sha256:
+ ff700ecf75389f0bfdab7e071b819f8a4337cfbfa85d2f71e8f449b461674737 2233 bibledit-cloud_5.0.922-1.dsc
+ 198ef695db10ec6011ac67b70e633ab8ddfb1790cc890fc4d4283cf3c79b349e 60817801 bibledit-cloud_5.0.922.orig.tar.gz
+ d85b9b2385a2b01b0f05af6420299b75ac95c8c8567202d22de46a92d6ffc4a4 5708 bibledit-cloud_5.0.922-1.debian.tar.xz
+Homepage: http://bibledit.org
+Package-List: 
+ bibledit-cloud deb editors optional arch=any
+ bibledit-cloud-data deb editors optional arch=all
+Directory: pool/main/b/bibledit-cloud
+Priority: extra
+Section: misc

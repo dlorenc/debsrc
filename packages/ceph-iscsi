@@ -1,0 +1,25 @@
+Package: ceph-iscsi
+Binary: ceph-iscsi
+Version: 3.4-1
+Maintainer: Freexian Packaging Team <team+freexian@tracker.debian.org>
+Uploaders: Sebastien Delafond <seb@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-setuptools, python3-all
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0913c08f6f68ab1ff0f7adb81d634ffb 1602 ceph-iscsi_3.4-1.dsc
+ 143eacc9d3c72a1905d29caaac4890b1 103148 ceph-iscsi_3.4.orig.tar.xz
+ 10fdde82ae5502cd918f62ecabe9ff89 2800 ceph-iscsi_3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ceph-iscsi
+Vcs-Git: https://salsa.debian.org/debian/ceph-iscsi.git
+Checksums-Sha256:
+ 1890610cfb11ca8a70c89536d29893932ae7c746f776be355e6226738e553414 1602 ceph-iscsi_3.4-1.dsc
+ 2dde39ec58e44e914a06b2d5ac5969c86010b4817d2eabff5596e068d381535b 103148 ceph-iscsi_3.4.orig.tar.xz
+ f0619ab4cb31a74db386b32d5a2a4bfddbd639f5b1d663fdb3ef705c657bf1ba 2800 ceph-iscsi_3.4-1.debian.tar.xz
+Homepage: https://github.com/ceph/ceph-iscsi
+Package-List: 
+ ceph-iscsi deb python optional arch=all
+Directory: pool/main/c/ceph-iscsi
+Priority: extra
+Section: misc

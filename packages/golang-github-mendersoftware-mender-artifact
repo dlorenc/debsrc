@@ -1,0 +1,28 @@
+Package: golang-github-mendersoftware-mender-artifact
+Binary: golang-github-mendersoftware-mender-artifact-dev, mender-artifact
+Version: 3.4.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Lluis Campos <lluis.campos@northern.tech>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-pkg-errors-dev, golang-github-stretchr-testify-dev, golang-github-urfave-cli-dev, golang-logrus-dev, golang-github-klauspost-pgzip-dev, golang-github-minio-sha256-simd-dev, golang-github-remyoudompheng-go-liblzma-dev, dosfstools <!nocheck>, e2fsprogs <!nocheck>, parted <!nocheck>, mtools <!nocheck>
+Architecture: any all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 37452ae6f56335b225647de8e9d9a481 2891 golang-github-mendersoftware-mender-artifact_3.4.0-1.dsc
+ 594509d86d44e43b4bba0cebb6efde4a 93608 golang-github-mendersoftware-mender-artifact_3.4.0.orig.tar.xz
+ 8b8515066fb70962b5f05d4af90073d7 4820 golang-github-mendersoftware-mender-artifact_3.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mendersoftware-mender-artifact
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mendersoftware-mender-artifact.git
+Checksums-Sha256:
+ da31ef6dc90b56c71f0bd53e177d855bb9e9592cbc4c05dbd6fe8774fd0a3e24 2891 golang-github-mendersoftware-mender-artifact_3.4.0-1.dsc
+ 86909dd53c968b1531fb4a6af392ea2722521663b9e65e1a54ddf2e4e4a137f9 93608 golang-github-mendersoftware-mender-artifact_3.4.0.orig.tar.xz
+ c4bcdda1b8e56c2ff970a7fcaa12ecae966e1d3d8d21d1fe1a1325da37c4166a 4820 golang-github-mendersoftware-mender-artifact_3.4.0-1.debian.tar.xz
+Homepage: https://github.com/mendersoftware/mender-artifact
+Go-Import-Path: github.com/mendersoftware/mender-artifact
+Package-List: 
+ golang-github-mendersoftware-mender-artifact-dev deb devel optional arch=all
+ mender-artifact deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mendersoftware-mender-artifact
+Priority: extra
+Section: golang

@@ -1,0 +1,26 @@
+Package: wsdl4j
+Binary: libwsdl4j-java, libwsdl4j-java-doc
+Version: 1.6.3-4.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <steffen_moeller@gmx.de>, Torsten Werner <twerner@debian.org>, Jakub Adam <jakub.adam@ktknet.cz>
+Build-Depends: bnd, debhelper (>= 10), ant, default-jdk, javahelper, maven-repo-helper
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 7bebc9a317e92ce20179ff60fed68466 2112 wsdl4j_1.6.3-4.1.dsc
+ 14b5a7037672209f5f04089bdb5e9eae 83221 wsdl4j_1.6.3.orig.tar.gz
+ 57669baa99346e887413c0e0a6dae9ba 8236 wsdl4j_1.6.3-4.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/wsdl4j.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/wsdl4j.git
+Checksums-Sha256:
+ 0882fed9cf8f08fb6ee8450158fb0aca21bec0e29558aa05caf2c023b08096eb 2112 wsdl4j_1.6.3-4.1.dsc
+ a664b528fa91e83c6bf983fe8da13e3f5b6c0d894b15f21186aa30b63842fa14 83221 wsdl4j_1.6.3.orig.tar.gz
+ 9c9f76b7f52ff9c56a50d3989df125f5fe7f84d72a239ba9682738b9821799c2 8236 wsdl4j_1.6.3-4.1.debian.tar.xz
+Homepage: http://wsdl4j.sourceforge.net
+Package-List: 
+ libwsdl4j-java deb java optional arch=all
+ libwsdl4j-java-doc deb doc optional arch=all
+Directory: pool/main/w/wsdl4j
+Priority: source
+Section: libs

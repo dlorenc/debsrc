@@ -1,0 +1,25 @@
+Package: apache-pom
+Binary: libapache-pom-java
+Version: 18-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>, Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-repo-helper (>= 1.7)
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 1f83c664e1571061880405b556e594f7 2045 apache-pom_18-1.dsc
+ fe05da5a234285630d1f4aadcc5c3131 8107 apache-pom_18.orig.tar.gz
+ 4ee3eab44d2d81d36764f4fe8059e0a3 2804 apache-pom_18-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/apache-pom.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/apache-pom.git
+Checksums-Sha256:
+ 85ae428afdba43d01fe7d7f942322ceb725781fe3e42f2f4915b5e55e165a633 2045 apache-pom_18-1.dsc
+ 5a7e2a1ea9767998929722bbd6c2f34f5a2b3c1cbd14e5210c5465c937acbc36 8107 apache-pom_18.orig.tar.gz
+ 93ea901e12006f057982e7b79dcc5cb205c1fbd886350a3115c8d9c2d8fec593 2804 apache-pom_18-1.debian.tar.xz
+Homepage: http://maven.apache.org/pom/asf/
+Package-List: 
+ libapache-pom-java deb java optional arch=all
+Directory: pool/main/a/apache-pom
+Priority: source
+Section: java

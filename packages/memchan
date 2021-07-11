@@ -1,0 +1,23 @@
+Package: memchan
+Binary: tcl-memchan, tcl-memchan-dev
+Version: 2.3+dfsg-1
+Maintainer: Sergei Golovan <sgolovan@debian.org>
+Build-Depends: debhelper (>= 9.0.0), dpkg-dev (>= 1.16.1~), tcl-dev, tcllib
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ d56e78790160862a06966f343db37679 1194 memchan_2.3+dfsg-1.dsc
+ 4436354a6beeb044263a8de39c2c9236 875456 memchan_2.3+dfsg.orig.tar.gz
+ 3b024c72d25c36d0aad4424a3921834d 5556 memchan_2.3+dfsg-1.debian.tar.xz
+Checksums-Sha256:
+ b428b15a25ecda601400cecb94bdb8beefaf087a7ab15e57b057d1bc7c530de1 1194 memchan_2.3+dfsg-1.dsc
+ c39bbb453e8f0ba804c6a40127ecabb561e522a53404e2f3249d9412daa7f8c2 875456 memchan_2.3+dfsg.orig.tar.gz
+ c0f7b0742c35c82c245919bff69918eba64cda5a6c822dff7046c6af6ff8a611 5556 memchan_2.3+dfsg-1.debian.tar.xz
+Homepage: http://memchan.sourceforge.net/
+Package-List: 
+ tcl-memchan deb libs optional arch=any
+ tcl-memchan-dev deb libdevel optional arch=any
+Directory: pool/main/m/memchan
+Priority: source
+Section: interpreters

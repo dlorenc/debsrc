@@ -1,0 +1,26 @@
+Package: node-os-locale
+Binary: node-os-locale
+Version: 5.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-execa <!nocheck>, node-lcid <!nocheck>, node-mem <!nocheck>, node-proxyquire <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8d223b408e4f555a696234ca422cba87 2156 node-os-locale_5.0.0-1.dsc
+ eb720fd670806e425e5fc5c4281c47d3 4671 node-os-locale_5.0.0.orig.tar.gz
+ d37274955084a0ac4d31ff142ae810b6 9120 node-os-locale_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-os-locale
+Vcs-Git: https://salsa.debian.org/js-team/node-os-locale.git
+Checksums-Sha256:
+ 49fe4ac47ff9575330c569eecdd6a2912bead1ba80767b8a33da03445b91bc34 2156 node-os-locale_5.0.0-1.dsc
+ 5448527507a1e7f94d53a6d36166fe6a5b6d0adc85532911246edf476634bd67 4671 node-os-locale_5.0.0.orig.tar.gz
+ 5f53ba15c38d1c9fb4204af5f77db2c4fe81f4cc6b6fb0efe95938f5a546e495 9120 node-os-locale_5.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/os-locale
+Package-List: 
+ node-os-locale deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-os-locale
+Priority: optional
+Section: javascript

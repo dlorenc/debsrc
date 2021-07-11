@@ -1,0 +1,26 @@
+Package: node-matcher
+Binary: node-matcher
+Version: 2.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Raju Devidas <rajudev@disroot.org>, Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 12), nodejs, node-escape-string-regexp, node-tape, pkg-js-tools (>= 0.8.11)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2d8adfe2691573756c1d8e471024e2af 2114 node-matcher_2.1.0-1.dsc
+ 047e3965d7e76d3ae007d5b6c0c82795 15630 node-matcher_2.1.0.orig.tar.gz
+ c08f7e338ad50eb958b9f3211d53ab0d 3132 node-matcher_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-matcher
+Vcs-Git: https://salsa.debian.org/js-team/node-matcher.git
+Checksums-Sha256:
+ b62b9017bbf8109e98232c532d6e69b7508050b987b4681cb12b0162161344c6 2114 node-matcher_2.1.0-1.dsc
+ 1f9efa38bbab381d7ed4c3d775175645a9a89c671a7cf8296be1daa47c2b98c0 15630 node-matcher_2.1.0.orig.tar.gz
+ a190597af99d7c512bb756cfdc3e310cf3daac0e7559e4f9f8a83c591bac55aa 3132 node-matcher_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/matcher
+Package-List: 
+ node-matcher deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-matcher
+Priority: extra
+Section: misc

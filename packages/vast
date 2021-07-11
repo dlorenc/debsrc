@@ -1,0 +1,25 @@
+Package: vast
+Binary: vast
+Version: 2021.02.24-1
+Maintainer: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, flatbuffers-compiler, libflatbuffers-dev, libfmt-dev, libspdlog-dev, libjemalloc-dev, libpcap-dev, libssl-dev, libyaml-cpp-dev, libcaf-dev (>= 0.17.6), robin-map-dev, libsimdjson-dev, pandoc, asciidoctor, doxygen
+Architecture: amd64 arm64 ppc64el s390x
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 65813d0db852a55ace1b4bc54cd44d32 2108 vast_2021.02.24-1.dsc
+ c91f6358debda20c658efcaf64dcf06d 3276243 vast_2021.02.24.orig.tar.gz
+ 3f726b39bedcf5c0de72be887da8258b 19524 vast_2021.02.24-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/vast
+Vcs-Git: https://salsa.debian.org/debian/vast.git
+Checksums-Sha256:
+ a7460bd8be3db5140e0ad124a74cc8f181c049e986cca079f801429046fc9957 2108 vast_2021.02.24-1.dsc
+ 69a9032201e0263e712d0869c3074f6d6cfe921ab8f2d894edb6305d89f29d61 3276243 vast_2021.02.24.orig.tar.gz
+ 95179a7a212f7be2db928aca91adfbd8da78b9501fefee3e219cc86741d4d198 19524 vast_2021.02.24-1.debian.tar.xz
+Homepage: https://github.com/tenzir/vast
+Package-List: 
+ vast deb database optional arch=amd64,arm64,ppc64el,s390x
+Testsuite: autopkgtest
+Directory: pool/main/v/vast
+Priority: extra
+Section: misc

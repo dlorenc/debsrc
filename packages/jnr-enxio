@@ -1,0 +1,26 @@
+Package: jnr-enxio
+Binary: libjnr-enxio-java, libjnr-enxio-java-doc
+Version: 0.32.3-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hp.com>, Miguel Landaeta <nomadium@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, default-jdk-doc, javahelper, junit4, libjnr-constants-java, libjnr-ffi-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, libmaven-source-plugin-java, libmaven-compiler-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 04514ed904667181da49e4e2fbae570a 2295 jnr-enxio_0.32.3-2.dsc
+ ddb0aa947e4a0c8aea1fc5212c5df92d 10844 jnr-enxio_0.32.3.orig.tar.xz
+ 1e6329de52ae72d1e071d50ccde3681d 2700 jnr-enxio_0.32.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jnr-enxio
+Vcs-Git: https://salsa.debian.org/java-team/jnr-enxio.git
+Checksums-Sha256:
+ 84a819d63858096b4cc6cd1ee2ef8c60a113dc4b525e1e7f867d06dc27b5e364 2295 jnr-enxio_0.32.3-2.dsc
+ 99b3611c6e42157c083039e6c430ac504e20612cfe00c36be1c714cd6ba2fcf0 10844 jnr-enxio_0.32.3.orig.tar.xz
+ 647ccc87da142f3b75ff9dafba6fb74198e7ea3e9e5340fd718d60c1946e6e8b 2700 jnr-enxio_0.32.3-2.debian.tar.xz
+Homepage: https://github.com/jnr/jnr-enxio
+Package-List: 
+ libjnr-enxio-java deb java optional arch=all
+ libjnr-enxio-java-doc deb doc optional arch=all
+Directory: pool/main/j/jnr-enxio
+Priority: optional
+Section: misc

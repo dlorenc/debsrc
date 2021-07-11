@@ -1,0 +1,26 @@
+Package: node-has-values
+Binary: node-has-values
+Version: 2.0.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-kind-of <!nocheck>, pkg-js-tools (>= 0.9.19~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 0947208276ade5c03f36f2321742acef 2102 node-has-values_2.0.1-2.dsc
+ 598e0a642b83f4ffc951d737aa7a2bda 5849 node-has-values_2.0.1.orig.tar.gz
+ 3f160a49f237beb030b654c9d24509d3 2372 node-has-values_2.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-has-values
+Vcs-Git: https://salsa.debian.org/js-team/node-has-values.git
+Checksums-Sha256:
+ 7cdee4d2c43f20518b30a5ac1ef65103ae0879dc669f1bdd2db42c4502cd86e6 2102 node-has-values_2.0.1-2.dsc
+ f3db106be7fba8bbbcb9ba3043fdcba85590c3c4aaaf6dd8c92f89fce7bcc74a 5849 node-has-values_2.0.1.orig.tar.gz
+ 9429df85c1a252e949a474eb785e065085a181b8ac79bd1606cf29dc08a29e4c 2372 node-has-values_2.0.1-2.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/has-values
+Package-List: 
+ node-has-values deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-has-values
+Priority: optional
+Section: javascript

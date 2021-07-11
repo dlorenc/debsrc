@@ -1,0 +1,23 @@
+Package: flash-kernel
+Binary: flash-kernel, flash-kernel-installer
+Version: 3.104
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Vagrant Cascadian <vagrant@debian.org>, Karsten Merker <merker@debian.org>
+Build-Depends: debhelper-compat (= 13), devio, linux-base (>= 3.2), dash
+Architecture: arm64 armel armhf
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ a7cad03f9decfd0425c55c37b9bf1d68 1253 flash-kernel_3.104.dsc
+ b03f28ce35c88f1d2ba91b7df3d9e915 74664 flash-kernel_3.104.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/flash-kernel
+Vcs-Git: https://salsa.debian.org/installer-team/flash-kernel.git
+Checksums-Sha256:
+ 5e6682645e183cd8f7988b4e3cf2da3da02935d0d7f7cb7ed26090323a4b408e 1253 flash-kernel_3.104.dsc
+ 39b702896a5501b67e3e1f4281c2793b7661a647bab81a256c75370ccd533540 74664 flash-kernel_3.104.tar.xz
+Package-List: 
+ flash-kernel deb utils optional arch=arm64,armel,armhf
+ flash-kernel-installer udeb debian-installer standard arch=arm64,armel,armhf
+Directory: pool/main/f/flash-kernel
+Priority: source
+Section: utils

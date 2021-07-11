@@ -1,0 +1,27 @@
+Package: velvetoptimiser
+Binary: velvetoptimiser
+Version: 2.2.6-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Tim Booth <tbooth@ceh.ac.uk>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ adf283c3c4452a4fad321de69cf069b4 2110 velvetoptimiser_2.2.6-3.dsc
+ 1b7495b54e084672657ff7ac91aa00bf 5885844 velvetoptimiser_2.2.6.orig.tar.gz
+ 7ca6af92d8b82dcb7096d951bb45c39d 3992 velvetoptimiser_2.2.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/velvetoptimiser
+Vcs-Git: https://salsa.debian.org/med-team/velvetoptimiser.git
+Checksums-Sha256:
+ b0fc35593923e42a7429a1dff12f1c2b190fd00ad38ab2a9fb44d0bc5aff6815 2110 velvetoptimiser_2.2.6-3.dsc
+ b407db61b58ed983760b80a3a40c8f8a355851ecfab3e61a551bed29bf5b40b3 5885844 velvetoptimiser_2.2.6.orig.tar.gz
+ d8d79ccb7dd66e7d2ef9dd162fa66d2263680eb4810ac881988556f6058ac935 3992 velvetoptimiser_2.2.6-3.debian.tar.xz
+Homepage: https://github.com/tseemann/VelvetOptimiser/
+Package-List: 
+ velvetoptimiser deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: procps
+Directory: pool/main/v/velvetoptimiser
+Priority: optional
+Section: misc

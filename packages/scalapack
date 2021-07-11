@@ -1,0 +1,31 @@
+Package: scalapack
+Binary: libscalapack-openmpi2.1, libscalapack-mpich2.1, libscalapack-mpi-dev, libscalapack-mpich-dev, libscalapack-openmpi-dev, scalapack-mpi-test, scalapack-test-common
+Version: 2.1.0-4
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Muammar El Khatib <muammar@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, mpi-default-dev, mpi-default-bin, libopenmpi-dev, mpich, libmpich-dev, gfortran, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, pkg-config, chrpath
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1bda0abce091b482e606394e412f3141 2697 scalapack_2.1.0-4.dsc
+ e9ae970238030fa1e8ee022a9d3e6fbb 4766223 scalapack_2.1.0.orig.tar.gz
+ c0ba36951ea5cce042980339ddd51ad7 13948 scalapack_2.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/scalapack
+Vcs-Git: https://salsa.debian.org/science-team/scalapack.git
+Checksums-Sha256:
+ f9ddf5b074ca6dab0738de070cfc6f4280e54fb70ef71e28ff3674f65cf78161 2697 scalapack_2.1.0-4.dsc
+ f03fda720a152030b582a237f8387014da878b84cbd43c568390e9f05d24617f 4766223 scalapack_2.1.0.orig.tar.gz
+ e646fe81dcf1d89376b5da771ae1c7f0530e0d3e2624ff3339871a1eb5d689df 13948 scalapack_2.1.0-4.debian.tar.xz
+Homepage: http://www.netlib.org/scalapack/
+Package-List: 
+ libscalapack-mpi-dev deb libdevel optional arch=any
+ libscalapack-mpich-dev deb libdevel optional arch=any
+ libscalapack-mpich2.1 deb libs optional arch=any
+ libscalapack-openmpi-dev deb libdevel optional arch=any
+ libscalapack-openmpi2.1 deb libs optional arch=any
+ scalapack-mpi-test deb math optional arch=any
+ scalapack-test-common deb devel optional arch=all
+Directory: pool/main/s/scalapack
+Priority: source
+Section: devel

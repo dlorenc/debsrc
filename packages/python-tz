@@ -1,0 +1,25 @@
+Package: python-tz
+Binary: python3-tz
+Version: 2021.1-1
+Maintainer: Debian  Python Team <team+python@tracker.debian.org>
+Uploaders: Alastair McKinstry <mckinstry@debian.org>, Debian/Ubuntu Zope Team <pkg-zope-developers@lists.alioth.debian.org>, Fabio Tranchitella <kobold@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-pytest, tzdata (>= 2020d)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 65c854c74b4f62fdda0813c2ba694ddd 2160 python-tz_2021.1-1.dsc
+ b316cb17617a0d9b1d16dadcfb5b3e59 139604 python-tz_2021.1.orig.tar.xz
+ 4fcde1b73dabad0c4ce43558b881ccbc 5820 python-tz_2021.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-tz
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-tz.git -b debian/latest
+Checksums-Sha256:
+ 58a7f063cc5489692651335684ffd4de69e2b56b7989181fb1d957f7ca5cfbfc 2160 python-tz_2021.1-1.dsc
+ 451fa7968d56950bb70a41809ae62395495e13b7ee94453dad1b9998193bf6f5 139604 python-tz_2021.1.orig.tar.xz
+ dac26180612948121039820cc5c2a915c4bd157d50c931c53b7aecea661d9243 5820 python-tz_2021.1-1.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/pytz/
+Package-List: 
+ python3-tz deb python optional arch=all
+Directory: pool/main/p/python-tz
+Priority: source
+Section: python

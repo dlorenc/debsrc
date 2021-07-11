@@ -1,0 +1,29 @@
+Package: combblas
+Binary: libcombblas-dev, libcombblas1.16.0, libcombblas-docs
+Version: 1.6.2-6
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.3), doxygen, graphviz, mpi-default-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 23175851a16c1c280fcec00e43ed81e1 2231 combblas_1.6.2-6.dsc
+ 08554bb2fc66ff141ef9c3e6d3f2bc4d 1555398 combblas_1.6.2.orig.tar.gz
+ cfeae391ab1126e23777ef56975c0c86 33746944 combblas_1.6.2-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/combblas
+Vcs-Git: https://salsa.debian.org/science-team/combblas.git
+Checksums-Sha256:
+ 8587d74e0e0c963da3eaa2b0fd4f319dc9dd7b61b15c4412b735932cf1033a77 2231 combblas_1.6.2-6.dsc
+ 2a35c725606f18d010c110c66814b6558dae26f6807ac01c843c788fdb5b3ca9 1555398 combblas_1.6.2.orig.tar.gz
+ c8e015c6c7050069a691d70ad2a306f42f96db4d5d9ca103531a73f1d9e9d255 33746944 combblas_1.6.2-6.debian.tar.xz
+Homepage: https://people.eecs.berkeley.edu/~aydin/CombBLAS/html/index.html
+Package-List: 
+ libcombblas-dev deb libdevel optional arch=any
+ libcombblas-docs deb libdevel optional arch=all
+ libcombblas1.16.0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/c/combblas
+Priority: extra
+Section: misc

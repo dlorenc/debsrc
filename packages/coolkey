@@ -1,0 +1,27 @@
+Package: coolkey
+Binary: coolkey, libckyapplet1, libckyapplet1-dev
+Version: 1.1.0-16
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Uploaders: Ludovic Rousseau <rousseau@debian.org>
+Build-Depends: debhelper-compat (= 12), autoconf, pkg-config, zlib1g-dev, libpcsclite-dev, libnss3-dev, libnspr4-dev, dh-exec (>= 0.3)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 60da9e78bf85306046c2688f347abcb2 2139 coolkey_1.1.0-16.dsc
+ 815a1811a46bf9b8782107c073149cbe 432808 coolkey_1.1.0.orig.tar.gz
+ c11160731394b18e542fe102ff939293 24712 coolkey_1.1.0-16.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/coolkey
+Vcs-Git: https://salsa.debian.org/debian/coolkey.git
+Checksums-Sha256:
+ b102fd4bca0e469ec2acf96ada101d9a38250ca37280b7c152a09377e796e966 2139 coolkey_1.1.0-16.dsc
+ 8448e3abb81bffc593c96b577dcfbc05b40e8684188456c31be15fae73d730f7 432808 coolkey_1.1.0.orig.tar.gz
+ 707c100f10718bf700ec442cb5beedceb0f55a601b8bf51f3942eab9c9c9ca64 24712 coolkey_1.1.0-16.debian.tar.xz
+Homepage: http://directory.fedoraproject.org/wiki/CoolKey
+Package-List: 
+ coolkey deb admin optional arch=any
+ libckyapplet1 deb libs optional arch=any
+ libckyapplet1-dev deb libdevel optional arch=any
+Directory: pool/main/c/coolkey
+Priority: source
+Section: admin

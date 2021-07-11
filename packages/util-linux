@@ -1,0 +1,54 @@
+Package: util-linux
+Binary: util-linux, util-linux-locales, mount, bsdutils, bsdextrautils, fdisk, fdisk-udeb, libblkid1, libblkid1-udeb, libblkid-dev, libfdisk1, libfdisk1-udeb, libfdisk-dev, libmount1, libmount1-udeb, libmount-dev, libsmartcols1, libsmartcols1-udeb, libsmartcols-dev, libuuid1, uuid-runtime, libuuid1-udeb, uuid-dev, util-linux-udeb, rfkill, eject, eject-udeb
+Version: 2.36.1-7
+Maintainer: util-linux packagers <util-linux@packages.debian.org>
+Uploaders: Chris Hofstaedtler <zeha@debian.org>
+Build-Depends: bc <!stage1 !nocheck>, bison, debhelper-compat (= 13), dh-exec, gettext, libaudit-dev [linux-any] <!stage1>, libcap-ng-dev [linux-any] <!stage1>, libncurses5-dev, libncursesw5-dev, libpam0g-dev <!stage1>, libselinux1-dev (>= 2.6-3~) [linux-any], libsystemd-dev [linux-any] <!stage1>, libtool, libudev-dev [linux-any] <!stage1>, netbase <!stage1 !nocheck>, pkg-config, po-debconf, socat <!stage1 !nocheck>, systemd [linux-any] <!stage1>, zlib1g-dev
+Build-Conflicts: libcryptsetup-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4d22fee6e2f0a57fce659e177042c400 4271 util-linux_2.36.1-7.dsc
+ b0b702979d47043d9c4d8ba93be21e20 5231880 util-linux_2.36.1.orig.tar.xz
+ e59c8a0eacb0d0d8257c532cb824f018 98140 util-linux_2.36.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/util-linux
+Vcs-Git: https://salsa.debian.org/debian/util-linux.git
+Checksums-Sha256:
+ 659947b09a7c95769e3ac28fed878f8dc73d9655c7386837f3b4fb31f9c382d5 4271 util-linux_2.36.1-7.dsc
+ 09fac242172cd8ec27f0739d8d192402c69417617091d8c6e974841568f37eed 5231880 util-linux_2.36.1.orig.tar.xz
+ 85def546377248a05e8af87482458ae6a39f081e626d3752c567e87de8dca24e 98140 util-linux_2.36.1-7.debian.tar.xz
+Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
+Package-List: 
+ bsdextrautils deb utils optional arch=any profile=!stage1
+ bsdutils deb utils required arch=any profile=!stage1 essential=yes
+ eject deb utils optional arch=linux-any
+ eject-udeb udeb debian-installer optional arch=linux-any
+ fdisk deb utils important arch=any profile=!stage1
+ fdisk-udeb udeb debian-installer optional arch=hurd-any,linux-any profile=!stage1
+ libblkid-dev deb libdevel optional arch=any
+ libblkid1 deb libs optional arch=any
+ libblkid1-udeb udeb debian-installer optional arch=any
+ libfdisk-dev deb libdevel optional arch=any
+ libfdisk1 deb libs optional arch=any
+ libfdisk1-udeb udeb debian-installer optional arch=any
+ libmount-dev deb libdevel optional arch=linux-any
+ libmount1 deb libs optional arch=any
+ libmount1-udeb udeb debian-installer optional arch=linux-any
+ libsmartcols-dev deb libdevel optional arch=any
+ libsmartcols1 deb libs optional arch=any
+ libsmartcols1-udeb udeb debian-installer optional arch=any
+ libuuid1 deb libs optional arch=any
+ libuuid1-udeb udeb debian-installer optional arch=any
+ mount deb admin required arch=linux-any profile=!stage1
+ rfkill deb utils optional arch=linux-any profile=!stage1
+ util-linux deb utils required arch=any profile=!stage1 essential=yes
+ util-linux-locales deb localization optional arch=all profile=!stage1
+ util-linux-udeb udeb debian-installer optional arch=any profile=!stage1
+ uuid-dev deb libdevel optional arch=any
+ uuid-runtime deb utils optional arch=any profile=!stage1
+Testsuite: autopkgtest
+Testsuite-Triggers: bash, bc, bsdmainutils, build-essential, dpkg, grep, pkg-config
+Directory: pool/main/u/util-linux
+Priority: source
+Section: utils

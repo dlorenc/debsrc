@@ -1,0 +1,25 @@
+Package: textdistance
+Binary: python3-textdistance
+Version: 4.2.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Otto Kekäläinen <otto@debian.org>, Julian Gilbey <jdg@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-abydos <!nocheck>, python3-all, python3-distance <!nocheck>, python3-hypothesis <!nocheck>, python3-isort <!nocheck>, python3-jellyfish <!nocheck>, python3-levenshtein <!nocheck>, python3-numpy <!nocheck>, python3-py-stringmatching <!nocheck>, python3-pylev <!nocheck>, python3-pytest <!nocheck>, python3-pyxdameraulevenshtein <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9998b1405e6e6ee15548bbb77ae17cd7 2417 textdistance_4.2.0-2.dsc
+ 8acf3f48c0f189d4e7fc0e7a24e506b6 46403 textdistance_4.2.0.orig.tar.gz
+ ceefdf41d6dd6bf2ab5e7bb54d0c0374 2980 textdistance_4.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/textdistance
+Vcs-Git: https://salsa.debian.org/python-team/packages/textdistance.git
+Checksums-Sha256:
+ 54cecfc13347ad097913ce66111ae419fed1784eff671a347e1ef477af09d524 2417 textdistance_4.2.0-2.dsc
+ b2c9865b47a4c83e461337bcd9f038d8c202af18987d531be8a6ea5abc62b25e 46403 textdistance_4.2.0.orig.tar.gz
+ d488095a231c297f03bfd12d10f7c08f0d37c81897327afb4cbda5951e37a940 2980 textdistance_4.2.0-2.debian.tar.xz
+Homepage: https://github.com/life4/textdistance
+Package-List: 
+ python3-textdistance deb python optional arch=all
+Directory: pool/main/t/textdistance
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-try-from
+Binary: librust-try-from-dev
+Version: 0.3.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1724ae4f5d1f25d0568a4daec191b60a 2197 rust-try-from_0.3.2-2.dsc
+ 0c869ecf1f365d9eb5e39e6a65771b64 4264 rust-try-from_0.3.2.orig.tar.gz
+ 6bfdfabb55afe7c7eb254a47ba2c2c43 2624 rust-try-from_0.3.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/try-from
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/try-from]
+Checksums-Sha256:
+ 737a5a53d13d8e3c7072d46fa77431bea36d290ced6610a0a36c49eaf3a1eb44 2197 rust-try-from_0.3.2-2.dsc
+ 283d3b89e1368717881a9d51dad843cc435380d8109c9e47d38780a324698d8b 4264 rust-try-from_0.3.2.orig.tar.gz
+ 250ee320e3d8be22cbc99054ac4c696711133b482a6d846ceca77e8ab554b534 2624 rust-try-from_0.3.2-2.debian.tar.xz
+Package-List: 
+ librust-try-from-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-try-from
+Priority: extra
+Section: misc

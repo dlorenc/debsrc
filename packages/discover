@@ -1,0 +1,24 @@
+Package: discover
+Binary: discover, libdiscover2, libdiscover-dev
+Version: 2.1.2-8
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: David Nusinow <dnusinow@debian.org>, Petter Reinholdtsen <pere@debian.org>
+Build-Depends: debhelper (>= 8), libexpat1-dev, po-debconf, libusb-dev, autotools-dev
+Architecture: any
+Standards-Version: 3.8.0
+Format: 1.0
+Files:
+ e3378a63b8c047ebe8619a1a850c94b4 1926 discover_2.1.2-8.dsc
+ af78b63cc8db31b11d7e25958423611e 672152 discover_2.1.2.orig.tar.gz
+ 95acf2c0714a3f16b348ba1cae12df8e 188653 discover_2.1.2-8.diff.gz
+Checksums-Sha256:
+ dd086a0bfbeb5947d7a646260a7f10749a30309c9c09093a7695f6c0271f94c5 1926 discover_2.1.2-8.dsc
+ 8916d2ac03fd436387f7986bc25be9c9aa5899c0d0cb172324d13bf6f0a8ae74 672152 discover_2.1.2.orig.tar.gz
+ b3659bd8b3869aba77b9f20593286dba12adecabf0cf307d9346d533734a3d6f 188653 discover_2.1.2-8.diff.gz
+Package-List: 
+ discover deb admin optional arch=any
+ libdiscover-dev deb libdevel optional arch=any
+ libdiscover2 deb libs optional arch=any
+Directory: pool/main/d/discover
+Priority: source
+Section: admin

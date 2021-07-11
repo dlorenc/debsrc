@@ -1,0 +1,27 @@
+Package: ruby-ammeter
+Binary: ruby-ammeter
+Version: 1.1.4-3
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-activerecord, ruby-activesupport (>= 3.0), ruby-haml-rails, ruby-railties (>= 3.0), ruby-rspec, ruby-rspec-rails (>= 2.2), ruby-sqlite3
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f5ecbbe72cd6946f0581856c20cf2131 1829 ruby-ammeter_1.1.4-3.dsc
+ e69c35d86a0e4660808535650dacd27a 15442 ruby-ammeter_1.1.4.orig.tar.gz
+ 5261d850485fe62000f1eeaf2ad53c3e 3244 ruby-ammeter_1.1.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ammeter
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ammeter.git
+Checksums-Sha256:
+ 6b4232bd10948a2352ca2be32d22d9792ac909822fc5a7aaf768cc554d8afc4e 1829 ruby-ammeter_1.1.4-3.dsc
+ bfb08dbff454bf8f890e203a726d8204d52ed4c8f6e42baceadfd0318e2be51b 15442 ruby-ammeter_1.1.4.orig.tar.gz
+ 7f18f90dec41dc65eff6b80e2926ce9742710f6320f9964881e9c97ab724813f 3244 ruby-ammeter_1.1.4-3.debian.tar.xz
+Homepage: https://github.com/alexrothenberg/ammeter
+Package-List: 
+ ruby-ammeter deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ammeter
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: commons-httpclient
+Binary: libcommons-httpclient-java, libcommons-httpclient-java-doc
+Version: 3.1-16
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>, Varun Hiremath <varun@debian.org>, Torsten Werner <twerner@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, junit, libcommons-codec-java, libcommons-logging-java, libmaven-javadoc-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f98dc3372b7ba7b760978150cd81abba 2352 commons-httpclient_3.1-16.dsc
+ 2c9b0f83ed5890af02c0df1c1776f39b 1882664 commons-httpclient_3.1.orig.tar.gz
+ 6ed88188acb149fcfd49cdabd7d53a12 13064 commons-httpclient_3.1-16.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/commons-httpclient
+Vcs-Git: https://salsa.debian.org/java-team/commons-httpclient.git
+Checksums-Sha256:
+ 0f26768bce847ceb8cd3ac6728a7b98de6c584ef7a348259f40323a05e913042 2352 commons-httpclient_3.1-16.dsc
+ f9a496d3418b0e15894fb351652cd4fa5ca434ebfc3ce3bb8da40defd8b097f2 1882664 commons-httpclient_3.1.orig.tar.gz
+ 5a965666f2d72e0aa13cf90b7147f826ad8a9e680622f53447c4f779577911c3 13064 commons-httpclient_3.1-16.debian.tar.xz
+Homepage: http://hc.apache.org/httpclient-3.x
+Package-List: 
+ libcommons-httpclient-java deb java optional arch=all
+ libcommons-httpclient-java-doc deb doc optional arch=all
+Directory: pool/main/c/commons-httpclient
+Priority: source
+Section: libs

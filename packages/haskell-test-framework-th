@@ -1,0 +1,28 @@
+Package: haskell-test-framework-th
+Binary: libghc-test-framework-th-dev, libghc-test-framework-th-prof, libghc-test-framework-th-doc
+Version: 0.2.4-12
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Kiwamu Okabe <kiwamu@debian.or.jp>, Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-language-haskell-extract-dev (>= 0.2), libghc-language-haskell-extract-prof, libghc-regex-posix-dev, libghc-regex-posix-prof, libghc-src-exts-dev, libghc-src-exts-prof, libghc-test-framework-dev, libghc-test-framework-prof
+Build-Depends-Indep: ghc-doc, libghc-language-haskell-extract-doc, libghc-regex-posix-doc, libghc-src-exts-doc, libghc-test-framework-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8716ebfb3bb5d189414387195b94bad0 2824 haskell-test-framework-th_0.2.4-12.dsc
+ d9bd55a06d7fa1c772202a05e8ea03d5 2977 haskell-test-framework-th_0.2.4.orig.tar.gz
+ 2806a470295f7c7a8f50a2176cc579ef 3304 haskell-test-framework-th_0.2.4-12.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-test-framework-th
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-test-framework-th]
+Checksums-Sha256:
+ 81e6dee7e4bc50ccdf74ede6eebf547fb23da1c2888ca576b553ef8b6f74494a 2824 haskell-test-framework-th_0.2.4-12.dsc
+ 8b780d9e3edd8d91e24f72d9fa1f80420e52959428ad7c22d0694901a43f9c8a 2977 haskell-test-framework-th_0.2.4.orig.tar.gz
+ 58a50bff1bfe2b23fb788882e6d7fda7732bb135402e79bc6b2850272c5c14e8 3304 haskell-test-framework-th_0.2.4-12.debian.tar.xz
+Homepage: https://github.com/finnsson/test-generator
+Package-List: 
+ libghc-test-framework-th-dev deb haskell optional arch=any
+ libghc-test-framework-th-doc deb doc optional arch=all
+ libghc-test-framework-th-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-test-framework-th
+Priority: source
+Section: haskell

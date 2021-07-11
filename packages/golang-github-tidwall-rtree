@@ -1,0 +1,27 @@
+Package: golang-github-tidwall-rtree
+Binary: golang-github-tidwall-rtree-dev
+Version: 0.0~git20180113.6cd4270-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-tidwall-tinyqueue-dev
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ fa0f08eca7c54f7ef550e4fbd6e089e9 2403 golang-github-tidwall-rtree_0.0~git20180113.6cd4270-2.dsc
+ b025a673c538eea317fab9dc196b848e 11396 golang-github-tidwall-rtree_0.0~git20180113.6cd4270.orig.tar.xz
+ b2016742dcb7fb076076f59b6806a8fb 2012 golang-github-tidwall-rtree_0.0~git20180113.6cd4270-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-tidwall-rtree
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-tidwall-rtree.git
+Checksums-Sha256:
+ cb6f1d1e2f9983689f47d0ab2305e7aeea8ed5872d1d64b385c53270b77165ca 2403 golang-github-tidwall-rtree_0.0~git20180113.6cd4270-2.dsc
+ 9d882a50a90d52014037601c2e9c88d11b5792ccb26dede14453520689954eb2 11396 golang-github-tidwall-rtree_0.0~git20180113.6cd4270.orig.tar.xz
+ 5e93c6efe1031788b2039a2192367267d2f189fc0c6e417627e32f9d87ccb765 2012 golang-github-tidwall-rtree_0.0~git20180113.6cd4270-2.debian.tar.xz
+Homepage: https://github.com/tidwall/rtree
+Go-Import-Path: github.com/tidwall/rtree
+Package-List: 
+ golang-github-tidwall-rtree-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-tidwall-rtree
+Priority: extra
+Section: golang

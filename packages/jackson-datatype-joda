@@ -1,0 +1,25 @@
+Package: jackson-datatype-joda
+Binary: libjackson2-datatype-joda-java
+Version: 2.12.1-1
+Maintainer: Debian Java maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hp.com>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, junit4, libbuild-helper-maven-plugin-java, libjackson2-annotations-java (>= 2.8.5), libjackson2-core-java (>= 2.8.5), libjackson2-databind-java (>= 2.8.5), libjoda-time-java, libmaven-bundle-plugin-java, libmaven-enforcer-plugin-java, libmaven-shade-plugin-java, libreplacer-java, maven-debian-helper, xmlstarlet
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a364ef9741dfa2ca62e13f53625f2c17 2445 jackson-datatype-joda_2.12.1-1.dsc
+ 680c1ff174a4472351a20d59097e6ece 32056 jackson-datatype-joda_2.12.1.orig.tar.xz
+ c67fe66d6d832c6a438b5b94859bbabd 3736 jackson-datatype-joda_2.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jackson-datatype-joda
+Vcs-Git: https://salsa.debian.org/java-team/jackson-datatype-joda.git
+Checksums-Sha256:
+ 2b11ae867a137ec8b9b3d1a9cfc0a63236251d3901776025186efef586192c0e 2445 jackson-datatype-joda_2.12.1-1.dsc
+ 557877310ab30e107df88b41a10f61bcad995efc51e2a71dfe0f4ed9444479cd 32056 jackson-datatype-joda_2.12.1.orig.tar.xz
+ 76b2d72c48b53828d2af06d0ca7f29e182da352a39c452563f3d1c985270e2a2 3736 jackson-datatype-joda_2.12.1-1.debian.tar.xz
+Homepage: https://github.com/FasterXML/jackson-datatype-joda
+Package-List: 
+ libjackson2-datatype-joda-java deb java optional arch=all
+Directory: pool/main/j/jackson-datatype-joda
+Priority: optional
+Section: misc

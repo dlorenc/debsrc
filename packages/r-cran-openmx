@@ -1,0 +1,27 @@
+Package: r-cran-openmx
+Binary: r-cran-openmx
+Version: 2.18.1-3
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-digest, r-cran-mass, r-cran-matrix, r-cran-rcpp, r-cran-lifecycle, r-cran-rcppeigen, r-cran-stanheaders, r-cran-bh (>= 1.66.0), r-cran-rpf, libboost-system-dev, libsqlite3-dev, libzstd-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 05be7865c2c0ce0a0936d937a63ada6e 2291 r-cran-openmx_2.18.1-3.dsc
+ 80cbe37ea592e38b5ad3154518a0e351 3365620 r-cran-openmx_2.18.1.orig.tar.xz
+ 80bb58a64272a629fdb6e458a8001d0f 7312 r-cran-openmx_2.18.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-openmx
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-openmx.git
+Checksums-Sha256:
+ c3ba07b1d2cde7d9ad9436a3a2ee211970f41ac63b4d277a3c8e6c02d66a2531 2291 r-cran-openmx_2.18.1-3.dsc
+ 5e9ec3fbbe2b45f1c1b055064015303e8b6df32478d8928deacc787480091062 3365620 r-cran-openmx_2.18.1.orig.tar.xz
+ ad9508e94f561cbd47d794141364af9f2bbd64e732a62bffcd9b4ead2a1cc14e 7312 r-cran-openmx_2.18.1-3.debian.tar.xz
+Homepage: https://cran.r-project.org/package=OpenMx
+Package-List: 
+ r-cran-openmx deb gnu-r optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: r-cran-numderiv, r-cran-testthat
+Directory: pool/main/r/r-cran-openmx
+Priority: extra
+Section: misc

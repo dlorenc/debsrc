@@ -1,0 +1,27 @@
+Package: libgo-perl
+Binary: libgo-perl
+Version: 0.15-9
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: perl, libdata-stag-perl, libxml-libxslt-perl, libxml-writer-perl, libxml-checker-perl, xsltproc, libbio-perl-perl, rename
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f65288cd6c18b86678623669619d1225 2161 libgo-perl_0.15-9.dsc
+ f4fb4f051821a836047e528303db585d 808993 libgo-perl_0.15.orig.tar.gz
+ 27cca14f6f98fb666ca190c4222152a2 8316 libgo-perl_0.15-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libgo-perl
+Vcs-Git: https://salsa.debian.org/med-team/libgo-perl.git
+Checksums-Sha256:
+ a21b1f37865753ec933519b0edd889955a9d998ed3d2ca8147f65ccade6d2b33 2161 libgo-perl_0.15-9.dsc
+ 423d26155ee85ca51ab2270cee59f4e85b193e57ac3a29aff827298c0a396b12 808993 libgo-perl_0.15.orig.tar.gz
+ 7e7c108c0e0f696e8c78185ed5dae30fb2b3b4e5f8903dc1f818b5dd60a48a2a 8316 libgo-perl_0.15-9.debian.tar.xz
+Homepage: http://geneontology.sourceforge.net/
+Package-List: 
+ libgo-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libg/libgo-perl
+Priority: source
+Section: perl

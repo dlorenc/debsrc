@@ -1,0 +1,28 @@
+Package: haskell-language-c
+Binary: libghc-language-c-dev, libghc-language-c-prof, libghc-language-c-doc
+Version: 0.8.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Erik de Castro Lopo <erikd@mega-nerd.com>, Clint Adams <clint@debian.org>,
+Build-Depends: alex, cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, happy, haskell-devscripts (>= 0.13), libghc-syb-dev, libghc-syb-prof
+Build-Depends-Indep: ghc-doc, libghc-syb-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 0f2a6ee00a5b353233d48920e1776b4d 2441 haskell-language-c_0.8.3-1.dsc
+ 910b20d8348cd353a0c3e8b928caf73b 194870 haskell-language-c_0.8.3.orig.tar.gz
+ 650a2a797965ed3c6394d527cef54d92 3804 haskell-language-c_0.8.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-language-c
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-language-c]
+Checksums-Sha256:
+ 5797e0d680f2159f4b43cca96129d402e0a9429fa054f17d76e72895e2e4c29c 2441 haskell-language-c_0.8.3-1.dsc
+ f3d66c18abececb468f2b069f0c3274709456fde6938eace46dacf1c9b14202e 194870 haskell-language-c_0.8.3.orig.tar.gz
+ 1ad2e087529e0569d8170c2752a02e60da15216bcb8cce6422d812420f47b68c 3804 haskell-language-c_0.8.3-1.debian.tar.xz
+Homepage: http://visq.github.io/language-c/
+Package-List: 
+ libghc-language-c-dev deb haskell optional arch=any
+ libghc-language-c-doc deb doc optional arch=all
+ libghc-language-c-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-language-c
+Priority: source
+Section: haskell

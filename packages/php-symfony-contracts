@@ -1,0 +1,32 @@
+Package: php-symfony-contracts
+Binary: php-symfony-contracts, php-symfony-cache-contracts, php-symfony-event-dispatcher-contracts, php-symfony-http-client-contracts, php-symfony-service-contracts, php-symfony-translation-contracts
+Version: 1.1.10-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), jq, php-intl, php-psr-cache, php-psr-container, phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8d1a6ae4a2d89a9f311b9b76a5294028 2380 php-symfony-contracts_1.1.10-2.dsc
+ 25db1f096cb57b1a439555e5266ed07f 28578 php-symfony-contracts_1.1.10.orig.tar.gz
+ 365f608642952233d6514791a92ab33e 5992 php-symfony-contracts_1.1.10-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-symfony-contracts
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-symfony-contracts.git -b debian/bullseye
+Checksums-Sha256:
+ 7be98c38d66e516210597507e43bb455fd4be53846116a4833625b3438e22cca 2380 php-symfony-contracts_1.1.10-2.dsc
+ f20dfb66340bce794e044414cdef73d1821b5ca83ee7bad7f1763d6f68952c0a 28578 php-symfony-contracts_1.1.10.orig.tar.gz
+ 87179bb02cc73d931d5aa6d00c3a7a4e66d859c9af9ad98b5e02c53e6d3693fc 5992 php-symfony-contracts_1.1.10-2.debian.tar.xz
+Homepage: https://symfony.com/components/Contracts
+Package-List: 
+ php-symfony-cache-contracts deb php optional arch=all
+ php-symfony-contracts deb php optional arch=all
+ php-symfony-event-dispatcher-contracts deb php optional arch=all
+ php-symfony-http-client-contracts deb php optional arch=all
+ php-symfony-service-contracts deb php optional arch=all
+ php-symfony-translation-contracts deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-intl, phpab, phpunit
+Directory: pool/main/p/php-symfony-contracts
+Priority: extra
+Section: misc

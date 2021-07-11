@@ -1,0 +1,25 @@
+Package: android-platform-system-tools-hidl
+Binary: hidl-gen
+Version: 10.0.0+r36-2
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Katerina <ykaterina0319@gmail.com>
+Build-Depends: android-libbase-dev (>= 1:10.0.0+r36~), android-libboringssl-dev (>= 10.0.0+r36~), android-libcrypto-utils-dev (>= 1:10.0.0+r36-3~), android-liblog-dev (>= 1:10.0.0+r36~), android-libutils-dev (>= 1:10.0.0+r36~), bison, clang, debhelper-compat (= 13), dh-exec, flex
+Architecture: amd64 i386 armel armhf arm64
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f235bc212939239dcdf81088c6a9c815 2174 android-platform-system-tools-hidl_10.0.0+r36-2.dsc
+ 8d072e1d4c92db59f2fc5f14f14482da 248923 android-platform-system-tools-hidl_10.0.0+r36.orig.tar.gz
+ 6c8b8c993fba340a65dabbac8c7c88f7 35256 android-platform-system-tools-hidl_10.0.0+r36-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/android-tools-team/android-platform-system-tools-hidl
+Vcs-Git: https://salsa.debian.org/android-tools-team/android-platform-system-tools-hidl.git
+Checksums-Sha256:
+ ff5192c879a6beeb73b5377644b184e9b2aa1ec56ccf6be0daf6ab7e773de61a 2174 android-platform-system-tools-hidl_10.0.0+r36-2.dsc
+ 61b45e2142040c6b2d102ba7c16b7fc36476f24200b60a9fe46a866e7550018d 248923 android-platform-system-tools-hidl_10.0.0+r36.orig.tar.gz
+ 6ca7086a5ed9b127fd29fce0909cf7f32c090f45c5c32925f9ecf149669897cf 35256 android-platform-system-tools-hidl_10.0.0+r36-2.debian.tar.xz
+Homepage: https://android.googlesource.com/platform/system/tools/hidl
+Package-List: 
+ hidl-gen deb devel optional arch=amd64,i386,armel,armhf,arm64
+Directory: pool/main/a/android-platform-system-tools-hidl
+Priority: extra
+Section: misc

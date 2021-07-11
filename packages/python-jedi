@@ -1,0 +1,25 @@
+Package: python-jedi
+Binary: python3-jedi, vim-python-jedi
+Version: 0.18.0-1
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, dh-sequence-vim-addon, python3-all, python3-setuptools, python3-pytest, python3-unittest2, python3-docopt
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e1f29a43ea40cd1e92bb8d78916772df 2200 python-jedi_0.18.0-1.dsc
+ 39126f249c1973410fb63eb2f1e9d19f 36564 python-jedi_0.18.0.orig-vim.tar.xz
+ 8141ad55b9197af783d4fad660f37694 807312 python-jedi_0.18.0.orig.tar.xz
+ e8ae56f55c26def355449a6aff64c5be 4716 python-jedi_0.18.0-1.debian.tar.xz
+Checksums-Sha256:
+ 4afd9cb88722aa0217c7bb8e4e0c428f8237a0eb34be5c3e2299327536f2638f 2200 python-jedi_0.18.0-1.dsc
+ 5c4020ba809e0d9355b7b6dcdaab05ad4ce2eb157d6881c787b424cd8ba806fb 36564 python-jedi_0.18.0.orig-vim.tar.xz
+ 23ae6b91f3d31a9ecdd0b7abe380d0fe2355e8791d55b955baa078877974afd2 807312 python-jedi_0.18.0.orig.tar.xz
+ 3be0300fd1f0d25f141d1103579c5653e8aff2f15d278c6a0b216e31cdbd03b9 4716 python-jedi_0.18.0-1.debian.tar.xz
+Homepage: https://github.com/davidhalter/jedi
+Package-List: 
+ python3-jedi deb python optional arch=all
+ vim-python-jedi deb python optional arch=all
+Directory: pool/main/p/python-jedi
+Priority: source
+Section: misc

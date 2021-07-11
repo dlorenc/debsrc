@@ -1,0 +1,29 @@
+Package: liboggz
+Binary: liboggz2, liboggz2-dev, oggz-tools
+Version: 1.1.1-7
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org> , Martin Steghöfer <martin@steghoefer.eu> , Ralph Giles <giles@thaumas.net>
+Build-Depends: debhelper (>= 12), libogg-dev, doxygen, docbook-to-man, libtool, bash-completion (>= 1.1), pkg-config, vorbis-tools <!nocheck>
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ c164d8b5ebf8541054de406d2c12a3b6 2258 liboggz_1.1.1-7.dsc
+ 3649a657f8e368b881ba8b1b57381ff7 702261 liboggz_1.1.1.orig.tar.gz
+ fa2d11672ccfa92249aa9bb431642da0 7032 liboggz_1.1.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/liboggz
+Vcs-Git: https://salsa.debian.org/multimedia-team/liboggz.git
+Checksums-Sha256:
+ b5bb031e89d72d2b5232a331134479f9ee1ee17764fb3dc1da03699e5a2b4bb3 2258 liboggz_1.1.1-7.dsc
+ 6bafadb1e0a9ae4ac83304f38621a5621b8e8e32927889e65a98706d213d415a 702261 liboggz_1.1.1.orig.tar.gz
+ 76d6a5b380598d402b22ebbbaf3218750f647d70bd398844949c437d1a014eb4 7032 liboggz_1.1.1-7.debian.tar.xz
+Homepage: https://xiph.org/oggz/
+Package-List: 
+ liboggz2 deb libs optional arch=any
+ liboggz2-dev deb libdevel optional arch=any
+ oggz-tools deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: valgrind, vorbis-tools
+Directory: pool/main/libo/liboggz
+Priority: source
+Section: libs

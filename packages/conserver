@@ -1,0 +1,26 @@
+Package: conserver
+Binary: conserver-server, conserver-client
+Version: 8.2.6-2
+Maintainer: Conserver Maintainers <conserver@packages.debian.org>
+Uploaders: Jörgen Hägg <jh@debian.org>, Bernhard Schmidt <berni@debian.org>
+Build-Depends: debhelper-compat (= 12), libkrb5-dev, libpam0g-dev, libssl-dev, libwrap0-dev, po-debconf
+Architecture: any
+Standards-Version: 4.5.1.0
+Format: 3.0 (quilt)
+Files:
+ 741cfd8893ecad9ad8f057ae216974ac 2094 conserver_8.2.6-2.dsc
+ 3ce71998387aee6489ae17ffff80b17d 288423 conserver_8.2.6.orig.tar.gz
+ 0b10283f785d5ac1131b72528d7da367 28416 conserver_8.2.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/conserver
+Vcs-Git: https://salsa.debian.org/debian/conserver.git
+Checksums-Sha256:
+ 9862c2eb84a70d1bf9d3dcf9d203aa315bb86c9b5052be7c2499092572efc3b6 2094 conserver_8.2.6-2.dsc
+ 1c8b86f123d2d8e3ce568b782087b43dfac9cf6ffd5a9bdfcfdc6718d749a923 288423 conserver_8.2.6.orig.tar.gz
+ 07de6fe23092aeab23c711dbc235a3f6c12b37c3763f8c1a298a79af49bf456a 28416 conserver_8.2.6-2.debian.tar.xz
+Homepage: https://www.conserver.com/
+Package-List: 
+ conserver-client deb comm optional arch=any
+ conserver-server deb comm optional arch=any
+Directory: pool/main/c/conserver
+Priority: extra
+Section: misc

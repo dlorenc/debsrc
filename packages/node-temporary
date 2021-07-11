@@ -1,0 +1,26 @@
+Package: node-temporary
+Binary: node-temporary
+Version: 1.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-buildinfo, nodejs, mocha, chai, node-sinon, node-package, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f43b2c77ab5d07f4f018630fe0162ffe 2097 node-temporary_1.1.0-1.dsc
+ 26e38ef8514cfb81f5fcc7ff27a7ae21 10081 node-temporary_1.1.0.orig.tar.gz
+ 931b97bfb36fab261fdbcb2408c09292 2772 node-temporary_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-temporary
+Vcs-Git: https://salsa.debian.org/js-team/node-temporary.git
+Checksums-Sha256:
+ c044b848afe94c184a9f098447c75d83364ea127948a704dc0b97080e467a50f 2097 node-temporary_1.1.0-1.dsc
+ 825818eb517fcac0baa2ecc900f7dcbe535611955c245ea3a30677d6ff6bf2aa 10081 node-temporary_1.1.0.orig.tar.gz
+ badd409b0c6b7394aa7c5479a9cf7c6423fc56b47c4081e37bcad9f4141c0d44 2772 node-temporary_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/vesln/temporary
+Package-List: 
+ node-temporary deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-temporary
+Priority: optional
+Section: javascript

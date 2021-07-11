@@ -1,0 +1,27 @@
+Package: python-twitter
+Binary: python3-twitter, python-twitter-doc
+Version: 3.3-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Koichi Akabe <vbkaisetsu@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3 (>= 3.5), python3-pytest-runner, python3-pytest, python3-responses, python3-setuptools, python3-requests-oauthlib, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 14d4d0932d97d4e5aa3239f2455f39e5 2272 python-twitter_3.3-2.dsc
+ 2dff8705eb82c65fb5e24df0d38af129 5067412 python-twitter_3.3.orig.tar.gz
+ b0595acf0e9b125fe08b7da820ed702d 4816 python-twitter_3.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-twitter
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-twitter.git
+Checksums-Sha256:
+ 8977f99723a6e1d58ac2c016ced6e9be8bf5b5dc505d17713fad3658fae8b493 2272 python-twitter_3.3-2.dsc
+ b34ff9aabb0e93d1a89d70c332b77ba0dbe518d6fb9db42452dc344e6a83cca3 5067412 python-twitter_3.3.orig.tar.gz
+ 08acb84616e160b2e7924cdcc98c42c430ae609e9f4eee7991e30884aee2bc4d 4816 python-twitter_3.3-2.debian.tar.xz
+Homepage: https://github.com/bear/python-twitter
+Package-List: 
+ python-twitter-doc deb doc optional arch=all
+ python3-twitter deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-twitter
+Priority: source
+Section: python

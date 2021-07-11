@@ -1,0 +1,26 @@
+Package: sezpoz
+Binary: libsezpoz-java, libsezpoz-java-doc
+Version: 1.12-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: James Page <james.page@ubuntu.com>
+Build-Depends: debhelper (>= 11), default-jdk, default-jdk-doc, junit4, libanimal-sniffer-java, libmaven-javadoc-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 01f43c984abbecd026707e3102518805 2090 sezpoz_1.12-1.dsc
+ 65356d319670a4f7a6ed91cc1a554925 54560 sezpoz_1.12.orig.tar.xz
+ 2791d2f1e8c4b16d4983c9e26c62af0d 9636 sezpoz_1.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/sezpoz
+Vcs-Git: https://salsa.debian.org/java-team/sezpoz.git
+Checksums-Sha256:
+ 3c430db2d9ea2105ef1d0b3e400de13737674ef36bb8fc6a29e3f55abe4f3ea4 2090 sezpoz_1.12-1.dsc
+ 65ff7e52c78bc9a0f1021500bd8d987bcad83f6ed855e00840f58efd9ef39d6b 54560 sezpoz_1.12.orig.tar.xz
+ a678135f15a2c3393172cfc43662fd2f6f574b5a17d694cd01a540eb5b5dc514 9636 sezpoz_1.12-1.debian.tar.xz
+Homepage: https://github.com/jglick/sezpoz
+Package-List: 
+ libsezpoz-java deb java optional arch=all
+ libsezpoz-java-doc deb doc optional arch=all
+Directory: pool/main/s/sezpoz
+Priority: source
+Section: java

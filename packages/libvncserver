@@ -1,0 +1,29 @@
+Package: libvncserver
+Binary: libvncclient1, libvncserver1, libvncserver-dev
+Version: 0.9.13+dfsg-2
+Maintainer: Debian Remote Maintainers <debian-remote@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: cmake (>= 3.4), debhelper-compat (= 13), libgnutls28-dev, libjpeg-dev, liblzo2-dev, pkg-config, libgcrypt20-dev, libsasl2-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a2e5ed4fe5145284007be31de5b3fcb1 2326 libvncserver_0.9.13+dfsg-2.dsc
+ 245a28670f3b886b20c3755b4eaeb0e3 423180 libvncserver_0.9.13+dfsg.orig.tar.xz
+ 6569c7b4dc719a2066e59b6b172c17c4 16116 libvncserver_0.9.13+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-remote-team/libvncserver/
+Vcs-Git: https://salsa.debian.org/debian-remote-team/libvncserver.git
+Checksums-Sha256:
+ ae469f6bb6e0b1612128d1f63cd56958cb8d5ea73e913f2ec9ffaa4c824a77e1 2326 libvncserver_0.9.13+dfsg-2.dsc
+ 4048514b74d9e614102d60bc038de58a34dbc5eaaf1a4961b76027578e770e9d 423180 libvncserver_0.9.13+dfsg.orig.tar.xz
+ cf7f2c48660402f4b39d2fc4be8b96a8e00bd18b7386f1cd6eb4e62ba1e1f653 16116 libvncserver_0.9.13+dfsg-2.debian.tar.xz
+Homepage: http://libvnc.github.io
+Package-List: 
+ libvncclient1 deb libs optional arch=any
+ libvncserver-dev deb libdevel optional arch=any
+ libvncserver1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/libv/libvncserver
+Priority: source
+Section: x11

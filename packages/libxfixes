@@ -1,0 +1,25 @@
+Package: libxfixes
+Binary: libxfixes3, libxfixes3-udeb, libxfixes-dev
+Version: 1:5.0.3-2
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: debhelper-compat (= 12), libx11-dev (>= 2:1.6), x11proto-dev, pkg-config, quilt, xutils-dev (>= 1:7.5+4)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 1.0
+Files:
+ f29b904b2449e1aa7ef481f470205f20 2014 libxfixes_5.0.3-2.dsc
+ fd07d0d77e92b0a72ca1740a72322837 360412 libxfixes_5.0.3.orig.tar.gz
+ 1bca452455eb3e0717b2b6d2958fbaf1 14717 libxfixes_5.0.3-2.diff.gz
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libxfixes
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/libxfixes.git
+Checksums-Sha256:
+ f47f131ee1d1ce791daa514fd43fe45e099f3a83462247bc75fc7ba0c8be42a6 2014 libxfixes_5.0.3-2.dsc
+ 9ab6c13590658501ce4bd965a8a5d32ba4d8b3bb39a5a5bc9901edffc5666570 360412 libxfixes_5.0.3.orig.tar.gz
+ aeb108219d65550e107d6f81dc2dac11e06363a55306f2505234190f96f1e961 14717 libxfixes_5.0.3-2.diff.gz
+Package-List: 
+ libxfixes-dev deb libdevel optional arch=any
+ libxfixes3 deb libs optional arch=any
+ libxfixes3-udeb udeb debian-installer optional arch=any
+Directory: pool/main/libx/libxfixes
+Priority: source
+Section: x11

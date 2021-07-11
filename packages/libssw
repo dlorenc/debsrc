@@ -1,0 +1,30 @@
+Package: libssw
+Binary: libssw0, libssw-dev, libssw-java, ssw-align
+Version: 1.1-13
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>, Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper (>= 12~), debhelper-compat (= 13), default-jdk-headless <!nojava>, javahelper <!nojava>, help2man, zlib1g-dev, libsimde-dev, maven-repo-helper <!nojava>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 13e70972912d09170e7737493eac46aa 2369 libssw_1.1-13.dsc
+ d968cd252eaa21552725829e1da94de2 12325368 libssw_1.1.orig.tar.gz
+ 519e75c15c8d6e695c7e092a696bed85 54180 libssw_1.1-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libssw
+Vcs-Git: https://salsa.debian.org/med-team/libssw.git
+Checksums-Sha256:
+ 3533ca7efe7247fbf0ea532d001e6bf39e718dd6fb6deb7e453c7ae4121112b8 2369 libssw_1.1-13.dsc
+ cdbc20740daeb188ed39413ea5ff9ae4cf72c4d7ccff1d2de2cac0446d64d99f 12325368 libssw_1.1.orig.tar.gz
+ 2ceb3dac8ad50cc0f494414ed9e39455fb4c8fbff9347a36398048cabdd371b0 54180 libssw_1.1-13.debian.tar.xz
+Homepage: https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library
+Package-List: 
+ libssw-dev deb libdevel optional arch=any
+ libssw-java deb java optional arch=any profile=!nojava
+ libssw0 deb libs optional arch=any
+ ssw-align deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, default-jdk-headless, zlib1g-dev
+Directory: pool/main/libs/libssw
+Priority: optional
+Section: misc

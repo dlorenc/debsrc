@@ -1,0 +1,29 @@
+Package: node-rollup-plugin-replace
+Binary: node-rollup-plugin-replace
+Version: 2.3.4+repack+~2.2.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-magic-string, node-rollup-plugin-babel (>= 4.4~) <!pkg.node-rollup-plugin-replace.transpilebuble>, node-rollup-plugin-buble (>= 0.19.8~) <pkg.node-rollup-plugin-replace.transpilebuble>, node-rollup-pluginutils (>= 3.1.0~), node-tape <!nocheck>, nodejs (>= 10), dh-sequence-nodejs, rollup (>> 0.68.2+ds~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e55729074ac86dc33f30d9b70fd42cd2 2976 node-rollup-plugin-replace_2.3.4+repack+~2.2.0-1.dsc
+ 246be610ac7ead3522f5b04b10488071 38212 node-rollup-plugin-replace_2.3.4+repack+~2.2.0.orig-legacy.tar.xz
+ 5daceb64e1eff65b5c056ada86264e6e 324792 node-rollup-plugin-replace_2.3.4+repack+~2.2.0.orig.tar.xz
+ 50cc9992b61608f3538e7a780533faa1 6156 node-rollup-plugin-replace_2.3.4+repack+~2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rollup-plugin-replace
+Vcs-Git: https://salsa.debian.org/js-team/node-rollup-plugin-replace.git
+Checksums-Sha256:
+ 5b2ac14add5d69305ba5c61e70a010b1995dcbdcd91c4447284014714f6f7944 2976 node-rollup-plugin-replace_2.3.4+repack+~2.2.0-1.dsc
+ 883c0d6e30b2f32ec1b4b2e6dbb0a1ece000bfc176579681d17f728b665a41a5 38212 node-rollup-plugin-replace_2.3.4+repack+~2.2.0.orig-legacy.tar.xz
+ bbe3fb6619b7c4fdb33b4309421cf93564e350b1b975c74fd21099348d1d16ce 324792 node-rollup-plugin-replace_2.3.4+repack+~2.2.0.orig.tar.xz
+ ad7e76616fbc2e54efb4518e0a20e0b194a86a88cd74fd738ddf027fdcfcb148 6156 node-rollup-plugin-replace_2.3.4+repack+~2.2.0-1.debian.tar.xz
+Homepage: https://github.com/rollup/plugins
+Package-List: 
+ node-rollup-plugin-replace deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/n/node-rollup-plugin-replace
+Priority: extra
+Section: javascript

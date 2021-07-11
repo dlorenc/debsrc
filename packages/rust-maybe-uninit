@@ -1,0 +1,26 @@
+Package: rust-maybe-uninit
+Binary: librust-maybe-uninit-dev
+Version: 2.0.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Alexander Kjäll <alexander.kjall@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c27bfe28aed02010de01ff4437c6c175 2197 rust-maybe-uninit_2.0.0-2.dsc
+ b5cf10e268e8a3bee2de8a734104245e 11809 rust-maybe-uninit_2.0.0.orig.tar.gz
+ 328a8cba8cd4f1891d51e04b74b8a9ab 2624 rust-maybe-uninit_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/maybe-uninit
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/maybe-uninit]
+Checksums-Sha256:
+ b72146476893c938a88bf8213c18f232c0d227754a3e13add620bc6d4cba57b9 2197 rust-maybe-uninit_2.0.0-2.dsc
+ 60302e4db3a61da70c0cb7991976248362f30319e88850c487b9b95bbf059e00 11809 rust-maybe-uninit_2.0.0.orig.tar.gz
+ a8350baec2f4562f7ba75e65b01e3501768c78dd12d45d23860507a527337209 2624 rust-maybe-uninit_2.0.0-2.debian.tar.xz
+Package-List: 
+ librust-maybe-uninit-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-maybe-uninit
+Priority: extra
+Section: misc

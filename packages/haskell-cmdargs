@@ -1,0 +1,28 @@
+Package: haskell-cmdargs
+Binary: libghc-cmdargs-dev, libghc-cmdargs-prof, libghc-cmdargs-doc
+Version: 0.10.20-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ce888661b606d5ac159df1e05a84e914 2311 haskell-cmdargs_0.10.20-3.dsc
+ 744e15b86ef774ed06af4e37a565f36b 64550 haskell-cmdargs_0.10.20.orig.tar.gz
+ c5587166fc549507dd7e41a4385639c4 3728 haskell-cmdargs_0.10.20-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-cmdargs
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-cmdargs]
+Checksums-Sha256:
+ 17e8c9379d9635ab57f30cffd67cb104aff44278fe328152ec86358e6296b92c 2311 haskell-cmdargs_0.10.20-3.dsc
+ 0e269dc48c3d4c0447c96ffd772a6fe69dfa1260c323f4cd7bf171cbf2ab7331 64550 haskell-cmdargs_0.10.20.orig.tar.gz
+ 6dbca9e9b6c2a5891647797ec54c4b9ab75a4fd79087cd022fa00ee6fbc4ece0 3728 haskell-cmdargs_0.10.20-3.debian.tar.xz
+Homepage: https://github.com/ndmitchell/cmdargs#readme
+Package-List: 
+ libghc-cmdargs-dev deb haskell optional arch=any
+ libghc-cmdargs-doc deb doc optional arch=all
+ libghc-cmdargs-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cmdargs
+Priority: source
+Section: haskell

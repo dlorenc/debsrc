@@ -1,0 +1,27 @@
+Package: zict
+Binary: python3-zict
+Version: 2.0.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Diane Trout <diane@ghic.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-heapdict, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e0376169f77dfe9b79f37ad4ebe4617f 2059 zict_2.0.0-1.dsc
+ d4022d911445c59395b0149248cfb64e 11571 zict_2.0.0.orig.tar.gz
+ 4e909b6f563d1bacee73c985b62b7cd1 3100 zict_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/zict
+Vcs-Git: https://salsa.debian.org/python-team/modules/zict.git
+Checksums-Sha256:
+ 73250d5ddc00a5d719fbd3cd61b9ae51eec7562a16e69518fe41dc5aeb4988da 2059 zict_2.0.0-1.dsc
+ 8e2969797627c8a663575c2fc6fcb53a05e37cdb83ee65f341fc6e0c3d0ced16 11571 zict_2.0.0.orig.tar.gz
+ f5a82ecc42a66f6c2b4e014333b99690ac6d07101633cf342692c7c8acfc90e0 3100 zict_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/mrocklin/zict/
+Package-List: 
+ python3-zict deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-lmdb, python3-pytest
+Directory: pool/main/z/zict
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-jacobsa-gcloud
+Binary: golang-github-jacobsa-gcloud-dev
+Version: 0.0~git20150709-3
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-any, golang-github-jacobsa-fuse-dev, golang-github-jacobsa-oglematchers-dev, golang-github-jacobsa-oglemock-dev, golang-github-jacobsa-ogletest-dev, golang-github-jacobsa-reqtrace-dev, golang-github-jacobsa-syncutil-dev, golang-github-jacobsa-timeutil-dev, golang-github-jacobsa-util-dev, golang-golang-x-net-dev, golang-golang-x-oauth2-dev, golang-golang-x-sys-dev, golang-google-api-dev
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ e9e7ad40ba5c6d34c42c258212e87cd1 2696 golang-github-jacobsa-gcloud_0.0~git20150709-3.dsc
+ 7ec22d922184dc5752ee8ebfd8ae851a 49356 golang-github-jacobsa-gcloud_0.0~git20150709.orig.tar.bz2
+ dc73ec00125994a8bb267e5ca0394e96 2032 golang-github-jacobsa-gcloud_0.0~git20150709-3.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-jacobsa-gcloud.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-jacobsa-gcloud.git
+Checksums-Sha256:
+ a672011dd09de80717ad1ca4d7cdcf9d1bb4f4031bbf183ac59a97d73a7e1f2b 2696 golang-github-jacobsa-gcloud_0.0~git20150709-3.dsc
+ e188dc9d38e7aa3e5c6a12cbbb3111150e091ab1018ae0b37242a383141dc035 49356 golang-github-jacobsa-gcloud_0.0~git20150709.orig.tar.bz2
+ b76fa61e1b3bf6140e42b108f8aec8dbb861156691885a1b32be74112adc98d9 2032 golang-github-jacobsa-gcloud_0.0~git20150709-3.debian.tar.xz
+Homepage: https://github.com/jacobsa/gcloud
+Go-Import-Path: github.com/jacobsa/gcloud
+Package-List: 
+ golang-github-jacobsa-gcloud-dev deb devel extra arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-jacobsa-gcloud
+Priority: extra
+Section: golang

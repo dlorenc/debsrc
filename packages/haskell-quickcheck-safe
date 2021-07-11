@@ -1,0 +1,28 @@
+Package: haskell-quickcheck-safe
+Binary: libghc-quickcheck-safe-dev, libghc-quickcheck-safe-prof, libghc-quickcheck-safe-doc
+Version: 0.1.0.6-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-quickcheck2-dev (>= 2.7.3), libghc-quickcheck2-dev (<< 2.14), libghc-quickcheck2-prof
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 282c2412789d1b389602b15c64d3547c 2565 haskell-quickcheck-safe_0.1.0.6-2.dsc
+ 1b2d22dd828212cc99ea20431dfc7bb3 4920 haskell-quickcheck-safe_0.1.0.6.orig.tar.gz
+ fdcbcc05593c219dcb4c20b738cfbe13 2852 haskell-quickcheck-safe_0.1.0.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-quickcheck-safe
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-quickcheck-safe]
+Checksums-Sha256:
+ 4542d5edb61094d293504403d9f9b8e8d2bc76a458aef212b347ed264b1e8e4b 2565 haskell-quickcheck-safe_0.1.0.6-2.dsc
+ 7786a89eca0ccc8fa9ece6ef0995fafb1bc25d1d3df7024625d5181c8d4606b9 4920 haskell-quickcheck-safe_0.1.0.6.orig.tar.gz
+ da04a3320afc9ec05944f346e54d39130472daade1a13bd5f21c8506b18d7d74 2852 haskell-quickcheck-safe_0.1.0.6-2.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/QuickCheck-safe
+Package-List: 
+ libghc-quickcheck-safe-dev deb haskell optional arch=any
+ libghc-quickcheck-safe-doc deb doc optional arch=all
+ libghc-quickcheck-safe-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-quickcheck-safe
+Priority: optional
+Section: misc

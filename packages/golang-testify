@@ -1,0 +1,27 @@
+Package: golang-testify
+Binary: golang-github-stretchr-testify-dev
+Version: 1.6.1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Jelmer Vernooĳ <jelmer@debian.org>, Anthony Fok <foka@debian.org>, Martín Ferrari <tincho@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-davecgh-go-spew-dev (>= 1.1.0), golang-github-pmezard-go-difflib-dev (>= 1.0.0), golang-github-stretchr-objx-dev (>= 0.1.0), golang-gopkg-yaml.v3-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 61b349d1d4f704a007eaacb6ebf7043d 1766 golang-testify_1.6.1-2.dsc
+ 7086de7419d64c9c9369e7696158d0a7 60508 golang-testify_1.6.1.orig.tar.xz
+ 3f089819554a6e51496543891b410289 4992 golang-testify_1.6.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-testify
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-testify.git
+Checksums-Sha256:
+ 0079b8ccc550d263a2229293a82a28405f8415d80ca93a8bcdc078bee9f2f7c7 1766 golang-testify_1.6.1-2.dsc
+ 0dd0c5987d5369ed5b7cae697b8fe38f8af06b8bfd8320294e6d08dbb0bd2caf 60508 golang-testify_1.6.1.orig.tar.xz
+ 51c96cb7b65370a1b751c9cf1e843669e9975c7af5258af62ba2b260a6827258 4992 golang-testify_1.6.1-2.debian.tar.xz
+Homepage: https://github.com/stretchr/testify
+Go-Import-Path: github.com/stretchr/testify
+Package-List: 
+ golang-github-stretchr-testify-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-testify
+Priority: extra
+Section: golang

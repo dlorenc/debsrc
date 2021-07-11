@@ -1,0 +1,30 @@
+Package: rust-stdweb
+Binary: librust-stdweb-dev, librust-stdweb+default-dev, librust-stdweb+serde-dev, librust-stdweb+serde-json-dev
+Version: 0.4.20-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-discard-1+default-dev (>= 1.0.3-~~) <!nocheck>, librust-rustc-version-0.2+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-stdweb-derive-0.5.3+default-dev <!nocheck>, librust-stdweb-internal-macros-0.2.9+default-dev <!nocheck>, librust-stdweb-internal-runtime-0.1+default-dev <!nocheck>, librust-wasm-bindgen-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 74c2f9b1d945bef899b6d376839029cb 2399 rust-stdweb_0.4.20-1.dsc
+ 82d13642cb366d10feed4e06220eea64 194102 rust-stdweb_0.4.20.orig.tar.gz
+ decbd3f072565e5af8d7faf7266d1275 3412 rust-stdweb_0.4.20-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/stdweb
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/stdweb]
+Checksums-Sha256:
+ d7d9a9effa8f716c8ac8956ed67527801ee267b62d2a4f49318ded1078e5a4da 2399 rust-stdweb_0.4.20-1.dsc
+ d022496b16281348b52d0e30ae99e01a73d737b2f45d38fed4edf79f9325a1d5 194102 rust-stdweb_0.4.20.orig.tar.gz
+ ab846e578147993d2125068de871a2e3151d0e19c3cac395618943854024ac91 3412 rust-stdweb_0.4.20-1.debian.tar.xz
+Homepage: https://github.com/koute/stdweb
+Package-List: 
+ librust-stdweb+default-dev deb rust optional arch=any
+ librust-stdweb+serde-dev deb rust optional arch=any
+ librust-stdweb+serde-json-dev deb rust optional arch=any
+ librust-stdweb-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev, librust-stdweb-internal-test-macro-0.1+default-dev, librust-wasm-bindgen-test-0.2+default-dev
+Directory: pool/main/r/rust-stdweb
+Priority: extra
+Section: misc

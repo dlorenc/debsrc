@@ -1,0 +1,27 @@
+Package: node-ipaddr.js
+Binary: node-ipaddr.js, libjs-ipaddr
+Version: 2.0.0~dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, uglifyjs.terser
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3795b93d1d521cbdc34e0596bc04443a 2168 node-ipaddr.js_2.0.0~dfsg-1.dsc
+ aafe7a1791c4209972cc54bc83a3c8a6 14252 node-ipaddr.js_2.0.0~dfsg.orig.tar.xz
+ e0fe4fd4a671a98c4a22b6b2ac69762e 3060 node-ipaddr.js_2.0.0~dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ipaddr.js
+Vcs-Git: https://salsa.debian.org/js-team/node-ipaddr.js.git
+Checksums-Sha256:
+ 9cc34c22984c6954d5e4e055763c03e823d9c8ff7f2ff498281868c1fc5a767b 2168 node-ipaddr.js_2.0.0~dfsg-1.dsc
+ bae3c6c4d48fb23a7619abb209a14053f9224e22c9142018072376c7460a8e8b 14252 node-ipaddr.js_2.0.0~dfsg.orig.tar.xz
+ f61f48be2216f57fa93a38e29dffe32502e30bf674d662d3792985017660a0de 3060 node-ipaddr.js_2.0.0~dfsg-1.debian.tar.xz
+Homepage: https://github.com/whitequark/ipaddr.js
+Package-List: 
+ libjs-ipaddr deb javascript optional arch=all
+ node-ipaddr.js deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ipaddr.js
+Priority: optional
+Section: javascript

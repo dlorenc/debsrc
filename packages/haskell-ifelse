@@ -1,0 +1,28 @@
+Package: haskell-ifelse
+Binary: libghc-ifelse-dev, libghc-ifelse-prof, libghc-ifelse-doc
+Version: 0.85-16
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8008439754641d982b05eca31fe70233 2284 haskell-ifelse_0.85-16.dsc
+ 9e904c4ade47b1eba17f47d682eb2ee9 2865 haskell-ifelse_0.85.orig.tar.gz
+ bb8a8159b150cf483f351c97fb8e1333 3684 haskell-ifelse_0.85-16.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ifelse
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ifelse]
+Checksums-Sha256:
+ c0d2cb36140f776440a10230530202f0288dc30640e45aef80197d7b893dfc9e 2284 haskell-ifelse_0.85-16.dsc
+ 8ad3bfc3e2c867e6330d9bff874b3105476c35b2e1638fd448f233e9f80addcd 2865 haskell-ifelse_0.85.orig.tar.gz
+ 3a2d7c2c0f237bc50a1cf80cb6da231b4b79ce9d906284f6a778d47f09d2512c 3684 haskell-ifelse_0.85-16.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/IfElse
+Package-List: 
+ libghc-ifelse-dev deb haskell optional arch=any
+ libghc-ifelse-doc deb doc optional arch=all
+ libghc-ifelse-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ifelse
+Priority: source
+Section: libdevel

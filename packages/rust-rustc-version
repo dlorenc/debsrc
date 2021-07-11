@@ -1,0 +1,24 @@
+Package: rust-rustc-version
+Binary: librust-rustc-version-dev
+Version: 0.2.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-semver-0.9+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ fc82bc35ea8e9fbd5596ecc0160ac2fd 2164 rust-rustc-version_0.2.3-1.dsc
+ 4d101ab24d14c54937c5f45ece8fad5f 10210 rust-rustc-version_0.2.3.orig.tar.gz
+ e8f804e1f9d33f806418e143d78f4bc1 2412 rust-rustc-version_0.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustc-version
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustc-version]
+Checksums-Sha256:
+ d5bfd86a0f3f3ea57dd5bf67bf718c024bfc6e3be8eff5bcd294f78d138f7aec 2164 rust-rustc-version_0.2.3-1.dsc
+ 138e3e0acb6c9fb258b19b67cb8abd63c00679d2851805ea151465464fe9030a 10210 rust-rustc-version_0.2.3.orig.tar.gz
+ ce4585e5e5441b807bd6ad2ae3da4a3cb8178cc19b258f98f82e094d42f43f8f 2412 rust-rustc-version_0.2.3-1.debian.tar.xz
+Package-List: 
+ librust-rustc-version-dev deb rust optional arch=any
+Directory: pool/main/r/rust-rustc-version
+Priority: extra
+Section: misc

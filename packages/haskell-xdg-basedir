@@ -1,0 +1,28 @@
+Package: haskell-xdg-basedir
+Binary: libghc-xdg-basedir-dev, libghc-xdg-basedir-prof, libghc-xdg-basedir-doc
+Version: 0.2.2-11
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aedf83bcb4954bffc5faa72b2f370bae 2357 haskell-xdg-basedir_0.2.2-11.dsc
+ 0122cf87ba58b0be74cd341d5afa0789 2606 haskell-xdg-basedir_0.2.2.orig.tar.gz
+ c4c3b32dfdd6dda9641a861f37f6d588 2836 haskell-xdg-basedir_0.2.2-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-xdg-basedir
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-xdg-basedir]
+Checksums-Sha256:
+ bdf0f0a07b56d9b7983854649da9e3fc0f5f79abbe6aebaa9fd32e72cea9e263 2357 haskell-xdg-basedir_0.2.2-11.dsc
+ e461c3a5c6007c55ceaea03be3be0ef3a92aa0ea1aea936da0c43671bbfaf42b 2606 haskell-xdg-basedir_0.2.2.orig.tar.gz
+ 549189af73b7cae1113aeaf38f263fe52e4a767f2e6919be382069a7bf974dcf 2836 haskell-xdg-basedir_0.2.2-11.debian.tar.xz
+Homepage: https://github.com/willdonnelly/xdg-basedir
+Package-List: 
+ libghc-xdg-basedir-dev deb haskell optional arch=any
+ libghc-xdg-basedir-doc deb doc optional arch=all
+ libghc-xdg-basedir-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-xdg-basedir
+Priority: source
+Section: haskell

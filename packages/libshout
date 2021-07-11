@@ -1,0 +1,28 @@
+Package: libshout
+Binary: libshout-dev, libshout3, libshout-tools, libshout3-dev
+Version: 2.4.5-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Guillaume Pellerin <yomguy@altern.org>, Romain Beauxis <toots@rastageeks.org>, Unit 193 <unit193@debian.org>, Ying-Chun Liu <grandpaul@gmail.com>
+Build-Depends: debhelper-compat (= 12), libogg-dev, libvorbis-dev, pkg-config, libtheora-dev, libspeex-dev, libssl-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e214d537504212ee28a80d1e8f56531b 2283 libshout_2.4.5-1.dsc
+ f77083cf790386297d86536b76a88b1c 543991 libshout_2.4.5.orig.tar.gz
+ 3e084c402148c7147db44f8fbe5d47a2 12264 libshout_2.4.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libshout
+Vcs-Git: https://salsa.debian.org/multimedia-team/libshout.git
+Checksums-Sha256:
+ 6fb939cd60e9b04cc09b7d63e85e74a71522c17897d1cb7cdd06769b359a4760 2283 libshout_2.4.5-1.dsc
+ d9e568668a673994ebe3f1eb5f2bee06e3236a5db92b8d0c487e1c0f886a6890 543991 libshout_2.4.5.orig.tar.gz
+ 27fc897abb69ea22ee32949329b508f432c75f31d84cade8c1f49106822858ca 12264 libshout_2.4.5-1.debian.tar.xz
+Homepage: https://www.icecast.org/
+Package-List: 
+ libshout-dev deb libdevel optional arch=any
+ libshout-tools deb libs optional arch=any
+ libshout3 deb libs optional arch=any
+ libshout3-dev deb oldlibs optional arch=any
+Directory: pool/main/libs/libshout
+Priority: source
+Section: libs

@@ -1,0 +1,28 @@
+Package: zint
+Binary: zint, zint-qt, libzint2.9, libzint-dev
+Version: 2.9.1-1.1
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Uploaders: Jakob Haufe <sur5r@debian.org>
+Build-Depends: debhelper-compat (= 12), cmake, libpng-dev, qtbase5-dev, qttools5-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 37518ff1fb6ae0517fb1b8d6129a15df 1438 zint_2.9.1-1.1.dsc
+ 00511707a3b80023b97a6a79c9b145f0 1963309 zint_2.9.1.orig.tar.gz
+ ac583a524b9eca436e963a33fcdeeda9 9976 zint_2.9.1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/zint
+Vcs-Git: https://salsa.debian.org/debian/zint.git
+Checksums-Sha256:
+ c2bb109e8e9599bd9762469610a6b3d410a3a83cc2c6c430b6cd4bfcd0263932 1438 zint_2.9.1-1.1.dsc
+ bd286d863bc60d65a805ec3e46329c5273a13719724803b0ac02e5b5804c596a 1963309 zint_2.9.1.orig.tar.gz
+ 6579974582df9084231bd14ec127f94bd85bee649bc86c2fdc583ec29735975c 9976 zint_2.9.1-1.1.debian.tar.xz
+Homepage: https://sourceforge.net/projects/zint/
+Package-List: 
+ libzint-dev deb libdevel optional arch=any
+ libzint2.9 deb libs optional arch=any
+ zint deb graphics optional arch=any
+ zint-qt deb graphics optional arch=any
+Directory: pool/main/z/zint
+Priority: extra
+Section: misc

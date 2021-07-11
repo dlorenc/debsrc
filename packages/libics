@@ -1,0 +1,27 @@
+Package: libics
+Binary: libics0, libics-dev, libics-doc
+Version: 1.6.4-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), d-shlibs, zlib1g-dev | libz-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9b1dc11cbe815e29e7a5550e3d60f8c1 2061 libics_1.6.4-1.dsc
+ 3dbec7d012b558d70287722ae8fa001d 887141 libics_1.6.4.orig.tar.gz
+ 5ebab1cfc69faa0a22b0f350a8990b04 4428 libics_1.6.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libics
+Vcs-Git: https://salsa.debian.org/med-team/libics.git
+Checksums-Sha256:
+ 5fd38d6b82e733667b5fa14a1cca249405aa4fb47363f3b784c9293bfa8661c5 2061 libics_1.6.4-1.dsc
+ 8ecc2567f5969794916f952b29bc318ab71107d6dd7798e91d24b21097047464 887141 libics_1.6.4.orig.tar.gz
+ eacff950dc5cdc64c4a0d9d8165a7791018a3a3a0862fb07a0872d6430737d36 4428 libics_1.6.4-1.debian.tar.xz
+Homepage: https://svi-opensource.github.io/libics/
+Package-List: 
+ libics-dev deb libdevel optional arch=any
+ libics-doc deb doc optional arch=all
+ libics0 deb libs optional arch=any
+Directory: pool/main/libi/libics
+Priority: source
+Section: libs

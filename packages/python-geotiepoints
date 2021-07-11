@@ -1,0 +1,27 @@
+Package: python-geotiepoints
+Binary: python3-geotiepoints
+Version: 1.2.0-3
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Build-Depends: debhelper-compat (= 12), dh-python, cython3, python3-all-dev, python3-dask, python3-h5py, python3-numpy, python3-pandas, python3-scipy, python3-setuptools, python3-xarray
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 803e70d47150ed7ee459d410e41c3128 1664 python-geotiepoints_1.2.0-3.dsc
+ 719a61bb4cfaae61b3f70f8ecbb6f8bb 9365814 python-geotiepoints_1.2.0.orig.tar.gz
+ e19127ca069402186d5d9b1d0b74c7c8 4916 python-geotiepoints_1.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/python-geotiepoints
+Vcs-Git: https://salsa.debian.org/debian-gis-team/python-geotiepoints.git
+Checksums-Sha256:
+ 33b613d924b86cc6856293cfa4ba479ac949403eaee24984ae5775762ac721e1 1664 python-geotiepoints_1.2.0-3.dsc
+ a9d350632876b4aa193985b1616da39157395c6e54b3ea91fbd3ffff7195bccc 9365814 python-geotiepoints_1.2.0.orig.tar.gz
+ 11a8eda0d7100e636b968a337dea61ee3cdd4e000ee374c4627c2915526110ab 4916 python-geotiepoints_1.2.0-3.debian.tar.xz
+Homepage: https://github.com/pytroll/python-geotiepoints
+Package-List: 
+ python3-geotiepoints deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-h5py
+Directory: pool/main/p/python-geotiepoints
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: consonance
+Binary: python3-consonance
+Version: 0.1.3-3
+Maintainer: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-protobuf, python3-transitions, python3-dissononce, python3-axolotl-curve25519
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ce1831709e3e66f143a9bcac6727d2b5 2051 consonance_0.1.3-3.dsc
+ b2db54bc372512881f5cf45ebb6519d7 30762 consonance_0.1.3.orig.tar.gz
+ 70ff1a364eedbc606b83bf28ea060d48 2252 consonance_0.1.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-consonance
+Vcs-Git: https://salsa.debian.org/debian/python-consonance.git
+Checksums-Sha256:
+ 74fe58aac5f63772a8e9c8604841c1f55bd634d50003bd8ffab6469676f7cf56 2051 consonance_0.1.3-3.dsc
+ 2edd9b0fb4f736cebacc6815907a420d0bfa332724e6fd5b7bdfab6b797d1862 30762 consonance_0.1.3.orig.tar.gz
+ 118f089cccb665c1aa5d8fdb733c77bf069fb17152c72c143f3e7cd19cd75cac 2252 consonance_0.1.3-3.debian.tar.xz
+Homepage: https://github.com/tgalal/consonance
+Package-List: 
+ python3-consonance deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/c/consonance
+Priority: extra
+Section: misc

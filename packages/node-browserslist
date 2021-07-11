@@ -1,0 +1,32 @@
+Package: node-browserslist
+Binary: node-browserslist
+Version: 4.16.3+~cs5.4.72-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, help2man, jest <!nocheck>, node-ansi-styles <!nocheck>, node-caniuse-lite (>= 1.0.30001181~) <!nocheck>, node-electron-to-chromium (>= 1.3.634~) <!nocheck>, node-fs-extra <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8c5c1bb4cff52255bf264da435599fad 3344 node-browserslist_4.16.3+~cs5.4.72-2.dsc
+ 05079ef13f8cb44b1455b71f7b174384 5803 node-browserslist_4.16.3+~cs5.4.72.orig-colorette.tar.gz
+ 61feaad8ca2ae37eff46aa4818a7b045 4312 node-browserslist_4.16.3+~cs5.4.72.orig-escalade.tar.gz
+ 2592219c7d0f4f89954a1ea33184c63d 14270 node-browserslist_4.16.3+~cs5.4.72.orig-node-releases.tar.gz
+ c312f40e75a272679a7477e11464b454 207367 node-browserslist_4.16.3+~cs5.4.72.orig.tar.gz
+ 5ede5c69ff25d24422a3336de1e00ecb 13144 node-browserslist_4.16.3+~cs5.4.72-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-browserslist
+Vcs-Git: https://salsa.debian.org/js-team/node-browserslist.git
+Checksums-Sha256:
+ d5093317c0de54b8ade9b5ab8ec67d82b2800c552eaea002bed156d38315e25c 3344 node-browserslist_4.16.3+~cs5.4.72-2.dsc
+ d9c6aaddbdb1b14ad09a24377dd4696f3acea75bca86241e888d787a681c0489 5803 node-browserslist_4.16.3+~cs5.4.72.orig-colorette.tar.gz
+ 60f830428beb9022a2da1a31a41eef5aee4b27013f88d16535322b9a238ba79d 4312 node-browserslist_4.16.3+~cs5.4.72.orig-escalade.tar.gz
+ d1eed60955b1b374900512e85d33350893fae52c1b28f352435927110e5f7d5c 14270 node-browserslist_4.16.3+~cs5.4.72.orig-node-releases.tar.gz
+ bd2c5f7dd8bfacb03c0fa5670f13497d32c2543e03b4e3ac820c9c9b343eb5bc 207367 node-browserslist_4.16.3+~cs5.4.72.orig.tar.gz
+ ec30f7f15f7bf15caffdee2eb13291344671f53d9a0b6cc6c57ceae5091d2e00 13144 node-browserslist_4.16.3+~cs5.4.72-2.debian.tar.xz
+Homepage: https://github.com/ai/browserslist
+Package-List: 
+ node-browserslist deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-browserslist
+Priority: extra
+Section: misc

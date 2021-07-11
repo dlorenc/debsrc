@@ -1,0 +1,28 @@
+Package: topplot
+Binary: python3-topplot, topplot
+Version: 0.1.5+repack-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Sudip Mukherjee <sudipm.mukherjee@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-matplotlib, python3-mplcursors, python3-numpy, python3-pandas, python3-tk, xvfb, xauth, python3-screeninfo
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5f72e3d4d7ad15899dc9516746a8527c 2256 topplot_0.1.5+repack-1.dsc
+ 0e7aafdbb8b6b7c8a050cd875d9588e2 1534340 topplot_0.1.5+repack.orig.tar.xz
+ 984a1b879021f5dca0713ae6289cc930 2972 topplot_0.1.5+repack-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/topplot
+Vcs-Git: https://salsa.debian.org/python-team/packages/topplot.git
+Checksums-Sha256:
+ 6294bd419eec66fa1e7f57fe847a4826ffb15fcb1c1fc67f7d59b34733960ae1 2256 topplot_0.1.5+repack-1.dsc
+ 03e15dbdd033bd9bb1a1bccb17a7832443d749a3bf762a34d277bc164fdbb79a 1534340 topplot_0.1.5+repack.orig.tar.xz
+ 4fce316d1766fd218aedccb3256d8a6861d460afdb5cfee07dac989014343fe2 2972 topplot_0.1.5+repack-1.debian.tar.xz
+Homepage: https://gitlab.com/eBardie/topplot/
+Package-List: 
+ python3-topplot deb python optional arch=all
+ topplot deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-tk, xauth, xvfb
+Directory: pool/main/t/topplot
+Priority: extra
+Section: misc

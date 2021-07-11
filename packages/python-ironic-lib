@@ -1,0 +1,26 @@
+Package: python-ironic-lib
+Binary: python3-ironic-lib
+Version: 4.4.0-3
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools
+Build-Depends-Indep: python3-bcrypt, python3-coverage, python3-hacking, python3-oslo.concurrency, python3-oslo.config, python3-oslo.i18n, python3-oslo.log, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-pygments, python3-requests, python3-stestr, python3-tenacity (>= 6.2.0), python3-webob, python3-zeroconf (>= 0.24.0), subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7201976aac01ace4c93582de9445d927 2451 python-ironic-lib_4.4.0-3.dsc
+ 766cc33560c304d7862ce11f1745ae1d 56112 python-ironic-lib_4.4.0.orig.tar.xz
+ 63eda50cf2d868bd9c3e3609c7a3a9c8 3336 python-ironic-lib_4.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/libs/python-ironic-lib
+Vcs-Git: https://salsa.debian.org/openstack-team/libs/python-ironic-lib.git
+Checksums-Sha256:
+ 9d80aacb1b7ef54c58699b6fe03ae7795c141a2f97f20c77c413a519d6b1f816 2451 python-ironic-lib_4.4.0-3.dsc
+ 30eb505c4300202e47b5a1e04448358e91f68db0bae2a7471d84825408dfbc2e 56112 python-ironic-lib_4.4.0.orig.tar.xz
+ 724714faadf0b163cb347a0531aae5819aa7e8ba6eecff9fe7da5a8e5234544b 3336 python-ironic-lib_4.4.0-3.debian.tar.xz
+Homepage: https://github.com/openstack/ironic-lib
+Package-List: 
+ python3-ironic-lib deb python optional arch=all
+Directory: pool/main/p/python-ironic-lib
+Priority: optional
+Section: misc

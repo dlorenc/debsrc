@@ -1,0 +1,24 @@
+Package: rust-commoncrypto-sys
+Binary: librust-commoncrypto-sys-dev
+Version: 0.2.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 73553235b5fd3c38bb8265850f9cbff5 2207 rust-commoncrypto-sys_0.2.0-2.dsc
+ 7b2b7e478b9791f8811953c475dd0269 4681 rust-commoncrypto-sys_0.2.0.orig.tar.gz
+ ddbab2b3c300ceb197058f01324387d9 2576 rust-commoncrypto-sys_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/commoncrypto-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/commoncrypto-sys]
+Checksums-Sha256:
+ e1c7333f01731bef75d7d75e928a563d6c6ad29a15fb63eebe525b4de267dcbc 2207 rust-commoncrypto-sys_0.2.0-2.dsc
+ 67504310c9c076e50531c271b11deac692daf05197f165465a1c3cd7d20df09a 4681 rust-commoncrypto-sys_0.2.0.orig.tar.gz
+ 262241c9fec304681469d9b0e64135f8939fc2f84be812608507701f1f10f74d 2576 rust-commoncrypto-sys_0.2.0-2.debian.tar.xz
+Package-List: 
+ librust-commoncrypto-sys-dev deb rust optional arch=any
+Directory: pool/main/r/rust-commoncrypto-sys
+Priority: extra
+Section: misc

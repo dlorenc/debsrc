@@ -1,0 +1,28 @@
+Package: libtest-mockmodule-perl
+Binary: libtest-mockmodule-perl
+Version: 0.176.0-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: libsuper-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-warnings-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3899a59f872f6893f9b7da654a7c62e7 2594 libtest-mockmodule-perl_0.176.0-1.dsc
+ f36bd9aee0349430c434dc1d06b03589 23847 libtest-mockmodule-perl_0.176.0.orig.tar.gz
+ 59c6a9b4a4515fe1832707ae3c91517b 3140 libtest-mockmodule-perl_0.176.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-mockmodule-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-mockmodule-perl.git
+Checksums-Sha256:
+ 2057380ca9fa8b2ae9872f08d576172f5150bc1551ad05f6a213183020a9a906 2594 libtest-mockmodule-perl_0.176.0-1.dsc
+ b71e16657c71b682f045e04d115bd532b85d7a96091e7319a1a85447ff97326e 23847 libtest-mockmodule-perl_0.176.0.orig.tar.gz
+ bcdb610125d279734d8ad97bf385d957b4bfbfe8e3e25efec7343e54b8f623e4 3140 libtest-mockmodule-perl_0.176.0-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-MockModule
+Dgit: db0b3ea636f9a034cac2982a45709805eebebe05 debian archive/debian/0.176.0-1 https://git.dgit.debian.org/libtest-mockmodule-perl
+Package-List: 
+ libtest-mockmodule-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-mockmodule-perl
+Priority: source
+Section: perl

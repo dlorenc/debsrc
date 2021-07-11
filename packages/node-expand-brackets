@@ -1,0 +1,26 @@
+Package: node-expand-brackets
+Binary: node-expand-brackets
+Version: 4.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, mocha, node-yargs-parser <!nocheck>, node-multimatch <!nocheck>, node-bash-match <!nocheck>, node-posix-character-classes, node-regex-not, node-snapdragon (>= 0.12.0), node-to-regex, nodejs, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3f29de530045d44fc3a9267b02abb46c 2327 node-expand-brackets_4.0.0-2.dsc
+ 4610b396fc0700a43cce8ed21bc66133 13608 node-expand-brackets_4.0.0.orig.tar.gz
+ ba410e88161430d09942b5f8583efd5e 2668 node-expand-brackets_4.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-expand-brackets
+Vcs-Git: https://salsa.debian.org/js-team/node-expand-brackets.git
+Checksums-Sha256:
+ 49181fa70d7a44e23d504377d1f39937b5ed4466f4d7b9b81207ff8f55dce485 2327 node-expand-brackets_4.0.0-2.dsc
+ 9d444c048406de3c4974abc1ea60350cba76724ee16d564f57496e13c478753e 13608 node-expand-brackets_4.0.0.orig.tar.gz
+ 00bdebddc310fe8fe425ff8b3146541be698158fe2996c626ac8c115421e8622 2668 node-expand-brackets_4.0.0-2.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/expand-brackets
+Package-List: 
+ node-expand-brackets deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-expand-brackets
+Priority: optional
+Section: javascript

@@ -1,0 +1,27 @@
+Package: rust-cassowary
+Binary: librust-cassowary-dev
+Version: 0.3.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9fc78109e6cc30e36530871c6ca65af1 1569 rust-cassowary_0.3.0-2.dsc
+ 2c186ae5cf4d2d548d0f1cc901111e69 22876 rust-cassowary_0.3.0.orig.tar.gz
+ f2cdad4e8ea7d7c19d5c8e534ffc8aeb 2668 rust-cassowary_0.3.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cassowary
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cassowary]
+Checksums-Sha256:
+ 9ac19d50230b8563354b87d7fdf7ef391578a93b2e89d62adda73601edf47965 1569 rust-cassowary_0.3.0-2.dsc
+ df8670b8c7b9dae1793364eafadf7239c40d669904660c5960d74cfd80b46a53 22876 rust-cassowary_0.3.0.orig.tar.gz
+ 05088506c5782429b7ce63441d50d8c9fee206141f64e30ddd9b69592a409e1d 2668 rust-cassowary_0.3.0-2.debian.tar.xz
+Homepage: https://github.com/dylanede/cassowary-rs
+Package-List: 
+ librust-cassowary-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cassowary
+Priority: extra
+Section: misc

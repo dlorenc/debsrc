@@ -1,0 +1,27 @@
+Package: rust-gdk-pixbuf-sys
+Binary: librust-gdk-pixbuf-sys-dev
+Version: 0.9.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-gio-sys-0.9+default-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, libgdk-pixbuf2.0-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 38a0d8a7f3ec374c1c453e73672742ac 2587 rust-gdk-pixbuf-sys_0.9.0-2.dsc
+ 70f02b22681a281742328453e6793f0b 8489 rust-gdk-pixbuf-sys_0.9.0.orig.tar.gz
+ 7f95552bd60a310bf5bb2e43774a7357 2780 rust-gdk-pixbuf-sys_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gdk-pixbuf-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gdk-pixbuf-sys]
+Checksums-Sha256:
+ c14a1126b75b10d8e7ab3fafb5714ac471a069447569f8473c3ea3ee486924bc 2587 rust-gdk-pixbuf-sys_0.9.0-2.dsc
+ b1d6778abf5764b9080a9345a16c5d16289426a3b3edd808a29a9061d431c465 8489 rust-gdk-pixbuf-sys_0.9.0.orig.tar.gz
+ e9191af9b76d6299d08a5b71139eeab22ed1b70321316e7604937bd3624255b5 2780 rust-gdk-pixbuf-sys_0.9.0-2.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-gdk-pixbuf-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-shell-words-0.1+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-gdk-pixbuf-sys
+Priority: extra
+Section: misc

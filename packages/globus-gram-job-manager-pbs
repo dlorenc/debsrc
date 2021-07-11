@@ -1,0 +1,26 @@
+Package: globus-gram-job-manager-pbs
+Binary: globus-gram-job-manager-pbs, globus-gram-job-manager-pbs-setup-poll, globus-gram-job-manager-pbs-setup-seg
+Version: 3.1-2
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-scheduler-event-generator-dev (>= 4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e9cc28ba08a358febf589432bd3429b1 2321 globus-gram-job-manager-pbs_3.1-2.dsc
+ 0f9493062e208a8d459917c8066000a6 328763 globus-gram-job-manager-pbs_3.1.orig.tar.gz
+ 85fabba1c533ccb9c6648e096bcbbd81 3664 globus-gram-job-manager-pbs_3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gram-job-manager-pbs
+Vcs-Git: https://salsa.debian.org/ellert/globus-gram-job-manager-pbs.git
+Checksums-Sha256:
+ 2f1a428a6323d344415c99a6e176811a86c08b77fd166dd5669276f7f6c93d63 2321 globus-gram-job-manager-pbs_3.1-2.dsc
+ dcb8309c034c8b485f86ce9756549320fca2d10e01b32d6cb3b3c0df00c7415f 328763 globus-gram-job-manager-pbs_3.1.orig.tar.gz
+ 2a27a6854b33424b973d9087b982448e6b19640afc300f5280cbb7560b0848ca 3664 globus-gram-job-manager-pbs_3.1-2.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ globus-gram-job-manager-pbs deb net optional arch=all
+ globus-gram-job-manager-pbs-setup-poll deb net optional arch=all
+ globus-gram-job-manager-pbs-setup-seg deb net optional arch=any
+Directory: pool/main/g/globus-gram-job-manager-pbs
+Priority: source
+Section: net

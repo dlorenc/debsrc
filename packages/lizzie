@@ -1,0 +1,27 @@
+Package: lizzie
+Binary: liblizzie-java, liblizzie-java-doc
+Version: 0.7.4+dfsg1-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: default-jdk-doc, junit4 (>= 4.11), libandroid-json-org-java, libjhlabs-filters-java, libjuniversalchardet-java (>= 1.0.3), libjuniversalchardet-java-doc, libmaven-javadoc-plugin-java, libmaven-shade-plugin-java (>= 3.1.1), leela-zero <!nocheck>, python3 <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>, fonts-open-sans <!nocheck>
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ e0a426f02ab39ab93219d15c53512dc6 1800 lizzie_0.7.4+dfsg1-2.dsc
+ e9d85e5cbae93d5abd36faa6f3a3df52 2963720 lizzie_0.7.4+dfsg1.orig.tar.xz
+ 6d87d22ccb76c7af460fca6d1a320dea 22900 lizzie_0.7.4+dfsg1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/lizzie
+Vcs-Git: https://salsa.debian.org/java-team/lizzie.git
+Checksums-Sha256:
+ 142e05f395947ef5c5869a33b666a5e62a82a3386995354565cadf40e949f22e 1800 lizzie_0.7.4+dfsg1-2.dsc
+ 5c4bf7d80e268ec567bd4c0df2c6c6f349524e439188a19d7c08ae7c9b106dce 2963720 lizzie_0.7.4+dfsg1.orig.tar.xz
+ 2b5757fcb656762cc2998bd4d2fdbf0f60a25097e7c58bf39c09b7515d90127a 22900 lizzie_0.7.4+dfsg1-2.debian.tar.xz
+Homepage: https://github.com/featurecat/lizzie
+Package-List: 
+ liblizzie-java deb games optional arch=all
+ liblizzie-java-doc deb doc optional arch=all
+Directory: pool/main/l/lizzie
+Priority: extra
+Section: misc

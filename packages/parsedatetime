@@ -1,0 +1,27 @@
+Package: parsedatetime
+Binary: python3-parsedatetime
+Version: 2.6-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Bernd Zeimetz <bzed@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pytest <!nocheck>, python3-pytest-runner <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c6f86872072e8c8a224827be3fb05180 2145 parsedatetime_2.6-1.dsc
+ 4d9af6a4427c383910bbc34a5d44f151 70732 parsedatetime_2.6.orig.tar.gz
+ aa1f9db1af3b03977974a9c2a940e021 4464 parsedatetime_2.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/parsedatetime
+Vcs-Git: https://salsa.debian.org/python-team/packages/parsedatetime.git
+Checksums-Sha256:
+ a25cb2b17a669a59d36aa2d01895ac58523222cfb4c963a36d4005e5bd2b848d 2145 parsedatetime_2.6-1.dsc
+ 0cbf3fe4dee18c88df343bc568d35fdc67774846cb4aec2b2626d1bee7a0c6c5 70732 parsedatetime_2.6.orig.tar.gz
+ 8c57dcc32deaf58b3322e070d76ad163e9d95571d0b316063fbc1a2fdaa23611 4464 parsedatetime_2.6-1.debian.tar.xz
+Homepage: https://github.com/bear/parsedatetime
+Package-List: 
+ python3-parsedatetime deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/parsedatetime
+Priority: source
+Section: python

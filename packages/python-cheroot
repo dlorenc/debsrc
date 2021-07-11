@@ -1,0 +1,26 @@
+Package: python-cheroot
+Binary: python3-cheroot
+Version: 8.5.2+ds1-1
+Maintainer: Debian Python Modules Team <python-modules-team@alioth-lists.debian.net>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python (>= 2.20160609~), python3-all, python3-packaging, python3-pytest, python3-setuptools, python3-setuptools-scm-git-archive
+Architecture: all
+Standards-Version: 4.5.1.0
+Format: 3.0 (quilt)
+Files:
+ be27734535a10ff13a659c3bf105822e 2210 python-cheroot_8.5.2+ds1-1.dsc
+ 2235db81e6555e5713c238a505df8a3a 84136 python-cheroot_8.5.2+ds1.orig.tar.xz
+ 528d4bff40c13a237cb768762c3d374c 3336 python-cheroot_8.5.2+ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-cheroot
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-cheroot.git
+Checksums-Sha256:
+ 4a5d8c82023db30b38c69bdf3b9d0fc727e4f7a7d19b5809327a7d81a6a85f7a 2210 python-cheroot_8.5.2+ds1-1.dsc
+ 4cfc0bb7e10d740b9b5c0c4bb3695c417f31bae49936d386337f3dc5fc76cd94 84136 python-cheroot_8.5.2+ds1.orig.tar.xz
+ 5ce48ef3eb721cf6e68fac8137b9cc751ded96ce32a986fc916510168db5842c 3336 python-cheroot_8.5.2+ds1-1.debian.tar.xz
+Homepage: https://github.com/cherrypy/cheroot
+Package-List: 
+ python3-cheroot deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/python-cheroot
+Priority: extra
+Section: misc

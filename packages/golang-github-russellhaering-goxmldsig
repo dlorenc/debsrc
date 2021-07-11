@@ -1,0 +1,27 @@
+Package: golang-github-russellhaering-goxmldsig
+Binary: golang-github-russellhaering-goxmldsig-dev
+Version: 1.1.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org> , Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-beevik-etree-dev, golang-github-jonboulle-clockwork-dev, golang-github-satori-go.uuid-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d0001a4ebcbef7e8b8e0b9f6e0ca62dd 2706 golang-github-russellhaering-goxmldsig_1.1.0-1.dsc
+ a69a942ef20f1a2ff45bfb49912d0e8a 28875 golang-github-russellhaering-goxmldsig_1.1.0.orig.tar.gz
+ 07257b27a72664a0b940b92cfd85b341 2724 golang-github-russellhaering-goxmldsig_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-russellhaering-goxmldsig
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-russellhaering-goxmldsig.git
+Checksums-Sha256:
+ 6447045329a1d2eb442ecc3e087255fd2c6d75ed8540712ec57d27aecdd13dec 2706 golang-github-russellhaering-goxmldsig_1.1.0-1.dsc
+ 50837e3c87af633d8edce12d51ecab906443a5efe5d79e1c537d5942b21e4f71 28875 golang-github-russellhaering-goxmldsig_1.1.0.orig.tar.gz
+ 074b371935ddb4b0607646d6c3a9ba233e2a577a6f1cd039e94a245db605f06c 2724 golang-github-russellhaering-goxmldsig_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/russellhaering/goxmldsig
+Go-Import-Path: github.com/russellhaering/goxmldsig
+Package-List: 
+ golang-github-russellhaering-goxmldsig-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-russellhaering-goxmldsig
+Priority: extra
+Section: golang

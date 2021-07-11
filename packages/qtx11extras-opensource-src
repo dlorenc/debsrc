@@ -1,0 +1,29 @@
+Package: qtx11extras-opensource-src
+Binary: libqt5x11extras5, libqt5x11extras5-dev, qtx11extras5-doc, qtx11extras5-doc-html
+Version: 5.15.2-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Felix Geyer <fgeyer@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-kde-tools, qtbase5-dev (>= 5.15.2+dfsg~), qtbase5-private-dev (>= 5.15.2+dfsg~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>, qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 54eceb78fc00e9199267c8ddee70cdba 2851 qtx11extras-opensource-src_5.15.2-2.dsc
+ 92cf72015788bb4dcab14494f2835b32 143972 qtx11extras-opensource-src_5.15.2.orig.tar.xz
+ ebb7bb4a937009166785ee07e479aafa 7080 qtx11extras-opensource-src_5.15.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtx11extras
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtx11extras.git
+Checksums-Sha256:
+ dcec9364d0932687c908b6dbd89618434dc7aa2a5ea7ef91ed219f9cba98c20a 2851 qtx11extras-opensource-src_5.15.2-2.dsc
+ 7014702ee9a644a5a93da70848ac47c18851d4f8ed622b29a72eed9282fc6e3e 143972 qtx11extras-opensource-src_5.15.2.orig.tar.xz
+ eac3c3b58787c9d5043f9259bd81592dbe249d40846d2f5a183c5de0aaa2ccc0 7080 qtx11extras-opensource-src_5.15.2-2.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtx11extras-index.html
+Package-List: 
+ libqt5x11extras5 deb libs optional arch=any
+ libqt5x11extras5-dev deb libdevel optional arch=any
+ qtx11extras5-doc deb doc optional arch=all profile=!nodoc
+ qtx11extras5-doc-html deb doc optional arch=all profile=!nodoc
+Directory: pool/main/q/qtx11extras-opensource-src
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-cmake
+Binary: librust-cmake-dev
+Version: 0.1.44-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cc-1+default-dev (>= 1.0.41-~~) <!nocheck>, cmake <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ df2fb901b84d41eca9df1a08e4d7ee0f 2286 rust-cmake_0.1.44-1.dsc
+ 2f91b104ba75990d54fbebd5b5f29301 14377 rust-cmake_0.1.44.orig.tar.gz
+ 756d2086bfc9ba7518ac236b4968313e 2744 rust-cmake_0.1.44-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cmake
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cmake]
+Checksums-Sha256:
+ deb24d219d51e0fcae794b17ba8097f248e1833eb2982251c08c348e68723b01 2286 rust-cmake_0.1.44-1.dsc
+ 0e56268c17a6248366d66d4a47a3381369d068cce8409bb1716ed77ea32163bb 14377 rust-cmake_0.1.44.orig.tar.gz
+ cdd55188d1dc9bfb273ef673bbad08c717b48d4c5cec0fb40357343d8d7e8929 2744 rust-cmake_0.1.44-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/cmake-rs
+Package-List: 
+ librust-cmake-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cmake
+Priority: extra
+Section: misc

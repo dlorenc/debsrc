@@ -1,0 +1,28 @@
+Package: ruby-kramdown
+Binary: ruby-kramdown, kramdown
+Version: 2.3.0-5
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>, Paul van Tilburg <paulvt@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-minitest, ruby-rouge (>= 2~), ruby-stringex, ruby-rexml, texlive-fonts-recommended, texlive-latex-extra, tidy
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c916825c632e0a876d5d646d7dd80f03 2246 ruby-kramdown_2.3.0-5.dsc
+ 5825e6e7b3a50704de27573c18d60492 123436 ruby-kramdown_2.3.0.orig.tar.gz
+ 086f0901ff737fb42977b39e7cec8d8d 6232 ruby-kramdown_2.3.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-kramdown
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-kramdown.git
+Checksums-Sha256:
+ 2edcd5e445413a52c8f9008dffed01801636858577ae2cbf743b4cbe9876cf09 2246 ruby-kramdown_2.3.0-5.dsc
+ dd56cd8ee1656ffb5d5fd90ce8f4f5b7f4d4a78cf6ef57b16cfc96416086a12f 123436 ruby-kramdown_2.3.0.orig.tar.gz
+ 52f46ed89d839e082ea18e8d5b9addaec9ca99dd6640d6f63cc35b9368b0af11 6232 ruby-kramdown_2.3.0-5.debian.tar.xz
+Homepage: https://kramdown.gettalong.org
+Package-List: 
+ kramdown deb ruby optional arch=all
+ ruby-kramdown deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-kramdown
+Priority: source
+Section: ruby

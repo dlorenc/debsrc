@@ -1,0 +1,26 @@
+Package: sbt-ivy
+Binary: sbt-ivy, sbt-ivy-doc
+Version: 2.4.0~rc1+dfsg-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Frédéric Bonnard <frediz@linux.vnet.ibm.com>
+Build-Depends: ant, debhelper (>= 11), default-jdk, default-jdk-doc, junit, libbcpg-java, libbcprov-java, libcommons-cli-java, libcommons-collections3-java, libcommons-httpclient-java, libcommons-lang-java, libcommons-vfs-java (>= 2.0), libjsch-agent-proxy-java, libjsch-java, liboro-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 13a91ae793e53e15d1111e5ea21e9ed0 2315 sbt-ivy_2.4.0~rc1+dfsg-2.dsc
+ 6ae35b3de442c668df004c5b2082026a 2448218 sbt-ivy_2.4.0~rc1+dfsg.orig.tar.gz
+ 4ef53e20fa4114145d815895e04d0168 6568 sbt-ivy_2.4.0~rc1+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/sbt-ivy
+Vcs-Git: https://salsa.debian.org/java-team/sbt-ivy.git
+Checksums-Sha256:
+ 96f8226b6459979ba630bd9a37741f9cf2a583ebe2e9ce3cb44b8b92b7858d8f 2315 sbt-ivy_2.4.0~rc1+dfsg-2.dsc
+ a74c7c5df1f07c925b0255c67f6d6f1b6d0dbd7d0099489d26a495443b70ae4b 2448218 sbt-ivy_2.4.0~rc1+dfsg.orig.tar.gz
+ 64d5c1ccbfc796ea5689e621be8fb3f528ae4d8901f70db927e42e240a73236a 6568 sbt-ivy_2.4.0~rc1+dfsg-2.debian.tar.xz
+Homepage: https://github.com/sbt/ivy
+Package-List: 
+ sbt-ivy deb java optional arch=all
+ sbt-ivy-doc deb doc optional arch=all
+Directory: pool/main/s/sbt-ivy
+Priority: optional
+Section: misc

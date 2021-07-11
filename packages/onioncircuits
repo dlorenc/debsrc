@@ -1,0 +1,27 @@
+Package: onioncircuits
+Binary: onioncircuits
+Version: 0.7-2
+Maintainer: Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-apparmor, dh-python, python3-all, python3-setuptools, python3-distutils-extra, help2man, python3-stem (>= 1.8.0), python3-gi, python3-pycountry, gir1.2-gtk-3.0, gir1.2-glib-2.0
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cc4a838541a09c47c57fb1165a45b753 1958 onioncircuits_0.7-2.dsc
+ d7534ce52d9dc8ca216cf6318ffc37a3 33504 onioncircuits_0.7.orig.tar.xz
+ 473065a5c5257dfe49ba6e078dc63720 5492 onioncircuits_0.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-privacy-team/onioncircuits
+Vcs-Git: https://salsa.debian.org/pkg-privacy-team/onioncircuits.git
+Checksums-Sha256:
+ 42d099b032d15888c1003584872be5baaced31c684df9749b81d120e3d298d76 1958 onioncircuits_0.7-2.dsc
+ 33957bd620458242bce1b0402284df3b21d4ec6a7e37a381df5c38f5ec6b69e0 33504 onioncircuits_0.7.orig.tar.xz
+ ab71db572d4c55b58ef727008c5b3b417a5cb1e9736011f8affbffc707449f96 5492 onioncircuits_0.7-2.debian.tar.xz
+Homepage: https://gitlab.tails.boum.org/tails/onioncircuits
+Package-List: 
+ onioncircuits deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: dbus, gir1.2-wnck-3.0, libglib2.0-bin, psmisc, python3-dogtail, python3-stem, tor, xvfb
+Directory: pool/main/o/onioncircuits
+Priority: optional
+Section: misc

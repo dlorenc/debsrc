@@ -1,0 +1,26 @@
+Package: orca
+Binary: orca, gnome-orca
+Version: 3.38.2-1
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>, Samuel Thibault <sthibault@debian.org>, Jeremy Bicha <jbicha@debian.org>, Jordi Mallach <jordi@debian.org>, Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, gnome-pkg-tools (>= 0.10), gettext (>= 0.19.8~), libatk-bridge2.0-dev (>= 2.26), libatspi2.0-dev (>= 2.26), libgstreamer1.0-dev, pkg-config, python3 (>= 3.3), python-gi-dev (>= 3.18), python3-brlapi (>= 0.5.1), python3-louis (>= 1.6.2), liblouis-dev, python3-pyatspi (>= 2.26), python3-speechd (>= 0.8), yelp-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bca00a19377e79ca14aea32ec40c3c71 2441 orca_3.38.2-1.dsc
+ 6bc077ffa81d99a332e10405a07f6332 3595224 orca_3.38.2.orig.tar.xz
+ 91e29d7775d20d940e9643632b923071 10044 orca_3.38.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/orca
+Vcs-Git: https://salsa.debian.org/gnome-team/orca.git
+Checksums-Sha256:
+ 8e3caa48adab9cc8e3ecea2808fb835bbd759424d3ff04e8de647443d2732ab7 2441 orca_3.38.2-1.dsc
+ 5005ff2e11dd1f713f5acc1903a270119bc58c30fdb8c9f82bcac71497c6c23c 3595224 orca_3.38.2.orig.tar.xz
+ 0646111b2864bcfc8494ff29c97fcce41460d966e26af0ebf7c36edfd8b574ff 10044 orca_3.38.2-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Projects/Orca
+Package-List: 
+ gnome-orca deb oldlibs optional arch=all
+ orca deb gnome optional arch=all
+Directory: pool/main/o/orca
+Priority: extra
+Section: misc

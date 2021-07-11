@@ -1,0 +1,28 @@
+Package: haskell-stringsearch
+Binary: libghc-stringsearch-dev, libghc-stringsearch-prof, libghc-stringsearch-doc
+Version: 0.3.6.6-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5034d330a392f0ff2a4b32ce5bd45ccd 2390 haskell-stringsearch_0.3.6.6-10.dsc
+ b7455a2d8462a55631e261e2981e1bce 39679 haskell-stringsearch_0.3.6.6.orig.tar.gz
+ 0c11bab28aad131790f1b7dae8f1de46 3292 haskell-stringsearch_0.3.6.6-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-stringsearch
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-stringsearch]
+Checksums-Sha256:
+ 6e7b723df8a5511d442786b2691230dfbbaf729b561a75107cc25751fb835e22 2390 haskell-stringsearch_0.3.6.6-10.dsc
+ 295f1971920bc52263d8275d7054ad223a7e1aefe75533f9887735c9644ffe4a 39679 haskell-stringsearch_0.3.6.6.orig.tar.gz
+ 0ca592d41051b8142467b7f2f5205f5fda1ccf65367fa574b69068af4a427887 3292 haskell-stringsearch_0.3.6.6-10.debian.tar.xz
+Homepage: https://bitbucket.org/dafis/stringsearch
+Package-List: 
+ libghc-stringsearch-dev deb haskell optional arch=any
+ libghc-stringsearch-doc deb doc optional arch=all
+ libghc-stringsearch-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-stringsearch
+Priority: source
+Section: misc

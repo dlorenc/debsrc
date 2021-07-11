@@ -1,0 +1,27 @@
+Package: tkgate
+Binary: tkgate, tkgate-data, tkgate-doc
+Version: 2.1+repack-4
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>, Georges Khaznadar <georgesk@debian.org>
+Build-Depends: debhelper-compat (= 12), tcl-dev, tk-dev, bison | byacc, flex, xutils-dev, libx11-dev, autotools-dev, libpango1.0-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 068be1f74ec2477afd36852a71d6fecc 2254 tkgate_2.1+repack-4.dsc
+ 0c03ae8596c75fcd2452a87bb0bda223 7748432 tkgate_2.1+repack.orig.tar.xz
+ 3c20b8f7caaa1ad710b7637a0660b279 7852 tkgate_2.1+repack-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/tkgate.git
+Vcs-Git: https://salsa.debian.org/science-team/tkgate.git
+Checksums-Sha256:
+ 3bff970946afa69eb791c53a29fe42dc0c7b0bc7b45bab3916b0984246cc9206 2254 tkgate_2.1+repack-4.dsc
+ 5bf4efe9cc6b9718f44d84d163b7bfbc0185f00c03688c46b27172fa4d9c2455 7748432 tkgate_2.1+repack.orig.tar.xz
+ 529b74efefc4d8a45dfb01611ad2a84409e6a26d3a32aaa1ab1255f818d34d62 7852 tkgate_2.1+repack-4.debian.tar.xz
+Homepage: http://www.tkgate.org/
+Package-List: 
+ tkgate deb electronics optional arch=any
+ tkgate-data deb electronics optional arch=all
+ tkgate-doc deb doc optional arch=all
+Directory: pool/main/t/tkgate
+Priority: source
+Section: electronics

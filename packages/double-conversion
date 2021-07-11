@@ -1,0 +1,28 @@
+Package: double-conversion
+Binary: libdouble-conversion3, libdouble-conversion-dev
+Version: 3.1.5-6.1
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4ee3426da5b0385b575956dc1352e0fc 2195 double-conversion_3.1.5-6.1.dsc
+ e94d3a33a417e692e5600e75019f0272 7023792 double-conversion_3.1.5.orig.tar.gz
+ 6d8eec01ee1408780df72e83e154b837 8356 double-conversion_3.1.5-6.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/double-conversion
+Vcs-Git: https://salsa.debian.org/science-team/double-conversion.git
+Checksums-Sha256:
+ daa0449c95e367e7f0d259bcf03189128068210ddca4c517c99b492d7d5baa8f 2195 double-conversion_3.1.5-6.1.dsc
+ a63ecb93182134ba4293fd5f22d6e08ca417caafa244afaa751cbfddf6415b13 7023792 double-conversion_3.1.5.orig.tar.gz
+ 073e978a02697f48d41e650401d9b073996e6d1c9cbac05218daba1a40cb8fc9 8356 double-conversion_3.1.5-6.1.debian.tar.xz
+Homepage: https://github.com/google/double-conversion
+Package-List: 
+ libdouble-conversion-dev deb libdevel optional arch=any
+ libdouble-conversion3 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, cmake
+Directory: pool/main/d/double-conversion
+Priority: source
+Section: misc

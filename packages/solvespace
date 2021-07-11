@@ -1,0 +1,29 @@
+Package: solvespace
+Binary: solvespace, libslvs1, libslvs1-dev
+Version: 3.0.rc2+repack1-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: whitequark <whitequark@whitequark.org>, Anton Gladky <gladk@debian.org>
+Build-Depends: cmake (>= 3.7.2), debhelper-compat (= 13), libfontconfig1-dev, libgl-dev, libglew-dev, libglu1-mesa-dev, libgtkmm-3.0-dev, libjs-three, libjson-c-dev, libpangomm-1.4-dev, libspnav-dev, libpng-dev, unifont, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f125e5d26ae4f2fd6e931601503a2637 2410 solvespace_3.0.rc2+repack1-3.dsc
+ 25da69af68b70d9eeaddde67f0f01072 1651508 solvespace_3.0.rc2+repack1.orig.tar.xz
+ b1f4f4c88775e24bfb4d9aa3447ba2cf 28520 solvespace_3.0.rc2+repack1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/solvespace
+Vcs-Git: https://salsa.debian.org/science-team/solvespace.git
+Checksums-Sha256:
+ 3293f36cd4bb4425d3417dc7141fb731041884d711c2fe147d7b077b27eb1e71 2410 solvespace_3.0.rc2+repack1-3.dsc
+ 7fe6f69b12da918c735cdec61e9dede5a4cb26803555dc467dad5c6bec99cc34 1651508 solvespace_3.0.rc2+repack1.orig.tar.xz
+ fb48837c1845d555dc4751b075b7658ef36c8da4d0294cd51c4b3a60e9a8d4fe 28520 solvespace_3.0.rc2+repack1-3.debian.tar.xz
+Homepage: https://solvespace.com
+Package-List: 
+ libslvs1 deb libs optional arch=any
+ libslvs1-dev deb libdevel optional arch=any
+ solvespace deb graphics optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: findutils, grep
+Directory: pool/main/s/solvespace
+Priority: optional
+Section: misc

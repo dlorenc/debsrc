@@ -1,0 +1,27 @@
+Package: php-net-sieve
+Binary: php-net-sieve
+Version: 1.4.4-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Prach Pongpanich <prach@debian.org>, Guilhem Moulin <guilhem@debian.org>
+Build-Depends: debhelper-compat (= 13), php-net-socket <!nocheck>, phpunit <!nocheck>, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1a071e727e2a7121d918a4184cd2d76a 2137 php-net-sieve_1.4.4-2.dsc
+ ba5356bc0eb365bc0032167c659474b4 16326 php-net-sieve_1.4.4.orig.tar.gz
+ b507accfec447194761caae49c7ce440 5048 php-net-sieve_1.4.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-net-sieve
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-net-sieve.git -b debian/latest
+Checksums-Sha256:
+ 44c5acab85a2db1c138d0cbc056d6c0bcbd9481e209af2d9d15af67364932496 2137 php-net-sieve_1.4.4-2.dsc
+ 05ad2d4762bb5052afc9c72e5b19698c68eb1e9c8f6809dc63eb6bc379e4ddc5 16326 php-net-sieve_1.4.4.orig.tar.gz
+ 70ade4c70d0da64869478515349c1c29f338744448ccbaea33ce30d079f6175b 5048 php-net-sieve_1.4.4-2.debian.tar.xz
+Homepage: https://pear.php.net/package/Net_Sieve
+Package-List: 
+ php-net-sieve deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/p/php-net-sieve
+Priority: source
+Section: php

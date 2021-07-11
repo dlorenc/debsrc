@@ -1,0 +1,29 @@
+Package: disorderfs
+Binary: disorderfs
+Version: 0.5.11-1
+Maintainer: Reproducible builds folks <reproducible-builds@lists.alioth.debian.org>
+Uploaders: Andrew Ayer <agwa@andrewayer.name>, Chris Lamb <lamby@debian.org>, Holger Levsen <holger@debian.org>,
+Build-Depends: asciidoc, bc, debhelper-compat (= 13), docbook-xml, docbook-xsl, libattr1-dev, libfuse-dev, libxml2-utils, pkg-config, xsltproc
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 218db5770bb5cf7d045e675871a18e73 2480 disorderfs_0.5.11-1.dsc
+ 38160c3f4fd7a425ebe218e9b0a142a2 21019 disorderfs_0.5.11.orig.tar.bz2
+ fbe18866f95edfb115c13094533f645c 833 disorderfs_0.5.11.orig.tar.bz2.asc
+ 7ee1a9491a64d77253a802e98529eb24 12332 disorderfs_0.5.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/reproducible-builds/disorderfs
+Vcs-Git: https://salsa.debian.org/reproducible-builds/disorderfs.git -b debian
+Checksums-Sha256:
+ 08d0597fa003b718845b03b47fd43cdc12333f8a55db23b2319f0513df42d23c 2480 disorderfs_0.5.11-1.dsc
+ 2aa00c29553290281574dca369c663a555ea55d7a86fbeafd223ae49de133486 21019 disorderfs_0.5.11.orig.tar.bz2
+ e143375e6c44905ffc101b0fa679d7750c9d7cd858ec21ed03c196eacde08980 833 disorderfs_0.5.11.orig.tar.bz2.asc
+ 7f861c76ab88c8213cda516a8965c864bb8968fff44397cea14f35acc374f305 12332 disorderfs_0.5.11-1.debian.tar.xz
+Homepage: https://reproducible-builds.org/
+Package-List: 
+ disorderfs deb utils optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, kmod
+Directory: pool/main/d/disorderfs
+Priority: optional
+Section: misc

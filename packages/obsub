@@ -1,0 +1,27 @@
+Package: obsub
+Binary: python3-obsub
+Version: 0.2-4
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Free Ekanayaka <freee@debian.org>
+Build-Depends: dh-python, debhelper-compat (= 12), python3-all, python3-setuptools, python3-nose
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ f8517c57051cb278549cc297d5fc9129 2039 obsub_0.2-4.dsc
+ 1035d87769733b7ac18a82b626aefbe9 11337 obsub_0.2.orig.tar.gz
+ 794c01a941204263bded02c70410484a 2688 obsub_0.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/obsub
+Vcs-Git: https://salsa.debian.org/python-team/modules/obsub.git
+Checksums-Sha256:
+ c72f6ee1baa93944f52ec391a957b40bf9122acafc416b12395968730c5c86a7 2039 obsub_0.2-4.dsc
+ 1636e8a0145cc7cd7384f879f8e40e84e43dcd5c73ffca7b12ef3d6d27866461 11337 obsub_0.2.orig.tar.gz
+ 89a1985388d5734d2a8b5c531a9411ef43098636de7621c3a60cf3efa0385b47 2688 obsub_0.2-4.debian.tar.xz
+Homepage: https://github.com/aepsil0n/obsub
+Package-List: 
+ python3-obsub deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-twisted
+Directory: pool/main/o/obsub
+Priority: optional
+Section: misc

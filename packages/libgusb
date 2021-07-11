@@ -1,0 +1,29 @@
+Package: libgusb
+Binary: libgusb-dev, libgusb-doc, libgusb2, gir1.2-gusb-1.0
+Version: 0.3.5-1
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Uploaders: Steve McIntyre <93sam@debian.org>, Mario Limonciello <mario.limonciello@dell.com>
+Build-Depends: debhelper (>= 11), libglib2.0-dev (>= 2.44.0), libusb-1.0-0-dev, gobject-introspection, libgirepository1.0-dev, gtk-doc-tools, valac (>= 0.20), meson (>= 0.46)
+Build-Depends-Indep: libglib2.0-doc <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dcdb824836ea591a8bf0398569c22665 2333 libgusb_0.3.5-1.dsc
+ 61022fb9abf16804ed3541a67af7d695 41340 libgusb_0.3.5.orig.tar.xz
+ 393586abba2d76e2289681189a8160ed 5720 libgusb_0.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/efi-team/libgusb
+Vcs-Git: https://salsa.debian.org/efi-team/libgusb.git
+Checksums-Sha256:
+ 28e5378811cd16b9262e5cf86e27fd38fe50f5dced86f06f1cef6d251244fe3a 2333 libgusb_0.3.5-1.dsc
+ 5b2a00c6997cc4b0133c5a5748a2e616e9e7504626922105b62aadced78e65df 41340 libgusb_0.3.5.orig.tar.xz
+ 82551e0a710c85c9c5b366e22b69842012676255189de64a174c62a135e196b2 5720 libgusb_0.3.5-1.debian.tar.xz
+Homepage: http://www.hughski.com/downloads.html
+Package-List: 
+ gir1.2-gusb-1.0 deb introspection optional arch=any
+ libgusb-dev deb libdevel optional arch=any
+ libgusb-doc deb doc optional arch=all profile=!nodoc
+ libgusb2 deb libs optional arch=any
+Directory: pool/main/libg/libgusb
+Priority: source
+Section: libs

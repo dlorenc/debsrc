@@ -1,0 +1,26 @@
+Package: xneur
+Binary: xneur, libxneur, libxneur-dev
+Version: 0.20.0-3
+Maintainer: Alexander GQ Gerasiov <gq@debian.org>
+Build-Depends: debhelper-compat (= 13), intltool, libx11-dev, libxmu-headers, libxt-dev, libpcre3-dev, pkg-config, libenchant-2-dev, libgstreamer1.0-dev, libxosd-dev, libnotify-dev, libxi-dev, libxtst-dev
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 5ad9fbf08db82f82f83337419a38bbb6 1737 xneur_0.20.0-3.dsc
+ 00fc51adccf7b2c377d9a8725d0ab981 1683789 xneur_0.20.0.orig.tar.gz
+ acad3942aa893c535837c2999f369c3b 10296 xneur_0.20.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/xneur.git
+Vcs-Git: https://salsa.debian.org/debian/xneur.git
+Checksums-Sha256:
+ 57cce2c4a9745f24ebcf16d882e9bf1c7b00b6cbb6bc954413525ce60fa4a728 1737 xneur_0.20.0-3.dsc
+ f9f6a0e834c6e28d0611f12c9fcc712831ced3701e31b77b71a9cf9be2c5e3d1 1683789 xneur_0.20.0.orig.tar.gz
+ 4e10f832eaf035c0cdce75856f6d6a0efcedf7a998247d4e622c993ae295e53f 10296 xneur_0.20.0-3.debian.tar.xz
+Homepage: https://xneur.ru
+Package-List: 
+ libxneur deb libs optional arch=any
+ libxneur-dev deb libdevel optional arch=any
+ xneur deb x11 optional arch=any
+Directory: pool/main/x/xneur
+Priority: source
+Section: x11

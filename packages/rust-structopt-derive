@@ -1,0 +1,26 @@
+Package: rust-structopt-derive
+Binary: librust-structopt-derive-dev
+Version: 0.4.13-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-heck-0.3+default-dev <!nocheck>, librust-proc-macro-error-1+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+full-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9a4fd1c71336a15aa2cc8257fd046a9a 2445 rust-structopt-derive_0.4.13-1.dsc
+ d532e130ca09a3011813de91cff98717 20115 rust-structopt-derive_0.4.13.orig.tar.gz
+ 1f93fd5dfce775217c09a628669b897e 2856 rust-structopt-derive_0.4.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/structopt-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/structopt-derive]
+Checksums-Sha256:
+ 140dc96d8b2f7ec1c8b43ec94ef5892290e74e440ed6f6c98661e3ee542288c9 2445 rust-structopt-derive_0.4.13-1.dsc
+ 65e51c492f9e23a220534971ff5afc14037289de430e3c83f9daf6a1b6ae91e8 20115 rust-structopt-derive_0.4.13.orig.tar.gz
+ 7605025e4729ec9a90d6a1f9076a2600c5b295a8dd8c5073d762a4a848fa0ff0 2856 rust-structopt-derive_0.4.13-1.debian.tar.xz
+Package-List: 
+ librust-structopt-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-structopt-derive
+Priority: extra
+Section: misc

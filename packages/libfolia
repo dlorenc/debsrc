@@ -1,0 +1,26 @@
+Package: libfolia
+Binary: libfolia-dev, libfolia14
+Version: 2.4-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ko van der Sloot <ko.vandersloot@uvt.nl>, Maarten van Gompel <proycon@anaproy.nl>
+Build-Depends: debhelper-compat (= 12), libicu-dev, libticcutils-dev (>= 0.24), libxml2-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b848fda639e9ccefb784126885187197 1730 libfolia_2.4-2.dsc
+ 36ef857ef62216240790f2e6d0367bbc 574752 libfolia_2.4.orig.tar.gz
+ 1c32181d72d0dc56ce7d4d607cd8d625 4764 libfolia_2.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libfolia
+Vcs-Git: https://salsa.debian.org/science-team/libfolia.git
+Checksums-Sha256:
+ 2cca427c96c805cd1afb8c65859ce15fca646f99529df0c025a989f26b4ca942 1730 libfolia_2.4-2.dsc
+ eaa9233e6b289b4b6d64ef0d72f3fa121b1d0d7cc613117e62093f141b65fc93 574752 libfolia_2.4.orig.tar.gz
+ c24b9009399a0c1a8035d9ea45fcea84675d4babd26ab4a5cd16616594bcee4b 4764 libfolia_2.4-2.debian.tar.xz
+Homepage: http://proycon.github.io/folia
+Package-List: 
+ libfolia-dev deb libdevel optional arch=any
+ libfolia14 deb libs optional arch=any
+Directory: pool/main/libf/libfolia
+Priority: source
+Section: science

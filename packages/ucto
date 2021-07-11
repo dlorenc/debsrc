@@ -1,0 +1,27 @@
+Package: ucto
+Binary: ucto, libucto-dev, libucto5
+Version: 0.21.1-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Maarten van Gompel <proycon@anaproy.nl>, Ko van der Sloot <ko.vandersloot@uvt.nl>
+Build-Depends: debhelper-compat (= 12), libexttextcat-dev, libfolia-dev (>= 2.4), libicu-dev, libticcutils-dev (>= 0.24), libxml2-dev, pkg-config, uctodata (>= 0.8)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 95c774ac2d937a00559f0725cf691481 1821 ucto_0.21.1-2.dsc
+ b01e8d62da60190a2a2f2decafe5149a 481624 ucto_0.21.1.orig.tar.gz
+ 6e821ecbef368c20a5404b5fb6973db0 5732 ucto_0.21.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ucto
+Vcs-Git: https://salsa.debian.org/science-team/ucto.git
+Checksums-Sha256:
+ e41336c001350f3445d26ce16f8bb741eec3ffdcc10a16fd84ce434194b26593 1821 ucto_0.21.1-2.dsc
+ 9e60d05ff5826197393d2d1918ce5b165e947a755f6d340c97b4ee8bd83e79b9 481624 ucto_0.21.1.orig.tar.gz
+ 5e9c9fb060eb11619de364f0eb419a5a3e38bbfb82a7c10c383d321d4edac9fb 5732 ucto_0.21.1-2.debian.tar.xz
+Homepage: http://languagemachines.github.io/ucto/
+Package-List: 
+ libucto-dev deb libdevel optional arch=any
+ libucto5 deb libs optional arch=any
+ ucto deb science optional arch=any
+Directory: pool/main/u/ucto
+Priority: source
+Section: science

@@ -1,0 +1,25 @@
+Package: jsp-api
+Binary: libjsp-api-java
+Version: 2.3.4-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, junit4, libel-api-java, libmaven-bundle-plugin-java (>= 3.5.0), libservlet-api-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 38dfb435434fbd3cd1b88efeb9e89037 2197 jsp-api_2.3.4-3.dsc
+ e8cd2dcaed107f9dd549c40eca35ce48 85592 jsp-api_2.3.4.orig.tar.xz
+ 40074520d816e6cfbfd00b389f190e39 8644 jsp-api_2.3.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jsp-api
+Vcs-Git: https://salsa.debian.org/java-team/jsp-api.git
+Checksums-Sha256:
+ 4b0799221d1d50ad4292222c28dfa9ce45d1dcaf716996478d6cf74973eefe9f 2197 jsp-api_2.3.4-3.dsc
+ 2fab7216496da3e0d87937786ab67af8168bd73bac1ad52b074881dea717509d 85592 jsp-api_2.3.4.orig.tar.xz
+ d0197fffbb2bb3d56f7d1f059eb4821f9ab5f84f8bbc8dbc3d30895e113db2e6 8644 jsp-api_2.3.4-3.debian.tar.xz
+Homepage: https://github.com/javaee/javaee-jsp-api
+Package-List: 
+ libjsp-api-java deb java optional arch=all
+Directory: pool/main/j/jsp-api
+Priority: extra
+Section: misc

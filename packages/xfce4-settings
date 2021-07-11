@@ -1,0 +1,26 @@
+Package: xfce4-settings
+Binary: xfce4-settings, xfce4-helpers
+Version: 4.16.0-1
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Uploaders: Yves-Alexis Perez <corsac@debian.org>
+Build-Depends: debhelper-compat (= 12), intltool, libcolord-dev, libexo-2-dev (>= 4.15.1), libgarcon-1-0-dev, libgtk-3-dev, libnotify-dev, libupower-glib-dev (>= 0.99), libxcursor-dev, libxfce4ui-2-dev (>= 4.15.1), libxfce4util-dev (>= 4.15.2), libxfconf-0-dev (>= 4.13.0), libxklavier-dev (>= 5.0), libxrandr-dev, xfce4-dev-tools (>= 4.15), xserver-xorg-input-libinput-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bbb85713684baa5f8fd15e2fa261a5cf 2052 xfce4-settings_4.16.0-1.dsc
+ 3aa1f4edb1190f5c164d5760688f247a 1492754 xfce4-settings_4.16.0.orig.tar.bz2
+ 56cd030ad23fe493b166baeac3bc682d 8824 xfce4-settings_4.16.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xfce-team/desktop/xfce4-settings
+Vcs-Git: https://salsa.debian.org/xfce-team/desktop/xfce4-settings.git
+Checksums-Sha256:
+ 037dbc223c2eddb4c059fd200b690b725494dec8f7fade6c7025223219982521 2052 xfce4-settings_4.16.0-1.dsc
+ 67a1404fc754c675c6431e22a8fe0e5d79644fdfadbfe25a4523d68e1442ddc2 1492754 xfce4-settings_4.16.0.orig.tar.bz2
+ 09467697febcdaa433a5236bf69d9f96c9a10ee6241e482ecd1105d14de3b67f 8824 xfce4-settings_4.16.0-1.debian.tar.xz
+Homepage: https://docs.xfce.org/xfce/xfce4-settings/start
+Package-List: 
+ xfce4-helpers deb xfce optional arch=any
+ xfce4-settings deb xfce optional arch=any
+Directory: pool/main/x/xfce4-settings
+Priority: source
+Section: xfce

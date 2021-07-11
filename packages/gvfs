@@ -1,0 +1,33 @@
+Package: gvfs
+Binary: gvfs, gvfs-backends, gvfs-bin, gvfs-common, gvfs-daemons, gvfs-fuse, gvfs-libs
+Version: 1.46.2-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec (>= 0.13), gnome-pkg-tools (>= 0.7), gsettings-desktop-schemas-dev (>= 3.33.0), gtk-doc-tools, libarchive-dev, libavahi-client-dev (>= 0.6), libavahi-glib-dev (>= 0.6), libbluetooth-dev (>= 4.0) [linux-any], libbluray-dev, libcap-dev [linux-any], libcdio-paranoia-dev (>= 0.78.2), libdbus-1-dev, libexpat1-dev, libfuse3-dev (>= 3.0.0) [!hurd-any], libgcr-3-dev, libgcrypt20-dev (>= 1.2.2), libgdata-dev (>= 0.17.11), libglib2.0-dev (>= 2.65.1), libgoa-1.0-dev (>= 3.17.1), libgphoto2-dev (>= 2.5.0), libgudev-1.0-dev (>= 147) [linux-any], libimobiledevice-dev (>= 1.2) [!hurd-any], libltdl-dev, libmtp-dev (>= 1.1.6), libnfs-dev (>= 1.9.7), libplist-dev, libpolkit-gobject-1-dev, libsecret-1-dev, libsmbclient-dev (>= 3.4.0) [!hurd-any], libsoup2.4-dev (>= 2.58.0), libsystemd-dev [linux-any], libudisks2-dev (>= 1.97) [linux-any], libxml2-dev, meson (>= 0.50.0), openssh-client, pkg-config, policykit-1 (>= 0.105-18~), systemd (>= 206) [linux-any]
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bb558eb5447763b9a05a0a1b8eaa4c5c 3113 gvfs_1.46.2-1.dsc
+ 852fff7ae3215012f3e143d0b13a81ff 1216056 gvfs_1.46.2.orig.tar.xz
+ dfabf0ac293198a4e69821093e0cee24 25776 gvfs_1.46.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gvfs
+Vcs-Git: https://salsa.debian.org/gnome-team/gvfs.git
+Checksums-Sha256:
+ f67d6d3597220bec385598445fb3660085c14d75a8d068d2611fc852afbacdb8 3113 gvfs_1.46.2-1.dsc
+ d83fa160286670c03eb890240606d8afa7ea6a3a818e8ad17eeed8d976487bd7 1216056 gvfs_1.46.2.orig.tar.xz
+ 51d0047971eb46f189d6dbefc397ced5b5aa3b5fc4e96d4457b0f0bac20dc074 25776 gvfs_1.46.2-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Projects/gvfs
+Package-List: 
+ gvfs deb libs optional arch=any
+ gvfs-backends deb gnome optional arch=any
+ gvfs-bin deb oldlibs optional arch=any
+ gvfs-common deb libs optional arch=all
+ gvfs-daemons deb libs optional arch=any
+ gvfs-fuse deb gnome optional arch=kfreebsd-any,linux-any
+ gvfs-libs deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, apache2-dev, dbus, gir1.2-umockdev-1.0, openssh-client, policykit-1, python3-dbus, python3-gi, python3-twisted, samba, sudo, umockdev
+Directory: pool/main/g/gvfs
+Priority: source
+Section: libs

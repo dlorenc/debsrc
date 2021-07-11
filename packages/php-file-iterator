@@ -1,0 +1,27 @@
+Package: php-file-iterator
+Binary: php-file-iterator
+Version: 3.0.5-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: ant, debhelper-compat (= 13), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 65f22d74014c41c3a373190f011b1c96 1808 php-file-iterator_3.0.5-2.dsc
+ 5325dc00ed9fc1c9db6d1d897526b045 8628 php-file-iterator_3.0.5.orig.tar.gz
+ 4a3ff3ec1a642be030af866269002f58 4020 php-file-iterator_3.0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-file-iterator
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-file-iterator.git -b debian/latest
+Checksums-Sha256:
+ e7be2e6f16cb87c72388580597a78b14750adde414d7a17865ab19f17e5d436b 1808 php-file-iterator_3.0.5-2.dsc
+ 582f9b0582493b148686b0b8b645f97e17af5d116b939500467005965cf95c7d 8628 php-file-iterator_3.0.5.orig.tar.gz
+ 10b45d65f8797c475af6b919ad9ea7c9471b3f5aff712b3e643f6a09d40ebc47 4020 php-file-iterator_3.0.5-2.debian.tar.xz
+Homepage: https://github.com/sebastianbergmann/php-file-iterator
+Package-List: 
+ php-file-iterator deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/p/php-file-iterator
+Priority: source
+Section: php

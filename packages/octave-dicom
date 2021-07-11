@@ -1,0 +1,26 @@
+Package: octave-dicom
+Binary: octave-dicom
+Version: 0.4.0-1
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Uploaders: Rafael Laboissière <rafael@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-octave (>= 0.7.1), libgdcm-dev (>= 2.0.16)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4030a73fd6726c8f7ef178b092dd3bbb 2053 octave-dicom_0.4.0-1.dsc
+ 722c7d46ab27812aec0a682854c25662 404412 octave-dicom_0.4.0.orig.tar.gz
+ 320f3df3231056491aa9de9e766a6320 3532 octave-dicom_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-octave-team/octave-dicom
+Vcs-Git: https://salsa.debian.org/pkg-octave-team/octave-dicom.git
+Checksums-Sha256:
+ 3ec28fa6b0fecbd640fdcaddd1af1f99dea5a4b06bcb319bb769f9e78e5a793e 2053 octave-dicom_0.4.0-1.dsc
+ eadb366e49f950cf85ad7544acc01bffd28654c43b477a41b816889dabb13c8c 404412 octave-dicom_0.4.0.orig.tar.gz
+ 187750e3b8cdea098a52fe122307bddfaca76ab4bd87fa7c5074052f93edb375 3532 octave-dicom_0.4.0-1.debian.tar.xz
+Homepage: https://wiki.octave.org/Dicom_package
+Package-List: 
+ octave-dicom deb math optional arch=any
+Testsuite: autopkgtest-pkg-octave
+Directory: pool/main/o/octave-dicom
+Priority: extra
+Section: misc

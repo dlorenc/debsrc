@@ -1,0 +1,27 @@
+Package: libdca
+Binary: libdca-dev, libdca-utils, libdca0
+Version: 0.0.7-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f296a156bda01f8b9c8a70a78fe7db73 2032 libdca_0.0.7-2.dsc
+ 68916db60e3017d92841f77908518a11 158232 libdca_0.0.7.orig.tar.bz2
+ b571e75b17aefab1f03de17a0e7afd6b 5060 libdca_0.0.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libdca
+Vcs-Git: https://salsa.debian.org/multimedia-team/libdca.git
+Checksums-Sha256:
+ 83bfa57f92111fcdb1a2b4b8b7adb3387b4c29452c49108ea756cbcd0cf23269 2032 libdca_0.0.7-2.dsc
+ 3a0b13815f582c661d2388ffcabc2f1ea82f471783c400f765f2ec6c81065f6a 158232 libdca_0.0.7.orig.tar.bz2
+ 47c8ff2613e85e2cfce23e4b7711823e68a463ac3d7c829258e05d11b2b1c87d 5060 libdca_0.0.7-2.debian.tar.xz
+Homepage: https://www.videolan.org/developers/libdca.html
+Package-List: 
+ libdca-dev deb libdevel optional arch=any
+ libdca-utils deb sound optional arch=any
+ libdca0 deb libs optional arch=any
+Directory: pool/main/libd/libdca
+Priority: source
+Section: libs

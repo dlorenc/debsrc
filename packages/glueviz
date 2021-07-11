@@ -1,0 +1,28 @@
+Package: glueviz
+Binary: python3-glue, glueviz
+Version: 1.0.1+dfsg-1
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools (>= 30.3.0), python3-all (>= 2.7.8), python3-numpy (>= 1.16), python3-matplotlib (>= 3.2), python3-pyqt5 (>= 5.9), pyqt5-dev-tools (>= 4.11.2), python3-h5py (>= 2.10), python3-qtconsole (>= 4.2.0), python3-qtpy, python3-mock (>= 1.0.1), python3-ipykernel, python3-bottleneck, python3-setuptools-scm
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 11317bfaba9ac9b671f4e89cd4e4e102 2434 glueviz_1.0.1+dfsg-1.dsc
+ c6ba20d61402f832a8532a80e21e06a1 23323671 glueviz_1.0.1+dfsg.orig.tar.gz
+ 30ec9c20b8d3bc29b0454197305e643d 14252 glueviz_1.0.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/glue
+Vcs-Git: https://salsa.debian.org/debian-astro-team/glue.git
+Checksums-Sha256:
+ f4810562e47fd0814020e27a78cd6d3255a2116e6eb5880ed00ca307008b0229 2434 glueviz_1.0.1+dfsg-1.dsc
+ 6efb4a093de49d0dcd803273ed13b625348b7557b25c633e55c28a2694b8245e 23323671 glueviz_1.0.1+dfsg.orig.tar.gz
+ 984b046f5607d6fedf94cbbc368bd44767f044c9bdc3528ddfe35030782f060f 14252 glueviz_1.0.1+dfsg-1.debian.tar.xz
+Homepage: http://www.glueviz.org/
+Package-List: 
+ glueviz deb science optional arch=all
+ python3-glue deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-echo, python3-numpy
+Directory: pool/main/g/glueviz
+Priority: optional
+Section: misc

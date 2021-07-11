@@ -1,0 +1,28 @@
+Package: pydbus
+Binary: python3-pydbus, python-pydbus-doc
+Version: 0.6.0-4
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Alberto Caso <alberto.caso@juntaex.es>
+Build-Depends: dbus, debhelper-compat (= 10), dh-python, python3-all, python3-docutils, python3-gi, python3-setuptools
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ c4074232380d9098f05eed39ece98da1 2131 pydbus_0.6.0-4.dsc
+ 929cbae07aad76a709ff59be51f9e853 2083046 pydbus_0.6.0.orig.tar.gz
+ e399815282bc58735d1287e807b4e426 3308 pydbus_0.6.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pydbus
+Vcs-Git: https://salsa.debian.org/python-team/modules/pydbus.git
+Checksums-Sha256:
+ 239fc264196fe54edd10d428f22d4db54b586e6a5a4a80638aaef49a53e4d96c 2131 pydbus_0.6.0-4.dsc
+ dacdf0498a831c8b43a4f3d985d64f99f3093a8aaf4e2ea99981c30fdf1a42da 2083046 pydbus_0.6.0.orig.tar.gz
+ 050e9302e17bfb73893248a6eb3f800346cafd039bfa851f38134608c074da81 3308 pydbus_0.6.0-4.debian.tar.xz
+Homepage: https://github.com/LEW21/pydbus
+Package-List: 
+ python-pydbus-doc deb doc optional arch=all
+ python3-pydbus deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/pydbus
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: libxtst
+Binary: libxtst6, libxtst6-udeb, libxtst-dev, libxtst-doc
+Version: 2:1.2.3-1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: dpkg-dev (>= 1.16.1), debhelper (>= 10), libx11-dev (>= 2:1.6.0), libxext-dev (>= 2:1.0.99.4), libxi-dev, x11proto-record-dev (>= 1.13.99.1), x11proto-xext-dev (>= 7.0.99.3), x11proto-input-dev, pkg-config, xmlto (>= 0.0.22), xutils-dev (>= 1:7.6+2), quilt, xorg-sgml-doctools (>= 1:1.8), w3m
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 1.0
+Files:
+ bf88f02f422d6cda2ac04b645aa4d7cb 2243 libxtst_1.2.3-1.dsc
+ 2534e6015a52e0bb7b6f9148ca180028 400197 libxtst_1.2.3.orig.tar.gz
+ 0b3415fbe16bfdc8478023760c804365 10177 libxtst_1.2.3-1.diff.gz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/lib/libxtst.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/lib/libxtst.git
+Checksums-Sha256:
+ 979f05e505ea319c3f75955e10345338f77a512f5a6a0a887d6f4633d6bd4633 2243 libxtst_1.2.3-1.dsc
+ a0c83acce02d4923018c744662cb28eb0dbbc33b4adc027726879ccf68fbc2c2 400197 libxtst_1.2.3.orig.tar.gz
+ c4739fc7ccda7caaffcf36f934b7c33463390e71d567c7d62f635db1946b74ed 10177 libxtst_1.2.3-1.diff.gz
+Package-List: 
+ libxtst-dev deb libdevel optional arch=any
+ libxtst-doc deb doc optional arch=all
+ libxtst6 deb libs optional arch=any
+ libxtst6-udeb udeb debian-installer optional arch=any
+Directory: pool/main/libx/libxtst
+Priority: source
+Section: x11

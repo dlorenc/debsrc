@@ -1,0 +1,26 @@
+Package: libdevel-cover-perl
+Binary: libdevel-cover-perl
+Version: 1.36-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, gregor herrmann <gregoa@debian.org>, Florian Schlichting <fsfs@debian.org>, Axel Beckert <abe@debian.org>, Dominic Hargreaves <dom@earth.li>
+Build-Depends: debhelper-compat (= 13), libb-debug-perl <!nocheck> | perl (<< 5.27.3) <!nocheck>, libdbm-deep-perl <!nocheck>, libhtml-parser-perl <!nocheck>, libmoo-perl <!nocheck>, libmoose-perl <!nocheck>, libpod-coverage-perl <!nocheck>, libppi-html-perl <!nocheck> | perltidy <!nocheck>, libreadonly-perl <!nocheck>, libtemplate-perl, libtest-differences-perl <!nocheck>, perl-xs-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cdf4f72a6251622d55b18703a84d57c3 2578 libdevel-cover-perl_1.36-2.dsc
+ 3430734551004b6b7e46505d1d9578a0 205417 libdevel-cover-perl_1.36.orig.tar.gz
+ 6109c06c22f540b75c7c2e5741068aca 7696 libdevel-cover-perl_1.36-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdevel-cover-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdevel-cover-perl.git
+Checksums-Sha256:
+ 491f09855f70cd4dd87ee94417b7c2481e644aa12c82969961af5856664b66e4 2578 libdevel-cover-perl_1.36-2.dsc
+ 54649711608c21b27a74aaaa579e766bd1636c4067f6d3cb808b954043dc2e59 205417 libdevel-cover-perl_1.36.orig.tar.gz
+ 78a9376edf886093369d59ab4359deb98bded4c19ee62c8b0f3d6e51d09b8b27 7696 libdevel-cover-perl_1.36-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Devel-Cover
+Package-List: 
+ libdevel-cover-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdevel-cover-perl
+Priority: source
+Section: perl

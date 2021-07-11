@@ -1,0 +1,27 @@
+Package: flake8-docstrings
+Binary: python3-flake8-docstrings
+Version: 1.1.0-1.1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper (>= 10), dh-python, python3-all, python3-flake8, python3-flake8-polyfill, python3-pydocstyle (>= 2.0), python3-setuptools
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ 587edb71baf0631dd49375844bc7aa24 2253 flake8-docstrings_1.1.0-1.1.dsc
+ 481985b7c40a671a066f10aec74cde33 4687 flake8-docstrings_1.1.0.orig.tar.gz
+ e2fb35008d2c4690382653ef0037d30e 2252 flake8-docstrings_1.1.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/flake8-docstrings.git
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/flake8-docstrings.git
+Checksums-Sha256:
+ 65d2fdb4d2745415774b342a2ebe03367a19f07f8993ee317b3ad3990a70b4c6 2253 flake8-docstrings_1.1.0-1.1.dsc
+ 0d2a7c12e57db7bef56f820d0294bed7a577a18609246f70d223bc1bdccc185c 4687 flake8-docstrings_1.1.0.orig.tar.gz
+ c8bfaab272f28095a9573b95bf39fe6d67f58f68f1cb0a4fa76b716d81c5ad5e 2252 flake8-docstrings_1.1.0-1.1.debian.tar.xz
+Homepage: https://gitlab.com/pycqa/flake8-docstrings
+Package-List: 
+ python3-flake8-docstrings deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: flake8
+Directory: pool/main/f/flake8-docstrings
+Priority: extra
+Section: misc

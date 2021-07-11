@@ -1,0 +1,29 @@
+Package: libmatekbd
+Binary: libmatekbd4, libmatekbd-common, libmatekbd-dev, gir1.2-matekbd-1.0, gir1.2-matekbd
+Version: 1.24.1-1
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>, Stefano Karapetsas <stefano@karapetsas.com>, Mike Gabriel <sunweaver@debian.org>, Vangelis Mouhtsis <vangelis@gnugr.org>, Martin Wimpress <code@flexion.org>,
+Build-Depends: autoconf-archive, debhelper-compat (= 13), dpkg-dev (>= 1.16.1.1), gobject-introspection, intltool, libgirepository1.0-dev, libglib2.0-dev, libgtk-3-dev, libxklavier-dev, libxml2-utils, mate-common (>= 1.18)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dd5c550e25612f8dbf0accc650a1c152 2607 libmatekbd_1.24.1-1.dsc
+ 64ed9ddb85eba70b53bddee08642d176 141452 libmatekbd_1.24.1.orig.tar.xz
+ 646c36fc9edd7af3c4c5c3da16019cf7 5940 libmatekbd_1.24.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-mate-team/libmatekbd
+Vcs-Git: https://salsa.debian.org/debian-mate-team/libmatekbd.git
+Checksums-Sha256:
+ de2057181066e195dd74f2218e537dad0e0ddc04bacf2658cf39c26e9cf349d9 2607 libmatekbd_1.24.1-1.dsc
+ 39a9307d9e5af02a68a40995afc5ed3614a5640fe0ab7dda1bfaa5e56efe216c 141452 libmatekbd_1.24.1.orig.tar.xz
+ 595a7bc1b5cc7d66602797fdd72f1a2fed47af4d80bbfdcbd2866324f34ac377 5940 libmatekbd_1.24.1-1.debian.tar.xz
+Homepage: http://www.mate-desktop.org/
+Package-List: 
+ gir1.2-matekbd deb oldlibs optional arch=any
+ gir1.2-matekbd-1.0 deb introspection optional arch=any
+ libmatekbd-common deb libs optional arch=all
+ libmatekbd-dev deb libdevel optional arch=any
+ libmatekbd4 deb libs optional arch=any
+Directory: pool/main/libm/libmatekbd
+Priority: optional
+Section: misc

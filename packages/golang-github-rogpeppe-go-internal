@@ -1,0 +1,28 @@
+Package: golang-github-rogpeppe-go-internal
+Binary: golang-github-rogpeppe-go-internal-dev, go-internal
+Version: 1.6.2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.46~), golang-any, golang-gopkg-errgo.v2-dev (>= 2.1.0~)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a950c86f26b8a74fcb03cae72970428b 2440 golang-github-rogpeppe-go-internal_1.6.2-1.dsc
+ 4f1002fa81cfcef2248ead7025dc1103 123261 golang-github-rogpeppe-go-internal_1.6.2.orig.tar.gz
+ 3319ac647ae9c18a290d4f58049ccad3 3316 golang-github-rogpeppe-go-internal_1.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-rogpeppe-go-internal
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-rogpeppe-go-internal.git
+Checksums-Sha256:
+ a2185555cdf6334504e481637bd262fbeaae4dcf97c5725707430647a43ae933 2440 golang-github-rogpeppe-go-internal_1.6.2-1.dsc
+ f1349be3b952255489205ec377d38eec04a76ed8abc6ec8a06f550782a23b216 123261 golang-github-rogpeppe-go-internal_1.6.2.orig.tar.gz
+ 8603fcba21a04d5868dab01a37c659b2e65c7d1ad64a11519a0a797579f33cb0 3316 golang-github-rogpeppe-go-internal_1.6.2-1.debian.tar.xz
+Homepage: https://github.com/rogpeppe/go-internal
+Go-Import-Path: github.com/rogpeppe/go-internal
+Package-List: 
+ go-internal deb devel optional arch=any
+ golang-github-rogpeppe-go-internal-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-rogpeppe-go-internal
+Priority: extra
+Section: golang

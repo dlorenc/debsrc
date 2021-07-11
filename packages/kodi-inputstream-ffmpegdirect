@@ -1,0 +1,26 @@
+Package: kodi-inputstream-ffmpegdirect
+Binary: kodi-inputstream-ffmpegdirect
+Version: 1.19.2+ds1-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Vasyl Gello <vasek.gello@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2fb4ce28fdc2e1af58721f9c0b694661 2546 kodi-inputstream-ffmpegdirect_1.19.2+ds1-1.dsc
+ 7c5b08c97dbe285b0d5b9653e42391fa 197968 kodi-inputstream-ffmpegdirect_1.19.2+ds1.orig.tar.xz
+ cb71440817d9b9556b3c6a8655479c1e 2588 kodi-inputstream-ffmpegdirect_1.19.2+ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-inputstream-ffmpegdirect
+Vcs-Git: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-inputstream-ffmpegdirect.git
+Checksums-Sha256:
+ 3b612d456852c5b61a8bbf64c5e1f80f0f4d35247f768d068e2ccd55138a867a 2546 kodi-inputstream-ffmpegdirect_1.19.2+ds1-1.dsc
+ 8f0ad3a0ac9e923d0613d2e3ed3c2c18b9327bf1d208ecbc8a48507f7c26900e 197968 kodi-inputstream-ffmpegdirect_1.19.2+ds1.orig.tar.xz
+ 1f04b02c83f058e28060b0bcbe0139f025cedf064876204a10624213ca3ea7ce 2588 kodi-inputstream-ffmpegdirect_1.19.2+ds1-1.debian.tar.xz
+Homepage: https://kodi.tv/
+Build-Depends-Arch: dh-sequence-kodiaddon, cmake, kodi-addons-dev (>= 2:19~), libavcodec-dev (>= 7:4.2.2), libavfilter-dev (>= 7:4.2.2), libavformat-dev (>= 7:4.2.2), libavutil-dev (>= 7:4.2.2), libbz2-dev, libpostproc-dev (>= 4.2.2), libswresample-dev (>= 7:4.2.2), libswscale-dev (>= 7:4.2.2), libz3-dev, nasm [i386], pkg-config, zlib1g-dev
+Package-List: 
+ kodi-inputstream-ffmpegdirect deb libs optional arch=any
+Directory: pool/main/k/kodi-inputstream-ffmpegdirect
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-retry
+Binary: node-retry
+Version: 0.12.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>, Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 12), pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aee428bb186c9123269c09d2c9a970db 2045 node-retry_0.12.0-1.dsc
+ 4d610ad9baea59dcf574c0bc6db929b0 10529 node-retry_0.12.0.orig.tar.gz
+ 501ceae55dde2d3f56ab097f10be9652 3676 node-retry_0.12.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-retry
+Vcs-Git: https://salsa.debian.org/js-team/node-retry.git
+Checksums-Sha256:
+ 20b00288c158fe6f30d1ff7897cb44472ea4d6d79b90eef8a0bf8f1b01b1bd69 2045 node-retry_0.12.0-1.dsc
+ cef8f2ce6d82ce72d1178bff877d2b4fdeb2e71785bfec1d1e92275d7ef6abc3 10529 node-retry_0.12.0.orig.tar.gz
+ 69c36eb4419bc9122de78d0f1f1dc12c2a7cbe5d5fbe9be0e47dff27477b96df 3676 node-retry_0.12.0-1.debian.tar.xz
+Homepage: https://github.com/tim-kos/node-retry
+Package-List: 
+ node-retry deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-retry
+Priority: source
+Section: javascript

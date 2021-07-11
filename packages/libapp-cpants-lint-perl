@@ -1,0 +1,27 @@
+Package: libapp-cpants-lint-perl
+Binary: libapp-cpants-lint-perl, cpants-lint
+Version: 0.05-5.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: cdbs, devscripts, perl, debhelper, dh-buildinfo, libextutils-makemaker-cpanfile-perl, libmodule-cpants-analyse-perl (>= 0.96), libtest-useallmodules-perl
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 43d3926833659347d4f37cf8ac733110 2315 libapp-cpants-lint-perl_0.05-5.1.dsc
+ 1f41352ec2fedaa07a27212ca95d92b3 14212 libapp-cpants-lint-perl_0.05.orig.tar.gz
+ 9e7ec425a96712b4439a97fc8072c07c 4636 libapp-cpants-lint-perl_0.05-5.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libapp-cpants-lint-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libapp-cpants-lint-perl
+Checksums-Sha256:
+ f6a7689a4bbb78e7c4451b0b021c289b663a1f965cf7db2ff9e4d331f628d230 2315 libapp-cpants-lint-perl_0.05-5.1.dsc
+ c28907b95447205cce23991b51d5fa52b9b9f9a85682647a3e649452e404498e 14212 libapp-cpants-lint-perl_0.05.orig.tar.gz
+ ff1652a53585dca0c7f0d6086612c2131298b5adef1fa4b6786f2f4f8a7d2bc9 4636 libapp-cpants-lint-perl_0.05-5.1.debian.tar.xz
+Homepage: https://metacpan.org/pod/App::CPANTS::Lint
+Package-List: 
+ cpants-lint deb perl optional arch=all
+ libapp-cpants-lint-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liba/libapp-cpants-lint-perl
+Priority: optional
+Section: misc

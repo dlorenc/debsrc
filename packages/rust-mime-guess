@@ -1,0 +1,24 @@
+Package: rust-mime-guess
+Binary: librust-mime-guess-dev
+Version: 2.0.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-mime-0.3+default-dev <!nocheck>, librust-unicase-2+default-dev (>= 2.4.0-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ a98695a5ff04df24c1e0bc797f57ec71 1821 rust-mime-guess_2.0.1-1.dsc
+ fdd463019d2c0523247f9569c3f28142 26659 rust-mime-guess_2.0.1.orig.tar.gz
+ a8c7ff9d858cd27ea5eb6cc34523b631 2480 rust-mime-guess_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mime-guess
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/mime-guess]
+Checksums-Sha256:
+ c64cef860688dd8e1df68e0898308e601283a7458f49726fa89abf369581034b 1821 rust-mime-guess_2.0.1-1.dsc
+ c1d457ea1f749ae1645926abc4b5abc0beed4e18117c3a36faa8e9c13bbbc60c 26659 rust-mime-guess_2.0.1.orig.tar.gz
+ dd419e937840a1df82328179c63850be7232edf334a59eacf1ba1e6a18a63788 2480 rust-mime-guess_2.0.1-1.debian.tar.xz
+Package-List: 
+ librust-mime-guess-dev deb rust optional arch=any
+Directory: pool/main/r/rust-mime-guess
+Priority: extra
+Section: misc

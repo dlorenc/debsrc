@@ -1,0 +1,25 @@
+Package: rust-wincolor
+Binary: librust-wincolor-dev
+Version: 1.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-winapi-0.3+consoleapi-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+processenv-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+wincon-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 2d3c22f54dd67080af30913e0d9f42b2 1786 rust-wincolor_1.0.0-1.dsc
+ e1ad2cac0022238e2be7ad05afd3f58e 4777 rust-wincolor_1.0.0.orig.tar.gz
+ d3aef0f3848dca84e40e91fca7b786d8 2724 rust-wincolor_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wincolor
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/wincolor]
+Checksums-Sha256:
+ 4669386269d5cc559470794a25cc54aada1206aa0df3e9358d7b9a7184337bef 1786 rust-wincolor_1.0.0-1.dsc
+ b9dc3aa9dcda98b5a16150c54619c1ead22e3d3a5d458778ae914be760aa981a 4777 rust-wincolor_1.0.0.orig.tar.gz
+ 32a7a73b787986d5afa464d533a48777009641b87edf71cdf3bcbcac2ae3f903 2724 rust-wincolor_1.0.0-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/termcolor/tree/master/wincolor
+Package-List: 
+ librust-wincolor-dev deb rust optional arch=any
+Directory: pool/main/r/rust-wincolor
+Priority: extra
+Section: misc

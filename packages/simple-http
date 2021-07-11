@@ -1,0 +1,27 @@
+Package: simple-http
+Binary: libsimple-http-java, libsimple-http-java-doc
+Version: 4.1.21-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Build-Depends: ant, debhelper (>= 7.0.50~), javahelper, maven-repo-helper (>= 1.5~)
+Build-Depends-Indep: default-jdk, default-jdk-doc
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 465a04fb73e6066fc232bd5958b05464 2182 simple-http_4.1.21-1.1.dsc
+ f096de4cb5120cf42588550e0d5d4ee1 275027 simple-http_4.1.21.orig.tar.gz
+ 9002740e9cbc9304ce6c24f0450f42e9 3300 simple-http_4.1.21-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/gitweb/?p=pkg-java/libsimple-http-java.git
+Vcs-Git: https://alioth.debian.org/anonscm/git/pkg-java/libsimple-http-java.git
+Checksums-Sha256:
+ d3c7b45e8eb075a32df26ea667d61537d6b5e0130a0f66cc02dfa510e564d6e5 2182 simple-http_4.1.21-1.1.dsc
+ e740ce36b109011362b7653d376ca698714d962a3c7b13468214508b11df22e2 275027 simple-http_4.1.21.orig.tar.gz
+ 796ebf3b73ced910f1d5cda77c3c7a7e8b95093a6feb68990826a982a1ded297 3300 simple-http_4.1.21-1.1.debian.tar.xz
+Homepage: http://www.simpleframework.org/
+Package-List: 
+ libsimple-http-java deb java extra arch=all
+ libsimple-http-java-doc deb doc extra arch=all
+Directory: pool/main/s/simple-http
+Priority: optional
+Section: misc

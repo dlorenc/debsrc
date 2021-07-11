@@ -1,0 +1,34 @@
+Package: sendmail
+Binary: sendmail-bin, rmail, sensible-mda, libmilter1.0.1, libmilter-dev, sendmail-doc, sendmail, sendmail-base, sendmail-cf
+Version: 8.15.2-22
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), make (>> 3.79.1-14), m4, linux-libc-dev (>= 2.6.21-3) [linux-any], libdb-dev, libldap2-dev, libwrap0-dev, liblockfile-dev, libsasl2-dev, libssl-dev
+Build-Depends-Indep: groff, bsdmainutils
+Build-Conflicts: bind-dev, fakeroot (<< 0.4.5), libbind-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e090bc21964264c5011e0a98793743f5 2551 sendmail_8.15.2-22.dsc
+ a824fa7dea4d3341efb6462ccd816f00 2207417 sendmail_8.15.2.orig.tar.gz
+ a0cd4c47a63d2cc0448acc41bc0db464 227436 sendmail_8.15.2-22.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sendmail
+Vcs-Git: https://salsa.debian.org/debian/sendmail.git
+Checksums-Sha256:
+ 6de3625290ec2615cc3621e69d6f3cb5208f66c7fe12a352f53043b17fb0dd55 2551 sendmail_8.15.2-22.dsc
+ 24f94b5fd76705f15897a78932a5f2439a32b1a2fdc35769bb1a5f5d9b4db439 2207417 sendmail_8.15.2.orig.tar.gz
+ 06571bf211efdefdbec7f270e076ec1f25e8117ca26c19388d991182dc5d282c 227436 sendmail_8.15.2-22.debian.tar.xz
+Homepage: http://www.sendmail.org
+Package-List: 
+ libmilter-dev deb libdevel optional arch=any
+ libmilter1.0.1 deb libs optional arch=any
+ rmail deb mail optional arch=any
+ sendmail deb mail optional arch=all
+ sendmail-base deb mail optional arch=all
+ sendmail-bin deb mail optional arch=any
+ sendmail-cf deb mail optional arch=all
+ sendmail-doc deb doc optional arch=all
+ sensible-mda deb mail optional arch=any
+Directory: pool/main/s/sendmail
+Priority: source
+Section: mail

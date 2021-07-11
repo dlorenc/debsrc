@@ -1,0 +1,26 @@
+Package: node-errorhandler
+Binary: node-errorhandler
+Version: 1.5.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), node-accepts <!nocheck>, node-escape-html (>= 1.0.3) <!nocheck>, node-after <!nocheck>, mocha (>= 4) <!nocheck>, node-supertest (>= 4.0.2) <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d89571300ab023379077dd6e1d38a418 2227 node-errorhandler_1.5.1-1.dsc
+ 681f5ad8cdc5c6916706b1d47aa8a8dc 8779 node-errorhandler_1.5.1.orig.tar.gz
+ 2538f68eee8561d7b44a9d6425a9b1ba 2768 node-errorhandler_1.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-errorhandler
+Vcs-Git: https://salsa.debian.org/js-team/node-errorhandler.git
+Checksums-Sha256:
+ ddc5c1de37e92197f822984fef90cd60d05044b172c4b9ad177dda1dea164428 2227 node-errorhandler_1.5.1-1.dsc
+ 68afd702d4077649223675db4055313e1590201b934d9f1da4f7e8f67ebad4d0 8779 node-errorhandler_1.5.1.orig.tar.gz
+ 49896e00f35d789907af21f19a654775a17cd3da1132edf4c75b146239da0337 2768 node-errorhandler_1.5.1-1.debian.tar.xz
+Homepage: https://github.com/expressjs/errorhandler
+Package-List: 
+ node-errorhandler deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-errorhandler
+Priority: optional
+Section: javascript

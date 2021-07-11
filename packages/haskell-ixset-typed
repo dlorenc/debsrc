@@ -1,0 +1,28 @@
+Package: haskell-ixset-typed
+Binary: libghc-ixset-typed-dev, libghc-ixset-typed-prof, libghc-ixset-typed-doc
+Version: 0.5-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-safecopy-dev (>= 0.8), libghc-safecopy-dev (<< 0.11), libghc-safecopy-prof, libghc-syb-dev (<< 1), libghc-syb-dev (>= 0.4), libghc-syb-prof
+Build-Depends-Indep: ghc-doc, libghc-safecopy-doc, libghc-syb-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7e79398c5c885ed3ae418dea70c6ce03 2539 haskell-ixset-typed_0.5-1.dsc
+ bfbe1f2bf6f3b9c1ef93241f1f23ca12 16586 haskell-ixset-typed_0.5.orig.tar.gz
+ e80261921c6b602ef3478fe27b3b5592 3188 haskell-ixset-typed_0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ixset-typed
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ixset-typed]
+Checksums-Sha256:
+ 34ec29e84295b7c42bd3fcb44b4fa95535a69ed006e07a2698d0edb832e709c4 2539 haskell-ixset-typed_0.5-1.dsc
+ fa4752639813997acb7a090312168457a4b34ec8adcdbcffa3b9528da2c3c71e 16586 haskell-ixset-typed_0.5.orig.tar.gz
+ 781b0559418593d58285d399ddf65338bb630b8e8d5b3251dc3c89ce236172a5 3188 haskell-ixset-typed_0.5-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/ixset-typed
+Package-List: 
+ libghc-ixset-typed-dev deb haskell optional arch=any
+ libghc-ixset-typed-doc deb doc optional arch=all
+ libghc-ixset-typed-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ixset-typed
+Priority: optional
+Section: misc

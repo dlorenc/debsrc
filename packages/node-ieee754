@@ -1,0 +1,26 @@
+Package: node-ieee754
+Binary: node-ieee754
+Version: 1.2.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Siddhesh Rane <kingsid911@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-tap (>= 10) <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0037d20f30fcd9ca722356a8a0eeafbe 2069 node-ieee754_1.2.1-1.dsc
+ baa8f58996428305893021243d951d0a 3972 node-ieee754_1.2.1.orig.tar.gz
+ 4d174555cb370c2b24a2f3c7b48e700d 2884 node-ieee754_1.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ieee754
+Vcs-Git: https://salsa.debian.org/js-team/node-ieee754.git
+Checksums-Sha256:
+ cf094829904db7a2619b57e28144cf8c741d74809de982c9e13121203ac1ca76 2069 node-ieee754_1.2.1-1.dsc
+ c695f433064cbcd317a0adf8f98538f843d09e2987d74fea47647e2055b0411c 3972 node-ieee754_1.2.1.orig.tar.gz
+ dcaf6d768c390f53da7e5597cda05a085ee1998917eafbf7b32e8930e279c14f 2884 node-ieee754_1.2.1-1.debian.tar.xz
+Homepage: https://github.com/feross/ieee754#readme
+Package-List: 
+ node-ieee754 deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ieee754
+Priority: optional
+Section: javascript

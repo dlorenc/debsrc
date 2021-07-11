@@ -1,0 +1,24 @@
+Package: globus-gatekeeper
+Binary: globus-gatekeeper
+Version: 11.3-2
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-gss-assist-dev (>= 8), libglobus-gssapi-gsi-dev (>= 9), libssl-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6af3c2664f42897d238bd39e6cb6e2aa 2034 globus-gatekeeper_11.3-2.dsc
+ 0f1ebbf3f692beaf6405750b204c0743 353861 globus-gatekeeper_11.3.orig.tar.gz
+ 9c5523833361a49049d90a46001a8bc7 6212 globus-gatekeeper_11.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gatekeeper
+Vcs-Git: https://salsa.debian.org/ellert/globus-gatekeeper.git
+Checksums-Sha256:
+ 09a2444e2d14ad906f1341be2197206751906f1ac26f8353d820b8b0557095b0 2034 globus-gatekeeper_11.3-2.dsc
+ 3f8d900bfe8231862893f613a18953130129b59302c51ceee7fef380e14b591d 353861 globus-gatekeeper_11.3.orig.tar.gz
+ 5852b6c91cc3d74c01add7913c7317c5bbbbc8a267d3df4b13864e83a534a29a 6212 globus-gatekeeper_11.3-2.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ globus-gatekeeper deb net optional arch=any
+Directory: pool/main/g/globus-gatekeeper
+Priority: source
+Section: net

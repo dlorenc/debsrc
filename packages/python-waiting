@@ -1,0 +1,26 @@
+Package: python-waiting
+Binary: python3-waiting
+Version: 1.4.1-6
+Maintainer: Stuart Prescott <stuart@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-forge, python3-pytest, python3-setuptools (>= 0.6b3)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4569cd414c9e5fb3daf2b78a717c1416 2059 python-waiting_1.4.1-6.dsc
+ 601983372d48fc725c9d884fff97b480 6898 python-waiting_1.4.1.orig.tar.gz
+ ef58226df63cbed38acf2a61684b89fd 2684 python-waiting_1.4.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-waiting
+Vcs-Git: https://salsa.debian.org/debian/python-waiting.git
+Checksums-Sha256:
+ a35278c87db1f3cee31ae1b8c63b38c2f05a97ff3bad173865d490fa447acb01 2059 python-waiting_1.4.1-6.dsc
+ b89d10e3a16db69cbc0d6b9d80e2ce7e30cc5f9d3c58600267e0277f075da07a 6898 python-waiting_1.4.1.orig.tar.gz
+ e735cd30ec7f8d9b81538b2214841dfa620dbac8442a8c3354d3ed300f131824 2684 python-waiting_1.4.1-6.debian.tar.xz
+Homepage: https://github.com/vmalloc/waiting
+Package-List: 
+ python3-waiting deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-forge, python3-pytest
+Directory: pool/main/p/python-waiting
+Priority: optional
+Section: misc

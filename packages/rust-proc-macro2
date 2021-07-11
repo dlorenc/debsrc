@@ -1,0 +1,26 @@
+Package: rust-proc-macro2
+Binary: librust-proc-macro2-dev
+Version: 1.0.18-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-unicode-xid-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 48714a97f6377489d3ef8899c9305576 2300 rust-proc-macro2_1.0.18-1.dsc
+ fc4118a91764a0ab8abd01d1b97cece3 36252 rust-proc-macro2_1.0.18.orig.tar.gz
+ 82b1c7d69dc46d03f83a8209fdb3f9be 3096 rust-proc-macro2_1.0.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proc-macro2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/proc-macro2]
+Checksums-Sha256:
+ 7aacf50a38141b565145c263a941860d8021f76d4323295206fb916ec7d16df9 2300 rust-proc-macro2_1.0.18-1.dsc
+ beae6331a816b1f65d04c45b078fd8e6c93e8071771f41b8163255bbd8d7c8fa 36252 rust-proc-macro2_1.0.18.orig.tar.gz
+ 6ddeac6749c8db3df8a18652bb72092b12561edf4709511df28ad4dbd99ffcbc 3096 rust-proc-macro2_1.0.18-1.debian.tar.xz
+Package-List: 
+ librust-proc-macro2-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-quote-1-dev
+Directory: pool/main/r/rust-proc-macro2
+Priority: extra
+Section: misc

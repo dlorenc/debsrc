@@ -1,0 +1,27 @@
+Package: uw-imap
+Binary: libc-client2007e-dev, libc-client2007e, mlock, uw-mailutils
+Version: 8:2007f~dfsg-7
+Maintainer: Magnus Holmgren <holmgren@debian.org>
+Build-Depends: cdbs, debhelper, dh-buildinfo, licensecheck, libpam-dev, krb5-multidev, comerr-dev, libssl-dev, d-shlibs
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 6d7e4b86025b9b98372d9b3af253f7ad 2128 uw-imap_2007f~dfsg-7.dsc
+ 3c19869f80f81d56ff25cb80ff23f697 1607992 uw-imap_2007f~dfsg.orig.tar.gz
+ 8333d8a68446490c86c03b1f224daeae 44960 uw-imap_2007f~dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/holmgren/uw-imap
+Vcs-Git: https://salsa.debian.org/holmgren/uw-imap.git
+Checksums-Sha256:
+ 86a0c3a178101a682ef3f594ef2829413a81e906d7f5b26ffadc7cfd91bac200 2128 uw-imap_2007f~dfsg-7.dsc
+ 4fdec0b5a085a7269db87214276e14ce79afdf7efec2ca8d431ab176b9062a8a 1607992 uw-imap_2007f~dfsg.orig.tar.gz
+ 9d778c6de093abf9d07164d6ad074bfe4c2ab38934283741b006f9537f6e896c 44960 uw-imap_2007f~dfsg-7.debian.tar.xz
+Homepage: http://www.washington.edu/imap/
+Package-List: 
+ libc-client2007e deb libs optional arch=any
+ libc-client2007e-dev deb libdevel optional arch=any
+ mlock deb mail optional arch=any
+ uw-mailutils deb mail optional arch=any
+Directory: pool/main/u/uw-imap
+Priority: source
+Section: mail

@@ -1,0 +1,26 @@
+Package: pybj
+Binary: python3-bjdata
+Version: 0.2.6-1
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Qianqian Fang <fangqq@gmail.com>
+Build-Depends: cython3, debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-numpy, python3-setuptools
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ eecdd015616ccef05917ff537aaab5a9 2005 pybj_0.2.6-1.dsc
+ 0ec587506d13647dccf66c5fbaf4e556 66148 pybj_0.2.6.orig.tar.gz
+ 8a88d4e68ec7601b847ef1ec8af542c5 3504 pybj_0.2.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/pybj
+Vcs-Git: https://salsa.debian.org/science-team/pybj.git
+Checksums-Sha256:
+ 5f68aa2496fe9e45c552f26e10c195b6fc1138d1c997d24c8d05ef3321e61f9b 2005 pybj_0.2.6-1.dsc
+ 255f516557a9e8925d3762df46baf233aa174383b6f339c04c6caa759c7dc71f 66148 pybj_0.2.6.orig.tar.gz
+ 0eb1763aaaf99794996b02e9792bb9c2d61c8b541e31cfdb0ae222f5853fdf6c 3504 pybj_0.2.6-1.debian.tar.xz
+Homepage: https://github.com/fangq/pybj
+Package-List: 
+ python3-bjdata deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pybj
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: kitchen
+Binary: python3-kitchen, python-kitchen-doc
+Version: 1.2.6-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Sergio Durigan Junior <sergiodj@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-nose, python3-sphinx, python3-coverage, locales-all
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3162a19ca7449ba9906d2b28e74f5cb4 2190 kitchen_1.2.6-2.dsc
+ b4a151a171f4f5637a2a51811dbea6c4 258124 kitchen_1.2.6.orig.tar.gz
+ 42046b5439b6e6af25a15a7e4372838e 24624 kitchen_1.2.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/kitchen
+Vcs-Git: https://salsa.debian.org/python-team/modules/kitchen.git
+Checksums-Sha256:
+ 220f4fbe068cdbe57686dae8a17a38c04b01e5ac8ddff51f473a13ba1bb7d63b 2190 kitchen_1.2.6-2.dsc
+ 6963dd84819713aafdd55e5314dcce6df5a37430b62fd9c48770e9f1a467b2b0 258124 kitchen_1.2.6.orig.tar.gz
+ 1ffc18a75d699a9d1fd49cd522f0afab818011aaba75d58b0c97d2558db6c723 24624 kitchen_1.2.6-2.debian.tar.xz
+Homepage: https://github.com/fedora-infra/kitchen
+Package-List: 
+ python-kitchen-doc deb doc optional arch=all
+ python3-kitchen deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/k/kitchen
+Priority: optional
+Section: misc

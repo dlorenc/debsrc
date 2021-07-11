@@ -1,0 +1,25 @@
+Package: osptoolkit
+Binary: osptoolkit, libosptk4, libosptk-dev
+Version: 4.13.0-1
+Maintainer: TransNexus <support@transnexus.com>
+Uploaders: Di-Shi Sun <di-shi@transnexus.com>
+Build-Depends: debhelper (>= 9), libssl-dev, libtool, libtool-bin, docbook-to-man
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ ac5dd8330d29a8e3fdccfe4183540d5f 1951 osptoolkit_4.13.0-1.dsc
+ 456c59a7c1c9049f797c471f760546c8 422064 osptoolkit_4.13.0.orig.tar.gz
+ fc19c3d2b2686e66919bb46133660ce4 17336 osptoolkit_4.13.0-1.debian.tar.xz
+Checksums-Sha256:
+ 51f4058b3a82d84a6700496d3c893d24b4cda14a818d67f4907a78a9fd714cff 1951 osptoolkit_4.13.0-1.dsc
+ e12771340b5c33f22d006a7cc03c952be8a11e9af1d531136ecadcfa2a8d2483 422064 osptoolkit_4.13.0.orig.tar.gz
+ cdf14b65b48efba13a80b5892cc7339249d7dfe13ac9dde1ca781d1b891fbb3f 17336 osptoolkit_4.13.0-1.debian.tar.xz
+Homepage: https://sourceforge.net/projects/osp-toolkit
+Package-List: 
+ libosptk-dev deb libdevel optional arch=any
+ libosptk4 deb libs optional arch=any
+ osptoolkit deb utils optional arch=any
+Directory: pool/main/o/osptoolkit
+Priority: source
+Section: utils

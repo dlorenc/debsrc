@@ -1,0 +1,28 @@
+Package: libmoo-perl
+Binary: libmoo-perl
+Version: 2.004004-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: intrigeri <intrigeri@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libclass-method-modifiers-perl <!nocheck>, libclass-xsaccessor-perl <!nocheck>, libimport-into-perl <!nocheck>, libmoose-perl <!nocheck>, librole-tiny-perl (>= 2.001004) <!nocheck>, libscalar-list-utils-perl <!nocheck>, libstrictures-perl (>= 2) <!nocheck>, libsub-name-perl <!nocheck>, libsub-quote-perl (>= 2.006006) <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtype-tiny-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dcc1a1988327014b093601b968eb4eb5 2720 libmoo-perl_2.004004-1.dsc
+ 51f3732e043a1e856ab6cdc260d2814c 108386 libmoo-perl_2.004004.orig.tar.gz
+ 1c1edbd2c36d68a0e2d4b0fb88e1b2cd 5788 libmoo-perl_2.004004-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmoo-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmoo-perl.git
+Checksums-Sha256:
+ 2ff5fc91f548437d8ac32ca106e823abd55e1ac14289a3c4e088baba0000ee7d 2720 libmoo-perl_2.004004-1.dsc
+ 714b77b115788708c6d8ab6f18eea173f8109d397aecd34e32cc71a0ffcf2246 108386 libmoo-perl_2.004004.orig.tar.gz
+ 21ba46848c20e173d55086a27a60440886a53790ec93ddb9d7ef4f72e51b3e4e 5788 libmoo-perl_2.004004-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Moo
+Dgit: b1a2150ceb477595c2a28071f50e75043bc8af41 debian archive/debian/2.004004-1 https://git.dgit.debian.org/libmoo-perl
+Package-List: 
+ libmoo-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmoo-perl
+Priority: source
+Section: perl

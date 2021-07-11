@@ -1,0 +1,26 @@
+Package: publicsuffix
+Binary: publicsuffix
+Version: 20210108.1309-1
+Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper-compat (= 13), psl-make-dafsa, python3-minimal
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 93a4f0206d17a7018f6168ffd7503ba4 1406 publicsuffix_20210108.1309-1.dsc
+ 67a862231d13eb2ab0b2587545e183d1 97848 publicsuffix_20210108.1309.orig.tar.gz
+ 9a47d38345fe09f051c76cbd8bf6545c 14980 publicsuffix_20210108.1309-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/publicsuffix
+Vcs-Git: https://salsa.debian.org/debian/publicsuffix.git
+Checksums-Sha256:
+ f8639e27e3f56ccca53816c96f7e6c15f2d1f7e0763cbb6c0859dbe40ac1dddb 1406 publicsuffix_20210108.1309-1.dsc
+ fd2ae585f07328cca542b05fbf580d6d9cff41a7a58c7dbf5f55a934d69be56a 97848 publicsuffix_20210108.1309.orig.tar.gz
+ 7e6fe4b3d3b5ce9e1a4fe3949c70277fd6dbbdec17f59cc84f181f0e7f9deec3 14980 publicsuffix_20210108.1309-1.debian.tar.xz
+Homepage: https://publicsuffix.org
+Package-List: 
+ publicsuffix deb net optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: diffutils, psl
+Directory: pool/main/p/publicsuffix
+Priority: source
+Section: misc

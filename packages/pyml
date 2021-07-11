@@ -1,0 +1,29 @@
+Package: pyml
+Binary: libpyml-ocaml-dev, libpyml-ocaml
+Version: 20200518-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, ocaml-findlib, libstdcompat-ocaml-dev (>= 13), python3-dev, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dd48378b8ab6bbd656a0ee01c193e7e9 1925 pyml_20200518-2.dsc
+ d79ac4966f86c2cd2d27975c26d97360 78762 pyml_20200518.orig.tar.gz
+ 333859c1e4bbbce8c9e1dec693cd6e42 4100 pyml_20200518-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/pyml
+Vcs-Git: https://salsa.debian.org/ocaml-team/pyml.git
+Checksums-Sha256:
+ 4e4ee43b9e19f685e6f40a8acf28629d4411701fa04896d14c258c414c67ac9f 1925 pyml_20200518-2.dsc
+ a49a46fe08ee48423a3994b8f8ed8ad116ad97ab61f9cfebc10ec6dd02b2598a 78762 pyml_20200518.orig.tar.gz
+ 6c336ba1f5a7316ef4497e529dde1e00d4b2d71b78b047b4ac6aee420c41724d 4100 pyml_20200518-2.debian.tar.xz
+Homepage: https://github.com/thierry-martinez/pyml
+Dgit: 8a7593f365af7ee253f25e599187f7b0ab7c1d24 debian archive/debian/20200518-2 https://git.dgit.debian.org/pyml
+Package-List: 
+ libpyml-ocaml deb ocaml optional arch=any
+ libpyml-ocaml-dev deb ocaml optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ocaml-findlib, ocaml-nox, python3-dev
+Directory: pool/main/p/pyml
+Priority: extra
+Section: misc

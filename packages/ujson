@@ -1,0 +1,25 @@
+Package: ujson
+Binary: python3-ujson
+Version: 4.0.2-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-all-dev, python3-six, python3-tz, python3-setuptools, python3-setuptools-scm, python3-pytest <!nocheck>, libdouble-conversion-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9789ac1a0e61108cb35d66d06e823471 2082 ujson_4.0.2-1.dsc
+ b0df53e1c961fdb71a6e4cef6578c2c9 104704 ujson_4.0.2.orig.tar.xz
+ 40250265b763071c36c40d2fa0591a55 5240 ujson_4.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/ujson
+Vcs-Git: https://salsa.debian.org/python-team/packages/ujson.git
+Checksums-Sha256:
+ d22d900264fa7480e09df91c45f2230922ddfcb2c9e1754a97d0f6f433811b6c 2082 ujson_4.0.2-1.dsc
+ 268584f15b2a9903c9c25a99a23a60347a096088805c49a8715a230dd9e38da8 104704 ujson_4.0.2.orig.tar.xz
+ a0f1f8de0c43af3a0ae18eaa82c24a9ce469a6d8637d4c2102c31fb3502e0ef3 5240 ujson_4.0.2-1.debian.tar.xz
+Homepage: https://github.com/ultrajson/ultrajson
+Package-List: 
+ python3-ujson deb python optional arch=any
+Directory: pool/main/u/ujson
+Priority: optional
+Section: misc

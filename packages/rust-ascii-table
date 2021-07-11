@@ -1,0 +1,27 @@
+Package: rust-ascii-table
+Binary: librust-ascii-table-dev
+Version: 2.0.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Igor Petruk <ipetruk@google.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 59fd492df54b4afbf0de769719c427d1 2193 rust-ascii-table_2.0.0-2.dsc
+ b3b387ad25099978f358015c4d814539 16298 rust-ascii-table_2.0.0.orig.tar.gz
+ e3ebb146230deaaa0c2b75027ede86c8 2080 rust-ascii-table_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ascii-table
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ascii-table]
+Checksums-Sha256:
+ 77902349d69617f587d0de4dd3a6462a046d95c919c4f967feb5e5034a59e6e1 2193 rust-ascii-table_2.0.0-2.dsc
+ cba1b5bf498e53b5c11be3a230f1c826da48d0c2e02b05823235634c49b52716 16298 rust-ascii-table_2.0.0.orig.tar.gz
+ 9de7e4b3db05d024eba9668dff93820e70aec6d3a20071410b6aa7b03601ab31 2080 rust-ascii-table_2.0.0-2.debian.tar.xz
+Homepage: https://gitlab.com/d5b4b2/ascii-table
+Package-List: 
+ librust-ascii-table-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-ascii-table
+Priority: extra
+Section: misc

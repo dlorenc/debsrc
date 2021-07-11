@@ -1,0 +1,26 @@
+Package: debian-edu-install
+Binary: debian-edu-install, debian-edu-profile-udeb, debian-edu-install-udeb
+Version: 2.11.13
+Maintainer: Debian Edu Developers <debian-edu@lists.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org>, Holger Levsen <holger@debian.org>, Mike Gabriel <sunweaver@debian.org>
+Build-Depends: debhelper-compat (= 13), po-debconf
+Build-Depends-Indep: dash
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 72ff48ad501bfc55febeee54760cc7bc 2003 debian-edu-install_2.11.13.dsc
+ 2e699987d88264c0d5a6b35a667c0184 124676 debian-edu-install_2.11.13.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-edu/debian-edu-install
+Vcs-Git: https://salsa.debian.org/debian-edu/debian-edu-install.git
+Checksums-Sha256:
+ b490e1d0653ca325be4953325a05f917d1606dc81bd203f0665d8212ece9ad83 2003 debian-edu-install_2.11.13.dsc
+ c569a55c566e67bcb4992a4d79c481087ae09052a2ec65cd688907ef24d54526 124676 debian-edu-install_2.11.13.tar.xz
+Homepage: https://blends.debian.org/edu
+Package-List: 
+ debian-edu-install deb misc optional arch=all
+ debian-edu-install-udeb udeb debian-installer optional arch=all
+ debian-edu-profile-udeb udeb debian-installer optional arch=all
+Directory: pool/main/d/debian-edu-install
+Priority: source
+Section: misc

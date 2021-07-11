@@ -1,0 +1,27 @@
+Package: python-plac
+Binary: python3-plac
+Version: 0.9.6-1.1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Mo Zhou <cdluminate@gmail.com>
+Build-Depends: debhelper (>= 11~), dh-python, python3-all, python3-pytest, python3-sqlsoup
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ c94b54c6680e721377449ae4623389b7 2115 python-plac_0.9.6-1.1.dsc
+ c007c0371275c6acb50b16f978735bd0 122267 python-plac_0.9.6.orig.tar.gz
+ e5b59e7f40cf4920d6b295ac01941f5c 2580 python-plac_0.9.6-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-plac
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-plac.git
+Checksums-Sha256:
+ 219936dfdaaaa86e5e21cea3868052bc5de9a89e756f6f58a1ddbb058e2aefde 2115 python-plac_0.9.6-1.1.dsc
+ ba3f719a018175f0a15a6b04e6cc79c25fd563d348aacd320c3644d2a9baf89b 122267 python-plac_0.9.6.orig.tar.gz
+ fa00a7e137b42a501eff995f76b5372d308ad393d60a56f2f0e6ca8f4e77a52a 2580 python-plac_0.9.6-1.1.debian.tar.xz
+Homepage: https://github.com/micheles/plac
+Package-List: 
+ python3-plac deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/p/python-plac
+Priority: extra
+Section: misc

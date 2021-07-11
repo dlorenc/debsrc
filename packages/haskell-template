@@ -1,0 +1,28 @@
+Package: haskell-template
+Binary: libghc-template-dev, libghc-template-prof, libghc-template-doc
+Version: 0.2.0.10-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9c4b24fa6b71509f3fbd10a87da8789f 2350 haskell-template_0.2.0.10-10.dsc
+ 5600d6e0afecf1562fff458c0079ef47 5261 haskell-template_0.2.0.10.orig.tar.gz
+ 3adb785dbf32dec386ada5517ceedce6 3012 haskell-template_0.2.0.10-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-template
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-template]
+Checksums-Sha256:
+ 46e60f3269737f5180f477729b4d2a1c82343fe682e45ec1403298318f2d195d 2350 haskell-template_0.2.0.10-10.dsc
+ 8fd5a321b1c62f8ca5ed68c098e676917a5dac4d65809fceaed4b52c22b4ac82 5261 haskell-template_0.2.0.10.orig.tar.gz
+ cc0e39f6550f5a2fec965feaf264835945a1d16d98c27595b375115a23463757 3012 haskell-template_0.2.0.10-10.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/template
+Package-List: 
+ libghc-template-dev deb haskell optional arch=any
+ libghc-template-doc deb doc optional arch=all
+ libghc-template-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-template
+Priority: source
+Section: haskell

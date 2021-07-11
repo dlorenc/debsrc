@@ -1,0 +1,27 @@
+Package: scapy
+Binary: python3-scapy
+Version: 2.4.4-4
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Raphaël Hertzog <raphael@offensive-security.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, tox
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 767f4569fc8f35b4309c8e07709b053e 1837 scapy_2.4.4-4.dsc
+ e75f869b0d932732f810cae624783226 3240879 scapy_2.4.4.orig.tar.gz
+ 85d56320104002a6d9f46beee0decc42 19944 scapy_2.4.4-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/scapy
+Vcs-Git: https://salsa.debian.org/pkg-security-team/scapy.git
+Checksums-Sha256:
+ 4d93865a972ec104304504beb413e9745c14ffecc212b9b22cc91392ab217117 1837 scapy_2.4.4-4.dsc
+ abe1b7fa606350df90209a60d23df727705097453b3dcb626bf36b3539d44021 3240879 scapy_2.4.4.orig.tar.gz
+ fb67185aa112813b21efc1545f06ae8bc665832fd7338d6bc210c2839c2995f1 19944 scapy_2.4.4-4.debian.tar.xz
+Homepage: https://scapy.net/
+Package-List: 
+ python3-scapy deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: kmod, openssl, python3-brotli, python3-can, python3-cryptography, python3-mock, tcpdump, tcpreplay, tshark
+Directory: pool/main/s/scapy
+Priority: source
+Section: net

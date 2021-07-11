@@ -1,0 +1,28 @@
+Package: haskell-monoid-subclasses
+Binary: libghc-monoid-subclasses-dev, libghc-monoid-subclasses-prof, libghc-monoid-subclasses-doc
+Version: 1.0.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-primes-dev (<< 0.3), libghc-primes-dev (>= 0.2), libghc-primes-prof, libghc-vector-dev (>= 0.12), libghc-vector-dev (<< 0.13), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-primes-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 5e8ef709948baabc1898d88c9e608cd3 2645 haskell-monoid-subclasses_1.0.1-1.dsc
+ c6e0193028f739d24ec41ee8393c1c15 50658 haskell-monoid-subclasses_1.0.1.orig.tar.gz
+ 7cde029ee532e92090b59566c6d019e4 3308 haskell-monoid-subclasses_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-monoid-subclasses
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-monoid-subclasses]
+Checksums-Sha256:
+ 5f08e38b98f119df09e746bdf0c346dbab028c41911f515898d50cabba1b7d16 2645 haskell-monoid-subclasses_1.0.1-1.dsc
+ a32c14634958e2706848517c14e313fc0e7f0d2a0cec01884698fbbc4ad8d79b 50658 haskell-monoid-subclasses_1.0.1.orig.tar.gz
+ 9fe2667c9946d5acf5708818bad53ff83665721d1a5188546b7652073b919ec3 3308 haskell-monoid-subclasses_1.0.1-1.debian.tar.xz
+Homepage: https://github.com/blamario/monoid-subclasses/
+Package-List: 
+ libghc-monoid-subclasses-dev deb haskell optional arch=any
+ libghc-monoid-subclasses-doc deb doc optional arch=all
+ libghc-monoid-subclasses-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-monoid-subclasses
+Priority: optional
+Section: misc

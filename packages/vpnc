@@ -1,0 +1,24 @@
+Package: vpnc
+Binary: vpnc
+Version: 0.5.3+git20210125-1
+Maintainer: Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13), libgcrypt20-dev, libgnutls28-dev, pkg-config, vpnc:native <cross>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 705a0c4b2ee143931e83449ab720b250 1936 vpnc_0.5.3+git20210125-1.dsc
+ dca1fcd1b44edac10440a739da38b61b 123051 vpnc_0.5.3+git20210125.orig.tar.gz
+ 419476d24985c1039b21caeca1952fdb 11812 vpnc_0.5.3+git20210125-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/vpnc
+Vcs-Git: https://salsa.debian.org/debian/vpnc.git
+Checksums-Sha256:
+ 771753856649c76ca3a2ff2c028037f433dc5016e460cf65942ef086e9181fa1 1936 vpnc_0.5.3+git20210125-1.dsc
+ 92a723e9180b6e682d7046abbe79661ad1cbc4b36359a17240e851d97528852c 123051 vpnc_0.5.3+git20210125.orig.tar.gz
+ 04bf4d7f9abd07c20e265ac9bc79e7a2c09632ba0bd3b4605d07640e6751b026 11812 vpnc_0.5.3+git20210125-1.debian.tar.xz
+Homepage: https://github.com/streambinder/vpnc
+Package-List: 
+ vpnc deb net optional arch=any
+Directory: pool/main/v/vpnc
+Priority: source
+Section: net

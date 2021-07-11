@@ -1,0 +1,27 @@
+Package: ruby-ffi-compiler
+Binary: ruby-ffi-compiler
+Version: 1.0.1-4
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, ruby-ffi (>= 1.0.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 09fc96ed0854129b346dd31c5c0f55b8 2115 ruby-ffi-compiler_1.0.1-4.dsc
+ c808d27fdc7506ac512fd2feb6cd4c38 12288 ruby-ffi-compiler_1.0.1.orig.tar.gz
+ 6d4ed719408b866a9e030bd2e603d577 1688 ruby-ffi-compiler_1.0.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ffi-compiler
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ffi-compiler.git
+Checksums-Sha256:
+ 2d67a5b6a59a12b09935804311d9988c17ffbbd0b185374f71fb8cd0d0f40e3b 2115 ruby-ffi-compiler_1.0.1-4.dsc
+ 633cdcc7bd6e146523a665872dd5a4db0c0972c661064bdfd60b82f8d221376e 12288 ruby-ffi-compiler_1.0.1.orig.tar.gz
+ fa0ea840cc5a92f24b3d87cb7125262e464b5abf5eb9efd10707c8a4f1cbd6df 1688 ruby-ffi-compiler_1.0.1-4.debian.tar.xz
+Homepage: https://github.com/ffi/ffi-compiler
+Package-List: 
+ ruby-ffi-compiler deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ffi-compiler
+Priority: extra
+Section: misc

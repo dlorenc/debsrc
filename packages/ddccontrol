@@ -1,0 +1,27 @@
+Package: ddccontrol
+Binary: gddccontrol, ddccontrol, libddccontrol-dev, libddccontrol0
+Version: 0.4.4-1.2
+Maintainer: Miroslav Kravec <kravec.miroslav@gmail.com>
+Build-Depends: debhelper (>= 11), libpci-dev, intltool, libxml2-dev, libgtk2.0-dev, libglib2.0-dev, xml-core, xsltproc, tidy, zlib1g-dev, docbook-xsl
+Architecture: i386 amd64 ia64 alpha arm armel armhf
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 867e42080d737f161b0c9fef2c40589b 2341 ddccontrol_0.4.4-1.2.dsc
+ 3c857917758205b784bc3826811c7dd4 164389 ddccontrol_0.4.4.orig.tar.gz
+ ecb0a2beb478389c693c2a2265fd480d 9208 ddccontrol_0.4.4-1.2.debian.tar.xz
+Vcs-Browser: https://github.com/ddccontrol/debian-ddccontrol
+Vcs-Git: https://github.com/ddccontrol/debian-ddccontrol.git
+Checksums-Sha256:
+ 504da7630e4c29e11a0b2ecbf1831d99280837a1be2c791b6d9bb721bcbc9b62 2341 ddccontrol_0.4.4-1.2.dsc
+ aafbb16ac4f4edfe3fcc5feec1eb5729aaf86e3b0f31f9d707ba1406bb404817 164389 ddccontrol_0.4.4.orig.tar.gz
+ fac1bbbc5703b95f49aa500d6abcb4eeef89620f24212dc6adddc439abbc5c74 9208 ddccontrol_0.4.4-1.2.debian.tar.xz
+Homepage: https://github.com/ddccontrol/ddccontrol
+Package-List: 
+ ddccontrol deb utils optional arch=i386,amd64,ia64,alpha,arm,armel,armhf
+ gddccontrol deb utils optional arch=i386,amd64,ia64,alpha,arm,armel,armhf
+ libddccontrol-dev deb libdevel optional arch=i386,amd64,ia64,alpha,arm,armel,armhf
+ libddccontrol0 deb libs optional arch=i386,amd64,ia64,alpha,arm,armel,armhf
+Directory: pool/main/d/ddccontrol
+Priority: source
+Section: utils

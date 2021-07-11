@@ -1,0 +1,27 @@
+Package: libmath-mpfr-perl
+Binary: libmath-mpfr-perl
+Version: 4.14-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Angel Abad <angel@debian.org>
+Build-Depends: debhelper-compat (= 13), libgmp-dev, libmath-gmp-perl <!nocheck>, libmpfr-dev, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 916f22a29d60c57aa18ac9ce675100ab 2393 libmath-mpfr-perl_4.14-1.dsc
+ 465103aa90da3e44e52e67dc6632a7c5 184586 libmath-mpfr-perl_4.14.orig.tar.gz
+ af1a348185c221a3e906044b19fb5ad3 4228 libmath-mpfr-perl_4.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmath-mpfr-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmath-mpfr-perl.git
+Checksums-Sha256:
+ c576de63f41a499d900b50962104f300f817733f67573cc1481cef6c350ad251 2393 libmath-mpfr-perl_4.14-1.dsc
+ 49fc1195fbbe3a5f8d9e6da30951cb3fbb7f165695f7d606ea4a835afa84746c 184586 libmath-mpfr-perl_4.14.orig.tar.gz
+ ea4dba9fbe534383fffa16c907733e8fa07c3beded03aa43a672b991ae4cd1d9 4228 libmath-mpfr-perl_4.14-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Math-MPFR
+Dgit: b860afdfb9760c3fa8b707028eaf2151126b598b debian archive/debian/4.14-1 https://git.dgit.debian.org/libmath-mpfr-perl
+Package-List: 
+ libmath-mpfr-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmath-mpfr-perl
+Priority: source
+Section: misc

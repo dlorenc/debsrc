@@ -1,0 +1,27 @@
+Package: openslide
+Binary: libopenslide0, libopenslide-dev, openslide-tools
+Version: 3.4.1+dfsg-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), libjpeg-dev, libopenjp2-7-dev, zlib1g-dev, libtiff-dev, libgtk2.0-dev, libxml2-dev, libsqlite3-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4c3e9fa3ad41e7ac816e08da4cf722e0 2209 openslide_3.4.1+dfsg-5.dsc
+ 03c133056561ed59989d4352d22b2db2 382900 openslide_3.4.1+dfsg.orig.tar.xz
+ 5c39f0187f2230fe8c4a23c1703544b2 18512 openslide_3.4.1+dfsg-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/openslide
+Vcs-Git: https://salsa.debian.org/med-team/openslide.git
+Checksums-Sha256:
+ a47acf563ba0a757d0a371116beb1da3c3b0a26a79ec5841c145f4362c716c6c 2209 openslide_3.4.1+dfsg-5.dsc
+ 0257266cc2d2dab4da3c82f0d090b78dda8a1ed9d925d9ae7fee26a2d72b6058 382900 openslide_3.4.1+dfsg.orig.tar.xz
+ 3744d0a5e9ff957c7821984f66035a163f9e78b7081c368cae4ea2780db3f829 18512 openslide_3.4.1+dfsg-5.debian.tar.xz
+Homepage: https://openslide.org
+Package-List: 
+ libopenslide-dev deb libdevel optional arch=any
+ libopenslide0 deb libs optional arch=any
+ openslide-tools deb graphics optional arch=any
+Directory: pool/main/o/openslide
+Priority: source
+Section: libs

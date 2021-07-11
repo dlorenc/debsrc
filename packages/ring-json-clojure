@@ -1,0 +1,27 @@
+Package: ring-json-clojure
+Binary: libring-json-clojure
+Version: 0.4.0-2
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 12), default-jdk, javahelper (>= 0.32), maven-repo-helper (>= 1.7), clojure <!nocheck>, libcheshire-clojure <!nocheck>, libring-core-clojure <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3e6ccad8a2a21d20bc5050c77cc9b60f 2227 ring-json-clojure_0.4.0-2.dsc
+ fec017e741d63e2d1fded4ffee280684 3680 ring-json-clojure_0.4.0.orig.tar.xz
+ 55644a09f0dd5c46e4dc3539f9edfa59 3372 ring-json-clojure_0.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/ring-json-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/ring-json-clojure.git
+Checksums-Sha256:
+ 16ebe708d492cfbea727fc06a9fa057092551400d684c2e869d49f6e47076235 2227 ring-json-clojure_0.4.0-2.dsc
+ 2b8c1bc29556575d9b32e19efce8b9bb3d589b9a0117ba67d031ed4b13c2da9d 3680 ring-json-clojure_0.4.0.orig.tar.xz
+ 7f7dc34073251e5cc7d0f0826070d1edf2e1421fc7fc0442dc58cfd8df7292f4 3372 ring-json-clojure_0.4.0-2.debian.tar.xz
+Homepage: https://github.com/ring-clojure/ring-json
+Package-List: 
+ libring-json-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/r/ring-json-clojure
+Priority: extra
+Section: misc

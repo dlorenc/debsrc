@@ -1,0 +1,30 @@
+Package: ltt-control
+Binary: lttng-tools, liblttng-ctl0, liblttng-ctl-dev, python3-lttng
+Version: 2.12.3-1
+Maintainer: Jon Bernard <jbernard@debian.org>
+Uploaders: Michael Jeanson <mjeanson@debian.org>
+Build-Depends: debhelper (>= 10~), asciidoc, bash-completion, bison, dh-python, libkmod-dev, liblttng-ust-dev (>= 2.12.0~), liblttng-ust-dev (<< 2.13.0~), libpopt-dev, liburcu-dev (>= 0.9.0~), libxml2-dev (>= 2.7.6~), pkg-config, python3-all-dev, swig (>= 2.0), xmlto
+Architecture: linux-any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c17bcdc2ac5a3047203268b1acdca9f2 2637 ltt-control_2.12.3-1.dsc
+ 0be07f51bbcde9c549575285217957a4 1550901 ltt-control_2.12.3.orig.tar.bz2
+ e47e1b67158bfc5c4daddfde8966a7a1 833 ltt-control_2.12.3.orig.tar.bz2.asc
+ 41dd95875732d799ab7414f399367e13 20272 ltt-control_2.12.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ltt-control
+Vcs-Git: https://salsa.debian.org/debian/ltt-control.git
+Checksums-Sha256:
+ 450542bb72f1642eaef74aa5811efc721e9f54a48ed1db340037f7dd519152b1 2637 ltt-control_2.12.3-1.dsc
+ 2890da230edd523fcf497e9eb28133b7606d64fa01bcbffadbfcba42104db153 1550901 ltt-control_2.12.3.orig.tar.bz2
+ f8af22091eb24ed3031b92c3e81419c51e20800f80097a09cfa9b659535ee475 833 ltt-control_2.12.3.orig.tar.bz2.asc
+ ba9523a223b9fa4fc4b894c9485a7d15188fcebeffe147beceeb8a98f7636ab8 20272 ltt-control_2.12.3-1.debian.tar.xz
+Homepage: https://lttng.org/
+Package-List: 
+ liblttng-ctl-dev deb libdevel optional arch=linux-any
+ liblttng-ctl0 deb libs optional arch=linux-any
+ lttng-tools deb utils optional arch=linux-any
+ python3-lttng deb python optional arch=linux-any
+Directory: pool/main/l/ltt-control
+Priority: source
+Section: libs

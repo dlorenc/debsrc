@@ -1,0 +1,26 @@
+Package: node-icss-utils
+Binary: node-icss-utils
+Version: 5.1.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs, pkg-js-tools (>= 0.9.35~), node-postcss (>= 8.1~) <!nocheck>, jest <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3e54f27521e9df32a14bc5f9dfe68b1c 2128 node-icss-utils_5.1.0-3.dsc
+ 9089e6c49d181b4a1c38d601159ee61e 78240 node-icss-utils_5.1.0.orig.tar.gz
+ d1751f251c6aab4f4b7a38a46529ce41 2412 node-icss-utils_5.1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-icss-utils
+Vcs-Git: https://salsa.debian.org/js-team/node-icss-utils.git
+Checksums-Sha256:
+ 195e74680324ca92fd7f94616d62c55b4585fd7df8116b12a1cbe4ae8fc31033 2128 node-icss-utils_5.1.0-3.dsc
+ ef1a782cc1b205e8488755911c4a189cb6eab6fb925a5988cf2bdaa735eea30a 78240 node-icss-utils_5.1.0.orig.tar.gz
+ 34873fe30046989f4b712741a5d279e8810c8c49506ce71b80c07ea53bdf0cc7 2412 node-icss-utils_5.1.0-3.debian.tar.xz
+Homepage: https://github.com/css-modules/icss-utils#readme
+Package-List: 
+ node-icss-utils deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-icss-utils
+Priority: extra
+Section: misc

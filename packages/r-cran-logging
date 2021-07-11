@@ -1,0 +1,27 @@
+Package: r-cran-logging
+Binary: r-cran-logging
+Version: 0.10-108-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fb9a35e067295c51d0e1c250a1a9f09b 2116 r-cran-logging_0.10-108-2.dsc
+ b72368fc427dc461d30ad6b8b4ba9482 17155 r-cran-logging_0.10-108.orig.tar.gz
+ 3fbb30182bc4ac521764def7f5c78d05 2248 r-cran-logging_0.10-108-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-logging
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-logging.git
+Checksums-Sha256:
+ 991e5974d3eaf2724f3c34dfb92f3ebbbfead5c96622f74091d9563a6ed0aa57 2116 r-cran-logging_0.10-108-2.dsc
+ 85c91aa5a313f5f9fbb0394cda3f924a2495cca3cc5cd68dde0695fe3c20ed8d 17155 r-cran-logging_0.10-108.orig.tar.gz
+ 7ada751dd49adbf2d45bd3f72c8fa9afc9917dd40c3fc69825ef03d2d2cb6280 2248 r-cran-logging_0.10-108-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=logging
+Package-List: 
+ r-cran-logging deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-logging
+Priority: extra
+Section: misc

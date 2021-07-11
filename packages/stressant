@@ -1,0 +1,24 @@
+Package: stressant
+Binary: stressant, stressant-doc, stressant-meta
+Version: 0.6.0
+Maintainer: Antoine Beaupré <anarcat@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 599053a9361d0e8ac2d337b57255fd78 1446 stressant_0.6.0.dsc
+ 9d5776ae2e5109c2458250d4047fe705 45904 stressant_0.6.0.tar.xz
+Vcs-Browser: https://gitlab.com/anarcat/stressant/tree/master
+Vcs-Git: https://gitlab.com/anarcat/stressant
+Checksums-Sha256:
+ e345cf445c7ea65ddd0dd0d12ad9b23c3454d1baa7ccd0b9fb55717d54544290 1446 stressant_0.6.0.dsc
+ 3fd05aeea5a16f145532a56476fcc3b7c449cc10f6e39aaf9a02e0e2beab2afd 45904 stressant_0.6.0.tar.xz
+Homepage: https://gitlab.com/anarcat/stressant
+Package-List: 
+ stressant deb admin optional arch=all
+ stressant-doc deb doc optional arch=all
+ stressant-meta deb admin optional arch=all
+Directory: pool/main/s/stressant
+Priority: optional
+Section: misc

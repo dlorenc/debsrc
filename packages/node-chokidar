@@ -1,0 +1,28 @@
+Package: node-chokidar
+Binary: node-chokidar
+Version: 3.4.3-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs <!nocheck>, dh-sequence-nodejs, mocha (>= 4) <!nocheck>, chai <!nocheck>, node-sinon (>= 7) <!nocheck>, node-rimraf (>= 2.4.3) <!nocheck>, node-sinon-chai <!nocheck>, node-setimmediate <!nocheck>, node-is-glob <!nocheck>, node-is-binary-path <!nocheck>, node-anymatch (>= 3.0.3+~2.0.7-2~) <!nocheck>, node-normalize-path <!nocheck>, node-readdirp (>= 3.3.0) <!nocheck>, node-async-each <!nocheck>, node-braces <!nocheck>, node-path-is-absolute <!nocheck>, node-glob-parent <!nocheck>, node-inherits <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7cf11382d191c3fc2f7b280e24b93081 2797 node-chokidar_3.4.3-3.dsc
+ d9f10129f1b6f6bfba6d4de6646d8906 7985 node-chokidar_3.4.3.orig-upath.tar.gz
+ 42cfb238bb552d1137ad267646883df0 45871 node-chokidar_3.4.3.orig.tar.gz
+ 1d76a5716dc48cd46a746813cb1e22c8 5596 node-chokidar_3.4.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-chokidar
+Vcs-Git: https://salsa.debian.org/js-team/node-chokidar.git
+Checksums-Sha256:
+ 244d13b3d9848a56abca1e99599acb47c2a5a8c6c39946b1627f62fa23b7bf0b 2797 node-chokidar_3.4.3-3.dsc
+ 73ed9ceee7c677bf1dd2aca6c2dce843975a6d267ff9afe754e6e3af69a11d10 7985 node-chokidar_3.4.3.orig-upath.tar.gz
+ fcc9471f43f766474611f25968e122fb0137ccdb93843c1b077c04540e3fc91e 45871 node-chokidar_3.4.3.orig.tar.gz
+ 64982ea55f53fe0b1b053d88d0be2c84d4191420eaefdd14a15015c3d43bd91b 5596 node-chokidar_3.4.3-3.debian.tar.xz
+Homepage: https://github.com/paulmillr/chokidar
+Package-List: 
+ node-chokidar deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-chokidar
+Priority: optional
+Section: javascript

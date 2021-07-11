@@ -1,0 +1,28 @@
+Package: node-has-ansi
+Binary: node-has-ansi
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Mathias Behrle <mbehrle@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-ansi-regex <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a3c16fdbe3adb991c290ad81d5f0b85b 2376 node-has-ansi_4.0.0-1.dsc
+ bd5b500d3b9c3f21f1061c35fabc49de 1478 node-has-ansi_4.0.0.orig-types-has-ansi.tar.gz
+ 951286aeb3d9e58a21249e3630754cef 2602 node-has-ansi_4.0.0.orig.tar.gz
+ bd5e3e192404fedcb439b37ad2f34ffa 3368 node-has-ansi_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-has-ansi
+Vcs-Git: https://salsa.debian.org/js-team/node-has-ansi.git
+Checksums-Sha256:
+ d39da70781efdd75abc16d79e6378398343376786ef4818df517ae52f93e84b5 2376 node-has-ansi_4.0.0-1.dsc
+ 75bf102cceb714cd1b57636cd8bece410920cf0c6d9b1e34e287c232863f5571 1478 node-has-ansi_4.0.0.orig-types-has-ansi.tar.gz
+ 3df53e8713c30ea38145ffb7106282e48b0e74b0a877a9c4cfd2fb9c21a0b486 2602 node-has-ansi_4.0.0.orig.tar.gz
+ 0dcd55afac1c1fe254a18c2df5c53234c2939c3e556d750a6acad649ac86a61b 3368 node-has-ansi_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/has-ansi
+Package-List: 
+ node-has-ansi deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-has-ansi
+Priority: optional
+Section: javascript

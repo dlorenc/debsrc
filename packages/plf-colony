@@ -1,0 +1,26 @@
+Package: plf-colony
+Binary: libplf-colony-dev
+Version: 6.12-1
+Maintainer: Adam Borowski <kilobyte@angband.pl>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bf84505e84e70e5db77fa55a5759a933 1927 plf-colony_6.12-1.dsc
+ 06a7dab930b9bdbbbe36cbef7da40c12 30632 plf-colony_6.12.orig.tar.xz
+ 3887157e007ceba1a14495d24c2a818f 3836 plf-colony_6.12-1.debian.tar.xz
+Vcs-Browser: https://github.com/kilobyte/plf_colony/tree/debian
+Vcs-Git: https://github.com/kilobyte/plf_colony.git -b debian
+Checksums-Sha256:
+ 71eb8159dfde7bf3f02c6d843bdaf19b55e20410c6bddbdeb350effd10122f4a 1927 plf-colony_6.12-1.dsc
+ 95d2b497145ae703906a54b805821dbfe8507a648e510b20eaae096cb15b817e 30632 plf-colony_6.12.orig.tar.xz
+ 70924fe6e5bdbde673b63af892651e8cd73d6dc01cb26bad2a31a4a6a7a05a70 3836 plf-colony_6.12-1.debian.tar.xz
+Homepage: https://www.plflib.org/colony.htm
+Package-List: 
+ libplf-colony-dev deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: clang, g++, valgrind
+Directory: pool/main/p/plf-colony
+Priority: extra
+Section: misc

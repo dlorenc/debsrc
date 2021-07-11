@@ -1,0 +1,26 @@
+Package: node-nodemailer
+Binary: node-nodemailer
+Version: 6.4.17-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), chai <!nocheck>, mocha <!nocheck>, nodejs (>= 6), node-commander <!nocheck>, node-debug <!nocheck>, node-iconv-lite <!nocheck>, node-ms <!nocheck>, node-sinon <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ba848131b41398527184043769d8a93c 2210 node-nodemailer_6.4.17-3.dsc
+ d8b280d4aa8ff12be3feab32e08e6538 8566859 node-nodemailer_6.4.17.orig.tar.gz
+ d5442ef750fc78930b0705d6db159f57 61856 node-nodemailer_6.4.17-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-nodemailer
+Vcs-Git: https://salsa.debian.org/js-team/node-nodemailer.git
+Checksums-Sha256:
+ ac8117c7ac60ef8fa212a8f22089f4ab2403938de10d3aea123794452e0fd3f7 2210 node-nodemailer_6.4.17-3.dsc
+ e7f85bcc07bf560c2543f964f5996dc83a3b09cd03bf095eadc5291016146980 8566859 node-nodemailer_6.4.17.orig.tar.gz
+ 51d5c680e9cdbde6839751bbe75e50bf950f618b92900bc7cdec7a0800467755 61856 node-nodemailer_6.4.17-3.debian.tar.xz
+Homepage: https://nodemailer.com/
+Package-List: 
+ node-nodemailer deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-nodemailer
+Priority: extra
+Section: misc

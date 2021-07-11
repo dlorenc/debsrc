@@ -1,0 +1,23 @@
+Package: meta-ocaml
+Binary: ocaml-core, ocaml-libs
+Version: 4.08.1.2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>, Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ f664e25e1aad1ba5f422904c42ea744a 1706 meta-ocaml_4.08.1.2.dsc
+ 4c84f070f45b21c9e9477df5ca81fc58 3916 meta-ocaml_4.08.1.2.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/meta-ocaml
+Vcs-Git: https://salsa.debian.org/ocaml-team/meta-ocaml.git
+Checksums-Sha256:
+ 3bf5d40ebc0ab2d41defe7a10958b4405733cffee16c71cb1167f0d4a053c4d3 1706 meta-ocaml_4.08.1.2.dsc
+ 75a3ae3ab936846b7d745b323516ec79a7943b928495490065e4c7124bfe66cf 3916 meta-ocaml_4.08.1.2.tar.xz
+Package-List: 
+ ocaml-core deb devel optional arch=all
+ ocaml-libs deb devel optional arch=all
+Directory: pool/main/m/meta-ocaml
+Priority: source
+Section: ocaml

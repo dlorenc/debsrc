@@ -1,0 +1,27 @@
+Package: armagetronad
+Binary: armagetronad-common, armagetronad, armagetronad-dedicated
+Version: 0.2.9.1.0-2
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: debhelper-compat (= 13), libgl1-mesa-dev, libglu1-mesa-dev, libpng-dev, libsdl-image1.2-dev, libsdl-mixer1.2-dev, libsdl1.2-dev, libxml2-dev, pkg-config, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dc8739e5cc0d0de70e9656e61ea1fd01 2410 armagetronad_0.2.9.1.0-2.dsc
+ bc7809638324fc87e21402bf9e78d982 1967656 armagetronad_0.2.9.1.0.orig.tar.gz
+ 96aedd343cd43ac25ab39a3298f663d8 29852 armagetronad_0.2.9.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/armagetronad
+Vcs-Git: https://salsa.debian.org/games-team/armagetronad.git
+Checksums-Sha256:
+ 063c7a7206cfe8be074c51f05fed37e66e47beee00a5033868c1f98ca938c73d 2410 armagetronad_0.2.9.1.0-2.dsc
+ cb332214c26a12fc500540d180746e02c82294bebcdad3330a0a68625a045eef 1967656 armagetronad_0.2.9.1.0.orig.tar.gz
+ 28b778440ee2d7a8657fec2a8a468723017645a98259a7afac9fa67841a6c36f 29852 armagetronad_0.2.9.1.0-2.debian.tar.xz
+Homepage: http://armagetronad.org
+Package-List: 
+ armagetronad deb games optional arch=any
+ armagetronad-common deb games optional arch=all
+ armagetronad-dedicated deb games optional arch=any
+Directory: pool/main/a/armagetronad
+Priority: source
+Section: games

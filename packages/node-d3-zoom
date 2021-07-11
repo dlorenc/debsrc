@@ -1,0 +1,26 @@
+Package: node-d3-zoom
+Binary: node-d3-zoom
+Version: 1.8.3-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-nodejs, nodejs, rollup, node-rollup-plugin-terser, node-tape <!nocheck>, node-d3-interpolate (>= 1), node-d3-selection (>= 1), node-d3-transition (>= 1), node-d3-dispatch (>= 1), node-d3-drag (>= 1)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ da0e333c4d698fda469a0cb862b7cd32 2200 node-d3-zoom_1.8.3-2.dsc
+ 41a2f1a663a1c788600e68c2c2a2df73 261196 node-d3-zoom_1.8.3.orig.tar.gz
+ be25f8efae1347edd6023c0c945a18b5 3352 node-d3-zoom_1.8.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-d3-zoom
+Vcs-Git: https://salsa.debian.org/js-team/node-d3-zoom.git
+Checksums-Sha256:
+ a1cea62c9022c7f7315ac485f09f1be320da89c766aacaafd416552a5ed171ed 2200 node-d3-zoom_1.8.3-2.dsc
+ b9ef745889f94b167bf3b5630ab646c6ff31dce990ee3c98815e1383c069cec6 261196 node-d3-zoom_1.8.3.orig.tar.gz
+ 079ab7d2e9d2192fe0e81e4fad666a771bdaeae41344d1752e7cddd7f8fd0f16 3352 node-d3-zoom_1.8.3-2.debian.tar.xz
+Homepage: https://d3js.org/d3-zoom/
+Package-List: 
+ node-d3-zoom deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-d3-zoom
+Priority: extra
+Section: misc

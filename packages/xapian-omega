@@ -1,0 +1,28 @@
+Package: xapian-omega
+Binary: xapian-omega
+Version: 1.4.18-2
+Maintainer: Olly Betts <olly@survex.com>
+Build-Depends: libxapian-dev (>= 1.4.18), libxapian-dev (<< 1.5.0), debhelper-compat (= 12), dpkg-dev (>= 1.16.1~), libmagic-dev, libpcre3-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 571cad9aab5a2bc2d3a2609b9de299e6 2280 xapian-omega_1.4.18-2.dsc
+ a17d54d17eb5b40482901821f0f3d785 549892 xapian-omega_1.4.18.orig.tar.xz
+ 3e69b05c0d14158e50bdbe803b114074 833 xapian-omega_1.4.18.orig.tar.xz.asc
+ 5259ab4aa1464681d064c7c66af32f4f 14464 xapian-omega_1.4.18-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/olly/xapian-omega
+Vcs-Git: https://salsa.debian.org/olly/xapian-omega.git
+Checksums-Sha256:
+ b8e19fb3ac5fcf35b6f0bf6fb7df00fa34e4c9f9535e91df769297711d4fb4ba 2280 xapian-omega_1.4.18-2.dsc
+ 14bec53234bea5eb36aa4b91940842e62c7968f4fd68c959db396c15069acbaf 549892 xapian-omega_1.4.18.orig.tar.xz
+ 2259227f6fc1dbdbcc3be83d36b3d64fa64cc7bafa7229754513250bddec4f5a 833 xapian-omega_1.4.18.orig.tar.xz.asc
+ d9a62fe3e0b4f65a4c8846a635282dfb64a87517c5458893efbd6f30a653ee1b 14464 xapian-omega_1.4.18-2.debian.tar.xz
+Homepage: https://xapian.org/
+Package-List: 
+ xapian-omega deb web optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: faketime
+Directory: pool/main/x/xapian-omega
+Priority: source
+Section: web

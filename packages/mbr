@@ -1,0 +1,20 @@
+Package: mbr
+Binary: mbr, mbr-udeb
+Version: 1.2.1
+Maintainer: Santiago Garcia Mantinan <manty@debian.org>
+Build-Depends: debhelper (>= 7), bin86, util-linux (>= 2.13) | linux32, xxd
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (native)
+Files:
+ f564da90ff039796d9c760f683885440 1492 mbr_1.2.1.dsc
+ 78fc9a692e72d4175fe139dbab1c721b 110828 mbr_1.2.1.tar.xz
+Checksums-Sha256:
+ 87246d573567eca77d29d8cb04e886ddf7ab195099e16d3febc45e94833af31e 1492 mbr_1.2.1.dsc
+ 8867885975cf24e7ec1998abee84d358321e1131a3de110ea8e4c098f7c93a76 110828 mbr_1.2.1.tar.xz
+Package-List: 
+ mbr deb admin optional arch=any
+ mbr-udeb udeb debian-installer optional arch=i386,amd64,lpia
+Directory: pool/main/m/mbr
+Priority: source
+Section: admin

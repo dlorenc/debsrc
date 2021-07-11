@@ -1,0 +1,26 @@
+Package: pytest-localserver
+Binary: python3-pytest-localserver
+Version: 0.5.0-2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-pytest, python3-requests, python3-setuptools, python3-six, python3-werkzeug (>= 0.10)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ ff1ba32e0f7affebe77f11149616b722 2229 pytest-localserver_0.5.0-2.dsc
+ 85a49d73cde64ad2647fd6fb470fed16 15496 pytest-localserver_0.5.0.orig.tar.xz
+ 8dc975884e5e142231b28987ceaf0f26 9852 pytest-localserver_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pytest-localserver
+Vcs-Git: https://salsa.debian.org/python-team/modules/pytest-localserver.git
+Checksums-Sha256:
+ 05d70b29c85c22800166c177f80b3e984b0f425ca5131999b71d34c6f1a0871d 2229 pytest-localserver_0.5.0-2.dsc
+ baae5958e310110eb67fb9af8b5fffbc5e44319e934eb4da8d7606368a84df70 15496 pytest-localserver_0.5.0.orig.tar.xz
+ a49bcd8de410062813c428a36b656ca3bc55878bdb03051773be10dbff96d468 9852 pytest-localserver_0.5.0-2.debian.tar.xz
+Homepage: https://bitbucket.org/pytest-dev/pytest-localserver/
+Package-List: 
+ python3-pytest-localserver deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-requests, python3-six, python3-werkzeug
+Directory: pool/main/p/pytest-localserver
+Priority: optional
+Section: misc

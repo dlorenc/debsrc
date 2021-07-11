@@ -1,0 +1,29 @@
+Package: pygmsh
+Binary: python3-pygmsh, python-pygmsh-doc
+Version: 7.1.8-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools (>= 42~), python3-all, python3-gmsh, gmsh, python3-meshio (>= 4.3.2~), python3-meshio (<< 5), python3-numpy (>= 1.9~), python3-sphinx, python3-wheel
+Build-Depends-Indep: libjs-mathjax
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dc0baeb3a8b623e7ab73b7d870f307a4 2291 pygmsh_7.1.8-1.dsc
+ bac9d331029f8b25735ea99afc8c81c5 56026 pygmsh_7.1.8.orig.tar.gz
+ 935185e3a58447b405b2de867e61af82 3824 pygmsh_7.1.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/pygmsh
+Vcs-Git: https://salsa.debian.org/science-team/pygmsh.git
+Checksums-Sha256:
+ 9a9f5c790020f19ca073fb138599a64f05f215f4138f175dc8ec4ae5a52db0d3 2291 pygmsh_7.1.8-1.dsc
+ 0db40e557e993fd2063a6175a1eae90809f3843acab687728af8064a6ab3a543 56026 pygmsh_7.1.8.orig.tar.gz
+ 10277ba0114e744c9e7f574185f2bfd83628b88bc0444e008ba05a1b2ecfb32b 3824 pygmsh_7.1.8-1.debian.tar.xz
+Homepage: https://github.com/nschloe/pygmsh
+Package-List: 
+ python-pygmsh-doc deb doc optional arch=all
+ python3-pygmsh deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@, python3-pytest
+Directory: pool/main/p/pygmsh
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: libcatalyst-perl
+Binary: libcatalyst-perl
+Version: 5.90128-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Florian Schlichting <fsfs@debian.org>, Nick Morrott <knowledgejunkie@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcatalystx-leakchecker-perl <!nocheck>, libcgi-pm-perl <!nocheck>, libcgi-simple-perl <!nocheck>, libcgi-struct-xs-perl <!nocheck>, libclass-accessor-perl <!nocheck>, libclass-c3-adopt-next-perl <!nocheck>, libclass-c3-perl <!nocheck>, libclass-inspector-perl <!nocheck>, libclass-load-perl <!nocheck>, libdata-dump-perl <!nocheck>, libencode-perl <!nocheck>, libextutils-autoinstall-perl, libfcgi-perl <!nocheck>, libfcgi-procmanager-perl <!nocheck>, libfile-copy-recursive-perl <!nocheck>, libfile-modified-perl <!nocheck>, libfile-slurp-perl <!nocheck>, libhash-multivalue-perl <!nocheck>, libhtml-parser-perl <!nocheck>, libhttp-body-perl (>= 1.22) <!nocheck>, libhttp-message-perl <!nocheck>, libio-stringy-perl <!nocheck>, libjson-maybexs-perl <!nocheck>, libmime-types-perl <!nocheck>, libmodule-pluggable-perl <!nocheck>, libmoose-perl (>= 2.1400) <!nocheck>, libmoosex-emulate-class-accessor-fast-perl <!nocheck>, libmoosex-getopt-perl <!nocheck>, libmoosex-methodattributes-perl <!nocheck>, libnamespace-clean-perl <!nocheck>, libpath-class-perl <!nocheck>, libperlio-utf8-strict-perl <!nocheck>, libplack-middleware-fixmissingbodyinredirect-perl <!nocheck>, libplack-middleware-methodoverride-perl (>= 0.12) <!nocheck>, libplack-middleware-removeredundantbody-perl <!nocheck>, libplack-middleware-reverseproxy-perl <!nocheck>, libplack-perl <!nocheck>, libplack-test-externalserver-perl <!nocheck>, libsafe-isa-perl <!nocheck>, libscalar-list-utils-perl (>= 1:1.45) <!nocheck>, libscope-upper-perl <!nocheck>, libstream-buffered-perl <!nocheck>, libstring-rewriteprefix-perl <!nocheck>, libtask-weaken-perl <!nocheck>, libterm-size-any-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-mockobject-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-without-module-perl <!nocheck>, libtext-simpletable-perl <!nocheck>, libtree-simple-perl <!nocheck>, libtree-simple-visitorfactory-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libtype-tiny-perl (>= 1.000005) <!nocheck>, liburi-perl (>= 1.65) <!nocheck>, libwww-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b91ee8c186acde8376f0fb44c6bb5f43 4609 libcatalyst-perl_5.90128-1.dsc
+ 080fd774fb4f1cb975f72659667c2a39 383967 libcatalyst-perl_5.90128.orig.tar.gz
+ 7291bb44e6b4e795937439ef7ea20702 12032 libcatalyst-perl_5.90128-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcatalyst-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcatalyst-perl.git
+Checksums-Sha256:
+ 519961dc5b9b52c5c1cd43155c4df6a68056035371cc2cedc7757646757b6df4 4609 libcatalyst-perl_5.90128-1.dsc
+ a6df3b0daf5f66c5b43710c3bf22e348be8b05375ff1d9686087e6f6946260f9 383967 libcatalyst-perl_5.90128.orig.tar.gz
+ 70d98cd346564bdfc1ab5afe11a1b510b465702103da36c788749565a57a0b7b 12032 libcatalyst-perl_5.90128-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Catalyst-Runtime
+Dgit: 3af856466246a4558b11a1f1306104585400c809 debian archive/debian/5.90128-1 https://git.dgit.debian.org/libcatalyst-perl
+Package-List: 
+ libcatalyst-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcatalyst-perl
+Priority: source
+Section: perl

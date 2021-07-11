@@ -1,0 +1,27 @@
+Package: python-pauvre
+Binary: python3-pauvre
+Version: 0.2.2-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-matplotlib <!nocheck>, python3-biopython <!nocheck>, python3-pandas <!nocheck>, python3-numpy <!nocheck>, python3-scipy <!nocheck>, python3-sklearn <!nocheck>, python3-tk <!nocheck>, python3-progressbar <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c3a03063bc08ea5240132a567311c55c 2344 python-pauvre_0.2.2-2.dsc
+ d36b904bbd1f51d07cf7a5cdda290e0e 61885 python-pauvre_0.2.2.orig.tar.gz
+ 788c6b3dc34de1ad31db4a018a8f0b77 6684 python-pauvre_0.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-pauvre
+Vcs-Git: https://salsa.debian.org/med-team/python-pauvre.git
+Checksums-Sha256:
+ 4e2ff194e08d707c6bfedcb3854ed0e10eb3cf2e862349d38b5ca162ea100076 2344 python-pauvre_0.2.2-2.dsc
+ 54cd738da0aed36118a05bd747913cfff8572ec78ff99babab818c96573cfa40 61885 python-pauvre_0.2.2.orig.tar.gz
+ 2a8a1a92e0b242e0a3c41af3c294705beb6ec01ae8ed8ee5a8ca00faef8bf455 6684 python-pauvre_0.2.2-2.debian.tar.xz
+Homepage: https://github.com/conchoecia/pauvre
+Package-List: 
+ python3-pauvre deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-nanoget-examples
+Directory: pool/main/p/python-pauvre
+Priority: extra
+Section: misc

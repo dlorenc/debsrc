@@ -1,0 +1,26 @@
+Package: traitlets
+Binary: python3-traitlets, python-traitlets-doc
+Version: 5.0.5-1
+Maintainer: Debian Python Modules Team <python-modules-team@alioth-lists.debian.net>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: bc, debhelper-compat (= 13), dh-python, python3-all, python3-decorator, python3-ipython-genutils, python3-mock, python3-nose, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7c4c647975a9d6c66f6d1e143c3863ae 2237 traitlets_5.0.5-1.dsc
+ 4c4b866f4b98082a2b60083ab9d6adf7 126845 traitlets_5.0.5.orig.tar.gz
+ 6e5988c55feee21d7fca3b1387ba26d3 4128 traitlets_5.0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/traitlets
+Vcs-Git: https://salsa.debian.org/python-team/packages/traitlets.git
+Checksums-Sha256:
+ d171967c099ec3f31ca9d9dd9f965de395b929ada8a25d26b3e44f594162e5fc 2237 traitlets_5.0.5-1.dsc
+ dece08aa6205e9b494e134f93c2454d387f4677b50422565ec324aaf5ddf410d 126845 traitlets_5.0.5.orig.tar.gz
+ e3d759aa651c174feb53041599713a01f5d24ec227baa2cb40c5b9cf21108a3d 4128 traitlets_5.0.5-1.debian.tar.xz
+Homepage: https://github.com/ipython/traitlets
+Package-List: 
+ python-traitlets-doc deb doc optional arch=all
+ python3-traitlets deb python optional arch=all
+Directory: pool/main/t/traitlets
+Priority: optional
+Section: misc

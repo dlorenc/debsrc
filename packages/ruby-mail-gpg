@@ -1,0 +1,28 @@
+Package: ruby-mail-gpg
+Binary: ruby-mail-gpg
+Version: 0.4.4-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Georg Faerber <georg@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-actionmailer, ruby-byebug, ruby-gpgme, ruby-mail, ruby-shoulda-context
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 786e819782e005830dcddd24f8e3b5a7 1547 ruby-mail-gpg_0.4.4-1.dsc
+ 3bf1229760a343b8d481f5da49615d8a 30971 ruby-mail-gpg_0.4.4.orig.tar.gz
+ 6531111cffb20eba3826010817d013d7 11832 ruby-mail-gpg_0.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-mail-gpg
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-mail-gpg.git
+Checksums-Sha256:
+ c1d631565752898310d2f6e7389c17b42e5bc19d19c4743d559aa96712d019d2 1547 ruby-mail-gpg_0.4.4-1.dsc
+ a7f6be1240fea8de8177f542f03ff4b6e30ceace0bc698edf9d00b6956b8a1b1 30971 ruby-mail-gpg_0.4.4.orig.tar.gz
+ 20cbc386a8cb8ef8cd22a462d27327df4b82622950a460eb3e72bbd86b77f78c 11832 ruby-mail-gpg_0.4.4-1.debian.tar.xz
+Homepage: https://github.com/jkraemer/mail-gpg
+Package-List: 
+ ruby-mail-gpg deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, gem2deb-test-runner
+Directory: pool/main/r/ruby-mail-gpg
+Priority: optional
+Section: misc

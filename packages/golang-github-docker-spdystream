@@ -1,0 +1,28 @@
+Package: golang-github-docker-spdystream
+Binary: golang-github-docker-spdystream-dev
+Version: 0.2.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bc6c5e64a13e90b85d5f250adeb33083 1796 golang-github-docker-spdystream_0.2.0-1.dsc
+ d4732741d03f76813043ffd73574e8e2 31203 golang-github-docker-spdystream_0.2.0.orig.tar.gz
+ 7cb287a7bb55c687d59871965fc9130c 3916 golang-github-docker-spdystream_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-docker-spdystream
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-docker-spdystream.git
+Checksums-Sha256:
+ 6eb1c0819d19b487b13671a44371e54c6172d3daf1b4733758653d0dc61fa80d 1796 golang-github-docker-spdystream_0.2.0-1.dsc
+ cf054e388c238c1a0b403fbc18411194c24fcbe41d7eaab8e163c5e1f10fdd92 31203 golang-github-docker-spdystream_0.2.0.orig.tar.gz
+ 8fd13887e462cd3b911914065643b496b3eb23803696850666d949dfb1fa1b75 3916 golang-github-docker-spdystream_0.2.0-1.debian.tar.xz
+Homepage: https://github.com/moby/spdystream
+Go-Import-Path: github.com/moby/spdystream,
+                   github.com/docker/spdystream,
+Package-List: 
+ golang-github-docker-spdystream-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-docker-spdystream
+Priority: extra
+Section: golang

@@ -1,0 +1,28 @@
+Package: rust-memchr
+Binary: librust-memchr-dev, librust-memchr+libc-dev
+Version: 2.3.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a7255783557666451e858708890e42f4 2253 rust-memchr_2.3.3-1.dsc
+ 124ec4f35274a0e9c1a4ef3dc0958643 22566 rust-memchr_2.3.3.orig.tar.gz
+ d7f0f2a021ed909dd8d738ba857a3f77 3140 rust-memchr_2.3.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/memchr
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/memchr]
+Checksums-Sha256:
+ bdeabf66f8006bae942812361949ad5eeeb9da5b6340bcc05e14b9d9cbbc3112 2253 rust-memchr_2.3.3-1.dsc
+ 3728d817d99e5ac407411fa471ff9800a778d88a24685968b36824eaf4bee400 22566 rust-memchr_2.3.3.orig.tar.gz
+ e4d5ef02193c8fbdf3cc285ac37bd9b665914df61e27c26d4e507ad527bbf36a 3140 rust-memchr_2.3.3-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/rust-memchr
+Package-List: 
+ librust-memchr+libc-dev deb rust optional arch=any
+ librust-memchr-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-quickcheck-0.9-dev
+Directory: pool/main/r/rust-memchr
+Priority: extra
+Section: misc

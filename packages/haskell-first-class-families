@@ -1,0 +1,28 @@
+Package: haskell-first-class-families
+Binary: libghc-first-class-families-dev, libghc-first-class-families-prof, libghc-first-class-families-doc
+Version: 0.8.0.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fdcb6a64b9b0862b8679eac33d2acb60 2481 haskell-first-class-families_0.8.0.0-1.dsc
+ 6662bdd52e85abb84b8ea78b0cca207c 16060 haskell-first-class-families_0.8.0.0.orig.tar.gz
+ 7fdc40e3dd6a8e061f1143e41a7e14ce 2148 haskell-first-class-families_0.8.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-first-class-families
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git
+Checksums-Sha256:
+ 05344799597cc35b4d8aef02e64e41827431969238f3094e50af296ad2da3044 2481 haskell-first-class-families_0.8.0.0-1.dsc
+ 5b756d9a5941fc4b388843a3805aff3e0049bf4f1da4ab505d93bea3f7a012a4 16060 haskell-first-class-families_0.8.0.0.orig.tar.gz
+ bfe167e80d259f328da6158d54a101ba4a549c81933198e959fefaba9a4091cc 2148 haskell-first-class-families_0.8.0.0-1.debian.tar.xz
+Homepage: https://github.com/Lysxia/first-class-families
+Package-List: 
+ libghc-first-class-families-dev deb haskell optional arch=any
+ libghc-first-class-families-doc deb doc optional arch=all
+ libghc-first-class-families-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-first-class-families
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-pault-go-config
+Binary: golang-pault-go-config-dev
+Version: 0.1-3
+Maintainer: pkg-go <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-go, golang-pault-go-debian-dev
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ cf104a9336543d82f40b5e6fd704fed7 2153 golang-pault-go-config_0.1-3.dsc
+ d28ce90b46adaf94feb5ccbba5341c87 2262 golang-pault-go-config_0.1.orig.tar.gz
+ 76bf6905d2f828eb16f0f2eb8d0200ca 2712 golang-pault-go-config_0.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-pault-go-config
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-pault-go-config.git
+Checksums-Sha256:
+ 1ce8a1146f4ca63ac500ce671659fc142056b862ed06fd0f49269c03bb7f0cd3 2153 golang-pault-go-config_0.1-3.dsc
+ d3f104e490a1966eb41c4b0cac2bbd6555f1c5743a19c79b994584318cc61c88 2262 golang-pault-go-config_0.1.orig.tar.gz
+ dce29c27db8b7d038f9b438fabca993ca39a517581dbe38e7cf5f028c4c17bf0 2712 golang-pault-go-config_0.1-3.debian.tar.xz
+Homepage: https://pault.ag/go/config
+Go-Import-Path: pault.ag/go/config
+Package-List: 
+ golang-pault-go-config-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-pault-go-config
+Priority: extra
+Section: golang

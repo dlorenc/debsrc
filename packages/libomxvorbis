@@ -1,0 +1,24 @@
+Package: libomxvorbis
+Binary: libomxil-bellagio0-components-vorbis
+Version: 0.1-4
+Maintainer: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper (>= 11), libomxil-bellagio-dev, libvorbis-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 31e7256332ece8af086ded0196a160b7 2047 libomxvorbis_0.1-4.dsc
+ 66039038637f634ab591095fae511e1c 305945 libomxvorbis_0.1.orig.tar.gz
+ d840178759ba96c35485e03be31ff2c1 3716 libomxvorbis_0.1-4.debian.tar.xz
+Checksums-Sha256:
+ 2cb5b4138aa052495ab29d4f3386fa3a025024d84fd9801f1f688c93c664b878 2047 libomxvorbis_0.1-4.dsc
+ 54a29c0dd52864687db7ed0008e937fa89c5a64d2522139d13f10f4b0195d002 305945 libomxvorbis_0.1.orig.tar.gz
+ f3190c9af1e89aa2d3cd23a54270f5c09276b28e6c96bf43a7eb18cadfe4f2f5 3716 libomxvorbis_0.1-4.debian.tar.xz
+Homepage: http://omxil.sourceforge.net/
+Package-List: 
+ libomxil-bellagio0-components-vorbis deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gst-omx-listcomponents, gstreamer1.0-omx-bellagio-config, gstreamer1.0-omx-generic, libomxil-bellagio-bin, libomxil-bellagio0-components-base
+Directory: pool/main/libo/libomxvorbis
+Priority: source
+Section: libs

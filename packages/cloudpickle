@@ -1,0 +1,27 @@
+Package: cloudpickle
+Binary: python3-cloudpickle
+Version: 1.6.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Diane Trout <diane@ghic.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-mock, python3-psutil <!nocheck>, python3-pytest, python3-pytest-cov, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5ad3b8644432ff0c9f9a758403cf211a 2190 cloudpickle_1.6.0-1.dsc
+ f1202c1f0002166bfc785853c4684a82 52743 cloudpickle_1.6.0.orig.tar.gz
+ 2c560e55b3dcc03f3ea7ebff5fdc4643 3844 cloudpickle_1.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/cloudpickle
+Vcs-Git: https://salsa.debian.org/python-team/packages/cloudpickle.git
+Checksums-Sha256:
+ d649add02076d4a4d1d126774ef14ebb3e63f7bba431910fa4c6a8f017fe03f6 2190 cloudpickle_1.6.0-1.dsc
+ 9bc994f9e9447593bd0a45371f0e7ac7333710fcf64a4eb9834bf149f4ef2f32 52743 cloudpickle_1.6.0.orig.tar.gz
+ 889eea64eb8f42e5c012bcbf49a41ada86fe9e578270f078dffeaa5849ef1e30 3844 cloudpickle_1.6.0-1.debian.tar.xz
+Homepage: https://github.com/cloudpipe/cloudpickle
+Package-List: 
+ python3-cloudpickle deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-psutil, python3-pytest
+Directory: pool/main/c/cloudpickle
+Priority: optional
+Section: misc

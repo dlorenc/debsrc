@@ -1,0 +1,30 @@
+Package: kdesignerplugin
+Binary: kdesignerplugin, kdesignerplugin-data, kgendesignerplugin, kgendesignerplugin-bin
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), extra-cmake-modules (>= 5.78.0~), kgendesignerplugin-bin <cross>, libkf5config-dev (>= 5.78.0~), libkf5coreaddons-dev (>= 5.78.0~), libkf5doctools-dev (>= 5.78.0~), libqt5webkit5-dev, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qttools5-dev (>= 5.14.0~), qttools5-dev-tools (>= 5.4), xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 89a424237962f3f02ac6633f88fc6720 2538 kdesignerplugin_5.78.0-2.dsc
+ d394e9019018c189367f2370c255e3cb 73436 kdesignerplugin_5.78.0.orig.tar.xz
+ c150d25c21903c9f80d05c0b96cda681 488 kdesignerplugin_5.78.0.orig.tar.xz.asc
+ a5892a1459093973e0fed5fdb51e889e 10788 kdesignerplugin_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kdesignerplugin
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kdesignerplugin.git
+Checksums-Sha256:
+ c7c841324bd158b25238a25c64adf499db0c0318566e88febdf64b179318a5ed 2538 kdesignerplugin_5.78.0-2.dsc
+ 9ff333f7d0432219b654bc4bb31cc3b152961dbc91454bdea7d522d6d11b0fb2 73436 kdesignerplugin_5.78.0.orig.tar.xz
+ 67488f4273d75a136160e0c1157bd4cf079a54e56a525133fbb2d498e803f8aa 488 kdesignerplugin_5.78.0.orig.tar.xz.asc
+ 814ebf9873255f1011d82fcf6632796c8fdf152228c022c2eab9af43e52316e4 10788 kdesignerplugin_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kdesignerplugin
+Package-List: 
+ kdesignerplugin deb oldlibs optional arch=all
+ kdesignerplugin-data deb libs optional arch=all
+ kgendesignerplugin deb libdevel optional arch=any
+ kgendesignerplugin-bin deb libdevel optional arch=any
+Directory: pool/main/k/kdesignerplugin
+Priority: optional
+Section: misc

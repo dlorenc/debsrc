@@ -1,0 +1,25 @@
+Package: lxml
+Binary: python3-lxml, python3-lxml-dbg, python-lxml-doc
+Version: 4.6.3+dfsg-0.1
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper (>= 10), dh-python, python3-all-dev (>= 3.3.3), python3-all-dbg, libxml2-dev, libxslt1-dev, zlib1g-dev, python3-setuptools (>= 0.6.29), python3-bs4, python3-html5lib, python3-lxml <!nodoc>, cython3, cython3-dbg, python3-sphinx-autoapi
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f80c6371a720d8c9d308ce63b749fcef 1839 lxml_4.6.3+dfsg-0.1.dsc
+ 6c55a1d15abe4da09a9f97f8abf5e908 940222 lxml_4.6.3+dfsg.orig.tar.gz
+ 3866e7b83f0096043e429367c87caedd 7692 lxml_4.6.3+dfsg-0.1.debian.tar.xz
+Checksums-Sha256:
+ 9fc2b8c9f6f360d170572c85b03e14e341e6350c3e1cb9225db3cda6a93be551 1839 lxml_4.6.3+dfsg-0.1.dsc
+ aa386ddf45ccc40975f33d29e285b6656273254ed797dd87d6283090f5d62036 940222 lxml_4.6.3+dfsg.orig.tar.gz
+ b2d0c2b73e8749ace7519111a1ec9c82788293facb7ed79bb5b64ada4f6fd52e 7692 lxml_4.6.3+dfsg-0.1.debian.tar.xz
+Homepage: http://lxml.de/
+Dgit: 927ac251061c17654c82b99138fce451bc5a2052 debian archive/debian/4.6.3+dfsg-0.1 https://git.dgit.debian.org/lxml
+Package-List: 
+ python-lxml-doc deb doc optional arch=all
+ python3-lxml deb python optional arch=any
+ python3-lxml-dbg deb debug optional arch=any
+Directory: pool/main/l/lxml
+Priority: source
+Section: python

@@ -1,0 +1,27 @@
+Package: rust-unicode-script
+Binary: librust-unicode-script-dev
+Version: 0.5.2-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 58dee4f54d777c2dbf8eee348a171f41 1892 rust-unicode-script_0.5.2-4.dsc
+ 435b8200409dd12dc756baa1854bed01 36768 rust-unicode-script_0.5.2.orig.tar.gz
+ f3fed778501cf25136a09a5c63aa9b33 3216 rust-unicode-script_0.5.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unicode-script
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-script]
+Checksums-Sha256:
+ 16cbd88bc285549b0dd312ff23745a95b0f632469f3274f74cd911453688bd9b 1892 rust-unicode-script_0.5.2-4.dsc
+ 79bf4d5fc96546fdb73f9827097810bbda93b11a6770ff3a54e1f445d4135787 36768 rust-unicode-script_0.5.2.orig.tar.gz
+ bfd4ec7c7654deeec6036086bb618ce87e312eb41f7553e2b68bbfda1705d16d 3216 rust-unicode-script_0.5.2-4.debian.tar.xz
+Homepage: https://github.com/unicode-rs/unicode-script
+Package-List: 
+ librust-unicode-script-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-unicode-script
+Priority: extra
+Section: misc

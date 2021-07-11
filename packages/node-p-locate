@@ -1,0 +1,26 @@
+Package: node-p-locate
+Binary: node-p-locate
+Version: 5.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-p-limit <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c279e6fb9b6261df5c43d09341457723 2078 node-p-locate_5.0.0-1.dsc
+ 8eff1f19ea08ec468aa30d9801332f87 4484 node-p-locate_5.0.0.orig.tar.gz
+ 8bf7d0617aad12b98ebc93d0c24ad34c 80972 node-p-locate_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-p-locate
+Vcs-Git: https://salsa.debian.org/js-team/node-p-locate.git
+Checksums-Sha256:
+ 31dbb525c79d08d872b2ea30203b2721f8b5dc405ce35541f4d31c66a447d3df 2078 node-p-locate_5.0.0-1.dsc
+ 767d2c256b08d241fb48bf5c1273da714c711b5fd5a355b5bc5d710050717552 4484 node-p-locate_5.0.0.orig.tar.gz
+ 9bee26f7aa845d7c8edb1807b19dab81b784c322112e3e9682c55a700744228a 80972 node-p-locate_5.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/p-locate
+Package-List: 
+ node-p-locate deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-p-locate
+Priority: extra
+Section: javascript

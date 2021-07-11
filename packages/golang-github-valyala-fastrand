@@ -1,0 +1,27 @@
+Package: golang-github-valyala-fastrand
+Binary: golang-github-valyala-fastrand-dev
+Version: 1.0.0-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Guillem Jover <gjover@sipwise.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ab1747878aeaa71588d65a67ac2d49e4 2257 golang-github-valyala-fastrand_1.0.0-3.dsc
+ 276aeb7aa06c3700946d0de286d652b1 3320 golang-github-valyala-fastrand_1.0.0.orig.tar.gz
+ b70ea14dfdf2d883e51eb96a4d57c816 2692 golang-github-valyala-fastrand_1.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-valyala-fastrand
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-valyala-fastrand.git
+Checksums-Sha256:
+ 57a1edfafd7788f23cd99dd7127e11bf891aad8c89396481ea66c85701a1cd92 2257 golang-github-valyala-fastrand_1.0.0-3.dsc
+ dd3d1950089bfbc5c5309cbcc2599c4135ad428ec633c8835e97e0257ad16575 3320 golang-github-valyala-fastrand_1.0.0.orig.tar.gz
+ 46bb6e0e37340fc55aaaa0463fec40202105b04263288db99c3e1eb5e794765a 2692 golang-github-valyala-fastrand_1.0.0-3.debian.tar.xz
+Homepage: https://github.com/valyala/fastrand
+Go-Import-Path: github.com/valyala/fastrand
+Package-List: 
+ golang-github-valyala-fastrand-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-valyala-fastrand
+Priority: extra
+Section: misc

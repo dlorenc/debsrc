@@ -1,0 +1,24 @@
+Package: rust-procedural-masquerade
+Binary: librust-procedural-masquerade-dev
+Version: 0.1.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 9c8157f6bf2e27d0012a2bcfad8f0dd6 2185 rust-procedural-masquerade_0.1.6-1.dsc
+ 1ba8803474dae6e4e50bcdd41d206ec5 8458 rust-procedural-masquerade_0.1.6.orig.tar.gz
+ 03a399ff606bd2bd3f15283503f78639 2328 rust-procedural-masquerade_0.1.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/procedural-masquerade
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/procedural-masquerade]
+Checksums-Sha256:
+ 38c5c02263fb83719a39ce8b8157e5199776ed7c4c9565a8ca8e20128e71f53b 2185 rust-procedural-masquerade_0.1.6-1.dsc
+ 9a1574a51c3fd37b26d2c0032b649d08a7d51d4cca9c41bbc5bf7118fa4509d0 8458 rust-procedural-masquerade_0.1.6.orig.tar.gz
+ abdebcb0329745b7de1d7e0f3ebcb3d1696137915ad1069b0156dbd89aaa57df 2328 rust-procedural-masquerade_0.1.6-1.debian.tar.xz
+Package-List: 
+ librust-procedural-masquerade-dev deb rust optional arch=any
+Directory: pool/main/r/rust-procedural-masquerade
+Priority: extra
+Section: misc

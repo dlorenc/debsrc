@@ -1,0 +1,28 @@
+Package: golang-github-xo-terminfo
+Binary: terminfo, golang-github-xo-terminfo-dev
+Version: 0.0~git20210125.ca9a967-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Utkarsh Gupta <utkarsh@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3a0d4bd91b3da83d554b0032156c454f 2433 golang-github-xo-terminfo_0.0~git20210125.ca9a967-1.dsc
+ 63af96dae611c69a2890a9e4e21be9b0 30040 golang-github-xo-terminfo_0.0~git20210125.ca9a967.orig.tar.xz
+ 891760f08a51ce31caf2e52e4bad2ef0 3744 golang-github-xo-terminfo_0.0~git20210125.ca9a967-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-xo-terminfo
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-xo-terminfo.git
+Checksums-Sha256:
+ e5db4d0f730639a79b854804853771c05e33f5ec4ae4b21bbfd45203475cd36b 2433 golang-github-xo-terminfo_0.0~git20210125.ca9a967-1.dsc
+ 3d3fa0f82f71c74b597852986b6b2061b2f4bde26ee864ae699a825821fe00f9 30040 golang-github-xo-terminfo_0.0~git20210125.ca9a967.orig.tar.xz
+ 6e59bc8668bf99c3cd959712fa97ac542fd6abdbb9bfbfc89a4d15a3f2c93cfe 3744 golang-github-xo-terminfo_0.0~git20210125.ca9a967-1.debian.tar.xz
+Homepage: https://github.com/xo/terminfo
+Go-Import-Path: github.com/xo/terminfo
+Package-List: 
+ golang-github-xo-terminfo-dev deb golang optional arch=all
+ terminfo deb golang optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-xo-terminfo
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: ocamlweb
+Binary: ocamlweb
+Version: 1.41-4
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>, Samuel Mimram <smimram@debian.org>
+Build-Depends: debhelper-compat (= 12), ocaml-nox (>= 3.07), tex-common, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 524c3f665bb4cfc86d4bd2ab5850d67b 2103 ocamlweb_1.41-4.dsc
+ 090954c64abcd46ae7ff1beb8cb48a23 141844 ocamlweb_1.41.orig.tar.gz
+ 5f0d916bb2c9b99a76c941a33b0410e1 9496 ocamlweb_1.41-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocamlweb
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocamlweb.git
+Checksums-Sha256:
+ e1fc0d6ddd04762e6c7bd017a80d09b378151bbf45f4501a1440059453543bcf 2103 ocamlweb_1.41-4.dsc
+ 5c0221bf8b9166f6369e3756e44abb89e5cb2bc9599345c3a3d65d09ac8ae93d 141844 ocamlweb_1.41.orig.tar.gz
+ f4b010eff91b8a3e26741cb49fd0c225c868ad68d412890f54097aaef59a1be3 9496 ocamlweb_1.41-4.debian.tar.xz
+Homepage: http://www.lri.fr/~filliatr/ocamlweb/index.en.html
+Package-List: 
+ ocamlweb deb ocaml optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra
+Directory: pool/main/o/ocamlweb
+Priority: source
+Section: ocaml

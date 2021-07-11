@@ -1,0 +1,27 @@
+Package: python-formencode
+Binary: python3-formencode
+Version: 2.0.0-2
+Maintainer: Fabio Tranchitella <kobold@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>, Piotr Ożarowski <piotr@debian.org>, Neil Muller <drnlmuller+debian@gmail.com>, Chris Lamb <lamby@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-dnspython <!nocheck>, python3-pycountry <!nocheck>, python3-nose <!nocheck>, python3-six, python3-setuptools, python3-setuptools-scm
+Architecture: all
+Standards-Version: 4.5.1.0
+Format: 3.0 (quilt)
+Files:
+ 8c354fdca6a34da57d49c66737c70a38 2350 python-formencode_2.0.0-2.dsc
+ f71953d3d9fd39fdad0ce001289fe97a 236934 python-formencode_2.0.0.orig.tar.gz
+ ab6de9c80fe7e88c1248eac10c12fc6c 8568 python-formencode_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-formencode
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-formencode.git
+Checksums-Sha256:
+ 6e110b9da3830f83ad6191a9ff326bfa8ea5573f2b9d43a22b22238773cd7830 2350 python-formencode_2.0.0-2.dsc
+ b961fb01964fe189c21e84646f51724e4f906ec2564024d22617c86e76eb3117 236934 python-formencode_2.0.0.orig.tar.gz
+ 8f408976e6965703a17f9e309621d287348258a416d6dccf9e605c9a08ad04d9 8568 python-formencode_2.0.0-2.debian.tar.xz
+Homepage: http://formencode.org
+Package-List: 
+ python3-formencode deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-setuptools
+Directory: pool/main/p/python-formencode
+Priority: source
+Section: python

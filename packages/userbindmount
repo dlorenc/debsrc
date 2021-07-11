@@ -1,0 +1,27 @@
+Package: userbindmount
+Binary: libuserbindmount-dev, libuserbindmount0, userbindmount
+Version: 0.1-2
+Maintainer: Debian VirtualSquare Team <virtualsquare@cs.unibo.it>
+Uploaders: Mattia Biondi <mattiabiondi1@gmail.com>, Renzo Davoli <renzo@cs.unibo.it>, Andrea Capriotti <capriott@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.12), libcap-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bad91a1200ab6af31709f90a755c85d0 2193 userbindmount_0.1-2.dsc
+ fb14d609492e194ddeb481eb711978e0 19830 userbindmount_0.1.orig.tar.gz
+ 371a4cde0e7d3eeb4c345353444831ec 2336 userbindmount_0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/virtualsquare-team/userbindmount
+Vcs-Git: https://salsa.debian.org/virtualsquare-team/userbindmount.git
+Checksums-Sha256:
+ 6eadfd6e4a78b037071a68850533ba40f20cefc15836d6ff792b76d6b473f889 2193 userbindmount_0.1-2.dsc
+ 7e44ccfbb5998b81a59e18eabadbb65461ddbb23b98f5048f1915d29e065dd3b 19830 userbindmount_0.1.orig.tar.gz
+ b4388126830b26fb1c55bac9bb89c4073ea506b5ee9402e635b4cd3232ea6d8e 2336 userbindmount_0.1-2.debian.tar.xz
+Homepage: http://www.virtualsquare.org/
+Package-List: 
+ libuserbindmount-dev deb libdevel optional arch=any
+ libuserbindmount0 deb libs optional arch=any
+ userbindmount deb utils optional arch=any
+Directory: pool/main/u/userbindmount
+Priority: extra
+Section: misc

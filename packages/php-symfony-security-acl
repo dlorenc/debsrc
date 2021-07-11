@@ -1,0 +1,27 @@
+Package: php-symfony-security-acl
+Binary: php-symfony-security-acl
+Version: 3.1.1-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Daniel Beyer <dabe@deb.ymc.ch>, David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), php-doctrine-common, php-doctrine-dbal, php-sqlite3, php-symfony-security-core, phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1686ab8b87f2b6535e7bc5e102c7145f 2059 php-symfony-security-acl_3.1.1-1.dsc
+ 588624013b937b65c3fb4fc5c95e6b27 47353 php-symfony-security-acl_3.1.1.orig.tar.gz
+ d3758024bc4e560c5cc79bf31cce488f 5572 php-symfony-security-acl_3.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-symfony-security-acl
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-symfony-security-acl.git -b debian/latest
+Checksums-Sha256:
+ 580190911fcdfb5a42dc612f2494dfa6c6c352e2bdb46c496364429122fc3889 2059 php-symfony-security-acl_3.1.1-1.dsc
+ 8440709eb7d8aa8cf5a63aeb3138c8aa240fe18a5b52310407204665dd734131 47353 php-symfony-security-acl_3.1.1.orig.tar.gz
+ 955b34ca45ae9915d7b8c1fe6b412830bff4255dbd0c74b6daede312ff370d07 5572 php-symfony-security-acl_3.1.1-1.debian.tar.xz
+Homepage: https://symfony.com/doc/2.8/components/security/introduction.html
+Package-List: 
+ php-symfony-security-acl deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-doctrine-common, php-doctrine-dbal, php-sqlite3, phpunit
+Directory: pool/main/p/php-symfony-security-acl
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: jarjar-maven-plugin
+Binary: libjarjar-maven-plugin-java
+Version: 1.9-8
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, debhelper (>= 11), default-jdk, junit4, libasm-java (>= 6.0), libmaven-common-artifact-filters-java, libmaven-plugin-tools-java, libmaven3-core-java, libplexus-archiver-java, libplexus-utils2-java, maven-debian-helper (>= 2.0)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 0f298cee07a37dfe6a4f806377930de2 2276 jarjar-maven-plugin_1.9-8.dsc
+ 20f8afceecf1d7210c35739ae7161ae8 31375 jarjar-maven-plugin_1.9.orig.tar.gz
+ 0190be993467dd368ff81f43b35416f9 4692 jarjar-maven-plugin_1.9-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jarjar-maven-plugin
+Vcs-Git: https://salsa.debian.org/java-team/jarjar-maven-plugin.git
+Checksums-Sha256:
+ 31b53f0182f1732095927e313661b8c8361925b7f84b6e51f5f55d5fbc8cbe43 2276 jarjar-maven-plugin_1.9-8.dsc
+ a4a927eeda8cbcc8913725198f0bcc314e92309c74e6688d4371df9307159214 31375 jarjar-maven-plugin_1.9.orig.tar.gz
+ 3e8d6a95aa9b7fefb7569743547373c459a47aad9c49a2760527e45d0f4d6612 4692 jarjar-maven-plugin_1.9-8.debian.tar.xz
+Homepage: http://sonatype.github.com/jarjar-maven-plugin/
+Package-List: 
+ libjarjar-maven-plugin-java deb java optional arch=all
+Directory: pool/main/j/jarjar-maven-plugin
+Priority: source
+Section: java

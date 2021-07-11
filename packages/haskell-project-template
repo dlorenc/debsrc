@@ -1,0 +1,28 @@
+Package: haskell-project-template
+Binary: libghc-project-template-dev, libghc-project-template-prof, libghc-project-template-doc
+Version: 0.2.1.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-base64-bytestring-dev, libghc-base64-bytestring-prof, libghc-conduit-dev (>= 1.2.8), libghc-conduit-dev (<< 1.4), libghc-conduit-prof, libghc-conduit-extra-dev, libghc-conduit-extra-prof, libghc-hspec-dev (>= 1.3), libghc-quickcheck2-dev, libghc-resourcet-dev (>= 0.4.3), libghc-resourcet-prof
+Build-Depends-Indep: ghc-doc, libghc-base64-bytestring-doc, libghc-conduit-doc, libghc-conduit-extra-doc, libghc-resourcet-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 08f45238bc1bf77e1165552e91323a88 2844 haskell-project-template_0.2.1.0-1.dsc
+ edf8f5a4d70407423a04da79965b2a24 8485 haskell-project-template_0.2.1.0.orig.tar.gz
+ ac150aa672e339f677ef4da3556dab1c 3272 haskell-project-template_0.2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-project-template
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-project-template]
+Checksums-Sha256:
+ 814aae35e2a9661c08087bc58e91b8e297e35d944870d8362a7e3447bd69af75 2844 haskell-project-template_0.2.1.0-1.dsc
+ 2d99e5bf750e409d8f2daa2a9038ce39c40c310e2e52076549659968461f8429 8485 haskell-project-template_0.2.1.0.orig.tar.gz
+ 44aee7510ed0e30330cf9cfe7e717e8515ac29ceb28e39826042b89b04807ce6 3272 haskell-project-template_0.2.1.0-1.debian.tar.xz
+Homepage: https://github.com/fpco/haskell-ide
+Package-List: 
+ libghc-project-template-dev deb haskell optional arch=any
+ libghc-project-template-doc deb doc optional arch=all
+ libghc-project-template-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-project-template
+Priority: source
+Section: misc

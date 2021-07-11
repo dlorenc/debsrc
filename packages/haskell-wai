@@ -1,0 +1,28 @@
+Package: haskell-wai
+Binary: libghc-wai-dev, libghc-wai-prof, libghc-wai-doc
+Version: 3.2.2.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-http-types-dev (>= 0.7), libghc-http-types-prof, libghc-network-dev (>= 2.2.1.5), libghc-network-prof, libghc-vault-dev (<< 0.4), libghc-vault-dev (>= 0.3), libghc-vault-prof, libghc-hspec-dev
+Build-Depends-Indep: ghc-doc, libghc-http-types-doc, libghc-network-doc, libghc-vault-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4eb5c96527ee791c396fbb13365c802d 2506 haskell-wai_3.2.2.1-2.dsc
+ 64f00ba49c478eccfcd98278a4ed104e 10221 haskell-wai_3.2.2.1.orig.tar.gz
+ 7e5ccc70c88070e5554cff8e47d277ba 3192 haskell-wai_3.2.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-wai
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-wai]
+Checksums-Sha256:
+ 1d588141a735133114d8e3086da0ba3da7fe28f431491b33778e796707bf3e9a 2506 haskell-wai_3.2.2.1-2.dsc
+ fef72486e3a9e01f564abfb680f6eac9b553f8195cae8ed903d960da55380815 10221 haskell-wai_3.2.2.1.orig.tar.gz
+ ef06d58378530094a7ee2e70d9900ef6b2394a8afc62c05e264731866ae41f9a 3192 haskell-wai_3.2.2.1-2.debian.tar.xz
+Homepage: https://github.com/yesodweb/wai
+Package-List: 
+ libghc-wai-dev deb haskell optional arch=any
+ libghc-wai-doc deb doc optional arch=all
+ libghc-wai-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-wai
+Priority: source
+Section: haskell

@@ -1,0 +1,28 @@
+Package: golang-google-protobuf
+Binary: golang-google-protobuf-dev, protoc-gen-go
+Version: 1.25.0+git20201208.160c747-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>, Anthony Fok <foka@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-google-go-cmp-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 708a9425e732b94f54be9bd6774276ee 2480 golang-google-protobuf_1.25.0+git20201208.160c747-1.dsc
+ 6129d9cee73550e2aaaff8b8cdca52a6 713616 golang-google-protobuf_1.25.0+git20201208.160c747.orig.tar.xz
+ 87e23ef2b0f0ab73b94aa5f3f18cc06e 3644 golang-google-protobuf_1.25.0+git20201208.160c747-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-google-protobuf
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-google-protobuf.git
+Checksums-Sha256:
+ d591170ee68773af62f07148be9d0a610ab6360014ca83494b472ee5ade0c955 2480 golang-google-protobuf_1.25.0+git20201208.160c747-1.dsc
+ f104019edae8b5e37e5d5b3ce617ce20b177fa309195102b0642787fa3ec84e1 713616 golang-google-protobuf_1.25.0+git20201208.160c747.orig.tar.xz
+ 6f00731d2b2fb6895a7f683f00ddf9f175d45804db5643922113f5f61280ac41 3644 golang-google-protobuf_1.25.0+git20201208.160c747-1.debian.tar.xz
+Homepage: https://github.com/protocolbuffers/protobuf-go
+Go-Import-Path: google.golang.org/protobuf
+Package-List: 
+ golang-google-protobuf-dev deb golang optional arch=all
+ protoc-gen-go deb golang optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-google-protobuf
+Priority: extra
+Section: golang

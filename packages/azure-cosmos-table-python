@@ -1,0 +1,27 @@
+Package: azure-cosmos-table-python
+Binary: python3-azure-cosmosdb-table
+Version: 1.0.5+git20191025-5
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-azure <!nocheck>, python3-cryptography <!nocheck>, python3-pip <!nodoc>, python3-pytest <!nocheck>, python3-setuptools, python3-sphinx, python3-vcr <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e553c12bb05cda869f7eb34d57bc9344 2176 azure-cosmos-table-python_1.0.5+git20191025-5.dsc
+ 04208401c52039630fefcd00ca98079c 226568 azure-cosmos-table-python_1.0.5+git20191025.orig.tar.gz
+ a9d93d40b19f57f4e0dbde5d7dad3be0 4608 azure-cosmos-table-python_1.0.5+git20191025-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/azure-cosmos-table-python
+Vcs-Git: https://salsa.debian.org/python-team/modules/azure-cosmos-table-python.git
+Checksums-Sha256:
+ f10ed99a802df2e355e6b9c45e32be35dd26133fb8b7eeed14b56795014850a1 2176 azure-cosmos-table-python_1.0.5+git20191025-5.dsc
+ 4dc92ba53e00e754be6d259e4aba1d26491fa32a8e42e12d4ef56f466b7eb93a 226568 azure-cosmos-table-python_1.0.5+git20191025.orig.tar.gz
+ b2cabe03c39db033d0440e5e56710270c57e474a6ac82076b9a88f75c1da3e4c 4608 azure-cosmos-table-python_1.0.5+git20191025-5.debian.tar.xz
+Homepage: https://github.com/Azure/azure-cosmos-table-python
+Package-List: 
+ python3-azure-cosmosdb-table deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/a/azure-cosmos-table-python
+Priority: extra
+Section: misc

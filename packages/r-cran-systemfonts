@@ -1,0 +1,27 @@
+Package: r-cran-systemfonts
+Binary: r-cran-systemfonts
+Version: 1.0.0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-cpp11, libfontconfig1-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bdb780e191813e8cfb014fdf12e0d1da 2181 r-cran-systemfonts_1.0.0-1.dsc
+ 40234cc5b1fc4309b78a8c4d2aa8d1f3 80614 r-cran-systemfonts_1.0.0.orig.tar.gz
+ e7710de066a50909a1b03cde19ecbde9 2864 r-cran-systemfonts_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-systemfonts
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-systemfonts.git
+Checksums-Sha256:
+ bb5e165962089cf40659bc59c6903d1579344ce825e251dfc8ff3fa9e4846cf0 2181 r-cran-systemfonts_1.0.0-1.dsc
+ dfaee91a2864e5c8b716884a1f5f1bb7bef3b206f70c5805bfd45f80469d95f9 80614 r-cran-systemfonts_1.0.0.orig.tar.gz
+ 2a8f8499526493d02dd9d3072ba1ed29ed8b46903b336db69f64512dc29fac45 2864 r-cran-systemfonts_1.0.0-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=systemfonts
+Package-List: 
+ r-cran-systemfonts deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-systemfonts
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-applause
+Binary: node-applause
+Version: 1.2.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs (>= 6), node-cson-parser <!nocheck>, node-js-yaml <!nocheck>, node-lodash (>= 3.10.0) <!nocheck>, mocha (>= 4) <!nocheck>, pkg-js-tools (>= 0.9.10~)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ eff4bd498cb0843e965d8da3a6c1f17a 2171 node-applause_1.2.2-3.dsc
+ 3531cf2913594c3fc1bf3279243f5404 10847 node-applause_1.2.2.orig.tar.gz
+ 1e02db1b70be8eaef355904168492526 2584 node-applause_1.2.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-applause
+Vcs-Git: https://salsa.debian.org/js-team/node-applause.git
+Checksums-Sha256:
+ c3ed83d83ee5a545582cd921629c189f4a06be805b1a50d79a663583bc9a9829 2171 node-applause_1.2.2-3.dsc
+ 6dfdde62e24bf5d9b4d07bdfdc6a64954e9ef1aa98f5d05a22701776b341928f 10847 node-applause_1.2.2.orig.tar.gz
+ 894f55699a9a407152d649529efb712ca60b1f163ada5799991a1f4ee0575150 2584 node-applause_1.2.2-3.debian.tar.xz
+Homepage: https://github.com/outatime/applause#readme
+Package-List: 
+ node-applause deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-applause
+Priority: extra
+Section: misc

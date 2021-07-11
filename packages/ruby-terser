@@ -1,0 +1,28 @@
+Package: ruby-terser
+Binary: ruby-terser
+Version: 1.0.2+dfsg-4
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Vivek K J <vivekkj@protonmail.com>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), ruby-execjs (<< 3), ruby-execjs (>= 0.3.0)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f566df4f00503dafa187c4844655d885 2186 ruby-terser_1.0.2+dfsg-4.dsc
+ 9d9d1387d3808b1ad4d702ee1a8b7e8f 17348 ruby-terser_1.0.2+dfsg.orig.tar.xz
+ 66667a8fc8d7ce31df277e8ba7f678d2 3468 ruby-terser_1.0.2+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-terser
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-terser.git
+Checksums-Sha256:
+ 1efa1d417920ddb2b8de1cd7f223ee4ea001cd46cee67431202a6124a2549615 2186 ruby-terser_1.0.2+dfsg-4.dsc
+ 4cd2d17fa846c85fd63ee241763f65f95cf54c66d1fd735eb5b5f24fc106f0b5 17348 ruby-terser_1.0.2+dfsg.orig.tar.xz
+ afe47418841381bd6f555185b7da5c467d582795a7de36ea5ed7fc1f1bcd6d9e 3468 ruby-terser_1.0.2+dfsg-4.debian.tar.xz
+Homepage: https://github.com/ahorek/terser-ruby
+Package-List: 
+ ruby-terser deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Testsuite-Triggers: ruby-bundler, ruby-jquery-rails, ruby-railties, ruby-sass-rails
+Directory: pool/main/r/ruby-terser
+Priority: extra
+Section: misc

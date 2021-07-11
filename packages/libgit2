@@ -1,0 +1,29 @@
+Package: libgit2
+Binary: libgit2-dev, libgit2-1.1, libgit2-fixtures
+Version: 1.1.0+dfsg.1-4
+Maintainer: Utkarsh Gupta <utkarsh@debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), python3-minimal:any, pkg-config, ca-certificates, cmake, zlib1g-dev, libmbedtls-dev, libssh2-1-dev, libhttp-parser-dev, libpcre3-dev, libkrb5-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2078dbd6a5a94ad0c45ab583b110a979 2273 libgit2_1.1.0+dfsg.1-4.dsc
+ 950f6512ff615d6ad968b6f26eafff57 2901284 libgit2_1.1.0+dfsg.1.orig.tar.xz
+ 561613588d53f92b6f35193820e359be 15916 libgit2_1.1.0+dfsg.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libgit2
+Vcs-Git: https://salsa.debian.org/debian/libgit2.git
+Checksums-Sha256:
+ e1a41459c36c4632b6877ad456589fb2a1276abe88bf3d9c2beb5932d34a62d9 2273 libgit2_1.1.0+dfsg.1-4.dsc
+ d3eba7909c5df1023c25a44ead8ee97cfc36da91a84ca50837d90f4521cf4e04 2901284 libgit2_1.1.0+dfsg.1.orig.tar.xz
+ 05c2f5c386b7f0ab1d8140e96bed1f5e23381f6c6ddc6d4d5ec13d21fc0499f6 15916 libgit2_1.1.0+dfsg.1-4.debian.tar.xz
+Homepage: https://libgit2.github.com/
+Package-List: 
+ libgit2-1.1 deb libs optional arch=any
+ libgit2-dev deb libdevel optional arch=any
+ libgit2-fixtures deb libs optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: cmake, g++, gcc
+Directory: pool/main/libg/libgit2
+Priority: source
+Section: libs

@@ -1,0 +1,29 @@
+Package: pycurl
+Binary: python3-pycurl, python3-pycurl-dbg, python-pycurl-doc
+Version: 7.43.0.6-5
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Scott Talbert <swt@techie.net>
+Build-Depends: debhelper-compat (= 12), dh-python, libcurl4-gnutls-dev (>= 7.57.0), libgnutls28-dev, libssh2-1-dev, pyflakes3 <!nocheck>, python3-sphinx, python3-all-dbg, python3-all-dev, python3-bottle <!nocheck>, python3-flaky <!nocheck>, python3-nose <!nocheck>, vsftpd <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 90fffd9ae75fcfc5a9f37b59e48e5b70 2479 pycurl_7.43.0.6-5.dsc
+ 3e121d895101022c30619e1bbf97eb97 222895 pycurl_7.43.0.6.orig.tar.gz
+ 1115eae48ad9586391c442d74b7dc867 10612 pycurl_7.43.0.6-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pycurl
+Vcs-Git: https://salsa.debian.org/python-team/packages/pycurl.git
+Checksums-Sha256:
+ 00fcacb2113cd47c7f2d6b4731859a7d19a52814b2e1f474cc4b6392ec6033a1 2479 pycurl_7.43.0.6-5.dsc
+ 8301518689daefa53726b59ded6b48f33751c383cf987b0ccfbbc4ed40281325 222895 pycurl_7.43.0.6.orig.tar.gz
+ 41cf5930875667973a329260f75bafb0fa23fb48abf4031b59fa3ad685cad938 10612 pycurl_7.43.0.6-5.debian.tar.xz
+Homepage: http://pycurl.sourceforge.net
+Package-List: 
+ python-pycurl-doc deb doc optional arch=all
+ python3-pycurl deb python optional arch=any
+ python3-pycurl-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, ca-certificates, libcurl4-gnutls-dev, pyflakes3, python3-all, python3-bottle, python3-flaky, python3-nose, vsftpd
+Directory: pool/main/p/pycurl
+Priority: source
+Section: interpreters

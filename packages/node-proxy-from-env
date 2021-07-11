@@ -1,0 +1,26 @@
+Package: node-proxy-from-env
+Binary: node-proxy-from-env
+Version: 1.1.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, nodejs (>= 6), pkg-js-tools (>= 0.9.35)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 06f42d6c27776a136e5b6b7c3ee4e9af 2166 node-proxy-from-env_1.1.0-2.dsc
+ 9d08558b7595d41173043248f4b2de94 7875 node-proxy-from-env_1.1.0.orig.tar.gz
+ 2e804b0a111617cefc688d1c62df268e 2084 node-proxy-from-env_1.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-proxy-from-env
+Vcs-Git: https://salsa.debian.org/js-team/node-proxy-from-env.git
+Checksums-Sha256:
+ 0eab974837b3338ea58f4cdc4dbb6352598335df9d42b8a1cb5623277d695d7e 2166 node-proxy-from-env_1.1.0-2.dsc
+ 404fbc5907d10748312125aa79c45b69168b1c04d28bea1667a8e23c808a2c06 7875 node-proxy-from-env_1.1.0.orig.tar.gz
+ 088feb711678c7aedce31076e2a0bfc4120063749a41e1784e4ea46f3996a7e0 2084 node-proxy-from-env_1.1.0-2.debian.tar.xz
+Homepage: https://github.com/Rob--W/proxy-from-env#readme
+Package-List: 
+ node-proxy-from-env deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-proxy-from-env
+Priority: extra
+Section: misc

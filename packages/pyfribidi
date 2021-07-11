@@ -1,0 +1,26 @@
+Package: pyfribidi
+Binary: python3-pyfribidi
+Version: 0.12.0+repack-7
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Lior Kaplan <kaplan@debian.org>, Shachar Shemesh <shachar@debian.org>, أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+Build-Depends: debhelper-compat (= 12), libfribidi-dev (>= 0.19), pkg-config, python3-all, python3-all-dev, python3-six, dh-python
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d51fbd527fd966859b69146188405fdd 1946 pyfribidi_0.12.0+repack-7.dsc
+ 759cd6e622ede9be77137b9cb598a234 15654 pyfribidi_0.12.0+repack.orig.tar.gz
+ bc9f28d8b7967571dd498b7d7ca6ca0d 5092 pyfribidi_0.12.0+repack-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pyfribidi
+Vcs-Git: https://salsa.debian.org/python-team/modules/pyfribidi.git
+Checksums-Sha256:
+ 7ddf1799ef82bb27d207e6cc6eb58d71ce403e5ea9e5405f060644a21eddc03e 1946 pyfribidi_0.12.0+repack-7.dsc
+ 45a5c7a2142193cae6a723e5e6db5ebd8d2ef4aae39ad49ae9152ca29d8f82c7 15654 pyfribidi_0.12.0+repack.orig.tar.gz
+ 10f3eba6425e05dd09950cc0f5e6898e6724b1ac3c857c9576b286febe5621a8 5092 pyfribidi_0.12.0+repack-7.debian.tar.xz
+Homepage: http://pyfribidi.sourceforge.net/
+Package-List: 
+ python3-pyfribidi deb python optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/pyfribidi
+Priority: source
+Section: python

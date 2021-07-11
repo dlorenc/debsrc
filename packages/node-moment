@@ -1,0 +1,27 @@
+Package: node-moment
+Binary: node-moment, libjs-moment
+Version: 2.29.1+ds-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), uglifyjs, pkg-js-tools (>= 0.9.19~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d4614a07c60cc0f8a736fa9dfa399529 2132 node-moment_2.29.1+ds-2.dsc
+ 17f6effda7ba1983564e74677bb93ca1 556080 node-moment_2.29.1+ds.orig.tar.xz
+ dcb5095a7f29b8946358387207fd55a6 3704 node-moment_2.29.1+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-moment
+Vcs-Git: https://salsa.debian.org/js-team/node-moment.git
+Checksums-Sha256:
+ 99661e0ac78c6c82ab0f7faffb1f06fb7ae17a716715747fad920dbad2b99dd8 2132 node-moment_2.29.1+ds-2.dsc
+ e86a629aa52a8baf37459293d6c1ea1477171022ed935dc8d64052ac67280ea5 556080 node-moment_2.29.1+ds.orig.tar.xz
+ 19eb83157f93505b660e36801015d63fa18639c5888d5ecf33e56cf8ff5f2a0a 3704 node-moment_2.29.1+ds-2.debian.tar.xz
+Homepage: https://github.com/moment/moment
+Package-List: 
+ libjs-moment deb javascript optional arch=all
+ node-moment deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-moment
+Priority: optional
+Section: javascript

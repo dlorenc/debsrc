@@ -1,0 +1,27 @@
+Package: rust-miow
+Binary: librust-miow-dev
+Version: 0.3.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-socket2-0.3+default-dev (>= 0.3.16-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+fileapi-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+handleapi-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+ioapiset-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+minwindef-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+namedpipeapi-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+ntdef-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+std-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+synchapi-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+winerror-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+winsock2-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+ws2def-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+ws2ipdef-dev (>= 0.3.3-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ae9b25697f76ac2148e6e48119aca297 2980 rust-miow_0.3.6-1.dsc
+ 65873722a6b0aa19661ac7198d059e9c 24533 rust-miow_0.3.6.orig.tar.gz
+ cfc2cf22b5e43b1a46907e8ee6258171 2864 rust-miow_0.3.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/miow
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/miow]
+Checksums-Sha256:
+ f913d9c68b3aa51730741bbe708a29ed7f7c81b44bda610fb79aa7a6aa853242 2980 rust-miow_0.3.6-1.dsc
+ 5a33c1b55807fbed163481b5ba66db4b2fa6cde694a5027be10fb724206c5897 24533 rust-miow_0.3.6.orig.tar.gz
+ 5c24fa306162c7564cbad57bf2458a3f4a84ccd796e125d3c9b9d263c7489505 2864 rust-miow_0.3.6-1.debian.tar.xz
+Homepage: https://github.com/yoshuawuyts/miow
+Package-List: 
+ librust-miow-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-rand-0.4+default-dev
+Directory: pool/main/r/rust-miow
+Priority: extra
+Section: misc

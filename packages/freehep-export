@@ -1,0 +1,26 @@
+Package: freehep-export
+Binary: libfreehep-export-java
+Version: 2.1.1-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>, Philipp Huebner <debalance@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper
+Build-Depends-Indep: libfreehep-swing-java, libjas-plotter-java, libmaven-exec-plugin-java, libsurefire-java (>= 2.4.3)
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 78552845ece349b3a5e4e52f85c9cfe2 1595 freehep-export_2.1.1-4.dsc
+ 421aee38ca7f1e9c4c202ccb3cd192af 16101 freehep-export_2.1.1.orig.tar.gz
+ 2c9f0d9e64396bd59045adacb0e14ed5 3248 freehep-export_2.1.1-4.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-java/freehep/freehep-export.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/freehep/freehep-export.git
+Checksums-Sha256:
+ 9adc2fbafc0ef9b29064d7c8329f406804ec81171608b168ca5174bbc2eb44e6 1595 freehep-export_2.1.1-4.dsc
+ 0598afe7b55c357142e44edd4f832d900ebe8a2ff74a97290a31e10b6af049ff 16101 freehep-export_2.1.1.orig.tar.gz
+ 4204336476a6875f7dcc50e13b7448bcd582e59465dd55f71204491fca3f6a78 3248 freehep-export_2.1.1-4.debian.tar.xz
+Homepage: http://java.freehep.org/
+Package-List: 
+ libfreehep-export-java deb java optional arch=all
+Directory: pool/main/f/freehep-export
+Priority: source
+Section: java

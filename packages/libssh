@@ -1,0 +1,34 @@
+Package: libssh
+Binary: libssh-4, libssh-gcrypt-4, libssh-dev, libssh-gcrypt-dev, libssh-doc
+Version: 0.9.5-1
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, Martin Pitt <mpitt@debian.org>
+Build-Depends: cmake (>= 2.8.5), debhelper-compat (= 12), libcmocka-dev, libgcrypt-dev, libkrb5-dev | heimdal-dev, libssl-dev, libz-dev, openssh-client, openssh-server, pkg-config, python3:any
+Build-Depends-Indep: doxygen <!nodoc>, graphviz <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b1f4797387d4806107c13a8009c703d0 2364 libssh_0.9.5-1.dsc
+ 6211e47ba4dfd7f7e9f8a17a601245f4 502876 libssh_0.9.5.orig.tar.xz
+ 49564e894ab537b4fdd323dc945ff473 833 libssh_0.9.5.orig.tar.xz.asc
+ 6752de4a4014d3bf7849998ff98553d1 27056 libssh_0.9.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libssh
+Vcs-Git: https://salsa.debian.org/debian/libssh.git
+Checksums-Sha256:
+ 325cc551e407bc0cc55c884a4116b5c2e819ed865647f482dbb246fa0d8fe992 2364 libssh_0.9.5-1.dsc
+ acffef2da98e761fc1fd9c4fddde0f3af60ab44c4f5af05cd1b2d60a3fa08718 502876 libssh_0.9.5.orig.tar.xz
+ e8b6141b7370ea08f83b5d78233e4ab0789a7dab8a11561accf36fb18544fae7 833 libssh_0.9.5.orig.tar.xz.asc
+ 18edae0b55baa68c126bdb82958c86160e5f8d29361f154dc53637377792d404 27056 libssh_0.9.5-1.debian.tar.xz
+Homepage: https://www.libssh.org/
+Package-List: 
+ libssh-4 deb libs optional arch=any
+ libssh-dev deb libdevel optional arch=any
+ libssh-doc deb doc optional arch=all profile=!nodoc
+ libssh-gcrypt-4 deb libs optional arch=any
+ libssh-gcrypt-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, libglib2.0-dev, openssh-client, valgrind
+Directory: pool/main/libs/libssh
+Priority: source
+Section: libs

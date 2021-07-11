@@ -1,0 +1,31 @@
+Package: geoclue-2.0
+Binary: geoclue-2.0, geoclue-2-demo, geoclue-doc, libgeoclue-2-0, libgeoclue-2-dev, gir1.2-geoclue-2.0, libgeoclue-doc
+Version: 2.5.7-3
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper-compat (= 12), gobject-introspection (>= 0.9.6), intltool (>= 0.40.0), libavahi-client-dev (>= 0.6.10), libavahi-glib-dev (>= 0.6.10), libgirepository1.0-dev (>= 0.9.6), libglib2.0-dev (>= 2.44.0), libjson-glib-dev (>= 0.14), libmm-glib-dev (>= 1.6) [linux-any], libnotify-dev, libsoup2.4-dev (>= 2.42), meson (>= 0.47.2), pkg-config, valac
+Build-Depends-Indep: gtk-doc-tools <!nodoc>, libglib2.0-doc <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 692e29f9c8edf0c9d10a6082831935f6 2386 geoclue-2.0_2.5.7-3.dsc
+ f6e731a21d458168eda613816797eb73 85764 geoclue-2.0_2.5.7.orig.tar.bz2
+ f12977f0bd656dd8c7edfa230c6e0439 16404 geoclue-2.0_2.5.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freedesktop-team/geoclue-2.0
+Vcs-Git: https://salsa.debian.org/freedesktop-team/geoclue-2.0.git
+Checksums-Sha256:
+ ee061e3abfa451390aeeba6bcd93cc2d368d5810ae93a83cb3737c989f7d525f 2386 geoclue-2.0_2.5.7-3.dsc
+ 6cc7dbe4177b4e7f3532f7fe42262049789a3cd6c55afe60a3564d7394119c27 85764 geoclue-2.0_2.5.7.orig.tar.bz2
+ 876dcbaada71e93c21bfdf60e37bb29c8f1167b263aebfc131006a502f43bd92 16404 geoclue-2.0_2.5.7-3.debian.tar.xz
+Homepage: https://gitlab.freedesktop.org/geoclue/geoclue/wikis/home
+Package-List: 
+ geoclue-2-demo deb utils optional arch=any
+ geoclue-2.0 deb utils optional arch=any
+ geoclue-doc deb doc optional arch=all profile=!nodoc
+ gir1.2-geoclue-2.0 deb introspection optional arch=any
+ libgeoclue-2-0 deb libs optional arch=any
+ libgeoclue-2-dev deb libdevel optional arch=any
+ libgeoclue-doc deb doc optional arch=all profile=!nodoc
+Directory: pool/main/g/geoclue-2.0
+Priority: optional
+Section: misc

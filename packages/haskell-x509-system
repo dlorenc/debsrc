@@ -1,0 +1,28 @@
+Package: haskell-x509-system
+Binary: libghc-x509-system-dev, libghc-x509-system-prof, libghc-x509-system-doc
+Version: 1.6.6-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-pem-dev (<< 0.3), libghc-pem-dev (>= 0.1), libghc-pem-prof, libghc-x509-dev (>= 1.6), libghc-x509-prof, libghc-x509-store-dev (>= 1.6.2), libghc-x509-store-prof
+Build-Depends-Indep: ghc-doc, libghc-pem-doc, libghc-x509-doc, libghc-x509-store-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6b1d73848f5329a99cc327ec43d4712b 2584 haskell-x509-system_1.6.6-5.dsc
+ 739f3dd5b20e15d15b16d600bff3ac49 3419 haskell-x509-system_1.6.6.orig.tar.gz
+ e81782cf79c171e43b0d7df65f989ad7 3292 haskell-x509-system_1.6.6-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-x509-system
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-x509-system]
+Checksums-Sha256:
+ 0db237e8181892c61da315650a4c942b8e810f25b30eeba3bcf4556071130d0c 2584 haskell-x509-system_1.6.6-5.dsc
+ 40dcdaae3ec67f38c08d96d4365b901eb8ac0c590bd7972eb429d37d58aa4419 3419 haskell-x509-system_1.6.6.orig.tar.gz
+ 6a45efc6ab5a89d087835f4f78f9b944c9a7f970e4ae7d6389c9b47a6cf4be5f 3292 haskell-x509-system_1.6.6-5.debian.tar.xz
+Homepage: https://github.com/vincenthz/hs-certificate
+Package-List: 
+ libghc-x509-system-dev deb haskell optional arch=any
+ libghc-x509-system-doc deb doc optional arch=all
+ libghc-x509-system-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-x509-system
+Priority: optional
+Section: misc

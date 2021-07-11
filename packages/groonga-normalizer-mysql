@@ -1,0 +1,27 @@
+Package: groonga-normalizer-mysql
+Binary: groonga-normalizer-mysql
+Version: 1.1.4-4
+Maintainer: Groonga Project <packages@groonga.org>
+Uploaders: Kentaro Hayashi <kenhys@xdump.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, libgroonga-dev (>= 8.0.4)
+Architecture: linux-any kfreebsd-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b20dcddd048a17edf28c512ebbf26fec 2207 groonga-normalizer-mysql_1.1.4-4.dsc
+ 3c88a879c2f861a40224077cdeefe924 816928 groonga-normalizer-mysql_1.1.4.orig.tar.gz
+ 559b4b1467ee709f24e00813bcf6cade 3996 groonga-normalizer-mysql_1.1.4-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/groonga-normalizer-mysql/
+Vcs-Git: https://salsa.debian.org/debian/groonga-normalizer-mysql.git
+Checksums-Sha256:
+ 7f1af421e2714ca649bcf203c493bcb854753de6f80013b109cb35fd80ffb865 2207 groonga-normalizer-mysql_1.1.4-4.dsc
+ 4037ea4c92e551739de07a83c3ae70baa2f51469a94a11f4a5ee9444f387b028 816928 groonga-normalizer-mysql_1.1.4.orig.tar.gz
+ 9aa18bb9f26395d0579973e59903135d3982989dc2e07ecf908ac5a9dc67ffe0 3996 groonga-normalizer-mysql_1.1.4-4.debian.tar.xz
+Homepage: https://github.com/groonga/groonga-normalizer-mysql
+Package-List: 
+ groonga-normalizer-mysql deb libs optional arch=linux-any,kfreebsd-any
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc, groonga-bin, jq
+Directory: pool/main/g/groonga-normalizer-mysql
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-smallcheck
+Binary: libghc-smallcheck-dev, libghc-smallcheck-prof, libghc-smallcheck-doc
+Version: 1.1.7-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-logict-dev, libghc-logict-prof
+Build-Depends-Indep: ghc-doc, libghc-logict-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8e49f63ebc9b4d996942cd5ae3e41dd4 2404 haskell-smallcheck_1.1.7-1.dsc
+ b9f846a16e8df74f013a2872d9f1262b 17039 haskell-smallcheck_1.1.7.orig.tar.gz
+ 7097d08a0c52ad637f6987f55641f23a 3140 haskell-smallcheck_1.1.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-smallcheck
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-smallcheck]
+Checksums-Sha256:
+ 2193d21822d522cabb685c108b457fbb58ede0b863bbaf511537f3db8a63d2fd 2404 haskell-smallcheck_1.1.7-1.dsc
+ d05f9e2c3ec26da258f79cf6fdad51e972ec3049aabc54973b65075bc3e39635 17039 haskell-smallcheck_1.1.7.orig.tar.gz
+ 98589ede764629bb1b2fb6d6f1c2052330079da5099577df32584506c968bfd5 3140 haskell-smallcheck_1.1.7-1.debian.tar.xz
+Homepage: https://github.com/Bodigrim/smallcheck
+Package-List: 
+ libghc-smallcheck-dev deb haskell optional arch=any
+ libghc-smallcheck-doc deb doc optional arch=all
+ libghc-smallcheck-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-smallcheck
+Priority: source
+Section: haskell

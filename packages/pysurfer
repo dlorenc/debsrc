@@ -1,0 +1,27 @@
+Package: pysurfer
+Binary: python3-surfer
+Version: 0.11.0-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael Hanke <mih@debian.org>, Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-numpy, python3-setuptools, python3-nibabel, python3-matplotlib, python3-pytest, ipython3, help2man, mayavi2, xvfb, xauth
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0b555bdd5bc642fd9f877013b5df6945 2233 pysurfer_0.11.0-1.dsc
+ 510247c627c95e364c601317d7551139 12357718 pysurfer_0.11.0.orig.tar.gz
+ 460a029110267e598e574c1cf21a75df 4448 pysurfer_0.11.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pysurfer
+Vcs-Git: https://salsa.debian.org/med-team/pysurfer.git
+Checksums-Sha256:
+ c56954da8e0d011c8b979b971da936580f6975efa45407dfa2c5c1cec2553e5b 2233 pysurfer_0.11.0-1.dsc
+ 0b7674cd430dfcb5b6acf383614ae4342ab6358145de46e2d37e75dec1379808 12357718 pysurfer_0.11.0.orig.tar.gz
+ b8e1611bcfef17273ef5de8299d7a46b934ac6f89728c6bc2f316480206edd74 4448 pysurfer_0.11.0-1.debian.tar.xz
+Homepage: https://pysurfer.github.com
+Package-List: 
+ python3-surfer deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, xauth, xvfb
+Directory: pool/main/p/pysurfer
+Priority: source
+Section: python

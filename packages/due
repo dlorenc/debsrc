@@ -1,0 +1,25 @@
+Package: due
+Binary: due
+Version: 2.3.0-2
+Maintainer: Alex Doyle <adoyle@nvidia.com>
+Uploaders: Geert Stappers <stappers@debian.org>
+Build-Depends: debhelper (>= 10), git
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 41cfe82bd4c8ce7e3884be4d1bc0692e 1857 due_2.3.0-2.dsc
+ 3fd97c315241a2be4013b42652a35f64 111605 due_2.3.0.orig.tar.gz
+ 853274147da1531834ebc74237775d98 3348 due_2.3.0-2.debian.tar.xz
+Vcs-Browser: https://github.com/CumulusNetworks/DUE/tree/debian/master
+Vcs-Git: https://github.com/CumulusNetworks/DUE.git -b debian/master
+Checksums-Sha256:
+ 0cddcc98b92bf73475ede657fd42f12b1a1eece924b664d250e7b14e6f69b4bd 1857 due_2.3.0-2.dsc
+ 40685376696d59ddc81cbc5d09837fbdea3e0d60f05ac82e42e5182d0f97b344 111605 due_2.3.0.orig.tar.gz
+ 672fb757cf35a243e5645f0ed0648c600f269f1f86e77b001c87adaa0744a1ec 3348 due_2.3.0-2.debian.tar.xz
+Homepage: https://github.com/CumulusNetworks/DUE
+Package-List: 
+ due deb devel optional arch=all
+Directory: pool/main/d/due
+Priority: extra
+Section: misc

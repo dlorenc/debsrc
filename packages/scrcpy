@@ -1,0 +1,29 @@
+Package: scrcpy
+Binary: scrcpy, scrcpy-server
+Version: 1.17-1
+Maintainer: Yangfl <mmyangfl@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: android-sdk, android-sdk-platform-23, default-jdk, unzip, zip
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ba9b0af8441968790a780c875b6ab5f3 2087 scrcpy_1.17-1.dsc
+ 6ed058f41b918abe44f0a46b7d187a3f 266637 scrcpy_1.17.orig.tar.gz
+ 103ad57ea42e5d0557df1afa6c333c0b 13096 scrcpy_1.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/yangfl-guest/scrcpy
+Vcs-Git: https://salsa.debian.org/yangfl-guest/scrcpy.git
+Checksums-Sha256:
+ a1152294e3aa43533845f233a1768436b9f7c21f5660006a02346c143725c1c8 2087 scrcpy_1.17-1.dsc
+ c16f1fe1789290d0c7dd3a2778f33d6dc6347ffe3e78e64127b85eda52420d7f 266637 scrcpy_1.17.orig.tar.gz
+ 4c02359d68e043eadb7048108d1a2bca2cb82a60564d6ab29eb7d4d1821ec0a5 13096 scrcpy_1.17-1.debian.tar.xz
+Homepage: https://github.com/Genymobile/scrcpy
+Build-Depends-Arch: meson, libavcodec-dev, libavformat-dev, libavutil-dev, libsdl2-dev
+Package-List: 
+ scrcpy deb net optional arch=any
+ scrcpy-server deb net optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/s/scrcpy
+Priority: extra
+Section: misc

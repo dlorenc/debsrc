@@ -1,0 +1,24 @@
+Package: matchbox-window-manager
+Binary: matchbox-window-manager, matchbox-window-manager-udeb
+Version: 1.2.2+git20200512-1
+Maintainer: Moray Allan <moray@debian.org>
+Uploaders: Thibaut GIRKA <thib@sitedethib.com>
+Build-Depends: debhelper (>= 13~), pkg-config, libstartup-notification0-dev, libmatchbox-dev (>= 1.9-4), libx11-dev, libxext-dev, libxt-dev, libxft-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 650f99c4a2368b7aab1975215f9870d7 2236 matchbox-window-manager_1.2.2+git20200512-1.dsc
+ 7da2b45dba05c1ca1bde246d1e69bb11 125852 matchbox-window-manager_1.2.2+git20200512.orig.tar.xz
+ f64f4a7e7aaf0d029b06ad286e7e69b1 6836 matchbox-window-manager_1.2.2+git20200512-1.debian.tar.xz
+Checksums-Sha256:
+ b3346e6fb4e274be4ff85d72be7f3b1743c9c46c311afb7bc6d6cc28ec5ea433 2236 matchbox-window-manager_1.2.2+git20200512-1.dsc
+ a0d869dd182b8e31cd67bd4425db48f66ada4f4163e57b9b796304f5a022abcd 125852 matchbox-window-manager_1.2.2+git20200512.orig.tar.xz
+ c6062e14d1ac8f33f22df5d916909e972cc17db50ca2b84158fb006324ef9cdb 6836 matchbox-window-manager_1.2.2+git20200512-1.debian.tar.xz
+Homepage: https://www.yoctoproject.org/software-item/matchbox/
+Package-List: 
+ matchbox-window-manager deb embedded optional arch=any
+ matchbox-window-manager-udeb udeb debian-installer optional arch=any
+Directory: pool/main/m/matchbox-window-manager
+Priority: source
+Section: embedded

@@ -1,0 +1,26 @@
+Package: pg-ldap-sync
+Binary: ruby-pg-ldap-sync
+Version: 0.2.0-2
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Dominik George <natureshadow@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), kwalify (>= 0.7), rake, ruby, ruby-net-ldap (>= 0.2), ruby-pg (>= 0.4)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c9bfba973e68cfcf955260772392e73f 2082 pg-ldap-sync_0.2.0-2.dsc
+ c2f492c8a4910695f5b64c318e9014de 11525 pg-ldap-sync_0.2.0.orig.tar.gz
+ e7ba1081279930d6af78678b4d18f9ac 2376 pg-ldap-sync_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pg-ldap-sync.git
+Vcs-Git: https://salsa.debian.org/postgresql/pg-ldap-sync
+Checksums-Sha256:
+ ed692e92bff82ff089e02013817708a85f9693431e96be6b09bca79216384c2f 2082 pg-ldap-sync_0.2.0-2.dsc
+ 715d9eecf6db19bc92bceec3291cd690462fe97bc2352c6e7265a405bb8d506d 11525 pg-ldap-sync_0.2.0.orig.tar.gz
+ 47f08db00535804581b8dcc2abddb67cee88ef82d852de4fd47b07e74ab52195 2376 pg-ldap-sync_0.2.0-2.debian.tar.xz
+Homepage: http://github.com/larskanis/pg-ldap-sync
+Package-List: 
+ ruby-pg-ldap-sync deb database optional arch=all
+Ruby-Versions: all
+Directory: pool/main/p/pg-ldap-sync
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-cpp-synmap
+Binary: librust-cpp-synmap-dev
+Version: 0.3.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cpp-syn-0.12+default-dev <!nocheck>, librust-cpp-syn-0.12+fold-dev <!nocheck>, librust-cpp-syn-0.12+full-dev <!nocheck>, librust-cpp-synom-0.12+default-dev <!nocheck>, librust-memchr-2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e7140a5a3bbc1b0f2c0a689e75c88a5f 2354 rust-cpp-synmap_0.3.0-1.dsc
+ dcfd687b57c99cfcc81979b9b957c9ca 4708 rust-cpp-synmap_0.3.0.orig.tar.gz
+ 78b5b4983bebf25b8acb02a6709ff370 2708 rust-cpp-synmap_0.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cpp-synmap
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cpp-synmap]
+Checksums-Sha256:
+ a8dad13efa21e536cb87709b46ef860f305967c71ec4a4e6357b48caab1b527b 2354 rust-cpp-synmap_0.3.0-1.dsc
+ 897e4f9cdbe2874edd3ffe53718ee5d8b89e2a970057b2c93d3214104f2e90b6 4708 rust-cpp-synmap_0.3.0.orig.tar.gz
+ 54d124e6dc52fba13f5089bd1e47fb622f310314d7d45c0e514abbc7eb8ed0d6 2708 rust-cpp-synmap_0.3.0-1.debian.tar.xz
+Package-List: 
+ librust-cpp-synmap-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cpp-synmap
+Priority: extra
+Section: misc
