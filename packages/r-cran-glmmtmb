@@ -1,0 +1,27 @@
+Package: r-cran-glmmtmb
+Binary: r-cran-glmmtmb
+Version: 1.0.2.1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-tmb, r-cran-lme4, r-cran-matrix, r-cran-nlme, r-cran-rcppeigen
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9023184a5d05a453823f9eb727e35504 2181 r-cran-glmmtmb_1.0.2.1-1.dsc
+ 4dd4114f5ce83fc6e1d386550928cffc 2964506 r-cran-glmmtmb_1.0.2.1.orig.tar.gz
+ 50610a583a5d790ff03692e7b56c3993 13164 r-cran-glmmtmb_1.0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-glmmtmb
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-glmmtmb.git
+Checksums-Sha256:
+ 9963b09b9869bf55effe853bc4610b18d21fcd33466399ed028311991f855f05 2181 r-cran-glmmtmb_1.0.2.1-1.dsc
+ 4b0923027bbe2a304282273fa626044063c195f4eee8d2fea88d85df598765a8 2964506 r-cran-glmmtmb_1.0.2.1.orig.tar.gz
+ cfe3975766fc8d4f24d47fab1c1b2f08adc0b4d2b3e16d91d4ed02dcce448c2b 13164 r-cran-glmmtmb_1.0.2.1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=glmmTMB
+Package-List: 
+ r-cran-glmmtmb deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-pscl, r-cran-testthat
+Directory: pool/main/r/r-cran-glmmtmb
+Priority: extra
+Section: misc

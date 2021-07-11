@@ -1,0 +1,27 @@
+Package: golang-github-deanthompson-ginpprof
+Binary: golang-github-deanthompson-ginpprof-dev
+Version: 0.0~git20201112.007b1e5-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-gin-gonic-gin-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4e625e6d6edd62c0d2fbc70ed35280ef 2641 golang-github-deanthompson-ginpprof_0.0~git20201112.007b1e5-1.dsc
+ ed3388178f903fd192f4b7c3253d373d 3116 golang-github-deanthompson-ginpprof_0.0~git20201112.007b1e5.orig.tar.xz
+ 7a5add234b09881af2b1defdca69e117 2372 golang-github-deanthompson-ginpprof_0.0~git20201112.007b1e5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-deanthompson-ginpprof
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-deanthompson-ginpprof.git
+Checksums-Sha256:
+ 672ecc62de14295fdf153b3c5b90dfab21825bc706fe88630eaf6bd4570177bf 2641 golang-github-deanthompson-ginpprof_0.0~git20201112.007b1e5-1.dsc
+ 44fb882dfeb2fc10622933b4672732a11277a40abfc5ba4dbf42dd6486f0a25e 3116 golang-github-deanthompson-ginpprof_0.0~git20201112.007b1e5.orig.tar.xz
+ 102a669262fc9336b8b063581ed6e6ddbdfb9e96676077887512972a443f54cb 2372 golang-github-deanthompson-ginpprof_0.0~git20201112.007b1e5-1.debian.tar.xz
+Homepage: https://github.com/DeanThompson/ginpprof
+Go-Import-Path: github.com/DeanThompson/ginpprof
+Package-List: 
+ golang-github-deanthompson-ginpprof-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-deanthompson-ginpprof
+Priority: extra
+Section: golang

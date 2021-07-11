@@ -1,0 +1,26 @@
+Package: rust-rustfix
+Binary: librust-rustfix-dev
+Version: 0.5.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.1-~~) <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1345b0ae9d8b4dd94274d49749078d6d 1898 rust-rustfix_0.5.1-1.dsc
+ efaf9e1c4d81ae8a88d9ef19b44f42bc 17768 rust-rustfix_0.5.1.orig.tar.gz
+ df3cec077f4948a0f44fccf785d753a4 2780 rust-rustfix_0.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustfix
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustfix]
+Checksums-Sha256:
+ 3d31ff88fab794756ecb04b39feb4fb4ee66c4e034c274d95bd59eb083bb377a 1898 rust-rustfix_0.5.1-1.dsc
+ f2c50b74badcddeb8f7652fa8323ce440b95286f8e4b64ebfd871c609672704e 17768 rust-rustfix_0.5.1.orig.tar.gz
+ 202be71a69c9b5760328124ef80b39f1d3f883e66bbdbc0e5ba66e7fa42833c3 2780 rust-rustfix_0.5.1-1.debian.tar.xz
+Package-List: 
+ librust-rustfix-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-difference-2+default-dev, librust-duct-0.9+default-dev, librust-env-logger-0.5+default-dev, librust-log-0.4+default-dev, librust-proptest-0.7+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-rustfix
+Priority: extra
+Section: misc

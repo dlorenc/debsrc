@@ -1,0 +1,26 @@
+Package: node-tweetnacl
+Binary: node-tweetnacl
+Version: 1.0.3+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yashashree Kolhe <yashashreekolhe@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs, node-tape <!nocheck>, uglifyjs, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f1a67d7222ec6ab64aeb12eeff474cc9 2137 node-tweetnacl_1.0.3+dfsg-1.dsc
+ 043f580d98d21e50ec57f8bd139383bb 2223148 node-tweetnacl_1.0.3+dfsg.orig.tar.xz
+ 7956699cfccdc6121db7c4f0a7756f67 5064 node-tweetnacl_1.0.3+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-tweetnacl
+Vcs-Git: https://salsa.debian.org/js-team/node-tweetnacl.git
+Checksums-Sha256:
+ 343f792aff84c98a949ab0cb676dfc33a4ab2ae4777514e2502f98cba394ff01 2137 node-tweetnacl_1.0.3+dfsg-1.dsc
+ 51afb89b86674d13d6f6460d760553ebb00f98025ad90974c6b0d6579b8fbc68 2223148 node-tweetnacl_1.0.3+dfsg.orig.tar.xz
+ ccf918950e7fe1343d827ca80b41e67abc87b1053b3d146c02a5d5e6898e5338 5064 node-tweetnacl_1.0.3+dfsg-1.debian.tar.xz
+Homepage: https://tweetnacl.js.org
+Package-List: 
+ node-tweetnacl deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-tweetnacl
+Priority: optional
+Section: javascript

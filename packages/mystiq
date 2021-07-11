@@ -1,0 +1,27 @@
+Package: mystiq
+Binary: mystiq
+Version: 20.03.23-2
+Maintainer: Pablo Mestre Drake <pmdcuba@gmail.com>
+Uploaders: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Build-Depends: debhelper-compat (= 13), libqt5opengl5-dev (>= 5.10.0), qml-module-qtmultimedia (>= 5.10.0), qml-module-qtquick-dialogs (>= 5.10.0), qml-module-qtquick2 (>= 5.10.0), qtdeclarative5-dev (>= 5.10.0), qtmultimedia5-dev (>= 5.10.0), libnotify-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f64a9e2f6afce0e1becdfa1c84144067 2174 mystiq_20.03.23-2.dsc
+ d6e3babb0be21ae7592f4c313cc6edac 896299 mystiq_20.03.23.orig.tar.gz
+ 783509920ba41c13e3393fa433acbc97 3264 mystiq_20.03.23-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/mystiq
+Vcs-Git: https://salsa.debian.org/debian/mystiq.git
+Checksums-Sha256:
+ c51e3f2623189ce25a891b1bc25c986f3c69592ce79419d918d0f840b73f3f61 2174 mystiq_20.03.23-2.dsc
+ cfb84faebf68876733624e4500d4b6c654bc01cb75fd6eddd9efa8337816d22e 896299 mystiq_20.03.23.orig.tar.gz
+ 86d2db41e3643038a4c6d8f21a1eb14d7714b46e4cde936ccd1f0acfc7f588cd 3264 mystiq_20.03.23-2.debian.tar.xz
+Homepage: https://mystiqapp.com/
+Package-List: 
+ mystiq deb video optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: psmisc, xauth, xvfb
+Directory: pool/main/m/mystiq
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: ruby-public-suffix
+Binary: ruby-public-suffix
+Version: 3.0.3+ds-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper (>= 11~), gem2deb, rake, ruby-minitest-reporters, ruby-mocha, locales, publicsuffix
+Build-Conflicts: locales-all
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 3ce1cd8c58ffd5b5ef9320039a3d748d 2217 ruby-public-suffix_3.0.3+ds-1.dsc
+ 0bfb4f7dcd203662e7626d901f50bac0 22660 ruby-public-suffix_3.0.3+ds.orig.tar.xz
+ 7c19438f517d3c4e67fdd28409b589c7 2888 ruby-public-suffix_3.0.3+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-public-suffix
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-public-suffix.git
+Checksums-Sha256:
+ 94b7876509e930f920c7b4569a97db898651423944629de6967d403283e1eef9 2217 ruby-public-suffix_3.0.3+ds-1.dsc
+ 42a22de7ff88a3cf1f4220131376c6a0ebec1e34becc6f8652fb29109189b731 22660 ruby-public-suffix_3.0.3+ds.orig.tar.xz
+ 8fa28c3d367fd58eafef15af1b44bee233d7f1d99168e1b85a4521d0c30e6932 2888 ruby-public-suffix_3.0.3+ds-1.debian.tar.xz
+Homepage: https://simonecarletti.com/code/publicsuffix-ruby
+Package-List: 
+ ruby-public-suffix deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-public-suffix
+Priority: extra
+Section: misc

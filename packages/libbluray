@@ -1,0 +1,30 @@
+Package: libbluray
+Binary: libbluray-dev, libbluray2, libbluray-bdj, libbluray-bin, libbluray-doc
+Version: 1:1.2.1-4
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Rico Tzschichholz <ricotz@ubuntu.com>, Reinhard Tartler <siretart@tauware.de>, Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, default-jdk, libfreetype-dev, libfontconfig-dev, libudfread-dev (>= 1.1.1), libxml2-dev
+Build-Depends-Indep: ant, doxygen, graphviz, javahelper, libasm-java
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2ae67984d287ecb91dbb94fc10f5ddbe 2447 libbluray_1.2.1-4.dsc
+ 7191fea60f6b5b328dc02e57b5ef0bf2 751063 libbluray_1.2.1.orig.tar.bz2
+ eceef352f7d6962660c92d0c72294aae 18000 libbluray_1.2.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libbluray
+Vcs-Git: https://salsa.debian.org/multimedia-team/libbluray.git
+Checksums-Sha256:
+ 29d9550bc64c14f80634a424ff8e3191edfe68e9bcb6c4c9a4832af630691a09 2447 libbluray_1.2.1-4.dsc
+ 5223e83f7988ea2cc860b5cadcaf9cf971087b0c80ca7b60cc17c8300cae36ec 751063 libbluray_1.2.1.orig.tar.bz2
+ 29f887b3fabaec48cbef03f476104482b2dc29612fe2ba987659e41fdea1944b 18000 libbluray_1.2.1-4.debian.tar.xz
+Homepage: http://www.videolan.org/developers/libbluray.html
+Package-List: 
+ libbluray-bdj deb libs optional arch=all
+ libbluray-bin deb utils optional arch=any
+ libbluray-dev deb libdevel optional arch=any
+ libbluray-doc deb doc optional arch=all
+ libbluray2 deb libs optional arch=any
+Directory: pool/main/libb/libbluray
+Priority: source
+Section: libs

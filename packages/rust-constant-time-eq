@@ -1,0 +1,26 @@
+Package: rust-constant-time-eq
+Binary: librust-constant-time-eq-dev
+Version: 0.1.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c2166490482e4359c1e6c6b0ce9a0687 2201 rust-constant-time-eq_0.1.5-1.dsc
+ ec9751a4c0d35e7313e52ddb7147376b 4936 rust-constant-time-eq_0.1.5.orig.tar.gz
+ fd68af4107cfe7d7b317e34b00ff48b4 1964 rust-constant-time-eq_0.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/constant-time-eq
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/constant-time-eq]
+Checksums-Sha256:
+ 008b5c7d969c05d4a36aee0f5ccf49740335b66d0c5d8aafa751219406161471 2201 rust-constant-time-eq_0.1.5-1.dsc
+ 245097e9a4535ee1e3e3931fcfcd55a796a44c643e8596ff6566d68f09b87bbc 4936 rust-constant-time-eq_0.1.5.orig.tar.gz
+ 9bc3c0affb0442237dd79701a671c64fa67952f15ba89d43c044f4f2b4800ea2 1964 rust-constant-time-eq_0.1.5-1.debian.tar.xz
+Package-List: 
+ librust-constant-time-eq-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-constant-time-eq
+Priority: extra
+Section: misc

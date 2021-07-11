@@ -1,0 +1,25 @@
+Package: hw-detect
+Binary: hw-detect, ethdetect, disk-detect, driver-injection-disk-detect, archdetect
+Version: 1.144
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org>, Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.9.0), po-debconf (>= 0.5.0), libdebian-installer4-dev (>= 0.76)
+Architecture: any all
+Format: 3.0 (native)
+Files:
+ 7a3415ad1348657b3edccafda552e5be 2029 hw-detect_1.144.dsc
+ 1a81783adf74ddf202e7c4a8e83aabe7 194444 hw-detect_1.144.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/hw-detect
+Vcs-Git: https://salsa.debian.org/installer-team/hw-detect.git
+Checksums-Sha256:
+ 4a7be287abad7e4a93398073641ae4e7b1d71be77194dcecb8f6c3a473be0125 2029 hw-detect_1.144.dsc
+ e74c7018725d758f71f85e61da8e0eee52d6c6d6734fb0a3bea914036f3c2b2e 194444 hw-detect_1.144.tar.xz
+Package-List: 
+ archdetect udeb debian-installer standard arch=any
+ disk-detect udeb debian-installer optional arch=any
+ driver-injection-disk-detect udeb debian-installer optional arch=all
+ ethdetect udeb debian-installer optional arch=all
+ hw-detect udeb debian-installer standard arch=any
+Directory: pool/main/h/hw-detect
+Priority: source
+Section: debian-installer

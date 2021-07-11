@@ -1,0 +1,28 @@
+Package: haskell-binary-parsers
+Binary: libghc-binary-parsers-dev, libghc-binary-parsers-prof, libghc-binary-parsers-doc
+Version: 0.2.4.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-attoparsec-dev, libghc-bytestring-lexing-dev (<< 0.6), libghc-bytestring-lexing-dev (>= 0.5), libghc-bytestring-lexing-prof, libghc-quickcheck-instances-dev (>= 0.3), libghc-quickcheck-unicode-dev, libghc-quickcheck2-dev (>= 2.7), libghc-scientific-dev (>> 0.3), libghc-scientific-prof, libghc-semigroups-dev, libghc-tasty-dev (>= 0.11), libghc-tasty-hunit-dev (>= 0.8), libghc-tasty-quickcheck-dev (>= 0.8), libghc-unordered-containers-dev, libghc-vector-dev
+Build-Depends-Indep: ghc-doc, libghc-bytestring-lexing-doc, libghc-scientific-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0edf91908baddd85edc8757cebdf302b 2954 haskell-binary-parsers_0.2.4.0-3.dsc
+ 9f6a07f26f39dba565834973ab4241b9 273880 haskell-binary-parsers_0.2.4.0.orig.tar.gz
+ be0931736a8a943a6bd61a6d00e2fc50 3136 haskell-binary-parsers_0.2.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-binary-parsers
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-binary-parsers]
+Checksums-Sha256:
+ 8bc72dc2d967a9c241de68b10b7d55f4ad954d33d600d62f7903debe5215a10f 2954 haskell-binary-parsers_0.2.4.0-3.dsc
+ d193d3d3dca259e7299fb2c44cdd95b0a3e1bf54363ce4a9f6cda63b654bb9ca 273880 haskell-binary-parsers_0.2.4.0.orig.tar.gz
+ ecbd8f623b44885f010904ab51a81cc7be4da05778658c7f940e797ffccacce2 3136 haskell-binary-parsers_0.2.4.0-3.debian.tar.xz
+Homepage: https://github.com/winterland1989/binary-parsers
+Package-List: 
+ libghc-binary-parsers-dev deb haskell optional arch=any
+ libghc-binary-parsers-doc deb doc optional arch=all
+ libghc-binary-parsers-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-binary-parsers
+Priority: optional
+Section: misc

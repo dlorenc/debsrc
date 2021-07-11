@@ -1,0 +1,27 @@
+Package: rust-platform-info
+Binary: librust-platform-info-dev
+Version: 0.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+libloaderapi-dev <!nocheck>, librust-winapi-0.3+processthreadsapi-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+winver-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8821960678ee15e6f51c33c0715c94c1 2539 rust-platform-info_0.1.0-1.dsc
+ 715dd62f7282d2f94e10b2be929c02cf 11170 rust-platform-info_0.1.0.orig.tar.gz
+ de028eaaad7ddfe313a1e5f131158fae 2584 rust-platform-info_0.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/platform-info
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/platform-info]
+Checksums-Sha256:
+ 5f982f1eed7654a779b7d50c49d1d38afe41c307439d84602af07fd8b626ceae 2539 rust-platform-info_0.1.0-1.dsc
+ 16ea9cd21d89bffb387b6c7363d23bead0807be9de676c671b474dd29e7436d3 11170 rust-platform-info_0.1.0.orig.tar.gz
+ 3e86d49725870c8c083cd832be8a28be332e3e6fc6227019c578e5b7c784f260 2584 rust-platform-info_0.1.0-1.debian.tar.xz
+Homepage: https://github.com/uutils/platform-info
+Package-List: 
+ librust-platform-info-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-platform-info
+Priority: extra
+Section: misc

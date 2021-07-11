@@ -1,0 +1,34 @@
+Package: dose3
+Binary: libdose3-ocaml-dev, dose-distcheck, dose-builddebcheck, dose-extra, apt-cudf, dose-doc
+Version: 6.0.1-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stefano Zacchiroli <zack@debian.org>, Ralf Treinen <treinen@debian.org>, Johannes 'josch' Schauer <josch@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-ocaml (>= 0.9~), libbase64-ocaml-dev (>= 3.1.0), libbz2-ocaml-dev (>= 0.6.0-10~), libcudf-ocaml-dev (>= 0.7), libextlib-ocaml-dev (>= 1.7.7), libocamlgraph-ocaml-dev (>= 1.8.6), libre-ocaml-dev (>= 1.7.2~), libzip-ocaml-dev (>= 1.08), ocaml-dune (>= 2.7.1), ocaml-nox (>= 4.03), pandoc
+Build-Depends-Indep: graphviz <!nodoc>, hevea <!nodoc>, lmodern <!nodoc>, ocaml-odoc <!nodoc>, texlive-latex-base <!nodoc>, texlive-latex-extra <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c0c23e093a88eb714698faf7c14dbd84 3001 dose3_6.0.1-2.dsc
+ 05a8ab833fb45ad86cd4930a8016b437 1417354 dose3_6.0.1.orig.tar.gz
+ 785e0fbd06b7c25f38b441fec5780694 23320 dose3_6.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/dose3
+Vcs-Git: https://salsa.debian.org/ocaml-team/dose3.git
+Checksums-Sha256:
+ 55d276be78481f598140f66f80001512d9d650c7e94697e1e0cb4214390570d2 3001 dose3_6.0.1-2.dsc
+ d5756926ba152414fe414a8e2b132ab1801a0bb76eebd83247c4a3d392ab5447 1417354 dose3_6.0.1.orig.tar.gz
+ a0fd67d4d3a1f7b2b18b8b94ac8f2e301b7cec26e1432f9504231c13d1d7ee1c 23320 dose3_6.0.1-2.debian.tar.xz
+Homepage: http://www.mancoosi.org/software/
+Build-Depends-Arch: grep-dctrl <!nocheck>, libounit-ocaml-dev <!nocheck>, libparmap-ocaml-dev, perl, python3-yaml <!nocheck>, xz-utils <!nocheck>
+Dgit: 5047123076d557521e4b16d9ddecff946b6cad07 debian archive/debian/6.0.1-2 https://git.dgit.debian.org/dose3
+Package-List: 
+ apt-cudf deb admin optional arch=any
+ dose-builddebcheck deb devel optional arch=any
+ dose-distcheck deb devel optional arch=any
+ dose-doc deb doc optional arch=all profile=!nodoc
+ dose-extra deb devel optional arch=any
+ libdose3-ocaml-dev deb ocaml optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/d/dose3
+Priority: source
+Section: ocaml

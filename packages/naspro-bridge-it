@@ -1,0 +1,24 @@
+Package: naspro-bridge-it
+Binary: libnabrit3, libnabrit-dev, libnabrit-dbg
+Version: 0.5.1-2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libnacore-dev (>= 0.5.0-1~), lv2-dev, pkg-config
+Architecture: any
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ 8efcc0d71c988390ebc911cd8bd90696 1939 naspro-bridge-it_0.5.1-2.dsc
+ d99fe9976e3ea29f600902d7295f1017 286925 naspro-bridge-it_0.5.1.orig.tar.bz2
+ 1531399fcbd1a6c48731770c1f313bc3 3036 naspro-bridge-it_0.5.1-2.debian.tar.xz
+Checksums-Sha256:
+ dbc4466fa62ec70b72b8e92b9a6b6d22423c5b00308db2cdc4159cb0d3734920 1939 naspro-bridge-it_0.5.1-2.dsc
+ 391756f9e66d194e9b85e7812615c26707ebabd569f4d20bccccfd98eaadb4d8 286925 naspro-bridge-it_0.5.1.orig.tar.bz2
+ 757bbb50a19297f668f7c641365c0d00b89e9d8a60324a6ad3512b14a6073227 3036 naspro-bridge-it_0.5.1-2.debian.tar.xz
+Homepage: http://naspro.sourceforge.net/
+Package-List: 
+ libnabrit-dbg deb debug extra arch=any
+ libnabrit-dev deb libdevel optional arch=any
+ libnabrit3 deb libs optional arch=any
+Directory: pool/main/n/naspro-bridge-it
+Priority: source
+Section: libs

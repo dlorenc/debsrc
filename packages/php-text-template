@@ -1,0 +1,27 @@
+Package: php-text-template
+Binary: php-text-template
+Version: 2.0.4-1
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>, Prach Pongpanich <prach@debian.org>
+Build-Depends: ant, debhelper-compat (= 13), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 524f5a1268f8709092f37b3e4b19c2e4 1845 php-text-template_2.0.4-1.dsc
+ 3bed2d5cc988e1a38beb7ca44897ff76 7550 php-text-template_2.0.4.orig.tar.gz
+ 04ea1368086e2fabb1ae7a839d14c92a 3684 php-text-template_2.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-text-template
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-text-template.git -b debian/latest
+Checksums-Sha256:
+ 06a3947f99ae50cdb67993b4d727fbe6a4b3cf6226a1694caab2acf35a6bc28d 1845 php-text-template_2.0.4-1.dsc
+ 49a0efb7e71ef34e9b2198a03e9155c593673a7274f37f32adfc8c80e3666aae 7550 php-text-template_2.0.4.orig.tar.gz
+ 70cbb9dbff4f912c27f841dfb9b03fded99e0714d366d276514388758ef8ea31 3684 php-text-template_2.0.4-1.debian.tar.xz
+Homepage: https://github.com/sebastianbergmann/php-text-template
+Package-List: 
+ php-text-template deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/p/php-text-template
+Priority: source
+Section: php

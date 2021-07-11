@@ -1,0 +1,25 @@
+Package: maven-clean-plugin
+Binary: libmaven-clean-plugin-java
+Version: 3.1.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Ludovic Claude <ludovic.claude@laposte.net>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11~), default-jdk, junit4, libmaven-file-management-java, libmaven-plugin-testing-java (>= 2.1), libmaven-plugin-tools-java, libmaven3-core-java, libplexus-utils-java, maven-debian-helper (>= 2.2)
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ a44c20ab330281f4cc53b00273f7c16c 2345 maven-clean-plugin_3.1.0-1.dsc
+ 0382fa32135922a734e275cc5c4b096e 18384 maven-clean-plugin_3.1.0.orig.tar.xz
+ 13f38bb74b8ff61a6487db339d74af4e 3616 maven-clean-plugin_3.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/maven-clean-plugin
+Vcs-Git: https://salsa.debian.org/java-team/maven-clean-plugin.git
+Checksums-Sha256:
+ 5d19b718e6dfefeb1395e2d725816da40eaf4b26dac98d60442b68fbe518c8b7 2345 maven-clean-plugin_3.1.0-1.dsc
+ 3770f24e6d6977c55f77b411014a2239aa4fbc01d4a25482e2b2914dafb52580 18384 maven-clean-plugin_3.1.0.orig.tar.xz
+ 459b6313e897b139fe1f2600be870b2cb616be334b183030ae8fb38769913f4a 3616 maven-clean-plugin_3.1.0-1.debian.tar.xz
+Homepage: http://maven.apache.org/plugins/maven-clean-plugin/
+Package-List: 
+ libmaven-clean-plugin-java deb java optional arch=all
+Directory: pool/main/m/maven-clean-plugin
+Priority: source
+Section: java

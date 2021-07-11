@@ -1,0 +1,27 @@
+Package: ruby-ipaddress
+Binary: ruby-ipaddress
+Version: 0.8.3-3
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>, David Suárez <david.sephirot@gmail.com>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 243215f32f93b4bb2153f19b1943ec6d 2090 ruby-ipaddress_0.8.3-3.dsc
+ 96dc3ac537445c1eebd68dee36ffd6c5 34903 ruby-ipaddress_0.8.3.orig.tar.gz
+ 96135fce982d3d3077c86f347565cdd2 3348 ruby-ipaddress_0.8.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ipaddress
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ipaddress.git
+Checksums-Sha256:
+ c287069c14af7b50df747b25a50306a7f72b762a16ca42959b4e80b82a74a00e 2090 ruby-ipaddress_0.8.3-3.dsc
+ 593da6e40db2dc436ff4eec50d5bfc2ce531bca05d80adf3c90a7a76df00ec81 34903 ruby-ipaddress_0.8.3.orig.tar.gz
+ beedb51dbb49c0367805dc6614d5de0d31cb2befac38e495ef63326270f5015e 3348 ruby-ipaddress_0.8.3-3.debian.tar.xz
+Homepage: https://github.com/bluemonk/ipaddress
+Package-List: 
+ ruby-ipaddress deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ipaddress
+Priority: source
+Section: ruby

@@ -1,0 +1,26 @@
+Package: rust-unicode-categories
+Binary: librust-unicode-categories-dev
+Version: 0.1.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 54b1a39d053697009b2ac8f60f03686a 2228 rust-unicode-categories_0.1.1-2.dsc
+ f3592489436e3232576d7b92e9354b0c 87633 rust-unicode-categories_0.1.1.orig.tar.gz
+ 285068981de8b66704736110cec1e2e7 2596 rust-unicode-categories_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unicode-categories
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-categories]
+Checksums-Sha256:
+ 246cfcf482f7402d37eebccd083446b535a084aea8747c1eefe599d835dd31c1 2228 rust-unicode-categories_0.1.1-2.dsc
+ 4eb9966642c6cae03455966e12210e9b3442bd82d859baf01738d9ed30dd9026 87633 rust-unicode-categories_0.1.1.orig.tar.gz
+ 40488d3c97cf2cf3505109343d90d74fa7ed0a3bfcc9280872bb139c1a0a60d9 2596 rust-unicode-categories_0.1.1-2.debian.tar.xz
+Package-List: 
+ librust-unicode-categories-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-unicode-categories
+Priority: extra
+Section: misc

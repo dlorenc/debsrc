@@ -1,0 +1,27 @@
+Package: soapyremote
+Binary: soapysdr0.7-module-remote, soapysdr-module-remote, soapyremote-server
+Version: 0.5.2-1
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Andreas Bombe <aeb@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, libsoapysdr0.7-dev, libavahi-client-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3a93f6b6c362cf2021094a20c1144a02 2206 soapyremote_0.5.2-1.dsc
+ bd2b5785ff154986e69817390d4878e5 72929 soapyremote_0.5.2.orig.tar.gz
+ 2fb995ef1bbb77cf3125d4ffd47cae68 3448 soapyremote_0.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/soapysdr/soapyremote
+Vcs-Git: https://salsa.debian.org/debian-hamradio-team/soapysdr/soapyremote.git
+Checksums-Sha256:
+ 721d41f84d40a64ef7d63022be718207fabb5e8304d86fcbd9853f326deeeb16 2206 soapyremote_0.5.2-1.dsc
+ 66a372d85c984e7279b4fdc0a7f5b0d7ba340e390bc4b8bd626a6523cd3c3c76 72929 soapyremote_0.5.2.orig.tar.gz
+ c69ace179fdd4b28a74414838772911604b1d22960962604a7371fe625bf392a 3448 soapyremote_0.5.2-1.debian.tar.xz
+Homepage: https://github.com/pothosware/SoapyRemote/wiki
+Package-List: 
+ soapyremote-server deb hamradio optional arch=any
+ soapysdr-module-remote deb hamradio optional arch=any
+ soapysdr0.7-module-remote deb hamradio optional arch=any
+Directory: pool/main/s/soapyremote
+Priority: optional
+Section: misc

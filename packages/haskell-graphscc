@@ -1,0 +1,28 @@
+Package: haskell-graphscc
+Binary: libghc-graphscc-dev, libghc-graphscc-prof, libghc-graphscc-doc
+Version: 1.0.4-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 318cd44668fccbd3dd980f80dc925ab3 2312 haskell-graphscc_1.0.4-6.dsc
+ 29372cb1f3e07cc0fec1d4179f3730e6 4289 haskell-graphscc_1.0.4.orig.tar.gz
+ 1b2769745570526a0e82053fbfedb60d 2384 haskell-graphscc_1.0.4-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-graphscc
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-graphscc]
+Checksums-Sha256:
+ 08d01926e42e82173435eb8236ca3ee855767dbb11d5e40f576ab6842a58e689 2312 haskell-graphscc_1.0.4-6.dsc
+ 789d93e6188845f009779b1c800b043f524587a21d324be8594d09b0f8e86cf1 4289 haskell-graphscc_1.0.4.orig.tar.gz
+ 160d564a793c84d7d2ae446cabc19035518ffb30f6cf3eec33b6f854f0f92c06 2384 haskell-graphscc_1.0.4-6.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/GraphSCC
+Package-List: 
+ libghc-graphscc-dev deb haskell optional arch=any
+ libghc-graphscc-doc deb doc optional arch=all
+ libghc-graphscc-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-graphscc
+Priority: optional
+Section: misc

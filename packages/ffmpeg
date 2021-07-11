@@ -1,0 +1,53 @@
+Package: ffmpeg
+Binary: ffmpeg, ffmpeg-doc, libavcodec58, libavcodec-extra58, libavcodec-extra, libavcodec-dev, libavdevice58, libavdevice-dev, libavfilter7, libavfilter-extra7, libavfilter-extra, libavfilter-dev, libavformat58, libavformat-dev, libavresample4, libavresample-dev, libavutil56, libavutil-dev, libpostproc55, libpostproc-dev, libswresample3, libswresample-dev, libswscale5, libswscale-dev
+Version: 7:4.3.2-0+deb11u2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>, Alexander Strasser <eclipse7@gmx.net>, Reinhard Tartler <siretart@tauware.de>, Balint Reczey <balint@balintreczey.hu>, James Cowgill <jcowgill@debian.org>,
+Build-Depends: debhelper-compat (= 13), flite1-dev, frei0r-plugins-dev <!pkg.ffmpeg.stage1>, ladspa-sdk, libaom-dev, libaribb24-dev, libass-dev, libbluray-dev, libbs2b-dev, libbz2-dev, libcaca-dev, libcdio-paranoia-dev, libchromaprint-dev <!pkg.ffmpeg.stage1>, libcodec2-dev, libdav1d-dev, libdc1394-dev [linux-any], libdrm-dev [linux-any], libfontconfig-dev, libfreetype-dev | libfreetype6-dev, libfribidi-dev, libgl1-mesa-dev, libgme-dev, libgnutls28-dev | libgnutls-dev, libgsm1-dev, libiec61883-dev [linux-any], libavc1394-dev [linux-any], libjack-jackd2-dev, liblensfun-dev, liblilv-dev, liblzma-dev, libmfx-dev [amd64], libmp3lame-dev, libmysofa-dev, libopenal-dev, libomxil-bellagio-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopenjp2-7-dev (>= 2.1), libopenmpt-dev, libopus-dev, libpocketsphinx-dev (>= 0.8+5prealpha+1-7~) [!alpha !hppa !ia64 !m68k !mipsel !mips64el !powerpc !ppc64 !s390x !sparc64], libpulse-dev, librabbitmq-dev, librubberband-dev, librsvg2-dev, libsctp-dev [linux-any], libsdl2-dev, libshine-dev (>= 3.0.0), libsnappy-dev, libsoxr-dev, libspeex-dev, libsrt-gnutls-dev, libssh-gcrypt-dev, libtesseract-dev, libtheora-dev, libtwolame-dev, libva-dev (>= 1.3) [!hurd-any], libvdpau-dev, libvidstab-dev, libvo-amrwbenc-dev, libvorbis-dev, libvpx-dev, libwavpack-dev, libwebp-dev, libx264-dev <!pkg.ffmpeg.stage1>, libx265-dev (>= 1.8), libxcb-shape0-dev, libxcb-shm0-dev, libxcb-xfixes0-dev, libxml2-dev, libxv-dev, libxvidcore-dev, libxvmc-dev, libzmq3-dev, libzvbi-dev, ocl-icd-opencl-dev | opencl-dev, pkg-config, texinfo, nasm, pkg-kde-tools, zlib1g-dev
+Build-Depends-Indep: cleancss, doxygen, node-less, tree
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b4f368280f6fa7667bdd30f7cb564871 5439 ffmpeg_4.3.2-0+deb11u2.dsc
+ 29529337d9b8f794a6142db10b717ec5 9391100 ffmpeg_4.3.2.orig.tar.xz
+ fe6aea3d2cd57bd38760c07d4090fdde 520 ffmpeg_4.3.2.orig.tar.xz.asc
+ 28f31c44a223b3421209fca2aa8e2a52 91068 ffmpeg_4.3.2-0+deb11u2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/ffmpeg
+Vcs-Git: https://salsa.debian.org/multimedia-team/ffmpeg.git
+Checksums-Sha256:
+ 415978dd907ad89c18b197c3aaa478ab69f334e5cf5a70aaf4080d84e23dbcd1 5439 ffmpeg_4.3.2-0+deb11u2.dsc
+ 46e4e64f1dd0233cbc0934b9f1c0da676008cad34725113fb7f802cfa84ccddb 9391100 ffmpeg_4.3.2.orig.tar.xz
+ 696358b527eb09193a188238419186393fd41149e997b10200fad3245061046a 520 ffmpeg_4.3.2.orig.tar.xz.asc
+ ce481ac4c427a2ca6dc03bdb9bbcf38c1a178d649dc5352a804b70cea8aaad67 91068 ffmpeg_4.3.2-0+deb11u2.debian.tar.xz
+Homepage: https://ffmpeg.org/
+Package-List: 
+ ffmpeg deb video optional arch=any
+ ffmpeg-doc deb doc optional arch=all
+ libavcodec-dev deb libdevel optional arch=any
+ libavcodec-extra deb metapackages optional arch=any
+ libavcodec-extra58 deb libs optional arch=any
+ libavcodec58 deb libs optional arch=any
+ libavdevice-dev deb libdevel optional arch=any
+ libavdevice58 deb libs optional arch=any
+ libavfilter-dev deb libdevel optional arch=any
+ libavfilter-extra deb metapackages optional arch=any
+ libavfilter-extra7 deb libs optional arch=any
+ libavfilter7 deb libs optional arch=any
+ libavformat-dev deb libdevel optional arch=any
+ libavformat58 deb libs optional arch=any
+ libavresample-dev deb libdevel optional arch=any
+ libavresample4 deb libs optional arch=any
+ libavutil-dev deb libdevel optional arch=any
+ libavutil56 deb libs optional arch=any
+ libpostproc-dev deb libdevel optional arch=any
+ libpostproc55 deb libs optional arch=any
+ libswresample-dev deb libdevel optional arch=any
+ libswresample3 deb libs optional arch=any
+ libswscale-dev deb libdevel optional arch=any
+ libswscale5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/f/ffmpeg
+Priority: optional
+Section: misc

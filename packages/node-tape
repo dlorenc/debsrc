@@ -1,0 +1,26 @@
+Package: node-tape
+Binary: node-tape
+Version: 4.11.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>, Ross Gammon <rosco2@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-concat-stream <!nocheck>, node-deep-equal <!nocheck>, node-defined <!nocheck>, node-falafel <!nocheck>, node-function-bind (>= 1.1.1) <!nocheck>, node-glob (>= 7.1.2) <!nocheck>, node-inherits (>= 2.0.3) <!nocheck>, node-js-yaml (>= 3.10.0) <!nocheck>, node-lodash-packages <!nocheck>, node-minimist <!nocheck>, node-object-inspect (>= 1.5.0) <!nocheck>, node-resolve (>= 1.4.0) <!nocheck>, node-resumer <!nocheck>, node-tap (>= 8) <!nocheck>, node-tap-parser <!nocheck>, node-through <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0ca0e5d789429a776ffa404db13f24d2 2523 node-tape_4.11.0-1.dsc
+ 365e580902b922fb317f02547879bd46 30003 node-tape_4.11.0.orig.tar.gz
+ edbda607c867a01e67d6ae89f02ebd91 6220 node-tape_4.11.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-tape
+Vcs-Git: https://salsa.debian.org/js-team/node-tape.git
+Checksums-Sha256:
+ 89cc75bdcf9f95972a59c63fa3e2bc806e8666c6e3c077e73f0859aaff9e1d8d 2523 node-tape_4.11.0-1.dsc
+ c163140c47fa049670e371d4badf7ceb33ade7f8ac90b061a2e84781b65e6bb4 30003 node-tape_4.11.0.orig.tar.gz
+ 6ee56ccda879927d9fb0d862b60e3d4291b744e0f9ed2723b2c4763c660aa002 6220 node-tape_4.11.0-1.debian.tar.xz
+Homepage: https://github.com/substack/tape
+Package-List: 
+ node-tape deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-tape
+Priority: optional
+Section: javascript

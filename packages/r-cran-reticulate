@@ -1,0 +1,27 @@
+Package: r-cran-reticulate
+Binary: r-cran-reticulate
+Version: 1.18+dfsg-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Dylan Aïssi <daissi@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-jsonlite, r-cran-matrix, r-cran-rappdirs, r-cran-rcpp (>= 0.12.7)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1419038b99e1ff71b1b9dcbdfe0967c0 2240 r-cran-reticulate_1.18+dfsg-1.dsc
+ c4dcb50e482fa485b6025a5272a81000 636060 r-cran-reticulate_1.18+dfsg.orig.tar.xz
+ 54f027864588c719e953e280ef6c40a4 3020 r-cran-reticulate_1.18+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-reticulate
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-reticulate.git
+Checksums-Sha256:
+ aba6a5cc9c2950908d5abdfee138c959e73052fb3e378858c81811639c19ee93 2240 r-cran-reticulate_1.18+dfsg-1.dsc
+ 76d2422340df1c96895b54bc95693673e90d458b396a10a825e1253be16c5db2 636060 r-cran-reticulate_1.18+dfsg.orig.tar.xz
+ 5bcc22d2e8fc7aef4f6d339928cf6f169fdb6cbce00ebbd5affbb05ae809d1e0 3020 r-cran-reticulate_1.18+dfsg-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=reticulate
+Package-List: 
+ r-cran-reticulate deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-reticulate
+Priority: extra
+Section: misc

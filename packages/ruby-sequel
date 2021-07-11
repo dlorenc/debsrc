@@ -1,0 +1,27 @@
+Package: ruby-sequel
+Binary: ruby-sequel
+Version: 5.41.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Borodaenko <angdraug@debian.org>, Georg Faerber <georg@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-activemodel, ruby-activesupport, ruby-json, ruby-minitest-hooks, ruby-minitest-shared-description, ruby-minitest-global-expectations, ruby-nokogiri, ruby-rspec, ruby-sqlite3, ruby-tzinfo
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bac5fe013850813d6ae1252e952f5da1 2254 ruby-sequel_5.41.0-1.dsc
+ 7cec7d1c48934ca13a14c08bd51ad8cf 1589286 ruby-sequel_5.41.0.orig.tar.gz
+ aafc351863e58e496d5f840eef42eff8 7436 ruby-sequel_5.41.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-sequel
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-sequel.git
+Checksums-Sha256:
+ f79aefdea7a05499991a2f63e527c208b77f3465e6562355000a1f13daf0c402 2254 ruby-sequel_5.41.0-1.dsc
+ 63a4e0450a894086f802a0183c7b033b8334968e5ee70a87e70c4dc57d056c8a 1589286 ruby-sequel_5.41.0.orig.tar.gz
+ 1b1a0bcdb194c82979212ccf003bf0c4c97672b50d0e4851ac7be0f93359803f 7436 ruby-sequel_5.41.0-1.debian.tar.xz
+Homepage: https://github.com/jeremyevans/sequel
+Package-List: 
+ ruby-sequel deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-sequel
+Priority: source
+Section: ruby

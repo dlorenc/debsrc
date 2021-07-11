@@ -1,0 +1,27 @@
+Package: node-regjsgen
+Binary: node-regjsgen
+Version: 0.5.2+ds-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ df611166ce1dcd70981f28685c71b612 2085 node-regjsgen_0.5.2+ds-1.dsc
+ ed3e98f10d26b46059fa7bb551af05bc 22604 node-regjsgen_0.5.2+ds.orig.tar.xz
+ 831b96cebeec8ad67180f9b876f07d6e 2704 node-regjsgen_0.5.2+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-regjsgen
+Vcs-Git: https://salsa.debian.org/js-team/node-regjsgen.git
+Checksums-Sha256:
+ c4c79900aeedba821272b389f17358f93ef02d90f52bcf7e889f690d1d12af7e 2085 node-regjsgen_0.5.2+ds-1.dsc
+ 8096482f66fef5a34a4a1ef531cda7a7f69fcdda2b998d0852d960813f1e3885 22604 node-regjsgen_0.5.2+ds.orig.tar.xz
+ 7e26f64ea0384fd5b725e993a518c18eadb5adf0356afab9340735f7e31364eb 2704 node-regjsgen_0.5.2+ds-1.debian.tar.xz
+Homepage: https://github.com/demoneaux/regjsgen
+Package-List: 
+ node-regjsgen deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-regjsparser
+Directory: pool/main/n/node-regjsgen
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: notify-sharp
+Binary: libnotify0.4-cil, libnotify-cil-dev, monodoc-notify-sharp-manual
+Version: 0.4.0~r3032-7.1
+Maintainer: Debian CLI Libraries Team <pkg-cli-libs-team@lists.alioth.debian.org>
+Uploaders: Sebastian Dröge <slomo@debian.org>, Mirco Bauer <meebey@debian.org>, Chow Loong Jin <hyperair@debian.org>
+Build-Depends: debhelper (>= 7.2), dh-autoreconf
+Build-Depends-Indep: cli-common-dev (>= 0.5.4), mono-devel (>= 2.4.3), monodoc-base (>= 1.1.18), pkg-config, libdbus2.0-cil-dev (>= 0.7), libdbus-glib2.0-cil-dev (>= 0.5), libgtk2.0-cil-dev (>= 2.8)
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 7d8201e213e944e7c028c61f622bafcc 2473 notify-sharp_0.4.0~r3032-7.1.dsc
+ 7691cc46f04d0aa13f342a97dd33f0ac 92371 notify-sharp_0.4.0~r3032.orig.tar.gz
+ c6dabc9f5e980e07b859e2dda55bdf6a 6988 notify-sharp_0.4.0~r3032-7.1.debian.tar.xz
+Vcs-Browser: http://git.debian.org/git/pkg-cli-libs/packages/notify-sharp.git
+Vcs-Git: git://git.debian.org/git/pkg-cli-libs/packages/notify-sharp.git
+Checksums-Sha256:
+ adce638c92cb4db933c1ab97fac07e6201ab0518c69c4f42f9aef40615271542 2473 notify-sharp_0.4.0~r3032-7.1.dsc
+ 082518d0822d79122ac15dfad8cd877577fd64b97a10e3ab76005f212e89d2fb 92371 notify-sharp_0.4.0~r3032.orig.tar.gz
+ 56493ca4e4b4082e483cfe2c87972358d6f0f31207edba30632b5928255f8385 6988 notify-sharp_0.4.0~r3032-7.1.debian.tar.xz
+Homepage: http://www.ndesk.org/NotifySharp
+Package-List: 
+ libnotify-cil-dev deb cli-mono optional arch=all
+ libnotify0.4-cil deb cli-mono optional arch=all
+ monodoc-notify-sharp-manual deb doc optional arch=all
+Directory: pool/main/n/notify-sharp
+Priority: source
+Section: libs

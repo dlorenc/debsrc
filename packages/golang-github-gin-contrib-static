@@ -1,0 +1,27 @@
+Package: golang-github-gin-contrib-static
+Binary: golang-github-gin-contrib-static-dev
+Version: 0.0~git20200916.d45d9a3-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-elazarl-go-bindata-assetfs-dev, golang-github-gin-gonic-gin-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 180dcd8f670c730ecbc3b5b16f03dc4c 2684 golang-github-gin-contrib-static_0.0~git20200916.d45d9a3-1.dsc
+ 62378daaa90d39fb76b20d22937fe057 6768 golang-github-gin-contrib-static_0.0~git20200916.d45d9a3.orig.tar.xz
+ b31c49803a9bcb5d0f4107dc6704d4f5 2352 golang-github-gin-contrib-static_0.0~git20200916.d45d9a3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gin-contrib-static
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gin-contrib-static.git
+Checksums-Sha256:
+ 84bb2348e18b946eb0d83354be65cb64d19e5ca8d14548036e849bf5311c4554 2684 golang-github-gin-contrib-static_0.0~git20200916.d45d9a3-1.dsc
+ bc5c42d3ec6b6ce2cc0a7ffab52ab37daf1c4babf2e7e8c33be9bd5cba706ccd 6768 golang-github-gin-contrib-static_0.0~git20200916.d45d9a3.orig.tar.xz
+ f39e6c526c8c418dfbc72329259c302af6c0e8e1f4a9f6101ad5edbde10476c5 2352 golang-github-gin-contrib-static_0.0~git20200916.d45d9a3-1.debian.tar.xz
+Homepage: https://github.com/gin-contrib/static
+Go-Import-Path: github.com/gin-contrib/static
+Package-List: 
+ golang-github-gin-contrib-static-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-gin-contrib-static
+Priority: extra
+Section: golang

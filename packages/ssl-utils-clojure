@@ -1,0 +1,27 @@
+Package: ssl-utils-clojure
+Binary: libssl-utils-clojure
+Version: 3.1.0-4
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>,
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, maven-repo-helper, libclojure-java, libtools-logging-clojure, libcommons-codec-java, libclj-time-clojure (>= 0.15.2), libpuppetlabs-i18n-clojure (>= 0.9.0-2), libprismatic-schema-clojure (>= 1.1.12), libbcpkix-java, libnrepl-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0b908d6a19ddde5959ac9dc962e85fa6 2411 ssl-utils-clojure_3.1.0-4.dsc
+ 5263da3fdea0cc8333fa15be2f93f265 100600 ssl-utils-clojure_3.1.0.orig.tar.gz
+ 2464df168008a5dd5e22fffd94f27f5b 4032 ssl-utils-clojure_3.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/ssl-utils-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/ssl-utils-clojure.git
+Checksums-Sha256:
+ 6f0236029e34e636358b18befff4d8217d63507448638a952de797d70e0bb742 2411 ssl-utils-clojure_3.1.0-4.dsc
+ 59723dee70c8b351f45e6e03b883af6b138dc62bbce6a07d1b385ef0642d9113 100600 ssl-utils-clojure_3.1.0.orig.tar.gz
+ 7b747700d468f0c4e43b7942b12ee74e4b5a2ebe28c8c2e9469ae235435f4a0d 4032 ssl-utils-clojure_3.1.0-4.debian.tar.xz
+Homepage: https://github.com/puppetlabs/jvm-ssl-utils
+Package-List: 
+ libssl-utils-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/s/ssl-utils-clojure
+Priority: extra
+Section: misc

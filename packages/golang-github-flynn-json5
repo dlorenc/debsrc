@@ -1,0 +1,27 @@
+Package: golang-github-flynn-json5
+Binary: golang-github-flynn-json5-dev
+Version: 0.0~git20160717.7620272-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Raju Devidas <rajudev@disroot.org>, Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-kylelemons-godebug-dev, golang-github-robertkrimen-otto-dev
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 30c06f4a7445e2ecae03bdebf42232c8 2486 golang-github-flynn-json5_0.0~git20160717.7620272-2.dsc
+ 3c5c66e371a7ecf2c197ed600b9e57f0 34716 golang-github-flynn-json5_0.0~git20160717.7620272.orig.tar.xz
+ 545420d3d0bb0704c5092a1d2b6ca8a0 3852 golang-github-flynn-json5_0.0~git20160717.7620272-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-flynn-json5
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-flynn-json5.git
+Checksums-Sha256:
+ cdb858fe75fb61e6e94f3309255a10a2b9ab23ac722721f73cc8cf741478bcee 2486 golang-github-flynn-json5_0.0~git20160717.7620272-2.dsc
+ 63384c7e115d2e1431aaee7fd4e9045aa5d6307f33b73cfd06b0a1c6df41465d 34716 golang-github-flynn-json5_0.0~git20160717.7620272.orig.tar.xz
+ ae439afda8a85b49bf3d5a40ebd179f0257983e356cb0e64149fa64d89d46aa4 3852 golang-github-flynn-json5_0.0~git20160717.7620272-2.debian.tar.xz
+Homepage: https://github.com/flynn/json5
+Go-Import-Path: github.com/flynn/json5
+Package-List: 
+ golang-github-flynn-json5-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-flynn-json5
+Priority: extra
+Section: golang

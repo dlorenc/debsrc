@@ -1,0 +1,27 @@
+Package: primus
+Binary: primus, primus-libs, primus-nvidia
+Version: 0~20150328-13
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, Yunqiang Su <wzssyqa@gmail.com>, Luca Boccassi <bluca@debian.org>, Andreas Beckmann <anbe@debian.org>,
+Build-Depends: debhelper-compat (= 13), libglapi-mesa, mesa-common-dev
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 36bf1a86323767d60b67414faa3feea0 2245 primus_0~20150328-13.dsc
+ ca27087338d9bd8cf1d03793e55f96a4 25978 primus_0~20150328.orig.tar.gz
+ 4c289a078397618a12957a36e1b6e77f 7220 primus_0~20150328-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/nvidia-team/primus
+Vcs-Git: https://salsa.debian.org/nvidia-team/primus.git
+Checksums-Sha256:
+ 223248d7132667fb759e635ec1add96098dcae512327a770de489ba3b1e16726 2245 primus_0~20150328-13.dsc
+ be1fe16bd891b4b542c2020fd69c983ed1783752c475be9d3bbe2fc1205812c0 25978 primus_0~20150328.orig.tar.gz
+ 50a9e4adea4dbbb056060d2a79145c3ad63a6231200b9b4d74c73f7f4363b6c5 7220 primus_0~20150328-13.debian.tar.xz
+Homepage: https://github.com/amonakov/primus
+Package-List: 
+ primus deb utils optional arch=linux-any
+ primus-libs deb utils optional arch=linux-any
+ primus-nvidia deb contrib/utils optional arch=amd64,i386,armhf,arm64,ppc64el
+Directory: pool/main/p/primus
+Priority: source
+Section: misc

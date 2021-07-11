@@ -1,0 +1,27 @@
+Package: python-bottle
+Binary: python3-bottle, python-bottle-doc
+Version: 0.12.19-1
+Maintainer: Federico Ceratto <federico@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: python3-all, dh-python, python3-sphinx, python3-setuptools, python3-jinja2, python3-mako, python3-paste, python3-tornado, python3-werkzeug, tox
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 133c207e21a1331a987de69349bb6af3 2148 python-bottle_0.12.19-1.dsc
+ f3d29b7d3d38b4fa8f26598551d3e53e 289321 python-bottle_0.12.19.orig.tar.gz
+ f499d277363ad31a3fa0c79844ad8da6 6516 python-bottle_0.12.19-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-bottle
+Vcs-Git: https://salsa.debian.org/debian/python-bottle.git
+Checksums-Sha256:
+ b5516278847ba475de22065b1da06ecdaad004b0d6e57f99a031ffb45be768c1 2148 python-bottle_0.12.19-1.dsc
+ 997b1251e739f0630a986f8a9c54ab914971ba9d1178e55dcbf379f3003ea19a 289321 python-bottle_0.12.19.orig.tar.gz
+ 6e655ed05c3eb8ffd6501e81cef62fef6bbe7418ebd9341718798fd52cf9a123 6516 python-bottle_0.12.19-1.debian.tar.xz
+Homepage: https://bottlepy.org
+Package-List: 
+ python-bottle-doc deb doc optional arch=all
+ python3-bottle deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-bottle
+Priority: source
+Section: python

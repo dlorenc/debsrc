@@ -1,0 +1,33 @@
+Package: node-websocket
+Binary: libjs-websocket, node-websocket
+Version: 1.0.33+~cs9.0.11-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), libnode-dev, mocha <!nocheck>, node-buffer-equal <!nocheck>, node-debug <!nocheck>, node-es5-ext <!nocheck>, node-gyp, node-nan (>= 2.0.0), node-tape <!nocheck>, node-typedarray-to-buffer <!nocheck>, dh-sequence-nodejs, uglifyjs
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 821a005d8d65e9759a34d7597ea8868c 3365 node-websocket_1.0.33+~cs9.0.11-2.dsc
+ 23b6eb5c9016142f30ea58dffa142637 4630 node-websocket_1.0.33+~cs9.0.11.orig-bufferutil.tar.gz
+ c5d349e5d3757a000a7e46067b7be6e7 5005 node-websocket_1.0.33+~cs9.0.11.orig-utf-8-validate.tar.gz
+ f065e2eddcb87a89810d565e82bdacc1 3500 node-websocket_1.0.33+~cs9.0.11.orig-yaeti.tar.gz
+ 60e25d54726ae674fce3e6288e49ec8a 66863 node-websocket_1.0.33+~cs9.0.11.orig.tar.gz
+ c13eab9742c9b3fb13cdb6264ccc9c9d 5740 node-websocket_1.0.33+~cs9.0.11-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-websocket
+Vcs-Git: https://salsa.debian.org/js-team/node-websocket.git
+Checksums-Sha256:
+ e2f48650b7434674ca4d9d433c13d414093bd317b19282d188b5882a5be2af4d 3365 node-websocket_1.0.33+~cs9.0.11-2.dsc
+ 7cf9071cc96d0ccaebd7cb6a4784ca88032edd8b679de34390d6ac235f860339 4630 node-websocket_1.0.33+~cs9.0.11.orig-bufferutil.tar.gz
+ 01a19a4db210d6baf956ffe3f2cedeee5a99155875c2ad65fd9f01dec0207e39 5005 node-websocket_1.0.33+~cs9.0.11.orig-utf-8-validate.tar.gz
+ 27dfbdb7a918156044945a5cf6282230c903b9f4d3409c23c5a0dd18e6711e2b 3500 node-websocket_1.0.33+~cs9.0.11.orig-yaeti.tar.gz
+ d099dbdb39f83a2e326d849919e3b1586b6a7826ec2b721da777b9d98e87cf01 66863 node-websocket_1.0.33+~cs9.0.11.orig.tar.gz
+ 7fd837bec4dc8f3874692f41da0a7f0872b42539ade024f9727f4df49324d3b7 5740 node-websocket_1.0.33+~cs9.0.11-2.debian.tar.xz
+Homepage: https://github.com/theturtle32/WebSocket-Node
+Package-List: 
+ libjs-websocket deb javascript optional arch=all
+ node-websocket deb javascript optional arch=any
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-websocket
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: rust-muldiv
+Binary: librust-muldiv-dev
+Version: 0.2.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 097789af22d1d8869aaf9df1ac031526 2290 rust-muldiv_0.2.1-1.dsc
+ f6b22c7721eb0cc4bbd0caf790df8a06 4967 rust-muldiv_0.2.1.orig.tar.gz
+ b751b87e8d9b8705be5be56cd953ed74 2572 rust-muldiv_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/muldiv
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/muldiv]
+Checksums-Sha256:
+ 7dd451afea2e9deb5691a1a074cebe5b6e33978361737a6a310a27e874c34b8f 2290 rust-muldiv_0.2.1-1.dsc
+ 0419348c027fa7be448d2ae7ea0e4e04c2334c31dc4e74ab29f00a2a7ca69204 4967 rust-muldiv_0.2.1.orig.tar.gz
+ c921dc49ca0a2e3f34d24e9d5696c18875ae31cb331e0c7d52e1b9cab521b8b6 2572 rust-muldiv_0.2.1-1.debian.tar.xz
+Package-List: 
+ librust-muldiv-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-quickcheck-0.9+default-dev
+Directory: pool/main/r/rust-muldiv
+Priority: extra
+Section: misc

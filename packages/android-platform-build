@@ -1,0 +1,32 @@
+Package: android-platform-build
+Binary: makeparallel, zipalign, ziptime, signapk, signtos, android-logtags-tools
+Version: 1:10.0.0+r36-1
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlik@debian.org>, Hans-Christoph Steiner <hans@eds.org>, Chirayu Desai <chirayudesai1@gmail.com>
+Build-Depends: debhelper-compat (= 12), javahelper
+Build-Depends-Indep: default-jdk-headless | default-jdk, libapksig-java (>= 30.0.3-3~), libbcpkix-java, libbcprov-java
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 3f73f8fedad756697dc73dbdea3dde0b 2612 android-platform-build_10.0.0+r36-1.dsc
+ 57a4c734f1839aafe0b6d8eacf43d0d7 1409588 android-platform-build_10.0.0+r36.orig.tar.xz
+ 88885aaac9b52c47131ae5d924aa3dec 14384 android-platform-build_10.0.0+r36-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/android-tools-team/android-platform-build
+Vcs-Git: https://salsa.debian.org/android-tools-team/android-platform-build.git
+Checksums-Sha256:
+ 0678dd3d62c83c76ad48470c5b0cc73a2d943c4457d11ffd1487547d5b0e40c1 2612 android-platform-build_10.0.0+r36-1.dsc
+ 78bcfe9035a1fe79b1c3e2f3ca47e6fd546208fa16e2b9c57d39523e151f5081 1409588 android-platform-build_10.0.0+r36.orig.tar.xz
+ 6fb5f4344e736a3121ea4ca9ef8287a73f54e15e973e4f40f38356b92429e829 14384 android-platform-build_10.0.0+r36-1.debian.tar.xz
+Homepage: https://android.googlesource.com/platform/build
+Build-Depends-Arch: android-libandroidfw-dev (>= 1:10.0.0+r36~), android-libbase-dev (>= 1:10.0.0+r36~), android-liblog-dev (>= 1:10.0.0+r36~), android-libutils-dev (>= 1:10.0.0+r36~), android-libziparchive-dev (>= 1:10.0.0+r36~), libzopfli-dev (>= 1.0.1-3), zlib1g-dev
+Package-List: 
+ android-logtags-tools deb devel optional arch=all
+ makeparallel deb devel optional arch=any
+ signapk deb devel optional arch=all
+ signtos deb devel optional arch=all
+ zipalign deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+ ziptime deb devel optional arch=amd64,i386,armel,armhf,arm64,mips,mipsel,mips64el
+Directory: pool/main/a/android-platform-build
+Priority: optional
+Section: misc

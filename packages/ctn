@@ -1,0 +1,26 @@
+Package: ctn
+Binary: ctn, ctn-dev
+Version: 3.2.0~dfsg-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), libmotif-dev, libxaw7-dev, flex, libfl-dev, bison, zlib1g-dev, default-libmysqlclient-dev, libx11-dev, libxt-dev, x11proto-core-dev, csh | c-shell
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c7dea4bc15a4ccabea9f448406dde2b3 2118 ctn_3.2.0~dfsg-7.dsc
+ f8cffff8172ca746e8effe2937bc3fcb 850928 ctn_3.2.0~dfsg.orig.tar.xz
+ 5104445c637a2dd34a1af588ffa3b54b 20532 ctn_3.2.0~dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/ctn
+Vcs-Git: https://salsa.debian.org/med-team/ctn.git
+Checksums-Sha256:
+ 61503b90f432143951cf730d812a0e53c168f724302554e96610fab9b2a22901 2118 ctn_3.2.0~dfsg-7.dsc
+ 13c4abd2331bc7e9f5460a4873d82de0eede2f5e3b6770027b45fca386689323 850928 ctn_3.2.0~dfsg.orig.tar.xz
+ 0efdf1f0ebfcb398f4978cc3700eba9b79d5a2a3a0a5b593e41f580fe16437cc 20532 ctn_3.2.0~dfsg-7.debian.tar.xz
+Homepage: http://sourceforge.net/projects/mirctn
+Package-List: 
+ ctn deb graphics optional arch=any
+ ctn-dev deb devel optional arch=any
+Directory: pool/main/c/ctn
+Priority: source
+Section: graphics

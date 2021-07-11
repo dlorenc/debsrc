@@ -1,0 +1,28 @@
+Package: libmojo-sqlite-perl
+Binary: libmojo-sqlite-perl
+Version: 3.005-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libdbd-sqlite3-perl (>= 1.64) <!nocheck>, libdbi-perl <!nocheck>, libmojolicious-perl (>= 8.03) <!nocheck>, libsql-abstract-perl <!nocheck>, liburi-db-perl <!nocheck>, liburi-perl (>= 1.69) <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0efb2ed18f3049ed4491ddfd90176f9b 2599 libmojo-sqlite-perl_3.005-1.dsc
+ 5d98a7d861319e14cdbc43ac44fa7f9b 40498 libmojo-sqlite-perl_3.005.orig.tar.gz
+ ad4e59c4d57219044bdaf68f4d045b98 5288 libmojo-sqlite-perl_3.005-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmojo-sqlite-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmojo-sqlite-perl.git
+Checksums-Sha256:
+ 688c5b88535d59b351c9a2e0b6547b429775ebd15208656e1231c59f2b979353 2599 libmojo-sqlite-perl_3.005-1.dsc
+ 41fdcb505ac7f4ecd47567b3daeb5c287c884c91340c6dbb6bbfa992a1fff72a 40498 libmojo-sqlite-perl_3.005.orig.tar.gz
+ bf1e134897030bc8f8e204e95ccc9bb8436f3d6855d2181f6d4ece597a64ccfb 5288 libmojo-sqlite-perl_3.005-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Mojo-SQLite
+Dgit: 710fc5c2be2f4f8d5c3c4bbdd195161795bf3bf2 debian archive/debian/3.005-1 https://git.dgit.debian.org/libmojo-sqlite-perl
+Package-List: 
+ libmojo-sqlite-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmojo-sqlite-perl
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-trust-webcrypto
+Binary: node-trust-webcrypto
+Version: 0.9.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper, mocha <!nocheck>, node-trust-keyto <!nocheck>, node-chai <!nocheck>, node-base64url <!nocheck>, node-elliptic <!nocheck>, node-node-rsa <!nocheck>, node-text-encoding <!nocheck>, pandoc <!nodoc>, perl <!nocheck>
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 8310a790235fb2e919e4ae3a96207282 2275 node-trust-webcrypto_0.9.2-1.dsc
+ f3cf8d15439cb409a01ac81bf9b17069 88874 node-trust-webcrypto_0.9.2.orig.tar.gz
+ dedd75143461c21aa469215373ec5185 5248 node-trust-webcrypto_0.9.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-trust-webcrypto
+Vcs-Git: https://salsa.debian.org/js-team/node-trust-webcrypto.git
+Checksums-Sha256:
+ 54c54774ef7db0b905868fa100b16cce61362dd9704ddb97a9ac708bd9e9e4c6 2275 node-trust-webcrypto_0.9.2-1.dsc
+ f839c96c1d2f4a64d779795030aec2be2d857ba68da2012e699d496831191516 88874 node-trust-webcrypto_0.9.2.orig.tar.gz
+ cc902ff68406f058bf44be819ee657abe1ba2b66ad563366320eb27990ff7e16 5248 node-trust-webcrypto_0.9.2-1.debian.tar.xz
+Homepage: https://github.com/anvilresearch/webcrypto
+Package-List: 
+ node-trust-webcrypto deb javascript optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/node-trust-webcrypto
+Priority: extra
+Section: misc

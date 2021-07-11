@@ -1,0 +1,27 @@
+Package: octave-jnifti
+Binary: octave-jnifti, matlab-jnifti, jnifti-demos
+Version: 0.6-2
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Uploaders: Qianqian Fang <fangqq@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-octave
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f3d22c5748c9c632ccbf10ba2ca09035 2095 octave-jnifti_0.6-2.dsc
+ e74f3cf3e3f8b667d7263091fa3e5a3d 10575856 octave-jnifti_0.6.orig.tar.gz
+ 75efdc8d033aa83a97207789b9739c54 4112 octave-jnifti_0.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-octave-team/octave-jnifti
+Vcs-Git: https://salsa.debian.org/pkg-octave-team/octave-jnifti.git
+Checksums-Sha256:
+ b8b536618643763835ce717615c3bef13aa8f580426e248dc0eb674c1592e689 2095 octave-jnifti_0.6-2.dsc
+ d3cdc63f202edf44f8b0a81789e341d349e93bf0e3f57588dab9181c3d824c94 10575856 octave-jnifti_0.6.orig.tar.gz
+ bb4f9066802006f921b0523d230943ce3148a94d6126d43de28038601b17c8f2 4112 octave-jnifti_0.6-2.debian.tar.xz
+Homepage: https://github.com/fangq/jnifti
+Package-List: 
+ jnifti-demos deb science optional arch=all
+ matlab-jnifti deb contrib/science optional arch=all
+ octave-jnifti deb science optional arch=all
+Directory: pool/main/o/octave-jnifti
+Priority: extra
+Section: misc

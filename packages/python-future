@@ -1,0 +1,28 @@
+Package: python-future
+Binary: python3-future, python-future-doc
+Version: 0.18.2-5
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Vincent Bernat <bernat@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python (>= 2.20160609~), python3-all, python3-setuptools, python3-sphinx
+Build-Depends-Indep: openssl, python3-pytest, ca-certificates
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f9a8be79a37aa49232582bd690365d97 2207 python-future_0.18.2-5.dsc
+ 65953ab216961edd089d70dc4af44f21 653680 python-future_0.18.2.orig.tar.xz
+ 2f4e627901f4b1c6dcfed18f297ae00f 9888 python-future_0.18.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-future
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-future.git
+Checksums-Sha256:
+ ae8556b34161ab9e5dcf31e57463641a3731602b9ce7f1eab9f6890207faaa3f 2207 python-future_0.18.2-5.dsc
+ 1f7a7c7d9e934fa9fe301c3446d0d45b07a747816f2c478064a078c3e7aa0128 653680 python-future_0.18.2.orig.tar.xz
+ 0dd974aaf706fd018a0e8ca0255ced7c22f3edaf1cd8a0310979263bada96a64 9888 python-future_0.18.2-5.debian.tar.xz
+Homepage: https://python-future.org
+Package-List: 
+ python-future-doc deb doc optional arch=all
+ python3-future deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-future
+Priority: optional
+Section: misc

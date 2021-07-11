@@ -1,0 +1,26 @@
+Package: rust-pin-utils
+Binary: librust-pin-utils-dev
+Version: 0.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Fabian Grünbichler <f.gruenbichler@proxmox.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fd36e11ec28dc6ed04e88c0cb0d90b3b 1791 rust-pin-utils_0.1.0-1.dsc
+ 07c75fec267864bcbb800ca7709ceae2 7580 rust-pin-utils_0.1.0.orig.tar.gz
+ 303d3dcd34ae4cd19e122e3d5f15f567 2560 rust-pin-utils_0.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pin-utils
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pin-utils]
+Checksums-Sha256:
+ 832c6e58437ce4af34f5d3eac1b9e97aa52b93d260d2bbe3b828838b0e33e6e1 1791 rust-pin-utils_0.1.0-1.dsc
+ 8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184 7580 rust-pin-utils_0.1.0.orig.tar.gz
+ 7a0fc3f766364fe2d323772e0d4f0848e9dc401c85beaba32e2769ffb59499ec 2560 rust-pin-utils_0.1.0-1.debian.tar.xz
+Package-List: 
+ librust-pin-utils-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-pin-utils
+Priority: extra
+Section: misc

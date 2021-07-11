@@ -1,0 +1,22 @@
+Package: cdebconf-terminal
+Binary: cdebconf-gtk-terminal, cdebconf-newt-terminal
+Version: 0.41
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Jérémy Bobbio <lunar@debian.org>, Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper (>= 9~), po-debconf (>= 0.5.0), libdebian-installer4-dev, libdebconfclient0-dev (>= 0.146), libnewt-dev, libgtk2.0-dev (>= 2.24), libvte-dev (>> 1:0.25.0), dh-autoreconf
+Architecture: any
+Format: 3.0 (native)
+Files:
+ ed74802a65cc9a4704843d86bb4ebec6 1966 cdebconf-terminal_0.41.dsc
+ c97e641ecac0d5886decdfd6653a84bd 37388 cdebconf-terminal_0.41.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/cdebconf-terminal
+Vcs-Git: https://salsa.debian.org/installer-team/cdebconf-terminal.git
+Checksums-Sha256:
+ 64f6240abf2a0c9f2edeced6f3e45f15ed9a4c4473808d1becb261ee9df61981 1966 cdebconf-terminal_0.41.dsc
+ 42ff15ee18ead5c1e788432695c975fd775dc974d7fb04d0a7db741eb64d02fa 37388 cdebconf-terminal_0.41.tar.xz
+Package-List: 
+ cdebconf-gtk-terminal udeb debian-installer optional arch=any
+ cdebconf-newt-terminal udeb debian-installer optional arch=any
+Directory: pool/main/c/cdebconf-terminal
+Priority: source
+Section: debian-installer

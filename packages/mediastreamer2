@@ -1,0 +1,26 @@
+Package: mediastreamer2
+Binary: libmediastreamer11, libmediastreamer-dev
+Version: 1:4.4.21-3
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Uploaders: Kilian Krause <kilian@debian.org>, Tzafrir Cohen <tzafrir@debian.org>, Felix Lechner <felix.lechner@gmail.com>, Bernhard Schmidt <berni@debian.org>,
+Build-Depends: cmake, debhelper-compat (= 12), doxygen, gettext, graphviz, intltool, libasound2-dev [linux-any], libavcodec-dev (>= 6:10~), libavutil-dev (>= 6:10~), libbctoolbox-dev (>= 4.4.0~), libbzrtp-dev (>= 4.4.0~), libcunit1-ncurses, libebml-dev, libglew-dev, libgsm1-dev, libltdl-dev, libmbedtls-dev, libogg-dev, libopus-dev, libortp-dev (>= 1:4.4.0~), libpcap-dev, libpulse-dev, libsdl1.2-dev, libspandsp-dev, libspeex-dev, libspeexdsp-dev, libsrtp2-dev [!hurd-any !sparc], libsqlite3-dev, libswscale-dev (>= 6:10~), libtheora-dev, libturbojpeg0-dev, libupnp-dev, libv4l-dev [linux-any], libvpx-dev, libx11-dev, libxext-dev, libxml2-dev, libxv-dev, mesa-common-dev, pkg-config, xxd
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 7ebaa2aef13a576576c1cf0f7c66b453 2927 mediastreamer2_4.4.21-3.dsc
+ 40144749411a75d93fae698a98767f20 25119081 mediastreamer2_4.4.21.orig.tar.gz
+ be41208a79eb547ab42f49dd725362c0 6408 mediastreamer2_4.4.21-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-voip-team/linphone-stack/mediastreamer2
+Vcs-Git: https://salsa.debian.org/pkg-voip-team/linphone-stack/mediastreamer2.git
+Checksums-Sha256:
+ 67c2edfbfdedf3601e618394c3d030664daf86203e53ad803ec82c3770004f30 2927 mediastreamer2_4.4.21-3.dsc
+ 90488e7383d51af206cc3c95fed4c335afe7a05a2ae318d8b2eccfd2521e46b9 25119081 mediastreamer2_4.4.21.orig.tar.gz
+ a47820d4268f8caf538d42edbb200ef17878fc21685348dbf3eee4c385109f14 6408 mediastreamer2_4.4.21-3.debian.tar.xz
+Homepage: https://www.linphone.org/technical-corner/mediastreamer2/overview
+Package-List: 
+ libmediastreamer-dev deb libdevel optional arch=any
+ libmediastreamer11 deb libs optional arch=any
+Directory: pool/main/m/mediastreamer2
+Priority: extra
+Section: misc

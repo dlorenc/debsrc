@@ -1,0 +1,28 @@
+Package: haskell-dice
+Binary: libghc-dice-dev, libghc-dice-prof, libghc-dice-doc
+Version: 0.1.0.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-random-fu-dev, libghc-random-fu-prof
+Build-Depends-Indep: ghc-doc, libghc-random-fu-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ a386d11b0c284ce1e1b67ee127fff093 2338 haskell-dice_0.1.0.1-1.dsc
+ 26d7af9435ccc303af2e01c190b7b82b 3631 haskell-dice_0.1.0.1.orig.tar.gz
+ 053be772047731a9c49bec211ddf23f9 1940 haskell-dice_0.1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-dice
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-dice]
+Checksums-Sha256:
+ 25bca59e0d32920646c28e077a874ded3983e331b32b1590e04ae0764ae34f2a 2338 haskell-dice_0.1.0.1-1.dsc
+ c336edc4fd27b5700507cbe4c6a153c4f047ab51264a911ad07b383ef064cbcb 3631 haskell-dice_0.1.0.1.orig.tar.gz
+ 253193254a20fb6aae9bb42a6bc9147104aa8838ce2d14790e886d915cd8bfcb 1940 haskell-dice_0.1.0.1-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/dice
+Package-List: 
+ libghc-dice-dev deb haskell optional arch=any
+ libghc-dice-doc deb doc optional arch=all
+ libghc-dice-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-dice
+Priority: optional
+Section: misc

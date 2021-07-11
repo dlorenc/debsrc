@@ -1,0 +1,27 @@
+Package: rust-ron
+Binary: librust-ron-dev
+Version: 0.6.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-base64-0.12+default-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.0.4-~~) <!nocheck>, librust-indexmap-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-indexmap-1+serde-1-dev (>= 1.0.2-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.60-~~) <!nocheck>, librust-serde-1+serde-derive-dev (>= 1.0.60-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8162c358dadf66cb2bcec89d69f1334f 2511 rust-ron_0.6.4-1.dsc
+ 96276d5a7208514d93b48494c481fedb 43997 rust-ron_0.6.4.orig.tar.gz
+ ba69c1092567313dc7215ae1efc62f2a 3164 rust-ron_0.6.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ron
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ron]
+Checksums-Sha256:
+ 411657c556ee7e02d877e1e21a37c3c740c423fb97ff6d1aef065319f8149c46 2511 rust-ron_0.6.4-1.dsc
+ 064ea8613fb712a19faf920022ec8ddf134984f100090764a4e1d768f3827f1f 43997 rust-ron_0.6.4.orig.tar.gz
+ 4af250de1e184690bd41d20c3529da552c54c96ac213ce45464d29d6134d6ae3 3164 rust-ron_0.6.4-1.debian.tar.xz
+Homepage: https://github.com/ron-rs/ron
+Package-List: 
+ librust-ron-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-bytes-0.11+default-dev, librust-serde-json-1+default-dev
+Directory: pool/main/r/rust-ron
+Priority: extra
+Section: misc

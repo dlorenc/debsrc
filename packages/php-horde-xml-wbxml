@@ -1,0 +1,27 @@
+Package: php-horde-xml-wbxml
+Binary: php-horde-xml-wbxml
+Version: 2.0.4-2
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 17df00649938e888a782b42c5454c8fd 2192 php-horde-xml-wbxml_2.0.4-2.dsc
+ 83bf153895dd0af341c63514ae9195ea 26838 php-horde-xml-wbxml_2.0.4.orig.tar.gz
+ 14bd4f58e7b2ad25d0afa71e7de5cc0b 3800 php-horde-xml-wbxml_2.0.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-xml-wbxml
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-xml-wbxml.git
+Checksums-Sha256:
+ c378261d0a39a3b4ed464898f029dfe0cc827033e2103392e6da1519b331a9f7 2192 php-horde-xml-wbxml_2.0.4-2.dsc
+ 52609e49296ab2f09e1a35c5fa206e71db2dc74ac9c2ce7784bfc3ec7e4900b9 26838 php-horde-xml-wbxml_2.0.4.orig.tar.gz
+ 2106b345c6033573fe76351867158bed61cc98e647ab9a382667ed4faf8549dd 3800 php-horde-xml-wbxml_2.0.4-2.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-xml-wbxml deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libwbxml2-utils, php-cli, php-horde-test
+Directory: pool/main/p/php-horde-xml-wbxml
+Priority: extra
+Section: misc

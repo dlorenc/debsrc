@@ -1,0 +1,26 @@
+Package: ufo2ft
+Binary: python3-ufo2ft
+Version: 2.19.2-1
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Yao Wei (魏銘廷) <mwei@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-pytest <!nocheck>, python3-fonttools (>= 4.19.1), python3-ufolib2 (>= 0.7.1), python3-defcon (>= 0.7.2), python3-compreffor (>= 0.5.0), python3-booleanoperations (>= 0.9.0), python3-cffsubr (>= 0.2.7)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7a29cf35535200af0e98c2bd523e86ec 2261 ufo2ft_2.19.2-1.dsc
+ f929cb9db1bb25f4834b9187ee6d2f67 147038 ufo2ft_2.19.2.orig.tar.gz
+ 86c3c3214be519fd515296f1aefc121a 6472 ufo2ft_2.19.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/ufo2ft
+Vcs-Git: https://salsa.debian.org/fonts-team/ufo2ft.git
+Checksums-Sha256:
+ 6b8fe7e38ea74a8cbc356c35b105d0977aea221f0a1c6ab9a046a6410584415c 2261 ufo2ft_2.19.2-1.dsc
+ d20dc2ff025076528405381ad13c20bed56b9806860d41ff8b8a885d6fb1370f 147038 ufo2ft_2.19.2.orig.tar.gz
+ 25bf5599fe554090b4cce9604cf62f4116b3e947346679f411ebda6a202316b0 6472 ufo2ft_2.19.2-1.debian.tar.xz
+Homepage: https://github.com/googlei18n/ufo2ft/releases
+Package-List: 
+ python3-ufo2ft deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/u/ufo2ft
+Priority: extra
+Section: misc

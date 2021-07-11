@@ -1,0 +1,26 @@
+Package: xmodem
+Binary: python3-xmodem
+Version: 0.4.6+dfsg-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Bastian Germann <bastiangermann@fishpost.de>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all, python3-pytest, lrzsz
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9037b3371767160151c6c26f1c10cd86 2072 xmodem_0.4.6+dfsg-2.dsc
+ 0adc99fbceadb12b409c83701cd1b814 12568 xmodem_0.4.6+dfsg.orig.tar.xz
+ ac50845ff3909e969abdd44462e09d6e 2524 xmodem_0.4.6+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/xmodem
+Vcs-Git: https://salsa.debian.org/python-team/packages/xmodem.git
+Checksums-Sha256:
+ 14fb5928adbe03c52a73336c66bfcfb26247f51d06bf7b77e7430b1cfd980b0f 2072 xmodem_0.4.6+dfsg-2.dsc
+ 38696f46dc611b3d1b089425527ca7827c558d69d420fca8bf9d0b14e7f4b0c8 12568 xmodem_0.4.6+dfsg.orig.tar.xz
+ a5444810cbf8c6feb3ca4f5d213bb25d2748a634a0ef603c6f84bb8271de8cf3 2524 xmodem_0.4.6+dfsg-2.debian.tar.xz
+Homepage: https://github.com/tehmaze/xmodem
+Package-List: 
+ python3-xmodem deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/x/xmodem
+Priority: extra
+Section: misc

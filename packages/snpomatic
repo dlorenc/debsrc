@@ -1,0 +1,27 @@
+Package: snpomatic
+Binary: snpomatic
+Version: 1.0-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper-compat (= 12), asciidoctor, antiword
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b71c6d0377f2a7e912f25be0b5da0550 1990 snpomatic_1.0-5.dsc
+ bac27c60847ad8036faafd7c9a335b5c 66546 snpomatic_1.0.orig.tar.gz
+ d39322a780f0c6fc287bf3796bdf9566 9620 snpomatic_1.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/snpomatic
+Vcs-Git: https://salsa.debian.org/med-team/snpomatic.git
+Checksums-Sha256:
+ bea986a42ca0c3ffe8a257667969cf080e9e7a2ed4b9cb22bb2f10e3a3c9ebcc 1990 snpomatic_1.0-5.dsc
+ b90123226e24edfa5c2ca296f9414b5aa005d3da77ad80b5c576adddbb38a094 66546 snpomatic_1.0.orig.tar.gz
+ 3218c6c8d2e25d202c17fdd0a39b7ed700339fbce2b7c37325b1f6b2926e5f8a 9620 snpomatic_1.0-5.debian.tar.xz
+Homepage: https://github.com/magnusmanske/snpomatic
+Package-List: 
+ snpomatic deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: samtools
+Directory: pool/main/s/snpomatic
+Priority: optional
+Section: misc

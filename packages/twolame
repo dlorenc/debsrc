@@ -1,0 +1,27 @@
+Package: twolame
+Binary: libtwolame-dev, libtwolame0, twolame
+Version: 0.4.0-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper-compat (= 12), libsndfile1-dev, pkg-config
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d9f2d91c128a94d10dae7b2c7c1b477e 2048 twolame_0.4.0-2.dsc
+ 400c164ed096c7aea82bcf8edcd3f6f9 890908 twolame_0.4.0.orig.tar.gz
+ af9e0d9d9b6c08291c7848aefe88d757 4740 twolame_0.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/twolame
+Vcs-Git: https://salsa.debian.org/multimedia-team/twolame.git
+Checksums-Sha256:
+ b5e662bbb076be28d1de5004ba6325b2df340eb7812d5071ba9d7f5d64faf7cc 2048 twolame_0.4.0-2.dsc
+ cc35424f6019a88c6f52570b63e1baf50f62963a3eac52a03a800bb070d7c87d 890908 twolame_0.4.0.orig.tar.gz
+ c11737831db6c13b0346b5d23d39ab40235ad09373d57356dd8b23263499d67a 4740 twolame_0.4.0-2.debian.tar.xz
+Homepage: http://www.twolame.org
+Package-List: 
+ libtwolame-dev deb libdevel optional arch=any
+ libtwolame0 deb libs optional arch=any
+ twolame deb sound optional arch=any
+Directory: pool/main/t/twolame
+Priority: source
+Section: sound

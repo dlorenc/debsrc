@@ -1,0 +1,32 @@
+Package: rust-crossbeam
+Binary: librust-crossbeam-dev, librust-crossbeam+alloc-dev, librust-crossbeam+crossbeam-channel-dev, librust-crossbeam+crossbeam-deque-dev, librust-crossbeam+crossbeam-queue-dev, librust-crossbeam+std-dev
+Version: 0.7.2-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paul van Tilburg <paulvt@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-crossbeam-channel-0.4+default-dev <!nocheck>, librust-crossbeam-deque-0.7+default-dev <!nocheck>, librust-crossbeam-epoch-0.8+std-dev <!nocheck>, librust-crossbeam-epoch-0.8-dev <!nocheck>, librust-crossbeam-queue-0.2+default-dev <!nocheck>, librust-crossbeam-utils-0.7+std-dev <!nocheck>, librust-crossbeam-utils-0.7-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 993fe1f982217041ff9b5f175f81ceff 3090 rust-crossbeam_0.7.2-3.dsc
+ 7eacc7e48a12a5f915b9680d11b297eb 9851 rust-crossbeam_0.7.2.orig.tar.gz
+ 0cd2a768e16129e080d0353c7ac886f5 4180 rust-crossbeam_0.7.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crossbeam
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossbeam]
+Checksums-Sha256:
+ 68dece744b7d16e49a418a321e613dbe3d4f571a3eb122071276fe1373b8ec0f 3090 rust-crossbeam_0.7.2-3.dsc
+ 2d818a4990769aac0c7ff1360e233ef3a41adcb009ebb2036bf6915eb0f6b23c 9851 rust-crossbeam_0.7.2.orig.tar.gz
+ 37ba0ed288a3580fd98e3eae4e4cb8ce7d2011067972ea88ce8edda88aa3d2c3 4180 rust-crossbeam_0.7.2-3.debian.tar.xz
+Homepage: https://github.com/crossbeam-rs/crossbeam
+Package-List: 
+ librust-crossbeam+alloc-dev deb rust optional arch=any
+ librust-crossbeam+crossbeam-channel-dev deb rust optional arch=any
+ librust-crossbeam+crossbeam-deque-dev deb rust optional arch=any
+ librust-crossbeam+crossbeam-queue-dev deb rust optional arch=any
+ librust-crossbeam+std-dev deb rust optional arch=any
+ librust-crossbeam-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-rand-0.7+default-dev
+Directory: pool/main/r/rust-crossbeam
+Priority: extra
+Section: misc

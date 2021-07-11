@@ -1,0 +1,24 @@
+Package: rust-locale-config
+Binary: librust-locale-config-dev
+Version: 0.2.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Nikos Tsipinakis <nikos@tsipinakis.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-regex-1+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ df01648d174f19912f5150b0ed6f63c3 2251 rust-locale-config_0.2.2-2.dsc
+ af6c36c70743d754fa11eab76ccfaa61 21329 rust-locale-config_0.2.2.orig.tar.gz
+ 955013413b6fa22060dcd1bd923989d1 3864 rust-locale-config_0.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/locale-config
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/locale-config]
+Checksums-Sha256:
+ 6097f671b75df145aeb994598ab5ea33b8e91c6bafb035b0400de4add8727c0c 2251 rust-locale-config_0.2.2-2.dsc
+ 73ef55dc359b7add52285668e1dfd90853bd729d16adce674f55d95c8a6f62c6 21329 rust-locale-config_0.2.2.orig.tar.gz
+ e97a97305f80ea1f4055c9a22392788533f762263265a3208167c6cb2b84045e 3864 rust-locale-config_0.2.2-2.debian.tar.xz
+Package-List: 
+ librust-locale-config-dev deb rust optional arch=any
+Directory: pool/main/r/rust-locale-config
+Priority: extra
+Section: misc

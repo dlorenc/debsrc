@@ -1,0 +1,27 @@
+Package: density-fitness
+Binary: density-fitness
+Version: 1.0.0-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Maarten L. Hekkelman <maarten@hekkelman.com>
+Build-Depends: debhelper-compat (= 13), libboost-iostreams-dev, libboost-program-options-dev, libcifpp-dev, libpdb-redo-dev, libzeep-dev, autoconf-archive, libgsl-dev, libclipper-dev, libnewuoa-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 65a3db3ed3461debf9104dbe3468ad64 2275 density-fitness_1.0.0-2.dsc
+ 520f14de133f5e9fa14d2fe71776246a 96684 density-fitness_1.0.0.orig.tar.gz
+ 825e158e186226265cb6a4d8df176266 3652 density-fitness_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/density-fitness
+Vcs-Git: https://salsa.debian.org/med-team/density-fitness.git
+Checksums-Sha256:
+ 208c107e75ebde2fc193a6a221798ba1d55690ddfc2f4e2b245ba296ea40dae9 2275 density-fitness_1.0.0-2.dsc
+ d4c16b9f29881a2257f154fd5ca92d36e5d58da00b99f20105fdb78e8df09b6c 96684 density-fitness_1.0.0.orig.tar.gz
+ 196a05e74fe7e2b00f5efbbfe5091027e87f9e704450456892cc1586829ac1b3 3652 density-fitness_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/PDB-REDO/density-fitness
+Package-List: 
+ density-fitness deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: libcifpp-dev, libpdb-redo-dev
+Directory: pool/main/d/density-fitness
+Priority: extra
+Section: misc

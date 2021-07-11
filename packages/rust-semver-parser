@@ -1,0 +1,27 @@
+Package: rust-semver-parser
+Binary: librust-semver-parser-dev
+Version: 0.10.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-pest-2+default-dev <!nocheck>, librust-pest-derive-2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9b5f7fab728a2c804bfc74cb33a83608 1710 rust-semver-parser_0.10.0-1.dsc
+ 62cde3def3d803cca1b9f289dc8a706b 20247 rust-semver-parser_0.10.0.orig.tar.gz
+ c1020e493bdba00ff5ad33244588981f 2608 rust-semver-parser_0.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/semver-parser
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/semver-parser]
+Checksums-Sha256:
+ 4277483ca0ed19ed32caa895fe41b6b12c3b77b94ab35c20b61be0fa20741032 1710 rust-semver-parser_0.10.0-1.dsc
+ 0e012c6c5380fb91897ba7b9261a0f565e624e869d42fe1a1d03fa0d68a083d5 20247 rust-semver-parser_0.10.0.orig.tar.gz
+ b765bb375c00bb8260260eaa32aeb3e496e19325d9694972596c99e8eab70e9c 2608 rust-semver-parser_0.10.0-1.debian.tar.xz
+Homepage: https://github.com/steveklabnik/semver-parser
+Package-List: 
+ librust-semver-parser-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-semver-parser
+Priority: extra
+Section: misc

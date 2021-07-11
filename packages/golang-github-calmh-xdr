@@ -1,0 +1,28 @@
+Package: golang-github-calmh-xdr
+Binary: golang-github-calmh-xdr-dev, genxdr
+Version: 2.0.1-6
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-go
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 0561b96ff466346398c1742d9fb57138 2224 golang-github-calmh-xdr_2.0.1-6.dsc
+ 2dba8cd0946ec67cea3fc4cafbd0a3e1 10386 golang-github-calmh-xdr_2.0.1.orig.tar.gz
+ e9509e418e6118c380aeb6a68f08bd4e 2776 golang-github-calmh-xdr_2.0.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-calmh-xdr
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-calmh-xdr.git
+Checksums-Sha256:
+ 65c5206a93bbd95c30ac0c0635d82d0ad78b59463ff9c405ffa671a98ca16e0c 2224 golang-github-calmh-xdr_2.0.1-6.dsc
+ 39c606c68f927c936d8480405cac5767dd4c8f51e31b04845f6b8abca792f358 10386 golang-github-calmh-xdr_2.0.1.orig.tar.gz
+ 3184761df80c11a2b6c15c50927841d2a542bc10a7228fc911045a072250df1f 2776 golang-github-calmh-xdr_2.0.1-6.debian.tar.xz
+Homepage: https://github.com/calmh/xdr
+Go-Import-Path: github.com/calmh/xdr
+Package-List: 
+ genxdr deb devel optional arch=any
+ golang-github-calmh-xdr-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-calmh-xdr
+Priority: extra
+Section: golang

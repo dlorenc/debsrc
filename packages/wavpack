@@ -1,0 +1,27 @@
+Package: wavpack
+Binary: libwavpack1, libwavpack-dev, wavpack
+Version: 5.4.0-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sebastian Dröge <slomo@debian.org>, Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5bb517923127c87a938dfd6ad52c506c 2059 wavpack_5.4.0-1.dsc
+ a320328520a5a6b4d911f3a433b3f056 863429 wavpack_5.4.0.orig.tar.bz2
+ d74a248eb271e7a127b845daead7bc92 6468 wavpack_5.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/wavpack
+Vcs-Git: https://salsa.debian.org/multimedia-team/wavpack.git
+Checksums-Sha256:
+ 71b44908b6012865f079c443c4b80f28d115461d7368ab663637c5845292b85b 2059 wavpack_5.4.0-1.dsc
+ 0716a6dcf9a72d61005e1b09bbbd61aaf49837cb4e4a351992a6daed16cac034 863429 wavpack_5.4.0.orig.tar.bz2
+ c19abfa6f3bec2980777c80c46844ad3fc30b94001a5e6b69bf8289819002b4f 6468 wavpack_5.4.0-1.debian.tar.xz
+Homepage: http://www.wavpack.com
+Package-List: 
+ libwavpack-dev deb libdevel optional arch=any
+ libwavpack1 deb libs optional arch=any
+ wavpack deb sound optional arch=any
+Directory: pool/main/w/wavpack
+Priority: source
+Section: sound

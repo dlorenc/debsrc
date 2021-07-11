@@ -1,0 +1,30 @@
+Package: clazy
+Binary: clazy, clazy-tests
+Version: 1.9-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Clark <sgclark@kde.org>, Pino Toscano <pino@debian.org>
+Build-Depends: chrpath, clang (>= 1:7.0~), clang-tools (>= 1:7.0~), cmake (>= 3.7~), debhelper-compat (= 13), libclang-cpp-dev (>= 1:7.0~), libclang-dev (>= 1:7.0~), llvm-dev (>= 1:7.0~), python3:any <!nocheck>, qtbase5-dev <!nocheck>, qtdeclarative5-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6d3050957cb393f44038e0a6dc3053e8 2499 clazy_1.9-3.dsc
+ b9991a4f46976b20f430d25a3477debe 394856 clazy_1.9.orig.tar.xz
+ cbf34a2d4c92c4ece90176ec6ef2600d 195 clazy_1.9.orig.tar.xz.asc
+ aeccb7932b76eda00dc81ba2f927aa5c 18464 clazy_1.9-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/clazy
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/clazy.git
+Checksums-Sha256:
+ 11392b9565bf7ce8b0f6e4085faabe35a17238dff3c9046b00239367679f5e2e 2499 clazy_1.9-3.dsc
+ 4c6c2e473e6aa011cc5fab120ebcffec3fc11a9cc677e21ad8c3ea676eb076f8 394856 clazy_1.9.orig.tar.xz
+ 8d07bf8b00b6525ed9e78ce3dde2f21a8f8ae847338c8e5b22b2bda90031fd58 195 clazy_1.9.orig.tar.xz.asc
+ 3fc9190a58947942c20a40cdd21287b0d14f500ffd3ba61008b02563c654ad3f 18464 clazy_1.9-3.debian.tar.xz
+Homepage: https://www.kdab.com/clazy-video/
+Package-List: 
+ clazy deb devel optional arch=any
+ clazy-tests deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3, qtbase5-dev, qtdeclarative5-dev
+Directory: pool/main/c/clazy
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: reclass
+Binary: reclass, python3-reclass, reclass-doc
+Version: 1.7.0-1.1
+Maintainer: Alexander Sulfrian <asulfrian@zedat.fu-berlin.de>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-ddt, python3-pyparsing, python3-setuptools, python3-six, python3-sphinx, python3-yaml
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a366be475bb9d597c726afb5e6c2be00 2072 reclass_1.7.0-1.1.dsc
+ 7ae90081c694bead33cb4c6b74f6a7c1 91451 reclass_1.7.0.orig.tar.gz
+ aba735a543c601f09b97650940a1067d 6900 reclass_1.7.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/animux/reclass
+Vcs-Git: https://salsa.debian.org/animux/reclass.git
+Checksums-Sha256:
+ 91b1ca5e7ab7fbaf5729c8519d1142934f409ef506949bd16cd02073ec53af89 2072 reclass_1.7.0-1.1.dsc
+ 94fee507e72b664213ec68f9fc5b12964e4eafe08dbfeb90a74d041742471a68 91451 reclass_1.7.0.orig.tar.gz
+ b769867c8d15baa060d64aae8c5e102bdecce79964875e4b164100ae57917b8a 6900 reclass_1.7.0-1.1.debian.tar.xz
+Homepage: https://github.com/salt-formulas/reclass
+Package-List: 
+ python3-reclass deb python optional arch=all
+ reclass deb admin optional arch=all
+ reclass-doc deb doc optional arch=all
+Directory: pool/main/r/reclass
+Priority: extra
+Section: misc

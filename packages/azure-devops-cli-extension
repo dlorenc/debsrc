@@ -1,0 +1,27 @@
+Package: azure-devops-cli-extension
+Binary: python3-azext-devops
+Version: 0.19.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-azure-cli <!nocheck>, python3-azure-cli-testsdk <!nocheck>, python3-distro <!nocheck>, python3-msrest <!nocheck>, python3-pytest <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e53d3a6a32f318fffaf3dae1cc99cc16 2078 azure-devops-cli-extension_0.19.0-1.dsc
+ b8322a48a74d344de5b46969ecd51c1d 2816165 azure-devops-cli-extension_0.19.0.orig.tar.gz
+ 5a4854dbed02519c1b7b476c07408a12 4216 azure-devops-cli-extension_0.19.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/azure-devops-cli-extension
+Vcs-Git: https://salsa.debian.org/python-team/packages/azure-devops-cli-extension.git
+Checksums-Sha256:
+ cac22ad756e4e1ea82d4d34d08444ce109422b7e74f53c91fb40731bbd38a553 2078 azure-devops-cli-extension_0.19.0-1.dsc
+ 9de458e614b8d09f0f260dd595bd61fdf27393d895c065a516aefa0e0fa159cd 2816165 azure-devops-cli-extension_0.19.0.orig.tar.gz
+ 7550ba9a508a44a7dc994e41352712bc4f384273000661e7aec682b41c0f78de 4216 azure-devops-cli-extension_0.19.0-1.debian.tar.xz
+Homepage: https://github.com/Azure/azure-devops-cli-extension
+Package-List: 
+ python3-azext-devops deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/a/azure-devops-cli-extension
+Priority: extra
+Section: misc

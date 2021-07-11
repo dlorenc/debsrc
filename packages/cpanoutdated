@@ -1,0 +1,27 @@
+Package: cpanoutdated
+Binary: cpanoutdated
+Version: 0.32-1.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Kanashiro <kanashiro@debian.org>
+Build-Depends: debhelper (>= 10), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libcpan-distnameinfo-perl, liblocal-lib-perl, liburi-perl, libwww-perl, perl (>= 5.15.8) | libmodule-metadata-perl
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ a7c7339d62fa86ef7b6586a0fcab8660 2182 cpanoutdated_0.32-1.1.dsc
+ 5aef4148c9d5d592414105bef8249271 14560 cpanoutdated_0.32.orig.tar.gz
+ 03b56483a5ef9d9c3d5bea25c4b3eec0 2476 cpanoutdated_0.32-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/cpanoutdated.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/cpanoutdated
+Checksums-Sha256:
+ 8ba5944c285526e610787954ee0109800c7099835403f28e6ed4b0e33a69c3ae 2182 cpanoutdated_0.32-1.1.dsc
+ eb4106d33fd747a2ba4276d1628da1bb5f0b9eaf25e6761a449cb9060a582153 14560 cpanoutdated_0.32.orig.tar.gz
+ 96b019c90927aeca48d92d290b7106b09d2716c34d4c31c5eb4016dc70a3836c 2476 cpanoutdated_0.32-1.1.debian.tar.xz
+Homepage: https://metacpan.org/release/cpan-outdated
+Package-List: 
+ cpanoutdated deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/c/cpanoutdated
+Priority: source
+Section: misc

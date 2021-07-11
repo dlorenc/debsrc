@@ -1,0 +1,27 @@
+Package: debci
+Binary: debci, debci-worker, debci-collector
+Version: 2.15.2
+Maintainer: Debian CI team <team+ci@tracker.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>,
+Build-Depends: debhelper-compat (= 12), debootstrap, amqp-tools, autopkgtest (>= 5.5~) <!pkg.debci.runtime>, curl, dctrl-tools, debian-archive-keyring, devscripts, distro-info, fonts-font-awesome (>= 4.0.3~), inotify-tools <!pkg.debci.runtime>, jq, libjs-bootstrap, libjs-jquery, libjs-jquery-flot, moreutils, parallel, patchutils, postgresql <!pkg.debci.runtime>, rabbitmq-server <!pkg.debci.runtime>, rerun <!pkg.debci.runtime>, retry, rsync, ruby, ruby-activerecord (>= 2:5.2), ruby-bunny, ruby-database-cleaner <!pkg.debci.runtime>, ruby-erubi, ruby-foreman <!pkg.debci.runtime>, ruby-pg, ruby-rack-test <!pkg.debci.runtime>, ruby-rspec (>= 2.14) <!pkg.debci.runtime>, ruby-sinatra, ruby-sinatra-contrib, ruby-kaminari-activerecord, ruby-sqlite3, ruby-thor, shellcheck <!pkg.debci.runtime>, shunit2 <!pkg.debci.runtime>, yard <!pkg.debci.runtime>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (native)
+Files:
+ b7006002c311dd136a640d05a5b4a893 2833 debci_2.15.2.dsc
+ 04fb62b40fc206bf3116e1574e0b5ae6 119700 debci_2.15.2.tar.xz
+Vcs-Browser: https://salsa.debian.org/ci-team/debci
+Vcs-Git: https://salsa.debian.org/ci-team/debci.git
+Checksums-Sha256:
+ f8d1eee335c56f0a8c7afd6ad92f5753e1b1b2d662f95cb30160bcb5b65463a9 2833 debci_2.15.2.dsc
+ 6dabe969e34e37909a45b65db59d41485c9d19b11e4c0a9cd1d7c2b7161ecb04 119700 debci_2.15.2.tar.xz
+Homepage: http://ci.debian.net/
+Package-List: 
+ debci deb devel optional arch=all
+ debci-collector deb devel optional arch=all
+ debci-worker deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: autopkgtest, dnsmasq-base, ebtables, iptables, libnss-myhostname, libvirt-clients, libvirt-daemon-system, lxc, lxc-templates, netcat-openbsd, rabbitmq-server, redir, rsync, ruby-database-cleaner, ruby-rack-test, ruby-rspec, schroot, shunit2
+Directory: pool/main/d/debci
+Priority: optional
+Section: misc

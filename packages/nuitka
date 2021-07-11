@@ -1,0 +1,24 @@
+Package: nuitka
+Binary: nuitka
+Version: 0.6.11.3+ds-1.2
+Maintainer: Kay Hayen <kay.hayen@gmail.com>
+Build-Depends: debhelper (>= 9), lsb-release, dh-python | base-files (<< 9.6), base-files (>= 11) | python (>= 2.6.6-2), base-files (>= 11) | python-all-dbg (>= 2.6.6-2), base-files (>= 11) | python-all-dev (>= 2.6.6-2), base-files (>= 11) | python-setuptools, scons, python3-all-dev (>= 3.3), python3-all-dbg (>= 3.3), python3-setuptools, base-files (>= 11) | python-appdirs, python3-appdirs | base-files (<< 7.2), rst2pdf, base-files (>= 11) | python-pil | python-imaging, python3-pil | base-files (<< 11), ccache, strace, chrpath, gdb | lldb
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f558b45ffcd24ce2e4a9e5e1a3d5f1aa 2333 nuitka_0.6.11.3+ds-1.2.dsc
+ 3bc9ca91100367f849c53d33494b44b6 1245751 nuitka_0.6.11.3+ds.orig.tar.gz
+ 7400017346c7fa40c066dafd965fe6c2 12076 nuitka_0.6.11.3+ds-1.2.debian.tar.xz
+Vcs-Browser: https://github.com/Nuitka/Nuitka
+Vcs-Git: https://github.com/Nuitka/Nuitka.git
+Checksums-Sha256:
+ 03079999b400631487bd38e39a89fa552c2e5c99a76cbd19c1b9ca70dad10fe6 2333 nuitka_0.6.11.3+ds-1.2.dsc
+ 95fd05487cb24c748d58d9ed82db396ba6ad676a875825b7347c27059c39bbe5 1245751 nuitka_0.6.11.3+ds.orig.tar.gz
+ b2f935ec8707923ce84c43bcc161f8eb6742b2521d43035ecd0dcd726c96b061 12076 nuitka_0.6.11.3+ds-1.2.debian.tar.xz
+Homepage: https://nuitka.net
+Package-List: 
+ nuitka deb python optional arch=all
+Directory: pool/main/n/nuitka
+Priority: source
+Section: python

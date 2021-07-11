@@ -1,0 +1,28 @@
+Package: pastescript
+Binary: python-pastescript-doc, python3-pastescript
+Version: 2.0.2-4
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Federico Ceratto <federico@debian.org>, Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 10), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: bash-completion, python3-paste, python3-pastedeploy, python3-sphinx
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ b5d2e4fc1e67ea90f444ca6494e3be6b 2270 pastescript_2.0.2-4.dsc
+ 668d76c5f2f5727a28ddcea12081ebb4 119773 pastescript_2.0.2.orig.tar.gz
+ 2757f859e358d4819e1d678a74812367 8212 pastescript_2.0.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pastescript
+Vcs-Git: https://salsa.debian.org/python-team/modules/pastescript.git
+Checksums-Sha256:
+ 1daaa81fbbc62c17965f1f4eddf847a504947c66b2f36867255a7cb882989713 2270 pastescript_2.0.2-4.dsc
+ 348ccd2da31bf49daefab2073338d6ced8177c160d7d86a35e281690ca503953 119773 pastescript_2.0.2.orig.tar.gz
+ 888936d647853cf8c1acb3e3592d703ba2ab61f6712b0f0c1da67c68f97ed7a6 8212 pastescript_2.0.2-4.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/PasteScript
+Package-List: 
+ python-pastescript-doc deb doc optional arch=all
+ python3-pastescript deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pastescript
+Priority: source
+Section: python

@@ -1,0 +1,27 @@
+Package: rust-colored-json
+Binary: librust-colored-json-dev
+Version: 2.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-ansi-term-0.12+default-dev <!nocheck>, librust-atty-0.2+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e636a77e6d4901b7ef712fd1f5fd469b 1862 rust-colored-json_2.1.0-1.dsc
+ ad981580bdf4134a2f77f5c0e8b789cd 12336 rust-colored-json_2.1.0.orig.tar.gz
+ 3527f82ad4fcd0b2fbda125cb08a67b3 6980 rust-colored-json_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/colored-json
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/colored-json]
+Checksums-Sha256:
+ a5e86a0ccb78e54bc23ccc97fea4a6f6505ebdd874168ba9b484ac4135f86eba 1862 rust-colored-json_2.1.0-1.dsc
+ 1fd32eb54d016e203b7c2600e3a7802c75843a92e38ccc4869aefeca21771a64 12336 rust-colored-json_2.1.0.orig.tar.gz
+ a5a0869a42fa50abcd6ded5d043a4e5c1aa186a587c641c914414eac77021bce 6980 rust-colored-json_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/ctron/colored_json
+Package-List: 
+ librust-colored-json-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-colored-json
+Priority: extra
+Section: misc

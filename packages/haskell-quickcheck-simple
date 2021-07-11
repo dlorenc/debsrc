@@ -1,0 +1,28 @@
+Package: haskell-quickcheck-simple
+Binary: libghc-quickcheck-simple-dev, libghc-quickcheck-simple-prof, libghc-quickcheck-simple-doc
+Version: 0.1.1.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Kei Hibino <ex8k.hibino@gmail.com>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-quickcheck2-dev (>= 2), libghc-quickcheck2-prof
+Build-Depends-Indep: ghc-doc, libghc-quickcheck2-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 68eb812fd564bb54623d10173d44869c 2552 haskell-quickcheck-simple_0.1.1.1-1.dsc
+ febf7671224a607d5287cbf70e62f6ea 3707 haskell-quickcheck-simple_0.1.1.1.orig.tar.gz
+ 2253da069a3028574ec47dec110a30e7 2524 haskell-quickcheck-simple_0.1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-quickcheck-simple
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-quickcheck-simple]
+Checksums-Sha256:
+ 6b51f9f9246eaf4008f0cf6285850ed583d6a11bca486dbb01e5527051c51f6b 2552 haskell-quickcheck-simple_0.1.1.1-1.dsc
+ 51358328e5d3ea20dcb668e971e07bc7c8451cade47e930c68e3a6718317032a 3707 haskell-quickcheck-simple_0.1.1.1.orig.tar.gz
+ 12cd56036d51a9a41aa6c953f87d1c3e5efaaabe684917fd94fa8008e8de8e14 2524 haskell-quickcheck-simple_0.1.1.1-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/quickcheck-simple
+Package-List: 
+ libghc-quickcheck-simple-dev deb haskell optional arch=any
+ libghc-quickcheck-simple-doc deb doc optional arch=all
+ libghc-quickcheck-simple-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-quickcheck-simple
+Priority: optional
+Section: misc

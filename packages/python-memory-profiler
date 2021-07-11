@@ -1,0 +1,27 @@
+Package: python-memory-profiler
+Binary: python3-memory-profiler
+Version: 0.52-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper (>= 11), dh-python (>= 2.20160818), dpkg-dev (>= 1.17.14), python3-all, python3-psutil <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 56027a9e4a78f1598e5046ea4650d5c5 2251 python-memory-profiler_0.52-2.dsc
+ 5f1f3ba5c2cda32d6cb215779c943653 29281 python-memory-profiler_0.52.orig.tar.gz
+ 916138f4b644a6058960a03fd49ef395 3420 python-memory-profiler_0.52-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/python-memory-profiler
+Vcs-Git: https://salsa.debian.org/science-team/python-memory-profiler.git
+Checksums-Sha256:
+ 0426fc8081d2544f39a65d8cd3b996c284d16d51e27d7230d67c60d82dbeef98 2251 python-memory-profiler_0.52-2.dsc
+ 906706e5f0d683e99bfcc7c0a816bdfa1936b4d82d8624c5a1a9e20d095ecbc4 29281 python-memory-profiler_0.52.orig.tar.gz
+ a9ed4054e595f68a385ffda623719dc3b9bd54604bfced35562f8e765b9f75ed 3420 python-memory-profiler_0.52-2.debian.tar.xz
+Homepage: https://github.com/fabianp/memory_profiler
+Package-List: 
+ python3-memory-profiler deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-memory-profiler
+Priority: optional
+Section: misc

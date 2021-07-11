@@ -1,0 +1,25 @@
+Package: libconfig-model-dpkg-perl
+Binary: libconfig-model-dpkg-perl
+Version: 2.143
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: dh-sequence-bash-completion, libapt-pkg-perl <!nocheck>, libarray-intspan-perl <!nocheck>, libconfig-model-backend-yaml-perl <!nocheck>, libconfig-model-perl (>= 2.140), libconfig-model-tester-perl (>= 3.006) <!nocheck>, libexporter-lite-perl <!nocheck>, liblog-log4perl-perl <!nocheck>, libmodule-corelist-perl <!nocheck>, libmouse-perl <!nocheck>, libparse-recdescent-perl <!nocheck>, libpath-tiny-perl <!nocheck>, libsoftware-licensemoreutils-perl <!nocheck>, libsort-versions-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-longstring-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-warn-perl <!nocheck>, libtext-autoformat-perl <!nocheck>, libtext-levenshtein-damerau-perl <!nocheck>, libtoml-tiny-perl, libwww-perl <!nocheck>, libyaml-libyaml-perl <!nocheck>, licensecheck (>= 3.0.45) <!nocheck>, lintian (>= 2.57.0~) <!nocheck>, po-debconf <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 071653d1f322fd5433576960c0f7310f 3047 libconfig-model-dpkg-perl_2.143.dsc
+ 73d4bffa3b037948a1aacf5add3a65b3 484628 libconfig-model-dpkg-perl_2.143.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libconfig-model-dpkg-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libconfig-model-dpkg-perl.git
+Checksums-Sha256:
+ 3aba5edd53ed13e248e6e883f8292583b7738af067d8b70c95f48d2608ecf96a 3047 libconfig-model-dpkg-perl_2.143.dsc
+ 9b1562e5443a5e55aa7c26906770f8650fe22c6ca269c2ff255a385dce60726f 484628 libconfig-model-dpkg-perl_2.143.tar.xz
+Dgit: 2cda8e450d8ae49423646bbd8cf459f4751c2d0a debian archive/debian/2.143 https://git.dgit.debian.org/libconfig-model-dpkg-perl
+Package-List: 
+ libconfig-model-dpkg-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libconfig-model-dpkg-perl
+Priority: source
+Section: misc

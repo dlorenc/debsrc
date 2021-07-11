@@ -1,0 +1,27 @@
+Package: pdepend
+Binary: pdepend
+Version: 2.8.0-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Prach Pongpanich <prachpub@gmail.com>, David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, php-symfony-config, php-symfony-dependency-injection, phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ed3b473dab8df4e8bbbaf539deb9bbf2 1777 pdepend_2.8.0-2.dsc
+ 7e4a9b992a195ef3cd457f1908ccd99a 505163 pdepend_2.8.0.orig.tar.gz
+ 6749899b105e52a48e96d320e68de359 18848 pdepend_2.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/pdepend
+Vcs-Git: https://salsa.debian.org/php-team/pear/pdepend.git -b debian/latest
+Checksums-Sha256:
+ 074ce2eb99e7304008a17e2dcb456fac64ebd199d9034f24288d92644f9db893 1777 pdepend_2.8.0-2.dsc
+ 24b22185e8f46b62c11a418b559eaf19095d04744ab27d8bdb09783ec1418e49 505163 pdepend_2.8.0.orig.tar.gz
+ a9e47a4a74af57a919e7e0e577d4631b482d033615cc242b85fa176c27c4b8e1 18848 pdepend_2.8.0-2.debian.tar.xz
+Homepage: https://pdepend.org
+Package-List: 
+ pdepend deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpab, phpunit
+Directory: pool/main/p/pdepend
+Priority: optional
+Section: misc

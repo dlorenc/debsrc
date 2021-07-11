@@ -1,0 +1,28 @@
+Package: medicalterms
+Binary: wgerman-medical, hunspell-de-med
+Version: 20160103-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Dr. Tobias Quathamer <toddy@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: aspell-de, dictionaries-common-dev, recode
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4121c880deb12ef83742283b725bf345 2180 medicalterms_20160103-5.dsc
+ 82b76c73d9fc6f77d5b55e5d095277c3 119546 medicalterms_20160103.orig.tar.gz
+ a4deac60ba1dc82421d63b96c21273b7 8408 medicalterms_20160103-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/medicalterms
+Vcs-Git: https://salsa.debian.org/med-team/medicalterms.git
+Checksums-Sha256:
+ f80be2e18ea4fdd30826c688b9e9e6d487e78762664c309804cc02ffdec77b13 2180 medicalterms_20160103-5.dsc
+ 7d0e449c3132e0b248c19a68793910d3afd1c5c801792e176d10a09906dacf1b 119546 medicalterms_20160103.orig.tar.gz
+ 6c143082966765b5b785f557b3b86f2ad43269f3c79bff09e5530bed27fc989a 8408 medicalterms_20160103-5.debian.tar.xz
+Homepage: https://github.com/toddy15/medicalterms
+Package-List: 
+ hunspell-de-med deb localization optional arch=all
+ wgerman-medical deb localization optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/medicalterms
+Priority: source
+Section: text

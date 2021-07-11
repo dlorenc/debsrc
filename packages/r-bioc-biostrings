@@ -1,0 +1,27 @@
+Package: r-bioc-biostrings
+Binary: r-bioc-biostrings
+Version: 2.58.0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biocgenerics (>= 0.31.5), r-bioc-s4vectors (>= 0.25.14), r-bioc-iranges (>= 2.21.6), r-bioc-xvector (>= 0.27.2), r-cran-crayon
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9b6af5b4e56fab390effed487d20771b 2283 r-bioc-biostrings_2.58.0-1.dsc
+ b8348ec1e83b25c77a0a67a372857ffa 12709623 r-bioc-biostrings_2.58.0.orig.tar.gz
+ 8f2a2e4dc64e4d5e83ac88b37bb77b32 4864 r-bioc-biostrings_2.58.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-biostrings
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-biostrings.git
+Checksums-Sha256:
+ 18e25efba15403bf408f6eb03c96e9611f056861c2b2a08c6d84ef2d43797992 2283 r-bioc-biostrings_2.58.0-1.dsc
+ 0577271fccd6996202bd724455c882231eab7c9448f40ce20bd9c13a8e8678e5 12709623 r-bioc-biostrings_2.58.0.orig.tar.gz
+ acdc0695260b9c56322e9dce2d40b0a29d3da831c28a220c03c206e8f3dfd5a3 4864 r-bioc-biostrings_2.58.0-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/Biostrings/
+Package-List: 
+ r-bioc-biostrings deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-runit
+Directory: pool/main/r/r-bioc-biostrings
+Priority: optional
+Section: misc

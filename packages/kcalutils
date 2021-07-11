@@ -1,0 +1,28 @@
+Package: kcalutils
+Binary: libkf5calendarutils-dev, libkf5calendarutils5
+Version: 4:20.08.3-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Sandro Knauß <hefee@debian.org>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), extra-cmake-modules (>= 5.71.0~), libgrantlee5-dev (>= 5.2~), libkf5calendarcore-dev (>= 5:5.71.0~), libkf5codecs-dev (>= 5.71.0~), libkf5config-dev (>= 5.71.0~), libkf5configwidgets-dev (>= 5.71.0~), libkf5coreaddons-dev (>= 5.71.0~), libkf5i18n-dev (>= 5.71.0~), libkf5iconthemes-dev (>= 5.71.0~), libkf5identitymanagement-dev (>= 20.08.3~), libkf5widgetsaddons-dev (>= 5.71.0~), oxygen-icon-theme, pkg-kde-tools (>> 0.15.15), qtbase5-dev (>= 5.13.0~), xauth, xvfb
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8deb9c39a4ef688a43bdb995be815dc5 2851 kcalutils_20.08.3-1.dsc
+ 4362285945715c76b4be36ea6fefcdfe 324796 kcalutils_20.08.3.orig.tar.xz
+ 0cd39da71d068c956f50eea8f43ff2ef 488 kcalutils_20.08.3.orig.tar.xz.asc
+ ef5f42fa66f8a496e1c6fe0a0ec2c273 9884 kcalutils_20.08.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kcalutils
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kcalutils.git
+Checksums-Sha256:
+ f0d8ae410656f6cf363e22b25ae23ab7b15874a513db586b46e0b1e7031082fc 2851 kcalutils_20.08.3-1.dsc
+ fc422e1c00c743fc0235a9ad9c53b8037e7a7e7862dce38ea49ef2b61f815ec4 324796 kcalutils_20.08.3.orig.tar.xz
+ 3d0b7f644d9a774d210dc66a8c5c8700bc6743b7fa227966edeeab4e0ff84cbe 488 kcalutils_20.08.3.orig.tar.xz.asc
+ 2df43905d5ac9dbea21ef88f9ad471976d48c706bb74c99c98977b13ad91387a 9884 kcalutils_20.08.3-1.debian.tar.xz
+Homepage: https://invent.kde.org/pim/kcalutils
+Package-List: 
+ libkf5calendarutils-dev deb libdevel optional arch=any
+ libkf5calendarutils5 deb libs optional arch=any
+Directory: pool/main/k/kcalutils
+Priority: optional
+Section: misc

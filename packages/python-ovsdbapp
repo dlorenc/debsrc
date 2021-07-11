@@ -1,0 +1,27 @@
+Package: python-ovsdbapp
+Binary: python-ovsdbapp-doc, python3-ovsdbapp
+Version: 1.6.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 9), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-coverage, python3-fixtures, python3-hacking, python3-isort (>= 4.3.21), python3-netaddr, python3-openstackdocstheme, python3-openvswitch, python3-os-testr, python3-oslo.utils, python3-oslotest, python3-stestr, python3-testscenarios, python3-testtools, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f503adc43e303fa6334c6f11ae9eda8d 2443 python-ovsdbapp_1.6.0-1.dsc
+ 854c11ebd8e08bf6ff67015f3286fa40 68076 python-ovsdbapp_1.6.0.orig.tar.xz
+ 3637ad529ee1ca85a7ebf7ba2ff41a5c 2864 python-ovsdbapp_1.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/libs/python-ovsdbapp
+Vcs-Git: https://salsa.debian.org/openstack-team/libs/python-ovsdbapp.git
+Checksums-Sha256:
+ 8eb8d5e1c54e28d01e96d930d8bcb2b9c4f4e21c602d4fdcd1cd4035b0773491 2443 python-ovsdbapp_1.6.0-1.dsc
+ da617353b8a4dc66aa306bc697c8ac8170fa2fa87fee1dd17cb93a546c823647 68076 python-ovsdbapp_1.6.0.orig.tar.xz
+ dd33fbe16698a2e66828300bf2c33630c5c4fe12f74f8dd95dc0032fe1f7d6f9 2864 python-ovsdbapp_1.6.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/ovsdbapp
+Package-List: 
+ python-ovsdbapp-doc deb doc optional arch=all
+ python3-ovsdbapp deb python optional arch=all
+Directory: pool/main/p/python-ovsdbapp
+Priority: extra
+Section: misc

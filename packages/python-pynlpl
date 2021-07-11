@@ -1,0 +1,27 @@
+Package: python-pynlpl
+Binary: python3-pynlpl
+Version: 1.2.9-1
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Maarten van Gompel <proycon@anaproy.nl>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all (>= 3.3), python3-httplib2 (>= 0.6), python3-lxml (>= 2.2), python3-numpy, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 73d491cfca6b75a9f1bb32ec665f2164 2156 python-pynlpl_1.2.9-1.dsc
+ 89a041e7b4498c48af7b02677b1a6f25 277876 python-pynlpl_1.2.9.orig.tar.gz
+ d502b60eae4a4b23be17ec8a984b8bad 4140 python-pynlpl_1.2.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/python-pynlpl
+Vcs-Git: https://salsa.debian.org/science-team/python-pynlpl.git
+Checksums-Sha256:
+ 5520e3c36dcfcc2cd41e3c437912911d41b57582cf9f74bfa8bfdba00e1d003a 2156 python-pynlpl_1.2.9-1.dsc
+ a7f9db301fe03ac3c98b115a3d000e52cfff46fad10d8df849708a0838a548e5 277876 python-pynlpl_1.2.9.orig.tar.gz
+ 0f97800ce1371e52c8e6cab56b86e6400630ef9333b8b73376f7f76ed6d3dac7 4140 python-pynlpl_1.2.9-1.debian.tar.xz
+Homepage: https://github.com/proycon/pynlpl
+Package-List: 
+ python3-pynlpl deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: git, xmldiff
+Directory: pool/main/p/python-pynlpl
+Priority: optional
+Section: misc

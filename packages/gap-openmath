@@ -1,0 +1,26 @@
+Package: gap-openmath
+Binary: gap-openmath
+Version: 11.5.0+ds-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@alioth-lists.debian.net>
+Uploaders: Jerome Benoit <calculus@rezozer.net>
+Build-Depends: debhelper-compat (= 13), gap (>= 4.11.0), gap-gapdoc (>= 1.6.2), gap-io (>= 4.5.4), texlive-latex-extra, texlive-fonts-recommended
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3d2a7f571cbeb73da0fb823b790dedd8 2864 gap-openmath_11.5.0+ds-2.dsc
+ c8bf71b81568b5a028c0e2b8a03f2f13 72144 gap-openmath_11.5.0+ds.orig.tar.xz
+ a5dc74f9569fdfa0af11be067dd92a74 4856 gap-openmath_11.5.0+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/gap-openmath
+Vcs-Git: https://salsa.debian.org/science-team/gap-openmath.git
+Checksums-Sha256:
+ e7ac932700b4f226c85321cc49d80277bd32543224c2dc21aada0b33f52e5944 2864 gap-openmath_11.5.0+ds-2.dsc
+ 0d50e75900f759d49c6f40c76e08a75663fd6fea9b96e1f20823c271b7dd7e10 72144 gap-openmath_11.5.0+ds.orig.tar.xz
+ e494d7782a798982876ba47ecb6abb8276af824de17560d3077532d27ef98642 4856 gap-openmath_11.5.0+ds-2.debian.tar.xz
+Homepage: https://www.gap-system.org/Packages/openmath.html
+Package-List: 
+ gap-openmath deb math optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/g/gap-openmath
+Priority: optional
+Section: misc

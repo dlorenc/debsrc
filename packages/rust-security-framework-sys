@@ -1,0 +1,27 @@
+Package: rust-security-framework-sys
+Binary: librust-security-framework-sys-dev
+Version: 0.4.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-core-foundation-sys-0.8+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.47-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ dc24519e02e812f4ecb0f3b2c40c1dbe 2420 rust-security-framework-sys_0.4.2-2.dsc
+ 1284141469b427781972d233ba19b968 10426 rust-security-framework-sys_0.4.2.orig.tar.gz
+ 338f4bad90aa444a4b0f80a9502eb6b8 2956 rust-security-framework-sys_0.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/security-framework-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/security-framework-sys]
+Checksums-Sha256:
+ a8659b3788b42edbd2eb53348cba10035e6cb31713c4dadf1c646eecf6e400e8 2420 rust-security-framework-sys_0.4.2-2.dsc
+ 8ddb15a5fec93b7021b8a9e96009c5d8d51c15673569f7c0f6b7204e5b7b404f 10426 rust-security-framework-sys_0.4.2.orig.tar.gz
+ c93784e8d14b02d67729877b499be35b3de1236b073048653c778bba8ceb82bb 2956 rust-security-framework-sys_0.4.2-2.debian.tar.xz
+Homepage: https://lib.rs/crates/security-framework-sys
+Package-List: 
+ librust-security-framework-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-security-framework-sys
+Priority: extra
+Section: misc

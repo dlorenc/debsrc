@@ -1,0 +1,25 @@
+Package: python-fusepy
+Binary: python3-fusepy
+Version: 3.0.1-2
+Maintainer: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper (>= 12), dh-python, python3-all, python3-setuptools, libfuse2
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 809bae8fe5fdc67d7582043d2bb4f829 1627 python-fusepy_3.0.1-2.dsc
+ d383a3c6742755039ba51b6f3f919d5f 11519 python-fusepy_3.0.1.orig.tar.gz
+ 8ced6f11d154f60f2e4a3f8beca7a66f 2264 python-fusepy_3.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-fusepy
+Vcs-Git: https://salsa.debian.org/debian/python-fusepy.git
+Checksums-Sha256:
+ 4990be1cef55c1aed9abd22e5e0b68aaa6c4e846160d7ad3f703e6aa6983c75e 1627 python-fusepy_3.0.1-2.dsc
+ 72ff783ec2f43de3ab394e3f7457605bf04c8cf288a2f4068b4cde141d4ee6bd 11519 python-fusepy_3.0.1.orig.tar.gz
+ 8537747c7e06b71830d64d08777131caac5e9fca616ca8f6576f2c9b81751a22 2264 python-fusepy_3.0.1-2.debian.tar.xz
+Homepage: https://github.com/fusepy/fusepy
+Package-List: 
+ python3-fusepy deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/p/python-fusepy
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-parse-asn1
+Binary: node-parse-asn1
+Version: 5.1.6-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-asn1.js <!nocheck>, node-browserify-aes <!nocheck>, node-evp-bytestokey <!nocheck>, node-pbkdf2 <!nocheck>, node-safe-buffer <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7e2aab8eab1991e8c8a6aec2688e40f9 2231 node-parse-asn1_5.1.6-1.dsc
+ dc95d3ce2bdf266338c0e4fb03475340 20125 node-parse-asn1_5.1.6.orig.tar.gz
+ 9f6cdd3ab9fb04fbb617ab4c11f3a062 3252 node-parse-asn1_5.1.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-parse-asn1
+Vcs-Git: https://salsa.debian.org/js-team/node-parse-asn1.git
+Checksums-Sha256:
+ 630cafe1e05aee9fdbb881eb5d0a1518cf6c0e7546ee8cdde19604e259a79aec 2231 node-parse-asn1_5.1.6-1.dsc
+ e73811084728dcaf396e0443965ac672f6c94907bdfe98d82a6065b5a721e54a 20125 node-parse-asn1_5.1.6.orig.tar.gz
+ 569296e2513f4a3dd4c54a5aee2028a062f31addb170ae29f71b27eb70a0f5ee 3252 node-parse-asn1_5.1.6-1.debian.tar.xz
+Homepage: https://github.com/crypto-browserify/parse-asn1#readme
+Package-List: 
+ node-parse-asn1 deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-parse-asn1
+Priority: extra
+Section: javascript

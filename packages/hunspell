@@ -1,0 +1,28 @@
+Package: hunspell
+Binary: libhunspell-dev, libhunspell-1.7-0, hunspell, hunspell-tools
+Version: 1.7.0-3
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>, Chris Halls <halls@debian.org>, Tim Retout <diocles@debian.org>,
+Build-Depends: debhelper-compat (= 13), gettext, libncurses5-dev, libncursesw5-dev, libreadline-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aa218a4ff67dc94200f701b9672512fe 2232 hunspell_1.7.0-3.dsc
+ b2399a4aa927e8b3e171d9ea6737cc02 482156 hunspell_1.7.0.orig.tar.gz
+ 0f6131f290ee6ba84bf5f71545e1b36c 21576 hunspell_1.7.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/libreoffice-team/hunspell
+Vcs-Git: https://salsa.debian.org/libreoffice-team/hunspell.git
+Checksums-Sha256:
+ f917955044d866233e0bfa0e01fbff6d605ccb6393c415e818604ba88b88e3df 2232 hunspell_1.7.0-3.dsc
+ bb27b86eb910a8285407cf3ca33b62643a02798cf2eef468c0a74f6c3ee6bc8a 482156 hunspell_1.7.0.orig.tar.gz
+ 1bbcadc4880b8af6543b37f42d05d92be1aa8725935974676d3c3af37b21d762 21576 hunspell_1.7.0-3.debian.tar.xz
+Homepage: https://hunspell.github.io/
+Package-List: 
+ hunspell deb text optional arch=any
+ hunspell-tools deb text optional arch=any
+ libhunspell-1.7-0 deb libs optional arch=any
+ libhunspell-dev deb libdevel optional arch=any
+Directory: pool/main/h/hunspell
+Priority: source
+Section: text

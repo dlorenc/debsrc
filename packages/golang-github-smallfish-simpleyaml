@@ -1,0 +1,27 @@
+Package: golang-github-smallfish-simpleyaml
+Binary: golang-github-smallfish-simpleyaml-dev
+Version: 0.0~git20170911.a320310-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-yaml.v2-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1d99b95f0283c5275a5155100b300c88 2481 golang-github-smallfish-simpleyaml_0.0~git20170911.a320310-2.dsc
+ 798008ad49d6cdb71b56a79f79846ca4 3520 golang-github-smallfish-simpleyaml_0.0~git20170911.a320310.orig.tar.xz
+ a7378ca59c43bc6d28f16d62276126ef 2800 golang-github-smallfish-simpleyaml_0.0~git20170911.a320310-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-smallfish-simpleyaml
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-smallfish-simpleyaml.git
+Checksums-Sha256:
+ 17937cae4cb74b193f145c71f1199c6ced3374a48d2e76fa0c409a20dbce688c 2481 golang-github-smallfish-simpleyaml_0.0~git20170911.a320310-2.dsc
+ 850bc010679d958a22a0665b3a6ca33821a1893feeb1971c17e87ccce4f583c7 3520 golang-github-smallfish-simpleyaml_0.0~git20170911.a320310.orig.tar.xz
+ 3b320031078703d8d6489f3270ee81cd96d807e1cb4624bf9f8fc3a3439e0696 2800 golang-github-smallfish-simpleyaml_0.0~git20170911.a320310-2.debian.tar.xz
+Homepage: https://github.com/smallfish/simpleyaml
+Go-Import-Path: github.com/smallfish/simpleyaml
+Package-List: 
+ golang-github-smallfish-simpleyaml-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-smallfish-simpleyaml
+Priority: extra
+Section: golang

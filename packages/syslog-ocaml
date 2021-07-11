@@ -1,0 +1,27 @@
+Package: syslog-ocaml
+Binary: libsyslog-ocaml, libsyslog-ocaml-dev
+Version: 2.0.1-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Eric Cooper <ecc@cmu.edu>, Ralf Treinen <treinen@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, ocaml-dune, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a4a1415341bae689a10018690e4f5035 1881 syslog-ocaml_2.0.1-1.dsc
+ 67b714af4cb913d14d4d9bd75a629213 4304 syslog-ocaml_2.0.1.orig.tar.gz
+ 41f36f884a25cceb2a771005f6f683cc 3264 syslog-ocaml_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/syslog-ocaml
+Vcs-Git: https://salsa.debian.org/ocaml-team/syslog-ocaml.git
+Checksums-Sha256:
+ 59d2be533bbb01c1539abfa4c3042ec8f2f3ee5632f07e8d9f3e00a785c8369f 1881 syslog-ocaml_2.0.1-1.dsc
+ 06fa931fb121d55dfc1181bee256c454fbdd23744cd8df39e89b23fcc18c730f 4304 syslog-ocaml_2.0.1.orig.tar.gz
+ f503f11b95f0d76c5a492a49eb447532741cc6258f7489b8fb90923cfc3e512f 3264 syslog-ocaml_2.0.1-1.debian.tar.xz
+Homepage: https://github.com/geneanet/ocaml-syslog
+Dgit: f24ce407e80cd0860a6d3e4ce79b4df326fce55d debian archive/debian/2.0.1-1 https://git.dgit.debian.org/syslog-ocaml
+Package-List: 
+ libsyslog-ocaml deb ocaml optional arch=any
+ libsyslog-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/s/syslog-ocaml
+Priority: source
+Section: ocaml

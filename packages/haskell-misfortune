@@ -1,0 +1,29 @@
+Package: haskell-misfortune
+Binary: libghc-misfortune-dev, libghc-misfortune-prof, libghc-misfortune-doc, haskell-misfortune
+Version: 0.1.1.2-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Delanoë <anoe@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-cereal-dev, libghc-cereal-prof, libghc-knob-dev, libghc-knob-prof, libghc-monad-loops-dev, libghc-monad-loops-prof, libghc-random-fu-dev (>= 0.2.2), libghc-random-fu-prof, libghc-regex-base-dev, libghc-regex-base-prof, libghc-regex-pcre-dev, libghc-regex-pcre-prof, libghc-semigroups-dev, libghc-semigroups-prof, libghc-utf8-string-dev, libghc-utf8-string-prof, libghc-vector-dev, libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-cereal-doc, libghc-knob-doc, libghc-monad-loops-doc, libghc-random-fu-doc, libghc-regex-base-doc, libghc-regex-pcre-doc, libghc-semigroups-doc, libghc-utf8-string-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e0b6d847638790f514c0f0c1629a6415 3043 haskell-misfortune_0.1.1.2-10.dsc
+ ce81dcbcd1b273575d77dd15ec72515f 1623822 haskell-misfortune_0.1.1.2.orig.tar.gz
+ 3d55d1193250941cf87cc2ec2813926a 3300 haskell-misfortune_0.1.1.2-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-misfortune
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-misfortune]
+Checksums-Sha256:
+ 01248d8ad031650f6921e8a70f93a7c82a9b689d2b9a84c76feccf039bbf9096 3043 haskell-misfortune_0.1.1.2-10.dsc
+ ae4b44215f811e7af6af756c813b9bd6e4161be555f30dd817324f8d1ffe2349 1623822 haskell-misfortune_0.1.1.2.orig.tar.gz
+ 6be15cb2abe5519d2f4a6116133004c4a015539ed21120bdf2d48e441019cfee 3300 haskell-misfortune_0.1.1.2-10.debian.tar.xz
+Homepage: https://github.com/mokus0/misfortune
+Package-List: 
+ haskell-misfortune deb misc optional arch=any
+ libghc-misfortune-dev deb haskell optional arch=any
+ libghc-misfortune-doc deb doc optional arch=all
+ libghc-misfortune-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-misfortune
+Priority: optional
+Section: misc

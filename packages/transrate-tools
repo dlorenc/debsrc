@@ -1,0 +1,26 @@
+Package: transrate-tools
+Binary: transrate-tools
+Version: 1.0.0-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael R. Crusoe <michael.crusoe@gmail.com>
+Build-Depends: debhelper-compat (= 12), cmake, libbamtools-dev (>= 2.4+dfsg-1~), zlib1g-dev, help2man
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 397532c845016f752ee5572c0045544c 2110 transrate-tools_1.0.0-3.dsc
+ 76344f9a81b1fb7b9387306c5d6f0c63 6167 transrate-tools_1.0.0.orig.tar.gz
+ 5c235dce31096517e7f8ec3d5d46edd8 264904 transrate-tools_1.0.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/transrate-tools
+Vcs-Git: https://salsa.debian.org/med-team/transrate-tools.git
+Checksums-Sha256:
+ 356647225a31c5c02c288c5e31b688aef33230b22824d6b47b5f08e3ac79b2bd 2110 transrate-tools_1.0.0-3.dsc
+ cdaac24be4f9ad9caf36834e2bc464758afcb5e746c6e9851255c7ac92fad898 6167 transrate-tools_1.0.0.orig.tar.gz
+ f4d06fe650f62db30ae744968ff09729e755c80e5a2cccc37fd1538ba385770e 264904 transrate-tools_1.0.0-3.debian.tar.xz
+Homepage: https://hibberdlab.com/transrate/
+Package-List: 
+ transrate-tools deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/t/transrate-tools
+Priority: optional
+Section: misc

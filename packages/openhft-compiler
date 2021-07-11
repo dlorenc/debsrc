@@ -1,0 +1,25 @@
+Package: openhft-compiler
+Binary: libopenhft-compiler-java
+Version: 2.2.4-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11), default-jdk, libeasymock-java, libintellij-annotations-java, libmaven-bundle-plugin-java, libslf4j-java, maven-debian-helper (>= 2.0), zip
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 6c40f0031a1776aebf0f4979c9bd9e8c 2188 openhft-compiler_2.2.4-2.dsc
+ 5c40123d30c601161f83317fe2145bbb 11616 openhft-compiler_2.2.4.orig.tar.xz
+ 686325fda738a16e76d66a5c08cb71b7 2716 openhft-compiler_2.2.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/openhft-compiler
+Vcs-Git: https://salsa.debian.org/java-team/openhft-compiler.git
+Checksums-Sha256:
+ 8bcfb36d471fd4c27049870498f8b2101e2041be6ec0c3a3f68fdaa319068241 2188 openhft-compiler_2.2.4-2.dsc
+ 0df37842fdec02097f8e5f5b377488aaf5bd5b3b161c7797c45d63292eb25dd3 11616 openhft-compiler_2.2.4.orig.tar.xz
+ 1f74b3188b7952931d4f6c259e6fc8c1ca313532769e569e5d356b135e80c5f7 2716 openhft-compiler_2.2.4-2.debian.tar.xz
+Homepage: https://github.com/OpenHFT/Java-Runtime-Compiler
+Package-List: 
+ libopenhft-compiler-java deb java optional arch=all
+Directory: pool/main/o/openhft-compiler
+Priority: optional
+Section: misc

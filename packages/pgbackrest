@@ -1,0 +1,28 @@
+Package: pgbackrest
+Binary: pgbackrest, pgbackrest-doc
+Version: 2.33-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Adrian Vondendriesch <adrian.vondendriesch@credativ.de>
+Build-Depends: debhelper (>= 10~), libbz2-dev, liblz4-dev, libpq-dev, libssl-dev, libxml-checker-perl, libyaml-libyaml-perl (>= 0.67), libxml2-dev, libzstd-dev, perl, pkg-config, txt2man, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ae0bb4e97e6a4ac2cf83623abedecec6 2223 pgbackrest_2.33-1.dsc
+ 1bf54925dafe604332a2d84e8e355426 5642397 pgbackrest_2.33.orig.tar.gz
+ f0aa31b654c281598de86208e9450d9c 17380 pgbackrest_2.33-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pgbackrest
+Vcs-Git: https://salsa.debian.org/postgresql/pgbackrest.git
+Checksums-Sha256:
+ 2c90381647b5ba7583372cfc7da84e09a2bf6f8cb951d7afc537065d095d11d4 2223 pgbackrest_2.33-1.dsc
+ 772afaf5cae17fa1fa102c84576b8d6a5074ba3ff510bb86d321c98feebff837 5642397 pgbackrest_2.33.orig.tar.gz
+ 98f015975a49ad3bb1354655e5289570162d4b565568bf71e122ef505ecdd282 17380 pgbackrest_2.33-1.debian.tar.xz
+Homepage: https://www.pgbackrest.org/
+Package-List: 
+ pgbackrest deb database optional arch=any
+ pgbackrest-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: postgresql
+Directory: pool/main/p/pgbackrest
+Priority: optional
+Section: misc

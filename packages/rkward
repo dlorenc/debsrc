@@ -1,0 +1,26 @@
+Package: rkward
+Binary: rkward, rkward-data
+Version: 0.7.2-1
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Thomas Friedrichsmeier <thomas.friedrichsmeier@kdemail.net>, Dylan Aïssi <daissi@debian.org>
+Build-Depends: cmake (>= 2.8.12~), extra-cmake-modules, gettext, pkg-kde-tools, debhelper-compat (= 13), libkf5config-dev (>= 5.4.0~), libkf5coreaddons-dev (>= 5.4.0~), libkf5crash-dev (>= 5.4.0~), libkf5doctools-dev (>= 5.4.0~), libkf5i18n-dev (>= 5.4.0~), libkf5notifications-dev (>= 5.4.0~), libkf5parts-dev (>= 5.4.0~), libkf5texteditor-dev (>= 5.4.0~), libkf5xmlgui-dev (>= 5.4.0~), libkf5webkit-dev (>= 5.4.0~), libkf5widgetsaddons-dev (>= 5.4.0~), libkf5windowsystem-dev (>= 5.4.0~), libqt5webkit5-dev (>= 5.2.0~), qtbase5-dev (>= 5.2.0~), qtscript5-dev (>= 5.2.0~), r-base-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 754a8cae816efb6b97a3dc1f57145ae9 2552 rkward_0.7.2-1.dsc
+ 7907920bcd1451fdd257041f9083c02c 6307769 rkward_0.7.2.orig.tar.gz
+ d11dd4b751c050426044a961a9189b77 8652 rkward_0.7.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/rkward
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/rkward.git
+Checksums-Sha256:
+ 9faf9b480424b3a1183bbc29e2f23eaf742ba0a93fc15440b06cf9293731d20b 2552 rkward_0.7.2-1.dsc
+ 452350a4057d9dc87bb7c7e2f5c38b5cb9715b42141186b0e8c4a28e3dd2adf6 6307769 rkward_0.7.2.orig.tar.gz
+ fdb9f82ed422d92372afadd302e7d45ae723aeb6146f53a8595a4c8b7eae13e1 8652 rkward_0.7.2-1.debian.tar.xz
+Homepage: https://rkward.kde.org
+Package-List: 
+ rkward deb math optional arch=any
+ rkward-data deb math optional arch=all
+Directory: pool/main/r/rkward
+Priority: source
+Section: math

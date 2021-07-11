@@ -1,0 +1,28 @@
+Package: ruby-toml
+Binary: ruby-toml
+Version: 0.2.0-3.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Axel Wagner <mero@merovius.de>, Youhei SASAKI <uwabami@gfd-dennou.org>
+Build-Depends: debhelper (>= 11~), gem2deb, ruby-minitest, ruby-multi-json, ruby-parslet (>= 1.8.0)
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 31f2d7c34832a6467efcb7d2de84b8cb 2164 ruby-toml_0.2.0-3.1.dsc
+ b2bea94eb2008adbdb60043ec818a28b 11042 ruby-toml_0.2.0.orig.tar.gz
+ e80e6248fefd3db72655733ad085a033 4328 ruby-toml_0.2.0-3.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-toml
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-toml.git
+Checksums-Sha256:
+ af4754c125df9784928b9ab59f03f3bf2d47d976c1e11b83aef2f0181242d867 2164 ruby-toml_0.2.0-3.1.dsc
+ 2a951b8da8f8a9d52611b58b1b28c0acc564c20b4cff0e44cd30b0c4a9becbb8 11042 ruby-toml_0.2.0.orig.tar.gz
+ 0c876aa2417ea6bf8eb332562bb556c5240500138f7a456546cddf507eb24a6c 4328 ruby-toml_0.2.0-3.1.debian.tar.xz
+Homepage: https://github.com/jm/toml
+Package-List: 
+ ruby-toml deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner, quilt, ruby-minitest, ruby-multi-json, ruby-parslet
+Directory: pool/main/r/ruby-toml
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: python-mne
+Binary: python3-mne
+Version: 0.19.1+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, libgl1-mesa-dri, libjs-jquery, libjs-jquery-ui, python3-vtk7, python3-all, python3-coverage, python3-joblib, python3-matplotlib, python3-nibabel, python3-nose, python3-numpy, python3-pytest, python3-pytest-cov, python3-scipy, python3-setuptools, python3-sklearn, python3-tk, python3-sphinx, xauth, xvfb, yui-compressor
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e31771d9ef136f4d927617159c10b4f9 2415 python-mne_0.19.1+dfsg-1.dsc
+ 72fe80fb71ee94b6a9c0bc53032e597a 48097144 python-mne_0.19.1+dfsg.orig.tar.xz
+ c91a2e08b5e5d491c0e78c23a43e72e0 32352 python-mne_0.19.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-mne
+Vcs-Git: https://salsa.debian.org/med-team/python-mne.git
+Checksums-Sha256:
+ 7678909ae385cb37f08cbcbf3bdc6f8c96d02f7eee011c97620baf96ff49f0b9 2415 python-mne_0.19.1+dfsg-1.dsc
+ f4a93831e4ff510e99faf6dc02d1cf715606d07cad20f6fdd5921aab30de93f6 48097144 python-mne_0.19.1+dfsg.orig.tar.xz
+ 436770faf229b61dc8bbfdebb59373d837ea78e3440e82b16aa1b7d82caafb62 32352 python-mne_0.19.1+dfsg-1.debian.tar.xz
+Homepage: http://martinos.org/mne
+Package-List: 
+ python3-mne deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-mne
+Priority: optional
+Section: misc

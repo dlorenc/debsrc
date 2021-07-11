@@ -1,0 +1,28 @@
+Package: farbfeld
+Binary: farbfeld
+Version: 4-2
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Uploaders: Paride Legovini <pl@ninthfloor.org>, Dmitry Bogatov <KAction@gnu.org>
+Build-Depends: debhelper (>= 11~), libjpeg-dev, libpng-dev
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 69b805f1e2b6ab6a2fcecc114eb5b6ce 2136 farbfeld_4-2.dsc
+ 1e39351f5e8c9e2b5910959565a23349 10340 farbfeld_4.orig.tar.gz
+ 65aa498fd3b77f30d3b03c4a8956a6d2 4080 farbfeld_4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-phototools-team/farbfeld
+Vcs-Git: https://salsa.debian.org/debian-phototools-team/farbfeld.git
+Checksums-Sha256:
+ 12e1c91490fe0367c97bb185721caf2d26656629744ac7e16339484ae61e2506 2136 farbfeld_4-2.dsc
+ c7df5921edd121ca5d5b1cf6fb01e430aff9b31242262e4f690d3af72ccbe72a 10340 farbfeld_4.orig.tar.gz
+ f163481549ca3a26560712fff67530dd729445f039476ea6833b101123c148ce 4080 farbfeld_4-2.debian.tar.xz
+Homepage: https://tools.suckless.org/farbfeld
+Dgit: 5a3fa07bd5264ed09cd7ab769047fe69ecb0157d debian archive/debian/4-2 https://git.dgit.debian.org/farbfeld
+Package-List: 
+ farbfeld deb graphics optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: imagemagick
+Directory: pool/main/f/farbfeld
+Priority: extra
+Section: misc

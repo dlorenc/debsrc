@@ -1,0 +1,27 @@
+Package: golang-pty
+Binary: golang-github-kr-pty-dev
+Version: 1.1.6-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Anthony Fok <foka@debian.org>, Tim Potter <tpot@hpe.com>, Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c7e4a3c719d8cbaea76651be983afc51 2134 golang-pty_1.1.6-1.dsc
+ 6b20756e530089293a9f982ea6530598 8212 golang-pty_1.1.6.orig.tar.gz
+ 70d0ef3d59ad81ea5a4e0229a1783e61 5988 golang-pty_1.1.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-pty
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-pty.git
+Checksums-Sha256:
+ c1a12b8697ac7852f18311a17e832acc8db4ad9fe65771a42eb3415c14af3f44 2134 golang-pty_1.1.6-1.dsc
+ 4007a798f9febd11832a966fefa2ed7ccb0326a36146e4de33a16e3850e91411 8212 golang-pty_1.1.6.orig.tar.gz
+ 11ccd9d14c70095c93ff708e891460f0ce84bdfc9016cac5586c7e6f133bde4e 5988 golang-pty_1.1.6-1.debian.tar.xz
+Homepage: https://github.com/kr/pty
+Go-Import-Path: github.com/kr/pty
+Package-List: 
+ golang-github-kr-pty-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-pty
+Priority: extra
+Section: golang

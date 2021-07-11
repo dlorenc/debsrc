@@ -1,0 +1,27 @@
+Package: rust-gtk-sys
+Binary: librust-gtk-sys-dev
+Version: 0.9.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-atk-sys-0.9+default-dev <!nocheck>, librust-cairo-sys-rs-0.9+default-dev <!nocheck>, librust-gdk-pixbuf-sys-0.9+default-dev <!nocheck>, librust-gdk-sys-0.9+default-dev <!nocheck>, librust-gio-sys-0.9+default-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pango-sys-0.9+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, libgtk-3-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 7f2b626cfacfc54f593ba122d8764018 2742 rust-gtk-sys_0.9.0-2.dsc
+ 6001605b7057bfa23468dbf711abdd0c 125258 rust-gtk-sys_0.9.0.orig.tar.gz
+ 58e34ea298a2e18e0ef0129976b2c545 2912 rust-gtk-sys_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gtk-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gtk-sys]
+Checksums-Sha256:
+ fbac1fe057c06bae4d680d48aa2f08e69b2a06202f5386ab53f825b8c81f4b06 2742 rust-gtk-sys_0.9.0-2.dsc
+ bbd9395497ae1d1915d1d6e522d51ae8745bf613906c34ac191c411250fc4025 125258 rust-gtk-sys_0.9.0.orig.tar.gz
+ c5dcc1aedebb3ce0b3b85c3dac4fd3c169ae3c363ce9573d30fbc09e45acca9a 2912 rust-gtk-sys_0.9.0-2.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-gtk-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-shell-words-0.1+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-gtk-sys
+Priority: extra
+Section: misc

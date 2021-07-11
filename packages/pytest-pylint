@@ -1,0 +1,27 @@
+Package: pytest-pylint
+Binary: python3-pytest-pylint
+Version: 0.18.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ondřej Kobližek <kobla@debian.org>, Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, pylint (>= 2.2.2-2), python3-all, python3-mock, python3-pytest (>= 6.0), python3-pytest-flake8, python3-pytest-runner, python3-setuptools, python3-six
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0610637ab3cab02505123372dfac6b77 2314 pytest-pylint_0.18.0-2.dsc
+ b0b28ec355ff8cafe6c0a3414eeb1545 12448 pytest-pylint_0.18.0.orig.tar.gz
+ c8767c7c1bfa49c858467b138226137d 14876 pytest-pylint_0.18.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pytest-pylint
+Vcs-Git: https://salsa.debian.org/python-team/packages/pytest-pylint.git
+Checksums-Sha256:
+ b5f2ab6112cadc0e4003778e6b840f6eb60708a6efd472b04273ad2d50825a4b 2314 pytest-pylint_0.18.0-2.dsc
+ da46cd3d822862ace7d7a0ecc28ec3c51e16e7de4af25c1e4f851a9ef689a9a7 12448 pytest-pylint_0.18.0.orig.tar.gz
+ dbe591a06edb006ba338fee2ca05e0b76e0b5c27685fa0cb5fa3972b357fe237 14876 pytest-pylint_0.18.0-2.debian.tar.xz
+Homepage: https://github.com/carsongee/pytest-pylint
+Package-List: 
+ python3-pytest-pylint deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-mock, python3-pytest-flake8, python3-setuptools
+Directory: pool/main/p/pytest-pylint
+Priority: optional
+Section: misc

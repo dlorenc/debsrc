@@ -1,0 +1,27 @@
+Package: ruby-tool
+Binary: ruby-tool
+Version: 0.2.3-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9~), gem2deb, rake, ruby-rspec
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 0d7697b7ea5189f7e4d47e36b44bc67c 2037 ruby-tool_0.2.3-1.1.dsc
+ 3326818cc8e2191611499ae241adeaf7 6104 ruby-tool_0.2.3.orig.tar.gz
+ afd89f87da0eb129b04c4b84e3b7116f 2512 ruby-tool_0.2.3-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-tool.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-tool.git
+Checksums-Sha256:
+ 07a6c41d29098e17408a05a3f9bb08f13357d7904bad456f2d6fd94439cb3b3b 2037 ruby-tool_0.2.3-1.1.dsc
+ f4f71359c3e3335c6f9a0a0fa537a63d9fd44f58df98eecbfdc83efa6ebf69e1 6104 ruby-tool_0.2.3.orig.tar.gz
+ ed84a56a7ccb3ec141e51e46775f8259b9c003d311b7b3e90c8e900e71c27ab3 2512 ruby-tool_0.2.3-1.1.debian.tar.xz
+Homepage: https://github.com/rkh/tool
+Package-List: 
+ ruby-tool deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-tool
+Priority: optional
+Section: misc

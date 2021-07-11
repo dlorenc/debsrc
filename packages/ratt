@@ -1,0 +1,27 @@
+Package: ratt
+Binary: ratt
+Version: 0.0~git20180127.c44413c-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>,
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-pault-go-debian-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ e5457a9e2056325058d301b2e47c993c 1762 ratt_0.0~git20180127.c44413c-2.dsc
+ 76d16d33e4b8f5de489dc4da956728ea 5760 ratt_0.0~git20180127.c44413c.orig.tar.gz
+ d8f073be00269674c012ff1f7cc515e4 3344 ratt_0.0~git20180127.c44413c-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/ratt
+Vcs-Git: https://salsa.debian.org/go-team/packages/ratt.git
+Checksums-Sha256:
+ 2e69478611b7a6d00b0dc113f0c51b8abf0e4b1311b06bc7810ca2466da1c4ef 1762 ratt_0.0~git20180127.c44413c-2.dsc
+ 8304b6fea42574d6225368abfb3111d8c89fe5ab9cc033e897f51d2fc6e91744 5760 ratt_0.0~git20180127.c44413c.orig.tar.gz
+ 379c529239db74039bafb6ddcb18027f25f0e7e4a36238fb2a9a84748e22e5b6 3344 ratt_0.0~git20180127.c44413c-2.debian.tar.xz
+Homepage: https://github.com/debian/ratt
+Go-Import-Path: github.com/debian/ratt
+Package-List: 
+ ratt deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/r/ratt
+Priority: optional
+Section: misc

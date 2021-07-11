@@ -1,0 +1,27 @@
+Package: node-static-module
+Binary: node-static-module
+Version: 2.1.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper (>= 11), dh-buildinfo, nodejs (>= 4.7), dpkg-dev (>= 1.17.14), jdupes, node-tape (>= 3.4.0) <!nocheck>, node-object-inspect (>= 1.4.0) <!nocheck>, node-static-eval (>= 0.2.0) <!nocheck>, node-concat-stream (>= 1.6.0) <!nocheck>, node-through2 (>= 2.0.3) <!nocheck>, node-escodegen (>= 1.9.0) <!nocheck>, node-lodash-packages (>= 4.15.0) <!nocheck>, node-falafel (>= 2.1.0) <!nocheck>, node-has (>= 1.0.1) <!nocheck>, node-duplexer2 (>= 0.1.4) <!nocheck>, node-quote-stream (>= 1.0.2) <!nocheck>, node-resolve (>= 1.1) <!nocheck>, node-tap (>= 10) <!nocheck>
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 2cc2b8f377158305feebb3ff71fa3e84 2817 node-static-module_2.1.1-1.dsc
+ c77bc938b3d4168dd339a59cab1692d0 10549 node-static-module_2.1.1.orig.tar.gz
+ f52ace158baf0eaa837364e17e5324ab 3972 node-static-module_2.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-static-module
+Vcs-Git: https://salsa.debian.org/js-team/node-static-module.git
+Checksums-Sha256:
+ 78fc9fd26d8354d7de29b8cf542820b448e7a94be242a7ce7374b1b4f6f6aebe 2817 node-static-module_2.1.1-1.dsc
+ aaea99411d6fc8a79631d3e172bb2f3d2398d82e3de9df67d4abc63ddb440374 10549 node-static-module_2.1.1.orig.tar.gz
+ 52f40a4906dc64901a57f6118ef945f6f1d588636fe0ebe054943ed908156783 3972 node-static-module_2.1.1-1.debian.tar.xz
+Homepage: https://github.com/substack/static-module
+Package-List: 
+ node-static-module deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-concat-stream, node-duplexer2, node-escodegen, node-falafel, node-lodash-packages, node-object-inspect, node-quote-stream, node-resolve, node-static-eval, node-tap, node-tape, node-through2
+Directory: pool/main/n/node-static-module
+Priority: optional
+Section: javascript

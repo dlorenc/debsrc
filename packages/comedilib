@@ -1,0 +1,28 @@
+Package: comedilib
+Binary: libcomedi-dev, libcomedi0, python3-comedilib
+Version: 0.11.0+5-1
+Maintainer: Gudjon I. Gudjonsson <gudjon@gudjon.org>
+Build-Depends: debhelper (>= 13~), dh-python, dpkg-dev (>= 1.16.1~), swig, docbook-utils, dblatex, bison, flex, libtool, xmlto, imagemagick, fop, libboost-program-options-dev, libgsl-dev, python3-all-dev, libboost-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e51b1997f9e0d9a8ce6520ddbfb83f42 2518 comedilib_0.11.0+5-1.dsc
+ 2ec10a6c01396d27c03e0b3abdf94bf2 234900 comedilib_0.11.0+5.orig-comedi-calibrate.tar.gz
+ 4def45b32a5e96ce0f7810aaf5feee9e 1802501 comedilib_0.11.0+5.orig.tar.gz
+ 2958ad7f827ddd649b0d00c4aee000ea 12128 comedilib_0.11.0+5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/electronics-team/comedilib
+Vcs-Git: https://salsa.debian.org/electronics-team/comedilib.git
+Checksums-Sha256:
+ 84facde0828639502eb6a5a26ca04fc60ab83967c41c0db87c21ef41e3bf8b2f 2518 comedilib_0.11.0+5-1.dsc
+ e807f42a0cea49f8f570e6f0b60b3bf63142dcc04d79496ee50304459ba9c916 234900 comedilib_0.11.0+5.orig-comedi-calibrate.tar.gz
+ cc9c699ea3061a98e4b0ea8d6efdaabf1f96721c61d2cd943815fd2c335ae698 1802501 comedilib_0.11.0+5.orig.tar.gz
+ c9d2b3bf84e8ea4b02930926bd3713e2ab466c7413a6456cfe8f34c2a4b91aa4 12128 comedilib_0.11.0+5-1.debian.tar.xz
+Homepage: http://www.comedi.org
+Package-List: 
+ libcomedi-dev deb libdevel optional arch=any
+ libcomedi0 deb libs optional arch=any
+ python3-comedilib deb python optional arch=any
+Directory: pool/main/c/comedilib
+Priority: source
+Section: libs

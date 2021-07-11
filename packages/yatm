@@ -1,0 +1,23 @@
+Package: yatm
+Binary: yatm
+Version: 0.9-2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 10), cmake, libspeex-dev, libmad0-dev, libsndfile1-dev, libao-dev, libsoundtouch-dev, libslang2-dev
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ efe52478a90eb0aef2fab604c27c9d46 1762 yatm_0.9-2.dsc
+ 2828566569de481f22bde566219965fd 16507 yatm_0.9.orig.tar.gz
+ 79894f78472805b8e5a434e5408a9e99 2108 yatm_0.9-2.debian.tar.xz
+Vcs-Git: git://github.com/mlang/yatm.git
+Checksums-Sha256:
+ 21f92b521c7fd2c4b5589ba851e5e70d703c523022cf436d017b9c5dc9524b74 1762 yatm_0.9-2.dsc
+ 3a85ef2d67fb739af1e24fbe0e4cfbfbda407dc0fd7b3bd3c667ee8f0a4462bd 16507 yatm_0.9.orig.tar.gz
+ 0b60e887fb0163a0bf007c9524645bb960dcb7031b474a54aff7bec3882acb9a 2108 yatm_0.9-2.debian.tar.xz
+Homepage: https://github.com/mlang/yatm
+Package-List: 
+ yatm deb sound optional arch=any
+Directory: pool/main/y/yatm
+Priority: source
+Section: sound

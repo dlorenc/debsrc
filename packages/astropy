@@ -1,0 +1,29 @@
+Package: astropy
+Binary: python3-astropy, python-astropy-doc, astropy-utils
+Version: 4.2-5
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: cython3, debhelper-compat (= 13), dh-python, graphviz, libcfitsio-dev | libcfitsio3-dev, libexpat1-dev, libjs-jquery, libjs-jquery-datatables, libjs-mathjax, pkg-config, python3-all-dev, python3-astropy-sphinx-theme, python3-configobj, python3-erfa, python3-extension-helpers, python3-h5py, python3-jinja2, python3-matplotlib, python3-nose, python3-numpy (>= 1:1.13), python3-ply (>= 3.5), python3-pytest (>= 3.1), python3-pytest-astropy, python3-pytest-mpl, python3-scipy, python3-setuptools, python3-setuptools-scm, python3-six (>= 1.10.0), python3-sphinx (>= 1.3), python3-sphinx-astropy, python3-sphinx-automodapi, python3-yaml, wcslib-dev (>= 5.8), zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4710ee740cbd3aa5a3a1ab089098710c 2763 astropy_4.2-5.dsc
+ 6801e8c78ed2f02fd8fdc0ea65048f95 7462293 astropy_4.2.orig.tar.gz
+ 0f5e75f24ea3ae56f73ab6fd338d27c8 28640 astropy_4.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/astropy
+Vcs-Git: https://salsa.debian.org/debian-astro-team/astropy.git
+Checksums-Sha256:
+ 085e766b1c99f40fbe6d4f9093fc542040997c6e56144e686ae92d4362345f9b 2763 astropy_4.2-5.dsc
+ 2c194f8a429b8399de64a413a06881ea49f0525cabaa2d78fc132b9e970adc6a 7462293 astropy_4.2.orig.tar.gz
+ 821abc466ee60f6460139505b922e4da4890dd960208005f1cc02026c06d8f2b 28640 astropy_4.2-5.debian.tar.xz
+Homepage: https://astropy.org
+Package-List: 
+ astropy-utils deb science optional arch=all
+ python-astropy-doc deb doc optional arch=all
+ python3-astropy deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest, python3-scipy
+Directory: pool/main/a/astropy
+Priority: extra
+Section: misc

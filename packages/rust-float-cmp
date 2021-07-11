@@ -1,0 +1,27 @@
+Package: rust-float-cmp
+Binary: librust-float-cmp-dev, librust-float-cmp+default-dev
+Version: 0.6.0-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-num-traits-0.2-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 55097eba4b03a2d30e2c2d49ef6d1f75 2252 rust-float-cmp_0.6.0-3.dsc
+ fc0869fb9fb21c697b37e794a5e77c75 9498 rust-float-cmp_0.6.0.orig.tar.gz
+ 44f685929c2245f273c04709126796df 2784 rust-float-cmp_0.6.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/float-cmp
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/float-cmp]
+Checksums-Sha256:
+ 18be938bf8de87791b98b255a716faa00ee349e423aa2aadfbbd7721ca6eb1f7 2252 rust-float-cmp_0.6.0-3.dsc
+ da62c4f1b81918835a8c6a484a397775fff5953fe83529afd51b05f5c6a6617d 9498 rust-float-cmp_0.6.0.orig.tar.gz
+ 581386185fcfd063a2f6cbf0fa52e5e39a89899e4c60c9dab5324d7ec35ed33b 2784 rust-float-cmp_0.6.0-3.debian.tar.xz
+Package-List: 
+ librust-float-cmp+default-dev deb rust optional arch=any
+ librust-float-cmp-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-float-cmp
+Priority: extra
+Section: misc

@@ -1,0 +1,30 @@
+Package: libksba
+Binary: libksba-dev, libksba8, libksba-mingw-w64-dev
+Version: 1.5.0-3
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Uploaders: Andreas Metzler <ametzler@debian.org>, Eric Dorland <eric@debian.org>, James Westby <jw+debian@jameswestby.net>
+Build-Depends: debhelper-compat (= 13), libgpg-error-dev (>= 1.8)
+Build-Depends-Indep: libgpg-error-mingw-w64-dev, mingw-w64
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e53dde3a91cba5cd240d4ffded4b0f32 2470 libksba_1.5.0-3.dsc
+ a43bc51bd1bf13295623398d0f2d88b4 656518 libksba_1.5.0.orig.tar.bz2
+ ca5d3f30089d95548b749ca0dff24078 228 libksba_1.5.0.orig.tar.bz2.asc
+ 720013a58c3f4d5834bc2a0e55b9eeb1 14300 libksba_1.5.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnutls-team/libksba
+Vcs-Git: https://salsa.debian.org/gnutls-team/libksba.git
+Checksums-Sha256:
+ 6fd1995d38bd061c81b21ea28fb1f4127b610e18a7deec9214b2bd335bfa93ef 2470 libksba_1.5.0-3.dsc
+ ae4af129216b2d7fdea0b5bf2a788cd458a79c983bb09a43f4d525cc87aba0ba 656518 libksba_1.5.0.orig.tar.bz2
+ 41a9020381b8201f15b9d7fc2a1abdb90ab2723152d1af0b77a58b12b4884a0f 228 libksba_1.5.0.orig.tar.bz2.asc
+ ac66ace2752bba3ce8ddfe4f464800da606dcc58862eea493ce88ed341815df4 14300 libksba_1.5.0-3.debian.tar.xz
+Homepage: https://www.gnupg.org/related_software/libksba/
+Package-List: 
+ libksba-dev deb libdevel optional arch=any
+ libksba-mingw-w64-dev deb libdevel optional arch=all
+ libksba8 deb libs optional arch=any
+Directory: pool/main/libk/libksba
+Priority: source
+Section: libs

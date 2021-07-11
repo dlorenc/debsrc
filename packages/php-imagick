@@ -1,0 +1,27 @@
+Package: php-imagick
+Binary: php-imagick
+Version: 3.4.4+php8.0+3.4.4-2+deb11u2
+Maintainer: Debian PHP PECL Maintainers <team+php-pecl@tracker.debian.org>
+Uploaders: Guillaume Delacour <gui@iroqwa.org>, Lior Kaplan <kaplan@debian.org>
+Build-Depends: debhelper (>= 10~), dh-php, libmagickwand-6.q16-dev | libmagickwand-dev, php-all-dev
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 58d73e4954c005f18089d98f13ffdedf 2388 php-imagick_3.4.4+php8.0+3.4.4-2+deb11u2.dsc
+ 681870a2da4e0061b2bfc5124a83ab36 199196 php-imagick_3.4.4+php8.0+3.4.4.orig.tar.xz
+ 87c50def68558766236009967404ed53 23412 php-imagick_3.4.4+php8.0+3.4.4-2+deb11u2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pecl/php-imagick
+Vcs-Git: https://salsa.debian.org/php-team/pecl/php-imagick.git
+Checksums-Sha256:
+ 6259133b3159824238a2810b7b7b448d86bbdfb8b00064f152b028c66cbf86da 2388 php-imagick_3.4.4+php8.0+3.4.4-2+deb11u2.dsc
+ 190b49d1aa562b529529b72c92ccaa25ddd9a7a400e1f486134971f912d75972 199196 php-imagick_3.4.4+php8.0+3.4.4.orig.tar.xz
+ d1b7b17e8c4703adaf614f89e4c7e0aa5a270a43683fc1a3223a2b848776a1a9 23412 php-imagick_3.4.4+php8.0+3.4.4-2+deb11u2.debian.tar.xz
+Homepage: http://pecl.php.net/package/imagick
+Package-List: 
+ php-imagick deb php optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gsfonts, imagemagick-6.q16, php-cli, phpunit, xml2
+Directory: pool/main/p/php-imagick
+Priority: source
+Section: php

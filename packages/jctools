@@ -1,0 +1,25 @@
+Package: jctools
+Binary: libjctools-java
+Version: 2.0.2-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 10), default-jdk, junit4, libmaven-bundle-plugin-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 95e87e8d1254fc70e7a71e969971bf44 2028 jctools_2.0.2-1.dsc
+ faccde53a9d2f7fccab0d5168a9a177a 171560 jctools_2.0.2.orig.tar.xz
+ ef79a0a65ce01aa7bfd6ed63b6d008da 2656 jctools_2.0.2-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/jctools.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/jctools.git
+Checksums-Sha256:
+ 2ad699eb441f98c0067ba30e16afe1ff07d16ee002b8e2aea74ddc5ab08efd8e 2028 jctools_2.0.2-1.dsc
+ 73a50018f755711b54a2768330d287e324bd391b13029edc4dc06a35a22f5a3d 171560 jctools_2.0.2.orig.tar.xz
+ 389b19a8f595ea8893651e0f9c35adb3e6b8241e380387b9cdefadb269429498 2656 jctools_2.0.2-1.debian.tar.xz
+Homepage: http://jctools.github.io/JCTools/
+Package-List: 
+ libjctools-java deb java optional arch=all
+Directory: pool/main/j/jctools
+Priority: optional
+Section: misc

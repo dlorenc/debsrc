@@ -1,0 +1,27 @@
+Package: logrotate
+Binary: logrotate
+Version: 3.18.0-2
+Maintainer: Christian Göttsche <cgzones@googlemail.com>
+Build-Depends: acl [linux-any] <!nocheck>, debhelper-compat (= 13), libacl1-dev [linux-any], libpopt-dev, libselinux1-dev [linux-any]
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3360fb45227299221bec7e3daf3494ce 2230 logrotate_3.18.0-2.dsc
+ c21e586457db80e70606b45a9d84dfe8 161888 logrotate_3.18.0.orig.tar.xz
+ d1efc09c05faf95281c601780895005a 833 logrotate_3.18.0.orig.tar.xz.asc
+ 5b4a91afb7f67bff496cbc36faf7fb71 20680 logrotate_3.18.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/logrotate
+Vcs-Git: https://salsa.debian.org/debian/logrotate.git
+Checksums-Sha256:
+ 63dcda18a6787202f846720e6a7f2ab6ddc27f106614ce8fdbee065b3ac9dd62 2230 logrotate_3.18.0-2.dsc
+ 841f81bf09d0014e4a2e11af166bb33fcd8429cc0c2d4a7d3d9ceb3858cfccc5 161888 logrotate_3.18.0.orig.tar.xz
+ e4fcdd01c3336276f09728219c6368f3c3ae5de787be1b71ad71a318a77089a7 833 logrotate_3.18.0.orig.tar.xz.asc
+ 91a8a3a10bfbc08dcfbbe2aea3c48cf37aa2e6f4fe2ce53511155f8c76b32851 20680 logrotate_3.18.0-2.debian.tar.xz
+Homepage: https://github.com/logrotate/logrotate
+Package-List: 
+ logrotate deb admin important arch=any
+Testsuite: autopkgtest
+Directory: pool/main/l/logrotate
+Priority: source
+Section: admin

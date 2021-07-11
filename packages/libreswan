@@ -1,0 +1,29 @@
+Package: libreswan
+Binary: libreswan
+Version: 4.3-1
+Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Uploaders: Paul Wouters <paul@libreswan.org>, Ondřej Surý <ondrej@debian.org>,
+Build-Depends: bison, bzip2, debhelper-compat (= 13), flex, htmldoc, libaudit-dev [linux-any], libcap-ng-dev [linux-any], libcurl4-nss-dev, libevent-dev, libkrb5-dev, libldap2-dev, libldns-dev, libnspr4-dev, libnss3-dev (>= 3.16.1), libnss3-tools, libpam0g-dev, libselinux1-dev [linux-any], libsystemd-dev, libunbound-dev (>= 1.6.5~), man2html, pkg-config, po-debconf, systemd, xmlto
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6e0a39fa229011d77a4f6962bba431be 2018 libreswan_4.3-1.dsc
+ bb912cffe20163c4ee17ed2f17b3efab 3489322 libreswan_4.3.orig.tar.gz
+ 783e0101261c2e6b22787ea23048edec 862 libreswan_4.3.orig.tar.gz.asc
+ a6f32563533150022b71a52d6f4f919b 13340 libreswan_4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libreswan
+Vcs-Git: https://salsa.debian.org/debian/libreswan.git
+Checksums-Sha256:
+ be7ef2cb564dd5eb9e6313dbcab30a92909bb86b75de6e57ee5aee490b8c2938 2018 libreswan_4.3-1.dsc
+ 7ec4c06290b9643a7422b1f2f77c366b79f039117168d6b80cde0b11d76b8970 3489322 libreswan_4.3.orig.tar.gz
+ 6b1c91d1c8cb53c8124e27a2261dff22bb5299be9031607514624fb8d1c7f2da 862 libreswan_4.3.orig.tar.gz.asc
+ 47892811bb48d3846efa45030c3eb21d46b9ef587b7189efa9427dc6734ebe2b 13340 libreswan_4.3-1.debian.tar.xz
+Homepage: https://libreswan.org/
+Package-List: 
+ libreswan deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: bzip2, ca-certificates, diffutils, dnsutils, iputils-ping, libnss3-tools, systemd, wget
+Directory: pool/main/libr/libreswan
+Priority: optional
+Section: misc

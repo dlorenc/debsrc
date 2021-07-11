@@ -1,0 +1,27 @@
+Package: doctrine
+Binary: php-doctrine-orm
+Version: 2.8.1+dfsg-3
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, php-doctrine-common, php-doctrine-dbal, php-doctrine-inflector (>= 2), php-doctrine-instantiator, php-sqlite3, php-symfony-console, php-symfony-yaml, phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ caf528240656b833a059597c09df6436 1989 doctrine_2.8.1+dfsg-3.dsc
+ 316b7046f5b9ad23e1f36c5037c5f8a2 567000 doctrine_2.8.1+dfsg.orig.tar.xz
+ bd5b8acec68fbe754222dda617ea75f5 41580 doctrine_2.8.1+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/doctrine
+Vcs-Git: https://salsa.debian.org/php-team/pear/doctrine.git -b debian/latest
+Checksums-Sha256:
+ 675e7b8ef64641234f99e1f88d016aed6f2c7f8a98825c4e4741961c978bf647 1989 doctrine_2.8.1+dfsg-3.dsc
+ 6f79ac3691a4e84f15427ca75c9783b1673b8f666d1fe89714422bb5bd24953f 567000 doctrine_2.8.1+dfsg.orig.tar.xz
+ fdd283bbd2d15ce4b094ff7cb80a963e7267640e84515b46103abb7306b53df9 41580 doctrine_2.8.1+dfsg-3.debian.tar.xz
+Homepage: https://www.doctrine-project.org/projects/orm.html
+Package-List: 
+ php-doctrine-orm deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: patch, php-doctrine-inflector, php-sqlite3, php-symfony-yaml, phpab, phpunit
+Directory: pool/main/d/doctrine
+Priority: source
+Section: oldlibs

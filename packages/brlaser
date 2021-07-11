@@ -1,0 +1,28 @@
+Package: brlaser
+Binary: printer-driver-brlaser
+Version: 6-1
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Uploaders: Didier Raboud <odyx@debian.org>
+Build-Depends: cmake, libcups2-dev, libcupsimage2-dev, debhelper-compat (= 12)
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ aff11d2c020b84cc5412783c78bef8ca 1925 brlaser_6-1.dsc
+ d4ac1bf8e66389013d2d458780ef4257 22807 brlaser_6.orig.tar.gz
+ cc1204a8a06df809e636d916f1955795 3588 brlaser_6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/printing-team/brlaser
+Vcs-Git: https://salsa.debian.org/printing-team/brlaser.git
+Checksums-Sha256:
+ 91088c8853c7bd5fcf591206cfb42640d7c240459f6fa9809d67959ddecf43e3 1925 brlaser_6-1.dsc
+ fe7c117eb7e837b6a1751f61a813c218f68a5d8fc40f3403f6a4b1cf5a4758dd 22807 brlaser_6.orig.tar.gz
+ ccca66db5ab17a3df4f0c5e157d778efce68cbdf2485a727eafd74234641e68e 3588 brlaser_6-1.debian.tar.xz
+Homepage: https://github.com/pdewacht/brlaser
+Dgit: 4cc9dd38732d86793f599d2715bfe95c8337f74c debian archive/debian/6-1 https://git.dgit.debian.org/brlaser
+Package-List: 
+ printer-driver-brlaser deb text optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: cups, cups-client
+Directory: pool/main/b/brlaser
+Priority: optional
+Section: misc

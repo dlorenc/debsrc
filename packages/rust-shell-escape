@@ -1,0 +1,24 @@
+Package: rust-shell-escape
+Binary: librust-shell-escape-dev
+Version: 0.1.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 63405271dc77d86b16209b9306efa461 1446 rust-shell-escape_0.1.4-1.dsc
+ e1f0ffecee08ffe559a819b20e587336 6764 rust-shell-escape_0.1.4.orig.tar.gz
+ 922647f1684796b23b9b9130a96328bd 2304 rust-shell-escape_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git
+Checksums-Sha256:
+ c6994ac3691879995b77f153ec28cc077888a28805c2bdcfc243f9f425798da3 1446 rust-shell-escape_0.1.4-1.dsc
+ 170a13e64f2a51b77a45702ba77287f5c6829375b04a69cf2222acd17d0cfab9 6764 rust-shell-escape_0.1.4.orig.tar.gz
+ b9f48c065fbc6e0363cbd26f00f32c16a093a933a2bf37fd80dce092bb3cda0a 2304 rust-shell-escape_0.1.4-1.debian.tar.xz
+Package-List: 
+ librust-shell-escape-dev deb rust optional arch=any
+Directory: pool/main/r/rust-shell-escape
+Priority: extra
+Section: misc

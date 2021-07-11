@@ -1,0 +1,24 @@
+Package: zfs-fuse
+Binary: zfs-fuse
+Version: 0.7.0-21
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), libaio-dev, libattr1-dev, libfuse-dev (>= 2.8.7-2), libssl-dev, scons, zlib1g-dev
+Architecture: amd64 armel armhf i386 powerpc powerpcspe ppc64 ppc64el sh4 sparc sparc64
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ a2bfb63da91480afcab78dad53cac573 2079 zfs-fuse_0.7.0-21.dsc
+ e69203b27f1cc3733fc79a2ea9d957e5 1362379 zfs-fuse_0.7.0.orig.tar.bz2
+ 81002c0e7d173fc4ed393dadd0819d29 27736 zfs-fuse_0.7.0-21.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/zfs-fuse
+Vcs-Git: https://salsa.debian.org/debian/zfs-fuse.git
+Checksums-Sha256:
+ e996450d7c3ce8cc25352e482c753cb2710fae23ae409e0fff09a555398d0b7b 2079 zfs-fuse_0.7.0-21.dsc
+ 507361eb3d96ad4155e6e6d26437ecc0d371c749106500976085a72dc399f868 1362379 zfs-fuse_0.7.0.orig.tar.bz2
+ d7f2dc6b8f1ec8db4923a356fcbb2d8cf494667507095c31d5ae2c31126ab1fe 27736 zfs-fuse_0.7.0-21.debian.tar.xz
+Homepage: http://zfs-fuse.net
+Package-List: 
+ zfs-fuse deb otherosfs optional arch=amd64,armel,armhf,i386,powerpc,powerpcspe,ppc64,ppc64el,sh4,sparc,sparc64
+Directory: pool/main/z/zfs-fuse
+Priority: source
+Section: otherosfs

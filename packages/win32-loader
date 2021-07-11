@@ -1,0 +1,25 @@
+Package: win32-loader
+Binary: win32-loader
+Version: 0.10.4
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Thomas Gaugler <thomas@dadie.net>, Didier Raboud <odyx@debian.org>
+Build-Depends: nsis (>= 3), mingw-w64, librsvg2-bin, gawk, gettext (>= 0.20), grub-pc-bin, imagemagick, ipxe, loadlin, locales-all, gpgv-win32, debian-archive-keyring, cpio, wine [i386], debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 8d63a9196ce2b314a63020ff0606bf8c 2008 win32-loader_0.10.4.dsc
+ cd9d26cde57d8f5790d45b7c6ae50feb 289252 win32-loader_0.10.4.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/win32-loader
+Vcs-Git: https://salsa.debian.org/installer-team/win32-loader.git
+Checksums-Sha256:
+ 19402d67b9a5c4813f0ba1bf2c72f45599a1cc7393b20a5cee38a21a7d1d2b60 2008 win32-loader_0.10.4.dsc
+ 6080985c954e425ba65a8923e9d5af926cf799e05948763070fbf4d1ff250e5b 289252 win32-loader_0.10.4.tar.xz
+Dgit: 9aeaf913253d7ebbe24f34cf0e9823d938165d03 debian archive/debian/0.10.4 https://git.dgit.debian.org/win32-loader
+Package-List: 
+ win32-loader deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: p7zip-full
+Directory: pool/main/w/win32-loader
+Priority: source
+Section: utils

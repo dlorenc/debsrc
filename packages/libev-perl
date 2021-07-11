@@ -1,0 +1,27 @@
+Package: libev-perl
+Binary: libev-perl
+Version: 4.33-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libcanary-stability-perl, libcommon-sense-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b26e91409d20732d4cb348c506226bcd 2313 libev-perl_4.33-1.dsc
+ b6d348e9306fd78dab0b80c55e9efb32 218067 libev-perl_4.33.orig.tar.gz
+ c76fd8b861f55a5c2bd0cf69973b138d 5196 libev-perl_4.33-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libev-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libev-perl.git
+Checksums-Sha256:
+ 68ce25e287bb2c286533d74b60167b5119b0b5817cef0579c93cc97ada5683ef 2313 libev-perl_4.33-1.dsc
+ 4aee8391b88113b42187f91fd49245fdc8e9b193a15ac202f519caae2aa8ea35 218067 libev-perl_4.33.orig.tar.gz
+ c8ee69d7715d235254038d40e27f69f1a11000d5e1ab8dd3c6462aa3ae165fe2 5196 libev-perl_4.33-1.debian.tar.xz
+Homepage: https://metacpan.org/release/EV
+Dgit: 7bf85b4f120cad233f4a90711fcca73a51ae3f2c debian archive/debian/4.33-1 https://git.dgit.debian.org/libev-perl
+Package-List: 
+ libev-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libe/libev-perl
+Priority: source
+Section: perl

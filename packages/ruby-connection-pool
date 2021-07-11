@@ -1,0 +1,27 @@
+Package: ruby-connection-pool
+Binary: ruby-connection-pool
+Version: 2.2.2-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 11~), gem2deb, ruby-minitest
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ c60f2ef36ec7ce687dc0f90dc67d1a33 2129 ruby-connection-pool_2.2.2-1.dsc
+ 35a326534b29ca2744626214e17aecb7 9808 ruby-connection-pool_2.2.2.orig.tar.gz
+ 8c1543b60136b0384d8a0d8057a3c174 2460 ruby-connection-pool_2.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-connection-pool
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-connection-pool.git
+Checksums-Sha256:
+ 78408af3fa1c33101be4c95d467cea59cef103b166cb4ba75085d88453f7fe19 2129 ruby-connection-pool_2.2.2-1.dsc
+ b5bcd79199d7e4fffe46eba6b5493ff498274fbfc8450acef03d47c39ddbbbfe 9808 ruby-connection-pool_2.2.2.orig.tar.gz
+ 90d5e4b49efd2c673ef7d620944022d63d57452115c6136b37f01f3b1ef7249a 2460 ruby-connection-pool_2.2.2-1.debian.tar.xz
+Homepage: https://github.com/mperham/connection_pool
+Package-List: 
+ ruby-connection-pool deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-connection-pool
+Priority: optional
+Section: misc

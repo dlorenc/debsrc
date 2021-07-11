@@ -1,0 +1,26 @@
+Package: pillow-sane
+Binary: python3-sane, python3-sane-dbg
+Version: 2.9.1-1
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper (>= 12), dpkg-dev (>= 1.16.1~), dh-python, python3-all-dev, python3-all-dbg, python3-setuptools, libsane-dev, python3-pil (>= 2.7), python3-pil-dbg (>= 2.7), python3-numpy, python3-numpy-dbg
+Build-Conflicts: python-cffi, python3-cffi
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9ff3e30b1cc97210553f5310d92ed00b 2101 pillow-sane_2.9.1-1.dsc
+ 22b5bf63f061430b10937c08bab26d6c 20577 pillow-sane_2.9.1.orig.tar.gz
+ 48fc47f01dfcd83a20dc9d2b7aba0e58 9300 pillow-sane_2.9.1-1.debian.tar.xz
+Checksums-Sha256:
+ 6b280bf627605edff9161df204454408dafd3fab09dfbd0c035cc2118e03033c 2101 pillow-sane_2.9.1-1.dsc
+ a82c677e0e4caff89f1aaac4cbf2d1d4ee6cd9178b391c88857254a1e42991f8 20577 pillow-sane_2.9.1.orig.tar.gz
+ ca80528aecf84155e5a41b3a533ec9904e251472f09eaeaa8b8b75a8f5bcb940 9300 pillow-sane_2.9.1-1.debian.tar.xz
+Homepage: http://python-pillow.github.io/
+Package-List: 
+ python3-sane deb python optional arch=any
+ python3-sane-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/pillow-sane
+Priority: optional
+Section: misc

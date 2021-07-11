@@ -1,0 +1,29 @@
+Package: tdiary
+Binary: tdiary-core, tdiary
+Version: 5.1.5-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Taku YASUI <tach@debian.org>, Hideki Yamane <henrich@debian.org>, Youhei SASAKI <uwabami@gfd-dennou.org>
+Build-Depends: debhelper-compat (= 12), docbook-to-man, ruby-rspec, ruby-emot, ruby-execjs, ruby-fastimage, ruby-hikidoc, ruby-mail, ruby-rack, ruby-sprockets, ruby-capybara
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7e5d90b138d7017054d45e5d2b8986ea 2217 tdiary_5.1.5-1.dsc
+ 4ccf9e6097d15f17318e3d0153cc5ee7 450401 tdiary_5.1.5.orig.tar.gz
+ 212a62d0a18b04e7a66e612d09503b6d 30160 tdiary_5.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/tdiary
+Vcs-Git: https://salsa.debian.org/ruby-team/tdiary.git
+Checksums-Sha256:
+ c67f69c196852749bc9bdcfd4eb0ea88838ffbd6e80bbf91b299771d4ce38ee5 2217 tdiary_5.1.5-1.dsc
+ 067125e926a3cc748e2e849f6b07569cb7aea9ab9f3ff99b96b78fff96232dfe 450401 tdiary_5.1.5.orig.tar.gz
+ 538270227ab7e05f714a2451e67d444375260012b78b44d44330af302820b34c 30160 tdiary_5.1.5-1.debian.tar.xz
+Homepage: https://www.tdiary.org/
+Package-List: 
+ tdiary deb web optional arch=all
+ tdiary-core deb web optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, quilt
+Directory: pool/main/t/tdiary
+Priority: source
+Section: web

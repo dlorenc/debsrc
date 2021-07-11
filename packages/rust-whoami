@@ -1,0 +1,27 @@
+Package: rust-whoami
+Binary: librust-whoami-dev
+Version: 0.8.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Alexander Kjäll <alexander.kjall@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, systemd <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 13c4ebdcf144a2acb5e58fdce2cbc5c0 1563 rust-whoami_0.8.1-1.dsc
+ ea796f3103a4c6b3ddba944494169aa5 13766 rust-whoami_0.8.1.orig.tar.gz
+ 6e00ba2f791988fd0b1fdb775061e066 10884 rust-whoami_0.8.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/whoami
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/whoami]
+Checksums-Sha256:
+ 162b57d19c8fd7b46587b133480f81f6ebea258f2c308463c7a69620fc21098f 1563 rust-whoami_0.8.1-1.dsc
+ a08eb844b158ea881e81b94556eede7f7e306e4c7b976aad88f49e6e36dec391 13766 rust-whoami_0.8.1.orig.tar.gz
+ 7e0d16a58c8867fdd904a993f4bdcc932e78aef1485335cb9f6f3d6f19977c3b 10884 rust-whoami_0.8.1-1.debian.tar.xz
+Homepage: https://libcala.github.io/whoami
+Package-List: 
+ librust-whoami-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-whoami
+Priority: extra
+Section: misc

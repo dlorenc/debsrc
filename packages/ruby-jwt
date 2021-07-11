@@ -1,0 +1,27 @@
+Package: ruby-jwt
+Binary: ruby-jwt
+Version: 2.2.2-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Tornow <tornow@riseup.net>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-rspec, ruby-rbnacl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7b8af1c04821773f5565552820f11e96 2060 ruby-jwt_2.2.2-1.dsc
+ 022ebd17f221af0cfd57323e0a7307f2 43084 ruby-jwt_2.2.2.orig.tar.gz
+ 3c1101aabf0abb8b57d962f00dc136f9 4032 ruby-jwt_2.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-jwt
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-jwt.git
+Checksums-Sha256:
+ 20fb00dd5e523fc7bf36a31b8f142bd50fa038bcaa1d0819bc76057418d3bbb5 2060 ruby-jwt_2.2.2-1.dsc
+ 448851509ad9e08a24c824ecb45906ba6221aceb204235d56c90b235e95c0a8d 43084 ruby-jwt_2.2.2.orig.tar.gz
+ 6800e948390976043ade2c46b8f51cc02f256410cd283da936ebd1479bdab348 4032 ruby-jwt_2.2.2-1.debian.tar.xz
+Homepage: https://github.com/jwt/ruby-jwt
+Package-List: 
+ ruby-jwt deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-jwt
+Priority: source
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-gstreamer-sys
+Binary: librust-gstreamer-sys-dev
+Version: 0.8.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, libgstreamer1.0-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 43ce9acf9c76a916fc91512b3d52f98a 2520 rust-gstreamer-sys_0.8.0-2.dsc
+ bdd697734d8f2ae06f426b65d3abb4b7 59173 rust-gstreamer-sys_0.8.0.orig.tar.gz
+ 28024e5cbe98f490998816e2005afd4f 2868 rust-gstreamer-sys_0.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-sys]
+Checksums-Sha256:
+ b9c5eb86ada14874510814a47951d6514131af1667accf1e520c31e37412aab8 2520 rust-gstreamer-sys_0.8.0-2.dsc
+ bdfc2f6cc9b6a1f5159bfd500310fe431cfb0b74b3af17ce3fdf8353cf586975 59173 rust-gstreamer-sys_0.8.0.orig.tar.gz
+ fac975d5bde88d9f05b5dd3c6d7c7a7c809f82f930dd802929ece943c36e08b5 2868 rust-gstreamer-sys_0.8.0-2.debian.tar.xz
+Homepage: https://gstreamer.freedesktop.org
+Package-List: 
+ librust-gstreamer-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-shell-words-0.1+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-gstreamer-sys
+Priority: extra
+Section: misc

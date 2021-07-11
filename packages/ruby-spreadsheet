@@ -1,0 +1,28 @@
+Package: ruby-spreadsheet
+Binary: ruby-spreadsheet
+Version: 1.0.0-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Gunnar Wolf <gwolf@debian.org>, Ryan Niebur <ryan@debian.org>, Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.3.0~), ruby-ole
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 8084dbfa17e29e4a10877b7819a75bca 2236 ruby-spreadsheet_1.0.0-1.1.dsc
+ cc8449c3c8a98a8a1ca99016b680bce5 4478888 ruby-spreadsheet_1.0.0.orig.tar.gz
+ ecc235b5a14127d8c34c650564f1846d 3924 ruby-spreadsheet_1.0.0-1.1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb?p=pkg-ruby-extras/ruby-spreadsheet.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-spreadsheet.git
+Checksums-Sha256:
+ c8df82e1857a552cb5900ec511fcddffec261f1b909abe6c3c582594bad8da34 2236 ruby-spreadsheet_1.0.0-1.1.dsc
+ 9e1b50d38070fd539166ed977730774b947fdab1a407a1b0c3f263ed8b4e13e7 4478888 ruby-spreadsheet_1.0.0.orig.tar.gz
+ 08a3f3be7b51370299c3077723b00a0b40326a900a32c6b3b67817b74b87be2c 3924 ruby-spreadsheet_1.0.0-1.1.debian.tar.xz
+Homepage: http://spreadsheet.rubyforge.org
+Package-List: 
+ ruby-spreadsheet deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner
+Directory: pool/main/r/ruby-spreadsheet
+Priority: source
+Section: ruby

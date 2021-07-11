@@ -1,0 +1,25 @@
+Package: intel-vaapi-driver
+Binary: i965-va-driver
+Version: 2.4.1+dfsg1-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Brandon Snider <brandonjsnider@gmail.com>, Reinhard Tartler <siretart@tauware.de>, Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-libva, intel-gpu-tools (>= 1.9), libdrm-dev (>= 2.4.52), libva-dev (>= 2.4), libwayland-dev (>= 1.0.0) [amd64 i386], libx11-dev, libxext-dev, libxfixes-dev, pkg-config, python3
+Architecture: any-amd64 any-i386
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5fc421b3ccdd233b2212c6660a0e8a17 2377 intel-vaapi-driver_2.4.1+dfsg1-1.dsc
+ 952d11cf6b478a83c193193837e7459a 1006996 intel-vaapi-driver_2.4.1+dfsg1.orig.tar.xz
+ 20ba7278884ed9581d9e1537224f77a4 13432 intel-vaapi-driver_2.4.1+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/intel-vaapi-driver
+Vcs-Git: https://salsa.debian.org/multimedia-team/intel-vaapi-driver.git
+Checksums-Sha256:
+ afc0d392c81024208b7b9633c26bf2e0066837bf3e5176b04805fc7dc050b3d4 2377 intel-vaapi-driver_2.4.1+dfsg1-1.dsc
+ c684a2190d826b032b58743a563af385c906be6d79c74aac629274cf180fd558 1006996 intel-vaapi-driver_2.4.1+dfsg1.orig.tar.xz
+ 194ed6bb62a572ebbc4ef1a11768624e5fa37ff5173766c853affded1285138e 13432 intel-vaapi-driver_2.4.1+dfsg1-1.debian.tar.xz
+Homepage: https://01.org/linuxmedia/vaapi
+Package-List: 
+ i965-va-driver deb video optional arch=any-amd64,any-i386
+Directory: pool/main/i/intel-vaapi-driver
+Priority: source
+Section: libs

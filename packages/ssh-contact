@@ -1,0 +1,27 @@
+Package: ssh-contact
+Binary: ssh-contact, ssh-contact-client, ssh-contact-service
+Version: 0.7-1.1
+Maintainer: Debian Telepathy maintainers <pkg-telepathy-maintainers@lists.alioth.debian.org>
+Uploaders: Laurent Bigonville <bigon@debian.org>, Jonny Lamb <jonny@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev, libglib2.0-dev (>= 2.28), libtelepathy-glib-dev (>= 0.15.5), intltool (>= 0.35.0)
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ b0ba3b6e5072f3d1ec0c6717e0f4c6cd 2243 ssh-contact_0.7-1.1.dsc
+ 2e98c1199c883980d4c8ef5fca4c5b70 346116 ssh-contact_0.7.orig.tar.gz
+ f91a4bdcce959ff3add5bfd23f6e3594 2516 ssh-contact_0.7-1.1.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=pkg-telepathy/ssh-contact.git;a=summary
+Vcs-Git: git://git.debian.org/git/pkg-telepathy/ssh-contact.git
+Checksums-Sha256:
+ bfa89ff3cdf440eb97d22cecc162fbda30c49925d22a0589ea39ed5bde8d933c 2243 ssh-contact_0.7-1.1.dsc
+ 3d7bd7cf71987c349f903f27a1ac5613963eff36b0de26a33874729d2be9d2d8 346116 ssh-contact_0.7.orig.tar.gz
+ 79086613a153d4d3cab08119526621df309326d8d4cb58b54988a68cb53fffc0 2516 ssh-contact_0.7-1.1.debian.tar.xz
+Homepage: http://telepathy.freedesktop.org/wiki/SSH-Contact
+Package-List: 
+ ssh-contact deb net extra arch=all
+ ssh-contact-client deb net extra arch=any
+ ssh-contact-service deb net extra arch=any
+Directory: pool/main/s/ssh-contact
+Priority: source
+Section: net

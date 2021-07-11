@@ -1,0 +1,26 @@
+Package: plotly
+Binary: python3-plotly
+Version: 4.14.3+dfsg-1
+Maintainer: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools (>= 5.5.1), python3-six (>= 1.8.0), python3-requests (>= 2.3.0), python3-tz (>= 2012c), python3-numpy (>= 1.9.2), python3-matplotlib (>= 1.4.2), ipython3 (>= 5.1.0), python3-ipywidgets, python3-retrying
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a2b847cde100b3543307077fcf8ef42c 2187 plotly_4.14.3+dfsg-1.dsc
+ 3b48c18d6fc0f9559b1bbd4f10ca418b 5438069 plotly_4.14.3+dfsg.orig.tar.gz
+ 33e6d655edadd883de6c7149921fac02 1305636 plotly_4.14.3+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/plotly
+Vcs-Git: https://salsa.debian.org/debian/plotly.git
+Checksums-Sha256:
+ 2969ea8b868f0efa1c1434da435314d2d742fe86f783460d1debb064a080c1f9 2187 plotly_4.14.3+dfsg-1.dsc
+ 342a631ac61af41b03b29e3b7445badc2646beeae966031fe2bebb030cd7cc05 5438069 plotly_4.14.3+dfsg.orig.tar.gz
+ 1f54575d2fc4b2e66e785a29e4e2764ccfa6ab0a17fc794c2fcbdf7bdbf07909 1305636 plotly_4.14.3+dfsg-1.debian.tar.xz
+Homepage: https://plot.ly/python/
+Package-List: 
+ python3-plotly deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-numpy
+Directory: pool/main/p/plotly
+Priority: optional
+Section: misc

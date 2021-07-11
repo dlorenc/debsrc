@@ -1,0 +1,27 @@
+Package: libtest-trap-perl
+Binary: libtest-trap-perl
+Version: 0.3.4-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper (>= 10), libmodule-build-perl
+Build-Depends-Indep: perl, libdata-dump-perl, libtest-refcount-perl, perl (>= 5.21.6) | libtest-simple-perl (>= 1.001010) | libtest-tester-perl
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ efca7d44885144055d6cff949e8bbbfe 2361 libtest-trap-perl_0.3.4-1.dsc
+ 7cb432fcb7b8f761e9cc2fc12e76b80b 55339 libtest-trap-perl_0.3.4.orig.tar.gz
+ 8cc762818f9b64d34a67e730f1c1cdc8 2648 libtest-trap-perl_0.3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-trap-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-trap-perl.git
+Checksums-Sha256:
+ 375158a48541cbaa338ec020543f6cb79b3e8664c79ef44793f625a026e2a901 2361 libtest-trap-perl_0.3.4-1.dsc
+ 0b04656f33b6c96da8eec4cffe5286150b4e4b5e2991d3883686b10910105ae2 55339 libtest-trap-perl_0.3.4.orig.tar.gz
+ 7637f44d51510d742e876832d85dadad755ddd73d4085a9508905278533f15b2 2648 libtest-trap-perl_0.3.4-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Trap
+Package-List: 
+ libtest-trap-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-trap-perl
+Priority: source
+Section: perl

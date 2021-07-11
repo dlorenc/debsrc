@@ -1,0 +1,29 @@
+Package: x264
+Binary: x264, libx264-160, libx264-dev
+Version: 2:0.160.3011+gitcde9a93-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Reinhard Tartler <siretart@tauware.de>, Rico Tzschichholz <ricotz@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), libavformat-dev (>= 6:9) <!stage1>, libffms2-dev <!stage1>, libgpac-dev (>= 0.5.0+svn4288~) <!stage1>, nasm (>= 2.13) [any-i386 any-amd64]
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 433d71a2c2aa765e01011e99f0cdc496 2365 x264_0.160.3011+gitcde9a93-2.dsc
+ f0b272d634fa420247d757eefeca98b7 944700 x264_0.160.3011+gitcde9a93.orig.tar.gz
+ 32ba42934b7c4da760f16caf29ba5a2b 23228 x264_0.160.3011+gitcde9a93-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/x264
+Vcs-Git: https://salsa.debian.org/multimedia-team/x264.git
+Checksums-Sha256:
+ f2c138aa9037ca2a16104428c8495671282db8919e0063432a60e9187ec04be9 2365 x264_0.160.3011+gitcde9a93-2.dsc
+ a9c751b7ba212d2d1f746dd75efa87252d10e6de0d45b8ecae9f187580caa5ed 944700 x264_0.160.3011+gitcde9a93.orig.tar.gz
+ 4cfb4e2abd4ac11db7a3d112348aa193992e52b2eebe686d41213405dac0a09c 23228 x264_0.160.3011+gitcde9a93-2.debian.tar.xz
+Homepage: http://www.videolan.org/developers/x264.html
+Package-List: 
+ libx264-160 deb libs optional arch=any
+ libx264-dev deb libdevel optional arch=any
+ x264 deb graphics optional arch=any profile=!stage1
+Testsuite: autopkgtest
+Testsuite-Triggers: ffmpeg
+Directory: pool/main/x/x264
+Priority: source
+Section: graphics

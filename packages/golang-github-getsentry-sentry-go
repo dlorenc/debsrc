@@ -1,0 +1,27 @@
+Package: golang-github-getsentry-sentry-go
+Binary: golang-github-getsentry-sentry-go-dev
+Version: 0.9.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-gin-gonic-gin-dev, golang-github-go-errors-errors-dev, golang-github-google-go-cmp-dev, golang-github-pkg-errors-dev, golang-github-valyala-fasthttp-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0bab66d9f2a1d356fe645b9f04918347 1855 golang-github-getsentry-sentry-go_0.9.0-2.dsc
+ 2723d4b668871608727bf63f6fc41ce9 108605 golang-github-getsentry-sentry-go_0.9.0.orig.tar.gz
+ e0eaf8a49f6c82d6869d84d52d01d7a6 3644 golang-github-getsentry-sentry-go_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-getsentry-sentry-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-getsentry-sentry-go.git
+Checksums-Sha256:
+ 6c8ad05a1a024b6bde82a8696a1eb63a102cfb84028dd69866d8438d33f2c716 1855 golang-github-getsentry-sentry-go_0.9.0-2.dsc
+ 34e40e3c20ad3f35db069ce4b9ca3708d76b76da9735b1503585020968992451 108605 golang-github-getsentry-sentry-go_0.9.0.orig.tar.gz
+ e6cf2d9580ba5c0d192fccede13b18cd7da801b39da01d1b2a7e49b1120c6c54 3644 golang-github-getsentry-sentry-go_0.9.0-2.debian.tar.xz
+Homepage: https://github.com/getsentry/sentry-go
+Go-Import-Path: github.com/getsentry/sentry-go
+Package-List: 
+ golang-github-getsentry-sentry-go-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-getsentry-sentry-go
+Priority: extra
+Section: misc

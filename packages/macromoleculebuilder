@@ -1,0 +1,28 @@
+Package: macromoleculebuilder
+Binary: libmmblib-dev, libmmblib3.2, mmb, mmb-common
+Version: 3.2+dfsg-2
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: asciidoc-base, cmake, debhelper-compat (= 12), docbook-xml, libopenmm-dev, libseqan2-dev, libsimbody-dev, libsimtkmolmodel-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c510580e4ab98321bfdfda1f6dcdd2b0 2334 macromoleculebuilder_3.2+dfsg-2.dsc
+ 3513a98bf6abc5507654af253a412a7c 2473540 macromoleculebuilder_3.2+dfsg.orig.tar.xz
+ ea3fbae1885e21b1023aaf5251afbfd0 3060 macromoleculebuilder_3.2+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debichem-team/macromoleculebuilder
+Vcs-Git: https://salsa.debian.org/debichem-team/macromoleculebuilder.git
+Checksums-Sha256:
+ bade2ec28afe42430f0b5a1167a6b2b1a3ad72d4940126e07fc3e6c3541a5fbc 2334 macromoleculebuilder_3.2+dfsg-2.dsc
+ ad75992e77a844a2bb17db59cad0eb3119d3018cb737c9d855b734705d0e0a8a 2473540 macromoleculebuilder_3.2+dfsg.orig.tar.xz
+ c3364831f5815536836c3a48ae0e747c623a8f584d6a4cb5bb4af8ae77083b0f 3060 macromoleculebuilder_3.2+dfsg-2.debian.tar.xz
+Homepage: https://simtk.org/projects/rnatoolbox
+Package-List: 
+ libmmblib-dev deb libdevel optional arch=any
+ libmmblib3.2 deb libs optional arch=any
+ mmb deb science optional arch=any
+ mmb-common deb science optional arch=all
+Directory: pool/main/m/macromoleculebuilder
+Priority: extra
+Section: misc

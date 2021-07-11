@@ -1,0 +1,27 @@
+Package: ruby-typhoeus
+Binary: ruby-typhoeus
+Version: 1.4.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-ethon (>= 0.9.0~), ruby-faraday, ruby-json, ruby-rack, ruby-rspec, ruby-sinatra, ruby-dalli, ruby-redis
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ff783b40c8ee607174fd96eabf822013 2155 ruby-typhoeus_1.4.0-1.dsc
+ d7f9b8760a3fcc9627b26dbd3ca99a63 53229 ruby-typhoeus_1.4.0.orig.tar.gz
+ 524ce76797befe94dbeaa2cdda0bdf21 3640 ruby-typhoeus_1.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-typhoeus
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-typhoeus.git
+Checksums-Sha256:
+ 8bc3dcbbd5b6709a788551c07be99796bb47ffcaa0ca44757e0f0df8fa909cc3 2155 ruby-typhoeus_1.4.0-1.dsc
+ ffa69a3ff1b192e0b928af10a2c3baf7ef2c53be3c9ac3d6503cbe8a05a4a0a4 53229 ruby-typhoeus_1.4.0.orig.tar.gz
+ 64aa7a77abb0aaef5d270e2e5e8dc66b3fc4573c3e76f374e256f7b99469769a 3640 ruby-typhoeus_1.4.0-1.debian.tar.xz
+Homepage: https://github.com/typhoeus/typhoeus
+Package-List: 
+ ruby-typhoeus deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-typhoeus
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: hlins
+Binary: hlins
+Version: 0.39-27
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-ocaml
+Build-Depends-Indep: ocaml-nox
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f12473db44d1a2048742d1c7a469ea43 1727 hlins_0.39-27.dsc
+ 08ae7ffc3f66bbf952b472504f740f96 51469 hlins_0.39.orig.tar.gz
+ 5a87a4abbbb733f19cc4568c9e1187ce 6596 hlins_0.39-27.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/hlins
+Vcs-Git: https://salsa.debian.org/ocaml-team/hlins.git
+Checksums-Sha256:
+ 5549bb005c6a825110cb97def3acb2cd3321adb27a52035d634bccc8bf7953ad 1727 hlins_0.39-27.dsc
+ 10ba232c0dc09f1afaafa117f87b9d6d5b00549d888c723bc4fb3b0e2d3d61d0 51469 hlins_0.39.orig.tar.gz
+ c4f7bc26f3dcc32ad3ecf871ba50485a840cde3cd0b942051e0925f01a10f293 6596 hlins_0.39-27.debian.tar.xz
+Homepage: https://forge.ocamlcore.org/projects/hlins/
+Dgit: ccbebe54dcbf5547a3012c49e42da697b20c94b3 debian archive/debian/0.39-27 https://git.dgit.debian.org/hlins
+Package-List: 
+ hlins deb text optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/h/hlins
+Priority: source
+Section: text

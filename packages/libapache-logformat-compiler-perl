@@ -1,0 +1,27 @@
+Package: libapache-logformat-compiler-perl
+Binary: libapache-logformat-compiler-perl
+Version: 0.36-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libhttp-message-perl <!nocheck>, libposix-strftime-compiler-perl <!nocheck>, libtest-mocktime-perl <!nocheck>, libtest-requires-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>, tzdata <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c42a60311fa6f1d90fb648fc035f5658 2528 libapache-logformat-compiler-perl_0.36-1.dsc
+ 62769e3092f12572d1973a708a0b9e40 16141 libapache-logformat-compiler-perl_0.36.orig.tar.gz
+ 5ff2a4f5ac5e73820da35ae5cb354d3b 2504 libapache-logformat-compiler-perl_0.36-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libapache-logformat-compiler-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libapache-logformat-compiler-perl.git
+Checksums-Sha256:
+ 49a31b2f51eb99ab7b09df922cb0a4b8a9e80fdb1a651bf052a290429ec03753 2528 libapache-logformat-compiler-perl_0.36-1.dsc
+ e790f8eb877ca1663bddd5a3831bb259dc6b12e76fcaefad540012bb549fd583 16141 libapache-logformat-compiler-perl_0.36.orig.tar.gz
+ c8e5ab1733aef16e10ef4d8c7b46fbb022925a0444ea8b91a191e9910be2e984 2504 libapache-logformat-compiler-perl_0.36-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Apache-LogFormat-Compiler
+Package-List: 
+ libapache-logformat-compiler-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liba/libapache-logformat-compiler-perl
+Priority: optional
+Section: misc

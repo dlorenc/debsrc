@@ -1,0 +1,23 @@
+Package: dqlite
+Binary: libdqlite0, libdqlite-dev
+Version: 1.6.0-2
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, libuv1-dev (>= 1.8.0~), libraft-dev, libsqlite3-dev (>= 3.22.0~)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 219e280f327ca3861c5806f7ca996ac3 1851 dqlite_1.6.0-2.dsc
+ f5735eabb1f7176351d8bafd3bb9a055 155087 dqlite_1.6.0.orig.tar.gz
+ a08dc1f3349bd35a6c6fdf4f6b3c4933 3912 dqlite_1.6.0-2.debian.tar.xz
+Checksums-Sha256:
+ 28c812554fc809a02e1d8faed3d9f0afdd218379b05ad3e6eb6346910611bdb5 1851 dqlite_1.6.0-2.dsc
+ 8671396a9510c7c125e706973a8ffb2e4540ac605f1f3e9720a63876448f5d93 155087 dqlite_1.6.0.orig.tar.gz
+ d435d475722c7cf7e8473c514be7bfb8c832e45765806228cf03d661f37cc3fb 3912 dqlite_1.6.0-2.debian.tar.xz
+Homepage: https://github.com/canonical/dqlite
+Package-List: 
+ libdqlite-dev deb libdevel optional arch=any
+ libdqlite0 deb libs optional arch=any
+Directory: pool/main/d/dqlite
+Priority: extra
+Section: misc

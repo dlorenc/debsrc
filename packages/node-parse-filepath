@@ -1,0 +1,26 @@
+Package: node-parse-filepath
+Binary: node-parse-filepath
+Version: 1.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-map-cache <!nocheck>, node-path-root <!nocheck>, node-should <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8b49be93863b2295bac52f5cf825924e 2199 node-parse-filepath_1.0.2-1.dsc
+ 21e0105b7cfafb946e68a71dfce73a33 6638 node-parse-filepath_1.0.2.orig.tar.gz
+ 25d8d55e27f05d99d9b74ba615131b34 3072 node-parse-filepath_1.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-parse-filepath
+Vcs-Git: https://salsa.debian.org/js-team/node-parse-filepath.git
+Checksums-Sha256:
+ 23e918ef972af18077e1d31586f571c6bb9e100db22574588ac8722340dab129 2199 node-parse-filepath_1.0.2-1.dsc
+ 021481033a921b0fbf3e87a9b559e8736469930b823178463d2738f58d52d92d 6638 node-parse-filepath_1.0.2.orig.tar.gz
+ e1b5683d408891a4fe4e7e243cc983561303d5768d933f736f3d75a50bd30d91 3072 node-parse-filepath_1.0.2-1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/parse-filepath
+Package-List: 
+ node-parse-filepath deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-parse-filepath
+Priority: optional
+Section: javascript

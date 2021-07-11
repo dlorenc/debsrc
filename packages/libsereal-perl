@@ -1,0 +1,28 @@
+Package: libsereal-perl
+Binary: libsereal-perl
+Version: 4.018-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libscalar-list-utils-perl <!nocheck>, libsereal-decoder-perl (>= 4.018) <!nocheck>, libsereal-encoder-perl (>= 4.018) <!nocheck>, libtest-longstring-perl <!nocheck>, libtest-memorygrowth-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtest-warn-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 46a0d0b4a4c69b306bd763687a7ed460 2580 libsereal-perl_4.018-1.dsc
+ ad37bd7a68537cc1cc9d078a95d0c58f 196147 libsereal-perl_4.018.orig.tar.gz
+ 644b549d2e01cae70c69276e860384f9 2776 libsereal-perl_4.018-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsereal-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsereal-perl.git
+Checksums-Sha256:
+ 5b88c57b7b0995b4289f8c175b6ca9cb3f7b700498502e10ae779aaf8421b1dd 2580 libsereal-perl_4.018-1.dsc
+ 8a735612c5c7d47e79a23c2eccd92e704327c4249ca526c7e1e24a84687e1e5f 196147 libsereal-perl_4.018.orig.tar.gz
+ 760a7389daa5f7bb2ab25cf5716e51244f9a0a876255ea12c11ff69e2f5c3346 2776 libsereal-perl_4.018-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Sereal
+Dgit: d55d9f08b44ec868b39a09c3da40216ed97a1dac debian archive/debian/4.018-1 https://git.dgit.debian.org/libsereal-perl
+Package-List: 
+ libsereal-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libs/libsereal-perl
+Priority: optional
+Section: misc

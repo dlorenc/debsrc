@@ -1,0 +1,26 @@
+Package: compyle
+Binary: python3-compyle
+Version: 0.7-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Build-Depends: cython3, debhelper-compat (= 12), dh-python, python3-all-dev, python3-mako, python3-numpy, python3-pyopencl, python3-pytest, python3-pytools, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ dcfd73316fb4fdcb3506657fb2600b5b 2100 compyle_0.7-2.dsc
+ 23e5edc9c13f8e4bbd6bd98993242774 115856 compyle_0.7.orig.tar.gz
+ bc8535cc357ed7b3f80e9915f55072de 6324 compyle_0.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/compyle
+Vcs-Git: https://salsa.debian.org/science-team/compyle.git
+Checksums-Sha256:
+ 71f757b100ed8ca8f63cb4d7f2610c587831905ddbdf4eeec086db135caac992 2100 compyle_0.7-2.dsc
+ ce2a1fbaf9df3224cd988d5f82238c040c32456ad2cf289bd47e06237615374e 115856 compyle_0.7.orig.tar.gz
+ a6a02b1006f89ad149e181d7e09300c4d8a2cc3f200404708a2374093e038fe4 6324 compyle_0.7-2.debian.tar.xz
+Homepage: https://github.com/pypr/compyle
+Package-List: 
+ python3-compyle deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/c/compyle
+Priority: extra
+Section: misc

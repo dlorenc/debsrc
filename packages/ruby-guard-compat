@@ -1,0 +1,28 @@
+Package: ruby-guard-compat
+Binary: ruby-guard-compat
+Version: 1.2.1-2.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: HIGUCHI Daisuke (VDR dai) <dai@debian.org>
+Build-Depends: debhelper (>= 11~), gem2deb, rake, ruby-rspec
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ a5414914ddf5563a8729b16bbdcfae53 2158 ruby-guard-compat_1.2.1-2.1.dsc
+ f9984b170964a01df93cce354cf46ca3 7452 ruby-guard-compat_1.2.1.orig.tar.gz
+ 780f514ed2aad8876c9e33b1327e5e8e 2192 ruby-guard-compat_1.2.1-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-guard-compat
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-guard-compat.git
+Checksums-Sha256:
+ 301d99376028ef2cd187233fb8f7b291be87acd46801c34dbac8bf8b377f7fcc 2158 ruby-guard-compat_1.2.1-2.1.dsc
+ 9fe9301af491cfaa450ad2fc2fc92b1ba74e93a0b974cee8c455b21553cf54ce 7452 ruby-guard-compat_1.2.1.orig.tar.gz
+ ae5167f096588cb9231b699bf68a5fb478d53ee3c56733019aeed8bbf77cb6d9 2192 ruby-guard-compat_1.2.1-2.1.debian.tar.xz
+Homepage: https://github.com/guard/guard-compat
+Package-List: 
+ ruby-guard-compat deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner, rake, ruby-rspec
+Directory: pool/main/r/ruby-guard-compat
+Priority: extra
+Section: misc

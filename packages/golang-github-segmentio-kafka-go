@@ -1,0 +1,27 @@
+Package: golang-github-segmentio-kafka-go
+Binary: golang-github-segmentio-kafka-go-dev
+Version: 0.2.1-1.1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-github-pierrec-lz4-dev, golang-golang-x-net-dev, golang-snappy-go-dev
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ a5220256859ab86c8c983cab88d9303b 2362 golang-github-segmentio-kafka-go_0.2.1-1.1.dsc
+ e3e3e3a2cf380f992da68a565527ec76 68124 golang-github-segmentio-kafka-go_0.2.1.orig.tar.xz
+ 103c6bfafd280ff4b8808c3447b7a5cd 2092 golang-github-segmentio-kafka-go_0.2.1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-segmentio-kafka-go
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-segmentio-kafka-go.git
+Checksums-Sha256:
+ eb95a420c1930d5d2a60d75e9c9d77387e3540069d466679e4028984442230aa 2362 golang-github-segmentio-kafka-go_0.2.1-1.1.dsc
+ c72fd52e5c56c1157a905e7fadfd8db3bb8306a1c41ff4eebc17f1d11c765580 68124 golang-github-segmentio-kafka-go_0.2.1.orig.tar.xz
+ c76d626fc6b3840801b490c7980b5efabc2c2cc18ba384fc21c33f7b111263cd 2092 golang-github-segmentio-kafka-go_0.2.1-1.1.debian.tar.xz
+Homepage: https://github.com/segmentio/kafka-go
+Go-Import-Path: github.com/segmentio/kafka-go
+Package-List: 
+ golang-github-segmentio-kafka-go-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-segmentio-kafka-go
+Priority: extra
+Section: golang

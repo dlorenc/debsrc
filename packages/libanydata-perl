@@ -1,0 +1,27 @@
+Package: libanydata-perl
+Binary: libanydata-perl
+Version: 0.12-1.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>, Xavier Guimard <x.guimard@free.fr>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libcgi-pm-perl | perl (<< 5.19), libtest-output-perl, libxml-twig-perl, perl
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ fa5ff6234dba61bd9d734729d236d11a 2169 libanydata-perl_0.12-1.1.dsc
+ 8f94caa4c3b354f407e047496ba53dba 59851 libanydata-perl_0.12.orig.tar.gz
+ eb65a37cea45b16c4393a05bd0024eb5 3316 libanydata-perl_0.12-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libanydata-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libanydata-perl.git
+Checksums-Sha256:
+ 6cba141c1346018e5d0df1745bedab5510e61e7437b7ac9bdc99abf5ed600231 2169 libanydata-perl_0.12-1.1.dsc
+ be6a957f04a2feba9b305536b132deceba1f455db295b221a63e75567fadbcfc 59851 libanydata-perl_0.12.orig.tar.gz
+ 51ed55f2ec4cc7abd724c65f698b778fee9cddb67e34ccb629ed5d60b661845f 3316 libanydata-perl_0.12-1.1.debian.tar.xz
+Homepage: https://metacpan.org/release/AnyData
+Package-List: 
+ libanydata-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liba/libanydata-perl
+Priority: source
+Section: perl

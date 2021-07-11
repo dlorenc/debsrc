@@ -1,0 +1,28 @@
+Package: haskell-reactive-banana
+Binary: libghc-reactive-banana-dev, libghc-reactive-banana-prof, libghc-reactive-banana-doc
+Version: 1.2.1.0-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hashable-dev (>= 1.1), libghc-hashable-dev (<< 1.4), libghc-hashable-prof, libghc-pqueue-dev (>= 1.0), libghc-pqueue-dev (<< 1.5), libghc-pqueue-prof, libghc-semigroups-dev (>= 0.13), libghc-semigroups-dev (<< 0.20), libghc-semigroups-prof, libghc-unordered-containers-dev (>= 0.2.1.0), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof, libghc-vault-dev (<< 0.4), libghc-vault-dev (>= 0.3), libghc-vault-prof
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc, libghc-pqueue-doc, libghc-semigroups-doc, libghc-unordered-containers-doc, libghc-vault-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4fbfa5c894acf163675a831b380b8620 2985 haskell-reactive-banana_1.2.1.0-2.dsc
+ 2184efe29a4652b87085c3f64f5e2c58 76222 haskell-reactive-banana_1.2.1.0.orig.tar.gz
+ 5bd93ccd72441ecd825585a6775bd5bd 3648 haskell-reactive-banana_1.2.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-reactive-banana
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-reactive-banana]
+Checksums-Sha256:
+ a225f3cfd3be37b325b05c434725dec0da8f1bf8fe64a6c0605b1f0c8fc2b8d9 2985 haskell-reactive-banana_1.2.1.0-2.dsc
+ cc6f6d96de0b61bbc34dceb2183eddc62bb5247a77745c57b148a792fb4f75a3 76222 haskell-reactive-banana_1.2.1.0.orig.tar.gz
+ defd2abd3f54e0872e91c63c311718ed395b651573f18519025e5f60783e21a7 3648 haskell-reactive-banana_1.2.1.0-2.debian.tar.xz
+Homepage: http://wiki.haskell.org/Reactive-banana
+Package-List: 
+ libghc-reactive-banana-dev deb haskell optional arch=any
+ libghc-reactive-banana-doc deb doc optional arch=all
+ libghc-reactive-banana-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-reactive-banana
+Priority: source
+Section: haskell

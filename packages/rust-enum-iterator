@@ -1,0 +1,27 @@
+Package: rust-enum-iterator
+Binary: librust-enum-iterator-dev
+Version: 0.6.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Stephan Lachnit <stephanlachnit@protonmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-enum-iterator-derive-0.6+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 0c75dc9bafed378298b485b5db5d4fc2 2291 rust-enum-iterator_0.6.0-1.dsc
+ d1f670741871e633091aca78f8902722 1454 rust-enum-iterator_0.6.0.orig.tar.gz
+ ed79bf993ab4bac7e87625f2e62e01e5 2504 rust-enum-iterator_0.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/enum-iterator
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/enum-iterator]
+Checksums-Sha256:
+ 75e032fc8afa1b372a19a86069a85299f5872b1f5252468968b134ad3b7eff53 2291 rust-enum-iterator_0.6.0-1.dsc
+ c79a6321a1197d7730510c7e3f6cb80432dfefecb32426de8cea0aa19b4bb8d7 1454 rust-enum-iterator_0.6.0.orig.tar.gz
+ 4994b199fa4f38c06ad07beec18de67c2c3e033ff2960e0cd77aa82bf1dee72b 2504 rust-enum-iterator_0.6.0-1.debian.tar.xz
+Homepage: https://github.com/stephaneyfx/enum-iterator
+Package-List: 
+ librust-enum-iterator-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-enum-iterator
+Priority: extra
+Section: misc

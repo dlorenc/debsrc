@@ -1,0 +1,29 @@
+Package: libtext-bibtex-perl
+Binary: libtext-bibtex-perl, libbtparse-dev, libbtparse2
+Version: 0.88-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: David Bremner <bremner@debian.org>, Danai SAE-HAN (韓達耐) <danai@debian.org>
+Build-Depends: debhelper-compat (= 12), perl, libcapture-tiny-perl <!nocheck>, libconfig-autoconf-perl <!nocheck>, libextutils-libbuilder-perl <!nocheck>, libmodule-build-perl, libscalar-list-utils-perl (>= 1:1.42) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ d85f0ed11554d884197b11aba1deb7b4 2563 libtext-bibtex-perl_0.88-3.dsc
+ 361aad5cf400764e35d1ade3b609bb60 301812 libtext-bibtex-perl_0.88.orig.tar.gz
+ c96f7ebfafe9a2ceb78ff427d89ca819 8852 libtext-bibtex-perl_0.88-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtext-bibtex-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtext-bibtex-perl.git
+Checksums-Sha256:
+ 903124f90ee5b601c9c93b2ccb446252a19f890a66a745b265c734c1ca70b632 2563 libtext-bibtex-perl_0.88-3.dsc
+ b014586e68bdbcafb0a2cfa0401eb0a04ea5de8c4d5bc36dd0f7faeab6acf42c 301812 libtext-bibtex-perl_0.88.orig.tar.gz
+ 7518a0b6b51c8471d5aa6cf76e1952e20f5824434f01a0f2480904499ea51a32 8852 libtext-bibtex-perl_0.88-3.debian.tar.xz
+Homepage: https://metacpan.org/release/Text-BibTeX
+Dgit: 45134672eefe599a8fd51e839b8dd2507914e5d1 debian archive/debian/0.88-3 https://git.dgit.debian.org/libtext-bibtex-perl
+Package-List: 
+ libbtparse-dev deb libdevel optional arch=any
+ libbtparse2 deb libs optional arch=any
+ libtext-bibtex-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtext-bibtex-perl
+Priority: source
+Section: perl

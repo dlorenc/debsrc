@@ -1,0 +1,27 @@
+Package: cider
+Binary: cider-doc, elpa-cider
+Version: 0.19.0+dfsg-2.1
+Maintainer: Debian Emacs addons team <pkg-emacsen-addons@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>,
+Build-Depends: debhelper (>= 10), dh-elpa, elpa-buttercup, elpa-clojure-mode, elpa-pkg-info, elpa-queue, elpa-sesman, elpa-spinner, leiningen, mkdocs (>= 1.0.4)
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ e027bfe1822e06c59e365f9b6042511d 2161 cider_0.19.0+dfsg-2.1.dsc
+ dd7e7af94ef4ebf0e76db9e6b4c33362 3909980 cider_0.19.0+dfsg.orig.tar.xz
+ 5843446fc794482a7db0335e0094abb0 10052 cider_0.19.0+dfsg-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/cider
+Vcs-Git: https://salsa.debian.org/emacsen-team/cider
+Checksums-Sha256:
+ d89e51a7ef1ec0bccdc15409248fd85bace1c4fe31f1eb5c10b711e65fffb6b0 2161 cider_0.19.0+dfsg-2.1.dsc
+ e296e1a0f95a03f194177c765b34f353b1bbb72ad4de4e1c4c5779f7397bee4b 3909980 cider_0.19.0+dfsg.orig.tar.xz
+ 380591ce32fa2fe92a47730c8fffbeb1b49e26ba08f19a457f92569ae1817718 10052 cider_0.19.0+dfsg-2.1.debian.tar.xz
+Homepage: https://www.github.com/clojure-emacs/cider
+Package-List: 
+ cider-doc deb doc optional arch=all
+ elpa-cider deb lisp optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/c/cider
+Priority: extra
+Section: misc

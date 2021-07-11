@@ -1,0 +1,27 @@
+Package: php-guzzlehttp-promises
+Binary: php-guzzlehttp-promises
+Version: 1.4.0-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: David Prévot <taffit@debian.org>
+Build-Depends: debhelper-compat (= 13), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2f757929acea170308c267a80cdb3841 1866 php-guzzlehttp-promises_1.4.0-2.dsc
+ a26685e158f88ec5cdbe0aa5b576efc4 31124 php-guzzlehttp-promises_1.4.0.orig.tar.gz
+ 84d46bcb431e79f37e93e685e83dd1ef 4100 php-guzzlehttp-promises_1.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-guzzlehttp-promises
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-guzzlehttp-promises.git -b debian/latest
+Checksums-Sha256:
+ 7c8fe4ffd22c524e25d796dcda21d2829d4f41cb8e1f6eaf78a7af916cf162eb 1866 php-guzzlehttp-promises_1.4.0-2.dsc
+ 712ba9f4429c706d27946b5f21bc5d604b695dc982c5b150add2e33c3d80f11a 31124 php-guzzlehttp-promises_1.4.0.orig.tar.gz
+ 9861489bc4f32cc852b4c0a5e19fe6910f01ee5f14d58671bb99604df0a30d4d 4100 php-guzzlehttp-promises_1.4.0-2.debian.tar.xz
+Homepage: https://github.com/guzzle/promises
+Package-List: 
+ php-guzzlehttp-promises deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: patch, phpab, phpunit
+Directory: pool/main/p/php-guzzlehttp-promises
+Priority: extra
+Section: misc

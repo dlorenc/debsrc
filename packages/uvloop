@@ -1,0 +1,28 @@
+Package: uvloop
+Binary: python3-uvloop, python3-uvloop-dbg
+Version: 0.14.0+ds1-2
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, libuv1-dev, cython3 (>= 0.28), python3-all-dev, python3-all-dbg, python3-setuptools, python3-psutil <!nocheck>, python3-pytest <!nocheck>, python3-aiohttp <!nocheck>, python3-openssl <!nocheck>, python3-flake8 <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9485a4440bb26169d0caa7a9bb9d3c70 2073 uvloop_0.14.0+ds1-2.dsc
+ 07fd65e586547d4c87a29da831f069b5 521732 uvloop_0.14.0+ds1.orig.tar.xz
+ 3a2d999bab613318e9a8a48a48cb8310 6984 uvloop_0.14.0+ds1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/uvloop
+Vcs-Git: https://salsa.debian.org/python-team/modules/uvloop.git
+Checksums-Sha256:
+ 96f88347341732f2315f62a072e864703b1ceb795c0af31eb602e738f8e8f67a 2073 uvloop_0.14.0+ds1-2.dsc
+ 7a6e5f462475832dfea02cbb568c2c17ec3ad2b24717427859e04aa4d319fa8e 521732 uvloop_0.14.0+ds1.orig.tar.xz
+ a39119cc0d8b698ec6874c8fe0b01471755d637c5ce0de7b8173041d5938b083 6984 uvloop_0.14.0+ds1-2.debian.tar.xz
+Homepage: https://github.com/MagicStack/uvloop
+Dgit: 66006b84f908f5db8dea09e7996b953fe5b42e04 debian archive/debian/0.14.0+ds1-2 https://git.dgit.debian.org/uvloop
+Package-List: 
+ python3-uvloop deb python optional arch=any
+ python3-uvloop-dbg deb debug optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/u/uvloop
+Priority: optional
+Section: misc

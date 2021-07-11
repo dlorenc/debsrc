@@ -1,0 +1,26 @@
+Package: jni-inchi
+Binary: libjni-inchi-java, libjni-inchi-jni
+Version: 0.8+dfsg-6
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper (>= 12), default-jdk, junit4 (>= 4.12), libexec-maven-plugin-java, libinchi-dev, maven-debian-helper (>= 2.1)
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ cc283bf8dae75dd37c80ca0e8d8feb89 2135 jni-inchi_0.8+dfsg-6.dsc
+ cf11a8e4a7f09f1565b01ffb25f52595 48404 jni-inchi_0.8+dfsg.orig.tar.xz
+ 61192ce6ea13f74c52d6d56e8affd52c 4972 jni-inchi_0.8+dfsg-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debichem-team/jni-inchi
+Vcs-Git: https://salsa.debian.org/debichem-team/jni-inchi.git
+Checksums-Sha256:
+ 757495aff6eec03a4eaab9e9769ceedd679fe7b3b6c011c136fafabf45397429 2135 jni-inchi_0.8+dfsg-6.dsc
+ f2b5e11efb5e061d9611790797028fa52e87d9dc6bbe7e428eee5af5480e1e8f 48404 jni-inchi_0.8+dfsg.orig.tar.xz
+ abc8c606c371f6e869dd99139a55cd7f92683507f672633438ee314b628b2a01 4972 jni-inchi_0.8+dfsg-6.debian.tar.xz
+Homepage: http://jni-inchi.sourceforge.net
+Package-List: 
+ libjni-inchi-java deb java optional arch=all
+ libjni-inchi-jni deb java optional arch=any
+Directory: pool/main/j/jni-inchi
+Priority: extra
+Section: misc

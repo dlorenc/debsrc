@@ -1,0 +1,29 @@
+Package: libubootenv
+Binary: libubootenv-dev, libubootenv0.1, libubootenv-tool, libubootenv-doc
+Version: 0.3.2-0.1
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Uploaders: SZ Lin (林上智) <szlin@debian.org>
+Build-Depends: debhelper (>= 11), cmake, zlib1g-dev, graphviz, doxygen
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 72bd0fc8ecbe8a5b4267daf4782f59b0 2196 libubootenv_0.3.2-0.1.dsc
+ a9c7f729dbc6cba0ec405cfa1bfdcaa9 45412 libubootenv_0.3.2.orig.tar.xz
+ 4a28cf91eb274c2edfa8a763bccaa965 5120 libubootenv_0.3.2-0.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libubootenv
+Vcs-Git: https://salsa.debian.org/debian/libubootenv.git
+Checksums-Sha256:
+ 198ebc534142bde212da8ea821039bab688036ca8ba95c23715fe3f7932a81d3 2196 libubootenv_0.3.2-0.1.dsc
+ 79d6c4bd86a6a459387142773ad48ebff65cfa09821b4d2548d6015716eeb853 45412 libubootenv_0.3.2.orig.tar.xz
+ 06162994f99d5360dc5c5c84640fbdcee5efde2e2e6fb031c8c82c15ea66b7f7 5120 libubootenv_0.3.2-0.1.debian.tar.xz
+Homepage: https://github.com/sbabic/libubootenv
+Package-List: 
+ libubootenv-dev deb libdevel optional arch=any
+ libubootenv-doc deb doc optional arch=all
+ libubootenv-tool deb utils optional arch=any
+ libubootenv0.1 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/libu/libubootenv
+Priority: extra
+Section: misc

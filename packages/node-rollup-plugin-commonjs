@@ -1,0 +1,26 @@
+Package: node-rollup-plugin-commonjs
+Binary: node-rollup-plugin-commonjs
+Version: 17.0.0+repack-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-acorn (>= 6~), node-babel7 <!pkg.node-rollup-plugin-commonjs.transpilebuble>, node-graceful-fs, node-magic-string, node-resolve, node-rollup-plugin-babel (>= 4.4~) <!pkg.node-rollup-plugin-commonjs.transpilebuble>, node-rollup-plugin-buble <pkg.node-rollup-plugin-commonjs.transpilebuble>, node-rollup-plugin-json, node-rollup-plugin-node-resolve (>= 9) <!nocheck>, node-rollup-pluginutils (>= 2.3.3-5), node-source-map <!nocheck>, node-source-map-support <!nocheck>, node-tape <!nocheck>, nodejs (>= 10), dh-sequence-nodejs, rollup (>= 1~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 527b0da98f8ef81c5737d1047557d442 2776 node-rollup-plugin-commonjs_17.0.0+repack-2.dsc
+ 8e4773eddad918b49e099272691c560d 85492 node-rollup-plugin-commonjs_17.0.0+repack.orig.tar.xz
+ 3e8d597f3689c9edb86a40f5cdf8ab25 8040 node-rollup-plugin-commonjs_17.0.0+repack-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-rollup-plugin-commonjs
+Vcs-Git: https://salsa.debian.org/js-team/node-rollup-plugin-commonjs.git
+Checksums-Sha256:
+ a92b8cfea3a4bd2a3d9dbf4fbfa14d4245ba0bbf99821a019e68edecf6621421 2776 node-rollup-plugin-commonjs_17.0.0+repack-2.dsc
+ f2ffe29316a129276e8267c43526155eb7c28c83ea70347f670438f02fc0e0bd 85492 node-rollup-plugin-commonjs_17.0.0+repack.orig.tar.xz
+ 32b8a5a25e7e225e03d9c4f89fbe09581adf1e3c0bad6fbee18c578c74d944b3 8040 node-rollup-plugin-commonjs_17.0.0+repack-2.debian.tar.xz
+Homepage: https://github.com/rollup/plugins
+Package-List: 
+ node-rollup-plugin-commonjs deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-rollup-plugin-commonjs
+Priority: extra
+Section: javascript

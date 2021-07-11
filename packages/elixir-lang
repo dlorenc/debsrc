@@ -1,0 +1,26 @@
+Package: elixir-lang
+Binary: elixir
+Version: 1.10.3.dfsg-1.1
+Maintainer: Evgeny Golyshev <eugulixes@gmail.com>
+Build-Depends: debhelper (>= 10), erlang-crypto (>= 1:21), erlang-dev (>= 1:21), erlang-dialyzer (>= 1:21), erlang-eunit (>= 1:21), erlang-parsetools (>= 1:21), erlang-src (>= 1:21), git, rebar
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 8415922dc5babbcb62dd294a25467ec3 2164 elixir-lang_1.10.3.dfsg-1.1.dsc
+ 702f09fb95f09c4e465a332a163e0a5f 1198816 elixir-lang_1.10.3.dfsg.orig.tar.xz
+ 052a08dd6154385bf60d5a7dd5229852 7364 elixir-lang_1.10.3.dfsg-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/eugulixes-guest/elixir-lang
+Vcs-Git: https://salsa.debian.org/eugulixes-guest/elixir-lang.git
+Checksums-Sha256:
+ 1b09a4370109f2cef8eb5b899d72cbee385334d448c641b5da1a87adbb9cb057 2164 elixir-lang_1.10.3.dfsg-1.1.dsc
+ 3c9ba3026abbea63943f1502a645de6ed0af4d760e375e982c0478e7611e3d7e 1198816 elixir-lang_1.10.3.dfsg.orig.tar.xz
+ 266806f75307667bdfddcac4e3fabaa71f7cdb5ff61860c83c406daf91e6dd56 7364 elixir-lang_1.10.3.dfsg-1.1.debian.tar.xz
+Homepage: http://elixir-lang.org/
+Package-List: 
+ elixir deb interpreters optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: bash, erlang-inets, erlang-parsetools, git, rebar
+Directory: pool/main/e/elixir-lang
+Priority: optional
+Section: misc

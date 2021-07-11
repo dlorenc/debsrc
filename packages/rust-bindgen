@@ -1,0 +1,36 @@
+Package: rust-bindgen
+Binary: librust-bindgen-dev, librust-bindgen+clap-dev, librust-bindgen+default-dev, librust-bindgen+env-logger-dev, librust-bindgen+log-dev, librust-bindgen+logging-dev, librust-bindgen+runtime-dev, librust-bindgen+static-dev, librust-bindgen+which-dev, bindgen
+Version: 0.55.1-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native, rustc:native, libstd-rust-dev, librust-bitflags-1+default-dev (>= 1.0.3-~~), librust-cexpr-0.4+default-dev, librust-cfg-if-0.1+default-dev, librust-clang-sys-1+clang-6-0-dev, librust-clang-sys-1+default-dev, librust-clap-2+default-dev, librust-env-logger-0.7+default-dev, librust-lazy-static-1+default-dev, librust-lazycell-1+default-dev, librust-log-0.4+default-dev, librust-peeking-take-while-0.1+default-dev (>= 0.1.2-~~), librust-proc-macro2-1-dev, librust-quote-1-dev, librust-regex-1+std-dev, librust-regex-1+unicode-dev, librust-rustc-hash-1+default-dev (>= 1.0.1-~~), librust-shlex-0.1+default-dev, librust-which-3-dev, clang
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 435cfcc36d588325335180c98c4c454f 3584 rust-bindgen_0.55.1-3.dsc
+ 617039b57116d45f91cdd1290d4c4ad4 196538 rust-bindgen_0.55.1.orig.tar.gz
+ 70b398e9f5016d5b9498c29e22fe572e 4468 rust-bindgen_0.55.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bindgen
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/bindgen]
+Checksums-Sha256:
+ 3a55c69740b3b514cf5e8870ca9465427d7e70a0e6e781c0560fa1ceaaddbe6c 3584 rust-bindgen_0.55.1-3.dsc
+ 75b13ce559e6433d360c26305643803cb52cfbabbc2b9c47ce04a58493dfb443 196538 rust-bindgen_0.55.1.orig.tar.gz
+ cc802e2011f4a0b3d315513a9da1a10433bd1422f3b0c879efd6e969af43a38c 4468 rust-bindgen_0.55.1-3.debian.tar.xz
+Homepage: https://rust-lang.github.io/rust-bindgen/
+Package-List: 
+ bindgen deb rust optional arch=any
+ librust-bindgen+clap-dev deb rust optional arch=any
+ librust-bindgen+default-dev deb rust optional arch=any
+ librust-bindgen+env-logger-dev deb rust optional arch=any
+ librust-bindgen+log-dev deb rust optional arch=any
+ librust-bindgen+logging-dev deb rust optional arch=any
+ librust-bindgen+runtime-dev deb rust optional arch=any
+ librust-bindgen+static-dev deb rust optional arch=any
+ librust-bindgen+which-dev deb rust optional arch=any
+ librust-bindgen-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-clap-2+default-dev, librust-diff-0.1+default-dev, librust-shlex-0.1+default-dev
+Directory: pool/main/r/rust-bindgen
+Priority: extra
+Section: misc

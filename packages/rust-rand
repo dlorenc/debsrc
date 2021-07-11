@@ -1,0 +1,37 @@
+Package: rust-rand
+Binary: librust-rand-dev, librust-rand+alloc-dev, librust-rand+getrandom-dev, librust-rand+getrandom-package-dev, librust-rand+libc-dev, librust-rand+log-dev, librust-rand+packed-simd-dev, librust-rand+rand-pcg-dev, librust-rand+std-dev, librust-rand+stdweb-dev, librust-rand+wasm-bindgen-dev
+Version: 0.7.3-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-getrandom-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-libc-0.2-dev (>= 0.2.22-~~) <!nocheck>, librust-rand-chacha-0.2+std-dev (>= 0.2.1-~~) <!nocheck>, librust-rand-chacha-0.2-dev (>= 0.2.1-~~) <!nocheck>, librust-rand-core-0.5+alloc-dev (>= 0.5.1-~~) <!nocheck>, librust-rand-core-0.5+default-dev (>= 0.5.1-~~) <!nocheck>, librust-rand-core-0.5+getrandom-dev (>= 0.5.1-~~) <!nocheck>, librust-rand-core-0.5+std-dev (>= 0.5.1-~~) <!nocheck>, librust-rand-hc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 29a80eeb4c5ed9838469e288aac3b48b 3525 rust-rand_0.7.3-3.dsc
+ 18d67a7ca6f173252c8db748c983ec42 109785 rust-rand_0.7.3.orig.tar.gz
+ a344f8252a5ba232734c5fd457684fa7 4772 rust-rand_0.7.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand]
+Checksums-Sha256:
+ 7fe7b8a2442a5669a6e35e7e879b15d9db46c56ee09b475b04dd1407b47839bf 3525 rust-rand_0.7.3-3.dsc
+ dc010c9a588d18d66250eb89ffc4bba8357863a4afed2541884f4ace72233d85 109785 rust-rand_0.7.3.orig.tar.gz
+ 57816dce2312acfa6a20547ffa39eeff63c123c5212243798fd8426c02fef950 4772 rust-rand_0.7.3-3.debian.tar.xz
+Homepage: https://crates.io/crates/rand
+Package-List: 
+ librust-rand+alloc-dev deb rust optional arch=any
+ librust-rand+getrandom-dev deb rust optional arch=any
+ librust-rand+getrandom-package-dev deb rust optional arch=any
+ librust-rand+libc-dev deb rust optional arch=any
+ librust-rand+log-dev deb rust optional arch=any
+ librust-rand+packed-simd-dev deb rust optional arch=any
+ librust-rand+rand-pcg-dev deb rust optional arch=any
+ librust-rand+std-dev deb rust optional arch=any
+ librust-rand+stdweb-dev deb rust optional arch=any
+ librust-rand+wasm-bindgen-dev deb rust optional arch=any
+ librust-rand-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-rand-hc-0.2+default-dev, librust-rand-pcg-0.2+default-dev
+Directory: pool/main/r/rust-rand
+Priority: extra
+Section: misc

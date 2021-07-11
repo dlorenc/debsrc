@@ -1,0 +1,26 @@
+Package: haskell-libmpd
+Binary: libghc-libmpd-dev, libghc-libmpd-prof, libghc-libmpd-doc
+Version: 0.9.1.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-attoparsec-dev (>= 0.10.1), libghc-attoparsec-dev (<< 1), libghc-attoparsec-prof (>= 0.10.1), libghc-attoparsec-prof (<< 1), libghc-data-default-class-dev (>= 0.0.1), libghc-data-default-class-dev (<< 1), libghc-data-default-class-prof, libghc-network-dev (>= 2.6.3.5), libghc-network-prof, libghc-old-locale-dev (>= 1), libghc-old-locale-dev (<< 2), libghc-old-locale-prof, libghc-safe-exceptions-dev (>= 0.1), libghc-safe-exceptions-dev (<< 0.2), libghc-safe-exceptions-prof, libghc-utf8-string-dev (>= 0.3.1), libghc-utf8-string-dev (<< 1.1), libghc-utf8-string-prof, libghc-quickcheck2-dev (>= 2.10), libghc-quickcheck2-prof, libghc-hspec-dev (>= 1.3)
+Build-Depends-Indep: ghc-doc, libghc-attoparsec-doc, libghc-data-default-class-doc, libghc-network-doc, libghc-old-locale-doc, libghc-safe-exceptions-doc, libghc-utf8-string-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c5abb35353b80d7f74c49501822d05ef 2967 haskell-libmpd_0.9.1.0-1.dsc
+ 41a00cf7bc919d8ee3cdb7c21e5436a2 41332 haskell-libmpd_0.9.1.0.orig.tar.gz
+ 7a451c08fba7b9815eee28841397ffe3 2656 haskell-libmpd_0.9.1.0-1.debian.tar.xz
+Checksums-Sha256:
+ 2f34ffa7651f2d2e3649fa9fe56e30c8f43dd72ba77a4c524d1c9b408691a906 2967 haskell-libmpd_0.9.1.0-1.dsc
+ d941296ce48671f73d328e8b0d00cc1c99eabc0d81d98067af78ddde88db3ab8 41332 haskell-libmpd_0.9.1.0.orig.tar.gz
+ f59bf585f800c7edb1b17cf785cac4f1805ab98bec0b2de83981f3b0b60e8d8d 2656 haskell-libmpd_0.9.1.0-1.debian.tar.xz
+Homepage: https://github.com/vimus/libmpd-haskell#readme
+Package-List: 
+ libghc-libmpd-dev deb haskell optional arch=any
+ libghc-libmpd-doc deb doc optional arch=all
+ libghc-libmpd-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-libmpd
+Priority: extra
+Section: misc

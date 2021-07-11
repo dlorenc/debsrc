@@ -1,0 +1,26 @@
+Package: rust-safemem
+Binary: librust-safemem-dev
+Version: 0.3.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ e2894e25ed6b7cb396a07cdc139bba5a 2104 rust-safemem_0.3.3-1.dsc
+ 994b165f971ecfc09dc13fca8d394691 7778 rust-safemem_0.3.3.orig.tar.gz
+ 07de85843d695463c7f932b87a8fa11a 2616 rust-safemem_0.3.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/safemem
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/safemem]
+Checksums-Sha256:
+ 9af1c2556fe50a402d03726002608aa2e016bbd4baaff1470fe3c1b1420984e6 2104 rust-safemem_0.3.3-1.dsc
+ ef703b7cb59335eae2eb93ceb664c0eb7ea6bf567079d843e09420219668e072 7778 rust-safemem_0.3.3.orig.tar.gz
+ 965583b96f4f3de3ce48e43cb598d7ce10768235f4902e567180ee0da562c4c0 2616 rust-safemem_0.3.3-1.debian.tar.xz
+Package-List: 
+ librust-safemem-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-safemem
+Priority: extra
+Section: misc

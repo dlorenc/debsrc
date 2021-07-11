@@ -1,0 +1,29 @@
+Package: gtkmm2.4
+Binary: libgtkmm-2.4-dev, libgtkmm-2.4-1v5, libgtkmm-2.4-doc
+Version: 1:2.24.5-4
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Jeremy Bicha <jbicha@debian.org>, Michael Biebl <biebl@debian.org>, Sebastian Dröge <slomo@debian.org>
+Build-Depends: debhelper (>= 11), gnome-pkg-tools (>= 0.11), libgtk2.0-dev (>= 2.24.0), libglibmm-2.4-dev (>= 2.27.93), libpangomm-1.4-dev (>= 2.27.1), libatkmm-1.6-dev (>= 2.22.2), mm-common (>= 0.9.5)
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 85d357e7ac0cccd9dbd1da62955bb344 2419 gtkmm2.4_2.24.5-4.dsc
+ 6c59ae8bbff48fad9132f23af347acf1 12022024 gtkmm2.4_2.24.5.orig.tar.xz
+ c38bf19818325bedc207d1f9d8ba4ee5 22564 gtkmm2.4_2.24.5-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gtkmm2.4
+Vcs-Git: https://salsa.debian.org/gnome-team/gtkmm2.4.git
+Checksums-Sha256:
+ 2301a8d9c46ffb24cb473c38e181c1287b2d20ce2b6a108732c52a69c42b4445 2419 gtkmm2.4_2.24.5-4.dsc
+ 0680a53b7bf90b4e4bf444d1d89e6df41c777e0bacc96e9c09fc4dd2f5fe6b72 12022024 gtkmm2.4_2.24.5.orig.tar.xz
+ 685cfb5e11527fbbab2d2a859d72c212bcc519ab30095c95844c0e5769cc0ce9 22564 gtkmm2.4_2.24.5-4.debian.tar.xz
+Homepage: https://www.gtkmm.org/
+Package-List: 
+ libgtkmm-2.4-1v5 deb oldlibs optional arch=any
+ libgtkmm-2.4-dev deb oldlibs optional arch=any
+ libgtkmm-2.4-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, xauth, xvfb
+Directory: pool/main/g/gtkmm2.4
+Priority: source
+Section: libs

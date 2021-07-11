@@ -1,0 +1,27 @@
+Package: ponyorm
+Binary: python3-pony
+Version: 0.7.14-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: python3-all, debhelper-compat (= 13), python3-decorator, dh-python, python3-setuptools, python3-pyodbc, python3-psycopg2, python3-mysqldb, python3-pymysql
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3e1c9678d4d67d769178638f259f0a8d 2118 ponyorm_0.7.14-1.dsc
+ 2c8d2f22c5a87cd693e2b146262f5b7a 290604 ponyorm_0.7.14.orig.tar.gz
+ 3bee24bc8a1be4d201135d231ba4557b 4528 ponyorm_0.7.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/ponyorm
+Vcs-Git: https://salsa.debian.org/python-team/packages/ponyorm.git
+Checksums-Sha256:
+ b8e969273ed7cdba53334a3cfb235ab4e85baa939262bcbebaeee86931ed9cb4 2118 ponyorm_0.7.14-1.dsc
+ 2f01e84e79ea7a14040225cb6c079bb266e7ba147346356c266490b18c77ce82 290604 ponyorm_0.7.14.orig.tar.gz
+ eea644f5dd200330d4187033401b8fd04f6a799a5f0d9bc50d0a5d9b5adea289 4528 ponyorm_0.7.14-1.debian.tar.xz
+Homepage: https://www.ponyorm.org/
+Package-List: 
+ python3-pony deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-setuptools
+Directory: pool/main/p/ponyorm
+Priority: extra
+Section: misc

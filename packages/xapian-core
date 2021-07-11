@@ -1,0 +1,31 @@
+Package: xapian-core
+Binary: libxapian30, libxapian-dev, xapian-tools, xapian-doc, xapian-examples
+Version: 1.4.18-3
+Maintainer: Olly Betts <olly@survex.com>
+Build-Depends: debhelper-compat (= 12), zlib1g-dev, uuid-dev, dpkg (>= 1.16.1~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3641b7322a51c796fc8052eb673646ea 2397 xapian-core_1.4.18-3.dsc
+ dd1b30f9b307b06fab319d3258fe65ee 2984508 xapian-core_1.4.18.orig.tar.xz
+ fd06c3097c0a8113980339db9b50ffee 833 xapian-core_1.4.18.orig.tar.xz.asc
+ 1292be43d35fc86a14899f30eba995b9 19276 xapian-core_1.4.18-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/olly/xapian-core
+Vcs-Git: https://salsa.debian.org/olly/xapian-core.git
+Checksums-Sha256:
+ 0a93cf2f5e8d43133ba2dcaa5934fda38ecfe03e1af0305a59bf89dc31c5a9ad 2397 xapian-core_1.4.18-3.dsc
+ 196ddbb4ad10450100f0991a599e4ed944cbad92e4a6fe813be6dce160244b77 2984508 xapian-core_1.4.18.orig.tar.xz
+ b642f40d7bee6794e701bb11c898c514376e0c76cf923ac7ab45e78b01f3ed0b 833 xapian-core_1.4.18.orig.tar.xz.asc
+ 3d6539cd04b2e2e15243f588befd59d7106eaf60b78a2b339091a07bdde6b2a4 19276 xapian-core_1.4.18-3.debian.tar.xz
+Homepage: https://xapian.org/
+Package-List: 
+ libxapian-dev deb libdevel optional arch=any
+ libxapian30 deb libs optional arch=any
+ xapian-doc deb doc optional arch=all
+ xapian-examples deb doc optional arch=any
+ xapian-tools deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/x/xapian-core
+Priority: source
+Section: libs

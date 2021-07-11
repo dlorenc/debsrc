@@ -1,0 +1,28 @@
+Package: libtest-prereq-perl
+Binary: libtest-prereq-perl
+Version: 2.003-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libmodule-build-perl <!nocheck>, libmodule-extract-use-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl (>= 5.22.0)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c2b2541a7aabeeec9358fbfbae942024 2527 libtest-prereq-perl_2.003-1.dsc
+ 34c6764e372483ff69d5f38d502d4eb7 14976 libtest-prereq-perl_2.003.orig.tar.gz
+ b7a0b8a25feb695a9700ef5cddd1ca93 6240 libtest-prereq-perl_2.003-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-prereq-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-prereq-perl.git
+Checksums-Sha256:
+ 64003317daf6bfce34efa1b116bd2628d71dffbf9d39470fa1a2def28551ba18 2527 libtest-prereq-perl_2.003-1.dsc
+ d889ff6abf4852c4ef6c28cec1053ce3c409dfdc9c2ac99c4d8653bdb9fa2b45 14976 libtest-prereq-perl_2.003.orig.tar.gz
+ 3215d73e6c9f18be0b5891286271d354eb0a6a27a8b124bcf0a9633c36958a4b 6240 libtest-prereq-perl_2.003-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Prereq
+Dgit: a23cb1953c7a812f3cb6a1a223aad97ec600a449 debian archive/debian/2.003-1 https://git.dgit.debian.org/libtest-prereq-perl
+Package-List: 
+ libtest-prereq-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-prereq-perl
+Priority: source
+Section: perl

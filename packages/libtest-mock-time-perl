@@ -1,0 +1,27 @@
+Package: libtest-mock-time-perl
+Binary: libtest-mock-time-perl
+Version: 0.1.7-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libanyevent-perl, libexport-attrs-perl, libev-perl, libmojolicious-perl, libtest-exception-perl, libtest-mockmodule-perl, perl (>= 5.19.5) | libscalar-list-utils-perl (>= 1:1.33)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7e30c3d19f02a8f1b91b718a21ee6665 2363 libtest-mock-time-perl_0.1.7-3.dsc
+ f739788d135435d862fe46ec8e27f454 12709 libtest-mock-time-perl_0.1.7.orig.tar.gz
+ 6accec36dd3dab29186224488b00a1f9 2588 libtest-mock-time-perl_0.1.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-mock-time-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-mock-time-perl.git
+Checksums-Sha256:
+ c0e4f3291d37a0dc7e3578ed0b72712d2421cd360f7202c6d7c7068e0046b6d3 2363 libtest-mock-time-perl_0.1.7-3.dsc
+ 82a884b6f42b368f6d62d50d9278417515f636aa758fb414a24da337430665ba 12709 libtest-mock-time-perl_0.1.7.orig.tar.gz
+ 52665bf7214106c99ed8a29a0887dfffd269a24a1439df413a9eaaf7eece9507 2588 libtest-mock-time-perl_0.1.7-3.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Mock-Time
+Package-List: 
+ libtest-mock-time-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-mock-time-perl
+Priority: extra
+Section: misc

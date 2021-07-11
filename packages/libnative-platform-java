@@ -1,0 +1,27 @@
+Package: libnative-platform-java
+Binary: libnative-platform-java, libnative-platform-jni, libnative-platform-java-doc
+Version: 0.14-5
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlikok@gmail.com>
+Build-Depends: debhelper (>= 11), default-jdk (>= 2:1.8), default-jdk-doc, javahelper, libncurses5-dev, maven-repo-helper (>= 1.5~)
+Architecture: any all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ c6713425322543add4ecadb00a386ce1 2359 libnative-platform-java_0.14-5.dsc
+ 2fbae60bcaf785a8f754505cc8c88c7b 48472 libnative-platform-java_0.14.orig.tar.xz
+ 7ecc5afbb69a03a606047380768867cb 5996 libnative-platform-java_0.14-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libnative-platform-java
+Vcs-Git: https://salsa.debian.org/java-team/libnative-platform-java.git
+Checksums-Sha256:
+ 706af85f1b2341d1b62156c751ef851fc18651e006a8726489391b62cd483f3f 2359 libnative-platform-java_0.14-5.dsc
+ 18cd69d93a11453c81835080881051cfe4c660799bb1ed90f84e513faafd6d13 48472 libnative-platform-java_0.14.orig.tar.xz
+ ef24daa5efa1962de63ebb5e608c3ee9dcdec2cf68cd083b8c7527a771ee9d3a 5996 libnative-platform-java_0.14-5.debian.tar.xz
+Homepage: https://github.com/adammurdoch/native-platform
+Package-List: 
+ libnative-platform-java deb java optional arch=all
+ libnative-platform-java-doc deb doc optional arch=all
+ libnative-platform-jni deb java optional arch=any
+Directory: pool/main/libn/libnative-platform-java
+Priority: source
+Section: misc

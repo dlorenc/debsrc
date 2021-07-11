@@ -1,0 +1,27 @@
+Package: golang-github-joyent-gosdc
+Binary: golang-github-joyent-gosdc-dev
+Version: 0.0~git20161202.ec8b350-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-joyent-gocommon-dev, golang-github-joyent-gosign-dev, golang-github-julienschmidt-httprouter-dev, golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 92d9d0e5f6ee2c1199c117aa869d7961 2633 golang-github-joyent-gosdc_0.0~git20161202.ec8b350-3.dsc
+ 9a562eb2a2701560e839ae8779d1c9e3 38780 golang-github-joyent-gosdc_0.0~git20161202.ec8b350.orig.tar.xz
+ 4c0fb39fa35d8891d68c33e1f99ca43a 4312 golang-github-joyent-gosdc_0.0~git20161202.ec8b350-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-joyent-gosdc
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-joyent-gosdc.git
+Checksums-Sha256:
+ 4680738e81135737d94a246a6e6dd2dd3097625c2be700e66b99675d078f64f4 2633 golang-github-joyent-gosdc_0.0~git20161202.ec8b350-3.dsc
+ 5c9819ceffbcf86d15d2353b29d38669579da1dacfb2218e2f22b1ae3d67eb7d 38780 golang-github-joyent-gosdc_0.0~git20161202.ec8b350.orig.tar.xz
+ 38068bf4c71cdd7a5aefdb444b702b082f3ded68f2546cb44369ec9330482e24 4312 golang-github-joyent-gosdc_0.0~git20161202.ec8b350-3.debian.tar.xz
+Homepage: https://github.com/joyent/gosdc
+Go-Import-Path: github.com/joyent/gosdc
+Package-List: 
+ golang-github-joyent-gosdc-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-joyent-gosdc
+Priority: extra
+Section: golang

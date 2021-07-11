@@ -1,0 +1,31 @@
+Package: gmime
+Binary: libgmime-3.0-dev, gir1.2-gmime-3.0, libgmime-3.0-doc, libgmime-3.0-0, gmime-bin
+Version: 3.2.7-1
+Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Uploaders: Mirco Bauer <meebey@debian.org>,
+Build-Depends: autoconf, automake, debhelper-compat (= 12), dh-exec, dpkg-dev (>= 1.17.14~), gnupg <!nocheck>, gobject-introspection, gtk-doc-tools (>= 1.8), libgirepository1.0-dev, libglib2.0-dev, libgpgme11-dev (>= 1.8.0~), libtool, valac, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 854f8255f56e90b90bd0688786fca98e 1831 gmime_3.2.7-1.dsc
+ 7ecd9aa75e0cd2e8668206b1d53df874 2227048 gmime_3.2.7.orig.tar.xz
+ 1ce27dec3a2d800a7208acfc756480d3 13464 gmime_3.2.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/gmime
+Vcs-Git: https://salsa.debian.org/debian/gmime.git -b debian/master
+Checksums-Sha256:
+ 1acdc81489b56e359f4caaf6ed4b2ed2fbce3f0729a56dc9de3d4ebbb4c13c43 1831 gmime_3.2.7-1.dsc
+ 2aea96647a468ba2160a64e17c6dc6afe674ed9ac86070624a3f584c10737d44 2227048 gmime_3.2.7.orig.tar.xz
+ 5ffc7715101052393206d26ff52aaaf692beed6b27c7392aae66c9d40d1d9797 13464 gmime_3.2.7-1.debian.tar.xz
+Homepage: https://github.com/jstedfast/gmime/
+Package-List: 
+ gir1.2-gmime-3.0 deb introspection optional arch=any
+ gmime-bin deb utils optional arch=any
+ libgmime-3.0-0 deb libs optional arch=any
+ libgmime-3.0-dev deb libdevel optional arch=any
+ libgmime-3.0-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, diffutils, python3-gi
+Directory: pool/main/g/gmime
+Priority: source
+Section: libs

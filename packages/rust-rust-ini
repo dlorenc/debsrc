@@ -1,0 +1,26 @@
+Package: rust-rust-ini
+Binary: librust-rust-ini-dev
+Version: 0.16.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-ordered-multimap-0.3+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 11258f8f976c7c3e11b9b4fcf488ffe6 2221 rust-rust-ini_0.16.0-2.dsc
+ 17774def2878d115a688f4f157ceb623 14807 rust-rust-ini_0.16.0.orig.tar.gz
+ f5c438d6b279093a06fe95190d7e21dd 2752 rust-rust-ini_0.16.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rust-ini
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rust-ini]
+Checksums-Sha256:
+ 26e0e7c9c71eda8b50664b746a90efaed9c674aa9f071ef8389109af17785930 2221 rust-rust-ini_0.16.0-2.dsc
+ dcdbf249a931ceb503aa80e08ca016675dbc7884eda8e2d88e85533d4dbade62 14807 rust-rust-ini_0.16.0.orig.tar.gz
+ dc5eda99c6bc6f66c4ad27013758c7d68463c3893c80356bf7843a7994f1948d 2752 rust-rust-ini_0.16.0-2.debian.tar.xz
+Package-List: 
+ librust-rust-ini-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rust-ini
+Priority: extra
+Section: misc

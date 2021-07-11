@@ -1,0 +1,27 @@
+Package: rust-num-traits
+Binary: librust-num-traits-dev
+Version: 0.2.14-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-autocfg-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3137784ad6eec66135c486630ce79c1d 1933 rust-num-traits_0.2.14-1.dsc
+ c0e036fd990d0c9cae11b5876a5cb572 45476 rust-num-traits_0.2.14.orig.tar.gz
+ 24255ec1c5938080487563a2bfc6e81e 3580 rust-num-traits_0.2.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-traits
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-traits]
+Checksums-Sha256:
+ f2790095d5ab11ac29cd2fe420f4610cf43aa22f9b88f5d75ddd90362ffcf8cc 1933 rust-num-traits_0.2.14-1.dsc
+ 9a64b1ec5cda2586e284722486d802acf1f7dbdc623e2bfc57e65ca1cd099290 45476 rust-num-traits_0.2.14.orig.tar.gz
+ f6ecabd6ae12f03fca3ed2bd3f4c6d9e282a6a3bd4568e52d4002bbead29c5b2 3580 rust-num-traits_0.2.14-1.debian.tar.xz
+Homepage: https://github.com/rust-num/num-traits
+Package-List: 
+ librust-num-traits-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-num-traits
+Priority: extra
+Section: misc

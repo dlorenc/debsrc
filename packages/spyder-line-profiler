@@ -1,0 +1,27 @@
+Package: spyder-line-profiler
+Binary: python3-spyder-line-profiler
+Version: 0.2.1-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-line-profiler, python3-pytest <!nocheck>, python3-pytest-xvfb <!nocheck>, python3-pytestqt <!nocheck>, python3-setuptools, python3-spyder (>= 4.0)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 144a655441e4f7d6d8420d78cc8407a8 2420 spyder-line-profiler_0.2.1-1.dsc
+ 362d0ef6d9d70605323ed58330f5aa64 16712 spyder-line-profiler_0.2.1.orig.tar.gz
+ 001fb26aaaa6b83c1faf4f1e4df9dbed 2304 spyder-line-profiler_0.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/spyder-line-profiler
+Vcs-Git: https://salsa.debian.org/science-team/spyder-line-profiler.git
+Checksums-Sha256:
+ 9b8b6b94823648f010bf4ed0d418de974696d91d0ae9167d30c3d99bfdb50d20 2420 spyder-line-profiler_0.2.1-1.dsc
+ 5b6272cd3b8d21700289f58ad10ed72c689d8d8fb742fce1a22e93a6d3f63f1f 16712 spyder-line-profiler_0.2.1.orig.tar.gz
+ cda2df4b7649abf7ae712cafdad718fbfb2cd8b5aa0abaac7ee87c8e6e17e3f0 2304 spyder-line-profiler_0.2.1-1.debian.tar.xz
+Homepage: https://github.com/spyder-ide/spyder-line-profiler
+Package-List: 
+ python3-spyder-line-profiler deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-pytest-xvfb, python3-pytestqt
+Directory: pool/main/s/spyder-line-profiler
+Priority: optional
+Section: misc

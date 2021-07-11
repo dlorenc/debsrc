@@ -1,0 +1,27 @@
+Package: rust-data-encoding-macro-internal
+Binary: librust-data-encoding-macro-internal-dev, librust-data-encoding-macro-internal+proc-macro-hack-dev
+Version: 0.1.7-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-data-encoding-2+default-dev (>= 2.1-~~) <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 56ad5389d1127d1cd318bf9290f19a9e 2574 rust-data-encoding-macro-internal_0.1.7-3.dsc
+ 02ccb85edf09a98074bd513506c900cd 3332 rust-data-encoding-macro-internal_0.1.7.orig.tar.gz
+ 6941bf7877e7d9ff6846a5f8320c2f27 2892 rust-data-encoding-macro-internal_0.1.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/data-encoding-macro-internal
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/data-encoding-macro-internal]
+Checksums-Sha256:
+ 8bb39e9c4c4d7e1c37b2193cd97faace81de7a508c115574da6a9a779a04eead 2574 rust-data-encoding-macro-internal_0.1.7-3.dsc
+ 255e8b23f9a7a1afdb0bdcb5b1a8c79ae71cabf09c0c8895b4922e1bd0dd84b9 3332 rust-data-encoding-macro-internal_0.1.7.orig.tar.gz
+ 616c17f68c825fc80272f747150a5277f87d6e192fc9849f49ff6215c14fd642 2892 rust-data-encoding-macro-internal_0.1.7-3.debian.tar.xz
+Package-List: 
+ librust-data-encoding-macro-internal+proc-macro-hack-dev deb rust optional arch=any
+ librust-data-encoding-macro-internal-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-data-encoding-macro-internal
+Priority: extra
+Section: misc

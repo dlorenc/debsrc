@@ -1,0 +1,50 @@
+Package: lighttpd
+Binary: lighttpd, lighttpd-doc, lighttpd-modules-dbi, lighttpd-modules-ldap, lighttpd-modules-lua, lighttpd-modules-mysql, lighttpd-mod-trigger-b4-dl, lighttpd-mod-cml, lighttpd-mod-magnet, lighttpd-mod-webdav, lighttpd-mod-authn-gssapi, lighttpd-mod-authn-pam, lighttpd-mod-authn-sasl, lighttpd-mod-deflate, lighttpd-mod-geoip, lighttpd-mod-maxminddb, lighttpd-mod-vhostdb-dbi, lighttpd-mod-vhostdb-pgsql, lighttpd-mod-mbedtls, lighttpd-mod-nss, lighttpd-mod-openssl, lighttpd-mod-wolfssl
+Version: 1.4.59-1
+Maintainer: Debian lighttpd maintainers <team+lighttpd@tracker.debian.org>
+Uploaders: Helmut Grohne <helmut.grohne@intenta.de>, Glenn Strauss <gstrauss@gluelogic.com>, Stefan Bühler <stbuehler@web.de>
+Build-Depends: dpkg-dev (>= 1.16.1~), debhelper-compat (= 12), mime-support <!nocheck>, libmbedtls-dev (>= 2.14.0), libnss3-dev (>= 2:3.26.2), libssl-dev, libwolfssl-dev (>= 3.14.0~), zlib1g-dev, libbrotli-dev, libpcre3-dev, default-libmysqlclient-dev | libmysqlclient-dev, libdbi-dev, libldap2-dev, libgdbm-dev, libgeoip-dev, liblua5.3-dev, libmaxminddb-dev, libmemcached-dev, pkg-config, uuid-dev, libsqlite3-dev, libxml2-dev, libkrb5-dev, libpam0g-dev, libpq-dev, libsasl2-dev, libunwind8-dev <pkg.lighttpd.libunwind>, libxxhash-dev, nettle-dev, perl:native
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e79ef0c9285e25a7700e593a80e7a29d 4360 lighttpd_1.4.59-1.dsc
+ a8838dac90fcddbcc05c0d1877bd8cdf 968352 lighttpd_1.4.59.orig.tar.xz
+ fe6eb2cb99c0110cbbaf823fef16c634 833 lighttpd_1.4.59.orig.tar.xz.asc
+ 4f297a23149110c5414615cc7c544330 48212 lighttpd_1.4.59-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/lighttpd
+Vcs-Git: https://salsa.debian.org/debian/lighttpd.git
+Checksums-Sha256:
+ 66d9d46f6aa992aea90ab5305beef64bd2bead12ece30d22517b83df726745b2 4360 lighttpd_1.4.59-1.dsc
+ fb953db273daef08edb6e202556cae8a3d07eed6081c96bd9903db957d1084d5 968352 lighttpd_1.4.59.orig.tar.xz
+ a50c647fb414433131fb24b85848a9d9d972933e897e1b8f6deeb65eae8fc971 833 lighttpd_1.4.59.orig.tar.xz.asc
+ ddfb9fef3bfda7a5ee3a750f40046b604869724e77968214b735188325e381e3 48212 lighttpd_1.4.59-1.debian.tar.xz
+Homepage: https://www.lighttpd.net/
+Package-List: 
+ lighttpd deb httpd optional arch=any
+ lighttpd-doc deb doc optional arch=all
+ lighttpd-mod-authn-gssapi deb httpd optional arch=any
+ lighttpd-mod-authn-pam deb httpd optional arch=any
+ lighttpd-mod-authn-sasl deb httpd optional arch=any
+ lighttpd-mod-cml deb oldlibs optional arch=any
+ lighttpd-mod-deflate deb httpd optional arch=any
+ lighttpd-mod-geoip deb httpd optional arch=any
+ lighttpd-mod-magnet deb oldlibs optional arch=any
+ lighttpd-mod-maxminddb deb httpd optional arch=any
+ lighttpd-mod-mbedtls deb httpd optional arch=any
+ lighttpd-mod-nss deb httpd optional arch=any
+ lighttpd-mod-openssl deb httpd optional arch=any
+ lighttpd-mod-trigger-b4-dl deb httpd optional arch=any
+ lighttpd-mod-vhostdb-dbi deb oldlibs optional arch=any
+ lighttpd-mod-vhostdb-pgsql deb httpd optional arch=any
+ lighttpd-mod-webdav deb httpd optional arch=any
+ lighttpd-mod-wolfssl deb httpd optional arch=any
+ lighttpd-modules-dbi deb httpd optional arch=any
+ lighttpd-modules-ldap deb httpd optional arch=any
+ lighttpd-modules-lua deb httpd optional arch=any
+ lighttpd-modules-mysql deb httpd optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: curl, media-types, perl
+Directory: pool/main/l/lighttpd
+Priority: source
+Section: httpd

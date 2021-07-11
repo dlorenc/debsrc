@@ -1,0 +1,30 @@
+Package: blitz++
+Binary: libblitz0v5, libblitz0-dev, libblitz-doc
+Version: 1:1.0.2+ds-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jerome Benoit <calculus@rezozer.net>, Christophe Trophime <christophe.trophime@lncmi.cnrs.fr>
+Build-Depends: debhelper-compat (= 12), autoconf-archive, automake, libtool, python3, gfortran | fortran-compiler, cfortran, libblas-dev | libatlas-base-dev, liblapack-dev | libatlas-base-dev
+Build-Depends-Indep: texinfo, texlive-plain-generic, texlive-latex-base
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fdd4a9e761c2820b4728d4aa19a24071 3136 blitz++_1.0.2+ds-2.dsc
+ bf051330e46f05725cfcd943bd53b608 866536 blitz++_1.0.2+ds.orig.tar.xz
+ adc7c3f922b7af3f61507de45a027932 12824 blitz++_1.0.2+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/blitzxx
+Vcs-Git: https://salsa.debian.org/science-team/blitzxx.git
+Checksums-Sha256:
+ b5bd6035d5e0e659be13a402c4eded6e3b1fb77bbf24fc01482e369f3044619a 3136 blitz++_1.0.2+ds-2.dsc
+ 44db64d9561e3b10b75bf14d75bd92ac0461c170941ef50f9b32ac0238b50f5d 866536 blitz++_1.0.2+ds.orig.tar.xz
+ 9ad6ed5e59c91bb9fe774d42abe9b8ac6c95c1a439d2f94ffa1354865ea1a221 12824 blitz++_1.0.2+ds-2.debian.tar.xz
+Homepage: https://github.com/blitzpp/blitz
+Package-List: 
+ libblitz-doc deb doc optional arch=all
+ libblitz0-dev deb libdevel optional arch=any
+ libblitz0v5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/b/blitz++
+Priority: source
+Section: devel

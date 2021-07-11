@@ -1,0 +1,24 @@
+Package: rust-rustc-workspace-hack
+Binary: librust-rustc-workspace-hack-dev
+Version: 1.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5561464d5933317fb8c2e44f4f1a628a 2173 rust-rustc-workspace-hack_1.0.0-1.dsc
+ 23e35df19e2fee840f6ab9e1ca4d583d 774 rust-rustc-workspace-hack_1.0.0.orig.tar.gz
+ 0bb2741a60cb32eb9bf035010a184984 2248 rust-rustc-workspace-hack_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustc-workspace-hack
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustc-workspace-hack]
+Checksums-Sha256:
+ 23614982e2e3efb73d40b7cf85179d48ff71f85a87270902398359303647d081 2173 rust-rustc-workspace-hack_1.0.0-1.dsc
+ fc71d2faa173b74b232dedc235e3ee1696581bb132fc116fa3626d6151a1a8fb 774 rust-rustc-workspace-hack_1.0.0.orig.tar.gz
+ cda2bc525c3be1332441dcc9a4a365b2c11a902c0b3d9a1db40969b35106f3b1 2248 rust-rustc-workspace-hack_1.0.0-1.debian.tar.xz
+Package-List: 
+ librust-rustc-workspace-hack-dev deb rust optional arch=any
+Directory: pool/main/r/rust-rustc-workspace-hack
+Priority: extra
+Section: misc

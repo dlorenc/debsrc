@@ -1,0 +1,32 @@
+Package: kcodecs
+Binary: libkf5codecs-data, libkf5codecs-dev, libkf5codecs-doc, libkf5codecs5
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), gperf, graphviz, libqt5sql5-sqlite:native, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qttools5-dev (>= 5.4), qttools5-dev-tools (>= 5.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 30c347f2b2db9a750c6c4e4ed818437e 2354 kcodecs_5.78.0-2.dsc
+ 20412145f2acc6dba4645ec0d0ef06b6 228152 kcodecs_5.78.0.orig.tar.xz
+ 632111ef314240a3babbb543372222d3 488 kcodecs_5.78.0.orig.tar.xz.asc
+ 0ea71c1161f5a08dcc7f35a0a263514b 13440 kcodecs_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kcodecs
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kcodecs.git
+Checksums-Sha256:
+ bde3ed80ec3d12dc48b3dbf8a699c202b2d56a36fed892fb3588cd4dc1b9ec59 2354 kcodecs_5.78.0-2.dsc
+ 36b461cef0bb95c34298615a8a6d1f2da37676c9605ebae76d6cbdb393e8fc7a 228152 kcodecs_5.78.0.orig.tar.xz
+ a43cc9e00f5b42db500985c76908c4acebe0f2dd35415b794820f57a75d98c4d 488 kcodecs_5.78.0.orig.tar.xz.asc
+ 1fa21b596caae2c8cfe8ed133e04fa536440461d01458e8df33bc7591be2a05d 13440 kcodecs_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kcodecs
+Package-List: 
+ libkf5codecs-data deb kde optional arch=all
+ libkf5codecs-dev deb libdevel optional arch=any
+ libkf5codecs-doc deb doc optional arch=all
+ libkf5codecs5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/k/kcodecs
+Priority: optional
+Section: misc

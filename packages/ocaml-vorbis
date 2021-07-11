@@ -1,0 +1,26 @@
+Package: ocaml-vorbis
+Binary: libvorbis-ocaml, libvorbis-ocaml-dev
+Version: 0.7.1-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Kyle Robbertze <krobbertze@gmail.com>, Samuel Mimram <smimram@debian.org>, Romain Beauxis <toots@rastageeks.org>
+Build-Depends: cdbs (>= 0.4.72~), debhelper (>= 10), dh-buildinfo, ocaml-nox, dh-ocaml (>= 0.9), pkg-config, libvorbis-dev, ocaml-findlib (>= 1.2.4), libogg-ocaml-dev (>= 0.4.5)
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 3b10a2b48774d86b50726eadad41f695 2268 ocaml-vorbis_0.7.1-1.dsc
+ 341b6f36265c181d3f5da107cbdd8963 118321 ocaml-vorbis_0.7.1.orig.tar.gz
+ 3f0b232818cd4642683b981a0b59f085 4000 ocaml-vorbis_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-vorbis
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-vorbis.git
+Checksums-Sha256:
+ 9f53945735e88110585bd894a35a19bd242f55b50bf7da08a82f8e2db03d3c18 2268 ocaml-vorbis_0.7.1-1.dsc
+ 26c6bf9d5c3ed3c737fde4caf473d0b65e170f4806ad9ea25beb9723c8da0d6d 118321 ocaml-vorbis_0.7.1.orig.tar.gz
+ 691e7470ec3227902623ff20ff4886fbdaa3f14d73340257ae4be4eb15584598 4000 ocaml-vorbis_0.7.1-1.debian.tar.xz
+Homepage: http://savonet.sourceforge.net/
+Package-List: 
+ libvorbis-ocaml deb ocaml optional arch=any
+ libvorbis-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-vorbis
+Priority: source
+Section: ocaml

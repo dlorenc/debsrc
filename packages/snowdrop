@@ -1,0 +1,26 @@
+Package: snowdrop
+Binary: snowdrop
+Version: 0.02b-13
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: David da Silva Polverari <david.polverari@gmail.com>
+Build-Depends: debhelper-compat (= 13), libgnutls-openssl-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9eef31abb698d9a5c00d98652daaa556 1987 snowdrop_0.02b-13.dsc
+ d3105c83c879eac7ff18df8e6ce99c56 32096 snowdrop_0.02b.orig.tar.gz
+ a07b4e28650df47a0169001db8caf56a 8620 snowdrop_0.02b-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/snowdrop
+Vcs-Git: https://salsa.debian.org/pkg-security-team/snowdrop.git
+Checksums-Sha256:
+ d577efcaec64ac25d4138dccc865ddfab17353600da1e07cb9bfa414935c658b 1987 snowdrop_0.02b-13.dsc
+ 0956fa7b69fc405cc4c00ff224e5435d4165a1298ffd1ba107c7cb07d1891573 32096 snowdrop_0.02b.orig.tar.gz
+ 073e5fe748d7f8cdf2f4a144e4646ed1eaf83ec11ffb7d3786f7ae2a1fdb3dfb 8620 snowdrop_0.02b-13.debian.tar.xz
+Homepage: http://lcamtuf.coredump.cx/
+Package-List: 
+ snowdrop deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/s/snowdrop
+Priority: source
+Section: utils

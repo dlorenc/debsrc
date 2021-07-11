@@ -1,0 +1,27 @@
+Package: pkg-perl-tools
+Binary: pkg-perl-tools, pkg-perl-autopkgtest
+Version: 0.64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, Axel Beckert <abe@debian.org>, gregor herrmann <gregoa@debian.org>, Salvatore Bonaccorso <carnil@debian.org>, Niko Tyni <ntyni@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: git <!nocheck>, libconfig-model-perl <!nocheck>, libdatetime-perl <!nocheck>, libdpkg-perl <!nocheck>, libfile-slurp-perl <!nocheck>, libgit-repository-perl <!nocheck>, libgitlab-api-v4-perl <!nocheck>, libipc-run-perl <!nocheck>, libjson-xs-perl <!nocheck>, libmime-lite-perl <!nocheck>, libnet-github-perl <!nocheck>, libparallel-forkmanager-perl <!nocheck>, libproc-invokeeditor-perl <!nocheck>, librt-client-rest-perl <!nocheck>, libsoap-lite-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-mockmodule-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-spelling-perl <!nocheck>, libutf8-all-perl <!nocheck>, libwww-mechanize-perl <!nocheck>, libyaml-libyaml-perl <!nocheck>, lintian (>= 2.92.0~) <!nocheck>, perl, spell <!nocheck> | aspell <!nocheck> | ispell <!nocheck> | hunspell <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ a1c714ceacc675b6249eb5895c411c78 3082 pkg-perl-tools_0.64.dsc
+ be52b0de6c5a1031acb1b9f46a3718ab 88736 pkg-perl-tools_0.64.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/pkg-perl-tools
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/pkg-perl-tools.git
+Checksums-Sha256:
+ 04082b2d2d8d7757e9f8b2900449395f3c685ae3d21917fcaf179ee0a5d863ae 3082 pkg-perl-tools_0.64.dsc
+ 3cc729bb4b3655b0b5c2ee88060135ea2ba67c9266ec209a5e2e0cb7cc8dab77 88736 pkg-perl-tools_0.64.tar.xz
+Homepage: https://wiki.debian.org/Teams/DebianPerlGroup
+Dgit: 65d7e522314b5b1a36c495906cceaf7145960904 debian archive/debian/0.64 https://git.dgit.debian.org/pkg-perl-tools
+Package-List: 
+ pkg-perl-autopkgtest deb devel optional arch=all
+ pkg-perl-tools deb devel optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/p/pkg-perl-tools
+Priority: optional
+Section: misc

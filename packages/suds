@@ -1,0 +1,28 @@
+Package: suds
+Binary: python3-suds
+Version: 0.8.4-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Scott Talbert <swt@techie.net>, Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: python3-pytest, python3-six
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 87b394f7478c6ff07487b1760dd26aa8 2139 suds_0.8.4-1.dsc
+ d4c47fec087d81f9a02f70bcc48c92c4 303094 suds_0.8.4.orig.tar.gz
+ bf7db8a639aa68952da96fe0717ba576 4676 suds_0.8.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/suds
+Vcs-Git: https://salsa.debian.org/python-team/modules/suds.git
+Checksums-Sha256:
+ 011a47314f17e463041af26012d6845098637acba38caf58359b6bbfe0e9288e 2139 suds_0.8.4-1.dsc
+ 3fc1c6dc961e0c9b421e8355bff45104e8db7edb8764b33939c4a84afa98116e 303094 suds_0.8.4.orig.tar.gz
+ d9bf3201db958c2283e0863b5daa3c91dcd633c2e878ac1171e8973ce9b46be7 4676 suds_0.8.4-1.debian.tar.xz
+Homepage: https://github.com/suds-community/suds
+Package-List: 
+ python3-suds deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-six
+Directory: pool/main/s/suds
+Priority: source
+Section: python

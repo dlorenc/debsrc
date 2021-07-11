@@ -1,0 +1,29 @@
+Package: placement
+Binary: placement-api, placement-common, placement-doc, python3-placement
+Version: 4.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx <!nodoc>
+Build-Depends-Indep: alembic, bandit, python3-alembic, python3-coverage, python3-fixtures, python3-gabbi, python3-hacking, python3-jsonschema (>= 3.2.0), python3-keystonemiddleware, python3-microversion-parse, python3-openstackdocstheme <!nodoc>, python3-os-api-ref <!nodoc>, python3-os-resource-classes (>= 0.5.0), python3-os-traits (>= 2.4.0), python3-oslo.concurrency, python3-oslo.config (>= 1:6.7.0), python3-oslo.context, python3-oslo.db, python3-oslo.log, python3-oslo.middleware, python3-oslo.policy, python3-oslo.serialization, python3-oslo.upgradecheck, python3-oslo.utils (>= 3.37.0), python3-oslotest <!nodoc>, python3-osprofiler <!nodoc>, python3-psycopg2 (>= 2.8), python3-pymysql, python3-requests, python3-routes, python3-sphinx-feature-classification <!nodoc>, python3-sphinxcontrib.actdiag <!nodoc>, python3-sphinxcontrib.seqdiag <!nodoc>, python3-sqlalchemy, python3-stestr, python3-testtools, python3-webob, python3-wsgi-intercept, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d14e0adacfd8d41a39544d7270f61063 3251 placement_4.0.0-1.dsc
+ d0560482c3aa9e4ce2f40575561bf90d 276984 placement_4.0.0.orig.tar.xz
+ 319033e19134df7bd5b5201404f01940 6164 placement_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/placement
+Vcs-Git: https://salsa.debian.org/openstack-team/services/placement.git
+Checksums-Sha256:
+ 61681b2093761811e7518a7f9e4cde2ae6550fbc06e2cbe7a3abeffdff3292fc 3251 placement_4.0.0-1.dsc
+ 10cb87d9c0283579b3461462d38064825ae17d6d43e67079735cb1c445fca2a6 276984 placement_4.0.0.orig.tar.xz
+ 728a6f352d1ce78fb45b918105e0a5774e62fbc8515536d5de67bf9fa020aea8 6164 placement_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/placement
+Package-List: 
+ placement-api deb net optional arch=all
+ placement-common deb net optional arch=all
+ placement-doc deb doc optional arch=all
+ python3-placement deb python optional arch=all
+Directory: pool/main/p/placement
+Priority: extra
+Section: misc

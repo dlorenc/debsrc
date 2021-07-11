@@ -1,0 +1,26 @@
+Package: node-statuses
+Binary: node-statuses
+Version: 1.5.0-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Kartik Kulkarni <kartik.koolks@gmail.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f15235b85b844473ec983dc205c65f1c 2053 node-statuses_1.5.0-4.dsc
+ 26ff67c4911a1e6d16baaad9e5f7a510 7580 node-statuses_1.5.0.orig.tar.gz
+ 03ba33e71eb93aeb5cebb76fa6ec700e 2616 node-statuses_1.5.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-statuses
+Vcs-Git: https://salsa.debian.org/js-team/node-statuses.git
+Checksums-Sha256:
+ e41ccb537b7af17164ca805b4bbb253a2b28ba04d93ab90e05714842b34a4ad8 2053 node-statuses_1.5.0-4.dsc
+ a68fcaf44296ab91a1b95ff86295421d5e5e8340d32dbc686eb66d89b42779b9 7580 node-statuses_1.5.0.orig.tar.gz
+ 24ccafddbf6cbfd4353c55e08bfab719578de7436974f9455625dd50205950ec 2616 node-statuses_1.5.0-4.debian.tar.xz
+Homepage: https://github.com/jshttp/statuses
+Package-List: 
+ node-statuses deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-statuses
+Priority: extra
+Section: javascript

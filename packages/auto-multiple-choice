@@ -1,0 +1,30 @@
+Package: auto-multiple-choice
+Binary: auto-multiple-choice, auto-multiple-choice-common, auto-multiple-choice-doc, auto-multiple-choice-doc-pdf
+Version: 1.5.0~rc2-2
+Maintainer: Alexis Bienvenüe <pado@passoire.fr>
+Uploaders: Georges Khaznadar <georgesk@debian.org>
+Build-Depends: debhelper-compat (= 13), gettext, libnetpbm10-dev, libxml-libxml-perl, dblatex, xsltproc, docbook-xml, docbook-xsl, librsvg2-bin, netpbm, texlive-pictures, pkg-config, libopencv-dev (>= 2.1), libpoppler-glib-dev, libcairo2-dev, libpango1.0-dev, texlive-latex-recommended, texlive-xetex, lmodern, texlive-lang-french, texlive-lang-japanese, texlive-lang-chinese, tex-common
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 18c7a79b6ca46d2f0c097f44f0f2e7ea 2782 auto-multiple-choice_1.5.0~rc2-2.dsc
+ 1f67d63fb01861653f7c4ac168c56615 7588678 auto-multiple-choice_1.5.0~rc2.orig.tar.gz
+ a683dca9bd1eae4c6cc0dced2074c87a 14524 auto-multiple-choice_1.5.0~rc2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/georgesk/auto-multiple-choice
+Vcs-Git: https://salsa.debian.org/georgesk/auto-multiple-choice.git
+Checksums-Sha256:
+ 5a59253b40dc8c0f340b7838264fb016ae4d4765ebcb9356cd7058ba7462324e 2782 auto-multiple-choice_1.5.0~rc2-2.dsc
+ 03faaca6782af48a96cdd5ff9d9d954dc456d8177075a302a93c74eb678d1093 7588678 auto-multiple-choice_1.5.0~rc2.orig.tar.gz
+ cbac60cbeae104287329bbb86c4168bc27ba8642bb461f7dbba60d67b27686c9 14524 auto-multiple-choice_1.5.0~rc2-2.debian.tar.xz
+Homepage: http://www.auto-multiple-choice.net/
+Package-List: 
+ auto-multiple-choice deb education optional arch=any
+ auto-multiple-choice-common deb education optional arch=all
+ auto-multiple-choice-doc deb doc optional arch=all
+ auto-multiple-choice-doc-pdf deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: at-spi2-core, gir1.2-notify-0.7, libipc-run-perl, xvfb
+Directory: pool/main/a/auto-multiple-choice
+Priority: source
+Section: education

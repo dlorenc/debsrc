@@ -1,0 +1,28 @@
+Package: libdbd-mock-perl
+Binary: libdbd-mock-perl
+Version: 1.59-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl
+Build-Depends-Indep: libdbi-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ eb3057966160ac481cd4f4a1dd0ec1c9 2554 libdbd-mock-perl_1.59-1.dsc
+ 666716574bf4f6c92b36c6c4344d746b 75533 libdbd-mock-perl_1.59.orig.tar.gz
+ ea56cd2440fd4dfab1ff8de0804f85e5 3688 libdbd-mock-perl_1.59-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdbd-mock-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdbd-mock-perl.git
+Checksums-Sha256:
+ a33433c6061d79184e89a2d1e95f7e49163ccb808a79abd1f31abecda00dd443 2554 libdbd-mock-perl_1.59-1.dsc
+ 0a5aa5953ab65cf790681e6c0452e318ad57d80ac27f575f84918c603aa47406 75533 libdbd-mock-perl_1.59.orig.tar.gz
+ 0a32cd575a8ec4d8fde5aefd0dabc53b730c58f128df806f5376211a3285c57c 3688 libdbd-mock-perl_1.59-1.debian.tar.xz
+Homepage: https://metacpan.org/release/DBD-Mock
+Dgit: 276b7e03a67d812d286da30fc6369f4a6329da34 debian archive/debian/1.59-1 https://git.dgit.debian.org/libdbd-mock-perl
+Package-List: 
+ libdbd-mock-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdbd-mock-perl
+Priority: source
+Section: perl

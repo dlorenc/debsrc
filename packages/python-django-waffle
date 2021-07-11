@@ -1,0 +1,27 @@
+Package: python-django-waffle
+Binary: python-django-waffle-doc, python3-django-waffle
+Version: 2.0.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-django, python3-django-jinja, python3-mock, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 71d28ad67eef52838dee6d8f202639d7 1943 python-django-waffle_2.0.0-1.dsc
+ a0b38f1ac61f7953c5c0ac41b3d5aae4 58719 python-django-waffle_2.0.0.orig.tar.gz
+ de4903c1f285c9d28fc55c000f512858 4176 python-django-waffle_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-django-waffle
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-django-waffle.git
+Checksums-Sha256:
+ 0914e71903522fd70daa7f666ecf99ae3f1d7eaf6b02e7c3a8d78b994a62cef1 1943 python-django-waffle_2.0.0-1.dsc
+ 164d1a72153b8e33f186a9e66a46133f81e2961b3ba05de881fcb65b1e5a6291 58719 python-django-waffle_2.0.0.orig.tar.gz
+ f1cbf05dc9e4a5d8f41f1ed6da8b7788cb7053220e978eb927786b1d47169821 4176 python-django-waffle_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/django-waffle/django-waffle/
+Package-List: 
+ python-django-waffle-doc deb doc optional arch=all
+ python3-django-waffle deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-django-waffle
+Priority: extra
+Section: misc

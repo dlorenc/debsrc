@@ -1,0 +1,27 @@
+Package: junitparser
+Binary: junitparser, python3-junitparser
+Version: 2.0.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Bastian Germann <bastiangermann@fishpost.de>
+Build-Depends: dh-python, python3-all, debhelper-compat (= 13), python3-setuptools, python3-future, python3-lxml
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 59613bd240f522d44a90521b11367c39 2015 junitparser_2.0.0-1.dsc
+ 05eecda09db817dd198483d456f596f0 18441 junitparser_2.0.0.orig.tar.gz
+ e36f602e0a0ce48a73216cb4f1e969f0 3064 junitparser_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/junitparser
+Vcs-Git: https://salsa.debian.org/python-team/packages/junitparser.git
+Checksums-Sha256:
+ d84e58144d43a415e6d3a9102e47e48f517870774fa8df1ac802d37a4176b5a1 2015 junitparser_2.0.0-1.dsc
+ ea597d2bcdb24122f986e701d94d54ade6f993ad1178b2aef35f4762eddf0688 18441 junitparser_2.0.0.orig.tar.gz
+ 4e0901feb4e5676ccb49f3c6b1336c0e66ce540a7a5bb6156c03f7202f558959 3064 junitparser_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/weiwei/junitparser
+Package-List: 
+ junitparser deb utils optional arch=all
+ python3-junitparser deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/j/junitparser
+Priority: extra
+Section: misc

@@ -1,0 +1,30 @@
+Package: rust-rand-core
+Binary: librust-rand-core-dev, librust-rand-core+getrandom-dev, librust-rand-core+serde-dev, librust-rand-core+std-dev
+Version: 0.5.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 263dc90a93bc300942fa81e648fd5086 2472 rust-rand-core_0.5.1-1.dsc
+ a0f55fda89c0f97784edb18f4c253a49 21116 rust-rand-core_0.5.1.orig.tar.gz
+ df6a4583daff283941e35e4fc87f3231 3096 rust-rand-core_0.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand-core
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand-core]
+Checksums-Sha256:
+ 04f170add9d1a416a5dcbe23ae862ba0c442a4d6bc42a4aac7a57a691a0b9df7 2472 rust-rand-core_0.5.1-1.dsc
+ 90bde5296fc891b0cef12a6d03ddccc162ce7b2aff54160af9338f8d40df6d19 21116 rust-rand-core_0.5.1.orig.tar.gz
+ 9669ddec3075a63e238fd385d6fe4398b013c30ed54d96caae4587811989c186 3096 rust-rand-core_0.5.1-1.debian.tar.xz
+Homepage: https://crates.io/crates/rand_core
+Package-List: 
+ librust-rand-core+getrandom-dev deb rust optional arch=any
+ librust-rand-core+serde-dev deb rust optional arch=any
+ librust-rand-core+std-dev deb rust optional arch=any
+ librust-rand-core-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rand-core
+Priority: extra
+Section: misc

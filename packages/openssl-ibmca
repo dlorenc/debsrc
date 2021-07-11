@@ -1,0 +1,22 @@
+Package: openssl-ibmca
+Binary: openssl-ibmca
+Version: 1.4.0-1
+Maintainer: Paulo Vital <pvital@gmail.com>
+Build-Depends: debhelper (>= 10), dh-autoreconf, libica-dev, libssl-dev
+Architecture: s390 s390x
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 59a43ff32a7b77ee491f2b943ad74493 1465 openssl-ibmca_1.4.0-1.dsc
+ 25483c0e57ab4f2cc602f560edaa8f15 34103 openssl-ibmca_1.4.0.orig.tar.gz
+ da973452c58551b6058e305366bebeeb 3828 openssl-ibmca_1.4.0-1.debian.tar.xz
+Checksums-Sha256:
+ 94bf23c303287a25b674a2737a32bfbf795e839fe18af79ca73b0e5175613319 1465 openssl-ibmca_1.4.0-1.dsc
+ ed410b45eacf92b395b89cad147177eb40c5a77971b91e08f4470cc0ee48ac76 34103 openssl-ibmca_1.4.0.orig.tar.gz
+ 22069e1d977db3e20f7dd68992a4d50c6ad86bbbc55f53164e3bb598c9580d7f 3828 openssl-ibmca_1.4.0-1.debian.tar.xz
+Homepage: https://github.com/opencryptoki/openssl-ibmca
+Package-List: 
+ openssl-ibmca deb libs optional arch=s390,s390x
+Directory: pool/main/o/openssl-ibmca
+Priority: extra
+Section: misc

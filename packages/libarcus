@@ -1,0 +1,29 @@
+Package: libarcus
+Binary: libarcus3, libarcus-dev, python3-arcus
+Version: 4.8-1
+Maintainer: Debian 3-D Printing Packages <3dprinter-general@lists.alioth.debian.org>
+Uploaders: Gregor Riepl <onitake@gmail.com>, Christoph Berg <myon@debian.org>,
+Build-Depends: debhelper (>= 10.2.1), cmake (>= 3.12), dh-python, libprotobuf-dev (>= 3.0.0), libprotoc-dev (>= 3.0.0), protobuf-compiler (>= 3.0.0), python3-all-dev, python3-sip-dev (>> 4.19.12+dfsg-1) | python3-sip-dev (<< 4.19.11+dfsg-1)
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e6c6680601ad7f50bae384ca11692ee7 2320 libarcus_4.8-1.dsc
+ 3a6e9550d846189f37d0eb21303f4fc5 31903 libarcus_4.8.orig.tar.gz
+ 7f33818c5e6a5140b7ba0f7bb753a189 8584 libarcus_4.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/3dprinting-team/libarcus
+Vcs-Git: https://salsa.debian.org/3dprinting-team/libarcus.git
+Checksums-Sha256:
+ 1f95871469464cbc76f77628f40876bc337357bd9d92cc697bb21af026172be4 2320 libarcus_4.8-1.dsc
+ 7a5324625c68eb72569cbb1f830c41846a99b746400611255b52271fb4364039 31903 libarcus_4.8.orig.tar.gz
+ d4f45ffd01cf1d0a35df4cff8ad00bdc18e218061e12f949bd9df30e16c0e7ed 8584 libarcus_4.8-1.debian.tar.xz
+Homepage: https://github.com/Ultimaker/libArcus
+Package-List: 
+ libarcus-dev deb libdevel optional arch=any
+ libarcus3 deb libs optional arch=any
+ python3-arcus deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/liba/libarcus
+Priority: extra
+Section: misc

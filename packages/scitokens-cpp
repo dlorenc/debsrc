@@ -1,0 +1,25 @@
+Package: scitokens-cpp
+Binary: libscitokens0, libscitokens-dev
+Version: 0.5.1-2
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), cmake, pkg-config, libcurl4-openssl-dev, libsqlite3-dev, libssl-dev, uuid-dev, googletest
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 112e512049f806f297dfe4f98cd59220 2048 scitokens-cpp_0.5.1-2.dsc
+ d9cbdb507266e56b1a7a9559e259fa7d 962129 scitokens-cpp_0.5.1.orig.tar.gz
+ 7036a510ec86f26beaca315d3f532be5 4716 scitokens-cpp_0.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/scitokens-cpp
+Vcs-Git: https://salsa.debian.org/ellert/scitokens-cpp.git
+Checksums-Sha256:
+ 4600ef8110121a7b93a0ca5bc08fd4aeec7b403cad76fb802ac41b8af4426429 2048 scitokens-cpp_0.5.1-2.dsc
+ 9752d893b364996bc41000e4fa78243b7a83519b616423d6a5a6d76a56f1b6cd 962129 scitokens-cpp_0.5.1.orig.tar.gz
+ 5c66b412fd18a32383e4d33b4a3488e02c9cf3c353f3e490b4b56604f5c07e39 4716 scitokens-cpp_0.5.1-2.debian.tar.xz
+Homepage: https://github.com/scitokens/scitokens-cpp
+Package-List: 
+ libscitokens-dev deb libdevel optional arch=any
+ libscitokens0 deb libs optional arch=any
+Directory: pool/main/s/scitokens-cpp
+Priority: extra
+Section: misc

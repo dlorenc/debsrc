@@ -1,0 +1,28 @@
+Package: python-mitogen
+Binary: python3-mitogen, ansible-mitogen
+Version: 0.3.0~rc1-4
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Antoine Beaupré <anarcat@debian.org>, Emmanuel Arias <emmanuelarias30@gmail.com>, Richard Laager <rlaager@debian.org>, Stefano Rivera <stefanor@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f61d2117a8ccb70989611bf0be8c0a38 1770 python-mitogen_0.3.0~rc1-4.dsc
+ cc4051cb8f3e977a9062a1219669d178 221073 python-mitogen_0.3.0~rc1.orig.tar.gz
+ cf41d7fc826dd8d47cf5775ab773f5c0 167336 python-mitogen_0.3.0~rc1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-mitogen
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-mitogen.git
+Checksums-Sha256:
+ 2866c7b4f7c7a85a5c80adf4ed9585df5879af7230aac9ebd90c3dd240a9297a 1770 python-mitogen_0.3.0~rc1-4.dsc
+ 9b103cd9726b193c92faf1a7037d6d490c0101df00d320db0d012fb1b284b0a4 221073 python-mitogen_0.3.0~rc1.orig.tar.gz
+ fc48981206c08e1dc3c904e61ec3b2b7fc2f1ba24f81b0fd84e0b45d571bbc38 167336 python-mitogen_0.3.0~rc1-4.debian.tar.xz
+Homepage: https://github.com/mitogen-hq/mitogen/
+Package-List: 
+ ansible-mitogen deb python optional arch=all
+ python3-mitogen deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python2, python3-mock, python3-psutil, python3-unittest2
+Directory: pool/main/p/python-mitogen
+Priority: extra
+Section: misc

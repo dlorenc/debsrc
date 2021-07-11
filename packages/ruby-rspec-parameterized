@@ -1,0 +1,27 @@
+Package: ruby-rspec-parameterized
+Binary: ruby-rspec-parameterized
+Version: 0.4.2-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cocoa <cocoa1231@disroot.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-binding-ninja (>= 0.2.3), ruby-proc-to-ast, ruby-rspec (<< 4), ruby-rspec (>= 2.13), ruby-unparser, ruby-whitequark-parser
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3c75b144d5625ee7a32ee44bf78c4cce 1946 ruby-rspec-parameterized_0.4.2-2.dsc
+ 8726d57e16c94a241530882a2629ed98 8817 ruby-rspec-parameterized_0.4.2.orig.tar.gz
+ 3784c9039255c17c2a7b46ad4902e7d4 2180 ruby-rspec-parameterized_0.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rspec-parameterized
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rspec-parameterized.git
+Checksums-Sha256:
+ 422dd4cd81f67ff374e194ffeb2049bd9b722de11554887834a65401afa89af8 1946 ruby-rspec-parameterized_0.4.2-2.dsc
+ eb614b80d40160d92b2b5398a10aa2f5e586d14ea8d3312d80587d181b072e49 8817 ruby-rspec-parameterized_0.4.2.orig.tar.gz
+ e35a0e578edb5e6f53e0dae58f6f2f002f762fba64f93cb6fb218a72c4fae068 2180 ruby-rspec-parameterized_0.4.2-2.debian.tar.xz
+Homepage: https://github.com/tomykaira/rspec-parameterized
+Package-List: 
+ ruby-rspec-parameterized deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-rspec-parameterized
+Priority: extra
+Section: misc

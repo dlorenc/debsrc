@@ -1,0 +1,26 @@
+Package: node-redent
+Binary: node-redent
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-indent-string <!nocheck>, node-strip-indent <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d33fc552748bbbeb882a11ed3e9e5346 2086 node-redent_3.0.0-1.dsc
+ 367c7773d16b22868d2c81dcd3c3f35d 2500 node-redent_3.0.0.orig.tar.gz
+ a1450396e9712d2ca04a3a0a574495a3 2812 node-redent_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-redent
+Vcs-Git: https://salsa.debian.org/js-team/node-redent.git
+Checksums-Sha256:
+ 190985d8c927695a2af38450ba3e5f980c6d415d6f6adae8afdea1c46412fcbb 2086 node-redent_3.0.0-1.dsc
+ 32481dc64adebb7c9d6bcb976961b066c2580e8b1694997f99ee2c25cd97b9c6 2500 node-redent_3.0.0.orig.tar.gz
+ 7dc3ed6ac718bb2338c6d23d5fb3509617d0f39d676966b26fd11d93dbcf3fd2 2812 node-redent_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/redent
+Package-List: 
+ node-redent deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-redent
+Priority: optional
+Section: javascript

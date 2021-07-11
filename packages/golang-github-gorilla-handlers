@@ -1,0 +1,27 @@
+Package: golang-github-gorilla-handlers
+Binary: golang-github-gorilla-handlers-dev
+Version: 1.4.2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, tzdata
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bc1e77c2cbb6aee958de6270fa5e8c0e 2321 golang-github-gorilla-handlers_1.4.2-1.dsc
+ 17d71d368a22a0133bbcb66ecf98a3d9 20309 golang-github-gorilla-handlers_1.4.2.orig.tar.gz
+ bbdfbbb9810595bc17a2a316ca09e632 3836 golang-github-gorilla-handlers_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gorilla-handlers
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gorilla-handlers.git
+Checksums-Sha256:
+ 3b79725921a4afe15b7182fab1dec121f2c6f950dfc7d1d2c122f2ba2ffa1c99 2321 golang-github-gorilla-handlers_1.4.2-1.dsc
+ e92c18b1f074e359a072939e6f5bbef6a2d9472088f05623cb6084ea3672d3b4 20309 golang-github-gorilla-handlers_1.4.2.orig.tar.gz
+ c996d0c55d4ce05ff1351148acf5b5f218eec0d89cb4bb52bc0a840eda307f2e 3836 golang-github-gorilla-handlers_1.4.2-1.debian.tar.xz
+Homepage: https://github.com/gorilla/handlers
+Go-Import-Path: github.com/gorilla/handlers
+Package-List: 
+ golang-github-gorilla-handlers-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-gorilla-handlers
+Priority: extra
+Section: golang

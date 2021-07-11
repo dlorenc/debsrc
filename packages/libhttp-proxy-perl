@@ -1,0 +1,27 @@
+Package: libhttp-proxy-perl
+Binary: libhttp-proxy-perl
+Version: 0.304-4
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper (>= 11)
+Build-Depends-Indep: libhtml-parser-perl, libhttp-daemon-perl | libwww-perl (<< 6), libio-socket-ip-perl, libwww-perl, netbase, perl
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ d40cba1b59a2f87debfb75822cf03fa1 2340 libhttp-proxy-perl_0.304-4.dsc
+ 09ac64c5f67b7d8baff4ea135d74af48 84402 libhttp-proxy-perl_0.304.orig.tar.gz
+ 3c2356ee5d0f1345c704217273c8d19a 7668 libhttp-proxy-perl_0.304-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhttp-proxy-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhttp-proxy-perl.git
+Checksums-Sha256:
+ de2ffffbfcece62a833a226baedc81413fbb20c38cc79455067c76d5c315ba79 2340 libhttp-proxy-perl_0.304-4.dsc
+ b05290534ec73625c21a0565fc35170890dab163843d95331c292c23f504c69d 84402 libhttp-proxy-perl_0.304.orig.tar.gz
+ 53c6dc6386434536a711ffe6e0c516152aef19237298f21b6216905b4ceafb9a 7668 libhttp-proxy-perl_0.304-4.debian.tar.xz
+Homepage: https://metacpan.org/release/HTTP-Proxy
+Package-List: 
+ libhttp-proxy-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhttp-proxy-perl
+Priority: source
+Section: perl

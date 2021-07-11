@@ -1,0 +1,22 @@
+Package: debmirror
+Binary: debmirror
+Version: 1:2.34
+Maintainer: Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper-compat (= 12), perl (>= 5.10), libnet-perl, libdigest-md5-perl, libdigest-sha-perl, liblockfile-simple-perl, libwww-perl (>= 5.815), perl (>= 5.22) | libnet-inet6glue-perl
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (native)
+Files:
+ 950966a5693ff2494cd162116c6ea957 1785 debmirror_2.34.dsc
+ 0c08f48b88e9b58957138cfbdd686917 55076 debmirror_2.34.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/debmirror
+Vcs-Git: https://salsa.debian.org/debian/debmirror.git
+Checksums-Sha256:
+ 9d0226752d7e6ffce3e4f7f863e54039d08d4202b6090a40838bfdd59777b809 1785 debmirror_2.34.dsc
+ f727d23a7ccef84ec0bd914774b22ea437cac0f3183d804b895df4d3b0b04f45 55076 debmirror_2.34.tar.xz
+Dgit: e13bb4b13dad9825910c5b3c368706a4a14c8918 debian archive/debian/1%2.34 https://git.dgit.debian.org/debmirror
+Package-List: 
+ debmirror deb net optional arch=all
+Directory: pool/main/d/debmirror
+Priority: source
+Section: net

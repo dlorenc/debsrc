@@ -1,0 +1,29 @@
+Package: fonttools
+Binary: python3-fonttools, python-fonttools-doc, fonttools
+Version: 4.19.1-1
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Luke Faraone <lfaraone@debian.org>, Yao Wei (魏銘廷) <mwei@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, cython3 (>= 0.28.5), python3-ufolib2 (>= 0.6.2), python3-brotli (>= 1.0.9), python3-pytest, python3-scipy (>= 1.5.4) | python3-munkres (>= 1.1.4), python3-setuptools, python3-sympy, python3-fs (>= 2.4.11), python3-lxml (>= 4.5.0), python3-sphinx, python3-sphinx-rtd-theme, unicode-data (>= 13.0.0)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ef09e3906d4b1435545a7f768ea9fe98 2543 fonttools_4.19.1-1.dsc
+ 4124a8a05e58dbb8a60d38eb2a830eed 1668524 fonttools_4.19.1.orig.tar.xz
+ 9fd29a270ebc52711b999f9cba59f67e 10508 fonttools_4.19.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/fonttools
+Vcs-Git: https://salsa.debian.org/fonts-team/fonttools.git
+Checksums-Sha256:
+ 0fcd9720d32550c7dcbb59fbde3f0ecba22f4bb473f4e67a035b17871dc52395 2543 fonttools_4.19.1-1.dsc
+ 4d1a7c694a0225c1d1a16f4e9090f6dd76588bada4fcdce3114bc6c41184b608 1668524 fonttools_4.19.1.orig.tar.xz
+ b9297d677d18fbfe0cfd37ca7e2eb1e77e1a3807f733081d78b20b1810275d2b 10508 fonttools_4.19.1-1.debian.tar.xz
+Homepage: https://github.com/fonttools/fonttools
+Package-List: 
+ fonttools deb devel optional arch=all
+ python-fonttools-doc deb doc optional arch=all
+ python3-fonttools deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/f/fonttools
+Priority: source
+Section: fonts

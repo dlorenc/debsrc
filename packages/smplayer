@@ -1,0 +1,26 @@
+Package: smplayer
+Binary: smplayer, smplayer-l10n
+Version: 20.6.0~ds0-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Reinhard Tartler <siretart@tauware.de>, Mateusz Łukasik <mati75@linuxmint.pl>, Alf Gaida <agaida@siduction.org>
+Build-Depends: debhelper-compat (= 13), qtbase5-dev (>= 5.1), qtbase5-private-dev, qt5-qmake, qt5-qmake:native, qtscript5-dev, qttools5-dev-tools, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 04f97940c5fe0c9ed08dd1bc4ac9efbc 2225 smplayer_20.6.0~ds0-1.dsc
+ 08756c1b6f7f4f75d8807c9325cf650b 3836372 smplayer_20.6.0~ds0.orig.tar.xz
+ f2f9ee88546b770214dfd355901496b3 14664 smplayer_20.6.0~ds0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/smplayer
+Vcs-Git: https://salsa.debian.org/multimedia-team/smplayer.git
+Checksums-Sha256:
+ 1ad1415a448168ed5e9dbcbc8836fee1e9555c00ba302aa9e03c887115edb811 2225 smplayer_20.6.0~ds0-1.dsc
+ 98eccc50c25492b66d1532e1d768c44f95a88396f4029dcb95e5a9031d9bf296 3836372 smplayer_20.6.0~ds0.orig.tar.xz
+ 4c6da25355a91d235eb92e8e1d7e198763cf4099d00d96f68fc504ac86b8720b 14664 smplayer_20.6.0~ds0-1.debian.tar.xz
+Homepage: http://smplayer.sourceforge.net/
+Package-List: 
+ smplayer deb video optional arch=any
+ smplayer-l10n deb localization optional arch=all
+Directory: pool/main/s/smplayer
+Priority: source
+Section: video

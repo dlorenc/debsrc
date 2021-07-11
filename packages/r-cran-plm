@@ -1,0 +1,27 @@
+Package: r-cran-plm
+Binary: r-cran-plm
+Version: 2.4-0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Sébastien Villemot <sebastien@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-mass, r-cran-bdsmatrix, r-cran-zoo, r-cran-nlme, r-cran-sandwich, r-cran-lattice, r-cran-lmtest, r-cran-maxlik, r-cran-rdpack, r-cran-formula
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bd81f0a47a2270e8160ff1c32d92b8c7 2221 r-cran-plm_2.4-0-1.dsc
+ ec99a34221e7397555b00b72c69be092 1604870 r-cran-plm_2.4-0.orig.tar.gz
+ 6a37993edabfa0626507880ba8f38f40 3788 r-cran-plm_2.4-0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-plm
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-plm.git
+Checksums-Sha256:
+ 5ecba28f38e71e874bfa93e1f70bfd39c3c8787d0807694e3d444424aaac3e6f 2221 r-cran-plm_2.4-0-1.dsc
+ b8bea9d5f3035e8dd696fb62580362d50fda31183bc23f8386d6a48094ef5ca9 1604870 r-cran-plm_2.4-0.orig.tar.gz
+ 5642d57938d0bd99496192fd85cf8d6a48d5eb58f5c2b00d683428a5682ba404 3788 r-cran-plm_2.4-0-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=plm
+Package-List: 
+ r-cran-plm deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-clubsandwich
+Directory: pool/main/r/r-cran-plm
+Priority: extra
+Section: misc

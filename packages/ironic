@@ -1,0 +1,31 @@
+Package: ironic
+Binary: ironic-api, ironic-common, ironic-conductor, ironic-doc, python3-ironic
+Version: 1:16.0.3-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: alembic (>= 1.4.2), python3-amqplib, python3-automaton, python3-bashate, python3-cinderclient, python3-coverage, python3-ddt, python3-doc8, python3-dracclient (>= 3.0.0), python3-eventlet, python3-fixtures, python3-futurist, python3-glanceclient, python3-hacking, python3-ironic-inspector-client, python3-ironic-lib (>= 4.3.0), python3-iso8601, python3-jinja2, python3-jsonpatch, python3-jsonschema (>= 3.2.0), python3-keystoneauth1 (>= 4.2.0), python3-keystonemiddleware, python3-mysqldb, python3-openstackdocstheme <!nodoc>, python3-openstacksdk (>= 0.48.0), python3-os-api-ref, python3-os-traits, python3-oslo.concurrency (>= 4.2.0), python3-oslo.config, python3-oslo.context, python3-oslo.db (>= 6.0.0), python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy, python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils (>= 3.38.0), python3-oslo.versionedobjects, python3-oslotest, python3-osprofiler, python3-pecan, python3-pil, python3-proliantutils (>= 2.10.0), python3-psutil, python3-psycopg2 (>= 2.8.5), python3-pyghmi, python3-pygments, python3-pymysql, python3-pysnmp4 (>= 4.4.12), python3-requests, python3-retrying, python3-rfc3986, python3-scciclient, python3-sendfile, python3-sphinxcontrib-pecanwsme <!nodoc>, python3-sphinxcontrib.apidoc <!nodoc>, python3-sphinxcontrib.seqdiag <!nodoc>, python3-sphinxcontrib.svg2pdfconverter <!nodoc>, python3-sqlalchemy (>= 1.2.19), python3-stestr, python3-stevedore, python3-sushy (>= 1.9.0), python3-swiftclient, python3-testtools, python3-tooz (>= 2.7.0), python3-tz, python3-webob, python3-webtest
+Build-Conflicts: python-pysqlite2
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b33e3ce7be02c07223931bdcb8ae1882 4044 ironic_16.0.3-1.dsc
+ d10f9212945e62bdfc8b8148760e733d 1439764 ironic_16.0.3.orig.tar.xz
+ 10fd8328658bfeb3a39b4eaf9c9a7199 14356 ironic_16.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/ironic
+Vcs-Git: https://salsa.debian.org/openstack-team/services/ironic.git
+Checksums-Sha256:
+ 2e7035f37ea52e01f2776eb872cf02a11eed4f29fca2d9d0106406edfd86269e 4044 ironic_16.0.3-1.dsc
+ bea83b2c9275c43acb0e0c5d285b6fb918dab7a8030e1e54e2a885e321b1bc61 1439764 ironic_16.0.3.orig.tar.xz
+ 5678b5297044b8ea30ea6edec907f8b02ae5a2dd0fe39c57404ddef3852f1176 14356 ironic_16.0.3-1.debian.tar.xz
+Homepage: https://github.com/openstack/ironic
+Package-List: 
+ ironic-api deb net optional arch=all
+ ironic-common deb net optional arch=all
+ ironic-conductor deb net optional arch=all
+ ironic-doc deb doc optional arch=all profile=!nodoc
+ python3-ironic deb python optional arch=all
+Directory: pool/main/i/ironic
+Priority: optional
+Section: misc

@@ -1,0 +1,29 @@
+Package: e17
+Binary: enlightenment, enlightenment-data, enlightenment-dev
+Version: 0.24.2-8
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Uploaders: Albin Tonnerre <lutin@debian.org>, Jan Lübbe <jluebbe@debian.org>, Ross Vandegrift <rvandegrift@debian.org>, Andreas Metzler <ametzler@debian.org>,
+Build-Depends: bluez [linux-any], connman-dev, debhelper-compat (= 13), imagemagick, libasound2-dev, libbluetooth-dev, libecore-bin, libeet-bin, libefl-all-dev (>= 1.24.1), libpam0g-dev, libxcb-keysyms1-dev, libxcb-shape0-dev, libxext-dev, libxkbcommon-x11-dev, meson, rfkill, systemd, uuid-dev, wayland-protocols, xwayland
+Build-Depends-Indep: doxygen
+Build-Conflicts: systemctl
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cccbfd0068b191485934953aa4bda009 2460 e17_0.24.2-8.dsc
+ dffeea99a238c7f68b9e73a51fdf8be0 28716060 e17_0.24.2.orig.tar.xz
+ f4df49856b5640134f2392a2c096f90d 19080 e17_0.24.2-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-e-team/e
+Vcs-Git: https://salsa.debian.org/pkg-e-team/e.git
+Checksums-Sha256:
+ d2f2edcd778761ad4596fc2dae970421a76bd33302be25ce43431241425ed040 2460 e17_0.24.2-8.dsc
+ be18e2f18d6c0b058f633e769863d3cbc4c07b629058ae670dec74cd7906dff1 28716060 e17_0.24.2.orig.tar.xz
+ a9cd3f117277524ca4ad71b9ce7287a6986d9716d3381d338381fbee8ccc9a51 19080 e17_0.24.2-8.debian.tar.xz
+Homepage: https://www.enlightenment.org
+Package-List: 
+ enlightenment deb x11 optional arch=any
+ enlightenment-data deb x11 optional arch=all
+ enlightenment-dev deb devel optional arch=any
+Directory: pool/main/e/e17
+Priority: source
+Section: x11

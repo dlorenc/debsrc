@@ -1,0 +1,30 @@
+Package: network-manager
+Binary: network-manager, network-manager-dev, libnm0, libnm-dev, gir1.2-nm-1.0, network-manager-config-connectivity-debian
+Version: 1.30.0-2
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>, Aron Xu <aron@debian.org>
+Build-Depends: debhelper-compat (= 13), automake (>= 1.12), pkg-config, intltool, libglib2.0-dev (>= 2.32), ppp-dev (>= 2.4.7-1+1), libselinux1-dev, libaudit-dev, libgnutls28-dev (>= 2.12), uuid-dev, systemd (>= 185), libsystemd-dev (>= 209), libudev-dev (>= 175), libgirepository1.0-dev (>= 0.10.7-1~), gobject-introspection (>= 0.9.12-4~), python3-gi, libpsl-dev (>= 0.1), libcurl4-gnutls-dev (>= 7.24.0), gtk-doc-tools, libglib2.0-doc, libmm-glib-dev (>= 0.7.991), libndp-dev, libreadline-dev, libnewt-dev (>= 0.52.15), libteam-dev (>= 1.9), libjansson-dev, libbluetooth-dev (>= 5), valac (>= 0.17.1.24), dbus <!nocheck>, python3-dbus <!nocheck>, iproute2 <!nocheck>
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c69af770926b89ae156206ca64638cc3 3088 network-manager_1.30.0-2.dsc
+ dce168235c2b86ebc598d0e13e078ee3 5222376 network-manager_1.30.0.orig.tar.xz
+ 523bbe52c7250c83e714c1a151bb8dc9 47364 network-manager_1.30.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/utopia-team/network-manager
+Vcs-Git: https://salsa.debian.org/utopia-team/network-manager.git
+Checksums-Sha256:
+ d6c94fa00f4bd99dc6f89b17e7d1560af96f78a07847432aaf12d11e07a36189 3088 network-manager_1.30.0-2.dsc
+ 39f01232628bc2ecbca1a931b8f45fdd8f0b7150be65332901c97ecdee98c3f9 5222376 network-manager_1.30.0.orig.tar.xz
+ 407aedec06aa8ec23bfce51e7cb51219c364e3ce7c3845a17afa62940e69da83 47364 network-manager_1.30.0-2.debian.tar.xz
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Package-List: 
+ gir1.2-nm-1.0 deb introspection optional arch=linux-any
+ libnm-dev deb libdevel optional arch=linux-any
+ libnm0 deb libs optional arch=linux-any
+ network-manager deb net optional arch=linux-any
+ network-manager-config-connectivity-debian deb net optional arch=all
+ network-manager-dev deb devel optional arch=all
+Directory: pool/main/n/network-manager
+Priority: source
+Section: net

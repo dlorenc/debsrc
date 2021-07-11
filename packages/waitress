@@ -1,0 +1,27 @@
+Package: waitress
+Binary: python-waitress-doc, python3-waitress
+Version: 1.4.4-1.1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all (>= 3.3), python3-setuptools (>= 0.6.24), python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d2175ec535470729b54aea4a3b027acb 2149 waitress_1.4.4-1.1.dsc
+ dc4dabf509e5e909cb11dd38c0708f66 168781 waitress_1.4.4.orig.tar.gz
+ 8bd25e498b9569c8b115e4c83e1fbf5c 5620 waitress_1.4.4-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/waitress
+Vcs-Git: https://salsa.debian.org/python-team/packages/waitress.git
+Checksums-Sha256:
+ b0f0e06fff7cf5f193db5d6f661e185bbf90337b51ba45b439cb830b4e98b89d 2149 waitress_1.4.4-1.1.dsc
+ 857d94a0f87954bceb954c8685c94565eb59ac5a81229ba252e2f86dab182d6d 168781 waitress_1.4.4.orig.tar.gz
+ 1c8a49fd78117b76cf4a3a3fe02355e50f177f1abe34080ffab57bcbe9cd1d63 5620 waitress_1.4.4-1.1.debian.tar.xz
+Homepage: https://github.com/Pylons/waitress
+Package-List: 
+ python-waitress-doc deb doc optional arch=all
+ python3-waitress deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/w/waitress
+Priority: source
+Section: misc

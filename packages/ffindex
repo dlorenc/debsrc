@@ -1,0 +1,28 @@
+Package: ffindex
+Binary: ffindex, libffindex0, libffindex0-dev
+Version: 0.9.9.9-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Laszlo Kajan <lkajan@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), help2man, libopenmpi-dev, openmpi-bin, cmake (>= 3.11), chrpath, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 52c8e8a1cb0f460963903522389d4bfa 2188 ffindex_0.9.9.9-4.dsc
+ 708e12893459c670d903f7c17776db1f 36561 ffindex_0.9.9.9.orig.tar.gz
+ e3ae204c04096a98ba4c81225337888f 15132 ffindex_0.9.9.9-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/ffindex
+Vcs-Git: https://salsa.debian.org/med-team/ffindex.git
+Checksums-Sha256:
+ 0a7fce5b465cdeaafdc33c83d88357231ee205a54ea93aede20f39bc97395d11 2188 ffindex_0.9.9.9-4.dsc
+ 4ffb59f471d48140a8bdf3b7d5334b3163fff6e068c9d9d375b8ffb0fb220569 36561 ffindex_0.9.9.9.orig.tar.gz
+ 71d3b86c0ea3d190fe76d7c75443319580632ed1b4401f707e527197ea8c6ac1 15132 ffindex_0.9.9.9-4.debian.tar.xz
+Homepage: https://github.com/ahcm/ffindex
+Package-List: 
+ ffindex deb science optional arch=any
+ libffindex0 deb libs optional arch=any
+ libffindex0-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/f/ffindex
+Priority: source
+Section: science

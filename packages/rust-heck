@@ -1,0 +1,25 @@
+Package: rust-heck
+Binary: librust-heck-dev
+Version: 0.3.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-unicode-segmentation-1+default-dev (>= 1.2.0-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5f5351da0f97e6700c0e1f56fb9270e8 2177 rust-heck_0.3.1-1.dsc
+ 8b1468dbbc495e035240fbc00ed27530 54666 rust-heck_0.3.1.orig.tar.gz
+ 11bdf20d36133daf7f158aeb8fda97ab 2384 rust-heck_0.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/heck
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/heck]
+Checksums-Sha256:
+ 134d439697d15c8f65e31bd110b3a3da6b3b6c6ac1456e567f9537c24191cbb2 2177 rust-heck_0.3.1-1.dsc
+ 20564e78d53d2bb135c343b3f47714a56af2061f1c928fdb541dc7b9fdd94205 54666 rust-heck_0.3.1.orig.tar.gz
+ 6433342f37f4b26454dd5206b709c38ca3b22f19a29ae33f9641b8688f302c19 2384 rust-heck_0.3.1-1.debian.tar.xz
+Homepage: https://github.com/withoutboats/heck
+Package-List: 
+ librust-heck-dev deb rust optional arch=any
+Directory: pool/main/r/rust-heck
+Priority: extra
+Section: misc

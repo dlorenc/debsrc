@@ -1,0 +1,27 @@
+Package: tombo
+Binary: tombo, tombo-doc
+Version: 1.5.1-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, cython3, sphinx-doc, python3-sphinx, python3-sphinx-rtd-theme, python3-sphinx-argparse, libjs-mathjax, python3-h5py <!nocheck>, python3-mappy <!nocheck>, python3-numpy <!nocheck>, python3-scipy <!nocheck>, python3-tqdm <!nocheck>, python3-nose2 <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a6367e42ee7703201cd4bc5124ba9f43 2292 tombo_1.5.1-2.dsc
+ 3709e4f4d6f4c58ec2d6ae216059929c 22294835 tombo_1.5.1.orig.tar.gz
+ 7d73d7a3e73a3d33ffd2ec912756e76f 6344 tombo_1.5.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/tombo
+Vcs-Git: https://salsa.debian.org/med-team/tombo.git
+Checksums-Sha256:
+ f93590dbdaf039bb4011454e28e36c060991668405d0c3f80b37cc2c9d66ca36 2292 tombo_1.5.1-2.dsc
+ f5f7ce37baee40b851ea867c2b835e6eae324ef90bdeb23fb931fde3272769a0 22294835 tombo_1.5.1.orig.tar.gz
+ 8991b8857b34f835410d245cdb14bc8411808d383e20182918a9e79f4fe6f8de 6344 tombo_1.5.1-2.debian.tar.xz
+Homepage: https://github.com/nanoporetech/tombo
+Package-List: 
+ tombo deb science optional arch=any
+ tombo-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/t/tombo
+Priority: extra
+Section: misc

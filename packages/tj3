@@ -1,0 +1,27 @@
+Package: tj3
+Binary: tj3, vim-tjp
+Version: 3.7.1-1
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-mail (>= 2.4.3), ruby-rspec, ruby-term-ansicolor (>= 1.0.7), localehelper, help2man
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 56f88c8f680865b109ed7e35746c57ee 1978 tj3_3.7.1-1.dsc
+ f231ad71de5b838df58dc936041ee1e8 602637 tj3_3.7.1.orig.tar.gz
+ 8606ec9959b783a9a241e0646aace66c 8580 tj3_3.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/tj3
+Vcs-Git: https://salsa.debian.org/debian/tj3.git
+Checksums-Sha256:
+ 80caeae6a2d8422d682eafd5f35d717cf273aa514f8dc3bce74390216ae19555 1978 tj3_3.7.1-1.dsc
+ 7d2d06679488fce27bf15598a9d7b9f01032519f6e25258f73c945e9beb9b400 602637 tj3_3.7.1.orig.tar.gz
+ ca10f25b740ba1923b381d1954cd48d57b2db1beff4d27d713593faef5396949 8580 tj3_3.7.1-1.debian.tar.xz
+Homepage: http://www.taskjuggler.org
+Package-List: 
+ tj3 deb utils optional arch=all
+ vim-tjp deb utils optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Directory: pool/main/t/tj3
+Priority: optional
+Section: misc

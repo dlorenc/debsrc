@@ -1,0 +1,24 @@
+Package: rust-xattr
+Binary: librust-xattr-dev
+Version: 0.2.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 215e4c704d7fafa3c1ccaf7835193779 1461 rust-xattr_0.2.2-1.dsc
+ 5f4fb35a401a86e42e8f99f32848e36e 11750 rust-xattr_0.2.2.orig.tar.gz
+ 2fa08b5f86961d38c480817cb4bf094f 2336 rust-xattr_0.2.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/xattr
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/xattr]
+Checksums-Sha256:
+ ee1c8960ec56596e7365fd10d121247d79aaf6840a125845097e30c0e0df2b24 1461 rust-xattr_0.2.2-1.dsc
+ 244c3741f4240ef46274860397c7c74e50eb23624996930e484c16679633a54c 11750 rust-xattr_0.2.2.orig.tar.gz
+ c262c819cd2aca679d2649b5c845cf969516a96e8c2ac449d68cc0333afe8f0b 2336 rust-xattr_0.2.2-1.debian.tar.xz
+Package-List: 
+ librust-xattr-dev deb rust optional arch=any
+Directory: pool/main/r/rust-xattr
+Priority: extra
+Section: misc

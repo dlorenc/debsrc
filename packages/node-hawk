@@ -1,0 +1,26 @@
+Package: node-hawk
+Binary: node-hawk
+Version: 8.0.1+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-buildinfo, nodejs (>= 10), node-hapi-sntp (>= 3.0.0), node-hapi-hoek (>= 8.0.0), node-hapi-boom (>= 7.0.0), node-hapi-cryptiles (>= 4.0.0), dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4e06d4704af3ed966fe804c2cc0ddeb7 2166 node-hawk_8.0.1+dfsg-1.dsc
+ cf8fc7d1f249c6e64bd1747e2aad07f3 33636 node-hawk_8.0.1+dfsg.orig.tar.xz
+ 808d2661cf92d984aa1d87462dc1a364 2992 node-hawk_8.0.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-hawk
+Vcs-Git: https://salsa.debian.org/js-team/node-hawk.git
+Checksums-Sha256:
+ 80fd34b642d69a6f28c71b08b60236d5759131a18d466aa18ea76185ee43e1bb 2166 node-hawk_8.0.1+dfsg-1.dsc
+ e2f2fd1e5fddffeb660e5151d094fc6a6ca024a297d33b55359bcbf3166ad7ea 33636 node-hawk_8.0.1+dfsg.orig.tar.xz
+ f99445912c5307554bedb3e3f1bd778e5bea366d7265396ea23b3ffa8fae1579 2992 node-hawk_8.0.1+dfsg-1.debian.tar.xz
+Homepage: https://github.com/hueniverse/hawk#readme
+Package-List: 
+ node-hawk deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-hawk
+Priority: optional
+Section: javascript

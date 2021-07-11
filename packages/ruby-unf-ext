@@ -1,0 +1,28 @@
+Package: ruby-unf-ext
+Binary: ruby-unf-ext
+Version: 0.0.7.6-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake-compiler, ruby-shoulda, ruby-test-unit
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5f211808a382e9e63c0ae87f5882d823 2129 ruby-unf-ext_0.0.7.6-1.dsc
+ 8ab3e6f888548420e59b41552efad9c6 406458 ruby-unf-ext_0.0.7.6.orig.tar.gz
+ 988b114fadeeee958e5d9784d408b7f6 298480 ruby-unf-ext_0.0.7.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-unf-ext
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-unf-ext.git
+Checksums-Sha256:
+ 65c732fda17cb504ab6c3c3f0a5a97eddfa203f9c3e8485ea70f68439f6a8c38 2129 ruby-unf-ext_0.0.7.6-1.dsc
+ 66389fdca952ea30a1524991c147bb32e842db4d8bfe752677fc9d13de2a013a 406458 ruby-unf-ext_0.0.7.6.orig.tar.gz
+ 99ba7970c0fc3d2d5825ca0c03305ed4f871cc986a3062a6ac8d1a7ebaec589d 298480 ruby-unf-ext_0.0.7.6-1.debian.tar.xz
+Homepage: https://github.com/knu/ruby-unf_ext
+Package-List: 
+ ruby-unf-ext deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner
+Directory: pool/main/r/ruby-unf-ext
+Priority: source
+Section: ruby

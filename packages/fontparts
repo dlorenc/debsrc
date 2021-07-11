@@ -1,0 +1,28 @@
+Package: fontparts
+Binary: python3-fontparts, python-fontparts-doc
+Version: 0.9.6-1
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Yao Wei (魏銘廷) <mwei@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-fonttools (>= 4.14.0), python3-fontmath (>= 0.6.0), python3-defcon (>= 0.6.0), python3-booleanoperations (>= 0.9.0), python3-fontpens, python3-coverage, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f8e834559a035b00559e5b1205e93ddd 2303 fontparts_0.9.6-1.dsc
+ 31bb00ecfccd7fe6f2df06ff5371b8f2 432489 fontparts_0.9.6.orig.tar.gz
+ 51cd66906ba6f9f03e20625963dc81cb 3200 fontparts_0.9.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/fontparts
+Vcs-Git: https://salsa.debian.org/fonts-team/fontparts.git
+Checksums-Sha256:
+ 348aa0d9d232540b32325df77e57c33ad18f54dfc194a7b4af25fd40257d2428 2303 fontparts_0.9.6-1.dsc
+ b106fa9381dc90c0dd92712682c91c6bfe50a52f8aacae30c305bee1e8a34f64 432489 fontparts_0.9.6.orig.tar.gz
+ fe8ee307378c3910fc6b6b3db50617b3ef0cb3ff0894f12a015e3d81f0d31627 3200 fontparts_0.9.6-1.debian.tar.xz
+Homepage: https://github.com/robotools/fontParts
+Package-List: 
+ python-fontparts-doc deb doc optional arch=all
+ python3-fontparts deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/f/fontparts
+Priority: extra
+Section: misc

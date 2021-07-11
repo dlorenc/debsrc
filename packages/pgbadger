@@ -1,0 +1,26 @@
+Package: pgbadger
+Binary: pgbadger
+Version: 11.4-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Cyril Bouthors <cyb@debian.org>, Christoph Berg <myon@debian.org>, Adrian Vondendriesch <adrian.vondendriesch@credativ.de>,
+Build-Depends: debhelper (>= 10~), libjson-xs-perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d6aedfce327f8eae44e4a269548c7b52 2033 pgbadger_11.4-1.dsc
+ 10c51e2feb3e07f5366c8e1534760883 2299574 pgbadger_11.4.orig.tar.gz
+ cd129e5905e88ce513a4a9d048c02671 5876 pgbadger_11.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pgbadger
+Vcs-Git: https://salsa.debian.org/postgresql/pgbadger.git
+Checksums-Sha256:
+ 42d6f3d0e736001770a8a3787fc2a8ef7fa527cecf4dcec59f1617f9eedff8b0 2033 pgbadger_11.4-1.dsc
+ b235b540fe4bbc7cf59274b82ad427022ea378812562bd2c350353c884ee0bfd 2299574 pgbadger_11.4.orig.tar.gz
+ ab1180e9f465a1e9b82ff25c072100733f18a379a827e552d906c61bd5ce1ed0 5876 pgbadger_11.4-1.debian.tar.xz
+Homepage: https://dalibo.github.io/pgbadger/
+Package-List: 
+ pgbadger deb database optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/pgbadger
+Priority: source
+Section: misc

@@ -1,0 +1,27 @@
+Package: python-redis
+Binary: python3-redis
+Version: 3.5.3-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Chris Lamb <lamby@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6c3f56a05c35645545fdf5d1e7e0940c 1816 python-redis_3.5.3-2.dsc
+ eed2f8749285504809ab859b95d867d4 129884 python-redis_3.5.3.orig.tar.gz
+ d4bfb7913fcf1727116ee7e4c3b91471 5132 python-redis_3.5.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-redis
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-redis.git
+Checksums-Sha256:
+ 1de23940ecd798026406a5cbe62c1b8805a06d52795a65a09c0f4f6efecf8955 1816 python-redis_3.5.3-2.dsc
+ 0e3ef04af57d17207c2f13a49641a63b98e0040a10756a8247e833468b5a8206 129884 python-redis_3.5.3.orig.tar.gz
+ b5bfddabbbc003954510094591b77a1f85350b3df02e84fcf9e3b9d872ebe2aa 5132 python-redis_3.5.3-2.debian.tar.xz
+Homepage: https://github.com/andymccurdy/redis-py
+Package-List: 
+ python3-redis deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-mock, python3-pytest, python3-setuptools, redis-server
+Directory: pool/main/p/python-redis
+Priority: source
+Section: python

@@ -1,0 +1,28 @@
+Package: nvidia-settings
+Binary: nvidia-settings, libxnvctrl0, libxnvctrl-dev
+Version: 460.73.01-1
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Uploaders: Andreas Beckmann <anbe@debian.org>, Luca Boccassi <bluca@debian.org>,
+Build-Depends: debhelper-compat (= 13), m4, libgl1-mesa-dev | libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev (>= 0.9), libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev
+Build-Conflicts: libxnvctrl-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8dff82ed21abe41ed7c410fdc483dcb3 2411 nvidia-settings_460.73.01-1.dsc
+ 777761acc3149729baf7a71c00c690dd 1061256 nvidia-settings_460.73.01.orig.tar.bz2
+ 01072552c9ec9234b8aca47139afe362 22420 nvidia-settings_460.73.01-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/nvidia-team/nvidia-settings
+Vcs-Git: https://salsa.debian.org/nvidia-team/nvidia-settings.git
+Checksums-Sha256:
+ 328584861fc7e2611ab70dde36f049f35b5108f19e0059275e887e14bd124fb2 2411 nvidia-settings_460.73.01-1.dsc
+ 15738adc106629662b7c9557081d37be508e2e263d4304c5e341d63c4749fba8 1061256 nvidia-settings_460.73.01.orig.tar.bz2
+ 985d0965e295aa7d429f360c9678868cafa567d54c90410768f418dd629f00b6 22420 nvidia-settings_460.73.01-1.debian.tar.xz
+Homepage: https://download.nvidia.com/XFree86/nvidia-settings/
+Package-List: 
+ libxnvctrl-dev deb libdevel optional arch=any
+ libxnvctrl0 deb libs optional arch=any
+ nvidia-settings deb contrib/x11 optional arch=amd64,arm64
+Directory: pool/main/n/nvidia-settings
+Priority: optional
+Section: misc

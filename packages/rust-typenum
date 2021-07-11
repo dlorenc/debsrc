@@ -1,0 +1,26 @@
+Package: rust-typenum
+Binary: librust-typenum-dev
+Version: 1.12.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f63db7243bc996b709aeb33b5c0f4800 1490 rust-typenum_1.12.0-1.dsc
+ 55927226b06f62ccbd2890269d68c2fd 36037 rust-typenum_1.12.0.orig.tar.gz
+ f647bfb8d0c786f561d1c07c895a6494 2880 rust-typenum_1.12.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/typenum
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/typenum]
+Checksums-Sha256:
+ 91bf4b1a9c69584bb28d1703f5ab1b2922849d54f874e5d97ad09da6527fee9d 1490 rust-typenum_1.12.0-1.dsc
+ 373c8a200f9e67a0c95e62a4f52fbf80c23b4381c05a17845531982fa99e6b33 36037 rust-typenum_1.12.0.orig.tar.gz
+ 8aee6d278e32fa85b6d79833b3adbd6269625b7fd863047d8014d1596d0d54e2 2880 rust-typenum_1.12.0-1.debian.tar.xz
+Package-List: 
+ librust-typenum-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-typenum
+Priority: extra
+Section: misc

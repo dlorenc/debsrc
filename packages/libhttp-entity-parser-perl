@@ -1,0 +1,28 @@
+Package: libhttp-entity-parser-perl
+Binary: libhttp-entity-parser-perl
+Version: 0.25-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libhash-multivalue-perl <!nocheck>, libhttp-message-perl <!nocheck>, libhttp-multipartparser-perl <!nocheck>, libjson-maybexs-perl (>= 1.003007) <!nocheck>, libstream-buffered-perl <!nocheck>, libwww-form-urlencoded-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5ef6d8b51247c0043572b28bb08e9f6f 2719 libhttp-entity-parser-perl_0.25-1.dsc
+ 09663f9577975587e832e28ba5f5f8af 24307 libhttp-entity-parser-perl_0.25.orig.tar.gz
+ 33c34d131917e11283851f94c5b62ef9 2208 libhttp-entity-parser-perl_0.25-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhttp-entity-parser-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhttp-entity-parser-perl.git
+Checksums-Sha256:
+ 61814c5ecf69201789fa55cd4b92ff67fc4e0c5469a913799a4c9297ee36665e 2719 libhttp-entity-parser-perl_0.25-1.dsc
+ 3a8cd0d8cba3d17cd8c04ee82d7341dfaa247dbdd94a49eb94b53f69e483ec3a 24307 libhttp-entity-parser-perl_0.25.orig.tar.gz
+ 14820ce3f2b575697862224a707e4cde92d23c8d6f2b2852ebe6c071dc9dbbf6 2208 libhttp-entity-parser-perl_0.25-1.debian.tar.xz
+Homepage: https://metacpan.org/release/HTTP-Entity-Parser
+Dgit: 88776b7ea7988d8311d6e688439332f3b627a406 debian archive/debian/0.25-1 https://git.dgit.debian.org/libhttp-entity-parser-perl
+Package-List: 
+ libhttp-entity-parser-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhttp-entity-parser-perl
+Priority: optional
+Section: misc

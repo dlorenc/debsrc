@@ -1,0 +1,28 @@
+Package: gedit
+Binary: gedit, gedit-common, gedit-dev
+Version: 3.38.1-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: appstream-util <!nocheck>, debhelper-compat (= 12), desktop-file-utils <!nocheck>, dh-python, gnome-pkg-tools (>= 0.10), gobject-introspection, gsettings-desktop-schemas-dev, gtk-doc-tools (>= 1.0), itstool, libamtk-5-dev (>= 5.0), libgirepository1.0-dev (>= 0.9.3), libglib2.0-dev (>= 2.64), libgspell-1-dev (>= 1.0), libgtk-3-dev (>= 3.22), libgtksourceview-4-dev, libpeas-dev (>= 1.14.1), libtepl-5-dev (>= 5.0), meson (>= 0.53), python-gi-dev (>= 3.0.0), python3 (>= 3.2.3), valac (>= 0.25.1)
+Build-Depends-Indep: libatk1.0-doc, libglib2.0-doc, libgtk-3-doc, libgtksourceview-4-doc, libpeas-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 48dcfda8810c7850073d9bd5bd9f0577 2325 gedit_3.38.1-1.dsc
+ 19dcfd1631256ab85d9394225dddf167 6861368 gedit_3.38.1.orig.tar.xz
+ ef1beae1c675cc8bd9f6c477a2a4f0e9 18524 gedit_3.38.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gedit
+Vcs-Git: https://salsa.debian.org/gnome-team/gedit.git
+Checksums-Sha256:
+ 7fedb524b24462af0369445da2fe97ed424efb7f930ac8e8138f1a733e51d8ca 2325 gedit_3.38.1-1.dsc
+ 0053853d2cd59cad8a1662f5b4fdcfab47b4c0940063bacd6790a9948642844d 6861368 gedit_3.38.1.orig.tar.xz
+ 7bea26fffba5b575e4a31ec5fefce20f515c5bede79096f53bbaf2b222957dd0 18524 gedit_3.38.1-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/Gedit
+Package-List: 
+ gedit deb gnome optional arch=any
+ gedit-common deb gnome optional arch=all
+ gedit-dev deb devel optional arch=any
+Directory: pool/main/g/gedit
+Priority: source
+Section: gnome

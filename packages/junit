@@ -1,0 +1,26 @@
+Package: junit
+Binary: junit, junit-doc
+Version: 3.8.2-9
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Wolfgang Baer <WBaer@gmx.de>, Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-repo-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ cd401ee6115bde45bc39ae105451b59d 2026 junit_3.8.2-9.dsc
+ eae3eb74fc3ea517f5dbbbaacd15721b 364876 junit_3.8.2.orig.tar.gz
+ 753d63021c644312eea3193c0164566c 10452 junit_3.8.2-9.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/junit.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/junit.git
+Checksums-Sha256:
+ 3d614dd98f3e53a37ae7dd54bcf666e341a9f13a7ce776ed52a71af58165ba4d 2026 junit_3.8.2-9.dsc
+ e6bf65daa21c1c5bae0be1b07b2a0a169c671a6919688b3f38062dfc249df99e 364876 junit_3.8.2.orig.tar.gz
+ 20818e377a895627e1745e6c3cf996c21ff688741d30094a421d6eb0b42dd6f2 10452 junit_3.8.2-9.debian.tar.xz
+Homepage: http://www.junit.org
+Package-List: 
+ junit deb java optional arch=all
+ junit-doc deb doc optional arch=all
+Directory: pool/main/j/junit
+Priority: source
+Section: java

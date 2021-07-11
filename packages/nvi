@@ -1,0 +1,25 @@
+Package: nvi
+Binary: nvi, nvi-doc
+Version: 1.81.6-16
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), libncurses-dev, libdb-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e12f4b43670ad53ca8e6c90411c6bb81 1860 nvi_1.81.6-16.dsc
+ f7e65a969045dafd53aea7e3e80b8cf2 2324452 nvi_1.81.6.orig.tar.gz
+ 75fff17ab335621c89b036c4103271d2 77816 nvi_1.81.6-16.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/nvi
+Vcs-Git: https://salsa.debian.org/debian/nvi.git
+Checksums-Sha256:
+ f758b75376820a7515cbeccde47b752ec781a68fb2d3b0088c0e1b2740144246 1860 nvi_1.81.6-16.dsc
+ 8bc348889159a34cf268f80720b26f459dbd723b5616107d36739d007e4c978d 2324452 nvi_1.81.6.orig.tar.gz
+ a76167baf1bb4c842ed5adb163783adf5f8b94419986b1b12b1333be95be880c 77816 nvi_1.81.6-16.debian.tar.xz
+Homepage: https://repo.or.cz/nvi.git
+Package-List: 
+ nvi deb editors optional arch=any
+ nvi-doc deb doc optional arch=all
+Directory: pool/main/n/nvi
+Priority: source
+Section: editors

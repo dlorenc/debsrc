@@ -1,0 +1,27 @@
+Package: python-docker
+Binary: python3-docker
+Version: 4.1.0-1.2
+Maintainer: Docker Compose Team <team+docker-compose@tracker.debian.org>
+Uploaders: Jason Pleau <jason@jpleau.ca>, Felipe Sateler <fsateler@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-requests (>= 2.11.1~), python3-six (>= 1.4.0~), python3-websocket (>= 0.32.0~), python3-dockerpycreds (>= 0.2.2)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 617f15552795173506ba671809e93dcc 2266 python-docker_4.1.0-1.2.dsc
+ e1e8dc73e3220fe9eec1faf80b0290de 192008 python-docker_4.1.0.orig.tar.gz
+ 3e64bf918f1478e4a58be5f44813fafc 5352 python-docker_4.1.0-1.2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/docker-compose-team/python-docker
+Vcs-Git: https://salsa.debian.org/docker-compose-team/python-docker
+Checksums-Sha256:
+ eff7cec66a656fb69a2190e1916116978d68b6ec7ede547b98e13ec729258d3e 2266 python-docker_4.1.0-1.2.dsc
+ 6e06c5e70ba4fad73e35f00c55a895a448398f3ada7faae072e2bb01348bafc1 192008 python-docker_4.1.0.orig.tar.gz
+ 6a6209db85a94221a9fbfa5d68f73e240b503b00007d7bcd44dcefd4aab21dcb 5352 python-docker_4.1.0-1.2.debian.tar.xz
+Homepage: https://github.com/docker/docker-py
+Package-List: 
+ python3-docker deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: docker.io, python3-mock, python3-pytest
+Directory: pool/main/p/python-docker
+Priority: optional
+Section: misc

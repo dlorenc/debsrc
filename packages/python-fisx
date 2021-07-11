@@ -1,0 +1,30 @@
+Package: python-fisx
+Binary: python3-fisx, python3-fisx-dbg, python-fisx-common
+Version: 1.2.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Picca Frédéric-Emmanuel <picca@debian.org>, Alexandre Marie <alexandre.marie@synchrotron-soleil.fr>
+Build-Depends: cython3, cython3-dbg, debhelper-compat (= 12), dh-python, python3-all-dbg, python3-all-dev, python3-numpy, python3-numpy-dbg, python3-setuptools
+Architecture: any all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 8c78dcc8fd6b1bd66dd9af1a63a6aa12 2488 python-fisx_1.2.0-1.dsc
+ 46f36e095446c41dd8ea9001762711fa 5709704 python-fisx_1.2.0.orig.tar.gz
+ 04177fa4a65d32d9b09dcdb49e470018 4476 python-fisx_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-fisx
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-fisx.git
+Checksums-Sha256:
+ caa7223db33e0b320d170816b5d23702cee13892e433872d15af866f57061ac3 2488 python-fisx_1.2.0-1.dsc
+ 8b4f6ab5fa6cd2515fc1f22ad581471fce26bc779ef4e19410312e5a59378af9 5709704 python-fisx_1.2.0.orig.tar.gz
+ 9aecdab52773f46bab86fc0888ce5568e3f1220faca098b5beb85ff828b39134 4476 python-fisx_1.2.0-1.debian.tar.xz
+Homepage: https://github.com/vasole/fisx
+Dgit: 61819c3feb4ef8437e8d0ce0d539c5f3004b1667 debian archive/debian/1.2.0-1 https://git.dgit.debian.org/python-fisx
+Package-List: 
+ python-fisx-common deb python optional arch=all
+ python3-fisx deb python optional arch=any
+ python3-fisx-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-all-dbg
+Directory: pool/main/p/python-fisx
+Priority: optional
+Section: misc

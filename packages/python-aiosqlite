@@ -1,0 +1,26 @@
+Package: python-aiosqlite
+Binary: python3-aiosqlite, python-aiosqlite-doc
+Version: 0.16.1-1
+Maintainer: Benjamin Hof <vexel@vexel.net>
+Build-Depends: debhelper-compat (= 13), dh-python, flit, python3-all, python3-m2r, python3-setuptools, python3-sphinx, python3-typing-extensions
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 09e5b3ea531b2e67b9908f9495aeccaa 2112 python-aiosqlite_0.16.1-1.dsc
+ e91a6c1d6dce9f476dcf346c3aafb174 25085 python-aiosqlite_0.16.1.orig.tar.gz
+ 4ca5448cabcda72b3f3abf2c0b30828c 4292 python-aiosqlite_0.16.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/aiosqlite
+Vcs-Git: https://salsa.debian.org/debian/aiosqlite.git
+Checksums-Sha256:
+ 061eda09750b98d9268d449a384c7950344b45f900ceeed1e87937ddcce8d828 2112 python-aiosqlite_0.16.1-1.dsc
+ 693ce9645a9bc20674f264e6c5045bff9dfd9de28073b760b0189d1f9ae7000b 25085 python-aiosqlite_0.16.1.orig.tar.gz
+ a29ab54c7bcdba877aaf81f170f89866548f9e4a570e81282920a3f15bd17545 4292 python-aiosqlite_0.16.1-1.debian.tar.xz
+Homepage: https://github.com/omnilib/aiosqlite
+Package-List: 
+ python-aiosqlite-doc deb doc optional arch=all
+ python3-aiosqlite deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-aiosqlite
+Priority: extra
+Section: misc

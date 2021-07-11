@@ -1,0 +1,27 @@
+Package: stiff
+Binary: stiff
+Version: 2.4.0-5
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Gijs Molenaar <gijs@pythonic.nl>, Ole Streicher <olebole@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), libjpeg-dev, libtiff5-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3b03de40a646d78cc7136b5b5675dca6 2112 stiff_2.4.0-5.dsc
+ f10e57c9478021c119e803c5bd358ceb 272330 stiff_2.4.0.orig.tar.gz
+ 03bd40f30f009aa773eb707e6d580864 4632 stiff_2.4.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/stiff
+Vcs-Git: https://salsa.debian.org/debian-astro-team/stiff.git
+Checksums-Sha256:
+ 897a3138429aa20d90e320c0bc9ac76d5e63151acd5429415a64c57a0137c561 2112 stiff_2.4.0-5.dsc
+ d9a15047569819dd77fdb0c7030e89316cd4048f0f95060bfee1c9f632fbd533 272330 stiff_2.4.0.orig.tar.gz
+ 3adae4f1fb39dd803814363a7fb510960b3200fe07ce5454028ffe21de9c7277 4632 stiff_2.4.0-5.debian.tar.xz
+Homepage: https://www.astromatic.net/software/stiff
+Package-List: 
+ stiff deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: eso-midas-testdata
+Directory: pool/main/s/stiff
+Priority: optional
+Section: misc

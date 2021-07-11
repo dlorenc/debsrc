@@ -1,0 +1,28 @@
+Package: linbox
+Binary: liblinbox-dev, liblinbox-1.6.3-0, liblinbox-doc
+Version: 1.6.3-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Doug Torrance <dtorrance@piedmont.edu>
+Build-Depends: debhelper (>= 11), pkg-config, fflas-ffpack (>= 2.4.3), gnuplot, libgivaro-dev (>= 4.1.1), libgmp-dev, libgsl0-dev, libiml-dev, liblapack-dev, libm4ri-dev, libm4rie-dev, libmpfr-dev, libntl-dev
+Build-Depends-Indep: doxygen-latex, ghostscript, graphviz, texlive-fonts-recommended, texlive-science
+Architecture: any all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ c25a69cf6a661a75f62469ada49a979f 2313 linbox_1.6.3-3.dsc
+ 4466b2daf6f0aec5c1f5530cedf77126 2311437 linbox_1.6.3.orig.tar.gz
+ 7ed01e8137c9b65d8b2adda603558be1 9512 linbox_1.6.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/linbox
+Vcs-Git: https://salsa.debian.org/science-team/linbox.git
+Checksums-Sha256:
+ acb7e6ed8be74e7d2ec931115d459d735659f45ef6dcf76e179b96870f50c68e 2313 linbox_1.6.3-3.dsc
+ ad3867b75b13c139ad30ccb9ade68a0a9c158ca99deb69d81cce1646f58e3b5e 2311437 linbox_1.6.3.orig.tar.gz
+ 0cf24244406ba735f6256bfc927130b5c13016c2221725c2210e9a336f44a791 9512 linbox_1.6.3-3.debian.tar.xz
+Homepage: http://www.linalg.org/
+Package-List: 
+ liblinbox-1.6.3-0 deb libs optional arch=any
+ liblinbox-dev deb libdevel optional arch=any
+ liblinbox-doc deb doc optional arch=all
+Directory: pool/main/l/linbox
+Priority: source
+Section: math

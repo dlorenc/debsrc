@@ -1,0 +1,27 @@
+Package: php-crypt-gpg
+Binary: php-crypt-gpg
+Version: 1.6.4-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Prach Pongpanich <prach@debian.org>, Guilhem Moulin <guilhem@debian.org>
+Build-Depends: debhelper-compat (= 13), gpg (>= 2.1.13~) <!nocheck>, gpg-agent <!nocheck>, php-console-commandline <!nocheck>, php-mbstring <!nocheck>, phpunit (>= 8~) <!nocheck>, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1f37617da6b3d6aadf87ff97457484d0 2247 php-crypt-gpg_1.6.4-2.dsc
+ 5799746f1cfb3eb61bacd20a70848421 346390 php-crypt-gpg_1.6.4.orig.tar.gz
+ 76a87d54fc3c3baabdefabf72cf79672 12328 php-crypt-gpg_1.6.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-crypt-gpg
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-crypt-gpg.git -b debian/latest
+Checksums-Sha256:
+ 1d0a59ed3b0778bb045579dce5693a8c2823280b9fcb8eea727385f99283e1b4 2247 php-crypt-gpg_1.6.4-2.dsc
+ 00b5c17ae0f7a8a726f4adfd0471089ecf92e4625dc56acf0fbce3ae99ea39e7 346390 php-crypt-gpg_1.6.4.orig.tar.gz
+ 8d29d2bd8dbc7a6e6fb0096f6fa5e72bb98713494004aa8203e8f204469330aa 12328 php-crypt-gpg_1.6.4-2.debian.tar.xz
+Homepage: https://pear.php.net/package/Crypt_GPG
+Package-List: 
+ php-crypt-gpg deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gpg-agent, phpunit
+Directory: pool/main/p/php-crypt-gpg
+Priority: source
+Section: php

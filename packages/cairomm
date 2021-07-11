@@ -1,0 +1,27 @@
+Package: cairomm
+Binary: libcairomm-1.0-dev, libcairomm-1.0-1v5, libcairomm-1.0-doc
+Version: 1.12.2-4
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper (>= 11), gnome-pkg-tools, libcairo2-dev (>= 1.10.0), libsigc++-2.0-dev (>= 2.5.1), mm-common
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 068ef0785a13a8fd5f8807d24cf4b5cb 2186 cairomm_1.12.2-4.dsc
+ 9d2282ea34cf9aaa89208bb4bb911909 1325223 cairomm_1.12.2.orig.tar.gz
+ 0278a12591f7068f227f3bf933037fb3 4692 cairomm_1.12.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/cairomm
+Vcs-Git: https://salsa.debian.org/gnome-team/cairomm.git
+Checksums-Sha256:
+ cfcd96f563991ff1e55a6ab41e3731b6a2a9583e1339115e6f28000274984f72 2186 cairomm_1.12.2-4.dsc
+ 45c47fd4d0aa77464a75cdca011143fea3ef795c4753f6e860057da5fb8bd599 1325223 cairomm_1.12.2.orig.tar.gz
+ b1091b5a031c526329898a7099d046766c7b1fd2c9345a6180c7ac49ad36c21c 4692 cairomm_1.12.2-4.debian.tar.xz
+Homepage: http://cairographics.org/cairomm/
+Package-List: 
+ libcairomm-1.0-1v5 deb libs optional arch=any
+ libcairomm-1.0-dev deb libdevel optional arch=any
+ libcairomm-1.0-doc deb doc optional arch=all
+Directory: pool/main/c/cairomm
+Priority: source
+Section: libs

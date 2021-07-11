@@ -1,0 +1,28 @@
+Package: bigdoc
+Binary: libbigdoc-java
+Version: 0.3.0-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Roger Shimizu <rosh@debian.org>
+Build-Depends: debhelper-compat (= 12), default-jdk-headless, maven-debian-helper
+Build-Depends-Indep: junit4, libfinbin-java, libhamcrest-java
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 46143ac8eca3573242c5665691022a31 2094 bigdoc_0.3.0-2.dsc
+ 88ff0d19ee59d01278104ffe7b234ba7 86981 bigdoc_0.3.0.orig.tar.gz
+ 34279b12a5ab07324208111e94b33901 2992 bigdoc_0.3.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/bigdoc
+Vcs-Git: https://salsa.debian.org/java-team/bigdoc.git
+Checksums-Sha256:
+ fcfb07c7cc7a9c3b3602622d714b9e179dbb8c685b50e50ac79a59e154272149 2094 bigdoc_0.3.0-2.dsc
+ 040632c4f3a3dbc36225626123ae9cf6f0de41fe31b6c7f36c8d23f6d906fa4d 86981 bigdoc_0.3.0.orig.tar.gz
+ 29c10f49b212bc8af91efb016498540112d829595829324008f173a569326566 2992 bigdoc_0.3.0-2.debian.tar.xz
+Homepage: https://github.com/riversun/bigdoc
+Package-List: 
+ libbigdoc-java deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, debhelper
+Directory: pool/main/b/bigdoc
+Priority: extra
+Section: misc

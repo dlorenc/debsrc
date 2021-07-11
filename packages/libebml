@@ -1,0 +1,26 @@
+Package: libebml
+Binary: libebml5, libebml-dev
+Version: 1.4.2-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sam Hocevar (Debian packages) <sam+deb@zoy.org>, Rico Tzschichholz <ricotz@ubuntu.com>, Matteo F. Vescovi <mfv@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, g++ (>= 4:7), pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4beff965e3e018df01fe94e6ad5b2e94 2093 libebml_1.4.2-1.dsc
+ 194095f4315334fcedacb4900c59c014 70484 libebml_1.4.2.orig.tar.xz
+ 3aa411e3c940446e8b2319793e56884d 5500 libebml_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libebml
+Vcs-Git: https://salsa.debian.org/multimedia-team/libebml.git
+Checksums-Sha256:
+ 3fbf54fd37f247ca8815c08cd0151370aab18e9acd898253349c0b39dcbfc1e5 2093 libebml_1.4.2-1.dsc
+ 41c7237ce05828fb220f62086018b080af4db4bb142f31bec0022c925889b9f2 70484 libebml_1.4.2.orig.tar.xz
+ f6ab9d7845db572fd0460f36ab7072a87081df13bc49f8c579e2815bf7a0d172 5500 libebml_1.4.2-1.debian.tar.xz
+Homepage: https://dl.matroska.org/downloads/libebml/
+Package-List: 
+ libebml-dev deb libdevel optional arch=any
+ libebml5 deb libs optional arch=any
+Directory: pool/main/libe/libebml
+Priority: source
+Section: libs

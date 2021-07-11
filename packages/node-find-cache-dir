@@ -1,0 +1,26 @@
+Package: node-find-cache-dir
+Binary: node-find-cache-dir
+Version: 3.3.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-commondir <!nocheck>, node-del (>= 4.0.0) <!nocheck>, node-make-dir <!nocheck>, node-pkg-dir (>= 4.1.0) <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 601653a0eb9898bbd4a9c006e82d5df4 2257 node-find-cache-dir_3.3.1-1.dsc
+ 56473b126359f84051d5d9f9abedc8ef 4423 node-find-cache-dir_3.3.1.orig.tar.gz
+ fb5533f7775143a22db5af8794f1e380 3416 node-find-cache-dir_3.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-find-cache-dir
+Vcs-Git: https://salsa.debian.org/js-team/node-find-cache-dir.git
+Checksums-Sha256:
+ 07d4f02307251dc28ed28ec8275d35f683cdaa17206013f9dc2108f28d1ce873 2257 node-find-cache-dir_3.3.1-1.dsc
+ 6188a478a34db7ef2df0b9a323514776864fd55dcf03e82d0957f3d4d6a117c4 4423 node-find-cache-dir_3.3.1.orig.tar.gz
+ 7c37de18c68b4285d2b4f95a452375afea4fb338318c7a0b4d7565a3ea31c99e 3416 node-find-cache-dir_3.3.1-1.debian.tar.xz
+Homepage: https://github.com/jamestalmage/find-cache-dir#readme
+Package-List: 
+ node-find-cache-dir deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-find-cache-dir
+Priority: optional
+Section: javascript

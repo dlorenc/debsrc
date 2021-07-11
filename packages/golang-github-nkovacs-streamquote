@@ -1,0 +1,28 @@
+Package: golang-github-nkovacs-streamquote
+Binary: golang-github-nkovacs-streamquote-dev
+Version: 1.0.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 15fd0a079caf3cae1586a480fde5e48a 2308 golang-github-nkovacs-streamquote_1.0.0-2.dsc
+ 50f2c4365b19068f56064099ec3d45ea 3986 golang-github-nkovacs-streamquote_1.0.0.orig.tar.gz
+ 232b032e619b52384895d947173af4a6 2868 golang-github-nkovacs-streamquote_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-nkovacs-streamquote
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-nkovacs-streamquote.git
+Checksums-Sha256:
+ 77471a8e23cdf6f87dd6568b5cd9d8873dbc7e84367f5ef5b60bcf058ea0a24d 2308 golang-github-nkovacs-streamquote_1.0.0-2.dsc
+ 0ba559c6b15413dc80dc645d68377805a48c208f5dfa5b7c32f642696ca05dc9 3986 golang-github-nkovacs-streamquote_1.0.0.orig.tar.gz
+ 16e2527f0fd919798f777c34ab1c7560385d066db3b84024791c503d23431ef4 2868 golang-github-nkovacs-streamquote_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/nkovacs/streamquote
+Go-Import-Path: github.com/nkovacs/streamquote
+Package-List: 
+ golang-github-nkovacs-streamquote-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-nkovacs-streamquote
+Priority: extra
+Section: golang

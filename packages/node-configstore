@@ -1,0 +1,26 @@
+Package: node-configstore
+Binary: node-configstore
+Version: 5.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs, node-dot-prop <!nocheck>, node-graceful-fs (>= 4.1.2) <!nocheck>, node-make-dir <!nocheck>, node-unique-string <!nocheck>, node-write-file-atomic <!nocheck>, node-xdg-basedir <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ da20348be0e7a6ab09262a1e6286d006 2289 node-configstore_5.0.1-1.dsc
+ b17564758af412784ef3f66cce9555d5 4862 node-configstore_5.0.1.orig.tar.gz
+ e3953ea43cf120624b1f086f84f13aeb 3740 node-configstore_5.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-configstore
+Vcs-Git: https://salsa.debian.org/js-team/node-configstore.git
+Checksums-Sha256:
+ 1da91312b7365006e5b7ab71303d23904c5f53e3d586ef29e7c138899a1630bd 2289 node-configstore_5.0.1-1.dsc
+ 03189ad9d70e8028ec9dee90f8ceb5119b1191529399c4e1cc7e823434fa5314 4862 node-configstore_5.0.1.orig.tar.gz
+ 2cbd79c6dbb54e9e9261e339f987b86d393637167931bf2828ad559d44c809e7 3740 node-configstore_5.0.1-1.debian.tar.xz
+Homepage: https://github.com/yeoman/configstore#readme
+Package-List: 
+ node-configstore deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-configstore
+Priority: extra
+Section: misc

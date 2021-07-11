@@ -1,0 +1,39 @@
+Package: weechat
+Binary: weechat, weechat-curses, weechat-headless, weechat-core, weechat-plugins, weechat-python, weechat-perl, weechat-ruby, weechat-lua, weechat-tcl, weechat-guile, weechat-php, weechat-doc, weechat-dev
+Version: 3.0-1
+Maintainer: Emmanuel Bouthenot <kolter@debian.org>
+Build-Depends: asciidoctor (>= 1.5.4), ruby-pygments.rb, debhelper (>= 13), debhelper-compat (= 13), cmake, pkg-config, libncursesw5-dev, ruby-dev, libperl-dev, python3-dev, libaspell-dev, liblua5.3-dev, tcl8.6-dev, guile-3.0-dev, php-dev, libphp-embed, libargon2-0-dev, libsodium-dev, libxml2-dev, libcurl4-gnutls-dev, libgcrypt20-dev, libgnutls28-dev, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f3ec2be5f15024893d21dcd85a5a3b35 3084 weechat_3.0-1.dsc
+ b9070c170a194ac3a71c8afff6b9a4b7 3220254 weechat_3.0.orig.tar.bz2
+ 1fd979c0b634b38ff5b88e372af20478 833 weechat_3.0.orig.tar.bz2.asc
+ 8910a1574782611263d9fe44bd511013 17932 weechat_3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/kolter/weechat
+Vcs-Git: https://salsa.debian.org/kolter/weechat.git
+Checksums-Sha256:
+ 6019842a172e9ce5ca4c97d0ff4470371a083700c9219c60cfb235547f44afab 3084 weechat_3.0-1.dsc
+ 7e3287fdcf87ef539058b1afbf2812ce9c86fe90f486a89d75685c0ffd6e2d32 3220254 weechat_3.0.orig.tar.bz2
+ 7d46b49560907844d5ec4f8b3a5679290ac5fb66e872895ce022be82803728b0 833 weechat_3.0.orig.tar.bz2.asc
+ 958615ed5edfb07a46db142a9fbb2696445f477441e1770e0ee38b94786012b1 17932 weechat_3.0-1.debian.tar.xz
+Homepage: https://weechat.org/
+Package-List: 
+ weechat deb net optional arch=all
+ weechat-core deb net optional arch=any
+ weechat-curses deb net optional arch=any
+ weechat-dev deb devel optional arch=any
+ weechat-doc deb doc optional arch=all
+ weechat-guile deb net optional arch=any
+ weechat-headless deb net optional arch=any
+ weechat-lua deb net optional arch=any
+ weechat-perl deb net optional arch=any
+ weechat-php deb net optional arch=any
+ weechat-plugins deb net optional arch=any
+ weechat-python deb net optional arch=any
+ weechat-ruby deb net optional arch=any
+ weechat-tcl deb net optional arch=any
+Directory: pool/main/w/weechat
+Priority: source
+Section: net

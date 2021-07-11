@@ -1,0 +1,25 @@
+Package: gs-collections
+Binary: libgs-collections-java
+Version: 5.1.0-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, junit4, libbuild-helper-maven-plugin-java, libjcip-annotations-java, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, libmaven3-core-java, libstringtemplate4-java, maven-debian-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f0213dcb78e52de33fa06f4a9727e2cd 2252 gs-collections_5.1.0-4.dsc
+ 42d5b1a112512d4d497c15f832c5753d 1653080 gs-collections_5.1.0.orig.tar.gz
+ 8c150cd91c2ef5813b78320cdb522314 3544 gs-collections_5.1.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/gs-collections
+Vcs-Git: https://salsa.debian.org/java-team/gs-collections.git
+Checksums-Sha256:
+ cdf4f66c4b75f802a299d9c815be2f537095a4c0b2a96f84c3f245e58062e72f 2252 gs-collections_5.1.0-4.dsc
+ d43c9838910b869a13eae607670e333589e9762c2fcaae53f95f6aa91dba38fa 1653080 gs-collections_5.1.0.orig.tar.gz
+ 9ab98e457980786985c1761b3ba0cc7e0cdbc5707942b27d0854f98f8b5672a7 3544 gs-collections_5.1.0-4.debian.tar.xz
+Homepage: https://github.com/goldmansachs/gs-collections
+Package-List: 
+ libgs-collections-java deb java optional arch=all
+Directory: pool/main/g/gs-collections
+Priority: optional
+Section: misc

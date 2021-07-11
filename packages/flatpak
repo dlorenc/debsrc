@@ -1,0 +1,34 @@
+Package: flatpak
+Binary: flatpak, flatpak-tests, gir1.2-flatpak-1.0, libflatpak-dev, libflatpak-doc, libflatpak0
+Version: 1.10.2-2
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Matthias Klumpp <mak@debian.org>, Simon McVittie <smcv@debian.org>,
+Build-Depends: attr <!nocheck>, automake (>= 1.14.1), bison, bubblewrap (>= 0.4.0), ca-certificates <!nocheck>, dbus, debhelper-compat (= 12), desktop-file-utils <!nocheck>, dh-exec (>= 0.23~), docbook-xml <!nodoc>, docbook-xsl <!nodoc>, fuse <!nocheck>, gnupg <!nocheck>, gobject-introspection (>= 1.54.1-2~), gtk-doc-tools, gtk-update-icon-cache <!nocheck>, hicolor-icon-theme <!nocheck>, libappstream-glib-dev (>= 0.5.10), libarchive-dev (>= 2.8.0), libattr1-dev, libcap-dev, libdconf-dev, libdw-dev, libelf-dev, libfuse-dev (>= 2.9.2), libgdk-pixbuf-2.0-dev | libgdk-pixbuf2.0-dev, libgirepository1.0-dev, libglib2.0-dev (>= 2.44), libgpgme-dev (>= 1.1.8), libjson-glib-dev, libmalcontent-0-dev (>= 0.4.0), libostree-dev (>= 2020.8), libpolkit-agent-1-dev, libpolkit-gobject-1-dev, libseccomp-dev, libsoup2.4-dev, libsystemd-dev, libxau-dev, libxml2-dev (>= 2.4), libxml2-utils, libzstd-dev, ostree (>= 2020.8) <!nocheck>, policykit-1 <!nocheck>, procps, python3:any, python3-pyparsing, shared-mime-info <!nocheck>, socat <!nocheck>, xdg-dbus-proxy (>= 0.1.0), xmlto <!nodoc>, xsltproc <!nodoc>
+Build-Depends-Indep: libglib2.0-doc, libostree-doc
+Architecture: linux-any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8e5cc49f5dcf7427d5c86b919f2dc91e 3615 flatpak_1.10.2-2.dsc
+ 61701ebaac700a2fe6eb33233bb7d493 1507856 flatpak_1.10.2.orig.tar.xz
+ 93b11ced3d9ae67a2442ea0d80939372 34628 flatpak_1.10.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/flatpak
+Vcs-Git: https://salsa.debian.org/debian/flatpak.git
+Checksums-Sha256:
+ 76e3dbb9955eb98748964a2da210990491fbb94eb0429bfd6e7c49bd704aea57 3615 flatpak_1.10.2-2.dsc
+ db152739d072f8ff299e4e888d8963a1b4538da7b10e0b86525be438f2e1dde4 1507856 flatpak_1.10.2.orig.tar.xz
+ 653cac3e5263aca1dac11861881882298951579d417f3460e7f4e55a32c181e0 34628 flatpak_1.10.2-2.debian.tar.xz
+Homepage: https://flatpak.org/
+Dgit: 9d13f9e69d0ea5a0a02ec878e7525b7a0495bea4 debian archive/debian/1.10.2-2 https://git.dgit.debian.org/flatpak
+Package-List: 
+ flatpak deb admin optional arch=linux-any
+ flatpak-tests deb misc optional arch=linux-any
+ gir1.2-flatpak-1.0 deb introspection optional arch=linux-any
+ libflatpak-dev deb libdevel optional arch=linux-any
+ libflatpak-doc deb doc optional arch=all profile=!nodoc
+ libflatpak0 deb libs optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, gettext, gnome-desktop-testing, python3
+Directory: pool/main/f/flatpak
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: mswatch
+Binary: mswatch, watch-maildirs
+Version: 1.2.0-2.2
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: autotools-dev, cdbs (>= 0.4.72~), devscripts (>= 2.10.7~), debhelper (>= 6), dh-buildinfo, libglib2.0-dev, flex, bison
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ d3cbc13bef05406a9db239907d560c5d 1950 mswatch_1.2.0-2.2.dsc
+ eca0e891cb22c41a553c52b397d43627 434986 mswatch_1.2.0.orig.tar.gz
+ 383baf8a90133d52958536b066fcc7e0 6252 mswatch_1.2.0-2.2.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/mswatch.git
+Vcs-Git: git://git.debian.org/git/collab-maint/mswatch.git
+Checksums-Sha256:
+ 2df8e7ca873c6d3d8b434a8bee3061c07061d46ddcd3f5f93f2f0f1b05d25934 1950 mswatch_1.2.0-2.2.dsc
+ 2623514442237e11c91a06ab406d9594669ddb70fd1d55b84371ea613e8ac1a7 434986 mswatch_1.2.0.orig.tar.gz
+ f669bc328a09707a9ff78a027869b7202bcdb558e54e09724b30c0f4844b0610 6252 mswatch_1.2.0-2.2.debian.tar.xz
+Homepage: http://mswatch.sourceforge.net/
+Package-List: 
+ mswatch deb mail optional arch=any
+ watch-maildirs deb mail optional arch=any
+Directory: pool/main/m/mswatch
+Priority: source
+Section: mail

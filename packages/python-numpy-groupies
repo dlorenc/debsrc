@@ -1,0 +1,26 @@
+Package: python-numpy-groupies
+Binary: python3-numpy-groupies
+Version: 0.9.13-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-distutils, python3-setuptools, python3-all, python3-pytest <!nocheck>, python3-pytest-runner <!nocheck>, python3-numpy <!nocheck>, python3-pandas <!nocheck>, python3-scipy <!nocheck>, python3-numba <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a9b89b2645d92581d41e2b256739c7e1 2350 python-numpy-groupies_0.9.13-1.dsc
+ 0a5849ef7615c1d7327c59b5c96e62b2 167853 python-numpy-groupies_0.9.13.orig.tar.gz
+ 6104c0a775f7c1457f914cae3df02880 3432 python-numpy-groupies_0.9.13-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/numpy-groupies
+Vcs-Git: https://salsa.debian.org/python-team/packages/numpy-groupies.git
+Checksums-Sha256:
+ b0017f471f92c7aa92541e6230ef56d9fd12d00fa2413be0c0212588409523fd 2350 python-numpy-groupies_0.9.13-1.dsc
+ 5f3c2d62dcf83fb24f842440c2db78327eaf7d5459f6c864c582d03047066828 167853 python-numpy-groupies_0.9.13.orig.tar.gz
+ 4400aa067f93293c12a01be9294a57cdd8b087cf945edbc44c4526311678d387 3432 python-numpy-groupies_0.9.13-1.debian.tar.xz
+Homepage: https://github.com/ml31415/numpy-groupies
+Package-List: 
+ python3-numpy-groupies deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-numpy-groupies
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-nlopes-slack
+Binary: golang-github-nlopes-slack-dev
+Version: 0.1.0-1.1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-any, golang-github-stretchr-testify-dev, golang-golang-x-net-dev
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ f6d6e67a4bc2d160454e85d00ad3f6c5 2284 golang-github-nlopes-slack_0.1.0-1.1.dsc
+ e9a4a490e950ab2bdc77ff8bfb21b0d6 51378 golang-github-nlopes-slack_0.1.0.orig.tar.gz
+ 089cca70277795c372ed7eb4bb679724 2180 golang-github-nlopes-slack_0.1.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-nlopes-slack
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-nlopes-slack.git
+Checksums-Sha256:
+ 921d3c77c0f9d532b84c0fcb45af3b785accfb36f917ccf71f7bf40ecb30f6e6 2284 golang-github-nlopes-slack_0.1.0-1.1.dsc
+ be3a970b1d4ec27931d367e427cad1486787f05f88a3bac90b6fb128a192e420 51378 golang-github-nlopes-slack_0.1.0.orig.tar.gz
+ c019823e8b1385481ea6c4760cafbf2fd988514f0408a1eafaf21ffb048be277 2180 golang-github-nlopes-slack_0.1.0-1.1.debian.tar.xz
+Homepage: https://github.com/nlopes/slack
+Go-Import-Path: github.com/nlopes/slack
+Package-List: 
+ golang-github-nlopes-slack-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-nlopes-slack
+Priority: extra
+Section: golang

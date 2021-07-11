@@ -1,0 +1,27 @@
+Package: rust-gtk-rs-lgpl-docs
+Binary: librust-gtk-rs-lgpl-docs-dev
+Version: 0.1.12-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-rustdoc-stripper-0.1+default-dev (>= 0.1.6-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 3657fa1986f329743ebb011f79f49415 2347 rust-gtk-rs-lgpl-docs_0.1.12-2.dsc
+ 6eaf89d1c0f1c776613321f491377ac1 856321 rust-gtk-rs-lgpl-docs_0.1.12.orig.tar.gz
+ 4b01f651a993970e56a333f736acbd42 2080 rust-gtk-rs-lgpl-docs_0.1.12-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gtk-rs-lgpl-docs
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gtk-rs-lgpl-docs]
+Checksums-Sha256:
+ 4c8059912f9399ad8c4712d5576d4b9588b389c37e71ae15305b5e89559f1f7b 2347 rust-gtk-rs-lgpl-docs_0.1.12-2.dsc
+ 5b26ddef45e29579152519c6e6245bf3e6c961dd0da4d7673d6cc6c91eddfc96 856321 rust-gtk-rs-lgpl-docs_0.1.12.orig.tar.gz
+ 1c99d8628cf6a549731f4975e302cb4e933abc0ef7b9c21df771d6064fe45248 2080 rust-gtk-rs-lgpl-docs_0.1.12-2.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-gtk-rs-lgpl-docs-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-gtk-rs-lgpl-docs
+Priority: extra
+Section: misc

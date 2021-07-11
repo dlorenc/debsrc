@@ -1,0 +1,28 @@
+Package: source-extractor
+Binary: source-extractor, sextractor
+Version: 2.25.0+ds-3
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 12), libatlas-base-dev, libfftw3-dev
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e51491a355c10880deb5c6fcc3a07df1 2237 source-extractor_2.25.0+ds-3.dsc
+ 85e43de8b59b028d76bab684cde05ace 1916336 source-extractor_2.25.0+ds.orig.tar.xz
+ 5267b11199f2fb76ada50edef3112267 51100 source-extractor_2.25.0+ds-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/source-extractor
+Vcs-Git: https://salsa.debian.org/debian-astro-team/source-extractor.git
+Checksums-Sha256:
+ 1eb10797f2cc499359c6f6ebef5cce4c6bc7dbabdf4372c5fdcad0e827a74dc3 2237 source-extractor_2.25.0+ds-3.dsc
+ b3b2e5bb7c2020cfd86bc7fd353da29cd8a7342272786ce5518273554239f55d 1916336 source-extractor_2.25.0+ds.orig.tar.xz
+ 65b0de0b3019f1e048bc7519fadf9355fd8db62201f85b1af7a2889eee7390b4 51100 source-extractor_2.25.0+ds-3.debian.tar.xz
+Homepage: https://www.astromatic.net/software/sextractor
+Package-List: 
+ sextractor deb oldlibs optional arch=all
+ source-extractor deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-astropy, python3-numpy
+Directory: pool/main/s/source-extractor
+Priority: extra
+Section: misc

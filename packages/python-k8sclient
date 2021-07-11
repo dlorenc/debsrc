@@ -1,0 +1,28 @@
+Package: python-k8sclient
+Binary: python-k8sclient-doc, python3-k8sclient
+Version: 0.3.0-4
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 12), dh-python, openstack-pkg-tools (>= 52~), python3-all, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-dateutil (>= 2.4.2), python3-oslosphinx (>= 2.5.0), python3-oslotest (>= 1:1.10.0), python3-pbr (>= 1.8), python3-six (>= 1.9.0), python3-subunit, python3-testscenarios, python3-testtools (>= 1.4.0), python3-urllib3 (>= 1.8.3)
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ 33cd8fccd991bd375877b0689b4b5ca4 2491 python-k8sclient_0.3.0-4.dsc
+ f83a5bd303743776af5f9bd06ad4ce4e 117948 python-k8sclient_0.3.0.orig.tar.xz
+ 6356ea29f7f8ab144a3121aa6d495d06 3068 python-k8sclient_0.3.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/clients/python-k8sclient
+Vcs-Git: https://salsa.debian.org/openstack-team/clients/python-k8sclient.git
+Checksums-Sha256:
+ 2f26348932e85e923fbe9a1d1ad4c72f802e3d17c4cab9f7983fde73ca699841 2491 python-k8sclient_0.3.0-4.dsc
+ 61bd387264057102943a0569f14fc607aafa3aba4db1f1caff1f496754f7cc76 117948 python-k8sclient_0.3.0.orig.tar.xz
+ 3973787dee73a9076d08244849754967226c2eee4ba2d5cbd332b2c408dbcfa8 3068 python-k8sclient_0.3.0-4.debian.tar.xz
+Homepage: http://www.openstack.org/
+Package-List: 
+ python-k8sclient-doc deb doc optional arch=all
+ python3-k8sclient deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-k8sclient
+Priority: optional
+Section: misc

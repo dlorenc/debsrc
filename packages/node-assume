@@ -1,0 +1,25 @@
+Package: node-assume
+Binary: node-assume
+Version: 2.3.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Harley Swick <fancycade@protonmail.com>, Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-deep-eql <!nocheck>, node-fn-name <!nocheck>, node-object-inspect, node-propget <!nocheck>, node-pruddy-error <!nocheck>, nodejs (>= 6), pkg-js-tools (>= 0.9.35)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 062ad74ea59fd3b8467c0a0beaf9b273 2208 node-assume_2.3.0-1.dsc
+ d91cbb97d9b12b58db7e17402b1b695d 45744 node-assume_2.3.0.orig.tar.gz
+ 9e0edc072bbf353cb37b597146742b6d 2724 node-assume_2.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-assume
+Vcs-Git: https://salsa.debian.org/js-team/node-assume.git
+Checksums-Sha256:
+ e3b484686bb9a9bfc5c157c8e9b75926a513153c25eb8add2cefbd0e3e1dc385 2208 node-assume_2.3.0-1.dsc
+ e87cb54ec1f8afed8625a04282025530db63b4ac79f9310cbda3012ad9af0f3a 45744 node-assume_2.3.0.orig.tar.gz
+ 025e89dad8661686c606c429c03c4f274a1d245e81be8889d862b7ae6d4ca85f 2724 node-assume_2.3.0-1.debian.tar.xz
+Homepage: https://github.com/bigpipe/assume#readme
+Package-List: 
+ node-assume deb javascript optional arch=all
+Directory: pool/main/n/node-assume
+Priority: extra
+Section: misc

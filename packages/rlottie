@@ -1,0 +1,26 @@
+Package: rlottie
+Binary: librlottie0-1, librlottie-dev
+Version: 0.1+dfsg-2
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Build-Depends: debhelper-compat (= 12)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ deac0fec5bc2662998190043227da0bb 2048 rlottie_0.1+dfsg-2.dsc
+ 4a1a9402dd50e0f917b01b762c98a7c8 2899072 rlottie_0.1+dfsg.orig.tar.xz
+ b8dc772e1986433d5b161ffb6fc29904 16016 rlottie_0.1+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/rlottie
+Vcs-Git: https://salsa.debian.org/debian/rlottie.git
+Checksums-Sha256:
+ f1250aeedb0ce1224980eecf3977a60eef3dbffe4644d9803b33ff39efaa4fe6 2048 rlottie_0.1+dfsg-2.dsc
+ 23ef230681bfec7ed6f2d1e3918fed9456874392594297f9a5b70e0bc58a80eb 2899072 rlottie_0.1+dfsg.orig.tar.xz
+ 1d2d16ac3cc8b6566a898d9a05f97b5b55a5706af78fb94f8bfb96ea1f1bedf3 16016 rlottie_0.1+dfsg-2.debian.tar.xz
+Homepage: https://github.com/Samsung/rlottie
+Build-Depends-Arch: cmake (>= 3.3), libgtest-dev (>= 1.8.0-9) <!nocheck>, libstb-dev, rapidjson-dev (>= 1.1.0)
+Package-List: 
+ librlottie-dev deb libdevel optional arch=any
+ librlottie0-1 deb libs optional arch=any
+Directory: pool/main/r/rlottie
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-pcre2
+Binary: librust-pcre2-dev
+Version: 0.2.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.46-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.5-~~) <!nocheck>, librust-pcre2-sys-0.2+default-dev <!nocheck>, librust-thread-local-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 0e634751d1f894a24d068cebecb80c53 2345 rust-pcre2_0.2.3-1.dsc
+ 244c87ebce1ce19de9283d14e218618d 19605 rust-pcre2_0.2.3.orig.tar.gz
+ 4278d2bb29db885d2dfc58e9236ff2c6 3004 rust-pcre2_0.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pcre2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pcre2]
+Checksums-Sha256:
+ c990f6396636a6c1c9c06634996ace1c15217bbb2c8398a2a8afffde584bdffe 2345 rust-pcre2_0.2.3-1.dsc
+ 85b30f2f69903b439dd9dc9e824119b82a55bf113b29af8d70948a03c1b11ab1 19605 rust-pcre2_0.2.3.orig.tar.gz
+ ddefd719567f127c907d4d62554a80422be67090fd2b83200cb27a45da13272e 3004 rust-pcre2_0.2.3-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/rust-pcre2
+Package-List: 
+ librust-pcre2-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-pcre2
+Priority: extra
+Section: misc

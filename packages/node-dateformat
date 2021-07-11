@@ -1,0 +1,27 @@
+Package: node-dateformat
+Binary: node-dateformat, libjs-dateformat
+Version: 3.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Marcelo Jorge Vieira <metal@debian.org>, Gustavo Noronha Silva <kov@debian.org>, Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), mocha, node-underscore, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7cab82e5ee5c4b92ed24e6af181e1c96 2232 node-dateformat_3.0.0-2.dsc
+ 4fa74718d8d6849e99c4d0a83e32f2bd 7611 node-dateformat_3.0.0.orig.tar.gz
+ 72a95cf3879719597ae7a665e8f59985 3188 node-dateformat_3.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-dateformat
+Vcs-Git: https://salsa.debian.org/js-team/node-dateformat.git
+Checksums-Sha256:
+ d47fbb1e79f03425101ac19682c56a745957f8ae9db61864c107c2f797baf019 2232 node-dateformat_3.0.0-2.dsc
+ 04ee6819d6d04e80292cea4d2edf554eb148bcafceeb68d3b55be5152774ff23 7611 node-dateformat_3.0.0.orig.tar.gz
+ aa01bbb1cbf8849f010f254570761dc263dbe5463951a2dc8a57aa383858987b 3188 node-dateformat_3.0.0-2.debian.tar.xz
+Homepage: https://github.com/felixge/node-dateformat
+Package-List: 
+ libjs-dateformat deb javascript optional arch=all
+ node-dateformat deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-dateformat
+Priority: optional
+Section: javascript

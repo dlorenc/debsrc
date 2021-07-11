@@ -1,0 +1,26 @@
+Package: bzrtp
+Binary: libbzrtp-dev, libbzrtp0
+Version: 4.4.13-2
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Uploaders: Kilian Krause <kilian@debian.org>, Tzafrir Cohen <tzafrir@debian.org>, Bernhard Schmidt <berni@debian.org>,
+Build-Depends: cmake (>= 3.0), debhelper-compat (= 12), libbctoolbox-dev (>= 4.4.0~), libsqlite3-dev, libxml2-dev
+Architecture: any
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ da92a7ea48edfe58a5185f1e28ebf144 2146 bzrtp_4.4.13-2.dsc
+ 4e821ddd161a428d07c250b1a9b67b87 153793 bzrtp_4.4.13.orig.tar.gz
+ 8cd363f51480d5dc895abc6b0f287c15 6336 bzrtp_4.4.13-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-voip-team/linphone-stack/bzrtp
+Vcs-Git: https://salsa.debian.org/pkg-voip-team/linphone-stack/bzrtp.git
+Checksums-Sha256:
+ 0ff46cd93d43cb09ee2711618298b2cbeef06ed195c12e064499b0823877dd73 2146 bzrtp_4.4.13-2.dsc
+ 578b922879ffa41fbd077891805792a81903b2991c087239f87b460c41f34c16 153793 bzrtp_4.4.13.orig.tar.gz
+ 537b107abf8be4e0d4cd93850376bdfa4b9e90972a634f29aac2cb39ef89802d 6336 bzrtp_4.4.13-2.debian.tar.xz
+Homepage: https://www.linphone.org/
+Package-List: 
+ libbzrtp-dev deb libdevel optional arch=any
+ libbzrtp0 deb libs optional arch=any
+Directory: pool/main/b/bzrtp
+Priority: optional
+Section: misc

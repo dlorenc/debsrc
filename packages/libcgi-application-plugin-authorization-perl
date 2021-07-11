@@ -1,0 +1,30 @@
+Package: libcgi-application-plugin-authorization-perl
+Binary: libcgi-application-plugin-authorization-perl
+Version: 0.07+~cs0.1-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: libapache-htgroup-perl <!nocheck>, libcgi-application-basic-plugin-bundle-perl <!nocheck>, libcgi-application-perl <!nocheck>, libcgi-pm-perl <!nocheck>, libdbd-sqlite3-perl <!nocheck>, libnet-ldap-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-warn-perl <!nocheck>, libuniversal-require-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 735e2893a129b00296c515239c7003f7 3550 libcgi-application-plugin-authorization-perl_0.07+~cs0.1-1.dsc
+ cf1a3709ceb1a4e05df3d4080a481884 9639 libcgi-application-plugin-authorization-perl_0.07+~cs0.1.orig-driver-ad.tar.gz
+ bc4758e2c03ec7a22271ff84dbdbc570 20810 libcgi-application-plugin-authorization-perl_0.07+~cs0.1.orig.tar.gz
+ 230f0c1f047b84ffaf13f52b51a45529 4296 libcgi-application-plugin-authorization-perl_0.07+~cs0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcgi-application-plugin-authorization-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcgi-application-plugin-authorization-perl.git
+Checksums-Sha256:
+ 5e4dc939de1802e2004deac1c0ce50f21a818832ed867e83ebec7399191a3257 3550 libcgi-application-plugin-authorization-perl_0.07+~cs0.1-1.dsc
+ 8ade3754e635a3b16fd9cc965c9a8c810f977bb698af7ba77b955fe754e7a7c1 9639 libcgi-application-plugin-authorization-perl_0.07+~cs0.1.orig-driver-ad.tar.gz
+ 607864011f2000c8db20789e720cb6b129fe26cabb4008e40dffac1977bf5a87 20810 libcgi-application-plugin-authorization-perl_0.07+~cs0.1.orig.tar.gz
+ 569c364ed4cbb7387be8576c08170b9ae23868e019211b4c685cb3b07eab837e 4296 libcgi-application-plugin-authorization-perl_0.07+~cs0.1-1.debian.tar.xz
+Homepage: https://metacpan.org/release/CGI-Application-Plugin-Authorization
+Dgit: 3c0e41b91badae9c5b8819f0aaee667ae6a55136 debian archive/debian/0.07+_cs0.1-1 https://git.dgit.debian.org/libcgi-application-plugin-authorization-perl
+Package-List: 
+ libcgi-application-plugin-authorization-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcgi-application-plugin-authorization-perl
+Priority: source
+Section: perl

@@ -1,0 +1,27 @@
+Package: node-headjs
+Binary: libjs-headjs
+Version: 1.0.3+dfsg.1-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper (>= 11), nodejs (>= 6)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 899339b1ab968616cf341f33add01c9c 2095 node-headjs_1.0.3+dfsg.1-1.1.dsc
+ 52b6dceffa962bb14daf60a1ac719ab9 654192 node-headjs_1.0.3+dfsg.1.orig.tar.xz
+ ed0de1800580aac16430509a13289bde 3812 node-headjs_1.0.3+dfsg.1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-headjs
+Vcs-Git: https://salsa.debian.org/js-team/node-headjs.git
+Checksums-Sha256:
+ d6b9409107b07c8212720389edce0f78748fce19d98f44e6529ec5f626ed27dc 2095 node-headjs_1.0.3+dfsg.1-1.1.dsc
+ 242dccc12c16444f590def9f0dcce1a6700d7b6241df26560727e478a87053d0 654192 node-headjs_1.0.3+dfsg.1.orig.tar.xz
+ 106ffe154544bc7317ed88e3d084db4dcebe8e04a5bb137220d03f60a85fbdb6 3812 node-headjs_1.0.3+dfsg.1-1.1.debian.tar.xz
+Homepage: http://headjs.com
+Package-List: 
+ libjs-headjs deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: dbus-x11, libjs-jquery, phantomjs, xvfb
+Directory: pool/main/n/node-headjs
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: crashtest
+Binary: python3-crashtest
+Version: 0.3.1-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Emmanuel Arias <eamanu@yaerobi.com>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 26d2f359ccb5ad29c520e9cc056f0e31 2122 crashtest_0.3.1-2.dsc
+ 8d56604c7c1821431a8c97c884bdeb56 16223 crashtest_0.3.1.orig.tar.gz
+ 22683e23f463d503b9d19a1fa437dfb1 2812 crashtest_0.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/crashtest
+Vcs-Git: https://salsa.debian.org/python-team/packages/crashtest.git
+Checksums-Sha256:
+ bd0c94e6db3b3b0cfc1d2cb4fc1f16d0e453a09481875e6e7ed9c88bbee45778 2122 crashtest_0.3.1-2.dsc
+ 8070032b432b523ff7a6d03251f0553da1d0f7643a27cedc4cd7652e67e3b19e 16223 crashtest_0.3.1.orig.tar.gz
+ dba10c4529345c0660d50ddb5fa782db49dd5a343b10e2ee0b26637c6ccd76e3 2812 crashtest_0.3.1-2.debian.tar.xz
+Homepage: https://github.com/sdispater/crashtest
+Package-List: 
+ python3-crashtest deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/c/crashtest
+Priority: extra
+Section: misc

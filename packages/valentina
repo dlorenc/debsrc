@@ -1,0 +1,27 @@
+Package: valentina
+Binary: valentina, valentina-l10n
+Version: 0.7.47~dfsg-1
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: chrpath, debhelper-compat (= 13), libqt5opengl5-dev, libqt5svg5-dev, libqt5xmlpatterns5-dev, librsvg2-bin, poppler-utils <!nocheck>, qtbase5-dev, qttools5-dev-tools, xauth <!nocheck>, xvfb <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c11849d9f457a3f3b308bea8861c311a 2186 valentina_0.7.47~dfsg-1.dsc
+ d23fee5753843b6630d262898c074873 10408372 valentina_0.7.47~dfsg.orig.tar.xz
+ 2aa83e6dffd61ab31d7b099c3960e8cd 21764 valentina_0.7.47~dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/valentina
+Vcs-Git: https://salsa.debian.org/debian/valentina.git
+Checksums-Sha256:
+ 991e0a05e71af3a5ce17c0de636549740d4739e9316d460a589b4245d4963bd1 2186 valentina_0.7.47~dfsg-1.dsc
+ 5eaa18114ac2ac0ca98a68cf297dd18edd5243ac66fc29415afdc8400971e4b1 10408372 valentina_0.7.47~dfsg.orig.tar.xz
+ 19e4796f7676675038179969e931d9f1e31134ce69b1e8ad71c6cb687efc6586 21764 valentina_0.7.47~dfsg-1.debian.tar.xz
+Homepage: https://valentinaproject.bitbucket.io/
+Package-List: 
+ valentina deb graphics optional arch=any
+ valentina-l10n deb graphics optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/v/valentina
+Priority: extra
+Section: misc

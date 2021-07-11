@@ -1,0 +1,26 @@
+Package: vitrage-dashboard
+Binary: python3-vitrage-dashboard
+Version: 2.0.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Michal Arbet <michal.arbet@ultimum.io>, Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: openstack-dashboard (>= 3:16.0.0), python3-iso8601, python3-openstackdocstheme, python3-reno, python3-selenium, python3-testscenarios, python3-testtools, python3-vitrageclient (>= 2.5.0), python3-xstatic-d3, python3-xvfbwrapper, subunit, testrepository
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ aac7f8853d80df75ef7ea45f8fc840be 2458 vitrage-dashboard_2.0.0-2.dsc
+ e56d3b12dece7dc08a44112c77d7f5f7 204728 vitrage-dashboard_2.0.0.orig.tar.xz
+ db894dd2b28d35762c19318611b2f308 2796 vitrage-dashboard_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/vitrage-dashboard
+Vcs-Git: https://salsa.debian.org/openstack-team/services/vitrage--dashboard.git
+Checksums-Sha256:
+ d8b00545bedaff08e635100f118f8efd312c5a2426fa4f4be0ab06b0ac9aa3be 2458 vitrage-dashboard_2.0.0-2.dsc
+ fcb38fc04212fafc42239346d2955b92ec3c9b4701d59a40d1fa2c75cc5874aa 204728 vitrage-dashboard_2.0.0.orig.tar.xz
+ f49a7bcb16a04a4d7f31e0966f2b4cce3fcccec8df08af4503405139bbc0b0fe 2796 vitrage-dashboard_2.0.0-2.debian.tar.xz
+Homepage: https://github.com/openstack/vitrage-dashboard
+Package-List: 
+ python3-vitrage-dashboard deb python optional arch=all
+Directory: pool/main/v/vitrage-dashboard
+Priority: extra
+Section: misc

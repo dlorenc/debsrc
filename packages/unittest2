@@ -1,0 +1,28 @@
+Package: unittest2
+Binary: python3-unittest2
+Version: 1.1.0-7
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Zygmunt Krynicki <zygmunt.krynicki@canonical.com>,
+Build-Depends: debhelper-compat (= 9), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: python3-linecache2 <!nocheck>, python3-pkg-resources <!nocheck>, python3-six <!nocheck>, python3-traceback2 <!nocheck>
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ fa04b4d949af09796b59d47af05ee702 2239 unittest2_1.1.0-7.dsc
+ f72dae5d44f091df36b6b513305ea000 81432 unittest2_1.1.0.orig.tar.gz
+ b212e088ac9b3be22cc221db12977fa4 5592 unittest2_1.1.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/unittest2
+Vcs-Git: https://salsa.debian.org/python-team/modules/unittest2.git
+Checksums-Sha256:
+ e36fe71c9f00aa2581e92f89c6c27ded538211a8822fe1b8cf74adde4c284bde 2239 unittest2_1.1.0-7.dsc
+ 22882a0e418c284e1f718a822b3b022944d53d2d908e1690b319a9d3eb2c0579 81432 unittest2_1.1.0.orig.tar.gz
+ ddd2799292eb2fdc1e8f73902be82a3174d0d687546fd110c83b643d48805fdc 5592 unittest2_1.1.0-7.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/unittest2
+Package-List: 
+ python3-unittest2 deb python optional arch=all
+Python-Version: all
+Testsuite: autopkgtest
+Directory: pool/main/u/unittest2
+Priority: source
+Section: python

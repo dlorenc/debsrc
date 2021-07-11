@@ -1,0 +1,28 @@
+Package: haskell-safesemaphore
+Binary: libghc-safesemaphore-dev, libghc-safesemaphore-prof, libghc-safesemaphore-doc
+Version: 0.10.1-11
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f0b9cdb103d088c4a671f33c913fb8f9 2407 haskell-safesemaphore_0.10.1-11.dsc
+ a54d98345061bde7977fbb6253817628 24007 haskell-safesemaphore_0.10.1.orig.tar.gz
+ 197cd8b5ab23037986ff8122ecb4c3b4 2992 haskell-safesemaphore_0.10.1-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-safesemaphore
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-safesemaphore]
+Checksums-Sha256:
+ 63411454550ee618cd980089373b89fba04ab609a5bbf62b13332d48630587b4 2407 haskell-safesemaphore_0.10.1-11.dsc
+ 21e5b737a378cae9e1faf85cab015316d4c84d4b37e6d9d202111cef8c4cef66 24007 haskell-safesemaphore_0.10.1.orig.tar.gz
+ 40924c92bdc9b7d83c3ba8c26ae3867cd10939165bf541838cc8aaf1cb43ff7a 2992 haskell-safesemaphore_0.10.1-11.debian.tar.xz
+Homepage: https://github.com/ChrisKuklewicz/SafeSemaphore
+Package-List: 
+ libghc-safesemaphore-dev deb haskell optional arch=any
+ libghc-safesemaphore-doc deb doc optional arch=all
+ libghc-safesemaphore-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-safesemaphore
+Priority: source
+Section: misc

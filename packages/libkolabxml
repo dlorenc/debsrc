@@ -1,0 +1,27 @@
+Package: libkolabxml
+Binary: libkolabxml-dev, libkolabxml1v5, python3-kolabformat
+Version: 1.2.0-2
+Maintainer: Debian Kolab Maintainers <team+kolab-mantainers@tracker.debian.org>
+Uploaders: Paul Klos <kolab@klos2day.nl>, Diane Trout <diane@ghic.org>, Sandro Knauß <hefee@debian.org>,
+Build-Depends: cmake, debhelper-compat (= 13), dh-python, extra-cmake-modules, libboost-dev, libboost-system-dev, libboost-thread-dev, libcurl4-gnutls-dev, libxerces-c-dev, pkg-kde-tools (>= 0.12), python3-all-dev, qtbase5-dev, swig, uuid-dev, xsdcxx (>= 4.0)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 893d558a811c4ef2560f8fd531a92a99 2389 libkolabxml_1.2.0-2.dsc
+ e790115d6c85f1d56fc3065d3835fdf6 129477 libkolabxml_1.2.0.orig.tar.gz
+ fad49de70d4234ce0bf818da22813d82 55884 libkolabxml_1.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian//libkolabxml
+Vcs-Git: https://salsa.debian.org/debian//libkolabxml.git
+Checksums-Sha256:
+ 0668ac7b08fb073b3b6c30ff6c41ec1601ff22ac1367a2155dfb4495bb9824df 2389 libkolabxml_1.2.0-2.dsc
+ aa20997dc001180b8c12d7000edf4941c757fb0e8c9fcf21dcdde52cd33c5506 129477 libkolabxml_1.2.0.orig.tar.gz
+ 4ffd7dda1f5e68ba6c1f022b89357f2257eed17409c7d113c6a21ffe2d11287c 55884 libkolabxml_1.2.0-2.debian.tar.xz
+Homepage: https://git.kolab.org/diffusion/LKX/
+Package-List: 
+ libkolabxml-dev deb libdevel optional arch=any
+ libkolabxml1v5 deb libs optional arch=any
+ python3-kolabformat deb python optional arch=any
+Directory: pool/main/libk/libkolabxml
+Priority: optional
+Section: misc

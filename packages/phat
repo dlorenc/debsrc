@@ -1,0 +1,28 @@
+Package: phat
+Binary: libphat-dev, phat-utils, python3-phat
+Version: 1.6-2
+Maintainer: Gard Spreemann <gspr@nonempty.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-python, python3-all-dev, python3-pybind11, python3-setuptools
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a8d57ab1c84b080ed0b1c739f97bc82c 2075 phat_1.6-2.dsc
+ aa38a62aee5b8072b86ef041377b8717 4760688 phat_1.6.orig.tar.gz
+ 2094ac59af5ba9101a4c86ee9a756c5e 4692 phat_1.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gspr/phat.git
+Vcs-Git: https://salsa.debian.org/gspr/phat.git -b debian/sid
+Checksums-Sha256:
+ 1c54b924c23eb6b0fcc15e8fed79d11e83497af8bdc745151156dd03fc4b2950 2075 phat_1.6-2.dsc
+ 7b25d1c16ffa678f2c0cb3b71d41fa83343b306da6f275d59aba2a14b74e3134 4760688 phat_1.6.orig.tar.gz
+ d37d7195cd436f959285008a44d16374e75d8989248c484f56123a521945df35 4692 phat_1.6-2.debian.tar.xz
+Homepage: https://bitbucket.org/phat-code/phat
+Package-List: 
+ libphat-dev deb libdevel optional arch=all
+ phat-utils deb math optional arch=any
+ python3-phat deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, shunit2
+Directory: pool/main/p/phat
+Priority: extra
+Section: misc

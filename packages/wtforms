@@ -1,0 +1,26 @@
+Package: wtforms
+Binary: python3-wtforms, python-wtforms-doc
+Version: 2.2.1-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Orestis Ioannou <orestis@oioannou.com>
+Build-Depends: debhelper-compat (= 9), dh-python, python3-all, python3-setuptools, python3-sqlalchemy, python3-dateutil, python3-sphinx, python3-babel
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 1a555738946b8a7d8d194eea9daed87b 2118 wtforms_2.2.1-2.dsc
+ b43b08c4fc5c8f9fc1b980e939a71811 144428 wtforms_2.2.1.orig.tar.gz
+ cfd45abcd265883a381d3a4b2aa6a877 4244 wtforms_2.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/wtforms
+Vcs-Git: https://salsa.debian.org/python-team/modules/wtforms.git
+Checksums-Sha256:
+ 1c5fb3a7b82654412b7a5b56f57db9c7f708fb3cbc39bce385e4c9f5f363fb11 2118 wtforms_2.2.1-2.dsc
+ 50838fe7a46ae0b3d4205e37bfbb09e1984e94afa176584b1b6380969c03cf52 144428 wtforms_2.2.1.orig.tar.gz
+ 7b63e55bfee8d6313f19a202153b9e9770fcf6fac7da4531b21288001698900a 4244 wtforms_2.2.1-2.debian.tar.xz
+Homepage: http://wtforms.simplecodes.com/
+Package-List: 
+ python-wtforms-doc deb doc optional arch=all
+ python3-wtforms deb python optional arch=all
+Directory: pool/main/w/wtforms
+Priority: source
+Section: python

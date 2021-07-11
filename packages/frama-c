@@ -1,0 +1,27 @@
+Package: frama-c
+Binary: frama-c-base
+Version: 20201209+titanium-4.1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>, Ralf Treinen <treinen@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox (>= 4.08.1), dh-ocaml (>= 0.9~), graphviz, autoconf, libzarith-ocaml-dev, ocaml-findlib, libfindlib-ocaml-dev, libyojson-ocaml-dev, libwhy3-ocaml-dev (>= 1.3.1), libocamlgraph-ocaml-dev (>= 1.8.8), liblablgtk3-ocaml-dev (>= 3.0~beta4), liblablgtksourceview3-ocaml-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2130888c5bbbd23e51e966dda8de89a8 2375 frama-c_20201209+titanium-4.1.dsc
+ 1c4cb7420d2d3981532ec613f15c1d54 6314293 frama-c_20201209+titanium.orig.tar.gz
+ de0d6c093823982c2dbe2b6ed822363d 16160 frama-c_20201209+titanium-4.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/frama-c
+Vcs-Git: https://salsa.debian.org/ocaml-team/frama-c.git
+Checksums-Sha256:
+ d88bc2e3fbecb8b5495fa8ddb3eb9b8233bc99c3a7d700e7d463ffe4d22f1504 2375 frama-c_20201209+titanium-4.1.dsc
+ 1c01d6d59fe2e0a1b837b0efb9277e908d98352aefea20e0c3b8c202946881a2 6314293 frama-c_20201209+titanium.orig.tar.gz
+ c5c26956905f2c7f1d30158cabc7961e0ed3e19fe8789221f45612df63e7725c 16160 frama-c_20201209+titanium-4.1.debian.tar.xz
+Homepage: https://frama-c.com
+Package-List: 
+ frama-c-base deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: alt-ergo, libwhy3-ocaml-dev, why3
+Directory: pool/main/f/frama-c
+Priority: source
+Section: devel

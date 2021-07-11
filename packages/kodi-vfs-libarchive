@@ -1,0 +1,26 @@
+Package: kodi-vfs-libarchive
+Binary: kodi-vfs-libarchive
+Version: 2.0.1+ds1-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Vasyl Gello <vasek.gello@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d69a11df7b78af5fbf89031463888ca9 2175 kodi-vfs-libarchive_2.0.1+ds1-1.dsc
+ 1631cdaa671646d983fe4821a92b7574 38024 kodi-vfs-libarchive_2.0.1+ds1.orig.tar.xz
+ 2d50d7bd3a2f9be4c13fad484b435c6d 3336 kodi-vfs-libarchive_2.0.1+ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-vfs-libarchive
+Vcs-Git: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-vfs-libarchive.git
+Checksums-Sha256:
+ ca7988d0b515c290043472fb7b9a897df3afe4f724ffdeb6a0abf1a7bb8315f4 2175 kodi-vfs-libarchive_2.0.1+ds1-1.dsc
+ 8c981da8aabfaa6566a8dfd0f31d7a68996c318d506296e3e357f2f70026d200 38024 kodi-vfs-libarchive_2.0.1+ds1.orig.tar.xz
+ fe0489b2f792b2619c298c8327cec620af0cb8d97b83491673ed5dec5e37df8a 3336 kodi-vfs-libarchive_2.0.1+ds1-1.debian.tar.xz
+Homepage: https://kodi.tv
+Build-Depends-Arch: dh-sequence-kodiaddon, cmake, kodi-addons-dev (>= 2:19~), libarchive-dev
+Package-List: 
+ kodi-vfs-libarchive deb libs optional arch=any
+Directory: pool/main/k/kodi-vfs-libarchive
+Priority: extra
+Section: misc

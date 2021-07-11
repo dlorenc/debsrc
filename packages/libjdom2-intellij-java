@@ -1,0 +1,27 @@
+Package: libjdom2-intellij-java
+Binary: libjdom2-intellij-java, libjdom2-intellij-java-doc
+Version: 2.0.6+git20180529-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>, Emmanuel Bourg <ebourg@apache.org>, Saif Abdul Cassim <saif.15@cse.mrt.ac.lk>
+Build-Depends: debhelper (>= 12), gradle-debian-helper, default-jdk
+Build-Depends-Indep: default-jdk-doc, junit4, libisorelax-java, libjaxen-java, libjs-jquery, libjs-jquery-ui, libxalan2-java, libxerces2-java, maven-repo-helper (>= 1.5)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ cea15774e42d0a2db603fc259802772b 2553 libjdom2-intellij-java_2.0.6+git20180529-2.dsc
+ 50320de14d21f795b812b91f321a7fd4 460708 libjdom2-intellij-java_2.0.6+git20180529.orig.tar.xz
+ 0c8c4959a46976bdcbdfe00ecfaf751c 8432 libjdom2-intellij-java_2.0.6+git20180529-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libjdom2-intellij-java
+Vcs-Git: https://salsa.debian.org/java-team/libjdom2-intellij-java.git
+Checksums-Sha256:
+ d2239098bcd602fa8aabd22590123e2ddc16b39e5a37b7f565c5065b40e60e4c 2553 libjdom2-intellij-java_2.0.6+git20180529-2.dsc
+ 69c049f95b5cde45d8ecf7f8bbb1b5484689e72f99224f4f7a8789daecc0c15a 460708 libjdom2-intellij-java_2.0.6+git20180529.orig.tar.xz
+ 3b92d84a42f8888b1dff3e9726317e3558b20ff92aad3143bd7c2a9637835698 8432 libjdom2-intellij-java_2.0.6+git20180529-2.debian.tar.xz
+Homepage: https://github.com/JetBrains/intellij-deps-jdom
+Package-List: 
+ libjdom2-intellij-java deb java optional arch=all
+ libjdom2-intellij-java-doc deb doc optional arch=all
+Directory: pool/main/libj/libjdom2-intellij-java
+Priority: extra
+Section: misc

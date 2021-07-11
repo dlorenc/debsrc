@@ -1,0 +1,28 @@
+Package: golang-github-integrii-flaggy
+Binary: golang-github-integrii-flaggy-dev
+Version: 1.4.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dawid Dziurla <dawidd0811@gmail.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 96be4e92fdfb3f3bad133606eb7e8eee 2268 golang-github-integrii-flaggy_1.4.0-1.dsc
+ 06a0b9b0173dc33c42f39bd976394f87 45783 golang-github-integrii-flaggy_1.4.0.orig.tar.gz
+ 9a18c80fdde4be40d33a2e021e42e067 2428 golang-github-integrii-flaggy_1.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-integrii-flaggy
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-integrii-flaggy.git
+Checksums-Sha256:
+ eabc8191430d6ec05e893e0205a0254dfa94a36e900a5e4212384928e0dad582 2268 golang-github-integrii-flaggy_1.4.0-1.dsc
+ 53ce973fc060843cfeff4d768c01193e1d73b5839fe107606bf5809eb64c27b4 45783 golang-github-integrii-flaggy_1.4.0.orig.tar.gz
+ de4f4e8aec0efd5cf8d94dc7d80dc5f4a1a27fea986f9d0f835cf9eb69700b93 2428 golang-github-integrii-flaggy_1.4.0-1.debian.tar.xz
+Homepage: https://github.com/integrii/flaggy
+Go-Import-Path: github.com/integrii/flaggy
+Package-List: 
+ golang-github-integrii-flaggy-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-integrii-flaggy
+Priority: extra
+Section: golang

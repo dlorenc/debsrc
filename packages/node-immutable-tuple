@@ -1,0 +1,26 @@
+Package: node-immutable-tuple
+Binary: node-immutable-tuple
+Version: 0.4.10-8
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Deva sena priya <devasenapriya3@gmail.com>, Jeya Sree <jeyasreepriya@gmail.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-yallist <!nocheck>, node-semver <!nocheck>, nodejs (>= 6), rollup (>= 1~), node-rollup-plugin-buble (>= 0.19.8~), uglifyjs, pkg-js-tools (>= 0.8.11)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 30674bb1fa3aa95841212e7ba456a50a 2327 node-immutable-tuple_0.4.10-8.dsc
+ 12732ec822c312ef23e0eddebb7e863a 295471 node-immutable-tuple_0.4.10.orig.tar.gz
+ 99f004971d17379bf174e9c912da7a51 41656 node-immutable-tuple_0.4.10-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-immutable-tuple
+Vcs-Git: https://salsa.debian.org/js-team/node-immutable-tuple.git
+Checksums-Sha256:
+ 9f3a214111ace7b0c1efb416a6e7f20c3eee279d2b369b3bbfda0138f5eff22c 2327 node-immutable-tuple_0.4.10-8.dsc
+ 48ded20040595d8d212fd36d925731041af9e970997763063db83ec12b53d094 295471 node-immutable-tuple_0.4.10.orig.tar.gz
+ 9028ea683e4d7cd4a86f348a76e62f43b8c78add564b608b56a31730e04f6e0c 41656 node-immutable-tuple_0.4.10-8.debian.tar.xz
+Homepage: https://github.com/benjamn/immutable-tuple#readme
+Package-List: 
+ node-immutable-tuple deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-immutable-tuple
+Priority: extra
+Section: misc

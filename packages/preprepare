@@ -1,0 +1,26 @@
+Package: preprepare
+Binary: postgresql-13-preprepare
+Version: 0.9-5
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Dimitri Fontaine <dim@tapoueh.org>, Christoph Berg <myon@debian.org>
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 244be13c2ce6104e93e3ede818dd28d6 2000 preprepare_0.9-5.dsc
+ ee36e1e93193bf05777bfa51783054aa 15731 preprepare_0.9.orig.tar.gz
+ 4f7d529f0ffa35c0918e150df3794b7f 2944 preprepare_0.9-5.debian.tar.xz
+Vcs-Browser: https://github.com/dimitri/preprepare
+Vcs-Git: https://github.com/dimitri/preprepare.git -b debian
+Checksums-Sha256:
+ f57db984064798eca1e8e2e7e7b8cbb8e0ae2cf65b3bc7f21b9aa360baeb3dcd 2000 preprepare_0.9-5.dsc
+ 77c03cc0159bfba37e70620185cd383c83c956558a663996df4bee3a439b365e 15731 preprepare_0.9.orig.tar.gz
+ 5cd8bccf71fdc048cdc9171e678556eccd8e39e4d0ac58f7bce8114b1d976a67 2944 preprepare_0.9-5.debian.tar.xz
+Package-List: 
+ postgresql-13-preprepare deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/p/preprepare
+Priority: source
+Section: database

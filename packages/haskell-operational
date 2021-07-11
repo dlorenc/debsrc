@@ -1,0 +1,28 @@
+Package: haskell-operational
+Binary: libghc-operational-dev, libghc-operational-prof, libghc-operational-doc
+Version: 0.2.3.5-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-random-dev (>= 1), libghc-random-dev (<< 2)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3f5769761b79ab9b730746b0ebe5f1bb 2418 haskell-operational_0.2.3.5-5.dsc
+ afcb838b726080e22af897a4f0578464 17856 haskell-operational_0.2.3.5.orig.tar.gz
+ 5a7ab4e6ecf9cacef3027f4020090d07 3300 haskell-operational_0.2.3.5-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-operational
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-operational]
+Checksums-Sha256:
+ 67b38dd34e4c525e1ae7c55fc181d209d8d42783ab6a154995c557a99e270d0c 2418 haskell-operational_0.2.3.5-5.dsc
+ 91d479063ae7ed3d0a6ae911bdee550fbf31cf341910f9778046b484c55b4af4 17856 haskell-operational_0.2.3.5.orig.tar.gz
+ 945e6efcdadf03efac456bc0990492cbe3905383255d11c368380c8ab6942b5b 3300 haskell-operational_0.2.3.5-5.debian.tar.xz
+Homepage: http://wiki.haskell.org/Operational
+Package-List: 
+ libghc-operational-dev deb haskell optional arch=any
+ libghc-operational-doc deb doc optional arch=all
+ libghc-operational-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-operational
+Priority: optional
+Section: misc

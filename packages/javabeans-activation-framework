@@ -1,0 +1,25 @@
+Package: javabeans-activation-framework
+Binary: libactivation-java
+Version: 1.2.0-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11), default-jdk, junit4, libbuild-helper-maven-plugin-java, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, maven-debian-helper (>= 2.2)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 299f2f6c0cefdfc0ff386238c84b807a 2297 javabeans-activation-framework_1.2.0-2.dsc
+ 8b39fb68d86773497d20d645c22a77b2 635592 javabeans-activation-framework_1.2.0.orig.tar.xz
+ 60a646e14bc1657332ba4178a71fe798 9216 javabeans-activation-framework_1.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/javabeans-activation-framework
+Vcs-Git: https://salsa.debian.org/java-team/javabeans-activation-framework.git
+Checksums-Sha256:
+ 8623a905044cb70d0054365702188d1d240c8ff2146b9bd788cb30e97da1ca93 2297 javabeans-activation-framework_1.2.0-2.dsc
+ 1023c8715fbf03e156bc978af191f3d29da09c0a470c4b7ad416061a4de34917 635592 javabeans-activation-framework_1.2.0.orig.tar.xz
+ 23091cb26022198a9d96bbf6e73c72cdf13f2df14df112fa8aff09ab85965df9 9216 javabeans-activation-framework_1.2.0-2.debian.tar.xz
+Homepage: https://github.com/javaee/activation
+Package-List: 
+ libactivation-java deb java optional arch=all
+Directory: pool/main/j/javabeans-activation-framework
+Priority: extra
+Section: misc

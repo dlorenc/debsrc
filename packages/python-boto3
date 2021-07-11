@@ -1,0 +1,25 @@
+Package: python-boto3
+Binary: python3-boto3
+Version: 1.13.14-1
+Maintainer: Debian Cloud Team <debian-cloud@lists.debian.org>
+Uploaders: Alexander GQ Gerasiov <gq@debian.org>, Noah Meyerhans <noahm@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-s3transfer (>= 0.1.10), python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cf3e99a6df47572915d2434d8d0f1c2c 2087 python-boto3_1.13.14-1.dsc
+ 7c61011a7ae3c3aea489b701cae69d95 292993 python-boto3_1.13.14.orig.tar.gz
+ ed3d1395272e87f38c028288025ca304 2924 python-boto3_1.13.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cloud-team/python-boto3
+Vcs-Git: https://salsa.debian.org/cloud-team/python-boto3.git
+Checksums-Sha256:
+ ee8da5e98f4eeeb580296176a7a10638ccdb06c1031b95cf3c350fa7420feee9 2087 python-boto3_1.13.14-1.dsc
+ af2abd30c570165907b1b622e4f41c922bbd4a9c129df224988bd49354e59d94 292993 python-boto3_1.13.14.orig.tar.gz
+ 409273f132cae9ccf2e6a224978ea82a65d50c4c05a9fd9d2bc61e18e47b6fd9 2924 python-boto3_1.13.14-1.debian.tar.xz
+Homepage: https://github.com/boto/boto3
+Package-List: 
+ python3-boto3 deb python optional arch=all
+Directory: pool/main/p/python-boto3
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-is-descriptor
+Binary: node-is-descriptor
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1eab9cf14b5d3ea423600658f3e7044c 2106 node-is-descriptor_3.0.0-1.dsc
+ 1d94e4650eca6445a124c98d908677b6 5887 node-is-descriptor_3.0.0.orig.tar.gz
+ 1168e514218a605775f676955e06535a 2552 node-is-descriptor_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-descriptor
+Vcs-Git: https://salsa.debian.org/js-team/node-is-descriptor.git
+Checksums-Sha256:
+ e7164a8ae912a7574f013e8a624ba9d763f44d72a53c314ec499d86400bf8067 2106 node-is-descriptor_3.0.0-1.dsc
+ a79fe573af582c2f7af833cb70ef55b58b2f6c588283d0ea8d1a5e8769acb19d 5887 node-is-descriptor_3.0.0.orig.tar.gz
+ a33a4e4fa6adf59a3fc42702d9967b94c05086e7737f9d13d8808b94909090ec 2552 node-is-descriptor_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/is-descriptor
+Package-List: 
+ node-is-descriptor deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-is-descriptor
+Priority: optional
+Section: javascript

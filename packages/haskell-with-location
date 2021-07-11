@@ -1,0 +1,28 @@
+Package: haskell-with-location
+Binary: libghc-with-location-dev, libghc-with-location-prof, libghc-with-location-doc
+Version: 0.1.0-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hspec-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 457c3cfc8e45b2f70bd6e3bfe32abe72 2407 haskell-with-location_0.1.0-6.dsc
+ 3602fd75fd2f37ff4b5a55938e9d9c9c 2029 haskell-with-location_0.1.0.orig.tar.gz
+ cbc4edf234fc50e717aa0b031a3bf310 2352 haskell-with-location_0.1.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-with-location
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-with-location]
+Checksums-Sha256:
+ bac6653fb6a88d9583bd23a60e5f38b805e63f739fb5cea2419b50cb4b046f96 2407 haskell-with-location_0.1.0-6.dsc
+ 2c91d70cb28d39d6d5fbb37800c7d984aed4254cdcbf03ffa0787404bddefde7 2029 haskell-with-location_0.1.0.orig.tar.gz
+ ee11c35239bc174f3cec60455592628742271a4e92b440cfdd9dcb51890b3133 2352 haskell-with-location_0.1.0-6.debian.tar.xz
+Homepage: https://github.com/sol/with-location#readme
+Package-List: 
+ libghc-with-location-dev deb haskell optional arch=any
+ libghc-with-location-doc deb doc optional arch=all
+ libghc-with-location-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-with-location
+Priority: optional
+Section: misc

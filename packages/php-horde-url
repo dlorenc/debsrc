@@ -1,0 +1,27 @@
+Package: php-horde-url
+Binary: php-horde-url
+Version: 2.2.6-7
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2eb2764beb3610aff3910909819817c6 2110 php-horde-url_2.2.6-7.dsc
+ 80b2a6fcaf810b38e607b95ec1d949bb 16479 php-horde-url_2.2.6.orig.tar.gz
+ b38e531d4048d4a816f8db66a7cab084 4036 php-horde-url_2.2.6-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-url
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-url.git
+Checksums-Sha256:
+ 383141402675e9de28c4ea2cf6c10a780a4dba49bdcbd0adaafaa62d629267d9 2110 php-horde-url_2.2.6-7.dsc
+ cca3773b3f70e71bc6120e499e20b9e91ce0f582366053f32f79d02e021fe617 16479 php-horde-url_2.2.6.orig.tar.gz
+ 46909bf8c2c90be0c301d52b73ad0a5b7eecb3033dbf868043282834147768b5 4036 php-horde-url_2.2.6-7.debian.tar.xz
+Homepage: https://www.horde.org/
+Package-List: 
+ php-horde-url deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-url
+Priority: extra
+Section: misc

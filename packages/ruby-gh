@@ -1,0 +1,27 @@
+Package: ruby-gh
+Binary: ruby-gh
+Version: 0.18.0-3
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Daniel Leidert <dleidert@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-activesupport, ruby-addressable, ruby-faraday (>= 1.1.0), ruby-faraday-middleware (>= 1.0.0), ruby-multi-json, ruby-net-http-persistent, ruby-net-http-pipeline, ruby-rspec, ruby-webmock
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cc0e9bfcea8f2c4a2d9d2c4bc92657a7 2235 ruby-gh_0.18.0-3.dsc
+ c5c09d8013dc1aa13bce3fd0b004165e 129730 ruby-gh_0.18.0.orig.tar.gz
+ e20c8de114590bac66dcaba4bcc66d89 3292 ruby-gh_0.18.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-gh
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-gh.git
+Checksums-Sha256:
+ a5a9fbd7476d3845238804778242490eb79bf51e9abc1c1613b6adc3e0211716 2235 ruby-gh_0.18.0-3.dsc
+ 09a0dccbf58dd03acad7b6076cde95a99ccd63d971d0ff5a8e5fb137627d3188 129730 ruby-gh_0.18.0.orig.tar.gz
+ ba8c267be6e94273b6ade8ef094b2a222cf2dd3111bf3a6cb55bdfaffaab580f 3292 ruby-gh_0.18.0-3.debian.tar.xz
+Homepage: https://github.com/travis-ci/gh
+Package-List: 
+ ruby-gh deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-gh
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: ticcutils
+Binary: libticcutils-dev, libticcutils8
+Version: 0.24-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Joost van Baal-Ilić <joostvb@debian.org>, Ko van der Sloot <ko.vandersloot@uvt.nl>, Maarten van Gompel <proycon@anaproy.nl>
+Build-Depends: autoconf-archive, debhelper-compat (= 12), libbz2-dev, libicu-dev, libtar-dev, libxml2-dev, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 392a830a6d676b65fa2eaa3c5c828a2f 1850 ticcutils_0.24-2.dsc
+ 8539ac4ed3b241fb8ff2979d034777c8 650468 ticcutils_0.24.orig.tar.gz
+ 3f419677e5d8495fbddd507a9bf0a158 4844 ticcutils_0.24-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libticcutils
+Vcs-Git: https://salsa.debian.org/science-team/libticcutils.git
+Checksums-Sha256:
+ 3665b4885fc7e4dd8da6518634d5194ff9ddfdd93d684871988360c98fb4030d 1850 ticcutils_0.24-2.dsc
+ ed3f26fd7973294f8c908efb362e82fe17fcaa07f8c19202322bb45f39a327af 650468 ticcutils_0.24.orig.tar.gz
+ 0e93e3b9dad2fd4e2740ac3a8b5dc9224ca89d20d76afa99ff396067e75defa7 4844 ticcutils_0.24-2.debian.tar.xz
+Homepage: https://github.com/LanguageMachines/ticcutils
+Package-List: 
+ libticcutils-dev deb libdevel optional arch=any
+ libticcutils8 deb libs optional arch=any
+Directory: pool/main/t/ticcutils
+Priority: source
+Section: misc

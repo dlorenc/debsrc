@@ -1,0 +1,26 @@
+Package: node-browserify-cipher
+Binary: node-browserify-cipher
+Version: 1.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-browserify-aes, node-browserify-des, node-evp-bytestokey, node-tape, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7f3b22cf0755135586aa25f755794a8d 2222 node-browserify-cipher_1.0.1-1.dsc
+ f94c971a264425ba2a445daa99afedc7 2539 node-browserify-cipher_1.0.1.orig.tar.gz
+ e74c93574a1240037ef7634545b989e6 2516 node-browserify-cipher_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-browserify-cipher
+Vcs-Git: https://salsa.debian.org/js-team/node-browserify-cipher.git
+Checksums-Sha256:
+ 43f4c5084a0644f5e0f1b35b6113904b7e53263dbe44e11a36e5e04b5a3d7c53 2222 node-browserify-cipher_1.0.1-1.dsc
+ 738d7a7aea2b43da851a815cb73d7819604fe70a155d3804ce2499b39d1f2b7d 2539 node-browserify-cipher_1.0.1.orig.tar.gz
+ 3fae0408b40a141aa69db811b905b2c5ea6b463d900bc7e64690f2f7e345fd11 2516 node-browserify-cipher_1.0.1-1.debian.tar.xz
+Homepage: https://github.com/crypto-browserify/browserify-cipher
+Package-List: 
+ node-browserify-cipher deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-browserify-cipher
+Priority: extra
+Section: javascript

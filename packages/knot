@@ -1,0 +1,40 @@
+Package: knot
+Binary: knot, libknot11, libzscanner3, libdnssec8, libknot-dev, knot-dnsutils, knot-host, knot-module-dnstap, knot-module-geoip, knot-doc, python3-libknot
+Version: 3.0.5-1
+Maintainer: knot packagers <knot@packages.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Daniel Salzman <daniel.salzman@nic.cz>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Robert Edmonds <edmonds@debian.org>, Jakub Ružička <jakub.ruzicka@nic.cz>,
+Build-Depends: debhelper-compat (= 13), dh-python, libbpf-dev [!armel !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libcap-ng-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libedit-dev, libelf-dev [!armel !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libfstrm-dev, libgnutls28-dev, libidn2-dev, liblmdb-dev, libmaxminddb-dev, libnghttp2-dev, libprotobuf-c-dev, libsofthsm2 <!nocheck>, libsystemd-dev [linux-any] | libsystemd-daemon-dev [linux-any], libsystemd-dev [linux-any] | libsystemd-journal-dev [linux-any], liburcu-dev (>= 0.4), linux-libc-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], pkg-config, protobuf-c-compiler, python3-all, python3-yaml (>= 5.1) <!nocheck>
+Build-Depends-Indep: python3-setuptools, python3-sphinx, texinfo
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ac283dfee86702a21e6b58550b0e60be 2987 knot_3.0.5-1.dsc
+ 687d00586202bc0bbf0c76fa90921652 1318292 knot_3.0.5.orig.tar.xz
+ 9629d2180277ae537a1632abeb93b504 833 knot_3.0.5.orig.tar.xz.asc
+ 52f9999801992e437d160fab7bf6c96c 32756 knot_3.0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/dns-team/knot-dns
+Vcs-Git: https://salsa.debian.org/dns-team/knot-dns.git
+Checksums-Sha256:
+ e03d02f4db987d67aa0c8f734755373ad76027f558cf6068aa8879cef3a24c90 2987 knot_3.0.5-1.dsc
+ 695e7d7a0abefc5a8fd01f3b3080f030f33b0948215f84cd4892c6d904390802 1318292 knot_3.0.5.orig.tar.xz
+ 719be40c1be0cbae84ff0ff0f039f53c3d7500b1f0e69b8a199d84ba71461d42 833 knot_3.0.5.orig.tar.xz.asc
+ 99ff6003ab6481499b2108e7f248796625e0e4e539f0411e661b7ffe327953a6 32756 knot_3.0.5-1.debian.tar.xz
+Homepage: https://www.knot-dns.cz/
+Package-List: 
+ knot deb net optional arch=any
+ knot-dnsutils deb net optional arch=any
+ knot-doc deb doc optional arch=all
+ knot-host deb net optional arch=any
+ knot-module-dnstap deb net optional arch=any
+ knot-module-geoip deb net optional arch=any
+ libdnssec8 deb libs optional arch=any
+ libknot-dev deb libdevel optional arch=any
+ libknot11 deb libs optional arch=any
+ libzscanner3 deb libs optional arch=any
+ python3-libknot deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ca-certificates, findutils, python3-lmdb, python3-yaml
+Directory: pool/main/k/knot
+Priority: source
+Section: net

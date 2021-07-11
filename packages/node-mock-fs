@@ -1,0 +1,26 @@
+Package: node-mock-fs
+Binary: node-mock-fs
+Version: 4.13.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-chai <!nocheck>, node-semver <!nocheck>, pandoc <!nodoc>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3f14712e52a568da131e32284688e2f6 2068 node-mock-fs_4.13.0-1.dsc
+ 10a542a8d37faed82a48afac7650e9ef 75707 node-mock-fs_4.13.0.orig.tar.gz
+ b0e96808329756e4e31f504927515d58 4004 node-mock-fs_4.13.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-mock-fs
+Vcs-Git: https://salsa.debian.org/js-team/node-mock-fs.git
+Checksums-Sha256:
+ 62db148054cc94f71246965cd132bfd0cf587f7594277d8da2db6922432b187f 2068 node-mock-fs_4.13.0-1.dsc
+ 0287909740c88d8b025854e3a6e5c1801912384ae22d532b41b80aa25c07fd30 75707 node-mock-fs_4.13.0.orig.tar.gz
+ 7b97f0a078ba2d74190d10d00c0a564804925fd5518fb48755fdbb88ccc7c2a1 4004 node-mock-fs_4.13.0-1.debian.tar.xz
+Homepage: https://github.com/tschaub/mock-fs
+Package-List: 
+ node-mock-fs deb javascript optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/node-mock-fs
+Priority: extra
+Section: misc

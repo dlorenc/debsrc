@@ -1,0 +1,29 @@
+Package: libdvdnav
+Binary: libdvdnav4, libdvdnav-dev, libdvdnav-doc
+Version: 6.1.0-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Reinhard Tartler <siretart@tauware.de>, Benjamin Drung <bdrung@debian.org>, Balint Reczey <balint@balintreczey.hu>
+Build-Depends: debhelper-compat (= 12), doxygen, libdvdread-dev (>= 6.0)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 69d4eb984e2963ed7eadd7858e880136 2438 libdvdnav_6.1.0-1.dsc
+ 8817ac12c13644df6ba2091c2dcaeed3 370145 libdvdnav_6.1.0.orig.tar.bz2
+ c1cef71e342b5dd1aa1747d482c11904 195 libdvdnav_6.1.0.orig.tar.bz2.asc
+ 5da585772b25f43c75801a2369c49d25 8912 libdvdnav_6.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libdvdnav
+Vcs-Git: https://salsa.debian.org/multimedia-team/libdvdnav.git
+Checksums-Sha256:
+ d0984eaaf66a6415f2b88cd6c94f710c2de999dd83345ab5b78b076a736dc6df 2438 libdvdnav_6.1.0-1.dsc
+ f697b15ea9f75e9f36bdf6ec3726308169f154e2b1e99865d0bbe823720cee5b 370145 libdvdnav_6.1.0.orig.tar.bz2
+ 74969c357512f6729c85a465fd16ec248cb7d77e95634bb8e581b1b361d967cb 195 libdvdnav_6.1.0.orig.tar.bz2.asc
+ 908043ff6493aea31c5352808aef4168ebe942187306cc8ce023e7fb322f206e 8912 libdvdnav_6.1.0-1.debian.tar.xz
+Homepage: https://www.videolan.org/developers/libdvdnav.html
+Package-List: 
+ libdvdnav-dev deb libdevel optional arch=any
+ libdvdnav-doc deb doc optional arch=all
+ libdvdnav4 deb libs optional arch=any
+Directory: pool/main/libd/libdvdnav
+Priority: source
+Section: libs

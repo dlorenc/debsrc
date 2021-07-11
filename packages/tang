@@ -1,0 +1,26 @@
+Package: tang
+Binary: tang
+Version: 8-3
+Maintainer: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Build-Depends: debhelper-compat (= 13), asciidoctor, curl, jose, libhttp-parser-dev (>= 2.8.0), libjansson-dev (>= 2.10), libjose-dev (>= 8), meson, pkg-config, systemd
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4ff6b087af37af88e2ceeb3ee2d3c4ec 2056 tang_8-3.dsc
+ 0d9986c6fd1886db35c0ee5f8b5a73f7 29424 tang_8.orig.tar.xz
+ 19449b4b5fa2617c67f51ca0981d0406 8048 tang_8-3.debian.tar.xz
+Vcs-Browser: https://git.in-ulm.de/cbiedl/tang
+Vcs-Git: https://git.in-ulm.de/cbiedl/tang.git
+Checksums-Sha256:
+ a738975bfb3782f0986c8a5052a22481ffdb38a8a4a904be3cc865833feaeac3 2056 tang_8-3.dsc
+ 03958bf27c24aa9892f6138d287d39bcc149e7ad72163c27b529aa3c6b066ede 29424 tang_8.orig.tar.xz
+ 5263439476dfa908aa38696250116f021de0eedf8f3848bd56c97a7b42895253 8048 tang_8-3.debian.tar.xz
+Homepage: https://github.com/latchset/tang
+Package-List: 
+ tang deb net optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, cmake, curl, jose, libhttp-parser-dev, libjansson-dev, libjose-dev, meson, pkg-config, socat, systemd
+Directory: pool/main/t/tang
+Priority: extra
+Section: misc

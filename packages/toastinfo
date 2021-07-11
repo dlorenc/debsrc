@@ -1,0 +1,27 @@
+Package: toastinfo
+Binary: postgresql-13-toastinfo
+Version: 1.2-2
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 184748a97e1dc8cef3705609a16bb529 1990 toastinfo_1.2-2.dsc
+ 2edb46dcc7b77f518082468da59b2c66 7100 toastinfo_1.2.orig.tar.gz
+ 8b96532ab4f2848bc530ece552a172aa 2424 toastinfo_1.2-2.debian.tar.xz
+Vcs-Browser: https://github.com/credativ/toastinfo
+Vcs-Git: https://github.com/credativ/toastinfo.git
+Checksums-Sha256:
+ 05cbe377153b0d9670a1b2f7709cd7ecaad7871f2e352a392acbee2c71aefb78 1990 toastinfo_1.2-2.dsc
+ 26e2ca49f3bd97bc8c49c9fb58a714f893f7e4fe914b4476a99bc0285122922c 7100 toastinfo_1.2.orig.tar.gz
+ a94f6b43793f96bae47080f6adee2f2406c65e6105b383f8b9e3ebf35ce8401a 2424 toastinfo_1.2-2.debian.tar.xz
+Homepage: https://github.com/credativ/toastinfo
+Package-List: 
+ postgresql-13-toastinfo deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/t/toastinfo
+Priority: extra
+Section: misc

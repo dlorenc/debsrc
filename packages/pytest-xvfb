@@ -1,0 +1,27 @@
+Package: pytest-xvfb
+Binary: python3-pytest-xvfb
+Version: 1.2.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pytest (>= 3.6.0), python3-pyvirtualdisplay, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e0c7999e202bf9fa4e5db7788200f89c 2161 pytest-xvfb_1.2.0-1.dsc
+ a5e43fe3926c55b03fc12f4f149f059d 7642 pytest-xvfb_1.2.0.orig.tar.gz
+ e9d589384d1e3050b858ff5d1b70cca1 2468 pytest-xvfb_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pytest-xvfb
+Vcs-Git: https://salsa.debian.org/python-team/modules/pytest-xvfb.git
+Checksums-Sha256:
+ f0e709db3a07d3623a57c1d3956b4827f22abd01b36b4f5601948bd9dbe78487 2161 pytest-xvfb_1.2.0-1.dsc
+ a7544ca8d0c7c40db4b40d7a417a7b071c68d6ef6bdf9700872d7a167302f979 7642 pytest-xvfb_1.2.0.orig.tar.gz
+ e48843f9c03a6c7fdf54f406c9d71cf5de3ee6d894f2e1b52811d93a45b94552 2468 pytest-xvfb_1.2.0-1.debian.tar.xz
+Homepage: https://github.com/The-Compiler/pytest-xvfb
+Package-List: 
+ python3-pytest-xvfb deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-tk
+Directory: pool/main/p/pytest-xvfb
+Priority: optional
+Section: misc

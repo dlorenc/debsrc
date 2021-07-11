@@ -1,0 +1,26 @@
+Package: rust-block
+Binary: librust-block-dev
+Version: 0.1.6-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Alexander Kjäll <alexander.kjall@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b455933d064bb581184c8926294f8ab0 2129 rust-block_0.1.6-2.dsc
+ 88b703214ed6175a424cc95236e92e84 4420 rust-block_0.1.6.orig.tar.gz
+ e07db223dd3967e3b4534e11b81a3be5 2472 rust-block_0.1.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/block
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/block]
+Checksums-Sha256:
+ 32e10e6b425c2d2b583034a774ac0e758a01c859723224807a78f52fe4ff6807 2129 rust-block_0.1.6-2.dsc
+ 80fbcff29b02c5048bad5f56c5bc2c377ab1569b3038ace54939e830aef063df 4420 rust-block_0.1.6.orig.tar.gz
+ 6fd36d7b1c6a326fc46d40b0c5c56536bacd46742c5fb21598d92a118fa846fc 2472 rust-block_0.1.6-2.debian.tar.xz
+Package-List: 
+ librust-block-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-objc-test-utils-0.0+default-dev
+Directory: pool/main/r/rust-block
+Priority: extra
+Section: misc

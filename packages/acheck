@@ -1,0 +1,23 @@
+Package: acheck
+Binary: acheck
+Version: 0.5.9
+Maintainer: Paulo Henrique de Lima Santana (phls) <phls@debian.org>
+Build-Depends: debhelper-compat (= 13), gettext, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ e5a15d180fdfd3f3e23914ad1a901d63 1591 acheck_0.5.9.dsc
+ 36959e5228f16f4bdb2bf34bce59c7ce 33264 acheck_0.5.9.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/acheck
+Vcs-Git: https://salsa.debian.org/debian/acheck.git
+Checksums-Sha256:
+ be2fbfb250fdb75febeef13f523382bb0971ef53d1dc7629a405b12911db65d5 1591 acheck_0.5.9.dsc
+ a10d27f71a3f22d1469a93a98064f284bea869e8b27f39b049f7d16dadf90b25 33264 acheck_0.5.9.tar.xz
+Package-List: 
+ acheck deb text optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libtext-aspell-perl
+Directory: pool/main/a/acheck
+Priority: source
+Section: text

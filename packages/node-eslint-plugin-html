@@ -1,0 +1,27 @@
+Package: node-eslint-plugin-html
+Binary: node-eslint-plugin-html
+Version: 6.1.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, Pirate Praveen <praveen@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, eslint <!nocheck>, jest <!nocheck>, node-htmlparser2 (>= 3.10.0) <!nocheck>, node-semver (>= 5.6.0) <!nocheck>, pandoc <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f17407d3ccc07d1c5c2299145e64b331 2376 node-eslint-plugin-html_6.1.1-1.dsc
+ 585469e4a33530ec5297966ef23978ba 139285 node-eslint-plugin-html_6.1.1.orig.tar.gz
+ 6e34c1674729f3344e7a3fade0823cce 5964 node-eslint-plugin-html_6.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-eslint-plugin-html
+Vcs-Git: https://salsa.debian.org/js-team/node-eslint-plugin-html.git
+Checksums-Sha256:
+ 0dc2514e5617068409c27f492fe83a6873d10eaf32632e7ea39cfee824c36276 2376 node-eslint-plugin-html_6.1.1-1.dsc
+ 73b9510a7eb1f43d9e8f9b2e43d32b0ecc2b0c03e91722452696ca578ccc7677 139285 node-eslint-plugin-html_6.1.1.orig.tar.gz
+ 074a0c0aef90e42bf542cde63b2fcb3b5fdd4f80bc6f4a2e4cbe3ff03e3df3c4 5964 node-eslint-plugin-html_6.1.1-1.debian.tar.xz
+Homepage: https://github.com/BenoitZugmeyer/eslint-plugin-html
+Package-List: 
+ node-eslint-plugin-html deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: eslint, node-eslint, nodejs, pkg-js-autopkgtest
+Directory: pool/main/n/node-eslint-plugin-html
+Priority: extra
+Section: javascript

@@ -1,0 +1,27 @@
+Package: python-testfixtures
+Binary: python-testfixtures-doc, python3-testfixtures
+Version: 6.14.1-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-django, python3-doc, python3-mock, python3-nose, python3-pkginfo, python3-pytest, python3-pytest-django (>= 3.3.0), python3-setuptools, python3-sphinx, python3-sybil, python3-twisted, python3-zope.component
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dedff0ddea4a089972e17cb39aa55da7 2427 python-testfixtures_6.14.1-1.dsc
+ 3121b671f7795bd00dde7b7468b729e0 113727 python-testfixtures_6.14.1.orig.tar.gz
+ 62407495b05ee1ff1ed47bcaceb4d152 4820 python-testfixtures_6.14.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-testfixtures
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-testfixtures.git
+Checksums-Sha256:
+ 45182525220c857f05d45b96d5a8b85a26c60f9bba846954847fd25e9dfad3a9 2427 python-testfixtures_6.14.1-1.dsc
+ 0aa2dbb6509b171f7e535f4e91df1e23bed18afb5c77f494d7d0f84077f25011 113727 python-testfixtures_6.14.1.orig.tar.gz
+ 3c5731c0071af272baf0dba7d82d7a1f71b2e11d6792e515361a72fe4acf8411 4820 python-testfixtures_6.14.1-1.debian.tar.xz
+Homepage: https://github.com/Simplistix/testfixtures
+Package-List: 
+ python-testfixtures-doc deb doc optional arch=all
+ python3-testfixtures deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-testfixtures
+Priority: optional
+Section: misc

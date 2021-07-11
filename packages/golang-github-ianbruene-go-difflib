@@ -1,0 +1,27 @@
+Package: golang-github-ianbruene-go-difflib
+Binary: golang-github-ianbruene-go-difflib-dev
+Version: 1.2.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 562830253c9d0a19f114fc5912daa928 2329 golang-github-ianbruene-go-difflib_1.2.0-2.dsc
+ e1eececdac92620ee472528ae23bb8ce 29895 golang-github-ianbruene-go-difflib_1.2.0.orig.tar.gz
+ 10d9f245e82aa90fa941e7891e75e396 3308 golang-github-ianbruene-go-difflib_1.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-ianbruene-go-difflib
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-ianbruene-go-difflib.git
+Checksums-Sha256:
+ 2974fc39d62e692f0f8b4885dacdf87ceda67f9d2afe78ebc1ded67a9a985e6e 2329 golang-github-ianbruene-go-difflib_1.2.0-2.dsc
+ 3abfddec7457c63fe35766b676aaa9d4d83e7a8be6eaffb2ae0d165e103060c3 29895 golang-github-ianbruene-go-difflib_1.2.0.orig.tar.gz
+ 4ec1229b66cf722431593b90a2d866b66ae96cf1d12d1d8de9ef550ff0ba4ca3 3308 golang-github-ianbruene-go-difflib_1.2.0-2.debian.tar.xz
+Homepage: https://github.com/ianbruene/go-difflib
+Go-Import-Path: github.com/ianbruene/go-difflib
+Package-List: 
+ golang-github-ianbruene-go-difflib-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-ianbruene-go-difflib
+Priority: extra
+Section: golang

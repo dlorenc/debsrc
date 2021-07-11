@@ -1,0 +1,28 @@
+Package: haskell-yi-keymap-emacs
+Binary: libghc-yi-keymap-emacs-dev, libghc-yi-keymap-emacs-prof, libghc-yi-keymap-emacs-doc
+Version: 0.19.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Marcel Fourné <debian@marcelfourne.de>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-hclip-dev, libghc-hclip-prof, libghc-microlens-platform-dev, libghc-microlens-platform-prof, libghc-oo-prototypes-dev, libghc-oo-prototypes-prof, libghc-transformers-base-dev, libghc-transformers-base-prof, libghc-yi-core-dev (>= 0.19), libghc-yi-core-prof, libghc-yi-language-dev (>= 0.19), libghc-yi-language-prof, libghc-yi-misc-modes-dev (>= 0.19), libghc-yi-misc-modes-prof, libghc-yi-rope-dev (>= 0.10), libghc-yi-rope-prof
+Build-Depends-Indep: ghc-doc, libghc-hclip-doc, libghc-microlens-platform-doc, libghc-oo-prototypes-doc, libghc-transformers-base-doc, libghc-yi-core-doc, libghc-yi-language-doc, libghc-yi-misc-modes-doc, libghc-yi-rope-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 057f474dfddda7438327d12f24507b15 3099 haskell-yi-keymap-emacs_0.19.0-1.dsc
+ 76f1b764646d80eef56243e7c4810b1c 11286 haskell-yi-keymap-emacs_0.19.0.orig.tar.gz
+ 2ab9cecdf7cbde49fab0684810492de3 2272 haskell-yi-keymap-emacs_0.19.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-yi-keymap-emacs
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-yi-keymap-emacs]
+Checksums-Sha256:
+ 10f91d6fe6aa731b0dcca9999678fdde67aa67c75ba74806c7af093fdd7aab45 3099 haskell-yi-keymap-emacs_0.19.0-1.dsc
+ 345405124e6831ea6b6668e0037fa710a9d615695a39ca2007a62aa3e1a46dde 11286 haskell-yi-keymap-emacs_0.19.0.orig.tar.gz
+ ab4b54cb5f8760960eb7b41bc490404b4b82817373787dc9c9288346515c0c6a 2272 haskell-yi-keymap-emacs_0.19.0-1.debian.tar.xz
+Homepage: https://github.com/yi-editor/yi#readme
+Package-List: 
+ libghc-yi-keymap-emacs-dev deb haskell optional arch=any
+ libghc-yi-keymap-emacs-doc deb doc optional arch=all
+ libghc-yi-keymap-emacs-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-yi-keymap-emacs
+Priority: extra
+Section: misc

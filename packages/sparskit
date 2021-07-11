@@ -1,0 +1,26 @@
+Package: sparskit
+Binary: libsparskit2.0, libsparskit-dev
+Version: 2.0.0-4
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Belhachemi <domibel@debian.org>
+Build-Depends: debhelper-compat (= 13), gfortran, cmake, liblapack-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 579811da0eec7385d4eeb782229b5d7a 2056 sparskit_2.0.0-4.dsc
+ 1ea355bee586b0264a820643330c7ba2 1174748 sparskit_2.0.0.orig.tar.gz
+ b5493f8f9f2e88da976a3ba193adbb5f 4912 sparskit_2.0.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/sparskit
+Vcs-Git: https://salsa.debian.org/science-team/sparskit.git
+Checksums-Sha256:
+ fa61a2313dfa8276cdf1a89e9e97e6d78ae35791db24a15caa22e273b3b16df5 2056 sparskit_2.0.0-4.dsc
+ decfa2fa4558161f1507aa0c5abdf5219bc7c4e003efa68bb1ec9590708c7298 1174748 sparskit_2.0.0.orig.tar.gz
+ 8e8238b5fc4c02f301d69bc57a1dc79abbe4bdfe3118dd4fae871f9a4bedc03b 4912 sparskit_2.0.0-4.debian.tar.xz
+Homepage: https://www-users.cs.umn.edu/~saad/software/SPARSKIT/
+Package-List: 
+ libsparskit-dev deb libdevel optional arch=any
+ libsparskit2.0 deb libs optional arch=any
+Directory: pool/main/s/sparskit
+Priority: source
+Section: libs

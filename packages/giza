@@ -1,0 +1,28 @@
+Package: giza
+Binary: giza-dev, libgiza0, libpgplot0, libcpgplot0
+Version: 1.2.0-1
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: automake (>= 1.13), debhelper-compat (= 13), gfortran, libcairo2-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7b62c54f10b5a319838e6f2a16ac1efb 2093 giza_1.2.0-1.dsc
+ 0d615fab130b61536b652f98b4221f5e 1151075 giza_1.2.0.orig.tar.gz
+ f92aa4483973d986368b00824aafec56 3840 giza_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/giza
+Vcs-Git: https://salsa.debian.org/debian-astro-team/giza.git
+Checksums-Sha256:
+ d5a50ece48802eb3719dc4e65c76d543d6c6274c30a93c5a2af1e2d28f955950 2093 giza_1.2.0-1.dsc
+ 40f0c4744852b9d054124b173357c84147f80194a10ada08603766cf497125cb 1151075 giza_1.2.0.orig.tar.gz
+ defd21f1ca8d08297916f2582bbe7575439d47ed2e23d1b83a4a07a60d6996f1 3840 giza_1.2.0-1.debian.tar.xz
+Homepage: https://danieljprice.github.io/giza/
+Package-List: 
+ giza-dev deb libdevel optional arch=any
+ libcpgplot0 deb libs optional arch=any
+ libgiza0 deb libs optional arch=any
+ libpgplot0 deb libs optional arch=any
+Directory: pool/main/g/giza
+Priority: optional
+Section: misc

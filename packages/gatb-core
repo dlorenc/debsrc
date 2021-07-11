@@ -1,0 +1,28 @@
+Package: gatb-core
+Binary: gatb-core, libgatbcore3, libgatbcore-dev, gatb-core-testdata
+Version: 1.4.2+dfsg-6
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Nadiya Sitdykova <rovenskasa@gmail.com>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), d-shlibs, cmake, libcppunit-dev, libhdf5-dev, libboost-dev, libjsoncpp-dev, doxygen, graphviz
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 54ed5f1cb9a6ad52437d1c06a64b7276 2317 gatb-core_1.4.2+dfsg-6.dsc
+ ac56735b1e461083d9830d8e1c2a9108 2944680 gatb-core_1.4.2+dfsg.orig.tar.xz
+ eecadc274c3460d0cb492ace28d834cf 95536 gatb-core_1.4.2+dfsg-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/gatb-core
+Vcs-Git: https://salsa.debian.org/med-team/gatb-core.git
+Checksums-Sha256:
+ df229f9ed5024aaa91f2499a31ca55626228a14f986d710f5e19e502ec77a47b 2317 gatb-core_1.4.2+dfsg-6.dsc
+ cc72101654da4254253c3c74f02651e3b2cfbf49af95a849d21efdb13481fc66 2944680 gatb-core_1.4.2+dfsg.orig.tar.xz
+ 26dc8761383f165f2f3b34498bb5b0f395b51af4b93ecdee161ae45f667042c4 95536 gatb-core_1.4.2+dfsg-6.debian.tar.xz
+Homepage: https://github.com/GATB/gatb-core
+Package-List: 
+ gatb-core deb science optional arch=any
+ gatb-core-testdata deb science optional arch=all
+ libgatbcore-dev deb libdevel optional arch=any
+ libgatbcore3 deb libs optional arch=any
+Directory: pool/main/g/gatb-core
+Priority: extra
+Section: misc

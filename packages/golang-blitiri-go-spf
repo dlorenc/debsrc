@@ -1,0 +1,27 @@
+Package: golang-blitiri-go-spf
+Binary: golang-blitiri-go-spf-dev
+Version: 1.1.0-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alberto Bertogli <albertito@blitiri.com.ar>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-gopkg-yaml.v2-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f82a9f9b45d2d302417f3320c0fabb55 2198 golang-blitiri-go-spf_1.1.0-1.dsc
+ a8fa96d16185f135d3b12930e55aa7a5 81030 golang-blitiri-go-spf_1.1.0.orig.tar.gz
+ a212b7229e685535954fe9a0a1aa2f62 1936 golang-blitiri-go-spf_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-blitiri-go-spf
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-blitiri-go-spf.git
+Checksums-Sha256:
+ e621d0aead20d1fdb1208cffb8c381baca8e085b2aa981f07b93f2dfa3700a2c 2198 golang-blitiri-go-spf_1.1.0-1.dsc
+ 1dbaff06841284b6ea67d4aca2af46e15df3cbf654653fa0cd7b4c65a2afcc6c 81030 golang-blitiri-go-spf_1.1.0.orig.tar.gz
+ 9c6bb6d275eda86a0c3325a7a0d72edbc2b1e7b8342322382f26bd4c49b58c40 1936 golang-blitiri-go-spf_1.1.0-1.debian.tar.xz
+Homepage: https://blitiri.com.ar/git/r/spf/
+Go-Import-Path: blitiri.com.ar/go/spf
+Package-List: 
+ golang-blitiri-go-spf-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-blitiri-go-spf
+Priority: extra
+Section: golang

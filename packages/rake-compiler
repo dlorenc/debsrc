@@ -1,0 +1,28 @@
+Package: rake-compiler
+Binary: rake-compiler
+Version: 1.1.1-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>, Taku YASUI <tach@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1cce69f6feefa08275dcf17e2ba35f46 2167 rake-compiler_1.1.1-1.dsc
+ 65c7ea66cc611743e859cdce24f705c5 34692 rake-compiler_1.1.1.orig.tar.gz
+ 9668efbb2adae1debc801c12432a1a21 4856 rake-compiler_1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/rake-compiler
+Vcs-Git: https://salsa.debian.org/ruby-team/rake-compiler.git
+Checksums-Sha256:
+ 32839d2caaef5ee3adb4c2500d71f128ebadf12f97777e674dc71e13975c3bd4 2167 rake-compiler_1.1.1-1.dsc
+ d01a22277aa41025c82d528bac22301c86d90fe576678c2169fb3ba6a4b539e4 34692 rake-compiler_1.1.1.orig.tar.gz
+ 65fd41d9b6c48cbc12a399b9fffc2b6b16d6dbdbbe8ac468590b5b0eed894648 4856 rake-compiler_1.1.1-1.debian.tar.xz
+Homepage: https://github.com/rake-compiler/rake-compiler
+Package-List: 
+ rake-compiler deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner
+Directory: pool/main/r/rake-compiler
+Priority: source
+Section: ruby

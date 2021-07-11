@@ -1,0 +1,26 @@
+Package: haskell-some
+Binary: libghc-some-dev, libghc-some-prof, libghc-some-doc
+Version: 1.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.16), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0c1ee6820d721e0faab18e96390176b6 2060 haskell-some_1.0.1-2.dsc
+ 659d0ef4aca158cb63af7639f311ce2b 8027 haskell-some_1.0.1.orig.tar.gz
+ 181eea6c889765be7208ca0a86d3c3b1 2352 haskell-some_1.0.1-2.debian.tar.xz
+Checksums-Sha256:
+ add1840dd6f70c91129e4330f0edfea05989a09e76c6fe09a9058f3320be7b36 2060 haskell-some_1.0.1-2.dsc
+ 31ce29bf7d4849d6852d2f8947de0302d18fcfb95e6d01118b5533c975dfb78d 8027 haskell-some_1.0.1.orig.tar.gz
+ 87ca7e4fdef1513696e715ffe816aa231e64f9278067d48b6eee825963a07951 2352 haskell-some_1.0.1-2.debian.tar.xz
+Homepage: https://github.com/phadej/some
+Package-List: 
+ libghc-some-dev deb haskell optional arch=any
+ libghc-some-doc deb doc optional arch=all
+ libghc-some-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-some
+Priority: extra
+Section: misc

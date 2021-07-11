@@ -1,0 +1,26 @@
+Package: node-transformers
+Binary: node-transformers
+Version: 3.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, coffeescript <!nocheck>, mocha <!nocheck>, node-clone <!nocheck>, node-css <!nocheck>, node-dot <!nocheck>, node-ejs <!nocheck>, node-expect.js <!nocheck>, node-handlebars <!nocheck>, node-marked <!nocheck>, node-promise <!nocheck>, node-underscore <!nocheck>, node-with <!nocheck>, uglifyjs <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ce5142cfcb4f1e6b194753e79d5b7491 2381 node-transformers_3.1.0-1.dsc
+ 49d7265f6f0fff6cb0cf6a3533ff9af6 15958 node-transformers_3.1.0.orig.tar.gz
+ da93920718bdf4c4d49a39e6113b955a 3640 node-transformers_3.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-transformers
+Vcs-Git: https://salsa.debian.org/js-team/node-transformers.git
+Checksums-Sha256:
+ 45b8936a41427fa813c9bbc476f2dddf96bb2b592f9082bae32d5afaf0ed0660 2381 node-transformers_3.1.0-1.dsc
+ 03faf273810a5d9389c08cc8730a54568453912b323e743f57483cc279eef138 15958 node-transformers_3.1.0.orig.tar.gz
+ 19a0e5e911d9c448d7f29c888844a5f6b74b91d33aaeb3064ca797e7c8a1d374 3640 node-transformers_3.1.0-1.debian.tar.xz
+Homepage: https://github.com/ForbesLindesay/transformers
+Package-List: 
+ node-transformers deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-transformers
+Priority: optional
+Section: javascript

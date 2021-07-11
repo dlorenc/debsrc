@@ -1,0 +1,30 @@
+Package: glance
+Binary: glance, glance-api, glance-common, glance-doc, python3-glance
+Version: 2:21.0.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: alembic, bandit, curl, procps, python3-alembic, python3-babel, python3-boto, python3-castellan, python3-coverage, python3-cryptography, python3-cursive, python3-ddt, python3-debtcollector, python3-defusedxml (>= 0.6.0), python3-elasticsearch, python3-eventlet (>= 0.25.1), python3-fixtures, python3-futurist, python3-glance-store (>= 2.3.0), python3-hacking, python3-httplib2, python3-iso8601, python3-jsonschema (>= 3.2.0), python3-keystoneauth1, python3-keystonemiddleware, python3-migrate, python3-monotonic, python3-mysqldb, python3-openssl, python3-openstackdocstheme, python3-os-api-ref, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db (>= 5.0.0), python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (>= 2.4.1), python3-oslo.reports, python3-oslo.upgradecheck, python3-oslo.utils, python3-oslotest, python3-osprofiler, python3-paste, python3-pastedeploy, python3-pep8, python3-prettytable, python3-psutil, python3-psycopg2 (>= 2.8.4), python3-pygments, python3-pymysql, python3-requests, python3-retrying, python3-routes, python3-sendfile, python3-six, python3-sphinxcontrib.apidoc, python3-sqlalchemy, python3-sqlparse, python3-stestr, python3-stevedore, python3-swiftclient, python3-taskflow, python3-testresources, python3-testscenarios, python3-testtools, python3-webob, python3-wsme, python3-xattr, qemu-utils, sqlite3, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6015e3c08b13fe91ceeca5f58ff3d519 3736 glance_21.0.0-2.dsc
+ bef1454ed9865225181e6ec7df9b23ff 1471508 glance_21.0.0.orig.tar.xz
+ a600daf02fc56d992185f430f22392fb 16500 glance_21.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/glance
+Vcs-Git: https://salsa.debian.org/openstack-team/services/glance.git
+Checksums-Sha256:
+ 2e148ec48e8edba33a9fe059ff02184251b3f1a5f65181d2f8a40ae80097d72e 3736 glance_21.0.0-2.dsc
+ 7e9e96711ca27913cae31c0992a90edd4f572a66768162324ce8aa79ccc7820d 1471508 glance_21.0.0.orig.tar.xz
+ 2a47548bbc6879f8b1fa5dd78e884674fc2a4906309cf8d0098e5aad78629b69 16500 glance_21.0.0-2.debian.tar.xz
+Homepage: https://github.com/openstack/glance
+Package-List: 
+ glance deb net optional arch=all
+ glance-api deb net optional arch=all
+ glance-common deb net optional arch=all
+ glance-doc deb doc optional arch=all
+ python3-glance deb python optional arch=all
+Directory: pool/main/g/glance
+Priority: source
+Section: python

@@ -1,0 +1,27 @@
+Package: libcrypt-openssl-x509-perl
+Binary: libcrypt-openssl-x509-perl
+Version: 1.9.02-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Niko Tyni <ntyni@debian.org>, Damyan Ivanov <dmn@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-perl-openssl, libssl-dev, libtest-pod-perl <!nocheck>, perl-openssl-defaults, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b1ac2ab55d9a0d051c881c081cbcafeb 2707 libcrypt-openssl-x509-perl_1.9.02-1.dsc
+ 07aacc32159f2f22cd8c65b93a5a4d76 48065 libcrypt-openssl-x509-perl_1.9.02.orig.tar.gz
+ 8d76fdb8b2d137951d10988570afe4bc 4720 libcrypt-openssl-x509-perl_1.9.02-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcrypt-openssl-x509-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcrypt-openssl-x509-perl.git
+Checksums-Sha256:
+ 634515d4af5c2c8acadff74a2293ae47e165a138c4f0f5d31e1c88c9314f42d9 2707 libcrypt-openssl-x509-perl_1.9.02-1.dsc
+ 997de045340b6a03eed7b3dcd4f15ec8b2aa0c2de94f367529ec8d33f4324d37 48065 libcrypt-openssl-x509-perl_1.9.02.orig.tar.gz
+ f327cae6defa68ae1205759932210c4a0d781089923ea8a77fe7b74251a289e0 4720 libcrypt-openssl-x509-perl_1.9.02-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Crypt-OpenSSL-X509
+Dgit: e4f96abc5a41f66efcaf07e054c9898155e6329d debian archive/debian/1.9.02-1 https://git.dgit.debian.org/libcrypt-openssl-x509-perl
+Package-List: 
+ libcrypt-openssl-x509-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcrypt-openssl-x509-perl
+Priority: source
+Section: perl

@@ -1,0 +1,27 @@
+Package: rust-tokio-threadpool
+Binary: librust-tokio-threadpool-dev
+Version: 0.1.16-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-deque-0.7+default-dev <!nocheck>, librust-crossbeam-queue-0.2+default-dev <!nocheck>, librust-crossbeam-utils-0.7+default-dev <!nocheck>, librust-futures-0.1+default-dev (>= 0.1.19-~~) <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-num-cpus-1+default-dev (>= 1.2-~~) <!nocheck>, librust-slab-0.4+default-dev (>= 0.4.1-~~) <!nocheck>, librust-tokio-executor-0.1+default-dev (>= 0.1.8-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ebda1b3ff717e558394f58ecd034b57c 2893 rust-tokio-threadpool_0.1.16-2.dsc
+ 3dcd9b9b27c6622ba29023d252f16518 53347 rust-tokio-threadpool_0.1.16.orig.tar.gz
+ 808bb476754a699b5ee5b58448a7581c 3008 rust-tokio-threadpool_0.1.16-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-threadpool
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-threadpool]
+Checksums-Sha256:
+ 58404ce803be8a5b6520b8f79cc5f8df5e9528c4cc66f9f4f06d0acce82535de 2893 rust-tokio-threadpool_0.1.16-2.dsc
+ 2bd2c6a3885302581f4401c82af70d792bb9df1700e7437b0aeb4ada94d5388c 53347 rust-tokio-threadpool_0.1.16.orig.tar.gz
+ 560aeea165faac199ee743bf5a268818bd6aeaae2d26f2c864cb8ee4f8cb364f 3008 rust-tokio-threadpool_0.1.16-2.debian.tar.xz
+Homepage: https://github.com/tokio-rs/tokio
+Package-List: 
+ librust-tokio-threadpool-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-env-logger-0.6-dev, librust-futures-cpupool-0.1+default-dev, librust-rand-0.7+default-dev, librust-threadpool-1+default-dev
+Directory: pool/main/r/rust-tokio-threadpool
+Priority: extra
+Section: misc

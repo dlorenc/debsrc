@@ -1,0 +1,27 @@
+Package: python-cpuinfo
+Binary: python3-cpuinfo, py-cpuinfo
+Version: 5.0.0-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Hugo Lefeuvre <hle@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2a192dd3e1856df71c525b135c268e86 2130 python-cpuinfo_5.0.0-2.dsc
+ 64587fe4371fda5b3c08f99dab9cae3f 79403 python-cpuinfo_5.0.0.orig.tar.gz
+ 35a062469977749cdf4628a923f8a64f 2616 python-cpuinfo_5.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-cpuinfo
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-cpuinfo.git
+Checksums-Sha256:
+ 3e36073ce8a732ab9d6ace4f964661dea03d34bd2e8d38d3f1ccfebd20751011 2130 python-cpuinfo_5.0.0-2.dsc
+ 9aa8bf22cd0b9c4bb3ad29411e8eef008cd397860fd76fb2e0911273339f33a0 79403 python-cpuinfo_5.0.0.orig.tar.gz
+ f8965e9517f0b14c8c5f18d1b7a87cde17feea13cb085301c573827df433ea31 2616 python-cpuinfo_5.0.0-2.debian.tar.xz
+Homepage: https://github.com/workhorsy/py-cpuinfo
+Package-List: 
+ py-cpuinfo deb admin optional arch=all
+ python3-cpuinfo deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-cpuinfo
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: ruby-prawn-icon
+Binary: ruby-prawn-icon
+Version: 2.5.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Keith Packard <keithp@keithp.com>
+Build-Depends: debhelper-compat (= 12), debhelper (>= 12), gem2deb, rake, ruby-prawn (<< 3.0.0), ruby-prawn (>= 1.1.0), ruby-rspec
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d2f881aaa8317ce0259808b037038ed5 2144 ruby-prawn-icon_2.5.0-1.dsc
+ 4cf36b2329d31988a0607ee63e3671c6 724802 ruby-prawn-icon_2.5.0.orig.tar.gz
+ 244ba4663fa5ba6af804efeb9a03b40a 2756 ruby-prawn-icon_2.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/keithp/ruby-prawn-icon
+Vcs-Git: https://salsa.debian.org/keithp/ruby-prawn-icon.git
+Checksums-Sha256:
+ 23fc6e171fc6acb3e05a73c4227849a4163dbf76dcda9ff3bb02704c8d669e58 2144 ruby-prawn-icon_2.5.0-1.dsc
+ 166a902bbf1b3dd58495f15df1b6bd60da76c1b57713c370749c86ac4eedbfd9 724802 ruby-prawn-icon_2.5.0.orig.tar.gz
+ 2d2ae8439b617f360883512ada5fc60a85c72e4bfd622f45b7a74284d1ed3b50 2756 ruby-prawn-icon_2.5.0-1.debian.tar.xz
+Homepage: https://github.com/jessedoyle/prawn-icon/
+Package-List: 
+ ruby-prawn-icon deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-prawn-icon
+Priority: extra
+Section: misc

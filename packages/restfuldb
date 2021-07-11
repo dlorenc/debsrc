@@ -1,0 +1,27 @@
+Package: restfuldb
+Binary: librestfuldb-perl, restfuldb
+Version: 0.15.2+dfsg-1
+Maintainer: Andrius Merkys <merkys@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-apache2, libarchive-zip-perl <!nocheck>, libcgi-pm-perl <!nocheck>, libclone-perl <!nocheck>, libdata-uuid-perl <!nocheck>, libdata-validate-uri-perl <!nocheck>, libdatetime-perl <!nocheck>, libdbd-sqlite2-perl <!nocheck>, libdbd-sqlite3-perl <!nocheck>, libdbi-perl <!nocheck>, libexcel-writer-xlsx-perl <!nocheck>, libexception-class-perl <!nocheck>, libfile-libmagic-perl <!nocheck>, libfile-mimeinfo-perl <!nocheck>, libhash-merge-perl <!nocheck>, libio-string-perl <!nocheck>, libjson-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libobject-lazy-perl <!nocheck>, liboptimade-filter-perl (>= 0.9.0) <!nocheck>, libspreadsheet-read-perl <!nocheck>, libspreadsheet-wright-perl <!nocheck>, libspreadsheet-xlsx-perl <!nocheck>, libtext-csv-encoded-perl <!nocheck>, libtext-csv-perl <!nocheck>, libtext-csv-xs-perl <!nocheck>, libtext-markdown-perl <!nocheck>, libtext-sprintfn-perl <!nocheck>, liburi-encode-perl <!nocheck>, libwww-perl <!nocheck>, libxml-libxml-perl <!nocheck>, libxml2-utils <!nocheck>, rename, sqlite3 <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d2c2db64e89213eb779ff9cb158239f8 3101 restfuldb_0.15.2+dfsg-1.dsc
+ e8cf75f34e479de0c17c890b133eed1a 382716 restfuldb_0.15.2+dfsg.orig.tar.xz
+ cec5fac522b4ad4e1ecb692b22deb79b 6592 restfuldb_0.15.2+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/merkys/restfuldb
+Vcs-Git: https://salsa.debian.org/merkys/restfuldb.git
+Checksums-Sha256:
+ d3dbf73b5a07a3a45a44d729c47ef3bd49dc630a8a13c5c576fc3a7675a46c4f 3101 restfuldb_0.15.2+dfsg-1.dsc
+ 512982252b006dbcf6912f9cfff6edafb3c7d247fa1540cbbb62d32dca06d64d 382716 restfuldb_0.15.2+dfsg.orig.tar.xz
+ e7d6affd28b8c3f55d3003509ff51b6616c63b6d30f2b71206c83bcc0fe0f47d 6592 restfuldb_0.15.2+dfsg-1.debian.tar.xz
+Homepage: https://projects.ibt.lt/repositories/projects/restfuldb
+Package-List: 
+ librestfuldb-perl deb perl optional arch=all
+ restfuldb deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libxml2-utils, rsync, sqlite3
+Directory: pool/main/r/restfuldb
+Priority: extra
+Section: misc

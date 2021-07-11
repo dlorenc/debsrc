@@ -1,0 +1,26 @@
+Package: pgmodeler
+Binary: pgmodeler, pgmodeler-common
+Version: 0.9.3-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Christoph Berg <myon@debian.org>,
+Build-Depends: debhelper-compat (= 13), libpq-dev, libqt5svg5-dev, libxml2-dev, pkg-config, qtbase5-dev, qttools5-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 28f9db73b79374e33ca81bee997308a9 2123 pgmodeler_0.9.3-1.dsc
+ 94aa99b6aa250837b6e5b908c5d571b9 3735308 pgmodeler_0.9.3.orig.tar.gz
+ 4043a32aa39e53133f1d1620724ad184 3176 pgmodeler_0.9.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pgmodeler
+Vcs-Git: https://salsa.debian.org/postgresql/pgmodeler.git
+Checksums-Sha256:
+ 475ee002e1a847cb57d73c63383339dcceea8de5278318e872a436e37a253603 2123 pgmodeler_0.9.3-1.dsc
+ f09d27f6231812be2239356e0e71ad7e350de7c8a6c2eec599c91093a71983f6 3735308 pgmodeler_0.9.3.orig.tar.gz
+ 7eb9879c7c1141fb5da91d70e7ff32570ec7fd5fd5823077808ce645eb0bb341 3176 pgmodeler_0.9.3-1.debian.tar.xz
+Homepage: https://pgmodeler.io/
+Package-List: 
+ pgmodeler deb database optional arch=any
+ pgmodeler-common deb database optional arch=all
+Directory: pool/main/p/pgmodeler
+Priority: optional
+Section: misc

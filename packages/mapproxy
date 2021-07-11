@@ -1,0 +1,27 @@
+Package: mapproxy
+Binary: mapproxy, python3-mapproxy, mapproxy-doc
+Version: 1.13.0-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), dh-python, libgdal-dev, python3-all, python3-lxml, python3-pil, python3-pkg-resources, python3-pytest, python3-redis, python3-requests, python3-setuptools, python3-shapely, python3-sphinx, python3-sphinx-bootstrap-theme, python3-webtest, python3-yaml, docbook2x, docbook-xsl, docbook-xml, xsltproc
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 08b7cd56fc71b64b221c4014ecfe9091 2325 mapproxy_1.13.0-1.dsc
+ 48fd6a6ed920d6bf17edf30e1bb23faf 1554293 mapproxy_1.13.0.orig.tar.gz
+ bd6be9a26e152fc3f70d3e9d0dc9e6f7 19620 mapproxy_1.13.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/mapproxy
+Vcs-Git: https://salsa.debian.org/debian-gis-team/mapproxy.git
+Checksums-Sha256:
+ 58d92b7fe6b3cc6af469b6c277aa601c25ff2b9081f6b76bdbfce67b0e83910e 2325 mapproxy_1.13.0-1.dsc
+ 2433f9a05b863cecebe54460c92032cb8d176e0b773b7e08f623db41eb2710a6 1554293 mapproxy_1.13.0.orig.tar.gz
+ 0af6090b5da4415702ae1d104762e29a8d2b2d7e8bc796af0e931fbcc166767a 19620 mapproxy_1.13.0-1.debian.tar.xz
+Homepage: http://mapproxy.org/
+Package-List: 
+ mapproxy deb web optional arch=all
+ mapproxy-doc deb doc optional arch=all
+ python3-mapproxy deb python optional arch=all
+Directory: pool/main/m/mapproxy
+Priority: optional
+Section: misc

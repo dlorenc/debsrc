@@ -1,0 +1,24 @@
+Package: bpftrace
+Binary: bpftrace
+Version: 0.11.3-5
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends: bison, clang-11, cmake, debhelper (>= 11), flex, libbpfcc-dev, libbpf-dev, libclang-11-dev, libelf-dev, libfl-dev, libgmock-dev, libgtest-dev, llvm-11-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 19a6d861952b2678ce95e928ccb3290a 1999 bpftrace_0.11.3-5.dsc
+ 4be8d7a3226f65b01239fc42a1b69897 867967 bpftrace_0.11.3.orig.tar.gz
+ ad580022d151c572243a096675790d01 4260 bpftrace_0.11.3-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/bpftrace
+Vcs-Git: https://salsa.debian.org/debian/bpftrace.git
+Checksums-Sha256:
+ 94488cb77055076529d869f32f99fb33fa7265f4398f11f0aec3f30e8c3075cb 1999 bpftrace_0.11.3-5.dsc
+ 34303e302f4625679918e69a4b63240374dc56d8d2e3ee3fb25247ac1e1b2aee 867967 bpftrace_0.11.3.orig.tar.gz
+ a8d880db97c3dab4f274a2ed71e3f302384c3b0e9a13833cec98d2808bb30e66 4260 bpftrace_0.11.3-5.debian.tar.xz
+Homepage: https://github.com/iovisor/bpftrace
+Package-List: 
+ bpftrace deb utils optional arch=any
+Directory: pool/main/b/bpftrace
+Priority: extra
+Section: misc

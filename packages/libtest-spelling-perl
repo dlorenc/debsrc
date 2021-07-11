@@ -1,0 +1,27 @@
+Package: libtest-spelling-perl
+Binary: libtest-spelling-perl
+Version: 0.25-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: perl, iamerican <!nocheck>, libipc-run3-perl <!nocheck>, libpod-spell-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-simple-perl (>= 1.001010) <!nocheck>, spell <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 63eb5a776f0b0eef183415466362160f 2442 libtest-spelling-perl_0.25-1.dsc
+ 5267be55736620cf8c45765e346a58cc 29273 libtest-spelling-perl_0.25.orig.tar.gz
+ ada4e7c0e7722ae50b5c82c3d365767c 2856 libtest-spelling-perl_0.25-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-spelling-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-spelling-perl.git
+Checksums-Sha256:
+ 39d0f826271a3a29d140953af0a5d2b5b8c5d493118e32cc5423d5d6bca9fac6 2442 libtest-spelling-perl_0.25-1.dsc
+ 38c659f03a4d7362e16832a3489d17f86a2ea36471d335e17ce323457df5bc60 29273 libtest-spelling-perl_0.25.orig.tar.gz
+ c1e05f1cf942fab8d108f0ee0f1efc8c49cf3789898ca1e0f0a5d4d5fdb6a692 2856 libtest-spelling-perl_0.25-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Spelling
+Package-List: 
+ libtest-spelling-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-spelling-perl
+Priority: source
+Section: perl

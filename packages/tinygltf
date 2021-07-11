@@ -1,0 +1,27 @@
+Package: tinygltf
+Binary: libtinygltf-dev, libtinygltf1d
+Version: 2.5.0+dfsg-3
+Maintainer: Timo Röhling <timo@gaussglocke.de>
+Build-Depends: debhelper-compat (= 13), cmake, libstb-dev, nlohmann-json3-dev, catch
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5a79cb0cbc77b7cfa72d6c3313fdf834 1884 tinygltf_2.5.0+dfsg-3.dsc
+ d583f667edc6df4ef2a1a16ef8259701 933301 tinygltf_2.5.0+dfsg.orig.tar.gz
+ ae8819fd4678010693741444f77e3cd8 7848 tinygltf_2.5.0+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/tinygltf
+Vcs-Git: https://salsa.debian.org/debian/tinygltf.git
+Checksums-Sha256:
+ 1f06afcb1aa47d29c59f040133e69cb868aca34de039dfe6778f173111dc7830 1884 tinygltf_2.5.0+dfsg-3.dsc
+ ac27e968185f55ab029b7b9c03b404286223d1e9c81a9da236114f3b9fc3aefb 933301 tinygltf_2.5.0+dfsg.orig.tar.gz
+ dcd6c59b43d60a8cda6a73516746ba632469aca9f9d7fdbe273205a4b887076b 7848 tinygltf_2.5.0+dfsg-3.debian.tar.xz
+Homepage: https://github.com/syoyo/tinygltf
+Package-List: 
+ libtinygltf-dev deb libdevel optional arch=any
+ libtinygltf1d deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: c++-compiler, cmake, g++, pkg-config
+Directory: pool/main/t/tinygltf
+Priority: extra
+Section: misc

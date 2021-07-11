@@ -1,0 +1,27 @@
+Package: r-cran-progress
+Binary: r-cran-progress
+Version: 1.2.2-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-hms, r-cran-prettyunits, r-cran-r6, r-cran-crayon
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 47ee805c954d68275a2adefa8dd7908e 2146 r-cran-progress_1.2.2-2.dsc
+ d1d31b3a7bde43cd6b141bdd7297d523 29506 r-cran-progress_1.2.2.orig.tar.gz
+ 1d492e47a7f8fc0ad23adb1cfe367d87 2784 r-cran-progress_1.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-progress
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-progress.git
+Checksums-Sha256:
+ f427fa523ef37e18ff768453593556c0d65f7614d4f4b7e1761671780db2d70e 2146 r-cran-progress_1.2.2-2.dsc
+ b4a4d8ed55db99394b036a29a0fb20b5dd2a91c211a1d651c52a1023cc58ff35 29506 r-cran-progress_1.2.2.orig.tar.gz
+ 2a18d22b84d7e8cd0e621da0d7d239c47ff01a9e9c54a7da81d1eff6589bddf2 2784 r-cran-progress_1.2.2-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=progress
+Package-List: 
+ r-cran-progress deb gnu-r optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-progress
+Priority: optional
+Section: misc

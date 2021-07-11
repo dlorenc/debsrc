@@ -1,0 +1,32 @@
+Package: snapd
+Binary: golang-github-ubuntu-core-snappy-dev, golang-github-snapcore-snapd-dev, snapd, snap-confine, ubuntu-core-launcher
+Version: 2.49-1
+Maintainer: Michael Hudson-Doyle <mwhudson@debian.org>
+Uploaders: Steve Langasek <vorlon@debian.org>, Zygmunt Krynicki <me@zygoon.pl>, Luke Faraone <lfaraone@debian.org>
+Build-Depends: autoconf, automake, autotools-dev, bash-completion, ca-certificates, dbus, debhelper (>= 9.20160709), dh-apparmor, dh-autoreconf, dh-golang (>= 1.7), fakeroot, gcc-multilib [amd64], gettext, grub-common, gnupg2, golang-check.v1-dev, golang-context-dev, golang-dbus-dev, golang-github-boltdb-bolt-dev, golang-github-coreos-go-systemd-dev, golang-github-juju-ratelimit-dev, golang-github-gorilla-mux-dev, golang-github-gosexy-gettext-dev, golang-github-kr-pretty-dev, golang-github-kr-text-dev, golang-github-mvo5-goconfigparser-dev, golang-github-seccomp-libseccomp-golang-dev, golang-go (>= 2:1.10), golang-go-flags-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-xerrors-dev, golang-gopkg-tomb.v2-dev (>= 0.0~git20161208.0.d5d1b58), golang-yaml.v2-dev, golang-gopkg-macaroon.v1-dev, golang-gopkg-mgo.v2-dev, golang-gopkg-retry.v1-dev, golang-gopkg-tylerb-graceful.v1-dev, indent, libcap-dev, libapparmor-dev, libglib2.0-dev, liblzo2-dev, libseccomp-dev, libudev-dev, openssh-client, pkg-config, python3, python3-docutils, python3-markdown, squashfs-tools, tzdata, udev, xfslibs-dev
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 3504eee0076881e803ff0dc9c98e193b 3535 snapd_2.49-1.dsc
+ 5dbcaccd61d1844434397e5f83222996 5032853 snapd_2.49.orig.tar.gz
+ 983abe03e6c488a51683a1d4b65d0529 95180 snapd_2.49-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/snapd
+Vcs-Git: https://salsa.debian.org/debian/snapd.git
+Checksums-Sha256:
+ fe8ff1e17b9faa22d2069c3b44a5e061d38f1024236b1dfd080e6a4d1d1811cb 3535 snapd_2.49-1.dsc
+ 8da73f19017bc129d4ee444c90993445a1748e63d6a3cf5192aac1fa3ecac9f8 5032853 snapd_2.49.orig.tar.gz
+ b20d266cef1aa854f4fd276d6ba0e1776b5749439ac3e76fd2a3874d444c82b4 95180 snapd_2.49-1.debian.tar.xz
+Homepage: https://github.com/snapcore/snapd
+Go-Import-Path: github.com/snapcore/snapd
+Package-List: 
+ golang-github-snapcore-snapd-dev deb devel optional arch=all
+ golang-github-ubuntu-core-snappy-dev deb oldlibs optional arch=all
+ snap-confine deb oldlibs optional arch=any
+ snapd deb devel optional arch=any
+ ubuntu-core-launcher deb oldlibs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, bzr, ca-certificates, git, golang-golang-x-net-dev, locales, net-tools, netcat-openbsd, openssh-server
+Directory: pool/main/s/snapd
+Priority: optional
+Section: misc

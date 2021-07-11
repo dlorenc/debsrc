@@ -1,0 +1,28 @@
+Package: haskell-charset
+Binary: libghc-charset-dev, libghc-charset-prof, libghc-charset-doc
+Version: 0.3.7.1-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-semigroups-dev (<< 1), libghc-semigroups-dev (>= 0.8.3.1), libghc-semigroups-prof, libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-dev (>= 0.1.4.6), libghc-unordered-containers-prof
+Build-Depends-Indep: ghc-doc, libghc-semigroups-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a1f8024a5c50aca8c9b80a3788912852 2574 haskell-charset_0.3.7.1-10.dsc
+ 522caae63cc57efb9f5f3531f55e93bb 12507 haskell-charset_0.3.7.1.orig.tar.gz
+ f9e8fcd1a61cf5190874f37d8bab74a5 3336 haskell-charset_0.3.7.1-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-charset
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-charset]
+Checksums-Sha256:
+ abfb8d0d1b7caf91be12ed9a80d1ad5c382ee6cdf534750c7ca0d7ec2b2ee5e1 2574 haskell-charset_0.3.7.1-10.dsc
+ 3d415d2883bd7bf0cc9f038e8323f19c71e07dd12a3c712f449ccb8b4daac0be 12507 haskell-charset_0.3.7.1.orig.tar.gz
+ e0963952dd9d9d032cd8af0c929fef9278eabd250fefee675449f49d53f05fc3 3336 haskell-charset_0.3.7.1-10.debian.tar.xz
+Homepage: https://github.com/ekmett/charset
+Package-List: 
+ libghc-charset-dev deb haskell optional arch=any
+ libghc-charset-doc deb doc optional arch=all
+ libghc-charset-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-charset
+Priority: optional
+Section: misc

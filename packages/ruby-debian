@@ -1,0 +1,24 @@
+Package: ruby-debian
+Binary: ruby-debian
+Version: 0.3.10
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Ryan Niebur <ryan@debian.org>, Antonio Terceiro <terceiro@debian.org>,
+Build-Depends: debhelper-compat (= 12), gem2deb, libapt-pkg-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (native)
+Files:
+ 9313a60b850f587b976089fbfb607343 1753 ruby-debian_0.3.10.dsc
+ 031a27c378fadd8c84a59f1c8376f353 178980 ruby-debian_0.3.10.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-debian
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-debian.git
+Checksums-Sha256:
+ 65756a9efad5d58f6b9cd8c5d8da6c694395c2afea58374a858e3ffde5ecca70 1753 ruby-debian_0.3.10.dsc
+ 47144fbf873512e331fae3253d960d79143ad3833d77ab5044ba0822ce33579e 178980 ruby-debian_0.3.10.tar.xz
+Package-List: 
+ ruby-debian deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-debian
+Priority: source
+Section: ruby

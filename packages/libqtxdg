@@ -1,0 +1,29 @@
+Package: libqtxdg
+Binary: libqt5xdg3, libqt5xdgiconloader3, libqt5xdg-dev, libqt5xdgiconloader-dev, qtxdg-dev-tools
+Version: 3.6.0-1
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>, ChangZhuo Chen (陳昌倬) <czchen@debian.org>, Andrew Lee (李健秋) <ajqlee@debian.org>
+Build-Depends: debhelper-compat (= 12), cmake, libmagic-dev, libqt5svg5-dev, lxqt-build-tools (>= 0.6.0), pkg-config, qtbase5-private-dev, qttools5-dev, qttools5-dev-tools
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 15240aca54801d4067f24099170b4e43 2400 libqtxdg_3.6.0-1.dsc
+ 36e74199662e706ec5b54b5887830e23 76028 libqtxdg_3.6.0.orig.tar.xz
+ 0ff99d52bfa3e263f8e43f7a12473c27 10612 libqtxdg_3.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lxqt-team/libqtxdg
+Vcs-Git: https://salsa.debian.org/lxqt-team/libqtxdg.git
+Checksums-Sha256:
+ 7b303748f1e70d8c53cbdd4c6dab6c4ad5b7fda240c827ce4c0f11c5df15e4a2 2400 libqtxdg_3.6.0-1.dsc
+ 0fefb362eac9120fccd401202f15d092a59fd1aaacfc4b885a33578cdd41cf42 76028 libqtxdg_3.6.0.orig.tar.xz
+ 35668352e2b7a868b9a6d3f02b757499725e4673726a0049eea7b488840df693 10612 libqtxdg_3.6.0-1.debian.tar.xz
+Homepage: https://github.com/lxqt/libqtxdg
+Package-List: 
+ libqt5xdg-dev deb libdevel optional arch=any
+ libqt5xdg3 deb libs optional arch=any
+ libqt5xdgiconloader-dev deb libdevel optional arch=any
+ libqt5xdgiconloader3 deb libs optional arch=any
+ qtxdg-dev-tools deb devel optional arch=any
+Directory: pool/main/libq/libqtxdg
+Priority: optional
+Section: misc

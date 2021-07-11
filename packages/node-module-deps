@@ -1,0 +1,27 @@
+Package: node-module-deps
+Binary: node-module-deps
+Version: 6.2.3-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, help2man, node-browser-pack <!nocheck>, node-browser-resolve <!nocheck>, node-cached-path-relative (>= 1.0.2) <!nocheck>, node-concat-stream (>= 1.6.0) <!nocheck>, node-defined <!nocheck>, node-detective <!nocheck>, node-duplexer3 <!nocheck>, node-inherits <!nocheck>, node-jsonstream <!nocheck>, node-parents <!nocheck>, node-readable-stream <!nocheck>, node-resolve (>= 1.4.0) <!nocheck>, node-stream-combiner2 <!nocheck>, node-subarg <!nocheck>, node-tap (>= 1.0) <!nocheck>, node-through2 (>= 2.0.0) <!nocheck>, node-xtend <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c57f2c5ca977a5d8ef24e1bceacde983 2661 node-module-deps_6.2.3-1.dsc
+ 8a61b8dbf4f7120622c7c596b5db7014 23962 node-module-deps_6.2.3.orig.tar.gz
+ f4e68c592258ba8af4916c866a84218f 4080 node-module-deps_6.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-module-deps
+Vcs-Git: https://salsa.debian.org/js-team/node-module-deps.git
+Checksums-Sha256:
+ 018fde5e3001bb75a9bdfb1fd6ff3deb4ddb1e06ebd368f9226f35cdeb0d7c72 2661 node-module-deps_6.2.3-1.dsc
+ 9d3f87eab8512d0d9cd1eb836dbaa6f3b7aeb646578ed8959af9001b172dc587 23962 node-module-deps_6.2.3.orig.tar.gz
+ 2955505fa3d36439db88e7202c131bba0201a50658903fcb77f95b4c337e7643 4080 node-module-deps_6.2.3-1.debian.tar.xz
+Homepage: https://github.com/substack/module-deps
+Package-List: 
+ node-module-deps deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: node-jsonstream, nodejs
+Directory: pool/main/n/node-module-deps
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-gir-format-check
+Binary: librust-gir-format-check-dev
+Version: 0.1.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9aea078795679f36d67bf6b79ce1619a 2295 rust-gir-format-check_0.1.1-2.dsc
+ 2a7531dcbd36c644aa24381c8136dfe0 3236 rust-gir-format-check_0.1.1.orig.tar.gz
+ 480e09b933bc0278b658555099434d72 2612 rust-gir-format-check_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gir-format-check
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gir-format-check]
+Checksums-Sha256:
+ 58a3802c17affb2e2e1a3b81c809ec72f1127dce1b50562f992d4b2af2f7ae6e 2295 rust-gir-format-check_0.1.1-2.dsc
+ 8bb87d6204a84155bf9585820adabc3f489e6ce353ee34bf2906bcfa1826d47e 3236 rust-gir-format-check_0.1.1.orig.tar.gz
+ a58c5d8a49b10ce786e85405812eb8f6af48d92bd8cbd1439760ba978ba78ac0 2612 rust-gir-format-check_0.1.1-2.debian.tar.xz
+Homepage: https://github.com/gtk-rs/gir-format-check
+Package-List: 
+ librust-gir-format-check-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-gir-format-check
+Priority: extra
+Section: misc

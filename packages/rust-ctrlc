@@ -1,0 +1,27 @@
+Package: rust-ctrlc
+Binary: librust-ctrlc-dev
+Version: 3.1.7-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <paride@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-nix+default-dev (>= 0.18-~~) <!nocheck>, librust-winapi-0.3+consoleapi-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+synchapi-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b4b9df3954bef401878f44b03084e492 2229 rust-ctrlc_3.1.7-1.dsc
+ ed8fbdb220a7435e83c34d46151182f0 12854 rust-ctrlc_3.1.7.orig.tar.gz
+ 29135a2cd8c20f6e74f009ff0ffa9c79 3284 rust-ctrlc_3.1.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ctrlc
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ctrlc]
+Checksums-Sha256:
+ dc39e3f9ec8ede5cba79a101f6e7764963ac928805f9884e04b965d4f769858c 2229 rust-ctrlc_3.1.7-1.dsc
+ b57a92e9749e10f25a171adcebfafe72991d45e7ec2dcb853e8f83d9dafaeb08 12854 rust-ctrlc_3.1.7.orig.tar.gz
+ 5de991829fe2d4b53c94ba29dcb3a3451047c2ed0fde6ae78a4e2e4240c533ef 3284 rust-ctrlc_3.1.7-1.debian.tar.xz
+Homepage: https://github.com/Detegr/rust-ctrlc
+Package-List: 
+ librust-ctrlc-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-winapi-0.3+default-dev, librust-winapi-0.3+fileapi-dev, librust-winapi-0.3+processenv-dev, librust-winapi-0.3+winnt-dev
+Directory: pool/main/r/rust-ctrlc
+Priority: extra
+Section: misc

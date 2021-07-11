@@ -1,0 +1,29 @@
+Package: libpgjava
+Binary: libpostgresql-jdbc-java, libpostgresql-jdbc-java-doc
+Version: 42.2.15-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>, Christoph Berg <myon@debian.org>, Matthias Klose <doko@ubuntu.com>, Andrew Ross <ubuntu@rossfamily.co.uk>
+Build-Depends: debhelper-compat (= 13), libbuild-helper-maven-plugin-java, libcomment-preprocessor-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, libmaven-shade-plugin-java, libproperties-maven-plugin-java, libscram-java, maven-debian-helper
+Build-Depends-Indep: default-jdk, default-jdk-doc, libxerces2-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4a3ba222025dd3254bfe55e6a48fee5e 2560 libpgjava_42.2.15-1.dsc
+ 27ec7ca1fe1059eb9cc5014de76176f3 903018 libpgjava_42.2.15.orig.tar.gz
+ 9a253f405fdd59455be07090497626de 9728 libpgjava_42.2.15-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libpostgresql-jdbc-java
+Vcs-Git: https://salsa.debian.org/java-team/libpostgresql-jdbc-java.git
+Checksums-Sha256:
+ cc4d1d8ef1018db755bbc9e37e78073040693eeb4eb8ecd073af2b723e8764fa 2560 libpgjava_42.2.15-1.dsc
+ fd34f1d133bf9df29fa853bea44029ba22b00a478984d7233fb6218b66d47a8f 903018 libpgjava_42.2.15.orig.tar.gz
+ 1534ebffd429fb777ccb9504502a9d364765d05c0b5000705e1d99a26d0a558e 9728 libpgjava_42.2.15-1.debian.tar.xz
+Homepage: https://jdbc.postgresql.org/
+Package-List: 
+ libpostgresql-jdbc-java deb java optional arch=all
+ libpostgresql-jdbc-java-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: postgresql, sqlline
+Directory: pool/main/libp/libpgjava
+Priority: source
+Section: libs

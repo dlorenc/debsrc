@@ -1,0 +1,28 @@
+Package: libtoml-tiny-perl
+Binary: libtoml-tiny-perl
+Version: 0.11-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdatetime-format-iso8601-perl <!nocheck>, libdatetime-format-rfc3339-perl <!nocheck>, libmath-bigint-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtest2-suite-perl <!nocheck>, libtoml-parser-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 038cf17f3f6ccd656632b165ef0b780f 2587 libtoml-tiny-perl_0.11-1.dsc
+ 1c3d2af3a09f7cdb78418d722f4d0c4f 41848 libtoml-tiny-perl_0.11.orig.tar.gz
+ 30247ef2585595eca1314074fb345a45 2272 libtoml-tiny-perl_0.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtoml-tiny-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtoml-tiny-perl.git
+Checksums-Sha256:
+ 67621ede894a4a0426bedcb20c581924c5e0956a8c4bb03453cc661bbb579ebb 2587 libtoml-tiny-perl_0.11-1.dsc
+ 2414821c3384fe8736b5cf67f389dbd0a4b05c4e6991d2fa99c0c24e35d88884 41848 libtoml-tiny-perl_0.11.orig.tar.gz
+ 154aa23b8560ff62df25acc4b51a77471408e130ec8dc3ba7f6a9fcc3d788731 2272 libtoml-tiny-perl_0.11-1.debian.tar.xz
+Homepage: https://metacpan.org/release/TOML-Tiny
+Dgit: b115cae679f395836881ef897513486171f012ab debian archive/debian/0.11-1 https://git.dgit.debian.org/libtoml-tiny-perl
+Package-List: 
+ libtoml-tiny-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtoml-tiny-perl
+Priority: extra
+Section: misc

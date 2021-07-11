@@ -1,0 +1,26 @@
+Package: libtins
+Binary: libtins4.0, libtins-dev
+Version: 4.0-1
+Maintainer: Internet Measurement Packaging Team <pkg-netmeasure-discuss@lists.alioth.debian.org>
+Uploaders: Federico Ceratto <federico@debian.org>
+Build-Depends: debhelper (>= 11~), cmake, libpcap-dev, libssl-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ c4d22f4e3757a19a752a0c43e44d8263 1979 libtins_4.0-1.dsc
+ 10e6c8d5b7ec862f0bebad26859c270a 364101 libtins_4.0.orig.tar.gz
+ 0a9e63b125b8461617b527080eaf89a6 2388 libtins_4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libtins
+Vcs-Git: https://salsa.debian.org/debian/libtins.git
+Checksums-Sha256:
+ c424faa668c311f940567cbeb470a8057a879e4853cbd1206a27f32bd55a8b4d 1979 libtins_4.0-1.dsc
+ 2a758d1bed51760bbd57fcaa00610534e0cc3a6d55d91983724e5f46739d66b8 364101 libtins_4.0.orig.tar.gz
+ 184a8e9636f927e4a14e01410ad7fac25aee347aee5fd9fcbc33f9a8b3bec86c 2388 libtins_4.0-1.debian.tar.xz
+Homepage: https://libtins.github.io/
+Package-List: 
+ libtins-dev deb libdevel optional arch=any
+ libtins4.0 deb libs optional arch=any
+Directory: pool/main/libt/libtins
+Priority: optional
+Section: misc

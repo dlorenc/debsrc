@@ -1,0 +1,27 @@
+Package: golang-github-minio-md5-simd
+Binary: golang-github-minio-md5-simd-dev
+Version: 1.1.1-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Félix Sipma <felix+debian@gueux.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-klauspost-cpuid-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8493869ae3d6691f3463e343d8283e2b 1689 golang-github-minio-md5-simd_1.1.1-1.dsc
+ e416ce4edd4b79c60c1e47ad2debf210 99927 golang-github-minio-md5-simd_1.1.1.orig.tar.gz
+ f0998a5f2e81cc2ccb5994ffab1cd25f 3476 golang-github-minio-md5-simd_1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-minio-md5-simd
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-minio-md5-simd.git
+Checksums-Sha256:
+ 64606864bbc81f86bccf46bee4999966f8a201acf3a0564dfe10aaecc3602e5c 1689 golang-github-minio-md5-simd_1.1.1-1.dsc
+ 2c7e3de0aaedff78910f716a6fc24edac171a031661464eb59259bc377ac9e29 99927 golang-github-minio-md5-simd_1.1.1.orig.tar.gz
+ 1aa56d313ebf98c02365ba5db9e1e5ed0fc378d1c21727b19e0293a7dd88b8ac 3476 golang-github-minio-md5-simd_1.1.1-1.debian.tar.xz
+Homepage: https://github.com/minio/md5-simd
+Go-Import-Path: github.com/minio/md5-simd
+Package-List: 
+ golang-github-minio-md5-simd-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-minio-md5-simd
+Priority: extra
+Section: misc

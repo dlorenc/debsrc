@@ -1,0 +1,27 @@
+Package: ruby-redcarpet
+Binary: ruby-redcarpet
+Version: 3.5.1-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>, Taku YASUI <tach@debian.org>, Lucas Nussbaum <lucas@debian.org>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, rake-compiler, ruby-test-unit
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f7f19ab1be097967bd162ae31f2aea82 2181 ruby-redcarpet_3.5.1-1.dsc
+ 2abee320c5ac0c22a2322071890745b3 59825 ruby-redcarpet_3.5.1.orig.tar.gz
+ ca1d354b6ca141b0740412a19123df9f 4692 ruby-redcarpet_3.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-redcarpet
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-redcarpet.git
+Checksums-Sha256:
+ 0af05202a10f85c52caba7ff83c0b9c87f39653778ffb6a08c929eeda2ed04e1 2181 ruby-redcarpet_3.5.1-1.dsc
+ 384b24cea6b2f46aed73f9ad18460458ea29f80f32c6696c2955b47349e2aefa 59825 ruby-redcarpet_3.5.1.orig.tar.gz
+ b73267650492a8d5f1a6532c15b4d17b6a8b1d9ecb6b183d08ac100f10cef927 4692 ruby-redcarpet_3.5.1-1.debian.tar.xz
+Homepage: https://github.com/vmg/redcarpet
+Package-List: 
+ ruby-redcarpet deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-redcarpet
+Priority: source
+Section: ruby

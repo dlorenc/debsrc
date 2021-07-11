@@ -1,0 +1,27 @@
+Package: node-process-nextick-args
+Binary: node-process-nextick-args
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@mail.dk>
+Build-Depends: debhelper (>= 11), dpkg-dev (>= 1.17.14), dh-buildinfo, node-tap (>= 0.2.6) <!nocheck>
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 39d3c2c929848c173251c4396b28b62f 2270 node-process-nextick-args_2.0.0-1.dsc
+ 6fc35334882fd207b651ad4bbc823e6c 2163 node-process-nextick-args_2.0.0.orig.tar.gz
+ 1387d6d473915a8e9c9303cb22f929bb 2932 node-process-nextick-args_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-process-nextick-args.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-process-nextick-args.git
+Checksums-Sha256:
+ 56e4dec12dd31697f70ddbc9291336f9a1f8ebe5a8ac6097745f7c1fce0e1881 2270 node-process-nextick-args_2.0.0-1.dsc
+ ebf99cad8e69f077c9a54125663a8c766499275fff80a778976c1087f1c384e0 2163 node-process-nextick-args_2.0.0.orig.tar.gz
+ b837e892f40f490128efdc0dc42aee9fd38b5d4a3ac99e2bf87339d6f504cbe1 2932 node-process-nextick-args_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/calvinmetcalf/process-nextick-args
+Package-List: 
+ node-process-nextick-args deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tap, nodejs
+Directory: pool/main/n/node-process-nextick-args
+Priority: optional
+Section: javascript

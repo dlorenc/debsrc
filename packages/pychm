@@ -1,0 +1,26 @@
+Package: pychm
+Binary: python3-chm, python3-chm-dbg
+Version: 0.8.6-2
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 9), dh-python, libchm-dev (>= 0.3), python3-all-dev, python3-all-dbg, python3-setuptools
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 081a6394266d6bc59ba51ba056c0321d 2053 pychm_0.8.6-2.dsc
+ 74e546863bba3fa897ab7b15d0507679 17532 pychm_0.8.6.orig.tar.xz
+ 0ce5bb76e7ae4a03e5b02eadbbd0929b 3640 pychm_0.8.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pychm
+Vcs-Git: https://salsa.debian.org/python-team/modules/pychm.git
+Checksums-Sha256:
+ 7d63bdd57230f19bd9dfbe3a4459b827986d74fda71f2d703276ec1a14fe9685 2053 pychm_0.8.6-2.dsc
+ 71f018c3c1ef86645d8545143bd31e206e58d1c02821623c059a15b007a6635c 17532 pychm_0.8.6.orig.tar.xz
+ 7abaa90419530d5da188800704f143e9fe3a34ce01110ef2082515dda32b1fef 3640 pychm_0.8.6-2.debian.tar.xz
+Homepage: https://github.com/dottedmag/pychm
+Package-List: 
+ python3-chm deb python optional arch=any
+ python3-chm-dbg deb debug optional arch=any
+Directory: pool/main/p/pychm
+Priority: source
+Section: python

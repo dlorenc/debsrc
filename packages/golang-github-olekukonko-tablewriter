@@ -1,0 +1,27 @@
+Package: golang-github-olekukonko-tablewriter
+Binary: golang-github-olekukonko-tablewriter-dev
+Version: 0.0.4-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang (>= 1.17~), golang-any, golang-github-mattn-go-runewidth-dev (>= 0.0.7~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cd8e306dc4f879db92958129bc476d72 2471 golang-github-olekukonko-tablewriter_0.0.4-1.dsc
+ eafbd5544b1f21c223f43d1f5480ae37 19252 golang-github-olekukonko-tablewriter_0.0.4.orig.tar.gz
+ 3ba0a6b712bb5347c16b667c3bf1bc09 3248 golang-github-olekukonko-tablewriter_0.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-olekukonko-tablewriter
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-olekukonko-tablewriter.git
+Checksums-Sha256:
+ 9c798d8856e2995e24f95d7a254276ea5e96c402a1e4a98448862915667ac86a 2471 golang-github-olekukonko-tablewriter_0.0.4-1.dsc
+ a86028430fb4dd99ce0030a7c4d37915337c3b9a9efbfd2698b375f3e3488bd0 19252 golang-github-olekukonko-tablewriter_0.0.4.orig.tar.gz
+ 7fe1474afaf58186d44c39cb634be027f901f8247e1ab0cdc361f543d10105c1 3248 golang-github-olekukonko-tablewriter_0.0.4-1.debian.tar.xz
+Homepage: https://github.com/olekukonko/tablewriter
+Go-Import-Path: github.com/olekukonko/tablewriter
+Package-List: 
+ golang-github-olekukonko-tablewriter-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-olekukonko-tablewriter
+Priority: extra
+Section: golang

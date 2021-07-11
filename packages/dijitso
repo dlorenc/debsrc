@@ -1,0 +1,27 @@
+Package: dijitso
+Binary: python3-dijitso
+Version: 2019.2.0~git20190418.c92dcb0-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Johannes Ring <johannr@simula.no>, Drew Parsons <dparsons@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-numpy
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 97e1e949f0492678e1537f7a9f6335eb 2271 dijitso_2019.2.0~git20190418.c92dcb0-2.dsc
+ 93650f9a5f5e4eab92c77f7c5b0f6f8b 51790 dijitso_2019.2.0~git20190418.c92dcb0.orig.tar.gz
+ b1eca99310e28cc1c9f3e092016cf133 5176 dijitso_2019.2.0~git20190418.c92dcb0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/fenics/dijitso
+Vcs-Git: https://salsa.debian.org/science-team/fenics/dijitso.git
+Checksums-Sha256:
+ 59e053634c76d1f7772f785791090191449a67c8cf29ffa9f06667992308b984 2271 dijitso_2019.2.0~git20190418.c92dcb0-2.dsc
+ 6d6b266b17efccc97384e577b7d2960efaad0c3bbbf68221e3adfdab773079a6 51790 dijitso_2019.2.0~git20190418.c92dcb0.orig.tar.gz
+ ea62400945ef13faed6a6481ec57550bdd84ffc0e7bb0021829684ee814101c2 5176 dijitso_2019.2.0~git20190418.c92dcb0-2.debian.tar.xz
+Homepage: https://fenicsproject.org
+Package-List: 
+ python3-dijitso deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, mpi-default-bin, python3-pytest
+Directory: pool/main/d/dijitso
+Priority: optional
+Section: misc

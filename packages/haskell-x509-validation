@@ -1,0 +1,28 @@
+Package: haskell-x509-validation
+Binary: libghc-x509-validation-dev, libghc-x509-validation-prof, libghc-x509-validation-doc
+Version: 1.6.11-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-asn1-encoding-dev (<< 0.10), libghc-asn1-encoding-dev (>= 0.9), libghc-asn1-encoding-prof, libghc-asn1-types-dev (<< 0.4), libghc-asn1-types-dev (>= 0.3), libghc-asn1-types-prof, libghc-cryptonite-dev (>= 0.24), libghc-cryptonite-prof, libghc-data-default-class-dev, libghc-data-default-class-prof, libghc-hourglass-dev, libghc-hourglass-prof, libghc-memory-dev, libghc-memory-prof, libghc-pem-dev (>= 0.1), libghc-pem-prof, libghc-x509-dev (>= 1.7.5), libghc-x509-prof, libghc-x509-store-dev (>= 1.6), libghc-x509-store-prof
+Build-Depends-Indep: ghc-doc, libghc-asn1-encoding-doc, libghc-asn1-types-doc, libghc-cryptonite-doc, libghc-data-default-class-doc, libghc-hourglass-doc, libghc-memory-doc, libghc-pem-doc, libghc-x509-doc, libghc-x509-store-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 63d4b0c8ea7814dae264c887a204ae96 3163 haskell-x509-validation_1.6.11-2.dsc
+ e63bf32c356ee351348dc5e727bae6e7 19752 haskell-x509-validation_1.6.11.orig.tar.gz
+ c4efb67cec3abfd1a051ca9d2e500d0f 3460 haskell-x509-validation_1.6.11-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-x509-validation
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-x509-validation]
+Checksums-Sha256:
+ 913e1dd8b450f8b6993ddb6cddda02c27a64ce7d06c1a0da822e8e0728c1a5ec 3163 haskell-x509-validation_1.6.11-2.dsc
+ f94321cbcc4a534adf5889ae6950f3673e38b62b89b6970b477f502ce987d19b 19752 haskell-x509-validation_1.6.11.orig.tar.gz
+ 1509f2b66ebd5d6aa035de76b5b999d28ec70366a6db1b1211fa60190860a539 3460 haskell-x509-validation_1.6.11-2.debian.tar.xz
+Homepage: https://github.com/vincenthz/hs-certificate
+Package-List: 
+ libghc-x509-validation-dev deb haskell optional arch=any
+ libghc-x509-validation-doc deb doc optional arch=all
+ libghc-x509-validation-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-x509-validation
+Priority: optional
+Section: misc

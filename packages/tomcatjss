@@ -1,0 +1,25 @@
+Package: tomcatjss
+Binary: libtomcatjss-java
+Version: 7.6.1-1
+Maintainer: Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>
+Uploaders: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: ant, debhelper-compat (= 12), default-jdk, javahelper, libcommons-lang3-java, libjss-java (>= 4.8.0~), libslf4j-java, libtomcat9-java (>= 9.0.37-2~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9f81c941eb35e8fbf86b1b85c36c7c8c 2057 tomcatjss_7.6.1-1.dsc
+ f3d22d0cad3c0250fd0ca9b3034a1a59 28680 tomcatjss_7.6.1.orig.tar.gz
+ 052c44d58843ae96b1738bb3694c5e8a 3444 tomcatjss_7.6.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freeipa-team/tomcatjss.git
+Vcs-Git: https://salsa.debian.org/freeipa-team/tomcatjss.git
+Checksums-Sha256:
+ b51318315b35f8b493377c1605b8e1ca1f28f2efba1f9c7abd8f390a960bc0a6 2057 tomcatjss_7.6.1-1.dsc
+ 98f9ba16f683b6a557a48e295fecf6321f0a632b789b157c99df37f1020b0c9f 28680 tomcatjss_7.6.1.orig.tar.gz
+ 169f4d3b8a80fd96e5e79d692f5ea873db1ae3b6e584be52ab33abfddee626b3 3444 tomcatjss_7.6.1-1.debian.tar.xz
+Homepage: http://pki.fedoraproject.org
+Package-List: 
+ libtomcatjss-java deb java optional arch=all
+Directory: pool/main/t/tomcatjss
+Priority: source
+Section: libs

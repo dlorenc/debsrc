@@ -1,0 +1,29 @@
+Package: openal-soft
+Binary: libopenal-dev, libopenal1, openal-info, makehrtf, libopenal-data
+Version: 1:1.19.1-2
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Bruno "Fuddl" Kleinert <fuddl@tauware.de>, Reinhard Tartler <siretart@tauware.de>, Gonéri Le Bouder <goneri@rulezlan.org>, Bret Curtis <psi29a@gmail.com>
+Build-Depends: debhelper-compat (= 13), libasound2-dev [linux-any], cmake, portaudio19-dev, libpulse-dev, libsndio-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cfba02fbf462cd6682fff3ad8e428405 2526 openal-soft_1.19.1-2.dsc
+ 616ecdccb6fb4ac42a04d74f54c9a188 683061 openal-soft_1.19.1.orig.tar.gz
+ 988180b4370eb5f6ab869a544d1417be 12836 openal-soft_1.19.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/openal-soft
+Vcs-Git: https://salsa.debian.org/games-team/openal-soft.git
+Checksums-Sha256:
+ d014f787306e55bbd034dbb3aeeeff1bfbde1e941f5fb5975572475c67c117b1 2526 openal-soft_1.19.1-2.dsc
+ 9f3536ab2bb7781dbafabc6a61e0b34b17edd16bd6c2eaf2ae71bc63078f98c7 683061 openal-soft_1.19.1.orig.tar.gz
+ 9d8a56f44caa0104f9d3a5e53e6c2edf2b1c631229a2b60c0396b7b9c6af5a89 12836 openal-soft_1.19.1-2.debian.tar.xz
+Homepage: http://kcat.strangesoft.net/openal.html
+Package-List: 
+ libopenal-data deb libs optional arch=all
+ libopenal-dev deb libdevel optional arch=any
+ libopenal1 deb libs optional arch=any
+ makehrtf deb sound optional arch=any
+ openal-info deb sound optional arch=any
+Directory: pool/main/o/openal-soft
+Priority: source
+Section: libs

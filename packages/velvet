@@ -1,0 +1,29 @@
+Package: velvet
+Binary: velvet, velvet-long, velvet-example, velvet-tests
+Version: 1.2.10+dfsg1-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), zlib1g-dev, texlive-latex-base, texlive-latex-recommended
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b37bc3cf52d7362f77401dfc8421857c 2274 velvet_1.2.10+dfsg1-7.dsc
+ 7a58a6d75cdc8b89d1c605033050bbcf 13630488 velvet_1.2.10+dfsg1.orig.tar.xz
+ 7cfa57445205ef35873e4b7c30d50f07 16832 velvet_1.2.10+dfsg1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/velvet
+Vcs-Git: https://salsa.debian.org/med-team/velvet.git
+Checksums-Sha256:
+ 5ccd31c1559d028b192b29a2b8ccb33dec26134a43fd35e8de7f81234f09851f 2274 velvet_1.2.10+dfsg1-7.dsc
+ 368d760ad56ffa010a2ae72b25d46680ecb7ad8cc573cf6c389848c87b32ee26 13630488 velvet_1.2.10+dfsg1.orig.tar.xz
+ 478f6db97a946075c949655012e60767041b524808b85922c3feef1ef768f316 16832 velvet_1.2.10+dfsg1-7.debian.tar.xz
+Homepage: https://www.ebi.ac.uk/~zerbino/velvet/
+Package-List: 
+ velvet deb science optional arch=any
+ velvet-example deb science optional arch=all
+ velvet-long deb science optional arch=any
+ velvet-tests deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/v/velvet
+Priority: source
+Section: science

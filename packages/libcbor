@@ -1,0 +1,26 @@
+Package: libcbor
+Binary: libcbor0, libcbor-dev, libcbor-doc
+Version: 0.5.0+dfsg-2
+Maintainer: Vincent Bernat <bernat@debian.org>
+Build-Depends: debhelper (>= 9), cmake, libcmocka-dev, python3-sphinx, python3-sphinx-rtd-theme, python3-breathe
+Architecture: any all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ df2916eabf7613cf4e6f26adfbf3dc3e 2057 libcbor_0.5.0+dfsg-2.dsc
+ 79b719fa05ac2a33e6278583302b75a2 261201 libcbor_0.5.0+dfsg.orig.tar.gz
+ d4b55725273355199e39a2b6d34b15c5 3944 libcbor_0.5.0+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libcbor/
+Vcs-Git: https://salsa.debian.org/debian/libcbor.git
+Checksums-Sha256:
+ c1ad2786b340b65d55761ecc3d090a9d997b3a0e5218ff1d39f5cd19df900d73 2057 libcbor_0.5.0+dfsg-2.dsc
+ 2bd1fb795d121a72fc127ccd0e6ce5f5742d5970d0913759bcdc729c700804fb 261201 libcbor_0.5.0+dfsg.orig.tar.gz
+ c06d0890b369183142d09fc6a460d68fdaf32bb22f9885ee1cc203d00adc543d 3944 libcbor_0.5.0+dfsg-2.debian.tar.xz
+Homepage: https://github.com/PJK/libcbor
+Package-List: 
+ libcbor-dev deb libdevel optional arch=any
+ libcbor-doc deb doc optional arch=all
+ libcbor0 deb libs optional arch=any
+Directory: pool/main/libc/libcbor
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: python-libevdev
+Binary: python3-libevdev, python-libevdev-doc
+Version: 0.5-3
+Maintainer: Stephen Kitt <skitt@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, libevdev-dev, python3-all, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 385bce8b3746fa967104f88c0941b8a6 2090 python-libevdev_0.5-3.dsc
+ 4a7785582b95e391fe0aefa6fd797c91 34940 python-libevdev_0.5.orig.tar.gz
+ 722d12c321fe53da0adb4cd29acbbbe2 2996 python-libevdev_0.5-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-libevdev
+Vcs-Git: https://salsa.debian.org/debian/python-libevdev.git
+Checksums-Sha256:
+ 8ecfe7c5ff1a3632f5f3e0c3188b55adf54a36cf4d7a4e50685adf5afb576539 2090 python-libevdev_0.5-3.dsc
+ ccfce0fa1014c268101d38bb1204feb0758fc36f35102bd1ea01663417db077f 34940 python-libevdev_0.5.orig.tar.gz
+ d8cf6c5bc3379c4d88b7321fd64aa582ce0c789a5ed2a58349e1c5f303ecb472 2996 python-libevdev_0.5-3.debian.tar.xz
+Homepage: https://github.com/whot/python-libevdev
+Package-List: 
+ python-libevdev-doc deb doc optional arch=all
+ python3-libevdev deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-libevdev
+Priority: extra
+Section: misc

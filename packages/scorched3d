@@ -1,0 +1,27 @@
+Package: scorched3d
+Binary: scorched3d, scorched3d-data
+Version: 44+dfsg-7
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Reinhard Tartler <siretart@tauware.de>, Bruno Kleinert <fuddl@debian.org>,
+Build-Depends: debhelper-compat (= 12), gawk, libalut-dev, libexpat1-dev, libfftw3-dev, libfreetype6-dev, libgl1-mesa-dev, libglew-dev, libglu1-mesa-dev, libjpeg-dev, liblua5.4-dev, libogg-dev, libopenal-dev, libpng-dev, libsdl-net1.2-dev, libsdl1.2-dev, libvorbis-dev, libwxgtk3.0-gtk3-dev, pkg-config
+Build-Conflicts: nvidia-glx
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 426f835ea9ca1b00233caee8e61a527f 2368 scorched3d_44+dfsg-7.dsc
+ c21d06a5c8892ed1c032fe1eed07f2d0 32916656 scorched3d_44+dfsg.orig.tar.xz
+ f604c1ecf318c5c6404e2ba48b845ecc 123680 scorched3d_44+dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/scorched3d
+Vcs-Git: https://salsa.debian.org/games-team/scorched3d.git
+Checksums-Sha256:
+ 3558fe185963a81d370bb39642b33f9e4ead1af8e56254c09353de57147d4d0c 2368 scorched3d_44+dfsg-7.dsc
+ 5b5e09bd9b2c186545a75cff9dde893edce766fa80b2ae3a6fe80ef7a2b59e38 32916656 scorched3d_44+dfsg.orig.tar.xz
+ a71ff483e581c656d5fcd47e65a2ce1258ee147e3944e7b34719bf9440070435 123680 scorched3d_44+dfsg-7.debian.tar.xz
+Homepage: http://www.scorched3d.co.uk/
+Package-List: 
+ scorched3d deb games optional arch=any
+ scorched3d-data deb games optional arch=all
+Directory: pool/main/s/scorched3d
+Priority: source
+Section: games

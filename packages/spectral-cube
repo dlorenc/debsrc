@@ -1,0 +1,27 @@
+Package: spectral-cube
+Binary: python3-spectral-cube
+Version: 0.5.0-1
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-aplpy, python3-astropy, python3-astropy-helpers, python3-dask, python3-pytest, python3-radio-beam, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 10a487c43861326a1edb02e8d5094a98 2213 spectral-cube_0.5.0-1.dsc
+ fd3f45419a4b029887f3187929a321ec 240905 spectral-cube_0.5.0.orig.tar.gz
+ 840e7fa856b7f13aaa408014837c88d5 5132 spectral-cube_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/spectral-cube
+Vcs-Git: https://salsa.debian.org/debian-astro-team/spectral-cube.git
+Checksums-Sha256:
+ 53131b34f0e4535c482d2c07032f7941013bfb803f8d63807a541c5679cf6dbc 2213 spectral-cube_0.5.0-1.dsc
+ 71c62c336a8f9b216cfee5fae2ab86a032df323d41f684ec44cb796d44d6f19f 240905 spectral-cube_0.5.0.orig.tar.gz
+ 2b8575f78daf3531d2f9e14310e09334d9b62a1a17b38ce802b443a13e825ec4 5132 spectral-cube_0.5.0-1.debian.tar.xz
+Homepage: https://spectral-cube.readthedocs.org
+Package-List: 
+ python3-spectral-cube deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/s/spectral-cube
+Priority: optional
+Section: misc

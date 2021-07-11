@@ -1,0 +1,26 @@
+Package: haskell-gi-pango
+Binary: libghc-gi-pango-dev, libghc-gi-pango-prof, libghc-gi-pango-doc
+Version: 1.0.23-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-gi-glib-dev (>= 2.0), libghc-gi-glib-dev (<< 2.1), libghc-gi-glib-prof (>= 2.0), libghc-gi-glib-prof (<< 2.1), libghc-gi-gobject-dev (>= 2.0), libghc-gi-gobject-dev (<< 2.1), libghc-gi-gobject-prof, libghc-gi-harfbuzz-dev (>= 0.0), libghc-gi-harfbuzz-dev (<< 0.1), libghc-gi-harfbuzz-prof, libghc-haskell-gi-dev (>= 0.24.0), libghc-haskell-gi-dev (<< 0.25), libghc-haskell-gi-prof, libghc-haskell-gi-base-dev (>= 0.24), libghc-haskell-gi-base-dev (<< 0.25), libghc-haskell-gi-base-prof, pkg-config, libpango1.0-dev
+Build-Depends-Indep: ghc-doc, libghc-gi-glib-doc, libghc-gi-gobject-doc, libghc-gi-harfbuzz-doc, libghc-haskell-gi-doc, libghc-haskell-gi-base-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 46da8e3bedacbf5ec9960c912db6d7b5 2801 haskell-gi-pango_1.0.23-1.dsc
+ 75234b5260f70da43b1f250ffaa4e383 12695 haskell-gi-pango_1.0.23.orig.tar.gz
+ b7624afaa0fd09bf5fc3792c71721ca1 1768 haskell-gi-pango_1.0.23-1.debian.tar.xz
+Checksums-Sha256:
+ 2e44b9a18d09d1ace95d89bf652222493fffd39dd6db07b62750edd3bdde3eb9 2801 haskell-gi-pango_1.0.23-1.dsc
+ 89de8d4cf0911e471685ba9a1a0a72033748aaefa0e6f14ac0bf37fced40f7a2 12695 haskell-gi-pango_1.0.23.orig.tar.gz
+ b60d10e64a2c559e617a505d3102f004b67cc5241e7123e685cf93ef52eee0b5 1768 haskell-gi-pango_1.0.23-1.debian.tar.xz
+Homepage: https://github.com/haskell-gi/haskell-gi
+Package-List: 
+ libghc-gi-pango-dev deb haskell optional arch=any
+ libghc-gi-pango-doc deb doc optional arch=all
+ libghc-gi-pango-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-gi-pango
+Priority: extra
+Section: misc

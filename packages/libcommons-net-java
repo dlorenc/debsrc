@@ -1,0 +1,26 @@
+Package: libcommons-net-java
+Binary: libcommons-net-java, libcommons-net-java-doc
+Version: 3.6-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 10), default-jdk, default-jdk-doc, junit4, libbuild-helper-maven-plugin-java, libcommons-parent-java (>= 39), libmaven-antrun-plugin-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, libmaven-source-plugin-java, maven-debian-helper (>= 2.0.2~)
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ f2619a3eb3261c05914fb998816353f4 2423 libcommons-net-java_3.6-1.dsc
+ c7b1c720fc0dd36a7bcd85ace116dc76 307800 libcommons-net-java_3.6.orig.tar.xz
+ f7f097df73c8f89ba23b303a40bb646b 4376 libcommons-net-java_3.6-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/libcommons-net-java.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/libcommons-net-java.git
+Checksums-Sha256:
+ 31b59a51575edc9c48a895d6277bf80bbf05f6d2456f7c4157d7a79d25a4b5b6 2423 libcommons-net-java_3.6-1.dsc
+ 7eee0e4ac4905c84b5c585a6785cdf9c87b89502f608059b2e766c92f60c4811 307800 libcommons-net-java_3.6.orig.tar.xz
+ 9e0ecb219dfca1f1830a94528b515bb1cd99f438419bc18198660a63616db61d 4376 libcommons-net-java_3.6-1.debian.tar.xz
+Homepage: http://commons.apache.org/net/
+Package-List: 
+ libcommons-net-java deb java optional arch=all
+ libcommons-net-java-doc deb doc optional arch=all
+Directory: pool/main/libc/libcommons-net-java
+Priority: optional
+Section: misc

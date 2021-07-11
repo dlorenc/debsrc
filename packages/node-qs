@@ -1,0 +1,26 @@
+Package: node-qs
+Binary: node-qs
+Version: 6.9.4+ds-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>, Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13), node-browserify-lite, node-iconv-lite <!nocheck>, node-lodash <!nocheck>, node-tape <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 271dd33acbc9fc69ec64c0592dbbebf5 2101 node-qs_6.9.4+ds-1.dsc
+ ed88fb0c84c8e6d75b86536e20158226 27104 node-qs_6.9.4+ds.orig.tar.xz
+ ecce34bac089b81b8e9aa212ff840fe0 8024 node-qs_6.9.4+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-qs
+Vcs-Git: https://salsa.debian.org/js-team/node-qs.git
+Checksums-Sha256:
+ a5f0f6fce01169a75885b161d516156319fe57fa4faa50938ab8b07079229acd 2101 node-qs_6.9.4+ds-1.dsc
+ 176a4a2cbb996a9fc0aee8a02c7958c9c20c99ee7ad26ffd2a0a69b3355bb8ef 27104 node-qs_6.9.4+ds.orig.tar.xz
+ af21aadb43b004121657e31aedbd62cbab1db3af3603c105e15d4f7425f79e45 8024 node-qs_6.9.4+ds-1.debian.tar.xz
+Homepage: https://github.com/hapijs/qs
+Package-List: 
+ node-qs deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-qs
+Priority: source
+Section: javascript

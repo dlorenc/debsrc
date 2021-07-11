@@ -1,0 +1,28 @@
+Package: libsnmp-info-perl
+Binary: libsnmp-info-perl
+Version: 3.71-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Christoph Martin <christoph.martin@uni-mainz.de>, gregor herrmann <gregoa@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, perl
+Build-Depends-Indep: libnetaddr-ip-perl <!nocheck>, libsnmp-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9ca38f8dd3e6832ab6a28681e4bfe125 2506 libsnmp-info-perl_3.71-1.dsc
+ 42b4b498d7f4f64bd13a6195d8c24a13 572287 libsnmp-info-perl_3.71.orig.tar.gz
+ 308a4803b14e57e46ad9e613671c5c55 7232 libsnmp-info-perl_3.71-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsnmp-info-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsnmp-info-perl.git
+Checksums-Sha256:
+ 39886a19b2d20d7358c9319b8f64cc26f6faa469d58dc6d4cde58b2edb8c6868 2506 libsnmp-info-perl_3.71-1.dsc
+ 0774b265f7be0564a836233ef2f2d694bc677ad9cc68e21b83c14e2ab5e7183e 572287 libsnmp-info-perl_3.71.orig.tar.gz
+ bea53b6a156b2d7ef37d631754931fcd8ffb70d93fb12e257ad1b6db2c80cc7b 7232 libsnmp-info-perl_3.71-1.debian.tar.xz
+Homepage: http://snmp-info.sourceforge.net
+Dgit: a0ea821c3c3e5ecaa3710ee4566b55b480162ed3 debian archive/debian/3.71-1 https://git.dgit.debian.org/libsnmp-info-perl
+Package-List: 
+ libsnmp-info-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libs/libsnmp-info-perl
+Priority: source
+Section: perl

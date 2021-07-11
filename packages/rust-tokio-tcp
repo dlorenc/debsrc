@@ -1,0 +1,27 @@
+Package: rust-tokio-tcp
+Binary: librust-tokio-tcp-dev
+Version: 0.1.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bytes-0.4+default-dev <!nocheck>, librust-futures-0.1+default-dev (>= 0.1.19-~~) <!nocheck>, librust-iovec-0.1+default-dev <!nocheck>, librust-mio-0.6+default-dev (>= 0.6.14-~~) <!nocheck>, librust-tokio-io-0.1+default-dev (>= 0.1.6-~~) <!nocheck>, librust-tokio-reactor-0.1+default-dev (>= 0.1.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 26ff265dd5dc5e8608ca3a0e3f8fc762 2572 rust-tokio-tcp_0.1.4-1.dsc
+ 8a91e95192d3540845b244118b33f591 12745 rust-tokio-tcp_0.1.4.orig.tar.gz
+ 8bd02f46449b279bef494b50ae33a54f 2660 rust-tokio-tcp_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-tcp
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-tcp]
+Checksums-Sha256:
+ c15d4ba34a40e62bcdecd3d3dc084c8184b4129c7f4ffa71748c83460d8e03d0 2572 rust-tokio-tcp_0.1.4-1.dsc
+ 98df18ed66e3b72e742f185882a9e201892407957e45fbff8da17ae7a7c51f72 12745 rust-tokio-tcp_0.1.4.orig.tar.gz
+ a851d92ff5890d9fd8ec735116abf83cd743e85499a1de45e874cf9b078e32bb 2660 rust-tokio-tcp_0.1.4-1.debian.tar.xz
+Homepage: https://tokio.rs
+Package-List: 
+ librust-tokio-tcp-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-env-logger-0.6-dev, librust-net2-0.2+default-dev, librust-tokio-0.1+default-dev
+Directory: pool/main/r/rust-tokio-tcp
+Priority: extra
+Section: misc

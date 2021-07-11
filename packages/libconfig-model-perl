@@ -1,0 +1,27 @@
+Package: libconfig-model-perl
+Binary: libconfig-model-perl
+Version: 2.141-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>, gregor herrmann <gregoa@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: dh-sequence-bash-completion, libboolean-perl, libcarp-assert-more-perl, libconfig-model-tester-perl (>= 4.002), libfile-homedir-perl, libhash-merge-perl, libjson-perl, liblist-moreutils-perl, liblog-log4perl-perl, libmouse-perl, libmousex-nativetraits-perl, libmousex-strictconstructor-perl, libparse-recdescent-perl, libpath-tiny-perl (>= 0.070), libpod-pom-perl, libprobe-perl-perl, libregexp-common-perl, libtest-command-perl, libtest-differences-perl, libtest-exception-perl, libtest-file-contents-perl, libtest-log-log4perl-perl, libtest-memory-cycle-perl, libtest-pod-perl, libtest-warn-perl, libtext-levenshtein-damerau-perl, libyaml-tiny-perl, po-debconf
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 630d620e26f4aae3fb0cabe1ef6d7fac 2899 libconfig-model-perl_2.141-1.dsc
+ 2a311ffe82f474708ae88466cd5c0b26 368080 libconfig-model-perl_2.141.orig.tar.gz
+ 835dd5a138293e44de10c852464d2072 24628 libconfig-model-perl_2.141-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libconfig-model-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libconfig-model-perl.git
+Checksums-Sha256:
+ 6eec2303cb1557ac221567f5adb0bfc66d4bde659448b6e3111ed6ba97948f8e 2899 libconfig-model-perl_2.141-1.dsc
+ 24abe2dd21cee34c6ac8518042b32c9f913b76037f2c9a0ba13fe5cae1d2e3d5 368080 libconfig-model-perl_2.141.orig.tar.gz
+ 2e68d34446c153d7d5d245388f0f523103ce38b51df96aafb907039394cd2e96 24628 libconfig-model-perl_2.141-1.debian.tar.xz
+Homepage: https://github.com/dod38fr/config-model/wiki
+Package-List: 
+ libconfig-model-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libconfig-model-perl
+Priority: source
+Section: perl

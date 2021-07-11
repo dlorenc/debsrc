@@ -1,0 +1,28 @@
+Package: berkeley-express
+Binary: berkeley-express, berkeley-express-doc
+Version: 1.5.3+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael R. Crusoe <michael.crusoe@gmail.com>
+Build-Depends: debhelper-compat (= 12), libboost-thread-dev, libboost-system-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-date-time-dev, libbamtools-dev, libboost-tools-dev, libgoogle-perftools-dev [amd64 arm64 armel armhf i386 powerpc ppc64el], cmake, libprotobuf-dev, protobuf-compiler
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ c5271b46f192454fd100dc8076b8deed 2475 berkeley-express_1.5.3+dfsg-1.dsc
+ cdb0c73b54ec20a662c14e6bfee0e384 365872 berkeley-express_1.5.3+dfsg.orig.tar.xz
+ 7bbc1b8cf8bb8284497d69b2522bee13 10336 berkeley-express_1.5.3+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/berkeley-express
+Vcs-Git: https://salsa.debian.org/med-team/berkeley-express.git
+Checksums-Sha256:
+ 7362a74ada399146838f652d25f0067ae2cbb74af0482393afea9c1ce082744b 2475 berkeley-express_1.5.3+dfsg-1.dsc
+ f26e2f6e4e04671a64619f014ab2195f42d53fbac8b8b84f46082c5cdc6d845b 365872 berkeley-express_1.5.3+dfsg.orig.tar.xz
+ aaa50dca79e3364536e271d1100d0da4ca430c77cbf974d49a85456ba190ecf4 10336 berkeley-express_1.5.3+dfsg-1.debian.tar.xz
+Homepage: http://bio.math.berkeley.edu/eXpress/index.html
+Package-List: 
+ berkeley-express deb science optional arch=any
+ berkeley-express-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: bowtie, gzip, samtools
+Directory: pool/main/b/berkeley-express
+Priority: optional
+Section: misc

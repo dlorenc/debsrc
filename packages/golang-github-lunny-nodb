@@ -1,0 +1,26 @@
+Package: golang-github-lunny-nodb
+Binary: golang-github-lunny-nodb-dev
+Version: 0.0~git20160621.0.fc1ef06-5
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-burntsushi-toml-dev, golang-github-lunny-log-dev, golang-github-siddontang-go-snappy-dev, golang-github-syndtr-goleveldb-dev
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 64f77c18e5588f74b9845d3c5545e3c0 2396 golang-github-lunny-nodb_0.0~git20160621.0.fc1ef06-5.dsc
+ 4e200395da64e17a733f111983954442 40012 golang-github-lunny-nodb_0.0~git20160621.0.fc1ef06.orig.tar.xz
+ 39f808a70ddf085b6d4a4dc3cb5fbfdd 2908 golang-github-lunny-nodb_0.0~git20160621.0.fc1ef06-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-lunny-nodb
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-lunny-nodb.git
+Checksums-Sha256:
+ 2b945f6a88ebe1b1cefac9eba07ceeb8918583059b517280ebc5072d8bdb0e33 2396 golang-github-lunny-nodb_0.0~git20160621.0.fc1ef06-5.dsc
+ 9ca5b7eed45ff5eeac3b28aa82b571394b5eb39b827470ea0f2e34b03b7dd2dd 40012 golang-github-lunny-nodb_0.0~git20160621.0.fc1ef06.orig.tar.xz
+ 84551ca625be3d49a66d3191227a35163351c8e1d87874d59e642455cbc340a3 2908 golang-github-lunny-nodb_0.0~git20160621.0.fc1ef06-5.debian.tar.xz
+Homepage: https://github.com/lunny/nodb
+Go-Import-Path: github.com/lunny/nodb
+Package-List: 
+ golang-github-lunny-nodb-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-lunny-nodb
+Priority: extra
+Section: golang

@@ -1,0 +1,28 @@
+Package: haskell-active
+Binary: libghc-active-dev, libghc-active-prof, libghc-active-doc
+Version: 0.2.0.14-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-lens-dev (>= 4.0), libghc-lens-dev (<< 4.20), libghc-lens-prof, libghc-linear-dev (>= 1.14), libghc-linear-dev (<< 1.22), libghc-linear-prof, libghc-semigroupoids-dev (>= 1.2), libghc-semigroupoids-dev (<< 5.4), libghc-semigroupoids-prof, libghc-semigroups-dev (>= 0.1), libghc-semigroups-dev (<< 0.20), libghc-semigroups-prof, libghc-vector-dev (>= 0.10), libghc-vector-prof, libghc-quickcheck2-dev (>= 2.9), libghc-quickcheck2-dev (<< 2.14), libghc-quickcheck2-prof
+Build-Depends-Indep: ghc-doc, libghc-lens-doc, libghc-linear-doc, libghc-semigroupoids-doc, libghc-semigroups-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6d69b00df2fb990c19d317d3188464ff 2894 haskell-active_0.2.0.14-2.dsc
+ af470285c6756dbdd43714dff0256ee1 13462 haskell-active_0.2.0.14.orig.tar.gz
+ ff2d7686d23b8e85707189c06a160d2c 3988 haskell-active_0.2.0.14-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-active
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-active]
+Checksums-Sha256:
+ dcadb205e56db7dd996dc577dfc96cff66656f2e8b75384893eab01c826ad749 2894 haskell-active_0.2.0.14-2.dsc
+ df45678266e0d95830a8210213fdf86d4dca765f1c094d31294569662c256b74 13462 haskell-active_0.2.0.14.orig.tar.gz
+ b0fd05a17c7f1794ff4feb0dc1ef0426336d54973726ef384d455a1cdd0be442 3988 haskell-active_0.2.0.14-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/active
+Package-List: 
+ libghc-active-dev deb haskell optional arch=any
+ libghc-active-doc deb doc optional arch=all
+ libghc-active-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-active
+Priority: source
+Section: haskell

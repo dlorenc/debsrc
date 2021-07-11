@@ -1,0 +1,28 @@
+Package: pydicom
+Binary: python3-pydicom, python-pydicom-doc, python3-dicom
+Version: 2.0.0-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <mih@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools, python3-numpy, python3-docutils, python3-pil, python3-sphinx, python3-sphinx-gallery, python3-sphinx-rtd-theme, python3-sphinx-issues, python3-matplotlib, python3-numpydoc
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 510fa24a9b01fcfd2d64c6015186e564 2372 pydicom_2.0.0-1.dsc
+ 57262b6846904fd14647430363c2319a 35492087 pydicom_2.0.0.orig.tar.gz
+ a1931620a9b674ac3a1cf2bd55dc44d0 6224 pydicom_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pydicom
+Vcs-Git: https://salsa.debian.org/med-team/pydicom.git
+Checksums-Sha256:
+ 336166cf54a7a69ca103fd9c611e2c469f254fa5092d0f87ac26882035f5dc31 2372 pydicom_2.0.0-1.dsc
+ dc11bc6ae2cf5ff15a548bd5bc7ac1e4e56ea8741ae6f6dc3dd156709900f62e 35492087 pydicom_2.0.0.orig.tar.gz
+ ce967e02d1559fea06fc188267de2d5acbae74e4bad80bee0536bff4bffeab6b 6224 pydicom_2.0.0-1.debian.tar.xz
+Homepage: https://pydicom.github.io
+Package-List: 
+ python-pydicom-doc deb doc optional arch=all
+ python3-dicom deb oldlibs optional arch=all
+ python3-pydicom deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pydicom
+Priority: source
+Section: python

@@ -1,0 +1,27 @@
+Package: golang-github-appc-goaci
+Binary: golang-github-appc-goaci-dev
+Version: 0.1.1-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go, golang-github-appc-spec-dev (>= 0.7.4~), golang-golang-x-tools-dev
+Architecture: all
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ c114103cc904de2c9a8f47efca704277 2301 golang-github-appc-goaci_0.1.1-2.dsc
+ fddeb783573f1ebd1797c7da5e252203 16253 golang-github-appc-goaci_0.1.1.orig.tar.gz
+ 25660569c2f7a10f486b350d02ce0892 2508 golang-github-appc-goaci_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-appc-goaci
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-appc-goaci.git
+Checksums-Sha256:
+ fee46366102cfc117f319fd8a539ede554343460a6fded4b42c1bdcd83a5fa82 2301 golang-github-appc-goaci_0.1.1-2.dsc
+ 7c2eb0aa3993060daa99b91dfe3ec528bf67b2b8b82b1d2368f9812ef7d12191 16253 golang-github-appc-goaci_0.1.1.orig.tar.gz
+ 5022ed8b1ded563368c3999f62b5c5bf70fe56c3ca1a2157466fdd28c5bfc5ae 2508 golang-github-appc-goaci_0.1.1-2.debian.tar.xz
+Homepage: https://github.com/appc/goaci
+Go-Import-Path: github.com/appc/goaci
+Package-List: 
+ golang-github-appc-goaci-dev deb devel extra arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-appc-goaci
+Priority: extra
+Section: golang

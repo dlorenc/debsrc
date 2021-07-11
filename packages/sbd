@@ -1,0 +1,27 @@
+Package: sbd
+Binary: sbd
+Version: 1.4.2-1
+Maintainer: Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>
+Uploaders: Adrian Vondendriesch <adrian.vondendriesch@credativ.de>, Valentin Vidic <vvidic@debian.org>, Ferenc Wágner <wferi@debian.org>,
+Build-Depends: debhelper-compat (= 13), libaio-dev, libcmap-dev, libglib2.0-dev, libqb-dev, libvotequorum-dev, pacemaker-dev, uuid-dev
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 10d02397ebb24a2b304cce43df7bbb62 2145 sbd_1.4.2-1.dsc
+ 035f9b05d11e4dfed44447e6dce56eb9 82073 sbd_1.4.2.orig.tar.gz
+ 947c0841fdd3d6d438890627a2407c4f 6084 sbd_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ha-team/sbd
+Vcs-Git: https://salsa.debian.org/ha-team/sbd.git
+Checksums-Sha256:
+ 8a2a1a6623c339e7667f681ee74b11a9e88c020664afaf42b0e38ba5933904d0 2145 sbd_1.4.2-1.dsc
+ e6497e71bdc82440bb2086b50523679db2aef069e4216076e9d525828b9a49e6 82073 sbd_1.4.2.orig.tar.gz
+ 2dd62e122ae2d9032d2177e13fa9642cd516812449a84d1219ab45ef5e4795df 6084 sbd_1.4.2-1.debian.tar.xz
+Homepage: https://github.com/ClusterLabs/sbd/
+Package-List: 
+ sbd deb admin optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: corosync, pacemaker-remote
+Directory: pool/main/s/sbd
+Priority: optional
+Section: misc

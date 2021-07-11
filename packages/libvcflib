@@ -1,0 +1,28 @@
+Package: libvcflib
+Binary: libvcflib1, libvcflib-dev, libvcflib-tools
+Version: 1.0.2+dfsg-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, markdown <!nodoc>, libtabixpp-dev, libbz2-dev, libdisorder-dev, libsmithwaterman-dev (>= 0.0+20160702-2), libssw-dev, libfastahack-dev (>= 0.0+git20160702.bbc645f+dfsg-5~), pkg-config, libgtest-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f96f3d8e4c4ec6930e13b86f807c9610 2322 libvcflib_1.0.2+dfsg-2.dsc
+ 86b5165ce85341fc4748d3226715b9a9 7565940 libvcflib_1.0.2+dfsg.orig.tar.xz
+ c075fed8412c633240f206eb05f65db3 9228 libvcflib_1.0.2+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libvcflib
+Vcs-Git: https://salsa.debian.org/med-team/libvcflib.git
+Checksums-Sha256:
+ 559843bfa8ffbbd0a1e197f2330e1efae41f4ff048e6e66323378f8ea9b2850a 2322 libvcflib_1.0.2+dfsg-2.dsc
+ 922bcb38ce670de70b7d95a261bab6f711f0fd0ee3d5f5465316664af656d125 7565940 libvcflib_1.0.2+dfsg.orig.tar.xz
+ 06e86dd9979cc908092be05017be148d6d0573e6727aad55f92e1290a5a23a4d 9228 libvcflib_1.0.2+dfsg-2.debian.tar.xz
+Homepage: https://github.com/vcflib/vcflib
+Package-List: 
+ libvcflib-dev deb libdevel optional arch=any
+ libvcflib-tools deb science optional arch=any
+ libvcflib1 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/libv/libvcflib
+Priority: optional
+Section: misc

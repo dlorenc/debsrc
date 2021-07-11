@@ -1,0 +1,27 @@
+Package: python-whitenoise
+Binary: python3-whitenoise
+Version: 5.2.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-django, python3-requests, python3-setuptools (>= 0.6b3), python3-brotli, python3-pytest
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9f933fe167aa8c05efa9eb644183b5bd 2262 python-whitenoise_5.2.0-1.dsc
+ 90c533a3d870cb27383780905dc0decf 53110 python-whitenoise_5.2.0.orig.tar.gz
+ 550d8d81befce84129b882e2cf104a43 2792 python-whitenoise_5.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-whitenoise
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-whitenoise.git
+Checksums-Sha256:
+ d022ae17ddc8d22cfc6502a53289e8b2edfe6d7d6aa4ab7bfa92efffe97695a3 2262 python-whitenoise_5.2.0-1.dsc
+ f7372d92f4ef1b09eedba4a4d0fb02f8a0233f8cd168be8f0d6b5b55b62fbcfd 53110 python-whitenoise_5.2.0.orig.tar.gz
+ 688715b3cac04257713009bed9f1c319135a0b1974de0fd8f74c4ef3e384571a 2792 python-whitenoise_5.2.0-1.debian.tar.xz
+Homepage: http://whitenoise.evans.io
+Package-List: 
+ python3-whitenoise deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-brotli, python3-django, python3-pytest, python3-requests
+Directory: pool/main/p/python-whitenoise
+Priority: optional
+Section: misc

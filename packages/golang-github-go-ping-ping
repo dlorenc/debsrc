@@ -1,0 +1,27 @@
+Package: golang-github-go-ping-ping
+Binary: golang-github-go-ping-ping-dev
+Version: 0.0~git20210312.d90f377-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-net-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 11c25b93053f240028ec20f1c869472e 1770 golang-github-go-ping-ping_0.0~git20210312.d90f377-1.dsc
+ bc8a39f4791ded93e6869b44bf2abeef 13264 golang-github-go-ping-ping_0.0~git20210312.d90f377.orig.tar.gz
+ f4151eb18b834829640440dbf3a2bbb2 2820 golang-github-go-ping-ping_0.0~git20210312.d90f377-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-go-ping-ping
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-go-ping-ping.git
+Checksums-Sha256:
+ 8966544ab5f7ae03663ddae23bb5c77ee3d53730ff244e81e0936da4402bfb8a 1770 golang-github-go-ping-ping_0.0~git20210312.d90f377-1.dsc
+ 25c0e959e0b17d0b56b6e7264cd9a64f4405428a4ee003fadcb597a385bcf540 13264 golang-github-go-ping-ping_0.0~git20210312.d90f377.orig.tar.gz
+ b88b6fdf3599a4b293668414825f562cd634dc56fdb7e6e6f1dffb7a16c8165e 2820 golang-github-go-ping-ping_0.0~git20210312.d90f377-1.debian.tar.xz
+Homepage: https://github.com/go-ping/ping
+Go-Import-Path: github.com/go-ping/ping
+Package-List: 
+ golang-github-go-ping-ping-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-go-ping-ping
+Priority: extra
+Section: misc

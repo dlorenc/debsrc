@@ -1,0 +1,26 @@
+Package: austin
+Binary: austin
+Version: 1.0.1-2
+Maintainer: Gabriele N. Tornetta <phoenix1987@gmail.com>
+Build-Depends: debhelper (>= 11~), bats, valgrind, python3 (>= 3.3)
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 69d016d49fc909ca2ee13ce31f3f5957 1892 austin_1.0.1-2.dsc
+ 90832983d4cfd27a3ec069e2702bcef3 2243925 austin_1.0.1.orig.tar.gz
+ bafc9fb537ff17420f8d6dbabe495456 7548 austin_1.0.1-2.debian.tar.xz
+Vcs-Browser: https://github.com/P403n1x87/austin
+Vcs-Git: https://github.com/P403n1x87/austin
+Checksums-Sha256:
+ 97bc86fa124312a531078150f9ad4fb3eb365320644de98ccb5ec421468da41b 1892 austin_1.0.1-2.dsc
+ 6f51c2588788541d5adfef06d14c46bb146f86533497153cd46f5b74c0dbdec3 2243925 austin_1.0.1.orig.tar.gz
+ 2d6962cd174c6908c8c112b175911ca4a739fe61604f20b656b34f2ef5a94c8c 7548 austin_1.0.1-2.debian.tar.xz
+Homepage: https://github.com/P403n1x87/austin
+Package-List: 
+ austin deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: bats, valgrind
+Directory: pool/main/a/austin
+Priority: extra
+Section: misc

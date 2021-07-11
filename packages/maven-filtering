@@ -1,0 +1,25 @@
+Package: maven-filtering
+Binary: libmaven-filtering-java
+Version: 3.1.1-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, junit4, libassertj-core-java, libmaven3-core-java, libmockito-java, libplexus-build-api-java, libplexus-component-metadata-java, libplexus-interpolation-java (>= 1.12), libplexus-utils-java (>= 1.5.15), maven-debian-helper (>= 2.2~)
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ a3081035850b9ca4392f9eeaf16cdb08 2338 maven-filtering_3.1.1-1.dsc
+ 93f23da90e9b05ffb09c6cd943ee5c3a 67576 maven-filtering_3.1.1.orig.tar.xz
+ 2ca1fdda65d0c80755f1d5d0bf4600b3 2932 maven-filtering_3.1.1-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/maven-filtering.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/maven-filtering.git
+Checksums-Sha256:
+ 29225e51a5d0c863918680ce66c093535cf22f3dc87f5aaeabec9b82504d5e88 2338 maven-filtering_3.1.1-1.dsc
+ 304035847f821ecdbeaabe78c8bc0e11d9ed73fb2773b9486e4b5a50ee12e050 67576 maven-filtering_3.1.1.orig.tar.xz
+ 04f715f320a5f569242b279fc88c75becc92b068eb1ff2f735a536e7c42819a7 2932 maven-filtering_3.1.1-1.debian.tar.xz
+Homepage: http://maven.apache.org/shared/maven-filtering/
+Package-List: 
+ libmaven-filtering-java deb java optional arch=all
+Directory: pool/main/m/maven-filtering
+Priority: source
+Section: java

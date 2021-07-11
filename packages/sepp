@@ -1,0 +1,26 @@
+Package: sepp
+Binary: sepp
+Version: 4.3.10+dfsg-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Pierre Gruet <pgtdebian@free.fr>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-dendropy, ant, libjenkins-json-java, libgoogle-gson-java, ncbi-blast+ <!nocheck>, pplacer <!nocheck>, hmmer <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5699d7787d1df53f367ddf8a6b0ce131 2139 sepp_4.3.10+dfsg-5.dsc
+ 46f9be63a75122114424d6b09eb5ba1f 4287844 sepp_4.3.10+dfsg.orig.tar.xz
+ 60129f8c39854ec2785e9aac6effc128 14544 sepp_4.3.10+dfsg-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/sepp
+Vcs-Git: https://salsa.debian.org/med-team/sepp.git
+Checksums-Sha256:
+ 68336b60f6d67a9b342d330a8206bdbda9f9335133ef498ff3630bc0fe245cf7 2139 sepp_4.3.10+dfsg-5.dsc
+ d0840407c5387b7d4db0baf701c220580ecc0fcc88f91ef1f6295a9da0869c7e 4287844 sepp_4.3.10+dfsg.orig.tar.xz
+ ba5b33d1c59b7c8d11f786172f2cacb92e267933f3876d9137eb68b52398f777 14544 sepp_4.3.10+dfsg-5.debian.tar.xz
+Homepage: https://github.com/smirarab/sepp/
+Package-List: 
+ sepp deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/s/sepp
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: dfvfs
+Binary: python3-dfvfs
+Version: 20201219-1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-fsapfs (>= 20181205), python3-cffi-backend (>= 1.9.1), python3-cryptography (>= 2.0.2), python3-dfdatetime (>= 20181025), python3-dtfabric (>= 20170524), python3-idna (>= 2.5), python3-six (>= 1.1.0), python3-protobuf, python3-tsk (>= 20200117-3), python3-libbde (>= 20140531), python3-libewf (>= 20131210), python3-libfsext (>= 20200819), python3-libfshfs (>= 20201103), python3-libfsntfs (>= 20151130), python3-libfsxfs (>= 20201114), python3-libfvde (>= 20160719), python3-libfwnt (>= 20160418), python3-libluksde (>= 20200101), python3-libqcow (>= 20201213), python3-libsigscan (>= 20150627), python3-libsmdev (>= 20140529), python3-libsmraw (>= 20140612), python3-libvhdi (>= 20131210), python3-libvmdk (>= 20140421), python3-libvshadow (>= 20160109), python3-libvslvm (>= 20160109), python3-mock
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 67cc8bffb68fb0c58f6d45ac327e81a6 2470 dfvfs_20201219-1.dsc
+ 7efa6cfbd9c8fa7d8fe9edfe12fb8707 80704529 dfvfs_20201219.orig.tar.gz
+ 44b28bfb0f9809bc615ccedcbbbf9c72 4076 dfvfs_20201219-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/dfvfs
+Vcs-Git: https://salsa.debian.org/pkg-security-team/dfvfs.git
+Checksums-Sha256:
+ 865a97830f48c10b0c5286877a231a865b218f57f80472cbea9b4cfe08a9d970 2470 dfvfs_20201219-1.dsc
+ 953a2af3d901ee1054ed9d65ea1fdeba96889a78234763006e1ce8eca6c8b9c3 80704529 dfvfs_20201219.orig.tar.gz
+ 23d2536a011c6a3b153313bdf14ea0f34c99c8924d3d14792241543c6021ee68 4076 dfvfs_20201219-1.debian.tar.xz
+Homepage: https://github.com/log2timeline/dfvfs
+Package-List: 
+ python3-dfvfs deb python optional arch=all
+Directory: pool/main/d/dfvfs
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: org-roam
+Binary: elpa-org-roam, org-roam-doc
+Version: 1.2.3-2
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper-compat (= 13), dh-elpa, elpa-buttercup <!nocheck>, texinfo, elpa-dash <!nocheck>, elpa-f <!nocheck>, elpa-emacsql-sqlite3 <!nocheck>, elpa-org, elpa-ox-texinfo+
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 56e4524665bbb8742394bb39f4940f1d 2276 org-roam_1.2.3-2.dsc
+ 528f061b54ab590208389fcaa356e7ad 34427032 org-roam_1.2.3.orig.tar.xz
+ c8c016b47ffdf5b5026e60592fbb63ad 4680 org-roam_1.2.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/org-roam
+Vcs-Git: https://salsa.debian.org/emacsen-team/org-roam.git
+Checksums-Sha256:
+ 2ec5b7eb1cfa4eea4b3738d5d4dcd98c102c3ff1a65b70b462198011fb4f4076 2276 org-roam_1.2.3-2.dsc
+ 237abc0450710c07b3ca2fd43f6a5b55c0a87aa277e73cde0b77ebb25216dc9b 34427032 org-roam_1.2.3.orig.tar.xz
+ ec3865e9ed348ea2c48b3d166d1e6a7b8918ebc2e994de06568be9e209f53314 4680 org-roam_1.2.3-2.debian.tar.xz
+Homepage: https://github.com/org-roam/org-roam
+Dgit: 26bb77f40da7f825edb18b1938f0c6c783780b52 debian archive/debian/1.2.3-2 https://git.dgit.debian.org/org-roam
+Package-List: 
+ elpa-org-roam deb editors optional arch=all
+ org-roam-doc deb editors optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/o/org-roam
+Priority: extra
+Section: misc

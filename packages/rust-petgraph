@@ -1,0 +1,32 @@
+Package: rust-petgraph
+Binary: librust-petgraph-dev, librust-petgraph+all-dev, librust-petgraph+default-dev, librust-petgraph+quickcheck-dev, librust-petgraph+serde-dev, librust-petgraph+serde-1-dev, librust-petgraph+serde-derive-dev
+Version: 0.5.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-fixedbitset-0.2-dev <!nocheck>, librust-indexmap-1+default-dev (>= 1.0.2-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ acaaef6fa67e5d027fff3397b8e01734 2252 rust-petgraph_0.5.0-1.dsc
+ 9afdab5af907eebce446b44c09d2e60a 143687 rust-petgraph_0.5.0.orig.tar.gz
+ 59540bf8c94fe52f3a1e14e7b3e2cc2f 3264 rust-petgraph_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/petgraph
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/petgraph]
+Checksums-Sha256:
+ 9992baa2a1b946d286a7863ec304e51ceeb3c98d523115c79055d907f1b8ef23 2252 rust-petgraph_0.5.0-1.dsc
+ 29c127eea4a29ec6c85d153c59dc1213f33ec74cead30fe4730aecc88cc1fd92 143687 rust-petgraph_0.5.0.orig.tar.gz
+ 0286a5d2a658a4c0a88cddefe7a22316875fcda3490bfe0de128c821f29511e6 3264 rust-petgraph_0.5.0-1.debian.tar.xz
+Package-List: 
+ librust-petgraph+all-dev deb rust optional arch=any
+ librust-petgraph+default-dev deb rust optional arch=any
+ librust-petgraph+quickcheck-dev deb rust optional arch=any
+ librust-petgraph+serde-1-dev deb rust optional arch=any
+ librust-petgraph+serde-derive-dev deb rust optional arch=any
+ librust-petgraph+serde-dev deb rust optional arch=any
+ librust-petgraph-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-defmac-0.1+default-dev, librust-itertools-0.8-dev, librust-odds-0.2+default-dev, librust-rand-0.5+default-dev
+Directory: pool/main/r/rust-petgraph
+Priority: extra
+Section: misc

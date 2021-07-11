@@ -1,0 +1,24 @@
+Package: tcpspy
+Binary: tcpspy
+Version: 1.7d-15
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), bison, flex, groff
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f325a9ec6330df486ee2460779a94959 1800 tcpspy_1.7d-15.dsc
+ 308a1b2bfdb3be1c21f222b5edfd7056 14828 tcpspy_1.7d.orig.tar.gz
+ ffb0bbd94f333f527c949a45dce36ef5 13128 tcpspy_1.7d-15.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/tcpspy
+Vcs-Git: https://salsa.debian.org/debian/tcpspy.git
+Checksums-Sha256:
+ 2ae76d426987d5de4caeaacc4916fb8a1d2be712c9032c3e55a5fec843a210df 1800 tcpspy_1.7d-15.dsc
+ 8c81abd08164f051d31354a371daef5830ff9e38629bee566d08043d87004b8d 14828 tcpspy_1.7d.orig.tar.gz
+ e9504a4c8b22e69dc8728957b6b76cab8d48e5d1903f832d32a7a6dbf525071c 13128 tcpspy_1.7d-15.debian.tar.xz
+Package-List: 
+ tcpspy deb net optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/t/tcpspy
+Priority: source
+Section: net

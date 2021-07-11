@@ -1,0 +1,28 @@
+Package: pytds
+Binary: python3-tds, python-tds-doc
+Version: 1.10.0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Christopher Hoskin <mans0954@debian.org>
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper-compat (= 12), python3-nose, python3-sphinx, python3-six, python3-pytest, python3-tds, python3-openssl, python3-ntlm-auth
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c0c8ee3cdebb06eaa4296be61dd0f826 2215 pytds_1.10.0-1.dsc
+ 185e809281301f4696dc3c39ab9f290c 112302 pytds_1.10.0.orig.tar.gz
+ 7a6a2c8baf35820f182d38ebea7c77ca 3996 pytds_1.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pytds
+Vcs-Git: https://salsa.debian.org/python-team/modules/pytds.git
+Checksums-Sha256:
+ e396a21f82f52e68bfe99541a15fe2a58f521a393d3fd32cc8350df6e2d74b8f 2215 pytds_1.10.0-1.dsc
+ 2156d428cb2b87baf6382e27838de27e47a9ef44d54bb6a7de6f19f27831867b 112302 pytds_1.10.0.orig.tar.gz
+ df9ca6a2d435f1f1564efff03cb2f66f7a160441f7ceef7eed20c03b0522448c 3996 pytds_1.10.0-1.debian.tar.xz
+Homepage: https://github.com/denisenkom/pytds
+Package-List: 
+ python-tds-doc deb doc optional arch=all
+ python3-tds deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pkg-resources
+Directory: pool/main/p/pytds
+Priority: optional
+Section: misc

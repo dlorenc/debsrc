@@ -1,0 +1,28 @@
+Package: haskell-flexible-defaults
+Binary: libghc-flexible-defaults-dev, libghc-flexible-defaults-prof, libghc-flexible-defaults-doc
+Version: 0.0.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-ghci, ghc-prof, haskell-devscripts (>= 0.13), libghc-th-extras-dev, libghc-th-extras-prof
+Build-Depends-Indep: ghc-doc, libghc-th-extras-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ fe47620bf6f7dfcfb99e4fd2b3177f0b 2520 haskell-flexible-defaults_0.0.3-1.dsc
+ 34b9feb747bdecc8f0a1f6835c5883ce 5489 haskell-flexible-defaults_0.0.3.orig.tar.gz
+ a9960072be5244d734d6388070d5e460 2792 haskell-flexible-defaults_0.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-flexible-defaults
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-flexible-defaults]
+Checksums-Sha256:
+ 683dee66b37b61ef3837ca84ed25dbfc5d81a7a585a825e83417b85ea3bd71fa 2520 haskell-flexible-defaults_0.0.3-1.dsc
+ 6586f6fce40e64f95e6d3de6d0730f9fe6668825d0dfd81336842fa8c62a630b 5489 haskell-flexible-defaults_0.0.3.orig.tar.gz
+ 9cc69a39d6e15b94f9afa4e7bc3222bf0c72ca3ff0ab729d849681f27950829e 2792 haskell-flexible-defaults_0.0.3-1.debian.tar.xz
+Homepage: https://github.com/peti/flexible-defaults
+Package-List: 
+ libghc-flexible-defaults-dev deb haskell optional arch=any
+ libghc-flexible-defaults-doc deb doc optional arch=all
+ libghc-flexible-defaults-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-flexible-defaults
+Priority: optional
+Section: misc

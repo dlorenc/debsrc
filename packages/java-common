@@ -1,0 +1,28 @@
+Package: java-common
+Binary: java-common, default-jre, default-jre-headless, default-jdk, default-jdk-headless, default-jdk-doc
+Version: 0.72
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper (>= 11)
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (native)
+Files:
+ 353bc77b2e2250651de9e44e17800c21 1985 java-common_0.72.dsc
+ 384d02b6ed66512770440469f3f0219d 13180 java-common_0.72.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/java-common
+Vcs-Git: https://salsa.debian.org/java-team/java-common.git
+Checksums-Sha256:
+ ee412fc8f12e61de5ed18f740277fcc45a7ef7ba83d783d57514775122fe3cd7 1985 java-common_0.72.dsc
+ ef8687995572fc889d16de4c0bb29436b4c117ae1b2c9768437e790ed4d4f28f 13180 java-common_0.72.tar.xz
+Homepage: https://wiki.debian.org/Java/
+Package-List: 
+ default-jdk deb java optional arch=any
+ default-jdk-doc deb doc optional arch=any
+ default-jdk-headless deb java optional arch=any
+ default-jre deb java optional arch=any
+ default-jre-headless deb java optional arch=any
+ java-common deb java optional arch=all
+Directory: pool/main/j/java-common
+Priority: source
+Section: java

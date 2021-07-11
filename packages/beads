@@ -1,0 +1,26 @@
+Package: beads
+Binary: beads
+Version: 1.1.20-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Filippo Rusconi <lopippo@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.12), qtbase5-dev, cimg-dev, libodsstream-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dc17913581027541fa46d1feb1a3a6ff 2040 beads_1.1.20-2.dsc
+ 126501f1cba867e7068a5bb79f83bc87 40002035 beads_1.1.20.orig.tar.gz
+ a8713a917786332ce6f79a10d3569b3a 11744 beads_1.1.20-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/beads
+Vcs-Git: https://salsa.debian.org/med-team/beads.git
+Checksums-Sha256:
+ b2c128d4736444b4cdd6a849df379be45a9f51842c15865600a0423ebe1c5f61 2040 beads_1.1.20-2.dsc
+ 77c5c200166b65323d44157ac98893b4f5004566414d3029a7048af8653f8b0d 40002035 beads_1.1.20.orig.tar.gz
+ 520cb1709d0d701ee58c5f667828a44dc974da5a57e2f5663c0ba5587057ab92 11744 beads_1.1.20-2.debian.tar.xz
+Homepage: http://pappso.inrae.fr/bioinfo/beads
+Package-List: 
+ beads deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/b/beads
+Priority: extra
+Section: misc

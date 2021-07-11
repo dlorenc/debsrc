@@ -1,0 +1,26 @@
+Package: soapyhackrf
+Binary: soapysdr0.7-module-hackrf, soapysdr-module-hackrf
+Version: 0.3.3-3
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Andreas Bombe <aeb@debian.org>
+Build-Depends: debhelper (>= 12), cmake, libsoapysdr0.7-dev, libhackrf-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 50e90a167f35502e6a9a8097467adb27 2123 soapyhackrf_0.3.3-3.dsc
+ 71f1500375a70f60481d7baa51bf35a3 15853 soapyhackrf_0.3.3.orig.tar.gz
+ 70b5e7e17bdd4a3e8df548ebc9d0d21c 2916 soapyhackrf_0.3.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/soapysdr/soapyhackrf
+Vcs-Git: https://salsa.debian.org/debian-hamradio-team/soapysdr/soapyhackrf.git
+Checksums-Sha256:
+ 050c2a5b76ac33fd8d644c2fbea9f08a0d6576cbc6d1be340862b34778794c0a 2123 soapyhackrf_0.3.3-3.dsc
+ 7b24a47cee42156093bf82982b4fc6184a7c86101c3b8ee450274e57ee1c4b90 15853 soapyhackrf_0.3.3.orig.tar.gz
+ 2c2ea3704d26a573aec3e614dc7a03037f417ef65449b475c7e67adf759f7c6a 2916 soapyhackrf_0.3.3-3.debian.tar.xz
+Homepage: https://github.com/pothosware/SoapyHackRF/wiki
+Package-List: 
+ soapysdr-module-hackrf deb hamradio optional arch=any
+ soapysdr0.7-module-hackrf deb hamradio optional arch=any
+Directory: pool/main/s/soapyhackrf
+Priority: optional
+Section: misc

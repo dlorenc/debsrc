@@ -1,0 +1,26 @@
+Package: rust-numtoa
+Binary: librust-numtoa-dev
+Version: 0.2.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 2485edde65003af55313f54b64898154 1482 rust-numtoa_0.2.3-1.dsc
+ 28a4e2e962d9723f131cdd5acb140b6d 8978 rust-numtoa_0.2.3.orig.tar.gz
+ 7abfcdaf1558f47f261095bc47f65591 2520 rust-numtoa_0.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/numtoa
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/numtoa]
+Checksums-Sha256:
+ bba8540e4f159b0f6e47d980cc62bb658ee9e33a4ba393428f4060881251ef4e 1482 rust-numtoa_0.2.3-1.dsc
+ e521b6adefa0b2c1fa5d2abdf9a5216288686fe6146249215d884c0e5ab320b0 8978 rust-numtoa_0.2.3.orig.tar.gz
+ 4797c1be5189dd13ab8239a8bca56fbc73eb47e51a688258939d57d05b341844 2520 rust-numtoa_0.2.3-1.debian.tar.xz
+Package-List: 
+ librust-numtoa-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-numtoa
+Priority: extra
+Section: misc

@@ -1,0 +1,41 @@
+Package: appstream
+Binary: appstream, libappstream4, libappstream-dev, gir1.2-appstream-1.0, libappstreamqt2, libappstreamqt-dev, libappstream-compose0, libappstream-compose-dev, gir1.2-appstreamcompose-1.0, appstream-doc, apt-config-icons, apt-config-icons-hidpi, apt-config-icons-large, apt-config-icons-large-hidpi
+Version: 0.14.2-1
+Maintainer: Matthias Klumpp <mak@debian.org>
+Build-Depends: debhelper-compat (= 13), gettext, gobject-introspection, gperf, gtk-doc-tools, libcairo2-dev, libcurl4-gnutls-dev (>= 7.62) | libcurl-dev (>= 7.62), libfontconfig-dev, libgdk-pixbuf-2.0-dev, libgirepository1.0-dev (>= 1.58), libglib2.0-dev (>= 2.58), libjs-highlight.js, liblmdb-dev, libpango1.0-dev, librsvg2-dev, libstemmer-dev, libxml2-dev (>= 2.8.0), libyaml-dev (>= 0.1.6), meson (>= 0.48), qtbase5-dev (>= 5.6), valac
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7d406bf3891080929d65dfc7892d639b 3563 appstream_0.14.2-1.dsc
+ c3da7e296f775148f66e1556c22abc4f 2276492 appstream_0.14.2.orig.tar.xz
+ eed61f30ef1be88e2f59dc1aec132d9f 833 appstream_0.14.2.orig.tar.xz.asc
+ 0910e7e7ef9fa9ecd0e6bdb02f2a38cc 15908 appstream_0.14.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkgutopia-team/appstream
+Vcs-Git: https://salsa.debian.org/pkgutopia-team/appstream.git
+Checksums-Sha256:
+ 9865772395f27099091710dddfd5212957edc4fabf84648a6eadff0bd51433e0 3563 appstream_0.14.2-1.dsc
+ 88de992ac5794c8c33f47482febaeafcf18c0a06f234f9f93fc0f6b9e18890a8 2276492 appstream_0.14.2.orig.tar.xz
+ 2fd0ecc1577b4e353726fb3077d2a533b3a6d587c04c4a82ee75200485de28fa 833 appstream_0.14.2.orig.tar.xz.asc
+ 5399b45469347decf564193be1e41a29fc619d5764d7363d4e250d340afebb4e 15908 appstream_0.14.2-1.debian.tar.xz
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Package-List: 
+ appstream deb admin optional arch=any
+ appstream-doc deb doc optional arch=all
+ apt-config-icons deb misc optional arch=all
+ apt-config-icons-hidpi deb misc optional arch=all
+ apt-config-icons-large deb misc optional arch=all
+ apt-config-icons-large-hidpi deb misc optional arch=all
+ gir1.2-appstream-1.0 deb introspection optional arch=any
+ gir1.2-appstreamcompose-1.0 deb introspection optional arch=any
+ libappstream-compose-dev deb libdevel optional arch=any
+ libappstream-compose0 deb libs optional arch=any
+ libappstream-dev deb libdevel optional arch=any
+ libappstream4 deb libs optional arch=any
+ libappstreamqt-dev deb libdevel optional arch=any
+ libappstreamqt2 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/a/appstream
+Priority: source
+Section: misc

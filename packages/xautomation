@@ -1,0 +1,26 @@
+Package: xautomation
+Binary: xautomation
+Version: 1.09-4
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), libxtst-dev, libx11-dev, libpng-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7c2480c5f1da9ca136d88410ffd966e1 1957 xautomation_1.09-4.dsc
+ 16b973fdb525feed876471225bba30ed 123995 xautomation_1.09.orig.tar.gz
+ a763a4df0ffaeffdb2e3cfc140d95bf4 5500 xautomation_1.09-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/xautomation
+Vcs-Git: https://salsa.debian.org/debian/xautomation.git
+Checksums-Sha256:
+ 4bce61e5d1cc98f240b48bc732f4b385dba3f0508f44c1ace8c9d6781d7a25c9 1957 xautomation_1.09-4.dsc
+ ee8f2c61165da682f58371a51cfc263d6e54609b614e712320b0987779d95f0d 123995 xautomation_1.09.orig.tar.gz
+ 5c7719884d2154a2b22193fcb3615262355ae91343535c9e1c59230b703e377d 5500 xautomation_1.09-4.debian.tar.xz
+Homepage: https://hoopajoo.net/projects/xautomation.html
+Package-List: 
+ xautomation deb x11 optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/x/xautomation
+Priority: source
+Section: x11

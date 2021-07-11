@@ -1,0 +1,28 @@
+Package: haskell-string-conversions
+Binary: libghc-string-conversions-dev, libghc-string-conversions-prof, libghc-string-conversions-doc
+Version: 0.4.0.1-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-utf8-string-dev (>= 0.3), libghc-utf8-string-prof
+Build-Depends-Indep: ghc-doc, libghc-utf8-string-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 08290d05b2e5ad0c5c1ccbabf82f29a4 2576 haskell-string-conversions_0.4.0.1-5.dsc
+ 6431b94736bc3eea92aa8f7fe46a3991 3759 haskell-string-conversions_0.4.0.1.orig.tar.gz
+ 646dc457d0c752f1bca361ebb3167c0b 2604 haskell-string-conversions_0.4.0.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-string-conversions
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-string-conversions]
+Checksums-Sha256:
+ 207b2fefca9c0c191e941c787ba8c939bd4afa5258662f646ae7feaf32aea547 2576 haskell-string-conversions_0.4.0.1-5.dsc
+ 46bcce6d9ce62c558b7658a75d9c6a62f7259d6b0473d011d8078234ad6a1994 3759 haskell-string-conversions_0.4.0.1.orig.tar.gz
+ deaab390e2e59656abb95ab38b3e1c5c7a11d0e20024bd31da2af51d49e5b85d 2604 haskell-string-conversions_0.4.0.1-5.debian.tar.xz
+Homepage: https://github.com/soenkehahn/string-conversions#readme
+Package-List: 
+ libghc-string-conversions-dev deb haskell optional arch=any
+ libghc-string-conversions-doc deb doc optional arch=all
+ libghc-string-conversions-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-string-conversions
+Priority: optional
+Section: misc

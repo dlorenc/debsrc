@@ -1,0 +1,26 @@
+Package: rust-globwalk
+Binary: librust-globwalk-dev
+Version: 0.8.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Henry-Nicolas Tourneur <debian@nilux.be>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev (>= 1.2-~~) <!nocheck>, librust-ignore-0.4+default-dev (>= 0.4.11-~~) <!nocheck>, librust-walkdir-2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1cf340176f1706f4cbdb4f9abd7c9289 2376 rust-globwalk_0.8.1-2.dsc
+ 28fb2d3e8fbb4c9df2e53c8a6c7f3e88 13705 rust-globwalk_0.8.1.orig.tar.gz
+ 44484157e81868fce3d446d03220489e 3640 rust-globwalk_0.8.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/globwalk
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/globwalk]
+Checksums-Sha256:
+ 057f9c13af911c6bda5769f7588a5e8ea0c9ea96727ae0fd760b75a0b473d2b9 2376 rust-globwalk_0.8.1-2.dsc
+ 93e3af942408868f6934a7b85134a3230832b9977cf66125df2f9edcfce4ddcc 13705 rust-globwalk_0.8.1.orig.tar.gz
+ 163f6b6f5aa147c77af764ba56aae873f18e5985a4e7e63e858bbbeb6857ec09 3640 rust-globwalk_0.8.1-2.debian.tar.xz
+Package-List: 
+ librust-globwalk-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-backtrace-0.3+default-dev, librust-docmatic-0.1+default-dev, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-globwalk
+Priority: extra
+Section: misc

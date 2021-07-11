@@ -1,0 +1,26 @@
+Package: node-sqlite3
+Binary: node-sqlite3
+Version: 5.0.0+ds1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>, Jérémy Lal <kapouer@melix.org>, Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper-compat (= 13), chrpath, node-pre-gyp (>= 0.10.2~), node-nan (>= 2.12.1), node-gyp (>= 3.8.0-2), libnode-dev, mocha, libsqlite3-dev, dh-sequence-nodejs
+Architecture: amd64 arm64 armhf i386 kfreebsd-i386 kfreebsd-amd64 mips mips64el mips64r6el mipsel ppc64el s390x
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 29eda96243ff378687d835642886aece 2436 node-sqlite3_5.0.0+ds1-1.dsc
+ 74e28d4750c6df12e3ff7825fc34fc83 251832 node-sqlite3_5.0.0+ds1.orig.tar.xz
+ c9e8e1b9de65b6ec4af8c377aaf418a0 61248 node-sqlite3_5.0.0+ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-sqlite3
+Vcs-Git: https://salsa.debian.org/js-team/node-sqlite3.git
+Checksums-Sha256:
+ c3676b05bcf9320ff1518fe0441d859784d1bce0bea38f72675aa7608786eaa6 2436 node-sqlite3_5.0.0+ds1-1.dsc
+ 3d3136bf9be62aabbde29698d4ccef75914175e23547147a8014af7ee1d965d7 251832 node-sqlite3_5.0.0+ds1.orig.tar.xz
+ 3105a33b462880d8f803c5b64298eda692fc2eae489ddfaffd55249dc6ce2c11 61248 node-sqlite3_5.0.0+ds1-1.debian.tar.xz
+Homepage: https://github.com/mapbox/node-sqlite3/wiki
+Package-List: 
+ node-sqlite3 deb javascript optional arch=amd64,arm64,armhf,i386,kfreebsd-i386,kfreebsd-amd64,mips,mips64el,mips64r6el,mipsel,ppc64el,s390x
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-sqlite3
+Priority: source
+Section: javascript

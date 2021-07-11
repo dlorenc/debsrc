@@ -1,0 +1,28 @@
+Package: libnativecall-perl
+Binary: libnativecall-perl
+Version: 0.006-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libffi-checklib-perl, libffi-platypus-perl <!nocheck>, perl, libscalar-list-utils-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 6b64a95f1e0b926da28242a04c524806 2453 libnativecall-perl_0.006-2.dsc
+ 1b1779ded173cc9f04a14170eec9a560 3445 libnativecall-perl_0.006.orig.tar.gz
+ 98cbd88159599cfba2327982680cad28 2164 libnativecall-perl_0.006-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnativecall-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnativecall-perl.git
+Checksums-Sha256:
+ 01ccd5b829381d06c08eaa90c982934280fab6ed8ba79860635b75ace0208cc4 2453 libnativecall-perl_0.006-2.dsc
+ ec72298dbfe23b57bcb216c28540bf81bbccf114f489e54ace41ac64916a49db 3445 libnativecall-perl_0.006.orig.tar.gz
+ 7ad2ac9047cecd712dc254b4c3443dfed19eda68c7789b9f4da3bc3fc7aba873 2164 libnativecall-perl_0.006-2.debian.tar.xz
+Homepage: https://metacpan.org/release/NativeCall
+Dgit: cfeb92baf64e83fee406beb51889eb653c6a1a73 debian archive/debian/0.006-2 https://git.dgit.debian.org/libnativecall-perl
+Package-List: 
+ libnativecall-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnativecall-perl
+Priority: extra
+Section: misc

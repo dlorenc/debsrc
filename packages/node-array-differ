@@ -1,0 +1,26 @@
+Package: node-array-differ
+Binary: node-array-differ
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e2c546147a765adb6eaaa39bd38bf79e 2111 node-array-differ_3.0.0-1.dsc
+ 429463842bf87fdd443c31187c688061 2337 node-array-differ_3.0.0.orig.tar.gz
+ c264b3537395b3f8f9f6ea04c168ddcb 2636 node-array-differ_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-array-differ
+Vcs-Git: https://salsa.debian.org/js-team/node-array-differ.git
+Checksums-Sha256:
+ f1dd39dc22f64749f4b562b0bb3795da4d766c4056a9f754a4df7052d6beacf0 2111 node-array-differ_3.0.0-1.dsc
+ 3dd3f20320588cac628cf3bad5d6ef203d3325470c769e5a2ebbf2034ff34e46 2337 node-array-differ_3.0.0.orig.tar.gz
+ 00e256a19796007f4bfd6b2a00b732827af6a6d1f99a1a8c03566ae427eb0e17 2636 node-array-differ_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/array-differ#readme
+Package-List: 
+ node-array-differ deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-array-differ
+Priority: optional
+Section: javascript

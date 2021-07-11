@@ -1,0 +1,25 @@
+Package: autopkgtest
+Binary: autopkgtest
+Version: 5.16
+Maintainer: Debian CI team <team+ci@tracker.debian.org>
+Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>, Martin Pitt <mpitt@debian.org>, Antonio Terceiro <terceiro@debian.org>, Paul Gevers <elbrus@debian.org>
+Build-Depends: debhelper-compat (= 13), procps, pycodestyle | pep8, pyflakes3, python3 (>= 3.3), python3-debian, python3-docutils, python3-mock
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 38112a107fb3c36ccba7483f25dcadd7 1695 autopkgtest_5.16.dsc
+ ac163719bcc4033ab42d52f583713321 190000 autopkgtest_5.16.tar.xz
+Vcs-Browser: https://salsa.debian.org/ci-team/autopkgtest
+Vcs-Git: https://salsa.debian.org/ci-team/autopkgtest.git
+Checksums-Sha256:
+ 775d5f23401a16c9fe4fe5c61aa0e702dfa381990a230431c8785615c4aa2478 1695 autopkgtest_5.16.dsc
+ 61ac598f8ae5dd5073b7e4cf07ddf3139a93baff21e11916c8f5bed6fa411c0a 190000 autopkgtest_5.16.tar.xz
+Dgit: 4fee0d84bb7346eedba99d97e16007410e4b3a53 debian archive/debian/5.16 https://git.dgit.debian.org/autopkgtest
+Package-List: 
+ autopkgtest deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: autodep8, build-essential, debhelper, fakeroot, iptables, lxd, pyflakes3
+Directory: pool/main/a/autopkgtest
+Priority: source
+Section: devel

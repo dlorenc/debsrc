@@ -1,0 +1,26 @@
+Package: fast-histogram
+Binary: python3-fast-histogram
+Version: 0.9-2
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Josue Ortega <josue@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-setuptools, python3-numpy, python3-hypothesis, python3-pytest, python3-setuptools-scm
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c453ef9bf2e2518826ffeca403934198 2206 fast-histogram_0.9-2.dsc
+ d36098b66f48c0afe8996420eb0d6dff 41968 fast-histogram_0.9.orig.tar.gz
+ c6284078af6d661f5032b403e70aaa2b 3040 fast-histogram_0.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/python-fast-histogram
+Vcs-Git: https://salsa.debian.org/debian-astro-team/python-fast-histogram.git
+Checksums-Sha256:
+ 5fbd263f1175d8631e17a8373b5826fc1beb9ec14a3f715dd6958ff1e3a6a86f 2206 fast-histogram_0.9-2.dsc
+ 6325ce42060bb9d1987a3aefffcac45bdd3810bc58ce69716132e23aa49f7a9f 41968 fast-histogram_0.9.orig.tar.gz
+ cdb7037c74089a32d833d7bc79d677d26ecca33aca1cc163c25d4ef8e6139173 3040 fast-histogram_0.9-2.debian.tar.xz
+Homepage: https://github.com/astrofrog/fast-histogram
+Package-List: 
+ python3-fast-histogram deb python optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/f/fast-histogram
+Priority: extra
+Section: misc

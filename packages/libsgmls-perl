@@ -1,0 +1,29 @@
+Package: libsgmls-perl
+Binary: libsgmls-perl, sgmlspl, sgmls-doc
+Version: 1.03ii-36
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Daniel Lintott <daniel@serverb.co.uk>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl, rename
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 572b794c716eb0659ab4f6f818212cad 2255 libsgmls-perl_1.03ii-36.dsc
+ 151fecaff2f72a0f94282fbbff277973 92130 libsgmls-perl_1.03ii.orig.tar.gz
+ 3d20653010399170b6faf0e394b3c057 9984 libsgmls-perl_1.03ii-36.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libsgmls-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libsgmls-perl.git
+Checksums-Sha256:
+ 5fad8bb2fc154d850397942fecb2e7573fc70dc786415ad79dd6181ed620e009 2255 libsgmls-perl_1.03ii-36.dsc
+ 0c8889c98cd35228014eaa5caf478763172515cf1a916c78880605eea4304e30 92130 libsgmls-perl_1.03ii.orig.tar.gz
+ 68d59e558a40f5dfbb82488e05bd4582833aea29c64e4c8b0ab3cf0839ad234e 9984 libsgmls-perl_1.03ii-36.debian.tar.xz
+Homepage: http://search.cpan.org/dist/SGMLSpm/
+Package-List: 
+ libsgmls-perl deb perl optional arch=all
+ sgmls-doc deb doc optional arch=all
+ sgmlspl deb text optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libs/libsgmls-perl
+Priority: source
+Section: perl

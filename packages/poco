@@ -1,0 +1,42 @@
+Package: poco
+Binary: libpoco-dev, libpococrypto70, libpocodata70, libpocomongodb70, libpocodatamysql70, libpocodatapostgresql70, libpocodataodbc70, libpocodatasqlite70, libpocoencodings70, libpocofoundation70, libpocojson70, libpocojwt70, libpoconet70, libpoconetssl70, libpocoredis70, libpocoutil70, libpocoxml70, libpocozip70
+Version: 1.10.0-6
+Maintainer: Krzysztof Burghardt <krzysztof@burghardt.pl>
+Uploaders: Patrick Gansterer <paroga@paroga.com>, Cristian Greco <cristian@debian.org>, Jochen Sprickerhof <jspricke@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, libexpat1-dev, default-libmysqlclient-dev, libpcre3-dev, libsqlite3-dev, libpq-dev, libssl-dev, unixodbc-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0a77b0dfabc4ad5d62cbf0b7cb3e22d1 3119 poco_1.10.0-6.dsc
+ 26c1b26458177f26a97013e3836be332 5303276 poco_1.10.0.orig.tar.bz2
+ 4689f26d680270106d3a184e9555e74e 16040 poco_1.10.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/poco
+Vcs-Git: https://salsa.debian.org/debian/poco.git
+Checksums-Sha256:
+ b6427376733ff667e6438e9b653e31715f921c6696a8ac36fbb15e9e515c35d5 3119 poco_1.10.0-6.dsc
+ 005cb46cfead796cc842498dc7f0e8afce3a7b7b58149cdd70a6e8d3ae9a6ee1 5303276 poco_1.10.0.orig.tar.bz2
+ aa37d4e7c77ab2f6f6f2a96133e411c6b902c2d65120a1dd3fb9466347dff944 16040 poco_1.10.0-6.debian.tar.xz
+Homepage: https://pocoproject.org/
+Package-List: 
+ libpoco-dev deb libdevel optional arch=any
+ libpococrypto70 deb libs optional arch=any
+ libpocodata70 deb libs optional arch=any
+ libpocodatamysql70 deb libs optional arch=any
+ libpocodataodbc70 deb libs optional arch=any
+ libpocodatapostgresql70 deb libs optional arch=any
+ libpocodatasqlite70 deb libs optional arch=any
+ libpocoencodings70 deb libs optional arch=any
+ libpocofoundation70 deb libs optional arch=any
+ libpocojson70 deb libs optional arch=any
+ libpocojwt70 deb libs optional arch=any
+ libpocomongodb70 deb libs optional arch=any
+ libpoconet70 deb libs optional arch=any
+ libpoconetssl70 deb libs optional arch=any
+ libpocoredis70 deb libs optional arch=any
+ libpocoutil70 deb libs optional arch=any
+ libpocoxml70 deb libs optional arch=any
+ libpocozip70 deb libs optional arch=any
+Directory: pool/main/p/poco
+Priority: source
+Section: libs

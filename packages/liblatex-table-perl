@@ -1,0 +1,27 @@
+Package: liblatex-table-perl
+Binary: liblatex-table-perl
+Version: 1.0.6-3.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Salvatore Bonaccorso <carnil@debian.org>, gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper (>= 8), libmodule-build-perl, perl
+Build-Depends-Indep: libmodule-pluggable-perl | perl (<< 5.17.0), libmoose-perl, libmoosex-followpbp-perl, libtemplate-perl, libtest-nowarnings-perl
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ e0ac7a50255079eb392df9755195cb3c 2350 liblatex-table-perl_1.0.6-3.1.dsc
+ 77943ac1154b78e3a9b3510c1849dd37 427725 liblatex-table-perl_1.0.6.orig.tar.gz
+ 1ad9c49d7b7bd8652a5e9f2076ac2dfd 3988 liblatex-table-perl_1.0.6-3.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/liblatex-table-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/liblatex-table-perl.git
+Checksums-Sha256:
+ 08fddee9b3c2f969ce5a40fd2b8d30570d35fae188db8148674d52de6f3bdfab 2350 liblatex-table-perl_1.0.6-3.1.dsc
+ d6cca901d4787c646e8a6a633c44392e1ae9757bff6b18a06b13f2315d79433f 427725 liblatex-table-perl_1.0.6.orig.tar.gz
+ 7a2e533c57f9c5e6e01baf872a3f7e2ac91f7a443eb8ba7e189819b339498ba7 3988 liblatex-table-perl_1.0.6-3.1.debian.tar.xz
+Homepage: https://metacpan.org/release/LaTeX-Table
+Package-List: 
+ liblatex-table-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libl/liblatex-table-perl
+Priority: source
+Section: perl

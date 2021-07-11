@@ -1,0 +1,27 @@
+Package: djangorestframework-api-key
+Binary: python3-djangorestframework-api-key, python-djangorestframework-api-key-doc
+Version: 2.0.0-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Adam Cecile <acecile@le-vert.net>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-djangorestframework (>= 2.2~), mkdocs <!nodoc>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9e5dc393d59ef6d1c962e65a8de40eb2 2466 djangorestframework-api-key_2.0.0-2.dsc
+ 4104437f2b4d876fb049ef2913d42e9c 26607 djangorestframework-api-key_2.0.0.orig.tar.gz
+ 8490ded6c3ff8723ad94bc6d450325f7 3860 djangorestframework-api-key_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/djangorestframework-api-key
+Vcs-Git: https://salsa.debian.org/python-team/modules/djangorestframework-api-key.git
+Checksums-Sha256:
+ e31f47b53e773eee793da00d8133812d5751d397647bfe5447ab1a35a39aef71 2466 djangorestframework-api-key_2.0.0-2.dsc
+ c73f543653616c07733e734bbec64f28a7ddb47e4d3ba5fd90787cd840aeda00 26607 djangorestframework-api-key_2.0.0.orig.tar.gz
+ db99a3db0f97c3d78d369219bf3107f8da579f314deca4b342672ecd0e7c9806 3860 djangorestframework-api-key_2.0.0-2.debian.tar.xz
+Homepage: https://florimondmanca.github.io/djangorestframework-api-key/
+Package-List: 
+ python-djangorestframework-api-key-doc deb doc optional arch=all profile=!nodoc
+ python3-djangorestframework-api-key deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/d/djangorestframework-api-key
+Priority: extra
+Section: misc

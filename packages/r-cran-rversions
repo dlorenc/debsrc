@@ -1,0 +1,27 @@
+Package: r-cran-rversions
+Binary: r-cran-rversions
+Version: 2.0.2-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-curl, r-cran-xml2
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ccb53c7f2cf025ff78b0379aa9c97677 2140 r-cran-rversions_2.0.2-1.dsc
+ e532a140027e254f1c8971a7be542aef 41558 r-cran-rversions_2.0.2.orig.tar.gz
+ e9305e5f826f4a155b7f24450d30af5c 2492 r-cran-rversions_2.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-rversions
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-rversions.git
+Checksums-Sha256:
+ 2e6354e5f5553540e8d35a5f5a4aacd9b0cc908fdc386a6e2078760405d54195 2140 r-cran-rversions_2.0.2-1.dsc
+ 3523f4b7393365341d429500b01ba3a224056e89d134635b81dfb4918ba2173e 41558 r-cran-rversions_2.0.2.orig.tar.gz
+ 5ed46aea3a7d891520467d4c5b851b1b656113af056d8a953601f131f45a18fd 2492 r-cran-rversions_2.0.2-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=rversions
+Package-List: 
+ r-cran-rversions deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-mockery, r-cran-testthat
+Directory: pool/main/r/r-cran-rversions
+Priority: extra
+Section: misc

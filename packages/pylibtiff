@@ -1,0 +1,26 @@
+Package: pylibtiff
+Binary: python3-libtiff
+Version: 0.4.2-6
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Build-Depends: debhelper (>= 11), dh-python, libtiff-dev, python3-all-dev, python3-bitarray, python3-numpy, python3-pytest
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ eeafdaf9059f208e5fcfd648e89d1205 2066 pylibtiff_0.4.2-6.dsc
+ ac65114949193484dfa995c2d15f63fe 70592 pylibtiff_0.4.2.orig.tar.xz
+ da49c07eb6bc26b309ce5f87bcf1188b 8168 pylibtiff_0.4.2-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/pylibtiff
+Vcs-Git: https://salsa.debian.org/debian-gis-team/pylibtiff.git
+Checksums-Sha256:
+ 6cf669b4fdd698265f5b3d77bafb3e8d003d90033d62c2fbf73cec148eac4837 2066 pylibtiff_0.4.2-6.dsc
+ 5fdb1e649cebbf93b4ff14683bd9152fc4a5c08535fcd351dd368cb6d52fede6 70592 pylibtiff_0.4.2.orig.tar.xz
+ 913d247361f7e52d9a4ce52e3d0cb7ae273b6b1ecdbbf8696ccd6018fcc115c0 8168 pylibtiff_0.4.2-6.debian.tar.xz
+Homepage: https://github.com/pearu/pylibtiff
+Package-List: 
+ python3-libtiff deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pylibtiff
+Priority: source
+Section: python

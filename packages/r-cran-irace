@@ -1,0 +1,27 @@
+Package: r-cran-irace
+Binary: r-cran-irace
+Version: 3.4.1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-r6
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 957a8afd9276751c66638bf365286034 2067 r-cran-irace_3.4.1-1.dsc
+ 92c0c717dd7d1b6e57220a965c18686e 1254598 r-cran-irace_3.4.1.orig.tar.gz
+ 08c53d70084c77ef867a480424405b70 2896 r-cran-irace_3.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-irace
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-irace.git
+Checksums-Sha256:
+ c97197a792a78fc16484bf376a12ab48bb7b14bb3e35c154047fee0bbd0b8b9f 2067 r-cran-irace_3.4.1-1.dsc
+ 7eea92ba42e6ba320fa8bdca3c53091ae42f26a0f097244f65e7e117f6d514b6 1254598 r-cran-irace_3.4.1.orig.tar.gz
+ 665de1bbe23322b972068840bbbc72fcce064ee079e625e58877f45d4f6d289a 2896 r-cran-irace_3.4.1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=irace
+Package-List: 
+ r-cran-irace deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-irace
+Priority: extra
+Section: misc

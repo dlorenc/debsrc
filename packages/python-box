@@ -1,0 +1,28 @@
+Package: python-box
+Binary: python3-box
+Version: 3.4.6-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Build-Depends-Indep: python3-yaml, python3-pytest, python3-pytest-runner
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c4276fcc6874db7221f38f3097cd11d7 2152 python-box_3.4.6-2.dsc
+ 27504a0d29c88d78362c436bed00d590 23704 python-box_3.4.6.orig.tar.xz
+ 812c117ababf8f4a18c1f094ebab1c77 2904 python-box_3.4.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-box
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-box.git
+Checksums-Sha256:
+ 193249d676f87aa33168fa2ec7ab0182648f713c23f16979cbea86b6649f9d4a 2152 python-box_3.4.6-2.dsc
+ 0d1a60f604350977bd1bd2a15e38ef551a834016cfc916f23d867b5e59349992 23704 python-box_3.4.6.orig.tar.xz
+ 6f070de662a3d2269675fbeb4ddc3855f05446dc94435e63c111f64eecce087d 2904 python-box_3.4.6-2.debian.tar.xz
+Homepage: https://github.com/cdgriffith/Box
+Package-List: 
+ python3-box deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-setuptools
+Directory: pool/main/p/python-box
+Priority: extra
+Section: misc

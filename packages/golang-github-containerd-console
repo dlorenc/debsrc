@@ -1,0 +1,27 @@
+Package: golang-github-containerd-console
+Binary: golang-github-containerd-console-dev
+Version: 1.0.1-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Arnaud Rebillout <arnaud.rebillout@collabora.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-sys-dev (>= 0.0~git20180308~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2641d717a1c929c123ed1aea510cfc5c 1766 golang-github-containerd-console_1.0.1-2.dsc
+ 36aefdab196969d4e8c367a137073995 11960 golang-github-containerd-console_1.0.1.orig.tar.xz
+ 5f57948e9694505bbe6b0b8a922eee21 3248 golang-github-containerd-console_1.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-containerd-console
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-containerd-console.git
+Checksums-Sha256:
+ 397c20b7453d630f3dad4a93cc656f36dfb0e4a17996d8049f43bd6c1e7b67eb 1766 golang-github-containerd-console_1.0.1-2.dsc
+ 775d38ee2e59ad71d24eb54663531248f6cb06b4c6051f5e9de4016b6a0e1a8c 11960 golang-github-containerd-console_1.0.1.orig.tar.xz
+ 17057c4c8d51dc83b6917222009dadb56c7951cda555579b23db9ea65088614b 3248 golang-github-containerd-console_1.0.1-2.debian.tar.xz
+Homepage: https://github.com/containerd/console
+Go-Import-Path: github.com/containerd/console
+Package-List: 
+ golang-github-containerd-console-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-containerd-console
+Priority: extra
+Section: golang

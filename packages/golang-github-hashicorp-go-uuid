@@ -1,0 +1,27 @@
+Package: golang-github-hashicorp-go-uuid
+Binary: golang-github-hashicorp-go-uuid-dev
+Version: 1.0.2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2562cc0d4c2989ba3b9d92f261459ce2 2299 golang-github-hashicorp-go-uuid_1.0.2-1.dsc
+ 7ad64ed6ee095570e330cf51ac4adb8e 6744 golang-github-hashicorp-go-uuid_1.0.2.orig.tar.xz
+ 799ee112cf5884c42a5ba0b2fc37b9dd 7536 golang-github-hashicorp-go-uuid_1.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-uuid
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-uuid.git
+Checksums-Sha256:
+ 5d7979fa456d2808f07ae98b0a85ba53dde93b778209b1b917043b32fd890d5f 2299 golang-github-hashicorp-go-uuid_1.0.2-1.dsc
+ e578feacdb97049d940a54c794338594dcacf223fa7cb088c5a469f4e1544596 6744 golang-github-hashicorp-go-uuid_1.0.2.orig.tar.xz
+ 0f916c79d146353a6bb746590a4bde076237b899ff857302bea166fdd1e79071 7536 golang-github-hashicorp-go-uuid_1.0.2-1.debian.tar.xz
+Homepage: https://github.com/hashicorp/go-uuid
+Go-Import-Path: github.com/hashicorp/go-uuid
+Package-List: 
+ golang-github-hashicorp-go-uuid-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hashicorp-go-uuid
+Priority: extra
+Section: golang

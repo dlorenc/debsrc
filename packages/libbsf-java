@@ -1,0 +1,26 @@
+Package: libbsf-java
+Binary: libbsf-java, libbsf-java-doc
+Version: 1:2.4.0-8
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>, Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: ant, ant-optional, debhelper (>= 11~), default-jdk, junit, libcommons-logging-java, librhino-java, libxalan2-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ ee0bfd8fa0a34179775c43d9edbc2c89 2172 libbsf-java_2.4.0-8.dsc
+ f8289a2e5442a0efb43ebbc6357e8761 200885 libbsf-java_2.4.0.orig.tar.gz
+ 29dbaf187a658382173a4b085001fafa 7088 libbsf-java_2.4.0-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libbsf-java
+Vcs-Git: https://salsa.debian.org/java-team/libbsf-java.git
+Checksums-Sha256:
+ 2c773bdf9d4a4061625100db458361ad45104b89468c7912db4ee563ee8723f2 2172 libbsf-java_2.4.0-8.dsc
+ 5620b1e26f4082df191e3fdb2b8ef508fca3b8f009975529eb0753f46bf6c04d 200885 libbsf-java_2.4.0.orig.tar.gz
+ bc15bb9b2ce93f6b8a24c845b94b65101a859959e0142bb101ac7a699ddefcf0 7088 libbsf-java_2.4.0-8.debian.tar.xz
+Homepage: http://commons.apache.org/bsf
+Package-List: 
+ libbsf-java deb java optional arch=all
+ libbsf-java-doc deb doc optional arch=all
+Directory: pool/main/libb/libbsf-java
+Priority: source
+Section: java

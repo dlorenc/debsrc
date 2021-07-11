@@ -1,0 +1,27 @@
+Package: pyregion
+Binary: python-pyregion-doc, python3-pyregion
+Version: 2.0-11
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Vincent Prat <vivi@debian.org>
+Build-Depends: cython3, debhelper-compat (= 13), dh-python, jdupes, python3-all-dev, python3-astropy, python3-astropy-helpers, python3-matplotlib, python3-numpy, python3-pyparsing, python3-pytest, python3-setuptools, python3-sphinx
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fd94133f7ab3d93c6bab6c204a8d4a9c 2249 pyregion_2.0-11.dsc
+ c228b133a1573d2017e0857a9fbf23c5 1104111 pyregion_2.0.orig.tar.gz
+ 11d938f06b8809be677be7f1960912a7 4996 pyregion_2.0-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/pyregion/
+Vcs-Git: https://salsa.debian.org/debian-astro-team/pyregion.git
+Checksums-Sha256:
+ 99a32b7b0a819312b9750ecc180b8bed6d721e8503d6889b4d9ef57ba5cae3d0 2249 pyregion_2.0-11.dsc
+ a8ac5f764b53ec332f6bc43f6f2193ca13e8b7d5a3fb2e20ced6b2ea42a9d094 1104111 pyregion_2.0.orig.tar.gz
+ 241d5c5c152ac721e4e78ac95cd57116bb37aa1b221dd1492981679355fb687a 4996 pyregion_2.0-11.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/pyregion/
+Package-List: 
+ python-pyregion-doc deb doc optional arch=all
+ python3-pyregion deb python optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/pyregion
+Priority: optional
+Section: misc

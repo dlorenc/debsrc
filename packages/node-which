@@ -1,0 +1,28 @@
+Package: node-which
+Binary: node-which
+Version: 2.0.2+~cs1.3.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 12), nodejs, node-isexe (>= 2.0.0-5~) <!nocheck>, node-tap (>= 8~) <!nocheck>, node-mkdirp <!nocheck>, node-rimraf <!nocheck>, pkg-js-tools (>= 0.9.8)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a01c106c0dde9ce7139dd3cf97b05bf6 2488 node-which_2.0.2+~cs1.3.2-1.dsc
+ 397993c153de071bb603a985c8f30ac0 2099 node-which_2.0.2+~cs1.3.2.orig-types-which.tar.gz
+ dc1d27b063dc502a15f740edd2a648ed 35404 node-which_2.0.2+~cs1.3.2.orig.tar.gz
+ 6398e8fb37204a402f4b301e3340e1cc 3716 node-which_2.0.2+~cs1.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-which
+Vcs-Git: https://salsa.debian.org/js-team/node-which.git
+Checksums-Sha256:
+ 17533d562eb30829b2a34bafa99365665ec0171ade92c6671fb2f178c7d5dc9f 2488 node-which_2.0.2+~cs1.3.2-1.dsc
+ 20c508a1956436e4c3564abdff7d62ec3d255c03a096ee589a66722b240ada75 2099 node-which_2.0.2+~cs1.3.2.orig-types-which.tar.gz
+ 1481ccbca51ce09fa06451fd02986a3a0b028d100ffc48e5cc92201b1018abfe 35404 node-which_2.0.2+~cs1.3.2.orig.tar.gz
+ 6cb058e483aa8e3b5fb25f406e6a510d599fd45e3f4f81f27f6f0f92df989615 3716 node-which_2.0.2+~cs1.3.2-1.debian.tar.xz
+Homepage: https://github.com/isaacs/node-which
+Package-List: 
+ node-which deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-which
+Priority: source
+Section: javascript

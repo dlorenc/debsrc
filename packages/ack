@@ -1,0 +1,26 @@
+Package: ack
+Binary: ack
+Version: 3.4.0-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13), perl, perl-doc <!nocheck>, less <!nocheck>, libfile-next-perl (>= 1.18), libio-pty-perl, libtest-differences-perl, libtest-pod-perl, sensible-utils <!nocheck>, perl (>= 5.13.11) | libtest-simple-perl (>= 0.98)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 55b7e69ad9eab851ee4fedfd1911b9fb 2114 ack_3.4.0-1.dsc
+ dde6e991b583119cfbf553e9e3975956 251106 ack_3.4.0.orig.tar.gz
+ b36300f58037b846ff664beb8d73f79a 14480 ack_3.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/ack
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/ack.git
+Checksums-Sha256:
+ ba510b9619e6747570be96f8fddca8751eb811ac0b5a6468ba9d0d236796210f 2114 ack_3.4.0-1.dsc
+ 6ecfd6b9b9e129a1dee42f800283fb8d9fece925abc0ca6fa136d029989a6b50 251106 ack_3.4.0.orig.tar.gz
+ 43a0e8f4c5d27f0c0ade41ea8f87fcccbc5a6e3d7a1b1c74acb68c3ada5c7945 14480 ack_3.4.0-1.debian.tar.xz
+Homepage: https://beyondgrep.com/
+Package-List: 
+ ack deb utils optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/a/ack
+Priority: optional
+Section: misc

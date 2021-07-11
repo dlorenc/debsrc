@@ -1,0 +1,20 @@
+Package: debian-ports-archive-keyring
+Binary: debian-ports-archive-keyring, debian-ports-archive-keyring-udeb
+Version: 2020.02.02
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Build-Depends: debhelper-compat (= 12), gnupg
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 0a67e83e6e10846901367ca977d5bdef 1658 debian-ports-archive-keyring_2020.02.02.dsc
+ 3dde014df3e92bc9cf7cbc94a43eb1ab 29512 debian-ports-archive-keyring_2020.02.02.tar.xz
+Checksums-Sha256:
+ c938b761dd7c86a039092e2d9ccb01149ea221055ca1a304cbdf77be6f52241b 1658 debian-ports-archive-keyring_2020.02.02.dsc
+ eabfaa382eb6ee62de8fa9355e3a131faa4ab25149a596293fc7113b98fb861c 29512 debian-ports-archive-keyring_2020.02.02.tar.xz
+Package-List: 
+ debian-ports-archive-keyring deb misc optional arch=all
+ debian-ports-archive-keyring-udeb udeb debian-installer optional arch=all
+Directory: pool/main/d/debian-ports-archive-keyring
+Priority: source
+Section: misc

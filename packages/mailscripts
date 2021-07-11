@@ -1,0 +1,26 @@
+Package: mailscripts
+Binary: elpa-mailscripts, mailscripts
+Version: 0.23-1
+Maintainer: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: bash-completion, debhelper (>= 10), dh-elpa, gnutls-bin <!nocheck>, gpg <!nocheck>, gpg-agent <!nocheck>, gpgsm <!nocheck>, mypy <!nocheck>, openssl <!nocheck>, perl, python3 <!nocheck>, python3-argcomplete, python3-pgpy <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a1875070fa4236179b5d0b838f61a504 2227 mailscripts_0.23-1.dsc
+ c24c47a2086845b834cd29e996f1192f 42364 mailscripts_0.23.orig.tar.xz
+ bb7a0cbcaf306bc3f0e85c0c509dc5ac 5816 mailscripts_0.23-1.debian.tar.xz
+Vcs-Browser: https://git.spwhitton.name/mailscripts
+Vcs-Git: https://git.spwhitton.name/mailscripts
+Checksums-Sha256:
+ 4df432dfd4b0f52269b816039259129f64272f6ca64fee76138c8ffd848d9f21 2227 mailscripts_0.23-1.dsc
+ 0b846cf0fba985404855f5fed1dd9e04b809f82ddf13988b4365a9c876d076bd 42364 mailscripts_0.23.orig.tar.xz
+ 28009e140a09c5f05f6297d4b3f2b234c2e4e0f9ebabe245d4b4d9d0c15c26d3 5816 mailscripts_0.23-1.debian.tar.xz
+Homepage: https://git.spwhitton.name/mailscripts
+Dgit: 7b3d79afdaca217183b9715cfb40979a16cafd89 debian archive/debian/0.23-1 https://git.dgit.debian.org/mailscripts
+Package-List: 
+ elpa-mailscripts deb mail optional arch=all
+ mailscripts deb mail optional arch=all
+Directory: pool/main/m/mailscripts
+Priority: extra
+Section: misc

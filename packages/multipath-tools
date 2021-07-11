@@ -1,0 +1,31 @@
+Package: multipath-tools
+Binary: multipath-tools, kpartx, multipath-tools-boot, multipath-udeb, kpartx-udeb
+Version: 0.8.5-2
+Maintainer: Debian DM Multipath Team <team+linux-blocks@tracker.debian.org>
+Uploaders: Guido Günther <agx@sigxcpu.org>, Ritesh Raj Sarraf <rrs@debian.org>, Chris Hofstaedtler <zeha@debian.org>
+Build-Depends: debhelper-compat (= 9), po-debconf, libdevmapper-dev, libreadline-dev, libaio-dev, libudev-dev, libsystemd-dev, systemd, liburcu-dev, pkg-config, libjson-c-dev
+Architecture: linux-any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 68fc2e327a6129345c29ab848dd1aaa5 2587 multipath-tools_0.8.5-2.dsc
+ 353e8ff3211d368c17c9b465a468c7ed 494654 multipath-tools_0.8.5.orig.tar.gz
+ 17d5efb57ef3d084175d7496751a8247 33312 multipath-tools_0.8.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/linux-blocks-team/multipath-tools
+Vcs-Git: https://salsa.debian.org/linux-blocks-team/multipath-tools.git
+Checksums-Sha256:
+ f93bd4cad79806936e5da8adc972cf06527b218dd2da447d0e478faf48fefc88 2587 multipath-tools_0.8.5-2.dsc
+ 0549ebe39fd3950ec49c16304da408c2bfe1b18d386d8e6647b5bcb60363c8aa 494654 multipath-tools_0.8.5.orig.tar.gz
+ 48b0f6be72b12749820ff323c3173b988af724f29b98cb567d600d4d5d82686e 33312 multipath-tools_0.8.5-2.debian.tar.xz
+Homepage: http://christophe.varoqui.free.fr/
+Package-List: 
+ kpartx deb admin optional arch=linux-any
+ kpartx-udeb udeb debian-installer optional arch=linux-any
+ multipath-tools deb admin optional arch=linux-any
+ multipath-tools-boot deb admin optional arch=all
+ multipath-udeb udeb debian-installer optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: fio, gdisk, lsscsi, open-iscsi, qemu-utils, tgt
+Directory: pool/main/m/multipath-tools
+Priority: source
+Section: admin

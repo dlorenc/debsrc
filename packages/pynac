@@ -1,0 +1,26 @@
+Package: pynac
+Binary: libpynac18py3, libpynac-dev
+Version: 0.7.27-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), libflint-dev, libgmp-dev, libntl-dev, libsingular4-dev (>= 1:4.1.1-p2+ds-3), pkg-config, python3-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ca63127229197c8de7225f83707f41e4 2081 pynac_0.7.27-1.dsc
+ 12362600c639ad93cc31a193d01c0808 341390 pynac_0.7.27.orig.tar.gz
+ 3d9e64b4af7599d0a2378e38987bf3d2 4988 pynac_0.7.27-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/pynac
+Vcs-Git: https://salsa.debian.org/science-team/pynac.git
+Checksums-Sha256:
+ 1a6b17926fc590508363b6f22f2d07e8d647cb972b81c971c5456b4f18166612 2081 pynac_0.7.27-1.dsc
+ 6eef53e4ce82964e5c30658493cf75073669bb96286b740fdad6a36521d476dd 341390 pynac_0.7.27.orig.tar.gz
+ b93509a13675b3544f8df146512a0e4f291da48b778a5e457b92dd322795467b 4988 pynac_0.7.27-1.debian.tar.xz
+Homepage: http://pynac.org
+Package-List: 
+ libpynac-dev deb libdevel optional arch=any
+ libpynac18py3 deb libs optional arch=any
+Directory: pool/main/p/pynac
+Priority: source
+Section: misc

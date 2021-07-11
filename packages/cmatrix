@@ -1,0 +1,25 @@
+Package: cmatrix
+Binary: cmatrix, cmatrix-xfont
+Version: 2.0-3
+Maintainer: Boyuan Yang <byang@debian.org>
+Build-Depends: console-setup-linux, debhelper-compat (= 13), kbd, libncurses-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d3eb5e46a56f21c77d78e0c39a73a800 1901 cmatrix_2.0-3.dsc
+ c2aee6d44c4d46df6f16dca2a3dc18ad 205640 cmatrix_2.0.orig.tar.gz
+ 9115c353480835ccd1f8059925eb2111 4436 cmatrix_2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/cmatrix
+Vcs-Git: https://salsa.debian.org/debian/cmatrix.git
+Checksums-Sha256:
+ 5ebd9ada61d702f5cae734e92bfd7b7b656b0342fdd0e316ca7e39c04cf2cf2c 1901 cmatrix_2.0-3.dsc
+ ad93ba39acd383696ab6a9ebbed1259ecf2d3cf9f49d6b97038c66f80749e99a 205640 cmatrix_2.0.orig.tar.gz
+ 0f13ddfee05685592b9126300c54d6ea1b182ae530b4c692754fb49c387e7a22 4436 cmatrix_2.0-3.debian.tar.xz
+Homepage: https://github.com/abishekvashok/cmatrix
+Package-List: 
+ cmatrix deb misc optional arch=any
+ cmatrix-xfont deb x11 optional arch=all
+Directory: pool/main/c/cmatrix
+Priority: source
+Section: misc

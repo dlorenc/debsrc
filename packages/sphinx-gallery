@@ -1,0 +1,26 @@
+Package: sphinx-gallery
+Binary: python3-sphinx-gallery, python-sphinx-gallery-doc
+Version: 0.8.2-1
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Build-Depends: debhelper-compat (= 9), dh-python, optipng, python-matplotlib-doc <!nodoc>, python-numpy-doc <!nodoc>, python-pandas-doc <!nodoc>, python-sklearn-doc <!nodoc>, python3-all, python3-doc <!nodoc>, python3-ipython <!nodoc>, python3-joblib <!nocheck>, python3-matplotlib (>= 3.2.2), python3-memory-profiler <!nodoc>, python3-pil, python3-plotly <!nodoc>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-pytest-runner <!nocheck>, python3-seaborn, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme <!nodoc>, python3-statsmodels <!nodoc>, sphinx-doc <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7c9cf36412729fc122bea6a07f13afb9 2630 sphinx-gallery_0.8.2-1.dsc
+ 8b7844a6788dbf1c5ce8da84e095c105 410128 sphinx-gallery_0.8.2.orig.tar.xz
+ 536be16a6b8e6a6ef44383fd015b86bd 4780 sphinx-gallery_0.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/sphinx-gallery
+Vcs-Git: https://salsa.debian.org/python-team/packages/sphinx-gallery.git
+Checksums-Sha256:
+ c9b085d6f6ec828e04beb0e380bea509d348024d46e3ff16251754b49c593800 2630 sphinx-gallery_0.8.2-1.dsc
+ 341064fdc216cd7a4306dbbedb05503572f38b09fdcf56b95656923c7f97efe2 410128 sphinx-gallery_0.8.2.orig.tar.xz
+ 82a5385033fa86a040fbc949728b6f98cc260e594c72f12ef9cc747303940923 4780 sphinx-gallery_0.8.2-1.debian.tar.xz
+Homepage: https://sphinx-gallery.github.io/
+Package-List: 
+ python-sphinx-gallery-doc deb doc optional arch=all
+ python3-sphinx-gallery deb python optional arch=all
+Directory: pool/main/s/sphinx-gallery
+Priority: extra
+Section: misc

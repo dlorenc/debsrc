@@ -1,0 +1,28 @@
+Package: yubikey-personalization
+Binary: yubikey-personalization, libykpers-1-1, libykpers-1-dev, libyubikey-udev
+Version: 1.20.0-3
+Maintainer: Debian Authentication Maintainers <team+auth@tracker.debian.org>
+Uploaders: Dain Nilsson <dain@yubico.com>, Klas Lindfors <klas@yubico.com>, nicoo <nicoo@debian.org>, Tollef Fog Heen <tfheen@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, udev [linux-any], libusb-1.0-0-dev [!hurd-i386], libusb-dev [hurd-i386], libyubikey-dev (>= 1.5), libjson-c-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cb9b48e4e69b8671985d1e4543fa8201 2506 yubikey-personalization_1.20.0-3.dsc
+ 8749113ce5a0164fe2b429b61242ba0f 523134 yubikey-personalization_1.20.0.orig.tar.gz
+ 254440e38ccaafcb6989faf9ed78b2ba 78032 yubikey-personalization_1.20.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/auth-team/yubikey-personalization
+Vcs-Git: https://salsa.debian.org/auth-team/yubikey-personalization.git
+Checksums-Sha256:
+ f3b4387d7cc0ffed60cdabdf8997216359545aee23871163ef3aa5205fd89246 2506 yubikey-personalization_1.20.0-3.dsc
+ 0ec84d0ea862f45a7d85a1a3afe5e60b8da42df211bb7d27a50f486e31a79b93 523134 yubikey-personalization_1.20.0.orig.tar.gz
+ 0ad2d911a3e02200768c5e7d70cc6a8476ec27b545ec1cc735110616fb4503d5 78032 yubikey-personalization_1.20.0-3.debian.tar.xz
+Homepage: https://developers.yubico.com/yubikey-personalization/
+Package-List: 
+ libykpers-1-1 deb libs optional arch=any
+ libykpers-1-dev deb libdevel optional arch=any
+ libyubikey-udev deb admin optional arch=all
+ yubikey-personalization deb utils optional arch=any
+Directory: pool/main/y/yubikey-personalization
+Priority: source
+Section: utils

@@ -1,0 +1,28 @@
+Package: rust-bytesize
+Binary: librust-bytesize-dev, librust-bytesize+serde-dev
+Version: 1.0.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Matt Kraai <kraai@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 06f8f3b58728f2ce8d121092507a0a06 2236 rust-bytesize_1.0.1-1.dsc
+ 96a7eb2b484fb99ae0d92f0a23b48204 7629 rust-bytesize_1.0.1.orig.tar.gz
+ 1075fb3362bf3980bedf1db94b79d73e 2072 rust-bytesize_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bytesize
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytesize]
+Checksums-Sha256:
+ 320a3aa244af7efaa69a0e2e6dffcdaf3d55a96bdc2b25810ccd762a598b333a 2236 rust-bytesize_1.0.1-1.dsc
+ 81a18687293a1546b67c246452202bbbf143d239cb43494cc163da14979082da 7629 rust-bytesize_1.0.1.orig.tar.gz
+ 2b7f2cd82b983fbad51f227ebb442fa8bf6b03d48f1b0c7fe0af321786c0ab88 2072 rust-bytesize_1.0.1-1.debian.tar.xz
+Homepage: https://github.com/hyunsik/bytesize/
+Package-List: 
+ librust-bytesize+serde-dev deb rust optional arch=any
+ librust-bytesize-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-bytesize
+Priority: extra
+Section: misc

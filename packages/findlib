@@ -1,0 +1,28 @@
+Package: findlib
+Binary: ocaml-findlib, libfindlib-ocaml-dev, libfindlib-ocaml
+Version: 1.8.1-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>, Stéphane Glondu <glondu@debian.org>, Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper-compat (= 13), bash-completion, ocaml-nox (>= 4.11.1), ocaml, m4, gawk | awk, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aa9bfd0a9354a2fb173baab7c7308a18 1995 findlib_1.8.1-2.dsc
+ 18ca650982c15536616dea0e422cbd8c 261544 findlib_1.8.1.orig.tar.gz
+ e33f5987466ee6cd4044c46bd5bdefac 12692 findlib_1.8.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/findlib
+Vcs-Git: https://salsa.debian.org/ocaml-team/findlib.git
+Checksums-Sha256:
+ 2069be0151f7391c982d380d19672a39f594469d93c88785facba59b5cec8deb 1995 findlib_1.8.1-2.dsc
+ 8e85cfa57e8745715432df3116697c8f41cb24b5ec16d1d5acd25e0196d34303 261544 findlib_1.8.1.orig.tar.gz
+ 200d06efaaeced6f6ef6a9845b2e6227e82924a9d51ea691f885d6653c21ee61 12692 findlib_1.8.1-2.debian.tar.xz
+Homepage: http://projects.camlcity.org/projects/findlib.html
+Dgit: cabb0011786662d0ce0cfd1413c42e3572f8480b debian archive/debian/1.8.1-2 https://git.dgit.debian.org/findlib
+Package-List: 
+ libfindlib-ocaml deb ocaml optional arch=any
+ libfindlib-ocaml-dev deb ocaml optional arch=any
+ ocaml-findlib deb ocaml optional arch=any
+Directory: pool/main/f/findlib
+Priority: source
+Section: devel

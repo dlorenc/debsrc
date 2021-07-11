@@ -1,0 +1,26 @@
+Package: haskell-cassava-megaparsec
+Binary: libghc-cassava-megaparsec-dev, libghc-cassava-megaparsec-prof, libghc-cassava-megaparsec-doc
+Version: 2.0.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-cassava-dev (>= 0.4.2), libghc-cassava-dev (<< 0.6), libghc-cassava-prof, libghc-megaparsec-dev (>= 7.0), libghc-megaparsec-dev (<< 9.0), libghc-megaparsec-prof, libghc-unordered-containers-dev (>= 0.2.7), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof (>= 0.2.7), libghc-unordered-containers-prof (<< 0.3), libghc-vector-dev (>= 0.11), libghc-vector-dev (<< 0.13), libghc-vector-prof (>= 0.11), libghc-vector-prof (<< 0.13), libghc-hspec-dev (>= 2.0), libghc-hspec-dev (<< 3.0), libghc-hspec-prof (>= 2.0), libghc-hspec-prof (<< 3.0)
+Build-Depends-Indep: ghc-doc, libghc-cassava-doc, libghc-megaparsec-doc, libghc-unordered-containers-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 2f158f01e70a6e9f28a7db9417dc5885 2954 haskell-cassava-megaparsec_2.0.1-1.dsc
+ d66cf11d1c16ca0d59a632034fdaf374 6131 haskell-cassava-megaparsec_2.0.1.orig.tar.gz
+ 4953b087d71d81656f30b62f29c81536 2292 haskell-cassava-megaparsec_2.0.1-1.debian.tar.xz
+Checksums-Sha256:
+ ff3538492429e3148cea45cf33b557b472c30f107644078ecfbf0dcf03ec1790 2954 haskell-cassava-megaparsec_2.0.1-1.dsc
+ e38e7849da5bcf2b20aff6b85c447c0cdfc2007f1bf3fb2a8bc67f8b129f9a60 6131 haskell-cassava-megaparsec_2.0.1.orig.tar.gz
+ 911061c5d0f10a81f5d6e107adab345898bb1f2efd06a8ddd3032c4f8658cd10 2292 haskell-cassava-megaparsec_2.0.1-1.debian.tar.xz
+Homepage: https://github.com/stackbuilders/cassava-megaparsec
+Package-List: 
+ libghc-cassava-megaparsec-dev deb haskell optional arch=any
+ libghc-cassava-megaparsec-doc deb doc optional arch=all
+ libghc-cassava-megaparsec-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cassava-megaparsec
+Priority: extra
+Section: misc

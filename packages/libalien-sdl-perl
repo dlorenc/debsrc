@@ -1,0 +1,28 @@
+Package: libalien-sdl-perl
+Binary: libalien-sdl-perl, libalien-sdl-dev-perl
+Version: 1.446-3.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>
+Build-Depends: debhelper (>= 9), libmodule-build-perl (>= 0.421100-2), perl
+Build-Depends-Indep: freeglut3-dev, libarchive-extract-perl | perl (<< 5.17.0), libarchive-zip-perl, libcapture-tiny-perl, libfile-sharedir-perl, libfile-which-perl, libgl1-mesa-dev | libgl-dev, libjpeg-dev, libpng-dev, libsdl-gfx1.2-dev, libsdl-image1.2-dev, libsdl-mixer1.2-dev, libsdl-net1.2-dev, libsdl-pango-dev, libsdl-ttf2.0-dev, libsdl1.2-dev, libsmpeg-dev, libtext-patch-perl, libtiff-dev
+Architecture: all
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ 2f0fb591b5d7d2936eba9e4fe44e7b62 2587 libalien-sdl-perl_1.446-3.1.dsc
+ 3b3f8ba2e26f789caf392a9bba964330 350448 libalien-sdl-perl_1.446.orig.tar.gz
+ e6f23d647c2287b3e4b8f194949948b4 5084 libalien-sdl-perl_1.446-3.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libalien-sdl-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libalien-sdl-perl.git
+Checksums-Sha256:
+ f95a899d1e75d04d11ab725472c82fe2430c359a7f7726030d8c79a229aaa251 2587 libalien-sdl-perl_1.446-3.1.dsc
+ c9aa2c9dc3c63d89773c7d7203f2a46d1b924d0c72d9f801af147a3dc8bc512a 350448 libalien-sdl-perl_1.446.orig.tar.gz
+ 8121dcb7f81310a1af2290377415190679cc12e2b4d4f666306bfbb54b86fd5b 5084 libalien-sdl-perl_1.446-3.1.debian.tar.xz
+Homepage: https://metacpan.org/release/Alien-SDL
+Package-List: 
+ libalien-sdl-dev-perl deb perl optional arch=all
+ libalien-sdl-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liba/libalien-sdl-perl
+Priority: source
+Section: perl

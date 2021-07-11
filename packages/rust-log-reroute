@@ -1,0 +1,26 @@
+Package: rust-log-reroute
+Binary: librust-log-reroute-dev
+Version: 0.1.5-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-arc-swap-0.4+default-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-once-cell-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c0c77c7336daaffdce17c6f22f2daaae 2365 rust-log-reroute_0.1.5-2.dsc
+ cd51aeefb334539ac73eb7b643f6d294 8420 rust-log-reroute_0.1.5.orig.tar.gz
+ 36dd5381292e31da3d615b4bdfe06f6b 2636 rust-log-reroute_0.1.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/log-reroute
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/log-reroute]
+Checksums-Sha256:
+ bff71e2c5547aaf2e1de5acf782545a6e70a90d86fb1d0d602ed2ca8c0ebe899 2365 rust-log-reroute_0.1.5-2.dsc
+ 2c1772ea427a0f12a588e38aea47e52d623627a5b554930f9dcc7ea772dfd2ca 8420 rust-log-reroute_0.1.5.orig.tar.gz
+ bb5777a1f017b21bc7d00ba946260bcf12a2aad55179a147dd833a5ed10c37fe 2636 rust-log-reroute_0.1.5-2.debian.tar.xz
+Package-List: 
+ librust-log-reroute-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-fern-0.5+default-dev, librust-tempfile-3+default-dev, librust-version-sync-0.8+default-dev
+Directory: pool/main/r/rust-log-reroute
+Priority: extra
+Section: misc

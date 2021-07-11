@@ -1,0 +1,28 @@
+Package: victoriametrics
+Binary: victoria-metrics, golang-github-victoriametrics-victoriametrics-dev
+Version: 1.53.1+ds-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Guillem Jover <gjover@sipwise.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-aws-aws-sdk-go-dev, golang-github-cespare-xxhash-dev (>= 2.1.1), golang-github-golang-snappy-dev, golang-github-klauspost-compress-dev (>= 1.9.5), golang-github-urfave-cli-v2-dev, golang-github-valyala-fastjson-dev (>= 1.6.1), golang-github-valyala-fastrand-dev <!nocheck>, golang-github-valyala-fasttemplate-dev, golang-github-valyala-gozstd-dev, golang-github-valyala-histogram-dev, golang-github-valyala-quicktemplate-dev, golang-github-victoriametrics-fastcache-dev, golang-github-victoriametrics-metrics-dev (>= 1.12.3), golang-github-victoriametrics-metricsql-dev (>= 0.9.1), golang-golang-x-oauth2-google-dev, golang-golang-x-sys-dev, golang-google-api-dev (>= 0.15.0), golang-google-cloud-dev (>= 0.49.0), golang-gopkg-yaml.v2-dev, golang-github-fatih-color-dev, golang-github-mattn-go-colorable-dev, golang-github-mattn-go-isatty-dev, golang-github-mattn-go-runewidth-dev, golang-github-vividcortex-ewma-dev, golang-github-go-kit-kit-dev, golang-github-oklog-ulid-dev, golang-github-pkg-errors-dev, golang-github-prometheus-client-golang-dev, golang-github-prometheus-common-dev, golang-go.uber-atomic-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0894d5cdb9338a2d5c40a4ad9cef4a7c 3418 victoriametrics_1.53.1+ds-1.dsc
+ 33e98852cf2cc8f502e23972900ac136 3307914 victoriametrics_1.53.1+ds.orig.tar.gz
+ 721cc9c9843b9a7807b2073b02f02561 13460 victoriametrics_1.53.1+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/victoriametrics
+Vcs-Git: https://salsa.debian.org/go-team/packages/victoriametrics.git
+Checksums-Sha256:
+ 7aa603f29631e1ddbca67073e397e9e5b6fe336d4757893ea3ca03daa4e9589d 3418 victoriametrics_1.53.1+ds-1.dsc
+ eadd32b2db622d509e389543671d858a509c78a6477144ededcdf77fa6ea8675 3307914 victoriametrics_1.53.1+ds.orig.tar.gz
+ 54e69ae761c7491e8fa88dcb8144b975f49a89debab608276536db148411531d 13460 victoriametrics_1.53.1+ds-1.debian.tar.xz
+Homepage: https://github.com/VictoriaMetrics/VictoriaMetrics
+Go-Import-Path: github.com/VictoriaMetrics/VictoriaMetrics
+Package-List: 
+ golang-github-victoriametrics-victoriametrics-dev deb golang optional arch=all
+ victoria-metrics deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/v/victoriametrics
+Priority: extra
+Section: misc

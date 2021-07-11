@@ -1,0 +1,26 @@
+Package: python-dropbox
+Binary: python3-dropbox
+Version: 10.10.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-pytest-runner, python3-requests, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1fdc53550c7ac65dee688565cd8d80ee 1778 python-dropbox_10.10.0-1.dsc
+ 72100d69ec320136b6846279506879b6 1251377 python-dropbox_10.10.0.orig.tar.gz
+ 2614e41a82791a0761716fe4070387d5 2896 python-dropbox_10.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-dropbox
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-dropbox.git
+Checksums-Sha256:
+ cca3ff80753a3f2cdc6ddfa610cd9f0fd62ea3b53b6945d9a2d06ddb77c87d31 1778 python-dropbox_10.10.0-1.dsc
+ 3b07fcc12dbec356a0867488a2f26206d7f2ccdb257e44d8fe4e27865def3395 1251377 python-dropbox_10.10.0.orig.tar.gz
+ 0c682e1b5d9b23db8be4cd773caf1bfe445a9c164226a5de499b0c934eaba80e 2896 python-dropbox_10.10.0-1.debian.tar.xz
+Homepage: http://www.dropbox.com/developers
+Package-List: 
+ python3-dropbox deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-dropbox
+Priority: extra
+Section: misc

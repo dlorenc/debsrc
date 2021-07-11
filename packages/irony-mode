@@ -1,0 +1,27 @@
+Package: irony-mode
+Binary: elpa-irony, irony-server
+Version: 1.4.0+7.g76fd37f-1
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Nicholas D Steeves <nsteeves@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, libclang-11-dev, clang-11, llvm-11-dev, dh-elpa, python3-docutils
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aa63824dad0f70851501ed7be663a4fd 2178 irony-mode_1.4.0+7.g76fd37f-1.dsc
+ 140139f04b57eee49d51fa86fe1b6ec0 306628 irony-mode_1.4.0+7.g76fd37f.orig.tar.xz
+ d889da67cb7319ff370e75fb32b1320b 6040 irony-mode_1.4.0+7.g76fd37f-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/irony-mode
+Vcs-Git: https://salsa.debian.org/emacsen-team/irony-mode.git
+Checksums-Sha256:
+ 88aaeed3a3c51e372e3847784a950167e5514c3a5d82d343706c13c70f162ce3 2178 irony-mode_1.4.0+7.g76fd37f-1.dsc
+ d9241e35d8397db4de9f0550ea2e9b70c0c79946f928e67064de14e2705aae70 306628 irony-mode_1.4.0+7.g76fd37f.orig.tar.xz
+ 9c745d47c9195f89e60ef65d4b8c2efa5653d1d876e0b71468595fe093e7a138 6040 irony-mode_1.4.0+7.g76fd37f-1.debian.tar.xz
+Homepage: https://github.com/Sarcasm/irony-mode/
+Package-List: 
+ elpa-irony deb editors optional arch=all
+ irony-server deb editors optional arch=any
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/i/irony-mode
+Priority: optional
+Section: misc

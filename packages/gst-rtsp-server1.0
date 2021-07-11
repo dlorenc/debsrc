@@ -1,0 +1,28 @@
+Package: gst-rtsp-server1.0
+Binary: libgstrtspserver-1.0-dev, libgstrtspserver-1.0-0, gir1.2-gst-rtsp-server-1.0, gstreamer1.0-rtsp
+Version: 1.18.4-2
+Maintainer: Maintainers of GStreamer packages <gst-rtsp-server1.0@packages.debian.org>
+Uploaders: Sebastian Dröge <slomo@debian.org>
+Build-Depends: debhelper-compat (= 13), debhelper, meson (>= 0.48), pkg-config (>= 0.11.0), libglib2.0-dev (>= 2.44), libgstreamer1.0-dev (>= 1.18.0), libgstreamer-plugins-base1.0-dev (>= 1.18.0), libgstreamer-plugins-bad1.0-dev (>= 1.18.0), gobject-introspection (>= 0.9.12-4~), libgirepository1.0-dev, gir1.2-gstreamer-1.0 (>= 1.18.0), gir1.2-gst-plugins-base-1.0 (>= 1.18.0), gstreamer1.0-plugins-base (>= 1.18.0), gstreamer1.0-plugins-good (>= 1.18.0), gstreamer1.0-plugins-bad (>= 1.18.0)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2cab12632a60f1b60df6c83e2238b870 2900 gst-rtsp-server1.0_1.18.4-2.dsc
+ e96d617840fb534bb4e7a629db10bdef 358140 gst-rtsp-server1.0_1.18.4.orig.tar.xz
+ ecd445c1d3ed208dcc88d4ecb6ec6d9f 6880 gst-rtsp-server1.0_1.18.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gstreamer-team/gst-rtsp-server1.0/
+Vcs-Git: https://salsa.debian.org/gstreamer-team/gst-rtsp-server1.0.git
+Checksums-Sha256:
+ 3228355afd85e8460e859d84901be5918b57d00d6da8bb6090241db14ec4c21a 2900 gst-rtsp-server1.0_1.18.4-2.dsc
+ a46bb8de40b971a048580279d2660e616796f871ad3ed00c8a95fe4d273a6c94 358140 gst-rtsp-server1.0_1.18.4.orig.tar.xz
+ dceffdf8bc6463c3bb1a3faaef9c37f3269c5b47ab07573d5ac840e0fb640e1e 6880 gst-rtsp-server1.0_1.18.4-2.debian.tar.xz
+Homepage: https://gstreamer.freedesktop.org
+Package-List: 
+ gir1.2-gst-rtsp-server-1.0 deb introspection optional arch=any
+ gstreamer1.0-rtsp deb libs optional arch=any
+ libgstrtspserver-1.0-0 deb libs optional arch=any
+ libgstrtspserver-1.0-dev deb libdevel optional arch=any
+Directory: pool/main/g/gst-rtsp-server1.0
+Priority: optional
+Section: misc

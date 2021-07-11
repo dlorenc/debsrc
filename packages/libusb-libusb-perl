@@ -1,0 +1,27 @@
+Package: libusb-libusb-perl
+Binary: libusb-libusb-perl
+Version: 0.09-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libmoo-perl <!nocheck>, libtest-simple-perl <!nocheck>, libusb-1.0-0-dev, perl-xs-dev, perl:native, pkg-config
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b080d039e776388796d5c4a353cc38fb 2441 libusb-libusb-perl_0.09-2.dsc
+ a9e22008e6c07afefde9b7678cd8faac 65208 libusb-libusb-perl_0.09.orig.tar.gz
+ f083fcf44a0c07465901fd9990b5ae7d 1836 libusb-libusb-perl_0.09-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libusb-libusb-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libusb-libusb-perl.git
+Checksums-Sha256:
+ 06171fac5b27920573be5e3b71c16fb63bf0408d526d6b900fa9574fbbffab09 2441 libusb-libusb-perl_0.09-2.dsc
+ ef3118d49f2dd8d59812f0a38187ceaa4462205f568eb5edf89aaee00fb5a365 65208 libusb-libusb-perl_0.09.orig.tar.gz
+ 09bdfd0bef746d23a89f55fbc4b6da2c307071511e8b4c1a89735877b0818377 1836 libusb-libusb-perl_0.09-2.debian.tar.xz
+Homepage: https://metacpan.org/release/USB-LibUSB
+Dgit: fbc303d5d6ca4daab0f124839ba052a788b7c485 debian archive/debian/0.09-2 https://git.dgit.debian.org/libusb-libusb-perl
+Package-List: 
+ libusb-libusb-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libu/libusb-libusb-perl
+Priority: extra
+Section: misc

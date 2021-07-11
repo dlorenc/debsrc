@@ -1,0 +1,27 @@
+Package: golang-github-mitchellh-go-homedir
+Binary: golang-github-mitchellh-go-homedir-dev
+Version: 1.1.0-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 742b98e7cf663696bb0bee4bf65f9988 2374 golang-github-mitchellh-go-homedir_1.1.0-1.dsc
+ b5e919bac0f166fefd86c8c834b1b1f9 3362 golang-github-mitchellh-go-homedir_1.1.0.orig.tar.gz
+ 5239c1f796412a1581f0686b389a41af 3144 golang-github-mitchellh-go-homedir_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mitchellh-go-homedir
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mitchellh-go-homedir.git
+Checksums-Sha256:
+ 7e5a7b76fb93565c2b41339ba60c8cb3806159cad4ac763ee96d47e04224ae90 2374 golang-github-mitchellh-go-homedir_1.1.0-1.dsc
+ 646671c73a84a8dfb4a5a76b80c7b63549ffefa906524d45077301bc7da76600 3362 golang-github-mitchellh-go-homedir_1.1.0.orig.tar.gz
+ 1e2de2fc0b2ee1d9436b579abd1f80e7008c3611a890a7e2fc001a9b1457dda8 3144 golang-github-mitchellh-go-homedir_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/mitchellh/go-homedir
+Go-Import-Path: github.com/mitchellh/go-homedir
+Package-List: 
+ golang-github-mitchellh-go-homedir-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mitchellh-go-homedir
+Priority: extra
+Section: golang

@@ -1,0 +1,26 @@
+Package: globus-ftp-control
+Binary: libglobus-ftp-control1, libglobus-ftp-control-dev, libglobus-ftp-control-doc
+Version: 9.6-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-gss-assist-dev (>= 11), libglobus-gssapi-gsi-dev (>= 13), libglobus-io-dev (>= 11), libglobus-xio-dev (>= 3), libglobus-gssapi-error-dev (>= 4), libglobus-xio-gsi-driver-dev (>= 4), doxygen, openssl
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4ccbe87f3259e3ebddef2a57e48a08ae 2348 globus-ftp-control_9.6-1.dsc
+ a8132883c62a3fdcb6522f308abcf3ad 462481 globus-ftp-control_9.6.orig.tar.gz
+ 086a62292a4ac6778cb8c0ce8eec4dd8 4460 globus-ftp-control_9.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-ftp-control
+Vcs-Git: https://salsa.debian.org/ellert/globus-ftp-control.git
+Checksums-Sha256:
+ 7b1ed7bd5569265f9decc67fc77a4672de8114e3fab6f64066eff19bf7e1eae5 2348 globus-ftp-control_9.6-1.dsc
+ 76120fcda4b840c3ce1b65ba190b0c862e4ca5669e6876cf0f149f23ac6d211b 462481 globus-ftp-control_9.6.orig.tar.gz
+ c498900684b9d1abf8c4a8ea40d3134595713c4b593c6e091c610ea8df4efbcf 4460 globus-ftp-control_9.6-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-ftp-control-dev deb libdevel optional arch=any
+ libglobus-ftp-control-doc deb doc optional arch=all
+ libglobus-ftp-control1 deb libs optional arch=any
+Directory: pool/main/g/globus-ftp-control
+Priority: source
+Section: net

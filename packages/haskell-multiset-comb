@@ -1,0 +1,25 @@
+Package: haskell-multiset-comb
+Binary: libghc-multiset-comb-dev, libghc-multiset-comb-prof, libghc-multiset-comb-doc
+Version: 0.2.4.1-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7b742ee98dda4908bbafbc494d2ca2af 2178 haskell-multiset-comb_0.2.4.1-5.dsc
+ 28a72ef871e894b061d535a62a44cc53 9168 haskell-multiset-comb_0.2.4.1.orig.tar.gz
+ 167deed8ace00955afd8d65e32e27eb1 2636 haskell-multiset-comb_0.2.4.1-5.debian.tar.xz
+Checksums-Sha256:
+ 53e8a5e0637244faa84e2e1c44194d43c7a036e2d9ab00b4cbeb25618caceb96 2178 haskell-multiset-comb_0.2.4.1-5.dsc
+ 8ae3432daf56c1752a0d63e25acbc8b6b4dce52600091139a9e29b16400030da 9168 haskell-multiset-comb_0.2.4.1.orig.tar.gz
+ cb04a9f4307c530a739f3be59f5ac8f1fbf5df4c567b70b33be4ca4547329247 2636 haskell-multiset-comb_0.2.4.1-5.debian.tar.xz
+Package-List: 
+ libghc-multiset-comb-dev deb haskell optional arch=any
+ libghc-multiset-comb-doc deb doc optional arch=all
+ libghc-multiset-comb-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-multiset-comb
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-union-value
+Binary: node-union-value
+Version: 2.0.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs, mocha <!nocheck>, node-should <!nocheck>, node-set-value (>= 3.0.1) <!nocheck>, node-get-value (>= 3.0.0) <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bd798bc568f08b5ba38d1463a6959251 2198 node-union-value_2.0.1-2.dsc
+ b7086752f41bb0db310b7133f9049e06 5345 node-union-value_2.0.1.orig.tar.gz
+ 38ed522618f46f01ac770570136377a3 2528 node-union-value_2.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-union-value
+Vcs-Git: https://salsa.debian.org/js-team/node-union-value.git
+Checksums-Sha256:
+ 4740b19dfddac4fcbc39aa06905af83ceff173e723c812c661591dd9868ec197 2198 node-union-value_2.0.1-2.dsc
+ 9cd7ab47a0c89111708907af30ae0cd5e9295f44a09426c940535e7e06ec39cc 5345 node-union-value_2.0.1.orig.tar.gz
+ 068ae422d5656075d1a42e9034a7d91985b5f09e64d249466b52d3cc3887e0c7 2528 node-union-value_2.0.1-2.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/union-value
+Package-List: 
+ node-union-value deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-union-value
+Priority: optional
+Section: javascript

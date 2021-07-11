@@ -1,0 +1,24 @@
+Package: waagent
+Binary: waagent
+Version: 2.2.47-2
+Maintainer: Bastian Blank <bastian.blank@credativ.de>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3, python3-distro, python3-setuptools
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ c0e3d356716dc9efca23411c7e6c213c 1591 waagent_2.2.47-2.dsc
+ dd5cfa4add8e3cd617ac08329f8720c7 1336396 waagent_2.2.47.orig.tar.xz
+ 051a03aea8fbc9233d398943074afeb9 10840 waagent_2.2.47-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/waldi/waagent
+Vcs-Git: https://salsa.debian.org/waldi/waagent.git
+Checksums-Sha256:
+ 21967afe2a44cf55825cd421ce17a9e89861c367c27070c2c7dfc7c91628179f 1591 waagent_2.2.47-2.dsc
+ cb3904fd6341409604376d7ffe56cf48f34bb651c3a6a6581be05bbf83012ad2 1336396 waagent_2.2.47.orig.tar.xz
+ 0f21068e310eed6c15eb80a306856f8b61a3bf0fdf9a1aa225d739cf54c24f88 10840 waagent_2.2.47-2.debian.tar.xz
+Homepage: https://github.com/Azure/WALinuxAgent
+Package-List: 
+ waagent deb admin optional arch=all
+Directory: pool/main/w/waagent
+Priority: source
+Section: misc

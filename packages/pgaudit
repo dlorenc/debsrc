@@ -1,0 +1,27 @@
+Package: pgaudit
+Binary: postgresql-13-pgaudit
+Version: 1.5.0-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Michael Banck <michael.banck@credativ.de>
+Build-Depends: debhelper-compat (= 13), libkrb5-dev, libssl-dev, postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dd20cc8768d8cde26c1195b30b3645e2 2027 pgaudit_1.5.0-1.dsc
+ cb087963d378f4d81eac65fdfbe9f161 34130 pgaudit_1.5.0.orig.tar.gz
+ 1d3d8b00b63c987a5f1d0be6d955db3b 2756 pgaudit_1.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/pgaudit
+Vcs-Git: https://salsa.debian.org/postgresql/pgaudit.git -b master
+Checksums-Sha256:
+ 4faaa19baaf20f1d70de61a7098ce0bcd3def554513ec9751c8efea9008adf67 2027 pgaudit_1.5.0-1.dsc
+ 7c031c61c418f7ed23776dcc46efa6d0d6f4db63cec1f6ea26b3b5b2f6e55c55 34130 pgaudit_1.5.0.orig.tar.gz
+ 2845ea5728237124964f53708eb099b61a4ed1269be99efe707283dcd780014e 2756 pgaudit_1.5.0-1.debian.tar.xz
+Homepage: http://pgaudit.org/
+Package-List: 
+ postgresql-13-pgaudit deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make
+Directory: pool/main/p/pgaudit
+Priority: optional
+Section: misc

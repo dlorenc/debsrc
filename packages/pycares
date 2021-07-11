@@ -1,0 +1,28 @@
+Package: pycares
+Binary: python3-pycares, python-pycares-doc
+Version: 3.1.1-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Scott Kitterman <scott@kitterman.com>, Tanguy Ortolo <tanguy+debian@ortolo.eu>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-all-dev, python3-cffi, python3-docutils, python3-idna, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: any all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 8073c87469873a971d66be49ec258bed 2256 pycares_3.1.1-1.dsc
+ 227995f1550da9c5abce34c246c2cd51 216259 pycares_3.1.1.orig.tar.gz
+ ccc8042fdce3ef8cd5d2c8bc7bb169c3 4092 pycares_3.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pycares
+Vcs-Git: https://salsa.debian.org/python-team/modules/pycares.git
+Checksums-Sha256:
+ dddf4132d91fca81f4e2b4aaa2bad6becdd00b96233f059e9b68254793582c72 2256 pycares_3.1.1-1.dsc
+ 940fb574b0a01332d1bf1a03436415a9ff6d1653d49c6fdb7e27a8c0dff4a8f4 216259 pycares_3.1.1.orig.tar.gz
+ 8d9864aeef2a2ed90d99e1c25b877620a088c18eefb0f872dacb6b7320d564c0 4092 pycares_3.1.1-1.debian.tar.xz
+Homepage: https://github.com/saghul/pycares
+Package-List: 
+ python-pycares-doc deb doc optional arch=all
+ python3-pycares deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/pycares
+Priority: optional
+Section: misc

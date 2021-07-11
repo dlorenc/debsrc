@@ -1,0 +1,28 @@
+Package: android-platform-system-extras
+Binary: android-libext4-utils, android-libext4-utils-dev, android-libfec, android-libfec-dev
+Version: 10.0.0+r36+ds-2
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>, Kai-Chung Yan <seamlikok@gmail.com>, Chirayu Desai <chirayudesai1@gmail.com>
+Build-Depends: debhelper-compat (= 12), android-libsparse-dev (>= 1:10.0.0+r36-1~), android-libselinux-dev (>= 10.0.0+r36-1~), android-libcutils-dev (>= 1:10.0.0+r36-1~), android-libbase-dev (>= 1:10.0.0+r36-1~), android-platform-system-core-headers (>= 1:10.0.0+r36-1~), dh-exec, libsquashfuse-dev
+Architecture: i386 amd64 armel armhf arm64 mips mipsel mips64el all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 3f604ee949bb20a88feb31e442d1ce85 2956 android-platform-system-extras_10.0.0+r36+ds-2.dsc
+ a50e7d58e4dbd692c37518e6eece3719 4298616 android-platform-system-extras_10.0.0+r36+ds.orig.tar.xz
+ 06765d7e9cd2f35659c0f91e721c6dc1 5428 android-platform-system-extras_10.0.0+r36+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/android-tools-team/android-platform-system-extras
+Vcs-Git: https://salsa.debian.org/android-tools-team/android-platform-system-extras.git
+Checksums-Sha256:
+ 7056eee35519128160a1796d218c215628560d0c7d10af32f306f535f60404bb 2956 android-platform-system-extras_10.0.0+r36+ds-2.dsc
+ 90c116ff66d67a663c77db46aea7f2c3de5ed91f8a1c4e64cd1a529e03e9d261 4298616 android-platform-system-extras_10.0.0+r36+ds.orig.tar.xz
+ d076647c787608e46536e77e7319b44f438f5e74c270eca0c1f541ca037bbe5b 5428 android-platform-system-extras_10.0.0+r36+ds-2.debian.tar.xz
+Homepage: https://android.googlesource.com/platform/system/extras
+Package-List: 
+ android-libext4-utils deb libs optional arch=i386,amd64,armel,armhf,arm64,mips,mipsel,mips64el
+ android-libext4-utils-dev deb libdevel optional arch=all
+ android-libfec deb libs optional arch=i386,amd64,armel,armhf,arm64,mips,mipsel,mips64el
+ android-libfec-dev deb libdevel optional arch=all
+Directory: pool/main/a/android-platform-system-extras
+Priority: optional
+Section: misc

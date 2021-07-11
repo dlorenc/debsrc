@@ -1,0 +1,27 @@
+Package: ruby-shoulda
+Binary: ruby-shoulda
+Version: 4.0.0-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-shoulda-context (>= 2.0~), ruby-shoulda-matchers (>= 4.0~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1dac703dc1f895a0671874009bcf15c6 2080 ruby-shoulda_4.0.0-2.dsc
+ c52481f06f47d6f14f0e7ad007cf22ce 17453 ruby-shoulda_4.0.0.orig.tar.gz
+ da1a5bdf2a7d3c53fef810b27c0f1c1d 3592 ruby-shoulda_4.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-shoulda
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-shoulda.git
+Checksums-Sha256:
+ bff3b65b0c2db06ba49f806e090f392839f6549a8e01ade5e31cfb37c61e6802 2080 ruby-shoulda_4.0.0-2.dsc
+ b12a01a418ab692ba4790f6af2f3e3533b91b7dc6648f47e19749becbb7fb243 17453 ruby-shoulda_4.0.0.orig.tar.gz
+ b57939b6f7d640ef3489403f885e9f472c46f161350b7eb25d65d4b86819865e 3592 ruby-shoulda_4.0.0-2.debian.tar.xz
+Homepage: https://github.com/thoughtbot/shoulda
+Package-List: 
+ ruby-shoulda deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-shoulda
+Priority: source
+Section: ruby

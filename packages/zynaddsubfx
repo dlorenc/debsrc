@@ -1,0 +1,29 @@
+Package: zynaddsubfx
+Binary: zynaddsubfx, zynaddsubfx-data, zynaddsubfx-dssi, zynaddsubfx-lv2, zynaddsubfx-vst
+Version: 3.0.5-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Jaromír Mikeš <mira.mikes@seznam.cz>
+Build-Depends: bash-completion, cmake (>= 2.4), cxxtest <!nocheck>, debhelper-compat (= 12), fluid (>= 1.3.0), libasound2-dev (>= 0.9.4) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libfftw3-dev, libfltk1.3-dev, libjack-dev, liblo-dev (>= 0.26~repack), dssi-dev (>= 0.9.0), libmxml-dev (>= 2.0), zlib1g-dev, libxpm-dev, libgl1-mesa-dev, asciidoctor, xmlto, lv2-dev, pkg-config
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 9fd8afe0f7824951c9a3f3b4a4d11882 2557 zynaddsubfx_3.0.5-2.dsc
+ 6a4b03064f64c228e2d6f4b5aef32244 8141703 zynaddsubfx_3.0.5.orig.tar.bz2
+ 003c2393c82c7aeca60391797fbb812d 9216 zynaddsubfx_3.0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/zynaddsubfx
+Vcs-Git: https://salsa.debian.org/multimedia-team/zynaddsubfx.git
+Checksums-Sha256:
+ 9276afedcdb82f5d0a487ae3cb5d3516fc8cb4e4bc9e83116215476278dad193 2557 zynaddsubfx_3.0.5-2.dsc
+ 7447322268114a1e0ac5f281ac37a09a78e761a7be61999caf79100049789f63 8141703 zynaddsubfx_3.0.5.orig.tar.bz2
+ d265ca0d27051241690ab9347738aefe389b52d318f511fca110ba7547816a65 9216 zynaddsubfx_3.0.5-2.debian.tar.xz
+Homepage: https://zynaddsubfx.sourceforge.io
+Package-List: 
+ zynaddsubfx deb sound optional arch=any
+ zynaddsubfx-data deb sound optional arch=all
+ zynaddsubfx-dssi deb sound optional arch=any
+ zynaddsubfx-lv2 deb sound optional arch=any
+ zynaddsubfx-vst deb sound optional arch=any
+Directory: pool/main/z/zynaddsubfx
+Priority: source
+Section: sound

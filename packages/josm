@@ -1,0 +1,26 @@
+Package: josm
+Binary: josm, josm-l10n
+Version: 0.0.svn17428+dfsg-2
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>, Mònica Ramírez Arceda <monica@debian.org>, Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), default-jdk (>= 2:1.9) | java9-sdk, ant, ant-contrib, gettext, javacc, jmapviewer (>= 2.14), libcommons-compress-java, libgettext-ant-tasks-java, libgettext-commons-java (>= 0.9.6), liboauth-signpost-java (>= 1.2), libterm-readkey-perl, openjfx
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ df5f5ffa90cf5b3af73d8e71279701eb 2336 josm_0.0.svn17428+dfsg-2.dsc
+ 106b73e1d868a4e0b75a673e942f2816 54459102 josm_0.0.svn17428+dfsg.orig.tar.gz
+ 20748cad82b840f08378535b4e89a845 50604 josm_0.0.svn17428+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/josm
+Vcs-Git: https://salsa.debian.org/debian-gis-team/josm.git
+Checksums-Sha256:
+ 7dd83d5933811fee54884037a839250bc84dc97634e911c2906fcfbf6a59d9d8 2336 josm_0.0.svn17428+dfsg-2.dsc
+ 96bdcf25f1421c8a4885602aa12806c632365a5271201d2bffc4c890098bd480 54459102 josm_0.0.svn17428+dfsg.orig.tar.gz
+ 4fb7a686aa0ed14c25a919f2348dd28abb0cef915b48e3bcc7a4eacc88876d2b 50604 josm_0.0.svn17428+dfsg-2.debian.tar.xz
+Homepage: https://josm.openstreetmap.de
+Package-List: 
+ josm deb utils optional arch=all
+ josm-l10n deb localization optional arch=all
+Directory: pool/main/j/josm
+Priority: source
+Section: utils

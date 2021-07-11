@@ -1,0 +1,25 @@
+Package: pgstat
+Binary: pgstat
+Version: 1.0.1-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christophe Courtois <christophe.courtois@dalibo.com>
+Build-Depends: debhelper (>= 10), libpq-dev, postgresql-server-dev-all, help2man
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 97595b48390451e2ee2a1a8877da6f05 1956 pgstat_1.0.1-1.dsc
+ c2222850ace553d2c3658d8f8629d8aa 18396 pgstat_1.0.1.orig.tar.gz
+ 6e366a32ca88eb2556ab345f200219b1 2200 pgstat_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/Krysztophe-guest/pgstat
+Vcs-Git: https://salsa.debian.org/Krysztophe-guest/pgstat.git
+Checksums-Sha256:
+ 2e15636d4598e83e4c7bc0cdb1b92bcf83066d00dc30286a75f2505df0a5d647 1956 pgstat_1.0.1-1.dsc
+ 2843d786643b0f94a167e5cb1c92193b9a9765577d7670a78def775aa9b78772 18396 pgstat_1.0.1.orig.tar.gz
+ f57a61f69c6e89dd5f842c78ffefc985f3a64e8e35e1cbda1880f96086a79c81 2200 pgstat_1.0.1-1.debian.tar.xz
+Homepage: https://github.com/gleu/pgstats
+Package-List: 
+ pgstat deb database optional arch=any
+Directory: pool/main/p/pgstat
+Priority: extra
+Section: misc

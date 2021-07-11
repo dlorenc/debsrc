@@ -1,0 +1,26 @@
+Package: node-finalhandler
+Binary: node-finalhandler
+Version: 1.1.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), mocha (>= 4) <!nocheck>, node-escape-html (>= 1.0.3) <!nocheck>, node-debug (>= 2.6.9) <!nocheck>, node-encodeurl <!nocheck>, node-on-finished <!nocheck>, node-parseurl <!nocheck>, node-readable-stream <!nocheck>, node-statuses <!nocheck>, node-unpipe <!nocheck>, node-should <!nocheck>, node-supertest (>= 4.0.2~) <!nocheck>, node-safe-buffer <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d37f634959be4f07f76df2011f4fa87b 2434 node-finalhandler_1.1.2-1.dsc
+ 5553eb0a3b8e1fb502689735c0ad5066 10258 node-finalhandler_1.1.2.orig.tar.gz
+ 7001ca005dba46a742dd078f5d93cd0c 2676 node-finalhandler_1.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-finalhandler
+Vcs-Git: https://salsa.debian.org/js-team/node-finalhandler.git
+Checksums-Sha256:
+ 3dff38d4e47896b6e00c2c840230057216275da9d5f7b135e5637ab3ba2191f4 2434 node-finalhandler_1.1.2-1.dsc
+ bbad4efa700cf105c6e12adebf49f019e45388596b0f0183f4f81849fbaa81ba 10258 node-finalhandler_1.1.2.orig.tar.gz
+ 532f8bed73a778bab92ce963e68a496ee1cd3bfd57ae94fde1ec04b39ec0c3d5 2676 node-finalhandler_1.1.2-1.debian.tar.xz
+Homepage: https://github.com/pillarjs/finalhandler
+Package-List: 
+ node-finalhandler deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-finalhandler
+Priority: optional
+Section: javascript

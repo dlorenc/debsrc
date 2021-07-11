@@ -1,0 +1,25 @@
+Package: milkytracker
+Binary: milkytracker
+Version: 1.03.00+dfsg-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Gürkan Myczko <gurkan@phys.ethz.ch>, James Cowgill <jcowgill@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-exec, libasound2-dev [linux-any], liblhasa-dev, libsdl2-dev, libjack-dev, librtmidi-dev [linux-any], libzzip-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e0a33604abe89c59f00a213fea9cab75 2182 milkytracker_1.03.00+dfsg-1.dsc
+ 22a36d355f1c7a75df71bda04688d386 2943648 milkytracker_1.03.00+dfsg.orig.tar.xz
+ bb18c017e76e3991929d059f72b6ebcf 9508 milkytracker_1.03.00+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/milkytracker
+Vcs-Git: https://salsa.debian.org/multimedia-team/milkytracker.git
+Checksums-Sha256:
+ c8d3cbcd5171bbd1f62e73d282f61bae35e1afc7e35d606ca93d465c691ae140 2182 milkytracker_1.03.00+dfsg-1.dsc
+ 0b07d79b62d44a87a1c2dd169bf33856d87c2a52c7110e7abaff3dc1f7214b3b 2943648 milkytracker_1.03.00+dfsg.orig.tar.xz
+ f7472186ebe723916a4cff7706c8a543acda42042ce0bcaad6634ba753783d0d 9508 milkytracker_1.03.00+dfsg-1.debian.tar.xz
+Homepage: https://milkytracker.org/
+Package-List: 
+ milkytracker deb sound optional arch=any
+Directory: pool/main/m/milkytracker
+Priority: source
+Section: sound

@@ -1,0 +1,26 @@
+Package: plip
+Binary: plip
+Version: 2.1.7+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Alexandre Mestiashvili <mestia@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, help2man, python3-all, python3-future, python3-lxml, python3-numpy, python3-openbabel, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 04fc7abaabae6046d13c3f24c4a9a4d4 2132 plip_2.1.7+dfsg-1.dsc
+ e13cf885fde76abf7274728465f4ae56 78176 plip_2.1.7+dfsg.orig.tar.xz
+ 6b5c4f4482e1211c175bac8c967762ff 4720 plip_2.1.7+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/plip
+Vcs-Git: https://salsa.debian.org/med-team/plip.git
+Checksums-Sha256:
+ c70546b181e68b493a17d84252abe0b5cc09ebfe6f5e7cfacacac5fdee625986 2132 plip_2.1.7+dfsg-1.dsc
+ 7b8f25d4ab7610192d0b020de00fd8ceb962f6e66f7b03f055c32e701d325d7e 78176 plip_2.1.7+dfsg.orig.tar.xz
+ 0c8000f3c06c50137568cee985c44d80b3da6953e0f23c92c6a8a7f5f8e89693 4720 plip_2.1.7+dfsg-1.debian.tar.xz
+Homepage: https://projects.biotec.tu-dresden.de/plip-web/plip/
+Package-List: 
+ plip deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/plip
+Priority: optional
+Section: misc

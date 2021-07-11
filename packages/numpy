@@ -1,0 +1,30 @@
+Package: numpy
+Binary: python3-numpy, python3-numpy-dbg, python-numpy-doc
+Version: 1:1.19.5-1
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Build-Depends: cython3 (>= 0.29.21), debhelper-compat (= 11), dh-python, dvisvgm, gfortran (>= 4:4.2), libblas-dev [!arm !m68k], liblapack-dev [!arm !m68k], python3-all-dbg, python3-all-dev, python3-hypothesis (>= 5.19.1) <!nocheck>, python3-pytest <!nocheck>, python3-scipy <!nocheck>, python3-setuptools, python3-tz <!nocheck>
+Build-Depends-Indep: python-imageio-doc <!nodoc>, python-matplotlib-doc <!nodoc>, python-scipy-doc <!nodoc>, python-skimage-doc <!nodoc>, python3-doc <!nodoc>, python3-ipython <!nodoc>, python3-matplotlib <!nodoc>, python3-scipy <!nodoc>, python3-sphinx (>= 2) <!nodoc>, texlive-latex-base <!nodoc>, texlive-latex-extra <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9d09e67268eb4906ebc2109e3bd45d78 2909 numpy_1.19.5-1.dsc
+ a155291b096fb895315e172685062c4e 5080712 numpy_1.19.5.orig.tar.xz
+ 9eb2e3a0231300413c41a63f08a7ac98 31016 numpy_1.19.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/numpy
+Vcs-Git: https://salsa.debian.org/python-team/packages/numpy.git
+Checksums-Sha256:
+ 9fbfa1c54f7570e5b24776eede49b6c87318c5df02a6d46fb455708745a96831 2909 numpy_1.19.5-1.dsc
+ 8b474321e5eda27119f3f916ec9078b772fd3b011b9a91f86a65a0984e731285 5080712 numpy_1.19.5.orig.tar.xz
+ 0e2629262d3d93c21e64e58d389d28a16812c80c96517965a1e7f320b824d33e 31016 numpy_1.19.5-1.debian.tar.xz
+Homepage: http://www.numpy.org/
+Package-List: 
+ python-numpy-doc deb doc optional arch=all profile=!nodoc
+ python3-numpy deb python optional arch=any
+ python3-numpy-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, dpkg-dev, gcc, gfortran, libatlas3-base, libfftw3-dev, libopenblas-base, python3-all, python3-all-dbg, python3-all-dev, python3-distutils, python3-hypothesis, python3-pytest, python3-tz
+Directory: pool/main/n/numpy
+Priority: extra
+Section: misc

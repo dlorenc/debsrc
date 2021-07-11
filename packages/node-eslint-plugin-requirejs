@@ -1,0 +1,27 @@
+Package: node-eslint-plugin-requirejs
+Binary: node-eslint-plugin-requirejs
+Version: 4.0.0-7
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 12), eslint <!nocheck>, mocha <!nocheck>, node-eslint-plugin-node <!nocheck>, node-ignore <!nocheck>, pandoc <!nodoc>, perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3d969d93a3c5a0531eee80519304a984 2365 node-eslint-plugin-requirejs_4.0.0-7.dsc
+ 29f4416c6107e5edddd70ec2a34b71f2 57809 node-eslint-plugin-requirejs_4.0.0.orig.tar.gz
+ d0320aa78eb216159e2a4e37f336c80d 12804 node-eslint-plugin-requirejs_4.0.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-eslint-plugin-requirejs
+Vcs-Git: https://salsa.debian.org/js-team/node-eslint-plugin-requirejs.git
+Checksums-Sha256:
+ 89afb85ca11bca1ce762d22a0a4e45732d070f3936b6415c03682ac08c940cc6 2365 node-eslint-plugin-requirejs_4.0.0-7.dsc
+ 5c72500190764f4651d23f560ae877333e97b9c7b3ef48648f4c2b7541ba1958 57809 node-eslint-plugin-requirejs_4.0.0.orig.tar.gz
+ 87703a7196a607da8830bcb800dc836b65e281b8c083bfc0b47a6ab2d97f4f1f 12804 node-eslint-plugin-requirejs_4.0.0-7.debian.tar.xz
+Homepage: https://github.com/cvisco/eslint-plugin-requirejs
+Package-List: 
+ node-eslint-plugin-requirejs deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha, node-eslint, node-ignore, nodejs
+Directory: pool/main/n/node-eslint-plugin-requirejs
+Priority: extra
+Section: misc

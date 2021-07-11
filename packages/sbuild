@@ -1,0 +1,29 @@
+Package: sbuild
+Binary: libsbuild-perl, sbuild, sbuild-debian-developer-setup, buildd, sbuild-qemu
+Version: 0.81.2
+Maintainer: sbuild maintainers <sbuild@packages.debian.org>
+Uploaders: Johannes 'josch' Schauer <josch@debian.org>, Michael Banck <mbanck@debian.org>, Francesco Paolo Lovergine <frankie@debian.org>, Wookey <wookey@debian.org>, Michael Stapelberg <stapelberg@debian.org>, Christian Kastner <ckk@debian.org>,
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: dh-python, groff-base, libdpkg-perl (>= 1.20), libexception-class-perl, libfilesys-df-perl, libmime-lite-perl, libyaml-tiny-perl, python3-all
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 7ec91be77c525499c7e2863765d56c96 2411 sbuild_0.81.2.dsc
+ e6bb7dfb08870517a913c4d5c94b8481 254512 sbuild_0.81.2.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sbuild/tree/debian/unstable
+Vcs-Git: https://salsa.debian.org/debian/sbuild.git -b debian/unstable
+Checksums-Sha256:
+ 6568642d068cee7df6ddf4b0380d97b52d6ebcb0bd038209d93a939158ecaf19 2411 sbuild_0.81.2.dsc
+ 474f30a60d6a45863cfc2f55a58a266a626a9dab064359675d0ae9c95ba7fd26 254512 sbuild_0.81.2.tar.xz
+Package-List: 
+ buildd deb devel optional arch=all
+ libsbuild-perl deb perl optional arch=all
+ sbuild deb devel optional arch=all
+ sbuild-debian-developer-setup deb devel optional arch=all
+ sbuild-qemu deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: apt, apt-utils, debootstrap, distro-info, grep-dctrl, libguestfs-tools, linux-image-amd64, lsb-release, mmdebstrap, openssh-client, qemu-system-x86, sleepenh
+Directory: pool/main/s/sbuild
+Priority: source
+Section: devel

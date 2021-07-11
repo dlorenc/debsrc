@@ -1,0 +1,27 @@
+Package: riddley-clojure
+Binary: libriddley-clojure
+Version: 0.2.0-2
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, maven-repo-helper, libclojure-java, libnrepl-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a07d60126d188ef70f859f0039d8760c 2199 riddley-clojure_0.2.0-2.dsc
+ b05fab09516aa829c7a21c3dfc8677e4 510396 riddley-clojure_0.2.0.orig.tar.xz
+ 8f13888abe394dcfc405b18213004a79 4044 riddley-clojure_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/riddley-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/riddley-clojure.git
+Checksums-Sha256:
+ e4ae59f2823469193b6c3b7215c0563f23cd29c43bc1308ef0f7c3fdf18f36da 2199 riddley-clojure_0.2.0-2.dsc
+ a8fd4528e219b734d222d4b817560c4e990db6dd0aaa1f3032a03a264d9e7945 510396 riddley-clojure_0.2.0.orig.tar.xz
+ 0c1a69ab2caa19d26161e4237c52ae44b5219593583459a64925cc2b17f95a03 4044 riddley-clojure_0.2.0-2.debian.tar.xz
+Homepage: https://github.com/ztellman/riddley
+Package-List: 
+ libriddley-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/r/riddley-clojure
+Priority: extra
+Section: misc

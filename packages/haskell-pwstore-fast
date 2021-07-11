@@ -1,0 +1,28 @@
+Package: haskell-pwstore-fast
+Binary: libghc-pwstore-fast-dev, libghc-pwstore-fast-prof, libghc-pwstore-fast-doc
+Version: 2.4.4-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-base64-bytestring-dev (>= 0.1), libghc-base64-bytestring-prof, libghc-byteable-dev (>= 0.1), libghc-byteable-prof, libghc-cryptohash-dev (>= 0.6), libghc-cryptohash-prof, libghc-random-dev (>= 1), libghc-random-prof
+Build-Depends-Indep: ghc-doc, libghc-base64-bytestring-doc, libghc-byteable-doc, libghc-cryptohash-doc, libghc-random-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ac403cd099b7c6e01e98e82f58759ee1 2689 haskell-pwstore-fast_2.4.4-10.dsc
+ 4a63965c940af993efaf5eab2f0dc5a7 8901 haskell-pwstore-fast_2.4.4.orig.tar.gz
+ 580ce6555b5e025c8878d38fe4b2c681 3184 haskell-pwstore-fast_2.4.4-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-pwstore-fast
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-pwstore-fast]
+Checksums-Sha256:
+ 4010eb0c044042898cc91c0429c1209d971861e638652ea368628aaa8458384e 2689 haskell-pwstore-fast_2.4.4-10.dsc
+ 7219af66b6f762d9dd5376b3b25393d4d6626e390e9d9c9f87f6e3f13ea7fbb2 8901 haskell-pwstore-fast_2.4.4.orig.tar.gz
+ a5576adcded39f675d29b88981eb8b47468e513b5fd6a3b66fe045e1e7f1035d 3184 haskell-pwstore-fast_2.4.4-10.debian.tar.xz
+Homepage: https://github.com/PeterScott/pwstore
+Package-List: 
+ libghc-pwstore-fast-dev deb haskell optional arch=any
+ libghc-pwstore-fast-doc deb doc optional arch=all
+ libghc-pwstore-fast-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-pwstore-fast
+Priority: source
+Section: haskell

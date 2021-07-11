@@ -1,0 +1,28 @@
+Package: dsdo
+Binary: idanish, wdanish, aspell-da, myspell-da
+Version: 1.6.36-11.1
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Uploaders: Agustin Martin Domingo <agmartin@debian.org>
+Build-Depends: cdbs (>= 0.4.72~), devscripts (>= 2.10.7~), aspell (>= 0.60.3-2), dictionaries-common-dev (>= 1.23.2), debhelper (>= 10), dh-buildinfo, ispell (>= 3.3.02), perl, recode
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ca4404ecb8770807b11d727b9c3cb654 2140 dsdo_1.6.36-11.1.dsc
+ d25fb65f67c8a76144e5e0f532a631b9 398735 dsdo_1.6.36.orig.tar.gz
+ 35d3c8a2d368459a3a22100b1e3b1d0b 14536 dsdo_1.6.36-11.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/dsdo
+Vcs-Git: https://salsa.debian.org/debian/dsdo.git
+Checksums-Sha256:
+ c216a7906d8d41d8ec25b9b2b946a4e8ae2bcb80f11cf473d6150fc9bfd2c575 2140 dsdo_1.6.36-11.1.dsc
+ 7b13973ac23679e232ff7691f70bb156de5a2bf163fdfff81280ff4ab877c9c6 398735 dsdo_1.6.36.orig.tar.gz
+ 2797af9769a95a9e8f7e3b56d34c8f4589014c2ddc9ee5ee367ac02c19116850 14536 dsdo_1.6.36-11.1.debian.tar.xz
+Homepage: http://da.speling.org/
+Package-List: 
+ aspell-da deb text optional arch=all
+ idanish deb text optional arch=any
+ myspell-da deb text optional arch=all
+ wdanish deb text optional arch=all
+Directory: pool/main/d/dsdo
+Priority: source
+Section: text

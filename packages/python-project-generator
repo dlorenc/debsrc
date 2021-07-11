@@ -1,0 +1,27 @@
+Package: python-project-generator
+Binary: python3-project-generator
+Version: 0.11.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Nick Morrott <nickm@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, pandoc, python3-all, python3-jinja2, python3-nose, python3-project-generator-definitions (<< 0.3.0), python3-pytest, python3-setuptools, python3-xmltodict, python3-yaml
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d2d354f06ee6d68730ed3d24c70569ee 2350 python-project-generator_0.11.0-1.dsc
+ da0027485d57399d316c9e335327ca5e 58612 python-project-generator_0.11.0.orig.tar.xz
+ 2a813bce7fdaa079de22b55a1d9af3a9 5516 python-project-generator_0.11.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-project-generator
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-project-generator.git
+Checksums-Sha256:
+ bc8b33c7aae0705dc81688de1f659afa85a8474a9c432c7762ad1a400abdeaf5 2350 python-project-generator_0.11.0-1.dsc
+ 316f762fa1a1cb160d54b6331b4db8ac697b4eb879a250b5b6a727ebd55ac7a0 58612 python-project-generator_0.11.0.orig.tar.xz
+ 4c2bdec0e76cfaa226ea328f00edb3f55be4b4b8454f6e1b730619a3c36979d7 5516 python-project-generator_0.11.0-1.debian.tar.xz
+Homepage: https://github.com/project-generator/project_generator
+Package-List: 
+ python3-project-generator deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-project-generator
+Priority: extra
+Section: misc

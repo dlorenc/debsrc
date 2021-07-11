@@ -1,0 +1,27 @@
+Package: libversion-perl
+Binary: libversion-perl
+Version: 1:0.9928-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>, Dominique Dumont <dod@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), locales-all <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 86534dcf986a94a2f553a95bcd9faa67 2436 libversion-perl_0.9928-1.dsc
+ e95d69dd1f03680d8ab2d4c8e0b90f00 165790 libversion-perl_0.9928.orig.tar.gz
+ ca53c2da05bf00d1c093fe14d4ee9ed0 4788 libversion-perl_0.9928-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libversion-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libversion-perl.git
+Checksums-Sha256:
+ 44bf8732fbc383fc021c6f11d5be9d9d73d28bcf01a5466d6bdce4172f7d5067 2436 libversion-perl_0.9928-1.dsc
+ 240e148dcb76e16547eff85c7e5c7f7ee04164b81b8a23a1a69cc37c005daa8e 165790 libversion-perl_0.9928.orig.tar.gz
+ 8c8ef88c55069bf23661d2cf0485dced463edfaac4ff9efd94fb581eeaa42ce1 4788 libversion-perl_0.9928-1.debian.tar.xz
+Homepage: https://metacpan.org/release/version
+Dgit: 41effec10122a5944e97dd9709db3c6550777658 debian archive/debian/1%0.9928-1 https://git.dgit.debian.org/libversion-perl
+Package-List: 
+ libversion-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libv/libversion-perl
+Priority: source
+Section: perl

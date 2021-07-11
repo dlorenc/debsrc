@@ -1,0 +1,28 @@
+Package: libio-compress-perl
+Binary: libio-compress-perl
+Version: 2.101-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Damyan Ivanov <dmn@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcompress-raw-bzip2-perl (>= 2.101) <!nocheck>, libcompress-raw-zlib-perl (>= 2.101) <!nocheck>, libtest-pod-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 490912af3d388208ef298deecd5534e4 2573 libio-compress-perl_2.101-1.dsc
+ 2631441c197136711950ebd2be14d182 292468 libio-compress-perl_2.101.orig.tar.gz
+ 700f327cdcb9a447e2d6f0c336678276 5968 libio-compress-perl_2.101-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libio-compress-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libio-compress-perl.git
+Checksums-Sha256:
+ 9453518390594d8e4346da8ac359810bb3c22eaa472e2783bb4bcbd44d61f8a4 2573 libio-compress-perl_2.101-1.dsc
+ 0517a32f0790c819fb552083d8ddf6a6eb64fbeec300c12e9511c362fb83c733 292468 libio-compress-perl_2.101.orig.tar.gz
+ cf9fe57862fe2bea0ec659272dfd175b47b0e555adaad9d1e0ef74b306c9e6e9 5968 libio-compress-perl_2.101-1.debian.tar.xz
+Homepage: https://metacpan.org/release/IO-Compress
+Dgit: 25ffcd6f555fb82223df9fdb17d84266cd43e1e9 debian archive/debian/2.101-1 https://git.dgit.debian.org/libio-compress-perl
+Package-List: 
+ libio-compress-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libi/libio-compress-perl
+Priority: source
+Section: perl

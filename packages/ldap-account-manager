@@ -1,0 +1,23 @@
+Package: ldap-account-manager
+Binary: ldap-account-manager, ldap-account-manager-lamdaemon
+Version: 7.4-1
+Maintainer: Roland Gruber <post@rolandgruber.de>
+Build-Depends: debhelper (>= 9), po-debconf, cleancss, node-uglify
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0a7b25fcd102c709ef4a19a7380f074d 1942 ldap-account-manager_7.4-1.dsc
+ 263ff90e180e2f3954d7c79ef9403bc4 23091071 ldap-account-manager_7.4.orig.tar.bz2
+ 8bcd348b35ec99f804c76201fb3a5a06 35104 ldap-account-manager_7.4-1.debian.tar.xz
+Checksums-Sha256:
+ 218abf607d00f8f436547111a12b46f5fe2bef287edbf2d826cc8d4b7840996e 1942 ldap-account-manager_7.4-1.dsc
+ e666c752b0970860a301f8c7178afa44a855b6aa805d3ee1c0020a84c96137aa 23091071 ldap-account-manager_7.4.orig.tar.bz2
+ a617544b7c8b3ebdf355b57c558a71f446ea36f9b02608cf2de06c6cf8a9bcd7 35104 ldap-account-manager_7.4-1.debian.tar.xz
+Homepage: https://www.ldap-account-manager.org/
+Package-List: 
+ ldap-account-manager deb web optional arch=all
+ ldap-account-manager-lamdaemon deb web optional arch=all
+Directory: pool/main/l/ldap-account-manager
+Priority: source
+Section: web

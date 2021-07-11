@@ -1,0 +1,34 @@
+Package: rust-curl
+Binary: librust-curl-dev, librust-curl+force-system-lib-on-osx-dev, librust-curl+http2-dev, librust-curl+openssl-probe-dev, librust-curl+openssl-sys-dev, librust-curl+ssl-dev, librust-curl+static-curl-dev, librust-curl+static-ssl-dev
+Version: 0.4.33-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-curl-sys-0.4+ssl-dev (>= 0.4.36-~~) <!nocheck>, librust-curl-sys-0.4-dev (>= 0.4.36-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.42-~~) <!nocheck>, librust-openssl-probe-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-openssl-sys-0.9+default-dev (>= 0.9.43-~~) <!nocheck>, librust-schannel-0.1+default-dev (>= 0.1.13-~~) <!nocheck>, librust-socket2-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+libloaderapi-dev <!nocheck>, librust-winapi-0.3+wincrypt-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c029bca0335b73ac90366706ac10bd4a 3387 rust-curl_0.4.33-1.dsc
+ dcd395a7178f127ed6268ad6824e183a 83965 rust-curl_0.4.33.orig.tar.gz
+ 56a98a79de5e37176aeaa82e748ffdbb 4088 rust-curl_0.4.33-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/curl
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/curl]
+Checksums-Sha256:
+ 9437d7436d46b361b873fd12c01ce7d2575b6238849788eb8bc4e0cc6c053db2 3387 rust-curl_0.4.33-1.dsc
+ 78baca05127a115136a9898e266988fc49ca7ea2c839f60fc6e1fc9df1599168 83965 rust-curl_0.4.33.orig.tar.gz
+ ce5980db428ae1ac96424cf7d7e26515832bc485a87451750ef1f07513a61311 4088 rust-curl_0.4.33-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/curl-rust
+Package-List: 
+ librust-curl+force-system-lib-on-osx-dev deb rust optional arch=any
+ librust-curl+http2-dev deb rust optional arch=any
+ librust-curl+openssl-probe-dev deb rust optional arch=any
+ librust-curl+openssl-sys-dev deb rust optional arch=any
+ librust-curl+ssl-dev deb rust optional arch=any
+ librust-curl+static-curl-dev deb rust optional arch=any
+ librust-curl+static-ssl-dev deb rust optional arch=any
+ librust-curl-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-anyhow-1+default-dev, librust-mio-0.6+default-dev, librust-mio-extras-2+default-dev
+Directory: pool/main/r/rust-curl
+Priority: extra
+Section: misc

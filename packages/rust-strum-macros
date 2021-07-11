@@ -1,0 +1,27 @@
+Package: rust-strum-macros
+Binary: librust-strum-macros-dev
+Version: 0.19.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-heck-0.3+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+extra-traits-dev <!nocheck>, librust-syn-1+parsing-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 90f7ef50455e5124f66877a94ac77f68 2460 rust-strum-macros_0.19.2-1.dsc
+ d88635a9c37da3e6774b539bd5031dcd 10682 rust-strum-macros_0.19.2.orig.tar.gz
+ 115687e4523d01b274a3c8cd08ae69c3 2952 rust-strum-macros_0.19.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/strum-macros
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/strum-macros]
+Checksums-Sha256:
+ 7346c24de03afcbf99d519f6936137bcc2d2290f7a2405b7bdc880a415870247 2460 rust-strum-macros_0.19.2-1.dsc
+ 2d2ab682ecdcae7f5f45ae85cd7c1e6c8e68ea42c8a612d47fedf831c037146a 10682 rust-strum-macros_0.19.2.orig.tar.gz
+ 6b667992af457cbf49e3e0aa84e197551b669aa69bcfa126dfc1189bada5d089 2952 rust-strum-macros_0.19.2-1.debian.tar.xz
+Homepage: https://github.com/Peternator7/strum
+Package-List: 
+ librust-strum-macros-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-strum-macros
+Priority: extra
+Section: misc

@@ -1,0 +1,35 @@
+Package: rsyslog
+Binary: rsyslog, rsyslog-mysql, rsyslog-pgsql, rsyslog-mongodb, rsyslog-elasticsearch, rsyslog-kafka, rsyslog-gssapi, rsyslog-gnutls, rsyslog-openssl, rsyslog-relp, rsyslog-czmq, rsyslog-hiredis
+Version: 8.2102.0-2
+Maintainer: Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec, autoconf-archive, zlib1g-dev, libhiredis-dev, default-libmysqlclient-dev, libpq-dev, libmongoc-dev, libcurl4-gnutls-dev, librdkafka-dev (>= 0.9.1), libkrb5-dev, libgnutls28-dev, libssl-dev, librelp-dev (>= 1.4.0), libestr-dev (>= 0.1.9), liblognorm-dev (>= 2.0.3), libfastjson-dev (>= 0.99.8), libczmq-dev (>= 3.0.2), uuid-dev, libsystemd-dev (>= 209) [linux-any], pkg-config, bison, flex, procps <!nocheck>, python3 <!nocheck>, libfaketime <!nocheck>, systemd [linux-any] <!nocheck>, lsof [linux-any] <!nocheck>, logrotate <!nocheck>, iproute2 <!nocheck>, curl <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e8327ee8d768943254d4ae0da27d70ba 3077 rsyslog_8.2102.0-2.dsc
+ 1f6150dfd2ef38db37c2165e98d2f2b1 3123684 rsyslog_8.2102.0.orig.tar.gz
+ ac566e1b85fa188364fdec8d228ec420 29864 rsyslog_8.2102.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/rsyslog
+Vcs-Git: https://salsa.debian.org/debian/rsyslog.git
+Checksums-Sha256:
+ 7e5c40fe0ff415d8a16b223c911f7b369b4a7e70370a5d8c4d65719a47a39edc 3077 rsyslog_8.2102.0-2.dsc
+ 94ee0d0312c2edea737665594cbe4a9475e4e3b593e12b5b8ae3a743ac9c72a7 3123684 rsyslog_8.2102.0.orig.tar.gz
+ 07204751a93880f2fa24c79b1ade63eb27a79d23f67403a5c6aebe51defc70e2 29864 rsyslog_8.2102.0-2.debian.tar.xz
+Homepage: https://www.rsyslog.com/
+Package-List: 
+ rsyslog deb admin important arch=any
+ rsyslog-czmq deb admin optional arch=any
+ rsyslog-elasticsearch deb admin optional arch=any
+ rsyslog-gnutls deb admin optional arch=any
+ rsyslog-gssapi deb admin optional arch=any
+ rsyslog-hiredis deb admin optional arch=any
+ rsyslog-kafka deb admin optional arch=any
+ rsyslog-mongodb deb admin optional arch=any
+ rsyslog-mysql deb admin optional arch=any
+ rsyslog-openssl deb admin optional arch=any
+ rsyslog-pgsql deb admin optional arch=any
+ rsyslog-relp deb admin optional arch=any
+Directory: pool/main/r/rsyslog
+Priority: source
+Section: admin

@@ -1,0 +1,27 @@
+Package: rust-walkdir
+Binary: librust-walkdir-dev
+Version: 2.3.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-same-file-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+std-dev <!nocheck>, librust-winapi-0.3+winnt-dev <!nocheck>, librust-winapi-util-0.1+default-dev (>= 0.1.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f70e20dcc46d3739f2d58a20572828f6 2435 rust-walkdir_2.3.1-1.dsc
+ 1092a4a24e80f8856efc71af51a06114 23413 rust-walkdir_2.3.1.orig.tar.gz
+ 6d3a71a8c8f56bbd893d2a49dfb40965 2980 rust-walkdir_2.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/walkdir
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/walkdir]
+Checksums-Sha256:
+ 3d9a59e600d1b3e47406456b40785d339c1cbe79f81f23d31a5bafdb27a180a9 2435 rust-walkdir_2.3.1-1.dsc
+ 777182bc735b6424e1a57516d35ed72cb8019d85c8c9bf536dccb3445c1a2f7d 23413 rust-walkdir_2.3.1.orig.tar.gz
+ 171d482d642d54eace6a49e9515146ff4a69a0b38e82fb9cde4f87db79ea0599 2980 rust-walkdir_2.3.1-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/walkdir
+Package-List: 
+ librust-walkdir-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-doc-comment-0.3+default-dev
+Directory: pool/main/r/rust-walkdir
+Priority: extra
+Section: misc

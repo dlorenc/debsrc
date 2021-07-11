@@ -1,0 +1,26 @@
+Package: sogo
+Binary: sogo, sogo-common
+Version: 5.0.1-4
+Maintainer: Debian SOGo Maintainers <pkg-sogo-maintainers@lists.alioth.debian.org>
+Uploaders: Jeroen Dekkers <jeroen@dekkers.ch>, Jordi Mallach <jordi@debian.org>
+Build-Depends: debhelper-compat (= 13), gobjc, libcurl4-openssl-dev, libgnustep-base-dev, liblasso3-dev, libldap2-dev, libmemcached-dev, liboath-dev, libsbjson-dev, libsodium-dev, libsope-dev (>= 5.0.1-2~), libssl-dev, libxml2-dev, libzip-dev, pkg-config, python3
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7db1368a87319057d296effdd69415d3 2167 sogo_5.0.1-4.dsc
+ f7112b11568d68d58b32fb4ba64a8bbc 34678734 sogo_5.0.1.orig.tar.gz
+ e4b74538e4fb1f25f2f93ba01c35c8b1 16904 sogo_5.0.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sogo
+Vcs-Git: https://salsa.debian.org/debian/sogo.git
+Checksums-Sha256:
+ bf25daa65daaa3a3889aedb2028a4ab91d6cc2bbd4ef9630fb5699c8dda1aee6 2167 sogo_5.0.1-4.dsc
+ e2af4b0b1642dc6094043360bb4b3f3a653d63029139d5c41ed0585ac1b944ed 34678734 sogo_5.0.1.orig.tar.gz
+ f26ece535bdfc7be40a14afc3a04b729696f596e409069b22989488826550635 16904 sogo_5.0.1-4.debian.tar.xz
+Homepage: https://sogo.nu/
+Package-List: 
+ sogo deb mail optional arch=any
+ sogo-common deb mail optional arch=all
+Directory: pool/main/s/sogo
+Priority: source
+Section: mail

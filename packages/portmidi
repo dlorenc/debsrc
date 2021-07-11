@@ -1,0 +1,25 @@
+Package: portmidi
+Binary: libportmidi-dev, libportmidi0
+Version: 1:217-6
+Maintainer: Paul Brossier <piem@debian.org>
+Build-Depends: debhelper (>= 10.2.1), cmake, libasound2-dev
+Architecture: linux-any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 14584b516b60b46fa8e8f29911d4d5ef 2049 portmidi_217-6.dsc
+ 4b50e84b975e11cfd3b6507495ebca7e 975699 portmidi_217.orig.tar.gz
+ cab2b34bb00e7e548227ca4924ca58e2 13844 portmidi_217-6.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/portmidi.git/
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/portmidi.git
+Checksums-Sha256:
+ 1981ce544c6d80867d6dbfa3b9dfd87a2485d106c89d0eb64ce3fbe07a881ec8 2049 portmidi_217-6.dsc
+ 5bc8c44c4a5604e063713cc2f3aa7eb73abbde619a1221d1546439e085c44400 975699 portmidi_217.orig.tar.gz
+ 6b2456361d87cbef6c13ecf4d03ce4fbd661101e289eb7b9cbd76301e794fce8 13844 portmidi_217-6.debian.tar.xz
+Homepage: http://portmedia.sourceforge.net/
+Package-List: 
+ libportmidi-dev deb libdevel optional arch=linux-any
+ libportmidi0 deb libs optional arch=linux-any
+Directory: pool/main/p/portmidi
+Priority: source
+Section: libs

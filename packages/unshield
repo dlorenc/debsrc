@@ -1,0 +1,27 @@
+Package: unshield
+Binary: unshield, libunshield0, libunshield-dev
+Version: 1.4.2-1
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Evgeni Golov <evgeni@debian.org>
+Build-Depends: debhelper (>= 9), zlib1g-dev (>= 1.2.1), cmake
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ cd9e1a2fa78c209fd564ba46141d2945 2057 unshield_1.4.2-1.dsc
+ 65555adf81ebce4b4580a729dbcddfd4 46051 unshield_1.4.2.orig.tar.gz
+ 108ac46247bca00695fad80968a980aa 4692 unshield_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-games/unshield.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-games/unshield.git
+Checksums-Sha256:
+ 75327af2c79b58865e153ed33477049c1fd7e2cbb4ec84118b85cb77e6d49324 2057 unshield_1.4.2-1.dsc
+ 5dd4ea0c7e97ad8e3677ff3a254b116df08a5d041c2df8859aad5c4f88d1f774 46051 unshield_1.4.2.orig.tar.gz
+ 1c38ec985acd2a05a1b7c48121082323685a4f45594ed1f87d332bf6521ad456 4692 unshield_1.4.2-1.debian.tar.xz
+Homepage: https://github.com/twogood/unshield/
+Package-List: 
+ libunshield-dev deb libdevel optional arch=any
+ libunshield0 deb libs optional arch=any
+ unshield deb utils optional arch=any
+Directory: pool/main/u/unshield
+Priority: source
+Section: utils

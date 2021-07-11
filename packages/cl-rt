@@ -1,0 +1,27 @@
+Package: cl-rt
+Binary: cl-rt
+Version: 20090812.gita6a7503-1
+Maintainer: Debian Common Lisp Team <debian-common-lisp@lists.debian.org>
+Uploaders: Peter Van Eynde <pvaneynd@debian.org>
+Build-Depends: debhelper (>= 11~)
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ b56ee8adc8dde3037ac71a20e8b062cf 2028 cl-rt_20090812.gita6a7503-1.dsc
+ a8b6164a6dd1bbb20aa8d2365573f99b 10092 cl-rt_20090812.gita6a7503.orig.tar.xz
+ 33e99610a4401879fdbce1595ce1e424 4608 cl-rt_20090812.gita6a7503-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/common-lisp-team/cl-rt
+Vcs-Git: https://salsa.debian.org/common-lisp-team/cl-rt.git
+Checksums-Sha256:
+ efb5d61dc59e6e1a8e2d7e8a86000148d0ea5a1aa720d63d3b7b9911b51c03ac 2028 cl-rt_20090812.gita6a7503-1.dsc
+ aaaa6c1d2104f4796b028652d2d629b329a75e8e82e6b10bd8b651999261a425 10092 cl-rt_20090812.gita6a7503.orig.tar.xz
+ 6fdd68b9c354466f699ad4becc47c46a693e3deeb141216d58b8a86d16c0a8f4 4608 cl-rt_20090812.gita6a7503-1.debian.tar.xz
+Homepage: http://git.kpe.io/?p=rt.git
+Package-List: 
+ cl-rt deb lisp optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clisp, ecl, sbcl
+Directory: pool/main/c/cl-rt
+Priority: source
+Section: lisp

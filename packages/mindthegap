@@ -1,0 +1,27 @@
+Package: mindthegap
+Binary: mindthegap, mindthegap-examples
+Version: 2.2.2-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Shayan Doust <hello@shayandoust.me>
+Build-Depends: debhelper-compat (= 13), cmake, libgatbcore-dev, libboost-dev, zlib1g-dev, libhdf5-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5265d5dea2584aeefe0ee95da00c72e0 2123 mindthegap_2.2.2-2.dsc
+ c9d0d2add090db94e88167ccdcf8903a 735935 mindthegap_2.2.2.orig.tar.gz
+ a60684712add1f40cd6ce6ba41d6d1aa 7180 mindthegap_2.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/mindthegap
+Vcs-Git: https://salsa.debian.org/med-team/mindthegap.git
+Checksums-Sha256:
+ af6e9537fff3f02be76bcc37d9b7a8d6cec8b509e6bd14b502a65c557816252f 2123 mindthegap_2.2.2-2.dsc
+ 0860a83c2168180d82039bc85eb4ac6922f12278fa6d56c6927a309c813f4c9d 735935 mindthegap_2.2.2.orig.tar.gz
+ 322b06c0456290e9bb51c7a03d02200d028a75ad2519680ab2eeba353868b243 7180 mindthegap_2.2.2-2.debian.tar.xz
+Homepage: https://github.com/GATB/MindTheGap
+Package-List: 
+ mindthegap deb science optional arch=any
+ mindthegap-examples deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/mindthegap
+Priority: extra
+Section: misc

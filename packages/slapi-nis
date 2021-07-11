@@ -1,0 +1,25 @@
+Package: slapi-nis
+Binary: slapi-nis
+Version: 0.56.5-2
+Maintainer: Debian FreeIPA Team <pkg-freeipa-devel@alioth-lists.debian.net>
+Uploaders: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: 389-ds-base-dev, debhelper-compat (= 12), libldap2-dev, libnspr4-dev, libnss3-dev, libpam0g-dev, libsss-nss-idmap-dev, libtirpc-dev, libwrap0-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 472f1db4eb39debe4b08c3860a747f1b 2054 slapi-nis_0.56.5-2.dsc
+ e662235164738fb4eb8109f0d7639c00 614614 slapi-nis_0.56.5.orig.tar.gz
+ d964582fca80eac29275b271f4ef7482 4036 slapi-nis_0.56.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freeipa-team/slapi-nis
+Vcs-Git: https://salsa.debian.org/freeipa-team/slapi-nis.git
+Checksums-Sha256:
+ 2073ee6b587bc64b8690ec98624400d4626943797ce0cb8b1fbfc4bfb0afc722 2054 slapi-nis_0.56.5-2.dsc
+ 1eda632c00e6272695e199b07b0f3db9daa6c8515683efc9bd6a11a94f6e4c76 614614 slapi-nis_0.56.5.orig.tar.gz
+ c29a312f2e0d3513552eff2d28d763ce3cfb55a4db391e5eb43d9cae87e6b64e 4036 slapi-nis_0.56.5-2.debian.tar.xz
+Homepage: https://pagure.io/slapi-nis
+Package-List: 
+ slapi-nis deb net optional arch=any
+Directory: pool/main/s/slapi-nis
+Priority: optional
+Section: misc

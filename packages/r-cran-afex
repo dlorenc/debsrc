@@ -1,0 +1,27 @@
+Package: r-cran-afex
+Binary: r-cran-afex
+Version: 0.28-1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Jonathon Love <jon@thon.cc>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-lme4, r-cran-pbkrtest, r-cran-lmertest, r-cran-car, r-cran-reshape2
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 33ad8714c0c10432e471dad451ea698a 2246 r-cran-afex_0.28-1-1.dsc
+ 3173b25b22e7e99b40ea41824160f951 3944529 r-cran-afex_0.28-1.orig.tar.gz
+ 08aff4740fc59b3d758693304e3db1f9 5256 r-cran-afex_0.28-1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-afex
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-afex.git
+Checksums-Sha256:
+ e30f6d59ceb5c436881a57a978664773242caa8af3eb0f6493f9e305cc53143e 2246 r-cran-afex_0.28-1-1.dsc
+ cfb0b79bfa01b590afc3354a5b2ad3640d2f4974b036d6c256fa8e684bc69c2e 3944529 r-cran-afex_0.28-1.orig.tar.gz
+ 5e1c464559a0081e5ccc89925e7308d1193eb03c6d949d2d87667b3a7e04cbe6 5256 r-cran-afex_0.28-1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=afex
+Package-List: 
+ r-cran-afex deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-dplyr, r-cran-emmeans, r-cran-foreign, r-cran-ggbeeswarm, r-cran-mlmrev, r-cran-psychtools, r-cran-testthat
+Directory: pool/main/r/r-cran-afex
+Priority: optional
+Section: misc

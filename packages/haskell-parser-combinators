@@ -1,0 +1,26 @@
+Package: haskell-parser-combinators
+Binary: libghc-parser-combinators-dev, libghc-parser-combinators-prof, libghc-parser-combinators-doc
+Version: 1.2.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ecdabfa7e22684e3daf996eec984fe52 2254 haskell-parser-combinators_1.2.1-1.dsc
+ 5f2ca76ddb29e925b41207500b793828 10915 haskell-parser-combinators_1.2.1.orig.tar.gz
+ 60a0ff10ba1c07c33755708b00c1d5a2 2156 haskell-parser-combinators_1.2.1-1.debian.tar.xz
+Checksums-Sha256:
+ 327f6c286f6c90c8ff1d81d9f84142d5fa270d7680fd630863b8198e7f9e2ee0 2254 haskell-parser-combinators_1.2.1-1.dsc
+ 03162e40cde50253529fa452165b681d5064d03ad07992800702156adfb6254d 10915 haskell-parser-combinators_1.2.1.orig.tar.gz
+ 61e55faeecded59a231a9b136fcffe8019276fda31f22c609f3806bf033f06cf 2156 haskell-parser-combinators_1.2.1-1.debian.tar.xz
+Homepage: https://github.com/mrkkrp/parser-combinators
+Package-List: 
+ libghc-parser-combinators-dev deb haskell optional arch=any
+ libghc-parser-combinators-doc deb doc optional arch=all
+ libghc-parser-combinators-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-parser-combinators
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: ruby-grit
+Binary: ruby-grit
+Version: 2.8.2-3
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, ruby-diff-lcs (>= 1.1~), ruby-mime-types (>= 2.6.1~), ruby-mocha, ruby-posix-spawn (>= 0.3.11~), ruby-charlock-holmes (>= 0.6~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a0b6d87b00c02dacbce74f81b76a70f2 2169 ruby-grit_2.8.2-3.dsc
+ 3266385c539debdaf6f0b170ed75b75d 43898 ruby-grit_2.8.2.orig.tar.gz
+ aec0238fe3869d447d2cfafc601ab50e 2884 ruby-grit_2.8.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-grit
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-grit.git
+Checksums-Sha256:
+ ad4a732438f06fc348df5dca3b7acdaeeae4d637384b67c3b2196310737667a1 2169 ruby-grit_2.8.2-3.dsc
+ db122e01a1247d37dbfe73976d17204a53c82333ada503562b76cea0c1965be4 43898 ruby-grit_2.8.2.orig.tar.gz
+ 83562d6f96f69426930c22e20218126f8e2ecb9256201593e2b2428a03b1c98e 2884 ruby-grit_2.8.2-3.debian.tar.xz
+Homepage: https://github.com/mojombo/grit
+Package-List: 
+ ruby-grit deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-grit
+Priority: source
+Section: misc

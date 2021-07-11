@@ -1,0 +1,26 @@
+Package: ocaml-duppy
+Binary: libduppy-ocaml, libduppy-ocaml-dev
+Version: 0.8.0-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Kyle Robbertze <krobbertze@gmail.com>, Samuel Mimram <smimram@debian.org>, Romain Beauxis <toots@rastageeks.org>
+Build-Depends: cdbs (>= 0.4.85~), debhelper (>= 10), dh-buildinfo, ocaml-nox, dh-ocaml (>= 1.1.0), ocaml-findlib (>= 1.2.4), libpcre-ocaml-dev (>= 6.0.1-2)
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 1b7329af1eba2f71257554df6ead8697 2233 ocaml-duppy_0.8.0-1.dsc
+ 07c0eab9584b2236e90e2b88ee246677 129374 ocaml-duppy_0.8.0.orig.tar.gz
+ 30673cad4b49aee591821a3a0746dce4 3528 ocaml-duppy_0.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-duppy
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-duppy.git
+Checksums-Sha256:
+ ee8adcc143ff6e140f9fa33c6e7417785848cfc17f409abe1006ec228f640976 2233 ocaml-duppy_0.8.0-1.dsc
+ 007a7403d3668b4edb201ffc3c74777e1f7eab5ffa71c6ee392a8e8adedb2880 129374 ocaml-duppy_0.8.0.orig.tar.gz
+ 339c23bb4903ccb2728ee300ad7510477d8fd4966facaf19ba9521436a9e0e20 3528 ocaml-duppy_0.8.0-1.debian.tar.xz
+Homepage: http://savonet.sourceforge.net/
+Package-List: 
+ libduppy-ocaml deb ocaml optional arch=any
+ libduppy-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-duppy
+Priority: source
+Section: ocaml

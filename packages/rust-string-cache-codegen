@@ -1,0 +1,26 @@
+Package: rust-string-cache-codegen
+Binary: librust-string-cache-codegen-dev
+Version: 0.5.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-phf-generator-0.8+default-dev <!nocheck>, librust-phf-shared-0.8+default-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 22cc341b539771c4b93ba36b50cfb559 1806 rust-string-cache-codegen_0.5.1-1.dsc
+ cfe9ae4d95fb48824e255ee207cf6a00 8243 rust-string-cache-codegen_0.5.1.orig.tar.gz
+ c3fd0fd6f51314d17910583e982f4f8b 2736 rust-string-cache-codegen_0.5.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/string-cache-codegen
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/string-cache-codegen]
+Checksums-Sha256:
+ badac8a43c51563b8fbf6d8ee54eef367f053af7149358501471b9a7ee62891d 1806 rust-string-cache-codegen_0.5.1-1.dsc
+ f24c8e5e19d22a726626f1a5e16fe15b132dcf21d10177fa5a45ce7962996b97 8243 rust-string-cache-codegen_0.5.1.orig.tar.gz
+ fc30a6a84213df260f4b04c328761eda9b9dc54048593cdc1e19aa511918505c 2736 rust-string-cache-codegen_0.5.1-1.debian.tar.xz
+Package-List: 
+ librust-string-cache-codegen-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-string-cache-codegen
+Priority: extra
+Section: misc

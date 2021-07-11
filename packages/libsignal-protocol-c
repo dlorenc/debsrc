@@ -1,0 +1,26 @@
+Package: libsignal-protocol-c
+Binary: libsignal-protocol-c-dev, libsignal-protocol-c2.3.2
+Version: 2.3.3-1
+Maintainer: Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>
+Uploaders: Martin <debacle@debian.org>, Dominik George <nik@naturalnet.de>
+Build-Depends: check, cmake, debhelper-compat (= 11), dpkg-dev (>= 1.16.1), libssl-dev, protobuf-c-compiler
+Architecture: any
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ e6e85b25b1e2020d8bed6eeb2387c62d 2247 libsignal-protocol-c_2.3.3-1.dsc
+ 68dae9b8da58f36dcbf9e10b0138d6f9 272073 libsignal-protocol-c_2.3.3.orig.tar.gz
+ dc8c1f58f6a496551fec2a75a5e01281 3640 libsignal-protocol-c_2.3.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xmpp-team/libsignal-protocol-c
+Vcs-Git: https://salsa.debian.org/xmpp-team/libsignal-protocol-c.git
+Checksums-Sha256:
+ d20c6e109f2e5cab81141c7684873bd1fd0eb8ab869f58713b7cd10c9fe6f963 2247 libsignal-protocol-c_2.3.3-1.dsc
+ c22e7690546e24d46210ca92dd808f17c3102e1344cd2f9a370136a96d22319d 272073 libsignal-protocol-c_2.3.3.orig.tar.gz
+ 26fe4f3385fa84e6bcbb0b79974701a54b0032ec709b0efa23ef206d6db2bdbe 3640 libsignal-protocol-c_2.3.3-1.debian.tar.xz
+Homepage: https://github.com/WhisperSystems/libsignal-protocol-c
+Package-List: 
+ libsignal-protocol-c-dev deb libdevel optional arch=any
+ libsignal-protocol-c2.3.2 deb libs optional arch=any
+Directory: pool/main/libs/libsignal-protocol-c
+Priority: extra
+Section: misc

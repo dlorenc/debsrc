@@ -1,0 +1,28 @@
+Package: node-yargs
+Binary: node-yargs
+Version: 15.3.1+repack-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs (>= 6.11~), mocha <!nocheck>, chai <!nocheck>, node-es6-promise <!nocheck>, node-chalk <!nocheck>, node-hashish <!nocheck>, node-cpr <!nocheck>, node-require-directory <!nocheck>, node-get-caller-file <!nocheck>, node-set-blocking <!nocheck>, node-require-main-filename <!nocheck>, node-decamelize <!nocheck>, node-string-width <!nocheck>, node-cliui <!nocheck>, node-which-module (>= 2.0~) <!nocheck>, node-os-locale <!nocheck>, node-y18n <!nocheck>, node-yargs-parser (>= 18.1.0~) <!nocheck>, node-find-up (>= 2.1~) <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b77ce0125fee78aa33468472aea3773f 2882 node-yargs_15.3.1+repack-2.dsc
+ 9c6fef3e973dc2af67a54ee74ffbd2ef 12859 node-yargs_15.3.1+repack.orig-types-yargs.tar.gz
+ 6061dd11cd9ccfb121a82a2db018aef9 349464 node-yargs_15.3.1+repack.orig.tar.gz
+ 6824eaef75d54a9f729ce90e940fa4d0 4828 node-yargs_15.3.1+repack-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-yargs
+Vcs-Git: https://salsa.debian.org/js-team/node-yargs.git
+Checksums-Sha256:
+ 15970c0525a9d0bff7b01e9e83e22c96aa66d22c7c7a611f2d5b33badee60201 2882 node-yargs_15.3.1+repack-2.dsc
+ 42f76765ecdd616811284e909e763d3bc0383ecba019ed806caac4935806ee9a 12859 node-yargs_15.3.1+repack.orig-types-yargs.tar.gz
+ 1ebf3300f87b584570395cf5b94a52b194121b88809b765c061296b6f27f8fa7 349464 node-yargs_15.3.1+repack.orig.tar.gz
+ f140cd6b6573578de3540421e0baa4e1e7b1be1dc00293f288845a7f4a2d78cf 4828 node-yargs_15.3.1+repack-2.debian.tar.xz
+Homepage: https://yargs.js.org/
+Package-List: 
+ node-yargs deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-yargs
+Priority: optional
+Section: javascript

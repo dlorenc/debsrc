@@ -1,0 +1,26 @@
+Package: node-shasum
+Binary: node-shasum
+Version: 1.0.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), node-assert <!nocheck>, node-json-stable-stringify <!nocheck>, node-sha.js <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1eacdaf0800f6085a96fd3832ec0de04 2099 node-shasum_1.0.2-3.dsc
+ 2ac46e99d6d977a24405943a003fa1b1 2013 node-shasum_1.0.2.orig.tar.gz
+ 94a5c1e8916f3f0f45d04c9b3a9a8f4e 3216 node-shasum_1.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-shasum
+Vcs-Git: https://salsa.debian.org/js-team/node-shasum.git
+Checksums-Sha256:
+ f2b0d2c32305b322c800d7878372fbd5b7e62348f7cb65c19047c1972049913e 2099 node-shasum_1.0.2-3.dsc
+ 625f8c025aa34758430feff00dc8bda28316e09a3a8ff6ee8c1e7da5d6b8ae0e 2013 node-shasum_1.0.2.orig.tar.gz
+ 2417ebae03400cde815f3238afd80460b2b37b7cd192a8a77113c845bac97e41 3216 node-shasum_1.0.2-3.debian.tar.xz
+Homepage: https://github.com/dominictarr/shasum
+Package-List: 
+ node-shasum deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-shasum
+Priority: optional
+Section: javascript

@@ -1,0 +1,28 @@
+Package: node-babel-plugin-lodash
+Binary: node-babel-plugin-lodash
+Version: 3.3.4+~cs2.0.1-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), chai <!nocheck>, mocha <!nocheck>, nodejs (>= 6), dh-sequence-nodejs, node-babel-cli (>= 7.0~), node-babel-plugin-add-module-exports, node-babel-helper-module-imports (>= 7.0~), node-babel-types (>= 7.0~), node-glob (>= 7.1.1), node-lodash (>= 4.17.10), rollup
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 76c714aa671f438e5c6a2dfa6583fb66 2845 node-babel-plugin-lodash_3.3.4+~cs2.0.1-3.dsc
+ f0185a0b7228773432e51bd0d5255ae1 2363 node-babel-plugin-lodash_3.3.4+~cs2.0.1.orig-require-package-name.tar.gz
+ d30421b709d19016b4c65ccefe8e594e 50453 node-babel-plugin-lodash_3.3.4+~cs2.0.1.orig.tar.gz
+ c7a2a101a7ce4444ee4f6808f6cf82f7 7980 node-babel-plugin-lodash_3.3.4+~cs2.0.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-babel-plugin-lodash
+Vcs-Git: https://salsa.debian.org/js-team/node-babel-plugin-lodash.git
+Checksums-Sha256:
+ ca22981dc71b263d430605deeed601f3c3ca4c7fb2c3c0c12951d2177d4afcb4 2845 node-babel-plugin-lodash_3.3.4+~cs2.0.1-3.dsc
+ 21de66c53926413656af915e75f63ed68866fccea86723e45de1c2c0eca9a3ca 2363 node-babel-plugin-lodash_3.3.4+~cs2.0.1.orig-require-package-name.tar.gz
+ 16f3764cd6e687daeedf471eb24ddca8916281e9c458b3621ad3db7cee0b58b9 50453 node-babel-plugin-lodash_3.3.4+~cs2.0.1.orig.tar.gz
+ cc70d305bf2da2c4161a54139fa461fc6f6184e28a982e4ca451b85c1529797a 7980 node-babel-plugin-lodash_3.3.4+~cs2.0.1-3.debian.tar.xz
+Homepage: https://github.com/lodash/babel-plugin-lodash#readme
+Package-List: 
+ node-babel-plugin-lodash deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-babel-plugin-lodash
+Priority: extra
+Section: misc

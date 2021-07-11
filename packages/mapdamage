@@ -1,0 +1,27 @@
+Package: mapdamage
+Binary: mapdamage
+Version: 2.2.1+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), python3, dh-python, python3-setuptools, python3-pysam <!nocheck>, seqtk <!nocheck>, r-base-core <!nocheck>, r-cran-gam <!nocheck>, r-cran-ggplot2 <!nocheck>, r-cran-inline <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 18dbd6eba09a5e8a1c2891f1756843e2 2236 mapdamage_2.2.1+dfsg-1.dsc
+ 2b901d6c442477879634eece19086d63 36220 mapdamage_2.2.1+dfsg.orig.tar.xz
+ 0770793b7addda798894713c432b8b55 7696 mapdamage_2.2.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/mapdamage
+Vcs-Git: https://salsa.debian.org/med-team/mapdamage.git
+Checksums-Sha256:
+ f526c250ca57b07ed234415f8688ce200a3ab0edd390c310595a70cb54da9390 2236 mapdamage_2.2.1+dfsg-1.dsc
+ b54e89c95d452bd8bfbe7bb5515532b60a29adee1c8143179d2e0aba63dc0759 36220 mapdamage_2.2.1+dfsg.orig.tar.xz
+ 30b1ce09e6429fbc169badc0c69a4f27535388f815f7128a39783b088fe702b2 7696 mapdamage_2.2.1+dfsg-1.debian.tar.xz
+Homepage: https://ginolhac.github.io/mapDamage/
+Package-List: 
+ mapdamage deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gfortran, r-cran-runit
+Directory: pool/main/m/mapdamage
+Priority: optional
+Section: misc

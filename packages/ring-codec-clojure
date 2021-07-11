@@ -1,0 +1,27 @@
+Package: ring-codec-clojure
+Binary: libring-codec-clojure
+Version: 1.1.2-1
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, maven-repo-helper, libclojure-java, libcommons-codec-java, libnrepl-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bfb14497cf623ef3ab0ab3733aaf72ef 2256 ring-codec-clojure_1.1.2-1.dsc
+ 602327e4858aa6d1fcf27a9033333dff 4502 ring-codec-clojure_1.1.2.orig.tar.gz
+ f5866ec8043a94ff865a4644e43df2d6 3072 ring-codec-clojure_1.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/ring-codec-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/ring-codec-clojure.git
+Checksums-Sha256:
+ 12954b357570041c9ca9491c37241343ee0c87b61865981edcac2ccacdc911ae 2256 ring-codec-clojure_1.1.2-1.dsc
+ f8f804697a49e492df5c963b46de6b516840253d7f1aeaa75ce2ffaaa0e35a8a 4502 ring-codec-clojure_1.1.2.orig.tar.gz
+ 06e825a87b65b4b49efc0ccd3b025e6324f85393fd1abbf3f067306e783f57ef 3072 ring-codec-clojure_1.1.2-1.debian.tar.xz
+Homepage: https://github.com/ring-clojure/ring-codec
+Package-List: 
+ libring-codec-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/r/ring-codec-clojure
+Priority: extra
+Section: misc

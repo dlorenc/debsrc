@@ -1,0 +1,24 @@
+Package: rust-fuchsia-zircon
+Binary: librust-fuchsia-zircon-dev
+Version: 0.3.3-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-fuchsia-zircon-sys-0.3+default-dev (>= 0.3.3-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 61395c40309aacf4f7a79e8138eea5be 1645 rust-fuchsia-zircon_0.3.3-2.dsc
+ dd7c80c2d04d2e9ceba82826cf69764d 22565 rust-fuchsia-zircon_0.3.3.orig.tar.gz
+ cfa97bd5b4ef509fbee3ab54f11a0f34 2840 rust-fuchsia-zircon_0.3.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fuchsia-zircon
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fuchsia-zircon]
+Checksums-Sha256:
+ e112c449173b75e1a8360df8d10365a97900e41092f89b778c81265c9738a230 1645 rust-fuchsia-zircon_0.3.3-2.dsc
+ 2e9763c69ebaae630ba35f74888db465e49e259ba1bc0eda7d06f4a067615d82 22565 rust-fuchsia-zircon_0.3.3.orig.tar.gz
+ 1f3e13425375702c8af4f7a05735c1a9d1af1cc308d3bb5caa09264b203cd464 2840 rust-fuchsia-zircon_0.3.3-2.debian.tar.xz
+Package-List: 
+ librust-fuchsia-zircon-dev deb rust optional arch=any
+Directory: pool/main/r/rust-fuchsia-zircon
+Priority: extra
+Section: misc

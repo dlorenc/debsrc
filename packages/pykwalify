@@ -1,0 +1,27 @@
+Package: pykwalify
+Binary: python3-pykwalify, pykwalify
+Version: 1.8.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Johan Fleury <jfleury@arcaik.net>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-dateutil (>= 2.8.0), python3-docopt (>= 0.6.2), python3-pytest, python3-ruamel.yaml (>= 0.16.0), python3-testfixtures
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bff3a999850870e42df97cd6b19e02bf 1931 pykwalify_1.8.0-1.dsc
+ 14a6563cd73710501bab646407a5b49e 74592 pykwalify_1.8.0.orig.tar.gz
+ 55d548e508cc4cf1fd8c33cd4915473c 2888 pykwalify_1.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pykwalify
+Vcs-Git: https://salsa.debian.org/python-team/packages/pykwalify.git
+Checksums-Sha256:
+ 6a43a23ef6a2475376cd505fd1545584846899b3459c49f15307e42d85360e62 1931 pykwalify_1.8.0-1.dsc
+ 25b0b4e16e9983be88e2fdb52861754ca48bbd14214ee962c8f7a34a42fc59c7 74592 pykwalify_1.8.0.orig.tar.gz
+ 53979ce93a456dff809fb998bcc3958a6a154b7ca53255b8b6cc7f8eedb23556 2888 pykwalify_1.8.0-1.debian.tar.xz
+Homepage: https://github.com/grokzen/pykwalify
+Dgit: fb7e01a9e34b0e682dce9e0baf4636467419ad01 debian archive/debian/1.8.0-1 https://git.dgit.debian.org/pykwalify
+Package-List: 
+ pykwalify deb utils optional arch=any
+ python3-pykwalify deb python optional arch=any
+Directory: pool/main/p/pykwalify
+Priority: extra
+Section: misc

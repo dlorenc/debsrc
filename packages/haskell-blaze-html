@@ -1,0 +1,27 @@
+Package: haskell-blaze-html
+Binary: libghc-blaze-html-dev, libghc-blaze-html-prof, libghc-blaze-html-doc
+Version: 0.9.1.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-blaze-builder-dev (<< 0.5), libghc-blaze-builder-dev (>= 0.3), libghc-blaze-builder-prof, libghc-blaze-markup-dev (>= 0.8), libghc-blaze-markup-dev (<< 0.9), libghc-blaze-markup-prof, libghc-hunit-dev (>= 1.2), libghc-hunit-dev (<< 1.7), libghc-hunit-prof, libghc-quickcheck2-dev (>= 2.4), libghc-quickcheck2-dev (<< 2.14), libghc-quickcheck2-prof, libghc-test-framework-dev (>= 0.4), libghc-test-framework-dev (<< 0.9), libghc-test-framework-hunit-dev (<< 0.4), libghc-test-framework-hunit-dev (>= 0.3), libghc-test-framework-quickcheck2-dev (<< 0.4), libghc-test-framework-quickcheck2-dev (>= 0.3)
+Build-Depends-Indep: ghc-doc, libghc-blaze-builder-doc, libghc-blaze-markup-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9138c118ddbd6fc19375cc27585acca1 2933 haskell-blaze-html_0.9.1.2-1.dsc
+ a1b7997875d18d26b13de20aa032e2ec 81617 haskell-blaze-html_0.9.1.2.orig.tar.gz
+ 0f4d138c691f6324c47ee98e7be24af6 3896 haskell-blaze-html_0.9.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-blaze-html
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-blaze-html]
+Checksums-Sha256:
+ cb7c83add0909751b15b308e6b9476bf8379aec00d741e2badf77553cc127320 2933 haskell-blaze-html_0.9.1.2-1.dsc
+ 60503f42546c6c1b954014d188ea137e43d74dcffd2bf6157c113fd91a0c394c 81617 haskell-blaze-html_0.9.1.2.orig.tar.gz
+ 393f29cc73f57899775657c7074aa2b2389eeb8935f252c7d68e6486d179b0b8 3896 haskell-blaze-html_0.9.1.2-1.debian.tar.xz
+Homepage: http://jaspervdj.be/blaze
+Package-List: 
+ libghc-blaze-html-dev deb haskell optional arch=any
+ libghc-blaze-html-doc deb doc optional arch=all
+ libghc-blaze-html-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-blaze-html
+Priority: source
+Section: haskell

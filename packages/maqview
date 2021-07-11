@@ -1,0 +1,27 @@
+Package: maqview
+Binary: maqview
+Version: 0.2.5-10
+Maintainer: Debian-Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Charles Plessy <plessy@debian.org>, Pranav Ballaney <ballaneypranav@gmail.com>
+Build-Depends: debhelper-compat (= 13), freeglut3-dev, libxi-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f307f781d0415ef79f9d43b74c31c991 2091 maqview_0.2.5-10.dsc
+ 050c8c3692b2bdd44bd794f872d2388b 188833 maqview_0.2.5.orig.tar.gz
+ b70cf285a3c855bb5d6d236d107d1ae7 15848 maqview_0.2.5-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/maqview
+Vcs-Git: https://salsa.debian.org/med-team/maqview.git
+Checksums-Sha256:
+ d2e3bdf709576e0745dedc7a9a8656b67365e4803559e1a3f740a94596d4e27a 2091 maqview_0.2.5-10.dsc
+ 2d01495bb03fe108d87a348432bdc9c81e93c6f765ccba8f88fc94a979a7eba2 188833 maqview_0.2.5.orig.tar.gz
+ b7524f06abf661cdef38c79d86aa7f032fc7330c2c75304681b56c90cb5506ec 15848 maqview_0.2.5-10.debian.tar.xz
+Homepage: http://maq.sourceforge.net/maqview.shtml
+Package-List: 
+ maqview deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: maq
+Directory: pool/main/m/maqview
+Priority: source
+Section: science

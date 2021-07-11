@@ -1,0 +1,29 @@
+Package: conntrack-tools
+Binary: conntrack, conntrackd, nfct
+Version: 1:1.4.6-2
+Maintainer: Debian Netfilter Packaging Team <pkg-netfilter-team@lists.alioth.debian.org>
+Uploaders: Arturo Borrero Gonzalez <arturo@debian.org>, Alexander Wirt <formorer@debian.org>
+Build-Depends: bison, debhelper-compat (= 12), flex, libmnl-dev (>= 1.0.1), libnetfilter-conntrack-dev (>= 1.0.8), libnetfilter-cthelper-dev, libnetfilter-cttimeout-dev (>= 1.0.0), libnetfilter-queue-dev (>= 1.0.2), libnfnetlink-dev (>= 1.0.1), libsystemd-dev (>= 227), autoconf, automake, libtool
+Architecture: linux-any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f913dc3a7545d1ea2092706b04aa3e8c 2514 conntrack-tools_1.4.6-2.dsc
+ a9dc7567921213007def78ad72313109 499806 conntrack-tools_1.4.6.orig.tar.bz2
+ 8c04475736be91d1aa4faa043b6a0664 10004 conntrack-tools_1.4.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-netfilter-team/pkg-conntrack-tools
+Vcs-Git: https://salsa.debian.org/pkg-netfilter-team/pkg-conntrack-tools.git
+Checksums-Sha256:
+ b247f32b48fabc57369850f61e3d8bfb7b008da4b1e88852707c6190f47404ee 2514 conntrack-tools_1.4.6-2.dsc
+ 590859cc848245dbfd9c6487761dd303b3a1771e007f4f42213063ca56205d5f 499806 conntrack-tools_1.4.6.orig.tar.bz2
+ fe155b49bfcf1cc29557ef74f9fbbde1265395d835ad84dceee9dea9683f035e 10004 conntrack-tools_1.4.6-2.debian.tar.xz
+Homepage: https://conntrack-tools.netfilter.org/
+Package-List: 
+ conntrack deb net optional arch=linux-any
+ conntrackd deb net optional arch=linux-any
+ nfct deb net optional arch=linux-any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, kmod, procps, systemd
+Directory: pool/main/c/conntrack-tools
+Priority: optional
+Section: misc

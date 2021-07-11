@@ -1,0 +1,26 @@
+Package: norwegian
+Binary: inorwegian, wnorwegian, aspell-no, myspell-nb, myspell-nn
+Version: 2.2-4
+Maintainer: Tollef Fog Heen <tfheen@debian.org>
+Build-Depends: debhelper (>= 10~), aspell (>= 0.60.3-2), dictionaries-common-dev (>= 0.20), gawk, gettext (>= 0.11), hunspell-tools | myspell-tools, ispell (>= 3.3.02), libmythes-dev, moreutils, perl, po-debconf
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 1.0
+Files:
+ 13d5819f940edb0c6b1a5ccefef5158d 2087 norwegian_2.2-4.dsc
+ bb8d190294c840c3947748aaa5616b00 5539105 norwegian_2.2.orig.tar.gz
+ 60a2fcb08373b90767bf05f9a7508918 17443 norwegian_2.2-4.diff.gz
+Checksums-Sha256:
+ 63ab634fee3092f057b13ae7b79e6e3c479303cb47dc0a48f0f24ab7f8506604 2087 norwegian_2.2-4.dsc
+ ad9d7e1acec454bad2bfa2fe618b3fecb438e86cc5181e0932598f935209bf23 5539105 norwegian_2.2.orig.tar.gz
+ df534d9e16284e9b524458a72e882768f824f10c77041b89400d44bf4d5b5b6b 17443 norwegian_2.2-4.diff.gz
+Homepage: http://alioth.debian.org/projects/spell-norwegian/
+Package-List: 
+ aspell-no deb text optional arch=all
+ inorwegian deb text optional arch=any
+ myspell-nb deb text optional arch=all
+ myspell-nn deb text optional arch=all
+ wnorwegian deb text optional arch=all
+Directory: pool/main/n/norwegian
+Priority: source
+Section: text

@@ -1,0 +1,26 @@
+Package: haskell-gi-gobject
+Binary: libghc-gi-gobject-dev, libghc-gi-gobject-prof, libghc-gi-gobject-doc
+Version: 2.0.24-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, pkg-config, libglib2.0-dev, libghc-gi-glib-dev (>= 2.0), libghc-gi-glib-dev (<< 2.1), libghc-gi-glib-prof, libghc-haskell-gi-dev (>= 0.24.1), libghc-haskell-gi-dev (<< 0.25), libghc-haskell-gi-prof, libghc-haskell-gi-base-dev (>= 0.24), libghc-haskell-gi-base-dev (<< 0.25), libghc-haskell-gi-base-prof
+Build-Depends-Indep: ghc-doc, libghc-gi-glib-doc, libghc-haskell-gi-doc, libghc-haskell-gi-base-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 64bee280841179d37c00d7a18c592ecb 2561 haskell-gi-gobject_2.0.24-1.dsc
+ 395d811653f72032a92f7d9a079bf21b 13494 haskell-gi-gobject_2.0.24.orig.tar.gz
+ a0d32f3194a90cdfb61c549e763759fc 1724 haskell-gi-gobject_2.0.24-1.debian.tar.xz
+Checksums-Sha256:
+ 59512be01b7b0023f421e70cf103a5e4ed0f3921e48c823caa78f0df1912736a 2561 haskell-gi-gobject_2.0.24-1.dsc
+ 52a7be5c08fcfcbc1b92a270f51676bfd567e191c323173d84f60dcdeed129c4 13494 haskell-gi-gobject_2.0.24.orig.tar.gz
+ c372f5a7fe5989d665733bb76d65c285b511d5481ab3e91e294a421a7d008851 1724 haskell-gi-gobject_2.0.24-1.debian.tar.xz
+Homepage: https://github.com/haskell-gi/haskell-gi
+Package-List: 
+ libghc-gi-gobject-dev deb haskell optional arch=any
+ libghc-gi-gobject-doc deb doc optional arch=all
+ libghc-gi-gobject-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-gi-gobject
+Priority: extra
+Section: misc

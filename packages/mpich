@@ -1,0 +1,31 @@
+Package: mpich
+Binary: libmpich-dev, libmpich12, mpich, mpich-doc
+Version: 3.4.1-4
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Torquil Macdonald Sørensen <torquil@gmail.com>, "Adam C. Powell, IV" <hazelsct@debian.org>, Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-fortran-mod, gfortran | fortran-compiler, chrpath, hwloc-nox, librdmacm-dev, libslurm-dev, libibverbs-dev (>= 1.1.7) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libfabric-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libnuma-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libxt-dev, procps, python3, quilt, txt2man, valgrind [i386 amd64 powerpc armhf], x11proto-core-dev
+Build-Depends-Indep: texlive-latex-extra, texlive-latex-recommended, doxygen-latex
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 790c7f61c10106d588e9024687e47a1d 2727 mpich_3.4.1-4.dsc
+ 56a8d57c4383292c5e56bc1927b44b35 14009428 mpich_3.4.1.orig.tar.xz
+ 8c6d740b93d8885b17ac333dd32ee711 344876 mpich_3.4.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/mpich
+Vcs-Git: https://salsa.debian.org/science-team/mpich.git -b debian/latest
+Checksums-Sha256:
+ c040ba6e40e8a56a76518eca874fe42cb326c9db885c09bc2c816bddf05f63f2 2727 mpich_3.4.1-4.dsc
+ 5b2f52bdf4c06f78e79ccb682c4184af9b46f9c85a3f9695bc9555dcc827026d 14009428 mpich_3.4.1.orig.tar.xz
+ fa65dc24a8c3c3c3a67320418f5494a225aa494723232e783c5c9ae9a279af9d 344876 mpich_3.4.1-4.debian.tar.xz
+Homepage: https://www.mpich.org/
+Package-List: 
+ libmpich-dev deb libdevel optional arch=any
+ libmpich12 deb libs optional arch=any
+ mpich deb devel optional arch=any
+ mpich-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc, gfortran
+Directory: pool/main/m/mpich
+Priority: source
+Section: devel

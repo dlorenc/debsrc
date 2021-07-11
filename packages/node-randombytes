@@ -1,0 +1,26 @@
+Package: node-randombytes
+Binary: node-randombytes
+Version: 2.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sarath Madayil <debian@sarathms.me>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, nodejs (>= 6) <!nocheck>, node-safe-buffer (>= 5.1.0) <!nocheck>, node-tape (>= 4.6) <!nocheck>, node-tap (>= 10) <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2ae45b450db290d332d3f0dc35d55fc2 2195 node-randombytes_2.1.0-1.dsc
+ 1d54b4294784218cf1ac73ef0b58e5fc 2823 node-randombytes_2.1.0.orig.tar.gz
+ 28cb24de20408fb53e47ae9539541bc4 2368 node-randombytes_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-randombytes
+Vcs-Git: https://salsa.debian.org/js-team/node-randombytes.git
+Checksums-Sha256:
+ 795978cfd18ea015c4e41e57cf89f5694be5111eddf932e5a006653e9d0bc18e 2195 node-randombytes_2.1.0-1.dsc
+ 96a809ae19562c180eec193a6d5bf191100fc50c864927e58ce9930b49fe2da9 2823 node-randombytes_2.1.0.orig.tar.gz
+ b52593e2d3873e5afc6f2cb197f6e3a816f1f30ee7dd6fe585938ceeb51ad16e 2368 node-randombytes_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/crypto-browserify/randombytes
+Package-List: 
+ node-randombytes deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-randombytes
+Priority: optional
+Section: javascript

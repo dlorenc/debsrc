@@ -1,0 +1,26 @@
+Package: freehep-swing
+Binary: libfreehep-swing-java
+Version: 2.0.3-5
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>, Philipp Huebner <debalance@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper
+Build-Depends-Indep: junit, libfreehep-util-java (>= 2.0.2-2), libsurefire-java
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 7bd21151e5d76ef0553f009ed0373f2e 1547 freehep-swing_2.0.3-5.dsc
+ 80658ddad1a38574c20363c74ecf8442 143341 freehep-swing_2.0.3.orig.tar.gz
+ 406866dc8db0f057cf9564aab10390a2 3148 freehep-swing_2.0.3-5.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-java/freehep/freehep-swing.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/freehep/freehep-swing.git
+Checksums-Sha256:
+ a781811367fe51da60274686b62a77ed971a097b7d33df2dc51d8a66b4ab1566 1547 freehep-swing_2.0.3-5.dsc
+ 08ba88d6e2c0c3d60ee573a20621d72089cbf4a7f86e71c60ced57538d4b1220 143341 freehep-swing_2.0.3.orig.tar.gz
+ 65fcc6ff52b98b838581ea62cb4be08561e6fd47951d2c64b515d98e1e3648b5 3148 freehep-swing_2.0.3-5.debian.tar.xz
+Homepage: http://java.freehep.org/
+Package-List: 
+ libfreehep-swing-java deb java optional arch=all
+Directory: pool/main/f/freehep-swing
+Priority: source
+Section: java

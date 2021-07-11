@@ -1,0 +1,25 @@
+Package: nvpy
+Binary: nvpy
+Version: 2.0.0-2
+Maintainer: Stefan van der Walt <stefanv@berkeley.edu>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper (>= 12), python3, dh-python, python3-setuptools, yapf3
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 71bab605e6405b7caef7cf07e842cf1b 1893 nvpy_2.0.0-2.dsc
+ be903cea48217ad797234394010731e5 1656438 nvpy_2.0.0.orig.tar.gz
+ cb3c9db3ca3e3a41f07b1ab20659f593 10060 nvpy_2.0.0-2.debian.tar.xz
+Vcs-Browser: https://github.com/stefanv/nvpy/tree/debian
+Vcs-Git: https://github.com/stefanv/nvpy -b debian
+Checksums-Sha256:
+ 62f5d965bcf9f26a514347ebae670fa6516725dea0465252f1534dfea8d2b5cc 1893 nvpy_2.0.0-2.dsc
+ 488d303683a6763b0a332237dc3ba6a97a21235f0a067ebaa5c0e919a3edbd27 1656438 nvpy_2.0.0.orig.tar.gz
+ fefe65d4acb645c433fa3e68232c178f36b085ca875cbac720ddb9095d9a4caf 10060 nvpy_2.0.0-2.debian.tar.xz
+Homepage: https://github.com/cpbotha/nvpy
+Package-List: 
+ nvpy deb utils optional arch=all
+Directory: pool/main/n/nvpy
+Priority: extra
+Section: misc

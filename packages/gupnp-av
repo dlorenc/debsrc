@@ -1,0 +1,28 @@
+Package: gupnp-av
+Binary: libgupnp-av-1.0-2, gir1.2-gupnp-av-1.0, libgupnp-av-1.0-dev, libgupnp-av-doc
+Version: 0.12.11-2
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper (>= 11), gnome-pkg-tools, libglib2.0-dev (>= 2.38), libsoup2.4-dev (>= 2.34.0-1~), valac (>= 0.22), gobject-introspection (>= 0.9.12-4~), libgirepository1.0-dev (>= 0.9.12)
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ b6cdcb2a6369efac6b9c8b8ae52a4c97 2304 gupnp-av_0.12.11-2.dsc
+ f09e99ae20271b0a8cadce806098ae8b 373052 gupnp-av_0.12.11.orig.tar.xz
+ db87fa41fb01fe79f11d687ba54a1301 7372 gupnp-av_0.12.11-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gupnp-av
+Vcs-Git: https://salsa.debian.org/gnome-team/gupnp-av.git
+Checksums-Sha256:
+ 5dd807b1fdb38a93913ba50e5724fc51475f6f76ab5ffd931ff09d6a7dd970df 2304 gupnp-av_0.12.11-2.dsc
+ 689dcf1492ab8991daea291365a32548a77d1a2294d85b33622b55cca9ce6fdc 373052 gupnp-av_0.12.11.orig.tar.xz
+ 320d7f95d4850fa354332171c6ce4ab42a59816104dc56b9f6226496484f0e04 7372 gupnp-av_0.12.11-2.debian.tar.xz
+Homepage: http://www.gupnp.org
+Package-List: 
+ gir1.2-gupnp-av-1.0 deb introspection optional arch=any
+ libgupnp-av-1.0-2 deb libs optional arch=any
+ libgupnp-av-1.0-dev deb libdevel optional arch=any
+ libgupnp-av-doc deb doc optional arch=all
+Directory: pool/main/g/gupnp-av
+Priority: source
+Section: libs

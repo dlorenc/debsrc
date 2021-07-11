@@ -1,0 +1,28 @@
+Package: hydroffice.bag
+Binary: python3-hydroffice.bag, hydroffice.bag-doc, hydroffice.bag-tools
+Version: 0.2.15-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper-compat (= 9), dh-python, python3-sphinx, python3-all, python3-gdal, python3-h5py, python3-lxml, python3-setuptools, python3-wheel
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ a242ed19c715d6adc539815cd4d9811c 2296 hydroffice.bag_0.2.15-3.dsc
+ dd1bd3d28a46f45f903a7dfdc6cb0f9c 283397 hydroffice.bag_0.2.15.orig.tar.gz
+ 9a35243a73f974b8645567d23f521650 3524 hydroffice.bag_0.2.15-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/hydroffice.bag
+Vcs-Git: https://salsa.debian.org/science-team/hydroffice.bag.git
+Checksums-Sha256:
+ 2777073fccaca86d1d9b4fa2319322b246f210116b659b07ddd5db787309061a 2296 hydroffice.bag_0.2.15-3.dsc
+ 728b9a0b4bd0302582363edb193ce67cd6949f6f9d10c628a008ce9f7791ae00 283397 hydroffice.bag_0.2.15.orig.tar.gz
+ dccd14fb129121f57063085ca5384d449a3aba7ee8a05696b489d7a0703d409d 3524 hydroffice.bag_0.2.15-3.debian.tar.xz
+Homepage: http://www.hydroffice.org/
+Package-List: 
+ hydroffice.bag-doc deb doc optional arch=all
+ hydroffice.bag-tools deb utils optional arch=all
+ python3-hydroffice.bag deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/h/hydroffice.bag
+Priority: optional
+Section: misc

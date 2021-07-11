@@ -1,0 +1,27 @@
+Package: ssreflect
+Binary: libssreflect-coq
+Version: 1.12.0-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>, Enrico Tassi <gareuselesinge@debian.org>, Ralf Treinen <treinen@debian.org>
+Build-Depends: debhelper-compat (= 13), coq (>= 8.7), lua5.1
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bc09f7fa31e56fda9fe2a5e3dc1f82e2 2094 ssreflect_1.12.0-1.dsc
+ a6afdeff50a50117baf9a35dd5601afe 1318853 ssreflect_1.12.0.orig.tar.gz
+ e39a30f7bd2849e299a1c47a0c1517ed 12792 ssreflect_1.12.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ssreflect
+Vcs-Git: https://salsa.debian.org/ocaml-team/ssreflect.git
+Checksums-Sha256:
+ 733be6c9676b842ab11b96fb2a40f57b3824c31767f9086b1f08ac97a19e582d 2094 ssreflect_1.12.0-1.dsc
+ a57b79a280e7e8527bf0d8710c1f65cde00032746b52b87be1ab12e6213c9783 1318853 ssreflect_1.12.0.orig.tar.gz
+ c8141b3be4f18418b83e4d06e60d2e16982238373afdcea1ff6d1645917def30 12792 ssreflect_1.12.0-1.debian.tar.xz
+Homepage: https://math-comp.github.io/math-comp/
+Package-List: 
+ libssreflect-coq deb math optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: coq
+Directory: pool/main/s/ssreflect
+Priority: source
+Section: math

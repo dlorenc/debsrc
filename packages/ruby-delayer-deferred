@@ -1,0 +1,28 @@
+Package: ruby-delayer-deferred
+Binary: ruby-delayer-deferred
+Version: 2.2.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-delayer (<< 2.0), ruby-delayer (>= 1.1.2)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 598c62b323de5dbbc1f31b8380afb077 2222 ruby-delayer-deferred_2.2.0-1.dsc
+ f8b3b09f793448b8a6ec53a63d203f16 18032 ruby-delayer-deferred_2.2.0.orig.tar.gz
+ e06f049367236b3b9d7590440945b49e 3900 ruby-delayer-deferred_2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-delayer-deferred
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-delayer-deferred.git
+Checksums-Sha256:
+ 4d99ff33b4468139748d110c1919a1294b55651ed08ab68c141b04ba44c72a01 2222 ruby-delayer-deferred_2.2.0-1.dsc
+ ff48c5914cc037a407a312ed59545c0eefd488e7189b8a79e5739cc92149c98a 18032 ruby-delayer-deferred_2.2.0.orig.tar.gz
+ 6582fa5c414c1e86d74607b8ccc0486e767a77f54c56e21b9051759315dc25c6 3900 ruby-delayer-deferred_2.2.0-1.debian.tar.xz
+Homepage: https://github.com/toshia/delayer-deferred
+Package-List: 
+ ruby-delayer-deferred deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: gem2deb-test-runner, quilt
+Directory: pool/main/r/ruby-delayer-deferred
+Priority: optional
+Section: misc

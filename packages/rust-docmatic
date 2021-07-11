@@ -1,0 +1,26 @@
+Package: rust-docmatic
+Binary: librust-docmatic-dev
+Version: 0.1.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Henry-Nicolas Tourneur <debian@nilux.be>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-which-3+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ccc11fd186dd934c45ea22399d52cb2a 2157 rust-docmatic_0.1.2-1.dsc
+ b4f238bbc389038ff1cfcbda61fb8ed0 9986 rust-docmatic_0.1.2.orig.tar.gz
+ 7488b8161052e1dce34a2f626d5f9725 2728 rust-docmatic_0.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/docmatic
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/docmatic]
+Checksums-Sha256:
+ 0ada341c1e5a029ce901b77a7419c2996a3819c5eb868a23cf115320f1f1b604 2157 rust-docmatic_0.1.2-1.dsc
+ 8d58ebceaf539cb79420fb3046da9396e11021c536ae953be6ba5363842da8c3 9986 rust-docmatic_0.1.2.orig.tar.gz
+ 46b9cbeb7284900e0f963ca426c145df067b459ab58c46f8ce6223439f2f6cae 2728 rust-docmatic_0.1.2-1.debian.tar.xz
+Package-List: 
+ librust-docmatic-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-docmatic
+Priority: extra
+Section: misc

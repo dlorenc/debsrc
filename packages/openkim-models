@@ -1,0 +1,27 @@
+Package: openkim-models
+Binary: openkim-models
+Version: 1:2021.01.28-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Anton Gladky <gladk@debian.org>
+Build-Depends: cmake, libkim-api-dev, debhelper-compat (= 13), gfortran, xxd
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b91f4b96bcbf0b2b608dea7668e829ec 2155 openkim-models_2021.01.28-2.dsc
+ c11e2beaf2a75d91576118b305f5c271 74571029 openkim-models_2021.01.28.orig.tar.gz
+ e679b569a43df1f12dee733a5869901b 8688 openkim-models_2021.01.28-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/openkim-models
+Vcs-Git: https://salsa.debian.org/science-team/openkim-models.git
+Checksums-Sha256:
+ e6f12ca20e541f94657b13de93605b5d0045d49d7505342b17511d5345536305 2155 openkim-models_2021.01.28-2.dsc
+ 6165cab9a7349a64ab91b2058a780dad2fae767f72c88b6a1bfae261adddacf6 74571029 openkim-models_2021.01.28.orig.tar.gz
+ 59e0d0e834a1a31e79fa27142c7fad1b8a1b435edb66c70da6bb4dd831cea291 8688 openkim-models_2021.01.28-2.debian.tar.xz
+Homepage: https://openkim.org
+Package-List: 
+ openkim-models deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, cmake, gfortran, libkim-api-dev, libkim-api-doc
+Directory: pool/main/o/openkim-models
+Priority: extra
+Section: misc

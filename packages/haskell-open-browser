@@ -1,0 +1,28 @@
+Package: haskell-open-browser
+Binary: libghc-open-browser-dev, libghc-open-browser-prof, libghc-open-browser-doc
+Version: 0.2.1.0-7
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 098a7a683a27f22d5069ee065840a3a8 2391 haskell-open-browser_0.2.1.0-7.dsc
+ 85652eb6e95cad6683ef77bc039fe918 2629 haskell-open-browser_0.2.1.0.orig.tar.gz
+ 53cea0299793a03bfd92a9e3966ffcb8 2584 haskell-open-browser_0.2.1.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-open-browser
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-open-browser]
+Checksums-Sha256:
+ 5462c65b1ec0522dd8a9e131c20da0ccb91dff5e6a73d36414884ea770082f6d 2391 haskell-open-browser_0.2.1.0-7.dsc
+ 0bed2e63800f738e78a4803ed22902accb50ac02068b96c17ce83a267244ca66 2629 haskell-open-browser_0.2.1.0.orig.tar.gz
+ c5ed13c20dd5b5aa9a0faa7b0cc28a3c4f314bf9e0c6cfb74a9f3953a2d35af1 2584 haskell-open-browser_0.2.1.0-7.debian.tar.xz
+Homepage: https://github.com/rightfold/open-browser
+Package-List: 
+ libghc-open-browser-dev deb haskell optional arch=any
+ libghc-open-browser-doc deb doc optional arch=all
+ libghc-open-browser-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-open-browser
+Priority: optional
+Section: misc

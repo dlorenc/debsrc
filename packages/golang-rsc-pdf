@@ -1,0 +1,27 @@
+Package: golang-rsc-pdf
+Binary: golang-rsc-pdf-dev
+Version: 0.1.0+git20180525.c47d69c-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Emanuel Krivoy <ekrivoy@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 73f228071b667d6c5b5febd982bca859 2220 golang-rsc-pdf_0.1.0+git20180525.c47d69c-2.dsc
+ 240abfd1707b33ca5420f57b46f0331b 35380 golang-rsc-pdf_0.1.0+git20180525.c47d69c.orig.tar.xz
+ 64dddcc1a01534edaadfd681cdfb00b5 2432 golang-rsc-pdf_0.1.0+git20180525.c47d69c-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-rsc-pdf
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-rsc-pdf.git
+Checksums-Sha256:
+ e42fcf0f5a97feb62856a92fbb04452b4e4ef5df32e73b03cb335a9d67a6addf 2220 golang-rsc-pdf_0.1.0+git20180525.c47d69c-2.dsc
+ 7168478afbb6b7f117375abf26473f8f0f04ba63aff4a6dce1fb1f5636105e77 35380 golang-rsc-pdf_0.1.0+git20180525.c47d69c.orig.tar.xz
+ 767f01da9590bb732422e5a6cc7a8590f3d0a4eaf46a38e782b1304d49e107a8 2432 golang-rsc-pdf_0.1.0+git20180525.c47d69c-2.debian.tar.xz
+Homepage: https://github.com/rsc/pdf
+Go-Import-Path: rsc.io/pdf
+Package-List: 
+ golang-rsc-pdf-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-rsc-pdf
+Priority: extra
+Section: golang

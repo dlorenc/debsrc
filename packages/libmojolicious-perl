@@ -1,0 +1,28 @@
+Package: libmojolicious-perl
+Binary: libmojolicious-perl
+Version: 8.71+dfsg-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Angel Abad <angel@debian.org>, Dominique Dumont <dod@debian.org>, CSILLAG Tamas <cstamas@cstamas.hu>, Nick Morrott <nickm@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: fonts-font-awesome <!nocheck>, libcpan-meta-yaml-perl <!nocheck>, libcpanel-json-xs-perl (>= 4.09) <!nocheck>, libfuture-asyncawait-perl <!nocheck>, libio-socket-ip-perl (>= 0.39-3~) <!nocheck>, libjs-bootstrap4 <!nocheck>, libjs-highlight.js <!nocheck>, libjs-jquery <!nocheck>, librole-tiny-perl (>= 2.000001) <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 311d165c613eefe75649dc59686722cc 2856 libmojolicious-perl_8.71+dfsg-1.dsc
+ fd0753ea235dec97a151a07703293707 580816 libmojolicious-perl_8.71+dfsg.orig.tar.xz
+ eef5a09f4c0f0609cc8729b078d98b9a 17408 libmojolicious-perl_8.71+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmojolicious-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmojolicious-perl.git
+Checksums-Sha256:
+ deefe25cb0d76fa043553133858186ea3ec706604f8ea2dfbcc76a5f4f247d36 2856 libmojolicious-perl_8.71+dfsg-1.dsc
+ f801bf69ea75314d5e63d142fc66cb2d1810237799c5c73b755c6dd03a345e5e 580816 libmojolicious-perl_8.71+dfsg.orig.tar.xz
+ 1f75d565b6388bc3b277cc743816c6d06d9736c384015d9b90dcc080af6fdb29 17408 libmojolicious-perl_8.71+dfsg-1.debian.tar.xz
+Homepage: https://mojolicious.org
+Dgit: f7b97a988aee42cf7ae4b2eac4413ecb81e51b5b debian archive/debian/8.71+dfsg-1 https://git.dgit.debian.org/libmojolicious-perl
+Package-List: 
+ libmojolicious-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmojolicious-perl
+Priority: source
+Section: perl

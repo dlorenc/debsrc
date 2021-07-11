@@ -1,0 +1,26 @@
+Package: showq
+Binary: showq
+Version: 0.4.1+git20200907-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Dennis Braun <d_braun@kabelmail.de>, Jaromír Mikeš <mira.mikes@seznam.cz>
+Build-Depends: debhelper-compat (= 13), libxml++2.6-dev, libgtkmm-2.4-dev, libjack-dev, libasound2-dev (>= 1.0.8), libsndfile1-dev (>= 1.0.10), libvorbisfile3, libsamplerate0-dev (>= 0.1.1), meson
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 849d79c40b0cca4ffd9ab101333b8aea 2224 showq_0.4.1+git20200907-1.dsc
+ 8d57f2c94d18d1dbccc05d2a5a437074 49112 showq_0.4.1+git20200907.orig.tar.xz
+ a71063253474ecc6102d4ef491aabbc9 29780 showq_0.4.1+git20200907-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/showq
+Vcs-Git: https://salsa.debian.org/multimedia-team/showq.git
+Checksums-Sha256:
+ ebb5d6c3298f327b66e689511bfb8a563fb1fb3b369a2ece9634ccae0ef13f27 2224 showq_0.4.1+git20200907-1.dsc
+ 4585e5a96a158f12e5e09da7f7d1e10daff656fccf8ee9bf1fd4886ee471ebeb 49112 showq_0.4.1+git20200907.orig.tar.xz
+ 6de1dd9e755be395bad5771af06c0ecaa77fad3c5d4bc6fd560bd09dc735d00c 29780 showq_0.4.1+git20200907-1.debian.tar.xz
+Homepage: https://github.com/evandelisle/showq
+Package-List: 
+ showq deb sound optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/s/showq
+Priority: source
+Section: sound

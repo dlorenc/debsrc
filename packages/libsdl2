@@ -1,0 +1,31 @@
+Package: libsdl2
+Binary: libsdl2-2.0-0, libsdl2-dev, libsdl2-doc
+Version: 2.0.14+dfsg2-3
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Uploaders: Sam Hocevar <sho@debian.org>, Manuel A. Fernandez Montecelo <mafm@debian.org>, Felix Geyer <fgeyer@debian.org>, Simon McVittie <smcv@debian.org>
+Build-Depends: debhelper-compat (= 12), fcitx-libs-dev, libasound2-dev [linux-any], libdbus-1-dev, libdrm-dev [linux-any], libegl1-mesa-dev [!hurd-any], libgbm-dev [linux-any], libgl1-mesa-dev, libgles-dev [!hurd-any], libglu1-mesa-dev, libibus-1.0-dev, libpulse-dev, libsndio-dev, libudev-dev [linux-any], libusb2-dev [kfreebsd-any], libusbhid-dev [kfreebsd-any], libvulkan-dev [linux-any], libwayland-dev [linux-any], libx11-dev, libxcursor-dev, libxext-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, libxss-dev, libxt-dev, libxv-dev, libxxf86vm-dev, pkg-config, libsamplerate0-dev, wayland-protocols
+Build-Depends-Indep: graphviz <!nodoc>, doxygen <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 11994da311c32228ca505e9185f6ab2b 3024 libsdl2_2.0.14+dfsg2-3.dsc
+ 2cd346bb6b93eba88e507708616ca88a 2833168 libsdl2_2.0.14+dfsg2.orig.tar.xz
+ c4ab10705d2ddc13e788e17480f99f05 29628 libsdl2_2.0.14+dfsg2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/sdl-team/libsdl2
+Vcs-Git: https://salsa.debian.org/sdl-team/libsdl2.git
+Checksums-Sha256:
+ 097b9d9d1ce12f42dcff98bed07b0af1f99ef9f6540c7534331a7e3aeabd9cb0 3024 libsdl2_2.0.14+dfsg2-3.dsc
+ 8539849619e0290e962b92f180755b6f2763ed648985c4be15ef5c6de223660e 2833168 libsdl2_2.0.14+dfsg2.orig.tar.xz
+ a95e3d65093ef2485cdadfdc72991750cc5f3d11001cf6cd235c330d0c0c5b03 29628 libsdl2_2.0.14+dfsg2-3.debian.tar.xz
+Homepage: https://www.libsdl.org/
+Dgit: 302c8a0d48dbbc01b2762b30178736a2ff482000 debian archive/debian/2.0.14+dfsg2-3 https://git.dgit.debian.org/libsdl2
+Package-List: 
+ libsdl2-2.0-0 deb libs optional arch=any
+ libsdl2-dev deb libdevel optional arch=any
+ libsdl2-doc deb doc optional arch=all profile=!nodoc
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, cmake
+Directory: pool/main/libs/libsdl2
+Priority: source
+Section: misc

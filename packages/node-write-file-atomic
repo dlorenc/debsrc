@@ -1,0 +1,28 @@
+Package: node-write-file-atomic
+Binary: node-write-file-atomic
+Version: 3.0.3+~3.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Aarti Kashyap <kaarti.sr@gmail.com>
+Build-Depends: debhelper-compat (= 13), node-imurmurhash <!nocheck>, node-is-typedarray <!nocheck>, node-mkdirp <!nocheck>, node-require-inject <!nocheck>, node-rimraf <!nocheck>, node-signal-exit <!nocheck>, node-tap <!nocheck>, node-typedarray-to-buffer <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4d1b9d71ca16dc1bbee496a1560c7ad5 2782 node-write-file-atomic_3.0.3+~3.0.1-1.dsc
+ 498e86d8f83c1607993c5bece65cbe26 1854 node-write-file-atomic_3.0.3+~3.0.1.orig-types-write-file-atomic.tar.gz
+ 09ddc40dfdb422f0a48bca101f81f6fa 50641 node-write-file-atomic_3.0.3+~3.0.1.orig.tar.gz
+ e7aef90a90aeb7a05707fcaa3ffc8cfe 3200 node-write-file-atomic_3.0.3+~3.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-write-file-atomic
+Vcs-Git: https://salsa.debian.org/js-team/node-write-file-atomic.git
+Checksums-Sha256:
+ e9b8ced955544f1c867d4060377f117eaf0b9c9ae262fbd0ba4d46f1842b1dda 2782 node-write-file-atomic_3.0.3+~3.0.1-1.dsc
+ 30e01aa472457248b5597eb51d192d5e2d8a5746a7e016c77f71ab686e23da27 1854 node-write-file-atomic_3.0.3+~3.0.1.orig-types-write-file-atomic.tar.gz
+ bc4cccda8dcceb606f32db5789371c2285b36722931c1f49696ad7ef8bd260cb 50641 node-write-file-atomic_3.0.3+~3.0.1.orig.tar.gz
+ 8d8d0d69ccafe956ad3f7925957ece4db5f3acb026da860145588eef28b8255d 3200 node-write-file-atomic_3.0.3+~3.0.1-1.debian.tar.xz
+Homepage: https://github.com/iarna/write-file-atomic
+Package-List: 
+ node-write-file-atomic deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-write-file-atomic
+Priority: extra
+Section: misc

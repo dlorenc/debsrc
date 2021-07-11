@@ -1,0 +1,25 @@
+Package: picard
+Binary: picard
+Version: 2.5.6-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sebastian Ramacher <sramacher@debian.org>
+Build-Depends: debhelper-compat (= 13), python3-dev, dh-python, gettext, python3-dateutil, python3-setuptools, python3-pyqt5 (>= 5.8), python3-mutagen (>= 1.37)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f7fa5acbcd77d5e574b801f0bc3137cc 2029 picard_2.5.6-1.dsc
+ 58fe3df1116d56c0312e755978913d92 4232271 picard_2.5.6.orig.tar.gz
+ 6f473770aa220831d086e0c82d3ad385 14048 picard_2.5.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/picard
+Vcs-Git: https://salsa.debian.org/multimedia-team/picard.git
+Checksums-Sha256:
+ a1177c02a7ba56badaedbda7ca953b7e65915abb83eb2f954bdf8f50237fcd47 2029 picard_2.5.6-1.dsc
+ 1d56332d9577d79a551e857e246b5c97c2ec4a8abbdeb945c6763e31c3bf9527 4232271 picard_2.5.6.orig.tar.gz
+ 1138c6cf3d29c18a2bd98b812a1a758e3246a2c316946a84dfa1c3e219a67169 14048 picard_2.5.6-1.debian.tar.xz
+Homepage: https://picard.musicbrainz.org/
+Package-List: 
+ picard deb sound optional arch=any
+Directory: pool/main/p/picard
+Priority: source
+Section: sound

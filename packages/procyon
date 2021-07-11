@@ -1,0 +1,26 @@
+Package: procyon
+Binary: libprocyon-java, procyon-decompiler
+Version: 0.5.36-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11), default-jdk-headless, gradle-debian-helper, javahelper, libjcommander-java (>= 1.71-1~), maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 54bfd2a1048026d24a688bb78a3f9745 2120 procyon_0.5.36-1.dsc
+ 191256c421d4737a1cd9ac43e04dd03c 618196 procyon_0.5.36.orig.tar.xz
+ 52133f4796e124e6b3f0bdfb01966128 8916 procyon_0.5.36-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/procyon
+Vcs-Git: https://salsa.debian.org/java-team/procyon.git
+Checksums-Sha256:
+ 0f4740839a539ba01e4f6bcae3ea2d8f39bc3127b4a72026906542a01d3484c9 2120 procyon_0.5.36-1.dsc
+ 0aa5b227b6198cc301ddbc947bfadd9ae331ffec097df18187eca9dc85620bea 618196 procyon_0.5.36.orig.tar.xz
+ 7ac9823ea5ada9b920060a77978e134e1b37bb681917cc558bb909ba040beaf3 8916 procyon_0.5.36-1.debian.tar.xz
+Homepage: https://bitbucket.org/mstrobel/procyon
+Package-List: 
+ libprocyon-java deb java optional arch=all
+ procyon-decompiler deb java optional arch=all
+Directory: pool/main/p/procyon
+Priority: optional
+Section: misc

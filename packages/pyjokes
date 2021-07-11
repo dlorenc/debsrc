@@ -1,0 +1,26 @@
+Package: pyjokes
+Binary: python3-pyjokes, pyjoke
+Version: 0.5.0-3
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ethan Ward <ethan.ward@mycroft.ai>
+Build-Depends: debhelper-compat (= 10), dh-python, python3-all, python3-pytest, python3-setuptools, python3-vcversioner
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ 846b3e1fb35231aa52d238d6f32b8983 2068 pyjokes_0.5.0-3.dsc
+ eb22e3327a439d8ba1b3a6db8fa7fa0d 269558 pyjokes_0.5.0.orig.tar.gz
+ 4a74c974ee8f085a9509ad8638933f52 10960 pyjokes_0.5.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pyjokes
+Vcs-Git: https://salsa.debian.org/python-team/modules/pyjokes.git
+Checksums-Sha256:
+ a591f460343aaec47c0aef08bf2c472f22e71d9dfff9d45273025cdd6bb6f04d 2068 pyjokes_0.5.0-3.dsc
+ 490fc6504a0298ad7575be3af559644ceb4837e834e820c17b4727847c3eb3c5 269558 pyjokes_0.5.0.orig.tar.gz
+ 0eb8505d4cd143fa141c7d6a1ccc00b245066a4fc2fc5a03f97aecb5cfa15f33 10960 pyjokes_0.5.0-3.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/pyjokes
+Package-List: 
+ pyjoke deb misc optional arch=all
+ python3-pyjokes deb python optional arch=all
+Directory: pool/main/p/pyjokes
+Priority: extra
+Section: misc

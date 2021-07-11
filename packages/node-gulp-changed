@@ -1,0 +1,26 @@
+Package: node-gulp-changed
+Binary: node-gulp-changed
+Version: 4.0.2-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, gulp (>= 4) <!nocheck>, node-del <!nocheck>, node-get-stream <!nocheck>, node-make-dir, node-pify, node-plugin-error, node-replace-ext, node-tape <!nocheck>, node-through2
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 42f2475713b5aa4ac95011be13beb333 2249 node-gulp-changed_4.0.2-1.dsc
+ bdd38f367a3c52093fcf1708ee8f4f61 5551 node-gulp-changed_4.0.2.orig.tar.gz
+ b808776cddc5ee93e7b88dcb589a83e9 9564 node-gulp-changed_4.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-gulp-changed
+Vcs-Git: https://salsa.debian.org/js-team/node-gulp-changed.git
+Checksums-Sha256:
+ 0cdb7783e2d6fd7dfee110df5d8b5fec7f27ae650efa806d8a38ceaf457708e0 2249 node-gulp-changed_4.0.2-1.dsc
+ c6892eb9257d711e53bb5bb0781f370cf4e4dcb518850efc7e4cc63f9319af53 5551 node-gulp-changed_4.0.2.orig.tar.gz
+ 8d377b29c6f1d3098eeae2616dd67be94c5459772ebea848944bda377662f675 9564 node-gulp-changed_4.0.2-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/gulp-changed
+Package-List: 
+ node-gulp-changed deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-gulp-changed
+Priority: extra
+Section: misc

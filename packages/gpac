@@ -1,0 +1,29 @@
+Package: gpac
+Binary: gpac, gpac-modules-base, libgpac10, libgpac-dev
+Version: 1.0.1+dfsg1-4
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Reinhard Tartler <siretart@tauware.de>, Alessio Treglia <alessio@debian.org>
+Build-Depends: debhelper-compat (= 13), freeglut3-dev, liba52-0.7.4-dev, libasound2-dev, libavcodec-dev (>= 6:10~), libavdevice-dev (>= 6:10~), libavformat-dev (>= 6:10~), libavutil-dev (>= 6:10~), libfaad-dev, libfreenect-dev, libfreetype6-dev, libjack-dev, libjpeg-dev, libmad0-dev, libogg-dev, libpng-dev, libpulse-dev, libsdl1.2-dev, libswscale-dev (>= 6:10~), libtheora-dev, libusb-1.0-0-dev, libvorbis-dev, libxml2-dev, libxv-dev, libxvidcore-dev
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 72e4ea906f6fe29d9a95a5e7f0d14cbf 2701 gpac_1.0.1+dfsg1-4.dsc
+ bfcb7a6dad4834c70630bf996c8fa64f 5153848 gpac_1.0.1+dfsg1.orig.tar.xz
+ f3769d6e6d4dc5404f3ecb08b13779da 41604 gpac_1.0.1+dfsg1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/gpac
+Vcs-Git: https://salsa.debian.org/multimedia-team/gpac.git
+Checksums-Sha256:
+ dbbad33437d44fa6a260635a5533c04348e2e2c3a8f49f6d56aca98454cea7a4 2701 gpac_1.0.1+dfsg1-4.dsc
+ a7e2ead0f6774815bfd7e838e0b09e750f1ff45f1284441dc7d0a52c6757ad46 5153848 gpac_1.0.1+dfsg1.orig.tar.xz
+ 1552418a0caefa859e6393ac5a6e029c53145b5eec05d7aa07609d3fc42538ad 41604 gpac_1.0.1+dfsg1-4.debian.tar.xz
+Homepage: https://gpac.wp.mines-telecom.fr/
+Dgit: 4ee97a5b38d46bb312e2248d434b3f07f09c9552 debian archive/debian/1.0.1+dfsg1-4 https://git.dgit.debian.org/gpac
+Package-List: 
+ gpac deb graphics optional arch=any
+ gpac-modules-base deb graphics optional arch=any
+ libgpac-dev deb libdevel optional arch=any
+ libgpac10 deb libs optional arch=any
+Directory: pool/main/g/gpac
+Priority: source
+Section: graphics

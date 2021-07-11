@@ -1,0 +1,27 @@
+Package: php-vlucas-phpdotenv
+Binary: php-vlucas-phpdotenv
+Version: 3.6.7-2
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Robin Gustafsson <robin@rgson.se>
+Build-Depends: debhelper-compat (= 13), php-phpoption, phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a5e39c1986abf5de33f67d16c9b7d0e7 2139 php-vlucas-phpdotenv_3.6.7-2.dsc
+ 1bd7bc1c7e8ec12281bacb7e02494458 22124 php-vlucas-phpdotenv_3.6.7.orig.tar.xz
+ 4865d244de9b2b9779b73a3cdaaa3855 5620 php-vlucas-phpdotenv_3.6.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-vlucas-phpdotenv
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-vlucas-phpdotenv.git
+Checksums-Sha256:
+ 254c805b478ab65a1688c1b4b1c7f5d2707fafc265810fd73859b7e19a7428de 2139 php-vlucas-phpdotenv_3.6.7-2.dsc
+ 4a122c8fb0c994e0f759f00e3cbb0d55a2c3bf1143694ecd0f7ddec59a7c73e0 22124 php-vlucas-phpdotenv_3.6.7.orig.tar.xz
+ 0cc57598ef32a0f1518e9a4b491d6e03f03e189a4c423dfb896d7f5d90b13cf9 5620 php-vlucas-phpdotenv_3.6.7-2.debian.tar.xz
+Homepage: https://github.com/vlucas/phpdotenv
+Package-List: 
+ php-vlucas-phpdotenv deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/p/php-vlucas-phpdotenv
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: python-altgraph
+Binary: python3-altgraph, python-altgraph-doc
+Version: 0.17+ds0-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: IOhannes m zmölnig (Debian/GNU) <umlaeute@debian.org>
+Build-Depends: debhelper-compat (= 12), devscripts, dh-buildinfo, dh-python, python3, python3-sphinx, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d030616a09570587f27bc919116fc9a8 2408 python-altgraph_0.17+ds0-1.dsc
+ 35fc952229443e42d59964f7ccf41f63 35156 python-altgraph_0.17+ds0.orig.tar.xz
+ da3ef24072dcf9bb8b6a7d1434931b61 4628 python-altgraph_0.17+ds0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-altgraph
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-altgraph.git
+Checksums-Sha256:
+ 183db2e14a35689f17258f7c4ebcfe9c213386e1eff560fb578987f6c2969463 2408 python-altgraph_0.17+ds0-1.dsc
+ 9a7f87ab86d804d244ed05815cea78cbab0d058be378aa4484ba3f7b3624b4fd 35156 python-altgraph_0.17+ds0.orig.tar.xz
+ 51f4c6934c4a61fe705c43c0b9b80b0e65af6d9ceabb3fb8a6dd25b860ef48c5 4628 python-altgraph_0.17+ds0-1.debian.tar.xz
+Homepage: https://github.com/ronaldoussoren/altgraph
+Dgit: 3e72528e52fe427dd8b1394f966848ceff9dc171 debian archive/debian/0.17+ds0-1 https://git.dgit.debian.org/python-altgraph
+Package-List: 
+ python-altgraph-doc deb doc optional arch=all
+ python3-altgraph deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-altgraph
+Priority: optional
+Section: misc

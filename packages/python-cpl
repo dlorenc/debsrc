@@ -1,0 +1,27 @@
+Package: python-cpl
+Binary: python3-cpl
+Version: 0.7.4-2
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: debhelper (>= 11), dh-python, libcpl-dev, python3-all-dev, python3-astropy, python3-numpy, python3-pkg-resources, python3-setuptools
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 236c6425e9fc755d826fb0271d0597e1 2152 python-cpl_0.7.4-2.dsc
+ 2616dc1f9fb536dd06d53b93e39238e3 67553 python-cpl_0.7.4.orig.tar.gz
+ 0eafad446efccb4cc384bf02d4f687cb 3928 python-cpl_0.7.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/python-cpl
+Vcs-Git: https://salsa.debian.org/debian-astro-team/python-cpl.git
+Checksums-Sha256:
+ a9c04190f18b22508ec8c9c1b428daa64fe527eb6e1e5f3a8fba030d821a0be8 2152 python-cpl_0.7.4-2.dsc
+ 6dfca58676967b752b2cdf636e1d6094f02259fcaaad5ed167f32ff0b69ee76b 67553 python-cpl_0.7.4.orig.tar.gz
+ 7e2157965a1c97ad91dbf9c9d696c7d2754ed9cc5a6ca69766ffcd64c6c5539e 3928 python-cpl_0.7.4-2.debian.tar.xz
+Homepage: https://pypi.org/project/python-cpl/
+Package-List: 
+ python3-cpl deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: autoconf, automake, libcpl-dev, libtool
+Directory: pool/main/p/python-cpl
+Priority: source
+Section: python

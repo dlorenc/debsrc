@@ -1,0 +1,28 @@
+Package: libfsxfs
+Binary: libfsxfs-dev, libfsxfs1, libfsxfs-utils, python3-libfsxfs
+Version: 20201117-1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper-compat (= 11), pkg-config, dh-python, python3-dev, libbfio-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8772dd5639b1e4382d97468bfc974b45 2202 libfsxfs_20201117-1.dsc
+ 9081b602d5a2bed691d67acfea6926a8 1635073 libfsxfs_20201117.orig.tar.gz
+ b1106f5b6f5f3ed4060a6934234aeca0 3240 libfsxfs_20201117-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/libfsxfs
+Vcs-Git: https://salsa.debian.org/pkg-security-team/libfsxfs.git
+Checksums-Sha256:
+ 99f1f23681e6be34417cfd469ee7c54f262e7dee2e7005f79ff691416023ad7a 2202 libfsxfs_20201117-1.dsc
+ 633685964f33e80be678a93b549d68ad38c6584ada11c7bc6076f9275b4852d4 1635073 libfsxfs_20201117.orig.tar.gz
+ f19b0c1ae8653ae856e1dc989f5d2c2db70357a45a55c7b7b59ecd9487ea900a 3240 libfsxfs_20201117-1.debian.tar.xz
+Homepage: https://github.com/libyal/libfsxfs
+Package-List: 
+ libfsxfs-dev deb libdevel optional arch=any
+ libfsxfs-utils deb otherosfs optional arch=any
+ libfsxfs1 deb libs optional arch=any
+ python3-libfsxfs deb python optional arch=any
+Directory: pool/main/libf/libfsxfs
+Priority: extra
+Section: misc

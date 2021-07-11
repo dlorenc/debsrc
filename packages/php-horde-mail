@@ -1,0 +1,27 @@
+Package: php-horde-mail
+Binary: php-horde-mail
+Version: 2.6.5-5
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools (>= 1), pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7d152c7b68c1e39b58deaaf922c6a609 2143 php-horde-mail_2.6.5-5.dsc
+ 032b0e6d7335b238fa2d6a9ec0e6fbb8 38569 php-horde-mail_2.6.5.orig.tar.gz
+ c81190cf49455d9a4d606363056d9590 6344 php-horde-mail_2.6.5-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-mail
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-mail.git
+Checksums-Sha256:
+ 431d72cf01bd5fc8ae37a1db1e0fd74cfa7ebfc98e840fd7acaa6d30ba1c2bd5 2143 php-horde-mail_2.6.5-5.dsc
+ c1904b9417217c92f30c9c7c9b39c6765cb7281ed4f154ccd97f737997411592 38569 php-horde-mail_2.6.5.orig.tar.gz
+ 10dd79ee029029b617ff0aaeb1c4ff6cf8206e3ceb9cc1a81842ae5b235eecdc 6344 php-horde-mail_2.6.5-5.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-mail deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-mime, php-horde-test
+Directory: pool/main/p/php-horde-mail
+Priority: extra
+Section: misc

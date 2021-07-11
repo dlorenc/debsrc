@@ -1,0 +1,28 @@
+Package: python-pysam
+Binary: python3-pysam, python-pysam-tests
+Version: 0.15.4+ds-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec, dh-python, libhts-dev (>= 1.9), zlib1g-dev, python3-all-dev, python3-setuptools, cython3 (>= 0.23), tabix <!nocheck>, samtools (>= 1.9) <!nocheck>, bcftools (>= 1.9) <!nocheck>, python3-pytest <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 782ef846571b6831e6be886fdef4e772 2425 python-pysam_0.15.4+ds-3.dsc
+ 00f152314fe13c9f43a8ebb7308c2714 1361548 python-pysam_0.15.4+ds.orig.tar.xz
+ f85cd8608eab5114a35c6923ce94f9a4 373652 python-pysam_0.15.4+ds-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-pysam
+Vcs-Git: https://salsa.debian.org/med-team/python-pysam.git
+Checksums-Sha256:
+ dc1a620f37d1202f5ba2cecbbf4ebf14d15ac5bc2eaf1624a1a029207d52c17f 2425 python-pysam_0.15.4+ds-3.dsc
+ b139f1f4e9a3aaa5771072da42bfad6ea313456ffe3ff91d2f8fafa98f669b68 1361548 python-pysam_0.15.4+ds.orig.tar.xz
+ ac5e33c863dcf356602df050df57da79a0b4a4ea83533eea893cd5cf940abb52 373652 python-pysam_0.15.4+ds-3.debian.tar.xz
+Homepage: https://pysam.readthedocs.org/en/latest
+Package-List: 
+ python-pysam-tests deb python optional arch=all
+ python3-pysam deb python optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-pysam
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-enquirer
+Binary: node-enquirer
+Version: 2.3.6~ds-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: jonas Smedegaard <dr@jones.dk>, Kartik Kulkarni <kartik.koolks@gmail.com>,
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-ansi-colors, node-typescript, nodejs, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1070bd587bc80501229fed96a0d04237 2155 node-enquirer_2.3.6~ds-2.dsc
+ 36d882a7c0837a35948303036990985c 8933248 node-enquirer_2.3.6~ds.orig.tar.xz
+ 403773cb2554dafeb30ea5916accab62 3208 node-enquirer_2.3.6~ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-enquirer
+Vcs-Git: https://salsa.debian.org/js-team/node-enquirer.git
+Checksums-Sha256:
+ 6bf0b9c2a6199c87e15ae67a7343f06e53951fd37c376b475f199ae65c5f02b2 2155 node-enquirer_2.3.6~ds-2.dsc
+ 057c9de519088c0c3c183f4c54190e3cfc1b9ea1f9feccb9ea9ae795390a43dc 8933248 node-enquirer_2.3.6~ds.orig.tar.xz
+ 0fbcbb3c2703ec2fcfb61e535ef974554090b0ebc435f870a2bc26d6273b7f09 3208 node-enquirer_2.3.6~ds-2.debian.tar.xz
+Homepage: https://github.com/enquirer/enquirer
+Package-List: 
+ node-enquirer deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-enquirer
+Priority: extra
+Section: misc

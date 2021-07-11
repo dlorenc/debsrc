@@ -1,0 +1,24 @@
+Package: rust-humansize
+Binary: librust-humansize-dev
+Version: 1.1.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ eeb9e521413e575d4da5be46c8047d68 2055 rust-humansize_1.1.0-2.dsc
+ 20de08f72b66c768ee5f6ccbe1ece0cc 4459 rust-humansize_1.1.0.orig.tar.gz
+ dbce1e3fed48fc7afa8a7c3e147765ce 2388 rust-humansize_1.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/humansize
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/humansize]
+Checksums-Sha256:
+ db28317e36a6839c3bd7ffac3e81e6c5df53ec1481346b6eef29669884bd183e 2055 rust-humansize_1.1.0-2.dsc
+ b6cab2627acfc432780848602f3f558f7e9dd427352224b0d9324025796d2a5e 4459 rust-humansize_1.1.0.orig.tar.gz
+ 114379616a94f2f0e5fe63c10cfb16b4492f0304f115c5c83ee65fcf799ee1bb 2388 rust-humansize_1.1.0-2.debian.tar.xz
+Package-List: 
+ librust-humansize-dev deb rust optional arch=any
+Directory: pool/main/r/rust-humansize
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-sha2
+Binary: librust-sha2-dev
+Version: 0.9.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-block-buffer-0.9+default-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-cpuid-bool-0.1+default-dev <!nocheck>, librust-digest-0.9+default-dev <!nocheck>, librust-digest-0.9+std-dev <!nocheck>, librust-opaque-debug-0.3+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e36ff5effe56d90ea751b6b17a55494b 2420 rust-sha2_0.9.2-2.dsc
+ 1169ca455e0ed1ad583914fde79b9bce 19665 rust-sha2_0.9.2.orig.tar.gz
+ 6d782043c11eb8a78e6b24eafff7364b 3596 rust-sha2_0.9.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sha2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/sha2]
+Checksums-Sha256:
+ 9b00a8c8b55d7f398eaee7d78769b7f9912d22b3a1751fec1fa584de0894b90e 2420 rust-sha2_0.9.2-2.dsc
+ 6e7aab86fe2149bad8c507606bdb3f4ef5e7b2380eb92350f56122cca72a42a8 19665 rust-sha2_0.9.2.orig.tar.gz
+ bf22fcd3bf305ad569e8a9117668c6a80734f86868c04d02dde958a60423c9a1 3596 rust-sha2_0.9.2-2.debian.tar.xz
+Package-List: 
+ librust-sha2-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-digest-0.9+default-dev, librust-digest-0.9+dev-dev, librust-hex-literal-0.2+default-dev
+Directory: pool/main/r/rust-sha2
+Priority: extra
+Section: misc

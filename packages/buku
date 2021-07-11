@@ -1,0 +1,26 @@
+Package: buku
+Binary: buku
+Version: 4.5+ds-1
+Maintainer: SZ Lin (林上智) <szlin@debian.org>
+Build-Depends: debhelper-compat (= 13), python3 (>= 3.4), python3-setuptools, dh-python
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ eae535ba69feb3fbd09914863f4a05c7 1987 buku_4.5+ds-1.dsc
+ 85b51aa581b238b13e0b4c4a3e2fb31e 337464 buku_4.5+ds.orig.tar.xz
+ 7108c67eec843fc898a77f74640eaedb 4588 buku_4.5+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/buku
+Vcs-Git: https://salsa.debian.org/debian/buku.git
+Checksums-Sha256:
+ eeec63cdf670ffc58f71e48be019dd57d050fdace1aace90953ef6f7787188fb 1987 buku_4.5+ds-1.dsc
+ 36148f78272c8458a99e5aacc785e9cfa70d0fa4c01118bf5c23e04ea9060cf6 337464 buku_4.5+ds.orig.tar.xz
+ 108370442a8083c01a82dba14c3836f908fd92349b86cae0cdae78a69b6f2564 4588 buku_4.5+ds-1.debian.tar.xz
+Homepage: https://github.com/jarun/Buku
+Package-List: 
+ buku deb misc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-bs4, python3-hypothesis, python3-pytest, python3-pytest-cov, python3-urllib3, python3-vcr, python3-yaml
+Directory: pool/main/b/buku
+Priority: optional
+Section: misc

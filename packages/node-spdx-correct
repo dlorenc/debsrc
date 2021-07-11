@@ -1,0 +1,26 @@
+Package: node-spdx-correct
+Binary: node-spdx-correct
+Version: 3.1.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, node-spdx-license-ids (>= 3.0.0) <!nocheck>, node-spdx-expression-parse (>= 3.0.0) <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 99ae1de69b1ae26bd16045c48bc0e44d 2200 node-spdx-correct_3.1.1-1.dsc
+ 5033ab83029d5468237cc0c9610f1427 9724 node-spdx-correct_3.1.1.orig.tar.gz
+ 6badc4f060691a1d81e4da545c10ea0f 2228 node-spdx-correct_3.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-spdx-correct
+Vcs-Git: https://salsa.debian.org/js-team/node-spdx-correct.git
+Checksums-Sha256:
+ 9c32fba5b24acd961586001fe174f9bf2a132012edaec9374be53a17c010d406 2200 node-spdx-correct_3.1.1-1.dsc
+ 4a41c0ea4b2eb6d044f669c13b3f9cadca14336ad15556b1f24db92b1e1d1612 9724 node-spdx-correct_3.1.1.orig.tar.gz
+ eb1bebac79db8ee1421a3ea723230c177944a087932b91e81e0dc558fd8dfe1e 2228 node-spdx-correct_3.1.1-1.debian.tar.xz
+Homepage: https://github.com/kemitchell/spdx-correct.js
+Package-List: 
+ node-spdx-correct deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-spdx-correct
+Priority: optional
+Section: javascript

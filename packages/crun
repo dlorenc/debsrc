@@ -1,0 +1,24 @@
+Package: crun
+Binary: crun
+Version: 0.17+dfsg-1
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12), automake, golang-github-opencontainers-image-spec-dev, golang-github-opencontainers-specs-dev (>= 1.0.1+git20190408~), go-md2man, libcap-dev, libseccomp-dev, libsystemd-dev, libyajl-dev, pkgconf | pkg-config, python3
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b9681127b3ba6f4b9064f8b5e6a8e37d 2029 crun_0.17+dfsg-1.dsc
+ 30e0a6caddd62ffeb8f505f066b70565 433884 crun_0.17+dfsg.orig.tar.xz
+ 3e361472100df430dffc3dfbe2c67965 14428 crun_0.17+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/crun
+Vcs-Git: https://salsa.debian.org/debian/crun.git
+Checksums-Sha256:
+ 71aab995724c6268dda2aa16111656effa20bb03ffd7f675c9b3a5491f1e89e1 2029 crun_0.17+dfsg-1.dsc
+ e3b2a1e8f9bbc19da3ddc4947ed60488393aa8819460e5a6470cf436aacf42f7 433884 crun_0.17+dfsg.orig.tar.xz
+ c770b3bfda53b1702c3893e84e0e4238abbe4f32495ff39183e32bd1f5c58ae6 14428 crun_0.17+dfsg-1.debian.tar.xz
+Homepage: https://github.com/containers/crun
+Package-List: 
+ crun deb admin optional arch=any
+Directory: pool/main/c/crun
+Priority: extra
+Section: misc

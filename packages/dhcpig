@@ -1,0 +1,26 @@
+Package: dhcpig
+Binary: dhcpig
+Version: 1.5-3
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Philippe Thierry <phil@reseau-libre.net>
+Build-Depends: dh-python, pkg-config, debhelper (>= 11), python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 9c143cdc7b37e50611d0418d3de40d5c 1950 dhcpig_1.5-3.dsc
+ 15ee192391d0a56b88e583b8b37d050d 11223 dhcpig_1.5.orig.tar.gz
+ 1705294e7ca3d67d60c1f04e4f1c1fb3 4980 dhcpig_1.5-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/dhcpig
+Vcs-Git: https://salsa.debian.org/pkg-security-team/dhcpig.git
+Checksums-Sha256:
+ 953da03e4fdcb3f28d767ba6d5dbf3eb2d4bcf8ad2c0d16de694fe9331e7f2db 1950 dhcpig_1.5-3.dsc
+ a9eb76c04e4024858482050b30358cc7dc70593fbec0aad05f3a1cac1d1069d2 11223 dhcpig_1.5.orig.tar.gz
+ d86042086f4e866d29750d59ec630c7b275950bf86d93040470088e179ee246b 4980 dhcpig_1.5-3.debian.tar.xz
+Homepage: https://github.com/kamorin/DHCPig
+Package-List: 
+ dhcpig deb net optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/d/dhcpig
+Priority: extra
+Section: misc

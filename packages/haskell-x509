@@ -1,0 +1,28 @@
+Package: haskell-x509
+Binary: libghc-x509-dev, libghc-x509-prof, libghc-x509-doc
+Version: 1.7.5-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-asn1-encoding-dev (<< 0.10), libghc-asn1-encoding-dev (>= 0.9), libghc-asn1-encoding-prof, libghc-asn1-parse-dev (<< 0.10), libghc-asn1-parse-dev (>= 0.9.3), libghc-asn1-parse-prof, libghc-asn1-types-dev (<< 0.4), libghc-asn1-types-dev (>= 0.3.1), libghc-asn1-types-prof, libghc-cryptonite-dev (>= 0.24), libghc-cryptonite-prof, libghc-hourglass-dev, libghc-hourglass-prof, libghc-memory-dev, libghc-memory-prof, libghc-pem-dev (>= 0.1), libghc-pem-prof, libghc-tasty-dev, libghc-tasty-quickcheck-dev
+Build-Depends-Indep: ghc-doc, libghc-asn1-encoding-doc, libghc-asn1-parse-doc, libghc-asn1-types-doc, libghc-cryptonite-doc, libghc-hourglass-doc, libghc-memory-doc, libghc-pem-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 793e2049925dd4ddcfc4b0653e542f6f 2917 haskell-x509_1.7.5-2.dsc
+ 838bf3fc8bf7d08e07faeaacd234a24c 21457 haskell-x509_1.7.5.orig.tar.gz
+ a2f6008f45beee8f64611888a45b3114 3456 haskell-x509_1.7.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-x509
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-x509]
+Checksums-Sha256:
+ 010bc63b075a376c4daf09062c8bd29a663589800a711643b833c06068ee3da2 2917 haskell-x509_1.7.5-2.dsc
+ b1b0fcbb4aa0d749ed2b54710c2ebd6d900cb932108ad14f97640cf4ca60c7c8 21457 haskell-x509_1.7.5.orig.tar.gz
+ 4b8ed5691dbb84b2b8c4328ea92b72d158313ba3069b80fac3573d0c29e0c44f 3456 haskell-x509_1.7.5-2.debian.tar.xz
+Homepage: http://github.com/vincenthz/hs-certificate
+Package-List: 
+ libghc-x509-dev deb haskell optional arch=any
+ libghc-x509-doc deb doc optional arch=all
+ libghc-x509-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-x509
+Priority: optional
+Section: misc

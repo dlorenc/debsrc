@@ -1,0 +1,26 @@
+Package: khronos-opencl-man
+Binary: opencl-1.2-html-doc, opencl-1.2-man-doc
+Version: 1.0~svn33624-5
+Maintainer: Debian OpenCL Maintainers <pkg-opencl-devel@lists.alioth.debian.org>
+Uploaders: Mathieu Malaterre <malat@debian.org>, Giuseppe Bilotta <giuseppe.bilotta@gmail.com>,
+Build-Depends: debhelper-compat (= 13), docbook-mathml, docbook-xsl, ruby, w3-dtd-mathml, xsltproc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2041e6fc604cd7f7bcec35d3436127aa 2303 khronos-opencl-man_1.0~svn33624-5.dsc
+ 16b1e4f46ad3934a05ff0110dffd6235 442467 khronos-opencl-man_1.0~svn33624.orig.tar.gz
+ 0a50d69436229f9827f14037094744d9 8124 khronos-opencl-man_1.0~svn33624-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/opencl-team/khronos-opencl-man
+Vcs-Git: https://salsa.debian.org/opencl-team/khronos-opencl-man.git
+Checksums-Sha256:
+ 547d8aed0292dd1b6c3ee08adbd18b3271dde281b75856c22cc267070a48a3a8 2303 khronos-opencl-man_1.0~svn33624-5.dsc
+ 27e9e8a1aaf2b378e9b10fb96ffe3f9624a738d4bb15e9449d9fbcdd2b0d5a94 442467 khronos-opencl-man_1.0~svn33624.orig.tar.gz
+ 2dead55eb173b4142f148f20d99079890f682cd9185d84192e2906725e2a7a8a 8124 khronos-opencl-man_1.0~svn33624-5.debian.tar.xz
+Homepage: https://www.khronos.org/registry/OpenCL/sdk/1.2/docs/man/xhtml/
+Package-List: 
+ opencl-1.2-html-doc deb doc optional arch=all
+ opencl-1.2-man-doc deb doc optional arch=all
+Directory: pool/main/k/khronos-opencl-man
+Priority: optional
+Section: misc

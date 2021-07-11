@@ -1,0 +1,26 @@
+Package: salt-pylint
+Binary: python3-saltpylint
+Version: 2020.9.28-1
+Maintainer: Debian Salt Team <pkg-salt-team@lists.alioth.debian.org>
+Uploaders: Benjamin Drung <benjamin.drung@cloud.ionos.com>
+Build-Depends: debhelper-compat (= 13), dh-python, pylint (>= 2.2.2-2~) | pylint3, python3-all, python3-libmodernize, python3-pycodestyle (>= 2.4), python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e2f5bd665569eb693f9ec617d3cbeda5 2151 salt-pylint_2020.9.28-1.dsc
+ 2a50c2446012b32b49f49da14336ef6b 33783 salt-pylint_2020.9.28.orig.tar.gz
+ 4b3fd07cc7c8b71a1dd2f51c21f72610 2968 salt-pylint_2020.9.28-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/salt-team/salt-pylint
+Vcs-Git: https://salsa.debian.org/salt-team/salt-pylint.git
+Checksums-Sha256:
+ 1609465e479077454535c3e31bb7bb4060f1bdc1338b2b02eb8812e2b27ee005 2151 salt-pylint_2020.9.28-1.dsc
+ e482ab30865cbacee139228d9f67d0700d39bd222e8340c8c3552fd994db0940 33783 salt-pylint_2020.9.28.orig.tar.gz
+ f55d7c3e26a5fd8d64c23029aeb38af65f93946bb1eb3b2888a2734185bdee58 2968 salt-pylint_2020.9.28-1.debian.tar.xz
+Homepage: https://github.com/saltstack/salt-pylint
+Package-List: 
+ python3-saltpylint deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/s/salt-pylint
+Priority: extra
+Section: misc

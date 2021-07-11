@@ -1,0 +1,27 @@
+Package: golang-github-optiopay-kafka
+Binary: golang-github-optiopay-kafka-dev
+Version: 2.1.1-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-golang-snappy-dev, golang-github-fsouza-go-dockerclient-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f93d68b6a2323d612d9898a4bf6ca150 2334 golang-github-optiopay-kafka_2.1.1-1.dsc
+ 61f393b225498d50ea36d33aba0340db 90978 golang-github-optiopay-kafka_2.1.1.orig.tar.gz
+ 7231a5c07ffa7c0d161854547f7e11d5 3040 golang-github-optiopay-kafka_2.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-optiopay-kafka
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-optiopay-kafka.git
+Checksums-Sha256:
+ 5c4dbf844775a2da54185ef645bea026d4d66491b8e8cc65b69c63803c4d7531 2334 golang-github-optiopay-kafka_2.1.1-1.dsc
+ f623374e1041329c99ae99d9902d554418239e983198b8b418a73b193e9ec069 90978 golang-github-optiopay-kafka_2.1.1.orig.tar.gz
+ f8bb13da6994c970a376fa3f53751197997730df2aa273c12587bba3559216fd 3040 golang-github-optiopay-kafka_2.1.1-1.debian.tar.xz
+Homepage: https://github.com/optiopay/kafka
+Go-Import-Path: github.com/optiopay/kafka
+Package-List: 
+ golang-github-optiopay-kafka-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-optiopay-kafka
+Priority: extra
+Section: golang

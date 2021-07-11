@@ -1,0 +1,27 @@
+Package: subread
+Binary: subread, subread-data
+Version: 2.0.1+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Alexandre Mestiashvili <mestia@debian.org>, Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: bc, debhelper-compat (= 12), help2man, python3, zlib1g-dev
+Architecture: amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 ppc64el all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5c28b5c27e5b79794f5d2f052b001a1a 2303 subread_2.0.1+dfsg-1.dsc
+ 04961c5dcdb86a0b4f6a88aaa8708d33 13692580 subread_2.0.1+dfsg.orig.tar.xz
+ bb4b98c38a7215932ba60a9ab9c21d75 10304 subread_2.0.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/subread
+Vcs-Git: https://salsa.debian.org/med-team/subread.git
+Checksums-Sha256:
+ 07937cc7688d3b2106f3689287aa2cb5deb22113ac9808962275ffbbeb290102 2303 subread_2.0.1+dfsg-1.dsc
+ 84da94cf6fc92f386985728de754efae09a24655502cfa87c0f7fe652eefac2f 13692580 subread_2.0.1+dfsg.orig.tar.xz
+ eecf3559b145d9cc6f7597c91f561885d2748734b2cf5867403356780836f2a5 10304 subread_2.0.1+dfsg-1.debian.tar.xz
+Homepage: http://sourceforge.net/projects/subread/
+Package-List: 
+ subread deb science optional arch=amd64,arm64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,ppc64el
+ subread-data deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/s/subread
+Priority: optional
+Section: misc

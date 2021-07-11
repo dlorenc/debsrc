@@ -1,0 +1,31 @@
+Package: libvpx
+Binary: libvpx-dev, libvpx6, libvpx-doc, vpx-tools
+Version: 1.9.0-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sebastian Dröge <slomo@debian.org>, Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 13), yasm (>= 0.7) [amd64 i386 hurd-i386 kfreebsd-amd64 kfreebsd-i386], dh-exec
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8978c11ac1e5bbd5f78a33cd97b9d28a 2247 libvpx_1.9.0-1.dsc
+ e5fab59896984392124d0bfaffc36e14 5326239 libvpx_1.9.0.orig.tar.gz
+ 26a443b42b93f3103b1f9ced58a71af5 11636 libvpx_1.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libvpx
+Vcs-Git: https://salsa.debian.org/multimedia-team/libvpx.git
+Checksums-Sha256:
+ 304e84aafcc33f4a6cde68929d40abf44960d6c37488a5bc621764fe4d46e196 2247 libvpx_1.9.0-1.dsc
+ d279c10e4b9316bf11a570ba16c3d55791e1ad6faa4404c67422eb631782c80a 5326239 libvpx_1.9.0.orig.tar.gz
+ 72a5973ff25b06097e9947b38f3d78745ac8fc2ea296f314144de5e995b3363e 11636 libvpx_1.9.0-1.debian.tar.xz
+Homepage: https://www.webmproject.org
+Package-List: 
+ libvpx-dev deb libdevel optional arch=any
+ libvpx-doc deb doc optional arch=all
+ libvpx6 deb libs optional arch=any
+ vpx-tools deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ffmpeg
+Directory: pool/main/libv/libvpx
+Priority: source
+Section: video

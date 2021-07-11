@@ -1,0 +1,29 @@
+Package: gnuastro
+Binary: libgnuastro12, libgnuastro-dev, gnuastro
+Version: 0.14-1
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Mohammad Akhlaghi <mohammad@akhlaghi.org>
+Build-Depends: debhelper-compat (= 12), ghostscript (>= 9.10), libcfitsio-dev, libtool-bin, libgsl0-dev, libjpeg-dev, libtiff-dev, libgit2-dev, wcslib-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9e4b2fe43b22672c6b56aa49d6079345 2415 gnuastro_0.14-1.dsc
+ 30d77e2ad1c03d4946d06e4062252969 5844391 gnuastro_0.14.orig.tar.gz
+ 84a51d00ddaae62d55c64f9faa667173 833 gnuastro_0.14.orig.tar.gz.asc
+ d38aa604e4386100a669702cf75efbb3 8336 gnuastro_0.14-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/gnuastro
+Vcs-Git: https://salsa.debian.org/debian-astro-team/gnuastro.git
+Checksums-Sha256:
+ e0f4703acf2a7136eee5178304b1355f92e38b9db37d0eb7e12afbe422f059d1 2415 gnuastro_0.14-1.dsc
+ 873bb7d5de4a84229f8f28cfcc7be845478fb7d1344dc17d0c2789534839c377 5844391 gnuastro_0.14.orig.tar.gz
+ 736558c260c4215f48549f410fcadc488d9d32bb649ecc4f1a9ffb4bec3c6ee4 833 gnuastro_0.14.orig.tar.gz.asc
+ 925db7861d05a54a31c8d2c7905ba569345b6e4da0f061c828daa1785a52cada 8336 gnuastro_0.14-1.debian.tar.xz
+Homepage: https://www.gnu.org/software/gnuastro
+Package-List: 
+ gnuastro deb science optional arch=any
+ libgnuastro-dev deb libdevel optional arch=any
+ libgnuastro12 deb libs optional arch=any
+Directory: pool/main/g/gnuastro
+Priority: optional
+Section: misc

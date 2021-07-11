@@ -1,0 +1,26 @@
+Package: libdmx
+Binary: libdmx1, libdmx-dev
+Version: 1:1.1.4-2
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: libx11-dev (>= 1:0.99.2), x11proto-dev, libxext-dev (>= 1:0.99.1), xutils-dev (>= 1:7.5+4), pkg-config, dpkg-dev (>= 1.16), debhelper (>= 12)
+Architecture: any
+Standards-Version: 4.4.0
+Format: 1.0
+Files:
+ 5368639c4a078bbf611e29cc9cad4203 2176 libdmx_1.1.4-2.dsc
+ bf40bddfe658d224a5574ea249583f9e 384883 libdmx_1.1.4.orig.tar.gz
+ ca1b119ff656945420f2d1f3c8738d1a 847 libdmx_1.1.4.orig.tar.gz.asc
+ b608461ce8b3e30415de2c4fe9078100 8070 libdmx_1.1.4-2.diff.gz
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libdmx
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/libdmx.git
+Checksums-Sha256:
+ 35e7ddea8ea2bf4ab95a2108a4450035fb663acd8be9e4cb8792d4225eb4e493 2176 libdmx_1.1.4-2.dsc
+ 4d05bd5b248c1f46729fa1536b7a5e4d692567327ad41564c36742fb327af925 384883 libdmx_1.1.4.orig.tar.gz
+ b1547777a482432c7b7370dcd932d070854abef86615f2f6bd1c5bd88e68d375 847 libdmx_1.1.4.orig.tar.gz.asc
+ 80c97984423be146c28315d542a5185e642512b0d42f0445c346a3e00ee38b5b 8070 libdmx_1.1.4-2.diff.gz
+Package-List: 
+ libdmx-dev deb libdevel optional arch=any
+ libdmx1 deb libs optional arch=any
+Directory: pool/main/libd/libdmx
+Priority: source
+Section: x11

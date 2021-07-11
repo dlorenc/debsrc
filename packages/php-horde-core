@@ -1,0 +1,27 @@
+Package: php-horde-core
+Binary: php-horde-core
+Version: 2.31.16+debian0-2
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools (>= 1~), pear-horde-channel, php-horde-role, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b6a47795b7f3b2a2902f72d25d1bc6b2 2232 php-horde-core_2.31.16+debian0-2.dsc
+ e55642ea4a11007b84b66b1d3fa5aa40 1439483 php-horde-core_2.31.16+debian0.orig.tar.gz
+ c0fdab30ea470ca17ea1514bdf2b1abd 26760 php-horde-core_2.31.16+debian0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-core
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-core.git
+Checksums-Sha256:
+ 364c4073692154a2b80a80c0bead4b3fe4c51f4c2c619379dd687021fb1edff6 2232 php-horde-core_2.31.16+debian0-2.dsc
+ fc8d353fc67ea2fa4ffd22b2aa5ea0c29b2662df4d781ae625f600c64b807fbb 1439483 php-horde-core_2.31.16+debian0.orig.tar.gz
+ 376859f16882571121f7bb8f5e722f69e6844912cd00937795d00cec944d2e5b 26760 php-horde-core_2.31.16+debian0-2.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-core deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: locales, php-cli, php-horde-test
+Directory: pool/main/p/php-horde-core
+Priority: extra
+Section: misc

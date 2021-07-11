@@ -1,0 +1,28 @@
+Package: haskell-language-haskell-extract
+Binary: libghc-language-haskell-extract-dev, libghc-language-haskell-extract-prof, libghc-language-haskell-extract-doc
+Version: 0.2.4-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Kiwamu Okabe <kiwamu@debian.or.jp>, Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-regex-posix-dev, libghc-regex-posix-prof
+Build-Depends-Indep: ghc-doc, libghc-regex-posix-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c8c64d49e6eea7df3207f30ab05034aa 2663 haskell-language-haskell-extract_0.2.4-10.dsc
+ 809d7e0c34a361f542b2253a0e7b5c48 2458 haskell-language-haskell-extract_0.2.4.orig.tar.gz
+ 104b7aa841e9fa9aadd6f116af8f4a0a 3264 haskell-language-haskell-extract_0.2.4-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-language-haskell-extract
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-language-haskell-extract]
+Checksums-Sha256:
+ b71587263f2e8635b5fb692e80dfb0f6d3baea9c128b35b51f4cb94d8fcf94d6 2663 haskell-language-haskell-extract_0.2.4-10.dsc
+ 14da16e56665bf971723e0c5fd06dbb7cc30b4918cf8fb5748570785ded1acdb 2458 haskell-language-haskell-extract_0.2.4.orig.tar.gz
+ 1cad5def5ccf156e3db5b9396f0c12648403139967c638bb79a72f81d1bae1fe 3264 haskell-language-haskell-extract_0.2.4-10.debian.tar.xz
+Homepage: https://github.com/finnsson/template-helper
+Package-List: 
+ libghc-language-haskell-extract-dev deb haskell optional arch=any
+ libghc-language-haskell-extract-doc deb doc optional arch=all
+ libghc-language-haskell-extract-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-language-haskell-extract
+Priority: source
+Section: haskell

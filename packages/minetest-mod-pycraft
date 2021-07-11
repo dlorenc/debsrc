@@ -1,0 +1,27 @@
+Package: minetest-mod-pycraft
+Binary: minetest-mod-pycraft, python3-minecraftpi
+Version: 0.22-1
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org>
+Build-Depends: debhelper (>= 10), lua-busted, lua-bitop, lua-socket
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ af24799b5a5b81595531bcfd97b6ff2e 2184 minetest-mod-pycraft_0.22-1.dsc
+ 3d5235e30b647020b24193e54da09cbf 766024 minetest-mod-pycraft_0.22.orig.tar.xz
+ 75fb51a80c26790d1f955a187062124e 3696 minetest-mod-pycraft_0.22-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/unfinished/minetest-mod-pycraft
+Vcs-Git: https://salsa.debian.org/games-team/unfinished/minetest-mod-pycraft.git
+Checksums-Sha256:
+ ed8c870790384c13dbd998a6787a16803e75af628737fa58cc43d1b3a4c7f6ae 2184 minetest-mod-pycraft_0.22-1.dsc
+ 7abfe1bb3941fea8848db131680ae4776bf617f724eebd0a3ddf164bf5b26105 766024 minetest-mod-pycraft_0.22.orig.tar.xz
+ bbe687a916b9035f31177e75e01560478850ea5366317d670b4ca60b96e5c78d 3696 minetest-mod-pycraft_0.22-1.debian.tar.xz
+Homepage: https://github.com/sprintingkiwi/pycraft_mod
+Package-List: 
+ minetest-mod-pycraft deb games optional arch=all
+ python3-minecraftpi deb games optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/minetest-mod-pycraft
+Priority: extra
+Section: misc

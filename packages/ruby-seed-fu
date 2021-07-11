@@ -1,0 +1,27 @@
+Package: ruby-seed-fu
+Binary: ruby-seed-fu
+Version: 2.3.7-3
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-activerecord (>= 3.1), ruby-activesupport (>= 3.1), ruby-rspec (>= 2.11), ruby-sqlite3
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ f3b9a1c4bd1980a8bdec1c2939ece5cb 2127 ruby-seed-fu_2.3.7-3.dsc
+ 10712168f3a35a4e1f3d0677aa48ee71 13297 ruby-seed-fu_2.3.7.orig.tar.gz
+ e33198ce27aa2de5f366de7486f0ac71 4360 ruby-seed-fu_2.3.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-seed-fu
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-seed-fu.git
+Checksums-Sha256:
+ 7ebfa974d5acb04c1cee096b07b9af80922b9b2512f3174d569822af47a76f1e 2127 ruby-seed-fu_2.3.7-3.dsc
+ 432385c9931ff8787c61d26286f13bdebd8773434234c11eedc523e3d36277c4 13297 ruby-seed-fu_2.3.7.orig.tar.gz
+ d93fcbb3646809f60cfb455f8fa5da094e7bbd713cfe5ee613969046f82cdc2d 4360 ruby-seed-fu_2.3.7-3.debian.tar.xz
+Homepage: https://github.com/mbleigh/seed-fu
+Package-List: 
+ ruby-seed-fu deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-seed-fu
+Priority: optional
+Section: misc

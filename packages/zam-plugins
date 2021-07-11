@@ -1,0 +1,25 @@
+Package: zam-plugins
+Binary: zam-plugins
+Version: 3.14~repack3-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Jaromír Mikeš <mira.mikes@seznam.cz>, Adrian Knoth <adi@drcomp.erfurt.thur.de>, Dennis Braun <d_braun@kabelmail.de>
+Build-Depends: debhelper-compat (= 13), pkg-config, ladspa-sdk, libjack-jackd2-dev | libjack-dev, liblo-dev, libgl1-mesa-dev | libgl-dev, libsamplerate0-dev, libzita-convolver-dev (>= 4.0.0)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fdcbdc0c247d107f7a781fe792866533 2248 zam-plugins_3.14~repack3-1.dsc
+ 5d5f4a627bad537d01a7adcc70180a70 14526736 zam-plugins_3.14~repack3.orig.tar.xz
+ 106038a6f8ca1fd87dea968c95f62f5f 7052 zam-plugins_3.14~repack3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/zam-plugins
+Vcs-Git: https://salsa.debian.org/multimedia-team/zam-plugins.git
+Checksums-Sha256:
+ d8544153680238e436f5a5e07d57560231dca2698d0a94c4b74f79ba287124aa 2248 zam-plugins_3.14~repack3-1.dsc
+ 5a17f25df0570bb063e36990e0a140dd3fd3d75810af452d020db44056fd867e 14526736 zam-plugins_3.14~repack3.orig.tar.xz
+ 1bf722864e702c01abb072b26eca35962af78f1ce1d268518cb5f7ba63cffe92 7052 zam-plugins_3.14~repack3-1.debian.tar.xz
+Homepage: https://github.com/zamaudio/zam-plugins
+Package-List: 
+ zam-plugins deb sound optional arch=any
+Directory: pool/main/z/zam-plugins
+Priority: optional
+Section: misc

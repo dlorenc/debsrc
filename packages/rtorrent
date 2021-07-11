@@ -1,0 +1,25 @@
+Package: rtorrent
+Binary: rtorrent
+Version: 0.9.8-1
+Maintainer: Jose Luis Rivas <ghostbar@debian.org>
+Uploaders: Dmitry E. Oboukhov <unera@debian.org>, Rogério Brito <rbrito@ime.usp.br>, Jonathan McDowell <noodles@earth.li>
+Build-Depends: bc, debhelper (>= 10), libcppunit-dev, libcurl4-openssl-dev, libncurses5-dev, libncursesw5-dev, libtorrent-dev (>= 0.13.8), libxmlrpc-core-c3-dev, pkg-config
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ddd7e1e806e59a2a3d9fee82b3e8d46c 2112 rtorrent_0.9.8-1.dsc
+ cbdf499faa0882e20d60fcb85a8f51d3 647523 rtorrent_0.9.8.orig.tar.gz
+ 848551e262adafa95c3040e6d3b919b6 15916 rtorrent_0.9.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/rtorrent
+Vcs-Git: https://salsa.debian.org/debian/rtorrent.git
+Checksums-Sha256:
+ 3b35779372659f50365a0dd3bace8b3606a0cb1515ab5551c930031825046e96 2112 rtorrent_0.9.8-1.dsc
+ 9edf0304bf142215d3bc85a0771446b6a72d0ad8218efbe184b41e4c9c7542af 647523 rtorrent_0.9.8.orig.tar.gz
+ 3dbd4fe5978005640226e01755926e0e5af84f0043a27b8c5716dd9548b964f0 15916 rtorrent_0.9.8-1.debian.tar.xz
+Homepage: https://rakshasa.github.io/rtorrent/
+Package-List: 
+ rtorrent deb net optional arch=any
+Directory: pool/main/r/rtorrent
+Priority: source
+Section: net

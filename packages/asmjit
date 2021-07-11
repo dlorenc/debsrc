@@ -1,0 +1,28 @@
+Package: asmjit
+Binary: libasmjit-dev, libasmjit0
+Version: 0.0~git20201108.4b13f71-1
+Maintainer: Debian Deep Learning Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Yangfl <mmyangfl@gmail.com>, Mo Zhou <lumin@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2a93cfb596a679b21264bb649e4ee525 2213 asmjit_0.0~git20201108.4b13f71-1.dsc
+ 39532898e67df30f95dea6f5b4cd7cf6 432724 asmjit_0.0~git20201108.4b13f71.orig.tar.xz
+ 7bc2aec1e82ba36e1cad0d9f6d251ef3 4076 asmjit_0.0~git20201108.4b13f71-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/deeplearning-team/asmjit
+Vcs-Git: https://salsa.debian.org/deeplearning-team/asmjit.git
+Checksums-Sha256:
+ bfded6c788cbfcb75b7dd7265a5ceab0a1a5ca59294b17d1670e44433d9b444b 2213 asmjit_0.0~git20201108.4b13f71-1.dsc
+ 7c86ef5471f2547494da483ef0d22ae5144f5de182a9ee750ef3c5db711eab45 432724 asmjit_0.0~git20201108.4b13f71.orig.tar.xz
+ 88165c9f433342db9a4657eb891b2208b4989ec9d78f01d37b8aebdcab715817 4076 asmjit_0.0~git20201108.4b13f71-1.debian.tar.xz
+Homepage: https://github.com/asmjit/asmjit
+Package-List: 
+ libasmjit-dev deb libdevel optional arch=any
+ libasmjit0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/a/asmjit
+Priority: extra
+Section: misc

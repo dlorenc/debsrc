@@ -1,0 +1,28 @@
+Package: haskell-retry
+Binary: libghc-retry-dev, libghc-retry-prof, libghc-retry-doc
+Version: 0.8.1.2-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>, Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-exceptions-dev (>= 0.5), libghc-exceptions-prof, libghc-random-dev (>= 1), libghc-random-prof, libghc-hedgehog-dev, libghc-hunit-dev, libghc-tasty-dev, libghc-tasty-hunit-dev, libghc-tasty-hedgehog-dev
+Build-Depends-Indep: ghc-doc, libghc-exceptions-doc, libghc-random-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 48a477829c41c8a840d0f4ea2eb20597 2563 haskell-retry_0.8.1.2-2.dsc
+ 9bc6ca8feb7ef4e5f2f127d4384657ed 15818 haskell-retry_0.8.1.2.orig.tar.gz
+ 077c9e94da26fa977d9ac1c29429d90a 3132 haskell-retry_0.8.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-retry
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-retry]
+Checksums-Sha256:
+ 75c31be4277f90cc134bb6522592fe88fdbaadfc76b76bb501dc1301f4feef85 2563 haskell-retry_0.8.1.2-2.dsc
+ c5415ed7928d81611fa570fef9dd6c009f3d722a16a36f1177bdde2e888e9e5b 15818 haskell-retry_0.8.1.2.orig.tar.gz
+ fbb44ae88af864ea4c1fcd013e9ab1c8cab24340eaa8565ab2d747f0b9a8e4b9 3132 haskell-retry_0.8.1.2-2.debian.tar.xz
+Homepage: https://github.com/Soostone/retry
+Package-List: 
+ libghc-retry-dev deb haskell optional arch=any
+ libghc-retry-doc deb doc optional arch=all
+ libghc-retry-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-retry
+Priority: optional
+Section: misc

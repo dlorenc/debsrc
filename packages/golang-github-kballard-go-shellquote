@@ -1,0 +1,27 @@
+Package: golang-github-kballard-go-shellquote
+Binary: golang-github-kballard-go-shellquote-dev
+Version: 0.0~git20180428.95032a8-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>, Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.17~), golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e19afd518b9fcd4157f449522cbad1b1 2553 golang-github-kballard-go-shellquote_0.0~git20180428.95032a8-1.dsc
+ 520da969886f5a8f51c345991b4e65f4 4172 golang-github-kballard-go-shellquote_0.0~git20180428.95032a8.orig.tar.xz
+ 440e157fef44bad263d07344e6e348fa 3288 golang-github-kballard-go-shellquote_0.0~git20180428.95032a8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-kballard-go-shellquote
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-kballard-go-shellquote.git
+Checksums-Sha256:
+ d670ae5e293bf4e64021ebcd13f4f82b0dba8d8daf9b9e831297a1d9a25a720c 2553 golang-github-kballard-go-shellquote_0.0~git20180428.95032a8-1.dsc
+ 698f90d7e1ab6a7167cceb2833abd85e50272b2f2f8f01cb4950ce1f0a139c48 4172 golang-github-kballard-go-shellquote_0.0~git20180428.95032a8.orig.tar.xz
+ a03e68ecad5c3ff1e79a9bce40df3e391e6788a90bc8c87d816f7aef14758a74 3288 golang-github-kballard-go-shellquote_0.0~git20180428.95032a8-1.debian.tar.xz
+Homepage: https://github.com/kballard/go-shellquote
+Go-Import-Path: github.com/kballard/go-shellquote
+Package-List: 
+ golang-github-kballard-go-shellquote-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-kballard-go-shellquote
+Priority: extra
+Section: golang

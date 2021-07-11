@@ -1,0 +1,26 @@
+Package: django-q
+Binary: python3-django-q
+Version: 1.2.1-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Jonas Meurer <mejo@debian.org>, Pierre-Elliott Bécue <peb@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-arrow, python3-blessed, python3-django (>= 2:2.2), python3-django-picklefield, python3-django-redis, python3-future, python3-pytest, python3-pytest-django, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7157105b7989b7cb013cb45ce0e77e91 2285 django-q_1.2.1-1.dsc
+ ca80ea9c24b7cb772dcfdc15a37fd6fa 535687 django-q_1.2.1.orig.tar.gz
+ b4975314d3d1bdab2995bcfe02669ddb 5188 django-q_1.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/django-q
+Vcs-Git: https://salsa.debian.org/python-team/modules/django-q.git
+Checksums-Sha256:
+ b07a30572a4f256f61f6ea4550edb971690df49df36a12f7401300c36768d074 2285 django-q_1.2.1-1.dsc
+ 640779d80d9e231b0f9388d035d3f13e27604ac0eae3bba419da4d16ca5a7701 535687 django-q_1.2.1.orig.tar.gz
+ 0ae2c2aebc1538231b60a18ebc9497ba6d6cdf8a5ca62c30fa95a303d674013a 5188 django-q_1.2.1-1.debian.tar.xz
+Homepage: https://github.com/Koed00/django-q
+Package-List: 
+ python3-django-q deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/d/django-q
+Priority: extra
+Section: misc

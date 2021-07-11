@@ -1,0 +1,26 @@
+Package: haskell-type-equality
+Binary: libghc-type-equality-dev, libghc-type-equality-prof, libghc-type-equality-doc
+Version: 1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4ecd515cd05e4c34af0a5fbd52ef7fce 2186 haskell-type-equality_1-2.dsc
+ b7997763761b79e1b651d5815b1aae3a 4525 haskell-type-equality_1.orig.tar.gz
+ 3f84c1b4bb3a9098e3d5418f1406805c 2440 haskell-type-equality_1-2.debian.tar.xz
+Checksums-Sha256:
+ db62a72310ef617f2628c9ad7d7803e8f7c0b5f1402ed5f65a9da3c2899d8b89 2186 haskell-type-equality_1-2.dsc
+ 4728b502a211454ef682a10d7a3e817c22d06ba509df114bb267ef9d43a08ce8 4525 haskell-type-equality_1.orig.tar.gz
+ 50d83a43d7b4d0aa63078a06a3180eba46a4bbfb7b4f510b79e9fa300b5cc98e 2440 haskell-type-equality_1-2.debian.tar.xz
+Homepage: https://github.com/hesselink/type-equality
+Package-List: 
+ libghc-type-equality-dev deb haskell optional arch=any
+ libghc-type-equality-doc deb doc optional arch=all
+ libghc-type-equality-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-type-equality
+Priority: extra
+Section: misc

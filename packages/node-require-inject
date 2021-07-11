@@ -1,0 +1,26 @@
+Package: node-require-inject
+Binary: node-require-inject
+Version: 1.4.4-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-caller <!nocheck>, node-tacks <!nocheck>, node-tap <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ea2927da7fcda7d492471ae5a9a7b480 2171 node-require-inject_1.4.4-1.dsc
+ 1f860a562b40ead122761ee9227ca08e 61320 node-require-inject_1.4.4.orig.tar.gz
+ 3c2fc18b464c81de00b41bc5dac070c5 2276 node-require-inject_1.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-require-inject
+Vcs-Git: https://salsa.debian.org/js-team/node-require-inject.git
+Checksums-Sha256:
+ 99a3dc1dea89f28d961c265ad8bae5b8975c7629dea34d7c551ca1f0a0d0b034 2171 node-require-inject_1.4.4-1.dsc
+ 6b8391c254754c56f5b321e90df6f67031f0f00dd0c901c620daebae64d152ba 61320 node-require-inject_1.4.4.orig.tar.gz
+ 78f9d3ec728b1b290c3ec6263ad757f264332c0a720b6463f08b7b3ddbd3fa46 2276 node-require-inject_1.4.4-1.debian.tar.xz
+Homepage: https://github.com/iarna/require-inject
+Package-List: 
+ node-require-inject deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-require-inject
+Priority: optional
+Section: javascript

@@ -1,0 +1,26 @@
+Package: node-is-binary-path
+Binary: node-is-binary-path
+Version: 2.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs, node-binary-extensions (>= 2.0.0) <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.12~)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 9b65004ac3c78d67225432cdbf2f7472 2190 node-is-binary-path_2.1.0-1.dsc
+ f4a176e4db444dd0f2309e3a83b507db 2253 node-is-binary-path_2.1.0.orig.tar.gz
+ 34d7a40a5a58e795b9adca7d10cf182e 2680 node-is-binary-path_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-binary-path
+Vcs-Git: https://salsa.debian.org/js-team/node-is-binary-path.git
+Checksums-Sha256:
+ 62f3346e613e56984359e1794c69fc185cb1ef77426788985bb55128548bce50 2190 node-is-binary-path_2.1.0-1.dsc
+ 0f798adefd436a489f256fd18e0117d7c07d786f3c964c1f900546ad3ac4e17c 2253 node-is-binary-path_2.1.0.orig.tar.gz
+ bbe7d675fa5ca9fcd28cc7682ced91923e361aa9a533df80de0e3e3192e81508 2680 node-is-binary-path_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/is-binary-path#readme
+Package-List: 
+ node-is-binary-path deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-is-binary-path
+Priority: optional
+Section: javascript

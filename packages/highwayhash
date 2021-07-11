@@ -1,0 +1,28 @@
+Package: highwayhash
+Binary: libhighwayhash-dev, libhighwayhash0
+Version: 0~git20200803.9490b14-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: debhelper-compat (= 13), rename
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5b40706a2be34d1b7c7703affc6c93d2 2236 highwayhash_0~git20200803.9490b14-2.dsc
+ e726abad84f000669a9ccd54bb3f535f 133600 highwayhash_0~git20200803.9490b14.orig.tar.xz
+ df29d273daa5fb119701da988e028ffa 6500 highwayhash_0~git20200803.9490b14-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/highwayhash
+Vcs-Git: https://salsa.debian.org/science-team/highwayhash.git
+Checksums-Sha256:
+ 405a32cef78a0f826b1fc431e7659a8fb2d45061dfdb42db3d41306fcf8f8fca 2236 highwayhash_0~git20200803.9490b14-2.dsc
+ 00e76b3387fdb2941301fb1883b8f3d9f0f6cd74be2e3a3776f8dcfbb4564615 133600 highwayhash_0~git20200803.9490b14.orig.tar.xz
+ d2eda28e14550174af364ed9212bc54940693dc551b43787e9965349111a0dd4 6500 highwayhash_0~git20200803.9490b14-2.debian.tar.xz
+Homepage: https://github.com/google/highwayhash
+Package-List: 
+ libhighwayhash-dev deb libdevel optional arch=any
+ libhighwayhash0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/h/highwayhash
+Priority: optional
+Section: misc

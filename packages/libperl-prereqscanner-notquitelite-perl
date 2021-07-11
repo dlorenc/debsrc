@@ -1,0 +1,28 @@
+Package: libperl-prereqscanner-notquitelite-perl
+Binary: libperl-prereqscanner-notquitelite-perl
+Version: 0.9913-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Peter Pentchev <roam@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcpan-meta-requirements-perl (>= 2.140) <!nocheck>, libdata-dump-perl <!nocheck>, libextutils-makemaker-cpanfile-perl (>= 0.08), libmodule-corelist-perl <!nocheck>, libmodule-cpanfile-perl (>= 1.1004) <!nocheck>, libmodule-find-perl <!nocheck>, libregexp-trie-perl <!nocheck>, libtest-failwarnings-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtest-useallmodules-perl (>= 0.17) <!nocheck>, liburi-cpan-perl <!nocheck>, perl (>= 5.25.4)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 54803108f9c326195e9ac6938e94f954 3120 libperl-prereqscanner-notquitelite-perl_0.9913-1.dsc
+ 6fd6e16c64317afae6df485621780aea 127893 libperl-prereqscanner-notquitelite-perl_0.9913.orig.tar.gz
+ fa6697a477fd638557c04d485d843460 2236 libperl-prereqscanner-notquitelite-perl_0.9913-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libperl-prereqscanner-notquitelite-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libperl-prereqscanner-notquitelite-perl.git
+Checksums-Sha256:
+ f01e0d20dd0f22302131caf3ae8869fa12cc714d5836a8eb50d719fe76307660 3120 libperl-prereqscanner-notquitelite-perl_0.9913-1.dsc
+ 970d9fc5e14938c0f1740f8cfed094d5cfa4c4bd8d47fa80c59a9b0139cf548d 127893 libperl-prereqscanner-notquitelite-perl_0.9913.orig.tar.gz
+ 6fd5b3e4e7dc5847c3dc45cff03bf78fca60122665d54e9d5c1f329d3b3e1efc 2236 libperl-prereqscanner-notquitelite-perl_0.9913-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Perl-PrereqScanner-NotQuiteLite
+Dgit: 22aff0eca1be5ca9e4a3c18b633d6bb3e8f06ba5 debian archive/debian/0.9913-1 https://git.dgit.debian.org/libperl-prereqscanner-notquitelite-perl
+Package-List: 
+ libperl-prereqscanner-notquitelite-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libperl-prereqscanner-notquitelite-perl
+Priority: extra
+Section: misc

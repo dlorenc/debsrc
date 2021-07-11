@@ -1,0 +1,27 @@
+Package: r-cran-glue
+Binary: r-cran-glue
+Version: 1.4.2-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2b2c4a1b62311f92cf4990dd06dadcc8 2077 r-cran-glue_1.4.2-1.dsc
+ 0193cf06363f9334b313a7e5503b27e6 99049 r-cran-glue_1.4.2.orig.tar.gz
+ 61c141dbde6bad52d0731d7c0765c68d 2720 r-cran-glue_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-glue
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-glue.git
+Checksums-Sha256:
+ 36ed6d61179fce65b1e21802f7d58f268eecf74e903fc098ccf8a66ad9458819 2077 r-cran-glue_1.4.2-1.dsc
+ 9f7354132a26e9a876428fa87629b9aaddcd558f9932328e6ac065b95b8ef7ad 99049 r-cran-glue_1.4.2.orig.tar.gz
+ 866fbbf726bf1c14056e4bd59aad26b22c6844ca019c8d9d9518e3d727afd079 2720 r-cran-glue_1.4.2-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=glue
+Package-List: 
+ r-cran-glue deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat, r-cran-vctrs
+Directory: pool/main/r/r-cran-glue
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: rust-fst
+Binary: librust-fst-dev, librust-fst+memmap-dev
+Version: 0.3.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev <!nocheck>, librust-memmap-0.7+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 18cdb7dce7d4a45066ecb8ff5c49ff86 1862 rust-fst_0.3.5-1.dsc
+ fb310cfba02e759bdca52fbeb3be658d 1569616 rust-fst_0.3.5.orig.tar.gz
+ 5b058616cd968d297b4ee4d134224d6d 3268 rust-fst_0.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fst
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fst]
+Checksums-Sha256:
+ 4c1e621bdd0b890de3dd5a9c288b4b011d310ec41c194bd61d132da0240de809 1862 rust-fst_0.3.5-1.dsc
+ 927fb434ff9f0115b215dc0efd2e4fbdd7448522a92a1aa37c77d6a2f8f1ebd6 1569616 rust-fst_0.3.5.orig.tar.gz
+ ba383dfbff74255324d02a4634869f0ee0d328dc5e560cc474523ee15adc6941 3268 rust-fst_0.3.5-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/fst
+Package-List: 
+ librust-fst+memmap-dev deb rust optional arch=any
+ librust-fst-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-fnv-1+default-dev, librust-fst-levenshtein-0.2+default-dev, librust-fst-regex-0.2+default-dev, librust-lazy-static-0.2+default-dev, librust-quickcheck-0.7-dev, librust-rand-0.5+default-dev
+Directory: pool/main/r/rust-fst
+Priority: extra
+Section: misc

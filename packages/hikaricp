@@ -1,0 +1,26 @@
+Package: hikaricp
+Binary: libhikaricp-java
+Version: 2.7.9-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, libdropwizard-metrics-java, libjavassist-java, libmaven-bundle-plugin-java, libmaven-exec-plugin-java, libpostgresql-jdbc-java, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: libslf4j-java
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 79be85e149fb6958ced8e859c004640c 2169 hikaricp_2.7.9-1.dsc
+ e54af88318b22025d62d2421c323d03e 105152 hikaricp_2.7.9.orig.tar.xz
+ 5bd64c3162241e297209157b903e9f63 4672 hikaricp_2.7.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/hikaricp
+Vcs-Git: https://salsa.debian.org/java-team/hikaricp.git
+Checksums-Sha256:
+ d8a0ba5143f14c4281efe4f218f2791d5f52a538edabc2b7a47483973ea96023 2169 hikaricp_2.7.9-1.dsc
+ 0f5d27f3c925eaaff1714806a61f15282d604fd15a3d52bed1c71e7d5c5b66e8 105152 hikaricp_2.7.9.orig.tar.xz
+ fddc4b1fd4c0bc92c5a021cfd87442595b56f4b211baebf82484f132f4bc092f 4672 hikaricp_2.7.9-1.debian.tar.xz
+Homepage: https://github.com/brettwooldridge/HikariCP
+Package-List: 
+ libhikaricp-java deb java optional arch=all
+Directory: pool/main/h/hikaricp
+Priority: optional
+Section: misc

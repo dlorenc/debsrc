@@ -1,0 +1,26 @@
+Package: akuma
+Binary: libakuma-java, libakuma-java-doc
+Version: 1.10-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: James Page <james.page@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), default-jdk, default-jdk-doc, javahelper, junit4, libjna-java, libmaven-javadoc-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8bf3e2231347355bfd99931f8fd14bed 2202 akuma_1.10-3.dsc
+ 8b7f2dcba2731a6aff055846692a3a2f 13412 akuma_1.10.orig.tar.xz
+ 9714486ae71ed302c59056f9cac2606e 4912 akuma_1.10-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/akuma
+Vcs-Git: https://salsa.debian.org/java-team/akuma.git
+Checksums-Sha256:
+ 817698fd513091c222976d4e0e4444e3f5caca8c5e91399aea276dd2fb71bc35 2202 akuma_1.10-3.dsc
+ 7f4f2189a1d02fc4f39976cebd5d51093004b90696f42abdaa98998d0ec08b6e 13412 akuma_1.10.orig.tar.xz
+ 3cec28d4e1c380c9c5716d7d64d4a224ecbdc50a299c14de5d167ad4a8736b4c 4912 akuma_1.10-3.debian.tar.xz
+Homepage: http://akuma.kohsuke.org
+Package-List: 
+ libakuma-java deb java optional arch=all
+ libakuma-java-doc deb doc optional arch=all
+Directory: pool/main/a/akuma
+Priority: source
+Section: java

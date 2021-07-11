@@ -1,0 +1,28 @@
+Package: rust-syn-mid
+Binary: librust-syn-mid-dev, librust-syn-mid+clone-impls-dev
+Version: 0.5.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+derive-dev (>= 1.0.5-~~) <!nocheck>, librust-syn-1+parsing-dev (>= 1.0.5-~~) <!nocheck>, librust-syn-1+printing-dev (>= 1.0.5-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ac394b4095a60324f5dbd5bcd4d64a90 1887 rust-syn-mid_0.5.0-2.dsc
+ 307e35cf76f590c86acb97811e31135a 14149 rust-syn-mid_0.5.0.orig.tar.gz
+ 0badcd4857dbbeffe9f35799c5f78221 2720 rust-syn-mid_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/syn-mid
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/syn-mid]
+Checksums-Sha256:
+ e5df6a180c36239b373fd6296d50f7ea5790fa03364119cd0395e8c766a9524d 1887 rust-syn-mid_0.5.0-2.dsc
+ 7be3539f6c128a931cf19dcee741c1af532c7fd387baa739c03dd2e96479338a 14149 rust-syn-mid_0.5.0.orig.tar.gz
+ 545b0459265d52e5777034aaa1ec1d03b63cd81f2858fe5e97bbb05f3844ffa0 2720 rust-syn-mid_0.5.0-2.debian.tar.xz
+Homepage: https://github.com/taiki-e/syn-mid
+Package-List: 
+ librust-syn-mid+clone-impls-dev deb rust optional arch=any
+ librust-syn-mid-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-syn-mid
+Priority: extra
+Section: misc

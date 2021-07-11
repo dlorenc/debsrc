@@ -1,0 +1,26 @@
+Package: nsca
+Binary: nsca, nsca-client
+Version: 2.10.0-1
+Maintainer: Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>
+Uploaders: Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper (>= 10~), libmcrypt-dev, po-debconf
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 69898675bb8d1b6cb2bcaaaa8dd63274 1973 nsca_2.10.0-1.dsc
+ 713fd3355349ccc4354c174774f39632 124138 nsca_2.10.0.orig.tar.gz
+ 613f04df2e17d482ee2b26288db7737f 18688 nsca_2.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/nagios-team/pkg-nsca
+Vcs-Git: https://salsa.debian.org/nagios-team/pkg-nsca.git
+Checksums-Sha256:
+ 187af76d2ef89032e0a0d49ccc2486ca8312e91998a81cef487bd511411dac0b 1973 nsca_2.10.0-1.dsc
+ 99f5b692734264049711579911231dae42649f7f2285c3ee907c7d1530a0e0ed 124138 nsca_2.10.0.orig.tar.gz
+ 50317c9a59399a950fbfbb8436af360fc806090539ab4db829fb65beb6a072c3 18688 nsca_2.10.0-1.debian.tar.xz
+Homepage: https://github.com/NagiosEnterprises/nsca
+Package-List: 
+ nsca deb net optional arch=any
+ nsca-client deb net optional arch=any
+Directory: pool/main/n/nsca
+Priority: source
+Section: net

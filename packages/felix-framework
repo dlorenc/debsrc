@@ -1,0 +1,26 @@
+Package: felix-framework
+Binary: libfelix-framework-java, libfelix-framework-java-doc
+Version: 4.6.1-2.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Yulia Novozhilova <Yulia.Novozhilova@sun.com>, Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper (>= 9), default-jdk, libasm-java (>= 5.0), libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, libmaven-source-plugin-java, libosgi-annotation-java, libosgi-compendium-java (>= 5.0.0), libosgi-core-java (>= 6.0.0), maven-debian-helper (>= 2.0)
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 1ba4194a8abb312a27650d45d25dc5c9 2423 felix-framework_4.6.1-2.1.dsc
+ 21b3dc1dcc60fa2229703e21d7cf8daa 316884 felix-framework_4.6.1.orig.tar.xz
+ 7acac6bd4d25a7953827a69508d8c4e9 4896 felix-framework_4.6.1-2.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/felix-framework.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/felix-framework.git
+Checksums-Sha256:
+ 98a9902c72b5da78b7643dab3d7b05af3e386063aa935d26c1ad4b9e070fdb7c 2423 felix-framework_4.6.1-2.1.dsc
+ 342f75430e49a606d171f3d2ee6361dd8796f672d9c4f8da028b24c9db25baf8 316884 felix-framework_4.6.1.orig.tar.xz
+ 55f084566fc907371520b3b264998f51f37a97f3b5f72229b82b373716604c48 4896 felix-framework_4.6.1-2.1.debian.tar.xz
+Homepage: http://felix.apache.org/site/apache-felix-framework.html
+Package-List: 
+ libfelix-framework-java deb java optional arch=all
+ libfelix-framework-java-doc deb doc optional arch=all
+Directory: pool/main/f/felix-framework
+Priority: source
+Section: java

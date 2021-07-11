@@ -1,0 +1,27 @@
+Package: libhostfile-manager-perl
+Binary: libhostfile-manager-perl, hostfiles
+Version: 0.09-1.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper, debhelper-compat (= 11), libfile-slurp-perl, libmoose-perl, libterm-clui-perl, libtest-class-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-most-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 2d88c7949a9d85f903dc72e757d5b631 2391 libhostfile-manager-perl_0.09-1.1.dsc
+ b969be14423845f26215a0cd5ea640d6 6395 libhostfile-manager-perl_0.09.orig.tar.gz
+ a95c075e61be1c329126e5d9849fd3e1 2828 libhostfile-manager-perl_0.09-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhostfile-manager-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhostfile-manager-perl.git
+Checksums-Sha256:
+ 747fb6769177ad804f7a0cb2ba91fba258278d5208e022128bb9c25ec83435d8 2391 libhostfile-manager-perl_0.09-1.1.dsc
+ 93ce47f9bae55327110b16ae707429f08ef85951f8f6dd1db09e646ecfbf5452 6395 libhostfile-manager-perl_0.09.orig.tar.gz
+ f7dbff328e80c21738eddfa070ecada803053e7bc2659374e0f94ce22312d6ed 2828 libhostfile-manager-perl_0.09-1.1.debian.tar.xz
+Homepage: https://metacpan.org/release/Hostfile-Manager
+Package-List: 
+ hostfiles deb perl optional arch=all
+ libhostfile-manager-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhostfile-manager-perl
+Priority: extra
+Section: misc

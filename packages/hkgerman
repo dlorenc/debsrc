@@ -1,0 +1,29 @@
+Package: hkgerman
+Binary: iogerman, wogerman, myspell-de-de-1901, aspell-de-1901
+Version: 1:2-37
+Maintainer: Roland Rosenfeld <roland@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: aspell (>> 0.60.3.2-2), dictionaries-common-dev (>= 1.10.5), flex, ispell (>= 3.3.02)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cdf793e9dda6659b6e39f12160013bf2 2140 hkgerman_2-37.dsc
+ 9e8de4e44475b2a6e41ab8ecbfe24db1 375794 hkgerman_2.orig.tar.gz
+ d6330b46a2667ee4843ab67025196a5b 31104 hkgerman_2-37.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/hkgerman
+Vcs-Git: https://salsa.debian.org/debian/hkgerman.git
+Checksums-Sha256:
+ 6849a7979bf9fb2dd199d1e2145929fe19be63ab498331c9641844029b6f72cc 2140 hkgerman_2-37.dsc
+ f5e00e6310937f8d01901b6813cf6d2f6d3616a942fb9fc9fc8876c0a90c174e 375794 hkgerman_2.orig.tar.gz
+ 1870bd858e9f3e01f1496ba2c1dd3f25ebf025a19627a1f99890c221b05ed5d0 31104 hkgerman_2-37.debian.tar.xz
+Package-List: 
+ aspell-de-1901 deb localization optional arch=all
+ iogerman deb localization optional arch=all
+ myspell-de-de-1901 deb localization optional arch=all
+ wogerman deb localization optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: aspell, hunspell, ispell
+Directory: pool/main/h/hkgerman
+Priority: source
+Section: text

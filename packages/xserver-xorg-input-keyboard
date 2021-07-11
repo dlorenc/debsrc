@@ -1,0 +1,24 @@
+Package: xserver-xorg-input-keyboard
+Binary: xserver-xorg-input-kbd, xserver-xorg-input-kbd-udeb
+Version: 1:1.9.0-1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: debhelper (>= 8), dh-autoreconf, pkg-config, xserver-xorg-dev (>= 2:1.9.99.902), x11proto-kb-dev, x11proto-input-dev, x11proto-core-dev, x11proto-randr-dev, quilt, xutils-dev (>= 1:7.5+4)
+Architecture: any
+Standards-Version: 3.9.8
+Format: 1.0
+Files:
+ 1f052a8958bcebe6e92f75b44700a383 2262 xserver-xorg-input-keyboard_1.9.0-1.dsc
+ 71c5d236ad17d5ad9a759ac7b06ae947 430849 xserver-xorg-input-keyboard_1.9.0.orig.tar.gz
+ b15c40371f53316fbdfca9986f5c8359 9169 xserver-xorg-input-keyboard_1.9.0-1.diff.gz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-xorg/driver/xserver-xorg-input-keyboard.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/driver/xserver-xorg-input-keyboard
+Checksums-Sha256:
+ 1f9244abe72ba3cb579bfbed77e90064603a2f667ea199a52a2f57cb512bd18e 2262 xserver-xorg-input-keyboard_1.9.0-1.dsc
+ 407cf742246708843126617feee85b30a8b7b7567b3bc507a6cfda7443a8d9ac 430849 xserver-xorg-input-keyboard_1.9.0.orig.tar.gz
+ 0cd320323a54cc428c040865d42765eac9cb8923cc850a14734def4a58565fbc 9169 xserver-xorg-input-keyboard_1.9.0-1.diff.gz
+Package-List: 
+ xserver-xorg-input-kbd deb x11 optional arch=any
+ xserver-xorg-input-kbd-udeb udeb debian-installer optional arch=hurd-any,kfreebsd-any
+Directory: pool/main/x/xserver-xorg-input-keyboard
+Priority: source
+Section: x11

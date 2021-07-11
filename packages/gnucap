@@ -1,0 +1,29 @@
+Package: gnucap
+Binary: libgnucap0, gnucap, gnucap-common, libgnucap-dev, gnucap-default-plugins0
+Version: 1:0.36~20171003-1.1
+Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
+Uploaders: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>, Felix Salfelder <felix@salfelder.org>
+Build-Depends: debhelper (>= 11), dpkg-dev (>= 1.17.14), gnucap:native <cross>, libreadline-dev
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 15026a3be0a95e1f95bc7ac0e6c8ffee 2350 gnucap_0.36~20171003-1.1.dsc
+ 21eca7fad9f8142d14e7b57248035d4a 794951 gnucap_0.36~20171003.orig.tar.gz
+ 6384db1fb3689723f97bb0017b7f96df 23472 gnucap_0.36~20171003-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/felixs-guest/gnucap
+Vcs-Git: https://salsa.debian.org/felixs-guest/gnucap.git
+Checksums-Sha256:
+ 6ce8edf81e9d256a5bf5bfbc183e52c8a09e76521d249445d7fb1efdd2ca0abc 2350 gnucap_0.36~20171003-1.1.dsc
+ 9c38f3af860b8ad93db041696b2c993ec022e6f4f41284e907da712dd9f1a3f7 794951 gnucap_0.36~20171003.orig.tar.gz
+ a1cd9060f8f59267027e39ff33adf160dd6b208299b980a4513a67bf4b2b6571 23472 gnucap_0.36~20171003-1.1.debian.tar.xz
+Homepage: http://gnucap.org
+Package-List: 
+ gnucap deb electronics optional arch=any
+ gnucap-common deb electronics optional arch=all
+ gnucap-default-plugins0 deb electronics optional arch=any
+ libgnucap-dev deb libdevel optional arch=any
+ libgnucap0 deb libs optional arch=any
+Directory: pool/main/g/gnucap
+Priority: source
+Section: electronics

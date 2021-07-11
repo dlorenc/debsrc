@@ -1,0 +1,25 @@
+Package: lacme
+Binary: lacme, lacme-accountd
+Version: 0.8.0-2
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Build-Depends: debhelper-compat (= 13), jq, pandoc (>= 2.1~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ adf66c1ea3db614477105faed913e226 1892 lacme_0.8.0-2.dsc
+ 5b3bde7a93b1dcf42c318fa430dfff89 81281 lacme_0.8.0.orig.tar.gz
+ 39f0ddf3501d66ea2499bbbc4700946f 15620 lacme_0.8.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/lacme
+Vcs-Git: https://salsa.debian.org/debian/lacme.git -b debian/latest
+Checksums-Sha256:
+ 482c9aa2c63aac6e9fa7efb4d5dac8d3aed4df9ae1e29aaaa7d3ec86d475dc00 1892 lacme_0.8.0-2.dsc
+ 9612497a6808d1d9780a6028241e233e78eb10f1ff1efe53f81f6c860708ecd0 81281 lacme_0.8.0.orig.tar.gz
+ 6a6a3b10cb401b28cee67208dae386fa3eab674b0f15200a7ad15c3a2d174f5b 15620 lacme_0.8.0-2.debian.tar.xz
+Homepage: https://git.guilhem.org/lacme/about/
+Package-List: 
+ lacme deb utils optional arch=all
+ lacme-accountd deb utils optional arch=all
+Directory: pool/main/l/lacme
+Priority: optional
+Section: misc

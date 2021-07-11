@@ -1,0 +1,29 @@
+Package: ocaml-num
+Binary: libnum-ocaml-dev, libnum-ocaml
+Version: 1.4-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-ocaml, ocaml-nox (>= 4.08), ocaml-findlib
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d6ce86261114987ebea80e6381d173b1 1871 ocaml-num_1.4-1.dsc
+ cda2b727e116a0b6a9c03902cc4b2415 66327 ocaml-num_1.4.orig.tar.gz
+ 4d14e671ad68f511a5a27bbbad953fdf 3788 ocaml-num_1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-num
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-num.git
+Checksums-Sha256:
+ ea5b22396a459ef060e96567f3c71214f5a8ad9c3d4a55381f56d1ed3802c05c 1871 ocaml-num_1.4-1.dsc
+ 015088b68e717b04c07997920e33c53219711dfaf36d1196d02313f48ea00f24 66327 ocaml-num_1.4.orig.tar.gz
+ d83fa4146e8c02cead2bbdd47779e725718d78eb64ffaf8eb70f4173a6f5c9d7 3788 ocaml-num_1.4-1.debian.tar.xz
+Homepage: https://github.com/ocaml/num
+Dgit: 462577ecedae3a8afe8b58786190ad0ce9550434 debian archive/debian/1.4-1 https://git.dgit.debian.org/ocaml-num
+Package-List: 
+ libnum-ocaml deb ocaml optional arch=any
+ libnum-ocaml-dev deb ocaml optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ocaml-findlib, ocaml-nox
+Directory: pool/main/o/ocaml-num
+Priority: extra
+Section: misc

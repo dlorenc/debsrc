@@ -1,0 +1,33 @@
+Package: apr-util
+Binary: libaprutil1, libaprutil1-ldap, libaprutil1-dbd-mysql, libaprutil1-dbd-sqlite3, libaprutil1-dbd-odbc, libaprutil1-dbd-pgsql, libaprutil1-dev
+Version: 1.6.1-5
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Uploaders: Stefan Fritsch <sf@debian.org>
+Build-Depends: debhelper (>> 11~), autoconf, mawk, libldap2-dev, libexpat1-dev, libdb-dev, libgdbm-dev, libapr1-dev (>> 1.7.0-0~), libsqlite3-dev, libpq-dev, default-libmysqlclient-dev, unixodbc-dev, doxygen, libssl-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 66086a458e3c953f8506c525b16452ed 2754 apr-util_1.6.1-5.dsc
+ 8ff5dc36fa39a2a3db1df196d3ed6086 428595 apr-util_1.6.1.orig.tar.bz2
+ 56d1c76f41e658277444bb744d67d43e 801 apr-util_1.6.1.orig.tar.bz2.asc
+ b5e983c41e60559b08bc218dc28ccd12 342000 apr-util_1.6.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/apache-team/apr-util
+Vcs-Git: https://salsa.debian.org/apache-team/apr-util.git
+Checksums-Sha256:
+ dab17dcb495ae31448ceb506448a5b1a6155ae9771073950227c47e09241b9d6 2754 apr-util_1.6.1-5.dsc
+ d3e12f7b6ad12687572a3a39475545a072608f4ba03a6ce8a3778f607dd0035b 428595 apr-util_1.6.1.orig.tar.bz2
+ 47837b605290c0d7659b73734e4a9d5e6c0c24c13185cd4d91837afe63c07ca4 801 apr-util_1.6.1.orig.tar.bz2.asc
+ 9489fa1228c0e7362f4a4d099c015b7552b928b7d73c9d79b6d4c16b52edce3b 342000 apr-util_1.6.1-5.debian.tar.xz
+Homepage: http://apr.apache.org/
+Package-List: 
+ libaprutil1 deb libs optional arch=any
+ libaprutil1-dbd-mysql deb libs optional arch=any
+ libaprutil1-dbd-odbc deb libs optional arch=any
+ libaprutil1-dbd-pgsql deb libs optional arch=any
+ libaprutil1-dbd-sqlite3 deb libs optional arch=any
+ libaprutil1-dev deb libdevel optional arch=any
+ libaprutil1-ldap deb libs optional arch=any
+Directory: pool/main/a/apr-util
+Priority: source
+Section: libs

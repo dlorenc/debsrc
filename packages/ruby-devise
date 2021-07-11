@@ -1,0 +1,28 @@
+Package: ruby-devise
+Binary: ruby-devise
+Version: 4.7.3-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Tornow <tornow@riseup.net>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-bcrypt (>= 3.0.1), ruby-orm-adapter (>= 0.5.0), ruby-railties (>= 2:4.1~), ruby-responders, ruby-warden (>= 1.2.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2028cb13fdab10b7a7cfed706e0fcd62 2208 ruby-devise_4.7.3-2.dsc
+ 5cb8ed4cc3c1dfe6f0d847eea3bebc72 87359 ruby-devise_4.7.3.orig.tar.gz
+ 1fcd567d3634d2e13814d58283f3031d 4196 ruby-devise_4.7.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-devise
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-devise.git
+Checksums-Sha256:
+ 479a0f94e11c9c0c84f84c3ce220ca6bae57f7cb8dc4068ce14ee5462da31292 2208 ruby-devise_4.7.3-2.dsc
+ 6ab4ee8c3ae4a57e7ba87b92f07e3b3f51723757c4d4c6b7b73cd0fb862675bf 87359 ruby-devise_4.7.3.orig.tar.gz
+ b3e749333952789b4174dd021a0b2934eccee23d6f5ec872188e7697277a6c82 4196 ruby-devise_4.7.3-2.debian.tar.xz
+Homepage: https://github.com/plataformatec/devise
+Package-List: 
+ ruby-devise deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: rails
+Directory: pool/main/r/ruby-devise
+Priority: optional
+Section: misc

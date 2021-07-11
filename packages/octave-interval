@@ -1,0 +1,28 @@
+Package: octave-interval
+Binary: octave-interval, octave-interval-doc
+Version: 3.2.0-7
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Uploaders: Oliver Heimlich <oheim@posteo.de>,
+Build-Depends: debhelper-compat (= 13), dh-octave (>= 0.7.1), ghostscript, libmpfr-dev (>= 3.1.0)
+Build-Depends-Indep: texinfo, imagemagick, gnuplot-nox
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9a0ce108a01c6a866f75eb0ab3715405 2218 octave-interval_3.2.0-7.dsc
+ be6ea4eef9e92f9198776c05c5b56f30 2672463 octave-interval_3.2.0.orig.tar.gz
+ 54ee4045701f778a38b14df99a50f54e 8384 octave-interval_3.2.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-octave-team/octave-interval
+Vcs-Git: https://salsa.debian.org/pkg-octave-team/octave-interval.git
+Checksums-Sha256:
+ e22e14d7f16609bba8f86dd51b8d50ddfc714a1a2c6d78362300192de6d42a0d 2218 octave-interval_3.2.0-7.dsc
+ 40dca588e32167484a3e9d1c77858db11f4eacb5ea92dcc37c78144fd6f91a28 2672463 octave-interval_3.2.0.orig.tar.gz
+ 1a0a48508566c23de7d1d47963d7bfe63500b5c229ab04b3d9665e4991c32a61 8384 octave-interval_3.2.0-7.debian.tar.xz
+Homepage: https://octave.sourceforge.io/interval/
+Package-List: 
+ octave-interval deb math optional arch=any
+ octave-interval-doc deb doc optional arch=all
+Testsuite: autopkgtest-pkg-octave
+Directory: pool/main/o/octave-interval
+Priority: optional
+Section: misc

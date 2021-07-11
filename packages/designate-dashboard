@@ -1,0 +1,26 @@
+Package: designate-dashboard
+Binary: python3-designate-dashboard
+Version: 11.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: openstack-dashboard (>= 3:17.1.0), python3-coverage, python3-designateclient, python3-django, python3-django-nose, python3-nose, python3-nose-exclude, python3-nosehtmloutput, python3-nosexcover, python3-openstack.nose-plugin, python3-openstackdocstheme, python3-oslo.config, python3-oslo.log, python3-testtools, python3-unittest2, testrepository
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d7e6401d4dc0ead2385a0bc7c8748136 2593 designate-dashboard_11.0.0-1.dsc
+ 308fc195eaebad1e3a9301f0e4a1f6b0 33980 designate-dashboard_11.0.0.orig.tar.xz
+ bcdc387794390545230771e151672401 4312 designate-dashboard_11.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/horizon-plugins/designate-dashboard
+Vcs-Git: https://salsa.debian.org/openstack-team/horizon-plugins/designate-dashboard.git
+Checksums-Sha256:
+ ec915599959c646e16c2b8929db2817225e673ef56ffc901dc8b52ac07c39930 2593 designate-dashboard_11.0.0-1.dsc
+ d266b507cd2b6382bf9c182c51376c1e12484c4d312df566d2894ff287cac31e 33980 designate-dashboard_11.0.0.orig.tar.xz
+ cd6386540a95b95f57514f035240640954b6dfc5f1e8d5592fcae89d33188f83 4312 designate-dashboard_11.0.0-1.debian.tar.xz
+Homepage: https://opendev.org/openstack/designate-dashboard
+Package-List: 
+ python3-designate-dashboard deb python optional arch=all
+Directory: pool/main/d/designate-dashboard
+Priority: optional
+Section: misc

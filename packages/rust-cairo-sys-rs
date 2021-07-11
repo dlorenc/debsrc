@@ -1,0 +1,30 @@
+Package: rust-cairo-sys-rs
+Binary: librust-cairo-sys-rs-dev, librust-cairo-sys-rs+dox-dev, librust-cairo-sys-rs+glib-sys-dev, librust-cairo-sys-rs+use-glib-dev, librust-cairo-sys-rs+x11-dev, librust-cairo-sys-rs+xlib-dev
+Version: 0.9.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.2-~~) <!nocheck>, librust-winapi-0.3+windef-dev (>= 0.3.2-~~) <!nocheck>, libcairo2-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 31696db5e9baf64e90ee4317e233e561 2498 rust-cairo-sys-rs_0.9.0-2.dsc
+ 923191be6f33f56b604d857f591064e4 11610 rust-cairo-sys-rs_0.9.0.orig.tar.gz
+ b035ac2d7d2e145dfe1b1d3189446a67 2920 rust-cairo-sys-rs_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cairo-sys-rs
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cairo-sys-rs]
+Checksums-Sha256:
+ 751769ad882c2183ad66b6538d29a989044799dd84962863aac88f93e62f7f9e 2498 rust-cairo-sys-rs_0.9.0-2.dsc
+ 90a1ec04603a78c111886a385edcec396dbfbc57ea26b9e74aeea6a1fe55dcca 11610 rust-cairo-sys-rs_0.9.0.orig.tar.gz
+ 01a019186a6b5d369338b1c374bab64265ff468c031d21c79d99874f44937b5f 2920 rust-cairo-sys-rs_0.9.0-2.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-cairo-sys-rs+dox-dev deb rust optional arch=any
+ librust-cairo-sys-rs+glib-sys-dev deb rust optional arch=any
+ librust-cairo-sys-rs+use-glib-dev deb rust optional arch=any
+ librust-cairo-sys-rs+x11-dev deb rust optional arch=any
+ librust-cairo-sys-rs+xlib-dev deb rust optional arch=any
+ librust-cairo-sys-rs-dev deb rust optional arch=any
+Directory: pool/main/r/rust-cairo-sys-rs
+Priority: extra
+Section: misc

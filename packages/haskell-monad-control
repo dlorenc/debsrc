@@ -1,0 +1,28 @@
+Package: haskell-monad-control
+Binary: libghc-monad-control-dev, libghc-monad-control-prof, libghc-monad-control-doc
+Version: 1.0.2.3-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-transformers-base-dev (<< 0.5), libghc-transformers-base-dev (>= 0.4.4), libghc-transformers-base-prof, libghc-transformers-compat-dev (>= 0.3), libghc-transformers-compat-dev (<< 0.7), libghc-transformers-compat-prof
+Build-Depends-Indep: ghc-doc, libghc-transformers-base-doc, libghc-transformers-compat-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 233ef6a18cfc68fc8c10d60f04609ffc 2692 haskell-monad-control_1.0.2.3-4.dsc
+ 4b7ba1532ac949818947d08f2aa88d0c 13864 haskell-monad-control_1.0.2.3.orig.tar.gz
+ 0ad652009aa5f92b7bd36a6294a203f8 3596 haskell-monad-control_1.0.2.3-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-monad-control
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-monad-control]
+Checksums-Sha256:
+ 7634207151e38585839fc3c47787369f61cc481755f50b189634dc74ad7ac0d8 2692 haskell-monad-control_1.0.2.3-4.dsc
+ 6c1034189d237ae45368c70f0e68f714dd3beda715dd265b6c8a99fcc64022b1 13864 haskell-monad-control_1.0.2.3.orig.tar.gz
+ d58cf4395b664d8945be8d86cbd3f58901231887000dee4daf2917f746998c68 3596 haskell-monad-control_1.0.2.3-4.debian.tar.xz
+Homepage: https://github.com/basvandijk/monad-control
+Package-List: 
+ libghc-monad-control-dev deb haskell optional arch=any
+ libghc-monad-control-doc deb doc optional arch=all
+ libghc-monad-control-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-monad-control
+Priority: source
+Section: haskell

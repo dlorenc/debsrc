@@ -1,0 +1,27 @@
+Package: hovercraft
+Binary: hovercraft
+Version: 2.7-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Boyuan Yang <byang@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-sequence-python3, python3-all:any, python3-pygments (>= 2.7.1+dfsg-1~), python3-sphinx, python3-manuel, python3-setuptools, python3-svg.path, python3-lxml (>= 4.4.1-1~), python3-watchdog, python3-pytest
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2458c1b91533de49a87e8ea0717ed461 2185 hovercraft_2.7-2.dsc
+ 32b1d8e86f8749650cbf4302e4ea41e6 549139 hovercraft_2.7.orig.tar.gz
+ 1bde45db46aa41be3cd5cfe5091faeda 7056 hovercraft_2.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/hovercraft
+Vcs-Git: https://salsa.debian.org/python-team/packages/hovercraft.git
+Checksums-Sha256:
+ b0eecb68bd7c4fca88c2e18ba18a5bdb7317683c2bbfc43896bafc22661466f8 2185 hovercraft_2.7-2.dsc
+ 70471394a9cae0907cb2d1f556a593110eb6b58e51eaf20064f1474d793c7621 549139 hovercraft_2.7.orig.tar.gz
+ c2a7eaefffd7eef5d169a0097217b1e0675b583fd16aa6e2cdf4a55f4eca4028 7056 hovercraft_2.7-2.debian.tar.xz
+Homepage: https://github.com/regebro/hovercraft/
+Package-List: 
+ hovercraft deb misc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/h/hovercraft
+Priority: optional
+Section: misc

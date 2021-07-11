@@ -1,0 +1,28 @@
+Package: caja-actions
+Binary: caja-actions, caja-actions-common, caja-actions-dev
+Version: 1.8.3-4
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Uploaders: Martin Wimpress <code@flexion.org>, Mike Gabriel <sunweaver@debian.org>, Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: debhelper (>= 11~), mate-common, libgtk-3-dev, libgtop2-dev, libxml2-dev, uuid-dev, libcaja-extension-dev (>= 1.17.1), docbook-utils, yelp-tools
+Build-Depends-Indep: intltool (>= 0.40.0), gettext
+Architecture: any all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 1b5a9029da79d445c351f813c609961c 2400 caja-actions_1.8.3-4.dsc
+ c44db382454a5fec47c73ca4795a8079 15642413 caja-actions_1.8.3.orig.tar.gz
+ 7b646e877c870330941e2c0b6af816da 8536 caja-actions_1.8.3-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-mate-team/caja-actions
+Vcs-Git: https://salsa.debian.org/debian-mate-team/caja-actions.git
+Checksums-Sha256:
+ 915f09f4d59373489edcf1ca5a46d0ed9f8f3cf764397815355b95f4ad7d824e 2400 caja-actions_1.8.3-4.dsc
+ c469a9906e5d430730a5022e37b92dfa09bcac3b23167518412fdaa5691c8635 15642413 caja-actions_1.8.3.orig.tar.gz
+ 9b91c67d6bd093eb174d28816b113afac4569fe69b8eae00e9eded298f092490 8536 caja-actions_1.8.3-4.debian.tar.xz
+Homepage: https://github.com/NiceandGently/caja-actions
+Package-List: 
+ caja-actions deb utils optional arch=any
+ caja-actions-common deb utils optional arch=all
+ caja-actions-dev deb libdevel optional arch=any
+Directory: pool/main/c/caja-actions
+Priority: optional
+Section: misc

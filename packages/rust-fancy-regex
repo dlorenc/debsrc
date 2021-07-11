@@ -1,0 +1,26 @@
+Package: rust-fancy-regex
+Binary: librust-fancy-regex-dev
+Version: 0.4.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <paride@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bit-set-0.5+default-dev <!nocheck>, librust-regex-1+default-dev (>= 1.2-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 5bc8a8298c2620fac56e58e3208ad59c 2097 rust-fancy-regex_0.4.0-1.dsc
+ 4a2bf6ed9e239d41542dbdeebe144ba3 55162 rust-fancy-regex_0.4.0.orig.tar.gz
+ dbe721234b42e88ec4450b0734e71e25 2776 rust-fancy-regex_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fancy-regex
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fancy-regex]
+Checksums-Sha256:
+ 58fff2b159ec138b8b22b294a14fd00ea67c969afb0ae35363c32b206f44f4e7 2097 rust-fancy-regex_0.4.0-1.dsc
+ fd6e11a99323890f48f324ceb638ffe915088c77d8d0741a31357367a7d67307 55162 rust-fancy-regex_0.4.0.orig.tar.gz
+ e5c37fb58f2445db2babc151650a4e1a1d4179f7e66c5fb84fe6fb38b3ad52a2 2776 rust-fancy-regex_0.4.0-1.debian.tar.xz
+Package-List: 
+ librust-fancy-regex-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.3.0+default-dev, librust-matches-0.1+default-dev, librust-quickcheck-0.7+default-dev, librust-rand-0.5+default-dev, librust-rayon-core-1.7.0+default-dev
+Directory: pool/main/r/rust-fancy-regex
+Priority: extra
+Section: misc

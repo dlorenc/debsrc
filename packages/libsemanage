@@ -1,0 +1,31 @@
+Package: libsemanage
+Binary: libsemanage-common, libsemanage1, libsemanage1-dev, ruby-semanage, python3-semanage, semanage-utils
+Version: 3.1-1
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Uploaders: Laurent Bigonville <bigon@debian.org>, Russell Coker <russell@coker.com.au>
+Build-Depends: bison, debhelper-compat (= 12), dh-python <!nopython>, file, flex, gem2deb (>= 0.5.0~) <!noruby>, libaudit-dev, libbz2-dev, libcunit1-dev <!nocheck>, libselinux1-dev (>= 3.1), libsepol1-dev (>= 3.1), pkg-config, python3-all-dev <!nopython>, secilc (>= 3.1) <!nocheck>, swig <!nopython> <!noruby>
+Architecture: linux-any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9ce384d396a79844c30b92278f2821ec 2339 libsemanage_3.1-1.dsc
+ d16eee8c1dc8cf43f59957d575d6bd29 179601 libsemanage_3.1.orig.tar.gz
+ 67791347424d5a1fad68db22faf0f63a 17556 libsemanage_3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/selinux-team/libsemanage
+Vcs-Git: https://salsa.debian.org/selinux-team/libsemanage.git
+Checksums-Sha256:
+ d49f9c29d0ad9c8b42145e0926919df962b58823e9fc22002bbb00333276170d 2339 libsemanage_3.1-1.dsc
+ 22d6c75526e40d1781c30bcf29abf97171bdfe6780923f11c8e1c76a75a21ff8 179601 libsemanage_3.1.orig.tar.gz
+ 185b151158faaaf3d8f9ff939f29efd3eb5dbb050d01a87d3fde6cf40e778648 17556 libsemanage_3.1-1.debian.tar.xz
+Homepage: http://userspace.selinuxproject.org/
+Package-List: 
+ libsemanage-common deb libs optional arch=all
+ libsemanage1 deb libs optional arch=linux-any
+ libsemanage1-dev deb libdevel optional arch=linux-any
+ python3-semanage deb python optional arch=linux-any profile=!nopython
+ ruby-semanage deb ruby optional arch=linux-any profile=!noruby
+ semanage-utils deb admin optional arch=linux-any
+Ruby-Versions: all
+Directory: pool/main/libs/libsemanage
+Priority: source
+Section: libdevel

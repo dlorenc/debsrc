@@ -1,0 +1,28 @@
+Package: haskell-text-icu
+Binary: libghc-text-icu-dev, libghc-text-icu-prof, libghc-text-icu-doc
+Version: 0.7.0.1-14
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Ilias Tsitsimpis <iliastsi@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-hunit-dev (>= 1.2), libghc-quickcheck2-dev (>= 2.4), libghc-random-dev, libghc-test-framework-dev (>= 0.4), libghc-test-framework-hunit-dev (>= 0.2), libghc-test-framework-quickcheck2-dev (>= 0.2), libicu-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d3fc026befa9b69f574e414b35d0e3d1 2584 haskell-text-icu_0.7.0.1-14.dsc
+ f2e6c2c189730d6600270763112aa693 45533 haskell-text-icu_0.7.0.1.orig.tar.gz
+ f8a959cdb88e8f262f70d3b53bbf1f91 4772 haskell-text-icu_0.7.0.1-14.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-text-icu
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-text-icu]
+Checksums-Sha256:
+ 3726c469a94ce2695dcaec65c7b461533208a36231a3f84cce1e5640827d2f52 2584 haskell-text-icu_0.7.0.1-14.dsc
+ e2764c2749033706eed5b9fb3cda11177ad15cdf11912028f551eca39a2c7f78 45533 haskell-text-icu_0.7.0.1.orig.tar.gz
+ 569eb1342381a0053399fb8518df4c5beafc72732c630484a80b0e5245cbc749 4772 haskell-text-icu_0.7.0.1-14.debian.tar.xz
+Homepage: https://github.com/bos/text-icu
+Package-List: 
+ libghc-text-icu-dev deb haskell optional arch=any
+ libghc-text-icu-doc deb doc optional arch=all
+ libghc-text-icu-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-text-icu
+Priority: source
+Section: haskell

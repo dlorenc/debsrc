@@ -1,0 +1,26 @@
+Package: intel-processor-trace
+Binary: libipt-dev, libipt2
+Version: 2.0.3-1
+Maintainer: Victor Seva <vseva@debian.org>
+Uploaders: Héctor Orón Martínez <zumbi@debian.org>, Sergio Durigan Junior <sergiodj@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13)
+Architecture: amd64 i386 x32
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b383874f94667556dd64591e65a02efe 2158 intel-processor-trace_2.0.3-1.dsc
+ df0c1acf7be54efbf75bdb82f844c0ee 341677 intel-processor-trace_2.0.3.orig.tar.gz
+ 23e033cf6306ee52c60c81b6af31d339 3756 intel-processor-trace_2.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gdb-team/intel-processor-trace
+Vcs-Git: https://salsa.debian.org/gdb-team/intel-processor-trace.git
+Checksums-Sha256:
+ deaa3985b27548271e4e6ef236e3803ec93eeac106abfb4022fbebf889305be1 2158 intel-processor-trace_2.0.3-1.dsc
+ b609c21bcf5f9854ffed9628e0203f4f1350e056ddfec8e79e77ca1b54a2c668 341677 intel-processor-trace_2.0.3.orig.tar.gz
+ d21c9e8ecd8334fff9ee488efc3c22942cdd654f80147c2019e4101ce9528562 3756 intel-processor-trace_2.0.3-1.debian.tar.xz
+Homepage: https://github.com/intel/libipt
+Package-List: 
+ libipt-dev deb libdevel optional arch=amd64,i386,x32
+ libipt2 deb libs optional arch=amd64,i386,x32
+Directory: pool/main/i/intel-processor-trace
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: ruby-simplecov
+Binary: ruby-simplecov
+Version: 0.19.1-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-docile (>= 1.1.0), ruby-json (<< 3), ruby-json (>= 1.8), ruby-rspec, ruby-simplecov-html (>= 0.11.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 34d82ec6b5074d47537af809308f293c 2158 ruby-simplecov_0.19.1-1.dsc
+ b2bf153a85f6c4061908765e309297c8 53673 ruby-simplecov_0.19.1.orig.tar.gz
+ bd1688cc6bbab562e2a328a139331155 3348 ruby-simplecov_0.19.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-simplecov
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-simplecov.git
+Checksums-Sha256:
+ 7d97f54a709af7fe25b61d79bce635b3f17ea6496200f05068f0842b676a7d6b 2158 ruby-simplecov_0.19.1-1.dsc
+ 84e8f189516a4d5cb084159b1412a9eb27efd62a3fa1cb8dbc73bed4c3cfd4e9 53673 ruby-simplecov_0.19.1.orig.tar.gz
+ f159ef00c02107ebd15d0117c70fe47f232615fb4f6d8e7ef8506dcffcb51d04 3348 ruby-simplecov_0.19.1-1.debian.tar.xz
+Homepage: https://github.com/colszowka/simplecov
+Package-List: 
+ ruby-simplecov deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-simplecov
+Priority: optional
+Section: misc

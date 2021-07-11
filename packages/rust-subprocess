@@ -1,0 +1,26 @@
+Package: rust-subprocess
+Binary: librust-subprocess-dev
+Version: 0.2.4-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.66-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+handleapi-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+namedpipeapi-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+processenv-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+processthreadsapi-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+std-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+synchapi-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+winbase-dev (>= 0.3.8-~~) <!nocheck>, librust-winapi-0.3+winerror-dev (>= 0.3.8-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 0d29d6e1f3d100c8fb9bcfc8c22944c8 2757 rust-subprocess_0.2.4-2.dsc
+ 04e1aaab2bb20bdbfb0eadac24a9ecfc 44467 rust-subprocess_0.2.4.orig.tar.gz
+ d4044fe9722d6564ed7a6c6074309f1b 2716 rust-subprocess_0.2.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/subprocess
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/subprocess]
+Checksums-Sha256:
+ ad4c16b5cdeb8dd35e8a9c6f030b9b0ba2b8204713647d3f5ac3ca83427b1550 2757 rust-subprocess_0.2.4-2.dsc
+ 5109e3c3215ce5339ca9766a6db7f39144ccc7d9bad53b96d65cfb14ae6c2985 44467 rust-subprocess_0.2.4.orig.tar.gz
+ fb8db782fec6f47447f734d0f5f347ec34b195225873e7ee371b0e4786c12171 2716 rust-subprocess_0.2.4-2.debian.tar.xz
+Package-List: 
+ librust-subprocess-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-subprocess
+Priority: extra
+Section: misc

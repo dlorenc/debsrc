@@ -1,0 +1,27 @@
+Package: r-cran-ggsignif
+Binary: r-cran-ggsignif
+Version: 0.6.0-3
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-ggplot2 (>= 2.0.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8c8be5e4c1333ab34047adacfc1720f2 2141 r-cran-ggsignif_0.6.0-3.dsc
+ 3de312c4f569045b04b368db9e9d8ea1 110226 r-cran-ggsignif_0.6.0.orig.tar.gz
+ 1ca456be18270197c820bc520e264f3d 2436 r-cran-ggsignif_0.6.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-ggsignif
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-ggsignif.git
+Checksums-Sha256:
+ aab7098160c102a3dd94b8e879253cc5690184a27f6f2eb582dcd217b0c36f5f 2141 r-cran-ggsignif_0.6.0-3.dsc
+ 6fe13efda31386483e64d466ba2f5a53a2a235ae04f5c17bba3ccc63d283499e 110226 r-cran-ggsignif_0.6.0.orig.tar.gz
+ 5a271a86331cb17dcaa0c36d452fdd0306fcf12cf207ef86ad030dd6a7f3c533 2436 r-cran-ggsignif_0.6.0-3.debian.tar.xz
+Homepage: https://cran.r-project.org/package=ggsignif
+Package-List: 
+ r-cran-ggsignif deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-ggsignif
+Priority: extra
+Section: misc

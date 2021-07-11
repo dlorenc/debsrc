@@ -1,0 +1,27 @@
+Package: cfortran
+Binary: cfortran
+Version: 20110621-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper (>= 11), gfortran <!nocheck>
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ f047d3a14039feef55f8ae3a94dd4560 2032 cfortran_20110621-1.dsc
+ f4692e08fe29dea19c670a5ea1e222e8 129061 cfortran_20110621.orig.tar.gz
+ dae97c9c02d3b91449bc03855b0c8c4c 13352 cfortran_20110621-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/cfortran
+Vcs-Git: https://salsa.debian.org/science-team/cfortran.git
+Checksums-Sha256:
+ eb257f57507f40a86f20320f4ebfb9cc6a3bf5dbb546cf1f87d1bb875b496c4d 2032 cfortran_20110621-1.dsc
+ 2acaba1dea43c3c1314a4089f4550810fbe735bd279e7979aa8f502dbf90a77f 129061 cfortran_20110621.orig.tar.gz
+ 1685d2f7a060673ecd7abbc1bc60eaa7259d5b10dbf0806d4c9eac695f5a658d 13352 cfortran_20110621-1.debian.tar.xz
+Homepage: http://sourceforge.net/projects/cfortran/
+Package-List: 
+ cfortran deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc, gfortran
+Directory: pool/main/c/cfortran
+Priority: source
+Section: devel

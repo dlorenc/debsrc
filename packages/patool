@@ -1,0 +1,25 @@
+Package: patool
+Binary: patool
+Version: 1.12-5
+Maintainer: Abhijith PA <abhijith@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, bash-completion, python3-all (>= 3.5), python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b4ce8c0a94e896fb673e2581b1dbd820 1909 patool_1.12-5.dsc
+ f0ce33457a40ad3ec6a5e7d53f03ee85 68005 patool_1.12.orig.tar.gz
+ 162de9b5914db500c0630130f3a091ec 3768 patool_1.12-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/patool
+Vcs-Git: https://salsa.debian.org/debian/patool.git
+Checksums-Sha256:
+ c45b5db14d5e074da33193f26d729274c16eafd6cc69ea517e58c3712b195df8 1909 patool_1.12-5.dsc
+ 2c3c8237a895ce4c18562ab1a89d50c7260af1a25a1b9b21694b4a22c1123bd1 68005 patool_1.12.orig.tar.gz
+ c5f247bb91819a9ea37059e69bb301c8adbc15fe7ec61baada523e08f1f0b807 3768 patool_1.12-5.debian.tar.xz
+Homepage: http://wummel.github.io/patool/
+Package-List: 
+ patool deb utils optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/patool
+Priority: source
+Section: misc

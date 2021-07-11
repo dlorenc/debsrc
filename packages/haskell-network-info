@@ -1,0 +1,28 @@
+Package: haskell-network-info
+Binary: libghc-network-info-dev, libghc-network-info-prof, libghc-network-info-doc
+Version: 0.2.0.10-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e3f1dce9e37a61ba07bb205c0f553b30 2388 haskell-network-info_0.2.0.10-3.dsc
+ f4cbad23dd1012504dc1b76092848578 6278 haskell-network-info_0.2.0.10.orig.tar.gz
+ 87d67b4f7c87e27c90f07a38510a834e 3208 haskell-network-info_0.2.0.10-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-network-info
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-network-info]
+Checksums-Sha256:
+ c5a17b8e4bae7cb9ebe036d0433b088889c20e9f909fd819fd5999ef92d786e9 2388 haskell-network-info_0.2.0.10-3.dsc
+ 5680f6975d34cf4f81fa7ca0c8efd682261d6a1119e06dece0f67c7bd97fd52a 6278 haskell-network-info_0.2.0.10.orig.tar.gz
+ 616d79bc740035e710331a46d8f20d29cda711e084c5ff04483b85de310f80e0 3208 haskell-network-info_0.2.0.10-3.debian.tar.xz
+Homepage: https://github.com/jystic/network-info
+Package-List: 
+ libghc-network-info-dev deb haskell optional arch=any
+ libghc-network-info-doc deb doc optional arch=all
+ libghc-network-info-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-network-info
+Priority: source
+Section: misc

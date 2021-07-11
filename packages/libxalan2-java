@@ -1,0 +1,27 @@
+Package: libxalan2-java
+Binary: libxalan2-java, libxsltc-java, libxalan2-java-doc
+Version: 2.7.2-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Marcus Better <marcus@better.se>, Matthias Klose <doko@ubuntu.com>, Jakub Adam <jakub.adam@ktknet.cz>
+Build-Depends: ant (>= 1.6.3), cup, debhelper (>= 11), default-jdk, javahelper, jlex, libbcel-java (>= 5.0), libbsf-java, libregexp-java, libstylebook-java (>> 1.0~b3~svn20061109-4), libxerces2-java (>= 2.8.0), maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9dc920fbc5f39aa2fbf69008f1029f7f 2385 libxalan2-java_2.7.2-4.dsc
+ 3e513013af0685bba331c8548e08e770 2269216 libxalan2-java_2.7.2.orig.tar.xz
+ b3039dc07fe39e016d1900e5a8f8a66a 14712 libxalan2-java_2.7.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/libxalan2-java
+Vcs-Git: https://salsa.debian.org/java-team/libxalan2-java.git
+Checksums-Sha256:
+ f99ebb79caf45d0265cee229438d5d37a40c19c8928aad78a5254d995ceecdb2 2385 libxalan2-java_2.7.2-4.dsc
+ 4850ab3de0ccb2ec05173a76e4dd9d938547bd21d9a0b3e23930c97f06f305d0 2269216 libxalan2-java_2.7.2.orig.tar.xz
+ a8901e26aa9e1a8e9c45f436e902226dcb56a3a7acfc9b66196863b038b99880 14712 libxalan2-java_2.7.2-4.debian.tar.xz
+Homepage: http://xalan.apache.org/xalan-j/
+Package-List: 
+ libxalan2-java deb java optional arch=all
+ libxalan2-java-doc deb doc optional arch=all
+ libxsltc-java deb java optional arch=all
+Directory: pool/main/libx/libxalan2-java
+Priority: source
+Section: java

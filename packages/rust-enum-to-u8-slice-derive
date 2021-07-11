@@ -1,0 +1,26 @@
+Package: rust-enum-to-u8-slice-derive
+Binary: librust-enum-to-u8-slice-derive-dev
+Version: 0.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Bastian Germann <bastiangermann@fishpost.de>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f01eb4f4e7a9549a24dc903b5da27a17 2410 rust-enum-to-u8-slice-derive_0.2.0-1.dsc
+ 465013bf516424e7015f1c90bdf30423 1633 rust-enum-to-u8-slice-derive_0.2.0.orig.tar.gz
+ b55599b769d613d14fac09184a35ca6b 2648 rust-enum-to-u8-slice-derive_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/enum-to-u8-slice-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/enum-to-u8-slice-derive]
+Checksums-Sha256:
+ 117c97121936a285461c0a2891033507d040c5bdb7a392a66bd89fb683adbe0a 2410 rust-enum-to-u8-slice-derive_0.2.0-1.dsc
+ eccee0cfaad9bfb68b50be2270464cd25c217b9117ea57c2876d978a954e61a9 1633 rust-enum-to-u8-slice-derive_0.2.0.orig.tar.gz
+ fc4ceca4a7ffbc544851602a8d52f95cc66740f420c427dc80b3704a4a29d994 2648 rust-enum-to-u8-slice-derive_0.2.0-1.debian.tar.xz
+Package-List: 
+ librust-enum-to-u8-slice-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-enum-to-u8-slice-derive
+Priority: extra
+Section: misc

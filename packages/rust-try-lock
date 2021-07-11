@@ -1,0 +1,25 @@
+Package: rust-try-lock
+Binary: librust-try-lock-dev
+Version: 0.2.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ f7614f28d2a230dffe332fe5c8a1e6ae 1500 rust-try-lock_0.2.2-2.dsc
+ 6514dcb2766ebd1ed2c6dd77a851d53e 3638 rust-try-lock_0.2.2.orig.tar.gz
+ d23d9ecf640b867a3f62fd886bac575c 2320 rust-try-lock_0.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/try-lock
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/try-lock]
+Checksums-Sha256:
+ caef311460b879a232ae905d94781b83543c42a208b33581964aaeeb2be58bf6 1500 rust-try-lock_0.2.2-2.dsc
+ e604eb7b43c06650e854be16a2a03155743d3752dd1c943f6829e26b7a36e382 3638 rust-try-lock_0.2.2.orig.tar.gz
+ 51f503bcf55f840c3056a17a119e7179b681ebbe57eb84bcffa3815096fc5dd7 2320 rust-try-lock_0.2.2-2.debian.tar.xz
+Homepage: https://github.com/seanmonstar/try-lock
+Package-List: 
+ librust-try-lock-dev deb rust optional arch=any
+Directory: pool/main/r/rust-try-lock
+Priority: extra
+Section: misc

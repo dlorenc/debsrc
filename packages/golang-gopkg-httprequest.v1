@@ -1,0 +1,27 @@
+Package: golang-gopkg-httprequest.v1
+Binary: golang-gopkg-httprequest.v1-dev
+Version: 0.0~git20171212.fdaf1bf-5
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>
+Build-Depends: debhelper (>= 10), dh-golang, golang-any, golang-github-julienschmidt-httprouter-dev, golang-golang-x-net-dev, golang-golang-x-tools-dev, golang-gopkg-check.v1-dev, golang-gopkg-errgo.v1-dev
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 669a4501e91ee6796ae51f37bcd85c51 2537 golang-gopkg-httprequest.v1_0.0~git20171212.fdaf1bf-5.dsc
+ 44c26d81893c7d2835ed9f648d76c293 43068 golang-gopkg-httprequest.v1_0.0~git20171212.fdaf1bf.orig.tar.xz
+ 6c548786431b05609b9e1f1ad54b63bc 2072 golang-gopkg-httprequest.v1_0.0~git20171212.fdaf1bf-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-gopkg-httprequest.v1
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-gopkg-httprequest.v1.git
+Checksums-Sha256:
+ 8fa4f8c895d85d6f4378976a92247e92040912f75508a88af9e9ad12c22a248c 2537 golang-gopkg-httprequest.v1_0.0~git20171212.fdaf1bf-5.dsc
+ e9e2801962d133e64d6f55ad79d2954eec246f3ec92b941a5ac50a247dedfd76 43068 golang-gopkg-httprequest.v1_0.0~git20171212.fdaf1bf.orig.tar.xz
+ 572f1f750985b9f222d08ea700e8bd9fd2db0e0d79aa6545f745a4bad5bae026 2072 golang-gopkg-httprequest.v1_0.0~git20171212.fdaf1bf-5.debian.tar.xz
+Homepage: https://github.com/go-httprequest/httprequest
+Go-Import-Path: gopkg.in/httprequest.v1,
+Package-List: 
+ golang-gopkg-httprequest.v1-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-gopkg-httprequest.v1
+Priority: extra
+Section: golang

@@ -1,0 +1,29 @@
+Package: ksysguard
+Binary: ksysguard, ksysguard-data, ksysguardd
+Version: 4:5.20.5-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Moore <sgmoore@kde.org>, Patrick Franz <patfra71@gmail.com>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.0~), debhelper-compat (= 13), dh-exec, extra-cmake-modules (>= 5.74~), gettext, kinit-dev (>= 5.74~), libcap-dev [linux-any], libcap2-bin [linux-any], libkf5config-dev (>= 5.74~), libkf5coreaddons-dev (>= 5.74~), libkf5dbusaddons-dev (>= 5.74~), libkf5doctools-dev (>= 5.74~), libkf5i18n-dev (>= 5.74~), libkf5iconthemes-dev (>= 5.74~), libkf5itemviews-dev (>= 5.74~), libkf5kio-dev (>= 5.74~), libkf5networkmanagerqt-dev (>= 5.74~) [linux-any], libkf5newstuff-dev (>= 5.74~), libkf5notifications-dev (>= 5.74~), libkf5sysguard-dev (>= 4:5.19~), libkf5windowsystem-dev (>= 5.74~), libnl-3-dev [linux-any], libpcap0.8-dev, libsensors-dev [linux-any], pkg-config, pkg-kde-tools (>= 0.15.18~), qtbase5-dev (>= 5.15.0~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 10dc7a9c16707fcf2c9547a3639ddee2 3092 ksysguard_5.20.5-2.dsc
+ bc068a864d41df5c04982140dd7b9c55 564408 ksysguard_5.20.5.orig.tar.xz
+ 5fcd31fce8d16140eeee6ce58b6074ba 488 ksysguard_5.20.5.orig.tar.xz.asc
+ ed60512585d57b4569a95c427c8b35c5 17088 ksysguard_5.20.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/ksysguard
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/ksysguard.git
+Checksums-Sha256:
+ 01a4026f692f2b7cdfb513ef655f5036ac6a1c6ec4687a42f664753f099ab9ea 3092 ksysguard_5.20.5-2.dsc
+ 32f5227b2c1f91cd64fcee6b401209582cfffb16e2b015c6d6513e9f4d1dab35 564408 ksysguard_5.20.5.orig.tar.xz
+ c6aa0c3a53e369ff70fe8f73e4c3d20065f502faec08c8667799ee521817bdde 488 ksysguard_5.20.5.orig.tar.xz.asc
+ f4bd0b53081fd641dd389ba8a2bdd7f2d090c4f98d670faf1dce9dd0ed557a2f 17088 ksysguard_5.20.5-2.debian.tar.xz
+Homepage: https://www.kde.org/applications/system/ksysguard
+Package-List: 
+ ksysguard deb kde optional arch=any
+ ksysguard-data deb kde optional arch=all
+ ksysguardd deb kde optional arch=any
+Directory: pool/main/k/ksysguard
+Priority: optional
+Section: misc

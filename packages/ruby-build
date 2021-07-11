@@ -1,0 +1,27 @@
+Package: ruby-build
+Binary: ruby-build
+Version: 20200401-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Sebastian Boehm <sebastian@sometimesfood.org>, Piper McCorkle <piperswe@gmail.com>
+Build-Depends: asciidoctor, debhelper-compat (= 12)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 33ccc551efba7399da5f33a51ae965b1 2075 ruby-build_20200401-1.dsc
+ 1d09596c35d03aff4e9929bf6167bcc4 66933 ruby-build_20200401.orig.tar.gz
+ 80c196493945100db8b81f6aa1fe121d 6156 ruby-build_20200401-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-build
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-build.git
+Checksums-Sha256:
+ f06f7e31067b21f9d4bc9739c330e8c9b3d49e273333c44dd943b58e3c8d6f8f 2075 ruby-build_20200401-1.dsc
+ c67517e8c6b015134b1ae4b19a5a15728054a642fad7223cd28af3ba4cc1828e 66933 ruby-build_20200401.orig.tar.gz
+ d2651c544be56d3b2018263d5747664602e93fe7681cb8e43d9ed568d8e5330b 6156 ruby-build_20200401-1.debian.tar.xz
+Homepage: https://github.com/rbenv/ruby-build
+Package-List: 
+ ruby-build deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: bats
+Directory: pool/main/r/ruby-build
+Priority: source
+Section: ruby

@@ -1,0 +1,26 @@
+Package: rust-cast
+Binary: librust-cast-dev
+Version: 0.2.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-rustc-version-0.2+default-dev (>= 0.2.3-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5a6be900bb8fb5db1d488c4db1a83105 2174 rust-cast_0.2.3-1.dsc
+ 23b85ee4a9da0ded3c2ec3c24ef71654 11446 rust-cast_0.2.3.orig.tar.gz
+ 8701c7921977051056ceb0a717e46a3e 2600 rust-cast_0.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cast
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cast]
+Checksums-Sha256:
+ 84aae08f08ffa4a733b1aadcf5d524bc56e762bfa0379126e639a43a1dabeff7 2174 rust-cast_0.2.3-1.dsc
+ 4b9434b9a5aa1450faa3f9cb14ea0e8c53bb5d2b3c1bfd1ab4fc03e9f33fbfb0 11446 rust-cast_0.2.3.orig.tar.gz
+ 908bb70e960d7a5ab3e4f7d145862b9045add30ea27ce9e953251d53c8ea5ac2 2600 rust-cast_0.2.3-1.debian.tar.xz
+Package-List: 
+ librust-cast-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-quickcheck-0.9+default-dev
+Directory: pool/main/r/rust-cast
+Priority: extra
+Section: misc

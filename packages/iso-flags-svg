@@ -1,0 +1,26 @@
+Package: iso-flags-svg
+Binary: iso-flags-png-320x240, iso-flags-svg
+Version: 1.0.2-1.1
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Margarita Manterola <marga@debian.org>,
+Build-Depends: debhelper (>= 11~), imagemagick, libjson-perl, librsvg2-bin, libxml-libxml-perl
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ef82ebdf53b78de3c83afb72fd1eb011 2170 iso-flags-svg_1.0.2-1.1.dsc
+ 7260ce31492790492335ca0125553806 4649060 iso-flags-svg_1.0.2.orig.tar.xz
+ edaa184cb8e833b5fd9cc955b477f26d 2388 iso-flags-svg_1.0.2-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cinnamon-team/iso-flags-svg
+Vcs-Git: https://salsa.debian.org/cinnamon-team/iso-flags-svg.git
+Checksums-Sha256:
+ 82b810b90c778fb515604c62539230bd814dd8eeda8481eb5de0e07071d3f260 2170 iso-flags-svg_1.0.2-1.1.dsc
+ ae26e6357923a9c759b0af244d9829c4ac7a0771ad6d82096e90a554afdaea19 4649060 iso-flags-svg_1.0.2.orig.tar.xz
+ 8860ca2eaa8d8ac4a019c0332b5a0097519abe47a77acffd9487aaf6af826388 2388 iso-flags-svg_1.0.2-1.1.debian.tar.xz
+Homepage: https://github.com/joielechong/iso-country-flags-svg-collection
+Package-List: 
+ iso-flags-png-320x240 deb misc optional arch=all
+ iso-flags-svg deb misc optional arch=all
+Directory: pool/main/i/iso-flags-svg
+Priority: optional
+Section: misc

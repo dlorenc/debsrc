@@ -1,0 +1,27 @@
+Package: canid
+Binary: canid
+Version: 0.0~git20180613.007c9af-2
+Maintainer: Internet Measurement Packaging Team <pkg-netmeasure-discuss@lists.alioth.debian.org>
+Uploaders: Iain R. Learmonth <irl@debian.org>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 3d5bc83397654d34cdd945d0c480a7e3 2107 canid_0.0~git20180613.007c9af-2.dsc
+ 17a827bb3e2103d72a7e301b269818bd 10537 canid_0.0~git20180613.007c9af.orig.tar.gz
+ 2180aed7e289c2a616e750cd888244e6 2560 canid_0.0~git20180613.007c9af-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ineteng-team/canid
+Vcs-Git: https://salsa.debian.org/ineteng-team/canid.git
+Checksums-Sha256:
+ 4f9e440f2c5a3f710d7b853ee714ff71f2955888301a4e6ef0a4f731c21453c3 2107 canid_0.0~git20180613.007c9af-2.dsc
+ 694e0f15e25ff0084a98c1a4d36762b94075d609120271152d35abc41901496d 10537 canid_0.0~git20180613.007c9af.orig.tar.gz
+ 9f8f0b394e96e17bea223f2e8e75453ca812373fffe0698c428d57144cf629f2 2560 canid_0.0~git20180613.007c9af-2.debian.tar.xz
+Homepage: https://github.com/britram/canid
+Go-Import-Path: github.com/britram/canid
+Package-List: 
+ canid deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/c/canid
+Priority: extra
+Section: misc

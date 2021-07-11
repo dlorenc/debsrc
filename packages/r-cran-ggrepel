@@ -1,0 +1,27 @@
+Package: r-cran-ggrepel
+Binary: r-cran-ggrepel
+Version: 0.9.1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>, Joost van Baal-Ilić <joostvb@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2 (>= 2.2.0), r-cran-rcpp, r-cran-rlang, r-cran-scales (>= 0.5.0)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0c5b31870a198c01812f86626da0c188 2229 r-cran-ggrepel_0.9.1-1.dsc
+ e90add4b31a4088f529fb2ac8f444095 271371 r-cran-ggrepel_0.9.1.orig.tar.gz
+ b6065fe23916a27cbc36c2cca1cfd3be 2312 r-cran-ggrepel_0.9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-ggrepel
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-ggrepel.git
+Checksums-Sha256:
+ 0073ec5c1a5965ef06db62bd9e036e60bbb5f7d667387f8529c68ed8da714d60 2229 r-cran-ggrepel_0.9.1-1.dsc
+ 29fb916d4799ba6503a5dd019717ffdf154d2aaae9ff1736f03e2be24af6bdfc 271371 r-cran-ggrepel_0.9.1.orig.tar.gz
+ 86858422b6e129ecf6a38c33e4816a4912937a5c8e77a11208b8c32923349e8e 2312 r-cran-ggrepel_0.9.1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=ggrepel
+Package-List: 
+ r-cran-ggrepel deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-ggrepel
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: golang-github-klauspost-pgzip
+Binary: golang-github-klauspost-pgzip-dev
+Version: 1.2.5-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Shengjing Zhu <i@zhsj.me>, Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-klauspost-compress-dev (>= 1.1), pandoc
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1c1b3d26e8c70eb733fea9700cdbddd1 2534 golang-github-klauspost-pgzip_1.2.5-1.dsc
+ 2e217fc9d1ae124293e184619c251f1a 125923 golang-github-klauspost-pgzip_1.2.5.orig.tar.gz
+ 10f1e3bfa43fac1a53a65294ad7d828a 4052 golang-github-klauspost-pgzip_1.2.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-klauspost-pgzip
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-klauspost-pgzip.git
+Checksums-Sha256:
+ 618f353071e241c9375fe61575cfd541543930f9c4e88bb78fd7b5221202f912 2534 golang-github-klauspost-pgzip_1.2.5-1.dsc
+ a64bad5981a232f6b5a40e488708b19a0551e83465f6792b7925f90829d7a830 125923 golang-github-klauspost-pgzip_1.2.5.orig.tar.gz
+ 911ac5962d6fcceea34075e06cd3f2f0660484a590baf75ee38a8608b23e40eb 4052 golang-github-klauspost-pgzip_1.2.5-1.debian.tar.xz
+Homepage: https://github.com/klauspost/pgzip
+Dgit: 02d73a64e4ecd0e4e369f6110ee328230c8b18d6 debian archive/debian/1.2.5-1 https://git.dgit.debian.org/golang-github-klauspost-pgzip
+Go-Import-Path: github.com/klauspost/pgzip
+Package-List: 
+ golang-github-klauspost-pgzip-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-klauspost-pgzip
+Priority: extra
+Section: golang

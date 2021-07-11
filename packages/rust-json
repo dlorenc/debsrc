@@ -1,0 +1,26 @@
+Package: rust-json
+Binary: librust-json-dev
+Version: 0.12.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 84fee029fbd3b37300786f5f3b957283 2069 rust-json_0.12.0-2.dsc
+ 098cd1c340cc40cd98c498ec1f17b3eb 46747 rust-json_0.12.0.orig.tar.gz
+ 65c7e6a5655b333abc57bb82837ea161 2624 rust-json_0.12.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/json
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/json]
+Checksums-Sha256:
+ aa85bc9faa39021b4078cde6adcd7698c48dfcdfb7ffcfa08218061c4058255f 2069 rust-json_0.12.0-2.dsc
+ b3ca41abbeb7615d56322a984e63be5e5d0a117dfaca86c14393e32a762ccac1 46747 rust-json_0.12.0.orig.tar.gz
+ c74e4abaaee78f6ef2c24e79f267ee8ddb24a194e30f47c50bba4a6b09bd0a77 2624 rust-json_0.12.0-2.debian.tar.xz
+Package-List: 
+ librust-json-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-json
+Priority: extra
+Section: misc

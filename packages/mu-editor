@@ -1,0 +1,28 @@
+Package: mu-editor
+Binary: mu-editor, mu-editor-doc
+Version: 1.0.3+dfsg-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Nick Morrott <nickm@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, fonts-inconsolata, pandoc, python3 (>= 3.6), python3-appdirs (>= 1.4.3), python3-matplotlib (>= 2.2.2), python3-mock, python3-nudatus, python3-pil, python3-pycodestyle (>= 2.4.0), python3-pyflakes (>= 2.0.0), python3-pyqt5 (>= 5.11.3), python3-pyqt5.qsci (>= 2.10.4), python3-pyqt5.qtchart (>= 5.10.1), python3-pyqt5.qtserialport (>= 5.11.3), python3-pytest, python3-pytest-random-order, python3-pytest-xvfb, python3-qtconsole (>= 4.3.1), python3-requests, python3-semver (>= 2.0.1), python3-serial (>= 3.4), python3-setuptools, python3-sphinx, python3-tk, python3-uflash
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fa06fd3c187c09338412c1596b27bdb2 2645 mu-editor_1.0.3+dfsg-2.dsc
+ c3b3d9055ed3ce0a089037cb45b35858 4256720 mu-editor_1.0.3+dfsg.orig.tar.xz
+ 68fc2e86ce805a5b1f42843274281d43 11688 mu-editor_1.0.3+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/mu-editor
+Vcs-Git: https://salsa.debian.org/python-team/packages/mu-editor.git
+Checksums-Sha256:
+ 6e9e7d959bb349ee4de1241371182acd15ddc563a5aef0b92681ecd9bb2d4116 2645 mu-editor_1.0.3+dfsg-2.dsc
+ cfce3b9ef680966a1b892cb1069b99c8e6262735098b374df910dd0da92b1f93 4256720 mu-editor_1.0.3+dfsg.orig.tar.xz
+ 64187037998d1a988a53c5c70418b89a48c852bbbe92a7015c801ef5ae05b393 11688 mu-editor_1.0.3+dfsg-2.debian.tar.xz
+Homepage: https://codewith.mu/
+Package-List: 
+ mu-editor deb python optional arch=all
+ mu-editor-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/m/mu-editor
+Priority: extra
+Section: misc

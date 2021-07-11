@@ -1,0 +1,26 @@
+Package: node-cors
+Binary: node-cors
+Version: 2.8.5-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-after <!nocheck>, node-express <!nocheck>, node-object-assign <!nocheck>, node-supertest <!nocheck>, node-vary <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 49a7f55d33f7a1eb38d2e8c73bc72a82 2134 node-cors_2.8.5-1.dsc
+ 22b6804ed81a4bcbe41cb9843483190b 9899 node-cors_2.8.5.orig.tar.gz
+ 5640ae1f9e4d918f44636a9e29f78b9e 2608 node-cors_2.8.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cors
+Vcs-Git: https://salsa.debian.org/js-team/node-cors.git
+Checksums-Sha256:
+ 729d76c21a10e5c3855a00dbd480c5458453c0aba5af0a20bd9246c88e6619a9 2134 node-cors_2.8.5-1.dsc
+ 2441620f3df7de56ec66d38268037095c0661f598d8f9c1e2febc733a6d7940a 9899 node-cors_2.8.5.orig.tar.gz
+ bce968232536eb2a00191e69ee1aad08253e3b678d8a8141878edc40a9cde3cb 2608 node-cors_2.8.5-1.debian.tar.xz
+Homepage: https://github.com/expressjs/cors/
+Package-List: 
+ node-cors deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cors
+Priority: optional
+Section: javascript

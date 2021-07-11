@@ -1,0 +1,27 @@
+Package: frog
+Binary: frog, libfrog-dev, libfrog2
+Version: 0.20-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Maarten van Gompel <proycon@anaproy.nl>, Ko van der Sloot <k.vandersloot@let.ru.nl>
+Build-Depends: debhelper-compat (= 12), frogdata (>= 0.18), libexttextcat-dev, libfolia-dev (>= 2.4), libicu-dev (>= 52), libmbt-dev (>= 3.6), libticcutils-dev (>= 0.24), libtimbl-dev (>= 6.5), libtimblserver-dev (>= 1.14), libucto-dev (>= 0.21), libxml2-dev, pkg-config, uctodata (>= 0.8)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 33211b3c5ae94c99980d66786998cf0b 1935 frog_0.20-2.dsc
+ d53aa2d807e059885bdb13fed12849fd 580862 frog_0.20.orig.tar.gz
+ c28d66e9c1fcabe4e91824b80eeb5121 7032 frog_0.20-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/frog
+Vcs-Git: https://salsa.debian.org/science-team/frog.git
+Checksums-Sha256:
+ fe05c5ad58d973177df969b9e1a47082894216bac6574105ab4f6d6653a19451 1935 frog_0.20-2.dsc
+ 1862d780d2edebb2dfd9c6ae86c7df56806ff93ca60a086ad4d536b1b772fe3c 580862 frog_0.20.orig.tar.gz
+ f464ff262d1cbad014e14aee82cb0691230c1f08e7f1da1078af9f6192ef865b 7032 frog_0.20-2.debian.tar.xz
+Homepage: https://languagemachines.github.io/frog/
+Package-List: 
+ frog deb science optional arch=any
+ libfrog-dev deb libdevel optional arch=any
+ libfrog2 deb libs optional arch=any
+Directory: pool/main/f/frog
+Priority: source
+Section: science

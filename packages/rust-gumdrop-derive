@@ -1,0 +1,28 @@
+Package: rust-gumdrop-derive
+Binary: librust-gumdrop-derive-dev, librust-gumdrop-derive+default-expr-dev
+Version: 0.7.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ acce92b5cfbd64748ec133c84820e396 1855 rust-gumdrop-derive_0.7.0-2.dsc
+ 78a94eabd6d972d5706afc3d3b0d111a 11391 rust-gumdrop-derive_0.7.0.orig.tar.gz
+ 2e4195dc031918fffc89e5928ea83e2a 2860 rust-gumdrop-derive_0.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gumdrop-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gumdrop-derive]
+Checksums-Sha256:
+ d98d321acaf81c830fd57f056d57e19c2bd7dcb466964e793e861a61068e9f56 1855 rust-gumdrop-derive_0.7.0-2.dsc
+ d0dfb3f81789b75d8246cf3464a2ae9f96e4341b94e19395edef547e094e0ea7 11391 rust-gumdrop-derive_0.7.0.orig.tar.gz
+ 723c54ebe1015bc7275dc9f6237a250a1e29e22e141904d782e4c42ba8bd12ec 2860 rust-gumdrop-derive_0.7.0-2.debian.tar.xz
+Homepage: https://github.com/murarth/gumdrop
+Package-List: 
+ librust-gumdrop-derive+default-expr-dev deb rust optional arch=any
+ librust-gumdrop-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-gumdrop-derive
+Priority: extra
+Section: misc

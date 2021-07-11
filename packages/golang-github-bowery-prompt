@@ -1,0 +1,27 @@
+Package: golang-github-bowery-prompt
+Binary: golang-github-bowery-prompt-dev
+Version: 0.0~git20190916.fa82799-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-golang-x-crypto-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3cbc0930fa3e797542a58c9d6454e492 2367 golang-github-bowery-prompt_0.0~git20190916.fa82799-1.dsc
+ f8933d66b1903985b9978daccd2138d9 10632 golang-github-bowery-prompt_0.0~git20190916.fa82799.orig.tar.xz
+ 1e364ce6ef043f2b4e9e18d90f888167 2792 golang-github-bowery-prompt_0.0~git20190916.fa82799-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-bowery-prompt
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-bowery-prompt.git
+Checksums-Sha256:
+ 089695549983e3e82132e7b48c1fa368326eea70bcf48a3e131e9c8cff8b192b 2367 golang-github-bowery-prompt_0.0~git20190916.fa82799-1.dsc
+ 18255800fbf5339c18bf568f407d96bdb0ca475b6bb0200ce4050fd57a760917 10632 golang-github-bowery-prompt_0.0~git20190916.fa82799.orig.tar.xz
+ ce1f068018699b7bf82c862f4f84e18a51cf0f2a9ae4ccad1bbfe79a9fed184e 2792 golang-github-bowery-prompt_0.0~git20190916.fa82799-1.debian.tar.xz
+Homepage: https://github.com/Bowery/prompt
+Go-Import-Path: github.com/Bowery/prompt
+Package-List: 
+ golang-github-bowery-prompt-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-bowery-prompt
+Priority: extra
+Section: golang

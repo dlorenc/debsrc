@@ -1,0 +1,27 @@
+Package: golang-github-emersion-go-smtp
+Binary: golang-github-emersion-go-smtp-dev
+Version: 0.11.2-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: suman <suman@protonmail.com>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-emersion-go-sasl-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5273a927221a01f93217289ea31d4160 2294 golang-github-emersion-go-smtp_0.11.2-2.dsc
+ f3210a7d7deff2e9fe55829376fc0694 24309 golang-github-emersion-go-smtp_0.11.2.orig.tar.gz
+ 884ae85127f6ae40a9cb356b9d6a1bcf 2840 golang-github-emersion-go-smtp_0.11.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-emersion-go-smtp
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-emersion-go-smtp.git
+Checksums-Sha256:
+ 1365a3cb2f5d36170af579a355bf3d83018ba987b8f8869cc875f8d37752569b 2294 golang-github-emersion-go-smtp_0.11.2-2.dsc
+ 8ff2245d939e20d284e2db3060b75dc9fde7eff6b59a47c0c81f7dd7ed5f965f 24309 golang-github-emersion-go-smtp_0.11.2.orig.tar.gz
+ d5847262d231fde7e1dfd3e565ea3efd5791544310f93cde94c3fde953e00155 2840 golang-github-emersion-go-smtp_0.11.2-2.debian.tar.xz
+Homepage: https://github.com/emersion/go-smtp
+Go-Import-Path: github.com/emersion/go-smtp
+Package-List: 
+ golang-github-emersion-go-smtp-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-emersion-go-smtp
+Priority: extra
+Section: golang

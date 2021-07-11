@@ -1,0 +1,27 @@
+Package: ruby-pry-rails
+Binary: ruby-pry-rails
+Version: 0.3.9-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake, pry (>= 0.10.4), ruby-rspec, ruby-railties, ruby-activerecord, ruby-sqlite3
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5a24712b88e2012f789b2cb1e9a5865a 2138 ruby-pry-rails_0.3.9-2.dsc
+ 8696df0886872345bf80528a13fdfa99 12998 ruby-pry-rails_0.3.9.orig.tar.gz
+ 5dc350fec79a3b36be3c1154a27715ab 2416 ruby-pry-rails_0.3.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-pry-rails
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-pry-rails.git
+Checksums-Sha256:
+ ea4eb2f8d10a92ef44fb9f3bf417ce238a2cac611806fa5f3d91103c4c829284 2138 ruby-pry-rails_0.3.9-2.dsc
+ f25ac5b26c6d8a76bc80d8f54178bdc4df4865d17baefe8cddd2b3825cc4f5be 12998 ruby-pry-rails_0.3.9.orig.tar.gz
+ 0e6c2033eadf65e3bb636316f8c08d4a3733efc23089afe91fe6f5390b4c7136 2416 ruby-pry-rails_0.3.9-2.debian.tar.xz
+Homepage: https://github.com/rweng/pry-rails
+Package-List: 
+ ruby-pry-rails deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-pry-rails
+Priority: extra
+Section: misc

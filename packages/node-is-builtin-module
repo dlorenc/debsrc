@@ -1,0 +1,26 @@
+Package: node-is-builtin-module
+Binary: node-is-builtin-module
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-builtin-modules, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 80d06cce2dfb75e2a21bc06e62df6a29 2179 node-is-builtin-module_3.0.0-1.dsc
+ 6f8ac8e01741b221c9ad7f6a72c11440 2082 node-is-builtin-module_3.0.0.orig.tar.gz
+ a29a185269fd2a44d75c6c98440c0a6d 2792 node-is-builtin-module_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-builtin-module
+Vcs-Git: https://salsa.debian.org/js-team/node-is-builtin-module.git
+Checksums-Sha256:
+ 9d79f51907a725bd554c42d7249848d019373a944e044a2680e83354afa3a8c0 2179 node-is-builtin-module_3.0.0-1.dsc
+ 728f434e9cd4df8475f08f8ed01ba60f9e2004c7a9a70fdf25d2f3f94f81f657 2082 node-is-builtin-module_3.0.0.orig.tar.gz
+ f430a270a2aac01605fcbdb79d4885206d31b0b0aef3598e1685b4a1fa23afbf 2792 node-is-builtin-module_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/is-builtin-module
+Package-List: 
+ node-is-builtin-module deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-is-builtin-module
+Priority: optional
+Section: javascript

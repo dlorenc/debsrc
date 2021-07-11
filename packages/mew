@@ -1,0 +1,25 @@
+Package: mew
+Binary: mew, mew-bin
+Version: 1:6.8-13
+Maintainer: Tatsuya Kinoshita <tats@debian.org>
+Build-Depends: debhelper-compat (= 13), zlib1g-dev (>= 1:1.1.3)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f8181b8d8503cdca8df02fdf0453b9ef 1822 mew_6.8-13.dsc
+ 9601f98c8d3adb229841601aecd17035 991876 mew_6.8.orig.tar.gz
+ aa6c29663c0ac4aefe3f41b20e06450c 54300 mew_6.8-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/mew
+Vcs-Git: https://salsa.debian.org/debian/mew.git
+Checksums-Sha256:
+ be3265f860ff2d186292b6875289497e1e210bc561698cbd71f384718fefafab 1822 mew_6.8-13.dsc
+ cf44c4f9ca704ba1edce7134bc7f38a17361391d5be1090221431a3a06f6bf47 991876 mew_6.8.orig.tar.gz
+ 05458b86c94b22fb1a5edbf5ab05888ce04c68af5f44f43b0af9286808fca41d 54300 mew_6.8-13.debian.tar.xz
+Homepage: http://www.mew.org/
+Package-List: 
+ mew deb lisp optional arch=all
+ mew-bin deb mail optional arch=any
+Directory: pool/main/m/mew
+Priority: source
+Section: mail

@@ -1,0 +1,37 @@
+Package: bind9
+Binary: bind9, bind9utils, bind9-utils, bind9-doc, bind9-host, bind9-libs, bind9-dev, dnsutils, bind9-dnsutils
+Version: 1:9.16.15-1
+Maintainer: Debian DNS Team <team+dns@tracker.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Bernhard Schmidt <berni@debian.org>
+Build-Depends: bison, debhelper-compat (= 12), dh-apparmor, dh-exec, dh-python, libcap2-dev [linux-any], libcmocka-dev, libdb-dev, libedit-dev, libfstrm-dev, libidn2-dev, libjson-c-dev, libkrb5-dev, libldap2-dev, liblmdb-dev, libmaxminddb-dev (>= 1.3.0), libprotobuf-c-dev, libssl-dev, libtool, libuv1-dev, libxml2-dev, pkg-config, protobuf-c-compiler, python3, python3-ply, zlib1g-dev
+Build-Depends-Indep: fonts-freefont-otf, latexmk, python3-sphinx, python3-sphinx-rtd-theme, texlive-fonts-recommended, texlive-latex-recommended, texlive-xetex, xindy
+Architecture: any all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 43334d6c45321a1dc5f355a446979657 3236 bind9_9.16.15-1.dsc
+ 6c6e5bb21763161bc68665b8729b3630 5025688 bind9_9.16.15.orig.tar.xz
+ a2e6a9234cd8726fd389e82dea656fec 833 bind9_9.16.15.orig.tar.xz.asc
+ 61004a2ae5bb8a04e7137c188a5ccb5f 89700 bind9_9.16.15-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/dns-team/bind9
+Vcs-Git: https://salsa.debian.org/dns-team/bind9.git
+Checksums-Sha256:
+ 758b08d2917f3610bdc0b481fa81540bd29b1052de8721cbb99ab379ba3d7036 3236 bind9_9.16.15-1.dsc
+ 98b6f432d878a7bf8f57eb7b3c28be27278cf6b9989154bfe6c81104b38e7839 5025688 bind9_9.16.15.orig.tar.xz
+ 55628031d8c5697707e1f8ad3d8033f72ffb987cdc392d578ec4bc89c968822e 833 bind9_9.16.15.orig.tar.xz.asc
+ 8af2c74d4a1a6ea8e3d8cc88b14248d9b447711da9dda3ce6eaee0edd485d87b 89700 bind9_9.16.15-1.debian.tar.xz
+Homepage: https://www.isc.org/downloads/bind/
+Package-List: 
+ bind9 deb net optional arch=any
+ bind9-dev deb devel optional arch=any
+ bind9-dnsutils deb net standard arch=any
+ bind9-doc deb doc optional arch=all
+ bind9-host deb net standard arch=any
+ bind9-libs deb libs standard arch=any
+ bind9-utils deb net optional arch=any
+ bind9utils deb oldlibs optional arch=all
+ dnsutils deb oldlibs optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/b/bind9
+Priority: source
+Section: net

@@ -1,0 +1,27 @@
+Package: python-nameparser
+Binary: python3-nameparser
+Version: 1.0.6-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Edward Betts <edward@4angle.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-dill, python3-nose, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 418d59c1f7b5cfcc443693493183d4f0 2159 python-nameparser_1.0.6-2.dsc
+ 391ce40e251c1206c504dc374e13d094 34307 python-nameparser_1.0.6.orig.tar.gz
+ 366e3dd68a2b358487dbb2f7a09ba3f1 2620 python-nameparser_1.0.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-nameparser
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-nameparser.git
+Checksums-Sha256:
+ af8c3435de043fe6a1f1ed9bd973c25f94f8b7d7773193af17a1a87ceb927491 2159 python-nameparser_1.0.6-2.dsc
+ 2a5f509b50a25880c2cb0850ea1b99694241e7e1aacdcb3704f7b3cf549e652b 34307 python-nameparser_1.0.6.orig.tar.gz
+ 545c0ccf46274136a6adea63e76d60bfe0eba1f80f9a70b353f2f1adee22c156 2620 python-nameparser_1.0.6-2.debian.tar.xz
+Homepage: https://github.com/derek73/python-nameparser
+Package-List: 
+ python3-nameparser deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-dill
+Directory: pool/main/p/python-nameparser
+Priority: optional
+Section: misc

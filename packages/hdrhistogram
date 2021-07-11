@@ -1,0 +1,25 @@
+Package: hdrhistogram
+Binary: libhdrhistogram-java
+Version: 2.1.11-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11), default-jdk, junit4, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, libreplacer-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 896a56fa0de0dfc64cdf59019eced439 2136 hdrhistogram_2.1.11-1.dsc
+ 88865c92f129e2e7ff990a8b526881bc 542152 hdrhistogram_2.1.11.orig.tar.xz
+ 07f74eccbfb6b10824c08755294af279 5808 hdrhistogram_2.1.11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/hdrhistogram
+Vcs-Git: https://salsa.debian.org/java-team/hdrhistogram.git
+Checksums-Sha256:
+ 8873f283e1556ebea16f8665202c7cdf1664dfcaa8e4c8536743605396119b4a 2136 hdrhistogram_2.1.11-1.dsc
+ 6645c0d4d5b1d94114172964ec5237c376fabb24ba3353c70d70d51cd7133e23 542152 hdrhistogram_2.1.11.orig.tar.xz
+ 0523da14d8b7a1374a8825a10c013abe2e2893655743cd84f9b1c005c44e1995 5808 hdrhistogram_2.1.11-1.debian.tar.xz
+Homepage: http://hdrhistogram.github.io/HdrHistogram/
+Package-List: 
+ libhdrhistogram-java deb java optional arch=all
+Directory: pool/main/h/hdrhistogram
+Priority: optional
+Section: misc

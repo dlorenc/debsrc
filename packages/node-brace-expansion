@@ -1,0 +1,26 @@
+Package: node-brace-expansion
+Binary: node-brace-expansion
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-balanced-match <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 99f89da6dd2d014e0fdcc59d2e8be305 2168 node-brace-expansion_2.0.0-1.dsc
+ f749eb36b07c66d1daa0c37518a03412 14715 node-brace-expansion_2.0.0.orig.tar.gz
+ 6abac5307af2d125c9cb5822834ac8ef 2852 node-brace-expansion_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-brace-expansion
+Vcs-Git: https://salsa.debian.org/js-team/node-brace-expansion.git
+Checksums-Sha256:
+ 1340067dc4b3b5d1c492c85cd8822ac862e63573e8a916aed49b223f2cf9c7ef 2168 node-brace-expansion_2.0.0-1.dsc
+ 59bf261f72821a85c29a81f9ae0b7732ee0d4159650c2cbf744793a47fa7a4a0 14715 node-brace-expansion_2.0.0.orig.tar.gz
+ 2680ff3bebeb6ca21a0d14a9be896155e31a5c170326e060017221b5eef58308 2852 node-brace-expansion_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/juliangruber/brace-expansion
+Package-List: 
+ node-brace-expansion deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-brace-expansion
+Priority: optional
+Section: javascript

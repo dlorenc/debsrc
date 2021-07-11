@@ -1,0 +1,26 @@
+Package: node-first-chunk-stream
+Binary: node-first-chunk-stream
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, node-streamtest <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 182d679a5b4353387a99c4287c524dee 2211 node-first-chunk-stream_4.0.0-1.dsc
+ 46cf835741e4b6c1eb1e4f01696af4a7 5575 node-first-chunk-stream_4.0.0.orig.tar.gz
+ 6c665d6f93686efa0ae9d190a59ec598 3296 node-first-chunk-stream_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-first-chunk-stream
+Vcs-Git: https://salsa.debian.org/js-team/node-first-chunk-stream.git
+Checksums-Sha256:
+ 7208109f6c4eac45af0b0e460ed01463a6e883abb9e4e1e9d44458c5746d2673 2211 node-first-chunk-stream_4.0.0-1.dsc
+ 9b4efe700a9e2955b83fb566c4e8fabe1515ca10b9c0512622551a1a7d13e381 5575 node-first-chunk-stream_4.0.0.orig.tar.gz
+ 4384b651bdc3ab2518d0ce72da77cbd9838cd86155dcb2a947451a883c54dbac 3296 node-first-chunk-stream_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/first-chunk-stream#readme
+Package-List: 
+ node-first-chunk-stream deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-first-chunk-stream
+Priority: optional
+Section: javascript

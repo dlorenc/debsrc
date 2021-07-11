@@ -1,0 +1,26 @@
+Package: rust-opaque-debug
+Binary: librust-opaque-debug-dev
+Version: 0.3.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9109c6a3ce1d4893610bcde76602e995 2140 rust-opaque-debug_0.3.0-1.dsc
+ 653e04baa68a4484b3b839c19221e474 5767 rust-opaque-debug_0.3.0.orig.tar.gz
+ 638166e0ac826d0bdaa4bd4dff9a3475 2632 rust-opaque-debug_0.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/opaque-debug
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/opaque-debug]
+Checksums-Sha256:
+ 751018fc2e80fc98802a2aad5719edd2d34872e23cc4523da2933365d2257b9a 2140 rust-opaque-debug_0.3.0-1.dsc
+ 624a8340c38c1b80fd549087862da4ba43e08858af025b236e509b6649fc13d5 5767 rust-opaque-debug_0.3.0.orig.tar.gz
+ 2883c101a6a1eba3c15d283016e3d8ace3284b03225816c643b8159f0e186c94 2632 rust-opaque-debug_0.3.0-1.debian.tar.xz
+Package-List: 
+ librust-opaque-debug-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-opaque-debug
+Priority: extra
+Section: misc

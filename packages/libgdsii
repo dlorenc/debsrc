@@ -1,0 +1,30 @@
+Package: libgdsii
+Binary: libgdsii0, libgdsii-dev, gdsiiconvert
+Version: 0.2+ds.1-1
+Maintainer: Debian Electronics Team <pkg-electronics-devel@lists.alioth.debian.org>
+Uploaders: Ruben Undheim <ruben.undheim@gmail.com>
+Build-Depends: debhelper-compat (= 12), txt2man
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 3abe0291ff47d1b0d4940c8e3e194588 2289 libgdsii_0.2+ds.1-1.dsc
+ a7539e3b946d413c80ab2b1d6b839718 480080 libgdsii_0.2+ds.1.orig.tar.xz
+ 552107b593f374abdc1ec95de3fcb4fe 3764 libgdsii_0.2+ds.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/electronics-team/libgdsii
+Vcs-Git: https://salsa.debian.org/electronics-team/libgdsii.git
+Checksums-Sha256:
+ 1af77063432f524202eaaa0a3fc5f82457d799b2cf64dae2d8438c4b48b5f6d3 2289 libgdsii_0.2+ds.1-1.dsc
+ f9068ae4c6627467a20fe5dc730165596349a5b3fc7a85d8ff31575f79156c36 480080 libgdsii_0.2+ds.1.orig.tar.xz
+ e9752f5a3281cc92e8f32d964b981b145e42107a6e2efc2cfd600d5520f861c7 3764 libgdsii_0.2+ds.1-1.debian.tar.xz
+Homepage: https://github.com/HomerReid/libGDSII
+Dgit: 97fb8efaef558df4cc14b23ef40ee8c1259ab09f debian archive/debian/0.2+ds.1-1 https://git.dgit.debian.org/libgdsii
+Package-List: 
+ gdsiiconvert deb utils optional arch=any
+ libgdsii-dev deb libdevel optional arch=any
+ libgdsii0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: g++, pkg-config
+Directory: pool/main/libg/libgdsii
+Priority: extra
+Section: misc

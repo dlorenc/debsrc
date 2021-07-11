@@ -1,0 +1,27 @@
+Package: servlet-api
+Binary: libservlet-api-java, libservlet-api-java-doc, libservlet3.1-java
+Version: 4.0.1-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 11), default-jdk, default-jdk-doc, libmaven-bundle-plugin-java (>= 3.5.1), libmaven-javadoc-plugin-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ e4b356d84f682b90d8cd4f172e14714c 2258 servlet-api_4.0.1-2.dsc
+ 025cc87ce1a2904273c06bd383fabb80 94792 servlet-api_4.0.1.orig.tar.xz
+ 4697042a24bf85375b535f17a483f2d3 10856 servlet-api_4.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/servlet-api
+Vcs-Git: https://salsa.debian.org/java-team/servlet-api.git
+Checksums-Sha256:
+ 9659543651f44d13bf137ac61f2ea4e6d33f21bed3deb0ad8bf6c9ab3e8837f8 2258 servlet-api_4.0.1-2.dsc
+ 26328ec380389cf60b9968ede81bab261409f6a2976635a826d3c39dbd8bacc4 94792 servlet-api_4.0.1.orig.tar.xz
+ 5505b670fa2a3cba350b5cc98c2276948804e35a9d9edb15dbc0f786f595a9ef 10856 servlet-api_4.0.1-2.debian.tar.xz
+Homepage: https://javaee.github.io/servlet-spec/
+Package-List: 
+ libservlet-api-java deb java optional arch=all
+ libservlet-api-java-doc deb doc optional arch=all
+ libservlet3.1-java deb oldlibs optional arch=all
+Directory: pool/main/s/servlet-api
+Priority: extra
+Section: misc

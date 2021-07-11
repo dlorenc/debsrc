@@ -1,0 +1,26 @@
+Package: node-querystringify
+Binary: node-querystringify
+Version: 2.2.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-assume <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9b45425da17bdef0c2976920e3ccf4d6 2142 node-querystringify_2.2.0-1.dsc
+ cb3e07f1764ed3b9e2719923360bbd53 4219 node-querystringify_2.2.0.orig.tar.gz
+ 94245da7e9541124e257be0bed237961 2752 node-querystringify_2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-querystringify
+Vcs-Git: https://salsa.debian.org/js-team/node-querystringify.git
+Checksums-Sha256:
+ 5e7b4e8e005ac59275752a4d59315414cbd34a697b01f00bdc79d317e4530761 2142 node-querystringify_2.2.0-1.dsc
+ 219477e180051b104366be0c35ccddb86744e3cffa8610ad549816d9a852cc31 4219 node-querystringify_2.2.0.orig.tar.gz
+ b806f4bc01187900d4b3c0c87e8ef19b038fef8424601f30081601979161197a 2752 node-querystringify_2.2.0-1.debian.tar.xz
+Homepage: https://github.com/unshiftio/querystringify
+Package-List: 
+ node-querystringify deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-querystringify
+Priority: optional
+Section: javascript

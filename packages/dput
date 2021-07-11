@@ -1,0 +1,24 @@
+Package: dput
+Binary: dput
+Version: 1.1.0
+Maintainer: Ben Finney <bignose@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: python3-testtools, python3-testscenarios, python3-debian, python3-gpg, python3-setuptools, python3 (>= 3.4), bash-completion, dh-python
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 44e399556823f21626cdf2c7689bad5d 1712 dput_1.1.0.dsc
+ 96f1064344ac6fbd3cfc24811dc24c0a 104744 dput_1.1.0.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/dput/
+Vcs-Git: https://salsa.debian.org/debian/dput.git
+Checksums-Sha256:
+ 95f8d92402459ec51c7e36f12c9fabf1c156ac144e2d246150b910e61e880ecd 1712 dput_1.1.0.dsc
+ 1db59608e2895e3066ef7d4d0f60da0180cd6f4238ae6368b74b2ecce9e7207d 104744 dput_1.1.0.tar.xz
+Homepage: https://packages.debian.org/source/sid/dput
+Package-List: 
+ dput deb devel optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/d/dput
+Priority: source
+Section: devel

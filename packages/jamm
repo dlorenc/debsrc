@@ -1,0 +1,27 @@
+Package: jamm
+Binary: libjamm-java, libjamm-java-doc
+Version: 0.3.3-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper (>= 12), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: default-jdk-doc, junit4 (>= 4.11), libmaven-javadoc-plugin-java
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 1534dd9e5cb581c35ef84a3e0affa9a1 2088 jamm_0.3.3-3.dsc
+ 06788d608c78d5106f06cabe2018a1a2 22752 jamm_0.3.3.orig.tar.xz
+ 29cec79678c062bdc995fb3bbab543c5 3580 jamm_0.3.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jamm
+Vcs-Git: https://salsa.debian.org/java-team/jamm.git
+Checksums-Sha256:
+ 263eb2c6799ef530d65403ea6e66570aeb467e82fe6103c950ca1741bfcdca6d 2088 jamm_0.3.3-3.dsc
+ 4d50a8d890b0a08e1dc3911292ef4b88558577dec211feba3d6ffc30de8a110d 22752 jamm_0.3.3.orig.tar.xz
+ 22f455fa739c8e533f83ed896e87a7b2a4bab2cc2e038876c51ce3bab78df561 3580 jamm_0.3.3-3.debian.tar.xz
+Homepage: https://github.com/jbellis/jamm/
+Package-List: 
+ libjamm-java deb java optional arch=all
+ libjamm-java-doc deb doc optional arch=all
+Directory: pool/main/j/jamm
+Priority: extra
+Section: misc

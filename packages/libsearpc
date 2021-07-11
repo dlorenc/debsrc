@@ -1,0 +1,29 @@
+Package: libsearpc
+Binary: libsearpc1, libsearpc-dev, python3-searpc
+Version: 3.2.0-7-g50ff08b-1
+Maintainer: Debian Seafile Team <team+seafile@tracker.debian.org>
+Uploaders: Christoph Martin <martin@uni-mainz.de>, Moritz Schlarb <schlarbm@uni-mainz.de>
+Build-Depends: debhelper-compat (= 13), dh-python, help2man, libglib2.0-dev, libjansson-dev, pkg-config, python3-all
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9ea2f8abbc2af4483706fdfb90787814 2311 libsearpc_3.2.0-7-g50ff08b-1.dsc
+ f98dffa7705c4bf653585cf0444071b7 53978 libsearpc_3.2.0-7-g50ff08b.orig.tar.gz
+ f000b036e3a4dd0eb2120ba53da4579b 7016 libsearpc_3.2.0-7-g50ff08b-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libsearpc
+Vcs-Git: https://salsa.debian.org/debian/libsearpc.git
+Checksums-Sha256:
+ 4462c8c5096082b122a3cb0805234b1a139765eac2bcb825557663a857fbd2ce 2311 libsearpc_3.2.0-7-g50ff08b-1.dsc
+ 6ebb4a46c3927f379ae6356a5de0f8f884d23a109530f7cc48ce5fffae5811c7 53978 libsearpc_3.2.0-7-g50ff08b.orig.tar.gz
+ bab5f4c482084b17905b3f2b14bd2ddcd2e90c6ea0ee7f799e20730a941527c8 7016 libsearpc_3.2.0-7-g50ff08b-1.debian.tar.xz
+Homepage: https://github.com/haiwen/libsearpc
+Package-List: 
+ libsearpc-dev deb libdevel optional arch=any
+ libsearpc1 deb libs optional arch=any
+ python3-searpc deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/libs/libsearpc
+Priority: optional
+Section: misc

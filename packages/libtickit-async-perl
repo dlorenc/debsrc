@@ -1,0 +1,27 @@
+Package: libtickit-async-perl
+Binary: libtickit-async-perl
+Version: 0.24-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 13), libio-async-perl <!nocheck>, libmodule-build-perl, libtest-hexstring-perl <!nocheck>, libtest-refcount-perl <!nocheck>, libtickit-perl (>= 0.71) <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c683462796232dfa8ddb6a962230d1e5 2539 libtickit-async-perl_0.24-2.dsc
+ aab236ddbc39ca69951b695e7908594c 15121 libtickit-async-perl_0.24.orig.tar.gz
+ 2bff390360004e4bb2e7277d104182e9 2336 libtickit-async-perl_0.24-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtickit-async-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtickit-async-perl.git
+Checksums-Sha256:
+ 3768ff3b7f5fa6cb9617ccddbe80d922511e5f49542f569ebed44ee3de50f2af 2539 libtickit-async-perl_0.24-2.dsc
+ 1a11b595c99e945fe60d8d229ef97d0102aa79d97c28df82ac5d6797323124a1 15121 libtickit-async-perl_0.24.orig.tar.gz
+ d4bd9feaec4738191c74b8c13f73dac8441320bf9a4f3c69a457e76595911207 2336 libtickit-async-perl_0.24-2.debian.tar.xz
+Homepage: https://metacpan.org/release/Tickit-Async
+Dgit: 93c05b954ada3a9bef3fa6873b6dc7e24ae5f52f debian archive/debian/0.24-2 https://git.dgit.debian.org/libtickit-async-perl
+Package-List: 
+ libtickit-async-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtickit-async-perl
+Priority: extra
+Section: misc

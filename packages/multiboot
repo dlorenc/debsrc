@@ -1,0 +1,26 @@
+Package: multiboot
+Binary: multiboot
+Version: 0.6.96+20101113-3
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Uploaders: Robert Millan <rmh.debian@aybabtu.com>, Felix Zielcke <fzielcke@z-51.de>, Jordi Mallach <jordi@debian.org>, Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec, gcc-multilib [amd64]
+Build-Depends-Indep: texinfo
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Files:
+ ef12795dcd9749dea3c587ee667e8301 2162 multiboot_0.6.96+20101113-3.dsc
+ b6f023572a4f5790af2217a9e819f21b 258755 multiboot_0.6.96+20101113.orig.tar.gz
+ 0479dd1944887d5f1f4007d5df07ca7a 3988 multiboot_0.6.96+20101113-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/grub-team/multiboot
+Vcs-Git: https://salsa.debian.org/grub-team/multiboot.git
+Checksums-Sha256:
+ 30faf7f2c57db7549f14feae255b72066f2c1361fe2a153164a84dd92c742489 2162 multiboot_0.6.96+20101113-3.dsc
+ 95e0706050e66cc29278c83194ee91549347a241129b8dcf1a84b1de821e1b1b 258755 multiboot_0.6.96+20101113.orig.tar.gz
+ b606f220d04d1180abe87626c3947af0b6121ce247529462f20010cee1d62d1e 3988 multiboot_0.6.96+20101113-3.debian.tar.xz
+Homepage: https://www.gnu.org/software/grub/manual/multiboot/
+Package-List: 
+ multiboot deb doc optional arch=all
+Directory: pool/main/m/multiboot
+Priority: source
+Section: doc

@@ -1,0 +1,28 @@
+Package: python-pymeasure
+Binary: python3-pymeasure, python-pymeasure-doc
+Version: 0.9.0-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-numpy, python3-pandas, python3-pyqtgraph (>= 0.9.10), python3-pytest <!nocheck>, python3-pyvisa, python3-serial (>= 2.7), python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, sphinx-common
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 16dedb92ce613582336ebacd5210f47f 2439 python-pymeasure_0.9.0-1.dsc
+ 139900cf048216323b816ec3a8724cb3 653623 python-pymeasure_0.9.0.orig.tar.gz
+ 75977bd0b5cdba217a5da7748cf9754a 4492 python-pymeasure_0.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/python-pymeasure
+Vcs-Git: https://salsa.debian.org/science-team/python-pymeasure.git
+Checksums-Sha256:
+ c75dfc8bae589862bf39045e9faadb23e77e094b35d3820db0138bc9de980347 2439 python-pymeasure_0.9.0-1.dsc
+ d1df3c1bbd56a7ce3eaed36f8a76d35954d019e75b43962bd6c7b65028eae996 653623 python-pymeasure_0.9.0.orig.tar.gz
+ 4861b29aa4a5cb678425997bb5bbefd6dc6fbbcc3efc710e04a510fcf29cad80 4492 python-pymeasure_0.9.0-1.debian.tar.xz
+Homepage: https://github.com/ralph-group/pymeasure
+Package-List: 
+ python-pymeasure-doc deb doc optional arch=all profile=!nodoc
+ python3-pymeasure deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-pymeasure
+Priority: extra
+Section: misc

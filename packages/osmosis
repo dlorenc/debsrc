@@ -1,0 +1,25 @@
+Package: osmosis
+Binary: osmosis
+Version: 0.48.3-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>, Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), default-jdk, default-jdk-doc, ant-optional, gradle-debian-helper, ivy, junit4 (>= 4.10), libbatik-java, libcommons-codec-java, libcommons-compress-java (>= 1.4.1), libcommons-csv-java, libcommons-dbcp-java, libcommons-io-java, libjdepend-java, libjpf-java, libmariadb-java, libpostgis-java, libpostgresql-jdbc-java, libspring-beans-java, libspring-context-java, libspring-jdbc-java, libspring-transaction-java, libstax2-api-java, libosmpbf-java, libplexus-classworlds-java, libprotobuf-java (>= 3.12.2), libwoodstox-java, libxz-java, maven-repo-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9110272c0fe076090c2a86ae27dc6cb9 2505 osmosis_0.48.3-1.dsc
+ 4aa4cdd13c69e8b7875b3feee0985fc5 638032 osmosis_0.48.3.orig.tar.gz
+ e95b929a66d83eb18b96564ed4e8f682 13632 osmosis_0.48.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/osmosis
+Vcs-Git: https://salsa.debian.org/debian-gis-team/osmosis.git
+Checksums-Sha256:
+ 5da56169a1916f1fcc65a1f217c924c0597f8ed3eebc3fbf430c3619ada0fddf 2505 osmosis_0.48.3-1.dsc
+ 3bf84e32ed4ff9525b1901b71ac4ddf63fc60892ce522ca1926a82eeafc107cc 638032 osmosis_0.48.3.orig.tar.gz
+ e285bbc979af372a3e8957bb6ab703b390a1f292197afaf08414fefcd581f60b 13632 osmosis_0.48.3-1.debian.tar.xz
+Homepage: https://wiki.openstreetmap.org/wiki/Osmosis
+Package-List: 
+ osmosis deb utils optional arch=all
+Directory: pool/main/o/osmosis
+Priority: source
+Section: utils

@@ -1,0 +1,26 @@
+Package: aumix
+Binary: aumix-common, aumix, aumix-gtk
+Version: 2.9.1-7
+Maintainer: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper (>= 11), libgpmg1-dev [linux-any], libncursesw5-dev, libgtk2.0-dev, gettext, bzip2, autoconf (>> 2.50), automake
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ fe7680ce171bfdd6c64365dd6b5ef13a 2016 aumix_2.9.1-7.dsc
+ 34f28ae1c94fc5298e8bb2688c4b3a20 231622 aumix_2.9.1.orig.tar.bz2
+ 40a31015c399d870c11f9f30dcc6f504 38708 aumix_2.9.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/aumix.git
+Vcs-Git: https://salsa.debian.org/debian/aumix.git
+Checksums-Sha256:
+ 2125c699506e487c1b1b95f4484820b4a70645db19292e3a633d3f66ba3768c8 2016 aumix_2.9.1-7.dsc
+ d2ce43d532ef75072c8d4e7922e3bc06be6d97765a508d9ceb0d1766bbe70e29 231622 aumix_2.9.1.orig.tar.bz2
+ 0e18fa166abdbe1233c6c591376d9115ecd17746164f1bf87b75b301c41e8547 38708 aumix_2.9.1-7.debian.tar.xz
+Homepage: http://www.jpj.net/~trevor/aumix.html
+Package-List: 
+ aumix deb sound optional arch=any
+ aumix-common deb sound optional arch=all
+ aumix-gtk deb sound optional arch=any
+Directory: pool/main/a/aumix
+Priority: source
+Section: sound

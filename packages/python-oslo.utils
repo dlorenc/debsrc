@@ -1,0 +1,27 @@
+Package: python-oslo.utils
+Binary: python-oslo.utils-doc, python3-oslo.utils
+Version: 4.6.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Corey Bryant <corey.bryant@canonical.com>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr (>= 2.0.0), python3-setuptools, python3-sphinx (>= 1.6.2)
+Build-Depends-Indep: bandit, python3-coverage, python3-ddt, python3-debtcollector (>= 1.2.0), python3-eventlet, python3-fixtures (>= 1.3.1) <!nocheck>, python3-fixtures (>= 1.3.1) <!nodoc>, python3-hacking, python3-iso8601, python3-netaddr, python3-netifaces, python3-openstackdocstheme (>= 1.17.0) <!nodoc>, python3-oslo.config (>= 1:5.2.0), python3-oslo.i18n (>= 3.15.3), python3-oslotest (>= 1:3.2.0), python3-packaging (>= 20.4), python3-pyparsing, python3-six, python3-stestr (>= 2.0.0), python3-testscenarios, python3-testtools (>= 2.2.0), python3-tz, subunit
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ a4da9684e4c62a63e3f094ff4756ae97 2856 python-oslo.utils_4.6.0-2.dsc
+ 3a1703e970c098e4e2f7d1a5a9c3b163 69020 python-oslo.utils_4.6.0.orig.tar.xz
+ 6a5a9f80058367322afdc2f57deaa8b6 4576 python-oslo.utils_4.6.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/oslo/python-oslo.utils
+Vcs-Git: https://salsa.debian.org/openstack-team/oslo/python-oslo.utils.git
+Checksums-Sha256:
+ 5e7a86f99882950ec7e8f9a9652576ac2e5eeaa503d9b686e5d8705c012e2cc2 2856 python-oslo.utils_4.6.0-2.dsc
+ 4c552e4b229dafd52ccb881d3d5219468446ae03a0e52a27a172c3e8ea1e6a6b 69020 python-oslo.utils_4.6.0.orig.tar.xz
+ 4cfea89c1996f9eb8302daa746180b7279a9fc9e8ec8a935f82b68b750485ba8 4576 python-oslo.utils_4.6.0-2.debian.tar.xz
+Homepage: https://launchpad.net/oslo
+Package-List: 
+ python-oslo.utils-doc deb doc optional arch=all profile=!nodoc
+ python3-oslo.utils deb python optional arch=all
+Directory: pool/main/p/python-oslo.utils
+Priority: optional
+Section: misc

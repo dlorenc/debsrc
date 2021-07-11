@@ -1,0 +1,26 @@
+Package: libcm256cc
+Binary: libcm256cc1, libcm256cc-dev
+Version: 1.0.5-1
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>,
+Build-Depends: cmake, debhelper-compat (= 12), libboost-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ce2fc4eafd6b8bc6b4ac8e0f2d760088 2023 libcm256cc_1.0.5-1.dsc
+ e8da4e6083eb97268573962c55248348 45085 libcm256cc_1.0.5.orig.tar.gz
+ 70f5781a4c39a07d5360091d701a8b15 3196 libcm256cc_1.0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/libcm256cc
+Vcs-Git: https://salsa.debian.org/debian-hamradio-team/libcm256cc.git
+Checksums-Sha256:
+ b659fef09a990151c6d38a11839032f725ada4eb14b79461b32b96ee8a61f03c 2023 libcm256cc_1.0.5-1.dsc
+ 93e51021bbb0d7e7f8836a833a50593dad9d044d7dfdb0db636a846bf76fcd28 45085 libcm256cc_1.0.5.orig.tar.gz
+ 3a53e49822cebcf63427f2707b4514579acb9b181dfa4e463fff02905187438c 3196 libcm256cc_1.0.5-1.debian.tar.xz
+Homepage: https://github.com/f4exb/cm256cc
+Package-List: 
+ libcm256cc-dev deb libdevel optional arch=any
+ libcm256cc1 deb libs optional arch=any
+Directory: pool/main/libc/libcm256cc
+Priority: extra
+Section: misc

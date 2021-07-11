@@ -1,0 +1,28 @@
+Package: python-blosc
+Binary: python3-blosc, python-blosc-doc
+Version: 1.9.2+ds1-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Emmanuel Arias <eamanu@yaerobi.com>,
+Build-Depends: cmake, debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, libblosc-dev (>= 1.16), links <!nodoc>, python3-all-dev, python3-cpuinfo, python3-docutils <!nodoc>, python3-mock <!nocheck>, python3-numpy <!nocheck>, python3-numpydoc <!nodoc>, python3-psutil <!nocheck>, python3-setuptools, python3-skbuild, python3-sphinx <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ad2639719e0b67d34bad95bf424b6275 2487 python-blosc_1.9.2+ds1-3.dsc
+ 8b3ae4d28c9049c4e7c4079e438a6529 83232 python-blosc_1.9.2+ds1.orig.tar.xz
+ c6283220e693eb3616dfce24f700baf4 6932 python-blosc_1.9.2+ds1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-blosc
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-blosc.git
+Checksums-Sha256:
+ 81002f8b90a6093a0d43f64068480ef100efd0c95d236b40d9cb3969237bd863 2487 python-blosc_1.9.2+ds1-3.dsc
+ 0e8319565bc07fd20b3f58a2d642b30820a665b0ede3e6ec6db2e509204cfe2f 83232 python-blosc_1.9.2+ds1.orig.tar.xz
+ aa11bb1246a3e9cfe720f89763172461463a03d29c9d36b444e20a0a116e8410 6932 python-blosc_1.9.2+ds1-3.debian.tar.xz
+Homepage: https://github.com/Blosc/python-blosc
+Package-List: 
+ python-blosc-doc deb doc optional arch=all profile=!nodoc
+ python3-blosc deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-numpy, python3-psutil
+Directory: pool/main/p/python-blosc
+Priority: optional
+Section: misc

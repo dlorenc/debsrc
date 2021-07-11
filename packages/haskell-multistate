@@ -1,0 +1,26 @@
+Package: haskell-multistate
+Binary: libghc-multistate-dev, libghc-multistate-prof, libghc-multistate-doc
+Version: 0.8.0.3-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, libghc-monad-control-dev (>= 1.0), libghc-monad-control-dev (<< 1.1), libghc-monad-control-prof (>= 1.0), libghc-monad-control-prof (<< 1.1), libghc-tagged-dev (>= 0.7), libghc-tagged-dev (<< 0.9), libghc-tagged-prof (>= 0.7), libghc-tagged-prof (<< 0.9), libghc-transformers-base-dev (<< 0.5), libghc-transformers-base-prof (<< 0.5), libghc-hspec-dev (>= 2), libghc-hspec-dev (<< 2.8), libghc-hspec-prof
+Build-Depends-Indep: ghc-doc, libghc-monad-control-doc, libghc-tagged-doc, libghc-transformers-base-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e0e784a5e6b1a7d21b1efcde53dd44c1 2674 haskell-multistate_0.8.0.3-1.dsc
+ 78c6376cb4a4cc09e913d0bfddd5eb90 21505 haskell-multistate_0.8.0.3.orig.tar.gz
+ 4966eb6b99a05d2fa08d2cacf22740b1 2364 haskell-multistate_0.8.0.3-1.debian.tar.xz
+Checksums-Sha256:
+ 253a80c4629de912a35f17834e94af65e9a3f6d0f5a06b4ee04f4c9917da10b0 2674 haskell-multistate_0.8.0.3-1.dsc
+ 0f597aee4fdd243751a9f2d935156960c437252527818bec7d98709991a87969 21505 haskell-multistate_0.8.0.3.orig.tar.gz
+ c111e825b6c49346565e5bc93b2263b70540490dad569358c6f59cbf6369f62b 2364 haskell-multistate_0.8.0.3-1.debian.tar.xz
+Homepage: https://github.com/lspitzner/multistate
+Package-List: 
+ libghc-multistate-dev deb haskell optional arch=any
+ libghc-multistate-doc deb doc optional arch=all
+ libghc-multistate-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-multistate
+Priority: extra
+Section: misc

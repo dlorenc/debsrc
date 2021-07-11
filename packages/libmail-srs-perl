@@ -1,0 +1,28 @@
+Package: libmail-srs-perl
+Binary: libmail-srs-perl, srs
+Version: 0.31-6
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl, libdigest-hmac-perl, libmldbm-perl, libtest-pod-perl, libtest-pod-coverage-perl
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 53ab2b309244debcfef23590dd4fc288 2227 libmail-srs-perl_0.31-6.dsc
+ 8ff65ed841dfc3aab80272671ddd833e 26630 libmail-srs-perl_0.31.orig.tar.gz
+ 4ba792022777ff8c8a4f715377be89a1 2988 libmail-srs-perl_0.31-6.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libmail-srs-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libmail-srs-perl.git
+Checksums-Sha256:
+ 14a071a24895f9be352ade64a1056cf35e4b647ee331934c6a8bd79714d251b9 2227 libmail-srs-perl_0.31-6.dsc
+ cea326558c58e92503bfce5d5b16a9231acc276652abc20c31701272979dbf57 26630 libmail-srs-perl_0.31.orig.tar.gz
+ c5034132f3718e788cde2363b663df69a514654e143fc7b7ab7c54cb674e49c4 2988 libmail-srs-perl_0.31-6.debian.tar.xz
+Homepage: https://metacpan.org/release/Mail-SRS
+Package-List: 
+ libmail-srs-perl deb perl optional arch=all
+ srs deb mail optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libm/libmail-srs-perl
+Priority: source
+Section: perl

@@ -1,0 +1,26 @@
+Package: pdfmod
+Binary: pdfmod, pdfmod-dbg
+Version: 0.9.1-8.2
+Maintainer: Debian CLI Applications Team <pkg-cli-apps-team@lists.alioth.debian.org>
+Uploaders: Chow Loong Jin <hyperair@debian.org>
+Build-Depends: debhelper (>= 7.0.50), autotools-dev, dh-autoreconf, cli-common-dev (>= 0.5.7), docbook-xml <!nocheck>, mono-devel (>= 2.4.2), mono-mcs, yelp-tools, intltool (>= 0.35.0), libglib2.0-dev, libgtk2.0-cil-dev, libhyena-cil-dev (>= 0.5), libpoppler-cil-dev (>= 0.0.2)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 928c3e41ec1657c3055ddd4f2c1fe452 2224 pdfmod_0.9.1-8.2.dsc
+ 3fe70abcc264cd099060d19ebdc949ed 833895 pdfmod_0.9.1.orig.tar.gz
+ b8e3d3dd2edaca16827f91ef04dbec8c 14828 pdfmod_0.9.1-8.2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/dotnet-team/pdfmod
+Vcs-Git: https://salsa.debian.org/dotnet-team/pdfmod.git
+Checksums-Sha256:
+ 6e22653e866ab4d0516f1734e84bf600839303c5ddc4e199d6d30af24e6b944c 2224 pdfmod_0.9.1-8.2.dsc
+ 4b69d953a3d5b457c82af79a2c098fce345c524ecc72a6ebb926b06bb79949c0 833895 pdfmod_0.9.1.orig.tar.gz
+ db0f6ed08eba9ec907370f91b7453281b573ee5b491a112e874aaef9b265a66f 14828 pdfmod_0.9.1-8.2.debian.tar.xz
+Homepage: https://wiki.gnome.org/Apps/PdfMod
+Package-List: 
+ pdfmod deb gnome optional arch=all
+ pdfmod-dbg deb debug optional arch=all
+Directory: pool/main/p/pdfmod
+Priority: source
+Section: gnome

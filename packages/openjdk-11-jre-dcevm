@@ -1,0 +1,27 @@
+Package: openjdk-11-jre-dcevm
+Binary: openjdk-11-jre-dcevm
+Version: 11.0.11+9-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), libasound2-dev, libcups2-dev, libfontconfig1-dev, libx11-dev, libxext-dev, libxrandr-dev, libxrender-dev, libxt-dev, libxtst-dev, openjdk-11-jdk, unzip, zip
+Architecture: amd64 i386
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 411f8546388aab96a444c93bfe257f64 2361 openjdk-11-jre-dcevm_11.0.11+9-2.dsc
+ ea57b06dae2a163d5c5bad0a8697c70f 17301752 openjdk-11-jre-dcevm_11.0.11+9.orig.tar.xz
+ 07e8670a78655e6ae04f370b08d2c71f 5976 openjdk-11-jre-dcevm_11.0.11+9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/openjdk-11-jre-dcevm
+Vcs-Git: https://salsa.debian.org/java-team/openjdk-11-jre-dcevm.git
+Checksums-Sha256:
+ 5da1826fac24c58f846a487c53124ec8f92fe308b9b9658b79c9050a3904cec8 2361 openjdk-11-jre-dcevm_11.0.11+9-2.dsc
+ 92373a2e2cc7c03092f88b2548f036d621be783078e1324888c57bb6169df8d4 17301752 openjdk-11-jre-dcevm_11.0.11+9.orig.tar.xz
+ 795e86eaf1275dfb4df561e522425783546abfd5d11cabd980aa169100678c6d 5976 openjdk-11-jre-dcevm_11.0.11+9-2.debian.tar.xz
+Homepage: https://github.com/HotswapProjects/openjdk-jdk11u-dcevm
+Package-List: 
+ openjdk-11-jre-dcevm deb java optional arch=amd64,i386
+Testsuite: autopkgtest
+Testsuite-Triggers: openjdk-11-jre-headless
+Directory: pool/main/o/openjdk-11-jre-dcevm
+Priority: extra
+Section: misc

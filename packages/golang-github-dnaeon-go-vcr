@@ -1,0 +1,27 @@
+Package: golang-github-dnaeon-go-vcr
+Binary: golang-github-dnaeon-go-vcr-dev
+Version: 0.0~git20180814.aafff18-2.1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dr. Tobias Quathamer <toddy@debian.org>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-yaml.v2-dev
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ b3aecc71aa875751860fe7f0fa109989 2371 golang-github-dnaeon-go-vcr_0.0~git20180814.aafff18-2.1.dsc
+ 1132147f8f43ac41f09b033e9beadf2a 14832 golang-github-dnaeon-go-vcr_0.0~git20180814.aafff18.orig.tar.xz
+ 0acec72f39b6883be5d60652705e3951 8360 golang-github-dnaeon-go-vcr_0.0~git20180814.aafff18-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-dnaeon-go-vcr
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-dnaeon-go-vcr.git
+Checksums-Sha256:
+ d1f8b8714865e9e8ab31893edc748d9ef9aadb5cfd423ce9d1d69da1778534e9 2371 golang-github-dnaeon-go-vcr_0.0~git20180814.aafff18-2.1.dsc
+ f3903b2d1b9a3bdafeadd82d8adb6b01428f5910fed0cdaf7a875c997a58c18e 14832 golang-github-dnaeon-go-vcr_0.0~git20180814.aafff18.orig.tar.xz
+ 39182fdedb18756b039bf4fbfeb938bc5989f0ffbf7217ba7b7daf39e5f2341e 8360 golang-github-dnaeon-go-vcr_0.0~git20180814.aafff18-2.1.debian.tar.xz
+Homepage: https://github.com/dnaeon/go-vcr
+Go-Import-Path: github.com/dnaeon/go-vcr
+Package-List: 
+ golang-github-dnaeon-go-vcr-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-dnaeon-go-vcr
+Priority: extra
+Section: golang

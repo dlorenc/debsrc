@@ -1,0 +1,25 @@
+Package: lmod
+Binary: lmod
+Version: 6.6-0.4
+Maintainer: Aaron Zauner <azet@azet.org>
+Build-Depends: autotools-dev, debhelper (>= 9), lua-filesystem, lua-json, lua-posix, lua-term, lua5.2, procps, tcl
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 25a83a2b4f4e91e0950f276cb427ab54 1874 lmod_6.6-0.4.dsc
+ d159177402b726bc5435520d1547fac7 7506772 lmod_6.6.orig.tar.bz2
+ 631ccfc49cd05157a2704b1ad045abb1 4892 lmod_6.6-0.4.debian.tar.xz
+Vcs-Browser: https://github.com/azet/lmod-deb
+Vcs-Git: git://github.com/azet/lmod-deb.git
+Checksums-Sha256:
+ 99cc83812298af7abe76d1ee132341c11afb8e1f8643fe8f2f49e6d9a496566c 1874 lmod_6.6-0.4.dsc
+ 6298572189dc5926cf343e60e4d4ead8074f07288c6524f8574cdd8f125db822 7506772 lmod_6.6.orig.tar.bz2
+ 9a5c450f26a5c16f0777b6d0a31f2013cc51d1d399e0579fbb71130aadd3cc1a 4892 lmod_6.6-0.4.debian.tar.xz
+Homepage: https://www.tacc.utexas.edu/tacc-projects/lmod
+Package-List: 
+ lmod deb devel optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/l/lmod
+Priority: optional
+Section: misc

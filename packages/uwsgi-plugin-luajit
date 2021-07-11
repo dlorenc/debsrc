@@ -1,0 +1,23 @@
+Package: uwsgi-plugin-luajit
+Binary: uwsgi-plugin-luajit
+Version: 0.0.6
+Maintainer: uWSGI packaging team <pkg-uwsgi-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: debhelper-compat (= 13), help2man, libluajit-5.1-dev, pkg-config, uwsgi-dev, uwsgi-src
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ e1c2adc143ab41bfaa95cc9b6eff9d1a 1790 uwsgi-plugin-luajit_0.0.6.dsc
+ 76fa8523ed2b43d63cfdcea0cd84e87a 3588 uwsgi-plugin-luajit_0.0.6.tar.xz
+Vcs-Browser: https://salsa.debian.org/uwsgi-team/uwsgi-plugin-luajit
+Vcs-Git: https://salsa.debian.org/uwsgi-team/uwsgi-plugin-luajit.git
+Checksums-Sha256:
+ b8d372eb9cc06daf8cdb5c91b3b46f22796b424c970025d50acf5a535b5b6b3c 1790 uwsgi-plugin-luajit_0.0.6.dsc
+ d46aa4d471a86a228043c8b7b0e4dedbbb8e5f8f2610170d1eb07d5b5c63f9ac 3588 uwsgi-plugin-luajit_0.0.6.tar.xz
+Homepage: https://uwsgi-docs.readthedocs.io/en/latest/
+Package-List: 
+ uwsgi-plugin-luajit deb httpd optional arch=any
+Directory: pool/main/u/uwsgi-plugin-luajit
+Priority: extra
+Section: misc

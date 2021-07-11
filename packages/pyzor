@@ -1,0 +1,27 @@
+Package: pyzor
+Binary: pyzor, pyzor-doc
+Version: 1:1.0.0-6
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Hugo Lefeuvre <hle@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-docutils, python3-sphinx (>= 1.2.2+dfsg-2~), python3-gdbm
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1ef90e4d93eff195beb3eaa471573416 1492 pyzor_1.0.0-6.dsc
+ 82b351cbf7594974240d655e2e98f20c 126276 pyzor_1.0.0.orig.tar.gz
+ c3132c9962c5b140bac7035fc6aa3a7f 9280 pyzor_1.0.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyzor
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyzor.git
+Checksums-Sha256:
+ 73313e3d5b1af2b08d8f52ad837bac3ad2820dcae3c123db98f8103fb13554cb 1492 pyzor_1.0.0-6.dsc
+ 548bc461c01e790cf8db1f26d9f66b281f3aa3cf5f5a6fd647071360ed663ef1 126276 pyzor_1.0.0.orig.tar.gz
+ d8c394722ecf2d041196b09ebeb56294bf10b39cd22f21a2380991409312dd16 9280 pyzor_1.0.0-6.debian.tar.xz
+Homepage: https://github.com/SpamExperts/pyzor
+Package-List: 
+ pyzor deb mail optional arch=all
+ pyzor-doc deb doc optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pyzor
+Priority: source
+Section: mail

@@ -1,0 +1,27 @@
+Package: libxml-libxslt-perl
+Binary: libxml-libxslt-perl
+Version: 1.99-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Damyan Ivanov <dmn@debian.org>, Florian Schlichting <fsfs@debian.org>, Nick Morrott <knowledgejunkie@gmail.com>
+Build-Depends: debhelper-compat (= 12), libxml-libxml-perl <!nocheck>, libxslt1-dev, perl-xs-dev, perl:native, pkg-config
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 90955cc31b2814fc28ea33315c1916e4 2541 libxml-libxslt-perl_1.99-1.dsc
+ 1a2b2295c4e0088015cf5ea947da5579 114083 libxml-libxslt-perl_1.99.orig.tar.gz
+ fa3327dbcbcabde02c50513fba6cc068 6948 libxml-libxslt-perl_1.99-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxml-libxslt-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxml-libxslt-perl.git
+Checksums-Sha256:
+ b98b18c91cefe9b89e73a783e45a956ef9970d71674236381b6e2b61d17e3c72 2541 libxml-libxslt-perl_1.99-1.dsc
+ 127e17a877fb61e47b9e8b87bf8daad31339a62a00121f9751d522b438b0f7f0 114083 libxml-libxslt-perl_1.99.orig.tar.gz
+ cc59b3bd1d22e7357a3037c700599c0dc2cc2470d929213fbc763cc95acbddf1 6948 libxml-libxslt-perl_1.99-1.debian.tar.xz
+Homepage: https://metacpan.org/release/XML-LibXSLT
+Dgit: c26add8c4655635fd804e5917ef1737f5d7e13e5 debian archive/debian/1.99-1 https://git.dgit.debian.org/libxml-libxslt-perl
+Package-List: 
+ libxml-libxslt-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libx/libxml-libxslt-perl
+Priority: source
+Section: perl

@@ -1,0 +1,27 @@
+Package: apt-transport-in-toto
+Binary: apt-transport-in-toto
+Version: 0.1.1-2
+Maintainer: in-toto developers <in-toto-dev@googlegroups.com>
+Uploaders: Santiago Torres-Arias <santiago@nyu.edu>, Lukas Puehringer <lukas.puehringer@nyu.edu>, Holger Levsen <holger@debian.org>, Vagrant Cascadian <vagrant@debian.org>, Justin Cappos <jcappos@nyu.edu>, Frédéric Pierret <frederic.pierret@qubes-os.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, dh-exec, python3-all, python3-requests, python3-mock, python3-coverage, in-toto (>= 1.0.0), gnupg2
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3c8cfc8efce82020466163461d905647 2618 apt-transport-in-toto_0.1.1-2.dsc
+ c58aa37f5b9932df1fd1d7de6179018f 43642 apt-transport-in-toto_0.1.1.orig.tar.gz
+ ae7e5298d22ff0decf7d6de9a0c2af01 874 apt-transport-in-toto_0.1.1.orig.tar.gz.asc
+ 917a587f337bfc02794613d475ab9151 5032 apt-transport-in-toto_0.1.1-2.debian.tar.xz
+Vcs-Browser: https://github.com/in-toto/apt-transport-in-toto
+Vcs-Git: https://github.com/in-toto/apt-transport-in-toto.git -b debian
+Checksums-Sha256:
+ eb221a8117c7b77af9ca1bf66393f5216bd9581312af77544ec8b6eecb659532 2618 apt-transport-in-toto_0.1.1-2.dsc
+ df9d549d4ddd2961f66584de23926f1abc5275fe34215ee37509c52447486889 43642 apt-transport-in-toto_0.1.1.orig.tar.gz
+ 040d2b8633ec460aa730ef542dfa03365b0cb7517e03afe156a295a5f492ad9b 874 apt-transport-in-toto_0.1.1.orig.tar.gz.asc
+ af5acf5c457e9b640c67465f700611f57c3205f45ea5f211aecff091e1e1bd90 5032 apt-transport-in-toto_0.1.1-2.debian.tar.xz
+Homepage: https://in-toto.io
+Package-List: 
+ apt-transport-in-toto deb utils optional arch=all
+Directory: pool/main/a/apt-transport-in-toto
+Priority: extra
+Section: misc

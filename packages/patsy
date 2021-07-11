@@ -1,0 +1,28 @@
+Package: patsy
+Binary: python3-patsy, python-patsy-doc
+Version: 0.5.1-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-numpy, python3-scipy, python3-pandas, python3-nose, python3-six, python3-matplotlib, python3-sphinx, ipython3
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b340ee32de8beacbccb2c4cb1a5e00ff 2328 patsy_0.5.1-3.dsc
+ ff2bad29ac6d71ce265c4027b487fd63 399218 patsy_0.5.1.orig.tar.gz
+ c5826ab707dcd8b9680419d18f77c9d4 9856 patsy_0.5.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/patsy
+Vcs-Git: https://salsa.debian.org/med-team/patsy.git
+Checksums-Sha256:
+ 1ae8737f1caca9f64afed8b26ab7aceb5d39895f6300ff2102601a111d77e42f 2328 patsy_0.5.1-3.dsc
+ 24d00697d157f033399f35bdd8931e7896af3b024f138104e75ba6bcc74b3625 399218 patsy_0.5.1.orig.tar.gz
+ 150d2dcd349ef26f21bcdb17b53906ad245ad862805cdd8b83c2c37ecc988cad 9856 patsy_0.5.1-3.debian.tar.xz
+Homepage: https://github.com/pydata/patsy
+Package-List: 
+ python-patsy-doc deb doc optional arch=all
+ python3-patsy deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-nose, python3-numpy, python3-six
+Directory: pool/main/p/patsy
+Priority: optional
+Section: misc

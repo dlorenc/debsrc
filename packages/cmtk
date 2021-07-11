@@ -1,0 +1,25 @@
+Package: cmtk
+Binary: cmtk
+Version: 3.3.1p1+dfsg-2
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>
+Build-Depends: debhelper-compat (= 12), cmake, libmxml-dev, libsqlite3-dev, zlib1g-dev | libz-dev, libdcmtk-dev | libdcmtk2-dev | libdcmtk1-dev, libbz2-dev, libfftw3-dev, liblzma-dev, libpng-dev, libtiff-dev | libtiff4-dev, libwrap0-dev, libcharls-dev | libdcmtk1-dev, libxml2-dev, libssl-dev, xvfb, bc, dc, xauth
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 814631b9a1bf7340763dacfee7738277 2255 cmtk_3.3.1p1+dfsg-2.dsc
+ 92327e1782775179215133795a74fffe 1054988 cmtk_3.3.1p1+dfsg.orig.tar.xz
+ 80856485dafd8d5b2320dbb5c9cab199 9788 cmtk_3.3.1p1+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/neurodebian-team/cmtk
+Vcs-Git: https://salsa.debian.org/neurodebian-team/cmtk.git
+Checksums-Sha256:
+ 0b062b4d65fcd7428643a4a2cf99eef41c8798912adb0fbe6778a4c4bce16447 2255 cmtk_3.3.1p1+dfsg-2.dsc
+ 7ca8cea1659b43bf5b1f5e167653e6535df536125c2f79047c1c874c6d07091c 1054988 cmtk_3.3.1p1+dfsg.orig.tar.xz
+ 8c480907cbb7fad38a1aaae11d6e8649f43774fbb5a1a519eb3aa8e3fe11e77a 9788 cmtk_3.3.1p1+dfsg-2.debian.tar.xz
+Homepage: http://www.nitrc.org/projects/cmtk/
+Package-List: 
+ cmtk deb science optional arch=any
+Directory: pool/main/c/cmtk
+Priority: source
+Section: science

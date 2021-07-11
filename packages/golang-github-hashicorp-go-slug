@@ -1,0 +1,27 @@
+Package: golang-github-hashicorp-go-slug
+Binary: golang-github-hashicorp-go-slug-dev
+Version: 0.5.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 11c00b252704e116b087af944409a339 2433 golang-github-hashicorp-go-slug_0.5.0-2.dsc
+ 807a6c58fdd3154ca840c0588bbb0233 15747 golang-github-hashicorp-go-slug_0.5.0.orig.tar.gz
+ fdb148e2a2521703559921c73e84d382 3584 golang-github-hashicorp-go-slug_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-slug
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-slug.git
+Checksums-Sha256:
+ 74f772ef4af52aa8be1b381ca43c4d25524c2857a670cd04b7a46e202c4a1df7 2433 golang-github-hashicorp-go-slug_0.5.0-2.dsc
+ 73be251771ef7759ecffcde9d2bed2e3a57b00d3b1fc1063ac1c49811d9ef943 15747 golang-github-hashicorp-go-slug_0.5.0.orig.tar.gz
+ 92ac9d3f124c711f3cf8f35886e7c5fb7e6678942295dcacb86e82d6eeb4f154 3584 golang-github-hashicorp-go-slug_0.5.0-2.debian.tar.xz
+Homepage: https://github.com/hashicorp/go-slug
+Go-Import-Path: github.com/hashicorp/go-slug
+Package-List: 
+ golang-github-hashicorp-go-slug-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hashicorp-go-slug
+Priority: extra
+Section: golang

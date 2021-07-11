@@ -1,0 +1,24 @@
+Package: rust-safe-transmute
+Binary: librust-safe-transmute-dev
+Version: 0.10.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c086b251aa9129bd265839db32262e9d 2120 rust-safe-transmute_0.10.1-2.dsc
+ 5e26543bc26dd771bb7c51cbf98f2a80 14891 rust-safe-transmute_0.10.1.orig.tar.gz
+ 6665a0cdab90c0a8d4b73fe6888c5fb5 2416 rust-safe-transmute_0.10.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/safe-transmute
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/safe-transmute]
+Checksums-Sha256:
+ e9334971bcf0f22b600909d92c23741381cd9878cd618db7551b77a06feba1b7 2120 rust-safe-transmute_0.10.1-2.dsc
+ 9604873ffe1980bc1f179103704a65c8aca141c248d9e52b7af95ff10578166e 14891 rust-safe-transmute_0.10.1.orig.tar.gz
+ d852e1ef5dec51f7273b448630451307cdc2602c56d0694f2e492decd73fe768 2416 rust-safe-transmute_0.10.1-2.debian.tar.xz
+Package-List: 
+ librust-safe-transmute-dev deb rust optional arch=any
+Directory: pool/main/r/rust-safe-transmute
+Priority: extra
+Section: misc

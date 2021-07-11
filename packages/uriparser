@@ -1,0 +1,26 @@
+Package: uriparser
+Binary: liburiparser1, liburiparser-dev, liburiparser-doc
+Version: 0.9.4+dfsg-1
+Maintainer: Jörg Frings-Fürst <debian@jff.email>
+Build-Depends: cmake, debhelper-compat (= 13), dh-exec (>= 0.3), doxygen, graphviz, libgtest-dev, libqt5sql5-sqlite, qtbase5-dev, qttools5-dev-tools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f220b167d7958c54630035c45062ce0e 2105 uriparser_0.9.4+dfsg-1.dsc
+ 966be1a0dcde5c09fda1b298598bc30c 86020 uriparser_0.9.4+dfsg.orig.tar.xz
+ b9b617bcb4ed32a96d2814639859af21 7228 uriparser_0.9.4+dfsg-1.debian.tar.xz
+Vcs-Browser: https://jff.email/cgit/uriparser.git
+Vcs-Git: git://jff.email/opt/git/uriparser.git
+Checksums-Sha256:
+ 39d2fea8b64fc83aa03401ad000b990445d2f41b6df2ffa758d1ad530320a7c7 2105 uriparser_0.9.4+dfsg-1.dsc
+ 3558e9fce140f3587fe29bb3c7911dcc0c2abd32d34025f7d50b54e4469f4c37 86020 uriparser_0.9.4+dfsg.orig.tar.xz
+ acd10773fc71dba64fa4072d295409dcdbffe0b589c8b052d5a6a794c6faf8f9 7228 uriparser_0.9.4+dfsg-1.debian.tar.xz
+Homepage: http://uriparser.sourceforge.net
+Package-List: 
+ liburiparser-dev deb libdevel optional arch=any
+ liburiparser-doc deb doc optional arch=all
+ liburiparser1 deb libs optional arch=any
+Directory: pool/main/u/uriparser
+Priority: source
+Section: libs

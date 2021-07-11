@@ -1,0 +1,26 @@
+Package: python-pot
+Binary: python3-pot
+Version: 0.7.0+dfsg-3
+Maintainer: Gard Spreemann <gspr@nonempty.org>
+Build-Depends: cython3, debhelper-compat (= 13), dh-python, python3-all-dev, python3-numpy, python3-scipy, python3-setuptools
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 331fbf16acb626ac62037337f60d066d 2089 python-pot_0.7.0+dfsg-3.dsc
+ 257cb7c61c40009e3b5df42bd6037ebf 1788525 python-pot_0.7.0+dfsg.orig.tar.gz
+ e4e5bb3959800e191381f94685b042ec 3328 python-pot_0.7.0+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gspr/python-pot
+Vcs-Git: https://salsa.debian.org/gspr/python-pot.git -b debian/sid
+Checksums-Sha256:
+ aee33dcb4c283f9b8da5141d2b4c2913c4db2fef5c4bcf3c4548a3204a371b0e 2089 python-pot_0.7.0+dfsg-3.dsc
+ ace86c4bcfd1e605d6f6c74f792a0023f86e6f2b9b583d2431eed224d8606523 1788525 python-pot_0.7.0+dfsg.orig.tar.gz
+ c79c7d0b4e0b21196e07ccd3bda8b70eae329381a56422d992187ea57774a3b5 3328 python-pot_0.7.0+dfsg-3.debian.tar.xz
+Homepage: https://pythonot.github.io/
+Package-List: 
+ python3-pot deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-sklearn
+Directory: pool/main/p/python-pot
+Priority: extra
+Section: misc

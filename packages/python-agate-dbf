@@ -1,0 +1,28 @@
+Package: python-agate-dbf
+Binary: python3-agatedbf, python-agatedbf-doc
+Version: 0.2.0-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper (>= 10), dh-python, dpkg-dev (>= 1.17.14), python-agate-doc <!nodoc>, python3-agate <!nocheck> <!nodoc>, python3-all, python3-dbfread <!nocheck> <!nodoc>, python3-doc <!nodoc>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, sphinx-common
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ b91c73951f320ef2f462ba78e5241410 2109 python-agate-dbf_0.2.0-2.dsc
+ 2be3d2f935b0eae498b5c42ead353f6d 8544 python-agate-dbf_0.2.0.orig.tar.gz
+ 80f4ae6fd7c168b1f2909fc658eedfae 3484 python-agate-dbf_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/python-modules/packages/python-agate-dbf.git
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/python-agate-dbf.git
+Checksums-Sha256:
+ 5defaeab38309712e50b3872725ae7e5b0a04c6ad935f21212f90337a1ae3d19 2109 python-agate-dbf_0.2.0-2.dsc
+ fcdb80a52f1738da7313ef7ccc6476254ae4bca9c77fe548bd478cc8b1de34c9 8544 python-agate-dbf_0.2.0.orig.tar.gz
+ 3d5653b964dd9d60ac751b19a3eafd1a1cad366e9b33cc6908484053e22ca2f0 3484 python-agate-dbf_0.2.0-2.debian.tar.xz
+Homepage: http://agate-dbf.rtfd.org/
+Package-List: 
+ python-agatedbf-doc deb doc optional arch=all profile=!nodoc
+ python3-agatedbf deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-agate-dbf
+Priority: optional
+Section: misc

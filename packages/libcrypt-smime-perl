@@ -1,0 +1,27 @@
+Package: libcrypt-smime-perl
+Binary: libcrypt-smime-perl
+Version: 0.27-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-perl-openssl, libextutils-cchecker-perl, libextutils-pkgconfig-perl, libssl-dev, libtaint-util-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-taint-perl <!nocheck>, openssl <!nocheck>, perl-openssl-defaults, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8caccbec4eb1c5058bedc78440c9131d 2670 libcrypt-smime-perl_0.27-1.dsc
+ a05fa91696e78e9f8844320dd987e6ab 27977 libcrypt-smime-perl_0.27.orig.tar.gz
+ 464d24dcd50ba1912904e75ecf6e6701 3356 libcrypt-smime-perl_0.27-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcrypt-smime-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcrypt-smime-perl.git
+Checksums-Sha256:
+ fc956cc0d951f1605f3ddef63061e741dfa0e644904057d0ad13338152ebdf35 2670 libcrypt-smime-perl_0.27-1.dsc
+ 0ec42d9e7702525db13c9d250a44e63daccb7fdfeaeaa55ae572a755daaaebdf 27977 libcrypt-smime-perl_0.27.orig.tar.gz
+ 192c64838b072961db7de59af996841a7dceab8cc237280b2bdaa4eeea7cf29d 3356 libcrypt-smime-perl_0.27-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Crypt-SMIME
+Dgit: f0dbcf4ae7fc4929f394a35847c742df030623cd debian archive/debian/0.27-1 https://git.dgit.debian.org/libcrypt-smime-perl
+Package-List: 
+ libcrypt-smime-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcrypt-smime-perl
+Priority: source
+Section: perl

@@ -1,0 +1,26 @@
+Package: python-static3
+Binary: python3-static3
+Version: 0.7.0-6.1
+Maintainer: Herbert Parentes Fortes Neto <hpfn@debian.org>
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-genshi, python3-pytest, python3-pytest-cov, python3-setuptools, python3-webtest
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 4a1edbb16131439e1edc92b905729cd9 2069 python-static3_0.7.0-6.1.dsc
+ 86c2c8943839647558310f47d13819ee 21817 python-static3_0.7.0.orig.tar.gz
+ 0eb9fc80fbd9d7fa2983172b6e72582d 2968 python-static3_0.7.0-6.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/python-static3
+Vcs-Git: https://salsa.debian.org/debian/python-static3.git
+Checksums-Sha256:
+ 657341f694d19a27ec0fa9f454fb7e1336b8a65eab6e7263fb68435b222225f3 2069 python-static3_0.7.0-6.1.dsc
+ 112342c8189e0d44e763223faaa2c73bb7187f316bd7f114afbccf2a4fa5c21f 21817 python-static3_0.7.0.orig.tar.gz
+ f376ac3cdee0a8e59a05c45edf5fa8b3a2e7f92f29613a2bdf2a8b512253673e 2968 python-static3_0.7.0-6.1.debian.tar.xz
+Homepage: https://github.com/rmohr/static3
+Package-List: 
+ python3-static3 deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-static3
+Priority: extra
+Section: misc

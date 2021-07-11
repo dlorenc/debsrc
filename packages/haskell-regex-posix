@@ -1,0 +1,28 @@
+Package: haskell-regex-posix
+Binary: libghc-regex-posix-dev, libghc-regex-posix-prof, libghc-regex-posix-doc
+Version: 0.96.0.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-regex-base-dev (>= 0.94), libghc-regex-base-dev (<< 0.95), libghc-regex-base-prof
+Build-Depends-Indep: ghc-doc, libghc-regex-base-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ dd051126feb1e0ff04778c374e468b38 2501 haskell-regex-posix_0.96.0.0-1.dsc
+ 1bd179e9b1804171f8a2797ea399c1b9 12529 haskell-regex-posix_0.96.0.0.orig.tar.gz
+ 5bf1eda3f125a02ffd9d263043e51956 4244 haskell-regex-posix_0.96.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-regex-posix
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-regex-posix]
+Checksums-Sha256:
+ 94cc0d97e7140ed60f72763ac94f667152cfed46f0f9ed0a3136c4136c61a232 2501 haskell-regex-posix_0.96.0.0-1.dsc
+ 251300f1a6bb2e91abb8bf513a21981f8fab79c98a65acea2bb6d6a524414521 12529 haskell-regex-posix_0.96.0.0.orig.tar.gz
+ e0a9c0f2c457bea38c9376321a08b638def4080321a59043ac25f528511efd32 4244 haskell-regex-posix_0.96.0.0-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/regex-posix
+Package-List: 
+ libghc-regex-posix-dev deb haskell optional arch=any
+ libghc-regex-posix-doc deb doc optional arch=all
+ libghc-regex-posix-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-regex-posix
+Priority: source
+Section: haskell

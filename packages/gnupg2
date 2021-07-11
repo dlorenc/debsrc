@@ -1,0 +1,45 @@
+Package: gnupg2
+Binary: gpgconf, gnupg-agent, gpg-agent, gpg-wks-server, gpg-wks-client, scdaemon, gpgsm, gpg, gnupg, gnupg2, gpgv, gpgv2, dirmngr, gpgv-udeb, gpgv-static, gpgv-win32, gnupg-l10n, gnupg-utils
+Version: 2.2.27-2
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Uploaders: Eric Dorland <eric@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>, Christoph Biedl <debian.axhn@manchmal.in-ulm.de>,
+Build-Depends: automake, autopoint, debhelper-compat (= 13), file, gettext, ghostscript, gpgrt-tools, imagemagick, libassuan-dev (>= 2.5.0), libbz2-dev, libcurl4-gnutls-dev, libgcrypt20-dev (>= 1.8.0), libgnutls28-dev (>= 3.0), libgpg-error-dev (>= 1.35), libksba-dev (>= 1.3.5), libldap2-dev, libnpth0-dev (>= 1.2), libreadline-dev, librsvg2-bin, libsqlite3-dev, libusb-1.0-0-dev [!hurd-any], openssh-client <!nocheck>, pkg-config, texinfo, transfig, zlib1g-dev | libz-dev
+Build-Depends-Indep: binutils-multiarch [!amd64 !i386], libassuan-mingw-w64-dev (>= 2.5.0), libgcrypt-mingw-w64-dev (>= 1.8.0), libgpg-error-mingw-w64-dev (>= 1.26-2~), libksba-mingw-w64-dev (>= 1.3.5), libnpth-mingw-w64-dev (>= 1.2), libz-mingw-w64-dev, mingw-w64
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c7df3bfb1efe57cf79696a97f42b664d 3644 gnupg2_2.2.27-2.dsc
+ a9c002b5356103c97412955a1956ae0c 7191555 gnupg2_2.2.27.orig.tar.bz2
+ f62bab0abc981fc94e35d0abf0731f5a 62720 gnupg2_2.2.27-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/gnupg2
+Vcs-Git: https://salsa.debian.org/debian/gnupg2.git -b debian/main
+Checksums-Sha256:
+ f8a99fd0976958c5656925ea576b26667ac075d0cb145981a9043f0c89a06911 3644 gnupg2_2.2.27-2.dsc
+ 34e60009014ea16402069136e0a5f63d9b65f90096244975db5cea74b3d02399 7191555 gnupg2_2.2.27.orig.tar.bz2
+ 6c67a7acbcab01116a640894751cdf54438caa265fae656d580d42010582591c 62720 gnupg2_2.2.27-2.debian.tar.xz
+Homepage: https://www.gnupg.org/
+Package-List: 
+ dirmngr deb utils optional arch=any
+ gnupg deb utils optional arch=all
+ gnupg-agent deb oldlibs optional arch=all
+ gnupg-l10n deb localization optional arch=all
+ gnupg-utils deb utils optional arch=any
+ gnupg2 deb oldlibs optional arch=all
+ gpg deb utils optional arch=any
+ gpg-agent deb utils optional arch=any
+ gpg-wks-client deb utils optional arch=any
+ gpg-wks-server deb utils optional arch=any
+ gpgconf deb utils optional arch=any
+ gpgsm deb utils optional arch=any
+ gpgv deb utils important arch=any
+ gpgv-static deb utils optional arch=any
+ gpgv-udeb udeb debian-installer optional arch=any
+ gpgv-win32 deb utils optional arch=all
+ gpgv2 deb oldlibs optional arch=all
+ scdaemon deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: debian-archive-keyring, diffutils, gnupg1, wine32
+Directory: pool/main/g/gnupg2
+Priority: source
+Section: oldlibs

@@ -1,0 +1,25 @@
+Package: voms-api-java
+Binary: libvoms-api-java-java, libvoms-api-java-java-doc
+Version: 3.3.2-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>> 10), maven-debian-helper (>= 2.2), libmaven-javadoc-plugin-java, junit4, libhamcrest-java, libmockito-java, libcanl-java (>= 2.6.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7031e7fab6803f46b83f43346a8d19b2 2104 voms-api-java_3.3.2-1.dsc
+ 1b1420f3fdb28ead76a729e28e063950 172330 voms-api-java_3.3.2.orig.tar.gz
+ eebca8f66e4eea5b06cceeeb77b804bc 3240 voms-api-java_3.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/voms-api-java
+Vcs-Git: https://salsa.debian.org/ellert/voms-api-java.git
+Checksums-Sha256:
+ 0e59f0e72dca46ac8c97b2545358fed2afc067b5b4af183ce99ed7de3528e56c 2104 voms-api-java_3.3.2-1.dsc
+ 51737409d72cb642c03476ddd361d4f5c6b7c889d9d702433fa4cb106c61fd77 172330 voms-api-java_3.3.2.orig.tar.gz
+ ac185d93d0da0ac4a75ef0093dc992c4ba2bd99478b2e6ea0632941760d09b4a 3240 voms-api-java_3.3.2-1.debian.tar.xz
+Homepage: https://wiki.italiangrid.it/VOMS
+Package-List: 
+ libvoms-api-java-java deb java optional arch=all
+ libvoms-api-java-java-doc deb doc optional arch=all
+Directory: pool/main/v/voms-api-java
+Priority: source
+Section: java

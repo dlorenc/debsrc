@@ -1,0 +1,28 @@
+Package: haskell-entropy
+Binary: libghc-entropy-dev, libghc-entropy-prof, libghc-entropy-doc
+Version: 0.4.1.6-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.15), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ d492a0b346cf29d9dcbf2a123c54bbe6 2296 haskell-entropy_0.4.1.6-1.dsc
+ d518fa1d20b25b9e1200b8672546da44 9464 haskell-entropy_0.4.1.6.orig.tar.gz
+ ed8df7e6a22849c0f5e28c89d22a3b61 3012 haskell-entropy_0.4.1.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-entropy
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-entropy]
+Checksums-Sha256:
+ 67bea24656f7fe725513acc05744524a3c7e1900ec4df9f518d5a2f73893f2ca 2296 haskell-entropy_0.4.1.6-1.dsc
+ adc759ff756a6d71a450422ba511177632f43a33bf673901fd2334f53ef8bf62 9464 haskell-entropy_0.4.1.6.orig.tar.gz
+ 92d14af0728cf9157588fa9583b2ca2f5febaaf1efc23052eee4dfd238a65061 3012 haskell-entropy_0.4.1.6-1.debian.tar.xz
+Homepage: https://github.com/TomMD/entropy
+Package-List: 
+ libghc-entropy-dev deb haskell optional arch=any
+ libghc-entropy-doc deb doc optional arch=all
+ libghc-entropy-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-entropy
+Priority: source
+Section: haskell

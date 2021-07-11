@@ -1,0 +1,25 @@
+Package: jline3
+Binary: libjline3-java
+Version: 3.3.1-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Saif Abdul Cassim <saif.15@cse.mrt.ac.lk>, Samyak Jain <samyak.jn11@gmail.com>
+Build-Depends: debhelper-compat (= 12), libbuild-helper-maven-plugin-java, libjna-java, libjuniversalchardet-java, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, libmaven-source-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7b9e0d6fc31ec292c0754f58f1fd8d66 2158 jline3_3.3.1-2.dsc
+ 9f9ee3d9b8c81b35bde9e3eda13f378e 208572 jline3_3.3.1.orig.tar.xz
+ 3b3fc4871922ef266798169f9fbc663f 4044 jline3_3.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jline3
+Vcs-Git: https://salsa.debian.org/java-team/jline3.git
+Checksums-Sha256:
+ 492ea09f0329067ec8735fa5b4a27deb0a53be942a30ac7152213e332bb5172c 2158 jline3_3.3.1-2.dsc
+ 0e9fc779c7eb0b40fc24140cb567744677a60f91d712b64608355833c36e2376 208572 jline3_3.3.1.orig.tar.xz
+ 4fa3b6aaad93091f29db0dfa538f72ca0b37cf3de3728081206f7d77f39f32b8 4044 jline3_3.3.1-2.debian.tar.xz
+Homepage: https://github.com/jline/jline3
+Package-List: 
+ libjline3-java deb java optional arch=all
+Directory: pool/main/j/jline3
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: golang-github-jroimartin-gocui
+Binary: golang-github-jroimartin-gocui-dev
+Version: 0.4.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Jack Henschel <jackdev@mailbox.org>, Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any, golang-github-nsf-termbox-go-dev
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ be9676a6b0ae82c8b4902b999a8846a2 2353 golang-github-jroimartin-gocui_0.4.0-2.dsc
+ 862df09fb1794f64e1c3ff8e7f848a2a 28376 golang-github-jroimartin-gocui_0.4.0.orig.tar.gz
+ 3af9abc8893e9ad4a27118bfe37da64e 3364 golang-github-jroimartin-gocui_0.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-jroimartin-gocui
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-jroimartin-gocui.git
+Checksums-Sha256:
+ 3dd1938feef3f59c92d0a9a70bb9bbfeae22fc979ca69c46cd31c30c9e1716ca 2353 golang-github-jroimartin-gocui_0.4.0-2.dsc
+ 7dbb46356f9eee2d52c68cf664f9527cb7b84e746e61cc9000566a0b9eec8dec 28376 golang-github-jroimartin-gocui_0.4.0.orig.tar.gz
+ 54203883bc0c3df0f47512423a1ab3cce035d8dff233967d7cd15926a62bb8a8 3364 golang-github-jroimartin-gocui_0.4.0-2.debian.tar.xz
+Homepage: https://github.com/jroimartin/gocui
+Go-Import-Path: github.com/jroimartin/gocui
+Package-List: 
+ golang-github-jroimartin-gocui-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-jroimartin-gocui
+Priority: extra
+Section: golang

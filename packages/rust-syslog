@@ -1,0 +1,24 @@
+Package: rust-syslog
+Binary: librust-syslog-dev
+Version: 4.0.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-error-chain-0.12+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-log-0.4+default-dev (>= 0.4.1-~~) <!nocheck>, librust-log-0.4+std-dev (>= 0.4.1-~~) <!nocheck>, librust-time-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 8ba33c4e3c237f4a52f895049f7f05b3 1929 rust-syslog_4.0.1-2.dsc
+ e439e1580fc4a021a91b31855fb813d4 7131 rust-syslog_4.0.1.orig.tar.gz
+ 4d7bf2a501353ee012398b26e2102241 2500 rust-syslog_4.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/syslog
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/syslog]
+Checksums-Sha256:
+ a56c7f9f6d4138e8491942f27e0d899588a75bbc6b58c912002b09bdab12ee39 1929 rust-syslog_4.0.1-2.dsc
+ a0641142b4081d3d44beffa4eefd7346a228cdf91ed70186db2ca2cef762d327 7131 rust-syslog_4.0.1.orig.tar.gz
+ b1feefc7a52725c994041e4ff7d54b76c69e3d8623b693c23eb6456e83fbff5c 2500 rust-syslog_4.0.1-2.debian.tar.xz
+Package-List: 
+ librust-syslog-dev deb rust optional arch=any
+Directory: pool/main/r/rust-syslog
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-through2-filter
+Binary: node-through2-filter
+Version: 3.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-concat-stream <!nocheck>, node-process-nextick-args <!nocheck>, node-safe-buffer <!nocheck>, node-string-decoder <!nocheck>, node-tape <!nocheck>, node-through2 (>= 2.0.0) <!nocheck>, node-xtend <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c1a1296c22666b0a26a3054c98226861 2322 node-through2-filter_3.0.0-1.dsc
+ c10cdba95ce267193799a3c91ed647cb 3358 node-through2-filter_3.0.0.orig.tar.gz
+ 9e0440c1169ca9cd04561e1586af7151 3480 node-through2-filter_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-through2-filter
+Vcs-Git: https://salsa.debian.org/js-team/node-through2-filter.git
+Checksums-Sha256:
+ a59d229b3eafbd2e48c21882690fe140e654895703eb013ca65b54c0e7d7d960 2322 node-through2-filter_3.0.0-1.dsc
+ 0ff089c91d210a40fc496842f8e2608c86c258bb599c2afbae3e654d3b05e0fd 3358 node-through2-filter_3.0.0.orig.tar.gz
+ 02bbb5b053cb23d7d37e70310b541adbf4b408892bdfd215c40b16161e67e219 3480 node-through2-filter_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/brycebaril/through2-filter
+Package-List: 
+ node-through2-filter deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-through2-filter
+Priority: optional
+Section: javascript

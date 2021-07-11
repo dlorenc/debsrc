@@ -1,0 +1,28 @@
+Package: mash
+Binary: mash, libmash-dev, mash-doc
+Version: 2.2.2+dfsg-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <satta@debian.org>
+Build-Depends: debhelper (>= 12~), capnproto (>= 0.6.1), libcapnp-dev (>= 0.6.1), libgsl-dev, zlib1g-dev, python3-sphinx, libjs-mathjax, asciidoctor, libmurmurhash-dev
+Architecture: amd64 arm64 mips64el ppc64el s390x alpha ppc64 riscv64 all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 25361c55c06d48f6a1f15142a102f83f 2322 mash_2.2.2+dfsg-2.dsc
+ 9d04137d26a350818df778d48deac569 3423516 mash_2.2.2+dfsg.orig.tar.xz
+ af7b2c8432accaac15bc04fb4565bf9b 2159032 mash_2.2.2+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/mash
+Vcs-Git: https://salsa.debian.org/med-team/mash.git
+Checksums-Sha256:
+ 9acbd3d7439e2ae09c0b4e8d206a24f00157fc6cdaf3aac4194b734e16eded95 2322 mash_2.2.2+dfsg-2.dsc
+ 23caf53b7948584f3e0e803c82201023c38a375dc803009628aa79560405bdac 3423516 mash_2.2.2+dfsg.orig.tar.xz
+ 24e1caa333957820a205c83c836e12ce941ce6ffc4b7f2c16c84db93af9ea54e 2159032 mash_2.2.2+dfsg-2.debian.tar.xz
+Homepage: https://mash.readthedocs.io
+Package-List: 
+ libmash-dev deb libdevel optional arch=amd64,arm64,mips64el,ppc64el,s390x,alpha,ppc64,riscv64
+ mash deb science optional arch=amd64,arm64,mips64el,ppc64el,s390x,alpha,ppc64,riscv64
+ mash-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/mash
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: golang-github-benbjohnson-tmpl
+Binary: golang-github-benbjohnson-tmpl-dev, tmpl
+Version: 0.0~git20160209.0.8e77bc5-7
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <utkarsh@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-go
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2dae18ff180a714dcabfdec65d92441e 2476 golang-github-benbjohnson-tmpl_0.0~git20160209.0.8e77bc5-7.dsc
+ e3eb2bccefd1aff7b5e5f8f7a563851d 4140 golang-github-benbjohnson-tmpl_0.0~git20160209.0.8e77bc5.orig.tar.xz
+ bcbb1a692602a189d187bf8df33f0841 3280 golang-github-benbjohnson-tmpl_0.0~git20160209.0.8e77bc5-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-benbjohnson-tmpl
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-benbjohnson-tmpl.git
+Checksums-Sha256:
+ 6e848497fecc9a61eb5cf98736d6c3cc55cbbef6817d22e38f8f575f7d073e12 2476 golang-github-benbjohnson-tmpl_0.0~git20160209.0.8e77bc5-7.dsc
+ 0b1066493e97cac1468103d8eaa276c96ff6e678d8d5e87222980145aba307fa 4140 golang-github-benbjohnson-tmpl_0.0~git20160209.0.8e77bc5.orig.tar.xz
+ 34e90f2115797b7a5644a7b94c7afaf93a9404aa64b81aef0ffc846439a7fbdf 3280 golang-github-benbjohnson-tmpl_0.0~git20160209.0.8e77bc5-7.debian.tar.xz
+Homepage: https://github.com/benbjohnson/tmpl
+Go-Import-Path: github.com/benbjohnson/tmpl
+Package-List: 
+ golang-github-benbjohnson-tmpl-dev deb devel optional arch=all
+ tmpl deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-benbjohnson-tmpl
+Priority: extra
+Section: golang

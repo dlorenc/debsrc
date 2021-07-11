@@ -1,0 +1,26 @@
+Package: psortb
+Binary: psortb
+Version: 3.0.6+dfsg-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), libsvm-dev, bioperl, ncbi-blast+-legacy, libsquid-dev, libhmmer2-dev, libsvmloc-dev, libmodhmm-dev, pkg-config, pftools
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cfa36f5714f61b289f5ab86156dc22d7 2092 psortb_3.0.6+dfsg-2.dsc
+ c4feab06d3031fecac1ab90258550209 17036876 psortb_3.0.6+dfsg.orig.tar.xz
+ 63e0108962a270b5d135def5bd1f81af 6812 psortb_3.0.6+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/psortb
+Vcs-Git: https://salsa.debian.org/med-team/psortb.git
+Checksums-Sha256:
+ 167717420a98be46f68e83e5bfa54d5fa9c0b2508f5b4513f05774f80c40c0d8 2092 psortb_3.0.6+dfsg-2.dsc
+ ed32aa0240bb03daed228b32614a53c146afba6ca66fd087702315d75e23f751 17036876 psortb_3.0.6+dfsg.orig.tar.xz
+ 6b04313e101a6394920a46ba48f3fdb6fca11ffb3a38a7c5572a15652a98feef 6812 psortb_3.0.6+dfsg-2.debian.tar.xz
+Homepage: https://www.psort.org/
+Package-List: 
+ psortb deb science optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/p/psortb
+Priority: optional
+Section: misc

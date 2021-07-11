@@ -1,0 +1,26 @@
+Package: rust-dbus-0.2
+Binary: librust-dbus-0.2-dev
+Version: 0.2.3-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 150ae53d67e465a991cd705e6941bb82 2190 rust-dbus-0.2_0.2.3-2.dsc
+ e1f5c4ec32e4176953d07d83ee24b900 36597 rust-dbus-0.2_0.2.3.orig.tar.gz
+ db95f1904312f782ebda357783452a6a 2692 rust-dbus-0.2_0.2.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/dbus-0.2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/dbus-0.2]
+Checksums-Sha256:
+ b8491b86446d31917d0c3076cada58a3545df5e1dddffbafccf7ec07feba258f 2190 rust-dbus-0.2_0.2.3-2.dsc
+ b6d658b30d5ade96f07a9db06632e9fb5ecc7372f7c70fe1a76991c8854a5d76 36597 rust-dbus-0.2_0.2.3.orig.tar.gz
+ 51a8d66012ae65b056e780170a5bfb8cf1c0624b74425ee6ca9880e3b9521f1d 2692 rust-dbus-0.2_0.2.3-2.debian.tar.xz
+Package-List: 
+ librust-dbus-0.2-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-dbus-0.2
+Priority: extra
+Section: misc

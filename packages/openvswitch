@@ -1,0 +1,34 @@
+Package: openvswitch
+Binary: openvswitch-common, openvswitch-dbg, openvswitch-dev, openvswitch-ipsec, openvswitch-pki, openvswitch-switch, openvswitch-switch-dpdk, openvswitch-testcontroller, openvswitch-vtep, python3-openvswitch
+Version: 2.15.0+ds1-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Simon Horman <horms@debian.org>, Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: autoconf, automake, bzip2, debhelper-compat (= 12), dh-python, graphviz, libcap-ng-dev, libdpdk-dev (>= 20.11) [amd64 i386 ppc64el arm64], libnuma-dev [amd64 i386 ppc64el arm64], libpcap-dev [amd64 i386 ppc64el arm64], libssl-dev, libtool, libunbound-dev, openssl, openstack-pkg-tools, pkg-config, procps, python3-all-dev, python3-setuptools, python3-six, python3-sortedcontainers, python3-sphinx, python3-zope.interface
+Architecture: linux-any all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ c53402962313566cd9cf0543e349cb3b 3148 openvswitch_2.15.0+ds1-2.dsc
+ 534a718be0dac829f71f02bc4e89fe1f 3721240 openvswitch_2.15.0+ds1.orig.tar.xz
+ 0bc3a969f03c8bfd8f0b5227e76987ad 51452 openvswitch_2.15.0+ds1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/third-party/openvswitch
+Vcs-Git: https://salsa.debian.org/openstack-team/third-party/openvswitch.git
+Checksums-Sha256:
+ ff49e0718f0af34a6100b789e30ed852cbe84d1afb3b6815c9bf516b24f4f2cc 3148 openvswitch_2.15.0+ds1-2.dsc
+ 801aeb7e4135f20ebb965df47527ce1118da25ac143a975113f4f0d2c7be62ab 3721240 openvswitch_2.15.0+ds1.orig.tar.xz
+ d31eaf249f64a85415a13c5a574cfddaae51c70698835fb01d6c251614ac0219 51452 openvswitch_2.15.0+ds1-2.debian.tar.xz
+Homepage: http://openvswitch.org/
+Package-List: 
+ openvswitch-common deb net optional arch=linux-any
+ openvswitch-dbg deb debug optional arch=linux-any
+ openvswitch-dev deb net optional arch=linux-any
+ openvswitch-ipsec deb net optional arch=linux-any
+ openvswitch-pki deb net optional arch=all
+ openvswitch-switch deb net optional arch=linux-any
+ openvswitch-switch-dpdk deb net optional arch=amd64,arm64,i386,ppc64el
+ openvswitch-testcontroller deb net optional arch=linux-any
+ openvswitch-vtep deb net optional arch=linux-any
+ python3-openvswitch deb python optional arch=all
+Directory: pool/main/o/openvswitch
+Priority: source
+Section: net

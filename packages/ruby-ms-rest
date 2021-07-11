@@ -1,0 +1,27 @@
+Package: ruby-ms-rest
+Binary: ruby-ms-rest
+Version: 0.7.6-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Abraham Raji <avronr@tuta.io>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), ruby-concurrent (>= 1.0), ruby-faraday (<< 2.0.0), ruby-faraday (>= 0.9), ruby-timeliness (>= 0.3.10)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7320868d833387d9aa39f621c47dbe69 2107 ruby-ms-rest_0.7.6-2.dsc
+ b1f61b8a81164b8e0d8e7b4d1d540582 155125 ruby-ms-rest_0.7.6.orig.tar.gz
+ d7582b499189269f902b0b1f1a99379a 2160 ruby-ms-rest_0.7.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ms-rest
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ms-rest.git
+Checksums-Sha256:
+ 5b11eaafb70ab9d6bb896de23c22f2a4fa64d13ebcfea4290c7cbf1f30eeea57 2107 ruby-ms-rest_0.7.6-2.dsc
+ 3efbabccd36a0a556750075c8ff6df4ca1233eb67bf39d8cddeadbf4177766dc 155125 ruby-ms-rest_0.7.6.orig.tar.gz
+ 64454ffebd3dee1a2c580185f938147e23fc7339a2ac2ec96a013ad5b1c5c3fe 2160 ruby-ms-rest_0.7.6-2.debian.tar.xz
+Homepage: https://aka.ms/ms_rest
+Package-List: 
+ ruby-ms-rest deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ms-rest
+Priority: extra
+Section: misc

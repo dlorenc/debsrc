@@ -1,0 +1,26 @@
+Package: rust-ctr
+Binary: librust-ctr-dev
+Version: 0.3.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-block-cipher-trait-0.6+default-dev <!nocheck>, librust-stream-cipher-0.3+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2c20d759d8e43094a8d6545b23e85eea 2297 rust-ctr_0.3.2-2.dsc
+ db237b16de234ddf1f828960a9cdb877 13265 rust-ctr_0.3.2.orig.tar.gz
+ 125f90833cabc70c5551b6be9d10d52d 2592 rust-ctr_0.3.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ctr
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ctr]
+Checksums-Sha256:
+ b55e58d8650e226798e0d6efdb3d4a4d31f3f28b940ab5552571ab9068a59d4a 2297 rust-ctr_0.3.2-2.dsc
+ 022cd691704491df67d25d006fe8eca083098253c4d43516c2206479c58c6736 13265 rust-ctr_0.3.2.orig.tar.gz
+ 152b5bcd0b880ea04efbe7619d55710497fdeee733c83775c3f07d3ea49dba94 2592 rust-ctr_0.3.2-2.debian.tar.xz
+Package-List: 
+ librust-ctr-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-aes-0.3+default-dev, librust-blobby-0.1+default-dev, librust-stream-cipher-0.3+default-dev, librust-stream-cipher-0.3+dev-dev
+Directory: pool/main/r/rust-ctr
+Priority: extra
+Section: misc

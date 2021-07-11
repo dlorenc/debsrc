@@ -1,0 +1,28 @@
+Package: haskell-sdl2-ttf
+Binary: libghc-sdl2-ttf-dev, libghc-sdl2-ttf-prof, libghc-sdl2-ttf-doc
+Version: 2.1.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Mikolaj Konarski <mikolaj.konarski@funktory.com>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-sdl2-dev (>= 2.2), libghc-sdl2-prof, pkg-config, libsdl2-ttf-dev (>= 2.0.12)
+Build-Depends-Indep: ghc-doc, libghc-sdl2-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 27b8e0edd5cb659a1cfb90694a100b3a 2435 haskell-sdl2-ttf_2.1.1-1.dsc
+ 5cc0324a7458b1b66744ad8cb886aa1b 11520 haskell-sdl2-ttf_2.1.1.orig.tar.gz
+ 01afe96a05a59f160513fc94e3287126 2644 haskell-sdl2-ttf_2.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-sdl2-ttf
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-sdl2-ttf]
+Checksums-Sha256:
+ 90ca7bff123880856ed683c16a0c2552441c625f20f51a99bcd752ffa78ec0b0 2435 haskell-sdl2-ttf_2.1.1-1.dsc
+ 160f4efd65666d660bba53140d759c4d734cd5cba9e4fd104944a25962a8d8c7 11520 haskell-sdl2-ttf_2.1.1.orig.tar.gz
+ d863b792dd323da6cadd2d37b4572fe18980636b5a46015a61d818ca855e3dd7 2644 haskell-sdl2-ttf_2.1.1-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/sdl2-ttf
+Package-List: 
+ libghc-sdl2-ttf-dev deb haskell optional arch=any
+ libghc-sdl2-ttf-doc deb doc optional arch=all
+ libghc-sdl2-ttf-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-sdl2-ttf
+Priority: extra
+Section: misc

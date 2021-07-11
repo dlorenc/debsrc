@@ -1,0 +1,28 @@
+Package: rust-data-encoding-macro
+Binary: librust-data-encoding-macro-dev, librust-data-encoding-macro+proc-macro-hack-dev, librust-data-encoding-macro+stable-dev
+Version: 0.1.7-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-data-encoding-2+default-dev (>= 2.1-~~) <!nocheck>, librust-data-encoding-macro-internal-0.1+default-dev (>= 0.1.7-~~) <!nocheck>, librust-data-encoding-macro-internal-0.1+stable-dev (>= 0.1.7-~~) <!nocheck>, librust-proc-macro-hack-0.5+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 087fc01870c6cbb35c3ad3111daa81a9 2718 rust-data-encoding-macro_0.1.7-2.dsc
+ 11fab692a81be2437f886d8c7642dab5 4198 rust-data-encoding-macro_0.1.7.orig.tar.gz
+ 18c3619adaeff1c4ad17af5ef3f120eb 2792 rust-data-encoding-macro_0.1.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/data-encoding-macro
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/data-encoding-macro]
+Checksums-Sha256:
+ baa41c2cbb20e28994db7c18e2312104457c05d27f39ac4a02dc98a1102fbb37 2718 rust-data-encoding-macro_0.1.7-2.dsc
+ 1995a2e32b5306e4f49cf55ffcf4365a4dab2c7ca3a97163a4f099ec2fee3453 4198 rust-data-encoding-macro_0.1.7.orig.tar.gz
+ d45b494c359f4c2afd6e9b345242c291dd07010b1b3e418dac9cef9e76405b49 2792 rust-data-encoding-macro_0.1.7-2.debian.tar.xz
+Package-List: 
+ librust-data-encoding-macro+proc-macro-hack-dev deb rust optional arch=any
+ librust-data-encoding-macro+stable-dev deb rust optional arch=any
+ librust-data-encoding-macro-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-data-encoding-macro
+Priority: extra
+Section: misc

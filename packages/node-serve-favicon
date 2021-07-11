@@ -1,0 +1,26 @@
+Package: node-serve-favicon
+Binary: node-serve-favicon
+Version: 2.5.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-etag <!nocheck>, node-fresh <!nocheck>, node-ms <!nocheck>, node-parseurl <!nocheck>, node-safe-buffer <!nocheck>, node-supertest (>= 1.1.0) <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 44e183901e9e36e5deb6a476dc5ab56d 2264 node-serve-favicon_2.5.0-3.dsc
+ f6fe8fed0d8bf8144f1090faa17a59ee 8840 node-serve-favicon_2.5.0.orig.tar.gz
+ 995859c692face8a3949cc4dea93e359 3344 node-serve-favicon_2.5.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-serve-favicon
+Vcs-Git: https://salsa.debian.org/js-team/node-serve-favicon.git
+Checksums-Sha256:
+ 357bdfb210bdfd7db61ed72a8a2ec7936e309c9c7d03049137a6391846ce9db1 2264 node-serve-favicon_2.5.0-3.dsc
+ a046b8a7c49150549b6204a0714adbe971ce8e387e8bccbfd466fc2745bb1466 8840 node-serve-favicon_2.5.0.orig.tar.gz
+ ab7a70e48d2e6ff0c4aae096d935b65fb5cc0a6aa693644d49c9cc2cc53197d4 3344 node-serve-favicon_2.5.0-3.debian.tar.xz
+Homepage: https://github.com/expressjs/serve-favicon
+Package-List: 
+ node-serve-favicon deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-serve-favicon
+Priority: optional
+Section: javascript

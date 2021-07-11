@@ -1,0 +1,27 @@
+Package: prometheus-libvirt-exporter
+Binary: prometheus-libvirt-exporter
+Version: 0.2.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Michal Arbet <michal.arbet@ultimum.io>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-libvirt-libvirt-go-dev, golang-github-prometheus-client-golang-dev, golang-gopkg-alecthomas-kingpin.v2-dev, libvirt-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 47c241eec8431b615347a6476cad03ec 2410 prometheus-libvirt-exporter_0.2.0-1.dsc
+ 6412d30f540bcde560ad9b0a9a0932d3 12413 prometheus-libvirt-exporter_0.2.0.orig.tar.gz
+ a8ba9fa3d603ef16ab7cd606633b0f4d 4324 prometheus-libvirt-exporter_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/prometheus-libvirt-exporter
+Vcs-Git: https://salsa.debian.org/go-team/packages/prometheus-libvirt-exporter.git
+Checksums-Sha256:
+ e64e5469d5785558758adf2e8c1ebcf163b436fa6b5372da0cf855418c855d28 2410 prometheus-libvirt-exporter_0.2.0-1.dsc
+ 25ab760d6cad9e11376e96d873a6422667ca53d3a505629ac753db039bef9bde 12413 prometheus-libvirt-exporter_0.2.0.orig.tar.gz
+ d09bdd81b35927f0da8f80c4fc07e8cbcf01d6781244cb21fac145bc670b94f0 4324 prometheus-libvirt-exporter_0.2.0-1.debian.tar.xz
+Homepage: https://github.com/kumina/libvirt_exporter
+Go-Import-Path: github.com/kumina/libvirt_exporter
+Package-List: 
+ prometheus-libvirt-exporter deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/p/prometheus-libvirt-exporter
+Priority: extra
+Section: misc

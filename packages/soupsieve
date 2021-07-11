@@ -1,0 +1,27 @@
+Package: soupsieve
+Binary: python3-soupsieve
+Version: 2.2.1-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-bs4 (>= 4.7) <!nocheck>, python3-html5lib <!nocheck>, python3-lxml <!nocheck>, python3-pytest <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f6492e5eb5b4fc3f907810cf0a44cdcf 1620 soupsieve_2.2.1-1.dsc
+ 73ff6ce22ba973fe2d47197834e0f728 102949 soupsieve_2.2.1.orig.tar.gz
+ 3c820fab5f3510396b2f2a095b24002b 3404 soupsieve_2.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/soupsieve
+Vcs-Git: https://salsa.debian.org/python-team/packages/soupsieve.git
+Checksums-Sha256:
+ b6235610ac47501be3873234441f3c4538ab6e0c994a14de46cdc605e023dd08 1620 soupsieve_2.2.1-1.dsc
+ 052774848f448cf19c7e959adf5566904d525f33a3f8b6ba6f6f8f26ec7de0cc 102949 soupsieve_2.2.1.orig.tar.gz
+ 2d1dc2e547f0233a23a5895939183d5347faf6a1a95098055fdc752c9a14c453 3404 soupsieve_2.2.1-1.debian.tar.xz
+Homepage: https://facelessuser.github.io/soupsieve/
+Package-List: 
+ python3-soupsieve deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-bs4, python3-html5lib, python3-lxml, python3-pytest
+Directory: pool/main/s/soupsieve
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: golang-github-gorilla-mux
+Binary: golang-github-gorilla-mux-dev
+Version: 1.7.4-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Arnaud Rebillout <arnaud.rebillout@collabora.com>, Tianon Gravi <admwiggin@gmail.com>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper-compat (= 12), dh-golang
+Build-Depends-Indep: golang-any
+Architecture: all
+Standards-Version: 4.4.1.1
+Format: 3.0 (quilt)
+Files:
+ 22a9297eb7c4507cc55d3e65f44820b1 2452 golang-github-gorilla-mux_1.7.4-1.dsc
+ 4a00867a4cd615f300377b25689df768 45437 golang-github-gorilla-mux_1.7.4.orig.tar.gz
+ 654e0b4b20206be332edf16975290cd0 4412 golang-github-gorilla-mux_1.7.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gorilla-mux
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gorilla-mux.git
+Checksums-Sha256:
+ f817fe2ea94ff7f24f3573e65ce5e6e3f7d5f69a0fa85760cf25594fec5957cb 2452 golang-github-gorilla-mux_1.7.4-1.dsc
+ 56ea3c39b8c19360357970a4dcd717485f36ac7da9c6b5a107bd4b80848c4aee 45437 golang-github-gorilla-mux_1.7.4.orig.tar.gz
+ 74da7af24a6ae445181d254009a0cfe9b3de1d24cabd737eab70d159be5f2bb8 4412 golang-github-gorilla-mux_1.7.4-1.debian.tar.xz
+Homepage: https://github.com/gorilla/mux
+Dgit: 6efb6d44b7baf9c8655ba85c831f176bb5494117 debian archive/debian/1.7.4-1 https://git.dgit.debian.org/golang-github-gorilla-mux
+Go-Import-Path: github.com/gorilla/mux
+Package-List: 
+ golang-github-gorilla-mux-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-gorilla-mux
+Priority: extra
+Section: golang

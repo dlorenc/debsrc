@@ -1,0 +1,24 @@
+Package: vlock
+Binary: vlock
+Version: 2.2.2-10
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), libpam0g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9995dcdba42fa906c6f70fb3f4b70e54 1789 vlock_2.2.2-10.dsc
+ 51c389ee4ef814bf59063bc367437eb8 54732 vlock_2.2.2.orig.tar.gz
+ 480c18404e48815b6dfbd2b9b2b92739 9704 vlock_2.2.2-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/vlock
+Vcs-Git: https://salsa.debian.org/debian/vlock.git
+Checksums-Sha256:
+ 740ffb49c9e730c67d96db97524e6ac40391704a59099da24f6fc83f2742c798 1789 vlock_2.2.2-10.dsc
+ ea875250cad150872583b6ed2436470bc5e9c3a580d85554e31a2d5ae1d92fad 54732 vlock_2.2.2.orig.tar.gz
+ e0c395ce028962d96cf6dbb6219737e6cc7d8b3ffcc4abad4bda44cf55f58f0c 9704 vlock_2.2.2-10.debian.tar.xz
+Package-List: 
+ vlock deb utils optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/v/vlock
+Priority: source
+Section: utils

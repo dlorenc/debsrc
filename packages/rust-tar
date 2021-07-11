@@ -1,0 +1,28 @@
+Package: rust-tar
+Binary: librust-tar-dev, librust-tar+default-dev
+Version: 0.4.26-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-filetime-0.2+default-dev (>= 0.2.6-~~) <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-redox-syscall-0.1+default-dev <!nocheck>, librust-xattr-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ be9632b163e68c596f8de91580e6d116 2494 rust-tar_0.4.26-1.dsc
+ 1242ad4e8398d5ee0b3386e74a5bcb0b 42689 rust-tar_0.4.26.orig.tar.gz
+ 13e36bc86678cc0a186d7e1095098f7e 2960 rust-tar_0.4.26-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tar
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tar]
+Checksums-Sha256:
+ 693c82685cf67077905d56a2be25d8f70069006968bab60a9f3a3081174a946f 2494 rust-tar_0.4.26-1.dsc
+ b3196bfbffbba3e57481b6ea32249fbaf590396a52505a2615adbb79d9d826d3 42689 rust-tar_0.4.26.orig.tar.gz
+ bca4db7e29fdc6f7a105f5e312ac14dff44115aaf1a328811328fbce9a056a0f 2960 rust-tar_0.4.26-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/tar-rs
+Package-List: 
+ librust-tar+default-dev deb rust optional arch=any
+ librust-tar-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-tar
+Priority: extra
+Section: misc

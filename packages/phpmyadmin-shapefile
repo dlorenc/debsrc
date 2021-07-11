@@ -1,0 +1,27 @@
+Package: phpmyadmin-shapefile
+Binary: php-phpmyadmin-shapefile
+Version: 2.1-5
+Maintainer: phpMyAdmin Team <team+phpmyadmin@tracker.debian.org>
+Uploaders: Felipe Sateler <fsateler@debian.org>, William Desportes <williamdes@wdes.fr>
+Build-Depends: debhelper-compat (= 13), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b40ff0f64ca505cecaa5be69fdba3313 1820 phpmyadmin-shapefile_2.1-5.dsc
+ 8159d0be152bff8e7377896650e7c716 1144379 phpmyadmin-shapefile_2.1.orig.tar.gz
+ bc20c8f3d95572736cc5689feef848c1 3940 phpmyadmin-shapefile_2.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/phpmyadmin-team/shapefile
+Vcs-Git: https://salsa.debian.org/phpmyadmin-team/shapefile.git -b debian/latest
+Checksums-Sha256:
+ e5bbd4be734bc49eab610e3b39f70e994cf791c2905dab2290bbd8f093baf655 1820 phpmyadmin-shapefile_2.1-5.dsc
+ bf3e830bfcd4cfd812b5ba310eb66e57aa9b27e4876275c3a134e293d44f3af7 1144379 phpmyadmin-shapefile_2.1.orig.tar.gz
+ 82a9f8ebb3fd407dd760919ed47127c79a5e01176c7ed3825a43680feac4f0e9 3940 phpmyadmin-shapefile_2.1-5.debian.tar.xz
+Homepage: https://github.com/phpmyadmin/shapefile
+Package-List: 
+ php-phpmyadmin-shapefile deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, phpunit
+Directory: pool/main/p/phpmyadmin-shapefile
+Priority: extra
+Section: misc

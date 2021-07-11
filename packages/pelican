@@ -1,0 +1,27 @@
+Package: pelican
+Binary: pelican, pelican-doc, python-pelican
+Version: 4.0.1+dfsg-1.1
+Maintainer: Debian Python Applications Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Vincent Cheng <vcheng@debian.org> , Geert Stappers <stappers@debian.org>
+Build-Depends: debhelper (>= 9), dh-python, python3-all (>= 3.3~), python3-blinker, python3-dateutil, python3-docutils, python3-feedgenerator, python3-jinja2 (>= 2.7), python3-pygments, python3-setuptools (>= 0.6b3), python3-six (>= 1.4), python3-sphinx, python3-tz, python3-unidecode
+Architecture: all
+Standards-Version: 4.0.1
+Format: 3.0 (quilt)
+Files:
+ c3d3300751c7bcdf154e6c24ef2e87fc 2399 pelican_4.0.1+dfsg-1.1.dsc
+ 03e6c42b3e1c52ed284eab6f116251f1 479500 pelican_4.0.1+dfsg.orig.tar.xz
+ 31f6e7cb657716bfc90c241eb97424c3 17340 pelican_4.0.1+dfsg-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/pelican
+Vcs-Git: https://salsa.debian.org/python-team/applications/pelican.git
+Checksums-Sha256:
+ ea371eac302207a3f228a2ccce0dda25426775be2824574b1c94d21190ecae63 2399 pelican_4.0.1+dfsg-1.1.dsc
+ 8570e63e4b2e49ee7496d823ee0c5f17165ed20fa43c88f878f5beb66bfcbacb 479500 pelican_4.0.1+dfsg.orig.tar.xz
+ c5505e6638393a34ceb5ad9d2641f1a69b7517ff35d75838580f0ae711d4fa3a 17340 pelican_4.0.1+dfsg-1.1.debian.tar.xz
+Homepage: http://getpelican.com/
+Package-List: 
+ pelican deb web optional arch=all
+ pelican-doc deb doc optional arch=all
+ python-pelican deb oldlibs optional arch=all
+Directory: pool/main/p/pelican
+Priority: optional
+Section: web

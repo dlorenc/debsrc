@@ -1,0 +1,27 @@
+Package: rust-plist
+Binary: librust-plist-dev, librust-plist+default-dev
+Version: 1.0.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Helen Koike <helen@koikeco.de>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-base64-0.12+default-dev <!nocheck>, librust-chrono-0.4+std-dev (>= 0.4.11-~~) <!nocheck>, librust-indexmap-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-line-wrap-0.1+default-dev (>= 0.1.1-~~) <!nocheck>, librust-serde-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-xml-rs-0.8+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2d1ffa10dd7c006e4c14fe48efb51b2b 2506 rust-plist_1.0.0-1.dsc
+ e06cf535fc806174e0948dc764643d26 39489 rust-plist_1.0.0.orig.tar.gz
+ d49093bf71af061491a9fef42c51ec8e 2912 rust-plist_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/plist
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/plist]
+Checksums-Sha256:
+ 9110692416849c7322183a6b2210038bc77278589e0ff4829f92f7ce984c8d26 2506 rust-plist_1.0.0-1.dsc
+ 7b336d94e8e4ce29bf15bba393164629764744c567e8ad306cc1fdd0119967fd 39489 rust-plist_1.0.0.orig.tar.gz
+ 6b082c6fb1dae5739e5cb2b19aa7c5a05c8fbc077825c36f60d77f745e070602 2912 rust-plist_1.0.0-1.debian.tar.xz
+Package-List: 
+ librust-plist+default-dev deb rust optional arch=any
+ librust-plist-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-derive-1+default-dev
+Directory: pool/main/r/rust-plist
+Priority: extra
+Section: misc

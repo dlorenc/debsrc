@@ -1,0 +1,27 @@
+Package: haskell-hsini
+Binary: libghc-hsini-dev, libghc-hsini-prof, libghc-hsini-doc
+Version: 0.5.1.2-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-tasty-dev, libghc-tasty-hunit-dev, libghc-tasty-quickcheck-dev, libghc-tasty-th-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a1b92a52249ad5eadeeeb9a222345923 2347 haskell-hsini_0.5.1.2-6.dsc
+ b03e9c476c3e0df7cbc962d926a63faa 5842 haskell-hsini_0.5.1.2.orig.tar.gz
+ 5ede935c14b193237d4f3230b7b368e9 2692 haskell-hsini_0.5.1.2-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hsini
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hsini]
+Checksums-Sha256:
+ 5f2181c843c273e5af452902f69d823cdfb390a9736b18caea12cadb35acda69 2347 haskell-hsini_0.5.1.2-6.dsc
+ eaa6ae68c6271d5c3187054e702719b3ee7916524ffda27bb328cc9aad9ed8e4 5842 haskell-hsini_0.5.1.2.orig.tar.gz
+ 1059573e261547b774a2f5cea22291f1d6a826f11472ac30e7fea4b21f98a742 2692 haskell-hsini_0.5.1.2-6.debian.tar.xz
+Package-List: 
+ libghc-hsini-dev deb haskell optional arch=any
+ libghc-hsini-doc deb doc optional arch=all
+ libghc-hsini-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hsini
+Priority: optional
+Section: misc

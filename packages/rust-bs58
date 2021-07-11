@@ -1,0 +1,27 @@
+Package: rust-bs58
+Binary: librust-bs58-dev, librust-bs58+check-dev
+Version: 0.4.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 91ec555e8eacb83e3954ca3e1cf3e548 2291 rust-bs58_0.4.0-1.dsc
+ 2cc34f80995f2244f29c8e8e9baaa366 24914 rust-bs58_0.4.0.orig.tar.gz
+ c3b83f67265dcee2445cef9917ec5f24 2852 rust-bs58_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bs58
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/bs58]
+Checksums-Sha256:
+ 089f2ac861817e49126e9ba7984300bd6ae8765f8d0c2ef21c3ef5e6e0fde3b1 2291 rust-bs58_0.4.0-1.dsc
+ 771fe0050b883fcc3ea2359b1a96bcfbc090b7116eae7c3c512c7a083fdf23d3 24914 rust-bs58_0.4.0.orig.tar.gz
+ 1d3f011616f7e63f69eea0799037e7507176c084b7cf49104e7e709f78594ec7 2852 rust-bs58_0.4.0-1.debian.tar.xz
+Package-List: 
+ librust-bs58+check-dev deb rust optional arch=any
+ librust-bs58-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-assert-matches-1+default-dev, librust-base58-0.1+default-dev, librust-criterion-0.3+default-dev, librust-rust-base58-0.0.4+default-dev
+Directory: pool/main/r/rust-bs58
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: mbtserver
+Binary: mbtserver, libmbtserver1, libmbtserver-dev
+Version: 0.14-2
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Joost van Baal-Ilić <joostvb@debian.org>, Ko van der Sloot <ko.vandersloot@uvt.nl>, Maarten van Gompel <proycon@anaproy.nl>,
+Build-Depends: debhelper-compat (= 13), libmbt-dev (>= 3.6), libticcutils-dev (>= 0.24), libtimbl-dev (>= 6.5), libtimblserver-dev (>= 1.14), libxml2-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3e8bfc8745f4f48f757957e951cba83b 1928 mbtserver_0.14-2.dsc
+ 128b3b3c9a4bdbb6b2af4d938dc87e2b 686374 mbtserver_0.14.orig.tar.gz
+ c760eebc51bc09889958b40305139b3f 4560 mbtserver_0.14-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/mbtserver
+Vcs-Git: https://salsa.debian.org/science-team/mbtserver.git
+Checksums-Sha256:
+ 108ea09fef346c027c91a4608e390c26559aa12b22ee6db82dd9ea0203aa7426 1928 mbtserver_0.14-2.dsc
+ 6eede7a7b0821c3bc2360bfd47403f7842fe87a119af08f3c17d7b1ad05cd082 686374 mbtserver_0.14.orig.tar.gz
+ a26d90665264a015c68de84248bee5b89db4fbcfa9237cd6a22ec06ab9904546 4560 mbtserver_0.14-2.debian.tar.xz
+Homepage: https://languagemachines.github.io/mbt/
+Package-List: 
+ libmbtserver-dev deb libdevel optional arch=any
+ libmbtserver1 deb libs optional arch=any
+ mbtserver deb science optional arch=any
+Directory: pool/main/m/mbtserver
+Priority: source
+Section: science

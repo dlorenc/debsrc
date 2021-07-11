@@ -1,0 +1,28 @@
+Package: fyba
+Binary: libfyba0, libfyba-dev
+Version: 4.1.1-7
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Ruben Undheim <ruben.undheim@gmail.com>
+Build-Depends: debhelper (>= 10~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3ef532ee2e2f8dfa0ec4316163ff46bf 1983 fyba_4.1.1-7.dsc
+ ab687582efdef26593796271529a10cb 500377 fyba_4.1.1.orig.tar.gz
+ 49e82c448840694786a8a4cbf79c9783 12848 fyba_4.1.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/fyba
+Vcs-Git: https://salsa.debian.org/debian-gis-team/fyba.git
+Checksums-Sha256:
+ 3f6b481b407182f252a009e797fb4f07c5128922c7b658b640416e4c7fa22162 1983 fyba_4.1.1-7.dsc
+ 99f658d52e8fd8997118bb6207b9c121500700996d9481a736683474e2534179 500377 fyba_4.1.1.orig.tar.gz
+ 21ca1dcbb298f7bebd62a958f370711f870240fc56fa1e1254c21d40d524c8c4 12848 fyba_4.1.1-7.debian.tar.xz
+Homepage: https://github.com/kartverket/fyba
+Package-List: 
+ libfyba-dev deb libdevel optional arch=any
+ libfyba0 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: g++
+Directory: pool/main/f/fyba
+Priority: optional
+Section: misc

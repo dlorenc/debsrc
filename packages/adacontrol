@@ -1,0 +1,29 @@
+Package: adacontrol
+Binary: adacontrol, adacontrol-doc
+Version: 1.21r6b-7
+Maintainer: Ludovic Brenta <lbrenta@debian.org>
+Uploaders: Nicolas Boulenguez <nicolas@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: texinfo, texlive-base, texlive-fonts-recommended, texlive-latex-base, texlive-plain-generic
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 002dbf5d1ca92fbcd3c84b6ae94911a5 2280 adacontrol_1.21r6b-7.dsc
+ 5c57e26bd7bfed97a169766918ee128d 813584 adacontrol_1.21r6b.orig.tar.xz
+ f50c145915d544cb3b8cf43c2ddf9575 14616 adacontrol_1.21r6b-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/adacontrol
+Vcs-Git: https://salsa.debian.org/debian/adacontrol.git
+Checksums-Sha256:
+ 65c304f31c9ca8495b3798becf509f6697598bda5cbcb37c95a2695c15fe623a 2280 adacontrol_1.21r6b-7.dsc
+ 453ba09eca66fd40701d111adcd34460bc843b4290fd0224fe10763294023c85 813584 adacontrol_1.21r6b.orig.tar.xz
+ 8218d03d8cfa8b65b4756d157f85601b15def42626b6a6ef15f3c6fd2d9522a3 14616 adacontrol_1.21r6b-7.debian.tar.xz
+Homepage: http://www.adalog.fr/en/adacontrol.html
+Build-Depends-Arch: dos2unix, gnat, gprbuild (>= 2021.0.0.0778b109-2), libasis2019.1-dev (>= 2019-4), libgnatcoll19-dev (>= 21.0.0-2)
+Package-List: 
+ adacontrol deb devel optional arch=any
+ adacontrol-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/a/adacontrol
+Priority: source
+Section: devel

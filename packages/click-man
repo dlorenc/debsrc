@@ -1,0 +1,28 @@
+Package: click-man
+Binary: python3-click-man, click-man
+Version: 0.4.1-2
+Maintainer: Ryan Pavlik <ryan@ryanpavlik.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-click, python3-setuptools, python3-sure <!nocheck>, python3-nose <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 14819cd8ee0d119b361e82add5d4f0b7 1878 click-man_0.4.1-2.dsc
+ 6ec6c4bb4504a9094a3f8c242f32ef16 8483 click-man_0.4.1.orig.tar.gz
+ db83365abe03dc4132a8ac9dfc78b3d5 3100 click-man_0.4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rpavlik-guest/click-man
+Vcs-Git: https://salsa.debian.org/rpavlik-guest/click-man.git
+Checksums-Sha256:
+ 1b600dff856673b0fcbd9591c29b3e11f498d71f90aef93176059e7cc05b7802 1878 click-man_0.4.1-2.dsc
+ cd028150639c0887092bb56f62004f5f3fcc7c72065c077bba5f78097d17f259 8483 click-man_0.4.1.orig.tar.gz
+ 29b7a8ee01188545457a8025c92e90473783ab3c4465b720b8230d0487a67929 3100 click-man_0.4.1-2.debian.tar.xz
+Homepage: https://github.com/click-contrib/click-man
+Dgit: 54cf6e05e59632fdda1eb8ef0994ac89b9560026 debian archive/debian/0.4.1-2 https://git.dgit.debian.org/click-man
+Package-List: 
+ click-man deb devel optional arch=all
+ python3-click-man deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-nose, python3-sure
+Directory: pool/main/c/click-man
+Priority: extra
+Section: misc

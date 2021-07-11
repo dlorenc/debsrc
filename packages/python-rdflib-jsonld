@@ -1,0 +1,26 @@
+Package: python-rdflib-jsonld
+Binary: python3-rdflib-jsonld
+Version: 0.5.0-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael R. Crusoe <michael.crusoe@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-sphinx, python3-setuptools, python3, python3-all, python3-rdflib (>= 4.2.1), python3-html5lib, python3-sparqlwrapper, python3-nose
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0a96a7a898b330b087e14d8c45775fa5 2243 python-rdflib-jsonld_0.5.0-1.dsc
+ a2021a6293a470156cacdb3342c8ca99 55905 python-rdflib-jsonld_0.5.0.orig.tar.gz
+ 14597c54c7fdcbe66d3906f1df28a117 2748 python-rdflib-jsonld_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-rdflib-jsonld
+Vcs-Git: https://salsa.debian.org/med-team/python-rdflib-jsonld.git
+Checksums-Sha256:
+ b1cb098e95d31813a71118beb7c4a81275591b4420f654956498f1702ccb4521 2243 python-rdflib-jsonld_0.5.0-1.dsc
+ 4f7d55326405071c7bce9acf5484643bcb984eadb84a6503053367da207105ed 55905 python-rdflib-jsonld_0.5.0.orig.tar.gz
+ 7bee496284ea46ded8354d92ef9891b346cecfb082e9b3a6d32828f8785b0712 2748 python-rdflib-jsonld_0.5.0-1.debian.tar.xz
+Homepage: https://github.com/RDFLib/rdflib-jsonld
+Package-List: 
+ python3-rdflib-jsonld deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-rdflib-jsonld
+Priority: optional
+Section: misc

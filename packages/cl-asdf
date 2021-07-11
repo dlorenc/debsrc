@@ -1,0 +1,27 @@
+Package: cl-asdf
+Binary: cl-asdf
+Version: 2:3.3.4-2
+Maintainer: Debian Common Lisp Team <debian-common-lisp@lists.debian.org>
+Uploaders: Peter Van Eynde <pvaneynd@debian.org>, Milan Zamazal <pdm@zamazal.org>, Christoph Egger <christoph@debian.org>, François-René Rideau <fare@tunes.org>, Robert P. Goldman <rpgoldman@sift.info>, Kambiz Darabi <darabi@m-creations.net>
+Build-Depends: debhelper-compat (= 13), debhelper (>= 12.8~), texinfo, texlive-extra-utils, texlive, texlive-plain-generic, sbcl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c06f4067033a89d379bc9159d3c46657 2260 cl-asdf_3.3.4-2.dsc
+ 6749ca05d3d0020f03e8bd496e496423 506731 cl-asdf_3.3.4.orig.tar.gz
+ 1f7ddde721e51570728fb7f2dd0e7bc2 27904 cl-asdf_3.3.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/common-lisp-team/cl-asdf
+Vcs-Git: https://salsa.debian.org/common-lisp-team/cl-asdf.git
+Checksums-Sha256:
+ cae059509b7331f4035365bf2cdee59ddf5caba89d154c3c80a636b61d681b8c 2260 cl-asdf_3.3.4-2.dsc
+ fe4edc98dd32999520a4fe0af8859f86af394e4cdf3e34d1e10754815f67d71e 506731 cl-asdf_3.3.4.orig.tar.gz
+ 46ea3c3551159b207544dc0249b68132ede6636706f84b6b5f5038a7f94e343c 27904 cl-asdf_3.3.4-2.debian.tar.xz
+Homepage: https://common-lisp.net/project/asdf/
+Package-List: 
+ cl-asdf deb lisp optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clisp, ecl, sbcl
+Directory: pool/main/c/cl-asdf
+Priority: source
+Section: lisp

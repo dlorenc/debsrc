@@ -1,0 +1,27 @@
+Package: vsearch
+Binary: vsearch, vsearch-examples
+Version: 2.15.2-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Tim Booth <tbooth@ceh.ac.uk>, Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), zlib1g-dev, libbz2-dev, markdown, ghostscript, time
+Architecture: amd64 arm64 kfreebsd-amd64 ppc64el
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d91ff3e36e99b7308ec024e36473301c 2219 vsearch_2.15.2-3.dsc
+ 04abc1565ed11c73b2be35a3a37e46ae 242701 vsearch_2.15.2.orig.tar.gz
+ a2d8591432da89178500ac6416f88ea5 1631104 vsearch_2.15.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/vsearch
+Vcs-Git: https://salsa.debian.org/med-team/vsearch.git
+Checksums-Sha256:
+ 7a182ab7189b0fb79c2ce4000ff1efb3504465d87e9f6564ed76b4ede1ca9649 2219 vsearch_2.15.2-3.dsc
+ ce821f5f870c00938ddc0938ba5a13f17e697a9ddd1d53cfbebd276ae4c640c8 242701 vsearch_2.15.2.orig.tar.gz
+ 7f3ea941e028aae9df9b13caad25ff0607c52a53591d1545be28561bd3f0de07 1631104 vsearch_2.15.2-3.debian.tar.xz
+Homepage: https://github.com/torognes/vsearch/
+Package-List: 
+ vsearch deb science optional arch=amd64,arm64,kfreebsd-amd64,ppc64el
+ vsearch-examples deb science optional arch=amd64,arm64,kfreebsd-amd64,ppc64el
+Testsuite: autopkgtest
+Directory: pool/main/v/vsearch
+Priority: optional
+Section: misc

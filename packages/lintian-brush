@@ -1,0 +1,23 @@
+Package: lintian-brush
+Binary: lintian-brush
+Version: 0.99
+Maintainer: Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: bash-completion, decopy, devscripts, dh-python, dos2unix, python3-all, python3-bs4, python3-breezy (>= 3.1.0-8), python3-breezy.tests, python3-dulwich (>= 0.19.7), python3-distro-info, python3-debian, python3-debmutate (>= 0.20), python3-iniparse, python3-pyinotify [linux-any], python3-levenshtein, python3-setuptools, python3-ruamel.yaml, python3-toml, python3-upstream-ontologist, po-debconf, gpg (>= 2.1), lintian (>= 2.104.0), debhelper-compat (= 12), ognibuild
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 0a24297f9a95fb2089021e74b9dd708f 2172 lintian-brush_0.99.dsc
+ 22341a6b1cb7ee73f87257b7e2afa45c 903888 lintian-brush_0.99.tar.xz
+Vcs-Browser: https://salsa.debian.org/jelmer/lintian-brush
+Vcs-Git: https://salsa.debian.org/jelmer/lintian-brush.git
+Checksums-Sha256:
+ 85e4aea0c5e542987c278048cb0eb4f77567e5a6083c780b3c740fdd5554d8fb 2172 lintian-brush_0.99.dsc
+ b585c23d32ef09fb50dc57d759f136bc1268f1d17714ccb2351fc21b2bb1be8d 903888 lintian-brush_0.99.tar.xz
+Package-List: 
+ lintian-brush deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: decopy, dos2unix, gpg, libdebhelper-perl, lintian, po-debconf, python3-breezy.tests, python3-iniparse, python3-levenshtein, python3-toml
+Directory: pool/main/l/lintian-brush
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rdp-classifier
+Binary: rdp-classifier, rdp-classifier-doc
+Version: 2.10.2-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <steffen_moeller@gmx.de>, Tim Booth <tbooth@ceh.ac.uk>, Andreas Tille <tille@debian.org>, Olivier Sallou <osallou@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, junit4, libcommons-cli-java, javahelper, rdp-readseq, rdp-alignment, librdp-taxonomy-tree-java, libjfreechart-java, ant, ant-optional, ant-contrib
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1029996268b29d2f570608d90e377e73 2349 rdp-classifier_2.10.2-5.dsc
+ 23a1b5b65b7eebdebff18d2656a9aaf1 865335 rdp-classifier_2.10.2.orig.tar.gz
+ b5a59fc39c746887fca2491ae112634b 7596 rdp-classifier_2.10.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/rdp-classifier
+Vcs-Git: https://salsa.debian.org/med-team/rdp-classifier.git
+Checksums-Sha256:
+ 8abcdb28478acdb7c7c5416710032ad74af7986625d300d11887ec8d5b6880b0 2349 rdp-classifier_2.10.2-5.dsc
+ 5189e438d70e65a37d0cb3f41cdcbbeb4ef88e0e7d13197285181c99ad4e3257 865335 rdp-classifier_2.10.2.orig.tar.gz
+ e1d2ac2e7446fee57208e81b05bb25d02c6cbb204f1c7d366fbab27568a05299 7596 rdp-classifier_2.10.2-5.debian.tar.xz
+Homepage: https://github.com/rdpstaff/classifier
+Package-List: 
+ rdp-classifier deb science optional arch=all
+ rdp-classifier-doc deb doc optional arch=all
+Directory: pool/main/r/rdp-classifier
+Priority: optional
+Section: misc

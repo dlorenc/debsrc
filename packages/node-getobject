@@ -1,0 +1,27 @@
+Package: node-getobject
+Binary: node-getobject, libjs-getobject
+Version: 0.1.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonathan Ulrich Horn <debian@autoit4you.de>
+Build-Depends: debhelper (>= 9), nodejs
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ cefede5226124b72d8c1d76e37cc8507 2081 node-getobject_0.1.0-2.dsc
+ 6bc5e5841977404ae3dbe27091d477d4 3128 node-getobject_0.1.0.orig.tar.xz
+ 23d8526b89d07c9fbfb4932b3820d646 2192 node-getobject_0.1.0-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-getobject.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-getobject.git
+Checksums-Sha256:
+ 4f242affee35cf316579b453312e8837d68caa85c9570cdef7fb925c235cbd79 2081 node-getobject_0.1.0-2.dsc
+ 356f4c8b0fd1627adcedd7d15b60506ee4033d069a42b1922f13ea3c592ca2d6 3128 node-getobject_0.1.0.orig.tar.xz
+ 28abd437e7cd556be3c568c35502abf224089d746b22405b68f8798571f928a0 2192 node-getobject_0.1.0-2.debian.tar.xz
+Homepage: https://github.com/cowboy/node-getobject
+Package-List: 
+ libjs-getobject deb web extra arch=all
+ node-getobject deb web extra arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/node-getobject
+Priority: optional
+Section: javascript

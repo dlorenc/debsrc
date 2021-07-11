@@ -1,0 +1,27 @@
+Package: rust-linkify
+Binary: librust-linkify-dev
+Version: 0.4.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Henry-Nicolas Tourneur <debian@nilux.be>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-memchr-2+default-dev (>= 2.0.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 328e5ffb57af5b96e822e4ebde3a84c7 2247 rust-linkify_0.4.0-1.dsc
+ a48a19d4b5fb725ba5152ae557ea1cc1 14795 rust-linkify_0.4.0.orig.tar.gz
+ 25635c972bc38acc61fb3002f999f186 2572 rust-linkify_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/linkify
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/linkify]
+Checksums-Sha256:
+ cd87e8bab1b0efc2e674f867f57d9db85fb3d0b05837ad5da310132e65b2127e 2247 rust-linkify_0.4.0-1.dsc
+ 03951527dd24d2c59f407502e7d88e0948ef06fac23335b556a4c2bc03c22096 14795 rust-linkify_0.4.0.orig.tar.gz
+ d2a9eb9e392e81867c7e2a49befd715872547cea1ac17de3220df5b42ce7ff08 2572 rust-linkify_0.4.0-1.debian.tar.xz
+Homepage: https://github.com/robinst/linkify
+Package-List: 
+ librust-linkify-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-version-sync-0.8+default-dev
+Directory: pool/main/r/rust-linkify
+Priority: extra
+Section: misc

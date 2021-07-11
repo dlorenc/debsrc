@@ -1,0 +1,27 @@
+Package: r-cran-crosstalk
+Binary: r-cran-crosstalk
+Version: 1.1.1+dfsg-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-htmltools (>= 0.3.6), r-cran-jsonlite, r-cran-lazyeval, r-cran-r6
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 42da87b4268cbce2dad7ba7569550861 2253 r-cran-crosstalk_1.1.1+dfsg-2.dsc
+ 7018283a93c061843c06fd71d6e83a4e 49524 r-cran-crosstalk_1.1.1+dfsg.orig.tar.xz
+ 62c9ab96b86b1564df953f249bbdabf0 11252 r-cran-crosstalk_1.1.1+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-crosstalk
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-crosstalk.git
+Checksums-Sha256:
+ 9e2bf66185a7421dd57ecc750f3942462a6c0bf525a091b71416161469b1d276 2253 r-cran-crosstalk_1.1.1+dfsg-2.dsc
+ 97e3c32848d2941968a1865beee626ec30cab275b1422f50f17b616fff16e677 49524 r-cran-crosstalk_1.1.1+dfsg.orig.tar.xz
+ f67efadd964b7353407772a45bce3f68f3ebe4f9a5e6c7a86350d226d69b37fa 11252 r-cran-crosstalk_1.1.1+dfsg-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=crosstalk
+Package-List: 
+ r-cran-crosstalk deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-shiny, r-cran-testthat
+Directory: pool/main/r/r-cran-crosstalk
+Priority: extra
+Section: misc

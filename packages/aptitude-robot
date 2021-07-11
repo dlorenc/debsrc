@@ -1,0 +1,27 @@
+Package: aptitude-robot
+Binary: aptitude-robot
+Version: 1.5.4-1
+Maintainer: Elmar S. Heeb <elmar@heebs.ch>
+Uploaders: Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13), libmoo-perl, libipc-run-perl, librun-parts-perl, perl, perl-doc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a4a06ff64b499553e6f44395220c252a 2034 aptitude-robot_1.5.4-1.dsc
+ 61c44e6b2471c6a76d7d2681162b89f4 84921 aptitude-robot_1.5.4.orig.tar.gz
+ d774dba58c8cd49db27cdf1d4fca4694 8272 aptitude-robot_1.5.4-1.debian.tar.xz
+Vcs-Browser: https://github.com/elmar/aptitude-robot
+Vcs-Git: https://github.com/elmar/aptitude-robot.git
+Checksums-Sha256:
+ 79289247d36b2a8b842b1e89ac8fad79f95c7f3d6e01f568ba32560daffc45ba 2034 aptitude-robot_1.5.4-1.dsc
+ e7e44daf0ddf7fad7179ca8f0dcc3c35a1f876733f844caf31710214b0749508 84921 aptitude-robot_1.5.4.orig.tar.gz
+ 0ef987d687ce82bfca9fa6a253d12c3743a029670c96d0c1af4b1c79da0a058a 8272 aptitude-robot_1.5.4-1.debian.tar.xz
+Homepage: https://github.com/elmar/aptitude-robot
+Package-List: 
+ aptitude-robot deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/a/aptitude-robot
+Priority: source
+Section: misc

@@ -1,0 +1,27 @@
+Package: ruby-rubocop-rspec
+Binary: ruby-rubocop-rspec
+Version: 1.42.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Miguel Landaeta <nomadium@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, rubocop (>= 0.87), ruby-rack, ruby-rspec, yard
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7a620c6d67f54fe6fd2dbeccc616ca14 2239 ruby-rubocop-rspec_1.42.0-1.dsc
+ b77cd2a1ba076c7cc7fcf184f64ff3d7 139298 ruby-rubocop-rspec_1.42.0.orig.tar.gz
+ a0b5ea803db5767017575b6a61ccc4c9 3088 ruby-rubocop-rspec_1.42.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rubocop-rspec
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rubocop-rspec.git
+Checksums-Sha256:
+ 2b33c23abac27cccbecd61aeba06c87bed453017401611e1a9eb18941e6f25b5 2239 ruby-rubocop-rspec_1.42.0-1.dsc
+ 693d50203107c4d9600cd7633fcd52eca0db75c81bc106d9bb1410dca9aeea37 139298 ruby-rubocop-rspec_1.42.0.orig.tar.gz
+ da963025d386f1c5a82c721b1594bee31cc0a0463fa9fa2d57c8c812531daee5 3088 ruby-rubocop-rspec_1.42.0-1.debian.tar.xz
+Homepage: https://github.com/rubocop-hq/rubocop-rspec
+Package-List: 
+ ruby-rubocop-rspec deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-rubocop-rspec
+Priority: extra
+Section: misc

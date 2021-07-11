@@ -1,0 +1,27 @@
+Package: php-horde-stream-filter
+Binary: php-horde-stream-filter
+Version: 2.0.4-9
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ad74d4931d8bfb4eed1836c24440e7d7 2220 php-horde-stream-filter_2.0.4-9.dsc
+ 46ef9f11c889f93af5bcccf96842be2e 13535 php-horde-stream-filter_2.0.4.orig.tar.gz
+ 029c895019373b0521b03460a253451e 3820 php-horde-stream-filter_2.0.4-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-stream-filter
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-stream-filter.git
+Checksums-Sha256:
+ a91102f62135dfaaa22edcfff4f03be2942696c329fcfc3382f3dcf5635e6300 2220 php-horde-stream-filter_2.0.4-9.dsc
+ caad33718af31a9afbb752bc8881a926dc11b0ace45afb56e4dd839b385e29b4 13535 php-horde-stream-filter_2.0.4.orig.tar.gz
+ fa68c7fd6d6bd35c36da49c761183fac0377c7a54456867a7155f52046db0ecf 3820 php-horde-stream-filter_2.0.4-9.debian.tar.xz
+Homepage: https://www.horde.org/
+Package-List: 
+ php-horde-stream-filter deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-stream-filter
+Priority: extra
+Section: misc

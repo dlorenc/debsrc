@@ -1,0 +1,27 @@
+Package: python-pyngus
+Binary: python3-pyngus
+Version: 2.3.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, openstack-pkg-tools, python3-all, python3-setuptools
+Build-Depends-Indep: python3-qpid-proton
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ daa6908bd41647fa7fff5aade72133e2 2111 python-pyngus_2.3.0-2.dsc
+ 0385184d169562cba785a7b3a38ff45c 60220 python-pyngus_2.3.0.orig.tar.xz
+ 615e6ccfb72f67e1163d3f4ad7ed4cd9 2888 python-pyngus_2.3.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-pyngus
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-pyngus.git
+Checksums-Sha256:
+ 45fb3ea455797595fc711bf9171cc686b59fb67a564e9712cb057c71a75f9df3 2111 python-pyngus_2.3.0-2.dsc
+ 0b3ac5b5ecddba3ac8405b93391803edcd3f11e79811606c860d7a4ef5fbfb51 60220 python-pyngus_2.3.0.orig.tar.xz
+ eb73dabb61e447e9c2e8fc36c8065c410d94343ff6c5aa2a13419aa589aba31b 2888 python-pyngus_2.3.0-2.debian.tar.xz
+Homepage: https://github.com/kgiusti/pyngus
+Package-List: 
+ python3-pyngus deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-pyngus
+Priority: optional
+Section: misc

@@ -1,0 +1,25 @@
+Package: expat
+Binary: libexpat1-dev, libexpat1, libexpat1-udeb, expat
+Version: 2.2.10-2
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper-compat (= 11), docbook-to-man, docbook2x <!stage1>, libbsd-dev [kfreebsd-amd64 kfreebsd-i386 hurd-i386]
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f784d9a2ff55f7005008b21b42a0088f 1988 expat_2.2.10-2.dsc
+ 7ca5f09959fcb9a57618368deb627b9f 8276395 expat_2.2.10.orig.tar.gz
+ 8da5d7365efa6b727af2b760fb3ba798 10956 expat_2.2.10-2.debian.tar.xz
+Checksums-Sha256:
+ f6cf4e5df4429e57f9d67d3a5bbcae5796e6744d392f95c4aeb9db9e056dc63c 1988 expat_2.2.10-2.dsc
+ 62e280f5fd29a5b70973f623e20a7412c3e3912c2684cb0e462e2c881be129e1 8276395 expat_2.2.10.orig.tar.gz
+ 1f618e2e5459fb78f7c9879e1964fa3ec03dd071ff4944005b99dc9600c0e4a8 10956 expat_2.2.10-2.debian.tar.xz
+Homepage: https://libexpat.github.io/
+Package-List: 
+ expat deb text optional arch=any
+ libexpat1 deb libs optional arch=any
+ libexpat1-dev deb libdevel optional arch=any
+ libexpat1-udeb udeb debian-installer optional arch=any profile=!noudeb
+Directory: pool/main/e/expat
+Priority: source
+Section: libs

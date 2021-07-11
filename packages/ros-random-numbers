@@ -1,0 +1,26 @@
+Package: ros-random-numbers
+Binary: librandom-numbers-dev, librandom-numbers0d
+Version: 0.3.2-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 13), catkin, libboost-date-time-dev, libboost-system-dev, libboost-thread-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2697c779fbf586bb74694cb8e2fe630b 2235 ros-random-numbers_0.3.2-3.dsc
+ 0fd6c6503ef969307e91fa25fabd8b02 6952 ros-random-numbers_0.3.2.orig.tar.gz
+ 41d664fef5d47c95851ed89d5930edb7 3012 ros-random-numbers_0.3.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ros-random-numbers
+Vcs-Git: https://salsa.debian.org/science-team/ros-random-numbers.git
+Checksums-Sha256:
+ 6ad8e752750d90868125830c8bd2625c3fd783b28e0d6b27a81404a255619aa4 2235 ros-random-numbers_0.3.2-3.dsc
+ da825a0c7a4e9de180d9d539aa78682c1d805b1e4c3ef16af0e6cb384f2134f5 6952 ros-random-numbers_0.3.2.orig.tar.gz
+ d89570883b8d65abac30fb92ff4e28b16fceaaf7f062b75427c964b40aa19f88 3012 ros-random-numbers_0.3.2-3.debian.tar.xz
+Homepage: https://wiki.ros.org/random_numbers
+Package-List: 
+ librandom-numbers-dev deb libdevel optional arch=any
+ librandom-numbers0d deb libs optional arch=any
+Directory: pool/main/r/ros-random-numbers
+Priority: optional
+Section: misc

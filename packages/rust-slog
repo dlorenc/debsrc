@@ -1,0 +1,28 @@
+Package: rust-slog
+Binary: librust-slog-dev, librust-slog+erased-serde-dev
+Version: 2.5.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ f407559e49cf942edd71538da804fca6 2244 rust-slog_2.5.2-1.dsc
+ cdd5b5fb1a33b31a894ed81f74b50578 43204 rust-slog_2.5.2.orig.tar.gz
+ d5cbc9f90020bc7a90a3b9a61f4121d5 3068 rust-slog_2.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/slog
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/slog]
+Checksums-Sha256:
+ c74d8e624fcf3c93fdf3cf196077f74a09dbbf01b9051fad1cc1777085fe25a5 2244 rust-slog_2.5.2-1.dsc
+ 1cc9c640a4adbfbcc11ffb95efe5aa7af7309e002adab54b185507dbf2377b99 43204 rust-slog_2.5.2.orig.tar.gz
+ 86162d58bb2698d16f69d322e966d8bfd29ff1910238ef35afe677936426fb24 3068 rust-slog_2.5.2-1.debian.tar.xz
+Homepage: https://github.com/slog-rs/slog
+Package-List: 
+ librust-slog+erased-serde-dev deb rust optional arch=any
+ librust-slog-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-slog
+Priority: extra
+Section: misc

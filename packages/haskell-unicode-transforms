@@ -1,0 +1,28 @@
+Package: haskell-unicode-transforms
+Binary: libghc-unicode-transforms-dev, libghc-unicode-transforms-prof, libghc-unicode-transforms-doc
+Version: 0.3.6-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Ilias Tsitsimpis <iliastsi@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc (>= 8.4.3), ghc-prof, libghc-bitarray-dev (>= 0.0.1), libghc-bitarray-dev (<< 0.1), libghc-bitarray-prof, libghc-quickcheck2-dev (>= 2.1), libghc-quickcheck2-dev (<< 2.14), libghc-quickcheck2-prof, libghc-getopt-generics-dev (>= 0.11), libghc-getopt-generics-dev (<< 0.14), libghc-split-dev (>= 0.1), libghc-split-dev (<< 0.3)
+Build-Depends-Indep: ghc-doc, libghc-bitarray-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 98f52d3326d7cbc6a092cc2ea5b5766b 2844 haskell-unicode-transforms_0.3.6-2.dsc
+ 84c76482be51c0e3b90b27999e629f0e 722543 haskell-unicode-transforms_0.3.6.orig.tar.gz
+ 0773f6b8c335bc117626e5024bb06096 3816 haskell-unicode-transforms_0.3.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-unicode-transforms
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-unicode-transforms]
+Checksums-Sha256:
+ 2d371c57a634dca8d33df486d6ce235af68c1420a363fc581b49e9704b860b8b 2844 haskell-unicode-transforms_0.3.6-2.dsc
+ 8326d001c463893a81fcfb431e3cc50c652fab041e9a37e284c445adfd667aaa 722543 haskell-unicode-transforms_0.3.6.orig.tar.gz
+ 287ca95254130a7b65b4bf2aeb8908324bfcae54e8f3faa62e78d7de2c43be25 3816 haskell-unicode-transforms_0.3.6-2.debian.tar.xz
+Homepage: https://github.com/harendra-kumar/unicode-transforms
+Package-List: 
+ libghc-unicode-transforms-dev deb haskell optional arch=any
+ libghc-unicode-transforms-doc deb doc optional arch=all
+ libghc-unicode-transforms-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-unicode-transforms
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-tempfile
+Binary: librust-tempfile-dev
+Version: 3.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>, Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.27-~~) <!nocheck>, librust-rand-0.7+default-dev <!nocheck>, librust-redox-syscall-0.1+default-dev <!nocheck>, librust-remove-dir-all-0.5+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+fileapi-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ aca961588b109904a5c1e9ea016dca01 2057 rust-tempfile_3.1.0-1.dsc
+ bb3ae104a9fa1b31568cc98c920a4653 25823 rust-tempfile_3.1.0.orig.tar.gz
+ c5fe98b2032b7e8c297d1b33fca4fcd0 3004 rust-tempfile_3.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tempfile
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tempfile]
+Checksums-Sha256:
+ 4619a0cf68caf8fcb3a2341202361a24349632f25139ef8679af2a154d4ce970 2057 rust-tempfile_3.1.0-1.dsc
+ 7a6e24d9338a0a5be79593e2fa15a648add6138caa803e2d5bc782c371732ca9 25823 rust-tempfile_3.1.0.orig.tar.gz
+ f5424d7406dae358a03228a55ae6f172a6d287b6baa0a768e687c167fd22aa43 3004 rust-tempfile_3.1.0-1.debian.tar.xz
+Homepage: http://stebalien.com/projects/tempfile-rs
+Package-List: 
+ librust-tempfile-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-tempfile
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: node-is-negated-glob
+Binary: node-is-negated-glob
+Version: 1.0.0-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper (>= 9), dh-buildinfo, nodejs, mocha
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 70f72ad4d62fd0db9a5b7291a4a4fbb3 2161 node-is-negated-glob_1.0.0-1.1.dsc
+ 717ff3a41edaf3b282e18260cd33793b 4917 node-is-negated-glob_1.0.0.orig.tar.gz
+ c92618b4daca2f4fd071f39d821cee86 2168 node-is-negated-glob_1.0.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-is-negated-glob.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-is-negated-glob.git
+Checksums-Sha256:
+ 56b2c6e301e252929bbb4892f3836d3a15528d82c3bd0a9dae4c07179a0f3dbe 2161 node-is-negated-glob_1.0.0-1.1.dsc
+ 7281b20c97147b5495ef18918c9d0818addcbc64f568e2389916382fa6b904f3 4917 node-is-negated-glob_1.0.0.orig.tar.gz
+ 3ec6ff73e32cf02246208045116b5559c4e1baa9e9395eed45421568911f31b3 2168 node-is-negated-glob_1.0.0-1.1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/is-negated-glob
+Package-List: 
+ node-is-negated-glob deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha
+Directory: pool/main/n/node-is-negated-glob
+Priority: optional
+Section: javascript

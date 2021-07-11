@@ -1,0 +1,24 @@
+Package: ploticus
+Binary: ploticus, libploticus0, libploticus0-dev
+Version: 2.42-4.2
+Maintainer: Colin Tuckley <colint@debian.org>
+Build-Depends: debhelper (>= 9), zlib1g-dev, libgd-dev, libjpeg-dev, libfreetype6-dev, libx11-dev, x11proto-core-dev, libpng-dev, dpkg-dev (>= 1.16.1~)
+Architecture: any
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ f63751bf889672caeb314d18bfec0b9f 1949 ploticus_2.42-4.2.dsc
+ 02fe4eeee39080786fd23772ab1e27b2 554515 ploticus_2.42.orig.tar.gz
+ 97d28dda1e5192ebfb880332a1d60d30 18700 ploticus_2.42-4.2.debian.tar.xz
+Checksums-Sha256:
+ 29783ed44eb2dff0eca46cd7e246ae6e3255bdc5b4aeed7fa69283f79069f9ef 1949 ploticus_2.42-4.2.dsc
+ 62ca31c596bbf0795dfc1d17350d6b83cfe7e742029e020429d35d5503584177 554515 ploticus_2.42.orig.tar.gz
+ 5ae008530b498d694cd5a732bd3bad8aa5e14af8557666472f0806906c865eda 18700 ploticus_2.42-4.2.debian.tar.xz
+Homepage: http://ploticus.sourceforge.net
+Package-List: 
+ libploticus0 deb libs optional arch=any
+ libploticus0-dev deb libdevel optional arch=any
+ ploticus deb misc optional arch=any
+Directory: pool/main/p/ploticus
+Priority: source
+Section: misc

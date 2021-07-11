@@ -1,0 +1,26 @@
+Package: prottest
+Binary: prottest
+Version: 3.4.2+dfsg-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), javahelper, default-jdk, ant, alter-sequence-alignment, libbetter-appframework-java, libmpj-java (>= 0.44+dfsg-2), libpal-java
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1d9462c2ba6844b5b248d9672eb63dda 2125 prottest_3.4.2+dfsg-5.dsc
+ 30c9eeead6bcc890f69c6b3074956755 254984 prottest_3.4.2+dfsg.orig.tar.xz
+ 62413d6a149960d3929641d94a3435cc 6860 prottest_3.4.2+dfsg-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/prottest
+Vcs-Git: https://salsa.debian.org/med-team/prottest.git
+Checksums-Sha256:
+ 2e1ccd427d8061a033c3d758fa11ad08165c6d71619d4b12ccac074b60ada745 2125 prottest_3.4.2+dfsg-5.dsc
+ b2cfcb76e40ada8b00b36c83e81c6af7df2f9f11d7556e6e1501e4f76b4add36 254984 prottest_3.4.2+dfsg.orig.tar.xz
+ 334342e97f7450d09ff61c9bbf184321f30364015ae379f167844000b27143bd 6860 prottest_3.4.2+dfsg-5.debian.tar.xz
+Homepage: https://github.com/ddarriba/prottest3
+Package-List: 
+ prottest deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/prottest
+Priority: optional
+Section: misc

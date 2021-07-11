@@ -1,0 +1,27 @@
+Package: ruby-rugged
+Binary: ruby-rugged
+Version: 1.1.0+ds-4
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>, Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), cmake, git, libgit2-dev (>= 1.1~), libgit2-fixtures, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 644bb719218f6e7a044d7843f157db24 1827 ruby-rugged_1.1.0+ds-4.dsc
+ b1bf98e4a9f264b0207959c2063ae946 590284 ruby-rugged_1.1.0+ds.orig.tar.xz
+ da59b2c33c6691708a03ac3534beae6e 5552 ruby-rugged_1.1.0+ds-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rugged
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rugged.git
+Checksums-Sha256:
+ 7e60724f25926f091a3962c17ba7df6a2d2c8b037b26ec96c995cd8b41398526 1827 ruby-rugged_1.1.0+ds-4.dsc
+ 5056f0b6612d4819fbf047f09fb50a076ad7b3287697a639b0e301a842e2b3ae 590284 ruby-rugged_1.1.0+ds.orig.tar.xz
+ 57ece4fb90cd7e2fd2a369d807118dbed92da395a95aee9416b15c5aed5afd18 5552 ruby-rugged_1.1.0+ds-4.debian.tar.xz
+Homepage: https://github.com/libgit2/rugged
+Package-List: 
+ ruby-rugged deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-rugged
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: haskell-pid1
+Binary: libghc-pid1-dev, libghc-pid1-prof, libghc-pid1-doc, pid1
+Version: 0.1.2.0-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d4c26accc8b2d3b22e23d8fc0d298cd1 2147 haskell-pid1_0.1.2.0-4.dsc
+ 90d873b8b5aee97118fbc3c696ab2e38 7289 haskell-pid1_0.1.2.0.orig.tar.gz
+ ba70124f00c23bc3c99f8f2bf6e16874 2332 haskell-pid1_0.1.2.0-4.debian.tar.xz
+Checksums-Sha256:
+ f3bc3571ed81a80d50c127b9d2e2f86b44161bd5244db6aff71216a5e637a4ba 2147 haskell-pid1_0.1.2.0-4.dsc
+ 9e97bf9b4b6ffd6a9b706cc6d5fadd8089cd37d2b8763111bd743104db267f76 7289 haskell-pid1_0.1.2.0.orig.tar.gz
+ 37c6920ee9591c1e6981cb8d6cf60fc9f0db87d188bd20971962349639e0ad87 2332 haskell-pid1_0.1.2.0-4.debian.tar.xz
+Homepage: https://github.com/fpco/pid1#readme
+Package-List: 
+ libghc-pid1-dev deb haskell optional arch=any
+ libghc-pid1-doc deb doc optional arch=all
+ libghc-pid1-prof deb haskell optional arch=any
+ pid1 deb admin optional arch=any
+Directory: pool/main/h/haskell-pid1
+Priority: extra
+Section: misc

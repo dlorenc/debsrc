@@ -1,0 +1,25 @@
+Package: hawtdispatch
+Binary: libhawtdispatch-java
+Version: 1.22-2.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 9), default-jdk, libasm-java (>= 5.0), libhawtbuf-java, libmaven-bundle-plugin-java, maven-debian-helper (>= 2.0)
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ de14933d5a93adceafb685629f4ec968 2090 hawtdispatch_1.22-2.1.dsc
+ 8f55701b9f4305ebdbb04d39b86a52ac 243344 hawtdispatch_1.22.orig.tar.xz
+ 79a4085436a6102eafa70669083c80b8 3536 hawtdispatch_1.22-2.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/hawtdispatch.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/hawtdispatch.git
+Checksums-Sha256:
+ 608aa66354b591405c64347e7fa25692fc2fa4a64223f95331cf2d43afeca367 2090 hawtdispatch_1.22-2.1.dsc
+ d80460ca3c4b20235aa180e672b14bee7824b04537b89e19d7caca77ca227b98 243344 hawtdispatch_1.22.orig.tar.xz
+ a5cf235b01a720dd78ed7d99fede850c4f61edde69c85f52de961926844e10a2 3536 hawtdispatch_1.22-2.1.debian.tar.xz
+Homepage: http://hawtdispatch.fusesource.org
+Package-List: 
+ libhawtdispatch-java deb java optional arch=all
+Directory: pool/main/h/hawtdispatch
+Priority: optional
+Section: misc

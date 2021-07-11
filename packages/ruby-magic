@@ -1,0 +1,27 @@
+Package: ruby-magic
+Binary: ruby-magic
+Version: 0.2.9-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Borodaenko <angdraug@debian.org>,
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), libmagic1, ruby-ffi (>= 0.6.3), ruby-test-declarative
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 2f50f0a2030db7385f34591549b9858a 2068 ruby-magic_0.2.9-2.dsc
+ f6804d10466284413dee01454f23eaf0 12193 ruby-magic_0.2.9.orig.tar.gz
+ e933023357498858cea70535dcd7863e 3352 ruby-magic_0.2.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-magic
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-magic.git
+Checksums-Sha256:
+ 4e846b48136623bdc406655075b319e7d95c281d94066d7eba24ca8e06c2dfd4 2068 ruby-magic_0.2.9-2.dsc
+ 3259fa489b8cb6a460c12048f97bca94de17a36f836c838715c474771c5b6d63 12193 ruby-magic_0.2.9.orig.tar.gz
+ 3f4f2f236cf67809d0b617589c657bce053748cf36f560fc34bb0db21d513971 3352 ruby-magic_0.2.9-2.debian.tar.xz
+Homepage: https://github.com/qoobaa/magic
+Package-List: 
+ ruby-magic deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-magic
+Priority: source
+Section: ruby

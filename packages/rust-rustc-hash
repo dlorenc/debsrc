@@ -1,0 +1,26 @@
+Package: rust-rustc-hash
+Binary: librust-rustc-hash-dev
+Version: 1.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 9b09f0122046fabdfbbd31e9b7630fc9 2137 rust-rustc-hash_1.1.0-1.dsc
+ 7b1261ea730a9314bc9bcdf4a379bf98 9331 rust-rustc-hash_1.1.0.orig.tar.gz
+ 6de1daebe2bad74487b0251fc351f351 2568 rust-rustc-hash_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustc-hash
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustc-hash]
+Checksums-Sha256:
+ b5a478d73170ae930aaac5ea97bd3b7ac6415a40ab0845019e5bd9996addea3f 2137 rust-rustc-hash_1.1.0-1.dsc
+ 08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2 9331 rust-rustc-hash_1.1.0.orig.tar.gz
+ 5e691db859b0a4c61d674399b36b27a1a425c66e245a9e3bff0ae3a3a6d0deb3 2568 rust-rustc-hash_1.1.0-1.debian.tar.xz
+Package-List: 
+ librust-rustc-hash-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-rustc-hash
+Priority: extra
+Section: misc

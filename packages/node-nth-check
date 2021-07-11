@@ -1,0 +1,26 @@
+Package: node-nth-check
+Binary: node-nth-check
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-assert <!nocheck>, node-boolbase <!nocheck>, node-expect.js <!nocheck>, node-typescript, node-typescript-types
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1bcf119e75e3fd79b8298b6f66a98ab1 2176 node-nth-check_2.0.0-1.dsc
+ 36fa365360e54a53b4dc5904e2f71839 126299 node-nth-check_2.0.0.orig.tar.gz
+ a16918bc9a0c17a557f6fc12baf498ac 3960 node-nth-check_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-nth-check
+Vcs-Git: https://salsa.debian.org/js-team/node-nth-check.git
+Checksums-Sha256:
+ 53c9b2f8b8fd0bbd2368530d8a99e4cbcc1342647d67fc0e8c98e217aa94ef20 2176 node-nth-check_2.0.0-1.dsc
+ 7c7d08d441d43532fa2170b922f7a911eaa490fed796c64dc2e0a73616d07d20 126299 node-nth-check_2.0.0.orig.tar.gz
+ aa577e6d939243c730c37e79ed8e23a1f71948aaf832d2c2656cd3e20b5d7964 3960 node-nth-check_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/fb55/nth-check
+Package-List: 
+ node-nth-check deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-nth-check
+Priority: optional
+Section: javascript

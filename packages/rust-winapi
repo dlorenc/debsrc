@@ -1,0 +1,26 @@
+Package: rust-winapi
+Binary: librust-winapi-dev
+Version: 0.3.8-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-winapi-i686-pc-windows-gnu-0.4+default-dev <!nocheck>, librust-winapi-x86-64-pc-windows-gnu-0.4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 51dcede6ec4ad1f0bf5159593d7b23d0 1640 rust-winapi_0.3.8-2.dsc
+ 9628940f3b41142465baa5ee393c8521 1129967 rust-winapi_0.3.8.orig.tar.gz
+ d3d4cd7ebf3013a85814a3db07604db7 7712 rust-winapi_0.3.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/winapi
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/winapi]
+Checksums-Sha256:
+ cabdfd7dd9295aac797e7f593181fc78ccb6f4efb2ec2f2d8e25db29708f6570 1640 rust-winapi_0.3.8-2.dsc
+ 6997bc541518b430053348c7e664192c34c696bdaca3c88e2f4eada19f59fe13 1129967 rust-winapi_0.3.8.orig.tar.gz
+ db3b7346c9d7ee14e8a258d2b382393e4ec7944b71c480cd2fe9f20dcd1bf138 7712 rust-winapi_0.3.8-2.debian.tar.xz
+Package-List: 
+ librust-winapi-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-winapi
+Priority: extra
+Section: misc

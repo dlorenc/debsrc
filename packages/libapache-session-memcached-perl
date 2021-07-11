@@ -1,0 +1,27 @@
+Package: libapache-session-memcached-perl
+Binary: libapache-session-memcached-perl
+Version: 0.03-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Christopher Hoskin <mans0954@debian.org>
+Build-Depends: debhelper-compat (= 13), memcached <!nocheck>, net-tools <!nocheck>
+Build-Depends-Indep: libapache-session-perl <!nocheck>, libcache-memcached-perl <!nocheck>, netbase <!nocheck>, perl, procps <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 68f6c2eb3cfd692534e0b906263e60e2 2426 libapache-session-memcached-perl_0.03-3.dsc
+ a94b78172a811e6bd73aa256137400cf 4145 libapache-session-memcached-perl_0.03.orig.tar.gz
+ d030bba4e2d6de1ceb82bd6c55e78b27 3304 libapache-session-memcached-perl_0.03-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libapache-session-memcached-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libapache-session-memcached-perl.git
+Checksums-Sha256:
+ 11bc2038eceb5b97cda35e374558b52ee043c0e5d9386dc74e4add53350923e0 2426 libapache-session-memcached-perl_0.03-3.dsc
+ 621332ad30349e735333e78b3e4c2be5e3ee9fa31c91d7bd486b477327b4072f 4145 libapache-session-memcached-perl_0.03.orig.tar.gz
+ 8bfbc17d4e17ba1280d40c24c6e459bf293faf04123ba050ea2fd2010ce30d67 3304 libapache-session-memcached-perl_0.03-3.debian.tar.xz
+Homepage: https://metacpan.org/release/Apache-Session-Memcached
+Package-List: 
+ libapache-session-memcached-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liba/libapache-session-memcached-perl
+Priority: optional
+Section: misc

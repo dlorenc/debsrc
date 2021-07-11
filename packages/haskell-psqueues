@@ -1,0 +1,28 @@
+Package: haskell-psqueues
+Binary: libghc-psqueues-dev, libghc-psqueues-prof, libghc-psqueues-doc
+Version: 0.2.7.2-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hashable-dev (>= 1.1.2.3), libghc-hashable-dev (<< 1.4), libghc-hashable-prof
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 301b4570251b40d0465a6fb14aaf5362 2442 haskell-psqueues_0.2.7.2-2.dsc
+ 2171e1a06556c18a4bdfa3a1f2dd0cae 27455 haskell-psqueues_0.2.7.2.orig.tar.gz
+ 64b7359680d3f120ae95f28458133615 3340 haskell-psqueues_0.2.7.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-psqueues
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-psqueues]
+Checksums-Sha256:
+ 3b9d20904cce04fcaca23da35ed095449383c9a54ebf724912d3d0c4eb22a753 2442 haskell-psqueues_0.2.7.2-2.dsc
+ 26263b555d943f9b18bbebda6a090848fdba3c1b403a9b7c848f6bac99e893f9 27455 haskell-psqueues_0.2.7.2.orig.tar.gz
+ 560b05f7332c635939e4b4f8d73bccb351ec29fdcf0e317f7fa4f3bdd280ee67 3340 haskell-psqueues_0.2.7.2-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/psqueues
+Package-List: 
+ libghc-psqueues-dev deb haskell optional arch=any
+ libghc-psqueues-doc deb doc optional arch=all
+ libghc-psqueues-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-psqueues
+Priority: optional
+Section: misc

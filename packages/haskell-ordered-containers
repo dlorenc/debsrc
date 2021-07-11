@@ -1,0 +1,28 @@
+Package: haskell-ordered-containers
+Binary: libghc-ordered-containers-dev, libghc-ordered-containers-prof, libghc-ordered-containers-doc
+Version: 0.2.2-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Ilias Tsitsimpis <iliastsi@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 80355e1d19df4707f88c86ea165ad72e 2474 haskell-ordered-containers_0.2.2-2.dsc
+ 3e3a432220812be8bd8cb9729f5dfcfe 7241 haskell-ordered-containers_0.2.2.orig.tar.gz
+ 1dc8d3186316b020effd27d7474cf4c1 2092 haskell-ordered-containers_0.2.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ordered-containers
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ordered-containers]
+Checksums-Sha256:
+ 9186e5af98898f40bc7694925e1ed16a3505f6240f0a6142f64e0f210343613d 2474 haskell-ordered-containers_0.2.2-2.dsc
+ c75ac7330e70cd5d6ac0062b68033779cf15cd986d4ca20f838e016d466d22c9 7241 haskell-ordered-containers_0.2.2.orig.tar.gz
+ 4ff261f84f595a83fdb72109a6e4fb4c6e1fd3dfa77778c0e935355baa650f08 2092 haskell-ordered-containers_0.2.2-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/ordered-containers
+Package-List: 
+ libghc-ordered-containers-dev deb haskell optional arch=any
+ libghc-ordered-containers-doc deb doc optional arch=all
+ libghc-ordered-containers-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ordered-containers
+Priority: extra
+Section: misc

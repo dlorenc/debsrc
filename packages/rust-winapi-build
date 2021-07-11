@@ -1,0 +1,24 @@
+Package: rust-winapi-build
+Binary: librust-winapi-build-dev
+Version: 0.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 4c4298885cbe0a9f8a918e882850e958 1443 rust-winapi-build_0.1.1-1.dsc
+ 0d745dc8578ae68d8b780d8823747ee7 980 rust-winapi-build_0.1.1.orig.tar.gz
+ 21ea39859097a32a0274d32e0c5aff01 2212 rust-winapi-build_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git
+Checksums-Sha256:
+ 9f21fcc95253fdb811db1958ac8dc8b1bebacb121e4f1a14481e5ba66bb9ea5f 1443 rust-winapi-build_0.1.1-1.dsc
+ 5c10adbcfa3ae3dec19f998e8a48132a88ee958ddb3bba691842f138eed8f977 980 rust-winapi-build_0.1.1.orig.tar.gz
+ e95e4c980c09152e4055d306e2ba9a410c488a63a97c92179953ed9a8879f84c 2212 rust-winapi-build_0.1.1-1.debian.tar.xz
+Package-List: 
+ librust-winapi-build-dev deb rust optional arch=any
+Directory: pool/main/r/rust-winapi-build
+Priority: extra
+Section: misc

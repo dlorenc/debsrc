@@ -1,0 +1,27 @@
+Package: rust-debcargo
+Binary: librust-debcargo-dev, debcargo
+Version: 2.4.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native, rustc:native (>= 1.29), libstd-rust-dev, librust-ansi-term-0.12+default-dev, librust-anyhow-1+default-dev, librust-cargo-0.43+default-dev, librust-chrono-0.4+default-dev, librust-clap-2+default-dev (>= 2.18-~~), librust-filetime-0.2+default-dev, librust-flate2-1+default-dev, librust-git2-0.13+default-dev (>= 0.13.5-~~), librust-glob-0.3+default-dev, librust-itertools-0.9+default-dev, librust-regex-1+default-dev, librust-semver-0.9+default-dev, librust-semver-parser-0.9+default-dev, librust-serde-1+default-dev, librust-serde-derive-1+default-dev, librust-tar-0.4+default-dev, librust-tempfile-3+default-dev, librust-textwrap-0.11+default-dev, librust-toml-0.5+default-dev, librust-walkdir-2+default-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d37242a2e4f7e7e0a41b3555233c3653 2834 rust-debcargo_2.4.4-1.dsc
+ cf8dba0283513db45ed815de6dbc3228 72850 rust-debcargo_2.4.4.orig.tar.gz
+ 6ebb0851bd7fd980d840cdcbc5fe4fb0 4280 rust-debcargo_2.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/debcargo
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/debcargo]
+Checksums-Sha256:
+ 5e7fc7e63bee57da2f6b3aeb30e3f2f39ca4fad1b7eaf8a5a559271218f07051 2834 rust-debcargo_2.4.4-1.dsc
+ b44fe260601ff24e5bf2584200b2b51e9f0d23be2ce964e689cc755794dda1af 72850 rust-debcargo_2.4.4.orig.tar.gz
+ 75d0beeededd625cc66375c5e0ee13af6d1353a229b2a6fa3b09e146c33f2a04 4280 rust-debcargo_2.4.4-1.debian.tar.xz
+Package-List: 
+ debcargo deb devel optional arch=any
+ librust-debcargo-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-debcargo
+Priority: extra
+Section: misc

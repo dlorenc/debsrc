@@ -1,0 +1,27 @@
+Package: simpleeval
+Binary: python3-simpleeval
+Version: 0.9.10-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 11~), dh-python (>= 1.20130901-1~), python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e27e966bd1a74cc22b06c8b0ac4fe257 2129 simpleeval_0.9.10-1.dsc
+ cf204ddcaf13405e68be2a05326ec017 19466 simpleeval_0.9.10.orig.tar.gz
+ 3e76a603c43b2c1e354bdc07921981d2 3232 simpleeval_0.9.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/simpleeval
+Vcs-Git: https://salsa.debian.org/tryton-team/simpleeval.git
+Checksums-Sha256:
+ dae92622c70648b1eb520d195f6b52b9332ad4769b90d3f3db259fa9b7f860c6 2129 simpleeval_0.9.10-1.dsc
+ 9581d4d1a10f1a2ab1f0337c47175302303dea909fd12f926b591639271aaef4 19466 simpleeval_0.9.10.orig.tar.gz
+ 8332b6f55c61d80c232ccc242342a639183c4aa2ff1b2e6da0232630cb98a597 3232 simpleeval_0.9.10-1.debian.tar.xz
+Homepage: https://github.com/danthedeckie/simpleeval
+Package-List: 
+ python3-simpleeval deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/s/simpleeval
+Priority: optional
+Section: misc

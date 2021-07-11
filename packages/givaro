@@ -1,0 +1,32 @@
+Package: givaro
+Binary: libgivaro-dev, libgivaro9, libgivaro-doc, givaro-user-doc, givaro-dev-doc
+Version: 4.1.1-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>, Doug Torrance <dtorrance@piedmont.edu>
+Build-Depends: debhelper (>= 10), g++ (>= 4:7), libgmp-dev
+Build-Depends-Indep: doxygen-latex, graphviz, texlive-science
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 39f77bd7287b7839318418b7967efacb 2379 givaro_4.1.1-2.dsc
+ 671d42f2f1f564931d536c7773cded0c 645424 givaro_4.1.1.orig.tar.gz
+ b5c4bddd46ed39f8be108b697006199a 34088 givaro_4.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/givaro
+Vcs-Git: https://salsa.debian.org/science-team/givaro.git
+Checksums-Sha256:
+ 192c864fb8abbc0cd03999383d9f2c408e2a052fb6be55cf104832af92055ab1 2379 givaro_4.1.1-2.dsc
+ d0cde67e7b29c5d6a0ba0afb52410a91bd0f7f2c2b14def1fe4f98b22b7494d7 645424 givaro_4.1.1.orig.tar.gz
+ 061a375f76fd835538386f703a42243a69ce9c1fc8c6a08e077ac29daa07a3e0 34088 givaro_4.1.1-2.debian.tar.xz
+Homepage: https://casys.gricad-pages.univ-grenoble-alpes.fr/givaro/
+Package-List: 
+ givaro-dev-doc deb doc optional arch=all
+ givaro-user-doc deb doc optional arch=all
+ libgivaro-dev deb libdevel optional arch=any
+ libgivaro-doc deb doc optional arch=all
+ libgivaro9 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, libgmp-dev, pkg-config
+Directory: pool/main/g/givaro
+Priority: source
+Section: libs

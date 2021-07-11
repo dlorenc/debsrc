@@ -1,0 +1,27 @@
+Package: erlang-metrics
+Binary: erlang-metrics
+Version: 2.5.0-2
+Maintainer: Debian Erlang Packagers <pkg-erlang-devel@lists.alioth.debian.org>
+Uploaders: James Valleroy <jvalleroy@mailbox.org>
+Build-Depends: debhelper-compat (= 12), dh-rebar
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 5c9561ea9d5ffded2575ab36191bfd2b 2080 erlang-metrics_2.5.0-2.dsc
+ 699f98dbc35781e9b7700510253fbcf1 704691 erlang-metrics_2.5.0.orig.tar.gz
+ b2a51e05788c6d795fe170a164914233 2936 erlang-metrics_2.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/erlang-team/packages/erlang-metrics
+Vcs-Git: https://salsa.debian.org/erlang-team/packages/erlang-metrics.git
+Checksums-Sha256:
+ e1add94add675a453ecbaf12ac64e997e4ca5db51fbc649deda18366a14c53c1 2080 erlang-metrics_2.5.0-2.dsc
+ c9ee819cea6edb0c5078d3a54f07ec85e80d986c7fb467edb7f4440085c74e0d 704691 erlang-metrics_2.5.0.orig.tar.gz
+ 80c4e74b6d5e1ac2a9b0afcedaa1a1ad9dc3262d6f3054ac9e41858aab1ffad3 2936 erlang-metrics_2.5.0-2.debian.tar.xz
+Homepage: https://github.com/benoitc/erlang-metrics
+Package-List: 
+ erlang-metrics deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: erlang-folsom, rebar
+Directory: pool/main/e/erlang-metrics
+Priority: extra
+Section: misc

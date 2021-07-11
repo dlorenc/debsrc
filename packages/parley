@@ -1,0 +1,28 @@
+Package: parley
+Binary: parley, parley-data
+Version: 4:20.12.1-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Eshat Cakar <info@eshat.de>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 3.5.0~), debhelper-compat (= 13), extra-cmake-modules (>= 5.22.0~), gettext, kross-dev (>= 5.22~), libkeduvocdocument-dev (>= 4:16.08), libkf5config-dev (>= 5.22~), libkf5coreaddons-dev (>= 5.22~), libkf5crash-dev (>= 5.22~), libkf5doctools-dev (>= 5.22~), libkf5i18n-dev (>= 5.22~), libkf5kcmutils-dev (>= 5.22~), libkf5kio-dev (>= 5.22~), libkf5newstuff-dev (>= 5.22~), libkf5notifications-dev (>= 5.22~), libkf5sonnet-dev (>= 5.22~), libkf5xmlgui-dev (>= 5.22~), libqt5svg5-dev (>= 5.10.0~), libxml2-dev, libxslt-dev, pkg-config, pkg-kde-tools (>> 0.15.15), qtbase5-dev (>= 5.10.0~), qtmultimedia5-dev (>= 5.10.0~), qtwebengine5-dev (>= 5.10.0~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a78a7696c24a178642cd87fb828fbdbc 2904 parley_20.12.1-1.dsc
+ 894860fa3841877059e6fedf3f475f9c 8842148 parley_20.12.1.orig.tar.xz
+ f56ef5747e1aee6e008d9aced05be2b7 488 parley_20.12.1.orig.tar.xz.asc
+ c1a3f2cc8a579345e64be05a6c2ce8ba 14264 parley_20.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/parley
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/parley.git
+Checksums-Sha256:
+ a62c50715d2e4d72e02f975389dc582f5763ef9ee45a9239943ee220a0e4e744 2904 parley_20.12.1-1.dsc
+ aadcf044c7b4e0ffa3e87997310141d588cdf37e6f40ecf21ae84837760bac03 8842148 parley_20.12.1.orig.tar.xz
+ 164a30faa513698992e558196044a1aae07938af1d9e165657506b7031d6fce3 488 parley_20.12.1.orig.tar.xz.asc
+ 746be7e73c960e0586e0e8a5ebc15701df23fe51ddae62152d75528130381a44 14264 parley_20.12.1-1.debian.tar.xz
+Homepage: https://kde.org/applications/education/org.kde.parley
+Package-List: 
+ parley deb kde optional arch=any
+ parley-data deb kde optional arch=all
+Directory: pool/main/p/parley
+Priority: source
+Section: kde

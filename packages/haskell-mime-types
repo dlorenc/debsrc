@@ -1,0 +1,28 @@
+Package: haskell-mime-types
+Binary: libghc-mime-types-dev, libghc-mime-types-prof, libghc-mime-types-doc
+Version: 0.1.0.9-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 377eaa329309169a224ba6339d07f3b0 2347 haskell-mime-types_0.1.0.9-2.dsc
+ e936b48f8549c390e9fac883c99ff3fd 11384 haskell-mime-types_0.1.0.9.orig.tar.gz
+ debdc42ec80a161a7446a831b5feedef 2760 haskell-mime-types_0.1.0.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-mime-types
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-mime-types]
+Checksums-Sha256:
+ 823e2d855326a2a2025c4ee3e971000fc2daee3cf7d5ddb0d6a522ec85e65840 2347 haskell-mime-types_0.1.0.9-2.dsc
+ 0a32435169ef4ba59f4a4b8addfd0c04479410854d1b8d69a1e38fb389ba71d2 11384 haskell-mime-types_0.1.0.9.orig.tar.gz
+ e275a7bbf9c07bac15dd635e251c060f542ddebcc0ecf86d6e55d516f86afa78 2760 haskell-mime-types_0.1.0.9-2.debian.tar.xz
+Homepage: https://github.com/yesodweb/wai
+Package-List: 
+ libghc-mime-types-dev deb haskell optional arch=any
+ libghc-mime-types-doc deb doc optional arch=all
+ libghc-mime-types-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-mime-types
+Priority: source
+Section: misc

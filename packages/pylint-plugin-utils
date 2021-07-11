@@ -1,0 +1,27 @@
+Package: pylint-plugin-utils
+Binary: python3-pylint-plugin-utils
+Version: 0.6-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Joseph Herlant <aerostitch@debian.org>, ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, pylint, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 05eac734a9c5e44b593dab0074796322 2256 pylint-plugin-utils_0.6-1.dsc
+ 4007452c0f73444dd9d4133d72ed53d1 10237 pylint-plugin-utils_0.6.orig.tar.gz
+ 36313922c07c392572c01a946e352ff1 2708 pylint-plugin-utils_0.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pylint-plugin-utils
+Vcs-Git: https://salsa.debian.org/python-team/modules/pylint-plugin-utils.git
+Checksums-Sha256:
+ 77351dca2a48a3576e119f44599c74e7c00fdd8c7287c75e937adaf8a8a2076f 2256 pylint-plugin-utils_0.6-1.dsc
+ a6cd6f088a310c8fe345963aa66bba911e6bd964fdf602b197421af60b86fe67 10237 pylint-plugin-utils_0.6.orig.tar.gz
+ 64ae92ccab52fb14d01068aeff65feba500ab9305e34c20a63f03adeca42aeeb 2708 pylint-plugin-utils_0.6-1.debian.tar.xz
+Homepage: https://github.com/PyCQA/pylint-plugin-utils
+Package-List: 
+ python3-pylint-plugin-utils deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/pylint-plugin-utils
+Priority: optional
+Section: misc

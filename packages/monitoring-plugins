@@ -1,0 +1,28 @@
+Package: monitoring-plugins
+Binary: monitoring-plugins, monitoring-plugins-common, monitoring-plugins-basic, monitoring-plugins-standard
+Version: 2.3.1-1
+Maintainer: Debian Nagios Maintainer Group <pkg-nagios-devel@lists.alioth.debian.org>
+Uploaders: Jan Wagner <waja@cyconet.org>, Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper (>= 10~), libcurl4-openssl-dev | libcurl4-nss-dev (>= 7.34) | libcurl4-gnutls-dev (>= 7.42), libdbi-dev, libradcli-dev | libfreeradius-client-dev | libradiusclient-ng-dev, libkrb5-dev, libldap2-dev, default-libmysqlclient-dev, libnet-snmp-perl, libpq-dev, libssl-dev, liburiparser-dev, mawk | awk, perl, procps
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 421c1202bbadb2977130cc2ab4e2cf5c 2616 monitoring-plugins_2.3.1-1.dsc
+ 8b90fe3908a84c8e923f4ef5a31bb54c 1689945 monitoring-plugins_2.3.1.orig.tar.gz
+ 6f457dcd7f03b8309b37e3b0d0fb87e8 37180 monitoring-plugins_2.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/nagios-team/pkg-monitoring-plugins
+Vcs-Git: https://salsa.debian.org/nagios-team/pkg-monitoring-plugins.git
+Checksums-Sha256:
+ 543556462d83fbeda5e2300f0850a60b54c4a29ae5923301684a941b845d9315 2616 monitoring-plugins_2.3.1-1.dsc
+ 6aa9a77405bed53a88a879b9a5c174c2e375fe7c4dfee998e59f12ab1907e03e 1689945 monitoring-plugins_2.3.1.orig.tar.gz
+ 7c90ccd5e1c31180d1634a814a80f247886020354c0f4c5007791c57ee5787c9 37180 monitoring-plugins_2.3.1-1.debian.tar.xz
+Homepage: https://www.monitoring-plugins.org
+Package-List: 
+ monitoring-plugins deb net optional arch=all
+ monitoring-plugins-basic deb net optional arch=any
+ monitoring-plugins-common deb net optional arch=any
+ monitoring-plugins-standard deb net optional arch=any
+Directory: pool/main/m/monitoring-plugins
+Priority: optional
+Section: misc

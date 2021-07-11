@@ -1,0 +1,27 @@
+Package: hawtjni
+Binary: libhawtjni-runtime-java, libhawtjni-generator-java, libhawtjni-maven-plugin-java
+Version: 1.17-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: default-jdk, debhelper (>= 11), libasm-java, libcommons-lang-java, libmaven-plugin-tools-java, libplexus-component-metadata-java, libxbean-java, maven-debian-helper (>= 2.2)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ aa96999d5c9aefae06f38c116c2bfa66 2278 hawtjni_1.17-1.dsc
+ c278e3523a28eeeb42e8e61c99e6f0da 1447392 hawtjni_1.17.orig.tar.xz
+ 350cf13b134bd2762675a1593424bcc4 8236 hawtjni_1.17-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/hawtjni
+Vcs-Git: https://salsa.debian.org/java-team/hawtjni.git
+Checksums-Sha256:
+ 292e8e81ee3bb1856c9bde0b145b023630de69e5c4ae5fc7a06b6c498185176e 2278 hawtjni_1.17-1.dsc
+ 77e3f58efc97f15bffff4491a13dba21c09fe404e14d7bbee319a2e6842d8d39 1447392 hawtjni_1.17.orig.tar.xz
+ b55c01cbba38c1920e8086635673dee62a9b66491b68092271d8dfe5b46fcbd9 8236 hawtjni_1.17-1.debian.tar.xz
+Homepage: http://fusesource.com/forge/sites/hawtjni/
+Package-List: 
+ libhawtjni-generator-java deb java optional arch=all
+ libhawtjni-maven-plugin-java deb java optional arch=all
+ libhawtjni-runtime-java deb java optional arch=all
+Directory: pool/main/h/hawtjni
+Priority: source
+Section: java

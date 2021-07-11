@@ -1,0 +1,27 @@
+Package: node-stringmap
+Binary: node-stringmap, libjs-stringmap
+Version: 0.2.2+20130926-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0c684292db69e3420a3038b926de1dbd 2161 node-stringmap_0.2.2+20130926-5.dsc
+ fa66cb21a1083a20e086533b97e9d9db 3667 node-stringmap_0.2.2+20130926.orig.tar.gz
+ 2a9e6456ecd47c3f901065ca6a198d3b 2840 node-stringmap_0.2.2+20130926-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-stringmap
+Vcs-Git: https://salsa.debian.org/js-team/node-stringmap.git
+Checksums-Sha256:
+ 136eaa67d13505a319c6d6d7d49718bc49fb2b3928b5cc7499b743c671b537ac 2161 node-stringmap_0.2.2+20130926-5.dsc
+ c008a0448d5d584aefd446f5617e8190bd844cf29db5026a0d401e8ca23e5c68 3667 node-stringmap_0.2.2+20130926.orig.tar.gz
+ 4390ecf890dd192cb6c485ae47d4de2aa76aa5c319240df7a04ec064b6dc0532 2840 node-stringmap_0.2.2+20130926-5.debian.tar.xz
+Homepage: https://github.com/olov/stringmap
+Package-List: 
+ libjs-stringmap deb javascript optional arch=all
+ node-stringmap deb javascript optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/node-stringmap
+Priority: optional
+Section: javascript

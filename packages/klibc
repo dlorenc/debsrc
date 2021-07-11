@@ -1,0 +1,28 @@
+Package: klibc
+Binary: libklibc-dev, libklibc, klibc-utils
+Version: 2.0.8-6.1
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Uploaders: Ben Hutchings <benh@debian.org>, maximilian attems <maks@debian.org>
+Build-Depends: debhelper-compat (= 12), linux-libc-dev, m4 [sparc]
+Build-Conflicts: ccache
+Architecture: linux-any
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ d9b64d57ddc0b4dc1b4f0b6767286c74 2155 klibc_2.0.8-6.1.dsc
+ bdd05bf16fce534e7a49d98644cdec87 472200 klibc_2.0.8.orig.tar.xz
+ 2f1894721d61245d1864f9e751782370 25128 klibc_2.0.8-6.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/kernel-team/klibc
+Vcs-Git: https://salsa.debian.org/kernel-team/klibc.git
+Checksums-Sha256:
+ 962fa58feba82f33095b2b990b2692c73bf39e18da954cae35e58e20cdc007a8 2155 klibc_2.0.8-6.1.dsc
+ 4e48f1398cfe3ce0b6df55ce6e70acf54fc8488e3aea3fb3610ee1622d9cb436 472200 klibc_2.0.8.orig.tar.xz
+ 8de7dde6d6c192f0f2a7a3c7a14181618f21e6fa5a6e7011ee1d0db057ee6a4a 25128 klibc_2.0.8-6.1.debian.tar.xz
+Homepage: https://git.kernel.org/cgit/libs/klibc/klibc.git
+Package-List: 
+ klibc-utils deb libs optional arch=linux-any
+ libklibc deb libs optional arch=linux-any
+ libklibc-dev deb libdevel optional arch=linux-any
+Directory: pool/main/k/klibc
+Priority: source
+Section: libs

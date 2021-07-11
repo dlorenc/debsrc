@@ -1,0 +1,26 @@
+Package: boxer
+Binary: boxer
+Version: 1.4.2-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 12), libapp-cmd-perl <!nocheck>, libclass-xsaccessor-perl <!nocheck>, libfile-basedir-perl <!nocheck>, libfile-sharedir-install-perl, libfile-sharedir-perl <!nocheck>, libfile-which-perl <!nocheck>, libhash-merge-perl <!nocheck>, libipc-system-simple-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, liblog-any-adapter-screen-perl <!nocheck>, libmatch-simple-perl <!nocheck>, libmodule-runtime-perl <!nocheck>, libmodule-find-perl <!nocheck>, libmodule-load-conditional-perl <!nocheck>, libmoo-perl <!nocheck>, libmoox-role-logger-perl <!nocheck>, libmoox-strictconstructor-perl <!nocheck>, libnamespace-autoclean-perl <!nocheck>, libpath-tiny-perl <!nocheck>, librole-commons-perl <!nocheck>, libstrictures-perl (>= 2) <!nocheck>, libtemplate-tiny-perl <!nocheck>, libtest-cleannamespaces-perl <!nocheck>, libtest-compile-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-file-contents-perl <!nocheck>, libtest-fixme-perl <!nocheck>, libtest-minimumversion-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-synopsis-perl <!nocheck>, libtry-tiny-perl <!nocheck>, libtype-tiny-perl <!nocheck>, libtypes-path-tiny-perl <!nocheck>, libyaml-libyaml-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8d0f4d815ada3f16762a1b8649319769 3147 boxer_1.4.2-1.dsc
+ 02ae89e56c25699cfc31defcb19c8f55 72457 boxer_1.4.2.orig.tar.gz
+ e5369110c7672f09da7a358cadb41275 8952 boxer_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/boxer
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/boxer.git
+Checksums-Sha256:
+ 8695e40ee9fa2445567c7f8d720dcbd8f81351c01d9c0e323819c6c32860c180 3147 boxer_1.4.2-1.dsc
+ 5bf3be411b9a57c17fa083e714fd83bf0c3e4fa9c4e13e52ae78f3afe2ad7073 72457 boxer_1.4.2.orig.tar.gz
+ 07a3f3e1be2ad19e3310e9c05bbaeb0d853b9f52b806cf63d7323f37485dc549 8952 boxer_1.4.2-1.debian.tar.xz
+Homepage: https://wiki.debian.org/Boxer
+Package-List: 
+ boxer deb admin optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Directory: pool/main/b/boxer
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: ruby-api-pagination
+Binary: ruby-api-pagination
+Version: 4.8.2-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Kanashiro <kanashiro@debian.org>
+Build-Depends: debhelper (>= 12~), gem2deb, rails, rake, ruby-activerecord-nulldb-adapter (>= 0.4.0), ruby-grape, ruby-kaminari, ruby-rspec, ruby-sequel, ruby-will-paginate
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ca5082c2b000b54961ad5a70bae0196c 2282 ruby-api-pagination_4.8.2-1.dsc
+ 79ce1f7650f656c70a08ef9f9de5eaa5 13896 ruby-api-pagination_4.8.2.orig.tar.gz
+ 7c7bd7c52e06cba6116a7441212bd72f 2864 ruby-api-pagination_4.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-api-pagination
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-api-pagination.git
+Checksums-Sha256:
+ 37c63050d855826d21ccae51e5f96a744361551aba33b2bd143aa1da38810ae9 2282 ruby-api-pagination_4.8.2-1.dsc
+ 681481c1ba7210591fa7d8632daedcddb4dddc6b51b489d267c121282b6f9602 13896 ruby-api-pagination_4.8.2.orig.tar.gz
+ d90394f0605d0db08be87d9c3f974cb54bd48c86175425e910b5a0bc377b5a5b 2864 ruby-api-pagination_4.8.2-1.debian.tar.xz
+Homepage: https://github.com/davidcelis/api-pagination
+Package-List: 
+ ruby-api-pagination deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-api-pagination
+Priority: optional
+Section: misc

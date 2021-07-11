@@ -1,0 +1,27 @@
+Package: node-static-eval
+Binary: node-static-eval
+Version: 2.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-escodegen <!nocheck>, node-tap (>= 10) <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 69df8e5df8eb69b1d30aedc3c4381eca 2180 node-static-eval_2.1.0-1.dsc
+ 87b0bb6cd33b4ad10c7ce10de1017204 5921 node-static-eval_2.1.0.orig.tar.gz
+ f3bd2a7851d8fffd3159c601a240643d 3056 node-static-eval_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-static-eval
+Vcs-Git: https://salsa.debian.org/js-team/node-static-eval.git
+Checksums-Sha256:
+ 0ce3391777ac298f8e242c125f33bd6d5634fee3d2ddf5e140620546272b3081 2180 node-static-eval_2.1.0-1.dsc
+ 69a053ba585a0a070eef8916d8fd0fd02d5140864dbd8d0bff238edc687e5c8f 5921 node-static-eval_2.1.0.orig.tar.gz
+ 102209a60ec8f032ea9fb1bc66e5afcba82ce155ce222d875c2379882fbcbb6f 3056 node-static-eval_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/substack/static-eval
+Package-List: 
+ node-static-eval deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: nodejs
+Directory: pool/main/n/node-static-eval
+Priority: optional
+Section: javascript

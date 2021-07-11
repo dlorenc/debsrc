@@ -1,0 +1,27 @@
+Package: golang-github-xeipuuv-gojsonschema
+Binary: golang-github-xeipuuv-gojsonschema-dev
+Version: 1.2.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>, Stephen Gelman <ssgelm@gmail.com>,
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-stretchr-testify-dev, golang-github-xeipuuv-gojsonreference-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c6a377881b419fb0ab09168a652e9b03 1871 golang-github-xeipuuv-gojsonschema_1.2.0-1.dsc
+ f456dade04d0797a25bb6f2decca5769 73602 golang-github-xeipuuv-gojsonschema_1.2.0.orig.tar.gz
+ 8406a5095330dc139845b18fcce5559c 3228 golang-github-xeipuuv-gojsonschema_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-xeipuuv-gojsonschema
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-xeipuuv-gojsonschema.git
+Checksums-Sha256:
+ b33cdc2baacb1fc8aa529d0db4b77f9fb0462b2071450b24a27243b1254d85cd 1871 golang-github-xeipuuv-gojsonschema_1.2.0-1.dsc
+ ad47429e26a7078df155bffe2d3ff2e967fb0d6be185b5ffe995d6731916bcf7 73602 golang-github-xeipuuv-gojsonschema_1.2.0.orig.tar.gz
+ 1e324f9cf114aa0451b62974cc459a80662c20185549055971ca6d70e26b750e 3228 golang-github-xeipuuv-gojsonschema_1.2.0-1.debian.tar.xz
+Homepage: https://github.com/xeipuuv/gojsonschema
+Go-Import-Path: github.com/xeipuuv/gojsonschema
+Package-List: 
+ golang-github-xeipuuv-gojsonschema-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-xeipuuv-gojsonschema
+Priority: extra
+Section: golang

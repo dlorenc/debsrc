@@ -1,0 +1,26 @@
+Package: dino-im
+Binary: dino-im, dino-im-common
+Version: 0.2.0-3
+Maintainer: Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>
+Uploaders: Martin <debacle@debian.org>
+Build-Depends: debhelper-compat (= 11), cmake, dh-exec, gettext, libgcrypt20-dev, libgee-0.8-dev, libglib2.0-dev, libgpgme-dev, libgtk-3-dev (>= 3.22), libnotify-dev, libqrencode-dev, libsignal-protocol-c-dev (>= 2.3.2~), libsoup2.4-dev, libsqlite3-dev, ninja-build, valac
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ e3a5b0749dedcb0005a2eaba48c21b66 2175 dino-im_0.2.0-3.dsc
+ 42f4558daa594db1b6e66ff2370b99eb 514257 dino-im_0.2.0.orig.tar.gz
+ b1c2174a1b81321ac30bbca5a25a9ea7 9244 dino-im_0.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xmpp-team/dino-im
+Vcs-Git: https://salsa.debian.org/xmpp-team/dino-im.git
+Checksums-Sha256:
+ 6c956750d7e6d2b767a4b129e5ec646faba93dc27f1fb8b60f4aa5071eb40fa5 2175 dino-im_0.2.0-3.dsc
+ 565b95d9fc697412edc898225890f95d26d42a3594e12680cbd7d038d7812f46 514257 dino-im_0.2.0.orig.tar.gz
+ 87dfeb4bca49b79d0ffc343986835071e8c0df5a259f943070b9188f0dd2e5b5 9244 dino-im_0.2.0-3.debian.tar.xz
+Homepage: https://github.com/dino/dino
+Package-List: 
+ dino-im deb net optional arch=any
+ dino-im-common deb net optional arch=all
+Directory: pool/main/d/dino-im
+Priority: extra
+Section: misc

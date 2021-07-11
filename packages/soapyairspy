@@ -1,0 +1,26 @@
+Package: soapyairspy
+Binary: soapysdr0.7-module-airspy, soapysdr-module-airspy
+Version: 0.1.2-2
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Andreas Bombe <aeb@debian.org>
+Build-Depends: debhelper (>= 12), cmake, libsoapysdr0.7-dev, libairspy-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 762bdc9beab5c65ddbb6cb6c15226be0 2123 soapyairspy_0.1.2-2.dsc
+ 12578815e0c5f4e5f2d6986269714e7d 11540 soapyairspy_0.1.2.orig.tar.gz
+ 2cdba33687f66b5f306590070009c208 2296 soapyairspy_0.1.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/soapysdr/soapyairspy
+Vcs-Git: https://salsa.debian.org/debian-hamradio-team/soapysdr/soapyairspy.git
+Checksums-Sha256:
+ 014a4a5ad81f616b319272e72d0a6a432a1d600a05a2275e738c532ee03cfdb9 2123 soapyairspy_0.1.2-2.dsc
+ 3c0bafd27063df1cbc7913c0b5d3d1d9a0624d25d290f0818261ae52d0f29ee8 11540 soapyairspy_0.1.2.orig.tar.gz
+ a5015757b3971f5bdf44aa3805e1614419139999b360e82438dc5f1922608c56 2296 soapyairspy_0.1.2-2.debian.tar.xz
+Homepage: https://github.com/pothosware/SoapyAirspy/wiki
+Package-List: 
+ soapysdr-module-airspy deb hamradio optional arch=any
+ soapysdr0.7-module-airspy deb hamradio optional arch=any
+Directory: pool/main/s/soapyairspy
+Priority: optional
+Section: misc

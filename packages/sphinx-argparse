@@ -1,0 +1,27 @@
+Package: sphinx-argparse
+Binary: python3-sphinx-argparse
+Version: 0.2.5-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8e0b6d4a407b7e60a8fb174a57d95640 2213 sphinx-argparse_0.2.5-1.dsc
+ 615c10d4130b047360a4879a3f3cd9a2 24890 sphinx-argparse_0.2.5.orig.tar.gz
+ 2dfc58fb2e804446780563759acbcbd7 6552 sphinx-argparse_0.2.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/sphinx-argparse
+Vcs-Git: https://salsa.debian.org/python-team/packages/sphinx-argparse.git
+Checksums-Sha256:
+ 2ee3697776358fe4437cdb821fec77db89f3db88300bc7504916263c2164e903 2213 sphinx-argparse_0.2.5-1.dsc
+ 943df89bb2b05474252de974bb6bf17c56cf2b1dc4671ff8b6229b2235620110 24890 sphinx-argparse_0.2.5.orig.tar.gz
+ 006d2a0dcb4cf7d6cfa26ea422e242fdb43559ed767f6a3680c1d76483e0d49e 6552 sphinx-argparse_0.2.5-1.debian.tar.xz
+Homepage: https://github.com/ribozz/sphinx-argparse
+Package-List: 
+ python3-sphinx-argparse deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-sphinx
+Directory: pool/main/s/sphinx-argparse
+Priority: optional
+Section: misc

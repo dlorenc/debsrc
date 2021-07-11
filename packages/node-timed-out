@@ -1,0 +1,26 @@
+Package: node-timed-out
+Binary: node-timed-out
+Version: 5.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Aditya Neralkar <adityaneralkar@gmail.com>
+Build-Depends: debhelper-compat (= 13), mocha, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fe86e5fc2a53ea0ad1f1530589e64537 2051 node-timed-out_5.0.0-1.dsc
+ c83e5037a95aeb7c72f80fbcc22226a3 3830 node-timed-out_5.0.0.orig.tar.gz
+ 1907bbac2002a92438de837b56b4290c 3292 node-timed-out_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-timed-out
+Vcs-Git: https://salsa.debian.org/js-team/node-timed-out.git
+Checksums-Sha256:
+ af194978e307a93804ad2640841c128ed254a183dd49e3707fc59d814b828aba 2051 node-timed-out_5.0.0-1.dsc
+ 2da7d4d14ac954ff2ffb02572f4c673117c307b23ce73a4214fbf9426f8a3d8b 3830 node-timed-out_5.0.0.orig.tar.gz
+ 6d2c20116debecdb1b745b0d0055915835e70032766a438ec8c822db374c3e7f 3292 node-timed-out_5.0.0-1.debian.tar.xz
+Homepage: https://github.com/floatdrop/timed-out
+Package-List: 
+ node-timed-out deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-timed-out
+Priority: optional
+Section: javascript

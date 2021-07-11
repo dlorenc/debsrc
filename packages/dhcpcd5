@@ -1,0 +1,26 @@
+Package: dhcpcd5
+Binary: dhcpcd5
+Version: 7.1.0-2
+Maintainer: Scott Leggett <scott@sl.id.au>
+Build-Depends: debhelper (>= 11)
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 8f5f652f1a080f00a97909b30f99614a 1932 dhcpcd5_7.1.0-2.dsc
+ 4dcbf9e6276f9facb416daa66ccbd5fa 282729 dhcpcd5_7.1.0.orig.tar.gz
+ 9fd8b0b0731d3b6acd9130559673ce50 13524 dhcpcd5_7.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/smlx-guest/dhcpcd5
+Vcs-Git: https://salsa.debian.org/smlx-guest/dhcpcd5.git
+Checksums-Sha256:
+ 6defc54426e666561d850792d903ed3136a435021ed35219883823317f91fbfd 1932 dhcpcd5_7.1.0-2.dsc
+ c3dfa2646e327f51e4b7151c3d5ff09bf304d32cad3383b16d9fd997f52b2c95 282729 dhcpcd5_7.1.0.orig.tar.gz
+ 5cd77586c7fe16207828ce23df70638f4a0d46040eefe0237299394802d11890 13524 dhcpcd5_7.1.0-2.debian.tar.xz
+Homepage: https://roy.marples.name/projects/dhcpcd
+Package-List: 
+ dhcpcd5 deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: chrony, dnsmasq, iproute2, ntp, openntpd, usrmerge
+Directory: pool/main/d/dhcpcd5
+Priority: source
+Section: net

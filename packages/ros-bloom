@@ -1,0 +1,26 @@
+Package: ros-bloom
+Binary: python3-bloom
+Version: 0.10.0-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-vcstools, python3-rosdistro, python3-rosdep2, python3-empy, python3-pep8, python3-docutils
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9d2acb51dbd20850e8ac56decda2f193 2185 ros-bloom_0.10.0-1.dsc
+ 24018470fc3afc8f9714d92b9a13d703 123419 ros-bloom_0.10.0.orig.tar.gz
+ dc8527ab1387d7640a56ff270b43d534 3260 ros-bloom_0.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ros-bloom
+Vcs-Git: https://salsa.debian.org/science-team/ros-bloom.git
+Checksums-Sha256:
+ c515b9656415cb57c25d2c725fcd1e23570b5838ccc9e73cbc6349fb487d181e 2185 ros-bloom_0.10.0-1.dsc
+ 5dda8c0124109240fa05db1696d74605cb810f9277e9ab27829e2ba124931a26 123419 ros-bloom_0.10.0.orig.tar.gz
+ ead2d760f0193396db7bbd9344d17eebfcf6702339d244eee6ba5abde1003c9a 3260 ros-bloom_0.10.0-1.debian.tar.xz
+Homepage: https://wiki.ros.org/bloom
+Package-List: 
+ python3-bloom deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/r/ros-bloom
+Priority: optional
+Section: misc

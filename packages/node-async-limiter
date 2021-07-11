@@ -1,0 +1,26 @@
+Package: node-async-limiter
+Binary: node-async-limiter
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Joseph Nuthalapati <njoseph@riseup.net>
+Build-Depends: debhelper-compat (= 12), nodejs (>= 6), pkg-js-tools (>= 0.8.10), mocha <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 226c2ca40ecc50de57e3bae2946edfad 2134 node-async-limiter_2.0.0-1.dsc
+ e6b110efae6f713f543ee28409506805 51149 node-async-limiter_2.0.0.orig.tar.gz
+ dcd2081d45372250079711e1eeb58d2b 2476 node-async-limiter_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-async-limiter
+Vcs-Git: https://salsa.debian.org/js-team/node-async-limiter.git
+Checksums-Sha256:
+ 5b6dd69a5aa40a97428ffb42a1379bb80e164a36d53194a8f7be9ebb37f1fe45 2134 node-async-limiter_2.0.0-1.dsc
+ fcb71d243a3a27b0d3af6b8e5676f616ee6a051d3091b68a11d197d2b8a28b2d 51149 node-async-limiter_2.0.0.orig.tar.gz
+ 41326fb8d7c7be8887a4925a14a626094ff926126dcade092170c23d348f1584 2476 node-async-limiter_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/strml/async-limiter#readme
+Package-List: 
+ node-async-limiter deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-async-limiter
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: batik
+Binary: libbatik-java
+Version: 1.12-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Wolfgang Baer <WBaer@gmx.de>, Vincent Fourmond <fourmond@debian.org>, Onkar Shinde <onkarshinde@ubuntu.com>
+Build-Depends: ant, debhelper-compat (= 13), default-jdk, javahelper, libmaven-assembly-plugin-java, libxalan2-java, libxml-commons-external-java, libxmlgraphics-commons-java (>= 2.0.1), maven-debian-helper (>= 2.2.3), rhino
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ edb1f48aae2067520b935a63f4b18b76 2155 batik_1.12-4.dsc
+ faf8f2171bf66ab4c662c78b3f7adcdc 4350968 batik_1.12.orig.tar.xz
+ 35675824cc4f0d0a4b1805078136b879 32820 batik_1.12-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/batik
+Vcs-Git: https://salsa.debian.org/java-team/batik.git
+Checksums-Sha256:
+ f0bb9711f1fb5b67943b0a4625f108f120ae1fa3d25397dcd183546e5adb861c 2155 batik_1.12-4.dsc
+ 0d40dfe6bf6ca13082678576332747ee045a1d387432709e2095f07cfd2c006c 4350968 batik_1.12.orig.tar.xz
+ a180f39ecbff4ab47170ac7c4bbbd4258e72c1a44e555bb3f2a78fc98d1716aa 32820 batik_1.12-4.debian.tar.xz
+Homepage: https://xmlgraphics.apache.org/batik/
+Package-List: 
+ libbatik-java deb java optional arch=all
+Directory: pool/main/b/batik
+Priority: source
+Section: libs

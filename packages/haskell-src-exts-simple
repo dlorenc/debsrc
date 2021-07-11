@@ -1,0 +1,26 @@
+Package: haskell-src-exts-simple
+Binary: libghc-src-exts-simple-dev, libghc-src-exts-simple-prof, libghc-src-exts-simple-doc
+Version: 1.23.0.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-src-exts-dev (>= 1.23), libghc-src-exts-dev (<< 1.24), libghc-src-exts-prof
+Build-Depends-Indep: ghc-doc, libghc-src-exts-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 733de6861f4c9d80503bfe015e871688 2378 haskell-src-exts-simple_1.23.0.0-1.dsc
+ c9f002a59d4c8871ae36a8df04fe0ebf 10956 haskell-src-exts-simple_1.23.0.0.orig.tar.gz
+ 927894f068f11bc1d0bc9244d06b4ec5 2404 haskell-src-exts-simple_1.23.0.0-1.debian.tar.xz
+Checksums-Sha256:
+ 183e874e2e6a24c1118fde937c6dde65ad301f46621a65f7709d43da4063b379 2378 haskell-src-exts-simple_1.23.0.0-1.dsc
+ f57029fa5b81ddd604027e909739dc85c3bf819592dc1c95d3a9cb3aa392cdc9 10956 haskell-src-exts-simple_1.23.0.0.orig.tar.gz
+ f4ecffb4d912dfc5fffca257c9199c4144ca5f5164be30bde16b43833c0c92fe 2404 haskell-src-exts-simple_1.23.0.0-1.debian.tar.xz
+Homepage: https://github.com/int-e/haskell-src-exts-simple
+Package-List: 
+ libghc-src-exts-simple-dev deb haskell optional arch=any
+ libghc-src-exts-simple-doc deb doc optional arch=all
+ libghc-src-exts-simple-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-src-exts-simple
+Priority: extra
+Section: misc

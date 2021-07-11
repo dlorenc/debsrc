@@ -1,0 +1,28 @@
+Package: funtools
+Binary: funtools, libfuntools1, libfuntools-dev, tcl-funtools
+Version: 1.4.7-4
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: autotools-dev, debhelper (>= 11), dh-autoreconf, gawk, libwcstools-dev, tcl-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ c26a17de4b2b694962a2649ef6721bde 2188 funtools_1.4.7-4.dsc
+ 396cdac2e37a676a47f6714079a91023 3270079 funtools_1.4.7.orig.tar.gz
+ 006dcfd24345eb7635a5683e1c0601f1 10872 funtools_1.4.7-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/funtools
+Vcs-Git: https://salsa.debian.org/debian-astro-team/funtools.git
+Checksums-Sha256:
+ 3b9bfb9844646b7a9166a4df4da98d8bf976e320bb6c87ba17ae9216b8564c46 2188 funtools_1.4.7-4.dsc
+ 5388a7475e8c1fa92ff2429bf5de64212e79701dda6d24663bdab60293b63132 3270079 funtools_1.4.7.orig.tar.gz
+ e5694d96240395db58561cc90c8c836415e2eaddc1a49bab59a0278a9ba205cd 10872 funtools_1.4.7-4.debian.tar.xz
+Homepage: https://github.com/ericmandel/funtools
+Package-List: 
+ funtools deb science optional arch=any
+ libfuntools-dev deb libdevel optional arch=any
+ libfuntools1 deb libs optional arch=any
+ tcl-funtools deb interpreters optional arch=any
+Directory: pool/main/f/funtools
+Priority: source
+Section: science

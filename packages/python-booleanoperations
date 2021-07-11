@@ -1,0 +1,27 @@
+Package: python-booleanoperations
+Binary: python3-booleanoperations
+Version: 0.9.0-1
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Yao Wei (魏銘廷) <mwei@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pytest (>= 3.0.2) <!nocheck>, python3-pyclipper (>= 1.1.0.post2-3), python3-setuptools, python3-setuptools-scm, python3-defcon, python3-fontpens, python3-wheel
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 7dfcc93227985bec722359b3b6cfce80 2361 python-booleanoperations_0.9.0-1.dsc
+ 7282a9a989c5712b11e1f644bf17ab4a 165127 python-booleanoperations_0.9.0.orig.tar.gz
+ a65d65f1790786055f0c47720d3e4c3b 2468 python-booleanoperations_0.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/booleanoperations
+Vcs-Git: https://salsa.debian.org/fonts-team/booleanoperations.git
+Checksums-Sha256:
+ 87fe02dcba11724b3194e7a5bb400a7cbf3a7f06f33e049849a6b7bf8b13ccf5 2361 python-booleanoperations_0.9.0-1.dsc
+ 1554753303f20f150c45f7fbe8f2cbc0ba3ae2906d1867c17e11e141827411e4 165127 python-booleanoperations_0.9.0.orig.tar.gz
+ aad59bb5344ccb0cc54ebf349504871afd51409931846484fcb87fde8e550986 2468 python-booleanoperations_0.9.0-1.debian.tar.xz
+Homepage: https://github.com/typemytype/booleanOperations
+Package-List: 
+ python3-booleanoperations deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/python-booleanoperations
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: pt-websocket
+Binary: pt-websocket
+Version: 0.2-9
+Maintainer: Debian Privacy Tools Maintainers <pkg-privacy-maintainers@lists.alioth.debian.org>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 10), dh-golang, golang-go, help2man, golang-goptlib-dev, golang-golang-x-net-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 33fa68feb8f33a5af91a81f035a01be1 2127 pt-websocket_0.2-9.dsc
+ eb0accf4bc25ee0af1ab2f533efeb3d5 14835 pt-websocket_0.2.orig.tar.gz
+ b7442c4f6438b06a5ce769f97382ca66 3692 pt-websocket_0.2-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-privacy-team/pt-websocket
+Vcs-Git: https://salsa.debian.org/pkg-privacy-team/pt-websocket.git
+Checksums-Sha256:
+ b1e2dbd59742fe757a4ae1be8e21fa42214954c1dbae4cd3e3fd767c985aab6a 2127 pt-websocket_0.2-9.dsc
+ a191160977ec9e917cf19ecb8adf0bbdeae29e4e905df4560195b89847bed42c 14835 pt-websocket_0.2.orig.tar.gz
+ 50fc518e82ac0798a6e926e40fda8780cbce044ba2c04a7dd845f89c95a55d40 3692 pt-websocket_0.2-9.debian.tar.xz
+Homepage: https://gitweb.torproject.org/pluggable-transports/websocket.git
+Go-Import-Path: git.torproject.org/pluggable-transports/websocket
+Package-List: 
+ pt-websocket deb net optional arch=any
+Directory: pool/main/p/pt-websocket
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: libtest2-plugin-nowarnings-perl
+Binary: libtest2-plugin-nowarnings-perl
+Version: 0.09-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nick Morrott <knowledgejunkie@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libipc-run3-perl <!nocheck>, libtest-simple-perl (>= 1.302167) <!nocheck>, libtest2-suite-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 453f59c2b027b63309414a4d6a112331 2636 libtest2-plugin-nowarnings-perl_0.09-1.dsc
+ efcddec6cda66260ae14206e28f7feeb 26442 libtest2-plugin-nowarnings-perl_0.09.orig.tar.gz
+ 54267cc9241c0748c2181fa9976fabf9 5184 libtest2-plugin-nowarnings-perl_0.09-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest2-plugin-nowarnings-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest2-plugin-nowarnings-perl.git
+Checksums-Sha256:
+ ee2f56183d7cc5c07103533bd5c795c0522981778c3bac5c88dcab40dfe4916e 2636 libtest2-plugin-nowarnings-perl_0.09-1.dsc
+ be3dd800042eef362bf17d2056cf9e934dee91ccce98e4f178b8fb5772f2fb74 26442 libtest2-plugin-nowarnings-perl_0.09.orig.tar.gz
+ 9c0e8f905c93e35df9188bb6f7ed5fe346fb61998dc6b665155ca9c9fb36a67a 5184 libtest2-plugin-nowarnings-perl_0.09-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test2-Plugin-NoWarnings
+Dgit: 0a8470f0367864232959015683dabf42bdd236d5 debian archive/debian/0.09-1 https://git.dgit.debian.org/libtest2-plugin-nowarnings-perl
+Package-List: 
+ libtest2-plugin-nowarnings-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest2-plugin-nowarnings-perl
+Priority: optional
+Section: misc

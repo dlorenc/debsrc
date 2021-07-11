@@ -1,0 +1,30 @@
+Package: autogen
+Binary: autogen, autogen-doc, libopts25, libopts25-dev
+Version: 1:5.18.16-4
+Maintainer: Andreas Metzler <ametzler@debian.org>
+Build-Depends: chrpath, debhelper-compat (= 12), gperf, guile-2.2-dev, libxml2-dev, pkg-config, tar (>= 1.28), autogen <cross>
+Build-Depends-Indep: texinfo, texlive, cm-super-minimal
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e5e29d7509762cc189054b3befbf8fe4 2400 autogen_5.18.16-4.dsc
+ 27c28df902a9fdb2b64f008a0a49fd05 1046276 autogen_5.18.16.orig.tar.xz
+ bdb7764f686740b77cb40c71e661a18c 659 autogen_5.18.16.orig.tar.xz.asc
+ 580acaf7ea60d2e1dbaf01db1468e6f4 21184 autogen_5.18.16-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/autogen
+Vcs-Git: https://salsa.debian.org/debian/autogen.git
+Checksums-Sha256:
+ 07b1296b83424a932b5737adce9d1d1b267d5d8fdd8ceeedb4e1aa0c1474010c 2400 autogen_5.18.16-4.dsc
+ f8a13466b48faa3ba99fe17a069e71c9ab006d9b1cfabe699f8c60a47d5bb49a 1046276 autogen_5.18.16.orig.tar.xz
+ ac5ce9851d4b925a3f0821d9b24ab40032853e7e30d038a0a0b99e43921ed35f 659 autogen_5.18.16.orig.tar.xz.asc
+ 10580035a6a54a5d32f283a63a70d3c9a7fe7e6cd9ce8c7a12d8983805ba0f18 21184 autogen_5.18.16-4.debian.tar.xz
+Homepage: https://www.gnu.org/software/autogen/
+Package-List: 
+ autogen deb devel optional arch=any
+ autogen-doc deb doc optional arch=all
+ libopts25 deb libs optional arch=any
+ libopts25-dev deb libdevel optional arch=any
+Directory: pool/main/a/autogen
+Priority: source
+Section: devel

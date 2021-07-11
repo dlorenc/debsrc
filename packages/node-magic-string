@@ -1,0 +1,26 @@
+Package: node-magic-string
+Binary: node-magic-string
+Version: 0.25.7-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 12), pkg-js-tools (>= 0.9.14~), mocha, node-rollup-plugin-node-resolve (>= 9~), node-rollup-plugin-buble (>= 0.19.8~), node-rollup-plugin-replace, node-source-map-support, node-sourcemap-codec (>= 1.4.5-2~), node-vlq, nodejs, rollup (>= 1~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ceb048b14a149d8b3e26197b955ed447 2299 node-magic-string_0.25.7-4.dsc
+ 254743de00b8e6b24d7a03a77eef845e 44870 node-magic-string_0.25.7.orig.tar.gz
+ f04bc51755fd25cbb23df3b0215dfe26 4312 node-magic-string_0.25.7-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-magic-string
+Vcs-Git: https://salsa.debian.org/js-team/node-magic-string.git
+Checksums-Sha256:
+ 63ac6b7459bef8d2bc97a756571ddf17a3f1f27e875711318b45504ab168433c 2299 node-magic-string_0.25.7-4.dsc
+ 69853bedac89fe6dc12ffc2f75666d6061239ce6ef3ba9f4f58daef02caed034 44870 node-magic-string_0.25.7.orig.tar.gz
+ daf67d8deae0d329a7f9cd88f0f195b752acfbe006fc938b59a772dbbd977b8c 4312 node-magic-string_0.25.7-4.debian.tar.xz
+Homepage: https://github.com/rich-harris/magic-string
+Package-List: 
+ node-magic-string deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-magic-string
+Priority: optional
+Section: javascript

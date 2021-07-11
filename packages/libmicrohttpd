@@ -1,0 +1,27 @@
+Package: libmicrohttpd
+Binary: libmicrohttpd12, libmicrohttpd-dev
+Version: 0.9.72-2
+Maintainer: Daniel Baumann <daniel.baumann@progress-linux.org>
+Build-Depends: autoconf, automake, debhelper-compat (= 13), libcurl4-gnutls-dev <!nocheck>, libgnutls28-dev, pkg-config, socat [!hurd-i386] <!nocheck>, texinfo, zzuf <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 16ecf3de307840ebf5c88d8e4c11b73a 2265 libmicrohttpd_0.9.72-2.dsc
+ 2a286193af88ab2ae3149748d4b46187 1693553 libmicrohttpd_0.9.72.orig.tar.gz
+ 8a3ec47c354cb831c7469b4e6187ea13 16528 libmicrohttpd_0.9.72-2.debian.tar.xz
+Vcs-Browser: https://git.progress-linux.org/users/daniel.baumann/debian/packages/libmicrohttpd
+Vcs-Git: https://git.progress-linux.org/users/daniel.baumann/debian/packages/libmicrohttpd
+Checksums-Sha256:
+ 73b0cffdac82152529147329e4946c0ed01cd064f4c00889cd529fec9d188cef 2265 libmicrohttpd_0.9.72-2.dsc
+ 0ae825f8e0d7f41201fd44a0df1cf454c1cb0bc50fe9d59c26552260264c2ff8 1693553 libmicrohttpd_0.9.72.orig.tar.gz
+ 159dc13fc3b0a4130e2d6feebb13247f683fc296719f554b2e44fe3c5215a5d8 16528 libmicrohttpd_0.9.72-2.debian.tar.xz
+Homepage: https://www.gnu.org/software/libmicrohttpd/
+Package-List: 
+ libmicrohttpd-dev deb libdevel optional arch=any
+ libmicrohttpd12 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/libm/libmicrohttpd
+Priority: source
+Section: httpd

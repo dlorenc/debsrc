@@ -1,0 +1,26 @@
+Package: ocaml-faad
+Binary: libfaad-ocaml, libfaad-ocaml-dev
+Version: 0.4.0-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Kyle Robbertze <krobbertze@gmail.com>, Samuel Mimram <smimram@debian.org>, Romain Beauxis <toots@rastageeks.org>
+Build-Depends: cdbs (>= 0.4.53), debhelper (>= 10), ocaml-nox, dh-ocaml (>= 0.9), libfaad-dev, ocaml-findlib (>= 1.2.4), pkg-config
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 89f51783c9dc254431576ac4bb4fca03 2188 ocaml-faad_0.4.0-1.dsc
+ 11685e7b48b283b11b8118a21cf11606 131535 ocaml-faad_0.4.0.orig.tar.gz
+ 705990761588944fc5584ffd4eb51495 2696 ocaml-faad_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-faad
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-faad.git
+Checksums-Sha256:
+ 55ab2af354ca32de4e0f38037cdcd48731115d8564b4dc2236f8c577c866d6b7 2188 ocaml-faad_0.4.0-1.dsc
+ 6045c37017dfbe19838cf1fad4c729c6fb6f4927e3fed1e7c1562aef90058685 131535 ocaml-faad_0.4.0.orig.tar.gz
+ d534e18c7e4d6004639f59454affcce85111b386bb1b27c7e96ab8cec7921bea 2696 ocaml-faad_0.4.0-1.debian.tar.xz
+Homepage: http://savonet.sourceforge.net/
+Package-List: 
+ libfaad-ocaml deb ocaml optional arch=any
+ libfaad-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-faad
+Priority: source
+Section: ocaml

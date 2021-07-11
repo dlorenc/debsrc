@@ -1,0 +1,27 @@
+Package: r-cran-pscbs
+Binary: r-cran-pscbs
+Version: 0.65.0-3
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Michael R. Crusoe <michael.crusoe@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-r.methodss3 (>= 1.7.1), r-cran-r.oo (>= 1.22.0), r-cran-r.utils (>= 2.8.0), r-cran-r.cache (>= 0.13.0), r-cran-matrixstats (>= 0.54.0), r-bioc-aroma.light, r-bioc-dnacopy, r-cran-listenv (>= 0.7.0), r-cran-future (>= 1.12.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2a48eabcedec407ccc5deafbe6cf5e68 2356 r-cran-pscbs_0.65.0-3.dsc
+ 0785dfe523d4ebb1ec3d8c2568bf5d8a 3004116 r-cran-pscbs_0.65.0.orig.tar.gz
+ 1d9b6853f48eea6074e927ef9fe7968d 3096 r-cran-pscbs_0.65.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-pscbs
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-pscbs.git
+Checksums-Sha256:
+ d2095a00d306a8eff546d9566725ad6463c1691878a1581591f0e096bc1f3a87 2356 r-cran-pscbs_0.65.0-3.dsc
+ e271a123a43156bb62e77c4eb5dddc5dfdbfe30ad9da881816fec1274a8e3d6a 3004116 r-cran-pscbs_0.65.0.orig.tar.gz
+ a83aa578c16e7f7b45ca81781a2383979476d57cde78656091c396e25afef502 3096 r-cran-pscbs_0.65.0-3.debian.tar.xz
+Homepage: https://cran.r-project.org/package=PSCBS
+Package-List: 
+ r-cran-pscbs deb gnu-r optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: r-bioc-aroma.light, r-cran-foreign, r-cran-hmisc, r-cran-nnet
+Directory: pool/main/r/r-cran-pscbs
+Priority: optional
+Section: misc

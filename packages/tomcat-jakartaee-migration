@@ -1,0 +1,25 @@
+Package: tomcat-jakartaee-migration
+Binary: tomcat-jakartaee-migration
+Version: 0.2.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, junit4 (>= 4.12), libbcel-java (>= 6.4.1), libcommons-io-java (>= 2.6), libmaven-antrun-plugin-java, libmaven-shade-plugin-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0752ba6d919452b98e2e77542cd72175 2293 tomcat-jakartaee-migration_0.2.0-1.dsc
+ c9b24796651677dd5bb2b3b5fba3b586 26156 tomcat-jakartaee-migration_0.2.0.orig.tar.xz
+ 0dd43371def7844e354c045ce5cc4558 2664 tomcat-jakartaee-migration_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/tomcat-jakartaee-migration
+Vcs-Git: https://salsa.debian.org/java-team/tomcat-jakartaee-migration.git
+Checksums-Sha256:
+ 8c08e6e444819a68a4bedbdfc9f495732493a556c72e7cf1c2fd60e01ae39ecc 2293 tomcat-jakartaee-migration_0.2.0-1.dsc
+ 69bf207335ac332faf2340b93a9ecaa53232581ae1c178456dd82f363940465a 26156 tomcat-jakartaee-migration_0.2.0.orig.tar.xz
+ 692b0694f357f65f5ff516dd4e419ba3ab7c9f5ed6cffc7dfbacab5cdcc7037e 2664 tomcat-jakartaee-migration_0.2.0-1.debian.tar.xz
+Homepage: https://tomcat.apache.org
+Package-List: 
+ tomcat-jakartaee-migration deb java optional arch=all
+Directory: pool/main/t/tomcat-jakartaee-migration
+Priority: extra
+Section: misc

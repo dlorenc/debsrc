@@ -1,0 +1,27 @@
+Package: golang-github-opencontainers-image-spec
+Binary: golang-github-opencontainers-image-spec-dev
+Version: 1.0.1-5
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Michael Stapelberg <stapelberg@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-opencontainers-go-digest-dev, golang-github-pkg-errors-dev, golang-github-russross-blackfriday-dev, golang-github-xeipuuv-gojsonschema-dev (>= 1.2.0~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 704f2a1e0b48970ce1359f217380bb69 2012 golang-github-opencontainers-image-spec_1.0.1-5.dsc
+ beded0509b8b8107f4a5494e3aa75eb6 138674 golang-github-opencontainers-image-spec_1.0.1.orig.tar.gz
+ e6d60e4fde721d1822140a4a9fd81983 14668 golang-github-opencontainers-image-spec_1.0.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-opencontainers-image-spec
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-opencontainers-image-spec.git
+Checksums-Sha256:
+ 78de80ca7e47f357ed153a46d88160fdb97a1b2a9ebf507ba94287014ceecd45 2012 golang-github-opencontainers-image-spec_1.0.1-5.dsc
+ c7ca467de2cca65e7ea74414a3f51e91450156213af485830dcdfff0571e10d2 138674 golang-github-opencontainers-image-spec_1.0.1.orig.tar.gz
+ 0a35ccd3a3524a0e1e478f624ebc5dd26d495a0b2acbedaa948ceafbbdfda7ce 14668 golang-github-opencontainers-image-spec_1.0.1-5.debian.tar.xz
+Homepage: https://github.com/opencontainers/image-spec
+Go-Import-Path: github.com/opencontainers/image-spec
+Package-List: 
+ golang-github-opencontainers-image-spec-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-opencontainers-image-spec
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: ufoprocessor
+Binary: python3-ufoprocessor
+Version: 1.9.0-1
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Yao Wei (魏銘廷) <mwei@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-defcon (>= 0.6.0), python3-fontmath (>= 0.4.9), python3-fontparts (>= 0.8.2), python3-fonttools (>= 3.32.0), python3-mutatormath (>= 2.1.2)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6cbbfdf3f421677a00a264291382f374 2262 ufoprocessor_1.9.0-1.dsc
+ f9d8694b952eec1849abf0a9f1eb3e43 34299 ufoprocessor_1.9.0.orig.tar.gz
+ ef48eb261c5a62c3764df5e6891960de 2488 ufoprocessor_1.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/fonts-team/ufoprocessor
+Vcs-Git: https://salsa.debian.org/fonts-team/ufoprocessor.git
+Checksums-Sha256:
+ a86f18993ec807d3ab9d5071fa3266583d29f84a37d91e47cf6cebd8625f6569 2262 ufoprocessor_1.9.0-1.dsc
+ 448fb9b513d0a66292c5a0624deb3e940278c8b3a1464b6801a95e0252d48633 34299 ufoprocessor_1.9.0.orig.tar.gz
+ d11ad9df220bcd8879a01e575b938af62fb1fff429f863035ca077571d7b3001 2488 ufoprocessor_1.9.0-1.debian.tar.xz
+Homepage: https://github.com/LettError/ufoProcessor
+Package-List: 
+ python3-ufoprocessor deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/u/ufoprocessor
+Priority: extra
+Section: misc

@@ -1,0 +1,24 @@
+Package: dh-fortran-mod
+Binary: dh-fortran-mod
+Version: 0.20
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Sébastien Villemot <sebastien@debian.org>, Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ c93c35a310e7ee4c395de25998929783 1766 dh-fortran-mod_0.20.dsc
+ a7282ca028f483c7e156d87e6e20a69e 9108 dh-fortran-mod_0.20.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/dh-fortran-mod
+Vcs-Git: https://salsa.debian.org/science-team/dh-fortran-mod.git -b debian/latest
+Checksums-Sha256:
+ 6a3ee3f438f45fdcd587349d1d8295da824a06289bd7d7afc55fd66b1599bc6b 1766 dh-fortran-mod_0.20.dsc
+ a3bb558ab4494da31f414e7e1560883206e9d1ac8a025d2a7093ad5f5e78bbea 9108 dh-fortran-mod_0.20.tar.xz
+Package-List: 
+ dh-fortran-mod deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gfortran
+Directory: pool/main/d/dh-fortran-mod
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: pwget
+Binary: pwget
+Version: 2016.1019+git75c6e3e-4
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), libwww-perl, perl, wget
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bfdfc2e3789ea018e1aaaaa5c19e801a 1959 pwget_2016.1019+git75c6e3e-4.dsc
+ d48d642e170d44c848c0607afa79f90f 131263 pwget_2016.1019+git75c6e3e.orig.tar.gz
+ 4e6479e325ba60c4a2996c1bcd2ebd65 3436 pwget_2016.1019+git75c6e3e-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/pwget
+Vcs-Git: https://salsa.debian.org/debian/pwget.git
+Checksums-Sha256:
+ e1af581884f16bcae88c63c0e2385e1af80e9c5332f2e4d593214882addab518 1959 pwget_2016.1019+git75c6e3e-4.dsc
+ f0b150bacb6ee8c46b6c09305e7c6f533578ca383bcb955c6b08e3e9ec4b0eeb 131263 pwget_2016.1019+git75c6e3e.orig.tar.gz
+ d0e06c272d54c919730564efc94591eba41343f7c28805986bd81040f63604eb 3436 pwget_2016.1019+git75c6e3e-4.debian.tar.xz
+Homepage: https://github.com/jaalto/project--perl-webget
+Package-List: 
+ pwget deb web optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/pwget
+Priority: source
+Section: web

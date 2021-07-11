@@ -1,0 +1,27 @@
+Package: ruby-clockwork
+Binary: ruby-clockwork
+Version: 2.0.4-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Andrew Lee (李健秋) <andrew.lee@collabora.co.uk>, Lucas Kanashiro <kanashiro@debian.org>
+Build-Depends: debhelper (>= 12~), gem2deb, rake, ruby-activesupport (>= 2:5), ruby-daemons, ruby-minitest, ruby-mocha, ruby-tzinfo
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ad856085d95c93b80e949d95e6e05067 2230 ruby-clockwork_2.0.4-1.dsc
+ c0b895ea989c93b7591a0d8d40574a28 23102 ruby-clockwork_2.0.4.orig.tar.gz
+ b1ae657ee2ae473d75e4d7a5a1f0706f 5216 ruby-clockwork_2.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-clockwork
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-clockwork.git
+Checksums-Sha256:
+ 2102ed6f3866ae79e57dfb6648d26756d87b8b33403ceb5a685d3775202bb701 2230 ruby-clockwork_2.0.4-1.dsc
+ 2270c5ea3ba5279e3c33c3acc96fa068fba7e8727d9a345e20fea26d70f76168 23102 ruby-clockwork_2.0.4.orig.tar.gz
+ 0af6e7e95239f619cf3a1ed78901fedcb871068b612ef370381b8e99c93ab9d5 5216 ruby-clockwork_2.0.4-1.debian.tar.xz
+Homepage: https://github.com/Rykian/clockwork
+Package-List: 
+ ruby-clockwork deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-clockwork
+Priority: optional
+Section: misc

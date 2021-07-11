@@ -1,0 +1,27 @@
+Package: libocas
+Binary: libocas-dev, libocas0, libocas-tools
+Version: 0.97+dfsg-6
+Maintainer: Christian Kastner <ckk@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d700c0b88d2e161702f5655309834ec7 2026 libocas_0.97+dfsg-6.dsc
+ 14333308fc6f7a62c4ed74b9f1f93cd9 5449992 libocas_0.97+dfsg.orig.tar.xz
+ 93d9121a34ad37f45a0c14d1446f385e 8612 libocas_0.97+dfsg-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/libocas
+Vcs-Git: https://salsa.debian.org/science-team/libocas.git
+Checksums-Sha256:
+ 3e06068c10947d0d6f92f1461d426b0eda9970eb142c73ecbe1b0f592ba8f2e8 2026 libocas_0.97+dfsg-6.dsc
+ 09e9800aa05fb3fb7520edc42b4d78f28ee60aa9d09766ee4624ced5e56595a0 5449992 libocas_0.97+dfsg.orig.tar.xz
+ 09761d4ffeaa57770c448ca4b9efb2b7db5d60a9318213c43dbd6c55544a6016 8612 libocas_0.97+dfsg-6.debian.tar.xz
+Homepage: http://cmp.felk.cvut.cz/~xfrancv/ocas/html/
+Package-List: 
+ libocas-dev deb libdevel optional arch=any
+ libocas-tools deb science optional arch=any
+ libocas0 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/libo/libocas
+Priority: source
+Section: libs

@@ -1,0 +1,27 @@
+Package: python-cytoolz
+Binary: python3-cytoolz
+Version: 0.11.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-pytest, python3-toolz, python3-setuptools, cython3
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 115edd25ad0ca9ff24be14eeb07d5032 2212 python-cytoolz_0.11.0-1.dsc
+ b10517fc4ed0c6c3706da8537e5222c4 477814 python-cytoolz_0.11.0.orig.tar.gz
+ 096f18c0a62433dcaebe97ad0041ed84 3992 python-cytoolz_0.11.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-cytoolz
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-cytoolz.git
+Checksums-Sha256:
+ bde7d127234f9d29d50f3b0a06c4c0b453aadfcf3ea242090f289721fff69471 2212 python-cytoolz_0.11.0-1.dsc
+ c64f3590c3eb40e1548f0d3c6b2ccde70493d0b8dc6cc7f9f3fec0bb3dcd4222 477814 python-cytoolz_0.11.0.orig.tar.gz
+ 418b80d4c80ec79add64946854dd529a9c02c99d74e5de792551daac92ff265d 3992 python-cytoolz_0.11.0-1.debian.tar.xz
+Homepage: https://github.com/pytoolz/cytoolz
+Package-List: 
+ python3-cytoolz deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/p/python-cytoolz
+Priority: extra
+Section: misc

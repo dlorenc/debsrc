@@ -1,0 +1,26 @@
+Package: rust-scroll-derive
+Binary: librust-scroll-derive-dev
+Version: 0.10.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-scroll-0-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ aa57c1a63160e66d37186e13ee58e36b 2016 rust-scroll-derive_0.10.1-2.dsc
+ 83c02c4cc24abc72a7ccaeed07399499 4602 rust-scroll-derive_0.10.1.orig.tar.gz
+ 2f3bba01bda005e4b86275cda7335c5b 2852 rust-scroll-derive_0.10.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/scroll-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/scroll-derive]
+Checksums-Sha256:
+ 875a914620e7246f5650555da98adcf77d6df704bcb460cf332e2222cf172c57 2016 rust-scroll-derive_0.10.1-2.dsc
+ f8584eea9b9ff42825b46faf46a8c24d2cff13ec152fa2a50df788b87c07ee28 4602 rust-scroll-derive_0.10.1.orig.tar.gz
+ c1c1e1f4b52ed58edd64914d3d08e2443f1fe5035d74adf2ed75a5fad139b83e 2852 rust-scroll-derive_0.10.1-2.debian.tar.xz
+Package-List: 
+ librust-scroll-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-scroll-0.10+default-dev
+Directory: pool/main/r/rust-scroll-derive
+Priority: extra
+Section: misc

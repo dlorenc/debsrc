@@ -1,0 +1,29 @@
+Package: reglookup
+Binary: libregfi1, libregfi-dev, reglookup, python3-pyregfi, reglookup-doc
+Version: 1.0.1+svn287-9
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Giovani Augusto Ferreira <giovani@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, docbook2x, doxygen, graphviz, jdupes, libtalloc-dev, libtalloc2, python3-all, scons (>= 2.3)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fc83deec48b7347c21aa2f526007e78c 2365 reglookup_1.0.1+svn287-9.dsc
+ 23654ced2d92068bbcccbedd0b6d7e8f 183216 reglookup_1.0.1+svn287.orig.tar.gz
+ 36280a8a9ad6222a60f071d82d3622f1 7812 reglookup_1.0.1+svn287-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/reglookup
+Vcs-Git: https://salsa.debian.org/pkg-security-team/reglookup.git
+Checksums-Sha256:
+ debb2f37fcb302946c6bfb67aa302e59cbf20588d9d953321f750c5dd8cae791 2365 reglookup_1.0.1+svn287-9.dsc
+ 4fc7f5691829776e00e78d1574d533d4ff8f8b5a464e8efdd2b6c961fe46e279 183216 reglookup_1.0.1+svn287.orig.tar.gz
+ 23bf91831638ed9217e347a73c776a71ade40f58fd013d471a277caee8a7111d 7812 reglookup_1.0.1+svn287-9.debian.tar.xz
+Homepage: http://projects.sentinelchicken.org/reglookup/
+Package-List: 
+ libregfi-dev deb libdevel optional arch=any
+ libregfi1 deb libs optional arch=any
+ python3-pyregfi deb python optional arch=all
+ reglookup deb utils optional arch=any
+ reglookup-doc deb doc optional arch=all
+Directory: pool/main/r/reglookup
+Priority: source
+Section: utils

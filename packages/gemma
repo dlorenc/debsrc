@@ -1,0 +1,27 @@
+Package: gemma
+Binary: gemma, gemma-doc
+Version: 0.98.4+dfsg-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), gfortran, libopenblas-dev, libeigen3-dev, libgsl-dev, zlib1g-dev, catch, shunit2
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f8dff324c500db965cf3f94fb1f7aced 2113 gemma_0.98.4+dfsg-3.dsc
+ 81a168398df11339385afb0643057463 42535920 gemma_0.98.4+dfsg.orig.tar.xz
+ 6f325d03b13c1f6b26f0517ddc42a3dd 5820 gemma_0.98.4+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/gemma
+Vcs-Git: https://salsa.debian.org/med-team/gemma.git
+Checksums-Sha256:
+ a47feeef34604acac11ba950ac246c32b01ed316438bdc0eb73c57af8fba01fe 2113 gemma_0.98.4+dfsg-3.dsc
+ ea2833c102e94894b5b6c65f6d9deaa717cc4502e842057f594273bf36fbd702 42535920 gemma_0.98.4+dfsg.orig.tar.xz
+ 55a831ea1eed6ad4bc2dc7414a4fb98b8ac45aa32b471cde2e781b9f4745a5db 5820 gemma_0.98.4+dfsg-3.debian.tar.xz
+Homepage: https://www.xzlab.org/software.html
+Package-List: 
+ gemma deb science optional arch=any
+ gemma-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/g/gemma
+Priority: extra
+Section: misc

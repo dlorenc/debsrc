@@ -1,0 +1,27 @@
+Package: reproject
+Binary: python3-reproject
+Version: 0.7.1-1
+Maintainer: Debian Astronomy Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>, Leo Singer <leo.singer@ligo.org>
+Build-Depends: cython3, debhelper-compat (= 12), dh-python, python3-all-dev, python3-astropy (>= 3.2~), python3-astropy-healpix, python3-extension-helpers, python3-numpy, python3-pytest, python3-pytest-arraydiff, python3-pytest-astropy, python3-pyvo, python3-scipy, python3-setuptools, python3-setuptools-scm
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 11bb5c5a24f13eeb4bd93fae3e8888b4 2317 reproject_0.7.1-1.dsc
+ 817570e405d3b4b173fc3e098f83a54a 770363 reproject_0.7.1.orig.tar.gz
+ 15932a6198103faa65f47a933578254e 3772 reproject_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/reproject
+Vcs-Git: https://salsa.debian.org/debian-astro-team/reproject.git
+Checksums-Sha256:
+ 21cef0caf1772abf59b8962b9920ddd8a838947042a8cd256b8f9e34dc5c5ae9 2317 reproject_0.7.1-1.dsc
+ 95c0fa49e6b4e36455b91fa09ad1b71b230c990ad91d948af67ea3509a1a4ccb 770363 reproject_0.7.1.orig.tar.gz
+ 757283923af2f668cdd8842a9cdc7154e4bf6ed76646ae02d5a4050b31b85ea6 3772 reproject_0.7.1-1.debian.tar.xz
+Homepage: https://reproject.readthedocs.org
+Package-List: 
+ python3-reproject deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-scipy
+Directory: pool/main/r/reproject
+Priority: optional
+Section: misc

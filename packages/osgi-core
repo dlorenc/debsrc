@@ -1,0 +1,26 @@
+Package: osgi-core
+Binary: libosgi-core-java, libosgi-core-java-doc
+Version: 7.0.0-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Ludovic Claude <ludovic.claude@laposte.net>
+Build-Depends: ant, debhelper-compat (= 13), default-jdk, javahelper (>= 0.43~), libosgi-annotation-java, maven-repo-helper (>= 1.6~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 64a371e639e192dcff52bede988c8fdd 2148 osgi-core_7.0.0-2.dsc
+ 39942c8a0d8febee6968d7b2f3f9e44d 122932 osgi-core_7.0.0.orig.tar.xz
+ 54c95c7603a44abcae67f696a9fd5885 3604 osgi-core_7.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/osgi-core
+Vcs-Git: https://salsa.debian.org/java-team/osgi-core.git
+Checksums-Sha256:
+ a549b99df0a2346af8b4fa56370ecd3300031e75ed1fd1e88455561871faf1cc 2148 osgi-core_7.0.0-2.dsc
+ 0b2bc289fe417b66f4290b331da33811e304516fc048c19c55a8f92c64962e07 122932 osgi-core_7.0.0.orig.tar.xz
+ d8ab25a73eb8ec9861d648914891711c608199990eb2eee3f5a850e84c1300f4 3604 osgi-core_7.0.0-2.debian.tar.xz
+Homepage: http://www.osgi.org/Specifications/HomePage
+Package-List: 
+ libosgi-core-java deb java optional arch=all
+ libosgi-core-java-doc deb doc optional arch=all
+Directory: pool/main/o/osgi-core
+Priority: source
+Section: java

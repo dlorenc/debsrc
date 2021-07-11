@@ -1,0 +1,28 @@
+Package: davmail
+Binary: davmail
+Version: 5.5.1.3299-4
+Maintainer: Alexandre Rossi <alexandre.rossi@gmail.com>
+Uploaders: Geert Stappers <stappers@debian.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, ant, ant-optional, javahelper
+Build-Depends-Indep: libcommons-codec-java, libservlet3.1-java, libhttpclient-java, libcommons-httpclient-java, libcommons-logging-java, libhtmlcleaner-java (>= 2.21), libmail-java, libjcifs-java, libjackrabbit-java, liblog4j1.2-java, libwoodstox-java, libstax2-api-java, libswt-gtk-4-java, libslf4j-java, libjettison-java, libopenjfx-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f04f2028834a8b67fa1d8aa45530cba1 2339 davmail_5.5.1.3299-4.dsc
+ d7e8d38403069eb72d1d6dcbaab05f46 6331267 davmail_5.5.1.3299.orig.tar.gz
+ 0cbef801a60f1c7af5a7a8a3a1c7aa49 12228 davmail_5.5.1.3299-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/davmail
+Vcs-Git: https://salsa.debian.org/debian/davmail.git
+Checksums-Sha256:
+ 1b329b04c730e0b6e8cd42c2a08c6f11778f7b427e5f41d197297f343d3b8d2a 2339 davmail_5.5.1.3299-4.dsc
+ f40247c3da1e087d581cf4895b69542eecadfd77d62b0f4b66e53c81d580e54e 6331267 davmail_5.5.1.3299.orig.tar.gz
+ b3424fd166be254e8b1bba24419f18d07952b9faf54ab2eba11995bbd964f8b6 12228 davmail_5.5.1.3299-4.debian.tar.xz
+Homepage: http://davmail.sourceforge.net/
+Package-List: 
+ davmail deb net optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: netcat
+Directory: pool/main/d/davmail
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-filepath-bytestring
+Binary: libghc-filepath-bytestring-dev, libghc-filepath-bytestring-prof, libghc-filepath-bytestring-doc
+Version: 1.4.2.1.6-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc, ghc-prof, libghc-quickcheck2-dev (>= 2.7) <!nocheck>, libghc-quickcheck2-dev (<< 2.14) <!nocheck>
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 43f7e1bfc3c2fd8e31a478ea376db99d 2607 haskell-filepath-bytestring_1.4.2.1.6-2.dsc
+ 27593c1eb5035a3e6021df3174c5af2e 25418 haskell-filepath-bytestring_1.4.2.1.6.orig.tar.gz
+ 7470f01c54d0fef7b6ac32b1e8a35377 4524 haskell-filepath-bytestring_1.4.2.1.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-filepath-bytestring
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git
+Checksums-Sha256:
+ 491524800afb35f43bfb8fe18e01df5d8cad64f3749506106f5cb28d458680f0 2607 haskell-filepath-bytestring_1.4.2.1.6-2.dsc
+ e71147fed4505946dcf1fc77bb3815d25a7471880ffcf5553329963adbcfb987 25418 haskell-filepath-bytestring_1.4.2.1.6.orig.tar.gz
+ 90d7e95638cd21710c6e3bf7ecc9a4ccd2958369471b0b8bfc0b10a7352dc409 4524 haskell-filepath-bytestring_1.4.2.1.6-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/filepath-bytestring
+Package-List: 
+ libghc-filepath-bytestring-dev deb haskell optional arch=any
+ libghc-filepath-bytestring-doc deb doc optional arch=all
+ libghc-filepath-bytestring-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-filepath-bytestring
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-proc-macro-hack
+Binary: librust-proc-macro-hack-dev
+Version: 0.5.9-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 019a3b9db85544be2fd89af77773dec3 2396 rust-proc-macro-hack_0.5.9-1.dsc
+ b2daf0796be0ad9b1c7f30a45838048f 10777 rust-proc-macro-hack_0.5.9.orig.tar.gz
+ cdf3b30b9834135ce6707344a8034277 2624 rust-proc-macro-hack_0.5.9-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proc-macro-hack
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/proc-macro-hack]
+Checksums-Sha256:
+ 91622ee4858f84b83c4aed40ed960ad9684d650dbf450e5fdecc834ac0137f4e 2396 rust-proc-macro-hack_0.5.9-1.dsc
+ e688f31d92ffd7c1ddc57a1b4e6d773c0f2a14ee437a4b0a4f5a69c80eb221c8 10777 rust-proc-macro-hack_0.5.9.orig.tar.gz
+ 7eb5ea0c83e162aed5612edba83fdb324b73cd9a5df506ce02a5dd4922d30acc 2624 rust-proc-macro-hack_0.5.9-1.debian.tar.xz
+Package-List: 
+ librust-proc-macro-hack-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-demo-hack-0.0.5+default-dev, librust-demo-hack-impl-0.0.5+default-dev
+Directory: pool/main/r/rust-proc-macro-hack
+Priority: extra
+Section: misc

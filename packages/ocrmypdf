@@ -1,0 +1,28 @@
+Package: ocrmypdf
+Binary: ocrmypdf, ocrmypdf-doc
+Version: 10.3.1+dfsg-1
+Maintainer: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper (>= 10), dh-exec, dh-python, python3-all, python3-cffi, python3-img2pdf (>= 0.3.0), python3-pikepdf (>= 1.7.0), python3-pil, python3-pycparser, python3-pytest-runner, python3-reportlab, python3-setuptools, python3-setuptools-scm, python3-sphinx (>= 1.4.8), python3-sphinx-rtd-theme, python3-pdfminer (>= 20181108+dfsg-3)
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 800d109c6f7b0dd19e3c3b4005262734 2571 ocrmypdf_10.3.1+dfsg-1.dsc
+ 0f57fd32bd76a0bba9162a43c2293c2b 6215372 ocrmypdf_10.3.1+dfsg.orig.tar.xz
+ 7497b8f169f6eec055317832b32d4e8d 37940 ocrmypdf_10.3.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://git.spwhitton.name/ocrmypdf
+Vcs-Git: https://git.spwhitton.name/ocrmypdf -b debian
+Checksums-Sha256:
+ ac8883b7c38100c400ee76e49c3d7100014b710427fca75465553edad0788845 2571 ocrmypdf_10.3.1+dfsg-1.dsc
+ 76e3658826f4eaba3036bc6f4b07ee8b7ca4abae748adaebba4f5e640adb1d87 6215372 ocrmypdf_10.3.1+dfsg.orig.tar.xz
+ e2d3225313bc36f0526ef3618e6211cc2c0c5d2f0bf1ecb5d65814ad160d8304 37940 ocrmypdf_10.3.1+dfsg-1.debian.tar.xz
+Homepage: https://github.com/jbarlow83/OCRmyPDF
+Dgit: a0d94713868b9fe87aa7e2449fd61883b8ea3541 debian archive/debian/10.3.1+dfsg-1 https://git.dgit.debian.org/ocrmypdf
+Package-List: 
+ ocrmypdf deb graphics optional arch=all
+ ocrmypdf-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libjpeg-dev, pngquant, python3-cffi, python3-pypdf2, python3-pytest, python3-pytest-cov, python3-pytest-helpers-namespace, tesseract-ocr-deu, tesseract-ocr-fra, unpaper
+Directory: pool/main/o/ocrmypdf
+Priority: optional
+Section: misc

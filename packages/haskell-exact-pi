@@ -1,0 +1,28 @@
+Package: haskell-exact-pi
+Binary: libghc-exact-pi-dev, libghc-exact-pi-prof, libghc-exact-pi-doc
+Version: 0.5.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-numtype-dk-dev (>= 0.5), libghc-numtype-dk-prof
+Build-Depends-Indep: ghc-doc, libghc-numtype-dk-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d1d076ee4547d59779ee8596fce970e0 2406 haskell-exact-pi_0.5.0.1-2.dsc
+ cfa084884291b3248f4a7c450d333e0b 9329 haskell-exact-pi_0.5.0.1.orig.tar.gz
+ f0090c4fcea539e49d28e189d9f3f1ca 2460 haskell-exact-pi_0.5.0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-exact-pi
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-exact-pi]
+Checksums-Sha256:
+ 12e6e3b585e0e06c29d763a45eb2b5d8ba255b367797b3c1768d82d496291379 2406 haskell-exact-pi_0.5.0.1-2.dsc
+ 5d8156ec8b044a36c2ac789b85bf65116be24304868fff472d033977ebcc1860 9329 haskell-exact-pi_0.5.0.1.orig.tar.gz
+ 48d1190bfa89a1d015a82c460443a4d20a7f94e7d1c3db0410fc7232853aad50 2460 haskell-exact-pi_0.5.0.1-2.debian.tar.xz
+Homepage: https://github.com/dmcclean/exact-pi/
+Package-List: 
+ libghc-exact-pi-dev deb haskell optional arch=any
+ libghc-exact-pi-doc deb doc optional arch=all
+ libghc-exact-pi-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-exact-pi
+Priority: optional
+Section: misc

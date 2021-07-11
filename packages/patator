@@ -1,0 +1,25 @@
+Package: patator
+Binary: patator
+Version: 0.9-3
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Hugo Lefeuvre <hle@debian.org>, Francisco Vilmar Cardoso Ruviaro <francisco.ruviaro@riseup.net>
+Build-Depends: debhelper-compat (= 13), dh-python, python3 (>= 3.3), python3-ajpy, python3-dns, python3-dnspython, python3-impacket, python3-ipy, python3-mysqldb, python3-openssl, python3-paramiko, python3-psycopg2, python3-pyasn1, python3-pycryptodome, python3-pycurl, python3-pysnmp4, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 803bc6c8da129e6aa27542cf640e4c7f 2259 patator_0.9-3.dsc
+ da6e2045a1c208cb4137bd6d9d1a7283 63343 patator_0.9.orig.tar.gz
+ 0b2eca925129144e35465207166e525e 4688 patator_0.9-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/patator
+Vcs-Git: https://salsa.debian.org/pkg-security-team/patator.git
+Checksums-Sha256:
+ 87d74ac4c4322cf2b11afde77c145e038c7670c01ca94e2555b68117700cafff 2259 patator_0.9-3.dsc
+ dfec3106e3bbab15b83135e17728e8dbb325f2697875364d99abc2ebba15fd5a 63343 patator_0.9.orig.tar.gz
+ 13ebf47f82a09d79304968e517af86b9b0fd01f7d1874a96ece8038394a1ba0c 4688 patator_0.9-3.debian.tar.xz
+Homepage: https://github.com/lanjelot/patator
+Package-List: 
+ patator deb utils optional arch=all
+Directory: pool/main/p/patator
+Priority: optional
+Section: misc

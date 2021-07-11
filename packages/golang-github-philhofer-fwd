@@ -1,0 +1,27 @@
+Package: golang-github-philhofer-fwd
+Binary: golang-github-philhofer-fwd-dev
+Version: 1.1.1-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3a6bb6c4d93e1142503c45fee735e4d8 1661 golang-github-philhofer-fwd_1.1.1-1.dsc
+ 9f50a6bcb3ba3aeedb98d4f850d56806 9790 golang-github-philhofer-fwd_1.1.1.orig.tar.gz
+ bdd231bd45302cfcd4970dc0458cac86 3156 golang-github-philhofer-fwd_1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-philhofer-fwd
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-philhofer-fwd.git
+Checksums-Sha256:
+ 7ad6120d63c47a890fd8bab9431c5520f4e61750ee6fe518727559c08a611c09 1661 golang-github-philhofer-fwd_1.1.1-1.dsc
+ f8a9e7bc2fffb117eec31666b8aa61bfb3d46e858b0b50fa90d98a6f1f0ebf18 9790 golang-github-philhofer-fwd_1.1.1.orig.tar.gz
+ f5e6f13944cf624b83d81da425bae582a59ad7d3feec13d40c7c05bcb39d6f62 3156 golang-github-philhofer-fwd_1.1.1-1.debian.tar.xz
+Homepage: https://github.com/philhofer/fwd
+Go-Import-Path: github.com/philhofer/fwd
+Package-List: 
+ golang-github-philhofer-fwd-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-philhofer-fwd
+Priority: extra
+Section: golang

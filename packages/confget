@@ -1,0 +1,31 @@
+Package: confget
+Binary: confget, python3-confget
+Version: 2.3.4-1
+Maintainer: Peter Pentchev <roam@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, libpcre3-dev
+Build-Depends-Indep: dh-sequence-python3, python3-all, python3-ddt <!nocheck>, python3-pytest <!nocheck>, python3-six <!nocheck>, python3-setuptools
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c4aa6c868ce25fc337744e03a29e6403 2552 confget_2.3.4-1.dsc
+ f5b99a72e49e57ee7f24554331cdc931 34724 confget_2.3.4.orig.tar.xz
+ b3b7ae1650b302ccb7323ad1063fee48 833 confget_2.3.4.orig.tar.xz.asc
+ ce60961655227f567756d192676f4c7c 9964 confget_2.3.4-1.debian.tar.xz
+Vcs-Browser: https://gitlab.com/confget/confget/tree/debian/master
+Vcs-Git: https://gitlab.com/confget/confget.git -b debian/master
+Checksums-Sha256:
+ 15e386ed972eda9a1b3ea6c6f13c5fde51b8d6527020919d2eaec760ca22bf10 2552 confget_2.3.4-1.dsc
+ 925262ff8319f3b80428a56a889396a13817033bf7644b259333edd4ff094d3f 34724 confget_2.3.4.orig.tar.xz
+ 5267fc95960ab505a5b4d1f0d3c39108321d1b02416394b23026cdb0d210e56e 833 confget_2.3.4.orig.tar.xz.asc
+ dae76d16af1270eb8d7b1a03b8435a416fdcfb34ab15dae7ba76cba6b9f30a05 9964 confget_2.3.4-1.debian.tar.xz
+Homepage: https://devel.ringlet.net/textproc/confget/
+Dgit: 928dafb43989cc9dc342075f3e83cda3ecbfee38 debian archive/debian/2.3.4-1 https://git.dgit.debian.org/confget
+Package-List: 
+ confget deb text optional arch=any
+ python3-confget deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: feature-check, groff-base, perl, python3-all
+Directory: pool/main/c/confget
+Priority: source
+Section: text

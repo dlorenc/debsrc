@@ -1,0 +1,28 @@
+Package: libcgi-pm-perl
+Binary: libcgi-pm-perl
+Version: 4.51-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, Ansgar Burchardt <ansgar@debian.org>, gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libhtml-parser-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-warn-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 09546a57756416e18a7019e81c56b31b 2468 libcgi-pm-perl_4.51-1.dsc
+ 87b6cf5bc68739c9310ca501adad998e 205366 libcgi-pm-perl_4.51.orig.tar.gz
+ ee561d8cb066a25b8cbcf4dc9fbca6c4 10344 libcgi-pm-perl_4.51-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcgi-pm-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcgi-pm-perl.git
+Checksums-Sha256:
+ 1b3eca894fdebfa6e497f5146608cf5cba31728277c94e3419492ca9b0cb17c4 2468 libcgi-pm-perl_4.51-1.dsc
+ 0bd215e7012f9f52e6a7d3fe695ee30ef959d796e8e53472fa0ed8c53fba600a 205366 libcgi-pm-perl_4.51.orig.tar.gz
+ 953050484881ef5a90c2877c70ae0cb2c4e16bdeef898b97ce4530ce21568b5b 10344 libcgi-pm-perl_4.51-1.debian.tar.xz
+Homepage: https://metacpan.org/release/CGI
+Dgit: 79831f474eeaec008b6978a272ff8c53f5ede13c debian archive/debian/4.51-1 https://git.dgit.debian.org/libcgi-pm-perl
+Package-List: 
+ libcgi-pm-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcgi-pm-perl
+Priority: source
+Section: perl

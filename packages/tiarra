@@ -1,0 +1,27 @@
+Package: tiarra
+Binary: tiarra, tiarra-conf-el
+Version: 20100212+r39209-9
+Maintainer: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper-compat (= 13), perl (>= 5.6.0)
+Build-Depends-Indep: libhtml-template-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8448c0c5cbccc71c16c10676a90105d2 2027 tiarra_20100212+r39209-9.dsc
+ c82b39e081b53e49398a37d3773317f0 373036 tiarra_20100212+r39209.orig.tar.xz
+ 0c9849fdde8bf135a1f425f9439f66b0 8456 tiarra_20100212+r39209-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/tiarra
+Vcs-Git: https://salsa.debian.org/debian/tiarra.git
+Checksums-Sha256:
+ d5ac5ca1926e6eed2dfc977976d9825419d02be985b2522a614c269738b45347 2027 tiarra_20100212+r39209-9.dsc
+ d0c0464fcacba42a3546660c026c764565dc3cd9a33ab378b0fe2f1392283679 373036 tiarra_20100212+r39209.orig.tar.xz
+ 9b99feb9894ba6d2e11d8d143691cab9f53342bd510f1376258f36fd88546aff 8456 tiarra_20100212+r39209-9.debian.tar.xz
+Homepage: https://www.clovery.jp/tiarra/
+Package-List: 
+ tiarra deb net optional arch=all
+ tiarra-conf-el deb lisp optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/t/tiarra
+Priority: source
+Section: misc

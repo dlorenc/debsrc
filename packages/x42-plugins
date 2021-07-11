@@ -1,0 +1,26 @@
+Package: x42-plugins
+Binary: x42-plugins
+Version: 20210114-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Dennis Braun <d_braun@kabelmail.de>, Jaromír Mikeš <mira.mikes@seznam.cz>, Robin Gareus <robin@gareus.org>, Ross Gammon <rossgammon@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, libjack-dev, libftgl-dev, lv2-dev (>= 1.4.2~), libzita-convolver-dev, libsndfile1-dev, libsamplerate0-dev, fonts-freefont-ttf, libcairo2-dev (>= 1.12.10~), libpango1.0-dev (>= 1.32.6~), libpixman-1-dev (>= 0.30.2~), libpugl-dev, libltc-dev, liblo-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2811d5309ecf4eff3d86ab3fea01c089 2404 x42-plugins_20210114-1.dsc
+ 18cdd4077d91a6f3d14e0bfde2482a77 3384452 x42-plugins_20210114.orig.tar.xz
+ c4bbf39ab4da4fe4c5f55517b910631d 6208 x42-plugins_20210114-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/x42-plugins
+Vcs-Git: https://salsa.debian.org/multimedia-team/x42-plugins.git
+Checksums-Sha256:
+ ab8b4a45437cd63ee1866e470bf2736a66e2ca1833551feffe86e7e18123b410 2404 x42-plugins_20210114-1.dsc
+ c54880fe4e596c8fd2918f1adb416cc91c2a3f1c4cb5e88574484517ff1ed8e0 3384452 x42-plugins_20210114.orig.tar.xz
+ 7f7612fa9f37f5faf9d3e57c0988cb02ad2cada496ddbe8c28bdf76cc1ac0fb1 6208 x42-plugins_20210114-1.debian.tar.xz
+Homepage: https://github.com/x42/x42-plugins
+Package-List: 
+ x42-plugins deb sound optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/x/x42-plugins
+Priority: optional
+Section: misc

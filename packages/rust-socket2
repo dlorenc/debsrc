@@ -1,0 +1,27 @@
+Package: rust-socket2
+Binary: librust-socket2-dev
+Version: 0.3.19-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-1+default-dev <!nocheck>, librust-libc-0.2+align-dev (>= 0.2.66-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.66-~~) <!nocheck>, librust-winapi-0.3+default-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+handleapi-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+minwindef-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+ws2def-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+ws2ipdef-dev (>= 0.3.3-~~) <!nocheck>, librust-winapi-0.3+ws2tcpip-dev (>= 0.3.3-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 2b2bfa9b1cb53da231e9b463f6a62aac 2742 rust-socket2_0.3.19-2.dsc
+ eb856691e9d7a2321a31ef22decaae0d 33782 rust-socket2_0.3.19.orig.tar.gz
+ 66d4aaa6f4cc43a2900df42e295db729 3088 rust-socket2_0.3.19-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/socket2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/socket2]
+Checksums-Sha256:
+ b54a1e5b7bc13bbbdc8a4ff9315de0390c0200cef231113a2024806ad5a794e1 2742 rust-socket2_0.3.19-2.dsc
+ 122e570113d28d773067fab24266b66753f6ea915758651696b6e35e49f88d6e 33782 rust-socket2_0.3.19.orig.tar.gz
+ e8a52338d844604e9feab0a8805b2487749af50772cfad31dc1b6587e56ee6ba 3088 rust-socket2_0.3.19-2.debian.tar.xz
+Homepage: https://github.com/alexcrichton/socket2-rs
+Package-List: 
+ librust-socket2-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-socket2
+Priority: extra
+Section: misc

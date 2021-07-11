@@ -1,0 +1,27 @@
+Package: python-canonicaljson
+Binary: python3-canonicaljson
+Version: 1.4.0-1
+Maintainer: Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools (>= 0.6.24), python3-frozendict (>= 0.4), python3-simplejson (>= 3.14)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 2d44d239a8be7dba0a980c550f142fbe 1995 python-canonicaljson_1.4.0-1.dsc
+ 2ed56bbdb94455d4ab53aa93d8dd5951 11135 python-canonicaljson_1.4.0.orig.tar.gz
+ da8c67dad97c7a7715697b6e629a1cd3 2320 python-canonicaljson_1.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/matrix-team/python-canonicaljson
+Vcs-Git: https://salsa.debian.org/matrix-team/python-canonicaljson.git
+Checksums-Sha256:
+ 2db60ad88286c5ff4d50eb43f17d41b827051a32067296b5fd50d790aa44a1b0 1995 python-canonicaljson_1.4.0-1.dsc
+ f6d05222afdff5bc4c5e82318ab75656d1402074376a410b32ff22171090632e 11135 python-canonicaljson_1.4.0.orig.tar.gz
+ c6e1d523863e35e132c6a782e4c9a9c4d1d7f0e929e1f6904f728f2f0249f021 2320 python-canonicaljson_1.4.0-1.debian.tar.xz
+Homepage: https://github.com/matrix-org/python-canonicaljson
+Dgit: e35826db93e3f414ea81159073930a4396bb6051 debian archive/debian/1.4.0-1 https://git.dgit.debian.org/python-canonicaljson
+Package-List: 
+ python3-canonicaljson deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-canonicaljson
+Priority: optional
+Section: misc

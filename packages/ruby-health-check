@@ -1,0 +1,27 @@
+Package: ruby-health-check
+Binary: ruby-health-check
+Version: 3.0.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, rake, ruby-rails (>= 2.3.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 934b46f5f3432f44075ae0bee2573df7 2103 ruby-health-check_3.0.0-1.dsc
+ bf2eee1a72c9c215cd4bb5b7ebced79d 25268 ruby-health-check_3.0.0.orig.tar.gz
+ 8c9aa80d8e5f89426475ce4e4e57a8b1 2288 ruby-health-check_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-health-check
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-health-check.git
+Checksums-Sha256:
+ 93781cf924d9a3daf05b9ea2d09f73334ee1ea8a766f9d213dab229b9b21fc06 2103 ruby-health-check_3.0.0-1.dsc
+ 69f332fa273817ab281cea59a19dadb447d24b843942d67a33233dfeab19d0aa 25268 ruby-health-check_3.0.0.orig.tar.gz
+ 03414917156ab3c0f993ecce1bac5bb3ce89e9589e80a0b398b39afb9610af02 2288 ruby-health-check_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/ianheggie/health_check
+Package-List: 
+ ruby-health-check deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-health-check
+Priority: optional
+Section: misc

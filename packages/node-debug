@@ -1,0 +1,29 @@
+Package: node-debug
+Binary: node-debug, libjs-debug
+Version: 4.3.1+~cs4.1.5-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>, Leo Iannacone <l3on@ubuntu.com>, Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha (>= 4) <!nocheck>, node-ms <!nocheck>, nodejs (>= 6)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 17ba30881b1849ab71a8cf4856190d2b 2550 node-debug_4.3.1+~cs4.1.5-1.dsc
+ f18778a0c37f2d1d956d20af4b0d62f8 1960 node-debug_4.3.1+~cs4.1.5.orig-typesdebug.tar.gz
+ 1782f5e45c10c34a82c6891e08c78787 14984 node-debug_4.3.1+~cs4.1.5.orig.tar.gz
+ 9b1c30f7cc4fa474b7405344bcb5f206 4440 node-debug_4.3.1+~cs4.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-debug
+Vcs-Git: https://salsa.debian.org/js-team/node-debug.git
+Checksums-Sha256:
+ fbdbd8ce9ac4f1081bb6a8cb88c91f88f07884288f1211d464dc92aace2b5d79 2550 node-debug_4.3.1+~cs4.1.5-1.dsc
+ 0e297ffcbe469f1c1607545011deda79e1db4d394a6e77c33ea939d4e3d78d87 1960 node-debug_4.3.1+~cs4.1.5.orig-typesdebug.tar.gz
+ d65db17f99b855ce6e3a25f515ed7dd9f863f6c093fe050491e826257a0bdc43 14984 node-debug_4.3.1+~cs4.1.5.orig.tar.gz
+ b82eb44452c1dcab12774f39690739ab68ffd9196464fd7f994068869e49014f 4440 node-debug_4.3.1+~cs4.1.5-1.debian.tar.xz
+Homepage: https://github.com/visionmedia/debug
+Package-List: 
+ libjs-debug deb javascript optional arch=all
+ node-debug deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-debug
+Priority: source
+Section: javascript

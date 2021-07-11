@@ -1,0 +1,27 @@
+Package: libdfp
+Binary: libdfp-dev, libdfp1
+Version: 1.0.15-2
+Maintainer: Frédéric Bonnard <frediz@debian.org>
+Uploaders: Matthias Klose <doko@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), gawk, python3
+Architecture: amd64 i386 s390x powerpc ppc64 ppc64el
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 74bd45dbe803f989d46508410df4bb5f 2171 libdfp_1.0.15-2.dsc
+ f13b5823450dac31afdedcddd1d247ac 2032216 libdfp_1.0.15.orig.tar.xz
+ 9b747b30aa9565746a6fe51c1962abdd 7692 libdfp_1.0.15-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libdfp
+Vcs-Git: https://salsa.debian.org/debian/libdfp.git
+Checksums-Sha256:
+ af07a30c943057da24533ea654a756e874a56ba063074972f828d214c13d86c6 2171 libdfp_1.0.15-2.dsc
+ 63d982aa1ab6fb928cfbda5f8c7402e98d191ff24daf1288ace9f1980fcec800 2032216 libdfp_1.0.15.orig.tar.xz
+ fcb727956743c0eb300d262df7663cb09417078b4194cd85d0eb03fcf3ea5420 7692 libdfp_1.0.15-2.debian.tar.xz
+Homepage: https://github.com/libdfp/libdfp
+Dgit: 027bd3e0f566d8c06fbb90ecb2f4c3e8396c7fdc debian archive/debian/1.0.15-2 https://git.dgit.debian.org/libdfp
+Package-List: 
+ libdfp-dev deb libdevel optional arch=amd64,i386,s390x,powerpc,ppc64,ppc64el
+ libdfp1 deb libs optional arch=amd64,i386,s390x,powerpc,ppc64,ppc64el
+Directory: pool/main/libd/libdfp
+Priority: optional
+Section: misc

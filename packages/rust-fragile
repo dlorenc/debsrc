@@ -1,0 +1,25 @@
+Package: rust-fragile
+Binary: librust-fragile-dev
+Version: 0.3.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 0cd7bf0201bcae96f5c24bc583b7aae3 2113 rust-fragile_0.3.0-1.dsc
+ ed234bb08caea985d7984a1113b1a852 10203 rust-fragile_0.3.0.orig.tar.gz
+ 4aff12573419746b027aae9d3e637f75 1748 rust-fragile_0.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fragile
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fragile]
+Checksums-Sha256:
+ b61129df3a923239cd01f7ee5af459498564686308a22e174516ae6ae496067c 2113 rust-fragile_0.3.0-1.dsc
+ 05f8140122fa0d5dcb9fc8627cfce2b37cc1500f752636d46ea28bc26785c2f9 10203 rust-fragile_0.3.0.orig.tar.gz
+ 9e565349ad6bc3bec61e4251719196d8750e6043b0fbe234c54f0c9dd0af4fb8 1748 rust-fragile_0.3.0-1.debian.tar.xz
+Homepage: https://github.com/mitsuhiko/rust-fragile
+Package-List: 
+ librust-fragile-dev deb rust optional arch=any
+Directory: pool/main/r/rust-fragile
+Priority: extra
+Section: misc

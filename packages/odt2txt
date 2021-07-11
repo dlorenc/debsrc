@@ -1,0 +1,26 @@
+Package: odt2txt
+Binary: odt2txt
+Version: 0.5-7
+Maintainer: Luis Paulo Linares <lpfllinares@gmail.com>
+Build-Depends: debhelper-compat (= 13), libzip-dev, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9807f66e115dac2c23b6470b9d999dfa 1892 odt2txt_0.5-7.dsc
+ 8154dc7f2909dad6939d209695e62379 24460 odt2txt_0.5.orig.tar.gz
+ b130d6c83284691299e8856d056231ca 12408 odt2txt_0.5-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/odt2txt
+Vcs-Git: https://salsa.debian.org/debian/odt2txt.git
+Checksums-Sha256:
+ f6939fddd6359c9728cc08194137f88cfee5258efa398352fb3fa96cf10071a9 1892 odt2txt_0.5-7.dsc
+ 23a889109ca9087a719c638758f14cc3b867a5dcf30a6c90bf6a0985073556dd 24460 odt2txt_0.5.orig.tar.gz
+ 60be38a397e415c35573a7586a184530a7aa1960695cf900e9f0201835ca4f6e 12408 odt2txt_0.5-7.debian.tar.xz
+Homepage: https://github.com/dstosberg/odt2txt/
+Package-List: 
+ odt2txt deb text optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: file
+Directory: pool/main/o/odt2txt
+Priority: source
+Section: text

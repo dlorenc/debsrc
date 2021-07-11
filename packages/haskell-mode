@@ -1,0 +1,27 @@
+Package: haskell-mode
+Binary: elpa-haskell-mode, haskell-mode
+Version: 17.2-3
+Maintainer: Debian Emacsen Team <debian-emacsen@lists.debian.org>
+Uploaders: Barak A. Pearlmutter <bap@debian.org>, Thomas Koch <thomas@koch.ro>
+Build-Depends: cabal-install, debhelper-compat (= 12), dh-elpa, ghc, haskell-stack, install-info, emacs | emacs25 | emacs24 | emacs-snapshot, texinfo
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f5b310570ea5160ab0c356918ecf48ce 2188 haskell-mode_17.2-3.dsc
+ f9b98e4ea18e4f488ce31502008c9d32 1144963 haskell-mode_17.2.orig.tar.gz
+ b79379b1d2b28f15cbf138780e996d53 6780 haskell-mode_17.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/haskell-mode
+Vcs-Git: https://salsa.debian.org/emacsen-team/haskell-mode.git
+Checksums-Sha256:
+ 0a441ba4f59e2a1883d79d1466bef0a2c2d03e6bbdf499a8a0f45178d12c0ecc 2188 haskell-mode_17.2-3.dsc
+ 2cd6a872c75a94ee129aab83e5c14536eba09c30afd728c79323f52a59411dbe 1144963 haskell-mode_17.2.orig.tar.gz
+ 9392c1925d1909c653417af757967299f2c1569f449a17e8d60397b7da6d3717 6780 haskell-mode_17.2-3.debian.tar.xz
+Homepage: https://github.com/haskell/haskell-mode
+Package-List: 
+ elpa-haskell-mode deb lisp optional arch=all
+ haskell-mode deb oldlibs optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/h/haskell-mode
+Priority: source
+Section: haskell

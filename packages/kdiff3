@@ -1,0 +1,29 @@
+Package: kdiff3
+Binary: kdiff3, kdiff3-qt, kdiff3-doc
+Version: 1.8.5-1
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Eike Sauer <eike@debian.org>, Pino Toscano <pino@debian.org>,
+Build-Depends: debhelper-compat (= 13), pkg-kde-tools, gettext, cmake (>= 3.1~), extra-cmake-modules (>= 5.10.0~), qtbase5-dev (>= 5.6.0~), libkf5config-dev (>= 5.27.0~), libkf5coreaddons-dev (>= 5.27.0~), libkf5crash-dev (>= 5.27.0~), libkf5doctools-dev (>= 5.27.0~), libkf5iconthemes-dev (>= 5.27.0~), libkf5i18n-dev (>= 5.27.0~), libkf5kio-dev (>= 5.27.0~), libkf5parts-dev (>= 5.27.0~), libkf5widgetsaddons-dev (>= 5.27.0~)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c6e7c2d321d4af3b067282ff7a26c732 2677 kdiff3_1.8.5-1.dsc
+ 4b65807c260a162bc56ccf82da0312aa 1045812 kdiff3_1.8.5.orig.tar.xz
+ 311814551892995d5c22f79b38177f9d 833 kdiff3_1.8.5.orig.tar.xz.asc
+ 3bf9914d5b4a55b0fc8a5cfa1047c2f4 8804 kdiff3_1.8.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/kdiff3
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/kdiff3.git
+Checksums-Sha256:
+ 5497a58a347941e7f2780352b22c5b0dd1ba5b475bb81012040b0244f1fa6196 2677 kdiff3_1.8.5-1.dsc
+ bc92f7d04eb123f9c56dbe3047af67bf715240fa99487ac1d1ccf2a45e0854c1 1045812 kdiff3_1.8.5.orig.tar.xz
+ 897931c2c8d3a3a7379636a39ee9b50b41b2b75f0c96b9cb29aaa6aa3346f978 833 kdiff3_1.8.5.orig.tar.xz.asc
+ b078a335f162554731b63bfbd5c25eac40718a0697b1b62758ea9cd66e6c2da4 8804 kdiff3_1.8.5-1.debian.tar.xz
+Homepage: https://kde.org/applications/development/kdiff3
+Package-List: 
+ kdiff3 deb kde optional arch=any
+ kdiff3-doc deb doc optional arch=all
+ kdiff3-qt deb oldlibs optional arch=all
+Directory: pool/main/k/kdiff3
+Priority: source
+Section: kde

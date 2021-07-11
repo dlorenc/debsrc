@@ -1,0 +1,27 @@
+Package: cpan-listchanges
+Binary: cpan-listchanges
+Version: 0.08-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <x.guimard@free.fr>
+Build-Depends: debhelper (>= 10), libmodule-build-perl
+Build-Depends-Indep: libalgorithm-diff-perl, libcpan-distnameinfo-perl, libtest-requires-perl, libtry-tiny-perl, libwww-perl, libyaml-perl, perl
+Architecture: all
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c1c0b5c509016834a14de90f693039ae 2350 cpan-listchanges_0.08-1.dsc
+ 4254cb4256dccf6d24890326dd9631dc 11096 cpan-listchanges_0.08.orig.tar.gz
+ ccccbce208478a56ea8de484adc82e65 2400 cpan-listchanges_0.08-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/cpan-listchanges
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/cpan-listchanges.git
+Checksums-Sha256:
+ e97a2c00544064ef40605c49dacd8527806ffa592f9faf99bd0848779ce91cae 2350 cpan-listchanges_0.08-1.dsc
+ 70d3b77bede25cbf4368a9abe3e78ae4e5bb3aebddd3cce4fd3539df76ebf9ea 11096 cpan-listchanges_0.08.orig.tar.gz
+ 78b5eb4db92c5ca4945e41c86a9f3fee450172e20972dcdb1ef7d41f1d77a7b7 2400 cpan-listchanges_0.08-1.debian.tar.xz
+Homepage: https://metacpan.org/release/cpan-listchanges
+Package-List: 
+ cpan-listchanges deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/c/cpan-listchanges
+Priority: source
+Section: perl

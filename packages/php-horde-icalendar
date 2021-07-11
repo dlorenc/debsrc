@@ -1,0 +1,27 @@
+Package: php-horde-icalendar
+Binary: php-horde-icalendar
+Version: 2.1.8-5
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 01a98b8232c136cb7ec3d069e20ce362 2178 php-horde-icalendar_2.1.8-5.dsc
+ 9e641a10ad201baf18f506366bf490c5 108647 php-horde-icalendar_2.1.8.orig.tar.gz
+ 7112cad694ac246808fc738713242ec4 4040 php-horde-icalendar_2.1.8-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-icalendar
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-icalendar.git
+Checksums-Sha256:
+ d9a795a322b7a48053bc98c525762b559bdc8e2b063931cf1e87f0f517b97682 2178 php-horde-icalendar_2.1.8-5.dsc
+ 00fc5df67c51007878a127f8cb417051d126e5e1ebce0cd14bccc2e503b3f281 108647 php-horde-icalendar_2.1.8.orig.tar.gz
+ dcc088a764f8617daf6f2391012dc44fd11442474f7348117b0611d9597a4a11 4040 php-horde-icalendar_2.1.8-5.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-icalendar deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-icalendar
+Priority: extra
+Section: misc

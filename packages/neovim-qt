@@ -1,0 +1,26 @@
+Package: neovim-qt
+Binary: neovim-qt
+Version: 0.2.16-1
+Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Uploaders: Jason Pleau <jason@jpleau.ca>, James McCoy <jamessan@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, help2man, libmsgpack-dev (>= 1.4.0-2), libqt5svg5-dev, neovim, ninja-build, python3-jinja2, python3-msgpack, qtbase5-dev, xauth, neovim (>= 0.3.2) | xclip, xvfb
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 756060c9c036efe475b963ba9efc0526 2395 neovim-qt_0.2.16-1.dsc
+ 921a72e35c1e47b58beea71dce6101c4 1068710 neovim-qt_0.2.16.orig.tar.gz
+ ef7ed372574820388275d31bdafef9ef 12496 neovim-qt_0.2.16-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/vim-team/neovim-qt
+Vcs-Git: https://salsa.debian.org/vim-team/neovim-qt.git
+Checksums-Sha256:
+ 23dd216fa4dc775cd332ed5d13e5ea0c424d7bbbce4fabc029b1a22e20821b73 2395 neovim-qt_0.2.16-1.dsc
+ fc1244e0b667688c684e540b6c09aa14a62cc441e4b4e7f742ed61cdf94937d6 1068710 neovim-qt_0.2.16.orig.tar.gz
+ cf197d900b03fb47af990527fa61d5972796c4f4852949838b4a6a8f52dd39aa 12496 neovim-qt_0.2.16-1.debian.tar.xz
+Homepage: https://github.com/equalsraf/neovim-qt
+Dgit: 22028ac654b2a48571f6dc1577c7850e0f7dabc6 debian archive/debian/0.2.16-1 https://git.dgit.debian.org/neovim-qt
+Package-List: 
+ neovim-qt deb editors optional arch=any
+Directory: pool/main/n/neovim-qt
+Priority: optional
+Section: misc

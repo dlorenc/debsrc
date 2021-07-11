@@ -1,0 +1,25 @@
+Package: rust-process-viewer
+Binary: process-viewer
+Version: 0.2.6-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native, rustc:native, libstd-rust-dev, librust-cairo-rs-0.7+default-dev, librust-gdk-0.11+default-dev, librust-gdk-pixbuf-0.7+default-dev, librust-gio-0.7+default-dev, librust-glib-0.8+default-dev, librust-gtk-0.7+default-dev, librust-libc-0.2+default-dev, librust-pango-0.7+default-dev, librust-serde-1+default-dev, librust-serde-derive-1+default-dev, librust-sysinfo-0.13+default-dev, librust-toml-0.5+default-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bd6469bc17041133df32278052da6f7b 2519 rust-process-viewer_0.2.6-2.dsc
+ 99ca7fad58afee03611293ba46dafea9 80853 rust-process-viewer_0.2.6.orig.tar.gz
+ cce33ded94792d1b83fffd99b8af8403 6080 rust-process-viewer_0.2.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/process-viewer
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/process-viewer]
+Checksums-Sha256:
+ e93bb7d6e688496ccbd8e79355f674716f48658522e613640bcc47265f546125 2519 rust-process-viewer_0.2.6-2.dsc
+ bb52ee52aea02a8b909e42426c5d48097b10917377c7a4391f41ce85dbb5aa49 80853 rust-process-viewer_0.2.6.orig.tar.gz
+ ae64e1a4b9265cd3a64d4f9fdeac941cecf50942d86f39021b9066f255f3284f 6080 rust-process-viewer_0.2.6-2.debian.tar.xz
+Homepage: https://github.com/GuillaumeGomez/process-viewer
+Package-List: 
+ process-viewer deb utils optional arch=any
+Directory: pool/main/r/rust-process-viewer
+Priority: extra
+Section: misc

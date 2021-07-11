@@ -1,0 +1,26 @@
+Package: kore
+Binary: kore
+Version: 4.1.0-3
+Maintainer: Shih-Yuan Lee (FourDollars) <fourdollars@debian.org>
+Build-Depends: debhelper-compat (= 12), libssl-dev, libpq-dev
+Architecture: amd64 armhf armel arm64
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bff633c95a1501f4b5703794a3470e70 1937 kore_4.1.0-3.dsc
+ 2145cab5be1d9d1b62c7728a4e8c63d3 1068382 kore_4.1.0.orig.tar.gz
+ 1ca539ada63e534b013068b2339e22fd 6628 kore_4.1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/kore
+Vcs-Git: https://salsa.debian.org/debian/kore.git
+Checksums-Sha256:
+ 4ac199d11cd361208b47c923931dcac8e95242946d16cb8ad76919e034226b65 1937 kore_4.1.0-3.dsc
+ b7d73b005fde0ea01c356a54e4bbd8a209a4dff9cf315802a127ce7267efbe61 1068382 kore_4.1.0.orig.tar.gz
+ 05306060a8103c1b30594fa0402f3b075355aabb13de14d4d2ec5c5b74754795 6628 kore_4.1.0-3.debian.tar.xz
+Homepage: https://kore.io
+Package-List: 
+ kore deb httpd optional arch=amd64,armhf,armel,arm64
+Testsuite: autopkgtest
+Testsuite-Triggers: clang, gcc, wget
+Directory: pool/main/k/kore
+Priority: optional
+Section: misc

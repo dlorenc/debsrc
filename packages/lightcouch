@@ -1,0 +1,26 @@
+Package: lightcouch
+Binary: liblightcouch-java
+Version: 0.0.6-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5)
+Build-Depends-Indep: libgoogle-gson-java, libhttpclient-java
+Architecture: all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ d6de6e970925caeaa141a977dc23e92f 2060 lightcouch_0.0.6-1.1.dsc
+ 995bc7b9a396a67f6953d0f0886560aa 46489 lightcouch_0.0.6.orig.tar.gz
+ e446a9e4458d7d65ffe1adcfc93bc10d 2852 lightcouch_0.0.6-1.1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-java/lightcouch.git
+Vcs-Git: git://anonscm.debian.org/pkg-java/lightcouch.git
+Checksums-Sha256:
+ 9a77acfa7472173cc9723be00cdd5d3282905ff5e02eccb37a659beea62b3279 2060 lightcouch_0.0.6-1.1.dsc
+ 9897b5b5acd1e64d82c08770da8009006466702c85f15b35aaf4784425a4daa6 46489 lightcouch_0.0.6.orig.tar.gz
+ b5511e281ab159c8449f2dade3389081898f14209a5ba89c15f64473b6d6814e 2852 lightcouch_0.0.6-1.1.debian.tar.xz
+Homepage: http://www.lightcouch.org
+Package-List: 
+ liblightcouch-java deb java optional arch=all
+Directory: pool/main/l/lightcouch
+Priority: optional
+Section: misc

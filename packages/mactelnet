@@ -1,0 +1,25 @@
+Package: mactelnet
+Binary: mactelnet-client, mactelnet-server
+Version: 0.4.4-4
+Maintainer: Håkon Nessjøen <haakon.nessjoen@gmail.com>
+Build-Depends: debhelper (>= 9), autoconf (>= 2.68~), automake (>= 1.1), dh-autoreconf (>= 10)
+Architecture: linux-any kfreebsd-any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ d3e1d87b9dcfe07c4a04239aee31f4b2 2042 mactelnet_0.4.4-4.dsc
+ 0b8827c6aeee2daeb8fc4e3147567d6f 231408 mactelnet_0.4.4.orig.tar.gz
+ 9ab080cbed65fc9c6109049cf1d5b69b 6804 mactelnet_0.4.4-4.debian.tar.xz
+Vcs-Browser: https://github.com/haakonnessjoen/MACTelnet-Debian-Packaging
+Vcs-Git: https://github.com/haakonnessjoen/MACTelnet-Debian-Packaging.git
+Checksums-Sha256:
+ 2e5ac3d898f5b56c802c5110321494fd908f15c810d22e0d5520e8e636a3a0f0 2042 mactelnet_0.4.4-4.dsc
+ 5317847045d1cdc33f4b210ebc70b2bdd1755a860edbaeffff52ef94693c846e 231408 mactelnet_0.4.4.orig.tar.gz
+ ffb3fed47debf4b21556503252feab4407d9b9e5a0451a41381a3268dfc87543 6804 mactelnet_0.4.4-4.debian.tar.xz
+Homepage: https://github.com/haakonnessjoen/MAC-Telnet/
+Package-List: 
+ mactelnet-client deb net extra arch=linux-any,kfreebsd-any
+ mactelnet-server deb net extra arch=linux-any,kfreebsd-any
+Directory: pool/main/m/mactelnet
+Priority: source
+Section: net

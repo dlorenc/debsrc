@@ -1,0 +1,26 @@
+Package: aggdraw
+Binary: python3-aggdraw
+Version: 1.3.12-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Build-Depends: debhelper-compat (= 12), dh-python, libfreetype6-dev, python3-all-dev, python3-setuptools, python3-numpy, python3-pil, python3-pkgconfig, python3-pytest
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 96ed87dd99d05bda7964aedd78219bea 2103 aggdraw_1.3.12-1.dsc
+ 3500e8ced678de37bc66261fa6f1119d 272220 aggdraw_1.3.12.orig.tar.gz
+ 554026ac120ba1588a0c1ba8e7864680 3444 aggdraw_1.3.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/aggdraw
+Vcs-Git: https://salsa.debian.org/debian-gis-team/aggdraw.git
+Checksums-Sha256:
+ 15b7c4bc88c54f030d55ce500491ae5894ee4d489d8fff1406cf7414611ba628 2103 aggdraw_1.3.12-1.dsc
+ 60533690b9d8593077e3d79910a717f240e3fb7ecf71afc5016fac2da9546191 272220 aggdraw_1.3.12.orig.tar.gz
+ 1eb342aa48ac32adcde049b54cdfaad4c0d0902a26cdf3529fec2d73174f3255 3444 aggdraw_1.3.12-1.debian.tar.xz
+Homepage: https://github.com/pytroll/aggdraw
+Package-List: 
+ python3-aggdraw deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/a/aggdraw
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: libdazzle
+Binary: libdazzle-1.0-0, libdazzle-1.0-dev, libdazzle-doc, libdazzle-tools, gir1.2-dazzle-1.0
+Version: 3.38.0-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>
+Build-Depends: at-spi2-core <!nocheck>, dbus <!nocheck>, debhelper-compat (= 12), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools, libgirepository1.0-dev, libglib2.0-dev (>= 2.56.0), libgtk-3-dev (>= 3.24), meson (>= 0.50), wamerican <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>, valac
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f2e005d37f34c8fa1ecd28fc8fb44fb8 2495 libdazzle_3.38.0-1.dsc
+ 7dee045bef026ff26af9b16f8252936b 447304 libdazzle_3.38.0.orig.tar.xz
+ ced7f7c4d04034c517b6e10e6f107b3d 10272 libdazzle_3.38.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/libdazzle
+Vcs-Git: https://salsa.debian.org/gnome-team/libdazzle.git
+Checksums-Sha256:
+ a12465b4ea6214d516b82ebec2dc35b6e234c68f54d65f361aa4140826477689 2495 libdazzle_3.38.0-1.dsc
+ e18af28217943bcec106585298a91ec3da48aa3ad62fd0992f23f0c70cd1678f 447304 libdazzle_3.38.0.orig.tar.xz
+ b5a1860397a9d60ff3a8c4d461b654ce05a712ee8148c4342ab69b466761f523 10272 libdazzle_3.38.0-1.debian.tar.xz
+Homepage: https://gitlab.gnome.org/GNOME/libdazzle
+Package-List: 
+ gir1.2-dazzle-1.0 deb introspection optional arch=any
+ libdazzle-1.0-0 deb libs optional arch=any
+ libdazzle-1.0-dev deb libdevel optional arch=any
+ libdazzle-doc deb doc optional arch=all
+ libdazzle-tools deb libs optional arch=any
+Directory: pool/main/libd/libdazzle
+Priority: extra
+Section: misc

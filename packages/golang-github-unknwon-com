@@ -1,0 +1,27 @@
+Package: golang-github-unknwon-com
+Binary: golang-github-unknwon-com-dev
+Version: 1+git20170819.7677a1d-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-go, golang-github-smartystreets-goconvey-dev
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 624f2ff5b7aae1277b5d9b43714a461b 2399 golang-github-unknwon-com_1+git20170819.7677a1d-2.dsc
+ c8a95cf5a6c982408a203cc92658ad31 18016 golang-github-unknwon-com_1+git20170819.7677a1d.orig.tar.xz
+ b5fe37633de1835b352311808eb4a9ea 2804 golang-github-unknwon-com_1+git20170819.7677a1d-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-unknwon-com
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-unknwon-com.git
+Checksums-Sha256:
+ ae0681e5dee532efd00cc1797ac440add23797352b15f0ee8398f99927c7b51b 2399 golang-github-unknwon-com_1+git20170819.7677a1d-2.dsc
+ 2a0ae83f9f2d750d324e54380013f252bc91c7b640a88120cbf4d06bb9ccb622 18016 golang-github-unknwon-com_1+git20170819.7677a1d.orig.tar.xz
+ 22fee68578a5c0a9662f62df73ba4b98b885f80fb1d2f9f364d5e4fe2ac3743f 2804 golang-github-unknwon-com_1+git20170819.7677a1d-2.debian.tar.xz
+Homepage: https://github.com/Unknwon/com
+Go-Import-Path: github.com/Unknwon/com
+Package-List: 
+ golang-github-unknwon-com-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-unknwon-com
+Priority: extra
+Section: golang

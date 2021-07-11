@@ -1,0 +1,27 @@
+Package: octave-msh
+Binary: octave-msh
+Version: 1.0.10-11
+Maintainer: Debian Octave Group <team+pkg-octave-team@tracker.debian.org>
+Uploaders: Thomas Weber <tweber@debian.org>, Rafael Laboissière <rafael@debian.org>, Sébastien Villemot <sebastien@debian.org>, Mike Miller <mtmiller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-octave (>= 0.7.1), gmsh, libhdf5-openmpi-dev, liboctave-dev (>= 3.6.2-5), openssh-client
+Build-Conflicts: libdolfin-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f570e73b736c5346fc1f3972b61194a8 2219 octave-msh_1.0.10-11.dsc
+ a7cddc41148d8456b46bc84f98284629 71019 octave-msh_1.0.10.orig.tar.gz
+ 4e8fa6fac76736371244f8c15c09bcc4 6388 octave-msh_1.0.10-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-octave-team/octave-msh
+Vcs-Git: https://salsa.debian.org/pkg-octave-team/octave-msh.git
+Checksums-Sha256:
+ 8b416740f04fc756e585ec5a93a56d7d0528553b99f9a0d747cd49cfa560ffd9 2219 octave-msh_1.0.10-11.dsc
+ dfbdd5bdef17b3f5b2bdda0f82143bc5370a062168a796ff6281079f6ec665d5 71019 octave-msh_1.0.10.orig.tar.gz
+ 4835fb058e24f1bc7194413af90f2044dc3511d0d68716b1373d1018a0d09655 6388 octave-msh_1.0.10-11.debian.tar.xz
+Homepage: https://octave.sourceforge.io/msh/
+Package-List: 
+ octave-msh deb math optional arch=any
+Testsuite: autopkgtest-pkg-octave
+Directory: pool/main/o/octave-msh
+Priority: source
+Section: misc

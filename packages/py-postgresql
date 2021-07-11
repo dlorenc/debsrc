@@ -1,0 +1,26 @@
+Package: py-postgresql
+Binary: python3-postgresql
+Version: 1.2.1+git20180803.ef7b9a9-2
+Maintainer: Debian Python Modules Team <team+python-modules@tracker.debian.org>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>, William Grzybowski <william@grzy.org>
+Build-Depends: debhelper-compat (= 12), dh-python, libpq-dev, python3-all-dev, python3-setuptools, python3-sphinx
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6135cfd53aaee47570d82012a199e279 2315 py-postgresql_1.2.1+git20180803.ef7b9a9-2.dsc
+ 795ac16a63f11448f413ff3caee062ea 265551 py-postgresql_1.2.1+git20180803.ef7b9a9.orig.tar.gz
+ f03c2d2fd7a93a8ae6d8b5ca317f6f74 5352 py-postgresql_1.2.1+git20180803.ef7b9a9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/py-postgresql
+Vcs-Git: https://salsa.debian.org/python-team/modules/py-postgresql.git
+Checksums-Sha256:
+ 0e675bf45bdbdb72f80a2c9ec4ad94130dd01754530c001866c8d728b84de63e 2315 py-postgresql_1.2.1+git20180803.ef7b9a9-2.dsc
+ a0aa559a9a5edaeb85192fcbe306dbdd47f79d2984b211e9583fa5ec0749dc33 265551 py-postgresql_1.2.1+git20180803.ef7b9a9.orig.tar.gz
+ 1e2852dad714af14c8d47413a1cdda13aa45c18b647a2fd472eb352883016bdc 5352 py-postgresql_1.2.1+git20180803.ef7b9a9-2.debian.tar.xz
+Homepage: https://github.com/python-postgres/fe
+Package-List: 
+ python3-postgresql deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/py-postgresql
+Priority: source
+Section: python

@@ -1,0 +1,26 @@
+Package: globus-ftp-client
+Binary: libglobus-ftp-client2, libglobus-ftp-client-dev, libglobus-ftp-client-doc
+Version: 9.5-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-ftp-control-dev (>= 4), libglobus-gsi-callback-dev (>= 4), libglobus-gsi-credential-dev (>= 5), libglobus-gsi-sysconfig-dev (>= 5), libglobus-gssapi-gsi-dev (>= 10), libglobus-xio-dev (>= 3), libglobus-xio-popen-driver-dev (>= 2), libssl-dev, doxygen, libglobus-gridftp-server-dev (>= 7), globus-gridftp-server-progs (>= 7), openssl
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d5d73729cd39d2adb7868fee39d4d1ed 2467 globus-ftp-client_9.5-1.dsc
+ f8dc993c9639708b5b51ca5146f027b9 536711 globus-ftp-client_9.5.orig.tar.gz
+ 392c48ed0679839a5cb27e41b82a12e1 4744 globus-ftp-client_9.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-ftp-client
+Vcs-Git: https://salsa.debian.org/ellert/globus-ftp-client.git
+Checksums-Sha256:
+ 97ff0e820ec190788f780c1a4085c8fbbf67dad27dadd0b30f1beab3da861050 2467 globus-ftp-client_9.5-1.dsc
+ 1039b34c2a0cb8487e619272bfe9384b2855149857641c20d31c72cab1634cc1 536711 globus-ftp-client_9.5.orig.tar.gz
+ d35325a7885a610d7bc59e65b547b702a32f1ec66c7ecaee99e5ad985d1f866a 4744 globus-ftp-client_9.5-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-ftp-client-dev deb libdevel optional arch=any
+ libglobus-ftp-client-doc deb doc optional arch=all
+ libglobus-ftp-client2 deb libs optional arch=any
+Directory: pool/main/g/globus-ftp-client
+Priority: source
+Section: net

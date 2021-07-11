@@ -1,0 +1,26 @@
+Package: rust-sw-composite
+Binary: librust-sw-composite-dev
+Version: 0.7.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d21b9f1b20c81c768b92afde7654ee84 2157 rust-sw-composite_0.7.2-2.dsc
+ 0415ad8c1564731d60b8431fdf77c286 8370 rust-sw-composite_0.7.2.orig.tar.gz
+ 6b78aae2f746c7b4d92f6be2e7256918 2688 rust-sw-composite_0.7.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sw-composite
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/sw-composite]
+Checksums-Sha256:
+ 706111ee48a19fcc666af4ebbded5b1b697c7587c2d50fd339c3046128d10c83 2157 rust-sw-composite_0.7.2-2.dsc
+ 50a36f1738c7e57fec506df8c94719b2210816ab9de4d3dadeb9efb6bc71f1d2 8370 rust-sw-composite_0.7.2.orig.tar.gz
+ 8b571f58d303f55a6b8e02325af8790ecb526a42b6411c6776001c51f3cd91ca 2688 rust-sw-composite_0.7.2-2.debian.tar.xz
+Package-List: 
+ librust-sw-composite-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-sw-composite
+Priority: extra
+Section: misc

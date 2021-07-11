@@ -1,0 +1,26 @@
+Package: ocaml-speex
+Binary: libspeex-ocaml, libspeex-ocaml-dev
+Version: 0.2.1-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Kyle Robbertze <krobbertze@gmail.com>, Samuel Mimram <smimram@debian.org>, Romain Beauxis <toots@rastageeks.org>
+Build-Depends: cdbs (>= 0.4.85~), debhelper (>= 10), dh-buildinfo, ocaml-nox, dh-ocaml (>= 0.9), libspeex-dev, libogg-ocaml-dev (>= 0.5.2), ocaml-findlib (>= 1.2.4), pkg-config
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 81dc29ed8e1261bb8c59bae5b37de8c4 2246 ocaml-speex_0.2.1-2.dsc
+ 68e3596edc35ce7c4fa010e44abc8770 114018 ocaml-speex_0.2.1.orig.tar.gz
+ e4b13379e7a155c46f8f48740d9712d1 2864 ocaml-speex_0.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-speex
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-speex.git
+Checksums-Sha256:
+ e4c8eab00a0fde249875099e5bc0db2a2b46efe2f39ed6d8e6e99a1540a2fb63 2246 ocaml-speex_0.2.1-2.dsc
+ 7cf69947d257be52f777c223a254effb37c33480ba1727519a60c74f045ef9b0 114018 ocaml-speex_0.2.1.orig.tar.gz
+ eb220e47235a33afdb814f584d79b2ae7b4d1fdda77c99df2f3e767f8fa2bac7 2864 ocaml-speex_0.2.1-2.debian.tar.xz
+Homepage: http://savonet.sourceforge.net/
+Package-List: 
+ libspeex-ocaml deb ocaml optional arch=any
+ libspeex-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-speex
+Priority: source
+Section: ocaml

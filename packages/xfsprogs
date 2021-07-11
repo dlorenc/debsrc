@@ -1,0 +1,25 @@
+Package: xfsprogs
+Binary: xfsprogs, xfslibs-dev, xfsprogs-udeb
+Version: 5.10.0-4
+Maintainer: XFS Development Team <linux-xfs@vger.kernel.org>
+Uploaders: Nathan Scott <nathans@debian.org>, Anibal Monsalve Salazar <anibal@debian.org>, Bastian Germann <bastiangermann@fishpost.de>
+Build-Depends: libinih-dev, uuid-dev, dh-autoreconf, debhelper (>= 5), gettext, libtool, libedit-dev, libblkid-dev (>= 2.17), linux-libc-dev, libdevmapper-dev, libattr1-dev, libicu-dev, pkg-config
+Architecture: linux-any
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 62e8be79f08484553689fcbd3153e015 2047 xfsprogs_5.10.0-4.dsc
+ f4156af67a0e247833be88efaa2869f9 1273332 xfsprogs_5.10.0.orig.tar.xz
+ 7fd577f89a73a18a91630b02cb42bc25 13924 xfsprogs_5.10.0-4.debian.tar.xz
+Checksums-Sha256:
+ 839e28e8d8fcb932013f50a371cf8a4ba29016a36238e4880c2a593b81ce9211 2047 xfsprogs_5.10.0-4.dsc
+ e04017e46d43e4d54b9a560fd7cea922520f8f6ef882404969d20cd4e5c790e9 1273332 xfsprogs_5.10.0.orig.tar.xz
+ 616a7730b773c60e0877694e419374174027a8cb540029509093a40da178bdbc 13924 xfsprogs_5.10.0-4.debian.tar.xz
+Homepage: https://xfs.wiki.kernel.org/
+Package-List: 
+ xfslibs-dev deb libdevel optional arch=linux-any
+ xfsprogs deb admin optional arch=linux-any
+ xfsprogs-udeb udeb debian-installer optional arch=linux-any
+Directory: pool/main/x/xfsprogs
+Priority: source
+Section: admin

@@ -1,0 +1,28 @@
+Package: python-jellyfish
+Binary: python3-jellyfish, python-jellyfish-doc
+Version: 0.8.2-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Diego M. Rodriguez <diego@moreda.io>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-pytest, python3-setuptools, python3-sphinx
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d5b45acc90e4b9acf69123055f5d0500 2289 python-jellyfish_0.8.2-1.dsc
+ 6e5a8778cd798d8328b8e5d1288b9ec7 134200 python-jellyfish_0.8.2.orig.tar.gz
+ 718a2f9e3a4157a58d73a495689ecc8f 4488 python-jellyfish_0.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-jellyfish
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-jellyfish.git
+Checksums-Sha256:
+ 5b5c35f0e14c197adec48c8524e3b4d56ce1fb6144e4aa04700142d4da94099c 2289 python-jellyfish_0.8.2-1.dsc
+ a499741401512d05bbd3556e448e960bc908eba3879fb73d450e8e91566a030b 134200 python-jellyfish_0.8.2.orig.tar.gz
+ 59f210b0ee1a485d7816b1618b0982b41f89a827b1708fed1ba171558b016241 4488 python-jellyfish_0.8.2-1.debian.tar.xz
+Homepage: https://github.com/jamesturk/jellyfish
+Package-List: 
+ python-jellyfish-doc deb doc optional arch=all
+ python3-jellyfish deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-jellyfish
+Priority: optional
+Section: misc

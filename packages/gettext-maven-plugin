@@ -1,0 +1,25 @@
+Package: gettext-maven-plugin
+Binary: libgettext-maven-plugin-java
+Version: 1.2.9-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 2.1), libmaven-plugin-tools-java (>= 3.5), libmaven-reporting-api-java, libmaven-reporting-impl-java, libmaven3-core-java (>= 2.0), libplexus-utils2-java
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a5c8ce5b7438c70eb0aa608cd0e18d08 2403 gettext-maven-plugin_1.2.9-3.dsc
+ d5649e786b81d3e411003e70ced99dcc 9080 gettext-maven-plugin_1.2.9.orig.tar.xz
+ 425bf5e8ba8611c092f0596d30488c9f 2856 gettext-maven-plugin_1.2.9-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/gettext-maven-plugin
+Vcs-Git: https://salsa.debian.org/java-team/gettext-maven-plugin.git
+Checksums-Sha256:
+ a86ecc705bb82adc35097bf151e812a2d9855850d9ca724ae3bd7e92934313fa 2403 gettext-maven-plugin_1.2.9-3.dsc
+ 54b02212b60659033a47ce992a06a53ec1280b40741fde69e25bfd2be34d1ce1 9080 gettext-maven-plugin_1.2.9.orig.tar.xz
+ 8e5e1ead0e8fa736a85e63901b765c92e181994a423ec1615b22dc201689513a 2856 gettext-maven-plugin_1.2.9-3.debian.tar.xz
+Homepage: https://github.com/rlf/maven-gettext-plugin
+Package-List: 
+ libgettext-maven-plugin-java deb java optional arch=all
+Directory: pool/main/g/gettext-maven-plugin
+Priority: extra
+Section: misc

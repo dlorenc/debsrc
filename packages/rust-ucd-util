@@ -1,0 +1,25 @@
+Package: rust-ucd-util
+Binary: librust-ucd-util-dev
+Version: 0.1.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 0d57ba79da672f0260234cf5058f3b52 2113 rust-ucd-util_0.1.5-1.dsc
+ c51c93192b807db2468139689158f130 26373 rust-ucd-util_0.1.5.orig.tar.gz
+ 68d4e538dfb2715fb2f49f7f8eec6705 2508 rust-ucd-util_0.1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ucd-util
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ucd-util]
+Checksums-Sha256:
+ bcac709bb63256e0e03d4ef4d675ff49aafb7f8249bef5e99a3b52eab573fab1 2113 rust-ucd-util_0.1.5-1.dsc
+ 69e0eeaa4310bc2d17b8ca26d647d078817a84077f0bc580eea352d0f18d855c 26373 rust-ucd-util_0.1.5.orig.tar.gz
+ 1d45eb5ba2341b6a0eaccd102c1e7d26c31743c953002ef4524cc529b3b96de8 2508 rust-ucd-util_0.1.5-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/ucd-generate
+Package-List: 
+ librust-ucd-util-dev deb rust optional arch=any
+Directory: pool/main/r/rust-ucd-util
+Priority: extra
+Section: misc

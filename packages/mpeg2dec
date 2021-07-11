@@ -1,0 +1,27 @@
+Package: mpeg2dec
+Binary: libmpeg2-4-dev, libmpeg2-4, mpeg2dec
+Version: 0.5.1-9
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Sam Hocevar (Debian packages) <sam+deb@zoy.org>
+Build-Depends: debhelper-compat (= 12), libsdl1.2-dev (>= 1.2.3), libx11-dev, libxext-dev, libxv-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ da4c12627c53fb2251668f9b00f57017 2107 mpeg2dec_0.5.1-9.dsc
+ 0f92c7454e58379b4a5a378485bbd8ef 524776 mpeg2dec_0.5.1.orig.tar.gz
+ c965f0fc6799b4b0e4244e507f5c8410 10068 mpeg2dec_0.5.1-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/mpeg2dec
+Vcs-Git: https://salsa.debian.org/multimedia-team/mpeg2dec.git
+Checksums-Sha256:
+ 1d5a2a82b06bdb759c9dd40d68ab5287b839f379df9074c65fc107b08bf439d7 2107 mpeg2dec_0.5.1-9.dsc
+ dee22e893cb5fc2b2b6ebd60b88478ab8556cb3b93f9a0d7ce8f3b61851871d4 524776 mpeg2dec_0.5.1.orig.tar.gz
+ 608abb4e65898e01d8fd0552c34350fe4fc98e47c91a06c5af76bb6a8b410270 10068 mpeg2dec_0.5.1-9.debian.tar.xz
+Homepage: http://libmpeg2.sourceforge.net/
+Package-List: 
+ libmpeg2-4 deb libs optional arch=any
+ libmpeg2-4-dev deb libdevel optional arch=any
+ mpeg2dec deb x11 optional arch=any
+Directory: pool/main/m/mpeg2dec
+Priority: source
+Section: x11

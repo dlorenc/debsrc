@@ -1,0 +1,27 @@
+Package: rust-failure-derive
+Binary: librust-failure-derive-dev
+Version: 0.1.7-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Robin Krahl <robin.krahl@ireas.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev (>= 1.0.3-~~) <!nocheck>, librust-synstructure-0.12+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 07c9642cee3814c51f0958f305b7d3cf 2534 rust-failure-derive_0.1.7-2.dsc
+ 7a7025927babed3d2bac72066a6494fc 4902 rust-failure-derive_0.1.7.orig.tar.gz
+ d08a5506513cc686e3e8bb74043319dc 3116 rust-failure-derive_0.1.7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/failure-derive
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/failure-derive]
+Checksums-Sha256:
+ e06224c4b868429d760a2437e4dd2f61baf17427f2bd3dbbdbcd7e369387de62 2534 rust-failure-derive_0.1.7-2.dsc
+ 030a733c8287d6213886dd487564ff5c8f6aae10278b3588ed177f9d18f8d231 4902 rust-failure-derive_0.1.7.orig.tar.gz
+ 61b4e35e3286b178aa4fb74b1b8c7a7e3d0e186a33527baba90844cf51c2f610 3116 rust-failure-derive_0.1.7-2.debian.tar.xz
+Homepage: https://rust-lang-nursery.github.io/failure/
+Package-List: 
+ librust-failure-derive-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-failure-0.1+default-dev
+Directory: pool/main/r/rust-failure-derive
+Priority: extra
+Section: misc

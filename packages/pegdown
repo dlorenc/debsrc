@@ -1,0 +1,25 @@
+Package: pegdown
+Binary: libpegdown-java
+Version: 1.6.0-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 9), default-jdk, maven-debian-helper, libparboiled-java
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ abe09a62f146208db571d0f0dd558ab6 1965 pegdown_1.6.0-1.1.dsc
+ 9a7eab97854a7343bd26c6b2f4def605 96148 pegdown_1.6.0.orig.tar.xz
+ 7df3b0cbfd8c613bc21a1387a57ecc88 2996 pegdown_1.6.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/pegdown.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/pegdown.git
+Checksums-Sha256:
+ daa09f148493806216df5d4743d3fc9aaad495d8dc930bc7d6de6dd306685b33 1965 pegdown_1.6.0-1.1.dsc
+ 2928235cd83f28fbd71016155baec4c23b4f6dc9a50d34c2aceb2c095e1dad4e 96148 pegdown_1.6.0.orig.tar.xz
+ aed0f2f701846b6570be37b55827315d0632924d77fae14aacc8f3b7b5c81350 2996 pegdown_1.6.0-1.1.debian.tar.xz
+Homepage: http://pegdown.org
+Package-List: 
+ libpegdown-java deb java optional arch=all
+Directory: pool/main/p/pegdown
+Priority: optional
+Section: misc

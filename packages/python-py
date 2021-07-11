@@ -1,0 +1,26 @@
+Package: python-py
+Binary: python3-py
+Version: 1.10.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-pytest <!nocheck>, subversion <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d68f4a8721977ddd0c9818d6d4d34e7b 2086 python-py_1.10.0-1.dsc
+ 5f108bfe00d5468cbdb8071051f86a55 206984 python-py_1.10.0.orig.tar.gz
+ da112d7cc1a35bebc0938ccebcd43a0c 12440 python-py_1.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-py
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-py.git
+Checksums-Sha256:
+ 33bc3f60356efa73d28ec279a3e7051604e7fae3bc8131a1fb0d0baf97d8a48f 2086 python-py_1.10.0-1.dsc
+ 21b81bda15b66ef5e1a777a21c4dcd9c20ad3efd0b3f817e7a809035269e1bd3 206984 python-py_1.10.0.orig.tar.gz
+ 4b7052d39b2f32599b66858ebc1139ece39f22fee99be891686b35b7efd2af0d 12440 python-py_1.10.0-1.debian.tar.xz
+Homepage: https://github.com/pytest-dev/py
+Package-List: 
+ python3-py deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-py
+Priority: optional
+Section: misc

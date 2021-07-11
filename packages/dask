@@ -1,0 +1,28 @@
+Package: dask
+Binary: python3-dask, python-dask-doc
+Version: 2021.01.0+dfsg-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Diane Trout <diane@ghic.org>
+Build-Depends: debhelper-compat (= 13), dh-python, dpkg-dev (>= 1.17.14), node-js-yaml <!nodoc>, python-asyncssh-doc <!nodoc>, python-numpy-doc <!nodoc>, python-pandas-doc <!nodoc>, python3-all, python3-cloudpickle <!nodoc>, python3-dask-sphinx-theme <!nodoc>, python3-distributed <!nodoc>, python3-fsspec, python3-numpydoc <!nodoc>, python3-pandas (>= 0.19.0) <!nodoc>, python3-partd <!nodoc>, python3-scipy <!nodoc>, python3-setuptools, python3-sparse (>= 0.11) <!nocheck>, python3-sphinx <!nodoc>, python3-sphinx-click <!nodoc>, python3-toolz <!nodoc>, sphinx-common
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ faeaf055cad3ac6c0beab0a0d2dc5185 2978 dask_2021.01.0+dfsg-1.dsc
+ da37dcd6f2c21c8dc1fe753ccc18aad3 3173844 dask_2021.01.0+dfsg.orig.tar.xz
+ 73eea6762f31bc2d4d101534d7456fb3 18864 dask_2021.01.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/dask
+Vcs-Git: https://salsa.debian.org/python-team/packages/dask.git
+Checksums-Sha256:
+ 6713f8de6815fc397b27684f39d489a2844b7f5121dfb312476b50cf09b455b9 2978 dask_2021.01.0+dfsg-1.dsc
+ dc380d660e866a93e8ef6a56f8978fd6375dd6540c3b22ed47ec47473f997478 3173844 dask_2021.01.0+dfsg.orig.tar.xz
+ 4310e4cf498c6491c1bf0fa345f864cc076d854a08eafeb98d977fb4f8f9b326 18864 dask_2021.01.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/dask/dask
+Package-List: 
+ python-dask-doc deb doc optional arch=all profile=!nodoc
+ python3-dask deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-aiohttp, python3-all, python3-bcolz, python3-blosc, python3-boto, python3-cloudpickle, python3-fsspec, python3-graphviz, python3-h5py, python3-ipython, python3-numpy, python3-packaging, python3-pandas, python3-partd, python3-psutil, python3-pytest, python3-requests, python3-scipy, python3-skimage, python3-sklearn, python3-sqlalchemy, python3-tables, python3-tk, python3-yaml
+Directory: pool/main/d/dask
+Priority: optional
+Section: misc

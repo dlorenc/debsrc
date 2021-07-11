@@ -1,0 +1,26 @@
+Package: keepass2
+Binary: keepass2, keepass2-doc
+Version: 2.47+dfsg-2
+Maintainer: Debian CLI Applications Team <pkg-cli-apps-team@lists.alioth.debian.org>
+Uploaders: Julian Taylor <jtaylor.debian@googlemail.com>
+Build-Depends: archmage (>= 1:0.4.2.1~), cli-common-dev (>= 0.7), debhelper (>= 9~), imagemagick, libmono-cil-dev, mono-devel (>= 2.6.7), mono-xbuild
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0fb6c3255c29bd594d37e9ba5e9a5633 2113 keepass2_2.47+dfsg-2.dsc
+ 44999fefad635b0a5eecbef1d3013b6f 2724300 keepass2_2.47+dfsg.orig.tar.xz
+ 426a2a942ad7d69a920db460376d6439 14956 keepass2_2.47+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/dotnet-team/keepass2
+Vcs-Git: https://salsa.debian.org/dotnet-team/keepass2.git
+Checksums-Sha256:
+ 9d138fdfecbf5df681b2c2c3ec49991ee5ed7f1b90b7b9bb800bc05f35c16d29 2113 keepass2_2.47+dfsg-2.dsc
+ 023ec3ec467c24b5bbc839973427cd2c0c31ab6f2f209d6172e68b56a5039309 2724300 keepass2_2.47+dfsg.orig.tar.xz
+ 2a9a2eb1bd6ead07118419a404b3c3d954509daa2db77a50fce34faa8b562531 14956 keepass2_2.47+dfsg-2.debian.tar.xz
+Homepage: http://keepass.info/
+Package-List: 
+ keepass2 deb utils optional arch=all
+ keepass2-doc deb doc optional arch=all
+Directory: pool/main/k/keepass2
+Priority: source
+Section: utils

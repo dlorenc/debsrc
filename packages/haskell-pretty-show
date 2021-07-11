@@ -1,0 +1,29 @@
+Package: haskell-pretty-show
+Binary: ppsh, libghc-pretty-show-dev, libghc-pretty-show-prof, libghc-pretty-show-doc
+Version: 1.10-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Erik de Castro Lopo <erikd@mega-nerd.com>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, happy, haskell-devscripts (>= 0.13), libghc-haskell-lexer-dev (>= 1.1), libghc-haskell-lexer-dev (<< 2), libghc-haskell-lexer-prof
+Build-Depends-Indep: ghc-doc, libghc-haskell-lexer-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4a26f13cfe3b13a3f9562034763bd8a0 2531 haskell-pretty-show_1.10-1.dsc
+ 1d4c4c9c02c5865eb5ac30c29d9ffc4d 42233 haskell-pretty-show_1.10.orig.tar.gz
+ 93ab4c78e204264f6629e291d9fb0a49 3568 haskell-pretty-show_1.10-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-pretty-show
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-pretty-show]
+Checksums-Sha256:
+ 7217e431a957542f4b4aa94f512a4c928c3865f2a7b1cc15a75f293f0dad85e2 2531 haskell-pretty-show_1.10-1.dsc
+ 307f9086e0b063d439dc4f513e36a145e8a57f23de448aefae2a6c00f6da6fd2 42233 haskell-pretty-show_1.10.orig.tar.gz
+ b573319c9b0082301cfbdc3d45902907ee78118aaebdb3fc3fdcaa0b95a25778 3568 haskell-pretty-show_1.10-1.debian.tar.xz
+Homepage: http://wiki.github.com/yav/pretty-show
+Package-List: 
+ libghc-pretty-show-dev deb haskell optional arch=any
+ libghc-pretty-show-doc deb doc optional arch=all
+ libghc-pretty-show-prof deb haskell optional arch=any
+ ppsh deb haskell optional arch=any
+Directory: pool/main/h/haskell-pretty-show
+Priority: source
+Section: haskell

@@ -1,0 +1,27 @@
+Package: ppx-fields-conv
+Binary: libppx-fields-conv-ocaml-dev, libppx-fields-conv-ocaml
+Version: 0.14.1-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, ocaml-dune, libbase-ocaml-dev (>= 0.14), libfieldslib-ocaml-dev (>= 1:0.14), libppxlib-ocaml-dev (>= 0.14.0), dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8b8a773ef5a409e9a36a6cc1f9690975 2037 ppx-fields-conv_0.14.1-1.dsc
+ ba58525bdd6a2faaec6e4d12a1a9e85d 14348 ppx-fields-conv_0.14.1.orig.tar.gz
+ 37c6072ff01e2f7e8257c8b8e5815cfe 2468 ppx-fields-conv_0.14.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ppx-fields-conv
+Vcs-Git: https://salsa.debian.org/ocaml-team/ppx-fields-conv.git
+Checksums-Sha256:
+ 459bb93297f29f34821003be86a701f2a4299da0fd4dca5de7bc02216789681a 2037 ppx-fields-conv_0.14.1-1.dsc
+ a352f360dffa5ce9ea22ef70499175460eb6fd2f77d6707fe390a9a2c58f95e1 14348 ppx-fields-conv_0.14.1.orig.tar.gz
+ da818b85517272f12c581427f1f93c5092a8df8564f107e552aa8bf7b09e8245 2468 ppx-fields-conv_0.14.1-1.debian.tar.xz
+Homepage: https://github.com/janestreet/ppx_fields_conv
+Dgit: 822474b070f7b3a7b53a49b5517a6d679637908c debian archive/debian/0.14.1-1 https://git.dgit.debian.org/ppx-fields-conv
+Package-List: 
+ libppx-fields-conv-ocaml deb ocaml optional arch=any
+ libppx-fields-conv-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/p/ppx-fields-conv
+Priority: extra
+Section: misc

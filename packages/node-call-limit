@@ -1,0 +1,26 @@
+Package: node-call-limit
+Binary: node-call-limit
+Version: 1.1.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-tap <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a13210d3c0a7e4d27d1de9fa33806a92 2076 node-call-limit_1.1.1-1.dsc
+ 58a5c9f2a2cdac134dfee6c294bf44c2 67436 node-call-limit_1.1.1.orig.tar.gz
+ 8162fe28c51decc197e32cf82a720839 2216 node-call-limit_1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-call-limit
+Vcs-Git: https://salsa.debian.org/js-team/node-call-limit.git
+Checksums-Sha256:
+ d8cd149efc06286a2ce3e2f019ba39141dd3e2c10c5fbf3dc4e827d78545a470 2076 node-call-limit_1.1.1-1.dsc
+ 7dcb9d1e5946a97d4f1e3a93925777e9f834b27245f9e2d45677734e2b13eec0 67436 node-call-limit_1.1.1.orig.tar.gz
+ 8083e67d3058aba159136b76b2346a030084289156fe17476812df76a203cfb9 2216 node-call-limit_1.1.1-1.debian.tar.xz
+Homepage: https://github.com/iarna/call-limit
+Package-List: 
+ node-call-limit deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-call-limit
+Priority: extra
+Section: misc

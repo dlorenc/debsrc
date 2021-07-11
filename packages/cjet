@@ -1,0 +1,27 @@
+Package: cjet
+Binary: printer-driver-cjet
+Version: 0.8.9-8
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Uploaders: Didier Raboud <odyx@debian.org>,
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 111dbfd398097dba1609244b8c48576b 2039 cjet_0.8.9-8.dsc
+ d80e83d47b79b03028a00b72ac27e3de 50427 cjet_0.8.9.orig.tar.gz
+ a269e775d226a243cfed6ac6aebcb54b 4408 cjet_0.8.9-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/printing-team/cjet
+Vcs-Git: https://salsa.debian.org/printing-team/cjet.git
+Checksums-Sha256:
+ c66be9c1df405525224978e7087964313bd3dd8f46fb5db6e3b4af544ab8dbb2 2039 cjet_0.8.9-8.dsc
+ c99e833eb7083bc7861166ef97830306605e281f251f85bb63b9496300625f87 50427 cjet_0.8.9.orig.tar.gz
+ 7eb401dfd09ac625aa750b3e552b946cfa7b5d8f5a1ef3817c6d8689e5f70b30 4408 cjet_0.8.9-8.debian.tar.xz
+Dgit: e138b73c5a7fae5e2333050afefbbb4742ec260b debian archive/debian/0.8.9-8 https://git.dgit.debian.org/cjet
+Package-List: 
+ printer-driver-cjet deb text optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: cups, cups-client, foomatic-db-compressed-ppds
+Directory: pool/main/c/cjet
+Priority: source
+Section: text

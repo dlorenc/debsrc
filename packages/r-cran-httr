@@ -1,0 +1,27 @@
+Package: r-cran-httr
+Binary: r-cran-httr
+Version: 1.4.2-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-curl (>= 3.0.0), r-cran-jsonlite, r-cran-mime, r-cran-openssl, r-cran-r6
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b889d0f505f9768a4798eb81f087838f 2147 r-cran-httr_1.4.2-1.dsc
+ 01bb9d0c58ba9508829469190b8a51da 159950 r-cran-httr_1.4.2.orig.tar.gz
+ 14f70f204c26d683b42610cc9270d467 3332 r-cran-httr_1.4.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-httr
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-httr.git
+Checksums-Sha256:
+ 9632cc0e0e55ccd2c7df9d41ff9f24afe788cdf6a783324df32804b50ab5f186 2147 r-cran-httr_1.4.2-1.dsc
+ 462bed6ed0d92f811d5df4d294336025f1dbff357286999d9269bfd9c20b1ef9 159950 r-cran-httr_1.4.2.orig.tar.gz
+ 40bcbfd74bca1c0ca989ad8e6730e49ece80be76c80cdf0e633a6631a05d78f2 3332 r-cran-httr_1.4.2-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=httr
+Package-List: 
+ r-cran-httr deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-httr
+Priority: optional
+Section: misc

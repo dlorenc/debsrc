@@ -1,0 +1,27 @@
+Package: useful-clojure
+Binary: libuseful-clojure
+Version: 0.11.6-4
+Maintainer: Debian Clojure Maintainers <pkg-clojure-maintainers@lists.alioth.debian.org>
+Uploaders: Louis-Philippe Véronneau <pollo@debian.org>
+Build-Depends: debhelper-compat (= 13), javahelper, maven-repo-helper, default-jdk, libclojure-java, libtools-macro-clojure, libtools-reader-clojure, libnrepl-clojure <!nocheck>, libcomplete-clojure <!nocheck>, leiningen
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ff1ed818c1807423b171c3eb3562564c 2244 useful-clojure_0.11.6-4.dsc
+ ee514b26a6db46cc4d0cc007fb889220 49562 useful-clojure_0.11.6.orig.tar.gz
+ 75dff2fa5e3b6a2ef3ffd565151ce51d 7364 useful-clojure_0.11.6-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/clojure-team/useful-clojure
+Vcs-Git: https://salsa.debian.org/clojure-team/useful-clojure.git
+Checksums-Sha256:
+ 961dc1e869b258d63492eb6c2034621e236353736a824692d3a89ef3d415e966 2244 useful-clojure_0.11.6-4.dsc
+ a2a2aaadef30b610d1458a1960ee9bad47d9323f149c090eb4827f5d4bad9596 49562 useful-clojure_0.11.6.orig.tar.gz
+ cebe8a1b6c014343eae3f26ae0b1057fc584d4756c325fa84f1bd946be35adf3 7364 useful-clojure_0.11.6-4.debian.tar.xz
+Homepage: https://github.com/clj-commons/useful
+Package-List: 
+ libuseful-clojure deb java optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: clojure
+Directory: pool/main/u/useful-clojure
+Priority: extra
+Section: misc

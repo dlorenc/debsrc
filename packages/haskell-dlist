@@ -1,0 +1,28 @@
+Package: haskell-dlist
+Binary: libghc-dlist-dev, libghc-dlist-prof, libghc-dlist-doc
+Version: 0.8.0.8-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-quickcheck2-dev (>= 2.10), libghc-quickcheck2-dev (<< 2.14)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ b5102c4d3c6432a8c6adb87a66e7e807 2336 haskell-dlist_0.8.0.8-1.dsc
+ 2765820965532ac11c4f67d907ca0e63 9262 haskell-dlist_0.8.0.8.orig.tar.gz
+ b4bc09a4f1b4022b63cab6bd40e88a9f 3356 haskell-dlist_0.8.0.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-dlist
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-dlist]
+Checksums-Sha256:
+ 8fdf1193668509b0eaaff0e47bc7f0fcd48be253ff5c6d7bc8452ae5bb869c0e 2336 haskell-dlist_0.8.0.8-1.dsc
+ 7129cf18068d3384e305708a10426ab8f573bee1030b023a114f45f1d0ec496d 9262 haskell-dlist_0.8.0.8.orig.tar.gz
+ 45f1c38ce97fd651df354267b5c0f4ff316faa535675be5ddf651d7c7605e91c 3356 haskell-dlist_0.8.0.8-1.debian.tar.xz
+Homepage: https://github.com/spl/dlist
+Package-List: 
+ libghc-dlist-dev deb haskell optional arch=any
+ libghc-dlist-doc deb doc optional arch=all
+ libghc-dlist-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-dlist
+Priority: source
+Section: haskell

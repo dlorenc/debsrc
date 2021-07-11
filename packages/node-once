@@ -1,0 +1,27 @@
+Package: node-once
+Binary: node-once
+Version: 1.4.0-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 11), dh-buildinfo, node-wrappy, node-tap
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ d2d4c3a9d7cde1766fd385c02fb94b1c 2075 node-once_1.4.0-3.dsc
+ 1e634d4674dc74f9f91cdac9ef59e7f9 2629 node-once_1.4.0.orig.tar.gz
+ ce19eaab3afed43ef4e4ed690c48c202 2860 node-once_1.4.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-once
+Vcs-Git: https://salsa.debian.org/js-team/node-once.git
+Checksums-Sha256:
+ 59868398b1a842a68c2ae02367369f677c3a91f2e1fedfe7ad48d5258797d491 2075 node-once_1.4.0-3.dsc
+ 51cd65d1759460a1e06288a71ef7152bb26da16233bd50324fa42971321babb5 2629 node-once_1.4.0.orig.tar.gz
+ 670607bf5c45369c9ac1b55a6310914e6eeec7c52dad1a9172bf14b38bc530bd 2860 node-once_1.4.0-3.debian.tar.xz
+Homepage: https://github.com/isaacs/once
+Package-List: 
+ node-once deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tap, node-wrappy
+Directory: pool/main/n/node-once
+Priority: source
+Section: javascript

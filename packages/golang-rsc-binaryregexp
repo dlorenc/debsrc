@@ -1,0 +1,27 @@
+Package: golang-rsc-binaryregexp
+Binary: golang-rsc-binaryregexp-dev
+Version: 0.2.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3342dd221c452dd055bde1c92e196ee7 2170 golang-rsc-binaryregexp_0.2.0-2.dsc
+ 1156555f5316780d93ae679246cc3e63 436035 golang-rsc-binaryregexp_0.2.0.orig.tar.gz
+ fb268519033de576454567b83a460333 2948 golang-rsc-binaryregexp_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-rsc-binaryregexp
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-rsc-binaryregexp.git
+Checksums-Sha256:
+ ed24e8f1e95d5a89c7a177b65e92745c8732a74169312492a09131a77d67869e 2170 golang-rsc-binaryregexp_0.2.0-2.dsc
+ e0c7044306fc811068d950c67bc74ca8c8542444cca05947c1d19f4f9e6c1206 436035 golang-rsc-binaryregexp_0.2.0.orig.tar.gz
+ 481648c8caeb958a281ab3284f9c860943a5d09ac8c9e9b28f64483effc8352c 2948 golang-rsc-binaryregexp_0.2.0-2.debian.tar.xz
+Homepage: https://github.com/rsc/binaryregexp
+Go-Import-Path: rsc.io/binaryregexp
+Package-List: 
+ golang-rsc-binaryregexp-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-rsc-binaryregexp
+Priority: extra
+Section: golang

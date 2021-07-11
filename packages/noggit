@@ -1,0 +1,25 @@
+Package: noggit
+Binary: libnoggit-java
+Version: 0.8-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 1.5), junit
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 789b667b3bee28f1a41a0632a676e968 1963 noggit_0.8-1.dsc
+ 5ccff74aaadfc94a80ce2904d0604814 30755 noggit_0.8.orig.tar.gz
+ 46793b2ce3b814049e7396e54a7a0694 2672 noggit_0.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/noggit
+Vcs-Git: https://salsa.debian.org/java-team/noggit.git
+Checksums-Sha256:
+ 8d2b8e2690212214d7b2bebff44187a8d45680f478977a94064d630cb2e776a5 1963 noggit_0.8-1.dsc
+ 3991d11d7139aeae730cab0de443ccfe8ac6eac23c0ce4acabcf219d2bf02628 30755 noggit_0.8.orig.tar.gz
+ 7b97f68c68a7e2bfda7b1a01a9bb24c1c6b6ad8aa35e01cad642288b14cc12bc 2672 noggit_0.8-1.debian.tar.xz
+Homepage: https://github.com/yonik/noggit
+Package-List: 
+ libnoggit-java deb java optional arch=all
+Directory: pool/main/n/noggit
+Priority: optional
+Section: misc

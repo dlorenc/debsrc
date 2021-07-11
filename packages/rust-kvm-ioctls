@@ -1,0 +1,24 @@
+Package: rust-kvm-ioctls
+Binary: librust-kvm-ioctls-dev
+Version: 0.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Nicolas Braud-Santoni <nicoo@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-kvm-bindings+default-dev (>= 0.1.0-~~) <!nocheck>, librust-libc+default-dev (>= 0.2.39-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c390a85d1b0c76ae2b70158f4681a345 2201 rust-kvm-ioctls_0.2.0-1.dsc
+ 5e9bd0bd8263d1809d635003b16b8449 41616 rust-kvm-ioctls_0.2.0.orig.tar.gz
+ 20d5b670f64f65b83fae482996fe9593 3080 rust-kvm-ioctls_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/kvm-ioctls
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/kvm-ioctls]
+Checksums-Sha256:
+ 25f66d4ddd540a6c0cfb930e52faa682ce187cde38198148cb226a8a3a30e218 2201 rust-kvm-ioctls_0.2.0-1.dsc
+ 86be25826f1e499a1731f3a851e01a9600c96b0dca153becd9f1a65eeedb2d61 41616 rust-kvm-ioctls_0.2.0.orig.tar.gz
+ eab839ce1165c0494837a597b8b647319c8251c4b79b1f46659d085fbb1174cf 3080 rust-kvm-ioctls_0.2.0-1.debian.tar.xz
+Package-List: 
+ librust-kvm-ioctls-dev deb rust optional arch=any
+Directory: pool/main/r/rust-kvm-ioctls
+Priority: extra
+Section: misc

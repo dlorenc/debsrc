@@ -1,0 +1,28 @@
+Package: haskell-cipher-des
+Binary: libghc-cipher-des-dev, libghc-cipher-des-prof, libghc-cipher-des-doc
+Version: 0.0.6-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-byteable-dev, libghc-byteable-prof, libghc-crypto-cipher-tests-dev, libghc-crypto-cipher-types-dev (<< 0.1), libghc-crypto-cipher-types-dev (>= 0.0.3), libghc-crypto-cipher-types-prof, libghc-quickcheck2-dev (>= 2), libghc-securemem-dev (>= 0.1.2), libghc-securemem-prof, libghc-test-framework-dev (>= 0.3.3), libghc-test-framework-quickcheck2-dev (>= 0.2.9)
+Build-Depends-Indep: ghc-doc, libghc-byteable-doc, libghc-crypto-cipher-types-doc, libghc-securemem-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 379fe64a7a911d8ef2dd22ac4bbb654e 2791 haskell-cipher-des_0.0.6-10.dsc
+ a05a1009385fe37bf9d61803964a2902 7857 haskell-cipher-des_0.0.6.orig.tar.gz
+ aa3e7a64b747b7ccf6341ec4cda59891 3180 haskell-cipher-des_0.0.6-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-cipher-des
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-cipher-des]
+Checksums-Sha256:
+ 9a7c4d50cd55bf32a54ff7d33d9c6591bd28796dc1a383ff653330d6dfaadc5a 2791 haskell-cipher-des_0.0.6-10.dsc
+ 85f1bccdec625a120ecf83b861afcb6478f8f899ceaa06fc083e642b54ff4ac7 7857 haskell-cipher-des_0.0.6.orig.tar.gz
+ 64eb0ea5dc444ad7336cd29d5692f27131f50ec96f734ef723b76cbef468d2b6 3180 haskell-cipher-des_0.0.6-10.debian.tar.xz
+Homepage: http://github.com/vincenthz/hs-crypto-cipher
+Package-List: 
+ libghc-cipher-des-dev deb haskell optional arch=any
+ libghc-cipher-des-doc deb doc optional arch=all
+ libghc-cipher-des-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cipher-des
+Priority: optional
+Section: misc

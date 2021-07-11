@@ -1,0 +1,31 @@
+Package: pcre2
+Binary: libpcre2-8-0, libpcre2-8-0-udeb, libpcre2-16-0, libpcre2-32-0, libpcre2-posix2, libpcre2-dev, pcre2-utils
+Version: 10.36-2
+Maintainer: Matthew Vernon <matthew@debian.org>
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 1.0
+Files:
+ e03bcb5b15fb6ca52364833bce020a58 2286 pcre2_10.36-2.dsc
+ a5d9aa7d18b61b0226696510e60c9582 2290719 pcre2_10.36.orig.tar.gz
+ 8d9d53adf7d0e649ba97d5f9f57697bf 6799 pcre2_10.36-2.diff.gz
+Vcs-Browser: https://salsa.debian.org/debian/pcre2
+Vcs-Git: https://salsa.debian.org/debian/pcre2.git
+Checksums-Sha256:
+ 317f27fd2c578c87b3753a267da2290dc6970c16c81f1f1761694c977a4be4f5 2286 pcre2_10.36-2.dsc
+ b95ddb9414f91a967a887d69617059fb672b914f56fa3d613812c1ee8e8a1a37 2290719 pcre2_10.36.orig.tar.gz
+ 9a39c9972fac99b020b900bcba16cb18a5ef8d0c8ac7a6df1060193b9fa6ba83 6799 pcre2_10.36-2.diff.gz
+Homepage: https://pcre.org/
+Dgit: e960bf1fcf8079b8970cd8c062d7df74cfd22f65 debian archive/debian/10.36-2 https://git.dgit.debian.org/pcre2
+Package-List: 
+ libpcre2-16-0 deb libs optional arch=any
+ libpcre2-32-0 deb libs optional arch=any
+ libpcre2-8-0 deb libs optional arch=any
+ libpcre2-8-0-udeb udeb debian-installer optional arch=any
+ libpcre2-dev deb libdevel optional arch=any
+ libpcre2-posix2 deb libs optional arch=any
+ pcre2-utils deb utils optional arch=any
+Directory: pool/main/p/pcre2
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: jquery
+Binary: libjs-jquery
+Version: 3.3.1~dfsg-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Marcelo Jorge Vieira <metal@debian.org>,
+Build-Depends: brotli, debhelper, node-requirejs, node-source-map, node-uglify, nodejs, pigz
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 1c4040e46adf5f85f7713b26940a5914 2070 jquery_3.3.1~dfsg-3.dsc
+ 0d12d07192850117dc7362124fceca05 258688 jquery_3.3.1~dfsg.orig.tar.xz
+ 72a812ac689e5f610444c95d9daac328 12468 jquery_3.3.1~dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/jquery
+Vcs-Git: https://salsa.debian.org/js-team/jquery.git
+Checksums-Sha256:
+ f878dd7ce5185684be6f4dc36557cd59021fe8031d19217e018d35e6489cd6a4 2070 jquery_3.3.1~dfsg-3.dsc
+ 0b668291a27a8d716b595d80972197a799d837e016b1312383961cb39ee7be1d 258688 jquery_3.3.1~dfsg.orig.tar.xz
+ 877948fc3de0217f0b22a5cff4df154737df555f823089d69e8b41d8c5566734 12468 jquery_3.3.1~dfsg-3.debian.tar.xz
+Homepage: https://jquery.com/
+Package-List: 
+ libjs-jquery deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ca-certificates, node-domino, wget
+Extra-Source-Only: yes
+Directory: pool/main/j/jquery
+Priority: extra
+Section: misc

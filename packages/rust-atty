@@ -1,0 +1,27 @@
+Package: rust-atty
+Binary: librust-atty-dev
+Version: 0.2.14-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2-dev <!nocheck>, librust-winapi-0.3+consoleapi-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+minwinbase-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+processenv-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, bsdutils <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 91fa4402734bd0c3f9c21ce36f413ef8 2445 rust-atty_0.2.14-2.dsc
+ 142cb4b9a653e56e56311f0c883b8582 5470 rust-atty_0.2.14.orig.tar.gz
+ 16ab2bf2351ae24579095914a1fa0b28 3084 rust-atty_0.2.14-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/atty
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/atty]
+Checksums-Sha256:
+ f5382935a24f1942550deb52968ceeb39807116f0c08393e5a1f96d4654df67b 2445 rust-atty_0.2.14-2.dsc
+ d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8 5470 rust-atty_0.2.14.orig.tar.gz
+ ee4f1a474a06b682965e122c358d0f76ef6c9b80772c14e6a8237c3281d20107 3084 rust-atty_0.2.14-2.debian.tar.xz
+Homepage: https://github.com/softprops/atty
+Package-List: 
+ librust-atty-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-atty
+Priority: extra
+Section: misc

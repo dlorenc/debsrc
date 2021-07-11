@@ -1,0 +1,26 @@
+Package: phoc
+Binary: phoc
+Version: 0.6.0-1
+Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
+Uploaders: Arnaud Ferraris <arnaud.ferraris@gmail.com>
+Build-Depends: debhelper-compat (= 13), libglib2.0-dev, libgnome-desktop-3-dev, libinput-dev, libpixman-1-dev, libwayland-dev, libxkbcommon-dev, meson (>= 0.47.0), pkg-config, wayland-protocols, libwlroots-dev (>= 0.10.0), gsettings-desktop-schemas <!nocheck>, mutter-common <!nocheck>, xvfb <!nocheck>, xauth <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 095cc593f047745f515abdb476fba897 2248 phoc_0.6.0-1.dsc
+ 9a93e15c6b842fba1bb5a929728139a7 142186 phoc_0.6.0.orig.tar.gz
+ 633f0b504951d4ac3310aea6f4af0519 5136 phoc_0.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/DebianOnMobile-team/phoc
+Vcs-Git: https://salsa.debian.org/DebianOnMobile-team/phoc.git
+Checksums-Sha256:
+ f30e6e3450e7d7a13146a75e2adf25f2f0c62915219bfafc860643e65c56a7d1 2248 phoc_0.6.0-1.dsc
+ bdd77e4923727e8434f8ff08acdb8b1654055f077eaf2727548d754088929ad7 142186 phoc_0.6.0.orig.tar.gz
+ d8bcd6864677aac1a425e69005e9388020391cd53c033e80bf76b7fa797e9422 5136 phoc_0.6.0-1.debian.tar.xz
+Homepage: https://source.puri.sm/librem5/phoc
+Package-List: 
+ phoc deb x11 optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/phoc
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: xsecurelock
+Binary: xsecurelock
+Version: 1.5.1-1
+Maintainer: Markus Teich <mteich@google.com>
+Uploaders: Rudolf Polzer <rpolzer@google.com>
+Build-Depends: debhelper (>= 12), libc6, libpam-dev, libx11-dev, libxcomposite-dev, libxext-dev, libxfixes-dev, libxft-dev, libxmuu-dev, libxrandr-dev, libxss-dev, pandoc, x11proto-core-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 45cc99f5d81ef353ef633d6c98e9c2fc 2062 xsecurelock_1.5.1-1.dsc
+ aad22687d545e0cb42b65e4c60bdbea5 213362 xsecurelock_1.5.1.orig.tar.gz
+ 31aa38128372d2a7fa790b20fbb9599e 2880 xsecurelock_1.5.1-1.debian.tar.xz
+Vcs-Browser: https://github.com/google/xsecurelock/tree/debian
+Vcs-Git: https://github.com/google/xsecurelock.git -b debian
+Checksums-Sha256:
+ c0ff7abb54f1d327ad0ba71b6ed3ba2af9ea0757d8f9074560c746922426253c 2062 xsecurelock_1.5.1-1.dsc
+ 37f81d230b6a35881dedee9f68971f94aa364dbb127c76db22b039a584a85918 213362 xsecurelock_1.5.1.orig.tar.gz
+ 701e6f629efa2ea5a62c0e858f22d53a2a5906c36f8d40a215dc539bb1624f3b 2880 xsecurelock_1.5.1-1.debian.tar.xz
+Homepage: https://github.com/google/xsecurelock
+Package-List: 
+ xsecurelock deb x11 optional arch=any
+Directory: pool/main/x/xsecurelock
+Priority: extra
+Section: misc

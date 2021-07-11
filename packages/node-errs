@@ -1,0 +1,26 @@
+Package: node-errs
+Binary: node-errs
+Version: 0.3.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), node-vows <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d9e1451fb2faad45b1b785dcb723230b 2009 node-errs_0.3.2-2.dsc
+ c21a996ba72a35d1d0f88e092b2c9c79 8439 node-errs_0.3.2.orig.tar.gz
+ 5d7f8b44126f994807be6743a1ec829a 2476 node-errs_0.3.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-errs
+Vcs-Git: https://salsa.debian.org/js-team/node-errs.git
+Checksums-Sha256:
+ 2f6cb99a68735d2694230271cd92b4c50d3da1945f8e63da9acd7d2789365002 2009 node-errs_0.3.2-2.dsc
+ a1ba3d12fbb7be5cafda59d28758f53daf3b1c27d47107fa432f4ea85e3fed1d 8439 node-errs_0.3.2.orig.tar.gz
+ 7812a1b21e4f8005833e7b03eda2333f27844609b7ef1dc26085cbf8d4e1fee7 2476 node-errs_0.3.2-2.debian.tar.xz
+Homepage: https://github.com/indexzero/errs
+Package-List: 
+ node-errs deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-errs
+Priority: optional
+Section: javascript

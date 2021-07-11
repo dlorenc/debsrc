@@ -1,0 +1,27 @@
+Package: ruby-rest-client
+Binary: ruby-rest-client
+Version: 2.1.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby, ruby-http-accept (<< 2.0), ruby-http-accept (>= 1.7.0), ruby-http-cookie (<< 2.0), ruby-http-cookie (>= 1.0.2), ruby-mime-types (<< 4.0), ruby-mime-types (>= 1.16), ruby-netrc (>= 0.8), ruby-rspec, ruby-webmock (>= 3.0)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 74ef5032c94ff79e57258c70ea36301d 2305 ruby-rest-client_2.1.0-1.dsc
+ d7748f4ba89e1674ce681bc245f0ff9a 143423 ruby-rest-client_2.1.0.orig.tar.gz
+ bf037d8d9756f5a69dae2143062dc1e3 7076 ruby-rest-client_2.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-rest-client
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-rest-client.git
+Checksums-Sha256:
+ e2dcf396c7f86c88f04a4a47f2d254a51f850b266f4b14810d615fd8182f3b32 2305 ruby-rest-client_2.1.0-1.dsc
+ c557042401054d6ec5f9a5f427df5315edb70d21a8e563e6d97dada67cf94315 143423 ruby-rest-client_2.1.0.orig.tar.gz
+ 975b77ef197684c8fe4fa8c272ce39a43ffdd99ea0d4371242156c31a0179374 7076 ruby-rest-client_2.1.0-1.debian.tar.xz
+Homepage: https://github.com/rest-client/rest-client
+Package-List: 
+ ruby-rest-client deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-rest-client
+Priority: source
+Section: ruby

@@ -1,0 +1,28 @@
+Package: libautobox-transform-perl
+Binary: libautobox-transform-perl
+Version: 1.035-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libautobox-core-perl <!nocheck>, libautobox-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libmoo-perl <!nocheck>, libsort-maker-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-simple-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 464d52211d00eb5c8945ebc8502ed110 2736 libautobox-transform-perl_1.035-1.dsc
+ a202448039f5448915bdbb35a4140c40 44206 libautobox-transform-perl_1.035.orig.tar.gz
+ ab71a7240f6a0e782fa2aa0cddb4e8a5 1808 libautobox-transform-perl_1.035-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libautobox-transform-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libautobox-transform-perl.git
+Checksums-Sha256:
+ c328eca758642f2ade1ec94c53ce28efd16c8ab405587a7e7948cc0cfb0c7988 2736 libautobox-transform-perl_1.035-1.dsc
+ a0eaf926e02c4b527120184a6bbc297129f7ab71ed9afac8bfdca49c0137742a 44206 libautobox-transform-perl_1.035.orig.tar.gz
+ 30bdc38b07ef88dcbfc7012160e92130dcc2e060d0a61367c0584cb79a781d80 1808 libautobox-transform-perl_1.035-1.debian.tar.xz
+Homepage: https://metacpan.org/release/autobox-Transform
+Dgit: dcb04b110523bd38571cbe4731cbbd43ec62396d debian archive/debian/1.035-1 https://git.dgit.debian.org/libautobox-transform-perl
+Package-List: 
+ libautobox-transform-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liba/libautobox-transform-perl
+Priority: extra
+Section: misc

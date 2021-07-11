@@ -1,0 +1,26 @@
+Package: rust-tinystr
+Binary: librust-tinystr-dev
+Version: 0.3.2-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Alexander Kjäll <alexander.kjall@gmail.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d4e05868e86f07a04073ffbc0ffefe6b 2148 rust-tinystr_0.3.2-2.dsc
+ 20f423bc8cd98d10baba6a95775e0647 17495 rust-tinystr_0.3.2.orig.tar.gz
+ 77164fed8e6d7ca6d758c3061bf67664 2520 rust-tinystr_0.3.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tinystr
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/tinystr]
+Checksums-Sha256:
+ a432b5ed0496af73ec67e328506c66df6dfce18e23b5f50656b1bfb094b6a1f7 2148 rust-tinystr_0.3.2-2.dsc
+ 4bac79c4b51eda1b090b1edebfb667821bbb51f713855164dc7cec2cb8ac2ba3 17495 rust-tinystr_0.3.2.orig.tar.gz
+ 1b1e2c53e9327e26705d1ee50434cad9c224ff50600ceb1cd3509086994283ab 2520 rust-tinystr_0.3.2-2.debian.tar.xz
+Package-List: 
+ librust-tinystr-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.3+default-dev
+Directory: pool/main/r/rust-tinystr
+Priority: extra
+Section: misc

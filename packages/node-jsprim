@@ -1,0 +1,26 @@
+Package: node-jsprim
+Binary: node-jsprim
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), node-assert-plus, node-extsprintf, node-json-schema, node-verror, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e4567ee4e3d26705bed53f690f3e494a 2072 node-jsprim_2.0.0-1.dsc
+ 7745422bee170d4ddbba61979724c925 26324 node-jsprim_2.0.0.orig.tar.gz
+ 2ead965dc32ee704225c7daa1ce7d950 3032 node-jsprim_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-jsprim
+Vcs-Git: https://salsa.debian.org/js-team/node-jsprim.git
+Checksums-Sha256:
+ 11f92bd50b6dde6e68747c1c201a15a4eb1e1edf03c0f3992b8b091806422893 2072 node-jsprim_2.0.0-1.dsc
+ fe37701322cfb6fe560b86fdf41309d8610468201acad16efe925a655c4b116a 26324 node-jsprim_2.0.0.orig.tar.gz
+ 581d2174ca42e8170de2c98150ce6b0d4d2b6a44f8f9626dff97c1d6457a27b5 3032 node-jsprim_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/joyent/node-jsprim
+Package-List: 
+ node-jsprim deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-jsprim
+Priority: optional
+Section: javascript

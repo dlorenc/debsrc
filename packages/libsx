@@ -1,0 +1,26 @@
+Package: libsx
+Binary: libsx0, libsx-dev
+Version: 2.08-4
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 12), pkg-config, libxpm-dev, libxt-dev, libxaw3dxft8-dev, libx11-dev
+Build-Conflicts: libsx-dev
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e668ebf0557e32f140bd7f2d37db187f 1971 libsx_2.08-4.dsc
+ ff03681f0ceda3fc312d9588f8dbb4f3 296940 libsx_2.08.orig.tar.xz
+ c5ea230cf8a2e2f23c0e9f4ca5ae5776 8664 libsx_2.08-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org:/science-team/libsx.git
+Vcs-Git: https://salsa.debian.org:/science-team/libsx.git
+Checksums-Sha256:
+ ade110cdf4048795b43d068853601289ab39abb38e5f08258eef56e8ecb53a15 1971 libsx_2.08-4.dsc
+ 178f4a111b7e4cf03771a5b3b4a87e0cb3bdf681bcfaef0019109ebf05baa964 296940 libsx_2.08.orig.tar.xz
+ 65afbd0356d6e6f6085a0bb195c636079b0f441cbb7b05d9084e4e47beb2de06 8664 libsx_2.08-4.debian.tar.xz
+Homepage: https://www.dei.isep.ipp.pt/~andre/normas/libsx.htm
+Package-List: 
+ libsx-dev deb libdevel optional arch=any
+ libsx0 deb libs optional arch=any
+Directory: pool/main/libs/libsx
+Priority: source
+Section: utils

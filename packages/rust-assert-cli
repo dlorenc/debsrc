@@ -1,0 +1,25 @@
+Package: rust-assert-cli
+Binary: librust-assert-cli-dev
+Version: 0.6.3-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-colored-1+default-dev (>= 1.5-~~) <!nocheck>, librust-difference-2+default-dev <!nocheck>, librust-environment-0.1+default-dev <!nocheck>, librust-failure-0.1+default-dev <!nocheck>, librust-failure-derive-0.1+default-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 3cee1d21953c029a2cad256f512b7e93 2422 rust-assert-cli_0.6.3-2.dsc
+ 7f199920cf3b7727341cae8de60ddc45 18660 rust-assert-cli_0.6.3.orig.tar.gz
+ 676a4a6c18c27a688e0dbf9b1dca5d76 2640 rust-assert-cli_0.6.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/assert-cli
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/assert-cli]
+Checksums-Sha256:
+ a77479d5658504406dfc56f420d3cb2cda73bd4d1f9c1bcec6d2df17e7cc2177 2422 rust-assert-cli_0.6.3-2.dsc
+ a29ab7c0ed62970beb0534d637a8688842506d0ff9157de83286dacd065c8149 18660 rust-assert-cli_0.6.3.orig.tar.gz
+ 524dc30e27b87005047ef621d5eeedb2ff1bcea08d7f2c90ecd0cabb00dbeefc 2640 rust-assert-cli_0.6.3-2.debian.tar.xz
+Homepage: https://github.com/assert-rs/assert_cli
+Package-List: 
+ librust-assert-cli-dev deb rust optional arch=any
+Directory: pool/main/r/rust-assert-cli
+Priority: extra
+Section: misc

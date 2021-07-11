@@ -1,0 +1,35 @@
+Package: gsasl
+Binary: gsasl, libgsasl7, gsasl-common, gsasl-doc, libgsasl-dev, libgsasl7-dev
+Version: 1.10.0-4
+Maintainer: Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>
+Uploaders: Thadeu Lima de Souza Cascardo <cascardo@minaslivre.org>, Jorge Salamero Sanz <bencer@debian.org>, Simon Josefsson <simon@josefsson.org>
+Build-Depends: debhelper-compat (= 13), gettext, help2man, libgnutls28-dev, libidn11-dev, libkrb5-dev, libntlm0-dev, pkg-config
+Build-Depends-Indep: dblatex, gtk-doc-tools, libglib2.0-dev, texinfo
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7216b2047f219469fd9efa50829dddac 2421 gsasl_1.10.0-4.dsc
+ 70918edd489eabceb622945940871348 5946076 gsasl_1.10.0.orig.tar.gz
+ d5fb422debfe280238e69336ee10ea6f 488 gsasl_1.10.0.orig.tar.gz.asc
+ 0e447935976107d9cbe9782074db7caf 13928 gsasl_1.10.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xmpp-team/gsasl
+Vcs-Git: https://salsa.debian.org/xmpp-team/gsasl.git
+Checksums-Sha256:
+ 306e41c12fc66c48ef0e0df8cea46e07e773d31f1015ac4f2883f545484c6c54 2421 gsasl_1.10.0-4.dsc
+ 85bcbd8ee6095ade7870263a28ebcb8832f541ea7393975494926015c07568d3 5946076 gsasl_1.10.0.orig.tar.gz
+ 092aa96340dd24d796fe8851866aad19ae4cdd99de20886da79d8a36f907dbe6 488 gsasl_1.10.0.orig.tar.gz.asc
+ 12ccfe0a80d50342e65f4867b3fb1cf38c29bdae5b44ebc73f59cb4af87ede1a 13928 gsasl_1.10.0-4.debian.tar.xz
+Homepage: https://www.gnu.org/software/gsasl/
+Package-List: 
+ gsasl deb devel optional arch=any
+ gsasl-common deb devel optional arch=all
+ gsasl-doc deb doc optional arch=all
+ libgsasl-dev deb libdevel optional arch=any
+ libgsasl7 deb libs optional arch=any
+ libgsasl7-dev deb oldlibs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, man, pkg-config
+Directory: pool/main/g/gsasl
+Priority: source
+Section: devel

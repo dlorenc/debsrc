@@ -1,0 +1,27 @@
+Package: r-cran-adephylo
+Binary: r-cran-adephylo
+Version: 1.1-11-4
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ade4, r-cran-phylobase, r-cran-ape, r-cran-adegenet
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e3c3932c2f0c395c2e87f90f635e7abb 2181 r-cran-adephylo_1.1-11-4.dsc
+ e85227e09274001b60965a705268de22 374435 r-cran-adephylo_1.1-11.orig.tar.gz
+ 6af45a1130d3866da75b2ec2461e56b7 3376 r-cran-adephylo_1.1-11-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-adephylo
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-adephylo.git
+Checksums-Sha256:
+ 590993ecd18f87b6f27b26f297dbeb7050d76840df66ea627b5c65f4caa47022 2181 r-cran-adephylo_1.1-11-4.dsc
+ 154bf2645eac4493b85877933b9445442524ca4891aefe4e80c294c398cff61a 374435 r-cran-adephylo_1.1-11.orig.tar.gz
+ 478eda3035b4732a0e35f189eb98afaea00605eaa5fdaafda35657018108d0f2 3376 r-cran-adephylo_1.1-11-4.debian.tar.xz
+Homepage: https://cran.r-project.org/package=adephylo
+Package-List: 
+ r-cran-adephylo deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-adephylo
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: c-icap-modules
+Binary: libc-icap-mod-virus-scan, libc-icap-mod-urlcheck, libc-icap-mod-contentfiltering
+Version: 1:0.5.4-2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), libclamav-dev, libdb-dev, libicapapi-dev (>= 1:0.5.3~), libltdl-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e97d88a7858a38dbcac93da83b7be12e 2167 c-icap-modules_0.5.4-2.dsc
+ 2f8c174f7a5414616f5a0a976ac4a221 450411 c-icap-modules_0.5.4.orig.tar.gz
+ cc0ba9fcd5c534c8b25e01ad959a6cfd 5976 c-icap-modules_0.5.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/c-icap-modules
+Vcs-Git: https://salsa.debian.org/debian/c-icap-modules.git
+Checksums-Sha256:
+ a548c6fc079982fb1a59a10bae12f5108284a5edfc39a4314b19e9412a5ddb10 2167 c-icap-modules_0.5.4-2.dsc
+ 87409920c66027204e9cca5f20e137b63cd12daf6dfcd85c1fa62ab2bd1c57cc 450411 c-icap-modules_0.5.4.orig.tar.gz
+ c13ee6334cedce33585eb0b243ce3c67bbec298065c1c220fd95a5b696475848 5976 c-icap-modules_0.5.4-2.debian.tar.xz
+Homepage: http://c-icap.sourceforge.net/
+Package-List: 
+ libc-icap-mod-contentfiltering deb net optional arch=any
+ libc-icap-mod-urlcheck deb net optional arch=any
+ libc-icap-mod-virus-scan deb net optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/c-icap-modules
+Priority: source
+Section: net

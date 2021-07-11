@@ -1,0 +1,29 @@
+Package: haskell-brainfuck
+Binary: libghc-brainfuck-dev, libghc-brainfuck-prof, libghc-brainfuck-doc, hsbrainfuck
+Version: 0.1.0.3-7
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5c717675213bedd410d50c0a65542c8c 2405 haskell-brainfuck_0.1.0.3-7.dsc
+ 78dc435b44093d5c4906a42004289e98 11872 haskell-brainfuck_0.1.0.3.orig.tar.gz
+ 2e5a44f16a1ede9a0d0f908b27b4672c 3200 haskell-brainfuck_0.1.0.3-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-brainfuck
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-brainfuck]
+Checksums-Sha256:
+ f3a7f978c1fcb3154b80a03156b2f60a4de0e9118df1285f4a63813ab8cbe25a 2405 haskell-brainfuck_0.1.0.3-7.dsc
+ 0db5370311ec8a3a1673fd04e502fd10e0afa0df5ee25d3a917937d3d9668bf6 11872 haskell-brainfuck_0.1.0.3.orig.tar.gz
+ a0e453604dd7a864e3b2622c10877e65267ce9dac0b27c4d44051413065f101e 3200 haskell-brainfuck_0.1.0.3-7.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/brainfuck
+Package-List: 
+ hsbrainfuck deb haskell optional arch=any
+ libghc-brainfuck-dev deb haskell optional arch=any
+ libghc-brainfuck-doc deb doc optional arch=all
+ libghc-brainfuck-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-brainfuck
+Priority: source
+Section: haskell

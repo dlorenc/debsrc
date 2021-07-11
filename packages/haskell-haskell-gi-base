@@ -1,0 +1,28 @@
+Package: haskell-haskell-gi-base
+Binary: libghc-haskell-gi-base-dev, libghc-haskell-gi-base-prof, libghc-haskell-gi-base-doc
+Version: 0.24.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof, pkg-config, libglib2.0-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f31f2663091340c4d5b81a851e24615a 2445 haskell-haskell-gi-base_0.24.2-1.dsc
+ 97310366ba4df277ef36ee109f3aa21d 65716 haskell-haskell-gi-base_0.24.2.orig.tar.gz
+ 9fbfe09e3a903964d2a44182e11f03a5 1548 haskell-haskell-gi-base_0.24.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-haskell-gi-base
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-haskell-gi-base]
+Checksums-Sha256:
+ 92bb114b6670e27d9497e5cc21855dab8e7f9c61fcb5ecd81d5806d29059a79e 2445 haskell-haskell-gi-base_0.24.2-1.dsc
+ 00d74ebafb194e366b2cab2fa13455084677bcca245f699db7f8914ebb5b4b62 65716 haskell-haskell-gi-base_0.24.2.orig.tar.gz
+ 76e29fb46af1e20718b840fc54f3184dd9fef571e2fc31b99cd0c2d16ebe96a9 1548 haskell-haskell-gi-base_0.24.2-1.debian.tar.xz
+Homepage: https://github.com/haskell-gi/haskell-gi
+Package-List: 
+ libghc-haskell-gi-base-dev deb haskell optional arch=any
+ libghc-haskell-gi-base-doc deb doc optional arch=all
+ libghc-haskell-gi-base-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-haskell-gi-base
+Priority: extra
+Section: misc

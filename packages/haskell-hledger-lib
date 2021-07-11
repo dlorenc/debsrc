@@ -1,0 +1,28 @@
+Package: haskell-hledger-lib
+Binary: libghc-hledger-lib-dev, libghc-hledger-lib-prof, libghc-hledger-lib-doc
+Version: 1.18.1-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-decimal-dev (>= 0.5.1), libghc-decimal-prof, libghc-glob-dev (>= 0.9), libghc-glob-prof, libghc-aeson-dev, libghc-aeson-prof, libghc-aeson-pretty-dev, libghc-aeson-pretty-prof, libghc-ansi-terminal-dev (>= 0.6.2.3), libghc-ansi-terminal-prof, libghc-base-compat-batteries-dev (>= 0.10.1), libghc-base-compat-batteries-dev (<< 0.12), libghc-base-compat-batteries-prof, libghc-blaze-markup-dev (>= 0.5.1), libghc-blaze-markup-prof, libghc-call-stack-dev, libghc-call-stack-prof, libghc-cassava-dev, libghc-cassava-prof, libghc-cassava-megaparsec-dev, libghc-cassava-megaparsec-prof, libghc-cmdargs-dev (>= 0.10), libghc-cmdargs-prof, libghc-data-default-dev (>= 0.5), libghc-data-default-prof, libghc-extra-dev (>= 1.6.3), libghc-extra-prof, libghc-fgl-dev (>= 5.5.4.0), libghc-fgl-prof, libghc-file-embed-dev (>= 0.0.10), libghc-file-embed-prof, libghc-hashtables-dev (>= 1.2.3.1), libghc-hashtables-prof, libghc-megaparsec-dev (>= 7.0.0), libghc-megaparsec-dev (<< 8.1), libghc-megaparsec-prof, libghc-old-time-dev, libghc-old-time-prof, libghc-parser-combinators-dev (>= 0.4.0), libghc-parser-combinators-prof, libghc-pretty-show-dev (>= 1.6.4), libghc-pretty-show-prof, libghc-regex-tdfa-dev, libghc-regex-tdfa-prof, libghc-safe-dev (>= 0.2), libghc-safe-prof, libghc-split-dev (>= 0.1), libghc-split-prof, libghc-tabular-dev (>= 0.2), libghc-tabular-prof, libghc-tasty-dev (>= 1.2.3), libghc-tasty-prof, libghc-tasty-hunit-dev (>= 0.10.0.2), libghc-tasty-hunit-prof, libghc-timeit-dev, libghc-timeit-prof, libghc-uglymemo-dev, libghc-uglymemo-prof, libghc-utf8-string-dev (>= 0.3.5), libghc-utf8-string-prof, libghc-doctest-dev (>= 0.16) <!nocheck>
+Build-Depends-Indep: ghc-doc, libghc-decimal-doc, libghc-glob-doc, libghc-aeson-doc, libghc-aeson-pretty-doc, libghc-ansi-terminal-doc, libghc-base-compat-batteries-doc, libghc-blaze-markup-doc, libghc-call-stack-doc, libghc-cassava-doc, libghc-cassava-megaparsec-doc, libghc-cmdargs-doc, libghc-data-default-doc, libghc-extra-doc, libghc-fgl-doc, libghc-file-embed-doc, libghc-hashtables-doc, libghc-megaparsec-doc, libghc-old-time-doc, libghc-parser-combinators-doc, libghc-pretty-show-doc, libghc-regex-tdfa-doc, libghc-safe-doc, libghc-split-doc, libghc-tabular-doc, libghc-tasty-doc, libghc-tasty-hunit-doc, libghc-timeit-doc, libghc-uglymemo-doc, libghc-utf8-string-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ece4b5438792261a33b74df1d590154c 4659 haskell-hledger-lib_1.18.1-1.dsc
+ 0031b65bc15e6a72ca42a3881dc3d01d 324315 haskell-hledger-lib_1.18.1.orig.tar.gz
+ 8469f592d39a0f46ce121130711b1fbb 4024 haskell-hledger-lib_1.18.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hledger-lib
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hledger-lib]
+Checksums-Sha256:
+ 87cf8f8cc5cb935881529ec63343ea9e97506d942948485b11be71238200723d 4659 haskell-hledger-lib_1.18.1-1.dsc
+ 44c265b655a8ad37111821d58486bdbe7e8f0e285d3ecb94b46d132b0219cd99 324315 haskell-hledger-lib_1.18.1.orig.tar.gz
+ 6820f426d07fd4628870e4836558f6a3c6273398dc10ff96d850bb0e2eb4de00 4024 haskell-hledger-lib_1.18.1-1.debian.tar.xz
+Homepage: https://hledger.org
+Package-List: 
+ libghc-hledger-lib-dev deb haskell optional arch=any
+ libghc-hledger-lib-doc deb doc optional arch=all
+ libghc-hledger-lib-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hledger-lib
+Priority: source
+Section: haskell

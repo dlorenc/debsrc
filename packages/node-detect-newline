@@ -1,0 +1,26 @@
+Package: node-detect-newline
+Binary: node-detect-newline
+Version: 3.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ad9b21a3634860c318b913fe65320912 2128 node-detect-newline_3.1.0-1.dsc
+ 1bc0f4e2b44c92a731516411a8141df0 2622 node-detect-newline_3.1.0.orig.tar.gz
+ ad3ce4e253088e30a2a5c251fa66f0e0 2752 node-detect-newline_3.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-detect-newline
+Vcs-Git: https://salsa.debian.org/js-team/node-detect-newline.git
+Checksums-Sha256:
+ c16a059cd5fa963f1d7db946d8b8971497af9b20da05a2ebcc2c8be746dfa024 2128 node-detect-newline_3.1.0-1.dsc
+ ad419a59bba8edb8b232bb2a42326fe9f8a3f4fa4110c6e2b0032006c824a32e 2622 node-detect-newline_3.1.0.orig.tar.gz
+ a5ad5270565c3b0398943057a5cc7126cd54f592ad7f9568a85ccf6920f3a187 2752 node-detect-newline_3.1.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/detect-newline
+Package-List: 
+ node-detect-newline deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-detect-newline
+Priority: optional
+Section: javascript

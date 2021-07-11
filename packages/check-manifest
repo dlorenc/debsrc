@@ -1,0 +1,27 @@
+Package: check-manifest
+Binary: check-manifest
+Version: 0.46-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Sergio Durigan Junior <sergiodj@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-toml, python3-mock, python3-build (>= 0.1), git <!nocheck>, mercurial <!nocheck>, brz <!nocheck>, subversion <!nocheck>, python3-nose <!nocheck>, python3-pep517 <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 096705749da1a1b683750c178133bad0 2381 check-manifest_0.46-1.dsc
+ 868044fa8cd7f9f4aa32ae602295e288 42182 check-manifest_0.46.orig.tar.gz
+ d7d616d3c987a59ef950fc74cbc558cb 5128 check-manifest_0.46-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/check-manifest
+Vcs-Git: https://salsa.debian.org/python-team/packages/check-manifest.git
+Checksums-Sha256:
+ 5238c66c31c6e54fbc58c92a0f3a0f69b8e4d8cbe02b7eed203c36451d08d147 2381 check-manifest_0.46-1.dsc
+ 5895e42a012989bdc51854a02c82c8d6898112a4ab11f2d7878200520b49d428 42182 check-manifest_0.46.orig.tar.gz
+ 1483ef12204d44ebdb0bfdaddd711f104c8f18ddaf873ffdef6a009a0cad0608 5128 check-manifest_0.46-1.debian.tar.xz
+Homepage: https://github.com/mgedmin/check-manifest
+Package-List: 
+ check-manifest deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: brz, git, mercurial, python3-all, python3-mock, python3-nose, python3-setuptools, subversion, tox
+Directory: pool/main/c/check-manifest
+Priority: extra
+Section: misc

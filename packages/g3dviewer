@@ -1,0 +1,25 @@
+Package: g3dviewer
+Binary: g3dviewer
+Version: 0.2.99.5~svn130-11
+Maintainer: Sven Eckelmann <sven@narfation.org>
+Build-Depends: automake, debhelper-compat (= 12), dpkg-dev (>= 1.16.1.1), libg3d-dev (>= 0.0.7), libgl1-mesa-dev | libgl-dev, libglade2-dev, libglib2.0-dev, libglu1-mesa-dev | libglu-dev, libgtk2.0-dev, libgtkglext1-dev, libtool, pkg-config
+Build-Conflicts: autoconf2.13, automake1.4
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 781e37402f48eca937be00620310eb53 2182 g3dviewer_0.2.99.5~svn130-11.dsc
+ c5318a50e2a292fc2f81defa3e7a519b 395650 g3dviewer_0.2.99.5~svn130.orig.tar.gz
+ a3494e229ae1aaba077c2f66fe0068bf 60792 g3dviewer_0.2.99.5~svn130-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ecsv-guest/g3dviewer
+Vcs-Git: https://salsa.debian.org/ecsv-guest/g3dviewer.git -b debian/sid
+Checksums-Sha256:
+ 7fff1553da357bc980183333c0b29bca9e7bcd5095fd5126b1fc126a6992185c 2182 g3dviewer_0.2.99.5~svn130-11.dsc
+ 6ff209bdf3d00875073d76414cb63532eb72979b93a34cb3acccb90a6638580e 395650 g3dviewer_0.2.99.5~svn130.orig.tar.gz
+ 04c90a2e07f0f9c6fa75591ffc57936771f0596070a024f117a8f32a161221c6 60792 g3dviewer_0.2.99.5~svn130-11.debian.tar.xz
+Homepage: http://automagically.de/g3dviewer/
+Package-List: 
+ g3dviewer deb graphics optional arch=any
+Directory: pool/main/g/g3dviewer
+Priority: source
+Section: graphics

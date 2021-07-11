@@ -1,0 +1,26 @@
+Package: rust-owning-ref
+Binary: librust-owning-ref-dev
+Version: 0.4.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-stable-deref-trait-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6b5dc0a6764366333d307eb407cfbb96 2232 rust-owning-ref_0.4.1-1.dsc
+ 6fb245ba04d6859fadef5fe22806355b 12658 rust-owning-ref_0.4.1.orig.tar.gz
+ cc3c0549809cee0f4093eb4305885607 2536 rust-owning-ref_0.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/owning-ref
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/owning-ref]
+Checksums-Sha256:
+ 2339acbfec5de5907fcae0af1e6fa6914e6bb51683b19dfa5e7cb015ec6239fd 2232 rust-owning-ref_0.4.1-1.dsc
+ 6ff55baddef9e4ad00f88b6c743a2a8062d4c6ade126c2a528644b8e444d52ce 12658 rust-owning-ref_0.4.1.orig.tar.gz
+ 12b6f2677de8b09b9faddd47c3555659c98d031fa12c458715ba15efa8722a72 2536 rust-owning-ref_0.4.1-1.debian.tar.xz
+Package-List: 
+ librust-owning-ref-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-owning-ref
+Priority: extra
+Section: misc

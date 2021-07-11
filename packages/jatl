@@ -1,0 +1,26 @@
+Package: jatl
+Binary: libjatl-java
+Version: 0.2.3-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper (>= 1.5)
+Build-Depends-Indep: junit4, libcommons-lang3-java, libmaven-bundle-plugin-java
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 9c09fe5b42dfb43d6ab99b713984e21b 2016 jatl_0.2.3-1.1.dsc
+ ccb8b2a768d81a5c1d0d777fb71f3e7e 36348 jatl_0.2.3.orig.tar.xz
+ 9069ba18905590b0a94af2c770b6b00a 2832 jatl_0.2.3-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/jatl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/jatl.git
+Checksums-Sha256:
+ 2dcee8e7656da2a037a7ad49620281e44fd1ad849dec662fe09a1f63b69f18ff 2016 jatl_0.2.3-1.1.dsc
+ 71e92ad4f5856d7a181d8bdc44aa1f6366c0627724f893e5a3eaf41afd8a590e 36348 jatl_0.2.3.orig.tar.xz
+ adee11662cc2415611388d21f18aa415d6cea355490fe6c5025674d2e954f20f 2832 jatl_0.2.3-1.1.debian.tar.xz
+Homepage: https://github.com/agentgt/jatl
+Package-List: 
+ libjatl-java deb java optional arch=all
+Directory: pool/main/j/jatl
+Priority: optional
+Section: misc

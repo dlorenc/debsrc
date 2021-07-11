@@ -1,0 +1,28 @@
+Package: sepia
+Binary: sepia
+Version: 0.992-7
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: texinfo <!nocheck>, perl, libio-stringy-perl <!nocheck>, libpadwalker-perl <!nocheck>, libmodule-info-perl <!nocheck>, libscope-upper-perl <!nocheck>, libdevel-lexalias-perl <!nocheck>, libmodule-corelist-perl <!nocheck>, libwww-perl <!nocheck>, libdata-dump-perl <!nocheck>, libdevel-size-perl <!nocheck>, libbsd-resource-perl <!nocheck>, libtest-expect-perl (>= 0.33) <!nocheck>, libtest-without-module-perl <!nocheck>, install-info
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ a2488704c9f8df282f78fd9116d0feb6 2635 sepia_0.992-7.dsc
+ 6998853d0b083981a1545b29a757272d 152608 sepia_0.992.orig.tar.gz
+ f6c009a1c5a40f069c82922aac8cc8b6 13688 sepia_0.992-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/sepia
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/sepia.git
+Checksums-Sha256:
+ 07723d66e5709b5d98d4618f08f9712543efc4c37e6d0cafe6ad5c6291bcbcb1 2635 sepia_0.992-7.dsc
+ 02d4535535b1308c74fc1be4b91b9a2c2642d74f1e7cda18b67f3fde20908f8c 152608 sepia_0.992.orig.tar.gz
+ f6db23ea71bb3a7c091e3794aab9ee13e802ccc814a66942e6c1e47fc1a160dd 13688 sepia_0.992-7.debian.tar.xz
+Homepage: https://metacpan.org/release/Sepia
+Dgit: 021ac12ad554fe6aa3cb98b101f559c2adef0b2f debian archive/debian/0.992-7 https://git.dgit.debian.org/sepia
+Package-List: 
+ sepia deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/s/sepia
+Priority: source
+Section: perl

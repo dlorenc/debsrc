@@ -1,0 +1,27 @@
+Package: haskell-dbus-hslogger
+Binary: libghc-dbus-hslogger-dev, libghc-dbus-hslogger-prof, libghc-dbus-hslogger-doc, haskell-dbus-hslogger-utils
+Version: 0.1.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-dbus-dev (>= 1.0.1), libghc-dbus-dev (<< 2), libghc-dbus-prof (>= 1.0.1), libghc-dbus-prof (<< 2), libghc-hslogger-dev, libghc-hslogger-prof, libghc-optparse-applicative-dev, libghc-optparse-applicative-prof
+Build-Depends-Indep: ghc-doc, libghc-dbus-doc, libghc-hslogger-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 02a44cc3e0b43b26ba27aaee32e4fc46 2579 haskell-dbus-hslogger_0.1.0.1-2.dsc
+ 5856e1bddfbd88868af429ca06225e10 2824 haskell-dbus-hslogger_0.1.0.1.orig.tar.gz
+ e0cb1ed689df91aaa202c48c689d082d 2288 haskell-dbus-hslogger_0.1.0.1-2.debian.tar.xz
+Checksums-Sha256:
+ 62f8229de35c1a5a45585b4b18e0f6c5d6569d53c795ff26aa294d6f93b6153f 2579 haskell-dbus-hslogger_0.1.0.1-2.dsc
+ f103f4ccbc3258af95e6d7b20d9adbbccc94b5377edcb36865a3dca766325e44 2824 haskell-dbus-hslogger_0.1.0.1.orig.tar.gz
+ ca9c8317d647af82b3b4c6531a950de134b7dc0f37dd01fc4307a70323691c71 2288 haskell-dbus-hslogger_0.1.0.1-2.debian.tar.xz
+Homepage: https://github.com/IvanMalison/dbus-hslogger#readme
+Package-List: 
+ haskell-dbus-hslogger-utils deb misc optional arch=any
+ libghc-dbus-hslogger-dev deb haskell optional arch=any
+ libghc-dbus-hslogger-doc deb doc optional arch=all
+ libghc-dbus-hslogger-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-dbus-hslogger
+Priority: extra
+Section: misc

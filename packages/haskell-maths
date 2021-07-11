@@ -1,0 +1,28 @@
+Package: haskell-maths
+Binary: libghc-maths-dev, libghc-maths-prof, libghc-maths-doc
+Version: 0.4.9-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iulian Udrea <iulian@ubuntu.com>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-random-dev, libghc-random-prof
+Build-Depends-Indep: ghc-doc, libghc-random-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5df24e75dcc8fe99e6ceb6a1720cd389 2326 haskell-maths_0.4.9-2.dsc
+ ceda8050e65cedfc2b2a1c4de98f0181 191559 haskell-maths_0.4.9.orig.tar.gz
+ 3dd862da4fbe0f6da8879de1381dac26 3248 haskell-maths_0.4.9-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-maths
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-maths]
+Checksums-Sha256:
+ ff1fde0663eb3dcd1b69c994ad54f2a8e2d86345770f3920d5959981b8c1e88a 2326 haskell-maths_0.4.9-2.dsc
+ 3f83634e536fa67343b37494494e77550e82f4f50053a5c298662f095eaaf1c9 191559 haskell-maths_0.4.9.orig.tar.gz
+ b427bc1fe73a0c52edc2242600afb938b7829abf144a770ecde45782d173a75c 3248 haskell-maths_0.4.9-2.debian.tar.xz
+Homepage: http://haskellformaths.blogspot.com/
+Package-List: 
+ libghc-maths-dev deb haskell optional arch=any
+ libghc-maths-doc deb doc optional arch=all
+ libghc-maths-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-maths
+Priority: source
+Section: haskell

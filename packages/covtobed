@@ -1,0 +1,27 @@
+Package: covtobed
+Binary: covtobed, covtobed-examples
+Version: 1.2.0+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Shayan Doust <hello@shayandoust.me>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), libbamtools-dev, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d23c868b085c8afd75bb2d336dc4a412 2145 covtobed_1.2.0+dfsg-1.dsc
+ aa91bfd8bfcd12dca43945fbe18b2acf 35265896 covtobed_1.2.0+dfsg.orig.tar.xz
+ e33805dbfa79967249b67e27d547c722 5940 covtobed_1.2.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/covtobed
+Vcs-Git: https://salsa.debian.org/med-team/covtobed.git
+Checksums-Sha256:
+ 3ae72a794d7ea7c72fc064d1238b1a205b4e3083b18841ba725750593abb76ce 2145 covtobed_1.2.0+dfsg-1.dsc
+ 5a5c71f31144bd216d87c3080df91ae021f1c486758c1dd47d6ca75d42dcab92 35265896 covtobed_1.2.0+dfsg.orig.tar.xz
+ eff04c2391066b7fbc0f73b9579f93279b897977ab8ceb903b052f35097d7b3c 5940 covtobed_1.2.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/telatin/covtobed
+Package-List: 
+ covtobed deb science optional arch=any
+ covtobed-examples deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/c/covtobed
+Priority: extra
+Section: misc

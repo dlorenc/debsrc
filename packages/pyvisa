@@ -1,0 +1,26 @@
+Package: pyvisa
+Binary: python3-pyvisa
+Version: 1.11.3-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ruben Undheim <ruben.undheim@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-pytest, python3-typing-extensions
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0fd24a3bb4b4b5d0ce3378df680c45fb 2095 pyvisa_1.11.3-2.dsc
+ a82a9138ef996b3c48b70f1bf0d452f6 220527 pyvisa_1.11.3.orig.tar.gz
+ 8c5d805060245ce6bb3e6c4ec6f43e5d 5628 pyvisa_1.11.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyvisa
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyvisa.git
+Checksums-Sha256:
+ fbf119f1d9cfc0c921d6d6066782eb633bfe72855da6e3dd66b650907bfc4dd6 2095 pyvisa_1.11.3-2.dsc
+ 8f8a309050a784b518a04b1506a06d34c69c630ee553e8a88d9d89cea4fd318a 220527 pyvisa_1.11.3.orig.tar.gz
+ b7ef889d9a68149f148c52012e1f0a3e514ebbba1a10008cf217ecfe3f399259 5628 pyvisa_1.11.3-2.debian.tar.xz
+Homepage: https://pyvisa.readthedocs.io/
+Package-List: 
+ python3-pyvisa deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pyvisa
+Priority: source
+Section: misc

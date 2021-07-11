@@ -1,0 +1,26 @@
+Package: pyzabbix
+Binary: python3-pyzabbix
+Version: 0.8.2-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, python3-all, python3-pbr (>= 2.0.0), python3-setuptools
+Build-Depends-Indep: python3-httpretty, python3-requests
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 31d19c3c6358d14b9f6c59464102faf7 2113 pyzabbix_0.8.2-1.dsc
+ 7d4a4baf74f49d77af3d1acc6a9e6371 8552 pyzabbix_0.8.2.orig.tar.xz
+ b5a6937a5952d76db127d2c73de39ae0 2404 pyzabbix_0.8.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/python/python-pyzabbix
+Vcs-Git: https://salsa.debian.org/openstack-team/python/python-pyzabbix.git
+Checksums-Sha256:
+ 6648149d7b2b106b1caaf951a0e35e08230b70476c15722a51f9e19379a6f9a9 2113 pyzabbix_0.8.2-1.dsc
+ f5afa4dc562e939f5fcd925709e7712b95c2b30fadb6cedadfb1bb3cc53bb3f8 8552 pyzabbix_0.8.2.orig.tar.xz
+ 582c653133b7ba2b365dcd80a5bcc89996229e1ef873ba4d42b065397cd89098 2404 pyzabbix_0.8.2-1.debian.tar.xz
+Homepage: https://github.com/lukecyca/pyzabbix.git
+Package-List: 
+ python3-pyzabbix deb python optional arch=all
+Directory: pool/main/p/pyzabbix
+Priority: extra
+Section: misc

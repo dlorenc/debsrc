@@ -1,0 +1,25 @@
+Package: haskell-panic
+Binary: libghc-panic-dev, libghc-panic-prof, libghc-panic-doc
+Version: 0.4.0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-gitrev-dev (>= 1.0), libghc-gitrev-prof (>= 1.0)
+Build-Depends-Indep: ghc-doc, libghc-gitrev-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 57da586af7af3d43f49851d19ace9766 2150 haskell-panic_0.4.0.1-2.dsc
+ 8886cf93e17e3bcacab4beafe01b3743 2265 haskell-panic_0.4.0.1.orig.tar.gz
+ 5051161d5dbca82809e91d882ec914a7 1768 haskell-panic_0.4.0.1-2.debian.tar.xz
+Checksums-Sha256:
+ 026698f7a1d402d527db36f0cf85982b6f803d9947ea4dcd231ec49c2b332da1 2150 haskell-panic_0.4.0.1-2.dsc
+ 15dceb4240257a8e8e451a0d9d14ca5316b204214c08e211febbdcefd1732d42 2265 haskell-panic_0.4.0.1.orig.tar.gz
+ e1f5b9e99e6ec4bcd689000f09773f02182ea40f79ba7a71bc90f3748a32f46b 1768 haskell-panic_0.4.0.1-2.debian.tar.xz
+Package-List: 
+ libghc-panic-dev deb haskell optional arch=any
+ libghc-panic-doc deb doc optional arch=all
+ libghc-panic-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-panic
+Priority: extra
+Section: misc

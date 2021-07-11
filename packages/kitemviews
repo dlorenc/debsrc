@@ -1,0 +1,32 @@
+Package: kitemviews
+Binary: libkf5itemviews-data, libkf5itemviews-dev, libkf5itemviews-doc, libkf5itemviews5
+Version: 5.78.0-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), graphviz, libqt5sql5-sqlite:native, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qttools5-dev (>= 5.4), qttools5-dev-tools (>= 5.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 37bdc245203e2e14817d276665b0fbb0 2457 kitemviews_5.78.0-2.dsc
+ eaa717b78fb9708b28f5d32c0f142338 75144 kitemviews_5.78.0.orig.tar.xz
+ 49fb24c3c98fb0037d0fb20069435a74 488 kitemviews_5.78.0.orig.tar.xz.asc
+ 5b00c88bdb33e33a8556f488bda55f93 12912 kitemviews_5.78.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kitemviews
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kitemviews.git
+Checksums-Sha256:
+ 81ba71ac71a91d33c611a86fabcad7e7d17441c9990d54e2282854c025571320 2457 kitemviews_5.78.0-2.dsc
+ 05f8895880afd15b2c08570df26cfc6cec847808e1aab0968ffeaf47618eda83 75144 kitemviews_5.78.0.orig.tar.xz
+ 1782c1ed44acad43115b397e48303dd90aa30169d4ea3e3c19f3b7f4e5bf0f94 488 kitemviews_5.78.0.orig.tar.xz.asc
+ fc1b162c78dd8f22fff3046f6b81ea195d38954c80716881d0bea428ee3ee0fb 12912 kitemviews_5.78.0-2.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/kitemviews
+Package-List: 
+ libkf5itemviews-data deb libs optional arch=all
+ libkf5itemviews-dev deb libdevel optional arch=any
+ libkf5itemviews-doc deb doc optional arch=all
+ libkf5itemviews5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, build-essential, dbus, dh-acc, exuberant-ctags, xauth, xvfb
+Directory: pool/main/k/kitemviews
+Priority: optional
+Section: misc

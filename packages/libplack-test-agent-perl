@@ -1,0 +1,28 @@
+Package: libplack-test-agent-perl
+Binary: libplack-test-agent-perl
+Version: 1.5-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Andrew Shadura <andrewsh@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libhttp-cookies-perl <!nocheck>, libhttp-message-perl <!nocheck>, libhttp-server-simple-psgi-perl <!nocheck>, libmodern-perl-perl <!nocheck>, libplack-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, libtest-requires-perl <!nocheck>, libtest-tcp-perl <!nocheck>, libtest-www-mechanize-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d52d52f86c9a4391cea4a99492538e37 2734 libplack-test-agent-perl_1.5-1.dsc
+ 4d33d920db3939e6a7cee934141f8af2 26047 libplack-test-agent-perl_1.5.orig.tar.gz
+ b10b2e4911ef3e7f31c85390d9ab54ac 2156 libplack-test-agent-perl_1.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libplack-test-agent-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libplack-test-agent-perl.git
+Checksums-Sha256:
+ 6ef425926cf9405ddbaa8ecb4a755513147ce27b3b5fd13530a0fa2ead0a3c12 2734 libplack-test-agent-perl_1.5-1.dsc
+ 3816dc777c869d86c993ecbcb39c9089663de0dc85302376c9f1a61486522545 26047 libplack-test-agent-perl_1.5.orig.tar.gz
+ 7a9976d6ecc1847600478ab4cebc3fea19b34daa17b4dcb1a008a1e89a5cdf27 2156 libplack-test-agent-perl_1.5-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Plack-Test-Agent
+Dgit: 1ac674f30bf862d011ef8eee150c85592275f901 debian archive/debian/1.5-1 https://git.dgit.debian.org/libplack-test-agent-perl
+Package-List: 
+ libplack-test-agent-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libp/libplack-test-agent-perl
+Priority: extra
+Section: misc

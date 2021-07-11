@@ -1,0 +1,30 @@
+Package: tdb
+Binary: libtdb1, tdb-tools, libtdb-dev, python3-tdb
+Version: 1.4.3-1
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Uploaders: Jelmer Vernooĳ <jelmer@debian.org>, Mathieu Parent <sathieu@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, docbook-xml, docbook-xsl, python3-dev, xsltproc
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2f49e362cbbea2c830297c100ac2983f 2190 tdb_1.4.3-1.dsc
+ e638e8890f743624a754304b3f994f4d 702836 tdb_1.4.3.orig.tar.gz
+ a085a20d8c55bd595576ec13eff5957f 17876 tdb_1.4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/samba-team/tdb
+Vcs-Git: https://salsa.debian.org/samba-team/tdb.git
+Checksums-Sha256:
+ f342bbfd27ac9788c22438cc075e0873eb2d4cff0cebb9398bf7bbc6118cb873 2190 tdb_1.4.3-1.dsc
+ c8058393dfa15f47e11ebd2f1d132693f0b3b3b8bf22d0201bfb305026f88a1b 702836 tdb_1.4.3.orig.tar.gz
+ 0ff5b974a574257ef4d409361576a58583a7e07d2ffeea9a1ae15979585fc12d 17876 tdb_1.4.3-1.debian.tar.xz
+Homepage: https://tdb.samba.org/
+Package-List: 
+ libtdb-dev deb libdevel optional arch=any
+ libtdb1 deb libs optional arch=any
+ python3-tdb deb python optional arch=any
+ tdb-tools deb utils optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3
+Directory: pool/main/t/tdb
+Priority: source
+Section: devel

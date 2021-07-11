@@ -1,0 +1,29 @@
+Package: ipython
+Binary: python-ipython-doc, python3-ipython, ipython3
+Version: 7.20.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>, Gordon Ball <gordon@chronitis.net>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-backcall, python3-decorator, python3-jedi (>= 0.16), python3-nose, python3-numpydoc, python3-pexpect, python3-pickleshare, python3-prompt-toolkit (>= 2), python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-traitlets
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 04daa2938ffdc90eb6e22ab15abe17fb 2546 ipython_7.20.0-1.dsc
+ 1b0359c46d221bae51760cbd92499428 5696179 ipython_7.20.0.orig.tar.gz
+ 2a278bbc1717fba89ff601528c9e2b75 7852 ipython_7.20.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/ipython
+Vcs-Git: https://salsa.debian.org/python-team/packages/ipython.git
+Checksums-Sha256:
+ b3ea0bc0814f7a6561f5e050fa492f47e3e6419ac09fc2749e982a17d7c22a2d 2546 ipython_7.20.0-1.dsc
+ a26fbf2837e8191ed297f77454be4c91a44a3686bf4762c61b2d073207f19850 5696179 ipython_7.20.0.orig.tar.gz
+ f93593c4daa167a3e33e9a7d9eb7a94e78a9c8b939cb7bf1b413d9f9c8632187 7852 ipython_7.20.0-1.debian.tar.xz
+Homepage: https://github.com/ipython/ipython
+Package-List: 
+ ipython3 deb interpreters optional arch=all
+ python-ipython-doc deb doc optional arch=all
+ python3-ipython deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: git, python3-ipykernel, python3-matplotlib, python3-nbformat, python3-nose, python3-pytest, python3-testpath
+Directory: pool/main/i/ipython
+Priority: source
+Section: python

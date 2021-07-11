@@ -1,0 +1,27 @@
+Package: node-wordwrap
+Binary: node-wordwrap
+Version: 1.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 86807ab2d0b142c18458e59f6d151462 2078 node-wordwrap_1.0.0-2.dsc
+ 6f459e10a9196d7643671da95ac3964c 14591 node-wordwrap_1.0.0.orig.tar.gz
+ a0e1a9aca389f185bb312df314f694ee 2544 node-wordwrap_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-wordwrap
+Vcs-Git: https://salsa.debian.org/js-team/node-wordwrap.git
+Checksums-Sha256:
+ b2438aa17dae94bb891318a164feef577a3fbffa66dde97414ab837b4e7ec7aa 2078 node-wordwrap_1.0.0-2.dsc
+ 2f02548309dc5c6c4390745f8a73f342945c04fe4a801b834d510ce63213106b 14591 node-wordwrap_1.0.0.orig.tar.gz
+ 58c9a3f517a5ef3f2fc687e2b066b3281a453a0ae98255172bc78277e989adb5 2544 node-wordwrap_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/substack/node-wordwrap
+Package-List: 
+ node-wordwrap deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-wordwrap
+Priority: source
+Section: javascript

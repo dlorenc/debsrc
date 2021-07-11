@@ -1,0 +1,26 @@
+Package: stdx-allocator
+Binary: libstdx-allocator0, libstdx-allocator-dev
+Version: 3.1.0~beta.2-3
+Maintainer: Debian D Language Group <team+d-team@tracker.debian.org>
+Uploaders: Matthias Klumpp <mak@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-dlang, libmir-core-dev (>= 1.0.1-2), meson (>= 0.46), pkg-config
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 3904b53eb8030777cb180e83ccbcb7c2 2190 stdx-allocator_3.1.0~beta.2-3.dsc
+ 64d00066ae0eabd74f0cbe78506d8782 96907 stdx-allocator_3.1.0~beta.2.orig.tar.gz
+ 54320f72bcaac4fcca2e9951e6dcfbbc 3116 stdx-allocator_3.1.0~beta.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/d-team/stdx-allocator
+Vcs-Git: https://salsa.debian.org/d-team/stdx-allocator.git
+Checksums-Sha256:
+ 7438ec442ed5eb9fdb38cb802ded6c6376556218cba54bc116cb2b462c53fb1b 2190 stdx-allocator_3.1.0~beta.2-3.dsc
+ 413eff351370cb437efa12ce45476e140b6cf639b7afb07e887f7904e792542d 96907 stdx-allocator_3.1.0~beta.2.orig.tar.gz
+ 182431ea8eaf051dfbfae8f3c1b64555e84fea82054a152c47e461a428ac8fec 3116 stdx-allocator_3.1.0~beta.2-3.debian.tar.xz
+Homepage: https://github.com/dlang-community/stdx-allocator
+Package-List: 
+ libstdx-allocator-dev deb libdevel optional arch=any
+ libstdx-allocator0 deb libs optional arch=any
+Directory: pool/main/s/stdx-allocator
+Priority: extra
+Section: misc

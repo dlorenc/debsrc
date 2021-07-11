@@ -1,0 +1,27 @@
+Package: rust-digest
+Binary: librust-digest-dev, librust-digest+blobby-dev
+Version: 0.9.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-generic-array-0.14+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3fc110ae9552e3b3a6080b4545d4b6ec 2209 rust-digest_0.9.0-1.dsc
+ 493a2f042d86baa5c6bac75202c64554 13247 rust-digest_0.9.0.orig.tar.gz
+ 7fdb79226c64c8dbbcb01b18ecf65443 2884 rust-digest_0.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/digest
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/digest]
+Checksums-Sha256:
+ 3fde3980c97114a9705ea33cd985d4cb2939823fd69709de40eb273c1bd05405 2209 rust-digest_0.9.0-1.dsc
+ d3dd60d1080a57a05ab032377049e0591415d2b31afd7028356dbf3cc6dcb066 13247 rust-digest_0.9.0.orig.tar.gz
+ 48c0a4a2298cfba24e2273961cd9476f80ee6bbbb8c22f6751f979af1f3d278f 2884 rust-digest_0.9.0-1.debian.tar.xz
+Package-List: 
+ librust-digest+blobby-dev deb rust optional arch=any
+ librust-digest-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-digest
+Priority: extra
+Section: misc

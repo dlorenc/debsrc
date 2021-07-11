@@ -1,0 +1,29 @@
+Package: barman
+Binary: barman, barman-cli, barman-cli-cloud, python3-barman
+Version: 2.12-1
+Maintainer: Marco Nenciarini <mnencia@debian.org>
+Build-Depends: debhelper (>= 10), dh-python, python3-all, python3-setuptools (>= 0.6b3~), bash-completion
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9fd0c445400d292091df4e2071637fa5 2291 barman_2.12-1.dsc
+ 8360aa84608daf477923ba4e6c86fc28 1262415 barman_2.12.orig.tar.gz
+ a95b65191b1fbae0ac440064819322fa 833 barman_2.12.orig.tar.gz.asc
+ d0e77125803b419bb0faf6562b2b91be 10988 barman_2.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/barman
+Vcs-Git: https://salsa.debian.org/postgresql/barman.git
+Checksums-Sha256:
+ 63d6f9a7c6acecfef7abc112d8e7af89fa71c6244892d674492ff2cf7739f981 2291 barman_2.12-1.dsc
+ 4ecf08ead94fd86469f7438820a5f2f9c4565af50edd29bceb3ab676d54fe581 1262415 barman_2.12.orig.tar.gz
+ a30605c486340a65b71d801521861697725f96a87f7c124edacd85a6891e2ab1 833 barman_2.12.orig.tar.gz.asc
+ 4df2dd4839e6231377afea0d56c94d032b9d2c0c43535114d811e1522c3df73b 10988 barman_2.12-1.debian.tar.xz
+Homepage: http://www.pgbarman.org
+Package-List: 
+ barman deb database optional arch=all
+ barman-cli deb database optional arch=all
+ barman-cli-cloud deb database optional arch=all
+ python3-barman deb python optional arch=all
+Directory: pool/main/b/barman
+Priority: source
+Section: misc

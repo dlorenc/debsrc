@@ -1,0 +1,27 @@
+Package: unbescape
+Binary: libunbescape-java, libunbescape-java-doc
+Version: 1.1.5-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Christopher Hoskin <mans0954@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: libmaven-bundle-plugin-java (>= 2.5.4), libmaven-javadoc-plugin-java (>= 3.0.0~M1), default-jdk-doc
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 03c687956130cbef35007aef7bd08a80 2186 unbescape_1.1.5-1.1.dsc
+ f421f893e04e17c1d9204d1d63e2857c 391944 unbescape_1.1.5.orig.tar.gz
+ 13634ae12919d3ec9ebce21dd0e4393a 3124 unbescape_1.1.5-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/unbescape.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/unbescape.git
+Checksums-Sha256:
+ 6bae0c9850ccb9754cff5732b1bde3b43313dcb3c2e1bf43df9d4e4b89fdc0a2 2186 unbescape_1.1.5-1.1.dsc
+ 83c4b4aaeaad6b52b310cb88bbfcf1d23692694230c2a64edb9a0b99571041d4 391944 unbescape_1.1.5.orig.tar.gz
+ e625fc4465b5074aedbff9dc12e05d01cfe8099c9147c2be20ff6274961c9cdb 3124 unbescape_1.1.5-1.1.debian.tar.xz
+Homepage: http://www.unbescape.org
+Package-List: 
+ libunbescape-java deb java optional arch=all
+ libunbescape-java-doc deb doc optional arch=all
+Directory: pool/main/u/unbescape
+Priority: extra
+Section: misc

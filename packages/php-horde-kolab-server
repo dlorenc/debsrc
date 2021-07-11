@@ -1,0 +1,27 @@
+Package: php-horde-kolab-server
+Binary: php-horde-kolab-server
+Version: 2.0.5-9
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 880ffd138b01a180f1da5142c2e195c9 2252 php-horde-kolab-server_2.0.5-9.dsc
+ eca60f68543a373e294f79427db21274 101943 php-horde-kolab-server_2.0.5.orig.tar.gz
+ a60d97f654c938fecd601af476b4ff8f 9588 php-horde-kolab-server_2.0.5-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-kolab-server
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-kolab-server.git
+Checksums-Sha256:
+ 1bb88edf0390bee6c2e219dceff40a98e45fdb5681956dd30a9488ee953fa65d 2252 php-horde-kolab-server_2.0.5-9.dsc
+ b922725e43a25b630f7c959818b4bd97f33b73ee8b7a6f5a1159f01e60cf6a93 101943 php-horde-kolab-server_2.0.5.orig.tar.gz
+ 9192af336099d0dbd3163d20dbea821b3296f3b38387fb35933e8291ef511334 9588 php-horde-kolab-server_2.0.5-9.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-kolab-server deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-ldap, php-horde-log, php-horde-test, php-ldap
+Directory: pool/main/p/php-horde-kolab-server
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: python-eventlet
+Binary: python-eventlet-doc, python3-eventlet
+Version: 0.26.1-7
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, netbase, python3-all, python3-setuptools (>= 20.6.8), python3-sphinx
+Build-Depends-Indep: python3-dnspython, python3-greenlet, python3-httplib2, python3-monotonic (>= 1.4), python3-nose, python3-openssl, python3-six, python3-zmq
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6fdca94e59e77894fc8be3fb430ef9e4 2506 python-eventlet_0.26.1-7.dsc
+ 9abd39b758f3908a85026c9066836056 398200 python-eventlet_0.26.1.orig.tar.gz
+ c609a24d82702766be637dd1326002ee 24684 python-eventlet_0.26.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-eventlet
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-eventlet.git
+Checksums-Sha256:
+ 30aecb6f86f056db7e5ec7afe4e66f79abf64c0569aba5ac6c9210ea5b569e7e 2506 python-eventlet_0.26.1-7.dsc
+ 4f4a43366b4cbd4a3f2f231816e5c3dae8ab316df9b7da11f0525e2800559f33 398200 python-eventlet_0.26.1.orig.tar.gz
+ 6fff73f94a36dc24ed6c98db352ebb3903ada58100ee88403cdee2d77867e693 24684 python-eventlet_0.26.1-7.debian.tar.xz
+Homepage: https://eventlet.net
+Package-List: 
+ python-eventlet-doc deb doc optional arch=all
+ python3-eventlet deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-dnspython, python3-greenlet, python3-httplib2, python3-monotonic, python3-nose, python3-openssl, python3-six, python3-zmq
+Directory: pool/main/p/python-eventlet
+Priority: source
+Section: python

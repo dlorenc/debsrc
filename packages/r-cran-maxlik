@@ -1,0 +1,27 @@
+Package: r-cran-maxlik
+Binary: r-cran-maxlik
+Version: 1.4-6-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-misctools, r-cran-sandwich
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 41944659afde8eae9cbbb5fab9c0874f 2129 r-cran-maxlik_1.4-6-1.dsc
+ ad3adb94f63a41abfc459c8015432d95 421631 r-cran-maxlik_1.4-6.orig.tar.gz
+ 97ad43ad510ec1a9f80c16ca954c9f1a 3196 r-cran-maxlik_1.4-6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-maxlik
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-maxlik.git
+Checksums-Sha256:
+ 013e7a5da750334a1d06853e04e981f2a5cc88d6ff628c2980a87fce3d6a2144 2129 r-cran-maxlik_1.4-6-1.dsc
+ 06473a20e7a427d7fb2f7da4bab0b48f316729128eb5f0c4821663f7c19adaeb 421631 r-cran-maxlik_1.4-6.orig.tar.gz
+ 63e789e15f74d9f8d8406a32a68d1c949f1e1dbe4d657144480c6568a893ecf3 3196 r-cran-maxlik_1.4-6-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=maxLik
+Package-List: 
+ r-cran-maxlik deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-maxlik
+Priority: optional
+Section: misc

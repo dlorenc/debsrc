@@ -1,0 +1,27 @@
+Package: ruby-licensee
+Binary: ruby-licensee
+Version: 8.9.2-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb, git, rake, ruby-coveralls, ruby-rspec, ruby-rugged (>= 0.24~b), ruby-shoulda
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 90c9aa1ae40c37e563ecab67725f1546 1776 ruby-licensee_8.9.2-2.dsc
+ a4a725445d58027dd354708367fab1bf 162452 ruby-licensee_8.9.2.orig.tar.gz
+ 0f548e5e0f9d8a9efe5183ec9bd6744b 4348 ruby-licensee_8.9.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-licensee
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-licensee.git
+Checksums-Sha256:
+ 9beae7f8c765baed7b784a17adf01be8134da84410e2c329f03e697784ae6764 1776 ruby-licensee_8.9.2-2.dsc
+ e315790080acc6493a381d9ff00a04915d36544c9e43c7f0e940beaed2341fb9 162452 ruby-licensee_8.9.2.orig.tar.gz
+ d1b4a10acdf3e47c6cb4c97c72b2549f48eeb9a02cd16ae7101fb7ae167345d3 4348 ruby-licensee_8.9.2-2.debian.tar.xz
+Homepage: https://github.com/benbalter/licensee
+Package-List: 
+ ruby-licensee deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-licensee
+Priority: optional
+Section: misc

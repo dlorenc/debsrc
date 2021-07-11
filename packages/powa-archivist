@@ -1,0 +1,27 @@
+Package: powa-archivist
+Binary: postgresql-13-powa
+Version: 4.1.2-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 280e75828fa57093af88be0561928c91 2061 powa-archivist_4.1.2-1.dsc
+ 3c2c82785e17e9347dca1b7c910e5356 147530 powa-archivist_4.1.2.orig.tar.gz
+ 769fe171292bbb3307964daede7d7e3b 2732 powa-archivist_4.1.2-1.debian.tar.xz
+Vcs-Browser: https://github.com/powa-team/powa-archivist
+Vcs-Git: https://github.com/powa-team/powa-archivist.git
+Checksums-Sha256:
+ 64042db99e8519edd127a6136dccf485626c1baf68f1dcbc75bb4a58d9821f34 2061 powa-archivist_4.1.2-1.dsc
+ e6b53622edd76e934675689f2dc6493992bdd3a05e6e1a4caf60d488e36ed089 147530 powa-archivist_4.1.2.orig.tar.gz
+ 0f1bd1f9b283ce7efc00a865c4ee7dc55945f541d03f8c6d9fe6290cbe73a916 2732 powa-archivist_4.1.2-1.debian.tar.xz
+Homepage: https://powa.readthedocs.io/
+Package-List: 
+ postgresql-13-powa deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: make, postgresql-contrib-13
+Directory: pool/main/p/powa-archivist
+Priority: optional
+Section: misc

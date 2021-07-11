@@ -1,0 +1,27 @@
+Package: apipkg
+Binary: python3-apipkg
+Version: 1.5-7
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Scott Talbert <swt@techie.net>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-pytest, python3-py
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ acf61b3cc6ed17a0fccdaa568d815e14 2110 apipkg_1.5-7.dsc
+ 6d2bc4d9358e046cc56efc677c976a5c 11186 apipkg_1.5.orig.tar.gz
+ e4ab48c51555806dd9ad2733c5115e8c 7404 apipkg_1.5-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/apipkg
+Vcs-Git: https://salsa.debian.org/python-team/packages/apipkg.git
+Checksums-Sha256:
+ 77523310237dff80d24d150777647c83f16404c06da667c71c9da30e019f2457 2110 apipkg_1.5-7.dsc
+ 37228cda29411948b422fae072f57e31d3396d2ee1c9783775980ee9c9990af6 11186 apipkg_1.5.orig.tar.gz
+ 94ebc0fde59a42befd95582a589a83e7eefac07be42ffd14fa004b192db09467 7404 apipkg_1.5-7.debian.tar.xz
+Homepage: https://github.com/pytest-dev/apipkg
+Package-List: 
+ python3-apipkg deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-py, python3-pytest, python3-setuptools
+Directory: pool/main/a/apipkg
+Priority: source
+Section: python

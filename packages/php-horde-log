@@ -1,0 +1,27 @@
+Package: php-horde-log
+Binary: php-horde-log
+Version: 2.3.0-7
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 699c4c2cdbad4d0f03c2db4c6bb751f7 2109 php-horde-log_2.3.0-7.dsc
+ d9056eb17ec10bdfff63ee87b03f6a5d 14806 php-horde-log_2.3.0.orig.tar.gz
+ 44a01e67473b6cb4d33832000f977e52 5840 php-horde-log_2.3.0-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-log
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-log.git
+Checksums-Sha256:
+ 14dfe2dca37bc1a76244be21419f6192cd9fc62e70027e5fd3ae703816c3bebe 2109 php-horde-log_2.3.0-7.dsc
+ 18c63b0edf1d06707ca4cd071994dd997f4e7e2c45b9ba658bf4e2c57cd0c538 14806 php-horde-log_2.3.0.orig.tar.gz
+ 8d2ecfcf9fc574afc8051115521186584bb8dfdbc70bec83efac83e7353accd4 5840 php-horde-log_2.3.0-7.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-log deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-log
+Priority: extra
+Section: misc

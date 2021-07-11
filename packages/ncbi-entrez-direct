@@ -1,0 +1,28 @@
+Package: ncbi-entrez-direct
+Binary: ncbi-entrez-direct
+Version: 14.6.20210224+dfsg-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Aaron M. Ucko <ucko@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any (>= 2:1.10~), golang-github-dataence-porter2-dev, golang-github-fatih-color-dev, golang-github-gedex-inflector-dev, golang-github-klauspost-cpuid-dev, golang-github-rainycape-unidecode-dev, golang-github-shirou-gopsutil-dev, golang-golang-x-text-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 06008235fedf1c18325859f7cbb5e77d 2597 ncbi-entrez-direct_14.6.20210224+dfsg-3.dsc
+ bc9fe7b647f716b4f5b1c987e0def5ef 222388 ncbi-entrez-direct_14.6.20210224+dfsg.orig.tar.xz
+ d7a58c1d55c42646ffa985679548284f 40768 ncbi-entrez-direct_14.6.20210224+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/ncbi-entrez-direct
+Vcs-Git: https://salsa.debian.org/med-team/ncbi-entrez-direct.git
+Checksums-Sha256:
+ 4b440f5cb8b674b0c7f8e24d06217809adab0715d1548c6d38642c0ccf124e05 2597 ncbi-entrez-direct_14.6.20210224+dfsg-3.dsc
+ f739c4c53ef74fe9585d2507e3636bcef904cf209e5ad6edf56050c5b0a8cfe3 222388 ncbi-entrez-direct_14.6.20210224+dfsg.orig.tar.xz
+ 81d05cf810457619118c88decb2d439b9b92ba011ba5c218ffbf3b4a44087733 40768 ncbi-entrez-direct_14.6.20210224+dfsg-3.debian.tar.xz
+Homepage: http://www.ncbi.nlm.nih.gov/books/NBK179288
+Dgit: a9365ddb00e7f85577b3eff3dcc970f09b5a4a2f debian archive/debian/14.6.20210224+dfsg-3 https://git.dgit.debian.org/ncbi-entrez-direct
+Go-Import-Path: ncbi.nlm.nih.gov/edirect
+Package-List: 
+ ncbi-entrez-direct deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/n/ncbi-entrez-direct
+Priority: optional
+Section: misc

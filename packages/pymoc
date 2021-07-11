@@ -1,0 +1,28 @@
+Package: pymoc
+Binary: python3-pymoc, pymoctool
+Version: 0.5.0-5
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Paul Sladen <debian@paul.sladen.org>, Ole Streicher <olebole@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-astropy, python3-healpy
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8e84ac38189f379c3bf39299639b4534 2189 pymoc_0.5.0-5.dsc
+ 8a28dcd4fe4613e283bab8c742630c1a 37512 pymoc_0.5.0.orig.tar.gz
+ b07f9aaf8e37c89d008cc2cf1dd6b86c 6332 pymoc_0.5.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/pymoc
+Vcs-Git: https://salsa.debian.org/debian-astro-team/pymoc.git
+Checksums-Sha256:
+ 127513305a0f6379fa59e8b74016c5c56f49f889826670200719cc3fc3f0d112 2189 pymoc_0.5.0-5.dsc
+ afadf5aeadd4ac7055a89429ab4b4d10901638584519db030f8ca43f7c10f168 37512 pymoc_0.5.0.orig.tar.gz
+ 02c964395efe386f43c0cbd158178ab02f0a50dc3d7591ac35d1bf896a23fb19 6332 pymoc_0.5.0-5.debian.tar.xz
+Homepage: https://github.com/grahambell/pymoc
+Package-List: 
+ pymoctool deb science optional arch=all
+ python3-pymoc deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: base-files, python3-healpy
+Directory: pool/main/p/pymoc
+Priority: optional
+Section: misc

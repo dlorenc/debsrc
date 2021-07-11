@@ -1,0 +1,31 @@
+Package: sysvinit
+Binary: sysvinit-core, sysvinit-utils, sysv-rc, initscripts, bootlogd
+Version: 2.96-7
+Maintainer: Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>
+Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>, Benda Xu <heroxbd@gentoo.org>, Adam Borowski <kilobyte@angband.pl>, Vincenzo (KatolaZ) Nicosia <katolaz@freaknet.org>,
+Build-Depends: debhelper-compat (= 12), libcrypt-dev, libselinux1-dev [linux-any], po-debconf
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0f7f5ab20c9a2359c0ab7ad79eaf5967 2586 sysvinit_2.96-7.dsc
+ 48cebffebf2a96ab09bec14bf9976016 122164 sysvinit_2.96.orig.tar.xz
+ b94b6fd569b8eb59e5b6a774d283c10c 313 sysvinit_2.96.orig.tar.xz.asc
+ aeaf9cac426abd1e30d44b7360652d95 129040 sysvinit_2.96-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/sysvinit
+Vcs-Git: https://salsa.debian.org/debian/sysvinit.git
+Checksums-Sha256:
+ f8e7afbf2f6a5d1e31bbe75ebebdf6a14917494c32868ead3769f5555cbab62c 2586 sysvinit_2.96-7.dsc
+ 2a2e26b72aa235a23ab1c8471005f890309ce1196c83fbc9413c57b9ab62b587 122164 sysvinit_2.96.orig.tar.xz
+ dfc184b95da12c8c888c8ae6b0f26fe8a23b07fbcdd240f6600a8a78b9439fa0 313 sysvinit_2.96.orig.tar.xz.asc
+ c56a9576fccfd85b4463d4a1bce2f8b006cc4228136c34222734738a4880758f 129040 sysvinit_2.96-7.debian.tar.xz
+Homepage: https://savannah.nongnu.org/projects/sysvinit
+Package-List: 
+ bootlogd deb admin optional arch=any
+ initscripts deb admin optional arch=all
+ sysv-rc deb admin optional arch=all
+ sysvinit-core deb admin optional arch=any
+ sysvinit-utils deb admin required arch=any essential=yes
+Directory: pool/main/s/sysvinit
+Priority: source
+Section: admin

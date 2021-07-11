@@ -1,0 +1,27 @@
+Package: golang-github-hashicorp-yamux
+Binary: golang-github-hashicorp-yamux-dev
+Version: 0.0+git20190923.df201c7-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>, Tim Potter <tpot@hpe.com>, Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper (>= 12~), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 8597c1bf860b8f4f2e12135effa4a96e 2440 golang-github-hashicorp-yamux_0.0+git20190923.df201c7-1.dsc
+ ad6f7f0ff26f4be99481968458224197 21172 golang-github-hashicorp-yamux_0.0+git20190923.df201c7.orig.tar.xz
+ bca53b3de08e6d1cc077869764d1aeee 7532 golang-github-hashicorp-yamux_0.0+git20190923.df201c7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-yamux
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-yamux.git
+Checksums-Sha256:
+ c7717fdf26ef817b5719610eae9170f0ea3c0e3345c21f042bb19f5e472fa1fc 2440 golang-github-hashicorp-yamux_0.0+git20190923.df201c7-1.dsc
+ 815be045710133be7abdbd05e7a77dd7d27ef3c9fc7e97ba8d026a2511064714 21172 golang-github-hashicorp-yamux_0.0+git20190923.df201c7.orig.tar.xz
+ 275eef1a0bc7fff2b2de432a6ab48fda49ed1e6684231dd55d8716c8e866fdd4 7532 golang-github-hashicorp-yamux_0.0+git20190923.df201c7-1.debian.tar.xz
+Homepage: https://github.com/hashicorp/yamux
+Go-Import-Path: github.com/hashicorp/yamux
+Package-List: 
+ golang-github-hashicorp-yamux-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hashicorp-yamux
+Priority: extra
+Section: golang

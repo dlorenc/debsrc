@@ -1,0 +1,26 @@
+Package: ros-angles
+Binary: libangles-dev, python3-angles
+Version: 1.9.13-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 13), catkin, python3-all, python3-setuptools, dh-sequence-python3, python3-nose
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c74bb2f1a60409694c526d5178075bef 2143 ros-angles_1.9.13-2.dsc
+ 70583b42b794cb5f3504b3f11e4256ad 10511 ros-angles_1.9.13.orig.tar.gz
+ 25d9c84280fdc0d79f02cf4bb4278d35 3076 ros-angles_1.9.13-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ros-angles
+Vcs-Git: https://salsa.debian.org/science-team/ros-angles.git
+Checksums-Sha256:
+ 2b98f95e5e544cdfd7ea32e7d1d4f595070d493ad5a3d94587a64f2d78331db3 2143 ros-angles_1.9.13-2.dsc
+ 0e2982e9e4759614702f18f5c25cb7a0a88d382f4a4fab845ca1587305db2fd6 10511 ros-angles_1.9.13.orig.tar.gz
+ 30f021a49f01e3f8cb11b9b36e2c4d07249589ad22a2143176fc153e545b3492 3076 ros-angles_1.9.13-2.debian.tar.xz
+Homepage: https://wiki.ros.org/angles
+Package-List: 
+ libangles-dev deb libdevel optional arch=all
+ python3-angles deb python optional arch=all
+Directory: pool/main/r/ros-angles
+Priority: optional
+Section: misc

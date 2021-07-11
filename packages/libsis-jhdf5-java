@@ -1,0 +1,29 @@
+Package: libsis-jhdf5-java
+Binary: h5ar, libsis-jhdf5-java, libsis-jhdf5-jni
+Version: 19.04.0+dfsg-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Tim Booth <tbooth@ceh.ac.uk>, Olivier Sallou <osallou@debian.org>, Andreas Tille <tille@debian.org>, Pierre Gruet <pgtdebian@free.fr>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, gradle-debian-helper, ant, libcommons-lang3-java, libcommons-io-java, libecj-java, libjaxb-java, libsis-base-java (>= 18.09~pre1), libhdf5-dev, libargs4j-java (>= 2.33), junit4 <!nocheck>, testng <!nocheck>, libhamcrest-java, libjmock2-java <!nocheck>, libobjenesis-java
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2485e2ec80cda008558595bf668f1280 2711 libsis-jhdf5-java_19.04.0+dfsg-4.dsc
+ 52f81b4bbae77b532328c6a1c6be0a7d 466628 libsis-jhdf5-java_19.04.0+dfsg.orig.tar.xz
+ 761d20871c27b00db6d7e66740895055 14832 libsis-jhdf5-java_19.04.0+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libsis-jhdf5-java
+Vcs-Git: https://salsa.debian.org/med-team/libsis-jhdf5-java.git
+Checksums-Sha256:
+ 0d807fbc501866e0e09fbadfe81fa7aad92f3851a2f565bfa96ea19e19439969 2711 libsis-jhdf5-java_19.04.0+dfsg-4.dsc
+ c3228db4a3c7b1f803b2a00e62329416be2f862b806ae1c2c3d4f5ea3b982768 466628 libsis-jhdf5-java_19.04.0+dfsg.orig.tar.xz
+ 7946cacfa77e9559b2494d3ca99d67634a7594df0875061c05b1af2c4d29fc63 14832 libsis-jhdf5-java_19.04.0+dfsg-4.debian.tar.xz
+Homepage: https://sissource.ethz.ch/sispub/jhdf5
+Package-List: 
+ h5ar deb java optional arch=all
+ libsis-jhdf5-java deb java optional arch=all
+ libsis-jhdf5-jni deb java optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: default-jdk, jarwrapper, junit4, libjcommander-java, libjmock2-java, testng
+Directory: pool/main/libs/libsis-jhdf5-java
+Priority: optional
+Section: misc

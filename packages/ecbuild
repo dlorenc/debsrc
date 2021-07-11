@@ -1,0 +1,24 @@
+Package: ecbuild
+Binary: ecbuild
+Version: 3.4.1-1
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-buildinfo, cmake
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fdfd71238f647b251d14fcf0f63972d2 1904 ecbuild_3.4.1-1.dsc
+ 2586182d0c36a935e1dd20acc93f51d1 211900 ecbuild_3.4.1.orig.tar.xz
+ 5ca22575551152ac7d74d120ae51e15e 5912 ecbuild_3.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org:/science-team/ecbuild.git
+Vcs-Git: https://salsa.debian.org:/science-team/ecbuild.git -b debian/latest
+Checksums-Sha256:
+ d227cd14bbcc8cc81f7505366efa7cd10ce9bed2167c1307b2e764b7fc7bb035 1904 ecbuild_3.4.1-1.dsc
+ 7c6b6ee896cf1de59e8f4b5db1ea4476659109e6d735d56e06770dedcb16bb91 211900 ecbuild_3.4.1.orig.tar.xz
+ a33bb2e72b018d152adc3bd4b2e534f77e5750e031f2e6cd27d18bc4746b8d5d 5912 ecbuild_3.4.1-1.debian.tar.xz
+Homepage: https://confluence.ecmwf.int/spaces/viewspace.action?key=ecbuild
+Package-List: 
+ ecbuild deb libs optional arch=all
+Directory: pool/main/e/ecbuild
+Priority: extra
+Section: misc

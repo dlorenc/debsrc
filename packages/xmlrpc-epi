@@ -1,0 +1,27 @@
+Package: xmlrpc-epi
+Binary: libxmlrpc-epi-dev, libxmlrpc-epi0, libxmlrpc-epi0-dbg
+Version: 0.54.2-1.2
+Maintainer: Robin Cornelius <robin.cornelius@gmail.com>
+Uploaders: Paul TBBle Hampson <paul.hampson@pobox.com>
+Build-Depends: debhelper (>= 8.1.3~), autotools-dev, libexpat1-dev, pkg-config, dh-autoreconf
+Architecture: any
+Standards-Version: 3.9.2
+Format: 1.0
+Files:
+ d754249bad45d7a7e995c7b1aa7cce6f 2100 xmlrpc-epi_0.54.2-1.2.dsc
+ ea69b51ce4dbdb1a7223e287a4a96a49 526416 xmlrpc-epi_0.54.2.orig.tar.gz
+ e3dcb31c6bea3033454ad1057be29808 4644 xmlrpc-epi_0.54.2-1.2.diff.gz
+Vcs-Browser: https://github.com/robincornelius/xmlrpc-epi-debian
+Vcs-Git: git://github.com/robincornelius/xmlrpc-epi-debian.git
+Checksums-Sha256:
+ 6f100d957e13da826e034b2c0fe940b9bc32c29cab05b6e80a5eb0d68b2598d3 2100 xmlrpc-epi_0.54.2-1.2.dsc
+ 397b60f39b51a339a2e505da1b9721a31c3e073aaac6c565de240f4e5356cf13 526416 xmlrpc-epi_0.54.2.orig.tar.gz
+ b83401db30bac8fa078fdb5dd2d0527a4c55a3a5ce08e1852451ad21cfddb052 4644 xmlrpc-epi_0.54.2-1.2.diff.gz
+Homepage: http://xmlrpc-epi.sourceforge.net/
+Package-List: 
+ libxmlrpc-epi-dev deb libdevel extra arch=any
+ libxmlrpc-epi0 deb libs extra arch=any
+ libxmlrpc-epi0-dbg deb debug extra arch=any
+Directory: pool/main/x/xmlrpc-epi
+Priority: source
+Section: libs

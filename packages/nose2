@@ -1,0 +1,27 @@
+Package: nose2
+Binary: python-nose2-doc, python3-nose2
+Version: 0.9.2-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Brian May <bam@debian.org>, Pierre-Elliott Bécue <peb@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, help2man, python3-mock, python3-all, python3-coverage, python3-setuptools, python3-six, python3-sphinx, python3-sphinx-rtd-theme
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f0ef60e6948f7107589d632b5d98bf20 2240 nose2_0.9.2-1.dsc
+ c599c3484e2e02dc7145bfa2c0926d14 154695 nose2_0.9.2.orig.tar.gz
+ 82fec4714ebd6eceeb3e6f889e87f84b 8080 nose2_0.9.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/nose2
+Vcs-Git: https://salsa.debian.org/python-team/modules/nose2.git
+Checksums-Sha256:
+ 966d6b25ebd440e74a6b24476e11e86b7837201f57665e7144bb8870d59dadd6 2240 nose2_0.9.2-1.dsc
+ 8762f77925bbafcdf38331e0e2ee718756fb75ff74b1f9097cd08731ad59ab5e 154695 nose2_0.9.2.orig.tar.gz
+ 9f7986322b1cc38247bf81bbd3bfa85476ee4d3e1ab8c2c8d71bb9ea1b47d41f 8080 nose2_0.9.2-1.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/nose2
+Package-List: 
+ python-nose2-doc deb doc optional arch=all
+ python3-nose2 deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/n/nose2
+Priority: optional
+Section: misc

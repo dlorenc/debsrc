@@ -1,0 +1,27 @@
+Package: lmms
+Binary: lmms, lmms-common, lmms-vst-server
+Version: 1.2.2+dfsg1-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org>, Israel Dahl <israeldahl@gmail.com>, Javier Serrano Polo <javier@jasp.net>, Ross Gammon <rossgammon@debian.org>, Dennis Braun <d_braun@kabelmail.de>
+Build-Depends: bash-completion, cmake, debhelper-compat (= 13), extra-cmake-modules, fluid, ladspa-sdk, libasound2-dev [linux-any], libfftw3-dev, libfltk1.3-dev, libfluidsynth-dev, libgig-dev, libjack-jackd2-dev | libjack-dev, liblist-moreutils-perl, libmp3lame-dev, libogg-dev, libpulse-dev, libqt5x11extras5-dev, libsamplerate0-dev, libsdl1.2-dev, libsndfile1-dev, libsndio-dev, libsoundio-dev, libstk-dev, libvorbis-dev, libx11-xcb-dev, libxcb-keysyms1-dev, libxcb-util0-dev, libxml-perl, libxml2-utils, portaudio19-dev, qtbase5-private-dev, qttools5-dev, qttranslations5-l10n, wine32-tools (>= 4.0~) [i386]
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8021c712ba852c5c72974d6f2153942d 2754 lmms_1.2.2+dfsg1-2.dsc
+ 8102e6bb7c762ea91ee9070457079f5e 14175984 lmms_1.2.2+dfsg1.orig.tar.xz
+ 7e765237bba8e3486c3a22075e74c9ae 31608 lmms_1.2.2+dfsg1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/lmms
+Vcs-Git: https://salsa.debian.org/multimedia-team/lmms.git
+Checksums-Sha256:
+ 577d9ce3acc2ae2f45284a221228ccd629f13250075f4de1b38e5cfb57b7fc42 2754 lmms_1.2.2+dfsg1-2.dsc
+ efa7403dee9d8acc675b3e4005e64e599bb338bc983c7d77967363f55de42657 14175984 lmms_1.2.2+dfsg1.orig.tar.xz
+ 6e6e9059ddabad7e36588e98a425dcdf183a139b01c19352d6a709c78936b4ff 31608 lmms_1.2.2+dfsg1-2.debian.tar.xz
+Homepage: https://lmms.io/
+Package-List: 
+ lmms deb sound optional arch=any
+ lmms-common deb sound optional arch=all
+ lmms-vst-server deb sound optional arch=i386
+Directory: pool/main/l/lmms
+Priority: source
+Section: sound

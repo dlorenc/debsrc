@@ -1,0 +1,24 @@
+Package: ssl-cert
+Binary: ssl-cert
+Version: 1.1.0+nmu1
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Uploaders: Stefan Fritsch <sf@debian.org>
+Build-Depends: debhelper-compat (= 12), po-debconf
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ e9fcc08c714feec3e85a2925c30b7e48 1519 ssl-cert_1.1.0+nmu1.dsc
+ 9512d16557560a07f7c9a5f0730f968e 31304 ssl-cert_1.1.0+nmu1.tar.xz
+Vcs-Browser: https://salsa.debian.org/apache-team/ssl-cert
+Vcs-Git: https://salsa.debian.org/apache-team/ssl-cert.git
+Checksums-Sha256:
+ e843db99ede88892768d1b340757724d47a525924afba76ceb772b6d87a66b51 1519 ssl-cert_1.1.0+nmu1.dsc
+ b1e17d659d8fcc8d838ec5503500fc9e58a3109af70d8a5b2ec707a9dbdb5154 31304 ssl-cert_1.1.0+nmu1.tar.xz
+Package-List: 
+ ssl-cert deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: curl
+Directory: pool/main/s/ssl-cert
+Priority: source
+Section: utils

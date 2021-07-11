@@ -1,0 +1,27 @@
+Package: etsf-io
+Binary: etsf-io, libetsf-io-doc, libetsf-io-dev
+Version: 1.0.4-5
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Damien Caliste <damien.caliste@cea.fr>
+Build-Depends: debhelper-compat (= 13), dh-exec, gfortran, libnetcdf-dev (>= 1:4.3.3.1), libnetcdff-dev
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ d48303122e9438cb8deb04ea5f371748 2151 etsf-io_1.0.4-5.dsc
+ 32d0f7143278bd925b334c69fa425da1 475617 etsf-io_1.0.4.orig.tar.gz
+ 10d479f3e8a65069b02cb215afc15587 4092 etsf-io_1.0.4-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/etsf-io
+Vcs-Git: https://salsa.debian.org/science-team/etsf-io.git
+Checksums-Sha256:
+ 8328fb8dd123d10e94780d0054242346c7ca949fbbbb0a085730910bb08679d2 2151 etsf-io_1.0.4-5.dsc
+ 3140c2cde17f578a0e6b63acb27a5f6e9352257a1371a17b9c15c3d0ef078fa4 475617 etsf-io_1.0.4.orig.tar.gz
+ 72d54c0f85302b90e66f0e1da6ec865423b3285a13067362fa546829738d5e08 4092 etsf-io_1.0.4-5.debian.tar.xz
+Homepage: https://github.com/ElectronicStructureLibrary/libetsf_io
+Package-List: 
+ etsf-io deb science optional arch=any
+ libetsf-io-dev deb libdevel optional arch=any
+ libetsf-io-doc deb doc optional arch=all
+Directory: pool/main/e/etsf-io
+Priority: source
+Section: science

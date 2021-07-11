@@ -1,0 +1,22 @@
+Package: rescue
+Binary: rescue-check, rescue-mode
+Version: 1.84
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Colin Watson <cjwatson@debian.org>
+Build-Depends: debhelper (>= 9), dh-di
+Architecture: all
+Format: 3.0 (native)
+Files:
+ 7668000440b4ad85203a04826fe007c0 1671 rescue_1.84.dsc
+ 48e14910142ab52ffa4868ed87c03261 143460 rescue_1.84.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/rescue
+Vcs-Git: https://salsa.debian.org/installer-team/rescue.git
+Checksums-Sha256:
+ e95d38118253d1057752ef1dc7352cbdf98ce1b3a6f6f016ecc6f808aabf9e07 1671 rescue_1.84.dsc
+ 6f62c8e24e17c63da328e8dbb48c9a227ea5d4e51263c3a66698584943efd35d 143460 rescue_1.84.tar.xz
+Package-List: 
+ rescue-check udeb debian-installer optional arch=all
+ rescue-mode udeb debian-installer optional arch=all
+Directory: pool/main/r/rescue
+Priority: source
+Section: misc

@@ -1,0 +1,29 @@
+Package: tryton-modules-timesheet
+Binary: tryton-modules-timesheet
+Version: 5.0.5-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 9), dh-python, python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 9292c00719897d498abe976a0a9f49a9 2537 tryton-modules-timesheet_5.0.5-1.dsc
+ eaac22c7db0fa94d07d1a26867ff3c5f 45368 tryton-modules-timesheet_5.0.5.orig.tar.gz
+ 903d1f2d366d30053a99cd5c9cfaec6a 636 tryton-modules-timesheet_5.0.5.orig.tar.gz.asc
+ 0d3c1362b7417487463dfc3a893f3509 14052 tryton-modules-timesheet_5.0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/tryton-modules-timesheet
+Vcs-Git: https://salsa.debian.org/tryton-team/tryton-modules-timesheet.git
+Checksums-Sha256:
+ 27debced8da7e4a5f073bd0866a2a63b5a767e440b3544ec5599da5d0d820e52 2537 tryton-modules-timesheet_5.0.5-1.dsc
+ d695e1d4b7f1dfce906290f381de8b27a5a56f5a9dd6847e089bd99be2a004fa 45368 tryton-modules-timesheet_5.0.5.orig.tar.gz
+ 0d9bd0aa87b26aa5a65a3296e108c0c00f1b20a2a799f269c306c71cfffb1052 636 tryton-modules-timesheet_5.0.5.orig.tar.gz.asc
+ d050e960fd507ee455698f9013eb648a965af989e5d9ff65866b858d9454e64b 14052 tryton-modules-timesheet_5.0.5-1.debian.tar.xz
+Homepage: http://www.tryton.org/
+Package-List: 
+ tryton-modules-timesheet deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-setuptools, tryton-proteus
+Directory: pool/main/t/tryton-modules-timesheet
+Priority: source
+Section: python

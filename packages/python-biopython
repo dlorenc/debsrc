@@ -1,0 +1,29 @@
+Package: python-biopython
+Binary: python3-biopython, python-biopython-doc, python3-biopython-sql
+Version: 1.78+dfsg-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>, Étienne Mollier <etienne.mollier@mailoo.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all-dev, python3-numpy <!nocheck>, flex, python3-reportlab <!nocheck>, hevea <!nocheck>, texlive-latex-base, texlive-latex-extra, texlive-fonts-recommended, bwa <!nocheck>, clustalo <!nocheck>, clustalw <!nocheck>, dialign <!nocheck>, dssp (>= 4.0.0) <!nocheck>, emboss <!nocheck>, fasttree <!nocheck>, mafft <!nocheck>, muscle <!nocheck>, ncbi-blast+ (>= 2.10.1-3) <!nocheck>, phylip <!nocheck>, phyml [any-amd64 any-i386] <!nocheck>, prank <!nocheck>, probcons <!nocheck>, python3-networkx <!nocheck>, python3-mysqldb <!nocheck>, python3-matplotlib <!nocheck>, python3-mmtf <!nocheck>, python3-pil <!nocheck>, python3-rdflib <!nocheck>, python3-renderpm <!nocheck>, python3-psycopg2 <!nocheck>, python3-pygments <!nocheck>, python3-scipy <!nocheck>, python3-setuptools, python3-unittest2 <!nocheck>, raxml [any-amd64 any-i386] <!nocheck>, samtools <!nocheck>, t-coffee <!nocheck>, wise <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b37b8e6ba97d127ce9c20a25962d1ccb 3246 python-biopython_1.78+dfsg-4.dsc
+ 1a129f11c73f68c58fe2faf7d47e5e13 9807588 python-biopython_1.78+dfsg.orig.tar.xz
+ 838334b2cb8936fd177b7708ece2ef24 17896 python-biopython_1.78+dfsg-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-biopython
+Vcs-Git: https://salsa.debian.org/med-team/python-biopython.git
+Checksums-Sha256:
+ c033651d955241a1b9ae489122406557034276878cc605fec9abab680da09d83 3246 python-biopython_1.78+dfsg-4.dsc
+ 325587e3869e4ebfa1f1b07b9032cde2498acc1671b7b0e124720234cc36fd47 9807588 python-biopython_1.78+dfsg.orig.tar.xz
+ 51a82423bee3da1cdfa6fa7fa9098c42ce362607ffd15cd602b8c09d4650b006 17896 python-biopython_1.78+dfsg-4.debian.tar.xz
+Homepage: http://biopython.org
+Package-List: 
+ python-biopython-doc deb doc optional arch=all
+ python3-biopython deb python optional arch=any
+ python3-biopython-sql deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-setuptools
+Directory: pool/main/p/python-biopython
+Priority: source
+Section: python

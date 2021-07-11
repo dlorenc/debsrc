@@ -1,0 +1,24 @@
+Package: rust-stable-deref-trait
+Binary: librust-stable-deref-trait-dev
+Version: 1.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 8dbec2173bf1cf03617dac9487567d0e 2152 rust-stable-deref-trait_1.1.1-1.dsc
+ a986c51d8a91f91704da0c440295640d 8007 rust-stable-deref-trait_1.1.1.orig.tar.gz
+ d1298232f095292cc0d84c461456f97d 2448 rust-stable-deref-trait_1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/stable-deref-trait
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/stable-deref-trait]
+Checksums-Sha256:
+ 3e7cabdc2cdacff217da625f8fc6b8e3673f263823d1594cba04a720289f2a7e 2152 rust-stable-deref-trait_1.1.1-1.dsc
+ dba1a27d3efae4351c8051072d619e3ade2820635c3958d826bfea39d59b54c8 8007 rust-stable-deref-trait_1.1.1.orig.tar.gz
+ 71b1f9db6be3e95dbb02416edc2c75a25ffafe141495ababa183231f72bfff49 2448 rust-stable-deref-trait_1.1.1-1.debian.tar.xz
+Package-List: 
+ librust-stable-deref-trait-dev deb rust optional arch=any
+Directory: pool/main/r/rust-stable-deref-trait
+Priority: extra
+Section: misc

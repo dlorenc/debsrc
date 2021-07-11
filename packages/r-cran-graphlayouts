@@ -1,0 +1,27 @@
+Package: r-cran-graphlayouts
+Binary: r-cran-graphlayouts
+Version: 0.7.1-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-igraph, r-cran-rcpp, r-cran-rcpparmadillo
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2bd2ddb3118fbf3f48935dbb8638274b 2215 r-cran-graphlayouts_0.7.1-1.dsc
+ 63e9b2d11cc5d2dc60de35d66a37897c 2410184 r-cran-graphlayouts_0.7.1.orig.tar.gz
+ 5810a72f3066bf5d894ed8588539b1a8 2736 r-cran-graphlayouts_0.7.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-graphlayouts
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-graphlayouts.git
+Checksums-Sha256:
+ 534052702c1a2f56e5e62f98b9bba4a02aa66e63c16297cae91580101897107a 2215 r-cran-graphlayouts_0.7.1-1.dsc
+ 380f8ccb0b08735694e83f661fd56a0d592a78448ae91b89c290ba8582d66717 2410184 r-cran-graphlayouts_0.7.1.orig.tar.gz
+ f7a3fb2d29df071f2310e5d99011544131f030523a9792f23164d5c99bac02fa 2736 r-cran-graphlayouts_0.7.1-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=graphlayouts
+Package-List: 
+ r-cran-graphlayouts deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-graphlayouts
+Priority: extra
+Section: misc

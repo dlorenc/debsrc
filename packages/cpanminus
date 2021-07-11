@@ -1,0 +1,28 @@
+Package: cpanminus
+Binary: cpanminus
+Version: 1.7044-2
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcpan-distnameinfo-perl <!nocheck>, libcpan-meta-check-perl (>= 0.012) <!nocheck>, libcpan-meta-perl (>= 2.150005) <!nocheck>, libcpan-meta-requirements-perl (>= 2.133) <!nocheck>, libcpan-meta-yaml-perl (>= 0.016) <!nocheck>, libfile-pushd-perl, libhttp-tiny-perl (>= 0.056) <!nocheck> | curl <!nocheck> | wget <!nocheck>, libjson-pp-perl <!nocheck>, liblocal-lib-perl (>= 2.000015) <!nocheck>, libmodule-cpanfile-perl <!nocheck>, libmodule-metadata-perl (>= 1.000027) <!nocheck>, libparse-cpan-meta-perl <!nocheck>, libparse-pmfile-perl (>= 0.36) <!nocheck>, libstring-shellquote-perl <!nocheck>, libversion-perl (>= 1:0.9912) <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b72e3e319f661c6adcf3d2079c442156 2912 cpanminus_1.7044-2.dsc
+ b70502277dbff656956592d022ccbd13 429183 cpanminus_1.7044.orig.tar.gz
+ e87a188cef96a3ad1c8ee58b9e597728 7232 cpanminus_1.7044-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/cpanminus
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/cpanminus.git
+Checksums-Sha256:
+ 8210a92dbd8f33614ab52e1e575082f1b43bfefe7224dc860945b3c84e4261b0 2912 cpanminus_1.7044-2.dsc
+ a5407a85c2f3dda74dfc2241c68dafb9951f2a6eeada0a0eea9e7238a482c195 429183 cpanminus_1.7044.orig.tar.gz
+ b122ad66b14bf2e3eefed4a3edf36972c88860875d61186963a4426d5c3003a1 7232 cpanminus_1.7044-2.debian.tar.xz
+Homepage: https://metacpan.org/release/App-cpanminus
+Dgit: 41a52d545ee539554bd119d2a98606a0383e1238 debian archive/debian/1.7044-2 https://git.dgit.debian.org/cpanminus
+Package-List: 
+ cpanminus deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/c/cpanminus
+Priority: source
+Section: perl

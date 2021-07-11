@@ -1,0 +1,30 @@
+Package: fribidi
+Binary: libfribidi0, libfribidi-dev, libfribidi0-udeb, libfribidi-bin
+Version: 1.0.8-2
+Maintainer: Debian Hebrew Packaging Team <team+hebrew@tracker.debian.org>
+Uploaders: Lior Kaplan <kaplan@debian.org>, Shachar Shemesh <shachar@debian.org>, أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+Build-Depends: debhelper-compat (= 12), pkg-config
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1b9df0d9399d7ef9f6a56f730ad7bb27 1987 fribidi_1.0.8-2.dsc
+ 962c7d8ebaa711d4e306161dbe14aa55 2077095 fribidi_1.0.8.orig.tar.bz2
+ d808376874f6aa4d137febff506ee40d 8980 fribidi_1.0.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/fribidi
+Vcs-Git: https://salsa.debian.org/debian/fribidi.git
+Checksums-Sha256:
+ f1b396620cda57e93799725abad47089902429295f7b3555bc3d5b3f00a79340 1987 fribidi_1.0.8-2.dsc
+ 94c7b68d86ad2a9613b4dcffe7bbeb03523d63b5b37918bdf2e4ef34195c1e6c 2077095 fribidi_1.0.8.orig.tar.bz2
+ 898fc0b48625ce31e29d2f9501f17b9991b16b03816db6467faaedb85d22f00b 8980 fribidi_1.0.8-2.debian.tar.xz
+Homepage: http://www.fribidi.org/
+Package-List: 
+ libfribidi-bin deb utils optional arch=any
+ libfribidi-dev deb libdevel optional arch=any
+ libfribidi0 deb libs optional arch=any
+ libfribidi0-udeb udeb debian-installer optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/f/fribidi
+Priority: source
+Section: libs

@@ -1,0 +1,26 @@
+Package: ocaml-mccs
+Binary: libmccs-ocaml, libmccs-ocaml-dev
+Version: 1.1+11-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Nicolas Braud-Santoni <nicoo@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-ocaml, ocaml-nox (>= 4.3.0~), ocaml-dune, libcudf-ocaml-dev, libglpk-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2f8967b0eec7c4ed90d4f167561af0d6 2091 ocaml-mccs_1.1+11-1.dsc
+ 20cf8714958a8c80230f4bf573dfb2e5 316032 ocaml-mccs_1.1+11.orig.tar.xz
+ 9ffde7f9e00f7662f23e2516e304bfbb 3816 ocaml-mccs_1.1+11-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-mccs
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-mccs.git
+Checksums-Sha256:
+ d579b39c0945056423ba5d132d2f7d6d5fe51302c7adc54fd8fc0f120eab29cb 2091 ocaml-mccs_1.1+11-1.dsc
+ c563d45b299c2b3d0c12a0ec20eeb465b41333e7d5c1e3cbd805c015164b69a7 316032 ocaml-mccs_1.1+11.orig.tar.xz
+ 93e877ed107d3fc29ca5050bf2c790dbd47243d5d012deb2243597183ab8d408 3816 ocaml-mccs_1.1+11-1.debian.tar.xz
+Homepage: https://github.com/AltGr/ocaml-mccs/
+Package-List: 
+ libmccs-ocaml deb ocaml optional arch=any
+ libmccs-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-mccs
+Priority: extra
+Section: misc

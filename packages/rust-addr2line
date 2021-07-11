@@ -1,0 +1,33 @@
+Package: rust-addr2line
+Binary: librust-addr2line-dev, librust-addr2line+alloc-dev, librust-addr2line+cpp-demangle-dev, librust-addr2line+default-dev, librust-addr2line+object-dev, librust-addr2line+rustc-demangle-dev, librust-addr2line+std-dev, librust-addr2line+std-object-dev
+Version: 0.10.0-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cpp-demangle-0.2-dev <!nocheck>, librust-fallible-iterator-0.2-dev <!nocheck>, librust-gimli-0.19+read-dev <!nocheck>, librust-gimli-0.19+std-dev <!nocheck>, librust-intervaltree-0.2+std-dev <!nocheck>, librust-intervaltree-0.2-dev <!nocheck>, librust-lazycell-1+default-dev <!nocheck>, librust-object-0.12+std-dev <!nocheck>, librust-object-0.12-dev <!nocheck>, librust-rustc-demangle-0.1+default-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>, librust-smallvec-1+write-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e58b102fa210066cedade40a15a226b5 2886 rust-addr2line_0.10.0-3.dsc
+ bb80cd51cdd832159e18298948e19dbf 110461 rust-addr2line_0.10.0.orig.tar.gz
+ da82319c5b15a408c3670abada0c1ef5 3612 rust-addr2line_0.10.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/addr2line
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/addr2line]
+Checksums-Sha256:
+ 64453fe2550e4a6119d8e442f00d80d136dd6d5a6656b31303482dbb249b95a7 2886 rust-addr2line_0.10.0-3.dsc
+ 95b06ae5a8a3bae54910c9029a52f83203ce2001c71b10b1faae3a337fee4ab5 110461 rust-addr2line_0.10.0.orig.tar.gz
+ 8f1b7e6b522493d1b19b56489b3520de9847c7d6ec9e3ccad9bb713b855f3890 3612 rust-addr2line_0.10.0-3.debian.tar.xz
+Package-List: 
+ librust-addr2line+alloc-dev deb rust optional arch=any
+ librust-addr2line+cpp-demangle-dev deb rust optional arch=any
+ librust-addr2line+default-dev deb rust optional arch=any
+ librust-addr2line+object-dev deb rust optional arch=any
+ librust-addr2line+rustc-demangle-dev deb rust optional arch=any
+ librust-addr2line+std-dev deb rust optional arch=any
+ librust-addr2line+std-object-dev deb rust optional arch=any
+ librust-addr2line-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-backtrace-0.3+default-dev, librust-clap-2+default-dev, librust-findshlibs-0.5+default-dev, librust-memmap-0.7+default-dev, librust-rustc-test-0.3+default-dev
+Directory: pool/main/r/rust-addr2line
+Priority: extra
+Section: misc

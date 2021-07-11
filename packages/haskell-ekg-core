@@ -1,0 +1,28 @@
+Package: haskell-ekg-core
+Binary: libghc-ekg-core-dev, libghc-ekg-core-prof, libghc-ekg-core-doc
+Version: 0.1.1.7-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.15), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof
+Build-Depends-Indep: ghc-doc, libghc-unordered-containers-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 694c665e3624235177ef833f062cab29 2441 haskell-ekg-core_0.1.1.7-1.dsc
+ 56a06087a79294fc98c1cf1f617cd6f1 13612 haskell-ekg-core_0.1.1.7.orig.tar.gz
+ 801b439e397c34f3c52ed738653447b3 2860 haskell-ekg-core_0.1.1.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ekg-core
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ekg-core]
+Checksums-Sha256:
+ bb673d45d73cd0e0d8eb06b79685487d343dd46e7a36294f337215884ca07262 2441 haskell-ekg-core_0.1.1.7-1.dsc
+ 45813f2b94fde0b92c7979bd37de52f09b8b645560f5789276c3acfc7934db12 13612 haskell-ekg-core_0.1.1.7.orig.tar.gz
+ eb278ac6cb53834d67f3d3febce366debaca4a3241ba74199a7ea44671717fa4 2860 haskell-ekg-core_0.1.1.7-1.debian.tar.xz
+Homepage: https://github.com/tibbe/ekg-core
+Package-List: 
+ libghc-ekg-core-dev deb haskell optional arch=any
+ libghc-ekg-core-doc deb doc optional arch=all
+ libghc-ekg-core-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ekg-core
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: bio-vcf
+Binary: bio-vcf
+Version: 0.9.5-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5a766b8f845554b210618adc38f199b0 1998 bio-vcf_0.9.5-2.dsc
+ 05227a32bca435a37e73c0e09a067d9c 199005 bio-vcf_0.9.5.orig.tar.gz
+ 8a8a60895b7b65d9eb94ad1252bcc43f 4436 bio-vcf_0.9.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/bio-vcf
+Vcs-Git: https://salsa.debian.org/med-team/bio-vcf.git
+Checksums-Sha256:
+ 19b272d68bd64f1d619b1b9e057bbc8adcee2cd279ba7cd772e90d94ba995a9f 1998 bio-vcf_0.9.5-2.dsc
+ 7775742829deec585db2a379139acfc16b61de5bde5a7500be77c8c1d871bc2c 199005 bio-vcf_0.9.5.orig.tar.gz
+ 6371df4e05eb53f5d4319e712f57e59a2d40366d27006afea4c32b14ee0f7d07 4436 bio-vcf_0.9.5-2.debian.tar.xz
+Homepage: https://rubygems.org/gems/bio-vcf/
+Package-List: 
+ bio-vcf deb science optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Directory: pool/main/b/bio-vcf
+Priority: extra
+Section: misc

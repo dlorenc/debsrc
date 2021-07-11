@@ -1,0 +1,28 @@
+Package: libtest-files-perl
+Binary: libtest-files-perl
+Version: 0.15-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Sascha Steinbiss <sascha@steinbiss.name>
+Build-Depends: debhelper-compat (= 13), libalgorithm-diff-perl <!nocheck>, libtext-diff-perl <!nocheck>
+Build-Depends-Indep: perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 86c7bd6e7f8352cadfbda247eb618c15 2425 libtest-files-perl_0.15-1.dsc
+ d3a45121c74e05de8836ee6e3c99f35c 11967 libtest-files-perl_0.15.orig.tar.gz
+ 47fba6884402e1bee59714173e4ec296 1884 libtest-files-perl_0.15-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-files-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-files-perl.git
+Checksums-Sha256:
+ 0745be5ca0f4c7912a00a0da27b1194967d7fab8961448ffa0fc9f387723482f 2425 libtest-files-perl_0.15-1.dsc
+ ab04596d5db4d0a324cc473839481316b5dd2ecb5a384812a938af2337d462a1 11967 libtest-files-perl_0.15.orig.tar.gz
+ 1ee389ede010e125e87161196513e2e1a0574053e0067b4dedbc82b577675f6e 1884 libtest-files-perl_0.15-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Test-Files
+Dgit: 8f6c3839f8f9f3beae64f124ba23369d19298b1e debian archive/debian/0.15-1 https://git.dgit.debian.org/libtest-files-perl
+Package-List: 
+ libtest-files-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libtest-files-perl
+Priority: optional
+Section: misc

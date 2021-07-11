@@ -1,0 +1,28 @@
+Package: libnet-amazon-s3-perl
+Binary: libnet-amazon-s3-perl
+Version: 0.97-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, gregor herrmann <gregoa@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libdata-stream-bulk-perl <!nocheck>, libdatetime-format-http-perl <!nocheck>, libdigest-hmac-perl <!nocheck>, libdigest-md5-file-perl <!nocheck>, libexporter-tiny-perl <!nocheck>, libfile-find-rule-perl <!nocheck>, libhttp-date-perl <!nocheck>, libhttp-message-perl <!nocheck>, liblwp-useragent-determined-perl <!nocheck>, libmime-types-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-role-parameterized-perl <!nocheck>, libmoosex-strictconstructor-perl <!nocheck>, libmoosex-types-datetime-morecoercions-perl <!nocheck>, libnamespace-clean-perl <!nocheck>, libpath-class-perl <!nocheck>, libref-util-perl <!nocheck>, libregexp-common-perl <!nocheck>, libsafe-isa-perl <!nocheck>, libscalar-list-utils-perl <!nocheck>, libsub-override-perl <!nocheck>, libterm-encoding-perl <!nocheck>, libterm-progressbar-simple-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-lwp-useragent-perl <!nocheck>, libtest-mocktime-perl <!nocheck>, libtest-warnings-perl <!nocheck>, liburi-perl <!nocheck>, libvm-ec2-security-credentialcache-perl <!nocheck>, libwww-perl <!nocheck>, libxml-libxml-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 79f33c961f2c85717aa8b324d335ad2e 3606 libnet-amazon-s3-perl_0.97-1.dsc
+ 260a585cefc51d4ae95f78cb84a0903f 130344 libnet-amazon-s3-perl_0.97.orig.tar.gz
+ 32960ecf258c84c76cab98a7a3a9d228 7436 libnet-amazon-s3-perl_0.97-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-amazon-s3-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-amazon-s3-perl.git
+Checksums-Sha256:
+ 8784c60225772603e3aee249b19960f0b1707a382889fc6c4cb19468e148d7b7 3606 libnet-amazon-s3-perl_0.97-1.dsc
+ 03d85677d0483eafad243da70564b5df1a430922996bfdb6c4f19b6c2878de34 130344 libnet-amazon-s3-perl_0.97.orig.tar.gz
+ 8e7098d28ded98258b79b8cbb9cb83575e31490299a0de73c374f06f4be05afe 7436 libnet-amazon-s3-perl_0.97-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Net-Amazon-S3
+Dgit: d116c21bfaae498b62a09a22bffdcbde8c274354 debian archive/debian/0.97-1 https://git.dgit.debian.org/libnet-amazon-s3-perl
+Package-List: 
+ libnet-amazon-s3-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-amazon-s3-perl
+Priority: source
+Section: perl

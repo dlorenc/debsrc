@@ -1,0 +1,26 @@
+Package: golang-github-pingcap-check
+Binary: golang-github-pingcap-check-dev
+Version: 0.0~git20170902.0.4c65d06-5
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ ca7872f245a0e4574cb84774cf58f56c 2295 golang-github-pingcap-check_0.0~git20170902.0.4c65d06-5.dsc
+ 668c6a2cb6068ff06e71c4fee37aa84e 28232 golang-github-pingcap-check_0.0~git20170902.0.4c65d06.orig.tar.xz
+ a56f076f66751ab881a1e9bdccf5abda 3200 golang-github-pingcap-check_0.0~git20170902.0.4c65d06-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-pingcap-check
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-pingcap-check.git
+Checksums-Sha256:
+ c2c19f4f3e1d444a426871416cfbe52121761b2881e4d5ee17cec12b382cd475 2295 golang-github-pingcap-check_0.0~git20170902.0.4c65d06-5.dsc
+ 36bb53eda01bbaccf8b3cccb15337105d385afee9ce2055e464953e6d0f2f7c9 28232 golang-github-pingcap-check_0.0~git20170902.0.4c65d06.orig.tar.xz
+ f70134f884c46403d7b6636aa526db264829d4e79e24be7ff71af99f72a1428e 3200 golang-github-pingcap-check_0.0~git20170902.0.4c65d06-5.debian.tar.xz
+Homepage: https://github.com/pingcap/check
+Go-Import-Path: github.com/pingcap/check
+Package-List: 
+ golang-github-pingcap-check-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-pingcap-check
+Priority: extra
+Section: golang

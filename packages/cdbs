@@ -1,0 +1,22 @@
+Package: cdbs
+Binary: cdbs
+Version: 0.4.163
+Maintainer: build-common team <team+build-common@tracker.debian.org>
+Uploaders: Marc Dequènes (Duck) <Duck@DuckCorp.org>, Rémi Thebault (RTbo) <remi.thebault@gmail.com>, Vasudev Kamath <kamathvasudev@gmail.com>
+Build-Depends-Indep: debhelper, dh-buildinfo, autoconf, fakeroot <!nocheck>, python3-all-dev <!nocheck>, pypy-dev <!nocheck>, dh-python <!nocheck>, ant <!nocheck>, default-jdk-headless <!nocheck> | default-jdk <!nocheck>, sharutils <!nocheck>, lzma <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 260903e2986797443ce9513fc4cb338b 1898 cdbs_0.4.163.dsc
+ 9302d64681cd72d423ee6adcf76a88f8 206052 cdbs_0.4.163.tar.xz
+Vcs-Browser: https://salsa.debian.org/build-common-team/cdbs
+Vcs-Git: https://salsa.debian.org/build-common-team/cdbs.git
+Checksums-Sha256:
+ 10aaf238c0466f8d276a676dc6de103b5ec4c0bbd7f61a6cf92bc8e1510eb89f 1898 cdbs_0.4.163.dsc
+ 48771602b862b86b454c924fe29b56c04050e03496beee59d0a828aa5621cae6 206052 cdbs_0.4.163.tar.xz
+Package-List: 
+ cdbs deb devel optional arch=all
+Directory: pool/main/c/cdbs
+Priority: source
+Section: devel

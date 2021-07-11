@@ -1,0 +1,41 @@
+Package: fcitx5-chinese-addons
+Binary: fcitx5-chinese-addons, fcitx5-chinese-addons-bin, fcitx5-chinese-addons-data, fcitx5-module-chttrans, fcitx5-module-cloudpinyin, fcitx5-module-cloudpinyin-dev, fcitx5-module-fullwidth, fcitx5-module-pinyinhelper, fcitx5-module-pinyinhelper-dev, fcitx5-module-punctuation, fcitx5-module-punctuation-dev, fcitx5-pinyin, fcitx5-table
+Version: 5.0.4-1
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders: Boyuan Yang <byang@debian.org>,
+Build-Depends: appstream, cmake (>= 3.6.0), debhelper-compat (= 13), extra-cmake-modules, fcitx5-modules-dev (>= 5.0.4), gettext, libboost-iostreams-dev, libcurl4-openssl-dev | libcurl-dev, libfcitx5-qt-dev, libfcitx5config-dev (>= 5.0.4), libfcitx5core-dev (>= 5.0.4), libfcitx5utils-dev (>= 5.0.4), libfmt-dev, libime-bin (>= 1.0.3), libimecore-dev (>= 1.0.3), libimepinyin-dev (>= 1.0.3), libimetable-dev (>= 1.0.3), libopencc-dev (>= 1.1~), pkg-config, qtbase5-dev, qtwebengine5-dev [amd64 arm64 armhf i386 mipsel]
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 92da79faa9b8c21e7279499b1daf1b54 3563 fcitx5-chinese-addons_5.0.4-1.dsc
+ 19b1bf6e356fedc07645cc9b1047f982 445666 fcitx5-chinese-addons_5.0.4.orig-pystroke.tar.gz
+ ade1cd1b8d47dfd5a3ac318a58aff676 186984 fcitx5-chinese-addons_5.0.4.orig-pytable.tar.gz
+ d3418d8bcff102cac5ae9403f72dd8aa 263166 fcitx5-chinese-addons_5.0.4.orig.tar.gz
+ 1d081f8c03a286a5a43883487220ea04 7368 fcitx5-chinese-addons_5.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/input-method-team/fcitx5-chinese-addons
+Vcs-Git: https://salsa.debian.org/input-method-team/fcitx5-chinese-addons.git
+Checksums-Sha256:
+ 3660f2027fb52d07bb2e753c6406b81adf54c0cea753cd28e41a4cfe53f8347c 3563 fcitx5-chinese-addons_5.0.4-1.dsc
+ 80877a9e7fe52174c4966e3b8c4aa7187caaa50a2ab3cfdda4ef33dcb0ffbbeb 445666 fcitx5-chinese-addons_5.0.4.orig-pystroke.tar.gz
+ c3a7cd52c78838e575a3ad16657de82960613e6d57bbd144acaa6d62dfe4d82f 186984 fcitx5-chinese-addons_5.0.4.orig-pytable.tar.gz
+ 0d4e56a9d351459ffadcaea9d8e7966e4ae94495c5a5ac2a0994fb8e84e3befd 263166 fcitx5-chinese-addons_5.0.4.orig.tar.gz
+ 829e3122ca838840c1293720f30757b63118845dfd167df1fb11dc78b15fa219 7368 fcitx5-chinese-addons_5.0.4-1.debian.tar.xz
+Homepage: https://github.com/fcitx/fcitx5-chinese-addons
+Package-List: 
+ fcitx5-chinese-addons deb metapackages optional arch=all
+ fcitx5-chinese-addons-bin deb utils optional arch=any
+ fcitx5-chinese-addons-data deb utils optional arch=all
+ fcitx5-module-chttrans deb utils optional arch=any
+ fcitx5-module-cloudpinyin deb utils optional arch=any
+ fcitx5-module-cloudpinyin-dev deb libdevel optional arch=any
+ fcitx5-module-fullwidth deb utils optional arch=any
+ fcitx5-module-pinyinhelper deb utils optional arch=any
+ fcitx5-module-pinyinhelper-dev deb libdevel optional arch=any
+ fcitx5-module-punctuation deb utils optional arch=any
+ fcitx5-module-punctuation-dev deb libdevel optional arch=any
+ fcitx5-pinyin deb utils optional arch=any
+ fcitx5-table deb utils optional arch=any
+Directory: pool/main/f/fcitx5-chinese-addons
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-crypto-numbers
+Binary: libghc-crypto-numbers-dev, libghc-crypto-numbers-prof, libghc-crypto-numbers-doc
+Version: 0.2.7-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-byteable-dev, libghc-crypto-random-dev (<< 0.1), libghc-crypto-random-dev (>= 0.0), libghc-crypto-random-prof, libghc-tasty-dev, libghc-tasty-hunit-dev, libghc-tasty-quickcheck-dev, libghc-vector-dev, libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-crypto-random-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f08927ce5f06b4ea438d28c13071dc17 2683 haskell-crypto-numbers_0.2.7-10.dsc
+ adb5cb1566dde3ad9f89c0c1ad65a84c 16064 haskell-crypto-numbers_0.2.7.orig.tar.gz
+ cd72a002b8384479e714c87442e5e103 3164 haskell-crypto-numbers_0.2.7-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-crypto-numbers
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-crypto-numbers]
+Checksums-Sha256:
+ 617ead9667cc99c72d6e0c3dd9b0b07a2a15b130ee350d6cf030bb4768b8bd50 2683 haskell-crypto-numbers_0.2.7-10.dsc
+ 420aeb17e9cdcfdf8c950c6c6f10c54503c5524d36f611aa7238e3fd65f189a6 16064 haskell-crypto-numbers_0.2.7.orig.tar.gz
+ 7e690d5c63bed3001739288f6c5ed43c8ce8ecb1f09a9cc50cef9af5faff7d54 3164 haskell-crypto-numbers_0.2.7-10.debian.tar.xz
+Homepage: https://github.com/vincenthz/hs-crypto-numbers
+Package-List: 
+ libghc-crypto-numbers-dev deb haskell optional arch=any
+ libghc-crypto-numbers-doc deb doc optional arch=all
+ libghc-crypto-numbers-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-crypto-numbers
+Priority: source
+Section: misc

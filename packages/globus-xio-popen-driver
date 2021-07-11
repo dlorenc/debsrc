@@ -1,0 +1,25 @@
+Package: globus-xio-popen-driver
+Binary: libglobus-xio-popen-driver, libglobus-xio-popen-driver-dev
+Version: 4.1-2
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-xio-dev (>= 3)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 871e13afecc0b24ed6f93afa278f90c2 2143 globus-xio-popen-driver_4.1-2.dsc
+ aaa18c9aedd9a6277de5bf0cce1823f4 307936 globus-xio-popen-driver_4.1.orig.tar.gz
+ 52448b01dc9346d37b20623e6d236581 3320 globus-xio-popen-driver_4.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-xio-popen-driver
+Vcs-Git: https://salsa.debian.org/ellert/globus-xio-popen-driver.git
+Checksums-Sha256:
+ a2e9126e4f742ef7c4df1d8b0563a8fbcea139871ec4b9cfe660f3d0ecbec085 2143 globus-xio-popen-driver_4.1-2.dsc
+ 6e9875c0d279511d8c476f71a46346712512284ade0623cd780c4e504908c110 307936 globus-xio-popen-driver_4.1.orig.tar.gz
+ 4b886883f8465268a0a296b3c6cb7591517d777816ce7b4dcd58e5d7c48795d6 3320 globus-xio-popen-driver_4.1-2.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-xio-popen-driver deb libs optional arch=any
+ libglobus-xio-popen-driver-dev deb libdevel optional arch=any
+Directory: pool/main/g/globus-xio-popen-driver
+Priority: source
+Section: net

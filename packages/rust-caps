@@ -1,0 +1,26 @@
+Package: rust-caps
+Binary: librust-caps-dev
+Version: 0.3.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-errno-0.2+default-dev <!nocheck>, librust-error-chain-0.12-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ bff118f81590d194ab9270f62d294f99 2196 rust-caps_0.3.3-1.dsc
+ 29c24c2691e3b238caca8d1496df445b 14551 rust-caps_0.3.3.orig.tar.gz
+ 32ab864804c07b63ac861443c431ca20 2632 rust-caps_0.3.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/caps
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/caps]
+Checksums-Sha256:
+ 7655d8ebfff9e27f65d420d92acff60a56e6ccf05fe46eeb428e5d7a5d19c380 2196 rust-caps_0.3.3-1.dsc
+ 20d9a108615cedf6989a2c82d7aa6f6e7c8be5398a210adcc8df458bfa7ff4ee 14551 rust-caps_0.3.3.orig.tar.gz
+ 83b8ca49e13673b61c54dd7d451dc74d6fb26ffea9e3296734c78ea4bb9a0940 2632 rust-caps_0.3.3-1.debian.tar.xz
+Package-List: 
+ librust-caps-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-caps
+Priority: extra
+Section: misc

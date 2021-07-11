@@ -1,0 +1,27 @@
+Package: jpathwatch
+Binary: libjpathwatch-java, libjpathwatch-java-jni, libjpathwatch-java-doc
+Version: 0.95-5
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Jakub Adam <jakub.adam@ktknet.cz>
+Build-Depends: debhelper-compat (= 13), javahelper, default-jdk (>= 2:1.8), bnd (>= 2.1.0), maven-repo-helper
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4edf9db67b5c84709deac5115ca2ca23 2158 jpathwatch_0.95-5.dsc
+ 78bdbb4be8465c68a6f00faf2cfaae62 99748 jpathwatch_0.95.orig.tar.xz
+ a04f22adf51fcd42521bd7878d7695fa 4456 jpathwatch_0.95-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jpathwatch
+Vcs-Git: https://salsa.debian.org/java-team/jpathwatch.git
+Checksums-Sha256:
+ 9dfd2423e5a31d73f578b1437ac723d115c07cf49ae5ab15f4d28f2e4e15d47d 2158 jpathwatch_0.95-5.dsc
+ 408e1de36797e1767d79b1b3a7be0696e9b3a32f46c029a5212d28775f6b061a 99748 jpathwatch_0.95.orig.tar.xz
+ 550ddce9230b85a0b5d3273847422da265d99762916108a9b00042f6ec515833 4456 jpathwatch_0.95-5.debian.tar.xz
+Homepage: http://jpathwatch.wordpress.com
+Package-List: 
+ libjpathwatch-java deb java optional arch=all
+ libjpathwatch-java-doc deb doc optional arch=all
+ libjpathwatch-java-jni deb java optional arch=any
+Directory: pool/main/j/jpathwatch
+Priority: optional
+Section: misc

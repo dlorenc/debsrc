@@ -1,0 +1,29 @@
+Package: mypy
+Binary: mypy, mypy-doc, python3-mypy
+Version: 0.812-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, flake8, help2man, python3-all, python3-lxml, python3-pytest-xdist <!nocheck>, python3-pytest-cov <!nocheck>, python3-setuptools, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-typed-ast (>= 1.4.0), python3-typed-ast (<< 1.5.0), python3-psutil (>= 5.4.0), python3-mypy-extensions, python3-typing-extensions, python3-virtualenv <!nocheck>, python3-all-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b4d1c9e2c9fc38beacea470b295518dc 2498 mypy_0.812-1.dsc
+ ba137961f1aa570fb8af920201c62014 2645818 mypy_0.812.orig.tar.gz
+ 5513c8ef3d61a2299f1d855dfa6128df 12832 mypy_0.812-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/mypy
+Vcs-Git: https://salsa.debian.org/med-team/mypy.git
+Checksums-Sha256:
+ fe68e75014a2af94f890977f6883636bdca097554f96345eb9a37c26dab9df8a 2498 mypy_0.812-1.dsc
+ cd07039aa5df222037005b08fbbfd69b3ab0b0bd7a07d7906de75ae52c4e3119 2645818 mypy_0.812.orig.tar.gz
+ 6c9e22c7f6af689087889216db73e6682e434160dea50697d95c6c1fbd97bbef 12832 mypy_0.812-1.debian.tar.xz
+Homepage: http://www.mypy-lang.org/
+Package-List: 
+ mypy deb utils optional arch=all
+ mypy-doc deb doc optional arch=all profile=!nodoc
+ python3-mypy deb python optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-lxml, python3-pytest-xdist, python3-virtualenv
+Directory: pool/main/m/mypy
+Priority: optional
+Section: misc

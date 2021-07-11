@@ -1,0 +1,27 @@
+Package: lavacli
+Binary: lavacli
+Version: 1.0-1
+Maintainer: Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>
+Uploaders: Remi Duraffort <remi.duraffort@linaro.org>, Antonio Terceiro <antonio.terceiro@linaro.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-jinja2, python3-pytest, python3-pytest-runner, python3-requests, python3-setuptools, python3-sphinx, python3-yaml, python3-zmq
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 0cb9a77f890714f5be702fa1d9fb1861 2151 lavacli_1.0-1.dsc
+ afda8898eb566c3b31206783966069af 68815 lavacli_1.0.orig.tar.gz
+ b2e97d2258701e9d432f8a86e850cb78 14928 lavacli_1.0-1.debian.tar.xz
+Vcs-Browser: https://git.lavasoftware.org/lava/lavacli
+Vcs-Git: https://git.lavasoftware.org/lava/lavacli
+Checksums-Sha256:
+ de54cb40fbb57e02bbcc8839bf655be659a55561fd18e710e9f481fe439866da 2151 lavacli_1.0-1.dsc
+ 231d15aec8173112db6aab2acf4f38b47e1a2cedc6e2f0e5be6a99d1ad20f69f 68815 lavacli_1.0.orig.tar.gz
+ cf1395ef53c310c98b17410d57d6b9d715d4f8463c264210d67b62e5f550e22c 14928 lavacli_1.0-1.debian.tar.xz
+Homepage: https://git.lavasoftware.org/lava/lavacli
+Package-List: 
+ lavacli deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/l/lavacli
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: postgresql-pllua
+Binary: postgresql-13-pllua
+Version: 1:2.0.7-1
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: debhelper-compat (= 13), liblua5.3-dev, lua5.3, postgresql-all (>= 217~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9782f3452b0a62438bfdf6e8677fa006 2123 postgresql-pllua_2.0.7-1.dsc
+ df429ad6e791bb6d8b10349e3bace5f8 216196 postgresql-pllua_2.0.7.orig.tar.gz
+ 903f554b81c12fc1dc945c84f1ad971c 4192 postgresql-pllua_2.0.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/postgresql/postgresql-pllua
+Vcs-Git: https://salsa.debian.org/postgresql/postgresql-pllua.git
+Checksums-Sha256:
+ 3f27c8ec3ccfa82a11145fc0e212817b9ae8812a4af303a627e1eb460b63fb3e 2123 postgresql-pllua_2.0.7-1.dsc
+ ffb07f43db3bb866d74d5a200bd459e205dbf6a7d1351449067703e372a53aff 216196 postgresql-pllua_2.0.7.orig.tar.gz
+ 269035f51fa1eb2e9bbd0dc7f1a7ca5f1cc6b9884dae3af0eb5c437c45992a35 4192 postgresql-pllua_2.0.7-1.debian.tar.xz
+Homepage: https://github.com/pllua/pllua
+Package-List: 
+ postgresql-13-pllua deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: lua5.3, make, postgresql-all
+Directory: pool/main/p/postgresql-pllua
+Priority: source
+Section: database

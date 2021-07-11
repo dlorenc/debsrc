@@ -1,0 +1,30 @@
+Package: statsmodels
+Binary: python-statsmodels-doc, python3-statsmodels, python3-statsmodels-lib
+Version: 0.12.2-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Diane Trout <diane@ghic.org>, Rebecca N. Palmer <rebecca_palmer@zoho.com>
+Build-Depends: debhelper-compat (= 13), sphinx-common, dh-python (>= 3.20180313~), cython3, python3-all-dev, python3-colorama <!nocheck> <!nodoc>, python3-cvxopt <!nocheck> <!nodoc>, python3-dateutil <!nocheck> <!nodoc>, python3-joblib <!nocheck> <!nodoc>, python3-matplotlib, python3-numpy, python3-pandas, python3-patsy (>= 0.5.1) <!nocheck> <!nodoc>, python3-pytest <!nocheck>, python3-pytest-forked <!nocheck>, python3-scipy, python3-setuptools, python3-tk <!nocheck> <!nodoc>
+Build-Depends-Indep: python3-jupyter-client <!nodoc>, python3-nbconvert <!nodoc>, python3-nbsphinx <!nodoc>, python3-notebook <!nodoc>, python3-numpydoc <!nodoc>, python3-seaborn <!nodoc>, python3-simplegeneric <!nodoc>, python3-sphinx <!nodoc>, python3-yaml <!nodoc>, jdupes <!nodoc>, python-matplotlib-doc <!nodoc>, python-numpy-doc <!nodoc>, python-scipy-doc <!nodoc>, python-pandas-doc <!nodoc>, python3-doc <!nodoc>, r-base-core <!nodoc>, python3-rpy2 <!nodoc>, r-cran-cardata <!nodoc>, r-cran-geepack <!nodoc>, r-cran-guerry <!nodoc>, r-cran-lme4 <!nodoc>, r-cran-mass <!nodoc>, r-cran-robustbase <!nodoc>, r-cran-vcd <!nodoc>, pandoc <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3b223e0d78ddecd90e376b3edaa5cf1e 3576 statsmodels_0.12.2-1.dsc
+ 8664438e97495efd72353460d4cede56 13386210 statsmodels_0.12.2.orig.tar.gz
+ 41b8e6a0d2e1c812490a9f56707eb5e4 33356 statsmodels_0.12.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/statsmodels
+Vcs-Git: https://salsa.debian.org/science-team/statsmodels.git
+Checksums-Sha256:
+ ab979919ee438db261f722e32132280deb0d10dcc6d2efa4d42658738baac597 3576 statsmodels_0.12.2-1.dsc
+ 762a33b04d63f6674881c3519787e745203d996ea7304bcf5f84f2902397ef2f 13386210 statsmodels_0.12.2.orig.tar.gz
+ 294fd93d3ba85ad9c9a56e8ddb8f14abbafd72ee39036f9ff3953e0198d551f8 33356 statsmodels_0.12.2-1.debian.tar.xz
+Homepage: https://www.statsmodels.org
+Package-List: 
+ python-statsmodels-doc deb doc optional arch=all
+ python3-statsmodels deb python optional arch=all
+ python3-statsmodels-lib deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-colorama, python3-cvxopt, python3-dateutil, python3-joblib, python3-matplotlib, python3-nose, python3-pytest, python3-tk
+Directory: pool/main/s/statsmodels
+Priority: source
+Section: python

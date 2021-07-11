@@ -1,0 +1,26 @@
+Package: xml-light
+Binary: libxml-light-ocaml-dev, libxml-light-ocaml
+Version: 2.4-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>
+Build-Depends: cdbs (>= 0.4.23-1.1), ocaml-nox (>= 4), debhelper (>= 9), dh-ocaml (>= 0.9)
+Architecture: any
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 43d0cdf74865ef255bf6e9c29eaac5bd 2092 xml-light_2.4-1.dsc
+ fe55697c13e867ced31ec79d5e33c7de 16573 xml-light_2.4.orig.tar.gz
+ be258116d485f4cf132636e2e70ae3bd 4640 xml-light_2.4-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ocaml-maint/packages/xml-light.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ocaml-maint/packages/xml-light.git
+Checksums-Sha256:
+ de9fc8ceb220677ee83e12a0e3e00bc9f3fbf89c2134048df9d594d02d776c4f 2092 xml-light_2.4-1.dsc
+ 42018932fa47f90e28d751439ab24447676ea6d912c0e16d08b7ed6a1c2e6581 16573 xml-light_2.4.orig.tar.gz
+ 4d4749b5e936cd8aebcf855d8306b31d334972a3c5c6d8691c8f24127a67cc13 4640 xml-light_2.4-1.debian.tar.xz
+Homepage: https://github.com/ncannasse/xml-light
+Package-List: 
+ libxml-light-ocaml deb ocaml optional arch=any
+ libxml-light-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/x/xml-light
+Priority: source
+Section: libdevel

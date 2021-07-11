@@ -1,0 +1,28 @@
+Package: haskell-text-conversions
+Binary: libghc-text-conversions-dev, libghc-text-conversions-prof, libghc-text-conversions-doc
+Version: 0.3.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.9), cdbs, ghc, ghc-prof, libghc-base16-bytestring-dev, libghc-base16-bytestring-prof, libghc-base64-bytestring-dev, libghc-base64-bytestring-prof, libghc-errors-dev, libghc-errors-prof, libghc-hspec-dev <!nocheck>, hspec-discover <!nocheck>
+Build-Depends-Indep: ghc-doc, libghc-base16-bytestring-doc, libghc-base64-bytestring-doc, libghc-errors-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d95f0691cfba15605780470a33358731 2727 haskell-text-conversions_0.3.0-3.dsc
+ 688bc606dac77ef155782582a7bffe9f 5232 haskell-text-conversions_0.3.0.orig.tar.gz
+ e03ffff6fd4a6cc8e8924f49e310dc03 2660 haskell-text-conversions_0.3.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-text-conversions
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git
+Checksums-Sha256:
+ 2830a861a1fefc15cb78712c22a6d1d8ed04228359790f2ca14601dca39b2fb9 2727 haskell-text-conversions_0.3.0-3.dsc
+ 1756be2f6b515fea9e00b383c00d1ee851f8b25ddbc2901dd6be27d9b6292c21 5232 haskell-text-conversions_0.3.0.orig.tar.gz
+ ab2c68565f3c81e4437dae691eedb5c9011e7a8ec66da45e999215cd40d54b19 2660 haskell-text-conversions_0.3.0-3.debian.tar.xz
+Homepage: https://github.com/cjdev/text-conversions
+Package-List: 
+ libghc-text-conversions-dev deb haskell optional arch=any
+ libghc-text-conversions-doc deb doc optional arch=all
+ libghc-text-conversions-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-text-conversions
+Priority: extra
+Section: misc

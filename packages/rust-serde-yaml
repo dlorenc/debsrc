@@ -1,0 +1,26 @@
+Package: rust-serde-yaml
+Binary: librust-serde-yaml-dev
+Version: 0.8.11-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-dtoa-0.4+default-dev <!nocheck>, librust-linked-hash-map-0.5+default-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.60-~~) <!nocheck>, librust-yaml-rust-0.4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 811db91f388eed96fd2d98e2a9303923 2450 rust-serde-yaml_0.8.11-2.dsc
+ c32a0204af6704a7eae1b0e473a5918e 35772 rust-serde-yaml_0.8.11.orig.tar.gz
+ 72e1a561aaf3609623021c215f04eafa 2576 rust-serde-yaml_0.8.11-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-yaml
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-yaml]
+Checksums-Sha256:
+ a4de1b38ffe5c9c7a5f06e2ac79a3695fa3daa216cc4864183919b529df07117 2450 rust-serde-yaml_0.8.11-2.dsc
+ 691b17f19fc1ec9d94ec0b5864859290dff279dbd7b03f017afda54eb36c3c35 35772 rust-serde-yaml_0.8.11.orig.tar.gz
+ 7b895284ce6b2e0ff1e1de95e4adefc1ff5eeb807bea885b340479224eb55b1f 2576 rust-serde-yaml_0.8.11-2.debian.tar.xz
+Package-List: 
+ librust-serde-yaml-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-serde-derive-1+default-dev, librust-unindent-0.1+default-dev
+Directory: pool/main/r/rust-serde-yaml
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: haskell-heterocephalus
+Binary: libghc-heterocephalus-dev, libghc-heterocephalus-prof, libghc-heterocephalus-doc
+Version: 1.0.5.3-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-blaze-html-dev (>= 0.8), libghc-blaze-html-dev (<< 0.10), libghc-blaze-html-prof (>= 0.8), libghc-blaze-html-prof (<< 0.10), libghc-blaze-markup-dev (>= 0.7), libghc-blaze-markup-dev (<< 0.9), libghc-blaze-markup-prof (>= 0.7), libghc-blaze-markup-prof (<< 0.9), libghc-dlist-dev (>= 0.7.1.1), libghc-dlist-prof (>= 0.7.1.1), libghc-shakespeare-dev (>= 2.0), libghc-shakespeare-dev (<< 2.1), libghc-shakespeare-prof (>= 2.0), libghc-shakespeare-prof (<< 2.1), libghc-glob-dev, libghc-glob-prof, libghc-doctest-dev (>= 0.10), libghc-doctest-prof (>= 0.10)
+Build-Depends-Indep: ghc-doc, libghc-blaze-html-doc, libghc-blaze-markup-doc, libghc-dlist-doc, libghc-shakespeare-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8dbfd4e0900b1e03e63a3caf39a7904e 2904 haskell-heterocephalus_1.0.5.3-3.dsc
+ 9bff120168ceac49c19f1601e0de0319 15104 haskell-heterocephalus_1.0.5.3.orig.tar.gz
+ 666b1a9db7f5c382abe4efa6d62c16ea 2544 haskell-heterocephalus_1.0.5.3-3.debian.tar.xz
+Checksums-Sha256:
+ ce37896e8155b4afc5e354261c0419f45812494aa40c0e1613ad675085a382dc 2904 haskell-heterocephalus_1.0.5.3-3.dsc
+ 4723e03896cc91d524da36fe1b8c5b174b81120c323a3fad692f9ada4bd8794f 15104 haskell-heterocephalus_1.0.5.3.orig.tar.gz
+ c3bb29ff520eb10b8751e075f1416002501b7a1103006547a83a5e5d24d9c599 2544 haskell-heterocephalus_1.0.5.3-3.debian.tar.xz
+Homepage: https://github.com/arowM/heterocephalus#readme
+Package-List: 
+ libghc-heterocephalus-dev deb haskell optional arch=any
+ libghc-heterocephalus-doc deb doc optional arch=all
+ libghc-heterocephalus-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-heterocephalus
+Priority: extra
+Section: misc

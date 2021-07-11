@@ -1,0 +1,28 @@
+Package: python-service-identity
+Binary: python3-service-identity
+Version: 18.1.0-6
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Tristan Seligmann <mithrandi@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-attr, python3-cryptography, python3-idna, python3-openssl, python3-pyasn1-modules, python3-pytest, python3-setuptools
+Build-Depends-Indep: python3-sphinx
+Architecture: all
+Standards-Version: 4.3.0.3
+Format: 3.0 (quilt)
+Files:
+ bab8d8c7a58d70351d2238f6de684cf8 2382 python-service-identity_18.1.0-6.dsc
+ c6b8bac93e7d899a1da313a19cc6570a 21653 python-service-identity_18.1.0.orig.tar.gz
+ c6b2a79922b3d8bbfd44a275eccc8385 4888 python-service-identity_18.1.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-service-identity
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-service-identity.git
+Checksums-Sha256:
+ e0da7dc7fb73ad7a4048912bcdc8d4158fb95fa6b5e01b2749eb4637e5c88256 2382 python-service-identity_18.1.0-6.dsc
+ 0858a54aabc5b459d1aafa8a518ed2081a285087f349fe3e55197989232e2e2d 21653 python-service-identity_18.1.0.orig.tar.gz
+ eedfc7217037caa6c6a4e21c080961b3361a63ead69577708e9e947aad4e7ca6 4888 python-service-identity_18.1.0-6.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/service_identity
+Package-List: 
+ python3-service-identity deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-service-identity
+Priority: optional
+Section: misc

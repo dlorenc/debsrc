@@ -1,0 +1,28 @@
+Package: libthread-pool-perl
+Binary: libthread-pool-perl
+Version: 0.35-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Christopher Hoskin <christopher.hoskin@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libthread-conveyor-monitored-perl <!nocheck>, libthread-conveyor-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d76ea2016e2dc18835abd7f215b6d22f 2464 libthread-pool-perl_0.35-1.dsc
+ b2227135ad8960b16cd6ba1d2574a3e6 27505 libthread-pool-perl_0.35.orig.tar.gz
+ 705320300942a63c4cd4bae85e71f766 3692 libthread-pool-perl_0.35-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libthread-pool-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libthread-pool-perl.git
+Checksums-Sha256:
+ 7f39c21c71f0dda3c57e5d8d3bb0f48e342d8baa84314a3c186ec2c4b4a70cac 2464 libthread-pool-perl_0.35-1.dsc
+ 35a09e5d493dc0752fb154c001c7bbac2e3c00236db2395d93c37bb15fdbab45 27505 libthread-pool-perl_0.35.orig.tar.gz
+ d8524b6223e87bba2b74ffc55117598c8ef21d65d44a28be303e8af397aa9059 3692 libthread-pool-perl_0.35-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Thread-Pool
+Dgit: 56ff318b9214aba166557bf8b7384da93a8d3197 debian archive/debian/0.35-1 https://git.dgit.debian.org/libthread-pool-perl
+Package-List: 
+ libthread-pool-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libt/libthread-pool-perl
+Priority: optional
+Section: misc

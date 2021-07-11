@@ -1,0 +1,26 @@
+Package: node-lcid
+Binary: node-lcid
+Version: 3.1.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-invert-kv <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8d9a6a551f484326c1603b57cd9f618d 2029 node-lcid_3.1.1-1.dsc
+ a9d8d7b4ce79b53560174da44a575342 4798 node-lcid_3.1.1.orig.tar.gz
+ 7746a64b1c5a1a933cc82bd0065b0cb8 2880 node-lcid_3.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-lcid
+Vcs-Git: https://salsa.debian.org/js-team/node-lcid.git
+Checksums-Sha256:
+ c58854bc25b57ca5a032bd1bb07a404958e0edb191d2aaac96b23a94abe01426 2029 node-lcid_3.1.1-1.dsc
+ 09f3468b9010ead97e76814c2afba5d1fdfa8132918fd881a09d257a8bd8add7 4798 node-lcid_3.1.1.orig.tar.gz
+ d9f6a7fbf9c053248899ba33d4bd56942e1a67d3d7600c097259daf10bd6d25d 2880 node-lcid_3.1.1-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/lcid
+Package-List: 
+ node-lcid deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-lcid
+Priority: optional
+Section: javascript

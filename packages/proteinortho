@@ -1,0 +1,26 @@
+Package: proteinortho
+Binary: proteinortho
+Version: 6.0.28+dfsg-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), ncbi-blast+, liblapack-dev | libatlas-base-dev | liblapack.so, diamond-aligner, procps
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8e76e4b6b5f22e0ee54225c688e00b54 2184 proteinortho_6.0.28+dfsg-1.dsc
+ e3e0060b37d2069b080249d31c733872 511280 proteinortho_6.0.28+dfsg.orig.tar.xz
+ cd6c344e6c64a38efb5f0018ac5cfd2a 7028 proteinortho_6.0.28+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/proteinortho
+Vcs-Git: https://salsa.debian.org/med-team/proteinortho.git
+Checksums-Sha256:
+ ca6a9866ed11e76e7d91331a965e6e8133fcf274e452733a24d4353088d7375a 2184 proteinortho_6.0.28+dfsg-1.dsc
+ 8313be7b13b1ce86c9b80b85ed7dbcd7d856adafb31f563b4b1add526050e1af 511280 proteinortho_6.0.28+dfsg.orig.tar.xz
+ 27dbeded20a55fe619377c119f8132622fce324a9be43869d1a19362e38d66d5 7028 proteinortho_6.0.28+dfsg-1.debian.tar.xz
+Homepage: https://gitlab.com/paulklemm_PHD/proteinortho
+Package-List: 
+ proteinortho deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/proteinortho
+Priority: optional
+Section: misc

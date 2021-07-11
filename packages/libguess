@@ -1,0 +1,26 @@
+Package: libguess
+Binary: libguess-dev, libguess1
+Version: 1.2-4
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), pkgconf | pkg-config, gauche, autotools-dev
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 0cc730f91cc1414de2b7c5814ea9b032 1684 libguess_1.2-4.dsc
+ 7633fbfbeb75b1ded7f33cca3d8d4762 79685 libguess_1.2.orig.tar.bz2
+ fd35a59c33f30589d879afd20d966a20 6088 libguess_1.2-4.debian.tar.xz
+Vcs-Browser: https://browse.dgit.debian.org/libguess.git/
+Vcs-Git: https://git.dgit.debian.org/libguess
+Checksums-Sha256:
+ 62161429883ce298ac2e0567984faab141ac2b76900adaacd0d3cf5e21433acc 1684 libguess_1.2-4.dsc
+ 8019a16bdc7ca9d2efbdcc1429d48d033d5053d42e45fccea10abf98074f05f8 79685 libguess_1.2.orig.tar.bz2
+ 60b94e0fa3312e0dee44df0572ea1019f15ee605799a3687b7dd8a9808eef7d9 6088 libguess_1.2-4.debian.tar.xz
+Homepage: https://github.com/kaniini/libguess
+Dgit: 0a8a93b9a06da7477cc764176ffd6115d1d9ccbe debian archive/debian/1.2-4 https://git.dgit.debian.org/libguess
+Package-List: 
+ libguess-dev deb libdevel optional arch=any
+ libguess1 deb libs optional arch=any
+Directory: pool/main/libg/libguess
+Priority: source
+Section: libs

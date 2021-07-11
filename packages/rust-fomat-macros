@@ -1,0 +1,26 @@
+Package: rust-fomat-macros
+Binary: librust-fomat-macros-dev
+Version: 0.3.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b6bf3b66b78e4a1f2ecaac472b60aa09 2224 rust-fomat-macros_0.3.1-1.dsc
+ 4c7a50a26e637dacddaaefe0b8098be9 12182 rust-fomat-macros_0.3.1.orig.tar.gz
+ ac0989b03bcdd1e0962bece76bcb12f7 2568 rust-fomat-macros_0.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fomat-macros
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fomat-macros]
+Checksums-Sha256:
+ 7b66c698960fd89dbbd4c9bb50bc8c23f14575d05add9a941967433ff952d3cb 2224 rust-fomat-macros_0.3.1-1.dsc
+ fe56556a8c9f9f556150eb6b390bc1a8b3715fd2ddbb4585f36b6a5672c6a833 12182 rust-fomat-macros_0.3.1.orig.tar.gz
+ cd05312522d64ab5039985597cea6e9bdfc27ffb528e163270b23f1e676e0f5f 2568 rust-fomat-macros_0.3.1-1.debian.tar.xz
+Package-List: 
+ librust-fomat-macros-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-tar-0.4+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-fomat-macros
+Priority: extra
+Section: misc

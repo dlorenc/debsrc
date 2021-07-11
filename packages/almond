@@ -1,0 +1,25 @@
+Package: almond
+Binary: node-almond
+Version: 0.3.3+dfsg-6
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Build-Depends: debhelper-compat (= 13), uglifyjs.terser, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2fc5b1f5389e1282c7161b884959db9a 1959 almond_0.3.3+dfsg-6.dsc
+ cc89a6098aaaef19b1e07f17afc9d8b2 66972 almond_0.3.3+dfsg.orig.tar.xz
+ 58578cf73b99c6ace9c19c84fc61fce4 4600 almond_0.3.3+dfsg-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/georgesk/almond
+Vcs-Git: https://salsa.debian.org/georgesk/almond.git
+Checksums-Sha256:
+ e05310044a05a19870eaa91f1beb394fd9c61527baea68660569136ce783dd43 1959 almond_0.3.3+dfsg-6.dsc
+ e2ecb87bcb878a14c3761564f594773043110639f500ad615a7f510886960177 66972 almond_0.3.3+dfsg.orig.tar.xz
+ ce083a5bae87d72554f7b36afecb59a204c2f2ad3414be4c72e1268c8823dc84 4600 almond_0.3.3+dfsg-6.debian.tar.xz
+Homepage: https://github.com/requirejs/almond/
+Package-List: 
+ node-almond deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/a/almond
+Priority: optional
+Section: misc

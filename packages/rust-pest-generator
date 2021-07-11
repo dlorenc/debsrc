@@ -1,0 +1,27 @@
+Package: rust-pest-generator
+Binary: librust-pest-generator-dev
+Version: 2.1.1-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-pest-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-pest-meta-2+default-dev (>= 2.1.0-~~) <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d2919566efbb15f94a60f6f7b8d0a240 2457 rust-pest-generator_2.1.1-2.dsc
+ bf0dac7607dd1bbb2442e12406882faf 14004 rust-pest-generator_2.1.1.orig.tar.gz
+ f021ce094e086f30c6f1558eb8d170d0 2756 rust-pest-generator_2.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pest-generator
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pest-generator]
+Checksums-Sha256:
+ 930deb8db4e9e0f1dbbef46bb2087aad44f0ce8edac9d93eb32b67b9c095062b 2457 rust-pest-generator_2.1.1-2.dsc
+ 7b9fcf299b5712d06ee128a556c94709aaa04512c4dffb8ead07c5c998447fc0 14004 rust-pest-generator_2.1.1.orig.tar.gz
+ 00bb8590db46b9a06e047df01d9550e8cc1d7a3e1016d485d10440bfcc9070e6 2756 rust-pest-generator_2.1.1-2.debian.tar.xz
+Homepage: https://pest-parser.github.io/
+Package-List: 
+ librust-pest-generator-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-pest-generator
+Priority: extra
+Section: misc

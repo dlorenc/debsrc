@@ -1,0 +1,27 @@
+Package: sshesame
+Binary: sshesame
+Version: 0.0~git20161116.b74f93f-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-golang-x-crypto-dev, golang-logrus-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d3f8de943cb4ebc57312f4b46943923d 2336 sshesame_0.0~git20161116.b74f93f-3.dsc
+ 7e75a67f836d6863a88d50c806ae47a8 8076 sshesame_0.0~git20161116.b74f93f.orig.tar.xz
+ 6eb40ff32b9d3e640905325d3d2fadf7 1992 sshesame_0.0~git20161116.b74f93f-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/sshesame
+Vcs-Git: https://salsa.debian.org/go-team/packages/sshesame.git
+Checksums-Sha256:
+ 9222e6ea82d7f2a8642b08b4f6d9ae6289834baa75373890f0b058287bc8a5e6 2336 sshesame_0.0~git20161116.b74f93f-3.dsc
+ 6a5d7c0f4a6c7b8b2fb205e72d68d86bd51da8bb19a75be178c7287f379e5b80 8076 sshesame_0.0~git20161116.b74f93f.orig.tar.xz
+ fdd7a485f8933f48a3c51a0cd02ffd5e2e0d1abba929170b738ba9e9f3e91a85 1992 sshesame_0.0~git20161116.b74f93f-3.debian.tar.xz
+Homepage: https://github.com/jaksi/sshesame
+Go-Import-Path: github.com/jaksi/sshesame
+Package-List: 
+ sshesame deb devel optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/s/sshesame
+Priority: extra
+Section: misc

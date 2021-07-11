@@ -1,0 +1,27 @@
+Package: r-cran-psychotree
+Binary: r-cran-psychotree
+Version: 0.15-3-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-partykit, r-cran-psychotools, r-cran-formula
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bed9c8db710c374d8810b9f0486c3529 2200 r-cran-psychotree_0.15-3-2.dsc
+ 0f31effa4319148e06bd3b91e75b29dd 235623 r-cran-psychotree_0.15-3.orig.tar.gz
+ 657f7546409e4210503f81dd5370ff5f 2240 r-cran-psychotree_0.15-3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-psychotree
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-psychotree.git
+Checksums-Sha256:
+ a0bc64c41e4a68d24b82e0fcb03f273a70171e7fe6cd6aa1432aa4884d77b1aa 2200 r-cran-psychotree_0.15-3-2.dsc
+ eead710d5a0984e7865a47323acd66c1bfd6421190056311e2aed0b2694b99a2 235623 r-cran-psychotree_0.15-3.orig.tar.gz
+ c261f33df4fc3915c8268c2951ea610985b404aede690b551fbf8edaa1ac8009 2240 r-cran-psychotree_0.15-3-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=psychotree
+Package-List: 
+ r-cran-psychotree deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-colorspace
+Directory: pool/main/r/r-cran-psychotree
+Priority: extra
+Section: misc

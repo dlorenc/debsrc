@@ -1,0 +1,27 @@
+Package: golang-github-go-errors-errors
+Binary: golang-github-go-errors-errors-dev
+Version: 1.0.1-4
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Raju Devidas <rajudev@disroot.org>, Anthony Fok <foka@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang (>= 1.45~), golang-any (>= 2:1.12~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 60ce3dccf9c318b8e9e6bfab4459f3ff 2378 golang-github-go-errors-errors_1.0.1-4.dsc
+ 4b2ba88281050a73aaed7675778c0780 7984 golang-github-go-errors-errors_1.0.1.orig.tar.xz
+ e1de31d2470cc1b573c94e49a09cd3fb 4284 golang-github-go-errors-errors_1.0.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-go-errors-errors.git
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-go-errors-errors.git
+Checksums-Sha256:
+ fcfc0fb629f3f9c2359c41ec3d09a7796d1ca516741bf4ea4c3cb65fdd35dd7a 2378 golang-github-go-errors-errors_1.0.1-4.dsc
+ cb5577aa8c2d297d218e689d235a509ac48835caeacf47006d2117c2aa25de49 7984 golang-github-go-errors-errors_1.0.1.orig.tar.xz
+ f43454d41964d4299d782a64b3ef494256eb2b101c0ffa6f76b1b6ba0a2b8259 4284 golang-github-go-errors-errors_1.0.1-4.debian.tar.xz
+Homepage: https://github.com/go-errors/errors
+Go-Import-Path: github.com/go-errors/errors
+Package-List: 
+ golang-github-go-errors-errors-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-go-errors-errors
+Priority: extra
+Section: golang

@@ -1,0 +1,26 @@
+Package: python-matplotlib-venn
+Binary: python3-matplotlib-venn
+Version: 0.11.6-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3, python3-setuptools, python3-matplotlib, python3-scipy, python3-pytest, python3-tk, xauth <!nocheck>, xvfb <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b254710e645a91df858233d4bbcb432d 2281 python-matplotlib-venn_0.11.6-1.dsc
+ 338d76ecfbfafc76041936c1c89f5b82 29610 python-matplotlib-venn_0.11.6.orig.tar.gz
+ 510fc1115c8c8f991e84653698b2dd4b 3728 python-matplotlib-venn_0.11.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-matplotlib-venn
+Vcs-Git: https://salsa.debian.org/med-team/python-matplotlib-venn.git
+Checksums-Sha256:
+ 2af05a612d42d76111335f4ab2161c8e974df2ffcc5eba599b0448aacf339c6a 2281 python-matplotlib-venn_0.11.6-1.dsc
+ d209a9845bb3a54c4247f1ef3f745e4819660ecc9208137097d2a51281f2a478 29610 python-matplotlib-venn_0.11.6.orig.tar.gz
+ 5fb3d48ce56f45315b0a8be7399f803de99f4f1401a8a1757c9875e93869875a 3728 python-matplotlib-venn_0.11.6-1.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/matplotlib-venn
+Package-List: 
+ python3-matplotlib-venn deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-matplotlib-venn
+Priority: optional
+Section: misc

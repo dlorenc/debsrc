@@ -1,0 +1,24 @@
+Package: kdump-tools
+Binary: kdump-tools
+Version: 1:1.6.8.3
+Maintainer: Debian Kdump <team+kdump@tracker.debian.org>
+Uploaders: dann frazier <dannf@debian.org>, Thadeu Lima de Souza Cascardo <cascardo@debian.org>
+Build-Depends: debhelper-compat (= 12), po-debconf, shellcheck <!nocheck>
+Architecture: amd64 arm64 armel armhf i386 ia64 powerpc ppc64el s390x x32
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 85f6c900d93287a472ad805aace97c83 1903 kdump-tools_1.6.8.3.dsc
+ 41cc8d3773ddf1495237cc47d27bcbe5 38144 kdump-tools_1.6.8.3.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/kdump-tools
+Vcs-Git: https://salsa.debian.org/debian/kdump-tools.git
+Checksums-Sha256:
+ de7fb85cfe3c40a974ddbd01497b03c678e407ae024e6d1afa7eb5a48245126a 1903 kdump-tools_1.6.8.3.dsc
+ 50b05438d852eda269875a93a22cc90051e03ba9caf4ff7056088e2ebac12744 38144 kdump-tools_1.6.8.3.tar.xz
+Package-List: 
+ kdump-tools deb devel optional arch=amd64,arm64,armel,armhf,i386,ia64,powerpc,ppc64el,s390x,x32
+Testsuite: autopkgtest
+Testsuite-Triggers: file, initramfs-tools-core, shellcheck
+Directory: pool/main/k/kdump-tools
+Priority: extra
+Section: misc

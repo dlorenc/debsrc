@@ -1,0 +1,28 @@
+Package: node-jquery-textcomplete
+Binary: node-jquery-textcomplete, libjs-jquery-textcomplete
+Version: 1.8.5+dfsg-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), grunt, node-grunt-contrib-concat, node-jquery, dh-sequence-nodejs, uglifyjs.terser
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a9d3aec64c775625f7ca42c848967169 2421 node-jquery-textcomplete_1.8.5+dfsg-5.dsc
+ fcb633b7f06956fbdb49ac03621eb72e 39208 node-jquery-textcomplete_1.8.5+dfsg.orig.tar.xz
+ 31d37dc00c70eb89e524e1e74c3935bb 4036 node-jquery-textcomplete_1.8.5+dfsg-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-jquery-textcomplete
+Vcs-Git: https://salsa.debian.org/js-team/node-jquery-textcomplete.git
+Checksums-Sha256:
+ d114d840a47e60c42f6ac36ec341dc56f53b51fb5bdb34474ac078634303e65b 2421 node-jquery-textcomplete_1.8.5+dfsg-5.dsc
+ 4b4d4384c552d777412e3aa94a18dc5604b37c1cdc37d9c01e102468af8fe132 39208 node-jquery-textcomplete_1.8.5+dfsg.orig.tar.xz
+ caa0c2230a1d33d1b33fe86d6bc657dedca2991566f51dbe9bbbad7a4856b999 4036 node-jquery-textcomplete_1.8.5+dfsg-5.debian.tar.xz
+Homepage: https://github.com/yuku-t/jquery-textcomplete
+Package-List: 
+ libjs-jquery-textcomplete deb javascript optional arch=all
+ node-jquery-textcomplete deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-rollup-plugin-commonjs, node-rollup-plugin-node-resolve, rollup
+Directory: pool/main/n/node-jquery-textcomplete
+Priority: optional
+Section: javascript

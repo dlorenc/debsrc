@@ -1,0 +1,25 @@
+Package: globus-gridftp-server-control
+Binary: libglobus-gridftp-server-control0, libglobus-gridftp-server-control-dev
+Version: 9.1-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-xio-dev (>= 3), libglobus-xio-gsi-driver-dev (>= 2), libglobus-xio-pipe-driver-dev (>= 2), libglobus-gss-assist-dev (>= 8), libglobus-gssapi-gsi-dev (>= 10), libglobus-gsi-openssl-error-dev (>= 2), libglobus-gssapi-error-dev (>= 4)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 34ddd0c6467765af297a0d5f0b84b4a0 2440 globus-gridftp-server-control_9.1-1.dsc
+ 2d9c2222d85859a8c2ef570d42449bb1 384299 globus-gridftp-server-control_9.1.orig.tar.gz
+ dbb66af84a66b38ae184b087f3f66d4c 3772 globus-gridftp-server-control_9.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gridftp-server-control
+Vcs-Git: https://salsa.debian.org/ellert/globus-gridftp-server-control.git
+Checksums-Sha256:
+ 9a17d314e50b59757ea7c47eb950c59b7c4906b1a1801304932dc11cc996b0ee 2440 globus-gridftp-server-control_9.1-1.dsc
+ 7902070adcf7257b42146e1b38304d50102b36ff47cbcd5575e779002ce076d3 384299 globus-gridftp-server-control_9.1.orig.tar.gz
+ 21f60ac24b436b37812c12010c4d9e318229e92a0b439fc109a3eb1b3596543a 3772 globus-gridftp-server-control_9.1-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-gridftp-server-control-dev deb libdevel optional arch=any
+ libglobus-gridftp-server-control0 deb libs optional arch=any
+Directory: pool/main/g/globus-gridftp-server-control
+Priority: source
+Section: net

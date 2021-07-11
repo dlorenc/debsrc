@@ -1,0 +1,26 @@
+Package: ruli
+Binary: libruli-bin, libruli4, libruli4-dev
+Version: 0.36-2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), liboop-dev (>= 1.0)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b238c83eb0a4d4131df0cc3023977915 1916 ruli_0.36-2.dsc
+ e73fbfdeadddb68a703a70cea5271468 128290 ruli_0.36.orig.tar.gz
+ fa14fe73f3f46969af5373d752db0d78 4064 ruli_0.36-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/ruli
+Vcs-Git: https://salsa.debian.org/debian/ruli.git
+Checksums-Sha256:
+ 0f42793e9932eb6cde69075d9a96fda1440d4fc1016bffca86361d35c6238e08 1916 ruli_0.36-2.dsc
+ 11d32def5b514748fbd9ea8c88049ae99e1bb358efc74eb91a4d268a3999dbfa 128290 ruli_0.36.orig.tar.gz
+ 4f2c766795e54118f5b0faef824302ded47af5db813beaa59607a3af55c94135 4064 ruli_0.36-2.debian.tar.xz
+Homepage: https://www.nongnu.org/ruli/
+Package-List: 
+ libruli-bin deb libdevel optional arch=any
+ libruli4 deb libs optional arch=any
+ libruli4-dev deb libdevel optional arch=any
+Directory: pool/main/r/ruli
+Priority: source
+Section: libs

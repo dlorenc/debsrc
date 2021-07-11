@@ -1,0 +1,27 @@
+Package: golang-golang-x-sys
+Binary: golang-golang-x-sys-dev
+Version: 0.0~git20210124.22da62e-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>, Anthony Fok <foka@debian.org>, Martín Ferrari <tincho@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.17~), golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b564ec10bf9cb41d01828171bf860b62 1752 golang-golang-x-sys_0.0~git20210124.22da62e-1.dsc
+ 79653406791aafd1ef4d5d235cc50d1e 459712 golang-golang-x-sys_0.0~git20210124.22da62e.orig.tar.xz
+ 3e12915561fe1149907b3585cb189092 22304 golang-golang-x-sys_0.0~git20210124.22da62e-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-golang-x-sys
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-golang-x-sys.git
+Checksums-Sha256:
+ e9114fd207319baf303ceecfe691aefd0542fc92d3015242fc355ffdbdc8e2f4 1752 golang-golang-x-sys_0.0~git20210124.22da62e-1.dsc
+ 6db35ecd83171f2f597a58484e6bdaeac37ee8f02f2c7b5c50f34f10b78650b4 459712 golang-golang-x-sys_0.0~git20210124.22da62e.orig.tar.xz
+ df422e3bcb23e04b1bb6c86c3938ee2f5793b2f17986b52d485333e773d28806 22304 golang-golang-x-sys_0.0~git20210124.22da62e-1.debian.tar.xz
+Homepage: http://golang.org/x/sys
+Go-Import-Path: golang.org/x/sys
+Package-List: 
+ golang-golang-x-sys-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-golang-x-sys
+Priority: extra
+Section: golang

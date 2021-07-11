@@ -1,0 +1,27 @@
+Package: node-regenerate
+Binary: node-regenerate, libjs-regenerate
+Version: 1.4.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b80a05f8867793175140d33956b93110 2102 node-regenerate_1.4.2-2.dsc
+ 3d8212282cfb979d9e82092c2b128677 29562 node-regenerate_1.4.2.orig.tar.gz
+ 537d4c7df9125afdd028f0dcd2a4a52c 3080 node-regenerate_1.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js/node-regenerate
+Vcs-Git: https://salsa.debian.org/js-team/node-regenerate.git
+Checksums-Sha256:
+ 5f0ba33daa86c484f90f8ef5a99c623b6ca2a4b338b26e2e8f2efff005e82ac0 2102 node-regenerate_1.4.2-2.dsc
+ c5624deb938a2dbbb2776dbf1852fe7c592754f9b1199ca8c5397f786f7c2dfe 29562 node-regenerate_1.4.2.orig.tar.gz
+ 0f168c31296c3fce9b21bc67a1f0ec4ce3cb19e3a7df660c2574b71f393e9df6 3080 node-regenerate_1.4.2-2.debian.tar.xz
+Homepage: https://mths.be/regenerate
+Package-List: 
+ libjs-regenerate deb javascript optional arch=all
+ node-regenerate deb javascript optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/n/node-regenerate
+Priority: optional
+Section: javascript

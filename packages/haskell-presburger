@@ -1,0 +1,28 @@
+Package: haskell-presburger
+Binary: libghc-presburger-dev, libghc-presburger-prof, libghc-presburger-doc
+Version: 1.3.1-8
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-quickcheck2-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7a79b70895ebc395da16ab61820d9d5f 2361 haskell-presburger_1.3.1-8.dsc
+ bc1c082cd7de5e5c87e9bf2cb8d9a069 10794 haskell-presburger_1.3.1.orig.tar.gz
+ 6830417b7705827f469b9541c1eb0ecf 4592 haskell-presburger_1.3.1-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-presburger
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-presburger]
+Checksums-Sha256:
+ b793f0df80d175578712a0b9a757c9d49a2ba5b713cf28c3f858ec39ff7aef19 2361 haskell-presburger_1.3.1-8.dsc
+ 86021abbd457b3bac9cb0f09ce741c4c03de433ca8834532d68d84f90cc3d097 10794 haskell-presburger_1.3.1.orig.tar.gz
+ 25d7c4c46f507ec394bbc2a31b1116f51bc0cdea1489590e2e307b8165d53a3a 4592 haskell-presburger_1.3.1-8.debian.tar.xz
+Homepage: https://github.com/yav/presburger
+Package-List: 
+ libghc-presburger-dev deb haskell optional arch=any
+ libghc-presburger-doc deb doc optional arch=all
+ libghc-presburger-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-presburger
+Priority: optional
+Section: misc

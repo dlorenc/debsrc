@@ -1,0 +1,28 @@
+Package: libvshadow
+Binary: libvshadow-dev, libvshadow1, libvshadow-utils, python3-libvshadow
+Version: 20190323-2
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Uploaders: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, pkg-config, libbfio-dev, libfuse-dev, python3-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6438122a9fb8bec3175ee9855f06abd8 1881 libvshadow_20190323-2.dsc
+ 1b8c4a96aa7faa97e0a3f7be94e0282e 1431122 libvshadow_20190323.orig.tar.gz
+ a25290b6b0bb48a46c44a1c47eeaef7f 4656 libvshadow_20190323-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/libvshadow
+Vcs-Git: https://salsa.debian.org/pkg-security-team/libvshadow.git
+Checksums-Sha256:
+ 35e07415e5f4315220c37c290bd19649d709dcaa1b2553a892648e8ab09d7631 1881 libvshadow_20190323-2.dsc
+ ce95cb6fe03b386ee9d634dbffcb3dd740b03de1e059d8b667357299cb91da38 1431122 libvshadow_20190323.orig.tar.gz
+ e1baa2f28f22abf826f7c075348d564a450f69c4bddbc4cf939abeafa3f752db 4656 libvshadow_20190323-2.debian.tar.xz
+Homepage: https://github.com/libyal/libvshadow
+Package-List: 
+ libvshadow-dev deb libdevel optional arch=any
+ libvshadow-utils deb otherosfs optional arch=any
+ libvshadow1 deb libs optional arch=any
+ python3-libvshadow deb python optional arch=any
+Directory: pool/main/libv/libvshadow
+Priority: optional
+Section: misc

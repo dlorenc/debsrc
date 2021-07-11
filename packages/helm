@@ -1,0 +1,27 @@
+Package: helm
+Binary: elpa-helm-core, elpa-helm
+Version: 3.7.0-2
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Sean Whitton <spwhitton@spwhitton.name>
+Build-Depends: debhelper (>= 10), dh-elpa (>= 0.0.18)
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ de937b69911b21842b195c2f5aa2ed5a 2058 helm_3.7.0-2.dsc
+ 0534e6f48836fed2894404ed351f9f62 2134116 helm_3.7.0.orig.tar.xz
+ f185f92491b876b05f22325454fae442 6456 helm_3.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/helm
+Vcs-Git: https://salsa.debian.org/emacsen-team/helm.git/
+Checksums-Sha256:
+ 093a9caa3e51883d3736b60ab533c31eada3892fcce7ab3cd444ea360939ed75 2058 helm_3.7.0-2.dsc
+ 63261319c9439e3c03e8adf89d34cb13b200edfd625deeff170e09cb2ce41b55 2134116 helm_3.7.0.orig.tar.xz
+ b3e6fb6604046102143c2f43bcb94f5540185cad1235ec087a274ce53144ec89 6456 helm_3.7.0-2.debian.tar.xz
+Homepage: https://emacs-helm.github.io/helm/
+Dgit: 47d9f1a1d26490f7fd71553f8e6d7ecce2eae3f0 debian archive/debian/3.7.0-2 https://git.dgit.debian.org/helm
+Package-List: 
+ elpa-helm deb lisp optional arch=all
+ elpa-helm-core deb lisp optional arch=all
+Directory: pool/main/h/helm
+Priority: optional
+Section: misc

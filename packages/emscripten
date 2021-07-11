@@ -1,0 +1,29 @@
+Package: emscripten
+Binary: emscripten, emscripten-doc
+Version: 2.0.12~dfsg-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: binaryen (>= 98) <!nocheck>, clang (>= 1:11.0) <!nocheck>, cmake <!nocheck>, eslint <!nocheck>, fonts-liberation <!nocheck>, libsimde-dev, lld (>= 1:11.0) <!nocheck>, llvm (>= 1:11.0) <!nocheck>, debhelper-compat (= 12), dh-sequence-python3, help2man, htmlmin <!nocheck>, libjs-source-map, node-acorn <!nocheck>, nodejs <!nocheck>, python3, python3-numpy <!nocheck>, python3-ply <!nocheck>, scons <!nocheck>, wabt <!nocheck>
+Build-Depends-Indep: dh-sequence-sphinxdoc <!nocheck>, python3-sphinx <!nodoc>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7db5b1afab213682a0a13ae62e47f7d0 2560 emscripten_2.0.12~dfsg-2.dsc
+ 0b8aa1e5e4957dac7b4f9232d465bb30 17808080 emscripten_2.0.12~dfsg.orig.tar.xz
+ 2603b4d94feb1eba0fd959d602796382 97156 emscripten_2.0.12~dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/emscripten
+Vcs-Git: https://salsa.debian.org/js-team/emscripten.git
+Checksums-Sha256:
+ a9edd24d9110484273f0bc7a780e7327d6ab854969367cc399f1b659f0fb5766 2560 emscripten_2.0.12~dfsg-2.dsc
+ 7b368f9dbd1377f0c6584397ca27fa2103f8182fcf7ad512d1e271c4cd66f8c2 17808080 emscripten_2.0.12~dfsg.orig.tar.xz
+ 2af42b3c5b95df3916684cc386ff0715c37df4a09fe2c01ead5b6381124ed095 97156 emscripten_2.0.12~dfsg-2.debian.tar.xz
+Homepage: http://emscripten.org/
+Package-List: 
+ emscripten deb devel optional arch=all
+ emscripten-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: eslint
+Directory: pool/main/e/emscripten
+Priority: optional
+Section: misc

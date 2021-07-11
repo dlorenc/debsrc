@@ -1,0 +1,27 @@
+Package: nss
+Binary: libnss3, libnss3-tools, libnss3-dev
+Version: 2:3.61-1
+Maintainer: Maintainers of Mozilla-related packages <team+pkg-mozilla@tracker.debian.org>
+Uploaders: Mike Hommey <glandium@debian.org>
+Build-Depends: debhelper (>= 9.20160403), dpkg-dev (>= 1.17.14), libnspr4-dev (>= 2:4.24), zlib1g-dev, libsqlite3-dev (>= 3.3.9), libnss3-tools:native (>= 2:3.19-1-1~) <cross>
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ eb864e41153a0043bb70de9a0b09a378 2146 nss_3.61-1.dsc
+ e07573e1c0e1e5bef7c05075f8dfa46d 82034245 nss_3.61.orig.tar.gz
+ 75d21e97e7a1d6910b2757c1eff56876 20924 nss_3.61-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mozilla-team/nss
+Vcs-Git: https://salsa.debian.org/mozilla-team/nss.git
+Checksums-Sha256:
+ 7b2dfa70d1bed16ecccad43c5db6c57992c25576454ba11c7a77cdcde6bb65fb 2146 nss_3.61-1.dsc
+ 312e2d804b34ccf0fec70b57cf8cd6ac853f8ced60df53e30ebb0a7bcd0e1370 82034245 nss_3.61.orig.tar.gz
+ e9a9c70fcb5ace99b574ef6a46cc095a2962ea694b14de028ec99fea927ccf26 20924 nss_3.61-1.debian.tar.xz
+Homepage: http://www.mozilla.org/projects/security/pki/nss/
+Package-List: 
+ libnss3 deb libs optional arch=any
+ libnss3-dev deb libdevel optional arch=any
+ libnss3-tools deb admin optional arch=any
+Directory: pool/main/n/nss
+Priority: source
+Section: libs

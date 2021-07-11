@@ -1,0 +1,26 @@
+Package: rust-crypto-hash
+Binary: librust-crypto-hash-dev
+Version: 0.3.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-commoncrypto-0.2+default-dev <!nocheck>, librust-hex-0.4+default-dev <!nocheck>, librust-openssl-0.10+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+wincrypt-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 988a71e1e37e4c57171f9c6b03b45966 1803 rust-crypto-hash_0.3.4-1.dsc
+ 710753ca20c11c7690e27708cdb61228 8102 rust-crypto-hash_0.3.4.orig.tar.gz
+ 1bd955129af2d0944d9088e770a5ef1a 2832 rust-crypto-hash_0.3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crypto-hash
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crypto-hash]
+Checksums-Sha256:
+ ed4a979a774354fe4a43d671a6b9d14f9c5491545132785edd7e2207a2ce910e 1803 rust-crypto-hash_0.3.4-1.dsc
+ 8a77162240fd97248d19a564a565eb563a3f592b386e4136fb300909e67dddca 8102 rust-crypto-hash_0.3.4.orig.tar.gz
+ 72c58457b32fe18183c273fa8cfa3b4e8d363af499e7b26031d1df7e5afbbb0e 2832 rust-crypto-hash_0.3.4-1.debian.tar.xz
+Package-List: 
+ librust-crypto-hash-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-crypto-hash
+Priority: extra
+Section: misc

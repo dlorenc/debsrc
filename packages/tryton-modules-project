@@ -1,0 +1,29 @@
+Package: tryton-modules-project
+Binary: tryton-modules-project
+Version: 5.0.3-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 9), dh-python, python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3328f0bfa4d0663be12aaaf0bbfa7d37 2484 tryton-modules-project_5.0.3-1.dsc
+ 1cf3bca4315ae1bfbf152e90953ef8a9 37704 tryton-modules-project_5.0.3.orig.tar.gz
+ 3fe11c7d2dccbbcbf547106a9e309e43 506 tryton-modules-project_5.0.3.orig.tar.gz.asc
+ a3c2b079d13aaee2d71fbc17c05f0090 14056 tryton-modules-project_5.0.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/tryton-modules-project
+Vcs-Git: https://salsa.debian.org/tryton-team/tryton-modules-project.git
+Checksums-Sha256:
+ 31a7811bbd84e28baebc8defb0c18bdace0416e55feb8471418cf82665e1bf58 2484 tryton-modules-project_5.0.3-1.dsc
+ b9e9e3052e60dbf5429a1a352f2a9c0c24c9cdd1d7b5cb7a5fb68224e7e8248b 37704 tryton-modules-project_5.0.3.orig.tar.gz
+ f44f1fafda0da7368efaea510ed143daf427df32460b6e0f62f79c289d876077 506 tryton-modules-project_5.0.3.orig.tar.gz.asc
+ 7c306b640f295a13db201b585e99871ff0bc4c5f4f13bbaefa411ea66f24c0ac 14056 tryton-modules-project_5.0.3-1.debian.tar.xz
+Homepage: http://www.tryton.org/
+Package-List: 
+ tryton-modules-project deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-setuptools, tryton-proteus
+Directory: pool/main/t/tryton-modules-project
+Priority: source
+Section: python

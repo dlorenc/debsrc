@@ -1,0 +1,27 @@
+Package: artemis
+Binary: artemis
+Version: 18.1.0+dfsg-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Pierre Gruet <pgtdebian@free.fr>
+Build-Depends: debhelper-compat (= 13), default-jdk, javahelper, maven-debian-helper, libmaven-enforcer-plugin-java, libproperties-maven-plugin-java, libmaven-install-plugin-java, libmaven-antrun-plugin-java, libbuild-helper-maven-plugin-java, libmaven-assembly-plugin-java, libbiojava-java, libj2ssh-java, libibatis-java, liblog4j1.2-java, libpostgresql-jdbc-java, libpicard-java, libhtsjdk-java, libcommons-net-java, libcommons-lang3-java, libcommons-logging-java, libbatik-java, jemboss, libcglib-java, junit4 <!nocheck>, libslf4j-java <!nocheck>, libmockito-java <!nocheck>, libjs-jquery, imagemagick
+Architecture: amd64
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ df2dbe457f7f28f948c4aa0158fd4ff0 2662 artemis_18.1.0+dfsg-3.dsc
+ b643f6f5c34a7eb9aef605ccbb10576a 8329276 artemis_18.1.0+dfsg.orig.tar.xz
+ 44a0ed23e33b913982c90ff14d49bfdb 14648 artemis_18.1.0+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/artemis
+Vcs-Git: https://salsa.debian.org/med-team/artemis.git
+Checksums-Sha256:
+ bea7eb2e7990aa0aad4dcc7cec41b1870740b1ce870ede3d43a51e179d8ac5e7 2662 artemis_18.1.0+dfsg-3.dsc
+ b9ffe936d807830ffc6054888d56bf0402132a3262efb9debb653338ca66bdd4 8329276 artemis_18.1.0+dfsg.orig.tar.xz
+ a6be0b1328c58bcd05eee89c03ba861e23cdda4036607176e0a9e23faa419135 14648 artemis_18.1.0+dfsg-3.debian.tar.xz
+Homepage: https://sanger-pathogens.github.io/Artemis/Artemis/
+Package-List: 
+ artemis deb science optional arch=amd64
+Testsuite: autopkgtest
+Testsuite-Triggers: default-jdk, junit4, libmockito-java, xauth, xvfb
+Directory: pool/main/a/artemis
+Priority: optional
+Section: misc

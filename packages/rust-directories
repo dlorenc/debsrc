@@ -1,0 +1,24 @@
+Package: rust-directories
+Binary: librust-directories-dev
+Version: 2.0.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-dirs-sys-0.3+default-dev (>= 0.3.3-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 036cab25aea71c76ca63df6ba31edfcc 1854 rust-directories_2.0.1-1.dsc
+ 6abd1306589d5962ae18fa039704e879 15176 rust-directories_2.0.1.orig.tar.gz
+ d4f3e8e85fce154c2e778a72cbc117be 2584 rust-directories_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/directories
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/directories]
+Checksums-Sha256:
+ a6f4b2654b422d1f748571ed600ff9cff913048fa116da7d22579c5d171f6347 1854 rust-directories_2.0.1-1.dsc
+ fc491504e1ad874ed2b9ee74cd71602766bae884a907fc9a01362aa623b85cf7 15176 rust-directories_2.0.1.orig.tar.gz
+ eebbd9f0f00b25052a65d4b366715e7d2dd3ef44d215c83380e13e6d3fa41a7f 2584 rust-directories_2.0.1-1.debian.tar.xz
+Package-List: 
+ librust-directories-dev deb rust optional arch=any
+Directory: pool/main/r/rust-directories
+Priority: extra
+Section: misc

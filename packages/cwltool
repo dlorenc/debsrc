@@ -1,0 +1,27 @@
+Package: cwltool
+Binary: cwltool
+Version: 3.0.20210124104916-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, procps, python3, python3-all, python3-setuptools, python3-coloredlogs, python3-rdflib, python3-rdflib-jsonld <!nocheck>, python3-schema-salad (>= 7.0.20210124093443), python3-shellescape, python3-html5lib, python3-sparqlwrapper, python3-keepalive, python3-ruamel.yaml, python3-pytest <!nocheck>, python3-pytest-xdist <!nocheck>, python3-pytest-runner <!nocheck>, python3-pytest-mock <!nocheck>, python3-mock <!nocheck>, python3-mypy-extensions, python3-psutil, python3-prov, python3-arcp, python3-pydot, python3-argcomplete, nodejs, help2man
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9d15c6c9d27cbe06fdb2afe8d0942d38 2687 cwltool_3.0.20210124104916-3.dsc
+ c584b49dd3666141ef5304ec867d0b6b 987168 cwltool_3.0.20210124104916.orig.tar.gz
+ 2cca8478ea60a0e90b49daf23ccfe079 51728 cwltool_3.0.20210124104916-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/cwltool
+Vcs-Git: https://salsa.debian.org/med-team/cwltool.git
+Checksums-Sha256:
+ 9907d805693406127e449b78717fc71bc36e7c8a491b9db8d88ca590eea148a0 2687 cwltool_3.0.20210124104916-3.dsc
+ 161b841809860cc5b9212c23a5f70db8cac932895208c4bcdf1e4c11be2517f1 987168 cwltool_3.0.20210124104916.orig.tar.gz
+ 8b9ae89dd1dbb0063d5906729f789e3b820cda2bc8b58da3f9ddfb35a3f0a4b3 51728 cwltool_3.0.20210124104916-3.debian.tar.xz
+Homepage: https://www.commonwl.org
+Package-List: 
+ cwltool deb science optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: curl, nodejs, procps, python3-mock, python3-pytest-mock, python3-pytest-runner, python3-pytest-xdist
+Directory: pool/main/c/cwltool
+Priority: optional
+Section: misc

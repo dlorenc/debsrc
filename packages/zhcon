@@ -1,0 +1,26 @@
+Package: zhcon
+Binary: zhcon, zhcon-data
+Version: 1:0.2.6-18
+Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, Anthony Fok <foka@debian.org>, xiao sheng wen <atzlinux@sina.com>,
+Build-Depends: debhelper-compat (= 13), libncurses5-dev, bison, libpth-dev, unicon-imc2, libgpm-dev [linux-any], libbsd-dev [kfreebsd-any]
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c816081ed6706339b43afd9a1098a308 2110 zhcon_0.2.6-18.dsc
+ 0f765cbe444776c9051a2b7c213737eb 5021343 zhcon_0.2.6.orig.tar.gz
+ 1660d0a5a9bd1d7a33ef4b7d0f1f5df7 26044 zhcon_0.2.6-18.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/chinese-team/zhcon
+Vcs-Git: https://salsa.debian.org/chinese-team/zhcon.git
+Checksums-Sha256:
+ 525f9932a2d631bba01aab0b5fb52049269fe465e7fe97fd57495bf8f28d9900 2110 zhcon_0.2.6-18.dsc
+ 700089c63b36c171d537c4e15e1151b715ca79ebdb4c7d4a974fe4dc2f55a7e7 5021343 zhcon_0.2.6.orig.tar.gz
+ 313669d5fcde36033da704d336a1689439f05bd4e5d7057ceb877e12cac5e2e9 26044 zhcon_0.2.6-18.debian.tar.xz
+Homepage: https://sourceforge.net/projects/zhcon/
+Package-List: 
+ zhcon deb utils optional arch=any
+ zhcon-data deb utils optional arch=all
+Directory: pool/main/z/zhcon
+Priority: source
+Section: utils

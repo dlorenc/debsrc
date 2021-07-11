@@ -1,0 +1,26 @@
+Package: neutron-vpnaas-dashboard
+Binary: python3-neutron-vpnaas-dashboard
+Version: 3.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Michal Arbet <michal.arbet@ultimum.io>, Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-coverage, python3-hacking, python3-openstackdocstheme, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: openstack-dashboard (>= 3:17.1.0), python3-mock, python3-neutronclient
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 19ee1ed89c3282f97a981599a0f1f955 2433 neutron-vpnaas-dashboard_3.0.0-1.dsc
+ 9e9fcdf8881492bfcc4460bf806c7df5 63780 neutron-vpnaas-dashboard_3.0.0.orig.tar.xz
+ 01185729f3a2a2ad9e262e3d63c44b7f 3200 neutron-vpnaas-dashboard_3.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/horizon-plugins/neutron-vpnaas-dashboard
+Vcs-Git: https://salsa.debian.org/openstack-team/horizon-plugins/neutron-vpnaas-dashboard.git
+Checksums-Sha256:
+ e29a86fe8b0926cd325ac5f34a30d54ed18f56c5c843ebd1c61be7e4efc9bcff 2433 neutron-vpnaas-dashboard_3.0.0-1.dsc
+ 4c75a8b4bcb7aa6fe501d7534f4a2f304128c463f58c3e58d348c03538a70ebd 63780 neutron-vpnaas-dashboard_3.0.0.orig.tar.xz
+ 70c2e21fa91949a6cae890e609a42111f2a44ff31e58e0ccbf2883f663557745 3200 neutron-vpnaas-dashboard_3.0.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/neutron-vpnaas-dashboard
+Package-List: 
+ python3-neutron-vpnaas-dashboard deb python optional arch=all
+Directory: pool/main/n/neutron-vpnaas-dashboard
+Priority: extra
+Section: misc

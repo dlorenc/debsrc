@@ -1,0 +1,32 @@
+Package: open3d
+Binary: libopen3d-dev, libopen3d0d, python3-open3d, open3d-doc
+Version: 0.9.0+ds-5
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Timo Röhling <timo@gaussglocke.de>, Jochen Sprickerhof <jspricke@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, pkg-kde-tools, libeigen3-dev, libflann-dev, libfmt-dev (>= 5), liblzf-dev, libglew-dev, libglfw3-dev, libjpeg-dev, libjsoncpp-dev, libpng-dev, libqhull-dev (>= 2019.1), libtinygltf-dev, libtinyobjloader-dev, dh-python, python3-all-dev, python3-setuptools, pybind11-dev (>= 2.2), googletest <!nocheck>, doxygen <!nodoc>, jdupes <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-numpy <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ad54fb3001a0547526ee9e692b68bcf8 2778 open3d_0.9.0+ds-5.dsc
+ 23f71cba292c3960971d4049bf2d087e 255371 open3d_0.9.0+ds.orig-PoissonRecon.tar.gz
+ 7fc076818a9f19d6dcf0156e13bc66f7 58215213 open3d_0.9.0+ds.orig.tar.gz
+ 313af33d9a79975518acc37a14be0a36 1006036 open3d_0.9.0+ds-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/open3d
+Vcs-Git: https://salsa.debian.org/science-team/open3d.git
+Checksums-Sha256:
+ c39df52a094f5dd0e329f9f9f173eff055b2417f1ebe2096738a84b9d5ee2f34 2778 open3d_0.9.0+ds-5.dsc
+ ba1a58c78a59dda12ba8d60ef7698bb23c5db49adc8f64fd4a4770ceb882151a 255371 open3d_0.9.0+ds.orig-PoissonRecon.tar.gz
+ 069c3853acca759508087425331d433d9c4fe24d85a911abdb7471575550ebfc 58215213 open3d_0.9.0+ds.orig.tar.gz
+ fd86d71d9ad30d8be37ccf7a66cdcef2229e0507a831a0aeeac1cd68f64ad246 1006036 open3d_0.9.0+ds-5.debian.tar.xz
+Homepage: http://www.open3d.org
+Package-List: 
+ libopen3d-dev deb libdevel optional arch=any
+ libopen3d0d deb libs optional arch=any
+ open3d-doc deb doc optional arch=all
+ python3-open3d deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: c++-compiler, cmake, g++, python3-numpy
+Directory: pool/main/o/open3d
+Priority: extra
+Section: misc

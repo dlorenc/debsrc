@@ -1,0 +1,28 @@
+Package: telepathy-logger-qt
+Binary: libtelepathy-logger-qt5, libtelepathy-logger-qt-dev
+Version: 17.09.0-1
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Diane Trout <diane@debian.org>, Michał Zając <quintasan@kubuntu.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 12), extra-cmake-modules (>= 1.6.0~), libdbus-1-dev, libdbus-glib-1-dev, libglib2.0-dev, libtelepathy-glib-dev (>= 0.18), libtelepathy-logger-dev (>= 0.8.0~), libtelepathy-qt5-dev (>= 0.9.7~), libxml2-dev, pkg-kde-tools (>= 0.12), python3:any, qtbase5-dev (>= 5.2~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aab5bdffc971fbabcbf97f64abe1be27 2614 telepathy-logger-qt_17.09.0-1.dsc
+ b4c4aba17ce1833ec1911d097ec378ba 93480 telepathy-logger-qt_17.09.0.orig.tar.xz
+ 1b5601b46a223c12fba0ed79a7aa13f5 7588 telepathy-logger-qt_17.09.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/telepathy-logger-qt
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/telepathy-logger-qt.git
+Checksums-Sha256:
+ c0181bc9dd6c7cb9c519220f6dfa89c7ce868ccaf3597c6c77c8f929ba5cf3a0 2614 telepathy-logger-qt_17.09.0-1.dsc
+ 3190729d0df9001d683ba15605aaee65e46edcedad0e828e51312ea965ce135a 93480 telepathy-logger-qt_17.09.0.orig.tar.xz
+ b7b794ae81062466528ecb952b87e9e935c11a5078f74416d27b13bff35f2c9e 7588 telepathy-logger-qt_17.09.0-1.debian.tar.xz
+Homepage: https://projects.kde.org/projects/extragear/network/telepathy/telepathy-logger-qt
+Package-List: 
+ libtelepathy-logger-qt-dev deb libdevel optional arch=any
+ libtelepathy-logger-qt5 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/t/telepathy-logger-qt
+Priority: source
+Section: libs

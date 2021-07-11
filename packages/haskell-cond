@@ -1,0 +1,28 @@
+Package: haskell-cond
+Binary: libghc-cond-dev, libghc-cond-prof, libghc-cond-doc
+Version: 0.4.1.1-9
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ed5e1baf58da2f4b656a68aed4c9fbd4 2259 haskell-cond_0.4.1.1-9.dsc
+ f62835361d541a42a2d78b95fc8cc5d5 6478 haskell-cond_0.4.1.1.orig.tar.gz
+ 5c0244af0e172681c602445cd6b9da0b 3028 haskell-cond_0.4.1.1-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-cond
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-cond]
+Checksums-Sha256:
+ 0885e7b795d8b5c1e43d0babf2ca73539a7e11f6ced74ff7a8a16173deba6309 2259 haskell-cond_0.4.1.1-9.dsc
+ 039c76e43b5484bdc78627f50740106ae2844b3c877d92b5228de9106997ac8b 6478 haskell-cond_0.4.1.1.orig.tar.gz
+ 35e8cff146d552ed39b028bafe41c7029bd249aaaa306482210ff8bd3d6efbc0 3028 haskell-cond_0.4.1.1-9.debian.tar.xz
+Homepage: https://github.com/kallisti-dev/cond
+Package-List: 
+ libghc-cond-dev deb haskell optional arch=any
+ libghc-cond-doc deb doc optional arch=all
+ libghc-cond-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cond
+Priority: source
+Section: misc

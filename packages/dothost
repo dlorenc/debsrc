@@ -1,0 +1,26 @@
+Package: dothost
+Binary: dothost
+Version: 0.2-5
+Maintainer: Thiago Andrade Marques <andrade@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 53d7d83cd572abf5d17beceb9e081e26 1896 dothost_0.2-5.dsc
+ 2f95fb6cd01458b9e848b4fdbe9aba79 4861 dothost_0.2.orig.tar.gz
+ ab239590e1a7358f95ac217dbd4d72b2 2864 dothost_0.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/dothost
+Vcs-Git: https://salsa.debian.org/debian/dothost.git
+Checksums-Sha256:
+ 5c7cda117530745c5c115bd5d2fbba0ef67e47225b1ef40c6d0c900aa721b95f 1896 dothost_0.2-5.dsc
+ a0d4aa8c07143faa167a5feb9858ed9782a00ee69f4e58ab6a797f72db55d913 4861 dothost_0.2.orig.tar.gz
+ 44c5a454da92287492eb8cb60a996f99c2a63b37017d33efad86d5eee2cd499f 2864 dothost_0.2-5.debian.tar.xz
+Homepage: https://jwilk.net/software/dothost
+Package-List: 
+ dothost deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: debhelper, libgraph-easy-perl
+Directory: pool/main/d/dothost
+Priority: extra
+Section: misc

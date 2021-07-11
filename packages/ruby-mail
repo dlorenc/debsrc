@@ -1,0 +1,27 @@
+Package: ruby-mail
+Binary: ruby-mail
+Version: 2.7.1+dfsg1-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Carl Worth <cworth@debian.org>, Caitlin Matos <caitlin.matos@zoho.com>
+Build-Depends: debhelper (>= 11~), gem2deb, rake, ruby-mini-mime, ruby-rspec
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 88d4bf7f82655c170ef785a3262dfee1 2105 ruby-mail_2.7.1+dfsg1-1.1.dsc
+ 606f2bee1150d6a027f1dc16f3cab1da 625251 ruby-mail_2.7.1+dfsg1.orig.tar.gz
+ 7ed1a874620a10e4035eeaeb49070239 3832 ruby-mail_2.7.1+dfsg1-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-mail
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-mail.git
+Checksums-Sha256:
+ 239386f9a0529786ab4964a45edf9abc9d80881b588b65d17ea83cb1de267445 2105 ruby-mail_2.7.1+dfsg1-1.1.dsc
+ 8b0c6220d960d8b435b50e6d4617c39f3b19135c13c1642fd77fe333fd054959 625251 ruby-mail_2.7.1+dfsg1.orig.tar.gz
+ da449704e170bdf25cb0ecda763f9de55b5aee7bcf96dc5405de7afe07bb96f9 3832 ruby-mail_2.7.1+dfsg1-1.1.debian.tar.xz
+Homepage: https://github.com/mikel/mail
+Package-List: 
+ ruby-mail deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-mail
+Priority: source
+Section: ruby

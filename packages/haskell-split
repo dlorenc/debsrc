@@ -1,0 +1,28 @@
+Package: haskell-split
+Binary: libghc-split-dev, libghc-split-prof, libghc-split-doc
+Version: 0.2.3.4-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Giovanni Mascellani <gio@debian.org>, Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dcd9297972c5cbdb434e8f3738b9a930 2315 haskell-split_0.2.3.4-1.dsc
+ 2aab953bd696407e702e669e91180864 15942 haskell-split_0.2.3.4.orig.tar.gz
+ f0b5a6b4733c433a28b6863e3c679e3e 3564 haskell-split_0.2.3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-split
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-split]
+Checksums-Sha256:
+ 45a8ecd14afa60ef62fd65fb952d1981bd009f9cc42e9dd1ad545c19263ea653 2315 haskell-split_0.2.3.4-1.dsc
+ 271fe5104c9f40034aa9a1aad6269bcecc9454bc5a57c247e69e17de996c1f2a 15942 haskell-split_0.2.3.4.orig.tar.gz
+ 8a8ab2c17250a1afcfe285b41355505a097cf74ae1f4f4051604551d01bac803 3564 haskell-split_0.2.3.4-1.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/split
+Package-List: 
+ libghc-split-dev deb haskell optional arch=any
+ libghc-split-doc deb doc optional arch=all
+ libghc-split-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-split
+Priority: source
+Section: haskell

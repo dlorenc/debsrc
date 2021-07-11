@@ -1,0 +1,32 @@
+Package: krunner
+Binary: libkf5runner-dev, libkf5runner-doc, libkf5runner5, qml-module-org-kde-runnermodel
+Version: 5.78.0-3
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake (>= 3.5~), debhelper-compat (= 13), doxygen, extra-cmake-modules (>= 5.78.0~), libkf5config-dev (>= 5.78.0~), libkf5coreaddons-dev (>= 5.78.0~), libkf5i18n-dev (>= 5.78.0~), libkf5kio-dev (>= 5.78.0~), libkf5plasma-dev (>= 5.78.0~), libkf5service-dev (>= 5.78.0~), libkf5threadweaver-dev (>= 5.78.0~), libqt5sql5-sqlite, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev (>= 5.14.0~), qtdeclarative5-dev (>= 5.14.0~), qttools5-dev, qttools5-dev-tools
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ aa2e98843537b18ec710b5caca670146 2592 krunner_5.78.0-3.dsc
+ c199a05d17adc68a7d3a6aab510cf2d4 73492 krunner_5.78.0.orig.tar.xz
+ c6855f54b78c0e317a818bac0c76ea05 488 krunner_5.78.0.orig.tar.xz.asc
+ 661d43501ad4c2844f97baf7765ae28c 12392 krunner_5.78.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/krunner
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/krunner.git
+Checksums-Sha256:
+ 42b094e8901b453a49e5b4e8f09215f8c74977ef80f052625273c9c13ca82ecc 2592 krunner_5.78.0-3.dsc
+ 755e627292550d56ae77e356eb7bd5991652c196d8499af6fb6da7989e301e02 73492 krunner_5.78.0.orig.tar.xz
+ 2bc70f0941d1bf46aa336c5358e47441d26d9f6bcf3c3dd2bf0a648b99cb8a29 488 krunner_5.78.0.orig.tar.xz.asc
+ 9c999a8d06e8e990acd0fd89b2d94f2490aa75c5e681c32c41bab66638267e1f 12392 krunner_5.78.0-3.debian.tar.xz
+Homepage: https://invent.kde.org/frameworks/krunner
+Package-List: 
+ libkf5runner-dev deb libdevel optional arch=any
+ libkf5runner-doc deb doc optional arch=all
+ libkf5runner5 deb libs optional arch=any
+ qml-module-org-kde-runnermodel deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-acc, exuberant-ctags
+Directory: pool/main/k/krunner
+Priority: optional
+Section: misc

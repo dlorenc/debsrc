@@ -1,0 +1,28 @@
+Package: node-clone-deep
+Binary: node-clone-deep
+Version: 4.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-for-own (>= 1.0.0) <!nocheck>, node-is-plain-object (>= 2.0.4) <!nocheck>, node-kind-of (>= 6.0.0) <!nocheck>, node-is-extendable <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ e010b5625f4b031a373d03a66bffd3d0 2526 node-clone-deep_4.0.1-1.dsc
+ da038ccbbed1026fab2f50d67f74f9b0 6255 node-clone-deep_4.0.1.orig-shallow-clone.tar.gz
+ 0dc006324551f40817e15d7fb765cc4f 6098 node-clone-deep_4.0.1.orig.tar.gz
+ 1fc1cb1a6aa93b3b18ebb5fe5b5e6e58 2420 node-clone-deep_4.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-clone-deep
+Vcs-Git: https://salsa.debian.org/js-team/node-clone-deep.git
+Checksums-Sha256:
+ 9fa0cb2b56ceb48cd5e3c7364bf32ecf07c2de3dce1f6ee1b7abeebdda5cc40b 2526 node-clone-deep_4.0.1-1.dsc
+ b3611999fcda7decfb5a652ee85b364785d9cc7744df93fc58028f0b6846bf5c 6255 node-clone-deep_4.0.1.orig-shallow-clone.tar.gz
+ a517f646d79b7a551165e63574d2d9a6e855b30bd3fd8ba45e3756d26ca48a87 6098 node-clone-deep_4.0.1.orig.tar.gz
+ dce73c88ccf9b40fd87219e2787db6649bfb767fcb06475622bf159633587151 2420 node-clone-deep_4.0.1-1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/clone-deep
+Package-List: 
+ node-clone-deep deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-clone-deep
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: python-language-server
+Binary: python3-pyls
+Version: 0.36.2-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Otto Kekäläinen <otto@debian.org>, Pablo Mestre Drake <pmdcuba@gmail.com>, Julian Gilbey <jdg@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, flake8 <!nocheck>, pylint <!nocheck>, python3-all, python3-autopep8 <!nocheck>, python3-coverage <!nocheck>, python3-flaky <!nocheck>, python3-jedi, python3-matplotlib <!nocheck>, python3-mock <!nocheck>, python3-numpy <!nocheck>, python3-pandas <!nocheck>, python3-pluggy, python3-pydocstyle <!nocheck>, python3-pyls-jsonrpc, python3-pyqt5 <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-pytest-xvfb <!nocheck>, python3-rope <!nocheck>, python3-setuptools, python3-ujson, python3-yapf <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 44fa23be05df70aed2bc5242d13d1b64 2718 python-language-server_0.36.2-3.dsc
+ 58d56a155ba10f308e009c9ae0e81246 463597 python-language-server_0.36.2.orig.tar.gz
+ 4cc9aa2df65f5ec9a4f0f4f6fb6fd374 10024 python-language-server_0.36.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-language-server
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-language-server.git
+Checksums-Sha256:
+ 9a5a18183b6b1ebdb12a354b544687f18d011211016ad47ecc4d546c3dfa75fb 2718 python-language-server_0.36.2-3.dsc
+ adcddc462b3447439d028518c84666f272c184438a16b58f6bc132465981756b 463597 python-language-server_0.36.2.orig.tar.gz
+ 939335e463fbf6adc9e9bc0def8ef5004167c1f0743e233463f89b58cc0498e6 10024 python-language-server_0.36.2-3.debian.tar.xz
+Homepage: https://github.com/palantir/python-language-server
+Package-List: 
+ python3-pyls deb python optional arch=all
+Directory: pool/main/p/python-language-server
+Priority: extra
+Section: misc

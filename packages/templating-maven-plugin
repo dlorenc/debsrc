@@ -1,0 +1,25 @@
+Package: templating-maven-plugin
+Binary: libtemplating-maven-plugin-java
+Version: 1.0.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Mechtilde Stehmann <mechtilde@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper, libmaven3-core-java, libmaven-invoker-plugin-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cb34ddf45a73d8894ff1ffcebe6007f7 2195 templating-maven-plugin_1.0.0-1.dsc
+ 8ba6203976e979d7f854482d364b6278 21716 templating-maven-plugin_1.0.0.orig.tar.gz
+ 858564d2a89e4f9d6626120a9cc7f452 3112 templating-maven-plugin_1.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/templating-maven-plugin
+Vcs-Git: https://salsa.debian.org/java-team/templating-maven-plugin.git
+Checksums-Sha256:
+ 87d03665815a223c9fb2141b5ce1574a8a1f3416e17b76287a88818734c14d8a 2195 templating-maven-plugin_1.0.0-1.dsc
+ 9c706d35fb99336f9735cf9b2a39da74fc9485541e19362aa9724dda65f40975 21716 templating-maven-plugin_1.0.0.orig.tar.gz
+ 405e993bba8949eb2d1788f478a716d4bc6cb2f566c9b1ee11867684471219cc 3112 templating-maven-plugin_1.0.0-1.debian.tar.xz
+Homepage: https://www.mojohaus.org/templating-maven-plugin/
+Package-List: 
+ libtemplating-maven-plugin-java deb java optional arch=all
+Directory: pool/main/t/templating-maven-plugin
+Priority: extra
+Section: misc

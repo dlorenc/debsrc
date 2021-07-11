@@ -1,0 +1,27 @@
+Package: rust-term
+Binary: librust-term-dev
+Version: 0.5.2-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-byteorder-1+default-dev (>= 1.2.1-~~) <!nocheck>, librust-dirs-3+default-dev <!nocheck>, librust-winapi-0.3+consoleapi-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+fileapi-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+wincon-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ccf260b4b951a48ccd3c088dbe134647 2494 rust-term_0.5.2-3.dsc
+ 81854720dcf85c2bdfba124d1ca35d1a 37638 rust-term_0.5.2.orig.tar.gz
+ d6dbf75884e44a77a142f9532d55ab2e 2984 rust-term_0.5.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/term
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/term]
+Checksums-Sha256:
+ 0244a279395b004adb0e1b569f0eb0c3f7e2b791e8e294ef1d830a1cae8db344 2494 rust-term_0.5.2-3.dsc
+ edd106a334b7657c10b7c540a0106114feadeb4dc314513e97df481d5d966f42 37638 rust-term_0.5.2.orig.tar.gz
+ cdba10d69380b59e50aa509a82b8b6044a2bd2265ae5e77025549681a3c71e31 2984 rust-term_0.5.2-3.debian.tar.xz
+Homepage: https://github.com/Stebalien/term
+Package-List: 
+ librust-term-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-term
+Priority: extra
+Section: misc

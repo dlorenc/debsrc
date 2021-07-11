@@ -1,0 +1,27 @@
+Package: rust-pktparse
+Binary: librust-pktparse-dev, librust-pktparse+serde-dev
+Version: 0.5.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-nom-5+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bcf43973b5ec8367d698fed47ed7887f 2237 rust-pktparse_0.5.0-1.dsc
+ 2a886b9863e2d9216b0ed205f8e2b895 11869 rust-pktparse_0.5.0.orig.tar.gz
+ a99411179db7e5152fa638222e7e03ba 2328 rust-pktparse_0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pktparse
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pktparse]
+Checksums-Sha256:
+ 08e3aeb8a57393d8aad5caf88a6963335ed0101c0de8d9f517fa6c210e4287f9 2237 rust-pktparse_0.5.0-1.dsc
+ 93c1e515b78407a1c11e2e027d73d9891574e06d6be42639ade0009a0443479d 11869 rust-pktparse_0.5.0.orig.tar.gz
+ ea940487ee66bc04751c0dea8d0249ecbfe51235fa2eb28fb05fc86e223f0bbf 2328 rust-pktparse_0.5.0-1.debian.tar.xz
+Package-List: 
+ librust-pktparse+serde-dev deb rust optional arch=any
+ librust-pktparse-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-pktparse
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: festival
+Binary: festival, festival-dev, festival-doc
+Version: 1:2.5.0-5
+Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
+Uploaders: Jean-Philippe MENGUAL <texou@accelibreinfo.eu>, Kumar Appaiah <akumar@debian.org>, Jaldhar H. Vyas <jaldhar@debian.org>, Paul Gevers <elbrus@debian.org>, Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), libestools-dev (>= 1:2.5~), libncurses5-dev, texinfo, texlive-latex-base, quilt, dpkg-dev (>= 1.16.0)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e727bde02a54c8e6f3932d6f8c31b4f8 2349 festival_2.5.0-5.dsc
+ 6cc3730fc5175f04d4d2f05e6bbab6b5 789013 festival_2.5.0.orig.tar.gz
+ 0e7acde5284ee8f2260f520b4556aa90 119184 festival_2.5.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tts-team/festival
+Vcs-Git: https://salsa.debian.org/tts-team/festival.git
+Checksums-Sha256:
+ 46ecd1792e7ea7f848598adb54d2c7f4c310a29995d5c61e75ee59273e806593 2349 festival_2.5.0-5.dsc
+ 4c9007426b125290599d931df410e2def51e68a8aeebd89b4a61c7c96c09a4b4 789013 festival_2.5.0.orig.tar.gz
+ cd072e9c5fa495c82a74f50bf52dd31f69ffbd8ee2673a37fd3eaf1628a72e62 119184 festival_2.5.0-5.debian.tar.xz
+Homepage: http://www.cstr.ed.ac.uk/projects/festival/
+Package-List: 
+ festival deb sound optional arch=any
+ festival-dev deb libdevel optional arch=any
+ festival-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: festvox-kallpc16k
+Directory: pool/main/f/festival
+Priority: source
+Section: sound

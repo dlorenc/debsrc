@@ -1,0 +1,27 @@
+Package: ruby-twitter
+Binary: ruby-twitter
+Version: 7.0.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Anish A <aneesh.nl@gmail.com>, Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-addressable (>= 2.5~), ruby-buftok, ruby-coveralls, ruby-equalizer (>= 0.0.11~), ruby-http (>= 4.0~), ruby-http-form-data (>= 2.0~), ruby-http-parser.rb, ruby-memoizable, ruby-multipart-post (>= 2.0~), ruby-naught (>= 1.1~), ruby-rspec, ruby-safe-yaml, ruby-simple-oauth (>= 0.3), ruby-simplecov, ruby-timecop, ruby-webmock
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fa16eaece90238870086f88877ca82e8 2455 ruby-twitter_7.0.0-1.dsc
+ da5c329786f74e7d9c82f416bd5f5780 831181 ruby-twitter_7.0.0.orig.tar.gz
+ 0cc784e53a81b598e4647794a6099dba 3884 ruby-twitter_7.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-twitter
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-twitter.git
+Checksums-Sha256:
+ c9733d31d55e479b0f03b25960458b3e493d0333bcaa78761fa1c334077801fa 2455 ruby-twitter_7.0.0-1.dsc
+ ef01eef8705a010d0b818478b16af9e5a7077384dd4e1cddf814ad038852bbb5 831181 ruby-twitter_7.0.0.orig.tar.gz
+ 55892ff7476b46ac194bfd7fd136d89a0deaa0946867e5337f67ad3db2a1ec6c 3884 ruby-twitter_7.0.0-1.debian.tar.xz
+Homepage: https://github.com/sferik/twitter/
+Package-List: 
+ ruby-twitter deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-twitter
+Priority: optional
+Section: misc

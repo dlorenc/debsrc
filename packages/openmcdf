@@ -1,0 +1,26 @@
+Package: openmcdf
+Binary: openmcdf
+Version: 1.5.4-3
+Maintainer: Debian CLI Applications Team <pkg-cli-apps-team@lists.alioth.debian.org>
+Uploaders: Mathieu Malaterre <malat@debian.org>
+Build-Depends: debhelper (>= 8), cli-common-dev (>= 0.5.7)
+Build-Depends-Indep: mono-devel, mono-xbuild, libhexbox1.5-cil
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Files:
+ b249b2ea9e3d645ab4861cacf068af69 2007 openmcdf_1.5.4-3.dsc
+ 820f3c93b73e23da958d1f3a094574a2 406109 openmcdf_1.5.4.orig.tar.gz
+ 2e2c7031450cb0a2f00310fc0c005b18 4572 openmcdf_1.5.4-3.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=pkg-cli-apps/packages/openmcdf.git
+Vcs-Git: git://git.debian.org/pkg-cli-apps/packages/openmcdf.git
+Checksums-Sha256:
+ 3d33d9a9499c8ae90fbfb414708403f17c7659bdafffee15d70dec86402a92af 2007 openmcdf_1.5.4-3.dsc
+ 0e492687c6e365489b0edba6db7b900e6e5ae73b29e14acfe18e69802273cb5c 406109 openmcdf_1.5.4.orig.tar.gz
+ 22107ece826fd086ddb6c7377b5a57f34fe8e5627ecf1cca5ac6ba58415c7fb1 4572 openmcdf_1.5.4-3.debian.tar.xz
+Homepage: http://openmcdf.sourceforge.net/
+Package-List: 
+ openmcdf deb cli-mono optional arch=all
+Directory: pool/main/o/openmcdf
+Priority: source
+Section: cli-mono

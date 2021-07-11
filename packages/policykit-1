@@ -1,0 +1,33 @@
+Package: policykit-1
+Binary: policykit-1, policykit-1-doc, libpolkit-gobject-1-0, libpolkit-gobject-1-dev, libpolkit-agent-1-0, libpolkit-agent-1-dev, gir1.2-polkit-1.0
+Version: 0.105-31
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Biebl <biebl@debian.org>, Martin Pitt <mpitt@debian.org>, Simon McVittie <smcv@debian.org>,
+Build-Depends: dbus <!nocheck>, debhelper-compat (= 13), gobject-introspection (>= 0.9.12-4~), gtk-doc-tools, intltool (>= 0.40.0), libexpat1-dev, libgirepository1.0-dev (>= 0.9.12), libglib2.0-dev (>= 2.28.0), libglib2.0-doc, libgtk-3-doc, libpam0g-dev, libselinux1-dev [linux-any], libsystemd-dev [linux-any], pkg-config, xsltproc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2233b4fe04689439205f3e068f5f53a8 2909 policykit-1_0.105-31.dsc
+ 9c29e1b6c214f0bd6f1d4ee303dfaed9 1431080 policykit-1_0.105.orig.tar.gz
+ ec98f43dc8a9a66767da37f3bf3cbfde 74920 policykit-1_0.105-31.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/utopia-team/polkit
+Vcs-Git: https://salsa.debian.org/utopia-team/polkit.git
+Checksums-Sha256:
+ 3982b73f8ad50a603f4b70c152250d0df466d4e58db4dbe89394c56cd68d32b6 2909 policykit-1_0.105-31.dsc
+ 8fdc7cc8ba4750fcce1a4db9daa759c12afebc7901237e1c993c38f08985e1df 1431080 policykit-1_0.105.orig.tar.gz
+ 8b3f1e791f9f371f5f58a19e9900cb677213345c26077f7fc0fb521e992ff540 74920 policykit-1_0.105-31.debian.tar.xz
+Homepage: https://www.freedesktop.org/wiki/Software/polkit/
+Dgit: 2676f1f81744a5538df9d0b559999081f50a76ca debian archive/debian/0.105-31 https://git.dgit.debian.org/policykit-1
+Package-List: 
+ gir1.2-polkit-1.0 deb introspection optional arch=any
+ libpolkit-agent-1-0 deb libs optional arch=any
+ libpolkit-agent-1-dev deb libdevel optional arch=any
+ libpolkit-gobject-1-0 deb libs optional arch=any
+ libpolkit-gobject-1-dev deb libdevel optional arch=any
+ policykit-1 deb admin optional arch=linux-any
+ policykit-1-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/p/policykit-1
+Priority: source
+Section: admin

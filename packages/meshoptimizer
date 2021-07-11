@@ -1,0 +1,26 @@
+Package: meshoptimizer
+Binary: libmeshoptimizer0d, libmeshoptimizer-dev, gltfpack
+Version: 0.15+dfsg-3
+Maintainer: Timo Röhling <timo@gaussglocke.de>
+Build-Depends: debhelper-compat (= 13), cmake
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 64f4c190233061f8c36cf5010d2f5470 1882 meshoptimizer_0.15+dfsg-3.dsc
+ 06993f2a074ff546701e3e8d30b110c7 163398 meshoptimizer_0.15+dfsg.orig.tar.gz
+ c4fb3cb309cb11b7a97cc3ca4c162401 7640 meshoptimizer_0.15+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/roehling/meshoptimizer
+Vcs-Git: https://salsa.debian.org/roehling/meshoptimizer.git
+Checksums-Sha256:
+ 766f9382b34b9f28b761e2818cf0464c4957ded7ce4249fff4b3f38ddbe0da00 1882 meshoptimizer_0.15+dfsg-3.dsc
+ 3aad43402d8fd6894c78c0359b172ce12ab32abe9471812426e067503a2f121c 163398 meshoptimizer_0.15+dfsg.orig.tar.gz
+ f4f25894a8d63169f8513e487cdc1d114955a20a0d634aa70d3229930b640945 7640 meshoptimizer_0.15+dfsg-3.debian.tar.xz
+Homepage: https://github.com/zeux/meshoptimizer
+Package-List: 
+ gltfpack deb graphics optional arch=any
+ libmeshoptimizer-dev deb libdevel optional arch=any
+ libmeshoptimizer0d deb libs optional arch=any
+Directory: pool/main/m/meshoptimizer
+Priority: extra
+Section: misc

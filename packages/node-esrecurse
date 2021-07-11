@@ -1,0 +1,26 @@
+Package: node-esrecurse
+Binary: node-esrecurse
+Version: 4.3.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), chai <!nocheck>, mocha <!nocheck>, node-estraverse <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 74168124e7c41114fb591254db124b96 2098 node-esrecurse_4.3.0-1.dsc
+ 78bb740ddafe9a22c6618ddce91464af 5498 node-esrecurse_4.3.0.orig.tar.gz
+ 3adcc7c09f5887406b9061dd4279f00c 2580 node-esrecurse_4.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-esrecurse
+Vcs-Git: https://salsa.debian.org/js-team/node-esrecurse.git
+Checksums-Sha256:
+ 13766106dbd28bc2a59ab3829031466a42133a678ed200e58cc8087a21395146 2098 node-esrecurse_4.3.0-1.dsc
+ f98f87a83992ca378cecb7fa92b2b7ba5ff6d89ef79a1a8011ec17f15f2163e5 5498 node-esrecurse_4.3.0.orig.tar.gz
+ fe69c0ac55fe47ac085338b3c001ff4fad94ae507c2ce5bfa4b8bd0c415a1c02 2580 node-esrecurse_4.3.0-1.debian.tar.xz
+Homepage: https://github.com/estools/esrecurse
+Package-List: 
+ node-esrecurse deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-esrecurse
+Priority: extra
+Section: javascript

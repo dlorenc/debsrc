@@ -1,0 +1,28 @@
+Package: lua5.3
+Binary: lua5.3, liblua5.3-dev, liblua5.3-0, liblua5.3-0-dbg
+Version: 5.3.3-1.1
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>
+Build-Depends: debhelper (>= 9), quilt (>= 0.40), libtool-bin, libreadline-dev
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 11965a9bffea94bdb0b46a94d7e95d44 2093 lua5.3_5.3.3-1.1.dsc
+ 703f75caa4fdf4a911c1a72e67a27498 294290 lua5.3_5.3.3.orig.tar.gz
+ 6d583b2df0ca4212e103d2691b042f42 7948 lua5.3_5.3.3-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lua-team/lua5.3
+Vcs-Git: https://salsa.debian.org/lua-team/lua5.3.git
+Checksums-Sha256:
+ 8fe9a338d67ca8fdf1b9a5b1467f3b1ed128cf77b1121829447f44cb777bccfb 2093 lua5.3_5.3.3-1.1.dsc
+ 5113c06884f7de453ce57702abaac1d618307f33f6789fa870e87a59d772aca2 294290 lua5.3_5.3.3.orig.tar.gz
+ 60aedb28874727c4e8c497dba74b7504722c55755f9e171c5a837313b6744077 7948 lua5.3_5.3.3-1.1.debian.tar.xz
+Homepage: http://www.lua.org
+Package-List: 
+ liblua5.3-0 deb libs optional arch=any
+ liblua5.3-0-dbg deb debug extra arch=any
+ liblua5.3-dev deb libdevel optional arch=any
+ lua5.3 deb interpreters optional arch=any
+Directory: pool/main/l/lua5.3
+Priority: optional
+Section: misc

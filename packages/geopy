@@ -1,0 +1,26 @@
+Package: geopy
+Binary: python3-geopy
+Version: 2.0.0-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Daniele Tricoli <eriol@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-geographiclib, python3-mock, python3-pytest, python3-setuptools, python3-tz
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d9f462ae94d614aa4e37ab75cf61343f 2062 geopy_2.0.0-1.dsc
+ d5a4061d2dea246c9355c5ee63432196 107026 geopy_2.0.0.orig.tar.gz
+ 959cfc6ee1cb04415540fd148e29806e 5564 geopy_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/geopy
+Vcs-Git: https://salsa.debian.org/python-team/packages/geopy.git
+Checksums-Sha256:
+ f64a0c26372b6369d9d634acc80dc21d53c9e372b2f6910d076bd5749ad9008b 2062 geopy_2.0.0-1.dsc
+ b88e189f0d2e0051da45b6311d5b2ced59afaf1378eb27ebb57eaf37c166a03b 107026 geopy_2.0.0.orig.tar.gz
+ e14ef5ef1f15fcd9474c537fd6fcaba3c544fcbd8306bb6f42be603b754e90ea 5564 geopy_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/geopy/geopy
+Package-List: 
+ python3-geopy deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/g/geopy
+Priority: source
+Section: python

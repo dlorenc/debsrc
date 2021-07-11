@@ -1,0 +1,28 @@
+Package: pytest
+Binary: python-pytest-doc, python3-pytest
+Version: 6.0.2-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-doc, python3-argcomplete <!nocheck>, python3-all (>= 3.1.2-6~), python3-atomicwrites, python3-attr (>= 17.4.0), python3-hypothesis <!nocheck>, python3-importlib-metadata, python3-iniconfig, python3-mock <!nocheck>, python3-more-itertools, python3-nose <!nocheck>, python3-packaging, python3-pluggy (>= 0.12), python3-pluggy (<< 1.0), python3-py (>= 1.5.0), python3-pygments <!nocheck>, python3-requests <!nocheck>, python3-setuptools (>= 40.0), python3-setuptools-scm, python3-six, python3-sphinx (>= 1.0.7+dfsg), python3-toml, python3-pallets-sphinx-themes, python3-twisted <!nocheck>, python3-wcwidth, python3-xmlschema <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f44e49bbab69b86cf9ca9dc2bb9d3061 2832 pytest_6.0.2-2.dsc
+ 2e07eb21c9cf84803d9bc542d9721840 1070533 pytest_6.0.2.orig.tar.gz
+ 094e8db71e972952b3ec4490b6b9ded4 10112 pytest_6.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pytest
+Vcs-Git: https://salsa.debian.org/python-team/packages/pytest.git
+Checksums-Sha256:
+ 75afb10a6441d849dcf09f1cb6e2448a9b688727b620f1032e054f5f1ab82ae7 2832 pytest_6.0.2-2.dsc
+ c8f57c2a30983f469bf03e68cdfa74dc474ce56b8f280ddcb080dfd91df01043 1070533 pytest_6.0.2.orig.tar.gz
+ e70e4e09afff334f137694f48b2d7483e20dd962b8b09564aca27a3dd3017bde 10112 pytest_6.0.2-2.debian.tar.xz
+Homepage: https://pytest.org/
+Package-List: 
+ python-pytest-doc deb doc optional arch=all
+ python3-pytest deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-argcomplete, python3-decorator, python3-hypothesis, python3-mock, python3-nose, python3-pygments, python3-requests, python3-twisted, python3-xmlschema
+Directory: pool/main/p/pytest
+Priority: source
+Section: python

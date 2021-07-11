@@ -1,0 +1,28 @@
+Package: node-sshpk
+Binary: node-sshpk
+Version: 1.16.1+dfsg-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-asn1 <!nocheck>, node-assert-plus <!nocheck>, node-bcrypt-pbkdf <!nocheck>, node-dashdash <!nocheck>, node-ecc-jsbn <!nocheck>, node-getpass <!nocheck>, node-jsbn <!nocheck>, node-marked-man, node-sinon (>= 7) <!nocheck>, node-tape <!nocheck>, node-temp <!nocheck>, node-tweetnacl <!nocheck>, openssl <!nocheck>, pkg-js-tools (>= 0.9.23~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1c1a666bf2b5553c3a36ce2afce588a1 2678 node-sshpk_1.16.1+dfsg-2.dsc
+ a908b04d027a3b810753822f349474f7 11684 node-sshpk_1.16.1+dfsg.orig-safer-buffer.tar.xz
+ 7f2fd8d74de0fd8d9c0ef30247514269 104048 node-sshpk_1.16.1+dfsg.orig.tar.xz
+ 745115814e31114f71627a5c6a91794a 4156 node-sshpk_1.16.1+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-sshpk
+Vcs-Git: https://salsa.debian.org/js-team/node-sshpk.git
+Checksums-Sha256:
+ 7e2145f95dcc8dd61b8a32afea4fd38edc6acdd24e7ab2fa00b8d99c7a3de6d3 2678 node-sshpk_1.16.1+dfsg-2.dsc
+ 581394f0cedd897d072566a121d37e4fca5c0c43582b19f69d830b56b4779cc2 11684 node-sshpk_1.16.1+dfsg.orig-safer-buffer.tar.xz
+ 5bfc8abb17699900379f1cffe7cbe30c58e92e14754711f40268f6f02ecad00f 104048 node-sshpk_1.16.1+dfsg.orig.tar.xz
+ d21bdea8ae5d30520a6af46dea8f34cbfbddca923fe1fdf7eb1f190949f0d9fc 4156 node-sshpk_1.16.1+dfsg-2.debian.tar.xz
+Homepage: https://github.com/arekinath/node-sshpk#readme
+Package-List: 
+ node-sshpk deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-sshpk
+Priority: extra
+Section: javascript

@@ -1,0 +1,27 @@
+Package: chargebee2-python
+Binary: python3-chargebee2
+Version: 2.7.3-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Scott Kitterman <scott@kitterman.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d90244484fc97d44faa2595252ba2741 2165 chargebee2-python_2.7.3-1.dsc
+ 422af57d84c74a4b01dfe4582fec30c9 155240 chargebee2-python_2.7.3.orig.tar.gz
+ 563cc8b3001796f628c552a836ec20e9 3620 chargebee2-python_2.7.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/chargebee2-python
+Vcs-Git: https://salsa.debian.org/python-team/modules/chargebee2-python.git
+Checksums-Sha256:
+ 120051bbc463ca1b765286671ec78d29fdc617d1147356595192c5c61f700ea1 2165 chargebee2-python_2.7.3-1.dsc
+ b0b5d82c3a675916fa1a9c50839d04aa802e0545ecc5fc6c509390b34bf06525 155240 chargebee2-python_2.7.3.orig.tar.gz
+ 585bd34fd543efd55d9c3460796a4c3ad0ae407543861c1ef2b8ed7212511480 3620 chargebee2-python_2.7.3-1.debian.tar.xz
+Homepage: https://github.com/chargebee/chargebee-python/
+Package-List: 
+ python3-chargebee2 deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/c/chargebee2-python
+Priority: extra
+Section: misc

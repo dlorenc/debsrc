@@ -1,0 +1,26 @@
+Package: node-prosemirror-state
+Binary: node-prosemirror-state
+Version: 1.3.3-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Abraham Raji <avronr@tuta.io>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-rollup-plugin-buble (>= 0.20.0), node-prosemirror-model, node-prosemirror-transform, node-prosemirror-test-builder <!nocheck>, rollup
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ efbbb1c60737985b3c76bf9f085910ca 2297 node-prosemirror-state_1.3.3-2.dsc
+ 1dcc59b401aa86dff5b5c5601dcb18d7 21864 node-prosemirror-state_1.3.3.orig.tar.gz
+ 84d46f669e0ab52b2ae021c6e108f9df 3728 node-prosemirror-state_1.3.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-prosemirror-state
+Vcs-Git: https://salsa.debian.org/js-team/node-prosemirror-state.git
+Checksums-Sha256:
+ 80a8cf75047d011c67f981b9d9ce0bb2440a3be6e6cd8857101677229b535440 2297 node-prosemirror-state_1.3.3-2.dsc
+ 0061046a19e0d2589fe37acfcc9a166fe44defbfdecd851a433b10f5a0cf30d8 21864 node-prosemirror-state_1.3.3.orig.tar.gz
+ b81ee8c53e8bb93da378e1ded69d2a67de16ffbae8be2acfe9495e0f2331a36e 3728 node-prosemirror-state_1.3.3-2.debian.tar.xz
+Homepage: https://github.com/prosemirror/prosemirror-state#readme
+Package-List: 
+ node-prosemirror-state deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-prosemirror-state
+Priority: extra
+Section: misc

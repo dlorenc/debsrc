@@ -1,0 +1,27 @@
+Package: python-portend
+Binary: python3-portend
+Version: 2.6-1
+Maintainer: JCF Ploemen (jcfp) <linux@jcf.pm>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pytest <!nocheck>, python3-setuptools, python3-setuptools-scm, python3-tempora <!nocheck>
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a4172c0cd56a44bebeccbaba2d3e052a 2215 python-portend_2.6-1.dsc
+ f20422468f0afe31ddcbf3372614186d 11033 python-portend_2.6.orig.tar.gz
+ 5dff9576e59109cdff6a39b47bdb33cb 3072 python-portend_2.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-portend
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-portend.git
+Checksums-Sha256:
+ 36f8b9867c0927d85690cdb200ccb4b146eaa45b41079d8fa0d11ef104a65f79 2215 python-portend_2.6-1.dsc
+ cc6c74d9b23ae9d32910e0099a0938e6f22d5531505b11adb7118ae41bdaaaf6 11033 python-portend_2.6.orig.tar.gz
+ 1a580ed1ebb305657a807627706b0bad936f1c0b5984b57aec7963b097e084cd 3072 python-portend_2.6-1.debian.tar.xz
+Homepage: https://github.com/jaraco/portend
+Package-List: 
+ python3-portend deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-tempora
+Directory: pool/main/p/python-portend
+Priority: extra
+Section: misc

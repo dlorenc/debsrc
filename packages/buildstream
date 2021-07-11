@@ -1,0 +1,26 @@
+Package: buildstream
+Binary: buildstream, python3-buildstream
+Version: 1.4.3-0.1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>
+Build-Depends: debhelper-compat (= 12), bubblewrap, dh-sequence-gnome, dh-sequence-python3, python3, python3-click <!nocheck>, python3-coverage <!nocheck>, python3-fuse <!nocheck>, python3-grpcio <!nocheck>, python3-jinja2 <!nocheck>, python3-pip <!nocheck>, python3-psutil <!nocheck>, python3-pluginbase <!nocheck>, python3-protobuf <!nocheck>, python3-pytest <!nocheck>, python3-pytest-cov <!nocheck>, python3-pytest-pep8 <!nocheck>, python3-pytest-pylint <!nocheck>, python3-pytest-runner, python3-pytest-timeout <!nocheck>, python3-pytest-xdist <!nocheck>, python3-ruamel.yaml <!nocheck>, python3-setuptools, python3-ujson <!nocheck>, python3-wheel <!nocheck>
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ d3542c09022f8e8a7599539de6cb189e 2642 buildstream_1.4.3-0.1.dsc
+ 73931e8cebd1fe593f3238f769bcaee3 364024 buildstream_1.4.3.orig.tar.xz
+ d0b1cfdae15e29c4d32a24fc938822e2 5532 buildstream_1.4.3-0.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/buildstream
+Vcs-Git: https://salsa.debian.org/gnome-team/buildstream.git
+Checksums-Sha256:
+ 60f8d9c23dcf5e48c224d3a2cd9d36464e05de0c54a4e3a786328d9ce60a64a4 2642 buildstream_1.4.3-0.1.dsc
+ a8d89952d97e78744c42f1577fa06935dc704707e7b391b65d820ef734d17ade 364024 buildstream_1.4.3.orig.tar.xz
+ 923938fa233c33087e3997453f15b995b846ffb9215b81b65eaab5bacd883cf6 5532 buildstream_1.4.3-0.1.debian.tar.xz
+Homepage: https://buildstream.build/
+Package-List: 
+ buildstream deb gnome optional arch=all
+ python3-buildstream deb python optional arch=all
+Directory: pool/main/b/buildstream
+Priority: extra
+Section: misc

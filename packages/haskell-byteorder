@@ -1,0 +1,28 @@
+Package: haskell-byteorder
+Binary: libghc-byteorder-dev, libghc-byteorder-prof, libghc-byteorder-doc
+Version: 1.0.4-10
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1e77f19f620ac882bab92e271bfadebd 2337 haskell-byteorder_1.0.4-10.dsc
+ a68226a369ffae7f344d6f21d2827439 2030 haskell-byteorder_1.0.4.orig.tar.gz
+ db294ad9171b86ec72658b2f12dc9aab 2904 haskell-byteorder_1.0.4-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-byteorder
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-byteorder]
+Checksums-Sha256:
+ 3d0441dcf6345ea9cd1896b9074d1fbaadd7a9772e148a8f97b05d77bc10bd8a 2337 haskell-byteorder_1.0.4-10.dsc
+ bd20bbb586947f99c38a4c93d9d0266f49f6fc581767b51ba568f6d5d52d2919 2030 haskell-byteorder_1.0.4.orig.tar.gz
+ 30b59cb166094cb9ba9e1d05c1eec1bb4794433dc57bdb66b11d403d1e5aa760 2904 haskell-byteorder_1.0.4-10.debian.tar.xz
+Homepage: http://community.haskell.org/~aslatter/code/byteorder
+Package-List: 
+ libghc-byteorder-dev deb haskell optional arch=any
+ libghc-byteorder-doc deb doc optional arch=all
+ libghc-byteorder-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-byteorder
+Priority: source
+Section: haskell

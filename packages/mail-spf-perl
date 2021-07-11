@@ -1,0 +1,29 @@
+Package: mail-spf-perl
+Binary: libmail-spf-perl, spf-tools-perl
+Version: 2.9.0-5
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Scott Kitterman <scott@kitterman.com>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl
+Build-Depends-Indep: liberror-perl <!nocheck>, libnet-dns-perl <!nocheck>, libnet-dns-resolver-programmable-perl <!nocheck>, libnetaddr-ip-perl <!nocheck>, libtest-pod-perl <!nocheck>, liburi-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 380f72f0c1f601fa1393b5223953491e 2618 mail-spf-perl_2.9.0-5.dsc
+ 664e20d79c87fa505080f362e827dace 103834 mail-spf-perl_2.9.0.orig.tar.gz
+ e1f2b0ac08b07bf9ad521390c024a659 7692 mail-spf-perl_2.9.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/mail-spf-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/mail-spf-perl.git
+Checksums-Sha256:
+ 3f0c4f13bbfcc0cf64774e1514921bf30f4c82c650deb31e3cd2f2fa3d8ff168 2618 mail-spf-perl_2.9.0-5.dsc
+ 61cb5915f1c7acc7a931ffc1bfc1291bdfac555e2a46eb2391b995ea9ecb6162 103834 mail-spf-perl_2.9.0.orig.tar.gz
+ a4355675c371188868a63520ed0397e23a6ab618812fbb3e75f6efdfad4fff6f 7692 mail-spf-perl_2.9.0-5.debian.tar.xz
+Homepage: https://metacpan.org/release/Mail-SPF
+Dgit: b06e3169a0c2d25b33e1dc623b6ee18624e8526a debian archive/debian/2.9.0-5 https://git.dgit.debian.org/mail-spf-perl
+Package-List: 
+ libmail-spf-perl deb perl optional arch=all
+ spf-tools-perl deb mail optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/m/mail-spf-perl
+Priority: source
+Section: mail

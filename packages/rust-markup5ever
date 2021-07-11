@@ -1,0 +1,26 @@
+Package: rust-markup5ever
+Binary: librust-markup5ever-dev
+Version: 0.10.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-phf-0.8+default-dev <!nocheck>, librust-phf-codegen-0.8+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-derive-1+default-dev <!nocheck>, librust-serde-json-1+default-dev <!nocheck>, librust-string-cache-0.8+default-dev <!nocheck>, librust-string-cache-codegen-0.5+default-dev (>= 0.5.1-~~) <!nocheck>, librust-tendril-0.4+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ffbf7692f0a2759cc5f05f260c051525 1958 rust-markup5ever_0.10.0-1.dsc
+ 5a3ec2bcddeceae43e2169be312963df 42925 rust-markup5ever_0.10.0.orig.tar.gz
+ f1b1e44301bab3a212b88ae27b87a683 2824 rust-markup5ever_0.10.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/markup5ever
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/markup5ever]
+Checksums-Sha256:
+ 3746692fdd2d0ee1e146024282a63cbdcfcf30b2d81680a6a17158c6d04391b4 1958 rust-markup5ever_0.10.0-1.dsc
+ aae38d669396ca9b707bfc3db254bc382ddb94f57cc5c235f34623a669a01dab 42925 rust-markup5ever_0.10.0.orig.tar.gz
+ a66611e0a2d03c4330034899bb0d70efcc7db42030a1a6b267e45c77f49d1823 2824 rust-markup5ever_0.10.0-1.debian.tar.xz
+Package-List: 
+ librust-markup5ever-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-markup5ever
+Priority: extra
+Section: misc

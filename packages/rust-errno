@@ -1,0 +1,24 @@
+Package: rust-errno
+Binary: librust-errno-dev
+Version: 0.2.4-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+errhandlingapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+ntdef-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 31ed1b17b9634f04c50fe1d22fcf6755 2274 rust-errno_0.2.4-2.dsc
+ 24336494a47aa7a99a43c81d57e7e71f 8486 rust-errno_0.2.4.orig.tar.gz
+ eb74f7713946fcda4d935c8980cfd2f9 2688 rust-errno_0.2.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/errno
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/errno]
+Checksums-Sha256:
+ aa2ef732363e31cd37f12a9792c8245b1c754125a02d9a7a508a264b6aa1b7e4 2274 rust-errno_0.2.4-2.dsc
+ c2a071601ed01b988f896ab14b95e67335d1eeb50190932a1320f7fe3cadc84e 8486 rust-errno_0.2.4.orig.tar.gz
+ 9f317a73050cd878432868c57bd5b798e69cf0371a021505de2ca4b149168ac6 2688 rust-errno_0.2.4-2.debian.tar.xz
+Package-List: 
+ librust-errno-dev deb rust optional arch=any
+Directory: pool/main/r/rust-errno
+Priority: extra
+Section: misc

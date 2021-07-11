@@ -1,0 +1,26 @@
+Package: node-ansi-escapes
+Binary: node-ansi-escapes
+Version: 4.3.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13), node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e1610e40f4d91ae61e67209097871aef 2117 node-ansi-escapes_4.3.1-1.dsc
+ 5c318e1a4a6f0060637a4ff24019b2e9 54030 node-ansi-escapes_4.3.1.orig.tar.gz
+ f8add76f74386e21fc871ba5f8d6696f 3304 node-ansi-escapes_4.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ansi-escapes
+Vcs-Git: https://salsa.debian.org/js-team/node-ansi-escapes.git
+Checksums-Sha256:
+ 37c3f0436037aebd719516525ab7219bdd0027bf8c18776bb96ac2cb56a101e3 2117 node-ansi-escapes_4.3.1-1.dsc
+ 277b11b9fa19995c012bf3fee8958b708ca6e86fbda6be53edf0a30811fd28c5 54030 node-ansi-escapes_4.3.1.orig.tar.gz
+ 6c967e9406ade865c1e66b6474490bac3446eb7d424be1ea2e2abcc64a6e6156 3304 node-ansi-escapes_4.3.1-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/ansi-escapes#readme
+Package-List: 
+ node-ansi-escapes deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ansi-escapes
+Priority: optional
+Section: javascript

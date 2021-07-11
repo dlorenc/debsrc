@@ -1,0 +1,26 @@
+Package: glabels
+Binary: glabels, glabels-data, glabels-dev
+Version: 3.4.1-3
+Maintainer: Jakob Haufe <sur5r@debian.org>
+Build-Depends: autotools-dev, autoconf-archive, cdbs, dpkg-dev (>= 1.16.1~), debhelper (>= 9.0), intltool (>= 0.21), gtk-doc-tools (>= 1.0), yelp-tools, libglib2.0-dev (>= 2.28.2), libgtk-3-dev (>= 3.0.9), libxml2-dev (>= 2.7.8), librsvg2-dev (>= 2.32.0), libcairo2-dev (>= 1.10.0), libpango1.0-dev (>= 1.28.1), libebook1.2-dev (>= 3.6.0), barcode (>= 0.98), libqrencode-dev (>= 3.1.0), libiec16022-dev (>= 0.2.4)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9a26811688dc080bc7e6416422db84a1 2313 glabels_3.4.1-3.dsc
+ 095105ac95872bd9a767764fa60d5152 3467992 glabels_3.4.1.orig.tar.xz
+ 3870c4c2487071e7c0e1bdf3c7608bf2 14660 glabels_3.4.1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/Debian/glabels
+Vcs-Git: https://salsa.debian.org/Debian/glabels.git
+Checksums-Sha256:
+ 9d99a8a5aa24d8afb18f02a539de80d6d00c2f2bcbba533b8a97040aca7341b8 2313 glabels_3.4.1-3.dsc
+ 18e457298abb1c617187361109eeae769317686303fc07726af31e11519c5938 3467992 glabels_3.4.1.orig.tar.xz
+ 7b3a6decf30370e1b46dc0df9264638616603bd957246d74248d589fc9e4e6db 14660 glabels_3.4.1-3.debian.tar.xz
+Homepage: http://glabels.org/
+Package-List: 
+ glabels deb gnome optional arch=any
+ glabels-data deb gnome optional arch=all
+ glabels-dev deb devel optional arch=any
+Directory: pool/main/g/glabels
+Priority: source
+Section: gnome

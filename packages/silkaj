@@ -1,0 +1,27 @@
+Package: silkaj
+Binary: silkaj
+Version: 0.8.1-1
+Maintainer: Debian Cryptocoin Team <team+cryptocoin@tracker.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), dh-python, dh-sequence-bash-completion, dh-sequence-python3, help2man, libtest-command-simple-perl <!nocheck>, perl <!nocheck>, python3, python3-base58, python3-click, python3-duniterpy, python3-humanize, python3-setuptools, python3-tabulate, python3-texttable
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f30a921a229872cd12d3e65126764c55 2243 silkaj_0.8.1-1.dsc
+ 7cad16a4d9bb2a39dc5e4efc35ee74cc 303325 silkaj_0.8.1.orig.tar.bz2
+ 652b0ab941c481f145cfb550ef42c904 23452 silkaj_0.8.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cryptocoin-team/silkaj
+Vcs-Git: https://salsa.debian.org/cryptocoin-team/silkaj.git
+Checksums-Sha256:
+ c24935863ff27b1cf3d8690a9502cfdb4b980282df8fee7bb23b14b74f315242 2243 silkaj_0.8.1-1.dsc
+ 4f659488de5e410381515caceabded9120cd7feee5f43ff71e07209ec182eda9 303325 silkaj_0.8.1.orig.tar.bz2
+ 73a5da01205da665884b5d0943456ecb1415303640bfe0d6db9413794222888c 23452 silkaj_0.8.1-1.debian.tar.xz
+Homepage: https://silkaj.duniter.org/
+Package-List: 
+ silkaj deb utils optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ca-certificates, libtest-command-simple-perl, perl
+Directory: pool/main/s/silkaj
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-hashicorp-go-sockaddr
+Binary: golang-github-hashicorp-go-sockaddr-dev
+Version: 0.0~git20170627.41949a1+ds-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Martín Ferrari <tincho@debian.org>,
+Build-Depends: debhelper (>= 11~), dh-golang, golang-any, golang-github-hashicorp-errwrap-dev, iproute2
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 0fb2d94f7eb22b8f2f3f1542e95c559a 2525 golang-github-hashicorp-go-sockaddr_0.0~git20170627.41949a1+ds-2.dsc
+ 43b3f1d98ee9ed4d96e746190590c871 87265 golang-github-hashicorp-go-sockaddr_0.0~git20170627.41949a1+ds.orig.tar.gz
+ eee4a9d6e2553c948e0cc8d8fd6dc526 8512 golang-github-hashicorp-go-sockaddr_0.0~git20170627.41949a1+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-sockaddr
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-sockaddr.git
+Checksums-Sha256:
+ 2718bb6b564aaf39164a3a16ace07e9b1410dd45cde88d4f1eda5bfe704723f1 2525 golang-github-hashicorp-go-sockaddr_0.0~git20170627.41949a1+ds-2.dsc
+ 557f567e025020d9ceb93955c115f3b004c8b07da68375809834f7ac59518d66 87265 golang-github-hashicorp-go-sockaddr_0.0~git20170627.41949a1+ds.orig.tar.gz
+ dea04038f05b13614a99ea5dbf68423a25b2d9f380742f8e2affb06b5d72ea64 8512 golang-github-hashicorp-go-sockaddr_0.0~git20170627.41949a1+ds-2.debian.tar.xz
+Homepage: https://github.com/hashicorp/go-sockaddr
+Go-Import-Path: github.com/hashicorp/go-sockaddr
+Package-List: 
+ golang-github-hashicorp-go-sockaddr-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hashicorp-go-sockaddr
+Priority: extra
+Section: golang

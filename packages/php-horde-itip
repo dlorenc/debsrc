@@ -1,0 +1,27 @@
+Package: php-horde-itip
+Binary: php-horde-itip
+Version: 2.1.2-8
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 651c839beb1d9fc328d331e692458acf 2120 php-horde-itip_2.1.2-8.dsc
+ 9d28a6cacc34eaaa21a4643d1a8c3acd 36424 php-horde-itip_2.1.2.orig.tar.gz
+ bb874730f2959e1bddcfaca36931fc8b 4388 php-horde-itip_2.1.2-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-itip
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-itip.git
+Checksums-Sha256:
+ 9172d7c88080c439b0647cc00bff6929cb456b1fa0128071ec5b15ef3b45deaa 2120 php-horde-itip_2.1.2-8.dsc
+ b727e019db0a200b21a7f1ad3c40e0ab0737edee8216f40626ebc563e6943ef8 36424 php-horde-itip_2.1.2.orig.tar.gz
+ 9940a854eaec7f8881b0c2f8eb495095954fe569e30f3f2a0d16dad144a789c2 4388 php-horde-itip_2.1.2-8.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-itip deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-itip
+Priority: extra
+Section: misc

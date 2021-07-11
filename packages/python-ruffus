@@ -1,0 +1,28 @@
+Package: python-ruffus
+Binary: python3-ruffus, python-ruffus-doc
+Version: 2.8.4-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-pytest, graphviz
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ee326b49f3875d05d3a5c11fe8a859bd 2251 python-ruffus_2.8.4-2.dsc
+ 582538aefa1fedf3d70f3e345b4521e5 12152605 python-ruffus_2.8.4.orig.tar.gz
+ 34c9d6fd49760cbbd69df71864b70f56 6616 python-ruffus_2.8.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-ruffus
+Vcs-Git: https://salsa.debian.org/med-team/python-ruffus.git
+Checksums-Sha256:
+ fa4744e0e9de52a01062e75fbc514d605f1aec9ec9ca69bb14306b68a8b239dc 2251 python-ruffus_2.8.4-2.dsc
+ 1487be20dddf6f0fb03b7d8d3fb3fc95ee3bbbbfc02d408daad19425e9a07a96 12152605 python-ruffus_2.8.4.orig.tar.gz
+ a1653abcc78ca5fc8ff08902d2d10693a6748001446c6c2616dfbdc2de5bbb64 6616 python-ruffus_2.8.4-2.debian.tar.xz
+Homepage: http://www.ruffus.org.uk/
+Package-List: 
+ python-ruffus-doc deb doc optional arch=all
+ python3-ruffus deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-pytest
+Directory: pool/main/p/python-ruffus
+Priority: optional
+Section: misc

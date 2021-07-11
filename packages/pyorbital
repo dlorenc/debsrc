@@ -1,0 +1,28 @@
+Package: pyorbital
+Binary: python3-pyorbital, python-pyorbital-doc
+Version: 1.6.0-3
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Antonio Valentino <antonio.valentino@tiscali.it>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-dask, python3-numpy, python3-requests, python3-scipy, python3-setuptools, python3-sphinx, python3-xarray
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a9ee9c8c96c9dd3873af925817a9d7bf 2250 pyorbital_1.6.0-3.dsc
+ 61143b92f6820d3a30f8b9ba69f0e1de 114981 pyorbital_1.6.0.orig.tar.gz
+ 4329e8b8c74992f9a3359d42312a5f6d 5880 pyorbital_1.6.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/pyorbital
+Vcs-Git: https://salsa.debian.org/debian-gis-team/pyorbital.git
+Checksums-Sha256:
+ 02690af98920541ef94ae4461ec0b5d98dc23a57f0b3dec790e7c2ae74ccd787 2250 pyorbital_1.6.0-3.dsc
+ e673d6187537d5f6215f241da6e436454dc3b8dd5f03931a021bcbcc46e24e9b 114981 pyorbital_1.6.0.orig.tar.gz
+ edb70fdac4eadee938e43cd112434bc6249e189e7fe371f7450decfc13c2cf3a 5880 pyorbital_1.6.0-3.debian.tar.xz
+Homepage: https://github.com/pytroll/pyorbital
+Package-List: 
+ python-pyorbital-doc deb doc optional arch=all
+ python3-pyorbital deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-dask, python3-xarray
+Directory: pool/main/p/pyorbital
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-gulp-plumber
+Binary: node-gulp-plumber
+Version: 1.2.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-chalk <!nocheck>, node-duplexer <!nocheck>, node-fancy-log <!nocheck>, node-gulp <!nocheck>, node-plugin-error <!nocheck>, node-should <!nocheck>, node-split <!nocheck>, node-through <!nocheck>, node-through2 (>= 2) <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 953a9d0aa812c58731c7e519a1698d8d 2324 node-gulp-plumber_1.2.1-1.dsc
+ 4eeaa8acd42ce8cb52492cc903167878 5632 node-gulp-plumber_1.2.1.orig.tar.gz
+ 3e20c2c2efe2e8f02189194e6b56b29e 7640 node-gulp-plumber_1.2.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-gulp-plumber
+Vcs-Git: https://salsa.debian.org/js-team/node-gulp-plumber.git
+Checksums-Sha256:
+ b8cec5f047e1cbcd1229cecbedd05f79273241dfa7b83be99c06448bf94337b6 2324 node-gulp-plumber_1.2.1-1.dsc
+ fb80a94fa1034f24900cdbc885fb58cf7c55d4d5583af8bb9c141d84c0f3adf4 5632 node-gulp-plumber_1.2.1.orig.tar.gz
+ 4d15eefcd9f3c6776af29777ee49b28f3b2c3fbc47bc13a5a70fc2d40a19f6b4 7640 node-gulp-plumber_1.2.1-1.debian.tar.xz
+Homepage: https://github.com/floatdrop/gulp-plumber
+Package-List: 
+ node-gulp-plumber deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-gulp-plumber
+Priority: optional
+Section: javascript

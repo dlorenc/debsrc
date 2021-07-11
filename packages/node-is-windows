@@ -1,0 +1,27 @@
+Package: node-is-windows
+Binary: node-is-windows
+Version: 1.0.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-nodejs, nodejs, mocha
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c4a6d839fab120ade1cb58e3b160cfcb 2082 node-is-windows_1.0.2-2.dsc
+ f4be1ca315ec826a83d8b74edb53f06c 5337 node-is-windows_1.0.2.orig.tar.gz
+ 1c7fee4acf0d7f5eb5f2d3a6e34396c4 2348 node-is-windows_1.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-windows
+Vcs-Git: https://salsa.debian.org/js-team/node-is-windows.git
+Checksums-Sha256:
+ cba784ce082b8e565d37a63c5350c09f00ea9708ed30f719cc166dd1d7f35c09 2082 node-is-windows_1.0.2-2.dsc
+ 492a523fccaa2d93f10c7fda5b8aed2b2f38e817b93f1b0bda64c6e0fb2b0b16 5337 node-is-windows_1.0.2.orig.tar.gz
+ d0d9059232654525b5db1ca6d03133abd13a273442c91792192dea02b1cda015 2348 node-is-windows_1.0.2-2.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/is-windows
+Package-List: 
+ node-is-windows deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha
+Directory: pool/main/n/node-is-windows
+Priority: optional
+Section: javascript

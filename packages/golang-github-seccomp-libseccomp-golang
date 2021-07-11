@@ -1,0 +1,28 @@
+Package: golang-github-seccomp-libseccomp-golang
+Binary: golang-github-seccomp-libseccomp-golang-dev
+Version: 0.9.1-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>, Tim Potter <tpot@hpe.com>
+Build-Depends: debhelper (>= 12~), dh-golang, golang-any, libseccomp-dev, pkg-config
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ fbda863770da1354074df727204cd55a 2611 golang-github-seccomp-libseccomp-golang_0.9.1-2.dsc
+ 0327c2698785de3ff3f1e59ee89fbc4d 16252 golang-github-seccomp-libseccomp-golang_0.9.1.orig.tar.xz
+ 5b9fcc5420d8789aa5f08e72e226f3c2 4916 golang-github-seccomp-libseccomp-golang_0.9.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-seccomp-libseccomp-golang
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-seccomp-libseccomp-golang.git
+Checksums-Sha256:
+ b83695a85201a0363678f962444f3c9e14b383a453cd0664444d914560857e2c 2611 golang-github-seccomp-libseccomp-golang_0.9.1-2.dsc
+ bd4a0a77a2a6b5bab1b6f8746116136a92d5ba74849be95f9dc8183ded37f4a2 16252 golang-github-seccomp-libseccomp-golang_0.9.1.orig.tar.xz
+ 1a11ad15625a9a0ca2c6730f3c2127166304ebdd1e31759f1884588f4cb96af3 4916 golang-github-seccomp-libseccomp-golang_0.9.1-2.debian.tar.xz
+Homepage: https://github.com/seccomp/libseccomp-golang
+Dgit: feaf9b336218de5c54a08b8e504114ff03058d93 debian archive/debian/0.9.1-2 https://git.dgit.debian.org/golang-github-seccomp-libseccomp-golang
+Go-Import-Path: github.com/seccomp/libseccomp-golang
+Package-List: 
+ golang-github-seccomp-libseccomp-golang-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-seccomp-libseccomp-golang
+Priority: extra
+Section: golang

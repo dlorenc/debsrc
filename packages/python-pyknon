@@ -1,0 +1,27 @@
+Package: python-pyknon
+Binary: python3-pyknon
+Version: 1.2-3
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Tiago Bortoletto Vaz <tiago@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pytest, python3-sphinx
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3206909a208f98e7feffad7174d6d6e2 2091 python-pyknon_1.2-3.dsc
+ d7e004d2103052c2d562750a482ba450 29038 python-pyknon_1.2.orig.tar.gz
+ ad825044bc4e974ccb8e3eda2b381d11 2704 python-pyknon_1.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/python-pyknon
+Vcs-Git: https://salsa.debian.org/multimedia-team/python-pyknon.git
+Checksums-Sha256:
+ c6e3e675ffd7593122a41ec8f7c5baedb9c7fb9e624b9c0be0575bfcde016bf0 2091 python-pyknon_1.2-3.dsc
+ f6d01f9cb124a575482dbb922873f82766a812f79d1444dff79e9d52c5ed521a 29038 python-pyknon_1.2.orig.tar.gz
+ 764d09f74f275edce9b11478b496fc261e8c45f7c309ee467242189cfea67eaa 2704 python-pyknon_1.2-3.debian.tar.xz
+Homepage: https://github.com/kroger/pyknon
+Package-List: 
+ python3-pyknon deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-pyknon
+Priority: source
+Section: misc

@@ -1,0 +1,28 @@
+Package: tuareg-mode
+Binary: elpa-tuareg, tuareg-mode
+Version: 1:2.2.0-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>, Samuel Mimram <smimram@debian.org>, Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-elpa
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ aa3e90acc4805e65cc6355b461e1393a 2144 tuareg-mode_2.2.0-1.dsc
+ fd8d349301a1748aea6ea9024d5d426d 83392 tuareg-mode_2.2.0.orig.tar.gz
+ afb2bdcf44b7c288d9359e7abee08d8e 8508 tuareg-mode_2.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/tuareg-mode
+Vcs-Git: https://salsa.debian.org/ocaml-team/tuareg-mode.git
+Checksums-Sha256:
+ be4ab64abeba146910d48b684b6ffbc01aae973422f5985a46e3c153d1cbcbd1 2144 tuareg-mode_2.2.0-1.dsc
+ 2f2692bdeaddbac33811ae27511775d7ede9ae4d51c69548c73239700273d7fa 83392 tuareg-mode_2.2.0.orig.tar.gz
+ c458ea8178b94669367b2922ad2c01157d5eea4d9b59f6b0326b839ea655f2e4 8508 tuareg-mode_2.2.0-1.debian.tar.xz
+Homepage: https://github.com/ocaml/tuareg
+Package-List: 
+ elpa-tuareg deb ocaml optional arch=all
+ tuareg-mode deb oldlibs optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-elpa
+Testsuite-Triggers: emacs
+Directory: pool/main/t/tuareg-mode
+Priority: source
+Section: ocaml

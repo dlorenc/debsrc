@@ -1,0 +1,40 @@
+Package: wireshark
+Binary: wireshark-common, wireshark, wireshark-qt, wireshark-gtk, tshark, wireshark-dev, wireshark-doc, libwireshark14, libwsutil12, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap11, libwiretap-dev
+Version: 3.4.4-1
+Maintainer: Balint Reczey <rbalint@ubuntu.com>
+Build-Depends: qtbase5-dev, qtbase5-dev-tools, qttools5-dev, qttools5-dev-tools, qtmultimedia5-dev, libpcap0.8-dev, flex, libz-dev, debhelper (>= 9), po-debconf, libtool, python3, python3-ply, libc-ares-dev, xsltproc, dh-python, docbook-xsl (>= 1.64.1.0-0), docbook-xml, libxml2-utils, libpcre3-dev, libcap2-dev [linux-any] | libcap-dev (>= 2.17) [linux-any], lsb-release, bison, libparse-yapp-perl, libglib2.0-dev, libgnutls28-dev (>= 3.2.14-1~), libgcrypt-dev, libkrb5-dev, liblua5.2-dev, libsmi2-dev, libmaxminddb-dev, dpkg-dev (>= 1.16.1~), libsystemd-dev, libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], asciidoctor, cmake (>= 3.5), libsbc-dev, libnghttp2-dev, libssh-gcrypt-dev, liblz4-dev, libsnappy-dev, libzstd-dev, libspandsp-dev, libxml2-dev, libbrotli-dev, libspeexdsp-dev, libminizip-dev, libbcg729-dev
+Build-Conflicts: libsnmp-dev, libsnmp4.2-dev
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 84f3d7c1c4cdb29529a447758eeec679 3509 wireshark_3.4.4-1.dsc
+ ee2b748070d35c87d00d4d180ea5e3cb 32254772 wireshark_3.4.4.orig.tar.xz
+ a452dce2a38463b6bb388fc278d84cf4 74444 wireshark_3.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/wireshark.git
+Vcs-Git: https://salsa.debian.org/debian/wireshark -b debian/master
+Checksums-Sha256:
+ 86410e8b98b43df139fde6712c6f9da52956b45e2459d5fa0ee8fa851bd720f0 3509 wireshark_3.4.4-1.dsc
+ f60f3171db2ebffb65a2b8313615ee2329687a5d364c990a60805ba47405a9e9 32254772 wireshark_3.4.4.orig.tar.xz
+ f521c62697570aa2c8712e03ae4b208152ea961f2776277a574aee9e63b23bf7 74444 wireshark_3.4.4-1.debian.tar.xz
+Homepage: https://www.wireshark.org/
+Package-List: 
+ libwireshark-data deb libs optional arch=all
+ libwireshark-dev deb libdevel optional arch=any
+ libwireshark14 deb libs optional arch=any
+ libwiretap-dev deb libdevel optional arch=any
+ libwiretap11 deb libs optional arch=any
+ libwsutil-dev deb libdevel optional arch=any
+ libwsutil12 deb libs optional arch=any
+ tshark deb net optional arch=any
+ wireshark deb net optional arch=any
+ wireshark-common deb net optional arch=any
+ wireshark-dev deb devel optional arch=any
+ wireshark-doc deb doc optional arch=all
+ wireshark-gtk deb net optional arch=any
+ wireshark-qt deb net optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: at-spi2-core, xauth, xvfb
+Directory: pool/main/w/wireshark
+Priority: source
+Section: net

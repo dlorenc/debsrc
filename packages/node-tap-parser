@@ -1,0 +1,29 @@
+Package: node-tap-parser
+Binary: node-tap-parser
+Version: 7.0.0+ds1-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>, Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), help2man <!nodoc>, node-glob (>= 7.0.5) <!nocheck>, node-js-yaml <!nocheck>, node-tap (>= 8) <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2240d36a6e144d01124e820f79c5c0ef 2623 node-tap-parser_7.0.0+ds1-5.dsc
+ b6a040d9fbae68c3c5ea71aba06a3a5d 2968 node-tap-parser_7.0.0+ds1.orig-module-events-to-array.tar.gz
+ 2a8ea577cbdd1e66789f21e87f3cfb26 225429 node-tap-parser_7.0.0+ds1.orig.tar.gz
+ 6b1c093b91e4bf00927502c5519310cd 6316 node-tap-parser_7.0.0+ds1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-tap-parser
+Vcs-Git: https://salsa.debian.org/js-team/node-tap-parser.git
+Checksums-Sha256:
+ 0fc7745eb3404e2e74d7fd5c9ddd7ae518d54ad6118ea8554fda1e1bee29bbe5 2623 node-tap-parser_7.0.0+ds1-5.dsc
+ aec1dd86e500a6cf6e3e19dc92502882fe1572ebfd78bc0be9662a3070d4fa35 2968 node-tap-parser_7.0.0+ds1.orig-module-events-to-array.tar.gz
+ cbfbccc0541abad741f71801ec6f5396fb77564c554b398d06306915b11bc9b3 225429 node-tap-parser_7.0.0+ds1.orig.tar.gz
+ b11910120711ed41d7668b69563e98eed3a059785389da8463b38d36b8a42ea5 6316 node-tap-parser_7.0.0+ds1-5.debian.tar.xz
+Homepage: https://github.com/substack/tap-parser
+Package-List: 
+ node-tap-parser deb javascript optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: node-glob, node-tap
+Directory: pool/main/n/node-tap-parser
+Priority: optional
+Section: javascript

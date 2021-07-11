@@ -1,0 +1,27 @@
+Package: r-cran-purrr
+Binary: r-cran-purrr
+Version: 0.3.4-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-magrittr, r-cran-rlang
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ef9fe17c4a67cd9c4d1bf2e7d0d54cc6 2098 r-cran-purrr_0.3.4-1.dsc
+ e5800da22652606547ab14b7ae38058e 375062 r-cran-purrr_0.3.4.orig.tar.gz
+ e3fb3e75a30141b351026becf965c9ad 2268 r-cran-purrr_0.3.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-purrr
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-purrr.git
+Checksums-Sha256:
+ 9998ec9b355c161d0aee8935b82f008c8abc71db333c98c096d782ae2e1f3087 2098 r-cran-purrr_0.3.4-1.dsc
+ 23ebc93bc9aed9e7575e8eb9683ff4acc0270ef7d6436cc2ef4236a9734840b2 375062 r-cran-purrr_0.3.4.orig.tar.gz
+ 4aa577404971639072383cb21f1c11c0c6494e073778e242efde0dd275e33e67 2268 r-cran-purrr_0.3.4-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=purrr
+Package-List: 
+ r-cran-purrr deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-dplyr, r-cran-testthat
+Directory: pool/main/r/r-cran-purrr
+Priority: extra
+Section: misc

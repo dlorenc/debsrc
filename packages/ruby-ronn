@@ -1,0 +1,28 @@
+Package: ruby-ronn
+Binary: ruby-ronn, ronn
+Version: 0.9.1-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Martin Ueding <dev@martin-ueding.de>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-contest, ruby-json, ruby-nokogiri (>= 1.9.0), ruby-mustache (>= 0.7.0), ruby-kramdown (>= 1.17.0), ruby-test-unit
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fb1b6acf6c376f5601fba5bdadf0323f 2197 ruby-ronn_0.9.1-2.dsc
+ 8ea9b62eb12c29aed2a35df7a90be330 68079 ruby-ronn_0.9.1.orig.tar.gz
+ 8b0932dca15f83dd463f5923ca114a45 15656 ruby-ronn_0.9.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ronn
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ronn.git
+Checksums-Sha256:
+ 87d951ebe75049497093b5c61a433ebdd0b5efcebae4b41aecc7b7b4c1d9d62f 2197 ruby-ronn_0.9.1-2.dsc
+ 48dc2e82e34ada6299695914bb9d4a1ba9ed8e7f58c91c7371b0d9650a3dca88 68079 ruby-ronn_0.9.1.orig.tar.gz
+ c8ef2cb61a6bdd325334432f345e56efd5423bb02816a5ce7ed9d9ff816fe88a 15656 ruby-ronn_0.9.1-2.debian.tar.xz
+Homepage: https://github.com/apjanke/ronn-ng
+Package-List: 
+ ronn deb ruby optional arch=all
+ ruby-ronn deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ronn
+Priority: source
+Section: ruby

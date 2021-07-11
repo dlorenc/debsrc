@@ -1,0 +1,27 @@
+Package: hugo
+Binary: hugo
+Version: 0.80.0-6
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>, Dr. Tobias Quathamer <toddy@debian.org>
+Build-Depends: asciidoctor, bash-completion, debhelper-compat (= 13), dh-golang (>= 1.41~), golang-any (>= 2:1.12~), golang-github-alecthomas-chroma-dev (>= 0.8.2), golang-github-armon-go-radix-dev (>= 1.0.0), golang-github-aws-aws-sdk-go-dev (>= 1.35.0), golang-github-bep-debounce-dev (>= 1.2.0+really1.2.0), golang-github-bep-gitmap-dev (>= 1.1.2), golang-github-bep-godartsass-dev (>= 0.11.0), golang-github-bep-golibsass-dev (>= 0.7.0), golang-github-bep-tmc-dev (>= 0.5.1), golang-github-burntsushi-locker-dev (>= 0.0~git20171006.a6e239e), golang-github-burntsushi-toml-dev (>= 0.3.1), golang-github-cli-safeexec-dev (>= 1.0.0), golang-github-disintegration-gift-dev (>= 1.2.1), golang-github-dustin-go-humanize-dev (>= 1.0.0), golang-github-evanw-esbuild-dev (>= 0.8.39), golang-github-fortytw2-leaktest-dev (>= 1.3.0), golang-github-frankban-quicktest-dev (>= 1.11.2), golang-github-fsnotify-fsnotify-dev (>= 1.4.9), golang-github-getkin-kin-openapi-dev (>= 0.32.0), golang-github-ghodss-yaml-dev (>= 1.0.0), golang-github-gobwas-glob-dev (>= 0.2.3), golang-github-google-go-cmp-dev (>= 0.5.3), golang-github-gorilla-websocket-dev (>= 1.4.2), golang-github-jdkato-prose-dev (>= 1.2.0), golang-github-kylelemons-godebug-dev (>= 1.1.0), golang-github-kyokomi-emoji-dev (>= 2.2.7), golang-github-markbates-inflect-dev (>= 1.0.4), golang-github-mattn-go-isatty-dev (>= 0.0.12), golang-github-miekg-mmark-dev (>= 1.3.6), golang-github-mitchellh-hashstructure-dev (>= 1.0.0), golang-github-mitchellh-mapstructure-dev (>= 1.3.3), golang-github-muesli-smartcrop-dev (>= 0.3.0), golang-github-nicksnyder-go-i18n.v2-dev (>= 2.1.1), golang-github-niklasfasching-go-org-dev (>= 1.3.2), golang-github-olekukonko-tablewriter-dev (>= 0.0.4), golang-github-pelletier-go-toml-dev (>= 1.8.1), golang-github-pkg-errors-dev (>= 0.9.1), golang-github-puerkitobio-purell-dev (>= 1.1.1), golang-github-rogpeppe-go-internal-dev (>= 1.6.2), golang-github-russross-blackfriday-dev (>= 1.5.2+20200218.41c5fcc), golang-github-rwcarlsen-goexif-dev (>= 0.0~git20190401.9e8deec), golang-github-sanity-io-litter-dev (>= 1.3.0), golang-github-spf13-afero-dev (>= 1.5.1), golang-github-spf13-cast-dev (>= 1.3.1), golang-github-spf13-cobra-dev (>= 1.1.1), golang-github-spf13-fsync-dev (>= 0.9.0), golang-github-spf13-jwalterweatherman-dev (>= 1.1.0+really1.1.0), golang-github-spf13-pflag-dev (>= 1.0.5), golang-github-spf13-viper-dev (>= 1.7.1), golang-github-tdewolff-minify-dev (>= 2.6.2), golang-github-yuin-goldmark-dev (>= 1.2.1), golang-github-yuin-goldmark-highlighting-dev (>= 0.0~git20200218.d1af22c), golang-gocloud-dev (>= 0.20.0-3~), golang-golang-x-image-dev (>= 0.0~git20190523.f03afa9), golang-golang-x-net-dev (>= 1:0.0+git20200202.1617124), golang-golang-x-sync-dev (>= 0.0~20190423.1122301), golang-golang-x-text-dev (>= 0.3.4), golang-google-api-dev (>= 0.13.0), golang-gopkg-yaml.v2-dev (>= 2.4.0), libsass-dev (>= 3.6.3)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 44a24caf97db9683285e5ef12cfdc427 4879 hugo_0.80.0-6.dsc
+ fb60abd5139209d3377401746ec80107 36212609 hugo_0.80.0.orig.tar.gz
+ b8d4d599381729113804cfe8a5967da8 313512 hugo_0.80.0-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/hugo
+Vcs-Git: https://salsa.debian.org/go-team/packages/hugo.git
+Checksums-Sha256:
+ 54ea5d69d6379f4a4a1c585fb86efe9d3c08329d9185a181eda3aaa768461b8e 4879 hugo_0.80.0-6.dsc
+ 4ddcd6ebea21e5fd4067db4a481ab7810e34496d5991a3520169c8f5ee1d38bb 36212609 hugo_0.80.0.orig.tar.gz
+ cdfd0dd43e403a9eda6e1b4240c3d5dc51defde78c50b4d7af6130e9f6118c41 313512 hugo_0.80.0-6.debian.tar.xz
+Homepage: https://gohugo.io/
+Go-Import-Path: github.com/gohugoio/hugo
+Package-List: 
+ hugo deb web optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/h/hugo
+Priority: optional
+Section: misc

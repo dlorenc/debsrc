@@ -1,0 +1,28 @@
+Package: haskell-gd
+Binary: libghc-gd-dev, libghc-gd-prof, libghc-gd-doc
+Version: 3000.7.3-13
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), cdbs, haskell-devscripts (>= 0.13), ghc (>= 8), ghc-prof, libgd-dev
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ db9b642782adbce94dcaaec8b5f927a5 2255 haskell-gd_3000.7.3-13.dsc
+ 00887822ad60c51f606456db5f5243a8 10476 haskell-gd_3000.7.3.orig.tar.gz
+ ba2c38f23b1408d85c98478efbd1069b 2836 haskell-gd_3000.7.3-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-gd
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-gd]
+Checksums-Sha256:
+ e55c36f4c5278190c807acea0b4aea96f8605f9d288ca0e843fc7371146f1860 2255 haskell-gd_3000.7.3-13.dsc
+ 14aecb600d9a058b1905dfdef3d51a1eb11fb92f804fbaaa041103a0bfd97fb6 10476 haskell-gd_3000.7.3.orig.tar.gz
+ f1be35f28f28f97e5da69e5b8dcbe536195fd816726370e68bc5417e620b9b28 2836 haskell-gd_3000.7.3-13.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/gd
+Package-List: 
+ libghc-gd-dev deb haskell optional arch=any
+ libghc-gd-doc deb doc optional arch=all
+ libghc-gd-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-gd
+Priority: source
+Section: haskell

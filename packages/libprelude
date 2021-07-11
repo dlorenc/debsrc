@@ -1,0 +1,36 @@
+Package: libprelude
+Binary: libprelude-dev, libprelude-doc, libprelude28, libpreludecpp12, prelude-utils, libprelude-perl, python3-prelude, ruby-libprelude, libprelude-lua
+Version: 5.2.0-3
+Maintainer: Pierre Chifflier <pollux@debian.org>
+Uploaders: Thomas Andrejak <thomas.andrejak@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python <!nopython>, g++ (>= 4:7), gawk, gem2deb <!noruby>, libgcrypt20-dev, libgnutls28-dev, libltdl-dev, pkg-config, liblua5.1-dev <!nolua>, lua5.1 <!nolua>, libperl-dev <!noperl>, python3-all-dev <!nopython>, ruby-all-dev <!noruby>, swig <!nopython> <!noperl> <!noruby> <!nolua>
+Build-Depends-Indep: gtk-doc-tools, libglib2.0-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a2f5b755fa95421a6b44703ecdc2e238 3066 libprelude_5.2.0-3.dsc
+ 4db429af160450dc37c7ade001abf8c4 2902019 libprelude_5.2.0.orig.tar.gz
+ e0986e3eb72631c7b60fb9b37c3feb01 163 libprelude_5.2.0.orig.tar.gz.asc
+ e5de1cc6eba249afb612130d6583a3c5 26708 libprelude_5.2.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/totol-guest/libprelude
+Vcs-Git: https://salsa.debian.org/totol-guest/libprelude.git
+Checksums-Sha256:
+ 0be4716177a909257b45f077d5b20a84125b8e06ce756b0ad7068851696e50eb 3066 libprelude_5.2.0-3.dsc
+ 187e025a5d51219810123575b32aa0b40037709a073a775bc3e5a65aa6d6a66e 2902019 libprelude_5.2.0.orig.tar.gz
+ 73499503e1455385e09a86a221d6babf100ceee28a2fe9c25022eaf099bdc52e 163 libprelude_5.2.0.orig.tar.gz.asc
+ f78241824ecf188a588b3253376781be8464041efe839c8e4a3f57e2d29b6edb 26708 libprelude_5.2.0-3.debian.tar.xz
+Homepage: https://www.prelude-siem.org/
+Package-List: 
+ libprelude-dev deb libdevel optional arch=any
+ libprelude-doc deb doc optional arch=all
+ libprelude-lua deb interpreters optional arch=any profile=!nolua
+ libprelude-perl deb perl optional arch=any profile=!noperl
+ libprelude28 deb libs optional arch=any
+ libpreludecpp12 deb libs optional arch=any
+ prelude-utils deb utils optional arch=any
+ python3-prelude deb python optional arch=any profile=!nopython
+ ruby-libprelude deb ruby optional arch=any profile=!noruby
+Directory: pool/main/libp/libprelude
+Priority: source
+Section: devel

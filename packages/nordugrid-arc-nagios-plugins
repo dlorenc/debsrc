@@ -1,0 +1,27 @@
+Package: nordugrid-arc-nagios-plugins
+Binary: nordugrid-arc-nagios-plugins, nordugrid-arc-nagios-plugins-doc, nordugrid-arc-nagios-plugins-egi
+Version: 2.0.0-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Uploaders: Anders Waananen <waananen@nbi.dk>
+Build-Depends: debhelper (>= 10), python3, python3-setuptools, python3-cryptography, python3-jinja2, python3-ldap3, python3-sphinx, dh-python
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ fa50f4708aa977ba0dc8763795fa32d0 2378 nordugrid-arc-nagios-plugins_2.0.0-1.dsc
+ c1d40f6f9048c036ad219748260c0e60 147861 nordugrid-arc-nagios-plugins_2.0.0.orig.tar.gz
+ 768253334f891c07238172af0fa0ac7b 2760 nordugrid-arc-nagios-plugins_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/nordugrid-arc-nagios-plugins
+Vcs-Git: https://salsa.debian.org/ellert/nordugrid-arc-nagios-plugins.git
+Checksums-Sha256:
+ ec643df357907e4b708423170e4bd7298bc6093828287d5cef197b529e8a1278 2378 nordugrid-arc-nagios-plugins_2.0.0-1.dsc
+ b62cbea51c5a69530800c1402f0a025b7ed891667089ed6a1708b6935c38df15 147861 nordugrid-arc-nagios-plugins_2.0.0.orig.tar.gz
+ ac661c2e05cf23168aa190dc4d348b9d147e0ad6d4db28b2b235e29c4d748b23 2760 nordugrid-arc-nagios-plugins_2.0.0-1.debian.tar.xz
+Homepage: http://www.nordugrid.org
+Package-List: 
+ nordugrid-arc-nagios-plugins deb net optional arch=all
+ nordugrid-arc-nagios-plugins-doc deb doc optional arch=all
+ nordugrid-arc-nagios-plugins-egi deb net optional arch=all
+Directory: pool/main/n/nordugrid-arc-nagios-plugins
+Priority: optional
+Section: misc

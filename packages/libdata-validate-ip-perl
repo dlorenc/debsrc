@@ -1,0 +1,28 @@
+Package: libdata-validate-ip-perl
+Binary: libdata-validate-ip-perl
+Version: 0.30-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libnet-ipv6addr-perl <!nocheck>, libnet-netmask-perl <!nocheck>, libnetaddr-ip-perl <!nocheck>, libtest-requires-perl <!nocheck>, libtest-taint-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f8a8f19dfa57827f2468a353fde29ab7 2628 libdata-validate-ip-perl_0.30-1.dsc
+ 1302d60a6a0670b4105c9b7478a37992 41761 libdata-validate-ip-perl_0.30.orig.tar.gz
+ 949dce21258f894b53bf591dc1e509ed 3448 libdata-validate-ip-perl_0.30-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdata-validate-ip-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdata-validate-ip-perl.git
+Checksums-Sha256:
+ ccb6acfebbe2b34f0337012d4f9fccdb9fba9ed89dec643d9de31aa769502289 2628 libdata-validate-ip-perl_0.30-1.dsc
+ fe2f7663e18b70d5510529c22f45fdd2bbdb4a5adb26d65c9050c5b9696e8a1c 41761 libdata-validate-ip-perl_0.30.orig.tar.gz
+ ffb54f9158a031789bb943d2e9927bf0c32684b6b9345c8b8584dd85a69a8596 3448 libdata-validate-ip-perl_0.30-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Data-Validate-IP
+Dgit: e3cc436ee57c8cfc4afad7233291ca6ccac8f8be debian archive/debian/0.30-1 https://git.dgit.debian.org/libdata-validate-ip-perl
+Package-List: 
+ libdata-validate-ip-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libd/libdata-validate-ip-perl
+Priority: source
+Section: perl

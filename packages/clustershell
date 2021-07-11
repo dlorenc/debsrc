@@ -1,0 +1,26 @@
+Package: clustershell
+Binary: python3-clustershell, clustershell
+Version: 1.8.3-1
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Stéphan Gorget <phantez@gmail.com>
+Build-Depends: debhelper-compat (= 12), python3-all (>= 3.4), python3-setuptools, dh-python
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 3d0ff7bcb67d3d96a1d9994265fde722 2155 clustershell_1.8.3-1.dsc
+ bca9fa806596a9b022b85de18a9566c2 377197 clustershell_1.8.3.orig.tar.gz
+ 9f960e509a1ae20e9ec071f60d3dd691 3728 clustershell_1.8.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/clustershell
+Vcs-Git: https://salsa.debian.org/python-team/applications/clustershell.git
+Checksums-Sha256:
+ c1f73d1bc5f57456f7f72fdf4d5c9030737444fab1bbd50ec0fc11448aadeba8 2155 clustershell_1.8.3-1.dsc
+ 0ebc1925c1aed94f99d74cbc0230215127ade80a25240133204094faa74bc41b 377197 clustershell_1.8.3.orig.tar.gz
+ 5ad42ca7afd0131d90d94ac336b570104028ee90ab87e57ac4b1fdf04b12cb73 3728 clustershell_1.8.3-1.debian.tar.xz
+Homepage: https://cea-hpc.github.com/clustershell/
+Package-List: 
+ clustershell deb net optional arch=all
+ python3-clustershell deb python optional arch=all
+Directory: pool/main/c/clustershell
+Priority: source
+Section: net

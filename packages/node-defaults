@@ -1,0 +1,26 @@
+Package: node-defaults
+Binary: node-defaults
+Version: 1.0.3-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Suhail P <psuhailp@gmail.com>
+Build-Depends: debhelper-compat (= 12), node-clone <!nocheck>, node-tap <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 08d2a27c7c6913480dc1528611cbdcb8 2067 node-defaults_1.0.3-2.dsc
+ 7adcbc216434a52785c670e768c927bf 2129 node-defaults_1.0.3.orig.tar.gz
+ 25899d4c2cd52dc5a28e332ab4d8efaa 2544 node-defaults_1.0.3-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-defaults
+Vcs-Git: https://salsa.debian.org/js-team/node-defaults.git
+Checksums-Sha256:
+ bec6cd89e57f5cd3df21a2fe1f48330bda5b19eebb308c7442f7e28d232665fb 2067 node-defaults_1.0.3-2.dsc
+ 7b24f7dc187c1b777852b9dcecf449c8a1a8dceeaa51717e4cc86344a881c1fc 2129 node-defaults_1.0.3.orig.tar.gz
+ 1221e231a208c63352970de1bbc74d33abc91e50b23d7cd808e76aa10e240fa0 2544 node-defaults_1.0.3-2.debian.tar.xz
+Homepage: https://github.com/tmpvar/defaults
+Package-List: 
+ node-defaults deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-defaults
+Priority: optional
+Section: javascript

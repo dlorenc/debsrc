@@ -1,0 +1,26 @@
+Package: node-stable
+Binary: node-stable
+Version: 0.1.8-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 12), node-tape <!nocheck>, nodejs (>= 6), npm, pkg-js-tools (>= 0.8.10), rollup, uglifyjs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3110f152cf06a55ff6abfc5e669a4081 2094 node-stable_0.1.8-2.dsc
+ 41fb698e942c6701d0ed23365c1018c5 4004 node-stable_0.1.8.orig.tar.xz
+ c69efd591de76b70af8ef37bd859aa52 2100 node-stable_0.1.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-stable
+Vcs-Git: https://salsa.debian.org/js-team/node-stable.git
+Checksums-Sha256:
+ bd297577fa770d5d096fbd8ffc74cb577e564f38145badcfce735aa215bac64a 2094 node-stable_0.1.8-2.dsc
+ e5923477eda7fb99a1b20c5abf40e71572bb8c683fc4241dc2825a24aa6bc9dd 4004 node-stable_0.1.8.orig.tar.xz
+ 9fe5bc8949795192ac4a96c8a39e1d1cc5656845f9bdf2f1da99f77e1f1d6920 2100 node-stable_0.1.8-2.debian.tar.xz
+Homepage: https://github.com/Two-Screen/stable
+Package-List: 
+ node-stable deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-stable
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-path-slash
+Binary: librust-path-slash-dev
+Version: 0.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ cfe84fa581d00ad4036746dfcfd5958d 2172 rust-path-slash_0.1.1-1.dsc
+ 6e995e07d945084d3636271a6db3ec67 5443 rust-path-slash_0.1.1.orig.tar.gz
+ dea16207c8f639244d2adc5a7392a02d 2488 rust-path-slash_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/path-slash
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/path-slash]
+Checksums-Sha256:
+ 81aea87f7c1ba8d529a5f689d7bdad7239293eab26a40b480c9d9d159bacefc7 2172 rust-path-slash_0.1.1-1.dsc
+ a0858af4d9136275541f4eac7be1af70add84cf356d901799b065ac1b8ff6e2f 5443 rust-path-slash_0.1.1.orig.tar.gz
+ 278fc6152837842908a3602c599fa0e508c4c5f3a778fe06a3fb7607467604b0 2488 rust-path-slash_0.1.1-1.debian.tar.xz
+Package-List: 
+ librust-path-slash-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-lazy-static-1+default-dev
+Directory: pool/main/r/rust-path-slash
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-check-error
+Binary: node-check-error
+Version: 1.0.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-assertion-error <!nocheck>, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e32f41ab5154721725e3a9650457f7f1 2138 node-check-error_1.0.2-3.dsc
+ 6e13f57e326c8270e524b2be49057d62 9100 node-check-error_1.0.2.orig.tar.gz
+ 78a455bfcbec307d5ff61851e9fdfcfe 3940 node-check-error_1.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-check-error
+Vcs-Git: https://salsa.debian.org/js-team/node-check-error.git
+Checksums-Sha256:
+ 8efbc83de0f81813873e3e4aed1d54ab202ff4dda74dd65c7a0b302bfa90e0e4 2138 node-check-error_1.0.2-3.dsc
+ 59d3bc279e17b2b7f4c531c52553e30a0231be0e006fe0c8dd21a4fe1de5c21f 9100 node-check-error_1.0.2.orig.tar.gz
+ 1fb7e204b2ff84e1085992f66773103b3a0c07e8332d43fcf9955dd586bef77c 3940 node-check-error_1.0.2-3.debian.tar.xz
+Homepage: https://github.com/chaijs/check-error
+Package-List: 
+ node-check-error deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-check-error
+Priority: extra
+Section: javascript

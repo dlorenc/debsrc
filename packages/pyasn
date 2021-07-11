@@ -1,0 +1,27 @@
+Package: pyasn
+Binary: python3-pyasn
+Version: 1.6.1-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-coverage, python3-nose, python3-setuptools
+Architecture: any
+Standards-Version: 4.5.0.3
+Format: 3.0 (quilt)
+Files:
+ 7260ca1232c1446c7d17008c6fd49cd0 1714 pyasn_1.6.1-2.dsc
+ acb3057a767b48d0cc7ad626174dadd8 11823216 pyasn_1.6.1.orig.tar.gz
+ d07bc65d511e044ac01c385deb56b319 4324 pyasn_1.6.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyasn
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyasn.git
+Checksums-Sha256:
+ 65ea35dd18695f92d0afe515bcf2ddb32e395b6f5658bc3d940ab593ef6d119d 1714 pyasn_1.6.1-2.dsc
+ 1602ebdc9bb137fb2dbf285be419cfe95fe3e9a067eb61dd2611d6154d213039 11823216 pyasn_1.6.1.orig.tar.gz
+ 91a34fe25ada3509648742f41b5528527fd9c05318772b26124a634451be8257 4324 pyasn_1.6.1-2.debian.tar.xz
+Homepage: https://github.com/hadiasghari/pyasn
+Package-List: 
+ python3-pyasn deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/pyasn
+Priority: extra
+Section: misc

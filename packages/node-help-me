@@ -1,0 +1,26 @@
+Package: node-help-me
+Binary: node-help-me
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper-compat (= 12), node-concat-stream <!nocheck>, node-xtend <!nocheck>, node-through2 (>= 2.0.1) <!nocheck>, node-callback-stream <!nocheck>, node-glob-stream (>= 6.1.0) <!nocheck>, node-tap <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 196f34285aa867b68c62f0a0acc9ecdd 2264 node-help-me_2.0.0-1.dsc
+ de0cfcbf73c0a7b07d1abce6065d2188 3573 node-help-me_2.0.0.orig.tar.gz
+ 88b2594888e94da532d977bb4eada5c2 3048 node-help-me_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-help-me
+Vcs-Git: https://salsa.debian.org/js-team/node-help-me.git
+Checksums-Sha256:
+ 3c82dd0dd320d767a384ec15c6938d2b9afc2a4dde7fb0bbe0bbb2885d75d433 2264 node-help-me_2.0.0-1.dsc
+ 74d882a1a9e77c8af0408815ff478f79524913f79461d66b2e05201aa4cec5d3 3573 node-help-me_2.0.0.orig.tar.gz
+ fb18410349acd48a4fad54d101d1b549d346dcfbfed10ea9ce9dde64d672ccb6 3048 node-help-me_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/mcollina/help-me
+Package-List: 
+ node-help-me deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-help-me
+Priority: extra
+Section: javascript

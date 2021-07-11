@@ -1,0 +1,28 @@
+Package: chake
+Binary: chake
+Version: 0.81.1-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ronn, ruby, ruby-rspec, ruby-simplecov
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e9621d08e4aac164271f2e2ecc21e52c 2038 chake_0.81.1-1.dsc
+ 25be3ca91d25d6c0f27f47840031bc3a 27264 chake_0.81.1.orig.tar.gz
+ c3c1c520ed48ed04b23397e45fa9f477 3852 chake_0.81.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/chake
+Vcs-Git: https://salsa.debian.org/ruby-team/chake.git
+Checksums-Sha256:
+ 29fd3cad660f037b65802f66b303f192896f30bb5140f1ff5c64653d6dca92f6 2038 chake_0.81.1-1.dsc
+ e7e677830c3f727c2ed1f46fa1a74dc06b8c30dc514d57af75349a64c40a3348 27264 chake_0.81.1.orig.tar.gz
+ 5a13bdf3b398ac9749efe3f91a47c80b977dfeaef5d034a24405493cb268350a 3852 chake_0.81.1-1.debian.tar.xz
+Homepage: https://gitlab.com/terceiro/chake
+Package-List: 
+ chake deb admin optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Testsuite-Triggers: itamae
+Directory: pool/main/c/chake
+Priority: optional
+Section: admin

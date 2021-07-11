@@ -1,0 +1,27 @@
+Package: rust-gobject-sys
+Binary: librust-gobject-sys-dev
+Version: 0.9.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 1bd0b971399fc655110a862cd515f142 2432 rust-gobject-sys_0.9.0-2.dsc
+ ceb4f25c39367dcfb95ae591539214ac 17639 rust-gobject-sys_0.9.0.orig.tar.gz
+ 568538b1196475de5e0e3c0acec0e873 2732 rust-gobject-sys_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gobject-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gobject-sys]
+Checksums-Sha256:
+ 1c9890488e8a6e7d8ae6345b4a1642775471715bc63c07af6fe232aee87ed96e 2432 rust-gobject-sys_0.9.0-2.dsc
+ 61d55bc9202447ca776f6ad0048c36e3312010f66f82ab478e97513e93f3604b 17639 rust-gobject-sys_0.9.0.orig.tar.gz
+ c2b584729adbc19c13e09a973928fb2f63de0c943664f57a3d33d52158a495be 2732 rust-gobject-sys_0.9.0-2.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-gobject-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-shell-words-0.1+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-gobject-sys
+Priority: extra
+Section: misc

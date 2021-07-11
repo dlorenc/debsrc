@@ -1,0 +1,27 @@
+Package: liac-arff
+Binary: python3-liac-arff
+Version: 2.5.0-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Christian Kastner <ckk@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-mock <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 219f6a2a9f1b76b6f0ac3494ec3d9812 2079 liac-arff_2.5.0-1.dsc
+ 99f7d89316cb49b2ac7ada7e2f266fef 32293 liac-arff_2.5.0.orig.tar.gz
+ 40df8a1815ce2814adc3b6883acaddfe 2472 liac-arff_2.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/liac-arff
+Vcs-Git: https://salsa.debian.org/science-team/liac-arff.git
+Checksums-Sha256:
+ cbffd248447a1ad817a69ef329fe0e374ae8ae5cf2037d9f99aec41f85a7209f 2079 liac-arff_2.5.0-1.dsc
+ 8eac33e68be1bcd849162c57e0631cff70fef408a04657a78a9bf116db52383b 32293 liac-arff_2.5.0.orig.tar.gz
+ bffe037cd46ed65f54619af64d3660a8db3f4f913b2502ebf77b62336149568c 2472 liac-arff_2.5.0-1.debian.tar.xz
+Homepage: https://github.com/renatopp/liac-arff
+Package-List: 
+ python3-liac-arff deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-mock
+Directory: pool/main/l/liac-arff
+Priority: extra
+Section: misc

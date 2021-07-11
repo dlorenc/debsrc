@@ -1,0 +1,27 @@
+Package: ruby-blade
+Binary: ruby-blade
+Version: 0.7.1-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper (>= 11~), gem2deb, rake, ruby-activesupport (>= 3.0.0), ruby-blade-qunit-adapter (>= 2.0.1), ruby-bundler, ruby-coffee-script, ruby-coffee-script-source, ruby-curses, ruby-eventmachine, ruby-faye, ruby-rspec-core, ruby-sprockets (>= 3.0), ruby-thor (>= 0.19.1), ruby-useragent (>= 0.16.7), thin (>= 1.6.0)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d4c58ab326903089dddc4aa8f13385e6 2290 ruby-blade_0.7.1-2.dsc
+ 6676384ce4c08705f5830e58f0b63f40 10388 ruby-blade_0.7.1.orig.tar.gz
+ 112c1ef81ca1aac7e0a49068b6647ad6 2872 ruby-blade_0.7.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-blade
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-blade.git
+Checksums-Sha256:
+ 1b94f75d42e1de035f32516c641db6cc0ef050ae3102162b74db1b0005868718 2290 ruby-blade_0.7.1-2.dsc
+ d46b19acc42088519e1c12fd1455b4c7b8820d4e99007c6a6c434df305ba848f 10388 ruby-blade_0.7.1.orig.tar.gz
+ ef67de61334626e54f5feeac01fe7d361255baac3289195fd80ac59e1a0305e8 2872 ruby-blade_0.7.1-2.debian.tar.xz
+Homepage: https://github.com/javan/blade
+Package-List: 
+ ruby-blade deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-blade
+Priority: extra
+Section: misc

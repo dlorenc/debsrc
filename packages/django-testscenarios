@@ -1,0 +1,27 @@
+Package: django-testscenarios
+Binary: python3-django-testscenarios
+Version: 0.10-2
+Maintainer: Debian LAVA team <pkg-linaro-lava-devel@lists.alioth.debian.org>
+Uploaders: Neil Williams <codehelp@debian.org>, Senthil Kumaran S (stylesen) <stylesen@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), dh-python, python3-all, python3-setuptools, python3-django, python3-testtools, python3-mimeparse, python3-testscenarios, python3-django-testproject
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ bbb83901d2803dc60064dbd2eea8e74d 2291 django-testscenarios_0.10-2.dsc
+ 8dd21f622b69ba516fa1cb53f9c80072 9335 django-testscenarios_0.10.orig.tar.gz
+ 33e106910a8fedc5d143921a120e1d04 3020 django-testscenarios_0.10-2.debian.tar.xz
+Vcs-Browser: https://github.com/Linaro/pkg-django-testscenarios
+Vcs-Git: https://github.com/Linaro/pkg-django-testscenarios.git
+Checksums-Sha256:
+ f4a5f38013f59c9368d1f11635071421f4a7924905600b14f63a5458cd967b29 2291 django-testscenarios_0.10-2.dsc
+ 03a6e54d97daa9690f5bd1894d73d99ef829b09771a1551d92e124c1a6e43da6 9335 django-testscenarios_0.10.orig.tar.gz
+ d06e0a2f9d44837f9d760a4b7c2673756e427b3aa1e987ede5b621c2020e1654 3020 django-testscenarios_0.10-2.debian.tar.xz
+Homepage: http://www.linaro.org/engineering/validation
+Package-List: 
+ python3-django-testscenarios deb net optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/d/django-testscenarios
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: hylafax
+Binary: hylafax-server, hylafax-client, hylafax-server-dbg, hylafax-client-dbg
+Version: 3:6.0.7-3.1
+Maintainer: Giuseppe Sacco <eppesuig@debian.org>
+Uploaders: Joachim Wiedorn <joodebian@joonet.de>
+Build-Depends: debhelper (>= 11), autotools-dev, libjbig-dev, libtiff5-dev (>= 4.0.1-3), libtiff-tools (>= 4.0.1-3), zlib1g-dev (>= 0.95), ed, libpam-dev | libpam0g-dev, gsfonts, ghostscript, dpkg (>= 1.14.6), init-system-helpers (>= 1.51)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4f956cd89a421346db0d3797dc1f6f92 2197 hylafax_6.0.7-3.1.dsc
+ 7602e98b882fa61a0722109c2706d1f1 1309111 hylafax_6.0.7.orig.tar.gz
+ 4f58362d0ffa6a47874eda776f16bcab 66120 hylafax_6.0.7-3.1.debian.tar.xz
+Vcs-Git: git://git.hylafax.org/HylaFAX
+Checksums-Sha256:
+ 4d40e1af063615325bdd81a6301dd1804eeeb8f9d99a1fa8ab9d9ee3c53d9eb5 2197 hylafax_6.0.7-3.1.dsc
+ a3dcb1a7fd8794bd33cea9a9414c32da100119dd2131bd08ab3ab3749fc30315 1309111 hylafax_6.0.7.orig.tar.gz
+ 227d13881526c60b9bd1fcb00851cfcc30eab691f332a2b11f98b4eca4a0f75c 66120 hylafax_6.0.7-3.1.debian.tar.xz
+Homepage: http://www.hylafax.org
+Package-List: 
+ hylafax-client deb comm extra arch=any
+ hylafax-client-dbg deb debug extra arch=any
+ hylafax-server deb comm extra arch=any
+ hylafax-server-dbg deb debug extra arch=any
+Directory: pool/main/h/hylafax
+Priority: source
+Section: comm

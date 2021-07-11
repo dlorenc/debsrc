@@ -1,0 +1,28 @@
+Package: librt-client-rest-perl
+Binary: librt-client-rest-perl
+Version: 1:0.60-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl, perl
+Build-Depends-Indep: libcgi-pm-perl <!nocheck>, libdatetime-format-dateparse-perl <!nocheck>, libdatetime-perl <!nocheck>, liberror-perl <!nocheck>, libexception-class-perl <!nocheck>, libhttp-server-simple-perl <!nocheck>, libparams-validate-perl <!nocheck>, libtest-exception-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>, netbase <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c2cd41ce1c54635ef941cdb862c28693 2775 librt-client-rest-perl_0.60-1.dsc
+ 1269ddcfd110f94baea5c73b4470459d 81651 librt-client-rest-perl_0.60.orig.tar.gz
+ 7ce711210973835737b163829b9a6fd0 3452 librt-client-rest-perl_0.60-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/librt-client-rest-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/librt-client-rest-perl.git
+Checksums-Sha256:
+ 390cf092a14364318df5f0b2d9529fa879400477651aec9fbd94e42449c58c41 2775 librt-client-rest-perl_0.60-1.dsc
+ 0e6f2da3d96903491b43b19c61221cbeea88414264f907312f277daaf144248b 81651 librt-client-rest-perl_0.60.orig.tar.gz
+ c71347bdbcc7f66480e3a41f3047896c9677b72b89d1edc588fd38eede909fc8 3452 librt-client-rest-perl_0.60-1.debian.tar.xz
+Homepage: https://metacpan.org/release/RT-Client-REST
+Dgit: 7b33cfe792b4ed3bce7c13781777d29608a3770c debian archive/debian/1%0.60-1 https://git.dgit.debian.org/librt-client-rest-perl
+Package-List: 
+ librt-client-rest-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libr/librt-client-rest-perl
+Priority: source
+Section: perl

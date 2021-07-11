@@ -1,0 +1,28 @@
+Package: libcgi-application-server-perl
+Binary: libcgi-application-server-perl
+Version: 0.063-4
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 13), perl
+Build-Depends-Indep: libcgi-application-basic-plugin-bundle-perl <!nocheck>, libcgi-application-dispatch-perl <!nocheck>, libcgi-application-perl <!nocheck>, libcgi-pm-perl <!nocheck>, libhttp-message-perl <!nocheck>, libhttp-server-simple-perl <!nocheck>, libhttp-server-simple-static-perl <!nocheck>, libio-capture-perl <!nocheck>, libio-socket-ip-perl (>= 0.39-3~) <!nocheck>, libtest-exception-perl <!nocheck>, libtest-http-server-simple-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-simple-perl <!nocheck>, libtest-www-mechanize-perl <!nocheck>, libwww-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d49c9b1d5127ccdc1f580cdf074d1058 3158 libcgi-application-server-perl_0.063-4.dsc
+ 7b3cb82aebd07620597048d0cd61b2e7 18861 libcgi-application-server-perl_0.063.orig.tar.gz
+ a1dfd3b227c12b16017d28d1a36cee17 3904 libcgi-application-server-perl_0.063-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcgi-application-server-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcgi-application-server-perl.git
+Checksums-Sha256:
+ bdc1d5a25a660ffaad0837b71f4edaf3b23172a5254525d843fd18c460103b20 3158 libcgi-application-server-perl_0.063-4.dsc
+ 90c4f750f2117394dc800573c0a6a686fdb22d1f8fb9be112192bcef07be3f0e 18861 libcgi-application-server-perl_0.063.orig.tar.gz
+ 2a9b804d01c36da4f74804c66866bf58ecc322f96e092306bb0bdbd7a6f2955f 3904 libcgi-application-server-perl_0.063-4.debian.tar.xz
+Homepage: https://metacpan.org/release/CGI-Application-Server
+Dgit: fed6491a9ffaaee1d23716cfb3cb8018a2eb3aa8 debian archive/debian/0.063-4 https://git.dgit.debian.org/libcgi-application-server-perl
+Package-List: 
+ libcgi-application-server-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcgi-application-server-perl
+Priority: source
+Section: perl

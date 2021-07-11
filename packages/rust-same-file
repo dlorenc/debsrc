@@ -1,0 +1,27 @@
+Package: rust-same-file
+Binary: librust-same-file-dev
+Version: 1.0.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-winapi-util-0.1+default-dev (>= 0.1.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 79e862b6bb82be7879193b8b72d6b252 2278 rust-same-file_1.0.6-1.dsc
+ 2d8d8b377d144f5e32b4f65a69eb0b24 10183 rust-same-file_1.0.6.orig.tar.gz
+ e7d3770e4dd5afd20243a05a1fa9a2d0 3056 rust-same-file_1.0.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/same-file
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/same-file]
+Checksums-Sha256:
+ aaddba691f41a7b95692ef7e444fc91e59af2e7849dfc0c48bdb7d88aa21e78a 2278 rust-same-file_1.0.6-1.dsc
+ 93fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502 10183 rust-same-file_1.0.6.orig.tar.gz
+ d3ba55beef6d76bafc4e04441ab2e172e891bce4d73c311f753518255123db49 3056 rust-same-file_1.0.6-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/same-file
+Package-List: 
+ librust-same-file-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-doc-comment-0.3+default-dev
+Directory: pool/main/r/rust-same-file
+Priority: extra
+Section: misc

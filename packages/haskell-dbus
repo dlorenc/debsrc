@@ -1,0 +1,28 @@
+Package: haskell-dbus
+Binary: libghc-dbus-dev, libghc-dbus-prof, libghc-dbus-doc
+Version: 1.2.16-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: John Millikin <jmillikin@gmail.com>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-cereal-dev (<< 0.6), libghc-cereal-prof, libghc-conduit-dev (>= 1.3.0), libghc-conduit-dev (<< 1.4), libghc-conduit-prof, libghc-exceptions-dev (<< 0.11), libghc-exceptions-prof, libghc-lens-dev (<< 4.20), libghc-lens-prof, libghc-network-dev (>= 3.0.1.0), libghc-network-dev (<< 3.2), libghc-network-prof, libghc-random-dev (<< 1.3), libghc-random-prof, libghc-split-dev (<< 0.3), libghc-split-prof, libghc-th-lift-dev (<< 0.9), libghc-th-lift-prof, libghc-vector-dev (<< 0.13), libghc-vector-prof, libghc-xml-conduit-dev (>= 1.9.0.0), libghc-xml-conduit-dev (<< 1.10.0.0), libghc-xml-conduit-prof, libghc-xml-types-dev (<< 0.4), libghc-xml-types-prof
+Build-Depends-Indep: ghc-doc, libghc-cereal-doc, libghc-conduit-doc, libghc-exceptions-doc, libghc-lens-doc, libghc-network-doc, libghc-random-doc, libghc-split-doc, libghc-th-lift-doc, libghc-vector-doc, libghc-xml-conduit-doc, libghc-xml-types-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 86b888b8c663297502ba66922e41e596 3157 haskell-dbus_1.2.16-1.dsc
+ d281c2fee93b81977a51c144762e7cff 78086 haskell-dbus_1.2.16.orig.tar.gz
+ 1e003cf8c28d0310c4290bc40d8b6e2c 3108 haskell-dbus_1.2.16-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-dbus
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-dbus]
+Checksums-Sha256:
+ 59946e112ab7ded39c3ddeefb0dfd1d50f5af60ece01ac1159a65ef68cc017d0 3157 haskell-dbus_1.2.16-1.dsc
+ 2cf920353c8f889e73dc90af04f1cd7404d50bc92dd225275b8bdb0329ed7f80 78086 haskell-dbus_1.2.16.orig.tar.gz
+ dfacbe4c35b1b05aa1af3c1155a129a1c6b8a3ae8503f8a98e52d990c6c45af2 3108 haskell-dbus_1.2.16-1.debian.tar.xz
+Homepage: https://github.com/rblaze/haskell-dbus#readme
+Package-List: 
+ libghc-dbus-dev deb haskell optional arch=any
+ libghc-dbus-doc deb doc optional arch=all
+ libghc-dbus-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-dbus
+Priority: source
+Section: haskell

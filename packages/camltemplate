@@ -1,0 +1,26 @@
+Package: camltemplate
+Binary: libcamltemplate-ocaml-dev, libcamltemplate-ocaml
+Version: 1.0.2-3
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Build-Depends: ocaml-nox (>= 3.11.1-3~), ocaml-findlib, dh-ocaml (>= 0.9~), debhelper (>= 10)
+Architecture: any
+Standards-Version: 4.0.1
+Format: 3.0 (quilt)
+Files:
+ 5abf25b243856665d0ff39e9863ae5ae 1861 camltemplate_1.0.2-3.dsc
+ b2fec2070e2480d80752251953be1bd1 162844 camltemplate_1.0.2.orig.tar.gz
+ df32ecdaa60afb57bc39c1ff560d667e 3768 camltemplate_1.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/camltemplate
+Vcs-Git: https://salsa.debian.org/ocaml-team/camltemplate.git
+Checksums-Sha256:
+ 81882f4023565d4fe7fb2bd23ba15649599cf7d76cf51523b9ff9cceaae6adf9 1861 camltemplate_1.0.2-3.dsc
+ 0f9d0c0aa56a1091f142683484c864e8f31b47aa93fec690b3976a6920a191d5 162844 camltemplate_1.0.2.orig.tar.gz
+ 9a3a0316aca3caf000c4ccd08ac8dc1175371d60a05e338e4f8de913bb4b0673 3768 camltemplate_1.0.2-3.debian.tar.xz
+Homepage: http://camltemplate.forge.ocamlcore.org/
+Dgit: 03f8f291c4283fb196649517fd784ffeb6511a26 debian archive/debian/1.0.2-3 https://git.dgit.debian.org/camltemplate
+Package-List: 
+ libcamltemplate-ocaml deb ocaml optional arch=any
+ libcamltemplate-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/c/camltemplate
+Priority: source
+Section: ocaml

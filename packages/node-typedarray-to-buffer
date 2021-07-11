@@ -1,0 +1,27 @@
+Package: node-typedarray-to-buffer
+Binary: libjs-typedarray-to-buffer, node-typedarray-to-buffer
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), uglifyjs, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fafc7491dc9e3d026d0c8ab142f68d5a 2294 node-typedarray-to-buffer_4.0.0-1.dsc
+ c76ea2804f0d7d9d1b6f6a2dca084696 3817 node-typedarray-to-buffer_4.0.0.orig.tar.gz
+ 4a453e928c84f16d6467369c9fde7939 3176 node-typedarray-to-buffer_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-typedarray-to-buffer/tree/debian/sid
+Vcs-Git: https://salsa.debian.org/js-team/node-typedarray-to-buffer.git -b debian/sid
+Checksums-Sha256:
+ 20d5af1b9d6e2568a7c207c8d18871be4c8b5d2cbd14636af6259fcc3d40f74b 2294 node-typedarray-to-buffer_4.0.0-1.dsc
+ f799da7a4da102df57d147fb36ff8312cbb63451aa0958501017dc516d8a6280 3817 node-typedarray-to-buffer_4.0.0.orig.tar.gz
+ d78766784dc630f0f9b516bd3cd08bb6a0c493a50f4d0b2815c5dae300c70658 3176 node-typedarray-to-buffer_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/feross/typedarray-to-buffer
+Package-List: 
+ libjs-typedarray-to-buffer deb javascript optional arch=all
+ node-typedarray-to-buffer deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-typedarray-to-buffer
+Priority: optional
+Section: javascript

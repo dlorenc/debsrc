@@ -1,0 +1,27 @@
+Package: chipmunk
+Binary: libchipmunk-dev, libchipmunk7, chipmunk-dev
+Version: 7.0.3-3
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Miriam Ruiz <little_miry@yahoo.es>, Barry deFreese <bdefreese@debian.org>, Andrew Kelley <superjoe30@gmail.com>, Stephen Kitt <skitt@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, libgl1-mesa-dev | libgl-dev, libxrandr-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 17bcdca906b0192ee3d937978c991501 2192 chipmunk_7.0.3-3.dsc
+ 6c673b60283a11c468ef8091b0e81b11 514376 chipmunk_7.0.3.orig.tar.gz
+ 8c65f285029b23fca3960f2a54e919fe 6916 chipmunk_7.0.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/chipmunk
+Vcs-Git: https://salsa.debian.org/games-team/chipmunk.git
+Checksums-Sha256:
+ 3ea1283af8276ff3dff19f4cb01ff263fe9cbd71621cb78db0755ef25d3f7981 2192 chipmunk_7.0.3-3.dsc
+ 1e6f093812d6130e45bdf4cb80280cb3c93d1e1833d8cf989d554d7963b7899a 514376 chipmunk_7.0.3.orig.tar.gz
+ ed186309bb3021ae737bedd02ee057043b9da294119db657941fa2d793729db2 6916 chipmunk_7.0.3-3.debian.tar.xz
+Homepage: https://chipmunk-physics.net/
+Package-List: 
+ chipmunk-dev deb oldlibs optional arch=all
+ libchipmunk-dev deb libdevel optional arch=any
+ libchipmunk7 deb libs optional arch=any
+Directory: pool/main/c/chipmunk
+Priority: source
+Section: libs

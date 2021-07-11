@@ -1,0 +1,25 @@
+Package: snapcast
+Binary: snapclient, snapserver
+Version: 0.23.0+dfsg1-1
+Maintainer: Felix Geyer <fgeyer@debian.org>
+Build-Depends: debhelper-compat (= 12), libasound2-dev, libvorbis-dev, libflac-dev, libavahi-client-dev, libboost-dev (>= 1.70) | libboost1.71-dev, libopus-dev, libexpat1-dev, libsoxr-dev, libpulse-dev, cmake
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 7f467f0f6c7a33b7e0f0e09c830a87af 2095 snapcast_0.23.0+dfsg1-1.dsc
+ a068db3ea85143b16fb941f83bf343d6 893412 snapcast_0.23.0+dfsg1.orig.tar.xz
+ 31ce0260c14a2efc62793c20e711df84 6224 snapcast_0.23.0+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/snapcast
+Vcs-Git: https://salsa.debian.org/debian/snapcast.git
+Checksums-Sha256:
+ cb1b74086fb39ffc0545090eaa4120f63c237ccbb5c547be85930a39d722ed6f 2095 snapcast_0.23.0+dfsg1-1.dsc
+ 287161ed1551efaf0dda6aab8381b1b3a2b6f4ac1d2c0cd4c39e35fffbb18585 893412 snapcast_0.23.0+dfsg1.orig.tar.xz
+ 169a0a72272ddd120d803d07b786e799ddefb83f37f804657a1b64288a5dfcec 6224 snapcast_0.23.0+dfsg1-1.debian.tar.xz
+Homepage: https://github.com/badaix/snapcast
+Package-List: 
+ snapclient deb sound optional arch=any
+ snapserver deb sound optional arch=any
+Directory: pool/main/s/snapcast
+Priority: extra
+Section: misc

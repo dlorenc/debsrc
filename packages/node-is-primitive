@@ -1,0 +1,26 @@
+Package: node-is-primitive
+Binary: node-is-primitive
+Version: 3.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), mocha, node-should, pkg-js-tools (>= 0.9.35~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a58b4ab63e19f60ce94c44949622e01d 2103 node-is-primitive_3.0.1-1.dsc
+ 449b8c9b83335e4b137f04d1f5e80b68 6051 node-is-primitive_3.0.1.orig.tar.gz
+ 0ecd351bc81af129a628ee19fc95195e 2432 node-is-primitive_3.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-primitive
+Vcs-Git: https://salsa.debian.org/js-team/node-is-primitive.git
+Checksums-Sha256:
+ bbe1b67313e60986207aff5e68bb38b9c05b3a7e4efc98d2b91b57a5a09d5d96 2103 node-is-primitive_3.0.1-1.dsc
+ 3923a99a00161b15b69cb497b5b47c55364cf16699b3bfee0cd9e2612606b8c9 6051 node-is-primitive_3.0.1.orig.tar.gz
+ 7c498c220bee6af0eedf72c7babafe1d3f6c69b1f6613ac86940a61ba2bbd755 2432 node-is-primitive_3.0.1-1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/is-primitive
+Package-List: 
+ node-is-primitive deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-is-primitive
+Priority: optional
+Section: javascript

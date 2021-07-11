@@ -1,0 +1,28 @@
+Package: haskell-profunctors
+Binary: libghc-profunctors-dev, libghc-profunctors-prof, libghc-profunctors-doc
+Version: 5.5.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-base-orphans-dev (>= 0.4), libghc-base-orphans-dev (<< 0.9), libghc-base-orphans-prof, libghc-bifunctors-dev (<< 6), libghc-bifunctors-dev (>= 5.2), libghc-bifunctors-prof, libghc-comonad-dev (<< 6), libghc-comonad-dev (>= 4), libghc-comonad-prof, libghc-contravariant-dev (<< 2), libghc-contravariant-dev (>= 1), libghc-contravariant-prof, libghc-distributive-dev (<< 1), libghc-distributive-dev (>= 0.4.4), libghc-distributive-prof, libghc-tagged-dev (>= 0.4.4), libghc-tagged-dev (<< 1), libghc-tagged-prof
+Build-Depends-Indep: ghc-doc, libghc-base-orphans-doc, libghc-bifunctors-doc, libghc-comonad-doc, libghc-contravariant-doc, libghc-distributive-doc, libghc-tagged-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 2121a18f46973e4c6e7b6d62b8868627 3007 haskell-profunctors_5.5.2-1.dsc
+ 9c499bd44aac71da5cd91408679e882b 30041 haskell-profunctors_5.5.2.orig.tar.gz
+ 2bd778c59bc613f0caa4c3481e0c3fd7 3376 haskell-profunctors_5.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-profunctors
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-profunctors]
+Checksums-Sha256:
+ a5bc770e2764301644b3de797f66f6e4649293922d11a87f50921538c71f57c4 3007 haskell-profunctors_5.5.2-1.dsc
+ 5f1579aab8afae377c7c7c0d0ed95b0bc58003b6dad2d494045f7472a398af7c 30041 haskell-profunctors_5.5.2.orig.tar.gz
+ f9e12184c181d7340925f1f44010332986819ee1323647cd66d3421e4a43e302 3376 haskell-profunctors_5.5.2-1.debian.tar.xz
+Homepage: https://github.com/ekmett/profunctors/
+Package-List: 
+ libghc-profunctors-dev deb haskell optional arch=any
+ libghc-profunctors-doc deb doc optional arch=all
+ libghc-profunctors-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-profunctors
+Priority: source
+Section: misc

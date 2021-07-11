@@ -1,0 +1,26 @@
+Package: node-compressible
+Binary: node-compressible
+Version: 2.0.18-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, node-mime <!nocheck>, pkg-js-tools (>= 0.9.19~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cb663f0dddcdf9a9a4b23fe8f5745134 2120 node-compressible_2.0.18-1.dsc
+ 8fbf9ce3369a91c933c18f304a5562a0 5876 node-compressible_2.0.18.orig.tar.gz
+ 353773b212a3274d771dc38fdb45a2eb 3328 node-compressible_2.0.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-compressible
+Vcs-Git: https://salsa.debian.org/js-team/node-compressible.git
+Checksums-Sha256:
+ 336f8a7fe7ec4c2776c8fac4547a10c872dfa1935de61dee8f4ea62a5cf48e37 2120 node-compressible_2.0.18-1.dsc
+ 20a70c8afcff4b631a52184440806f1bf1dc8b191378234bbba2b856f7acd5dd 5876 node-compressible_2.0.18.orig.tar.gz
+ 2c54280594f61e09feee7b7a0761a8d10bd99b4164f77fd76af8acd918132ced 3328 node-compressible_2.0.18-1.debian.tar.xz
+Homepage: https://github.com/jshttp/compressible
+Package-List: 
+ node-compressible deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-compressible
+Priority: optional
+Section: javascript

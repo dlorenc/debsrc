@@ -1,0 +1,27 @@
+Package: golang-github-hlandau-xlog
+Binary: golang-github-hlandau-xlog-dev
+Version: 1.0.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Peter Colberg <peter@colberg.org>
+Build-Depends: debhelper (>= 11~), dh-golang (>= 1.10~), golang-any, golang-github-mattn-go-isatty-dev, golang-github-shiena-ansicolor-dev
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 7e9937f26e203b6543748ddddceec793 2278 golang-github-hlandau-xlog_1.0.0-2.dsc
+ d15021ff2511e28417c4c0891c15a595 6402 golang-github-hlandau-xlog_1.0.0.orig.tar.gz
+ 6f9a920896a53ef8e83f009265362f6f 3204 golang-github-hlandau-xlog_1.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hlandau-xlog
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hlandau-xlog.git
+Checksums-Sha256:
+ 04bfe48ee4e42a1d888e8251710a3d76d090b4771353411eb17b23fc1180427a 2278 golang-github-hlandau-xlog_1.0.0-2.dsc
+ 33b43c07e7e5016f8491545e80761bae6b95d0e30004069b45f3b8278583b896 6402 golang-github-hlandau-xlog_1.0.0.orig.tar.gz
+ 642c348a65ca18ac1112cf51a13140555fa17109d0434ecef78fd619d3d45822 3204 golang-github-hlandau-xlog_1.0.0-2.debian.tar.xz
+Homepage: https://github.com/hlandau/xlog
+Go-Import-Path: github.com/hlandau/xlog
+Package-List: 
+ golang-github-hlandau-xlog-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-hlandau-xlog
+Priority: extra
+Section: golang

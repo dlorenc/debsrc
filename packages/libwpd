@@ -1,0 +1,26 @@
+Package: libwpd
+Binary: libwpd-dev, libwpd-0.10-10, libwpd-tools, libwpd-doc
+Version: 0.10.3-1
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>
+Build-Depends: debhelper (>= 10), libcppunit-dev, dh-autoreconf, zlib1g-dev, pkg-config, dpkg-dev (>= 1.16.1), librevenge-dev, libboost-dev
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 3.9.7
+Format: 3.0 (quilt)
+Files:
+ 1af27f1389e3a229438585f489a2d3c1 2049 libwpd_0.10.3-1.dsc
+ d5e44712c4674d499afb8e89d830fcad 534712 libwpd_0.10.3.orig.tar.xz
+ cc4539c678d1e7dcad2a89b2722f577e 11544 libwpd_0.10.3-1.debian.tar.xz
+Checksums-Sha256:
+ b20fa136afa403bfcd872710487a2f776ecc2df78572300cc9c07abdab8ca6b8 2049 libwpd_0.10.3-1.dsc
+ 2465b0b662fdc5d4e3bebcdc9a79027713fb629ca2bff04a3c9251fdec42dd09 534712 libwpd_0.10.3.orig.tar.xz
+ ed31d59da916d0a7ddda6a323b2a06efdf6101113310b604076ee22cc00be859 11544 libwpd_0.10.3-1.debian.tar.xz
+Package-List: 
+ libwpd-0.10-10 deb libs optional arch=any
+ libwpd-dev deb libdevel optional arch=any
+ libwpd-doc deb doc optional arch=all
+ libwpd-tools deb utils optional arch=any
+Directory: pool/main/libw/libwpd
+Priority: source
+Section: devel

@@ -1,0 +1,28 @@
+Package: lxqt-panel
+Binary: lxqt-panel, lxqt-panel-l10n
+Version: 0.16.1-1
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>, ChangZhuo Chen (陳昌倬) <czchen@debian.org>, Andrew Lee (李健秋) <ajqlee@debian.org>
+Build-Depends: debhelper-compat (= 12), libasound2-dev, libdbusmenu-qt5-dev, libicu-dev, libkf5windowsystem-dev, libkf5solid-dev, liblxqt0-dev (>= 0.14.1~), liblxqt-globalkeys0-dev (>= 0.16.0~), liblxqt-globalkeys-ui0-dev (>= 0.16.0~), libpulse-dev, libqt5svg5-dev, libqt5x11extras5-dev, libsensors-dev [!hurd-any], libstatgrab-dev [linux-any], libsysstat-qt5-0-dev (>= 0.4.4~), libx11-dev, libxcomposite-dev, libxcb-util0-dev, libxcb-xkb-dev, libxcb-damage0-dev, libxdamage-dev, libxkbcommon-dev, libxkbcommon-x11-dev, libxrender-dev
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ b1d369859668049499ff33964a85e204 2843 lxqt-panel_0.16.1-1.dsc
+ 3c7d5458213024e247661a643c4cc135 473632 lxqt-panel_0.16.1.orig.tar.xz
+ 98b99801711a16720549009de41e6719 862 lxqt-panel_0.16.1.orig.tar.xz.asc
+ 3756f89898b7117df866ff83a277e9c1 7176 lxqt-panel_0.16.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-panel
+Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-panel.git
+Checksums-Sha256:
+ e857f4e7ed6ac8f1a6e66cd6f90bb179282dadfb5b86f000277ab480a6718731 2843 lxqt-panel_0.16.1-1.dsc
+ 841a205ee80cb9a68aac1bb635789b883a14074448efec09c773b96cfe71ed4c 473632 lxqt-panel_0.16.1.orig.tar.xz
+ f5e46542d52f26a1714e18c1af73cea011a4755d00c026ca6572434464d8e80b 862 lxqt-panel_0.16.1.orig.tar.xz.asc
+ 83bc8cd0b847ddd75d2e60db503707b70533bf626ac33d0e07b48a67997135c4 7176 lxqt-panel_0.16.1-1.debian.tar.xz
+Homepage: https://github.com/lxqt/lxqt-panel
+Package-List: 
+ lxqt-panel deb x11 optional arch=any
+ lxqt-panel-l10n deb localization optional arch=all
+Directory: pool/main/l/lxqt-panel
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-cargo-platform
+Binary: librust-cargo-platform-dev
+Version: 0.1.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.82-~~) <!nocheck>, librust-serde-1+derive-dev (>= 1.0.82-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f256c75e6dd95b314d09c0c07b84e6d1 1724 rust-cargo-platform_0.1.1-1.dsc
+ d8aa4ce1dbd2f71c17c1df0c89f530f1 7409 rust-cargo-platform_0.1.1.orig.tar.gz
+ bdfeca16443d89a937dcafc1d7956fed 2500 rust-cargo-platform_0.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cargo-platform
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cargo-platform]
+Checksums-Sha256:
+ 4de07d2005418b80508e0994d89150e6a1fb6ab7350a1e09907cb835c4bf264e 1724 rust-cargo-platform_0.1.1-1.dsc
+ 0226944a63d1bf35a3b5f948dd7c59e263db83695c9e8bffc4037de02e30f1d7 7409 rust-cargo-platform_0.1.1.orig.tar.gz
+ 962c3bc1b9dae467b773689658a48edf2f3415acf431397291f646c55e4e7927 2500 rust-cargo-platform_0.1.1-1.debian.tar.xz
+Homepage: https://github.com/rust-lang/cargo
+Package-List: 
+ librust-cargo-platform-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cargo-platform
+Priority: extra
+Section: misc

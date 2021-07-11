@@ -1,0 +1,24 @@
+Package: pkg-php-tools
+Binary: pkg-php-tools
+Version: 1.40
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Mathieu Parent <sathieu@debian.org>
+Build-Depends: perl, php-pear, php-cli, php-json, php-xml, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 2713e9701c9a5ae618fb959b53d73ce4 1410 pkg-php-tools_1.40.dsc
+ 7dc6ae113c63981bb29997d8b5a38507 33188 pkg-php-tools_1.40.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/pkg-php-tools
+Vcs-Git: https://salsa.debian.org/php-team/pear/pkg-php-tools.git
+Checksums-Sha256:
+ b77501675c718d088bf3cc2fc72bb51469c465dbae86629cc6bcf58bbeec1df1 1410 pkg-php-tools_1.40.dsc
+ 7a8fa1ba17d13418f70fabf8d784e63cba87e361c4deb170cd2529585e6d8968 33188 pkg-php-tools_1.40.tar.xz
+Package-List: 
+ pkg-php-tools deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpunit
+Directory: pool/main/p/pkg-php-tools
+Priority: source
+Section: php

@@ -1,0 +1,28 @@
+Package: sortedcollections
+Binary: python3-sortedcollections, python-sortedcollections-doc
+Version: 1.0.1-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Diane Trout <diane@ghic.org>
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-nose, python3-setuptools, python3-sortedcontainers, python3-sphinx
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ecdadd9f1ffea20999c2eb0acf02cb79 2322 sortedcollections_1.0.1-1.dsc
+ 9d7b8560c509e29ed14a1273b24738be 112680 sortedcollections_1.0.1.orig.tar.gz
+ 2b20121748150afbc2a2fec2f4e55748 3672 sortedcollections_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/sortedcollections
+Vcs-Git: https://salsa.debian.org/python-team/modules/sortedcollections.git
+Checksums-Sha256:
+ 4e620ea91a284deb3534ce596780e60fe8a012ae8e543f555627c9e07bf4dc27 2322 sortedcollections_1.0.1-1.dsc
+ 2de3882c9682a7ac471e3aad589f54952fee343d42689ae7d1921a99857529e9 112680 sortedcollections_1.0.1.orig.tar.gz
+ c992ded09be08b9630dfd55dfbb9fe33bcf086dabc1857300a157874bca4bb41 3672 sortedcollections_1.0.1-1.debian.tar.xz
+Homepage: http://www.grantjenks.com/docs/sortedcollections/
+Package-List: 
+ python-sortedcollections-doc deb doc optional arch=all
+ python3-sortedcollections deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/s/sortedcollections
+Priority: optional
+Section: misc

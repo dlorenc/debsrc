@@ -1,0 +1,26 @@
+Package: libbpp-phyl
+Binary: libbpp-phyl-dev, libbpp-phyl12
+Version: 2.4.1-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Julien Dutheil <julien.dutheil@univ-montp2.fr>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, d-shlibs (>= 0.82), libbpp-seq-dev (>= 2.4.1)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b9f4a440ed84a68ff74ea16169b6192f 2158 libbpp-phyl_2.4.1-4.dsc
+ 05c58ac05a1f7525888df2b04c4a800c 600392 libbpp-phyl_2.4.1.orig.tar.gz
+ dfcbc1d6817ba60dee20d6bc322742b2 58108 libbpp-phyl_2.4.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/libbpp-phyl
+Vcs-Git: https://salsa.debian.org/med-team/libbpp-phyl.git
+Checksums-Sha256:
+ 4de4b8b822d4b3e71466d6bf46815257a081f3955c173a8080d0346160d0c233 2158 libbpp-phyl_2.4.1-4.dsc
+ e7bf7d4570f756b7773904ffa600ffcd77c965553ddb5cbc252092d1da962ff2 600392 libbpp-phyl_2.4.1.orig.tar.gz
+ f2a25d1ec50dcb572f86ead73aa59cca1424424b2155b474f14fa5af0544c7f7 58108 libbpp-phyl_2.4.1-4.debian.tar.xz
+Homepage: http://biopp.univ-montp2.fr/wiki/index.php/Main_Page
+Package-List: 
+ libbpp-phyl-dev deb libdevel optional arch=any
+ libbpp-phyl12 deb libs optional arch=any
+Directory: pool/main/libb/libbpp-phyl
+Priority: source
+Section: libs

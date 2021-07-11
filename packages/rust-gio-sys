@@ -1,0 +1,27 @@
+Package: rust-gio-sys
+Binary: librust-gio-sys-dev
+Version: 0.9.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-glib-sys-0.9+default-dev <!nocheck>, librust-gobject-sys-0.9+default-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev (>= 0.3.7-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ fb111e498b0894b88ecc6f9494222ec1 2436 rust-gio-sys_0.9.0-2.dsc
+ 673cd637bebfadabe77494776f61175a 68946 rust-gio-sys_0.9.0.orig.tar.gz
+ 08d4c4e71cb77d99108df064aa3655f1 2768 rust-gio-sys_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gio-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/gio-sys]
+Checksums-Sha256:
+ e7fe9d23d763937f701b4ee6ae5a0c3707e9a530a70bd7595cc99f4e51e16d13 2436 rust-gio-sys_0.9.0-2.dsc
+ 778b856a70a32e2cc5dd5cc7fa1b0c4b6df924fdf5c82984bc28f30565657cfe 68946 rust-gio-sys_0.9.0.orig.tar.gz
+ 2f7401060d0434f939c9183364b193b1e2bcdeadf4a33db6fa9d341bcd8df092 2768 rust-gio-sys_0.9.0-2.debian.tar.xz
+Homepage: http://gtk-rs.org/
+Package-List: 
+ librust-gio-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-shell-words-0.1+default-dev, librust-tempdir-0.3+default-dev
+Directory: pool/main/r/rust-gio-sys
+Priority: extra
+Section: misc

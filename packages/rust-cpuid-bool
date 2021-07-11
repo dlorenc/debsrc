@@ -1,0 +1,26 @@
+Package: rust-cpuid-bool
+Binary: librust-cpuid-bool-dev
+Version: 0.1.2-4
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ee8fae1c88794dd0f66396743da7b288 2166 rust-cpuid-bool_0.1.2-4.dsc
+ e0a69519ad697a923799407d8b01f7e5 7173 rust-cpuid-bool_0.1.2.orig.tar.gz
+ 4eba0fb9945aa5b6a9401cf7b0b37e90 2812 rust-cpuid-bool_0.1.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cpuid-bool
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/cpuid-bool]
+Checksums-Sha256:
+ 63d14545240d2ef4cf339581c0a2c08b5ff607940b9e373690ab96a28b425e04 2166 rust-cpuid-bool_0.1.2-4.dsc
+ 8aebca1129a03dc6dc2b127edd729435bbc4a37e1d5f4d7513165089ceb02634 7173 rust-cpuid-bool_0.1.2.orig.tar.gz
+ 6eb9cdc92d430eaec4cb122ea29cea839246eae58267ebff0830c7e8e6604daf 2812 rust-cpuid-bool_0.1.2-4.debian.tar.xz
+Package-List: 
+ librust-cpuid-bool-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-cpuid-bool
+Priority: extra
+Section: misc

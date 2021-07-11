@@ -1,0 +1,28 @@
+Package: libjira-client-automated-perl
+Binary: libjira-client-automated-perl
+Version: 1.90-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominique Dumont <dod@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libdata-dump-perl <!nocheck>, libhttp-message-perl <!nocheck>, libjson-perl <!nocheck>, libjson-xs-perl <!nocheck>, liblwp-protocol-https-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-mockmodule-perl <!nocheck>, libtest-most-perl <!nocheck>, libwww-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4293568d63784da23f71f724c88e5ba9 2776 libjira-client-automated-perl_1.90-1.dsc
+ 6397ca43dd6215386e7272c4ec1af36f 32954 libjira-client-automated-perl_1.90.orig.tar.gz
+ 6608643d9332da113934a24b136766ce 2336 libjira-client-automated-perl_1.90-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libjira-client-automated-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libjira-client-automated-perl.git
+Checksums-Sha256:
+ 7fea9579e9ec63aebdc84bd27fcad984605f5e1084f766348ac6a86dd6826b78 2776 libjira-client-automated-perl_1.90-1.dsc
+ dd74eb029ad22eccf630377f28d7acb06befcb98dc6b087443c31e0d281435bf 32954 libjira-client-automated-perl_1.90.orig.tar.gz
+ 2fa84011cf2e3924b8a9352004c49bc4311f56402e1b083c36110e1add17839d 2336 libjira-client-automated-perl_1.90-1.debian.tar.xz
+Homepage: https://metacpan.org/release/JIRA-Client-Automated
+Dgit: e479fac53fbc51c3c71fb3d80f303add3f308649 debian archive/debian/1.90-1 https://git.dgit.debian.org/libjira-client-automated-perl
+Package-List: 
+ libjira-client-automated-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libj/libjira-client-automated-perl
+Priority: optional
+Section: misc

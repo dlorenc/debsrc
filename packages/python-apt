@@ -1,0 +1,28 @@
+Package: python-apt
+Binary: python-apt-doc, python-apt-dev, python-apt-common, python3-apt, python3-apt-dbg
+Version: 2.2.0
+Maintainer: APT Development Team <deity@lists.debian.org>
+Uploaders: Michael Vogt <mvo@debian.org>, Julian Andres Klode <jak@debian.org>
+Build-Depends: apt (>= 1.0.9.4), apt-utils <!nocheck>, debhelper-compat (= 12), dh-python, distro-info-data <!nocheck>, fakeroot, libapt-pkg-dev (>= 1.9.11~), python3-all (>= 3.3), python3-all-dev (>= 3.3), python3-all-dbg (>= 3.3), python3-distutils, python3-distutils-extra (>= 2.0), python3-setuptools, python3-sphinx (>= 0.5), gnupg <!nocheck>, dirmngr <!nocheck> | gnupg (<< 2) <!nocheck>, pycodestyle <!nocheck>, pyflakes3 <!nocheck>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ 8fa7600c92b9e2356bd5623996687a19 2443 python-apt_2.2.0.dsc
+ 274822addad807a4f8ca8b42845d8d52 345664 python-apt_2.2.0.tar.xz
+Vcs-Browser: https://salsa.debian.org/apt-team/python-apt
+Vcs-Git: https://salsa.debian.org/apt-team/python-apt.git
+Checksums-Sha256:
+ d4312fae9e2880588b00fd22e4927d927200797a1f296f81c89d569a428a6518 2443 python-apt_2.2.0.dsc
+ c3ca103200ef6c824685e2c26b87457dac9ded58b983f6bb0ffce64d8c081465 345664 python-apt_2.2.0.tar.xz
+Package-List: 
+ python-apt-common deb python optional arch=all
+ python-apt-dev deb python optional arch=all
+ python-apt-doc deb doc optional arch=all
+ python3-apt deb python optional arch=any
+ python3-apt-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: apt-utils, dirmngr, distro-info-data, fakeroot, gnupg, intltool, pycodestyle, pyflakes3, python3-all
+Directory: pool/main/p/python-apt
+Priority: source
+Section: python

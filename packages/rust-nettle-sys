@@ -1,0 +1,26 @@
+Package: rust-nettle-sys
+Binary: librust-nettle-sys-dev
+Version: 2.0.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bindgen-0.55-dev <!nocheck> | librust-bindgen-0.54-dev <!nocheck> | librust-bindgen-0.53-dev (>= 0.53.1-~~) <!nocheck>, librust-pkg-config-0.3+default-dev <!nocheck>, nettle-dev (>= 3.5.1~~) <!nocheck>, llvm
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8126e39a1759d2d6dd10932b6c06a375 1778 rust-nettle-sys_2.0.5-1.dsc
+ 9d1d8eec25df9ef0d20710e6ad99feff 24524 rust-nettle-sys_2.0.5.orig.tar.gz
+ 00256d572391fa839e9752fe6547e791 3368 rust-nettle-sys_2.0.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/nettle-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/nettle-sys]
+Checksums-Sha256:
+ c57dbd3cc0678ad93883245aba9ff0e62e53197c01dc8290f0b77875ebb4f53c 1778 rust-nettle-sys_2.0.5-1.dsc
+ 290ac908ab44b40ccf5fe7fbc1ecefbf97f2ba41c4879b9fdf8573c26d165cce 24524 rust-nettle-sys_2.0.5.orig.tar.gz
+ 8842b45e85a54123d2cbf67e5597d9fe078397bd5d28b935f2dd0f309689edd6 3368 rust-nettle-sys_2.0.5-1.debian.tar.xz
+Package-List: 
+ librust-nettle-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-nettle-sys
+Priority: extra
+Section: misc

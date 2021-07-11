@@ -1,0 +1,26 @@
+Package: globus-rsl
+Binary: libglobus-rsl2, libglobus-rsl-dev, libglobus-rsl-doc
+Version: 11.2-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 76de9fcca0b9e13a83702848f2af6cc8 2034 globus-rsl_11.2-1.dsc
+ 98687af7729fedd24502a6478ebd52a3 381930 globus-rsl_11.2.orig.tar.gz
+ b337a1d76664612fa13e3a737e5c43ac 3772 globus-rsl_11.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-rsl
+Vcs-Git: https://salsa.debian.org/ellert/globus-rsl.git
+Checksums-Sha256:
+ f883bda374575cec0083cbcf9c7e23dffaafd50ecc41618d432354947f62a22e 2034 globus-rsl_11.2-1.dsc
+ a130ae1f2b31c39474f1957d44aa09e9a61f4f91c9ce095d07ef8eca178ce0f7 381930 globus-rsl_11.2.orig.tar.gz
+ 84110ea453ad550515758a80f64e260deec4c16cda148459df4c0a7e60295162 3772 globus-rsl_11.2-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-rsl-dev deb libdevel optional arch=any
+ libglobus-rsl-doc deb doc optional arch=all
+ libglobus-rsl2 deb libs optional arch=any
+Directory: pool/main/g/globus-rsl
+Priority: source
+Section: net

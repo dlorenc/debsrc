@@ -1,0 +1,25 @@
+Package: angular-maven-plugin
+Binary: libangular-maven-plugin-java
+Version: 0.3.4-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Thorsten Glaser <tg@mirbsd.de>
+Build-Depends: debhelper (>= 11), default-jdk, libcommons-io-java, libcommons-lang-java (>= 2.6), libguava-java, libmaven-plugin-tools-java, libmaven3-core-java (>= 3.2.3), libplexus-build-api-java, libplexus-compiler-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 0625f5accdf49ecc0c3c48369290fb7c 2325 angular-maven-plugin_0.3.4-3.dsc
+ 4636d8f1f49977ae791b0d20c06e9049 10678 angular-maven-plugin_0.3.4.orig.tar.gz
+ 1543822c4898d330684229484cca2240 3360 angular-maven-plugin_0.3.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/angular-maven-plugin.git?h=debian
+Vcs-Git: https://salsa.debian.org/debian/angular-maven-plugin.git -b debian
+Checksums-Sha256:
+ b96366392f6abd2abb164507c859fc0b7c6474d6cd9ed5169532988a0f877a9b 2325 angular-maven-plugin_0.3.4-3.dsc
+ cefc729bcafec90e07cf296600b2861415309bd3d3cb40c2cbd022c389043a9f 10678 angular-maven-plugin_0.3.4.orig.tar.gz
+ 04a7d623110f0f27c56ccd0caaf883a98d69c21ec1349e4a5037a4413fdde687 3360 angular-maven-plugin_0.3.4-3.debian.tar.xz
+Homepage: https://github.com/keithbranton/angular-maven-plugin
+Package-List: 
+ libangular-maven-plugin-java deb java optional arch=all
+Directory: pool/main/a/angular-maven-plugin
+Priority: optional
+Section: misc

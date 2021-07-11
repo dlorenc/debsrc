@@ -1,0 +1,27 @@
+Package: librarian-puppet
+Binary: librarian-puppet
+Version: 3.0.0-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Stig Sandbeck Mathisen <ssm@debian.org>, Sebastien Badia <sbadia@debian.org>
+Build-Depends: cucumber, debhelper-compat (= 13), gem2deb, rake, ruby-json, ruby-librarian (>= 0.6.3~), ruby-puppet-forge, ruby-rsync
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d3f32959ccefdcc1b5a8d3f9dfce3844 2195 librarian-puppet_3.0.0-2.dsc
+ e3d9b269c8ac8fe81b182e97ff55bab8 17854 librarian-puppet_3.0.0.orig.tar.gz
+ d16380196ac1be1dc0d1163ce6bc95ad 4644 librarian-puppet_3.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/librarian-puppet
+Vcs-Git: https://salsa.debian.org/ruby-team/librarian-puppet.git
+Checksums-Sha256:
+ 37b1bdc32e788c48ad612b537f6162935b05dac8ba79bccf54f53da64ae563be 2195 librarian-puppet_3.0.0-2.dsc
+ 44934594b90df1cc0399e1e3f6d03c0e7908758940eb3533449ee02e51e7a30d 17854 librarian-puppet_3.0.0.orig.tar.gz
+ b23255f6dea44cd2f61d4a32315d8bdaeea63e3916bcc739b9cb006952db88db 4644 librarian-puppet_3.0.0-2.debian.tar.xz
+Homepage: https://github.com/voxpupuli/librarian-puppet
+Package-List: 
+ librarian-puppet deb admin optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/libr/librarian-puppet
+Priority: source
+Section: misc

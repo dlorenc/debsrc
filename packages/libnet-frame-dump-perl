@@ -1,0 +1,28 @@
+Package: libnet-frame-dump-perl
+Binary: libnet-frame-dump-perl
+Version: 1.18-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl
+Build-Depends-Indep: libclass-gomor-perl <!nocheck>, libnet-frame-perl <!nocheck>, libnet-pcap-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 355925c573a52006fa0b233c28916974 2522 libnet-frame-dump-perl_1.18-1.dsc
+ 7b59a4bc2ad0e86ce1151fe87cfdac9c 19709 libnet-frame-dump-perl_1.18.orig.tar.gz
+ 469a195047e424681fd6e93094e67ebe 2068 libnet-frame-dump-perl_1.18-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-frame-dump-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-frame-dump-perl.git
+Checksums-Sha256:
+ 65d91d83a43435a64ec7c4ac84dea2978a231e9e1dbc6936fdc1daa4e74f3051 2522 libnet-frame-dump-perl_1.18-1.dsc
+ e53dc3d615261a28873a800e46f83608e424d99c8727c745e2701a2924353bc3 19709 libnet-frame-dump-perl_1.18.orig.tar.gz
+ c65f2c8e9cc2e1d9825ae7cdfe26d6badb52d302be84c10ee0689d0a6b9722d7 2068 libnet-frame-dump-perl_1.18-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Net-Frame-Dump
+Dgit: c53c7a43a64132d80e2c75c7fc2bede3269cc985 debian archive/debian/1.18-1 https://git.dgit.debian.org/libnet-frame-dump-perl
+Package-List: 
+ libnet-frame-dump-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-frame-dump-perl
+Priority: optional
+Section: misc

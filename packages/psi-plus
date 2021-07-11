@@ -1,0 +1,30 @@
+Package: psi-plus
+Binary: psi-plus, psi-plus-webkit, psi-plus-common, psi-plus-plugins, psi-plus-skins, psi-plus-sounds
+Version: 1.4.554-5
+Maintainer: Boris Pek <tehnick@debian.org>
+Uploaders: Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>
+Build-Depends: cmake, debhelper (>= 12~), libhunspell-dev, libidn11-dev, libminizip-dev, libotr5-dev | libotr2-dev, libqca-qt5-2-dev, libqt5svg5-dev, libqt5webkit5-dev, libqt5x11extras5-dev, libsignal-protocol-c-dev, libsm-dev, libssl-dev, libtidy-dev, libxss-dev, qt5keychain-dev, qtmultimedia5-dev, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ fd82bff672ab6530e96376d86cdb75f3 2512 psi-plus_1.4.554-5.dsc
+ e7015a9cf5f33dad3c13338bea5874a8 8783538 psi-plus_1.4.554.orig.tar.gz
+ 852ba31f2e67975fd55d17dc5c2009b3 19696 psi-plus_1.4.554-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xmpp-team/psi-plus
+Vcs-Git: https://salsa.debian.org/xmpp-team/psi-plus.git
+Checksums-Sha256:
+ 43b2fd62afac6951450fb9baa3dabc840180bf4bc5336c1ae0341873462c4c1d 2512 psi-plus_1.4.554-5.dsc
+ 50d23d4e562529035b6028a8d9c93391a391007f7d0a18c6a966c5a8778dbf03 8783538 psi-plus_1.4.554.orig.tar.gz
+ f3df17771e5131b3af9623f103130236344658defe3b3fcbbba113e3cf328999 19696 psi-plus_1.4.554-5.debian.tar.xz
+Homepage: https://psi-plus.com/
+Package-List: 
+ psi-plus deb net optional arch=any
+ psi-plus-common deb net optional arch=all
+ psi-plus-plugins deb net optional arch=any
+ psi-plus-skins deb net optional arch=all
+ psi-plus-sounds deb net optional arch=all
+ psi-plus-webkit deb net optional arch=any
+Directory: pool/main/p/psi-plus
+Priority: source
+Section: net

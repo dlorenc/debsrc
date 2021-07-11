@@ -1,0 +1,28 @@
+Package: libdbd-mariadb-perl
+Binary: libdbd-mariadb-perl
+Version: 1.21-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), default-libmysqlclient-dev (>= 1.0.5), default-mysql-server <!nocheck>, dh-sequence-perl-dbi, libdbi-perl (>= 1.642), libdevel-checklib-perl (>= 1.12), libnet-ssleay-perl <!nocheck>, libssl-dev, libtest-deep-perl <!nocheck>, perl-xs-dev, perl:native, procps <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f97e9c72a665513c0cd4215bfbbbd2a2 2810 libdbd-mariadb-perl_1.21-3.dsc
+ 3968aebc7afaba39cb937fef9e53ebd6 179911 libdbd-mariadb-perl_1.21.orig.tar.gz
+ 8238e64e65b174187c71f6c67c0a8b53 6136 libdbd-mariadb-perl_1.21-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libdbd-mariadb-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libdbd-mariadb-perl.git
+Checksums-Sha256:
+ 6130e434a23e2243b91defaccc525c7308cd6124b0fe6af1815db4b21a9e695d 2810 libdbd-mariadb-perl_1.21-3.dsc
+ f5972b337a0d1d4726b2471eb79f23ee0cdd034bf43f4e13f2b5162597271419 179911 libdbd-mariadb-perl_1.21.orig.tar.gz
+ bd632fb0c9e5f4ac76f16f6b539a4314a80beff3c659ae69194f212857a88773 6136 libdbd-mariadb-perl_1.21-3.debian.tar.xz
+Homepage: https://metacpan.org/release/DBD-MariaDB
+Dgit: 1c23c5e415cc9ee6829300a6a8ce4d98860ba339 debian archive/debian/1.21-3 https://git.dgit.debian.org/libdbd-mariadb-perl
+Package-List: 
+ libdbd-mariadb-perl deb perl optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-perl
+Testsuite-Triggers: default-libmysqlclient-dev, libdbi-perl, libdevel-checklib-perl, libnet-ssleay-perl, libssl-dev, libtest-deep-perl, mysql-server, perl, pkg-perl-autopkgtest, procps
+Directory: pool/main/libd/libdbd-mariadb-perl
+Priority: extra
+Section: misc

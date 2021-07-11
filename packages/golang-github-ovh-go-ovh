@@ -1,0 +1,27 @@
+Package: golang-github-ovh-go-ovh
+Binary: golang-github-ovh-go-ovh-dev
+Version: 0.0~git20181109.ba5adb4-5
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-gopkg-ini.v1-dev
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 537b64d6699acaaea92839c2614e09fb 2328 golang-github-ovh-go-ovh_0.0~git20181109.ba5adb4-5.dsc
+ 78f23fa70182a6bd8a1cb688d48acc5f 17644 golang-github-ovh-go-ovh_0.0~git20181109.ba5adb4.orig.tar.xz
+ 66291f089791ea686b0a9ffa59e9914c 2936 golang-github-ovh-go-ovh_0.0~git20181109.ba5adb4-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-ovh-go-ovh
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-ovh-go-ovh.git
+Checksums-Sha256:
+ fc98158f8f8027936e9e757c309d2e842a981fda48a74ac20633ef53581c420f 2328 golang-github-ovh-go-ovh_0.0~git20181109.ba5adb4-5.dsc
+ e070b4648c773269295fc09a8c4ed1796193749f6c67a70b418438ea47750727 17644 golang-github-ovh-go-ovh_0.0~git20181109.ba5adb4.orig.tar.xz
+ 122b51704d6f03882d2d0458f1edfb88287b6fc2306361af82ac2c8facfbd606 2936 golang-github-ovh-go-ovh_0.0~git20181109.ba5adb4-5.debian.tar.xz
+Homepage: https://github.com/ovh/go-ovh
+Go-Import-Path: github.com/ovh/go-ovh
+Package-List: 
+ golang-github-ovh-go-ovh-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-ovh-go-ovh
+Priority: extra
+Section: golang

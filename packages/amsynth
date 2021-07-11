@@ -1,0 +1,26 @@
+Package: amsynth
+Binary: amsynth
+Version: 1.12.2-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Free Ekanayaka <freee@debian.org>, Alessio Treglia <alessio@debian.org>, Tiago Bortoletto Vaz <tiago@debian.org>, Dennis Braun <d_braun@kabelmail.de>
+Build-Depends: autoconf-archive, debhelper-compat (= 13), libasound2-dev [linux-any], libgtk2.0-dev, libjack-jackd2-dev | libjack-dev, liboscpack-dev, libsndfile1-dev, dssi-dev, intltool, liblo-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d9857a9e59e41904ef0d319a97e2d0f2 2208 amsynth_1.12.2-1.dsc
+ 9a716e79ab4d45b2363f8c1b1e315e1a 1624482 amsynth_1.12.2.orig.tar.gz
+ b48ef92ebd77589263ec951ace1ef102 6896 amsynth_1.12.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/amsynth
+Vcs-Git: https://salsa.debian.org/multimedia-team/amsynth.git
+Checksums-Sha256:
+ cef7d07ab2c7c3490e922abebafecc035dcc06a1af04e1313c738ef477674537 2208 amsynth_1.12.2-1.dsc
+ cfa8aab88caa7ec4ca478afe1291302decd73bd403bf1c8b6b1fe2ea6b0c0fdc 1624482 amsynth_1.12.2.orig.tar.gz
+ dff88ff99f4fc4edcbbff5c409039a7d9779b035774614f66b5e011291f2caa1 6896 amsynth_1.12.2-1.debian.tar.xz
+Homepage: https://amsynth.github.io/
+Package-List: 
+ amsynth deb sound optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/a/amsynth
+Priority: source
+Section: sound

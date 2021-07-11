@@ -1,0 +1,26 @@
+Package: dnssec-trigger
+Binary: dnssec-trigger
+Version: 0.17+repack-5
+Maintainer: dnssec-trigger packagers <dnssec-trigger@packages.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Diane Trout <diane@ghic.org>
+Build-Depends: debhelper (>= 11), dh-python, libcmocka-dev, libssl-dev (>= 1.1.0), libgtk2.0-dev, libldns-dev (>= 1.6.14-1~), lsb-base, python3, sensible-utils
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 58cfd188090709f1a7058138745eb4f7 2197 dnssec-trigger_0.17+repack-5.dsc
+ 51281ec86b65dbf3cecbd601c6e78602 338888 dnssec-trigger_0.17+repack.orig.tar.xz
+ 02893e49eb6d692599a5455a8f2fb0d1 16236 dnssec-trigger_0.17+repack-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/dns-team/dnssec-trigger
+Vcs-Git: https://salsa.debian.org/dns-team/dnssec-trigger.git
+Checksums-Sha256:
+ ca461dae18abefde27f10c89f9f751b923636e5ba08672830395c41b0ba8929c 2197 dnssec-trigger_0.17+repack-5.dsc
+ 80fd1a3063f5cb90da28f8f2277ab17f25c006e07e59fc661c2d9202068a70df 338888 dnssec-trigger_0.17+repack.orig.tar.xz
+ 11be96a47811d06391b241a5c75269ba60043ff0ee85415275fc0ff565ede342 16236 dnssec-trigger_0.17+repack-5.debian.tar.xz
+Homepage: https://www.nlnetlabs.nl/projects/dnssec-trigger/
+Package-List: 
+ dnssec-trigger deb net optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/d/dnssec-trigger
+Priority: optional
+Section: misc

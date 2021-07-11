@@ -1,0 +1,26 @@
+Package: coturn
+Binary: coturn
+Version: 4.5.2-3
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@alioth-lists.debian.net>
+Uploaders: Oleg Moskalenko <mom040267@gmail.com>, Mészáros Mihály <misi@majd.eu>
+Build-Depends: debhelper-compat (= 13), default-libmysqlclient-dev, default-mysql-client, dpkg-dev (>= 1.16.1~), libsystemd-dev [linux-any], pkg-config, libevent-dev (>= 2.0.1~), libhiredis-dev, libpq-dev, libsqlite3-dev, libssl-dev (>= 1.0.0~), postgresql-client, sqlite3
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b3ee9e35d42049530ce17f12e4e575fc 2195 coturn_4.5.2-3.dsc
+ d1091dccdae057ab790715bdc8c4bc9c 444865 coturn_4.5.2.orig.tar.gz
+ 229c72d23a2641d11e5842bc4262479e 14800 coturn_4.5.2-3.debian.tar.xz
+Vcs-Browser: https://github.com/coturn/coturn/tree/debian/master
+Vcs-Git: https://github.com/coturn/coturn.git -b debian/master
+Checksums-Sha256:
+ 2ae8df4df932dde09afe3dcfa5df643dc54b7448d69bd23aff6c32b5cd901179 2195 coturn_4.5.2-3.dsc
+ 1cbef88cd4ab0de0d4d7011f4e7eaf39a344b485e9a272f3055eb53dd303b6e1 444865 coturn_4.5.2.orig.tar.gz
+ 683dc942e27e3b0de0065ad2a22d2aad95fb9841d3948456dfcd6ec0e1486359 14800 coturn_4.5.2-3.debian.tar.xz
+Homepage: https://github.com/coturn/coturn/
+Package-List: 
+ coturn deb net optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/coturn
+Priority: optional
+Section: misc

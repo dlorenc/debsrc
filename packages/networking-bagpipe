@@ -1,0 +1,27 @@
+Package: networking-bagpipe
+Binary: networking-bagpipe-doc, python3-networking-bagpipe
+Version: 13.0.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 99~), python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-astroid, python3-babel, python3-coverage, python3-exabgp, python3-hacking, python3-isort (>= 4.3.21), python3-mock, python3-netaddr, python3-networking-bgpvpn (>= 12.0.0~), python3-networking-sfc (>= 10.0.0~), python3-neutron (>= 2:16.0.0~), python3-neutron-lib (>= 2.2.0), python3-openstackdocstheme, python3-os-testr, python3-oslo.concurrency, python3-oslo.config, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service, python3-oslo.versionedobjects, python3-oslotest, python3-pbr, python3-pecan, python3-pyroute2 (>= 0.5.7), python3-sphinxcontrib.actdiag, python3-sphinxcontrib.blockdiag, python3-sphinxcontrib.nwdiag, python3-sphinxcontrib.seqdiag, python3-stevedore, python3-subunit, python3-testresources, python3-testscenarios, python3-testtools, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ ba28968bafa95f5138c5afa657f7dc0a 3160 networking-bagpipe_13.0.0-1.dsc
+ 49ddf567c7525b46ac26e6c531118596 176452 networking-bagpipe_13.0.0.orig.tar.xz
+ d38ef95bbe22fb03338edd42d9ac4384 3528 networking-bagpipe_13.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/neutron-plugins/networking-bagpipe
+Vcs-Git: https://salsa.debian.org/openstack-team/neutron-plugins/networking-bagpipe.git
+Checksums-Sha256:
+ 9603489af16d6a575ce1bd59f6d8a74e4a9612420c7f4040a96c6e21ec317f3d 3160 networking-bagpipe_13.0.0-1.dsc
+ d526dc33f0e82670247e0d00cedd93076eb97ce87cb4ca4facb958ffdecab039 176452 networking-bagpipe_13.0.0.orig.tar.xz
+ 1e046278fd59aac8f9bdca36b7f3794a3a1a984b4702d619dac42b8dfc87d1ac 3528 networking-bagpipe_13.0.0-1.debian.tar.xz
+Homepage: http://github.com/openstack/networking-babpipe
+Package-List: 
+ networking-bagpipe-doc deb doc optional arch=all profile=!nodoc
+ python3-networking-bagpipe deb python optional arch=all
+Directory: pool/main/n/networking-bagpipe
+Priority: extra
+Section: misc

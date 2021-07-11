@@ -1,0 +1,27 @@
+Package: rust-net2
+Binary: librust-net2-dev
+Version: 0.2.37-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.54-~~) <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+winsock2-dev <!nocheck>, librust-winapi-0.3+ws2def-dev <!nocheck>, librust-winapi-0.3+ws2ipdef-dev <!nocheck>, librust-winapi-0.3+ws2tcpip-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b1c574cabfc04325b73d5f49e3300d1f 2514 rust-net2_0.2.37-1.dsc
+ ff6c054468eab826f0dab7cc9a3fe557 21311 rust-net2_0.2.37.orig.tar.gz
+ f9fd944023eaacb159289216b18adc02 2972 rust-net2_0.2.37-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/net2
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/net2]
+Checksums-Sha256:
+ 7cc2ff0fd4f9d0bede3efa3c07b5f4f3e24bf5edc8024118d3563c08b6827870 2514 rust-net2_0.2.37-1.dsc
+ 391630d12b68002ae1e25e8f974306474966550ad82dac6886fb8910c19568ae 21311 rust-net2_0.2.37.orig.tar.gz
+ da8442b1741742fc49731361d31bb4ac9c76e2d0dbb8bb3087aed5b871d7955b 2972 rust-net2_0.2.37-1.debian.tar.xz
+Homepage: https://github.com/deprecrated/net2-rs
+Package-List: 
+ librust-net2-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-net2
+Priority: extra
+Section: misc

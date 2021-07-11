@@ -1,0 +1,32 @@
+Package: strip-nondeterminism
+Binary: libfile-stripnondeterminism-perl, strip-nondeterminism, dh-strip-nondeterminism
+Version: 1.11.0-1
+Maintainer: Reproducible builds folks <reproducible-builds@lists.alioth.debian.org>
+Uploaders: Andrew Ayer <agwa@andrewayer.name>, Holger Levsen <holger@debian.org>, Mattia Rizzolo <mattia@debian.org>, Chris Lamb <lamby@debian.org>,
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libarchive-cpio-perl <!nocheck>, libarchive-zip-perl, libdevel-cover-perl, libsub-override-perl, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5feedf0357cd5c1ff0ed93cb6451f3b5 2828 strip-nondeterminism_1.11.0-1.dsc
+ 89065cb3c9430b95981d66cb497a0ffe 278827 strip-nondeterminism_1.11.0.orig.tar.bz2
+ 86f4c3bab99f38441152391907bee296 833 strip-nondeterminism_1.11.0.orig.tar.bz2.asc
+ 135e7846097aa60692a88b61b2852f0a 33268 strip-nondeterminism_1.11.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/reproducible-builds/strip-nondeterminism
+Vcs-Git: https://salsa.debian.org/reproducible-builds/strip-nondeterminism.git
+Checksums-Sha256:
+ ca1965e4fc4fb77e5de3a94922cac5882313742dfee7751be3163b5ad1f073b3 2828 strip-nondeterminism_1.11.0-1.dsc
+ 0774647828fe348a4f957a32fc0d8ab1749c013347bd6544147d059c208700d6 278827 strip-nondeterminism_1.11.0.orig.tar.bz2
+ 94d549c373fd867f7be846cccc9ae916d382ea2a1cdfd17b63a9f3144aab4745 833 strip-nondeterminism_1.11.0.orig.tar.bz2.asc
+ c536e68e19e5eb3e1075831d05e7a5b7734a1a9d0f208895d80c365f9997c40e 33268 strip-nondeterminism_1.11.0-1.debian.tar.xz
+Homepage: https://reproducible-builds.org/
+Package-List: 
+ dh-strip-nondeterminism deb devel optional arch=all
+ libfile-stripnondeterminism-perl deb perl optional arch=all
+ strip-nondeterminism deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: libarchive-cpio-perl
+Directory: pool/main/s/strip-nondeterminism
+Priority: optional
+Section: misc

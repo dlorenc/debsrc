@@ -1,0 +1,27 @@
+Package: python-ncls
+Binary: python3-ncls
+Version: 0.0.57+ds-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, cython3, python3-all-dev, python3-setuptools, python3-numpy <!nocheck>, python3-pytest <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ed57bcf1438a28ecc2b539ee2bd12a39 2262 python-ncls_0.0.57+ds-1.dsc
+ 4879f74738bad902c63d3b1aba5d7e54 25516 python-ncls_0.0.57+ds.orig.tar.xz
+ 602e884a17c27fa841343c0a80ffdd12 3800 python-ncls_0.0.57+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-ncls
+Vcs-Git: https://salsa.debian.org/med-team/python-ncls.git
+Checksums-Sha256:
+ 921777f4f239a419cdb920c21a5b59738c3bd09d1cc5e703697110c40d3f9ffb 2262 python-ncls_0.0.57+ds-1.dsc
+ 70377c3d1d5a26e7683a794c9d78c01c03d41455cfef92fa65016d13d0132148 25516 python-ncls_0.0.57+ds.orig.tar.xz
+ 23d14b7fe4e0778ab0423ac123d1747b61eaa6a2bdd49a3433d591f8bb974957 3800 python-ncls_0.0.57+ds-1.debian.tar.xz
+Homepage: https://github.com/biocore-ntnu/ncls
+Package-List: 
+ python3-ncls deb python optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-all, python3-pandas, python3-pytest
+Directory: pool/main/p/python-ncls
+Priority: extra
+Section: misc

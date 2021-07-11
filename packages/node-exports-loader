@@ -1,0 +1,26 @@
+Package: node-exports-loader
+Binary: node-exports-loader
+Version: 1.1.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, jest <!nocheck>, node-babel7, node-loader-utils (>= 1.1~), node-schema-utils, node-source-map (>= 0.5~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 00224ae5ec3aa235603f9ba6833e5105 2213 node-exports-loader_1.1.1-2.dsc
+ 065e16726214633b87ebe08e78f47e9a 143528 node-exports-loader_1.1.1.orig.tar.gz
+ a3f46147ad3d1127fd4f0fe78d83f03f 2844 node-exports-loader_1.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-exports-loader
+Vcs-Git: https://salsa.debian.org/js-team/node-exports-loader.git
+Checksums-Sha256:
+ 1af1c2e778e6cf7edd1904ba2b1be3ffe61e6f0fcfca219cf7a2c3f1e1f198fa 2213 node-exports-loader_1.1.1-2.dsc
+ da086b071d0623f7b44eabf934025319fe5bef790dd74781f2f0a9c9d729dc03 143528 node-exports-loader_1.1.1.orig.tar.gz
+ 21b520005f8cc1ee49ce4e313805569f0c8e0b6df6f05d4795c88de5fe60c45f 2844 node-exports-loader_1.1.1-2.debian.tar.xz
+Homepage: https://github.com/webpack/exports-loader#readme
+Package-List: 
+ node-exports-loader deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-exports-loader
+Priority: extra
+Section: misc

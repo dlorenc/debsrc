@@ -1,0 +1,28 @@
+Package: haskell-static-hash
+Binary: libghc-static-hash-dev, libghc-static-hash-prof, libghc-static-hash-doc
+Version: 0.0.1-14
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-hashable-dev, libghc-hashable-prof, libghc-primes-dev, libghc-primes-prof
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc, libghc-primes-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a010b597c86792bae758aaa6c93befb3 2488 haskell-static-hash_0.0.1-14.dsc
+ 398ad61e68b59a80375f69890572c9db 2462 haskell-static-hash_0.0.1.orig.tar.gz
+ a31992d8c05fabf576145ddbb2c4c0bc 2928 haskell-static-hash_0.0.1-14.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-static-hash
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-static-hash]
+Checksums-Sha256:
+ 88a15137ea6861d0537a93687a8784ee86e078ba75c3f608b2977e8516162e52 2488 haskell-static-hash_0.0.1-14.dsc
+ 147dfc2b5f3510fb8fff7ee9bcb6dcf4568bb961abf221e23f02243434e96f5a 2462 haskell-static-hash_0.0.1.orig.tar.gz
+ c3ea8b0332ea5c5574c322135d8b7c92db6ba03fc17cac71f923c25c5465bdd5 2928 haskell-static-hash_0.0.1-14.debian.tar.xz
+Homepage: http://hackage.haskell.org/package/static-hash
+Package-List: 
+ libghc-static-hash-dev deb haskell optional arch=any
+ libghc-static-hash-doc deb doc optional arch=all
+ libghc-static-hash-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-static-hash
+Priority: source
+Section: haskell

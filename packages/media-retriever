@@ -1,0 +1,22 @@
+Package: media-retriever
+Binary: media-retriever, load-media
+Version: 1.55
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: dpkg-dev (>= 1.7.0), po-debconf (>= 0.5.0)
+Architecture: all
+Format: 3.0 (native)
+Files:
+ 0aa876a4e42de626ad05c4544d8a50ae 1737 media-retriever_1.55.dsc
+ bb38bf75dc3709d878c12a41a36fc9df 73896 media-retriever_1.55.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/media-retriever
+Vcs-Git: https://salsa.debian.org/installer-team/media-retriever.git
+Checksums-Sha256:
+ 5df933574df1ad15cced3680c2ff905e708db0da6db5a0f9593af6813634052e 1737 media-retriever_1.55.dsc
+ 5480c08a943ccc3b08879849500633c713f46e4598b0187edce4d7acdec35b71 73896 media-retriever_1.55.tar.xz
+Package-List: 
+ load-media udeb debian-installer optional arch=all
+ media-retriever udeb debian-installer optional arch=all
+Directory: pool/main/m/media-retriever
+Priority: source
+Section: debian-installer

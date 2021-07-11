@@ -1,0 +1,27 @@
+Package: node-pascalcase
+Binary: node-pascalcase
+Version: 0.1.1-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper (>= 9), dh-buildinfo, nodejs, mocha, node-should
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 535dc0741467d85497435573c16a3e95 2127 node-pascalcase_0.1.1-1.1.dsc
+ 3899f9488b8817d507c51668765a8316 4439 node-pascalcase_0.1.1.orig.tar.gz
+ 3a59936f2c2bceb53842eea7f12f0ce9 2232 node-pascalcase_0.1.1-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-pascalcase.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-pascalcase.git
+Checksums-Sha256:
+ 7ebdb37006f95b907d040be36e1cb1d388b4fec7eefd6fe9d52328c03c294e3e 2127 node-pascalcase_0.1.1-1.1.dsc
+ 48a5d9d7efdd7940b1189fb38a0114730f61da3961bf73f50b64bdc0b663b9df 4439 node-pascalcase_0.1.1.orig.tar.gz
+ 6d13fee8b424617cc3565c017fbe26959e161a0af0f8173a38bf8cb37dcf08e7 2232 node-pascalcase_0.1.1-1.1.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/pascalcase
+Package-List: 
+ node-pascalcase deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mocha, node-should
+Directory: pool/main/n/node-pascalcase
+Priority: optional
+Section: javascript

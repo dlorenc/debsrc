@@ -1,0 +1,28 @@
+Package: ruby-html2text
+Binary: ruby-html2text
+Version: 0.2.0-1.1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9~), gem2deb, locales, rake, ruby-nokogiri (>= 1.6), ruby-rspec, ruby-rspec-collection-matchers
+Build-Conflicts: locales-all
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ c6f490f1b894b17d7469c59d83793465 2204 ruby-html2text_0.2.0-1.1.dsc
+ 0ecf108b7ff544712b3eaa0c1e080845 8607 ruby-html2text_0.2.0.orig.tar.gz
+ 4a46c6bab859b0b8e559461947878e59 2484 ruby-html2text_0.2.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-html2text.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-html2text.git
+Checksums-Sha256:
+ 65e8afaaf34b3d4ec53a272b234869a1464632c443672fa65690d9765b5a0163 2204 ruby-html2text_0.2.0-1.1.dsc
+ ad6a13dc2d31dd2173ccad3355408504bf4cdfeed22a7a18266ef26fe1010347 8607 ruby-html2text_0.2.0.orig.tar.gz
+ 2752ebbe6f04a420e57afe17bc43b3d16ec0935f8b7e6635167143115df332df 2484 ruby-html2text_0.2.0-1.1.debian.tar.xz
+Homepage: https://github.com/soundasleep/html2text_ruby
+Package-List: 
+ ruby-html2text deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-html2text
+Priority: optional
+Section: misc

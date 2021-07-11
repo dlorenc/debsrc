@@ -1,0 +1,27 @@
+Package: puppet-module-puppetlabs-stdlib
+Binary: puppet-module-puppetlabs-stdlib
+Version: 5.0.0-1
+Maintainer: Puppet Package Maintainers <pkg-puppet-devel@lists.alioth.debian.org>
+Uploaders: Stig Sandbeck Mathisen <ssm@debian.org>, Russ Allbery <rra@debian.org>, Sebastien Badia <sbadia@debian.org>
+Build-Depends: debhelper (>= 11~), sharness
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 8268610ebd6193bd6588f7538ddb402b 2311 puppet-module-puppetlabs-stdlib_5.0.0-1.dsc
+ 4ec6908dd369610dd725e1e32c713eb6 233000 puppet-module-puppetlabs-stdlib_5.0.0.orig.tar.gz
+ 4e3f51b83dff40afbcc80d79bde3a789 4204 puppet-module-puppetlabs-stdlib_5.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-stdlib
+Vcs-Git: https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-stdlib.git
+Checksums-Sha256:
+ 86edac6fd5b86eef535405a41edbdd064cb1d0b391df2db47f39290bad63fe18 2311 puppet-module-puppetlabs-stdlib_5.0.0-1.dsc
+ abca65503d7b7f15d48440273f9c370eee93ba2cedf0dfeb200dcda18a7e5bac 233000 puppet-module-puppetlabs-stdlib_5.0.0.orig.tar.gz
+ f3506a162adf55ef59325753490601fd9e0ac826e02717aa5dc8a6134c4d04a3 4204 puppet-module-puppetlabs-stdlib_5.0.0-1.debian.tar.xz
+Homepage: https://forge.puppet.com/puppetlabs/stdlib
+Package-List: 
+ puppet-module-puppetlabs-stdlib deb admin optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: perl, sharness
+Directory: pool/main/p/puppet-module-puppetlabs-stdlib
+Priority: optional
+Section: misc

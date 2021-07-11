@@ -1,0 +1,27 @@
+Package: devpi-common
+Binary: python3-devpi-common
+Version: 3.2.2-1.1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Nicolas Dandrimont <olasd@debian.org>
+Build-Depends: debhelper (>= 11~), dh-python (>= 2~), mercurial, python3-all, python3-pip, python3-pkg-resources, python3-pytest, python3-requests, python3-setuptools, python3-wheel
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 81267dd79bc1e99c3de31b015c586e2a 2211 devpi-common_3.2.2-1.1.dsc
+ 6d97b46e6c7bad07c561994530041c2f 24573 devpi-common_3.2.2.orig.tar.gz
+ 16806b21765a19de98796151e54022bb 4040 devpi-common_3.2.2-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/devpi-common
+Vcs-Git: https://salsa.debian.org/python-team/modules/devpi-common
+Checksums-Sha256:
+ 774ef22821f1c43d40388a5ba193603abc7483fa8dd37560f37826229c3621b1 2211 devpi-common_3.2.2-1.1.dsc
+ b147de00e7bf665af87e50edc33cc38c344cfcee10516b4970ebab621f0fd770 24573 devpi-common_3.2.2.orig.tar.gz
+ d1a4428a9103f11aaf2621a9100e0621620e0bf8d0aa44dfba08dbde07c4d7ee 4040 devpi-common_3.2.2-1.1.debian.tar.xz
+Homepage: https://www.devpi.net/
+Package-List: 
+ python3-devpi-common deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mercurial, python3-all, python3-pytest
+Directory: pool/main/d/devpi-common
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: roct-thunk-interface
+Binary: libhsakmt1, libhsakmt-dev
+Version: 3.7.0+dfsg-1
+Maintainer: ROCm Team <debian-ai@lists.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>, Norbert Preining <norbert@preining.info>
+Build-Depends: cmake, debhelper-compat (= 12), libnuma-dev, libudev-dev, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 16565565f993ed4bcd53232db45321eb 2225 roct-thunk-interface_3.7.0+dfsg-1.dsc
+ 99c5de1b4419fb5586cc1ac7a562fc82 434756 roct-thunk-interface_3.7.0+dfsg.orig.tar.xz
+ 50f1b953617da251ae35662edb0ab76f 4100 roct-thunk-interface_3.7.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rocm-team/roct-thunk-interface
+Vcs-Git: https://salsa.debian.org/rocm-team/roct-thunk-interface.git
+Checksums-Sha256:
+ 44151d05ad0effb6c0759a6080e43f917ae9b86bf91e3b1d9e8d964a8d229dc8 2225 roct-thunk-interface_3.7.0+dfsg-1.dsc
+ 3ab876f7b6f2f20ac8315d1259485dec8cce0dd4ef121c98ba9619e1bfb6457d 434756 roct-thunk-interface_3.7.0+dfsg.orig.tar.xz
+ be4b0a3770a89421372da6e765f340715a8900c10f43b2b9f6c0c538868db495 4100 roct-thunk-interface_3.7.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/RadeonOpenCompute/ROCT-Thunk-Interface
+Package-List: 
+ libhsakmt-dev deb libdevel optional arch=any
+ libhsakmt1 deb libs optional arch=any
+Directory: pool/main/r/roct-thunk-interface
+Priority: extra
+Section: misc

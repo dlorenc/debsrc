@@ -1,0 +1,25 @@
+Package: jboss-bridger
+Binary: libjboss-bridger-java
+Version: 1.5-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 2.1), libasm-java (>= 5.2), libmaven-filtering-java (>= 1.1), libmaven-plugin-tools-java (>= 3.5), libmaven3-core-java (>= 3.0.5), libplexus-utils2-java (>= 3.0.10)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c4b78570815763fe61a6d07777e94c51 2314 jboss-bridger_1.5-2.dsc
+ b30813880e4570c51d06cf6b42b747ad 5283 jboss-bridger_1.5.orig.tar.gz
+ efde03c439254473aebf4c2708451d8a 2404 jboss-bridger_1.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jboss-bridger
+Vcs-Git: https://salsa.debian.org/java-team/jboss-bridger.git
+Checksums-Sha256:
+ 5fa3fdd244af95c350413b72848af9538ac4728434f68f65815dab42c4884b48 2314 jboss-bridger_1.5-2.dsc
+ be723a1d9404ddf4d93c03992f3a312e1d5e5d5e4dd1ee50bf1b35679b795709 5283 jboss-bridger_1.5.orig.tar.gz
+ c77973eac88125ec6dd29d9c671c4daf925cc3729cc13a11b68064fffba99d25 2404 jboss-bridger_1.5-2.debian.tar.xz
+Homepage: https://github.com/dmlloyd/bridger
+Package-List: 
+ libjboss-bridger-java deb java optional arch=all
+Directory: pool/main/j/jboss-bridger
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: criterion
+Binary: libcriterion3, libcriterion-dev
+Version: 2.3.3git1-1
+Maintainer: SZALAY Attila <sasa@debian.org>
+Build-Depends: debhelper-compat (= 12), meson, cmake, libboxfort-dev, libnanomsg-dev, libnanopb-dev, nanopb, libgit2-dev, libffi-dev, protobuf-compiler, python3-protobuf, gettext
+Architecture: amd64 arm64 i386
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 47847eaf9c7abe297cc5fabb6c6d7235 2204 criterion_2.3.3git1-1.dsc
+ 5ce085e230ee405ef3672c17dcd6cf44 865652 criterion_2.3.3git1.orig.tar.gz
+ 04f99a1cde4105fa42040d76d5f51d8d 11760 criterion_2.3.3git1-1.debian.tar.xz
+Vcs-Browser: https://github.com/mochrul/Criterion-debian
+Vcs-Git: https://github.com/mochrul/Criterion-debian.git
+Checksums-Sha256:
+ b924192122e2908b47b73f3312f02fba40d09b973b0285401a3f36946f3eb20f 2204 criterion_2.3.3git1-1.dsc
+ 880be16fac66bb148f38a8e5f038b4c8a9c7a83bdf1e243ffe836cad19d41ec5 865652 criterion_2.3.3git1.orig.tar.gz
+ 269367101ba9f63ba0587e0a7457dab1c40adc21a74703d870de43f351bd14fb 11760 criterion_2.3.3git1-1.debian.tar.xz
+Homepage: https://github.com/Snaipe/Criterion
+Package-List: 
+ libcriterion-dev deb libdevel optional arch=amd64,arm64,i386
+ libcriterion3 deb libs optional arch=amd64,arm64,i386
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/c/criterion
+Priority: extra
+Section: misc

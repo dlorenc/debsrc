@@ -1,0 +1,27 @@
+Package: jcdf
+Binary: libjcdf-java, libjcdf-java-doc
+Version: 1.2.3+dfsg-2
+Maintainer: Debian Astro Team <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Ole Streicher <olebole@debian.org>
+Build-Depends: ant, debhelper-compat (= 12), dh-exec, javahelper
+Build-Depends-Indep: default-jdk, default-jdk-doc, libxml2-utils
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fe63c51a4975187b67c2835bc07ae2eb 2086 jcdf_1.2.3+dfsg-2.dsc
+ d76011788631036c741bfc4db4e9f35d 77277 jcdf_1.2.3+dfsg.orig.tar.gz
+ 6c6e9cb38bdaa6c401aa9be24d907a4b 3420 jcdf_1.2.3+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/jcdf
+Vcs-Git: https://salsa.debian.org/debian-astro-team/jcdf.git
+Checksums-Sha256:
+ d6e3c93576cc7734622766e6ed7f4d4936c8395f5747ba253b1ebc2fbceb627c 2086 jcdf_1.2.3+dfsg-2.dsc
+ 5df8942d506b79ad703565e1e998dfec52339859acb10006843f4caf647add09 77277 jcdf_1.2.3+dfsg.orig.tar.gz
+ 297da7e438673ab1cb8ce792944917f645a8bd16d1c0eb12438fab5f66362452 3420 jcdf_1.2.3+dfsg-2.debian.tar.xz
+Homepage: http://www.star.bristol.ac.uk/~mbt/jcdf
+Package-List: 
+ libjcdf-java deb java optional arch=all
+ libjcdf-java-doc deb doc optional arch=all
+Directory: pool/main/j/jcdf
+Priority: extra
+Section: misc

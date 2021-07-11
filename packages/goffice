@@ -1,0 +1,28 @@
+Package: goffice
+Binary: libgoffice-0.10-dev, libgoffice-0.10-10, libgoffice-0.10-10-common, gir1.2-goffice-0.10, libgoffice-0.10-doc
+Version: 0.10.48-1
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.16.1.1), gobject-introspection (>= 1.41.4), gtk-doc-tools, intltool (>= 0.35.0), libcairo2-dev (>= 1.10.0), libgirepository1.0-dev, libglib2.0-dev (>= 2.28.0), libgsf-1-dev (>= 1.14.25-2), libgtk-3-dev, libpango1.0-dev, librsvg2-dev, libxext-dev, libxml-parser-perl, libxml2-dev, libxrender-dev, libxslt1-dev | libxslt-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3dfb1c7d09cb1e34e67b187e983e25a5 2496 goffice_0.10.48-1.dsc
+ 34c5dcc651ce7003921170f6fa0696bd 2413400 goffice_0.10.48.orig.tar.xz
+ 14b94a177541b27928b29d9e53e299fe 23060 goffice_0.10.48-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/goffice
+Vcs-Git: https://salsa.debian.org/debian/goffice.git
+Checksums-Sha256:
+ 48b524982ebc29a11acaaf80f82c9be39b427c1bb97c7850c70e362a2df5e927 2496 goffice_0.10.48-1.dsc
+ a439162fa26a0e58117e07b82b37000a7f421088ad379eb1f6a1cdee101ecefc 2413400 goffice_0.10.48.orig.tar.xz
+ 817c98cde2bf95ee5599c225c707c29066812b282a98e41b32a2bd3f07fd16bf 23060 goffice_0.10.48-1.debian.tar.xz
+Homepage: http://wiki.gnome.org/GnomeOffice
+Package-List: 
+ gir1.2-goffice-0.10 deb introspection optional arch=any
+ libgoffice-0.10-10 deb libs optional arch=any
+ libgoffice-0.10-10-common deb libs optional arch=all
+ libgoffice-0.10-dev deb libdevel optional arch=any
+ libgoffice-0.10-doc deb doc optional arch=all
+Directory: pool/main/g/goffice
+Priority: source
+Section: libs

@@ -1,0 +1,26 @@
+Package: rust-bumpalo
+Binary: librust-bumpalo-dev
+Version: 3.4.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 246dc87e411ac9c5be035f6967500706 2250 rust-bumpalo_3.4.0-1.dsc
+ 7f74a18288dd952887eb53f90404ea23 129102 rust-bumpalo_3.4.0.orig.tar.gz
+ 40b2365afa8db95331c8823704f83dac 2884 rust-bumpalo_3.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bumpalo
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/bumpalo]
+Checksums-Sha256:
+ 946e3a6186ae918078aa7df19e2852100502d23d357042e9c0ea0e8159345a15 2250 rust-bumpalo_3.4.0-1.dsc
+ 2e8c087f005730276d1096a652e92a8bacee2e2472bcc9715a74d2bec38b5820 129102 rust-bumpalo_3.4.0.orig.tar.gz
+ 9bc48a1352cef08891df34bdd511824e5bf2652f82044760a751be0726102e46 2884 rust-bumpalo_3.4.0-1.debian.tar.xz
+Package-List: 
+ librust-bumpalo-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.3+default-dev, librust-quickcheck-0.9+default-dev, librust-rand-0.7+default-dev
+Directory: pool/main/r/rust-bumpalo
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: maven-reporting-exec
+Binary: libmaven-reporting-exec-java
+Version: 1.4-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, junit4, libdoxia-core-java, libmaven-reporting-api-java, libmaven3-core-java (>= 3.5.0), libplexus-component-annotations-java, libplexus-component-metadata-java, maven-debian-helper (>= 2.2), velocity
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6b1ab69002d5537b000a0c3c61389673 2299 maven-reporting-exec_1.4-3.dsc
+ 960d6e10b9edbce0102bd7cdf5c41757 17848 maven-reporting-exec_1.4.orig.tar.xz
+ 9f5170e14600c401dccedef7ab532caf 3912 maven-reporting-exec_1.4-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/maven-reporting-exec
+Vcs-Git: https://salsa.debian.org/java-team/maven-reporting-exec.git
+Checksums-Sha256:
+ 0502c9b82a3106a094b611f31881a100275315b8372a1f9d68f563793bc252d2 2299 maven-reporting-exec_1.4-3.dsc
+ 6de6437f1508e7792e13f0e7dbc72d5fe79962ba72d9372d541aa5de6bc48836 17848 maven-reporting-exec_1.4.orig.tar.xz
+ 915ae054b6caa76f636c32e34c869cfbba979e1a0d7542091c89bcd3f6651d0b 3912 maven-reporting-exec_1.4-3.debian.tar.xz
+Homepage: http://maven.apache.org/shared/maven-reporting-exec/
+Package-List: 
+ libmaven-reporting-exec-java deb java optional arch=all
+Directory: pool/main/m/maven-reporting-exec
+Priority: extra
+Section: misc

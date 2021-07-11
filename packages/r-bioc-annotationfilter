@@ -1,0 +1,27 @@
+Package: r-bioc-annotationfilter
+Binary: r-bioc-annotationfilter
+Version: 1.14.0+dfsg-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-genomicranges, r-cran-lazyeval
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 95a323d2cd6777dbe2ece135071fac83 2288 r-bioc-annotationfilter_1.14.0+dfsg-1.dsc
+ 78b68091914a8a165c48adda6ab38def 18748 r-bioc-annotationfilter_1.14.0+dfsg.orig.tar.xz
+ 047caa27e65803aef458df2597fff0f2 2344 r-bioc-annotationfilter_1.14.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-annotationfilter
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-annotationfilter.git
+Checksums-Sha256:
+ a55179905f51b16b7b3f6f39b35e6f7c18e27ede97b8e17d0bf483fdb000b6a9 2288 r-bioc-annotationfilter_1.14.0+dfsg-1.dsc
+ 63d56dfb66bc767f856120023b60af7df47850ff22a1009659bc0fd180ac9ba4 18748 r-bioc-annotationfilter_1.14.0+dfsg.orig.tar.xz
+ c2d956acbce118fbb6c79ebb53a0eeb6d85fc0d5d4fe28ae9decf1967879a740 2344 r-bioc-annotationfilter_1.14.0+dfsg-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/AnnotationFilter/
+Package-List: 
+ r-bioc-annotationfilter deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-bioc-annotationfilter
+Priority: extra
+Section: misc

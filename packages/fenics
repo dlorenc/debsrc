@@ -1,0 +1,26 @@
+Package: fenics
+Binary: fenics, fenicsx
+Version: 1:2019.2.0.5
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Johannes Ring <johannr@simula.no>, Drew Parsons <dparsons@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Files:
+ f6d89fbcc35549f6e6fc42863673ad43 1795 fenics_2019.2.0.5.dsc
+ 2715203370c8357c2099a85c60561f39 4840 fenics_2019.2.0.5.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/fenics/fenics
+Vcs-Git: https://salsa.debian.org/science-team/fenics/fenics.git
+Checksums-Sha256:
+ 66d87653b8e71065bc581b726410fc3cd43d580bff7d3c6075230ae446503d53 1795 fenics_2019.2.0.5.dsc
+ b14a1e2a0630b10a1e686b832e001ad08724e58c5e06aaa7767097b7dc76a8ed 4840 fenics_2019.2.0.5.tar.xz
+Homepage: http://fenicsproject.org
+Package-List: 
+ fenics deb math optional arch=any
+ fenicsx deb math optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/f/fenics
+Priority: source
+Section: math

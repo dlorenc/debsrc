@@ -1,0 +1,27 @@
+Package: rust-quick-error
+Binary: librust-quick-error-dev
+Version: 1.2.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Fabian Grünbichler <f.gruenbichler@proxmox.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bc3204b4e15f74fe47144aa8e73b81b8 2231 rust-quick-error_1.2.3-1.dsc
+ 3181dca31efe33cbed29a45d0ec67848 15066 rust-quick-error_1.2.3.orig.tar.gz
+ b6b266382ffdf3929f3581861b531ad8 2680 rust-quick-error_1.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/quick-error
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/quick-error]
+Checksums-Sha256:
+ 173302252b8a63ea40840ccef7047bc083407069f154e477ab51eeb4470d61e0 2231 rust-quick-error_1.2.3-1.dsc
+ a1d01941d82fa2ab50be1e79e6714289dd7cde78eba4c074bc5a4374f650dfe0 15066 rust-quick-error_1.2.3.orig.tar.gz
+ 3cc2c79e9c54e8babb0b4be5ec624ce18da6f88653a1d8143948e1d6b10dd559 2680 rust-quick-error_1.2.3-1.debian.tar.xz
+Homepage: http://github.com/tailhook/quick-error
+Package-List: 
+ librust-quick-error-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-quick-error
+Priority: extra
+Section: misc

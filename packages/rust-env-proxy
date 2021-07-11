@@ -1,0 +1,25 @@
+Package: rust-env-proxy
+Binary: librust-env-proxy-dev
+Version: 0.4.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-url-2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5052f6c821e2f3ed7e5a503665f5126f 1853 rust-env-proxy_0.4.0-1.dsc
+ 85f3d600469bb443671c731a56798e85 11169 rust-env-proxy_0.4.0.orig.tar.gz
+ bfed6ee60360b5366b2f38b6d40136bb 2528 rust-env-proxy_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/env-proxy
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/env-proxy]
+Checksums-Sha256:
+ 65f8cb69cb767934f599297973f65200d84afdf1c97b6462a6fdbd9f56522882 1853 rust-env-proxy_0.4.0-1.dsc
+ 4aa837517e4a24a1ca0f0adb2bc10f2e631159ce977a606d8ea1c8b575f96b01 11169 rust-env-proxy_0.4.0.orig.tar.gz
+ df704fb72230ebe843145beb54f27db66cbebade749b40ca0f2012fc40b2c66b 2528 rust-env-proxy_0.4.0-1.debian.tar.xz
+Homepage: https://github.com/inejge/env_proxy
+Package-List: 
+ librust-env-proxy-dev deb rust optional arch=any
+Directory: pool/main/r/rust-env-proxy
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: rust-sized-chunks
+Binary: librust-sized-chunks-dev
+Version: 0.6.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitmaps-2+default-dev <!nocheck>, librust-typenum-1+default-dev (>= 1.11.2-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f16dc06a8bd8dc601690bea0dd0bd3b1 2319 rust-sized-chunks_0.6.2-1.dsc
+ 5b6fbd190240eb14dc888501e048d653 40265 rust-sized-chunks_0.6.2.orig.tar.gz
+ 68cf0915a5061d651562fe6188dbb6a2 2380 rust-sized-chunks_0.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sized-chunks
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/sized-chunks]
+Checksums-Sha256:
+ 10930148650708ba13789026fbe8bf86cf4f5bd93f65b233d15045a0a2996726 2319 rust-sized-chunks_0.6.2-1.dsc
+ 1ec31ceca5644fa6d444cc77548b88b67f46db6f7c71683b0f9336e671830d2f 40265 rust-sized-chunks_0.6.2.orig.tar.gz
+ 793e8f5b75cfda1c318d5c32e51094a9740ef6e4e781595c1bb55d91f7c2f350 2380 rust-sized-chunks_0.6.2-1.debian.tar.xz
+Package-List: 
+ librust-sized-chunks-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-criterion-0.3+default-dev
+Directory: pool/main/r/rust-sized-chunks
+Priority: extra
+Section: misc

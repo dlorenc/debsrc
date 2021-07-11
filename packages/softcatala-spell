@@ -1,0 +1,27 @@
+Package: softcatala-spell
+Binary: icatalan, wcatalan, aspell-ca
+Version: 0.20111230b-13
+Maintainer: Jordi Mallach <jordi@debian.org>
+Uploaders: Agustin Martin Domingo <agmartin@debian.org>
+Build-Depends: aspell, debhelper-compat (= 12), dictionaries-common-dev (>= 1.23.3), ispell
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 03b440c13661bfd0ec58398f736165c3 2169 softcatala-spell_0.20111230b-13.dsc
+ d821c4707dd89e2d682a5650cf7a78a2 732948 softcatala-spell_0.20111230b.orig.tar.xz
+ 4cc408a4634a7384d79a313c0a3e2923 10932 softcatala-spell_0.20111230b-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/softcatala-spell
+Vcs-Git: https://salsa.debian.org/debian/softcatala-spell.git
+Checksums-Sha256:
+ de86fe625f324dbe8c97609874b5af87846756a07b25b5ba3ac3aaa24e22e471 2169 softcatala-spell_0.20111230b-13.dsc
+ ba6d7d93a5b569aa88ab2b97c39c33f485b0cac3b55716e07ffd72947c5f5ec0 732948 softcatala-spell_0.20111230b.orig.tar.xz
+ ac8ac21f901d7ac1c59f4c167f4b69d3fcad6e2aa08277ad9304752f48eff69d 10932 softcatala-spell_0.20111230b-13.debian.tar.xz
+Homepage: https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic
+Package-List: 
+ aspell-ca deb text optional arch=all
+ icatalan deb text optional arch=all
+ wcatalan deb text optional arch=all
+Directory: pool/main/s/softcatala-spell
+Priority: source
+Section: text

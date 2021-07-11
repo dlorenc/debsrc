@@ -1,0 +1,31 @@
+Package: peony-extensions
+Binary: peony-share, parchives, peony-open-terminal, peony-extension-computer-view, peony-set-wallpaper, peony-admin, peony-extensions
+Version: 3.0.2-1
+Maintainer: Kylin Team <team+kylin@tracker.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, handsome_feng <jianfengli@ubuntukylin.com>, He Meihong <hemeihong@kylinos.cn>
+Build-Depends: debhelper-compat (= 12), cmake, pkg-config, libglib2.0-dev, qt5-qmake, qtbase5-dev, qtchooser, qtbase5-dev-tools, libpoppler-qt5-dev, libpeony-dev, libgsettings-qt-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 30b8fad5beaa60b3480a15d6f008c0b3 2577 peony-extensions_3.0.2-1.dsc
+ ec12d60b0a49cc0a4e0da604b360fb12 48386 peony-extensions_3.0.2.orig.tar.gz
+ 7b48568b6e2caf215b04fc61ada6b1b1 3104 peony-extensions_3.0.2-1.debian.tar.xz
+Vcs-Browser: https://github.com/ukui/peony-extensions
+Vcs-Git: https://github.com/ukui/peony-extensions.git
+Checksums-Sha256:
+ f29fb9d5e7dfd92ac7dd5c17514d947a096b6d9388b4401d1e0f77e2a8e2397e 2577 peony-extensions_3.0.2-1.dsc
+ ef4480fe7a0a441e47ecf6c8e10ed6d0f50a073d594e101973d6bc0a77fb27f9 48386 peony-extensions_3.0.2.orig.tar.gz
+ 4a6674d69932ee1784a00710595f33274a3b422dc8917d6390ed155cbe6ae722 3104 peony-extensions_3.0.2-1.debian.tar.xz
+Homepage: https://github.com/ukui/peony-extensions
+Package-List: 
+ parchives deb x11 optional arch=any
+ peony-admin deb x11 optional arch=any
+ peony-extension-computer-view deb x11 optional arch=any
+ peony-extensions deb x11 optional arch=any
+ peony-open-terminal deb x11 optional arch=any
+ peony-set-wallpaper deb x11 optional arch=any
+ peony-share deb x11 optional arch=any
+Directory: pool/main/p/peony-extensions
+Priority: extra
+Section: misc

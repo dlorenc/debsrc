@@ -1,0 +1,25 @@
+Package: pytorch-ignite
+Binary: python3-torch-ignite
+Version: 0.4.3-1
+Maintainer: Debian Deep Learning Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-dill <!nocheck>, python3-matplotlib <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, python3-sklearn <!nocheck>, python3-skimage <!nocheck>, python3-torch
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ cba325e622d748157165dfc60521fb60 2235 pytorch-ignite_0.4.3-1.dsc
+ 1a12f8946685dcac1ceccbb2c2e07ddc 13905977 pytorch-ignite_0.4.3.orig.tar.gz
+ 8e3053b931593972f5bbac22be949862 2196 pytorch-ignite_0.4.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/deeplearning-team/pytorch-ignite
+Vcs-Git: https://salsa.debian.org/deeplearning-team/pytorch-ignite.git
+Checksums-Sha256:
+ 500d20b40b8a036ce920371dc888998aab0d00a4def697f3943e86d766f81a20 2235 pytorch-ignite_0.4.3-1.dsc
+ 2664ce511ecf2f184d0fc3e54d12992598f6522548d4f5eb4a3670d7759532c7 13905977 pytorch-ignite_0.4.3.orig.tar.gz
+ f24b3c2667cdcdd009f1153030cb4c55159ba3743dd8a077d4a8b12ce3a82fd5 2196 pytorch-ignite_0.4.3-1.debian.tar.xz
+Homepage: https://github.com/pytorch/ignite
+Package-List: 
+ python3-torch-ignite deb science optional arch=all
+Directory: pool/main/p/pytorch-ignite
+Priority: extra
+Section: misc

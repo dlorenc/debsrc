@@ -1,0 +1,28 @@
+Package: ilmbase
+Binary: libilmbase25, libilmbase-dev
+Version: 2.5.4-1
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Uploaders: Mathieu Malaterre <malat@debian.org>, Matteo F. Vescovi <mfv@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dpkg-dev (>= 1.16.1)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cbec1ae219b43ca2b7b91f50894c0609 2468 ilmbase_2.5.4-1.dsc
+ e84577f884f05f7432b235432dfec455 27535491 ilmbase_2.5.4.orig.tar.gz
+ 445fa39331ec8bb47d245c12565a226e 287 ilmbase_2.5.4.orig.tar.gz.asc
+ 4ee9fcc50d52de6b5919bf6b157bded0 14348 ilmbase_2.5.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-phototools-team/ilmbase
+Vcs-Git: https://salsa.debian.org/debian-phototools-team/ilmbase.git
+Checksums-Sha256:
+ 1825b9fdc3380518a6431c3c6138559cc9e8c790ccff6f9a8053b9a492b9d9f9 2468 ilmbase_2.5.4-1.dsc
+ dba19e9c6720c6f64fbc8b9d1867eaa75da6438109b941eefdc75ed141b6576d 27535491 ilmbase_2.5.4.orig.tar.gz
+ a2c4ac5151789903ca8ab3093a2798491463ccf2abfd003a20f96453e505dd5f 287 ilmbase_2.5.4.orig.tar.gz.asc
+ a3ebf7d95eb94726db4e0449269b7200c2445176de04349ec62c352ec06c5b30 14348 ilmbase_2.5.4-1.debian.tar.xz
+Homepage: http://www.openexr.com
+Package-List: 
+ libilmbase-dev deb libdevel optional arch=any
+ libilmbase25 deb libs optional arch=any
+Directory: pool/main/i/ilmbase
+Priority: source
+Section: libs

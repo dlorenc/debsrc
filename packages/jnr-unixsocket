@@ -1,0 +1,26 @@
+Package: jnr-unixsocket
+Binary: libjnr-unixsocket-java, libjnr-unixsocket-java-doc
+Version: 0.18-4
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Tim Potter <tpot@hp.com>, Miguel Landaeta <nomadium@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, default-jdk-doc, javahelper, junit4, libjffi-java (>= 1.2.7), libjnr-constants-java, libjnr-enxio-java, libjnr-ffi-java (>= 2.0.12~), libjnr-posix-java, libjnr-x86asm-java (>= 1.0.2), libmaven-bundle-plugin-java, libmaven-exec-plugin-java, libmaven-javadoc-plugin-java, libmaven-source-plugin-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f39345c690f9ca4d610ddaf2a873c03b 2580 jnr-unixsocket_0.18-4.dsc
+ c03f4f69bb0c6f8ad2667b8a697d9421 24038 jnr-unixsocket_0.18.orig.tar.gz
+ 1bac823cef9de97acb46166e8b4c80bd 3316 jnr-unixsocket_0.18-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jnr-unixsocket
+Vcs-Git: https://salsa.debian.org/java-team/jnr-unixsocket.git
+Checksums-Sha256:
+ 55b980ce22d5c4bceaa14f6ec720ad995056e851a0974d47e4c0a33f079988bf 2580 jnr-unixsocket_0.18-4.dsc
+ a4574178795a838b094ec008aa9a8cf9e23ea0bc21aab0c8e05fecfdc26d1e18 24038 jnr-unixsocket_0.18.orig.tar.gz
+ 08317da03731e54754e37a20e55379e6d5c97ee9b8d0d8919fcae083bd824484 3316 jnr-unixsocket_0.18-4.debian.tar.xz
+Homepage: https://github.com/jnr/jnr-unixsocket
+Package-List: 
+ libjnr-unixsocket-java deb java optional arch=all
+ libjnr-unixsocket-java-doc deb doc optional arch=all
+Directory: pool/main/j/jnr-unixsocket
+Priority: optional
+Section: misc

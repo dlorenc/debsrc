@@ -1,0 +1,27 @@
+Package: r-cran-selectr
+Binary: r-cran-selectr
+Version: 0.4-2-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Dylan Aïssi <daissi@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-stringr, r-cran-r6
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c73dc25a0c1c62850e697b3187962f62 2126 r-cran-selectr_0.4-2-2.dsc
+ 165e7b67a11f58c53e55fee4b0da944e 41371 r-cran-selectr_0.4-2.orig.tar.gz
+ 96550ac8c6e45139373a5173201e7ace 2772 r-cran-selectr_0.4-2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-selectr
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-selectr.git
+Checksums-Sha256:
+ d596cc4c5e20030945f758672699f7393edd653a208207c75f95e33c681ae344 2126 r-cran-selectr_0.4-2-2.dsc
+ 5588aed05f3f5ee63c0d29953ef53da5dac7afccfdd04b7b22ef24e1e3b0c127 41371 r-cran-selectr_0.4-2.orig.tar.gz
+ d47fd467e4811fd8ff9cc502ae6986c54b686c883335f062327235d874e131d9 2772 r-cran-selectr_0.4-2-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=selectr
+Package-List: 
+ r-cran-selectr deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat, r-cran-xml, r-cran-xml2
+Directory: pool/main/r/r-cran-selectr
+Priority: extra
+Section: misc

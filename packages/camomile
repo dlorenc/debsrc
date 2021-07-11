@@ -1,0 +1,27 @@
+Package: camomile
+Binary: libcamomile-ocaml-data, libcamomile-ocaml-dev
+Version: 1.0.2-3
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Kyle Robbertze <paddatrapper@debian.org>
+Build-Depends: cppo, debhelper-compat (= 13), dh-ocaml (>= 0.9.1), docbook-xml (>= 4.4), docbook-xsl, ocaml-dune (>= 1.6.2), libxml2-utils, ocaml-findlib (>= 1.4), ocaml-nox (>= 4.02.3), opam-installer, po4a, xsltproc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7de8926c4477bc18819952d309fe9cb8 1997 camomile_1.0.2-3.dsc
+ 2ec60575e485b0b92f821949a81acb4d 7032339 camomile_1.0.2.orig.tar.gz
+ 03e35d5aab165e00857a317181949cb4 60256 camomile_1.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/camomile
+Vcs-Git: https://salsa.debian.org/ocaml-team/camomile.git
+Checksums-Sha256:
+ 9ab6dfbbb1c8d2d3a773c6b245e530b09a55b411256120520b15de2608120c5f 1997 camomile_1.0.2-3.dsc
+ 2149ed1731141b29e0265e99493060eb552ac98938b031c4f496190ba97e85f6 7032339 camomile_1.0.2.orig.tar.gz
+ f65384520740ec0e8f76c5e85835f857c77e1d382a300e805ce5ebdc26454217 60256 camomile_1.0.2-3.debian.tar.xz
+Homepage: https://github.com/yoriyuki/Camomile
+Dgit: 99659f5288f8b6d63d249ba68e5b3614da1f5515 debian archive/debian/1.0.2-3 https://git.dgit.debian.org/camomile
+Package-List: 
+ libcamomile-ocaml-data deb ocaml optional arch=all
+ libcamomile-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/c/camomile
+Priority: source
+Section: libdevel

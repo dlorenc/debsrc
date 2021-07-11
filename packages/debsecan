@@ -1,0 +1,22 @@
+Package: debsecan
+Binary: debsecan
+Version: 0.4.20.1
+Maintainer: Florian Weimer <fw@deneb.enyo.de>
+Build-Depends: debhelper (>> 12), dh-python, python3, python3-apt
+Build-Depends-Indep: po-debconf
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (native)
+Files:
+ 6ad6d672ba8127262f1a00508dc7c240 1240 debsecan_0.4.20.1.dsc
+ fa93d716702f1ed4cf49cf4112fd26d0 57888 debsecan_0.4.20.1.tar.xz
+Vcs-Git: https://gitlab.com/fweimer/debsecan.git
+Checksums-Sha256:
+ 2d0c36b01a8233fec0f89d6a127b6659f5eeb81fccaa4c58074365898144e5a3 1240 debsecan_0.4.20.1.dsc
+ 305cd786b391bf41bc3dd5f3cdf16e12640a2e55d2a30c6514a25535716e1dcc 57888 debsecan_0.4.20.1.tar.xz
+Homepage: https://security-team.debian.org/security_tracker.html
+Package-List: 
+ debsecan deb admin optional arch=all
+Directory: pool/main/d/debsecan
+Priority: source
+Section: admin

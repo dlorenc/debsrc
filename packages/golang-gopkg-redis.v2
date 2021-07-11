@@ -1,0 +1,26 @@
+Package: golang-gopkg-redis.v2
+Binary: golang-gopkg-redis.v2-dev
+Version: 2.3.2-2
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Dmitry Smirnov <onlyjob@debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-go, golang-gopkg-bufio.v1-dev, golang-check.v1-dev | golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 52d9dbbeed661fc9bcc826ea684085ab 2209 golang-gopkg-redis.v2_2.3.2-2.dsc
+ f83eb857a5171c39e6e10348707b5448 24440 golang-gopkg-redis.v2_2.3.2.orig.tar.xz
+ 4b9f391ab8225389832c16a50f8310d3 2316 golang-gopkg-redis.v2_2.3.2-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-gopkg-redis.v2.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-gopkg-redis.v2.git
+Checksums-Sha256:
+ 11a256545707133cfc23ad6baf4f21c652509dc63e7937f3f6ed5a2fd42b6dc6 2209 golang-gopkg-redis.v2_2.3.2-2.dsc
+ 4459fdb3d3e104826fa2c5dc3b7542d2868e92011f6328743b424ea223f5b9d5 24440 golang-gopkg-redis.v2_2.3.2.orig.tar.xz
+ 39ae80396d0dc3f2d9e6ae2299f2a6b319c4f16d4f12b3d230ec241d1a9325c6 2316 golang-gopkg-redis.v2_2.3.2-2.debian.tar.xz
+Homepage: https://github.com/go-redis/redis
+Go-Import-Path: gopkg.in/redis.v2
+Package-List: 
+ golang-gopkg-redis.v2-dev deb devel extra arch=all
+Directory: pool/main/g/golang-gopkg-redis.v2
+Priority: extra
+Section: golang

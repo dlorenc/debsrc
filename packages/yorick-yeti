@@ -1,0 +1,28 @@
+Package: yorick-yeti
+Binary: yorick-yeti, yorick-yeti-tiff, yorick-yeti-regex, yorick-yeti-fftw
+Version: 6.4.0-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Thibaut Paumard <thibaut@debian.org>
+Build-Depends: debhelper (>= 9), yorick-dev (>= 2.1.06), fftw-dev, libtiff-dev
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 56d0d90b0a31b8f4910eb8b9b420a6c5 2252 yorick-yeti_6.4.0-1.dsc
+ 3ae79f2ff9376bc8fe4e12515a254e38 244063 yorick-yeti_6.4.0.orig.tar.gz
+ 92076864e629645638c0dcf97759b964 16568 yorick-yeti_6.4.0-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/gitweb/?p=debian-science/packages/yorick-yeti.git
+Vcs-Git: https://anonscm.debian.org/debian-science/packages/yorick-yeti.git
+Checksums-Sha256:
+ cec8cc14103fa556154866a2d6d7451af393c067df156148e9044a767205229c 2252 yorick-yeti_6.4.0-1.dsc
+ df62337ad1fcb9b80ddf573676b8571430a5a3114b6dae59e5c9ec8d19499094 244063 yorick-yeti_6.4.0.orig.tar.gz
+ 005564978b9ef370485b49b5ba54315df381899d9a01987f47b0ea4ec06347cf 16568 yorick-yeti_6.4.0-1.debian.tar.xz
+Homepage: https://cral.univ-lyon1.fr/labo/perso/eric.thiebaut/?Software/Yeti
+Package-List: 
+ yorick-yeti deb science extra arch=any
+ yorick-yeti-fftw deb science extra arch=any
+ yorick-yeti-regex deb science extra arch=any
+ yorick-yeti-tiff deb science extra arch=any
+Directory: pool/main/y/yorick-yeti
+Priority: source
+Section: science

@@ -1,0 +1,26 @@
+Package: cached-property
+Binary: python3-cached-property
+Version: 1.5.2-1
+Maintainer: Debian Tryton Maintainers <team+tryton-team@tracker.debian.org>
+Uploaders: Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper-compat (= 12), dh-python (>= 1.20130901-1~), python3-freezegun, python3, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 567c595421d9c92156007455cc47eb2b 2166 cached-property_1.5.2-1.dsc
+ 3451c63f8733ea0756ca1dd2b0c04bb8 12244 cached-property_1.5.2.orig.tar.gz
+ b1e3adfad39e07bee98d1cb6cef65711 3780 cached-property_1.5.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/tryton-team/cached-property
+Vcs-Git: https://salsa.debian.org/tryton-team/cached-property.git
+Checksums-Sha256:
+ ad29c5125b0130d8eda345be1babb3361270b6420f76f00dc0bb75079df858fc 2166 cached-property_1.5.2-1.dsc
+ 9fa5755838eecbb2d234c3aa390bd80fbd3ac6b6869109bfc1b499f7bd89a130 12244 cached-property_1.5.2.orig.tar.gz
+ e16f1f2bbaa740ab7771d5a3c23eac2f07feb475daf5b07a0419be79c524ffd8 3780 cached-property_1.5.2-1.debian.tar.xz
+Homepage: https://github.com/pydanny/cached-property
+Package-List: 
+ python3-cached-property deb python optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/c/cached-property
+Priority: optional
+Section: misc

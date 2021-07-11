@@ -1,0 +1,28 @@
+Package: cif-api
+Binary: libcif-dev, libcif1, cif-linguist
+Version: 0.4.2-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>
+Build-Depends: debhelper-compat (= 13), libicu-dev, libsqlite3-dev, pkg-config, uthash-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 11380800692a9496ad755553331867ea 2128 cif-api_0.4.2-2.dsc
+ ddb842380820647b1c4651e6ff67a460 382640 cif-api_0.4.2.orig.tar.xz
+ 77081e83b7319229b59c5e0086f6a4c8 2080 cif-api_0.4.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/cif-api
+Vcs-Git: https://salsa.debian.org/science-team/cif-api.git
+Checksums-Sha256:
+ 42ef783ad4ee4bcbf7760b4ceb7f01c21e1463b45bad4128b7f31869be5e732c 2128 cif-api_0.4.2-2.dsc
+ 32d04754b14892ea822ba587b69f31bcda7bab9b7e0a72dc802ff7761c153a41 382640 cif-api_0.4.2.orig.tar.xz
+ 50a27c94a4630dcce512c05c231a2492e4bccfbc6eea09af5f6797a4f355538b 2080 cif-api_0.4.2-2.debian.tar.xz
+Homepage: https://github.com/COMCIFS/cif_api
+Package-List: 
+ cif-linguist deb science optional arch=any
+ libcif-dev deb libdevel optional arch=any
+ libcif1 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/cif-api
+Priority: extra
+Section: misc

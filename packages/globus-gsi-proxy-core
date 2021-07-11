@@ -1,0 +1,26 @@
+Package: globus-gsi-proxy-core
+Binary: libglobus-gsi-proxy-core0, libglobus-gsi-proxy-core-dev, libglobus-gsi-proxy-core-doc
+Version: 9.5-1
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-openssl-module-dev (>= 3), libglobus-gsi-openssl-error-dev (>= 2), libglobus-gsi-cert-utils-dev (>= 8), libglobus-gsi-sysconfig-dev (>= 5), libglobus-gsi-proxy-ssl-dev (>= 4), libglobus-gsi-credential-dev (>= 5), libssl-dev, doxygen
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ecfbb5b7f9f1ef4ca4189c85f42ec8b2 2427 globus-gsi-proxy-core_9.5-1.dsc
+ fb6afd00b0ef69e3e36a314333cd9f43 363133 globus-gsi-proxy-core_9.5.orig.tar.gz
+ b162c13f8360c7f9b003c41d2d519e69 3892 globus-gsi-proxy-core_9.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-gsi-proxy-core
+Vcs-Git: https://salsa.debian.org/ellert/globus-gsi-proxy-core.git
+Checksums-Sha256:
+ 2e0b0204b92a59917c6a4197a608b13334041bda58c490d6a1b990e3a36b37a8 2427 globus-gsi-proxy-core_9.5-1.dsc
+ 361fb5e640fa60fdb9c77e605681ab0943d01ae941ca13bdc0174728e2304acc 363133 globus-gsi-proxy-core_9.5.orig.tar.gz
+ 680a6297187d2e5acabf76a7fb7d053b53edf0ae9a267914cc78680f37765b56 3892 globus-gsi-proxy-core_9.5-1.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-gsi-proxy-core-dev deb libdevel optional arch=any
+ libglobus-gsi-proxy-core-doc deb doc optional arch=all
+ libglobus-gsi-proxy-core0 deb libs optional arch=any
+Directory: pool/main/g/globus-gsi-proxy-core
+Priority: source
+Section: net

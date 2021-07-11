@@ -1,0 +1,26 @@
+Package: node-he
+Binary: node-he
+Version: 1.2.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 12), nodejs, libjs-qunit, pkg-js-tools (>= 0.9.8~)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ ffe7a3b678b368f05434b39a8b80c324 2037 node-he_1.2.0-1.dsc
+ 095d4167e898e58d7260c43d272ee191 151118 node-he_1.2.0.orig.tar.gz
+ cf84c60f9a4a969d38040355857c23e3 65212 node-he_1.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-he
+Vcs-Git: https://salsa.debian.org/js-team/node-he.git
+Checksums-Sha256:
+ b3962277e1702458826fecb5299af972cfaa4d7a02ad2816d1c580c24a2d0acc 2037 node-he_1.2.0-1.dsc
+ 30d0d4f89f29edbd6d21e69d73a2033a1f2029959ab2d3fea40199a790f3d68a 151118 node-he_1.2.0.orig.tar.gz
+ 11fc6ce8d2f8a35a64cf0f2aa06865479eec2181b2d8b84e25d96dd433f8ca7c 65212 node-he_1.2.0-1.debian.tar.xz
+Homepage: https://github.com/mathiasbynens/he
+Package-List: 
+ node-he deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-he
+Priority: extra
+Section: javascript

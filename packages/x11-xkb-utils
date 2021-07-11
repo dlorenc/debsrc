@@ -1,0 +1,22 @@
+Package: x11-xkb-utils
+Binary: x11-xkb-utils, x11-xkb-utils-udeb
+Version: 7.7+5
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: debhelper-compat (= 12), pkg-config, libx11-dev (>= 2:1.3.3-2), libxaw7-dev (>= 1:1.0.1), libxkbfile-dev (>= 1:1.0.6-2), bison, quilt, xutils-dev (>= 1:7.5+4), x11proto-core-dev (>= 7.0.17)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 1.0
+Files:
+ 9a024b2aafa936ebac79165cd3c9ab98 1815 x11-xkb-utils_7.7+5.dsc
+ 473880c66d6ef02d05db605310a3283c 1058721 x11-xkb-utils_7.7+5.tar.gz
+Vcs-Browser: https://salsa.debian.org/xorg-team/app/x11-xkb-utils
+Vcs-Git: https://salsa.debian.org/xorg-team/app/x11-xkb-utils
+Checksums-Sha256:
+ 4cdfc533112b16a0a0a9ed8a4d779412471824c4b49462bbdd5028d00c9510d4 1815 x11-xkb-utils_7.7+5.dsc
+ 5c5343f2e844a6436e5e857fa0a421438afea06348c39b20913c085062524b3d 1058721 x11-xkb-utils_7.7+5.tar.gz
+Package-List: 
+ x11-xkb-utils deb x11 optional arch=any
+ x11-xkb-utils-udeb udeb debian-installer optional arch=any
+Directory: pool/main/x/x11-xkb-utils
+Priority: source
+Section: x11

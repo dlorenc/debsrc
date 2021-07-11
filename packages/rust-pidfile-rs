@@ -1,0 +1,26 @@
+Package: rust-pidfile-rs
+Binary: librust-pidfile-rs-dev
+Version: 0.1.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-pkg-config-0.3+default-dev <!nocheck>, librust-thiserror-1+default-dev <!nocheck>, libbsd-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bb0bbc0f07a8f96814eaead3a947dfcc 2047 rust-pidfile-rs_0.1.0-2.dsc
+ 3265a3bd4aa112f0e4f732e383dfc260 5016 rust-pidfile-rs_0.1.0.orig.tar.gz
+ fa34debffed9fd9206e8a811568b8a3b 2560 rust-pidfile-rs_0.1.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pidfile-rs
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/pidfile-rs]
+Checksums-Sha256:
+ 3bf6772fe4c060dc31dc109a05925d4fdc95703936af7c58980c1fff64cdb32c 2047 rust-pidfile-rs_0.1.0-2.dsc
+ 5bf50ad3f0e69aab8d669bb31a314baea3f35e4e441c0b07af883c06eacd3496 5016 rust-pidfile-rs_0.1.0.orig.tar.gz
+ a77792568dfdc48bc2563408025fd5c49076ae657a300c9323b185a1e9d13d9d 2560 rust-pidfile-rs_0.1.0-2.debian.tar.xz
+Package-List: 
+ librust-pidfile-rs-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-nix-0.19+default-dev, librust-tempfile-3+default-dev
+Directory: pool/main/r/rust-pidfile-rs
+Priority: extra
+Section: misc

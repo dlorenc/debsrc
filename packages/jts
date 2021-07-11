@@ -1,0 +1,27 @@
+Package: jts
+Binary: libjts-java, libjts-java-doc
+Version: 1.18.0+ds-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Francesco Paolo Lovergine <frankie@debian.org>
+Build-Depends: debhelper (>= 10~), default-jdk-headless, maven-debian-helper
+Build-Depends-Indep: default-jdk-doc, libbuild-helper-maven-plugin-java, libcommons-lang3-java, libjdom2-java, libjson-simple-java, libmaven-bundle-plugin-java, libmaven-compiler-plugin-java, libmaven-javadoc-plugin-java, libmaven-source-plugin-java, junit
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2ef83e4cb3f7e42a8306f493d190fa79 2278 jts_1.18.0+ds-1.dsc
+ 46ea3d378c4790e09ae0839890be7018 10491664 jts_1.18.0+ds.orig.tar.xz
+ 3aa39b1743a4b9f206c25cbef9e4a595 12972 jts_1.18.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/jts
+Vcs-Git: https://salsa.debian.org/debian-gis-team/jts.git
+Checksums-Sha256:
+ 5175b92d9528ab5f9d3a8357ddbe93a76ae6b877c1696ed731ca6f7bfa9923f1 2278 jts_1.18.0+ds-1.dsc
+ 34eaa99bffa55de9b0be78e858f2d0a51759fa47ee4ef44a2e91ec72b449a986 10491664 jts_1.18.0+ds.orig.tar.xz
+ 14f69b30ef0de6034ca43a5c8568e4f0862f49fbf440f96a44e236fe29d20501 12972 jts_1.18.0+ds-1.debian.tar.xz
+Homepage: https://locationtech.github.io/jts/
+Package-List: 
+ libjts-java deb java optional arch=all
+ libjts-java-doc deb doc optional arch=all
+Directory: pool/main/j/jts
+Priority: source
+Section: libs

@@ -1,0 +1,25 @@
+Package: mailman-suite
+Binary: mailman3-web
+Version: 0+20200530-2
+Maintainer: Debian Mailman Team <pkg-mailman-hackers@lists.alioth.debian.org>
+Uploaders: Pierre-Elliott Bécue <peb@debian.org>, Jonas Meurer <jonas@freesources.org>
+Build-Depends: debhelper-compat (= 12), po-debconf
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 08f249e95e553a56807ecc8cb88deb32 2058 mailman-suite_0+20200530-2.dsc
+ 3af0b0b65a3c9bf4e1d793a024e612a0 18815 mailman-suite_0+20200530.orig.tar.gz
+ 298e66d81b9ba051fb041a33350e3e59 25928 mailman-suite_0+20200530-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/mailman-team/mailman-suite
+Vcs-Git: https://salsa.debian.org/mailman-team/mailman-suite.git
+Checksums-Sha256:
+ 45af9d6e94c64cbbadd494229eff8e8d1a3e78bab7df84eeb1857e959d27f364 2058 mailman-suite_0+20200530-2.dsc
+ 2a6524c3121d6aa44f4419ebc53dff9b170ccf52fbf10709f277db6e72451c1b 18815 mailman-suite_0+20200530.orig.tar.gz
+ bcee22baa2ff9ec074162d75f8ba4e9be439f574cd5e4d9ef0b9e1ac59835a6e 25928 mailman-suite_0+20200530-2.debian.tar.xz
+Homepage: https://gitlab.com/mailman/mailman-suite
+Package-List: 
+ mailman3-web deb web optional arch=all
+Directory: pool/main/m/mailman-suite
+Priority: extra
+Section: misc

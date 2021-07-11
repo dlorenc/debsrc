@@ -1,0 +1,26 @@
+Package: libzen
+Binary: libzen-dev, libzen0v5, libzen-doc
+Version: 0.4.38-1
+Maintainer: Chow Loong Jin <hyperair@debian.org>
+Build-Depends: debhelper-compat (= 12), cmake, pkg-config, dh-exec, doxygen, tofrodos
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 15f7ee30aca23e5a8eebc6d0a06da9ca 1991 libzen_0.4.38-1.dsc
+ 25fd517e1b2e46c971cbc9cc26e5d7dd 165225 libzen_0.4.38.orig.tar.gz
+ 491162b792b1239085ddae800decc20e 8992 libzen_0.4.38-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libzen
+Vcs-Git: https://salsa.debian.org/multimedia-team/libzen.git
+Checksums-Sha256:
+ fe45bcb820e04e67979dbf71a0c7eb2ee9455b883e24e154dc7f0c843c9cab23 1991 libzen_0.4.38-1.dsc
+ ad98fccec235ed76a40e7da8856f0bcc9c8d07cafe4c3ce30c47407760add786 165225 libzen_0.4.38.orig.tar.gz
+ e6d7bee0ee4c80238e9931d6f7b8695a968fbf2caa3c44f65ac814437e428b7d 8992 libzen_0.4.38-1.debian.tar.xz
+Homepage: https://github.com/MediaArea/ZenLib/
+Package-List: 
+ libzen-dev deb libdevel optional arch=any
+ libzen-doc deb doc optional arch=all
+ libzen0v5 deb libs optional arch=any
+Directory: pool/main/libz/libzen
+Priority: source
+Section: libs

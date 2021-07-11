@@ -1,0 +1,26 @@
+Package: django-redis
+Binary: python3-django-redis
+Version: 4.12.1-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Scott Kitterman <scott@kitterman.com>, Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 11), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c6d7e0787ba2105211a4d1831c3a783a 2124 django-redis_4.12.1-1.dsc
+ 1cd304e96a882f7ceaccd9c0f5d53d47 23350 django-redis_4.12.1.orig.tar.gz
+ 21fdfb966389e5fc180f545f49c58da8 2928 django-redis_4.12.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/django-redis
+Vcs-Git: https://salsa.debian.org/python-team/modules/django-redis.git
+Checksums-Sha256:
+ 0a9087a19c846237b3d1138c4d535a92cc67fd6ac81628898b31c519702b2e1d 2124 django-redis_4.12.1-1.dsc
+ 306589c7021e6468b2656edc89f62b8ba67e8d5a1c8877e2688042263daa7a63 23350 django-redis_4.12.1.orig.tar.gz
+ 6f03eb37f594c4c4bfe31a26bfbe037cd0485be6c6f03266e4f237f41be42661 2928 django-redis_4.12.1-1.debian.tar.xz
+Homepage: https://github.com/niwinz/django-redis
+Package-List: 
+ python3-django-redis deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/d/django-redis
+Priority: optional
+Section: misc

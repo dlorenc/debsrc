@@ -1,0 +1,24 @@
+Package: modules
+Binary: environment-modules
+Version: 4.6.1-1
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Build-Depends: tcl8.6-dev | tcl-dev, debhelper-compat (= 13), dejagnu, tclx8.4-dev, less, procps
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 03182c5b4a1a7c24c3e5407b7bca9056 1913 modules_4.6.1-1.dsc
+ 0f6df1605364d354a701c3ef7153f8a4 1366828 modules_4.6.1.orig.tar.xz
+ 960d0fa97fa9d6ef196284e0a6354993 7684 modules_4.6.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org:/mckinstry/modules.git
+Vcs-Git: https://salsa.debian.org:/mckinstry/modules.git
+Checksums-Sha256:
+ 807762dfb7fa921962555585b22916e63ba5f89d07f085527b78cd50ef42dd5f 1913 modules_4.6.1-1.dsc
+ 9cef97619bca5c8a8368b43c4ebd50d40cb53fb2d2f140758826d97f7b895905 1366828 modules_4.6.1.orig.tar.xz
+ 0ad4ee583ac26ebb48f8a70b1f70b6a356922406991bc923840c5ac13acbb8d1 7684 modules_4.6.1-1.debian.tar.xz
+Homepage: http://modules.sourceforge.net/
+Package-List: 
+ environment-modules deb devel optional arch=any
+Directory: pool/main/m/modules
+Priority: source
+Section: devel

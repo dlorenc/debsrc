@@ -1,0 +1,26 @@
+Package: node-plur
+Binary: node-plur
+Version: 4.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Abhishek Lolage <abhisheklolage@gmail.com>, Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, node-irregular-plurals <!nocheck>, node-tape <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 36cce5e1231e731558ce8a34835d9a74 2088 node-plur_4.0.0-1.dsc
+ 85af7847ee100313b3f77b8b562db7e1 3190 node-plur_4.0.0.orig.tar.gz
+ 66ac1fdc39749b864d3174fccd406499 3332 node-plur_4.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-plur
+Vcs-Git: https://salsa.debian.org/js-team/node-plur.git
+Checksums-Sha256:
+ 831cd9deb761bb0fc404610ef347d6908dcad399dabfcaa53d53cefd0a6bb872 2088 node-plur_4.0.0-1.dsc
+ 132fa690dd543f0b7bb1feefde4aa9bbb7e9ec7b745de5d65640fb8e84d2b5bb 3190 node-plur_4.0.0.orig.tar.gz
+ aeba20d76d4ff6fd7590834762746b14fb2dfd88d2c9752b72152d5894bb03d4 3332 node-plur_4.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/plur
+Package-List: 
+ node-plur deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-plur
+Priority: optional
+Section: javascript

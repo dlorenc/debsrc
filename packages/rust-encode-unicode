@@ -1,0 +1,27 @@
+Package: rust-encode-unicode
+Binary: librust-encode-unicode-dev, librust-encode-unicode+ascii-dev
+Version: 0.3.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ d5b52e9facaef5fdd00b88061bcd5a48 2355 rust-encode-unicode_0.3.6-1.dsc
+ 95a243b2d7c30018a643e218b3c5d693 45741 rust-encode-unicode_0.3.6.orig.tar.gz
+ 2786ca150ef317dffc58f7b0f8b67722 3140 rust-encode-unicode_0.3.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/encode-unicode
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/encode-unicode]
+Checksums-Sha256:
+ 3964020e0638641dbb08ed4fb96ebe824f1332552a4a2c50a526214b01454d09 2355 rust-encode-unicode_0.3.6-1.dsc
+ a357d28ed41a50f9c765dbfe56cbc04a64e53e5fc58ba79fbc34c10ef3df831f 45741 rust-encode-unicode_0.3.6.orig.tar.gz
+ 7c2add3022e6315f3cfa4df4a368c9a40d05c0cec5919003cb3c24f04be2bf65 3140 rust-encode-unicode_0.3.6-1.debian.tar.xz
+Package-List: 
+ librust-encode-unicode+ascii-dev deb rust optional arch=any
+ librust-encode-unicode-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-lazy-static-1.0+default-dev
+Directory: pool/main/r/rust-encode-unicode
+Priority: extra
+Section: misc

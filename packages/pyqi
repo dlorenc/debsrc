@@ -1,0 +1,27 @@
+Package: pyqi
+Binary: pyqi
+Version: 0.3.2+dfsg-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Tim Booth <tbooth@ceh.ac.uk>
+Build-Depends: debhelper-compat (= 13), dh-python, dh-linktree, python3, python3-sphinx, python3-setuptools, sphinx-common, libjs-sphinxdoc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c783ae010f2c8e9bd073b5b8560efcc6 2113 pyqi_0.3.2+dfsg-7.dsc
+ 9f403d32bb39e908f2020c9daacff95d 49468 pyqi_0.3.2+dfsg.orig.tar.xz
+ 5d8e07549960944ad1c191a3b0cf80e0 8304 pyqi_0.3.2+dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pyqi
+Vcs-Git: https://salsa.debian.org/med-team/pyqi.git
+Checksums-Sha256:
+ 87837e0f159484237a7f28f634f49b0cc3fe873305c6d3bd3bbdc40134b7a8d1 2113 pyqi_0.3.2+dfsg-7.dsc
+ 35228b5963520d3ac60c8ee4ac473ee5cf8ada8afdb16bb04a012644c3b66a2d 49468 pyqi_0.3.2+dfsg.orig.tar.xz
+ 8b335413e1e3703f7f9ba8cc2f0c27fbab0f1b0c1d984be42c38ff7ab370a5c3 8304 pyqi_0.3.2+dfsg-7.debian.tar.xz
+Homepage: https://pypi.python.org/pypi/pyqi/
+Package-List: 
+ pyqi deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/p/pyqi
+Priority: optional
+Section: misc

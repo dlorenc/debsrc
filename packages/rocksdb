@@ -1,0 +1,24 @@
+Package: rocksdb
+Binary: librocksdb-dev, librocksdb6.11, rocksdb-tools
+Version: 6.11.4-3
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: debhelper-compat (= 11), libgflags-dev, libsnappy-dev, libbz2-dev, zlib1g-dev, liblz4-dev, libzstd-dev
+Architecture: amd64 arm64 armel armhf ppc64el mips mipsel mips64el sparc64 s390x i386 riscv64
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 479bcf2218024ad59567aaba23fcaedc 2229 rocksdb_6.11.4-3.dsc
+ 3687e21f5126567c75fea577ca7feff2 6209087 rocksdb_6.11.4.orig.tar.gz
+ 2266f7b3df1e64b30672b37639f6b7d1 5896 rocksdb_6.11.4-3.debian.tar.xz
+Checksums-Sha256:
+ 34efd88bdfc8c51e57bb304eb151f7b7b4e3be10618fd70f1760b5e1fe63a539 2229 rocksdb_6.11.4-3.dsc
+ 6793ef000a933af4a834b59b0cd45d3a03a3aac452a68ae669fb916ddd270532 6209087 rocksdb_6.11.4.orig.tar.gz
+ dfcb4288cc2693a360b425f7dffb4f13c07cecb536c78263fbb1be22b9ddd278 5896 rocksdb_6.11.4-3.debian.tar.xz
+Homepage: https://rocksdb.org/
+Package-List: 
+ librocksdb-dev deb libdevel optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,sparc64,s390x,i386,riscv64
+ librocksdb6.11 deb libs optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,sparc64,s390x,i386,riscv64
+ rocksdb-tools deb database optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,sparc64,s390x,i386,riscv64
+Directory: pool/main/r/rocksdb
+Priority: optional
+Section: misc

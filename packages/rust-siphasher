@@ -1,0 +1,27 @@
+Package: rust-siphasher
+Binary: librust-siphasher-dev
+Version: 0.3.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ c4a3e12b8eeaffb242d7e369f3eae471 2160 rust-siphasher_0.3.1-1.dsc
+ e4788630ee9e7476203f2a5e0b101683 8936 rust-siphasher_0.3.1.orig.tar.gz
+ 9ddf0849d1c6612f7e6940f263f0fcb6 2612 rust-siphasher_0.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/siphasher
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/siphasher]
+Checksums-Sha256:
+ 371e942086291003e6341a598ea1705bb6ea4afbb59d8406e994255e830fd075 2160 rust-siphasher_0.3.1-1.dsc
+ 83da420ee8d1a89e640d0948c646c1c088758d3a3c538f943bfa97bdac17929d 8936 rust-siphasher_0.3.1.orig.tar.gz
+ de7b119b06804316dbdcae08432861c6d05c19018711d8c0eb5b88e84409d350 2612 rust-siphasher_0.3.1-1.debian.tar.xz
+Homepage: https://docs.rs/siphasher
+Package-List: 
+ librust-siphasher-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-siphasher
+Priority: extra
+Section: misc

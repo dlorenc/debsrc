@@ -1,0 +1,26 @@
+Package: phyx
+Binary: phyx
+Version: 1.01+ds-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), python3, liblapack-dev, libnlopt-cxx-dev, libnlopt-dev, libatlas-cpp-0.6-dev, libarmadillo-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5fae8daf0d0fa60f27e3704546d6aa63 2031 phyx_1.01+ds-2.dsc
+ 5fd63897891fed033668a47499d908fa 1037772 phyx_1.01+ds.orig.tar.xz
+ 7a89419153d49cf1fc879241b7e51630 10920 phyx_1.01+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/phyx
+Vcs-Git: https://salsa.debian.org/med-team/phyx.git
+Checksums-Sha256:
+ 06aa2cb9347801b9fbf3c410305fff332643874e620cefe33fe172ee1b47b568 2031 phyx_1.01+ds-2.dsc
+ 8404323f26bcebb49ab1159329be8a4c320799edae87302fa77cd0d531878d09 1037772 phyx_1.01+ds.orig.tar.xz
+ e824b97eee501a425115f6af0c3b4c85bd0d3ee0a2101c5dcc144471d89591ba 10920 phyx_1.01+ds-2.debian.tar.xz
+Homepage: https://github.com/FePhyFoFum/phyx
+Package-List: 
+ phyx deb science optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/p/phyx
+Priority: extra
+Section: misc

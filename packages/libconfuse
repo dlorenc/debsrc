@@ -1,0 +1,29 @@
+Package: libconfuse
+Binary: libconfuse2, libconfuse-common, libconfuse-dev, libconfuse-doc
+Version: 3.3-2
+Maintainer: Aurelien Jarno <aurel32@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: doxygen, xmlto
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d6f2dd2902b35b039d0f6ec198ba444e 2061 libconfuse_3.3-2.dsc
+ 2cca8678e73b1e0e73b058dd2c93b60b 102108 libconfuse_3.3.orig.tar.xz
+ 65a7c1f70622101e7e05dbe04082aefc 7048 libconfuse_3.3-2.debian.tar.xz
+Checksums-Sha256:
+ a44cbae96f0d59b12c40f2c4d4f335a8f30ef0b697fca9e873980d5d489d8315 2061 libconfuse_3.3-2.dsc
+ 51ddd10595c7febc663b90df304f872b6baf937cfb9f2f32ec1a0c545d05574c 102108 libconfuse_3.3.orig.tar.xz
+ db9e8b44942167b9dbf042ef6a48d636d255f072c02b7a0946336e4791cceca7 7048 libconfuse_3.3-2.debian.tar.xz
+Homepage: https://github.com/libconfuse/libconfuse
+Build-Depends-Arch: flex, pkg-config
+Package-List: 
+ libconfuse-common deb libs optional arch=all
+ libconfuse-dev deb libdevel optional arch=any
+ libconfuse-doc deb doc optional arch=all
+ libconfuse2 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, pkg-config
+Directory: pool/main/libc/libconfuse
+Priority: extra
+Section: misc

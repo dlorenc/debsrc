@@ -1,0 +1,26 @@
+Package: webpy
+Binary: python3-webpy, python-webpy-doc
+Version: 1:0.61-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Martin <debacle@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-cheroot, python3-psycopg2, python3-pymysql, python3-pytest, python3-setuptools, python3-sphinx
+Architecture: all
+Standards-Version: 4.0.1
+Format: 3.0 (quilt)
+Files:
+ b28dbbdca86ada68b47ab6a4f015c2a5 2078 webpy_0.61-1.dsc
+ b2852c9f9deb404b9c20dd13131671ad 104356 webpy_0.61.orig.tar.gz
+ d27f440892d5481853d2b5e24de90837 4048 webpy_0.61-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/webpy
+Vcs-Git: https://salsa.debian.org/python-team/modules/webpy.git
+Checksums-Sha256:
+ 97077f26b354f2a009a6bb904844ab58d36926d50da8a60a3ccc17600d020024 2078 webpy_0.61-1.dsc
+ 78c0137faee9e7f86ec53bee25085b2ecb0ac42a162d266d71618c90a16d42c9 104356 webpy_0.61.orig.tar.gz
+ 01234cb56a5ef83577dd9784c585dcfea5c202ed04ec4a5594e20dd888b62faf 4048 webpy_0.61-1.debian.tar.xz
+Homepage: http://webpy.org/
+Package-List: 
+ python-webpy-doc deb doc optional arch=all
+ python3-webpy deb python optional arch=all
+Directory: pool/main/w/webpy
+Priority: source
+Section: python

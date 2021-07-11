@@ -1,0 +1,26 @@
+Package: golang-github-gorilla-pat
+Binary: golang-github-gorilla-pat-dev
+Version: 0.0~git20160413.0.cf955c3-5
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 10), dh-golang, golang-any, golang-github-gorilla-context-dev, golang-github-gorilla-mux-dev
+Architecture: all
+Standards-Version: 4.1.0
+Format: 3.0 (quilt)
+Files:
+ c024f0a9b0bf3817ebdd9563a1c93967 2323 golang-github-gorilla-pat_0.0~git20160413.0.cf955c3-5.dsc
+ 0cf3f32cd5f740794f2a53aef3aeec6d 4304 golang-github-gorilla-pat_0.0~git20160413.0.cf955c3.orig.tar.xz
+ ee689b06e7b49c1631f1021a9eddf8ea 2876 golang-github-gorilla-pat_0.0~git20160413.0.cf955c3-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gorilla-pat
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gorilla-pat.git
+Checksums-Sha256:
+ 162311ae107e954ec1105cbe0f1faf0723929b4bf8cbffbdf46a9d2b63c05744 2323 golang-github-gorilla-pat_0.0~git20160413.0.cf955c3-5.dsc
+ f5a0936e5afb6262bcadbf14a269ac2c558ee147898faec29f7f3bc86a2e28c5 4304 golang-github-gorilla-pat_0.0~git20160413.0.cf955c3.orig.tar.xz
+ 5afb51951503673bf946f31215fd5e30a48fc2a0e216329d2cf10b4e0a7b45f9 2876 golang-github-gorilla-pat_0.0~git20160413.0.cf955c3-5.debian.tar.xz
+Homepage: https://github.com/gorilla/pat
+Go-Import-Path: github.com/gorilla/pat
+Package-List: 
+ golang-github-gorilla-pat-dev deb devel extra arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-gorilla-pat
+Priority: extra
+Section: golang

@@ -1,0 +1,24 @@
+Package: keepalived
+Binary: keepalived
+Version: 1:2.1.5-0.2
+Maintainer: Alexander Wirt <formorer@debian.org>
+Build-Depends: autoconf, debhelper-compat (= 12), libglib2.0-dev, libjson-c-dev, libnl-3-dev, libnl-genl-3-dev, libpcre2-dev, libpopt-dev, libsnmp-dev, libssl-dev, libnl-nf-3-dev, libnfnetlink-dev, libnftnl-dev, libipset-dev, libip4tc-dev, linux-libc-dev, pkg-config
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bda6d7bdaad9d4a5ec5d8ac2165303db 2092 keepalived_2.1.5-0.2.dsc
+ f00235a66052772ed1c384a77ddebe11 1071406 keepalived_2.1.5.orig.tar.gz
+ 35754fa7783b9a28f377b492be1cb386 11004 keepalived_2.1.5-0.2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ipvs-team/pkg-keepalived
+Vcs-Git: https://salsa.debian.org/ipvs-team/pkg-keepalived.git
+Checksums-Sha256:
+ 0f3cd8b5808ead7662820f58a4fec7ca38a77ca5fc9b6bac318e0bec44fac39c 2092 keepalived_2.1.5-0.2.dsc
+ d9a4df5a1cc6fd6f0938298aa890d9b520a094ddfbd6c93e30a65abde60ecc3d 1071406 keepalived_2.1.5.orig.tar.gz
+ 55a410143335ccad20d055255748391bc94494e173a08306d963500a6fafa31e 11004 keepalived_2.1.5-0.2.debian.tar.xz
+Homepage: http://keepalived.org
+Package-List: 
+ keepalived deb admin optional arch=any
+Directory: pool/main/k/keepalived
+Priority: source
+Section: admin

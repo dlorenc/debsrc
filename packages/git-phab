@@ -1,0 +1,25 @@
+Package: git-phab
+Binary: git-phab
+Version: 2.9.0~git20170531+6877964-1
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-sequence-bash-completion, dh-sequence-python3, python3-all, python3-setuptools (>= 0.6.24), python3-appdirs, python3-argcomplete, python3-git, python3-phabricator, pre-commit, asciidoc, libxml2-utils, docbook-xml, xsltproc, docbook-xsl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cdf762ffd52e86825b24062122fd00d6 1755 git-phab_2.9.0~git20170531+6877964-1.dsc
+ 1dba8f0445391e48810ea58f6ba7db01 27436 git-phab_2.9.0~git20170531+6877964.orig.tar.xz
+ db06ac2b124d3177ed84cd3b7737e1ba 3000 git-phab_2.9.0~git20170531+6877964-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/git-phab
+Vcs-Git: https://salsa.debian.org/debian/git-phab.git
+Checksums-Sha256:
+ cf573353aa45d18c3e1d1da4c2fd15186b777e3a5da1e8b37dff393f6e02c00d 1755 git-phab_2.9.0~git20170531+6877964-1.dsc
+ f2289ef11af273c3c1b200703247194dcb86f2ef9df934ed18f7bad2a9c22356 27436 git-phab_2.9.0~git20170531+6877964.orig.tar.xz
+ c7ec4c43488398a1b5877f18ab16353adc1b3135f1a7ed950604d3963e543041 3000 git-phab_2.9.0~git20170531+6877964-1.debian.tar.xz
+Homepage: https://phabricator.freedesktop.org/diffusion/GITPHAB/
+Dgit: d380aea4f4bbecb9e4f7f820b93ae3cdcb4e21b1 debian archive/debian/2.9.0_git20170531+6877964-1 https://git.dgit.debian.org/git-phab
+Package-List: 
+ git-phab deb utils optional arch=all
+Directory: pool/main/g/git-phab
+Priority: optional
+Section: misc

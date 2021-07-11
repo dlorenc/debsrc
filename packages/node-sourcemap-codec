@@ -1,0 +1,26 @@
+Package: node-sourcemap-codec
+Binary: node-sourcemap-codec
+Version: 1.4.8-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-console-group <!nocheck>, node-rollup-plugin-node-resolve (>= 9~), node-rollup-plugin-typescript, node-typescript, node-vlq, pkg-js-tools (>= 0.9.35~), rollup
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bfac089b793b82cd0ace599e931e2768 2271 node-sourcemap-codec_1.4.8-3.dsc
+ 34b35ed2ee352e1a320481f513265f00 6779 node-sourcemap-codec_1.4.8.orig.tar.gz
+ 97207f4285d24a192d12ae257fb3bd24 3240 node-sourcemap-codec_1.4.8-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-sourcemap-codec
+Vcs-Git: https://salsa.debian.org/js-team/node-sourcemap-codec.git
+Checksums-Sha256:
+ 4f35533f14bd7a6c9c49b9abd83cab1a1eb639890638391dc81f3241ceaab037 2271 node-sourcemap-codec_1.4.8-3.dsc
+ 2490cb54067e7c3623c31352c4244a0ed33a45c3c23bd59fef57f4266f0798c1 6779 node-sourcemap-codec_1.4.8.orig.tar.gz
+ 3be86962973f8d6bcde25087a7b20edb1e922fe2aa7e274dc0fe8d49544c98c6 3240 node-sourcemap-codec_1.4.8-3.debian.tar.xz
+Homepage: https://github.com/Rich-Harris/sourcemap-codec
+Package-List: 
+ node-sourcemap-codec deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-sourcemap-codec
+Priority: optional
+Section: javascript

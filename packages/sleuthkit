@@ -1,0 +1,26 @@
+Package: sleuthkit
+Binary: sleuthkit, libtsk19, libtsk-dev
+Version: 4.10.1+dfsg-1
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Build-Depends: debhelper-compat (= 13), libafflib-dev (>= 3.6.6), libewf-dev (>= 20130416), libsqlite3-dev, libvhdi-dev, libvmdk-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ de72543dabe215f651606729b9372214 1816 sleuthkit_4.10.1+dfsg-1.dsc
+ 62cc926470f84cb745dc7e88dc4be22f 2284112 sleuthkit_4.10.1+dfsg.orig.tar.xz
+ f9b64e79574033054728e9d00b0e238e 38304 sleuthkit_4.10.1+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-security-team/sleuthkit
+Vcs-Git: https://salsa.debian.org/pkg-security-team/sleuthkit.git
+Checksums-Sha256:
+ 7822607375cc115e7bc529179029130b59a06bda60d5ac4129a80955feec92b9 1816 sleuthkit_4.10.1+dfsg-1.dsc
+ 27b5e70e0cc560eea3f18e9099098bc31b01bfa46b17889307b4fb76358961e7 2284112 sleuthkit_4.10.1+dfsg.orig.tar.xz
+ 5066992ea03a5ac08e2f3bfca65ff5d3c4134be031d00208c49fdacd003b45f8 38304 sleuthkit_4.10.1+dfsg-1.debian.tar.xz
+Homepage: http://www.sleuthkit.org/sleuthkit
+Package-List: 
+ libtsk-dev deb libdevel optional arch=any
+ libtsk19 deb libs optional arch=any
+ sleuthkit deb admin optional arch=any
+Directory: pool/main/s/sleuthkit
+Priority: source
+Section: admin

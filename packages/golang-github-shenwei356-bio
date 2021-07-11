@@ -1,0 +1,27 @@
+Package: golang-github-shenwei356-bio
+Binary: golang-github-shenwei356-bio-dev
+Version: 0.0~git20201213.18e3e64-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-cznic-sortutil-dev, golang-github-edsrzf-mmap-go-dev, golang-github-shenwei356-breader-dev, golang-github-shenwei356-util-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bc6406b5b29c759ac329d3fc0db78e7e 2561 golang-github-shenwei356-bio_0.0~git20201213.18e3e64-1.dsc
+ eb8fb56071ef35402bad67033125ed06 69992 golang-github-shenwei356-bio_0.0~git20201213.18e3e64.orig.tar.xz
+ 8df8c26bd5bb71f50a000b0df2f10116 2956 golang-github-shenwei356-bio_0.0~git20201213.18e3e64-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-shenwei356-bio
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-shenwei356-bio.git
+Checksums-Sha256:
+ 703e512d7c359003d4c37766f158de6a7950cf3d5fcb3eda5a089929848fbfd6 2561 golang-github-shenwei356-bio_0.0~git20201213.18e3e64-1.dsc
+ d0f7e6d3b7a26db113b93cfb634f6e59f4565b3cb5cc31c2f35a7ab963d77af6 69992 golang-github-shenwei356-bio_0.0~git20201213.18e3e64.orig.tar.xz
+ 144895ddfbc8633f4e21a8a1212fc5e53703e2f8ba09d935ae2969ccb6159eff 2956 golang-github-shenwei356-bio_0.0~git20201213.18e3e64-1.debian.tar.xz
+Homepage: https://github.com/shenwei356/bio
+Go-Import-Path: github.com/shenwei356/bio
+Package-List: 
+ golang-github-shenwei356-bio-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-shenwei356-bio
+Priority: extra
+Section: golang

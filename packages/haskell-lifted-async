@@ -1,0 +1,28 @@
+Package: haskell-lifted-async
+Binary: libghc-lifted-async-dev, libghc-lifted-async-prof, libghc-lifted-async-doc
+Version: 0.10.1.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-async-dev (>= 2.2), libghc-async-dev (<< 2.3), libghc-async-prof, libghc-constraints-dev (>= 0.2), libghc-constraints-dev (<< 0.13), libghc-constraints-prof, libghc-lifted-base-dev (<< 0.3), libghc-lifted-base-dev (>= 0.2), libghc-lifted-base-prof, libghc-monad-control-dev (<< 1.1), libghc-monad-control-dev (>= 1.0), libghc-monad-control-prof, libghc-transformers-base-dev (<< 0.5), libghc-transformers-base-dev (>= 0.4), libghc-transformers-base-prof
+Build-Depends-Indep: ghc-doc, libghc-async-doc, libghc-constraints-doc, libghc-lifted-base-doc, libghc-monad-control-doc, libghc-transformers-base-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 019070a062d607d2fc3284a4dff0c00d 2982 haskell-lifted-async_0.10.1.2-1.dsc
+ 10b249c1d593fe219ebc0bbbcd5c6103 10374 haskell-lifted-async_0.10.1.2.orig.tar.gz
+ a9dbc8fa2f8b326f23711de85d41fc60 3008 haskell-lifted-async_0.10.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-lifted-async
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-lifted-async]
+Checksums-Sha256:
+ 42c6b85ca3da68f806cf023e3db2ad42cda447992e8a4da8f43aa4affc90ab3f 2982 haskell-lifted-async_0.10.1.2-1.dsc
+ bd24cb197953701507680893b84df505eb58d1c31e1d45f9a0edae43cd965713 10374 haskell-lifted-async_0.10.1.2.orig.tar.gz
+ 3ab4939e78fd2196fc4c1f4fa3b081fd673020f4d55c803d60571a89e49b9873 3008 haskell-lifted-async_0.10.1.2-1.debian.tar.xz
+Homepage: https://github.com/maoe/lifted-async
+Package-List: 
+ libghc-lifted-async-dev deb haskell optional arch=any
+ libghc-lifted-async-doc deb doc optional arch=all
+ libghc-lifted-async-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-lifted-async
+Priority: optional
+Section: misc

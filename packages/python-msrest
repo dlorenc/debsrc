@@ -1,0 +1,27 @@
+Package: python-msrest
+Binary: python3-msrest
+Version: 0.6.21-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>, Nicolas Dandrimont <olasd@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-aiohttp (>= 3), python3-aiodns, python3-all, python3-certifi (>= 2017.4.17~), python3-httpretty, python3-isodate (>= 0.6.0~), python3-mock, python3-pytest, python3-requests (>= 2.16~), python3-requests-oauthlib (>= 0.5.0~), python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f50fbefc86d2e92439c3f38e7b196b99 2158 python-msrest_0.6.21-1.dsc
+ 6c00600df638b29d4d07141e1d7e54e9 104069 python-msrest_0.6.21.orig.tar.gz
+ b9579081eec91cc51a6dd6e81a07a329 3280 python-msrest_0.6.21-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-msrest
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-msrest.git
+Checksums-Sha256:
+ b96660cd9ea5348d553489868e80ce39da3ce599fb2270ba42d94429d992dc25 2158 python-msrest_0.6.21-1.dsc
+ a05696317c836d073597510ca875e756433406fa38f4fb360527d91a7b753442 104069 python-msrest_0.6.21.orig.tar.gz
+ 684b1a91c116f1211ada4e8ce2bd0f0c0921aa2411ed770799d0eb8aa14d17a9 3280 python-msrest_0.6.21-1.debian.tar.xz
+Homepage: https://github.com/Azure/msrest-for-python
+Package-List: 
+ python3-msrest deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-aiodns, python3-aiohttp, python3-all, python3-httpretty, python3-mock, python3-pytest
+Directory: pool/main/p/python-msrest
+Priority: optional
+Section: misc

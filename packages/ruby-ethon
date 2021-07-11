@@ -1,0 +1,27 @@
+Package: ruby-ethon
+Binary: ruby-ethon
+Version: 0.9.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 11~), gem2deb, libcurl4, rake, ruby-ffi (>= 1.9.3debian-1+b1), ruby-json, ruby-mime-types (>= 1.18), ruby-rack, ruby-rspec, ruby-sinatra
+Architecture: all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ed0ae167d528563567e82cc44c7c581e 2121 ruby-ethon_0.9.0-2.dsc
+ 202444c1617617e9a5f90d25d35d917e 52211 ruby-ethon_0.9.0.orig.tar.gz
+ 601004bf4bf28d2a1440593ea6ccc2c7 2872 ruby-ethon_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-ethon
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-ethon.git
+Checksums-Sha256:
+ 9adfc59bd256718935cf8c5f614e61931e677dee62f83e73e7f161b8050431af 2121 ruby-ethon_0.9.0-2.dsc
+ 1df608989eb0e1df4a2bfeab1f2fb065fb5c48ebfee4644595c286dd84db95ea 52211 ruby-ethon_0.9.0.orig.tar.gz
+ 61b714a90a68fbc20a71b7f95b11aafe42abad906cb75bd8eb59ecaf99bcdbdd 2872 ruby-ethon_0.9.0-2.debian.tar.xz
+Homepage: https://github.com/typhoeus/ethon
+Package-List: 
+ ruby-ethon deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-ethon
+Priority: optional
+Section: misc

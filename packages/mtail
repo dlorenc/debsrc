@@ -1,0 +1,27 @@
+Package: mtail
+Binary: mtail
+Version: 3.0.0~rc43-3
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Martina Ferrari <tina@debian.org>,
+Build-Depends: debhelper (>= 11), dh-golang (>= 1.17~), golang-any, golang-github-fsnotify-fsnotify-dev, golang-github-golang-groupcache-dev, golang-github-google-go-cmp-dev, golang-github-pkg-errors-dev, golang-github-prometheus-client-golang-dev, golang-glog-dev, golang-go.opencensus-dev, golang-golang-x-tools, tzdata
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ e23770ab83594e5ecc775d9b5de22eef 2304 mtail_3.0.0~rc43-3.dsc
+ b1aa4fd31d7f85d69e2f588910a65b68 548942 mtail_3.0.0~rc43.orig.tar.gz
+ 7354d5ed9c038a10575e00c1553a331d 8272 mtail_3.0.0~rc43-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/mtail
+Vcs-Git: https://salsa.debian.org/go-team/packages/mtail.git
+Checksums-Sha256:
+ 7936e679dc0dde6cf547dce64dc09ad7ec753c253f782f6fc456327cc8ba2432 2304 mtail_3.0.0~rc43-3.dsc
+ 6613a353c2c27621761b1b79910ea42cd8de8abbc32350b965c3e86b0aeb3d44 548942 mtail_3.0.0~rc43.orig.tar.gz
+ c5fd099ae84a66c6b770ea9a702d666d08e117f8b2af88ad87b7df8309fcc38d 8272 mtail_3.0.0~rc43-3.debian.tar.xz
+Homepage: https://github.com/google/mtail/
+Go-Import-Path: github.com/google/mtail
+Package-List: 
+ mtail deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/m/mtail
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-colormin
+Binary: node-colormin
+Version: 1.1.2-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-babel7, node-babel-plugin-add-module-exports, node-color <!nocheck>, node-css-color-names <!nocheck>, node-clone <!nocheck>, node-function-bind <!nocheck>, node-tape <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b1689715d16b1393ef45bf2ad7fdc809 2215 node-colormin_1.1.2-4.dsc
+ 4a5f559a1eb5683d5c2fe756d548e002 4868 node-colormin_1.1.2.orig.tar.gz
+ 47845cf3bc332cb4da98edde27fd09bb 10724 node-colormin_1.1.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-colormin
+Vcs-Git: https://salsa.debian.org/js-team/node-colormin.git
+Checksums-Sha256:
+ f5aa97520b918783cf490f256eab85847afe57195b5aad2ab50b2fb617748979 2215 node-colormin_1.1.2-4.dsc
+ 6031f44fc5ef085c91922bd77260c09203d1f02a22b48c5ae273443a933e8c8f 4868 node-colormin_1.1.2.orig.tar.gz
+ 5ff4b665d15edd84a53183abb5b7327f3c048537035008133043c7f46a903849 10724 node-colormin_1.1.2-4.debian.tar.xz
+Homepage: https://github.com/ben-eb/colormin
+Package-List: 
+ node-colormin deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-colormin
+Priority: extra
+Section: misc

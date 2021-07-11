@@ -1,0 +1,27 @@
+Package: libcgi-application-plugin-ratelimit-perl
+Binary: libcgi-application-plugin-ratelimit-perl
+Version: 1.0-3.1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jaldhar H. Vyas <jaldhar@debian.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libcgi-pm-perl | perl (<< 5.19), perl, libcgi-application-perl, libclass-accessor-perl, libdbi-perl, libdbd-sqlite3-perl
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ c2bd46475f3cbf71d2097468ff5bbf67 2467 libcgi-application-plugin-ratelimit-perl_1.0-3.1.dsc
+ 1013c2f223e9a28ecc203c64f8995b0d 7470 libcgi-application-plugin-ratelimit-perl_1.0.orig.tar.gz
+ b43f91dcf1cd6267c1535356a7a32600 2884 libcgi-application-plugin-ratelimit-perl_1.0-3.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libcgi-application-plugin-ratelimit-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libcgi-application-plugin-ratelimit-perl.git
+Checksums-Sha256:
+ f19e96e189908880fbfd9b3f1860eaba56871bb2b162b29d7ff6b7e16aef5133 2467 libcgi-application-plugin-ratelimit-perl_1.0-3.1.dsc
+ eda5fe08de12ea885520fc9c2b15f448905eece5ce74c765895dfeacf9f3123c 7470 libcgi-application-plugin-ratelimit-perl_1.0.orig.tar.gz
+ 65163b7d1d82432453440ca2ed2794dc81a52e431850cbd25f43d8a6a1043aa2 2884 libcgi-application-plugin-ratelimit-perl_1.0-3.1.debian.tar.xz
+Homepage: https://metacpan.org/release/CGI-Application-Plugin-RateLimit
+Package-List: 
+ libcgi-application-plugin-ratelimit-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcgi-application-plugin-ratelimit-perl
+Priority: source
+Section: perl

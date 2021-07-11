@@ -1,0 +1,29 @@
+Package: camlpdf
+Binary: libcamlpdf-ocaml-dev, libcamlpdf-ocaml
+Version: 2.3.1-2
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Mehdi Dogguy <mehdi@debian.org>, Stéphane Glondu <glondu@debian.org>
+Build-Depends: debhelper-compat (= 13), ocaml-nox, ocaml-findlib, dh-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ feac2fb1cbd39a9d4fa622fd0b3e9858 1913 camlpdf_2.3.1-2.dsc
+ 84baae9a24d7ceac55c59907720f14e1 601531 camlpdf_2.3.1.orig.tar.gz
+ 845775f665fb8572ce1433cf0940f29a 5636 camlpdf_2.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/camlpdf
+Vcs-Git: https://salsa.debian.org/ocaml-team/camlpdf.git
+Checksums-Sha256:
+ 3e767330e7def0d8f52cf29a0a62d4b35d71feea102703e636c1cb9c7629691a 1913 camlpdf_2.3.1-2.dsc
+ 40b68d660247164a8ac0093c20f6c521cc95ed310f6b9a3bca3792a4db29dfd0 601531 camlpdf_2.3.1.orig.tar.gz
+ 8520ad6069f13cc4635f7436bc4b45bb8503fec9e1c2bc0fd85474f733ad739d 5636 camlpdf_2.3.1-2.debian.tar.xz
+Homepage: https://github.com/johnwhitington/camlpdf
+Dgit: 19c704767f5003c532d5a7c897c10ff08501c051 debian archive/debian/2.3.1-2 https://git.dgit.debian.org/camlpdf
+Package-List: 
+ libcamlpdf-ocaml deb ocaml optional arch=any
+ libcamlpdf-ocaml-dev deb ocaml optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ocaml-findlib, ocaml-nox, poppler-utils
+Directory: pool/main/c/camlpdf
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: ocaml-mm
+Binary: libmm-ocaml, libmm-ocaml-dev
+Version: 0.6.0.1~really0.5.0-1
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Kyle Robbertze <paddatrapper@debian.org>, Samuel Mimram <smimram@debian.org>, Romain Beauxis <toots@rastageeks.org>
+Build-Depends: debhelper (>= 11), debhelper-compat (= 13), dh-buildinfo, dh-ocaml (>= 0.9), libalsa-ocaml-dev, libao-ocaml-dev, libgstreamer-ocaml-dev, libmad-ocaml-dev, libogg-ocaml-dev, libpulse-ocaml-dev, libsdl-ocaml-dev, libtheora-ocaml-dev, ocaml-findlib (>= 1.2.4), ocaml-nox (>= 4.08), ocamlbuild
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fb016aac8a643c179919db22280222dc 2419 ocaml-mm_0.6.0.1~really0.5.0-1.dsc
+ a7debedb7a4a186f2f84d561738fcd0a 437564 ocaml-mm_0.6.0.1~really0.5.0.orig.tar.gz
+ beed23fc7c5196d778b05e3da39f2f60 3584 ocaml-mm_0.6.0.1~really0.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocaml-mm
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocaml-mm.git
+Checksums-Sha256:
+ af59e4b14263e33e72b92be8647ec8f5e6c318aaa6933f19d7ce9fbe451846a0 2419 ocaml-mm_0.6.0.1~really0.5.0-1.dsc
+ e1eb10152dd75d0288429bab7f124d95912e1183dadd1cb29d25ff7d55d871b1 437564 ocaml-mm_0.6.0.1~really0.5.0.orig.tar.gz
+ ca7bf2fe06b14616c3ea02a643d829d416c8683abacbccc007dbc59219a46aa0 3584 ocaml-mm_0.6.0.1~really0.5.0-1.debian.tar.xz
+Homepage: https://github.com/savonet/ocaml-mm
+Package-List: 
+ libmm-ocaml deb ocaml optional arch=any
+ libmm-ocaml-dev deb ocaml optional arch=any
+Directory: pool/main/o/ocaml-mm
+Priority: source
+Section: ocaml

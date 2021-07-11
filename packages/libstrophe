@@ -1,0 +1,26 @@
+Package: libstrophe
+Binary: libstrophe-dev, libstrophe0
+Version: 0.10.1-1
+Maintainer: Debian XMPP Maintainers <pkg-xmpp-devel@lists.alioth.debian.org>
+Uploaders: Tomasz Buchert <tomasz@debian.org>, Dariusz Dwornikowski <darek@debian.org>
+Build-Depends: check, debhelper-compat (= 13), doxygen, libexpat1-dev, libssl-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 573b425729111024b92efcb75e24a2d5 2103 libstrophe_0.10.1-1.dsc
+ 4c4c1885859555034faca3e969d2a1b7 173551 libstrophe_0.10.1.orig.tar.gz
+ 938a4ab83a8469b5b90c97c35aa14224 4940 libstrophe_0.10.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xmpp-team/libstrophe
+Vcs-Git: https://salsa.debian.org/xmpp-team/libstrophe.git
+Checksums-Sha256:
+ 8419443d6e15f99ec26bff0886cdff448f9236ddbd11d23f63ac4a49f6b071b2 2103 libstrophe_0.10.1-1.dsc
+ 5bf0bbc555cb6059008f1b748370d4d2ee1e1fabd3eeab68475263556405ba39 173551 libstrophe_0.10.1.orig.tar.gz
+ 613df6a502f819ea4de0189fb1d7965eac7b293af6936e679c4a93d052593676 4940 libstrophe_0.10.1-1.debian.tar.xz
+Homepage: http://strophe.im/
+Package-List: 
+ libstrophe-dev deb libdevel optional arch=any
+ libstrophe0 deb libs optional arch=any
+Directory: pool/main/libs/libstrophe
+Priority: optional
+Section: misc

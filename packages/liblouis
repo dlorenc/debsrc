@@ -1,0 +1,32 @@
+Package: liblouis
+Binary: liblouis-dev, liblouis20, liblouis-data, liblouis-bin, python3-louis
+Version: 3.16.0-1
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>, Cyril Brulebois <kibi@debian.org>
+Build-Depends: debhelper-compat (= 12), automake (>= 1:1.14~), pkg-config, texinfo, help2man, dpkg-dev (>= 1.16), quilt, libyaml-dev
+Build-Depends-Indep: dh-python, python3-all
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4f00e404db1289d3efad6c9513102726 2375 liblouis_3.16.0-1.dsc
+ 1f47b4c7dc2c73a9f97bea441f4c7a86 14858914 liblouis_3.16.0.orig.tar.gz
+ 1fc1cfafcae46cbcff06d7a4a09b6efe 9612 liblouis_3.16.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/liblouis
+Vcs-Git: https://salsa.debian.org/a11y-team/liblouis.git
+Checksums-Sha256:
+ 1cf01c0fead089dada81875411a674e2b5cea16d8a18fc31592480f4503f5f78 2375 liblouis_3.16.0-1.dsc
+ 88cda9ad95ce7fdd5a28d75b0a8ed7097fb24aa0112ebce110c505fd200080aa 14858914 liblouis_3.16.0.orig.tar.gz
+ 15ad624104dbc8659779bde485f2cfc2f43b056c20a1edc09676497a4f81a6c6 9612 liblouis_3.16.0-1.debian.tar.xz
+Homepage: http://liblouis.org/
+Package-List: 
+ liblouis-bin deb text optional arch=any
+ liblouis-data deb text optional arch=all
+ liblouis-dev deb libdevel optional arch=any
+ liblouis20 deb libs optional arch=any
+ python3-louis deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/libl/liblouis
+Priority: source
+Section: libs

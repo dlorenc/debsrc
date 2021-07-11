@@ -1,0 +1,27 @@
+Package: ruby-derailed-benchmarks
+Binary: ruby-derailed-benchmarks
+Version: 1.7.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1), rake (<< 14), rake (>> 10), ruby-benchmark-ips (>= 2), ruby-get-process-mem (>= 0), ruby-heapy (>= 0), ruby-memory-profiler (>= 0), ruby-mini-histogram (>= 0), ruby-rack (>= 1), ruby-statistics (>= 2.1), ruby-thor (<< 2), ruby-thor (>= 0.19), ruby-unicode-plot (<< 1.0.0), ruby-unicode-plot (>= 0.0.4)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4da2ef09408087b2e3e6347ce142f8f8 2484 ruby-derailed-benchmarks_1.7.0-2.dsc
+ 4edf3ba3f591432fbcd80aa46935b57e 110110 ruby-derailed-benchmarks_1.7.0.orig.tar.gz
+ d7301b61d43079a118ac064ed00c54eb 3812 ruby-derailed-benchmarks_1.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-derailed-benchmarks
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-derailed-benchmarks.git
+Checksums-Sha256:
+ 8cdc8d41c4a86a2cd44bbb732d43ae92590b51dee308ef12bf42dcd14e30cde7 2484 ruby-derailed-benchmarks_1.7.0-2.dsc
+ 370d49ae8c5ffe2404de51b23f94edff6c98fae7f579ba1ec166caac080c14e2 110110 ruby-derailed-benchmarks_1.7.0.orig.tar.gz
+ 40b608760c53c5cf4e6326a32dcdac8496e917c0336a10c6feb65037966e10ec 3812 ruby-derailed-benchmarks_1.7.0-2.debian.tar.xz
+Homepage: https://github.com/schneems/derailed_benchmarks
+Package-List: 
+ ruby-derailed-benchmarks deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-derailed-benchmarks
+Priority: extra
+Section: misc

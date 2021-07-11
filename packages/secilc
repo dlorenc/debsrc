@@ -1,0 +1,27 @@
+Package: secilc
+Binary: secilc, secilc-doc
+Version: 3.1-1
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Uploaders: Laurent Bigonville <bigon@debian.org>
+Build-Depends: checkpolicy (>= 3.1) <!nocheck>, debhelper (>= 12), libsepol1-dev (>= 3.1), xmlto
+Build-Depends-Indep: lmodern <!nodoc>, pandoc <!nodoc>, texlive-fonts-recommended <!nodoc>, texlive-latex-extra <!nodoc>, texlive-latex-recommended <!nodoc>
+Architecture: linux-any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1641450f74de12424b19c6ef378b9931 1867 secilc_3.1-1.dsc
+ f9743e405a8de331c249b723c09c6c3f 176631 secilc_3.1.orig.tar.gz
+ f4d8eea17dca99ec862c1ec28d32ae89 3484 secilc_3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/selinux-team/secilc
+Vcs-Git: https://salsa.debian.org/selinux-team/secilc.git
+Checksums-Sha256:
+ 5f6bd67c49393ad1571dd8726cf946819062034f9159a2d4b171f19b13559974 1867 secilc_3.1-1.dsc
+ 86117246fec3017af710a9ff7c1dae3ed1cd571e232a86cff3e2a3de2d6aa65c 176631 secilc_3.1.orig.tar.gz
+ e5ad57b881eeb2cda1533ecef922d7c6fba90a452605d17284222e97e66699ac 3484 secilc_3.1-1.debian.tar.xz
+Homepage: https://github.com/SELinuxProject/selinux/wiki
+Package-List: 
+ secilc deb utils optional arch=linux-any
+ secilc-doc deb doc optional arch=all profile=!nodoc
+Directory: pool/main/s/secilc
+Priority: optional
+Section: misc

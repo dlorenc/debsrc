@@ -1,0 +1,27 @@
+Package: r-bioc-beachmat
+Binary: r-bioc-beachmat
+Version: 2.6.4+ds-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-delayedarray (>= 0.15.14), r-bioc-biocgenerics, r-cran-matrix
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 696ba2d983512ee98e0423afcb435a42 2269 r-bioc-beachmat_2.6.4+ds-1.dsc
+ 5455c19bc4940f2800de8a33ad32cfe4 71840 r-bioc-beachmat_2.6.4+ds.orig.tar.xz
+ 41bc0fdc1f8ea094a3ee2e0b6c974936 2744 r-bioc-beachmat_2.6.4+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-beachmat
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-beachmat.git
+Checksums-Sha256:
+ f4c88bc2c33e00aec2369a67a62de033cdc50c517fb3fc138c55093c84269b51 2269 r-bioc-beachmat_2.6.4+ds-1.dsc
+ 63b8df81d723076b64f75ff2b0f6787b827e47f448efd381e21824a16fe3a0b7 71840 r-bioc-beachmat_2.6.4+ds.orig.tar.xz
+ f8abf03f0999c17cfc38ef3fe363f85a0438f3f8691e5520ef4afd9a7ba843d0 2744 r-bioc-beachmat_2.6.4+ds-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/beachmat/
+Package-List: 
+ r-bioc-beachmat deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: g++, r-bioc-biocparallel, r-cran-devtools, r-cran-testthat, texlive-latex-base
+Directory: pool/main/r/r-bioc-beachmat
+Priority: extra
+Section: misc

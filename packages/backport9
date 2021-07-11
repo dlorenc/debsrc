@@ -1,0 +1,26 @@
+Package: backport9
+Binary: libbackport9-java, libbackport9-java-doc
+Version: 1.10-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Louis-Philippe Véronneau <pollo@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, default-jdk-doc, maven-debian-helper, junit4, libmaven-compiler-plugin-java, libmaven-javadoc-plugin-java
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fdfdaf666054afb037f83d37ba7a3f27 2128 backport9_1.10-2.dsc
+ ed2c2a5ea9ba5cd42e2abaabfbbabebc 8070 backport9_1.10.orig.tar.gz
+ b1a8483f177dafc4a07067a507e5b5df 2184 backport9_1.10-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/backport9
+Vcs-Git: https://salsa.debian.org/java-team/backport9.git
+Checksums-Sha256:
+ 7289e61473d60af23cf1291f575c09398c0557ab409c4a2a46de68312bc7d170 2128 backport9_1.10-2.dsc
+ 043925e0409b05564f7dab6c76e880b883a182abb7f947bb685ae2eb555a0405 8070 backport9_1.10.orig.tar.gz
+ 70c964a2c32c51173f02c701a2a781c1539e72bd49e5f74b41805225f4be1eb8 2184 backport9_1.10-2.debian.tar.xz
+Homepage: https://github.com/headius/backport9
+Package-List: 
+ libbackport9-java deb java optional arch=all
+ libbackport9-java-doc deb doc optional arch=all
+Directory: pool/main/b/backport9
+Priority: extra
+Section: misc

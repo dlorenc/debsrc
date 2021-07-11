@@ -1,0 +1,27 @@
+Package: pydispatcher
+Binary: python3-pydispatch, python-pydispatch-doc
+Version: 2.0.5-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Neil Muller <drnlmuller+debian@gmail.com>
+Build-Depends: debhelper-compat (= 9), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 16aab8bd5bae1582525944c565ac25f0 2166 pydispatcher_2.0.5-2.dsc
+ 1b9c2ca33580c2770577add7130b0b28 34437 pydispatcher_2.0.5.orig.tar.gz
+ 754a6167d1f5fceaafa1413340a8365a 6524 pydispatcher_2.0.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pydispatcher
+Vcs-Git: https://salsa.debian.org/python-team/modules/pydispatcher.git
+Checksums-Sha256:
+ 55bf17e527c968af6a9d467a717166efa1af3d2b643e7d49a660d89dfde51dc1 2166 pydispatcher_2.0.5-2.dsc
+ 5570069e1b1769af1fe481de6dd1d3a388492acddd2cdad7a3bde145615d5caf 34437 pydispatcher_2.0.5.orig.tar.gz
+ 7cd422889e8e73f515e5d0bd0a4b574c8362f1981c32ffb68aeea1447a5a9458 6524 pydispatcher_2.0.5-2.debian.tar.xz
+Homepage: http://pydispatcher.sourceforge.net/
+Package-List: 
+ python-pydispatch-doc deb doc optional arch=all
+ python3-pydispatch deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/pydispatcher
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: python-fakeredis
+Binary: python3-fakeredis
+Version: 1.4.5-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ondřej Kobližek <kobla@debian.org>, Ondřej Nový <onovy@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-aioredis, python3-all, python3-future, python3-hypothesis, python3-lupa, python3-pytest (>= 4.6.4), python3-pytest-cov (>= 2.7.1), python3-pytest-cov (<< 3.0), python3-pytest-mock, python3-redis, python3-setuptools, python3-six, python3-sortedcontainers
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6573d76f923ee3dd2e11b2bcd8570966 2608 python-fakeredis_1.4.5-2.dsc
+ 3973d3650520b9b46cb5342f0abce8ea 66197 python-fakeredis_1.4.5.orig.tar.gz
+ a32a4d748cb6567d2fb82a0179e7202a 4432 python-fakeredis_1.4.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-fakeredis
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-fakeredis.git
+Checksums-Sha256:
+ 52eab99b3c69513f12ad0283e3c07766481a47467905b06f8064b402d773450a 2608 python-fakeredis_1.4.5-2.dsc
+ a8ed60e59dd2668a9f853ac19e4c5cf8ee7aa041be15ea7da6e9837482b69b5c 66197 python-fakeredis_1.4.5.orig.tar.gz
+ 6387f6826e7922a2565fae005d996866d3b09bd297714127c52484e4061cd030 4432 python-fakeredis_1.4.5-2.debian.tar.xz
+Homepage: https://github.com/jamesls/fakeredis
+Package-List: 
+ python3-fakeredis deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: python3-aioredis, python3-all, python3-future, python3-hypothesis, python3-lupa, python3-pytest, python3-pytest-cov, python3-pytest-mock, python3-redis, python3-setuptools, python3-six, python3-sortedcontainers, redis-server
+Directory: pool/main/p/python-fakeredis
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-cookie
+Binary: libghc-cookie-dev, libghc-cookie-prof, libghc-cookie-doc
+Version: 0.4.5-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-data-default-class-dev, libghc-data-default-class-prof
+Build-Depends-Indep: ghc-doc, libghc-data-default-class-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 24b22ca72899276ea2409228b9057454 2368 haskell-cookie_0.4.5-1.dsc
+ a3739514859a70325882534daeeddbe2 6048 haskell-cookie_0.4.5.orig.tar.gz
+ 5d73ca5747ba2a0d9e91660780dd2ef8 2936 haskell-cookie_0.4.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-cookie
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-cookie]
+Checksums-Sha256:
+ 09df88745ba096b5f5cf6af0324d524625fc4dc23bbc42179e651ebd4442e634 2368 haskell-cookie_0.4.5-1.dsc
+ 707f94d1b31018b91d6a1e9e19ef5413e20d02cab00ad93a5fd7d7b3b46a3583 6048 haskell-cookie_0.4.5.orig.tar.gz
+ 9fd1dd939834eddaecf0d64910fdd35e102adaf0ac1fcb8afb68fb414cbd44d9 2936 haskell-cookie_0.4.5-1.debian.tar.xz
+Homepage: http://github.com/snoyberg/cookie
+Package-List: 
+ libghc-cookie-dev deb haskell optional arch=any
+ libghc-cookie-doc deb doc optional arch=all
+ libghc-cookie-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cookie
+Priority: source
+Section: haskell

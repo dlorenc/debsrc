@@ -1,0 +1,26 @@
+Package: pg-rage-terminator
+Binary: pg-rage-terminator-13
+Version: 0.1.7-5
+Maintainer: Adrian Vondendriesch <adrian.vondendriesch@credativ.de>
+Build-Depends: debhelper-compat (= 13), postgresql-all (>= 219~)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 24aa988c2677433b2ed71eca086c6cdc 2059 pg-rage-terminator_0.1.7-5.dsc
+ 7f6cfb18ff7cb4faaf6eb1ce1950c411 4327 pg-rage-terminator_0.1.7.orig.tar.gz
+ b2de3554402bd91705df5a5058d3dc8e 2740 pg-rage-terminator_0.1.7-5.debian.tar.xz
+Vcs-Browser: https://github.com/disco-stu/pg-rage-terminator-pkg
+Vcs-Git: https://github.com/disco-stu/pg-rage-terminator-pkg.git
+Checksums-Sha256:
+ 8d87a3fa3012b8bc4d89bbc78cf9ed6d68a8763cf03b4adddbe662c2adf9d72f 2059 pg-rage-terminator_0.1.7-5.dsc
+ 86fef4ff5d482c7ae42b798330110ee328f8d71d29f06a910d0b0b1551dbe610 4327 pg-rage-terminator_0.1.7.orig.tar.gz
+ 0e4eeb37265ec6a197d7232091e0195a5ad69b04675bccf62e72eec8ee70d3d5 2740 pg-rage-terminator_0.1.7-5.debian.tar.xz
+Homepage: https://github.com/disco-stu/pg_rage_terminator
+Package-List: 
+ pg-rage-terminator-13 deb database optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: postgresql-common
+Directory: pool/main/p/pg-rage-terminator
+Priority: optional
+Section: misc

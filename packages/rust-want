@@ -1,0 +1,25 @@
+Package: rust-want
+Binary: librust-want-dev
+Version: 0.2.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>, Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-futures-0.1+default-dev <!nocheck>, librust-log-0.4+default-dev <!nocheck>, librust-try-lock-0.2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ ec54846ccb80e051a9293a6ceab10c22 2229 rust-want_0.2.0-1.dsc
+ bb9659c5ba8b3a97c7b6a15d4f857953 6279 rust-want_0.2.0.orig.tar.gz
+ 4b0913a83e9f33f9caa9408d85edeaad 2380 rust-want_0.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/want
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/want]
+Checksums-Sha256:
+ 6bc38ac3ace5dc426317e82b4f963ab248ba6078527634b07ee479e69d1c6666 2229 rust-want_0.2.0-1.dsc
+ 5af5144d719d7fd630ef5888d56b923d4d5ad17463fb524019cab0de3b571d30 6279 rust-want_0.2.0.orig.tar.gz
+ 76d682dae3c3ede4a658da2b8730f308e37fa4ec6f39b540728b9c97d21a51d0 2380 rust-want_0.2.0-1.debian.tar.xz
+Homepage: https://github.com/seanmonstar/want
+Package-List: 
+ librust-want-dev deb rust optional arch=any
+Directory: pool/main/r/rust-want
+Priority: extra
+Section: misc

@@ -1,0 +1,30 @@
+Package: espeak
+Binary: espeak, espeak-data, espeak-data-udeb, libespeak1, libespeak-dev
+Version: 1.48.15+dfsg-2
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), portaudio19-dev, libsonic-dev, libpulse-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 96abb9dec4689dd2c0da0abe22e6acdb 2250 espeak_1.48.15+dfsg-2.dsc
+ e83984cb2e953c88b1c5018f6b5619ae 2557681 espeak_1.48.15+dfsg.orig.tar.gz
+ ead167d44617dc5834f047d8a234647a 40988 espeak_1.48.15+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/espeak
+Vcs-Git: https://salsa.debian.org/a11y-team/espeak.git
+Checksums-Sha256:
+ dcac9c5e07f8a56ceb087d6f947fcb3673bc11e2a138f38b4b06a47a928268ff 2250 espeak_1.48.15+dfsg-2.dsc
+ 27b2b012b955e9fcb3edd3b3127ec0f0564a0a62cff64446a52d2c572c59be67 2557681 espeak_1.48.15+dfsg.orig.tar.gz
+ c0f2ff903ad510e659061856b111ce82ffe02d74b531ec217636f1df3e5321a2 40988 espeak_1.48.15+dfsg-2.debian.tar.xz
+Homepage: http://espeak.sourceforge.net/
+Package-List: 
+ espeak deb sound optional arch=any
+ espeak-data deb sound optional arch=any
+ espeak-data-udeb udeb debian-installer optional arch=any
+ libespeak-dev deb libdevel optional arch=any
+ libespeak1 deb libs optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/e/espeak
+Priority: source
+Section: sound

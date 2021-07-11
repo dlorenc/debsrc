@@ -1,0 +1,27 @@
+Package: php-horde-share
+Binary: php-horde-share
+Version: 2.2.0-8
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5dfeba931f784f02a788ab03085317a2 2266 php-horde-share_2.2.0-8.dsc
+ 0085705c24d02a403873397b6897105b 61899 php-horde-share_2.2.0.orig.tar.gz
+ 8f17e47dfae6f437786e35068fc564f4 6292 php-horde-share_2.2.0-8.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-share
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-share.git
+Checksums-Sha256:
+ 3b88969069d1f7e134f4a7ff37bd5ffb022e71045eca263c8ba77f378cfffb3a 2266 php-horde-share_2.2.0-8.dsc
+ a1aacdef5080237130e337ff5179d23b9c578bc830300949ba045e30d5665397 61899 php-horde-share_2.2.0.orig.tar.gz
+ f2960d3be27e12db73ce5b2b1f85bc66bf40f369caa633d18e0132354a945ac9 6292 php-horde-share_2.2.0-8.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-share deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: mysql-server, php-cli, php-horde-db, php-horde-injector, php-horde-kolab-storage, php-horde-log, php-horde-test, php-mysql, php-pgsql, php-sqlite3, postgresql
+Directory: pool/main/p/php-horde-share
+Priority: extra
+Section: misc

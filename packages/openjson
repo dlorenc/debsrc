@@ -1,0 +1,26 @@
+Package: openjson
+Binary: libopenjson-java
+Version: 1.0.12-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Sudip Mukherjee <sudipm.mukherjee@gmail.com>
+Build-Depends: debhelper-compat (= 13), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: junit4 (>= 4.12), libmaven-bundle-plugin-java (>= 3.5.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c5081cbd1e5613f8a85332e4453863a9 2063 openjson_1.0.12-2.dsc
+ 34cd98526d4470f2d4f519937551ab78 52401 openjson_1.0.12.orig.tar.gz
+ fad8e68481e0fbb2b3a2fb9bc5f328a0 2140 openjson_1.0.12-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/openjson
+Vcs-Git: https://salsa.debian.org/java-team/openjson.git
+Checksums-Sha256:
+ 8959bd885967858fea40ba1984a216e9e6f6ea3b308bd6f3d4269b309ac356aa 2063 openjson_1.0.12-2.dsc
+ ab4ebc63a8525e0403f675cb6ef77771eca021d29b9fb7c461e0cbcc2d29c3a2 52401 openjson_1.0.12.orig.tar.gz
+ 4049be79f9ff16f672fd91e0c01b557e2ba28001f4178598557ece88f0ec393d 2140 openjson_1.0.12-2.debian.tar.xz
+Homepage: https://github.com/openjson/openjson
+Package-List: 
+ libopenjson-java deb java optional arch=all
+Directory: pool/main/o/openjson
+Priority: extra
+Section: misc

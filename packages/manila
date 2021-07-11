@@ -1,0 +1,33 @@
+Package: manila
+Binary: manila-api, manila-common, manila-data, manila-doc, manila-scheduler, manila-share, python3-manila
+Version: 1:11.0.0-2
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>, Michal Arbet <michal.arbet@ultimum.io>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools (>= 99~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx <!nodoc>
+Build-Depends-Indep: alembic (>= 0.8.10), git, python3-bashate, python3-cinderclient, python3-coverage, python3-ddt <!nodoc>, python3-eventlet (>= 0.22.0), python3-fixtures <!nodoc>, python3-glanceclient (>= 1:2.15.0), python3-greenlet, python3-hacking, python3-iso8601, python3-keystoneauth1, python3-keystonemiddleware, python3-lxml (>= 4.5.0), python3-mysqldb, python3-netaddr, python3-neutronclient, python3-novaclient, python3-openstackdocstheme <!nodoc>, python3-os-api-ref, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db (>= 5.1.1), python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy, python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service (>= 2.1.1), python3-oslo.upgradecheck, python3-oslo.utils (>= 3.40.2), python3-oslotest <!nodoc>, python3-paramiko (>= 2.7.1), python3-paste, python3-pastedeploy, python3-pep8, python3-psycopg2 (>= 2.8.5), python3-pymysql, python3-pyparsing, python3-requests, python3-requests-mock, python3-retrying, python3-routes, python3-six, python3-sqlalchemy, python3-stestr <!nocheck>, python3-stevedore, python3-testresources <!nocheck>, python3-testscenarios <!nocheck>, python3-testtools, python3-tooz, python3-webob
+Build-Conflicts: bpython, ipython
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b07abc5d9b1609edac26776b3be80793 3744 manila_11.0.0-2.dsc
+ ba7dea1ad43363c002ac231d06a9b894 2000740 manila_11.0.0.orig.tar.xz
+ 682e1d09f3233ec3b8e5d833379809fd 11388 manila_11.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/services/manila
+Vcs-Git: https://salsa.debian.org/openstack-team/services/manila.git
+Checksums-Sha256:
+ e50be5b0562d67868c4a7d61736fd7ccc9d23a3ce8813ba295a49f54fae8616f 3744 manila_11.0.0-2.dsc
+ c906fbd7640c8431a8bfc9bad3f39a1fe778c950a339163c6ccc0ced2a357011 2000740 manila_11.0.0.orig.tar.xz
+ 1d076121c08caf20b78d9e02bf13f4af5103d8ca7848baca14140b71e4d95b2d 11388 manila_11.0.0-2.debian.tar.xz
+Homepage: https://github.com/openstack/manila
+Package-List: 
+ manila-api deb net optional arch=all
+ manila-common deb net optional arch=all
+ manila-data deb net optional arch=all
+ manila-doc deb doc optional arch=all
+ manila-scheduler deb net optional arch=all
+ manila-share deb net optional arch=all
+ python3-manila deb python optional arch=all
+Directory: pool/main/m/manila
+Priority: optional
+Section: misc

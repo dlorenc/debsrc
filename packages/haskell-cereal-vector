@@ -1,0 +1,26 @@
+Package: haskell-cereal-vector
+Binary: libghc-cereal-vector-dev, libghc-cereal-vector-prof, libghc-cereal-vector-doc
+Version: 0.2.0.1-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-cereal-dev (>= 0.3), libghc-cereal-prof (>= 0.3), libghc-vector-dev (>= 0.9), libghc-vector-prof (>= 0.9), libghc-quickcheck2-dev
+Build-Depends-Indep: ghc-doc, libghc-cereal-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 782f05917bf1d8344ec740b8b58be96d 2407 haskell-cereal-vector_0.2.0.1-4.dsc
+ b3d7f4dad1266ddc86f37f582738b098 3337 haskell-cereal-vector_0.2.0.1.orig.tar.gz
+ 6c9a4c176f2a18744bdb9c8ed83019b3 2536 haskell-cereal-vector_0.2.0.1-4.debian.tar.xz
+Checksums-Sha256:
+ e8eaf24016b773a8b5954593b227d9ea1f6fd6037f3c3790e257f3f97b552c5f 2407 haskell-cereal-vector_0.2.0.1-4.dsc
+ ff0685a6c39e7aae32f8b4165e2ae06f284c867298ad4f7b776c1c1b2859f933 3337 haskell-cereal-vector_0.2.0.1.orig.tar.gz
+ 9885c84ea588a73a7f27196777883a0cc485cebc02384085894b5c8e14117c37 2536 haskell-cereal-vector_0.2.0.1-4.debian.tar.xz
+Homepage: https://github.com/acfoltzer/cereal-vector
+Package-List: 
+ libghc-cereal-vector-dev deb haskell optional arch=any
+ libghc-cereal-vector-doc deb doc optional arch=all
+ libghc-cereal-vector-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cereal-vector
+Priority: extra
+Section: misc

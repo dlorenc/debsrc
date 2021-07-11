@@ -1,0 +1,27 @@
+Package: python-pysnmp4
+Binary: python3-pysnmp4, python-pysnmp4-doc
+Version: 4.4.12-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Jan Lübbe <jluebbe@debian.org>, Deepak Tripathi <apenguinlinux@gmail.com>, Vincent Bernat <bernat@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-sphinx, python3-sphinx-rtd-theme, python3-all, python3-setuptools, python3-pycryptodome, python3-twisted, python3-pysmi, python3-pyasn1 (>= 0.2.3)
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ c7be01712d0925e2ec7880f78092dcd4 2329 python-pysnmp4_4.4.12-1.dsc
+ 2be7b1f50fd920316e4d93ee8fe65162 446871 python-pysnmp4_4.4.12.orig.tar.gz
+ 863e84f2d461abb0cdb2c3ee0ddd5191 6204 python-pysnmp4_4.4.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-pysnmp4
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-pysnmp4.git
+Checksums-Sha256:
+ 26913b4d8121ec1d45cadc273bca029f68c37c5ecd744093cdae1dc99009ed4b 2329 python-pysnmp4_4.4.12-1.dsc
+ 137d8fd93fffadd0c6d34c65e4dda373f41122a5f1c38537cc9ec4194dc99980 446871 python-pysnmp4_4.4.12.orig.tar.gz
+ 173a442ad833610f30ea75d564c618e317d8eaa5d9e8125ba8ab9e893a7803da 6204 python-pysnmp4_4.4.12-1.debian.tar.xz
+Homepage: http://pysnmp.sourceforge.net/
+Package-List: 
+ python-pysnmp4-doc deb doc optional arch=all
+ python3-pysnmp4 deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-pysnmp4
+Priority: source
+Section: python

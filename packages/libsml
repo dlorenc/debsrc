@@ -1,0 +1,25 @@
+Package: libsml
+Binary: libsml-dev, libsml1
+Version: 0.1.1+git20180125-1.1
+Maintainer: Andreas Moog <andreas.moog@warperbbs.de>
+Build-Depends: debhelper (>= 11~), uuid-dev (>= 2.16), dh-exec
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ def6ca35e582c82216d9fd643153cd72 1984 libsml_0.1.1+git20180125-1.1.dsc
+ ba10cd0747c5cd3c7bd96860bf94e750 51684 libsml_0.1.1+git20180125.orig.tar.xz
+ 4055849b74cb4af266e2a63f8d74d5d6 5340 libsml_0.1.1+git20180125-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/amoog-guest/libsml
+Vcs-Git: https://salsa.debian.org/amoog-guest/libsml.git
+Checksums-Sha256:
+ 4ac6f82362d16b2e53bbe7105132df783b7ed3ddcc5ac03481c2e67bec442d55 1984 libsml_0.1.1+git20180125-1.1.dsc
+ 57956f151744b63e6c28e36a1cd7271a12987efa29757899ae7fa44a73ff663c 51684 libsml_0.1.1+git20180125.orig.tar.xz
+ 1e6ab22b691492002296aaf3ed91348bc28a84a6eac8214de28173d936939b1d 5340 libsml_0.1.1+git20180125-1.1.debian.tar.xz
+Homepage: https://github.com/dailab/libsml
+Package-List: 
+ libsml-dev deb libdevel optional arch=any
+ libsml1 deb libs optional arch=any
+Directory: pool/main/libs/libsml
+Priority: extra
+Section: misc

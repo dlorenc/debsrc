@@ -1,0 +1,26 @@
+Package: node-bluebird
+Binary: node-bluebird
+Version: 3.7.2+dfsg1-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Hubert Chathi <uhoreg@debian.org>
+Build-Depends: debhelper-compat (= 13), uglifyjs, mocha, node-cli-table, node-rimraf, node-optimist, node-acorn (>= 6), node-body-parser, node-co, node-glob, node-mkdirp (>= 1), node-rx, node-serve-static, node-sinon, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4646a421c93048fae451459b8b8e64b5 2255 node-bluebird_3.7.2+dfsg1-4.dsc
+ d1c2462e0182a7172ba0a597e0500c99 140768 node-bluebird_3.7.2+dfsg1.orig.tar.xz
+ a0ac7dae3d9b4eb79504682545f0a758 38872 node-bluebird_3.7.2+dfsg1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-bluebird
+Vcs-Git: https://salsa.debian.org/js-team/node-bluebird.git
+Checksums-Sha256:
+ 0bdee829a4b5fa5abf37b81bb2462935cedbe766cb6b92ed6ac37c06c02256fb 2255 node-bluebird_3.7.2+dfsg1-4.dsc
+ 51c38a8a92d39e18eb9e338aa836501328636418c6d7d7d3a9b2792b3a7d4f76 140768 node-bluebird_3.7.2+dfsg1.orig.tar.xz
+ 21b68bc99b1a59958c1d231b568b23e2c76b17259d60c44ecc1676378edba8b3 38872 node-bluebird_3.7.2+dfsg1-4.debian.tar.xz
+Homepage: https://github.com/petkaantonov/bluebird
+Package-List: 
+ node-bluebird deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-bluebird
+Priority: extra
+Section: misc

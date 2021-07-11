@@ -1,0 +1,26 @@
+Package: python-websockets
+Binary: python3-websockets
+Version: 8.1-1
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 11), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ b7ea3c5748ad467717a2adf85323791b 2102 python-websockets_8.1-1.dsc
+ f12d7f31fe8d0b3e65c12f845bcd0ad8 58874 python-websockets_8.1.orig.tar.gz
+ 5917d5a9714eeb95461f26121ae350f5 3000 python-websockets_8.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-websockets
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-websockets.git
+Checksums-Sha256:
+ 73cb66093aa6c490334f1dfc2552f55deaac514233529502ba37f19608fe8cc6 2102 python-websockets_8.1-1.dsc
+ 5c65d2da8c6bce0fca2528f69f44b2f977e06954c8512a952222cea50dad430f 58874 python-websockets_8.1.orig.tar.gz
+ 5215d08478669553eb912b391e37f3c0db8e168de3cccd9ead4849b941aafc8c 3000 python-websockets_8.1-1.debian.tar.xz
+Homepage: https://github.com/aaugustin/websockets
+Package-List: 
+ python3-websockets deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-websockets
+Priority: optional
+Section: misc

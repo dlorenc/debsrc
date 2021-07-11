@@ -1,0 +1,27 @@
+Package: nam
+Binary: nam, nam-examples, nam-dbg
+Version: 1.15-5.2
+Maintainer: Debian Network Simulators Team <team+netsim@tracker.debian.org>
+Uploaders: YunQiang Su <syq@debian.org>
+Build-Depends: debhelper (>= 8), quilt (>= 0.46-7~), cmake, tcl-dev (>= 8.6), tk-dev (>= 8.6), libxt-dev, libxmu-headers, zlib1g-dev, libotcl1-dev (>= 1.14+dfsg), tclcl, libtclcl1-dev (>= 1.20-4)
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 935c9fec3dedd1aa4868e3d99cd7f9ca 2115 nam_1.15-5.2.dsc
+ 1cf6646acc2f82e59965f5969f5a9239 4365554 nam_1.15.orig.tar.gz
+ a4890224ab18a2181c99c3f6a17e54c2 9324 nam_1.15-5.2.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-netsim/nam.git
+Vcs-Git: git://anonscm.debian.org/pkg-netsim/nam.git
+Checksums-Sha256:
+ f7ead5ee5a054e3f4067d3b586cca1917739fbf998baff77d0a384512643872b 2115 nam_1.15-5.2.dsc
+ 12ed547b3a5f8903890889d40cfea4d9bd66bb9ba6be99a0c753a9763cad8882 4365554 nam_1.15.orig.tar.gz
+ 689fbbcc661f1f88b9b46d74dd95e370bcf6084099dff39d36c17a6909839b12 9324 nam_1.15-5.2.debian.tar.xz
+Homepage: http://www.isi.edu/nsnam/nam/
+Package-List: 
+ nam deb net optional arch=any
+ nam-dbg deb debug extra arch=any
+ nam-examples deb net optional arch=all
+Directory: pool/main/n/nam
+Priority: source
+Section: net

@@ -1,0 +1,23 @@
+Package: lvmcfg
+Binary: lvmcfg, lvmcfg-utils
+Version: 1.56
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: po-debconf (>= 0.5.0)
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (native)
+Files:
+ 029cc716256ba543557be3844c2b3893 1676 lvmcfg_1.56.dsc
+ 5fa2d41c70097e6ea006914257ad5049 160784 lvmcfg_1.56.tar.xz
+Vcs-Browser: https://salsa.debian.org/installer-team/lvmcfg
+Vcs-Git: https://salsa.debian.org/installer-team/lvmcfg.git
+Checksums-Sha256:
+ c0a132a7a583c1e12bb593d0feffb7e490cf8ca550ce9eee64685e4bf4b55605 1676 lvmcfg_1.56.dsc
+ 4656ee5db27480902a079ae88d0cf80329d5ea3aa6d4eb9190fc169652f80f1e 160784 lvmcfg_1.56.tar.xz
+Package-List: 
+ lvmcfg udeb debian-installer optional arch=all
+ lvmcfg-utils udeb debian-installer optional arch=all
+Directory: pool/main/l/lvmcfg
+Priority: source
+Section: debian-installer

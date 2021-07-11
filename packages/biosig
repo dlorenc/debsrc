@@ -1,0 +1,30 @@
+Package: biosig
+Binary: libbiosig3, libbiosig-dev, biosig-tools, python3-biosig, octave-biosig
+Version: 2.1.2-4
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>, Alois Schlögl <alois.schloegl@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, d-shlibs, gawk, python3-setuptools, python3-all-dev, python3-numpy, zlib1g-dev, libsuitesparse-dev, dh-octave, libdcmtk-dev, libtinyxml-dev, libb64-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 69fc998a06efa8dc087cd3590c706f59 2466 biosig_2.1.2-4.dsc
+ 7a0ff8345de4a97a2a97d76df782d318 2521163 biosig_2.1.2.orig.tar.gz
+ af26d613a8321564ef58a9ec1007997f 21628 biosig_2.1.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/biosig
+Vcs-Git: https://salsa.debian.org/med-team/biosig.git
+Checksums-Sha256:
+ 0b3b4f6ea847063c9498d3e22fbe4e1f5ca0fa7804fbb103069ad1e9e0e2cb76 2466 biosig_2.1.2-4.dsc
+ 1b5bf62739faf3caef7cb7fbb14c7f1dea352caa548b08c7bb5adaaef2f4d1b4 2521163 biosig_2.1.2.orig.tar.gz
+ d184c83e86620f4c3afa8bd14b7ea68b63214aad8bb41cb10d46c57a4686e564 21628 biosig_2.1.2-4.debian.tar.xz
+Homepage: https://biosig.sourceforge.io/
+Package-List: 
+ biosig-tools deb science optional arch=any
+ libbiosig-dev deb libdevel optional arch=any
+ libbiosig3 deb libs optional arch=any
+ octave-biosig deb science optional arch=any
+ python3-biosig deb python optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Directory: pool/main/b/biosig
+Priority: extra
+Section: misc

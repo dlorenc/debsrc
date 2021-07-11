@@ -1,0 +1,27 @@
+Package: ruby-mobile-fu
+Binary: ruby-mobile-fu
+Version: 1.4.0+github-4
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-json, ruby-httparty, ruby-rails, ruby-rack-mobile-detect, ruby-mocha
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d2ca571ec4385caba8e74343fa7a3686 2220 ruby-mobile-fu_1.4.0+github-4.dsc
+ 5a9e616044dc4bb931ee8a7746d333a8 13848 ruby-mobile-fu_1.4.0+github.orig.tar.gz
+ cf017427d712e98d1113cf1e953bdf39 3408 ruby-mobile-fu_1.4.0+github-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-mobile-fu
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-mobile-fu.git
+Checksums-Sha256:
+ 79680a33ef208581109c05c61980015201e1492916f8223ff21d03578f327ca7 2220 ruby-mobile-fu_1.4.0+github-4.dsc
+ 064ecfb139484b2a2d78dcdea5611d9e102261aed255ee4b9b99ac7c86089681 13848 ruby-mobile-fu_1.4.0+github.orig.tar.gz
+ fed2d013597a1357e286b5fca84a023ab96bdb74351674dde3a491fa3d18efef 3408 ruby-mobile-fu_1.4.0+github-4.debian.tar.xz
+Homepage: https://github.com/benlangfeld/mobile-fu
+Package-List: 
+ ruby-mobile-fu deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-mobile-fu
+Priority: source
+Section: misc

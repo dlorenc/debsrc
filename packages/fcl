@@ -1,0 +1,28 @@
+Package: fcl
+Binary: libfcl0.6, libfcl-dev
+Version: 0.6.1-5
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jose Luis Rivero <jrivero@osrfoundation.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 13), cmake, pkg-config, libccd-dev, liboctomap-dev, libeigen3-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7934081ce4e8726bba003149dffcaa0f 2128 fcl_0.6.1-5.dsc
+ 006956b99f322f67896cda6210caf29c 6230975 fcl_0.6.1.orig.tar.gz
+ 973d04a0dea0a140dfd568b31d73ace5 8076 fcl_0.6.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/fcl
+Vcs-Git: https://salsa.debian.org/science-team/fcl.git
+Checksums-Sha256:
+ 7b4ce7b65f6e176d3f99e930b3454e8043948e5c4dc05bd57a1dd6acbfdf227d 2128 fcl_0.6.1-5.dsc
+ 47095e640d763c590b517f769e822b587733ac983a42c2c88f0d3b98a90df64d 6230975 fcl_0.6.1.orig.tar.gz
+ 81068748e135917b40fe093d6031b612bd855afb6fb6fe54c8a5421c754a12d7 8076 fcl_0.6.1-5.debian.tar.xz
+Homepage: https://flexible-collision-library.github.io/
+Package-List: 
+ libfcl-dev deb libdevel optional arch=any
+ libfcl0.6 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/f/fcl
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: kdevelop-php
+Binary: kdevelop-php, kdevelop-php-l10n
+Version: 5.6.2-1
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>, Andreas Cord-Landwehr <cola@uni-paderborn.de>,
+Build-Depends: cmake (>= 3.0), debhelper-compat (= 13), dh-exec, extra-cmake-modules (>= 5.59~), gettext, qtbase5-dev (>= 5.7.0), libkf5archive-dev (>= 5.28.0), libkf5i18n-dev (>= 5.28.0), libkf5itemmodels-dev (>= 5.28.0), libkf5kcmutils-dev (>= 5.28.0), libkf5texteditor-dev (>= 5.28.0), libkf5threadweaver-dev (>= 5.28.0), kdevelop-dev (>= 4:5.6.2), kdevelop-pg-qt (>= 2.0), pkg-kde-tools (>= 0.15.16)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ca0840349d9c86be5b5da157767c17a8 2446 kdevelop-php_5.6.2-1.dsc
+ 96e8c2d729cc472d58751ac439c09c15 1063520 kdevelop-php_5.6.2.orig.tar.xz
+ ac34a2af79eaf207a5345fb4c24103eb 8100 kdevelop-php_5.6.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/kdevelop-php
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/kdevelop-php.git
+Checksums-Sha256:
+ 3d90aa42508a53dc7d79c0b566a7c843f2133840043893566f6fcc35f8858c5d 2446 kdevelop-php_5.6.2-1.dsc
+ f1083daec2b8c752de1a0441d0f9f72274b1e2d29c723005ed78dcf8ba717e0c 1063520 kdevelop-php_5.6.2.orig.tar.xz
+ a3425e2aa6b1535361d5c2d26ea1d843ee9c489e0f98dab2e2cba85349d86c1f 8100 kdevelop-php_5.6.2-1.debian.tar.xz
+Homepage: https://www.kdevelop.org/
+Package-List: 
+ kdevelop-php deb devel optional arch=any
+ kdevelop-php-l10n deb localization optional arch=all
+Directory: pool/main/k/kdevelop-php
+Priority: source
+Section: devel

@@ -1,0 +1,29 @@
+Package: biosquid
+Binary: biosquid, libsquid1, libsquid-dev
+Version: 1.9g+cvs20050121-12
+Maintainer: Debian-Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), d-shlibs
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3659de35c67d3ba5ef831beed4f2b90d 2195 biosquid_1.9g+cvs20050121-12.dsc
+ 75ca6e693bedb18086b9e5911f3c047a 304060 biosquid_1.9g+cvs20050121.orig.tar.gz
+ 4da7cb77db8cf8609c141e3c7e02a84f 14340 biosquid_1.9g+cvs20050121-12.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/biosquid
+Vcs-Git: https://salsa.debian.org/med-team/biosquid.git
+Checksums-Sha256:
+ 59aca4e26d8e46c63357eeaa2875ab72b6d68277cbd9443431101e8fff43f497 2195 biosquid_1.9g+cvs20050121-12.dsc
+ b6b752bcea5ec6468b52096cdde0e792b7f5ed5fb3f477ec7ac233c54646f925 304060 biosquid_1.9g+cvs20050121.orig.tar.gz
+ af677b3a382366e3de17fd5bbe844015f6ec6df9b851d91c78bab27588fea3fd 14340 biosquid_1.9g+cvs20050121-12.debian.tar.xz
+Homepage: http://eddylab.org/software.html
+Package-List: 
+ biosquid deb science optional arch=any
+ libsquid-dev deb libdevel optional arch=any
+ libsquid1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/b/biosquid
+Priority: source
+Section: science

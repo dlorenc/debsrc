@@ -1,0 +1,27 @@
+Package: php-horde-view
+Binary: php-horde-view
+Version: 2.0.6-9
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e995f70dc53d19b2258eb714c7d8443b 2142 php-horde-view_2.0.6-9.dsc
+ 40e23d446ca2e4bcb69383a695e30793 43952 php-horde-view_2.0.6.orig.tar.gz
+ 920399b4b183ae4b1a75a14218d89647 5340 php-horde-view_2.0.6-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-view
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-view.git
+Checksums-Sha256:
+ 88332ed19ef014124e0b96168b72608a07c821e54afcbdef633c8ab3c43c3152 2142 php-horde-view_2.0.6-9.dsc
+ f1723929224f2876de05dc76cf6094d5c7c84a8adb18dc1fbc4c00f40b193c43 43952 php-horde-view_2.0.6.orig.tar.gz
+ f6a4066ecb103e11075e44cd4d476527b3a58845a2bd7929721c4bdb4e9a1e8b 5340 php-horde-view_2.0.6-9.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-view deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-controller, php-horde-test
+Directory: pool/main/p/php-horde-view
+Priority: extra
+Section: misc

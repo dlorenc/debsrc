@@ -1,0 +1,29 @@
+Package: ceres-solver
+Binary: libceres-dev, libceres1, ceres-solver-doc
+Version: 1.14.0-14
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Philipp Huebner <debalance@debian.org>, Anton Gladky <gladk@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, libatlas-base-dev, libgoogle-glog-dev, libgflags-dev, libeigen3-dev (>= 3.3.4), libsuitesparse-dev (>= 1:4.4.3), python3, python3-sphinx, python3-sphinx-rtd-theme, libjs-jquery, libjs-mathjax, libjs-modernizr, libjs-underscore, libjs-sphinxdoc, node-html5shiv, awk
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1bf1fbe8c1998605428fdf962691f3ea 2453 ceres-solver_1.14.0-14.dsc
+ 75ff6732d6e6d330105dfc90a9e29af5 3682211 ceres-solver_1.14.0.orig.tar.gz
+ c4affe1030bdbe42302425e2654c8325 7428 ceres-solver_1.14.0-14.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ceres-solver
+Vcs-Git: https://salsa.debian.org/science-team/ceres-solver.git
+Checksums-Sha256:
+ fefd59fee99f8b42facbf74bc2fcd04a5423297fe6c8ea5d4a7ad899ec3320de 2453 ceres-solver_1.14.0-14.dsc
+ 4c2b4754dfe8d1347931dc8b544ca3d78fc14157669df86595a5307b8b816c50 3682211 ceres-solver_1.14.0.orig.tar.gz
+ 3a1717620bdf3192f4b76b1eaed1550327a82c29d80b43519990ba5055df7e7f 7428 ceres-solver_1.14.0-14.debian.tar.xz
+Homepage: http://ceres-solver.org
+Package-List: 
+ ceres-solver-doc deb doc optional arch=all
+ libceres-dev deb libdevel optional arch=any
+ libceres1 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential
+Directory: pool/main/c/ceres-solver
+Priority: optional
+Section: misc

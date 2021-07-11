@@ -1,0 +1,27 @@
+Package: elfeed
+Binary: elpa-elfeed, elpa-elfeed-web
+Version: 3.4.1-1
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Lev Lamberov <dogsleg@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-elpa
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ aa94042ca5c4d48a6799b37ea05fc724 1989 elfeed_3.4.1-1.dsc
+ 20a6d0da2d4a33a68a3bcae2f4231b74 67431 elfeed_3.4.1.orig.tar.gz
+ 86b43dcaabe68b1e713baf3cb11a11cc 3800 elfeed_3.4.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/elfeed
+Vcs-Git: https://salsa.debian.org/emacsen-team/elfeed.git
+Checksums-Sha256:
+ 78be51757c818233885a6859757ad24994d6f3eec7ec7a33c8e149bf147fd3fa 1989 elfeed_3.4.1-1.dsc
+ 87f52ad10cb2ec56f3f95658dd34f798c6265383b443509400baa61601ea9062 67431 elfeed_3.4.1.orig.tar.gz
+ 0a1958f43fbfbe595caab8528849d0f9de2886cc0caede5bbcac2ec0592c69aa 3800 elfeed_3.4.1-1.debian.tar.xz
+Homepage: https://github.com/skeeto/elfeed
+Package-List: 
+ elpa-elfeed deb net optional arch=all
+ elpa-elfeed-web deb contrib/net optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/e/elfeed
+Priority: optional
+Section: misc

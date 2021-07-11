@@ -1,0 +1,26 @@
+Package: jaxb2-maven-plugin
+Binary: libjaxb2-maven-plugin-java
+Version: 2.5.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Mechtilde Stehmann <mechtilde@debian.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: libistack-commons-java (>= 3.0.6), junit4, libjaxb-java, liblogback-java, libmaven-invoker-plugin-java, libmaven-plugin-tools-java (>= 3.6.0), libmaven3-core-java (>= 3.0.5), libplexus-build-api-java (>= 0.0.7), libplexus-compiler-java (>= 2.5), libplexus-utils2-java (>= 3.1.0), libqdox2-java
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 312732d18651658e7c2eec7827830331 2414 jaxb2-maven-plugin_2.5.0-1.dsc
+ 71a85a7c6c44d5443ab961810fb28b1c 613910 jaxb2-maven-plugin_2.5.0.orig.tar.gz
+ 233dda8016a8f919785432a771b2617e 3468 jaxb2-maven-plugin_2.5.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jaxb2-maven-plugin
+Vcs-Git: https://salsa.debian.org/java-team/jaxb2-maven-plugin.git
+Checksums-Sha256:
+ 9b51b0360da163e9d295d4eb236ffa8f01dbc8b3267f3e79480a5cc1f767c149 2414 jaxb2-maven-plugin_2.5.0-1.dsc
+ 94f008252835a98102279b5cd157fb5509a49776f10b82262035deedf8712be2 613910 jaxb2-maven-plugin_2.5.0.orig.tar.gz
+ 8c365c5f66dd50983c0688478e622f1ce2d3e201afc7b9ac12223e07944dc428 3468 jaxb2-maven-plugin_2.5.0-1.debian.tar.xz
+Homepage: https://github.com/mojohaus/jaxb2-maven-plugin/
+Package-List: 
+ libjaxb2-maven-plugin-java deb java optional arch=all
+Directory: pool/main/j/jaxb2-maven-plugin
+Priority: extra
+Section: misc

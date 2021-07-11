@@ -1,0 +1,28 @@
+Package: libnet-ldap-perl
+Binary: libnet-ldap-perl
+Version: 1:0.6800+dfsg-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>, gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libauthen-sasl-perl <!nocheck>, libconvert-asn1-perl <!nocheck>, libdigest-hmac-perl <!nocheck>, libgssapi-perl <!nocheck>, libio-socket-ip-perl <!nocheck> | libio-socket-inet6-perl <!nocheck>, libio-socket-ssl-perl <!nocheck>, libjson-perl <!nocheck>, libtext-soundex-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>, libxml-sax-perl <!nocheck>, libxml-sax-writer-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ de057859c8edfdb5039d973f83b578e1 2878 libnet-ldap-perl_0.6800+dfsg-1.dsc
+ dd63a35ec13e4d74959ccdb8de937d84 246148 libnet-ldap-perl_0.6800+dfsg.orig.tar.xz
+ 1af48f2c68e5bd898bb9b7190fa179b1 8908 libnet-ldap-perl_0.6800+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libnet-ldap-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libnet-ldap-perl.git
+Checksums-Sha256:
+ 1022b77726ffbf03f1a10a7b3ac5ea3b132b16bcbeb56459f63a13dc71711676 2878 libnet-ldap-perl_0.6800+dfsg-1.dsc
+ dea0d4d85f80da8b1002d90a8e87079f72b99152737c695b65f9491c07bef027 246148 libnet-ldap-perl_0.6800+dfsg.orig.tar.xz
+ 4794770f56ce588f559e93b3a44a5696cf32cf82a810c6b24cbeeb23bf7b354a 8908 libnet-ldap-perl_0.6800+dfsg-1.debian.tar.xz
+Homepage: https://ldap.perl.org/
+Dgit: e5fe5179f9c795905df47b4ef7209b12bcf812ae debian archive/debian/1%0.6800+dfsg-1 https://git.dgit.debian.org/libnet-ldap-perl
+Package-List: 
+ libnet-ldap-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libn/libnet-ldap-perl
+Priority: source
+Section: perl

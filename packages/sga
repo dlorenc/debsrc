@@ -1,0 +1,25 @@
+Package: sga
+Binary: sga
+Version: 0.10.15-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael R. Crusoe <michael.crusoe@gmail.com>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, libsparsehash-dev, zlib1g-dev | libz-dev, libbamtools-dev, gawk, help2man, samtools, python3, python3-ruffus, python3-pysam
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3e3420198ec57ecb4ee2e9e0b99f0680 2078 sga_0.10.15-5.dsc
+ 990aed1593f8072650c6366e5cf32519 6569986 sga_0.10.15.orig.tar.gz
+ 87d09d670d3672f449c031668e2e2759 214000 sga_0.10.15-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/sga
+Vcs-Git: https://salsa.debian.org/med-team/sga.git
+Checksums-Sha256:
+ 7fc894612df5a9d889b25365f5aadac57e781acd5574acd239a534b8ef2ece03 2078 sga_0.10.15-5.dsc
+ 1b18996e6ec47985bc4889a8cbc3cd4dd3a8c7d385ae9f450bd474e36342558b 6569986 sga_0.10.15.orig.tar.gz
+ e2b5df14e55471ce60c1f025bd5bc38cea174a9ff4f4172e6f9f2f61cf63d81c 214000 sga_0.10.15-5.debian.tar.xz
+Homepage: https://github.com/jts/sga
+Package-List: 
+ sga deb science optional arch=any
+Directory: pool/main/s/sga
+Priority: optional
+Section: misc

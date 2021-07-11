@@ -1,0 +1,27 @@
+Package: mummer
+Binary: mummer, mummer-doc
+Version: 3.23+dfsg-7
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>, Andreas Tille <tille@debian.org>, Charles Plessy <plessy@debian.org>
+Build-Depends: debhelper-compat (= 13), texlive-latex-base, texlive-latex-recommended, texlive-fonts-recommended
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ da1f22b56e3aeb101ec86af8478219f5 2176 mummer_3.23+dfsg-7.dsc
+ 64c8ac0f462885f9978b9e49accbc71f 1112616 mummer_3.23+dfsg.orig.tar.xz
+ 6c310fead666f018619445e63310eae8 416084 mummer_3.23+dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/mummer
+Vcs-Git: https://salsa.debian.org/med-team/mummer.git
+Checksums-Sha256:
+ 80a1a63ccfaad30ea8dc7dd761c528be650dc3ea4c64d6da8b55de39c57b632c 2176 mummer_3.23+dfsg-7.dsc
+ 1ef5eb11b22ff39d930ea9168ed6852a28be2c21e29ac791c4edcc86eca7d805 1112616 mummer_3.23+dfsg.orig.tar.xz
+ 9df52c6ec8c21776fc91a341ce3e5ed4875c5889c1662fc0197d1b51776707d0 416084 mummer_3.23+dfsg-7.debian.tar.xz
+Homepage: http://mummer.sourceforge.net/
+Package-List: 
+ mummer deb science optional arch=any
+ mummer-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/mummer
+Priority: source
+Section: science

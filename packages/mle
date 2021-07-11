@@ -1,0 +1,26 @@
+Package: mle
+Binary: mle
+Version: 1.4.3-2
+Maintainer: Adam Saponara <as@php.net>
+Build-Depends: debhelper (>= 11), libpcre3-dev, uthash-dev, liblua5.3-dev, libtermbox-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c7cb3e9fbd4c9ffab6de9de68e354031 1867 mle_1.4.3-2.dsc
+ c1f9e84572efb9d361db2bba74a12436 86072 mle_1.4.3.orig.tar.xz
+ 27d8c0c5344e01dc29e3ae05bb3f215a 2196 mle_1.4.3-2.debian.tar.xz
+Vcs-Browser: https://github.com/adsr/mle
+Vcs-Git: https://github.com/adsr/mle.git
+Checksums-Sha256:
+ 86ed1be2c4a945988e256284831c7fbc97eba6c17ab9b26736893f1e656ff6ed 1867 mle_1.4.3-2.dsc
+ f91ec94cf2d42e65338db1767422605a9be431fd62ae7f1a464fe732d0d86e14 86072 mle_1.4.3.orig.tar.xz
+ 7578d1c976ce69e93d22431376af2503bbbffb224bf37d745bfa2febc4cd8327 2196 mle_1.4.3-2.debian.tar.xz
+Homepage: https://github.com/adsr/mle
+Package-List: 
+ mle deb editors optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/m/mle
+Priority: extra
+Section: misc

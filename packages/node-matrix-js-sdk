@@ -1,0 +1,37 @@
+Package: node-matrix-js-sdk
+Binary: node-matrix-js-sdk, libjs-matrix-js-sdk
+Version: 9.3.0+~cs9.9.16-2
+Maintainer: Matrix Packaging Team <pkg-matrix-maintainers@lists.alioth.debian.org>
+Uploaders: Hubert Chathi <uhoreg@debian.org>, Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, grunt, mocha <!nocheck>, node-babel-cli (>= 7), node-babel-core (>= 7), node-babel-loader (>= 8.1.0), node-babel-plugin-proposal-class-properties (>= 7), node-babel-plugin-proposal-numeric-separator (>= 7), node-babel-plugin-proposal-object-rest-spread (>= 7), node-babel-plugin-syntax-dynamic-import (>= 7), node-babel-plugin-transform-runtime (>= 7), node-babel-preset-env (>= 7), node-babel-preset-typescript (>= 7), node-babel-register (>= 7), node-bluebird, node-browser-request, node-content-type, node-grunt-contrib-concat, node-grunt-contrib-uglify, node-olm, node-request, node-tape <!nocheck>, node-typescript, node-types-jest, node-types-node, webpack
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ adc79b198e8badda1c958f692ea66c69 4580 node-matrix-js-sdk_9.3.0+~cs9.9.16-2.dsc
+ 34bc6022e788d15667dc0cd68e04c672 6080 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xanother-json.tar.gz
+ e459016c04519b838036c5ab0b9ec410 9457 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xbase-x.tar.gz
+ 6bc7a3d98f15b2a08ce7aa3f341a4026 3254 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xbs58.tar.gz
+ a6df38ce82dbc86c81a5e99bb2a20bb4 30198 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xloglevel.tar.gz
+ f83026cb7ce844959b259aa4cd68034d 34500 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xunhomoglyph.tar.gz
+ ae0bd3783fe668be63a3550cb7d90200 648037 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig.tar.gz
+ 97ed2e8f4389d4160b0d1e9f61737eaa 10000 node-matrix-js-sdk_9.3.0+~cs9.9.16-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-matrix-js-sdk
+Vcs-Git: https://salsa.debian.org/js-team/node-matrix-js-sdk.git
+Checksums-Sha256:
+ b9f9840008ef6a6ce2e642b9d8283b8eeb4f99ed27d05534931e3487281deb02 4580 node-matrix-js-sdk_9.3.0+~cs9.9.16-2.dsc
+ 34c7d7e578ccce71e254aad3fcc0beec2f80e4e8aa0579f8cb5673edc5dbb5c4 6080 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xanother-json.tar.gz
+ 29e4316ce26745a7988aa668c6dcd63aeab5ee7a1e84d5fcd60ea5b062419000 9457 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xbase-x.tar.gz
+ 6b711bd3a3e77a0177b371eea635bcf97e53fdf9e776f7120dc39a5b8738e332 3254 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xbs58.tar.gz
+ 0b12511cd33402d556447c9b18b9de28babca5672516423d692f584ca8e179a2 30198 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xloglevel.tar.gz
+ 090a28c96e1c2f95f7a72671969306659a04220e5d6803632368a8434fbf90b8 34500 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig-Xunhomoglyph.tar.gz
+ 2a377d79f5a40db8909b10b33ae46806620530d5ff304d8438256b05e4c4009c 648037 node-matrix-js-sdk_9.3.0+~cs9.9.16.orig.tar.gz
+ b356ec1917ef3e5d4743f389dc5fa8562b279db323093ef1f023dbb42ca074c1 10000 node-matrix-js-sdk_9.3.0+~cs9.9.16-2.debian.tar.xz
+Homepage: https://github.com/matrix-org/matrix-js-sdk/
+Package-List: 
+ libjs-matrix-js-sdk deb javascript optional arch=all
+ node-matrix-js-sdk deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-matrix-js-sdk
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: gnome-keyring
+Binary: gnome-keyring, gnome-keyring-pkcs11, libpam-gnome-keyring
+Version: 3.36.0-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Tim Lunn <tim@feathertop.org>
+Build-Depends: debhelper (>= 11), ca-certificates, dbus <!nocheck>, xsltproc, docbook-xml, docbook-xsl, gnome-pkg-tools (>= 0.10), libcap-ng-dev [linux-any], libgck-1-dev (>= 3.3.4), libgcr-3-dev (>= 3.27.90), libgcrypt20-dev (>= 1.2.2), libglib2.0-dev (>= 2.38.0), libp11-kit-dev (>= 0.15.1), libpam0g-dev, libselinux1-dev [linux-any], libtasn1-6-dev, libtasn1-bin, libglib2.0-doc, openssh-client, python3:native <!nocheck>
+Architecture: any
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 74074f6270103ea505982ec1a8689833 2558 gnome-keyring_3.36.0-1.dsc
+ 38f0732845a510a8dff4f154c3406f65 1345360 gnome-keyring_3.36.0.orig.tar.xz
+ b1213fa1e33bec85db526f8499f76464 20108 gnome-keyring_3.36.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-keyring
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-keyring.git
+Checksums-Sha256:
+ dc13969551451d2e65b9085c0e653d142ab860c84eac5ef9f193685cedaddce1 2558 gnome-keyring_3.36.0-1.dsc
+ a264b57a8d1a71fdf0d66e8cd6033d013fb828be279c35766545eb9bb3734f87 1345360 gnome-keyring_3.36.0.orig.tar.xz
+ 722da989d2bea819fccb02cdfd7d403443961f7aca5393fee0983df691847891 20108 gnome-keyring_3.36.0-1.debian.tar.xz
+Homepage: https://wiki.gnome.org/GnomeKeyring
+Package-List: 
+ gnome-keyring deb gnome optional arch=any
+ gnome-keyring-pkcs11 deb libs optional arch=any
+ libpam-gnome-keyring deb admin optional arch=any
+Directory: pool/main/g/gnome-keyring
+Priority: source
+Section: gnome

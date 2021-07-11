@@ -1,0 +1,26 @@
+Package: espeakup
+Binary: espeakup, espeakup-udeb
+Version: 1:0.80-20
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), libespeak-ng-libespeak-dev (>= 1.46.02), libsonic-dev (>= 0.1.17-1.1), libpcaudio-dev, libasound2-dev, po-debconf
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f9c0287420197d6c86886cebbff7bce7 2100 espeakup_0.80-20.dsc
+ c69ae545bc074810254d4a58303065e5 39626 espeakup_0.80.orig.tar.gz
+ 26aeff027afe99ae587da6bca4159d7d 23880 espeakup_0.80-20.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/espeakup
+Vcs-Git: https://salsa.debian.org/a11y-team/espeakup.git
+Checksums-Sha256:
+ 39646d18a0a5a793cc08f9f873908981c7b23e240d37add40625d64b3f96d070 2100 espeakup_0.80-20.dsc
+ 4de284e30b6bdb0f9dee9c8ea02d13a3d20a61415b812338446b8b381e997ef4 39626 espeakup_0.80.orig.tar.gz
+ c3e8d6e20234ef95d306c9dae62c58a813b824a146b31a2689d3dbca36597b0f 23880 espeakup_0.80-20.debian.tar.xz
+Homepage: http://www.github.com/williamh/espeakup
+Package-List: 
+ espeakup deb admin optional arch=any
+ espeakup-udeb udeb debian-installer optional arch=any
+Directory: pool/main/e/espeakup
+Priority: source
+Section: admin

@@ -1,0 +1,29 @@
+Package: openbsc
+Binary: osmocom-bsc, osmocom-nitb, osmocom-bs11-utils, osmocom-bsc-nat, openbsc-dev
+Version: 1.4.0+dfsg1-1
+Maintainer: Debian Mobcom Maintainers <Debian-mobcom-maintainers@lists.alioth.debian.org>
+Uploaders: Ruben Undheim <ruben.undheim@gmail.com> , Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), pkg-config, libgtp-dev (>= 1.2.2), libosmocore-dev (>= 1.4.0), libosmo-sccp-dev (>= 1.3.0), libdbi-dev, libosmo-abis-dev (>= 1.0.1), libosmo-netif-dev (>= 1.0.0), libdbd-sqlite3 (>= 0.9.0-4), libpcap-dev, libc-ares-dev, libsmpp34-dev (>= 1.13.0), txt2man, libosmoxua0
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ee9cbbadc40a12714563a62a48057808 2679 openbsc_1.4.0+dfsg1-1.dsc
+ f7b1539a92cd784d388686c6b77b03ab 467836 openbsc_1.4.0+dfsg1.orig.tar.xz
+ c50bb3e444d6343c01f539b7a077dcf4 10024 openbsc_1.4.0+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-mobcom-team/openbsc
+Vcs-Git: https://salsa.debian.org/debian-mobcom-team/openbsc.git
+Checksums-Sha256:
+ 194c04e3ca467ea2f1242a816afc907decc2267de4614e577f0bf2a32a82d1b0 2679 openbsc_1.4.0+dfsg1-1.dsc
+ 893851903abe16391c698c126a1d5f1bf27875d125bf79bcf64fc194f8ebf99b 467836 openbsc_1.4.0+dfsg1.orig.tar.xz
+ f81a0a4847b5f3c9a4ba28e9f3c13d18f67fbbeebc4c5fafafc654252144349d 10024 openbsc_1.4.0+dfsg1-1.debian.tar.xz
+Homepage: http://openbsc.osmocom.org/
+Package-List: 
+ openbsc-dev deb net optional arch=all
+ osmocom-bs11-utils deb net optional arch=any
+ osmocom-bsc deb net optional arch=any
+ osmocom-bsc-nat deb net optional arch=any
+ osmocom-nitb deb net optional arch=any
+Directory: pool/main/o/openbsc
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: llvmlite
+Binary: python3-llvmlite, llvmlite-doc
+Version: 0.35.0-3
+Maintainer: LLVM Packaging Team <pkg-llvm-team@lists.alioth.debian.org>
+Uploaders: Mo Zhou <lumin@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-setuptools, llvm-9-dev, zlib1g-dev, libedit-dev, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e4bb43c7f3904079b921b0884ec18091 2204 llvmlite_0.35.0-3.dsc
+ e01cb09c15e4c395cb8ae70a45f46ce2 146624 llvmlite_0.35.0.orig.tar.xz
+ e7c6de029fd7a56d5a67cfc83641f37e 6016 llvmlite_0.35.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-llvm-team/llvmlite/
+Vcs-Git: https://salsa.debian.org/pkg-llvm-team/llvmlite.git
+Checksums-Sha256:
+ d001a620aab3ea056f8e9021f528e1218bb2ef2fc81b83cb0474dc4b3b17082e 2204 llvmlite_0.35.0-3.dsc
+ 0732a02ccf320d0b7ecb0810b8c8b6fe7db42371f79d09b51d5a0481c7763ef9 146624 llvmlite_0.35.0.orig.tar.xz
+ fe41d12b153c6e9299ccd0f821f274c6118e9d8158490c7a20e9e86d4caf39ac 6016 llvmlite_0.35.0-3.debian.tar.xz
+Homepage: http://llvmlite.pydata.org/
+Package-List: 
+ llvmlite-doc deb doc optional arch=all profile=!nodoc
+ python3-llvmlite deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/l/llvmlite
+Priority: optional
+Section: misc

@@ -1,0 +1,30 @@
+Package: libkf5mailcommon
+Binary: libkf5mailcommon-data, libkf5mailcommon-dev, libkf5mailcommon-plugins, libkf5mailcommon5abi2
+Version: 4:20.08.3-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Sandro Knauß <hefee@debian.org>
+Build-Depends: cmake (>= 3.5~), dbus, debhelper-compat (= 13), extra-cmake-modules (>= 5.71.0~), libkf5akonadi-dev (>= 4:20.08.3~), libkf5akonadicontact-dev (>= 4:20.08.3~), libkf5akonadimime-dev (>= 4:20.08.3~), libkf5archive-dev (>= 5.71.0~), libkf5codecs-dev (>= 5.71.0~), libkf5completion-dev (>= 5.71.0~), libkf5config-dev (>= 5.71.0~), libkf5configwidgets-dev (>= 5.71.0~), libkf5dbusaddons-dev (>= 5.71.0~), libkf5i18n-dev (>= 5.71.0~), libkf5iconthemes-dev (>= 5.71.0~), libkf5itemmodels-dev (>= 5.71.0~), libkf5itemviews-dev (>= 5.71.0~), libkf5kio-dev (>= 5.71.0~), libkf5libkdepim-dev (>= 4:20.08.3~), libkf5mailimporter-dev (>= 4:20.08.3~), libkf5mailtransport-dev (>= 20.08.3~), libkf5messagecomposer-dev (>= 4:20.08.3~), libkf5messagecore-dev (>= 4:20.08.3~), libkf5messageviewer-dev (>= 4:20.08.3~), libkf5mime-dev (>= 20.08.3~), libkf5pimcommon-dev (>= 4:20.08.3~), libkf5syntaxhighlighting-dev (>= 5.71.0~), libkf5templateparser-dev (>= 4:20.08.3~), libkf5textwidgets-dev (>= 5.71.0~), libkf5widgetsaddons-dev (>= 5.71.0~), libkf5xmlgui-dev (>= 5.71.0~), libphonon4qt5-dev (>= 4.10.60~), libphonon4qt5experimental-dev, pkg-kde-tools (>= 0.12), qtbase5-dev (>= 5.13.0~), qttools5-dev (>= 5.4.0~), xauth, xsltproc, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 431fae392ebf775d69b9eabadf2021bc 3790 libkf5mailcommon_20.08.3-1.dsc
+ 8b7b5f2ff002f28eaf6ade354c221bdc 708792 libkf5mailcommon_20.08.3.orig.tar.xz
+ 8156090d6895287f806d9156cb3e456c 488 libkf5mailcommon_20.08.3.orig.tar.xz.asc
+ 4245c16faddb58df4130bb7a3a3417ec 10700 libkf5mailcommon_20.08.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/mailcommon
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/mailcommon.git
+Checksums-Sha256:
+ 978e91a9cad66b282a6a14ee24b7a960f6a2349af067b42ed53398980409d523 3790 libkf5mailcommon_20.08.3-1.dsc
+ bb7141066c514b35b19c2872b693fc1461454563a66ac1ebc49961f219301a2e 708792 libkf5mailcommon_20.08.3.orig.tar.xz
+ 7d5a4db3658932a9fe7ca5e45218bd3fdf9abbaca682bf2764d8d5a2928d790b 488 libkf5mailcommon_20.08.3.orig.tar.xz.asc
+ 94083a4703f19c1890e62521ea858eca6cabe952abc5d3b3113eea8f7ea6084c 10700 libkf5mailcommon_20.08.3-1.debian.tar.xz
+Homepage: https://invent.kde.org/pim/mailcommon
+Package-List: 
+ libkf5mailcommon-data deb libs optional arch=all
+ libkf5mailcommon-dev deb libdevel optional arch=any
+ libkf5mailcommon-plugins deb libs optional arch=any
+ libkf5mailcommon5abi2 deb libs optional arch=any
+Directory: pool/main/libk/libkf5mailcommon
+Priority: optional
+Section: misc

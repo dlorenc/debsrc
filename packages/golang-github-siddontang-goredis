@@ -1,0 +1,26 @@
+Package: golang-github-siddontang-goredis
+Binary: golang-github-siddontang-goredis-dev
+Version: 0.0~git20150324.0.760763f-5
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-golang, golang-any, golang-github-alicebob-miniredis-dev
+Architecture: all
+Standards-Version: 4.1.1
+Format: 3.0 (quilt)
+Files:
+ 56af3f728def300320676ae3ed30cca4 2395 golang-github-siddontang-goredis_0.0~git20150324.0.760763f-5.dsc
+ a5f197d3f1f6f493d53b997ac3982588 6804 golang-github-siddontang-goredis_0.0~git20150324.0.760763f.orig.tar.xz
+ 741c12d9404cc3f313eefeb8bfee4781 2924 golang-github-siddontang-goredis_0.0~git20150324.0.760763f-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-siddontang-goredis
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-siddontang-goredis.git
+Checksums-Sha256:
+ 0702b0fdb3f5345aca55055ce550cd54d0b64d3c1e4ca0787f56ba529b7171b2 2395 golang-github-siddontang-goredis_0.0~git20150324.0.760763f-5.dsc
+ b373c5548c000333226a1d3b49d8a80d65957b72ecde8619f8aabb7f17456715 6804 golang-github-siddontang-goredis_0.0~git20150324.0.760763f.orig.tar.xz
+ 1676627bdba5b08a6346e088920d3877d20fb49505b89cc08774db7b2576bf99 2924 golang-github-siddontang-goredis_0.0~git20150324.0.760763f-5.debian.tar.xz
+Homepage: https://github.com/siddontang/goredis
+Go-Import-Path: github.com/siddontang/goredis
+Package-List: 
+ golang-github-siddontang-goredis-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-siddontang-goredis
+Priority: extra
+Section: golang

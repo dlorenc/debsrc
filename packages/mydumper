@@ -1,0 +1,25 @@
+Package: mydumper
+Binary: mydumper, mydumper-doc
+Version: 0.10.1-1
+Maintainer: Mateusz Kijowski <mateusz.kijowski@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, quilt, default-libmysqlclient-dev, libglib2.0-dev, libpcre3-dev, zlib1g-dev, python3-sphinx, python3-docutils, libatomic1
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ df340392ed3aca45f3c41e671e4ce7fc 2050 mydumper_0.10.1-1.dsc
+ d0c066acd5b07e5cd042a5ee1e216836 63967 mydumper_0.10.1.orig.tar.gz
+ d59eb251c8fd71c11959afc41d0cafe1 7572 mydumper_0.10.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/mydumper
+Vcs-Git: https://salsa.debian.org/debian/mydumper.git
+Checksums-Sha256:
+ e40d5bdadf19434f31cb5eaf71f212aec0bc0c1e70fa935738e2bb33c99f792b 2050 mydumper_0.10.1-1.dsc
+ 66b64f0c9410143ab4a32794f58769965495ac0385882b239f2c928281c1e798 63967 mydumper_0.10.1.orig.tar.gz
+ 517371e5023727472e9d741ccfd60e7abeac2c2db09b08ea1d323e8ddc86fc4e 7572 mydumper_0.10.1-1.debian.tar.xz
+Homepage: https://github.com/maxbube/mydumper
+Package-List: 
+ mydumper deb database extra arch=any
+ mydumper-doc deb doc extra arch=all
+Directory: pool/main/m/mydumper
+Priority: source
+Section: database

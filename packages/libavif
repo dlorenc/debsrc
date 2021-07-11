@@ -1,0 +1,28 @@
+Package: libavif
+Binary: libavif-bin, libavif-dev, libavif9, libavif-gdk-pixbuf
+Version: 0.8.4-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Boyuan Yang <byang@debian.org>,
+Build-Depends: cmake, debhelper-compat (= 13), libcjson-dev, libdav1d-dev, libgav1-dev [amd64 arm64 armel armhf i386 mips64el ppc64el s390x hppa ppc64 riscv64 x32], libgavl-dev, libgdk-pixbuf2.0-dev, libjpeg-dev, libpng-dev, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 07ebb6e824aeac657ff0296cf8434eb9 2302 libavif_0.8.4-2.dsc
+ 1333dbe8174f7fc8e1b311ed6c705878 2952844 libavif_0.8.4.orig.tar.gz
+ 517f2f430f792a96a3be20c22a2b2b8d 5332 libavif_0.8.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libavif
+Vcs-Git: https://salsa.debian.org/multimedia-team/libavif.git
+Checksums-Sha256:
+ 1f599d35d92e3ed2f179e48ee8aa073c52d4c44622561d4fecbdf286ad18013d 2302 libavif_0.8.4-2.dsc
+ 116b46a9a497c6ef178c5a20b912d8ac02f888dc8c537e40b5d16700823a9b16 2952844 libavif_0.8.4.orig.tar.gz
+ bd7f13657880e788bb8461534d4be9f9d98e6fa7f5e34f8f160c74a648611ce4 5332 libavif_0.8.4-2.debian.tar.xz
+Homepage: https://github.com/AOMediaCodec/libavif
+Package-List: 
+ libavif-bin deb utils optional arch=any
+ libavif-dev deb libdevel optional arch=any
+ libavif-gdk-pixbuf deb libs optional arch=any
+ libavif9 deb libs optional arch=any
+Directory: pool/main/liba/libavif
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: hoel
+Binary: libhoel1.4, libhoel-dev
+Version: 1.4.17-2
+Maintainer: Debian IoT Maintainers <debian-iot-maintainers@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de> , Nicolas Mora <babelouest@debian.org>
+Build-Depends: debhelper-compat (= 13), autopkgtest (>= 5.6~), liborcania-dev, libyder-dev, libjansson-dev, libsqlite3-dev, libpq-dev, default-libmysqlclient-dev, cmake, pkg-config, check, sqlite3, doxygen
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ fe016f0285ca8f78070494980e050b95 2310 hoel_1.4.17-2.dsc
+ a62223aead2944fed9e734efde52af29 84135 hoel_1.4.17.orig.tar.gz
+ 773e4822dab6cfb22be9bed8a97dcc07 5140 hoel_1.4.17-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-iot-team/oauth2/hoel.git
+Vcs-Git: https://salsa.debian.org/debian-iot-team/oauth2/hoel.git
+Checksums-Sha256:
+ 2abc9c76391ac2ba5b5df5d1044be77d0ebd8efbb67defdc10ed9c84f2a545eb 2310 hoel_1.4.17-2.dsc
+ d3a411ba92cc500053e9acadce80040b20dad41dc29d9e24bf18f3072fec5662 84135 hoel_1.4.17.orig.tar.gz
+ c68f732ab6dc44cc1e6c453df6b269f99ba25f94035fa39558ecbd21936a622e 5140 hoel_1.4.17-2.debian.tar.xz
+Homepage: https://github.com/babelouest/hoel
+Package-List: 
+ libhoel-dev deb libdevel optional arch=any
+ libhoel1.4 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: check, gcc, libc-dev, liborcania-dev, libsubunit-dev, libyder-dev, pkg-config, sqlite3
+Directory: pool/main/h/hoel
+Priority: extra
+Section: misc

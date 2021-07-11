@@ -1,0 +1,26 @@
+Package: rust-xkbcommon
+Binary: librust-xkbcommon-dev
+Version: 0.4.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Arnaud Ferraris <arnaud.ferraris@collabora.com>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-memmap-0.7+default-dev <!nocheck>, libxkbcommon-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 257517e3c16af615f443b2266e0bcc94 2251 rust-xkbcommon_0.4.0-2.dsc
+ 709b63baf65f35e2832bf38a7ebbc26e 57500 rust-xkbcommon_0.4.0.orig.tar.gz
+ 1aa16fbce9cec77094cb5375cc34edd0 3196 rust-xkbcommon_0.4.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/xkbcommon
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/xkbcommon]
+Checksums-Sha256:
+ 71e091b9619add9e41e7eb8a30fe24cdf2a0381de51f658cd5b1a2f521434e4e 2251 rust-xkbcommon_0.4.0-2.dsc
+ fda0ea5f7ddabd51deeeda7799bee06274112f577da7dd3d954b8eda731b2fce 57500 rust-xkbcommon_0.4.0.orig.tar.gz
+ ac41c43989c2db4145ca831c6b3c32b0abaa3405863c6b8a698119008acde61b 3196 rust-xkbcommon_0.4.0-2.debian.tar.xz
+Package-List: 
+ librust-xkbcommon-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-xkbcommon
+Priority: extra
+Section: misc

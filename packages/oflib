@@ -1,0 +1,24 @@
+Package: oflib
+Binary: libofapi-dev, libofapi-example, libofapi0
+Version: 0git20070620-9
+Maintainer: Debian Mactel <team+pkg-mactel-devel@tracker.debian.org>
+Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper (>= 11)
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 4f2770d1ddda4e54503859eacce47bb1 1890 oflib_0git20070620-9.dsc
+ 7240c2cb00e6be631e9fb11db2df1759 5430 oflib_0git20070620.orig.tar.gz
+ 14b97517b3fdfa88b947397e1d45b8bc 4020 oflib_0git20070620-9.debian.tar.xz
+Checksums-Sha256:
+ cb71eece89abadc0090efbe845ff5063d287389dcf07a4ccc601b37d66385fd6 1890 oflib_0git20070620-9.dsc
+ 944bb57801eba6bc12e74bde077ec2e601aa216e315a5031c8f4f2b8db353d49 5430 oflib_0git20070620.orig.tar.gz
+ 8cd45cb688385a7bf3efc98b5805e0257e60a65dc8fca4c461129db9da07e171 4020 oflib_0git20070620-9.debian.tar.xz
+Package-List: 
+ libofapi-dev deb libdevel optional arch=any
+ libofapi-example deb libdevel optional arch=all
+ libofapi0 deb libs optional arch=any
+Directory: pool/main/o/oflib
+Priority: source
+Section: libs

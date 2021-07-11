@@ -1,0 +1,28 @@
+Package: libhdate
+Binary: libhdate-dev, libhdate-perl, libhdate1, hdate
+Version: 1.6.02-2.1
+Maintainer: Debian Hebrew Packaging Team <team+hebrew@tracker.debian.org>
+Uploaders: Lior Kaplan <kaplan@debian.org>, Shachar Shemesh <shachar@debian.org>, Tzafrir Cohen <tzafrir@debian.org>
+Build-Depends: debhelper (>= 9), swig, dh-autoreconf
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 58af8c6e0305e29b5b297bd950df632c 2169 libhdate_1.6.02-2.1.dsc
+ 0376b7ad2df71a093343d04f51b9b510 437455 libhdate_1.6.02.orig.tar.bz2
+ 95c71d96e545adcca0eeec3976c1c0cc 13136 libhdate_1.6.02-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/hebrew-team/libhdate
+Vcs-Git: https://salsa.debian.org/hebrew-team/libhdate.git
+Checksums-Sha256:
+ 9e46cbefe38104016eb17c27591aa968989832b2d35e9f7e05fc0abee25946e9 2169 libhdate_1.6.02-2.1.dsc
+ 3c930a8deb57c01896dc37f0d7804e5a330ee8e88c4ff610b71f9d2b02c17762 437455 libhdate_1.6.02.orig.tar.bz2
+ 90e2da761faa194fcc9f328e1e15cd7115dfdd867d5f734a8b98d9654ff0a3e7 13136 libhdate_1.6.02-2.1.debian.tar.xz
+Homepage: http://libhdate.sourceforge.net/
+Package-List: 
+ hdate deb utils optional arch=any
+ libhdate-dev deb libdevel optional arch=any
+ libhdate-perl deb perl optional arch=any
+ libhdate1 deb libs optional arch=any
+Directory: pool/main/libh/libhdate
+Priority: source
+Section: libdevel

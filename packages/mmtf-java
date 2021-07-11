@@ -1,0 +1,26 @@
+Package: mmtf-java
+Binary: libmmtf-java
+Version: 1.0.9-4
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper (>= 12), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: default-jdk-doc, junit4 (>= 4.12), libcommons-beanutils-java, libcommons-lang-java (>= 2.4), libmsgpack-java, libslf4j-java (>= 1.7.21)
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ b9f3268c04bbe9438fafdaa70c114fbf 2132 mmtf-java_1.0.9-4.dsc
+ 0d9a08fc7bdc63d5b95143b74fd0320a 6422256 mmtf-java_1.0.9.orig.tar.xz
+ 58ee255d4c666a71b84728a64734cb0f 6388 mmtf-java_1.0.9-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debichem-team/mmtf-java
+Vcs-Git: https://salsa.debian.org/debichem-team/mmtf-java.git
+Checksums-Sha256:
+ e4d7f2696e2bd6c66526e6d09e5c258c0dcc8031d026da9603ac928c9c00e901 2132 mmtf-java_1.0.9-4.dsc
+ 86911b9650aa5da1561ee4b6f135cd6f1e1dda45231d3a91d0a5d21259f3238b 6422256 mmtf-java_1.0.9.orig.tar.xz
+ f714e8dcfd1919c303bfa7c2407136224e67ddb1bcbd4d6a5061cb8910c4aa32 6388 mmtf-java_1.0.9-4.debian.tar.xz
+Homepage: https://github.com/rcsb
+Package-List: 
+ libmmtf-java deb java optional arch=all
+Directory: pool/main/m/mmtf-java
+Priority: extra
+Section: misc

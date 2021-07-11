@@ -1,0 +1,28 @@
+Package: libcps-perl
+Binary: libcps-perl
+Version: 0.19-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 12), libmodule-build-perl
+Build-Depends-Indep: libfuture-perl <!nocheck>, libsub-name-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-identity-perl <!nocheck>, libtest-pod-perl <!nocheck>, libtest-refcount-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ b7bdd11f88e4df7156aade07ccbc1f12 2470 libcps-perl_0.19-1.dsc
+ 7d64e1598709416e5ff98f7ea578412c 31621 libcps-perl_0.19.orig.tar.gz
+ 5dee06b527ef1be2d46be722a247f93d 2676 libcps-perl_0.19-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcps-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcps-perl.git
+Checksums-Sha256:
+ 4066423f6ec254c5c510b1243c7466d6ea5efc9f16c0c49433fd4cca0978bee4 2470 libcps-perl_0.19-1.dsc
+ b52fccf7a40607d0cfdfbc5de75973febb06ea65eef5380b391c87a5a472675b 31621 libcps-perl_0.19.orig.tar.gz
+ ad088b1602d7a5cb4a28fa6371126cb57f4285e8893c23d489247672d5e5594d 2676 libcps-perl_0.19-1.debian.tar.xz
+Homepage: https://metacpan.org/release/CPS
+Dgit: 52e544f230736506d40fd3da44583798e5767770 debian archive/debian/0.19-1 https://git.dgit.debian.org/libcps-perl
+Package-List: 
+ libcps-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcps-perl
+Priority: source
+Section: perl

@@ -1,0 +1,24 @@
+Package: rust-data-url
+Binary: librust-data-url-dev
+Version: 0.1.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Paride Legovini <pl@ninthfloor.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-matches-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 76c21ccdff9cc8e208927453295b00b4 2105 rust-data-url_0.1.0-1.dsc
+ 0b752675a0acee19600410edc9ba3bfe 19783 rust-data-url_0.1.0.orig.tar.gz
+ 02aa57d44d3ae178979318257e351a06 2392 rust-data-url_0.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/data-url
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/data-url]
+Checksums-Sha256:
+ 55e8b2ad8e85b439f87dd1b16779b738fffbbf46735832d866cfaebefa432eeb 2105 rust-data-url_0.1.0-1.dsc
+ d33fe99ccedd6e84bc035f1931bb2e6be79739d6242bd895e7311c886c50dc9c 19783 rust-data-url_0.1.0.orig.tar.gz
+ 634b637478b43ca199ec981b6047a04236539e90977a1afc1093e8cca98edea4 2392 rust-data-url_0.1.0-1.debian.tar.xz
+Package-List: 
+ librust-data-url-dev deb rust optional arch=any
+Directory: pool/main/r/rust-data-url
+Priority: extra
+Section: misc

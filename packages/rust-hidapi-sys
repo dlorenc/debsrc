@@ -1,0 +1,24 @@
+Package: rust-hidapi-sys
+Binary: librust-hidapi-sys-dev
+Version: 0.1.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 10), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, libhidapi-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 5bbdf286ae0f49c71c9c41161f394f8b 1544 rust-hidapi-sys_0.1.4-1.dsc
+ 51484d3ceccb64135fbe745735099f47 2391 rust-hidapi-sys_0.1.4.orig.tar.gz
+ c16b441b7e683ab30cd6e09c03df1178 2976 rust-hidapi-sys_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/hidapi-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/hidapi-sys]
+Checksums-Sha256:
+ b586214ae4d2a3d4461b70e6297385f4091dd432755fc74e02e173a29dd4da28 1544 rust-hidapi-sys_0.1.4-1.dsc
+ dd8a9410aec7ca9f4571ff40c7b1813a28503c2a664a028921fc973073dcd4bf 2391 rust-hidapi-sys_0.1.4.orig.tar.gz
+ b767038177b808e72cb0513022dc460570719dab7a1db075de7eb0d65ee52474 2976 rust-hidapi-sys_0.1.4-1.debian.tar.xz
+Package-List: 
+ librust-hidapi-sys-dev deb rust optional arch=any
+Directory: pool/main/r/rust-hidapi-sys
+Priority: extra
+Section: misc

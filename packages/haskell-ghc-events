@@ -1,0 +1,28 @@
+Package: haskell-ghc-events
+Binary: libghc-ghc-events-dev, libghc-ghc-events-prof, libghc-ghc-events-doc
+Version: 0.13.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13), libghc-vector-dev (>= 0.7), libghc-vector-dev (<< 0.13), libghc-vector-prof
+Build-Depends-Indep: ghc-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 23e5c4228a1632dfc7fc63ae848349a5 2468 haskell-ghc-events_0.13.0-1.dsc
+ fd085cc9a2f49a0a3c8592150e154363 1469834 haskell-ghc-events_0.13.0.orig.tar.gz
+ dc6f55764d3c7d85834b9318dc18980d 3872 haskell-ghc-events_0.13.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ghc-events
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ghc-events]
+Checksums-Sha256:
+ 86d08514933989d78cf389685d4cf992f7abbcec38f390a46eb87e2eac0072fe 2468 haskell-ghc-events_0.13.0-1.dsc
+ 65245b27769c84713d94f7d84fc64241c022679b79c2f5b6a8537f160e0c8dac 1469834 haskell-ghc-events_0.13.0.orig.tar.gz
+ 39f729e666705b34541ef1f9ee5ca80adc62e16523acfe625aa5e6f29ed8f154 3872 haskell-ghc-events_0.13.0-1.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/ghc-events
+Package-List: 
+ libghc-ghc-events-dev deb haskell optional arch=any
+ libghc-ghc-events-doc deb doc optional arch=all
+ libghc-ghc-events-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-ghc-events
+Priority: source
+Section: haskell

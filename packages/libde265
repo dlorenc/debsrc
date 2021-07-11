@@ -1,0 +1,27 @@
+Package: libde265
+Binary: libde265-0, libde265-dev, libde265-examples
+Version: 1.0.8-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Alessio Treglia <alessio@debian.org>, Joachim Bauch <bauch@struktur.de>
+Build-Depends: debhelper-compat (= 13), libjpeg-dev, libpng-dev, qtbase5-dev | libqt4-dev, libsdl-dev, libswscale-dev, libx11-dev, libxext-dev, libxv-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b2f5407b46924dcee5628425f81dc896 2216 libde265_1.0.8-1.dsc
+ e5a8c91c533ae5926e5118087f78930f 837878 libde265_1.0.8.orig.tar.gz
+ 02606dd13fa330ef73df8019104b0a82 8184 libde265_1.0.8-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libde265
+Vcs-Git: https://salsa.debian.org/multimedia-team/libde265.git
+Checksums-Sha256:
+ fea3b9010b68c3f0ab8f577c9a9fd1b89bfac1ae7b6814360d10cc0742528112 2216 libde265_1.0.8-1.dsc
+ 24c791dd334fa521762320ff54f0febfd3c09fc978880a8c5fbc40a88f21d905 837878 libde265_1.0.8.orig.tar.gz
+ cd82689cc5012a9aa726f9d3888552ab64866a273478e2da2e2ee99e07477ac9 8184 libde265_1.0.8-1.debian.tar.xz
+Homepage: https://github.com/strukturag/libde265
+Package-List: 
+ libde265-0 deb libs optional arch=any
+ libde265-dev deb libdevel optional arch=any
+ libde265-examples deb video optional arch=any
+Directory: pool/main/libd/libde265
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: libcourriel-perl
+Binary: libcourriel-perl
+Version: 0.48-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libdatetime-format-mail-perl (>= 0.4030) <!nocheck>, libdatetime-format-natural-perl <!nocheck>, libdatetime-perl <!nocheck>, libdevel-partialdump-perl <!nocheck>, libemail-abstract-perl <!nocheck>, libemail-address-xs-perl <!nocheck>, libemail-messageid-perl <!nocheck>, libemail-mime-encodings-perl <!nocheck>, libemail-sender-perl <!nocheck>, libfile-libmagic-perl <!nocheck>, libfile-slurper-perl <!nocheck>, liblist-allutils-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-role-parameterized-perl <!nocheck>, libmoosex-strictconstructor-perl <!nocheck>, libmoosex-types-common-perl <!nocheck>, libmoosex-types-perl <!nocheck>, libnamespace-autoclean-perl <!nocheck>, libpath-class-perl <!nocheck>, libparams-validationcompiler-perl (>= 0.26) <!nocheck>, libsub-exporter-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libtest-requires-perl <!nocheck>, libtest-warnings-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 8456d5e630b647264dd18c147915b53f 3213 libcourriel-perl_0.48-1.dsc
+ 758f5d89c04c97373937bf96c0bf3481 406691 libcourriel-perl_0.48.orig.tar.gz
+ 00c8cc929acd4d0ac543f2639a03cfda 8052 libcourriel-perl_0.48-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcourriel-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcourriel-perl.git
+Checksums-Sha256:
+ 7f60c646d1a06a47a10dd758fe11b44a92b2b58c182463cc649b1f10cc51518c 3213 libcourriel-perl_0.48-1.dsc
+ b95bd214ac0687417174c0ee7b8817133baff3c15344b1b9f08b8d38d282db0b 406691 libcourriel-perl_0.48.orig.tar.gz
+ 9229264abe44ec3934bb1e7d528ad4dc8c3f8142ef8db14b01456d81d456fc32 8052 libcourriel-perl_0.48-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Courriel
+Package-List: 
+ libcourriel-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libcourriel-perl
+Priority: source
+Section: perl

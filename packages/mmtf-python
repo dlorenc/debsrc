@@ -1,0 +1,26 @@
+Package: mmtf-python
+Binary: python3-mmtf
+Version: 1.1.2-3
+Maintainer: Debichem Team <debichem-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-msgpack <!nocheck>, python3-numpy <!nocheck>, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 09754d53ef49a287ad997ecf7cc0a8f2 2086 mmtf-python_1.1.2-3.dsc
+ d47b3f5cef6b89b11b284a16d3c14b17 46678 mmtf-python_1.1.2.orig.tar.gz
+ 9de71c41a2d9f20594220c4f7e55c932 1900 mmtf-python_1.1.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debichem-team/mmtf-python
+Vcs-Git: https://salsa.debian.org/debichem-team/mmtf-python.git
+Checksums-Sha256:
+ 180b33006d68f7226b341636855714bf6526f8dae6e87da2daeb8291846c860c 2086 mmtf-python_1.1.2-3.dsc
+ 289b1b46331d2011f5629bf3f0a7dbbf87ad24af301417edeb8c309cc86768d2 46678 mmtf-python_1.1.2.orig.tar.gz
+ 79b12f7df75cf406808b009ea43e74b452d589f5adeb089e0b371f53f26fcc30 1900 mmtf-python_1.1.2-3.debian.tar.xz
+Homepage: https://github.com/rcsb/mmtf-python
+Package-List: 
+ python3-mmtf deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/m/mmtf-python
+Priority: extra
+Section: misc

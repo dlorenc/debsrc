@@ -1,0 +1,28 @@
+Package: libhttp-daemon-perl
+Binary: libhttp-daemon-perl
+Version: 6.12-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-tiny-perl
+Build-Depends-Indep: libhttp-date-perl <!nocheck>, libhttp-message-perl <!nocheck>, libio-socket-ip-perl <!nocheck>, liblwp-mediatypes-perl <!nocheck>, libmodule-metadata-perl <!nocheck>, libsocket-perl <!nocheck>, libtest-needs-perl <!nocheck>, libtest-simple-perl <!nocheck>, liburi-perl <!nocheck>, perl
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bca35c25e4ee7f7034971ebe05ec63df 2676 libhttp-daemon-perl_6.12-1.dsc
+ 63674e3f81760a29075853413eb157d8 47117 libhttp-daemon-perl_6.12.orig.tar.gz
+ f511c98335eda7c67b1f965378c15844 3096 libhttp-daemon-perl_6.12-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhttp-daemon-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhttp-daemon-perl.git
+Checksums-Sha256:
+ 40886ace7965adaaee2bd9ed784e3ff60f0664e821ad3bffe4f11e3e6f961019 2676 libhttp-daemon-perl_6.12-1.dsc
+ df47bed10c38670c780fd0116867d5fd4693604acde31ba63380dce04c4e1fa6 47117 libhttp-daemon-perl_6.12.orig.tar.gz
+ 150df7ee17aaa21796a74f9a7d8c2bdfb280647ea9eefc80c9e794797cdd0ae5 3096 libhttp-daemon-perl_6.12-1.debian.tar.xz
+Homepage: https://metacpan.org/release/HTTP-Daemon
+Dgit: be60d53eeea3791f603abd9d9694827ff9982e6f debian archive/debian/6.12-1 https://git.dgit.debian.org/libhttp-daemon-perl
+Package-List: 
+ libhttp-daemon-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhttp-daemon-perl
+Priority: source
+Section: perl

@@ -1,0 +1,27 @@
+Package: shim
+Binary: shim-unsigned, shim-helpers-amd64-signed-template, shim-helpers-i386-signed-template, shim-helpers-arm64-signed-template
+Version: 15.4-6
+Maintainer: Debian EFI team <debian-efi@lists.debian.org>
+Uploaders: Steve Langasek <vorlon@debian.org>, Steve McIntyre <93sam@debian.org>
+Build-Depends: debhelper-compat (= 12), gnu-efi (>= 3.0u), sbsigntool, openssl, libelf-dev, gcc-10, dos2unix, pesign (>= 0.112-5), xxd
+Architecture: amd64 arm64 i386
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 55b09f08418b65e28a14bbb7a27bfbda 2300 shim_15.4-6.dsc
+ e47302f0302e90503ecbfa31ad4ed8fa 1260475 shim_15.4.orig.tar.bz2
+ 99e10023060aea0b923d3f566b415554 33932 shim_15.4-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/efi-team/shim
+Vcs-Git: https://salsa.debian.org/efi-team/shim.git
+Checksums-Sha256:
+ 0316b340550238a3fb4cbb2a2b2a736fc93ba460327000032c1e683ee1db8831 2300 shim_15.4-6.dsc
+ 8344473dd10569588b8238a4656b8fab226714eea9f5363f8c410aa8a5090297 1260475 shim_15.4.orig.tar.bz2
+ 624357f05fdbf212523d9adcc6c4f92c03b442b3fb76732576ab56c756d8834a 33932 shim_15.4-6.debian.tar.xz
+Package-List: 
+ shim-helpers-amd64-signed-template deb admin optional arch=amd64
+ shim-helpers-arm64-signed-template deb admin optional arch=arm64
+ shim-helpers-i386-signed-template deb admin optional arch=i386
+ shim-unsigned deb admin optional arch=amd64,arm64,i386
+Directory: pool/main/s/shim
+Priority: optional
+Section: misc

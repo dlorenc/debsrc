@@ -1,0 +1,30 @@
+Package: node-leveldown
+Binary: node-leveldown
+Version: 5.6.0+dfsg-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), libleveldb-dev, libnode-dev, libsnappy-dev, node-abstract-leveldown (>= 2.4.0), node-after <!nocheck>, node-async-each <!nocheck>, node-bindings, node-gyp, node-nan (>= 1.8.4), node-tape <!nocheck>, node-temp <!nocheck>, node-unique-string <!nocheck>, dh-sequence-nodejs
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 7ad8d8e66cda66882a1c559adfffc1f8 2946 node-leveldown_5.6.0+dfsg-1.dsc
+ 678a388180315e93262ac53759b10aef 4584 node-leveldown_5.6.0+dfsg.orig-napi-macros.tar.xz
+ 59a447099fbdaf3aeb7595f35f58ff0e 5412 node-leveldown_5.6.0+dfsg.orig-node-gyp-build.tar.xz
+ 150e9bfad3316b8abefa6b27a36577fe 40636 node-leveldown_5.6.0+dfsg.orig.tar.xz
+ e10e3e9705192ea2aeb3e55db73e8e67 26312 node-leveldown_5.6.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-leveldown
+Vcs-Git: https://salsa.debian.org/js-team/node-leveldown.git
+Checksums-Sha256:
+ cf5ae227491ee6abc64fb46fa559767cd225f197a1e8f68968657d7e4f0f76d7 2946 node-leveldown_5.6.0+dfsg-1.dsc
+ d62d88b4e460fd5c441c5d4fe4840fb6a943b81efc8ed38477f50cff830e2f6c 4584 node-leveldown_5.6.0+dfsg.orig-napi-macros.tar.xz
+ 4c0bd4c7a758844884d2e21555a7d134ed92484dc8807b91075f6472cd28195c 5412 node-leveldown_5.6.0+dfsg.orig-node-gyp-build.tar.xz
+ 080955ef834ce848bb89a5a9516557ea321b4970af09dd5075d58efa9ed8873d 40636 node-leveldown_5.6.0+dfsg.orig.tar.xz
+ 33e4c485ea04d16140da9e6bd210fba92ca6a098cde1855a4dc717c3f580dbae 26312 node-leveldown_5.6.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/Level/leveldown
+Package-List: 
+ node-leveldown deb javascript optional arch=any
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-leveldown
+Priority: optional
+Section: javascript

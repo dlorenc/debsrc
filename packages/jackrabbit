@@ -1,0 +1,25 @@
+Package: jackrabbit
+Binary: libjackrabbit-java
+Version: 2.18.0+r2.14.6-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: bnd (>= 2.1.0), debhelper (>= 11), default-jdk, libapache-pom-java, libcommons-httpclient-java, libmaven-bundle-plugin-java, libservlet3.1-java, libslf4j-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 88908ec814793e8de982009aa931e730 2338 jackrabbit_2.18.0+r2.14.6-1.dsc
+ b83d7e61d6ebf872fd5b478215bc530d 3387596 jackrabbit_2.18.0+r2.14.6.orig.tar.xz
+ f0e33d7dc1428e4f40e764ba2ac88df4 7508 jackrabbit_2.18.0+r2.14.6-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/jackrabbit.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/jackrabbit.git
+Checksums-Sha256:
+ ae60affd165a8aeeacd68e4d2b391da714f8c68095592458d528fe5a665fceea 2338 jackrabbit_2.18.0+r2.14.6-1.dsc
+ 6ef22e8725cb5d02fba2cf9ec106a38eea9c1865560d09fe17aef745088483f6 3387596 jackrabbit_2.18.0+r2.14.6.orig.tar.xz
+ f2d03605fb5aa2647f79d2120a91a8eac91339a5ca8639b12c84f114f7ca5013 7508 jackrabbit_2.18.0+r2.14.6-1.debian.tar.xz
+Homepage: http://jackrabbit.apache.org/
+Package-List: 
+ libjackrabbit-java deb java optional arch=all
+Directory: pool/main/j/jackrabbit
+Priority: source
+Section: java

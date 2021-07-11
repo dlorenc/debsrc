@@ -1,0 +1,26 @@
+Package: rust-roxmltree
+Binary: librust-roxmltree-dev
+Version: 0.7.3-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-xmlparser-0.11+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ df72c8edccd9e9ae4aa6097bce3e3482 1872 rust-roxmltree_0.7.3-1.dsc
+ 29fa30566126c81f6c910e83318cdbaf 35961 rust-roxmltree_0.7.3.orig.tar.gz
+ 50cfb80a2fbc3c25aba12d58830d84e7 3196 rust-roxmltree_0.7.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/roxmltree
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/roxmltree]
+Checksums-Sha256:
+ 40fd631a548ce4ad9793a8df0320fb9367a33eac55ff1fed6c8ee785c0d013bc 1872 rust-roxmltree_0.7.3-1.dsc
+ 0852407257c1b696a0c66b9db3ffe7769c2744a2fa725c8050e6f3e5a823c02b 35961 rust-roxmltree_0.7.3.orig.tar.gz
+ 6801bc4131232c90633cfbc4ad3561eff10025a416734e943dbf066fff5f7bb2 3196 rust-roxmltree_0.7.3-1.debian.tar.xz
+Package-List: 
+ librust-roxmltree-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-pretty-assertions-0.5+default-dev
+Directory: pool/main/r/rust-roxmltree
+Priority: extra
+Section: misc

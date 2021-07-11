@@ -1,0 +1,28 @@
+Package: configobj
+Binary: python-configobj-doc, python3-configobj
+Version: 5.0.6-4
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>, Jelmer Vernooij <jelmer@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pytest, python3-setuptools, python3-sphinx, python3-six
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 9c97ea91ba1fef1892741e1ad6891fc3 2246 configobj_5.0.6-4.dsc
+ 3ba0a72b09225a09c80b571ad60c3f54 143664 configobj_5.0.6.orig.tar.gz
+ 66563425e7f366d2ddee7ade822c0dbd 6916 configobj_5.0.6-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/configobj
+Vcs-Git: https://salsa.debian.org/python-team/modules/configobj.git
+Checksums-Sha256:
+ 74df72d8fdb3c20e4bc5ab996bf1f8c6297811643989110cc27a019e7beb0429 2246 configobj_5.0.6-4.dsc
+ 2e140354efcca6f558ff9ee941b435ae09a617bc071797bef62c8d6ed2033d5e 143664 configobj_5.0.6.orig.tar.gz
+ dd20992aeef0eb1fb8ab6f0007e265ece33cfc20a6ca18b380eb255674195f01 6916 configobj_5.0.6-4.debian.tar.xz
+Homepage: http://www.voidspace.org.uk/python/configobj.html
+Package-List: 
+ python-configobj-doc deb doc optional arch=all
+ python3-configobj deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/c/configobj
+Priority: source
+Section: python

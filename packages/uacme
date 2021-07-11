@@ -1,0 +1,24 @@
+Package: uacme
+Binary: uacme
+Version: 1.7.1-1
+Maintainer: Nicola Di Lieto <nicola.dilieto@gmail.com>
+Build-Depends: debhelper-compat (= 12), autoconf-archive, pkg-config, libev-dev, libgnutls28-dev (>= 3.3), curl, libcurl4-gnutls-dev (>= 7.38), asciidoc, docbook-xml, docbook-xsl, libxml2-utils, xsltproc
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4a9d722948efe339906052ed39d0c93f 1952 uacme_1.7.1-1.dsc
+ ec230a44ca32cbdb09e44d3dc73f8590 331039 uacme_1.7.1.orig.tar.gz
+ 483ac980285cd95594d9abdbe41c21cc 6604 uacme_1.7.1-1.debian.tar.xz
+Vcs-Browser: https://github.com/ndilieto/uacme
+Vcs-Git: https://github.com/ndilieto/uacme.git
+Checksums-Sha256:
+ 5af0529521794d940c99500266a42a48d29407b76cf1e4f9c5863e35703e42df 1952 uacme_1.7.1-1.dsc
+ c04ef2d5e3dd9b39ed9c02c0e5c33c7ad191a0d7d63fe18cda952fddd0eef479 331039 uacme_1.7.1.orig.tar.gz
+ 3f6d2e061b3311be2b2c072c396e675096ccfb4a9db3368957b9533a317a087a 6604 uacme_1.7.1-1.debian.tar.xz
+Homepage: https://github.com/ndilieto/uacme
+Package-List: 
+ uacme deb net optional arch=any
+Directory: pool/main/u/uacme
+Priority: extra
+Section: misc

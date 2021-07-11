@@ -1,0 +1,28 @@
+Package: ipy
+Binary: python3-ipy
+Version: 1:1.01-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Bernd Zeimetz <bzed@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all
+Build-Depends-Indep: python3-docutils
+Architecture: all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ a94dbcaa26bec84bfcc8d2e475fd9b9f 1984 ipy_1.01-1.dsc
+ fb22a824e57627d4dd9735abb2585c2d 27924 ipy_1.01.orig.tar.xz
+ add22f75bd32888ad19d6a5781e9c144 6948 ipy_1.01-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/ipy
+Vcs-Git: https://salsa.debian.org/python-team/packages/ipy.git
+Checksums-Sha256:
+ 0df4056d57b56c15a93a29ed67b53253f4ac508e10623a34380a0608a44cb484 1984 ipy_1.01-1.dsc
+ 1413c85b526b3bc68afd5123c28ce04e5f57c48925604cd87d938ba975dcbe52 27924 ipy_1.01.orig.tar.xz
+ e4b7247f73460139e34041a253cc3db0468ee240554b22ef5c43ec7c986f06a2 6948 ipy_1.01-1.debian.tar.xz
+Homepage: https://github.com/haypo/python-ipy/
+Package-List: 
+ python3-ipy deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all
+Directory: pool/main/i/ipy
+Priority: source
+Section: python

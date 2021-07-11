@@ -1,0 +1,27 @@
+Package: node-jsonparse
+Binary: node-jsonparse
+Version: 1.3.1-7
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Bastien Roucariès <rouca@debian.org>
+Build-Depends: debhelper-compat (= 12), dpkg-dev (>= 1.17.14), dh-buildinfo, nodejs (>= 6), node-tape (>= 0.1.1) <!nocheck>, node-tap (>= 0.3) <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ e8b094de73154fe20ec04cad5e93d485 2172 node-jsonparse_1.3.1-7.dsc
+ 3f3a258ba44046be55fee996315c72e0 8721 node-jsonparse_1.3.1.orig.tar.gz
+ 42080252a6fdaa04239dd312e6ff5852 4848 node-jsonparse_1.3.1-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-jsonparse
+Vcs-Git: https://salsa.debian.org/js-team/node-jsonparse.git
+Checksums-Sha256:
+ fe42f637ff8201922f9933c05633297545f82391967a701ac5a9b6bf28f345cd 2172 node-jsonparse_1.3.1-7.dsc
+ e5946340dae9207d41c4473d885a23e1dfdfe0e344bc7eab900dfeccd28b4c46 8721 node-jsonparse_1.3.1.orig.tar.gz
+ 23926d251b766b0394819630e4210116cadbf9dc776004ec119f03b03c6daaeb 4848 node-jsonparse_1.3.1-7.debian.tar.xz
+Homepage: https://github.com/creationix/jsonparse
+Package-List: 
+ node-jsonparse deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: node-tap, node-tape, nodejs
+Directory: pool/main/n/node-jsonparse
+Priority: optional
+Section: javascript

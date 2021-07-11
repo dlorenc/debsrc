@@ -1,0 +1,27 @@
+Package: darkplaces
+Binary: darkplaces, darkplaces-server
+Version: 0~20180908~beta1-3
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Simon McVittie <smcv@debian.org>, David Bate <david@bate.org.uk>,
+Build-Depends: debhelper-compat (= 12), libcurl4-gnutls-dev, libfreetype6-dev, libjpeg-dev, libode-dev, libogg-dev, libpng-dev, libsdl2-dev, libtheora-dev, libvorbis-dev, lsb-release, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4cf67cce4d662bcc4d68fc11c8ca7d69 2405 darkplaces_0~20180908~beta1-3.dsc
+ 874ab94e5e619169305a00840f69fe6a 1822212 darkplaces_0~20180908~beta1.orig.tar.xz
+ 8c85fa3fc7636024e88cb1675164438f 38420 darkplaces_0~20180908~beta1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/darkplaces
+Vcs-Git: https://salsa.debian.org/games-team/darkplaces.git
+Checksums-Sha256:
+ b3078cfff16e0de199b2972753850379073418459f9a2f8fccb343bfb0207c9f 2405 darkplaces_0~20180908~beta1-3.dsc
+ 31411caf24772c49944aeb9a77c80f9ef6a7d2e6eff81e98e391edcd610f97f9 1822212 darkplaces_0~20180908~beta1.orig.tar.xz
+ 646d9cb0e992c8874a3249414c1731ccf196d6b096404b9b536691af8beaf4b4 38420 darkplaces_0~20180908~beta1-3.debian.tar.xz
+Homepage: https://icculus.org/twilight/darkplaces/
+Dgit: 6cffb2ef5f3f48c8d92b317bfe9e89d0ce250d85 debian archive/debian/0_20180908_beta1-3 https://git.dgit.debian.org/darkplaces
+Package-List: 
+ darkplaces deb games optional arch=any
+ darkplaces-server deb games optional arch=any
+Directory: pool/main/d/darkplaces
+Priority: source
+Section: games

@@ -1,0 +1,26 @@
+Package: scummvm
+Binary: scummvm, scummvm-data
+Version: 2.2.0+dfsg1-4
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: David Weinehall <tao@debian.org> ,Moritz Muehlenhoff <jmm@debian.org> ,Dmitry Smirnov <onlyjob@debian.org> ,Stephen Kitt <skitt@debian.org>
+Build-Depends: debhelper-compat (= 13), fonts-freefont-ttf, fonts-mplus, liba52-dev, libasound2-dev [linux-any], libcurl4-gnutls-dev, libfaad-dev, libflac-dev, libfluidsynth-dev, libfreetype6-dev, libfribidi-dev, libgtk-3-dev, libieee1284-3-dev, libjpeg-dev, libmad0-dev, libmpeg2-4-dev, libpng-dev, libsdl2-dev | libsdl1.2-dev, libsdl2-net-dev | libsdl-net1.2-dev, libspeechd-dev, libtheora-dev, libvorbis-dev, libz-dev, nasm [i386], pkg-config, python3, zip
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bd5055008b9370673f2a6e7fb87ed86f 2541 scummvm_2.2.0+dfsg1-4.dsc
+ c6a77e2c77c151ccb05af760e95dfd0e 63695604 scummvm_2.2.0+dfsg1.orig.tar.xz
+ 6bfd9447a8bdc95c7936febcd0d605ea 17848 scummvm_2.2.0+dfsg1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/scummvm
+Vcs-Git: https://salsa.debian.org/games-team/scummvm.git
+Checksums-Sha256:
+ ad0e4ab3d9f2819f9dfb6a9aee37f41f47ad500e1da8acdb0636b92e6b24b7c0 2541 scummvm_2.2.0+dfsg1-4.dsc
+ 40e090d8ba3c53eac51627d0b6a5b1b81eb12bce73ddb7cca49e1c693d9273eb 63695604 scummvm_2.2.0+dfsg1.orig.tar.xz
+ 9919ecb545d4445eb87fa5b63eeb5b5dea1e112f12a4168a327c8002e320b161 17848 scummvm_2.2.0+dfsg1-4.debian.tar.xz
+Homepage: http://www.scummvm.org
+Package-List: 
+ scummvm deb games optional arch=any
+ scummvm-data deb games optional arch=all
+Directory: pool/main/s/scummvm
+Priority: source
+Section: games

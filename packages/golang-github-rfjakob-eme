@@ -1,0 +1,28 @@
+Package: golang-github-rfjakob-eme
+Binary: golang-github-rfjakob-eme-dev
+Version: 1.1.1-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Felix Lechner <felix.lechner@lease-up.com>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ becc9ac936303f774332c493e5c227b8 2238 golang-github-rfjakob-eme_1.1.1-1.dsc
+ 611410b856b95b234d943ded08dca482 23431 golang-github-rfjakob-eme_1.1.1.orig.tar.gz
+ 760c71484677c8900f1106cc0b6c60dc 3284 golang-github-rfjakob-eme_1.1.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-rfjakob-eme
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-rfjakob-eme.git
+Checksums-Sha256:
+ 7a03a55ceef9ad79624c328d5197114f12fd1417854bb29f507ee20364626616 2238 golang-github-rfjakob-eme_1.1.1-1.dsc
+ 45e5c3c54e26819a62b306f7e0daf80c6ea82b6109362b5284e0f8451dbc2a48 23431 golang-github-rfjakob-eme_1.1.1.orig.tar.gz
+ 05ad6741ddf77fbc7164342544d14c331b925f886c0e880fb4761ed32ae4d94c 3284 golang-github-rfjakob-eme_1.1.1-1.debian.tar.xz
+Homepage: https://github.com/rfjakob/eme
+Go-Import-Path: github.com/rfjakob/eme
+Package-List: 
+ golang-github-rfjakob-eme-dev deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/g/golang-github-rfjakob-eme
+Priority: extra
+Section: golang

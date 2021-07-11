@@ -1,0 +1,26 @@
+Package: node-request
+Binary: node-request
+Version: 2.88.1-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>, Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), node-aws-sign2 <!nocheck>, node-aws4 <!nocheck>, node-bluebird <!nocheck>, node-buffer-equal <!nocheck>, node-caseless <!nocheck>, node-combined-stream (>= 1.0.6~) <!nocheck>, node-extend (>= 3.0.2~) <!nocheck>, node-forever-agent (>= 0.6.1~) <!nocheck>, node-form-data (>= 2.3.2~) <!nocheck>, node-har-validator <!nocheck>, node-http-signature <!nocheck>, node-is-typedarray <!nocheck>, node-isstream <!nocheck>, node-json-stringify-safe (>= 5.0.1~) <!nocheck>, node-mime-types (>= 2.1.19~) <!nocheck>, node-oauth-sign (>= 0.9~) <!nocheck>, node-performance-now <!nocheck>, node-qs (>= 6.5.2~) <!nocheck>, node-rimraf <!nocheck>, node-safe-buffer <!nocheck>, node-tape <!nocheck>, node-tough-cookie <!nocheck>, node-tunnel-agent (>= 0.6~) <!nocheck>, node-uuid <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 95ae1f70b3bacf2f4e939055545f6e9f 2838 node-request_2.88.1-5.dsc
+ b92e601de27784ee3753c2daa963e9df 153910 node-request_2.88.1.orig.tar.gz
+ 15f42f4c69b2044a4d7d68d1c9757548 7508 node-request_2.88.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-request
+Vcs-Git: https://salsa.debian.org/js-team/node-request.git
+Checksums-Sha256:
+ ec304b2cf44a1c76b87470bc6f4f88e2995e1047ac0972d1b7062ea5df3d8ba6 2838 node-request_2.88.1-5.dsc
+ 6506ec33a673f6a5542a950be65b02b23c8e8cda21847c19ee67dee4fdc7adc4 153910 node-request_2.88.1.orig.tar.gz
+ bb0ab4cc4cf0d75dc19436eb6f2f71c7b25e6c702b53b9bfc104388b944f6a51 7508 node-request_2.88.1-5.debian.tar.xz
+Homepage: https://github.com/mikeal/request
+Package-List: 
+ node-request deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-request
+Priority: source
+Section: javascript

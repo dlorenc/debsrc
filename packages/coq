@@ -1,0 +1,31 @@
+Package: coq
+Binary: coq, coqide, coq-theories, libcoq-ocaml, libcoq-ocaml-dev
+Version: 8.12.0-3
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Benjamin Barenblat <bbaren@debian.org>, Ralf Treinen <treinen@debian.org>, Stéphane Glondu <glondu@debian.org>, Enrico Tassi <gareuselesinge@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-exec, dh-ocaml (>= 0.9.5~), dh-python, ocaml-nox (>= 4.05), ocaml-findlib (>= 1.8.0), camlp5 (>= 6.14), liblablgtk3-ocaml-dev, liblablgtksourceview3-ocaml-dev (>= 3.0~beta8), libnum-ocaml-dev, libounit-ocaml-dev, python3, rsync, tex-common
+Build-Conflicts: libcoq-ocaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 74fa59ff625160361d54e4f008bbd61b 2483 coq_8.12.0-3.dsc
+ fb63dc40943c353977fe4da5f0e88002 6008211 coq_8.12.0.orig.tar.gz
+ 3957663116163b8bae95288b66e400bb 37772 coq_8.12.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ocaml-team/coq
+Vcs-Git: https://salsa.debian.org/ocaml-team/coq.git
+Checksums-Sha256:
+ a51b2cc10e8b2e8199e0788bc5c5016f7bc097cc276105e8f1e137f96be1838b 2483 coq_8.12.0-3.dsc
+ e2c784fb8545718819f44b85518b5572226faa1e34aa8dc4d5d9e64edfbc0a39 6008211 coq_8.12.0.orig.tar.gz
+ d0b2ecfbcb6ef5a116dc791cf4e68086314352c42d5250407e563d117f63234a 37772 coq_8.12.0-3.debian.tar.xz
+Homepage: http://coq.inria.fr/
+Package-List: 
+ coq deb math optional arch=any
+ coq-theories deb math optional arch=any
+ coqide deb math optional arch=any
+ libcoq-ocaml deb ocaml optional arch=any
+ libcoq-ocaml-dev deb ocaml optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/coq
+Priority: source
+Section: math

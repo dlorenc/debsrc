@@ -1,0 +1,34 @@
+Package: rust-sequoia-openpgp
+Binary: librust-sequoia-openpgp-dev, librust-sequoia-openpgp+bzip2-dev, librust-sequoia-openpgp+compression-dev, librust-sequoia-openpgp+compression-bzip2-dev, librust-sequoia-openpgp+compression-deflate-dev, librust-sequoia-openpgp+crypto-nettle-dev, librust-sequoia-openpgp+default-dev, librust-sequoia-openpgp+flate2-dev
+Version: 1.1.0-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-anyhow-1+default-dev (>= 1.0.18-~~) <!nocheck>, librust-backtrace-0.3+default-dev (>= 0.3.3-~~) <!nocheck>, librust-base64+default-dev (>= 0.12-~~) <!nocheck>, librust-buffered-reader-1+compression-bzip2-dev <!nocheck>, librust-buffered-reader-1+compression-deflate-dev <!nocheck>, librust-buffered-reader-1-dev <!nocheck>, librust-bzip2-0.4+default-dev <!nocheck>, librust-dyn-clone-1+default-dev <!nocheck>, librust-flate2-1+default-dev (>= 1.0.1-~~) <!nocheck>, librust-idna-0.2+default-dev <!nocheck>, librust-lalrpop+default-dev (>= 0.17-~~) <!nocheck>, librust-lalrpop-util+default-dev (>= 0.17-~~) <!nocheck>, librust-lazy-static-1+default-dev (>= 1.4.0-~~) <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.66-~~) <!nocheck>, librust-memsec-dev (>= 0.5-~~) <!nocheck>, librust-nettle-7+default-dev <!nocheck>, librust-regex-1+default-dev <!nocheck>, librust-regex-syntax-0.6+default-dev <!nocheck>, librust-sha1collisiondetection-0.2+std-dev (>= 0.2.3-~~) <!nocheck>, librust-thiserror-1+default-dev (>= 1.0.2-~~) <!nocheck>, librust-unicode-normalization-0.1+default-dev (>= 0.1.9-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3a3c726a8636268a94ade483a92c42b6 3597 rust-sequoia-openpgp_1.1.0-3.dsc
+ 39795edb6bf2f873f93903e4caece7a7 2435855 rust-sequoia-openpgp_1.1.0.orig.tar.gz
+ 3114b4b8650edf0d4c9f26df796ea665 6496 rust-sequoia-openpgp_1.1.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sequoia-openpgp
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/sequoia-openpgp]
+Checksums-Sha256:
+ 035a347adb8bf8609d49324d92c1708fc5086291a7c4fb2c3dcad4f0dc18343b 3597 rust-sequoia-openpgp_1.1.0-3.dsc
+ d58ef113ced3dfdcf683bde4f30af2310a232a2e826338a5485f97823e583079 2435855 rust-sequoia-openpgp_1.1.0.orig.tar.gz
+ 07f17bf125a57c030749bba6a3fecc268eabf290cbca2c08b62a9804eeedb79a 6496 rust-sequoia-openpgp_1.1.0-3.debian.tar.xz
+Homepage: https://sequoia-pgp.org/
+Package-List: 
+ librust-sequoia-openpgp+bzip2-dev deb rust optional arch=any
+ librust-sequoia-openpgp+compression-bzip2-dev deb rust optional arch=any
+ librust-sequoia-openpgp+compression-deflate-dev deb rust optional arch=any
+ librust-sequoia-openpgp+compression-dev deb rust optional arch=any
+ librust-sequoia-openpgp+crypto-nettle-dev deb rust optional arch=any
+ librust-sequoia-openpgp+default-dev deb rust optional arch=any
+ librust-sequoia-openpgp+flate2-dev deb rust optional arch=any
+ librust-sequoia-openpgp-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-quickcheck-0.9-dev, librust-rand-0.7-dev, librust-rpassword-5+default-dev
+Directory: pool/main/r/rust-sequoia-openpgp
+Priority: extra
+Section: misc

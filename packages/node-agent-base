@@ -1,0 +1,28 @@
+Package: node-agent-base
+Binary: node-agent-base
+Version: 6.0.2-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Per Andersson <avtobiff@debian.org>, Andrius Merkys <merkys@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, expect <!nocheck>, mocha <!nocheck>, node-debug (>= 4~), node-semver (>= 7~), node-types-mocha, node-typescript, node-types-node, nodejs (>= 6), openssl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2b6f5375323ed7da00af47cde0132050 2565 node-agent-base_6.0.2-2.dsc
+ ff98b4615284acd76d266e540359d2fe 1649 node-agent-base_6.0.2.orig-async-listen.tar.gz
+ 62c5508eeb7b1e4afe2b570b7f4e7494 13251 node-agent-base_6.0.2.orig.tar.gz
+ 0bedeb306e8bb86d8a5a85aea4b98d70 3660 node-agent-base_6.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-agent-base
+Vcs-Git: https://salsa.debian.org/js-team/node-agent-base.git
+Checksums-Sha256:
+ 1058563f75ae0524f77d31590231769dc7e698c11cf90e81a40b99618371545c 2565 node-agent-base_6.0.2-2.dsc
+ e898a52f761f3f40664441ec5fdda01b8bc2ccd229b28f2d82a0ee4bf6146aa9 1649 node-agent-base_6.0.2.orig-async-listen.tar.gz
+ d9d376fc429a748528c1ad3f633af37832b39849d4419cd8067ed60853020707 13251 node-agent-base_6.0.2.orig.tar.gz
+ 847d705a3594890363441e4b2de60c93d5dfea1ff61140fba8b432c960c3021e 3660 node-agent-base_6.0.2-2.debian.tar.xz
+Homepage: https://github.com/TooTallNate/node-agent-base#readme
+Package-List: 
+ node-agent-base deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-agent-base
+Priority: extra
+Section: misc

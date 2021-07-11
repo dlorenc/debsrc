@@ -1,0 +1,26 @@
+Package: p8-platform
+Binary: libp8-platform-dev, libp8-platform2
+Version: 2.1.0.1+dfsg1-3
+Maintainer: Lars Op den Kamp <lars.opdenkamp@pulse-eight.com>
+Uploaders: Balint Reczey <rbalint@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), cmake
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 84f4d4a32e866f1c7d83ec7969dcfec5 2070 p8-platform_2.1.0.1+dfsg1-3.dsc
+ 23d963ebf4e31dee0b2176ff7b14648e 58168 p8-platform_2.1.0.1+dfsg1.orig.tar.xz
+ 8eabd9119e2114cf41b70897257a2d98 6372 p8-platform_2.1.0.1+dfsg1-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/p8-platform
+Vcs-Git: https://salsa.debian.org/debian/p8-platform.git -b master
+Checksums-Sha256:
+ bb8ab595350cff8a6f708f7ba367dcacae3b5d3500853e09300577213502f61f 2070 p8-platform_2.1.0.1+dfsg1-3.dsc
+ 48d304698087f2caf5ab3953ed39e7bbbeda9c81f66333021a7d84bc2c1bd98f 58168 p8-platform_2.1.0.1+dfsg1.orig.tar.xz
+ 18952296401530af206256f2e6b8512eaa8c45deb4cdeb047e19a5563e76511c 6372 p8-platform_2.1.0.1+dfsg1-3.debian.tar.xz
+Homepage: https://github.com/Pulse-Eight/platform
+Package-List: 
+ libp8-platform-dev deb libdevel optional arch=any
+ libp8-platform2 deb libs optional arch=any
+Directory: pool/main/p/p8-platform
+Priority: optional
+Section: misc

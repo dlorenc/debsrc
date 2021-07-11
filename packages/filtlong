@@ -1,0 +1,27 @@
+Package: filtlong
+Binary: filtlong, filtlong-data
+Version: 0.2.0-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), zlib1g-dev, python3-markdown, python3
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b63aa0fcf92e0f09613ff119d1cacc21 2065 filtlong_0.2.0-2.dsc
+ f9e92c8b8be5f2008447982ee7531b0f 3007188 filtlong_0.2.0.orig.tar.gz
+ 9fffebd62f39671baa46fa13e6e84a5c 6276 filtlong_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/filtlong
+Vcs-Git: https://salsa.debian.org/med-team/filtlong.git
+Checksums-Sha256:
+ 6bdaf551bcf416effa9d9a5dd2c14ccce0de67dfd6b20bed4ff508fd897c3377 2065 filtlong_0.2.0-2.dsc
+ a4afb925d7ced8d083be12ca58911bb16d5348754e7c2f6431127138338ee02a 3007188 filtlong_0.2.0.orig.tar.gz
+ 21c8afbe66f364bf20e8a4e74adbafe118cc231c5a6ac8e38ab2374bd61c430a 6276 filtlong_0.2.0-2.debian.tar.xz
+Homepage: https://github.com/rrwick/Filtlong
+Package-List: 
+ filtlong deb science optional arch=any
+ filtlong-data deb science optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/f/filtlong
+Priority: extra
+Section: misc

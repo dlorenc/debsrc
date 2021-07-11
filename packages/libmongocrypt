@@ -1,0 +1,24 @@
+Package: libmongocrypt
+Binary: libmongocrypt-dev, libmongocrypt0
+Version: 1.1.0-1
+Maintainer: Mongo C Driver Team <mongo-c-driver-debian@googlegroups.com>
+Uploaders: Kevin Albertson <kevin.albertson@mongodb.com>, Clyde Bazile <clyde.bazile@mongodb.com>, Samantha Ritter <samantha.ritter@mongodb.com>, Roberto C. Sanchez <roberto@connexer.com>
+Build-Depends: debhelper (>= 10), cmake, libssl-dev, pkg-config, libbson-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 4c784758beae7f90e08154e8310dd61f 2088 libmongocrypt_1.1.0-1.dsc
+ 011c2b535cea62aebae0ebb1b4a8a3a7 521942 libmongocrypt_1.1.0.orig.tar.gz
+ 135b6042ef1b7a281a6226892481de14 5344 libmongocrypt_1.1.0-1.debian.tar.xz
+Checksums-Sha256:
+ 8530809fee92722d29ed88ab54cb954b72eba9d2efe4bd08677f4bb1d6ef9dc2 2088 libmongocrypt_1.1.0-1.dsc
+ ac5a7999f755c5b866cedb4afde74301b37a143b2dc83c840f5b831b6d92e682 521942 libmongocrypt_1.1.0.orig.tar.gz
+ 85336bc1f7e3bd67455773d35ee7ac2275b5c18402603637f1a2fea2b9c484de 5344 libmongocrypt_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/mongodb/libmongocrypt
+Package-List: 
+ libmongocrypt-dev deb libdevel optional arch=any
+ libmongocrypt0 deb libs optional arch=any
+Directory: pool/main/libm/libmongocrypt
+Priority: extra
+Section: misc

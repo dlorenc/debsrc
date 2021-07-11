@@ -1,0 +1,27 @@
+Package: hexer
+Binary: hexer
+Version: 1.0.6-1
+Maintainer: Peter Pentchev <roam@debian.org>
+Build-Depends: debhelper-compat (= 13), gcc (>> 4:9.2.1~), libncurses-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 949dba2252ba1453ea94554d9a196184 2222 hexer_1.0.6-1.dsc
+ 516d37a8f027cd556e98c4b81dfcf79a 93572 hexer_1.0.6.orig.tar.xz
+ 8b02e7a65cdf93500fcc387f1c8e3139 833 hexer_1.0.6.orig.tar.xz.asc
+ 9e194a582d9f1c1b6295206d70c530b5 8828 hexer_1.0.6-1.debian.tar.xz
+Vcs-Browser: https://gitlab.com/hexer/hexer/tree/debian/master
+Vcs-Git: https://gitlab.com/hexer/hexer.git -b debian/master
+Checksums-Sha256:
+ 2fb75d69da94e7e1a444e3585f8e7e569260a6b383d0d8a7926a444b1dc7a153 2222 hexer_1.0.6-1.dsc
+ e6b84ace5283825943f88ce7ec4ae836ec15ba41978b3a858d6d478cfe09ff94 93572 hexer_1.0.6.orig.tar.xz
+ 673070313a375e5868bb9675e1bf7a59b8cde8af66304c7464250a58de003821 833 hexer_1.0.6.orig.tar.xz.asc
+ ff01c015a3d77fcf8ae13e1374459be2ce8e72910c9aa8fff0ead0bebeed7755 8828 hexer_1.0.6-1.debian.tar.xz
+Homepage: https://devel.ringlet.net/editors/hexer/
+Dgit: fe367e756d1627fb31c8ba5851f64714af8d299b debian archive/debian/1.0.6-1 https://git.dgit.debian.org/hexer
+Package-List: 
+ hexer deb utils optional arch=any
+Directory: pool/main/h/hexer
+Priority: source
+Section: utils

@@ -1,0 +1,28 @@
+Package: haskell-refact
+Binary: libghc-refact-dev, libghc-refact-prof, libghc-refact-doc
+Version: 0.3.0.2-6
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7ad8bf48c994f5e696ce39ca096a8696 2295 haskell-refact_0.3.0.2-6.dsc
+ 4947b12687e0b759cc7f318c79468484 2345 haskell-refact_0.3.0.2.orig.tar.gz
+ 101b3fe2cb83d47f3ca684ae8bea91de 2592 haskell-refact_0.3.0.2-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-refact
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-refact]
+Checksums-Sha256:
+ a43e827b0b2e66d6f470b68e9a1d677a52cf538a01febd9a624df4930da62b7a 2295 haskell-refact_0.3.0.2-6.dsc
+ 0ad029727797c8ca5d179c7abf1bfc135d86a7d72cf93785ee12ad243aeb1f6c 2345 haskell-refact_0.3.0.2.orig.tar.gz
+ 6776d0a5c4a9542ffd304597d96fba28c165022d5809fead8b9e12611102359b 2592 haskell-refact_0.3.0.2-6.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/refact
+Package-List: 
+ libghc-refact-dev deb haskell optional arch=any
+ libghc-refact-doc deb doc optional arch=all
+ libghc-refact-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-refact
+Priority: optional
+Section: misc

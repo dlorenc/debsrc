@@ -1,0 +1,26 @@
+Package: node-promise-retry
+Binary: node-promise-retry
+Version: 2.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13), nodejs, node-err-code (>= 2.0.0) <!nocheck>, node-retry (>= 0.10.0) <!nocheck>, node-expect.js <!nocheck>, mocha <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b9469ba18992806a1e6a1c94644de4d1 2227 node-promise-retry_2.0.1-1.dsc
+ ed30e0796c19b02feb41ba65933aed07 16029 node-promise-retry_2.0.1.orig.tar.gz
+ 036b81013712677c855d18c32042d353 3292 node-promise-retry_2.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-promise-retry
+Vcs-Git: https://salsa.debian.org/js-team/node-promise-retry.git
+Checksums-Sha256:
+ 1e038bd4c47b909fd6811383e9999d6c52ee17e2f2db11e243aa662d2feeab4d 2227 node-promise-retry_2.0.1-1.dsc
+ 4ff9576d6d6e961dd7cd92ee67145978ba922fbe0a35ba8c1d0cd088886b2c28 16029 node-promise-retry_2.0.1.orig.tar.gz
+ c36de1692e1dd97de0d404fd76fbfd30e4388264b63052d0f476600a6d3c8175 3292 node-promise-retry_2.0.1-1.debian.tar.xz
+Homepage: https://github.com/IndigoUnited/node-promise-retry#readme
+Package-List: 
+ node-promise-retry deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-promise-retry
+Priority: extra
+Section: misc

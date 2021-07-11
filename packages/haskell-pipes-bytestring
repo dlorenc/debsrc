@@ -1,0 +1,28 @@
+Package: haskell-pipes-bytestring
+Binary: libghc-pipes-bytestring-dev, libghc-pipes-bytestring-prof, libghc-pipes-bytestring-doc
+Version: 2.1.6-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-pipes-dev (>= 4.0), libghc-pipes-dev (<< 4.4), libghc-pipes-prof, libghc-pipes-group-dev (>= 1.0.0), libghc-pipes-group-dev (<< 1.1), libghc-pipes-group-prof, libghc-pipes-parse-dev (<< 3.1), libghc-pipes-parse-dev (>= 3.0.0), libghc-pipes-parse-prof, libghc-stringsearch-dev (>= 0.3.0), libghc-stringsearch-dev (<< 0.4), libghc-stringsearch-prof
+Build-Depends-Indep: ghc-doc, libghc-pipes-doc, libghc-pipes-group-doc, libghc-pipes-parse-doc, libghc-stringsearch-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ca5541d850a2967ce0d517373cb3e3bb 2889 haskell-pipes-bytestring_2.1.6-4.dsc
+ 72cd28bcfe2164f76850c641bc634d6b 9050 haskell-pipes-bytestring_2.1.6.orig.tar.gz
+ e8c658e89b196e6cffae4abbbff83e7f 3336 haskell-pipes-bytestring_2.1.6-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-pipes-bytestring
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-pipes-bytestring]
+Checksums-Sha256:
+ cc72d77f26cd7b9f0f4cb40f7d39badf10ac5843ae05f0df32cc3a7b0b800a14 2889 haskell-pipes-bytestring_2.1.6-4.dsc
+ b1dc370680f3671759010caace183bce683d0481bd2c0e3f4906b78ac8623c18 9050 haskell-pipes-bytestring_2.1.6.orig.tar.gz
+ 09df67fcac3ade84fcf54c48c14664301a1ec3e2c83dd239edcbf175520b0380 3336 haskell-pipes-bytestring_2.1.6-4.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/pipes-bytestring
+Package-List: 
+ libghc-pipes-bytestring-dev deb haskell optional arch=any
+ libghc-pipes-bytestring-doc deb doc optional arch=all
+ libghc-pipes-bytestring-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-pipes-bytestring
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: golang-github-gosnmp-gosnmp
+Binary: golang-github-gosnmp-gosnmp-dev, golang-github-soniah-gosnmp-dev
+Version: 1.29.0-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Daniel Swarbrick <daniel.swarbrick@cloud.ionos.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-golang-mock-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b80c525d9476a55fac85800d7b6208c8 2376 golang-github-gosnmp-gosnmp_1.29.0-2.dsc
+ 944eecc9396157ef81f5274e681fe7ec 76271 golang-github-gosnmp-gosnmp_1.29.0.orig.tar.gz
+ 58101dcbb45a101fa5f8e7cf32c98ada 3616 golang-github-gosnmp-gosnmp_1.29.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-gosnmp-gosnmp
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-gosnmp-gosnmp.git
+Checksums-Sha256:
+ 3dcf868baef068d23dfaa3fb5ba2c0e0d6f50c00f9090c17870601b21c513312 2376 golang-github-gosnmp-gosnmp_1.29.0-2.dsc
+ 72cce697871395c3ba14775c13f30a58862fab102234a82274079f29ef7f7671 76271 golang-github-gosnmp-gosnmp_1.29.0.orig.tar.gz
+ f6f423509aa4cf0a0878fb3312f3bc0da40b2887fdc66117975efaaeee56d160 3616 golang-github-gosnmp-gosnmp_1.29.0-2.debian.tar.xz
+Homepage: https://github.com/gosnmp/gosnmp
+Go-Import-Path: github.com/gosnmp/gosnmp
+Package-List: 
+ golang-github-gosnmp-gosnmp-dev deb golang optional arch=all
+ golang-github-soniah-gosnmp-dev deb oldlibs optional arch=all
+Directory: pool/main/g/golang-github-gosnmp-gosnmp
+Priority: extra
+Section: misc

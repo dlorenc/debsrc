@@ -1,0 +1,26 @@
+Package: ipmctl
+Binary: ipmctl, libipmctl4, libipmctl-dev
+Version: 02.00.00.3852+ds-1
+Maintainer: Adam Borowski <kilobyte@angband.pl>
+Build-Depends: debhelper-compat (= 12), cmake, libndctl-dev, pkg-config, python3, asciidoctor
+Architecture: amd64
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 070af72842c9a81f55db8081d68e170f 2067 ipmctl_02.00.00.3852+ds-1.dsc
+ 331b84ce683667efc73a34940dfc9538 4432708 ipmctl_02.00.00.3852+ds.orig.tar.xz
+ 365f12098c9b25e82e3ddb7b2ecdea55 15220 ipmctl_02.00.00.3852+ds-1.debian.tar.xz
+Vcs-Browser: https://github.com/kilobyte/ipmctl/tree/debian
+Vcs-Git: https://github.com/kilobyte/ipmctl -b debian
+Checksums-Sha256:
+ db8993b47abc26a3a0feb7deae01b73b77492de305ee1e0aae5bb4973f38264c 2067 ipmctl_02.00.00.3852+ds-1.dsc
+ 39cb703422aaf1058f8e21a6070e339f4478fcda58721bb80cfc49f9cf681077 4432708 ipmctl_02.00.00.3852+ds.orig.tar.xz
+ fe7970df4e9260790abb47877609dbe82b4bb0bdc0480c0af80cdf59091316bd 15220 ipmctl_02.00.00.3852+ds-1.debian.tar.xz
+Homepage: https://github.com/intel/ipmctl
+Package-List: 
+ ipmctl deb admin optional arch=amd64
+ libipmctl-dev deb libdevel optional arch=amd64
+ libipmctl4 deb libs optional arch=amd64
+Directory: pool/main/i/ipmctl
+Priority: extra
+Section: misc

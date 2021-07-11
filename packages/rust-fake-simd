@@ -1,0 +1,24 @@
+Package: rust-fake-simd
+Binary: librust-fake-simd-dev
+Version: 0.1.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 70c0882634739ad29ee3a5eb792e941d 1461 rust-fake-simd_0.1.2-1.dsc
+ 47e9dd0c2c164feccb000ba5f0ab953b 5690 rust-fake-simd_0.1.2.orig.tar.gz
+ 7a7709670509991bdf42f52655f3bb31 2320 rust-fake-simd_0.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fake-simd
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/fake-simd]
+Checksums-Sha256:
+ 97ec7b2518ecc311dbeef85f93ec0dd1a1827995fa86a435585b217714eaac1e 1461 rust-fake-simd_0.1.2-1.dsc
+ af5414814a089e3a1e5dcd54239459bb2a47154ecca9af0135adfb86c87e96d3 5690 rust-fake-simd_0.1.2.orig.tar.gz
+ 264354bf0534042ec2d319ed6ea1ad1a5a3223874008b4550e6c1e773f53d14d 2320 rust-fake-simd_0.1.2-1.debian.tar.xz
+Package-List: 
+ librust-fake-simd-dev deb rust optional arch=any
+Directory: pool/main/r/rust-fake-simd
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-compare-versions
+Binary: node-compare-versions
+Version: 3.6.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 12), mocha, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 646188d6259e4261886c1d1866bdb707 2168 node-compare-versions_3.6.0-1.dsc
+ 78694b6c71634f5ca99eb6f144eac752 27599 node-compare-versions_3.6.0.orig.tar.gz
+ 1f6b9afb7614700110d69e17086ab576 2528 node-compare-versions_3.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-compare-versions
+Vcs-Git: https://salsa.debian.org/js-team/node-compare-versions.git
+Checksums-Sha256:
+ c0c77fafa1aeca1b28a96be50fc5b0c4d68189ef135c28b2ae410e3fc70f558b 2168 node-compare-versions_3.6.0-1.dsc
+ 4104c92142750fbd4a969bd3be4a338a1f3acf94183bc5765a17e55d73fe0ef1 27599 node-compare-versions_3.6.0.orig.tar.gz
+ b0ed778fa1cf9e762a6551114585514ff680fae2e3306e3abc8c717491cc26f3 2528 node-compare-versions_3.6.0-1.debian.tar.xz
+Homepage: https://github.com/omichelsen/compare-versions#readme
+Package-List: 
+ node-compare-versions deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-compare-versions
+Priority: extra
+Section: misc

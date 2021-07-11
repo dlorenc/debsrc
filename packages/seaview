@@ -1,0 +1,27 @@
+Package: seaview
+Binary: seaview
+Version: 1:5.0.4-1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Charles Plessy <plessy@debian.org>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), libfltk1.3-dev, libpng-dev, libxft-dev, libxext-dev, libxinerama-dev, zlib1g-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ea9ab33c7745532395a96eb8aabeddc0 2111 seaview_5.0.4-1.dsc
+ 8b36176fb98a508e483285966ad7100c 472837 seaview_5.0.4.orig.tar.gz
+ e933f3753a7ebca3a34129169b761b3d 17640 seaview_5.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/seaview
+Vcs-Git: https://salsa.debian.org/med-team/seaview.git
+Checksums-Sha256:
+ c230ab27fa968b2ca83cde0f6d6600e69ba2676b6562b5a6c2f80fc07ff80d26 2111 seaview_5.0.4-1.dsc
+ e153e7fe1dd0b466ce7a00e8b78d5d232aa26063ab82f78eb43811780c41d727 472837 seaview_5.0.4.orig.tar.gz
+ cedee7766c442e9a66758ba2508ef829c08bd4798c5d404bb6e892531ad6d902 17640 seaview_5.0.4-1.debian.tar.xz
+Homepage: https://doua.prabi.fr/software/seaview
+Package-List: 
+ seaview deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/s/seaview
+Priority: optional
+Section: misc

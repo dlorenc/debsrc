@@ -1,0 +1,25 @@
+Package: pipenv
+Binary: pipenv
+Version: 11.9.0-1.1
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Bastian Venthur <venthur@debian.org>
+Build-Depends: debhelper (>= 10), dh-python, python3-all, python3-setuptools, python3-pytest, python3-mock, python3-pytest-xdist, python3-certifi, python3-virtualenv, python3-pip, python3-wheel, python3-virtualenv-clone
+Architecture: all
+Standards-Version: 4.1.2
+Format: 3.0 (quilt)
+Files:
+ 9372ba490881d17ac19d37bb460f2f4b 2123 pipenv_11.9.0-1.1.dsc
+ 2e2d59e4332ab42fba5b6e0c600a5602 41907411 pipenv_11.9.0.orig.tar.gz
+ 0ec7e10ca41ef1e4cc7bb8309397975f 4972 pipenv_11.9.0-1.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/applications/pipenv
+Vcs-Git: https://salsa.debian.org/python-team/applications/pipenv
+Checksums-Sha256:
+ 7c393382abe16b7e6685645ec8de00e0a8b7c8776f91cbe0400340985c88d11e 2123 pipenv_11.9.0-1.1.dsc
+ 9a928649ee33b6f4555f932dbef58a772744ad48b22fa86c58eec02b48b63c0f 41907411 pipenv_11.9.0.orig.tar.gz
+ 192240631387adf270a1d965f2ad72b22632f2693075607c34865936bee9acc1 4972 pipenv_11.9.0-1.1.debian.tar.xz
+Homepage: https://github.com/pypa/pipenv
+Package-List: 
+ pipenv deb python optional arch=all
+Directory: pool/main/p/pipenv
+Priority: extra
+Section: misc

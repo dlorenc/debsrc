@@ -1,0 +1,26 @@
+Package: node-dom-serializer
+Binary: node-dom-serializer
+Version: 1.2.0-5
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13), jest (>= 26.6.3+repack+~cs61.38.31-5~), nodejs, node-cheerio (>= 1.0.0~rc~5~), node-entities (>= 2.0.0~) <!nocheck>, node-domelementtype (>= 2.0.1~) <!nocheck>, node-domhandler (>= 4.0.0~) <!nocheck>, node-typescript, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 56a9caa4a7ac5fb58e49b6e2bfc58062 2318 node-dom-serializer_1.2.0-5.dsc
+ 1298739daa49b40f655c2d3676de0fc0 67534 node-dom-serializer_1.2.0.orig.tar.gz
+ 2c413718391cbacde37305a0a1f26087 3376 node-dom-serializer_1.2.0-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-dom-serializer
+Vcs-Git: https://salsa.debian.org/js-team/node-dom-serializer.git
+Checksums-Sha256:
+ a12c9a381ff5032721a3abc18967b18005703b9862cd0ccc320a48c1dd604d11 2318 node-dom-serializer_1.2.0-5.dsc
+ 582e9b336389f5cd81fa3d15acf7f42cae28a0f424e34c9e4b72a90812d7f57a 67534 node-dom-serializer_1.2.0.orig.tar.gz
+ 3c72118c711607283057fb04b3646a002ecf41835af8e8c479e9a315735d492e 3376 node-dom-serializer_1.2.0-5.debian.tar.xz
+Homepage: https://github.com/cheeriojs/dom-renderer
+Package-List: 
+ node-dom-serializer deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-dom-serializer
+Priority: optional
+Section: javascript

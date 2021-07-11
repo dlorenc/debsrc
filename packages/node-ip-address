@@ -1,0 +1,26 @@
+Package: node-ip-address
+Binary: node-ip-address
+Version: 6.4.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>,
+Build-Depends: debhelper-compat (= 13), mocha <!nocheck>, node-chai <!nocheck>, node-jsbn <!nocheck>, node-lodash <!nocheck>, node-lodash-packages <!nocheck>, node-sprintf-js <!nocheck>, nodejs (>= 6), pkg-js-tools (>= 0.8.10)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ff41742d69a6fe4727734eeac008f605 2253 node-ip-address_6.4.0-1.dsc
+ a7b224313c66f5c66e0869575dcba4b3 135025 node-ip-address_6.4.0.orig.tar.gz
+ 77bf705ce96199dc8322f1c266a04bdb 2440 node-ip-address_6.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-ip-address
+Vcs-Git: https://salsa.debian.org/js-team/node-ip-address.git
+Checksums-Sha256:
+ 371b3d074b994a534ae46e95fbc64bcd0d5c45b704a8c98f2ba53be4f03855ee 2253 node-ip-address_6.4.0-1.dsc
+ 420ce4cf851afe3889c94d2f466ca130bab1d0960a52908d564f219f56e40af5 135025 node-ip-address_6.4.0.orig.tar.gz
+ 7f38f5f61eade9fb429ce159b2f8cc91c1c392acd913e50dd7c69305750afd86 2440 node-ip-address_6.4.0-1.debian.tar.xz
+Homepage: https://github.com/beaugunderson/ip-address
+Package-List: 
+ node-ip-address deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-ip-address
+Priority: extra
+Section: misc

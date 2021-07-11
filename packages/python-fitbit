@@ -1,0 +1,27 @@
+Package: python-fitbit
+Binary: python3-fitbit, python-fitbit-doc
+Version: 0.3.1-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Dylan Aïssi <daissi@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-setuptools, python3-requests-oauthlib (>= 0.7), python3-dateutil, python3-sphinx, python3-docutils, python3-nose
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ a5f610e28cc60fea6d7b6538af8b332f 2237 python-fitbit_0.3.1-2.dsc
+ 355d4efdccb7e1742dda7ebe0d1984a2 28448 python-fitbit_0.3.1.orig.tar.gz
+ 5938944049bd575bae3677fb7d627211 3700 python-fitbit_0.3.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/python-fitbit
+Vcs-Git: https://salsa.debian.org/med-team/python-fitbit.git
+Checksums-Sha256:
+ 790e757ed16b0c3521ada54ebf5965372b6e8575be519c7e4bb6857265c3db43 2237 python-fitbit_0.3.1-2.dsc
+ ceba619efc51f2429993e1f7ac698aa7392c6375f3a51dd6669a6529926c22cd 28448 python-fitbit_0.3.1.orig.tar.gz
+ 2c67b7c6359a7f074a53f23248b54db3ccbe54927cdcea787d5bd3ab1c6d7de3 3700 python-fitbit_0.3.1-2.debian.tar.xz
+Homepage: https://github.com/orcasgit/python-fitbit/
+Package-List: 
+ python-fitbit-doc deb doc optional arch=all
+ python3-fitbit deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-fitbit
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: libspin-java
+Binary: libspin-java, libspin-java-doc
+Version: 1.5+dfsg-8.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: tony mancill <tmancill@debian.org> , gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper (>= 9), maven-debian-helper, libmaven-javadoc-plugin-java, xvfb, xauth
+Build-Depends-Indep: default-jdk, junit, libcglib-nodep-java
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 0634ec3b29a57cc1ff52a46e0c54610f 2206 libspin-java_1.5+dfsg-8.1.dsc
+ fc9fa6f7f362a153b35554a05b509ded 77320 libspin-java_1.5+dfsg.orig.tar.gz
+ f9bce941834aa225094d9875bc44f938 4832 libspin-java_1.5+dfsg-8.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/libspin-java.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/libspin-java.git
+Checksums-Sha256:
+ 119d1030a39b7d4e43c76dd5ef84434c84319aeddf7169fd9cbdfcfb981d123c 2206 libspin-java_1.5+dfsg-8.1.dsc
+ 87936078e8247e0c497cae743ee146060b7daf4da1eaf3565c89ba82ff5e56f1 77320 libspin-java_1.5+dfsg.orig.tar.gz
+ 77cfdbe47866f2c531cbf0005fe7e7cc6e1c744a2b89745dbc8052175e7ab12f 4832 libspin-java_1.5+dfsg-8.1.debian.tar.xz
+Homepage: http://spin.sourceforge.net
+Package-List: 
+ libspin-java deb java optional arch=all
+ libspin-java-doc deb doc optional arch=all
+Directory: pool/main/libs/libspin-java
+Priority: source
+Section: java

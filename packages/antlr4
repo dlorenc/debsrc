@@ -1,0 +1,28 @@
+Package: antlr4
+Binary: antlr4, antlr4-doc, antlr4-maven-plugin, libantlr4-runtime-java
+Version: 4.7.2-5
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: antlr3-maven-plugin, debhelper-compat (= 13), default-jdk, default-jdk-doc, libantlr3-runtime-java, libbuild-helper-maven-plugin-java, libicu4j-java, libjsonp-java, libmaven-bundle-plugin-java, libmaven-install-plugin-java, libmaven-javadoc-plugin-java, libmaven-plugin-testing-java, libmaven-plugin-tools-java, libstringtemplate4-java (>= 4.0.8), libstring-template-maven-plugin-java, libtreelayout-java, maven-debian-helper (>= 1.1), zip
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 721d3f396987b879d8cc2420eb42ac7c 2516 antlr4_4.7.2-5.dsc
+ 594c2d6a294d14ffae07dd4362175665 2652264 antlr4_4.7.2.orig.tar.xz
+ b522a46b1f6bb942c77a86e79c4f19c5 11604 antlr4_4.7.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/antlr4
+Vcs-Git: https://salsa.debian.org/java-team/antlr4.git
+Checksums-Sha256:
+ cb0143fc1809a73a13586bba455149f176221c57367416c1651805f1166daa76 2516 antlr4_4.7.2-5.dsc
+ c07e289f858ad6f80ceec35713f43bebd4bdd0d7e46de5aeaff487cc52725adb 2652264 antlr4_4.7.2.orig.tar.xz
+ 3a19c42b1a5995810a7738f787bee17ade535af006e50fcf06198714d342a9fc 11604 antlr4_4.7.2-5.debian.tar.xz
+Homepage: http://www.antlr4.org
+Package-List: 
+ antlr4 deb java optional arch=all
+ antlr4-doc deb doc optional arch=all
+ antlr4-maven-plugin deb java optional arch=all
+ libantlr4-runtime-java deb java optional arch=all
+Directory: pool/main/a/antlr4
+Priority: optional
+Section: misc

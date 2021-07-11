@@ -1,0 +1,27 @@
+Package: pyfiglet
+Binary: python3-pyfiglet
+Version: 0.8.0+dfsg-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, figlet, python3-all, python3-setuptools, toilet
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ dd3a02c5d90333328b97d48cc4687dc1 1525 pyfiglet_0.8.0+dfsg-1.dsc
+ af8894e8b2e772e064126649e42ee19d 13912 pyfiglet_0.8.0+dfsg.orig.tar.xz
+ 4785fd8e63ea82647042dc372889d9d7 5648 pyfiglet_0.8.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/pyfiglet
+Vcs-Git: https://salsa.debian.org/python-team/modules/pyfiglet.git
+Checksums-Sha256:
+ 906f64e8aaf13d86e515a510bcb192cca4f7b31236d17b8ea88d1cd8cc421eb8 1525 pyfiglet_0.8.0+dfsg-1.dsc
+ 20ecde192c669241de418d78bc7da8385a7e0ffd1da4e70c1b2b521183a2bc9e 13912 pyfiglet_0.8.0+dfsg.orig.tar.xz
+ afc0e44ed96532ad653ff36ee945ff8c14474009bfadc0e7824e08c4b0bea460 5648 pyfiglet_0.8.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/pwaller/pyfiglet
+Package-List: 
+ python3-pyfiglet deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: figlet, python3-all, toilet, toilet-fonts
+Directory: pool/main/p/pyfiglet
+Priority: source
+Section: python

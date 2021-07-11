@@ -1,0 +1,30 @@
+Package: node-cheerio
+Binary: node-cheerio
+Version: 1.0.0~rc~5+~cs6.1.2-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com> , Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-css-select (>= 3.1.2~) <!nocheck>, node-css-what (>= 4.0.0~) <!nocheck>, node-domelementtype (>= 2.1.0~) <!nocheck>, node-domhandler (>= 4.0.0~) <!nocheck>, node-dom-serializer (>= 1.2.0~) <!nocheck>, node-domutils (>= 2.4.4~) <!nocheck>, node-entities <!nocheck>, node-expect.js <!nocheck>, node-htmlparser2 (>= 6.0.0~) <!nocheck>, node-jsdom <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 680106be225c074d8ce0c1fa62372ff2 3270 node-cheerio_1.0.0~rc~5+~cs6.1.2-4.dsc
+ 6ba34de9ee32fb5d1b1998517b0e7812 6474 node-cheerio_1.0.0~rc~5+~cs6.1.2.orig-cheerio-select-tmp.tar.gz
+ 4be6dfcd5e3a85af39193990d9c64519 3445 node-cheerio_1.0.0~rc~5+~cs6.1.2.orig-parse5-htmlparser2-tree-adapter.tar.gz
+ e0de6d7577273a62f20f0f0a69e4753c 146237 node-cheerio_1.0.0~rc~5+~cs6.1.2.orig.tar.gz
+ 31c89ce764884bc2c9600d3a8f878831 3560 node-cheerio_1.0.0~rc~5+~cs6.1.2-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-cheerio
+Vcs-Git: https://salsa.debian.org/js-team/node-cheerio.git
+Checksums-Sha256:
+ 9521ec3827e32f92acb71d255adbc18ded4e586f5df4327640891091ebf49e15 3270 node-cheerio_1.0.0~rc~5+~cs6.1.2-4.dsc
+ 621d05b3656f6df9d413d900c74e43f478de13ee0542716e26fa053bedb0d7b1 6474 node-cheerio_1.0.0~rc~5+~cs6.1.2.orig-cheerio-select-tmp.tar.gz
+ e70792f04e76bb4a14ad6b1215c63916af1da0a4d8c87181d529a5b4719cf362 3445 node-cheerio_1.0.0~rc~5+~cs6.1.2.orig-parse5-htmlparser2-tree-adapter.tar.gz
+ 8c3d5b371aa15ec6826042ba2948a40f0a0e414a68fbd6461613b68fb035fb62 146237 node-cheerio_1.0.0~rc~5+~cs6.1.2.orig.tar.gz
+ 53a11aaca4e1c4677a50406a4e385fda91bb6cde18a3adcdc870303ec34e3468 3560 node-cheerio_1.0.0~rc~5+~cs6.1.2-4.debian.tar.xz
+Homepage: https://github.com/cheeriojs/cheerio
+Package-List: 
+ node-cheerio deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-cheerio
+Priority: extra
+Section: misc

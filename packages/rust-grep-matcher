@@ -1,0 +1,27 @@
+Package: rust-grep-matcher
+Binary: librust-grep-matcher-dev
+Version: 0.1.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-memchr-2+default-dev (>= 2.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ d58bd2b76d8ed4a106c7b121de1cb095 2300 rust-grep-matcher_0.1.4-1.dsc
+ e0b50d7e808a29d441f35b723f738cf0 15569 rust-grep-matcher_0.1.4.orig.tar.gz
+ d1c1498f92c6f6e57a14b462da1d7c31 3160 rust-grep-matcher_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/grep-matcher
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/grep-matcher]
+Checksums-Sha256:
+ 725828ed9600e31010b8f816e07cacd8f3abc48210118f5663e6cbc0751096f3 2300 rust-grep-matcher_0.1.4-1.dsc
+ fdf0e1fd5af17008a918fd868e63ec0226e96ce88b832f00c7fb041e014b9350 15569 rust-grep-matcher_0.1.4.orig.tar.gz
+ 77d7adb60da51eb45175fa04a01ca45ddcdda0b237e6c558a1618d7becdbf902 3160 rust-grep-matcher_0.1.4-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/ripgrep/tree/master/crates/matcher
+Package-List: 
+ librust-grep-matcher-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-regex-1+default-dev
+Directory: pool/main/r/rust-grep-matcher
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: libconfig-mvp-perl
+Binary: libconfig-mvp-perl
+Version: 2.200012-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libclass-load-perl <!nocheck>, libmodule-pluggable-perl <!nocheck>, libmoose-perl <!nocheck>, libmoosex-oneargnew-perl <!nocheck>, libparams-util-perl <!nocheck>, librole-hasmessage-perl <!nocheck>, librole-identifiable-perl <!nocheck>, libtest-fatal-perl <!nocheck>, libthrowable-perl <!nocheck>, libtie-ixhash-perl <!nocheck>, libtry-tiny-perl <!nocheck>, perl
+Build-Conflicts: libtest-pod-coverage-perl
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d8f38e260651abf9f881059048535d6b 2826 libconfig-mvp-perl_2.200012-1.dsc
+ 93b12dacd4d2bd828d40a1d0e2c260fd 34232 libconfig-mvp-perl_2.200012.orig.tar.gz
+ b7d82b67be6761e29b08a40184aa086d 3920 libconfig-mvp-perl_2.200012-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libconfig-mvp-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libconfig-mvp-perl.git
+Checksums-Sha256:
+ 222517347c1491224c5d80d4ec3a8e279a5927ed0c71ef49c2d1c98f00f4232b 2826 libconfig-mvp-perl_2.200012-1.dsc
+ d8a6069be317a866d8041b1bb7cfafe34014f19743891f27a5e42a31b5c0ea75 34232 libconfig-mvp-perl_2.200012.orig.tar.gz
+ ff255d087c33c7dcc991e9e2d1cd0029737639ed05ffda9ae70e00889a967787 3920 libconfig-mvp-perl_2.200012-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Config-MVP
+Dgit: c9059e66aa95e7af5e598b4352f8fd51fa0514f8 debian archive/debian/2.200012-1 https://git.dgit.debian.org/libconfig-mvp-perl
+Package-List: 
+ libconfig-mvp-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libc/libconfig-mvp-perl
+Priority: source
+Section: perl

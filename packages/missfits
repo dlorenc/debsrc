@@ -1,0 +1,27 @@
+Package: missfits
+Binary: missfits
+Version: 2.8.0-4
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Gijs Molenaar <gijs@pythonic.nl>, Ole Streicher <olebole@debian.org>, Nilesh Patra <npatra974@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ cb462d501f72b98f27ffa3bbe53ecf3e 2109 missfits_2.8.0-4.dsc
+ b913bd61d8b9d02089e8d6e6c6469e9a 349229 missfits_2.8.0.orig.tar.gz
+ f5719b846b2138ae9ce4760bde7cbc16 4488 missfits_2.8.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-astro-team/missfits
+Vcs-Git: https://salsa.debian.org/debian-astro-team/missfits.git
+Checksums-Sha256:
+ c156681b69938f1342b0967e65a17144ae22763801ac9c130c899d43026e8030 2109 missfits_2.8.0-4.dsc
+ 11aa8f107f6f31ca794128f5769b85d6b6818c04503b3db2afdd9813a8694085 349229 missfits_2.8.0.orig.tar.gz
+ 56971424a35e67030cce3a6236bd3c9f0ea7aab7152d6586da5ddd34db876fa0 4488 missfits_2.8.0-4.debian.tar.xz
+Homepage: https://www.astromatic.net/software/missfits
+Package-List: 
+ missfits deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: eso-midas-testdata
+Directory: pool/main/m/missfits
+Priority: optional
+Section: misc

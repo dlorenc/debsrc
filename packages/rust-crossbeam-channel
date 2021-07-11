@@ -1,0 +1,27 @@
+Package: rust-crossbeam-channel
+Binary: librust-crossbeam-channel-dev
+Version: 0.4.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, kpcyrd <git@rxv.cc>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-utils-0.7+default-dev <!nocheck>, librust-maybe-uninit-2+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 3df0b2ffcceb435a10cb0e392d819c21 2584 rust-crossbeam-channel_0.4.4-1.dsc
+ 093c5099d3cef0f418550fe28788d34d 86868 rust-crossbeam-channel_0.4.4.orig.tar.gz
+ 78b408a492a8d9a797ee9759f727b218 11416 rust-crossbeam-channel_0.4.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crossbeam-channel
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossbeam-channel]
+Checksums-Sha256:
+ 2ccb8c5d001454b4b9d304ef9d641f7f8b67047eb29179a281824a58580e5878 2584 rust-crossbeam-channel_0.4.4-1.dsc
+ b153fe7cbef478c567df0f972e02e6d736db11affe43dfc9c56a9374d1adfb87 86868 rust-crossbeam-channel_0.4.4.orig.tar.gz
+ 953f973f8c55aab868fd03595b8a2777a4dd8eabe9e511e2084c03104ff1a7ea 11416 rust-crossbeam-channel_0.4.4-1.debian.tar.xz
+Homepage: https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-channel
+Package-List: 
+ librust-crossbeam-channel-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-num-cpus-1+default-dev, librust-rand-0.6+default-dev, librust-signal-hook-0.1+default-dev
+Directory: pool/main/r/rust-crossbeam-channel
+Priority: extra
+Section: misc

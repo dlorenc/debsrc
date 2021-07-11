@@ -1,0 +1,28 @@
+Package: haskell-indexed-profunctors
+Binary: libghc-indexed-profunctors-dev, libghc-indexed-profunctors-prof, libghc-indexed-profunctors-doc
+Version: 0.1-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Ilias Tsitsimpis <iliastsi@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6d82903b518e2d82d03a16167b245c2d 2476 haskell-indexed-profunctors_0.1-2.dsc
+ 335481360e7820ef97e94e4853478362 6360 haskell-indexed-profunctors_0.1.orig.tar.gz
+ 65f5903496b16784f0c9493964d8f83a 2160 haskell-indexed-profunctors_0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-indexed-profunctors
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-indexed-profunctors]
+Checksums-Sha256:
+ 7ed523f2e9c034f572d970c9bce3a4db2720412ca8b154fe401486a6569bab44 2476 haskell-indexed-profunctors_0.1-2.dsc
+ 31dfb4319dff84199344000b1efad75158eeac17ddcbb27f91735e958591bb65 6360 haskell-indexed-profunctors_0.1.orig.tar.gz
+ 1354d4e769dc569cb3afc35652f588e0d7280562b30862e0b87629830d3141e1 2160 haskell-indexed-profunctors_0.1-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/indexed-profunctors
+Package-List: 
+ libghc-indexed-profunctors-dev deb haskell optional arch=any
+ libghc-indexed-profunctors-doc deb doc optional arch=all
+ libghc-indexed-profunctors-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-indexed-profunctors
+Priority: extra
+Section: misc

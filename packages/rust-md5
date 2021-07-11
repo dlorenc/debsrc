@@ -1,0 +1,27 @@
+Package: rust-md5
+Binary: librust-md5-dev
+Version: 0.7.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c94c60eb656909e3a5554b4c71339d70 2119 rust-md5_0.7.0-2.dsc
+ 65470cdfd1fa2a2de9fdf873a58d72aa 6671 rust-md5_0.7.0.orig.tar.gz
+ b73a40e83a79403369b79ea0c9b09251 3040 rust-md5_0.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/md5
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/md5]
+Checksums-Sha256:
+ d50698fb910be562f60066839214133bf0229ff3991a5294b89dbaec99c3b483 2119 rust-md5_0.7.0-2.dsc
+ 490cc448043f947bae3cbee9c203358d62dbee0db12107a74be5c30ccfd09771 6671 rust-md5_0.7.0.orig.tar.gz
+ 5bdd44ce02e3ce12a036ead58682769c579cdfadb88cc2ff3fba1e1a95f2bc7a 3040 rust-md5_0.7.0-2.debian.tar.xz
+Homepage: https://github.com/stainless-steel/md5
+Package-List: 
+ librust-md5-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-md5
+Priority: extra
+Section: misc

@@ -1,0 +1,43 @@
+Package: cups
+Binary: libcups2, cups, cups-bsd, cups-client, cups-common, cups-core-drivers, cups-daemon, cups-ipp-utils, cups-ppdc, cups-server-common, libcups2-dev, libcupsimage2, libcupsimage2-dev
+Version: 2.3.3op2-3+deb11u1
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Uploaders: Didier Raboud <odyx@debian.org>, Till Kamppeter <till.kamppeter@gmail.com>,
+Build-Depends: autoconf, automake, debhelper-compat (= 13), dh-strip-nondeterminism, libavahi-client-dev, libavahi-common-dev, libdbus-1-dev, libgnutls28-dev, libkrb5-dev, libpam0g-dev, libpaper-dev, libsystemd-dev [linux-any], libtool, libusb-1.0-0-dev [!hurd-any], patch, pkg-config, po-debconf, po4a, zlib1g-dev
+Build-Conflicts: libgmp-dev (<< 2:6)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6a053a4a62417104f8807852a576f352 3373 cups_2.3.3op2-3+deb11u1.dsc
+ 524266752cf243c968921547b18ee594 7993205 cups_2.3.3op2.orig.tar.gz
+ 71e38a6689d78e15e00eed9426c370f0 833 cups_2.3.3op2.orig.tar.gz.asc
+ cd5ec6b8c83f3d15daf086b8c5351491 346456 cups_2.3.3op2-3+deb11u1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/printing-team/cups
+Vcs-Git: https://salsa.debian.org/printing-team/cups.git
+Checksums-Sha256:
+ 0366ca59ff6d2d3c33c861d886e1043527fe19a14e7ab66e292c777155401dba 3373 cups_2.3.3op2-3+deb11u1.dsc
+ deb3575bbe79c0ae963402787f265bfcf8d804a71fc2c94318a74efec86f96df 7993205 cups_2.3.3op2.orig.tar.gz
+ ac9e7e3415d727e9882cf0f65ee38459cbcd602cb49cf392e0a65a172fe3bdaf 833 cups_2.3.3op2.orig.tar.gz.asc
+ 3f1dab94f23a46fd566eafc2a9bdc5d2e8f5cbb49b6385b45d753209e8965e16 346456 cups_2.3.3op2-3+deb11u1.debian.tar.xz
+Homepage: https://github.com/OpenPrinting/cups/
+Build-Depends-Arch: dh-apparmor
+Dgit: 1f136ea62e8f8f41a17ba561c227e4bfe2eba5aa debian archive/debian/2.3.3op2-3+deb11u1 https://git.dgit.debian.org/cups
+Package-List: 
+ cups deb net optional arch=any
+ cups-bsd deb net optional arch=any
+ cups-client deb net optional arch=any
+ cups-common deb net optional arch=all
+ cups-core-drivers deb net optional arch=any
+ cups-daemon deb net optional arch=any
+ cups-ipp-utils deb net optional arch=any
+ cups-ppdc deb utils optional arch=any
+ cups-server-common deb net optional arch=all
+ libcups2 deb libs optional arch=any
+ libcups2-dev deb libdevel optional arch=any
+ libcupsimage2 deb libs optional arch=any
+ libcupsimage2-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/c/cups
+Priority: source
+Section: net

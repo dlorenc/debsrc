@@ -1,0 +1,29 @@
+Package: qutebrowser
+Binary: qutebrowser, qutebrowser-qtwebengine, qutebrowser-qtwebkit
+Version: 2.0.2-1
+Maintainer: Fritz Reichwald <reichwald@b1-systems.de>
+Uploaders: Axel Beckert <abe@debian.org>
+Build-Depends: asciidoc, debhelper-compat (= 13), dh-python, docbook-xml, docbook-xsl, libxml2-utils, python3 (>= 3.7), python3-setuptools, source-highlight, xsltproc
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 937a87628807ae49f22d825bd8b94d59 2443 qutebrowser_2.0.2-1.dsc
+ 506184a80f36fc287bf6e52e65eceac8 6190348 qutebrowser_2.0.2.orig.tar.gz
+ 12036749aef13923a1aab26485d7212d 833 qutebrowser_2.0.2.orig.tar.gz.asc
+ 2f93c82d934a10d3c153223e8e8f7347 267244 qutebrowser_2.0.2-1.debian.tar.xz
+Vcs-Browser: https://github.com/qutebrowser/qutebrowser-debian
+Vcs-Git: https://github.com/qutebrowser/qutebrowser-debian.git
+Checksums-Sha256:
+ 73b7ec7c9927cf7632cbcb38020c927097c1632eb0a7f8beeefc615a4e9ed554 2443 qutebrowser_2.0.2-1.dsc
+ 48a87e453b8932e259b7b3cabd8bc500606852f622d123388fb34e4ffe57b33b 6190348 qutebrowser_2.0.2.orig.tar.gz
+ 7f8367f3cc439f52075b1b41c18c3a298d3c24a9edc6f1b6953955f0aae5b771 833 qutebrowser_2.0.2.orig.tar.gz.asc
+ c5ba50382a960de3ae3c7f0a372bf9141fc8236ee98e0f4efa92a34f47630da1 267244 qutebrowser_2.0.2-1.debian.tar.xz
+Homepage: https://qutebrowser.org/
+Package-List: 
+ qutebrowser deb web optional arch=all
+ qutebrowser-qtwebengine deb web optional arch=all
+ qutebrowser-qtwebkit deb web optional arch=all
+Directory: pool/main/q/qutebrowser
+Priority: extra
+Section: misc

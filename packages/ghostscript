@@ -1,0 +1,31 @@
+Package: ghostscript
+Binary: ghostscript, ghostscript-x, ghostscript-doc, libgs9, libgs9-common, libgs-dev
+Version: 9.53.3~dfsg-7
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
+Build-Depends: debhelper-compat (= 12), dh-linktree, fonts-urw-base35, freeglut3-dev, libcups2-dev [!kfreebsd-any], libcupsimage2-dev [!kfreebsd-any], libexpat-dev, libfontconfig1-dev, libfreetype-dev, libice-dev, libidn11-dev, libijs-dev, libjbig2dec0-dev (>= 0.19), libjpeg-dev, liblcms2-dev, libopenjp2-7-dev, libpaper-dev, libpng-dev, libsm-dev, libtiff-dev, libx11-dev, libxext-dev, libxt-dev, zlib1g-dev:native, pkg-config, rename
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ a941109eb5c7eba9572db2d15e5b9d11 2677 ghostscript_9.53.3~dfsg-7.dsc
+ 653da2a0bebf9949634c137da72d1e26 23948068 ghostscript_9.53.3~dfsg.orig.tar.xz
+ 4a6cf74bd1cde75856077d61b4cba412 118732 ghostscript_9.53.3~dfsg-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/printing-team/ghostscript
+Vcs-Git: https://salsa.debian.org/printing-team/ghostscript.git
+Checksums-Sha256:
+ 32c7e3eb366251fa0ced20b6deaeac9f01ab1914a4dc090c9decbef9052bde72 2677 ghostscript_9.53.3~dfsg-7.dsc
+ 678f99fc6cca9a224f49891b8db5d9a325b8b3fbbffa9f29d44bac9f54603f3d 23948068 ghostscript_9.53.3~dfsg.orig.tar.xz
+ 5f06ce2b30f8e6b9194b5e84d85e73024d70ace35c5048e20aae1e23ae286807 118732 ghostscript_9.53.3~dfsg-7.debian.tar.xz
+Homepage: https://www.ghostscript.com/
+Package-List: 
+ ghostscript deb text optional arch=any
+ ghostscript-doc deb doc optional arch=all
+ ghostscript-x deb text optional arch=any
+ libgs-dev deb libdevel optional arch=any
+ libgs9 deb libs optional arch=any
+ libgs9-common deb libs optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/g/ghostscript
+Priority: source
+Section: text

@@ -1,0 +1,23 @@
+Package: jfsutils
+Binary: jfsutils, jfsutils-udeb
+Version: 1.1.15-5
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), uuid-dev
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f3fed1faca8645c1fff2f98acb533d8f 1803 jfsutils_1.1.15-5.dsc
+ 2cd01d58f267d4d449a4d1153fe6fa28 554897 jfsutils_1.1.15.orig.tar.gz
+ 75b81c02e6448d4d72b0663db50ca693 7116 jfsutils_1.1.15-5.debian.tar.xz
+Checksums-Sha256:
+ 9ef9804713f2980cc9783677744866a38558d1fcb16b951846d78ff73926bd68 1803 jfsutils_1.1.15-5.dsc
+ bc17a4cd96e986815ef5ac5e7086e452f996c3178046cd278dafd6c202e6c578 554897 jfsutils_1.1.15.orig.tar.gz
+ bdb0be6f9d92415806fcd47bd792e67b64e7645cf856298823b8a41fdc6de872 7116 jfsutils_1.1.15-5.debian.tar.xz
+Homepage: https://jfs.sourceforge.net/
+Package-List: 
+ jfsutils deb admin optional arch=any
+ jfsutils-udeb udeb debian-installer optional arch=any
+Directory: pool/main/j/jfsutils
+Priority: source
+Section: admin

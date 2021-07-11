@@ -1,0 +1,27 @@
+Package: php-nikic-fast-route
+Binary: php-nikic-fast-route
+Version: 1.3.0-3
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: James Valleroy <jvalleroy@mailbox.org>
+Build-Depends: debhelper-compat (= 12), phpab, phpunit, pkg-php-tools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7d4b5f11595b6c0f97bd179c956753d1 1814 php-nikic-fast-route_1.3.0-3.dsc
+ faf7c152e0497144b45127899f6c4434 16790 php-nikic-fast-route_1.3.0.orig.tar.gz
+ 0d32f29e60dedbd719168b8c3373da19 4160 php-nikic-fast-route_1.3.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/php-team/pear/php-nikic-fast-route
+Vcs-Git: https://salsa.debian.org/php-team/pear/php-nikic-fast-route.git
+Checksums-Sha256:
+ 535304bf8b12dcc385f5a6e80ec94ab5e1537e6f47d1d1bb017de5131df54c59 1814 php-nikic-fast-route_1.3.0-3.dsc
+ daa85ac7a861b26989dd461854f37e3a696327bde7edd8e815f84cba3c8f1951 16790 php-nikic-fast-route_1.3.0.orig.tar.gz
+ 162a2ed370b82a47995eff2e010eea8574cc49dd8b314a01fa1fddd26730eb02 4160 php-nikic-fast-route_1.3.0-3.debian.tar.xz
+Homepage: https://github.com/nikic/FastRoute
+Package-List: 
+ php-nikic-fast-route deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: phpab, phpunit
+Directory: pool/main/p/php-nikic-fast-route
+Priority: extra
+Section: misc

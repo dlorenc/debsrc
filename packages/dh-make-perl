@@ -1,0 +1,26 @@
+Package: dh-make-perl
+Binary: dh-make-perl, libdebian-source-perl
+Version: 0.116
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Wolfgang Schemmel <debian@37.org>, Damyan Ivanov <dmn@debian.org>, gregor herrmann <gregoa@debian.org>, Salvatore Bonaccorso <carnil@debian.org>, Axel Beckert <abe@debian.org>
+Build-Depends: debhelper-compat (= 13), libmodule-build-perl, perl
+Build-Depends-Indep: libapt-pkg-perl <!nocheck>, libarray-unique-perl <!nocheck>, libclass-accessor-perl <!nocheck>, libconfig-ini-perl <!nocheck>, libdpkg-parse-perl <!nocheck>, libdpkg-perl <!nocheck>, libemail-address-xs-perl <!nocheck>, libemail-date-format-perl <!nocheck>, libfile-dircompare-perl <!nocheck>, libfile-find-rule-perl <!nocheck>, libfile-touch-perl <!nocheck>, libfile-which-perl <!nocheck>, libipc-run-perl <!nocheck>, liblist-moreutils-perl <!nocheck>, libmodule-depends-perl <!nocheck>, libparse-debcontrol-perl <!nocheck>, libpod-parser-perl <!nocheck>, libsoftware-license-perl <!nocheck>, libsub-install-perl <!nocheck>, libsys-cpu-perl <!nocheck>, libtest-compile-perl <!nocheck>, libtest-deep-perl <!nocheck>, libtest-differences-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtext-diff-perl <!nocheck>, libtie-ixhash-perl <!nocheck>, libwww-mechanize-perl <!nocheck>, libyaml-libyaml-perl <!nocheck>, libyaml-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ c659786821c93d1b2174a973fda30c13 3141 dh-make-perl_0.116.dsc
+ c3e90110eda7f1b313a970ca77d97ec0 119172 dh-make-perl_0.116.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/dh-make-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/dh-make-perl.git
+Checksums-Sha256:
+ de15b0e025978f7e72d6bd436c6b335131533ddbaf711165f19820278e0a92fa 3141 dh-make-perl_0.116.dsc
+ 18d8f493a4a4a809c258bdd467c1bf13d462613b8cb6529497dcaaaf49f94341 119172 dh-make-perl_0.116.tar.xz
+Dgit: f9a15c22beb3dbab0bfaf3026ee9ce5d13d0b126 debian archive/debian/0.116 https://git.dgit.debian.org/dh-make-perl
+Package-List: 
+ dh-make-perl deb perl optional arch=all
+ libdebian-source-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/d/dh-make-perl
+Priority: source
+Section: perl

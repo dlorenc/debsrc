@@ -1,0 +1,27 @@
+Package: readosm
+Binary: libreadosm-dev, libreadosm1, libreadosm-doc
+Version: 1:1.1.0a+dfsg-1
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: David Paleino <dapal@debian.org>, Bas Couwenberg <sebastic@debian.org>
+Build-Depends: debhelper (>= 10~), libexpat1-dev, zlib1g-dev, doxygen, graphviz
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bf44371f41c7e9d0c0bdb81e6665c0dc 2168 readosm_1.1.0a+dfsg-1.dsc
+ 664a4af8558e5340759c58572cd30bc4 267548 readosm_1.1.0a+dfsg.orig.tar.xz
+ 48413fedc84da84d5314ac199b51cac8 12664 readosm_1.1.0a+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/readosm
+Vcs-Git: https://salsa.debian.org/debian-gis-team/readosm.git
+Checksums-Sha256:
+ cbbb7f72744ef33c338bf681108024f590040fc7126a6897de66f9a0df2b99b9 2168 readosm_1.1.0a+dfsg-1.dsc
+ 714dd03f5ab8b0af72933f561928e15e997db14f0638d1987e024aff9e0a9186 267548 readosm_1.1.0a+dfsg.orig.tar.xz
+ cf1cc58b56bbbd9de2191d45cc37304b6e2be39e4c5912bc8ed780709db12030 12664 readosm_1.1.0a+dfsg-1.debian.tar.xz
+Homepage: https://www.gaia-gis.it/fossil/readosm/index
+Package-List: 
+ libreadosm-dev deb libdevel optional arch=any
+ libreadosm-doc deb doc optional arch=all
+ libreadosm1 deb libs optional arch=any
+Directory: pool/main/r/readosm
+Priority: source
+Section: misc

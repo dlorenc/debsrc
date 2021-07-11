@@ -1,0 +1,27 @@
+Package: php-horde-crypt
+Binary: php-horde-crypt
+Version: 2.7.12-6
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e6fadf327c0d9a7ea290ec5f751d6bfc 2164 php-horde-crypt_2.7.12-6.dsc
+ e8ee0dc83306fafc238cdfe2ba36ba91 156807 php-horde-crypt_2.7.12.orig.tar.gz
+ d943e2094dbb4aa50410d28058f4c017 6820 php-horde-crypt_2.7.12-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-crypt
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-crypt.git
+Checksums-Sha256:
+ 2346ec9753cccc1ed34e24585a2ca467db78b62a74c8be5774847f4ae71dea08 2164 php-horde-crypt_2.7.12-6.dsc
+ de27105b211f4e42251fe863b8d6dcd3d9b49c75399e91cac6d2e17ee35eb5df 156807 php-horde-crypt_2.7.12.orig.tar.gz
+ 90e92b7d553e0f392b16bf72944d68b8a44d32559b33be3e2add7eb9e9cc7d52 6820 php-horde-crypt_2.7.12-6.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-crypt deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: gnupg, php-cli, php-horde-http, php-horde-test
+Directory: pool/main/p/php-horde-crypt
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: pptpd
+Binary: pptpd, bcrelay
+Version: 1.4.0-12
+Maintainer: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Build-Depends: debhelper-compat (= 13), libwrap0-dev, ppp-dev (>= 2.4.7-1+~)
+Architecture: linux-any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 61aaa5d60a15a21b53633dae8056e5fb 1903 pptpd_1.4.0-12.dsc
+ 36f9f45c6ffa92bc3b6e24ae2d053505 252167 pptpd_1.4.0.orig.tar.gz
+ ddad3bb0b421414d0be484a7ceb6d02c 25488 pptpd_1.4.0-12.debian.tar.xz
+Vcs-Browser: https://git.in-ulm.de/cbiedl/pptpd
+Vcs-Git: https://git.in-ulm.de/cbiedl/pptpd.git
+Checksums-Sha256:
+ 0bed79a0a5734ed788a36d1576f555a15fd78a039f092ad5c82d9da0ec131fd0 1903 pptpd_1.4.0-12.dsc
+ 8fcd8b8a42de2af59e9fe8cbaa9f894045c977f4d038bbd6346a8522bb7f06c0 252167 pptpd_1.4.0.orig.tar.gz
+ e22452d980ada8537398c7ebdd57a93ae2fa47ca2ae3f7640d105a8f0e1c9ef6 25488 pptpd_1.4.0-12.debian.tar.xz
+Homepage: http://poptop.sourceforge.net/dox/
+Package-List: 
+ bcrelay deb net optional arch=linux-any
+ pptpd deb net optional arch=linux-any
+Directory: pool/main/p/pptpd
+Priority: source
+Section: net

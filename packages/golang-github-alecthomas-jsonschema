@@ -1,0 +1,27 @@
+Package: golang-github-alecthomas-jsonschema
+Binary: golang-github-alecthomas-jsonschema-dev
+Version: 0.0~git20210127.19bc6f2-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Marcelo Jorge Vieira <metal@debian.org>, Lucca Braga Godoy Mendonça <lucca.mendonca@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-iancoleman-orderedmap-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c54d8655ba5bdb25bb9ea47b5e9e0c7f 2612 golang-github-alecthomas-jsonschema_0.0~git20210127.19bc6f2-1.dsc
+ e0a09e40a6d556ed6e236ce3abefcc94 10608 golang-github-alecthomas-jsonschema_0.0~git20210127.19bc6f2.orig.tar.xz
+ 374f7a03a534f506bc79d9d0c71dfa1c 2932 golang-github-alecthomas-jsonschema_0.0~git20210127.19bc6f2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-alecthomas-jsonschema
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-alecthomas-jsonschema.git
+Checksums-Sha256:
+ 0c521188fb6f3cf3f889539bd0af0e3a6ce5427bbc137b23b179d3a2ca02a6d8 2612 golang-github-alecthomas-jsonschema_0.0~git20210127.19bc6f2-1.dsc
+ 2880c888dfeeb586eaff68cba4440bdb51b8cd44b120093551faae0ca6ff8265 10608 golang-github-alecthomas-jsonschema_0.0~git20210127.19bc6f2.orig.tar.xz
+ f64cba324c329a869111a31b68845e9ca25b92a6a6e16466ffc28f6d684f089b 2932 golang-github-alecthomas-jsonschema_0.0~git20210127.19bc6f2-1.debian.tar.xz
+Homepage: https://github.com/alecthomas/jsonschema
+Go-Import-Path: github.com/alecthomas/jsonschema
+Package-List: 
+ golang-github-alecthomas-jsonschema-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-alecthomas-jsonschema
+Priority: extra
+Section: misc

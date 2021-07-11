@@ -1,0 +1,24 @@
+Package: rust-erased-serde
+Binary: librust-erased-serde-dev
+Version: 0.3.6-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-serde-1+default-dev (>= 1.0.63~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ b741b6b9822f3d15dbc49d7995f4161c 2143 rust-erased-serde_0.3.6-1.dsc
+ e46fc18b4fd73d053015988ab200b6f6 18472 rust-erased-serde_0.3.6.orig.tar.gz
+ e76b48c3dc80905ce302fdbde13a0f28 2384 rust-erased-serde_0.3.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/erased-serde
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/erased-serde]
+Checksums-Sha256:
+ 475368bd7d746478cd50284cabccb760837fec10a843f20e9476a7bd5bcd01a8 2143 rust-erased-serde_0.3.6-1.dsc
+ e030c95ae4adbadad4024871621e9910d8b156a61c4f83a885f28597b294b146 18472 rust-erased-serde_0.3.6.orig.tar.gz
+ bffd821cff1f16e1513f89f4d4c962be68f629d87847cb3f56055d80f2113d43 2384 rust-erased-serde_0.3.6-1.debian.tar.xz
+Package-List: 
+ librust-erased-serde-dev deb rust optional arch=any
+Directory: pool/main/r/rust-erased-serde
+Priority: extra
+Section: misc

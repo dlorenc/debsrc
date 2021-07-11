@@ -1,0 +1,26 @@
+Package: abi-monitor
+Binary: abi-monitor
+Version: 1.12-2.1
+Maintainer: Peter Spiess-Knafl <dev@spiessknafl.at>
+Build-Depends: debhelper (>= 11), help2man
+Architecture: all
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ c098ea77a5c69bfe7820f6df1eca24af 1934 abi-monitor_1.12-2.1.dsc
+ 8a82a9349c3659d26da52e7ef12a3681 32752 abi-monitor_1.12.orig.tar.gz
+ fa41e092f428d60dda009217f10ad924 2900 abi-monitor_1.12-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/abi-monitor
+Vcs-Git: https://salsa.debian.org/debian/abi-monitor.git
+Checksums-Sha256:
+ 1f84caf4faf2e58329b10840707248181f86193ba270e836da4f3bc1a8bc64a6 1934 abi-monitor_1.12-2.1.dsc
+ 00227f6561310f4175f2ddbd0c56936265bb6ec969675ef7a459bee70272dc35 32752 abi-monitor_1.12.orig.tar.gz
+ d5f12156b2f1332f42d561154cd26c532cb8b4265728e756721d9783f7a3a766 2900 abi-monitor_1.12-2.1.debian.tar.xz
+Homepage: https://github.com/lvc/abi-monitor
+Package-List: 
+ abi-monitor deb devel optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: ca-certificates, cmake, git
+Directory: pool/main/a/abi-monitor
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: libwpe
+Binary: libwpe-1.0-dev, libwpe-1.0-1
+Version: 1.6.0-1
+Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
+Uploaders: Alberto Garcia <berto@igalia.com>
+Build-Depends: debhelper-compat (= 12), pkg-config, libegl1-mesa-dev, libxkbcommon-dev, cmake
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 731c0516d8ca205c675526e725cf1aff 2251 libwpe_1.6.0-1.dsc
+ 6e8a2c279dcc3617db5ec7ac4c03d628 49956 libwpe_1.6.0.orig.tar.xz
+ 7746924ac8c776b8b0668e62c5b13f30 195 libwpe_1.6.0.orig.tar.xz.asc
+ 0e248dbf7a7b68ec2ceb833d0adf1b71 6272 libwpe_1.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/webkit-team/libwpe
+Vcs-Git: https://salsa.debian.org/webkit-team/libwpe.git
+Checksums-Sha256:
+ b18eead81d17c0b3465708a9b7abc762512798becaaff1a3904cfa03292a37f4 2251 libwpe_1.6.0-1.dsc
+ 3587c6b8a807f4bb76b268ba74ca82c6b395b90235db41ad8252224456193c90 49956 libwpe_1.6.0.orig.tar.xz
+ 3ab92ce7fbaa0788c283ac3daac15eaccd9f33981de747ce8538d7ed571a63b5 195 libwpe_1.6.0.orig.tar.xz.asc
+ 5f65deafa347fac3677264babce3d1f6965951b53c8b2ce391139f0554d86704 6272 libwpe_1.6.0-1.debian.tar.xz
+Homepage: https://wpewebkit.org/
+Package-List: 
+ libwpe-1.0-1 deb libs optional arch=any
+ libwpe-1.0-dev deb libdevel optional arch=any
+Directory: pool/main/libw/libwpe
+Priority: extra
+Section: misc

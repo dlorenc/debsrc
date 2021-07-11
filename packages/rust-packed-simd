@@ -1,0 +1,27 @@
+Package: rust-packed-simd
+Binary: librust-packed-simd-dev
+Version: 0.3.3-7
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 98dff196a438d8186c4dcd187af97dd6 2441 rust-packed-simd_0.3.3-7.dsc
+ 572afe0eab9c1d4185e4252f80f0a65c 86929 rust-packed-simd_0.3.3.orig.tar.gz
+ 6f536b74de9d5316f40a2b7a1849725c 4908 rust-packed-simd_0.3.3-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/packed-simd
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/packed-simd]
+Checksums-Sha256:
+ e8f6baa416a51075b4dcaccbbb140ee410627fe0b6d815cf67979061135643c2 2441 rust-packed-simd_0.3.3-7.dsc
+ 55d3b0dd18060beac664fc0de36e661d8336f304ad9b5a89b2d5b716146527db 86929 rust-packed-simd_0.3.3.orig.tar.gz
+ da1478dc6856168f8934486cf50b4856049582e013185f2394c9e4be4451ffa6 4908 rust-packed-simd_0.3.3-7.debian.tar.xz
+Homepage: https://github.com/rust-lang-nursery/packed_simd
+Package-List: 
+ librust-packed-simd-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-arrayvec-0.4-dev, librust-paste-0.1+default-dev, librust-wasm-bindgen-0.2.19+default-dev, librust-wasm-bindgen-test-0.2.19+default-dev
+Directory: pool/main/r/rust-packed-simd
+Priority: extra
+Section: misc

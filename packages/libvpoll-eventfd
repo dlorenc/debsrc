@@ -1,0 +1,27 @@
+Package: libvpoll-eventfd
+Binary: libvpoll-dev, libvpoll0, vpoll-dkms
+Version: 0.1-2
+Maintainer: Debian VirtualSquare Team <virtualsquare@cs.unibo.it>
+Uploaders: Mattia Biondi <mattia.biondi3@studio.unibo.it>, Renzo Davoli <renzo@cs.unibo.it>, Andrea Capriotti <capriott@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.12), libfduserdata-dev (>= 0.1), dkms
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d86fb0425a27cb35094acbfba50b8d91 2216 libvpoll-eventfd_0.1-2.dsc
+ 80854a9ee6fe799e431d5d859f39a84f 22800 libvpoll-eventfd_0.1.orig.tar.gz
+ 5786dcc3791d4f315bf7ba9306417e26 2852 libvpoll-eventfd_0.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/virtualsquare-team/libvpoll-eventfd
+Vcs-Git: https://salsa.debian.org/virtualsquare-team/libvpoll-eventfd.git
+Checksums-Sha256:
+ 99d7cf27c7d63c382b6c585d6d569a3eeebbd1ae04342ecca9c590aa403be6a7 2216 libvpoll-eventfd_0.1-2.dsc
+ 79c6b1258de59a25ae32a86e40f20a37478018046a5de487a48e52275e7efa63 22800 libvpoll-eventfd_0.1.orig.tar.gz
+ 413c3174e098e844ae09f88bd028742cc5b868102f56cbb90c25c0385db4e94d 2852 libvpoll-eventfd_0.1-2.debian.tar.xz
+Homepage: http://www.virtualsquare.org/
+Package-List: 
+ libvpoll-dev deb libdevel optional arch=any
+ libvpoll0 deb libs optional arch=any
+ vpoll-dkms deb kernel optional arch=all
+Directory: pool/main/libv/libvpoll-eventfd
+Priority: extra
+Section: misc

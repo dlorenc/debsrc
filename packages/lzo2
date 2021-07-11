@@ -1,0 +1,26 @@
+Package: lzo2
+Binary: liblzo2-dev, liblzo2-2, liblzo2-2-udeb
+Version: 2.10-2
+Maintainer: Stephen Kitt <skitt@debian.org>
+Build-Depends: debhelper-compat (= 12), pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 74a6960cf145824b6647dfb29a168349 1926 lzo2_2.10-2.dsc
+ 39d3f3f9c55c87b1e5d6888e1420f4b5 600622 lzo2_2.10.orig.tar.gz
+ ed17501063d46ae26314390de3f59098 6880 lzo2_2.10-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/lzo2
+Vcs-Git: https://salsa.debian.org/debian/lzo2.git
+Checksums-Sha256:
+ 65a35d9d2511a88f30d4b10313f807c184d1906062e2421833797dafc2682166 1926 lzo2_2.10-2.dsc
+ c0f892943208266f9b6543b3ae308fab6284c5c90e627931446fb49b4221a072 600622 lzo2_2.10.orig.tar.gz
+ 095b2bf2012138f6892fcf226a0d1eae5d29406d7afe7129d51d64116e61c472 6880 lzo2_2.10-2.debian.tar.xz
+Homepage: https://www.oberhumer.com/opensource/lzo/
+Package-List: 
+ liblzo2-2 deb libs optional arch=any
+ liblzo2-2-udeb udeb debian-installer optional arch=any
+ liblzo2-dev deb libdevel optional arch=any
+Directory: pool/main/l/lzo2
+Priority: source
+Section: libs

@@ -1,0 +1,27 @@
+Package: python-wget
+Binary: python3-wget
+Version: 3.2-3
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 0afef2cf6e224de6f0591e89e12bcf54 2105 python-wget_3.2-3.dsc
+ 898a72ce71b2278032c07b4d6c502ec4 9461 python-wget_3.2.orig.tar.gz
+ 8afd7c0fa2bad9e2ba11b3d088a1a104 2832 python-wget_3.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-wget
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-wget.git
+Checksums-Sha256:
+ c4de1a8571681fcee6b37f12d5c8c1596d1d6633b719c187ab20d98114d35ed3 2105 python-wget_3.2-3.dsc
+ fff436e76dd4d41e3432cd9ca955d2b52cb754588cd79409b630d5e524cb197c 9461 python-wget_3.2.orig.tar.gz
+ 85eac537051fdeae7aae44b2129272885d923fe65993f02b20ea0418580379f9 2832 python-wget_3.2-3.debian.tar.xz
+Homepage: https://bitbucket.org/techtonik/python-wget/
+Package-List: 
+ python3-wget deb python optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-python
+Testsuite-Triggers: ca-certificates, python3-all
+Directory: pool/main/p/python-wget
+Priority: optional
+Section: misc

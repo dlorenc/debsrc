@@ -1,0 +1,27 @@
+Package: cinnamon
+Binary: cinnamon, cinnamon-common, cinnamon-doc
+Version: 4.8.6-2
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>, Margarita Manterola <marga@debian.org>, Fabio Fantoni <fantonifabio@tiscali.it>, Norbert Preining <norbert@preining.info>,
+Build-Depends: debhelper-compat (= 13), dh-python, dpkg-dev (>= 1.16.1~), gir1.2-meta-muffin-0.0 (>= 4.6), gnome-pkg-tools (>= 0.11), gobject-introspection (>= 1.29.15), gtk-doc-tools, intltool, libcinnamon-desktop-dev (>= 4.8~), libcinnamon-menu-3-dev (>= 4.8~), libcjs-dev (>= 4.8~), libclutter-1.0-dev (>= 1.10.0), libdbus-1-dev, libgirepository1.0-dev (>= 1.29.15), libgl1-mesa-dev, libglib2.0-dev (>= 2.52.0), libgstreamer1.0-dev, libgtk-3-dev (>= 3.9.12), libjson-glib-dev (>= 0.13.2), libmuffin-dev (>= 4.6), libnm-dev (>= 1.6) [linux-any], libnma-dev [linux-any], libpolkit-agent-1-dev (>= 0.100), libpulse-dev, libsoup2.4-dev, libstartup-notification0-dev (>= 0.11), libxfixes-dev (>= 1:5.0), meson (>= 0.46.0), python3:any
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 38ece15248fb0efd078c340655ab03ad 2496 cinnamon_4.8.6-2.dsc
+ da28fad44089e1668f9d428f2d708e28 2378117 cinnamon_4.8.6.orig.tar.gz
+ 064505a241e14dd1afe890902d3dc130 99056 cinnamon_4.8.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cinnamon-team/cinnamon
+Vcs-Git: https://salsa.debian.org/cinnamon-team/cinnamon.git
+Checksums-Sha256:
+ 36d88c4ecdc348e4c6c418227017ef5557ec2b61fa9f7e8fd05b832109bb8c2a 2496 cinnamon_4.8.6-2.dsc
+ 00f82253f44c694c379e29959aa6e57b4878b722df1f08d68f9466272ef64893 2378117 cinnamon_4.8.6.orig.tar.gz
+ 18e8231c125e5c56f7d984c8099f8d2c8e36e457dcf12376d829731770ada584 99056 cinnamon_4.8.6-2.debian.tar.xz
+Homepage: http://cinnamon.linuxmint.com
+Package-List: 
+ cinnamon deb x11 optional arch=any
+ cinnamon-common deb x11 optional arch=all
+ cinnamon-doc deb doc optional arch=all
+Directory: pool/main/c/cinnamon
+Priority: source
+Section: misc

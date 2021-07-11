@@ -1,0 +1,28 @@
+Package: haskell-tasty-th
+Binary: libghc-tasty-th-dev, libghc-tasty-th-prof, libghc-tasty-th-doc
+Version: 0.1.7-4
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-src-exts-dev (>= 1.18.0), libghc-src-exts-prof, libghc-tasty-dev, libghc-tasty-prof
+Build-Depends-Indep: ghc-doc, libghc-src-exts-doc, libghc-tasty-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a54a100cfb3d922c1f9a079a056b90f8 2433 haskell-tasty-th_0.1.7-4.dsc
+ 75f0bca72023e138f207d7b01f60c2c7 4467 haskell-tasty-th_0.1.7.orig.tar.gz
+ 310ca356202cefe20b746284de7e69b6 3180 haskell-tasty-th_0.1.7-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-tasty-th
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-tasty-th]
+Checksums-Sha256:
+ 8b3c0571a0def9d7c284f2e091052bc71e033921db2f867c468cd3d4cc245c6a 2433 haskell-tasty-th_0.1.7-4.dsc
+ 435aac8f317e2f8cb1aa96fb3f7c9003c1ac28e6d3ca4c3c23f5142178de512c 4467 haskell-tasty-th_0.1.7.orig.tar.gz
+ 1bafe60a79bc8054c50839e51f30e1fa2275bda6779e0b8369a0e7f6a677494b 3180 haskell-tasty-th_0.1.7-4.debian.tar.xz
+Homepage: https://github.com/bennofs/tasty-th
+Package-List: 
+ libghc-tasty-th-dev deb haskell optional arch=any
+ libghc-tasty-th-doc deb doc optional arch=all
+ libghc-tasty-th-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-tasty-th
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: assess-el
+Binary: elpa-assess
+Version: 0.6-1
+Maintainer: Debian Emacsen team <debian-emacsen@lists.debian.org>
+Uploaders: Lev Lamberov <dogsleg@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-elpa, elpa-load-relative, elpa-m-buffer
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d3e3df4b57a6a19cbfc940d15de867c7 1972 assess-el_0.6-1.dsc
+ fccab9d8186a1e7c2e7b4b8254755d2b 20736 assess-el_0.6.orig.tar.gz
+ 7152ae8dafe046589bff9dee643549ce 2584 assess-el_0.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/emacsen-team/assess-el
+Vcs-Git: https://salsa.debian.org/emacsen-team/assess-el.git
+Checksums-Sha256:
+ b3b3b64a6c4eb79612eca8c4c917149b83799dc158f01461676a462448a0bfa2 1972 assess-el_0.6-1.dsc
+ 08c25de7e31c3fcd6c9fe06f2cc63efadf75e96c4e038e5f1ac4f39475de3d52 20736 assess-el_0.6.orig.tar.gz
+ 7ce5bc5de08696c3558e4fbd636d8f85f1543fdc5721bbde104351531cf3cf51 2584 assess-el_0.6-1.debian.tar.xz
+Homepage: https://github.com/phillord/assess
+Package-List: 
+ elpa-assess deb lisp optional arch=all
+Testsuite: autopkgtest-pkg-elpa
+Directory: pool/main/a/assess-el
+Priority: extra
+Section: misc

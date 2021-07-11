@@ -1,0 +1,24 @@
+Package: potrace
+Binary: potrace, libpotrace0, libpotrace-dev
+Version: 1.16-2
+Maintainer: Bartosz Fenski <fenio@debian.org>
+Build-Depends: debhelper (>= 9), zlib1g-dev, libtool, dh-autoreconf
+Architecture: any
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ afcebecd65c006e4c6c70ea75a26fa2a 1843 potrace_1.16-2.dsc
+ 5f0bd87ddd9a620b0c4e65652ef93d69 657314 potrace_1.16.orig.tar.gz
+ f7ff4d395ea2f67096ab9e9723dba4c4 3948 potrace_1.16-2.debian.tar.xz
+Checksums-Sha256:
+ fdd5d94996a22da81097c4852c895dd3aeddf8b40cca7268f60f19b987cd0b9f 1843 potrace_1.16-2.dsc
+ be8248a17dedd6ccbaab2fcc45835bb0502d062e40fbded3bc56028ce5eb7acc 657314 potrace_1.16.orig.tar.gz
+ 88e2641b69ccb47895fee9558b29d092723370e02e706fa8032e7996112c706e 3948 potrace_1.16-2.debian.tar.xz
+Homepage: http://potrace.sourceforge.net/
+Package-List: 
+ libpotrace-dev deb libdevel optional arch=any
+ libpotrace0 deb libs optional arch=any
+ potrace deb graphics optional arch=any
+Directory: pool/main/p/potrace
+Priority: source
+Section: graphics

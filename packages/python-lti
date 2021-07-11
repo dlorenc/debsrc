@@ -1,0 +1,26 @@
+Package: python-lti
+Binary: python3-lti
+Version: 0.9.5-1
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-django, python3-httmock, python3-lxml, python3-mock, python3-pytest, python3-requests, python3-requests-oauthlib, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6355781c886787fbb75ccc9119a09fbf 1810 python-lti_0.9.5-1.dsc
+ 8e2f72c7eca99f88c595d890da008cd9 26160 python-lti_0.9.5.orig.tar.gz
+ 2f8f0e9ee9ff38df14c91172528d0806 3236 python-lti_0.9.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-lti
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-lti.git
+Checksums-Sha256:
+ 2bebd344623a9cbaf5c918c99cd34d69e03c435117cde36ae727a69032f0d0d5 1810 python-lti_0.9.5-1.dsc
+ 215b08a697d1402838e330051e0eda4ce14445e08875e9e34bfb68fd53b1ec53 26160 python-lti_0.9.5.orig.tar.gz
+ 275c3f0214a4cffa27b632d971fb4500b761ee8e0a2d6dec096cbb1f85dbec40 3236 python-lti_0.9.5-1.debian.tar.xz
+Homepage: https://github.com/pylti/lti/
+Package-List: 
+ python3-lti deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/p/python-lti
+Priority: extra
+Section: misc

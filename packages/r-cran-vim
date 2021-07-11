@@ -1,0 +1,27 @@
+Package: r-cran-vim
+Binary: r-cran-vim
+Version: 6.1.0+dfsg-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-colorspace, r-cran-car, r-cran-magrittr, r-cran-robustbase, r-cran-sp, r-cran-vcd, r-cran-mass, r-cran-nnet, r-cran-e1071, r-cran-rcpp, r-cran-laeken, r-cran-ranger, r-cran-data.table
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bdbfc1802449d841ecd440d4cd6816a6 2298 r-cran-vim_6.1.0+dfsg-1.dsc
+ baccb09fc910e7474b8d1bdd5b2effca 1609552 r-cran-vim_6.1.0+dfsg.orig.tar.xz
+ e7bdd9b1202f55258e889ff0a021b555 3184 r-cran-vim_6.1.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-vim
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-vim.git
+Checksums-Sha256:
+ 8af49637fcb2bb3fed4143dedd6e828b6844e994e2a75c1c1c4f1de62d53a2e9 2298 r-cran-vim_6.1.0+dfsg-1.dsc
+ a28d57efde5a49b0329fc9e5e96fb6f334b8437920c43593948ed68b72ed60fe 1609552 r-cran-vim_6.1.0+dfsg.orig.tar.xz
+ 0a1eedd7007ac2c1d99ffdee20a8fc6e8b1f7a9e6c9f1e2ff2a107a3ca98dabb 3184 r-cran-vim_6.1.0+dfsg-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=VIM
+Package-List: 
+ r-cran-vim deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-dplyr, r-cran-testthat
+Directory: pool/main/r/r-cran-vim
+Priority: extra
+Section: misc

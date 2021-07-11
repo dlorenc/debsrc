@@ -1,0 +1,26 @@
+Package: node-proxy
+Binary: node-proxy
+Version: 1.0.2-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-sequence-nodejs, mocha <!nocheck>, node-basic-auth-parser <!nocheck>, node-debug (>= 4.1.1) <!nocheck>, nodejs (>= 6)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b5ac6dc0a30444b40c5b03ebfe7dc469 2127 node-proxy_1.0.2-3.dsc
+ fc1c589771ce9595d97e33a37267f9de 61390 node-proxy_1.0.2.orig.tar.gz
+ 6ce368c17b7ba092aaaf442f51bd2641 2356 node-proxy_1.0.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-proxy
+Vcs-Git: https://salsa.debian.org/js-team/node-proxy.git
+Checksums-Sha256:
+ 9e4c7d6fa6b6411ccecb03c439159694e727fd4022fd57919b2a6bc6d492af25 2127 node-proxy_1.0.2-3.dsc
+ 37ca6094be78ea0504ee8ec9d61e27e450c6d1306fa1f06617a95c2552ed32ad 61390 node-proxy_1.0.2.orig.tar.gz
+ bc6ab8df9ce8e9127fd29a30bfbd32eb687c05d03c39a1bad7f0751beb3eb3f0 2356 node-proxy_1.0.2-3.debian.tar.xz
+Homepage: https://github.com/TooTallNate/proxy#readme
+Package-List: 
+ node-proxy deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-proxy
+Priority: extra
+Section: misc

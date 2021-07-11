@@ -1,0 +1,26 @@
+Package: node-dot-prop
+Binary: node-dot-prop
+Version: 6.0.1-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Archana N <archana@disroot.org>, Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper-compat (= 13), node-is-obj <!nocheck>, node-tape <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1ca372abdd4abe693ee98e084762ba94 2114 node-dot-prop_6.0.1-1.dsc
+ c2620517650b59b39844ccfb5ad6886e 6161 node-dot-prop_6.0.1.orig.tar.gz
+ 32af4b6d41be1b0f62a898febcb134c2 3260 node-dot-prop_6.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-dot-prop
+Vcs-Git: https://salsa.debian.org/js-team/node-dot-prop.git
+Checksums-Sha256:
+ 9858a7e01debae7a7f9cf6675dab1f039e344f54f9674e69d833d49a77c942ee 2114 node-dot-prop_6.0.1-1.dsc
+ bd1534ceaec5430b2c33d675cc55e84fdf1880d301f96729d76a3627d4771f41 6161 node-dot-prop_6.0.1.orig.tar.gz
+ 2bd41b2250a427e0cb2c7d395059f3d2834afd5e08cf77773cb4e842e12ec54a 3260 node-dot-prop_6.0.1-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/dot-prop
+Package-List: 
+ node-dot-prop deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-dot-prop
+Priority: extra
+Section: javascript

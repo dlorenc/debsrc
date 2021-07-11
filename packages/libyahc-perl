@@ -1,0 +1,27 @@
+Package: libyahc-perl
+Binary: libyahc-perl
+Version: 0.035-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Andrius Merkys <merkys@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libev-perl <!nocheck>, libio-socket-ssl-perl <!nocheck>, libjson-perl <!nocheck>, libplack-perl <!nocheck>, libtest-exception-perl <!nocheck>, libtest-memory-cycle-perl <!nocheck>, perl, starman <!nocheck>
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 97aebb462739f4ee1b769e98878f5b71 2262 libyahc-perl_0.035-3.dsc
+ 5938cbb268aaf33ab465f73a39bef3db 54954 libyahc-perl_0.035.orig.tar.gz
+ 4d4d7798541b7c7671ccb3cd05cfa6a6 3376 libyahc-perl_0.035-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libyahc-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libyahc-perl.git
+Checksums-Sha256:
+ cfb8622999e83c4f523be87b59eb1cbd8f1f11ad63f1b692ee39e630180a82bc 2262 libyahc-perl_0.035-3.dsc
+ 29065ee8f8b594c6aac4cb94516cfd0ec04791a9eb6d1a6d10f29bd8cf6713ce 54954 libyahc-perl_0.035.orig.tar.gz
+ 3dd25339f281322e4439f1fffbd686f631f87f852a2db40e12d4f49f7c5f92b8 3376 libyahc-perl_0.035-3.debian.tar.xz
+Homepage: https://metacpan.org/release/YAHC
+Package-List: 
+ libyahc-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/liby/libyahc-perl
+Priority: extra
+Section: misc

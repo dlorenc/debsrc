@@ -1,0 +1,27 @@
+Package: python-os-win
+Binary: python-os-win-doc, python3-os-win
+Version: 5.2.0-1
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>,
+Build-Depends: debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx
+Build-Depends-Indep: python3-babel, python3-coverage, python3-ddt, python3-eventlet, python3-hacking, python3-mock, python3-openstackdocstheme, python3-oslo.concurrency, python3-oslo.config, python3-oslo.i18n, python3-oslo.log, python3-oslo.utils, python3-oslotest, python3-pep8, python3-stestr, python3-testtools, subunit
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ f8fa829899d6727daf6c36b9f991eedb 2453 python-os-win_5.2.0-1.dsc
+ 1cc4239b3323038042aee1362467ce8c 162200 python-os-win_5.2.0.orig.tar.xz
+ 508bf8d0bd54c996f6c0a5fbbf51400b 3616 python-os-win_5.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/openstack-team/libs/python-os-win
+Vcs-Git: https://salsa.debian.org/openstack-team/libs/python-os-win.git
+Checksums-Sha256:
+ a2ecbb76557752406643873faa3b4fb8de35791da597907a19564749b6b658cf 2453 python-os-win_5.2.0-1.dsc
+ 34b5ab2514b96be33f96d738a4ec9b5d3fde9f3a3885b8c671563b26d1aa4210 162200 python-os-win_5.2.0.orig.tar.xz
+ 9856ab3016db6aeae54a6776effc28762b4d68483f1b153f976d4adcf1585c0a 3616 python-os-win_5.2.0-1.debian.tar.xz
+Homepage: https://github.com/openstack/os-win
+Package-List: 
+ python-os-win-doc deb doc optional arch=all
+ python3-os-win deb python optional arch=all
+Directory: pool/main/p/python-os-win
+Priority: optional
+Section: misc

@@ -1,0 +1,29 @@
+Package: rust-grep-searcher
+Binary: librust-grep-searcher-dev, librust-grep-searcher+default-dev, librust-grep-searcher+simd-accel-dev
+Version: 0.1.7-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bstr-0.2+std-dev <!nocheck>, librust-bytecount-0.6+default-dev <!nocheck>, librust-bytecount-0.6+runtime-dispatch-simd-dev <!nocheck>, librust-encoding-rs-0.8+default-dev (>= 0.8.14-~~) <!nocheck>, librust-encoding-rs-io-0.1+default-dev (>= 0.1.6-~~) <!nocheck>, librust-grep-matcher-0.1+default-dev (>= 0.1.2-~~) <!nocheck>, librust-log-0.4+default-dev (>= 0.4.5-~~) <!nocheck>, librust-memmap-0.7+default-dev <!nocheck> | librust-memmap-0.6+default-dev (>= 0.6.2-~~) <!nocheck>, librust-grep-regex-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 61bfb1ef66fcceda6eb592e411dfa37f 3025 rust-grep-searcher_0.1.7-1.dsc
+ 35b955cdaca5f944f99ec9dd839f0700 44320 rust-grep-searcher_0.1.7.orig.tar.gz
+ b1eedb741ee7eacb483d246cf3326330 3716 rust-grep-searcher_0.1.7-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/grep-searcher
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/grep-searcher]
+Checksums-Sha256:
+ bcfb1fd557c63191dda7a2c62367dec312c78efa4de7761ce2221965c8b2965c 3025 rust-grep-searcher_0.1.7-1.dsc
+ 19897320890970db77fb9e8110aeafdf5a74f4ee32756db16d44a96d8f454b1b 44320 rust-grep-searcher_0.1.7.orig.tar.gz
+ 9d8c9684f11dd028a5a6055971273b4e201208989db220a404b4dd1745b4c9d1 3716 rust-grep-searcher_0.1.7-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/ripgrep/tree/master/crates/searcher
+Package-List: 
+ librust-grep-searcher+default-dev deb rust optional arch=any
+ librust-grep-searcher+simd-accel-dev deb rust optional arch=any
+ librust-grep-searcher-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-grep-regex-0.1+default-dev, librust-regex+default-dev
+Directory: pool/main/r/rust-grep-searcher
+Priority: extra
+Section: misc

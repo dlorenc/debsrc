@@ -1,0 +1,26 @@
+Package: node-connect-timeout
+Binary: node-connect-timeout
+Version: 1.9.0-4
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 12), mocha (>= 4) <!nocheck>, node-http-errors <!nocheck>, node-ms <!nocheck>, node-on-finished (>= 2.3.0) <!nocheck>, node-on-headers <!nocheck>, node-supertest <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 490848e0de55c9e0c35eb53f53d5af64 2273 node-connect-timeout_1.9.0-4.dsc
+ c5bf1d546eda57c79a91c9e575e73cf2 6544 node-connect-timeout_1.9.0.orig.tar.gz
+ 572ea269fb4896e1603ddedc427def88 5896 node-connect-timeout_1.9.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-connect-timeout
+Vcs-Git: https://salsa.debian.org/js-team/node-connect-timeout.git
+Checksums-Sha256:
+ ee844f77304f813d78af3c02521b4f3e39a1bd28be24602feb2d29a2c1070395 2273 node-connect-timeout_1.9.0-4.dsc
+ d62dedb530e8a0400cd4663336c2bbd47db0ac68ebda5046da6559922c333267 6544 node-connect-timeout_1.9.0.orig.tar.gz
+ 16969ebb904dd147e609fd0be1d421f92d17262e6e47c5a8ea3b76be549cae6b 5896 node-connect-timeout_1.9.0-4.debian.tar.xz
+Homepage: https://github.com/expressjs/timeout
+Package-List: 
+ node-connect-timeout deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-connect-timeout
+Priority: optional
+Section: javascript

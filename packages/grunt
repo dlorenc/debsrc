@@ -1,0 +1,27 @@
+Package: grunt
+Binary: grunt
+Version: 1.3.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Gustavo Noronha Silva <kov@debian.org>, Marcelo Jorge Vieira (metal) <metal@debian.org>, Sruthi Chandran <srud@disroot.org>, Pirate Praveen <praveen@debian.org>
+Build-Depends: coffeescript (>= 1.10.0~), debhelper-compat (= 13), pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e50ca68dd7116bfec4c9e905d3f478fb 2220 grunt_1.3.0-1.dsc
+ 9e15057b66b8e5b9164bc7855f149cd6 51910 grunt_1.3.0.orig.tar.gz
+ 4a7df3c68df0a7b596f91780ba87eff9 4624 grunt_1.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/grunt
+Vcs-Git: https://salsa.debian.org/js-team/grunt.git
+Checksums-Sha256:
+ fa0fc940ca3fc58175c09c9872879ae7c60140bc47d85e8c7f30de9bbd2ddba8 2220 grunt_1.3.0-1.dsc
+ 0be24d5a20b18a5086bf8c23d4dc5da4a3ef3913198d4f09a48d4dde415d0edf 51910 grunt_1.3.0.orig.tar.gz
+ 5ae42f11f5dec45c65351538fda7e34a6529289205f08f6757244b06703d9cbb 4624 grunt_1.3.0-1.debian.tar.xz
+Homepage: https://gruntjs.com/
+Package-List: 
+ grunt deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, node-difflet, node-grunt-contrib-nodeunit, node-shelljs, node-temporary, node-through2, nodejs, pkg-js-autopkgtest
+Directory: pool/main/g/grunt
+Priority: optional
+Section: misc

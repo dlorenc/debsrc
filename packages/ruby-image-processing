@@ -1,0 +1,27 @@
+Package: ruby-image-processing
+Binary: ruby-image-processing
+Version: 1.10.3-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Jongmin Kim <jmkim@pukyong.ac.kr>
+Build-Depends: debhelper-compat (= 12), gem2deb, imagemagick, ruby-mini-magick (<< 5), ruby-mini-magick (>= 4.9.3), ruby-minispec-metadata, ruby-minitest (<< 6), ruby-minitest (>= 5.8), ruby-minitest-hooks (>= 1.4.0), ruby-vips (<< 3), ruby-vips (>= 2.0.17)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 322932fb88bf492296c114a2cb27192e 2350 ruby-image-processing_1.10.3-1.dsc
+ cbfe999374f200efea9504bb54fa2190 985090 ruby-image-processing_1.10.3.orig.tar.gz
+ aa968382dcb792a1cea7e1f8c6d69f05 3204 ruby-image-processing_1.10.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-image-processing
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-image-processing.git
+Checksums-Sha256:
+ 1a60732c82107918e6bc3cde33216f2ff85f753ef8e27482fbda3d46efc702c1 2350 ruby-image-processing_1.10.3-1.dsc
+ af5e15751997008ed160d13c2d1375103a21539a9daf4be51a87886f3f4a8600 985090 ruby-image-processing_1.10.3.orig.tar.gz
+ 538850c8a59eb1915d845fa09abc7f49b99a7b51aedd87714f42ae64f563f3a6 3204 ruby-image-processing_1.10.3-1.debian.tar.xz
+Homepage: https://github.com/janko/image_processing
+Package-List: 
+ ruby-image-processing deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-image-processing
+Priority: extra
+Section: misc

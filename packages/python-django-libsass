@@ -1,0 +1,27 @@
+Package: python-django-libsass
+Binary: python3-django-libsass
+Version: 0.8-3
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael Fladischer <fladi@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-django, python3-django-compressor, python3-libsass, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8eec37c2d38859dd351e0cef72873272 2213 python-django-libsass_0.8-3.dsc
+ db8aa98e2185327481b029fad6c07ebf 8851 python-django-libsass_0.8.orig.tar.gz
+ f2973d8d08550464231494fd7a9c99c0 2792 python-django-libsass_0.8-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-django-libsass
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-django-libsass.git
+Checksums-Sha256:
+ a51dbe84f1c69ee91381137825c60001725916a74e8d19830195719d1c748955 2213 python-django-libsass_0.8-3.dsc
+ 0603774acb0d0162b40f92785e63772a35e38a24ef5ba8c567f2e768ffd05937 8851 python-django-libsass_0.8.orig.tar.gz
+ 417c966eed0bf818b8b2950a9c0bfa4f36d499c1ab69aa07507a8503f7dddff0 2792 python-django-libsass_0.8-3.debian.tar.xz
+Homepage: https://github.com/torchbox/django-libsass/
+Package-List: 
+ python3-django-libsass deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-django-libsass
+Priority: extra
+Section: misc

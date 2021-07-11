@@ -1,0 +1,28 @@
+Package: qtspell
+Binary: libqtspell-qt5-0, libqtspell-qt5-dev, libqtspell-qt5-html
+Version: 0.9.0-1
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Moore <sgmoore@kde.org>
+Build-Depends: cmake, debhelper-compat (= 12), libenchant-2-dev, pkg-config, pkg-kde-tools, qtbase5-dev, qttools5-dev (>= 5.10.1~)
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e70350a87189574d6ca6fb37440c79b4 2185 qtspell_0.9.0-1.dsc
+ 51cec935f402d51ac0d3b3f1f08fc8ae 58811 qtspell_0.9.0.orig.tar.gz
+ 7c148604defebdf60e66271da874281c 6312 qtspell_0.9.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/qtspell
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/qtspell.git
+Checksums-Sha256:
+ efed3cee7e5fa32eff5e243ea00d5c4c3095b95f979d6d68688ee27ae569c885 2185 qtspell_0.9.0-1.dsc
+ 49a5ab995c3150572c3c48989cd3e506b0c2d64b09d80fb5b30daa7325445635 58811 qtspell_0.9.0.orig.tar.gz
+ b58351b5cae269ed1864b505e92462ca322f8b75912fc41a5a9f54b61b0ce2b6 6312 qtspell_0.9.0-1.debian.tar.xz
+Homepage: https://github.com/manisandro/qtspell
+Package-List: 
+ libqtspell-qt5-0 deb libs optional arch=any
+ libqtspell-qt5-dev deb libdevel optional arch=any
+ libqtspell-qt5-html deb doc optional arch=all
+Directory: pool/main/q/qtspell
+Priority: extra
+Section: misc

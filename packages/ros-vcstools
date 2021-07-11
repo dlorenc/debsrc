@@ -1,0 +1,26 @@
+Package: ros-vcstools
+Binary: python3-vcstools
+Version: 0.1.42-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, bzr | brz, git, mercurial, subversion, python3-dateutil, python3-yaml, python3-mock, python3-nose
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 200976ceb38f6565c53c701ea343b0f8 2207 ros-vcstools_0.1.42-3.dsc
+ fec53eea22a920bc0dc79646ab661376 65979 ros-vcstools_0.1.42.orig.tar.gz
+ b95ee048b138c1fbe695c7a6fee1b718 4740 ros-vcstools_0.1.42-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ros-vcstools
+Vcs-Git: https://salsa.debian.org/science-team/ros-vcstools.git
+Checksums-Sha256:
+ 749f5a61cca8900e5fbb7c254b9fb04d0392b2f81c072b1960e44078c6f3bf2a 2207 ros-vcstools_0.1.42-3.dsc
+ 3dccd4d3c82d3be6b0ba6a2def83af7e68ee495d108587ac66aa74720e5e9c97 65979 ros-vcstools_0.1.42.orig.tar.gz
+ 096593615841d80ce9a6b91c41b13ce391bd5d7d3b1f1c21a34b1f522b32f2a4 4740 ros-vcstools_0.1.42-3.debian.tar.xz
+Homepage: https://wiki.ros.org/vcstools
+Package-List: 
+ python3-vcstools deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/r/ros-vcstools
+Priority: optional
+Section: misc

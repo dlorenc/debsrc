@@ -1,0 +1,25 @@
+Package: ring-defaults-clojure
+Binary: libring-defaults-clojure
+Version: 0.3.1-1.1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Apollon Oikonomopoulos <apoikos@debian.org>
+Build-Depends: debhelper (>= 10), javahelper (>= 0.32), maven-repo-helper (>= 1.7), clojure (>= 1.8), libtext-markdown-perl | markdown, libring-core-clojure (>= 1.6.0), libring-ssl-clojure (>= 0.3.0), libring-headers-clojure (>= 0.3.0), libring-anti-forgery-clojure (>= 1.1.0), libring-mock-clojure (>= 0.3.0), libservlet3.1-java, default-jdk-headless
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ 17647e2dd25886350aa0f954742172ee 2409 ring-defaults-clojure_0.3.1-1.1.dsc
+ 5dfbe26408c02bf0e640582222c4e858 5337 ring-defaults-clojure_0.3.1.orig.tar.gz
+ 96ace21dff33712750601c07a80338a8 3456 ring-defaults-clojure_0.3.1-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/ring-defaults-clojure.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/ring-defaults-clojure.git
+Checksums-Sha256:
+ 3a65f789ea2d1aa0b704a2f779028a1fc9f81da265bf66ff80959f36f902994e 2409 ring-defaults-clojure_0.3.1-1.1.dsc
+ acf28e87344f73f29380af2d028814224e15bdb435935bd3f479d2a452d1c5d3 5337 ring-defaults-clojure_0.3.1.orig.tar.gz
+ 649d8a0416834f3f5f53af369e5a1aab3debea25224d9243b02f7b0777f58c50 3456 ring-defaults-clojure_0.3.1-1.1.debian.tar.xz
+Homepage: https://github.com/ring-clojure/ring-defaults
+Package-List: 
+ libring-defaults-clojure deb java optional arch=all
+Directory: pool/main/r/ring-defaults-clojure
+Priority: extra
+Section: misc

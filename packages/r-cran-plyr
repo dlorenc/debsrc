@@ -1,0 +1,27 @@
+Package: r-cran-plyr
+Binary: r-cran-plyr
+Version: 1.8.6-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Carlos Borroto <carlos.borroto@gmail.com>, Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-rcpp
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 41c0162bd6b27e283084a8ea2452a407 2105 r-cran-plyr_1.8.6-2.dsc
+ 2f4b1a4d42e0b6e4d18918c703eb1926 401191 r-cran-plyr_1.8.6.orig.tar.gz
+ 5433dfdef93890e8926ca03fe495747a 4080 r-cran-plyr_1.8.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-plyr
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-plyr.git
+Checksums-Sha256:
+ 3052896c11b5b06f2465fe1b05364b3ac85dbaef01a9414f2c96b7b93323fd2d 2105 r-cran-plyr_1.8.6-2.dsc
+ ea55d26f155443e9774769531daa5d4c20a0697bb53abd832e891b126c935287 401191 r-cran-plyr_1.8.6.orig.tar.gz
+ fe04a79b2153d6026484fa9edba2ef9c7935005dbfd5f8867ef6a25112277819 4080 r-cran-plyr_1.8.6-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=plyr
+Package-List: 
+ r-cran-plyr deb gnu-r optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: r-cran-abind, r-cran-domc, r-cran-testthat
+Directory: pool/main/r/r-cran-plyr
+Priority: source
+Section: gnu-r

@@ -1,0 +1,28 @@
+Package: ruby-delayed-job-active-record
+Binary: ruby-delayed-job-active-record
+Version: 4.1.4-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, rake, ruby-activerecord (>= 2:3.0~), ruby-delayed-job (>= 3.0), ruby-rspec, ruby-sqlite3, ruby-simplecov, ruby-coveralls
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 03b74be1009f9636f9dccd44f9c61f63 2420 ruby-delayed-job-active-record_4.1.4-1.dsc
+ b2df8eb95c0b177c3bc2631b76c75299 12210 ruby-delayed-job-active-record_4.1.4.orig.tar.gz
+ 8498e301694e3da2235e598369bfb274 2984 ruby-delayed-job-active-record_4.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-delayed-job-active-record
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-delayed-job-active-record.git
+Checksums-Sha256:
+ 694acb831f14fa1a9278c15b5dc49228743bf67832c7c63ac6268588fbeaa52d 2420 ruby-delayed-job-active-record_4.1.4-1.dsc
+ f1e1f89e6d0b151948eb7534daec40668f64562104fa97a9acf07bd7f94e2058 12210 ruby-delayed-job-active-record_4.1.4.orig.tar.gz
+ bded4372b4495ed6a878872efb3061d4f7468cfcd1a60667db0f23992ea9752a 2984 ruby-delayed-job-active-record_4.1.4-1.debian.tar.xz
+Homepage: https://github.com/collectiveidea/delayed_job_active_record
+Package-List: 
+ ruby-delayed-job-active-record deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, gem2deb-test-runner
+Directory: pool/main/r/ruby-delayed-job-active-record
+Priority: optional
+Section: misc

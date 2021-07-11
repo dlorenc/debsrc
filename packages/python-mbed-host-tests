@@ -1,0 +1,28 @@
+Package: python-mbed-host-tests
+Binary: python3-mbed-host-tests, python-mbed-host-tests-doc
+Version: 1.4.4-5
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Nick Morrott <nickm@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, doxygen, pandoc, python3-all, python3-future, python3-intelhex, python3-mbed-ls, python3-mock, python3-prettytable (>= 0.7.2), python3-requests, python3-serial (>= 3.0), python3-setuptools, python3-six
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0fcc6fe998b31ad9042982ad57b9d923 2414 python-mbed-host-tests_1.4.4-5.dsc
+ 1c2b5d7fe6cf9e3a441f09a075baaacc 55584 python-mbed-host-tests_1.4.4.orig.tar.xz
+ 7c7d1deaa882f7db65cb7f3ebc3df144 6840 python-mbed-host-tests_1.4.4-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-mbed-host-tests
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-mbed-host-tests.git
+Checksums-Sha256:
+ f83c69c971db3b14882c3c9ded0e1be615e9d71d14639e39a983716241628a89 2414 python-mbed-host-tests_1.4.4-5.dsc
+ 39d394ac2092de086480c4044b03848b7b4288edbe24c572827029f616341428 55584 python-mbed-host-tests_1.4.4.orig.tar.xz
+ 8048a6f313aa8f154da80b02663e686429ef6b990282d0d30eb48eba4ab7143c 6840 python-mbed-host-tests_1.4.4-5.debian.tar.xz
+Homepage: https://github.com/ARMmbed/htrun
+Package-List: 
+ python-mbed-host-tests-doc deb doc optional arch=all
+ python3-mbed-host-tests deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/p/python-mbed-host-tests
+Priority: extra
+Section: misc

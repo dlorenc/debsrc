@@ -1,0 +1,27 @@
+Package: ruby-peach
+Binary: ruby-peach
+Version: 0.5.1-4
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>, Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-minitest, ruby-shoulda, ruby-test-unit
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3c316589149ead689348084139c8b5f9 2086 ruby-peach_0.5.1-4.dsc
+ eec05dd218a5adae54b3705117b46a7d 14840 ruby-peach_0.5.1.orig.tar.gz
+ 5b16c5bb2cb254340894aaae53493fe1 3148 ruby-peach_0.5.1-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-peach
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-peach.git
+Checksums-Sha256:
+ 537700b8e412b37d834279fac118118250b221127367ef21e9676f3fdbeb1df3 2086 ruby-peach_0.5.1-4.dsc
+ 039d2ce17dd4d87d2f0f9b0e555c1b0dc6a5a9081e50275cd9da2b45a24248a5 14840 ruby-peach_0.5.1.orig.tar.gz
+ 6654726ec117f2eab2499aeee39fcf06d680362a632dce77893e11f0d44ddf55 3148 ruby-peach_0.5.1-4.debian.tar.xz
+Homepage: https://github.com/schleyfox/peach
+Package-List: 
+ ruby-peach deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-peach
+Priority: source
+Section: ruby

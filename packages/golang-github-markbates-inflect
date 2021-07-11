@@ -1,0 +1,27 @@
+Package: golang-github-markbates-inflect
+Binary: golang-github-markbates-inflect-dev
+Version: 1.0.4-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Anthony Fok <foka@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-gobuffalo-envy-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 744dccaf6e6a2a5e9412d36f93da0e9f 2299 golang-github-markbates-inflect_1.0.4-1.dsc
+ dbae3895830f7b4473359310c1cfc09a 15268 golang-github-markbates-inflect_1.0.4.orig.tar.gz
+ 547fcd318556d06af7e91fa3ef08c594 3276 golang-github-markbates-inflect_1.0.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-markbates-inflect
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-markbates-inflect.git
+Checksums-Sha256:
+ 0afd6bd7e1c968d965e98a277c7363f9a07375c84b90544b76bc3acd2b116f3f 2299 golang-github-markbates-inflect_1.0.4-1.dsc
+ 03781351d1a59563277d708432f8809504a2fef5ad91ebb0a69993bc39863112 15268 golang-github-markbates-inflect_1.0.4.orig.tar.gz
+ 740507bee5243b8ba5651f44cd106c983a0b6be9b7f32e4a0a7d6b01d59d25af 3276 golang-github-markbates-inflect_1.0.4-1.debian.tar.xz
+Homepage: https://github.com/markbates/inflect
+Go-Import-Path: github.com/markbates/inflect
+Package-List: 
+ golang-github-markbates-inflect-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-markbates-inflect
+Priority: extra
+Section: golang

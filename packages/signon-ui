@@ -1,0 +1,26 @@
+Package: signon-ui
+Binary: signon-ui-x11, signon-ui-service
+Version: 0.17+16.04.20151125-1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Diane Trout <diane@debian.org>
+Build-Depends: dbus-test-runner, debhelper-compat (= 13), libaccounts-qt5-dev, libnotify-dev, libproxy-dev, libqt5webkit5-dev, libsignon-qt5-dev, libx11-dev, pkg-config, qtbase5-dev (>= 5.0.2+dfsg1), qtdeclarative5-dev, signon-plugins-dev, xvfb, xauth
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 08f3f8d43c9efca67fe3300d829ad7d3 2315 signon-ui_0.17+16.04.20151125-1.dsc
+ f62a0bad602b91f7d139b1ebef5ef09c 67054 signon-ui_0.17+16.04.20151125.orig.tar.gz
+ ace869663b910e56cbaf7e521b377ead 7360 signon-ui_0.17+16.04.20151125-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/signon-ui
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/signon-ui.git
+Checksums-Sha256:
+ 66a62222bb4fa898c208e5fb17851bc7d23fd6353744e7d8b75ebe1d973d62ba 2315 signon-ui_0.17+16.04.20151125-1.dsc
+ 59ba44426c4e6f9fee6344158f9b722d9707f5b2b7727d96fda36e87da8461d8 67054 signon-ui_0.17+16.04.20151125.orig.tar.gz
+ 8f98bf2d56c4d6bde6d0282b1a393e409ce3174a2f7310c45bd01e9a12dc605a 7360 signon-ui_0.17+16.04.20151125-1.debian.tar.xz
+Homepage: https://launchpad.net/signon-ui
+Package-List: 
+ signon-ui-service deb gnome optional arch=all
+ signon-ui-x11 deb gnome optional arch=any
+Directory: pool/main/s/signon-ui
+Priority: optional
+Section: misc

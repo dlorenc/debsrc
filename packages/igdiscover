@@ -1,0 +1,27 @@
+Package: igdiscover
+Binary: igdiscover, igdiscover-doc
+Version: 0.11-3
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-sqt, python3-pandas (>= 0.16.2), python3-numpy, python3-matplotlib (>= 1.5.0), python3-cutadapt, python3-scipy (>= 0.16.1), python3-xopen (>= 0.3.2), python3-ruamel.yaml, python3-pytest <!nocheck>, snakemake <!nocheck>, python3-sphinx
+Architecture: all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ 2f26026d8cad220e0be686e94088bf96 2337 igdiscover_0.11-3.dsc
+ e7a82ab9c9da8dc46d5b34fff27cc44e 304084 igdiscover_0.11.orig.tar.gz
+ f2f37465bb87a76a789adde28b683e89 4164 igdiscover_0.11-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/igdiscover
+Vcs-Git: https://salsa.debian.org/med-team/igdiscover.git
+Checksums-Sha256:
+ 75430bd965236a17f15bf522e0088760f8f530a8c50259999264c5f03191e8a2 2337 igdiscover_0.11-3.dsc
+ d81cec41ee0b27e51eb60252fc28a8c7150edffa59c616d613dfa40f3a324ecc 304084 igdiscover_0.11.orig.tar.gz
+ b8fb2257ccaa756487e47f6353bc4d8ebe9a1882e28e034b314f5c980e7455f9 4164 igdiscover_0.11-3.debian.tar.xz
+Homepage: http://docs.igdiscover.se/en/stable/
+Package-List: 
+ igdiscover deb science optional arch=all
+ igdiscover-doc deb doc optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/i/igdiscover
+Priority: extra
+Section: misc

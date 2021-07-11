@@ -1,0 +1,25 @@
+Package: maven-resources-plugin
+Binary: libmaven-resources-plugin-java
+Version: 3.1.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Torsten Werner <twerner@debian.org>
+Build-Depends: debhelper (>= 11~), default-jdk, junit4, libmaven-filtering-java (>= 3.1.0), libmaven-plugin-testing-java (>= 2.1), libmaven-plugin-tools-java, libmaven3-core-java, libplexus-utils2-java (>= 3.0), maven-debian-helper (>= 1.4)
+Architecture: all
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ 6516721825eff36b15af6778465fa319 2329 maven-resources-plugin_3.1.0-1.dsc
+ 8f016446d17a15535cfaa3b00d242bea 765420 maven-resources-plugin_3.1.0.orig.tar.xz
+ 6611ab518879dc8241b11a2f7c75a668 4388 maven-resources-plugin_3.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/maven-resources-plugin
+Vcs-Git: https://salsa.debian.org/java-team/maven-resources-plugin.git
+Checksums-Sha256:
+ 54d618a5a4bc29730898ba87af13afb65bdd1c2add7d34080c8ba251517136ee 2329 maven-resources-plugin_3.1.0-1.dsc
+ 2b40c265a6e34d1d35f7afd4ccdda2be1ef8099b00b3f2512f582a3a1aa3ac0a 765420 maven-resources-plugin_3.1.0.orig.tar.xz
+ f2dfd701cfc4e3a3ebbb6cacd328a39089bcb393eb51d40392f21e5bbf6cddc2 4388 maven-resources-plugin_3.1.0-1.debian.tar.xz
+Homepage: http://maven.apache.org/plugins/maven-resources-plugin/
+Package-List: 
+ libmaven-resources-plugin-java deb java optional arch=all
+Directory: pool/main/m/maven-resources-plugin
+Priority: source
+Section: java

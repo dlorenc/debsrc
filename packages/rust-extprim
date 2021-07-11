@@ -1,0 +1,29 @@
+Package: rust-extprim
+Binary: librust-extprim-dev, librust-extprim+default-dev, librust-extprim+rand-dev, librust-extprim+serde-dev
+Version: 1.7.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-num-traits-0.2+default-dev <!nocheck>, librust-rand-0.7+default-dev <!nocheck> | librust-rand-0.6+default-dev <!nocheck>, librust-rustc-version-0.2+default-dev <!nocheck>, librust-semver-0.9+default-dev <!nocheck>, librust-serde-1+default-dev <!nocheck>, librust-serde-1+derive-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 593250457df6449151ccdf5c41855765 2089 rust-extprim_1.7.0-2.dsc
+ f1b7f8e7295c24a9ec5a5b4090053ef5 43166 rust-extprim_1.7.0.orig.tar.gz
+ 021d6ee78724e6f33ea655a3bb94724e 3032 rust-extprim_1.7.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/extprim
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/extprim]
+Checksums-Sha256:
+ 5ac6e4e8577c7ebfbac9618e0f32ef90af3e9907117f6fcd0447135153517e3f 2089 rust-extprim_1.7.0-2.dsc
+ cfba1bd0c749760b3dad3e4d3926b2bf6186f48e244456bfe1ad3aecd55b4fb1 43166 rust-extprim_1.7.0.orig.tar.gz
+ a4d77085fb7a7640f65d82b6db938a7ea29fddbea66e0b0fa9deca9acda31061 3032 rust-extprim_1.7.0-2.debian.tar.xz
+Package-List: 
+ librust-extprim+default-dev deb rust optional arch=any
+ librust-extprim+rand-dev deb rust optional arch=any
+ librust-extprim+serde-dev deb rust optional arch=any
+ librust-extprim-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-extprim-literals-2+default-dev
+Directory: pool/main/r/rust-extprim
+Priority: extra
+Section: misc

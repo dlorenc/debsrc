@@ -1,0 +1,27 @@
+Package: r-cran-dygraphs
+Binary: r-cran-dygraphs
+Version: 1.1.1.6+dfsg-2
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-r, r-base-dev, r-cran-magrittr, r-cran-htmlwidgets, r-cran-htmltools, r-cran-zoo, r-cran-xts
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 575fe8fcfe9a218bbb20e0d0dcf44cf2 2241 r-cran-dygraphs_1.1.1.6+dfsg-2.dsc
+ ca4f9fbcfc767f9822b7a9f09aab4a13 175216 r-cran-dygraphs_1.1.1.6+dfsg.orig.tar.xz
+ a54a47056b05e0e7b7673d0a43532cce 10660 r-cran-dygraphs_1.1.1.6+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-dygraphs
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-dygraphs.git
+Checksums-Sha256:
+ 11bd66408d8d2d6e92f36480da149a6c1460916f69ff4ad5a6015c828507bd36 2241 r-cran-dygraphs_1.1.1.6+dfsg-2.dsc
+ 42256d2217b74fe1591a87ddd7d957595a58f4033505895315714fe1d21eb0a2 175216 r-cran-dygraphs_1.1.1.6+dfsg.orig.tar.xz
+ 2061600cb3124c8bac62ca8298948427ae9578fb15396d7a687727a233a1bc87 10660 r-cran-dygraphs_1.1.1.6+dfsg-2.debian.tar.xz
+Homepage: https://cran.r-project.org/package=dygraphs
+Package-List: 
+ r-cran-dygraphs deb gnu-r optional arch=all
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-dygraphs
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: globus-xio-gridftp-multicast
+Binary: libglobus-xio-gridftp-multicast, libglobus-xio-gridftp-multicast-dev
+Version: 2.1-2
+Maintainer: Mattias Ellert <mattias.ellert@physics.uu.se>
+Build-Depends: debhelper (>= 13), pkg-config, libglobus-common-dev (>= 15), libglobus-xio-dev (>= 3), libglobus-ftp-client-dev (>= 7)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ b621929112cd2568693ff6d2b3414f7b 2241 globus-xio-gridftp-multicast_2.1-2.dsc
+ 52ac4c5207dc991a4042851affedc2d4 310925 globus-xio-gridftp-multicast_2.1.orig.tar.gz
+ 6db148d60cbdc4e6ce5e3d198be5c140 2700 globus-xio-gridftp-multicast_2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ellert/globus-xio-gridftp-multicast
+Vcs-Git: https://salsa.debian.org/ellert/globus-xio-gridftp-multicast.git
+Checksums-Sha256:
+ 64bfdbe38745964fd12fc3aa269ca3a6cdeab8874be5d0a4246cb624bd5223fc 2241 globus-xio-gridftp-multicast_2.1-2.dsc
+ d75bd3e6e73fe65e4e291902b947f9804d9ad84b1e12c820c42247a6241b7d7e 310925 globus-xio-gridftp-multicast_2.1.orig.tar.gz
+ 8590f686057016f5751e847abc477661aaa33431c6f7b4f8f13c22c15a19c6ba 2700 globus-xio-gridftp-multicast_2.1-2.debian.tar.xz
+Homepage: https://github.com/gridcf/gct/
+Package-List: 
+ libglobus-xio-gridftp-multicast deb libs optional arch=any
+ libglobus-xio-gridftp-multicast-dev deb libdevel optional arch=any
+Directory: pool/main/g/globus-xio-gridftp-multicast
+Priority: optional
+Section: misc

@@ -1,0 +1,26 @@
+Package: node-unique-string
+Binary: node-unique-string
+Version: 2.0.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Preyass Chandran <preyassc@hotmail.com>
+Build-Depends: debhelper-compat (= 13), node-crypto-random-string (>= 2.0.0) <!nocheck>, node-tape <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 72d82359d2a68163193330f07963e30c 2163 node-unique-string_2.0.0-1.dsc
+ e47456ff766c07ee10fa8e14ec16fa72 2301 node-unique-string_2.0.0.orig.tar.gz
+ 2cd72b87a31706dafc8b95a62b8b8e0d 3028 node-unique-string_2.0.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-unique-string
+Vcs-Git: https://salsa.debian.org/js-team/node-unique-string.git
+Checksums-Sha256:
+ 26ae587de9d71893634d45f1ae0a5fe04f1e3901db08eb098c2006ad37443519 2163 node-unique-string_2.0.0-1.dsc
+ adc6f51e15ed97d8cc2312680ace3d1d786551c8cea93a1a6d86736c6baa31e9 2301 node-unique-string_2.0.0.orig.tar.gz
+ bf19855dc187ea520d856a663d52a1b67842b4174e362f7fb7ed122422682b03 3028 node-unique-string_2.0.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/unique-string
+Package-List: 
+ node-unique-string deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-unique-string
+Priority: extra
+Section: misc

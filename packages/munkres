@@ -1,0 +1,27 @@
+Package: munkres
+Binary: python3-munkres
+Version: 1.1.4-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-pytest, python3-setuptools
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 47ce4d911804c88468fbb8446f3d1a0e 1448 munkres_1.1.4-2.dsc
+ 98c185e5e7b290c91a754dde9a7da6e7 14047 munkres_1.1.4.orig.tar.gz
+ 2bc4f2c13d154f20add8d50e76a65dab 3900 munkres_1.1.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/munkres
+Vcs-Git: https://salsa.debian.org/python-team/packages/munkres.git
+Checksums-Sha256:
+ 5b1b29bd16efbdc4874f08f6fb6d45e9ecf4dd7591b5f5e7bc3934f573b17eaa 1448 munkres_1.1.4-2.dsc
+ fc44bf3c3979dada4b6b633ddeeb8ffbe8388ee9409e4d4e8310c2da1792db03 14047 munkres_1.1.4.orig.tar.gz
+ d2c98f48a219ef17997a9782c96c68e2e5df678e7e31fdae49a8523402fe3e3c 3900 munkres_1.1.4-2.debian.tar.xz
+Homepage: https://software.clapper.org/munkres/
+Package-List: 
+ python3-munkres deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/m/munkres
+Priority: source
+Section: python

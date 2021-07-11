@@ -1,0 +1,27 @@
+Package: duktape
+Binary: duktape, duktape-dev, libduktape205
+Version: 2.5.0-2
+Maintainer: Debian IoT Maintainers <debian-iot-maintainers@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12), dh-exec
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ ec4cced76ef0ee5c8e9060a8b0f199f5 2194 duktape_2.5.0-2.dsc
+ e55fe3830f0d469dc67205b380515af0 1031188 duktape_2.5.0.orig.tar.xz
+ 14989c0b0079e01905f1b5fbed9ee440 7332 duktape_2.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-iot-team/duktape
+Vcs-Git: https://salsa.debian.org/debian-iot-team/duktape.git
+Checksums-Sha256:
+ a03f31d0c647d483beea7c0ffed17ec62df3af165805ed95abd131b60dee6b9f 2194 duktape_2.5.0-2.dsc
+ 83d411560a1cd36ea132bd81d8d9885efe9285c6bc6685c4b71e69a0c4329616 1031188 duktape_2.5.0.orig.tar.xz
+ 19593b08f5d1c77ddf2a4d95853ce619e524da14ea29e95171077a2d5948a235 7332 duktape_2.5.0-2.debian.tar.xz
+Homepage: https://duktape.org
+Package-List: 
+ duktape deb interpreters optional arch=any
+ duktape-dev deb libdevel optional arch=any
+ libduktape205 deb libs optional arch=any
+Directory: pool/main/d/duktape
+Priority: optional
+Section: misc

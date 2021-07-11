@@ -1,0 +1,27 @@
+Package: django-measurement
+Binary: python3-django-measurement
+Version: 3.2.3-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Antonio Terceiro <terceiro@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all (>= 2.6.6-3), python3-django-appconf, python3-measurement, python3-pbr, python3-pytest, python3-pytest-cov, python3-pytest-django, python3-pytest-runner, python3-setuptools (>= 0.6b3), python3-setuptools-scm, python3-sphinx
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3d530d918c40f8488aff5fe940677a77 2403 django-measurement_3.2.3-1.dsc
+ 8b879d6cb6d8e4d9a38dbcfc4ad0a8a9 11679 django-measurement_3.2.3.orig.tar.gz
+ 7c1ff409790d3ca01dac5521076f7cc0 2592 django-measurement_3.2.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-django-measurement
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-django-measurement.git
+Checksums-Sha256:
+ c6da44d5c4d360dc765eac5cee8816fd03b43078b3747a8c2b443e4dc2a1a29f 2403 django-measurement_3.2.3-1.dsc
+ 4ab7fc367e082701c90cdcecdf9a7aedc05811e52d86a129bce50be296ae4f9d 11679 django-measurement_3.2.3.orig.tar.gz
+ b0f19ff7ff7da176e77ea62e304ff5a430c7474f4ee4ceb17d08a7c11cb05476 2592 django-measurement_3.2.3-1.debian.tar.xz
+Homepage: https://github.com/coddingtonbear/django-measurement
+Package-List: 
+ python3-django-measurement deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-pytest, python3-pytest-django
+Directory: pool/main/d/django-measurement
+Priority: extra
+Section: misc

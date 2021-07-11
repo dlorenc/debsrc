@@ -1,0 +1,27 @@
+Package: flask-autoindex
+Binary: python3-flask-autoindex, python-flask-autoindex-doc
+Version: 0.6.6-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Jonathan Carter <jcc@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sphinx, python3-flask, python3-flask-silk, python3-future
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f05c3930ecb489081ac2ad20c5d507bf 2258 flask-autoindex_0.6.6-2.dsc
+ 306bc9f8eabddf751ccd36ebd49966cf 52119 flask-autoindex_0.6.6.orig.tar.gz
+ b9ad471f6c612c8bdc5431980c94c459 3848 flask-autoindex_0.6.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/flask-autoindex
+Vcs-Git: https://salsa.debian.org/python-team/packages/flask-autoindex.git
+Checksums-Sha256:
+ 56bb65b9915a0cee9eb410591a99129cec952c3e4b286a9035c6b7ee1a288df5 2258 flask-autoindex_0.6.6-2.dsc
+ ea319f7ccadf68ddf98d940002066278c779323644f9944b300066d50e2effc7 52119 flask-autoindex_0.6.6.orig.tar.gz
+ 14bfdfe8f548b8448378d5b93e3a9644269f6d96fc1119ddf0fbfda303cc3e48 3848 flask-autoindex_0.6.6-2.debian.tar.xz
+Homepage: https://github.com/sublee/flask-autoindex
+Package-List: 
+ python-flask-autoindex-doc deb doc optional arch=all
+ python3-flask-autoindex deb python optional arch=all
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/f/flask-autoindex
+Priority: source
+Section: misc

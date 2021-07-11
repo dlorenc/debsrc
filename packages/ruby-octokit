@@ -1,0 +1,27 @@
+Package: ruby-octokit
+Binary: ruby-octokit
+Version: 4.17.0-2
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Miguel Landaeta <nomadium@debian.org>, Utkarsh Gupta <utkarsh@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-coveralls, ruby-jwt, ruby-rspec, ruby-sawyer (>= 0.8.2~), ruby-vcr, ruby-webmock
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9d18eddce366f1aa9fa68545ac500ccb 2196 ruby-octokit_4.17.0-2.dsc
+ 589fec95b03f8713994e416a06833eca 3090364 ruby-octokit_4.17.0.orig.tar.gz
+ ce75fc8d12a48f7c6d25fee9573f6b57 3500 ruby-octokit_4.17.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-octokit
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-octokit.git
+Checksums-Sha256:
+ c026e720842909af5be3e35df51d13b90ded7516c72d87132f5e2e4462b6f0b6 2196 ruby-octokit_4.17.0-2.dsc
+ 47bec7dc73b4c56116d4c6d034f4933bd623f72b5e00139ba1cd84e6a0dfc36f 3090364 ruby-octokit_4.17.0.orig.tar.gz
+ 37a5ea45a06bb08cb7b2c7bb1a0ee034f9bbbbe886fe9522ff62616afb8d520b 3500 ruby-octokit_4.17.0-2.debian.tar.xz
+Homepage: https://github.com/octokit/octokit.rb
+Package-List: 
+ ruby-octokit deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-octokit
+Priority: optional
+Section: misc

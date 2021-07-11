@@ -1,0 +1,26 @@
+Package: node-commander
+Binary: node-commander
+Version: 6.2.1-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Leo Iannacone <l3on@ubuntu.com>
+Build-Depends: debhelper-compat (= 13), jest <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 0932ed763e07e8f7c63794f81ed93914 2052 node-commander_6.2.1-2.dsc
+ 45030ff9c0f1f026bc135e121cfa932e 144603 node-commander_6.2.1.orig.tar.gz
+ 8a881cb28bce855009fc38a740b2188d 3956 node-commander_6.2.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-commander
+Vcs-Git: https://salsa.debian.org/js-team/node-commander.git
+Checksums-Sha256:
+ e96ee2cf03fa947483be2f68931e4cf10470bbc89d41b5352eddc9af7d810011 2052 node-commander_6.2.1-2.dsc
+ ed77ba0a10f46995f2ccd37b7b0410eb2a6ac2fbdce5e8fc721922c66e43395e 144603 node-commander_6.2.1.orig.tar.gz
+ 1b888c948e161a90f4b9fa0e660ca353c789c57265436a85610fd29b4b6ce10c 3956 node-commander_6.2.1-2.debian.tar.xz
+Homepage: https://github.com/tj/commander.js
+Package-List: 
+ node-commander deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-commander
+Priority: source
+Section: javascript

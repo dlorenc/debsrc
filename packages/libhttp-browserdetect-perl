@@ -1,0 +1,28 @@
+Package: libhttp-browserdetect-perl
+Binary: libhttp-browserdetect-perl
+Version: 3.31-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Angel Abad <angel@debian.org>, Iñigo Tejedor Arrondo <poisonbit@gmail.com>, Martín Ferrari <tincho@debian.org>
+Build-Depends: debhelper-compat (= 13), perl
+Build-Depends-Indep: libhash-merge-perl <!nocheck>, libjson-pp-perl (>= 4.04000) <!nocheck>, libpath-tiny-perl <!nocheck>, libscalar-list-utils-perl (>= 1:1.49) <!nocheck>, libtest-failwarnings-perl <!nocheck>, libtest-most-perl <!nocheck>, libtest-nowarnings-perl <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 59430df359ad03067ef704d6b87de12b 2870 libhttp-browserdetect-perl_3.31-1.dsc
+ ea22907dffcc8215173178a5ddfde3d0 121365 libhttp-browserdetect-perl_3.31.orig.tar.gz
+ 21aab0a514643dd19b8dce46e5dfaa23 4992 libhttp-browserdetect-perl_3.31-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhttp-browserdetect-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhttp-browserdetect-perl.git
+Checksums-Sha256:
+ aaef8b709ad2bb0c17808bc6392a01f5ded1ea07b8dfb3c337fa33e83d2eba20 2870 libhttp-browserdetect-perl_3.31-1.dsc
+ 2157f33a1ae4019b6044418b78a5422e027158dcc7f3d5af48ab869e2eedee3f 121365 libhttp-browserdetect-perl_3.31.orig.tar.gz
+ 546569c382182685bb5ec57595de29952fe0609243f6f8071d204db7be861d53 4992 libhttp-browserdetect-perl_3.31-1.debian.tar.xz
+Homepage: https://metacpan.org/release/HTTP-BrowserDetect
+Dgit: cc6cd55caa76c2fa80a6601c169805f41d72e686 debian archive/debian/3.31-1 https://git.dgit.debian.org/libhttp-browserdetect-perl
+Package-List: 
+ libhttp-browserdetect-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhttp-browserdetect-perl
+Priority: source
+Section: perl

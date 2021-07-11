@@ -1,0 +1,28 @@
+Package: ijs
+Binary: libijs-dev, libijs-0.35, libijs-doc
+Version: 0.35-15
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: cdbs, autotools-dev, libtool, automake1.11, autoconf, debhelper (>= 9~)
+Build-Depends-Indep: docbook, docbook-utils, ghostscript
+Architecture: any all
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ 366491873ac1c98d8b4789e73623a5ab 2073 ijs_0.35-15.dsc
+ 0cc4dfdb3d5aadf39c9334fa95098c20 344262 ijs_0.35.orig.tar.gz
+ 8f02f8a2c7ae374f8f01400856c2a6b1 10340 ijs_0.35-15.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/printing-team/ijs
+Vcs-Git: https://salsa.debian.org/printing-team/ijs.git
+Checksums-Sha256:
+ 24ca5cfd3aa05fb20281c81afd81b006d2fad058683d7ef43d51a860614cd18c 2073 ijs_0.35-15.dsc
+ 901fffb73e42dae343a8285a31d9c4e82dc3856d36be30adbdb564bdd27161d6 344262 ijs_0.35.orig.tar.gz
+ 5a9e755fb15f822a002308ae20b28b66926f77a352b6e73a57169cd61a4b1e4d 10340 ijs_0.35-15.debian.tar.xz
+Homepage: http://www.linuxprinting.org/ijs/
+Package-List: 
+ libijs-0.35 deb libs optional arch=any
+ libijs-dev deb libdevel optional arch=any
+ libijs-doc deb doc optional arch=all
+Directory: pool/main/i/ijs
+Priority: source
+Section: text

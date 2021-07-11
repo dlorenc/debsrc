@@ -1,0 +1,28 @@
+Package: libintl-perl
+Binary: libintl-perl, libintl-xs-perl
+Version: 1.26-3
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ken Ibbotson <keni@computer.org>
+Build-Depends: debhelper-compat (= 13), perl
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ab21b18738622ea5f49704e404f385d9 2330 libintl-perl_1.26-3.dsc
+ d355998f5f33a6f4202cd7ded7bf052a 463128 libintl-perl_1.26.orig.tar.gz
+ ae3d04cf1d932292c05123033fe70e4a 9048 libintl-perl_1.26-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libintl-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libintl-perl.git
+Checksums-Sha256:
+ 5c84ab2aca73d73ec697162ba225d43e2d7830a77ee4b24b850840bede0039e4 2330 libintl-perl_1.26-3.dsc
+ 3f28eaa9d824c2852cf96bb6aa98495d302a6b95302f3e0738fe9389f8053e50 463128 libintl-perl_1.26.orig.tar.gz
+ 211ccd7c2340bf1ac65193e980e6add1fe23e7ac81245eeeef8b610bb4475155 9048 libintl-perl_1.26-3.debian.tar.xz
+Homepage: https://metacpan.org/release/libintl-perl
+Dgit: 001ce70b92d71693eb63e6e336e75be3b1ffb952 debian archive/debian/1.26-3 https://git.dgit.debian.org/libintl-perl
+Package-List: 
+ libintl-perl deb perl optional arch=all
+ libintl-xs-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libi/libintl-perl
+Priority: source
+Section: perl

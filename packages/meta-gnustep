@@ -1,0 +1,27 @@
+Package: meta-gnustep
+Binary: gnustep, gnustep-games, gnustep-core-devel, gnustep-devel, gnustep-core-doc
+Version: 7.10
+Maintainer: Debian GNUstep maintainers <pkg-gnustep-maintainers@lists.alioth.debian.org>
+Uploaders: Yavor Doganov <yavor@gnu.org>
+Build-Depends: debhelper (>= 11)
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (native)
+Files:
+ 2763d322606b658a795873d6051c8551 1896 meta-gnustep_7.10.dsc
+ b3d17c72f664696a5834f444477493d4 5016 meta-gnustep_7.10.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnustep-team/meta-gnustep
+Vcs-Git: https://salsa.debian.org/gnustep-team/meta-gnustep.git
+Checksums-Sha256:
+ 2c71b5d97b8d909e7a13ed3769e86f4a33b8fe7b6daa934314d918eb2ac231a6 1896 meta-gnustep_7.10.dsc
+ bed7b7d95839f130117879f2b523f4a473b11daf5a9c1e441efaa1784ef8e450 5016 meta-gnustep_7.10.tar.xz
+Homepage: http://gnustep.org
+Package-List: 
+ gnustep deb gnustep optional arch=all
+ gnustep-core-devel deb gnustep optional arch=all
+ gnustep-core-doc deb doc optional arch=all
+ gnustep-devel deb gnustep optional arch=all
+ gnustep-games deb gnustep optional arch=all
+Directory: pool/main/m/meta-gnustep
+Priority: source
+Section: x11

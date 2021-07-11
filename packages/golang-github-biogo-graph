@@ -1,0 +1,27 @@
+Package: golang-github-biogo-graph
+Binary: golang-github-biogo-graph-dev
+Version: 0.0~git20150317.057c198-2
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-gopkg-check.v1-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ e47ab238ec2eebdee5b3efad768b50fa 2368 golang-github-biogo-graph_0.0~git20150317.057c198-2.dsc
+ bb44e604d4e99222b243d3e9d02b3aa0 11284 golang-github-biogo-graph_0.0~git20150317.057c198.orig.tar.xz
+ c8286c80857d5fefdf4af4dc55730edb 2720 golang-github-biogo-graph_0.0~git20150317.057c198-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-biogo-graph
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-biogo-graph.git
+Checksums-Sha256:
+ 8710dd9db0eeb8756a03cd2083f57db583e9b9d1f17b9d6b0633affaab2e7ec5 2368 golang-github-biogo-graph_0.0~git20150317.057c198-2.dsc
+ d6ac43fb764a134ef934166e481f73d2a05701fb4129b043d4f7b28d2c655cc1 11284 golang-github-biogo-graph_0.0~git20150317.057c198.orig.tar.xz
+ d2cfde9eeeaf2a48be903092cfeaa57b2a8e9ea41fe05e65f058f2146263a771 2720 golang-github-biogo-graph_0.0~git20150317.057c198-2.debian.tar.xz
+Homepage: https://github.com/biogo/graph
+Go-Import-Path: github.com/biogo/graph
+Package-List: 
+ golang-github-biogo-graph-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-biogo-graph
+Priority: extra
+Section: golang

@@ -1,0 +1,27 @@
+Package: ruby-protocol-http2
+Binary: ruby-protocol-http2
+Version: 0.14.0-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), ruby-protocol-hpack (>= 1.4), ruby-protocol-hpack (<< 2.0), ruby-protocol-http (>= 0.18), ruby-protocol-http (<< 1.0)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a1b3a587c59f5094399817f99def61b6 1884 ruby-protocol-http2_0.14.0-2.dsc
+ a2913aa02d9778cc205029c1591872ba 28280 ruby-protocol-http2_0.14.0.orig.tar.gz
+ 144a576754eb9047e1da8f7e6f6ada06 2600 ruby-protocol-http2_0.14.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-protocol-http2
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-protocol-http2.git
+Checksums-Sha256:
+ e3e24ed14519e310ed235297428e5d5567157df5bb73574d9b7c19c1e30631ee 1884 ruby-protocol-http2_0.14.0-2.dsc
+ c033e529d693819bdb7a7a859b5eebf05e2d205b5084a7f55381b61924ca9d07 28280 ruby-protocol-http2_0.14.0.orig.tar.gz
+ 2239f36044aecfdc1fb5313f1de27b93b78debd719e475270c1a438346dd97cc 2600 ruby-protocol-http2_0.14.0-2.debian.tar.xz
+Homepage: https://github.com/socketry/protocol-http2
+Package-List: 
+ ruby-protocol-http2 deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-protocol-http2
+Priority: extra
+Section: misc

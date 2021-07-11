@@ -1,0 +1,26 @@
+Package: node-content-type
+Binary: node-content-type
+Version: 1.0.4-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), mocha <!nocheck>, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1b8c56095e5e2ad63a8e7f4635b77851 2102 node-content-type_1.0.4-2.dsc
+ a97c1a67df6eefa87ce485a402519afd 5761 node-content-type_1.0.4.orig.tar.gz
+ e62c1d5905b6d90a0ccbc1c853600c7d 2440 node-content-type_1.0.4-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-content-type
+Vcs-Git: https://salsa.debian.org/js-team/node-content-type.git
+Checksums-Sha256:
+ 6228e03a0afbe38e30ab0e4f9c9c5306b2a68cca700e478e1210446209b33702 2102 node-content-type_1.0.4-2.dsc
+ 013ab7c5c3de5c342d00e83fc7ca30548a2d668729361fd21e212a00c8484e08 5761 node-content-type_1.0.4.orig.tar.gz
+ 88f875364a9402da0f2e6d5049bb046d2a3870269b928564eabfc6afe97f8260 2440 node-content-type_1.0.4-2.debian.tar.xz
+Homepage: https://github.com/jshttp/content-type#readme
+Package-List: 
+ node-content-type deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-content-type
+Priority: extra
+Section: javascript

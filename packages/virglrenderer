@@ -1,0 +1,26 @@
+Package: virglrenderer
+Binary: libvirglrenderer1, libvirglrenderer-dev, virgl-server
+Version: 0.8.2-5
+Maintainer: Gert Wollny <gewo@debian.org>
+Build-Depends: check, debhelper-compat (= 12), libdrm-dev, libegl1-mesa-dev, libepoxy-dev, libgbm-dev (>= 18.0.0), meson, python3-setuptools, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f33eee1bed28ba85b6cc42faac5a37df 2128 virglrenderer_0.8.2-5.dsc
+ 58d7e94dcd04943a0a167347711315ac 1764287 virglrenderer_0.8.2.orig.tar.bz2
+ bad4d53404d7f3c1889c4822cc2a06ec 6536 virglrenderer_0.8.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/virglrenderer
+Vcs-Git: https://salsa.debian.org/debian/virglrenderer.git
+Checksums-Sha256:
+ 7af9f1a8c2905366736ec2f5ecca84a7955c7dab7f0f742fdd011d5279cd9919 2128 virglrenderer_0.8.2-5.dsc
+ 02cde23dbb5ff2b928d7c01fff762a35e1cffc0549f56b0cee53dab758c96326 1764287 virglrenderer_0.8.2.orig.tar.bz2
+ a9d7ec023848c6d198cd2108fc850c3cad3754225b910788d6813bff0ebe4936 6536 virglrenderer_0.8.2-5.debian.tar.xz
+Homepage: https://virgil3d.github.io/
+Package-List: 
+ libvirglrenderer-dev deb libdevel optional arch=any
+ libvirglrenderer1 deb libs optional arch=any
+ virgl-server deb otherosfs optional arch=any
+Directory: pool/main/v/virglrenderer
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: ri-li
+Binary: ri-li, ri-li-data
+Version: 2.0.1+ds-10
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Stu Teasdale <sdt@debian.org>, Barry deFreese <bdefreese@debian.org>, Markus Koschany <apo@debian.org>
+Build-Depends: debhelper-compat (= 13), libsdl-image1.2-dev, libsdl-mixer1.2-dev, libsdl1.2-dev, zlib1g-dev
+Build-Depends-Indep: imagemagick, xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1c324cd670bbb185119320ea479000b9 2278 ri-li_2.0.1+ds-10.dsc
+ f0abf2697aaa5f3c106f6eb8341609fb 29537608 ri-li_2.0.1+ds.orig.tar.xz
+ e20ee8ddab0513bee854b0d727440e71 8728 ri-li_2.0.1+ds-10.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/ri-li
+Vcs-Git: https://salsa.debian.org/games-team/ri-li.git
+Checksums-Sha256:
+ fc574bfabfdacfecdc881546c30a083983c450bfeebb7bb38de45fc3290d5828 2278 ri-li_2.0.1+ds-10.dsc
+ dd95144b1341fa4684f7b84325f345edc6a4ec74ee554a65d980c5f73d9a346e 29537608 ri-li_2.0.1+ds.orig.tar.xz
+ eeefa22c66e7f89a511adc5e88b730e600c99619d08a7ed4195de2f6c4f19d72 8728 ri-li_2.0.1+ds-10.debian.tar.xz
+Homepage: http://www.ri-li.org/
+Package-List: 
+ ri-li deb games optional arch=any
+ ri-li-data deb games optional arch=all
+Directory: pool/main/r/ri-li
+Priority: source
+Section: games

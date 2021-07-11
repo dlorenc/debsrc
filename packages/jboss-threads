@@ -1,0 +1,25 @@
+Package: jboss-threads
+Binary: libjboss-threads-java
+Version: 3.2.0-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, libjboss-logging-java, libjboss-logging-tools-java, libwildfly-common-java, maven-debian-helper (>= 2.1)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 21ecd57b87e4605cb30345022dc2f592 2253 jboss-threads_3.2.0-1.dsc
+ 330a81e19743aa499ba8995e0eab2816 58991 jboss-threads_3.2.0.orig.tar.gz
+ 283f9f6f024a8d9d5535e5310df155b6 3492 jboss-threads_3.2.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jboss-threads
+Vcs-Git: https://salsa.debian.org/java-team/jboss-threads.git
+Checksums-Sha256:
+ a2054c3c264f35730df81167da151f540392072446acefa476a98e9e5055958d 2253 jboss-threads_3.2.0-1.dsc
+ 40123a26c7e2db6a0fb86f7cbf101ae7cda6c2c239c4577666d1546bdc9dbb81 58991 jboss-threads_3.2.0.orig.tar.gz
+ 3cb6490d8287a6c89be3c06782e3abaf8caaf978ded076b22f96f4b905a90d9c 3492 jboss-threads_3.2.0-1.debian.tar.xz
+Homepage: https://github.com/jbossas/jboss-threads
+Package-List: 
+ libjboss-threads-java deb java optional arch=all
+Directory: pool/main/j/jboss-threads
+Priority: extra
+Section: misc

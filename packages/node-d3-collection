@@ -1,0 +1,26 @@
+Package: node-d3-collection
+Binary: node-d3-collection
+Version: 1.0.7-3
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12), nodejs, pkg-js-tools, node-tape <!nocheck>, rollup, node-rollup-plugin-terser, node-d3-array <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9dc81df7d02fb5625230f865871b41f0 2162 node-d3-collection_1.0.7-3.dsc
+ c1d9a19a972ef7754148dc1f0b84a137 23003 node-d3-collection_1.0.7.orig.tar.gz
+ 0bebd4aa8b6262ce6e3a38c32b2baee2 3248 node-d3-collection_1.0.7-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-d3-collection
+Vcs-Git: https://salsa.debian.org/js-team/node-d3-collection.git
+Checksums-Sha256:
+ cd394f30767e3b0fea3a592427e2182fad7441823131289568432ae9bff6fd2c 2162 node-d3-collection_1.0.7-3.dsc
+ b64880da79f81620ffb9f2c4b1d312e8e8aa14b2bf69f3a6cb1343b1b327c4ac 23003 node-d3-collection_1.0.7.orig.tar.gz
+ a75a7aba20b7bdbfca24c4db6cb91b12ab159c810a36096b3234e59a4f39ef44 3248 node-d3-collection_1.0.7-3.debian.tar.xz
+Homepage: https://d3js.org/d3-collection/
+Package-List: 
+ node-d3-collection deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-d3-collection
+Priority: extra
+Section: misc

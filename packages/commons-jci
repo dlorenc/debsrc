@@ -1,0 +1,29 @@
+Package: commons-jci
+Binary: libcommons-jci-java, libcommons-jci-rhino-java, libcommons-jci-groovy-java, libcommons-jci-janino-java, libcommons-jci-eclipse-java
+Version: 1.1-6
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, default-jdk-doc, groovy, junit4, libasm-java (>= 5.0), libcommons-io-java, libcommons-lang3-java, libcommons-logging-java, libeclipse-jdt-core-java, libjanino-java (>= 2.6.0), libmaven-antrun-plugin-java, libmaven-javadoc-plugin-java, librhino-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 82325f0f9ea707a087ea29afcc237aed 2582 commons-jci_1.1-6.dsc
+ 7594bbc110e92ac7cdd20013364dbbbb 116670 commons-jci_1.1.orig.tar.gz
+ fa57b3a4df84039e43691cfad2a81f67 4172 commons-jci_1.1-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/commons-jci
+Vcs-Git: https://salsa.debian.org/java-team/commons-jci.git
+Checksums-Sha256:
+ f25c9ef0cd8b74e12b1881e458c691830ed381fb31830c84a74982b83854f01d 2582 commons-jci_1.1-6.dsc
+ d6dc2b4c8bf344a19346657d17fcdb71543c23f84beeb0864a814396180c40cf 116670 commons-jci_1.1.orig.tar.gz
+ 498a9384058f50b6f2f395555591378c185af78a415f7639f9e02111aa0af1ad 4172 commons-jci_1.1-6.debian.tar.xz
+Homepage: http://commons.apache.org/jci/
+Package-List: 
+ libcommons-jci-eclipse-java deb java optional arch=all
+ libcommons-jci-groovy-java deb java optional arch=all
+ libcommons-jci-janino-java deb java optional arch=all
+ libcommons-jci-java deb java optional arch=all
+ libcommons-jci-rhino-java deb java optional arch=all
+Directory: pool/main/c/commons-jci
+Priority: source
+Section: libs

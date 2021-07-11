@@ -1,0 +1,28 @@
+Package: haskell-time-locale-compat
+Binary: libghc-time-locale-compat-dev, libghc-time-locale-compat-prof, libghc-time-locale-compat-doc
+Version: 0.1.1.5-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f6cfbc9675a160919244f08bf238ad7b 2489 haskell-time-locale-compat_0.1.1.5-2.dsc
+ 4cfe4eb3cd3290fe192f5a51e49d0c12 1956 haskell-time-locale-compat_0.1.1.5.orig.tar.gz
+ 2785d7fa00ee17795c42c5544738658c 2772 haskell-time-locale-compat_0.1.1.5-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-time-locale-compat
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-time-locale-compat]
+Checksums-Sha256:
+ ca2264d614317d4ec50a66f56f8a87d1956390420dd723fcbff5eef544a7f459 2489 haskell-time-locale-compat_0.1.1.5-2.dsc
+ 07ff1566de7d851423a843b2de385442319348c621d4f779b3d365ce91ac502c 1956 haskell-time-locale-compat_0.1.1.5.orig.tar.gz
+ 6b20561947f0f73090ce2b365e1b61e7ee2294548d6b89941492b30ce24bb6f5 2772 haskell-time-locale-compat_0.1.1.5-2.debian.tar.xz
+Homepage: https://github.com/khibino/haskell-time-locale-compat
+Package-List: 
+ libghc-time-locale-compat-dev deb haskell optional arch=any
+ libghc-time-locale-compat-doc deb doc optional arch=all
+ libghc-time-locale-compat-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-time-locale-compat
+Priority: optional
+Section: misc

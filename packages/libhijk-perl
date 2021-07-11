@@ -1,0 +1,27 @@
+Package: libhijk-perl
+Binary: libhijk-perl
+Version: 0.28-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Robin Sheat <robin@catalyst.net.nz>
+Build-Depends: debhelper (>= 11), libmodule-build-tiny-perl, perl
+Build-Depends-Indep: libhttp-server-simple-psgi-perl, libnet-server-perl, libplack-perl, libtest-exception-perl
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 2c24e890319028931a744be383fd885d 2273 libhijk-perl_0.28-1.dsc
+ 97da0b7d11308ff42ddf83bbfa73edad 30464 libhijk-perl_0.28.orig.tar.gz
+ d300be8dd60ee821a72afe50a31c969a 3096 libhijk-perl_0.28-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libhijk-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libhijk-perl.git
+Checksums-Sha256:
+ e98265d6674f4bfa51bf2b9aa640f996a26cfa480bee2f0788e6022727a900bb 2273 libhijk-perl_0.28-1.dsc
+ 62f72c191b2b5ee55842a926fdec8c630ee663b32f0195644c45e435699bf03b 30464 libhijk-perl_0.28.orig.tar.gz
+ 4778e90f222837f9e9e2b4d0b0ee72f0befafb5ad66678d24062b716d7e2ef8c 3096 libhijk-perl_0.28-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Hijk
+Package-List: 
+ libhijk-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libh/libhijk-perl
+Priority: optional
+Section: misc

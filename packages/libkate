@@ -1,0 +1,28 @@
+Package: libkate
+Binary: libkate-dev, libkate1, liboggkate-dev, liboggkate1
+Version: 0.4.1-11
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org> , Martin Steghöfer <martin@steghoefer.eu> , Ralph Giles <giles@thaumas.net>
+Build-Depends: dh-exec (>= 0.3), debhelper-compat (= 12), liboggz-dev, pkg-config, libpng-dev, doxygen
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 36eb963f01b7ff96d5369c79d7069490 2231 libkate_0.4.1-11.dsc
+ 1dfdbdeb2fa5d07063cf5b8261111fca 906896 libkate_0.4.1.orig.tar.gz
+ 7dbe031ff17e518172b6e12f71176668 7516 libkate_0.4.1-11.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/libkate
+Vcs-Git: https://salsa.debian.org/multimedia-team/libkate.git
+Checksums-Sha256:
+ acccfcdcb3dc215b1e50c4199d21e63c10c2323487100c995f1e9ebc6dbbd4d5 2231 libkate_0.4.1-11.dsc
+ c40e81d5866c3d4bf744e76ce0068d8f388f0e25f7e258ce0c8e76d7adc87b68 906896 libkate_0.4.1.orig.tar.gz
+ 66c12d5a368d4b021a8555df6f3bedb86385cf2778b38e81f8c349dcb3502d98 7516 libkate_0.4.1-11.debian.tar.xz
+Homepage: https://code.google.com/p/libkate/
+Package-List: 
+ libkate-dev deb libdevel optional arch=any
+ libkate1 deb libs optional arch=any
+ liboggkate-dev deb libdevel optional arch=any
+ liboggkate1 deb libs optional arch=any
+Directory: pool/main/libk/libkate
+Priority: source
+Section: libs

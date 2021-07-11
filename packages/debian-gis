@@ -1,0 +1,32 @@
+Package: debian-gis
+Binary: gis-tasks, gis-all, gis-data, gis-devel, gis-gps, gis-osm, gis-remotesensing, gis-statistics, gis-web, gis-workstation
+Version: 0.0.20
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org>, Andreas Tille <tille@debian.org>, Bas Couwenberg <sebastic@debian.org>
+Build-Depends-Indep: blends-dev (>= 0.6.15), debhelper (>= 10~)
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (native)
+Files:
+ 8ee78e44ed50b24632f1a3a9f2e8db29 2282 debian-gis_0.0.20.dsc
+ f61672a6cd04316518807584e43a99c4 141320 debian-gis_0.0.20.tar.xz
+Vcs-Browser: https://salsa.debian.org/blends-team/gis
+Vcs-Git: https://salsa.debian.org/blends-team/gis.git
+Checksums-Sha256:
+ 87f25ed00b07610aadce8812b802e693369c9e881ef4f1534a80e01dcbb6e770 2282 debian-gis_0.0.20.dsc
+ b7643ecb3133f68f77850c20c24804a54683151427b19d54ecd7a6e2844c6f7a 141320 debian-gis_0.0.20.tar.xz
+Homepage: https://debian-gis-team.pages.debian.net/
+Package-List: 
+ gis-all deb metapackages optional arch=all
+ gis-data deb metapackages optional arch=all
+ gis-devel deb metapackages optional arch=all
+ gis-gps deb metapackages optional arch=all
+ gis-osm deb metapackages optional arch=all
+ gis-remotesensing deb metapackages optional arch=all
+ gis-statistics deb metapackages optional arch=all
+ gis-tasks deb misc optional arch=all
+ gis-web deb metapackages optional arch=all
+ gis-workstation deb metapackages optional arch=all
+Directory: pool/main/d/debian-gis
+Priority: source
+Section: misc

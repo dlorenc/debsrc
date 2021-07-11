@@ -1,0 +1,26 @@
+Package: xarclock
+Binary: xarclock
+Version: 1.0-17
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 12), libx11-dev, libxaw7-dev, libxmu-dev, libxt-dev, xutils-dev
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ feeb4b23ed976b4c589f17b3a3949366 1942 xarclock_1.0-17.dsc
+ b687b5c891ef0507487deb85e6d6ac12 11695 xarclock_1.0.orig.tar.gz
+ 5675d955fab050975f7d2d119d829b24 23532 xarclock_1.0-17.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/xarclock
+Vcs-Git: https://salsa.debian.org/debian/xarclock.git
+Checksums-Sha256:
+ 07d2acd58d54473638559d44718edbf24f0ae7ee0f468c49ee4b930ea2d643d0 1942 xarclock_1.0-17.dsc
+ dfa45a85a2a8babb4d1f23a12fc27dded0fb510629e7bc58e7fec9cc04bb69d1 11695 xarclock_1.0.orig.tar.gz
+ c6270dd9619360967ca6ab5f216e7992ceb044117a1fd57487692d0bcabd4323 23532 xarclock_1.0-17.debian.tar.xz
+Homepage: https://www.ibiblio.org/pub/Linux/X11/clocks
+Package-List: 
+ xarclock deb x11 optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/x/xarclock
+Priority: source
+Section: x11

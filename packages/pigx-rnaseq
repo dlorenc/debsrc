@@ -1,0 +1,25 @@
+Package: pigx-rnaseq
+Binary: pigx-rnaseq
+Version: 0.0.10+ds-2
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), pandoc-citeproc, python3-all, python3-deeptools, multiqc, python3-htseq, r-cran-locfit <!nocheck>, r-bioc-deseq2 <!nocheck>, r-bioc-tximport <!nocheck>, r-cran-data.table <!nocheck>, r-cran-rlang <!nocheck>, r-cran-rmarkdown <!nocheck>, r-cran-ggplot2 <!nocheck>, r-cran-ggrepel <!nocheck>, r-cran-dt (>= 0.15+dfsg-2) <!nocheck>, r-cran-pheatmap <!nocheck>, r-cran-corrplot <!nocheck>, r-cran-reshape2 <!nocheck>, r-cran-plotly <!nocheck>, r-cran-scales <!nocheck>, r-cran-crosstalk <!nocheck>, r-cran-gprofiler <!nocheck>, r-bioc-summarizedexperiment <!nocheck>, r-bioc-rtracklayer <!nocheck>, r-cran-rjson <!nocheck>, trim-galore <!nocheck>, snakemake <!nocheck>, fastqc <!nocheck>, samtools <!nocheck>, rna-star <!nocheck>, salmon <!nocheck>, libjs-jquery-datatables <!nocheck>, libjs-jquery-tablesorter <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ da18664caf532633465c9f88811ba221 2832 pigx-rnaseq_0.0.10+ds-2.dsc
+ 3ca602582a8a4ff3769023aaa2e29c07 7056584 pigx-rnaseq_0.0.10+ds.orig.tar.xz
+ ebf953f411c5cd6f3719b8058e1822ba 5472 pigx-rnaseq_0.0.10+ds-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pigx-rnaseq
+Vcs-Git: https://salsa.debian.org/med-team/pigx-rnaseq.git
+Checksums-Sha256:
+ 4afabad9dbdbfbd84462939fd2de5269a80c654f3a7fe33382f40bf60083ea52 2832 pigx-rnaseq_0.0.10+ds-2.dsc
+ 720e19eadb3aeaa2ebe1e2ed61ea1d45bb98a2779ee75b958c3b69137711114a 7056584 pigx-rnaseq_0.0.10+ds.orig.tar.xz
+ 41d24e794d8177a278f4aa62ba64d395193d87c6534cf911b12be8a15b9becdf 5472 pigx-rnaseq_0.0.10+ds-2.debian.tar.xz
+Homepage: https://github.com/BIMSBbioinfo/pigx_rnaseq
+Package-List: 
+ pigx-rnaseq deb science optional arch=all
+Directory: pool/main/p/pigx-rnaseq
+Priority: extra
+Section: misc

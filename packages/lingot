@@ -1,0 +1,26 @@
+Package: lingot
+Binary: liblingot0, lingot, liblingot-dev
+Version: 1.1.1-2
+Maintainer: Nicolas Boulenguez <nicolas@debian.org>
+Build-Depends: debhelper-compat (= 13), intltool, libasound2-dev, libcunit1-dev, libfftw3-dev, libglib2.0-bin, libgtk-3-dev, libjack-dev (>= 1:0.117.0) | libjack-jackd2-dev, libjson-c-dev, libpulse-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 384b862a4b28e262a59d42a9caa0bea3 2088 lingot_1.1.1-2.dsc
+ 76aeb97161f2eb862635d2c7ef728ba9 272340 lingot_1.1.1.orig.tar.xz
+ d40d5dbe13e6107408eca1d44c8ab112 6856 lingot_1.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/lingot
+Vcs-Git: https://salsa.debian.org/debian/lingot.git
+Checksums-Sha256:
+ 851125fd588f8bb1444e595d46fee4d54539c2fff2a4a7ebc53d281a3fa99078 2088 lingot_1.1.1-2.dsc
+ 953693922fc61dcb98acd0c2b77d5add87118bc1d30143effabaa53006555277 272340 lingot_1.1.1.orig.tar.xz
+ 01db46884eda9eabcefb324e1cfe57b97e0261156bc1302d041770bce07d764a 6856 lingot_1.1.1-2.debian.tar.xz
+Homepage: https://www.nongnu.org/lingot
+Package-List: 
+ liblingot-dev deb libdevel optional arch=any
+ liblingot0 deb libs optional arch=any
+ lingot deb sound optional arch=any
+Directory: pool/main/l/lingot
+Priority: source
+Section: x11

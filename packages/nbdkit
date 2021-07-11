@@ -1,0 +1,32 @@
+Package: nbdkit
+Binary: nbdkit, nbdkit-plugin-dev, nbdkit-plugin-lua, nbdkit-plugin-perl, nbdkit-plugin-python, nbdkit-plugin-tcl, nbdkit-plugin-libvirt, nbdkit-plugin-guestfs, nbdkit-plugin-ruby
+Version: 1.24.1-2
+Maintainer: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper-compat (= 12), perl, pkg-config, bash-completion, genisoimage, comerr-dev, libcurl4-gnutls-dev | libcurl-dev, libext2fs-dev, libgnutls28-dev (>= 3.3), gnutls-bin, libguestfs-dev (>= 1:1.36.11-3), liblzma-dev, liblua5.3-dev, libperl-dev, python3-dev, ruby, ruby-dev, tcl-dev, libselinux1-dev, libssh-dev, libtorrent-rasterbar-dev, libvirt-dev, zlib1g-dev, libzstd-dev, linux-image-arm64 [arm64] <!nocheck>, linux-image-amd64 [amd64] <!nocheck>, linux-image-686-pae [i386] <!nocheck> | linux-image-586 [i386] | linux-image-486 [i386] <!nocheck>, busybox <!nocheck>, iproute2 <!nocheck>, jq <!nocheck>, socat <!nocheck>, libguestfs-tools <!nocheck>, libnbd-dev, libnbd-bin <!nocheck>, python3-libnbd <!nocheck>, expect <!nocheck>, bsdmainutils <!nocheck>, openssh-server <!nocheck>, qemu-utils <!nocheck>
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b291bc9459c07ce2f2d6a56d857ce4b0 3219 nbdkit_1.24.1-2.dsc
+ 3e57cc4bca521171b2d2e7cc3f5da288 2144891 nbdkit_1.24.1.orig.tar.gz
+ 5b35c93a9390e54f5d74610cb98ee9ac 10396 nbdkit_1.24.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/nbdkit
+Vcs-Git: https://salsa.debian.org/debian/nbdkit.git
+Checksums-Sha256:
+ 5d22df26f12fd4fa77a8c6f9f46c0da6226eedcf85a60ce4ed881d4c398bc4f2 3219 nbdkit_1.24.1-2.dsc
+ 9bb566d7e460d163912c170fbad75f13f5ca4f205e6520fb5c87b3c1fb0ded24 2144891 nbdkit_1.24.1.orig.tar.gz
+ d645357305fdb856fca36037df1cefb6c7a6730daeb1faa3487bf07072cd1588 10396 nbdkit_1.24.1-2.debian.tar.xz
+Homepage: https://github.com/libguestfs/nbdkit
+Package-List: 
+ nbdkit deb admin optional arch=linux-any
+ nbdkit-plugin-dev deb libdevel optional arch=linux-any
+ nbdkit-plugin-guestfs deb admin optional arch=linux-any
+ nbdkit-plugin-libvirt deb admin optional arch=linux-any
+ nbdkit-plugin-lua deb admin optional arch=linux-any
+ nbdkit-plugin-perl deb admin optional arch=linux-any
+ nbdkit-plugin-python deb admin optional arch=linux-any
+ nbdkit-plugin-ruby deb admin optional arch=linux-any
+ nbdkit-plugin-tcl deb admin optional arch=linux-any
+Directory: pool/main/n/nbdkit
+Priority: optional
+Section: misc

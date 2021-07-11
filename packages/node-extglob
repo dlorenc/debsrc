@@ -1,0 +1,26 @@
+Package: node-extglob
+Binary: node-extglob
+Version: 3.0.0-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 12), nodejs, node-array-unique (>= 0.3.2), node-bash-match, node-define-property (>= 1.0.0), node-expand-brackets (>= 4.0.0), node-extend-shallow, node-for-own (>= 1.0.0), node-fragment-cache (>= 0.2.1), node-minimist, node-multimatch, node-regex-not, node-snapdragon (>= 0.12.0), node-to-regex, mocha, pkg-js-tools (>= 0.9.20~)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ c1c7e0c04babe9c332260e59701261ef 2324 node-extglob_3.0.0-2.dsc
+ cff3f3690df123d0ba2ce0fd4c1ca8cd 25898 node-extglob_3.0.0.orig.tar.gz
+ 1899c0bea08c371ed8d8df9a9becec55 2864 node-extglob_3.0.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-extglob
+Vcs-Git: https://salsa.debian.org/js-team/node-extglob.git
+Checksums-Sha256:
+ b05d8ec8d28408e6302909a02a458927a27a78b77f807e9c95d4c0031c6732e6 2324 node-extglob_3.0.0-2.dsc
+ c6c74557d8103eeab0e74f3aa8997f6412fe759c406a9d29202e8cdebb81af4b 25898 node-extglob_3.0.0.orig.tar.gz
+ 7102c90553e51f5556238917fc3c078cff93740e9cb39eb3f6f6d0adb672c6b4 2864 node-extglob_3.0.0-2.debian.tar.xz
+Homepage: https://github.com/jonschlinkert/extglob
+Package-List: 
+ node-extglob deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-extglob
+Priority: optional
+Section: javascript

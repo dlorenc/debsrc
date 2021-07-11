@@ -1,0 +1,25 @@
+Package: meanwhile
+Binary: libmeanwhile-dev, libmeanwhile1
+Version: 1.1.1-2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), libglib2.0-dev, doxygen
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 60683fcae6c60563dea2ed697fc0be41 1942 meanwhile_1.1.1-2.dsc
+ f5e847a2a855519dc7a1374fc432fef2 180449 meanwhile_1.1.1.orig.tar.gz
+ 26fc1d2d69102eae60e5cf1c5f438bd3 5528 meanwhile_1.1.1-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/meanwhile
+Vcs-Git: https://salsa.debian.org/debian/meanwhile.git
+Checksums-Sha256:
+ 8284c4d534288e04e5d49fccfe31d7241dd82f5c6de530aaf518fc1d45f1cc08 1942 meanwhile_1.1.1-2.dsc
+ 10de306f03897572b30ce68ca80dffd04ec218f6842bbe0a47bb8cce933698d0 180449 meanwhile_1.1.1.orig.tar.gz
+ c651e5dfda64eab1f2c8d9068925b9ff91701548b3f58b66da6563ae0d5ee9cc 5528 meanwhile_1.1.1-2.debian.tar.xz
+Homepage: https://github.com/obriencj/meanwhile
+Package-List: 
+ libmeanwhile-dev deb libdevel optional arch=any
+ libmeanwhile1 deb libs optional arch=any
+Directory: pool/main/m/meanwhile
+Priority: source
+Section: net

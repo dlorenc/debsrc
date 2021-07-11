@@ -1,0 +1,25 @@
+Package: haskell-only
+Binary: libghc-only-dev, libghc-only-prof, libghc-only-doc
+Version: 0.1-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 458efb83af82db0da7b3de42922ed857 2000 haskell-only_0.1-3.dsc
+ acf9dae221a0a31946d4c757a339c4a0 1960 haskell-only_0.1.orig.tar.gz
+ 3d5a7eb0c739c58954935d0c2d17c729 2144 haskell-only_0.1-3.debian.tar.xz
+Checksums-Sha256:
+ d5afd4b01636e3f861e5244333bacfa2bca9b774adb78d758ec3541f490be047 2000 haskell-only_0.1-3.dsc
+ ab7aa193e8c257d3bda6b0b3c1cbcf74cdaa85ab08cb20c2dd62ba248c1ab265 1960 haskell-only_0.1.orig.tar.gz
+ 68da032f4eeabf5fe1c9f56ba5d30a7de939c659d6d2dd8d6bfc7c89c62e3166 2144 haskell-only_0.1-3.debian.tar.xz
+Package-List: 
+ libghc-only-dev deb haskell optional arch=any
+ libghc-only-doc deb doc optional arch=all
+ libghc-only-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-only
+Priority: extra
+Section: misc

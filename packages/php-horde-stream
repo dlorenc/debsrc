@@ -1,0 +1,27 @@
+Package: php-horde-stream
+Binary: php-horde-stream
+Version: 1.6.3-9
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 7d8b52ae1a63f131e3f15f75e70526e1 2142 php-horde-stream_1.6.3-9.dsc
+ f4264b82a6d07c143d1192f750b702f5 18014 php-horde-stream_1.6.3.orig.tar.gz
+ a17ce457303be61429e35497f202e8a5 3276 php-horde-stream_1.6.3-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-stream
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-stream.git
+Checksums-Sha256:
+ 19adcda302742c01a2e563dca10eda20ffe47bce712f69b8a8d096bfae582ccf 2142 php-horde-stream_1.6.3-9.dsc
+ 0c1e320c17f25c142eb8aa4d7e259b50ce5843870dc1819eb64c6de7924f9a55 18014 php-horde-stream_1.6.3.orig.tar.gz
+ a763907b8102f1a388c9558aa68060be5725679b3384865b4e91057e2c980996 3276 php-horde-stream_1.6.3-9.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-stream deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-test
+Directory: pool/main/p/php-horde-stream
+Priority: extra
+Section: misc

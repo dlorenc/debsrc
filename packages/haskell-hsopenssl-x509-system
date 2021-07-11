@@ -1,0 +1,28 @@
+Package: haskell-hsopenssl-x509-system
+Binary: libghc-hsopenssl-x509-system-dev, libghc-hsopenssl-x509-system-prof, libghc-hsopenssl-x509-system-doc
+Version: 0.1.0.3-5
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-hsopenssl-dev (>= 0.11), libghc-hsopenssl-dev (<< 0.12), libghc-hsopenssl-prof (>= 0.11), libghc-hsopenssl-prof (<< 0.12)
+Build-Depends-Indep: ghc-doc, libghc-hsopenssl-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0441dcd6e89aa39a976bf62b2125ee13 2677 haskell-hsopenssl-x509-system_0.1.0.3-5.dsc
+ 0f64b878951249aeb042a1d7c3509baf 4433 haskell-hsopenssl-x509-system_0.1.0.3.orig.tar.gz
+ e8fec569490f09faa45d692f4f40d25d 2556 haskell-hsopenssl-x509-system_0.1.0.3-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-hsopenssl-x509-system
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-hsopenssl-x509-system]
+Checksums-Sha256:
+ 57baeee96e588ed371a28aed6ec99067a7934f676269abe0a99b87b51889b160 2677 haskell-hsopenssl-x509-system_0.1.0.3-5.dsc
+ 5bdcb7ae2faba07a374109fea0a1431ae09d080f8574e60ab7a351b46f931f92 4433 haskell-hsopenssl-x509-system_0.1.0.3.orig.tar.gz
+ a8bd9446bfddeaaf17e012256c164a14328ba1cd2c538b1cbab7551d3cbc3e06 2556 haskell-hsopenssl-x509-system_0.1.0.3-5.debian.tar.xz
+Homepage: https://github.com/redneb/HsOpenSSL-x509-system
+Package-List: 
+ libghc-hsopenssl-x509-system-dev deb haskell optional arch=any
+ libghc-hsopenssl-x509-system-doc deb doc optional arch=all
+ libghc-hsopenssl-x509-system-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-hsopenssl-x509-system
+Priority: optional
+Section: misc

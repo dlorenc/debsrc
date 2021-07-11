@@ -1,0 +1,25 @@
+Package: bosixnet
+Binary: bosixnet-daemon, bosixnet-webui
+Version: 2.0-2
+Maintainer: Boris Pek <tehnick@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), libfcgi-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bb57b9e358aae36e3d2267c288e7593e 1930 bosixnet_2.0-2.dsc
+ a67db763de22bdfde223d864ad06cd54 13226 bosixnet_2.0.orig.tar.gz
+ 7b78ce7b351d805603def7ea107c8570 3736 bosixnet_2.0-2.debian.tar.xz
+Vcs-Browser: https://github.com/tehnick/bosixnet-debian
+Vcs-Git: https://github.com/tehnick/bosixnet-debian.git
+Checksums-Sha256:
+ 0d8b1454234759219d6621d05fe2172b0b927f8a335a9af7a3a665ce75edc4c0 1930 bosixnet_2.0-2.dsc
+ 90b2bcbc6d746faf7274d8d4d52b988d44b92af7fb0b8f0063abe0c16ae77686 13226 bosixnet_2.0.orig.tar.gz
+ 6941745be11f48d709049f69e2c0cae76a46adcadf5def9b4dc875185480a707 3736 bosixnet_2.0-2.debian.tar.xz
+Homepage: https://github.com/tehnick/bosixnet
+Package-List: 
+ bosixnet-daemon deb net optional arch=all
+ bosixnet-webui deb net optional arch=any
+Directory: pool/main/b/bosixnet
+Priority: optional
+Section: misc

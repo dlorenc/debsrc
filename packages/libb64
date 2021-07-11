@@ -1,0 +1,27 @@
+Package: libb64
+Binary: libb64-0d, libb64-dev
+Version: 1.2-5
+Maintainer: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper (>= 11), dpkg-dev (>= 1.16.0~), xutils-dev
+Architecture: any
+Standards-Version: 4.1.3
+Format: 3.0 (quilt)
+Files:
+ cfbc7d3d91b4f6dd503bdf3123b4547d 2087 libb64_1.2-5.dsc
+ fbda3021877b9bd9405eae7b7f408725 10519 libb64_1.2.orig.tar.gz
+ 740344a66c5656b472fb4b3c8f0444f0 6084 libb64_1.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/alteholz/libb64.git
+Vcs-Git: https://salsa.debian.org/alteholz/libb64.git
+Checksums-Sha256:
+ 022da31a0325498aac72314c245fa59ae1817e9670d4e7f1fd27aac5c955e5b3 2087 libb64_1.2-5.dsc
+ 747f942c6ebfc9edb2b1d4a5f45405acf88e027479476a7bcfc2609411d0f49f 10519 libb64_1.2.orig.tar.gz
+ 3349b32537471122f820595ce65f4521bbe4dd95d794573ad996d00124cd68d9 6084 libb64_1.2-5.debian.tar.xz
+Homepage: http://libb64.sourceforge.net/
+Package-List: 
+ libb64-0d deb libs optional arch=any
+ libb64-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: g++
+Directory: pool/main/libb/libb64
+Priority: source
+Section: misc

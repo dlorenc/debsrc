@@ -1,0 +1,44 @@
+Package: kodi
+Binary: kodi, kodi-data, kodi-bin, kodi-eventclients-common, kodi-eventclients-dev, kodi-eventclients-wiiremote, kodi-eventclients-ps3, kodi-eventclients-kodi-send, kodi-eventclients-zeroconf, kodi-addons-dev-common, kodi-addons-dev, kodi-repository-kodi
+Version: 2:19.1+dfsg2-2
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Vasyl Gello <vasek.gello@gmail.com>
+Build-Depends: autoconf, automake, autopoint, cmake, curl, debhelper-compat (= 13), default-jre, default-libmysqlclient-dev, dh-python, doxygen, fontforge-nox, fonts-dejavu-core, fonts-droid-fallback, gawk, gettext, gperf, groovy, libasound2-dev | libasound-dev, libass-dev, libavahi-client-dev, libavahi-common-dev, libavcodec-dev (>= 7:4.2.2), libavfilter-dev (>= 7:4.2.2), libavformat-dev (>= 7:4.2.2), libavutil-dev (>= 7:4.2.2), libbluetooth-dev, libbluray-dev (>= 1:0.7.0), libcap-dev, libcdio-dev, libcec-dev (>= 4~), libcommons-lang-java, libcrossguid-dev, libcurl4-gnutls-dev | libcurl-dev, libcwiid-dev [linux-any], libdav1d-dev (>= 0.7.0), libdbus-1-dev, libdrm-dev, libegl1-mesa-dev, libflatbuffers-dev, libfmt-dev (>= 6.1.2), libfontconfig-dev, libfreetype-dev | libfreetype6-dev, libfribidi-dev, libfstrcmp-dev, libgbm-dev, libgcrypt-dev, libgif-dev, libgl1-mesa-dev | libgl-dev, libglew-dev, libglu1-mesa-dev | libglu-dev, libgnutls28-dev, libgpg-error-dev, libgtest-dev, libinput-dev, libiso9660-dev, libiso9660++-dev, libjpeg-dev, liblcms2-dev, liblirc-dev | liblircclient-dev, libltdl-dev, liblzo2-dev, libmicrohttpd-dev, libnfs-dev, libomxil-bellagio-dev [armel], libpcre3-dev, libplist-dev, libpng-dev, libpostproc-dev (>= 7:4.2.2), libpulse-dev, librsvg2-bin, libshairplay-dev (>= 0.9.0~), libsmbclient-dev, libsndio-dev, libspdlog-dev (>= 1:1.5.0), libsqlite3-dev, libswresample-dev (>= 7:4.2.2), libswscale-dev (>= 7:4.2.2), libtag1-dev (>= 1.8), libtinyxml-dev, libtool, libudev-dev, libudfread-dev (>= 1.0.0), libva-dev, libvdpau-dev, libxkbcommon-dev, libxrandr-dev, libxslt1-dev, libxt-dev, nasm [i386], python3-dev, rapidjson-dev, swig, unzip, uuid-dev, valgrind [amd64 i386], wayland-protocols, waylandpp-dev, zip, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ f9b40d0dfdf0e16b5c33fa145e2f93fa 5453 kodi_19.1+dfsg2-2.dsc
+ 6a280048041b360c5d8b586068868853 594180 kodi_19.1+dfsg2.orig-libdate-tz-embedded.tar.xz
+ fd25569008c0322d5baa929fa4c207a1 312796 kodi_19.1+dfsg2.orig-libdvdnav-embedded.tar.xz
+ cf1c5f6d9265923adfe39bfc916ff38f 330224 kodi_19.1+dfsg2.orig-libdvdread-embedded.tar.xz
+ cb30cdd1b7718bbb8c567839d77822f8 30114840 kodi_19.1+dfsg2.orig.tar.xz
+ 46f2729666d93b60be25c5438df6c94b 2522048 kodi_19.1+dfsg2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi
+Vcs-Git: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi.git
+Checksums-Sha256:
+ 0c0c297e7db1de0d1cfa85b963f0744249ba145850f050deeea45c7eb0207ba8 5453 kodi_19.1+dfsg2-2.dsc
+ 98ba5530b4246eebe9863610ed2a38407dd80b2a85866ce7747616280905fbd0 594180 kodi_19.1+dfsg2.orig-libdate-tz-embedded.tar.xz
+ 076255598cf5060fe1a9c0af76993e8bc5650e165991bb58ab192bc3319d8be1 312796 kodi_19.1+dfsg2.orig-libdvdnav-embedded.tar.xz
+ b6a5feb404295e7cef52b3ad1a771a1eeab14cd30cf586ded062398e7ac4972c 330224 kodi_19.1+dfsg2.orig-libdvdread-embedded.tar.xz
+ b41976fbd3975348ff651c2f663989d213c32b334b833d2d5937ae17a9e75701 30114840 kodi_19.1+dfsg2.orig.tar.xz
+ 356cb724b2eebd1cc920bd350810c3e42f2b1cd37a51ac12d2d4ee7c47ec1aa8 2522048 kodi_19.1+dfsg2-2.debian.tar.xz
+Homepage: https://kodi.tv/
+Package-List: 
+ kodi deb video optional arch=any
+ kodi-addons-dev deb libdevel optional arch=any
+ kodi-addons-dev-common deb libdevel optional arch=all
+ kodi-bin deb video optional arch=any
+ kodi-data deb video optional arch=all
+ kodi-eventclients-common deb video optional arch=all
+ kodi-eventclients-dev deb libdevel optional arch=all
+ kodi-eventclients-kodi-send deb video optional arch=all
+ kodi-eventclients-ps3 deb video optional arch=all
+ kodi-eventclients-wiiremote deb video optional arch=any
+ kodi-eventclients-zeroconf deb video optional arch=all
+ kodi-repository-kodi deb video optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: imagemagick, xauth, xvfb
+Directory: pool/main/k/kodi
+Priority: optional
+Section: misc

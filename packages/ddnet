@@ -1,0 +1,31 @@
+Package: ddnet
+Binary: ddnet, ddnet-server, ddnet-tools, ddnet-data
+Version: 15.3.2-1
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Yangfl <mmyangfl@gmail.com>, SZ Lin (林上智) <szlin@debian.org>,
+Build-Depends: debhelper-compat (= 13)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 610406b9a7a6e00855fbf1c14d62a5f7 2413 ddnet_15.3.2-1.dsc
+ 5b0b0e90c19df30473ef7474513543a7 26912384 ddnet_15.3.2.orig.tar.xz
+ b32d60497d97a6059c6c17d649b93a1f 20160 ddnet_15.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/ddnet
+Vcs-Git: https://salsa.debian.org/games-team/ddnet.git
+Checksums-Sha256:
+ 0a45ae05280721d52aad4621ce4a63fd47a25ad5296b5cb3f78e4242081c2564 2413 ddnet_15.3.2-1.dsc
+ a5da66a2060ac75409a0ecd896a1235113f0af4236f0d1970ee48aa13ecb6529 26912384 ddnet_15.3.2.orig.tar.xz
+ c99ffca9750b5ccb42255d2c42c7b3b34f8d47216bc38e64efbaadd1c1f3bbcf 20160 ddnet_15.3.2-1.debian.tar.xz
+Homepage: https://ddnet.tw/
+Build-Depends-Arch: cmake, python3, libcurl4-openssl-dev, libfreetype6-dev, libogg-dev, libopus-dev, libopusfile-dev, libsdl2-dev, libmariadb-dev, libmysqlcppconn-dev, libboost-dev, libglew-dev, libpnglite-dev, libwavpack-dev, libjsonparser-dev, libgtest-dev, libnotify-dev, libsqlite3-dev
+Package-List: 
+ ddnet deb games optional arch=any
+ ddnet-data deb games optional arch=all
+ ddnet-server deb games optional arch=any
+ ddnet-tools deb games optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/d/ddnet
+Priority: extra
+Section: misc

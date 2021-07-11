@@ -1,0 +1,28 @@
+Package: node-beeper
+Binary: node-beeper
+Version: 2.1.0+~1.1.0-1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sagar Ippalpalli <i.vikram15@gmail.com>
+Build-Depends: debhelper-compat (= 13), node-hooker <!nocheck>, dh-sequence-nodejs
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ d1813f54c98976c7c05848c148d18afb 2382 node-beeper_2.1.0+~1.1.0-1.dsc
+ 9ed74bc74b5d7115ebbc6eb0aa6c96cd 2510 node-beeper_2.1.0+~1.1.0.orig-yoctodelay.tar.gz
+ 74c795dc6db29cb63ecff81b9fba27bf 3233 node-beeper_2.1.0+~1.1.0.orig.tar.gz
+ 02285d0d71b1596bf706bbdc272ced71 3216 node-beeper_2.1.0+~1.1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-beeper
+Vcs-Git: https://salsa.debian.org/js-team/node-beeper.git
+Checksums-Sha256:
+ 13911818ed613c52349d93c6ba7f9aef337ae4377270d7deb11f8dc8aacffb64 2382 node-beeper_2.1.0+~1.1.0-1.dsc
+ 73b8c268cf7f5943638e015dcfe03bdcfe69f7b9bf72572971d15a1c48b9dc0f 2510 node-beeper_2.1.0+~1.1.0.orig-yoctodelay.tar.gz
+ 7906d468e62ec3c24f45d071f4c9a26dda3ea224f13bc30170cbc9582afa0306 3233 node-beeper_2.1.0+~1.1.0.orig.tar.gz
+ d0e41b8cc877bc80d39e8a70e17f8238518753b2ff95b06c4b9e0223c97cadd5 3216 node-beeper_2.1.0+~1.1.0-1.debian.tar.xz
+Homepage: https://github.com/sindresorhus/beeper
+Package-List: 
+ node-beeper deb javascript optional arch=all
+Testsuite: autopkgtest-pkg-nodejs
+Directory: pool/main/n/node-beeper
+Priority: optional
+Section: javascript

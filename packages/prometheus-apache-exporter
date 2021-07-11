@@ -1,0 +1,27 @@
+Package: prometheus-apache-exporter
+Binary: prometheus-apache-exporter
+Version: 0.8.0+ds-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Jelmer Vernooĳ <jelmer@debian.org>, Martina Ferrari <tincho@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-beorn7-perks-dev, golang-github-prometheus-client-golang-dev, golang-github-prometheus-common-dev, golang-github-sirupsen-logrus-dev, golang-goprotobuf-dev, golang-protobuf-extensions-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 87c86ef7cf21483ce94f244e109fc8f1 2487 prometheus-apache-exporter_0.8.0+ds-1.dsc
+ 4fef4abf3ada91014fec1cec1714018c 10397 prometheus-apache-exporter_0.8.0+ds.orig.tar.gz
+ eb6bfedff974ad616bfde662b5e61d35 5996 prometheus-apache-exporter_0.8.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/prometheus-apache-exporter
+Vcs-Git: https://salsa.debian.org/go-team/packages/prometheus-apache-exporter.git
+Checksums-Sha256:
+ 85b8ac2c4e4e2e73aa597bfa7d3d7c80fbf12d4b311de3d626b119dcacb2fca7 2487 prometheus-apache-exporter_0.8.0+ds-1.dsc
+ 582b16c2f4702c3485eee63e855bac64a6eaa0fc881982cd620460a6d6108fb5 10397 prometheus-apache-exporter_0.8.0+ds.orig.tar.gz
+ bda4dfe48ab6c395946ba15413896e4350d5d0f5e6241d38073e2a9454dd5c1c 5996 prometheus-apache-exporter_0.8.0+ds-1.debian.tar.xz
+Homepage: https://github.com/Lusitaniae/apache_exporter/
+Go-Import-Path: github.com/Lusitaniae/apache_exporter
+Package-List: 
+ prometheus-apache-exporter deb net optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/p/prometheus-apache-exporter
+Priority: extra
+Section: misc

@@ -1,0 +1,29 @@
+Package: xterm
+Binary: xterm
+Version: 366-1
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Sven Joachim <svenjoac@gmx.de>
+Build-Depends: libncurses-dev, libxft-dev (>> 2.1.2), libxrender-dev (>> 1:0.9.0), libxaw7-dev, libxkbfile-dev, libutempter-dev, libxcursor-dev, libxinerama-dev, debhelper-compat (= 13), debhelper (>= 13.1~), autoconf-dickey (>= 2.52+20210105), groff, bsdextrautils | bsdmainutils (<< 12.1.1~), lynx, xorg-docs-core, desktop-file-utils
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 53c768f6643bdd07bc88ce35cafc6105 2478 xterm_366-1.dsc
+ defa46224efc2384f030750ceb2252ec 1445992 xterm_366.orig.tar.gz
+ 4d95cf7d665bb8e34552a1fdb0837e49 265 xterm_366.orig.tar.gz.asc
+ 3a1d741fe6a86809c20ddcb7cc747332 112760 xterm_366-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xorg-team/app/xterm
+Vcs-Git: https://salsa.debian.org/xorg-team/app/xterm.git
+Checksums-Sha256:
+ 9a00bc253f1e4422a2c5dfc3aded6ae0864c2537e8a3ad7bff8975a80c691c7a 2478 xterm_366-1.dsc
+ 858b2885963fe97e712739066aadc1baeba2b33a0016303a7fec7d38bc73bf6e 1445992 xterm_366.orig.tar.gz
+ a7cbbc6bf7c1de5d8414c4c5d109aff733f1846ed8d2dea4fba2980126cf8896 265 xterm_366.orig.tar.gz.asc
+ fe86ea2728bc07c5bbac53fdddc95f71b700a1e1452f7d2312e248a18a34bf3d 112760 xterm_366-1.debian.tar.xz
+Homepage: https://invisible-island.net/xterm/xterm.html
+Package-List: 
+ xterm deb x11 optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: xauth, xvfb
+Directory: pool/main/x/xterm
+Priority: source
+Section: x11

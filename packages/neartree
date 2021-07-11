@@ -1,0 +1,26 @@
+Package: neartree
+Binary: libcneartree-dev, libcneartree7
+Version: 5.1.1+dfsg1-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Teemu Ikonen <tpikonen@gmail.com>
+Build-Depends: debhelper (>= 11~), libtool-bin, libcvector-dev | libcvector2-dev
+Architecture: any
+Standards-Version: 4.2.1
+Format: 3.0 (quilt)
+Files:
+ 04feef8e709895daadddf2e66e50418b 2104 neartree_5.1.1+dfsg1-1.dsc
+ 045c4d48d09c81ef1c13009a765d8b04 148055 neartree_5.1.1+dfsg1.orig.tar.gz
+ f973e71a034edfc7f8b8b41aa62fccac 5408 neartree_5.1.1+dfsg1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/neartree
+Vcs-Git: https://salsa.debian.org/science-team/neartree.git
+Checksums-Sha256:
+ 3c654d9a60adec3920aabef58a71b2e35b1b4f99fb900e0830ad0b13a5961a3c 2104 neartree_5.1.1+dfsg1-1.dsc
+ cdf957505cbd42f7bbe8065ad12f3b2bb8765c887b3ce71e96700877ed3b83a9 148055 neartree_5.1.1+dfsg1.orig.tar.gz
+ 1fdbea7c17de50ab019efbce9d6c3609f30c6ee63434582fd266d055c3d28a18 5408 neartree_5.1.1+dfsg1-1.debian.tar.xz
+Homepage: http://neartree.sourceforge.net/
+Package-List: 
+ libcneartree-dev deb libdevel optional arch=any
+ libcneartree7 deb libs optional arch=any
+Directory: pool/main/n/neartree
+Priority: source
+Section: libdevel

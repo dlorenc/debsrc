@@ -1,0 +1,26 @@
+Package: libslirp
+Binary: libslirp0, libslirp-dev
+Version: 4.4.0-1
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Uploaders: Michael Tokarev <mjt@tls.msk.ru>
+Build-Depends: debhelper-compat (= 12), libglib2.0-dev, meson (>> 0.49~), ninja-build
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e07389da690e77af9c00f1eade07c516 1689 libslirp_4.4.0-1.dsc
+ 133d147a40f489681b95851bae435d4e 98609 libslirp_4.4.0.orig.tar.bz2
+ 36087b82a297534bdcb603701d67b041 3888 libslirp_4.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qemu-team/libslirp
+Vcs-Git: https://salsa.debian.org/qemu-team/libslirp.git
+Checksums-Sha256:
+ 85b5b686dc72c3c3ddfd5075884cb7a28c7c47e4c258eb001ba1666884aac88b 1689 libslirp_4.4.0-1.dsc
+ 2e89e97aadd88f7e416e0795197bb35657220ba897d31b45b6a8ec5c23fe8679 98609 libslirp_4.4.0.orig.tar.bz2
+ 1f49d89b90fdcf4d5204261cea21685c0c9f0e85291645ddde8774caa16e0517 3888 libslirp_4.4.0-1.debian.tar.xz
+Homepage: https://gitlab.freedesktop.org/slirp/libslirp
+Package-List: 
+ libslirp-dev deb libdevel optional arch=any
+ libslirp0 deb libs optional arch=any
+Directory: pool/main/libs/libslirp
+Priority: extra
+Section: misc

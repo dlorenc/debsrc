@@ -1,0 +1,28 @@
+Package: haskell-stream
+Binary: libghc-stream-dev, libghc-stream-prof, libghc-stream-doc
+Version: 0.4.7.2-7
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Joachim Breitner <nomeata@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-lazysmallcheck-dev (>= 0.3), libghc-lazysmallcheck-prof, libghc-quickcheck2-dev (>= 2.0), libghc-quickcheck2-prof
+Build-Depends-Indep: ghc-doc, libghc-lazysmallcheck-doc, libghc-quickcheck2-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 36fe9ceb6e1932da23caebf11d85c1a2 2477 haskell-stream_0.4.7.2-7.dsc
+ 62f47d2cc84871e1eeecf5097aea849a 6543 haskell-stream_0.4.7.2.orig.tar.gz
+ a8e7c36def7ed6c5fd20acca4e3b28d6 3380 haskell-stream_0.4.7.2-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-stream
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-stream]
+Checksums-Sha256:
+ 56ff4f03e4e2632e903c4a6876cf26c25702a7a03bb91b37a5879214a29a2811 2477 haskell-stream_0.4.7.2-7.dsc
+ 990be249b3ef1b0075563026d4d2c803b86e3cbf168965ba6f9f2b4227a007d1 6543 haskell-stream_0.4.7.2.orig.tar.gz
+ 408bbd1d38a661a3f2eab1f02d1057a9266b09f0de0e2fbe342e926d60e80d04 3380 haskell-stream_0.4.7.2-7.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/Stream
+Package-List: 
+ libghc-stream-dev deb haskell optional arch=any
+ libghc-stream-doc deb doc optional arch=all
+ libghc-stream-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-stream
+Priority: source
+Section: haskell

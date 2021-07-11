@@ -1,0 +1,28 @@
+Package: golang-gopkg-alecthomas-kingpin.v2
+Binary: golang-gopkg-alecthomas-kingpin.v2-dev
+Version: 2.2.6-3
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Peter Colberg <peter@colberg.org>, Martín Ferrari <tincho@debian.org>, Anthony Fok <foka@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.10~), golang-any, golang-github-alecthomas-units-dev, golang-github-stretchr-testify-dev
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ c9c0f8152551a13f900634b006f0e06f 2532 golang-gopkg-alecthomas-kingpin.v2_2.2.6-3.dsc
+ 8b07d811bdceb6643dd98cba7ec2a02c 44369 golang-gopkg-alecthomas-kingpin.v2_2.2.6.orig.tar.gz
+ ab0c3da2e2d47437198e8bea226b9cbe 5344 golang-gopkg-alecthomas-kingpin.v2_2.2.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-gopkg-alecthomas-kingpin.v2
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-gopkg-alecthomas-kingpin.v2.git
+Checksums-Sha256:
+ b9635e8f8823b6a195817ea7f8a20c54164d4225eb990b0dc827fe1356406bd0 2532 golang-gopkg-alecthomas-kingpin.v2_2.2.6-3.dsc
+ 25c7f20515e53d5c5f87dff45a0c944fc53d061bc34898aa87e32ab60f2375c9 44369 golang-gopkg-alecthomas-kingpin.v2_2.2.6.orig.tar.gz
+ e907e59bd2fa226ca53c41225083df3f5ddb7f8a0a748e7485c6dad90e570203 5344 golang-gopkg-alecthomas-kingpin.v2_2.2.6-3.debian.tar.xz
+Homepage: https://github.com/alecthomas/kingpin
+Go-Import-Path: gopkg.in/alecthomas/kingpin.v2,
+                   github.com/alecthomas/kingpin
+Package-List: 
+ golang-gopkg-alecthomas-kingpin.v2-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-gopkg-alecthomas-kingpin.v2
+Priority: extra
+Section: golang

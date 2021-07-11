@@ -1,0 +1,36 @@
+Package: gpgme1.0
+Binary: libgpgme-dev, libgpgme11, python3-gpg, libqgpgme7, libgpgmepp6, libgpgmepp-dev, libgpgmepp-doc
+Version: 1.14.0-1
+Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>,
+Build-Depends: automake (>= 1.14), debhelper-compat (= 13), dh-exec, dh-python, gnupg-agent, gnupg2 | gnupg (>= 2), gpgsm, libassuan-dev (>= 2.4.2), libgpg-error-dev (>= 1.24), libpython3-all-dev, pkg-config, python3-all-dev:any, qtbase5-dev, scdaemon, swig, texinfo
+Build-Depends-Indep: doxygen, graphviz
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 36b3915def37a7851720493b1adfbcaf 2282 gpgme1.0_1.14.0-1.dsc
+ e1be12b1aeabdf24a0b663c3c42747ac 1678910 gpgme1.0_1.14.0.orig.tar.bz2
+ aac7ea30e3f69988bd039e173d89e7af 488 gpgme1.0_1.14.0.orig.tar.bz2.asc
+ b223956d6e61c6072577eb4204d2d418 19560 gpgme1.0_1.14.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/gpgme
+Vcs-Git: https://salsa.debian.org/debian/gpgme.git -b debian/master
+Checksums-Sha256:
+ df07545cfe20431f9b89d91703aafca4fd977866b0af3dc35a54b9c85db04f91 2282 gpgme1.0_1.14.0-1.dsc
+ cef1f710a6b0d28f5b44242713ad373702d1466dcbe512eb4e754d7f35cd4307 1678910 gpgme1.0_1.14.0.orig.tar.bz2
+ 296bf9648e5c5040438584f3a667f136acfdd571ec68cc6824e0ff786f2ef270 488 gpgme1.0_1.14.0.orig.tar.bz2.asc
+ 87c9ed6a1390dbbf38708e79d701d260ba00a73eff3c925a12b98878d844bf4e 19560 gpgme1.0_1.14.0-1.debian.tar.xz
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Package-List: 
+ libgpgme-dev deb libdevel optional arch=any
+ libgpgme11 deb libs optional arch=any
+ libgpgmepp-dev deb libdevel optional arch=any
+ libgpgmepp-doc deb doc optional arch=all
+ libgpgmepp6 deb libs optional arch=any
+ libqgpgme7 deb libs optional arch=any
+ python3-gpg deb python optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc, libc6-dev, python3-all
+Directory: pool/main/g/gpgme1.0
+Priority: source
+Section: libs

@@ -1,0 +1,28 @@
+Package: libhtmlcleaner-java
+Binary: libhtmlcleaner-java, libhtmlcleaner-java-doc
+Version: 2.24-1
+Maintainer: Alexandre Rossi <alexandre.rossi@gmail.com>
+Build-Depends: debhelper-compat (= 12), maven-debian-helper, javahelper
+Build-Depends-Indep: libmaven-javadoc-plugin-java, libmaven-bundle-plugin-java, libjdom2-java
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ dcc4be71ff95ca42d7c95764218cb797 2213 libhtmlcleaner-java_2.24-1.dsc
+ 9b1f6342d0702c01a018d14cfba50f39 205200 libhtmlcleaner-java_2.24.orig.tar.xz
+ b0e5be46429fded8f6cd4da6ef43cf75 7600 libhtmlcleaner-java_2.24-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/libhtmlcleaner-java
+Vcs-Git: https://salsa.debian.org/debian/libhtmlcleaner-java.git
+Checksums-Sha256:
+ b74433b68bfd29c28706d04d8ca01a09ade9a97c19aaf85576ec1ea361b2aceb 2213 libhtmlcleaner-java_2.24-1.dsc
+ c13449a84cbb35bfbaabf8d439544d9ebfbe2d893c505344054db51d95db69f4 205200 libhtmlcleaner-java_2.24.orig.tar.xz
+ 44728b4f17c77e8b3024e595397ce5c8fa4a23fe7a7e6fde14708ca6ee712967 7600 libhtmlcleaner-java_2.24-1.debian.tar.xz
+Homepage: http://htmlcleaner.sourceforge.net/
+Package-List: 
+ libhtmlcleaner-java deb java optional arch=all
+ libhtmlcleaner-java-doc deb doc optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: default-jre-headless
+Directory: pool/main/libh/libhtmlcleaner-java
+Priority: optional
+Section: misc

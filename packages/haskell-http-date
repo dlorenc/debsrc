@@ -1,0 +1,28 @@
+Package: haskell-http-date
+Binary: libghc-http-date-dev, libghc-http-date-prof, libghc-http-date-doc
+Version: 0.0.8-2
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Iulian Udrea <iulian@linux.com>, Clint Adams <clint@debian.org>,
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8), ghc-prof, haskell-devscripts (>= 0.13), libghc-attoparsec-dev, libghc-attoparsec-prof
+Build-Depends-Indep: ghc-doc, libghc-attoparsec-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9a2e87f9bc878b931416c55d5d2d1b84 2430 haskell-http-date_0.0.8-2.dsc
+ 61796dd261d363fbd9966ff706551c5c 5322 haskell-http-date_0.0.8.orig.tar.gz
+ f5b9b687b9dbe69b7f1915fe7abb1404 2864 haskell-http-date_0.0.8-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-http-date
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-http-date]
+Checksums-Sha256:
+ fed540242c0546a638b213dd158cb758a5bf95a9c5d5feb9aaf4cb1ab79d5c7a 2430 haskell-http-date_0.0.8-2.dsc
+ 0f4c6348487abe4f9d58e43d3c23bdefc7fd1fd5672effd3c7d84aaff05f5427 5322 haskell-http-date_0.0.8.orig.tar.gz
+ 5fa33704d9e2d26d43da4e8fd8db3a6627078fde5fcd766f293de9dcbfc6e961 2864 haskell-http-date_0.0.8-2.debian.tar.xz
+Homepage: https://hackage.haskell.org/package/http-date
+Package-List: 
+ libghc-http-date-dev deb haskell optional arch=any
+ libghc-http-date-doc deb doc optional arch=all
+ libghc-http-date-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-http-date
+Priority: source
+Section: haskell

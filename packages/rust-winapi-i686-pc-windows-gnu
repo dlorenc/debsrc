@@ -1,0 +1,24 @@
+Package: rust-winapi-i686-pc-windows-gnu
+Binary: librust-winapi-i686-pc-windows-gnu-dev
+Version: 0.4.0-1
+Maintainer: Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 5), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ deac11998e5c739997c88c7e0c112e66 1565 rust-winapi-i686-pc-windows-gnu_0.4.0-1.dsc
+ 09d143cc63b84b4e7b433669c6e8ad7d 1309 rust-winapi-i686-pc-windows-gnu_0.4.0.orig.tar.gz
+ e8a8a4c2704a09ef93cca8c2b13af38f 2336 rust-winapi-i686-pc-windows-gnu_0.4.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git
+Checksums-Sha256:
+ 0f7dc07a9b29ee555c3ec2949e387cdc352a3fcd4f01910391f3dcbfa27a9e07 1565 rust-winapi-i686-pc-windows-gnu_0.4.0-1.dsc
+ 63f10b8e85c116d9e79c84513c613cb926d8dc6d8ed872be2a8aabf77aedc1dc 1309 rust-winapi-i686-pc-windows-gnu_0.4.0.orig.tar.gz
+ e5181566831b81ac34485520fe0ba63aa77222b17934bad81d5387f5018ec726 2336 rust-winapi-i686-pc-windows-gnu_0.4.0-1.debian.tar.xz
+Package-List: 
+ librust-winapi-i686-pc-windows-gnu-dev deb rust optional arch=any
+Directory: pool/main/r/rust-winapi-i686-pc-windows-gnu
+Priority: extra
+Section: misc

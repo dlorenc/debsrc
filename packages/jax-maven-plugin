@@ -1,0 +1,25 @@
+Package: jax-maven-plugin
+Binary: libjax-maven-plugin
+Version: 0.1.8+dfsg-1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Mechtilde Stehmann <mechtilde@debian.org>
+Build-Depends: debhelper-compat (= 12), default-jdk, junit4, libguava-java, libguava-mini-java, libjaxws-java, libzt-exec-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ bdaebcfcd8b9d8154b332ddde8190972 2167 jax-maven-plugin_0.1.8+dfsg-1.dsc
+ 0135b7a572136132bd37f9d9ec7be3d4 20224 jax-maven-plugin_0.1.8+dfsg.orig.tar.xz
+ df39102666d19723ffb97d1529b8400a 3364 jax-maven-plugin_0.1.8+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/jax-maven-plugin/
+Vcs-Git: https://salsa.debian.org/java-team/jax-maven-plugin.git/
+Checksums-Sha256:
+ 550b30c54a357a6348ce2734b2e15715ff71c9a89891fdd67c086d0064951f6d 2167 jax-maven-plugin_0.1.8+dfsg-1.dsc
+ 3788d17e41dbc480e06c4bbfd4f2c1f2ac77775c1e031b7f06298d3288851289 20224 jax-maven-plugin_0.1.8+dfsg.orig.tar.xz
+ 081a59a3a80ad701df1e772fa837bbc57a349f043698b2a42c14fdcf9a9e3244 3364 jax-maven-plugin_0.1.8+dfsg-1.debian.tar.xz
+Homepage: https://github.com/davidmoten/jax-maven-plugin/
+Package-List: 
+ libjax-maven-plugin deb java optional arch=all
+Directory: pool/main/j/jax-maven-plugin
+Priority: extra
+Section: misc

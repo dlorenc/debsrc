@@ -1,0 +1,27 @@
+Package: php-horde-notification
+Binary: php-horde-notification
+Version: 2.0.4-9
+Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
+Uploaders: Juri Grabowski <debian@jugra.de>, Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: pkg-php-tools, pear-horde-channel, debhelper-compat (= 13)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ bb28311b8a4cc75deeb21c568c93d0d7 2233 php-horde-notification_2.0.4-9.dsc
+ c3bb5f0db798bbf5b5ed0469c09f51f7 21018 php-horde-notification_2.0.4.orig.tar.gz
+ b07a9ea765f723ad254579c74bbda220 4452 php-horde-notification_2.0.4-9.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-notification
+Vcs-Git: https://salsa.debian.org/horde-team/php-horde-notification.git
+Checksums-Sha256:
+ 46203da40ea059884cd21276857d0e139c4689b7058214a2d207e098e96a1955 2233 php-horde-notification_2.0.4-9.dsc
+ ad325f0efb32a2cb940f80f024ad8df8c831b463f161301168e799b33c5d8020 21018 php-horde-notification_2.0.4.orig.tar.gz
+ 753b409fd8c123128ca84ca99bc33a3dbfa530e962848704324e3bf5a4c3f71e 4452 php-horde-notification_2.0.4-9.debian.tar.xz
+Homepage: http://www.horde.org/
+Package-List: 
+ php-horde-notification deb php optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: php-cli, php-horde-log, php-horde-test, php-pear
+Directory: pool/main/p/php-horde-notification
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: rust-openssl-probe
+Binary: librust-openssl-probe-dev
+Version: 0.1.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 6), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.1.5
+Format: 3.0 (quilt)
+Files:
+ e594f92c5847e153477be5af32ebf9e0 1561 rust-openssl-probe_0.1.2-1.dsc
+ 0fb8f799f959c69991d54556c5457068 6427 rust-openssl-probe_0.1.2.orig.tar.gz
+ b7c62898334dcfcc2e6c51470392b38c 2316 rust-openssl-probe_0.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/openssl-probe
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/openssl-probe]
+Checksums-Sha256:
+ 76c59abbb1e1a85cac338ce224886dea5b39098c1aff454d5dc4023513005989 1561 rust-openssl-probe_0.1.2-1.dsc
+ 77af24da69f9d9341038eba93a073b1fdaaa1b788221b00a69bce9e762cb32de 6427 rust-openssl-probe_0.1.2.orig.tar.gz
+ 6ee47a66d6607b7494bc9e7cb829d178d55257d9b68bab62e27fb39c52fcccff 2316 rust-openssl-probe_0.1.2-1.debian.tar.xz
+Homepage: https://github.com/alexcrichton/openssl-probe
+Package-List: 
+ librust-openssl-probe-dev deb rust optional arch=any
+Directory: pool/main/r/rust-openssl-probe
+Priority: extra
+Section: misc

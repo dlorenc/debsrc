@@ -1,0 +1,27 @@
+Package: libqxp
+Binary: libqxp-dev, libqxp-0.0-0, libqxp-tools, libqxp-doc
+Version: 0.0.2-1
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>
+Build-Depends: debhelper (>= 10), librevenge-dev, libboost-dev, libicu-dev, pkg-config, libcppunit-dev
+Build-Depends-Indep: doxygen
+Architecture: any all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 2a3f598f7217d060fc7b48b00048db55 2064 libqxp_0.0.2-1.dsc
+ 7011efa81fe8b6b1f2dd7d05d7bfb173 341760 libqxp_0.0.2.orig.tar.xz
+ 25a73cf3c3ef7baf46d6fd3801e6d7de 2192 libqxp_0.0.2-1.debian.tar.xz
+Checksums-Sha256:
+ 5c1e948a963af671c6014ab4e61c3bf63a3d96a0dd01f53493817386b2debc34 2064 libqxp_0.0.2-1.dsc
+ e137b6b110120a52c98edd02ebdc4095ee08d0d5295a94316a981750095a945c 341760 libqxp_0.0.2.orig.tar.xz
+ 42d72c086e3273dc1aa84fc3254c26a09657e0170fb002543a7b7744a13b44ad 2192 libqxp_0.0.2-1.debian.tar.xz
+Homepage: https://wiki.documentfoundation.org/DLP/Libraries/libqxp
+Package-List: 
+ libqxp-0.0-0 deb libs optional arch=any
+ libqxp-dev deb libdevel optional arch=any
+ libqxp-doc deb doc optional arch=all
+ libqxp-tools deb libs optional arch=any
+Directory: pool/main/libq/libqxp
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: ruby-maxitest
+Binary: ruby-maxitest
+Version: 3.6.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Build-Depends: debhelper (>= 11~), gem2deb, ruby-minitest (<< 5.14.0)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 623238181dc985e780031e4d9884fa5d 2108 ruby-maxitest_3.6.0-1.dsc
+ b01e6b8059bcf88a1aff0d4097742668 10147 ruby-maxitest_3.6.0.orig.tar.gz
+ 6f41fad62fdf96353365cb6cb37181dd 2412 ruby-maxitest_3.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-maxitest
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-maxitest.git
+Checksums-Sha256:
+ cc55ba808bac73e9a0d4905313daf0ca9f46197cf52d19a236fe4e21d0200111 2108 ruby-maxitest_3.6.0-1.dsc
+ 629b42d4d17e6b50edbfa7f2b322235fac60d1a9e6e90416530fe6991c3abd2c 10147 ruby-maxitest_3.6.0.orig.tar.gz
+ 623c08c6b73858af3ba0ec54482032ab8cc9ff2e40c99a8bc88e654e62383dbc 2412 ruby-maxitest_3.6.0-1.debian.tar.xz
+Homepage: https://github.com/grosser/maxitest
+Package-List: 
+ ruby-maxitest deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-maxitest
+Priority: extra
+Section: misc

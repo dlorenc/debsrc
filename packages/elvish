@@ -1,0 +1,27 @@
+Package: elvish
+Binary: elvish
+Version: 0.15.0-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Shengjing Zhu <zhsj@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any, golang-github-coreos-bbolt-dev, golang-github-creack-pty-dev, golang-github-xiaq-persistent-dev (>= 0.0~git20200820), golang-golang-x-sys-dev, pandoc
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 09c42a7eba61bf99aafd6bd27895b3ab 1539 elvish_0.15.0-1.dsc
+ ab0dfd71791393ac9b5b374bc96f1bff 603727 elvish_0.15.0.orig.tar.gz
+ 55c2d19aef498de149a6a1dee6c3ea0e 5764 elvish_0.15.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/elvish
+Vcs-Git: https://salsa.debian.org/go-team/packages/elvish.git
+Checksums-Sha256:
+ 9398eb7e1d12e7da991e1ee5635161734ef5893b91a1da0c8e97abcfe6b0bdbe 1539 elvish_0.15.0-1.dsc
+ 523ddcecf452211e895576943e569776d52cca4fbd9c31445b7ac31f1e3dfde1 603727 elvish_0.15.0.orig.tar.gz
+ 01bd3af49e22b53d4d353e78c4699190262e0dcf8f0fcf8964fa3e574fe60e5a 5764 elvish_0.15.0-1.debian.tar.xz
+Homepage: https://elv.sh
+Go-Import-Path: github.com/elves/elvish
+Package-List: 
+ elvish deb shells optional arch=any
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/e/elvish
+Priority: extra
+Section: misc

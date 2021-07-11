@@ -1,0 +1,26 @@
+Package: rust-block-modes
+Binary: librust-block-modes-dev
+Version: 0.3.3-3
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Andrej Shadura <andrewsh@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-block-cipher-trait-0.6+default-dev <!nocheck>, librust-block-padding-0.2+default-dev <!nocheck> | librust-block-padding-0.1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 6e4c60cb23be0419b70178c081ddda93 2405 rust-block-modes_0.3.3-3.dsc
+ d177cfe6671b55abaf6219d266e4f004 11088 rust-block-modes_0.3.3.orig.tar.gz
+ 38004a42d536d2bdebdbdd02775ce246 2864 rust-block-modes_0.3.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/block-modes
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/block-modes]
+Checksums-Sha256:
+ bf65b3ce816429187047551eabdf96f3e7575f37f5d698df1057cbef0a9fb043 2405 rust-block-modes_0.3.3-3.dsc
+ 31aa8410095e39fdb732909fb5730a48d5bd7c2e3cd76bd1b07b3dbea130c529 11088 rust-block-modes_0.3.3.orig.tar.gz
+ 15d9a97aade280f1a1064576f900ba06db16fc5f34232a68e7f552bb5c0454b2 2864 rust-block-modes_0.3.3-3.debian.tar.xz
+Package-List: 
+ librust-block-modes-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-aes-soft-0.3+default-dev, librust-hex-literal-0.1+default-dev
+Directory: pool/main/r/rust-block-modes
+Priority: extra
+Section: misc

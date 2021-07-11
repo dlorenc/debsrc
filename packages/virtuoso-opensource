@@ -1,0 +1,43 @@
+Package: virtuoso-opensource
+Binary: virtuoso-opensource, virtuoso-server, virtuoso-minimal, virtuoso-opensource-7, virtuoso-opensource-7-common, virtuoso-opensource-7-bin, virtuoso-vsp-startpage, virtuoso-vad-conductor, virtuoso-vad-doc, virtuoso-vad-demo, virtuoso-vad-tutorial, virtuoso-vad-rdfmappers, virtuoso-vad-sparqldemo, virtuoso-vad-syncml, virtuoso-vad-bpel, virtuoso-vad-isparql, virtuoso-vad-ods, libvirtodbc0, libvirtuoso5.5-cil
+Version: 7.2.5.1+dfsg-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Will Daniels <mail@willdaniels.co.uk>
+Build-Depends: bison, cli-common-dev [amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mipsel ppc64 ppc64el s390x], debhelper (>= 12~), docbook2x, docbook-xml, flex, gawk, gperf, libldap2-dev, libmagickwand-dev, libpcre3-dev, libreadline-dev, libssl-dev, libtool, libwbxml2-dev, libxml2-dev, m4, mono-devel [amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mipsel ppc64 ppc64el s390x], net-tools, pkg-kde-tools, po-debconf, libminizip-dev, ckeditor3
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 818def8c11713d2546b8666aba38df18 3991 virtuoso-opensource_7.2.5.1+dfsg-3.dsc
+ c94827c76f17257ecff2fb0612bb4407 98386008 virtuoso-opensource_7.2.5.1+dfsg.orig.tar.xz
+ 9f733f684c10c7f4fee09dab16c038b8 71636 virtuoso-opensource_7.2.5.1+dfsg-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/virtuoso-opensource
+Vcs-Git: https://salsa.debian.org/science-team/virtuoso-opensource.git
+Checksums-Sha256:
+ 7769c2142fdf529834fe6dc26138b8b0220f4ec4e17888627b92f1f37a9bd6ab 3991 virtuoso-opensource_7.2.5.1+dfsg-3.dsc
+ 3584a26a8f43d42f9259ae5baf51166c2a5a73a235b954e41d7a851fe2cec45c 98386008 virtuoso-opensource_7.2.5.1+dfsg.orig.tar.xz
+ b523f0ed0fb85d6910fd2cfc4bd6fe2a2e532c206d565395d182db3dc7a280da 71636 virtuoso-opensource_7.2.5.1+dfsg-3.debian.tar.xz
+Homepage: http://vos.openlinksw.com/owiki/wiki/VOS/
+Package-List: 
+ libvirtodbc0 deb libs optional arch=any
+ libvirtuoso5.5-cil deb cli-mono optional arch=amd64,arm64,armel,armhf,i386,kfreebsd-amd64,kfreebsd-i386,mipsel,ppc64,ppc64el,s390x
+ virtuoso-minimal deb metapackages optional arch=all
+ virtuoso-opensource deb metapackages optional arch=all
+ virtuoso-opensource-7 deb database optional arch=any
+ virtuoso-opensource-7-bin deb database optional arch=any
+ virtuoso-opensource-7-common deb database optional arch=any
+ virtuoso-server deb metapackages optional arch=all
+ virtuoso-vad-bpel deb database optional arch=all
+ virtuoso-vad-conductor deb database optional arch=all
+ virtuoso-vad-demo deb doc optional arch=all
+ virtuoso-vad-doc deb doc optional arch=all
+ virtuoso-vad-isparql deb database optional arch=all
+ virtuoso-vad-ods deb database optional arch=all
+ virtuoso-vad-rdfmappers deb database optional arch=all
+ virtuoso-vad-sparqldemo deb database optional arch=all
+ virtuoso-vad-syncml deb database optional arch=all
+ virtuoso-vad-tutorial deb doc optional arch=all
+ virtuoso-vsp-startpage deb database optional arch=all
+Directory: pool/main/v/virtuoso-opensource
+Priority: source
+Section: database

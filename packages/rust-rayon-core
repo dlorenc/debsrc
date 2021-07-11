@@ -1,0 +1,26 @@
+Package: rust-rayon-core
+Binary: librust-rayon-core-dev
+Version: 1.7.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Wolfgang Silbermayr <wolfgang@silbermayr.at>, kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-crossbeam-deque-0.7+default-dev (>= 0.7.2-~~) <!nocheck>, librust-crossbeam-queue-0.2+default-dev <!nocheck>, librust-crossbeam-utils-0.7+default-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-num-cpus-1+default-dev (>= 1.2-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 1d029008ac03aa428cf79d68f73f47c5 2600 rust-rayon-core_1.7.0-1.dsc
+ 0e3401322d8d9c7fa6a93064c9e47669 58306 rust-rayon-core_1.7.0.orig.tar.gz
+ 89d1c57ffc4c8940b64fe64576b8cae3 2880 rust-rayon-core_1.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rayon-core
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/rayon-core]
+Checksums-Sha256:
+ 904a03d50862fc9eb9c30273095fa02684579d161745b5bceeac0f81deddafb2 2600 rust-rayon-core_1.7.0-1.dsc
+ 08a89b46efaf957e52b18062fb2f4660f8b8a4dde1807ca002690868ef2c85a9 58306 rust-rayon-core_1.7.0.orig.tar.gz
+ 8f206124a05053362f47407a2e66c1c946aed6b0b293663b6bdedf64cc0e584b 2880 rust-rayon-core_1.7.0-1.debian.tar.xz
+Package-List: 
+ librust-rayon-core-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-libc-0.2+default-dev, librust-rand-0.7+default-dev, librust-rand-xorshift-0.2+default-dev, librust-scoped-tls-1+default-dev
+Directory: pool/main/r/rust-rayon-core
+Priority: extra
+Section: misc

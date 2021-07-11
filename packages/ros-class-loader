@@ -1,0 +1,26 @@
+Package: ros-class-loader
+Binary: libclass-loader-dev, libclass-loader1d
+Version: 0.5.0-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <jspricke@debian.org>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper-compat (= 13), catkin, libboost-thread-dev, libboost-system-dev, libconsole-bridge-dev, libpoco-dev, ros-cmake-modules
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 87693a55ca9a526b0292559a2620ca7c 2241 ros-class-loader_0.5.0-3.dsc
+ 78fec0e5fde3b6bfc7800563fe3af61d 34165 ros-class-loader_0.5.0.orig.tar.gz
+ c7e80c4b1723bd51edbf227803ceef65 3748 ros-class-loader_0.5.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/ros-class-loader
+Vcs-Git: https://salsa.debian.org/science-team/ros-class-loader.git
+Checksums-Sha256:
+ 7e68b030a9dcca03308a683d13311252d03e33f7ed0131814098fc17f7fe60d2 2241 ros-class-loader_0.5.0-3.dsc
+ 134ef1ecfb20a7a59b89af716d209f915c8a5e0a6c1067b420fd2f38e84ba663 34165 ros-class-loader_0.5.0.orig.tar.gz
+ 17341f6580bbd9146df1304a0e2c18ab757674bf91667dca2ce4c0baee3442cc 3748 ros-class-loader_0.5.0-3.debian.tar.xz
+Homepage: https://wiki.ros.org/class_loader
+Package-List: 
+ libclass-loader-dev deb libdevel optional arch=any
+ libclass-loader1d deb libs optional arch=any
+Directory: pool/main/r/ros-class-loader
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: rust-derive-builder-core
+Binary: librust-derive-builder-core-dev, librust-derive-builder-core+log-dev
+Version: 0.9.0-2
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Robin Krahl <robin.krahl@ireas.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-darling-0.10+default-dev (>= 0.10.2-~~) <!nocheck>, librust-proc-macro2-1+default-dev <!nocheck>, librust-quote-1+default-dev <!nocheck>, librust-syn-1+default-dev <!nocheck>, librust-syn-1+extra-traits-dev <!nocheck>, librust-syn-1+full-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 8cd1a36f2b8d7b5f616f0c5b11216598 2642 rust-derive-builder-core_0.9.0-2.dsc
+ 2ff8927b9cc3e6bcec18745859808751 18328 rust-derive-builder-core_0.9.0.orig.tar.gz
+ 7c535bfd63a2145ee35a40f4f44ac8ec 2988 rust-derive-builder-core_0.9.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/derive-builder-core
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/derive-builder-core]
+Checksums-Sha256:
+ e695da2efa3dc542c61c3b67e453b72e36b968de550565799025dd4b05d24bba 2642 rust-derive-builder-core_0.9.0-2.dsc
+ 2791ea3e372c8495c0bc2033991d76b512cd799d07491fbd6890124db9458bef 18328 rust-derive-builder-core_0.9.0.orig.tar.gz
+ b189df89dd5981091308790d6c186ae54ed840552711c3245a492f81d78bac3b 2988 rust-derive-builder-core_0.9.0-2.debian.tar.xz
+Package-List: 
+ librust-derive-builder-core+log-dev deb rust optional arch=any
+ librust-derive-builder-core-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-pretty-assertions-0.6+default-dev
+Directory: pool/main/r/rust-derive-builder-core
+Priority: extra
+Section: misc

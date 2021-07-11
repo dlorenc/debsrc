@@ -1,0 +1,27 @@
+Package: gap-guava
+Binary: gap-guava, gap-guava-bin
+Version: 3.15+ds-3
+Maintainer: Debian Science Maintainers <debian-science-maintainers@alioth-lists.debian.net>
+Uploaders: Jerome Benoit <calculus@rezozer.net>
+Build-Depends: debhelper-compat (= 13), gap (>= 4.11.0), gap-dev (>= 4.11.0), gap-gapdoc, texlive-latex-recommended, texlive-fonts-recommended, texlive-latex-extra
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 124e9ee745eba631b98760729eb7867e 2896 gap-guava_3.15+ds-3.dsc
+ 8bda0b2d314aea038bfe969da65c5ce0 744344 gap-guava_3.15+ds.orig.tar.xz
+ 522755ec28163432591d5b7bc3b7f536 7372 gap-guava_3.15+ds-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/gap-guava
+Vcs-Git: https://salsa.debian.org/science-team/gap-guava.git
+Checksums-Sha256:
+ 37306fcc17ad57564d19a3c5074b36cd4d9f42d0b130e7d6f3958b2d7ba0472f 2896 gap-guava_3.15+ds-3.dsc
+ 53641d48273b1d1f61b93285e28746173d4b4b7e8b1b286bccd461e425dcdbee 744344 gap-guava_3.15+ds.orig.tar.xz
+ 04f3f0b6250085958c3d2a8fddab5760e6b9979f68f6b6e2d0c94a55f65b9bd6 7372 gap-guava_3.15+ds-3.debian.tar.xz
+Homepage: https://www.gap-system.org/Packages/guava.html
+Package-List: 
+ gap-guava deb math optional arch=all
+ gap-guava-bin deb math optional arch=any
+Testsuite: autopkgtest
+Directory: pool/main/g/gap-guava
+Priority: optional
+Section: misc

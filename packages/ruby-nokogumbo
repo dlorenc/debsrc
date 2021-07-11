@@ -1,0 +1,27 @@
+Package: ruby-nokogumbo
+Binary: ruby-nokogumbo
+Version: 2.0.2-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Cédric Boutillier <boutil@debian.org>
+Build-Depends: debhelper-compat (= 12), gem2deb (>= 1.0~), libgumbo-dev, libxml2-dev, ruby-minitest, ruby-nokogiri
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 0df0f942cff33f19e0807fadfb2845ba 2115 ruby-nokogumbo_2.0.2-2.dsc
+ 382a10fd1ad55da6a736a188b5ac3635 228139 ruby-nokogumbo_2.0.2.orig.tar.gz
+ cab30c6d8cc6ec42e45ca01f223dd483 2608 ruby-nokogumbo_2.0.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-nokogumbo
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-nokogumbo.git
+Checksums-Sha256:
+ 828de5a8d28075961529060f6fa3dec029ab122568ad9917fc25b366205758b6 2115 ruby-nokogumbo_2.0.2-2.dsc
+ b64522d758429d46bb66e0169921cdbdbeff3ebcc56fa7bccd285e4fc0a3259a 228139 ruby-nokogumbo_2.0.2.orig.tar.gz
+ 0f5292dcbd0be5943f190ea7bcf0e5c958f6be57cc799ed0f28f606bc3a1a870 2608 ruby-nokogumbo_2.0.2-2.debian.tar.xz
+Homepage: https://github.com/rubys/nokogumbo/#readme
+Package-List: 
+ ruby-nokogumbo deb ruby optional arch=any
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-nokogumbo
+Priority: optional
+Section: misc

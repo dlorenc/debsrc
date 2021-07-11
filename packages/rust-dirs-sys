@@ -1,0 +1,26 @@
+Package: rust-dirs-sys
+Binary: librust-dirs-sys-dev
+Version: 0.3.5-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+knownfolders-dev <!nocheck>, librust-winapi-0.3+objbase-dev <!nocheck>, librust-winapi-0.3+shlobj-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 767ecdf944f314c83f12d73fbb572e90 2403 rust-dirs-sys_0.3.5-1.dsc
+ 8b70009baf55df3c0eea3582883f148b 10643 rust-dirs-sys_0.3.5.orig.tar.gz
+ 01cfc6c2058197c4cb16fcd29d494b8e 2988 rust-dirs-sys_0.3.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/dirs-sys
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/dirs-sys]
+Checksums-Sha256:
+ af8c7bfe8112a79444b90411c78c678f3438a13d89c6a742b8c72958179df66f 2403 rust-dirs-sys_0.3.5-1.dsc
+ 8e93d7f5705de3e49895a2b5e0b8855a1c27f080192ae9c32a6432d50741a57a 10643 rust-dirs-sys_0.3.5.orig.tar.gz
+ 1256b4beb25879e1be46e47ed004c424f49256709f04cdda8664260432a768dc 2988 rust-dirs-sys_0.3.5-1.debian.tar.xz
+Package-List: 
+ librust-dirs-sys-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-dirs-sys
+Priority: extra
+Section: misc

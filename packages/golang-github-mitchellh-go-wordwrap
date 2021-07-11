@@ -1,0 +1,27 @@
+Package: golang-github-mitchellh-go-wordwrap
+Binary: golang-github-mitchellh-go-wordwrap-dev
+Version: 1.0.1-1
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Peter Colberg <peter@colberg.org>,
+Build-Depends: debhelper-compat (= 13), dh-golang (>= 1.10~), golang-any
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8feb7597b06cd50c1113ec7231e6182b 1750 golang-github-mitchellh-go-wordwrap_1.0.1-1.dsc
+ 592b122ba34e8375af7b4a1975204e04 2921 golang-github-mitchellh-go-wordwrap_1.0.1.orig.tar.gz
+ 08e9df7f52fcacd74ff075f6f49b7e9a 2840 golang-github-mitchellh-go-wordwrap_1.0.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-mitchellh-go-wordwrap
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-mitchellh-go-wordwrap.git
+Checksums-Sha256:
+ e43d8fbbe101165a0d8f3639ce329e55600b43afb895879508c98c296a8e1ae4 1750 golang-github-mitchellh-go-wordwrap_1.0.1-1.dsc
+ 56dc8d3883c765d9791a3698a55c66935b2978ac60e0e3c7c8799b182dd22bb5 2921 golang-github-mitchellh-go-wordwrap_1.0.1.orig.tar.gz
+ 4939d8519e73ecf32ca7cecb6e345f2984652e002dd42c23fa96c61e8caa26f6 2840 golang-github-mitchellh-go-wordwrap_1.0.1-1.debian.tar.xz
+Homepage: https://github.com/mitchellh/go-wordwrap
+Go-Import-Path: github.com/mitchellh/go-wordwrap
+Package-List: 
+ golang-github-mitchellh-go-wordwrap-dev deb golang optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-mitchellh-go-wordwrap
+Priority: extra
+Section: golang

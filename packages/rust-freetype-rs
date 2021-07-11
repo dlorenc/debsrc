@@ -1,0 +1,27 @@
+Package: rust-freetype-rs
+Binary: librust-freetype-rs-dev
+Version: 0.26.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Fabio Rafael da Rosa <fdr@fabiodarosa.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-bitflags-1+default-dev <!nocheck>, librust-freetype-sys-0.13+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.1-~~) <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ d0aca455e051b8668724216f16aab4ec 2418 rust-freetype-rs_0.26.0-1.dsc
+ 186129dddd732f4fa1845915d8995091 105825 rust-freetype-rs_0.26.0.orig.tar.gz
+ 75ee4efc23fda37231575a46ece68c49 3988 rust-freetype-rs_0.26.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/freetype-rs
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/freetype-rs]
+Checksums-Sha256:
+ 2d90b438a96a1b29ebb6efb67d45ec298cea32e5506085ab850a59406fee4934 2418 rust-freetype-rs_0.26.0-1.dsc
+ 74eadec9d0a5c28c54bb9882e54787275152a4e36ce206b45d7451384e5bf5fb 105825 rust-freetype-rs_0.26.0.orig.tar.gz
+ 52bc33b1dc5482374131d858c6c9873fc4b5a7dd6c76d59e876619cb8f24e748 3988 rust-freetype-rs_0.26.0-1.debian.tar.xz
+Homepage: https://github.com/PistonDevelopers/freetype-rs
+Package-List: 
+ librust-freetype-rs-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-unicode-normalization-0.1+default-dev
+Directory: pool/main/r/rust-freetype-rs
+Priority: extra
+Section: misc

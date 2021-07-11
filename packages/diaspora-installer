@@ -1,0 +1,27 @@
+Package: diaspora-installer
+Binary: diaspora-installer, diaspora-installer-mysql, diaspora-common
+Version: 0.7.15.0+debian1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>, Joseph Nuthalapati <njoseph@riseup.net>
+Build-Depends: debhelper (>= 10), gem2deb, po-debconf
+Architecture: all
+Standards-Version: 4.1.3
+Format: 3.0 (native)
+Files:
+ 6e07f29ec39728cbb5299f3f6d912b9c 2030 diaspora-installer_0.7.15.0+debian1.dsc
+ 459af15545bda92333d85380c2d8f14b 46848 diaspora-installer_0.7.15.0+debian1.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/diaspora-installer
+Vcs-Git: https://salsa.debian.org/ruby-team/diaspora-installer.git
+Checksums-Sha256:
+ d00b65cc2d0ec49c828382e84f7dcd7765733c3343f91844bf0acdb047a9d4ce 2030 diaspora-installer_0.7.15.0+debian1.dsc
+ 367c38a6652bcb72918c3bff844b57f6606b070134b8c84dcffb6c38cbf5ce16 46848 diaspora-installer_0.7.15.0+debian1.tar.xz
+Homepage: https://wiki.debian.org/Diaspora
+Package-List: 
+ diaspora-common deb net optional arch=all
+ diaspora-installer deb contrib/net optional arch=all
+ diaspora-installer-mysql deb contrib/ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest
+Directory: pool/main/d/diaspora-installer
+Priority: optional
+Section: contrib/net

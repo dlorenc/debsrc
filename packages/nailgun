@@ -1,0 +1,25 @@
+Package: nailgun
+Binary: nailgun
+Version: 0.9.3-3
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Hideki Yamane <henrich@debian.org>, Torsten Werner <twerner@debian.org>
+Build-Depends: debhelper (>= 10), default-jdk, libmaven-shade-plugin-java, libjna-platform-java, maven-debian-helper (>= 1.5)
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ c60c34ff51125d0f8996abeb8731d002 2050 nailgun_0.9.3-3.dsc
+ fd938aeb87bff33f38fee0eaf35a3c06 59536 nailgun_0.9.3.orig.tar.gz
+ 42dc7ab89ece8121534184ba7a845511 4632 nailgun_0.9.3-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/nailgun
+Vcs-Git: https://salsa.debian.org/java-team/nailgun.git
+Checksums-Sha256:
+ b3ba832943b5676def063a132299de5cd3223643bd64fc4a0ca3b31cd861fe0f 2050 nailgun_0.9.3-3.dsc
+ 3c1567c8633cdf1a942fbcd13eb07564800866cb4d80680b3fbe8ee07c53e7a3 59536 nailgun_0.9.3.orig.tar.gz
+ 1dee69143fc9471ba88232c73dd98021a5636952a42c41707d463c3761bb4d02 4632 nailgun_0.9.3-3.debian.tar.xz
+Homepage: https://github.com/facebook/nailgun
+Package-List: 
+ nailgun deb java optional arch=any
+Directory: pool/main/n/nailgun
+Priority: source
+Section: java

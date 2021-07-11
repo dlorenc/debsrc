@@ -1,0 +1,27 @@
+Package: xrdesktop
+Binary: xrdesktop, libxrdesktop-0.15-0, libxrdesktop-dev
+Version: 0.15.1-5
+Maintainer: Andrew Lee (李健秋) <ajqlee@debian.org>
+Uploaders: Héctor Orón Martínez <zumbi@debian.org>
+Build-Depends: debhelper (>= 11), dh-python, glslang-tools, libgxr-dev (>= 0.15), meson, python3-dev, python-gi-dev
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ 322c27c58ef16ed5d8d6d63c5a79f2be 2156 xrdesktop_0.15.1-5.dsc
+ 57277f04486049388afd5285c6293aa7 740050 xrdesktop_0.15.1.orig.tar.bz2
+ beae9a6267dec5579ff02a54573d278e 8300 xrdesktop_0.15.1-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/xrdesktop-team/xrdesktop
+Vcs-Git: https://salsa.debian.org/xrdesktop-team/xrdesktop.git
+Checksums-Sha256:
+ 2b14b8f005557a80bc46b9d2afbb6421a2011594951140f4ee2f4c0cb4025030 2156 xrdesktop_0.15.1-5.dsc
+ be59c5bd0a4b44677f208684ba5c132c2ebde64b416b0f562a2cc1faa13aaab3 740050 xrdesktop_0.15.1.orig.tar.bz2
+ 50ac993128e1145a2963b4c15ecbe0b20de1b3cb11577ecfa3a4143f1faf239d 8300 xrdesktop_0.15.1-5.debian.tar.xz
+Homepage: https://gitlab.freedesktop.org/xrdesktop/xrdesktop/
+Package-List: 
+ libxrdesktop-0.15-0 deb libs optional arch=any
+ libxrdesktop-dev deb libdevel optional arch=any
+ xrdesktop deb utils optional arch=all
+Directory: pool/main/x/xrdesktop
+Priority: extra
+Section: misc

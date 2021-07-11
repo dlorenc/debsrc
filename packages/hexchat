@@ -1,0 +1,32 @@
+Package: hexchat
+Binary: hexchat, hexchat-common, hexchat-perl, hexchat-python3, hexchat-lua, hexchat-plugins, hexchat-dev
+Version: 2.14.3-6
+Maintainer: Mattia Rizzolo <mattia@debian.org>
+Build-Depends: debhelper-compat (= 13), gettext, iso-codes, libcanberra-dev, libdbus-glib-1-dev, libglib2.0-dev, libgtk2.0-dev, liblua5.3-dev, libnotify-dev, libpci-dev, libperl-dev, libproxy-dev, libssl-dev, meson (>= 0.40), python3-cffi, python3-dev (>= 3.3)
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 5317a323b918db3897911f436f41d752 2623 hexchat_2.14.3-6.dsc
+ 9f04c48f011b646b91d03c5776fce776 1292072 hexchat_2.14.3.orig.tar.xz
+ ec0455f8670406384d9805a83371b912 833 hexchat_2.14.3.orig.tar.xz.asc
+ b6c33cb0ac4991a031ffcfa3b7ddb47f 60652 hexchat_2.14.3-6.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/hexchat
+Vcs-Git: https://salsa.debian.org/debian/hexchat.git
+Checksums-Sha256:
+ 6f2281d3383a4adb2cb51695faea9383e4fe7c7142a098161c30faf0df80236f 2623 hexchat_2.14.3-6.dsc
+ 901a9d13db5a4da69b827f6093306bbd16863dc49016f7668bd3e4506512e882 1292072 hexchat_2.14.3.orig.tar.xz
+ 0cda3f6f41dec8c5f326b3f75aa293683d08053e425742c640d1d6d29af7b6b3 833 hexchat_2.14.3.orig.tar.xz.asc
+ 87b39f8df7da24835196c191696e30d99d72d3a5f0c1395070957c95d0f2254d 60652 hexchat_2.14.3-6.debian.tar.xz
+Homepage: https://hexchat.github.io
+Package-List: 
+ hexchat deb net optional arch=any
+ hexchat-common deb net optional arch=all
+ hexchat-dev deb net optional arch=any
+ hexchat-lua deb net optional arch=any
+ hexchat-perl deb net optional arch=any
+ hexchat-plugins deb net optional arch=any
+ hexchat-python3 deb net optional arch=any
+Directory: pool/main/h/hexchat
+Priority: optional
+Section: misc

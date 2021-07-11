@@ -1,0 +1,27 @@
+Package: node-has-cors
+Binary: node-has-cors
+Version: 1.1.0-1.1
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper (>= 9), dh-buildinfo, mocha, chai, nodejs
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ 2e67815a52c1f03ed31b61f21506d111 2088 node-has-cors_1.1.0-1.1.dsc
+ 9867c61e4d184ec27bd4008b8a2f9572 1645 node-has-cors_1.1.0.orig.tar.gz
+ 780004cff0fe1376d513b33f032174f1 2588 node-has-cors_1.1.0-1.1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-has-cors.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-has-cors.git
+Checksums-Sha256:
+ 864036967c4dc268d1cf755c6fc7d79f1ffc9a4be43010b0ee3f870cdd20d18a 2088 node-has-cors_1.1.0-1.1.dsc
+ 46fac3398ac4bdc8e5117bb1522df0668d19cb11f89bee784f64e9427767cd12 1645 node-has-cors_1.1.0.orig.tar.gz
+ 13af013709c0073571201908c1edf35e39af30e91952390afbf5d246ec066b74 2588 node-has-cors_1.1.0-1.1.debian.tar.xz
+Homepage: https://github.com/component/has-cors
+Package-List: 
+ node-has-cors deb web optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@
+Directory: pool/main/n/node-has-cors
+Priority: optional
+Section: javascript

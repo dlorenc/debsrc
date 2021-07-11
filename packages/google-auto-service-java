@@ -1,0 +1,25 @@
+Package: google-auto-service-java
+Binary: libgoogle-auto-service-java
+Version: 1.0~rc7-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>, Olek Wojnar <olek@debian.org>
+Build-Depends: debhelper-compat (= 13), default-jdk, libgoogle-auto-common-java, libguava-java, maven-debian-helper
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fcc7a3ce9966104e1ec7c5a6dac894f7 2234 google-auto-service-java_1.0~rc7-2.dsc
+ 07bf41c2f33c81a5731e259cb539c5ef 317280 google-auto-service-java_1.0~rc7.orig.tar.gz
+ 6079d4e2681f9deb56af577f4d6c97b6 3028 google-auto-service-java_1.0~rc7-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/java-team/google-auto-service-java
+Vcs-Git: https://salsa.debian.org/java-team/google-auto-service-java.git
+Checksums-Sha256:
+ b82e5e928b0437a46d72c013e957d327c298675a78ec62bbd9b161091c903658 2234 google-auto-service-java_1.0~rc7-2.dsc
+ a962064e783f65f5516beeef8837e042108d0f9e4d9d2147f86bc42b8cbc1865 317280 google-auto-service-java_1.0~rc7.orig.tar.gz
+ 64575271dfbac42ee497374577aee2c179a63dbfb1de7c1b10135686e74afcf5 3028 google-auto-service-java_1.0~rc7-2.debian.tar.xz
+Homepage: https://github.com/google/auto/
+Package-List: 
+ libgoogle-auto-service-java deb java optional arch=all
+Directory: pool/main/g/google-auto-service-java
+Priority: extra
+Section: misc

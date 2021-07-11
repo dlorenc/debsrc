@@ -1,0 +1,27 @@
+Package: tinyexr
+Binary: libtinyexr-dev, libtinyexr1d
+Version: 1.0.0+dfsg-1
+Maintainer: Timo Röhling <timo@gaussglocke.de>
+Build-Depends: debhelper-compat (= 13), cmake, zlib1g-dev, catch
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e5320b7befe8eb043ee9c74c8b92a66a 2005 tinyexr_1.0.0+dfsg-1.dsc
+ ccd93b572ec62b883dcc9a3881e5eb11 2432774 tinyexr_1.0.0+dfsg.orig.tar.gz
+ d99ff480f06644b2e4c49077eca5e90c 7852 tinyexr_1.0.0+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/roehling/tinyexr
+Vcs-Git: https://salsa.debian.org/roehling/tinyexr.git
+Checksums-Sha256:
+ 25519626e6721a4b68394bbfcb70f5303745ad10182ae473a0ff8f401b18febc 2005 tinyexr_1.0.0+dfsg-1.dsc
+ 285515d1650eb280975146859cb5559cf314ed08975f13e507868f058561ce06 2432774 tinyexr_1.0.0+dfsg.orig.tar.gz
+ 5008e6ae90c25b14ca0d46e81994ddb95b2c93f09a0f42846577ca409ffe81c2 7852 tinyexr_1.0.0+dfsg-1.debian.tar.xz
+Homepage: https://github.com/syoyo/tinyexr
+Package-List: 
+ libtinyexr-dev deb libdevel optional arch=any
+ libtinyexr1d deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: cmake, g++
+Directory: pool/main/t/tinyexr
+Priority: extra
+Section: misc

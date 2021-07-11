@@ -1,0 +1,26 @@
+Package: rust-hostname
+Binary: librust-hostname-dev
+Version: 0.3.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: kpcyrd <git@rxv.cc>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev <!nocheck>, librust-match-cfg-0.1+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+sysinfoapi-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 847574018c3edb27589ee2310546d992 2310 rust-hostname_0.3.1-1.dsc
+ d15066ccf2d33bbd8afdb9036ba47da5 9272 rust-hostname_0.3.1.orig.tar.gz
+ 5fcdd6bec484082a0a72d95ec9f8669d 2696 rust-hostname_0.3.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/hostname
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/hostname]
+Checksums-Sha256:
+ 0e9a63a9717072bc711b79db7521cdba076a3cab2c9fb01c374aa212de802378 2310 rust-hostname_0.3.1-1.dsc
+ 3c731c3e10504cc8ed35cfe2f1db4c9274c3d35fa486e3b31df46f068ef3e867 9272 rust-hostname_0.3.1.orig.tar.gz
+ b597080c65842de89dbe567ba25d87e697bc5a0e905afe8e8bcc733413a1f29d 2696 rust-hostname_0.3.1-1.debian.tar.xz
+Package-List: 
+ librust-hostname-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo, librust-version-sync-0.8+default-dev
+Directory: pool/main/r/rust-hostname
+Priority: extra
+Section: misc

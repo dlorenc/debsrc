@@ -1,0 +1,27 @@
+Package: python-protego
+Binary: python3-protego
+Version: 0.1.16+dfsg-2
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Andrey Rahmatullin <wrar@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-pytest
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ f4a10e17e530eab258dffd3dabc51422 2180 python-protego_0.1.16+dfsg-2.dsc
+ 10ad9e01d01537bb2be81efd7fb84ba9 2268712 python-protego_0.1.16+dfsg.orig.tar.xz
+ 37716332ae9597b114b0c25821154a86 2448 python-protego_0.1.16+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-protego
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-protego.git
+Checksums-Sha256:
+ affd2347a031eac25a0402623bd54ede084eaefc5c3fb5143511745351bc24df 2180 python-protego_0.1.16+dfsg-2.dsc
+ 522f0d2cc3d7996230ed13e333d89cdc34dc3039699f636bb092868837b1dd1f 2268712 python-protego_0.1.16+dfsg.orig.tar.xz
+ ce7754738728871b5947e50a785edbf5808700ed778b180413a0d4fa783ac5e6 2448 python-protego_0.1.16+dfsg-2.debian.tar.xz
+Homepage: https://github.com/scrapy/protego
+Package-List: 
+ python3-protego deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest
+Directory: pool/main/p/python-protego
+Priority: extra
+Section: misc

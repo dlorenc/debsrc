@@ -1,0 +1,27 @@
+Package: pyudev
+Binary: python3-pyudev
+Version: 0.22.0-2
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Felix Geyer <fgeyer@debian.org>
+Build-Depends: debhelper-compat (= 13), python3-all, python3-hypothesis, python3-mock, python3-py, python3-pytest, python3-setuptools, python3-six, dh-python
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ c0024950c4f0c0cf0c3346b1cc6cc100 2143 pyudev_0.22.0-2.dsc
+ 377eda61186c91e9440f01d76dbb4206 85077 pyudev_0.22.0.orig.tar.gz
+ d46b9f17093728ad6590f0ce38a04fa6 6352 pyudev_0.22.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pyudev
+Vcs-Git: https://salsa.debian.org/python-team/packages/pyudev.git
+Checksums-Sha256:
+ ef0b29e3d9907357d46106fdfe2b9c64617bac991b2dcfc5316494567233d57f 2143 pyudev_0.22.0-2.dsc
+ 69bb1beb7ac52855b6d1b9fe909eefb0017f38d917cba9939602c6880035b276 85077 pyudev_0.22.0.orig.tar.gz
+ 2aece5900d05e6b1f641eb8efba18f1561cc33b2eef923ca298d58521e072963 6352 pyudev_0.22.0-2.debian.tar.xz
+Homepage: https://pyudev.readthedocs.org/
+Package-List: 
+ python3-pyudev deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-hypothesis, python3-mock, python3-pytest
+Directory: pool/main/p/pyudev
+Priority: source
+Section: python

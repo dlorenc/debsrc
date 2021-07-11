@@ -1,0 +1,30 @@
+Package: rust-parking-lot-core
+Binary: librust-parking-lot-core-dev, librust-parking-lot-core+backtrace-dev, librust-parking-lot-core+deadlock-detection-dev, librust-parking-lot-core+petgraph-dev, librust-parking-lot-core+thread-id-dev
+Version: 0.7.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>, Wolfgang Silbermayr <wolfgang@silbermayr.at>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 18), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-cfg-if-0.1+default-dev (>= 0.1.5-~~) <!nocheck>, librust-cloudabi-0.0.3+default-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.55-~~) <!nocheck>, librust-redox-syscall-0.1+default-dev <!nocheck>, librust-smallvec-1+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+errhandlingapi-dev <!nocheck>, librust-winapi-0.3+handleapi-dev <!nocheck>, librust-winapi-0.3+minwindef-dev <!nocheck>, librust-winapi-0.3+ntstatus-dev <!nocheck>, librust-winapi-0.3+winbase-dev <!nocheck>, librust-winapi-0.3+winerror-dev <!nocheck>, librust-winapi-0.3+winnt-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ 369087e5f2e63f69f3a1e0012fad3f43 3337 rust-parking-lot-core_0.7.2-1.dsc
+ be2af3efcea9586194e249f646161d83 33875 rust-parking-lot-core_0.7.2.orig.tar.gz
+ 11e15e3f7bc3265cf37baccd8f66ddc6 3460 rust-parking-lot-core_0.7.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/parking-lot-core
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/parking-lot-core]
+Checksums-Sha256:
+ ad485770d4f99cf75a73e8f9260c325dbf4d79507aadf63bcce2b1947e6527a0 3337 rust-parking-lot-core_0.7.2-1.dsc
+ d58c7c768d4ba344e3e8d72518ac13e259d7c7ade24167003b8488e10b6740a3 33875 rust-parking-lot-core_0.7.2.orig.tar.gz
+ e9ebd0b5685a387d0da8d4fa65ba2fe752eefa6af34300116727384a437fd71b 3460 rust-parking-lot-core_0.7.2-1.debian.tar.xz
+Package-List: 
+ librust-parking-lot-core+backtrace-dev deb rust optional arch=any
+ librust-parking-lot-core+deadlock-detection-dev deb rust optional arch=any
+ librust-parking-lot-core+petgraph-dev deb rust optional arch=any
+ librust-parking-lot-core+thread-id-dev deb rust optional arch=any
+ librust-parking-lot-core-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-parking-lot-core
+Priority: extra
+Section: misc

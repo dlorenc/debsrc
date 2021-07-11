@@ -1,0 +1,25 @@
+Package: binutils-arm-none-eabi
+Binary: binutils-arm-none-eabi
+Version: 14
+Maintainer: Joaquin de Andres <me@xcancerberox.com.ar>
+Uploaders: Agustin Henze <tin@debian.org>, Keith Packard <keithp@keithp.com>, Thomas Preud'homme <thomas.preudhomme@arm.com>
+Build-Depends: binutils-source, debhelper (>= 10.0.0), autotools-dev, bison, flex, gettext, texinfo, dejagnu (>= 1.4.2-1.1), python3, file, xz-utils, lsb-release, zlib1g-dev
+Architecture: any
+Standards-Version: 4.4.0
+Format: 1.0
+Files:
+ c714dc41f3b80f873f9935ceae9c69d2 2001 binutils-arm-none-eabi_14.dsc
+ 2759324d25054496ab1c3282a325ca39 4111 binutils-arm-none-eabi_14.tar.gz
+Vcs-Browser: https://salsa.debian.org/debian/binutils-arm-none-eabi
+Vcs-Git: https://salsa.debian.org/debian/binutils-arm-none-eabi.git
+Checksums-Sha256:
+ 7a3d29dd7018711cfe0a4e46f72a7e74b3b51dc349b10025c7206c9ec005a220 2001 binutils-arm-none-eabi_14.dsc
+ 8539d843444cddab31ba49b81828be9d23541821f61a722ea76200518c4c8489 4111 binutils-arm-none-eabi_14.tar.gz
+Homepage: https://sourceware.org/binutils/
+Package-List: 
+ binutils-arm-none-eabi deb devel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gcc-arm-none-eabi, libstdc++-arm-none-eabi-newlib
+Directory: pool/main/b/binutils-arm-none-eabi
+Priority: optional
+Section: misc

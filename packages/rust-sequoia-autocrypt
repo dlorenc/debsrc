@@ -1,0 +1,27 @@
+Package: rust-sequoia-autocrypt
+Binary: librust-sequoia-autocrypt-dev
+Version: 0.23.1-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Build-Depends: debhelper (>= 12), dh-cargo (>= 24), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-base64+default-dev (>= 0.12-~~) <!nocheck>, librust-sequoia-openpgp-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 3319c0b000c03379be6812b5a53e5671 1761 rust-sequoia-autocrypt_0.23.1-1.dsc
+ 1bf9af517e0e99469d957f323fbca7ab 31905 rust-sequoia-autocrypt_0.23.1.orig.tar.gz
+ 094f0c25a8ccbdf1d2f13d36321fe950 2380 rust-sequoia-autocrypt_0.23.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sequoia-autocrypt
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/sequoia-autocrypt]
+Checksums-Sha256:
+ 0d68568b99902e589949adc5e485d952127a3c471b61eeadca0c9e0e448c94b5 1761 rust-sequoia-autocrypt_0.23.1-1.dsc
+ efd02e5bdf07673351ce4440b4f0113e02aadfbb859b070ed9818c127603726a 31905 rust-sequoia-autocrypt_0.23.1.orig.tar.gz
+ 31b6301968dc0370e323549631e277992754541b0c42778114f118d036b8ec9c 2380 rust-sequoia-autocrypt_0.23.1-1.debian.tar.xz
+Homepage: https://sequoia-pgp.org/
+Package-List: 
+ librust-sequoia-autocrypt-dev deb rust optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-cargo
+Directory: pool/main/r/rust-sequoia-autocrypt
+Priority: extra
+Section: misc

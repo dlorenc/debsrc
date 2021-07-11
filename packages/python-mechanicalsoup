@@ -1,0 +1,27 @@
+Package: python-mechanicalsoup
+Binary: python3-mechanicalsoup
+Version: 0.10.0-4
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, python3-bs4, python3-requests (>= 2.0), python3-setuptools, python3-six (>= 1.4)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 911ed73788ceac559f3bb6b500035da0 2304 python-mechanicalsoup_0.10.0-4.dsc
+ b1d0dfa0c234d1720095618cb82e2599 24165 python-mechanicalsoup_0.10.0.orig.tar.gz
+ 24112e71f67df2d372c4868db47c358b 6028 python-mechanicalsoup_0.10.0-4.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-mechanicalsoup
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-mechanicalsoup.git
+Checksums-Sha256:
+ 5801d170dcfa1be21d15fdfede3830cd0b14a896c29446ab75edbf9f41461aa4 2304 python-mechanicalsoup_0.10.0-4.dsc
+ 22423efd025c3eedb06f41d3ff1127174a59f40dc560e82dce143956976195bf 24165 python-mechanicalsoup_0.10.0.orig.tar.gz
+ 1884f2efe83a5a806298566b57385f9bcc3bd151c066274816af446246820caa 6028 python-mechanicalsoup_0.10.0-4.debian.tar.xz
+Homepage: https://github.com/hickford/MechanicalSoup
+Package-List: 
+ python3-mechanicalsoup deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-pytest, python3-pytest-mock, python3-requests-mock
+Directory: pool/main/p/python-mechanicalsoup
+Priority: optional
+Section: misc

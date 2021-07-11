@@ -1,0 +1,28 @@
+Package: haskell-logict
+Binary: libghc-logict-dev, libghc-logict-prof, libghc-logict-doc
+Version: 0.7.0.2-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: cdbs, debhelper (>= 10), ghc (>= 8.4.3), ghc-prof, haskell-devscripts (>= 0.13)
+Build-Depends-Indep: ghc-doc
+Architecture: any all
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ ccbee2f7aa565020a7d04e357d61614b 2294 haskell-logict_0.7.0.2-1.dsc
+ e5fa0e7893e554f4a560172986a8a11a 5892 haskell-logict_0.7.0.2.orig.tar.gz
+ fede3eef6e6904f34b0625cf215aab70 3160 haskell-logict_0.7.0.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-logict
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-logict]
+Checksums-Sha256:
+ 5b59c66548dd977c1262b38cdd4785773bc7b0e110ab6a683869552b689091ed 2294 haskell-logict_0.7.0.2-1.dsc
+ ccc198a05563a4d8fc145ecde8b43a83599b3bcb032d2614a8e852f0ba6ecff5 5892 haskell-logict_0.7.0.2.orig.tar.gz
+ f6cc94b17d356b7fc6e5842120a7b1478260124a9af3c36a5a7beae090865e5e 3160 haskell-logict_0.7.0.2-1.debian.tar.xz
+Homepage: https://github.com/Bodigrim/logict#readme
+Package-List: 
+ libghc-logict-dev deb haskell optional arch=any
+ libghc-logict-doc deb doc optional arch=all
+ libghc-logict-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-logict
+Priority: source
+Section: haskell

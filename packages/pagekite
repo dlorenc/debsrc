@@ -1,0 +1,28 @@
+Package: pagekite
+Binary: pagekite
+Version: 1.5.2.200603-2
+Maintainer: FreedomBox packaging team <freedombox-pkg-team@lists.alioth.debian.org>
+Uploaders: Sunil Mohan Adapa <sunil@medhas.org> , Petter Reinholdtsen <pere@debian.org> , Federico Ceratto <federico@debian.org>
+Build-Depends: debhelper-compat (= 13), python3:any | python3-all:any | python3-dev:any | python3-all-dev:any | dh-sequence-python3
+Build-Depends-Indep: dh-python (>= 2.20151103), python3-all, python3-openssl, python3-setuptools, python3-socksipychain (>= 2.1.0.5.geb5ee87)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ abd1abc1207911b1ff64d35d0cc7fc9b 2338 pagekite_1.5.2.200603-2.dsc
+ 73c9906b703ea007b13b670f1bcd5464 690000 pagekite_1.5.2.200603.orig.tar.gz
+ 6b31fa7c2220190db68571263e3bcf40 18224 pagekite_1.5.2.200603-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/freedombox-team/pagekite
+Vcs-Git: https://salsa.debian.org/freedombox-team/pagekite.git
+Checksums-Sha256:
+ ca004b7d53af3b7e8d8caf49a514bce7576e84ed54469d62da865466b9794405 2338 pagekite_1.5.2.200603-2.dsc
+ ffe5d52f609458e2bbc7e7740688604991a66838b39aa4ba5af7656ee65759c2 690000 pagekite_1.5.2.200603.orig.tar.gz
+ d00d25545832582f887f1f278d02781990cca885d94d2718009fcb471c649887 18224 pagekite_1.5.2.200603-2.debian.tar.xz
+Homepage: https://pagekite.net/
+Package-List: 
+ pagekite deb net optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: netcat-openbsd
+Directory: pool/main/p/pagekite
+Priority: optional
+Section: misc

@@ -1,0 +1,27 @@
+Package: libexif-gtk
+Binary: libexif-gtk5, libexif-gtk3-5, libexif-gtk-dev
+Version: 0.5.0-2
+Maintainer: Debian PhotoTools Maintainers <pkg-phototools-devel@lists.alioth.debian.org>
+Uploaders: Hugh McMaster <hugh.mcmaster@outlook.com>
+Build-Depends: debhelper-compat (= 13), libexif-dev (>= 0.6.21), libgtk2.0-dev, libgtk-3-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 3dcb920940129f611c4750e0af2c6b8e 2163 libexif-gtk_0.5.0-2.dsc
+ 39ff9a635044a6472a71f63b0272d344 56462 libexif-gtk_0.5.0.orig.tar.gz
+ 7f43a99adafab8a3d68cab09706a2c2e 6432 libexif-gtk_0.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-phototools-team/libexif-gtk
+Vcs-Git: https://salsa.debian.org/debian-phototools-team/libexif-gtk.git
+Checksums-Sha256:
+ 3d5b1d48933f57fc97803b6bdb2917fa84f638abbdbc4f1769860f1aaada9152 2163 libexif-gtk_0.5.0-2.dsc
+ aa3affebb338d55d1d7e9d02078b4634f95ae9b42361d193fdff30e516c47b59 56462 libexif-gtk_0.5.0.orig.tar.gz
+ 3774a0c55b1ac7d85f4f52b959e2b701e44954025077415fedf9868529da6576 6432 libexif-gtk_0.5.0-2.debian.tar.xz
+Homepage: https://libexif.github.io/
+Package-List: 
+ libexif-gtk-dev deb libdevel optional arch=any
+ libexif-gtk3-5 deb libs optional arch=any
+ libexif-gtk5 deb libs optional arch=any
+Directory: pool/main/libe/libexif-gtk
+Priority: source
+Section: devel

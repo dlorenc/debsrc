@@ -1,0 +1,29 @@
+Package: gcompris-qt
+Binary: gcompris-qt, gcompris-qt-data, gcompris
+Version: 1.0-1
+Maintainer: Debian Qt Extras Team <debian-qt-kde@lists.debian.org>
+Uploaders: Simon Quigley <tsimonq2@debian.org>
+Build-Depends: cmake (>= 3.3~), debhelper-compat (= 13), extra-cmake-modules, libkf5doctools-dev, libqt5sensors5-dev, libqt5svg5-dev, libqt5xmlpatterns5-dev, pkg-kde-tools, qml-module-qtgraphicaleffects, qml-module-qtmultimedia, qt5-qmake, qtdeclarative5-dev, qtmultimedia5-dev, qttools5-dev, qttools5-dev-tools, xauth, xvfb
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 71738bf7ffa6f262c11fc78c5ada5048 2591 gcompris-qt_1.0-1.dsc
+ 28d652a12949bc74b702a07a51e9f7ca 75856376 gcompris-qt_1.0.orig.tar.xz
+ 6d5c69698f9945f8850926419701febf 488 gcompris-qt_1.0.orig.tar.xz.asc
+ e4369c5f7adf5f1471edc5cde1fd4937 41232 gcompris-qt_1.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/gcompris-qt
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/gcompris-qt.git
+Checksums-Sha256:
+ a6244197c947a5ae8b6f20c682e7550fcf5a57de674e7f6359c1392da50268a8 2591 gcompris-qt_1.0-1.dsc
+ bad9ace08961254c1bfaa64f9df60f1902b3d3aaeb16a527c0e26302010ebc21 75856376 gcompris-qt_1.0.orig.tar.xz
+ 2936b2f9fa5280b3df92a3ba0ed59c80b4b760b4e4fb808207361cddff6166e4 488 gcompris-qt_1.0.orig.tar.xz.asc
+ c9390d4a55012dc0edbd91cb245e9c461fa29449088ed78c1cf6dc107624fed8 41232 gcompris-qt_1.0-1.debian.tar.xz
+Homepage: https://gcompris.net/
+Package-List: 
+ gcompris deb oldlibs optional arch=all
+ gcompris-qt deb education optional arch=any
+ gcompris-qt-data deb education optional arch=all
+Directory: pool/main/g/gcompris-qt
+Priority: optional
+Section: misc

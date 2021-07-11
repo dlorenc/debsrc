@@ -1,0 +1,27 @@
+Package: libset-object-perl
+Binary: libset-object-perl
+Version: 1.41-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>, Niko Tyni <ntyni@iki.fi>, Damyan Ivanov <dmn@debian.org>, Ansgar Burchardt <ansgar@debian.org>, Peter Pentchev <roam@ringlet.net>
+Build-Depends: debhelper-compat (= 13), libmoose-perl <!nocheck>, libtest-leaktrace-perl <!nocheck>, libtest-pod-coverage-perl <!nocheck>, libtest-pod-perl <!nocheck>, perl-xs-dev, perl:native
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bb8b208848fa8e565e84a675a1dfa228 2614 libset-object-perl_1.41-1.dsc
+ c5f47e6cf00a98e65479e994c5632911 82292 libset-object-perl_1.41.orig.tar.gz
+ 9352dc7dd37bc35be33c3ed6241558e8 5648 libset-object-perl_1.41-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libset-object-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libset-object-perl.git
+Checksums-Sha256:
+ 996658468782106a9bea5669ec59831d5c1a1b504cff1934333400aef80c0464 2614 libset-object-perl_1.41-1.dsc
+ ba663fbf6d6a62b21b0be99cc4333ef8fb51eb3a5cc6bd2fd7616b6b216d6cc0 82292 libset-object-perl_1.41.orig.tar.gz
+ 288534ad077d6e9cdaefdb8561a6c8140b0c9e2450eb3cf92681277b5e19c2f7 5648 libset-object-perl_1.41-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Set-Object
+Dgit: 307486ba642fa742c621acb7c341fccb7b372537 debian archive/debian/1.41-1 https://git.dgit.debian.org/libset-object-perl
+Package-List: 
+ libset-object-perl deb perl optional arch=any
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libs/libset-object-perl
+Priority: source
+Section: perl

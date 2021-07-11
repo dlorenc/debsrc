@@ -1,0 +1,27 @@
+Package: r-bioc-demixt
+Binary: r-bioc-demixt
+Version: 1.6.0-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp (>= 1.0.0), r-bioc-summarizedexperiment, r-cran-knitr, r-cran-kernsmooth, r-cran-matrixcalc, r-cran-matrixstats, r-cran-truncdist, r-cran-base64enc, r-cran-ggplot2
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 6a5b99e0e1c0d8b441ad93a8a78283ee 2264 r-bioc-demixt_1.6.0-1.dsc
+ 3f2c40f85d48d793a7ec29bda407a84f 3408635 r-bioc-demixt_1.6.0.orig.tar.gz
+ 1ebc7ac120b402385ba7fcee14f05ccc 2944 r-bioc-demixt_1.6.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-demixt
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-demixt.git
+Checksums-Sha256:
+ dcfd7d4a4865013cbba9271ccc92ef277a191fc014b6cdd249eb43e319ea8c8d 2264 r-bioc-demixt_1.6.0-1.dsc
+ b323581c4f0258c643e8fe290496ee0c6399d83ed8299c923cbf5025d341cd9f 3408635 r-bioc-demixt_1.6.0.orig.tar.gz
+ 9804c0d281472bca9d1622e146d8773da1a44b92bc3a9e4dcec8c81ba5b88388 2944 r-bioc-demixt_1.6.0-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/DeMixT/
+Package-List: 
+ r-bioc-demixt deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-knitr, r-cran-rmarkdown
+Directory: pool/main/r/r-bioc-demixt
+Priority: extra
+Section: misc

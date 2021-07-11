@@ -1,0 +1,25 @@
+Package: weechat-matrix
+Binary: weechat-matrix
+Version: 0.2.0-2
+Maintainer: Kyle Robbertze <paddatrapper@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-hypothesis, python3-matrix-nio, python3-pygments, python3-pytest, python3-setuptools, python3-webcolors
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ fc0b5a201c8a7b164c3a684235e8b959 2070 weechat-matrix_0.2.0-2.dsc
+ d82b0b289f6e64e00d996a3a9389cc17 67268 weechat-matrix_0.2.0.orig.tar.xz
+ d5737295b5e7cf765d73d2e67fb15276 3224 weechat-matrix_0.2.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/weechat-matrix
+Vcs-Git: https://salsa.debian.org/debian/weechat-matrix.git
+Checksums-Sha256:
+ 65a8c6e2f44797eaca55e3eab8c7e27d473cc2fa80dbb585d4e9c321581aeed6 2070 weechat-matrix_0.2.0-2.dsc
+ 4d19f850fd0c9ace209423c89d473a8bba8b8679ef702f75469b27991c03fdb8 67268 weechat-matrix_0.2.0.orig.tar.xz
+ cdde5ff8a5099e781a81721f04712bd7fd3fce8a7dc8be03e746dced1e0f2ff8 3224 weechat-matrix_0.2.0-2.debian.tar.xz
+Homepage: https://github.com/poljar/weechat-matrix
+Package-List: 
+ weechat-matrix deb python optional arch=any
+Testsuite: autopkgtest-pkg-python
+Directory: pool/main/w/weechat-matrix
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: adasockets
+Binary: libadasockets10-dev, libadasockets10
+Version: 1.12-2
+Maintainer: Phil Brooke <pjb@debian.org>
+Uploaders: Nicolas Boulenguez <nicolas@debian.org>
+Build-Depends: debhelper-compat (= 13), gnat, gnat-10, texinfo, texlive, autogen
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 9adb5567b20a82d69481573c5a9b7988 2111 adasockets_1.12-2.dsc
+ 3c017abe3bcda8bf47e2149d094d75f9 180964 adasockets_1.12.orig.tar.gz
+ f424ca180fcd2ff50a14d46562665839 8672 adasockets_1.12-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/adasockets
+Vcs-Git: https://salsa.debian.org/debian/adasockets.git
+Checksums-Sha256:
+ 232db0217a026ff823be0b07c08a231d6eeec4e06c46f2578599b8a552bb344f 2111 adasockets_1.12-2.dsc
+ b1e5d9055ffefb07ce58b9016153b5ce7e16c82e69e7f577548fe9ff42b0fe06 180964 adasockets_1.12.orig.tar.gz
+ dad78f512d662cc5c2d8b6b3b1d3a85bf1c819fea358c36ddcc4b3ab81988ae5 8672 adasockets_1.12-2.debian.tar.xz
+Homepage: https://www.rfc1149.net/devel/adasockets.html
+Package-List: 
+ libadasockets10 deb libs optional arch=any
+ libadasockets10-dev deb libdevel optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: gprbuild, pkg-config
+Directory: pool/main/a/adasockets
+Priority: source
+Section: devel

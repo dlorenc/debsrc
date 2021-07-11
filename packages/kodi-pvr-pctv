@@ -1,0 +1,26 @@
+Package: kodi-pvr-pctv
+Binary: kodi-pvr-pctv
+Version: 6.1.0+ds1-1
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders: Vasyl Gello <vasek.gello@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 6faef86c62351378cf123d1f78eb8e07 2109 kodi-pvr-pctv_6.1.0+ds1-1.dsc
+ 97795598d9567b4c51f521e301d22a70 58068 kodi-pvr-pctv_6.1.0+ds1.orig.tar.xz
+ bb0800eb4e9e1a8d79064b099d85e024 2408 kodi-pvr-pctv_6.1.0+ds1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-pvr-pctv
+Vcs-Git: https://salsa.debian.org/multimedia-team/kodi-media-center/kodi-pvr-pctv.git
+Checksums-Sha256:
+ 8ad50099b825eccc709869868fddb67a8493121dea56264b6a84e08e06f26131 2109 kodi-pvr-pctv_6.1.0+ds1-1.dsc
+ 27976ede611176266bb2e29e2b113d149f197cc4747344398283a7de41a4ee12 58068 kodi-pvr-pctv_6.1.0+ds1.orig.tar.xz
+ dee627d2f426fc86a31b8ecdcdef90f9d1c7de323e97151388f5d791231cd3a6 2408 kodi-pvr-pctv_6.1.0+ds1-1.debian.tar.xz
+Homepage: https://kodi.tv
+Build-Depends-Arch: dh-sequence-kodiaddon, cmake, kodi-addons-dev (>= 2:19~), libjsoncpp-dev
+Package-List: 
+ kodi-pvr-pctv deb libs optional arch=any
+Directory: pool/main/k/kodi-pvr-pctv
+Priority: extra
+Section: misc

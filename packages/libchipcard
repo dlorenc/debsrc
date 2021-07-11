@@ -1,0 +1,28 @@
+Package: libchipcard
+Binary: libchipcard-dev, libchipcard6, libchipcard-data, libchipcard-tools, libchipcard-libgwenhywfar60-plugins
+Version: 5.1.5rc2-7
+Maintainer: Micha Lenk <micha@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-config, gawk, asciidoctor, libgwenhywfar-core-dev (>= 5.0.0.1), libpcsclite-dev, zlib1g-dev
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8a2998f1a40ed4127ba9fda2adbe29a5 2339 libchipcard_5.1.5rc2-7.dsc
+ 0cc5cf67173238aaf3bc1410adbcf209 877820 libchipcard_5.1.5rc2.orig.tar.gz
+ 0851f4556c21580227af726a54d87660 15656 libchipcard_5.1.5rc2-7.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/aqbanking-team/pkg-libchipcard
+Vcs-Git: https://salsa.debian.org/aqbanking-team/pkg-libchipcard.git
+Checksums-Sha256:
+ cbabea01557149990748218ee1b7032adda14422058a709fc8c3e1c53ec14fbc 2339 libchipcard_5.1.5rc2-7.dsc
+ 32d2f8fe39f7ecb236c0cce2605333ebff47338435e0bfdaf1d8141f9bc79b7a 877820 libchipcard_5.1.5rc2.orig.tar.gz
+ e656d65c8dde0be4ce0ddb4d06d29d59d533e8088ce5278f91242b17a2735bbb 15656 libchipcard_5.1.5rc2-7.debian.tar.xz
+Homepage: https://www.aquamaniac.de/rdm/projects/libchipcard
+Package-List: 
+ libchipcard-data deb libs optional arch=all
+ libchipcard-dev deb libdevel optional arch=any
+ libchipcard-libgwenhywfar60-plugins deb oldlibs optional arch=all
+ libchipcard-tools deb misc optional arch=any
+ libchipcard6 deb libs optional arch=any
+Directory: pool/main/libc/libchipcard
+Priority: source
+Section: libs

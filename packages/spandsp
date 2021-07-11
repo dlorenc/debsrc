@@ -1,0 +1,27 @@
+Package: spandsp
+Binary: libspandsp2, libspandsp-dev, libspandsp-doc
+Version: 0.0.6+dfsg-2
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Uploaders: Mark Purcell <msp@debian.org>, Tzafrir Cohen <tzafrir@debian.org>
+Build-Depends: debhelper (>= 11~), docbook-xml, docbook-xsl, doxygen, libfftw3-dev, libjpeg-dev, libpcap0.8-dev, libsndfile1-dev, libtiff-dev | libtiff5-dev, libtiff-tools, libtool, libxml2-dev, netpbm, sox, xsltproc
+Architecture: any all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ cca7b617dc1ec3db739129e44360c199 2325 spandsp_0.0.6+dfsg-2.dsc
+ 07a661ab21ba947a456b1b9f80743086 1954900 spandsp_0.0.6+dfsg.orig.tar.xz
+ a5552af014bfab4b1273adde09cd9ec7 15220 spandsp_0.0.6+dfsg-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-voip-team/spandsp
+Vcs-Git: https://salsa.debian.org/pkg-voip-team/spandsp.git
+Checksums-Sha256:
+ 523ccfd781448cd4803b4bc99cecd301dff3dd7ec78d6fc09e25ad0c8c9f0f2a 2325 spandsp_0.0.6+dfsg-2.dsc
+ 3dcdc611b8a119f1f26540d05e6279c4c1e5cd576271f6d45df431359fc190f9 1954900 spandsp_0.0.6+dfsg.orig.tar.xz
+ 7c282dc889b459802a4db31f7925db64fc99ba386670f98c1a14e31876192902 15220 spandsp_0.0.6+dfsg-2.debian.tar.xz
+Homepage: https://www.soft-switch.org/installing-spandsp.html
+Package-List: 
+ libspandsp-dev deb libdevel optional arch=any
+ libspandsp-doc deb doc optional arch=all
+ libspandsp2 deb libs optional arch=any
+Directory: pool/main/s/spandsp
+Priority: source
+Section: libs

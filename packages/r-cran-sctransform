@@ -1,0 +1,27 @@
+Package: r-cran-sctransform
+Binary: r-cran-sctransform
+Version: 0.3.2-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-cran-mass, r-cran-matrix, r-cran-future.apply, r-cran-future, r-cran-ggplot2, r-cran-reshape2, r-cran-gridextra, r-cran-matrixstats, r-cran-rcpparmadillo, r-cran-rcpp
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 102e20f1e2a185a18a015e3fb7c3aab0 2328 r-cran-sctransform_0.3.2-1.dsc
+ c475dddc642ac990f1d39a996b3fa233 131099 r-cran-sctransform_0.3.2.orig.tar.gz
+ bad29091871b322458ab4812eb0537f1 2684 r-cran-sctransform_0.3.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-sctransform
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-sctransform.git
+Checksums-Sha256:
+ 5ba0b6f33ce5832e4f3f9f016ec216e11124e5d199db0d7183bfd9c8b38f6544 2328 r-cran-sctransform_0.3.2-1.dsc
+ 5dbb0a045e514c19f51bbe11c2dba0b72dca1942d6eb044c36b0538b443475dc 131099 r-cran-sctransform_0.3.2.orig.tar.gz
+ 363b5c185e51b128e70223732e1a4c5c5d081962dfdf01f239fa75a9e997e70d 2684 r-cran-sctransform_0.3.2-1.debian.tar.xz
+Homepage: https://cran.r-project.org/package=sctransform
+Package-List: 
+ r-cran-sctransform deb gnu-r optional arch=any
+Testsuite: autopkgtest, autopkgtest-pkg-r
+Testsuite-Triggers: r-cran-testthat
+Directory: pool/main/r/r-cran-sctransform
+Priority: extra
+Section: misc

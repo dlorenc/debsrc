@@ -1,0 +1,27 @@
+Package: flint-arb
+Binary: libflint-arb2, libflint-arb-dev, libflint-arb-doc
+Version: 1:2.19.0-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@alioth-lists.debian.net>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13), libflint-dev (>= 2.5.2-17), libgmp-dev, libjs-jquery, libjs-underscore, libmpfr-dev, sphinx
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 53afab00a9aa0ec0f7bda892fea87052 2211 flint-arb_2.19.0-1.dsc
+ 0a60ab546a8ad3d8d46ad9f040aeca98 1606463 flint-arb_2.19.0.orig.tar.gz
+ a836946e012a0f09759bbc1376cb7194 4720 flint-arb_2.19.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/flint-arb
+Vcs-Git: https://salsa.debian.org/science-team/flint-arb.git
+Checksums-Sha256:
+ 744c6f490684564523358bfb7c6cddf464e13bc6f433995119e46f29b4d8ad00 2211 flint-arb_2.19.0-1.dsc
+ 0aec6b492b6e9a543bdb3287a91f976951e2ba74fd4de942e692e21f7edbcf13 1606463 flint-arb_2.19.0.orig.tar.gz
+ 8f5d9a1f75fb1b0426fa0e43d37924982d2cfca3052a792a43e922b273df7917 4720 flint-arb_2.19.0-1.debian.tar.xz
+Homepage: https://github.com/fredrik-johansson/arb
+Package-List: 
+ libflint-arb-dev deb libdevel optional arch=any
+ libflint-arb-doc deb doc optional arch=all
+ libflint-arb2 deb libs optional arch=any
+Directory: pool/main/f/flint-arb
+Priority: optional
+Section: misc

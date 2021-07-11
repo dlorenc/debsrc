@@ -1,0 +1,27 @@
+Package: awscli
+Binary: awscli
+Version: 1.19.1-1
+Maintainer: Debian Cloud Team <debian-cloud@lists.debian.org>
+Uploaders: TANIGUCHI Takaki <takaki@debian.org>, Noah Meyerhans <noahm@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3, python3-setuptools
+Build-Depends-Indep: python3-six, python3-botocore (>= 1.20.0), python3-colorama (>= 0.2.5), python3-docutils (>= 0.10), python3-bcdoc, python3-pyasn1, python3-rsa (>= 3.1.2), python3-s3transfer (>= 0.1.9), python3-yaml (>= 3.10)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 33002987fb261ebde3fb471eba886a06 2228 awscli_1.19.1-1.dsc
+ efc92004c31ea0b1ae59278a9b3d1347 1384521 awscli_1.19.1.orig.tar.gz
+ 38009738bcee565be96fd9e5158e3167 5364 awscli_1.19.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/cloud-team/awscli
+Vcs-Git: https://salsa.debian.org/cloud-team/awscli.git
+Checksums-Sha256:
+ 68622a6d109ee43cd3c46161e8a9ebb882816bfde114b98fd52ce1206fb3acd9 2228 awscli_1.19.1-1.dsc
+ f13d3317147b84b76dd9966f92c85c9083b65cd19921b42ec1f786c6a42ceebb 1384521 awscli_1.19.1.orig.tar.gz
+ c8c47d587c98d782dbea9c1d7feaf246ae112504e89473110688b29e43e25aa4 5364 awscli_1.19.1-1.debian.tar.xz
+Homepage: https://aws.amazon.com/cli/
+Package-List: 
+ awscli deb admin optional arch=all
+Testsuite: autopkgtest
+Directory: pool/main/a/awscli
+Priority: optional
+Section: misc

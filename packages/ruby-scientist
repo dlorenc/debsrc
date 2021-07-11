@@ -1,0 +1,27 @@
+Package: ruby-scientist
+Binary: ruby-scientist
+Version: 1.5.0-2
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13), gem2deb (>= 1), rake, ruby-coveralls, ruby-bundler
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 17b0da950949f685f4b63977405ad1a9 2107 ruby-scientist_1.5.0-2.dsc
+ a18a4e9ffcc151a0e25c243026eb41f9 19678 ruby-scientist_1.5.0.orig.tar.gz
+ 87e3748a30467d41e12cae8c5c3c4dd4 3152 ruby-scientist_1.5.0-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-scientist
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-scientist.git
+Checksums-Sha256:
+ 4e141d3c2f08c4ac893fd68c3b3ee52765032116478859d06e5935753a44d47b 2107 ruby-scientist_1.5.0-2.dsc
+ 72fcb050ce979dde338563fab27955b44344324ade0eb2e00f7df1bab6206519 19678 ruby-scientist_1.5.0.orig.tar.gz
+ df1f9e76f02037901773288f5dbf4b5ca7ae3d9cfd86445fc42582a54e002bc4 3152 ruby-scientist_1.5.0-2.debian.tar.xz
+Homepage: https://github.com/github/scientist
+Package-List: 
+ ruby-scientist deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-scientist
+Priority: extra
+Section: misc

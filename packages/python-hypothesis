@@ -1,0 +1,28 @@
+Package: python-hypothesis
+Binary: python3-hypothesis, python-hypothesis-doc
+Version: 5.43.3-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Tristan Seligmann <mithrandi@debian.org>, Vincent Bernat <bernat@debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc <!nodoc>, python3-all, python3-attr, python3-coverage, python3-dateutil <!nodoc>, python3-django <!nodoc>, python3-flaky <!nocheck>, python3-hypothesis <!nocheck>, python3-lark <!nodoc>, python3-mock <!nocheck>, python3-numpy <!nocheck>, python3-numpy <!nodoc>, python3-pexpect <!nocheck>, python3-pytest <!nocheck>, python3-setuptools, python3-sortedcontainers <!nodoc>, python3-sphinx <!nodoc>, python3-sphinx-rtd-theme <!nodoc>, python3-tz <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 1a51211a21c9c538706a7e49cd289d69 2598 python-hypothesis_5.43.3-1.dsc
+ ed2bec6852b5f0aca4a0bf5ea0b706e5 9103991 python-hypothesis_5.43.3.orig.tar.gz
+ bef9aeb787e4e648dabb48e22cf20dd4 11628 python-hypothesis_5.43.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-hypothesis
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-hypothesis.git
+Checksums-Sha256:
+ 03d81f028113ee6bdd5821b2ce9269961555bdef35620f7c2a60673616310caf 2598 python-hypothesis_5.43.3-1.dsc
+ 27e55039621fdf0ba378617219a3d659f6e250a7fd3becd081ded3787589fa30 9103991 python-hypothesis_5.43.3.orig.tar.gz
+ 8a976ad354eacdf657267beb90116f7832f308539d0a3243bd82075e57c3457b 11628 python-hypothesis_5.43.3-1.debian.tar.xz
+Homepage: https://github.com/HypothesisWorks/hypothesis
+Package-List: 
+ python-hypothesis-doc deb doc optional arch=all profile=!nodoc
+ python3-hypothesis deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: python3-all, python3-flaky, python3-mock, python3-numpy, python3-pexpect, python3-pytest, python3-tz
+Directory: pool/main/p/python-hypothesis
+Priority: optional
+Section: misc

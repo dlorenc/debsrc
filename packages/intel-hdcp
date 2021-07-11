@@ -1,0 +1,26 @@
+Package: intel-hdcp
+Binary: intel-hdcp, libhdcpsdk-dev, libhdcpsdk0
+Version: 20.3.0-1
+Maintainer: Timo Aaltonen <tjaalton@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake, libdrm-dev, libegl-dev, libssl-dev, libwayland-dev, pkg-config, systemd
+Architecture: linux-any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d65d491300abad82c310938a233e7d39 2064 intel-hdcp_20.3.0-1.dsc
+ a22eb3b8735353d9a4c22e565f451c9f 44892 intel-hdcp_20.3.0.orig.tar.xz
+ 0ba9d769bfe1f096d0560835b260c117 2268 intel-hdcp_20.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/intel-hdcp
+Vcs-Git: https://salsa.debian.org/debian/intel-hdcp.git
+Checksums-Sha256:
+ 82536ead462833a2c30917d6cbc502e6dbbbcd4bd2b470d3f2a1ced2c50528d7 2064 intel-hdcp_20.3.0-1.dsc
+ bb7aaf0bf85e5c62454756e006b550a2d0a6ab8572e34a2039fe30740945d9d9 44892 intel-hdcp_20.3.0.orig.tar.xz
+ 2daf25c8743ad75eda1050beac4079ba2bc4b5d6173cdc4358604281ead0d033 2268 intel-hdcp_20.3.0-1.debian.tar.xz
+Homepage: https://github.com/intel/hdcp
+Package-List: 
+ intel-hdcp deb misc optional arch=linux-any
+ libhdcpsdk-dev deb libdevel optional arch=linux-any
+ libhdcpsdk0 deb libs optional arch=linux-any
+Directory: pool/main/i/intel-hdcp
+Priority: extra
+Section: misc

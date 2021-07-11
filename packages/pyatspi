@@ -1,0 +1,27 @@
+Package: pyatspi
+Binary: python3-pyatspi
+Version: 2.38.1-1
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Uploaders: Samuel Thibault <sthibault@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-all, pkg-config, python-gi-dev (>= 2.90.1), python3-gi (>= 2.90.1), python3-dbus <!nocheck>, libatspi2.0-dev <!nocheck>, libglib2.0-dev <!nocheck>, libxml2-dev <!nocheck>, libatk1.0-dev <!nocheck>, libgtk-3-dev <!nocheck>, gir1.2-atspi-2.0 (>= 2.33.1) <!nocheck>, libatk-adaptor (>= 2.32.0-6~) <!nocheck>, at-spi2-core <!nocheck>, dbus <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 2d9edb6664277eafbc8132f28b2e5663 2433 pyatspi_2.38.1-1.dsc
+ bac820e859310c64fe37c227be657656 316724 pyatspi_2.38.1.orig.tar.xz
+ e5e6ac43fa9c3ee4ff339399bd91c0b9 7836 pyatspi_2.38.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/a11y-team/pyatspi
+Vcs-Git: https://salsa.debian.org/a11y-team/pyatspi.git
+Checksums-Sha256:
+ b2d710e6fb62efbe2f84caf4e2b664a7e152288054bcd8ef9a4cf69b7961a27b 2433 pyatspi_2.38.1-1.dsc
+ e49f27e9e29c24ac3ccb837a7f221952532940da0344e7e8c0899924aeb98151 316724 pyatspi_2.38.1.orig.tar.xz
+ 58f4768d222e8e4adc147755554dc461cdac5c92c26728a5e8e14d5b6308ae84 7836 pyatspi_2.38.1-1.debian.tar.xz
+Homepage: https://live.gnome.org/Accessibility
+Package-List: 
+ python3-pyatspi deb python optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, at-spi2-core, build-essential, dbus, xauth, xvfb
+Directory: pool/main/p/pyatspi
+Priority: source
+Section: python

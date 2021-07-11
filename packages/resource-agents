@@ -1,0 +1,28 @@
+Package: resource-agents
+Binary: resource-agents, ldirectord
+Version: 1:4.7.0-1
+Maintainer: Debian HA Maintainers <debian-ha-maintainers@alioth-lists.debian.net>
+Uploaders: Adrian Vondendriesch <adrian.vondendriesch@credativ.de>, Valentin Vidic <vvidic@debian.org>
+Build-Depends: autoconf, automake, cluster-glue-dev, debhelper-compat (= 13), dh-exec, dh-python, docbook-xml, docbook-xsl, gawk, libglib2.0-dev, liblrm2-dev (>= 1.0.12~), libnet1-dev, libpils2-dev (>= 1.0.12~), libplumb2-dev (>= 1.0.12~), libplumbgpl2-dev (>= 1.0.12~), libstonith1-dev (>= 1.0.12~), libtool, libxml2-utils, net-tools, pkg-config, python3, systemd [linux-any], xsltproc, xml-twig-tools
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 60ba688766781490f5b90ad9096ceec6 2718 resource-agents_4.7.0-1.dsc
+ 1abf1d871298c39d207e1b2671340bb5 807209 resource-agents_4.7.0.orig.tar.gz
+ f291a5a3b8941964282bee96f81c4f7f 20628 resource-agents_4.7.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ha-team/resource-agents
+Vcs-Git: https://salsa.debian.org/ha-team/resource-agents.git
+Checksums-Sha256:
+ 17c8d2b23225615f00655c78a265a41444c721d1da1fdb982f185e6a4a240861 2718 resource-agents_4.7.0-1.dsc
+ 42c0b3eb1d1ce58f61a15c0392b9b881c95089032068403540221415800742ea 807209 resource-agents_4.7.0.orig.tar.gz
+ 55013ce11745d63be5e66cd7c581915174dd938b0b697235286216ff03c6afd7 20628 resource-agents_4.7.0-1.debian.tar.xz
+Homepage: https://github.com/ClusterLabs/resource-agents
+Package-List: 
+ ldirectord deb admin optional arch=all
+ resource-agents deb admin optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: apache2, bind9, bind9-host, bind9-utils, bsd-mailx, default-mysql-server, lsb-release, lvm2, nfs-kernel-server, open-iscsi, openssl, postfix, postgresql, targetcli-fb, wget
+Directory: pool/main/r/resource-agents
+Priority: source
+Section: admin

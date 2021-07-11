@@ -1,0 +1,26 @@
+Package: pycollada
+Binary: python3-collada, python-collada-doc
+Version: 0.6-2
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Kurt Kremitzki <kurt@kwk.systems>
+Build-Depends: debhelper-compat (= 12), python3, python3-dateutil, python3-lxml, python3-numpy, python3-setuptools, python3-sphinx, dh-python, graphviz
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ adcb1629cdfe010453592d16a6fb9804 2141 pycollada_0.6-2.dsc
+ f85b19faed42b70abf41f5d20a880d6b 3109958 pycollada_0.6.orig.tar.gz
+ 4475c27a7fa36789a3cb49ef95ea85f8 3524 pycollada_0.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/science-team/pycollada
+Vcs-Git: https://salsa.debian.org/science-team/pycollada.git
+Checksums-Sha256:
+ 2f3ab65becbdf58aa678b1d0bc908593d3f186773cfc4229db193f4560361f9e 2141 pycollada_0.6-2.dsc
+ 409d6ec4bd1208e1cbe94f3f9b03502e1f0e3293f1d2c333186bddd9ab45589a 3109958 pycollada_0.6.orig.tar.gz
+ 1dfe788c97b95c763a05157128b6fa0e55842c67763f5bc6cfcf0364fc10280b 3524 pycollada_0.6-2.debian.tar.xz
+Homepage: https://pycollada.readthedocs.org
+Package-List: 
+ python-collada-doc deb doc optional arch=all
+ python3-collada deb python optional arch=all
+Directory: pool/main/p/pycollada
+Priority: optional
+Section: misc

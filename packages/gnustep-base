@@ -1,0 +1,35 @@
+Package: gnustep-base
+Binary: gnustep-base-common, gnustep-base-runtime, libgnustep-base1.27, libgnustep-base-dev, gnustep-base-doc
+Version: 1.27.0-3
+Maintainer: Debian GNUstep maintainers <pkg-gnustep-maintainers@lists.alioth.debian.org>
+Uploaders: Eric Heintzmann <heintzmann.eric@free.fr>, Gürkan Myczko <gurkan@phys.ethz.ch>, Yavor Doganov <yavor@gnu.org>
+Build-Depends: debhelper (>= 13~), gnustep-make (>= 2.7.0-4), gobjc, libffi-dev, libxml2-dev, libxslt1-dev, libgnutls28-dev, zlib1g-dev, m4, libavahi-client-dev, libicu-dev, dh-exec, tzdata
+Build-Depends-Indep: texinfo, texlive-latex-base, texlive-fonts-recommended, xml-core
+Build-Conflicts: libgmp3-dev
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8a000c0ce3fb0e2adb38f518a6805942 2936 gnustep-base_1.27.0-3.dsc
+ 6f1876a867d1862267a562d4cbb9ede3 4141163 gnustep-base_1.27.0.orig.tar.gz
+ af85ced19a46968d890426518532e674 232 gnustep-base_1.27.0.orig.tar.gz.asc
+ 61d002578c64706562f32bc1fcf495ad 33120 gnustep-base_1.27.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnustep-team/gnustep-base
+Vcs-Git: https://salsa.debian.org/gnustep-team/gnustep-base.git
+Checksums-Sha256:
+ 7dad996bda6fe30eac87ac002acc122807cfa972b815ee27a99fc56ac36d83ba 2936 gnustep-base_1.27.0-3.dsc
+ 8803fa1fdf23f90264a81ad2d9fbe97ba66d6e313e396a28fd7c10d2caceb283 4141163 gnustep-base_1.27.0.orig.tar.gz
+ d6432196faf09f59c54b552c493e91df00c2d79433248f78e4752142784ee7e4 232 gnustep-base_1.27.0.orig.tar.gz.asc
+ aa9583f04041dc6c3fd1e82990ab93090f9e746f68778ef54708d2251db2178c 33120 gnustep-base_1.27.0-3.debian.tar.xz
+Homepage: http://gnustep.org
+Package-List: 
+ gnustep-base-common deb gnustep optional arch=all
+ gnustep-base-doc deb doc optional arch=all
+ gnustep-base-runtime deb gnustep optional arch=any
+ libgnustep-base-dev deb libdevel optional arch=any
+ libgnustep-base1.27 deb libs optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, file, shunit2
+Directory: pool/main/g/gnustep-base
+Priority: source
+Section: gnustep

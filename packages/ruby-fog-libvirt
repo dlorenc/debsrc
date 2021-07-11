@@ -1,0 +1,28 @@
+Package: ruby-fog-libvirt
+Binary: ruby-fog-libvirt
+Version: 0.8.0-1
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Hans-Christoph Steiner <hans@eds.org>
+Build-Depends: debhelper-compat (= 12), gem2deb, ruby-fog-core (>= 1.27.4), ruby-fog-json, ruby-fog-xml (>= 0.1.1), ruby-json, ruby-libvirt (>= 0.7.0), ruby-shindo (>= 0.3.4)
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Files:
+ a6fe61ae06aeddf62b4d77179cfad5e4 1906 ruby-fog-libvirt_0.8.0-1.dsc
+ cb2457aeda3a08bbc73b2b8a54c21f1e 29002 ruby-fog-libvirt_0.8.0.orig.tar.gz
+ e048b0794adb8adf8b86e81d22217c2c 3576 ruby-fog-libvirt_0.8.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-fog-libvirt
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-fog-libvirt.git
+Checksums-Sha256:
+ 0e5590c15a77931c4a8a0e28e7503952f180f84f63f6d5e7473fc5f744793fb9 1906 ruby-fog-libvirt_0.8.0-1.dsc
+ 10a1638fa80466c9c548df008619da85d895f53769c2c6788eb54be825586200 29002 ruby-fog-libvirt_0.8.0.orig.tar.gz
+ 65e1a5b17f0938372e0ecdc712627e7ea9f11d59972c707c7b6879b176911264 3576 ruby-fog-libvirt_0.8.0-1.debian.tar.xz
+Homepage: https://github.com/fog/fog-libvirt
+Package-List: 
+ ruby-fog-libvirt deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest, autopkgtest-pkg-ruby
+Testsuite-Triggers: @builddeps@, gem2deb-test-runner
+Directory: pool/main/r/ruby-fog-libvirt
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: librinci-perl
+Binary: librinci-perl
+Version: 1.1.96-1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Joenio Costa <joenio@colivre.coop.br>
+Build-Depends: debhelper-compat (= 13), perl
+Build-Depends-Indep: libdata-sah-normalize-perl <!nocheck>, libdefhash-perl (>= 1.0.6) <!nocheck>
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1cfe290546127c3ce1916807f211b21e 2386 librinci-perl_1.1.96-1.dsc
+ 70c9b9504529f88652b2a199b8f53132 60264 librinci-perl_1.1.96.orig.tar.gz
+ 0d99d1d9f537918b849885159060c671 3084 librinci-perl_1.1.96-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/librinci-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/librinci-perl.git
+Checksums-Sha256:
+ 625928f673053d7e95ded15c0105fd3440f78cb99fe96d9c04925d84497aec23 2386 librinci-perl_1.1.96-1.dsc
+ 1a8038100a784854c0f0d9853d0e63e5ed1731c651cedcf31a5748fd08c3d171 60264 librinci-perl_1.1.96.orig.tar.gz
+ 1532bed9ce9a33a711e180d8bcb623a30a3ab8dba680ff76bd8b06d9e4ff4183 3084 librinci-perl_1.1.96-1.debian.tar.xz
+Homepage: https://metacpan.org/release/Rinci
+Dgit: c6b9a38667b316b30cd04bc6a7fff92b7943ba5e debian archive/debian/1.1.96-1 https://git.dgit.debian.org/librinci-perl
+Package-List: 
+ librinci-perl deb perl optional arch=all
+Testsuite: autopkgtest-pkg-perl
+Directory: pool/main/libr/librinci-perl
+Priority: optional
+Section: misc

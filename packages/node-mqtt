@@ -1,0 +1,27 @@
+Package: node-mqtt
+Binary: node-mqtt
+Version: 4.2.6-2
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Build-Depends: debhelper-compat (= 12), docbook-xsl, mocha (>= 4.1.0), node-es6-map (>= 0.1.5), node-istanbul (>= 0.4.5), node-mkdirp (>= 0.5.1), node-mqtt-connection (>= 4.0.0), node-reinterval (>= 1.1.0), node-rimraf (>= 2.6.2), node-safe-buffer (>= 5.1.2), node-should (>= 13.2.1), node-sinon (>= 1.17.7), node-through2 (>= 3.0.0), node-typescript (>= 3.2.2), node-uglify-js (>= 3.4.5), node-ws (>= 3.3.3), nodejs (>= 6), pkg-js-tools (>= 0.8.10), xsltproc
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 4e313026fbddd27367aced2c307e9aaa 2669 node-mqtt_4.2.6-2.dsc
+ d5ad124993d64d7097f4711888476712 142943 node-mqtt_4.2.6.orig.tar.gz
+ 4415fc6dac84dfa9b8ecf839b7218265 6136 node-mqtt_4.2.6-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/js-team/node-mqtt
+Vcs-Git: https://salsa.debian.org/js-team/node-mqtt.git
+Checksums-Sha256:
+ 55fe1655ae66d2ab04255a6bcf22426388bab4ba2e5ff6791216cec754edd2b2 2669 node-mqtt_4.2.6-2.dsc
+ ee78eb691222464fe322be61a0e647b08beb7e6b5bd2fa0ea44fc013a4728fb7 142943 node-mqtt_4.2.6.orig.tar.gz
+ b51f269151ce0b4e8ed3ad04572337c22f2ca73b8f0d846926aa375304b99942 6136 node-mqtt_4.2.6-2.debian.tar.xz
+Homepage: https://github.com/mqttjs/MQTT.js#readme
+Package-List: 
+ node-mqtt deb javascript optional arch=all
+Testsuite: autopkgtest
+Testsuite-Triggers: chai, mosquitto, node-istanbul, node-lcov-parse, node-mkdirp, node-mocha, node-mqtt-connection, node-rimraf, node-safe-buffer, node-should, node-sinon, node-through2, node-typescript, node-uglify-js, node-ws, openssl, uuid-runtime
+Directory: pool/main/n/node-mqtt
+Priority: extra
+Section: misc

@@ -1,0 +1,25 @@
+Package: rust-ucd-parse
+Binary: librust-ucd-parse-dev
+Version: 0.1.4-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Ximin Luo <infinity0@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-lazy-static-1+default-dev <!nocheck>, librust-regex-1+default-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 9e19ae2c279175caf79738fe1ef9114c 2210 rust-ucd-parse_0.1.4-1.dsc
+ c3140a25d489b107b6f35ca0f8728233 23648 rust-ucd-parse_0.1.4.orig.tar.gz
+ db38d99a7f2576f5b14c59d5b9356d19 2452 rust-ucd-parse_0.1.4-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ucd-parse
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/ucd-parse]
+Checksums-Sha256:
+ 1a07063e13aa814764eca3dff531995bdc5c630ff83a1b96f615442483129e35 2210 rust-ucd-parse_0.1.4-1.dsc
+ 37d6dff4dd7d2d009037a9bde83f09f5a5e3ba5a779d03e4492a670285b300b9 23648 rust-ucd-parse_0.1.4.orig.tar.gz
+ 2dafa2cad7fdf7ca648643ea48bdeef99a54161578275f0d981498ad558ca517 2452 rust-ucd-parse_0.1.4-1.debian.tar.xz
+Homepage: https://github.com/BurntSushi/ucd-generate
+Package-List: 
+ librust-ucd-parse-dev deb rust optional arch=any
+Directory: pool/main/r/rust-ucd-parse
+Priority: extra
+Section: misc

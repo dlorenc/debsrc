@@ -1,0 +1,26 @@
+Package: xastir
+Binary: xastir, xastir-data
+Version: 2.1.6-3
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Jerry Stueve <k4int@arrl.net>, Kamal Mostafa <kamal@whence.com>, Dave Hibberd <d@vehibberd.com>,
+Build-Depends: debhelper-compat (= 12), libax25-dev [linux-any], libmotif-dev, libxext-dev, libxt-dev, festival, festival-dev, libgraphicsmagick1-dev | libgraphicsmagick-dev, libshp-dev, libproj-dev, libpcre3-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libdb-dev, libgeotiff-dev, automake, po-debconf, gpsman, gpsmanshp
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ ec893df02e5dbf0cb7c3babba8c8fc7a 2330 xastir_2.1.6-3.dsc
+ 4b367ab776a6514d85f23f6f7c463c00 2687180 xastir_2.1.6.orig.tar.gz
+ ce411cea8ffbd6fe531cc3583da341c9 21132 xastir_2.1.6-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/xastir
+Vcs-Git: https://salsa.debian.org/debian-hamradio-team/xastir.git
+Checksums-Sha256:
+ 1e6b54badf9ac258616aa65a9eb574e4edeefdcdd3ddc699b42eb6b40ea40062 2330 xastir_2.1.6-3.dsc
+ 5a71af2936d4d237c779b1c3a519211f8e3cd03b9873a260c849ddc8950e1a3e 2687180 xastir_2.1.6.orig.tar.gz
+ b585dcaa159f748c98f3ff177d1bece597cfa766e142101ff09ced7f12b7dc3a 21132 xastir_2.1.6-3.debian.tar.xz
+Homepage: https://www.xastir.org/
+Package-List: 
+ xastir deb hamradio optional arch=any
+ xastir-data deb hamradio optional arch=all
+Directory: pool/main/x/xastir
+Priority: source
+Section: hamradio

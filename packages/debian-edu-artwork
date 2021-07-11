@@ -1,0 +1,28 @@
+Package: debian-edu-artwork
+Binary: debian-edu-artwork, debian-edu-artwork-softwaves, debian-edu-artwork-buster, debian-edu-artwork-homeworld
+Version: 2.11.6-1
+Maintainer: Debian Edu Developers <debian-edu@lists.debian.org>
+Uploaders: Petter Reinholdtsen <pere@debian.org>, Holger Levsen <holger@debian.org>, Mike Gabriel <sunweaver@debian.org>, Wolfgang Schweer <wschweer@arcor.de>,
+Build-Depends: advancecomp, debhelper-compat (= 13), devscripts, fonts-quicksand, imagemagick, inkscape, librsvg2-bin, optipng, rdfind, symlinks
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 1634c55c6fd73a4f63fcee7244e2433d 2531 debian-edu-artwork_2.11.6-1.dsc
+ 7ba10f0b29f8eb10a8dc542700441b3c 8413096 debian-edu-artwork_2.11.6.orig.tar.xz
+ 9a41376b42c6bab6a1da36044cc2cd04 22020 debian-edu-artwork_2.11.6-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian-edu/debian-edu-artwork
+Vcs-Git: https://salsa.debian.org/debian-edu/debian-edu-artwork.git
+Checksums-Sha256:
+ 82ab2b6805ca0199b1fe9e155949fa0252c9aa7627094ba78a899587209eb216 2531 debian-edu-artwork_2.11.6-1.dsc
+ 1ca458d831dbd51bf651d068ac675d2b6495cc7badb8551f71bc234e9b4ed793 8413096 debian-edu-artwork_2.11.6.orig.tar.xz
+ 39c887f490fd147e08924c68347dba4b1183cc1315228d41e5708c3a120f9a7b 22020 debian-edu-artwork_2.11.6-1.debian.tar.xz
+Homepage: https://blends.debian.org/edu
+Package-List: 
+ debian-edu-artwork deb graphics optional arch=all
+ debian-edu-artwork-buster deb graphics optional arch=all
+ debian-edu-artwork-homeworld deb graphics optional arch=all
+ debian-edu-artwork-softwaves deb graphics optional arch=all
+Directory: pool/main/d/debian-edu-artwork
+Priority: source
+Section: graphics

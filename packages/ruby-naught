@@ -1,0 +1,27 @@
+Package: ruby-naught
+Binary: ruby-naught
+Version: 1.1.0-1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 9~), gem2deb, ruby-rspec, ruby-simplecov, ruby-coveralls
+Architecture: all
+Standards-Version: 4.0.0
+Format: 3.0 (quilt)
+Files:
+ a176ee83a780411cbf8af3ac3513e471 2078 ruby-naught_1.1.0-1.dsc
+ f0324805e4f53304bd934f77a6009573 16473 ruby-naught_1.1.0.orig.tar.gz
+ eba370dc8b1c55e0eb2aa54e400ed008 2100 ruby-naught_1.1.0-1.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-naught.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-naught.git
+Checksums-Sha256:
+ b496dcdc679344895ffeb7ceef3bf46a39a834d53d0c7e66ff36fcac534d0e08 2078 ruby-naught_1.1.0-1.dsc
+ 4a2d86588c9df009e7942c5313f3144e5da0b9804d1777fccf21b1b900c67442 16473 ruby-naught_1.1.0.orig.tar.gz
+ 75e81a1381997e5558dda6e5f0641b1b29480246ca6134115eddb570ae69a84f 2100 ruby-naught_1.1.0-1.debian.tar.xz
+Homepage: https://github.com/avdi/naught
+Package-List: 
+ ruby-naught deb ruby optional arch=all
+Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+Directory: pool/main/r/ruby-naught
+Priority: optional
+Section: misc

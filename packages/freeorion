@@ -1,0 +1,26 @@
+Package: freeorion
+Binary: freeorion, freeorion-data
+Version: 0.4.10.1-1
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Markus Koschany <apo@debian.org>
+Build-Depends: cmake, debhelper-compat (= 13), dh-python, libalut-dev, libboost-all-dev, libfreetype6-dev, libgl1-mesa-dev, libglew-dev, libglu1-mesa-dev, libjpeg-dev, libogg-dev, libopenal-dev, libpng-dev, libsdl2-dev, libtiff-dev, libvorbis-dev, pkg-config, python3
+Architecture: linux-any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 8445e29472557518b82386791759d068 2391 freeorion_0.4.10.1-1.dsc
+ ec6dc61039279f151aab482a57daa746 124809524 freeorion_0.4.10.1.orig.tar.gz
+ 0dc481a11c77dea8bfb244282e223c11 24764 freeorion_0.4.10.1-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/games-team/freeorion
+Vcs-Git: https://salsa.debian.org/games-team/freeorion.git
+Checksums-Sha256:
+ 6f2a3ab75da3bfde41471048795938586b7430b0d4ac76be0dee9dd09b904b9a 2391 freeorion_0.4.10.1-1.dsc
+ 0006191adb5046d51116f6e5a657773f2015af7c23684f29e2a7dff7daf5e4e7 124809524 freeorion_0.4.10.1.orig.tar.gz
+ 845b4a749b93110406473238942e0834d9d0b0141822547cf853e1f6e994b40e 24764 freeorion_0.4.10.1-1.debian.tar.xz
+Homepage: http://www.freeorion.org
+Package-List: 
+ freeorion deb games optional arch=linux-any
+ freeorion-data deb games optional arch=all
+Directory: pool/main/f/freeorion
+Priority: optional
+Section: misc

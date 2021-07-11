@@ -1,0 +1,24 @@
+Package: rust-thread-id
+Binary: librust-thread-id-dev
+Version: 3.3.0-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Sylvestre Ledru <sylvestre@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 8), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>, librust-libc-0.2+default-dev (>= 0.2.6~~) <!nocheck>, librust-redox-syscall-0.1+default-dev <!nocheck>, librust-winapi-0.3+default-dev <!nocheck>, librust-winapi-0.3+processthreadsapi-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ be2c8ae6a3eebf025d25f8e0d73a764f 2272 rust-thread-id_3.3.0-1.dsc
+ 2ad665e1ba14306599bf04156b24a1fe 7874 rust-thread-id_3.3.0.orig.tar.gz
+ 15c85939abd93ee14b01bfc6646d36bf 2412 rust-thread-id_3.3.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/thread-id
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/thread-id]
+Checksums-Sha256:
+ 3949a73bdafa0f76f56028dd4400830fc35ad430c837f7722f43a50814cea026 2272 rust-thread-id_3.3.0-1.dsc
+ 7ef46259832ae059c2a43c0a699309a81660a6db029b9e9a2821a8629923ef06 7874 rust-thread-id_3.3.0.orig.tar.gz
+ e0c68ebe18360821521ba2b4f1499720f2d21ffc0d2e5c0517e8617ecb287e5a 2412 rust-thread-id_3.3.0-1.debian.tar.xz
+Package-List: 
+ librust-thread-id-dev deb rust optional arch=any
+Directory: pool/main/r/rust-thread-id
+Priority: extra
+Section: misc

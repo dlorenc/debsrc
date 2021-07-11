@@ -1,0 +1,26 @@
+Package: dtkwm
+Binary: libdtkwm-dev, libdtkwm5
+Version: 2.0.12-3
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Uploaders: Yangfl <mmyangfl@gmail.com>, Boyuan Yang <byang@debian.org>, Yanhao Mo <yanhaocs@gmail.com>, Arun Kumar Pariyar <openarungeek@gmail.com>,
+Build-Depends: debhelper-compat (= 13), libdtkcore-dev (>= 5.2~), libegl1-mesa-dev, libfontconfig1-dev, libfreetype6-dev, libglib2.0-dev, libmtdev-dev, libqt5x11extras5-dev, libudev-dev, libxcb-util-dev, libxext-dev, libxrender-dev, pkg-config, pkg-kde-tools, qtbase5-dev (>= 5.6), qtbase5-private-dev, x11proto-xext-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 751a62fe6b40c0813c3d9c3bd54539d0 2378 dtkwm_2.0.12-3.dsc
+ 528294f2613d4e60079154b723d400a8 22017 dtkwm_2.0.12.orig.tar.gz
+ 54bc018887271a1f0c0d5b1dde32414f 4360 dtkwm_2.0.12-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/pkg-deepin-team/dtkwm
+Vcs-Git: https://salsa.debian.org/pkg-deepin-team/dtkwm.git
+Checksums-Sha256:
+ 51b2c98a56cd8b9ac18495cfe99be784565b76b8629fe84086f1f59a418ea6ae 2378 dtkwm_2.0.12-3.dsc
+ bb6140964372a57bbb5a940d07e98aaef2f655bb1478716cad62a35eb9cf3045 22017 dtkwm_2.0.12.orig.tar.gz
+ ba889ddcb368134f1d1113fc8cb51b9a060e01039485854c4ce278486bcc5fda 4360 dtkwm_2.0.12-3.debian.tar.xz
+Homepage: https://github.com/linuxdeepin/dtkwm
+Package-List: 
+ libdtkwm-dev deb libdevel optional arch=any
+ libdtkwm5 deb libs optional arch=any
+Directory: pool/main/d/dtkwm
+Priority: extra
+Section: misc

@@ -1,0 +1,27 @@
+Package: jinja2
+Binary: python-jinja2, python-jinja2-doc, python3-jinja2
+Version: 2.11.3-1
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, python-all (>= 2.6.6-3), python3-all, python-setuptools (>= 0.6b3-1~), python3-setuptools, python3-sphinx, python3-pallets-sphinx-themes, python3-sphinx-issues, python3-pygments
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 74ed7d56e35aae74e72519817891764d 1874 jinja2_2.11.3-1.dsc
+ 231dc00d34afb2672c497713fa9cdaaa 257589 jinja2_2.11.3.orig.tar.gz
+ 91cf6917fb18ab25cdf66984e84eca95 7800 jinja2_2.11.3-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/jinja2
+Vcs-Git: https://salsa.debian.org/python-team/packages/jinja2.git
+Checksums-Sha256:
+ 93f64311945cb0fd4ebf5b1a196f0de91a3928ae30d40036ba6ecf61d1ceb997 1874 jinja2_2.11.3-1.dsc
+ a6d58433de0ae800347cab1fa3043cebbabe8baa9d29e668f1c768cb87a333c6 257589 jinja2_2.11.3.orig.tar.gz
+ 0266862e1f0b4a5ede21c45b1fda3b17fe19e750a18930ef318a65abd68f8631 7800 jinja2_2.11.3-1.debian.tar.xz
+Homepage: http://jinja.pocoo.org/
+Package-List: 
+ python-jinja2 deb python optional arch=all
+ python-jinja2-doc deb doc optional arch=all
+ python3-jinja2 deb python optional arch=all
+Directory: pool/main/j/jinja2
+Priority: source
+Section: python

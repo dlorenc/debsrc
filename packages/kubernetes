@@ -1,0 +1,24 @@
+Package: kubernetes
+Binary: kubernetes-client, kubernetes-node, kubernetes-master
+Version: 1.20.2-1
+Maintainer: Janos Lenart <ocsi@debian.org>
+Build-Depends: debhelper (>= 12~), bash-completion, golang-1.15-go, jq, rsync
+Architecture: amd64 i386 armel armhf arm64 s390x
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 9545bfd3185908958e5b92bf143a518d 2062 kubernetes_1.20.2-1.dsc
+ 20b98978e86e1e783dd226ce966a85e8 34428927 kubernetes_1.20.2.orig.tar.gz
+ 91558b3d37c13ce0b63ce340cea06dbf 17228 kubernetes_1.20.2-1.debian.tar.xz
+Checksums-Sha256:
+ 802fcf265c503b6552e395dddd38cd29330dbc66970e81af45956fc80fe87b7c 2062 kubernetes_1.20.2-1.dsc
+ b83c0780efb182d928dc63d46488a847f161f04e40a94b96bf5247dd671ecdfc 34428927 kubernetes_1.20.2.orig.tar.gz
+ 665fddbd53cbe6505e8df18c56a7986e12644f20893795fcd6d10fb93d5687c0 17228 kubernetes_1.20.2-1.debian.tar.xz
+Homepage: http://kubernetes.io/
+Package-List: 
+ kubernetes-client deb admin optional arch=amd64,i386,armel,armhf,arm64,s390x
+ kubernetes-master deb admin optional arch=amd64,i386,armel,armhf,arm64,s390x
+ kubernetes-node deb admin optional arch=amd64,i386,armel,armhf,arm64,s390x
+Directory: pool/main/k/kubernetes
+Priority: optional
+Section: misc

@@ -1,0 +1,28 @@
+Package: pylint
+Binary: pylint-doc, pylint, pylint3
+Version: 2.7.2-3
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Team <team+python@tracker.debian.org>,
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all
+Build-Depends-Indep: python3-astroid (>= 2.5.1), python3-docs-theme, python3-isort, python3-mccabe, python3-pytest <!nocheck>, python3-pytest-benchmark <!nocheck>, python3-pytest-runner <!nocheck>, python3-setuptools, python3-sphinx, python3-toml
+Architecture: all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 2144f74592344c6b652be099048bac09 2250 pylint_2.7.2-3.dsc
+ 5d3ef78180436babc9c1b2c091d47198 515172 pylint_2.7.2.orig.tar.xz
+ f8a946a25d9b58afee272cb3c99df47e 22152 pylint_2.7.2-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pylint
+Vcs-Git: https://salsa.debian.org/python-team/packages/pylint.git
+Checksums-Sha256:
+ 2e7cedfc1cfd0a717194699f4e3d86a26a71349d4bb8a6beb9cc0b623ac1d40f 2250 pylint_2.7.2-3.dsc
+ 2ac76dd38199dd5b39b0db0333bcd4987f475c956b157896266655e3f4781232 515172 pylint_2.7.2.orig.tar.xz
+ 6b1cda2fb5734890427ab747a60b89671e40fc379f15c2c87086d95c31710fe6 22152 pylint_2.7.2-3.debian.tar.xz
+Homepage: https://www.pylint.org/
+Package-List: 
+ pylint deb python optional arch=all
+ pylint-doc deb doc optional arch=all
+ pylint3 deb python optional arch=all
+Directory: pool/main/p/pylint
+Priority: source
+Section: python

@@ -1,0 +1,25 @@
+Package: pymia
+Binary: python3-mia
+Version: 0.1.9-2.1
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Gert Wollny <gewo@debian.org>
+Build-Depends: debhelper (>= 9), pkg-config, dh-python, python3-dev:any, python3-numpy, python3-setuptools, libmia-2.4-dev
+Architecture: any
+Standards-Version: 4.1.4
+Format: 3.0 (quilt)
+Files:
+ 333ab3fa7e1d9aa3fd68d124ee00bf66 1967 pymia_0.1.9-2.1.dsc
+ a63c809dde0c2c4c6ac523a97906656f 20874 pymia_0.1.9.orig.tar.gz
+ fc2c58a42b5e81e8d53aa2a82e37e24e 7756 pymia_0.1.9-2.1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/pymia
+Vcs-Git: https://salsa.debian.org/med-team/pymia.git
+Checksums-Sha256:
+ 834bf2aecb9f94017af1793abf2d4a73df237d594bddf1e8e3f19241a486e601 1967 pymia_0.1.9-2.1.dsc
+ 1d3b311711e949d7c9ceb6288738580af773f34cbb7809f52c4493485d097c0c 20874 pymia_0.1.9.orig.tar.gz
+ 437a75ec5e57f58bfb3f804d817cf3482e0de308c59740e4205690b1760d4ead 7756 pymia_0.1.9-2.1.debian.tar.xz
+Homepage: http://mia.sourceforge.net
+Package-List: 
+ python3-mia deb python optional arch=any
+Directory: pool/main/p/pymia
+Priority: optional
+Section: misc

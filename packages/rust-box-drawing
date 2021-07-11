@@ -1,0 +1,24 @@
+Package: rust-box-drawing
+Binary: librust-box-drawing-dev
+Version: 0.1.2-1
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders: Nicolas Braud-Santoni <nicoo@debian.org>
+Build-Depends: debhelper (>= 11), dh-cargo (>= 15), cargo:native <!nocheck>, rustc:native <!nocheck>, libstd-rust-dev <!nocheck>
+Architecture: any
+Standards-Version: 4.2.0
+Format: 3.0 (quilt)
+Files:
+ 6cc2ae2dc12d96278ee5f0ce3cb4ceaf 2098 rust-box-drawing_0.1.2-1.dsc
+ 638bd09f3cf125acd6cd1a7de69a539e 2819 rust-box-drawing_0.1.2.orig.tar.gz
+ eae06ca50aff4453728440705fabe406 2316 rust-box-drawing_0.1.2-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/box-drawing
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/box-drawing]
+Checksums-Sha256:
+ 78192dcf0b24bf21c093986092addc0efc47bb032111cf4fe70c4ac7494017b6 2098 rust-box-drawing_0.1.2-1.dsc
+ ea27d8d5fd867b17523bf6788b1175fa9867f34669d057e9adaf76e27bcea44b 2819 rust-box-drawing_0.1.2.orig.tar.gz
+ fa661466b63950dae396ddfa31493f3c4f314e34d95b6c647c466246323b0ebd 2316 rust-box-drawing_0.1.2-1.debian.tar.xz
+Package-List: 
+ librust-box-drawing-dev deb rust optional arch=any
+Directory: pool/main/r/rust-box-drawing
+Priority: extra
+Section: misc

@@ -1,0 +1,28 @@
+Package: haskell-unordered-containers
+Binary: libghc-unordered-containers-dev, libghc-unordered-containers-prof, libghc-unordered-containers-doc
+Version: 0.2.10.0-3
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts (>= 0.13), cdbs, ghc (>= 8), ghc-prof, libghc-hashable-dev (>= 1.0.1.1), libghc-hashable-dev (<< 1.4), libghc-hashable-prof, libghc-chasingbottoms-dev <!nocheck>, libghc-hunit-dev <!nocheck>, libghc-quickcheck2-dev (>= 2.4.0.1) <!nocheck>, libghc-test-framework-dev (>= 0.3.3) <!nocheck>, libghc-test-framework-hunit-dev <!nocheck>, libghc-test-framework-quickcheck2-dev (>= 0.2.9) <!nocheck>
+Build-Depends-Indep: ghc-doc, libghc-hashable-doc
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ d36be3f6d3ba1be2f11ef18c0fe52eb2 2890 haskell-unordered-containers_0.2.10.0-3.dsc
+ 5994101f6b1f19b264dcfdf863f57324 44733 haskell-unordered-containers_0.2.10.0.orig.tar.gz
+ b88794e606823ac682a9ef2acbb1c9a1 3712 haskell-unordered-containers_0.2.10.0-3.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-unordered-containers
+Vcs-Git: https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-unordered-containers]
+Checksums-Sha256:
+ 2dc657e67c0816c27d33c3266a98001cb6df90f3a893142889d4420cafe32cf6 2890 haskell-unordered-containers_0.2.10.0-3.dsc
+ 65f117bdbdea9efc75fb9fd539873de7687e005d8898bb21821020a4b383c573 44733 haskell-unordered-containers_0.2.10.0.orig.tar.gz
+ 18ab69fd7cbb0a3e588bfeda5b54713514fbadcd13769bcbb6d413d119037540 3712 haskell-unordered-containers_0.2.10.0-3.debian.tar.xz
+Homepage: https://github.com/tibbe/unordered-containers
+Package-List: 
+ libghc-unordered-containers-dev deb haskell optional arch=any
+ libghc-unordered-containers-doc deb doc optional arch=all
+ libghc-unordered-containers-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-unordered-containers
+Priority: source
+Section: haskell

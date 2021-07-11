@@ -1,0 +1,25 @@
+Package: airlift-slice
+Binary: libslice-java
+Version: 0.10-2
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 9), default-jdk, maven-debian-helper (>= 1.5), libfindbugs-annotations-java
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Files:
+ ca559ba83d04920c64e935875072800e 2150 airlift-slice_0.10-2.dsc
+ 4e45fb7f6d4137e2965042d4214b3b0c 32312 airlift-slice_0.10.orig.tar.xz
+ e6d42dcdb7dd4bddcbdae810568f463d 2484 airlift-slice_0.10-2.debian.tar.xz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/airlift-slice.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/airlift-slice.git
+Checksums-Sha256:
+ 40c7c521074c87ebb0e34f3385ca034e54731632d2e3d3085cf821f32579379d 2150 airlift-slice_0.10-2.dsc
+ 8fcabc30f52aac2a2dbc274711d9079011f51ab8bcdfd7ed4a18364d38bde47e 32312 airlift-slice_0.10.orig.tar.xz
+ ffe3da32bc5a507e17cacf7d50f395220ad363c0c77b32dfd93d0212ebb3c552 2484 airlift-slice_0.10-2.debian.tar.xz
+Homepage: https://github.com/airlift/slice
+Package-List: 
+ libslice-java deb java optional arch=all
+Directory: pool/main/a/airlift-slice
+Priority: optional
+Section: misc

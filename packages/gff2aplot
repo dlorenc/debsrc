@@ -1,0 +1,27 @@
+Package: gff2aplot
+Binary: gff2aplot
+Version: 2.0-13
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper-compat (= 13)
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ a321d80ab6bfa5f63cf3c5ac2236419e 2044 gff2aplot_2.0-13.dsc
+ 8b269e236bcbacb1c70e4a3424940dc6 328439 gff2aplot_2.0.orig.tar.gz
+ b2533d35f5cbce5821169a0b28aa0517 20632 gff2aplot_2.0-13.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/gff2aplot
+Vcs-Git: https://salsa.debian.org/med-team/gff2aplot.git
+Checksums-Sha256:
+ a723d6e939960f383b62aa067460f8f593924f4e99556daa897c4d931b6182fd 2044 gff2aplot_2.0-13.dsc
+ 33798a1f2877fc9d64aaf143c2e5bb909021b1f147c6718e61fbcc96cc65ccc3 328439 gff2aplot_2.0.orig.tar.gz
+ ee8b3169ed88156414808ad77e08537820394414bc61ebdb9f94f122d02b72e3 20632 gff2aplot_2.0-13.debian.tar.xz
+Homepage: http://genome.imim.es/software/gfftools/GFF2APLOT.html
+Package-List: 
+ gff2aplot deb science optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: ghostscript, graphicsmagick, imagemagick
+Directory: pool/main/g/gff2aplot
+Priority: source
+Section: science

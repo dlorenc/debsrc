@@ -1,0 +1,37 @@
+Package: gdk-pixbuf
+Binary: libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf2.0-doc, libgdk-pixbuf2.0-0-udeb, libgdk-pixbuf-2.0-0-udeb, gir1.2-gdkpixbuf-2.0, gdk-pixbuf-tests
+Version: 2.42.2+dfsg-1
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-exec, docbook-xml, docbook-xsl, gnome-pkg-tools (>= 0.10), gobject-introspection (>= 0.9.12-4~), libgirepository1.0-dev (>= 0.9.3), libglib2.0-dev (>= 2.56.0), libjpeg-dev, libpng-dev (<< 1.7), libpng-dev (>= 1.6), libtiff-dev, meson (>= 0.55.3), shared-mime-info (>= 1.2), xsltproc
+Build-Depends-Indep: gtk-doc-tools (>= 1.20) <!nodoc>, libglib2.0-doc <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 8ee02610177c07a0675cde81a2a16548 3276 gdk-pixbuf_2.42.2+dfsg-1.dsc
+ 6ad51a9ed2b394acc88052ae9de01c9e 6433920 gdk-pixbuf_2.42.2+dfsg.orig.tar.xz
+ 5173ea8ae536d3dff34402b703db1ed0 28940 gdk-pixbuf_2.42.2+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/gnome-team/gdk-pixbuf
+Vcs-Git: https://salsa.debian.org/gnome-team/gdk-pixbuf.git
+Checksums-Sha256:
+ b9032af48b62b221fe9d3cac50134c71083d9936a276213d5d06e37628910d09 3276 gdk-pixbuf_2.42.2+dfsg-1.dsc
+ f781dca5af4c6536befb1faaa3b82efb9750c52a350842bc82b2aa08ce129ee9 6433920 gdk-pixbuf_2.42.2+dfsg.orig.tar.xz
+ c538067ab0cac02aa701245d2c10a697c5f51e03bf9df3aeac446e7b0b6ad1f0 28940 gdk-pixbuf_2.42.2+dfsg-1.debian.tar.xz
+Homepage: https://www.gtk.org/
+Dgit: 8ef18b0b9196055cd650ff4d10eeb88c7a09fdb7 debian archive/debian/2.42.2+dfsg-1 https://git.dgit.debian.org/gdk-pixbuf
+Package-List: 
+ gdk-pixbuf-tests deb libs optional arch=any
+ gir1.2-gdkpixbuf-2.0 deb introspection optional arch=any
+ libgdk-pixbuf-2.0-0 deb libs optional arch=any
+ libgdk-pixbuf-2.0-0-udeb udeb debian-installer optional arch=any
+ libgdk-pixbuf-2.0-dev deb libdevel optional arch=any
+ libgdk-pixbuf2.0-0-udeb udeb debian-installer optional arch=any
+ libgdk-pixbuf2.0-bin deb libs optional arch=any
+ libgdk-pixbuf2.0-common deb libs optional arch=all
+ libgdk-pixbuf2.0-doc deb doc optional arch=all profile=!nodoc
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, gnome-desktop-testing, pkg-config
+Directory: pool/main/g/gdk-pixbuf
+Priority: source
+Section: libs

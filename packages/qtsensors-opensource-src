@@ -1,0 +1,31 @@
+Package: qtsensors-opensource-src
+Binary: libqt5sensors5, qml-module-qtsensors, libqt5sensors5-dev, qtsensors5-examples, qtsensors5-doc, qtsensors5-doc-html
+Version: 5.15.2-2
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@debian.org>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>, Timo Jyrinki <timo@debian.org>, Dmitry Shachnev <mitya57@debian.org>, Simon Quigley <tsimonq2@debian.org>
+Build-Depends: debhelper-compat (= 13), pkg-kde-tools, qtbase5-private-dev (>= 5.15.2+dfsg~), qtdeclarative5-dev (>= 5.15.2+dfsg~), xauth <!nocheck>, xvfb <!nocheck>
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>, qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>, qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>, qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ bcfbc2f8e7ae3ba6264a6a69c1624bc2 2969 qtsensors-opensource-src_5.15.2-2.dsc
+ 82288a853427eaf7ae8f1dce4fa0fba2 2056944 qtsensors-opensource-src_5.15.2.orig.tar.xz
+ 966bc9252c93db539c746159219f49df 12740 qtsensors-opensource-src_5.15.2-2.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtsensors
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtsensors.git
+Checksums-Sha256:
+ 0605480e504210f89357ed01b1c642d8464b87e939baf87aeeec5ae17907b125 2969 qtsensors-opensource-src_5.15.2-2.dsc
+ 3f0011f9e9942cad119146b54d960438f4568a22a274cdad4fae06bb4e0e4839 2056944 qtsensors-opensource-src_5.15.2.orig.tar.xz
+ 18d1ba538d4a12dc6a209cfd47d7a71ea5a2fa107e445ef740a15b10e0060c5f 12740 qtsensors-opensource-src_5.15.2-2.debian.tar.xz
+Homepage: https://doc.qt.io/qt-5/qtsensors-index.html
+Package-List: 
+ libqt5sensors5 deb libs optional arch=any
+ libqt5sensors5-dev deb libdevel optional arch=any
+ qml-module-qtsensors deb libs optional arch=any
+ qtsensors5-doc deb doc optional arch=all profile=!nodoc
+ qtsensors5-doc-html deb doc optional arch=all profile=!nodoc
+ qtsensors5-examples deb x11 optional arch=any
+Directory: pool/main/q/qtsensors-opensource-src
+Priority: optional
+Section: misc

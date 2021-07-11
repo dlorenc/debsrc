@@ -1,0 +1,26 @@
+Package: biococoa
+Binary: libbiococoa-dev, libbiococoa2
+Version: 2.2.2-5
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Scott Christley <schristley@mac.com>, Andreas Tille <tille@debian.org>, Charles Plessy <plessy@debian.org>
+Build-Depends: cdbs, gnustep-make, debhelper (>= 11~), libgnustep-base-dev
+Architecture: any
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ 925c3ee0e0dd090d48087ce6bcee068d 2117 biococoa_2.2.2-5.dsc
+ 5d7238f1481385a35679069c8a96e7da 358850 biococoa_2.2.2.orig.tar.gz
+ 518a04626c63885860e8a92466c652ad 9112 biococoa_2.2.2-5.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/med-team/biococoa
+Vcs-Git: https://salsa.debian.org/med-team/biococoa.git
+Checksums-Sha256:
+ c1d974d56657f874e523e7587ac9018b18c913f157d9201fccaa9bbd47136314 2117 biococoa_2.2.2-5.dsc
+ 383eea4e04ca584ecf5bc06507996acf193d3b1df9afecaca6fb58cbe41df384 358850 biococoa_2.2.2.orig.tar.gz
+ ff878613dfa8a063f055e3c88ca2f67674dba026813fdff16f6f9f5ec0dfcbb2 9112 biococoa_2.2.2-5.debian.tar.xz
+Homepage: http://bioinformatics.org/biococoa/
+Package-List: 
+ libbiococoa-dev deb libdevel optional arch=any
+ libbiococoa2 deb libs optional arch=any
+Directory: pool/main/b/biococoa
+Priority: source
+Section: science

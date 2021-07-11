@@ -1,0 +1,30 @@
+Package: python-cffi
+Binary: python3-cffi, python3-cffi-backend, python3-cffi-backend-dbg, python-cffi-doc
+Version: 1.14.5-1
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends: debhelper-compat (= 12), dh-python, libffi-dev, python3-all-dbg, python3-all-dev, python3-py, python3-pycparser, python3-pytest, python3-setuptools, python3-sphinx, virtualenv
+Architecture: any all
+Standards-Version: 4.5.1
+Format: 3.0 (quilt)
+Files:
+ e6b50baf144f85fd7e4b2a6b60a6c7a7 1871 python-cffi_1.14.5-1.dsc
+ 272cb183bf0365530e3c0d8f446cd89d 475055 python-cffi_1.14.5.orig.tar.gz
+ cf065a6eadfd0b15088d4d6a373e303c 6880 python-cffi_1.14.5-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-cffi
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-cffi.git
+Checksums-Sha256:
+ 2df871cc959dc99b490720427ae7e29778eb0ed3f9b57721d274dfc52779169c 1871 python-cffi_1.14.5-1.dsc
+ fd78e5fee591709f32ef6edb9a015b4aa1a5022598e36227500c8f4e02328d9c 475055 python-cffi_1.14.5.orig.tar.gz
+ f63edaa6b42d79dd8c3ddcca080b3f3b4daf809b594c445a7d83f93988e4a79e 6880 python-cffi_1.14.5-1.debian.tar.xz
+Homepage: https://cffi.readthedocs.org/
+Package-List: 
+ python-cffi-doc deb doc optional arch=all
+ python3-cffi deb python optional arch=all
+ python3-cffi-backend deb python optional arch=any
+ python3-cffi-backend-dbg deb debug optional arch=any
+Testsuite: autopkgtest
+Testsuite-Triggers: build-essential, python3-all-dbg, python3-all-dev, python3-py, python3-pytest, python3-setuptools, virtualenv
+Directory: pool/main/p/python-cffi
+Priority: source
+Section: misc

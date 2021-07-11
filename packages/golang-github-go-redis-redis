@@ -1,0 +1,27 @@
+Package: golang-github-go-redis-redis
+Binary: golang-github-go-redis-redis-dev
+Version: 6.15.0-1
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Christos Trochalakis <ctrochalakis@debian.org>, Michael Hudson-Doyle <mwhudson@debian.org>
+Build-Depends: debhelper (>= 11), dh-golang, golang-any, golang-ginkgo-dev, golang-gomega-dev, redis-server
+Architecture: all
+Standards-Version: 4.3.0
+Format: 3.0 (quilt)
+Files:
+ c331c953002c19b72ff8c519b96edc72 2352 golang-github-go-redis-redis_6.15.0-1.dsc
+ 6dc8f373c41786d8db11671e558da6b9 89731 golang-github-go-redis-redis_6.15.0.orig.tar.gz
+ c88ac301f0e7cb41a3095aaf58b864de 3720 golang-github-go-redis-redis_6.15.0-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-go-redis-redis
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-go-redis-redis.git
+Checksums-Sha256:
+ ae1ee7331122482195461157201c08bc976129e799f97debbaf94ce9f5bd9d06 2352 golang-github-go-redis-redis_6.15.0-1.dsc
+ 79cc7fbb2a288b3e4e3a9573cbf08c185a32258b9505a4281b2983cf1ad7de4e 89731 golang-github-go-redis-redis_6.15.0.orig.tar.gz
+ c7d3093a477cd2ca652442bcfde390bf1a70ab58f2c1b543acfcff68206a2cf9 3720 golang-github-go-redis-redis_6.15.0-1.debian.tar.xz
+Homepage: https://github.com/go-redis/redis
+Go-Import-Path: github.com/go-redis/redis
+Package-List: 
+ golang-github-go-redis-redis-dev deb devel optional arch=all
+Testsuite: autopkgtest-pkg-go
+Directory: pool/main/g/golang-github-go-redis-redis
+Priority: extra
+Section: golang

@@ -1,0 +1,26 @@
+Package: r-bioc-experimenthub
+Binary: r-bioc-experimenthub
+Version: 1.16.0+ds-1
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Steffen Moeller <moeller@debian.org>
+Build-Depends: debhelper-compat (= 13), dh-r, r-base-dev, r-bioc-biocgenerics (>= 0.15.10), r-bioc-annotationhub (>= 2.19.3), r-bioc-biocfilecache, r-bioc-s4vectors, r-cran-biocmanager, r-cran-curl, r-cran-rappdirs
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ b8b2a8cf512749bb8b3123499c6c5e4c 2287 r-bioc-experimenthub_1.16.0+ds-1.dsc
+ 02de9dc8aa6130f9eb3d428f5cb46a5e 19000 r-bioc-experimenthub_1.16.0+ds.orig.tar.xz
+ f4fd52889a2b2c57ad4a7146566119cb 4828 r-bioc-experimenthub_1.16.0+ds-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-bioc-experimenthub
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-bioc-experimenthub.git
+Checksums-Sha256:
+ 2542a6f40734ce8504bd265702ca2bf9c5639d4e17dc18067e41be3f32414738 2287 r-bioc-experimenthub_1.16.0+ds-1.dsc
+ b29305cc76c8886917103612519e44b7ea201312a6c2b834630d82f89a6212cb 19000 r-bioc-experimenthub_1.16.0+ds.orig.tar.xz
+ f513babec668d5b2f8e9837ddae6e8f2196d12c46c296f219c019fa002941dd9 4828 r-bioc-experimenthub_1.16.0+ds-1.debian.tar.xz
+Homepage: https://bioconductor.org/packages/ExperimentHub/
+Package-List: 
+ r-bioc-experimenthub deb gnu-r optional arch=all
+Testsuite: autopkgtest-pkg-r
+Directory: pool/main/r/r-bioc-experimenthub
+Priority: extra
+Section: misc

@@ -1,0 +1,26 @@
+Package: docbook-xsl
+Binary: docbook-xsl, docbook-xsl-ns
+Version: 1.79.2+dfsg-1
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13), docbook-xml (>> 4.4), docbook5-xml, libxml2-utils
+Build-Depends-Indep: xml-core
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Files:
+ 5842bb283e8c9f893a92ff127b4e22df 2079 docbook-xsl_1.79.2+dfsg-1.dsc
+ be38542e005fa6a95c78586fdeeea042 42438176 docbook-xsl_1.79.2+dfsg.orig.tar.bz2
+ 7916f3b8cdcc6844d92f10cc330db99c 35832 docbook-xsl_1.79.2+dfsg-1.debian.tar.xz
+Vcs-Browser: https://salsa.debian.org/debian/docbook-xsl
+Vcs-Git: https://salsa.debian.org/debian/docbook-xsl.git
+Checksums-Sha256:
+ 9cd5ebcf15475c45885afb0862ece31d5527a3d53d5c9fa1583f48b545b94ff8 2079 docbook-xsl_1.79.2+dfsg-1.dsc
+ f453bac2ab3dc1709226864db2fa0119b94622840dcefa9b3e543c5dca90173d 42438176 docbook-xsl_1.79.2+dfsg.orig.tar.bz2
+ 0782e72ba9b5e9d8b0fceca3a0470b5a8357dde725b306d79bb6a934e09a88a9 35832 docbook-xsl_1.79.2+dfsg-1.debian.tar.xz
+Homepage: https://github.com/docbook/wiki/wiki/DocBookXslStylesheets
+Package-List: 
+ docbook-xsl deb text optional arch=all
+ docbook-xsl-ns deb text optional arch=all
+Directory: pool/main/d/docbook-xsl
+Priority: source
+Section: text

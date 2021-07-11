@@ -1,0 +1,26 @@
+Package: haskell-cborg-json
+Binary: libghc-cborg-json-dev, libghc-cborg-json-prof, libghc-cborg-json-doc
+Version: 0.2.2.0-1
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
+Uploaders: Clint Adams <clint@debian.org>
+Build-Depends: debhelper (>= 10), haskell-devscripts-minimal | haskell-devscripts (>= 0.8), cdbs, ghc, ghc-prof, libghc-aeson-dev (>= 0.7), libghc-aeson-dev (<< 1.5), libghc-aeson-prof, libghc-aeson-pretty-dev (>= 0.8), libghc-aeson-pretty-dev (<< 0.9), libghc-aeson-pretty-prof (>= 0.8), libghc-aeson-pretty-prof (<< 0.9), libghc-cborg-dev (>= 0.2), libghc-cborg-dev (<< 0.3), libghc-cborg-prof (>= 0.2), libghc-cborg-prof (<< 0.3), libghc-scientific-dev (>= 0.3), libghc-scientific-dev (<< 0.4), libghc-scientific-prof (>= 0.3), libghc-scientific-prof (<< 0.4), libghc-unordered-containers-dev (>= 0.2), libghc-unordered-containers-dev (<< 0.3), libghc-unordered-containers-prof (>= 0.2), libghc-unordered-containers-prof (<< 0.3), libghc-vector-dev (>= 0.10), libghc-vector-dev (<< 0.13), libghc-vector-prof (>= 0.10), libghc-vector-prof (<< 0.13)
+Build-Depends-Indep: ghc-doc, libghc-aeson-doc, libghc-aeson-pretty-doc, libghc-cborg-doc, libghc-scientific-doc, libghc-unordered-containers-doc, libghc-vector-doc
+Architecture: any all
+Standards-Version: 4.4.0
+Format: 3.0 (quilt)
+Files:
+ dd4f75a8366c4c768ffb1500d3836b8a 3056 haskell-cborg-json_0.2.2.0-1.dsc
+ 8afc20eb1451eda4560b668d0a620521 4075 haskell-cborg-json_0.2.2.0.orig.tar.gz
+ 3044073c62c5f5370bbbe20db9e1ffaf 2248 haskell-cborg-json_0.2.2.0-1.debian.tar.xz
+Checksums-Sha256:
+ cde2e5342c853f990a4a0cb108510ff6ccff9376166f317e6ed64fd24add79cb 3056 haskell-cborg-json_0.2.2.0-1.dsc
+ ab68a2457cb71a76699d7a8df07a880ea70c51d2c1a891b12669ca9ccfa7517b 4075 haskell-cborg-json_0.2.2.0.orig.tar.gz
+ dd0b1f05c2f3f43dbd31d9bc947bf213f11d3fb2cb072e363b3d667ca925561e 2248 haskell-cborg-json_0.2.2.0-1.debian.tar.xz
+Homepage: https://github.com/well-typed/cborg
+Package-List: 
+ libghc-cborg-json-dev deb haskell optional arch=any
+ libghc-cborg-json-doc deb doc optional arch=all
+ libghc-cborg-json-prof deb haskell optional arch=any
+Directory: pool/main/h/haskell-cborg-json
+Priority: extra
+Section: misc
