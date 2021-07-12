@@ -1,25 +1,25 @@
 Package: wpewebkit
 Binary: libwpewebkit-1.0-dev, libwpewebkit-1.0-3, wpewebkit-driver, libwpewebkit-1.0-doc
-Version: 2.30.6-1
+Version: 2.32.1-1
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
 Uploaders: Alberto Garcia <berto@igalia.com>
 Build-Depends: debhelper (>= 10), bubblewrap (>= 0.3.1) [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], xdg-dbus-proxy [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], libseccomp-dev [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], cmake (>= 3.10), gperf, jdupes, libatk-bridge2.0-dev, libatk1.0-dev, libcairo2-dev (>= 1.14.0), libepoxy-dev, libgbm-dev, libgcrypt20-dev (>= 1.7.0), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libharfbuzz-dev (>= 0.9.18), libicu-dev, libjpeg-dev, libopenjp2-7-dev (>= 2.2.0), libsoup2.4-dev (>= 2.54.0), libsqlite3-dev, libsystemd-dev, libtasn1-6-dev, libwayland-dev, libwebp-dev, libwoff-dev (>= 1.0.2), libwpe-1.0-dev, libwpebackend-fdo-1.0-dev, libxslt1-dev (>= 1.1.7), ninja-build, ruby:native, wayland-protocols
-Build-Depends-Indep: gtk-doc-tools
+Build-Depends-Indep: gtk-doc-tools, libglib2.0-doc, libsoup2.4-doc
 Architecture: linux-any all
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- f4806fe6c9d136961e678a1053217b06 3209 wpewebkit_2.30.6-1.dsc
- e35b31932ad3da6c06736d8f2d347072 21045348 wpewebkit_2.30.6.orig.tar.xz
- cbeedc858c205bc62c50d0c228cb5bc1 195 wpewebkit_2.30.6.orig.tar.xz.asc
- a3a7fe2f8a7347fdbbfc8170fc5931e9 40140 wpewebkit_2.30.6-1.debian.tar.xz
+ 71d367917010a7ca81bea7b6232a9e7b 3241 wpewebkit_2.32.1-1.dsc
+ 1dd3f56b8eba16266166d757acb979fc 21958876 wpewebkit_2.32.1.orig.tar.xz
+ 192b4e48803adfa67044f6e32184314c 195 wpewebkit_2.32.1.orig.tar.xz.asc
+ 39be7977e1c19ba1c01e4c417d09bfd5 40572 wpewebkit_2.32.1-1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/webkit-team/webkit
 Vcs-Git: https://salsa.debian.org/webkit-team/webkit.git -b wpe/unstable
 Checksums-Sha256:
- 6cc963152d6e0fc6490e33402d94fe1a4cd7ddc4eb2ba96bc86c8532e024152a 3209 wpewebkit_2.30.6-1.dsc
- 893a3098226f116bbb38a665a3053c7d30e3c5dca786b954f9aa38f8c8581468 21045348 wpewebkit_2.30.6.orig.tar.xz
- babbf4ad0f6dd43ede16276a89105b9a3b92f955339b0e66a7900f33eb939b29 195 wpewebkit_2.30.6.orig.tar.xz.asc
- c35894ade659ffe145ec08ed130ccf5de790113db5db72b0f2d6ea63e0477740 40140 wpewebkit_2.30.6-1.debian.tar.xz
+ acdbb5fb418e8bcad533300db9d7b466a6bc7812f9ca766d8963ebe389b2d5de 3241 wpewebkit_2.32.1-1.dsc
+ 7b6b39a12ccf3f84da4cc6ac59e02fbe328f7476eaeb9c23de9b9288c2c2f39c 21958876 wpewebkit_2.32.1.orig.tar.xz
+ 9dd39cb81ef2e54f97d7fa0c4fb657d0f4f122de02117c24e512a5e62fa9dd4b 195 wpewebkit_2.32.1.orig.tar.xz.asc
+ 20a0bb667cb7d1d1c5ed8beea878638be4eb0eff0270a2862337698016d5351a 40572 wpewebkit_2.32.1-1.debian.tar.xz
 Homepage: https://wpewebkit.org/
 Package-List: 
  libwpewebkit-1.0-3 deb libs optional arch=linux-any
