@@ -1,6 +1,6 @@
 Package: apache2
 Binary: apache2, apache2-data, apache2-bin, apache2-utils, apache2-suexec-pristine, apache2-suexec-custom, apache2-doc, apache2-dev, apache2-ssl-dev, libapache2-mod-md, libapache2-mod-proxy-uwsgi
-Version: 2.4.48-3
+Version: 2.4.48-3.1
 Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
 Uploaders: Stefan Fritsch <sf@debian.org>, Arno Töll <arno@debian.org>, Ondřej Surý <ondrej@debian.org>, Yadd <yadd@debian.org>
 Build-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.16.1~), bison, gawk | awk, jdupes, libapr1-dev (>= 1.6.0), libaprutil1-dev (>= 1.6.0), libbrotli-dev, liblua5.3-dev, libnghttp2-dev, libpcre3-dev, libssl-dev (>= 1.1.1), libxml2-dev, lsb-release, perl, zlib1g-dev, libcurl4-openssl-dev | libcurl4-dev, libjansson-dev
@@ -9,17 +9,17 @@ Architecture: any all
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- d31f59c208bc9fe48b7e13287451539d 3507 apache2_2.4.48-3.dsc
+ f1648474ff0f5cfdab90a78e10dd6eda 3555 apache2_2.4.48-3.1.dsc
  033453c49c4b081e34acc3e1a4c23648 9418226 apache2_2.4.48.orig.tar.gz
  ede92e64f6bba88a74211fd45628ef4b 874 apache2_2.4.48.orig.tar.gz.asc
- 3831c9a1c5f73b8f64bbfc6e7671fdab 885428 apache2_2.4.48-3.debian.tar.xz
+ 63f1fce251044724705db595d0f7d192 885512 apache2_2.4.48-3.1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/apache-team/apache2
 Vcs-Git: https://salsa.debian.org/apache-team/apache2.git
 Checksums-Sha256:
- 7befb24b58aa1799a7139e693982e8858a6df78a8d211ca51a3f83f9592e2f11 3507 apache2_2.4.48-3.dsc
+ 7d0e0ac742bce42db13dd1eb772103e27ed3192a2b9b20ae0ee0782f7e9c745e 3555 apache2_2.4.48-3.1.dsc
  315c0bc50206b866fb17c2cdc28c1973765a8d59ca168b80286e8cb077d0510e 9418226 apache2_2.4.48.orig.tar.gz
  fd5b3e06eb7029c6e38bb891faa9dc6e17079cde191a07e605800258a9373f03 874 apache2_2.4.48.orig.tar.gz.asc
- d65ea33b92c5a86cfc170889a204cbff2f0bb21405473f8f78ac125ffd994671 885428 apache2_2.4.48-3.debian.tar.xz
+ 971730d81d07bccfe7274a64e312d831d1c6b256824fcee47a463cb9a455cba2 885512 apache2_2.4.48-3.1.debian.tar.xz
 Homepage: https://httpd.apache.org/
 Package-List: 
  apache2 deb httpd optional arch=any
