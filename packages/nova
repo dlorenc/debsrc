@@ -1,6 +1,6 @@
 Package: nova
 Binary: nova-api, nova-common, nova-compute, nova-compute-ironic, nova-compute-kvm, nova-compute-lxc, nova-compute-qemu, nova-conductor, nova-consoleproxy, nova-doc, nova-scheduler, nova-volume, python3-nova
-Version: 2:22.0.1-1
+Version: 2:22.0.1-2
 Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
 Uploaders: Thomas Goirand <zigo@debian.org>, gustavo panizzo <gfa@zumbi.com.ar>, Michal Arbet <michal.arbet@ultimum.io>,
 Build-Depends: debhelper-compat (= 11), dh-python, openstack-pkg-tools (>= 109~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx
@@ -10,15 +10,15 @@ Architecture: all
 Standards-Version: 4.4.1
 Format: 3.0 (quilt)
 Files:
- 9df2e59bd8a8efeab7ba5dcf9e48d9d9 5307 nova_22.0.1-1.dsc
+ 3984647ecac13244795b17f84ced2f57 5307 nova_22.0.1-2.dsc
  e797a3036ecf56bd964a3117004dfcb8 5900180 nova_22.0.1.orig.tar.xz
- 7fffa4c18a37ab5416da920e0c5cf4e0 60104 nova_22.0.1-1.debian.tar.xz
+ 32e19bce113cb014a4781f231afd333a 60168 nova_22.0.1-2.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/openstack-team/services/nova
 Vcs-Git: https://salsa.debian.org/openstack-team/services/nova.git
 Checksums-Sha256:
- 69fdc749837c863d7edba1f865d4d5ee6811264fce49d1e65b847773ad07ecb1 5307 nova_22.0.1-1.dsc
+ 557e99f8ad902d3bdc5251c27ebde367afce0e9a49fa74ac63cbc00022821329 5307 nova_22.0.1-2.dsc
  8bfc2c8d721237ad67f2a15a2882f366f5423f30e2fda802b3234f4280c7a262 5900180 nova_22.0.1.orig.tar.xz
- be7e758ea5489a14ae7e3c4774478c1eef648c556fef859f121294f2e8af72ef 60104 nova_22.0.1-1.debian.tar.xz
+ d5a81d705411932421e16f05c6082e72e1ae65efc6753f5f99d1ce40b76d9955 60168 nova_22.0.1-2.debian.tar.xz
 Homepage: http://www.openstack.org/software/openstack-compute/
 Package-List: 
  nova-api deb net optional arch=all
