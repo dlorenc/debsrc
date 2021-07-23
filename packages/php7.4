@@ -1,6 +1,6 @@
 Package: php7.4
 Binary: libapache2-mod-php7.4, libphp7.4-embed, php7.4, php7.4-cgi, php7.4-cli, php7.4-dev, php7.4-fpm, php7.4-phpdbg, php7.4-xsl, php7.4-bcmath, php7.4-bz2, php7.4-common, php7.4-curl, php7.4-dba, php7.4-enchant, php7.4-gd, php7.4-gmp, php7.4-imap, php7.4-interbase, php7.4-intl, php7.4-json, php7.4-ldap, php7.4-mbstring, php7.4-mysql, php7.4-odbc, php7.4-opcache, php7.4-pgsql, php7.4-pspell, php7.4-readline, php7.4-snmp, php7.4-soap, php7.4-sqlite3, php7.4-sybase, php7.4-tidy, php7.4-xml, php7.4-xmlrpc, php7.4-zip
-Version: 7.4.15-5+deb11u1
+Version: 7.4.21-1+deb11u1
 Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>, Lior Kaplan <kaplan@debian.org>
 Build-Depends: apache2-dev (>= 2.4), autoconf (>= 2.63), automake, bison, chrpath, debhelper (>= 9.20160709~), default-libmysqlclient-dev | libmysqlclient-dev, dh-apache2, dpkg-dev (>= 1.16.1~), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, libapparmor-dev [linux-any], libacl1-dev, libapr1-dev (>= 1.2.7-8), libargon2-dev | libargon2-0-dev, libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libedit-dev (>= 2.11-20080614-4), libenchant-2-dev | libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libffi-dev, libfreetype6-dev, libgcrypt20-dev (>> 1.6.3) | libgcrypt11-dev (<< 1.5.4), libgd-dev (>= 2.1.0) | libgd2-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, liblmdb-dev, libmagic-dev, libmhash-dev (>= 0.8.8), libnss-myhostname [linux-any], libonig-dev, libpam0g-dev, libpcre2-dev (>= 10.30), libpng-dev, libpq-dev, libpspell-dev, libqdbm-dev, libsasl2-dev, libsnmp-dev, libsodium-dev, libsqlite3-dev, libssl-dev, libsystemd-dev [linux-any], libtidy-dev (>= 1:5.2.0), libtool (>= 2.2), libwebp-dev, libwrap0-dev, libxml2-dev, libxmlrpc-epi-dev, libxmltok1-dev, libxslt1-dev (>= 1.0.18), libzip-dev (>= 1.0.0), locales-all | language-pack-de, netbase, netcat-openbsd, re2c, systemtap-sdt-dev [amd64 i386 powerpc armel armhf ia64], tzdata, unixodbc-dev, zlib1g-dev
@@ -9,17 +9,17 @@ Architecture: any all
 Standards-Version: 4.5.0.0
 Format: 3.0 (quilt)
 Files:
- 17d44b7ef6cf10ed18be487d7e328eda 5825 php7.4_7.4.15-5+deb11u1.dsc
- 2cbbad272d9ffc3a69c0d9192e2cfaa9 10332360 php7.4_7.4.15.orig.tar.xz
- 6c803f297e5cd2d6dc9e571636816a64 833 php7.4_7.4.15.orig.tar.xz.asc
- 9c562945271e937d785ca98297e04093 68076 php7.4_7.4.15-5+deb11u1.debian.tar.xz
+ ce4a2215871f9b72c474ef70a17862c1 5825 php7.4_7.4.21-1+deb11u1.dsc
+ 740bf0906e167c65b9ea8be71492b024 10346628 php7.4_7.4.21.orig.tar.xz
+ ceddf17422ffee38c172b215eb977cc5 833 php7.4_7.4.21.orig.tar.xz.asc
+ 42aee1e04ad4425f9ace0a26feaeb600 68344 php7.4_7.4.21-1+deb11u1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/php-team/php
 Vcs-Git: https://salsa.debian.org/php-team/php.git -b master-7.4
 Checksums-Sha256:
- d1420da7b7f806adac21f857e2adaae9d0b650bd44ab68865f2724a0e4ed8adc 5825 php7.4_7.4.15-5+deb11u1.dsc
- 9b859c65f0cf7b3eff9d4a28cfab719fb3d36a1db3c20d874a79b5ec44d43cb8 10332360 php7.4_7.4.15.orig.tar.xz
- def82029dc5863df5c7c4463fa6e5c9bca100751d2a7a32b0c18dd76c0c6c152 833 php7.4_7.4.15.orig.tar.xz.asc
- 3c1521f7a6eed736c4948a7368d9e85c2fccae18224ac0ef2564d6ae1fa68396 68076 php7.4_7.4.15-5+deb11u1.debian.tar.xz
+ 1412cbda0d7c0275e6871e9f439c7b86f2ccd91bd9a4233b222e6d940f66a4b9 5825 php7.4_7.4.21-1+deb11u1.dsc
+ cf43384a7806241bc2ff22022619baa4abb9710f12ec1656d0173de992e32a90 10346628 php7.4_7.4.21.orig.tar.xz
+ 0d3926b52cc9f78f4979c0491e2c9b9172ab62af3c94dd962652ca6e3287cd2c 833 php7.4_7.4.21.orig.tar.xz.asc
+ 927099021a401437f57afe95e915bf32c28cae9f1b0ff0379c170845e2bbfa4b 68344 php7.4_7.4.21-1+deb11u1.debian.tar.xz
 Homepage: http://www.php.net/
 Package-List: 
  libapache2-mod-php7.4 deb httpd optional arch=any

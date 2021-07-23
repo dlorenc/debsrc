@@ -1,30 +1,28 @@
 Package: libaperture-0
 Binary: libaperture-0-0, libaperture-0-dev, gir1.2-aperture-0, aperture-0-examples
-Version: 0.1.0+git20200908-1
+Version: 0.1.0+git20200908-2
 Maintainer: DebianOnMobile Maintainers <debian-on-mobile-maintainers@alioth-lists.debian.net>
-Uploaders: Arnaud Ferraris <arnaud.ferraris@gmail.com>, Henry-Nicolas Tourneur <debian@nilux.be>,
-Build-Depends: appstream-util, debhelper-compat (= 13), desktop-file-utils, gtk-doc-tools, libgirepository1.0-dev, libgstreamer-plugins-base1.0-dev, libgtk-3-dev, meson, valac, gstreamer1.0-gtk3 <!nocheck>, gstreamer1.0-plugins-bad <!nocheck>, gstreamer1.0-plugins-good <!nocheck>, xauth <!nocheck>, xvfb <!nocheck>
+Uploaders: Arnaud Ferraris <arnaud.ferraris@gmail.com>, Henry-Nicolas Tourneur <debian@nilux.be>
+Build-Depends: appstream-util, debhelper-compat (= 13), desktop-file-utils, gtk-doc-tools, libgirepository1.0-dev, libgstreamer-plugins-base1.0-dev, libgtk-3-dev, meson, valac, xauth <!nocheck>, xvfb <!nocheck>, gstreamer1.0-gtk3 <!nocheck>, gstreamer1.0-plugins-bad <!nocheck>, gstreamer1.0-plugins-good <!nocheck>
 Architecture: any
 Standards-Version: 4.5.0
 Format: 3.0 (quilt)
 Files:
- 45a5e3f8b6ade2e4d9a8ab4de325f001 2766 libaperture-0_0.1.0+git20200908-1.dsc
+ 3d2beff2770f7b426920751b751008b6 2653 libaperture-0_0.1.0+git20200908-2.dsc
  8273074add826b74e95b5a748185e01f 36194 libaperture-0_0.1.0+git20200908.orig.tar.gz
- 633907a5b59cb63acf174c26368e99f4 4384 libaperture-0_0.1.0+git20200908-1.debian.tar.xz
+ 59f2eaaee9ca8dbd80f737bc9f4975cd 3964 libaperture-0_0.1.0+git20200908-2.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/DebianOnMobile-team/libaperture
 Vcs-Git: https://salsa.debian.org/DebianOnMobile-team/libaperture.git
 Checksums-Sha256:
- be5ef457a3def8ef65643827a791f318fa6574c7e71206853038a3da2d65425f 2766 libaperture-0_0.1.0+git20200908-1.dsc
+ e9fd8db028f13cb60de08d9b8b65139a37b8d8a3f393f2bce71f7358f9a62896 2653 libaperture-0_0.1.0+git20200908-2.dsc
  63400b19f30447aaa6e6783299743ecf9cd6349d56d1b781f09bb9cb8c3b76aa 36194 libaperture-0_0.1.0+git20200908.orig.tar.gz
- 5e40105513915ed417e8560a818f273227b50d81e0cb1145f9169c680f79c779 4384 libaperture-0_0.1.0+git20200908-1.debian.tar.xz
+ 26fdd29aaf0f6e9ab8fe9544396bb423e0125e07af17c07ed962290f657bb79e 3964 libaperture-0_0.1.0+git20200908-2.debian.tar.xz
 Homepage: https://gitlab.gnome.org/jwestman/libaperture
 Package-List: 
  aperture-0-examples deb x11 optional arch=any
  gir1.2-aperture-0 deb introspection optional arch=any
  libaperture-0-0 deb libs optional arch=any
  libaperture-0-dev deb libdevel optional arch=any
-Testsuite: autopkgtest
-Testsuite-Triggers: build-essential, gdc, libgstreamer-plugins-base1.0-dev, libgtk-3-dev, pkg-config, xauth, xvfb
 Directory: pool/main/liba/libaperture-0
 Priority: extra
 Section: misc
