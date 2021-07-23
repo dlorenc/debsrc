@@ -1,6 +1,6 @@
 Package: cdebconf
 Binary: cdebconf, cdebconf-gtk, libdebconfclient0, libdebconfclient0-dev, cdebconf-udeb, cdebconf-priority, libdebconfclient0-udeb, cdebconf-text-udeb, cdebconf-newt-udeb, cdebconf-gtk-udeb
-Version: 0.259
+Version: 0.260
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Uploaders: Colin Watson <cjwatson@debian.org>, Cyril Brulebois <kibi@debian.org>
 Build-Depends: debhelper-compat (= 12), po-debconf (>= 0.5.0), libslang2-dev, libnewt-dev, libtextwrap-dev (>= 0.1-5), libdebian-installer4-dev (>= 0.41) | libdebian-installer-dev, libglib2.0-dev (>= 2.50), libgtk2.0-dev (>= 2.24) <!pkg.cdebconf.nogtk>, libcairo2-dev (>= 1.8.10-3) <!pkg.cdebconf.nogtk>, libselinux1-dev (>= 2.3) [linux-any] | libselinux-dev [linux-any], dh-autoreconf, dh-exec
@@ -8,13 +8,13 @@ Architecture: any all
 Standards-Version: 3.9.7
 Format: 3.0 (native)
 Files:
- 62dfebdaa84b85d475da9a1812a17712 2746 cdebconf_0.259.dsc
- de09874562093b9c9268cd0a0f8fb3ea 279744 cdebconf_0.259.tar.xz
+ 61be62a1874103a1f31cd5183a2d78ff 2750 cdebconf_0.260.dsc
+ 04c15f7e5620f953e3e1c7a84c51b53f 279824 cdebconf_0.260.tar.xz
 Vcs-Browser: https://salsa.debian.org/installer-team/cdebconf
 Vcs-Git: https://salsa.debian.org/installer-team/cdebconf.git
 Checksums-Sha256:
- 4cae3a15db81588e719f2a9989d121e30f2c338e06a4e2e3150295989ca1c4af 2746 cdebconf_0.259.dsc
- 7fa2951944fe97833ec63384dc7c19bc11ee10ce2bca0731592ff5029b60236a 279744 cdebconf_0.259.tar.xz
+ 0c0a3d76e19685f998e3b85834200255268f36b09eedfa9157fe0213958b7ea5 2750 cdebconf_0.260.dsc
+ ac8a9d7449c76eeaa8ed4ef0bbbf4c16b1b816b9905690c732dea2f341ac079b 279824 cdebconf_0.260.tar.xz
 Package-List: 
  cdebconf deb utils optional arch=any
  cdebconf-gtk deb admin optional arch=any profile=!pkg.cdebconf.nogtk
