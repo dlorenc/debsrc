@@ -1,6 +1,6 @@
 Package: slurm-wlm
 Binary: slurm-wlm, slurm-client, slurmrestd, slurmd, slurmctld, libslurm36, libpmi0, libpmi2-0, libslurm-dev, libpmi0-dev, libpmi2-0-dev, slurm-wlm-doc, slurm-wlm-basic-plugins, slurm-wlm-basic-plugins-dev, sview, slurmdbd, libslurm-perl, libslurmdb-perl, slurm-wlm-torque, libpam-slurm, libpam-slurm-adopt, slurm-wlm-emulator, slurm-client-emulator
-Version: 20.11.4-1
+Version: 20.11.7+really20.11.4-2
 Maintainer: Debian HPC Team <debian-hpc@lists.debian.org>
 Uploaders: Rémi Palancher <remi@rezib.org>, Mehdi Dogguy <mehdi@debian.org>, Gennaro Oliva <oliva.g@na.icar.cnr.it>,
 Build-Depends: debhelper (>= 11), libmunge-dev, libncurses5-dev, po-debconf, python3, libgtk2.0-dev, default-libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-exec, librrd-dev, libipmimonitoring-dev, hdf5-helpers, libfreeipmi-dev, libhdf5-dev, man2html, libcurl4-openssl-dev, libpmix-dev, libhttp-parser-dev, libyaml-dev, libjson-c-dev, libjwt-dev, liblz4-dev
@@ -8,15 +8,15 @@ Architecture: any all
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- 791326b10da1b3ec5093e21f2d0cc1e1 3767 slurm-wlm_20.11.4-1.dsc
- 6f450d9dedc65398003e481c9cb74723 8840768 slurm-wlm_20.11.4.orig.tar.gz
- 0fe795ffcac34876e946a5d299a3d06e 133968 slurm-wlm_20.11.4-1.debian.tar.xz
+ c8690dc79028bad4ca4dea30a2c23dde 3865 slurm-wlm_20.11.7+really20.11.4-2.dsc
+ 6f450d9dedc65398003e481c9cb74723 8840768 slurm-wlm_20.11.7+really20.11.4.orig.tar.gz
+ 2ebc0f453aeb3cfaf8d82f44fa21126a 134276 slurm-wlm_20.11.7+really20.11.4-2.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/hpc-team/slurm-wlm
 Vcs-Git: https://salsa.debian.org/hpc-team/slurm-wlm.git
 Checksums-Sha256:
- 60af05bf5a7f81397a16d268f3165d9c9042ddcfcb35a06c13037a2dcaf74d57 3767 slurm-wlm_20.11.4-1.dsc
- 06c5333e85f531730bf1c6eb48a8d48a551d9090540ce37b78181024273fb6bd 8840768 slurm-wlm_20.11.4.orig.tar.gz
- ba8479255c5fe42bbf38af8bd6cecd8ceb1c1922f6869f28c317b1d906ae9c89 133968 slurm-wlm_20.11.4-1.debian.tar.xz
+ 935f401c4c9e6cec5b4c4eb351bc0f2556cd0cbeba71feb4e6f11be9c9caee3e 3865 slurm-wlm_20.11.7+really20.11.4-2.dsc
+ 06c5333e85f531730bf1c6eb48a8d48a551d9090540ce37b78181024273fb6bd 8840768 slurm-wlm_20.11.7+really20.11.4.orig.tar.gz
+ 26cc6d2c55cb55b30d70fa15b877cb28df4a397284b1de64e0eb9fa60de1934d 134276 slurm-wlm_20.11.7+really20.11.4-2.debian.tar.xz
 Homepage: http://slurm.schedmd.com
 Package-List: 
  libpam-slurm deb admin optional arch=any
