@@ -1,6 +1,6 @@
 Package: webkit2gtk
 Binary: libjavascriptcoregtk-4.0-18, libjavascriptcoregtk-4.0-dev, libjavascriptcoregtk-4.0-bin, gir1.2-javascriptcoregtk-4.0, libwebkit2gtk-4.0-37, libwebkit2gtk-4.0-dev, libwebkit2gtk-4.0-doc, gir1.2-webkit2-4.0, libwebkit2gtk-4.0-37-gtk2, webkit2gtk-driver
-Version: 2.32.1-2
+Version: 2.32.3-1
 Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
 Uploaders: Gustavo Noronha Silva <kov@debian.org>, Emilio Pozuelo Monfort <pochu@debian.org>, Alberto Garcia <berto@igalia.com>
 Build-Depends: bubblewrap (>= 0.3.1) [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64 !hurd-any !kfreebsd-any], xdg-dbus-proxy [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64 !hurd-any !kfreebsd-any], libseccomp-dev [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64 !hurd-any !kfreebsd-any], cmake (>= 3.10), debhelper (>= 11.2~), jdupes, libglib2.0-dev (>= 2.44.0), libgtk-3-dev (>= 3.22.0), libharfbuzz-dev (>= 0.9.18), libcairo2-dev (>= 1.14.0), libfontconfig1-dev (>= 2.8), libfreetype6-dev, libicu-dev, libgcrypt20-dev (>= 1.7.0), libhyphen-dev, libmanette-0.2-dev (>= 0.2.4) [linux-any], libnotify-dev, libxslt1-dev (>= 1.1.7), libxml2-dev (>= 2.8), libsoup2.4-dev (>= 2.54.0), libsqlite3-dev (>= 3.0), libsystemd-dev [linux-any], libgudev-1.0-dev [linux-any], libwoff-dev (>= 1.0.2), libwpebackend-fdo-1.0-dev [linux-any], gperf, bison, flex, ruby:native, libjpeg-dev, libopenjp2-7-dev (>= 2.2.0), libpng-dev, libtasn1-6-dev, libwebp-dev, libxt-dev, libgstreamer1.0-dev (>= 1.14.0), libgstreamer-plugins-base1.0-dev (>= 1.14.0), libenchant-2-dev, libsecret-1-dev, gobject-introspection (>= 1.32.0), libgirepository1.0-dev (>= 0.9.12-4), ninja-build, libegl1-mesa-dev, libgl-dev, libgles-dev
@@ -10,17 +10,17 @@ Architecture: any all
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- bac50ec61337a2217a9abdcf9be7f7ad 4311 webkit2gtk_2.32.1-2.dsc
- b12790ae1209e1d5848aeb4fb70994db 23321600 webkit2gtk_2.32.1.orig.tar.xz
- a6fe3b165be52c470b0ef484c15eaee9 195 webkit2gtk_2.32.1.orig.tar.xz.asc
- ffe0d36626e34c3a33391e7010bce434 73056 webkit2gtk_2.32.1-2.debian.tar.xz
+ 27846e0b43f5ba1dd217268bdbc56a0f 4311 webkit2gtk_2.32.3-1.dsc
+ f31b802de421865ea9f1391ec8190519 23323972 webkit2gtk_2.32.3.orig.tar.xz
+ b4dc4d0666bbd1f130158fe9011ec1d8 195 webkit2gtk_2.32.3.orig.tar.xz.asc
+ e5291c7ee2c1660df5423c60cde17d53 73300 webkit2gtk_2.32.3-1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/webkit-team/webkit
 Vcs-Git: https://salsa.debian.org/webkit-team/webkit.git
 Checksums-Sha256:
- 4c85bb848e544980471a5805f30f9bf750d4bc34c3c71ffbce004beb4bf06296 4311 webkit2gtk_2.32.1-2.dsc
- 136117317f70f66486f71b8edf5e46f8776403c5d8a296e914b11a36ef836917 23321600 webkit2gtk_2.32.1.orig.tar.xz
- 6136bd6bef2c74ab3b0221fb97083ff3ddb2292ad300a9eeb4c64cbd7f9322fc 195 webkit2gtk_2.32.1.orig.tar.xz.asc
- e18fe283390a95540bd48344b27c365ef35d33db825fcf67a82b13e8ed8cc162 73056 webkit2gtk_2.32.1-2.debian.tar.xz
+ 760079ec9ea235d259f7c82dfaa9427eec119476bf28b67631b9fc0608eb75ed 4311 webkit2gtk_2.32.3-1.dsc
+ c1f496f5ac654efe4cef62fbd4f2fbeeef265a07c5e7419e5d2900bfeea52cbc 23323972 webkit2gtk_2.32.3.orig.tar.xz
+ 8b152d27d5ef1bc2f716cfd1c3a99b806d76774f01e8af1831d6f4387ca297cd 195 webkit2gtk_2.32.3.orig.tar.xz.asc
+ 07e7668a0e0717756417c80173c9e370697c535beaceddacae67fb6939e7556c 73300 webkit2gtk_2.32.3-1.debian.tar.xz
 Homepage: https://webkitgtk.org/
 Package-List: 
  gir1.2-javascriptcoregtk-4.0 deb introspection optional arch=any
