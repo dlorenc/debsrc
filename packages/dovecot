@@ -1,6 +1,6 @@
 Package: dovecot
 Binary: dovecot-core, dovecot-dev, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-gssapi, dovecot-sieve, dovecot-solr, dovecot-lucene, dovecot-submissiond, dovecot-auth-lua
-Version: 1:2.3.13+dfsg1-1
+Version: 1:2.3.13+dfsg1-2
 Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
 Uploaders: Jaldhar H. Vyas <jaldhar@debian.org>, Jelmer Vernooij <jelmer@debian.org>, Apollon Oikonomopoulos <apoikos@debian.org>, Noah Meyerhans <noahm@debian.org>
 Build-Depends: debhelper-compat (= 13), default-libmysqlclient-dev, krb5-multidev, libapparmor-dev [linux-any], libbz2-dev, libcap-dev [linux-any], libclucene-dev, libdb-dev, libexpat-dev, libexttextcat-dev, libicu-dev, libldap2-dev, liblua5.3-dev, liblz4-dev, liblzma-dev, libpam0g-dev, libpq-dev, libsasl2-dev, libsodium-dev, libsqlite3-dev, libssl-dev, libstemmer-dev, libwrap0-dev, libzstd-dev, lsb-release, pkg-config, zlib1g-dev
@@ -8,19 +8,19 @@ Architecture: any
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- a8b20e4eb40bbdfe97d7ea2e2ba7c65e 3991 dovecot_2.3.13+dfsg1-1.dsc
+ bf2b5c88020e6aaf60782f4b63699331 3991 dovecot_2.3.13+dfsg1-2.dsc
  06c2a85ac954d975d55dd559267f5277 1591484 dovecot_2.3.13+dfsg1.orig-pigeonhole.tar.gz
  f512bf1a4dac9ac994fddfb6bc5068ff 7456073 dovecot_2.3.13+dfsg1.orig.tar.gz
  6b2ac5dcaf0c24d3541077cd773cd498 866 dovecot_2.3.13+dfsg1.orig.tar.gz.asc
- ed2533866c229ab80f3052c33ceb92a2 64676 dovecot_2.3.13+dfsg1-1.debian.tar.xz
+ 1607738fd838882c198071fc45c2f3dc 66896 dovecot_2.3.13+dfsg1-2.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/debian/dovecot
 Vcs-Git: https://salsa.debian.org/debian/dovecot.git
 Checksums-Sha256:
- 771585c1d64d2c3f94b5082d798c63185a1d8fdff938eb3a22aa377ec769dce3 3991 dovecot_2.3.13+dfsg1-1.dsc
+ 06bbe045c70fa904124a4bbd700d5b1a61418495cff4543a4a8d52138f5cf988 3991 dovecot_2.3.13+dfsg1-2.dsc
  9bbd31b3d0b3ae75060b961b6a8911f7371b0938630913f12604d97d05c912ff 1591484 dovecot_2.3.13+dfsg1.orig-pigeonhole.tar.gz
  a3f875b80ec11a452480690108660030978c94fa8e796ad6d943a874b496f1c4 7456073 dovecot_2.3.13+dfsg1.orig.tar.gz
  ef7653e5b866759bd94a94e758080025007bd502052705144ad8eae10e898f94 866 dovecot_2.3.13+dfsg1.orig.tar.gz.asc
- dab856ae208fe56b22d13a67bdd424e7f7a9968a6cf235c8b4349c3b53692f1f 64676 dovecot_2.3.13+dfsg1-1.debian.tar.xz
+ 251f757bca8b5050234d4f03452dcd5512656e1c880817d740832d3eccf67784 66896 dovecot_2.3.13+dfsg1-2.debian.tar.xz
 Homepage: https://dovecot.org/
 Package-List: 
  dovecot-auth-lua deb mail optional arch=any
