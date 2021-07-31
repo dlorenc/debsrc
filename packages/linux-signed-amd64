@@ -3,21 +3,21 @@ Binary: kernel-image-5.10.0-8-amd64-di, nic-modules-5.10.0-8-amd64-di, nic-wirel
  pcmcia-storage-modules-5.10.0-8-amd64-di, fb-modules-5.10.0-8-amd64-di, input-modules-5.10.0-8-amd64-di, event-modules-5.10.0-8-amd64-di, mouse-modules-5.10.0-8-amd64-di, nic-pcmcia-modules-5.10.0-8-amd64-di, pcmcia-modules-5.10.0-8-amd64-di, nic-usb-modules-5.10.0-8-amd64-di, sata-modules-5.10.0-8-amd64-di, acpi-modules-5.10.0-8-amd64-di, i2c-modules-5.10.0-8-amd64-di, crc-modules-5.10.0-8-amd64-di, crypto-modules-5.10.0-8-amd64-di, crypto-dm-modules-5.10.0-8-amd64-di, efi-modules-5.10.0-8-amd64-di, ata-modules-5.10.0-8-amd64-di, mmc-core-modules-5.10.0-8-amd64-di, mmc-modules-5.10.0-8-amd64-di, nbd-modules-5.10.0-8-amd64-di, speakup-modules-5.10.0-8-amd64-di, uinput-modules-5.10.0-8-amd64-di, sound-modules-5.10.0-8-amd64-di, mtd-core-modules-5.10.0-8-amd64-di, rfkill-modules-5.10.0-8-amd64-di, linux-image-5.10.0-8-amd64, linux-image-amd64, linux-headers-amd64, linux-image-5.10.0-8-cloud-amd64, linux-image-cloud-amd64, linux-headers-cloud-amd64,
  linux-image-5.10.0-8-rt-amd64, linux-image-rt-amd64,
  linux-headers-rt-amd64
-Version: 5.10.46+2
+Version: 5.10.46+3
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Uploaders: Bastian Blank <waldi@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <benh@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
-Build-Depends: debhelper-compat (= 12), rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (>= 2.102~), linux-kbuild-5.10, linux-support-5.10.0-8 (= 5.10.46-2), linux-image-5.10.0-8-amd64-unsigned (= 5.10.46-2) [amd64], linux-image-5.10.0-8-cloud-amd64-unsigned (= 5.10.46-2) [amd64], linux-image-5.10.0-8-rt-amd64-unsigned (= 5.10.46-2) [amd64]
+Build-Depends: debhelper-compat (= 12), rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (>= 2.102~), linux-kbuild-5.10, linux-support-5.10.0-8 (= 5.10.46-3), linux-image-5.10.0-8-amd64-unsigned (= 5.10.46-3) [amd64], linux-image-5.10.0-8-cloud-amd64-unsigned (= 5.10.46-3) [amd64], linux-image-5.10.0-8-rt-amd64-unsigned (= 5.10.46-3) [amd64]
 Architecture: amd64
 Standards-Version: 4.2.0
 Format: 3.0 (native)
 Files:
- aca21f457ed117405fd1d9a7b5798109 8487 linux-signed-amd64_5.10.46+2.dsc
- 32b1a6d23c4e5b2b783f54503016b92c 2668308 linux-signed-amd64_5.10.46+2.tar.xz
+ ed04fe61e10830d3924edc896e439e44 8487 linux-signed-amd64_5.10.46+3.dsc
+ 0fc105b565d7b44f808debd29fc438cd 2668592 linux-signed-amd64_5.10.46+3.tar.xz
 Vcs-Browser: https://salsa.debian.org/kernel-team/linux
 Vcs-Git: https://salsa.debian.org/kernel-team/linux.git
 Checksums-Sha256:
- b36866e9133a599043e4da0a529ff26073d0f00f7d48de7b7cc4765ca145490d 8487 linux-signed-amd64_5.10.46+2.dsc
- 5222cf9b4cbb2fff57a1922c20060f95e6962659ad44104ecdc8c92f47addb5a 2668308 linux-signed-amd64_5.10.46+2.tar.xz
+ d7a4425cd23b03506e9e71994e6b15ae67473ba7d5128f8463101ff41cd5163f 8487 linux-signed-amd64_5.10.46+3.dsc
+ aa4e093861b7037d5e6223eed24512d73617714f832168b6a279fedc570c1e60 2668592 linux-signed-amd64_5.10.46+3.tar.xz
 Homepage: https://www.kernel.org/
 Package-List: 
  acpi-modules-5.10.0-8-amd64-di udeb debian-installer optional arch=amd64

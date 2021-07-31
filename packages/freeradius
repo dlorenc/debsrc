@@ -1,6 +1,6 @@
 Package: freeradius
 Binary: freeradius, freeradius-common, freeradius-config, freeradius-utils, libfreeradius3, libfreeradius-dev, freeradius-dhcp, freeradius-krb5, freeradius-ldap, freeradius-rest, freeradius-postgresql, freeradius-mysql, freeradius-iodbc, freeradius-redis, freeradius-memcached, freeradius-yubikey, freeradius-python3
-Version: 3.0.21+dfsg-2
+Version: 3.0.21+dfsg-2.2
 Maintainer: Debian FreeRADIUS Packaging Team <pkg-freeradius-maintainers@lists.alioth.debian.org>
 Uploaders: Mark Hymers <mhy@debian.org>, Sam Hartman <hartmans@debian.org>, Bernhard Schmidt <berni@debian.org>
 Build-Depends: debhelper (>= 10~), default-libmysqlclient-dev | libmysqlclient-dev, freetds-dev, libcap-dev, libcurl4-openssl-dev | libcurl4-gnutls-dev, libgdbm-dev, libhiredis-dev, libiodbc2-dev, libjson-c-dev, libkrb5-dev | heimdal-dev, libldap2-dev, libmemcached-dev, libpam0g-dev, libpcap-dev, libpcre3-dev, libperl-dev, libpq-dev, libreadline-dev, libsasl2-dev, libsqlite3-dev, libssl-dev, libsystemd-dev, libtalloc-dev, libwbclient-dev, libykclient-dev, libyubikey-dev, python3-dev, samba-dev | samba4-dev, snmp
@@ -8,15 +8,15 @@ Architecture: any all
 Standards-Version: 4.4.1
 Format: 3.0 (quilt)
 Files:
- bfdf472a64bb31c83cdda74f31f9eb17 3635 freeradius_3.0.21+dfsg-2.dsc
+ d986d7c25bca04dda31adb20d75fc485 3618 freeradius_3.0.21+dfsg-2.2.dsc
  ac2930133b1c491c761434cdfd454b77 1788244 freeradius_3.0.21+dfsg.orig.tar.xz
- 2bcb42c7812eb8a88ba97e19d0d61a9a 67720 freeradius_3.0.21+dfsg-2.debian.tar.xz
+ 21b60af3561ccaf845ea6ed52c6ee067 67904 freeradius_3.0.21+dfsg-2.2.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/debian/freeradius
 Vcs-Git: https://salsa.debian.org/debian/freeradius.git
 Checksums-Sha256:
- 3c76429d41535bfae961a136a0d53a15df1cda924adeccfbf0d5b34a9e1e19be 3635 freeradius_3.0.21+dfsg-2.dsc
+ df2715078ef6cfc88db12f83e892ffcffd0d9bb95a7aa5118638a68cc932c7cd 3618 freeradius_3.0.21+dfsg-2.2.dsc
  3470d8f5b4415eacfbb61c4a5dde591092e0f213f114e9af741c74e6c1de6016 1788244 freeradius_3.0.21+dfsg.orig.tar.xz
- 547510fab24b3c725105c2f97c0202d9a7b4a8fda7bef9f0e47f6cdc64a3c652 67720 freeradius_3.0.21+dfsg-2.debian.tar.xz
+ 5a4a4a2f50fba2c5b691d0be58a0e37161e5804dcb368fdb20bc9490dbcc23f3 67904 freeradius_3.0.21+dfsg-2.2.debian.tar.xz
 Homepage: http://www.freeradius.org/
 Package-List: 
  freeradius deb net optional arch=any

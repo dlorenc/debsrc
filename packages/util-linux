@@ -1,6 +1,6 @@
 Package: util-linux
 Binary: util-linux, util-linux-locales, mount, bsdutils, bsdextrautils, fdisk, fdisk-udeb, libblkid1, libblkid1-udeb, libblkid-dev, libfdisk1, libfdisk1-udeb, libfdisk-dev, libmount1, libmount1-udeb, libmount-dev, libsmartcols1, libsmartcols1-udeb, libsmartcols-dev, libuuid1, uuid-runtime, libuuid1-udeb, uuid-dev, util-linux-udeb, rfkill, eject, eject-udeb
-Version: 2.36.1-7
+Version: 2.36.1-8
 Maintainer: util-linux packagers <util-linux@packages.debian.org>
 Uploaders: Chris Hofstaedtler <zeha@debian.org>
 Build-Depends: bc <!stage1 !nocheck>, bison, debhelper-compat (= 13), dh-exec, gettext, libaudit-dev [linux-any] <!stage1>, libcap-ng-dev [linux-any] <!stage1>, libncurses5-dev, libncursesw5-dev, libpam0g-dev <!stage1>, libselinux1-dev (>= 2.6-3~) [linux-any], libsystemd-dev [linux-any] <!stage1>, libtool, libudev-dev [linux-any] <!stage1>, netbase <!stage1 !nocheck>, pkg-config, po-debconf, socat <!stage1 !nocheck>, systemd [linux-any] <!stage1>, zlib1g-dev
@@ -9,15 +9,15 @@ Architecture: any all
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- 4d22fee6e2f0a57fce659e177042c400 4271 util-linux_2.36.1-7.dsc
+ 52ccb231025ceb695dd6aa57eca59324 4271 util-linux_2.36.1-8.dsc
  b0b702979d47043d9c4d8ba93be21e20 5231880 util-linux_2.36.1.orig.tar.xz
- e59c8a0eacb0d0d8257c532cb824f018 98140 util-linux_2.36.1-7.debian.tar.xz
+ 9b5ee8d7a970df30b9be74e21a02ac17 98400 util-linux_2.36.1-8.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/debian/util-linux
 Vcs-Git: https://salsa.debian.org/debian/util-linux.git
 Checksums-Sha256:
- 659947b09a7c95769e3ac28fed878f8dc73d9655c7386837f3b4fb31f9c382d5 4271 util-linux_2.36.1-7.dsc
+ ce431fba2d6d1ac8e46f12cd94fe124e666693c92bcf96783beb0dfafe34dc58 4271 util-linux_2.36.1-8.dsc
  09fac242172cd8ec27f0739d8d192402c69417617091d8c6e974841568f37eed 5231880 util-linux_2.36.1.orig.tar.xz
- 85def546377248a05e8af87482458ae6a39f081e626d3752c567e87de8dca24e 98140 util-linux_2.36.1-7.debian.tar.xz
+ 876304edc7d9cbfacb5615f6205539d8b18fb254c5143243f9c7850cc58b3243 98400 util-linux_2.36.1-8.debian.tar.xz
 Homepage: http://www.kernel.org/pub/linux/utils/util-linux/
 Package-List: 
  bsdextrautils deb utils optional arch=any profile=!stage1
