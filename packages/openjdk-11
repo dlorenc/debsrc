@@ -1,6 +1,6 @@
 Package: openjdk-11
 Binary: openjdk-11-jdk-headless, openjdk-11-jre-headless, openjdk-11-jdk, openjdk-11-jre, openjdk-11-demo, openjdk-11-source, openjdk-11-doc, openjdk-11-dbg, openjdk-11-jre-zero
-Version: 11.0.11+9-1
+Version: 11.0.12+7-2
 Maintainer: OpenJDK Team <openjdk-11@packages.debian.org>
 Uploaders: Matthias Klose <doko@ubuntu.com>
 Build-Depends: debhelper (>= 11), m4, lsb-release, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, wdiff, fastjar (>= 2:0.96-0ubuntu2), time, strip-nondeterminism, debugedit (>= 4.16), jtreg (>= 4.2-b13-0~) <!nocheck>, testng <!nocheck>, xvfb <!nocheck>, xauth <!nocheck>, xfonts-base <!nocheck>, libgl1-mesa-dri [!x32] <!nocheck>, xfwm4 <!nocheck>, x11-xkb-utils <!nocheck>, dbus-x11 <!nocheck>, autoconf, automake, autotools-dev, ant, ant-optional, g++-10 <!cross>, openjdk-11-jdk-headless:native | openjdk-10-jdk-headless:native, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libxrandr-dev, libelf-dev, libfontconfig1-dev, libgtk2.0-0 | libgtk-3-0, libharfbuzz-dev, libffi-dev, zlib1g-dev:native, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libnss3-dev (>= 2:3.17.1), openjdk-11-jdk-headless <cross>
@@ -9,15 +9,15 @@ Architecture: alpha amd64 armel armhf arm64 i386 ia64 mips mipsel mips64 mips64e
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- 087ab662a85b8de396c146f370b8f5d1 4527 openjdk-11_11.0.11+9-1.dsc
- 48ad60d88cb9b2a12e0552b402df9ca1 78079764 openjdk-11_11.0.11+9.orig.tar.xz
- 8b448ee9e424b36ce54d5f993aa6e704 166588 openjdk-11_11.0.11+9-1.debian.tar.xz
+ 28b3024f23ad5f0caa8e68e2242e76d6 4527 openjdk-11_11.0.12+7-2.dsc
+ a7af921782ab8faffcb7cc5de36f989d 78142824 openjdk-11_11.0.12+7.orig.tar.xz
+ b26f26fc2be66e4f080c6884dccadd49 166436 openjdk-11_11.0.12+7-2.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/openjdk-team/openjdk/tree/openjdk-11
 Vcs-Git: https://salsa.debian.org/openjdk-team/openjdk.git -b openjdk-11
 Checksums-Sha256:
- 7bec47f2edae28252065a893b23106be68ea94930e181fae4696688309d5baaa 4527 openjdk-11_11.0.11+9-1.dsc
- 1abe94a1f2925bd25bd010b9a7a7ad8e1d0ded937b97611d678a4d64998d376f 78079764 openjdk-11_11.0.11+9.orig.tar.xz
- a1d61bba9de595bfa02f3f71edb9684036cf29f2725f212b80ea0eeac743876a 166588 openjdk-11_11.0.11+9-1.debian.tar.xz
+ 2a6304de44920a9abe173f8e46a9fe8abc2a302b60bec4b41c5d77ca438ef361 4527 openjdk-11_11.0.12+7-2.dsc
+ e57b423a97dc0a142bd9655e3a07f2fa2fc69606425411c8eec2a3e0c112c663 78142824 openjdk-11_11.0.12+7.orig.tar.xz
+ f4513c086a478eac3ad7ae6e492a44bd81dc3fe18c7977cfde6bb93e13fd93f7 166436 openjdk-11_11.0.12+7-2.debian.tar.xz
 Homepage: https://openjdk.java.net/
 Package-List: 
  openjdk-11-dbg deb debug optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32
