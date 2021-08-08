@@ -1,6 +1,6 @@
 Package: gdcm
 Binary: libgdcm3.0, libgdcm-tools, libgdcm-dev, libgdcm-cil, python3-gdcm, libvtkgdcm3.0, libvtkgdcm-dev, libvtkgdcm-cil, python3-vtkgdcm, libvtkgdcm-tools, gdcm-doc, libgdcm-java, libvtkgdcm-java
-Version: 3.0.8-1
+Version: 3.0.8-2
 Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
 Uploaders: Steve M. Robbins <smr@debian.org>, Sébastien Jodogne <s.jodogne@gmail.com>, Gert Wollny <gewo@debian.org>
 Build-Depends: cmake, debhelper-compat (= 12), default-jdk [!hppa !hurd-any !kfreebsd-any], dh-strip-nondeterminism, dh-python, python3-dev, pvrg-jpeg, uuid-dev, libz-dev, libexpat-dev, swig, javahelper, libvtk7-dev, libcharls-dev (>= 1.1.0), libopenjp2-7-dev, libvtk7-java [!hppa !hurd-any !kfreebsd-any], libxml2-dev, libjson-c-dev, libpoppler-private-dev, libssl-dev, ninja-build, python3-vtk7, castxml, libsocket++-dev, libpapyrus3-dev, cli-common-dev [amd64 armel armhf i386 mipsel kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el s390x arm64] <!nocil>, mono-devel [amd64 armel armhf i386 mipsel kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el s390x arm64] <!nocil>, xsltproc, docbook-xsl-ns
@@ -10,15 +10,15 @@ Architecture: any all
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- dfb6bf6263f193a61a35cf9c50d245b9 3882 gdcm_3.0.8-1.dsc
+ 719b528384e94c78757ddf37fddee393 3886 gdcm_3.0.8-2.dsc
  8215851163fb8bca6f251c6862327c5c 2935257 gdcm_3.0.8.orig.tar.bz2
- 980429d4b30ac5d46ba24b5204f51301 23040 gdcm_3.0.8-1.debian.tar.xz
+ 2cbec86a580020d47a6a7cac3ee35c20 23252 gdcm_3.0.8-2.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/med-team/gdcm
 Vcs-Git: https://salsa.debian.org/med-team/gdcm.git
 Checksums-Sha256:
- e35c3793aa51ae9d21827375be8c5ec66d58d7898666d1edd205a78949b88b11 3882 gdcm_3.0.8-1.dsc
+ 669faa325c9747bdc8759f2b44e384d0fd83734cf5c6180b95834721ca3f7aeb 3886 gdcm_3.0.8-2.dsc
  33077958ec2fb43361cd4e2889dc901cc4d45c30b7f134950fc57ecd4f0637e1 2935257 gdcm_3.0.8.orig.tar.bz2
- 63157d743eb061539e578cb1c4d08214f3d32641904f4056e9f5ec3ca46b38cd 23040 gdcm_3.0.8-1.debian.tar.xz
+ a41ce73f130c3456d59c1f206d0ed9547a7b66996f75c1dc41832fb5bc613330 23252 gdcm_3.0.8-2.debian.tar.xz
 Homepage: http://gdcm.sourceforge.net/
 Package-List: 
  gdcm-doc deb doc optional arch=all

@@ -2,21 +2,21 @@ Package: linux-signed-arm64
 Binary: kernel-image-5.10.0-8-arm64-di, nic-modules-5.10.0-8-arm64-di, nic-wireless-modules-5.10.0-8-arm64-di, nic-shared-modules-5.10.0-8-arm64-di, usb-serial-modules-5.10.0-8-arm64-di, ppp-modules-5.10.0-8-arm64-di, cdrom-core-modules-5.10.0-8-arm64-di, scsi-core-modules-5.10.0-8-arm64-di, scsi-modules-5.10.0-8-arm64-di, scsi-nic-modules-5.10.0-8-arm64-di, loop-modules-5.10.0-8-arm64-di, btrfs-modules-5.10.0-8-arm64-di, ext4-modules-5.10.0-8-arm64-di, isofs-modules-5.10.0-8-arm64-di, jfs-modules-5.10.0-8-arm64-di, xfs-modules-5.10.0-8-arm64-di, fat-modules-5.10.0-8-arm64-di, squashfs-modules-5.10.0-8-arm64-di, udf-modules-5.10.0-8-arm64-di, fuse-modules-5.10.0-8-arm64-di, f2fs-modules-5.10.0-8-arm64-di, md-modules-5.10.0-8-arm64-di, multipath-modules-5.10.0-8-arm64-di, usb-modules-5.10.0-8-arm64-di, usb-storage-modules-5.10.0-8-arm64-di, fb-modules-5.10.0-8-arm64-di, input-modules-5.10.0-8-arm64-di, event-modules-5.10.0-8-arm64-di, nic-usb-modules-5.10.0-8-arm64-di,
  sata-modules-5.10.0-8-arm64-di, i2c-modules-5.10.0-8-arm64-di, crc-modules-5.10.0-8-arm64-di, crypto-modules-5.10.0-8-arm64-di, crypto-dm-modules-5.10.0-8-arm64-di, efi-modules-5.10.0-8-arm64-di, ata-modules-5.10.0-8-arm64-di, mmc-modules-5.10.0-8-arm64-di, nbd-modules-5.10.0-8-arm64-di, uinput-modules-5.10.0-8-arm64-di, leds-modules-5.10.0-8-arm64-di, mtd-core-modules-5.10.0-8-arm64-di, linux-image-5.10.0-8-arm64, linux-image-arm64, linux-headers-arm64, linux-image-5.10.0-8-cloud-arm64, linux-image-cloud-arm64, linux-headers-cloud-arm64, linux-image-5.10.0-8-rt-arm64, linux-image-rt-arm64,
  linux-headers-rt-arm64
-Version: 5.10.46+3
+Version: 5.10.46+4
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Uploaders: Bastian Blank <waldi@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <benh@debian.org>, Salvatore Bonaccorso <carnil@debian.org>
-Build-Depends: debhelper-compat (= 12), rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (>= 2.102~), linux-kbuild-5.10, linux-support-5.10.0-8 (= 5.10.46-3), linux-image-5.10.0-8-arm64-unsigned (= 5.10.46-3) [arm64], linux-image-5.10.0-8-cloud-arm64-unsigned (= 5.10.46-3) [arm64], linux-image-5.10.0-8-rt-arm64-unsigned (= 5.10.46-3) [arm64]
+Build-Depends: debhelper-compat (= 12), rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (>= 2.102~), linux-kbuild-5.10, linux-support-5.10.0-8 (= 5.10.46-4), linux-image-5.10.0-8-arm64-unsigned (= 5.10.46-4) [arm64], linux-image-5.10.0-8-cloud-arm64-unsigned (= 5.10.46-4) [arm64], linux-image-5.10.0-8-rt-arm64-unsigned (= 5.10.46-4) [arm64]
 Architecture: arm64
 Standards-Version: 4.2.0
 Format: 3.0 (native)
 Files:
- 31f0fbf83872385afbfc0e9191ea239b 7240 linux-signed-arm64_5.10.46+3.dsc
- db940f6d232a94f0000c98c93ba1aa0d 2411632 linux-signed-arm64_5.10.46+3.tar.xz
+ 2f02c479fc95b14a8e808257cccf7f6a 7240 linux-signed-arm64_5.10.46+4.dsc
+ d98c1715a776820819a3422116985f27 2411704 linux-signed-arm64_5.10.46+4.tar.xz
 Vcs-Browser: https://salsa.debian.org/kernel-team/linux
 Vcs-Git: https://salsa.debian.org/kernel-team/linux.git
 Checksums-Sha256:
- b3239318426954f85ff4770c657033f77e525456d3d50f49015a7c5320cccd45 7240 linux-signed-arm64_5.10.46+3.dsc
- 12381c6a7e84331920dbb1855d6bf17e3529c621927fb6558e66791cb1bfc34c 2411632 linux-signed-arm64_5.10.46+3.tar.xz
+ eab1d3f403e8d497659c98ebc7a7c7427ec52dd54288cc07a7c9f5014b58f0a7 7240 linux-signed-arm64_5.10.46+4.dsc
+ b36d604bd74a447acf8c926dc9d82de86f091e76ad1b7278116b3b54dfe75709 2411704 linux-signed-arm64_5.10.46+4.tar.xz
 Homepage: https://www.kernel.org/
 Package-List: 
  ata-modules-5.10.0-8-arm64-di udeb debian-installer optional arch=arm64
