@@ -1,6 +1,6 @@
 Package: node-set-value
 Binary: node-set-value
-Version: 3.0.1-2
+Version: 3.0.1-2+deb11u1
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Uploaders: Pirate Praveen <praveen@debian.org>
 Build-Depends: debhelper-compat (= 12), dh-buildinfo, nodejs, node-is-plain-object, node-extend-shallow, node-to-object-path, node-arr-union <!nocheck>, node-snapdragon-token <!nocheck>, node-sellside-emitter <!nocheck>, node-use <!nocheck>, mocha <!nocheck>, pkg-js-tools (>= 0.9.12~)
@@ -8,19 +8,20 @@ Architecture: all
 Standards-Version: 4.4.1
 Format: 3.0 (quilt)
 Files:
- 116dd573066811d2137d2f3b6a1d8074 2274 node-set-value_3.0.1-2.dsc
+ 77a8dd22fe7eb98128772c1504c8705d 2346 node-set-value_3.0.1-2+deb11u1.dsc
  808c2c501ef8bc1d300df62f263f07fa 50552 node-set-value_3.0.1.orig.tar.gz
- f1fbe738b132c78e1f33c1c6d14a9726 22408 node-set-value_3.0.1-2.debian.tar.xz
+ 76e5092060d7afb08751e06f67ad7262 23000 node-set-value_3.0.1-2+deb11u1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/js-team/node-set-value
 Vcs-Git: https://salsa.debian.org/js-team/node-set-value.git
 Checksums-Sha256:
- 3558ba8cda16cd25f38fe1ddaacc847f607cc2ca071854de1c021ef2acb28666 2274 node-set-value_3.0.1-2.dsc
+ ec7a0f3a8ade45987bf24b0ae636eaa8044d75cd8e3b214e688051a2b14a3611 2346 node-set-value_3.0.1-2+deb11u1.dsc
  3f083dafbfdd17608c7429f7810c552e2ea6c41d627593f78a76c63b18c08175 50552 node-set-value_3.0.1.orig.tar.gz
- 04ca6fc5e6d4259f708a4bb5aef693ccb61efc1e1565e3856ccc22864c66530f 22408 node-set-value_3.0.1-2.debian.tar.xz
+ f8e9b43d2408998b914245bf66d85a7f305d3d5fc541df57dbefa1241874b871 23000 node-set-value_3.0.1-2+deb11u1.debian.tar.xz
 Homepage: https://github.com/jonschlinkert/set-value
 Package-List: 
  node-set-value deb javascript optional arch=all
-Testsuite: autopkgtest-pkg-nodejs
+Testsuite: autopkgtest, autopkgtest-pkg-nodejs
+Testsuite-Triggers: nodejs
 Directory: pool/main/n/node-set-value
 Priority: optional
 Section: javascript

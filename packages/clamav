@@ -1,6 +1,6 @@
 Package: clamav
 Binary: clamav-base, clamav-docs, clamav, libclamav-dev, libclamav9, clamav-daemon, clamdscan, clamav-testfiles, clamav-freshclam, clamav-milter
-Version: 0.103.2+dfsg-2
+Version: 0.103.3+dfsg-0+deb11u1
 Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Uploaders: Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>
 Build-Depends: automake, check, debhelper-compat (= 12), dh-apparmor, dh-strip-nondeterminism, libbz2-dev, libcurl4-openssl-dev, libjson-c-dev | libjson0-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre2-dev, libssl-dev, libsystemd-dev [linux-any], libtfm-dev, libxml2-dev, perl:native, pkg-config, po-debconf, zlib1g-dev
@@ -8,15 +8,15 @@ Architecture: any all
 Standards-Version: 4.5.0
 Format: 3.0 (quilt)
 Files:
- 89c60545537dd62602dde5709244770f 2777 clamav_0.103.2+dfsg-2.dsc
- 246d43d86d170e5aad57d512f4b0f6f8 5123788 clamav_0.103.2+dfsg.orig.tar.xz
- d2368ca7f37aec60d4d6348f50455afe 220168 clamav_0.103.2+dfsg-2.debian.tar.xz
+ 16b7ae94002e6ad527c7d0554cea317d 2983 clamav_0.103.3+dfsg-0+deb11u1.dsc
+ be769904ecaa7fc359fe42f5eacd2327 5124272 clamav_0.103.3+dfsg.orig.tar.xz
+ 60eb5f1aba2a9cee1842cec471185498 220292 clamav_0.103.3+dfsg-0+deb11u1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/clamav-team/clamav
 Vcs-Git: https://salsa.debian.org/clamav-team/clamav.git
 Checksums-Sha256:
- 0ec002a8759ca929b6d78b79c43b4fbb03997ab1fb719b8b0f4b39210b76776a 2777 clamav_0.103.2+dfsg-2.dsc
- 1f5d08342552f4b011521f44dd25e732dc79531ed2b54db385f8520496026371 5123788 clamav_0.103.2+dfsg.orig.tar.xz
- 0a4e2ec8ea847f6a280b3e2de3caf1daf1f99134f3eb76b3bf8afe6df4e4106a 220168 clamav_0.103.2+dfsg-2.debian.tar.xz
+ f2d1e4ff120a58fa76c3da65439cbec7de911eca31f27e0d575399b067e71e57 2983 clamav_0.103.3+dfsg-0+deb11u1.dsc
+ a4b2d0711dfdda03da63d5dffc4e7d6904a3cbfae860f8b2cdf4334930122838 5124272 clamav_0.103.3+dfsg.orig.tar.xz
+ 3b40fae54ff8c033ea63976c5ee8f493a992d984107c2befd77393cfe62f92fb 220292 clamav_0.103.3+dfsg-0+deb11u1.debian.tar.xz
 Homepage: https://www.clamav.net/
 Package-List: 
  clamav deb utils optional arch=any

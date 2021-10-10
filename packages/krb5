@@ -1,6 +1,6 @@
 Package: krb5
 Binary: krb5-user, krb5-kdc, krb5-kdc-ldap, krb5-admin-server, krb5-kpropd, krb5-multidev, libkrb5-dev, libkrb5-dbg, krb5-pkinit, krb5-otp, krb5-k5tls, krb5-doc, libkrb5-3, libgssapi-krb5-2, libgssrpc4, libkadm5srv-mit12, libkadm5clnt-mit12, libk5crypto3, libkdb5-10, libkrb5support0, libkrad0, krb5-gss-samples, krb5-locales, libkrad-dev
-Version: 1.18.3-6
+Version: 1.18.3-6+deb11u1
 Maintainer: Sam Hartman <hartmans@debian.org>
 Uploaders: Russ Allbery <rra@debian.org>, Benjamin Kaduk <kaduk@mit.edu>
 Build-Depends: debhelper-compat (= 13), byacc | bison, comerr-dev, docbook-to-man, libkeyutils-dev [linux-any], libldap2-dev <!stage1>, libsasl2-dev <!stage1>, libncurses5-dev, libssl-dev, ss-dev, libverto-dev (>= 0.2.4), pkg-config
@@ -9,17 +9,15 @@ Architecture: any all
 Standards-Version: 4.5.0
 Format: 3.0 (quilt)
 Files:
- e5d7dd4b7b6f7b754abb2440f5956847 3636 krb5_1.18.3-6.dsc
+ bc7a01129ed3e7b39cfdcd696336d7a6 2971 krb5_1.18.3-6+deb11u1.dsc
  a64e8018a7572e0b4bd477c745129ffc 8715312 krb5_1.18.3.orig.tar.gz
- bca804e12e8dc2de6930e916cd7a2ce3 833 krb5_1.18.3.orig.tar.gz.asc
- e00149582ff1f5d905f65cdb7438345f 105116 krb5_1.18.3-6.debian.tar.xz
+ eec83fcdf4b3baec3a543cee7eeab238 106192 krb5_1.18.3-6+deb11u1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/debian/krb5
 Vcs-Git: https://salsa.debian.org/debian/krb5
 Checksums-Sha256:
- f56d9348388f1f8b55006bd657292939332025e94251feb18463218553d0b44f 3636 krb5_1.18.3-6.dsc
+ db16b93a4beae887fe38dfbb19d1c220501c185bb4416924c4ff531312dba91e 2971 krb5_1.18.3-6+deb11u1.dsc
  e61783c292b5efd9afb45c555a80dd267ac67eebabca42185362bee6c4fbd719 8715312 krb5_1.18.3.orig.tar.gz
- ded19808ba7320ad0bb3ddfb5202845b2ff36a50613af7832f78dd3cb4437419 833 krb5_1.18.3.orig.tar.gz.asc
- f5f85252688ccab0c5c333728911eaf69f9a9759033cba7687435d41f9d5e595 105116 krb5_1.18.3-6.debian.tar.xz
+ c68ecf8e8f4238f8950a7c409392c9a0661a6ad0d5efd88b6f8b0a39f7e8af21 106192 krb5_1.18.3-6+deb11u1.debian.tar.xz
 Homepage: http://web.mit.edu/kerberos/
 Package-List: 
  krb5-admin-server deb net optional arch=any

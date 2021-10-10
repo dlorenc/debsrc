@@ -1,6 +1,6 @@
 Package: glibc
 Binary: libc-bin, libc-dev-bin, libc-devtools, libc-l10n, glibc-doc, glibc-source, locales, locales-all, nscd, libc6, libc6-dev, libc6-dbg, libc6-udeb, libc6.1, libc6.1-dev, libc6.1-dbg, libc6.1-udeb, libc0.3, libc0.3-dev, libc0.3-dbg, libc0.3-udeb, libc0.1, libc0.1-dev, libc0.1-dbg, libc0.1-udeb, libc6-i386, libc6-dev-i386, libc6-sparc, libc6-dev-sparc, libc6-sparc64, libc6-dev-sparc64, libc6-s390, libc6-dev-s390, libc6-amd64, libc6-dev-amd64, libc6-powerpc, libc6-dev-powerpc, libc6-ppc64, libc6-dev-ppc64, libc6-mips32, libc6-dev-mips32, libc6-mipsn32, libc6-dev-mipsn32, libc6-mips64, libc6-dev-mips64, libc0.1-i386, libc0.1-dev-i386, libc6-x32, libc6-dev-x32, libc6-xen, libc0.3-xen, libc6.1-alphaev67
-Version: 2.31-13
+Version: 2.31-13+deb11u2
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>, Samuel Thibault <sthibault@debian.org>
 Build-Depends: gettext, dpkg (>= 1.18.7), dpkg-dev (>= 1.17.14), xz-utils, file, quilt, autoconf, gawk, debhelper (>= 10), rdfind, symlinks, netbase, gperf, bison, linux-libc-dev (>= 3.9) [linux-any], libaudit-dev [linux-any], libcap-dev [linux-any], libselinux-dev [linux-any] <!stage2>, mig-for-host (>= 1.5-3) [hurd-i386], gnumach-dev (>= 2:1.8+git20200710-2~) [hurd-i386], hurd-dev (>= 1:0.9.git20201127-4~) [hurd-i386] | hurd-headers-dev [hurd-i386], kfreebsd-kernel-headers [kfreebsd-any], binutils (>= 2.29), g++-10, g++-10-multilib [amd64 i386 kfreebsd-amd64 mips mipsel mipsn32 mipsn32el mips64 mips64el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64r6 mips64r6el powerpc ppc64 s390x sparc sparc64 x32] <!nobiarch>, gcc-10 (>= 10-20200431) [arm64], gcc-10 (>= 10.1.0-3) [hurd-i386], python3:native, libidn2-0 (>= 2.0.5~) <!nocheck>, libc-bin (>= 2.31) <cross>, libgd-dev <!stage1> <!stage2>
@@ -9,15 +9,15 @@ Architecture: any all
 Standards-Version: 4.2.1
 Format: 3.0 (quilt)
 Files:
- 89ff6cf5fc6d9567267879920e022e9a 8315 glibc_2.31-13.dsc
+ 77d35d3ef9623dc01c8aed298f6244d9 8347 glibc_2.31-13+deb11u2.dsc
  b4cd4b8bb35536d6119ba5314662942c 17254692 glibc_2.31.orig.tar.xz
- 9e6befae0adbc100cb3c2c3229c39808 911724 glibc_2.31-13.debian.tar.xz
+ 9562a32a562ce948e8cd88dd3b3ea8d5 911924 glibc_2.31-13+deb11u2.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 Checksums-Sha256:
- 85cab7f072d1371775f225d3bbf89a7c2baff10fa1c4de0116e9868716c47a97 8315 glibc_2.31-13.dsc
+ ba641c41004c07c52e0f936785c395d2654af6c4dd3c400f7a929c51a26afc5e 8347 glibc_2.31-13+deb11u2.dsc
  3dc7704b6166839c37d7047626fd199f3d4c09aca0d90e48c51c31c967dce34e 17254692 glibc_2.31.orig.tar.xz
- a1f2a1ef54a13edb7185a995f4db050a8fa74f05fe4f271ef0c51d8d99285436 911724 glibc_2.31-13.debian.tar.xz
+ d79509e8f8f91544bcf3dba5f4a17fc9c7d0692bcde8d9a9a32b431e80ce0a95 911924 glibc_2.31-13+deb11u2.debian.tar.xz
 Homepage: https://www.gnu.org/software/libc/libc.html
 Package-List: 
  glibc-doc deb doc optional arch=all profile=!stage1

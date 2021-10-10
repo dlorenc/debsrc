@@ -2,7 +2,7 @@ Package: thunderbird
 Binary: thunderbird, lightning, thunderbird-l10n-all, thunderbird-l10n-ar, thunderbird-l10n-ast, thunderbird-l10n-be, thunderbird-l10n-bg, thunderbird-l10n-br, thunderbird-l10n-ca, thunderbird-l10n-cak, thunderbird-l10n-cs, thunderbird-l10n-cy, thunderbird-l10n-da, thunderbird-l10n-de, thunderbird-l10n-dsb, thunderbird-l10n-el, thunderbird-l10n-en-gb, thunderbird-l10n-es-ar, thunderbird-l10n-es-es, thunderbird-l10n-et, thunderbird-l10n-eu, thunderbird-l10n-fi, thunderbird-l10n-fr, thunderbird-l10n-fy-nl, thunderbird-l10n-ga-ie, thunderbird-l10n-gd, thunderbird-l10n-gl, thunderbird-l10n-he, thunderbird-l10n-hr, thunderbird-l10n-hsb, thunderbird-l10n-hu, thunderbird-l10n-hy-am, thunderbird-l10n-id, thunderbird-l10n-is, thunderbird-l10n-it, thunderbird-l10n-ja, thunderbird-l10n-ka, thunderbird-l10n-kab, thunderbird-l10n-kk, thunderbird-l10n-ko, thunderbird-l10n-lt, thunderbird-l10n-ms, thunderbird-l10n-nb-no, thunderbird-l10n-nl, thunderbird-l10n-nn-no, thunderbird-l10n-pl,
  thunderbird-l10n-pt-br, thunderbird-l10n-pt-pt, thunderbird-l10n-rm, thunderbird-l10n-ro, thunderbird-l10n-ru, thunderbird-l10n-si, thunderbird-l10n-sk, thunderbird-l10n-sl, thunderbird-l10n-sq, thunderbird-l10n-sr, thunderbird-l10n-sv-se, thunderbird-l10n-tr, thunderbird-l10n-uk, thunderbird-l10n-uz, thunderbird-l10n-vi, thunderbird-l10n-zh-cn,
  thunderbird-l10n-zh-tw
-Version: 1:78.12.0-1
+Version: 1:78.14.0-1~deb11u1
 Maintainer: Carsten Schoenert <c.schoenert@t-online.de>
 Uploaders: Christoph Goehre <chris@sigxcpu.org>,
 Build-Depends: autoconf2.13, bash-completion, bzip2, cargo (>= 0.42), cbindgen (>= 0.14), clang, debhelper (>= 10.2.5~), dh-apparmor, dh-exec, dpkg (>= 1.16.18~), dpkg-dev (>= 1.16.18~), libasound2-dev [linux-any], libatk-adaptor, libbotan-2-dev (>= 2.8.0), libbz2-dev, libcairo2-dev (>= 1.10.2-1.1~), libclang-dev, libdbus-glib-1-dev (>= 0.60), libevent-dev (>= 1.4.1), libffi-dev, libfontconfig1-dev, libglib2.0-dev (>= 2.22.0), libgtk2.0-dev, libgtk-3-dev (>= 3.4), libjson-c-dev (>= 0.11), libhunspell-dev (>= 1.5.1~), libicu-dev (>= 64.1~), libidl-dev (>= 0.8.0), libiw-dev [linux-any], libnotify-dev, libnspr4-dev (>= 2:4.25~), libpng-dev, libpulse-dev, libreadline-dev, librust-toml-dev, libstartup-notification0-dev, libvpx-dev (>= 1.5.0), libx11-dev, libx11-xcb-dev, libxau-dev, libxft-dev, libxt-dev, llvm-dev, mesa-common-dev, nodejs (>= 10.19.0), python3, rustc (>= 1.41), unzip, yasm (>= 1.1), zip, zlib1g-dev
@@ -10,17 +10,17 @@ Architecture: amd64 arm64 i386 mips64el ppc64el s390x ppc64 all
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- bed3b50ae6a96a0abd97507eedded819 8135 thunderbird_78.12.0-1.dsc
- e110406293cfc2f269b38b1ae94957e7 11810664 thunderbird_78.12.0.orig-thunderbird-l10n.tar.xz
- f76dbe489e102e1459b25e5b79072e27 372406556 thunderbird_78.12.0.orig.tar.xz
- 3f86848f84e888da36cf7973dc372778 706612 thunderbird_78.12.0-1.debian.tar.xz
+ cfd472f10e7702525c9819478c422867 8167 thunderbird_78.14.0-1~deb11u1.dsc
+ 4c0c3db87a13087f78abbe715614d86e 11809480 thunderbird_78.14.0.orig-thunderbird-l10n.tar.xz
+ b6ae5b0c2473e1da859dfbb20200a741 372484692 thunderbird_78.14.0.orig.tar.xz
+ 41ae5b08a1d9a0f81718d00e76db2dfe 707008 thunderbird_78.14.0-1~deb11u1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/mozilla-team/thunderbird
 Vcs-Git: https://salsa.debian.org/mozilla-team/thunderbird.git
 Checksums-Sha256:
- 9a9de4eccd2456a3a5a91c385cc911c70a44e6d51872a0b3199c79d7ecc0ce2d 8135 thunderbird_78.12.0-1.dsc
- 65fd842bd73b0a6845a61d31c7ccf4687d90509414a1a160dea1236f55e666ca 11810664 thunderbird_78.12.0.orig-thunderbird-l10n.tar.xz
- 0db5581a864e7b6e3137cf0582d027f61eace850c174c127fdd1938fff0ff42c 372406556 thunderbird_78.12.0.orig.tar.xz
- 6022484bd5ed88d495a84b2c1b5103f22faa07d2e71da291d73f7fff3eaffd65 706612 thunderbird_78.12.0-1.debian.tar.xz
+ 251132ade60740f2db57f1822802054c59b34c8aae1109ac87317e5f4d1bdddf 8167 thunderbird_78.14.0-1~deb11u1.dsc
+ 54a3150bcce4c0b2e95d95a9165883bf678d9a8dd44d53a09d8229f5834365d4 11809480 thunderbird_78.14.0.orig-thunderbird-l10n.tar.xz
+ 5aad14cbd05fa04d205e4ded37171213952eb8c5396d95c74dd423ade8d43842 372484692 thunderbird_78.14.0.orig.tar.xz
+ c43971a20df7c44eba8416b1be47f737ed09e4f4fcdb37dbdd1d0725b5ee91f0 707008 thunderbird_78.14.0-1~deb11u1.debian.tar.xz
 Homepage: https://www.thunderbird.net/
 Package-List: 
  lightning deb oldlibs optional arch=all

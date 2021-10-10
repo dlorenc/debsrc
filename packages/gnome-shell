@@ -1,6 +1,6 @@
 Package: gnome-shell
 Binary: gnome-shell, gnome-shell-common, gnome-shell-extension-prefs
-Version: 3.38.4-1
+Version: 3.38.6-1~deb11u1
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: Iain Lane <laney@debian.org>, Laurent Bigonville <bigon@debian.org>
 Build-Depends: appstream, asciidoc-base, bash-completion, dbus <!nocheck>, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gjs, gir1.2-accountsservice-1.0 <!nocheck>, gir1.2-gdm-1.0 (>= 3.18.2) <!nocheck>, gir1.2-geoclue-2.0 <!nocheck>, gir1.2-gnomedesktop-3.0 (>= 3.35.90) <!nocheck>, gir1.2-gweather-3.0 (>= 3.25.91) <!nocheck>, gir1.2-rsvg-2.0 <!nocheck>, gir1.2-upowerglib-1.0 <!nocheck>, gnome-control-center-dev (>= 1:3.4), gnome-pkg-tools (>= 0.11), gnome-settings-daemon-common <!nocheck>, gobject-introspection (>= 1.49.1), gsettings-desktop-schemas-dev (>= 3.33.1), gtk-doc-tools, libasound2-dev, libatk-bridge2.0-dev, libecal2.0-dev (>= 3.33.1), libedataserver1.2-dev (>= 3.33.1), libgcr-3-dev (>= 3.7.5), libgirepository1.0-dev (>= 1.29.15), libgjs-dev (>= 1.65.1), libgl1-mesa-dri <!nocheck>, libglib2.0-dev (>= 2.57.2), libgnome-autoar-0-dev, libgnome-bluetooth-dev (>= 3.9.0) [linux-any], libgnome-desktop-3-dev (>= 3.35.90), libgnome-menu-3-dev, libgstreamer1.0-dev (>= 0.11.92), libgstreamer-plugins-base1.0-dev, libgtk-3-dev (>= 3.21.6), libibus-1.0-dev (>= 1.5.22-2ubuntu2~), libjson-glib-dev, libmutter-7-dev (>= 3.38.0), libnm-dev (>= 1.10.4) [linux-any], libpipewire-0.3-dev (>= 0.3.10) [linux-any], libpolkit-agent-1-dev (>= 0.100), libpulse-dev (>= 13), libsecret-1-dev, libstartup-notification0-dev (>= 0.11), libsystemd-dev [linux-any], libx11-dev, libxfixes-dev, libxml2-dev, mesa-common-dev, meson (>= 0.53.0), pkg-config (>= 0.22), sassc, systemd [linux-any], xauth <!nocheck>, xvfb <!nocheck>, xwayland <!nocheck>
@@ -8,17 +8,17 @@ Architecture: linux-any all
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- c7913943c1972d3c6353c35b51132aaf 3814 gnome-shell_3.38.4-1.dsc
- e6c891c430016ced449e38661ddf6dec 1815880 gnome-shell_3.38.4.orig.tar.xz
- 2db18e5770e612333ffa43047dc63d57 34220 gnome-shell_3.38.4-1.debian.tar.xz
+ af13c05b76b15f3af6415e1c831e316b 3873 gnome-shell_3.38.6-1~deb11u1.dsc
+ 6349ab652492c9af9f759c3d067134a0 1816532 gnome-shell_3.38.6.orig.tar.xz
+ f7838abf8c14497818e1cbe23b34051a 34588 gnome-shell_3.38.6-1~deb11u1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-shell
-Vcs-Git: https://salsa.debian.org/gnome-team/gnome-shell.git
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-shell.git -b debian/bullseye
 Checksums-Sha256:
- 883d7900f32aac8967428ec18caea1f0c8e5fd4baf4e7d9c44a5b2b8acf338b8 3814 gnome-shell_3.38.4-1.dsc
- 91824abd0b4beabc8d061f7771f3d38cab73f56c6e3dbf435fd4a0b4b7e85dbe 1815880 gnome-shell_3.38.4.orig.tar.xz
- d54a2f33419cb5e0772d98dbd519090ff1f291a02bb419128c970b875b20724f 34220 gnome-shell_3.38.4-1.debian.tar.xz
+ af2c9742ab7bf76145113ccf424c842b833dc1d0befe99bc92545dc69c5fd316 3873 gnome-shell_3.38.6-1~deb11u1.dsc
+ 21559e1766fcce7ac0ba2a5910a7409c1d99bda71ddd9941825ad1d0983c156b 1816532 gnome-shell_3.38.6.orig.tar.xz
+ bdae623400817ce1d7595cc3e1e73d373be3d957f0b5c172c4560d622b743c8e 34588 gnome-shell_3.38.6-1~deb11u1.debian.tar.xz
 Homepage: https://wiki.gnome.org/Projects/GnomeShell
-Dgit: d0e535e867c019c0eb027fb8539ceac410804ac0 debian archive/debian/3.38.4-1 https://git.dgit.debian.org/gnome-shell
+Dgit: 5be6b0b6bf262373d21c232c22e8b192a0ea6a81 debian archive/debian/3.38.6-1_deb11u1 https://git.dgit.debian.org/gnome-shell
 Package-List: 
  gnome-shell deb gnome optional arch=linux-any
  gnome-shell-common deb gnome optional arch=all
