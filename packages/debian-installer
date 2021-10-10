@@ -1,6 +1,6 @@
 Package: debian-installer
 Binary: debian-installer
-Version: 20210731
+Version: 20210731+deb11u1
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Uploaders: Cyril Brulebois <kibi@debian.org>
 Build-Depends: debhelper (>= 11), apt (>= 0.8.16), apt-utils, gnupg, debian-archive-keyring (>= 2006.11.22), dctrl-tools, wget, bc, xsltproc, docbook-xml, docbook-xsl, libbogl-dev, libgcc-s1 [!hppa !m68k], libgcc-s2 [m68k], libgcc-s4 [hppa], genext2fs (>= 1.3-7.1), e2fsprogs, genisoimage [!s390 !s390x], genromfs [sparc sparc64], dosfstools [hurd-i386 i386 ia64 m68k amd64 armhf arm64], cpio (>= 2.11+dfsg-6), xz-utils, devio [armeb armel], dns323-firmware-tools (>= 0.7.3-1~) [armel], u-boot-tools [armel armhf arm64], syslinux [i386 amd64], syslinux-utils [i386 amd64], isolinux [i386 amd64], pxelinux [i386 amd64], syslinux-common (>= 3:6) [i386 amd64], aboot (>= 0.9b-2) [alpha], palo [hppa], sparc-utils [sparc sparc64], atari-bootstrap [m68k], vmelilo [m68k], m68k-vme-tftplilo [m68k], amiboot [m68k], emile [m68k], emile-bootblocks [m68k], shim-signed [amd64 i386 arm64], grub-efi-amd64-signed [amd64], grub-efi-ia32-signed [i386], grub-efi-arm64-signed [arm64], grub-efi-arm64-bin [arm64], grub-efi-ia32-bin [hurd-i386 i386], grub-efi-ia64-bin [ia64], grub-efi-arm-bin [armhf], grub-common [amd64 arm64 i386], xorriso, grub-ieee1275-bin [powerpc ppc64 ppc64el sparc sparc64], u-boot-imx (>= 2019.01+dfsg-3) [armhf], u-boot-omap (>= 2016.09~rc1) [armhf], u-boot-sunxi (>= 2019.07+dfsg-1) [armhf], u-boot-sunxi (>= 2021.01+dfsg-1~) [arm64], u-boot-rockchip (>= 2020.04+dfsg-1~) [armhf], u-boot-rockchip (>= 2021.01+dfsg-1~) [arm64], arm-trusted-firmware [arm64], device-tree-compiler [arm64], u-boot (>= 2016.01+dfsg1-1~) [armel], tofrodos [i386 amd64 kfreebsd-i386 kfreebsd-amd64], mtools [i386 ia64 m68k amd64 armhf arm64 kfreebsd-i386 kfreebsd-amd64 hurd-i386], kmod [linux-any], bf-utf-source [!s390 !s390x], openssl, win32-loader (>= 0.7.2) [i386 amd64 kfreebsd-i386 kfreebsd-amd64 hurd-i386], makefs (>= 20100306-5+kbsd8u1~) [kfreebsd-any], grub-pc (>= 2.02~beta2~) [kfreebsd-i386 kfreebsd-amd64 hurd-i386], xorriso (>= 1.3.2-1~) [kfreebsd-i386 kfreebsd-amd64 hurd-i386], debian-ports-archive-keyring [alpha hppa ia64 m68k powerpc powerpcspe ppc64 riscv64 sh4 sparc64 x32], librsvg2-bin [any-amd64 any-i386], fdisk [amd64 arm64 armhf i386], fontconfig
@@ -8,13 +8,13 @@ Architecture: any
 Standards-Version: 4.3.0
 Format: 1.0
 Files:
- 763a314b485db084ef7ef239be1541bb 3817 debian-installer_20210731.dsc
- a3f337fdc8d4e3b60405e2fb9776d959 1417643 debian-installer_20210731.tar.gz
+ 781fc35fe526c5643011d0baf3027db5 3849 debian-installer_20210731+deb11u1.dsc
+ c838933bbe9a06ca60c5dd8b581d7aad 1417713 debian-installer_20210731+deb11u1.tar.gz
 Vcs-Browser: https://salsa.debian.org/installer-team/debian-installer
 Vcs-Git: https://salsa.debian.org/installer-team/debian-installer.git
 Checksums-Sha256:
- a33cd187e9c86f066f84c4d511918d7be760aca848799946d912610a81af2a17 3817 debian-installer_20210731.dsc
- 49a64cf2868e767aaa80e7bc87d5a8ed4d7892b43615f9ce59ad24712229e210 1417643 debian-installer_20210731.tar.gz
+ 46e0e1fd1e5d12dc96cfc45813e1b25f87db4d53900b171d561aac2bacf781bb 3849 debian-installer_20210731+deb11u1.dsc
+ e63bb3618cbf715e57d0283b2bd0ea1427fdf451ace54a66c3fe404d6746d73a 1417713 debian-installer_20210731+deb11u1.tar.gz
 Package-List: 
  debian-installer deb devel optional arch=any
 Directory: pool/main/d/debian-installer

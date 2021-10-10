@@ -1,6 +1,6 @@
 Package: nodejs
 Binary: libnode-dev, nodejs, libnode72, nodejs-doc
-Version: 12.21.0~dfsg-5
+Version: 12.22.5~dfsg-2~11u1
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>
 Uploaders: Jérémy Lal <kapouer@melix.org>, Jonas Smedegaard <dr@jones.dk>
 Build-Depends: debhelper-compat (= 13), dh-buildinfo, bash-completion, ca-certificates, curl, gyp (>= 0.1~svn1773), jq, libbrotli-dev, libc-ares-dev (>= 1.14~), libhttp-parser-dev (>= 2.9.2~), libicu-dev (>= 64.0~), libkvm-dev [kfreebsd-any], libnghttp2-dev (>= 1.41.0~), libssl-dev (>= 1.1.1~), libuv1-dev (>= 1.33.0~), node-acorn (>= 6.2.1~), openssl (>= 1.1.1~), pkg-config, pkg-js-tools (>= 0.8.2~), python3, python3-distutils, procps, zlib1g-dev
@@ -9,17 +9,17 @@ Architecture: amd64 arm64 armhf i386 kfreebsd-i386 kfreebsd-amd64 mips mips64el 
 Standards-Version: 4.5.1
 Format: 3.0 (quilt)
 Files:
- 31d5f0132557455aa7b8a53636fa38cc 3455 nodejs_12.21.0~dfsg-5.dsc
- 9a27960899e8ffb5b02cf9e03f291ca9 85872 nodejs_12.21.0~dfsg.orig-types-node.tar.xz
- e313bcf7381cc383ab0a4118133e1c64 18541276 nodejs_12.21.0~dfsg.orig.tar.xz
- b3df941ada9ae136206c93029d223c99 136152 nodejs_12.21.0~dfsg-5.debian.tar.xz
+ ed1a25d4366f4253b2157ee158d8046b 3475 nodejs_12.22.5~dfsg-2~11u1.dsc
+ eaaf8495a8bd6bfd90a7c39d91f23b91 86828 nodejs_12.22.5~dfsg.orig-types-node.tar.xz
+ 587a78fe6122176f72edb491c7e1e8ee 18570676 nodejs_12.22.5~dfsg.orig.tar.xz
+ 6e471f5e682a5eb8508fcba4123b074b 136520 nodejs_12.22.5~dfsg-2~11u1.debian.tar.xz
 Vcs-Browser: https://salsa.debian.org/js-team/nodejs/tree/master-12.x
 Vcs-Git: https://salsa.debian.org/js-team/nodejs.git -b master-12.x
 Checksums-Sha256:
- 79bc2792f67fd820162533ab3d5eb517cec6aa0b34dcba6f6837a30a17b4dfb1 3455 nodejs_12.21.0~dfsg-5.dsc
- 3a8f0cddc43133b274d01d509ed991a87f9fa3329237d147c326294a5eb529e8 85872 nodejs_12.21.0~dfsg.orig-types-node.tar.xz
- a445fdeb032d03fd940ceaf54aa40055d10c19e8af520a6620427cee407f4738 18541276 nodejs_12.21.0~dfsg.orig.tar.xz
- 35e0b28999aa2cb484822bb9ffc3fea3eea3ad384e936663dabe41fa5547a9da 136152 nodejs_12.21.0~dfsg-5.debian.tar.xz
+ 124ad375a7ba47f51d99038e58fe855fa4383ad39a33fda69b67553b28c5d33b 3475 nodejs_12.22.5~dfsg-2~11u1.dsc
+ bdab39e82c40fac39343a912036797d827aec81bc34d4395d14f07e95ddb8e0a 86828 nodejs_12.22.5~dfsg.orig-types-node.tar.xz
+ 63a16a838883b323c90c149dc7dc950761edf87c17781318ada6f843b1296e2d 18570676 nodejs_12.22.5~dfsg.orig.tar.xz
+ 27abdf99e56cf3c337f1e320d5b2d740d103cbbd4136e695928d0791350c25cb 136520 nodejs_12.22.5~dfsg-2~11u1.debian.tar.xz
 Homepage: https://nodejs.org/
 Package-List: 
  libnode-dev deb libdevel optional arch=amd64,arm64,armhf,i386,kfreebsd-i386,kfreebsd-amd64,mips,mips64el,mips64r6el,mipsel,ppc64,ppc64el,s390x

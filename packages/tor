@@ -1,6 +1,6 @@
 Package: tor
 Binary: tor, tor-geoipdb
-Version: 0.4.5.9-1
+Version: 0.4.5.10-1~deb11u1
 Maintainer: Peter Palfrader <weasel@debian.org>
 Build-Depends: debhelper (>= 9.20160709), quilt, libssl-dev, zlib1g-dev, libevent-dev (>= 1.1), asciidoc (>= 8.2), docbook-xml, docbook-xsl, xmlto, dh-apparmor, libseccomp-dev [amd64 i386], libsystemd-dev [linux-any], pkg-config [linux-any], libcap-dev [linux-any], dh-autoreconf, liblzma-dev, libzstd-dev, dh-runit (>= 2.8.8)
 Build-Conflicts: libnacl-dev, libseccomp-dev [!amd64 !i386]
@@ -8,15 +8,15 @@ Architecture: any all
 Standards-Version: 4.4.0
 Format: 1.0
 Files:
- a36bdc1df5a25a017df13e17c5dcacab 1961 tor_0.4.5.9-1.dsc
- 103c96c9d553e34c0ae25dd0cb587b04 7840294 tor_0.4.5.9.orig.tar.gz
- ee016a401fa3483e35674d41146ad744 53060 tor_0.4.5.9-1.diff.gz
+ ef8ec29d1fcbc14512bf714e8a9ff90a 2000 tor_0.4.5.10-1~deb11u1.dsc
+ 8b64b79f12f5debe3dc7efb5d75f8673 7870323 tor_0.4.5.10.orig.tar.gz
+ 95b680fc63c62454a8598f17fb622ecb 53294 tor_0.4.5.10-1~deb11u1.diff.gz
 Vcs-Browser: https://gitweb.torproject.org/debian/tor.git
 Vcs-Git: https://git.torproject.org/debian/tor.git
 Checksums-Sha256:
- ec32b3bdb191945168defaac1c52b102959e90bce59314dff8d27c3758918489 1961 tor_0.4.5.9-1.dsc
- f304e456102ed26c39e5f16ece2115585398cdb4e67455139c86ea43cdf70856 7840294 tor_0.4.5.9.orig.tar.gz
- a47e415414d32a3cee0c45ca86ba5531f4e952422f2cd7c218f7755776f78449 53060 tor_0.4.5.9-1.diff.gz
+ 95231d175beecfd897a973c984ce544849c12e062df2a81c9ae341478f21c473 2000 tor_0.4.5.10-1~deb11u1.dsc
+ 8fe32222f8f2b4e65c6f50ac32eb4dfca59b8af71d0d16781f7ee5bec4c00743 7870323 tor_0.4.5.10.orig.tar.gz
+ 1c3cb7deb4bc6b0dda7d839b5de086b68551e9ead81e7a13ce68849d75f7a9f1 53294 tor_0.4.5.10-1~deb11u1.diff.gz
 Homepage: https://www.torproject.org/
 Package-List: 
  tor deb net optional arch=any
